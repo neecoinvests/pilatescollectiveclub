@@ -11,7 +11,7 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Gifts for Mom (2026)",
-  description: "The best pilates gifts for your mom — thoughtful, quality picks she'll actually use every class. Manduka mats, Lululemon leggings, foam rollers, and more.",
+  description: "The best pilates gifts for your mom: thoughtful, quality picks she'll actually use every class. Manduka mats, Lululemon leggings, foam rollers, and more.",
   keywords: [
     "best pilates gifts for mom",
     "pilates gift ideas for mother",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "Best Pilates Gifts for Mom (2026)",
-    description: "Thoughtful pilates gifts for your mom — quality picks she'll love and use every class.",
+    description: "Thoughtful pilates gifts for your mom: quality picks she'll love and use every class.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-gifts-for-mom",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/stitch-studio-reception.png", width: 1200, height: 630, alt: "Best Pilates Gifts for Mom 2026" }],
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Gifts for Mom (2026)",
-    description: "The pilates gifts your mom will actually reach for — every class, every time.",
+    description: "The pilates gifts your mom will actually reach for, every class, every time.",
     images: ["https://pilatescollectiveclub.com/pictures/stitch-studio-reception.png"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/best-pilates-gifts-for-mom" },
@@ -45,7 +45,7 @@ const PRODUCTS = [
     name: "Manduka PRO Yoga & Pilates Mat",
     price: "$144.00",
     verdict: "The Heirloom Gift",
-    description: "If she's been rolling out a basic studio mat or an entry-level mat she bought years ago, the Manduka PRO is the upgrade she hasn't given herself. It is 6mm thick for full joint cushioning, made from a high-density closed-cell PVC that never absorbs moisture or odour, and backed by a lifetime guarantee — Manduka replaces it free if it ever wears out. Non-slip on both sides, heavy enough to stay anchored, and available in a range of refined colours. Professional instructors buy this mat for themselves. It is the most enduring, practical gift in pilates.",
+    description: "If she's been rolling out a basic studio mat or an entry-level mat she bought years ago, the Manduka PRO is the upgrade she hasn't given herself. It is 6mm thick for full joint cushioning, made from a high-density closed-cell PVC that never absorbs moisture or odour, and backed by a lifetime guarantee: Manduka replaces it free if it ever wears out. Non-slip on both sides, heavy enough to stay anchored, and available in a range of refined colours. Professional instructors buy this mat for themselves. It is the most enduring, practical gift in pilates.",
     affiliateUrl: "https://www.amazon.com/dp/B0066T7I54?tag=pilatescollective-20",
   },
   {
@@ -53,7 +53,7 @@ const PRODUCTS = [
     name: "Lululemon Align High-Rise Legging 25\"",
     price: "$98.00",
     verdict: "The Legging She'll Wear to Every Class",
-    description: "The Lululemon Align has become the default pilates legging because nothing else feels like it at the price. The Nulu fabric is second-skin light — genuinely soft in a way that synthetic fabrics rarely achieve — and fully opaque in every colour. The high waist doesn't roll or dig. The 25-inch inseam is the ideal length for reformer footwork. If she's been wearing older leggings or anything that pulls down during practice, this is the gift that changes her morning routine. Available in over 30 colours — choose one she's mentioned or stick to black.",
+    description: "The Lululemon Align has become the default pilates legging because nothing else feels like it at the price. The Nulu fabric is second-skin light, genuinely soft in a way that synthetic fabrics rarely achieve, and fully opaque in every colour. The high waist doesn't roll or dig. The 25-inch inseam is the ideal length for reformer footwork. If she's been wearing older leggings or anything that pulls down during practice, this is the gift that changes her morning routine. Available in over 30 colours: choose one she's mentioned or stick to black.",
     affiliateUrl: "https://www.amazon.com/dp/B08M8ZTKJS?tag=pilatescollective-20",
   },
   {
@@ -61,7 +61,7 @@ const PRODUCTS = [
     name: "TriggerPoint GRID Foam Roller",
     price: "$28.99",
     verdict: "Best Recovery Gift",
-    description: "The TriggerPoint GRID is the foam roller that physical therapists actually recommend — not a generic cylinder from a sporting goods store. Its multi-density exterior (three distinct surface zones that replicate a therapist's fingers, knuckles, and palm) works the thoracic spine, IT band, calves, and hip flexors that accumulate tension in pilates practice. The hollow core supports up to 500 lbs and will never compress over years of use. She'll reach for it before and after every class. At $36 it is one of the best-value recovery gifts that exists.",
+    description: "The TriggerPoint GRID is the foam roller that physical therapists actually recommend, not a generic cylinder from a sporting goods store. Its multi-density exterior (three distinct surface zones that replicate a therapist's fingers, knuckles, and palm) works the thoracic spine, IT band, calves, and hip flexors that accumulate tension in pilates practice. The hollow core supports up to 500 lbs and will never compress over years of use. She'll reach for it before and after every class. At $36 it is one of the best-value recovery gifts that exists.",
     affiliateUrl: "https://www.amazon.com/dp/B0040EGNIU?tag=pilatescollective-20",
   },
   {
@@ -69,7 +69,7 @@ const PRODUCTS = [
     name: "Alo Yoga Muse Sweatshirt",
     price: "$114",
     verdict: "Best Studio-to-Street Layer",
-    description: "Alo's Muse Sweatshirt has become a staple in the changing rooms of the best pilates studios — it's the layer that instructors and regulars reach for the moment class ends. Made from Alo's Accolade fleece, it's midweight, cropped, and draped beautifully over studio leggings. The relaxed fit and understated branding mean it works from studio to coffee without looking like gym wear. Available in Alo's signature palette of bone, espresso, and dusty slate. A gift that arrives with an immediate use. Not sold on Amazon: this link goes to Alo Yoga's own site.",
+    description: "Alo's Muse Sweatshirt has become a staple in the changing rooms of the best pilates studios: it's the layer that instructors and regulars reach for the moment class ends. Made from Alo's Accolade fleece, it's midweight, cropped, and draped beautifully over studio leggings. The relaxed fit and understated branding mean it works from studio to coffee without looking like gym wear. Available in Alo's signature palette of bone, espresso, and dusty slate. A gift that arrives with an immediate use. Not sold on Amazon: this link goes to Alo Yoga's own site.",
     affiliateUrl: "https://www.aloyoga.com",
   },
   {
@@ -77,7 +77,7 @@ const PRODUCTS = [
     name: "Lululemon Everywhere Belt Bag Large 2L",
     price: "$38",
     verdict: "The Bag Everyone Has",
-    description: "The Lululemon belt bag is not a trend — it has become a permanent fixture in pilates studio culture, hanging on lockers and clipped to tote bags across the country. The 2L large version fits a phone, keys, cards, lip balm, and a snack. Water-repellent ripstop fabric, a quick-access front zip, and an adjustable strap that works worn crossbody or around the waist. At $48 it is a considered gift at an accessible price — practical, recognisable, and used every single day. Not sold on Amazon: this link goes to Lululemon's own site.",
+    description: "The Lululemon belt bag is not a trend: it has become a permanent fixture in pilates studio culture, hanging on lockers and clipped to tote bags across the country. The 2L large version fits a phone, keys, cards, lip balm, and a snack. Water-repellent ripstop fabric, a quick-access front zip, and an adjustable strap that works worn crossbody or around the waist. At $48 it is a considered gift at an accessible price: practical, recognisable, and used every single day. Not sold on Amazon: this link goes to Lululemon's own site.",
     affiliateUrl: "https://shop.lululemon.com",
   },
   {
@@ -85,7 +85,7 @@ const PRODUCTS = [
     name: "Theraband Professional Resistance Band Set",
     price: "$19.47",
     verdict: "Most Useful Under-$30 Gift",
-    description: "Theraband is the clinical standard — the brand used in hospital physiotherapy and prescribed by sports medicine physicians. The professional set includes six colour-coded resistance levels, pre-cut to exercise length, covering everything from gentle warm-up to serious conditioning. For a practitioner building a home practice or doing supplementary work between studio sessions, this set becomes a daily tool. At $26 it is the highest-value pilates gift per dollar on this list — practical, durable, and genuinely useful every week.",
+    description: "Theraband is the clinical standard: the brand used in hospital physiotherapy and prescribed by sports medicine physicians. The professional set includes six colour-coded resistance levels, pre-cut to exercise length, covering everything from gentle warm-up to serious conditioning. For a practitioner building a home practice or doing supplementary work between studio sessions, this set becomes a daily tool. At $26 it is the highest-value pilates gift per dollar on this list: practical, durable, and genuinely useful every week.",
     affiliateUrl: "https://www.amazon.com/dp/B07RF9FYM6?tag=pilatescollective-20",
   },
 ];
@@ -93,7 +93,7 @@ const PRODUCTS = [
 const CRITERIA = [
   {
     heading: "Think about where she is in her practice",
-    body: "A mom who has been doing pilates for years already has basics — she doesn't need another mat or resistance bands. She's ready for the upgrade: better leggings, a professional mat, or a quality recovery tool. A beginner mom needs fundamentals first.",
+    body: "A mom who has been doing pilates for years already has basics: she doesn't need another mat or resistance bands. She's ready for the upgrade: better leggings, a professional mat, or a quality recovery tool. A beginner mom needs fundamentals first.",
   },
   {
     heading: "Prioritise quality over novelty",
@@ -105,14 +105,14 @@ const CRITERIA = [
   },
   {
     heading: "Clothes require knowing her size",
-    body: "If you're confident about her size, leggings and sweatshirts are outstanding gifts. If not, opt for accessories and equipment — mats, bags, rollers, and bands work regardless of size and carry the same sense of occasion as clothing.",
+    body: "If you're confident about her size, leggings and sweatshirts are outstanding gifts. If not, opt for accessories and equipment: mats, bags, rollers, and bands work regardless of size and carry the same sense of occasion as clothing.",
   },
 ];
 
 const FAQ = [
   {
     q: "What is the best pilates gift for mom?",
-    a: "The Manduka PRO mat ($144) is the best pilates gift for a mom who practices regularly — it is lifetime-guaranteed, used by professional instructors, and is a meaningful upgrade from any basic mat. For a more accessible gift, the Lululemon Align Legging ($98) or TriggerPoint GRID Roller ($28.99) are excellent choices at their respective price points.",
+    a: "The Manduka PRO mat ($144) is the best pilates gift for a mom who practices regularly: it is lifetime-guaranteed, used by professional instructors, and is a meaningful upgrade from any basic mat. For a more accessible gift, the Lululemon Align Legging ($98) or TriggerPoint GRID Roller ($28.99) are excellent choices at their respective price points.",
   },
   {
     q: "What do you get a mom who loves pilates?",
@@ -120,16 +120,16 @@ const FAQ = [
   },
   {
     q: "Is the Manduka PRO mat worth the price as a gift?",
-    a: "Yes — the Manduka PRO at $144 is worth every dollar as a gift for a mom who practices regularly. It comes with a lifetime guarantee (Manduka replaces it free if it ever wears out), the closed-cell surface never absorbs sweat or odour, and it is the mat that professional instructors choose for themselves. It will outlast any cheaper mat by years.",
+    a: "Yes: the Manduka PRO at $144 is worth every dollar as a gift for a mom who practices regularly. It comes with a lifetime guarantee (Manduka replaces it free if it ever wears out), the closed-cell surface never absorbs sweat or odour, and it is the mat that professional instructors choose for themselves. It will outlast any cheaper mat by years.",
   },
   {
     q: "What pilates gift is good for Mother's Day?",
-    a: "The Lululemon Align Legging ($98) is ideal for Mother's Day — it arrives feeling personal and considered, it's used at every class, and the wide colour range means you can choose something she's mentioned. The TriggerPoint GRID Roller ($28.99) is the best under-$50 Mother's Day pilates gift. Both are available on Amazon with reliable fast shipping.",
+    a: "The Lululemon Align Legging ($98) is ideal for Mother's Day: it arrives feeling personal and considered, it's used at every class, and the wide colour range means you can choose something she's mentioned. The TriggerPoint GRID Roller ($28.99) is the best under-$50 Mother's Day pilates gift. Both are available on Amazon with reliable fast shipping.",
   },
 ];
 
 const RELATED = [
-  { title: "Best Pilates Gifts for Your Girlfriend", excerpt: "Lululemon, Alo, Manduka — the picks she'll actually use.", href: "/blog/best-pilates-gifts-for-girlfriend", category: "Guide", readTime: "9 min", imageUrl: "/pictures/stitch-retail-activewear.png" },
+  { title: "Best Pilates Gifts for Your Girlfriend", excerpt: "Lululemon, Alo, Manduka: the picks she'll actually use.", href: "/blog/best-pilates-gifts-for-girlfriend", category: "Guide", readTime: "9 min", imageUrl: "/pictures/stitch-retail-activewear.png" },
   { title: "Best Luxury Pilates Gifts", excerpt: "Investment-grade gifts for the serious practitioner.", href: "/blog/best-luxury-pilates-gifts", category: "Guide", readTime: "9 min", imageUrl: "/pictures/stitch-studio-bench-towels.png" },
   { title: "Best Pilates Gifts Under $100", excerpt: "Quality picks that feel premium without the premium price.", href: "/blog/best-pilates-gifts-under-100", category: "Guide", readTime: "8 min", imageUrl: "/pictures/stitch-studio-shelf-props.png" },
 ];
@@ -140,7 +140,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Best Pilates Gifts for Mom (2026)",
-      "description": "The best pilates gifts for your mom — thoughtful, quality picks she'll actually use every class.",
+      "description": "The best pilates gifts for your mom: thoughtful, quality picks she'll actually use every class.",
       "url": "https://pilatescollectiveclub.com/blog/best-pilates-gifts-for-mom",
       "image": "https://pilatescollectiveclub.com/pictures/stitch-studio-reception.png",
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -192,7 +192,7 @@ export default function Page() {
           <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
           <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
           <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-            If your mom does pilates, she has a routine she's built around it — and the right gift fits right into that routine. Not a gesture, not a spa voucher: the mat she's been meaning to upgrade, the leggings she wears until they pill, the foam roller she's borrowed from the studio. This guide covers the six gifts that land every time for a pilates-practising mom, chosen for quality she'll notice and practicality she'll appreciate every single class.
+            If your mom does pilates, she has a routine she's built around it, and the right gift fits right into that routine. Not a gesture, not a spa voucher: the mat she's been meaning to upgrade, the leggings she wears until they pill, the foam roller she's borrowed from the studio. This guide covers the six gifts that land every time for a pilates-practising mom, chosen for quality she'll notice and practicality she'll appreciate every single class.
           </p>
         </div>
       </section>

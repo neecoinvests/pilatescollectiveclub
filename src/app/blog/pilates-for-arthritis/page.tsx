@@ -16,15 +16,15 @@ export const metadata: Metadata = {
   keywords: ["pilates for arthritis", "pilates osteoarthritis", "pilates rheumatoid arthritis", "pilates for joint pain", "gentle pilates for arthritis", "pilates for arthritis in knees", "pilates for arthritis in hands", "reformer pilates arthritis"],
   openGraph: {
     title: "Pilates for Arthritis: Benefits, Safe Exercises & Modifications",
-    description: "Evidence-based guide to Pilates for arthritis — what works, what to modify, and what to avoid.",
+    description: "Evidence-based guide to Pilates for arthritis: what works, what to modify, and what to avoid.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/pilates-for-arthritis",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg", width: 1200, height: 630, alt: "Pilates for Arthritis — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg", width: 1200, height: 630, alt: "Pilates for Arthritis: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Pilates for Arthritis: Benefits & Safe Exercises",
-    description: "Evidence-based guide to Pilates for arthritis — what works, what to modify.",
+    description: "Evidence-based guide to Pilates for arthritis: what works, what to modify.",
     images: ["https://pilatescollectiveclub.com/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/pilates-for-arthritis" },
@@ -48,7 +48,7 @@ const PRODUCTS = [
     price: "$23.49",
     verdict: "Best wrist support for hand and wrist arthritis",
     description:
-      "For practitioners with wrist or hand arthritis, a lightweight compression wrist brace during Pilates exercises that require wrist loading — quadruped, planks, push-up positions on the reformer — can meaningfully reduce pain and allow fuller participation. The brace provides proprioceptive feedback that reinforces neutral wrist positioning and reduces the micro-movements that provoke arthritic pain. Look for a design with a palmar stay for support and an open-finger configuration that does not restrict the grip needed for reformer straps. Most practitioners with moderate wrist arthritis find they can participate in exercises they would otherwise avoid with appropriate wrist support in place.",
+      "For practitioners with wrist or hand arthritis, a lightweight compression wrist brace during Pilates exercises that require wrist loading (quadruped, planks, push-up positions on the reformer) can meaningfully reduce pain and allow fuller participation. The brace provides proprioceptive feedback that reinforces neutral wrist positioning and reduces the micro-movements that provoke arthritic pain. Look for a design with a palmar stay for support and an open-finger configuration that does not restrict the grip needed for reformer straps. Most practitioners with moderate wrist arthritis find they can participate in exercises they would otherwise avoid with appropriate wrist support in place.",
     affiliateUrl: "https://www.amazon.com/dp/B0026RHGAM?tag=pilatescollective-20",
     tag: "Best for Wrist Arthritis",
   },
@@ -58,7 +58,7 @@ const PRODUCTS = [
     price: "$11.39",
     verdict: "Best knee support for Pilates",
     description:
-      "A knee compression sleeve worn during Pilates provides warmth, proprioceptive support, and mild compression that can reduce pain and improve joint awareness for practitioners with knee osteoarthritis or inflammatory arthritis. The warmth effect is particularly relevant in studio environments where lying on a cool reformer can stiffen arthritic joints mid-session. Copper Compression's sleeve design is low-profile enough to wear under standard Pilates leggings without bulk, and the graduated compression maintains position through a full class without sliding down. The sleeve is most effective as a complement to appropriate exercise modification — not as a substitute for informing an instructor about joint limitations.",
+      "A knee compression sleeve worn during Pilates provides warmth, proprioceptive support, and mild compression that can reduce pain and improve joint awareness for practitioners with knee osteoarthritis or inflammatory arthritis. The warmth effect is particularly relevant in studio environments where lying on a cool reformer can stiffen arthritic joints mid-session. Copper Compression's sleeve design is low-profile enough to wear under standard Pilates leggings without bulk, and the graduated compression maintains position through a full class without sliding down. The sleeve is most effective as a complement to appropriate exercise modification, not as a substitute for informing an instructor about joint limitations.",
     affiliateUrl: "https://www.amazon.com/dp/B07NQF4HNV?tag=pilatescollective-20",
     tag: "Best for Knee Arthritis",
   },
@@ -78,7 +78,7 @@ const PRODUCTS = [
     price: "From $22",
     verdict: "Best pre-session joint preparation",
     description:
-      "Applying gentle heat to affected joints for 10-15 minutes before a Pilates session reduces stiffness and improves range of motion — a well-evidenced intervention for both osteoarthritis and rheumatoid arthritis (outside of active flares). A microwaveable heat pad allows targeted application to knees, hips, or hands before practice without the impracticality of a hot bath. The warmth effect reduces the viscosity of synovial fluid, making initial movement less painful and allowing a more productive warm-up phase at the start of class. Post-session ice application to any joints that have been loaded is equally appropriate and reduces post-exercise inflammation for practitioners who find they experience soreness after class.",
+      "Applying gentle heat to affected joints for 10-15 minutes before a Pilates session reduces stiffness and improves range of motion: a well-evidenced intervention for both osteoarthritis and rheumatoid arthritis (outside of active flares). A microwaveable heat pad allows targeted application to knees, hips, or hands before practice without the impracticality of a hot bath. The warmth effect reduces the viscosity of synovial fluid, making initial movement less painful and allowing a more productive warm-up phase at the start of class. Post-session ice application to any joints that have been loaded is equally appropriate and reduces post-exercise inflammation for practitioners who find they experience soreness after class.",
     affiliateUrl: "https://www.amazon.com/s?k=microwaveable+heat+pad+joint+pain+arthritis&tag=pilatescollective-20",
     tag: "Best Pre-Class Prep",
   },
@@ -90,7 +90,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Pilates for Arthritis: Benefits, Safe Exercises & Modifications",
-      "description": "Evidence-based guide to Pilates for arthritis — what works, what to modify, and what to avoid.",
+      "description": "Evidence-based guide to Pilates for arthritis: what works, what to modify, and what to avoid.",
       "url": "https://pilatescollectiveclub.com/blog/pilates-for-arthritis",
       "datePublished": "2026-06-26",
       "dateModified": "2026-10-20",
@@ -112,7 +112,7 @@ const jsonLd = {
       "mainEntity": [
         { "@type": "Question", "name": "Is Pilates good for arthritis?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Multiple clinical studies support Pilates as beneficial for both osteoarthritis (OA) and rheumatoid arthritis (RA). Benefits include improved joint mobility, reduced pain scores, better balance and proprioception, and stronger supporting musculature. The low-impact nature of Pilates and its emphasis on controlled movement make it more accessible than many other exercise forms for people with arthritic joints." } },
         { "@type": "Question", "name": "Which type of Pilates is best for arthritis?", "acceptedAnswer": { "@type": "Answer", "text": "Reformer Pilates is often better tolerated than mat Pilates for arthritis because the spring resistance system allows exercises to be performed with less body weight through the joints. The carriage support reduces the need to hold positions that load arthritic knees and wrists, and the spring assistance can reduce the effort required in challenging positions. Mat Pilates is also appropriate with a thick mat and appropriate modifications." } },
-        { "@type": "Question", "name": "Should I do Pilates during an arthritis flare?", "acceptedAnswer": { "@type": "Answer", "text": "No. During an active inflammatory flare — characterised by significant joint swelling, redness, warmth, and acute pain — rest and medical management take priority over exercise. Gentle range-of-motion movements and walking may be appropriate depending on severity, but structured Pilates should wait until the acute flare resolves. Consult your rheumatologist for specific guidance on exercise during flares." } },
+        { "@type": "Question", "name": "Should I do Pilates during an arthritis flare?", "acceptedAnswer": { "@type": "Answer", "text": "No. During an active inflammatory flare (characterised by significant joint swelling, redness, warmth, and acute pain) rest and medical management take priority over exercise. Gentle range-of-motion movements and walking may be appropriate depending on severity, but structured Pilates should wait until the acute flare resolves. Consult your rheumatologist for specific guidance on exercise during flares." } },
       ],
     },
   ],
@@ -143,7 +143,7 @@ export default function PilatesForArthritisPage() {
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Arthritis — whether osteoarthritis or rheumatoid — does not disqualify you from Pilates. In fact, current clinical evidence consistently supports low-impact, controlled exercise as one of the most effective interventions for managing arthritis pain and maintaining joint function. Pilates, with its emphasis on precise movement, joint alignment, and muscular support, is a particularly well-matched modality. The critical variable is how it is adapted for the individual.
+              Arthritis, whether osteoarthritis or rheumatoid, does not disqualify you from Pilates. In fact, current clinical evidence consistently supports low-impact, controlled exercise as one of the most effective interventions for managing arthritis pain and maintaining joint function. Pilates, with its emphasis on precise movement, joint alignment, and muscular support, is a particularly well-matched modality. The critical variable is how it is adapted for the individual.
             </p>
             <div className="rounded-xl p-6 mb-4" style={{ backgroundColor: "#fff9f5", border: "1px solid rgba(197,168,130,0.3)" }}>
               <p className="text-xs font-semibold uppercase tracking-[0.15em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Medical note</p>
@@ -175,7 +175,7 @@ export default function PilatesForArthritisPage() {
                 {[
                   "A 2020 systematic review in the Journal of Bodywork and Movement Therapies found that Pilates significantly reduced pain and improved function in people with knee osteoarthritis.",
                   "Studies on rheumatoid arthritis show Pilates improves joint range of motion, balance, and quality of life without exacerbating inflammation markers when performed outside of active flares.",
-                  "The emphasis on proprioception and joint position sense in Pilates directly addresses one of the functional deficits arthritis creates — reduced joint awareness — which contributes to fall risk and movement compensation.",
+                  "The emphasis on proprioception and joint position sense in Pilates directly addresses one of the functional deficits arthritis creates, reduced joint awareness, which contributes to fall risk and movement compensation.",
                   "Pilates' emphasis on supporting muscle strength reduces direct joint loading during daily activities, which is the primary mechanism by which exercise reduces OA pain.",
                 ].map((point, i) => (
                   <div key={i} className="flex gap-4">
@@ -193,7 +193,7 @@ export default function PilatesForArthritisPage() {
                   { joint: "Knees", mods: "Use a thick mat (10mm) for kneeling exercises. Avoid deep knee flexion beyond comfortable range. Perform footwork on the reformer with spring assistance rather than full body weight. Use a knee sleeve for warmth and proprioception." },
                   { joint: "Hips", mods: "Avoid exercises that require full hip flexion or extreme external rotation beyond your pain-free range. Supine hip work with a small overball between the knees is often more comfortable than standing hip exercises. Avoid high-impact reformer jumping work." },
                   { joint: "Wrists and hands", mods: "Substitute fist-leaning or forearm-supported positions for open-palm quadruped exercises. Use wrist wraps for exercises that require wrist extension loading. Reformer work with loops is often more accessible than mat exercises that require floor hand placement." },
-                  { joint: "Spine", mods: "Work within a comfortable range of flexion and extension — do not force through end-range where there is arthritic disc or facet involvement. The neutral spine position that Pilates emphasises is inherently protective for most spinal arthritis presentations." },
+                  { joint: "Spine", mods: "Work within a comfortable range of flexion and extension: do not force through end-range where there is arthritic disc or facet involvement. The neutral spine position that Pilates emphasises is inherently protective for most spinal arthritis presentations." },
                 ].map((item) => (
                   <div key={item.joint} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-sm font-semibold mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{item.joint}</p>
@@ -225,7 +225,7 @@ export default function PilatesForArthritisPage() {
                 {[
                   { q: "Is Pilates good for arthritis?", a: "Yes. Multiple clinical studies support Pilates as beneficial for both osteoarthritis and rheumatoid arthritis. Benefits include improved joint mobility, reduced pain scores, better balance and proprioception, and stronger supporting musculature. The low-impact nature of Pilates and its emphasis on controlled movement make it more accessible than many other exercise forms for people with arthritic joints." },
                   { q: "Which type of Pilates is best for arthritis?", a: "Reformer Pilates is often better tolerated than mat Pilates for arthritis because the spring resistance system allows exercises to be performed with less body weight through the joints. The carriage support reduces the need to hold positions that load arthritic knees and wrists, and the spring assistance can reduce the effort required in challenging positions. Mat Pilates is also appropriate with a thick mat and appropriate modifications." },
-                  { q: "Should I do Pilates during an arthritis flare?", a: "No. During an active inflammatory flare — characterised by significant joint swelling, redness, warmth, and acute pain — rest and medical management take priority over exercise. Structured Pilates should wait until the acute flare resolves. Consult your rheumatologist for specific guidance on exercise during flares." },
+                  { q: "Should I do Pilates during an arthritis flare?", a: "No. During an active inflammatory flare (characterised by significant joint swelling, redness, warmth, and acute pain) rest and medical management take priority over exercise. Structured Pilates should wait until the acute flare resolves. Consult your rheumatologist for specific guidance on exercise during flares." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
@@ -238,8 +238,8 @@ export default function PilatesForArthritisPage() {
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="Pilates for Seniors" excerpt="Age-appropriate Pilates — safe exercises, modifications, and the genuine benefits of practice over 60." href="/blog/pilates-for-seniors" category="Health" readTime="8 min read" date="April 2026" imageUrl="/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg" />
-                <ArticleCard title="Pilates for Back Pain" excerpt="Evidence-based Pilates for chronic and acute back pain — what works and what the research says." href="/blog/pilates-for-back-pain" category="Health" readTime="9 min read" date="March 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
+                <ArticleCard title="Pilates for Seniors" excerpt="Age-appropriate Pilates: safe exercises, modifications, and the genuine benefits of practice over 60." href="/blog/pilates-for-seniors" category="Health" readTime="8 min read" date="April 2026" imageUrl="/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg" />
+                <ArticleCard title="Pilates for Back Pain" excerpt="Evidence-based Pilates for chronic and acute back pain: what works and what the research says." href="/blog/pilates-for-back-pain" category="Health" readTime="9 min read" date="March 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
                 <ArticleCard title="Pilates for Knee Pain (2026): Exercises & What to Avoid" excerpt="Pilates for knee pain: which exercises strengthen the structures around the knee, which are safe with different…" href="/blog/pilates-for-knee-pain" category="Health" readTime="11 min read" imageUrl="/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg" />
                 <ArticleCard title="Pilates for Fibromyalgia (2026): Gentle Exercises & Tips" excerpt="How Pilates helps fibromyalgia, the evidence on pain reduction, fatigue management, and sleep improvement, plus…" href="/blog/pilates-for-fibromyalgia" category="Health" readTime="9 min read" imageUrl="/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg" />
                 <ArticleCard title="Pilates for Osteoporosis (2026): Safe Exercise Guide" excerpt="Pilates for osteoporosis and osteopenia: which exercises safely build bone density, which to avoid, and how to…" href="/blog/pilates-for-osteoporosis" category="Health" readTime="12 min read" imageUrl="/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg" />

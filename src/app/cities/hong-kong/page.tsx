@@ -12,7 +12,7 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Studios in Hong Kong (2026)",
-  description: "The best Pilates studios in Hong Kong — from Central reformer boutiques to studios in Wan Chai and Causeway Bay. Six curated picks, verified October 2026.",
+  description: "The best Pilates studios in Hong Kong, from Central reformer boutiques to studios in Wan Chai and Causeway Bay. Six curated picks, verified October 2026.",
   robots: {
     index: true,
     follow: true,
@@ -22,15 +22,15 @@ export const metadata: Metadata = {
   keywords: ["pilates hong kong", "reformer pilates hong kong", "best pilates studios hong kong", "pilates studio hong kong", "pilates central hk", "pilates wan chai", "pilates causeway bay", "pilates hk", "best reformer pilates hong kong", "pilates classes hong kong"],
   openGraph: {
     title: "Best Pilates Studios in Hong Kong (2026)",
-    description: "Six curated Pilates studios in Hong Kong — Central, Wan Chai, and Causeway Bay reformer picks. Verified 2026.",
+    description: "Six curated Pilates studios in Hong Kong: Central, Wan Chai, and Causeway Bay reformer picks. Verified 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/hong-kong",
-    images: [{ url: "https://images.unsplash.com/photo-1532986374557-50e0d7c07a42?w=1200&q=80", width: 1200, height: 630, alt: "Hong Kong city guide — Pilates Collective Club" }],
+    images: [{ url: "https://images.unsplash.com/photo-1532986374557-50e0d7c07a42?w=1200&q=80", width: 1200, height: 630, alt: "Hong Kong city guide: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Studios in Hong Kong (2026)",
-    description: "Our curated guide to Hong Kong's six best Pilates studios — verified for 2026.",
+    description: "Our curated guide to Hong Kong's six best Pilates studios: verified for 2026.",
     images: ["https://images.unsplash.com/photo-1532986374557-50e0d7c07a42?w=1200&q=80"],
   },
   alternates: {
@@ -45,7 +45,7 @@ const STUDIOS = [
     neighborhood: "Central · Wong Chuk Hang",
     priceLevel: "$$$$",
     review: "FLEX Studio is one of Hong Kong's longest-established Pilates studios and describes itself as the city's only classical Pilates studio. It offers Pilates alongside yoga, barre and pre- and post-natal conditioning, with a studio over two floors of the Man Cheung Building on Wyndham Street and a second at One Island South in Wong Chuk Hang.",
-    caveat: "premium pricing for Hong Kong — the classical depth is the reason to pay it.",
+    caveat: "premium pricing for Hong Kong: the classical depth is the reason to pay it.",
     address: "3/F–4/F, Man Cheung Building, 15–17 Wyndham Street, Central",
     bestFor: "Classical Pilates and pre/post-natal conditioning",
     signatureClass: "Classical Apparatus",
@@ -57,7 +57,7 @@ const STUDIOS = [
     neighborhood: "Central",
     priceLevel: "$$$$",
     review: "Iso Fit is a top-tier Pilates and Gyrotonic studio on Wyndham Street, offering specialised training systems and equipment that it says are exclusive in Asia. It suits clients who want precise, equipment-led work rather than a group fitness class.",
-    caveat: "a specialist, premium studio — better for focused private and small-group work than casual drop-ins.",
+    caveat: "a specialist, premium studio: better for focused private and small-group work than casual drop-ins.",
     address: "802–805, 8/F, Yu Yuet Lai Building, 43–55 Wyndham Street, Central",
     bestFor: "Pilates and Gyrotonic on specialist equipment",
     signatureClass: "Pilates & Gyrotonic Private",
@@ -69,7 +69,7 @@ const STUDIOS = [
     neighborhood: "Sheung Wan",
     priceLevel: "$$$",
     review: "PILATESBEAT is a boutique reformer studio in Connaught Marina with just five reformers, so classes are genuinely small. It is one of the reformer studios that has helped make Sheung Wan a Pilates hub.",
-    caveat: "with only five reformers, classes book out — plan ahead.",
+    caveat: "with only five reformers, classes book out: plan ahead.",
     address: "Unit 1, 9/F, Connaught Marina, 48 Connaught Road West, Sheung Wan",
     bestFor: "Very small reformer classes in Sheung Wan",
     signatureClass: "Reformer (5-person class)",
@@ -77,11 +77,11 @@ const STUDIOS = [
   },
   {
     number: "04",
-    name: "DEFIN8 Fitness — Central",
+    name: "DEFIN8 Fitness Central",
     neighborhood: "Central",
     priceLevel: "$$$",
     review: "DEFIN8 Fitness runs Infrared Reformer Pilates group classes, combining reformer work with infrared heat that the studio says loosens muscles faster and shortens warm-up and recovery. Its Central studio is on the 17th floor of Silver Fortune Plaza on Wellington Street.",
-    caveat: "infrared classes are warm — hydrate well, and check with your doctor if heat is a concern for you.",
+    caveat: "infrared classes are warm: hydrate well, and check with your doctor if heat is a concern for you.",
     address: "17/F, Silver Fortune Plaza, 1 Wellington Street, Central",
     bestFor: "Infrared reformer classes in Central",
     signatureClass: "Infrared Reformer Pilates",
@@ -97,7 +97,7 @@ const STUDIOS = [
     address: "Unit A, 10/F, Shun Pont Commercial Building, 5 Thomson Road, Wan Chai",
     bestFor: "Small, attentive reformer classes in Wan Chai",
     signatureClass: "Reformer Pilates",
-    bookingTip: "Small classes fill fast — book a few days ahead.",
+    bookingTip: "Small classes fill fast: book a few days ahead.",
   },
   {
     number: "06",
@@ -105,7 +105,7 @@ const STUDIOS = [
     neighborhood: "Sheung Wan",
     priceLevel: "$$",
     review: "Mindful Pilates is a Sheung Wan studio on Wing Lok Street, a convenient option for people working between Sheung Wan and Central who want a dedicated Pilates studio away from the big chains.",
-    caveat: "there is limited published detail about class formats and instructors — take a trial class first.",
+    caveat: "there is limited published detail about class formats and instructors: take a trial class first.",
     address: "7B Cheong Tai Commercial Building, 64–66 Wing Lok Street, Sheung Wan",
     bestFor: "A neighbourhood Pilates studio in Sheung Wan",
     signatureClass: "Pilates Class",
@@ -118,14 +118,14 @@ const BOOKING_TIPS = [
   { heading: "ClassPass is available in Hong Kong", body: "ClassPass has solid coverage in Hong Kong and is a practical way to trial studios before committing to a pack. Premium venues like Pure require higher credit allocations, so factor that into your plan if you're targeting the top-tier studios." },
   { heading: "Book 3–7 days ahead for peak slots", body: "Hong Kong's best studios fill quickly. Morning classes (7–9am) and post-work slots (6–8pm) at popular venues are typically fully booked within hours of opening. Check studio apps Sunday evening when many open the following week's schedule." },
   { heading: "Grip socks are mandatory, everywhere", body: "Every studio in Hong Kong requires grip socks on the reformer. Some sell branded pairs at the desk; others require you to bring your own. Keep a pair in your bag to avoid being turned away or paying premium for studio socks." },
-  { heading: "Tipping is not customary", body: "Unlike in North America, tipping instructors in Hong Kong wellness studios is not a cultural norm. The premium pricing generally reflects instructor compensation — there's no expectation of gratuity after your session." },
+  { heading: "Tipping is not customary", body: "Unlike in North America, tipping instructors in Hong Kong wellness studios is not a cultural norm. The premium pricing generally reflects instructor compensation: there's no expectation of gratuity after your session." },
 ];
 
 const NEIGHBORHOODS = [
-  { name: "Central & Admiralty", description: "Hong Kong's financial heart concentrates some of the city's most premium wellness addresses. Studios here serve a time-pressed, expense-account clientele — expect world-class instructors, state-of-the-art equipment, and prices to match. Ideal for weekday lunchtime sessions or early-morning sessions before the markets open." },
+  { name: "Central & Admiralty", description: "Hong Kong's financial heart concentrates some of the city's most premium wellness addresses. Studios here serve a time-pressed, expense-account clientele: expect world-class instructors, state-of-the-art equipment, and prices to match. Ideal for weekday lunchtime sessions or early-morning sessions before the markets open." },
   { name: "Wan Chai & Causeway Bay", description: "The city's most accessible districts for Pilates offer a strong mix of established studios and newer boutique entrants. Wan Chai in particular has become a wellness hub, with studios clustered around the harbour-facing streets. Good transport links make it easy to reach from most parts of the Island." },
-  { name: "Sai Ying Pun & Kennedy Town", description: "The western end of Hong Kong Island has developed a thriving independent wellness scene over the past decade. Studios here tend to be owner-operated, smaller in scale, and more community-focused — with pricing that's more accessible than the Central corridor. The neighbourhood's young professional population has created a loyal studio clientele." },
-  { name: "The Southside (Stanley & Repulse Bay)", description: "Hong Kong's southern peninsula is home to a quieter, more residential studio scene. Venues here prioritise quality over volume — small class sizes, beautiful natural settings, and a pace that feels distinct from the frenetic city centre. Worth the commute for those seeking a more unhurried practice." },
+  { name: "Sai Ying Pun & Kennedy Town", description: "The western end of Hong Kong Island has developed a thriving independent wellness scene over the past decade. Studios here tend to be owner-operated, smaller in scale, and more community-focused, with pricing that's more accessible than the Central corridor. The neighbourhood's young professional population has created a loyal studio clientele." },
+  { name: "The Southside (Stanley & Repulse Bay)", description: "Hong Kong's southern peninsula is home to a quieter, more residential studio scene. Venues here prioritise quality over volume: small class sizes, beautiful natural settings, and a pace that feels distinct from the frenetic city centre. Worth the commute for those seeking a more unhurried practice." },
 ];
 
 const GEAR = [
@@ -143,7 +143,7 @@ const GEAR = [
   },
   {
     name: "Magic Circle",
-    note: "Our pick: Balanced Body Ultra-Fit Circle (15-inch). Many studios incorporate the magic circle — worth owning for home reinforcement work.",
+    note: "Our pick: Balanced Body Ultra-Fit Circle (15-inch). Many studios incorporate the magic circle: worth owning for home reinforcement work.",
     price: "$35.00",
     url: "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20",
   },
@@ -161,7 +161,7 @@ const GEAR = [
   },
   {
     name: "Home Pilates Reformer",
-    note: "Our pick: PAETA Wooden Foldable Reformer. A home reformer extends your studio practice — AeroPilates and Align entry models deliver a genuine full-body session.",
+    note: "Our pick: PAETA Wooden Foldable Reformer. A home reformer extends your studio practice: AeroPilates and Align entry models deliver a genuine full-body session.",
     price: "$699.98",
     url: "https://www.amazon.com/dp/B0D7M7JNFV?tag=pilatescollective-20",
   },
@@ -176,12 +176,12 @@ const RELATED_CITIES = [
 ];
 
 const FURTHER_READING = [
-  { title: "Best Pilates Equipment for Home Practice", excerpt: "Everything you need between studio sessions — from a quality mat to resistance bands.", href: "/blog/best-pilates-equipment-for-home-practice", category: "Equipment", readTime: "10 min read", date: "May 2026", imageUrl: "https://images.unsplash.com/photo-1576678927484-cc907957088c?w=800&q=80" },
+  { title: "Best Pilates Equipment for Home Practice", excerpt: "Everything you need between studio sessions, from a quality mat to resistance bands.", href: "/blog/best-pilates-equipment-for-home-practice", category: "Equipment", readTime: "10 min read", date: "May 2026", imageUrl: "https://images.unsplash.com/photo-1576678927484-cc907957088c?w=800&q=80" },
   { title: "The Beginner's Guide to Reformer Pilates", excerpt: "What to expect in your first reformer class, how to choose a studio, and how to progress.", href: "/blog/beginners-guide-to-reformer-pilates", category: "Beginner Guide", readTime: "8 min read", date: "May 2026", imageUrl: "https://images.unsplash.com/photo-1554284126-aa88f22d8b74?w=800&q=80" },
 ];
 
 const CITY_FAQS = [
-  { q: "What are the best Pilates studios in Hong Kong?", a: "Our 6 curated picks are FLEX Studio (Central · Wong Chuk Hang), Iso Fit (Central), PILATESBEAT (Sheung Wan), DEFIN8 Fitness — Central (Central), Jesel Studio (Wan Chai) and Mindful Pilates (Sheung Wan). Each listing above covers what the studio is best for, its signature class and a booking tip." },
+  { q: "What are the best Pilates studios in Hong Kong?", a: "Our 6 curated picks are FLEX Studio (Central · Wong Chuk Hang), Iso Fit (Central), PILATESBEAT (Sheung Wan), DEFIN8 Fitness: Central (Central), Jesel Studio (Wan Chai) and Mindful Pilates (Sheung Wan). Each listing above covers what the studio is best for, its signature class and a booking tip." },
   { q: "Which Hong Kong neighbourhoods are best for Pilates?", a: "This guide covers Central & Admiralty, Wan Chai & Causeway Bay, Sai Ying Pun & Kennedy Town and The Southside (Stanley & Repulse Bay). Central & Admiralty: Hong Kong's financial heart concentrates some of the city's most premium wellness addresses." },
   { q: "What should I know about booking Pilates classes in Hong Kong?", a: "Expect to pay HK$250–450 per group class. Hong Kong reformer pricing is among the highest in Asia, reflecting the city's real-estate costs and demand." },
   { q: "What should I bring to a Pilates class in Hong Kong?", a: "Grip socks are required at most reformer studios. Our gear list for Hong Kong covers Pilates grip socks, Pilates mat, magic circle, resistance bands, foam roller and home Pilates reformer." },
@@ -193,7 +193,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Best Pilates Studios in Hong Kong (2026)",
-      "description": "The best Pilates studios in Hong Kong — from Central reformer boutiques to studios in Wan Chai and Causeway Bay. Six curated picks, verified October 2026.",
+      "description": "The best Pilates studios in Hong Kong, from Central reformer boutiques to studios in Wan Chai and Causeway Bay. Six curated picks, verified October 2026.",
       "url": "https://pilatescollectiveclub.com/cities/hong-kong",
       "datePublished": "2026-06-28",
       "dateModified": "2026-10-20",
@@ -258,7 +258,7 @@ export default function HongKongPage() {
             <p className="text-sm mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 8 min read</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Hong Kong's Pilates scene is one of Asia's most sophisticated — shaped by a large expatriate community, a high-performance culture, and the city's characteristic appetite for premium wellness experiences. Studios here compete fiercely on instructor quality and equipment, and the best venues stand comfortably alongside their counterparts in London or New York. This guide covers the six we rate most highly across the Island's distinct districts.
+              Hong Kong's Pilates scene is one of Asia's most sophisticated: shaped by a large expatriate community, a high-performance culture, and the city's characteristic appetite for premium wellness experiences. Studios here compete fiercely on instructor quality and equipment, and the best venues stand comfortably alongside their counterparts in London or New York. This guide covers the six we rate most highly across the Island's distinct districts.
             </p>
           </div>
         </section>
@@ -266,7 +266,7 @@ export default function HongKongPage() {
         <section className="px-6 mb-16">
           <div className="max-w-5xl mx-auto">
             <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="https://images.unsplash.com/photo-1532986374557-50e0d7c07a42?w=1400&q=80" alt="Hong Kong city guide — Pilates Collective Club" fill className="object-cover" style={{ filter: "brightness(0.88)" }} />
+              <Image src="https://images.unsplash.com/photo-1532986374557-50e0d7c07a42?w=1400&q=80" alt="Hong Kong city guide: Pilates Collective Club" fill className="object-cover" style={{ filter: "brightness(0.88)" }} />
               <div className="absolute inset-0 flex items-end p-8" style={{ background: "linear-gradient(to top, rgba(27,28,28,0.55) 0%, transparent 60%)" }}>
                 <div>
                   <p className="text-white text-sm font-semibold uppercase tracking-widest mb-1" style={{ fontFamily: "'Montserrat', sans-serif" }}>Hong Kong, Hong Kong SAR</p>
@@ -323,7 +323,7 @@ export default function HongKongPage() {
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What to bring to your first class</h2>
             <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-              Grip socks are required at most reformer studios in Hong Kong. These are our recommended picks — all available on Amazon.{" "}
+              Grip socks are required at most reformer studios in Hong Kong. These are our recommended picks: all available on Amazon.{" "}
               <Link href="/affiliate-disclosure" style={{ color: "#8b4a31", textDecoration: "underline", fontFamily: "'Montserrat', sans-serif", fontSize: "inherit" }}>Affiliate disclosure.</Link>
             </p>
             <QuickPicks className="mb-0" picks={GEAR.map((g) => ({ name: g.note.match(/Our pick: ([^.]+(?:\.\d+[^.]*)?)\./)?.[1] ?? g.name, price: g.price, url: g.url, note: g.name }))} />

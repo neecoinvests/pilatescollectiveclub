@@ -12,7 +12,7 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Studios in Washington DC (2026)",
-  description: "The best Pilates studios in Washington DC — from Georgetown reformer boutiques to classical practices in Dupont Circle and Bethesda. Six verified picks, 2026.",
+  description: "The best Pilates studios in Washington DC, from Georgetown reformer boutiques to classical practices in Dupont Circle and Bethesda. Six verified picks, 2026.",
   robots: {
     index: true,
     follow: true,
@@ -22,15 +22,15 @@ export const metadata: Metadata = {
   keywords: ["pilates washington dc", "reformer pilates washington dc", "best pilates studios dc", "pilates studio dc", "pilates classes washington dc", "georgetown pilates dc", "dupont circle pilates", "pilates bethesda md", "best reformer pilates dc", "pilates arlington va"],
   openGraph: {
     title: "Best Pilates Studios in Washington DC (2026)",
-    description: "Six curated Pilates studios in DC — Georgetown, Dupont Circle, and Bethesda reformer picks. Verified 2026.",
+    description: "Six curated Pilates studios in DC: Georgetown, Dupont Circle, and Bethesda reformer picks. Verified 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/washington-dc",
-    images: [{ url: "https://images.unsplash.com/photo-1574365379583-54937ea00cb8?w=1200&q=80", width: 1200, height: 630, alt: "Washington DC city guide — Pilates Collective Club" }],
+    images: [{ url: "https://images.unsplash.com/photo-1574365379583-54937ea00cb8?w=1200&q=80", width: 1200, height: 630, alt: "Washington DC city guide: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Studios in Washington DC (2026)",
-    description: "Six curated Pilates studios in Washington DC — verified picks for every level.",
+    description: "Six curated Pilates studios in Washington DC: verified picks for every level.",
     images: ["https://images.unsplash.com/photo-1574365379583-54937ea00cb8?w=1200&q=80"],
   },
   alternates: {
@@ -44,22 +44,22 @@ const STUDIOS = [
     name: "District Pilates",
     neighborhood: "Shaw",
     priceLevel: "$$$",
-    review: "District Pilates at 1302 9th Street NW is a boutique contemporary studio with two DC locations — Shaw and Petworth — with consistent strong ratings on Yelp. Instructors are widely praised for tailoring sessions to whoever is in the room — from beginners to prenatal clients to experienced practitioners — while still delivering a demanding workout. Class sizes are intentionally small so instructors can provide focused corrections throughout, which is exactly why the clientele keeps coming back.",
+    review: "District Pilates at 1302 9th Street NW is a boutique contemporary studio with two DC locations, Shaw and Petworth, with consistent strong ratings on Yelp. Instructors are widely praised for tailoring sessions to whoever is in the room, from beginners to prenatal clients to experienced practitioners, while still delivering a demanding workout. Class sizes are intentionally small so instructors can provide focused corrections throughout, which is exactly why the clientele keeps coming back.",
     address: "1302 9th St NW, Washington, DC 20001",
     bestFor: "Contemporary reformer Pilates; small intentional classes; diverse clientele",
     signatureClass: "Reformer Group",
-    bookingTip: "Morning and evening classes fill daily — the studio recommends booking the moment the schedule opens to secure preferred time slots.",
+    bookingTip: "Morning and evening classes fill daily: the studio recommends booking the moment the schedule opens to secure preferred time slots.",
   },
   {
     number: "02",
     name: "Fuse Pilates",
     neighborhood: "Logan Circle / U Street Corridor",
     priceLevel: "$$$",
-    review: "Named Best Pilates Studio in DC in 2016 and 2017, Fuse Pilates at 1401 14th Street NW is one of the most distinctive studios in the city — home of the Fuse Ladder workout, named one of the most innovative fitness programs in America. The original studio in a historic Dupont Circle townhouse established the brand; the 14th Street location serves the Logan Circle and U Street corridor. Over 100 Yelp reviews back up the studio's reputation for skilled, high-energy instructors.",
+    review: "Named Best Pilates Studio in DC in 2016 and 2017, Fuse Pilates at 1401 14th Street NW is one of the most distinctive studios in the city: home of the Fuse Ladder workout, named one of the most innovative fitness programs in America. The original studio in a historic Dupont Circle townhouse established the brand; the 14th Street location serves the Logan Circle and U Street corridor. Over 100 Yelp reviews back up the studio's reputation for skilled, high-energy instructors.",
     address: "1401 14th St NW, Washington, DC 20005",
     bestFor: "Unique Fuse Ladder apparatus; creative programming",
     signatureClass: "Fuse Ladder Class",
-    bookingTip: "Try the Fuse Ladder class specifically — it's unlike anything at other studios and showcases what makes Fuse worth the visit.",
+    bookingTip: "Try the Fuse Ladder class specifically: it's unlike anything at other studios and showcases what makes Fuse worth the visit.",
   },
   {
     number: "03",
@@ -70,29 +70,29 @@ const STUDIOS = [
     address: "320 Florida Ave NE, Washington, DC 20002",
     bestFor: "Beautifully designed studio space; group reformer and mat classes; all levels",
     signatureClass: "Reformer Fundamentals",
-    bookingTip: "For NoMa, parking is easier and transit (NoMa-Gallaudet Metro) is steps away. The Dupont Circle location is in a back alley — check directions before your first visit.",
+    bookingTip: "For NoMa, parking is easier and transit (NoMa-Gallaudet Metro) is steps away. The Dupont Circle location is in a back alley: check directions before your first visit.",
   },
   {
     number: "04",
     name: "Excel Pilates DC",
     neighborhood: "Brookland",
     priceLevel: "$$$",
-    review: "Excel Pilates DC has been operating since 1998 — making it one of the longest-running Pilates studios in the Washington area — and offers a comprehensive classical Pilates experience with reformers, Cadillacs, Wall Units, Chairs, and barrels at 3407 8th Street NE. Located in the Brookland neighborhood with easy Metro access via the Red Line, the studio draws clients from across the city who seek rigorous classical training with knowledgeable, safety-conscious instructors.",
+    review: "Excel Pilates DC has been operating since 1998, making it one of the longest-running Pilates studios in the Washington area, and offers a comprehensive classical Pilates experience with reformers, Cadillacs, Wall Units, Chairs, and barrels at 3407 8th Street NE. Located in the Brookland neighborhood with easy Metro access via the Red Line, the studio draws clients from across the city who seek rigorous classical training with knowledgeable, safety-conscious instructors.",
     address: "3407 8th St NE, Washington, DC 20017",
     bestFor: "Classical Pilates on full apparatus; established since 1998",
     signatureClass: "Classical Apparatus Private",
-    bookingTip: "Class passes do expire — keep an eye on your remaining sessions and rebook as soon as a series is finished.",
+    bookingTip: "Class passes do expire: keep an eye on your remaining sessions and rebook as soon as a series is finished.",
   },
   {
     number: "05",
     name: "Capital Pilates Studio",
     neighborhood: "Spring Valley / American University Park",
     priceLevel: "$$$",
-    review: "Capital Pilates Studio at 4900 Massachusetts Avenue NW is the only Romana's Pilates-certified studio in Washington DC, with all instructors holding Romana's Pilates certification — a mark of rigorous classical training. The Spring Valley studio carries a perfect 5-star ClassPass rating and is ideal for clients who want the most authentic classical Pilates experience in the city. Small mat classes of four to eight clients and private sessions ensure genuine individualized attention.",
+    review: "Capital Pilates Studio at 4900 Massachusetts Avenue NW is the only Romana's Pilates-certified studio in Washington DC, with all instructors holding Romana's Pilates certification: a mark of rigorous classical training. The Spring Valley studio carries a perfect 5-star ClassPass rating and is ideal for clients who want the most authentic classical Pilates experience in the city. Small mat classes of four to eight clients and private sessions ensure genuine individualized attention.",
     address: "4900 Massachusetts Ave NW, Ste 310, Washington, DC 20016",
     bestFor: "Authentic Romana's Pilates method; classical purists; northwest DC",
     signatureClass: "Classical Mat Group",
-    bookingTip: "This is a high-demand niche studio — first-time visitors should call ahead rather than relying solely on online booking, as slots go fast.",
+    bookingTip: "This is a high-demand niche studio: first-time visitors should call ahead rather than relying solely on online booking, as slots go fast.",
   },
   {
     number: "06",
@@ -103,21 +103,21 @@ const STUDIOS = [
     address: "Downtown Washington, DC 20005",
     bestFor: "Downtown DC location; Black-owned studio; inclusive instruction",
     signatureClass: "Reformer Group",
-    bookingTip: "Verify the current address directly on their website before visiting — DC Pilates has moved locations in recent years.",
+    bookingTip: "Verify the current address directly on their website before visiting: DC Pilates has moved locations in recent years.",
   },
 ];
 
 const BOOKING_TIPS = [
   { heading: "Expect to pay $32–60 per class", body: "Washington DC's Pilates market is priced in line with other major US cities. Drop-in rates run from $32 at accessible studios to $60+ at premium private practices. Monthly memberships bring the per-class cost down to $22–38 for regular practitioners. Bethesda and Arlington pricing is comparable to DC proper." },
   { heading: "The city's transience affects studio character", body: "DC's political and diplomatic population turns over frequently with election cycles and administration changes. Studios that have maintained consistent quality through multiple cycles are more reliable long-term bets than newer entrants who may not have weathered the city's characteristic churn." },
-  { heading: "Government schedules create consistent windows", body: "The federal government's relatively predictable work patterns — including reliable lunchtime breaks and earlier evening ends than many private sector cities — create strong class demand at 12pm and 6pm. Book those windows furthest in advance." },
-  { heading: "The metro area spans two states", body: "DC's effective studio market includes Northern Virginia and Montgomery County, Maryland. Don't limit your search to the District itself — some of the best studios in the metro area are in Arlington, Bethesda, and Alexandria. The Metro makes them more accessible than the distance suggests." },
-  { heading: "Grip socks are required across the metro", body: "Every reformer studio in the DC metro area — in the District, Virginia, and Maryland — requires grip socks. Buying a pair in advance from Amazon is a simple and consistent saving compared to front-desk retail prices." },
+  { heading: "Government schedules create consistent windows", body: "The federal government's relatively predictable work patterns, including reliable lunchtime breaks and earlier evening ends than many private sector cities, create strong class demand at 12pm and 6pm. Book those windows furthest in advance." },
+  { heading: "The metro area spans two states", body: "DC's effective studio market includes Northern Virginia and Montgomery County, Maryland. Don't limit your search to the District itself: some of the best studios in the metro area are in Arlington, Bethesda, and Alexandria. The Metro makes them more accessible than the distance suggests." },
+  { heading: "Grip socks are required across the metro", body: "Every reformer studio in the DC metro area (in the District, Virginia, and Maryland) requires grip socks. Buying a pair in advance from Amazon is a simple and consistent saving compared to front-desk retail prices." },
 ];
 
 const NEIGHBORHOODS = [
   { name: "Georgetown & Dupont Circle", description: "DC's most internationally oriented residential areas support a sophisticated Pilates market. Studios here serve diplomatic and professional populations with high standards and strong disposable income. A natural starting point for practitioners who value quality above all." },
-  { name: "Logan Circle & Columbia Heights", description: "The revitalised central neighbourhoods have developed strong independent studio cultures in the past decade — instructors who prioritise depth and specificity over volume. Often better value and more technically serious than the premium Georgetown options." },
+  { name: "Logan Circle & Columbia Heights", description: "The revitalised central neighbourhoods have developed strong independent studio cultures in the past decade: instructors who prioritise depth and specificity over volume. Often better value and more technically serious than the premium Georgetown options." },
   { name: "Bethesda & Chevy Chase (Maryland)", description: "Montgomery County's most affluent communities house several excellent studios serving the DC metro's wealthiest health-conscious population. Comparable quality to Georgetown with slightly better parking and scheduling accessibility." },
   { name: "Arlington & Alexandria (Virginia)", description: "Northern Virginia's professional population is increasingly well-served by studios that understand the particular needs of commuters, veterans, and government contractors. The Metro connection makes Virginia studios genuinely practical for practitioners based in the District." },
 ];
@@ -125,7 +125,7 @@ const NEIGHBORHOODS = [
 const GEAR = [
   {
     name: "Pilates Grip Socks",
-    note: "Our pick: toesox Low Rise Full-Toe Grip Socks (2-Pack). Required at every reformer studio across the DC metro area — DC, Virginia, and Maryland.",
+    note: "Our pick: toesox Low Rise Full-Toe Grip Socks (2-Pack). Required at every reformer studio across the DC metro area: DC, Virginia, and Maryland.",
     price: "$30.00",
     url: "https://www.amazon.com/dp/B07QHNDHW3?tag=pilatescollective-20",
   },
@@ -155,16 +155,16 @@ const GEAR = [
   },
   {
     name: "Home Pilates Reformer",
-    note: "Our pick: PAETA Wooden Foldable Reformer. A home reformer extends your studio practice — AeroPilates and Align entry models deliver a genuine full-body session.",
+    note: "Our pick: PAETA Wooden Foldable Reformer. A home reformer extends your studio practice: AeroPilates and Align entry models deliver a genuine full-body session.",
     price: "$699.98",
     url: "https://www.amazon.com/dp/B0D7M7JNFV?tag=pilatescollective-20",
   },
 ];
 
 const HOME_REFORMERS = [
-  { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work — three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
+  { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work: three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
   { tag: "Mid-Range Pick", name: "AeroPilates Pro XP 557", note: "AeroPilates' top-of-the-range home reformer, a step up for practitioners training several times a week.", price: "$1,329.99", url: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20" },
-  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order — an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
+  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
 ];
 
 const RELATED_CITIES = [
@@ -176,7 +176,7 @@ const RELATED_CITIES = [
 
 const FURTHER_READING = [
   { title: "How to Find a Good Pilates Studio", excerpt: "What to look for in a studio, and the questions worth asking before you commit to a membership.", href: "/blog/how-to-find-a-good-pilates-studio", category: "Guide", readTime: "6 min read", date: "June 2026", imageUrl: "https://images.unsplash.com/photo-1574680096145-d05b474e2155?w=800&q=80" },
-  { title: "Pilates for Back Pain: What the Research Shows", excerpt: "What Pilates can and can't do for chronic lower back pain — and which exercises have the strongest evidence.", href: "/blog/pilates-for-back-pain", category: "Health", readTime: "10 min read", date: "June 2026", imageUrl: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&q=80" },
+  { title: "Pilates for Back Pain: What the Research Shows", excerpt: "What Pilates can and can't do for chronic lower back pain, and which exercises have the strongest evidence.", href: "/blog/pilates-for-back-pain", category: "Health", readTime: "10 min read", date: "June 2026", imageUrl: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&q=80" },
 ];
 
 const CITY_FAQS = [
@@ -227,7 +227,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "The Best Pilates Studios in Washington DC (2026)",
-      "description": "A curated guide to the six best Pilates studios across Washington DC, Arlington, and Bethesda — verified June 2026.",
+      "description": "A curated guide to the six best Pilates studios across Washington DC, Arlington, and Bethesda: verified June 2026.",
       "url": "https://pilatescollectiveclub.com/cities/washington-dc",
       "dateModified": "2026-06-01",
       "author": { "@type": "Organization", "name": "Pilates Collective Club" },
@@ -336,7 +336,7 @@ export default function WashingtonDCPage() {
             <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Prefer To Train At Home?</p>
             <h2 className="text-3xl font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Not convinced? How about Pilates at home?</h2>
             <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-              Studio pricing or scheduling not for you right now? A home reformer gets you a genuine Pilates session on your own time. Here's where to start — from a $299 entry point to the machine serious practitioners buy once.{" "}
+              Studio pricing or scheduling not for you right now? A home reformer gets you a genuine Pilates session on your own time. Here's where to start, from a $299 entry point to the machine serious practitioners buy once.{" "}
               <Link href="/blog/best-home-pilates-reformer" style={{ color: "#8b4a31", textDecoration: "underline", fontFamily: "'Montserrat', sans-serif", fontSize: "inherit" }}>See the full reformer guide.</Link>
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
@@ -389,7 +389,7 @@ export default function WashingtonDCPage() {
           </div>
         </section>
 
-        <CTASection title="Find Pilates near you" subtitle="Use our AI Finder to discover studios in any city — coming soon." showSearch searchPlaceholder="Ask: best therapeutic Pilates in Washington DC…" />
+        <CTASection title="Find Pilates near you" subtitle="Use our AI Finder to discover studios in any city: coming soon." showSearch searchPlaceholder="Ask: best therapeutic Pilates in Washington DC…" />
       </main>
       <Footer />
     </>

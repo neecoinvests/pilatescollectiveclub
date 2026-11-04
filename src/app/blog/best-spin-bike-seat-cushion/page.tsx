@@ -12,14 +12,14 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Spin Bike Seat Cushions (2026): Compared & Ranked",
-  description: "Spin bike seat cushions and replacement saddles ranked — plus the honest fix order, because a thick gel cover often makes saddle pain worse, not better.",
+  description: "Spin bike seat cushions and replacement saddles ranked, plus the honest fix order, because a thick gel cover often makes saddle pain worse, not better.",
   keywords: ["best spin bike seat cushion", "spin bike seat cushion", "peloton seat cushion", "gel bike seat cover", "indoor cycling saddle pain", "bikeroo saddle", "replacement saddle spin bike", "bike seat cushion for women", "spin bike saddle comfort", "seat cushion 2026"],
   openGraph: {
     title: "Best Spin Bike Seat Cushions (2026): Compared & Ranked",
-    description: "Cushions and replacement saddles ranked — and why a thick gel cover often makes saddle pain worse.",
+    description: "Cushions and replacement saddles ranked, and why a thick gel cover often makes saddle pain worse.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-spin-bike-seat-cushion",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg", width: 1200, height: 630, alt: "Best Spin Bike Seat Cushions — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg", width: 1200, height: 630, alt: "Best Spin Bike Seat Cushions: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -36,9 +36,9 @@ const PRODUCTS = [
     rank: "01",
     name: "Bikeroo Padded Replacement Saddle (Wide)",
     price: "$14.49",
-    verdict: "Best overall — replace the saddle, do not cover it",
+    verdict: "Best overall: replace the saddle, do not cover it",
     description:
-      "The most effective fix in this category is not a cushion at all. Stock spin bike saddles are narrow racing shapes chosen to look serious, and most riders' sit bones are wider than the saddle can support — so body weight lands on soft tissue instead of bone. A wider replacement saddle with a central relief channel moves the load back onto the sit bones where it belongs, which is what actually stops the pain. Bikeroo's wide model fits the standard rail clamp used by almost every indoor bike, so it is a ten-minute swap with one Allen key. The central cutout matters more than the padding depth: it relieves perineal pressure, which is the specific complaint most riders describe as numbness rather than soreness. Measure your sit bone width before buying — most bike shops will do it free, and it turns this from a guess into a fitting.",
+      "The most effective fix in this category is not a cushion at all. Stock spin bike saddles are narrow racing shapes chosen to look serious, and most riders' sit bones are wider than the saddle can support, so body weight lands on soft tissue instead of bone. A wider replacement saddle with a central relief channel moves the load back onto the sit bones where it belongs, which is what actually stops the pain. Bikeroo's wide model fits the standard rail clamp used by almost every indoor bike, so it is a ten-minute swap with one Allen key. The central cutout matters more than the padding depth: it relieves perineal pressure, which is the specific complaint most riders describe as numbness rather than soreness. Measure your sit bone width before buying: most bike shops will do it free, and it turns this from a guess into a fitting.",
     affiliateUrl: "https://www.amazon.com/dp/B07B646ZZY?tag=pilatescollective-20",
     tag: "Editor's Pick",
   },
@@ -48,7 +48,7 @@ const PRODUCTS = [
     price: "$17.99",
     verdict: "Best cover if you cannot change the saddle",
     description:
-      "If the bike is shared, rented, or in a studio where swapping the saddle is not an option, a well-fitted gel cover is the right compromise. The two specifications that separate a usable cover from a frustrating one are the fixing and the thickness. A drawstring plus an underside strap keeps the cover from rotating, which is the standard failure mode — a cover that creeps sideways mid-class concentrates pressure worse than the bare saddle did. And keep the gel layer under about 15mm: thicker covers feel plush for five minutes, then you sink through and the pressure lands on soft tissue again while your effective saddle height drops. Fit the cover taut rather than loose, check it after your warm-up, and accept that it is a mitigation rather than a cure.",
+      "If the bike is shared, rented, or in a studio where swapping the saddle is not an option, a well-fitted gel cover is the right compromise. The two specifications that separate a usable cover from a frustrating one are the fixing and the thickness. A drawstring plus an underside strap keeps the cover from rotating, which is the standard failure mode: a cover that creeps sideways mid-class concentrates pressure worse than the bare saddle did. And keep the gel layer under about 15mm: thicker covers feel plush for five minutes, then you sink through and the pressure lands on soft tissue again while your effective saddle height drops. Fit the cover taut rather than loose, check it after your warm-up, and accept that it is a mitigation rather than a cure.",
     affiliateUrl: "https://www.amazon.com/dp/B01H71AZ36?tag=pilatescollective-20",
     tag: "Best Cover",
   },
@@ -68,7 +68,7 @@ const PRODUCTS = [
     price: "$94.00",
     verdict: "Best anatomic fit for wider sit bones",
     description:
-      "Sit bone width varies considerably between individuals and is on average wider in women, while stock indoor bike saddles are almost universally cut to a narrow unisex shape. That mismatch is the mechanical reason so many riders describe the same problem in the same words. A saddle designed around a wider platform with a pronounced central cutout addresses it directly rather than padding over it. Expect a short adjustment period — a correctly supportive saddle can feel firmer than the squashy one it replaced, because your weight is now on bone rather than sinking into foam, and that is the point. Pair the swap with a saddle height check: a saddle roughly 5mm too high causes rocking that produces chafing no amount of padding will fix.",
+      "Sit bone width varies considerably between individuals and is on average wider in women, while stock indoor bike saddles are almost universally cut to a narrow unisex shape. That mismatch is the mechanical reason so many riders describe the same problem in the same words. A saddle designed around a wider platform with a pronounced central cutout addresses it directly rather than padding over it. Expect a short adjustment period: a correctly supportive saddle can feel firmer than the squashy one it replaced, because your weight is now on bone rather than sinking into foam, and that is the point. Pair the swap with a saddle height check: a saddle roughly 5mm too high causes rocking that produces chafing no amount of padding will fix.",
     affiliateUrl: "https://www.amazon.com/dp/B00ZG6BF7U?tag=pilatescollective-20",
     tag: "Best Anatomic Fit",
   },
@@ -88,7 +88,7 @@ const PRODUCTS = [
     price: "From $13",
     verdict: "Cheapest way to test whether padding is your problem",
     description:
-      "Before spending on a saddle, it is worth establishing whether padding is actually what you need — because frequently it is not. Saddle discomfort on an indoor bike is most often a fit problem: a saddle too high causes side-to-side rocking and chafing, one too low or too far forward loads the front of the perineum, and neither responds to cushioning. A sub-$15 cover answers the question in two classes. If the pain largely disappears, buy a proper saddle or a better cover. If it does not, stop buying padding and get your saddle height and fore-aft position set — that is free and fixes more cases than any product on this page. Expect thin gel, a smooth underside that slips, and a year of life at most.",
+      "Before spending on a saddle, it is worth establishing whether padding is actually what you need, because frequently it is not. Saddle discomfort on an indoor bike is most often a fit problem: a saddle too high causes side-to-side rocking and chafing, one too low or too far forward loads the front of the perineum, and neither responds to cushioning. A sub-$15 cover answers the question in two classes. If the pain largely disappears, buy a proper saddle or a better cover. If it does not, stop buying padding and get your saddle height and fore-aft position set: that is free and fixes more cases than any product on this page. Expect thin gel, a smooth underside that slips, and a year of life at most.",
     affiliateUrl: "https://www.amazon.com/s?k=budget+gel+bike+seat+cover&tag=pilatescollective-20",
     tag: "Best Budget",
   },
@@ -100,7 +100,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Best Spin Bike Seat Cushions (2026): Compared & Ranked",
-      "description": "Seat cushions, gel covers and replacement saddles compared for indoor cycling — plus the fit checks that solve saddle pain before any purchase.",
+      "description": "Seat cushions, gel covers and replacement saddles compared for indoor cycling, plus the fit checks that solve saddle pain before any purchase.",
       "url": "https://pilatescollectiveclub.com/blog/best-spin-bike-seat-cushion",
       "datePublished": "2026-09-14",
       "dateModified": "2026-10-20",
@@ -135,7 +135,7 @@ const jsonLd = {
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "Do spin bike seat cushions actually work?", "acceptedAnswer": { "@type": "Answer", "text": "Sometimes, and less often than the category implies. A cushion helps when the saddle is simply too firm for short, seated rides. It does not help — and can make things worse — when the real problem is a saddle too narrow for your sit bones, or a saddle set at the wrong height. A thick gel cover raises your effective saddle height, lets you sink into soft tissue rather than resting on bone, and tends to rotate under load. Before buying padding, check your saddle height and fore-aft position, which costs nothing and resolves a large share of cases." } },
+        { "@type": "Question", "name": "Do spin bike seat cushions actually work?", "acceptedAnswer": { "@type": "Answer", "text": "Sometimes, and less often than the category implies. A cushion helps when the saddle is simply too firm for short, seated rides. It does not help, and can make things worse, when the real problem is a saddle too narrow for your sit bones, or a saddle set at the wrong height. A thick gel cover raises your effective saddle height, lets you sink into soft tissue rather than resting on bone, and tends to rotate under load. Before buying padding, check your saddle height and fore-aft position, which costs nothing and resolves a large share of cases." } },
         { "@type": "Question", "name": "Is a gel cover or a new saddle better?", "acceptedAnswer": { "@type": "Answer", "text": "A new saddle, in almost every case where you are allowed to fit one. A cover pads over a shape that does not fit you; a correctly sized saddle changes the shape so your weight lands on the sit bones instead of soft tissue. Replacement saddles start around $35, fit the standard two-rail clamp used by nearly every indoor bike including Peloton, and take about ten minutes to fit. Covers are the right answer only when the bike is shared, rented, or in a studio where you cannot modify it." } },
         { "@type": "Question", "name": "Why does my spin bike seat hurt so much more than a road bike?", "acceptedAnswer": { "@type": "Answer", "text": "Two reasons. On the road you shift position constantly, stand over bumps and coast, so pressure moves around; on an indoor bike you can hold one position for the better part of an hour with no interruption at all. And indoor bikes are frequently set up with the saddle too high or too far forward, which loads the front of the perineum rather than the sit bones. Deliberately standing for a few seconds every few minutes, and getting the fit checked, both help more than any cushion." } },
         { "@type": "Question", "name": "How thick should a spin bike seat cushion be?", "acceptedAnswer": { "@type": "Answer", "text": "Under about 15mm of gel. It is counterintuitive, but thicker is worse past that point: you compress through the padding within a few minutes and end up on soft tissue anyway, while the extra height changes your leg extension and the bulk makes the cover more likely to rotate. If a thin cover is not enough, that is a signal the saddle shape is wrong for you rather than a signal to buy more padding." } },
@@ -166,7 +166,7 @@ export default function BestSpinBikeSeatCushionPage() {
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              The uncomfortable truth about this category: a thick gel cushion is often the wrong fix and sometimes makes things worse. Saddle pain is usually a fit problem — a saddle too narrow for your sit bones, or set too high — and padding over it lets you sink further into soft tissue while raising your effective saddle height. Work through the fix order below before you buy anything, then buy the right thing.
+              The uncomfortable truth about this category: a thick gel cushion is often the wrong fix and sometimes makes things worse. Saddle pain is usually a fit problem (a saddle too narrow for your sit bones, or set too high) and padding over it lets you sink further into soft tissue while raising your effective saddle height. Work through the fix order below before you buy anything, then buy the right thing.
             </p>
           </div>
         </section>
@@ -174,7 +174,7 @@ export default function BestSpinBikeSeatCushionPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg" alt="Indoor cycling setup — saddle fit matters more than padding for comfort" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg" alt="Indoor cycling setup: saddle fit matters more than padding for comfort" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>
         </section>
@@ -183,14 +183,14 @@ export default function BestSpinBikeSeatCushionPage() {
           <div className="max-w-3xl mx-auto">
 
             <div className="mb-14 rounded-2xl p-8" style={{ backgroundColor: "#fff4f1", border: "1px solid rgba(139,74,49,0.15)" }}>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The fix order — work down, not up</h2>
+              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The fix order: work down, not up</h2>
               <ol className="space-y-3">
                 {[
                   "Set saddle height. Standing beside the bike, the saddle should sit at hip-bone height. Too high causes side-to-side rocking and chafing that no padding fixes.",
                   "Set fore-aft position. With the pedals level, your forward knee should sit over the pedal axle. Too far forward loads the front of the perineum.",
                   "Wear padded shorts. A proper chamois does more for saddle comfort than any cushion, and it moves with you rather than rotating.",
                   "Change the saddle. A wider saddle with a central cutout puts weight on the sit bones instead of soft tissue. Around $35 and ten minutes.",
-                  "Only then, add a cover — and only if the bike is shared or rented and you cannot swap the saddle.",
+                  "Only then, add a cover, and only if the bike is shared or rented and you cannot swap the saddle.",
                 ].map((tip, i) => (
                   <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                     <span className="font-semibold shrink-0" style={{ color: "#8b4a31" }}>{i + 1}.</span>
@@ -222,7 +222,7 @@ export default function BestSpinBikeSeatCushionPage() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "Do spin bike seat cushions actually work?", a: "Sometimes, and less often than the category implies. A cushion helps when the saddle is simply too firm for short, seated rides. It does not help — and can make things worse — when the real problem is a saddle too narrow for your sit bones, or a saddle set at the wrong height. A thick gel cover raises your effective saddle height, lets you sink into soft tissue rather than resting on bone, and tends to rotate under load. Before buying padding, check your saddle height and fore-aft position, which costs nothing and resolves a large share of cases." },
+                  { q: "Do spin bike seat cushions actually work?", a: "Sometimes, and less often than the category implies. A cushion helps when the saddle is simply too firm for short, seated rides. It does not help, and can make things worse, when the real problem is a saddle too narrow for your sit bones, or a saddle set at the wrong height. A thick gel cover raises your effective saddle height, lets you sink into soft tissue rather than resting on bone, and tends to rotate under load. Before buying padding, check your saddle height and fore-aft position, which costs nothing and resolves a large share of cases." },
                   { q: "Is a gel cover or a new saddle better?", a: "A new saddle, in almost every case where you are allowed to fit one. A cover pads over a shape that does not fit you; a correctly sized saddle changes the shape so your weight lands on the sit bones instead of soft tissue. Replacement saddles start around $35, fit the standard two-rail clamp used by nearly every indoor bike including Peloton, and take about ten minutes to fit. Covers are the right answer only when the bike is shared, rented, or in a studio where you cannot modify it." },
                   { q: "Why does my spin bike seat hurt so much more than a road bike?", a: "Two reasons. On the road you shift position constantly, stand over bumps and coast, so pressure moves around; on an indoor bike you can hold one position for the better part of an hour with no interruption at all. And indoor bikes are frequently set up with the saddle too high or too far forward, which loads the front of the perineum rather than the sit bones. Deliberately standing for a few seconds every few minutes, and getting the fit checked, both help more than any cushion." },
                   { q: "How thick should a spin bike seat cushion be?", a: "Under about 15mm of gel. It is counterintuitive, but thicker is worse past that point: you compress through the padding within a few minutes and end up on soft tissue anyway, while the extra height changes your leg extension and the bulk makes the cover more likely to rotate. If a thin cover is not enough, that is a signal the saddle shape is wrong for you rather than a signal to buy more padding." },
@@ -238,7 +238,7 @@ export default function BestSpinBikeSeatCushionPage() {
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="Best Padded Cycling Shorts for Spin" excerpt="A proper chamois does more for saddle comfort than any cushion — the pairs worth owning." href="/blog/best-padded-cycling-shorts-for-spin" category="Spinning" readTime="8 min read" date="June 2026" imageUrl="/pictures/dane-wetton-AkSJQnem75Y-unsplash.jpg" />
+                <ArticleCard title="Best Padded Cycling Shorts for Spin" excerpt="A proper chamois does more for saddle comfort than any cushion: the pairs worth owning." href="/blog/best-padded-cycling-shorts-for-spin" category="Spinning" readTime="8 min read" date="June 2026" imageUrl="/pictures/dane-wetton-AkSJQnem75Y-unsplash.jpg" />
                 <ArticleCard title="Best Indoor Spin Bike for Home Studios" excerpt="Peloton, Schwinn, NordicTrack and the budget machines worth considering." href="/blog/best-indoor-spin-bike-for-home-studio" category="Spinning" readTime="12 min read" date="June 2026" imageUrl="/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg" />
                 <ArticleCard title="Best Clip-In Pedals for Spin Bikes (2026): SPD vs Delta" excerpt="Clip-in pedals and cleats for indoor bikes ranked, why SPD beats Delta for studio cycling, which pedals fit…" href="/blog/best-clip-in-pedals-for-spin-bike" category="Spin" readTime="9 min read" imageUrl="/pictures/dane-wetton-AkSJQnem75Y-unsplash.jpg" />
                 <ArticleCard title="Best Floor Mat for Spin Bike (2026): Top Picks Compared" excerpt="The best floor mats for spin bikes and indoor cycling, compared for thickness, sweat absorption, bike stability…" href="/blog/best-floor-mat-for-spin-bike" category="Spin" readTime="7 min read" imageUrl="/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg" />

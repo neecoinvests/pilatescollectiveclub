@@ -12,7 +12,7 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Studios in Copenhagen (2026)",
-  description: "The best Pilates studios in Copenhagen — reformer boutiques in Østerbro, Frederiksberg, and the city centre. Six curated picks, verified October 2026.",
+  description: "The best Pilates studios in Copenhagen: reformer boutiques in Østerbro, Frederiksberg, and the city centre. Six curated picks, verified October 2026.",
   robots: {
     index: true,
     follow: true,
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Best Pilates Studios in Copenhagen (2026)",
     description:
-      "Six curated Pilates studios in Copenhagen — reformer picks from Østerbro to Frederiksberg. Verified 2026.",
+      "Six curated Pilates studios in Copenhagen: reformer picks from Østerbro to Frederiksberg. Verified 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/copenhagen",
     images: [
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
         url: "https://images.unsplash.com/photo-1513622470522-26c3c8a854bc?w=1200&q=80",
         width: 1200,
         height: 630,
-        alt: "Copenhagen city guide — Pilates Collective Club",
+        alt: "Copenhagen city guide: Pilates Collective Club",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Best Pilates Studios in Copenhagen (2026)",
     description:
-      "Find the best Pilates studios in Copenhagen — six curated picks with booking tips for 2026.",
+      "Find the best Pilates studios in Copenhagen: six curated picks with booking tips for 2026.",
     images: ["https://images.unsplash.com/photo-1513622470522-26c3c8a854bc?w=1200&q=80"],
   },
   alternates: {
@@ -53,12 +53,12 @@ const STUDIOS = [
     name: "Studio 41 Pilates",
     neighborhood: "Vesterbro",
     priceLevel: "$$$$",
-    review: "Studio 41 is a purely classical Pilates studio on Vesterbrogade, fully equipped with Gratz apparatus — reformers, Cadillac, Wunda chair, ladder barrel and spine corrector. Classes are taught as Joseph Pilates designed them, with small groups and an emphasis on form, and they are conducted in English. Showers come with Aesop products, towel service and a Dyson Supersonic hairdryer, so it is easy to train before work.",
-    caveat: "classical teaching is disciplined and precise — expect technique, not a music-driven workout.",
+    review: "Studio 41 is a purely classical Pilates studio on Vesterbrogade, fully equipped with Gratz apparatus: reformers, Cadillac, Wunda chair, ladder barrel and spine corrector. Classes are taught as Joseph Pilates designed them, with small groups and an emphasis on form, and they are conducted in English. Showers come with Aesop products, towel service and a Dyson Supersonic hairdryer, so it is easy to train before work.",
+    caveat: "classical teaching is disciplined and precise: expect technique, not a music-driven workout.",
     address: "Vesterbrogade 41E, 1620 København V",
     bestFor: "Classical Pilates on Gratz apparatus, taught in English",
     signatureClass: "Classical Reformer",
-    bookingTip: "Small groups mean limited spots — book evening and weekend classes a week ahead.",
+    bookingTip: "Small groups mean limited spots: book evening and weekend classes a week ahead.",
   },
   {
     number: "02",
@@ -66,8 +66,8 @@ const STUDIOS = [
     neighborhood: "Central Copenhagen",
     priceLevel: "$$$",
     review: "Pilates CPH has been operating since 2008 as both a Pilates studio and a training academy. It offers small group classes and private sessions, plus specialist training for pregnancy, postnatal recovery and rehabilitation, which makes it one of the most established options in the city.",
-    caveat: "we could not confirm the current street address independently — check the studio's website before your first visit.",
-    address: "—",
+    caveat: "we could not confirm the current street address independently: check the studio's website before your first visit.",
+    address: "",
     bestFor: "Pregnancy, postnatal and rehab-focused Pilates",
     signatureClass: "Small Group Pilates",
     bookingTip: "If you are pregnant or postnatal, ask about the specialist classes rather than joining a general group.",
@@ -78,7 +78,7 @@ const STUDIOS = [
     neighborhood: "Indre By (Nyhavn)",
     priceLevel: "$$$",
     review: "Copenhagen Pilates Studio on Peder Skrams Gade sits in the old city near Nyhavn, a short walk from Kongens Nytorv metro. It is a dedicated Pilates studio listed on Bruce Studios, convenient for anyone working in the centre.",
-    caveat: "there is limited published detail about its class formats and equipment — check the schedule or take an intro class first.",
+    caveat: "there is limited published detail about its class formats and equipment: check the schedule or take an intro class first.",
     address: "Peder Skrams Gade 5, København K",
     bestFor: "Central Pilates near Nyhavn",
     signatureClass: "Pilates Class",
@@ -90,7 +90,7 @@ const STUDIOS = [
     neighborhood: "Amager",
     priceLevel: "$$$",
     review: "Rama Reformer Club on Strandlodsvej is a boutique reformer studio combined with a café and community space, focused on mindful movement, strength and well-being in small groups. It has a sauna, showers, lockers and parking, and it is rated 4.9 from more than 1,000 reviews across fitness platforms.",
-    caveat: "it is on Amager, away from the central districts — easy by metro or car, but not a walk from Indre By.",
+    caveat: "it is on Amager, away from the central districts: easy by metro or car, but not a walk from Indre By.",
     address: "Strandlodsvej 13Y, 2300 København S",
     bestFor: "Small-group reformer with sauna and café",
     signatureClass: "Classic Reformer",
@@ -102,11 +102,11 @@ const STUDIOS = [
     neighborhood: "Indre By",
     priceLevel: "$$$",
     review: "Power Studio by Power House runs power reformer Pilates in a small, aesthetic studio in Indre By. Having only a few machines leaves the instructors plenty of time to guide each person, and it is rated 4.8 from about 300 reviews on Bruce Studios. Classes are taught in Danish.",
-    caveat: "power reformer classes are high-energy — beginners should tell the instructor it is their first class.",
+    caveat: "power reformer classes are high-energy: beginners should tell the instructor it is their first class.",
     address: "Vester Farimagsgade 29, 1606 København V",
     bestFor: "Energetic power reformer in the city centre",
     signatureClass: "Power Reformer",
-    bookingTip: "With few machines per class, book ahead — especially for after-work slots.",
+    bookingTip: "With few machines per class, book ahead, especially for after-work slots.",
   },
   {
     number: "06",
@@ -114,33 +114,33 @@ const STUDIOS = [
     neighborhood: "Frederiksberg",
     priceLevel: "$$",
     review: "PWR.8 Studio is an inclusive training studio in a backyard building on Nyvej in Frederiksberg (it also has an Østerbro location). It offers Power Reformer classes alongside strength, cardio and mobility concepts with breathwork and relaxation elements.",
-    caveat: "a multi-concept studio rather than a dedicated Pilates room — choose the Power Reformer classes specifically.",
+    caveat: "a multi-concept studio rather than a dedicated Pilates room: choose the Power Reformer classes specifically.",
     address: "Nyvej 17B (Baghuset), Frederiksberg",
     bestFor: "Power Reformer in Frederiksberg",
     signatureClass: "Power Reformer",
-    bookingTip: "The studio is in the backyard building (baghuset) — allow a minute to find the entrance.",
+    bookingTip: "The studio is in the backyard building (baghuset): allow a minute to find the entrance.",
   },
 ];
 
 const BOOKING_TIPS = [
   {
     heading: "Expect to pay €25–55 per class",
-    body: "Copenhagen's Pilates pricing is comparable to Stockholm and London. Group reformer classes run approximately 250–450 DKK (€33–60); private sessions at classical studios reach 600–750 DKK. Monthly membership packages — typically four to eight sessions — provide the best per-class economics for regular practitioners.",
+    body: "Copenhagen's Pilates pricing is comparable to Stockholm and London. Group reformer classes run approximately 250–450 DKK (€33–60); private sessions at classical studios reach 600–750 DKK. Monthly membership packages, typically four to eight sessions, provide the best per-class economics for regular practitioners.",
   },
   {
-    heading: "Book early — demand consistently outstrips supply",
-    body: "Copenhagen's boutique fitness market is mature and competitive, which means popular classes at quality studios fill quickly. Most studios release their schedule one week ahead; setting a booking reminder is not excessive — it's genuinely necessary for prime morning slots.",
+    heading: "Book early: demand consistently outstrips supply",
+    body: "Copenhagen's boutique fitness market is mature and competitive, which means popular classes at quality studios fill quickly. Most studios release their schedule one week ahead; setting a booking reminder is not excessive: it's genuinely necessary for prime morning slots.",
   },
   {
     heading: "English is universal in Copenhagen studios",
-    body: "Copenhagen has one of the highest English-language proficiency rates in the world. Every studio in this guide operates entirely comfortably in English — for instructors, reception staff, and booking systems. This is never a concern for international visitors.",
+    body: "Copenhagen has one of the highest English-language proficiency rates in the world. Every studio in this guide operates entirely comfortably in English, for instructors, reception staff, and booking systems. This is never a concern for international visitors.",
   },
   {
     heading: "Grip socks are required and worth buying your own",
-    body: "All Copenhagen studios require toeless grip socks. The studio-sold options typically run 120–150 DKK — buying online ahead of your visit saves money and the minor inconvenience of arriving without them.",
+    body: "All Copenhagen studios require toeless grip socks. The studio-sold options typically run 120–150 DKK: buying online ahead of your visit saves money and the minor inconvenience of arriving without them.",
   },
   {
-    heading: "Introductory offers — use them before committing",
+    heading: "Introductory offers: use them before committing",
     body: "The instruction style and community culture vary considerably across Copenhagen studios. All major studios offer new-client deals; using intro offers at two or three studios before committing to a membership is the best way to find your fit. Don't rush the choice.",
   },
 ];
@@ -154,7 +154,7 @@ const NEIGHBORHOODS = [
   {
     name: "Østerbro",
     description:
-      "A prosperous, family-oriented neighbourhood east of the centre with a strong wellness culture and growing studio infrastructure. The Reformery represents the best of what Østerbro offers — community warmth combined with genuine instruction quality at pricing that doesn't require Frederiksberg budgets.",
+      "A prosperous, family-oriented neighbourhood east of the centre with a strong wellness culture and growing studio infrastructure. The Reformery represents the best of what Østerbro offers: community warmth combined with genuine instruction quality at pricing that doesn't require Frederiksberg budgets.",
   },
   {
     name: "Nørrebro",
@@ -164,7 +164,7 @@ const NEIGHBORHOODS = [
   {
     name: "Vesterbro & Indre By",
     description:
-      "Two distinct but complementary options. Vesterbro's studios reflect the neighbourhood's creative and independent character — innovative, energetic, and community-minded. Indre By, the historic city centre, is home to the Copenhagen Pilates Centre — the city's most classically rigorous and long-established address.",
+      "Two distinct but complementary options. Vesterbro's studios reflect the neighbourhood's creative and independent character: innovative, energetic, and community-minded. Indre By, the historic city centre, is home to the Copenhagen Pilates Centre: the city's most classically rigorous and long-established address.",
   },
 ];
 
@@ -183,7 +183,7 @@ const GEAR = [
   },
   {
     name: "Magic Circle",
-    note: "Our pick: Balanced Body Ultra-Fit Circle (15-inch). Many studios incorporate the magic circle — worth owning for home reinforcement work.",
+    note: "Our pick: Balanced Body Ultra-Fit Circle (15-inch). Many studios incorporate the magic circle: worth owning for home reinforcement work.",
     price: "$35.00",
     url: "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20",
   },
@@ -201,7 +201,7 @@ const GEAR = [
   },
   {
     name: "Home Pilates Reformer",
-    note: "Our pick: PAETA Wooden Foldable Reformer. A home reformer extends your studio practice — AeroPilates and Align entry models deliver a genuine full-body session.",
+    note: "Our pick: PAETA Wooden Foldable Reformer. A home reformer extends your studio practice: AeroPilates and Align entry models deliver a genuine full-body session.",
     price: "$699.98",
     url: "https://www.amazon.com/dp/B0D7M7JNFV?tag=pilatescollective-20",
   },
@@ -218,7 +218,7 @@ const RELATED_CITIES = [
 const FURTHER_READING = [
   {
     title: "Best Pilates Equipment for Home Practice",
-    excerpt: "Everything you need between studio sessions — from a quality mat to resistance bands.",
+    excerpt: "Everything you need between studio sessions, from a quality mat to resistance bands.",
     href: "/blog/best-pilates-equipment-for-home-practice",
     category: "Equipment",
     readTime: "10 min read",
@@ -249,7 +249,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Best Pilates Studios in Copenhagen (2026)",
-      "description": "The best Pilates studios in Copenhagen — reformer boutiques in Østerbro, Frederiksberg, and the city centre. Six curated picks, verified October 2026.",
+      "description": "The best Pilates studios in Copenhagen: reformer boutiques in Østerbro, Frederiksberg, and the city centre. Six curated picks, verified October 2026.",
       "url": "https://pilatescollectiveclub.com/cities/copenhagen",
       "datePublished": "2026-06-28",
       "dateModified": "2026-10-20",
@@ -321,7 +321,7 @@ export default function CopenhagenPage() {
             </p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Copenhagen has emerged as one of northern Europe's most compelling destinations for Pilates, combining the Scandinavian instinct for considered design and purposeful movement with a studio culture that takes instruction seriously. The city's wellness market is relatively compact but remarkably coherent — from the classical rigour of Vesterbro to small-group reformer clubs on Amager. This guide identifies six studios that represent the range of what Copenhagen currently offers, from classical Gratz apparatus in Vesterbro to power reformer in Indre By.
+              Copenhagen has emerged as one of northern Europe's most compelling destinations for Pilates, combining the Scandinavian instinct for considered design and purposeful movement with a studio culture that takes instruction seriously. The city's wellness market is relatively compact but remarkably coherent, from the classical rigour of Vesterbro to small-group reformer clubs on Amager. This guide identifies six studios that represent the range of what Copenhagen currently offers, from classical Gratz apparatus in Vesterbro to power reformer in Indre By.
             </p>
           </div>
         </section>
@@ -402,7 +402,7 @@ export default function CopenhagenPage() {
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What to bring to your first class</h2>
             <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-              Grip socks are required at most reformer studios in Copenhagen. These are our recommended picks — all available on Amazon.{" "}
+              Grip socks are required at most reformer studios in Copenhagen. These are our recommended picks: all available on Amazon.{" "}
               <Link href="/affiliate-disclosure" style={{ color: "#8b4a31", textDecoration: "underline", fontFamily: "'Montserrat', sans-serif", fontSize: "inherit" }}>Affiliate disclosure.</Link>
             </p>
             <QuickPicks className="mb-0" picks={GEAR.map((g) => ({ name: g.note.match(/Our pick: ([^.]+(?:\.\d+[^.]*)?)\./)?.[1] ?? g.name, price: g.price, url: g.url, note: g.name }))} />

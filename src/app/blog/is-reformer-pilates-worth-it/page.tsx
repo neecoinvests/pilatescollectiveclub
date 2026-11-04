@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     description: "The real cost of reformer Pilates, what you actually get, and whether a home reformer makes financial sense.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/is-reformer-pilates-worth-it",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg", width: 1200, height: 630, alt: "Is Reformer Pilates Worth It — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg", width: 1200, height: 630, alt: "Is Reformer Pilates Worth It: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -80,7 +80,7 @@ const jsonLd = {
         {
           "@type": "Question",
           "name": "Is reformer Pilates more effective than mat?",
-          "acceptedAnswer": { "@type": "Answer", "text": "For body composition, injury rehabilitation, and movement variety, yes — the reformer's spring resistance and sliding carriage enable exercises and resistance profiles that mat work can't replicate. For flexibility and foundational strength, both achieve similar outcomes. The reformer is not superior for all goals, but for most practitioners, it meaningfully expands what's achievable." }
+          "acceptedAnswer": { "@type": "Answer", "text": "For body composition, injury rehabilitation, and movement variety, yes: the reformer's spring resistance and sliding carriage enable exercises and resistance profiles that mat work can't replicate. For flexibility and foundational strength, both achieve similar outcomes. The reformer is not superior for all goals, but for most practitioners, it meaningfully expands what's achievable." }
         },
         {
           "@type": "Question",
@@ -105,9 +105,9 @@ const jsonLd = {
 const PRODUCTS = [
   { name: "PAETA Wooden Foldable Reformer", description: "If the studio cost is your main concern, a home reformer pays for itself in 12-18 months of equivalent studio sessions. Entry-level machines from AeroPilates and Merrithew are the starting point.", price: "$699.98", affiliateUrl: "https://www.amazon.com/dp/B0D7M7JNFV?tag=pilatescollective-20" },
   { name: "Manduka PRO Pilates Mat", description: "If you are deciding between reformer and mat practice, a high-quality mat is the lower-cost starting point. Many practitioners begin with mat, add studio reformer work, and build from there.", price: "$144.00", affiliateUrl: "https://www.amazon.com/dp/B0066T7I54?tag=pilatescollective-20" },
-  { name: "TheraBand Resistance Bands Set", description: "Resistance bands provide spring-like resistance for mat practice — useful for assessing whether resistance-based Pilates work suits you before committing to studio fees or a home reformer.", price: "$11.99", affiliateUrl: "https://www.amazon.com/dp/B01A58FHQ8?tag=pilatescollective-20" },
+  { name: "TheraBand Resistance Bands Set", description: "Resistance bands provide spring-like resistance for mat practice: useful for assessing whether resistance-based Pilates work suits you before committing to studio fees or a home reformer.", price: "$11.99", affiliateUrl: "https://www.amazon.com/dp/B01A58FHQ8?tag=pilatescollective-20" },
   { name: "Balanced Body Magic Circle", description: "The most cost-effective way to add resistance to mat practice. Many intermediate practitioners use a mat, magic circle, and resistance bands for a complete home programme that complements studio reformer work.", price: "$35.00", affiliateUrl: "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20" },
-  { name: "ToeSox Grip Socks", description: "The entry cost of reformer Pilates. Required by virtually every studio — a small investment that enables full participation in any reformer class regardless of studio.", price: "$16.00", affiliateUrl: "https://www.amazon.com/dp/B00A6YUEEW?tag=pilatescollective-20" },
+  { name: "ToeSox Grip Socks", description: "The entry cost of reformer Pilates. Required by virtually every studio: a small investment that enables full participation in any reformer class regardless of studio.", price: "$16.00", affiliateUrl: "https://www.amazon.com/dp/B00A6YUEEW?tag=pilatescollective-20" },
 ];
 
 const QP_NOTES = ["A home reformer that can pay for itself vs classes", "The lower-cost way to start with mat Pilates", "Test resistance-based Pilates at home", "The cheapest way to add resistance to mat work", "The entry cost of reformer class"];
@@ -142,16 +142,16 @@ export default function IsReformerPilatesWorthItPage() {
 
             <section className="pb-20">
               <p className="text-lg leading-relaxed mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-                Reformer Pilates classes cost 2-3x more than mat classes, and home reformers range from $300 to $5,000. The question of whether it's "worth it" is legitimate — and the answer depends on what you're comparing it to and what you're trying to achieve. This guide gives you the numbers and the honest assessment you need to decide.
+                Reformer Pilates classes cost 2-3x more than mat classes, and home reformers range from $300 to $5,000. The question of whether it's "worth it" is legitimate, and the answer depends on what you're comparing it to and what you're trying to achieve. This guide gives you the numbers and the honest assessment you need to decide.
               </p>
 
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What the reformer actually offers that mat Pilates doesn't</h2>
               <div className="space-y-4 mb-10">
                 {[
-                  { heading: "Spring resistance", body: "The reformer's spring system provides consistent, calibrated resistance throughout the full range of movement. This is fundamentally different from bodyweight work — the spring loads muscles at angles and in positions that mat Pilates cannot access. The footwork series, the abdominal series with the carriage, and exercises like short spine massage are only possible on a reformer." },
+                  { heading: "Spring resistance", body: "The reformer's spring system provides consistent, calibrated resistance throughout the full range of movement. This is fundamentally different from bodyweight work: the spring loads muscles at angles and in positions that mat Pilates cannot access. The footwork series, the abdominal series with the carriage, and exercises like short spine massage are only possible on a reformer." },
                   { heading: "Sliding carriage", body: "The moving carriage introduces an unstable, dynamic element that challenges the stabiliser muscles differently from mat work. Exercises like elephant, down-stretch, and semi-circle require and develop a quality of core engagement that mat Pilates doesn't access in the same way." },
                   { heading: "Repertoire range", body: "The reformer supports over 250 exercises in the classical repertoire vs approximately 40 for the mat. Standing work, jump board cardio, sitting box work, and the full lying series are all reformer-specific. This variety is both practically useful and motivationally valuable for long-term practitioners." },
-                  { heading: "Injury rehabilitation", body: "The spring assistance is genuinely unique — it allows movement through ranges that might be inaccessible on a mat, making it the tool of choice for physiotherapists and rehabilitation specialists worldwide. For post-surgical recovery, the reformer offers advantages mat Pilates simply can't replicate." },
+                  { heading: "Injury rehabilitation", body: "The spring assistance is genuinely unique: it allows movement through ranges that might be inaccessible on a mat, making it the tool of choice for physiotherapists and rehabilitation specialists worldwide. For post-surgical recovery, the reformer offers advantages mat Pilates simply can't replicate." },
                 ].map((item) => (
                   <div key={item.heading} className="flex gap-5 rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <div className="w-1.5 rounded-full shrink-0 mt-1" style={{ backgroundColor: "#8b4a31", minHeight: "20px" }} />
@@ -210,7 +210,7 @@ export default function IsReformerPilatesWorthItPage() {
                 <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-4 opacity-75" style={{ color: "#ffffff", fontFamily: "'Montserrat', sans-serif" }}>Our Verdict</p>
                 <h2 className="text-2xl font-semibold mb-4" style={{ color: "#ffffff", fontFamily: "'Playfair Display', serif" }}>For most practitioners: yes, reformer Pilates is worth it.</h2>
                 <p className="text-base leading-relaxed mb-6 opacity-85" style={{ color: "#ffffff", fontFamily: "'Montserrat', sans-serif" }}>
-                  The reformer expands what's achievable, accelerates progress, and offers genuine advantages that mat Pilates cannot replicate. The cost is real — but so are the results. If you're serious about Pilates, the reformer is the natural progression. If budget is the constraint, the{" "}
+                  The reformer expands what's achievable, accelerates progress, and offers genuine advantages that mat Pilates cannot replicate. The cost is real, but so are the results. If you're serious about Pilates, the reformer is the natural progression. If budget is the constraint, the{" "}
                   <a href="/blog/best-pilates-reformer-under-1000" style={{ color: "#fde8dc", fontWeight: 600 }}>under-$1,000 reformer market</a>{" "}
                   has more options than ever.
                 </p>
@@ -220,7 +220,7 @@ export default function IsReformerPilatesWorthItPage() {
                 <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
                 <div className="space-y-6">
                   {[
-                    { q: "Is reformer Pilates more effective than mat?", a: "For body composition, injury rehabilitation, and movement variety, yes — the reformer's spring resistance and sliding carriage enable exercises and resistance profiles that mat work can't replicate. For flexibility and foundational strength, both achieve similar outcomes. The reformer is not superior for all goals, but for most practitioners, it meaningfully expands what's achievable." },
+                    { q: "Is reformer Pilates more effective than mat?", a: "For body composition, injury rehabilitation, and movement variety, yes: the reformer's spring resistance and sliding carriage enable exercises and resistance profiles that mat work can't replicate. For flexibility and foundational strength, both achieve similar outcomes. The reformer is not superior for all goals, but for most practitioners, it meaningfully expands what's achievable." },
                     { q: "Why is reformer Pilates so expensive?", a: "The machine cost is the primary factor. A single professional reformer costs $2,000-$5,000. Studios amortise this across class sizes limited to 8-12 practitioners (for safe instruction) rather than the 20-30 in a gym class. Smaller class sizes mean higher instructor ratios, higher rent per student, and ultimately, higher prices per session." },
                     { q: "How many reformer Pilates sessions before you see results?", a: "Most practitioners notice improved posture, a stronger core, and better body awareness after 8-12 sessions. Visible body composition changes typically require 3-4 weeks of regular practice (2-3 sessions per week minimum). Joseph Pilates' 30-session rule holds broadly true." },
                     { q: "Is reformer Pilates worth buying a home reformer?", a: "If you currently attend 3+ studio sessions per week at $30-40 per class, a quality home reformer pays for itself in 18-24 months. The Balanced Body Allegro 2 at $3,500 vs $90-120/week on classes is financially straightforward for committed practitioners. The real barrier is space and the motivation to practice without an instructor." },
@@ -249,9 +249,9 @@ export default function IsReformerPilatesWorthItPage() {
 
                 <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                  <ArticleCard title="Best Home Pilates Reformer (2026)" excerpt="Every budget from $299 to $3,500+ — the complete guide to home reformers." href="/blog/best-home-pilates-reformer" category="Equipment" readTime="11 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
-                  <ArticleCard title="Best Pilates Equipment for Home Practice (2026)" excerpt="The complete home Pilates equipment list — mat, ring, bands, roller, and reformer options ranked." href="/blog/best-pilates-equipment-for-home-practice" category="Equipment" readTime="10 min read" date="May 2026" imageUrl="/pictures/ahmet-kurt-0xn-8kRWOhE-unsplash.jpg" />
-                  <ArticleCard title="Pilates Reformer vs Mat" excerpt="What's actually different — which is harder, and what you get from each." href="/blog/pilates-reformer-vs-mat" category="Method" readTime="10 min read" date="May 2026" imageUrl="/pictures/ahmet-kurt-0xn-8kRWOhE-unsplash.jpg" />
+                  <ArticleCard title="Best Home Pilates Reformer (2026)" excerpt="Every budget from $299 to $3,500+: the complete guide to home reformers." href="/blog/best-home-pilates-reformer" category="Equipment" readTime="11 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
+                  <ArticleCard title="Best Pilates Equipment for Home Practice (2026)" excerpt="The complete home Pilates equipment list: mat, ring, bands, roller, and reformer options ranked." href="/blog/best-pilates-equipment-for-home-practice" category="Equipment" readTime="10 min read" date="May 2026" imageUrl="/pictures/ahmet-kurt-0xn-8kRWOhE-unsplash.jpg" />
+                  <ArticleCard title="Pilates Reformer vs Mat" excerpt="What's actually different, which is harder, and what you get from each." href="/blog/pilates-reformer-vs-mat" category="Method" readTime="10 min read" date="May 2026" imageUrl="/pictures/ahmet-kurt-0xn-8kRWOhE-unsplash.jpg" />
                 </div>
               </div>
             </section>

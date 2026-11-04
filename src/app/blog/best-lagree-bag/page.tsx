@@ -20,12 +20,12 @@ export const metadata: Metadata = {
     description: "Lagree is sweaty. Why a wet compartment and a separate shoe compartment matter most, plus six bags worth carrying to class.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-lagree-bag",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/stitch-studio-changing-area.png", width: 1200, height: 630, alt: "Best Lagree Bag — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/stitch-studio-changing-area.png", width: 1200, height: 630, alt: "Best Lagree Bag: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Lagree Bag (2026): Best Gym Bags for Lagree",
-    description: "Wet compartment, shoe compartment, room for a towel and bottle — six bags for Megaformer classes.",
+    description: "Wet compartment, shoe compartment, room for a towel and bottle: six bags for Megaformer classes.",
     images: ["https://pilatescollectiveclub.com/pictures/stitch-studio-changing-area.png"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/best-lagree-bag" },
@@ -50,7 +50,7 @@ const PRODUCTS = [
     price: "$80.00",
     verdict: "Premium pick with the most room",
     description:
-      "If your Lagree class is one stop in a longer day — office before, dinner after — capacity starts to matter more than anything else, and at 37 litres the Burner XL is the largest bag on this list. That is enough volume for the full Lagree load: a full-length grip towel for the carriage, a smaller hand towel, a water bottle, grip socks, a complete change of clothes and the shoes you arrived in, without having to compress everything into a ball. This listing is sold through The Active Footwear Store. It is the most expensive bag here at $80.00, so it makes most sense for people who commute straight to and from class several times a week. Check the current listing photos for the internal layout before buying if a sealed wet pocket is a must for you.",
+      "If your Lagree class is one stop in a longer day (office before, dinner after) capacity starts to matter more than anything else, and at 37 litres the Burner XL is the largest bag on this list. That is enough volume for the full Lagree load: a full-length grip towel for the carriage, a smaller hand towel, a water bottle, grip socks, a complete change of clothes and the shoes you arrived in, without having to compress everything into a ball. This listing is sold through The Active Footwear Store. It is the most expensive bag here at $80.00, so it makes most sense for people who commute straight to and from class several times a week. Check the current listing photos for the internal layout before buying if a sealed wet pocket is a must for you.",
     affiliateUrl: "https://www.amazon.com/dp/B0D64H9SXB?tag=pilatescollective-20",
     brandDirect: false,
     tag: "Premium Pick",
@@ -61,7 +61,7 @@ const PRODUCTS = [
     price: "$35.00",
     verdict: "Best classic duffle",
     description:
-      "Some people simply prefer a traditional duffle: one big main compartment you can open wide, throw a towel into, and find things in without unpacking. The Undeniable 5.0 is Under Armour's long-running duffle line, this is the medium size, and it is sold by Amazon.com, which keeps returns simple if the size turns out wrong. A duffle shape works well for Lagree because the bulkiest things you carry — a rolled grip towel and a change of clothes — are soft and long, which suits a wide opening better than a narrow backpack. The trade-off is organisation: if you want guaranteed separation for wet kit and shoes, confirm the compartment layout on the listing, or add a washable pouch for the damp towel. At $35.00 it is a durable, no-fuss middle option from a brand most people already trust for training gear.",
+      "Some people simply prefer a traditional duffle: one big main compartment you can open wide, throw a towel into, and find things in without unpacking. The Undeniable 5.0 is Under Armour's long-running duffle line, this is the medium size, and it is sold by Amazon.com, which keeps returns simple if the size turns out wrong. A duffle shape works well for Lagree because the bulkiest things you carry, a rolled grip towel and a change of clothes, are soft and long, which suits a wide opening better than a narrow backpack. The trade-off is organisation: if you want guaranteed separation for wet kit and shoes, confirm the compartment layout on the listing, or add a washable pouch for the damp towel. At $35.00 it is a durable, no-fuss middle option from a brand most people already trust for training gear.",
     affiliateUrl: "https://www.amazon.com/dp/B093LSTLVK?tag=pilatescollective-20",
     brandDirect: false,
     tag: "Best Duffle",
@@ -83,7 +83,7 @@ const PRODUCTS = [
     price: "$24.35",
     verdict: "Best tote",
     description:
-      "A tote is the right shape for people who would rather carry a shoulder bag than a duffle, and this one covers both Lagree essentials in a 20-litre body: its listing names a shoe compartment and a wet pocket. Twenty litres is smaller than the duffles above but comfortably enough for a towel, bottle, grip socks and a top to change into, and the tote format slides more easily into a studio cubby than a long duffle does. It is also designed as a yoga-mat bag, so if you take mat Pilates or yoga on other days you can carry a mat with it — you will not need one for Lagree itself, since you work on the machine. At $24.35 it is the cheapest bag here, alongside the BAGSMART; choose between them on shape, since both cover the shoe question.",
+      "A tote is the right shape for people who would rather carry a shoulder bag than a duffle, and this one covers both Lagree essentials in a 20-litre body: its listing names a shoe compartment and a wet pocket. Twenty litres is smaller than the duffles above but comfortably enough for a towel, bottle, grip socks and a top to change into, and the tote format slides more easily into a studio cubby than a long duffle does. It is also designed as a yoga-mat bag, so if you take mat Pilates or yoga on other days you can carry a mat with it: you will not need one for Lagree itself, since you work on the machine. At $24.35 it is the cheapest bag here, alongside the BAGSMART; choose between them on shape, since both cover the shoe question.",
     affiliateUrl: "https://www.amazon.com/dp/B0BHP38PNG?tag=pilatescollective-20",
     brandDirect: false,
     tag: "Best Tote",
@@ -94,7 +94,7 @@ const PRODUCTS = [
     price: "~$38 (lululemon.com)",
     verdict: "Best for phone and keys only",
     description:
-      "Not sold on Amazon — this links to lululemon.com. This is not a gym bag, and it is here because a lot of Lagree regulars do not carry one. If you live or work close to your studio and arrive already dressed, the only things you need are a phone, keys, a card and perhaps a hair tie, and a small crossbody belt bag holds exactly that and goes straight into a cubby. It is also a useful second bag for people who carry a duffle: keep valuables in the belt bag on your person or in the cubby and leave the damp duffle on the floor. Because it is bought directly from Lululemon, we do not earn a commission on it.",
+      "Not sold on Amazon: this links to lululemon.com. This is not a gym bag, and it is here because a lot of Lagree regulars do not carry one. If you live or work close to your studio and arrive already dressed, the only things you need are a phone, keys, a card and perhaps a hair tie, and a small crossbody belt bag holds exactly that and goes straight into a cubby. It is also a useful second bag for people who carry a duffle: keep valuables in the belt bag on your person or in the cubby and leave the damp duffle on the floor. Because it is bought directly from Lululemon, we do not earn a commission on it.",
     affiliateUrl: "https://shop.lululemon.com/",
     brandDirect: true,
     tag: "Brand-Direct Pick",
@@ -105,7 +105,7 @@ const AMAZON_PRODUCTS = PRODUCTS.filter((p) => !p.brandDirect);
 
 const FAQS = [
   { q: "What should I look for in a Lagree bag?", a: "Two features matter more than anything else: a wet compartment and a separate shoe compartment. Lagree is a slow-tempo, long time-under-tension workout and most people leave class with a damp towel, damp grip socks and a sweaty top, so a wet compartment keeps that away from clean clothes. Megaformer classes are done in grip socks, so the shoes you arrive in need their own space too. After that, look for enough room for a towel, a water bottle and a change of clothes, and a shape that fits your studio's cubbies." },
-  { q: "What should I bring to a Lagree class?", a: "Grip socks (most studios require them), a water bottle, and a towel — many people bring a small hand towel for face and hands plus a full-length grip towel to lay over the carriage. Add a change of clothes if you are not heading straight home, and something for your phone and keys. Leave the yoga mat at home: you work on the machine, not on the floor. Check your studio's own rules, since some provide towels and some sell grip socks at the desk." },
+  { q: "What should I bring to a Lagree class?", a: "Grip socks (most studios require them), a water bottle, and a towel: many people bring a small hand towel for face and hands plus a full-length grip towel to lay over the carriage. Add a change of clothes if you are not heading straight home, and something for your phone and keys. Leave the yoga mat at home: you work on the machine, not on the floor. Check your studio's own rules, since some provide towels and some sell grip socks at the desk." },
   { q: "Do I need a gym bag with a shoe compartment for Lagree?", a: "It is not essential, but it is the most useful feature for Lagree specifically. Studios have you take outdoor shoes off and train in grip socks, so you are carrying a pair of shoes in and out of every class. A shoe compartment keeps outdoor soles separate from your clean clothes and towel. If your bag does not have one, a washable drawstring shoe pouch does the same job." },
   { q: "Is a duffle, tote or backpack better for Lagree?", a: "It comes down to how you travel and what your studio has for storage. A duffle opens wide and suits bulky, soft items like a rolled towel and a change of clothes. A tote is easier to carry on one shoulder and tends to fit studio cubbies well. A backpack is best if you cycle or walk a long way to class. Whichever shape you choose, the wet and shoe separation matters more than the format." },
 ];
@@ -116,7 +116,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Lagree Bag (2026): Best Gym Bags for Lagree Class",
-      "description": "Gym bags compared for Lagree and Megaformer classes — wet compartments, shoe compartments, capacity for a towel, bottle and change of clothes, and studio-friendly shapes.",
+      "description": "Gym bags compared for Lagree and Megaformer classes: wet compartments, shoe compartments, capacity for a towel, bottle and change of clothes, and studio-friendly shapes.",
       "url": "https://pilatescollectiveclub.com/blog/best-lagree-bag",
       "datePublished": "2026-10-02",
       "dateModified": "2026-10-20",
@@ -177,7 +177,7 @@ export default function BestLagreeBagPage() {
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Lagree is the sweatiest thing most people do in a studio. Slow tempo and long time under tension mean you sweat steadily for the whole class, and you walk out with a damp towel, damp grip socks and a top you would rather not fold back in with your clean clothes. That is why the best Lagree bag is not the prettiest or the biggest — it is the one that separates wet kit and outdoor shoes from everything else.
+              Lagree is the sweatiest thing most people do in a studio. Slow tempo and long time under tension mean you sweat steadily for the whole class, and you walk out with a damp towel, damp grip socks and a top you would rather not fold back in with your clean clothes. That is why the best Lagree bag is not the prettiest or the biggest: it is the one that separates wet kit and outdoor shoes from everything else.
             </p>
           </div>
         </section>
@@ -185,7 +185,7 @@ export default function BestLagreeBagPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/stitch-studio-changing-area.png" alt="Studio changing area with gym bags — packing for a Lagree class" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/stitch-studio-changing-area.png" alt="Studio changing area with gym bags: packing for a Lagree class" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>
         </section>
@@ -241,7 +241,7 @@ export default function BestLagreeBagPage() {
             <UpsellCTA
               eyebrow="Pack It Properly"
               title="What goes in a Lagree bag"
-              body="A good bag is only half the job. The two things almost every Lagree regular packs are a grip towel to lay over the carriage when it gets slick with sweat, and a pair of proper grip socks — most studios require them."
+              body="A good bag is only half the job. The two things almost every Lagree regular packs are a grip towel to lay over the carriage when it gets slick with sweat, and a pair of proper grip socks: most studios require them."
               picks={[
                 { name: "Manduka Yogitoes Hot Yoga Mat Towel", price: "$72.00", url: "https://www.amazon.com/dp/B0D5ZR3R1M?tag=pilatescollective-20", note: "Sold by Amazon.com. Moisture-activated grip for the carriage." },
                 { name: "toesox Low Rise Grip Socks 2-Pack", price: "$30.00", url: "https://www.amazon.com/dp/B07QHNDHW3?tag=pilatescollective-20", note: "The original studio grip-sock brand." },
@@ -253,16 +253,16 @@ export default function BestLagreeBagPage() {
             <div className="mb-16">
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What to bring to Lagree</h2>
               <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-                Use this as a packing checklist. Studio policies vary — some provide towels, most sell grip socks at the desk — so check yours before your first class.
+                Use this as a packing checklist. Studio policies vary (some provide towels, most sell grip socks at the desk) so check yours before your first class.
               </p>
               <ul className="space-y-3">
                 {[
                   "Grip socks. Most Lagree studios require them, and they keep your feet planted on the carriage and platforms during lunges and planks.",
                   "A hand towel for your face and hands, so grip on the handles and straps stays reliable through long holds.",
-                  "A full-length grip towel if your studio allows one on the carriage — useful once sweat makes the surface slippery in kneeling and plank work.",
+                  "A full-length grip towel if your studio allows one on the carriage: useful once sweat makes the surface slippery in kneeling and plank work.",
                   "A water bottle. Long time under tension in a warm room is more dehydrating than it feels.",
                   "A change of clothes if you are not going straight home, and a washable pouch or the bag's wet compartment for what you trained in.",
-                  "Phone, keys and card — in a small belt bag if you want them on you rather than in a cubby.",
+                  "Phone, keys and card, in a small belt bag if you want them on you rather than in a cubby.",
                   "What you do not need: a yoga mat. Lagree is done on the machine.",
                 ].map((item, i) => (
                   <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
@@ -278,7 +278,7 @@ export default function BestLagreeBagPage() {
               <ul className="space-y-3">
                 {[
                   "One big open compartment with no way to separate wet kit. Sweaty towels and socks on top of clean clothes is how gym bags start to smell.",
-                  "Leaving damp kit zipped in the bag overnight. Even the best wet compartment is for the journey home — unpack and air everything as soon as you get in.",
+                  "Leaving damp kit zipped in the bag overnight. Even the best wet compartment is for the journey home: unpack and air everything as soon as you get in.",
                   "Bags too large for your studio's cubbies. Check what storage your studio has before buying the biggest duffle you can find.",
                   "Fabric you cannot clean. Your bag will sit on studio floors and carry sweaty kit; pick something you can wipe down or wash.",
                   "Carrying valuables loose in the main compartment. Keep phone and keys in a zip pocket or a small belt bag.",

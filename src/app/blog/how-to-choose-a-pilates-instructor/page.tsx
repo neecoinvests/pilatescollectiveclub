@@ -15,10 +15,10 @@ export const metadata: Metadata = {
   description: "How to choose a Pilates instructor: certifications, teaching styles, class formats, and red flags. A complete guide for beginners and experienced students.",
   openGraph: {
     title: "How to Choose the Right Pilates Instructor",
-    description: "What credentials, experience, and red flags to look for when selecting a Pilates teacher — a practical guide for new and experienced practitioners alike.",
+    description: "What credentials, experience, and red flags to look for when selecting a Pilates teacher: a practical guide for new and experienced practitioners alike.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/how-to-choose-a-pilates-instructor",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg", width: 1200, height: 630, alt: "Choosing a Pilates instructor — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg", width: 1200, height: 630, alt: "Choosing a Pilates instructor: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -41,7 +41,7 @@ const jsonLd = {
       "@type": "Article",
       "@id": "https://pilatescollectiveclub.com/blog/how-to-choose-a-pilates-instructor/#article",
       "headline": "How to Choose a Pilates Instructor",
-      "description": "Credentials, lineage, teaching style — what actually matters when selecting your teacher.",
+      "description": "Credentials, lineage, teaching style: what actually matters when selecting your teacher.",
       "image": {
         "@type": "ImageObject",
         "url": "https://pilatescollectiveclub.com/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg",
@@ -109,8 +109,8 @@ const PRODUCTS = [
   { name: "ToeSox Grip Socks", description: "The first equipment purchase before trialling a new instructor. Arriving with your own grip socks signals preparation and allows you to focus the introductory session on assessing the instructor, not logistics.", price: "$16.00", affiliateUrl: "https://www.amazon.com/dp/B00A6YUEEW?tag=pilatescollective-20" },
   { name: "Manduka PRO Pilates Mat", description: "For the home sessions your instructor recommends between studio visits. A mat at home enables the practice continuity that makes the instructor relationship most productive.", price: "$144.00", affiliateUrl: "https://www.amazon.com/dp/B0066T7I54?tag=pilatescollective-20" },
   { name: "Return to Life Through Contrology", description: "Reading the original Pilates text gives you a reference point for evaluating whether an instructor is grounded in the method or merely using the name. Useful context for any serious student.", price: "$17.90", affiliateUrl: "https://www.amazon.com/dp/1928564909?tag=pilatescollective-20" },
-  { name: "TheraBand Resistance Bands Set", description: "For the home exercises your instructor prescribes. Most good instructors provide between-session exercises — having resistance bands at home allows you to follow through on the programme.", price: "$11.99", affiliateUrl: "https://www.amazon.com/dp/B01A58FHQ8?tag=pilatescollective-20" },
-  { name: "Under Armour Studio Lite Tote", description: "A dedicated bag for your instructor sessions — grip socks, mat, water, and whatever props your instructor recommends bringing. Being organised demonstrates commitment and respects the instructor's time.", price: "$40.64", affiliateUrl: "https://www.amazon.com/dp/B0D1W4RK7S?tag=pilatescollective-20" },
+  { name: "TheraBand Resistance Bands Set", description: "For the home exercises your instructor prescribes. Most good instructors provide between-session exercises: having resistance bands at home allows you to follow through on the programme.", price: "$11.99", affiliateUrl: "https://www.amazon.com/dp/B01A58FHQ8?tag=pilatescollective-20" },
+  { name: "Under Armour Studio Lite Tote", description: "A dedicated bag for your instructor sessions: grip socks, mat, water, and whatever props your instructor recommends bringing. Being organised demonstrates commitment and respects the instructor's time.", price: "$40.64", affiliateUrl: "https://www.amazon.com/dp/B0D1W4RK7S?tag=pilatescollective-20" },
 ];
 
 const QP_NOTES = ["Buy before you trial a new instructor", "For the home sessions your instructor suggests", "A reference for judging an instructor's grounding", "For the exercises your instructor prescribes", "Carries socks, mat, water and props"];
@@ -148,12 +148,12 @@ export default function HowToChoosePilatesInstructorPage() {
 
             <section className="pb-20">
               <Section title="The certification landscape">
-                <p>Pilates instructor certification is not regulated in the same way that medical or physiotherapy qualifications are in most countries. This means the range of training behind someone calling themselves a &quot;Pilates instructor&quot; is extraordinarily wide — from weekend courses with minimal practical hours to multi-year apprenticeship programmes with thousands of supervised teaching hours.</p>
-                <p>The most rigorous certifications — those from organisations like the Pilates Method Alliance (PMA), STOTT PILATES, Balanced Body, Romana&apos;s Pilates, and Peak Pilates — require between 450 and 1,000+ hours of training, including anatomy education, practical observation, apprentice teaching, and written and practical examinations. These are genuinely demanding programmes.</p>
+                <p>Pilates instructor certification is not regulated in the same way that medical or physiotherapy qualifications are in most countries. This means the range of training behind someone calling themselves a &quot;Pilates instructor&quot; is extraordinarily wide, from weekend courses with minimal practical hours to multi-year apprenticeship programmes with thousands of supervised teaching hours.</p>
+                <p>The most rigorous certifications (those from organisations like the Pilates Method Alliance (PMA), STOTT PILATES, Balanced Body, Romana&apos;s Pilates, and Peak Pilates) require between 450 and 1,000+ hours of training, including anatomy education, practical observation, apprentice teaching, and written and practical examinations. These are genuinely demanding programmes.</p>
                 <p>At the other end of the spectrum, weekend and online certification courses can confer the same &quot;certified Pilates instructor&quot; title with a fraction of the training. When choosing an instructor, ask specifically about their certification programme, the hours it required, and the organisation that awarded it.</p>
               </Section>
 
-              <Callout>A great Pilates instructor teaches the person in front of them — not the class. Find someone who sees you specifically, not just the body filling the reformer.</Callout>
+              <Callout>A great Pilates instructor teaches the person in front of them, not the class. Find someone who sees you specifically, not just the body filling the reformer.</Callout>
 
               <Section title="What to look for">
                 <div className="space-y-3">
@@ -170,7 +170,7 @@ export default function HowToChoosePilatesInstructorPage() {
                   <CheckItem
                     isGreen={true}
                     label="Ongoing professional development"
-                    description="The best instructors continue to study — taking workshops with senior teachers, attending training in related disciplines (physiotherapy, anatomy, somatic movement), and deepening their understanding of the method over time."
+                    description="The best instructors continue to study: taking workshops with senior teachers, attending training in related disciplines (physiotherapy, anatomy, somatic movement), and deepening their understanding of the method over time."
                   />
                   <CheckItem
                     isGreen={true}
@@ -215,7 +215,7 @@ export default function HowToChoosePilatesInstructorPage() {
                   <CheckItem
                     isGreen={false}
                     label="Rote delivery of the same class"
-                    description="A teacher who delivers the exact same class session after session, with no adaptation for the individuals in the room, is not teaching — they are executing a template. Good Pilates instruction is responsive and adaptive."
+                    description="A teacher who delivers the exact same class session after session, with no adaptation for the individuals in the room, is not teaching: they are executing a template. Good Pilates instruction is responsive and adaptive."
                   />
                   <CheckItem
                     isGreen={false}
@@ -233,7 +233,7 @@ export default function HowToChoosePilatesInstructorPage() {
                   {[
                     "Where did you train, and what does your certification cover? How many training hours did it require?",
                     "How long have you been teaching, and what types of clients do you work with most?",
-                    "Do you have experience with [my specific concern — back pain, post-partum recovery, athletic performance, rehabilitation]?",
+                    "Do you have experience with [my specific concern: back pain, post-partum recovery, athletic performance, rehabilitation]?",
                     "How do you structure the first session for a new client?",
                     "How many clients are in your group reformer classes?",
                     "Do you continue to study or take workshops? With whom?",
@@ -248,8 +248,8 @@ export default function HowToChoosePilatesInstructorPage() {
 
               <Section title="Classical vs contemporary teachers">
                 <p>One important dimension of instructor choice is whether they teach a classical or contemporary approach to Pilates. Classical instructors follow the original Pilates repertoire closely, teaching the exercises in the order and manner developed by Joseph Pilates and transmitted through teachers like Romana Kryzanowska and Kathy Grant. Contemporary instructors draw on the original method but incorporate modern anatomy, movement science, and rehabilitation principles.</p>
-                <p>Neither is inherently superior — the best teacher for you depends on your goals and preferences. Classical instruction tends to be more systematic and rigorous in its adherence to the original method. Contemporary instruction tends to be more adaptable to individual needs and modern rehabilitation contexts.</p>
-                <p>What matters most is not the lineage — it is the teacher&apos;s depth of training, their experience, and their genuine attentiveness to you as a mover. A highly trained and experienced teacher of either tradition will serve you far better than a superficially certified instructor of the other.</p>
+                <p>Neither is inherently superior: the best teacher for you depends on your goals and preferences. Classical instruction tends to be more systematic and rigorous in its adherence to the original method. Contemporary instruction tends to be more adaptable to individual needs and modern rehabilitation contexts.</p>
+                <p>What matters most is not the lineage: it is the teacher&apos;s depth of training, their experience, and their genuine attentiveness to you as a mover. A highly trained and experienced teacher of either tradition will serve you far better than a superficially certified instructor of the other.</p>
               </Section>
             </section>
 

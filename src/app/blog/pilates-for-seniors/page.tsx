@@ -11,18 +11,18 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Pilates for Seniors (2026): Safe Exercises & Beginner Guide",
-  description: "Pilates for seniors — the safest reformer and mat exercises for older adults, modifications for joint concerns, and guidance for practitioners over 60.",
+  description: "Pilates for seniors: the safest reformer and mat exercises for older adults, modifications for joint concerns, and guidance for practitioners over 60.",
   openGraph: {
     title: "Pilates for Seniors: Safe, Effective & Evidence-Based",
-    description: "Why Pilates is one of the best exercises for over-60s — fall prevention, bone density, and balance, covered.",
+    description: "Why Pilates is one of the best exercises for over-60s: fall prevention, bone density, and balance, covered.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/pilates-for-seniors",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg", width: 1200, height: 630, alt: "Pilates for Seniors — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg", width: 1200, height: 630, alt: "Pilates for Seniors: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Pilates for Seniors (2026)",
-    description: "The evidence-based guide to Pilates for over-60s — fall prevention, bone density, and how to start.",
+    description: "The evidence-based guide to Pilates for over-60s: fall prevention, bone density, and how to start.",
     images: ["https://pilatescollectiveclub.com/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg"],
   },
   keywords: ["pilates for seniors", "pilates older adults 2026", "pilates for 60 year olds", "reformer pilates seniors", "gentle pilates for seniors", "pilates for over 65", "senior pilates class", "pilates mobility elderly", "pilates arthritis seniors"],
@@ -39,7 +39,7 @@ const jsonLd = {
       "@type": "Article",
       "@id": "https://pilatescollectiveclub.com/blog/pilates-for-seniors/#article",
       "headline": "Pilates for Seniors (2026): Safe, Effective & Backed by Evidence",
-      "description": "Why Pilates is one of the most effective exercises for over-60s — bone density, balance, fall prevention, and joint health.",
+      "description": "Why Pilates is one of the most effective exercises for over-60s: bone density, balance, fall prevention, and joint health.",
       "image": {
         "@type": "ImageObject",
         "url": "https://pilatescollectiveclub.com/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg",
@@ -84,7 +84,7 @@ const jsonLd = {
         {
           "@type": "Question",
           "name": "Can Pilates prevent falls in elderly people?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Multiple randomised controlled trials have found significant reductions in fall risk following 8-12 weeks of Pilates practice. The mechanism is improved postural stability, hip and knee proprioception, and single-leg balance — all of which decline with age and are specifically trained by Pilates." }
+          "acceptedAnswer": { "@type": "Answer", "text": "Multiple randomised controlled trials have found significant reductions in fall risk following 8-12 weeks of Pilates practice. The mechanism is improved postural stability, hip and knee proprioception, and single-leg balance: all of which decline with age and are specifically trained by Pilates." }
         },
         {
           "@type": "Question",
@@ -144,17 +144,17 @@ export default function PilatesForSeniorsPage() {
 
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Why Pilates is particularly suited to older adults</h2>
               <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Most exercise programmes for seniors focus on cardiovascular fitness or gross strength. Pilates fills a different niche — it directly addresses the neuromuscular deficits that accumulate with age: reduced proprioception, weakened stabiliser muscles, decreased spinal mobility, and diminished single-leg balance. These are the deficits that lead to falls and loss of independence, and they respond well to Pilates training.
+                Most exercise programmes for seniors focus on cardiovascular fitness or gross strength. Pilates fills a different niche, it directly addresses the neuromuscular deficits that accumulate with age: reduced proprioception, weakened stabiliser muscles, decreased spinal mobility, and diminished single-leg balance. These are the deficits that lead to falls and loss of independence, and they respond well to Pilates training.
               </p>
               <p className="text-base leading-relaxed mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                The method also requires no high-impact loading — critical for practitioners with osteoporosis or joint replacements — and is fully modifiable for every physical limitation.
+                The method also requires no high-impact loading, critical for practitioners with osteoporosis or joint replacements, and is fully modifiable for every physical limitation.
               </p>
 
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What the research shows</h2>
               <div className="space-y-4 mb-10">
                 {[
-                  { heading: "Fall prevention", body: "A 2021 systematic review in the Journal of Aging and Physical Activity found Pilates produced significant reductions in fall risk in adults over 60 after 8-12 weeks of practice. The primary mechanisms were improved single-leg balance, hip abductor strength, and postural stability — all directly trained by Pilates." },
-                  { heading: "Bone density", body: "Resistance-based Pilates (particularly reformer work) has shown modest but consistent positive effects on bone mineral density in post-menopausal women in multiple trials. The key is progressive loading — not all Pilates programmes apply sufficient resistance to stimulate bone remodelling." },
+                  { heading: "Fall prevention", body: "A 2021 systematic review in the Journal of Aging and Physical Activity found Pilates produced significant reductions in fall risk in adults over 60 after 8-12 weeks of practice. The primary mechanisms were improved single-leg balance, hip abductor strength, and postural stability: all directly trained by Pilates." },
+                  { heading: "Bone density", body: "Resistance-based Pilates (particularly reformer work) has shown modest but consistent positive effects on bone mineral density in post-menopausal women in multiple trials. The key is progressive loading, not all Pilates programmes apply sufficient resistance to stimulate bone remodelling." },
                   { heading: "Balance and proprioception", body: "Pilates consistently outperforms walking and general exercise programmes for balance outcomes in older adults. The single-leg work, weight-shifting exercises, and unstable surface work in reformer Pilates are particularly effective." },
                   { heading: "Chronic pain and quality of life", body: "Multiple RCTs have found significant improvements in chronic back pain, knee pain, and self-reported quality of life in older adults following 8-12 weeks of Pilates. The gains are maintained at 6-12 month follow-up in most studies." },
                 ].map((item) => (
@@ -190,7 +190,7 @@ export default function PilatesForSeniorsPage() {
               <div className="mb-10 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
                 <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Recommended equipment for senior home practice</h2>
                 <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                  A quality mat is essential — the{" "}
+                  A quality mat is essential: the{" "}
                   Manduka PRO{" "}
                   at 6mm provides excellent spinal cushioning for older adults. A{" "}
                   half-round foam roller{" "}
@@ -199,7 +199,7 @@ export default function PilatesForSeniorsPage() {
                   adds light resistance for inner thigh and arm work without loading the joints excessively.
                 </p>
                 <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                  For serious home practice, the reformer's spring assistance is genuinely beneficial for older adults — it assists movement through difficult ranges rather than loading against them. See our{" "}
+                  For serious home practice, the reformer's spring assistance is genuinely beneficial for older adults: it assists movement through difficult ranges rather than loading against them. See our{" "}
                   home reformer guide{" "}
                   for options at every price point.
                 </p>
@@ -215,7 +215,7 @@ export default function PilatesForSeniorsPage() {
                 <div className="space-y-6">
                   {[
                     { q: "Is Pilates safe for seniors?", a: "Pilates is one of the safest exercise modalities for older adults when taught by a qualified instructor. The emphasis on controlled movement, spinal alignment, and gradual progression makes it exceptionally appropriate. That said, always consult your physician before starting, particularly if you have osteoporosis, disc problems, or balance disorders." },
-                    { q: "Can Pilates prevent falls in elderly people?", a: "Multiple randomised controlled trials have found significant reductions in fall risk following 8-12 weeks of Pilates practice. The mechanism is improved postural stability, hip and knee proprioception, and single-leg balance — all of which decline with age and are specifically trained by Pilates." },
+                    { q: "Can Pilates prevent falls in elderly people?", a: "Multiple randomised controlled trials have found significant reductions in fall risk following 8-12 weeks of Pilates practice. The mechanism is improved postural stability, hip and knee proprioception, and single-leg balance: all of which decline with age and are specifically trained by Pilates." },
                     { q: "Is it too late to start Pilates at 70?", a: "No. Several studies have specifically investigated Pilates in adults over 70 with positive outcomes for balance, muscle strength, and quality of life. The method is also effective for those over 80, particularly in supervised group or one-to-one settings." },
                     { q: "What type of Pilates is best for seniors?", a: "Mat Pilates with modifications and reformer Pilates with an experienced instructor are both excellent choices. The reformer is particularly beneficial because the spring assistance helps older adults achieve ranges of motion that might not be accessible on a mat. For those with significant balance or mobility challenges, a chair-based Pilates programme is the appropriate starting point." },
                   ].map((item) => (

@@ -16,10 +16,10 @@ export const metadata: Metadata = {
   keywords: ["best compression sleeves pilates", "pilates compression socks 2026", "calf sleeves pilates", "lagree compression sleeve", "calf compression sleeve reformer", "copper compression sleeve pilates"],
   openGraph: {
     title: "Best Compression Sleeves for Pilates (2026)",
-    description: "Calf compression sleeves for circulation and Pilates recovery — compared and ranked.",
+    description: "Calf compression sleeves for circulation and Pilates recovery: compared and ranked.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-compression-sleeves-for-pilates",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg", width: 1200, height: 630, alt: "Best Compression Sleeves for Pilates — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg", width: 1200, height: 630, alt: "Best Compression Sleeves for Pilates: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -38,7 +38,7 @@ const PRODUCTS = [
     price: "$13.99",
     verdict: "Best all-around calf sleeve for Pilates",
     description:
-      "BLITZU's calf compression sleeves are footless — they wrap the calf without covering the foot, which is exactly what most Pilates and Lagree practitioners want: graduated calf support underneath grip socks, with full barefoot contact preserved for footbar and carriage work. As a footless compression sock design, they're easy to pull on before class and just as easy to peel off afterward without having to work around a sock foot. A sensible, affordable default pick for anyone wanting to try calf compression for reformer or Lagree recovery.",
+      "BLITZU's calf compression sleeves are footless, they wrap the calf without covering the foot, which is exactly what most Pilates and Lagree practitioners want: graduated calf support underneath grip socks, with full barefoot contact preserved for footbar and carriage work. As a footless compression sock design, they're easy to pull on before class and just as easy to peel off afterward without having to work around a sock foot. A sensible, affordable default pick for anyone wanting to try calf compression for reformer or Lagree recovery.",
     affiliateUrl: "https://www.amazon.com/dp/B0186EMIMY?tag=pilatescollective-20",
     tag: "Editor's Pick",
   },
@@ -48,7 +48,7 @@ const PRODUCTS = [
     price: "$13.49",
     verdict: "Best fit range across sizes",
     description:
-      "Rymora's calf compression sleeves come as a pair and are offered across multiple sizes, which matters for a garment that only works when the fit is right — too loose and the graduated compression doesn't do its job, too tight and it restricts rather than supports. For practitioners who've struggled to find a one-size-fits-all sleeve that actually fits their calf, Rymora's sizing options make it easier to land on a snug, comfortable fit for Lagree and reformer sessions.",
+      "Rymora's calf compression sleeves come as a pair and are offered across multiple sizes, which matters for a garment that only works when the fit is right: too loose and the graduated compression doesn't do its job, too tight and it restricts rather than supports. For practitioners who've struggled to find a one-size-fits-all sleeve that actually fits their calf, Rymora's sizing options make it easier to land on a snug, comfortable fit for Lagree and reformer sessions.",
     affiliateUrl: "https://www.amazon.com/dp/B07ZHJB1TK?tag=pilatescollective-20",
     tag: "Best Fit",
   },
@@ -58,7 +58,7 @@ const PRODUCTS = [
     price: "$9.85",
     verdict: "Best budget calf sleeve",
     description:
-      "PhysFlex is the lowest-priced option here and is built with shin splint and general lower-leg pain relief support in mind — a useful overlap for Pilates and Lagree practitioners managing calf or shin soreness from repeated footbar and carriage work. It's a low-commitment way to find out whether calf compression actually helps your recovery before spending more on a premium sleeve.",
+      "PhysFlex is the lowest-priced option here and is built with shin splint and general lower-leg pain relief support in mind: a useful overlap for Pilates and Lagree practitioners managing calf or shin soreness from repeated footbar and carriage work. It's a low-commitment way to find out whether calf compression actually helps your recovery before spending more on a premium sleeve.",
     affiliateUrl: "https://www.amazon.com/dp/B0C9JY51SW?tag=pilatescollective-20",
     tag: "Best Budget",
   },
@@ -68,7 +68,7 @@ const PRODUCTS = [
     price: "$15.29",
     verdict: "Best multi-pack value",
     description:
-      "Cambivo sells its calf compression sleeves in a 3-pair pack, which brings the per-pair cost down considerably and means you always have a clean pair on hand — genuinely useful if you're wearing sleeves to every Lagree or reformer session and washing them between classes. For practitioners who've decided calf compression is a regular part of their routine, this multi-pack is the most economical way to stock up.",
+      "Cambivo sells its calf compression sleeves in a 3-pair pack, which brings the per-pair cost down considerably and means you always have a clean pair on hand: genuinely useful if you're wearing sleeves to every Lagree or reformer session and washing them between classes. For practitioners who've decided calf compression is a regular part of their routine, this multi-pack is the most economical way to stock up.",
     affiliateUrl: "https://www.amazon.com/dp/B08D3H1JKH?tag=pilatescollective-20",
     tag: "Best Value",
   },
@@ -78,7 +78,7 @@ const PRODUCTS = [
     price: "$29.95",
     verdict: "Best premium pick",
     description:
-      "TheraCopper's sleeves add copper-infused fabric to the standard calf compression design and come as a 2-pack, positioning them as the premium option on this list. For practitioners who prefer a sleeve with added antimicrobial fabric properties alongside graduated calf support — useful for sleeves worn class after class — the copper-infused construction is the differentiator over the more basic options above.",
+      "TheraCopper's sleeves add copper-infused fabric to the standard calf compression design and come as a 2-pack, positioning them as the premium option on this list. For practitioners who prefer a sleeve with added antimicrobial fabric properties alongside graduated calf support, useful for sleeves worn class after class, the copper-infused construction is the differentiator over the more basic options above.",
     affiliateUrl: "https://www.amazon.com/dp/B0F3Y15R9B?tag=pilatescollective-20",
     tag: "Premium Pick",
   },
@@ -90,7 +90,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Best Compression Sleeves for Pilates (2026): Calf Compression",
-      "description": "Calf compression sleeves for circulation and Pilates recovery — compared and ranked.",
+      "description": "Calf compression sleeves for circulation and Pilates recovery: compared and ranked.",
       "url": "https://pilatescollectiveclub.com/blog/best-compression-sleeves-for-pilates",
       "datePublished": "2026-06-28",
       "dateModified": "2026-10-20",
@@ -126,8 +126,8 @@ const jsonLd = {
       "@type": "FAQPage",
       "mainEntity": [
         { "@type": "Question", "name": "Do compression sleeves help with Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "For many practitioners, yes. Calf compression sleeves are worn by people who experience lower-leg pump, swelling, or soreness after Lagree and high-repetition reformer sessions, since graduated compression is designed to support venous return and reduce fluid accumulation in the lower leg. They're a low-cost way to test whether added calf support improves how your legs feel during and after class." } },
-        { "@type": "Question", "name": "Should you wear compression sleeves during Pilates or after?", "acceptedAnswer": { "@type": "Answer", "text": "Both are common. Some practitioners wear a footless calf sleeve during class, under their grip socks, for support through Lagree carriage work and reformer footwork. Others prefer to put sleeves on immediately after class to support recovery during the transit period. Either approach is reasonable — comfort and personal preference are the main deciding factors." } },
-        { "@type": "Question", "name": "What should I look for in a calf compression sleeve?", "acceptedAnswer": { "@type": "Answer", "text": "Fit is the most important factor — a sleeve that's too loose won't provide meaningful support, and one that's too tight will be uncomfortable to wear through a full class. Look at the brand's sizing guidance closely. Beyond fit, consider whether you want a footless design (to wear under grip socks), a multi-pack for laundry convenience if you'll wear sleeves regularly, or added features like copper-infused fabric." } },
+        { "@type": "Question", "name": "Should you wear compression sleeves during Pilates or after?", "acceptedAnswer": { "@type": "Answer", "text": "Both are common. Some practitioners wear a footless calf sleeve during class, under their grip socks, for support through Lagree carriage work and reformer footwork. Others prefer to put sleeves on immediately after class to support recovery during the transit period. Either approach is reasonable: comfort and personal preference are the main deciding factors." } },
+        { "@type": "Question", "name": "What should I look for in a calf compression sleeve?", "acceptedAnswer": { "@type": "Answer", "text": "Fit is the most important factor: a sleeve that's too loose won't provide meaningful support, and one that's too tight will be uncomfortable to wear through a full class. Look at the brand's sizing guidance closely. Beyond fit, consider whether you want a footless design (to wear under grip socks), a multi-pack for laundry convenience if you'll wear sleeves regularly, or added features like copper-infused fabric." } },
       ],
     },
   ],
@@ -193,8 +193,8 @@ export default function BestCompressionSleevesForPilatesPage() {
               <div className="space-y-6">
                 {[
                   { q: "Do compression sleeves help with Pilates?", a: "For many practitioners, yes. Calf compression sleeves are worn by people who experience lower-leg pump, swelling, or soreness after Lagree and high-repetition reformer sessions, since graduated compression is designed to support venous return and reduce fluid accumulation in the lower leg. They're a low-cost way to test whether added calf support improves how your legs feel during and after class." },
-                  { q: "Should you wear compression sleeves during Pilates or after?", a: "Both are common. Some practitioners wear a footless calf sleeve during class, under their grip socks, for support through Lagree carriage work and reformer footwork. Others prefer to put sleeves on immediately after class to support recovery during the transit period. Either approach is reasonable — comfort and personal preference are the main deciding factors." },
-                  { q: "What should I look for in a calf compression sleeve?", a: "Fit is the most important factor — a sleeve that's too loose won't provide meaningful support, and one that's too tight will be uncomfortable through a full class. Beyond fit, consider whether you want a footless design to wear under grip socks, a multi-pack for laundry convenience if you'll wear sleeves regularly, or added features like copper-infused fabric." },
+                  { q: "Should you wear compression sleeves during Pilates or after?", a: "Both are common. Some practitioners wear a footless calf sleeve during class, under their grip socks, for support through Lagree carriage work and reformer footwork. Others prefer to put sleeves on immediately after class to support recovery during the transit period. Either approach is reasonable: comfort and personal preference are the main deciding factors." },
+                  { q: "What should I look for in a calf compression sleeve?", a: "Fit is the most important factor: a sleeve that's too loose won't provide meaningful support, and one that's too tight will be uncomfortable through a full class. Beyond fit, consider whether you want a footless design to wear under grip socks, a multi-pack for laundry convenience if you'll wear sleeves regularly, or added features like copper-infused fabric." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
@@ -207,8 +207,8 @@ export default function BestCompressionSleevesForPilatesPage() {
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="Best Massage Gun for Pilates Recovery (2026)" excerpt="Theragun PRO Plus, Hypervolt 2 Pro — percussion devices for post-reformer muscle release." href="/blog/best-massage-gun-for-pilates" category="Tech & Devices" readTime="7 min read" date="June 2026" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
-                <ArticleCard title="Pilates for Knee Pain" excerpt="The exercises that protect and strengthen the knee — and which Pilates movements to modify if you have existing sensitivity." href="/blog/pilates-for-knee-pain" category="Health" readTime="9 min read" date="May 2026" imageUrl="/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg" />
+                <ArticleCard title="Best Massage Gun for Pilates Recovery (2026)" excerpt="Theragun PRO Plus, Hypervolt 2 Pro: percussion devices for post-reformer muscle release." href="/blog/best-massage-gun-for-pilates" category="Tech & Devices" readTime="7 min read" date="June 2026" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
+                <ArticleCard title="Pilates for Knee Pain" excerpt="The exercises that protect and strengthen the knee, and which Pilates movements to modify if you have existing sensitivity." href="/blog/pilates-for-knee-pain" category="Health" readTime="9 min read" date="May 2026" imageUrl="/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg" />
                 <ArticleCard title="Best Foam Roller for Pilates (2026): 5 Verified Picks" excerpt="Five verified foam rollers for Pilates, from the vibrating Therabody WaveRoller and TriggerPoint GRID 2.0 to a $24…" href="/blog/best-pilates-foam-roller" category="Guide" readTime="7 min read" imageUrl="/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg" />
                 <ArticleCard title="Best Massage Balls for Pilates (2026): 5 Picks Compared" excerpt="The TriggerPoint GRID Ball, TriggerPoint MobiPoint, Kieba Lacrosse Balls, TriggerPoint MBX, and Coniflor Massage…" href="/blog/best-massage-balls-for-pilates" category="Guide" readTime="6 min read" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />
                 <ArticleCard title="Best Red Light Therapy Device for Pilates Recovery (2026)" excerpt="The best handheld red light therapy devices for Pilates recovery, compared for muscle recovery, inflammation, and…" href="/blog/best-red-light-therapy-device-for-pilates" category="Guide" readTime="9 min read" imageUrl="/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg" />

@@ -19,9 +19,9 @@ export const metadata: Metadata = {
     description: "We could not verify a standalone tower attachment as a live Amazon listing. Here is what we could confirm, honestly.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/pilates-reformer-with-tower",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg", width: 1200, height: 630, alt: "Pilates reformer with tower — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg", width: 1200, height: 630, alt: "Pilates reformer with tower: Pilates Collective Club" }],
   },
-  twitter: { card: "summary_large_image", title: "Pilates Reformer with Tower (2026)", description: "An honest look at what's actually sold on Amazon in this category — no fabricated bundles.", images: ["https://pilatescollectiveclub.com/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg"] },
+  twitter: { card: "summary_large_image", title: "Pilates Reformer with Tower (2026)", description: "An honest look at what's actually sold on Amazon in this category: no fabricated bundles.", images: ["https://pilatescollectiveclub.com/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg"] },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/pilates-reformer-with-tower" },
   robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
@@ -32,7 +32,7 @@ const PRODUCTS = [
     name: "Merrithew Rehab V2 Max Plus Reformer",
     price: "$8,199",
     verdict: "The one machine we can confirm ships with a built-in vertical frame",
-    description: "A note before anything else: we could not find a standalone Pilates tower attachment as a genuine, currently-sold Amazon listing from any brand — not Balanced Body, not Merrithew, not Align-Pilates. What we could verify is this: the Merrithew Rehab V2 Max Plus is a real, live Amazon listing that ships with a built-in Vertical Frame already integrated into the raised frame, along with Merrithew's patented retractable rope system — so tower-style work is part of the machine itself rather than a separate purchase. This is Merrithew's clinical and professional-grade machine (the real product behind any \"Merrithew V2 Max\" reference), priced accordingly at $8,199. It is a serious investment aimed at rehabilitation practices and studios rather than casual home use, but it is the one option on this page where the tower repertoire is confirmed as part of what you're buying, not an assumption.",
+    description: "A note before anything else: we could not find a standalone Pilates tower attachment as a genuine, currently-sold Amazon listing from any brand, not Balanced Body, not Merrithew, not Align-Pilates. What we could verify is this: the Merrithew Rehab V2 Max Plus is a real, live Amazon listing that ships with a built-in Vertical Frame already integrated into the raised frame, along with Merrithew's patented retractable rope system, so tower-style work is part of the machine itself rather than a separate purchase. This is Merrithew's clinical and professional-grade machine (the real product behind any \"Merrithew V2 Max\" reference), priced accordingly at $8,199. It is a serious investment aimed at rehabilitation practices and studios rather than casual home use, but it is the one option on this page where the tower repertoire is confirmed as part of what you're buying, not an assumption.",
     affiliateUrl: "https://www.amazon.com/dp/B002ABYKFI?tag=pilatescollective-20",
     tag: "Built-In Vertical Frame",
   },
@@ -40,8 +40,8 @@ const PRODUCTS = [
     rank: "02",
     name: "Balanced Body Studio Reformer (Revo Footbar)",
     price: "$4,700",
-    verdict: "Full tower compatibility confirmed — the tower itself is a separate, unconfirmed purchase",
-    description: "This is the real Balanced Body flagship sold on Amazon — not the \"Allegro 2,\" which is not a live listing. Balanced Body's own specifications confirm full tower compatibility for this reformer, so it is a legitimate foundation to build a reformer-and-tower practice on. Where we have to be honest with you: we could not find a standalone Balanced Body tower attachment as a live, currently-sold Amazon listing to pair with it. If you buy this reformer for its tower compatibility, plan on sourcing the tower attachment itself through a Balanced Body dealer and confirming current pricing and lead time directly with them — do not assume it is a quick add-to-cart on Amazon. The reformer does not fold; it is a made-to-order, permanent-installation machine with a Strata rock maple frame and five Signature Springs.",
+    verdict: "Full tower compatibility confirmed: the tower itself is a separate, unconfirmed purchase",
+    description: "This is the real Balanced Body flagship sold on Amazon, not the \"Allegro 2,\" which is not a live listing. Balanced Body's own specifications confirm full tower compatibility for this reformer, so it is a legitimate foundation to build a reformer-and-tower practice on. Where we have to be honest with you: we could not find a standalone Balanced Body tower attachment as a live, currently-sold Amazon listing to pair with it. If you buy this reformer for its tower compatibility, plan on sourcing the tower attachment itself through a Balanced Body dealer and confirming current pricing and lead time directly with them: do not assume it is a quick add-to-cart on Amazon. The reformer does not fold; it is a made-to-order, permanent-installation machine with a Strata rock maple frame and five Signature Springs.",
     affiliateUrl: "https://www.amazon.com/dp/B002XVWIFE?tag=pilatescollective-20",
     tag: "Tower-Compatible Reformer",
   },
@@ -50,7 +50,7 @@ const PRODUCTS = [
     name: "Balanced Body Trapeze Table / Cadillac",
     price: "$5,030",
     verdict: "The real, standalone full-apparatus alternative to a tower",
-    description: "If what you actually want is the full tower-and-trapeze repertoire rather than a reformer with an add-on, this is the honest alternative: a genuine, live Amazon listing for Balanced Body's standalone Trapeze Table (Cadillac), at $5,030. It is a lead-time item — expect to wait for fabrication and shipping rather than fast delivery — but it is a real, currently-sold piece of apparatus rather than a fabricated bundle. For practitioners who have concluded that a reformer-plus-tower setup can't be assembled reliably from live Amazon listings today, a standalone Cadillac is the more dependable way to get the full apparatus repertoire in one purchase.",
+    description: "If what you actually want is the full tower-and-trapeze repertoire rather than a reformer with an add-on, this is the honest alternative: a genuine, live Amazon listing for Balanced Body's standalone Trapeze Table (Cadillac), at $5,030. It is a lead-time item, expect to wait for fabrication and shipping rather than fast delivery, but it is a real, currently-sold piece of apparatus rather than a fabricated bundle. For practitioners who have concluded that a reformer-plus-tower setup can't be assembled reliably from live Amazon listings today, a standalone Cadillac is the more dependable way to get the full apparatus repertoire in one purchase.",
     affiliateUrl: "https://www.amazon.com/dp/B01N5OIH13?tag=pilatescollective-20",
     tag: "Full Apparatus",
   },
@@ -82,10 +82,10 @@ const jsonLd = {
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "Is a Pilates tower the same as a Cadillac?", "acceptedAnswer": { "@type": "Answer", "text": "No. A tower (also called a vertical stand or half-Cadillac) is a partial version of a Cadillac — it typically adds a push-through bar, roll-down bar, and arm and leg spring work but lacks the trapeze, overhead bar, and full spring configuration of a standalone Cadillac. We could not verify a precise percentage of the Cadillac repertoire a tower covers, so treat any specific figure as a rough approximation rather than a measured fact." } },
+        { "@type": "Question", "name": "Is a Pilates tower the same as a Cadillac?", "acceptedAnswer": { "@type": "Answer", "text": "No. A tower (also called a vertical stand or half-Cadillac) is a partial version of a Cadillac: it typically adds a push-through bar, roll-down bar, and arm and leg spring work but lacks the trapeze, overhead bar, and full spring configuration of a standalone Cadillac. We could not verify a precise percentage of the Cadillac repertoire a tower covers, so treat any specific figure as a rough approximation rather than a measured fact." } },
         { "@type": "Question", "name": "Can I buy a Pilates tower attachment on Amazon?", "acceptedAnswer": { "@type": "Answer", "text": "We could not find a standalone tower attachment as a live, currently-sold Amazon listing from Balanced Body, Merrithew, or Align-Pilates. If tower-style work matters to you, the two real options we could verify are the Merrithew Rehab V2 Max Plus, which ships with a built-in vertical frame, or the Balanced Body Studio Reformer, which is tower-compatible on paper but requires sourcing the tower attachment separately through a dealer." } },
         { "@type": "Question", "name": "Do I need a tower as a beginner?", "acceptedAnswer": { "@type": "Answer", "text": "No. Tower and full-apparatus work is generally recommended for intermediate-to-advanced practitioners with an established reformer foundation. Beginners should focus on the reformer repertoire first." } },
-        { "@type": "Question", "name": "What ceiling height do I need for tower or Cadillac work?", "acceptedAnswer": { "@type": "Answer", "text": "We could not verify a precise minimum ceiling height that applies across brands and models. Push-through bar and overhead-bar work generally need more vertical clearance than reformer-only work — check the specific machine's manufacturer specifications and your instructor's guidance before buying." } },
+        { "@type": "Question", "name": "What ceiling height do I need for tower or Cadillac work?", "acceptedAnswer": { "@type": "Answer", "text": "We could not verify a precise minimum ceiling height that applies across brands and models. Push-through bar and overhead-bar work generally need more vertical clearance than reformer-only work: check the specific machine's manufacturer specifications and your instructor's guidance before buying." } },
       ],
     },
   ],
@@ -117,7 +117,7 @@ export default function PilatesReformerWithTowerPage() {
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              A reformer is the foundation of a home Pilates studio, and a tower is what most guides describe as the next step. Here is the honest finding from checking this category against real, live Amazon listings: we could not find a standalone Pilates tower attachment reliably sold on Amazon under any brand — not Balanced Body, not Merrithew, not Align-Pilates. This guide explains what a tower is meant to add, and covers the two real machines we could verify (one with a built-in vertical frame, one confirmed tower-compatible on paper) plus the genuine standalone Cadillac alternative.
+              A reformer is the foundation of a home Pilates studio, and a tower is what most guides describe as the next step. Here is the honest finding from checking this category against real, live Amazon listings: we could not find a standalone Pilates tower attachment reliably sold on Amazon under any brand, not Balanced Body, not Merrithew, not Align-Pilates. This guide explains what a tower is meant to add, and covers the two real machines we could verify (one with a built-in vertical frame, one confirmed tower-compatible on paper) plus the genuine standalone Cadillac alternative.
             </p>
           </div>
         </section>
@@ -126,7 +126,7 @@ export default function PilatesReformerWithTowerPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg" alt="Pilates reformer with tower — complete home studio apparatus setup" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg" alt="Pilates reformer with tower: complete home studio apparatus setup" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>
         </section>
@@ -137,15 +137,15 @@ export default function PilatesReformerWithTowerPage() {
 
             {/* What does a Pilates tower actually do? */}
             <div className="mb-16 mt-4">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What does a Pilates tower actually do — and can you buy one?</h2>
+              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What does a Pilates tower actually do, and can you buy one?</h2>
               <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                A tower — also called a vertical stand, or half-Cadillac — is generally described as attaching to the foot end of a reformer and adding a vertical frame carrying additional springs, a push-through bar, a roll-down bar, and arm and leg springs. It is meant as a partial substitute for a full Cadillac, a taller standalone apparatus. We could not verify a specific percentage of the Cadillac repertoire a tower reproduces, so treat any exact figure you see elsewhere as a rough approximation, not a measured fact.
+                A tower (also called a vertical stand, or half-Cadillac) is generally described as attaching to the foot end of a reformer and adding a vertical frame carrying additional springs, a push-through bar, a roll-down bar, and arm and leg springs. It is meant as a partial substitute for a full Cadillac, a taller standalone apparatus. We could not verify a specific percentage of the Cadillac repertoire a tower reproduces, so treat any exact figure you see elsewhere as a rough approximation, not a measured fact.
               </p>
               <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Here is the honest complication: we checked for a standalone tower attachment as a genuine, currently-sold Amazon listing from Balanced Body, Merrithew, and Align-Pilates, and could not find one for any of them. That doesn&apos;t mean tower-style training is unavailable — it means the products below reach it in two different, verified ways: a Merrithew machine that ships with the vertical frame built in, and a Balanced Body reformer whose manufacturer specifications confirm tower compatibility (with the tower itself sourced separately through a dealer, not Amazon).
+                Here is the honest complication: we checked for a standalone tower attachment as a genuine, currently-sold Amazon listing from Balanced Body, Merrithew, and Align-Pilates, and could not find one for any of them. That doesn&apos;t mean tower-style training is unavailable, it means the products below reach it in two different, verified ways: a Merrithew machine that ships with the vertical frame built in, and a Balanced Body reformer whose manufacturer specifications confirm tower compatibility (with the tower itself sourced separately through a dealer, not Amazon).
               </p>
               <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Who this category is for: serious practitioners who have an established reformer practice and want to continue developing it, practitioners working with an instructor who programs tower or Cadillac work into sessions, and instructors equipping a home teaching studio. It is not a beginner purchase — this kind of apparatus work is typically introduced after a strong reformer and mat foundation has been established.
+                Who this category is for: serious practitioners who have an established reformer practice and want to continue developing it, practitioners working with an instructor who programs tower or Cadillac work into sessions, and instructors equipping a home teaching studio. It is not a beginner purchase: this kind of apparatus work is typically introduced after a strong reformer and mat foundation has been established.
               </p>
             </div>
 
@@ -156,7 +156,7 @@ export default function PilatesReformerWithTowerPage() {
                 {[
                   {
                     heading: "Tower vs full Cadillac",
-                    body: "A tower is meant to give access to a meaningful portion of Cadillac-style exercises, though we could not verify a precise percentage. The real, standalone Cadillac we could confirm as a live Amazon listing — Balanced Body's Trapeze Table — is $5,030, not the $8,000-$12,000+ range sometimes quoted for this category. If you want the full trapeze and mat-work repertoire, that is the option to look at; if you specifically want tower-style work added to a reformer, see the two verified paths below.",
+                    body: "A tower is meant to give access to a meaningful portion of Cadillac-style exercises, though we could not verify a precise percentage. The real, standalone Cadillac we could confirm as a live Amazon listing, Balanced Body's Trapeze Table, is $5,030, not the $8,000-$12,000+ range sometimes quoted for this category. If you want the full trapeze and mat-work repertoire, that is the option to look at; if you specifically want tower-style work added to a reformer, see the two verified paths below.",
                   },
                   {
                     heading: "Reformer and tower compatibility",
@@ -164,7 +164,7 @@ export default function PilatesReformerWithTowerPage() {
                   },
                   {
                     heading: "Spring configuration",
-                    body: "We could not verify a specific spring count or configuration for any tower system, since we could not confirm a standalone tower listing to check. If you do find a tower attachment through a dealer, ask for its exact spring configuration before buying — don't assume it matches a reformer's own springs.",
+                    body: "We could not verify a specific spring count or configuration for any tower system, since we could not confirm a standalone tower listing to check. If you do find a tower attachment through a dealer, ask for its exact spring configuration before buying: don't assume it matches a reformer's own springs.",
                   },
                   {
                     heading: "Space requirements",
@@ -206,7 +206,7 @@ export default function PilatesReformerWithTowerPage() {
                 <ul className="space-y-2">
                   {[
                     "You want tower-style work built into the machine itself, with no separate attachment purchase to track down.",
-                    "You are equipping a rehabilitation or clinical practice — this is Merrithew's clinical-grade machine.",
+                    "You are equipping a rehabilitation or clinical practice: this is Merrithew's clinical-grade machine.",
                     "Budget is less of a constraint than getting a confirmed, working configuration on the first purchase.",
                   ].map((item, i) => (
                     <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
@@ -246,7 +246,7 @@ export default function PilatesReformerWithTowerPage() {
                 {[
                   {
                     q: "Is a Pilates tower the same as a Cadillac?",
-                    a: "No. A tower (also called a vertical stand or half-Cadillac) is generally described as a partial Cadillac — push-through bar, roll-down bar, and arm and leg spring work without the trapeze, overhead bar, and full spring configuration of a standalone Cadillac. We could not verify a specific percentage of the Cadillac repertoire a tower reproduces, so treat any exact figure as approximate.",
+                    a: "No. A tower (also called a vertical stand or half-Cadillac) is generally described as a partial Cadillac: push-through bar, roll-down bar, and arm and leg spring work without the trapeze, overhead bar, and full spring configuration of a standalone Cadillac. We could not verify a specific percentage of the Cadillac repertoire a tower reproduces, so treat any exact figure as approximate.",
                   },
                   {
                     q: "Can I buy a Pilates tower attachment on Amazon?",
@@ -258,7 +258,7 @@ export default function PilatesReformerWithTowerPage() {
                   },
                   {
                     q: "What ceiling height do I need for tower or Cadillac work?",
-                    a: "We could not verify a precise minimum ceiling height that applies across brands and models. Push-through bar and overhead-bar work generally need more vertical clearance than reformer-only work — check the specific machine's manufacturer specifications and your instructor's guidance before buying.",
+                    a: "We could not verify a precise minimum ceiling height that applies across brands and models. Push-through bar and overhead-bar work generally need more vertical clearance than reformer-only work: check the specific machine's manufacturer specifications and your instructor's guidance before buying.",
                   },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
@@ -273,7 +273,7 @@ export default function PilatesReformerWithTowerPage() {
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="Best Home Pilates Reformer (2026)" excerpt="The best home reformers at every price point — from entry-level to studio-grade." href="/blog/best-home-pilates-reformer" category="Equipment Guide" readTime="10 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
+                <ArticleCard title="Best Home Pilates Reformer (2026)" excerpt="The best home reformers at every price point, from entry-level to studio-grade." href="/blog/best-home-pilates-reformer" category="Equipment Guide" readTime="10 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
                 <ArticleCard title="Balanced Body vs Merrithew (2026)" excerpt="The two dominant Pilates equipment brands compared honestly." href="/blog/balanced-body-vs-merrithew" category="Equipment Guide" readTime="10 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-cZ0WYsBFHhs-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Reformer Brands (2026): Complete Brand Guide" excerpt="The best Pilates reformer brands of 2026: Balanced Body, Merrithew, Gratz, Align, and more compared on spring…" href="/blog/best-pilates-reformer-brands" category="Activewear" readTime="18 min read" imageUrl="/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Reformer for Small Spaces (2026): 7 Picks" excerpt="The best Pilates reformers for small spaces, seven real, verified Amazon listings, foldable and compact options…" href="/blog/best-pilates-reformer-for-small-spaces" category="Reformers" readTime="9 min read" imageUrl="/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg" />

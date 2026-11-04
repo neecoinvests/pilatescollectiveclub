@@ -25,12 +25,12 @@ export const metadata: Metadata = {
     description: "Everything you need to know before buying The Micro by Lagree Fitness: dimensions, the four springs, storage, accessories, floor space and what a full setup costs.",
     type: "article",
     url: PAGE_URL,
-    images: [{ url: HERO_IMAGE, width: 1200, height: 630, alt: "Springs on a carriage machine — Lagree Micro review" }],
+    images: [{ url: HERO_IMAGE, width: 1200, height: 630, alt: "Springs on a carriage machine: Lagree Micro review" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Lagree Micro Review (2026): Specs & Real Cost",
-    description: "The Micro by Lagree Fitness: 72\" x 20\", 60 lb, four springs, $990 — and what the add-ons unlock.",
+    description: "The Micro by Lagree Fitness: 72\" x 20\", 60 lb, four springs, $990, and what the add-ons unlock.",
     images: [HERO_IMAGE],
   },
   keywords: [
@@ -106,14 +106,14 @@ const ACCESSORIES: Pick[] = [
     price: "$230.00",
     url: amz("B0BYMD4S91"),
     description:
-      "The Micro's cable attachment, sold by Lagree Fitness. Be aware that the Amazon listing gives almost no specification beyond the name, and stock is limited — if you want details or it is unavailable, check lagreefitness.com before ordering.",
+      "The Micro's cable attachment, sold by Lagree Fitness. Be aware that the Amazon listing gives almost no specification beyond the name, and stock is limited, if you want details or it is unavailable, check lagreefitness.com before ordering.",
   },
 ];
 
 const SETUP_KIT: Pick[] = [
   {
     id: "marcy-mat",
-    badge: "Floor Mat — Micro Only",
+    badge: "Floor Mat: Micro Only",
     shortName: "Floor mat (78\")",
     name: "Marcy Equipment Mat & Floor Protector (78\" x 36\")",
     price: "$42.29",
@@ -123,13 +123,13 @@ const SETUP_KIT: Pick[] = [
   },
   {
     id: "rubber-cal",
-    badge: "Floor Mat — With Platform",
+    badge: "Floor Mat, With Platform",
     shortName: "Floor mat (4 x 7 ft)",
     name: "Rubber-Cal Diamond-Plate Rubber Flooring Roll (4 x 7 ft, 3mm)",
     price: "$49.50",
     url: amz("B005SUKZJ8"),
     description:
-      "A 3mm synthetic-rubber protector roll, 4 ft x 7 ft — that is 84\" long, enough for the 81.5\" Micro-plus-platform footprint, and wide enough to step around the machine. Sold by Amazon.com.",
+      "A 3mm synthetic-rubber protector roll, 4 ft x 7 ft: that is 84\" long, enough for the 81.5\" Micro-plus-platform footprint, and wide enough to step around the machine. Sold by Amazon.com.",
   },
   {
     id: "toesox",
@@ -159,7 +159,7 @@ const SETUP_KIT: Pick[] = [
     price: "$20.95",
     url: amz("B00CO8HO6O"),
     description:
-      "Lagree is timed, not counted. This pager-sized timer runs one or two intervals from 2 seconds to 99 minutes with up to 99 repeats, and alerts by chime and vibration — handy when you train without a class video.",
+      "Lagree is timed, not counted. This pager-sized timer runs one or two intervals from 2 seconds to 99 minutes with up to 99 repeats, and alerts by chime and vibration: handy when you train without a class video.",
   },
 ];
 
@@ -211,7 +211,7 @@ const FAQS = [
   },
   {
     q: "How many springs does the Lagree Micro have?",
-    a: "Four: one red (heavy), one gray (medium), one black (light) and one white (extra light). Different springs give you different loads, so you can make a move harder or easier — and in Lagree, lighter is not always easier, because a lighter load can make the carriage less stable.",
+    a: "Four: one red (heavy), one gray (medium), one black (light) and one white (extra light). Different springs give you different loads, so you can make a move harder or easier, and in Lagree, lighter is not always easier, because a lighter load can make the carriage less stable.",
   },
   {
     q: "Can tall people use the Lagree Micro?",
@@ -227,7 +227,7 @@ const FAQS = [
   },
   {
     q: "Where can I find Lagree Micro workouts?",
-    a: "The Micro's Amazon listing points to Lagree On Demand at lagreeod.com for virtual Micro classes — Lagree's own streaming library.",
+    a: "The Micro's Amazon listing points to Lagree On Demand at lagreeod.com for virtual Micro classes: Lagree's own streaming library.",
   },
   {
     q: "Is the Lagree Micro the same as a Pilates reformer?",
@@ -349,7 +349,7 @@ export default function LagreeMicroReviewPage() {
             <TopPick name={QUICK_PICKS[0].name} price={QUICK_PICKS[0].price} note={QUICK_PICKS[0].note} url={QUICK_PICKS[0].url} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              The Micro is the only machine Lagree Fitness sells for the home, and its Amazon listing has one blunt line in the title: &ldquo;Not Pilates, it&apos;s Lagree.&rdquo; Before you spend {MICRO.price} on it, here is everything the spec sheet tells you — the exact size and weight, what each of the four springs does, how much floor you really need, which add-ons are worth it, and what a complete setup costs against a studio class pack.
+              The Micro is the only machine Lagree Fitness sells for the home, and its Amazon listing has one blunt line in the title: &ldquo;Not Pilates, it&apos;s Lagree.&rdquo; Before you spend {MICRO.price} on it, here is everything the spec sheet tells you, the exact size and weight, what each of the four springs does, how much floor you really need, which add-ons are worth it, and what a complete setup costs against a studio class pack.
             </p>
             <p className="text-sm leading-relaxed" style={bodyStyle}>
               All prices and specifications were checked live on Amazon on October 4, 2026. The Micro and its accessories are sold by Lagree Fitness itself; the pulley cables were low on stock. Prices change, so the final price is whatever Amazon shows at checkout.
@@ -360,7 +360,7 @@ export default function LagreeMicroReviewPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/stitch-reformer-spring-detail.png" alt="Close-up of springs on a carriage machine — Lagree Micro springs explained" fill className="object-cover" style={{ filter: "brightness(0.85)" }} priority />
+              <Image src="/pictures/stitch-reformer-spring-detail.png" alt="Close-up of springs on a carriage machine: Lagree Micro springs explained" fill className="object-cover" style={{ filter: "brightness(0.85)" }} priority />
             </div>
           </div>
         </section>
@@ -439,10 +439,10 @@ export default function LagreeMicroReviewPage() {
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
                 {[
-                  { heading: "Micro alone", body: "72\" x 20\" — exactly 10 sq ft of footprint. Add space on at least one long side to mount and dismount, so think in terms of a 7 ft x 4 ft zone." },
+                  { heading: "Micro alone", body: "72\" x 20\"exactly 10 sq ft of footprint. Add space on at least one long side to mount and dismount, so think in terms of a 7 ft x 4 ft zone." },
                   { heading: "With the rear platform", body: "81.5\" x 20\". The platform adds almost 10 inches of length, so plan an 8 ft x 4 ft zone. Measure before ordering the platform, not after." },
                   { heading: "Height and storage", body: "At 6\" high and 60 lb, it slides under many beds, leans against a wall or hangs on a bike rack, according to Lagree Fitness. Check your bed clearance first." },
-                  { heading: "Floor protection", body: "A 60 lb machine with a moving carriage will mark wood floors and creep on hard ones. An equipment mat steadies it and protects the floor — size it to the setup you are buying." },
+                  { heading: "Floor protection", body: "A 60 lb machine with a moving carriage will mark wood floors and creep on hard ones. An equipment mat steadies it and protects the floor: size it to the setup you are buying." },
                 ].map((item) => (
                   <div key={item.heading} className="rounded-xl p-5" style={cardStyle}>
                     <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.heading}</p>
@@ -457,7 +457,7 @@ export default function LagreeMicroReviewPage() {
             <div className="mb-16">
               <h2 className="text-3xl font-semibold mb-4" style={h2Style}>The Micro by Lagree Fitness</h2>
               <p className="text-sm leading-relaxed mb-8" style={bodyStyle}>
-                Lagree Fitness describes the Micro as compact, lightweight and portable, designed to strengthen, tighten and tone as quickly as its larger predecessor, the Megaformer — but at home. That comparison is the brand&apos;s own claim; what is certain is that it is the genuine Lagree home machine, sold by Lagree Fitness, not a look-alike.
+                Lagree Fitness describes the Micro as compact, lightweight and portable, designed to strengthen, tighten and tone as quickly as its larger predecessor, the Megaformer, but at home. That comparison is the brand&apos;s own claim; what is certain is that it is the genuine Lagree home machine, sold by Lagree Fitness, not a look-alike.
               </p>
               <TierCard p={MICRO} />
             </div>
@@ -528,7 +528,7 @@ export default function LagreeMicroReviewPage() {
               <h2 className="text-3xl font-semibold mb-6" style={h2Style}>The honest drawbacks</h2>
               <ul className="space-y-4">
                 {[
-                  { h: "No instructor in the box.", b: "Lagree relies on constant cues — slower, lower, hips level. Without classes or on-demand videos, most people drift into moving too fast." },
+                  { h: "No instructor in the box.", b: "Lagree relies on constant cues: slower, lower, hips level. Without classes or on-demand videos, most people drift into moving too fast." },
                   { h: "The base price is not the real price.", b: `Most of the move library people know from class needs the rear platform, which takes the setup to ${fmt(MICRO_PRICE + PLATFORM_PRICE)}.` },
                   { h: "Thin details on the cables.", b: "The pulley cables listing gives almost no information. That is unusual for a $230 accessory." },
                   { h: "Stock can be patchy.", b: "Accessories have run low on Amazon. If something is unavailable, the same products are sold direct at lagreefitness.com." },

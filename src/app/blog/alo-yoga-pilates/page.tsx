@@ -11,19 +11,19 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Alo Yoga for Pilates (2026): What's Worth It, What's Not",
-  description: "Which Alo Yoga pieces actually work for Pilates — Airbrush leggings, the Accolade bra and 7/8 tights judged on reformer opacity, hold and comfort.",
+  description: "Which Alo Yoga pieces actually work for Pilates: Airbrush leggings, the Accolade bra and 7/8 tights judged on reformer opacity, hold and comfort.",
   keywords: ["alo yoga pilates", "alo airbrush pilates", "best alo yoga for pilates", "alo yoga leggings pilates review", "alo yoga vs lululemon pilates", "alo yoga reformer pilates", "alo accolade bra pilates", "alo yoga activewear pilates"],
   openGraph: {
     title: "Alo Yoga for Pilates (2026): Best Pieces, Alo Moves & Honest Review",
-    description: "Everything Alo Yoga makes that's worth buying for Pilates — and an honest look at what doesn't deliver.",
+    description: "Everything Alo Yoga makes that's worth buying for Pilates, and an honest look at what doesn't deliver.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/alo-yoga-pilates",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg", width: 1200, height: 630, alt: "Alo Yoga for Pilates — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg", width: 1200, height: 630, alt: "Alo Yoga for Pilates: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Alo Yoga for Pilates (2026): Best Pieces & Honest Review",
-    description: "Everything Alo Yoga makes that's worth buying for Pilates — an honest review.",
+    description: "Everything Alo Yoga makes that's worth buying for Pilates: an honest review.",
     images: ["https://pilatescollectiveclub.com/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg"],
   },
   alternates: {
@@ -39,7 +39,7 @@ const PRODUCTS = [
     price: "From $88",
     verdict: "Best Alo piece for reformer Pilates",
     description:
-      "The Airbrush is the Alo legging most Pilates practitioners actually wear — firmer compression than the Alo Matte, fully opaque at every angle, and a high waistband that does not move through any exercise in the Pilates repertoire. The smoothing effect is significant without being restrictive. For reformer work specifically, the Airbrush outperforms the softer Alo options because the compression provides proprioceptive feedback on leg position — useful during footwork series where you want to feel your legs working symmetrically. Available in an excellent range of neutral colours appropriate for studio environments.",
+      "The Airbrush is the Alo legging most Pilates practitioners actually wear: firmer compression than the Alo Matte, fully opaque at every angle, and a high waistband that does not move through any exercise in the Pilates repertoire. The smoothing effect is significant without being restrictive. For reformer work specifically, the Airbrush outperforms the softer Alo options because the compression provides proprioceptive feedback on leg position: useful during footwork series where you want to feel your legs working symmetrically. Available in an excellent range of neutral colours appropriate for studio environments.",
     affiliateUrl: "https://www.aloyoga.com/",
     tag: "Top Pick",
   },
@@ -49,7 +49,7 @@ const PRODUCTS = [
     price: "From $62",
     verdict: "Best Alo sports bra for Pilates",
     description:
-      "The Airlift Intrigue is the correct Alo bra for Pilates — medium support that holds cleanly through dynamic movement without the chest compression that high-impact bras create during sustained floor work. The racerback design allows the shoulder mobility that the Pilates repertoire requires. The Airlift fabric is more comfortable lying down than most sports bras — a significant practical advantage in a method where half your time is spent supine or prone on a mat or reformer carriage. The cups provide light shaping without underwire or uncomfortable seam placement.",
+      "The Airlift Intrigue is the correct Alo bra for Pilates: medium support that holds cleanly through dynamic movement without the chest compression that high-impact bras create during sustained floor work. The racerback design allows the shoulder mobility that the Pilates repertoire requires. The Airlift fabric is more comfortable lying down than most sports bras: a significant practical advantage in a method where half your time is spent supine or prone on a mat or reformer carriage. The cups provide light shaping without underwire or uncomfortable seam placement.",
     affiliateUrl: "https://www.aloyoga.com/",
     tag: "Best Bra",
   },
@@ -59,7 +59,7 @@ const PRODUCTS = [
     price: "From $52",
     verdict: "Best Alo piece for mat Pilates",
     description:
-      "The Alosoft Lounge bra is lighter and softer than the Airlift — appropriate for mat Pilates, private sessions, and home practice where a full-compression bra is unnecessary. The fabric's buttery quality is the closest Alo gets to the Lululemon Align sensation. For practitioners who alternate between reformer classes (where they'd use the Airlift) and home mat work, the Lounge bra provides a different-feeling option for the lower-intensity sessions. The coverage is appropriate for solo practice without layering.",
+      "The Alosoft Lounge bra is lighter and softer than the Airlift: appropriate for mat Pilates, private sessions, and home practice where a full-compression bra is unnecessary. The fabric's buttery quality is the closest Alo gets to the Lululemon Align sensation. For practitioners who alternate between reformer classes (where they'd use the Airlift) and home mat work, the Lounge bra provides a different-feeling option for the lower-intensity sessions. The coverage is appropriate for solo practice without layering.",
     affiliateUrl: "https://www.aloyoga.com/",
     tag: "Mat Practice",
   },
@@ -69,7 +69,7 @@ const PRODUCTS = [
     price: "From $78",
     verdict: "Best Alo piece for warm studios",
     description:
-      "The Matte legging is lighter than the Airbrush — less compression, softer fabric, more breathable. For heated Pilates studios or practitioners who run warm during intense reformer sessions, the Matte is the better choice. The opacity is full. The waistband is high-rise and stays in place, though it provides less of the firm 'held' feeling that Airbrush practitioners prefer. If you know you always overheat in group reformer classes, start with the Matte. If temperature isn't an issue, the Airbrush is the more functional Pilates legging.",
+      "The Matte legging is lighter than the Airbrush: less compression, softer fabric, more breathable. For heated Pilates studios or practitioners who run warm during intense reformer sessions, the Matte is the better choice. The opacity is full. The waistband is high-rise and stays in place, though it provides less of the firm 'held' feeling that Airbrush practitioners prefer. If you know you always overheat in group reformer classes, start with the Matte. If temperature isn't an issue, the Airbrush is the more functional Pilates legging.",
     affiliateUrl: "https://www.aloyoga.com/",
     tag: "Warm Studios",
   },
@@ -79,7 +79,7 @@ const PRODUCTS = [
     price: "From $78",
     verdict: "Best Alo studio bag",
     description:
-      "The practical Alo purchase that most brand reviews overlook: a bag that holds grip socks, a change of clothes, a water bottle, and a mat strap while looking appropriate in a boutique studio environment. The Ritual Runner is a structured tote with enough interior organisation to keep grip socks separate from everything else — a small but genuinely useful detail for regular studio-goers. The aesthetic is consistent with the brand's clean, luxury-adjacent positioning. An honest addition to a Pilates kit that solves a real practical problem.",
+      "The practical Alo purchase that most brand reviews overlook: a bag that holds grip socks, a change of clothes, a water bottle, and a mat strap while looking appropriate in a boutique studio environment. The Ritual Runner is a structured tote with enough interior organisation to keep grip socks separate from everything else: a small but genuinely useful detail for regular studio-goers. The aesthetic is consistent with the brand's clean, luxury-adjacent positioning. An honest addition to a Pilates kit that solves a real practical problem.",
     affiliateUrl: "https://www.aloyoga.com/",
     tag: "Studio Bag",
   },
@@ -91,7 +91,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Alo Yoga for Pilates (2026): Best Pieces, Alo Moves & Honest Review",
-      "description": "Everything Alo Yoga makes that's worth buying for Pilates — the Airbrush legging, Airlift bra, Alo Moves, and what doesn't deliver.",
+      "description": "Everything Alo Yoga makes that's worth buying for Pilates: the Airbrush legging, Airlift bra, Alo Moves, and what doesn't deliver.",
       "url": "https://pilatescollectiveclub.com/blog/alo-yoga-pilates",
       "datePublished": "2026-05-14",
       "dateModified": "2026-10-20",
@@ -111,10 +111,10 @@ const jsonLd = {
   {
     "@type": "FAQPage",
     "mainEntity": [
-      { "@type": "Question", "name": "Is Alo Yoga actually good for Pilates or is it just marketing?", "acceptedAnswer": { "@type": "Answer", "text": "Both. The Airbrush legging and Airlift bra are genuinely excellent for Pilates — not just aesthetically positioned. The fabric quality, opacity, and construction are among the best in the category. The marketing has made Alo synonymous with the boutique Pilates aesthetic, which has expanded awareness, but the core products earned that position on function." } },
-      { "@type": "Question", "name": "Alo vs Lululemon for Pilates — which is better?", "acceptedAnswer": { "@type": "Answer", "text": "Different strengths. Lululemon's Align legging is softer and more comfortable for extended mat work. Alo's Airbrush provides firmer compression that some practitioners prefer for reformer footwork. The Lululemon Align tank is better for coverage and stays down more reliably. Alo's bras have a slight edge for fit and comfort during reformer-specific positions. Most serious practitioners own both brands and choose based on what they're doing that day." } },
-      { "@type": "Question", "name": "Are Alo clothes worth the price for Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "For the specific pieces listed in this guide — yes. The Airbrush legging and Airlift bra are priced at a premium but provide exceptional durability and performance. For pieces at the periphery of the Alo range (bags, accessories, trend-driven styles), the value proposition is weaker. Buy Alo where the function justifies the premium; don't buy Alo as a lifestyle statement." } },
-      { "@type": "Question", "name": "How should I care for Alo Yoga pieces?", "acceptedAnswer": { "@type": "Answer", "text": "Cold wash, inside out, air dry. Never tumble dry — the Airbrush fabric's four-way stretch and compression properties degrade faster with heat exposure than almost any other premium activewear. The Airlift fabric can be machine washed but should also be air dried. Store flat or folded, not on hooks, which stretch the waistband over time." } }
+      { "@type": "Question", "name": "Is Alo Yoga actually good for Pilates or is it just marketing?", "acceptedAnswer": { "@type": "Answer", "text": "Both. The Airbrush legging and Airlift bra are genuinely excellent for Pilates, not just aesthetically positioned. The fabric quality, opacity, and construction are among the best in the category. The marketing has made Alo synonymous with the boutique Pilates aesthetic, which has expanded awareness, but the core products earned that position on function." } },
+      { "@type": "Question", "name": "Alo vs Lululemon for Pilates, which is better?", "acceptedAnswer": { "@type": "Answer", "text": "Different strengths. Lululemon's Align legging is softer and more comfortable for extended mat work. Alo's Airbrush provides firmer compression that some practitioners prefer for reformer footwork. The Lululemon Align tank is better for coverage and stays down more reliably. Alo's bras have a slight edge for fit and comfort during reformer-specific positions. Most serious practitioners own both brands and choose based on what they're doing that day." } },
+      { "@type": "Question", "name": "Are Alo clothes worth the price for Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "For the specific pieces listed in this guide: yes. The Airbrush legging and Airlift bra are priced at a premium but provide exceptional durability and performance. For pieces at the periphery of the Alo range (bags, accessories, trend-driven styles), the value proposition is weaker. Buy Alo where the function justifies the premium; don't buy Alo as a lifestyle statement." } },
+      { "@type": "Question", "name": "How should I care for Alo Yoga pieces?", "acceptedAnswer": { "@type": "Answer", "text": "Cold wash, inside out, air dry. Never tumble dry: the Airbrush fabric's four-way stretch and compression properties degrade faster with heat exposure than almost any other premium activewear. The Airlift fabric can be machine washed but should also be air dried. Store flat or folded, not on hooks, which stretch the waistband over time." } }
     ]
   },
   ],
@@ -138,10 +138,10 @@ export default function AloYogaPilatesPage() {
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated October 20, 2026 · 10 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note="Sold at aloyoga.com, not on Amazon" url={PRODUCTS[0].affiliateUrl} cta="Shop Alo →" />
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Alo Yoga&apos;s Amazon presence is real but limited to occasional single-size, single-colour listings — not reliable enough to recommend here. These links go directly to Alo&apos;s own site rather than an affiliate program.</p>
+            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Alo Yoga&apos;s Amazon presence is real but limited to occasional single-size, single-colour listings, not reliable enough to recommend here. These links go directly to Alo&apos;s own site rather than an affiliate program.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Alo Yoga has become the defining aesthetic brand of the boutique Pilates studio. Walk into any reformer class in New York, London, or Los Angeles and Alo is what you see on the majority of practitioners. The brand has earned this position partly through quality and partly through savvy positioning — but not everything they make is equally suited to Pilates. This is a specific guide to what works, what doesn&apos;t, and what Alo Moves offers as a training platform.
+              Alo Yoga has become the defining aesthetic brand of the boutique Pilates studio. Walk into any reformer class in New York, London, or Los Angeles and Alo is what you see on the majority of practitioners. The brand has earned this position partly through quality and partly through savvy positioning, but not everything they make is equally suited to Pilates. This is a specific guide to what works, what doesn&apos;t, and what Alo Moves offers as a training platform.
             </p>
           </div>
         </section>
@@ -149,7 +149,7 @@ export default function AloYogaPilatesPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" alt="Alo Yoga Airbrush legging and Airlift Intrigue bra for Pilates — boutique studio activewear reviewed" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" alt="Alo Yoga Airbrush legging and Airlift Intrigue bra for Pilates: boutique studio activewear reviewed" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>
         </section>
@@ -166,10 +166,10 @@ export default function AloYogaPilatesPage() {
             <div className="mb-16 mt-4">
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Why Alo dominates boutique Pilates studios</h2>
               <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Alo Yoga launched in 2007 with a clear positioning: performance activewear designed to be worn from the studio to the street. The brand invested heavily in instructor seeding — getting their clothes onto the most visible Pilates and yoga teachers in major cities — and the strategy worked. By 2020, Alo had achieved a cultural association with the boutique fitness aesthetic that went beyond marketing. The product quality had to support that association, and largely it does.
+                Alo Yoga launched in 2007 with a clear positioning: performance activewear designed to be worn from the studio to the street. The brand invested heavily in instructor seeding, getting their clothes onto the most visible Pilates and yoga teachers in major cities, and the strategy worked. By 2020, Alo had achieved a cultural association with the boutique fitness aesthetic that went beyond marketing. The product quality had to support that association, and largely it does.
               </p>
               <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                For Pilates specifically, Alo&apos;s strengths are fabric quality, opacity, and waistband engineering. Their weaknesses are price point and the significant range variation — some Alo pieces are genuinely outstanding for Pilates; others are designed primarily for yoga or general fashion with movement as a secondary consideration. Knowing which is which saves you from expensive purchases that sit unworn.
+                For Pilates specifically, Alo&apos;s strengths are fabric quality, opacity, and waistband engineering. Their weaknesses are price point and the significant range variation: some Alo pieces are genuinely outstanding for Pilates; others are designed primarily for yoga or general fashion with movement as a secondary consideration. Knowing which is which saves you from expensive purchases that sit unworn.
               </p>
             </div>
 
@@ -191,10 +191,10 @@ export default function AloYogaPilatesPage() {
             <div className="mb-16">
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Alo Moves: is the app worth it for Pilates?</h2>
               <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Alo Moves is Alo&apos;s subscription fitness platform — streaming classes across yoga, Pilates, strength, and meditation. At approximately $20/month or $199/year, it positions itself as a premium alternative to generic fitness apps. The Pilates content is mixed. The production quality is excellent — good camera angles, clear cuing, well-lit studios. The challenge is that the Pilates content ranges from genuine method work to what is effectively yoga with some mat exercises incorporated.
+                Alo Moves is Alo&apos;s subscription fitness platform: streaming classes across yoga, Pilates, strength, and meditation. At approximately $20/month or $199/year, it positions itself as a premium alternative to generic fitness apps. The Pilates content is mixed. The production quality is excellent, good camera angles, clear cuing, well-lit studios. The challenge is that the Pilates content ranges from genuine method work to what is effectively yoga with some mat exercises incorporated.
               </p>
               <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                For home mat practice between studio sessions, Alo Moves is a reasonable option. The filtering by level and duration works well. The instructors are generally well-credentialed and the cuing is clearer than most free alternatives. It is not a substitute for live instruction or reformer work — the app offers mat content only, and the reformer content is limited.
+                For home mat practice between studio sessions, Alo Moves is a reasonable option. The filtering by level and duration works well. The instructors are generally well-credentialed and the cuing is clearer than most free alternatives. It is not a substitute for live instruction or reformer work: the app offers mat content only, and the reformer content is limited.
               </p>
               <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                 The honest verdict: Alo Moves is useful if you already have a studio practice and want supplementary mat content at home. It is not sufficient as a standalone Pilates education. The brand&apos;s apparel is a stronger product than their digital offering.
@@ -208,7 +208,7 @@ export default function AloYogaPilatesPage() {
                   "Alo Yoga leggings with mesh panels: The mesh sections are not opaque and create problems during any exercise where the inner thigh, back of knee, or lower back is visible to the instructor.",
                   "Alo Yoga Alosoft Entwine Bra: Beautiful piece, insufficient support for dynamic reformer work. Fine for meditation or gentle mat flows; not appropriate for a full 55-minute reformer class.",
                   "Alo Yoga High-Waist Goddess Legging: The ribbed texture catches on reformer straps and upholstered carriage surfaces. Functional on a mat, a friction problem on equipment.",
-                  "Alo Yoga loose-fit shorts: Any loose fabric creates problems on a reformer — catching on the footbar, the shoulder blocks, or the straps. Alo's fitted shorts work; their relaxed-fit options do not.",
+                  "Alo Yoga loose-fit shorts: Any loose fabric creates problems on a reformer, catching on the footbar, the shoulder blocks, or the straps. Alo's fitted shorts work; their relaxed-fit options do not.",
                   "Anything with pockets positioned at the hip or thigh: Side-seam pockets add bulk exactly where the reformer carriage makes contact. Keep pockets to the waistband or avoid entirely.",
                 ].map((tip, i) => (
                   <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
@@ -223,10 +223,10 @@ export default function AloYogaPilatesPage() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "Is Alo Yoga actually good for Pilates or is it just marketing?", a: "Both. The Airbrush legging and Airlift bra are genuinely excellent for Pilates — not just aesthetically positioned. The fabric quality, opacity, and construction are among the best in the category. The marketing has made Alo synonymous with the boutique Pilates aesthetic, which has expanded awareness, but the core products earned that position on function." },
-                  { q: "Alo vs Lululemon for Pilates — which is better?", a: "Different strengths. Lululemon's Align legging is softer and more comfortable for extended mat work. Alo's Airbrush provides firmer compression that some practitioners prefer for reformer footwork. The Lululemon Align tank is better for coverage and stays down more reliably. Alo's bras have a slight edge for fit and comfort during reformer-specific positions. Most serious practitioners own both brands and choose based on what they're doing that day." },
-                  { q: "Are Alo clothes worth the price for Pilates?", a: "For the specific pieces listed in this guide — yes. The Airbrush legging and Airlift bra are priced at a premium but provide exceptional durability and performance. For pieces at the periphery of the Alo range (bags, accessories, trend-driven styles), the value proposition is weaker. Buy Alo where the function justifies the premium; don't buy Alo as a lifestyle statement." },
-                  { q: "How should I care for Alo Yoga pieces?", a: "Cold wash, inside out, air dry. Never tumble dry — the Airbrush fabric's four-way stretch and compression properties degrade faster with heat exposure than almost any other premium activewear. The Airlift fabric can be machine washed but should also be air dried. Store flat or folded, not on hooks, which stretch the waistband over time." },
+                  { q: "Is Alo Yoga actually good for Pilates or is it just marketing?", a: "Both. The Airbrush legging and Airlift bra are genuinely excellent for Pilates, not just aesthetically positioned. The fabric quality, opacity, and construction are among the best in the category. The marketing has made Alo synonymous with the boutique Pilates aesthetic, which has expanded awareness, but the core products earned that position on function." },
+                  { q: "Alo vs Lululemon for Pilates, which is better?", a: "Different strengths. Lululemon's Align legging is softer and more comfortable for extended mat work. Alo's Airbrush provides firmer compression that some practitioners prefer for reformer footwork. The Lululemon Align tank is better for coverage and stays down more reliably. Alo's bras have a slight edge for fit and comfort during reformer-specific positions. Most serious practitioners own both brands and choose based on what they're doing that day." },
+                  { q: "Are Alo clothes worth the price for Pilates?", a: "For the specific pieces listed in this guide: yes. The Airbrush legging and Airlift bra are priced at a premium but provide exceptional durability and performance. For pieces at the periphery of the Alo range (bags, accessories, trend-driven styles), the value proposition is weaker. Buy Alo where the function justifies the premium; don't buy Alo as a lifestyle statement." },
+                  { q: "How should I care for Alo Yoga pieces?", a: "Cold wash, inside out, air dry. Never tumble dry: the Airbrush fabric's four-way stretch and compression properties degrade faster with heat exposure than almost any other premium activewear. The Airlift fabric can be machine washed but should also be air dried. Store flat or folded, not on hooks, which stretch the waistband over time." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
@@ -239,11 +239,11 @@ export default function AloYogaPilatesPage() {
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="Lululemon for Pilates" excerpt="The complete guide to the best Lululemon pieces for studio and reformer Pilates — and what to skip." href="/blog/lululemon-pilates" category="Brand Guide" readTime="10 min read" date="May 2026" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
+                <ArticleCard title="Lululemon for Pilates" excerpt="The complete guide to the best Lululemon pieces for studio and reformer Pilates, and what to skip." href="/blog/lululemon-pilates" category="Brand Guide" readTime="10 min read" date="May 2026" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
                 <ArticleCard title="Varley for Pilates (2026)" excerpt="The boutique studio brand reviewed: Freesoft leggings, layers and what to buy first." href="/blog/varley-pilates-activewear" category="Brand Guide" readTime="9 min read" date="October 2026" imageUrl="/pictures/logan-weaver-lgnwvr-u76Gd0hP5w4-unsplash.jpg" />
                 <ArticleCard title="Best Luxury Pilates Leggings (2026)" excerpt="Premium leggings from Varley, Alo and more, compared on fabric and fit." href="/blog/best-luxury-pilates-leggings" category="Activewear" readTime="10 min read" date="October 2026" imageUrl="/pictures/stitch-retail-activewear.png" />
                 <ArticleCard title="Best Pilates Grip Socks (2026)" excerpt="Five verified grip socks for reformer class, from toesox and TAVI to budget packs." href="/blog/best-pilates-grip-socks" category="Accessories" readTime="6 min read" date="October 2026" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
-                <ArticleCard title="Best Pilates Leggings (2026)" excerpt="Five leggings across every price point — compared on opacity, waistband stability, and reformer performance." href="/blog/best-pilates-leggings" category="Equipment" readTime="9 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Leggings (2026)" excerpt="Five leggings across every price point: compared on opacity, waistband stability, and reformer performance." href="/blog/best-pilates-leggings" category="Equipment" readTime="9 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />
               </div>
             </div>
           </div>

@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     description: "Head-to-toe Lagree outfits at three budgets, what to bring to class, and what not to wear on a Megaformer. Prices checked live on Amazon.",
     type: "article",
     url: PAGE_URL,
-    images: [{ url: HERO_IMAGE, width: 1200, height: 630, alt: "Grip socks on a machine footbar — what to wear to Lagree" }],
+    images: [{ url: HERO_IMAGE, width: 1200, height: 630, alt: "Grip socks on a machine footbar: what to wear to Lagree" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -76,7 +76,7 @@ const OUTFITS: { id: string; title: string; who: string; items: Item[] }[] = [
       { id: "heynuts", role: "Leggings", name: "HeyNuts Pure&Plain Workout Pro 1.0 Leggings 25\"", price: "$19.99", url: amz("B0CTCFMDMJ"), description: "A 25-inch full-length legging at under $20. Full length covers your knees for kneeling work on the carriage.", guide: { label: "Best leggings for Lagree", href: "/blog/best-leggings-for-lagree" } },
       { id: "crz-crop-tank", role: "Top", name: "CRZ YOGA Quick Dry Racerback Crop Tank", price: "$20.00", url: amz("B0H1HV6YXB"), description: "A quick-dry racerback crop tank. Cropped tops have no hem to slide up or fall over your face in plank and bear.", guide: { label: "Best Lagree tops", href: "/blog/best-lagree-tops" } },
       { id: "oalka", role: "Sports bra", name: "Oalka Longline Padded Sports Bra", price: "$14.99", url: amz("B08JTQ4JHP"), description: "A padded longline crop that doubles as a top on hot days. Lagree is low-impact, so you do not need a high-impact bra unless you prefer one.", guide: { label: "Best sports bra for Lagree", href: "/blog/best-sports-bra-for-lagree" } },
-      { id: "muezna-6", role: "Grip socks", name: "Muezna Pilates Grip Socks (6 Pairs)", price: "$7.59", url: amz("B0DQ53GSP5"), description: "Six pairs of grip socks for under $8 — enough for a week of classes without doing laundry. Most studios require grip socks on the machine.", guide: { label: "Lagree socks", href: "/blog/best-lagree-grip-socks" } },
+      { id: "muezna-6", role: "Grip socks", name: "Muezna Pilates Grip Socks (6 Pairs)", price: "$7.59", url: amz("B0DQ53GSP5"), description: "Six pairs of grip socks for under $8: enough for a week of classes without doing laundry. Most studios require grip socks on the machine.", guide: { label: "Lagree socks", href: "/blog/best-lagree-grip-socks" } },
     ],
   },
   {
@@ -84,9 +84,9 @@ const OUTFITS: { id: string; title: string; who: string; items: Item[] }[] = [
     title: "The best-value outfit",
     who: "Regulars who want buttery-soft pieces that last.",
     items: [
-      { id: "crz-leggings", role: "Leggings", name: "CRZ YOGA Butterluxe Leggings 25\"", price: "$32.00", url: amz("B09P1G2952"), description: "Butterluxe is CRZ YOGA's softest, stretchiest fabric — the closest Amazon equivalent to the buttery studio leggings everyone wears.", guide: { label: "Best leggings for Lagree", href: "/blog/best-leggings-for-lagree" } },
+      { id: "crz-leggings", role: "Leggings", name: "CRZ YOGA Butterluxe Leggings 25\"", price: "$32.00", url: amz("B09P1G2952"), description: "Butterluxe is CRZ YOGA's softest, stretchiest fabric: the closest Amazon equivalent to the buttery studio leggings everyone wears.", guide: { label: "Best leggings for Lagree", href: "/blog/best-leggings-for-lagree" } },
       { id: "crz-tank", role: "Top", name: "CRZ YOGA Butterluxe Racerback Tank", price: "$32.00", url: amz("B09X9Y5S8G"), description: "A fitted racerback tank in the same Butterluxe fabric, so it matches the leggings. Fitted means it stays put upside down.", guide: { label: "Best Lagree tops", href: "/blog/best-lagree-tops" } },
-      { id: "crz-bra", role: "Sports bra", name: "CRZ YOGA Butterluxe U Back Sports Bra", price: "$28.00", url: amz("B09ZP9VXLJ"), description: "A Butterluxe U-back bra for low-impact training — comfortable for an hour of slow, intense work.", guide: { label: "Best sports bra for Lagree", href: "/blog/best-sports-bra-for-lagree" } },
+      { id: "crz-bra", role: "Sports bra", name: "CRZ YOGA Butterluxe U Back Sports Bra", price: "$28.00", url: amz("B09ZP9VXLJ"), description: "A Butterluxe U-back bra for low-impact training: comfortable for an hour of slow, intense work.", guide: { label: "Best sports bra for Lagree", href: "/blog/best-sports-bra-for-lagree" } },
       { id: "toesox", role: "Grip socks", name: "toesox Low Rise Grip Socks (Full Toe, 2-Pack)", price: "$30.00", url: amz("B07QHNDHW3"), description: "Full-toe grip socks with a patented non-slip sole. Separate toes help you spread your foot on the platform for lunges.", guide: { label: "Lagree socks", href: "/blog/best-lagree-grip-socks" } },
     ],
   },
@@ -96,7 +96,7 @@ const OUTFITS: { id: string; title: string; who: string; items: Item[] }[] = [
     who: "The boutique-studio look, head to toe.",
     items: [
       { id: "varley-leggings", role: "Leggings", name: "Varley Freesoft Piped Full Leggings", price: "$98.00", url: amz("B0FXN378H8"), description: "Varley's soft Freesoft fabric with contrast piping, sold by Shopbop (an Amazon company).", guide: { label: "Best leggings for Lagree", href: "/blog/best-leggings-for-lagree" } },
-      { id: "varley-tank", role: "Top", name: "Varley Marla Button Placket Tank", price: "$89.60", url: amz("B0FP3MWK1Z"), description: "A fitted tank with a button placket — the studio-to-coffee piece. Sold by Shopbop.", guide: { label: "Best Lagree tops", href: "/blog/best-lagree-tops" } },
+      { id: "varley-tank", role: "Top", name: "Varley Marla Button Placket Tank", price: "$89.60", url: amz("B0FP3MWK1Z"), description: "A fitted tank with a button placket: the studio-to-coffee piece. Sold by Shopbop.", guide: { label: "Best Lagree tops", href: "/blog/best-lagree-tops" } },
       { id: "varley-bra", role: "Sports bra", name: "Varley Freesoft Harley Bralette", price: "$66.00", url: amz("B0FXN42JWR"), description: "A Freesoft bralette that matches the leggings. Light support suits Lagree's low-impact movement. Sold by Shopbop.", guide: { label: "Best sports bra for Lagree", href: "/blog/best-sports-bra-for-lagree" } },
       { id: "tavi-stacy", role: "Grip socks", name: "TAVI Stacy Slouch Pilates Socks (2-Pack)", price: "$40.00", url: amz("B0GFPGMWWS"), description: "Slouchy, closed-toe grip socks from TAVI, a studio favourite. Two pairs per pack.", guide: { label: "Lagree socks", href: "/blog/best-lagree-grip-socks" } },
     ],
@@ -107,7 +107,7 @@ const BRING: Item[] = [
   { id: "rainleaf", role: "Sweat towel", name: "Rainleaf Microfiber Towel (Quick Dry, Compact)", price: "$12.99", url: amz("B01K1TX77W"), description: "A compact, quick-dry microfiber towel. You will sweat onto the carriage and platform; wipe yourself and the machine between moves.", guide: { label: "Best sweat towel for Lagree", href: "/blog/best-sweat-towel-for-lagree" } },
   { id: "gaiam-gloves", role: "Grip gloves (optional)", name: "Gaiam Grippy Yoga Gloves", price: "$7.65", url: amz("B001VROVEM"), description: "Optional. Grippy gloves help if sweaty hands slip on the handles or platform in plank.", guide: { label: "Lagree gloves", href: "/blog/best-lagree-gloves" } },
   { id: "crz-jacket", role: "Layer", name: "CRZ YOGA Butterluxe Jacket (Waist Length)", price: "$48.00", url: amz("B0BJ2G3JNW"), description: "A slim zip layer with thumbholes for the cold studio before class and the walk home after.", guide: { label: "Lagree jacket", href: "/blog/best-lagree-jacket" } },
-  { id: "bagsmart", role: "Bag", name: "BAGSMART Gym Bag (Shoe Compartment)", price: "$25.19", url: amz("B0DMS9Q287"), description: "A lightweight duffel with a shoe compartment — your sneakers go in there while you train in grip socks.", guide: { label: "Lagree bag", href: "/blog/best-lagree-bag" } },
+  { id: "bagsmart", role: "Bag", name: "BAGSMART Gym Bag (Shoe Compartment)", price: "$25.19", url: amz("B0DMS9Q287"), description: "A lightweight duffel with a shoe compartment: your sneakers go in there while you train in grip socks.", guide: { label: "Lagree bag", href: "/blog/best-lagree-bag" } },
 ];
 
 const SUMMER_SWAP: Item = { id: "crz-biker", role: "Summer swap", name: "CRZ YOGA Butterluxe Biker Shorts 6\"", price: "$24.00", url: amz("B0B28B34XX"), description: "Swap leggings for fitted 6-inch biker shorts in summer. Fitted, not loose: loose running shorts ride up and gape in bear and wheelbarrow.", guide: { label: "Lagree shorts", href: "/blog/best-lagree-shorts" } };
@@ -243,7 +243,7 @@ export default function WhatToWearToLagreePage() {
             <TopPick name={QUICK_PICKS[0].name} price={QUICK_PICKS[0].price} note={QUICK_PICKS[0].note} url={QUICK_PICKS[0].url} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Lagree looks gentle from the doorway — slow moves on a sliding machine — and then you&apos;re shaking in a plank on the Megaformer, drenched, with your top sliding up to your armpits. What you wear matters more than in most classes. Here are the five rules, three complete head-to-toe outfits at three budgets, what to bring, and what to leave at home.
+              Lagree looks gentle from the doorway, slow moves on a sliding machine, and then you&apos;re shaking in a plank on the Megaformer, drenched, with your top sliding up to your armpits. What you wear matters more than in most classes. Here are the five rules, three complete head-to-toe outfits at three budgets, what to bring, and what to leave at home.
             </p>
             <p className="text-sm leading-relaxed" style={bodyStyle}>
               Every Amazon price and stock status was checked live on October 4, 2026. Prices change, so the final price is whatever Amazon shows at checkout.
@@ -254,7 +254,7 @@ export default function WhatToWearToLagreePage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/stitch-grip-socks-footbar.png" alt="Grip socks on a machine — what to wear to Lagree" fill className="object-cover" style={{ filter: "brightness(0.85)" }} priority />
+              <Image src="/pictures/stitch-grip-socks-footbar.png" alt="Grip socks on a machine: what to wear to Lagree" fill className="object-cover" style={{ filter: "brightness(0.85)" }} priority />
             </div>
           </div>
         </section>

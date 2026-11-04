@@ -57,7 +57,7 @@ const SEASONS = {
     label: "Black Friday 2026",
     checked: BF_PRICES_CHECKED,
     checkedIso: BF_PRICES_CHECKED_ISO,
-    disclaimer: "*Product links go to Amazon, where we earn a small commission on qualifying purchases at no extra cost to you. The prices shown are the current Amazon prices we checked, not sale prices — we are tracking these listings and will update this page as Black Friday deals go live.",
+    disclaimer: "*Product links go to Amazon, where we earn a small commission on qualifying purchases at no extra cost to you. The prices shown are the current Amazon prices we checked, not sale prices: we are tracking these listings and will update this page as Black Friday deals go live.",
     dates: [{ label: "Black Friday", value: BF_DATES.blackFriday }, { label: "Cyber Monday", value: BF_DATES.cyberMonday }],
     listLabel: "The watchlist: price to beat",
     cta: "Check price →",

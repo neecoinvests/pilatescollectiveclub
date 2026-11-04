@@ -202,7 +202,7 @@ export default function BestLagreeCarriageHandlesPage() {
 
             <div className="mb-10 rounded-2xl p-6" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.4)" }}>
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>How we chose these picks</p>
-              <p className="text-sm leading-relaxed" style={bodyStyle}>Only one true Lagree handle is sold on Amazon — the Lagree Fitness Micro Handlebars — so that leads the list, and everything else is a grip aid rather than a handle. Every Amazon product below links to a specific listing whose price and availability we verified on October 2, 2026. We have not used these products in a lab test; the reasoning below is based on what each listing states and how Lagree classes actually use the hands.</p>
+              <p className="text-sm leading-relaxed" style={bodyStyle}>Only one true Lagree handle is sold on Amazon, the Lagree Fitness Micro Handlebars, so that leads the list, and everything else is a grip aid rather than a handle. Every Amazon product below links to a specific listing whose price and availability we verified on October 2, 2026. We have not used these products in a lab test; the reasoning below is based on what each listing states and how Lagree classes actually use the hands.</p>
             </div>
 
             <h2 className="text-3xl font-semibold mb-6" style={h2Style}>What &quot;Lagree handles&quot; actually means</h2>

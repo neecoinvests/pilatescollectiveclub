@@ -12,7 +12,7 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Studios in Denver, CO (2026)",
-  description: "The best Pilates studios in Denver — from Cherry Creek reformer boutiques to RiNo classical practices. Six verified picks for every level, 2026.",
+  description: "The best Pilates studios in Denver, from Cherry Creek reformer boutiques to RiNo classical practices. Six verified picks for every level, 2026.",
   robots: {
     index: true,
     follow: true,
@@ -22,15 +22,15 @@ export const metadata: Metadata = {
   keywords: ["pilates denver", "reformer pilates denver", "best pilates studios denver co", "pilates studio denver", "pilates classes denver", "cherry creek pilates", "rino pilates denver", "pilates colorado", "best reformer pilates denver", "pilates boulder co"],
   openGraph: {
     title: "Best Pilates Studios in Denver, CO (2026)",
-    description: "Six curated Pilates studios in Denver — Cherry Creek reformer boutiques to RiNo classical method. Verified 2026.",
+    description: "Six curated Pilates studios in Denver: Cherry Creek reformer boutiques to RiNo classical method. Verified 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/denver",
-    images: [{ url: "https://images.unsplash.com/photo-1546156929-a4c0ac411f47?w=1200&q=80", width: 1200, height: 630, alt: "Denver Colorado city guide — Pilates Collective Club" }],
+    images: [{ url: "https://images.unsplash.com/photo-1546156929-a4c0ac411f47?w=1200&q=80", width: 1200, height: 630, alt: "Denver Colorado city guide: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Studios in Denver (2026)",
-    description: "Six curated Pilates studios in Denver — verified picks for every level.",
+    description: "Six curated Pilates studios in Denver: verified picks for every level.",
     images: ["https://images.unsplash.com/photo-1546156929-a4c0ac411f47?w=1200&q=80"],
   },
   alternates: {
@@ -45,7 +45,7 @@ const STUDIOS = [
     neighborhood: "Bonnie Brae / Washington Park",
     priceLevel: "$$",
     review: "Whole Body Studios on South University Boulevard has been teaching Pilates, barre and yoga for more than a decade, including reformer and cardio Pilates classes and a comprehensive Pilates teacher-training programme. A dedicated Intro to Reformer class is the easiest way in if you have never used the machine.",
-    caveat: "a multi-discipline studio rather than a Pilates-only room — check the schedule for reformer-specific classes.",
+    caveat: "a multi-discipline studio rather than a Pilates-only room: check the schedule for reformer-specific classes.",
     address: "747 S University Blvd, Denver, CO 80209",
     bestFor: "Beginners and Wash Park residents; reformer, barre and yoga under one roof",
     signatureClass: "Intro to Reformer",
@@ -57,7 +57,7 @@ const STUDIOS = [
     neighborhood: "Congress Park / Capitol Hill",
     priceLevel: "$$$",
     review: "Axis Pilates was opened on East 6th Avenue by Pilates professional Heather Willer, who bought the former Corner Studio space, re-equipped it and tripled the class schedule. Alongside Pilates it offers cycling and TRX, and it holds a 5.0 Google rating from around 80 reviews.",
-    caveat: "a smaller independent studio — fewer class times than the big chains, so plan ahead.",
+    caveat: "a smaller independent studio: fewer class times than the big chains, so plan ahead.",
     address: "1138 E 6th Ave, Denver, CO 80218",
     bestFor: "Independent Pilates with cycling and TRX in central Denver",
     signatureClass: "Reformer Pilates",
@@ -73,7 +73,7 @@ const STUDIOS = [
     address: "3463 Blake St, Denver, CO 80205",
     bestFor: "Contemporary reformer for mixed levels",
     signatureClass: "BoostBurn (50 min)",
-    bookingTip: "RiNo parking is limited — arrive a few minutes early to find a street spot. Boost also has a LoHi studio.",
+    bookingTip: "RiNo parking is limited: arrive a few minutes early to find a street spot. Boost also has a LoHi studio.",
   },
   {
     number: "04",
@@ -81,49 +81,49 @@ const STUDIOS = [
     neighborhood: "Highland (LoHi)",
     priceLevel: "$$",
     review: "Uncommon Practice Pilates, formerly Firehaus Pilates, is a warm, welcoming reformer studio on West 38th Avenue. It runs levelled reformer classes plus prenatal and postpartum Pilates, and it is rated 4.8 from more than 7,500 reviews on ClassPass, with members praising attentive instructors.",
-    caveat: "popular evening classes fill quickly — book ahead.",
+    caveat: "popular evening classes fill quickly: book ahead.",
     address: "3451 W 38th Ave, Suite 101, Denver, CO 80211",
     bestFor: "Welcoming reformer classes, prenatal and postpartum Pilates",
     signatureClass: "Reformer: Level 1",
-    bookingTip: "The studio is walkable from LoHi restaurants — pair an evening class with dinner.",
+    bookingTip: "The studio is walkable from LoHi restaurants: pair an evening class with dinner.",
   },
   {
     number: "05",
     name: "Fierce45",
     neighborhood: "Highlands / Wash Park / Hilltop",
     priceLevel: "$$$",
-    review: "Fierce45 was founded in the Highlands by Torrey Newman. Its 45-minute classes follow the Lagree Method on spring-based Megaformer machines — low-impact but intense, working legs, obliques, core and upper body. Classes are capped at about ten people and must be booked in advance, and the brand has grown to several Denver studios, including Wash Park and Hilltop.",
-    caveat: "this is Lagree-style Megaformer training rather than traditional Pilates — slower, heavier and sweatier.",
-    address: "—",
+    review: "Fierce45 was founded in the Highlands by Torrey Newman. Its 45-minute classes follow the Lagree Method on spring-based Megaformer machines: low-impact but intense, working legs, obliques, core and upper body. Classes are capped at about ten people and must be booked in advance, and the brand has grown to several Denver studios, including Wash Park and Hilltop.",
+    caveat: "this is Lagree-style Megaformer training rather than traditional Pilates: slower, heavier and sweatier.",
+    address: "",
     bestFor: "45-minute Megaformer workouts",
     signatureClass: "Fierce45 Megaformer class",
-    bookingTip: "Classes are capped and must be booked in advance through the app — check which studio is closest before booking.",
+    bookingTip: "Classes are capped and must be booked in advance through the app: check which studio is closest before booking.",
   },
   {
     number: "06",
     name: "Pilates Evolution Cherry Creek",
     neighborhood: "Cherry Creek",
     priceLevel: "$$$",
-    review: "Pilates Evolution opened its first studio in Cherry Creek in 2008. Despite the name, it is a Lagree Fitness licensee, and its workouts run on Lagree machines — so expect slow, intense, Megaformer-style training rather than classical Pilates.",
-    caveat: "Lagree is very different from Pilates — first-timers should take an intro session before a regular class.",
+    review: "Pilates Evolution opened its first studio in Cherry Creek in 2008. Despite the name, it is a Lagree Fitness licensee, and its workouts run on Lagree machines, so expect slow, intense, Megaformer-style training rather than classical Pilates.",
+    caveat: "Lagree is very different from Pilates: first-timers should take an intro session before a regular class.",
     address: "300 Josephine St, Ste 210, Denver, CO 80206",
     bestFor: "Lagree training in Cherry Creek",
     signatureClass: "Lagree Megaformer class",
-    bookingTip: "The format is deceptively intense — tell the instructor if it is your first Lagree class.",
+    bookingTip: "The format is deceptively intense: tell the instructor if it is your first Lagree class.",
   },
 ];
 
 const BOOKING_TIPS = [
-  { heading: "Expect to pay $28–55 per class", body: "Denver's Pilates market is meaningfully cheaper than the coastal US cities. Drop-in rates run from around $28 at community studios to $55 at premium private practices. Monthly memberships and session packs bring per-class costs to $18–30 for regular practitioners — significantly more accessible than New York or Los Angeles." },
-  { heading: "Altitude genuinely affects your first sessions", body: "Denver sits at 5,280 feet above sea level. Practitioners new to altitude commonly report that their first few sessions feel harder than expected — heart rate runs higher, breath is shorter. Allow 1–2 weeks of acclimatisation before assessing your performance relative to sea-level standards." },
+  { heading: "Expect to pay $28–55 per class", body: "Denver's Pilates market is meaningfully cheaper than the coastal US cities. Drop-in rates run from around $28 at community studios to $55 at premium private practices. Monthly memberships and session packs bring per-class costs to $18–30 for regular practitioners: significantly more accessible than New York or Los Angeles." },
+  { heading: "Altitude genuinely affects your first sessions", body: "Denver sits at 5,280 feet above sea level. Practitioners new to altitude commonly report that their first few sessions feel harder than expected: heart rate runs higher, breath is shorter. Allow 1–2 weeks of acclimatisation before assessing your performance relative to sea-level standards." },
   { heading: "Winter weather disrupts scheduling", body: "Colorado snowstorms can affect commute times unpredictably. Studios with late-cancellation policies are worth understanding before you commit. Building buffer time into morning appointments is good practice from October through March." },
-  { heading: "The outdoor culture complements Pilates well", body: "Denver's ski, trail running, and cycling communities are among Pilates's most committed converts — the method's core and spinal work is directly applicable to mountain sports performance. Studios that understand this crossover tend to produce the most relevant programming for the city's most active practitioners." },
+  { heading: "The outdoor culture complements Pilates well", body: "Denver's ski, trail running, and cycling communities are among Pilates's most committed converts: the method's core and spinal work is directly applicable to mountain sports performance. Studios that understand this crossover tend to produce the most relevant programming for the city's most active practitioners." },
   { heading: "Grip socks and warm layers are both useful", body: "Studio temperatures in Denver can be cool, especially in early morning winter sessions. Grip socks are universally required; a light warm layer for the first few minutes of class is practical from November through April." },
 ];
 
 const NEIGHBORHOODS = [
   { name: "Cherry Creek & Cherry Creek North", description: "Denver's most design-conscious neighbourhood is home to several of the city's best Pilates practices. Higher price points, excellent instruction quality, and a wellness-invested clientele that sets a high standard for local studios." },
-  { name: "The Highlands", description: "One of Denver's most active and community-minded residential districts, with a growing concentration of high-quality reformer studios. Studios here tend toward the athletic and community-focused — well-suited to the neighbourhood's trail runners and outdoor enthusiasts." },
+  { name: "The Highlands", description: "One of Denver's most active and community-minded residential districts, with a growing concentration of high-quality reformer studios. Studios here tend toward the athletic and community-focused: well-suited to the neighbourhood's trail runners and outdoor enthusiasts." },
   { name: "Washington Park & South Denver", description: "Denver's most fitness-active residential zone outside Cherry Creek supports a strong independent studio culture. Classes here attract the regulars who have moved beyond studio-hopping and want a consistent practice close to home." },
   { name: "RiNo / River North & Downtown", description: "Denver's arts and technology corridor has developed an accessible, independent Pilates culture that welcomes practitioners across the ability spectrum. Pricing is more accessible than Cherry Creek, and the atmosphere is less formal without being less serious about the work." },
 ];
@@ -137,7 +137,7 @@ const GEAR = [
   },
   {
     name: "Pilates Mat",
-    note: "Our pick: Manduka PRO Yoga & Pilates Mat (6mm). Essential for mat classes and home practice — especially useful during Colorado winter months.",
+    note: "Our pick: Manduka PRO Yoga & Pilates Mat (6mm). Essential for mat classes and home practice, especially useful during Colorado winter months.",
     price: "$144.00",
     url: "https://www.amazon.com/dp/B0066T7I54?tag=pilatescollective-20",
   },
@@ -149,16 +149,16 @@ const GEAR = [
   },
   {
     name: "Resistance Bands Set",
-    note: "Our pick: Arena Strength Fabric Glute Bands (3-Pack). Portable and effective for home practice — particularly useful on days when altitude or weather disrupts your studio schedule.",
+    note: "Our pick: Arena Strength Fabric Glute Bands (3-Pack). Portable and effective for home practice, particularly useful on days when altitude or weather disrupts your studio schedule.",
     price: "$29.00",
     url: "https://www.amazon.com/dp/B07VYK14JC?tag=pilatescollective-20",
   },
 ];
 
 const HOME_REFORMERS = [
-  { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work — three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
+  { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work: three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
   { tag: "Mid-Range Pick", name: "AeroPilates Pro XP 557", note: "AeroPilates' top-of-the-range home reformer, a step up for practitioners training several times a week.", price: "$1,329.99", url: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20" },
-  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order — an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
+  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
 ];
 
 const RELATED_CITIES = [
@@ -221,7 +221,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "The Best Pilates Studios in Denver, CO (2026)",
-      "description": "A curated guide to the six best Pilates studios in Denver, Colorado — verified October 2026.",
+      "description": "A curated guide to the six best Pilates studios in Denver, Colorado: verified October 2026.",
       "url": "https://pilatescollectiveclub.com/cities/denver",
       "dateModified": "2026-10-03",
       "author": { "@type": "Organization", "name": "Pilates Collective Club" },
@@ -250,7 +250,7 @@ export default function DenverPage() {
             <p className="text-sm mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated October 2026 · 9 min read</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Denver's outdoor-first identity has always coexisted with a serious indoor movement culture, and its Pilates scene is a direct expression of that duality. The city's altitude, its relationship to skiing, trail running, and cycling, and the growing professional population that has arrived from both coasts have produced a market with genuine range — from classical Cherry Creek studios to community-oriented East Colfax practices. The method thrives here because it serves the active body so well. This guide covers the six studios worth your time, verified October 2026.
+              Denver's outdoor-first identity has always coexisted with a serious indoor movement culture, and its Pilates scene is a direct expression of that duality. The city's altitude, its relationship to skiing, trail running, and cycling, and the growing professional population that has arrived from both coasts have produced a market with genuine range, from classical Cherry Creek studios to community-oriented East Colfax practices. The method thrives here because it serves the active body so well. This guide covers the six studios worth your time, verified October 2026.
             </p>
           </div>
         </section>
@@ -263,7 +263,7 @@ export default function DenverPage() {
               <div className="absolute inset-0 flex items-end p-8" style={{ background: "linear-gradient(to top, rgba(27,28,28,0.55) 0%, transparent 60%)" }}>
                 <div>
                   <p className="text-white text-sm font-semibold uppercase tracking-widest mb-1" style={{ fontFamily: "'Montserrat', sans-serif" }}>Denver, Colorado</p>
-                  <p className="text-white/70 text-xs" style={{ fontFamily: "'Montserrat', sans-serif" }}>Pilates at altitude — where the active life demands intelligent movement</p>
+                  <p className="text-white/70 text-xs" style={{ fontFamily: "'Montserrat', sans-serif" }}>Pilates at altitude, where the active life demands intelligent movement</p>
                 </div>
               </div>
             </div>
@@ -330,7 +330,7 @@ export default function DenverPage() {
             <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Prefer To Train At Home?</p>
             <h2 className="text-3xl font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Not convinced? How about Pilates at home?</h2>
             <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-              Studio pricing or scheduling not for you right now? A home reformer gets you a genuine Pilates session on your own time. Here's where to start — from a $299 entry point to the machine serious practitioners buy once.{" "}
+              Studio pricing or scheduling not for you right now? A home reformer gets you a genuine Pilates session on your own time. Here's where to start, from a $299 entry point to the machine serious practitioners buy once.{" "}
               <Link href="/blog/best-home-pilates-reformer" style={{ color: "#8b4a31", textDecoration: "underline", fontFamily: "'Montserrat', sans-serif", fontSize: "inherit" }}>See the full reformer guide.</Link>
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
@@ -383,7 +383,7 @@ export default function DenverPage() {
           </div>
         </section>
 
-        <CTASection title="Find Pilates near you" subtitle="Use our AI Finder to discover studios in any city — coming soon." showSearch searchPlaceholder="Ask: best Pilates for athletes in Denver…" />
+        <CTASection title="Find Pilates near you" subtitle="Use our AI Finder to discover studios in any city: coming soon." showSearch searchPlaceholder="Ask: best Pilates for athletes in Denver…" />
       </main>
       <Footer />
     </>

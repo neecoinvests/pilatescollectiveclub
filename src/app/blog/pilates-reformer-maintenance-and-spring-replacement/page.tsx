@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     description: "What wears out, how often, and how to keep a machine feeling like it did new.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/pilates-reformer-maintenance-and-spring-replacement",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/stitch-reformer-spring-detail.png", width: 1200, height: 630, alt: "Pilates Reformer Maintenance and Spring Replacement — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/stitch-reformer-spring-detail.png", width: 1200, height: 630, alt: "Pilates Reformer Maintenance and Spring Replacement: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",

@@ -38,7 +38,7 @@ const PRODUCTS = [
     price: "$65.54",
     verdict: "Best overall replacement set",
     description:
-      "This is a five-spring, color-coded stainless steel set built for standard reformer and Megaformer-style spring systems — a third-party, universal replacement rather than an official Lagree Fitness part (Lagree does not sell springs directly through Amazon). The color-coding across the five tensions makes it easy to identify the right spring at a glance mid-class, and stainless steel construction resists the corrosion that plain steel springs develop from sweat exposure over time. Always confirm hook spacing against your specific machine before ordering, since spring mounting hardware varies between reformer brands.",
+      "This is a five-spring, color-coded stainless steel set built for standard reformer and Megaformer-style spring systems: a third-party, universal replacement rather than an official Lagree Fitness part (Lagree does not sell springs directly through Amazon). The color-coding across the five tensions makes it easy to identify the right spring at a glance mid-class, and stainless steel construction resists the corrosion that plain steel springs develop from sweat exposure over time. Always confirm hook spacing against your specific machine before ordering, since spring mounting hardware varies between reformer brands.",
     affiliateUrl: "https://www.amazon.com/dp/B0DC93JC3M?tag=pilatescollective-20",
     tag: "Best Overall",
   },
@@ -58,7 +58,7 @@ const PRODUCTS = [
     price: "$42.74",
     verdict: "Best budget pick",
     description:
-      "A five-pack of alloy resistance springs covering two tension levels, this is the most affordable option here for someone who just needs a working replacement set without paying for a wider tension spread. It's a universal, third-party set for standard spring-based reformers — not an official Lagree Fitness part — so check that the hook geometry matches your machine before buying. A sensible choice for a first replacement or a backup set kept on hand.",
+      "A five-pack of alloy resistance springs covering two tension levels, this is the most affordable option here for someone who just needs a working replacement set without paying for a wider tension spread. It's a universal, third-party set for standard spring-based reformers, not an official Lagree Fitness part, so check that the hook geometry matches your machine before buying. A sensible choice for a first replacement or a backup set kept on hand.",
     affiliateUrl: "https://www.amazon.com/dp/B0DCHWCLQM?tag=pilatescollective-20",
     tag: "Best Value",
   },
@@ -78,7 +78,7 @@ const PRODUCTS = [
     price: "$53.60",
     verdict: "Best heavy-duty single spring",
     description:
-      "Made from heavy-duty music wire steel, this listing is suited to practitioners who need to replace a single high-wear spring rather than buy a full set — a practical option if only one spring in your system has degraded. It's a universal replacement compatible with standard spring/Megaformer-style resistance systems, not an official Lagree Fitness product, so verify fit against your machine's mounting hardware before ordering.",
+      "Made from heavy-duty music wire steel, this listing is suited to practitioners who need to replace a single high-wear spring rather than buy a full set: a practical option if only one spring in your system has degraded. It's a universal replacement compatible with standard spring/Megaformer-style resistance systems, not an official Lagree Fitness product, so verify fit against your machine's mounting hardware before ordering.",
     affiliateUrl: "https://www.amazon.com/dp/B0H5CGSWXK?tag=pilatescollective-20",
     tag: "Best Single-Spring Replacement",
   },
@@ -155,7 +155,7 @@ export default function BestLagreeResistanceSpringsPage() {
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Spring tension is the entire mechanism behind Lagree&apos;s slow eccentric loading, and worn or mismatched springs quietly degrade resistance consistency long before they visibly fail. This guide covers five of the best third-party replacement spring sets for standard reformer and Megaformer-style resistance systems. Important: Lagree Fitness does not sell springs directly on Amazon, so every product below is a generic, universal replacement compatible with standard spring/Megaformer-style systems — not an official Lagree Fitness part. Always check hook spacing and tension rating against your specific machine before ordering.
+              Spring tension is the entire mechanism behind Lagree&apos;s slow eccentric loading, and worn or mismatched springs quietly degrade resistance consistency long before they visibly fail. This guide covers five of the best third-party replacement spring sets for standard reformer and Megaformer-style resistance systems. Important: Lagree Fitness does not sell springs directly on Amazon, so every product below is a generic, universal replacement compatible with standard spring/Megaformer-style systems, not an official Lagree Fitness part. Always check hook spacing and tension rating against your specific machine before ordering.
             </p>
           </div>
         </section>
@@ -222,7 +222,7 @@ export default function BestLagreeResistanceSpringsPage() {
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Megaformer Machine (2026)" excerpt="Lagree M3S, The Micro, M3X, and more compared for home and studio Lagree training." href="/blog/best-megaformer-machine" category="Equipment" readTime="10 min read" date="June 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
-                <ArticleCard title="Lagree vs Pilates: What's the Difference?" excerpt="A complete breakdown of method, equipment, tempo, and goals — what separates Lagree from classical Pilates." href="/blog/lagree-vs-pilates" category="Method Guide" readTime="10 min read" date="March 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
+                <ArticleCard title="Lagree vs Pilates: What's the Difference?" excerpt="A complete breakdown of method, equipment, tempo, and goals: what separates Lagree from classical Pilates." href="/blog/lagree-vs-pilates" category="Method Guide" readTime="10 min read" date="March 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
                 <ArticleCard title="Best Mini Resistance Loops for Pilates (2026): 5 Picks" excerpt="Five real, currently-sold mini resistance loop band sets for Pilates glute and hip activation, Fit Simplify…" href="/blog/best-mini-resistance-loops-for-pilates" category="Guide" readTime="6 min read" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Resistance Bands (2026): 5 Picks Compared" excerpt="Five real, currently-sold resistance band sets for Pilates, Fit Simplify, Synergee, Perform Better, WIKDAY, and…" href="/blog/best-pilates-resistance-bands" category="Guide" readTime="6 min read" imageUrl="/pictures/ahmet-kurt-a1IhqqW8JQE-unsplash.jpg" />
                 <ArticleCard title="Pilates Essentials (2026): Every Must-Have in One List" excerpt="Every Pilates must-have on one page, best, budget and splurge picks, verified in-stock prices, and what the full…" href="/blog/pilates-essentials" category="Guide" readTime="12 min read" imageUrl="/pictures/stitch-pilates-essentials-logbook.png" />

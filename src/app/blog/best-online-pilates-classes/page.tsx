@@ -13,18 +13,18 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Online Pilates Classes (2026): Platforms Compared",
-  description: "The best online Pilates class platforms of 2026 — Pilates Anytime, Alo Moves, Pilatesology, and more compared on content depth, instructors, and price.",
+  description: "The best online Pilates class platforms of 2026: Pilates Anytime, Alo Moves, Pilatesology, and more compared on content depth, instructors, and price.",
   openGraph: {
     title: "Best Online Pilates Classes (2026): Platforms Compared",
-    description: "Pilates Anytime, Alo Moves, and more — the platforms worth a subscription for home and travel practice.",
+    description: "Pilates Anytime, Alo Moves, and more: the platforms worth a subscription for home and travel practice.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-online-pilates-classes",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg", width: 1200, height: 630, alt: "Best Online Pilates Classes — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg", width: 1200, height: 630, alt: "Best Online Pilates Classes: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Best Online Pilates Classes (2026)",
-    description: "The best Pilates streaming platforms compared — Pilates Anytime, Alo Moves, Classical Pilates Online and more.",
+    description: "The best Pilates streaming platforms compared: Pilates Anytime, Alo Moves, Classical Pilates Online and more.",
     images: ["https://pilatescollectiveclub.com/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg"],
   },
   keywords: ["best online pilates classes", "best pilates streaming 2026", "online pilates platform review", "pilates anytime review", "alo moves pilates", "move with nicole pilates", "online reformer pilates classes", "best pilates youtube channel", "pilates online subscription"],
@@ -42,7 +42,7 @@ const PRODUCTS = [
     verdict: "Best for serious classical practitioners",
     tag: "Editor's Pick",
     description:
-      "Pilates Anytime is the Netflix of Pilates — thousands of videos covering classical, contemporary, GYROTONIC, and functional movement. The instructor quality is exceptional; you'll find direct lineage teachers, master instructors, and rising stars. The reformer library is the largest available online, covering the full classical and contemporary repertoire. For practitioners who want to supplement studio work with structured home practice, this is the definitive subscription. Not an Amazon product — this links directly to the platform's own site.",
+      "Pilates Anytime is the Netflix of Pilates: thousands of videos covering classical, contemporary, GYROTONIC, and functional movement. The instructor quality is exceptional; you'll find direct lineage teachers, master instructors, and rising stars. The reformer library is the largest available online, covering the full classical and contemporary repertoire. For practitioners who want to supplement studio work with structured home practice, this is the definitive subscription. Not an Amazon product: this links directly to the platform's own site.",
     affiliateUrl: "https://www.pilatesanytime.com/",
   },
   {
@@ -52,7 +52,7 @@ const PRODUCTS = [
     verdict: "Best for Pilates + yoga combination",
     tag: "Lifestyle Pick",
     description:
-      "Alo Moves — now operating as the ALO Wellness Club — is the practice companion to the brand's apparel — high production quality, excellent Pilates instructors including some of the most-followed practitioners on social media, and a broad library covering mat Pilates, yoga, barre, and meditation. The app experience is smooth, the guided programs are well-structured, and the emphasis on contemporary pilates aligns with the boutique studio aesthetic. If you're equally committed to yoga and Pilates, this is the most coherent single subscription. Not an Amazon product — this links directly to the platform's own site.",
+      "Alo Moves, now operating as the ALO Wellness Club, is the practice companion to the brand's apparel: high production quality, excellent Pilates instructors including some of the most-followed practitioners on social media, and a broad library covering mat Pilates, yoga, barre, and meditation. The app experience is smooth, the guided programs are well-structured, and the emphasis on contemporary pilates aligns with the boutique studio aesthetic. If you're equally committed to yoga and Pilates, this is the most coherent single subscription. Not an Amazon product: this links directly to the platform's own site.",
     affiliateUrl: "https://wellnessclub.aloyoga.com/",
   },
   {
@@ -62,7 +62,7 @@ const PRODUCTS = [
     verdict: "Best for classical method purists",
     tag: "Classical Pick",
     description:
-      "Pilatesology is purpose-built for the lineage practitioner — billed as the most trusted source for classical Pilates online, with the full classical order taught by instructors trained in the New York classical tradition. If you trained under Romana Kryzanowska, Jay Grimes, or their students, this is the streaming library that will make sense to you. The production quality is functional rather than cinematic, and the library is smaller than Pilates Anytime, but the depth and orthodoxy of teaching is unmatched. Not an Amazon product — this links directly to the platform's own site.",
+      "Pilatesology is purpose-built for the lineage practitioner: billed as the most trusted source for classical Pilates online, with the full classical order taught by instructors trained in the New York classical tradition. If you trained under Romana Kryzanowska, Jay Grimes, or their students, this is the streaming library that will make sense to you. The production quality is functional rather than cinematic, and the library is smaller than Pilates Anytime, but the depth and orthodoxy of teaching is unmatched. Not an Amazon product: this links directly to the platform's own site.",
     affiliateUrl: "https://pilatesology.com/",
   },
   {
@@ -72,7 +72,7 @@ const PRODUCTS = [
     verdict: "Best for variety seekers",
     tag: "Variety Pick",
     description:
-      "obé Fitness offers live and on-demand Pilates alongside HIIT, dance, yoga, and strength training. The Pilates content skews contemporary and accessible — good for beginners and intermediate practitioners who want Pilates as part of a broader movement diet. The live class schedule and community aspect are the platform's distinguishing features. Less suitable for serious Pilates purists, excellent for practitioners who want flexibility across modalities. Not an Amazon product — this links directly to the platform's own site.",
+      "obé Fitness offers live and on-demand Pilates alongside HIIT, dance, yoga, and strength training. The Pilates content skews contemporary and accessible, good for beginners and intermediate practitioners who want Pilates as part of a broader movement diet. The live class schedule and community aspect are the platform's distinguishing features. Less suitable for serious Pilates purists, excellent for practitioners who want flexibility across modalities. Not an Amazon product: this links directly to the platform's own site.",
     affiliateUrl: "https://obefitness.com/",
   },
   {
@@ -82,14 +82,14 @@ const PRODUCTS = [
     verdict: "Best free option",
     tag: "Best Value",
     description:
-      "Boho Beautiful is the most popular free Pilates content creator on YouTube, now also offering structured paid programs. The mat Pilates series are genuinely excellent — flows are well-constructed, instruction is clear, and the production quality is cinematic. Not a replacement for a comprehensive studio subscription, but for practitioners in a budget phase or those new to home practice, the free YouTube library alone covers months of effective mat work. Not an Amazon product — this links directly to the platform's own site.",
+      "Boho Beautiful is the most popular free Pilates content creator on YouTube, now also offering structured paid programs. The mat Pilates series are genuinely excellent: flows are well-constructed, instruction is clear, and the production quality is cinematic. Not a replacement for a comprehensive studio subscription, but for practitioners in a budget phase or those new to home practice, the free YouTube library alone covers months of effective mat work. Not an Amazon product: this links directly to the platform's own site.",
     affiliateUrl: "https://bohobeautiful.life/",
   },
 ];
 
 const HOME_KIT = [
   { role: "Mat", name: "Gaiam Premium Yoga Mat (6mm)", price: "$39.99", url: "https://www.amazon.com/dp/B09WF4GPPC?tag=pilatescollective-20", description: "A 6mm mat is the minimum cushioning for rolling and spinal work on a hard floor. Sold by Amazon.com." },
-  { role: "Mat for sensitive knees", name: "Gaiam Essentials Thick Yoga Mat (10mm)", price: "$25.07", url: "https://www.amazon.com/dp/B07H9PZ6MH?tag=pilatescollective-20", description: "10mm of foam with an easy-cinch carry strap — more forgiving for kneeling and rolling, a little less stable for standing work. Sold by Amazon.com." },
+  { role: "Mat for sensitive knees", name: "Gaiam Essentials Thick Yoga Mat (10mm)", price: "$25.07", url: "https://www.amazon.com/dp/B07H9PZ6MH?tag=pilatescollective-20", description: "10mm of foam with an easy-cinch carry strap: more forgiving for kneeling and rolling, a little less stable for standing work. Sold by Amazon.com." },
   { role: "Ring", name: "Gaiam Pilates Ring (15\")", price: "$19.78", url: "https://www.amazon.com/dp/B086HNGNFZ?tag=pilatescollective-20", description: "The magic circle used in most mat classes for inner-thigh, arm and core work. Sold by Amazon.com." },
   { role: "Small ball", name: "ProBody Pilates Ball (9\")", price: "$9.95", url: "https://www.amazon.com/dp/B010TJC4IM?tag=pilatescollective-20", description: "The small, soft ball instructors use under the pelvis, between the knees or behind the back." },
   { role: "Bands", name: "THERABAND Resistance Bands Set (Beginner Kit)", price: "$11.99", url: "https://www.amazon.com/dp/B01A58FHQ8?tag=pilatescollective-20", description: "Three non-latex bands in light-to-medium resistances for footwork and arm series. Sold by Amazon.com." },
@@ -100,7 +100,7 @@ const KIT_TOTAL = [0, 2, 3, 4].reduce((sum, i) => sum + parseFloat(HOME_KIT[i].p
 const FAQS = [
   {
     q: "Can online Pilates classes replace studio classes?",
-    a: "For mat Pilates, online classes are a genuine and effective alternative or supplement to studio work. For reformer Pilates, you still need access to a machine — online reformer classes work only if you own a reformer at home. Serious practitioners typically use online platforms as a supplement to regular studio attendance, not a replacement.",
+    a: "For mat Pilates, online classes are a genuine and effective alternative or supplement to studio work. For reformer Pilates, you still need access to a machine: online reformer classes work only if you own a reformer at home. Serious practitioners typically use online platforms as a supplement to regular studio attendance, not a replacement.",
   },
   {
     q: "What is the best free online Pilates resource?",
@@ -119,7 +119,7 @@ const jsonLd = {
       "@type": "Article",
       "@id": "https://pilatescollectiveclub.com/blog/best-online-pilates-classes/#article",
       "headline": "Best Online Pilates Classes (2026): Subscription Platforms Compared",
-      "description": "The best online Pilates class platforms for home practice — rated for repertoire depth, instructor quality, and price.",
+      "description": "The best online Pilates class platforms for home practice, rated for repertoire depth, instructor quality, and price.",
       "image": {
         "@type": "ImageObject",
         "url": "https://pilatescollectiveclub.com/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg",
@@ -205,10 +205,10 @@ export default function BestOnlinePilatesClassesPage() {
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated October 20, 2026 · 9 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note="Thousands of classes, including the largest reformer library online" url={PRODUCTS[0].affiliateUrl} cta="Visit Site →" />
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*These platforms are not sold through Amazon — links go directly to each service&apos;s own site, not to an affiliate program.</p>
+            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*These platforms are not sold through Amazon: links go directly to each service&apos;s own site, not to an affiliate program.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              The home Pilates streaming market matured significantly between 2020 and 2026. There are now genuinely excellent platforms for every type of practitioner — from the classical lineage purist to the boutique studio devotee who wants their practice to look as good as it feels. This guide compares the five platforms we&apos;ve researched most thoroughly, with honest assessments of what each does well and who it&apos;s actually for.
+              The home Pilates streaming market matured significantly between 2020 and 2026. There are now genuinely excellent platforms for every type of practitioner, from the classical lineage purist to the boutique studio devotee who wants their practice to look as good as it feels. This guide compares the five platforms we&apos;ve researched most thoroughly, with honest assessments of what each does well and who it&apos;s actually for.
             </p>
           </div>
         </section>
@@ -234,7 +234,7 @@ export default function BestOnlinePilatesClassesPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[
                   { heading: "Library depth", body: "The best platforms have hundreds of hours of content at every level. A library of fewer than 500 videos will feel limited within a few months of regular use." },
-                  { heading: "Instructor credentials", body: "Look for platforms featuring certified instructors from recognised training programmes — BASI, Balanced Body, STOTT, Pilates Method Alliance, or direct classical lineage." },
+                  { heading: "Instructor credentials", body: "Look for platforms featuring certified instructors from recognised training programmes: BASI, Balanced Body, STOTT, Pilates Method Alliance, or direct classical lineage." },
                   { heading: "Reformer content", body: "If you own a home reformer, check whether the platform has reformer-specific classes. Many platforms are mat-only or have limited reformer libraries." },
                   { heading: "App quality", body: "The platform needs to work reliably on your TV, tablet, and phone. Poor streaming quality, buggy apps, or difficult download systems significantly affect the practice experience." },
                 ].map((item) => (
@@ -272,7 +272,7 @@ export default function BestOnlinePilatesClassesPage() {
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equip your living room</p>
               <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The kit online Pilates classes assume you have</h2>
               <p className="text-sm leading-relaxed mb-8" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Every platform above teaches mat classes that call for a few small props. A mat, ring, small ball and bands cost about ${KIT_TOTAL.toFixed(2)} together on Amazon — roughly what two to three months of a subscription costs — and unlock far more of each library. Prices checked live on October 4, 2026.
+                Every platform above teaches mat classes that call for a few small props. A mat, ring, small ball and bands cost about ${KIT_TOTAL.toFixed(2)} together on Amazon, roughly what two to three months of a subscription costs, and unlock far more of each library. Prices checked live on October 4, 2026.
               </p>
               <div className="space-y-8">
                 {HOME_KIT.map((k) => (
@@ -306,8 +306,8 @@ export default function BestOnlinePilatesClassesPage() {
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="Best Home Pilates Reformer (2026)" excerpt="The machines worth buying for serious home practice — from budget to professional." href="/blog/best-home-pilates-reformer" category="Equipment" readTime="11 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
-                <ArticleCard title="10 Pilates Exercises for Beginners" excerpt="The foundational exercises to master before progressing — with technique and mistakes." href="/blog/pilates-exercises-for-beginners" category="Beginners" readTime="11 min read" date="May 2026" imageUrl="/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" />
+                <ArticleCard title="Best Home Pilates Reformer (2026)" excerpt="The machines worth buying for serious home practice, from budget to professional." href="/blog/best-home-pilates-reformer" category="Equipment" readTime="11 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
+                <ArticleCard title="10 Pilates Exercises for Beginners" excerpt="The foundational exercises to master before progressing, with technique and mistakes." href="/blog/pilates-exercises-for-beginners" category="Beginners" readTime="11 min read" date="May 2026" imageUrl="/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" />
                 <ArticleCard title="How Often Should You Do Pilates?" excerpt="Research-backed frequency recommendations for beginners, regulars, and advanced practitioners." href="/blog/how-often-should-you-do-pilates" category="Guide" readTime="7 min read" date="June 2026" imageUrl="/pictures/stitch-studio-modern-row.png" />
               </div>
             </div>

@@ -12,18 +12,18 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Ankle Weights (2026): 5 Real Options Compared",
-  description: "Five real, live Amazon ankle weight listings for Pilates — Sportneer, BECOJADDE, nooncrazy, BAGAIL, and GALLIA — compared with verified prices and specs.",
+  description: "Five real, live Amazon ankle weight listings for Pilates (Sportneer, BECOJADDE, nooncrazy, BAGAIL, and GALLIA) compared with verified prices and specs.",
   openGraph: {
     title: "Best Pilates Ankle Weights (2026): 5 Real Options Compared",
     description: "Five real, in-stock Amazon ankle weight listings compared for Pilates use, across every price point.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-ankle-weights",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/jade-stephens-N21356amsyw-unsplash.jpg", width: 1200, height: 630, alt: "Best Pilates Ankle Weights — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/jade-stephens-N21356amsyw-unsplash.jpg", width: 1200, height: 630, alt: "Best Pilates Ankle Weights: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Ankle Weights (2026)",
-    description: "Real, in-stock Amazon listings — compared.",
+    description: "Real, in-stock Amazon listings, compared.",
     images: ["https://pilatescollectiveclub.com/pictures/jade-stephens-N21356amsyw-unsplash.jpg"],
   },
   keywords: ["best pilates ankle weights", "sportneer ankle weights", "becojadde ankle weights", "ankle weights for pilates 2026", "pilates leg weights"],
@@ -50,7 +50,7 @@ const PRODUCTS = [
     price: "$20.69",
     verdict: "Best secure fit for dynamic mat work",
     description:
-      "A lighter, more precisely adjustable option: each 1lb weight is built from individually removable 0.125lb blocks, so you can fine-tune the load in small steps — useful for the low, controlled resistance classical Pilates favors. The non-slip textured back plus adjustable elastic and velcro closure keeps the weight from shifting during dynamic leg circles or side-lying series work.",
+      "A lighter, more precisely adjustable option: each 1lb weight is built from individually removable 0.125lb blocks, so you can fine-tune the load in small steps, useful for the low, controlled resistance classical Pilates favors. The non-slip textured back plus adjustable elastic and velcro closure keeps the weight from shifting during dynamic leg circles or side-lying series work.",
     affiliateUrl: "https://www.amazon.com/dp/B0DBHHVMKD?tag=pilatescollective-20",
     tag: "Best Secure Fit",
   },
@@ -93,11 +93,11 @@ const FAQS = [
   },
   {
     q: "What weight ankle weights should I use for Pilates?",
-    a: "In general, 0.5lb to 1lb per ankle is the commonly recommended range for Pilates — the method works with precision at low resistance, and heavier weights tend to compromise form. The BECOJADDE's 0.125lb-increment adjustability and the BAGAIL's straightforward 1lb pair both suit that range well; the Sportneer's wider 1-5lb per-side range and the GALLIA's 2lb pair suit practitioners who also want heavier conditioning options.",
+    a: "In general, 0.5lb to 1lb per ankle is the commonly recommended range for Pilates: the method works with precision at low resistance, and heavier weights tend to compromise form. The BECOJADDE's 0.125lb-increment adjustability and the BAGAIL's straightforward 1lb pair both suit that range well; the Sportneer's wider 1-5lb per-side range and the GALLIA's 2lb pair suit practitioners who also want heavier conditioning options.",
   },
   {
     q: "Can you wear ankle weights on the reformer?",
-    a: "In general, yes, with care — ankle weights are typically used for mat Pilates and the standing or side-lying series, but not during footwork or exercises where the feet are loaded against the footbar, since spring resistance replaces external loading there.",
+    a: "In general, yes, with care: ankle weights are typically used for mat Pilates and the standing or side-lying series, but not during footwork or exercises where the feet are loaded against the footbar, since spring resistance replaces external loading there.",
   },
   {
     q: "Which of these five should I actually buy?",
@@ -233,7 +233,7 @@ export default function BestPilatesAnkleWeightsPage() {
             <div className="mb-16">
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>How to choose between the five</h2>
               <p className="text-sm leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                All five are built for the light loads Pilates calls for, but they solve slightly different problems — some give a wider total load range, some give finer control at the lighter end, and some trade features for a lower price.
+                All five are built for the light loads Pilates calls for, but they solve slightly different problems: some give a wider total load range, some give finer control at the lighter end, and some trade features for a lower price.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[
@@ -267,9 +267,9 @@ export default function BestPilatesAnkleWeightsPage() {
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="Best Pilates Equipment for Home Practice" excerpt="Everything beyond the reformer — mats, bands, rings, and accessories." href="/blog/best-pilates-equipment-for-home-practice" category="Equipment" readTime="10 min read" date="May 2026" imageUrl="/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Equipment for Home Practice" excerpt="Everything beyond the reformer: mats, bands, rings, and accessories." href="/blog/best-pilates-equipment-for-home-practice" category="Equipment" readTime="10 min read" date="May 2026" imageUrl="/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Resistance Bands (2026)" excerpt="Long bands, loop bands, and fabric options for a serious Pilates context." href="/blog/best-pilates-resistance-bands" category="Equipment" readTime="8 min read" date="May 2026" imageUrl="/pictures/ahmet-kurt-a1IhqqW8JQE-unsplash.jpg" />
-                <ArticleCard title="Best Pilates Grip Socks" excerpt="The essential studio accessory — five options across every price point." href="/blog/best-pilates-grip-socks" category="Equipment" readTime="7 min read" date="May 2026" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Grip Socks" excerpt="The essential studio accessory: five options across every price point." href="/blog/best-pilates-grip-socks" category="Equipment" readTime="7 min read" date="May 2026" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
               </div>
             </div>
 

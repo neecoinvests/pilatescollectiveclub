@@ -6,19 +6,19 @@ import Footer from "@/components/Footer";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Pilates Brand Guides — Activewear & Equipment Reviews",
+  title: "Pilates Brand Guides: Activewear & Equipment Reviews",
   description: "Honest brand guides for every major Pilates activewear and equipment brand. Lululemon, Alo, Varley, Splits59, Manduka, Gymshark, chosen for practitioners, not marketers.",
   keywords: ["pilates activewear brands", "best pilates brand", "lululemon pilates review", "alo yoga pilates review", "varley pilates review", "splits59 pilates", "manduka pilates mat", "gymshark pilates", "sweaty betty pilates", "pilates brand comparison", "best pilates clothes", "pilates equipment brands"],
   openGraph: {
-    title: "Pilates Brand Guides — Activewear & Equipment Reviews",
+    title: "Pilates Brand Guides: Activewear & Equipment Reviews",
     description: "Complete brand guides for Pilates activewear and equipment. Honest reviews for every major brand.",
     type: "website",
     url: "https://pilatescollectiveclub.com/brands",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg", width: 1200, height: 630, alt: "Pilates brand guides — activewear and equipment reviews" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg", width: 1200, height: 630, alt: "Pilates brand guides: activewear and equipment reviews" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Pilates Brand Guides — Activewear & Equipment Reviews",
+    title: "Pilates Brand Guides: Activewear & Equipment Reviews",
     description: "Complete brand guides for Pilates activewear and equipment. Honest reviews for every major brand.",
     images: ["https://pilatescollectiveclub.com/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg"],
   },
@@ -35,7 +35,7 @@ const brandsJsonLd = {
       "@type": "CollectionPage",
       "@id": "https://pilatescollectiveclub.com/brands/#webpage",
       "url": "https://pilatescollectiveclub.com/brands",
-      "name": "Pilates Brand Guides — Activewear & Equipment Reviews",
+      "name": "Pilates Brand Guides: Activewear & Equipment Reviews",
       "description": "Complete brand guides for Pilates activewear and equipment. Honest reviews for every major brand.",
       "isPartOf": { "@id": "https://pilatescollectiveclub.com/#website" },
       "inLanguage": "en-US",
@@ -330,7 +330,7 @@ export default function BrandsPage() {
                     <div className="relative overflow-hidden" style={{ height: "200px" }}>
                       <Image
                         src={brand.imageUrl}
-                        alt={`${brand.name} for Pilates — activewear brand guide`}
+                        alt={`${brand.name} for Pilates: activewear brand guide`}
                         fill
                         className="object-cover transition-transform duration-500 group-hover:scale-105"
                         style={{ filter: "brightness(0.88)" }}
@@ -396,7 +396,7 @@ export default function BrandsPage() {
                 <div>
                   <span className="text-xs font-semibold uppercase tracking-[0.2em] mb-2 block" style={{ color: "#c5a882", fontFamily: "'Montserrat', sans-serif" }}>Comparison Guide</span>
                   <p className="text-xl font-semibold" style={{ color: "#ffffff", fontFamily: "'Playfair Display', serif" }}>All 10 reformer Pilates brands ranked</p>
-                  <p className="text-sm mt-1" style={{ color: "rgba(255,255,255,0.55)", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>Balanced Body, Gratz, Merrithew, Peak, Elina, BASI, Align, AeroPilates, Your Reformer, PersonalHour — compared honestly in one guide.</p>
+                  <p className="text-sm mt-1" style={{ color: "rgba(255,255,255,0.55)", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>Balanced Body, Gratz, Merrithew, Peak, Elina, BASI, Align, AeroPilates, Your Reformer, PersonalHour: compared honestly in one guide.</p>
                 </div>
                 <span className="text-xs font-semibold uppercase tracking-widest whitespace-nowrap" style={{ color: "#c5a882", fontFamily: "'Montserrat', sans-serif" }}>Read guide →</span>
               </div>
@@ -463,7 +463,7 @@ export default function BrandsPage() {
               Looking for the best across brands?
             </h2>
             <p className="text-base mb-10" style={{ color: "#6b6560", fontFamily: "'Montserrat', sans-serif", fontWeight: 300, lineHeight: 1.75 }}>
-              Our equipment roundups test the best products across every brand — so you get the honest winner, not a brand-specific view.
+              Our equipment roundups test the best products across every brand, so you get the honest winner, not a brand-specific view.
             </p>
             <div className="flex gap-4 justify-center flex-wrap">
               <Link

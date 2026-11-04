@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     description: "13 Pilates gifts under $50 for Black Friday 2026: rings, mats, balls, bands, grip socks, rollers, towels and bags, with today's Amazon price to beat.",
     type: "article",
     url: PAGE_URL,
-    images: [{ url: HERO_IMAGE, width: 1200, height: 630, alt: "Pilates props including a ring — Pilates gifts under $50" }],
+    images: [{ url: HERO_IMAGE, width: 1200, height: 630, alt: "Pilates props including a ring: Pilates gifts under $50" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -36,7 +36,7 @@ const GUIDE: DealsGuideProps = {
   "h1Accent": "Black Friday 2026 Picks",
   "readTime": "6 min read",
   "heroImage": "/pictures/stitch-props-cork-ring.png",
-  "heroAlt": "Pilates props including a ring — Pilates gifts under $50",
+  "heroAlt": "Pilates props including a ring: Pilates gifts under $50",
   "intro": "Black Friday is the best moment to cross Pilates gifts off the list: small props and accessories are exactly what goes on sale. Here are 13 useful gifts that all cost under $50 on Amazon today, grouped by budget. Buy early enough for delivery, and check each listing's holiday returns window.",
   "sections": [
     {
@@ -48,7 +48,7 @@ const GUIDE: DealsGuideProps = {
           "asin": "B0DQ53GSP5",
           "name": "Muezna Pilates Grip Socks (6 Pairs)",
           "badge": "Stocking filler",
-          "note": "Six pairs of grip socks — the gift every studio regular runs out of.",
+          "note": "Six pairs of grip socks: the gift every studio regular runs out of.",
           "price": "$7.59"
         },
         {
@@ -126,7 +126,7 @@ const GUIDE: DealsGuideProps = {
     {
       "id": "35-50",
       "title": "$35 to $50",
-      "intro": "The splurge — still under $50.",
+      "intro": "The splurge, still under $50.",
       "items": [
         {
           "asin": "B09WF4GPPC",
@@ -155,7 +155,7 @@ const GUIDE: DealsGuideProps = {
   "watchFor": [
     {
       "h": "Check the 30-day price, not the strikethrough.",
-      "b": "Amazon's 'List' or 'Was' price can be set by the seller. Compare the Black Friday price with the price we recorded here in October — that is the real saving."
+      "b": "Amazon's 'List' or 'Was' price can be set by the seller. Compare the Black Friday price with the price we recorded here in October: that is the real saving."
     },
     {
       "h": "Order early.",
@@ -163,7 +163,7 @@ const GUIDE: DealsGuideProps = {
     },
     {
       "h": "Check the returns window.",
-      "b": "Amazon usually extends holiday returns on many items bought from November — confirm on the product page before you buy."
+      "b": "Amazon usually extends holiday returns on many items bought from November: confirm on the product page before you buy."
     }
   ],
   "faqs": [
@@ -173,7 +173,7 @@ const GUIDE: DealsGuideProps = {
     },
     {
       "q": "What do you buy someone who does reformer Pilates?",
-      "a": "Grip socks are the most useful — most studios require them. A sweat towel and a studio bag are good add-ons."
+      "a": "Grip socks are the most useful: most studios require them. A sweat towel and a studio bag are good add-ons."
     },
     {
       "q": "Will these be cheaper on Black Friday?",

@@ -56,7 +56,7 @@ export default function BlogFilter({ posts, initialCategory = "All" }: { posts: 
         </div>
       </div>
 
-      {/* Featured post — only shown on "All" */}
+      {/* Featured post, only shown on "All" */}
       {active === "All" && featured && (
         <section className="px-6 mb-16">
           <div className="max-w-5xl mx-auto">

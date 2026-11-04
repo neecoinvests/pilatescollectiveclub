@@ -12,7 +12,7 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Studios in Rome (2026)",
-  description: "The best Pilates studios in Rome — classical and reformer studios in Trastevere, Parioli, Porta Pia and Prati. Six curated picks, verified October 2026.",
+  description: "The best Pilates studios in Rome: classical and reformer studios in Trastevere, Parioli, Porta Pia and Prati. Six curated picks, verified October 2026.",
   robots: {
     index: true,
     follow: true,
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Best Pilates Studios in Rome (2026)",
     description:
-      "Six curated Pilates studios in Rome — Prati, Parioli, and Trastevere reformer picks. Verified October 2026.",
+      "Six curated Pilates studios in Rome: Prati, Parioli, and Trastevere reformer picks. Verified October 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/rome",
     images: [
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
         url: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=1200&q=80",
         width: 1200,
         height: 630,
-        alt: "Rome city guide — Pilates Collective Club",
+        alt: "Rome city guide: Pilates Collective Club",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Best Pilates Studios in Rome (2026)",
     description:
-      "Discover the best Pilates studios in Rome — six curated picks with booking tips for 2026.",
+      "Discover the best Pilates studios in Rome: six curated picks with booking tips for 2026.",
     images: ["https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=1200&q=80"],
   },
   alternates: {
@@ -54,7 +54,7 @@ const STUDIOS = [
     neighborhood: "Trastevere",
     priceLevel: "$$$",
     review: "Gaia Pilates Roma is a boutique classical Pilates studio near the Botanical Garden in Trastevere, directed by owner Gaia Faggiani and featured in Gratz Pilates' Featured Studio Series. Programmes are designed around each client's needs and goals.",
-    caveat: "classical teaching is precise and methodical — expect technique, not a high-energy class.",
+    caveat: "classical teaching is precise and methodical: expect technique, not a high-energy class.",
     address: "Largo Cristina di Svezia 17, 00165 Roma",
     bestFor: "Classical Pilates in Trastevere",
     signatureClass: "Classical Private Session",
@@ -66,7 +66,7 @@ const STUDIOS = [
     neighborhood: "Parioli",
     priceLevel: "$$$$",
     review: "Pilates Muse on Via Eleonora Duse is an authentic Pilates studio fully equipped with Gratz apparatus, offering US-certified teaching for all ages in private and semi-private sessions, in English and Italian.",
-    caveat: "private and semi-private only — no large group classes.",
+    caveat: "private and semi-private only: no large group classes.",
     address: "Via Eleonora Duse 4, 00197 Roma",
     bestFor: "Bilingual classical Pilates on Gratz apparatus",
     signatureClass: "Private & Semi-Private",
@@ -78,7 +78,7 @@ const STUDIOS = [
     neighborhood: "Porta Pia · Libia",
     priceLevel: "$$",
     review: "Postural Pilates Academy is a purist's studio with an emphasis on traditional Pilates and reformer work, with locations on Via Collina near Porta Pia and Via Tigrè in the Libia area, and evening classes for people who work.",
-    caveat: "traditional teaching — not a fast, music-driven class.",
+    caveat: "traditional teaching, not a fast, music-driven class.",
     address: "Via Collina 36, 00187 Roma",
     bestFor: "Traditional Pilates and reformer with evening classes",
     signatureClass: "Traditional Reformer",
@@ -90,7 +90,7 @@ const STUDIOS = [
     neighborhood: "Piazza del Popolo · Porta Pia · Appio-Latino",
     priceLevel: "$$$",
     review: "Aletheia is a full-service Pilates studio with three Rome locations, offering matwork, reformer and jumpboard in private or small-group lessons of up to six people, with English available on request.",
-    caveat: "small groups mean limited spots — book ahead.",
+    caveat: "small groups mean limited spots: book ahead.",
     address: "Via del Vantaggio 1C, 00186 Roma",
     bestFor: "Small-group reformer and jumpboard, English on request",
     signatureClass: "Small Group Reformer",
@@ -102,7 +102,7 @@ const STUDIOS = [
     neighborhood: "Trastevere · Prati",
     priceLevel: "$$",
     review: "RYOGA has studios in Trastevere (Via dei Fienaroli) and Prati (Via Durazzo) offering aerial Pilates and functional fitness, with some classes taught in English.",
-    caveat: "aerial and functional formats — not traditional reformer Pilates.",
+    caveat: "aerial and functional formats, not traditional reformer Pilates.",
     address: "Via dei Fienaroli 27–28, 00153 Roma",
     bestFor: "Aerial Pilates in Trastevere and Prati",
     signatureClass: "Aerial Pilates",
@@ -114,11 +114,11 @@ const STUDIOS = [
     neighborhood: "Tuscolano",
     priceLevel: "$$",
     review: "Reform Studio Pilates on Via Flavio Stilicone runs small reformer classes of up to seven people in an 80 m² room with parquet flooring.",
-    caveat: "it is in the Tuscolano area, south-east of the centre — easy by metro but not walkable from the historic centre.",
+    caveat: "it is in the Tuscolano area, south-east of the centre: easy by metro but not walkable from the historic centre.",
     address: "Via Flavio Stilicone 238, 00175 Roma",
     bestFor: "Small reformer classes in south-east Rome",
     signatureClass: "Small Group Reformer",
-    bookingTip: "Classes cap at seven — book a few days ahead.",
+    bookingTip: "Classes cap at seven: book a few days ahead.",
   },
 ];
 
@@ -129,11 +129,11 @@ const BOOKING_TIPS = [
   },
   {
     heading: "August closures are universal",
-    body: "Like Milan and most of Italy, Rome's independent wellness studios close for two to four weeks in August. Larger gyms with Pilates programmes may stay open, but boutique studios will be shut. Plan around this — September sees very high demand as regulars return.",
+    body: "Like Milan and most of Italy, Rome's independent wellness studios close for two to four weeks in August. Larger gyms with Pilates programmes may stay open, but boutique studios will be shut. Plan around this: September sees very high demand as regulars return.",
   },
   {
-    heading: "Private sessions first — everywhere",
-    body: "The majority of Rome's dedicated Pilates studios require at least one private intake session before you join group classes. This isn't just bureaucracy — it's part of how the method works, and studios that skip it generally deliver lower-quality group instruction as a result.",
+    heading: "Private sessions first: everywhere",
+    body: "The majority of Rome's dedicated Pilates studios require at least one private intake session before you join group classes. This isn't just bureaucracy: it's part of how the method works, and studios that skip it generally deliver lower-quality group instruction as a result.",
   },
   {
     heading: "English is increasingly available",
@@ -141,7 +141,7 @@ const BOOKING_TIPS = [
   },
   {
     heading: "Grip socks are non-negotiable",
-    body: "Every studio in Rome requires grip socks. Bring your own — the studio-sold options are typically €14–18 and you can find better value online. A few studios offer loaner pairs for first visits, but don't count on it.",
+    body: "Every studio in Rome requires grip socks. Bring your own: the studio-sold options are typically €14–18 and you can find better value online. A few studios offer loaner pairs for first visits, but don't count on it.",
   },
 ];
 
@@ -149,12 +149,12 @@ const NEIGHBORHOODS = [
   {
     name: "Prati",
     description:
-      "Rome's most coherent modern neighbourhood — wide boulevards, good transport links, and a density of professional services that includes several excellent Pilates studios. Prati is the most practical base for consistent Pilates practice in central Rome, with studios that attract a serious, committed clientele.",
+      "Rome's most coherent modern neighbourhood: wide boulevards, good transport links, and a density of professional services that includes several excellent Pilates studios. Prati is the most practical base for consistent Pilates practice in central Rome, with studios that attract a serious, committed clientele.",
   },
   {
     name: "Parioli",
     description:
-      "The capital's most affluent residential area rewards patient exploration. The studios here operate quietly — minimal marketing, word-of-mouth reputation — but the instruction quality is among the highest in the city. Expect premium pricing and an equally premium experience.",
+      "The capital's most affluent residential area rewards patient exploration. The studios here operate quietly (minimal marketing, word-of-mouth reputation) but the instruction quality is among the highest in the city. Expect premium pricing and an equally premium experience.",
   },
   {
     name: "Trastevere",
@@ -183,7 +183,7 @@ const GEAR = [
   },
   {
     name: "Magic Circle",
-    note: "Our pick: Balanced Body Ultra-Fit Circle (15-inch). Many studios incorporate the magic circle — worth owning for home reinforcement work.",
+    note: "Our pick: Balanced Body Ultra-Fit Circle (15-inch). Many studios incorporate the magic circle: worth owning for home reinforcement work.",
     price: "$35.00",
     url: "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20",
   },
@@ -201,7 +201,7 @@ const GEAR = [
   },
   {
     name: "Home Pilates Reformer",
-    note: "Our pick: PAETA Wooden Foldable Reformer. A home reformer extends your studio practice — AeroPilates and Align entry models deliver a genuine full-body session.",
+    note: "Our pick: PAETA Wooden Foldable Reformer. A home reformer extends your studio practice: AeroPilates and Align entry models deliver a genuine full-body session.",
     price: "$699.98",
     url: "https://www.amazon.com/dp/B0D7M7JNFV?tag=pilatescollective-20",
   },
@@ -218,7 +218,7 @@ const RELATED_CITIES = [
 const FURTHER_READING = [
   {
     title: "Best Pilates Equipment for Home Practice",
-    excerpt: "Everything you need between studio sessions — from a quality mat to resistance bands.",
+    excerpt: "Everything you need between studio sessions, from a quality mat to resistance bands.",
     href: "/blog/best-pilates-equipment-for-home-practice",
     category: "Equipment",
     readTime: "10 min read",
@@ -249,7 +249,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Best Pilates Studios in Rome (2026)",
-      "description": "The best Pilates studios in Rome — classical and reformer studios in Trastevere, Parioli, Porta Pia and Prati. Six curated picks, verified October 2026.",
+      "description": "The best Pilates studios in Rome: classical and reformer studios in Trastevere, Parioli, Porta Pia and Prati. Six curated picks, verified October 2026.",
       "url": "https://pilatescollectiveclub.com/cities/rome",
       "datePublished": "2026-06-28",
       "dateModified": "2026-10-20",
@@ -402,7 +402,7 @@ export default function RomePage() {
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What to bring to your first class</h2>
             <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-              Grip socks are required at most reformer studios in Rome. These are our recommended picks — all available on Amazon.{" "}
+              Grip socks are required at most reformer studios in Rome. These are our recommended picks: all available on Amazon.{" "}
               <Link href="/affiliate-disclosure" style={{ color: "#8b4a31", textDecoration: "underline", fontFamily: "'Montserrat', sans-serif", fontSize: "inherit" }}>Affiliate disclosure.</Link>
             </p>
             <QuickPicks className="mb-0" picks={GEAR.map((g) => ({ name: g.note.match(/Our pick: ([^.]+(?:\.\d+[^.]*)?)\./)?.[1] ?? g.name, price: g.price, url: g.url, note: g.name }))} />

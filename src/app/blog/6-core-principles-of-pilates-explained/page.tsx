@@ -13,18 +13,18 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "The 6 Core Principles of Pilates Explained",
-  description: "Centring, concentration, control, precision, breath, flow — the six principles that define the Pilates method explained clearly, with practical cues for each.",
+  description: "Centring, concentration, control, precision, breath, flow: the six principles that define the Pilates method explained clearly, with practical cues for each.",
   openGraph: {
     title: "The 6 Core Principles of Pilates, Explained",
-    description: "Concentration, control, centering, precision, breath, and flow — the six principles that define the Pilates method and how to apply them in practice.",
+    description: "Concentration, control, centering, precision, breath, and flow: the six principles that define the Pilates method and how to apply them in practice.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/6-core-principles-of-pilates-explained",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg", width: 1200, height: 630, alt: "Pilates core principles — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg", width: 1200, height: 630, alt: "Pilates core principles: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "The 6 Core Principles of Pilates, Explained",
-    description: "Concentration, control, centering, precision, breath, and flow — the six principles that define the Pilates method.",
+    description: "Concentration, control, centering, precision, breath, and flow: the six principles that define the Pilates method.",
     images: ["https://pilatescollectiveclub.com/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg"],
   },
   keywords: ["pilates principles", "6 principles of pilates", "pilates centring", "pilates control", "pilates concentration", "pilates breath", "pilates precision", "pilates flow", "contrology principles", "joseph pilates principles", "what are the principles of pilates", "pilates method explained"],
@@ -38,32 +38,32 @@ const PRINCIPLES = [
   {
     number: "01",
     name: "Concentration",
-    body: "Joseph Pilates insisted that the mind must be fully engaged during every exercise. Unlike many forms of exercise that can be performed mechanically while the attention is elsewhere, Pilates requires continuous mental presence. This isn't incidental — it's the mechanism through which the nervous system learns new movement patterns. Concentration is what separates Pilates from calisthenics.",
+    body: "Joseph Pilates insisted that the mind must be fully engaged during every exercise. Unlike many forms of exercise that can be performed mechanically while the attention is elsewhere, Pilates requires continuous mental presence. This isn't incidental: it's the mechanism through which the nervous system learns new movement patterns. Concentration is what separates Pilates from calisthenics.",
   },
   {
     number: "02",
     name: "Control",
-    body: "The original name of Pilates was 'Contrology' — the study of control. Every movement is performed with deliberate muscular control rather than momentum, gravity, or habit. This is why Pilates exercises are typically slow: speed allows sloppiness; control demands precision. When you control a movement, you train the muscle fibres, connective tissue, and neural pathways simultaneously.",
+    body: "The original name of Pilates was 'Contrology'the study of control. Every movement is performed with deliberate muscular control rather than momentum, gravity, or habit. This is why Pilates exercises are typically slow: speed allows sloppiness; control demands precision. When you control a movement, you train the muscle fibres, connective tissue, and neural pathways simultaneously.",
   },
   {
     number: "03",
     name: "Centering",
-    body: "Pilates identified the centre of the body — the area between the lower ribs and the hip bones, encompassing the deep abdominals, pelvic floor, and spinal stabilisers — as the origin of all movement. He called it the 'powerhouse.' Every exercise, on the mat or the reformer, initiates from and returns to this centre. Developing awareness of and strength in the powerhouse is the defining physical goal of the method.",
+    body: "Pilates identified the centre of the body (the area between the lower ribs and the hip bones, encompassing the deep abdominals, pelvic floor, and spinal stabilisers) as the origin of all movement. He called it the 'powerhouse.' Every exercise, on the mat or the reformer, initiates from and returns to this centre. Developing awareness of and strength in the powerhouse is the defining physical goal of the method.",
   },
   {
     number: "04",
     name: "Precision",
-    body: "In Pilates, how you do something matters more than how many times you do it. A single precisely executed leg circle develops more than ten sloppy ones. Precision means performing each movement exactly as it is designed — correct alignment, correct breath, correct range of motion. This is why the method scales beautifully: a beginner's precise ten repetitions and an advanced practitioner's precise ten repetitions produce proportionally equivalent results.",
+    body: "In Pilates, how you do something matters more than how many times you do it. A single precisely executed leg circle develops more than ten sloppy ones. Precision means performing each movement exactly as it is designed: correct alignment, correct breath, correct range of motion. This is why the method scales beautifully: a beginner's precise ten repetitions and an advanced practitioner's precise ten repetitions produce proportionally equivalent results.",
   },
   {
     number: "05",
     name: "Breath",
-    body: "Joseph Pilates considered the breath the most fundamental aspect of the method. His system uses lateral thoracic breathing — expanding the ribcage sideways and to the back — to oxygenate the blood while maintaining core engagement. Inhaling typically prepares for or accompanies movement; exhaling typically accompanies exertion. Learning to match breath to movement transforms the experience of Pilates from exercise to something closer to meditation in motion.",
+    body: "Joseph Pilates considered the breath the most fundamental aspect of the method. His system uses lateral thoracic breathing, expanding the ribcage sideways and to the back, to oxygenate the blood while maintaining core engagement. Inhaling typically prepares for or accompanies movement; exhaling typically accompanies exertion. Learning to match breath to movement transforms the experience of Pilates from exercise to something closer to meditation in motion.",
   },
   {
     number: "06",
     name: "Flow",
-    body: "The exercises of the Pilates method are not performed in isolation — they flow into one another through smooth, efficient transitions. Flow is the integration of all five preceding principles: when concentration, control, centering, precision, and breath are working together, movement becomes fluid. Flow is the quality that distinguishes a practitioner who has truly absorbed the method from one who is merely executing exercises.",
+    body: "The exercises of the Pilates method are not performed in isolation: they flow into one another through smooth, efficient transitions. Flow is the integration of all five preceding principles: when concentration, control, centering, precision, and breath are working together, movement becomes fluid. Flow is the quality that distinguishes a practitioner who has truly absorbed the method from one who is merely executing exercises.",
   },
 ];
 
@@ -94,7 +94,7 @@ const jsonLd = {
       "@type": "Article",
       "@id": "https://pilatescollectiveclub.com/blog/6-core-principles-of-pilates-explained/#article",
       "headline": "6 Core Principles of Pilates Explained",
-      "description": "Breath, concentration, control, centring, precision, flow — understanding the method's foundations.",
+      "description": "Breath, concentration, control, centring, precision, flow: understanding the method's foundations.",
       "image": {
         "@type": "ImageObject",
         "url": "https://pilatescollectiveclub.com/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg",
@@ -160,10 +160,10 @@ const jsonLd = {
 };
 const PRODUCTS = [
   { name: "Manduka PRO Pilates Mat", description: "The six principles are most fully expressed on a stable, consistent surface. The PRO's density and grip allow the concentration and precision that the method demands without distraction.", price: "$144.00", affiliateUrl: "https://www.amazon.com/dp/B0066T7I54?tag=pilatescollective-20" },
-  { name: "Balanced Body Magic Circle", description: "Designed specifically to teach the activation connections that embody the Pilates principles — centring, control, and integration of the whole body in every exercise.", price: "$35.00", affiliateUrl: "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20" },
-  { name: "OPTP Foam Roller (36-inch)", description: "Spinal articulation — one of the most central expressions of the Pilates principles — is developed through consistent thoracic mobilisation. The foam roller supports this foundational work.", price: "$62.99", affiliateUrl: "https://www.amazon.com/dp/B002C9EX14?tag=pilatescollective-20" },
+  { name: "Balanced Body Magic Circle", description: "Designed specifically to teach the activation connections that embody the Pilates principles: centring, control, and integration of the whole body in every exercise.", price: "$35.00", affiliateUrl: "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20" },
+  { name: "OPTP Foam Roller (36-inch)", description: "Spinal articulation, one of the most central expressions of the Pilates principles, is developed through consistent thoracic mobilisation. The foam roller supports this foundational work.", price: "$62.99", affiliateUrl: "https://www.amazon.com/dp/B002C9EX14?tag=pilatescollective-20" },
   { name: "TheraBand Resistance Bands Set", description: "Home practice resistance work that applies the six principles outside the studio. Using bands with full concentration and control develops the somatic intelligence that Pilates is designed to build.", price: "$11.99", affiliateUrl: "https://www.amazon.com/dp/B01A58FHQ8?tag=pilatescollective-20" },
-  { name: "Return to Life Through Contrology", description: "The original text by Joseph Pilates — the primary source for understanding what the principles meant in their original context. Essential reading for any serious practitioner.", price: "$17.90", affiliateUrl: "https://www.amazon.com/dp/1928564909?tag=pilatescollective-20" },
+  { name: "Return to Life Through Contrology", description: "The original text by Joseph Pilates: the primary source for understanding what the principles meant in their original context. Essential reading for any serious practitioner.", price: "$17.90", affiliateUrl: "https://www.amazon.com/dp/1928564909?tag=pilatescollective-20" },
 ];
 
 const QP_NOTES = ["A stable, consistent surface for mat practice", "Teaches centring, control and integration", "Spinal articulation and thoracic mobility work", "Resistance work to practise the principles at home", "Joseph Pilates' original text"];
@@ -201,7 +201,7 @@ export default function SixPrinciplesPage() {
             <article>
               <div className="mb-10 rounded-xl p-6" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217, 194, 186, 0.3)" }}>
                 <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                  <strong style={{ color: "#1b1c1c" }}>A note on attribution:</strong> The six principles below — concentration, control, centering, precision, breath, and flow — were codified by Joseph Pilates&apos; students and successors as a framework for teaching the method. Pilates himself wrote about these ideas throughout his work, particularly in his books <em>Your Health</em> (1934) and <em>Return to Life Through Contrology</em> (1945).
+                  <strong style={{ color: "#1b1c1c" }}>A note on attribution:</strong> The six principles below (concentration, control, centering, precision, breath, and flow) were codified by Joseph Pilates&apos; students and successors as a framework for teaching the method. Pilates himself wrote about these ideas throughout his work, particularly in his books <em>Your Health</em> (1934) and <em>Return to Life Through Contrology</em> (1945).
                 </p>
               </div>
 
@@ -222,13 +222,13 @@ export default function SixPrinciplesPage() {
               <div className="rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217, 194, 186, 0.3)" }}>
                 <h2 className="text-xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>How to use the principles in your practice</h2>
                 <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                  Don&apos;t try to consciously apply all six principles simultaneously in your early practice — that way lies paralysis. Instead, treat them as a hierarchy to work through over time.
+                  Don&apos;t try to consciously apply all six principles simultaneously in your early practice: that way lies paralysis. Instead, treat them as a hierarchy to work through over time.
                 </p>
                 <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                   In your first few months, focus on centering and breath. These are the prerequisites for everything else. Once you can reliably find and maintain your powerhouse, and coordinate breath with movement, concentration and control will begin to emerge naturally.
                 </p>
                 <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                  Precision and flow are the last to arrive — and when they do, the experience of Pilates changes completely. You&apos;ll stop counting repetitions and start inhabiting them. That&apos;s when the practice becomes genuinely transformative.
+                  Precision and flow are the last to arrive, and when they do, the experience of Pilates changes completely. You&apos;ll stop counting repetitions and start inhabiting them. That&apos;s when the practice becomes genuinely transformative.
                 </p>
               </div>
             </article>

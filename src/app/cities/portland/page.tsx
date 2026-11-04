@@ -12,20 +12,20 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Studios in Portland, OR (2026)",
-  description: "The best Pilates studios in Portland — independent studios in NE Portland, the Pearl and Division, plus Lake Oswego and the west side. Six verified picks, 2026.",
+  description: "The best Pilates studios in Portland: independent studios in NE Portland, the Pearl and Division, plus Lake Oswego and the west side. Six verified picks, 2026.",
   robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
   keywords: ["pilates portland", "reformer pilates portland", "best pilates studios portland or", "pilates studio portland", "pilates classes portland", "pearl district pilates", "nw portland pilates", "pilates oregon", "best reformer pilates portland", "pilates lake oswego"],
   openGraph: {
     title: "Best Pilates Studios in Portland, OR (2026)",
-    description: "Six curated Pilates studios in Portland — NE, Pearl, Division and west-side picks. Verified 2026.",
+    description: "Six curated Pilates studios in Portland: NE, Pearl, Division and west-side picks. Verified 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/portland",
-    images: [{ url: "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=1200&q=80", width: 1200, height: 630, alt: "Portland Oregon city guide — Pilates Collective Club" }],
+    images: [{ url: "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=1200&q=80", width: 1200, height: 630, alt: "Portland Oregon city guide: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Studios in Portland (2026)",
-    description: "Six curated Pilates studios in Portland — verified picks for every level.",
+    description: "Six curated Pilates studios in Portland: verified picks for every level.",
     images: ["https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=1200&q=80"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/cities/portland" },
@@ -38,7 +38,7 @@ const STUDIOS = [
     neighborhood: "Northeast Portland (Irvington / Sabin)",
     priceLevel: "$$$",
     review: "Heartwood Pilates is an independent studio on NE 23rd Avenue offering personalised Pilates instruction in a welcoming, community-focused setting.",
-    caveat: "limited published detail about class formats — take an intro class first.",
+    caveat: "limited published detail about class formats: take an intro class first.",
     address: "3024 NE 23rd Ave, Portland, OR 97212",
     bestFor: "Personal, community-focused Pilates in NE Portland",
     signatureClass: "Reformer Pilates",
@@ -49,9 +49,9 @@ const STUDIOS = [
     name: "Pearl Pilates Studio",
     neighborhood: "Pearl District",
     priceLevel: "$$$",
-    review: "Pearl Pilates Studio is an independent studio in the Pearl District offering reformer and mat Pilates for all fitness levels — a convenient choice for Pearl, Northwest and downtown residents.",
-    caveat: "we could not confirm the exact street address independently — check the studio's website before visiting.",
-    address: "—",
+    review: "Pearl Pilates Studio is an independent studio in the Pearl District offering reformer and mat Pilates for all fitness levels: a convenient choice for Pearl, Northwest and downtown residents.",
+    caveat: "we could not confirm the exact street address independently: check the studio's website before visiting.",
+    address: "",
     bestFor: "Reformer and mat in the Pearl",
     signatureClass: "Reformer Pilates",
     bookingTip: "Book lunchtime and after-work classes ahead.",
@@ -62,8 +62,8 @@ const STUDIOS = [
     neighborhood: "Alberta Arts District",
     priceLevel: "$$$",
     review: "Johnna Buchanan Pilates is an independent studio in the Alberta Arts District offering personalised instruction in mat and reformer Pilates.",
-    caveat: "a smaller owner-led studio — fewer class times, more attention.",
-    address: "—",
+    caveat: "a smaller owner-led studio: fewer class times, more attention.",
+    address: "",
     bestFor: "Personalised mat and reformer in NE Portland",
     signatureClass: "Private Reformer",
     bookingTip: "Contact the studio to arrange a first session.",
@@ -74,7 +74,7 @@ const STUDIOS = [
     neighborhood: "Central Eastside / Division",
     priceLevel: "$$",
     review: "Studio 45 is a Pilates studio on SE Division Street, close to the Central Eastside and Ladd's Addition.",
-    caveat: "limited published detail about class formats — try a single class first.",
+    caveat: "limited published detail about class formats: try a single class first.",
     address: "1100 SE Division St, #110, Portland, OR 97202",
     bestFor: "Pilates on the inner east side",
     signatureClass: "Reformer Pilates",
@@ -82,11 +82,11 @@ const STUDIOS = [
   },
   {
     number: "05",
-    name: "IM=X Pilates — Lake Oswego",
+    name: "IM=X Pilates Lake Oswego",
     neighborhood: "Lake Oswego",
     priceLevel: "$$$",
     review: "IM=X Pilates pairs classical reformer methodology with the IM=X system, which adds functional strength and flexibility work. The Lake Oswego studio has close to 5,800 reviews on ClassPass with consistently high ratings.",
-    caveat: "Lake Oswego is a drive from central Portland — best for south-side residents.",
+    caveat: "Lake Oswego is a drive from central Portland: best for south-side residents.",
     address: "436 1st St, Lake Oswego, OR 97034",
     bestFor: "Reformer plus IM=X functional training",
     signatureClass: "IM=X Reformer",
@@ -98,7 +98,7 @@ const STUDIOS = [
     neighborhood: "West Hills / Cedar Hills",
     priceLevel: "$$",
     review: "Club Pilates West Hills on SW Barnes Road serves Portland's west side with the brand's levelled group reformer system.",
-    caveat: "a franchise format — consistent, but less personalised than an independent studio.",
+    caveat: "a franchise format: consistent, but less personalised than an independent studio.",
     address: "7515 SW Barnes Rd, Ste 102, Portland, OR 97225",
     bestFor: "West-side residents wanting structured reformer classes",
     signatureClass: "Reformer Flow",
@@ -107,9 +107,9 @@ const STUDIOS = [
 ];
 
 const BOOKING_TIPS = [
-  { heading: "Expect to pay $25–52 per class", body: "Portland's Pilates market is moderately priced by West Coast standards — meaningfully cheaper than San Francisco or LA but sharing the Pacific Northwest's generally higher quality baseline. Drop-in rates run from $25 at community studios to $52 at Pearl District premium practices. Monthly memberships bring per-class costs to $18–28." },
-  { heading: "Portland rewards neighbourhood loyalty", body: "Portland's distinct neighbourhood identities make studio choice a community decision as much as a fitness one. Practitioners who choose studios within their neighbourhood — rather than commuting across the city — consistently build more durable practice habits and develop stronger relationships with instructors." },
-  { heading: "Rain doesn't stop Portland practitioners", body: "Portland's nine months of overcast, drizzly weather is a notorious deterrent to outdoor activity — and one of the best arguments for a consistent indoor practice. Studios see strong attendance year-round, and the rainy season actually increases demand for indoor movement options. Book standing slots before October." },
+  { heading: "Expect to pay $25–52 per class", body: "Portland's Pilates market is moderately priced by West Coast standards: meaningfully cheaper than San Francisco or LA but sharing the Pacific Northwest's generally higher quality baseline. Drop-in rates run from $25 at community studios to $52 at Pearl District premium practices. Monthly memberships bring per-class costs to $18–28." },
+  { heading: "Portland rewards neighbourhood loyalty", body: "Portland's distinct neighbourhood identities make studio choice a community decision as much as a fitness one. Practitioners who choose studios within their neighbourhood, rather than commuting across the city, consistently build more durable practice habits and develop stronger relationships with instructors." },
+  { heading: "Rain doesn't stop Portland practitioners", body: "Portland's nine months of overcast, drizzly weather is a notorious deterrent to outdoor activity, and one of the best arguments for a consistent indoor practice. Studios see strong attendance year-round, and the rainy season actually increases demand for indoor movement options. Book standing slots before October." },
   { heading: "The west side is a separate consideration", body: "Beaverton, Hillsboro, and the broader west-side tech corridor are not well-connected to central Portland studios by public transport. West-side practitioners are better served by the strong studio offerings in Beaverton and Lake Oswego than by crossing the Tualatin Mountains for a central-city session." },
   { heading: "Grip socks are required at every reformer studio", body: "Universal across Portland's reformer market. Buying quality grip socks from Amazon before your first class is a consistent saving over front-desk retail prices across the city." },
 ];
@@ -117,7 +117,7 @@ const BOOKING_TIPS = [
 const NEIGHBORHOODS = [
   { name: "Pearl District & Northwest", description: "Portland's most design-forward neighbourhood houses the city's premier classical studios alongside several well-run contemporary boutiques. Central, walkable, and served by the MAX light rail from most parts of the city." },
   { name: "NE Portland (Alberta, Mississippi, Irvington)", description: "Northeast Portland's independent commercial streets support some of the city's best community-oriented studios. Teaching quality is high, pricing is fair, and the neighbourhood atmosphere is among the warmest in Portland's studio market." },
-  { name: "SE Portland (Division, Hawthorne, Sellwood)", description: "Southeast Portland's creative residential neighbourhoods have developed a strong independent studio culture over the past decade — a range of practices that value community, authenticity, and accessible pricing alongside serious instruction." },
+  { name: "SE Portland (Division, Hawthorne, Sellwood)", description: "Southeast Portland's creative residential neighbourhoods have developed a strong independent studio culture over the past decade: a range of practices that value community, authenticity, and accessible pricing alongside serious instruction." },
   { name: "Lake Oswego & Beaverton / West Side", description: "The metro area's southern and western suburbs each have their own strong studio offerings. Lake Oswego serves the affluent south metro with premium private and semi-private practices; Beaverton serves the west-side tech corridor with accessible, schedule-dense group reformer." },
 ];
 
@@ -148,16 +148,16 @@ const GEAR = [
   },
   {
     name: "Foam Roller",
-    note: "Our pick: OPTP PRO-Roller Foam Roller (36-inch). Practical for pre- and post-class fascial release — especially useful for Portland's cycling and hiking community.",
+    note: "Our pick: OPTP PRO-Roller Foam Roller (36-inch). Practical for pre- and post-class fascial release, especially useful for Portland's cycling and hiking community.",
     price: "$62.99",
     url: "https://www.amazon.com/dp/B002C9EX14?tag=pilatescollective-20",
   },
 ];
 
 const HOME_REFORMERS = [
-  { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work — three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
+  { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work: three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
   { tag: "Mid-Range Pick", name: "AeroPilates Pro XP 557", note: "AeroPilates' top-of-the-range home reformer, a step up for practitioners training several times a week.", price: "$1,329.99", url: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20" },
-  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order — an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
+  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
 ];
 
 const RELATED_CITIES = [
@@ -173,7 +173,7 @@ const FURTHER_READING = [
 ];
 
 const CITY_FAQS = [
-  { q: "What are the best Pilates studios in Portland?", a: "Our 6 curated picks are Heartwood Pilates (Northeast Portland, Irvington / Sabin), Pearl Pilates Studio (Pearl District), Johnna Buchanan Pilates (Alberta Arts District), Studio 45 (Central Eastside / Division), IM=X Pilates — Lake Oswego (Lake Oswego) and Club Pilates West Hills (West Hills / Cedar Hills). Each listing above covers what the studio is best for, its signature class and a booking tip." },
+  { q: "What are the best Pilates studios in Portland?", a: "Our 6 curated picks are Heartwood Pilates (Northeast Portland, Irvington / Sabin), Pearl Pilates Studio (Pearl District), Johnna Buchanan Pilates (Alberta Arts District), Studio 45 (Central Eastside / Division), IM=X Pilates: Lake Oswego (Lake Oswego) and Club Pilates West Hills (West Hills / Cedar Hills). Each listing above covers what the studio is best for, its signature class and a booking tip." },
   { q: "Which Portland neighbourhoods are best for Pilates?", a: "This guide covers Pearl District & Northwest, NE Portland (Alberta, Mississippi, Irvington), SE Portland (Division, Hawthorne, Sellwood) and Lake Oswego & Beaverton / West Side. Pearl District & Northwest: Portland's most design-forward neighbourhood houses the city's premier classical studios alongside several well-run contemporary boutiques." },
   { q: "What should I know about booking Pilates classes in Portland?", a: "Expect to pay $25–52 per class. Portland's Pilates market is moderately priced by West Coast standards, meaningfully cheaper than San Francisco or LA but sharing the Pacific Northwest's generally higher quality baseline." },
   { q: "What should I bring to a Pilates class in Portland?", a: "Grip socks are required at most reformer studios. Our gear list for Portland covers Pilates grip socks, Pilates mat, resistance bands set, magic circle and foam roller." },
@@ -217,7 +217,7 @@ export default function PortlandPage() {
             <p className="text-sm mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated October 2026 · 9 min read</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Portland&apos;s Pilates scene is shaped by the city&apos;s unusually strong movement culture — a legacy of the Pacific Northwest&apos;s outdoor activity tradition, its dance and performing arts community, and a population that has always taken the quality of its physical life seriously. The studio landscape is more decentralised than most US cities: strong independent practices are distributed across Portland&apos;s distinct neighbourhoods rather than concentrated in a single premium district. From the Pearl District&apos;s classical studios to Southeast Portland&apos;s community-oriented practices, the city offers genuine range. This guide covers the six studios worth your time, verified October 2026.
+              Portland&apos;s Pilates scene is shaped by the city&apos;s unusually strong movement culture: a legacy of the Pacific Northwest&apos;s outdoor activity tradition, its dance and performing arts community, and a population that has always taken the quality of its physical life seriously. The studio landscape is more decentralised than most US cities: strong independent practices are distributed across Portland&apos;s distinct neighbourhoods rather than concentrated in a single premium district. From the Pearl District&apos;s classical studios to Southeast Portland&apos;s community-oriented practices, the city offers genuine range. This guide covers the six studios worth your time, verified October 2026.
             </p>
           </div>
         </section>
@@ -292,7 +292,7 @@ export default function PortlandPage() {
             <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Prefer To Train At Home?</p>
             <h2 className="text-3xl font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Not convinced? How about Pilates at home?</h2>
             <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-              Studio pricing or scheduling not for you right now? A home reformer gets you a genuine Pilates session on your own time. Here's where to start — from a $299 entry point to the machine serious practitioners buy once.{" "}
+              Studio pricing or scheduling not for you right now? A home reformer gets you a genuine Pilates session on your own time. Here's where to start, from a $299 entry point to the machine serious practitioners buy once.{" "}
               <Link href="/blog/best-home-pilates-reformer" style={{ color: "#8b4a31", textDecoration: "underline", fontFamily: "'Montserrat', sans-serif", fontSize: "inherit" }}>See the full reformer guide.</Link>
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
@@ -344,7 +344,7 @@ export default function PortlandPage() {
           </div>
         </section>
 
-        <CTASection title="Find Pilates near you" subtitle="Use our AI Finder to discover studios in any city — coming soon." showSearch searchPlaceholder="Ask: best reformer Pilates in Portland…" />
+        <CTASection title="Find Pilates near you" subtitle="Use our AI Finder to discover studios in any city: coming soon." showSearch searchPlaceholder="Ask: best reformer Pilates in Portland…" />
       </main>
       <Footer />
     </>

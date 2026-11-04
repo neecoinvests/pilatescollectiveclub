@@ -12,7 +12,7 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Floor Mat for Spin Bike (2026): Top Picks Compared",
-  description: "The best floor mats for spin bikes and indoor cycling — compared for thickness, sweat absorption, bike stability, and floor protection on hardwood, tile, and carpet.",
+  description: "The best floor mats for spin bikes and indoor cycling: compared for thickness, sweat absorption, bike stability, and floor protection on hardwood, tile, and carpet.",
   keywords: ["best floor mat for spin bike", "exercise bike floor mat 2026", "indoor cycling mat hardwood", "peloton floor mat", "sweat mat spin bike", "bike mat for home gym", "equipment floor protector cycling"],
   openGraph: {
     title: "Best Floor Mat for Spin Bike (2026)",
@@ -38,7 +38,7 @@ const PRODUCTS = [
     price: "$28.98",
     verdict: "Best overall floor mat",
     description:
-      "Cycleclub US builds this mat at 6mm thick — substantial enough to protect hardwood floors from the weight and vibration of a spin bike without the bulk of a heavy-duty rubber mat. At under $30, it's a well-rounded pick for most home setups.",
+      "Cycleclub US builds this mat at 6mm thick: substantial enough to protect hardwood floors from the weight and vibration of a spin bike without the bulk of a heavy-duty rubber mat. At under $30, it's a well-rounded pick for most home setups.",
     affiliateUrl: "https://www.amazon.com/dp/B0BHQH8D9G?tag=pilatescollective-20",
     tag: "Best Overall",
   },
@@ -127,7 +127,7 @@ const jsonLd = {
       "mainEntity": [
         { "@type": "Question", "name": "Do I really need a mat under my spin bike?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, for three reasons: floor protection (spin bikes are heavy and vibrate, scratching or denting hardwood over time), sweat management (a high-output session produces substantial drip that a mat catches before it reaches the floor), and bike stability (a non-slip mat prevents the bike from sliding on smooth floors during out-of-saddle efforts)." } },
         { "@type": "Question", "name": "What size mat do I need for a Peloton or spin bike?", "acceptedAnswer": { "@type": "Answer", "text": "Most full-size connected spin bikes, including Peloton, NordicTrack, and Schwinn IC4, have footprints in the range of 48 by 24 inches. A mat of at least 48 by 24 inches covers the machine, but a larger 60 by 24-36 inch mat also covers the front splash zone where most sweat lands during standing climbs, which is worth the slightly larger footprint." } },
-        { "@type": "Question", "name": "Can I use a yoga mat under a spin bike instead of a dedicated mat?", "acceptedAnswer": { "@type": "Answer", "text": "A yoga mat is too thin and too narrow — it will compress and shift under bike weight and vibration, providing inadequate floor protection and poor stability. Dedicated equipment mats are thicker (3/16 to 3/8 inch), wider, and made from PVC or rubber compounds that resist compression under sustained heavy loads." } },
+        { "@type": "Question", "name": "Can I use a yoga mat under a spin bike instead of a dedicated mat?", "acceptedAnswer": { "@type": "Answer", "text": "A yoga mat is too thin and too narrow: it will compress and shift under bike weight and vibration, providing inadequate floor protection and poor stability. Dedicated equipment mats are thicker (3/16 to 3/8 inch), wider, and made from PVC or rubber compounds that resist compression under sustained heavy loads." } },
       ],
     },
   ],
@@ -206,9 +206,9 @@ export default function BestFloorMatSpinBikePage() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "Do I really need a mat under my spin bike?", a: "Yes — spin bikes are heavy and vibrate, potentially scratching or denting hardwood. A high-output session also produces substantial sweat drip, and a non-slip mat prevents the bike from sliding on smooth floors during out-of-saddle efforts." },
+                  { q: "Do I really need a mat under my spin bike?", a: "Yes: spin bikes are heavy and vibrate, potentially scratching or denting hardwood. A high-output session also produces substantial sweat drip, and a non-slip mat prevents the bike from sliding on smooth floors during out-of-saddle efforts." },
                   { q: "What size mat do I need for a Peloton or spin bike?", a: "Most full-size connected bikes have footprints around 48 by 24 inches. A mat of at least that size covers the machine, but a larger 60 by 24-36 inch mat also covers the front splash zone where sweat lands during standing climbs." },
-                  { q: "Can I use a yoga mat under a spin bike?", a: "No — a yoga mat is too thin and too narrow. It will compress and shift under bike weight and vibration. Dedicated equipment mats are thicker (3/16 to 3/8 inch) and made from compounds that resist compression under sustained heavy loads." },
+                  { q: "Can I use a yoga mat under a spin bike?", a: "No: a yoga mat is too thin and too narrow. It will compress and shift under bike weight and vibration. Dedicated equipment mats are thicker (3/16 to 3/8 inch) and made from compounds that resist compression under sustained heavy loads." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>

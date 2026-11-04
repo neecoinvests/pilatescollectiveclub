@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     description: "What a legging needs to do on a Megaformer, and five verified pairs from budget to premium, plus a men's option.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-leggings-for-lagree",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/stitch-retail-activewear.png", width: 1200, height: 630, alt: "Best Leggings for Lagree — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/stitch-retail-activewear.png", width: 1200, height: 630, alt: "Best Leggings for Lagree: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -59,7 +59,7 @@ const PRODUCTS = [
     price: "~$98",
     verdict: "Brand-direct pick (lululemon.com)",
     description:
-      "Not sold on Amazon by Lululemon — this links to lululemon.com. On Amazon, Wunder Train appears only via third-party resellers priced above retail, so we link to Lululemon directly; the approximate $98 price is Lululemon's own. If you already shop Lululemon, this is the line to look at for Lagree rather than the Align. Lululemon positions Wunder Train as a training tight, whereas Align is sold on a weightless, barely-there feel aimed at yoga and low-impact work. That distinction matters on a Megaformer, where you want a legging that stays put and supports you through long time-under-tension sets rather than one designed to disappear. The high rise is the other reason it suits the format: a tall waistband is less likely to roll down when you fold into a pike or work in a reverse plank. Check the inseam options on Lululemon's site before ordering, since Lululemon sells its tights in several lengths.",
+      "Not sold on Amazon by Lululemon: this links to lululemon.com. On Amazon, Wunder Train appears only via third-party resellers priced above retail, so we link to Lululemon directly; the approximate $98 price is Lululemon's own. If you already shop Lululemon, this is the line to look at for Lagree rather than the Align. Lululemon positions Wunder Train as a training tight, whereas Align is sold on a weightless, barely-there feel aimed at yoga and low-impact work. That distinction matters on a Megaformer, where you want a legging that stays put and supports you through long time-under-tension sets rather than one designed to disappear. The high rise is the other reason it suits the format: a tall waistband is less likely to roll down when you fold into a pike or work in a reverse plank. Check the inseam options on Lululemon's site before ordering, since Lululemon sells its tights in several lengths.",
     affiliateUrl: "https://shop.lululemon.com/",
     tag: "Brand-Direct",
   },
@@ -168,7 +168,7 @@ export default function BestLeggingsForLagreePage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/stitch-retail-activewear.png" alt="Technical activewear on a studio rail — fit, waistband and fabric face matter more than brand for Lagree" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/stitch-retail-activewear.png" alt="Technical activewear on a studio rail: fit, waistband and fabric face matter more than brand for Lagree" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>
         </section>
@@ -257,7 +257,7 @@ export default function BestLeggingsForLagreePage() {
                 <ArticleCard title="Best Lagree Shorts" excerpt="Biker shorts for the Megaformer: inseam length, carriage contact and seven verified pairs, including men's options." href="/blog/best-lagree-shorts" category="Lagree" readTime="9 min read" date="October 2026" />
                 <ArticleCard title="Best Sports Bra for Lagree" excerpt="High, mid and light support picks for a sweaty, lunge-heavy Megaformer class." href="/blog/best-sports-bra-for-lagree" category="Lagree" readTime="8 min read" date="October 2026" />
                 <ArticleCard title="Best Lagree Tops" excerpt="Why fitted beats loose on a Megaformer, and the tanks that stay put in a plank." href="/blog/best-lagree-tops" category="Lagree" readTime="8 min read" date="October 2026" />
-                <ArticleCard title="Lagree Essentials" excerpt="Everything to wear, bring and buy for Lagree — best, budget and splurge picks on one page." href="/blog/lagree-essentials" category="Lagree" readTime="12 min read" date="September 2026" />
+                <ArticleCard title="Lagree Essentials" excerpt="Everything to wear, bring and buy for Lagree: best, budget and splurge picks on one page." href="/blog/lagree-essentials" category="Lagree" readTime="12 min read" date="September 2026" />
               </div>
             </div>
           </div>

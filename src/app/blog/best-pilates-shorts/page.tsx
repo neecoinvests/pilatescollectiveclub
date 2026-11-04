@@ -12,18 +12,18 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Shorts (2026): High-Waist & Biker Reviewed",
-  description: "The best shorts for Pilates class — biker shorts, high-waist options, and performance shorts reviewed for reformer coverage, compression, and fit.",
+  description: "The best shorts for Pilates class: biker shorts, high-waist options, and performance shorts reviewed for reformer coverage, compression, and fit.",
   openGraph: {
     title: "Best Pilates Shorts (2026): Biker Shorts & Beyond",
     description: "Instructors need to see your knee and hip alignment. Here's what the best-dressed reformer regulars are wearing.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-shorts",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg", width: 1200, height: 630, alt: "Best Pilates Shorts — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg", width: 1200, height: 630, alt: "Best Pilates Shorts: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Shorts (2026)",
-    description: "The best shorts for Pilates — biker shorts and compression options ranked honestly.",
+    description: "The best shorts for Pilates: biker shorts and compression options ranked honestly.",
     images: ["https://pilatescollectiveclub.com/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg"],
   },
   keywords: ["best pilates shorts", "pilates shorts 2026", "high waist shorts pilates", "best biker shorts pilates", "lululemon shorts pilates", "alo airlift shorts pilates", "pilates class shorts women", "shorts for reformer pilates"],
@@ -41,7 +41,7 @@ const PRODUCTS = [
     verdict: "Best biker short",
     tag: "Editor's Pick",
     description:
-      "The Align fabric is the softest thing in activewear, and the shorts version delivers all the properties that make the legging famous — buttery compression, excellent stretch, and absolute opacity through the full movement range. The 6-inch inseam provides full reformer coverage without the restriction of a legging. Instructors get clear sightlines to the hip and knee alignment, which is the point. Not sold on Amazon: this link goes to Lululemon's own site.",
+      "The Align fabric is the softest thing in activewear, and the shorts version delivers all the properties that make the legging famous: buttery compression, excellent stretch, and absolute opacity through the full movement range. The 6-inch inseam provides full reformer coverage without the restriction of a legging. Instructors get clear sightlines to the hip and knee alignment, which is the point. Not sold on Amazon: this link goes to Lululemon's own site.",
     affiliateUrl: "https://shop.lululemon.com",
   },
   {
@@ -71,7 +71,7 @@ const PRODUCTS = [
     verdict: "Best for men",
     tag: "Men's Pick",
     description:
-      "Most Pilates apparel brands produce almost nothing usable for men. The Vuori Daily Short is the exception — a 5-inch inseam in a soft, four-way stretch fabric with enough compression to stay in place through all reformer work without being uncomfortably tight. Clean design, no logos, and a colour range that fits the reformer studio environment. Not sold on Amazon: this link goes to Vuori's own site.",
+      "Most Pilates apparel brands produce almost nothing usable for men. The Vuori Daily Short is the exception: a 5-inch inseam in a soft, four-way stretch fabric with enough compression to stay in place through all reformer work without being uncomfortably tight. Clean design, no logos, and a colour range that fits the reformer studio environment. Not sold on Amazon: this link goes to Vuori's own site.",
     affiliateUrl: "https://vuoriclothing.com",
   },
   {
@@ -89,7 +89,7 @@ const PRODUCTS = [
 const FAQS = [
   {
     q: "Should you wear shorts or leggings to Pilates?",
-    a: "Both work, but shorts have one advantage — your instructor can see your knee and hip alignment more clearly during footwork. If you run warm, shorts are considerably more comfortable, particularly during reformer work where you're physically close to the machine. Biker shorts with a 5-6 inch inseam are the most popular choice at reformer studios globally.",
+    a: "Both work, but shorts have one advantage: your instructor can see your knee and hip alignment more clearly during footwork. If you run warm, shorts are considerably more comfortable, particularly during reformer work where you're physically close to the machine. Biker shorts with a 5-6 inch inseam are the most popular choice at reformer studios globally.",
   },
   {
     q: "What length shorts are best for Pilates?",
@@ -108,7 +108,7 @@ const jsonLd = {
       "@type": "Article",
       "@id": "https://pilatescollectiveclub.com/blog/best-pilates-shorts/#article",
       "headline": "Best Pilates Shorts (2026): For Reformer, Mat & Studio",
-      "description": "The best shorts for Pilates — biker shorts, flowy shorts, and compression options compared on reformer coverage, mat grip, and studio comfort.",
+      "description": "The best shorts for Pilates: biker shorts, flowy shorts, and compression options compared on reformer coverage, mat grip, and studio comfort.",
       "image": {
         "@type": "ImageObject",
         "url": "https://pilatescollectiveclub.com/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg",
@@ -198,7 +198,7 @@ export default function BestPilatesShortsPage() {
             <TopPick name={PRODUCTS[2].name} price={PRODUCTS[2].price} note={QP_NOTES[2]} url={PRODUCTS[2].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Shorts give your instructor something leggings don't — a direct view of your knee tracking, hip alignment, and thigh engagement through every exercise. At most boutique reformer studios, biker shorts have largely displaced leggings as the preferred bottom. This guide covers the five best options, from the gold standard Lululemon Align short to the value champion that costs a third of the price.
+              Shorts give your instructor something leggings don't: a direct view of your knee tracking, hip alignment, and thigh engagement through every exercise. At most boutique reformer studios, biker shorts have largely displaced leggings as the preferred bottom. This guide covers the five best options, from the gold standard Lululemon Align short to the value champion that costs a third of the price.
             </p>
           </div>
         </section>
@@ -222,7 +222,7 @@ export default function BestPilatesShortsPage() {
                 {[
                   { heading: "Inseam length", body: "5-6 inches is the sweet spot. Too short and you risk exposure in supine work; too long and the instructor loses the visual reference point at the knee and hip." },
                   { heading: "Compression vs comfort", body: "Enough compression to stay in place during dynamic movement, not so much that circulation is restricted or movement feels constrained. Look for a mid-compression rating." },
-                  { heading: "Opacity", body: "Test thoroughly — hold the fabric up to light. Reformer lighting is often bright. A short that appears opaque in a changing room may not be opaque under studio lighting." },
+                  { heading: "Opacity", body: "Test thoroughly: hold the fabric up to light. Reformer lighting is often bright. A short that appears opaque in a changing room may not be opaque under studio lighting." },
                   { heading: "Waistband stability", body: "The waistband must not roll or slip during footwork, standing work, or the abdominal series. Wide, flat waistbands with elastane outperform narrow, folded waistbands in practice." },
                 ].map((item) => (
                   <div key={item.heading} className="flex gap-5 rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
@@ -277,9 +277,9 @@ export default function BestPilatesShortsPage() {
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="Best Pilates Sports Bra (2026)" excerpt="Coverage, support, and studio-ready style — the bras compared on reformer and mat practice." href="/blog/best-pilates-sports-bra" category="Apparel" readTime="8 min read" date="May 2026" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Sports Bra (2026)" excerpt="Coverage, support, and studio-ready style: the bras compared on reformer and mat practice." href="/blog/best-pilates-sports-bra" category="Apparel" readTime="8 min read" date="May 2026" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
                 <ArticleCard title="What to Wear to Pilates" excerpt="The complete guide to choosing the right clothes for studio and reformer classes." href="/blog/what-to-wear-to-pilates" category="Guide" readTime="6 min read" date="May 2026" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
-                <ArticleCard title="Best Pilates Leggings (2026)" excerpt="Five leggings across every price point — compared on opacity, waistband stability, and reformer performance." href="/blog/best-pilates-leggings" category="Equipment" readTime="9 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Leggings (2026)" excerpt="Five leggings across every price point: compared on opacity, waistband stability, and reformer performance." href="/blog/best-pilates-leggings" category="Equipment" readTime="9 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />
               </div>
             </div>
 

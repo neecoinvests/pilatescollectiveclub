@@ -12,7 +12,7 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Studios in Raleigh, NC (2026)",
-  description: "The best Pilates studios in Raleigh — top-rated reformer boutiques plus Club Pilates across Raleigh, Durham and Chapel Hill. Six verified picks, 2026.",
+  description: "The best Pilates studios in Raleigh: top-rated reformer boutiques plus Club Pilates across Raleigh, Durham and Chapel Hill. Six verified picks, 2026.",
   robots: {
     index: true,
     follow: true,
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Best Pilates Studios in Raleigh, NC (2026)",
     description:
-      "Six curated Pilates studios in Raleigh — North Hills and Five Points reformer boutiques. Verified 2026.",
+      "Six curated Pilates studios in Raleigh: North Hills and Five Points reformer boutiques. Verified 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/raleigh",
     images: [
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Best Pilates Studios in Raleigh (2026)",
     description:
-      "The 6 best Pilates studios in Raleigh — curated, verified, and reviewed for 2026.",
+      "The 6 best Pilates studios in Raleigh: curated, verified, and reviewed for 2026.",
     images: [
       "https://images.unsplash.com/photo-1676934556859-624fa21e2588",
     ],
@@ -56,23 +56,23 @@ const STUDIOS = [
     neighborhood: "Raleigh",
     priceLevel: "$$$",
     review: "BK Pilates runs reformer classes in a clean, focused boutique setting and has become a go-to for Triangle professionals, with a perfect 5.0 rating from more than 4,100 reviews on ClassPass. The Carolinas-based brand also has studios in Charlotte and beyond.",
-    caveat: "we could not confirm the exact street address independently — check the booking app for directions.",
-    address: "—",
+    caveat: "we could not confirm the exact street address independently: check the booking app for directions.",
+    address: "",
     bestFor: "Highly rated boutique reformer",
     signatureClass: "Group Reformer",
-    bookingTip: "Prime-time classes fill quickly — book a few days ahead.",
+    bookingTip: "Prime-time classes fill quickly: book a few days ahead.",
   },
   {
     number: "2",
-    name: "JETSET Pilates — Downtown Raleigh",
+    name: "JETSET Pilates Downtown Raleigh",
     neighborhood: "Downtown",
     priceLevel: "$$$",
     review: "JETSET's Downtown Raleigh studio has more reformer-specific reviews than any other studio in the Triangle on ClassPass (rated 4.6), bringing the Miami-founded brand's fast, music-driven reformer classes to downtown.",
-    caveat: "high-energy classes — not slow classical technique.",
+    caveat: "high-energy classes, not slow classical technique.",
     address: "500 N West St, Raleigh, NC 27603",
     bestFor: "Music-driven reformer downtown",
     signatureClass: "JETSET Reformer",
-    bookingTip: "Weekend mornings book out — use the app as soon as the schedule opens.",
+    bookingTip: "Weekend mornings book out: use the app as soon as the schedule opens.",
   },
   {
     number: "3",
@@ -80,11 +80,11 @@ const STUDIOS = [
     neighborhood: "Rolesville",
     priceLevel: "$$",
     review: "Studio 104 in Rolesville earns the top spot in ClassPass's Triangle reformer ranking (4.9) through an intimate studio experience that larger reformer chains cannot replicate.",
-    caveat: "Rolesville is north-east of Raleigh — best for residents on that side of the city.",
+    caveat: "Rolesville is north-east of Raleigh: best for residents on that side of the city.",
     address: "104-D S Main St, Rolesville, NC 27571",
     bestFor: "Intimate reformer classes north-east of Raleigh",
     signatureClass: "Reformer Pilates",
-    bookingTip: "Small classes fill — book ahead.",
+    bookingTip: "Small classes fill: book ahead.",
   },
   {
     number: "4",
@@ -92,7 +92,7 @@ const STUDIOS = [
     neighborhood: "Midtown / North Hills",
     priceLevel: "$$",
     review: "Club Pilates Midtown Raleigh on Sherman Oak Place is the brand's closest studio to North Hills, with levelled group reformer classes.",
-    caveat: "a franchise format — consistent, but less personalised than an independent studio.",
+    caveat: "a franchise format: consistent, but less personalised than an independent studio.",
     address: "2920 Sherman Oak Place, Suite 130, Raleigh, NC 27609",
     bestFor: "North Hills and Midtown residents",
     signatureClass: "Reformer Flow",
@@ -104,11 +104,11 @@ const STUDIOS = [
     neighborhood: "Durham",
     priceLevel: "$$",
     review: "Club Pilates Durham on NC 54 serves south Durham and the RTP side of the Triangle with levelled group reformer classes.",
-    caveat: "a franchise format — consistent, but less personalised than an independent studio.",
+    caveat: "a franchise format: consistent, but less personalised than an independent studio.",
     address: "1125 NC 54, Suite 404, Durham, NC 27707",
     bestFor: "Durham and RTP residents",
     signatureClass: "Reformer Flow",
-    bookingTip: "Lunchtime classes suit RTP commuters — book the night before.",
+    bookingTip: "Lunchtime classes suit RTP commuters: book the night before.",
   },
   {
     number: "6",
@@ -116,7 +116,7 @@ const STUDIOS = [
     neighborhood: "Chapel Hill",
     priceLevel: "$$",
     review: "Club Pilates Chapel Hill on East Franklin Street serves Chapel Hill and Carrboro with levelled group reformer classes.",
-    caveat: "a franchise format — consistent, but less personalised than an independent studio.",
+    caveat: "a franchise format: consistent, but less personalised than an independent studio.",
     address: "1800 E Franklin St, #9, Chapel Hill, NC 27514",
     bestFor: "Chapel Hill and Carrboro residents",
     signatureClass: "Reformer Flow",
@@ -127,23 +127,23 @@ const STUDIOS = [
 const BOOKING_TIPS = [
   {
     heading: "Plan around the Research Triangle's academic calendar",
-    body: "Raleigh, Durham, and Chapel Hill pulse to the rhythms of NC State, Duke, and UNC. Studios near campuses fill sharply at semester start (late August, mid-January) and empty over breaks. If you're visiting during those windows, book at least two weeks ahead — or take advantage of quieter suburban options in Cary and North Hills.",
+    body: "Raleigh, Durham, and Chapel Hill pulse to the rhythms of NC State, Duke, and UNC. Studios near campuses fill sharply at semester start (late August, mid-January) and empty over breaks. If you're visiting during those windows, book at least two weeks ahead, or take advantage of quieter suburban options in Cary and North Hills.",
   },
   {
     heading: "Leverage tech-sector corporate wellness perks",
-    body: "The Triangle's booming tech and biotech workforce has pushed many studios to negotiate corporate wellness rates with local employers. Before paying retail, check with your HR team — companies like Red Hat, Pendo, and Bandwidth have negotiated studio partnerships that can cut your monthly cost significantly.",
+    body: "The Triangle's booming tech and biotech workforce has pushed many studios to negotiate corporate wellness rates with local employers. Before paying retail, check with your HR team: companies like Red Hat, Pendo, and Bandwidth have negotiated studio partnerships that can cut your monthly cost significantly.",
   },
   {
     heading: "Account for suburban sprawl when choosing a studio",
-    body: "The Triangle is famously spread out. A studio that looks close on a map can be a 25-minute drive across the Beltline at 5:30 PM. Filter your search by the quadrant where you live or work — North Hills and Glenwood South for central Raleigh, Cary for the western suburbs, Durham for the city's creative core, Chapel Hill for the university corridor.",
+    body: "The Triangle is famously spread out. A studio that looks close on a map can be a 25-minute drive across the Beltline at 5:30 PM. Filter your search by the quadrant where you live or work: North Hills and Glenwood South for central Raleigh, Cary for the western suburbs, Durham for the city's creative core, Chapel Hill for the university corridor.",
   },
   {
     heading: "Take advantage of mild winters for intro packages",
-    body: "Unlike Charlotte or Atlanta, Raleigh winters are mild enough that outdoor activity rarely crowds out studio time. January and February are the quietest months at most studios — a good time to snap up intro packages and trial memberships at reduced rates before spring demand picks up.",
+    body: "Unlike Charlotte or Atlanta, Raleigh winters are mild enough that outdoor activity rarely crowds out studio time. January and February are the quietest months at most studios: a good time to snap up intro packages and trial memberships at reduced rates before spring demand picks up.",
   },
   {
     heading: "Grip socks are non-negotiable at every Triangle studio",
-    body: "Every Raleigh-area studio requires grip socks — they're a safety standard on the reformer, not an upsell. Bring your own; studio socks are typically available for purchase but cost two to three times what you'd pay on Amazon.",
+    body: "Every Raleigh-area studio requires grip socks: they're a safety standard on the reformer, not an upsell. Bring your own; studio socks are typically available for purchase but cost two to three times what you'd pay on Amazon.",
   },
 ];
 
@@ -156,7 +156,7 @@ const NEIGHBORHOODS = [
   {
     name: "Five Points",
     description:
-      "One of Raleigh's most characterful historic neighborhoods, Five Points offers independent coffee shops, restaurants, and boutique studios in early 20th-century retail buildings. Studios here tend to be smaller, owner-operated, and classical in orientation — ideal for focused, unhurried practice.",
+      "One of Raleigh's most characterful historic neighborhoods, Five Points offers independent coffee shops, restaurants, and boutique studios in early 20th-century retail buildings. Studios here tend to be smaller, owner-operated, and classical in orientation, ideal for focused, unhurried practice.",
   },
   {
     name: "Glenwood South",
@@ -166,7 +166,7 @@ const NEIGHBORHOODS = [
   {
     name: "Durham / Chapel Hill",
     description:
-      "The western edge of the Triangle leans academic and creative. Durham's studio scene reflects its arts-forward identity, while Chapel Hill's offerings cluster around the UNC community — evidence-informed, accessible, and deeply connected to the university's health science programs.",
+      "The western edge of the Triangle leans academic and creative. Durham's studio scene reflects its arts-forward identity, while Chapel Hill's offerings cluster around the UNC community: evidence-informed, accessible, and deeply connected to the university's health science programs.",
   },
 ];
 
@@ -179,34 +179,34 @@ const GEAR = [
   },
   {
     name: "Pilates Mat (6mm)",
-    note: "Our pick: Manduka PRO Yoga & Pilates Mat (6mm). For mat classes at Five Points Pilates and Chapel Hill Pilates — slightly thicker than a yoga mat for joint comfort on hardwood floors.",
+    note: "Our pick: Manduka PRO Yoga & Pilates Mat (6mm). For mat classes at Five Points Pilates and Chapel Hill Pilates: slightly thicker than a yoga mat for joint comfort on hardwood floors.",
     price: "$144.00",
     url: "https://www.amazon.com/dp/B0066T7I54?tag=pilatescollective-20",
   },
   {
     name: "Magic Circle",
-    note: "Our pick: Balanced Body Ultra-Fit Circle (15-inch). A staple of classical mat sequences at Five Points Pilates — worth owning if you follow a classical program at home between sessions.",
+    note: "Our pick: Balanced Body Ultra-Fit Circle (15-inch). A staple of classical mat sequences at Five Points Pilates: worth owning if you follow a classical program at home between sessions.",
     price: "$35.00",
     url: "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20",
   },
   {
     name: "Fabric Resistance Bands",
-    note: "Our pick: Arena Strength Fabric Glute Bands (3-Pack). Versatile for warm-ups, hip strengthening, and supplemental home practice — particularly useful between sessions at Durham Pilates.",
+    note: "Our pick: Arena Strength Fabric Glute Bands (3-Pack). Versatile for warm-ups, hip strengthening, and supplemental home practice, particularly useful between sessions at Durham Pilates.",
     price: "$29.00",
     url: "https://www.amazon.com/dp/B07VYK14JC?tag=pilatescollective-20",
   },
   {
     name: "High-Density Foam Roller",
-    note: "Our pick: OPTP PRO-Roller Foam Roller (36-inch). Great for thoracic mobility work and recovery — a complement to Chapel Hill Pilates' evidence-informed programming and a useful home tool for Triangle movers with desk-heavy workdays.",
+    note: "Our pick: OPTP PRO-Roller Foam Roller (36-inch). Great for thoracic mobility work and recovery: a complement to Chapel Hill Pilates' evidence-informed programming and a useful home tool for Triangle movers with desk-heavy workdays.",
     price: "$62.99",
     url: "https://www.amazon.com/dp/B002C9EX14?tag=pilatescollective-20",
   },
 ];
 
 const HOME_REFORMERS = [
-  { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work — three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
+  { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work: three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
   { tag: "Mid-Range Pick", name: "AeroPilates Pro XP 557", note: "AeroPilates' top-of-the-range home reformer, a step up for practitioners training several times a week.", price: "$1,329.99", url: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20" },
-  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order — an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
+  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
 ];
 
 const RELATED_CITIES = [
@@ -240,7 +240,7 @@ const FURTHER_READING = [
   {
     title: "How to Choose a Pilates Instructor",
     excerpt:
-      "Certifications, teaching style, and lineage — everything you need to evaluate a new instructor before committing to a package.",
+      "Certifications, teaching style, and lineage: everything you need to evaluate a new instructor before committing to a package.",
     href: "/blog/how-to-choose-a-pilates-instructor",
     category: "Guides",
     readTime: "7 min read",
@@ -251,7 +251,7 @@ const FURTHER_READING = [
   {
     title: "Pilates for Back Pain: What the Research Shows",
     excerpt:
-      "A look at the clinical evidence behind Pilates as a therapeutic tool for chronic and acute back pain — and how to find the right studio for rehabilitation.",
+      "A look at the clinical evidence behind Pilates as a therapeutic tool for chronic and acute back pain, and how to find the right studio for rehabilitation.",
     href: "/blog/pilates-for-back-pain",
     category: "Health",
     readTime: "8 min read",
@@ -262,7 +262,7 @@ const FURTHER_READING = [
 ];
 
 const CITY_FAQS = [
-  { q: "What are the best Pilates studios in Raleigh?", a: "Our 6 curated picks are BK Pilates Raleigh (Raleigh), JETSET Pilates — Downtown Raleigh (Downtown), Studio 104 (Rolesville), Club Pilates Midtown Raleigh (Midtown / North Hills), Club Pilates Durham (Durham) and Club Pilates Chapel Hill (Chapel Hill). Each listing above covers what the studio is best for, its signature class and a booking tip." },
+  { q: "What are the best Pilates studios in Raleigh?", a: "Our 6 curated picks are BK Pilates Raleigh (Raleigh), JETSET Pilates: Downtown Raleigh (Downtown), Studio 104 (Rolesville), Club Pilates Midtown Raleigh (Midtown / North Hills), Club Pilates Durham (Durham) and Club Pilates Chapel Hill (Chapel Hill). Each listing above covers what the studio is best for, its signature class and a booking tip." },
   { q: "Which Raleigh neighbourhoods are best for Pilates?", a: "This guide covers North Hills, Five Points, Glenwood South and Durham / Chapel Hill. North Hills: Raleigh's upscale mid-city district, rebuilt over the last decade into a walkable mixed-use hub." },
   { q: "What should I know about booking Pilates classes in Raleigh?", a: "Plan around the Research Triangle's academic calendar. Raleigh, Durham, and Chapel Hill pulse to the rhythms of NC State, Duke, and UNC. Studios near campuses fill sharply at semester start (late August, mid-January) and empty over breaks." },
   { q: "What should I bring to a Pilates class in Raleigh?", a: "Grip socks are required at most reformer studios. Our gear list for Raleigh covers Pilates grip socks, Pilates mat (6mm), magic circle, fabric resistance bands and high-density foam roller." },
@@ -333,7 +333,7 @@ export default function RaleighPage() {
               The Research Triangle has quietly become one of the South's most sophisticated Pilates markets. From
               North Hills' premier reformer boutiques to the classical studios of Five Points and the university-rooted
               programming of Chapel Hill, Raleigh and its sister cities offer serious movement culture across every
-              style and price point. We've covered the Triangle — taken the classes, walked the neighborhoods, and
+              style and price point. We've covered the Triangle: taken the classes, walked the neighborhoods, and
               identified the six studios that genuinely deliver for both residents and visitors.
             </p>
           </div>
@@ -502,7 +502,7 @@ export default function RaleighPage() {
           </div>
         </section>
 
-        <CTASection title="Find Pilates near you" subtitle="Use our AI Finder to discover studios in any city — coming soon." showSearch searchPlaceholder="Ask: best reformer Pilates in Raleigh…" />
+        <CTASection title="Find Pilates near you" subtitle="Use our AI Finder to discover studios in any city: coming soon." showSearch searchPlaceholder="Ask: best reformer Pilates in Raleigh…" />
       </main>
       <Footer />
     </>

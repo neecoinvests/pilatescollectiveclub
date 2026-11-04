@@ -12,19 +12,19 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Jumpboard (2026): Honestly Verified",
-  description: "The two Pilates jumpboards verified live on Amazon — Balanced Body Padded ($280) and Merrithew 22\" ($470). AeroPilates and Align couldn't be confirmed.",
+  description: "The two Pilates jumpboards verified live on Amazon: Balanced Body Padded ($280) and Merrithew 22\" ($470). AeroPilates and Align couldn't be confirmed.",
   keywords: ["best pilates jumpboard", "pilates jumpboard review 2026", "pilates jumpboard cardio", "balanced body jumpboard review", "merrithew jumpboard pilates", "pilates cardio jumpboard", "jumpboard pilates workout"],
   openGraph: {
     title: "Best Pilates Jumpboard (2026): Honestly Verified",
-    description: "The real, live Amazon-sold Pilates jumpboards — Balanced Body and Merrithew — compared, with unverified brand claims disclosed rather than linked.",
+    description: "The real, live Amazon-sold Pilates jumpboards, Balanced Body and Merrithew, compared, with unverified brand claims disclosed rather than linked.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-jumpboard",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/dane-wetton-AkSJQnem75Y-unsplash.jpg", width: 1200, height: 630, alt: "Best Pilates Jumpboards — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/dane-wetton-AkSJQnem75Y-unsplash.jpg", width: 1200, height: 630, alt: "Best Pilates Jumpboards: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Jumpboard (2026)",
-    description: "The real, live Amazon-sold Pilates jumpboards — honestly verified.",
+    description: "The real, live Amazon-sold Pilates jumpboards: honestly verified.",
     images: ["https://pilatescollectiveclub.com/pictures/dane-wetton-AkSJQnem75Y-unsplash.jpg"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/best-pilates-jumpboard" },
@@ -48,7 +48,7 @@ const PRODUCTS = [
     price: "$470",
     verdict: "The real Merrithew jumpboard sold on Amazon",
     description:
-      "Merrithew's genuine 22-inch jumpboard, verified at $470 on Amazon. It's built for Merrithew's SPX-family carriage, but we could not confirm it fits every Merrithew or STOTT reformer model as a universal accessory — confirm fit against your specific reformer before ordering rather than assuming compatibility across Merrithew's full range.",
+      "Merrithew's genuine 22-inch jumpboard, verified at $470 on Amazon. It's built for Merrithew's SPX-family carriage, but we could not confirm it fits every Merrithew or STOTT reformer model as a universal accessory: confirm fit against your specific reformer before ordering rather than assuming compatibility across Merrithew's full range.",
     affiliateUrl: "https://www.amazon.com/dp/B004ICZD2Q?tag=pilatescollective-20",
     tag: "Merrithew",
   },
@@ -60,7 +60,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Best Pilates Jumpboards (2026): Compared & Ranked",
-      "description": "The best jumpboards for Pilates reformers — compared on compatibility, bounce quality, and build.",
+      "description": "The best jumpboards for Pilates reformers: compared on compatibility, bounce quality, and build.",
       "url": "https://pilatescollectiveclub.com/blog/best-pilates-jumpboard",
       "datePublished": "2026-05-21",
       "dateModified": "2026-10-20",
@@ -96,9 +96,9 @@ const jsonLd = {
       "@type": "FAQPage",
       "mainEntity": [
         { "@type": "Question", "name": "What is a Pilates jumpboard?", "acceptedAnswer": { "@type": "Answer", "text": "A Pilates jumpboard is an accessory that attaches to the footbar position of a reformer, allowing the practitioner to perform jumping and rebounding exercises while lying supine on the carriage. It converts the reformer into a low-impact cardio machine and is used extensively in cardio Pilates and reformer conditioning classes." } },
-        { "@type": "Question", "name": "Are Pilates jumpboards compatible with all reformers?", "acceptedAnswer": { "@type": "Answer", "text": "No, and not even within one brand — we could not confirm universal fit for the Balanced Body or Merrithew jumpboards we verified as real Amazon listings. Check the current listing against your specific reformer's footbar dimensions before ordering. We could not find a verified, live Amazon listing for an AeroPilates- or Align-branded jumpboard, so we do not recommend shopping for one under those names on Amazon." } },
-        { "@type": "Question", "name": "Is jumpboard Pilates good for cardio?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — jumpboard sequences can raise the heart rate while maintaining the joint-protective benefits of reformer spring resistance. Most instructors recommend 10–20 minute jumpboard intervals within a full reformer session rather than extended standalone cardio sessions." } },
-        { "@type": "Question", "name": "Can beginners use a Pilates jumpboard?", "acceptedAnswer": { "@type": "Answer", "text": "Beginners should establish basic reformer competence before adding jumpboard work — typically 2–3 months of consistent reformer practice. The foundational footwork patterns (two-foot landing, controlled spring return) are accessible to beginners; single-leg and advanced variations should wait until greater stabiliser strength is established." } },
+        { "@type": "Question", "name": "Are Pilates jumpboards compatible with all reformers?", "acceptedAnswer": { "@type": "Answer", "text": "No, and not even within one brand: we could not confirm universal fit for the Balanced Body or Merrithew jumpboards we verified as real Amazon listings. Check the current listing against your specific reformer's footbar dimensions before ordering. We could not find a verified, live Amazon listing for an AeroPilates- or Align-branded jumpboard, so we do not recommend shopping for one under those names on Amazon." } },
+        { "@type": "Question", "name": "Is jumpboard Pilates good for cardio?", "acceptedAnswer": { "@type": "Answer", "text": "Yes: jumpboard sequences can raise the heart rate while maintaining the joint-protective benefits of reformer spring resistance. Most instructors recommend 10–20 minute jumpboard intervals within a full reformer session rather than extended standalone cardio sessions." } },
+        { "@type": "Question", "name": "Can beginners use a Pilates jumpboard?", "acceptedAnswer": { "@type": "Answer", "text": "Beginners should establish basic reformer competence before adding jumpboard work, typically 2–3 months of consistent reformer practice. The foundational footwork patterns (two-foot landing, controlled spring return) are accessible to beginners; single-leg and advanced variations should wait until greater stabiliser strength is established." } },
       ],
     },
   ],
@@ -126,7 +126,7 @@ export default function BestPilatesJumpboardPage() {
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              The jumpboard is a genuinely popular accessory for a home reformer, adding a cardio component through jumping and rebounding sequences while keeping the joint-protective, resistance-based feel of reformer work. We could confirm live Amazon listings for jumpboards from two brands — Balanced Body and Merrithew. We could not verify AeroPilates or Align Pilates jumpboards on Amazon, and that gap is covered below rather than guessed at.
+              The jumpboard is a genuinely popular accessory for a home reformer, adding a cardio component through jumping and rebounding sequences while keeping the joint-protective, resistance-based feel of reformer work. We could confirm live Amazon listings for jumpboards from two brands: Balanced Body and Merrithew. We could not verify AeroPilates or Align Pilates jumpboards on Amazon, and that gap is covered below rather than guessed at.
             </p>
           </div>
         </section>
@@ -175,9 +175,9 @@ export default function BestPilatesJumpboardPage() {
               <div className="space-y-6">
                 {[
                   { q: "What is a Pilates jumpboard?", a: "A Pilates jumpboard is an accessory that attaches to the footbar position of a reformer, allowing the practitioner to perform jumping and rebounding exercises while lying supine on the carriage. It converts the reformer into a low-impact cardio machine and is used extensively in cardio Pilates and reformer conditioning classes." },
-                  { q: "Are Pilates jumpboards compatible with all reformers?", a: "No, and not even within one brand — we could not confirm universal fit for the Balanced Body or Merrithew jumpboards we verified as real Amazon listings. Check the current listing against your specific reformer's footbar dimensions before ordering. We could not find a verified, live Amazon listing for an AeroPilates- or Align-branded jumpboard, so we do not recommend shopping for one under those names on Amazon." },
-                  { q: "Is jumpboard Pilates good for cardio?", a: "Yes — jumpboard sequences can raise the heart rate while maintaining the joint-protective benefits of reformer spring resistance. Most instructors recommend 10–20 minute jumpboard intervals within a full reformer session rather than extended standalone cardio sessions." },
-                  { q: "Can beginners use a Pilates jumpboard?", a: "Beginners should establish basic reformer competence before adding jumpboard work — typically 2–3 months of consistent reformer practice. The foundational footwork patterns are accessible to beginners; single-leg and advanced variations should wait until greater stabiliser strength is established." },
+                  { q: "Are Pilates jumpboards compatible with all reformers?", a: "No, and not even within one brand: we could not confirm universal fit for the Balanced Body or Merrithew jumpboards we verified as real Amazon listings. Check the current listing against your specific reformer's footbar dimensions before ordering. We could not find a verified, live Amazon listing for an AeroPilates- or Align-branded jumpboard, so we do not recommend shopping for one under those names on Amazon." },
+                  { q: "Is jumpboard Pilates good for cardio?", a: "Yes: jumpboard sequences can raise the heart rate while maintaining the joint-protective benefits of reformer spring resistance. Most instructors recommend 10–20 minute jumpboard intervals within a full reformer session rather than extended standalone cardio sessions." },
+                  { q: "Can beginners use a Pilates jumpboard?", a: "Beginners should establish basic reformer competence before adding jumpboard work, typically 2–3 months of consistent reformer practice. The foundational footwork patterns are accessible to beginners; single-leg and advanced variations should wait until greater stabiliser strength is established." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>

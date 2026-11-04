@@ -22,15 +22,15 @@ export const metadata: Metadata = {
   keywords: ["pilates philadelphia", "reformer pilates philadelphia", "best pilates studios philadelphia", "pilates studio philly", "pilates classes philadelphia", "rittenhouse square pilates", "fishtown pilates", "pilates main line pa", "pilates pennsylvania", "best reformer pilates philly"],
   openGraph: {
     title: "Best Pilates Studios in Philadelphia, PA (2026)",
-    description: "Six curated Pilates studios in Philadelphia — Rittenhouse Square and Fishtown reformer boutiques. Verified 2026.",
+    description: "Six curated Pilates studios in Philadelphia: Rittenhouse Square and Fishtown reformer boutiques. Verified 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/philadelphia",
-    images: [{ url: "https://images.unsplash.com/photo-1569761316261-9a8696fa2ca3?w=1200&q=80", width: 1200, height: 630, alt: "Philadelphia Pennsylvania city guide — Pilates Collective Club" }],
+    images: [{ url: "https://images.unsplash.com/photo-1569761316261-9a8696fa2ca3?w=1200&q=80", width: 1200, height: 630, alt: "Philadelphia Pennsylvania city guide: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Studios in Philadelphia (2026)",
-    description: "Six curated Pilates studios in Philadelphia — verified picks for every level.",
+    description: "Six curated Pilates studios in Philadelphia: verified picks for every level.",
     images: ["https://images.unsplash.com/photo-1569761316261-9a8696fa2ca3?w=1200&q=80"],
   },
   alternates: {
@@ -44,12 +44,12 @@ const STUDIOS = [
     name: "Star Pilates",
     neighborhood: "Rittenhouse",
     priceLevel: "$$$$",
-    review: "Star Pilates on Locust Street offers private sessions only, taught on Gratz Pilates equipment, including the reformer — classical, one-to-one instruction in the heart of Rittenhouse.",
-    caveat: "private sessions only — there are no group classes.",
+    review: "Star Pilates on Locust Street offers private sessions only, taught on Gratz Pilates equipment, including the reformer: classical, one-to-one instruction in the heart of Rittenhouse.",
+    caveat: "private sessions only: there are no group classes.",
     address: "2043 Locust St, Philadelphia, PA 19103",
     bestFor: "Private classical Pilates on Gratz equipment",
     signatureClass: "Private Classical Session",
-    bookingTip: "Book a series of privates — progress compounds with consistency.",
+    bookingTip: "Book a series of privates: progress compounds with consistency.",
   },
   {
     number: "02",
@@ -57,7 +57,7 @@ const STUDIOS = [
     neighborhood: "Rittenhouse / Center City",
     priceLevel: "$$$",
     review: "CenterSpace Pilates on Walnut Street offers private and duet sessions with the reformer as the primary machine, a strong option for focused, individual work in Center City.",
-    caveat: "private and duet only — not a drop-in group studio.",
+    caveat: "private and duet only, not a drop-in group studio.",
     address: "1420 Walnut St, Suite 1420, Philadelphia, PA 19102",
     bestFor: "Private and duet reformer sessions",
     signatureClass: "Private Reformer",
@@ -69,8 +69,8 @@ const STUDIOS = [
     neighborhood: "Fishtown",
     priceLevel: "$$",
     review: "Retro Pilates in Fishtown, a 2022 Best of Philly winner, teaches on Balanced Body Allegro 2 reformers with six people or fewer per class, from introductory sessions to classes focused on specific body parts.",
-    caveat: "small classes fill quickly — book ahead.",
-    address: "—",
+    caveat: "small classes fill quickly: book ahead.",
+    address: "",
     bestFor: "Small-group reformer in Fishtown",
     signatureClass: "Intro to Reformer",
     bookingTip: "Start with an introductory class before joining body-part-focused sessions.",
@@ -81,7 +81,7 @@ const STUDIOS = [
     neighborhood: "Spring Garden",
     priceLevel: "$$",
     review: "Midsection Connection on Brandywine Street is a classical Pilates studio offering mat sessions and reformer classes, a long-standing option close to the Art Museum area.",
-    caveat: "a classical studio — expect precise technique rather than a high-energy class.",
+    caveat: "a classical studio: expect precise technique rather than a high-energy class.",
     address: "1827 Brandywine St, Philadelphia, PA 19130",
     bestFor: "Classical mat and reformer",
     signatureClass: "Classical Reformer",
@@ -105,18 +105,18 @@ const STUDIOS = [
     neighborhood: "Rittenhouse Square",
     priceLevel: "$$$",
     review: "Club Pilates Rittenhouse on Walnut Street brings the brand's levelled group reformer system to Center City.",
-    caveat: "a franchise format — consistent, but less personalised than an independent studio.",
+    caveat: "a franchise format: consistent, but less personalised than an independent studio.",
     address: "1616 Walnut St, Philadelphia, PA 19103",
     bestFor: "Structured reformer classes in Center City",
     signatureClass: "Reformer Flow",
-    bookingTip: "Lunchtime classes fill with office workers — book ahead.",
+    bookingTip: "Lunchtime classes fill with office workers: book ahead.",
   },
 ];
 
 const BOOKING_TIPS = [
   { heading: "Expect to pay $28–55 per class", body: "Philadelphia's Pilates market is slightly more accessible than New York but shares the Northeast's generally higher price baseline. Drop-in rates run from $28 at community studios to $55+ at Rittenhouse Square premium practices. Monthly memberships bring per-class costs to $20–32 for regular practitioners." },
-  { heading: "The academic calendar shapes demand", body: "Philadelphia's enormous university population — Penn, Drexel, Temple, Jefferson, and many others — creates unusual seasonality in the fitness market. Summer sees reduced competition for popular timeslots, while September through November and January through April are the most demand-intensive periods." },
-  { heading: "The Main Line is a separate market", body: "The Philadelphia suburban corridor along the SEPTA Regional Rail — Ardmore, Bryn Mawr, Wayne, and beyond — has its own excellent studio landscape that serves the western suburbs with high-quality instruction. Don't overlook Main Line options if you live or work in the suburbs." },
+  { heading: "The academic calendar shapes demand", body: "Philadelphia's enormous university population (Penn, Drexel, Temple, Jefferson, and many others) creates unusual seasonality in the fitness market. Summer sees reduced competition for popular timeslots, while September through November and January through April are the most demand-intensive periods." },
+  { heading: "The Main Line is a separate market", body: "The Philadelphia suburban corridor along the SEPTA Regional Rail (Ardmore, Bryn Mawr, Wayne, and beyond) has its own excellent studio landscape that serves the western suburbs with high-quality instruction. Don't overlook Main Line options if you live or work in the suburbs." },
   { heading: "SEPTA makes Philly studios genuinely accessible", body: "Unlike most American cities, Philadelphia's transit system is functional enough to make studios across the city genuinely accessible without a car. The Broad Street Line and Market-Frankford Line connect most major studio districts, and the transit network rewards practitioners willing to explore beyond their immediate neighbourhood." },
   { heading: "Grip socks are required everywhere", body: "Universal across Philadelphia's reformer studios. Buying quality grip socks from Amazon before your first class is a consistent and practical saving over front-desk retail prices at every studio in the city." },
 ];
@@ -162,9 +162,9 @@ const GEAR = [
 ];
 
 const HOME_REFORMERS = [
-  { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work — three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
+  { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work: three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
   { tag: "Mid-Range Pick", name: "AeroPilates Pro XP 557", note: "AeroPilates' top-of-the-range home reformer, a step up for practitioners training several times a week.", price: "$1,329.99", url: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20" },
-  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order — an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
+  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
 ];
 
 const RELATED_CITIES = [
@@ -175,7 +175,7 @@ const RELATED_CITIES = [
 ];
 
 const FURTHER_READING = [
-  { title: "Classical vs Contemporary Pilates", excerpt: "The split between Joseph Pilates' original system and modern interpretations — what it means for your practice.", href: "/blog/classical-vs-contemporary-pilates", category: "Method", readTime: "8 min read", date: "June 2026", imageUrl: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80" },
+  { title: "Classical vs Contemporary Pilates", excerpt: "The split between Joseph Pilates' original system and modern interpretations: what it means for your practice.", href: "/blog/classical-vs-contemporary-pilates", category: "Method", readTime: "8 min read", date: "June 2026", imageUrl: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80" },
   { title: "The Beginner's Guide to Reformer Pilates", excerpt: "What to expect in your first reformer class and how to choose a studio that fits your goals.", href: "/blog/beginners-guide-to-reformer-pilates", category: "Beginner Guide", readTime: "8 min read", date: "June 2026", imageUrl: "https://images.unsplash.com/photo-1616439069669-66dbe74bcdad?w=800&q=80" },
 ];
 
@@ -222,7 +222,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "The Best Pilates Studios in Philadelphia, PA (2026)",
-      "description": "A curated guide to the six best Pilates studios in Philadelphia, Pennsylvania — verified October 2026.",
+      "description": "A curated guide to the six best Pilates studios in Philadelphia, Pennsylvania: verified October 2026.",
       "url": "https://pilatescollectiveclub.com/cities/philadelphia",
       "dateModified": "2026-10-03",
       "author": { "@type": "Organization", "name": "Pilates Collective Club" },
@@ -250,7 +250,7 @@ export default function PhiladelphiaPage() {
             <p className="text-sm mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated October 2026 · 9 min read</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Philadelphia occupies an interesting position in the American Pilates landscape — close enough to New York to be influenced by its classical tradition, large enough to have developed its own genuine studio culture, and dense enough with universities, hospitals, and arts institutions to have produced an unusually body-literate population of potential practitioners. The city&apos;s Pilates scene spans the full spectrum from Rittenhouse Square&apos;s classical practices to community-oriented South Philly studios built on honest pricing. This guide covers the six studios worth your time, verified October 2026.
+              Philadelphia occupies an interesting position in the American Pilates landscape: close enough to New York to be influenced by its classical tradition, large enough to have developed its own genuine studio culture, and dense enough with universities, hospitals, and arts institutions to have produced an unusually body-literate population of potential practitioners. The city&apos;s Pilates scene spans the full spectrum from Rittenhouse Square&apos;s classical practices to community-oriented South Philly studios built on honest pricing. This guide covers the six studios worth your time, verified October 2026.
             </p>
           </div>
         </section>
@@ -325,7 +325,7 @@ export default function PhiladelphiaPage() {
             <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Prefer To Train At Home?</p>
             <h2 className="text-3xl font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Not convinced? How about Pilates at home?</h2>
             <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-              Studio pricing or scheduling not for you right now? A home reformer gets you a genuine Pilates session on your own time. Here's where to start — from a $299 entry point to the machine serious practitioners buy once.{" "}
+              Studio pricing or scheduling not for you right now? A home reformer gets you a genuine Pilates session on your own time. Here's where to start, from a $299 entry point to the machine serious practitioners buy once.{" "}
               <Link href="/blog/best-home-pilates-reformer" style={{ color: "#8b4a31", textDecoration: "underline", fontFamily: "'Montserrat', sans-serif", fontSize: "inherit" }}>See the full reformer guide.</Link>
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
@@ -377,7 +377,7 @@ export default function PhiladelphiaPage() {
           </div>
         </section>
 
-        <CTASection title="Find Pilates near you" subtitle="Use our AI Finder to discover studios in any city — coming soon." showSearch searchPlaceholder="Ask: best classical Pilates in Philadelphia…" />
+        <CTASection title="Find Pilates near you" subtitle="Use our AI Finder to discover studios in any city: coming soon." showSearch searchPlaceholder="Ask: best classical Pilates in Philadelphia…" />
       </main>
       <Footer />
     </>

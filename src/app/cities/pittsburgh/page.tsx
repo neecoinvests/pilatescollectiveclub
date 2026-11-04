@@ -12,7 +12,7 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Studios in Pittsburgh, PA (2026)",
-  description: "The best Pilates studios in Pittsburgh — reformer boutiques in Shadyside, Squirrel Hill, and the Strip District. Six verified picks for every level, 2026.",
+  description: "The best Pilates studios in Pittsburgh: reformer boutiques in Shadyside, Squirrel Hill, and the Strip District. Six verified picks for every level, 2026.",
   robots: {
     index: true,
     follow: true,
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Best Pilates Studios in Pittsburgh, PA (2026)",
     description:
-      "Six curated Pilates studios in Pittsburgh — Shadyside and Squirrel Hill reformer boutiques. Verified 2026.",
+      "Six curated Pilates studios in Pittsburgh: Shadyside and Squirrel Hill reformer boutiques. Verified 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/pittsburgh",
     images: [
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Best Pilates Studios in Pittsburgh (2026)",
     description:
-      "The 6 best Pilates studios in Pittsburgh — curated, verified, and reviewed for 2026.",
+      "The 6 best Pilates studios in Pittsburgh: curated, verified, and reviewed for 2026.",
     images: [
       "https://images.unsplash.com/photo-1649004161499-31f6cd08ce97?w=1200&h=630&fit=crop",
     ],
@@ -56,7 +56,7 @@ const STUDIOS = [
     neighborhood: "Strip District",
     priceLevel: "$$",
     review:
-      "Reform Pilates is one of Pittsburgh's most exciting newer studios — a boutique reformer practice building a loyal following in the Strip District's rapidly evolving wellness corridor. Founder Natalie has created a studio environment that is rigorous without being intimidating, precise without being cold. Its red light therapy bar and bookable red light room — free to use before or after a workout — make post-class recovery a natural extension of the visit.",
+      "Reform Pilates is one of Pittsburgh's most exciting newer studios: a boutique reformer practice building a loyal following in the Strip District's rapidly evolving wellness corridor. Founder Natalie has created a studio environment that is rigorous without being intimidating, precise without being cold. Its red light therapy bar and bookable red light room, free to use before or after a workout, make post-class recovery a natural extension of the visit.",
     address: "2722 Penn Ave, Pittsburgh, PA 15222",
     bestFor: "Boutique reformer experience, post-class recovery, Strip District residents",
     signatureClass: "Reformer Flow",
@@ -68,11 +68,11 @@ const STUDIOS = [
     neighborhood: "Shadyside",
     priceLevel: "$$",
     review:
-      "Club Pilates Shadyside is Pittsburgh's most centrally located franchise reformer studio, sitting squarely in the heart of one of the city's most walkable and wellness-invested neighborhoods. The Centre Avenue location is convenient for residents of Shadyside, Squirrel Hill, East Liberty, and the Oakland medical corridor. The studio offers the full Club Pilates class menu — Reformer Flow, Cardio Sculpt, Suspend, Restore — and it is bookable through ClassPass and Wellhub as well as directly.",
+      "Club Pilates Shadyside is Pittsburgh's most centrally located franchise reformer studio, sitting squarely in the heart of one of the city's most walkable and wellness-invested neighborhoods. The Centre Avenue location is convenient for residents of Shadyside, Squirrel Hill, East Liberty, and the Oakland medical corridor. The studio offers the full Club Pilates class menu (Reformer Flow, Cardio Sculpt, Suspend, Restore) and it is bookable through ClassPass and Wellhub as well as directly.",
     address: "5430 Centre Ave, Pittsburgh, PA 15232",
     bestFor: "Beginners to intermediate, Shadyside and East End residents, ClassPass and Wellhub users",
     signatureClass: "Reformer Flow",
-    bookingTip: "Take an intro class before committing to a membership — instructors use it to calibrate your starting level.",
+    bookingTip: "Take an intro class before committing to a membership: instructors use it to calibrate your starting level.",
   },
   {
     number: "3",
@@ -80,11 +80,11 @@ const STUDIOS = [
     neighborhood: "East Liberty",
     priceLevel: "$$",
     review:
-      "STHIEL Pilates & MOVEment Center is Pittsburgh's most distinctive studio — the only licensed AntiGravity Fitness provider between Columbus and Philadelphia. The East Liberty location blends classical Pilates with aerial yoga, aerial fitness, and fascial conditioning into a multi-discipline movement practice that attracts clients who want more than a standard reformer experience. Private Pilates sessions are thorough and individualized. The studio occupies a meaningful niche in Pittsburgh's fitness landscape: technically serious, methodologically diverse, and deeply committed to movement as a whole-body practice.",
+      "STHIEL Pilates & MOVEment Center is Pittsburgh's most distinctive studio: the only licensed AntiGravity Fitness provider between Columbus and Philadelphia. The East Liberty location blends classical Pilates with aerial yoga, aerial fitness, and fascial conditioning into a multi-discipline movement practice that attracts clients who want more than a standard reformer experience. Private Pilates sessions are thorough and individualized. The studio occupies a meaningful niche in Pittsburgh's fitness landscape: technically serious, methodologically diverse, and deeply committed to movement as a whole-body practice.",
     address: "316 S Saint Clair St, Pittsburgh, PA 15206",
     bestFor: "Multi-discipline movement, aerial fitness, private Pilates instruction",
     signatureClass: "AntiGravity Pilates Fusion",
-    bookingTip: "Book private Pilates separately from the aerial classes — the instructor team specializes differently across disciplines.",
+    bookingTip: "Book private Pilates separately from the aerial classes: the instructor team specializes differently across disciplines.",
   },
   {
     number: "4",
@@ -92,11 +92,11 @@ const STUDIOS = [
     neighborhood: "Downtown / Market Square",
     priceLevel: "$$$",
     review:
-      "Moxie Mind & Body is a fully equipped classical Pilates studio on Market Square downtown, voted Best of the Burgh in 2013. Certified through Power Pilates — a lineage-based method tracing directly to Joseph Pilates — the studio emphasizes precision, progression, and genuine understanding of the method over fitness trends. It is a strong choice for anyone who wants a serious, method-grounded practice downtown.",
+      "Moxie Mind & Body is a fully equipped classical Pilates studio on Market Square downtown, voted Best of the Burgh in 2013. Certified through Power Pilates, a lineage-based method tracing directly to Joseph Pilates, the studio emphasizes precision, progression, and genuine understanding of the method over fitness trends. It is a strong choice for anyone who wants a serious, method-grounded practice downtown.",
     address: "24 Market Square, Pittsburgh, PA 15222",
     bestFor: "Classical Pilates, private instruction, post-rehab, serious practitioners",
     signatureClass: "Classical Reformer & Apparatus",
-    bookingTip: "First session is a private intake assessment — book this before expecting group availability.",
+    bookingTip: "First session is a private intake assessment: book this before expecting group availability.",
   },
   {
     number: "5",
@@ -104,11 +104,11 @@ const STUDIOS = [
     neighborhood: "Mt. Lebanon",
     priceLevel: "$$$",
     review:
-      "Touchstone Pilates was the first Pittsburgh studio fully equipped with Gratz apparatus and is the only studio in the city teaching Romana's Pilates® — the method as handed down by Joseph Pilates to Romana Kryzanowska. Lisa Pellow trained with Romana and her daughter Sari Mejia Santo and became a Level Teacher Trainer in 2017, the same year Gratz featured Touchstone in its Featured Studio Series. The approach is demanding, the instruction is exceptional, and the results speak for themselves.",
+      "Touchstone Pilates was the first Pittsburgh studio fully equipped with Gratz apparatus and is the only studio in the city teaching Romana's Pilates®: the method as handed down by Joseph Pilates to Romana Kryzanowska. Lisa Pellow trained with Romana and her daughter Sari Mejia Santo and became a Level Teacher Trainer in 2017, the same year Gratz featured Touchstone in its Featured Studio Series. The approach is demanding, the instruction is exceptional, and the results speak for themselves.",
     address: "250 Mt. Lebanon Blvd, Suite 413, Pittsburgh, PA 15234",
     bestFor: "Romana's classical lineage, serious practitioners, full Gratz apparatus",
     signatureClass: "Romana's Classical Reformer",
-    bookingTip: "Waitlists are common for recurring private slots — inquire about openings directly with the studio.",
+    bookingTip: "Waitlists are common for recurring private slots: inquire about openings directly with the studio.",
   },
   {
     number: "6",
@@ -120,30 +120,30 @@ const STUDIOS = [
     address: "6634 Hamilton Ave, Pittsburgh, PA 15206",
     bestFor: "Point Breeze and East End residents, beginners, small-group instruction",
     signatureClass: "Reformer Foundation",
-    bookingTip: "The Saturday intro class fills — reserve your spot online rather than walking in.",
+    bookingTip: "The Saturday intro class fills: reserve your spot online rather than walking in.",
   },
 ];
 
 const BOOKING_TIPS = [
   {
     heading: "Pittsburgh winters reward a studio commitment made in autumn",
-    body: "Pittsburgh's winters are grey, wet, and long — from November through March, consistent outdoor movement is limited. Practitioners who lock in a studio routine before the cold arrives maintain it through winter. Book recurring slots in September and October before the demand spike.",
+    body: "Pittsburgh's winters are grey, wet, and long, from November through March, consistent outdoor movement is limited. Practitioners who lock in a studio routine before the cold arrives maintain it through winter. Book recurring slots in September and October before the demand spike.",
   },
   {
     heading: "The Oakland medical corridor creates strong therapeutic demand",
-    body: "Pittsburgh's concentration of world-class hospitals and research institutions — UPMC, Allegheny Health Network, Carnegie Mellon, Pitt — creates a large, health-literate population with elevated demand for evidence-informed Pilates instruction. Studios with rehabilitation specializations are particularly well-supported.",
+    body: "Pittsburgh's concentration of world-class hospitals and research institutions (UPMC, Allegheny Health Network, Carnegie Mellon, Pitt) creates a large, health-literate population with elevated demand for evidence-informed Pilates instruction. Studios with rehabilitation specializations are particularly well-supported.",
   },
   {
     heading: "Neighborhood geography matters more in Pittsburgh than most cities",
-    body: "Pittsburgh's bridges and hills mean that cross-neighborhood travel takes longer than distances suggest. Choose a studio within your habitual route — between home and work, or near your weekend grocery run. A great studio thirty minutes away will lose out to an adequate studio five minutes away.",
+    body: "Pittsburgh's bridges and hills mean that cross-neighborhood travel takes longer than distances suggest. Choose a studio within your habitual route, between home and work, or near your weekend grocery run. A great studio thirty minutes away will lose out to an adequate studio five minutes away.",
   },
   {
     heading: "Intro packages are the standard entry point across Pittsburgh studios",
-    body: "Every studio in Pittsburgh offers new-client introductory rates. Use the intro to evaluate instructor quality, community fit, and studio culture before committing. Classical studios in particular expect an initial private intake session — it is not optional.",
+    body: "Every studio in Pittsburgh offers new-client introductory rates. Use the intro to evaluate instructor quality, community fit, and studio culture before committing. Classical studios in particular expect an initial private intake session: it is not optional.",
   },
   {
     heading: "Grip socks are required at every reformer studio",
-    body: "Universal across Pittsburgh's reformer market. Full-toe grip socks are the standard — bring your own rather than paying front-desk retail prices.",
+    body: "Universal across Pittsburgh's reformer market. Full-toe grip socks are the standard: bring your own rather than paying front-desk retail prices.",
   },
 ];
 
@@ -151,7 +151,7 @@ const NEIGHBORHOODS = [
   {
     name: "Shadyside & East End",
     description:
-      "Pittsburgh's most walkable wellness corridor runs through Shadyside, East Liberty, and Point Breeze — a cluster of neighborhoods with a health-invested, professional population that supports both franchise studios and serious independent boutiques.",
+      "Pittsburgh's most walkable wellness corridor runs through Shadyside, East Liberty, and Point Breeze: a cluster of neighborhoods with a health-invested, professional population that supports both franchise studios and serious independent boutiques.",
   },
   {
     name: "Strip District",
@@ -197,16 +197,16 @@ const GEAR = [
   },
   {
     name: "High-Density Foam Roller",
-    note: "Our pick: OPTP PRO-Roller Foam Roller (36-inch). Post-class fascia release — invaluable after Pittsburgh's hill-heavy commutes and studio sessions.",
+    note: "Our pick: OPTP PRO-Roller Foam Roller (36-inch). Post-class fascia release: invaluable after Pittsburgh's hill-heavy commutes and studio sessions.",
     price: "$62.99",
     url: "https://www.amazon.com/dp/B002C9EX14?tag=pilatescollective-20",
   },
 ];
 
 const HOME_REFORMERS = [
-  { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work — three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
+  { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work: three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
   { tag: "Mid-Range Pick", name: "AeroPilates Pro XP 557", note: "AeroPilates' top-of-the-range home reformer, a step up for practitioners training several times a week.", price: "$1,329.99", url: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20" },
-  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order — an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
+  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
 ];
 
 const RELATED_CITIES = [
@@ -231,7 +231,7 @@ const FURTHER_READING = [
   {
     title: "Classical vs Contemporary Pilates",
     excerpt:
-      "The real differences between classical and contemporary approaches — and how to choose the right method for your goals.",
+      "The real differences between classical and contemporary approaches, and how to choose the right method for your goals.",
     href: "/blog/classical-vs-contemporary-pilates",
     category: "Education",
     readTime: "7 min read",
@@ -311,7 +311,7 @@ export default function PittsburghPage() {
             <p className="text-lg leading-relaxed" style={{ color: "#5c4f47" }}>
               Pittsburgh has quietly become one of the mid-Atlantic's most interesting wellness cities. The
               same renaissance that transformed the Strip District, East Liberty, and Lawrenceville into
-              destinations has also built a serious Pilates market — ranging from a nationally recognized
+              destinations has also built a serious Pilates market: ranging from a nationally recognized
               classical studio in Mt. Lebanon operating on full Gratz equipment, to boutique reformer
               spaces in Shadyside and Point Breeze that punch well above their size. Whether you're
               looking for Romana's lineage, aerial Pilates fusion, or accessible group reformer classes,
@@ -477,7 +477,7 @@ export default function PittsburghPage() {
 
         <CTASection
           title="Find Pilates near you"
-          subtitle="Use our AI Finder to discover studios in any city — coming soon."
+          subtitle="Use our AI Finder to discover studios in any city: coming soon."
           showSearch
           searchPlaceholder="Ask: best reformer Pilates in Pittsburgh…"
         />

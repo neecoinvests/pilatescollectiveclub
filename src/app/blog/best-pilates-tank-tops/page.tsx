@@ -11,7 +11,7 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Tank Tops (2026)",
-  description: "The best tank tops for Pilates — racerbacks, strappy styles, and seamless options compared on breathability, support, and reformer-ready fit. Our top picks for 2026.",
+  description: "The best tank tops for Pilates: racerbacks, strappy styles, and seamless options compared on breathability, support, and reformer-ready fit. Our top picks for 2026.",
   keywords: [
     "best pilates tank top",
     "best tank top for pilates",
@@ -54,7 +54,7 @@ const PRODUCTS = [
     name: "Alo Yoga Airlift Intrigue Tank",
     price: "$62",
     verdict: "Best Premium",
-    description: "Alo's Airlift fabric is their most technical offering — ultra-lightweight, compressive, and opaque in every colour. The Intrigue Tank features an open-cross back that elevates the silhouette while maximising airflow during heated reformer sessions. Worn equally for Pilates, yoga, and studio barre. Not sold on Amazon: this link goes to Alo Yoga's own site.",
+    description: "Alo's Airlift fabric is their most technical offering: ultra-lightweight, compressive, and opaque in every colour. The Intrigue Tank features an open-cross back that elevates the silhouette while maximising airflow during heated reformer sessions. Worn equally for Pilates, yoga, and studio barre. Not sold on Amazon: this link goes to Alo Yoga's own site.",
     affiliateUrl: "https://www.aloyoga.com",
     tag: "Premium",
   },
@@ -63,7 +63,7 @@ const PRODUCTS = [
     name: "Gymshark Flex Strappy Back Tank",
     price: "$35",
     verdict: "Best for Lagree",
-    description: "The multi-strap back of the Gymshark Flex Tank keeps you cool during high-output Lagree sessions while the fitted front stays in place through plank, pike, and mountain climber. Gymshark's Flex fabric has a subtle compression that doesn't restrict breathing — important during slow-twitch Megaformer work where breath control is essential. Not sold on Amazon: this link goes to Gymshark's own site.",
+    description: "The multi-strap back of the Gymshark Flex Tank keeps you cool during high-output Lagree sessions while the fitted front stays in place through plank, pike, and mountain climber. Gymshark's Flex fabric has a subtle compression that doesn't restrict breathing: important during slow-twitch Megaformer work where breath control is essential. Not sold on Amazon: this link goes to Gymshark's own site.",
     affiliateUrl: "https://www.gymshark.com",
     tag: "Lagree Favourite",
   },
@@ -102,7 +102,7 @@ const jsonLd = {
     {
       "@type": "Article",
       headline: "Best Pilates Tank Tops (2026)",
-      description: "The best tank tops for Pilates — racerbacks, strappy styles, and seamless options compared on breathability, support, and reformer-ready fit.",
+      description: "The best tank tops for Pilates: racerbacks, strappy styles, and seamless options compared on breathability, support, and reformer-ready fit.",
       url: "https://pilatescollectiveclub.com/blog/best-pilates-tank-tops",
       datePublished: "2026-07-06",
       dateModified: "2026-10-20",
@@ -128,9 +128,9 @@ const jsonLd = {
     {
       "@type": "FAQPage",
       mainEntity: [
-        { "@type": "Question", name: "What type of tank top is best for reformer Pilates?", acceptedAnswer: { "@type": "Answer", text: "A fitted or semi-fitted tank with a racerback or cross-back strap configuration is ideal for reformer Pilates. It stays in place during supine and prone exercises, doesn't interfere with straps or footbar, and allows instructors to observe spinal alignment. Avoid very loose tanks — they ride up during footwork and inversion-adjacent positions." } },
+        { "@type": "Question", name: "What type of tank top is best for reformer Pilates?", acceptedAnswer: { "@type": "Answer", text: "A fitted or semi-fitted tank with a racerback or cross-back strap configuration is ideal for reformer Pilates. It stays in place during supine and prone exercises, doesn't interfere with straps or footbar, and allows instructors to observe spinal alignment. Avoid very loose tanks: they ride up during footwork and inversion-adjacent positions." } },
         { "@type": "Question", name: "Should I wear a tank top or t-shirt for Lagree?", acceptedAnswer: { "@type": "Answer", text: "In heated Lagree studios, a tank top is usually the better choice due to the intensity of the workout and elevated room temperature. The open back of a strappy or racerback tank allows far more heat to escape than a t-shirt. For cooler studios, a fitted t-shirt or long-sleeve base layer may be more comfortable." } },
-        { "@type": "Question", name: "What length should a Pilates tank top be?", acceptedAnswer: { "@type": "Answer", text: "A medium-length tank — reaching the high hip — is the most practical for Pilates. It stays tucked during leg work and footbar exercises without being so long it bunches up. Very cropped tanks can expose the lower back during reformer exercises, which is a comfort issue in cooler studios." } },
+        { "@type": "Question", name: "What length should a Pilates tank top be?", acceptedAnswer: { "@type": "Answer", text: "A medium-length tank, reaching the high hip, is the most practical for Pilates. It stays tucked during leg work and footbar exercises without being so long it bunches up. Very cropped tanks can expose the lower back during reformer exercises, which is a comfort issue in cooler studios." } },
       ],
     },
   ],
@@ -196,9 +196,9 @@ export default function BestPilatesTankTopsPage() {
             <div style={{ marginTop: "64px" }}>
               <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "1.6rem", fontWeight: 400, color: "#1a1714", marginBottom: "32px" }}>Frequently Asked Questions</h2>
               {[
-                { q: "What type of tank top is best for reformer Pilates?", a: "A fitted or semi-fitted tank with a racerback or cross-back strap configuration is ideal for reformer Pilates. It stays in place during supine and prone exercises, doesn't interfere with straps or footbar, and allows instructors to observe spinal alignment. Avoid very loose tanks — they ride up during footwork and inversion-adjacent positions." },
+                { q: "What type of tank top is best for reformer Pilates?", a: "A fitted or semi-fitted tank with a racerback or cross-back strap configuration is ideal for reformer Pilates. It stays in place during supine and prone exercises, doesn't interfere with straps or footbar, and allows instructors to observe spinal alignment. Avoid very loose tanks: they ride up during footwork and inversion-adjacent positions." },
                 { q: "Should I wear a tank top or t-shirt for Lagree?", a: "In heated Lagree studios, a tank top is usually the better choice due to the intensity of the workout and elevated room temperature. The open back of a strappy or racerback tank allows far more heat to escape than a t-shirt. For cooler studios, a fitted t-shirt or long-sleeve base layer may be more comfortable." },
-                { q: "What length should a Pilates tank top be?", a: "A medium-length tank — reaching the high hip — is the most practical for Pilates. It stays tucked during leg work and footbar exercises without being so long it bunches up. Very cropped tanks can expose the lower back during reformer exercises, which is a comfort issue in cooler studios." },
+                { q: "What length should a Pilates tank top be?", a: "A medium-length tank, reaching the high hip, is the most practical for Pilates. It stays tucked during leg work and footbar exercises without being so long it bunches up. Very cropped tanks can expose the lower back during reformer exercises, which is a comfort issue in cooler studios." },
               ].map((item) => (
                 <div key={item.q} style={{ borderTop: "1px solid #ede6dc", paddingTop: "24px", paddingBottom: "24px" }}>
                   <h3 style={{ fontFamily: "var(--font-sans)", fontSize: "15px", fontWeight: 500, color: "#1a1714", marginBottom: "10px" }}>{item.q}</h3>
@@ -210,7 +210,7 @@ export default function BestPilatesTankTopsPage() {
             <div style={{ marginTop: "64px" }}>
               <h2 style={{ fontFamily: "var(--font-sans)", fontSize: "11px", fontWeight: 500, letterSpacing: "0.2em", textTransform: "uppercase", color: "#9a9490", marginBottom: "28px" }}>Further Reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="Best Pilates T-Shirts (2026)" excerpt="Technical tees from Lululemon, Vuori, Alo Yoga, Nike, and more — compared on breathability and studio-ready style." href="/blog/best-pilates-tshirts" category="Clothing" readTime="8 min" imageUrl="/pictures/stitch-retail-activewear.png" />
+                <ArticleCard title="Best Pilates T-Shirts (2026)" excerpt="Technical tees from Lululemon, Vuori, Alo Yoga, Nike, and more: compared on breathability and studio-ready style." href="/blog/best-pilates-tshirts" category="Clothing" readTime="8 min" imageUrl="/pictures/stitch-retail-activewear.png" />
                 <ArticleCard title="Best Moisture-Wicking Tops for Pilates & Spin" excerpt="The best sweat-wicking tops for high-intensity Lagree and spin sessions, ranked by breathability and fit." href="/blog/best-moisture-wicking-top-for-pilates-and-spin" category="Clothing" readTime="9 min" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
                 <ArticleCard title="Best Lagree Tops (2026): Fitted Tanks That Stay Put" excerpt="The best Lagree tops: fitted, sweat-wicking tanks that stay put in planks and never catch on springs or handles…" href="/blog/best-lagree-tops" category="Lagree" readTime="8 min read" imageUrl="/pictures/stitch-retail-activewear.png" />
                 <ArticleCard title="Best Pilates Tops (2026): Tanks, Bra Tops & Long-Sleeves" excerpt="The best tops for Pilates class, fitted tanks, bra tops, and long-sleeve options reviewed for reformer coverage…" href="/blog/best-pilates-workout-tops" category="Activewear" readTime="8 min read" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />

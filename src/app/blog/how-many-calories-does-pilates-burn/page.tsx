@@ -12,14 +12,14 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "How Many Calories Does Pilates Burn? (2026 Data)",
-  description: "How many calories does Pilates burn per session? Accurate data for mat vs reformer Pilates by body weight, intensity, and duration — plus how to track it accurately.",
+  description: "How many calories does Pilates burn per session? Accurate data for mat vs reformer Pilates by body weight, intensity, and duration, plus how to track it accurately.",
   keywords: ["how many calories does pilates burn", "pilates calorie burn", "calories burned pilates reformer", "pilates calories per hour", "reformer pilates calories burned", "mat pilates calories", "pilates weight loss calories", "does pilates burn calories"],
   openGraph: {
     title: "How Many Calories Does Pilates Burn? (2026 Data)",
-    description: "Accurate calorie data for mat and reformer Pilates — by body weight, intensity, and duration.",
+    description: "Accurate calorie data for mat and reformer Pilates, by body weight, intensity, and duration.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/how-many-calories-does-pilates-burn",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg", width: 1200, height: 630, alt: "How Many Calories Does Pilates Burn — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg", width: 1200, height: 630, alt: "How Many Calories Does Pilates Burn: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -48,7 +48,7 @@ const PRODUCTS = [
     price: "$142.99",
     verdict: "Best slim tracker for studio use",
     description:
-      "Garmin's Vivosmart 5 is the slimmest wrist tracker on this list — relevant for Pilates practitioners who find standard fitness bands distracting during reformer exercises where the wrist is in contact with the carriage. The continuous heart rate monitoring and Garmin's Body Battery energy tracking produce calorie data that is reliably within 10-15% of laboratory measurements, which is the realistic accuracy ceiling for optical wrist sensors during low-to-moderate intensity activity. The seven-day battery life is genuinely useful, and Garmin's health data ecosystem is the most comprehensive available for long-term trend analysis.",
+      "Garmin's Vivosmart 5 is the slimmest wrist tracker on this list: relevant for Pilates practitioners who find standard fitness bands distracting during reformer exercises where the wrist is in contact with the carriage. The continuous heart rate monitoring and Garmin's Body Battery energy tracking produce calorie data that is reliably within 10-15% of laboratory measurements, which is the realistic accuracy ceiling for optical wrist sensors during low-to-moderate intensity activity. The seven-day battery life is genuinely useful, and Garmin's health data ecosystem is the most comprehensive available for long-term trend analysis.",
     affiliateUrl: "https://www.amazon.com/dp/B09VY63659?tag=pilatescollective-20",
     tag: "Best Slim Profile",
   },
@@ -68,7 +68,7 @@ const PRODUCTS = [
     price: "$239.99",
     verdict: "Best for iPhone users",
     description:
-      "The Apple Watch SE delivers Apple's optical heart rate sensor and calorie algorithms in the most affordable Apple Watch configuration. For iPhone users already in the Apple Health ecosystem, the integration is seamless — Pilates sessions are logged automatically with calorie data that feeds directly into broader health trends. The Workout app includes Pilates as a specific exercise type in recent watchOS versions, improving calorie accuracy over the generic 'Other' workout category. The watch faces and band options available make it the most aesthetically considered fitness tracker for studio use, where the overall aesthetic of your kit is a consideration.",
+      "The Apple Watch SE delivers Apple's optical heart rate sensor and calorie algorithms in the most affordable Apple Watch configuration. For iPhone users already in the Apple Health ecosystem, the integration is seamless: Pilates sessions are logged automatically with calorie data that feeds directly into broader health trends. The Workout app includes Pilates as a specific exercise type in recent watchOS versions, improving calorie accuracy over the generic 'Other' workout category. The watch faces and band options available make it the most aesthetically considered fitness tracker for studio use, where the overall aesthetic of your kit is a consideration.",
     affiliateUrl: "https://www.amazon.com/dp/B0HJ9ZNRKT?tag=pilatescollective-20",
     tag: "Best for Apple Users",
   },
@@ -78,7 +78,7 @@ const PRODUCTS = [
     price: "$49.99",
     verdict: "Best budget tracker",
     description:
-      "Samsung's Galaxy Fit3 delivers continuous heart rate monitoring and calorie tracking at a price point significantly below the Fitbit and Garmin alternatives. The slim band design is comfortable during all Pilates positions including supine exercises where a thicker watch face creates discomfort. Accuracy is comparable to other optical wrist sensors at similar price points — within 15-20% of laboratory measurements for low-intensity activity. For Android users who want a functional activity tracker without committing to a premium price, the Galaxy Fit3 covers the core calorie-tracking function adequately. Battery life is excellent at up to 13 days.",
+      "Samsung's Galaxy Fit3 delivers continuous heart rate monitoring and calorie tracking at a price point significantly below the Fitbit and Garmin alternatives. The slim band design is comfortable during all Pilates positions including supine exercises where a thicker watch face creates discomfort. Accuracy is comparable to other optical wrist sensors at similar price points: within 15-20% of laboratory measurements for low-intensity activity. For Android users who want a functional activity tracker without committing to a premium price, the Galaxy Fit3 covers the core calorie-tracking function adequately. Battery life is excellent at up to 13 days.",
     affiliateUrl: "https://www.amazon.com/dp/B0CW3VWC3X?tag=pilatescollective-20",
     tag: "Best Budget Tracker",
   },
@@ -121,7 +121,7 @@ const jsonLd = {
       "mainEntity": [
         { "@type": "Question", "name": "How many calories does a 1 hour Pilates class burn?", "acceptedAnswer": { "@type": "Answer", "text": "A 60-minute mat Pilates class burns approximately 170-290 calories for a 60kg person, depending on intensity level. A 60-minute reformer Pilates class burns approximately 250-380 calories for the same person. Lagree or Megaformer classes, which use continuous resistance, can burn 400-500 calories per hour for a 60kg practitioner." } },
         { "@type": "Question", "name": "Does reformer Pilates burn more calories than mat?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, consistently. The spring resistance system of the reformer creates more muscular work than mat bodyweight exercises, elevating heart rate and calorie expenditure by 20-40% compared to mat Pilates at equivalent intensity levels. Advanced reformer classes can approach the calorie burn of moderate-intensity cycling." } },
-        { "@type": "Question", "name": "Is Pilates effective for calorie burning and weight loss?", "acceptedAnswer": { "@type": "Answer", "text": "Pilates burns meaningful calories, particularly reformer and athletic-format classes. Its primary advantage for weight management is not acute calorie burn but the combination of muscle development (which elevates resting metabolic rate), improved body composition, and — critically — high adherence rates. Practitioners sustain Pilates practice over years far more consistently than high-intensity exercise programmes, making the cumulative calorie effect significant." } },
+        { "@type": "Question", "name": "Is Pilates effective for calorie burning and weight loss?", "acceptedAnswer": { "@type": "Answer", "text": "Pilates burns meaningful calories, particularly reformer and athletic-format classes. Its primary advantage for weight management is not acute calorie burn but the combination of muscle development (which elevates resting metabolic rate), improved body composition, and, critically, high adherence rates. Practitioners sustain Pilates practice over years far more consistently than high-intensity exercise programmes, making the cumulative calorie effect significant." } },
       ],
     },
   ],
@@ -152,7 +152,7 @@ export default function CaloriesPilatesPage() {
             <TopPick name={PRODUCTS[1].name} price={PRODUCTS[1].price} note={QP_NOTES[1]} url={PRODUCTS[1].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Pilates burns significantly more calories than most people expect — and significantly less than most fitness apps report. The truth is somewhere between the dismissive claim that Pilates is "just stretching" and the inflated numbers that studio marketing uses. Here is what the metabolic research actually shows, broken down by format, intensity, and body weight.
+              Pilates burns significantly more calories than most people expect, and significantly less than most fitness apps report. The truth is somewhere between the dismissive claim that Pilates is "just stretching" and the inflated numbers that studio marketing uses. Here is what the metabolic research actually shows, broken down by format, intensity, and body weight.
             </p>
           </div>
         </section>
@@ -251,7 +251,7 @@ export default function CaloriesPilatesPage() {
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="Pilates for Weight Loss" excerpt="What Pilates does and doesn't do for weight loss — the honest, evidence-based answer." href="/blog/pilates-for-weight-loss" category="Guide" readTime="7 min read" date="April 2026" imageUrl="/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg" />
+                <ArticleCard title="Pilates for Weight Loss" excerpt="What Pilates does and doesn't do for weight loss: the honest, evidence-based answer." href="/blog/pilates-for-weight-loss" category="Guide" readTime="7 min read" date="April 2026" imageUrl="/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg" />
                 <ArticleCard title="Does Pilates Build Muscle?" excerpt="The honest science-based answer on Pilates and muscle development." href="/blog/does-pilates-build-muscle" category="Guide" readTime="8 min read" date="June 2026" imageUrl="/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg" />
                 <ArticleCard title="How Many Calories Does Lagree Burn? (2026 Honest Numbers)" excerpt="How many calories a 50-minute Lagree class burns: studio claims vs the research, a table by body weight and…" href="/blog/how-many-calories-does-lagree-burn" category="Lagree" readTime="9 min read" imageUrl="/pictures/stitch-pilates-essentials-logbook.png" />
                 <ArticleCard title="Best Heart Rate Monitor for Pilates & Spin (2026)" excerpt="The best heart rate monitor chest straps for Pilates, Lagree, and spin class, Polar, CooSpo, CYCPLUS and Powr Labs…" href="/blog/best-heart-rate-monitor-for-pilates-and-spin" category="Spin" readTime="8 min read" imageUrl="/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg" />

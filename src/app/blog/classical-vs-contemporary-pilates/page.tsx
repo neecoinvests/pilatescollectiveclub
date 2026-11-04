@@ -16,15 +16,15 @@ export const metadata: Metadata = {
   description: "Classical vs. contemporary Pilates: repertoire, equipment, and teaching philosophy compared. Which method is right for your body and goals?",
   openGraph: {
     title: "Classical vs Contemporary Pilates: Which Style Is Right for You?",
-    description: "Understanding the key differences between classical and contemporary Pilates — the original method, modern interpretations, and how to choose the right approach.",
+    description: "Understanding the key differences between classical and contemporary Pilates: the original method, modern interpretations, and how to choose the right approach.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/classical-vs-contemporary-pilates",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg", width: 1200, height: 630, alt: "Classical vs Contemporary Pilates — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg", width: 1200, height: 630, alt: "Classical vs Contemporary Pilates: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Classical vs Contemporary Pilates: Which Style Is Right for You?",
-    description: "The original method vs modern interpretations — how to choose the right Pilates style for your goals.",
+    description: "The original method vs modern interpretations: how to choose the right Pilates style for your goals.",
     images: ["https://pilatescollectiveclub.com/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg"],
   },
   keywords: ["classical vs contemporary pilates", "classical pilates method", "contemporary pilates", "stott pilates vs classical", "contrology pilates", "romana pilates vs stott", "pilates method differences", "what is classical pilates", "what is contemporary pilates", "pilates lineage explained 2026"],
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
 const RELATED = [
   {
     title: "The 6 Core Principles of Pilates, Explained",
-    excerpt: "Concentration, control, centering, precision, breath, and flow — what they actually mean in practice.",
+    excerpt: "Concentration, control, centering, precision, breath, and flow: what they actually mean in practice.",
     href: "/blog/6-core-principles-of-pilates-explained",
     category: "Method",
     readTime: "6 min read",
@@ -126,10 +126,10 @@ const jsonLd = {
   ],
 };
 const PRODUCTS = [
-  { name: "Return to Life Through Contrology", description: "The classical canon — 34 exercises in sequence as Joseph Pilates designed them. Reading it alongside modern instruction reveals exactly what has changed and what has stayed the same.", price: "$17.90", affiliateUrl: "https://www.amazon.com/dp/1928564909?tag=pilatescollective-20" },
-  { name: "Pilates Anatomy by Rael Isacowitz", description: "Contemporary perspective on Pilates biomechanics from the BASI Systems founder. Represents the thoughtful, evidence-informed approach of the contemporary school — grounded in the original method.", price: "$17.81", affiliateUrl: "https://www.amazon.com/dp/1492567701?tag=pilatescollective-20" },
+  { name: "Return to Life Through Contrology", description: "The classical canon, 34 exercises in sequence as Joseph Pilates designed them. Reading it alongside modern instruction reveals exactly what has changed and what has stayed the same.", price: "$17.90", affiliateUrl: "https://www.amazon.com/dp/1928564909?tag=pilatescollective-20" },
+  { name: "Pilates Anatomy by Rael Isacowitz", description: "Contemporary perspective on Pilates biomechanics from the BASI Systems founder. Represents the thoughtful, evidence-informed approach of the contemporary school: grounded in the original method.", price: "$17.81", affiliateUrl: "https://www.amazon.com/dp/1492567701?tag=pilatescollective-20" },
   { name: "Manduka PRO Pilates Mat", description: "Both schools begin here. Classical and contemporary practitioners agree on one thing: a quality mat is non-negotiable. The PRO handles both rolling exercises and stability work equally well.", price: "$144.00", affiliateUrl: "https://www.amazon.com/dp/B0066T7I54?tag=pilatescollective-20" },
-  { name: "Balanced Body Magic Circle", description: "Used in both traditions — classical as Joseph Pilates designed it, contemporary with modifications. One of the few apparatus pieces that crosses the classical-contemporary divide without controversy.", price: "$35.00", affiliateUrl: "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20" },
+  { name: "Balanced Body Magic Circle", description: "Used in both traditions: classical as Joseph Pilates designed it, contemporary with modifications. One of the few apparatus pieces that crosses the classical-contemporary divide without controversy.", price: "$35.00", affiliateUrl: "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20" },
   { name: "TheraBand Resistance Bands Set", description: "More associated with contemporary STOTT-influenced approaches than classical practice. Bands allow the progressive, rehabilitation-informed resistance work that distinguishes contemporary from classical protocols.", price: "$11.99", affiliateUrl: "https://www.amazon.com/dp/B01A58FHQ8?tag=pilatescollective-20" },
 ];
 
@@ -168,25 +168,25 @@ export default function ClassicalVsContemporaryPage() {
             <article className="prose-custom">
 
               <Section title="The classical method: Pilates as Joseph intended it">
-                <p>Classical Pilates refers to the original system developed by Joseph Pilates between the 1920s and his death in 1967. The exercises — both on the mat and on apparatus like the reformer, Cadillac, chair, and barrel — are performed in a specific sequence that Joseph prescribed and his direct students preserved.</p>
+                <p>Classical Pilates refers to the original system developed by Joseph Pilates between the 1920s and his death in 1967. The exercises (both on the mat and on apparatus like the reformer, Cadillac, chair, and barrel) are performed in a specific sequence that Joseph prescribed and his direct students preserved.</p>
                 <p>The classical order is not arbitrary. Each exercise prepares the body for the next: sequences flow from supine to prone, from global to local, building cumulative challenge within each session. Performing the exercises out of order, or substituting modified versions, changes the physiological effect of the whole.</p>
-                <p>Classical teachers typically train through lineages connected directly to Joseph&apos;s original students — Romana Kryzanowska, Kathy Grant, Ron Fletcher, and others. Gratz equipment (the brand Joseph himself used) is preferred by many classical practitioners for its specific spring tensions and dimensions.</p>
+                <p>Classical teachers typically train through lineages connected directly to Joseph&apos;s original students: Romana Kryzanowska, Kathy Grant, Ron Fletcher, and others. Gratz equipment (the brand Joseph himself used) is preferred by many classical practitioners for its specific spring tensions and dimensions.</p>
               </Section>
 
               <Callout>
-                Classical Pilates is a system, not a collection of exercises. The order, the transitions, the breath — all of it is intentional.
+                Classical Pilates is a system, not a collection of exercises. The order, the transitions, the breath: all of it is intentional.
               </Callout>
 
               <Section title="Contemporary Pilates: evolution or departure?">
                 <p>Contemporary Pilates emerged in the latter decades of the 20th century as physical therapy research, biomechanics, and exercise science began to inform how Pilates teachers trained and taught. Organisations like STOTT Pilates and BASI (Body Arts and Science International) developed contemporary curricula that incorporated modern understanding of spinal anatomy, neutral spine positioning, and muscle activation sequencing.</p>
-                <p>The result is a version of Pilates that is more adaptive, more evidence-informed, and better suited to clinical populations — people recovering from injury, those with significant postural imbalances, or clients with specific rehabilitation needs. Contemporary teachers modify exercises freely, often prioritise neutral spine over Joseph&apos;s preferred imprinted position, and integrate props and functional movement patterns that weren&apos;t part of the original repertoire.</p>
+                <p>The result is a version of Pilates that is more adaptive, more evidence-informed, and better suited to clinical populations: people recovering from injury, those with significant postural imbalances, or clients with specific rehabilitation needs. Contemporary teachers modify exercises freely, often prioritise neutral spine over Joseph&apos;s preferred imprinted position, and integrate props and functional movement patterns that weren&apos;t part of the original repertoire.</p>
                 <p>This flexibility is a genuine strength. But contemporary Pilates also encompasses a wide range of quality: at its best, it is rigorous, intelligent, and highly personalised; at its worst, it is indistinguishable from generic core conditioning classes with reformers.</p>
               </Section>
 
               <Section title="Fusion formats: Pilates-adjacent or something else?">
                 <p>The explosion of boutique fitness studios has produced a third category: Pilates-fusion formats that borrow the reformer, the vocabulary, and the aesthetic of Pilates while departing significantly from its principles. &quot;Cardio reformer,&quot; &quot;Pilates barre,&quot; &quot;Lagree method,&quot; and various branded formats occupy this space.</p>
-                <p>These classes can be excellent workouts. Lagree in particular is a serious, evidence-backed training methodology that produces genuine results. But they are not Pilates — and representing them as such misleads new practitioners about what the method actually is and does.</p>
-                <p>If you&apos;re new to reformer training, trying a fusion format first is fine — the movement literacy you develop will serve you in any format. But understanding that the &quot;reformer class&quot; you&apos;re attending may bear little methodological relationship to the work Pilates actually requires is an important piece of context.</p>
+                <p>These classes can be excellent workouts. Lagree in particular is a serious, evidence-backed training methodology that produces genuine results. But they are not Pilates, and representing them as such misleads new practitioners about what the method actually is and does.</p>
+                <p>If you&apos;re new to reformer training, trying a fusion format first is fine: the movement literacy you develop will serve you in any format. But understanding that the &quot;reformer class&quot; you&apos;re attending may bear little methodological relationship to the work Pilates actually requires is an important piece of context.</p>
               </Section>
 
               <div className="my-12 rounded-2xl overflow-hidden" style={{ border: "1px solid rgba(217, 194, 186, 0.4)" }}>
@@ -223,8 +223,8 @@ export default function ClassicalVsContemporaryPage() {
               </div>
 
               <Section title="Which should you choose?">
-                <p>If you&apos;re coming to Pilates to understand the method in its original, structured form — if you&apos;re drawn to the idea of a system with internal logic and historical depth — classical Pilates will resonate deeply. The fixed repertoire, executed with increasing precision over months and years, is one of the most rewarding practices in movement.</p>
-                <p>If you&apos;re dealing with an injury, significant postural issues, or want a practice that adapts clearly to your individual needs, contemporary Pilates in the hands of a well-trained instructor is the right choice. The flexibility of the contemporary approach isn&apos;t a compromise — it&apos;s a strength in the right context.</p>
+                <p>If you&apos;re coming to Pilates to understand the method in its original, structured form, if you&apos;re drawn to the idea of a system with internal logic and historical depth, classical Pilates will resonate deeply. The fixed repertoire, executed with increasing precision over months and years, is one of the most rewarding practices in movement.</p>
+                <p>If you&apos;re dealing with an injury, significant postural issues, or want a practice that adapts clearly to your individual needs, contemporary Pilates in the hands of a well-trained instructor is the right choice. The flexibility of the contemporary approach isn&apos;t a compromise: it&apos;s a strength in the right context.</p>
                 <p>The honest answer for most beginners is: don&apos;t overthink it. Find a studio with qualified instructors, small classes, and good equipment. Attend consistently. Your body will show you, over time, which direction to deepen.</p>
               </Section>
 

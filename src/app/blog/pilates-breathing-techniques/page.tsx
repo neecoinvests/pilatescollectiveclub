@@ -16,10 +16,10 @@ export const metadata: Metadata = {
   keywords: ["pilates breathing", "pilates breathing techniques", "lateral breathing pilates", "how to breathe in pilates", "pilates breathing exercises", "intercostal breathing", "pilates breath pattern", "pilates breathing for beginners", "diaphragmatic vs lateral breathing", "pilates breathing 2026"],
   openGraph: {
     title: "Pilates Breathing Techniques (2026): Lateral Breathing Explained",
-    description: "Why Pilates breathes into the ribs rather than the belly — and how to learn the pattern properly.",
+    description: "Why Pilates breathes into the ribs rather than the belly, and how to learn the pattern properly.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/pilates-breathing-techniques",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-Zp4APUiwEsM-unsplash.jpg", width: 1200, height: 630, alt: "Pilates Breathing Techniques — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-Zp4APUiwEsM-unsplash.jpg", width: 1200, height: 630, alt: "Pilates Breathing Techniques: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -37,7 +37,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Pilates Breathing Techniques (2026): Lateral Breathing Explained",
-      "description": "A guide to breathing in Pilates — lateral ribcage breathing, how it differs from diaphragmatic belly breathing, breath patterns for key exercises, and common faults.",
+      "description": "A guide to breathing in Pilates: lateral ribcage breathing, how it differs from diaphragmatic belly breathing, breath patterns for key exercises, and common faults.",
       "url": "https://pilatescollectiveclub.com/blog/pilates-breathing-techniques",
       "datePublished": "2026-09-09",
       "dateModified": "2026-10-20",
@@ -57,20 +57,20 @@ const jsonLd = {
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "What is lateral breathing in Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "Lateral breathing — also called intercostal or ribcage breathing — directs the inhale sideways and backwards into the lower ribs rather than forwards into the abdomen. The ribs widen laterally like a bellows while the abdominal wall stays gently drawn in. The diaphragm still descends and does the same work it always does; what changes is where the expansion is allowed to show. This lets you maintain abdominal engagement continuously while still breathing fully, which is why the method uses it." } },
-        { "@type": "Question", "name": "Do you breathe in through the nose or mouth in Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "The convention is to inhale through the nose and exhale through the mouth, and it is a practical convention rather than a rule. Nasal inhalation filters and slows the breath and encourages a fuller lateral expansion. Exhaling through the mouth — often through slightly pursed lips, sometimes with an audible sound — encourages a longer, more complete exhale, which is what recruits the deep abdominals. If a blocked nose makes nasal breathing impractical, mouth breathing throughout is fine and will not undermine the exercise." } },
-        { "@type": "Question", "name": "Why do I get dizzy or lightheaded during Pilates breathing?", "acceptedAnswer": { "@type": "Answer", "text": "Almost always over-breathing — inhaling harder and more often than needed while concentrating on the pattern, which lowers carbon dioxide levels and produces lightheadedness. The fix is to make the exhale longer than the inhale and let the breath stay quiet rather than forceful. Breath-holding, which is the other common cause, produces the same sensation on release. If lightheadedness persists once your breathing has settled, stop the session and get it checked rather than pushing through it." } },
-        { "@type": "Question", "name": "When should I inhale and exhale in Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "The general rule in contemporary Pilates is to exhale on the effort — the flexion, the lift, the moment of greatest abdominal demand — and inhale on the return or preparation. Exhaling naturally recruits the deep abdominal wall and pelvic floor, so it supports the spine exactly when support is most needed. Classical Pilates sometimes reverses this deliberately, notably inhaling into spinal extension. Both are legitimate; what matters far more than the direction is that you keep breathing rather than holding." } },
+        { "@type": "Question", "name": "What is lateral breathing in Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "Lateral breathing, also called intercostal or ribcage breathing, directs the inhale sideways and backwards into the lower ribs rather than forwards into the abdomen. The ribs widen laterally like a bellows while the abdominal wall stays gently drawn in. The diaphragm still descends and does the same work it always does; what changes is where the expansion is allowed to show. This lets you maintain abdominal engagement continuously while still breathing fully, which is why the method uses it." } },
+        { "@type": "Question", "name": "Do you breathe in through the nose or mouth in Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "The convention is to inhale through the nose and exhale through the mouth, and it is a practical convention rather than a rule. Nasal inhalation filters and slows the breath and encourages a fuller lateral expansion. Exhaling through the mouth (often through slightly pursed lips, sometimes with an audible sound) encourages a longer, more complete exhale, which is what recruits the deep abdominals. If a blocked nose makes nasal breathing impractical, mouth breathing throughout is fine and will not undermine the exercise." } },
+        { "@type": "Question", "name": "Why do I get dizzy or lightheaded during Pilates breathing?", "acceptedAnswer": { "@type": "Answer", "text": "Almost always over-breathing: inhaling harder and more often than needed while concentrating on the pattern, which lowers carbon dioxide levels and produces lightheadedness. The fix is to make the exhale longer than the inhale and let the breath stay quiet rather than forceful. Breath-holding, which is the other common cause, produces the same sensation on release. If lightheadedness persists once your breathing has settled, stop the session and get it checked rather than pushing through it." } },
+        { "@type": "Question", "name": "When should I inhale and exhale in Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "The general rule in contemporary Pilates is to exhale on the effort (the flexion, the lift, the moment of greatest abdominal demand) and inhale on the return or preparation. Exhaling naturally recruits the deep abdominal wall and pelvic floor, so it supports the spine exactly when support is most needed. Classical Pilates sometimes reverses this deliberately, notably inhaling into spinal extension. Both are legitimate; what matters far more than the direction is that you keep breathing rather than holding." } },
       ],
     },
   ],
 };
 
 const PRODUCTS = [
-  { name: "Sports Research Sweet Sweat Hip Bands (3 Levels)", description: "Wrapped around the lower ribs, a light band gives the tactile feedback that makes lateral breathing click. You breathe into the resistance and feel the ribs widen — far more effective than trying to feel it unaided.", price: "$19.95", affiliateUrl: "https://www.amazon.com/dp/B08PPYTHPR?tag=pilatescollective-20" },
+  { name: "Sports Research Sweet Sweat Hip Bands (3 Levels)", description: "Wrapped around the lower ribs, a light band gives the tactile feedback that makes lateral breathing click. You breathe into the resistance and feel the ribs widen: far more effective than trying to feel it unaided.", price: "$19.95", affiliateUrl: "https://www.amazon.com/dp/B08PPYTHPR?tag=pilatescollective-20" },
   { name: "OPTP Foam Roller (36-inch)", description: "Lying lengthwise along the spine opens the front of the ribcage and lets gravity assist the lateral expansion. The single most useful prop for learning the pattern, and it doubles as thoracic mobility work.", price: "$62.99", affiliateUrl: "https://www.amazon.com/dp/B002C9EX14?tag=pilatescollective-20" },
   { name: "Trideer 9-inch Pilates Ball", description: "Placed between the shoulder blades or under the ribs, it gives a reference point for where the breath should travel. Also used in seated breathing work to keep the spine tall without gripping.", price: "$7.99", affiliateUrl: "https://www.amazon.com/dp/B077QD9TFF?tag=pilatescollective-20" },
-  { name: "Balanced Body Magic Circle", description: "Light pressure between the hands during seated breathing engages the connection between the arms, ribcage and deep abdominals — a classic drill for linking breath to upper body position.", price: "$35.00", affiliateUrl: "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20" },
+  { name: "Balanced Body Magic Circle", description: "Light pressure between the hands during seated breathing engages the connection between the arms, ribcage and deep abdominals: a classic drill for linking breath to upper body position.", price: "$35.00", affiliateUrl: "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20" },
   { name: "Manduka PRO Pilates Mat", description: "Breathing work is done lying down for long stretches. A 6mm mat keeps the spine comfortable enough that you can stay there for the ten minutes the practice actually takes.", price: "$144.00", affiliateUrl: "https://www.amazon.com/dp/B0066T7I54?tag=pilatescollective-20" },
 ];
 
@@ -99,7 +99,7 @@ export default function PilatesBreathingTechniquesPage() {
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Breathing is the first of the six classical Pilates principles and the one most people quietly ignore for their first year. That is understandable — it feels like an instruction about something you already know how to do. But the breath pattern is not decoration on top of the exercises; it is the mechanism that makes abdominal engagement possible while you are still taking in air. Once it clicks, the rest of the method becomes noticeably easier.
+              Breathing is the first of the six classical Pilates principles and the one most people quietly ignore for their first year. That is understandable: it feels like an instruction about something you already know how to do. But the breath pattern is not decoration on top of the exercises; it is the mechanism that makes abdominal engagement possible while you are still taking in air. Once it clicks, the rest of the method becomes noticeably easier.
             </p>
           </div>
         </section>
@@ -107,7 +107,7 @@ export default function PilatesBreathingTechniquesPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/roxana-popovici-Zp4APUiwEsM-unsplash.jpg" alt="Pilates breathing technique — lateral ribcage expansion practised in a supine position" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/roxana-popovici-Zp4APUiwEsM-unsplash.jpg" alt="Pilates breathing technique: lateral ribcage expansion practised in a supine position" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>
         </section>
@@ -121,14 +121,14 @@ export default function PilatesBreathingTechniquesPage() {
             <div className="mb-14 mt-4">
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Why Pilates does not use belly breathing</h2>
               <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Most breathing instruction you have encountered — in yoga, meditation, or a physiotherapy clinic — teaches diaphragmatic breathing, where the belly rises on the inhale. It is an excellent pattern for relaxation and it is not wrong. It is simply incompatible with what Pilates is asking the abdominal wall to do.
+                Most breathing instruction you have encountered (in yoga, meditation, or a physiotherapy clinic) teaches diaphragmatic breathing, where the belly rises on the inhale. It is an excellent pattern for relaxation and it is not wrong. It is simply incompatible with what Pilates is asking the abdominal wall to do.
               </p>
               <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                 Pilates asks for near-continuous engagement of the deep abdominals to stabilise the spine while the limbs move. If the belly expands outward on every inhale, that engagement releases twelve to sixteen times a minute. You would be alternating between stabilising and letting go, which defeats the purpose of the exercise.
               </p>
               <p className="text-base leading-relaxed">
                 <span style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                  Lateral breathing resolves the conflict. The diaphragm still descends and still does its job — this is a common misunderstanding, and lateral breathing is not somehow non-diaphragmatic. What changes is where the expansion is permitted to show. Instead of the abdominal wall moving forward, the lower ribs widen sideways and backwards, hinging at their joints with the spine. You get a full breath, and the abdominal wall never has to release.
+                  Lateral breathing resolves the conflict. The diaphragm still descends and still does its job: this is a common misunderstanding, and lateral breathing is not somehow non-diaphragmatic. What changes is where the expansion is permitted to show. Instead of the abdominal wall moving forward, the lower ribs widen sideways and backwards, hinging at their joints with the spine. You get a full breath, and the abdominal wall never has to release.
                 </span>
               </p>
             </div>
@@ -139,7 +139,7 @@ export default function PilatesBreathingTechniquesPage() {
                 {[
                   {
                     title: "1. Find the ribs with your hands",
-                    body: "Sit or lie with knees bent. Place your hands on the sides of your lower ribcage, thumbs pointing back, fingers wrapping around the front. Breathe in and try to widen your hands apart without letting the belly push forward or the chest lift toward the chin. Most people feel almost nothing on the first few attempts — the movement is a couple of centimetres, not a dramatic expansion.",
+                    body: "Sit or lie with knees bent. Place your hands on the sides of your lower ribcage, thumbs pointing back, fingers wrapping around the front. Breathe in and try to widen your hands apart without letting the belly push forward or the chest lift toward the chin. Most people feel almost nothing on the first few attempts: the movement is a couple of centimetres, not a dramatic expansion.",
                   },
                   {
                     title: "2. Add a band for feedback",
@@ -147,11 +147,11 @@ export default function PilatesBreathingTechniquesPage() {
                   },
                   {
                     title: "3. Lengthen the exhale",
-                    body: "Inhale for a count of three, exhale for a count of five or six through slightly pursed lips. The long exhale is where the deep abdominals and pelvic floor engage automatically — you do not need to consciously pull anything in. Feel the ribs draw down and together at the end of the exhale. That closing action is the position from which the next breath should start.",
+                    body: "Inhale for a count of three, exhale for a count of five or six through slightly pursed lips. The long exhale is where the deep abdominals and pelvic floor engage automatically: you do not need to consciously pull anything in. Feel the ribs draw down and together at the end of the exhale. That closing action is the position from which the next breath should start.",
                   },
                   {
                     title: "4. Attach it to movement",
-                    body: "Only once the pattern is comfortable at rest should you add exercises. Start with something simple — knee folds, pelvic tilts, a small bridge — exhaling on the effort. Expect the pattern to fall apart the moment the exercise becomes demanding. That is normal, and the fix is to regress the exercise rather than abandon the breath.",
+                    body: "Only once the pattern is comfortable at rest should you add exercises. Start with something simple (knee folds, pelvic tilts, a small bridge) exhaling on the effort. Expect the pattern to fall apart the moment the exercise becomes demanding. That is normal, and the fix is to regress the exercise rather than abandon the breath.",
                   },
                 ].map((item) => (
                   <div key={item.title} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
@@ -166,11 +166,11 @@ export default function PilatesBreathingTechniquesPage() {
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Breath patterns for the exercises you will actually meet</h2>
               <div className="space-y-4">
                 {[
-                  { label: "The Hundred", body: "Five short pumps on the inhale, five on the exhale, ten cycles. The percussive breath is the exercise as much as the arm beat is — it is a deliberate challenge to maintain abdominal engagement while breathing rhythmically under load. If you find yourself holding the breath and pumping the arms, stop and restart at a slower tempo." },
+                  { label: "The Hundred", body: "Five short pumps on the inhale, five on the exhale, ten cycles. The percussive breath is the exercise as much as the arm beat is: it is a deliberate challenge to maintain abdominal engagement while breathing rhythmically under load. If you find yourself holding the breath and pumping the arms, stop and restart at a slower tempo." },
                   { label: "Roll-up", body: "Inhale to prepare and lengthen the spine, exhale through the whole articulation up. The long exhale is what allows the lumbar spine to flex segmentally instead of lifting as a rigid block. Inhale at the top, exhale to roll down. This is the exercise where breath most obviously determines whether the movement is possible." },
                   { label: "Single leg stretch and the abdominal series", body: "Exhale on each change of leg, or exhale across two changes if the pace is quick. The exhale coincides with the moment of greatest demand on the deep abdominals, which is exactly when you want them recruited." },
                   { label: "Spine stretch forward", body: "Inhale to sit tall and lengthen, exhale to curl forward over the legs. The exhale draws the ribs down and lets the thoracic spine flex properly rather than the movement coming from the hips." },
-                  { label: "Bridge / shoulder bridge", body: "Exhale to roll the pelvis up, inhale at the top, exhale to roll down vertebra by vertebra. Slower than most people do it — the point is the segmental articulation, and a long exhale is what paces it." },
+                  { label: "Bridge / shoulder bridge", body: "Exhale to roll the pelvis up, inhale at the top, exhale to roll down vertebra by vertebra. Slower than most people do it: the point is the segmental articulation, and a long exhale is what paces it." },
                   { label: "Swan and extension work", body: "This is where classical and contemporary schools differ. Contemporary practice usually exhales into the lift for abdominal support. Classical practice often inhales into extension, using the breath to expand the chest and assist the shape. Both are defensible; follow whichever your instructor cues rather than fighting the room." },
                 ].map((item) => (
                   <div key={item.label} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
@@ -186,7 +186,7 @@ export default function PilatesBreathingTechniquesPage() {
               <ul className="space-y-3">
                 {[
                   "Holding the breath during the hard part. The most common fault by a wide margin, and the one that most reliably raises blood pressure and stalls the exercise. If you cannot maintain the breath, the exercise is too advanced for today.",
-                  "Breathing into the shoulders. If the collarbones and shoulders rise toward the ears on the inhale, the accessory neck muscles are doing the work — this is the direct cause of the neck tension many beginners blame on the exercises themselves.",
+                  "Breathing into the shoulders. If the collarbones and shoulders rise toward the ears on the inhale, the accessory neck muscles are doing the work: this is the direct cause of the neck tension many beginners blame on the exercises themselves.",
                   "Letting the belly balloon on the inhale. The default pattern reasserting itself. Nothing harmful about it, but it releases the engagement the exercise depends on.",
                   "Flaring the ribs upward rather than widening them sideways. The lower ribs should move out and back, not lift toward the ceiling. Rib flare tips the pelvis and extends the lumbar spine.",
                   "Forcing the breath. Pilates breathing should be full but quiet. Audible, effortful inhalation usually means over-breathing, which is what produces the lightheadedness beginners often report.",
@@ -207,7 +207,7 @@ export default function PilatesBreathingTechniquesPage() {
               </p>
               <p className="text-base leading-relaxed">
                 <span style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                  The practical implication is that a long, complete exhale does most of the work for you. If you are working on pelvic floor function — postnatally, around menopause, or after prostate surgery — the breath pattern is not a preliminary to the exercises. It largely is the exercise, and it is worth spending several weeks on it before adding load.
+                  The practical implication is that a long, complete exhale does most of the work for you. If you are working on pelvic floor function (postnatally, around menopause, or after prostate surgery) the breath pattern is not a preliminary to the exercises. It largely is the exercise, and it is worth spending several weeks on it before adding load.
                 </span>
               </p>
             </div>
@@ -216,10 +216,10 @@ export default function PilatesBreathingTechniquesPage() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "What is lateral breathing in Pilates?", a: "Lateral breathing — also called intercostal or ribcage breathing — directs the inhale sideways and backwards into the lower ribs rather than forwards into the abdomen. The ribs widen laterally like a bellows while the abdominal wall stays gently drawn in. The diaphragm still descends and does the same work it always does; what changes is where the expansion is allowed to show. This lets you maintain abdominal engagement continuously while still breathing fully, which is why the method uses it." },
-                  { q: "Do you breathe in through the nose or mouth in Pilates?", a: "The convention is to inhale through the nose and exhale through the mouth, and it is a practical convention rather than a rule. Nasal inhalation filters and slows the breath and encourages a fuller lateral expansion. Exhaling through the mouth — often through slightly pursed lips, sometimes with an audible sound — encourages a longer, more complete exhale, which is what recruits the deep abdominals. If a blocked nose makes nasal breathing impractical, mouth breathing throughout is fine and will not undermine the exercise." },
-                  { q: "Why do I get dizzy or lightheaded during Pilates breathing?", a: "Almost always over-breathing — inhaling harder and more often than needed while concentrating on the pattern, which lowers carbon dioxide levels and produces lightheadedness. The fix is to make the exhale longer than the inhale and let the breath stay quiet rather than forceful. Breath-holding, which is the other common cause, produces the same sensation on release. If lightheadedness persists once your breathing has settled, stop the session and get it checked rather than pushing through it." },
-                  { q: "When should I inhale and exhale in Pilates?", a: "The general rule in contemporary Pilates is to exhale on the effort — the flexion, the lift, the moment of greatest abdominal demand — and inhale on the return or preparation. Exhaling naturally recruits the deep abdominal wall and pelvic floor, so it supports the spine exactly when support is most needed. Classical Pilates sometimes reverses this deliberately, notably inhaling into spinal extension. Both are legitimate; what matters far more than the direction is that you keep breathing rather than holding." },
+                  { q: "What is lateral breathing in Pilates?", a: "Lateral breathing, also called intercostal or ribcage breathing, directs the inhale sideways and backwards into the lower ribs rather than forwards into the abdomen. The ribs widen laterally like a bellows while the abdominal wall stays gently drawn in. The diaphragm still descends and does the same work it always does; what changes is where the expansion is allowed to show. This lets you maintain abdominal engagement continuously while still breathing fully, which is why the method uses it." },
+                  { q: "Do you breathe in through the nose or mouth in Pilates?", a: "The convention is to inhale through the nose and exhale through the mouth, and it is a practical convention rather than a rule. Nasal inhalation filters and slows the breath and encourages a fuller lateral expansion. Exhaling through the mouth (often through slightly pursed lips, sometimes with an audible sound) encourages a longer, more complete exhale, which is what recruits the deep abdominals. If a blocked nose makes nasal breathing impractical, mouth breathing throughout is fine and will not undermine the exercise." },
+                  { q: "Why do I get dizzy or lightheaded during Pilates breathing?", a: "Almost always over-breathing: inhaling harder and more often than needed while concentrating on the pattern, which lowers carbon dioxide levels and produces lightheadedness. The fix is to make the exhale longer than the inhale and let the breath stay quiet rather than forceful. Breath-holding, which is the other common cause, produces the same sensation on release. If lightheadedness persists once your breathing has settled, stop the session and get it checked rather than pushing through it." },
+                  { q: "When should I inhale and exhale in Pilates?", a: "The general rule in contemporary Pilates is to exhale on the effort (the flexion, the lift, the moment of greatest abdominal demand) and inhale on the return or preparation. Exhaling naturally recruits the deep abdominal wall and pelvic floor, so it supports the spine exactly when support is most needed. Classical Pilates sometimes reverses this deliberately, notably inhaling into spinal extension. Both are legitimate; what matters far more than the direction is that you keep breathing rather than holding." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
@@ -244,7 +244,7 @@ export default function PilatesBreathingTechniquesPage() {
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="The 6 Core Principles of Pilates" excerpt="Breath, concentration, centring, control, precision and flow — what each actually means in practice." href="/blog/6-core-principles-of-pilates-explained" category="Method" readTime="9 min read" date="June 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
+                <ArticleCard title="The 6 Core Principles of Pilates" excerpt="Breath, concentration, centring, control, precision and flow: what each actually means in practice." href="/blog/6-core-principles-of-pilates-explained" category="Method" readTime="9 min read" date="June 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
                 <ArticleCard title="Pilates for Pelvic Floor" excerpt="How breath-led Pilates supports pelvic floor function postnatally and beyond." href="/blog/pilates-for-pelvic-floor" category="Health" readTime="10 min read" date="June 2026" imageUrl="/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg" />
                 <ArticleCard title="Pilates for Anxiety & Stress (2026): How It Helps" excerpt="How Pilates reduces anxiety and stress: the neuroscience, the breath mechanics, and the specific practice patterns…" href="/blog/pilates-for-anxiety" category="Health" readTime="10 min read" imageUrl="/pictures/stitch-studio-open-window.png" />
                 <ArticleCard title="Pilates Exercises for Beginners (2026): 15 Moves to Start" excerpt="15 foundational Pilates exercises for beginners, reformer and mat moves explained with modifications, spring…" href="/blog/pilates-exercises-for-beginners" category="Guide" readTime="11 min read" imageUrl="/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" />

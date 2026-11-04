@@ -12,19 +12,19 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Mat (2026): 5 Verified Picks",
-  description: "5 verified, in-stock Pilates mats on Amazon, from thickness tiers to alignment lines and eco-friendlier TPE — led by the Gaiam Premium Yoga Mat, 6mm ($39.99).",
+  description: "5 verified, in-stock Pilates mats on Amazon, from thickness tiers to alignment lines and eco-friendlier TPE: led by the Gaiam Premium Yoga Mat, 6mm ($39.99).",
   keywords: ["best pilates mat", "pilates mat 2026", "best mat for pilates", "gaiam premium yoga mat pilates", "6mm pilates mat", "10mm yoga mat", "TPE yoga mat", "yoga mat alignment lines", "non-slip pilates mat", "pilates mat vs yoga mat", "best pilates mat buy"],
   openGraph: {
     title: "Best Pilates Mat (2026): 5 Verified Picks",
-    description: "Five Pilates mats we verified as real, in-stock Amazon listings — ranked and compared across thickness, material, and features.",
+    description: "Five Pilates mats we verified as real, in-stock Amazon listings: ranked and compared across thickness, material, and features.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-mat",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/dane-wetton-t1NEMSm1rgI-unsplash.jpg", width: 1200, height: 630, alt: "Best Pilates Mat — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/dane-wetton-t1NEMSm1rgI-unsplash.jpg", width: 1200, height: 630, alt: "Best Pilates Mat: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Mat (2026)",
-    description: "5 verified, in-stock picks — compared on thickness, material, and features.",
+    description: "5 verified, in-stock picks: compared on thickness, material, and features.",
     images: ["https://pilatescollectiveclub.com/pictures/dane-wetton-t1NEMSm1rgI-unsplash.jpg"],
   },
   alternates: {
@@ -40,7 +40,7 @@ const PRODUCTS = [
     price: "$39.99",
     verdict: "Our long-standing anchor pick, sold by Amazon.com",
     description:
-      "Sold directly by Amazon.com, this is the mat this guide has recommended and verified before: a 6mm mat from Gaiam at $39.99. It sits at the commonly cited sweet spot for Pilates — firm enough for spinal feedback, with enough cushioning for sustained floor contact — and remains our default overall pick.",
+      "Sold directly by Amazon.com, this is the mat this guide has recommended and verified before: a 6mm mat from Gaiam at $39.99. It sits at the commonly cited sweet spot for Pilates (firm enough for spinal feedback, with enough cushioning for sustained floor contact) and remains our default overall pick.",
     affiliateUrl: "https://www.amazon.com/dp/B09WF4GPPC?tag=pilatescollective-20",
     tag: "Best Overall",
   },
@@ -50,7 +50,7 @@ const PRODUCTS = [
     price: "$25.07",
     verdict: "More cushioning, same brand, sold by Amazon.com",
     description:
-      "Also from Gaiam and sold by Amazon.com, this version steps up to 10mm — roughly two-thirds thicker than the Premium pick above. If you find 6mm too firm on your spine or joints during floor work, this is the same brand's answer at a moderately higher price, $25.07.",
+      "Also from Gaiam and sold by Amazon.com, this version steps up to 10mm: roughly two-thirds thicker than the Premium pick above. If you find 6mm too firm on your spine or joints during floor work, this is the same brand's answer at a moderately higher price, $25.07.",
     affiliateUrl: "https://www.amazon.com/dp/B07H9PZ6MH?tag=pilatescollective-20",
     tag: "Best Extra Cushioning",
   },
@@ -60,7 +60,7 @@ const PRODUCTS = [
     price: "$24.99",
     verdict: "6mm with printed alignment lines for form cues",
     description:
-      "From YOGATI, this 6mm mat adds printed alignment lines across the surface — a feature aimed at helping you check hand, foot, and hip placement during standing and mat exercises. At $24.99, it costs well under our overall pick while offering a feature the others in this lineup don't.",
+      "From YOGATI, this 6mm mat adds printed alignment lines across the surface: a feature aimed at helping you check hand, foot, and hip placement during standing and mat exercises. At $24.99, it costs well under our overall pick while offering a feature the others in this lineup don't.",
     affiliateUrl: "https://www.amazon.com/dp/B0CJ39LHNX?tag=pilatescollective-20",
     tag: "Best for Alignment Cues",
   },
@@ -70,7 +70,7 @@ const PRODUCTS = [
     price: "$24.99",
     verdict: "TPE material for a lighter, eco-friendlier mat",
     description:
-      "Sold by Keep Official Store, this 6mm mat is made from TPE (thermoplastic elastomer) rather than PVC — generally considered a lighter and more eco-friendly material choice. At $24.99, it's a reasonable option if material composition matters to your buying decision.",
+      "Sold by Keep Official Store, this 6mm mat is made from TPE (thermoplastic elastomer) rather than PVC: generally considered a lighter and more eco-friendly material choice. At $24.99, it's a reasonable option if material composition matters to your buying decision.",
     affiliateUrl: "https://www.amazon.com/dp/B0GSRC3Z4Y?tag=pilatescollective-20",
     tag: "Best Eco-Friendlier Pick",
   },
@@ -92,7 +92,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Best Pilates Mat (2026): 5 Verified Picks",
-      "description": "Five Pilates mats verified as real, in-stock Amazon listings, compared across thickness, material, and features — led by the Gaiam Premium Yoga Mat, 6mm.",
+      "description": "Five Pilates mats verified as real, in-stock Amazon listings, compared across thickness, material, and features: led by the Gaiam Premium Yoga Mat, 6mm.",
       "url": "https://pilatescollectiveclub.com/blog/best-pilates-mat",
       "datePublished": "2026-05-14",
       "dateModified": "2026-10-20",
@@ -127,9 +127,9 @@ const jsonLd = {
   {
     "@type": "FAQPage",
     "mainEntity": [
-      { "@type": "Question", "name": "Can I use a yoga mat for Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — a yoga mat works for beginners and casual practice. The limitation becomes apparent as your practice develops: softer yoga mats reduce the proprioceptive feedback that makes Pilates articulation exercises effective. If you're practising Pilates more than twice a week, a firmer mat generally improves the quality of your sessions." } },
-      { "@type": "Question", "name": "What thickness mat is best for Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "6mm is a commonly cited sweet spot — firm enough for spinal feedback, with enough cushioning for sustained floor contact. Practitioners with sensitive spines or vertebral conditions may prefer thicker mats. This is general guidance; check the exact thickness on any specific listing before buying." } },
-      { "@type": "Question", "name": "What's the best overall Pilates mat?", "acceptedAnswer": { "@type": "Answer", "text": "The Gaiam Premium Yoga Mat (6mm, $39.99) is our top overall pick — it sits at the commonly cited 6mm sweet spot for Pilates and is sold directly by Amazon.com. If you want more cushioning, the Gaiam Essentials Thick Yoga Mat (10mm, $25.07) from the same brand is a step up." } },
+      { "@type": "Question", "name": "Can I use a yoga mat for Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "Yes: a yoga mat works for beginners and casual practice. The limitation becomes apparent as your practice develops: softer yoga mats reduce the proprioceptive feedback that makes Pilates articulation exercises effective. If you're practising Pilates more than twice a week, a firmer mat generally improves the quality of your sessions." } },
+      { "@type": "Question", "name": "What thickness mat is best for Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "6mm is a commonly cited sweet spot: firm enough for spinal feedback, with enough cushioning for sustained floor contact. Practitioners with sensitive spines or vertebral conditions may prefer thicker mats. This is general guidance; check the exact thickness on any specific listing before buying." } },
+      { "@type": "Question", "name": "What's the best overall Pilates mat?", "acceptedAnswer": { "@type": "Answer", "text": "The Gaiam Premium Yoga Mat (6mm, $39.99) is our top overall pick: it sits at the commonly cited 6mm sweet spot for Pilates and is sold directly by Amazon.com. If you want more cushioning, the Gaiam Essentials Thick Yoga Mat (10mm, $25.07) from the same brand is a step up." } },
       { "@type": "Question", "name": "How long should a Pilates mat last?", "acceptedAnswer": { "@type": "Answer", "text": "As a general rule, a well-cared-for mat should last several years of regular practice, while budget mats typically need replacement sooner. We don't have verified longevity data for a specific product to cite here, so treat this as general guidance rather than a claim about any single mat." } }
     ]
   },
@@ -156,7 +156,7 @@ export default function BestPilatesMatPage() {
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note="Gaiam's 6mm Premium mat, sold by Amazon.com" url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              We checked five Pilates mats against live, in-stock Amazon listings — from our long-standing Gaiam Premium pick to a thicker Gaiam option, a mat with printed alignment lines, and two TPE mats. Here&apos;s how they compare on thickness, material, and features.
+              We checked five Pilates mats against live, in-stock Amazon listings, from our long-standing Gaiam Premium pick to a thicker Gaiam option, a mat with printed alignment lines, and two TPE mats. Here&apos;s how they compare on thickness, material, and features.
             </p>
           </div>
         </section>
@@ -164,7 +164,7 @@ export default function BestPilatesMatPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/dane-wetton-t1NEMSm1rgI-unsplash.jpg" alt="Best Pilates mat — honestly verified against live Amazon listings" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/dane-wetton-t1NEMSm1rgI-unsplash.jpg" alt="Best Pilates mat: honestly verified against live Amazon listings" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>
         </section>
@@ -178,12 +178,12 @@ export default function BestPilatesMatPage() {
             <div className="mb-16 mt-4">
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Pilates mat vs yoga mat: what&apos;s actually different</h2>
               <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                The core difference is firmness. Yoga mats are designed to cushion standing poses and absorb sweat during flow-based practice. They tend toward softer, spongier constructions. Pilates mat work requires sustained lying, spinal articulation, and tactile feedback from the floor — qualities that a spongy yoga mat can undermine. This is general guidance on what makes any mat suitable for Pilates; use it alongside the specific picks below to find the right fit.
+                The core difference is firmness. Yoga mats are designed to cushion standing poses and absorb sweat during flow-based practice. They tend toward softer, spongier constructions. Pilates mat work requires sustained lying, spinal articulation, and tactile feedback from the floor: qualities that a spongy yoga mat can undermine. This is general guidance on what makes any mat suitable for Pilates; use it alongside the specific picks below to find the right fit.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[
                   { heading: "Thickness", body: "4–6mm is a commonly cited Pilates sweet spot. Thinner provides better feedback; thicker provides more cushioning for sensitive spines. Confirm the exact thickness on the current listing." },
-                  { heading: "Firmness", body: "Dense PVC or natural rubber generally outperforms foam for Pilates. Press a finger into the mat — a firm mat barely compresses. A spongy mat that fully compresses under finger pressure is less suitable." },
+                  { heading: "Firmness", body: "Dense PVC or natural rubber generally outperforms foam for Pilates. Press a finger into the mat: a firm mat barely compresses. A spongy mat that fully compresses under finger pressure is less suitable." },
                   { heading: "Surface texture", body: "Mild grip, not aggressive grip, tends to work best. You need hands and feet to slide slightly for transitions. Check current owner reviews on the listing for a sense of the actual texture." },
                   { heading: "Length", body: "Standard 68\" is sufficient for most practitioners. Taller practitioners (6'+) should look for longer options. Lying with your head off the mat during the hundred is not acceptable." },
                 ].map((item) => (
@@ -214,7 +214,7 @@ export default function BestPilatesMatPage() {
               <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Caring for your Pilates mat</h2>
               <ul className="space-y-3">
                 {[
-                  "Clean after every session with a mild mat spray or water and a few drops of tea tree oil. Avoid alcohol-based cleaners on natural rubber — they can degrade the surface.",
+                  "Clean after every session with a mild mat spray or water and a few drops of tea tree oil. Avoid alcohol-based cleaners on natural rubber: they can degrade the surface.",
                   "Air dry completely before rolling. Rolling a damp mat traps moisture and can lead to mould in PVC mats.",
                   "Store rolled, not folded. Permanent fold lines create uneven surfaces and weakened points in the material.",
                   "Keep away from direct sunlight during storage. UV exposure can yellow PVC and degrade natural rubber over time.",
@@ -232,9 +232,9 @@ export default function BestPilatesMatPage() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "Can I use a yoga mat for Pilates?", a: "Yes — a yoga mat works for beginners and casual practice. The limitation becomes apparent as your practice develops: softer yoga mats reduce the proprioceptive feedback that makes Pilates articulation exercises effective. If you're practising Pilates more than twice a week, a firmer mat generally improves the quality of your sessions." },
-                  { q: "What thickness mat is best for Pilates?", a: "6mm is a commonly cited sweet spot — firm enough for spinal feedback, with enough cushioning for sustained floor contact. Practitioners with sensitive spines or vertebral conditions may prefer thicker mats. This is general guidance; check the exact thickness on any specific listing before buying." },
-                  { q: "What's the best overall Pilates mat?", a: "The Gaiam Premium Yoga Mat (6mm, $39.99) is our top overall pick — it sits at the commonly cited 6mm sweet spot for Pilates and is sold directly by Amazon.com. If you want more cushioning, the Gaiam Essentials Thick Yoga Mat (10mm, $25.07) from the same brand is a step up." },
+                  { q: "Can I use a yoga mat for Pilates?", a: "Yes: a yoga mat works for beginners and casual practice. The limitation becomes apparent as your practice develops: softer yoga mats reduce the proprioceptive feedback that makes Pilates articulation exercises effective. If you're practising Pilates more than twice a week, a firmer mat generally improves the quality of your sessions." },
+                  { q: "What thickness mat is best for Pilates?", a: "6mm is a commonly cited sweet spot: firm enough for spinal feedback, with enough cushioning for sustained floor contact. Practitioners with sensitive spines or vertebral conditions may prefer thicker mats. This is general guidance; check the exact thickness on any specific listing before buying." },
+                  { q: "What's the best overall Pilates mat?", a: "The Gaiam Premium Yoga Mat (6mm, $39.99) is our top overall pick: it sits at the commonly cited 6mm sweet spot for Pilates and is sold directly by Amazon.com. If you want more cushioning, the Gaiam Essentials Thick Yoga Mat (10mm, $25.07) from the same brand is a step up." },
                   { q: "How long should a Pilates mat last?", a: "As a general rule, a well-cared-for mat should last several years of regular practice, while budget mats typically need replacement sooner. We don't have verified longevity data for a specific product to cite here, so treat this as general guidance rather than a claim about any single mat." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
@@ -248,10 +248,10 @@ export default function BestPilatesMatPage() {
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="Pilates Essentials: The Complete List" excerpt="The best, budget and splurge pick in every category — clothing, props, recovery and a home reformer, all on one page." href="/blog/pilates-essentials" category="Equipment" readTime="14 min read" date="September 2026" />
-                <ArticleCard title="Pilates Princess Essentials" excerpt="The aesthetic edit that actually performs — matching sets, Bala Bangles, grip socks and at-home upgrades." href="/blog/pilates-princess-essentials" category="Clothing" readTime="12 min read" date="September 2026" />
-                <ArticleCard title="Best Pilates Starter Kit" excerpt="Everything a beginner needs — mat, grip socks, bands, and ring, in the right order." href="/blog/best-pilates-starter-kit" category="Beginners" readTime="9 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-Zp4APUiwEsM-unsplash.jpg" />
-                <ArticleCard title="Pilates Reformer vs Mat" excerpt="What's actually different between reformer and mat Pilates — and how to choose." href="/blog/pilates-reformer-vs-mat" category="Method" readTime="10 min read" date="May 2026" imageUrl="/pictures/ahmet-kurt-0xn-8kRWOhE-unsplash.jpg" />
+                <ArticleCard title="Pilates Essentials: The Complete List" excerpt="The best, budget and splurge pick in every category: clothing, props, recovery and a home reformer, all on one page." href="/blog/pilates-essentials" category="Equipment" readTime="14 min read" date="September 2026" />
+                <ArticleCard title="Pilates Princess Essentials" excerpt="The aesthetic edit that actually performs: matching sets, Bala Bangles, grip socks and at-home upgrades." href="/blog/pilates-princess-essentials" category="Clothing" readTime="12 min read" date="September 2026" />
+                <ArticleCard title="Best Pilates Starter Kit" excerpt="Everything a beginner needs: mat, grip socks, bands, and ring, in the right order." href="/blog/best-pilates-starter-kit" category="Beginners" readTime="9 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-Zp4APUiwEsM-unsplash.jpg" />
+                <ArticleCard title="Pilates Reformer vs Mat" excerpt="What's actually different between reformer and mat Pilates, and how to choose." href="/blog/pilates-reformer-vs-mat" category="Method" readTime="10 min read" date="May 2026" imageUrl="/pictures/ahmet-kurt-0xn-8kRWOhE-unsplash.jpg" />
               </div>
             </div>
           </div>

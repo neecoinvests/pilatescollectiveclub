@@ -12,7 +12,7 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Studios in Dubai (2026)",
-  description: "The best Pilates studios in Dubai — reformer boutiques in DIFC, Jumeirah, Dubai Marina, and Downtown. Six curated picks, verified October 2026.",
+  description: "The best Pilates studios in Dubai: reformer boutiques in DIFC, Jumeirah, Dubai Marina, and Downtown. Six curated picks, verified October 2026.",
   robots: {
     index: true,
     follow: true,
@@ -22,15 +22,15 @@ export const metadata: Metadata = {
   keywords: ["pilates dubai", "reformer pilates dubai", "best pilates studios dubai", "pilates studio dubai", "pilates difc", "pilates jumeirah", "pilates marina dubai", "pilates uae", "best reformer pilates dubai", "pilates classes dubai"],
   openGraph: {
     title: "Best Pilates Studios in Dubai (2026)",
-    description: "Six curated Pilates studios in Dubai — DIFC, Jumeirah, and Marina reformer picks. Verified October 2026.",
+    description: "Six curated Pilates studios in Dubai: DIFC, Jumeirah, and Marina reformer picks. Verified October 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/dubai",
-    images: [{ url: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=1200&q=80", width: 1200, height: 630, alt: "Dubai city guide — Pilates Collective Club" }],
+    images: [{ url: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=1200&q=80", width: 1200, height: 630, alt: "Dubai city guide: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Studios in Dubai (2026)",
-    description: "Our curated guide to Dubai's finest Pilates studios — six verified picks with booking tips.",
+    description: "Our curated guide to Dubai's finest Pilates studios: six verified picks with booking tips.",
     images: ["https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=1200&q=80"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/cities/dubai" },
@@ -39,11 +39,11 @@ export const metadata: Metadata = {
 const STUDIOS = [
   {
     number: "01",
-    name: "Reform Athletica — DIFC",
+    name: "Reform Athletica DIFC",
     neighborhood: "DIFC (ICD Brookfield Place)",
     priceLevel: "$$$$",
     review: "Homegrown Reform Athletica was founded in Jumeirah in 2018 and opened its second studio at ICD Brookfield Place in DIFC in 2023. The art-filled space has two large multifunction studios, private training rooms, a café and changing facilities. Classes are capped at 10–12 people and include its signature Pilates, inspired by the Reform Method and Microform, alongside HIIT, kettlebells and TRX, deep stretch and vinyasa yoga.",
-    caveat: "premium pricing — at the DIFC opening a single class cost Dhs143, with a three-class Pilates taster for Dhs238; check current rates.",
+    caveat: "premium pricing, at the DIFC opening a single class cost Dhs143, with a three-class Pilates taster for Dhs238; check current rates.",
     address: "ICD Brookfield Place, DIFC, Dubai",
     bestFor: "Premium small-group reformer for DIFC professionals",
     signatureClass: "Signature Reformer Pilates",
@@ -54,9 +54,9 @@ const STUDIOS = [
     name: "11 Pilates",
     neighborhood: "Jumeirah 1 / Dubai Marina",
     priceLevel: "$$$",
-    review: "11 Pilates was founded in the UK and specialises in dynamic reformer Pilates for all levels, using Merrithew reformers and Cadillacs. Its progressive classes — Core Reformer, Core Plus+ and Dynamic Reformer — build strength, flexibility, posture and coordination, and it has studios in Jumeirah 1 and Dubai Marina.",
+    review: "11 Pilates was founded in the UK and specialises in dynamic reformer Pilates for all levels, using Merrithew reformers and Cadillacs. Its progressive classes (Core Reformer, Core Plus+ and Dynamic Reformer) build strength, flexibility, posture and coordination, and it has studios in Jumeirah 1 and Dubai Marina.",
     caveat: "weekend hours are shorter (Sundays close around 5pm), so check the schedule before planning a weekend class.",
-    address: "—",
+    address: "",
     bestFor: "Progressive reformer classes on Merrithew equipment",
     signatureClass: "Core Reformer",
     bookingTip: "Start with Core Reformer before moving up to Core Plus+ or Dynamic Reformer.",
@@ -71,28 +71,28 @@ const STUDIOS = [
     address: "Alserkal Avenue, Al Quoz, Dubai",
     bestFor: "Small-group Pilates with an eco-conscious ethos",
     signatureClass: "Reformer Pilates",
-    bookingTip: "Small classes fill quickly — book online 24–48 hours ahead.",
+    bookingTip: "Small classes fill quickly: book online 24–48 hours ahead.",
   },
   {
     number: "04",
-    name: "Tula Studios — JBR",
+    name: "Tula Studios JBR",
     neighborhood: "JBR (Jumeirah Beach Residence)",
     priceLevel: "$$$",
-    review: "Tula — meaning balance in Sanskrit — is a wellness studio on the podium level of Murjan 2 in JBR, with free parking in the building. It offers reformer Pilates, mat Pilates, yoga, barre, sound healing, strength training and pre- and post-natal sessions, and opens from 6:30am on weekdays. Tula also has studios in Emirates Living and Town Square.",
-    caveat: "a multi-discipline wellness studio — choose reformer classes specifically if that is what you want.",
+    review: "Tula, meaning balance in Sanskrit, is a wellness studio on the podium level of Murjan 2 in JBR, with free parking in the building. It offers reformer Pilates, mat Pilates, yoga, barre, sound healing, strength training and pre- and post-natal sessions, and opens from 6:30am on weekdays. Tula also has studios in Emirates Living and Town Square.",
+    caveat: "a multi-discipline wellness studio: choose reformer classes specifically if that is what you want.",
     address: "Murjan 2, Podium Level, JBR, Dubai",
     bestFor: "JBR and Marina residents; reformer plus pre/post-natal classes",
     signatureClass: "Reformer Pilates",
-    bookingTip: "Use the free parking in Murjan 2 — the studio is next to Grandiose Supermarket.",
+    bookingTip: "Use the free parking in Murjan 2: the studio is next to Grandiose Supermarket.",
   },
   {
     number: "05",
-    name: "Art of Pilates — Business Bay",
+    name: "Art of Pilates Business Bay",
     neighborhood: "Business Bay",
     priceLevel: "$$$",
-    review: "Art of Pilates is a modern reformer studio in Business Bay with showers, lockers, towels and parking. Its classes are clearly levelled — Reformer Beginners, Pilates Reformer Intermediate and Reformer Power Pilates — plus targeted sessions such as Slim Legs and Strong Core, and it is rated 4.8 from more than 500 ratings on ClassPass.",
-    caveat: "we could not confirm the exact building address — check the booking app for directions.",
-    address: "—",
+    review: "Art of Pilates is a modern reformer studio in Business Bay with showers, lockers, towels and parking. Its classes are clearly levelled (Reformer Beginners, Pilates Reformer Intermediate and Reformer Power Pilates) plus targeted sessions such as Slim Legs and Strong Core, and it is rated 4.8 from more than 500 ratings on ClassPass.",
+    caveat: "we could not confirm the exact building address: check the booking app for directions.",
+    address: "",
     bestFor: "Levelled reformer classes for Business Bay and Downtown",
     signatureClass: "Reformer Power Pilates",
     bookingTip: "Begin with Reformer Beginners before booking Power Pilates.",
@@ -102,12 +102,12 @@ const STUDIOS = [
     name: "Revolution Studios DXB",
     neighborhood: "Al Quoz",
     priceLevel: "$$",
-    review: "Revolution Studios, one of Scotland's best-known boutique fitness brands, opened its first Middle East studio in Goshi Warehouse City, Al Quoz, in September 2025. Its Reformer Pilates class is fast-paced and athletic — Pilates principles with dynamic movement, club-style lighting and a choreographed playlist — alongside indoor cycling and strength classes.",
-    caveat: "this is high-energy, music-driven reformer — not the place for slow classical technique.",
+    review: "Revolution Studios, one of Scotland's best-known boutique fitness brands, opened its first Middle East studio in Goshi Warehouse City, Al Quoz, in September 2025. Its Reformer Pilates class is fast-paced and athletic (Pilates principles with dynamic movement, club-style lighting and a choreographed playlist) alongside indoor cycling and strength classes.",
+    caveat: "this is high-energy, music-driven reformer, not the place for slow classical technique.",
     address: "Goshi Warehouse City, Warehouse 01, 19D Street, Al Quoz Industrial Area 3, Dubai",
     bestFor: "Athletic, music-driven reformer workouts",
     signatureClass: "Reformer Pilates",
-    bookingTip: "The studio runs 6am–8:30pm daily — early classes beat the Al Quoz traffic.",
+    bookingTip: "The studio runs 6am–8:30pm daily, early classes beat the Al Quoz traffic.",
   },
 ];
 
@@ -142,7 +142,7 @@ const NEIGHBORHOODS = [
   {
     name: "DIFC & Downtown Dubai",
     description:
-      "The financial heart of Dubai is also its premium wellness hub. Studios in DIFC target the city's international professional class — well-equipped, highly priced, and consistently excellent. Expect polished interiors, top-tier equipment, and a client base that knows exactly what it wants.",
+      "The financial heart of Dubai is also its premium wellness hub. Studios in DIFC target the city's international professional class: well-equipped, highly priced, and consistently excellent. Expect polished interiors, top-tier equipment, and a client base that knows exactly what it wants.",
   },
   {
     name: "Jumeirah & Al Safa",
@@ -176,7 +176,7 @@ const GEAR = [
   },
   {
     name: "Magic Circle",
-    note: "Our pick: Balanced Body Ultra-Fit Circle (15-inch). Many studios incorporate the magic circle — worth owning for home reinforcement work.",
+    note: "Our pick: Balanced Body Ultra-Fit Circle (15-inch). Many studios incorporate the magic circle: worth owning for home reinforcement work.",
     price: "$35.00",
     url: "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20",
   },
@@ -194,7 +194,7 @@ const GEAR = [
   },
   {
     name: "Home Pilates Reformer",
-    note: "Our pick: PAETA Wooden Foldable Reformer. A home reformer extends your studio practice — AeroPilates and Align entry models deliver a genuine full-body session.",
+    note: "Our pick: PAETA Wooden Foldable Reformer. A home reformer extends your studio practice: AeroPilates and Align entry models deliver a genuine full-body session.",
     price: "$699.98",
     url: "https://www.amazon.com/dp/B0D7M7JNFV?tag=pilatescollective-20",
   },
@@ -211,7 +211,7 @@ const RELATED_CITIES = [
 const FURTHER_READING = [
   {
     title: "Best Pilates Equipment for Home Practice",
-    excerpt: "Everything you need between studio sessions — from a quality mat to resistance bands.",
+    excerpt: "Everything you need between studio sessions, from a quality mat to resistance bands.",
     href: "/blog/best-pilates-equipment-for-home-practice",
     category: "Equipment",
     readTime: "10 min read",
@@ -230,7 +230,7 @@ const FURTHER_READING = [
 ];
 
 const CITY_FAQS = [
-  { q: "What are the best Pilates studios in Dubai?", a: "Our 6 curated picks are Reform Athletica — DIFC (DIFC, ICD Brookfield Place), 11 Pilates (Jumeirah 1 / Dubai Marina), Studio14 (Al Quoz), Tula Studios — JBR (JBR, Jumeirah Beach Residence), Art of Pilates — Business Bay (Business Bay) and Revolution Studios DXB (Al Quoz). Each listing above covers what the studio is best for, its signature class and a booking tip." },
+  { q: "What are the best Pilates studios in Dubai?", a: "Our 6 curated picks are Reform Athletica (DIFC (DIFC, ICD Brookfield Place), 11 Pilates (Jumeirah 1 / Dubai Marina), Studio14 (Al Quoz), Tula Studios) JBR (JBR, Jumeirah Beach Residence), Art of Pilates: Business Bay (Business Bay) and Revolution Studios DXB (Al Quoz). Each listing above covers what the studio is best for, its signature class and a booking tip." },
   { q: "Which Dubai neighbourhoods are best for Pilates?", a: "This guide covers DIFC & Downtown Dubai, Jumeirah & Al Safa, Dubai Marina & JBR and City Walk & Business Bay. DIFC & Downtown Dubai: The financial heart of Dubai is also its premium wellness hub." },
   { q: "What should I know about booking Pilates classes in Dubai?", a: "Book at least 48–72 hours ahead for peak slots. Dubai's top Pilates studios fill quickly, particularly morning slots before 9am and evening slots from 6pm." },
   { q: "What should I bring to a Pilates class in Dubai?", a: "Grip socks are required at most reformer studios. Our gear list for Dubai covers Pilates grip socks, Pilates mat, magic circle, resistance bands, foam roller and home Pilates reformer." },
@@ -242,7 +242,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Best Pilates Studios in Dubai (2026)",
-      "description": "The best Pilates studios in Dubai — reformer boutiques in DIFC, Jumeirah, Dubai Marina, and Downtown. Six curated picks, verified October 2026.",
+      "description": "The best Pilates studios in Dubai: reformer boutiques in DIFC, Jumeirah, Dubai Marina, and Downtown. Six curated picks, verified October 2026.",
       "url": "https://pilatescollectiveclub.com/cities/dubai",
       "datePublished": "2026-06-28",
       "dateModified": "2026-10-20",
@@ -314,7 +314,7 @@ export default function DubaiPage() {
             </p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Dubai has transformed into one of the Middle East's most ambitious wellness destinations, and its Pilates scene reflects that ambition fully. A city of high expectations and high standards, Dubai has attracted instructors and studio concepts from London, New York, and Sydney — producing a reformer market that is simultaneously premium, diverse, and competitive. From the financial towers of DIFC to the waterfront studios of Bluewaters Island, the city now offers world-class Pilates across neighbourhoods. This guide covers the six studios we rate most highly, with everything you need to know before booking.
+              Dubai has transformed into one of the Middle East's most ambitious wellness destinations, and its Pilates scene reflects that ambition fully. A city of high expectations and high standards, Dubai has attracted instructors and studio concepts from London, New York, and Sydney: producing a reformer market that is simultaneously premium, diverse, and competitive. From the financial towers of DIFC to the waterfront studios of Bluewaters Island, the city now offers world-class Pilates across neighbourhoods. This guide covers the six studios we rate most highly, with everything you need to know before booking.
             </p>
           </div>
         </section>
@@ -395,7 +395,7 @@ export default function DubaiPage() {
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What to bring to your first class</h2>
             <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-              Grip socks are required at most reformer studios in Dubai. These are our recommended picks — all available on Amazon.{" "}
+              Grip socks are required at most reformer studios in Dubai. These are our recommended picks: all available on Amazon.{" "}
               <Link href="/affiliate-disclosure" style={{ color: "#8b4a31", textDecoration: "underline", fontFamily: "'Montserrat', sans-serif", fontSize: "inherit" }}>Affiliate disclosure.</Link>
             </p>
             <QuickPicks className="mb-0" picks={GEAR.map((g) => ({ name: g.note.match(/Our pick: ([^.]+(?:\.\d+[^.]*)?)\./)?.[1] ?? g.name, price: g.price, url: g.url, note: g.name }))} />

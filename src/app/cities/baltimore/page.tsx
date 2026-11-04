@@ -12,7 +12,7 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Studios in Baltimore, MD (2026)",
-  description: "The best Pilates studios in Baltimore — reformer boutiques and classical method practices in Fells Point, Mount Vernon, and Harbor East. Verified 2026.",
+  description: "The best Pilates studios in Baltimore: reformer boutiques and classical method practices in Fells Point, Mount Vernon, and Harbor East. Verified 2026.",
   robots: {
     index: true,
     follow: true,
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Best Pilates Studios in Baltimore, MD (2026)",
     description:
-      "Curated Pilates studios in Baltimore — reformer and classical picks from Fells Point to Harbor East. Verified 2026.",
+      "Curated Pilates studios in Baltimore: reformer and classical picks from Fells Point to Harbor East. Verified 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/baltimore",
     images: [
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Best Pilates Studios in Baltimore (2026)",
     description:
-      "The 6 best Pilates studios in Baltimore — curated, verified, and reviewed for 2026.",
+      "The 6 best Pilates studios in Baltimore: curated, verified, and reviewed for 2026.",
     images: [
       "https://images.unsplash.com/photo-1572120360610-d971b9d7767c?w=1200&h=630&fit=crop",
     ],
@@ -55,24 +55,24 @@ const STUDIOS = [
     name: "Club Pilates Rotunda",
     neighborhood: "Hampden / Rotunda",
     priceLevel: "$$$",
-    review: "Club Pilates Rotunda sits inside the Rotunda complex on West 40th Street, at the Hampden–Roland Park border. It offers the brand's levelled group reformer format in a polished, welcoming studio, and it is one of the most convenient reformer options for north Baltimore — Hampden, Roland Park, Medfield and the Johns Hopkins Homewood area.",
-    caveat: "a franchise studio follows a national curriculum — consistent and well-organised, but less individual than an owner-run independent.",
+    review: "Club Pilates Rotunda sits inside the Rotunda complex on West 40th Street, at the Hampden–Roland Park border. It offers the brand's levelled group reformer format in a polished, welcoming studio, and it is one of the most convenient reformer options for north Baltimore: Hampden, Roland Park, Medfield and the Johns Hopkins Homewood area.",
+    caveat: "a franchise studio follows a national curriculum: consistent and well-organised, but less individual than an owner-run independent.",
     address: "727 W 40th St, Suite 132, Baltimore, MD 21211",
     bestFor: "North Baltimore residents, all levels, structured reformer programme",
     signatureClass: "Reformer Flow",
-    bookingTip: "Book morning and early-evening classes at least 48 hours ahead — they are the first to fill.",
+    bookingTip: "Book morning and early-evening classes at least 48 hours ahead: they are the first to fill.",
   },
   {
     number: "2",
     name: "Club Pilates Canton Waterfront",
     neighborhood: "Canton / Waterfront",
     priceLevel: "$$$",
-    review: "Club Pilates' Canton Waterfront studio serves southeast Baltimore — Canton, Brewers Hill and Highlandtown — with the same levelled group reformer system as the Rotunda studio. Reviewers highlight friendly staff, patient instructors and early-morning class options that make it easier to build a consistent routine.",
+    review: "Club Pilates' Canton Waterfront studio serves southeast Baltimore (Canton, Brewers Hill and Highlandtown) with the same levelled group reformer system as the Rotunda studio. Reviewers highlight friendly staff, patient instructors and early-morning class options that make it easier to build a consistent routine.",
     caveat: "we could not independently confirm the studio's current street address, so check the Club Pilates website before your first visit.",
-    address: "—",
+    address: "",
     bestFor: "Canton and southeast Baltimore residents, early-morning classes",
     signatureClass: "Reformer Flow",
-    bookingTip: "Weekend mornings are popular — book a few days ahead.",
+    bookingTip: "Weekend mornings are popular: book a few days ahead.",
   },
   {
     number: "3",
@@ -80,19 +80,19 @@ const STUDIOS = [
     neighborhood: "Fells Point",
     priceLevel: "$$$",
     review: "Pilates House on Thames Street is a woman-owned studio known for a technically classical approach to spring-resistance work, and it is one of the most-reviewed Pilates studios in Baltimore on ClassPass (4.9 stars across a very large number of ratings). Classes such as Coreset are designed to be easy for newcomers to follow while still being challenging.",
-    caveat: "a classical, technique-led approach means slower, more precise classes — if you want a fast, music-driven sculpt class, try somewhere else first.",
+    caveat: "a classical, technique-led approach means slower, more precise classes, if you want a fast, music-driven sculpt class, try somewhere else first.",
     address: "1809 Thames St, Baltimore, MD 21231",
     bestFor: "Classical-leaning reformer instruction in Fells Point",
     signatureClass: "Coreset",
-    bookingTip: "Check ClassPass as well as the studio's own schedule — it is one of the most popular Baltimore listings there.",
+    bookingTip: "Check ClassPass as well as the studio's own schedule: it is one of the most popular Baltimore listings there.",
   },
   {
     number: "4",
     name: "Ebene Pilates",
     neighborhood: "Locust Point",
     priceLevel: "$$",
-    review: "Ebene Pilates on Beason Street describes itself as a classical Pilates studio with a contemporary twist — classical method principles taught with a modern approach. It is a smaller, independent option for South Baltimore residents who want method-based instruction rather than a franchise format.",
-    caveat: "there is less published review data for this studio than for the larger names here — take an intro class to judge the teaching yourself.",
+    review: "Ebene Pilates on Beason Street describes itself as a classical Pilates studio with a contemporary twist: classical method principles taught with a modern approach. It is a smaller, independent option for South Baltimore residents who want method-based instruction rather than a franchise format.",
+    caveat: "there is less published review data for this studio than for the larger names here: take an intro class to judge the teaching yourself.",
     address: "1642 Beason St, Baltimore, MD 21230",
     bestFor: "Classical-with-a-twist Pilates in South Baltimore",
     signatureClass: "Classical Mat & Reformer",
@@ -103,8 +103,8 @@ const STUDIOS = [
     name: "Embody Pilates & Wellness",
     neighborhood: "Mount Washington",
     priceLevel: "$$$",
-    review: "Embody is a north Baltimore studio and spa that combines boutique fitness classes — Pilates and barre — with physical therapy, massage, counselling and beauty services under one roof. Classes are small with personalised attention, in a rustic, chic space with modern equipment, which makes it a strong fit for clients who want Pilates alongside therapeutic or recovery services.",
-    caveat: "it is a multi-service wellness spa rather than a Pilates-only studio — great for integrated care, less so if you only want classical apparatus work.",
+    review: "Embody is a north Baltimore studio and spa that combines boutique fitness classes, Pilates and barre, with physical therapy, massage, counselling and beauty services under one roof. Classes are small with personalised attention, in a rustic, chic space with modern equipment, which makes it a strong fit for clients who want Pilates alongside therapeutic or recovery services.",
+    caveat: "it is a multi-service wellness spa rather than a Pilates-only studio, great for integrated care, less so if you only want classical apparatus work.",
     address: "5002 Lawndale Ave, Baltimore, MD 21210",
     bestFor: "Pilates combined with physical therapy and wellness services",
     signatureClass: "Small-Group Reformer",
@@ -116,7 +116,7 @@ const STUDIOS = [
     neighborhood: "Laurel (Baltimore–Washington Corridor)",
     priceLevel: "$$",
     review: "Club Pilates Laurel on Baltimore Avenue (US-1) serves the suburban Baltimore–Washington corridor with the brand's levelled group reformer programme. It is a practical choice for people who live or work between the two cities and want reliable reformer access without driving into either downtown.",
-    caveat: "a franchise format — consistent, but less individual than an independent studio.",
+    caveat: "a franchise format: consistent, but less individual than an independent studio.",
     address: "14712 Baltimore Ave, Suite 103, Laurel, MD 20707",
     bestFor: "Corridor commuters, all levels, membership-based training",
     signatureClass: "Reformer Flow",
@@ -127,15 +127,15 @@ const STUDIOS = [
 const BOOKING_TIPS = [
   {
     heading: "Baltimore rewards neighborhood loyalty",
-    body: "Baltimore's distinct neighborhood identities — Fells Point, Canton, Hampden, Mount Washington — each have their own studio culture and community character. Choosing a studio in your own neighborhood builds better practice habits than commuting across the city, and in Baltimore's neighborhood-first culture, belonging to a local studio has social as well as physical benefits.",
+    body: "Baltimore's distinct neighborhood identities (Fells Point, Canton, Hampden, Mount Washington) each have their own studio culture and community character. Choosing a studio in your own neighborhood builds better practice habits than commuting across the city, and in Baltimore's neighborhood-first culture, belonging to a local studio has social as well as physical benefits.",
   },
   {
     heading: "Johns Hopkins and the medical community shape the market",
-    body: "Baltimore's enormous healthcare sector — anchored by Johns Hopkins, University of Maryland Medical System, and the VA — creates strong demand for evidence-informed, rehabilitation-aware movement practices. Studios near the medical institutions and the Johns Hopkins campus tend to have instructors with more clinical depth than the national average. Worth seeking out if you're managing a physical condition.",
+    body: "Baltimore's enormous healthcare sector (anchored by Johns Hopkins, University of Maryland Medical System, and the VA) creates strong demand for evidence-informed, rehabilitation-aware movement practices. Studios near the medical institutions and the Johns Hopkins campus tend to have instructors with more clinical depth than the national average. Worth seeking out if you're managing a physical condition.",
   },
   {
     heading: "Snow and winter weather affect scheduling",
-    body: "Baltimore winters bring occasional significant snowfall that can close studios or reduce attendance. Most studios have liberal credit or make-up policies for weather-related cancellations — confirm the policy before purchasing a class pack. January and February are the months most likely to experience disruptions.",
+    body: "Baltimore winters bring occasional significant snowfall that can close studios or reduce attendance. Most studios have liberal credit or make-up policies for weather-related cancellations: confirm the policy before purchasing a class pack. January and February are the months most likely to experience disruptions.",
   },
   {
     heading: "Intro packages are the most financially efficient entry point",
@@ -143,7 +143,7 @@ const BOOKING_TIPS = [
   },
   {
     heading: "Grip socks are required at every reformer studio",
-    body: "Universal across Baltimore's reformer market. Bring your own — full-toe grip socks from Amazon are a fraction of front-desk retail at every studio in the city.",
+    body: "Universal across Baltimore's reformer market. Bring your own: full-toe grip socks from Amazon are a fraction of front-desk retail at every studio in the city.",
   },
 ];
 
@@ -156,7 +156,7 @@ const NEIGHBORHOODS = [
   {
     name: "Fells Point & Canton",
     description:
-      "Baltimore's historic waterfront neighborhoods — cobblestone streets, Federal Hill views, and a dense young professional population — have developed excellent independent and franchise studio options. The active, outdoors-first community here demands genuinely good instruction.",
+      "Baltimore's historic waterfront neighborhoods (cobblestone streets, Federal Hill views, and a dense young professional population) have developed excellent independent and franchise studio options. The active, outdoors-first community here demands genuinely good instruction.",
   },
   {
     name: "Mount Washington & North Baltimore",
@@ -166,7 +166,7 @@ const NEIGHBORHOODS = [
   {
     name: "Baltimore–Washington Corridor",
     description:
-      "The suburban corridor between Baltimore and DC — Laurel, Columbia, Ellicott City — has a strong franchise studio presence serving the large commuter and suburban family population. Accessible, well-priced, and practically convenient for corridor residents.",
+      "The suburban corridor between Baltimore and DC (Laurel, Columbia, Ellicott City) has a strong franchise studio presence serving the large commuter and suburban family population. Accessible, well-priced, and practically convenient for corridor residents.",
   },
 ];
 
@@ -197,16 +197,16 @@ const GEAR = [
   },
   {
     name: "High-Density Foam Roller",
-    note: "Our pick: OPTP PRO-Roller Foam Roller (36-inch). Post-class fascia release — practical for post-commute unwinding and pre-class warm-up in Baltimore's colder months.",
+    note: "Our pick: OPTP PRO-Roller Foam Roller (36-inch). Post-class fascia release: practical for post-commute unwinding and pre-class warm-up in Baltimore's colder months.",
     price: "$62.99",
     url: "https://www.amazon.com/dp/B002C9EX14?tag=pilatescollective-20",
   },
 ];
 
 const HOME_REFORMERS = [
-  { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work — three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
+  { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work: three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
   { tag: "Mid-Range Pick", name: "AeroPilates Pro XP 557", note: "AeroPilates' top-of-the-range home reformer, a step up for practitioners training several times a week.", price: "$1,329.99", url: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20" },
-  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order — an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
+  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
 ];
 
 const RELATED_CITIES = [
@@ -220,7 +220,7 @@ const FURTHER_READING = [
   {
     title: "Pilates for Back Pain: What the Research Shows",
     excerpt:
-      "What Pilates can and can't do for chronic lower back pain — and the specific exercises with the strongest evidence.",
+      "What Pilates can and can't do for chronic lower back pain, and the specific exercises with the strongest evidence.",
     href: "/blog/pilates-for-back-pain",
     category: "Health",
     readTime: "10 min read",
@@ -231,7 +231,7 @@ const FURTHER_READING = [
   {
     title: "How to Choose a Pilates Instructor",
     excerpt:
-      "Certifications, teaching style, and lineage — everything you need to evaluate a new instructor before committing.",
+      "Certifications, teaching style, and lineage: everything you need to evaluate a new instructor before committing.",
     href: "/blog/how-to-choose-a-pilates-instructor",
     category: "Education",
     readTime: "7 min read",
@@ -309,7 +309,7 @@ export default function BaltimorePage() {
               Updated October 2026 · 6 studios reviewed
             </p>
             <p className="text-lg leading-relaxed" style={{ color: "#5c4f47" }}>
-              Baltimore is one of the East Coast's most characterful cities — a place where neighborhoods
+              Baltimore is one of the East Coast's most characterful cities: a place where neighborhoods
               have genuine identities, the waterfront is still working, and the Johns Hopkins medical
               complex produces an unusually health-literate professional class. That combination has
               created a Pilates market that is both community-rooted and instruction-serious. From the
@@ -477,7 +477,7 @@ export default function BaltimorePage() {
 
         <CTASection
           title="Find Pilates near you"
-          subtitle="Use our AI Finder to discover studios in any city — coming soon."
+          subtitle="Use our AI Finder to discover studios in any city: coming soon."
           showSearch
           searchPlaceholder="Ask: best reformer Pilates in Baltimore…"
         />

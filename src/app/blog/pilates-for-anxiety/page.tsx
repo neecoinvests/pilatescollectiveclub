@@ -16,15 +16,15 @@ export const metadata: Metadata = {
   keywords: ["pilates for anxiety", "pilates stress relief", "pilates mental health", "pilates anxiety benefits", "pilates for stress 2026", "pilates nervous system", "pilates breathwork anxiety", "pilates cortisol", "pilates depression", "mindful movement anxiety"],
   openGraph: {
     title: "Pilates for Anxiety & Stress (2026): The Science of How It Helps",
-    description: "The neuroscience behind why Pilates reduces anxiety — and which specific practice patterns produce the strongest mental health benefits.",
+    description: "The neuroscience behind why Pilates reduces anxiety, and which specific practice patterns produce the strongest mental health benefits.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/pilates-for-anxiety",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/stitch-studio-open-window.png", width: 1200, height: 630, alt: "Pilates for Anxiety and Stress — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/stitch-studio-open-window.png", width: 1200, height: 630, alt: "Pilates for Anxiety and Stress: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Pilates for Anxiety: The Science Behind the Calm",
-    description: "Why Pilates reduces anxiety and stress — and the specific practice patterns that work best.",
+    description: "Why Pilates reduces anxiety and stress, and the specific practice patterns that work best.",
     images: ["https://pilatescollectiveclub.com/pictures/stitch-studio-open-window.png"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/pilates-for-anxiety" },
@@ -37,7 +37,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Pilates for Anxiety & Stress (2026): The Science of How It Helps",
-      "description": "How Pilates reduces anxiety — the neuroscience of breath, nervous system regulation, and mindful movement in Pilates practice.",
+      "description": "How Pilates reduces anxiety: the neuroscience of breath, nervous system regulation, and mindful movement in Pilates practice.",
       "url": "https://pilatescollectiveclub.com/blog/pilates-for-anxiety",
       "datePublished": "2026-06-01",
       "dateModified": "2026-10-20",
@@ -57,21 +57,21 @@ const jsonLd = {
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "Is Pilates better than yoga for anxiety?", "acceptedAnswer": { "@type": "Answer", "text": "Both Pilates and yoga produce measurable anxiety-reduction, and the research does not clearly favour one over the other. The key variables are the breath integration, the attentional focus on the body, and the absence of competitive or performance pressure — all present in both methods. The best choice is the one you will practise consistently. Some people find Pilates more accessible because it doesn't carry the cultural or spiritual associations that can make yoga feel unfamiliar." } },
-        { "@type": "Question", "name": "How quickly does Pilates help with anxiety?", "acceptedAnswer": { "@type": "Answer", "text": "Acute anxiety reduction — the calming effect of a single session — is immediate for most people and driven primarily by the breath mechanics. Studies on the acute effects of Pilates on state anxiety consistently show reductions in self-reported anxiety within a single 45-60 minute session. Longer-term trait anxiety reduction — a sustained reduction in baseline anxiety levels — requires consistent practice over 6–8 weeks." } },
-        { "@type": "Question", "name": "Can Pilates help with panic attacks?", "acceptedAnswer": { "@type": "Answer", "text": "Pilates breathing techniques — specifically extended exhalation — activate the parasympathetic nervous system and can interrupt the physiological cascade of a panic attack. However, Pilates is not a substitute for psychological treatment of panic disorder. If you experience panic attacks, pursue evidence-based psychological treatment (CBT) and discuss with your GP before using exercise as a management strategy alone." } },
-        { "@type": "Question", "name": "What type of Pilates is best for anxiety?", "acceptedAnswer": { "@type": "Answer", "text": "Mat Pilates in a small group or one-on-one setting with an instructor who emphasises breath and mindful awareness tends to produce the strongest anxiety benefits. High-intensity reformer classes with a fast pace and performance emphasis may actually increase anxiety in some people. The therapeutic Pilates environment — calm, focused, non-competitive — matters as much as the exercises themselves." } },
+        { "@type": "Question", "name": "Is Pilates better than yoga for anxiety?", "acceptedAnswer": { "@type": "Answer", "text": "Both Pilates and yoga produce measurable anxiety-reduction, and the research does not clearly favour one over the other. The key variables are the breath integration, the attentional focus on the body, and the absence of competitive or performance pressure: all present in both methods. The best choice is the one you will practise consistently. Some people find Pilates more accessible because it doesn't carry the cultural or spiritual associations that can make yoga feel unfamiliar." } },
+        { "@type": "Question", "name": "How quickly does Pilates help with anxiety?", "acceptedAnswer": { "@type": "Answer", "text": "Acute anxiety reduction, the calming effect of a single session, is immediate for most people and driven primarily by the breath mechanics. Studies on the acute effects of Pilates on state anxiety consistently show reductions in self-reported anxiety within a single 45-60 minute session. Longer-term trait anxiety reduction, a sustained reduction in baseline anxiety levels, requires consistent practice over 6–8 weeks." } },
+        { "@type": "Question", "name": "Can Pilates help with panic attacks?", "acceptedAnswer": { "@type": "Answer", "text": "Pilates breathing techniques, specifically extended exhalation, activate the parasympathetic nervous system and can interrupt the physiological cascade of a panic attack. However, Pilates is not a substitute for psychological treatment of panic disorder. If you experience panic attacks, pursue evidence-based psychological treatment (CBT) and discuss with your GP before using exercise as a management strategy alone." } },
+        { "@type": "Question", "name": "What type of Pilates is best for anxiety?", "acceptedAnswer": { "@type": "Answer", "text": "Mat Pilates in a small group or one-on-one setting with an instructor who emphasises breath and mindful awareness tends to produce the strongest anxiety benefits. High-intensity reformer classes with a fast pace and performance emphasis may actually increase anxiety in some people. The therapeutic Pilates environment (calm, focused, non-competitive) matters as much as the exercises themselves." } },
       ],
     },
   ],
 };
 
 const PRODUCTS = [
-  { name: "Manduka PRO Pilates Mat", description: "The quality of your mat affects how easily you settle into focused practice. A firm, non-slip surface removes the micro-distractions of sliding or uneven support — useful when the goal is mental stillness.", price: "$144.00", affiliateUrl: "https://www.amazon.com/dp/B0066T7I54?tag=pilatescollective-20" },
-  { name: "OPTP Foam Roller (36-inch)", description: "The supine thoracic opening on a full-length foam roller activates the parasympathetic nervous system via diaphragmatic stretch and chest opening — a direct physiological intervention for anxiety.", price: "$62.99", affiliateUrl: "https://www.amazon.com/dp/B002C9EX14?tag=pilatescollective-20" },
+  { name: "Manduka PRO Pilates Mat", description: "The quality of your mat affects how easily you settle into focused practice. A firm, non-slip surface removes the micro-distractions of sliding or uneven support: useful when the goal is mental stillness.", price: "$144.00", affiliateUrl: "https://www.amazon.com/dp/B0066T7I54?tag=pilatescollective-20" },
+  { name: "OPTP Foam Roller (36-inch)", description: "The supine thoracic opening on a full-length foam roller activates the parasympathetic nervous system via diaphragmatic stretch and chest opening: a direct physiological intervention for anxiety.", price: "$62.99", affiliateUrl: "https://www.amazon.com/dp/B002C9EX14?tag=pilatescollective-20" },
   { name: "TheraBand Resistance Bands Set", description: "For home practice between sessions. Resistance band Pilates exercises maintain the somatic focus and breath regulation that make studio Pilates effective for anxiety management.", price: "$11.99", affiliateUrl: "https://www.amazon.com/dp/B01A58FHQ8?tag=pilatescollective-20" },
   { name: "Trideer 9-inch Pilates Ball", description: "Placed on the abdomen or ribs during breathing exercises, the small ball provides proprioceptive feedback that improves breath awareness during Pilates practice.", price: "$7.99", affiliateUrl: "https://www.amazon.com/dp/B077QD9TFF?tag=pilatescollective-20" },
-  { name: "Balanced Body Magic Circle", description: "Light resistance work for home sessions — the rhythmic engagement and release pattern of magic circle exercises builds the mind-body connection that Pilates is most valued for in stress management.", price: "$35.00", affiliateUrl: "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20" },
+  { name: "Balanced Body Magic Circle", description: "Light resistance work for home sessions: the rhythmic engagement and release pattern of magic circle exercises builds the mind-body connection that Pilates is most valued for in stress management.", price: "$35.00", affiliateUrl: "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20" },
 ];
 
 const QP_NOTES = ["A firm, non-slip surface for focused practice", "Supine chest opening for calming breath work", "Resistance work for home sessions", "Feedback that improves breath awareness", "Rhythmic engage-and-release work at home"];
@@ -99,7 +99,7 @@ export default function PilatesForAnxietyPage() {
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              The experience is consistent across thousands of practitioners: you walk into a Pilates session carrying the weight of a difficult day, and you leave feeling distinctly lighter. This isn&apos;t placebo — there is clear neurological and physiological mechanism behind it. Understanding why Pilates relieves anxiety helps you structure your practice to maximise these benefits, and distinguishes Pilates from other forms of exercise that may not produce the same calming effect.
+              The experience is consistent across thousands of practitioners: you walk into a Pilates session carrying the weight of a difficult day, and you leave feeling distinctly lighter. This isn&apos;t placebo: there is clear neurological and physiological mechanism behind it. Understanding why Pilates relieves anxiety helps you structure your practice to maximise these benefits, and distinguishes Pilates from other forms of exercise that may not produce the same calming effect.
             </p>
           </div>
         </section>
@@ -107,7 +107,7 @@ export default function PilatesForAnxietyPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/stitch-studio-open-window.png" alt="Pilates for anxiety and stress — calm studio environment for mindful movement and nervous system regulation" fill className="object-cover" style={{ filter: "brightness(0.88)" }} />
+              <Image src="/pictures/stitch-studio-open-window.png" alt="Pilates for anxiety and stress: calm studio environment for mindful movement and nervous system regulation" fill className="object-cover" style={{ filter: "brightness(0.88)" }} />
             </div>
           </div>
         </section>
@@ -121,16 +121,16 @@ export default function PilatesForAnxietyPage() {
             <div className="mb-14 mt-4">
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The neuroscience: why Pilates calms the nervous system</h2>
               <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Anxiety is, at its physiological core, a state of sympathetic nervous system dominance — the fight-or-flight response activated inappropriately or disproportionately to the actual threat level. The antidote is parasympathetic activation — the rest-and-digest state. Pilates activates this through at least three distinct mechanisms.
+                Anxiety is, at its physiological core, a state of sympathetic nervous system dominance: the fight-or-flight response activated inappropriately or disproportionately to the actual threat level. The antidote is parasympathetic activation: the rest-and-digest state. Pilates activates this through at least three distinct mechanisms.
               </p>
               <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                The first is breath. Extended exhalation directly stimulates the vagus nerve — the primary parasympathetic nerve — through its stretch receptors in the lungs and its influence on heart rate variability (HRV). Pilates breath emphasises full exhalation, and research consistently shows that controlled breathing with extended exhalation increases HRV and reduces cortisol levels within a single session. A 2021 study in the International Journal of Environmental Research and Public Health found that Pilates breathing interventions significantly reduced state anxiety compared to unstructured exercise.
+                The first is breath. Extended exhalation directly stimulates the vagus nerve, the primary parasympathetic nerve, through its stretch receptors in the lungs and its influence on heart rate variability (HRV). Pilates breath emphasises full exhalation, and research consistently shows that controlled breathing with extended exhalation increases HRV and reduces cortisol levels within a single session. A 2021 study in the International Journal of Environmental Research and Public Health found that Pilates breathing interventions significantly reduced state anxiety compared to unstructured exercise.
               </p>
               <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                The second is attentional focus. Pilates requires sustained attention on internal physical sensation — the position of the pelvis, the engagement of specific muscles, the coordination of movement with breath. This directed internal focus is incompatible with rumination, the repetitive negative thought patterns that sustain anxiety. It is, in effect, a form of mindfulness practice embedded in physical movement.
+                The second is attentional focus. Pilates requires sustained attention on internal physical sensation: the position of the pelvis, the engagement of specific muscles, the coordination of movement with breath. This directed internal focus is incompatible with rumination, the repetitive negative thought patterns that sustain anxiety. It is, in effect, a form of mindfulness practice embedded in physical movement.
               </p>
               <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                The third is cortisol reduction through exercise itself. Moderate-intensity exercise consistently reduces cortisol — the primary stress hormone — in the hours following a session. Pilates operates in this moderate-intensity range, producing cortisol reduction without the excess sympathetic activation that high-intensity exercise can trigger in people who are already in a heightened stress state.
+                The third is cortisol reduction through exercise itself. Moderate-intensity exercise consistently reduces cortisol, the primary stress hormone, in the hours following a session. Pilates operates in this moderate-intensity range, producing cortisol reduction without the excess sympathetic activation that high-intensity exercise can trigger in people who are already in a heightened stress state.
               </p>
             </div>
 
@@ -144,7 +144,7 @@ export default function PilatesForAnxietyPage() {
                   },
                   {
                     title: "Improved sleep quality",
-                    body: "Anxiety and sleep disruption are deeply linked — anxiety disturbs sleep, and poor sleep exacerbates anxiety. A 2020 study in the Journal of Bodywork and Movement Therapies found that 8 weeks of Pilates significantly improved sleep quality in adults with insomnia, with improvements that persisted at 4-week follow-up.",
+                    body: "Anxiety and sleep disruption are deeply linked: anxiety disturbs sleep, and poor sleep exacerbates anxiety. A 2020 study in the Journal of Bodywork and Movement Therapies found that 8 weeks of Pilates significantly improved sleep quality in adults with insomnia, with improvements that persisted at 4-week follow-up.",
                   },
                   {
                     title: "Reduced depressive symptoms",
@@ -152,7 +152,7 @@ export default function PilatesForAnxietyPage() {
                   },
                   {
                     title: "Improved body image and self-efficacy",
-                    body: "Pilates consistently improves body image and self-efficacy — the belief in one&apos;s ability to manage challenges. Both are protective factors against anxiety. Unlike some fitness disciplines, Pilates does not centre aesthetics or competitive performance, which may partly explain why the improvements in body image are consistent across body types and ages.",
+                    body: "Pilates consistently improves body image and self-efficacy: the belief in one&apos;s ability to manage challenges. Both are protective factors against anxiety. Unlike some fitness disciplines, Pilates does not centre aesthetics or competitive performance, which may partly explain why the improvements in body image are consistent across body types and ages.",
                   },
                 ].map((item) => (
                   <div key={item.title} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
@@ -168,12 +168,12 @@ export default function PilatesForAnxietyPage() {
               <p className="text-sm leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>These evidence-informed guidelines help you get the most from Pilates as an anxiety management tool.</p>
               <ul className="space-y-3">
                 {[
-                  "Practise 3 times per week minimum — the research consistently shows that frequency matters more than session duration for mood and anxiety benefits.",
-                  "Prioritise breath over performance — in every exercise, if you find yourself holding your breath, reduce the difficulty until you can maintain coordinated breathing throughout.",
-                  "Prefer smaller groups or one-on-one sessions — the competitive social dynamics of large group fitness classes can increase, not decrease, anxiety in some people.",
-                  "End each session with 3–5 minutes of supine rest (constructive rest or savasana equivalent) — this is when the parasympathetic consolidation happens; don't skip it.",
-                  "Practise in the morning or early afternoon if possible — cortisol naturally peaks in the morning, and moderate exercise at this time produces better cortisol regulation throughout the day.",
-                  "Avoid high-intensity reformer classes when you are at peak anxiety — the sympathetic activation from intense interval-style work can temporarily worsen anxiety. Gentle mat or reformer work at conversational pace is more effective.",
+                  "Practise 3 times per week minimum: the research consistently shows that frequency matters more than session duration for mood and anxiety benefits.",
+                  "Prioritise breath over performance, in every exercise, if you find yourself holding your breath, reduce the difficulty until you can maintain coordinated breathing throughout.",
+                  "Prefer smaller groups or one-on-one sessions: the competitive social dynamics of large group fitness classes can increase, not decrease, anxiety in some people.",
+                  "End each session with 3–5 minutes of supine rest (constructive rest or savasana equivalent): this is when the parasympathetic consolidation happens; don't skip it.",
+                  "Practise in the morning or early afternoon if possible: cortisol naturally peaks in the morning, and moderate exercise at this time produces better cortisol regulation throughout the day.",
+                  "Avoid high-intensity reformer classes when you are at peak anxiety: the sympathetic activation from intense interval-style work can temporarily worsen anxiety. Gentle mat or reformer work at conversational pace is more effective.",
                 ].map((tip, i) => (
                   <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                     <span className="font-semibold" style={{ color: "#8b4a31" }}>{i + 1}.</span>
@@ -186,13 +186,13 @@ export default function PilatesForAnxietyPage() {
             <div className="mb-14">
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Pilates vs other exercise for anxiety</h2>
               <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                All forms of regular exercise reduce anxiety — this is well-established. What makes Pilates potentially superior to some alternatives for anxiety management is the combination of physical and attentional engagement. High-intensity exercise (HIIT, running, spin) reduces cortisol in the hours after exercise but can temporarily increase it during the session, which is poorly tolerated by people in a heightened anxious state.
+                All forms of regular exercise reduce anxiety: this is well-established. What makes Pilates potentially superior to some alternatives for anxiety management is the combination of physical and attentional engagement. High-intensity exercise (HIIT, running, spin) reduces cortisol in the hours after exercise but can temporarily increase it during the session, which is poorly tolerated by people in a heightened anxious state.
               </p>
               <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                 Pilates operates at a moderate intensity that avoids this cortisol spike while simultaneously engaging the attentional mechanisms that reduce rumination. This makes it particularly well-suited to people who find high-intensity exercise activating rather than calming, or those who experience anxiety related to health concerns and prefer a gentler approach to exercise.
               </p>
               <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Yoga is the most comparable practice — both involve breath-integrated movement, attentional focus, and a non-competitive environment. The evidence base for yoga in anxiety management is slightly larger, but Pilates has been closing this gap in the research literature since 2018. The practical difference is minimal; the best choice is the one you will consistently show up for.
+                Yoga is the most comparable practice, both involve breath-integrated movement, attentional focus, and a non-competitive environment. The evidence base for yoga in anxiety management is slightly larger, but Pilates has been closing this gap in the research literature since 2018. The practical difference is minimal; the best choice is the one you will consistently show up for.
               </p>
             </div>
 
@@ -200,10 +200,10 @@ export default function PilatesForAnxietyPage() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "Is Pilates better than yoga for anxiety?", a: "Both Pilates and yoga produce measurable anxiety-reduction, and the research does not clearly favour one over the other. The key variables are the breath integration, the attentional focus on the body, and the absence of competitive or performance pressure — all present in both methods. The best choice is the one you will practise consistently. Some people find Pilates more accessible because it doesn't carry the cultural or spiritual associations that can make yoga feel unfamiliar." },
-                  { q: "How quickly does Pilates help with anxiety?", a: "Acute anxiety reduction — the calming effect of a single session — is immediate for most people and driven primarily by the breath mechanics. Studies on the acute effects of Pilates on state anxiety consistently show reductions in self-reported anxiety within a single 45–60 minute session. Longer-term trait anxiety reduction — a sustained reduction in baseline anxiety levels — requires consistent practice over 6–8 weeks." },
-                  { q: "Can Pilates help with panic attacks?", a: "Pilates breathing techniques — specifically extended exhalation — activate the parasympathetic nervous system and can interrupt the physiological cascade of a panic attack. However, Pilates is not a substitute for psychological treatment of panic disorder. If you experience panic attacks, pursue evidence-based psychological treatment (CBT) and discuss with your GP before using exercise as a management strategy alone." },
-                  { q: "What type of Pilates is best for anxiety?", a: "Mat Pilates in a small group or one-on-one setting with an instructor who emphasises breath and mindful awareness tends to produce the strongest anxiety benefits. High-intensity reformer classes with a fast pace and performance emphasis may actually increase anxiety in some people. The therapeutic Pilates environment — calm, focused, non-competitive — matters as much as the exercises themselves." },
+                  { q: "Is Pilates better than yoga for anxiety?", a: "Both Pilates and yoga produce measurable anxiety-reduction, and the research does not clearly favour one over the other. The key variables are the breath integration, the attentional focus on the body, and the absence of competitive or performance pressure: all present in both methods. The best choice is the one you will practise consistently. Some people find Pilates more accessible because it doesn't carry the cultural or spiritual associations that can make yoga feel unfamiliar." },
+                  { q: "How quickly does Pilates help with anxiety?", a: "Acute anxiety reduction, the calming effect of a single session, is immediate for most people and driven primarily by the breath mechanics. Studies on the acute effects of Pilates on state anxiety consistently show reductions in self-reported anxiety within a single 45–60 minute session. Longer-term trait anxiety reduction, a sustained reduction in baseline anxiety levels, requires consistent practice over 6–8 weeks." },
+                  { q: "Can Pilates help with panic attacks?", a: "Pilates breathing techniques, specifically extended exhalation, activate the parasympathetic nervous system and can interrupt the physiological cascade of a panic attack. However, Pilates is not a substitute for psychological treatment of panic disorder. If you experience panic attacks, pursue evidence-based psychological treatment (CBT) and discuss with your GP before using exercise as a management strategy alone." },
+                  { q: "What type of Pilates is best for anxiety?", a: "Mat Pilates in a small group or one-on-one setting with an instructor who emphasises breath and mindful awareness tends to produce the strongest anxiety benefits. High-intensity reformer classes with a fast pace and performance emphasis may actually increase anxiety in some people. The therapeutic Pilates environment (calm, focused, non-competitive) matters as much as the exercises themselves." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
@@ -230,7 +230,7 @@ export default function PilatesForAnxietyPage() {
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Pilates for Menopause" excerpt="How Pilates addresses the physical and psychological symptoms of perimenopause and menopause." href="/blog/pilates-for-menopause" category="Health" readTime="9 min read" date="June 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
-                <ArticleCard title="Pilates vs Yoga" excerpt="A clear comparison of both methods — philosophy, physical outcomes, and how to choose." href="/blog/pilates-vs-yoga" category="Comparison" readTime="9 min read" date="June 2026" imageUrl="/pictures/stitch-mat-setup-beige.png" />
+                <ArticleCard title="Pilates vs Yoga" excerpt="A clear comparison of both methods: philosophy, physical outcomes, and how to choose." href="/blog/pilates-vs-yoga" category="Comparison" readTime="9 min read" date="June 2026" imageUrl="/pictures/stitch-mat-setup-beige.png" />
                 <ArticleCard title="Pilates Breathing Techniques (2026): Lateral Breathing" excerpt="How to breathe in Pilates: lateral ribcage breathing, why it differs from belly breathing, the exhale-on-effort…" href="/blog/pilates-breathing-techniques" category="Guide" readTime="10 min read" imageUrl="/pictures/roxana-popovici-Zp4APUiwEsM-unsplash.jpg" />
                 <ArticleCard title="Pilates Morning Routine (2026): 10, 20 & 30-Minute Options" excerpt="The best Pilates morning routines for 2026, 10, 20, and 30-minute options for before work, with equipment…" href="/blog/pilates-morning-routine" category="Guide" readTime="10 min read" imageUrl="/pictures/stitch-reformer-morning-light.png" />
                 <ArticleCard title="Pilates for Fibromyalgia (2026): Gentle Exercises & Tips" excerpt="How Pilates helps fibromyalgia, the evidence on pain reduction, fatigue management, and sleep improvement, plus…" href="/blog/pilates-for-fibromyalgia" category="Health" readTime="9 min read" imageUrl="/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg" />

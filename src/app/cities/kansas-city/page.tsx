@@ -12,7 +12,7 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Studios in Kansas City, MO (2026)",
-  description: "The best Pilates studios in Kansas City — reformer boutiques in the Plaza, Westport, and Leawood. Six verified picks, 2026.",
+  description: "The best Pilates studios in Kansas City: reformer boutiques in the Plaza, Westport, and Leawood. Six verified picks, 2026.",
   robots: {
     index: true,
     follow: true,
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Best Pilates Studios in Kansas City, MO (2026)",
     description:
-      "Curated Pilates studios in Kansas City — Plaza and Westport reformer picks. Verified 2026.",
+      "Curated Pilates studios in Kansas City: Plaza and Westport reformer picks. Verified 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/kansas-city",
     images: [
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Best Pilates Studios in Kansas City (2026)",
     description:
-      "The 6 best Pilates studios in Kansas City — curated, verified, and reviewed for 2026.",
+      "The 6 best Pilates studios in Kansas City: curated, verified, and reviewed for 2026.",
     images: [
       "https://images.unsplash.com/photo-1613069344419-ce7e1e869daa?w=1200&h=630&fit=crop",
     ],
@@ -55,9 +55,9 @@ const STUDIOS = [
     name: "Pilates Stance",
     neighborhood: "Kansas City, MO",
     priceLevel: "$$$",
-    review: "Pilates Stance is a pure Pilates studio where every instructor is certified through Romana's Pilates — the programme that continues Joseph and Clara Pilates' teaching as directly as possible. For people who want authentic classical method rather than a reformer workout, it is the most traditional option in the metro.",
-    caveat: "classical teaching is precise and methodical — and we could not confirm the current street address independently, so check the studio's website before visiting.",
-    address: "—",
+    review: "Pilates Stance is a pure Pilates studio where every instructor is certified through Romana's Pilates: the programme that continues Joseph and Clara Pilates' teaching as directly as possible. For people who want authentic classical method rather than a reformer workout, it is the most traditional option in the metro.",
+    caveat: "classical teaching is precise and methodical, and we could not confirm the current street address independently, so check the studio's website before visiting.",
+    address: "",
     bestFor: "Authentic classical Pilates (Romana's lineage)",
     signatureClass: "Classical Reformer",
     bookingTip: "Contact the studio directly for private-session availability.",
@@ -68,19 +68,19 @@ const STUDIOS = [
     neighborhood: "Country Club Plaza / Midtown",
     priceLevel: "$$$",
     review: "Club Pilates Country Club Plaza on West 48th Street sits at the west side of the Plaza, convenient for midtown residents and anyone combining a class with the Plaza's shops and restaurants. It runs the brand's levelled group reformer system.",
-    caveat: "a franchise format — consistent, but less personalised than an independent studio.",
+    caveat: "a franchise format: consistent, but less personalised than an independent studio.",
     address: "610 W 48th St, Kansas City, MO 64112",
     bestFor: "Structured reformer classes at the Plaza",
     signatureClass: "Reformer Flow",
-    bookingTip: "Lunchtime classes fill early with midtown professionals — book ahead.",
+    bookingTip: "Lunchtime classes fill early with midtown professionals: book ahead.",
   },
   {
     number: "3",
     name: "Pilates 1901",
     neighborhood: "Kansas City, KS (Rosedale)",
     priceLevel: "$$",
-    review: "Pilates 1901 is a STOTT Pilates and fitness studio on West 43rd Avenue in Kansas City, Kansas. It offers personal training and small-group classes across mat, reformer, tower and ball, plus Pilates cardio and tramp stretch, restore and stretch, aerial hammock inversion work and Yamuna body rolling — one of the broadest Pilates menus in the metro.",
-    caveat: "a wide-ranging fitness menu — choose apparatus classes specifically if you want classic Pilates work.",
+    review: "Pilates 1901 is a STOTT Pilates and fitness studio on West 43rd Avenue in Kansas City, Kansas. It offers personal training and small-group classes across mat, reformer, tower and ball, plus Pilates cardio and tramp stretch, restore and stretch, aerial hammock inversion work and Yamuna body rolling: one of the broadest Pilates menus in the metro.",
+    caveat: "a wide-ranging fitness menu: choose apparatus classes specifically if you want classic Pilates work.",
     address: "1901 W 43rd Ave, Kansas City, KS 66103",
     bestFor: "STOTT-based small groups and personal training",
     signatureClass: "STOTT Reformer",
@@ -92,11 +92,11 @@ const STUDIOS = [
     neighborhood: "Prairie Village",
     priceLevel: "$$$",
     review: "The Body Lab on The Mall in Prairie Village specialises in Lagree Fitness on the Megaformer, and it holds a 5.0 rating on ClassPass. It is the go-to Lagree option for Prairie Village and the Kansas side of the state line.",
-    caveat: "Lagree is very different from Pilates — slower, heavier and sweatier.",
+    caveat: "Lagree is very different from Pilates: slower, heavier and sweatier.",
     address: "11 On The Mall, Prairie Village, KS 66208",
     bestFor: "Lagree on the Megaformer",
     signatureClass: "Lagree Megaformer class",
-    bookingTip: "New to Lagree? Tell the instructor — the first class has a learning curve.",
+    bookingTip: "New to Lagree? Tell the instructor: the first class has a learning curve.",
   },
   {
     number: "5",
@@ -104,11 +104,11 @@ const STUDIOS = [
     neighborhood: "Prairie Village",
     priceLevel: "$$",
     review: "Club Pilates Prairie Village on West 83rd Street offers small-group and private reformer training and is rated 4.8 on ClassPass. It is convenient for Prairie Village, Leawood and the northern Johnson County suburbs.",
-    caveat: "a franchise studio — reliable structure, less individual programming.",
+    caveat: "a franchise studio: reliable structure, less individual programming.",
     address: "3905 W 83rd St, Prairie Village, KS 66208",
     bestFor: "Johnson County residents wanting structured reformer classes",
     signatureClass: "Reformer Flow",
-    bookingTip: "Weekend mornings fill first — book by Thursday.",
+    bookingTip: "Weekend mornings fill first: book by Thursday.",
   },
   {
     number: "6",
@@ -116,18 +116,18 @@ const STUDIOS = [
     neighborhood: "South Overland Park",
     priceLevel: "$$",
     review: "BODYBAR Pilates opened its South Overland Park studio in the Deer Creek Woods shopping centre in April 2024. Its 40–50 minute classes target strength, balance, toning and flexibility using jump boards, tower springs and stability chairs. At opening, single classes were $32 and memberships ran from $99 (four classes a month) to $199 (unlimited).",
-    caveat: "a franchise brand — upbeat and consistent, but less individual than a private-session studio.",
+    caveat: "a franchise brand: upbeat and consistent, but less individual than a private-session studio.",
     address: "13340 Metcalf Ave, Overland Park, KS 66213",
     bestFor: "Upbeat reformer classes in southern Johnson County",
     signatureClass: "BODYBAR Reformer",
-    bookingTip: "BODYBAR also has a Lenexa studio — check both schedules.",
+    bookingTip: "BODYBAR also has a Lenexa studio: check both schedules.",
   },
 ];
 
 const BOOKING_TIPS = [
   {
     heading: "KC's winters and summers both favor a studio commitment",
-    body: "Kansas City gets both brutal winters and sweltering summers — two seasons that push outdoor exercisers indoors and create year-round demand spikes at reformer studios. Practitioners who build indoor studio routines maintain them across seasons. The best time to establish a recurring slot is September or early spring.",
+    body: "Kansas City gets both brutal winters and sweltering summers: two seasons that push outdoor exercisers indoors and create year-round demand spikes at reformer studios. Practitioners who build indoor studio routines maintain them across seasons. The best time to establish a recurring slot is September or early spring.",
   },
   {
     heading: "The Missouri-Kansas split matters for scheduling",
@@ -138,12 +138,12 @@ const BOOKING_TIPS = [
     body: "Overland Park, Leawood, Prairie Village, and the surrounding Johnson County suburbs have developed a dense wellness infrastructure that reflects the area's above-average household income and health-consciousness. Studios in this corridor maintain high instruction standards to compete for a sophisticated client base.",
   },
   {
-    heading: "Intro packages are universal — use them before committing",
-    body: "Every Kansas City studio offers new-client introductory rates. Use the intro to evaluate instructor quality and community fit before committing to a membership. Classical studios (Pilates Stance) expect a private intake session first — it is not optional.",
+    heading: "Intro packages are universal: use them before committing",
+    body: "Every Kansas City studio offers new-client introductory rates. Use the intro to evaluate instructor quality and community fit before committing to a membership. Classical studios (Pilates Stance) expect a private intake session first: it is not optional.",
   },
   {
     heading: "Grip socks are required at every reformer and BODYBAR studio",
-    body: "Universal across the Kansas City reformer market. Full-toe grip socks — bring your own rather than paying front-desk retail prices.",
+    body: "Universal across the Kansas City reformer market. Full-toe grip socks: bring your own rather than paying front-desk retail prices.",
   },
 ];
 
@@ -161,7 +161,7 @@ const NEIGHBORHOODS = [
   {
     name: "Prairie Village & Overland Park",
     description:
-      "The Johnson County corridor has developed the metro's highest density of reformer studios — a reflection of the area's affluent, health-conscious suburban population that holds studios to real standards and sustains them with consistent membership.",
+      "The Johnson County corridor has developed the metro's highest density of reformer studios: a reflection of the area's affluent, health-conscious suburban population that holds studios to real standards and sustains them with consistent membership.",
   },
   {
     name: "South Overland Park & Leawood",
@@ -197,16 +197,16 @@ const GEAR = [
   },
   {
     name: "High-Density Foam Roller",
-    note: "Our pick: OPTP PRO-Roller Foam Roller (36-inch). Post-class fascia release — standard recovery tool across Kansas City's reformer and BODYBAR studios.",
+    note: "Our pick: OPTP PRO-Roller Foam Roller (36-inch). Post-class fascia release: standard recovery tool across Kansas City's reformer and BODYBAR studios.",
     price: "$62.99",
     url: "https://www.amazon.com/dp/B002C9EX14?tag=pilatescollective-20",
   },
 ];
 
 const HOME_REFORMERS = [
-  { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work — three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
+  { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work: three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
   { tag: "Mid-Range Pick", name: "AeroPilates Pro XP 557", note: "AeroPilates' top-of-the-range home reformer, a step up for practitioners training several times a week.", price: "$1,329.99", url: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20" },
-  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order — an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
+  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
 ];
 
 const RELATED_CITIES = [
@@ -231,7 +231,7 @@ const FURTHER_READING = [
   {
     title: "Classical vs Contemporary Pilates",
     excerpt:
-      "The real differences between classical and contemporary approaches — and how to choose the right method for your goals.",
+      "The real differences between classical and contemporary approaches, and how to choose the right method for your goals.",
     href: "/blog/classical-vs-contemporary-pilates",
     category: "Education",
     readTime: "7 min read",
@@ -310,7 +310,7 @@ export default function KansasCityPage() {
             </p>
             <p className="text-lg leading-relaxed" style={{ color: "#5c4f47" }}>
               Kansas City's Pilates market spans two states and covers some of the most contrasting
-              fitness geographies in the Midwest — from a Romana's Pilates® classical studio to
+              fitness geographies in the Midwest, from a Romana's Pilates® classical studio to
               STOTT-based small groups in Kansas City, Kansas, Lagree in Prairie Village and BODYBAR
               in south Overland Park. The Country Club Plaza franchise anchors the city core. If you know where to look, Kansas
               City in 2026 delivers quality reformer instruction at every level and price point.
@@ -475,7 +475,7 @@ export default function KansasCityPage() {
 
         <CTASection
           title="Find Pilates near you"
-          subtitle="Use our AI Finder to discover studios in any city — coming soon."
+          subtitle="Use our AI Finder to discover studios in any city: coming soon."
           showSearch
           searchPlaceholder="Ask: best reformer Pilates in Kansas City…"
         />

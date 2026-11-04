@@ -31,7 +31,7 @@ h1, h2, h3, h4 {
   font-weight: 400;
 }
 
-/* ─── Homepage grid columns (desktop — overridden on mobile below) ──────────── */
+/* ─── Homepage grid columns (desktop, overridden on mobile below) ──────────── */
 .pcc-grid-journal  { grid-template-columns: repeat(3, 1fr); }
 .pcc-grid-cities   { grid-template-columns: repeat(5, 1fr); }
 .pcc-grid-products { grid-template-columns: repeat(4, 1fr); }
@@ -51,7 +51,7 @@ h1, h2, h3, h4 {
   }
 
   /* Mobile nav drawer. It renders inside the position:fixed header, so any
-     content past the viewport bottom cannot be reached by page scroll —
+     content past the viewport bottom cannot be reached by page scroll:
      it needs its own scroll container or the lower Shop Gear links are lost. */
   .pcc-mobile-menu {
     max-height: calc(100vh - 3.75rem);
@@ -61,7 +61,7 @@ h1, h2, h3, h4 {
     overscroll-behavior: contain;
   }
 
-  /* Featured Rotator — stack vertically */
+  /* Featured Rotator, stack vertically */
   .pcc-featured-grid {
     grid-template-columns: 1fr !important;
   }

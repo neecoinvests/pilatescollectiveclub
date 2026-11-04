@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "Best Pilates Reformer Pads (2026): Grip Pads & Shoulder Block Covers",
-    description: "Real, verified reformer grip pads and shoulder block covers from Eccentfit, Lconvicely, Plantzia and COSHNIBI — two distinct product categories, covered honestly.",
+    description: "Real, verified reformer grip pads and shoulder block covers from Eccentfit, Lconvicely, Plantzia and COSHNIBI: two distinct product categories, covered honestly.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-reformer-pads",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/stitch-reformer-spring-detail.png", width: 1200, height: 630, alt: "Best Pilates Reformer Pads" }],
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Reformer Pads (2026): Grip Pads & Shoulder Block Covers",
-    description: "Real, verified reformer grip pads and shoulder block covers — two distinct product categories, covered honestly.",
+    description: "Real, verified reformer grip pads and shoulder block covers: two distinct product categories, covered honestly.",
     images: ["https://pilatescollectiveclub.com/pictures/stitch-reformer-spring-detail.png"],
   },
   alternates: {
@@ -47,7 +47,7 @@ const PRODUCTS = [
     name: "Eccentfit Pilates Grip Pads (4-Pack)",
     price: "$7.99",
     verdict: "The real, verified grip/comfort pad accessory for reformers",
-    description: "A note before anything else: we searched for brand-specific OEM shoulder rest pads, headrest cushions, and carriage pads from Balanced Body, Merrithew, AeroPilates, and Align Pilates, and none turned up as real, live Amazon listings under those names — the specific claims attached to them (foam density, memory-foam thickness, colourways) were not verifiable. This grip pad is a real, currently-sold Amazon accessory instead: it adds grip and a layer of cushioning at the carriage for standing and kneeling work, and helps protect the upholstery underneath from wear. It is not a shoulder-rest or headrest replacement — check the pad's dimensions against your carriage before ordering.",
+    description: "A note before anything else: we searched for brand-specific OEM shoulder rest pads, headrest cushions, and carriage pads from Balanced Body, Merrithew, AeroPilates, and Align Pilates, and none turned up as real, live Amazon listings under those names, the specific claims attached to them (foam density, memory-foam thickness, colourways) were not verifiable. This grip pad is a real, currently-sold Amazon accessory instead: it adds grip and a layer of cushioning at the carriage for standing and kneeling work, and helps protect the upholstery underneath from wear. It is not a shoulder-rest or headrest replacement: check the pad's dimensions against your carriage before ordering.",
     affiliateUrl: "https://www.amazon.com/dp/B0GGR4QXNH?tag=pilatescollective-20",
     tag: "The Real Listing",
   },
@@ -55,8 +55,8 @@ const PRODUCTS = [
     rank: "02",
     name: "Lconvicely Shoulder Block Covers (2-Pack)",
     price: "$7.59",
-    verdict: "Real, verified shoulder-block covers — a different accessory from grip pads",
-    description: "Sold by Lconvicely Shop on Amazon. \"Reformer pads\" is a term that actually covers at least two distinct products: carriage/standing grip pads, like the Eccentfit pads above, and shoulder-block covers, which slip over the reformer's shoulder rests to add a softer, washable surface. This is a real, currently-sold pair of polyester shoulder block covers with an anti-slip interior and a drawstring closure, fitted for 7.5x4x4in shoulder blocks. Shoulder block dimensions vary by reformer brand, so measure your own blocks against that spec before ordering — treat \"universal fit\" claims from generic sellers with some skepticism.",
+    verdict: "Real, verified shoulder-block covers: a different accessory from grip pads",
+    description: "Sold by Lconvicely Shop on Amazon. \"Reformer pads\" is a term that actually covers at least two distinct products: carriage/standing grip pads, like the Eccentfit pads above, and shoulder-block covers, which slip over the reformer's shoulder rests to add a softer, washable surface. This is a real, currently-sold pair of polyester shoulder block covers with an anti-slip interior and a drawstring closure, fitted for 7.5x4x4in shoulder blocks. Shoulder block dimensions vary by reformer brand, so measure your own blocks against that spec before ordering: treat \"universal fit\" claims from generic sellers with some skepticism.",
     affiliateUrl: "https://www.amazon.com/dp/B0GTLRCTDW?tag=pilatescollective-20",
     tag: "Shoulder Block Cover · Real Listing",
   },
@@ -64,8 +64,8 @@ const PRODUCTS = [
     rank: "03",
     name: "Plantzia Cotton Shoulder Block Covers (2-Pack)",
     price: "$13.95",
-    verdict: "Real, verified cotton shoulder-block covers — a sweat-absorbing alternative",
-    description: "Sold by Plantzia on Amazon. A second genuine, currently-sold shoulder block cover option, in cotton rather than polyester — cotton absorbs sweat better over a session, which some practitioners prefer to a synthetic fabric. Non-slip and drawstring-closed like the Lconvicely covers, but sized for 3.9x3.9x7.4in shoulder blocks, a different footprint, so measure your own reformer's shoulder blocks before choosing between the two rather than assuming either will fit.",
+    verdict: "Real, verified cotton shoulder-block covers: a sweat-absorbing alternative",
+    description: "Sold by Plantzia on Amazon. A second genuine, currently-sold shoulder block cover option, in cotton rather than polyester: cotton absorbs sweat better over a session, which some practitioners prefer to a synthetic fabric. Non-slip and drawstring-closed like the Lconvicely covers, but sized for 3.9x3.9x7.4in shoulder blocks, a different footprint, so measure your own reformer's shoulder blocks before choosing between the two rather than assuming either will fit.",
     affiliateUrl: "https://www.amazon.com/dp/B0H3P96HB6?tag=pilatescollective-20",
     tag: "Shoulder Block Cover · Real Listing",
   },
@@ -86,7 +86,7 @@ const jsonLd = {
     {
       "@type": "Article",
       headline: "Best Pilates Reformer Pads (2026): Grip Pads & Shoulder Block Covers Compared",
-      description: "\"Reformer pads\" covers at least two distinct product types — carriage/standing grip pads and shoulder-block covers. We checked for OEM shoulder rest, headrest and carriage pad listings from Balanced Body, Merrithew, AeroPilates and Align Pilates and none turned up as real, live Amazon listings, but real grip pads and shoulder block covers do exist — here's what we verified in both categories.",
+      description: "\"Reformer pads\" covers at least two distinct product types: carriage/standing grip pads and shoulder-block covers. We checked for OEM shoulder rest, headrest and carriage pad listings from Balanced Body, Merrithew, AeroPilates and Align Pilates and none turned up as real, live Amazon listings, but real grip pads and shoulder block covers do exist: here's what we verified in both categories.",
       url: "https://pilatescollectiveclub.com/blog/best-pilates-reformer-pads",
       datePublished: "2026-06-28",
       dateModified: "2026-10-20",
@@ -134,12 +134,12 @@ const jsonLd = {
         {
           "@type": "Question",
           name: "Will a shoulder block cover fit my reformer?",
-          acceptedAnswer: { "@type": "Answer", text: "Maybe — shoulder block dimensions vary by reformer brand and model, so a cover sized for one machine can be loose or too tight on another. The Lconvicely covers fit 7.5x4x4in blocks; the Plantzia covers fit 3.9x3.9x7.4in blocks. Measure your own shoulder blocks and compare against the listed dimensions before ordering, and treat \"universal fit\" claims from generic sellers with some skepticism." },
+          acceptedAnswer: { "@type": "Answer", text: "Maybe: shoulder block dimensions vary by reformer brand and model, so a cover sized for one machine can be loose or too tight on another. The Lconvicely covers fit 7.5x4x4in blocks; the Plantzia covers fit 3.9x3.9x7.4in blocks. Measure your own shoulder blocks and compare against the listed dimensions before ordering, and treat \"universal fit\" claims from generic sellers with some skepticism." },
         },
         {
           "@type": "Question",
           name: "Can you clean reformer pads?",
-          acceptedAnswer: { "@type": "Answer", text: "Most upholstered reformer pads can be wiped with a damp cloth and a mild cleaner after use. Fabric shoulder block covers and grip pads can typically be spot-cleaned or, for some, machine washed on a gentle cycle — check the specific listing's care instructions. Avoid harsh alcohol-based sprays that can dry and crack upholstery over time, and check your reformer manufacturer's own care guidance before using any cleaning product on the original padding." },
+          acceptedAnswer: { "@type": "Answer", text: "Most upholstered reformer pads can be wiped with a damp cloth and a mild cleaner after use. Fabric shoulder block covers and grip pads can typically be spot-cleaned or, for some, machine washed on a gentle cycle: check the specific listing's care instructions. Avoid harsh alcohol-based sprays that can dry and crack upholstery over time, and check your reformer manufacturer's own care guidance before using any cleaning product on the original padding." },
         },
       ],
     },
@@ -167,7 +167,7 @@ export default function BestPilatesReformerPadsPage() {
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <hr style={{ borderColor: "#e8e0db" }} className="mb-8" />
             <p className="text-lg leading-relaxed" style={{ color: "#5c4a3d" }}>
-              The padding between your body and a reformer&apos;s metal frame matters more than most practitioners realise — until a shoulder rest pad compresses flat, or a carriage pad develops a permanent groove from repeated footwork sessions. &quot;Reformer pads&quot; is actually a term that covers at least two distinct product types, though: carriage/standing grip pads, and shoulder-block covers. We went looking for OEM replacement pads from Balanced Body, Merrithew, AeroPilates and Align Pilates and could not find genuine, currently-sold Amazon listings for any of them — the model-specific claims attached to those searches (exact foam density, memory-foam thickness, colourways) were not verifiable either. Below are the real, verified accessories we could confirm instead, in both categories, plus honest guidance on where to go for genuine OEM parts.
+              The padding between your body and a reformer&apos;s metal frame matters more than most practitioners realise, until a shoulder rest pad compresses flat, or a carriage pad develops a permanent groove from repeated footwork sessions. &quot;Reformer pads&quot; is actually a term that covers at least two distinct product types, though: carriage/standing grip pads, and shoulder-block covers. We went looking for OEM replacement pads from Balanced Body, Merrithew, AeroPilates and Align Pilates and could not find genuine, currently-sold Amazon listings for any of them: the model-specific claims attached to those searches (exact foam density, memory-foam thickness, colourways) were not verifiable either. Below are the real, verified accessories we could confirm instead, in both categories, plus honest guidance on where to go for genuine OEM parts.
             </p>
           </div>
         </section>
@@ -201,7 +201,7 @@ export default function BestPilatesReformerPadsPage() {
                 We looked for brand-specific OEM shoulder rest pads, headrest cushions, and carriage pads from Balanced Body, Merrithew, AeroPilates, and Align Pilates, plus aftermarket &quot;universal&quot; carriage covers and footbar grip covers. We could not find live Amazon listings for any of them under the names searched, and the dimensions, foam densities, and compatible model numbers quoted for them elsewhere could not be independently verified, so none of them appear in this list.
               </p>
               <p className="text-base leading-relaxed mb-4" style={{ color: "#5c4a3d" }}>
-                If your reformer&apos;s shoulder rest or carriage pad needs replacing, the most reliable path is contacting your reformer&apos;s manufacturer directly for a genuine replacement part, or checking Amazon yourself for the current live listing under your exact model — rather than trusting a specific product name or spec quoted on a third-party page.
+                If your reformer&apos;s shoulder rest or carriage pad needs replacing, the most reliable path is contacting your reformer&apos;s manufacturer directly for a genuine replacement part, or checking Amazon yourself for the current live listing under your exact model, rather than trusting a specific product name or spec quoted on a third-party page.
               </p>
               <p className="text-base leading-relaxed" style={{ color: "#5c4a3d" }}>
                 A note on fit: shoulder block covers like the Lconvicely and Plantzia listings above are sized to specific block dimensions, not to a specific reformer model, so &quot;universal fit&quot; language from generic sellers is worth treating skeptically. Measure your own shoulder blocks before ordering.
@@ -225,7 +225,7 @@ export default function BestPilatesReformerPadsPage() {
               <div className="grid md:grid-cols-2 gap-6">
                 <ArticleCard
                   title="Best Pilates Reformer Accessories (2026): Springs, Boxes & More"
-                  excerpt="The accessories that expand what your home reformer can do — from jump boards to tower attachments."
+                  excerpt="The accessories that expand what your home reformer can do, from jump boards to tower attachments."
                   href="/blog/best-pilates-reformer-accessories"
                   category="Equipment"
                   readTime="8 min"
@@ -234,7 +234,7 @@ export default function BestPilatesReformerPadsPage() {
                 />
                 <ArticleCard
                   title="Best Pilates Reformer Short Box (2026): Accessories Compared"
-                  excerpt="Balanced Body, Merrithew, Align — the short boxes that unlock the rollback and tree series for home reformer owners."
+                  excerpt="Balanced Body, Merrithew, Align: the short boxes that unlock the rollback and tree series for home reformer owners."
                   href="/blog/best-pilates-reformer-short-box"
                   category="Equipment"
                   readTime="7 min"

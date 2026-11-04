@@ -12,7 +12,7 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Studios in Sacramento, CA (2026)",
-  description: "The best Pilates studios in Sacramento — reformer and hot Pilates in Midtown, East Sacramento, Arden-Arcade and Land Park. Six verified picks, 2026.",
+  description: "The best Pilates studios in Sacramento: reformer and hot Pilates in Midtown, East Sacramento, Arden-Arcade and Land Park. Six verified picks, 2026.",
   robots: {
     index: true,
     follow: true,
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Best Pilates Studios in Sacramento, CA (2026)",
     description:
-      "Six curated Pilates studios in Sacramento — Midtown and East Sacramento reformer boutiques. Verified 2026.",
+      "Six curated Pilates studios in Sacramento: Midtown and East Sacramento reformer boutiques. Verified 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/sacramento",
     images: [
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Best Pilates Studios in Sacramento (2026)",
     description:
-      "The 6 best Pilates studios in Sacramento — curated, verified, and reviewed for 2026.",
+      "The 6 best Pilates studios in Sacramento: curated, verified, and reviewed for 2026.",
     images: [
       "https://images.unsplash.com/photo-1606461978153-5d15a8067fd7?w=1200&h=630&fit=crop",
     ],
@@ -56,7 +56,7 @@ const STUDIOS = [
     neighborhood: "Midtown",
     priceLevel: "$$",
     review: "Club Pilates Midtown on 21st Street is the brand's most central Sacramento studio, with levelled group reformer classes.",
-    caveat: "a franchise format — consistent, but less personalised than an independent studio.",
+    caveat: "a franchise format: consistent, but less personalised than an independent studio.",
     address: "1330 21st St, Ste 101, Sacramento, CA 95811",
     bestFor: "Midtown residents wanting structured reformer classes",
     signatureClass: "Reformer Flow",
@@ -68,7 +68,7 @@ const STUDIOS = [
     neighborhood: "Midtown / Downtown",
     priceLevel: "$$",
     review: "P2O on P Street describes itself as Sacramento's first and only dedicated hot Pilates studio.",
-    caveat: "heated classes are demanding — hydrate well, and check with your doctor if heat is a concern.",
+    caveat: "heated classes are demanding: hydrate well, and check with your doctor if heat is a concern.",
     address: "2012 P St, Sacramento, CA 95811",
     bestFor: "Hot Pilates in Midtown",
     signatureClass: "Hot Pilates",
@@ -80,8 +80,8 @@ const STUDIOS = [
     neighborhood: "Midtown",
     priceLevel: "$$",
     review: "DOMA is an independent, locally owned heated yoga and Pilates studio in Midtown, founded by Katlyn Matic in 2018. Its classes, including Pilates core and heated power Pilates, run at 93° with humidification.",
-    caveat: "heated, humid classes — not for everyone.",
-    address: "—",
+    caveat: "heated, humid classes, not for everyone.",
+    address: "",
     bestFor: "Heated Pilates and yoga in Midtown",
     signatureClass: "Heated Power Pilates",
     bookingTip: "Bring water and a towel.",
@@ -104,7 +104,7 @@ const STUDIOS = [
     neighborhood: "Arden-Arcade",
     priceLevel: "$$",
     review: "Thrive Movement Arts on El Camino Avenue offers reformer Pilates classes and is listed on ClassPass, a convenient option for Arden-Arcade and Carmichael residents.",
-    caveat: "limited published detail about class formats — try a single class first.",
+    caveat: "limited published detail about class formats: try a single class first.",
     address: "4128 El Camino Ave, Sacramento, CA 95821",
     bestFor: "Reformer Pilates in Arden-Arcade",
     signatureClass: "Reformer Pilates",
@@ -116,7 +116,7 @@ const STUDIOS = [
     neighborhood: "Land Park / South Sacramento",
     priceLevel: "$$",
     review: "PILAX is a Pilates studio on Freeport Boulevard, convenient for Land Park and south Sacramento.",
-    caveat: "limited published detail about class formats — try a single class first.",
+    caveat: "limited published detail about class formats: try a single class first.",
     address: "4500 Freeport Blvd, Sacramento, CA 95822",
     bestFor: "Pilates near Land Park",
     signatureClass: "Reformer Pilates",
@@ -131,11 +131,11 @@ const BOOKING_TIPS = [
   },
   {
     heading: "Summer heat sends practitioners indoors",
-    body: "Sacramento summers are hot and dry — temperatures regularly exceed 100°F from June through September. The Central Valley heat makes studio classes the preferred movement option during these months, and demand for early morning slots (before 9 AM) and evening slots (after 6 PM) increases significantly. Book those windows in advance.",
+    body: "Sacramento summers are hot and dry: temperatures regularly exceed 100°F from June through September. The Central Valley heat makes studio classes the preferred movement option during these months, and demand for early morning slots (before 9 AM) and evening slots (after 6 PM) increases significantly. Book those windows in advance.",
   },
   {
     heading: "The Sacramento grid makes central studios accessible",
-    body: "Sacramento's famous grid street system and flat terrain make cycling to Midtown and central studios genuinely practical for much of the year. Studios on the grid are often faster to reach by bike or light rail than by car during commute hours — factor this into your studio selection.",
+    body: "Sacramento's famous grid street system and flat terrain make cycling to Midtown and central studios genuinely practical for much of the year. Studios on the grid are often faster to reach by bike or light rail than by car during commute hours: factor this into your studio selection.",
   },
   {
     heading: "Intro packages are the most cost-effective entry point",
@@ -143,7 +143,7 @@ const BOOKING_TIPS = [
   },
   {
     heading: "Grip socks are required at every reformer studio",
-    body: "Universal across Sacramento's reformer market. Bring your own — full-toe grip socks from Amazon cost a fraction of front-desk retail prices at every studio in the city.",
+    body: "Universal across Sacramento's reformer market. Bring your own: full-toe grip socks from Amazon cost a fraction of front-desk retail prices at every studio in the city.",
   },
 ];
 
@@ -156,7 +156,7 @@ const NEIGHBORHOODS = [
   {
     name: "Fair Oaks & Carmichael",
     description:
-      "Sacramento's northeast suburban corridor supports a strong franchise studio presence serving the area's established professional and family population. Well-equipped studios with wide schedules and practical membership tiers — the natural choice for northeast-side residents.",
+      "Sacramento's northeast suburban corridor supports a strong franchise studio presence serving the area's established professional and family population. Well-equipped studios with wide schedules and practical membership tiers: the natural choice for northeast-side residents.",
   },
   {
     name: "Natomas & North Sacramento",
@@ -197,16 +197,16 @@ const GEAR = [
   },
   {
     name: "High-Density Foam Roller",
-    note: "Our pick: OPTP PRO-Roller Foam Roller (36-inch). Post-class fascia release — especially useful for Sacramento's cycling and running community.",
+    note: "Our pick: OPTP PRO-Roller Foam Roller (36-inch). Post-class fascia release, especially useful for Sacramento's cycling and running community.",
     price: "$62.99",
     url: "https://www.amazon.com/dp/B002C9EX14?tag=pilatescollective-20",
   },
 ];
 
 const HOME_REFORMERS = [
-  { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work — three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
+  { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work: three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
   { tag: "Mid-Range Pick", name: "AeroPilates Pro XP 557", note: "AeroPilates' top-of-the-range home reformer, a step up for practitioners training several times a week.", price: "$1,329.99", url: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20" },
-  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order — an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
+  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
 ];
 
 const RELATED_CITIES = [
@@ -231,7 +231,7 @@ const FURTHER_READING = [
   {
     title: "Classical vs Contemporary Pilates",
     excerpt:
-      "The split between Joseph Pilates' original system and modern interpretations — what it means for your practice.",
+      "The split between Joseph Pilates' original system and modern interpretations: what it means for your practice.",
     href: "/blog/classical-vs-contemporary-pilates",
     category: "Method",
     readTime: "8 min read",
@@ -476,7 +476,7 @@ export default function SacramentoPage() {
 
         <CTASection
           title="Find Pilates near you"
-          subtitle="Use our AI Finder to discover studios in any city — coming soon."
+          subtitle="Use our AI Finder to discover studios in any city: coming soon."
           showSearch
           searchPlaceholder="Ask: best reformer Pilates in Sacramento…"
         />

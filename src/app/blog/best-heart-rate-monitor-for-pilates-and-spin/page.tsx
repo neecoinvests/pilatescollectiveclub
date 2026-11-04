@@ -38,7 +38,7 @@ const PRODUCTS = [
     price: "$104.65",
     verdict: "Best overall accuracy",
     description:
-      "The Polar H10 is widely regarded as the gold standard among consumer heart rate chest straps, and it's the most expensive option here for that reason. It's sold directly by Amazon.com rather than a third-party listing, which is worth knowing if that matters to you when buying hardware you'll wear against your skin. For Lagree and spin training, where heart rate accuracy during rapid intensity changes genuinely matters for zone-based programming, the H10 is the clear premium pick — the strap you buy once and don't think about again.",
+      "The Polar H10 is widely regarded as the gold standard among consumer heart rate chest straps, and it's the most expensive option here for that reason. It's sold directly by Amazon.com rather than a third-party listing, which is worth knowing if that matters to you when buying hardware you'll wear against your skin. For Lagree and spin training, where heart rate accuracy during rapid intensity changes genuinely matters for zone-based programming, the H10 is the clear premium pick: the strap you buy once and don't think about again.",
     affiliateUrl: "https://www.amazon.com/dp/B07PM54P4N?tag=pilatescollective-20",
     tag: "Best Overall Accuracy",
   },
@@ -58,7 +58,7 @@ const PRODUCTS = [
     price: "$69.90",
     verdict: "Best mid-tier pick from an established brand",
     description:
-      "The Polar H9 is Polar's step-down model from the H10, sold directly by Amazon.com, and it lands squarely between the budget straps and the premium H10 on price. If you want the reassurance of an established, sports-science-trusted brand but don't need every feature the H10 carries, the H9 is the sensible middle option — Polar's core accuracy reputation at a mid-tier price.",
+      "The Polar H9 is Polar's step-down model from the H10, sold directly by Amazon.com, and it lands squarely between the budget straps and the premium H10 on price. If you want the reassurance of an established, sports-science-trusted brand but don't need every feature the H10 carries, the H9 is the sensible middle option: Polar's core accuracy reputation at a mid-tier price.",
     affiliateUrl: "https://www.amazon.com/dp/B08411DQ96?tag=pilatescollective-20",
     tag: "Best Mid-Tier",
   },
@@ -68,7 +68,7 @@ const PRODUCTS = [
     price: "$29.99",
     verdict: "Best battery life",
     description:
-      "The standout spec on the CYCPLUS H2Pro is battery life — rated at 500 hours, which for most people training a handful of times a week means not thinking about the battery for the better part of a year. At a budget-friendly price, it's a strong pick for anyone who wants a chest strap they can set up once and largely forget about, rather than one more piece of kit to keep charged.",
+      "The standout spec on the CYCPLUS H2Pro is battery life, rated at 500 hours, which for most people training a handful of times a week means not thinking about the battery for the better part of a year. At a budget-friendly price, it's a strong pick for anyone who wants a chest strap they can set up once and largely forget about, rather than one more piece of kit to keep charged.",
     affiliateUrl: "https://www.amazon.com/dp/B0DLNMMY9M?tag=pilatescollective-20",
     tag: "Best Battery Life",
   },

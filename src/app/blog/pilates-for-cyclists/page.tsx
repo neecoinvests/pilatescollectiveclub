@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     description: "How Pilates improves core stability, posture, and recovery for road and mountain bike cyclists.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/pilates-for-cyclists",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg", width: 1200, height: 630, alt: "Pilates for Cyclists — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg", width: 1200, height: 630, alt: "Pilates for Cyclists: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -38,7 +38,7 @@ const PRODUCTS = [
     price: "$28.99",
     verdict: "Best recovery tool for cyclists",
     description:
-      "Cycling creates predictable tightness patterns: the hip flexors shorten from sustained flexion, the IT band tightens from repetitive pedalling, the thoracic spine stiffens from the sustained flexed riding position, and the glutes deactivate from hours of seated loading. The TriggerPoint GRID Foam Roller addresses all four of these patterns efficiently in the 10-15 minutes before a Pilates session or after a ride. The multi-density surface provides more targeted release than flat foam rollers, particularly for the thoracic spine and IT band — two areas where specific pressure rather than broad compression is needed. Used consistently, it maintains the range of motion that Pilates work develops across a full training week.",
+      "Cycling creates predictable tightness patterns: the hip flexors shorten from sustained flexion, the IT band tightens from repetitive pedalling, the thoracic spine stiffens from the sustained flexed riding position, and the glutes deactivate from hours of seated loading. The TriggerPoint GRID Foam Roller addresses all four of these patterns efficiently in the 10-15 minutes before a Pilates session or after a ride. The multi-density surface provides more targeted release than flat foam rollers, particularly for the thoracic spine and IT band: two areas where specific pressure rather than broad compression is needed. Used consistently, it maintains the range of motion that Pilates work develops across a full training week.",
     affiliateUrl: "https://www.amazon.com/dp/B0040EGNIU?tag=pilatescollective-20",
     tag: "Best Recovery Roller",
   },
@@ -48,7 +48,7 @@ const PRODUCTS = [
     price: "$9.98",
     verdict: "Best for glute activation before rides",
     description:
-      "Cyclists chronically underactivate their gluteus medius — the hip abductor responsible for pelvis stability in the single-leg stance phase of the pedal stroke. Weak gluteus medius activation leads to pelvic drop, knee tracking issues, and lower back pain on longer rides. A 10-minute resistance band activation sequence before cycling — lateral band walks, clam shells, single-leg bridges with band resistance — is one of the most evidence-supported pre-ride warm-ups available. The Fit Simplify fabric band set provides the progressive resistance needed to take a cyclist from minimal activation through challenging hip stability work as glute strength improves over weeks of consistent practice.",
+      "Cyclists chronically underactivate their gluteus medius: the hip abductor responsible for pelvis stability in the single-leg stance phase of the pedal stroke. Weak gluteus medius activation leads to pelvic drop, knee tracking issues, and lower back pain on longer rides. A 10-minute resistance band activation sequence before cycling (lateral band walks, clam shells, single-leg bridges with band resistance) is one of the most evidence-supported pre-ride warm-ups available. The Fit Simplify fabric band set provides the progressive resistance needed to take a cyclist from minimal activation through challenging hip stability work as glute strength improves over weeks of consistent practice.",
     affiliateUrl: "https://www.amazon.com/dp/B01AVDVHTI?tag=pilatescollective-20",
     tag: "Best Glute Activation",
   },
@@ -58,7 +58,7 @@ const PRODUCTS = [
     price: "$15.95",
     verdict: "Best for hip flexor and hamstring release",
     description:
-      "The hip flexor shortening that accumulates over hours of cycling requires sustained static stretching to reverse — a 15-second stretch does not meaningfully lengthen chronically shortened tissue. A looped stretch strap allows 60-90 second holds of the hip flexor, hamstring, and calf — the exact muscles that accumulate tightness through cycling — in supine positions that do not require balance or active muscle engagement. This makes the stretch more effective and more comfortable than standing or kneeling hip flexor stretches after a fatiguing ride. For cyclists who follow rides with Pilates sessions, the strap provides the bridge between the two that prevents Pilates exercises from being limited by post-ride stiffness.",
+      "The hip flexor shortening that accumulates over hours of cycling requires sustained static stretching to reverse: a 15-second stretch does not meaningfully lengthen chronically shortened tissue. A looped stretch strap allows 60-90 second holds of the hip flexor, hamstring, and calf, the exact muscles that accumulate tightness through cycling, in supine positions that do not require balance or active muscle engagement. This makes the stretch more effective and more comfortable than standing or kneeling hip flexor stretches after a fatiguing ride. For cyclists who follow rides with Pilates sessions, the strap provides the bridge between the two that prevents Pilates exercises from being limited by post-ride stiffness.",
     affiliateUrl: "https://www.amazon.com/dp/B00065X222?tag=pilatescollective-20",
     tag: "Best for Hip Flexors",
   },
@@ -110,7 +110,7 @@ const jsonLd = {
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "Is Pilates good for cyclists?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, significantly. Cycling creates specific muscular imbalances — shortened hip flexors, weak glutes, tight thoracic spine, and underactive scapular stabilisers — that Pilates directly addresses. Core stability improvements from Pilates translate to a more stable pelvis on the bike, better power transfer through the pedal stroke, and reduced lower back pain on longer rides." } },
+        { "@type": "Question", "name": "Is Pilates good for cyclists?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, significantly. Cycling creates specific muscular imbalances (shortened hip flexors, weak glutes, tight thoracic spine, and underactive scapular stabilisers) that Pilates directly addresses. Core stability improvements from Pilates translate to a more stable pelvis on the bike, better power transfer through the pedal stroke, and reduced lower back pain on longer rides." } },
         { "@type": "Question", "name": "How often should a cyclist do Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "One to two sessions per week is the effective minimum for cyclists seeking meaningful benefit. One full Pilates session (45-60 minutes) per week combined with 10-15 minutes of targeted activation work before rides produces measurable improvements in core stability and hip mobility within 6-8 weeks of consistent practice." } },
         { "@type": "Question", "name": "What Pilates exercises are best for cyclists?", "acceptedAnswer": { "@type": "Answer", "text": "The most relevant Pilates exercises for cyclists are those that address the specific imbalances cycling creates: hip flexor stretching and release, glute and hip abductor activation (clam shells, single-leg bridges), thoracic extension (swan, spine twist), scapular stabilisation (serratus anterior exercises), and lateral core stability (side plank variations). These exercises directly counteract the postural and muscular effects of sustained cycling position." } },
       ],
@@ -143,7 +143,7 @@ export default function PilatesForCyclistsPage() {
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Cycling is one of the most one-dimensional movement patterns in sport. Hours in the same position create predictable muscular imbalances that limit performance and drive injury. Pilates, applied specifically to the imbalances cycling creates, addresses them more directly than general cross-training. Professional cycling teams have integrated Pilates into their training programmes for over a decade — the evidence base is solid and the application is specific.
+              Cycling is one of the most one-dimensional movement patterns in sport. Hours in the same position create predictable muscular imbalances that limit performance and drive injury. Pilates, applied specifically to the imbalances cycling creates, addresses them more directly than general cross-training. Professional cycling teams have integrated Pilates into their training programmes for over a decade: the evidence base is solid and the application is specific.
             </p>
           </div>
         </section>
@@ -151,7 +151,7 @@ export default function PilatesForCyclistsPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg" alt="Pilates for cyclists — core stability and recovery" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg" alt="Pilates for cyclists: core stability and recovery" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>
         </section>
@@ -172,8 +172,8 @@ export default function PilatesForCyclistsPage() {
                   { issue: "Shortened hip flexors", detail: "Hours of sustained hip flexion shorten the psoas and iliacus. Shortened hip flexors limit stride length in running, cause anterior pelvic tilt on the bike, and are the most common contributor to lower back pain in cyclists." },
                   { issue: "Inhibited glutes", detail: "The seated position and repetitive hip extension of pedalling gradually deactivates the gluteus maximus and medius. Weak glutes mean less power through the pedal stroke and less pelvic stability, which increases knee and lower back loading." },
                   { issue: "Thoracic kyphosis", detail: "Sustained forward lean stiffens the mid-back into a rounded position that limits breathing capacity, compresses cervical structures, and creates shoulder and neck pain on longer rides." },
-                  { issue: "Weak scapular stabilisers", detail: "Supporting upper body weight on handlebars without adequate scapular stability creates trapezius and levator scapulae overuse — the source of the chronic neck-shoulder tension cyclists experience." },
-                  { issue: "IT band tightness", detail: "Repetitive knee flexion-extension in pedalling progressively tightens the iliotibial band, leading to lateral knee pain — one of the most common cycling overuse injuries." },
+                  { issue: "Weak scapular stabilisers", detail: "Supporting upper body weight on handlebars without adequate scapular stability creates trapezius and levator scapulae overuse: the source of the chronic neck-shoulder tension cyclists experience." },
+                  { issue: "IT band tightness", detail: "Repetitive knee flexion-extension in pedalling progressively tightens the iliotibial band, leading to lateral knee pain: one of the most common cycling overuse injuries." },
                 ].map((item) => (
                   <div key={item.issue} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-sm font-semibold mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{item.issue}</p>
@@ -186,11 +186,11 @@ export default function PilatesForCyclistsPage() {
             <div className="mb-16">
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>How Pilates addresses each of these</h2>
               <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Pilates is not generic cross-training for cyclists — it directly targets the imbalances cycling creates:
+                Pilates is not generic cross-training for cyclists, it directly targets the imbalances cycling creates:
               </p>
               <div className="space-y-4">
                 {[
-                  { fix: "Hip flexor lengthening", text: "Lunging hip flexor stretches, swan prep, and prone hip extension exercises in Pilates restore hip flexor length and reduce anterior pelvic tilt — directly improving pedalling efficiency and back comfort." },
+                  { fix: "Hip flexor lengthening", text: "Lunging hip flexor stretches, swan prep, and prone hip extension exercises in Pilates restore hip flexor length and reduce anterior pelvic tilt: directly improving pedalling efficiency and back comfort." },
                   { fix: "Glute activation", text: "Single-leg bridges, clam shells, and reformer footwork with external rotation emphasis re-activate the gluteus maximus and medius in the pattern needed for the pedal stroke. Studies show measurable improvement in glute activation on the bike within 6-8 weeks of consistent Pilates practice." },
                   { fix: "Thoracic extension", text: "Swan, spine twist, and thoracic extension over a foam roller or Pilates arc barrel restore the spinal extension range that cycling progressively removes. Improved thoracic mobility directly reduces neck and shoulder pain on the bike." },
                   { fix: "Scapular stability", text: "Serratus anterior exercises, rowing patterns on the reformer, and prone back extension builds the foundation strength needed to support body weight on handlebars without overloading the neck." },
@@ -226,7 +226,7 @@ export default function PilatesForCyclistsPage() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "Is Pilates good for cyclists?", a: "Yes, significantly. Cycling creates specific muscular imbalances — shortened hip flexors, weak glutes, tight thoracic spine, and underactive scapular stabilisers — that Pilates directly addresses. Core stability improvements from Pilates translate to a more stable pelvis on the bike, better power transfer, and reduced lower back pain on longer rides." },
+                  { q: "Is Pilates good for cyclists?", a: "Yes, significantly. Cycling creates specific muscular imbalances (shortened hip flexors, weak glutes, tight thoracic spine, and underactive scapular stabilisers) that Pilates directly addresses. Core stability improvements from Pilates translate to a more stable pelvis on the bike, better power transfer, and reduced lower back pain on longer rides." },
                   { q: "How often should a cyclist do Pilates?", a: "One to two sessions per week is the effective minimum for cyclists seeking meaningful benefit. One full Pilates session (45-60 minutes) per week combined with 10-15 minutes of targeted activation work before rides produces measurable improvements in core stability and hip mobility within 6-8 weeks of consistent practice." },
                   { q: "What Pilates exercises are best for cyclists?", a: "The most relevant exercises address the specific imbalances cycling creates: hip flexor stretching and release, glute activation (clam shells, single-leg bridges), thoracic extension (swan, spine twist), scapular stabilisation, and lateral core stability. These directly counteract the postural and muscular effects of sustained cycling position." },
                 ].map((item) => (
@@ -241,7 +241,7 @@ export default function PilatesForCyclistsPage() {
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="Pilates for Runners" excerpt="Why runners benefit from Pilates — the specific muscles it targets and how to programme it alongside training." href="/blog/pilates-for-runners" category="Health" readTime="8 min read" date="March 2026" imageUrl="/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg" />
+                <ArticleCard title="Pilates for Runners" excerpt="Why runners benefit from Pilates: the specific muscles it targets and how to programme it alongside training." href="/blog/pilates-for-runners" category="Health" readTime="8 min read" date="March 2026" imageUrl="/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg" />
                 <ArticleCard title="Pilates Before or After Cardio?" excerpt="The evidence-based answer on sequencing Pilates with your cardio training." href="/blog/pilates-before-or-after-cardio" category="Guide" readTime="6 min read" date="June 2026" imageUrl="/pictures/roxana-popovici-cZ0WYsBFHhs-unsplash.jpg" />
                 <ArticleCard title="Pilates for Athletes (2026): Cross-Training That Works" excerpt="Pilates for athletes: reformer and mat exercises that build stability, correct imbalances, and improve performance…" href="/blog/pilates-for-athletes" category="Guide" readTime="7 min read" imageUrl="/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg" />
                 <ArticleCard title="Best Indoor Spin Bike for Home Studios (2026)" excerpt="The best indoor spin bikes for building a home cycling studio, Peloton, Schwinn IC4, NordicTrack, and budget picks…" href="/blog/best-indoor-spin-bike-for-home-studio" category="Spin" readTime="11 min read" imageUrl="/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg" />

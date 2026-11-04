@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     description: "What to inspect, what refurbishment costs, and the faults that should end the conversation.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/buying-a-used-pilates-reformer",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/stitch-reformer-loops-hooks.png", width: 1200, height: 630, alt: "Buying a Used Pilates Reformer — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/stitch-reformer-loops-hooks.png", width: 1200, height: 630, alt: "Buying a Used Pilates Reformer: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",

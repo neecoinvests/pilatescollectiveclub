@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "Best Pilates Mat Cleaner (2026): Sprays & Wipes for Every Mat",
-    description: "The best Pilates mat cleaners — Manduka, Gaiam, Branch Basics, and more. What actually cleans without degrading your mat.",
+    description: "The best Pilates mat cleaners: Manduka, Gaiam, Branch Basics, and more. What actually cleans without degrading your mat.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-mat-cleaner",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/stitch-mats-corner-sunlit.png", width: 1200, height: 630, alt: "Best Pilates Mat Cleaner" }],
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Mat Cleaner (2026): Sprays & Wipes for Every Mat",
-    description: "The best Pilates mat cleaners — Manduka, Gaiam, Branch Basics, and more. What actually cleans without degrading your mat.",
+    description: "The best Pilates mat cleaners: Manduka, Gaiam, Branch Basics, and more. What actually cleans without degrading your mat.",
     images: ["https://pilatescollectiveclub.com/pictures/stitch-mats-corner-sunlit.png"],
   },
   alternates: {
@@ -45,10 +45,10 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
-    name: "Manduka All Purpose Mat Wash — Concentrate",
+    name: "Manduka All Purpose Mat Wash Concentrate",
     price: "From $15",
     verdict: "Best overall mat cleaner",
-    description: "Manduka's All Purpose Mat Wash is the industry standard for good reason. The plant-based formula is safe on all mat materials — natural rubber, PU, TPE, and closed-cell foam — and the concentrated version makes approximately 32 sprays per cap. Subtly scented with eucalyptus and tea tree, both of which have mild antimicrobial properties. No silicone, no petroleum, no harsh solvents.",
+    description: "Manduka's All Purpose Mat Wash is the industry standard for good reason. The plant-based formula is safe on all mat materials (natural rubber, PU, TPE, and closed-cell foam) and the concentrated version makes approximately 32 sprays per cap. Subtly scented with eucalyptus and tea tree, both of which have mild antimicrobial properties. No silicone, no petroleum, no harsh solvents.",
     affiliateUrl: "https://www.amazon.com/s?k=Manduka+All+Purpose+Mat+Wash+Cleaner&tag=pilatescollective-20",
     tag: "Editor's Pick",
   },
@@ -57,16 +57,16 @@ const PRODUCTS = [
     name: "Gaiam Yoga Mat Spray Cleaner",
     price: "From $12",
     verdict: "Best budget spray cleaner",
-    description: "Gaiam's ready-to-use spray is the most accessible mat cleaner at any price point. The gentle formula is safe for PVC, TPE, and rubber mats and comes pre-diluted — no mixing required. Lightly scented with lavender. Works effectively for between-session wiping and doesn't leave residue that affects grip. A reliable everyday option.",
+    description: "Gaiam's ready-to-use spray is the most accessible mat cleaner at any price point. The gentle formula is safe for PVC, TPE, and rubber mats and comes pre-diluted: no mixing required. Lightly scented with lavender. Works effectively for between-session wiping and doesn't leave residue that affects grip. A reliable everyday option.",
     affiliateUrl: "https://www.amazon.com/s?k=Gaiam+Yoga+Mat+Spray+Cleaner&tag=pilatescollective-20",
     tag: "Best Value",
   },
   {
     rank: "03",
-    name: "Branch Basics Concentrate — All-Purpose Cleaner",
+    name: "Branch Basics Concentrate All-Purpose Cleaner",
     price: "From $39",
     verdict: "Best for natural rubber and premium mats",
-    description: "Branch Basics is a non-toxic, fragrance-free concentrate that Manduka and Liforme mat owners frequently use as an alternative to branded sprays. The formula contains no essential oils (which can degrade natural rubber over time) and no harsh surfactants that strip mat coatings. One bottle makes over 60 spray bottles of cleaner — a long-term value proposition despite the upfront cost.",
+    description: "Branch Basics is a non-toxic, fragrance-free concentrate that Manduka and Liforme mat owners frequently use as an alternative to branded sprays. The formula contains no essential oils (which can degrade natural rubber over time) and no harsh surfactants that strip mat coatings. One bottle makes over 60 spray bottles of cleaner: a long-term value proposition despite the upfront cost.",
     affiliateUrl: "https://www.amazon.com/s?k=Branch+Basics+Concentrate+All+Purpose+Cleaner&tag=pilatescollective-20",
     tag: "Natural Rubber Safe",
   },
@@ -75,13 +75,13 @@ const PRODUCTS = [
     name: "ASUTRA Yoga Mat Cleaner Spray (Lavender)",
     price: "$13.99",
     verdict: "Best scented option",
-    description: "Asutra's yoga mat cleaner combines tea tree oil (antimicrobial), lavender (refreshing), and witch hazel in a pre-mixed spray. The scent profile is among the best in the category — noticeable enough to refresh the mat without being overwhelming in a closed studio. Safe for TPE, PVC, and standard rubber mats. Not recommended for open-cell natural rubber.",
+    description: "Asutra's yoga mat cleaner combines tea tree oil (antimicrobial), lavender (refreshing), and witch hazel in a pre-mixed spray. The scent profile is among the best in the category: noticeable enough to refresh the mat without being overwhelming in a closed studio. Safe for TPE, PVC, and standard rubber mats. Not recommended for open-cell natural rubber.",
     affiliateUrl: "https://www.amazon.com/dp/B00XQBHJOU?tag=pilatescollective-20",
     tag: "Best Scent",
   },
   {
     rank: "05",
-    name: "GYM WIPES Pro — Antibacterial Surface Wipes",
+    name: "GYM WIPES Pro Antibacterial Surface Wipes",
     price: "From $22",
     verdict: "Best for shared studio equipment",
     description: "For Pilates studios that need to quickly clean shared mats, reformer pads, and handles between clients, GYM WIPES Pro are the standard commercial solution. EPA-registered for surface disinfection, pre-moistened, and designed for gym equipment surfaces including vinyl, rubber, and PU leather. Used by many boutique studios for post-class Megaformer wipe-downs.",
@@ -90,7 +90,7 @@ const PRODUCTS = [
   },
   {
     rank: "06",
-    name: "Better Life Yoga Mat Spray — Plant-Based",
+    name: "Better Life Yoga Mat Spray Plant-Based",
     price: "From $11",
     verdict: "Best eco-friendly pick",
     description: "Better Life uses a surfactant derived from coconut and corn in a water-based formula that's biodegradable and safe for septic systems. No dyes, no synthetic fragrance, no harmful preservatives. At under $12, it offers strong eco credentials without premium pricing. Effective for standard session cleaning but may require a second pass after particularly sweaty classes.",
@@ -105,7 +105,7 @@ const jsonLd = {
     {
       "@type": "Article",
       headline: "Best Pilates Mat Cleaner (2026): Sprays & Wipes for Every Mat",
-      description: "The best Pilates mat cleaners — Manduka, Gaiam, Branch Basics, and more. What actually cleans without degrading your mat.",
+      description: "The best Pilates mat cleaners: Manduka, Gaiam, Branch Basics, and more. What actually cleans without degrading your mat.",
       url: "https://pilatescollectiveclub.com/blog/best-pilates-mat-cleaner",
       datePublished: "2026-06-28",
       dateModified: "2026-10-20",
@@ -148,12 +148,12 @@ const jsonLd = {
         {
           "@type": "Question",
           name: "How often should you clean a Pilates mat?",
-          acceptedAnswer: { "@type": "Answer", text: "Wipe your mat with a spray cleaner after every use to remove sweat and skin oils. Do a deeper clean with diluted mat wash weekly if you practice daily, or every two to three weeks for occasional practitioners. Air dry completely before rolling — rolling a damp mat causes mildew in the inner layers." },
+          acceptedAnswer: { "@type": "Answer", text: "Wipe your mat with a spray cleaner after every use to remove sweat and skin oils. Do a deeper clean with diluted mat wash weekly if you practice daily, or every two to three weeks for occasional practitioners. Air dry completely before rolling: rolling a damp mat causes mildew in the inner layers." },
         },
         {
           "@type": "Question",
           name: "Can you clean a Pilates mat in the washing machine?",
-          acceptedAnswer: { "@type": "Answer", text: "No — most Pilates and yoga mats should not go in a washing machine. The agitation damages the surface texture and internal structure. Manduka, Liforme, and most PU/rubber mats are wipe-clean only. A small number of TPE mats tolerate gentle hand washing, but always check the manufacturer's care instructions before submerging any mat." },
+          acceptedAnswer: { "@type": "Answer", text: "No: most Pilates and yoga mats should not go in a washing machine. The agitation damages the surface texture and internal structure. Manduka, Liforme, and most PU/rubber mats are wipe-clean only. A small number of TPE mats tolerate gentle hand washing, but always check the manufacturer's care instructions before submerging any mat." },
         },
       ],
     },
@@ -181,7 +181,7 @@ export default function BestPilatesMatCleanerPage() {
             <TopPick name={PRODUCTS[3].name} price={PRODUCTS[3].price} note={QP_NOTES[3]} url={PRODUCTS[3].affiliateUrl} />
             <hr style={{ borderColor: "#e8e0db" }} className="mb-8" />
             <p className="text-lg leading-relaxed" style={{ color: "#5c4a3d" }}>
-              The wrong cleaner can destroy a $150 Pilates mat in months — essential oils degrade natural rubber, bleach breaks down PVC, and alcohol strips the grip surface from PU leather. The right cleaner extends mat life, keeps the surface hygienic, and doesn&apos;t leave a residue that makes you slip during downward dog or spine stretch. Here are six cleaners that actually work, matched to mat type and practice frequency.
+              The wrong cleaner can destroy a $150 Pilates mat in months: essential oils degrade natural rubber, bleach breaks down PVC, and alcohol strips the grip surface from PU leather. The right cleaner extends mat life, keeps the surface hygienic, and doesn&apos;t leave a residue that makes you slip during downward dog or spine stretch. Here are six cleaners that actually work, matched to mat type and practice frequency.
             </p>
           </div>
         </section>
@@ -214,19 +214,19 @@ export default function BestPilatesMatCleanerPage() {
               <div className="space-y-4 text-sm" style={{ color: "#5c4a3d" }}>
                 <div className="flex gap-4 p-4 rounded-xl" style={{ backgroundColor: "#fff" }}>
                   <div className="font-bold" style={{ color: "#c4956a", minWidth: "120px" }}>Natural Rubber</div>
-                  <div>Branch Basics or Manduka All Purpose Wash (no essential oils — degrades rubber over time)</div>
+                  <div>Branch Basics or Manduka All Purpose Wash (no essential oils: degrades rubber over time)</div>
                 </div>
                 <div className="flex gap-4 p-4 rounded-xl" style={{ backgroundColor: "#fff" }}>
                   <div className="font-bold" style={{ color: "#c4956a", minWidth: "120px" }}>PU Leather</div>
-                  <div>Manduka or Gaiam spray — avoid alcohol-based sprays that strip the coating</div>
+                  <div>Manduka or Gaiam spray: avoid alcohol-based sprays that strip the coating</div>
                 </div>
                 <div className="flex gap-4 p-4 rounded-xl" style={{ backgroundColor: "#fff" }}>
                   <div className="font-bold" style={{ color: "#c4956a", minWidth: "120px" }}>TPE</div>
-                  <div>Any of the above — TPE is the most tolerant material; mild soap and water also works</div>
+                  <div>Any of the above: TPE is the most tolerant material; mild soap and water also works</div>
                 </div>
                 <div className="flex gap-4 p-4 rounded-xl" style={{ backgroundColor: "#fff" }}>
                   <div className="font-bold" style={{ color: "#c4956a", minWidth: "120px" }}>PVC / Closed Cell</div>
-                  <div>Gaiam or Asutra — standard vinyl-safe cleaners; Gym Wipes Pro for shared studio mats</div>
+                  <div>Gaiam or Asutra: standard vinyl-safe cleaners; Gym Wipes Pro for shared studio mats</div>
                 </div>
               </div>
             </div>
@@ -248,7 +248,7 @@ export default function BestPilatesMatCleanerPage() {
               <div className="grid md:grid-cols-2 gap-6">
                 <ArticleCard
                   title="Best Pilates Mat (2026): Manduka, Liforme & More Compared"
-                  excerpt="The mats worth spending money on — thickness, grip, durability, and material honesty from Manduka PRO to budget TPE options."
+                  excerpt="The mats worth spending money on: thickness, grip, durability, and material honesty from Manduka PRO to budget TPE options."
                   href="/blog/best-pilates-mat"
                   category="Equipment"
                   readTime="8 min"
@@ -257,7 +257,7 @@ export default function BestPilatesMatCleanerPage() {
                 />
                 <ArticleCard
                   title="Best Yoga Mat Towel for Pilates (2026): Non-Slip Picks Ranked"
-                  excerpt="Manduka eQua, Liforme, Gaiam — the mat towels that turn any surface into a non-slip Pilates platform."
+                  excerpt="Manduka eQua, Liforme, Gaiam: the mat towels that turn any surface into a non-slip Pilates platform."
                   href="/blog/best-yoga-mat-towel-for-pilates"
                   category="Equipment"
                   readTime="6 min"

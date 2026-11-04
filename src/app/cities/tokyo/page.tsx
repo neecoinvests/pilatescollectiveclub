@@ -12,7 +12,7 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Studios in Tokyo (2026)",
-  description: "The best Pilates studios in Tokyo — reformer boutiques in Omotesando, Ebisu, and Daikanyama. Six curated picks, verified June 2026.",
+  description: "The best Pilates studios in Tokyo: reformer boutiques in Omotesando, Ebisu, and Daikanyama. Six curated picks, verified June 2026.",
   robots: {
     index: true,
     follow: true,
@@ -22,15 +22,15 @@ export const metadata: Metadata = {
   keywords: ["pilates tokyo", "reformer pilates tokyo", "best pilates studios tokyo", "pilates studio tokyo", "pilates omotesando", "pilates ebisu", "pilates daikanyama", "pilates japan", "best reformer pilates tokyo", "pilates classes tokyo"],
   openGraph: {
     title: "Best Pilates Studios in Tokyo (2026)",
-    description: "Six curated Pilates studios in Tokyo — Omotesando, Ebisu, and Daikanyama reformer picks. Verified June 2026.",
+    description: "Six curated Pilates studios in Tokyo: Omotesando, Ebisu, and Daikanyama reformer picks. Verified June 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/tokyo",
-    images: [{ url: "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=1200&q=80", width: 1200, height: 630, alt: "Tokyo city guide — Pilates Collective Club" }],
+    images: [{ url: "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=1200&q=80", width: 1200, height: 630, alt: "Tokyo city guide: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Studios in Tokyo (2026)",
-    description: "Our curated guide to Tokyo's six best Pilates studios — verified for 2026.",
+    description: "Our curated guide to Tokyo's six best Pilates studios: verified for 2026.",
     images: ["https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=1200&q=80"],
   },
   alternates: {
@@ -44,7 +44,7 @@ const STUDIOS = [
     name: "Re-Juvenate Pilates",
     neighborhood: "Minami-Aoyama",
     priceLevel: "¥¥¥¥",
-    review: "Re-Juvenate occupies a discreet upper-floor studio in the heart of Minami-Aoyama, where the neighbourhood's appetite for understated excellence translates directly into the teaching. The approach is rooted in classical Pilates methodology, but instructors here have the depth to adapt intelligently for each client — whether a recovering dancer or a first-time practitioner navigating chronic back pain. Equipment is immaculate, sessions are unhurried, and the atmosphere carries the particular calm of a studio that has never needed to advertise. It draws a loyal clientele of architects, gallery owners, and international residents who treat it as a non-negotiable part of their week. Serious practitioners who want precision over novelty will find it difficult to train anywhere else after experiencing the standard set here.",
+    review: "Re-Juvenate occupies a discreet upper-floor studio in the heart of Minami-Aoyama, where the neighbourhood's appetite for understated excellence translates directly into the teaching. The approach is rooted in classical Pilates methodology, but instructors here have the depth to adapt intelligently for each client, whether a recovering dancer or a first-time practitioner navigating chronic back pain. Equipment is immaculate, sessions are unhurried, and the atmosphere carries the particular calm of a studio that has never needed to advertise. It draws a loyal clientele of architects, gallery owners, and international residents who treat it as a non-negotiable part of their week. Serious practitioners who want precision over novelty will find it difficult to train anywhere else after experiencing the standard set here.",
     address: "Kuwajima Building 2F, 3-15-7 Minami-Aoyama, Minato-ku, Tokyo",
     bestFor: "Classical Pilates precision in Tokyo's design quarter",
     signatureClass: "Re-Juvenate Signature Reformer",
@@ -55,8 +55,8 @@ const STUDIOS = [
     name: "My Body My Pilates",
     neighborhood: "Omotesando",
     priceLevel: "¥¥¥¥",
-    review: "Tucked into one of Omotesando's quieter side streets, My Body My Pilates has built its reputation on the kind of individualised attention that group-class culture cannot replicate. Every session begins with a short dialogue about the body's current state — injuries, energy levels, goals — and the programming adjusts accordingly. The studio attracts professionals in their thirties and forties who have moved past the group-fitness phase and want training that actually changes their body composition and posture over time. Instructors hold international certifications and several have backgrounds in physical therapy, which lends the cueing a clinical precision that clients quickly come to depend on. The minimalist interior, quality Balanced Body equipment, and near-silent atmosphere make each visit feel restorative rather than merely functional.",
-    address: "—",
+    review: "Tucked into one of Omotesando's quieter side streets, My Body My Pilates has built its reputation on the kind of individualised attention that group-class culture cannot replicate. Every session begins with a short dialogue about the body's current state (injuries, energy levels, goals) and the programming adjusts accordingly. The studio attracts professionals in their thirties and forties who have moved past the group-fitness phase and want training that actually changes their body composition and posture over time. Instructors hold international certifications and several have backgrounds in physical therapy, which lends the cueing a clinical precision that clients quickly come to depend on. The minimalist interior, quality Balanced Body equipment, and near-silent atmosphere make each visit feel restorative rather than merely functional.",
+    address: "",
     bestFor: "Semi-private reformer and postural correction work",
     signatureClass: "Body Composition Reformer",
     bookingTip: "Initial sessions include a full movement assessment; book private before group",
@@ -67,17 +67,17 @@ const STUDIOS = [
     neighborhood: "Shibuya",
     priceLevel: "¥¥¥",
     review: "Sky Pilates earns its name with a studio floor positioned high above Shibuya's perpetual motion, offering the unusual experience of training with city panoramas stretching in every direction. The instruction blends reformer fundamentals with aerial apparatus work, making it genuinely distinctive in a market where most studios adhere to conventional formats. Classes are energetic without being aggressive, and the teaching team is notably strong at motivating clients who are still building their Pilates vocabulary. It suits urban practitioners who need the efficiency of a well-run group class but want something more inspiring than a basement box room. The combination of views, varied programming, and accessible pricing for the neighbourhood makes Sky one of the more straightforward recommendations in central Tokyo.",
-    address: "—",
+    address: "",
     bestFor: "Aerial and reformer Pilates with panoramic city views",
     signatureClass: "Sky Aerial Reformer",
-    bookingTip: "Window reformer spots go first — book online the moment the schedule opens",
+    bookingTip: "Window reformer spots go first: book online the moment the schedule opens",
   },
   {
     number: "04",
     name: "KX Pilates Higashi-Shinjuku",
     neighborhood: "Shinjuku",
     priceLevel: "¥¥¥",
-    review: "The Tokyo outpost of the Australian KX Pilates network brings the brand's signature high-intensity reformer methodology to Shinjuku with notable fidelity to the original concept. Classes are fifty minutes of structured, progressive work — heavier spring loads, faster transitions, and a cardio underpinning that separates it clearly from studios emphasising slow, corrective movement. The studio is popular with younger professionals and athletes who want the physical challenge of a proper workout alongside the joint-safe benefits of reformer work. Instructors are certified through KX's own training pipeline and maintain consistent cueing standards across the class lineup. For practitioners who find conventional Pilates too gentle, this is the logical answer in a neighbourhood that otherwise has limited premium options.",
+    review: "The Tokyo outpost of the Australian KX Pilates network brings the brand's signature high-intensity reformer methodology to Shinjuku with notable fidelity to the original concept. Classes are fifty minutes of structured, progressive work: heavier spring loads, faster transitions, and a cardio underpinning that separates it clearly from studios emphasising slow, corrective movement. The studio is popular with younger professionals and athletes who want the physical challenge of a proper workout alongside the joint-safe benefits of reformer work. Instructors are certified through KX's own training pipeline and maintain consistent cueing standards across the class lineup. For practitioners who find conventional Pilates too gentle, this is the logical answer in a neighbourhood that otherwise has limited premium options.",
     address: "6-27-12 Shinjuku, Shinjuku-ku, Tokyo",
     bestFor: "High-intensity Australian reformer method for athletic clients",
     signatureClass: "KX50 Power",
@@ -88,18 +88,18 @@ const STUDIOS = [
     name: "LAGREE MICRO Studio",
     neighborhood: "Daikanyama",
     priceLevel: "¥¥¥¥",
-    review: "LAGREE MICRO Studio operates at the extreme end of the boutique spectrum: maximum four clients per class, Megaformer machines, and a format that has nothing in common with the loosely branded 'Lagree-inspired' classes proliferating elsewhere in the city. The studio's Daikanyama address signals its positioning — this is a neighbourhood of concept stores and independent coffee roasters, and the clientele matches that sensibility in their approach to wellness. Instructors coach each client through every transition, maintaining the slow-twitch muscular fatigue that the Lagree method depends on for its results. Regular clients often describe a noticeable change in body composition within six to eight weeks, which drives the strong word-of-mouth that keeps the booking calendar perpetually full. Those willing to invest in the higher per-session cost will find the results-to-effort ratio among the best in Tokyo.",
-    address: "—",
+    review: "LAGREE MICRO Studio operates at the extreme end of the boutique spectrum: maximum four clients per class, Megaformer machines, and a format that has nothing in common with the loosely branded 'Lagree-inspired' classes proliferating elsewhere in the city. The studio's Daikanyama address signals its positioning: this is a neighbourhood of concept stores and independent coffee roasters, and the clientele matches that sensibility in their approach to wellness. Instructors coach each client through every transition, maintaining the slow-twitch muscular fatigue that the Lagree method depends on for its results. Regular clients often describe a noticeable change in body composition within six to eight weeks, which drives the strong word-of-mouth that keeps the booking calendar perpetually full. Those willing to invest in the higher per-session cost will find the results-to-effort ratio among the best in Tokyo.",
+    address: "",
     bestFor: "Lagree Megaformer method in an ultra-intimate setting",
     signatureClass: "LAGREE MICRO 50",
-    bookingTip: "Class sizes cap at four — book one week ahead minimum",
+    bookingTip: "Class sizes cap at four: book one week ahead minimum",
   },
   {
     number: "06",
     name: "zen place pilates",
     neighborhood: "Ebisu",
     priceLevel: "¥¥¥",
-    review: "zen place pilates is Japan's most significant Pilates operator, and the Ebisu location exemplifies why the brand has succeeded where many boutique competitors have struggled to scale without diluting quality. The studios are spacious, the equipment is maintained to a high standard, and the instructor development programme is rigorous enough to produce genuinely skilled teachers across a large network. The Ebisu branch draws a mixed clientele — local executives, expat families, and committed practitioners who appreciate the reliability of consistent, technically grounded instruction. The membership structure allows clients to train across multiple city locations, which is a practical advantage in a metropolitan area where commuting patterns change week to week. For those new to Tokyo or new to Pilates, zen place offers the best combination of accessibility, quality, and logistical flexibility in the city.",
+    review: "zen place pilates is Japan's most significant Pilates operator, and the Ebisu location exemplifies why the brand has succeeded where many boutique competitors have struggled to scale without diluting quality. The studios are spacious, the equipment is maintained to a high standard, and the instructor development programme is rigorous enough to produce genuinely skilled teachers across a large network. The Ebisu branch draws a mixed clientele: local executives, expat families, and committed practitioners who appreciate the reliability of consistent, technically grounded instruction. The membership structure allows clients to train across multiple city locations, which is a practical advantage in a metropolitan area where commuting patterns change week to week. For those new to Tokyo or new to Pilates, zen place offers the best combination of accessibility, quality, and logistical flexibility in the city.",
     address: "1-15-3 Hiroo, Shibuya-ku, Tokyo (5 minutes from Ebisu Station)",
     bestFor: "Reliable, technically grounded Pilates across multiple locations",
     signatureClass: "zen place Signature Reformer",
@@ -109,16 +109,16 @@ const STUDIOS = [
 
 const BOOKING_TIPS = [
   { heading: "Expect to pay ¥3,500–8,000 per class", body: "Tokyo reformer pricing varies considerably by format. Group classes at accessible studios run ¥3,500–5,000; premium boutique and semi-private sessions range from ¥6,000–8,000. Private sessions at top studios can reach ¥15,000. Monthly memberships offer the best per-session economics for regular practitioners." },
-  { heading: "Cancellation policies are strictly enforced", body: "Tokyo studios universally enforce 24-hour cancellation policies, and many require 48 hours for premium slots. Late cancellations forfeit the full fee — this is cultural as much as commercial. Plan your schedule carefully and cancel promptly if plans change." },
-  { heading: "English instruction is available but ask ahead", body: "Tokyo's wellness scene is increasingly bilingual, but not universally so. Studios in Aoyama, Ebisu, and Daikanyama are most likely to offer English instruction. When booking, confirm the language of instruction — most studios are happy to accommodate English-speaking clients with advance notice." },
-  { heading: "Bring your own grip socks", body: "Grip socks are required at every reformer studio in Tokyo. While most studios sell them, Japanese-produced grip socks can be found at reasonable prices in Loft, Tokyu Hands, or sports stores near major stations — buying in advance saves you the premium studio markup." },
+  { heading: "Cancellation policies are strictly enforced", body: "Tokyo studios universally enforce 24-hour cancellation policies, and many require 48 hours for premium slots. Late cancellations forfeit the full fee: this is cultural as much as commercial. Plan your schedule carefully and cancel promptly if plans change." },
+  { heading: "English instruction is available but ask ahead", body: "Tokyo's wellness scene is increasingly bilingual, but not universally so. Studios in Aoyama, Ebisu, and Daikanyama are most likely to offer English instruction. When booking, confirm the language of instruction: most studios are happy to accommodate English-speaking clients with advance notice." },
+  { heading: "Bring your own grip socks", body: "Grip socks are required at every reformer studio in Tokyo. While most studios sell them, Japanese-produced grip socks can be found at reasonable prices in Loft, Tokyu Hands, or sports stores near major stations: buying in advance saves you the premium studio markup." },
   { heading: "Punctuality is paramount", body: "Japanese business culture's emphasis on punctuality applies fully to wellness studios. Arriving even five minutes late may result in being turned away from a class, particularly at smaller studios with tightly structured sessions. Aim to arrive ten minutes early for your first visit." },
 ];
 
 const NEIGHBORHOODS = [
-  { name: "Minami-Aoyama & Omotesando", description: "Tokyo's most fashion-conscious district is home to its most polished wellness addresses. Studios here attract design professionals, international residents, and serious practitioners seeking technically rigorous instruction. Premium pricing is the norm, but the quality justifies it — expect world-class equipment and instructors with international training pedigrees." },
+  { name: "Minami-Aoyama & Omotesando", description: "Tokyo's most fashion-conscious district is home to its most polished wellness addresses. Studios here attract design professionals, international residents, and serious practitioners seeking technically rigorous instruction. Premium pricing is the norm, but the quality justifies it: expect world-class equipment and instructors with international training pedigrees." },
   { name: "Ebisu & Daikanyama", description: "These adjacent neighbourhoods have developed a creative, international wellness culture that supports a strong cluster of independent studios. The atmosphere is warmer and less corporate than Aoyama, and several studios offer bilingual instruction that makes them particularly accessible to Tokyo's expat community. A favourite zone for practitioners who value atmosphere alongside quality." },
-  { name: "Shinjuku & Shibuya", description: "Central Tokyo's busiest commercial hubs are home to several of the city's larger studio networks. Convenience is the key virtue here — multiple studios are within a short walk of major transit hubs, making them practical choices for practitioners who commute from across the metropolitan area. Group class quality is reliable if rarely exceptional." },
+  { name: "Shinjuku & Shibuya", description: "Central Tokyo's busiest commercial hubs are home to several of the city's larger studio networks. Convenience is the key virtue here: multiple studios are within a short walk of major transit hubs, making them practical choices for practitioners who commute from across the metropolitan area. Group class quality is reliable if rarely exceptional." },
   { name: "Nishi-Azabu & Hiroo", description: "Among Tokyo's most affluent residential pockets, these quiet streets between Roppongi and Ebisu host the city's most discreet and exclusive wellness venues. Studios here tend toward private sessions and small-group formats, with pricing to match. The neighbourhood's diplomatic and executive residential population sustains a Pilates culture that prioritises privacy and precision." },
 ];
 
@@ -137,7 +137,7 @@ const GEAR = [
   },
   {
     name: "Magic Circle",
-    note: "Our pick: Balanced Body Ultra-Fit Circle (15-inch). Many studios incorporate the magic circle — worth owning for home reinforcement work.",
+    note: "Our pick: Balanced Body Ultra-Fit Circle (15-inch). Many studios incorporate the magic circle: worth owning for home reinforcement work.",
     price: "$35.00",
     url: "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20",
   },
@@ -155,7 +155,7 @@ const GEAR = [
   },
   {
     name: "Home Pilates Reformer",
-    note: "Our pick: PAETA Wooden Foldable Reformer. A home reformer extends your studio practice — AeroPilates and Align entry models deliver a genuine full-body session.",
+    note: "Our pick: PAETA Wooden Foldable Reformer. A home reformer extends your studio practice: AeroPilates and Align entry models deliver a genuine full-body session.",
     price: "$699.98",
     url: "https://www.amazon.com/dp/B0D7M7JNFV?tag=pilatescollective-20",
   },
@@ -170,7 +170,7 @@ const RELATED_CITIES = [
 ];
 
 const FURTHER_READING = [
-  { title: "Best Pilates Equipment for Home Practice", excerpt: "Everything you need between studio sessions — from a quality mat to resistance bands.", href: "/blog/best-pilates-equipment-for-home-practice", category: "Equipment", readTime: "10 min read", date: "May 2026", imageUrl: "https://images.unsplash.com/photo-1576678927484-cc907957088c?w=800&q=80" },
+  { title: "Best Pilates Equipment for Home Practice", excerpt: "Everything you need between studio sessions, from a quality mat to resistance bands.", href: "/blog/best-pilates-equipment-for-home-practice", category: "Equipment", readTime: "10 min read", date: "May 2026", imageUrl: "https://images.unsplash.com/photo-1576678927484-cc907957088c?w=800&q=80" },
   { title: "The Beginner's Guide to Reformer Pilates", excerpt: "What to expect in your first reformer class, how to choose a studio, and how to progress.", href: "/blog/beginners-guide-to-reformer-pilates", category: "Beginner Guide", readTime: "8 min read", date: "May 2026", imageUrl: "https://images.unsplash.com/photo-1554284126-aa88f22d8b74?w=800&q=80" },
 ];
 
@@ -187,7 +187,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Best Pilates Studios in Tokyo (2026)",
-      "description": "The best Pilates studios in Tokyo — reformer boutiques in Omotesando, Ebisu, and Daikanyama. Six curated picks, verified June 2026.",
+      "description": "The best Pilates studios in Tokyo: reformer boutiques in Omotesando, Ebisu, and Daikanyama. Six curated picks, verified June 2026.",
       "url": "https://pilatescollectiveclub.com/cities/tokyo",
       "datePublished": "2026-06-28",
       "dateModified": "2026-10-20",
@@ -252,7 +252,7 @@ export default function TokyoPage() {
             <p className="text-sm mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 8 min read</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Tokyo's Pilates scene reflects the city itself: meticulous, quietly excellent, and far deeper than its international profile suggests. Concentrated in the upscale neighbourhoods of Minami-Aoyama, Ebisu, and Nishi-Azabu, the city's best studios combine Japanese precision with instructors trained across Europe, the US, and Australia — producing a practice culture that is technical, disciplined, and increasingly sophisticated. This guide covers the six studios we rate most highly across the city.
+              Tokyo's Pilates scene reflects the city itself: meticulous, quietly excellent, and far deeper than its international profile suggests. Concentrated in the upscale neighbourhoods of Minami-Aoyama, Ebisu, and Nishi-Azabu, the city's best studios combine Japanese precision with instructors trained across Europe, the US, and Australia: producing a practice culture that is technical, disciplined, and increasingly sophisticated. This guide covers the six studios we rate most highly across the city.
             </p>
           </div>
         </section>
@@ -260,7 +260,7 @@ export default function TokyoPage() {
         <section className="px-6 mb-16">
           <div className="max-w-5xl mx-auto">
             <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=1400&q=80" alt="Tokyo city guide — Pilates Collective Club" fill className="object-cover" style={{ filter: "brightness(0.88)" }} />
+              <Image src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=1400&q=80" alt="Tokyo city guide: Pilates Collective Club" fill className="object-cover" style={{ filter: "brightness(0.88)" }} />
               <div className="absolute inset-0 flex items-end p-8" style={{ background: "linear-gradient(to top, rgba(27,28,28,0.55) 0%, transparent 60%)" }}>
                 <div>
                   <p className="text-white text-sm font-semibold uppercase tracking-widest mb-1" style={{ fontFamily: "'Montserrat', sans-serif" }}>Tokyo, Japan</p>
@@ -317,7 +317,7 @@ export default function TokyoPage() {
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What to bring to your first class</h2>
             <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-              Grip socks are required at most reformer studios in Tokyo. These are our recommended picks — all available on Amazon.{" "}
+              Grip socks are required at most reformer studios in Tokyo. These are our recommended picks: all available on Amazon.{" "}
               <Link href="/affiliate-disclosure" style={{ color: "#8b4a31", textDecoration: "underline", fontFamily: "'Montserrat', sans-serif", fontSize: "inherit" }}>Affiliate disclosure.</Link>
             </p>
             <QuickPicks className="mb-0" picks={GEAR.map((g) => ({ name: g.note.match(/Our pick: ([^.]+(?:\.\d+[^.]*)?)\./)?.[1] ?? g.name, price: g.price, url: g.url, note: g.name }))} />

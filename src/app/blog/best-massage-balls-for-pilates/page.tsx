@@ -19,12 +19,12 @@ export const metadata: Metadata = {
     description: "Five real, in-stock Amazon massage ball listings compared for Pilates recovery work.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-massage-balls-for-pilates",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg", width: 1200, height: 630, alt: "Best Massage Balls for Pilates — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg", width: 1200, height: 630, alt: "Best Massage Balls for Pilates: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Best Massage Balls for Pilates (2026)",
-    description: "Real, in-stock Amazon listings — compared.",
+    description: "Real, in-stock Amazon listings, compared.",
     images: ["https://pilatescollectiveclub.com/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/best-massage-balls-for-pilates" },
@@ -38,7 +38,7 @@ const PRODUCTS = [
     price: "$24.99",
     verdict: "Best all-around pick for larger muscle groups",
     description:
-      "A 5-inch ball with the GRID pattern from TriggerPoint's well-known foam roller line, combining the targeted pressure of a massage ball with some of the surface variation of a foam roller. It's sized well for the shoulders, traps, and hips — larger muscle groups where a small lacrosse-sized ball can feel too pointed. Sold by Amazon.com.",
+      "A 5-inch ball with the GRID pattern from TriggerPoint's well-known foam roller line, combining the targeted pressure of a massage ball with some of the surface variation of a foam roller. It's sized well for the shoulders, traps, and hips: larger muscle groups where a small lacrosse-sized ball can feel too pointed. Sold by Amazon.com.",
     affiliateUrl: "https://www.amazon.com/dp/B073KM47VB?tag=pilatescollective-20",
     tag: "Best All-Around",
   },
@@ -48,7 +48,7 @@ const PRODUCTS = [
     price: "$13.99",
     verdict: "Best for small, precise areas",
     description:
-      "A small 2-inch ball with raised tips, purpose-built for targeted pressure on the hands and feet — areas where the 5-inch GRID Ball is too large to get precise contact. The raised nodules concentrate pressure into a smaller point than a smooth ball of the same size, which is useful for working directly into the plantar fascia or a tight spot in the palm. Sold by Amazon.com.",
+      "A small 2-inch ball with raised tips, purpose-built for targeted pressure on the hands and feet: areas where the 5-inch GRID Ball is too large to get precise contact. The raised nodules concentrate pressure into a smaller point than a smooth ball of the same size, which is useful for working directly into the plantar fascia or a tight spot in the palm. Sold by Amazon.com.",
     affiliateUrl: "https://www.amazon.com/dp/B01LX72D9A?tag=pilatescollective-20",
     tag: "Best For Hands & Feet",
   },
@@ -58,7 +58,7 @@ const PRODUCTS = [
     price: "$7.99",
     verdict: "Best budget option",
     description:
-      "A set of two firm rubber lacrosse balls, the classic budget entry point into myofascial release work. Firm and uncompromising rather than cushioned, which some practitioners prefer for denser tissue once they're past the beginner stage. Getting two in one set also means you can work both sides of the body — feet, glutes, or shoulder blades — without having to move a single ball back and forth.",
+      "A set of two firm rubber lacrosse balls, the classic budget entry point into myofascial release work. Firm and uncompromising rather than cushioned, which some practitioners prefer for denser tissue once they're past the beginner stage. Getting two in one set also means you can work both sides of the body (feet, glutes, or shoulder blades) without having to move a single ball back and forth.",
     affiliateUrl: "https://www.amazon.com/dp/B017V7UKW2?tag=pilatescollective-20",
     tag: "Best Budget Option",
   },
@@ -78,7 +78,7 @@ const PRODUCTS = [
     price: "$8.97",
     verdict: "Best textured surface for added fascia release",
     description:
-      "SGS-certified EVA with a multi-dimensional textured surface rather than a smooth exterior, which adds a gripping, kneading sensation on top of straightforward pressure — a genuine step up from a plain tennis ball in terms of firmness and surface feedback, at a budget-friendly price.",
+      "SGS-certified EVA with a multi-dimensional textured surface rather than a smooth exterior, which adds a gripping, kneading sensation on top of straightforward pressure: a genuine step up from a plain tennis ball in terms of firmness and surface feedback, at a budget-friendly price.",
     affiliateUrl: "https://www.amazon.com/dp/B0F2J4FT7Z?tag=pilatescollective-20",
     tag: "Best Textured Surface",
   },
@@ -126,7 +126,7 @@ const jsonLd = {
       "@type": "FAQPage",
       "mainEntity": [
         { "@type": "Question", "name": "Is there a real massage/trigger-point ball for Pilates sold on Amazon?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The TriggerPoint GRID Ball ($24.99, 5-inch), the TriggerPoint MobiPoint ($13.99, 2-inch), the Kieba Massage Lacrosse Balls, a set of two ($7.99), the TriggerPoint MBX Extra Firm ($27.70, 2.6-inch), and the Coniflor Deep Tissue Massage Ball ($8.97, 2.8-inch, textured) are all live, currently-sold Amazon listings." } },
-        { "@type": "Question", "name": "Which massage ball should I buy first?", "acceptedAnswer": { "@type": "Answer", "text": "The TriggerPoint GRID Ball is the best all-around starting point — it's sized for larger muscle groups like the shoulders, traps, and hips. Add the smaller MobiPoint later for the hands and feet, the budget Kieba or Coniflor ball if cost is the main factor, or the MBX Extra Firm once you want more aggressive, targeted pressure on small, dense areas." } },
+        { "@type": "Question", "name": "Which massage ball should I buy first?", "acceptedAnswer": { "@type": "Answer", "text": "The TriggerPoint GRID Ball is the best all-around starting point: it's sized for larger muscle groups like the shoulders, traps, and hips. Add the smaller MobiPoint later for the hands and feet, the budget Kieba or Coniflor ball if cost is the main factor, or the MBX Extra Firm once you want more aggressive, targeted pressure on small, dense areas." } },
         { "@type": "Question", "name": "Which of these five should I actually buy?", "acceptedAnswer": { "@type": "Answer", "text": "For budget: the Kieba set ($7.99) or Coniflor ball ($8.97). For most people: the TriggerPoint GRID Ball ($24.99) as an all-around large-muscle option. For small, precise areas: the MobiPoint ($13.99). For advanced, aggressive deep-tissue work: the TriggerPoint MBX Extra Firm ($27.70)." } },
         { "@type": "Question", "name": "Where do people generally use massage balls in a Pilates context?", "acceptedAnswer": { "@type": "Answer", "text": "Commonly cited areas include the plantar fascia, the thoracic erectors either side of the spine, the glutes and hip rotators, and the area under the shoulder blade. The MobiPoint suits the smaller, more precise areas like the feet; the GRID Ball and Kieba lacrosse balls suit the larger areas." } },
       ],
@@ -215,7 +215,7 @@ export default function BestMassageBallsForPilatesPage() {
               <div className="space-y-6">
                 {[
                   { q: "Is there a real massage/trigger-point ball for Pilates sold on Amazon?", a: "Yes. The TriggerPoint GRID Ball ($24.99, 5-inch), the TriggerPoint MobiPoint ($13.99, 2-inch), the Kieba Massage Lacrosse Balls, a set of two ($7.99), the TriggerPoint MBX Extra Firm ($27.70, 2.6-inch), and the Coniflor Deep Tissue Massage Ball ($8.97, 2.8-inch, textured) are all live, currently-sold Amazon listings." },
-                  { q: "Which massage ball should I buy first?", a: "The TriggerPoint GRID Ball is the best all-around starting point — it's sized for larger muscle groups like the shoulders, traps, and hips. Add the smaller MobiPoint later for the hands and feet, the budget Kieba or Coniflor ball if cost is the main factor, or the MBX Extra Firm once you want more aggressive, targeted pressure on small, dense areas." },
+                  { q: "Which massage ball should I buy first?", a: "The TriggerPoint GRID Ball is the best all-around starting point: it's sized for larger muscle groups like the shoulders, traps, and hips. Add the smaller MobiPoint later for the hands and feet, the budget Kieba or Coniflor ball if cost is the main factor, or the MBX Extra Firm once you want more aggressive, targeted pressure on small, dense areas." },
                   { q: "Which of these five should I actually buy?", a: "For budget: the Kieba set ($7.99) or Coniflor ball ($8.97). For most people: the TriggerPoint GRID Ball ($24.99) as an all-around large-muscle option. For small, precise areas: the MobiPoint ($13.99). For advanced, aggressive deep-tissue work: the TriggerPoint MBX Extra Firm ($27.70)." },
                   { q: "Where do people generally use massage balls in a Pilates context?", a: "Commonly cited areas include the plantar fascia, the thoracic erectors either side of the spine, the glutes and hip rotators, and the area under the shoulder blade. The MobiPoint suits the smaller, more precise areas like the feet; the GRID Ball and Kieba lacrosse balls suit the larger areas." },
                 ].map((item) => (
@@ -231,7 +231,7 @@ export default function BestMassageBallsForPilatesPage() {
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Foam Roller for Pilates (2026)" excerpt="The one foam roller we could verify as a genuine, currently-sold Amazon listing." href="/blog/best-pilates-foam-roller" category="Recovery & Props" readTime="7 min read" date="September 2026" imageUrl="/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg" />
-                <ArticleCard title="Best Pilates Ring (2026)" excerpt="Honestly verified — the closest real, currently-sold Amazon option for the ring category." href="/blog/best-pilates-ring" category="Props" readTime="8 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Ring (2026)" excerpt="Honestly verified: the closest real, currently-sold Amazon option for the ring category." href="/blog/best-pilates-ring" category="Props" readTime="8 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg" />
                 <ArticleCard title="Best Massage Gun for Pilates Recovery (2026): Ranked" excerpt="The best massage guns for Pilates recovery, TOLOCO, AERLANG, Therabody TheraGun Relief, RENPHO Active Thermacool…" href="/blog/best-massage-gun-for-pilates" category="Guide" readTime="7 min read" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
                 <ArticleCard title="Best Compression Sleeves for Pilates (2026): Calf Picks" excerpt="The best calf compression sleeves for Pilates, BLITZU, Rymora, PhysFlex, Cambivo, and TheraCopper compared for…" href="/blog/best-compression-sleeves-for-pilates" category="Guide" readTime="7 min read" imageUrl="/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg" />
                 <ArticleCard title="Best Red Light Therapy Device for Pilates Recovery (2026)" excerpt="The best handheld red light therapy devices for Pilates recovery, compared for muscle recovery, inflammation, and…" href="/blog/best-red-light-therapy-device-for-pilates" category="Guide" readTime="9 min read" imageUrl="/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg" />

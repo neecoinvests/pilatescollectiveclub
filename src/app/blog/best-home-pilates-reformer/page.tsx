@@ -13,13 +13,13 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Home Pilates Reformer (2026): $359 to $4,700 Compared",
-  description: "Home Pilates reformers from $359 to $4,700 compared on springs, rail length and footprint — plus which budget tier actually fits your space and practice.",
+  description: "Home Pilates reformers from $359 to $4,700 compared on springs, rail length and footprint, plus which budget tier actually fits your space and practice.",
   openGraph: {
     title: "Best Home Pilates Reformer (2026): Every Budget, Honestly Reviewed",
-    description: "The best home Pilates reformers compared at every price point — from AeroPilates to Merrithew and Balanced Body.",
+    description: "The best home Pilates reformers compared at every price point, from AeroPilates to Merrithew and Balanced Body.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-home-pilates-reformer",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg", width: 1200, height: 630, alt: "Best Home Pilates Reformer — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg", width: 1200, height: 630, alt: "Best Home Pilates Reformer: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -57,7 +57,7 @@ const PRODUCTS = [
       "The Pro XP 557 is AeroPilates' top home machine and a real step up: it uses four springs (two low-resistance, two high-resistance) instead of cords, has 69 inches of carriage travel for taller users, and includes the Free-Form Cardio Rebounder for jumping intervals plus a standing platform. The padded footbar adjusts to three positions and the frame takes users up to 300 lbs. At 100.5 inches long and 133 lbs it needs a dedicated spot. Sold by Spreetail on Amazon; stock can be limited.",
     affiliateUrl: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20",
     pros: ["Four springs, not cords", "Cardio rebounder and standing platform included", "69\" carriage travel suits taller users"],
-    cons: ["100.5\" long — needs space", "133 lbs — heavy to move", "Not at studio-machine level for advanced work"],
+    cons: ["100.5\" long: needs space", "133 lbs: heavy to move", "Not at studio-machine level for advanced work"],
   },
   {
     rank: "03",
@@ -81,7 +81,7 @@ const PRODUCTS = [
       "The Studio Reformer is Balanced Body's commercial machine, and it's the one instructors most often trained on. It has a solid rock maple frame with commercial-grade upholstery, five Signature Springs giving 46 resistance combinations, and the Revo system's 4-position locking footbar and 5-position springbar. TwistLock shoulder rests make adjustments fast. It doesn't fold, so it needs a permanent spot, and it works with the full Balanced Body accessory range, including the Tower and Mat Conversion. Sold direct by Balanced Body on Amazon; made to order, three to four weeks to ship.",
     affiliateUrl: "https://www.amazon.com/dp/B002XVWIFE?tag=pilatescollective-20",
     pros: ["Solid rock maple frame built for daily professional use", "Revo footbar and springbar for quick, secure adjustments", "Full Balanced Body accessory compatibility"],
-    cons: ["Premium price", "Doesn't fold — needs permanent floor space", "Overkill for casual practitioners"],
+    cons: ["Premium price", "Doesn't fold: needs permanent floor space", "Overkill for casual practitioners"],
   },
 ];
 
@@ -111,7 +111,7 @@ const jsonLd = {
       "@type": "Article",
       "@id": "https://pilatescollectiveclub.com/blog/best-home-pilates-reformer/#article",
       "headline": "Best Home Pilates Reformer (2026): Every Budget, Honestly Reviewed",
-      "description": "The best home Pilates reformers compared at every price point — from budget AeroPilates to professional Merrithew and Balanced Body machines.",
+      "description": "The best home Pilates reformers compared at every price point, from budget AeroPilates to professional Merrithew and Balanced Body machines.",
       "image": {
         "@type": "ImageObject",
         "url": "https://pilatescollectiveclub.com/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg",
@@ -215,7 +215,7 @@ export default function BestHomeReformerPage() {
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              The best home Pilates reformers compared at every price point — from AeroPilates to Merrithew and Balanced Body.
+              The best home Pilates reformers compared at every price point, from AeroPilates to Merrithew and Balanced Body.
             </p>
           </div>
         </section>
@@ -239,9 +239,9 @@ export default function BestHomeReformerPage() {
               <div className="space-y-4">
                 {[
                   { heading: "Spring vs cord resistance", body: "Professional reformers use calibrated steel springs. Budget models substitute elastic cords. Cords are usable, but they feel softer and less even than springs, and they lose tension over time. For beginners, this is manageable. Trained practitioners will notice the difference." },
-                  { heading: "Carriage weight and glide quality", body: "The carriage should move smoothly, quietly, and with consistent resistance throughout the stroke. Cheap carriages wobble laterally, squeak, and have uneven glide. This directly affects your ability to perform controlled, precise movement — the entire point of reformer Pilates." },
+                  { heading: "Carriage weight and glide quality", body: "The carriage should move smoothly, quietly, and with consistent resistance throughout the stroke. Cheap carriages wobble laterally, squeak, and have uneven glide. This directly affects your ability to perform controlled, precise movement: the entire point of reformer Pilates." },
                   { heading: "Rail length", body: "Standard studio reformers have a rail of around 96–100 inches. Shorter rails restrict the full range of motion for tall practitioners and limit certain exercises. Check rail length before buying, especially if you're over 5'10\"." },
-                  { heading: "Frame stability", body: "The reformer must not rock, flex, or shift during explosive footwork or jump board work. Cheap aluminium frames flex under load — this is both a quality and a safety issue." },
+                  { heading: "Frame stability", body: "The reformer must not rock, flex, or shift during explosive footwork or jump board work. Cheap aluminium frames flex under load: this is both a quality and a safety issue." },
                   { heading: "Footbar adjustability", body: "A footbar that adjusts to multiple heights and positions is essential for proper alignment in footwork and for accommodating different leg lengths. Fixed footbars significantly limit the repertoire you can safely perform." },
                 ].map((item) => (
                   <div key={item.heading} className="flex gap-5 rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
@@ -327,11 +327,11 @@ export default function BestHomeReformerPage() {
               </div>
             </div>
 
-            {/* Which tier is right for you — routes to the dedicated guide per budget and constraint */}
+            {/* Which tier is right for you: routes to the dedicated guide per budget and constraint */}
             <div className="mb-16">
               <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Start from your constraint, not the price list</h2>
               <p className="text-base leading-relaxed mb-8" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Almost nobody buying a reformer is choosing freely between a $349.99 machine and a $4,700 one. In practice one constraint decides it — a budget ceiling, a room that will not take a permanent 8.5-foot footprint, or a torso too long for a short rail. Find your constraint below and go straight to the guide written for it.
+                Almost nobody buying a reformer is choosing freely between a $349.99 machine and a $4,700 one. In practice one constraint decides it: a budget ceiling, a room that will not take a permanent 8.5-foot footprint, or a torso too long for a short rail. Find your constraint below and go straight to the guide written for it.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[
@@ -359,7 +359,7 @@ export default function BestHomeReformerPage() {
             <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
               <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Space requirements to plan for</h2>
               <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                A full-size reformer requires a minimum footprint of approximately 8.5 feet long by 2.5 feet wide, plus clearance around the machine for safe movement. Both the Merrithew At Home SPX and the Balanced Body Studio Reformer need a dedicated, permanent space — neither folds.
+                A full-size reformer requires a minimum footprint of approximately 8.5 feet long by 2.5 feet wide, plus clearance around the machine for safe movement. Both the Merrithew At Home SPX and the Balanced Body Studio Reformer need a dedicated, permanent space, neither folds.
               </p>
               <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                 AeroPilates machines fold on wheels, which frees most of the floor when you&apos;re not training. If space is your main constraint, look at Balanced Body&apos;s Metro IQ, whose telescoping frame shortens to 62 inches for storage, or the Allegro 2, which can be stood on end with its wheel kit.
@@ -395,7 +395,7 @@ export default function BestHomeReformerPage() {
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="Best Pilates Reformer Brands (2026)" excerpt="Balanced Body, Merrithew, Align, Gratz, Elina and Peak — who builds what, and at what price." href="/blog/best-pilates-reformer-brands" category="Equipment" readTime="12 min read" date="June 2026" imageUrl="/pictures/stitch-reformers-aerial-row.png" />
+                <ArticleCard title="Best Pilates Reformer Brands (2026)" excerpt="Balanced Body, Merrithew, Align, Gratz, Elina and Peak, who builds what, and at what price." href="/blog/best-pilates-reformer-brands" category="Equipment" readTime="12 min read" date="June 2026" imageUrl="/pictures/stitch-reformers-aerial-row.png" />
                 <ArticleCard title="How Much Does a Pilates Reformer Cost?" excerpt="What the money actually buys between $300 and $6,000, and where the jumps in quality fall." href="/blog/how-much-does-a-pilates-reformer-cost" category="Equipment" readTime="10 min read" date="June 2026" imageUrl="/pictures/stitch-reformer-spring-detail.png" />
                 <ArticleCard title="The Beginner's Guide to Reformer Pilates" excerpt="What to expect in your first reformer class, how to choose a studio, and how to progress." href="/blog/beginners-guide-to-reformer-pilates" category="Beginners" readTime="8 min read" date="May 2026" imageUrl="/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg" />
               </div>

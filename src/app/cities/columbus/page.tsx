@@ -12,7 +12,7 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Studios in Columbus, OH (2026)",
-  description: "The best Pilates studios in Columbus — reformer boutiques in Short North, German Village, and Clintonville. Verified 2026.",
+  description: "The best Pilates studios in Columbus: reformer boutiques in Short North, German Village, and Clintonville. Verified 2026.",
   robots: {
     index: true,
     follow: true,
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Best Pilates Studios in Columbus, OH (2026)",
     description:
-      "Curated Pilates studios in Columbus — Short North and German Village reformer boutiques. Verified 2026.",
+      "Curated Pilates studios in Columbus: Short North and German Village reformer boutiques. Verified 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/columbus",
     images: [
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Best Pilates Studios in Columbus (2026)",
     description:
-      "The 6 best Pilates studios in Columbus — curated, verified, and reviewed for 2026.",
+      "The 6 best Pilates studios in Columbus: curated, verified, and reviewed for 2026.",
     images: [
       "https://images.unsplash.com/photo-1569336415962-a4bd9f69c07b?w=1200&h=630&fit=crop",
     ],
@@ -56,7 +56,7 @@ const STUDIOS = [
     neighborhood: "Short North",
     priceLevel: "$$",
     review: "Pilates Plus is a woman-owned, LGBTQ-friendly studio on North High Street in the Short North, offering reformer classes (including 45-minute beginner reformer), mat Pilates and yoga under one roof. It is rated 4.8 from more than 100 reviews on ClassPass, and reviewers single out instructors by name for welcoming beginners.",
-    caveat: "a mixed reformer, mat and yoga studio — if you want classical apparatus work beyond the reformer, Body Pure Pilates is the better fit.",
+    caveat: "a mixed reformer, mat and yoga studio, if you want classical apparatus work beyond the reformer, Body Pure Pilates is the better fit.",
     address: "1147 N High St, Columbus, OH 43201",
     bestFor: "Beginner-friendly reformer and mat classes in the Short North",
     signatureClass: "Beginner Reformer (45 min)",
@@ -67,12 +67,12 @@ const STUDIOS = [
     name: "Club Pilates Grandview Yard",
     neighborhood: "Grandview Heights",
     priceLevel: "$$$",
-    review: "Club Pilates Grandview Yard sits inside the walkable Grandview Yard mixed-use development and offers the full Club Pilates class menu — including Reformer Flow, Cardio Sculpt and Suspend — in a levelled system that suits beginners without boring intermediate members.",
-    caveat: "a franchise format — consistent and well-organised, but less individual than an owner-run studio.",
+    review: "Club Pilates Grandview Yard sits inside the walkable Grandview Yard mixed-use development and offers the full Club Pilates class menu (including Reformer Flow, Cardio Sculpt and Suspend) in a levelled system that suits beginners without boring intermediate members.",
+    caveat: "a franchise format: consistent and well-organised, but less individual than an owner-run studio.",
     address: "1080 Yard St, Grandview Heights, OH 43212",
     bestFor: "Structured, levelled reformer classes west of downtown",
     signatureClass: "Reformer Flow",
-    bookingTip: "Check the Grandview Yard parking rules before your first visit — the development has garage parking.",
+    bookingTip: "Check the Grandview Yard parking rules before your first visit: the development has garage parking.",
   },
   {
     number: "3",
@@ -84,7 +84,7 @@ const STUDIOS = [
     address: "2064 Arlington Ave, Columbus, OH 43221",
     bestFor: "Small-group and private reformer in Upper Arlington",
     signatureClass: "Small Group Reformer",
-    bookingTip: "Small groups fill quickly — book a recurring slot once you find a time that suits you.",
+    bookingTip: "Small groups fill quickly: book a recurring slot once you find a time that suits you.",
   },
   {
     number: "4",
@@ -92,7 +92,7 @@ const STUDIOS = [
     neighborhood: "Clintonville",
     priceLevel: "$$",
     review: "Internal Pilates is a boutique reformer Pilates and fitness studio on North High Street in Clintonville, and one of the highest-rated reformer studios in Columbus on ClassPass (4.9 from more than 1,000 reviews). Alongside small-group reformer classes it runs Jump Pilates cardio classes, which add a cardio element and work the lower body and core in a different way.",
-    caveat: "Jump Pilates classes are intermediate level — build a reformer foundation first.",
+    caveat: "Jump Pilates classes are intermediate level: build a reformer foundation first.",
     address: "4700 N High St, Columbus, OH 43214",
     bestFor: "Small-group reformer and Jump Pilates cardio",
     signatureClass: "Jump Pilates Cardio",
@@ -108,7 +108,7 @@ const STUDIOS = [
     address: "200 W Johnstown Rd, Columbus, OH 43230",
     bestFor: "Classical Pilates and Gyrotonic on the east side",
     signatureClass: "Classical Apparatus",
-    bookingTip: "Start with a private session — the studio uses it to match you with the right class level.",
+    bookingTip: "Start with a private session: the studio uses it to match you with the right class level.",
   },
   {
     number: "6",
@@ -116,7 +116,7 @@ const STUDIOS = [
     neighborhood: "East Columbus",
     priceLevel: "$$",
     review: "Club Pilates East Columbus on East Broad Street brings levelled group reformer classes to the east side, with weekday classes from 8am to 8pm and weekend classes until 2pm. It is a convenient entry point for east-side residents new to the method.",
-    caveat: "a franchise studio — reliable structure, less individual programming.",
+    caveat: "a franchise studio: reliable structure, less individual programming.",
     address: "6919 E Broad St, Columbus, OH 43213",
     bestFor: "East-side residents new to reformer Pilates",
     signatureClass: "Reformer Flow",
@@ -126,15 +126,15 @@ const STUDIOS = [
 
 const BOOKING_TIPS = [
   {
-    heading: "Columbus winters are long — build a routine before they arrive",
+    heading: "Columbus winters are long: build a routine before they arrive",
     body: "Columbus winters run from November through March, with cold, grey stretches that make outdoor movement impractical. Practitioners who establish indoor studio routines before the season hold them through winter. Lock in recurring slots in September or October.",
   },
   {
     heading: "OSU's academic calendar shapes studio demand",
-    body: "Ohio State's massive enrollment creates pronounced seasonal demand fluctuations. Short North and Grandview studios see surges during the academic year and drops during summer. If you want a specific time slot, book consistently — open availability during the school year is rare.",
+    body: "Ohio State's massive enrollment creates pronounced seasonal demand fluctuations. Short North and Grandview studios see surges during the academic year and drops during summer. If you want a specific time slot, book consistently: open availability during the school year is rare.",
   },
   {
-    heading: "Columbus is a driving city — choose a studio on your route",
+    heading: "Columbus is a driving city: choose a studio on your route",
     body: "Unlike denser cities, Columbus requires a car for most studio visits. The most successful practitioners choose studios that fall naturally between home and work, or adjacent to a regular errand. A great studio that requires a special trip will lose to a good studio that requires none.",
   },
   {
@@ -143,7 +143,7 @@ const BOOKING_TIPS = [
   },
   {
     heading: "Grip socks are required at every reformer studio",
-    body: "Universal across Columbus's reformer market. Full-toe grip socks — bring your own to avoid paying front-desk retail prices.",
+    body: "Universal across Columbus's reformer market. Full-toe grip socks: bring your own to avoid paying front-desk retail prices.",
   },
 ];
 
@@ -151,7 +151,7 @@ const NEIGHBORHOODS = [
   {
     name: "Short North & Clintonville",
     description:
-      "Columbus's most vibrant arts corridor runs through Short North and into Clintonville — a walkable, culturally rich stretch that supports accessible studios serving the city's largest young professional and university-adjacent population.",
+      "Columbus's most vibrant arts corridor runs through Short North and into Clintonville: a walkable, culturally rich stretch that supports accessible studios serving the city's largest young professional and university-adjacent population.",
   },
   {
     name: "Grandview Heights & Upper Arlington",
@@ -197,16 +197,16 @@ const GEAR = [
   },
   {
     name: "High-Density Foam Roller",
-    note: "Our pick: OPTP PRO-Roller Foam Roller (36-inch). Post-class fascia release — a standard recovery tool at Columbus's classical studios.",
+    note: "Our pick: OPTP PRO-Roller Foam Roller (36-inch). Post-class fascia release: a standard recovery tool at Columbus's classical studios.",
     price: "$62.99",
     url: "https://www.amazon.com/dp/B002C9EX14?tag=pilatescollective-20",
   },
 ];
 
 const HOME_REFORMERS = [
-  { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work — three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
+  { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work: three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
   { tag: "Mid-Range Pick", name: "AeroPilates Pro XP 557", note: "AeroPilates' top-of-the-range home reformer, a step up for practitioners training several times a week.", price: "$1,329.99", url: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20" },
-  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order — an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
+  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
 ];
 
 const RELATED_CITIES = [
@@ -244,7 +244,7 @@ const FURTHER_READING = [
 const CITY_FAQS = [
   { q: "What are the best Pilates studios in Columbus?", a: "Our 6 curated picks are Pilates Plus (Short North), Club Pilates Grandview Yard (Grandview Heights), Reform Pilates (Upper Arlington, Mallway), Internal Pilates (Clintonville), Body Pure Pilates (Northeast Columbus) and Club Pilates East Columbus (East Columbus). Each listing above covers what the studio is best for, its signature class and a booking tip." },
   { q: "Which Columbus neighbourhoods are best for Pilates?", a: "This guide covers Short North & Clintonville, Grandview Heights & Upper Arlington, Bexley & East Side and Northeast Columbus & Gahanna. Short North & Clintonville: Columbus's most vibrant arts corridor runs through Short North and into Clintonville, a walkable, culturally rich stretch that supports accessible studios serving the city's largest young professional and university-adjacent population." },
-  { q: "What should I know about booking Pilates classes in Columbus?", a: "Columbus winters are long — build a routine before they arrive. Columbus winters run from November through March, with cold, grey stretches that make outdoor movement impractical." },
+  { q: "What should I know about booking Pilates classes in Columbus?", a: "Columbus winters are long: build a routine before they arrive. Columbus winters run from November through March, with cold, grey stretches that make outdoor movement impractical." },
   { q: "What should I bring to a Pilates class in Columbus?", a: "Grip socks are required at most reformer studios. Our gear list for Columbus covers Pilates grip socks, Pilates mat (6mm), magic circle, fabric resistance bands and high-density foam roller." },
 ];
 
@@ -477,7 +477,7 @@ export default function ColumbusPage() {
 
         <CTASection
           title="Find Pilates near you"
-          subtitle="Use our AI Finder to discover studios in any city — coming soon."
+          subtitle="Use our AI Finder to discover studios in any city: coming soon."
           showSearch
           searchPlaceholder="Ask: best reformer Pilates in Columbus…"
         />

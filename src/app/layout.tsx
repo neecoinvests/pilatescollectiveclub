@@ -9,7 +9,7 @@ const BASE_URL = "https://pilatescollectiveclub.com";
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
   title: {
-    default: "Pilates Collective Club — Find Your Perfect Studio",
+    default: "Pilates Collective Club: Find Your Perfect Studio",
     template: "%s | Pilates Collective Club",
   },
   description:
@@ -38,18 +38,18 @@ export const metadata: Metadata = {
   },
   manifest: "/manifest.webmanifest",
   openGraph: {
-    title: "Pilates Collective Club — Find Your Perfect Studio",
+    title: "Pilates Collective Club: Find Your Perfect Studio",
     description:
       "Curated city guides, expert studio recommendations, and equipment picks for Pilates practitioners worldwide.",
     siteName: "Pilates Collective Club",
     type: "website",
     url: BASE_URL,
-    images: [{ url: "/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg", width: 1200, height: 630, alt: "Pilates Collective Club — Find Your Perfect Studio" }],
+    images: [{ url: "/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg", width: 1200, height: 630, alt: "Pilates Collective Club: Find Your Perfect Studio" }],
     locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Pilates Collective Club — Find Your Perfect Studio",
+    title: "Pilates Collective Club: Find Your Perfect Studio",
     description: "Curated city guides, expert studio recommendations, and equipment picks for Pilates practitioners worldwide.",
     images: ["/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg"],
     site: "@pilatescollective",

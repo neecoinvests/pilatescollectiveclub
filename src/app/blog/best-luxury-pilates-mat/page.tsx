@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "Best Luxury Pilates Mats (2026)",
-    description: "Manduka PRO, Liforme, Hugger Mugger and Manduka PROlite — the premium mats that serious practitioners actually buy once and keep for years.",
+    description: "Manduka PRO, Liforme, Hugger Mugger and Manduka PROlite: the premium mats that serious practitioners actually buy once and keep for years.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-luxury-pilates-mat",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/stitch-mat-setup-beige.png", width: 1200, height: 630, alt: "Best Luxury Pilates Mats 2026" }],
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Best Luxury Pilates Mats (2026)",
-    description: "Manduka PRO, Liforme, JadeYoga, and more — the premium mats serious practitioners buy once and keep for years.",
+    description: "Manduka PRO, Liforme, JadeYoga, and more: the premium mats serious practitioners buy once and keep for years.",
     images: ["https://pilatescollectiveclub.com/pictures/stitch-mat-setup-beige.png"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/best-luxury-pilates-mat" },
@@ -159,10 +159,10 @@ export default function BestLuxuryPilatesMatPage() {
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p style={{ fontFamily: "var(--font-sans)", fontSize: "17px", fontWeight: 300, color: "#4a4540", lineHeight: 1.8, marginBottom: "16px" }}>
-              A premium mat is not an indulgence — it is the single surface between your spine and the floor for every mat Pilates class you will ever take. The quality of that surface affects grip security, spinal cushioning, hygiene, and ultimately your ability to focus on movement rather than your equipment.
+              A premium mat is not an indulgence: it is the single surface between your spine and the floor for every mat Pilates class you will ever take. The quality of that surface affects grip security, spinal cushioning, hygiene, and ultimately your ability to focus on movement rather than your equipment.
             </p>
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              These six mats represent the finest available in 2026 — each compared on grip stability, cushioning precision, ease of care, and the intangible quality of a mat that makes every session feel more considered.
+              These six mats represent the finest available in 2026, each compared on grip stability, cushioning precision, ease of care, and the intangible quality of a mat that makes every session feel more considered.
             </p>
           </div>
         </section>
@@ -216,8 +216,8 @@ export default function BestLuxuryPilatesMatPage() {
             <div style={{ marginTop: "64px" }}>
               <h2 style={{ fontFamily: "var(--font-sans)", fontSize: "11px", fontWeight: 500, letterSpacing: "0.2em", textTransform: "uppercase", color: "#9a9490", marginBottom: "28px" }}>Further Reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="Best Pilates Mat" excerpt="The full mat roundup across all price ranges — from budget picks to professional studio mats." href="/blog/best-pilates-mat" category="Equipment" readTime="8 min" imageUrl="/pictures/stitch-mat-setup-beige.png" />
-                <ArticleCard title="Best Luxury Pilates Accessories" excerpt="Premium magic circles, foam rollers, resistance bands, and props — curated for the serious practitioner." href="/blog/best-luxury-pilates-accessories" category="Equipment" readTime="9 min" imageUrl="/pictures/stitch-props-cork-ring.png" />
+                <ArticleCard title="Best Pilates Mat" excerpt="The full mat roundup across all price ranges, from budget picks to professional studio mats." href="/blog/best-pilates-mat" category="Equipment" readTime="8 min" imageUrl="/pictures/stitch-mat-setup-beige.png" />
+                <ArticleCard title="Best Luxury Pilates Accessories" excerpt="Premium magic circles, foam rollers, resistance bands, and props: curated for the serious practitioner." href="/blog/best-luxury-pilates-accessories" category="Equipment" readTime="9 min" imageUrl="/pictures/stitch-props-cork-ring.png" />
                 <ArticleCard title="Manduka PRO Mat Review (2026): Worth $144 for Pilates?" excerpt="Manduka PRO and eKO mats reviewed for Pilates at $144, thickness, grip, weight, and whether a cheaper mat does the…" href="/blog/manduka-pilates-mat" category="Guide" readTime="9 min read" imageUrl="/pictures/dane-wetton-t1NEMSm1rgI-unsplash.jpg" />
                 <ArticleCard title="Best Yoga Mat Towel for Pilates (2026): Compared & Ranked" excerpt="The best yoga mat towels for Pilates, Manduka eQua, Liforme, Gaiam, and more compared for grip, sweat absorption…" href="/blog/best-yoga-mat-towel-for-pilates" category="Guide" readTime="6 min read" imageUrl="/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" />
                 <ArticleCard title="Pilates Essentials (2026): Every Must-Have in One List" excerpt="Every Pilates must-have on one page, best, budget and splurge picks, verified in-stock prices, and what the full…" href="/blog/pilates-essentials" category="Guide" readTime="12 min read" imageUrl="/pictures/stitch-pilates-essentials-logbook.png" />

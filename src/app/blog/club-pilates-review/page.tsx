@@ -16,15 +16,15 @@ export const metadata: Metadata = {
   keywords: ["club pilates review", "club pilates worth it", "club pilates franchise", "club pilates membership cost", "club pilates class quality", "club pilates instructor training", "club pilates vs boutique studio", "club pilates reformer", "is club pilates good", "club pilates 2026 review"],
   openGraph: {
     title: "Club Pilates Review (2026): Is It Worth It? An Honest Assessment",
-    description: "An honest review of Club Pilates — class quality, instructor training, equipment, and how it compares to boutique studios.",
+    description: "An honest review of Club Pilates: class quality, instructor training, equipment, and how it compares to boutique studios.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/club-pilates-review",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg", width: 1200, height: 630, alt: "Club Pilates Review — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg", width: 1200, height: 630, alt: "Club Pilates Review: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Club Pilates Review (2026): Is It Worth It?",
-    description: "An honest review of Club Pilates — class quality, equipment, and how it compares to boutique studios.",
+    description: "An honest review of Club Pilates: class quality, equipment, and how it compares to boutique studios.",
     images: ["https://pilatescollectiveclub.com/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg"],
   },
   alternates: {
@@ -39,7 +39,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Club Pilates Review (2026): Is It Worth It? An Honest Assessment",
-      "description": "An honest Club Pilates review — class quality, instructor training, equipment, membership pricing, and comparison to boutique studios.",
+      "description": "An honest Club Pilates review: class quality, instructor training, equipment, membership pricing, and comparison to boutique studios.",
       "url": "https://pilatescollectiveclub.com/blog/club-pilates-review",
       "datePublished": "2026-05-14",
       "dateModified": "2026-10-20",
@@ -59,9 +59,9 @@ const jsonLd = {
   {
     "@type": "FAQPage",
     "mainEntity": [
-      { "@type": "Question", "name": "How much does Club Pilates cost per month?", "acceptedAnswer": { "@type": "Answer", "text": "Club Pilates memberships typically range from $149 to $199 per month depending on location and tier (8 classes/month vs unlimited). Drop-in rates run $35–45 per class. Annual prepayment discounts are available at most locations. Pricing varies by market — metropolitan areas are typically at the higher end of the range." } },
-      { "@type": "Question", "name": "Are Club Pilates instructors qualified?", "acceptedAnswer": { "@type": "Answer", "text": "Club Pilates instructors complete the brand's proprietary CPT certification — approximately 500 hours, which meets the minimum industry standard. This is a legitimate qualification, but less specialised than STOTT, BASI, or classical lineage certifications. Individual instructor quality varies significantly. The best instructors at Club Pilates often continue their education with additional certifications; the weakest are working with minimum credentials only." } },
-      { "@type": "Question", "name": "Can a complete beginner start at Club Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — Club Pilates has a well-structured Foundations programme (typically a series of 101, 201, and 301 classes taken before joining general classes). This is one of the most accessible beginner pathways in the market. The structured onboarding is better than many independent boutique studios that put beginners directly into general intermediate classes." } },
+      { "@type": "Question", "name": "How much does Club Pilates cost per month?", "acceptedAnswer": { "@type": "Answer", "text": "Club Pilates memberships typically range from $149 to $199 per month depending on location and tier (8 classes/month vs unlimited). Drop-in rates run $35–45 per class. Annual prepayment discounts are available at most locations. Pricing varies by market: metropolitan areas are typically at the higher end of the range." } },
+      { "@type": "Question", "name": "Are Club Pilates instructors qualified?", "acceptedAnswer": { "@type": "Answer", "text": "Club Pilates instructors complete the brand's proprietary CPT certification: approximately 500 hours, which meets the minimum industry standard. This is a legitimate qualification, but less specialised than STOTT, BASI, or classical lineage certifications. Individual instructor quality varies significantly. The best instructors at Club Pilates often continue their education with additional certifications; the weakest are working with minimum credentials only." } },
+      { "@type": "Question", "name": "Can a complete beginner start at Club Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "Yes: Club Pilates has a well-structured Foundations programme (typically a series of 101, 201, and 301 classes taken before joining general classes). This is one of the most accessible beginner pathways in the market. The structured onboarding is better than many independent boutique studios that put beginners directly into general intermediate classes." } },
       { "@type": "Question", "name": "How does Club Pilates compare to CorePower Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "CorePower Yoga recently expanded into Pilates programming. Club Pilates has more reformer-specific programming depth and has been building reformer expertise longer. CorePower brings yoga sequencing influence that some practitioners enjoy and others find distracting from the Pilates method. Both are franchise environments with the same structural limitations relative to independent boutique studios." } }
     ]
   },
@@ -73,31 +73,31 @@ const criteria = [
     category: "Equipment",
     rating: "Good",
     ratingColor: "#536257",
-    detail: "Club Pilates uses Balanced Body reformers — legitimate professional-grade equipment, the same machines in premium boutique studios. The equipment is well-maintained at most locations and replaced on schedule. This is a genuine strength. You will not find entry-level consumer reformers at Club Pilates.",
+    detail: "Club Pilates uses Balanced Body reformers: legitimate professional-grade equipment, the same machines in premium boutique studios. The equipment is well-maintained at most locations and replaced on schedule. This is a genuine strength. You will not find entry-level consumer reformers at Club Pilates.",
   },
   {
     category: "Instructor training",
     rating: "Variable",
     ratingColor: "#c5a882",
-    detail: "Club Pilates has its own internal certification programme — the CPT (Club Pilates Teacher) certification — which is proprietary. It covers approximately 500 hours of training, which meets the minimum industry standard. However, the training is franchise-specific and does not have the depth or lineage of STOTT, BASI, or Peak Pilates certifications. Instructor quality varies significantly by location and individual — this is the single greatest quality variable in the chain.",
+    detail: "Club Pilates has its own internal certification programme, the CPT (Club Pilates Teacher) certification, which is proprietary. It covers approximately 500 hours of training, which meets the minimum industry standard. However, the training is franchise-specific and does not have the depth or lineage of STOTT, BASI, or Peak Pilates certifications. Instructor quality varies significantly by location and individual: this is the single greatest quality variable in the chain.",
   },
   {
     category: "Class sizes",
     rating: "Acceptable",
     ratingColor: "#c5a882",
-    detail: "Club Pilates caps classes at 12 per reformer session, which is the upper limit of what allows meaningful individual attention. In practice, many classes run at or near capacity. This means instructors are managing 12 bodies simultaneously — appropriate cueing is possible, but the granular individual corrections of a smaller class are less frequent.",
+    detail: "Club Pilates caps classes at 12 per reformer session, which is the upper limit of what allows meaningful individual attention. In practice, many classes run at or near capacity. This means instructors are managing 12 bodies simultaneously: appropriate cueing is possible, but the granular individual corrections of a smaller class are less frequent.",
   },
   {
     category: "Membership pricing",
     rating: "Competitive",
     ratingColor: "#536257",
-    detail: "Club Pilates membership typically runs $149–$199/month for unlimited or near-unlimited classes — significantly less per class than most independent boutique studios ($35–60 per drop-in). For practitioners who want high-frequency reformer access without the boutique price point, Club Pilates is the most accessible option at scale.",
+    detail: "Club Pilates membership typically runs $149–$199/month for unlimited or near-unlimited classes: significantly less per class than most independent boutique studios ($35–60 per drop-in). For practitioners who want high-frequency reformer access without the boutique price point, Club Pilates is the most accessible option at scale.",
   },
   {
     category: "Class variety",
     rating: "Good",
     ratingColor: "#536257",
-    detail: "Club Pilates offers multiple class formats — Classic Pilates, Cardio Pilates (with jump board), Stretch, Pilates Barre, and foundations classes for beginners. The programme variety is a genuine advantage over boutique studios that offer a single format. The Cardio format with jump boards is particularly popular and well-executed.",
+    detail: "Club Pilates offers multiple class formats: Classic Pilates, Cardio Pilates (with jump board), Stretch, Pilates Barre, and foundations classes for beginners. The programme variety is a genuine advantage over boutique studios that offer a single format. The Cardio format with jump boards is particularly popular and well-executed.",
   },
   {
     category: "Individual progression",
@@ -108,9 +108,9 @@ const criteria = [
 ];
 
 const PRODUCTS = [
-  { name: "ToeSox Grip Socks", description: "Required for all Club Pilates classes. Grip socks are mandatory for reformer and equipment sessions — ToeSox are the most widely used brand across studios globally.", price: "$16.00", affiliateUrl: "https://www.amazon.com/dp/B00A6YUEEW?tag=pilatescollective-20" },
-  { name: "Manduka PRO Pilates Mat", description: "For home practice between Club Pilates sessions. A mat at home makes the consistency between studio classes achievable — and consistency is what produces results.", price: "$144.00", affiliateUrl: "https://www.amazon.com/dp/B0066T7I54?tag=pilatescollective-20" },
-  { name: "Under Armour Studio Lite Tote", description: "A dedicated bag for your Club Pilates kit — grip socks, mat, water, and a change of clothes. Simple organisational tools are underrated for making studio attendance a sustainable habit.", price: "$40.64", affiliateUrl: "https://www.amazon.com/dp/B0D1W4RK7S?tag=pilatescollective-20" },
+  { name: "ToeSox Grip Socks", description: "Required for all Club Pilates classes. Grip socks are mandatory for reformer and equipment sessions: ToeSox are the most widely used brand across studios globally.", price: "$16.00", affiliateUrl: "https://www.amazon.com/dp/B00A6YUEEW?tag=pilatescollective-20" },
+  { name: "Manduka PRO Pilates Mat", description: "For home practice between Club Pilates sessions. A mat at home makes the consistency between studio classes achievable, and consistency is what produces results.", price: "$144.00", affiliateUrl: "https://www.amazon.com/dp/B0066T7I54?tag=pilatescollective-20" },
+  { name: "Under Armour Studio Lite Tote", description: "A dedicated bag for your Club Pilates kit: grip socks, mat, water, and a change of clothes. Simple organisational tools are underrated for making studio attendance a sustainable habit.", price: "$40.64", affiliateUrl: "https://www.amazon.com/dp/B0D1W4RK7S?tag=pilatescollective-20" },
   { name: "TheraBand Resistance Bands Set", description: "Club Pilates uses resistance-based reformer work extensively. A set of resistance bands at home allows you to replicate many of the class exercises on rest days.", price: "$11.99", affiliateUrl: "https://www.amazon.com/dp/B01A58FHQ8?tag=pilatescollective-20" },
   { name: "Balanced Body Magic Circle", description: "Used in many Club Pilates class formats. Having your own magic circle allows home reinforcement of the adductor and arm activation work that appears regularly in group classes.", price: "$35.00", affiliateUrl: "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20" },
 ];
@@ -140,7 +140,7 @@ export default function ClubPilatesReviewPage() {
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Club Pilates is the largest Pilates franchise in the world — over 900 locations across the United States, Canada, and international markets, with hundreds of thousands of active members. For many people, Club Pilates is their first and only experience of reformer Pilates. Whether that&apos;s a good thing depends on what you&apos;re looking for. This review assesses Club Pilates honestly across the factors that actually matter for your practice.
+              Club Pilates is the largest Pilates franchise in the world, over 900 locations across the United States, Canada, and international markets, with hundreds of thousands of active members. For many people, Club Pilates is their first and only experience of reformer Pilates. Whether that&apos;s a good thing depends on what you&apos;re looking for. This review assesses Club Pilates honestly across the factors that actually matter for your practice.
             </p>
           </div>
         </section>
@@ -148,7 +148,7 @@ export default function ClubPilatesReviewPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg" alt="Club Pilates reformer studio — franchise Pilates class quality, instructor training, and membership value reviewed" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg" alt="Club Pilates reformer studio: franchise Pilates class quality, instructor training, and membership value reviewed" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>
         </section>
@@ -160,15 +160,15 @@ export default function ClubPilatesReviewPage() {
             <AffiliateNote />
 
             <div className="mb-16 mt-4">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What Club Pilates is — and isn&apos;t</h2>
+              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What Club Pilates is, and isn&apos;t</h2>
               <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Club Pilates launched in 2007 in San Diego and grew rapidly through franchising. The model is fundamentally a boutique fitness franchise — standardised programming, branded environments, membership-based pricing, and rapid geographic expansion. It brought reformer Pilates to cities and suburbs that would not otherwise have supported an independent boutique studio, and at price points that made consistent practice accessible to a broader market.
+                Club Pilates launched in 2007 in San Diego and grew rapidly through franchising. The model is fundamentally a boutique fitness franchise: standardised programming, branded environments, membership-based pricing, and rapid geographic expansion. It brought reformer Pilates to cities and suburbs that would not otherwise have supported an independent boutique studio, and at price points that made consistent practice accessible to a broader market.
               </p>
               <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                The trade-off inherent in the franchise model is consistency versus quality. Standardisation produces predictable experiences — which is valuable for accessibility — but limits the peak quality achievable at any individual location. An independent boutique studio can be exceptional; a franchise location can be very good, but the structural constraints limit how good.
+                The trade-off inherent in the franchise model is consistency versus quality. Standardisation produces predictable experiences, which is valuable for accessibility, but limits the peak quality achievable at any individual location. An independent boutique studio can be exceptional; a franchise location can be very good, but the structural constraints limit how good.
               </p>
               <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Club Pilates is not the same experience as a small independent studio with a highly trained instructor and a class of eight. It is a meaningfully different product at a meaningfully different price point. The honest question is whether the Club Pilates product serves your specific practice goals — not whether it&apos;s equivalent to the best independent studios.
+                Club Pilates is not the same experience as a small independent studio with a highly trained instructor and a class of eight. It is a meaningfully different product at a meaningfully different price point. The honest question is whether the Club Pilates product serves your specific practice goals, not whether it&apos;s equivalent to the best independent studios.
               </p>
             </div>
 
@@ -211,7 +211,7 @@ export default function ClubPilatesReviewPage() {
                   { heading: "Practitioners seeking method depth", body: "If you want to understand the classical method, progress systematically through the repertoire, or develop the deep body awareness that serious Pilates produces, an independent studio with qualified classical or STOTT-trained instructors is necessary." },
                   { heading: "Injury rehabilitation", body: "Club Pilates is not an appropriate environment for injury rehabilitation. The class size, generalised programming, and variable instructor clinical knowledge make it unsuitable for the individualised work that rehabilitation requires." },
                   { heading: "Experienced practitioners who have plateaued", body: "Practitioners with 1–2 years of regular reformer experience typically need more individualised progression than Club Pilates can provide in a class of 12 with standardised programming." },
-                  { heading: "Those who want instructor continuity", body: "Franchise staff turnover is typically higher than independent studios. Building a long-term relationship with a specific instructor — which is how Pilates works best — is harder in a franchise environment." },
+                  { heading: "Those who want instructor continuity", body: "Franchise staff turnover is typically higher than independent studios. Building a long-term relationship with a specific instructor, which is how Pilates works best, is harder in a franchise environment." },
                 ].map((item) => (
                   <div key={item.heading} className="rounded-xl p-5" style={{ backgroundColor: "#fff9f7", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-sm font-semibold mb-1.5" style={{ color: "#8b4a31", fontFamily: "'Playfair Display', serif" }}>{item.heading}</p>
@@ -227,7 +227,7 @@ export default function ClubPilatesReviewPage() {
                 Club Pilates is the most accessible way to build a consistent reformer practice in the United States. The equipment is professional-grade, the price point is competitive, and the programme variety is genuine. For beginners and for high-frequency practitioners whose primary goal is consistent movement rather than deep method education, it delivers real value.
               </p>
               <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                It is not equivalent to the best independent boutique studios. If your goal is to learn Pilates well — to develop the body awareness, postural correction, and movement quality that the method at its best produces — a smaller independent studio with more qualified instructors and closer individual attention is worth the higher cost. The honest recommendation: Club Pilates to build a practice habit and access to equipment; independent studio instruction to build genuine proficiency.
+                It is not equivalent to the best independent boutique studios. If your goal is to learn Pilates well (to develop the body awareness, postural correction, and movement quality that the method at its best produces) a smaller independent studio with more qualified instructors and closer individual attention is worth the higher cost. The honest recommendation: Club Pilates to build a practice habit and access to equipment; independent studio instruction to build genuine proficiency.
               </p>
             </div>
 
@@ -235,9 +235,9 @@ export default function ClubPilatesReviewPage() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "How much does Club Pilates cost per month?", a: "Club Pilates memberships typically range from $149 to $199 per month depending on location and tier (8 classes/month vs unlimited). Drop-in rates run $35–45 per class. Annual prepayment discounts are available at most locations. Pricing varies by market — metropolitan areas are typically at the higher end of the range." },
-                  { q: "Are Club Pilates instructors qualified?", a: "Club Pilates instructors complete the brand's proprietary CPT certification — approximately 500 hours, which meets the minimum industry standard. This is a legitimate qualification, but less specialised than STOTT, BASI, or classical lineage certifications. Individual instructor quality varies significantly. The best instructors at Club Pilates often continue their education with additional certifications; the weakest are working with minimum credentials only." },
-                  { q: "Can a complete beginner start at Club Pilates?", a: "Yes — Club Pilates has a well-structured Foundations programme (typically a series of 101, 201, and 301 classes taken before joining general classes). This is one of the most accessible beginner pathways in the market. The structured onboarding is better than many independent boutique studios that put beginners directly into general intermediate classes." },
+                  { q: "How much does Club Pilates cost per month?", a: "Club Pilates memberships typically range from $149 to $199 per month depending on location and tier (8 classes/month vs unlimited). Drop-in rates run $35–45 per class. Annual prepayment discounts are available at most locations. Pricing varies by market: metropolitan areas are typically at the higher end of the range." },
+                  { q: "Are Club Pilates instructors qualified?", a: "Club Pilates instructors complete the brand's proprietary CPT certification: approximately 500 hours, which meets the minimum industry standard. This is a legitimate qualification, but less specialised than STOTT, BASI, or classical lineage certifications. Individual instructor quality varies significantly. The best instructors at Club Pilates often continue their education with additional certifications; the weakest are working with minimum credentials only." },
+                  { q: "Can a complete beginner start at Club Pilates?", a: "Yes: Club Pilates has a well-structured Foundations programme (typically a series of 101, 201, and 301 classes taken before joining general classes). This is one of the most accessible beginner pathways in the market. The structured onboarding is better than many independent boutique studios that put beginners directly into general intermediate classes." },
                   { q: "How does Club Pilates compare to CorePower Pilates?", a: "CorePower Yoga recently expanded into Pilates programming. Club Pilates has more reformer-specific programming depth and has been building reformer expertise longer. CorePower brings yoga sequencing influence that some practitioners enjoy and others find distracting from the Pilates method. Both are franchise environments with the same structural limitations relative to independent boutique studios." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
@@ -265,7 +265,7 @@ export default function ClubPilatesReviewPage() {
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="How to Find a Great Pilates Studio" excerpt="The specific questions, green flags, and red flags that separate excellent studios from mediocre ones." href="/blog/how-to-find-a-good-pilates-studio" category="Guide" readTime="10 min read" date="May 2026" imageUrl="/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg" />
-                <ArticleCard title="Best Pilates Reformer Brands" excerpt="Gratz vs Balanced Body vs Merrithew vs Align — an honest comparison for home and studio use." href="/blog/best-pilates-reformer-brands" category="Equipment" readTime="12 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-cZ0WYsBFHhs-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Reformer Brands" excerpt="Gratz vs Balanced Body vs Merrithew vs Align: an honest comparison for home and studio use." href="/blog/best-pilates-reformer-brands" category="Equipment" readTime="12 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-cZ0WYsBFHhs-unsplash.jpg" />
                 <ArticleCard title="Beginner's Guide to Reformer Pilates (2026): What to Expect" excerpt="Everything before your first reformer class, what to wear, what to expect, how to choose a studio, and how to…" href="/blog/beginners-guide-to-reformer-pilates" category="Reformers" readTime="7 min read" imageUrl="/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Grip Socks (2026): 5 Verified Picks" excerpt="5 verified, in-stock Pilates grip socks on Amazon: toesox and TAVI studio favourites, Tucketts toeless, plus Gaiam…" href="/blog/best-pilates-grip-socks" category="Activewear" readTime="6 min read" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
                 <ArticleCard title="Pilates Essentials (2026): Every Must-Have in One List" excerpt="Every Pilates must-have on one page, best, budget and splurge picks, verified in-stock prices, and what the full…" href="/blog/pilates-essentials" category="Guide" readTime="12 min read" imageUrl="/pictures/stitch-pilates-essentials-logbook.png" />

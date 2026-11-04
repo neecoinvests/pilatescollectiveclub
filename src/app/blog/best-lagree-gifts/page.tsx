@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     description: "18 gifts a Lagree regular will actually use, sorted by budget: under $25, under $75, under $250 and the big splurge.",
     type: "article",
     url: PAGE_URL,
-    images: [{ url: HERO_IMAGE, width: 1200, height: 630, alt: "Studio shelf with props — best Lagree gifts" }],
+    images: [{ url: HERO_IMAGE, width: 1200, height: 630, alt: "Studio shelf with props: best Lagree gifts" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -437,7 +437,7 @@ export default function BestLagreeGiftsPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/stitch-studio-shelf-props.png" alt="A studio shelf of props and accessories — best Lagree gifts" fill className="object-cover" style={{ filter: "brightness(0.85)" }} priority />
+              <Image src="/pictures/stitch-studio-shelf-props.png" alt="A studio shelf of props and accessories: best Lagree gifts" fill className="object-cover" style={{ filter: "brightness(0.85)" }} priority />
             </div>
           </div>
         </section>
@@ -459,7 +459,7 @@ export default function BestLagreeGiftsPage() {
             {/* At a glance */}
             <div className="mb-16 overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
               <div className="px-6 py-4" style={{ backgroundColor: "#f6f3f2" }}>
-                <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={eyebrowStyle}>At a Glance — All 18 Lagree Gifts</p>
+                <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={eyebrowStyle}>At a Glance: All 18 Lagree Gifts</p>
               </div>
               {TIERS.map((t) => (
                 <div key={t.id}>

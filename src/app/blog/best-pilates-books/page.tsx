@@ -13,18 +13,18 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Books (2026): Classics & Modern Guides Reviewed",
-  description: "The best Pilates books — from Joseph Pilates originals to modern reformer guides — reviewed for depth, clarity, and usefulness for beginners and instructors.",
+  description: "The best Pilates books, from Joseph Pilates originals to modern reformer guides, reviewed for depth, clarity, and usefulness for beginners and instructors.",
   openGraph: {
     title: "Best Pilates Books (2026): From Beginner to Advanced Practitioner",
-    description: "The best Pilates books for every level — from Joseph Pilates' original texts to modern anatomy guides. Reviewed and ranked.",
+    description: "The best Pilates books for every level, from Joseph Pilates' original texts to modern anatomy guides. Reviewed and ranked.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-books",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg", width: 1200, height: 630, alt: "Best Pilates Books — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg", width: 1200, height: 630, alt: "Best Pilates Books: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Books (2026): From Beginner to Advanced Practitioner",
-    description: "The best Pilates books for every level — reviewed and ranked.",
+    description: "The best Pilates books for every level: reviewed and ranked.",
     images: ["https://pilatescollectiveclub.com/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg"],
   },
   keywords: ["best pilates books", "pilates books 2026", "joseph pilates return to life book", "best pilates book for beginners", "pilates anatomy book", "pilates instructor books", "best reformer pilates book", "pilates textbook review"],
@@ -37,29 +37,29 @@ export const metadata: Metadata = {
 const BOOKS = [
   {
     rank: "01",
-    name: "Return to Life Through Contrology — Joseph H. Pilates",
+    name: "Return to Life Through Contrology Joseph H. Pilates",
     price: "$17.90",
     tag: "The Original",
     description:
-      "Written by Joseph Pilates himself in 1945, this is the foundational text of the entire method. It contains the complete original mat repertoire — 34 exercises photographed and described in Pilates' own words — alongside his philosophy of health, breathing, and the relationship between mind and body. Every serious practitioner should read it at least once. The exercises are harder than they look; the philosophy is more modern than you'd expect from an 80-year-old text.",
+      "Written by Joseph Pilates himself in 1945, this is the foundational text of the entire method. It contains the complete original mat repertoire, 34 exercises photographed and described in Pilates' own words, alongside his philosophy of health, breathing, and the relationship between mind and body. Every serious practitioner should read it at least once. The exercises are harder than they look; the philosophy is more modern than you'd expect from an 80-year-old text.",
     affiliateUrl: "https://www.amazon.com/dp/1928564909?tag=pilatescollective-20",
     bestFor: "All practitioners",
     imageUrl: "/pictures/ahmet-kurt-0xn-8kRWOhE-unsplash.jpg",
   },
   {
     rank: "02",
-    name: "The Pilates Body — Brooke Siler",
+    name: "The Pilates Body Brooke Siler",
     price: "$17.53",
     tag: "Best for Beginners",
     description:
-      "Brooke Siler studied directly under Romana Kryzanowska — one of Joseph Pilates' original students — and wrote what remains the clearest, most accessible introduction to the classical mat method. The photography is exceptional, the cueing is precise, and the progression from beginner to advanced is intelligently structured. If you recommend one Pilates book to a new practitioner, this is it. Siler understands both the technical and philosophical dimensions of the work.",
+      "Brooke Siler studied directly under Romana Kryzanowska, one of Joseph Pilates' original students, and wrote what remains the clearest, most accessible introduction to the classical mat method. The photography is exceptional, the cueing is precise, and the progression from beginner to advanced is intelligently structured. If you recommend one Pilates book to a new practitioner, this is it. Siler understands both the technical and philosophical dimensions of the work.",
     affiliateUrl: "https://www.amazon.com/dp/0593980441?tag=pilatescollective-20",
     bestFor: "Beginners and intermediate practitioners",
     imageUrl: "/pictures/ahmet-kurt-a1IhqqW8JQE-unsplash.jpg",
   },
   {
     rank: "03",
-    name: "Pilates Anatomy — Rael Isacowitz & Karen Clippinger",
+    name: "Pilates Anatomy Rael Isacowitz & Karen Clippinger",
     price: "$17.81",
     tag: "Best for Understanding the Body",
     description:
@@ -70,22 +70,22 @@ const BOOKS = [
   },
   {
     rank: "04",
-    name: "The Pilates Bible — Lynne Robinson",
+    name: "The Pilates Bible Lynne Robinson",
     price: "$26.48",
     tag: "Best Reference",
     description:
-      "A comprehensive, well-photographed reference covering the full breadth of the Pilates method — mat, reformer, Cadillac, chair, and barrel. Robinson's approach is more contemporary than Siler's but rooted in classical principles, and the book's format makes it genuinely useful as an ongoing reference rather than a one-time read. The sections on modifications for injury and pregnancy are particularly strong. The most complete single-volume Pilates reference available.",
+      "A comprehensive, well-photographed reference covering the full breadth of the Pilates method: mat, reformer, Cadillac, chair, and barrel. Robinson's approach is more contemporary than Siler's but rooted in classical principles, and the book's format makes it genuinely useful as an ongoing reference rather than a one-time read. The sections on modifications for injury and pregnancy are particularly strong. The most complete single-volume Pilates reference available.",
     affiliateUrl: "https://www.amazon.com/dp/0857836706?tag=pilatescollective-20",
     bestFor: "Practitioners wanting a comprehensive ongoing reference",
     imageUrl: "/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg",
   },
   {
     rank: "05",
-    name: "Your Body, Your Pilates — Tom Mccook",
+    name: "Your Body, Your Pilates Tom Mccook",
     price: "From $28",
     tag: "Best for Injury & Rehabilitation",
     description:
-      "Mccook's book addresses a gap in the Pilates literature — how to adapt the method intelligently for bodies with structural variation, injury history, and chronic pain. Drawing on his background in movement science and somatics, Mccook explains how spinal mechanics, breathing, and deep core function interact, and how to modify classical exercises when the standard form isn't working. Required reading for practitioners dealing with back pain, hip issues, or post-surgical recovery.",
+      "Mccook's book addresses a gap in the Pilates literature: how to adapt the method intelligently for bodies with structural variation, injury history, and chronic pain. Drawing on his background in movement science and somatics, Mccook explains how spinal mechanics, breathing, and deep core function interact, and how to modify classical exercises when the standard form isn't working. Required reading for practitioners dealing with back pain, hip issues, or post-surgical recovery.",
     affiliateUrl: "https://www.amazon.com/s?k=your+body+your+pilates+tom+mccook&tag=pilatescollective-20",
     bestFor: "Practitioners with injuries, chronic pain, or structural limitations",
     imageUrl: "/pictures/roxana-popovici-Zp4APUiwEsM-unsplash.jpg",
@@ -99,7 +99,7 @@ const jsonLd = {
       "@type": "Article",
       "@id": "https://pilatescollectiveclub.com/blog/best-pilates-books/#article",
       "headline": "Best Pilates Books (2026): From Beginner to Advanced Practitioner",
-      "description": "The best Pilates books for every level — from Joseph Pilates' original texts to modern anatomy guides. Reviewed and ranked.",
+      "description": "The best Pilates books for every level, from Joseph Pilates' original texts to modern anatomy guides. Reviewed and ranked.",
       "image": {
         "@type": "ImageObject",
         "url": "https://pilatescollectiveclub.com/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg",
@@ -209,10 +209,10 @@ export default function BestPilatesBooksPage() {
               <div className="mb-16 mt-4">
                 <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>How to approach the Pilates reading list</h2>
                 <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                  Start with Siler&apos;s <em>The Pilates Body</em> if you&apos;re new — it&apos;s the most accessible entry point to both the exercises and the philosophy. Then read the original Pilates text once you have some physical foundation; it will make much more sense when you can feel what he&apos;s describing.
+                  Start with Siler&apos;s <em>The Pilates Body</em> if you&apos;re new: it&apos;s the most accessible entry point to both the exercises and the philosophy. Then read the original Pilates text once you have some physical foundation; it will make much more sense when you can feel what he&apos;s describing.
                 </p>
                 <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                  Add the anatomy text when you&apos;re genuinely intermediate and starting to ask &ldquo;why does this exercise target that?&rdquo; rather than just following the instruction. The reference and rehabilitation books serve different practitioners at different moments — buy them when you need them.
+                  Add the anatomy text when you&apos;re genuinely intermediate and starting to ask &ldquo;why does this exercise target that?&rdquo; rather than just following the instruction. The reference and rehabilitation books serve different practitioners at different moments: buy them when you need them.
                 </p>
               </div>
 
@@ -259,7 +259,7 @@ export default function BestPilatesBooksPage() {
                 <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                   <ArticleCard title="Classical vs Contemporary Pilates" excerpt="Understanding the key differences between the original method and modern interpretations." href="/blog/classical-vs-contemporary-pilates" category="Method" readTime="7 min read" date="May 2026" imageUrl="/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg" />
-                  <ArticleCard title="The 6 Core Principles of Pilates, Explained" excerpt="Concentration, control, centering, precision, breath, and flow — what they actually mean in practice." href="/blog/6-core-principles-of-pilates-explained" category="Method" readTime="6 min read" date="May 2026" imageUrl="/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" />
+                  <ArticleCard title="The 6 Core Principles of Pilates, Explained" excerpt="Concentration, control, centering, precision, breath, and flow: what they actually mean in practice." href="/blog/6-core-principles-of-pilates-explained" category="Method" readTime="6 min read" date="May 2026" imageUrl="/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" />
                 </div>
               </div>
             </section>

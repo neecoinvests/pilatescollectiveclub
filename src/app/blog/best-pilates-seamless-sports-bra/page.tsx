@@ -11,7 +11,7 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Seamless Sports Bras for Pilates (2026)",
-  description: "The best seamless sports bras for Pilates — no pressure points, no chafing, full movement. Picks from Lululemon, Alo, Gymshark, Girlfriend Collective, and more.",
+  description: "The best seamless sports bras for Pilates: no pressure points, no chafing, full movement. Picks from Lululemon, Alo, Gymshark, Girlfriend Collective, and more.",
   keywords: [
     "best seamless sports bra pilates",
     "seamless sports bra reformer pilates",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "Best Seamless Sports Bras for Pilates (2026)",
-    description: "No pressure points, no chafing, full movement — the best seamless sports bras for Pilates compared and ranked.",
+    description: "No pressure points, no chafing, full movement: the best seamless sports bras for Pilates compared and ranked.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-seamless-sports-bra",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg", width: 1200, height: 630, alt: "Best Seamless Sports Bras for Pilates 2026" }],
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Best Seamless Sports Bras for Pilates (2026)",
-    description: "No pressure points, no chafing, full movement — the best seamless sports bras for Pilates compared and ranked.",
+    description: "No pressure points, no chafing, full movement: the best seamless sports bras for Pilates compared and ranked.",
     images: ["https://pilatescollectiveclub.com/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/best-pilates-seamless-sports-bra" },
@@ -63,7 +63,7 @@ const PRODUCTS = [
     name: "Gymshark Vital Seamless Sports Bra",
     price: "$30",
     verdict: "Best Seamless Construction",
-    description: "Gymshark's Vital Seamless Bra eliminates every seam that could dig during supine or prone reformer work. The wide elastic underband is substantial without feeling constrictive, and the seamless knit provides a second-skin fit that doesn't shift during movement. An honest best-in-class option at $30 — one of the most recommended Pilates bras on this list. Not sold on Amazon: this link goes to Gymshark's own site.",
+    description: "Gymshark's Vital Seamless Bra eliminates every seam that could dig during supine or prone reformer work. The wide elastic underband is substantial without feeling constrictive, and the seamless knit provides a second-skin fit that doesn't shift during movement. An honest best-in-class option at $30: one of the most recommended Pilates bras on this list. Not sold on Amazon: this link goes to Gymshark's own site.",
     affiliateUrl: "https://www.gymshark.com",
     tag: "Best Seamless",
   },
@@ -72,7 +72,7 @@ const PRODUCTS = [
     name: "Girlfriend Collective Paloma Bra",
     price: "From $45",
     verdict: "Best Sustainable",
-    description: "Made from 79% recycled water bottles, the Girlfriend Collective Paloma is the most environmentally conscious pick on this list without sacrificing support or comfort. The LITE fabric is exceptionally soft, the bra is certified fair trade, and sizing runs XS to 6XL — far more inclusive than most activewear brands. A values-aligned choice for mindful practitioners.",
+    description: "Made from 79% recycled water bottles, the Girlfriend Collective Paloma is the most environmentally conscious pick on this list without sacrificing support or comfort. The LITE fabric is exceptionally soft, the bra is certified fair trade, and sizing runs XS to 6XL: far more inclusive than most activewear brands. A values-aligned choice for mindful practitioners.",
     affiliateUrl: "https://www.amazon.com/s?k=girlfriend+collective+paloma+sports+bra&tag=pilatescollective-20",
     tag: "Eco Choice",
   },
@@ -81,7 +81,7 @@ const PRODUCTS = [
     name: "Under Armour Infinity Mid Support Bra",
     price: "$45.00",
     verdict: "Best for Reformer & Spin",
-    description: "If your training spans both Pilates reformer and spin sessions, the Under Armour Infinity Mid is designed to handle both. The seamless construction transitions from low-impact reformer work to medium-impact spin without adjustment. The UA SmartForm technology contours to your shape and maintains structure through washes — a reliable dual-purpose choice.",
+    description: "If your training spans both Pilates reformer and spin sessions, the Under Armour Infinity Mid is designed to handle both. The seamless construction transitions from low-impact reformer work to medium-impact spin without adjustment. The UA SmartForm technology contours to your shape and maintains structure through washes: a reliable dual-purpose choice.",
     affiliateUrl: "https://www.amazon.com/dp/B0CJVPKTY3?tag=pilatescollective-20",
     tag: "Best Cross-Training",
   },
@@ -102,7 +102,7 @@ const jsonLd = {
     {
       "@type": "Article",
       headline: "Best Seamless Sports Bras for Pilates (2026)",
-      description: "The best seamless sports bras for Pilates — no pressure points, no chafing, full movement. Compared and ranked.",
+      description: "The best seamless sports bras for Pilates: no pressure points, no chafing, full movement. Compared and ranked.",
       url: "https://pilatescollectiveclub.com/blog/best-pilates-seamless-sports-bra",
       datePublished: "2026-07-06",
       dateModified: "2026-10-20",
@@ -159,7 +159,7 @@ export default function BestPilatesSeamlessSportsBraPage() {
             <TopPick name={PRODUCTS[4].name} price={PRODUCTS[4].price} note={QP_NOTES[4]} url={PRODUCTS[4].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Seam placement becomes noticeable fast when you&apos;re spending forty minutes on a reformer in supine. A seamless sports bra is one of those kit investments that seems minor until you make it — and then you wonder how you trained without it.
+              Seam placement becomes noticeable fast when you&apos;re spending forty minutes on a reformer in supine. A seamless sports bra is one of those kit investments that seems minor until you make it, and then you wonder how you trained without it.
             </p>
           </div>
         </section>
@@ -213,8 +213,8 @@ export default function BestPilatesSeamlessSportsBraPage() {
             <div style={{ marginTop: "64px" }}>
               <h2 style={{ fontFamily: "var(--font-sans)", fontSize: "11px", fontWeight: 500, letterSpacing: "0.2em", textTransform: "uppercase", color: "#9a9490", marginBottom: "28px" }}>Further Reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="Best Pilates Sports Bras" excerpt="The full roundup of top-rated sports bras for Pilates — padded, wired, and wireless options compared." href="/blog/best-pilates-sports-bra" category="Clothing" readTime="8 min" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
-                <ArticleCard title="Best Pilates Bodysuits" excerpt="One-piece options that eliminate bra-top coordination entirely — the best bodysuits for reformer Pilates." href="/blog/best-pilates-bodysuits" category="Clothing" readTime="7 min" imageUrl="/pictures/stitch-retail-activewear.png" />
+                <ArticleCard title="Best Pilates Sports Bras" excerpt="The full roundup of top-rated sports bras for Pilates: padded, wired, and wireless options compared." href="/blog/best-pilates-sports-bra" category="Clothing" readTime="8 min" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Bodysuits" excerpt="One-piece options that eliminate bra-top coordination entirely: the best bodysuits for reformer Pilates." href="/blog/best-pilates-bodysuits" category="Clothing" readTime="7 min" imageUrl="/pictures/stitch-retail-activewear.png" />
                 <ArticleCard title="Best Sports Bra for Lagree (2026): 6 Picks by Support" excerpt="The best sports bra for Lagree, matched to support level: high-impact picks for jumps and lunges, smooth backs for…" href="/blog/best-sports-bra-for-lagree" category="Lagree" readTime="9 min read" imageUrl="/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Grip Socks (2026): 5 Verified Picks" excerpt="5 verified, in-stock Pilates grip socks on Amazon: toesox and TAVI studio favourites, Tucketts toeless, plus Gaiam…" href="/blog/best-pilates-grip-socks" category="Activewear" readTime="6 min read" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Leggings (2026): 5 Picks for Reformer & Mat" excerpt="The 5 best Pilates leggings on Amazon, from $26 to $134: Lululemon Align, Beyond Yoga, Sweaty Betty, Varley and…" href="/blog/best-pilates-leggings" category="Activewear" readTime="9 min read" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />

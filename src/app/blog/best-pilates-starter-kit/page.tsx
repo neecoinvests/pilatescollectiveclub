@@ -12,19 +12,19 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Starter Kit (2026): Everything a Beginner Needs",
-  description: "The best Pilates starter kits of 2026 — mat, ring, grip socks, and resistance bands bundled and reviewed for beginners starting home or studio practice.",
+  description: "The best Pilates starter kits of 2026: mat, ring, grip socks, and resistance bands bundled and reviewed for beginners starting home or studio practice.",
   keywords: ["best pilates starter kit", "pilates beginner kit 2026", "pilates starter set", "pilates equipment kit beginner", "what equipment for beginner pilates", "pilates mat ring socks kit", "pilates starter bundle review"],
   openGraph: {
     title: "Best Pilates Starter Kit (2026): Everything You Need to Begin",
-    description: "The best Pilates starter kits for beginners — what to buy, what to skip, and in what order.",
+    description: "The best Pilates starter kits for beginners: what to buy, what to skip, and in what order.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-starter-kit",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-Zp4APUiwEsM-unsplash.jpg", width: 1200, height: 630, alt: "Best Pilates Starter Kit — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-Zp4APUiwEsM-unsplash.jpg", width: 1200, height: 630, alt: "Best Pilates Starter Kit: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Starter Kit (2026)",
-    description: "What to buy when beginning your Pilates practice — the complete beginner equipment guide.",
+    description: "What to buy when beginning your Pilates practice: the complete beginner equipment guide.",
     images: ["https://pilatescollectiveclub.com/pictures/roxana-popovici-Zp4APUiwEsM-unsplash.jpg"],
   },
   alternates: {
@@ -40,7 +40,7 @@ const PRODUCTS = [
     price: "$144.00",
     verdict: "Best mat for serious beginners",
     description:
-      "A quality mat is the single most important Pilates purchase. The Manduka PRO is denser and firmer than standard yoga mats — essential for Pilates, where a spongy mat undermines spinal articulation exercises and destabilises footwork. The 6mm thickness cushions the spine adequately without compromising the grounded feeling that Pilates requires. The surface has appropriate grip without being overly sticky. Crucially, it will last a decade with regular use, making the upfront cost genuinely economical over time.",
+      "A quality mat is the single most important Pilates purchase. The Manduka PRO is denser and firmer than standard yoga mats: essential for Pilates, where a spongy mat undermines spinal articulation exercises and destabilises footwork. The 6mm thickness cushions the spine adequately without compromising the grounded feeling that Pilates requires. The surface has appropriate grip without being overly sticky. Crucially, it will last a decade with regular use, making the upfront cost genuinely economical over time.",
     affiliateUrl: "https://www.amazon.com/dp/B0000DZFXZ?tag=pilatescollective-20",
     tag: "First Purchase",
   },
@@ -50,7 +50,7 @@ const PRODUCTS = [
     price: "$30.00",
     verdict: "Essential for studio attendance",
     description:
-      "Grip socks are required at virtually every reformer studio and strongly recommended for mat classes. ToeSox are the industry standard — individual toe pockets improve proprioception and grip on the footbar, and the quality holds up to intensive regular washing. Buy two pairs immediately so you always have a clean pair available. Don't underestimate this purchase: studios often refuse entry without grip socks, and going to a class without them wastes your time and money.",
+      "Grip socks are required at virtually every reformer studio and strongly recommended for mat classes. ToeSox are the industry standard: individual toe pockets improve proprioception and grip on the footbar, and the quality holds up to intensive regular washing. Buy two pairs immediately so you always have a clean pair available. Don't underestimate this purchase: studios often refuse entry without grip socks, and going to a class without them wastes your time and money.",
     affiliateUrl: "https://www.amazon.com/dp/B08ZGNC7X6?tag=pilatescollective-20",
     tag: "Studio Essential",
   },
@@ -70,7 +70,7 @@ const PRODUCTS = [
     price: "From $35",
     verdict: "Best Pilates ring for beginners",
     description:
-      "The Pilates ring (magic circle) is a signature piece of the method — an 13-inch flexible ring with padded handles used for inner thigh work, arm exercises, and adding isometric resistance to mat sequences. The STOTT ring has the correct firmness: enough resistance to be challenging without being so stiff it's unusable for beginners. Lighter than it looks, takes up almost no storage space, and adds considerable variety to a home mat practice. Start using it once you've established a basic mat routine.",
+      "The Pilates ring (magic circle) is a signature piece of the method: an 13-inch flexible ring with padded handles used for inner thigh work, arm exercises, and adding isometric resistance to mat sequences. The STOTT ring has the correct firmness: enough resistance to be challenging without being so stiff it's unusable for beginners. Lighter than it looks, takes up almost no storage space, and adds considerable variety to a home mat practice. Start using it once you've established a basic mat routine.",
     affiliateUrl: "https://www.amazon.com/s?k=stott+pilates+toning+ring+magic+circle&tag=pilatescollective-20",
     tag: "Method Staple",
   },
@@ -80,7 +80,7 @@ const PRODUCTS = [
     price: "From $89",
     verdict: "Best all-in-one beginner bundle",
     description:
-      "Balanced Body is the most respected equipment brand in the professional Pilates world — their starter set containing a mat, resistance band, and ring is the highest-quality beginner bundle available. Each individual item is better than most standalone products at comparable price points. The mat is appropriately firm, the band is correctly calibrated, and the ring has the right resistance. For a beginner who wants to buy once and not revisit equipment decisions for years, this bundle is the most efficient path.",
+      "Balanced Body is the most respected equipment brand in the professional Pilates world: their starter set containing a mat, resistance band, and ring is the highest-quality beginner bundle available. Each individual item is better than most standalone products at comparable price points. The mat is appropriately firm, the band is correctly calibrated, and the ring has the right resistance. For a beginner who wants to buy once and not revisit equipment decisions for years, this bundle is the most efficient path.",
     affiliateUrl: "https://www.amazon.com/s?k=balanced+body+pilates+starter+set&tag=pilatescollective-20",
     tag: "Best Bundle",
   },
@@ -112,10 +112,10 @@ const jsonLd = {
   {
     "@type": "FAQPage",
     "mainEntity": [
-      { "@type": "Question", "name": "How much should I budget for a Pilates starter kit?", "acceptedAnswer": { "@type": "Answer", "text": "A practical beginner kit — quality mat, grip socks, resistance band set — costs $150–200 total if you buy individual components selectively. The Balanced Body bundle offers similar quality in a single purchase at a comparable price. A budget version (cheaper mat, generic bands) can be assembled for $60–80 but may need replacing sooner." } },
+      { "@type": "Question", "name": "How much should I budget for a Pilates starter kit?", "acceptedAnswer": { "@type": "Answer", "text": "A practical beginner kit (quality mat, grip socks, resistance band set) costs $150–200 total if you buy individual components selectively. The Balanced Body bundle offers similar quality in a single purchase at a comparable price. A budget version (cheaper mat, generic bands) can be assembled for $60–80 but may need replacing sooner." } },
       { "@type": "Question", "name": "Do I need a special Pilates mat or can I use a yoga mat?", "acceptedAnswer": { "@type": "Answer", "text": "A yoga mat works initially, but a dedicated Pilates mat (firmer, slightly less grippy) is meaningfully better for the method. Pilates involves sustained lying on the mat during spinal exercises where a spongy yoga mat undermines the feedback you need to understand your spine's position. Manduka PRO and Gaiam Performance are the two best crossover options that work for both." } },
-      { "@type": "Question", "name": "What's the most important piece of equipment to buy first?", "acceptedAnswer": { "@type": "Answer", "text": "Grip socks if you're attending a studio — studios will turn you away without them. A quality mat if you're starting home practice. Everything else is secondary until you have a consistent practice habit established." } },
-      { "@type": "Question", "name": "Can I start Pilates without any equipment at all?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — if you're taking studio classes, the studio provides everything except grip socks. If you're starting with online classes at home, a firm mat (even a borrowed yoga mat) is sufficient for the beginner-level mat sequence. Equipment adds variety and challenge; it isn't required to begin." } }
+      { "@type": "Question", "name": "What's the most important piece of equipment to buy first?", "acceptedAnswer": { "@type": "Answer", "text": "Grip socks if you're attending a studio: studios will turn you away without them. A quality mat if you're starting home practice. Everything else is secondary until you have a consistent practice habit established." } },
+      { "@type": "Question", "name": "Can I start Pilates without any equipment at all?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, if you're taking studio classes, the studio provides everything except grip socks. If you're starting with online classes at home, a firm mat (even a borrowed yoga mat) is sufficient for the beginner-level mat sequence. Equipment adds variety and challenge; it isn't required to begin." } }
     ]
   },
   ],
@@ -146,7 +146,7 @@ export default function BestStarterKitPage() {
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              When you start Pilates, the equipment question is genuinely confusing. Studio classes require grip socks. Home practice needs a mat. But once you look further, the range of available equipment — rings, bands, foam rollers, chairs, towers — can feel overwhelming. This guide cuts through it: here is what to buy first, what to add once you have a consistent practice, and what to skip entirely when you&apos;re starting out.
+              When you start Pilates, the equipment question is genuinely confusing. Studio classes require grip socks. Home practice needs a mat. But once you look further, the range of available equipment (rings, bands, foam rollers, chairs, towers) can feel overwhelming. This guide cuts through it: here is what to buy first, what to add once you have a consistent practice, and what to skip entirely when you&apos;re starting out.
             </p>
           </div>
         </section>
@@ -154,7 +154,7 @@ export default function BestStarterKitPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/roxana-popovici-Zp4APUiwEsM-unsplash.jpg" alt="Best Pilates starter kit for beginners — mat, grip socks, resistance bands, and magic circle" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/roxana-popovici-Zp4APUiwEsM-unsplash.jpg" alt="Best Pilates starter kit for beginners: mat, grip socks, resistance bands, and magic circle" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>
         </section>
@@ -209,11 +209,11 @@ export default function BestStarterKitPage() {
               <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The right order to build your kit</h2>
               <ul className="space-y-3">
                 {[
-                  "Start with grip socks before your first studio class — every reformer studio requires them.",
+                  "Start with grip socks before your first studio class, every reformer studio requires them.",
                   "Add a quality mat once you're attending class regularly or starting home practice.",
-                  "Get a resistance band set (3 levels) once you're practising at home — it extends your exercise range significantly for minimal cost.",
+                  "Get a resistance band set (3 levels) once you're practising at home: it extends your exercise range significantly for minimal cost.",
                   "Add a Pilates ring once you know the basic mat sequence and want to add variety.",
-                  "Consider a foam roller after 3 months of regular practice — it's useful for recovery and spinal mobility but not essential at the start.",
+                  "Consider a foam roller after 3 months of regular practice: it's useful for recovery and spinal mobility but not essential at the start.",
                   "Defer any decision about a home reformer until you've practised for at least 6 months and know the method well enough to train effectively without an instructor.",
                 ].map((tip, i) => (
                   <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
@@ -228,10 +228,10 @@ export default function BestStarterKitPage() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "How much should I budget for a Pilates starter kit?", a: "A practical beginner kit — quality mat, grip socks, resistance band set — costs $150–200 total if you buy individual components selectively. The Balanced Body bundle offers similar quality in a single purchase at a comparable price. A budget version (cheaper mat, generic bands) can be assembled for $60–80 but may need replacing sooner." },
+                  { q: "How much should I budget for a Pilates starter kit?", a: "A practical beginner kit (quality mat, grip socks, resistance band set) costs $150–200 total if you buy individual components selectively. The Balanced Body bundle offers similar quality in a single purchase at a comparable price. A budget version (cheaper mat, generic bands) can be assembled for $60–80 but may need replacing sooner." },
                   { q: "Do I need a special Pilates mat or can I use a yoga mat?", a: "A yoga mat works initially, but a dedicated Pilates mat (firmer, slightly less grippy) is meaningfully better for the method. Pilates involves sustained lying on the mat during spinal exercises where a spongy yoga mat undermines the feedback you need to understand your spine's position. Manduka PRO and Gaiam Performance are the two best crossover options that work for both." },
-                  { q: "What's the most important piece of equipment to buy first?", a: "Grip socks if you're attending a studio — studios will turn you away without them. A quality mat if you're starting home practice. Everything else is secondary until you have a consistent practice habit established." },
-                  { q: "Can I start Pilates without any equipment at all?", a: "Yes — if you're taking studio classes, the studio provides everything except grip socks. If you're starting with online classes at home, a firm mat (even a borrowed yoga mat) is sufficient for the beginner-level mat sequence. Equipment adds variety and challenge; it isn't required to begin." },
+                  { q: "What's the most important piece of equipment to buy first?", a: "Grip socks if you're attending a studio: studios will turn you away without them. A quality mat if you're starting home practice. Everything else is secondary until you have a consistent practice habit established." },
+                  { q: "Can I start Pilates without any equipment at all?", a: "Yes, if you're taking studio classes, the studio provides everything except grip socks. If you're starting with online classes at home, a firm mat (even a borrowed yoga mat) is sufficient for the beginner-level mat sequence. Equipment adds variety and challenge; it isn't required to begin." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>

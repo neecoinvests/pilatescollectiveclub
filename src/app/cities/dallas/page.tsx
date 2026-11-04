@@ -12,7 +12,7 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Studios in Dallas, TX (2026)",
-  description: "The best Pilates studios in Dallas — from Uptown reformer boutiques to classical method practices in Highland Park and Plano. Six verified picks, 2026.",
+  description: "The best Pilates studios in Dallas, from Uptown reformer boutiques to classical method practices in Highland Park and Plano. Six verified picks, 2026.",
   robots: {
     index: true,
     follow: true,
@@ -22,15 +22,15 @@ export const metadata: Metadata = {
   keywords: ["pilates dallas", "reformer pilates dallas", "best pilates studios dallas tx", "pilates studio dallas", "pilates classes dallas", "uptown dallas pilates", "highland park pilates", "pilates texas", "best reformer pilates dallas", "pilates plano tx"],
   openGraph: {
     title: "Best Pilates Studios in Dallas, TX (2026)",
-    description: "Six curated Pilates studios in Dallas — Uptown reformer boutiques to Highland Park classical method. Verified 2026.",
+    description: "Six curated Pilates studios in Dallas: Uptown reformer boutiques to Highland Park classical method. Verified 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/dallas",
-    images: [{ url: "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?w=1200&q=80", width: 1200, height: 630, alt: "Dallas Texas city guide — Pilates Collective Club" }],
+    images: [{ url: "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?w=1200&q=80", width: 1200, height: 630, alt: "Dallas Texas city guide: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Studios in Dallas (2026)",
-    description: "Six curated Pilates studios in Dallas — verified picks for every level.",
+    description: "Six curated Pilates studios in Dallas: verified picks for every level.",
     images: ["https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?w=1200&q=80"],
   },
   alternates: {
@@ -41,15 +41,15 @@ export const metadata: Metadata = {
 const STUDIOS = [
   {
     number: "01",
-    name: "Oak Cliff Pilates — Uptown",
+    name: "Oak Cliff Pilates Uptown",
     neighborhood: "Uptown",
     priceLevel: "$$$",
     review: "Oak Cliff Pilates is a community-driven Dallas studio network that started in Bishop Arts and now has studios in Uptown and Lower Greenville too. The Uptown studio at McKinney Avenue and Pearl Street is the fast-paced, central option built for the professional crowd. Instructors rotate between locations and teach nine different class types, all bookable in one app.",
-    caveat: "a fast-growing local brand — classes are energetic and well-organised, but less individual than a private-session studio.",
+    caveat: "a fast-growing local brand: classes are energetic and well-organised, but less individual than a private-session studio.",
     address: "2222 McKinney Ave, #160, Dallas, TX 75201",
     bestFor: "Uptown professionals wanting reformer and mat classes",
     signatureClass: "Group Reformer",
-    bookingTip: "The app books across all locations — if Uptown is full, check Lower Greenville or Bishop Arts.",
+    bookingTip: "The app books across all locations, if Uptown is full, check Lower Greenville or Bishop Arts.",
   },
   {
     number: "02",
@@ -57,11 +57,11 @@ const STUDIOS = [
     neighborhood: "Knox / Fitzhugh",
     priceLevel: "$$$",
     review: "Session Pilates was created by longtime Dallas instructor Brittany Grignon, who opened the first studio on Fitzhugh Avenue in 2016. It takes a modern rather than traditional approach: music-driven, innovative reformer workouts on Balanced Body Allegro 2 reformers. Instructors become partial owners through a profit-share model, which is unusual in boutique fitness.",
-    caveat: "this is contemporary, music-driven reformer — if you want classical repertoire, look elsewhere.",
+    caveat: "this is contemporary, music-driven reformer, if you want classical repertoire, look elsewhere.",
     address: "3121 N Fitzhugh Ave, Dallas, TX 75204",
     bestFor: "Modern, music-driven reformer classes",
     signatureClass: "Session Reformer",
-    bookingTip: "Session has expanded to other Dallas-area studios — check the schedule across locations for more times.",
+    bookingTip: "Session has expanded to other Dallas-area studios: check the schedule across locations for more times.",
   },
   {
     number: "03",
@@ -69,7 +69,7 @@ const STUDIOS = [
     neighborhood: "Park Cities",
     priceLevel: "$$$",
     review: "The PilatesBarre is built around its own BarreFormer, a revamped Pilates machine that blends reformer work with barre for sessions that target both large and small muscle groups. The Park Cities studio on Hillcrest Avenue is joined by a second studio on West Lovers Lane.",
-    caveat: "the BarreFormer is a hybrid machine — great for a sculpting workout, but it is not classical Pilates apparatus.",
+    caveat: "the BarreFormer is a hybrid machine, great for a sculpting workout, but it is not classical Pilates apparatus.",
     address: "6815 Hillcrest Ave, Dallas, TX 75205",
     bestFor: "Pilates–barre hybrid workouts in the Park Cities",
     signatureClass: "BarreFormer",
@@ -81,7 +81,7 @@ const STUDIOS = [
     neighborhood: "Lakewood / East Dallas",
     priceLevel: "$$",
     review: "Club Pilates Lakewood is in the Lakewood Shopping Center on Gaston Avenue, serving East Dallas with the brand's levelled group reformer system. It suits people who want a structured programme close to home, with membership pricing for frequent training.",
-    caveat: "a franchise format — consistent, but less personalised than an independent studio.",
+    caveat: "a franchise format: consistent, but less personalised than an independent studio.",
     address: "6402 Gaston Ave, Ste 6402A, Dallas, TX 75214",
     bestFor: "East Dallas residents wanting structured reformer classes",
     signatureClass: "Reformer Flow",
@@ -89,11 +89,11 @@ const STUDIOS = [
   },
   {
     number: "05",
-    name: "Oak Cliff Pilates — Lower Greenville",
+    name: "Oak Cliff Pilates Lower Greenville",
     neighborhood: "Lower Greenville",
     priceLevel: "$$$",
     review: "Oak Cliff Pilates' Lower Greenville studio is the brand's flagship: 14 reformers, a private training space, retail and a podcast studio, positioned as its cultural headquarters. It shares instructors and the booking app with the Uptown and Bishop Arts studios.",
-    caveat: "a 14-reformer room is bigger than a true boutique class — book the private training space for one-to-one work.",
+    caveat: "a 14-reformer room is bigger than a true boutique class: book the private training space for one-to-one work.",
     address: "2000 Greenville Ave, Dallas, TX 75206",
     bestFor: "Group reformer with a community and lifestyle feel",
     signatureClass: "Group Reformer",
@@ -101,22 +101,22 @@ const STUDIOS = [
   },
   {
     number: "06",
-    name: "BODYBAR Pilates — Knox-Henderson",
+    name: "BODYBAR Pilates Knox-Henderson",
     neighborhood: "Knox-Henderson",
     priceLevel: "$$",
     review: "BODYBAR Pilates has a studio on Travis Street in the walkable Knox-Henderson corridor, convenient for M-Streets, Uptown and in-town residents. It runs group reformer classes in the BODYBAR format.",
-    caveat: "a franchise brand — consistent class structure, less individual programming.",
+    caveat: "a franchise brand: consistent class structure, less individual programming.",
     address: "4514 Travis St, Unit 125, Dallas, TX 75205",
     bestFor: "Knox-Henderson and M-Streets residents",
     signatureClass: "Group Reformer",
-    bookingTip: "Weekend mornings are popular — book by Thursday for the following week.",
+    bookingTip: "Weekend mornings are popular: book by Thursday for the following week.",
   },
 ];
 
 const BOOKING_TIPS = [
-  { heading: "Expect to pay $28–58 per class", body: "Dallas's Pilates market spans a wide range — from $28 at community and East Dallas studios to $58+ at Highland Park premium practices. Monthly memberships and packs bring per-class costs down to $18–32 for regular practitioners. The Park Cities and Preston Hollow premium commands a genuine price differential over the broader city market." },
-  { heading: "Dallas traffic is worse than it looks", body: "The Dallas metro — especially the North Dallas Tollway corridor and the I-75 Central Expressway — can double or triple expected commute times during rush hour. Choosing a studio within 10 minutes of home or work is a more important variable for long-term attendance than choosing the 'best' studio across town." },
-  { heading: "The heat eliminates outdoor alternatives", body: "Dallas summers are extreme — temperatures routinely exceed 100°F from June through September. This makes Pilates studios' climate-controlled environments particularly attractive during these months, and booking demand for popular slots increases accordingly. Establishing standing bookings before summer begins is strongly advisable." },
+  { heading: "Expect to pay $28–58 per class", body: "Dallas's Pilates market spans a wide range, from $28 at community and East Dallas studios to $58+ at Highland Park premium practices. Monthly memberships and packs bring per-class costs down to $18–32 for regular practitioners. The Park Cities and Preston Hollow premium commands a genuine price differential over the broader city market." },
+  { heading: "Dallas traffic is worse than it looks", body: "The Dallas metro, especially the North Dallas Tollway corridor and the I-75 Central Expressway, can double or triple expected commute times during rush hour. Choosing a studio within 10 minutes of home or work is a more important variable for long-term attendance than choosing the 'best' studio across town." },
+  { heading: "The heat eliminates outdoor alternatives", body: "Dallas summers are extreme: temperatures routinely exceed 100°F from June through September. This makes Pilates studios' climate-controlled environments particularly attractive during these months, and booking demand for popular slots increases accordingly. Establishing standing bookings before summer begins is strongly advisable." },
   { heading: "The DFW market is distinct from Dallas proper", body: "Fort Worth, Frisco, Plano, and the broader DFW metro area have their own excellent studio offerings that may be more convenient for practitioners based north or west of Dallas proper. Don't limit your search to within the city limits if a suburban studio is meaningfully more accessible." },
   { heading: "Grip socks are required at every reformer studio", body: "Universal across Dallas's reformer market. Buying quality grip socks from Amazon before your first class is a consistent and worthwhile saving over front-desk retail prices across all Dallas studios." },
 ];
@@ -124,8 +124,8 @@ const BOOKING_TIPS = [
 const NEIGHBORHOODS = [
   { name: "Highland Park & University Park (The Park Cities)", description: "Dallas's most affluent residential enclave houses the city's premier Pilates practices. Studios here serve a discerning, wellness-invested clientele that has the sophistication to recognise quality and the resources to sustain it. The correct starting point for practitioners who prioritise depth of method." },
   { name: "Uptown & Knox-Henderson", description: "Dallas's most commercially vibrant entertainment and residential districts support a strong contemporary studio market. Studios here are design-forward and professionally staffed, serving the city's young professional population with sessions calibrated for efficiency and results." },
-  { name: "Lakewood & East Dallas", description: "East Dallas's characterful residential neighbourhoods have developed strong independent studio cultures over the past decade — community-focused, intelligently taught, and more accessibly priced than the Park Cities premium market." },
-  { name: "Deep Ellum & Design District", description: "Dallas's creative districts are home to the city's most interesting independent movement practices — studios that take Pilates seriously while approaching its presentation unconventionally. Worth exploring for practitioners who find standard boutique formats limiting." },
+  { name: "Lakewood & East Dallas", description: "East Dallas's characterful residential neighbourhoods have developed strong independent studio cultures over the past decade: community-focused, intelligently taught, and more accessibly priced than the Park Cities premium market." },
+  { name: "Deep Ellum & Design District", description: "Dallas's creative districts are home to the city's most interesting independent movement practices: studios that take Pilates seriously while approaching its presentation unconventionally. Worth exploring for practitioners who find standard boutique formats limiting." },
 ];
 
 const GEAR = [
@@ -155,16 +155,16 @@ const GEAR = [
   },
   {
     name: "Foam Roller",
-    note: "Our pick: OPTP PRO-Roller Foam Roller (36-inch). Practical for pre-class warm-up and post-class release — especially useful after long Texas summer commutes.",
+    note: "Our pick: OPTP PRO-Roller Foam Roller (36-inch). Practical for pre-class warm-up and post-class release, especially useful after long Texas summer commutes.",
     price: "$62.99",
     url: "https://www.amazon.com/dp/B002C9EX14?tag=pilatescollective-20",
   },
 ];
 
 const HOME_REFORMERS = [
-  { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work — three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
+  { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work: three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
   { tag: "Mid-Range Pick", name: "AeroPilates Pro XP 557", note: "AeroPilates' top-of-the-range home reformer, a step up for practitioners training several times a week.", price: "$1,329.99", url: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20" },
-  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order — an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
+  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
 ];
 
 const RELATED_CITIES = [
@@ -180,7 +180,7 @@ const FURTHER_READING = [
 ];
 
 const CITY_FAQS = [
-  { q: "What are the best Pilates studios in Dallas?", a: "Our 6 curated picks are Oak Cliff Pilates — Uptown (Uptown), Session Pilates (Knox / Fitzhugh), The PilatesBarre (Park Cities), Club Pilates Lakewood (Lakewood / East Dallas), Oak Cliff Pilates — Lower Greenville (Lower Greenville) and BODYBAR Pilates — Knox-Henderson (Knox-Henderson). Each listing above covers what the studio is best for, its signature class and a booking tip." },
+  { q: "What are the best Pilates studios in Dallas?", a: "Our 6 curated picks are Oak Cliff Pilates (Uptown (Uptown), Session Pilates (Knox / Fitzhugh), The PilatesBarre (Park Cities), Club Pilates Lakewood (Lakewood / East Dallas), Oak Cliff Pilates) Lower Greenville (Lower Greenville) and BODYBAR Pilates: Knox-Henderson (Knox-Henderson). Each listing above covers what the studio is best for, its signature class and a booking tip." },
   { q: "Which Dallas neighbourhoods are best for Pilates?", a: "This guide covers Highland Park & University Park (The Park Cities), Uptown & Knox-Henderson, Lakewood & East Dallas and Deep Ellum & Design District. Highland Park & University Park (The Park Cities): Dallas's most affluent residential enclave houses the city's premier Pilates practices." },
   { q: "What should I know about booking Pilates classes in Dallas?", a: "Expect to pay $28–58 per class. Dallas's Pilates market spans a wide range, from $28 at community and East Dallas studios to $58+ at Highland Park premium practices." },
   { q: "What should I bring to a Pilates class in Dallas?", a: "Grip socks are required at most reformer studios. Our gear list for Dallas covers Pilates grip socks, Pilates mat, magic circle, resistance bands set and foam roller." },
@@ -222,7 +222,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "The Best Pilates Studios in Dallas, TX (2026)",
-      "description": "A curated guide to the six best Pilates studios in Dallas, Texas — verified October 2026.",
+      "description": "A curated guide to the six best Pilates studios in Dallas, Texas: verified October 2026.",
       "url": "https://pilatescollectiveclub.com/cities/dallas",
       "dateModified": "2026-10-03",
       "author": { "@type": "Organization", "name": "Pilates Collective Club" },
@@ -250,7 +250,7 @@ export default function DallasPage() {
             <p className="text-sm mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated October 2026 · 9 min read</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Dallas has one of the most commercially sophisticated fitness markets in the American South — a product of the city&apos;s wealth concentration, its internationally connected professional class, and a wellness culture that takes both aesthetics and performance seriously. The Pilates scene reflects this: from classical Highland Park studios that would hold their own against anything in New York to community-oriented East Dallas practices where the method is treated as a genuine movement discipline rather than a premium lifestyle accessory. The range is wide and the quality at the top end is genuinely high. This guide covers the six studios worth your time, verified October 2026.
+              Dallas has one of the most commercially sophisticated fitness markets in the American South: a product of the city&apos;s wealth concentration, its internationally connected professional class, and a wellness culture that takes both aesthetics and performance seriously. The Pilates scene reflects this: from classical Highland Park studios that would hold their own against anything in New York to community-oriented East Dallas practices where the method is treated as a genuine movement discipline rather than a premium lifestyle accessory. The range is wide and the quality at the top end is genuinely high. This guide covers the six studios worth your time, verified October 2026.
             </p>
           </div>
         </section>
@@ -325,7 +325,7 @@ export default function DallasPage() {
             <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Prefer To Train At Home?</p>
             <h2 className="text-3xl font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Not convinced? How about Pilates at home?</h2>
             <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-              Studio pricing or scheduling not for you right now? A home reformer gets you a genuine Pilates session on your own time. Here's where to start — from a $299 entry point to the machine serious practitioners buy once.{" "}
+              Studio pricing or scheduling not for you right now? A home reformer gets you a genuine Pilates session on your own time. Here's where to start, from a $299 entry point to the machine serious practitioners buy once.{" "}
               <Link href="/blog/best-home-pilates-reformer" style={{ color: "#8b4a31", textDecoration: "underline", fontFamily: "'Montserrat', sans-serif", fontSize: "inherit" }}>See the full reformer guide.</Link>
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
@@ -377,7 +377,7 @@ export default function DallasPage() {
           </div>
         </section>
 
-        <CTASection title="Find Pilates near you" subtitle="Use our AI Finder to discover studios in any city — coming soon." showSearch searchPlaceholder="Ask: best classical Pilates in Dallas…" />
+        <CTASection title="Find Pilates near you" subtitle="Use our AI Finder to discover studios in any city: coming soon." showSearch searchPlaceholder="Ask: best classical Pilates in Dallas…" />
       </main>
       <Footer />
     </>

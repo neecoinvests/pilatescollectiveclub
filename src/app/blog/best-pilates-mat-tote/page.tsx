@@ -12,19 +12,19 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Mat Tote Bags (2026): Carry Your Mat in Style",
-  description: "The best mat tote bags for Pilates — reviewed for mat fit, capacity, and durability. Top picks for women who carry their own mat to class in 2026.",
+  description: "The best mat tote bags for Pilates: reviewed for mat fit, capacity, and durability. Top picks for women who carry their own mat to class in 2026.",
   keywords: ["best pilates mat tote bag", "pilates mat bag 2026", "yoga mat tote bag", "best mat carrier pilates", "pilates mat carry bag women", "mat bag for pilates", "best mat tote 2026", "pilates mat carry tote"],
   openGraph: {
     title: "Best Pilates Mat Tote Bags (2026)",
-    description: "The best mat tote bags for Pilates — compared on mat fit, capacity, and everyday carry.",
+    description: "The best mat tote bags for Pilates: compared on mat fit, capacity, and everyday carry.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-mat-tote",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg", width: 1200, height: 630, alt: "Best Pilates Mat Tote Bags — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg", width: 1200, height: 630, alt: "Best Pilates Mat Tote Bags: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Mat Tote Bags (2026)",
-    description: "The best mat tote bags for Pilates — compared and ranked.",
+    description: "The best mat tote bags for Pilates: compared and ranked.",
     images: ["https://pilatescollectiveclub.com/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/best-pilates-mat-tote" },
@@ -48,7 +48,7 @@ const PRODUCTS = [
     price: "From $88",
     verdict: "Best premium mat tote",
     description:
-      "Alo's Move Mat Tote is the rare bag that solves the mat-carry problem elegantly for practitioners who also need a full studio kit in the same carry. External straps secure a rolled mat to the exterior of the bag, keeping mat and gear contained without requiring a separate carrier. The main compartment holds a complete studio kit including shoes and a change of clothes, and the interior organisation is sufficient for everyday carry items. The aesthetic is unmistakably Alo — clean, minimal, and appropriate for both studio and street. Best suited for mat Pilates practitioners; those who only do reformer work may prefer a simpler tote without external straps. Not sold on Amazon: this link goes to Alo Yoga's own site.",
+      "Alo's Move Mat Tote is the rare bag that solves the mat-carry problem elegantly for practitioners who also need a full studio kit in the same carry. External straps secure a rolled mat to the exterior of the bag, keeping mat and gear contained without requiring a separate carrier. The main compartment holds a complete studio kit including shoes and a change of clothes, and the interior organisation is sufficient for everyday carry items. The aesthetic is unmistakably Alo: clean, minimal, and appropriate for both studio and street. Best suited for mat Pilates practitioners; those who only do reformer work may prefer a simpler tote without external straps. Not sold on Amazon: this link goes to Alo Yoga's own site.",
     affiliateUrl: "https://www.aloyoga.com",
     tag: "Best Premium",
   },
@@ -68,7 +68,7 @@ const PRODUCTS = [
     price: "From $48",
     verdict: "Best structured mat bag",
     description:
-      "Lululemon's Yoga Mat Bag takes the enclosed bag approach and executes it with the brand's characteristic attention to detail. The main compartment fits a standard mat snugly, the exterior pocket handles personal items, and the carry handle and adjustable shoulder strap give flexible carrying options for different commute lengths. The fabric is water-resistant and maintains its structure rather than slouching when the mat is removed — a minor but meaningful quality-of-life improvement over cheaper fabric bags. For practitioners who want their mat bag to match a Lululemon studio kit, the integration is seamless. Not sold on Amazon: this link goes to Lululemon's own site.",
+      "Lululemon's Yoga Mat Bag takes the enclosed bag approach and executes it with the brand's characteristic attention to detail. The main compartment fits a standard mat snugly, the exterior pocket handles personal items, and the carry handle and adjustable shoulder strap give flexible carrying options for different commute lengths. The fabric is water-resistant and maintains its structure rather than slouching when the mat is removed: a minor but meaningful quality-of-life improvement over cheaper fabric bags. For practitioners who want their mat bag to match a Lululemon studio kit, the integration is seamless. Not sold on Amazon: this link goes to Lululemon's own site.",
     affiliateUrl: "https://shop.lululemon.com",
     tag: "Best Structured",
   },
@@ -88,7 +88,7 @@ const PRODUCTS = [
     price: "From $22",
     verdict: "Best budget mat bag",
     description:
-      "Myga's Yoga Mat Carry Bag is the honest budget recommendation for practitioners who need a mat carrier without a premium price. The design is straightforward — a canvas-style bag with a full-length zip, a side pocket, and a carry handle — and it does what a mat bag needs to do without embellishment. The capacity fits most standard mats, and the fabric, while not as durable as premium options, holds up well across regular weekly use. For beginners who are not yet committed to a specific mat brand or practice style, or practitioners who want a second bag to keep at a studio locker, Myga's bag delivers solid value.",
+      "Myga's Yoga Mat Carry Bag is the honest budget recommendation for practitioners who need a mat carrier without a premium price. The design is straightforward (a canvas-style bag with a full-length zip, a side pocket, and a carry handle) and it does what a mat bag needs to do without embellishment. The capacity fits most standard mats, and the fabric, while not as durable as premium options, holds up well across regular weekly use. For beginners who are not yet committed to a specific mat brand or practice style, or practitioners who want a second bag to keep at a studio locker, Myga's bag delivers solid value.",
     affiliateUrl: "https://www.amazon.com/s?k=myga+yoga+mat+carry+bag&tag=pilatescollective-20",
     tag: "Best Budget",
   },
@@ -100,7 +100,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Best Pilates Mat Tote Bags (2026)",
-      "description": "The best mat tote bags for Pilates — reviewed for mat fit, capacity, and durability.",
+      "description": "The best mat tote bags for Pilates: reviewed for mat fit, capacity, and durability.",
       "url": "https://pilatescollectiveclub.com/blog/best-pilates-mat-tote",
       "datePublished": "2026-06-01",
       "dateModified": "2026-10-20",
@@ -136,8 +136,8 @@ const jsonLd = {
       "@type": "FAQPage",
       "mainEntity": [
         { "@type": "Question", "name": "Do I need a mat bag for Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "Only if you carry your own mat to class. Most reformer studios provide mats and equipment. If you attend mat Pilates classes, practice outdoors, or prefer your own mat for hygiene reasons, a dedicated mat bag protects your mat and makes the carry more manageable." } },
-        { "@type": "Question", "name": "What size mat bag fits a Pilates mat?", "acceptedAnswer": { "@type": "Answer", "text": "Most standard Pilates mats roll to approximately 68-70cm in length and 12-15cm in diameter. A standard yoga mat bag fits most Pilates mats, though thicker mats (6mm+) may be tighter. Check the diameter of your rolled mat before buying an enclosed bag — an open carrier or strap system avoids fit issues entirely." } },
-        { "@type": "Question", "name": "Can a mat tote also carry my studio kit?", "acceptedAnswer": { "@type": "Answer", "text": "Some mat totes — particularly those with a large main compartment alongside external mat straps — can carry both a mat and a full studio kit. The Alo Move Mat Tote and MIER Large Mat Tote both achieve this combination. Dedicated mat carriers (slings or enclosed bags) typically hold only the mat and a small personal item." } },
+        { "@type": "Question", "name": "What size mat bag fits a Pilates mat?", "acceptedAnswer": { "@type": "Answer", "text": "Most standard Pilates mats roll to approximately 68-70cm in length and 12-15cm in diameter. A standard yoga mat bag fits most Pilates mats, though thicker mats (6mm+) may be tighter. Check the diameter of your rolled mat before buying an enclosed bag: an open carrier or strap system avoids fit issues entirely." } },
+        { "@type": "Question", "name": "Can a mat tote also carry my studio kit?", "acceptedAnswer": { "@type": "Answer", "text": "Some mat totes, particularly those with a large main compartment alongside external mat straps, can carry both a mat and a full studio kit. The Alo Move Mat Tote and MIER Large Mat Tote both achieve this combination. Dedicated mat carriers (slings or enclosed bags) typically hold only the mat and a small personal item." } },
       ],
     },
   ],
@@ -165,7 +165,7 @@ export default function BestPilatesMatTotePage() {
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Carrying a Pilates mat without a proper bag is a friction tax on every class. The mat slips, the strap cuts into your shoulder, and you arrive feeling like you have already been to the gym before the class starts. A good mat tote eliminates that friction entirely — the mat is secured, your hands are free, and you arrive composed. These six bags cover every scenario from the minimalist open carrier to the full studio tote with integrated mat straps, all chosen for Pilates-specific use.
+              Carrying a Pilates mat without a proper bag is a friction tax on every class. The mat slips, the strap cuts into your shoulder, and you arrive feeling like you have already been to the gym before the class starts. A good mat tote eliminates that friction entirely: the mat is secured, your hands are free, and you arrive composed. These six bags cover every scenario from the minimalist open carrier to the full studio tote with integrated mat straps, all chosen for Pilates-specific use.
             </p>
           </div>
         </section>
@@ -204,8 +204,8 @@ export default function BestPilatesMatTotePage() {
               <div className="space-y-6">
                 {[
                   { q: "Do I need a mat bag for Pilates?", a: "Only if you carry your own mat to class. Most reformer studios provide mats and equipment. If you attend mat Pilates classes, practice outdoors, or prefer your own mat for hygiene reasons, a dedicated mat bag protects your mat and makes the carry more manageable." },
-                  { q: "What size mat bag fits a Pilates mat?", a: "Most standard Pilates mats roll to approximately 68-70cm in length and 12-15cm in diameter. A standard yoga mat bag fits most Pilates mats, though thicker mats (6mm+) may be tighter. Check the diameter of your rolled mat before buying an enclosed bag — an open carrier or strap system avoids fit issues entirely." },
-                  { q: "Can a mat tote also carry my studio kit?", a: "Some mat totes — particularly those with a large main compartment alongside external mat straps — can carry both a mat and a full studio kit. The Alo Move Mat Tote and MIER Large Mat Tote both achieve this combination. Dedicated mat carriers typically hold only the mat and a small personal item." },
+                  { q: "What size mat bag fits a Pilates mat?", a: "Most standard Pilates mats roll to approximately 68-70cm in length and 12-15cm in diameter. A standard yoga mat bag fits most Pilates mats, though thicker mats (6mm+) may be tighter. Check the diameter of your rolled mat before buying an enclosed bag: an open carrier or strap system avoids fit issues entirely." },
+                  { q: "Can a mat tote also carry my studio kit?", a: "Some mat totes, particularly those with a large main compartment alongside external mat straps, can carry both a mat and a full studio kit. The Alo Move Mat Tote and MIER Large Mat Tote both achieve this combination. Dedicated mat carriers typically hold only the mat and a small personal item." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>

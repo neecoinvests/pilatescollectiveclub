@@ -50,7 +50,7 @@ export default function FeaturedRotator({ items }: { items: FeaturedItem[] }) {
           transition: "opacity 0.28s ease",
         }}
       >
-        {/* Image — clicks through to article */}
+        {/* Image: clicks through to article */}
         <Link href={item.href} style={{ textDecoration: "none", display: "block" }}>
           <div className="pcc-featured-image" style={{ position: "relative", overflow: "hidden", minHeight: "500px", height: "100%", backgroundColor: "#f0ece6" }}>
             <Image

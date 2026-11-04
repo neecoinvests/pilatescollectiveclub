@@ -12,7 +12,7 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Studios in Tampa, FL (2026)",
-  description: "The best Pilates studios in Tampa — reformer boutiques in South Tampa, Hyde Park, and Westchase. Six verified picks for every level, 2026.",
+  description: "The best Pilates studios in Tampa: reformer boutiques in South Tampa, Hyde Park, and Westchase. Six verified picks for every level, 2026.",
   robots: {
     index: true,
     follow: true,
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Best Pilates Studios in Tampa, FL (2026)",
     description:
-      "Six curated Pilates studios in Tampa — South Tampa and Hyde Park reformer boutiques. Verified 2026.",
+      "Six curated Pilates studios in Tampa: South Tampa and Hyde Park reformer boutiques. Verified 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/tampa",
     images: [
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Best Pilates Studios in Tampa (2026)",
     description:
-      "The 6 best Pilates studios in Tampa — curated, verified, and reviewed for 2026.",
+      "The 6 best Pilates studios in Tampa: curated, verified, and reviewed for 2026.",
     images: [
       "https://images.unsplash.com/photo-1535498730771-e735b998cd64?w=1200&q=80",
     ],
@@ -60,7 +60,7 @@ const STUDIOS = [
     address: "1509 W Swann Ave, Tampa, FL 33606",
     bestFor: "Hyde Park and South Tampa residents, all levels, consistent reformer",
     signatureClass: "Reformer Flow",
-    bookingTip: "Morning spots along Bayshore fill fast — book 48 hours ahead for the most popular time windows.",
+    bookingTip: "Morning spots along Bayshore fill fast: book 48 hours ahead for the most popular time windows.",
   },
   {
     number: "2",
@@ -72,7 +72,7 @@ const STUDIOS = [
     address: "940 S Howard Ave, Tampa, FL 33606",
     bestFor: "South Tampa professionals and families, high-frequency practitioners, memberships",
     signatureClass: "Reformer 1.5",
-    bookingTip: "Monthly memberships cut per-class costs significantly — the intro offer is worth completing before committing.",
+    bookingTip: "Monthly memberships cut per-class costs significantly: the intro offer is worth completing before committing.",
   },
   {
     number: "3",
@@ -84,7 +84,7 @@ const STUDIOS = [
     address: "12125 W Linebaugh Ave, Suite 202, Tampa, FL 33626",
     bestFor: "Westchase and northwest Tampa residents, high-frequency practitioners, memberships",
     signatureClass: "Club Reformer 57",
-    bookingTip: "The 6 AM and 7 PM weekday slots fill 48 hours out — plan accordingly.",
+    bookingTip: "The 6 AM and 7 PM weekday slots fill 48 hours out: plan accordingly.",
   },
   {
     number: "4",
@@ -92,11 +92,11 @@ const STUDIOS = [
     neighborhood: "Seminole Heights",
     priceLevel: "$$",
     review:
-      "Club Pilates Seminole Heights brings accessible, quality reformer programming to Tampa's most artistically vibrant and community-focused neighborhood. The studio fits the Seminole Heights character — unpretentious, welcoming, and warm — and has built a loyal following from the surrounding residential community. Instructors receive consistent praise for their patience with beginners and their attentiveness to individual form. One of Tampa's most welcoming entry points into the Pilates method.",
+      "Club Pilates Seminole Heights brings accessible, quality reformer programming to Tampa's most artistically vibrant and community-focused neighborhood. The studio fits the Seminole Heights character (unpretentious, welcoming, and warm) and has built a loyal following from the surrounding residential community. Instructors receive consistent praise for their patience with beginners and their attentiveness to individual form. One of Tampa's most welcoming entry points into the Pilates method.",
     address: "4960 N Florida Ave, Tampa, FL 33603",
     bestFor: "Seminole Heights community, beginners, accessible pricing",
     signatureClass: "Reformer Foundations",
-    bookingTip: "Saturday morning classes are a neighborhood social event — book by Thursday.",
+    bookingTip: "Saturday morning classes are a neighborhood social event: book by Thursday.",
   },
   {
     number: "5",
@@ -108,7 +108,7 @@ const STUDIOS = [
     address: "120 Central Ave, St. Petersburg, FL 33701",
     bestFor: "St. Pete residents, all levels, Tampa Bay south-side convenience",
     signatureClass: "Reformer Flow",
-    bookingTip: "Book online — St. Pete's reputation for outdoor wellness means classes fill faster than you might expect.",
+    bookingTip: "Book online: St. Pete's reputation for outdoor wellness means classes fill faster than you might expect.",
   },
   {
     number: "6",
@@ -120,14 +120,14 @@ const STUDIOS = [
     address: "1540 W Brandon Blvd, Brandon, FL 33511",
     bestFor: "East Tampa and Brandon residents, affordable memberships, all levels",
     signatureClass: "Club Reformer 57",
-    bookingTip: "Drop-in rates are among the most accessible in the Tampa Bay market — ideal for sampling before committing.",
+    bookingTip: "Drop-in rates are among the most accessible in the Tampa Bay market, ideal for sampling before committing.",
   },
 ];
 
 const BOOKING_TIPS = [
   {
     heading: "Plan around Florida's heat and humidity",
-    body: "Tampa's summers (June–September) are intensely hot and humid — arriving sweaty from a parking lot walk is the norm. Many studios crank the AC, so bring a light layer for cool-down stretches. Morning classes before 9 AM are the most comfortable for the commute in.",
+    body: "Tampa's summers (June–September) are intensely hot and humid: arriving sweaty from a parking lot walk is the norm. Many studios crank the AC, so bring a light layer for cool-down stretches. Morning classes before 9 AM are the most comfortable for the commute in.",
   },
   {
     heading: "Snowbird season drives up demand (November–March)",
@@ -135,15 +135,15 @@ const BOOKING_TIPS = [
   },
   {
     heading: "Intro packages are the best way to audition a studio",
-    body: "Most Tampa studios offer a first-week or three-class introductory rate — often dramatically reduced from the standard drop-in price. Use these to try two or three studios before committing to a membership. The variety across Tampa neighborhoods is wide enough to be worth exploring.",
+    body: "Most Tampa studios offer a first-week or three-class introductory rate, often dramatically reduced from the standard drop-in price. Use these to try two or three studios before committing to a membership. The variety across Tampa neighborhoods is wide enough to be worth exploring.",
   },
   {
     heading: "Hurricane season can disrupt schedules (June–November)",
-    body: "Florida's hurricane season overlaps with summer and fall. Studios may close or shift to virtual classes during weather events. Download the studio's app or follow their social accounts so you receive real-time cancellation notices — and always know the refund or credit policy before booking a multi-class package.",
+    body: "Florida's hurricane season overlaps with summer and fall. Studios may close or shift to virtual classes during weather events. Download the studio's app or follow their social accounts so you receive real-time cancellation notices, and always know the refund or credit policy before booking a multi-class package.",
   },
   {
     heading: "Beach lifestyle means grip socks are non-negotiable",
-    body: "Tampa's beach-adjacent lifestyle means many clients come to class directly from errands or the water. Every studio requires grip socks — studios sell them, but bringing your own saves money and ensures you have the right fit for reformer work. Pack a pair in your bag permanently.",
+    body: "Tampa's beach-adjacent lifestyle means many clients come to class directly from errands or the water. Every studio requires grip socks: studios sell them, but bringing your own saves money and ensures you have the right fit for reformer work. Pack a pair in your bag permanently.",
   },
 ];
 
@@ -156,7 +156,7 @@ const NEIGHBORHOODS = [
   {
     name: "Seminole Heights",
     description:
-      "Tampa's most characterful neighborhood — a grid of craftsman bungalows, independent restaurants, and small creative businesses. The Pilates scene here is owner-operated and community-first, making it the best neighborhood for those who want a local studio that knows your name.",
+      "Tampa's most characterful neighborhood: a grid of craftsman bungalows, independent restaurants, and small creative businesses. The Pilates scene here is owner-operated and community-first, making it the best neighborhood for those who want a local studio that knows your name.",
   },
   {
     name: "St. Petersburg",
@@ -166,7 +166,7 @@ const NEIGHBORHOODS = [
   {
     name: "Westchase",
     description:
-      "A planned suburban community in northwest Tampa popular with families and professionals. Studios here prioritize accessibility, flexible scheduling, and membership value — ideal for those building a consistent weekly Pilates practice around a busy schedule.",
+      "A planned suburban community in northwest Tampa popular with families and professionals. Studios here prioritize accessibility, flexible scheduling, and membership value, ideal for those building a consistent weekly Pilates practice around a busy schedule.",
   },
 ];
 
@@ -179,19 +179,19 @@ const GEAR = [
   },
   {
     name: "Pilates Mat (6mm)",
-    note: "Our pick: Manduka PRO Yoga & Pilates Mat (6mm). For mat classes at South Tampa Pilates and Seminole Heights Movement — slightly thicker than a yoga mat for joint comfort on hard floors.",
+    note: "Our pick: Manduka PRO Yoga & Pilates Mat (6mm). For mat classes at South Tampa Pilates and Seminole Heights Movement: slightly thicker than a yoga mat for joint comfort on hard floors.",
     price: "$144.00",
     url: "https://www.amazon.com/dp/B0066T7I54?tag=pilatescollective-20",
   },
   {
     name: "Magic Circle",
-    note: "Our pick: Balanced Body Ultra-Fit Circle (15-inch). Used in classical mat sequences — ideal if you're following a classical program at South Tampa Pilates or practicing at home between sessions.",
+    note: "Our pick: Balanced Body Ultra-Fit Circle (15-inch). Used in classical mat sequences, ideal if you're following a classical program at South Tampa Pilates or practicing at home between sessions.",
     price: "$35.00",
     url: "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20",
   },
   {
     name: "Fabric Resistance Bands",
-    note: "Our pick: Arena Strength Fabric Glute Bands (3-Pack). Versatile for warm-ups, hip work, and supplemental home practice — especially useful during hurricane-season studio closures.",
+    note: "Our pick: Arena Strength Fabric Glute Bands (3-Pack). Versatile for warm-ups, hip work, and supplemental home practice, especially useful during hurricane-season studio closures.",
     price: "$29.00",
     url: "https://www.amazon.com/dp/B07VYK14JC?tag=pilatescollective-20",
   },
@@ -204,9 +204,9 @@ const GEAR = [
 ];
 
 const HOME_REFORMERS = [
-  { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work — three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
+  { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work: three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
   { tag: "Mid-Range Pick", name: "AeroPilates Pro XP 557", note: "AeroPilates' top-of-the-range home reformer, a step up for practitioners training several times a week.", price: "$1,329.99", url: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20" },
-  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order — an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
+  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
 ];
 
 const RELATED_CITIES = [
@@ -240,7 +240,7 @@ const FURTHER_READING = [
   {
     title: "Pilates for Back Pain: What the Research Shows",
     excerpt:
-      "A clear-eyed look at the clinical evidence behind Pilates as a treatment for chronic and acute back pain — what works, what doesn't, and what to ask your instructor.",
+      "A clear-eyed look at the clinical evidence behind Pilates as a treatment for chronic and acute back pain: what works, what doesn't, and what to ask your instructor.",
     href: "/blog/pilates-for-back-pain",
     category: "Health",
     readTime: "8 min read",
@@ -251,7 +251,7 @@ const FURTHER_READING = [
   {
     title: "How to Choose a Pilates Instructor",
     excerpt:
-      "Certifications, teaching style, and lineage — everything you need to evaluate a new instructor before committing to a package.",
+      "Certifications, teaching style, and lineage: everything you need to evaluate a new instructor before committing to a package.",
     href: "/blog/how-to-choose-a-pilates-instructor",
     category: "Guides",
     readTime: "7 min read",
@@ -334,7 +334,7 @@ export default function TampaPage() {
               boutiques of Hyde Park to the community-driven bungalow studios of Seminole Heights and the serious
               reformer scene across the bay in St. Pete, the Tampa Bay area offers genuine depth across every style
               and price point. We've checked every studio's location and details against public listings and selected six
-              that stand out — whether you're a longtime practitioner or stepping onto a reformer for the first time.
+              that stand out, whether you're a longtime practitioner or stepping onto a reformer for the first time.
             </p>
           </div>
         </section>
@@ -502,7 +502,7 @@ export default function TampaPage() {
           </div>
         </section>
 
-        <CTASection title="Find Pilates near you" subtitle="Use our AI Finder to discover studios in any city — coming soon." showSearch searchPlaceholder="Ask: best reformer Pilates in Tampa…" />
+        <CTASection title="Find Pilates near you" subtitle="Use our AI Finder to discover studios in any city: coming soon." showSearch searchPlaceholder="Ask: best reformer Pilates in Tampa…" />
       </main>
       <Footer />
     </>

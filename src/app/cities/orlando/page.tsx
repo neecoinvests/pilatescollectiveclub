@@ -12,7 +12,7 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Studios in Orlando, FL (2026)",
-  description: "The best Pilates studios in Orlando — reformer boutiques in Winter Park, College Park, and Dr. Phillips. Six verified picks for every level, 2026.",
+  description: "The best Pilates studios in Orlando: reformer boutiques in Winter Park, College Park, and Dr. Phillips. Six verified picks for every level, 2026.",
   robots: {
     index: true,
     follow: true,
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Best Pilates Studios in Orlando, FL (2026)",
     description:
-      "Six curated Pilates studios in Orlando — Winter Park and College Park reformer boutiques. Verified 2026.",
+      "Six curated Pilates studios in Orlando: Winter Park and College Park reformer boutiques. Verified 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/orlando",
     images: [
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Best Pilates Studios in Orlando (2026)",
     description:
-      "The 6 best Pilates studios in Orlando — curated, verified, and reviewed for 2026.",
+      "The 6 best Pilates studios in Orlando: curated, verified, and reviewed for 2026.",
     images: [
       "https://images.unsplash.com/photo-1575089976121-8ed7b2a54265?w=1200&h=630&fit=crop",
     ],
@@ -55,9 +55,9 @@ const STUDIOS = [
     name: "Pilates on 5th",
     neighborhood: "Winter Park",
     priceLevel: "$$$",
-    review: "Pilates on 5th in Winter Park is a design-led reformer studio that members describe as stunning and spa-like, and it holds a perfect 5.0 rating from more than 6,800 reviews on ClassPass — one of the strongest records in Central Florida.",
-    caveat: "its popularity means prime-time classes go quickly — book ahead.",
-    address: "—",
+    review: "Pilates on 5th in Winter Park is a design-led reformer studio that members describe as stunning and spa-like, and it holds a perfect 5.0 rating from more than 6,800 reviews on ClassPass: one of the strongest records in Central Florida.",
+    caveat: "its popularity means prime-time classes go quickly: book ahead.",
+    address: "",
     bestFor: "Highly rated, spa-like reformer in Winter Park",
     signatureClass: "Reformer Pilates",
     bookingTip: "Book evening and weekend classes several days in advance.",
@@ -67,7 +67,7 @@ const STUDIOS = [
     name: "Winter Park Pilates",
     neighborhood: "Winter Park",
     priceLevel: "$$$",
-    review: "Winter Park Pilates teaches authentic classical Pilates on original-style Gratz, Pilates Designs and Legacy equipment, specialising in small group classes — the most traditional option in the Orlando area.",
+    review: "Winter Park Pilates teaches authentic classical Pilates on original-style Gratz, Pilates Designs and Legacy equipment, specialising in small group classes: the most traditional option in the Orlando area.",
     caveat: "classical instruction is precise and methodical, so expect a slower pace than a fusion class.",
     address: "3500 Aloma Ave, Suite C1, Winter Park, FL",
     bestFor: "Classical Pilates on traditional apparatus",
@@ -76,15 +76,15 @@ const STUDIOS = [
   },
   {
     number: "3",
-    name: "JETSET Pilates — Dr. Phillips",
+    name: "JETSET Pilates Dr. Phillips",
     neighborhood: "Dr. Phillips",
     priceLevel: "$$$",
     review: "JETSET's Dr. Phillips studio on Via Dellagio Way brings the Miami-founded brand's fast, music-driven reformer classes to Orlando, rated 4.9 on ClassPass.",
-    caveat: "high-energy classes — not slow classical technique.",
+    caveat: "high-energy classes, not slow classical technique.",
     address: "7940 Via Dellagio Way, Suite 112, Orlando, FL 32819",
     bestFor: "Music-driven reformer in Dr. Phillips",
     signatureClass: "JETSET Reformer",
-    bookingTip: "Weekend mornings book out — use the app as soon as the schedule opens.",
+    bookingTip: "Weekend mornings book out: use the app as soon as the schedule opens.",
   },
   {
     number: "4",
@@ -92,11 +92,11 @@ const STUDIOS = [
     neighborhood: "SoDo / South Downtown",
     priceLevel: "$$",
     review: "Club Pilates SODO on South Orange Avenue is the brand's most central Orlando studio, linking downtown and the SoDo district, with levelled group reformer classes.",
-    caveat: "a franchise format — consistent, but less personalised than an independent studio.",
+    caveat: "a franchise format: consistent, but less personalised than an independent studio.",
     address: "3123 S Orange Ave, Ste 103, Orlando, FL 32806",
     bestFor: "Central reformer classes near downtown",
     signatureClass: "Reformer Flow",
-    bookingTip: "Evening classes fill with the post-work crowd — book 48 hours ahead.",
+    bookingTip: "Evening classes fill with the post-work crowd: book 48 hours ahead.",
   },
   {
     number: "5",
@@ -104,11 +104,11 @@ const STUDIOS = [
     neighborhood: "Dr. Phillips / Restaurant Row",
     priceLevel: "$$",
     review: "Club Pilates Dr. Phillips on Dr. Phillips Boulevard serves the Restaurant Row area and south-west Orlando with levelled group reformer classes.",
-    caveat: "a franchise studio — reliable structure, less individual programming.",
+    caveat: "a franchise studio: reliable structure, less individual programming.",
     address: "7600 Dr. Phillips Blvd, Ste 86, Orlando, FL 32819",
     bestFor: "South-west Orlando residents",
     signatureClass: "Reformer Flow",
-    bookingTip: "Morning slots fill first — book two days ahead.",
+    bookingTip: "Morning slots fill first: book two days ahead.",
   },
   {
     number: "6",
@@ -116,7 +116,7 @@ const STUDIOS = [
     neighborhood: "Waterford Lakes / East Orlando",
     priceLevel: "$$",
     review: "Club Pilates Waterford Lakes on North Alafaya Trail serves east Orlando and the UCF area with levelled group reformer classes and membership pricing for frequent training.",
-    caveat: "a franchise format — consistent, but less personalised than an independent studio.",
+    caveat: "a franchise format: consistent, but less personalised than an independent studio.",
     address: "504 N Alafaya Trl, Suite 108, Orlando, FL 32828",
     bestFor: "East Orlando residents new to the reformer",
     signatureClass: "Reformer Flow",
@@ -131,19 +131,19 @@ const BOOKING_TIPS = [
   },
   {
     heading: "The theme park industry creates non-standard scheduling needs",
-    body: "Orlando's enormous hospitality and theme park sector employs hundreds of thousands of workers on shift-based schedules. Many studios accommodate midday and mid-week classes that would be unusual in other cities — worth inquiring about if your schedule follows a non-standard pattern.",
+    body: "Orlando's enormous hospitality and theme park sector employs hundreds of thousands of workers on shift-based schedules. Many studios accommodate midday and mid-week classes that would be unusual in other cities: worth inquiring about if your schedule follows a non-standard pattern.",
   },
   {
     heading: "Snowbird season drives demand (November–March)",
-    body: "Orlando attracts a large seasonal population from November through March — retirees, seasonal workers, and families visiting theme parks. Studio demand increases during this period, particularly at studios near tourist corridors. Establish standing bookings before November if you're a year-round resident.",
+    body: "Orlando attracts a large seasonal population from November through March: retirees, seasonal workers, and families visiting theme parks. Studio demand increases during this period, particularly at studios near tourist corridors. Establish standing bookings before November if you're a year-round resident.",
   },
   {
     heading: "Intro packages are the smartest entry point",
-    body: "Every Orlando studio offers a new-client introductory rate — typically three reformer sessions for the price of one drop-in. This is the most cost-effective way to audit a studio's instruction quality and community fit before committing to a monthly membership.",
+    body: "Every Orlando studio offers a new-client introductory rate, typically three reformer sessions for the price of one drop-in. This is the most cost-effective way to audit a studio's instruction quality and community fit before committing to a monthly membership.",
   },
   {
     heading: "Grip socks are required at every reformer studio",
-    body: "Universal across Orlando's studio market. Bring your own — full-toe grip socks from Amazon cost a fraction of front-desk retail at every studio in the city.",
+    body: "Universal across Orlando's studio market. Bring your own: full-toe grip socks from Amazon cost a fraction of front-desk retail at every studio in the city.",
   },
 ];
 
@@ -151,7 +151,7 @@ const NEIGHBORHOODS = [
   {
     name: "Winter Park",
     description:
-      "Florida's most charming small city — brick-lined Park Avenue, canopied streets, and a wellness culture that is genuinely sophisticated. Winter Park's Pilates studios are among the most carefully run in the Orlando metro, serving a residential community that values quality instruction and neighborhood character equally.",
+      "Florida's most charming small city: brick-lined Park Avenue, canopied streets, and a wellness culture that is genuinely sophisticated. Winter Park's Pilates studios are among the most carefully run in the Orlando metro, serving a residential community that values quality instruction and neighborhood character equally.",
   },
   {
     name: "Dr. Phillips & Restaurant Row",
@@ -179,7 +179,7 @@ const GEAR = [
   },
   {
     name: "Pilates Mat (6mm)",
-    note: "Our pick: Manduka PRO Yoga & Pilates Mat (6mm). Orlando's year-round warm climate makes outdoor and home mat practice genuinely practical — a quality mat is worth owning.",
+    note: "Our pick: Manduka PRO Yoga & Pilates Mat (6mm). Orlando's year-round warm climate makes outdoor and home mat practice genuinely practical: a quality mat is worth owning.",
     price: "$144.00",
     url: "https://www.amazon.com/dp/B0066T7I54?tag=pilatescollective-20",
   },
@@ -191,22 +191,22 @@ const GEAR = [
   },
   {
     name: "Fabric Resistance Bands",
-    note: "Our pick: Arena Strength Fabric Glute Bands (3-Pack). Portable fabric bands are perfect for Florida's active lifestyle — useful before and after outdoor activity.",
+    note: "Our pick: Arena Strength Fabric Glute Bands (3-Pack). Portable fabric bands are perfect for Florida's active lifestyle: useful before and after outdoor activity.",
     price: "$29.00",
     url: "https://www.amazon.com/dp/B07VYK14JC?tag=pilatescollective-20",
   },
   {
     name: "High-Density Foam Roller",
-    note: "Our pick: OPTP PRO-Roller Foam Roller (36-inch). Post-class fascia release — particularly useful for Orlando's active community who combine Pilates with running, cycling, and outdoor sports.",
+    note: "Our pick: OPTP PRO-Roller Foam Roller (36-inch). Post-class fascia release, particularly useful for Orlando's active community who combine Pilates with running, cycling, and outdoor sports.",
     price: "$62.99",
     url: "https://www.amazon.com/dp/B002C9EX14?tag=pilatescollective-20",
   },
 ];
 
 const HOME_REFORMERS = [
-  { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work — three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
+  { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work: three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
   { tag: "Mid-Range Pick", name: "AeroPilates Pro XP 557", note: "AeroPilates' top-of-the-range home reformer, a step up for practitioners training several times a week.", price: "$1,329.99", url: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20" },
-  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order — an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
+  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
 ];
 
 const RELATED_CITIES = [
@@ -242,7 +242,7 @@ const FURTHER_READING = [
 ];
 
 const CITY_FAQS = [
-  { q: "What are the best Pilates studios in Orlando?", a: "Our 6 curated picks are Pilates on 5th (Winter Park), Winter Park Pilates (Winter Park), JETSET Pilates — Dr. Phillips (Dr. Phillips), Club Pilates SODO (SoDo / South Downtown), Club Pilates Dr. Phillips (Dr. Phillips / Restaurant Row) and Club Pilates Waterford Lakes (Waterford Lakes / East Orlando). Each listing above covers what the studio is best for, its signature class and a booking tip." },
+  { q: "What are the best Pilates studios in Orlando?", a: "Our 6 curated picks are Pilates on 5th (Winter Park), Winter Park Pilates (Winter Park), JETSET Pilates: Dr. Phillips (Dr. Phillips), Club Pilates SODO (SoDo / South Downtown), Club Pilates Dr. Phillips (Dr. Phillips / Restaurant Row) and Club Pilates Waterford Lakes (Waterford Lakes / East Orlando). Each listing above covers what the studio is best for, its signature class and a booking tip." },
   { q: "Which Orlando neighbourhoods are best for Pilates?", a: "This guide covers Winter Park, Dr. Phillips & Restaurant Row, SoDo & South Downtown and East Orlando & Waterford Lakes. Winter Park: Florida's most charming small city, brick-lined Park Avenue, canopied streets, and a wellness culture that is genuinely sophisticated." },
   { q: "What should I know about booking Pilates classes in Orlando?", a: "Orlando's summer heat makes studios essential. Central Florida summers are intensely hot and humid from May through October." },
   { q: "What should I bring to a Pilates class in Orlando?", a: "Grip socks are required at most reformer studios. Our gear list for Orlando covers Pilates grip socks, Pilates mat (6mm), magic circle, fabric resistance bands and high-density foam roller." },
@@ -309,7 +309,7 @@ export default function OrlandoPage() {
               Updated October 2026 · 6 studios reviewed
             </p>
             <p className="text-lg leading-relaxed" style={{ color: "#5c4f47" }}>
-              Beyond the theme parks, Orlando is one of Florida's most dynamic residential cities — a
+              Beyond the theme parks, Orlando is one of Florida's most dynamic residential cities: a
               place where the healthcare sector, hospitality industry, and rapidly growing technology
               community have created genuine demand for quality movement practices. The city's year-round
               warmth, active outdoor culture, and diverse population have produced a Pilates market that
@@ -477,7 +477,7 @@ export default function OrlandoPage() {
 
         <CTASection
           title="Find Pilates near you"
-          subtitle="Use our AI Finder to discover studios in any city — coming soon."
+          subtitle="Use our AI Finder to discover studios in any city: coming soon."
           showSearch
           searchPlaceholder="Ask: best reformer Pilates in Orlando…"
         />

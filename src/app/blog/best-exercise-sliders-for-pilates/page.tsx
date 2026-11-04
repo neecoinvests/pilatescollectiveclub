@@ -16,10 +16,10 @@ export const metadata: Metadata = {
   keywords: ["best exercise sliders pilates", "pilates sliders 2026", "exercise gliders pilates mat", "best gliding discs pilates", "core sliders pilates", "gaiam core sliding discs", "azurelife exercise sliders"],
   openGraph: {
     title: "Best Exercise Sliders for Pilates (2026): 5 Real Options Compared",
-    description: "Gaiam, A AZURELIFE, Elite Sportz, Gliding, and ZILLEEN — five real, purpose-built core gliding discs compared for Pilates mat work.",
+    description: "Gaiam, A AZURELIFE, Elite Sportz, Gliding, and ZILLEEN: five real, purpose-built core gliding discs compared for Pilates mat work.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-exercise-sliders-for-pilates",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg", width: 1200, height: 630, alt: "Best Exercise Sliders for Pilates — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg", width: 1200, height: 630, alt: "Best Exercise Sliders for Pilates: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -38,7 +38,7 @@ const PRODUCTS = [
     price: "$6.76",
     verdict: "Best budget pick",
     description:
-      "Sold by A AZURELIFE, this dual-sided pair of 7-inch discs pairs a smooth plastic side for carpet with a foam side for hard floors, so you flip depending on your practice surface. Lightweight and genuinely portable — easy to toss in a bag for travel or a studio session away from home.",
+      "Sold by A AZURELIFE, this dual-sided pair of 7-inch discs pairs a smooth plastic side for carpet with a foam side for hard floors, so you flip depending on your practice surface. Lightweight and genuinely portable: easy to toss in a bag for travel or a studio session away from home.",
     affiliateUrl: "https://www.amazon.com/dp/B07RK1CL2T?tag=pilatescollective-20",
     tag: "Budget Pick",
   },
@@ -48,7 +48,7 @@ const PRODUCTS = [
     price: "$16.59",
     verdict: "Best all-rounder",
     description:
-      "Sold directly by Amazon.com, this Gaiam pair is dual-sided for both carpet and hard floors, purpose-built for core and ab engagement work — lunges, squats, mountain climbers, and the same hamstring-curl and pike patterns that translate directly from reformer footwork. The Gaiam name carries a level of build consistency that's reassuring for anyone building this into a regular routine.",
+      "Sold directly by Amazon.com, this Gaiam pair is dual-sided for both carpet and hard floors, purpose-built for core and ab engagement work: lunges, squats, mountain climbers, and the same hamstring-curl and pike patterns that translate directly from reformer footwork. The Gaiam name carries a level of build consistency that's reassuring for anyone building this into a regular routine.",
     affiliateUrl: "https://www.amazon.com/dp/B0964G1N18?tag=pilatescollective-20",
     tag: "Best All-Rounder",
   },
@@ -58,7 +58,7 @@ const PRODUCTS = [
     price: "$9.89",
     verdict: "Cheapest genuine pick",
     description:
-      "A dual-sided pair of gliding discs at essentially the same price as the A AZURELIFE set, with the same carpet/hardwood/tile versatility. A reasonable second budget option if you want two sets — one for a home mat and one to leave in a gym bag.",
+      "A dual-sided pair of gliding discs at essentially the same price as the A AZURELIFE set, with the same carpet/hardwood/tile versatility. A reasonable second budget option if you want two sets: one for a home mat and one to leave in a gym bag.",
     affiliateUrl: "https://www.amazon.com/dp/B00OYRW4UE?tag=pilatescollective-20",
     tag: "Budget Pick",
   },
@@ -78,7 +78,7 @@ const PRODUCTS = [
     price: "$7.09",
     verdict: "Most travel-friendly",
     description:
-      "Dual-sided discs combining ABS plastic and EVA foam, at 6.9 inches — the smallest and lightest pair in this roundup. That smaller footprint makes them the easiest set to toss in a carry-on or gym bag without adding meaningful weight or bulk.",
+      "Dual-sided discs combining ABS plastic and EVA foam, at 6.9 inches: the smallest and lightest pair in this roundup. That smaller footprint makes them the easiest set to toss in a carry-on or gym bag without adding meaningful weight or bulk.",
     affiliateUrl: "https://www.amazon.com/dp/B0C1FWWZG3?tag=pilatescollective-20",
     tag: "Most Portable",
   },
@@ -90,7 +90,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Best Exercise Sliders for Pilates (2026): 5 Real Options Compared",
-      "description": "Five real, purpose-built core gliding discs for Pilates — Gaiam, A AZURELIFE, Elite Sportz, Gliding, and ZILLEEN — compared for carpet and hard-floor use.",
+      "description": "Five real, purpose-built core gliding discs for Pilates (Gaiam, A AZURELIFE, Elite Sportz, Gliding, and ZILLEEN) compared for carpet and hard-floor use.",
       "url": "https://pilatescollectiveclub.com/blog/best-exercise-sliders-for-pilates",
       "datePublished": "2026-06-28",
       "dateModified": "2026-10-20",
@@ -126,8 +126,8 @@ const jsonLd = {
       "@type": "FAQPage",
       "mainEntity": [
         { "@type": "Question", "name": "What is the best exercise slider for Pilates on Amazon?", "acceptedAnswer": { "@type": "Answer", "text": "The Gaiam Core Sliding Discs ($16.59) are the best all-rounder. The ZILLEEN set ($7.09) is the cheapest and most travel-friendly. The A AZURELIFE ($6.76) and Elite Sportz ($9.89) sets are near-identical budget options. The Gliding 9in pair ($19.99) is the only set that bundles streaming workout videos." } },
-        { "@type": "Question", "name": "Do I need sliders for Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "No, but a gliding disc under the foot or hand can meaningfully expand a mat repertoire — hamstring curls, lunges, pike and plank variations that standard mat work cannot replicate without equipment." } },
-        { "@type": "Question", "name": "Do sliders work on both carpet and hardwood?", "acceptedAnswer": { "@type": "Answer", "text": "All five sets here are dual-sided by design — one side (typically foam) for carpet and one side (typically smooth plastic) for hard floors. Flip the disc to match your practice surface." } },
+        { "@type": "Question", "name": "Do I need sliders for Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "No, but a gliding disc under the foot or hand can meaningfully expand a mat repertoire: hamstring curls, lunges, pike and plank variations that standard mat work cannot replicate without equipment." } },
+        { "@type": "Question", "name": "Do sliders work on both carpet and hardwood?", "acceptedAnswer": { "@type": "Answer", "text": "All five sets here are dual-sided by design: one side (typically foam) for carpet and one side (typically smooth plastic) for hard floors. Flip the disc to match your practice surface." } },
       ],
     },
   ],
@@ -155,7 +155,7 @@ export default function BestExerciseSlidersForPilatesPage() {
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Gliding discs under the foot or hand are a genuinely useful mat accessory — they expand a mat repertoire with hamstring curls, lunges, pike and plank variations that standard mat work cannot replicate without equipment. Below are five real, purpose-built core sliders, all dual-sided for carpet and hard floors: the Gaiam set as the all-round pick, A AZURELIFE and Elite Sportz as near-identical budget options, ZILLEEN as the smallest and most travel-friendly, and Gliding as the only set bundled with workout videos.
+              Gliding discs under the foot or hand are a genuinely useful mat accessory: they expand a mat repertoire with hamstring curls, lunges, pike and plank variations that standard mat work cannot replicate without equipment. Below are five real, purpose-built core sliders, all dual-sided for carpet and hard floors: the Gaiam set as the all-round pick, A AZURELIFE and Elite Sportz as near-identical budget options, ZILLEEN as the smallest and most travel-friendly, and Gliding as the only set bundled with workout videos.
             </p>
           </div>
         </section>
@@ -163,7 +163,7 @@ export default function BestExerciseSlidersForPilatesPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg" alt="Best exercise sliders for Pilates mat practice — Gaiam and A AZURELIFE core gliding discs" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg" alt="Best exercise sliders for Pilates mat practice: Gaiam and A AZURELIFE core gliding discs" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>
         </section>
@@ -192,7 +192,7 @@ export default function BestExerciseSlidersForPilatesPage() {
               <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Key Pilates slider exercises</h2>
               <div className="space-y-3 text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                 <p><strong>Supine hamstring curl.</strong> Lie on your back, heels on sliders, hips bridged. Slide feet away until legs are extended, then curl back. Directly replicates the reformer footwork hamstring press.</p>
-                <p><strong>Lateral lunge slide.</strong> Stand with one foot on a slider. Slide the foot laterally while lowering into a single-leg squat, then slide back. Engages the adductors and glute medius — muscles that reformer lateral work targets specifically.</p>
+                <p><strong>Lateral lunge slide.</strong> Stand with one foot on a slider. Slide the foot laterally while lowering into a single-leg squat, then slide back. Engages the adductors and glute medius: muscles that reformer lateral work targets specifically.</p>
                 <p><strong>Pike.</strong> Plank position, feet on sliders. Draw feet toward hands by piking at the hips, keeping legs straight. The spinal articulation and hip flexor demand directly parallel the reformer pike-to-elephant sequence.</p>
                 <p><strong>Mountain climber (slow tempo).</strong> Plank, feet on sliders. Alternate driving knees toward chest under control. Slow tempo with a deliberate pause at full knee drive replicates the reformer running cadence.</p>
                 <p><strong>Reverse lunge slide.</strong> Stand on one foot, other foot on slider behind. Slide the back foot further behind while lowering into a lunge, then slide forward. Controls the eccentric hip flexor lengthening that reformer lunge springs provide.</p>
@@ -204,8 +204,8 @@ export default function BestExerciseSlidersForPilatesPage() {
               <div className="space-y-6">
                 {[
                   { q: "What is the best exercise slider for Pilates on Amazon?", a: "The Gaiam Core Sliding Discs ($16.59) are the best all-rounder. The ZILLEEN set ($7.09) is the cheapest and most travel-friendly. The A AZURELIFE ($6.76) and Elite Sportz ($9.89) sets are near-identical budget options. The Gliding 9in pair ($19.99) is the only set that bundles streaming workout videos." },
-                  { q: "Do I need sliders for Pilates?", a: "No, but a gliding disc under the foot or hand can meaningfully expand a mat repertoire — hamstring curls, lunges, pike and plank variations that standard mat work cannot replicate without equipment." },
-                  { q: "Do sliders work on both carpet and hardwood?", a: "All five sets here are dual-sided by design — one side (typically foam) for carpet and one side (typically smooth plastic) for hard floors. Flip the disc to match your practice surface." },
+                  { q: "Do I need sliders for Pilates?", a: "No, but a gliding disc under the foot or hand can meaningfully expand a mat repertoire: hamstring curls, lunges, pike and plank variations that standard mat work cannot replicate without equipment." },
+                  { q: "Do sliders work on both carpet and hardwood?", a: "All five sets here are dual-sided by design: one side (typically foam) for carpet and one side (typically smooth plastic) for hard floors. Flip the disc to match your practice surface." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
@@ -218,8 +218,8 @@ export default function BestExerciseSlidersForPilatesPage() {
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="Best Pilates Resistance Bands (2026)" excerpt="Loop bands, long bands, and tube bands for Pilates — the accessories that extend your mat training most effectively." href="/blog/best-pilates-resistance-bands" category="Equipment" readTime="7 min read" date="April 2026" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
-                <ArticleCard title="Best Pilates Equipment for Home Practice (2026)" excerpt="The complete home studio — what to buy first, what to buy later, and what to skip entirely." href="/blog/best-pilates-equipment-for-home-practice" category="Equipment" readTime="10 min read" date="March 2026" imageUrl="/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Resistance Bands (2026)" excerpt="Loop bands, long bands, and tube bands for Pilates: the accessories that extend your mat training most effectively." href="/blog/best-pilates-resistance-bands" category="Equipment" readTime="7 min read" date="April 2026" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Equipment for Home Practice (2026)" excerpt="The complete home studio: what to buy first, what to buy later, and what to skip entirely." href="/blog/best-pilates-equipment-for-home-practice" category="Equipment" readTime="10 min read" date="March 2026" imageUrl="/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg" />
                 <ArticleCard title="Best Mini Resistance Loops for Pilates (2026): 5 Picks" excerpt="Five real, currently-sold mini resistance loop band sets for Pilates glute and hip activation, Fit Simplify…" href="/blog/best-mini-resistance-loops-for-pilates" category="Guide" readTime="6 min read" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Ankle Weights (2026): 5 Real Options Compared" excerpt="Five real, live Amazon ankle weight listings for Pilates, Sportneer, BECOJADDE, nooncrazy, BAGAIL, and GALLIA…" href="/blog/best-pilates-ankle-weights" category="Guide" readTime="5 min read" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Ball (2026): 6 Picks, Mini to Stability" excerpt="Six Pilates balls ranked: Balanced Body's 12-inch ball, Bala, ProBody mini and 65cm stability balls, the Byrex…" href="/blog/best-pilates-ball" category="Guide" readTime="7 min read" imageUrl="/pictures/dane-wetton-AkSJQnem75Y-unsplash.jpg" />

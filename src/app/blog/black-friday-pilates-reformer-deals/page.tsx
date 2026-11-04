@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     description: "Pilates reformer Black Friday 2026: 13 home reformers from under $300 to studio brands, with today's Amazon price to beat on November 27.",
     type: "article",
     url: PAGE_URL,
-    images: [{ url: HERO_IMAGE, width: 1200, height: 630, alt: "A home Pilates reformer in a sunlit room — reformer Black Friday deals" }],
+    images: [{ url: HERO_IMAGE, width: 1200, height: 630, alt: "A home Pilates reformer in a sunlit room: reformer Black Friday deals" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -36,13 +36,13 @@ const GUIDE: DealsGuideProps = {
   "h1Accent": "Deals 2026: Prices to Beat",
   "readTime": "8 min read",
   "heroImage": "/pictures/stitch-reformer-sunlit-minimal.png",
-  "heroAlt": "A home Pilates reformer in a sunlit room — reformer Black Friday deals",
+  "heroAlt": "A home Pilates reformer in a sunlit room: reformer Black Friday deals",
   "intro": "A reformer is the biggest Pilates purchase most people make, which makes it the one where Black Friday matters most. Here are 13 machines we track on Amazon, grouped by budget, each with the price it sells for today. Use these numbers to judge any discount you see from mid-November to Cyber Monday.",
   "sections": [
     {
       "id": "under-500",
       "title": "Under $500",
-      "intro": "Foldable spring and cord machines from newer brands and AeroPilates. Real resistance at a low price — the trade-off is brand track record and warranty.",
+      "intro": "Foldable spring and cord machines from newer brands and AeroPilates. Real resistance at a low price: the trade-off is brand track record and warranty.",
       "items": [
         {
           "asin": "B0D31767J1",
@@ -62,7 +62,7 @@ const GUIDE: DealsGuideProps = {
           "asin": "B01FMODVAE",
           "name": "AeroPilates 287 Reformer",
           "badge": "Established brand, entry level",
-          "note": "Stamina's entry AeroPilates with bungee-cord resistance — a known brand at a budget price.",
+          "note": "Stamina's entry AeroPilates with bungee-cord resistance: a known brand at a budget price.",
           "price": "$359.00"
         },
         {
@@ -104,7 +104,7 @@ const GUIDE: DealsGuideProps = {
           "asin": "B0D2ZT4Z5H",
           "name": "DELAVIN Solid Wood Pilates Reformer",
           "badge": "Solid wood",
-          "note": "A solid-wood home reformer — the look of a studio machine for less.",
+          "note": "A solid-wood home reformer: the look of a studio machine for less.",
           "price": "$1,249.99"
         },
         {
@@ -119,7 +119,7 @@ const GUIDE: DealsGuideProps = {
     {
       "id": "premium",
       "title": "Premium and studio brands",
-      "intro": "Established Pilates brands. These discount less often — a modest saving here is still a lot of money.",
+      "intro": "Established Pilates brands. These discount less often: a modest saving here is still a lot of money.",
       "items": [
         {
           "asin": "B09HNCMTZL",
@@ -155,7 +155,7 @@ const GUIDE: DealsGuideProps = {
   "watchFor": [
     {
       "h": "Check the 30-day price, not the strikethrough.",
-      "b": "Amazon's 'List' or 'Was' price can be set by the seller. Compare the Black Friday price with the price we recorded here in October — that is the real saving."
+      "b": "Amazon's 'List' or 'Was' price can be set by the seller. Compare the Black Friday price with the price we recorded here in October: that is the real saving."
     },
     {
       "h": "Check who is selling.",
@@ -167,7 +167,7 @@ const GUIDE: DealsGuideProps = {
     },
     {
       "h": "Check the returns window.",
-      "b": "Amazon usually extends holiday returns on many items bought from November — confirm on the product page before you buy."
+      "b": "Amazon usually extends holiday returns on many items bought from November: confirm on the product page before you buy."
     },
     {
       "h": "Budget for accessories.",
@@ -177,7 +177,7 @@ const GUIDE: DealsGuideProps = {
   "faqs": [
     {
       "q": "Is Black Friday a good time to buy a Pilates reformer?",
-      "a": "It can be, especially for budget and mid-range home reformers, which are discounted more often than premium studio brands. Know today's price first — that is what this page is for."
+      "a": "It can be, especially for budget and mid-range home reformers, which are discounted more often than premium studio brands. Know today's price first: that is what this page is for."
     },
     {
       "q": "Do Balanced Body or Merrithew reformers go on sale?",

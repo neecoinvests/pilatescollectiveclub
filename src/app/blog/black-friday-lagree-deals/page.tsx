@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     description: "Lagree Black Friday 2026: the Lagree Micro, its rear platform, handlebars and cables, and the home setup around it, with today's Amazon price to beat.",
     type: "article",
     url: PAGE_URL,
-    images: [{ url: HERO_IMAGE, width: 1200, height: 630, alt: "Springs on a carriage machine — Lagree Micro Black Friday deals" }],
+    images: [{ url: HERO_IMAGE, width: 1200, height: 630, alt: "Springs on a carriage machine: Lagree Micro Black Friday deals" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -36,8 +36,8 @@ const GUIDE: DealsGuideProps = {
   "h1Accent": "2026: The Micro & Home Setup",
   "readTime": "6 min read",
   "heroImage": "/pictures/stitch-reformer-spring-detail.png",
-  "heroAlt": "Springs on a carriage machine — Lagree Micro Black Friday deals",
-  "intro": "The Micro is Lagree Fitness's own home machine, and it is sold by Lagree Fitness on Amazon along with its three add-ons. Whether the brand runs a Black Friday price is up to Lagree Fitness — so here is exactly what each piece costs today, plus the home-setup gear around it that is far more likely to be discounted.",
+  "heroAlt": "Springs on a carriage machine: Lagree Micro Black Friday deals",
+  "intro": "The Micro is Lagree Fitness's own home machine, and it is sold by Lagree Fitness on Amazon along with its three add-ons. Whether the brand runs a Black Friday price is up to Lagree Fitness, so here is exactly what each piece costs today, plus the home-setup gear around it that is far more likely to be discounted.",
   "sections": [
     {
       "id": "micro",
@@ -62,7 +62,7 @@ const GUIDE: DealsGuideProps = {
           "asin": "B0BKMP89SH",
           "name": "Lagree Fitness Micro Handlebars (Pair)",
           "badge": "Add-on #2",
-          "note": "For Catfish, Twister, Spoon and Runner's Lunge. Front or back — the back needs the rear platform.",
+          "note": "For Catfish, Twister, Spoon and Runner's Lunge. Front or back: the back needs the rear platform.",
           "price": "$190.00"
         },
         {
@@ -77,20 +77,20 @@ const GUIDE: DealsGuideProps = {
     {
       "id": "setup",
       "title": "The home setup",
-      "intro": "Not Lagree-branded — the everyday gear that makes home sessions safer and quieter, and the most likely to drop in price.",
+      "intro": "Not Lagree-branded: the everyday gear that makes home sessions safer and quieter, and the most likely to drop in price.",
       "items": [
         {
           "asin": "B0041GQH3S",
           "name": "Marcy Equipment Mat & Floor Protector (78\" x 36\")",
-          "badge": "Floor mat — Micro only",
+          "badge": "Floor mat: Micro only",
           "note": "Covers the Micro's 72\" length. Not long enough with the rear platform.",
           "price": "$42.29"
         },
         {
           "asin": "B005SUKZJ8",
           "name": "Rubber-Cal Rubber Flooring Roll (4 x 7 ft)",
-          "badge": "Floor mat — with platform",
-          "note": "84\" long — enough for the Micro with its rear platform.",
+          "badge": "Floor mat, with platform",
+          "note": "84\" long: enough for the Micro with its rear platform.",
           "price": "$49.50"
         },
         {
@@ -117,7 +117,7 @@ const GUIDE: DealsGuideProps = {
     },
     {
       "h": "Check the 30-day price, not the strikethrough.",
-      "b": "Amazon's 'List' or 'Was' price can be set by the seller. Compare the Black Friday price with the price we recorded here in October — that is the real saving."
+      "b": "Amazon's 'List' or 'Was' price can be set by the seller. Compare the Black Friday price with the price we recorded here in October: that is the real saving."
     },
     {
       "h": "Price the full setup.",

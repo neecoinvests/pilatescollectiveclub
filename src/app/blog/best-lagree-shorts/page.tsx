@@ -19,12 +19,12 @@ export const metadata: Metadata = {
     description: "Inseam length decides this category. Seven verified biker and men's shorts for the Megaformer, from $12.99.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-lagree-shorts",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/ahmet-kurt-0xn-8kRWOhE-unsplash.jpg", width: 1200, height: 630, alt: "Best Lagree Shorts — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/ahmet-kurt-0xn-8kRWOhE-unsplash.jpg", width: 1200, height: 630, alt: "Best Lagree Shorts: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Lagree Shorts (2026)",
-    description: "Inseam length, fit and carriage contact — seven verified biker and men's shorts for Megaformer classes.",
+    description: "Inseam length, fit and carriage contact: seven verified biker and men's shorts for Megaformer classes.",
     images: ["https://pilatescollectiveclub.com/pictures/ahmet-kurt-0xn-8kRWOhE-unsplash.jpg"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/best-lagree-shorts" },
@@ -179,7 +179,7 @@ export default function BestLagreeShortsPage() {
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Inseam length decides this category, and the reason has nothing to do with modesty. Lagree puts you in kneeling, seated and side-lying positions directly on a vinyl carriage, and bare skin on warm vinyl sticks at exactly the wrong moment — as well as leaving sweat on a shared machine. A fitted biker short with a 6 to 8 inch inseam keeps fabric between you and the carriage in most of the repertoire, and a fitted leg has nothing to ride up in a lunge or catch on the springs, handles and straps. Here are seven verified pairs, from a $12.99 long-inseam budget pick to men&apos;s lined and linerless options.
+              Inseam length decides this category, and the reason has nothing to do with modesty. Lagree puts you in kneeling, seated and side-lying positions directly on a vinyl carriage, and bare skin on warm vinyl sticks at exactly the wrong moment, as well as leaving sweat on a shared machine. A fitted biker short with a 6 to 8 inch inseam keeps fabric between you and the carriage in most of the repertoire, and a fitted leg has nothing to ride up in a lunge or catch on the springs, handles and straps. Here are seven verified pairs, from a $12.99 long-inseam budget pick to men&apos;s lined and linerless options.
             </p>
           </div>
         </section>
@@ -187,7 +187,7 @@ export default function BestLagreeShortsPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/ahmet-kurt-0xn-8kRWOhE-unsplash.jpg" alt="Studio training in fitted shorts — inseam length governs carriage contact" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/ahmet-kurt-0xn-8kRWOhE-unsplash.jpg" alt="Studio training in fitted shorts: inseam length governs carriage contact" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>
         </section>
@@ -252,7 +252,7 @@ export default function BestLagreeShortsPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Leggings for Lagree" excerpt="What a legging needs to do on a moving carriage, and five verified pairs from budget to premium." href="/blog/best-leggings-for-lagree" category="Lagree" readTime="9 min read" date="October 2026" />
                 <ArticleCard title="Best Lagree Tops" excerpt="Why fitted beats loose on a Megaformer, and the tanks that stay put in a plank." href="/blog/best-lagree-tops" category="Lagree" readTime="8 min read" date="October 2026" />
-                <ArticleCard title="Lagree Essentials" excerpt="Everything to wear, bring and buy for Lagree — best, budget and splurge picks on one page." href="/blog/lagree-essentials" category="Lagree" readTime="12 min read" date="September 2026" />
+                <ArticleCard title="Lagree Essentials" excerpt="Everything to wear, bring and buy for Lagree: best, budget and splurge picks on one page." href="/blog/lagree-essentials" category="Lagree" readTime="12 min read" date="September 2026" />
                 <ArticleCard title="Best Lagree Socks" excerpt="Grip socks for the Megaformer: full-toe, toeless, multi-packs and men's picks." href="/blog/best-lagree-grip-socks" category="Lagree" readTime="8 min read" date="October 2026" />
               </div>
             </div>

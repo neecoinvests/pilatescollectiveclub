@@ -22,15 +22,15 @@ export const metadata: Metadata = {
   description: DESCRIPTION,
   openGraph: {
     title: TITLE,
-    description: "The reformer class kit, organised by the class journey — before class, on the carriage, after class, and taking it home — with verified Best, Budget and Splurge picks.",
+    description: "The reformer class kit, organised by the class journey (before class, on the carriage, after class, and taking it home) with verified Best, Budget and Splurge picks.",
     type: "article",
     url: PAGE_URL,
-    images: [{ url: HERO_IMAGE, width: 1200, height: 630, alt: "Reformer Pilates essentials — a sunlit reformer studio" }],
+    images: [{ url: HERO_IMAGE, width: 1200, height: 630, alt: "Reformer Pilates essentials: a sunlit reformer studio" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Reformer Pilates Essentials (2026)",
-    description: "What to wear, what to bring, what to skip — plus home reformers from $295.99.",
+    description: "What to wear, what to bring, what to skip, plus home reformers from $295.99.",
     images: [HERO_IMAGE],
   },
   keywords: [
@@ -112,7 +112,7 @@ const P = {
   arc: { name: "Balanced Body Pilates Arc", price: "$189.99", url: amz("B002XVSNRG") },
 };
 
-const directNote = (site: string) => ` Not sold on Amazon — this links to ${site}.`;
+const directNote = (site: string) => ` Not sold on Amazon: this links to ${site}.`;
 
 const STAGES: Stage[] = [
   {
@@ -120,7 +120,7 @@ const STAGES: Stage[] = [
     step: "Stage 1",
     heading: "Before class: pack the bag",
     intro:
-      "Reformer studios run on tight turnarounds. Classes often start on the minute, and the carriage you are assigned may have just been vacated. Arriving with everything in one bag — socks already in the front pocket, bottle full — is the difference between a calm set-up and a rushed one.",
+      "Reformer studios run on tight turnarounds. Classes often start on the minute, and the carriage you are assigned may have just been vacated. Arriving with everything in one bag (socks already in the front pocket, bottle full) is the difference between a calm set-up and a rushed one.",
     categories: [
       {
         id: "bag",
@@ -129,7 +129,7 @@ const STAGES: Stage[] = [
         intro:
           "You do not need a mat for most reformer classes, so a reformer bag is less about carrying bulk and more about organisation: a spot for shoes you take off at the door, a pocket for damp socks after class, and room for a layer.",
         items: [
-          { tier: "Best", ...P.sportsnewTote, description: "A 20L tote with a separate shoe compartment and a wet pocket — exactly the two features a reformer bag needs. Shoes go in their own section at check-in, used grip socks go in the wet pocket afterwards, and nothing damp touches your post-class layer. It also has room for a mat on days you do a mat class instead." },
+          { tier: "Best", ...P.sportsnewTote, description: "A 20L tote with a separate shoe compartment and a wet pocket: exactly the two features a reformer bag needs. Shoes go in their own section at check-in, used grip socks go in the wet pocket afterwards, and nothing damp touches your post-class layer. It also has room for a mat on days you do a mat class instead." },
           { tier: "Budget", ...P.bagsmartDuffle, description: "If you commute to class from work or prefer a structured holdall, this BAGSMART duffle is one of the lowest-priced options in our pool at $21.43. It works as a gym bag and a weekender, so it earns its keep outside the studio too." },
           { tier: "Add-On", ...P.lululemonBelt, description: "Not a class bag, but a small crossbody for the essentials you want on you rather than in a cubby: phone, keys, card, a claw clip. Handy if your studio has open shelving instead of lockers." + directNote("lululemon.com") },
         ],
@@ -167,7 +167,7 @@ const STAGES: Stage[] = [
         items: [
           { tier: "Best", ...P.toesox, description: "toesox is the original studio grip-sock brand, and this low-rise 2-pack is its full-toe design, sold on Amazon by The Active Footwear Store, the official distributor. Two pairs means one to wear and one in the wash." },
           { tier: "Budget", ...P.muezna, description: "Six pairs for $7.59 from seller UISIC. If you take three or more classes a week, a multi-pack means a fresh, dry pair every time. Ideal for a first month of classes before you know which style you prefer." },
-          { tier: "Splurge", ...P.tavi, description: "TAVI's Stacy is a slouch-style Pilates sock, sold as a 2-pack by The Active Footwear Store. You are paying for the look more than extra function — but if you like a slouch sock over the ankle, this is the one." },
+          { tier: "Splurge", ...P.tavi, description: "TAVI's Stacy is a slouch-style Pilates sock, sold as a 2-pack by The Active Footwear Store. You are paying for the look more than extra function, but if you like a slouch sock over the ankle, this is the one." },
           { tier: "Best Toeless", ...P.tucketts, description: "Tucketts builds specifically for barre and Pilates. The Allegro is a toeless cut, which many people with wide feet or painted toenails prefer." },
         ],
         guideHref: "/blog/best-pilates-grip-socks",
@@ -241,7 +241,7 @@ const STAGES: Stage[] = [
         intro:
           "Reformer footwork, lunges and feet-in-straps series load the quads, glutes and inner thighs more than people expect. Ten minutes of rolling at home is a cheap way to feel better the next day.",
         items: [
-          { tier: "Best", ...P.grid, description: "The GRID 2.0 is a firm, textured roller from an established recovery brand. Sold by Amazon.com. Useful for quads, IT band area and upper back — and for mat Pilates exercises that use a roller." },
+          { tier: "Best", ...P.grid, description: "The GRID 2.0 is a firm, textured roller from an established recovery brand. Sold by Amazon.com. Useful for quads, IT band area and upper back, and for mat Pilates exercises that use a roller." },
           { tier: "Splurge", ...P.waveRoller, description: "Therabody's WaveRoller adds vibration to the roller format. If you already use a roller and want more from it, this is the step up; if you have never rolled before, start with the GRID." },
         ],
         guideHref: "/blog/best-pilates-foam-roller",
@@ -321,7 +321,7 @@ const classesAt = (price: string, perClass: number) => Math.round(Number(toNumbe
 const FAQS = [
   {
     q: "What do you need for reformer Pilates?",
-    a: "For a studio reformer class, the only true essentials are grip socks (most studios require them), fitted clothing without zips or loose fabric, and a water bottle. Everything else — grip gloves, a studio bag, a towel, recovery tools — makes classes more comfortable but is optional. A budget kit covering all of it comes to about " + money(BUDGET_TOTAL) + " at the prices listed on this page.",
+    a: "For a studio reformer class, the only true essentials are grip socks (most studios require them), fitted clothing without zips or loose fabric, and a water bottle. Everything else (grip gloves, a studio bag, a towel, recovery tools) makes classes more comfortable but is optional. A budget kit covering all of it comes to about " + money(BUDGET_TOTAL) + " at the prices listed on this page.",
   },
   {
     q: "What should I wear to my first reformer Pilates class?",
@@ -337,7 +337,7 @@ const FAQS = [
   },
   {
     q: "What should I bring to a reformer Pilates class?",
-    a: "Grip socks, a water bottle, a hair tie or claw clip, and a bag that keeps shoes and damp socks away from clean clothes. A small towel is useful if your class includes a mat section. You don't normally need to bring a mat or any equipment — the studio provides the reformer, springs and props.",
+    a: "Grip socks, a water bottle, a hair tie or claw clip, and a bag that keeps shoes and damp socks away from clean clothes. A small towel is useful if your class includes a mat section. You don't normally need to bring a mat or any equipment: the studio provides the reformer, springs and props.",
   },
   {
     q: "Is a home reformer cheaper than reformer classes?",
@@ -515,7 +515,7 @@ export default function ReformerPilatesEssentialsPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/stitch-reformer-sunlit-minimal.png" alt="Reformer Pilates essentials — a sunlit minimal studio with a Pilates reformer ready for class" fill className="object-cover" style={{ filter: "brightness(0.85)" }} priority />
+              <Image src="/pictures/stitch-reformer-sunlit-minimal.png" alt="Reformer Pilates essentials: a sunlit minimal studio with a Pilates reformer ready for class" fill className="object-cover" style={{ filter: "brightness(0.85)" }} priority />
             </div>
           </div>
         </section>
@@ -529,7 +529,7 @@ export default function ReformerPilatesEssentialsPage() {
             {/* At a glance */}
             <div className="mb-16 mt-4 overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
               <div className="px-6 py-4" style={{ backgroundColor: "#f6f3f2" }}>
-                <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: sans }}>At a Glance — the complete reformer kit</p>
+                <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: sans }}>At a Glance: the complete reformer kit</p>
               </div>
               {glanceRows.map((row, i) => (
                 <div key={row.label} className="flex items-center gap-3 sm:gap-4 px-6 py-4" style={{ borderTop: i === 0 ? "none" : "1px solid rgba(217,194,186,0.25)", backgroundColor: "#ffffff" }}>
@@ -548,7 +548,7 @@ export default function ReformerPilatesEssentialsPage() {
             <div className="mb-16">
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: serif }}>What do you actually need for reformer Pilates?</h2>
               <p className="text-sm leading-relaxed mb-4" style={bodyText}>
-                Strictly, three things: grip socks, fitted clothes with no hardware, and water. The studio supplies the reformer, springs, straps, boxes and any small props. Everything else on this page earns its place by making classes more comfortable, more hygienic or easier to recover from — but none of it is a ticket to entry.
+                Strictly, three things: grip socks, fitted clothes with no hardware, and water. The studio supplies the reformer, springs, straps, boxes and any small props. Everything else on this page earns its place by making classes more comfortable, more hygienic or easier to recover from, but none of it is a ticket to entry.
               </p>
               <p className="text-sm leading-relaxed" style={bodyText}>
                 If you are booking a first class this week, buy socks first, check your existing leggings for opacity, and add the rest once you know you are going back. That is the order the tiers below are designed around.
@@ -569,7 +569,7 @@ export default function ReformerPilatesEssentialsPage() {
                     </p>
                     <ul className="space-y-3">
                       {[
-                        "Skip loose or wide-leg shorts. When your feet go into the straps, loose hems gape — and loose fabric can catch in springs or rope.",
+                        "Skip loose or wide-leg shorts. When your feet go into the straps, loose hems gape, and loose fabric can catch in springs or rope.",
                         "Leave zips, buckles and metal trims at home. They scratch upholstery and dig into your back when you lie on the carriage.",
                         "Take off rings, bracelets and long necklaces. Rings get pinched on straps and handles, and necklaces swing into your face in inversions.",
                         "Avoid baggy T-shirts. They slide up to your chin in anything with your hips lifted. A fitted top or tucked-in tank works better.",
@@ -612,7 +612,7 @@ export default function ReformerPilatesEssentialsPage() {
             <div id="kit-cost" className="mb-20 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
               <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: serif }}>What the full reformer kit costs</h2>
               <p className="text-sm leading-relaxed mb-6" style={bodyText}>
-                Honest totals, added up from the prices listed on this page. The budget kit covers everything you need to walk into class; the best kit adds our top pick in every category plus recovery tools. Neither includes a home reformer — that comes next.
+                Honest totals, added up from the prices listed on this page. The budget kit covers everything you need to walk into class; the best kit adds our top pick in every category plus recovery tools. Neither includes a home reformer: that comes next.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[
@@ -624,7 +624,7 @@ export default function ReformerPilatesEssentialsPage() {
                     <ul className="space-y-1.5 mb-4">
                       {box.kit.map((k) => (
                         <li key={k.label} className="flex justify-between gap-3 text-xs" style={bodyText}>
-                          <span>{k.label} — {k.name}</span>
+                          <span>{k.label}: {k.name}</span>
                           <span className="shrink-0">{k.price}</span>
                         </li>
                       ))}
@@ -637,7 +637,7 @@ export default function ReformerPilatesEssentialsPage() {
                 ))}
               </div>
               <p className="text-sm leading-relaxed mt-6" style={bodyText}>
-                For context: studio reformer classes in major US cities commonly cost $30–$40 or more each, so the budget kit costs roughly what four or five classes do. Most of it — the bag, bottle, clip and towel — lasts for years. Grip socks are the one true consumable; plan to replace them once the grip wears smooth.
+                For context: studio reformer classes in major US cities commonly cost $30–$40 or more each, so the budget kit costs roughly what four or five classes do. Most of it (the bag, bottle, clip and towel) lasts for years. Grip socks are the one true consumable; plan to replace them once the grip wears smooth.
               </p>
             </div>
 
@@ -649,7 +649,7 @@ export default function ReformerPilatesEssentialsPage() {
                 Once you are taking two or three reformer classes a week, the maths starts to look different. At $30–$40 a class, two classes a week is roughly $60–$80 a week, or somewhere around $3,000–$4,000 a year. A home reformer is a one-off cost, and every session you do on it instead of in a studio moves you closer to having paid it off.
               </p>
               <p className="text-sm leading-relaxed mb-8" style={bodyText}>
-                That is the honest case for it — and the honest caveats matter just as much. A home machine does not correct your form the way a good teacher does, it needs floor space (check our{" "}
+                That is the honest case for it, and the honest caveats matter just as much. A home machine does not correct your form the way a good teacher does, it needs floor space (check our{" "}
                 <Link href="/blog/pilates-reformer-dimensions-and-space-requirements" style={linkStyle}>reformer dimensions and space guide</Link>{" "}
                 first), and the savings only exist if you actually use it. Most people get the best result from a hybrid: a home reformer for most sessions, plus a studio class or private session every week or two to keep technique sharp.
               </p>
@@ -657,7 +657,7 @@ export default function ReformerPilatesEssentialsPage() {
               {/* Break-even table */}
               <div className="mb-12 overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
                 <div className="px-6 py-4" style={{ backgroundColor: "#f6f3f2" }}>
-                  <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: sans }}>Cost vs classes — roughly how many studio classes each one equals</p>
+                  <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: sans }}>Cost vs classes: roughly how many studio classes each one equals</p>
                 </div>
                 <div className="grid grid-cols-4 gap-3 px-6 py-3 text-xs font-semibold uppercase tracking-[0.1em]" style={{ backgroundColor: "#ffffff", color: "#86736d", fontFamily: sans }}>
                   <span className="col-span-2">Reformer</span>
@@ -682,7 +682,7 @@ export default function ReformerPilatesEssentialsPage() {
                 ))}
               </div>
               <p className="text-sm leading-relaxed mt-6 mb-2" style={bodyText}>
-                Which tier? If you are unsure you will use a machine at home, the WINDFOOT is the lowest-risk way to find out. If you want a brand with years of home users behind it, choose the AeroPilates and accept that cords feel different from springs. The Merrithew SPX only makes sense if you are ready to move most of your practice home — at that point, it is the one that feels most like the studio.
+                Which tier? If you are unsure you will use a machine at home, the WINDFOOT is the lowest-risk way to find out. If you want a brand with years of home users behind it, choose the AeroPilates and accept that cords feel different from springs. The Merrithew SPX only makes sense if you are ready to move most of your practice home, at that point, it is the one that feels most like the studio.
               </p>
               <GuideLink href="/blog/best-pilates-reformer-under-500" label="Full guide: best Pilates reformers under $500" />
               <GuideLink href="/blog/best-pilates-reformer-for-beginners" label="Full guide: best reformers for beginners" />
@@ -722,9 +722,9 @@ export default function ReformerPilatesEssentialsPage() {
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: serif }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="Best Pilates Reformer Under $500" excerpt="Budget home reformers compared honestly — what you get, and what you give up, below $500." href="/blog/best-pilates-reformer-under-500" category="Equipment" readTime="10 min read" date="September 2026" />
+                <ArticleCard title="Best Pilates Reformer Under $500" excerpt="Budget home reformers compared honestly: what you get, and what you give up, below $500." href="/blog/best-pilates-reformer-under-500" category="Equipment" readTime="10 min read" date="September 2026" />
                 <ArticleCard title="Best Pilates Reformer for Beginners" excerpt="The home reformers that suit a first machine, from folding cord models to studio-brand springs." href="/blog/best-pilates-reformer-for-beginners" category="Equipment" readTime="10 min read" date="September 2026" />
-                <ArticleCard title="Best Pilates Grip Socks" excerpt="toesox, TAVI, Tucketts and budget multi-packs — verified and compared for reformer class." href="/blog/best-pilates-grip-socks" category="Accessories" readTime="6 min read" date="September 2026" />
+                <ArticleCard title="Best Pilates Grip Socks" excerpt="toesox, TAVI, Tucketts and budget multi-packs: verified and compared for reformer class." href="/blog/best-pilates-grip-socks" category="Accessories" readTime="6 min read" date="September 2026" />
                 <ArticleCard title="Pilates Essentials" excerpt="The master list: the best pick in every Pilates category, from clothing to home equipment." href="/blog/pilates-essentials" category="Guide" readTime="12 min read" date="September 2026" />
               </div>
             </div>

@@ -17,15 +17,15 @@ export const metadata: Metadata = {
   keywords: ["pilates san diego", "reformer pilates san diego", "best pilates studios san diego ca", "pilates studio san diego", "pilates classes san diego", "la jolla pilates", "encinitas pilates", "pilates california", "best reformer pilates san diego", "pilates mission hills san diego"],
   openGraph: {
     title: "Best Pilates Studios in San Diego, CA (2026)",
-    description: "Six curated Pilates studios in San Diego — La Jolla and Encinitas reformer boutiques. Verified 2026.",
+    description: "Six curated Pilates studios in San Diego: La Jolla and Encinitas reformer boutiques. Verified 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/san-diego",
-    images: [{ url: "https://images.unsplash.com/photo-1538689621163-f0aa0c3db346?w=1200&q=80", width: 1200, height: 630, alt: "San Diego California city guide — Pilates Collective Club" }],
+    images: [{ url: "https://images.unsplash.com/photo-1538689621163-f0aa0c3db346?w=1200&q=80", width: 1200, height: 630, alt: "San Diego California city guide: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Studios in San Diego (2026)",
-    description: "Six curated Pilates studios in San Diego — verified picks for every level.",
+    description: "Six curated Pilates studios in San Diego: verified picks for every level.",
     images: ["https://images.unsplash.com/photo-1538689621163-f0aa0c3db346?w=1200&q=80"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/cities/san-diego" },
@@ -38,11 +38,11 @@ const STUDIOS = [
     neighborhood: "Hillcrest",
     priceLevel: "$$$",
     review: "Beyond Pilates on University Avenue is Hillcrest's reformer studio, a convenient option for Uptown, Mission Hills and North Park residents.",
-    caveat: "limited published detail about class formats — take an intro class first.",
+    caveat: "limited published detail about class formats: take an intro class first.",
     address: "423 University Ave, San Diego, CA 92103",
     bestFor: "Reformer Pilates in Hillcrest",
     signatureClass: "Reformer Pilates",
-    bookingTip: "Weekend classes fill quickly — book ahead.",
+    bookingTip: "Weekend classes fill quickly: book ahead.",
   },
   {
     number: "02",
@@ -50,7 +50,7 @@ const STUDIOS = [
     neighborhood: "University Heights",
     priceLevel: "$$$",
     review: "The Pilates Studio on Park Boulevard is an independent studio in University Heights, close to Hillcrest and North Park.",
-    caveat: "limited published detail about class formats — take an intro class first.",
+    caveat: "limited published detail about class formats: take an intro class first.",
     address: "4241 Park Blvd, San Diego, CA 92103",
     bestFor: "Independent Pilates in University Heights",
     signatureClass: "Pilates Class",
@@ -62,7 +62,7 @@ const STUDIOS = [
     neighborhood: "La Jolla",
     priceLevel: "$$$",
     review: "Club Pilates La Jolla on Villa La Jolla Drive serves La Jolla and the UTC area with levelled group reformer classes.",
-    caveat: "a franchise format — consistent, but less personalised than an independent studio.",
+    caveat: "a franchise format: consistent, but less personalised than an independent studio.",
     address: "8657 Villa La Jolla Dr, Suite 125, La Jolla, CA 92037",
     bestFor: "La Jolla and UTC residents",
     signatureClass: "Reformer Flow",
@@ -74,7 +74,7 @@ const STUDIOS = [
     neighborhood: "North Park",
     priceLevel: "$$",
     review: "Club Pilates North Park on 30th Street brings levelled group reformer classes to one of San Diego's most walkable neighbourhoods.",
-    caveat: "a franchise format — consistent, but less personalised than an independent studio.",
+    caveat: "a franchise format: consistent, but less personalised than an independent studio.",
     address: "3959 30th St, Suite 101, San Diego, CA 92104",
     bestFor: "North Park residents",
     signatureClass: "Reformer Flow",
@@ -86,11 +86,11 @@ const STUDIOS = [
     neighborhood: "Carmel Valley / Del Mar",
     priceLevel: "$$$",
     review: "Club Pilates Del Mar on El Camino Real serves Carmel Valley and Del Mar with levelled group reformer classes.",
-    caveat: "a franchise format — consistent, but less personalised than an independent studio.",
+    caveat: "a franchise format: consistent, but less personalised than an independent studio.",
     address: "12843 El Camino Real, Suite 202, San Diego, CA 92130",
     bestFor: "Carmel Valley and Del Mar residents",
     signatureClass: "Reformer Flow",
-    bookingTip: "Morning classes fill first — book two days ahead.",
+    bookingTip: "Morning classes fill first: book two days ahead.",
   },
   {
     number: "06",
@@ -98,7 +98,7 @@ const STUDIOS = [
     neighborhood: "Encinitas / North County",
     priceLevel: "$$",
     review: "Club Pilates Encinitas on 2nd Street is close to downtown Encinitas and the coast, with levelled group reformer classes.",
-    caveat: "a franchise format — consistent, but less personalised than an independent studio.",
+    caveat: "a franchise format: consistent, but less personalised than an independent studio.",
     address: "555 2nd St, Suite 2, Encinitas, CA 92024",
     bestFor: "North County coastal residents",
     signatureClass: "Reformer Flow",
@@ -107,9 +107,9 @@ const STUDIOS = [
 ];
 
 const BOOKING_TIPS = [
-  { heading: "Expect to pay $30–58 per class", body: "San Diego's Pilates market sits between Los Angeles and the broader California baseline — premium but not LA-extreme. Drop-in rates run from $30 at community studios to $58 at La Jolla premium practices. Monthly memberships bring per-class costs to $20–32 for regular practitioners." },
-  { heading: "San Diego's outdoor culture complements Pilates well", body: "The city's year-round temperate climate supports an unusually active outdoor population — surfers, trail runners, cyclists, and triathletes who find Pilates an ideal complement to their primary activities. Studios that understand this crossover, particularly in North County and coastal communities, produce programming that serves the active San Diego body particularly well." },
-  { heading: "North County is a distinct market", body: "Encinitas, Del Mar, Carlsbad, and Oceanside have their own strong studio cultures that are distinct from central San Diego. North County practitioners don't need to drive into the city for quality — the studio density and instruction quality in coastal North County is genuinely excellent." },
+  { heading: "Expect to pay $30–58 per class", body: "San Diego's Pilates market sits between Los Angeles and the broader California baseline: premium but not LA-extreme. Drop-in rates run from $30 at community studios to $58 at La Jolla premium practices. Monthly memberships bring per-class costs to $20–32 for regular practitioners." },
+  { heading: "San Diego's outdoor culture complements Pilates well", body: "The city's year-round temperate climate supports an unusually active outdoor population: surfers, trail runners, cyclists, and triathletes who find Pilates an ideal complement to their primary activities. Studios that understand this crossover, particularly in North County and coastal communities, produce programming that serves the active San Diego body particularly well." },
+  { heading: "North County is a distinct market", body: "Encinitas, Del Mar, Carlsbad, and Oceanside have their own strong studio cultures that are distinct from central San Diego. North County practitioners don't need to drive into the city for quality: the studio density and instruction quality in coastal North County is genuinely excellent." },
   { heading: "Military community shapes the market", body: "San Diego's large military presence creates specific demand for movement practices suited to post-deployment rehabilitation, performance maintenance, and the needs of practitioners moving between duty stations. Studios with strong rehabilitation credentials are particularly well-served for this population." },
   { heading: "Grip socks are required at every reformer studio", body: "Universal across San Diego's reformer market. Buying quality grip socks from Amazon before your first class is a consistent saving over front-desk pricing." },
 ];
@@ -130,7 +130,7 @@ const GEAR = [
   },
   {
     name: "Pilates Mat",
-    note: "Our pick: Manduka PRO Yoga & Pilates Mat (6mm). San Diego's year-round climate makes outdoor and home mat practice genuinely practical — a quality 6mm mat is worth owning.",
+    note: "Our pick: Manduka PRO Yoga & Pilates Mat (6mm). San Diego's year-round climate makes outdoor and home mat practice genuinely practical: a quality 6mm mat is worth owning.",
     price: "$144.00",
     url: "https://www.amazon.com/dp/B0066T7I54?tag=pilatescollective-20",
   },
@@ -142,16 +142,16 @@ const GEAR = [
   },
   {
     name: "Resistance Bands Set",
-    note: "Our pick: Arena Strength Fabric Glute Bands (3-Pack). Portable fabric bands are perfect for the San Diego outdoor-active lifestyle — use them before surfing, running, or at home.",
+    note: "Our pick: Arena Strength Fabric Glute Bands (3-Pack). Portable fabric bands are perfect for the San Diego outdoor-active lifestyle: use them before surfing, running, or at home.",
     price: "$29.00",
     url: "https://www.amazon.com/dp/B07VYK14JC?tag=pilatescollective-20",
   },
 ];
 
 const HOME_REFORMERS = [
-  { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work — three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
+  { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work: three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
   { tag: "Mid-Range Pick", name: "AeroPilates Pro XP 557", note: "AeroPilates' top-of-the-range home reformer, a step up for practitioners training several times a week.", price: "$1,329.99", url: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20" },
-  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order — an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
+  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
 ];
 
 const RELATED_CITIES = [
@@ -211,7 +211,7 @@ export default function SanDiegoPage() {
             <p className="text-sm mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated October 2026 · 9 min read</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              San Diego&apos;s Pilates scene is shaped by the city&apos;s distinctly physical character — a year-round outdoor culture built around surfing, running, cycling, and the Pacific, combined with a large military population, a world-class biotech and research cluster, and a wellness consciousness that is genuine rather than fashionable. The studio landscape spans La Jolla&apos;s classical practices and Del Mar&apos;s coastal boutiques to North Park&apos;s independent community studios and the athletic offerings of Encinitas. This guide covers the six studios worth your time, verified October 2026.
+              San Diego&apos;s Pilates scene is shaped by the city&apos;s distinctly physical character: a year-round outdoor culture built around surfing, running, cycling, and the Pacific, combined with a large military population, a world-class biotech and research cluster, and a wellness consciousness that is genuine rather than fashionable. The studio landscape spans La Jolla&apos;s classical practices and Del Mar&apos;s coastal boutiques to North Park&apos;s independent community studios and the athletic offerings of Encinitas. This guide covers the six studios worth your time, verified October 2026.
             </p>
           </div>
         </section>
@@ -286,7 +286,7 @@ export default function SanDiegoPage() {
             <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Prefer To Train At Home?</p>
             <h2 className="text-3xl font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Not convinced? How about Pilates at home?</h2>
             <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-              Studio pricing or scheduling not for you right now? A home reformer gets you a genuine Pilates session on your own time. Here's where to start — from a $299 entry point to the machine serious practitioners buy once.{" "}
+              Studio pricing or scheduling not for you right now? A home reformer gets you a genuine Pilates session on your own time. Here's where to start, from a $299 entry point to the machine serious practitioners buy once.{" "}
               <Link href="/blog/best-home-pilates-reformer" style={{ color: "#8b4a31", textDecoration: "underline", fontFamily: "'Montserrat', sans-serif", fontSize: "inherit" }}>See the full reformer guide.</Link>
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
@@ -338,7 +338,7 @@ export default function SanDiegoPage() {
           </div>
         </section>
 
-        <CTASection title="Find Pilates near you" subtitle="Use our AI Finder to discover studios in any city — coming soon." showSearch searchPlaceholder="Ask: best Pilates for surfers in San Diego…" />
+        <CTASection title="Find Pilates near you" subtitle="Use our AI Finder to discover studios in any city: coming soon." showSearch searchPlaceholder="Ask: best Pilates for surfers in San Diego…" />
       </main>
       <Footer />
     </>

@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Best Pilates Studios in San Francisco (2026)",
     description:
-      "Six curated Pilates studios in San Francisco — Laurel Heights, Mission, Castro, Richmond and West Portal picks. Verified 2026.",
+      "Six curated Pilates studios in San Francisco: Laurel Heights, Mission, Castro, Richmond and West Portal picks. Verified 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/san-francisco",
     images: [
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
         url: "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=1200&q=80",
         width: 1200,
         height: 630,
-        alt: "San Francisco city guide — Pilates Collective Club",
+        alt: "San Francisco city guide: Pilates Collective Club",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Best Pilates Studios in San Francisco (2026)",
     description:
-      "Discover the best Pilates studios in San Francisco — six curated picks with booking tips for 2026.",
+      "Discover the best Pilates studios in San Francisco: six curated picks with booking tips for 2026.",
     images: ["https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=1200&q=80"],
   },
   alternates: {
@@ -57,7 +57,7 @@ const STUDIOS = [
     address: "3654 Sacramento St, San Francisco, CA 94118",
     bestFor: "Classical Pilates combined with high-intensity approaches",
     signatureClass: "Mighty Reformer",
-    bookingTip: "Early-morning weekday slots are the most competitive — book as soon as the schedule opens.",
+    bookingTip: "Early-morning weekday slots are the most competitive: book as soon as the schedule opens.",
   },
   {
     number: "02",
@@ -68,7 +68,7 @@ const STUDIOS = [
     address: "3585 20th St, San Francisco, CA 94110",
     bestFor: "High-intensity, low-impact group sculpt classes",
     signatureClass: "BODYROK Sculpt",
-    bookingTip: "Fast-paced classes have a learning curve — take a beginner-friendly class first and arrive early to set up.",
+    bookingTip: "Fast-paced classes have a learning curve: take a beginner-friendly class first and arrive early to set up.",
   },
   {
     number: "03",
@@ -86,11 +86,11 @@ const STUDIOS = [
     name: "Nice Pilates",
     neighborhood: "Central Richmond",
     priceLevel: "$$",
-    review: "NICE Pilates — the name stands for Nourishing, Integrative, Classical, Experience — is a classical-leaning studio on 15th Avenue in the Richmond District, with an intimate neighbourhood feel and instructors known for making every client feel cared for. A true local gem that serves the Richmond's diverse, community-oriented population.",
+    review: "NICE Pilates (the name stands for Nourishing, Integrative, Classical, Experience) is a classical-leaning studio on 15th Avenue in the Richmond District, with an intimate neighbourhood feel and instructors known for making every client feel cared for. A true local gem that serves the Richmond's diverse, community-oriented population.",
     address: "412 15th Ave, San Francisco, CA 94118",
     bestFor: "Community-focused neighborhood Pilates; accessible pricing",
     signatureClass: "Classical Reformer",
-    bookingTip: "Small classes fill — book a few days ahead.",
+    bookingTip: "Small classes fill: book a few days ahead.",
   },
   {
     number: "05",
@@ -101,7 +101,7 @@ const STUDIOS = [
     address: "183 W Portal Ave, San Francisco, CA 94127",
     bestFor: "Owner-led instruction; cozy non-intimidating studio",
     signatureClass: "Private / Duet / Trio Session",
-    bookingTip: "Because it's owner-operated, sessions book out quickly — reach out via the website contact form rather than waiting for open online availability.",
+    bookingTip: "Because it's owner-operated, sessions book out quickly: reach out via the website contact form rather than waiting for open online availability.",
   },
   {
     number: "06",
@@ -122,8 +122,8 @@ const BOOKING_TIPS = [
     body: "San Francisco boutique Pilates sits at the higher end of the US market. Drop-in reformer classes range from around $30 at value studios to $50–55 at premium boutiques. Monthly unlimited memberships typically run $220–320 and represent the best per-class value for regular practitioners.",
   },
   {
-    heading: "Intro offers are standard — use them strategically",
-    body: "Most SF studios offer a new-client deal, typically three classes for $49–79 or an unlimited two-week pass for $79. Take these at two or three studios before committing — the instruction style and community culture vary considerably across the city.",
+    heading: "Intro offers are standard: use them strategically",
+    body: "Most SF studios offer a new-client deal, typically three classes for $49–79 or an unlimited two-week pass for $79. Take these at two or three studios before committing: the instruction style and community culture vary considerably across the city.",
   },
   {
     heading: "ClassPass covers the mid-tier well",
@@ -131,11 +131,11 @@ const BOOKING_TIPS = [
   },
   {
     heading: "Grip socks are mandatory at every studio",
-    body: "No exceptions — bring your own. The standard is toeless grip socks, available at most studios for $15–18 or cheaper online. A few studios will loan a pair for your first visit but will charge for them.",
+    body: "No exceptions: bring your own. The standard is toeless grip socks, available at most studios for $15–18 or cheaper online. A few studios will loan a pair for your first visit but will charge for them.",
   },
   {
     heading: "Neighbourhood matters for your routine",
-    body: "San Francisco's hills and traffic patterns make cross-city commutes genuinely inconvenient at peak times. Choose a studio within fifteen minutes of your home or office — consistency matters far more than prestige, and a studio you'll actually attend is always the right studio.",
+    body: "San Francisco's hills and traffic patterns make cross-city commutes genuinely inconvenient at peak times. Choose a studio within fifteen minutes of your home or office: consistency matters far more than prestige, and a studio you'll actually attend is always the right studio.",
   },
 ];
 
@@ -153,7 +153,7 @@ const NEIGHBORHOODS = [
   {
     name: "Russian Hill & Polk Gulch",
     description:
-      "Home to some of the city's most classically-minded studios. The elevated streets and neighbourhood calm suit the focused, methodical approach these studios bring. The Pilates Studio SF sets the tone — serious, traditional, and deeply invested in the original method.",
+      "Home to some of the city's most classically-minded studios. The elevated streets and neighbourhood calm suit the focused, methodical approach these studios bring. The Pilates Studio SF sets the tone: serious, traditional, and deeply invested in the original method.",
   },
   {
     name: "SoMa",
@@ -177,7 +177,7 @@ const GEAR = [
   },
   {
     name: "Magic Circle",
-    note: "Our pick: Balanced Body Ultra-Fit Circle (15-inch). Many studios incorporate the magic circle — worth owning for home reinforcement work.",
+    note: "Our pick: Balanced Body Ultra-Fit Circle (15-inch). Many studios incorporate the magic circle: worth owning for home reinforcement work.",
     price: "$35.00",
     url: "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20",
   },
@@ -195,16 +195,16 @@ const GEAR = [
   },
   {
     name: "Home Pilates Reformer",
-    note: "Our pick: PAETA Wooden Foldable Reformer. A home reformer extends your studio practice — AeroPilates and Align entry models deliver a genuine full-body session.",
+    note: "Our pick: PAETA Wooden Foldable Reformer. A home reformer extends your studio practice: AeroPilates and Align entry models deliver a genuine full-body session.",
     price: "$699.98",
     url: "https://www.amazon.com/dp/B0D7M7JNFV?tag=pilatescollective-20",
   },
 ];
 
 const HOME_REFORMERS = [
-  { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work — three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
+  { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work: three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
   { tag: "Mid-Range Pick", name: "AeroPilates Pro XP 557", note: "AeroPilates' top-of-the-range home reformer, a step up for practitioners training several times a week.", price: "$1,329.99", url: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20" },
-  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order — an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
+  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
 ];
 
 const RELATED_CITIES = [
@@ -217,7 +217,7 @@ const RELATED_CITIES = [
 const FURTHER_READING = [
   {
     title: "Best Pilates Equipment for Home Practice",
-    excerpt: "Everything you need between studio sessions — from a quality mat to resistance bands.",
+    excerpt: "Everything you need between studio sessions, from a quality mat to resistance bands.",
     href: "/blog/best-pilates-equipment-for-home-practice",
     category: "Equipment",
     readTime: "10 min read",
@@ -320,7 +320,7 @@ export default function SanFranciscoPage() {
             </p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              San Francisco has cultivated one of the most discerning wellness cultures in the United States. The city's Pilates scene reflects that — ranging from classical studios with Gratz apparatus and lineage credentials to sleek SoMa boutiques built for high-achieving professionals. Whether you're looking for private instruction in Noe Valley or a rigorous group reformer class in Pacific Heights, this guide covers the six studios that consistently deliver on both instruction quality and experience.
+              San Francisco has cultivated one of the most discerning wellness cultures in the United States. The city's Pilates scene reflects that: ranging from classical studios with Gratz apparatus and lineage credentials to sleek SoMa boutiques built for high-achieving professionals. Whether you're looking for private instruction in Noe Valley or a rigorous group reformer class in Pacific Heights, this guide covers the six studios that consistently deliver on both instruction quality and experience.
             </p>
           </div>
         </section>
@@ -350,7 +350,7 @@ export default function SanFranciscoPage() {
             <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Before You Go</p>
             <h2 className="text-3xl font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What to bring to your first class</h2>
             <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-              Grip socks are required at most reformer studios in San Francisco. These are our recommended picks — all available on Amazon.{" "}
+              Grip socks are required at most reformer studios in San Francisco. These are our recommended picks: all available on Amazon.{" "}
               <Link href="/affiliate-disclosure" style={{ color: "#8b4a31", textDecoration: "underline", fontFamily: "'Montserrat', sans-serif", fontSize: "inherit" }}>Affiliate disclosure.</Link>
             </p>
             <QuickPicks className="mb-0" picks={GEAR.map((g) => ({ name: g.note.match(/Our pick: ([^.]+(?:\.\d+[^.]*)?)\./)?.[1] ?? g.name, price: g.price, url: g.url, note: g.name }))} />
@@ -413,7 +413,7 @@ export default function SanFranciscoPage() {
             <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Prefer To Train At Home?</p>
             <h2 className="text-3xl font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Not convinced? How about Pilates at home?</h2>
             <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-              Studio pricing or scheduling not for you right now? A home reformer gets you a genuine Pilates session on your own time. Here's where to start — from a $299 entry point to the machine serious practitioners buy once.{" "}
+              Studio pricing or scheduling not for you right now? A home reformer gets you a genuine Pilates session on your own time. Here's where to start, from a $299 entry point to the machine serious practitioners buy once.{" "}
               <Link href="/blog/best-home-pilates-reformer" style={{ color: "#8b4a31", textDecoration: "underline", fontFamily: "'Montserrat', sans-serif", fontSize: "inherit" }}>See the full reformer guide.</Link>
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">

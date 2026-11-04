@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "Best Pilates Gifts for Him (2026)",
-    description: "The best pilates gifts for men — gear he'll actually use, from top brands that perform.",
+    description: "The best pilates gifts for men: gear he'll actually use, from top brands that perform.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-gifts-for-him",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg", width: 1200, height: 630, alt: "Best Pilates Gifts for Him 2026" }],
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Gifts for Him (2026)",
-    description: "Pilates gifts for the man in your life who trains — practical, premium, and actually useful.",
+    description: "Pilates gifts for the man in your life who trains: practical, premium, and actually useful.",
     images: ["https://pilatescollectiveclub.com/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/best-pilates-gifts-for-him" },
@@ -45,7 +45,7 @@ const PRODUCTS = [
     name: "Lululemon ABC Pant (Classic Fit)",
     price: "$128",
     verdict: "The Best Men's Pilates Pant",
-    description: "The Lululemon ABC pant is the men's activewear piece that converts sceptics — designed with a gusseted crotch for full range of motion, four-way stretch fabric, and a tailored silhouette that works on the reformer as well as in a meeting. Made from Warpstreme fabric, which is moisture-wicking, lightweight, and wrinkle-resistant. The flat waistband sits flush against the reformer carriage padding. Available in slim and classic fits, in neutral and seasonal colours. For a man who does pilates regularly, this is the gift that immediately becomes the pant he reaches for every class. Not sold on Amazon: this link goes to Lululemon's own site.",
+    description: "The Lululemon ABC pant is the men's activewear piece that converts sceptics, designed with a gusseted crotch for full range of motion, four-way stretch fabric, and a tailored silhouette that works on the reformer as well as in a meeting. Made from Warpstreme fabric, which is moisture-wicking, lightweight, and wrinkle-resistant. The flat waistband sits flush against the reformer carriage padding. Available in slim and classic fits, in neutral and seasonal colours. For a man who does pilates regularly, this is the gift that immediately becomes the pant he reaches for every class. Not sold on Amazon: this link goes to Lululemon's own site.",
     affiliateUrl: "https://shop.lululemon.com",
   },
   {
@@ -53,7 +53,7 @@ const PRODUCTS = [
     name: "Vuori Ponto Performance Jogger",
     price: "$89",
     verdict: "Best Relaxed-Fit Training Pant",
-    description: "Vuori is the activewear brand that the pilates and wellness community has quietly adopted for men who want quality without the Lululemon logo. The Ponto Jogger is their most refined piece — made from a four-way stretch French terry that's soft enough for mat work and structured enough to wear out of the studio. Tapered leg, hidden side pockets, and a waistband that stays put through every spinal articulation and footbar press. Available in Vuori's muted, earthy palette. A gift that earns its keep in his regular rotation. Not sold on Amazon: this link goes to Vuori's own site.",
+    description: "Vuori is the activewear brand that the pilates and wellness community has quietly adopted for men who want quality without the Lululemon logo. The Ponto Jogger is their most refined piece, made from a four-way stretch French terry that's soft enough for mat work and structured enough to wear out of the studio. Tapered leg, hidden side pockets, and a waistband that stays put through every spinal articulation and footbar press. Available in Vuori's muted, earthy palette. A gift that earns its keep in his regular rotation. Not sold on Amazon: this link goes to Vuori's own site.",
     affiliateUrl: "https://vuoriclothing.com",
   },
   {
@@ -61,7 +61,7 @@ const PRODUCTS = [
     name: "Theragun Elite (5th Gen)",
     price: "$399.00",
     verdict: "Best Recovery Gift for Men",
-    description: "For a man who trains regularly — in pilates or otherwise — the Theragun Elite is the recovery tool that makes a genuine, immediately-felt difference. It reaches 16mm of amplitude at 1,750–2,400 RPM, penetrating deep enough to address the hip flexors, thoracic extensors, and shoulders that accumulate tension through reformer practice. Five attachments cover every muscle group from the glutes to the neck. 120-minute battery life, quieter operation than previous generations, and Bluetooth connectivity to the Therabody app for guided protocols. A premium gift he'll use daily.",
+    description: "For a man who trains regularly, in pilates or otherwise, the Theragun Elite is the recovery tool that makes a genuine, immediately-felt difference. It reaches 16mm of amplitude at 1,750–2,400 RPM, penetrating deep enough to address the hip flexors, thoracic extensors, and shoulders that accumulate tension through reformer practice. Five attachments cover every muscle group from the glutes to the neck. 120-minute battery life, quieter operation than previous generations, and Bluetooth connectivity to the Therabody app for guided protocols. A premium gift he'll use daily.",
     affiliateUrl: "https://www.amazon.com/dp/B0C42NTLYC?tag=pilatescollective-20",
   },
   {
@@ -69,7 +69,7 @@ const PRODUCTS = [
     name: "Manduka PRO Yoga & Pilates Mat",
     price: "$144.00",
     verdict: "Best Mat for Serious Practitioners",
-    description: "The Manduka PRO is the professional standard in pilates and yoga mats — and one of the few pieces of studio equipment that men and women buy identically. At 6mm thick, it provides full joint protection for knees and spine during mat work; the closed-cell PVC surface grips without sticking, and the lifetime guarantee means it's the last mat he'll need to buy. Professional instructors buy this for themselves. For a man who is serious about his practice, it's the most impactful equipment upgrade available at this price.",
+    description: "The Manduka PRO is the professional standard in pilates and yoga mats, and one of the few pieces of studio equipment that men and women buy identically. At 6mm thick, it provides full joint protection for knees and spine during mat work; the closed-cell PVC surface grips without sticking, and the lifetime guarantee means it's the last mat he'll need to buy. Professional instructors buy this for themselves. For a man who is serious about his practice, it's the most impactful equipment upgrade available at this price.",
     affiliateUrl: "https://www.amazon.com/dp/B0066T7I54?tag=pilatescollective-20",
   },
   {
@@ -77,7 +77,7 @@ const PRODUCTS = [
     name: "Hydro Flask 32oz Wide Mouth Water Bottle",
     price: "$44.70",
     verdict: "Best Everyday Gift",
-    description: "The 32oz Hydro Flask is the water bottle that the serious training community has settled on — genuinely double-wall vacuum insulated, so water stays cold for 24 hours and hot drinks stay warm for 12. The 32oz wide mouth is the men's standard: large enough to cover a full class and a post-class stretch without needing a refill, with a wide opening that takes ice easily. The flex cap is simple, leak-proof, and secure in any bag. Available in a wide range of solid colours. A practical, premium gift that travels everywhere he does.",
+    description: "The 32oz Hydro Flask is the water bottle that the serious training community has settled on: genuinely double-wall vacuum insulated, so water stays cold for 24 hours and hot drinks stay warm for 12. The 32oz wide mouth is the men's standard: large enough to cover a full class and a post-class stretch without needing a refill, with a wide opening that takes ice easily. The flex cap is simple, leak-proof, and secure in any bag. Available in a wide range of solid colours. A practical, premium gift that travels everywhere he does.",
     affiliateUrl: "https://www.amazon.com/dp/B0FJZHK6YQ?tag=pilatescollective-20",
   },
   {
@@ -85,7 +85,7 @@ const PRODUCTS = [
     name: "TriggerPoint GRID Foam Roller",
     price: "$28.99",
     verdict: "Best Value Recovery Gift",
-    description: "TriggerPoint is the foam roller brand that physical therapists prescribe and professional sports teams specify. The GRID's multi-density surface works harder than a uniform roller — three zone patterns that replicate the varying pressure of a therapist's hand, targeting the IT band, thoracic spine, and glutes that accumulate tension in pilates training. The hollow core supports up to 500 lbs and won't compress over time. At $36 it is the single best-value recovery gift in this category — he'll use it before and after every training session.",
+    description: "TriggerPoint is the foam roller brand that physical therapists prescribe and professional sports teams specify. The GRID's multi-density surface works harder than a uniform roller: three zone patterns that replicate the varying pressure of a therapist's hand, targeting the IT band, thoracic spine, and glutes that accumulate tension in pilates training. The hollow core supports up to 500 lbs and won't compress over time. At $36 it is the single best-value recovery gift in this category: he'll use it before and after every training session.",
     affiliateUrl: "https://www.amazon.com/dp/B0040EGNIU?tag=pilatescollective-20",
   },
 ];
@@ -97,11 +97,11 @@ const CRITERIA = [
   },
   {
     heading: "Recovery gifts land exceptionally well for men",
-    body: "Men who train regularly often invest in performance but under-invest in recovery. A Theragun or TriggerPoint GRID isn't just equipment — it addresses a real gap. These are gifts he would eventually buy for himself but hasn't yet, which makes them uniquely appreciated.",
+    body: "Men who train regularly often invest in performance but under-invest in recovery. A Theragun or TriggerPoint GRID isn't just equipment: it addresses a real gap. These are gifts he would eventually buy for himself but hasn't yet, which makes them uniquely appreciated.",
   },
   {
     heading: "Skip the generic and go brand-specific",
-    body: "Generic resistance bands and foam rollers from unrecognised brands communicate the wrong thing. Theragun, Manduka, TriggerPoint, Lululemon, and Vuori are names that signal quality in training circles — they tell him you understand what he actually does.",
+    body: "Generic resistance bands and foam rollers from unrecognised brands communicate the wrong thing. Theragun, Manduka, TriggerPoint, Lululemon, and Vuori are names that signal quality in training circles: they tell him you understand what he actually does.",
   },
   {
     heading: "Know whether he goes to a studio",
@@ -112,7 +112,7 @@ const CRITERIA = [
 const FAQ = [
   {
     q: "What is the best pilates gift for a man?",
-    a: "The Lululemon ABC Pant ($128) is the best pilates gift for a man — it is the standard men's pilates pant, loved for its range of motion, clean look, and premium fabric. For recovery, the Theragun Elite ($399) is the most impactful investment at a higher price point. At a more accessible budget, the TriggerPoint GRID Roller ($28.99) is the best value recovery gift available.",
+    a: "The Lululemon ABC Pant ($128) is the best pilates gift for a man: it is the standard men's pilates pant, loved for its range of motion, clean look, and premium fabric. For recovery, the Theragun Elite ($399) is the most impactful investment at a higher price point. At a more accessible budget, the TriggerPoint GRID Roller ($28.99) is the best value recovery gift available.",
   },
   {
     q: "What do men need for pilates?",
@@ -120,17 +120,17 @@ const FAQ = [
   },
   {
     q: "Is Lululemon good for men's pilates?",
-    a: "Yes — Lululemon ABC pants are the most recommended men's pilates pant by both instructors and regular practitioners. The Warpstreme fabric stretches in every direction for full pilates range of motion, and the gusseted construction prevents restriction during footwork and leg circles. The fit is tailored enough to look intentional in a studio setting.",
+    a: "Yes: Lululemon ABC pants are the most recommended men's pilates pant by both instructors and regular practitioners. The Warpstreme fabric stretches in every direction for full pilates range of motion, and the gusseted construction prevents restriction during footwork and leg circles. The fit is tailored enough to look intentional in a studio setting.",
   },
   {
     q: "What is a good under-$50 pilates gift for a man?",
-    a: "The TriggerPoint GRID Foam Roller ($28.99) is the best under-$50 pilates gift for a man — physical therapists recommend it, it addresses the thoracic spine, IT band, and hip flexors that accumulate tension in pilates, and the quality is obvious on first use. A Hydro Flask 32oz ($45) is the best non-equipment option at this budget.",
+    a: "The TriggerPoint GRID Foam Roller ($28.99) is the best under-$50 pilates gift for a man: physical therapists recommend it, it addresses the thoracic spine, IT band, and hip flexors that accumulate tension in pilates, and the quality is obvious on first use. A Hydro Flask 32oz ($45) is the best non-equipment option at this budget.",
   },
 ];
 
 const RELATED = [
   { title: "Best Pilates Equipment for Men", excerpt: "The complete guide to pilates gear for male practitioners.", href: "/blog/best-pilates-equipment-for-men", category: "Equipment", readTime: "11 min", imageUrl: "/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg" },
-  { title: "Best Pilates Clothes for Men", excerpt: "The best activewear for men doing pilates — compared and ranked.", href: "/blog/best-pilates-clothes-for-men", category: "Clothing", readTime: "9 min", imageUrl: "/pictures/ahmet-kurt-0xn-8kRWOhE-unsplash.jpg" },
+  { title: "Best Pilates Clothes for Men", excerpt: "The best activewear for men doing pilates: compared and ranked.", href: "/blog/best-pilates-clothes-for-men", category: "Clothing", readTime: "9 min", imageUrl: "/pictures/ahmet-kurt-0xn-8kRWOhE-unsplash.jpg" },
   { title: "Best Luxury Pilates Gifts", excerpt: "Investment-grade gifts for the serious practitioner.", href: "/blog/best-luxury-pilates-gifts", category: "Guide", readTime: "9 min", imageUrl: "/pictures/stitch-studio-bench-towels.png" },
 ];
 
@@ -140,7 +140,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Best Pilates Gifts for Him (2026)",
-      "description": "The best pilates gifts for men — from Lululemon ABC pants and Vuori joggers to Theragun recovery and Manduka mats.",
+      "description": "The best pilates gifts for men, from Lululemon ABC pants and Vuori joggers to Theragun recovery and Manduka mats.",
       "url": "https://pilatescollectiveclub.com/blog/best-pilates-gifts-for-him",
       "image": "https://pilatescollectiveclub.com/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg",
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -192,7 +192,7 @@ export default function Page() {
           <TopPick name={PRODUCTS[2].name} price={PRODUCTS[2].price} note={QP_NOTES[2]} url={PRODUCTS[2].affiliateUrl} />
           <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
           <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-            Men who do pilates tend to be particular about their gear — and they rarely buy the good stuff for themselves. This guide is built for the husband, boyfriend, or father who shows up to class in whatever he grabbed first, and deserves the Lululemon pants, the real foam roller, and the recovery tool he's been vaguely meaning to invest in. All picks are men's-specific or gender-neutral, from brands that have earned their place in serious training culture.
+            Men who do pilates tend to be particular about their gear, and they rarely buy the good stuff for themselves. This guide is built for the husband, boyfriend, or father who shows up to class in whatever he grabbed first, and deserves the Lululemon pants, the real foam roller, and the recovery tool he's been vaguely meaning to invest in. All picks are men's-specific or gender-neutral, from brands that have earned their place in serious training culture.
           </p>
         </div>
       </section>

@@ -16,15 +16,15 @@ export const metadata: Metadata = {
   keywords: ["pilates for office workers", "pilates desk job", "pilates for sitting all day", "pilates tech neck fix", "pilates sedentary lifestyle", "pilates work from home", "pilates for desk posture", "pilates lower back desk", "pilates hip flexors sitting", "office worker pilates 2026"],
   openGraph: {
     title: "Pilates for Office Workers (2026): The Antidote to Desk Posture",
-    description: "How Pilates specifically counters the damage of sitting all day — and the most time-efficient way to get it done.",
+    description: "How Pilates specifically counters the damage of sitting all day, and the most time-efficient way to get it done.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/pilates-for-office-workers",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/stitch-studio-bench-towels.png", width: 1200, height: 630, alt: "Pilates for Office Workers — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/stitch-studio-bench-towels.png", width: 1200, height: 630, alt: "Pilates for Office Workers: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Pilates for Office Workers: Fix Desk Posture in 2026",
-    description: "The Pilates approach to counteracting sitting all day — what works and the most efficient way to do it.",
+    description: "The Pilates approach to counteracting sitting all day: what works and the most efficient way to do it.",
     images: ["https://pilatescollectiveclub.com/pictures/stitch-studio-bench-towels.png"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/pilates-for-office-workers" },
@@ -37,7 +37,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Pilates for Office Workers & Desk Jobs (2026): Fix Posture, Reduce Pain",
-      "description": "A practical guide to Pilates for desk workers — the exercises that undo the damage of sitting, and how to fit them into a working week.",
+      "description": "A practical guide to Pilates for desk workers: the exercises that undo the damage of sitting, and how to fit them into a working week.",
       "url": "https://pilatescollectiveclub.com/blog/pilates-for-office-workers",
       "datePublished": "2026-06-01",
       "dateModified": "2026-10-20",
@@ -57,28 +57,28 @@ const jsonLd = {
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "How often should desk workers do Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "Three sessions per week is the research-supported threshold for meaningful adaptation. For desk workers specifically, two reformer or mat sessions per week combined with a short daily movement routine (10 minutes of targeted mobility work) tends to produce better results than three weekly classes alone — because the daily work interrupts the sustained sitting patterns that cause the problem." } },
-        { "@type": "Question", "name": "Can Pilates fix a desk hump (thoracic kyphosis)?", "acceptedAnswer": { "@type": "Answer", "text": "Pilates can significantly improve thoracic kyphosis — particularly in people under 50 whose kyphosis is primarily muscular and postural rather than structural. The thoracic extension exercises in the Pilates repertoire (swan prep, swimming, extension over the long box on the reformer) directly address the thoracic flexion bias. Results are typically noticeable within 6–8 weeks of consistent practice combined with improved desk ergonomics." } },
-        { "@type": "Question", "name": "Is Pilates or yoga better for desk workers?", "acceptedAnswer": { "@type": "Answer", "text": "Both are effective for desk workers. Pilates has a slight advantage for people with significant postural issues or spinal pain because the precision of exercise selection — and the ability to load specific muscles progressively — is greater. Yoga has advantages in terms of the range of flexibility work and the stress-reduction component. Many desk workers benefit from a combination of both." } },
-        { "@type": "Question", "name": "What equipment do I need for a desk worker Pilates routine at home?", "acceptedAnswer": { "@type": "Answer", "text": "A mat and a foam roller are the essential tools — the foam roller for thoracic extension release is the single most effective intervention for desk workers with upper back stiffness. A resistance band adds options for scapular and hip work. All three are available on Amazon for under £50 combined." } },
+        { "@type": "Question", "name": "How often should desk workers do Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "Three sessions per week is the research-supported threshold for meaningful adaptation. For desk workers specifically, two reformer or mat sessions per week combined with a short daily movement routine (10 minutes of targeted mobility work) tends to produce better results than three weekly classes alone, because the daily work interrupts the sustained sitting patterns that cause the problem." } },
+        { "@type": "Question", "name": "Can Pilates fix a desk hump (thoracic kyphosis)?", "acceptedAnswer": { "@type": "Answer", "text": "Pilates can significantly improve thoracic kyphosis, particularly in people under 50 whose kyphosis is primarily muscular and postural rather than structural. The thoracic extension exercises in the Pilates repertoire (swan prep, swimming, extension over the long box on the reformer) directly address the thoracic flexion bias. Results are typically noticeable within 6–8 weeks of consistent practice combined with improved desk ergonomics." } },
+        { "@type": "Question", "name": "Is Pilates or yoga better for desk workers?", "acceptedAnswer": { "@type": "Answer", "text": "Both are effective for desk workers. Pilates has a slight advantage for people with significant postural issues or spinal pain because the precision of exercise selection, and the ability to load specific muscles progressively, is greater. Yoga has advantages in terms of the range of flexibility work and the stress-reduction component. Many desk workers benefit from a combination of both." } },
+        { "@type": "Question", "name": "What equipment do I need for a desk worker Pilates routine at home?", "acceptedAnswer": { "@type": "Answer", "text": "A mat and a foam roller are the essential tools: the foam roller for thoracic extension release is the single most effective intervention for desk workers with upper back stiffness. A resistance band adds options for scapular and hip work. All three are available on Amazon for under £50 combined." } },
       ],
     },
   ],
 };
 
 const DESK_PRODUCTS = [
-  { name: "Full-length foam roller (90cm)", desc: "Thoracic extension — the highest-value tool for desk workers", url: "https://www.amazon.co.uk/s?k=foam+roller+full+90cm+pilates&tag=pilatescollective-20" },
+  { name: "Full-length foam roller (90cm)", desc: "Thoracic extension: the highest-value tool for desk workers", url: "https://www.amazon.co.uk/s?k=foam+roller+full+90cm+pilates&tag=pilatescollective-20" },
   { name: "Resistance bands set", desc: "Scapular rows and hip strengthening at home", url: "https://www.amazon.co.uk/s?k=resistance+bands+set+fabric+pilates&tag=pilatescollective-20" },
   { name: "Non-slip Pilates mat", desc: "For the daily 10-minute desk worker routine", url: "https://www.amazon.co.uk/s?k=non+slip+pilates+mat+thick&tag=pilatescollective-20" },
   { name: "Cork yoga block", desc: "Head support during supine exercises and seated forward bends", url: "https://www.amazon.co.uk/s?k=cork+yoga+block+pilates+head+support&tag=pilatescollective-20" },
 ];
 
 const PRODUCTS = [
-  { name: "Manduka PRO Pilates Mat", description: "For the home practice that desk workers need between studio sessions. A high-quality mat makes the 20-minute morning routine sustainable — the surface quality affects the practice quality.", price: "$144.00", affiliateUrl: "https://www.amazon.com/dp/B0066T7I54?tag=pilatescollective-20" },
+  { name: "Manduka PRO Pilates Mat", description: "For the home practice that desk workers need between studio sessions. A high-quality mat makes the 20-minute morning routine sustainable: the surface quality affects the practice quality.", price: "$144.00", affiliateUrl: "https://www.amazon.com/dp/B0066T7I54?tag=pilatescollective-20" },
   { name: "OPTP Foam Roller (36-inch)", description: "The single most effective tool for undoing the damage of 8 hours at a desk. 10 minutes of thoracic mobilisation on a full-length foam roller restores range of motion that sitting removes.", price: "$62.99", affiliateUrl: "https://www.amazon.com/dp/B002C9EX14?tag=pilatescollective-20" },
-  { name: "TheraBand Resistance Bands Set", description: "Desk-break resistance band exercises for the rhomboids, lower trapezius, and rotator cuff — the muscles most weakened by sustained forward-arm posture. 10 reps per side, twice a day, makes a measurable difference.", price: "$11.99", affiliateUrl: "https://www.amazon.com/dp/B01A58FHQ8?tag=pilatescollective-20" },
-  { name: "Posture Corrector Back Brace", description: "Worn for 1-2 hours during desk work to reinforce the scapular retraction that Pilates builds. Not a substitute for the practice — a reminder during the hours between sessions.", price: "From $25", affiliateUrl: "https://www.amazon.com/s?k=posture+corrector+back+brace+adjustable&tag=pilatescollective-20" },
-  { name: "Balanced Body Magic Circle", description: "Quick desk-side exercises for hip flexor and adductor activation — the muscles that switch off during prolonged sitting and contribute directly to lower back and hip pain in office workers.", price: "$35.00", affiliateUrl: "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20" },
+  { name: "TheraBand Resistance Bands Set", description: "Desk-break resistance band exercises for the rhomboids, lower trapezius, and rotator cuff: the muscles most weakened by sustained forward-arm posture. 10 reps per side, twice a day, makes a measurable difference.", price: "$11.99", affiliateUrl: "https://www.amazon.com/dp/B01A58FHQ8?tag=pilatescollective-20" },
+  { name: "Posture Corrector Back Brace", description: "Worn for 1-2 hours during desk work to reinforce the scapular retraction that Pilates builds. Not a substitute for the practice: a reminder during the hours between sessions.", price: "From $25", affiliateUrl: "https://www.amazon.com/s?k=posture+corrector+back+brace+adjustable&tag=pilatescollective-20" },
+  { name: "Balanced Body Magic Circle", description: "Quick desk-side exercises for hip flexor and adductor activation: the muscles that switch off during prolonged sitting and contribute directly to lower back and hip pain in office workers.", price: "$35.00", affiliateUrl: "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20" },
 ];
 
 const QP_NOTES = ["A mat for home practice between studio sessions", "Undoes long hours of sitting at a desk", "Desk-break band work for the upper back", "Reinforces good shoulder position at your desk", "Quick hip flexor and adductor work at home"];
@@ -106,7 +106,7 @@ export default function PilatesForOfficeWorkersPage() {
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              If you spend most of your working day sitting — whether at a desk, in meetings, or working from home — your body is adapting to that posture in ways that are genuinely damaging. Short hip flexors, inhibited glutes, compressed lumbar discs, rounded thoracic spine, forward head posture. Pilates is, arguably, the single most efficient antidote to this collection of problems. Here is why, and how to use it.
+              If you spend most of your working day sitting (whether at a desk, in meetings, or working from home) your body is adapting to that posture in ways that are genuinely damaging. Short hip flexors, inhibited glutes, compressed lumbar discs, rounded thoracic spine, forward head posture. Pilates is, arguably, the single most efficient antidote to this collection of problems. Here is why, and how to use it.
             </p>
           </div>
         </section>
@@ -114,7 +114,7 @@ export default function PilatesForOfficeWorkersPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/stitch-studio-bench-towels.png" alt="Pilates for office workers — studio setting for postural correction and desk worker rehabilitation" fill className="object-cover" style={{ filter: "brightness(0.88)" }} />
+              <Image src="/pictures/stitch-studio-bench-towels.png" alt="Pilates for office workers: studio setting for postural correction and desk worker rehabilitation" fill className="object-cover" style={{ filter: "brightness(0.88)" }} />
             </div>
           </div>
         </section>
@@ -128,14 +128,14 @@ export default function PilatesForOfficeWorkersPage() {
             <div className="mb-14 mt-4">
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What sitting all day actually does to your body</h2>
               <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Sustained sitting is not simply uncomfortable — it produces measurable physiological changes that accumulate over months and years. Understanding the mechanism helps you understand why Pilates is the right corrective tool.
+                Sustained sitting is not simply uncomfortable: it produces measurable physiological changes that accumulate over months and years. Understanding the mechanism helps you understand why Pilates is the right corrective tool.
               </p>
               <div className="space-y-4 mt-4">
                 {[
-                  { label: "Hip flexors shorten and psoas tightens", body: "Sustained hip flexion (sitting) shortens the psoas and iliacus over time. A tight psoas pulls the lumbar vertebrae forward (anterior lumbar tilt) and compresses the discs — this is the primary source of the lower back pain that most desk workers experience. It also reduces hip extension range of motion, which affects walking gait and exercise capacity." },
-                  { label: "Glutes become inhibited", body: "Prolonged sitting compresses the glute muscles and inhibits their neural drive — a process called 'synergistic dominance' where the hamstrings and lower back take over from the glutes. Inhibited glutes mean poor hip extension, reduced pelvic stability, and increased risk of lower back pain. This is why desk workers often can't feel their glutes working during supposed glute exercises." },
-                  { label: "Thoracic spine stiffens into flexion", body: "Sitting in front of a screen pulls the thoracic spine into flexion and the shoulder blades into protraction. Over time, the thoracic extensors weaken and the chest muscles shorten. This is the physical basis of the desk hump — and it drives both the neck pain and the shoulder tension that desk workers experience." },
-                  { label: "Deep core becomes disengaged", body: "In habitual sitting posture, the transversus abdominis and multifidus — the deep stabilising muscles that Pilates specifically targets — are rarely engaged. Without the proprioceptive demands of standing and moving, these muscles become slow to activate and weak. The result is reduced spinal stability, increased disc loading, and vulnerability to the kind of acute lower back episodes that desk workers experience disproportionately." },
+                  { label: "Hip flexors shorten and psoas tightens", body: "Sustained hip flexion (sitting) shortens the psoas and iliacus over time. A tight psoas pulls the lumbar vertebrae forward (anterior lumbar tilt) and compresses the discs: this is the primary source of the lower back pain that most desk workers experience. It also reduces hip extension range of motion, which affects walking gait and exercise capacity." },
+                  { label: "Glutes become inhibited", body: "Prolonged sitting compresses the glute muscles and inhibits their neural drive: a process called 'synergistic dominance' where the hamstrings and lower back take over from the glutes. Inhibited glutes mean poor hip extension, reduced pelvic stability, and increased risk of lower back pain. This is why desk workers often can't feel their glutes working during supposed glute exercises." },
+                  { label: "Thoracic spine stiffens into flexion", body: "Sitting in front of a screen pulls the thoracic spine into flexion and the shoulder blades into protraction. Over time, the thoracic extensors weaken and the chest muscles shorten. This is the physical basis of the desk hump, and it drives both the neck pain and the shoulder tension that desk workers experience." },
+                  { label: "Deep core becomes disengaged", body: "In habitual sitting posture, the transversus abdominis and multifidus, the deep stabilising muscles that Pilates specifically targets, are rarely engaged. Without the proprioceptive demands of standing and moving, these muscles become slow to activate and weak. The result is reduced spinal stability, increased disc loading, and vulnerability to the kind of acute lower back episodes that desk workers experience disproportionately." },
                 ].map((item) => (
                   <div key={item.label} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.label}</p>
@@ -151,22 +151,22 @@ export default function PilatesForOfficeWorkersPage() {
                 {[
                   {
                     title: "Thoracic extension over a foam roller",
-                    body: "The single most impactful intervention for desk workers. Lying over a full-length foam roller positioned horizontally across the mid-back, you allow the chest and head to fall toward the floor — passively opening the thoracic spine into extension. Work from T4 to T9 in three positions. 5 minutes of this before any exercise session dramatically improves movement quality in everything that follows. Also appropriate as a standalone daily practice at home.",
+                    body: "The single most impactful intervention for desk workers. Lying over a full-length foam roller positioned horizontally across the mid-back, you allow the chest and head to fall toward the floor: passively opening the thoracic spine into extension. Work from T4 to T9 in three positions. 5 minutes of this before any exercise session dramatically improves movement quality in everything that follows. Also appropriate as a standalone daily practice at home.",
                     priority: "Daily",
                   },
                   {
                     title: "Hip flexor lengthening in kneeling lunge",
-                    body: "From a kneeling lunge position, you posterior-tilt the pelvis (tuck the tailbone slightly) and shift the hips forward until a stretch is felt at the front of the back thigh and hip. This directly addresses psoas shortening. Hold 60 seconds each side. The posterior pelvic tilt is critical — without it, the lumbar spine extends to compensate and the psoas does not lengthen. This is the modification that most people who 'lunge without results' are missing.",
+                    body: "From a kneeling lunge position, you posterior-tilt the pelvis (tuck the tailbone slightly) and shift the hips forward until a stretch is felt at the front of the back thigh and hip. This directly addresses psoas shortening. Hold 60 seconds each side. The posterior pelvic tilt is critical, without it, the lumbar spine extends to compensate and the psoas does not lengthen. This is the modification that most people who 'lunge without results' are missing.",
                     priority: "Daily",
                   },
                   {
                     title: "Bridge with progressive loading",
-                    body: "The bridge addresses glute inhibition directly — it's one of the few exercises where it is genuinely difficult to avoid glute engagement. Lying supine, feet hip-width, you lift the pelvis to a straight line from knees to shoulders. To progress: hold at the top, single-leg extension, or use a resistance band around the thighs to add adductor challenge. 3 sets of 12–15 repetitions.",
+                    body: "The bridge addresses glute inhibition directly: it's one of the few exercises where it is genuinely difficult to avoid glute engagement. Lying supine, feet hip-width, you lift the pelvis to a straight line from knees to shoulders. To progress: hold at the top, single-leg extension, or use a resistance band around the thighs to add adductor challenge. 3 sets of 12–15 repetitions.",
                     priority: "3x per week",
                   },
                   {
                     title: "Scapular setting and lower trapezius strengthening",
-                    body: "The lower and middle trapezius are consistently underactive in people who sit in front of screens. Scapular retraction exercises — drawing the shoulder blades together and downward without shrugging — directly target these muscles. Use a resistance band for rows (pulling the band toward the hips with straight arms) to load the lower trap specifically. 3 sets of 12.",
+                    body: "The lower and middle trapezius are consistently underactive in people who sit in front of screens. Scapular retraction exercises, drawing the shoulder blades together and downward without shrugging, directly target these muscles. Use a resistance band for rows (pulling the band toward the hips with straight arms) to load the lower trap specifically. 3 sets of 12.",
                     priority: "3x per week",
                   },
                   {
@@ -191,12 +191,12 @@ export default function PilatesForOfficeWorkersPage() {
               <p className="text-sm leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Perform before work or during a lunch break. Requires only a mat and foam roller. This is the minimum effective dose for desk workers who can only access the studio 1–2 times per week.</p>
               <ul className="space-y-3">
                 {[
-                  "Thoracic extension over foam roller × 2 minutes — 3 positions, 40 seconds each.",
-                  "Hip flexor kneeling stretch × 60 seconds each side — with posterior pelvic tilt engaged.",
-                  "Chin tuck × 10 reps — lying on back, gentle nod to activate deep neck flexors.",
-                  "Bridge × 15 reps × 2 sets — focus on glute activation, not just pelvis height.",
-                  "Swimming × 20 alternating lifts — slow, controlled, long spine.",
-                  "Spine twist seated × 8 reps each side — restoring thoracic rotation lost from forward-screen posture.",
+                  "Thoracic extension over foam roller × 2 minutes, 3 positions, 40 seconds each.",
+                  "Hip flexor kneeling stretch × 60 seconds each side, with posterior pelvic tilt engaged.",
+                  "Chin tuck × 10 reps: lying on back, gentle nod to activate deep neck flexors.",
+                  "Bridge × 15 reps × 2 sets: focus on glute activation, not just pelvis height.",
+                  "Swimming × 20 alternating lifts: slow, controlled, long spine.",
+                  "Spine twist seated × 8 reps each side: restoring thoracic rotation lost from forward-screen posture.",
                 ].map((tip, i) => (
                   <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                     <span className="font-semibold" style={{ color: "#8b4a31" }}>{i + 1}.</span>
@@ -217,17 +217,17 @@ export default function PilatesForOfficeWorkersPage() {
                   </a>
                 ))}
               </div>
-              <p className="text-xs mt-4" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Affiliate links — we earn a small commission on qualifying purchases at no extra cost to you.</p>
+              <p className="text-xs mt-4" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Affiliate links: we earn a small commission on qualifying purchases at no extra cost to you.</p>
             </div>
 
             <div className="mb-14">
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "How often should desk workers do Pilates?", a: "Three sessions per week is the research-supported threshold for meaningful adaptation. For desk workers specifically, two reformer or mat sessions per week combined with a short daily movement routine (10 minutes of targeted mobility work) tends to produce better results than three weekly classes alone — because the daily work interrupts the sustained sitting patterns that cause the problem." },
-                  { q: "Can Pilates fix a desk hump (thoracic kyphosis)?", a: "Pilates can significantly improve thoracic kyphosis — particularly in people under 50 whose kyphosis is primarily muscular and postural rather than structural. The thoracic extension exercises in the Pilates repertoire (swan prep, swimming, extension over the long box on the reformer) directly address the thoracic flexion bias. Results are typically noticeable within 6–8 weeks of consistent practice combined with improved desk ergonomics." },
-                  { q: "Is Pilates or yoga better for desk workers?", a: "Both are effective for desk workers. Pilates has a slight advantage for people with significant postural issues or spinal pain because the precision of exercise selection — and the ability to load specific muscles progressively — is greater. Yoga has advantages in terms of the range of flexibility work and the stress-reduction component. Many desk workers benefit from a combination of both." },
-                  { q: "What equipment do I need for a desk worker Pilates routine at home?", a: "A mat and a foam roller are the essential tools — the foam roller for thoracic extension release is the single most effective intervention for desk workers with upper back stiffness. A resistance band adds options for scapular and hip work. All three are available on Amazon for under £50 combined." },
+                  { q: "How often should desk workers do Pilates?", a: "Three sessions per week is the research-supported threshold for meaningful adaptation. For desk workers specifically, two reformer or mat sessions per week combined with a short daily movement routine (10 minutes of targeted mobility work) tends to produce better results than three weekly classes alone, because the daily work interrupts the sustained sitting patterns that cause the problem." },
+                  { q: "Can Pilates fix a desk hump (thoracic kyphosis)?", a: "Pilates can significantly improve thoracic kyphosis, particularly in people under 50 whose kyphosis is primarily muscular and postural rather than structural. The thoracic extension exercises in the Pilates repertoire (swan prep, swimming, extension over the long box on the reformer) directly address the thoracic flexion bias. Results are typically noticeable within 6–8 weeks of consistent practice combined with improved desk ergonomics." },
+                  { q: "Is Pilates or yoga better for desk workers?", a: "Both are effective for desk workers. Pilates has a slight advantage for people with significant postural issues or spinal pain because the precision of exercise selection, and the ability to load specific muscles progressively, is greater. Yoga has advantages in terms of the range of flexibility work and the stress-reduction component. Many desk workers benefit from a combination of both." },
+                  { q: "What equipment do I need for a desk worker Pilates routine at home?", a: "A mat and a foam roller are the essential tools: the foam roller for thoracic extension release is the single most effective intervention for desk workers with upper back stiffness. A resistance band adds options for scapular and hip work. All three are available on Amazon for under £50 combined." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>

@@ -16,10 +16,10 @@ export const metadata: Metadata = {
   keywords: ["balanced body pilates review", "balanced body reformer", "balanced body pilates equipment", "balanced body vs gratz", "balanced body vs merrithew", "balanced body studio reformer", "balanced body pilates 2026"],
   openGraph: {
     title: "Balanced Body for Pilates (2026): Equipment Review & Guide",
-    description: "Everything Balanced Body genuinely sells on Amazon — the Studio Reformer, Allegro Stretch, accessories, and who their equipment is for. An honest practitioner review.",
+    description: "Everything Balanced Body genuinely sells on Amazon: the Studio Reformer, Allegro Stretch, accessories, and who their equipment is for. An honest practitioner review.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/balanced-body-pilates",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-cZ0WYsBFHhs-unsplash.jpg", width: 1200, height: 630, alt: "Balanced Body Pilates equipment — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-cZ0WYsBFHhs-unsplash.jpg", width: 1200, height: 630, alt: "Balanced Body Pilates equipment: Pilates Collective Club" }],
   },
   twitter: { card: "summary_large_image", title: "Balanced Body for Pilates (2026)", description: "Everything Balanced Body genuinely sells on Amazon, and who it's for.", images: ["https://pilatescollectiveclub.com/pictures/roxana-popovici-cZ0WYsBFHhs-unsplash.jpg"] },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/balanced-body-pilates" },
@@ -33,7 +33,7 @@ const PRODUCTS = [
     price: "$4,700",
     verdict: "The real Balanced Body flagship sold on Amazon",
     description:
-      "This is often searched for as the \"Allegro 2,\" but we could not find a live Amazon listing under that name. The Balanced Body reformer genuinely sold on Amazon, made to order and shipped by Balanced Body, is the Studio Reformer with the Revo footbar — a Strata rock maple frame, five Signature Springs, and full tower compatibility. Worth knowing up front: the Studio Reformer does not fold. It is a permanent-installation machine, so plan floor space accordingly rather than assuming wall storage.",
+      "This is often searched for as the \"Allegro 2,\" but we could not find a live Amazon listing under that name. The Balanced Body reformer genuinely sold on Amazon, made to order and shipped by Balanced Body, is the Studio Reformer with the Revo footbar: a Strata rock maple frame, five Signature Springs, and full tower compatibility. Worth knowing up front: the Studio Reformer does not fold. It is a permanent-installation machine, so plan floor space accordingly rather than assuming wall storage.",
     affiliateUrl: "https://www.amazon.com/dp/B002XVWIFE?tag=pilatescollective-20",
     tag: "The Real Listing",
   },
@@ -43,7 +43,7 @@ const PRODUCTS = [
     price: "$3,710",
     verdict: "The real, lower-priced Balanced Body reformer on Amazon",
     description:
-      "For a lower price point than the Studio Reformer, this is the widest-carriage machine actually sold on Amazon by Balanced Body. You'll see \"Allegro 2\" in searches, but we could not verify a real, standalone Amazon listing under that name — this is the confirmed one.",
+      "For a lower price point than the Studio Reformer, this is the widest-carriage machine actually sold on Amazon by Balanced Body. You'll see \"Allegro 2\" in searches, but we could not verify a real, standalone Amazon listing under that name: this is the confirmed one.",
     affiliateUrl: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20",
     tag: "Lower-Priced Option",
   },
@@ -63,7 +63,7 @@ const PRODUCTS = [
     price: "$280",
     verdict: "The genuine cardio add-on, sold on Amazon",
     description:
-      "Turns a Balanced Body reformer into low-impact cardio equipment. This is Balanced Body's own jumpboard, genuinely sold on Amazon — confirm it fits your exact footbar configuration before ordering, since mountings are not universal even within one brand's range.",
+      "Turns a Balanced Body reformer into low-impact cardio equipment. This is Balanced Body's own jumpboard, genuinely sold on Amazon: confirm it fits your exact footbar configuration before ordering, since mountings are not universal even within one brand's range.",
     affiliateUrl: "https://www.amazon.com/dp/B08CS4LJZ7?tag=pilatescollective-20",
     tag: "Cardio Add-On",
   },
@@ -73,7 +73,7 @@ const PRODUCTS = [
     price: "$35",
     verdict: "Keep a spare set on hand",
     description:
-      "Ropes lose tension gradually rather than failing visibly, and a stretched rope quietly changes the working length of every strap exercise. This is the real, currently-sold Amazon listing — order for your exact model and keep a spare set.",
+      "Ropes lose tension gradually rather than failing visibly, and a stretched rope quietly changes the working length of every strap exercise. This is the real, currently-sold Amazon listing: order for your exact model and keep a spare set.",
     affiliateUrl: "https://www.amazon.com/dp/B0CYM27QMZ?tag=pilatescollective-20",
     tag: "Maintenance",
   },
@@ -85,7 +85,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Balanced Body for Pilates (2026): The Real Amazon-Sold Equipment, Honestly Reviewed",
-      "description": "The definitive guide to Balanced Body equipment genuinely sold on Amazon — the Studio Reformer, Allegro Stretch, Pilates Arc, and other accessories — since \"Allegro 2\" is not a live listing. Honest review from a practitioner perspective.",
+      "description": "The definitive guide to Balanced Body equipment genuinely sold on Amazon (the Studio Reformer, Allegro Stretch, Pilates Arc, and other accessories) since \"Allegro 2\" is not a live listing. Honest review from a practitioner perspective.",
       "url": "https://pilatescollectiveclub.com/blog/balanced-body-pilates",
       "datePublished": "2026-05-16",
       "dateModified": "2026-10-20",
@@ -106,9 +106,9 @@ const jsonLd = {
       "@type": "FAQPage",
       "mainEntity": [
         { "@type": "Question", "name": "Is Balanced Body or Merrithew better for a home reformer?", "acceptedAnswer": { "@type": "Answer", "text": "Both are excellent and represent the top tier of professional reformer manufacturing. Balanced Body's real, Amazon-sold reformers in this range are the Allegro Stretch ($3,710) and the Studio Reformer ($4,700, does not fold). Merrithew's real Amazon-sold equivalent is the At Home SPX Reformer Package ($3,349), built around a five-spring system with fine light-end gradation that some practitioners prefer. For a full head-to-head comparison of both brands, see our dedicated Balanced Body vs Merrithew article." } },
-        { "@type": "Question", "name": "Is the Balanced Body Studio Reformer worth the price?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, for practitioners who have a clear, sustained Pilates practice. At $4,700 it is a significant premium over entry-level reformers, but it delivers a Strata rock maple frame, five Signature Springs, and full tower compatibility. It does not fold, so it is a permanent-installation purchase — if fold-flat storage is a requirement, we could not verify that any current Balanced Body Amazon listing offers it." } },
-        { "@type": "Question", "name": "Does Balanced Body sell on Amazon?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — more than is often assumed. Several Balanced Body reformers, including the Studio Reformer ($4,700) and Allegro Stretch ($3,710), are genuinely sold direct on Amazon, alongside accessories such as the Pilates Arc, jumpboard, and replacement ropes. A model called \"Allegro 2\" is not a live Amazon listing; do not confuse it with the real Studio Reformer or Allegro Stretch." } },
-        { "@type": "Question", "name": "What's the difference between the Allegro Stretch and the Studio Reformer?", "acceptedAnswer": { "@type": "Answer", "text": "The Allegro Stretch, at $3,710, is the wider-carriage, lower-priced of the two real Amazon-sold reformers. The Studio Reformer, at $4,700, has a Strata rock maple frame, five Signature Springs, and full tower compatibility — it is a permanent installation and does not fold. Neither is verified to fold flat for storage; check the current listing directly if that matters to you." } },
+        { "@type": "Question", "name": "Is the Balanced Body Studio Reformer worth the price?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, for practitioners who have a clear, sustained Pilates practice. At $4,700 it is a significant premium over entry-level reformers, but it delivers a Strata rock maple frame, five Signature Springs, and full tower compatibility. It does not fold, so it is a permanent-installation purchase, if fold-flat storage is a requirement, we could not verify that any current Balanced Body Amazon listing offers it." } },
+        { "@type": "Question", "name": "Does Balanced Body sell on Amazon?", "acceptedAnswer": { "@type": "Answer", "text": "Yes: more than is often assumed. Several Balanced Body reformers, including the Studio Reformer ($4,700) and Allegro Stretch ($3,710), are genuinely sold direct on Amazon, alongside accessories such as the Pilates Arc, jumpboard, and replacement ropes. A model called \"Allegro 2\" is not a live Amazon listing; do not confuse it with the real Studio Reformer or Allegro Stretch." } },
+        { "@type": "Question", "name": "What's the difference between the Allegro Stretch and the Studio Reformer?", "acceptedAnswer": { "@type": "Answer", "text": "The Allegro Stretch, at $3,710, is the wider-carriage, lower-priced of the two real Amazon-sold reformers. The Studio Reformer, at $4,700, has a Strata rock maple frame, five Signature Springs, and full tower compatibility: it is a permanent installation and does not fold. Neither is verified to fold flat for storage; check the current listing directly if that matters to you." } },
       ],
     },
   ],
@@ -140,7 +140,7 @@ export default function BalancedBodyPilatesPage() {
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Balanced Body is the world&apos;s largest Pilates equipment manufacturer — a company founded in 1976 that has shaped what professional Pilates equipment looks and performs like for five decades. Practitioners choose Balanced Body because their machines represent the clearest path from entry-level practice to professional-grade work without changing brands. This guide covers their most important equipment, who it is actually for, and what to understand before committing to a purchase at any price point.
+              Balanced Body is the world&apos;s largest Pilates equipment manufacturer: a company founded in 1976 that has shaped what professional Pilates equipment looks and performs like for five decades. Practitioners choose Balanced Body because their machines represent the clearest path from entry-level practice to professional-grade work without changing brands. This guide covers their most important equipment, who it is actually for, and what to understand before committing to a purchase at any price point.
             </p>
           </div>
         </section>
@@ -151,7 +151,7 @@ export default function BalancedBodyPilatesPage() {
             <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
               <Image
                 src="/pictures/roxana-popovici-cZ0WYsBFHhs-unsplash.jpg"
-                alt="Balanced Body Pilates reformer equipment in a professional studio — Pilates Collective Club equipment guide"
+                alt="Balanced Body Pilates reformer equipment in a professional studio: Pilates Collective Club equipment guide"
                 fill
                 className="object-cover"
                 style={{ filter: "brightness(0.85)" }}
@@ -172,13 +172,13 @@ export default function BalancedBodyPilatesPage() {
             <div className="mb-16 mt-4">
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Why Balanced Body leads the professional Pilates equipment market</h2>
               <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Balanced Body was founded in 1976 by Ken Endelman in Sacramento, California. The company began by building modified dance equipment and over the following decades evolved into the largest dedicated Pilates equipment manufacturer in the world. That trajectory matters: Balanced Body did not enter Pilates as a fitness industry pivot — they grew from within the discipline, alongside the instructors and studio owners who were building the method as a professional field. All manufacturing remains in Sacramento, a distinction that carries genuine weight in quality control and supply chain reliability.
+                Balanced Body was founded in 1976 by Ken Endelman in Sacramento, California. The company began by building modified dance equipment and over the following decades evolved into the largest dedicated Pilates equipment manufacturer in the world. That trajectory matters: Balanced Body did not enter Pilates as a fitness industry pivot, they grew from within the discipline, alongside the instructors and studio owners who were building the method as a professional field. All manufacturing remains in Sacramento, a distinction that carries genuine weight in quality control and supply chain reliability.
               </p>
               <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Their approach to Pilates is contemporary — evidence-based and anatomically informed rather than strictly classical. This positions Balanced Body well for the physical therapy clinics, dance companies, gyms, and medical rehabilitation settings that have adopted Pilates alongside traditional studios. The CoreAlign system, for instance, was developed specifically for functional movement and rehabilitation contexts. The result is a product range that speaks to a wider range of practitioners than classical-only brands, without abandoning the equipment standards that serious Pilates work requires.
+                Their approach to Pilates is contemporary: evidence-based and anatomically informed rather than strictly classical. This positions Balanced Body well for the physical therapy clinics, dance companies, gyms, and medical rehabilitation settings that have adopted Pilates alongside traditional studios. The CoreAlign system, for instance, was developed specifically for functional movement and rehabilitation contexts. The result is a product range that speaks to a wider range of practitioners than classical-only brands, without abandoning the equipment standards that serious Pilates work requires.
               </p>
               <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                This machine is often searched for as the &quot;Allegro 2,&quot; but we could not find a live Amazon listing under that name. The Balanced Body reformer genuinely sold on Amazon, made to order and shipped direct by Balanced Body, is the Studio Reformer with the Revo footbar, at $4,700 — a Strata rock maple frame with five Signature Springs and full tower compatibility, though it is a permanent installation rather than a fold-and-store option. For a lower price point, the Allegro Stretch, at $3,710, is the widest-carriage reformer Balanced Body actually sells on Amazon. Around both machines, Balanced Body has built a deep accessory ecosystem: jump board, sitting box, platform extender and replacement parts are all sold separately, several of them genuinely on Amazon as well. The result is a modular system that grows with a practitioner&apos;s practice rather than requiring a new machine at each stage.
+                This machine is often searched for as the &quot;Allegro 2,&quot; but we could not find a live Amazon listing under that name. The Balanced Body reformer genuinely sold on Amazon, made to order and shipped direct by Balanced Body, is the Studio Reformer with the Revo footbar, at $4,700: a Strata rock maple frame with five Signature Springs and full tower compatibility, though it is a permanent installation rather than a fold-and-store option. For a lower price point, the Allegro Stretch, at $3,710, is the widest-carriage reformer Balanced Body actually sells on Amazon. Around both machines, Balanced Body has built a deep accessory ecosystem: jump board, sitting box, platform extender and replacement parts are all sold separately, several of them genuinely on Amazon as well. The result is a modular system that grows with a practitioner&apos;s practice rather than requiring a new machine at each stage.
               </p>
             </div>
 
@@ -203,11 +203,11 @@ export default function BalancedBodyPilatesPage() {
               <h2 className="text-2xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What to consider before buying Balanced Body equipment</h2>
               <ul className="space-y-4">
                 {[
-                  "The full reformer requires significant investment — have a clear plan for your practice before committing $3,710 or more (the real Amazon price of the Allegro Stretch, the lower-priced of Balanced Body's two Amazon-sold reformers). A reformer purchased with vague intentions to 'start Pilates' is a poor investment. One purchased for a daily home practice alongside an existing studio habit is an excellent one.",
-                  "The accessories are worth purchasing from Balanced Body specifically because compatibility matters. Third-party jump boards, boxes, and platforms are rarely designed to the same tolerances — they introduce wobble, fit issues, and safety concerns. Balanced Body accessories are engineered to work as a system.",
-                  "Where to buy: both the Studio Reformer and Allegro Stretch are genuinely sold direct by Balanced Body on Amazon, alongside authorised dealers. Avoid used equipment without verified spring condition — springs are a consumable component, and a used reformer with worn or unevenly tensioned springs will not perform correctly and may not be safe for dynamic exercises.",
-                  "Service and maintenance: springs need replacing over time, typically every few years with regular use. Balanced Body maintains a dealer network capable of supplying replacement parts and providing setup support — a genuine advantage over brands with limited distribution.",
-                  "Home space requirements: the Studio Reformer does not fold and is a permanent installation — we could not verify a fold-flat, wall-storage feature for any current Balanced Body Amazon listing. Measure your intended space, including ceiling height for standing exercises, before purchasing rather than assuming a machine will fold away.",
+                  "The full reformer requires significant investment: have a clear plan for your practice before committing $3,710 or more (the real Amazon price of the Allegro Stretch, the lower-priced of Balanced Body's two Amazon-sold reformers). A reformer purchased with vague intentions to 'start Pilates' is a poor investment. One purchased for a daily home practice alongside an existing studio habit is an excellent one.",
+                  "The accessories are worth purchasing from Balanced Body specifically because compatibility matters. Third-party jump boards, boxes, and platforms are rarely designed to the same tolerances: they introduce wobble, fit issues, and safety concerns. Balanced Body accessories are engineered to work as a system.",
+                  "Where to buy: both the Studio Reformer and Allegro Stretch are genuinely sold direct by Balanced Body on Amazon, alongside authorised dealers. Avoid used equipment without verified spring condition: springs are a consumable component, and a used reformer with worn or unevenly tensioned springs will not perform correctly and may not be safe for dynamic exercises.",
+                  "Service and maintenance: springs need replacing over time, typically every few years with regular use. Balanced Body maintains a dealer network capable of supplying replacement parts and providing setup support: a genuine advantage over brands with limited distribution.",
+                  "Home space requirements: the Studio Reformer does not fold and is a permanent installation, we could not verify a fold-flat, wall-storage feature for any current Balanced Body Amazon listing. Measure your intended space, including ceiling height for standing exercises, before purchasing rather than assuming a machine will fold away.",
                 ].map((tip, i) => (
                   <li key={i} className="flex gap-3 text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                     <span className="font-semibold flex-shrink-0 mt-0.5" style={{ color: "#8b4a31" }}>→</span>
@@ -228,15 +228,15 @@ export default function BalancedBodyPilatesPage() {
                   },
                   {
                     q: "Is the Balanced Body Studio Reformer worth the price?",
-                    a: "Yes, for practitioners who have a clear, sustained Pilates practice. At $4,700 it is a significant premium over entry-level reformers, but it delivers a Strata rock maple frame, five Signature Springs, and full tower compatibility. It does not fold — it is a permanent-installation machine, made to order — so factor floor space into the decision rather than assuming it stores away.",
+                    a: "Yes, for practitioners who have a clear, sustained Pilates practice. At $4,700 it is a significant premium over entry-level reformers, but it delivers a Strata rock maple frame, five Signature Springs, and full tower compatibility. It does not fold (it is a permanent-installation machine, made to order) so factor floor space into the decision rather than assuming it stores away.",
                   },
                   {
                     q: "Does Balanced Body sell on Amazon?",
-                    a: "Yes — more than is often assumed. The Studio Reformer ($4,700) and Allegro Stretch ($3,710) are both genuinely sold direct by Balanced Body on Amazon, alongside accessories such as the Pilates Arc, jumpboard, and replacement ropes. A model called \"Allegro 2\" is not a live Amazon listing — do not confuse it with either real reformer above.",
+                    a: "Yes: more than is often assumed. The Studio Reformer ($4,700) and Allegro Stretch ($3,710) are both genuinely sold direct by Balanced Body on Amazon, alongside accessories such as the Pilates Arc, jumpboard, and replacement ropes. A model called \"Allegro 2\" is not a live Amazon listing: do not confuse it with either real reformer above.",
                   },
                   {
                     q: "What's the difference between the Allegro Stretch and the Studio Reformer?",
-                    a: "The Allegro Stretch, at $3,710, is the wider-carriage, lower-priced of the two reformers Balanced Body genuinely sells on Amazon. The Studio Reformer, at $4,700, has a Strata rock maple frame, five Signature Springs, and full tower compatibility, and is a permanent installation — it does not fold. Neither is verified to fold flat for storage, so check the current listing directly if that matters to you.",
+                    a: "The Allegro Stretch, at $3,710, is the wider-carriage, lower-priced of the two reformers Balanced Body genuinely sells on Amazon. The Studio Reformer, at $4,700, has a Strata rock maple frame, five Signature Springs, and full tower compatibility, and is a permanent installation: it does not fold. Neither is verified to fold flat for storage, so check the current listing directly if that matters to you.",
                   },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
@@ -253,7 +253,7 @@ export default function BalancedBodyPilatesPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard
                   title="Balanced Body vs Merrithew (2026)"
-                  excerpt="The most detailed head-to-head of the two dominant professional reformer brands — spring feel, build quality, and honest verdict."
+                  excerpt="The most detailed head-to-head of the two dominant professional reformer brands: spring feel, build quality, and honest verdict."
                   href="/blog/balanced-body-vs-merrithew"
                   category="Comparison"
                   readTime="10 min read"
@@ -262,7 +262,7 @@ export default function BalancedBodyPilatesPage() {
                 />
                 <ArticleCard
                   title="Best Home Pilates Reformer (2026)"
-                  excerpt="Every price point honestly reviewed — from AeroPilates to Merrithew and Balanced Body."
+                  excerpt="Every price point honestly reviewed, from AeroPilates to Merrithew and Balanced Body."
                   href="/blog/best-home-pilates-reformer"
                   category="Equipment Guide"
                   readTime="10 min read"

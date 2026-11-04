@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "Best Interval Timer for Lagree & Pilates (2026): Studio Clocks Ranked",
-    description: "The best interval timers for Lagree Fitness and Pilates studios — large displays, loud buzzers, and app-free setup compared.",
+    description: "The best interval timers for Lagree Fitness and Pilates studios: large displays, loud buzzers, and app-free setup compared.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-interval-timer-for-lagree",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/stitch-studio-modern-row.png", width: 1200, height: 630, alt: "Best Interval Timer for Lagree" }],
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Best Interval Timer for Lagree & Pilates (2026): Studio Clocks Ranked",
-    description: "The best interval timers for Lagree Fitness and Pilates studios — large displays, loud buzzers, and app-free setup compared.",
+    description: "The best interval timers for Lagree Fitness and Pilates studios: large displays, loud buzzers, and app-free setup compared.",
     images: ["https://pilatescollectiveclub.com/pictures/stitch-studio-modern-row.png"],
   },
   alternates: {
@@ -47,8 +47,8 @@ const PRODUCTS = [
     rank: "01",
     name: "Gymboss Interval Timer and Stopwatch",
     price: "$20.95",
-    verdict: "Best overall — the category leader",
-    description: "The Gymboss clip-on is the timer instructors reach for most, and it earns that reputation the practical way: it clips to a waistband, reformer rail, or resistance band, programs up to two interval sequences of up to 999 rounds, and gives a clear beep or vibration when your hold time is up. No app, no Bluetooth pairing, no subscription — just a reliable countdown for Lagree's 90-second holds and transitions. Its long track record and simple design make it the safest first buy for home practitioners and instructors alike.",
+    verdict: "Best overall: the category leader",
+    description: "The Gymboss clip-on is the timer instructors reach for most, and it earns that reputation the practical way: it clips to a waistband, reformer rail, or resistance band, programs up to two interval sequences of up to 999 rounds, and gives a clear beep or vibration when your hold time is up. No app, no Bluetooth pairing, no subscription, just a reliable countdown for Lagree's 90-second holds and transitions. Its long track record and simple design make it the safest first buy for home practitioners and instructors alike.",
     affiliateUrl: "https://www.amazon.com/dp/B00CO8HO6O?tag=pilatescollective-20",
     tag: "Editor's Pick",
   },
@@ -57,7 +57,7 @@ const PRODUCTS = [
     name: "Gymboss Charge Interval Timer",
     price: "$26.95",
     verdict: "Best rechargeable upgrade",
-    description: "The Charge is Gymboss's rechargeable successor to the original clip-on — same dependable interval logic, swapped from replaceable batteries to USB charging. It's the pick for anyone who wants to skip buying coin-cell batteries and still keep the same no-frills, no-app approach to timing Lagree holds and transitions. A sensible step up if you already know you like the classic Gymboss format.",
+    description: "The Charge is Gymboss's rechargeable successor to the original clip-on: same dependable interval logic, swapped from replaceable batteries to USB charging. It's the pick for anyone who wants to skip buying coin-cell batteries and still keep the same no-frills, no-app approach to timing Lagree holds and transitions. A sensible step up if you already know you like the classic Gymboss format.",
     affiliateUrl: "https://www.amazon.com/dp/B08MV9N83V?tag=pilatescollective-20",
     tag: "Rechargeable Pick",
   },
@@ -66,7 +66,7 @@ const PRODUCTS = [
     name: "ANJANK Small Portable Gym Timer Clock",
     price: "$39.99",
     verdict: "Best for mounting on equipment",
-    description: "The ANJANK timer attaches with a strong built-in magnet, so it can be stuck directly to a Megaformer's steel frame or any other metal surface in the studio rather than clipped to clothing. It ships with a remote control, which lets an instructor start, pause, or reset the countdown from across the room without walking over to the unit mid-class — useful when you're cueing a group through a 90-second hold and don't want to break form to touch a screen.",
+    description: "The ANJANK timer attaches with a strong built-in magnet, so it can be stuck directly to a Megaformer's steel frame or any other metal surface in the studio rather than clipped to clothing. It ships with a remote control, which lets an instructor start, pause, or reset the countdown from across the room without walking over to the unit mid-class: useful when you're cueing a group through a 90-second hold and don't want to break form to touch a screen.",
     affiliateUrl: "https://www.amazon.com/dp/B0D1CJW6LV?tag=pilatescollective-20",
     tag: "Best for Equipment Mounting",
   },
@@ -84,7 +84,7 @@ const PRODUCTS = [
     name: "Body Sport Digital Timer Stopwatch",
     price: "$17.99",
     verdict: "Best budget multifunction pick",
-    description: "Body Sport's digital timer covers the basics — countdown, stopwatch, and interval modes — in a simple handheld unit at the lowest price in this list. It won't mount to a wall or run a full studio class, but for a home Lagree or Pilates practitioner who just needs an accurate, no-fuss way to track hold and transition times, it does the job without any extra cost for features you won't use.",
+    description: "Body Sport's digital timer covers the basics (countdown, stopwatch, and interval modes) in a simple handheld unit at the lowest price in this list. It won't mount to a wall or run a full studio class, but for a home Lagree or Pilates practitioner who just needs an accurate, no-fuss way to track hold and transition times, it does the job without any extra cost for features you won't use.",
     affiliateUrl: "https://www.amazon.com/dp/B073KPZPKB?tag=pilatescollective-20",
     tag: "Best Value",
   },
@@ -96,7 +96,7 @@ const jsonLd = {
     {
       "@type": "Article",
       headline: "Best Interval Timer for Lagree & Pilates (2026): Studio Clocks Ranked",
-      description: "The best interval timers for Lagree Fitness and Pilates studios — large displays, loud buzzers, and app-free setup compared.",
+      description: "The best interval timers for Lagree Fitness and Pilates studios: large displays, loud buzzers, and app-free setup compared.",
       url: "https://pilatescollectiveclub.com/blog/best-interval-timer-for-lagree",
       datePublished: "2026-06-28",
       dateModified: "2026-10-20",
@@ -139,7 +139,7 @@ const jsonLd = {
         {
           "@type": "Question",
           name: "What interval length is used in Lagree Fitness?",
-          acceptedAnswer: { "@type": "Answer", text: "Standard Lagree protocol uses 90-second work intervals with 10–30 second transitions between exercises. Some instructors program 60- or 120-second variations depending on client fitness level and class format. Unlike HIIT training, Lagree does not typically use rest periods within exercises — the slow, controlled tempo is continuous." },
+          acceptedAnswer: { "@type": "Answer", text: "Standard Lagree protocol uses 90-second work intervals with 10–30 second transitions between exercises. Some instructors program 60- or 120-second variations depending on client fitness level and class format. Unlike HIIT training, Lagree does not typically use rest periods within exercises: the slow, controlled tempo is continuous." },
         },
         {
           "@type": "Question",
@@ -172,7 +172,7 @@ export default function BestIntervalTimerForLagreePage() {
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <hr style={{ borderColor: "#e8e0db" }} className="mb-8" />
             <p className="text-lg leading-relaxed" style={{ color: "#5c4a3d" }}>
-              Lagree Fitness lives and dies by the clock. The 90-second hold, the 10-second transition, the moment the buzzer fires and the class shifts position — these are the heartbeats of every class. A reliable timer lets instructors cue freely without glancing at a phone, and lets clients self-manage their own tempo. Here are five timers that deliver, from a $17.99 budget stopwatch to a magnet-mount, remote-controlled clock built for the studio floor.
+              Lagree Fitness lives and dies by the clock. The 90-second hold, the 10-second transition, the moment the buzzer fires and the class shifts position: these are the heartbeats of every class. A reliable timer lets instructors cue freely without glancing at a phone, and lets clients self-manage their own tempo. Here are five timers that deliver, from a $17.99 budget stopwatch to a magnet-mount, remote-controlled clock built for the studio floor.
             </p>
           </div>
         </section>
@@ -209,7 +209,7 @@ export default function BestIntervalTimerForLagreePage() {
                 </div>
                 <div>
                   <h3 className="font-semibold mb-1" style={{ color: "#2d1f17" }}>Alert volume</h3>
-                  <p>Lagree classes run with music — typically at 75–85dB. Your timer needs a beep or buzzer that cuts through the playlist. A clip-on timer worn close to the body is often more reliable in a loud room than a distant wall clock with a weak speaker.</p>
+                  <p>Lagree classes run with music, typically at 75–85dB. Your timer needs a beep or buzzer that cuts through the playlist. A clip-on timer worn close to the body is often more reliable in a loud room than a distant wall clock with a weak speaker.</p>
                 </div>
                 <div>
                   <h3 className="font-semibold mb-1" style={{ color: "#2d1f17" }}>Mounting and remote control</h3>
@@ -217,7 +217,7 @@ export default function BestIntervalTimerForLagreePage() {
                 </div>
                 <div>
                   <h3 className="font-semibold mb-1" style={{ color: "#2d1f17" }}>Simplicity vs. features</h3>
-                  <p>Not every timer needs Tabata modes or a large display. For home practice, a basic countdown/stopwatch unit like the Body Sport does the one job that matters — telling you when a hold is over — without any extra cost.</p>
+                  <p>Not every timer needs Tabata modes or a large display. For home practice, a basic countdown/stopwatch unit like the Body Sport does the one job that matters, telling you when a hold is over, without any extra cost.</p>
                 </div>
               </div>
             </div>
@@ -237,8 +237,8 @@ export default function BestIntervalTimerForLagreePage() {
             <div>
               <h2 className="text-2xl font-bold mb-6" style={{ color: "#2d1f17" }}>Further Reading</h2>
               <div className="grid md:grid-cols-2 gap-6">
-                <ArticleCard title="Lagree Essentials" excerpt="Everything to wear, bring and buy for Lagree — best, budget and splurge picks on one page." href="/blog/lagree-essentials" category="Lagree" readTime="12 min read" date="September 2026" />
-                <ArticleCard title="Lagree Fitness: The Brand Guide" excerpt="The company behind the Megaformer — and the compact Micro home machine it sells on Amazon." href="/blog/lagree-fitness" category="Lagree" readTime="12 min read" date="September 2026" />
+                <ArticleCard title="Lagree Essentials" excerpt="Everything to wear, bring and buy for Lagree: best, budget and splurge picks on one page." href="/blog/lagree-essentials" category="Lagree" readTime="12 min read" date="September 2026" />
+                <ArticleCard title="Lagree Fitness: The Brand Guide" excerpt="The company behind the Megaformer, and the compact Micro home machine it sells on Amazon." href="/blog/lagree-fitness" category="Lagree" readTime="12 min read" date="September 2026" />
                 <ArticleCard
                   title="Lagree vs Pilates: What's the Real Difference?"
                   excerpt="The Megaformer, the Slow Burn protocol, and why Lagree is not just reformer Pilates rebranded."
@@ -250,7 +250,7 @@ export default function BestIntervalTimerForLagreePage() {
                 />
                 <ArticleCard
                   title="Best Megaformer Machine (2026): Lagree Equipment Reviewed"
-                  excerpt="The Lagree M3S, The Micro, M3X, and the best alternatives — a complete buyer's guide to Megaformer machines."
+                  excerpt="The Lagree M3S, The Micro, M3X, and the best alternatives: a complete buyer's guide to Megaformer machines."
                   href="/blog/best-megaformer-machine"
                   category="Equipment"
                   readTime="10 min"

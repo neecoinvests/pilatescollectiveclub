@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "Best Pilates Gloves (2026): 5 Verified Grip Gloves",
-    description: "Five verified, in-stock Pilates grip gloves for reformer, barre and mat — plus one wrist-support pick for Lagree. Real ASINs, exact prices, honest notes.",
+    description: "Five verified, in-stock Pilates grip gloves for reformer, barre and mat, plus one wrist-support pick for Lagree. Real ASINs, exact prices, honest notes.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-gloves",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg", width: 1200, height: 630, alt: "Best Pilates Gloves" }],
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Gloves (2026): 5 Verified Grip Gloves",
-    description: "Five verified, in-stock Pilates grip gloves — TAVI, Gaiam, oasymala, Eurzom and MhIL.",
+    description: "Five verified, in-stock Pilates grip gloves: TAVI, Gaiam, oasymala, Eurzom and MhIL.",
     images: ["https://pilatescollectiveclub.com/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg"],
   },
   alternates: {
@@ -51,7 +51,7 @@ const PRODUCTS = [
     name: "TAVI Half Finger Gym Gloves (Full Coverage Grips)",
     price: "$31.99",
     verdict: "Best overall: from a dedicated Pilates/barre grip brand",
-    description: "TAVI is a dedicated Pilates and barre grip brand, and this half-finger glove pairs a full-coverage grip palm with open fingertips for reformer handles, straps and mat work. Sold on Amazon by The Active Footwear Store, TAVI's official distributor. At $31.99 it's the priciest glove here — the one to buy if you want a glove designed for the studio rather than the weights floor.",
+    description: "TAVI is a dedicated Pilates and barre grip brand, and this half-finger glove pairs a full-coverage grip palm with open fingertips for reformer handles, straps and mat work. Sold on Amazon by The Active Footwear Store, TAVI's official distributor. At $31.99 it's the priciest glove here: the one to buy if you want a glove designed for the studio rather than the weights floor.",
     affiliateUrl: "https://www.amazon.com/dp/B09GPVMF86?tag=pilatescollective-20",
     imageUrl: "https://m.media-amazon.com/images/I/415sXqF7ebL._SL500_.jpg",
     tag: "Best Overall",
@@ -71,7 +71,7 @@ const PRODUCTS = [
     name: "oasymala Non-Slip Fingerless Yoga Gloves",
     price: "$13.98",
     verdict: "Best fingerless: marketed specifically for Pilates and barre",
-    description: "A non-slip fingerless glove sold by OasyMala and marketed for Pilates and barre. At $13.98 it sits between the budget Gaiam pair and the TAVI glove — a mid-priced option if you want a fingerless style aimed at studio work.",
+    description: "A non-slip fingerless glove sold by OasyMala and marketed for Pilates and barre. At $13.98 it sits between the budget Gaiam pair and the TAVI glove: a mid-priced option if you want a fingerless style aimed at studio work.",
     affiliateUrl: "https://www.amazon.com/dp/B0DHKLSXLY?tag=pilatescollective-20",
     imageUrl: "https://m.media-amazon.com/images/I/311RhwGad5L._SL500_.jpg",
     tag: "Best Fingerless",
@@ -81,7 +81,7 @@ const PRODUCTS = [
     name: "Eurzom 2-Pairs Yoga Pilates Gloves with Grips",
     price: "$9.99",
     verdict: "Best value 2-pack: two pairs for under $10",
-    description: "Two pairs of yoga/Pilates grip gloves for $9.99, sold by Yaoshinegoup. Having a second pair means one can dry while you wear the other — useful if you practise several times a week.",
+    description: "Two pairs of yoga/Pilates grip gloves for $9.99, sold by Yaoshinegoup. Having a second pair means one can dry while you wear the other: useful if you practise several times a week.",
     affiliateUrl: "https://www.amazon.com/dp/B0DZ2CZS1J?tag=pilatescollective-20",
     imageUrl: "https://m.media-amazon.com/images/I/41pEvShBfML._SL500_.jpg",
     tag: "Best Value 2-Pack",
@@ -104,7 +104,7 @@ const jsonLd = {
     {
       "@type": "Article",
       headline: "Best Pilates Gloves (2026): Grip Gloves for Reformer & Lagree",
-      description: "Five verified Pilates grip gloves for reformer, barre and mat — led by TAVI's half-finger glove — plus one wrist-support glove for Lagree and weighted work.",
+      description: "Five verified Pilates grip gloves for reformer, barre and mat, led by TAVI's half-finger glove, plus one wrist-support glove for Lagree and weighted work.",
       url: "https://pilatescollectiveclub.com/blog/best-pilates-gloves",
       datePublished: "2026-06-28",
       dateModified: "2026-11-04",
@@ -159,7 +159,7 @@ const jsonLd = {
         {
           "@type": "Question",
           name: "What type of gloves are best for reformer Pilates?",
-          acceptedAnswer: { "@type": "Answer", text: "Fingerless or half-finger gloves with silicone grip pads are ideal for reformer Pilates — they protect palms while keeping fingertip sensitivity for footstrap and spring adjustments. Look for a slim profile that won't catch on reformer straps. The TAVI Half Finger Gym Gloves are our top pick." },
+          acceptedAnswer: { "@type": "Answer", text: "Fingerless or half-finger gloves with silicone grip pads are ideal for reformer Pilates: they protect palms while keeping fingertip sensitivity for footstrap and spring adjustments. Look for a slim profile that won't catch on reformer straps. The TAVI Half Finger Gym Gloves are our top pick." },
         },
         {
           "@type": "Question",
@@ -192,7 +192,7 @@ export default function BestPilatesGlovesPage() {
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note="Half-finger grip glove from a dedicated Pilates and barre brand" url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Most Pilates practitioners never think about gloves until their palms are raw after a sweaty Megaformer session or their wrists start complaining mid-plank. The right glove adds grip where you need it — footbar, carriage handles, push-through bar — without sacrificing the hand sensitivity that makes Pilates feedback so valuable. We checked five gloves against live Amazon listings and confirmed all five as real, currently-sold, in-stock products. Four are true Pilates grip gloves — fingerless or half-finger styles for reformer, barre and mat — from TAVI, Gaiam, oasymala and Eurzom, ranging from $7.65 to $31.99. The fifth, from MhIL, adds built-in wrist wraps for Lagree and weighted work.
+              Most Pilates practitioners never think about gloves until their palms are raw after a sweaty Megaformer session or their wrists start complaining mid-plank. The right glove adds grip where you need it (footbar, carriage handles, push-through bar) without sacrificing the hand sensitivity that makes Pilates feedback so valuable. We checked five gloves against live Amazon listings and confirmed all five as real, currently-sold, in-stock products. Four are true Pilates grip gloves (fingerless or half-finger styles for reformer, barre and mat) from TAVI, Gaiam, oasymala and Eurzom, ranging from $7.65 to $31.99. The fifth, from MhIL, adds built-in wrist wraps for Lagree and weighted work.
             </p>
           </div>
         </section>
@@ -241,8 +241,8 @@ export default function BestPilatesGlovesPage() {
               title="Grip handled. The upgrade that matters more"
               body="Gloves protect your hands; the surface under you and the machine you train on shape everything else. If you practise at home, a dense studio-grade mat and a budget home reformer are the two upgrades regulars say they wish they had bought sooner."
               picks={[
-                { name: "Manduka PRO Yoga Mat (6mm)", price: "$144", url: "https://www.amazon.com/dp/B0000DZFXZ?tag=pilatescollective-20", note: "Sold by Amazon.com. The dense mat studios use — firm enough for Pilates wrist and knee work." },
-                { name: "WINDFOOT Foldable Pilates Reformer", price: "$295.99", url: "https://www.amazon.com/dp/B0D31767J1?tag=pilatescollective-20", note: "A budget spring reformer from a newer brand — folds away after use." },
+                { name: "Manduka PRO Yoga Mat (6mm)", price: "$144", url: "https://www.amazon.com/dp/B0000DZFXZ?tag=pilatescollective-20", note: "Sold by Amazon.com. The dense mat studios use: firm enough for Pilates wrist and knee work." },
+                { name: "WINDFOOT Foldable Pilates Reformer", price: "$295.99", url: "https://www.amazon.com/dp/B0D31767J1?tag=pilatescollective-20", note: "A budget spring reformer from a newer brand: folds away after use." },
               ]}
               guideHref="/blog/best-pilates-reformer-under-500"
               guideLabel="Compare home reformers under $500"
@@ -254,7 +254,7 @@ export default function BestPilatesGlovesPage() {
               <div className="space-y-5 text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                 <div>
                   <h3 className="font-semibold mb-1" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Fingerless vs. full-finger</h3>
-                  <p>Fingerless gloves dominate mat and classical reformer work — they protect palms while keeping fingertip sensitivity for strap adjustments. Full-finger designs suit Lagree, where sustained grip on the carriage handles matters more than dexterity.</p>
+                  <p>Fingerless gloves dominate mat and classical reformer work: they protect palms while keeping fingertip sensitivity for strap adjustments. Full-finger designs suit Lagree, where sustained grip on the carriage handles matters more than dexterity.</p>
                 </div>
                 <div>
                   <h3 className="font-semibold mb-1" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Wrist support</h3>
@@ -262,7 +262,7 @@ export default function BestPilatesGlovesPage() {
                 </div>
                 <div>
                   <h3 className="font-semibold mb-1" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Grip gloves vs. weight-lifting gloves</h3>
-                  <p>Pilates grip gloves are thin, with a grippy palm, so you keep a feel for the handles and straps. Padded weight-lifting gloves are bulkier and built for barbells and dumbbells — they can make reformer work feel clumsy.</p>
+                  <p>Pilates grip gloves are thin, with a grippy palm, so you keep a feel for the handles and straps. Padded weight-lifting gloves are bulkier and built for barbells and dumbbells: they can make reformer work feel clumsy.</p>
                 </div>
                 <div>
                   <h3 className="font-semibold mb-1" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Washability</h3>
@@ -288,8 +288,8 @@ export default function BestPilatesGlovesPage() {
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid md:grid-cols-2 gap-6">
-                <ArticleCard title="Pilates Essentials: The Complete List" excerpt="The best, budget and splurge pick in every category — clothing, props, recovery and a home reformer, all on one page." href="/blog/pilates-essentials" category="Equipment" readTime="14 min read" date="September 2026" />
-                <ArticleCard title="Reformer Pilates Essentials" excerpt="What to wear, bring and buy for reformer class — and when a home reformer starts paying for itself." href="/blog/reformer-pilates-essentials" category="Equipment" readTime="12 min read" date="September 2026" />
+                <ArticleCard title="Pilates Essentials: The Complete List" excerpt="The best, budget and splurge pick in every category: clothing, props, recovery and a home reformer, all on one page." href="/blog/pilates-essentials" category="Equipment" readTime="14 min read" date="September 2026" />
+                <ArticleCard title="Reformer Pilates Essentials" excerpt="What to wear, bring and buy for reformer class, and when a home reformer starts paying for itself." href="/blog/reformer-pilates-essentials" category="Equipment" readTime="12 min read" date="September 2026" />
                 <ArticleCard
                   title="Best Pilates Grip Socks (2026): Non-Slip Picks for Every Studio"
                   excerpt="toesox, TAVI, Tucketts and the budget grip socks worth buying for reformer and mat classes."
@@ -301,7 +301,7 @@ export default function BestPilatesGlovesPage() {
                 />
                 <ArticleCard
                   title="Best Mini Resistance Loops for Pilates (2026)"
-                  excerpt="Peach Bands, Lululemon Emerge, TheraBand CLX — the loops that add targeted glute and hip resistance to reformer and mat work."
+                  excerpt="Peach Bands, Lululemon Emerge, TheraBand CLX: the loops that add targeted glute and hip resistance to reformer and mat work."
                   href="/blog/best-mini-resistance-loops-for-pilates"
                   category="Equipment"
                   readTime="6 min"

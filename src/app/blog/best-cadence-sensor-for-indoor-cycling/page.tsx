@@ -38,7 +38,7 @@ const PRODUCTS = [
     price: "$15.74",
     verdict: "Best overall cadence sensor",
     description:
-      "The CooSpo BK467 is built for both indoor and outdoor cycling, which makes it a sensible default if the same rider also takes the bike outside occasionally. It mounts to the crank arm and reports cadence data to any paired app or head unit. At under $16 it undercuts most name-brand sensors while covering the core job — accurate RPM data streamed live — without asking you to pay for features a spin-bike rider will not use. For anyone who wants one dependable sensor and does not need niche extras, the BK467 is the easiest recommendation.",
+      "The CooSpo BK467 is built for both indoor and outdoor cycling, which makes it a sensible default if the same rider also takes the bike outside occasionally. It mounts to the crank arm and reports cadence data to any paired app or head unit. At under $16 it undercuts most name-brand sensors while covering the core job, accurate RPM data streamed live, without asking you to pay for features a spin-bike rider will not use. For anyone who wants one dependable sensor and does not need niche extras, the BK467 is the easiest recommendation.",
     affiliateUrl: "https://www.amazon.com/dp/B07CDCPF4Z?tag=pilatescollective-20",
     tag: "Best Overall",
   },
@@ -48,7 +48,7 @@ const PRODUCTS = [
     price: "$16.99",
     verdict: "Best for sweaty, humid training spaces",
     description:
-      "The CYCPLUS sensor transmits over both Bluetooth and ANT+, so it pairs with a phone-based app and a dedicated head unit at once. Its standout feature is an IP67 waterproof rating, which matters more indoors than it sounds — spin bikes sit under riders who sweat heavily, and a sensor mounted near the crank takes the brunt of it. For anyone training in a garage, basement, or heavily air-conditioned studio where moisture and condensation are a recurring issue, the CYCPLUS is the sturdier long-term choice. It currently shows a later ship date on Amazon, so check the delivery estimate before ordering.",
+      "The CYCPLUS sensor transmits over both Bluetooth and ANT+, so it pairs with a phone-based app and a dedicated head unit at once. Its standout feature is an IP67 waterproof rating, which matters more indoors than it sounds: spin bikes sit under riders who sweat heavily, and a sensor mounted near the crank takes the brunt of it. For anyone training in a garage, basement, or heavily air-conditioned studio where moisture and condensation are a recurring issue, the CYCPLUS is the sturdier long-term choice. It currently shows a later ship date on Amazon, so check the delivery estimate before ordering.",
     affiliateUrl: "https://www.amazon.com/dp/B08X49WVV2?tag=pilatescollective-20",
     tag: "Best Sweat & Moisture Resistance",
   },
@@ -68,7 +68,7 @@ const PRODUCTS = [
     price: "$14.99",
     verdict: "Best budget pick",
     description:
-      "The GEOID CS600 is the least expensive option here, offering both ANT+ and Bluetooth connectivity, which covers the vast majority of training apps and head units. It's a straightforward choice for riders who want to add cadence tracking to a non-connected spin bike without spending much to find out whether they'll use the data regularly. There's nothing exotic about it — it does the core job of reporting cadence and speed at the lowest price in this lineup.",
+      "The GEOID CS600 is the least expensive option here, offering both ANT+ and Bluetooth connectivity, which covers the vast majority of training apps and head units. It's a straightforward choice for riders who want to add cadence tracking to a non-connected spin bike without spending much to find out whether they'll use the data regularly. There's nothing exotic about it: it does the core job of reporting cadence and speed at the lowest price in this lineup.",
     affiliateUrl: "https://www.amazon.com/dp/B09PYW7FYV?tag=pilatescollective-20",
     tag: "Best Budget Pick",
   },
@@ -78,7 +78,7 @@ const PRODUCTS = [
     price: "$37.99",
     verdict: "Best for wide device compatibility",
     description:
-      "iGPSPORT sells this as a set rather than a single sensor, and it's positioned around wide compatibility across apps and head units — useful if you're not committed to one training platform and want a sensor that will keep working if you switch. It sits at the top of the price range in this list, which reflects the set format rather than any premium feature beyond broad compatibility. For riders who want flexibility to move between apps without buying a new sensor later, it's the safer long-term bet.",
+      "iGPSPORT sells this as a set rather than a single sensor, and it's positioned around wide compatibility across apps and head units: useful if you're not committed to one training platform and want a sensor that will keep working if you switch. It sits at the top of the price range in this list, which reflects the set format rather than any premium feature beyond broad compatibility. For riders who want flexibility to move between apps without buying a new sensor later, it's the safer long-term bet.",
     affiliateUrl: "https://www.amazon.com/dp/B0BJ6TVRJG?tag=pilatescollective-20",
     tag: "Best Wide Compatibility",
   },
@@ -125,9 +125,9 @@ const jsonLd = {
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "What is cadence in indoor cycling, and why does it matter?", "acceptedAnswer": { "@type": "Answer", "text": "Cadence is pedal revolutions per minute (RPM) — how fast you're spinning the crank. Most spin instructors target 60-110 RPM for different exercise types: lower RPM for heavy-resistance hill climbs, higher RPM for speed intervals. A cadence sensor gives you objective feedback on whether you're actually hitting instructor cues, rather than estimating based on feel." } },
+        { "@type": "Question", "name": "What is cadence in indoor cycling, and why does it matter?", "acceptedAnswer": { "@type": "Answer", "text": "Cadence is pedal revolutions per minute (RPM): how fast you're spinning the crank. Most spin instructors target 60-110 RPM for different exercise types: lower RPM for heavy-resistance hill climbs, higher RPM for speed intervals. A cadence sensor gives you objective feedback on whether you're actually hitting instructor cues, rather than estimating based on feel." } },
         { "@type": "Question", "name": "Do I need a cadence sensor if my spin bike already has a console?", "acceptedAnswer": { "@type": "Answer", "text": "If your bike's console displays RPM and you trust its accuracy, you may not need an additional sensor. However, many budget and even mid-range spin bikes display estimated or uncalibrated cadence. A dedicated sensor provides certified accuracy and can simultaneously stream to your phone or training app even if your bike's console doesn't have app connectivity." } },
-        { "@type": "Question", "name": "Bluetooth vs ANT+ cadence sensors — which should I use?", "acceptedAnswer": { "@type": "Answer", "text": "Most modern cadence sensors, including all the options in this guide, transmit over both Bluetooth and ANT+ simultaneously, so the choice usually comes down to what your app or head unit supports rather than the sensor itself. Bluetooth covers phones and tablets, while ANT+ is common on dedicated cycling head units. Dual-protocol sensors let you pair to both at once without switching modes." } },
+        { "@type": "Question", "name": "Bluetooth vs ANT+ cadence sensors, which should I use?", "acceptedAnswer": { "@type": "Answer", "text": "Most modern cadence sensors, including all the options in this guide, transmit over both Bluetooth and ANT+ simultaneously, so the choice usually comes down to what your app or head unit supports rather than the sensor itself. Bluetooth covers phones and tablets, while ANT+ is common on dedicated cycling head units. Dual-protocol sensors let you pair to both at once without switching modes." } },
       ],
     },
   ],
@@ -155,7 +155,7 @@ export default function BestCadenceSensorPage() {
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              A cadence sensor turns a non-connected spin bike into a data-capable training tool — streaming live RPM to Zwift, your Peloton app, or any compatible training platform. This guide compares the five best options for 2026, from proven all-rounders like CooSpo and CYCPLUS to budget picks and wide-compatibility sets.
+              A cadence sensor turns a non-connected spin bike into a data-capable training tool: streaming live RPM to Zwift, your Peloton app, or any compatible training platform. This guide compares the five best options for 2026, from proven all-rounders like CooSpo and CYCPLUS to budget picks and wide-compatibility sets.
             </p>
           </div>
         </section>
@@ -206,9 +206,9 @@ export default function BestCadenceSensorPage() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "What is cadence in indoor cycling, and why does it matter?", a: "Cadence is pedal revolutions per minute (RPM) — how fast you're spinning the crank. Most spin instructors target 60-110 RPM for different exercise types. A cadence sensor gives you objective feedback on whether you're hitting instructor cues rather than estimating based on feel." },
+                  { q: "What is cadence in indoor cycling, and why does it matter?", a: "Cadence is pedal revolutions per minute (RPM): how fast you're spinning the crank. Most spin instructors target 60-110 RPM for different exercise types. A cadence sensor gives you objective feedback on whether you're hitting instructor cues rather than estimating based on feel." },
                   { q: "Do I need a cadence sensor if my spin bike already has a console?", a: "If your bike's console displays accurate RPM, you may not need an additional sensor. However, many budget spin bikes display estimated or uncalibrated cadence. A dedicated sensor provides certified accuracy and can simultaneously stream to training apps even if your bike lacks connectivity." },
-                  { q: "Magnet-based vs accelerometer cadence sensors — which is more accurate?", a: "Both are accurate for steady-state cadence. Accelerometer-based sensors can lag slightly during rapid RPM changes. Magnet-based sensors use a physical trigger point that is precise even at low cadence. For typical spin class use, both perform comparably well." },
+                  { q: "Magnet-based vs accelerometer cadence sensors, which is more accurate?", a: "Both are accurate for steady-state cadence. Accelerometer-based sensors can lag slightly during rapid RPM changes. Magnet-based sensors use a physical trigger point that is precise even at low cadence. For typical spin class use, both perform comparably well." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>

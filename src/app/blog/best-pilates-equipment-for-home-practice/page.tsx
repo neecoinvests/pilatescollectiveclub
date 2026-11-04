@@ -11,13 +11,13 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Equipment for Home Practice (2026)",
-  description: "The best Pilates equipment for home — reformers, mats, rings, and resistance bands reviewed for durability, value, and genuine home workout effectiveness.",
+  description: "The best Pilates equipment for home: reformers, mats, rings, and resistance bands reviewed for durability, value, and genuine home workout effectiveness.",
   openGraph: {
     title: "Best Pilates Equipment for Home Practice",
-    description: "Our definitive guide to home Pilates equipment — from quality mats to resistance bands and reformer alternatives.",
+    description: "Our definitive guide to home Pilates equipment, from quality mats to resistance bands and reformer alternatives.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-equipment-for-home-practice",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg", width: 1200, height: 630, alt: "Pilates Equipment for Home Practice — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg", width: 1200, height: 630, alt: "Pilates Equipment for Home Practice: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -152,7 +152,7 @@ export default function BlogEquipmentPage() {
             >
               Building a home Pilates practice is one of the most valuable investments you can make
               in your long-term movement health. But the equipment market is cluttered with
-              mediocre gear and inflated claims. This guide cuts through the noise — here&apos;s what
+              mediocre gear and inflated claims. This guide cuts through the noise: here&apos;s what
               actually makes a difference, what you can skip, and what to buy first.
             </p>
           </div>
@@ -171,7 +171,7 @@ export default function BlogEquipmentPage() {
         <article className="px-6 pb-20">
           <div className="max-w-3xl mx-auto space-y-20">
 
-            {/* Section 1 — Mat */}
+            {/* Section 1: Mat */}
             <section>
               <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
@@ -185,7 +185,7 @@ export default function BlogEquipmentPage() {
                 className="text-base leading-relaxed mb-4"
                 style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
               >
-                A Pilates mat is not a yoga mat. The primary difference is density and thickness —
+                A Pilates mat is not a yoga mat. The primary difference is density and thickness:
                 Pilates work requires more cushioning because you spend significant time with your
                 spine, sacrum, and hip bones pressing against the floor. The minimum we recommend
                 is <strong>6mm</strong>; if you have any sensitivity in the lower back or hips, go
@@ -195,7 +195,7 @@ export default function BlogEquipmentPage() {
                 className="text-base leading-relaxed mb-8"
                 style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
               >
-                Non-slip texture is non-negotiable — you&apos;ll be pulling and pushing against the mat
+                Non-slip texture is non-negotiable: you&apos;ll be pulling and pushing against the mat
                 with bare feet or grip socks throughout your session. Closed-cell foam is easier to
                 wipe clean and resists moisture. Our top pick balances density, grip, and
                 portability without compromising on quality.
@@ -209,7 +209,7 @@ export default function BlogEquipmentPage() {
               />
             </section>
 
-            {/* Section 2 — Resistance Bands */}
+            {/* Section 2: Resistance Bands */}
             <section>
               <h2
                 className="text-3xl font-semibold mb-6"
@@ -224,7 +224,7 @@ export default function BlogEquipmentPage() {
                 Resistance bands are the most versatile piece of equipment you can own for home
                 Pilates. They replicate many of the spring-based exercises from the reformer,
                 particularly footwork, chest expansion, and rowing series. A set of three
-                resistance levels — light, medium, and heavy — covers virtually every application.
+                resistance levels (light, medium, and heavy) covers virtually every application.
               </p>
               <p
                 className="text-base leading-relaxed mb-8"
@@ -243,7 +243,7 @@ export default function BlogEquipmentPage() {
               />
             </section>
 
-            {/* Section 3 — Ring */}
+            {/* Section 3: Ring */}
             <section>
               <h2
                 className="text-3xl font-semibold mb-6"
@@ -278,7 +278,7 @@ export default function BlogEquipmentPage() {
               />
             </section>
 
-            {/* Section 4 — Ankle Weights */}
+            {/* Section 4: Ankle Weights */}
             <section>
               <h2
                 className="text-3xl font-semibold mb-6"
@@ -291,7 +291,7 @@ export default function BlogEquipmentPage() {
                 style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
               >
                 Ankle weights add useful resistance to leg circle, side-lying, and standing leg
-                work. For beginners, start at 0.5kg per leg — this is more than enough to feel
+                work. For beginners, start at 0.5kg per leg: this is more than enough to feel
                 meaningful resistance in hip and glute exercises without compromising form.
                 Progress slowly; the goal is always controlled movement with full range of motion,
                 not heavier weight with compromised alignment.
@@ -300,7 +300,7 @@ export default function BlogEquipmentPage() {
                 className="text-base leading-relaxed mb-8"
                 style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
               >
-                Adjustable ankle weights are ideal for home practice — they grow with you as your
+                Adjustable ankle weights are ideal for home practice: they grow with you as your
                 strength develops, and you won&apos;t need to buy multiple pairs.
               </p>
               <ProductCard
@@ -312,7 +312,7 @@ export default function BlogEquipmentPage() {
               />
             </section>
 
-            {/* Section 5 — Reformer Alternative */}
+            {/* Section 5: Reformer Alternative */}
             <section>
               <h2
                 className="text-3xl font-semibold mb-6"
@@ -327,7 +327,7 @@ export default function BlogEquipmentPage() {
                 A full reformer is the gold standard for home Pilates, but it requires significant
                 space and investment (typically $1,800–$4,500 for a quality model). For most home
                 practitioners, a Pilates board or fitness board offers the most accessible
-                reformer-like experience — spring-loaded resistance, a sliding surface, and enough
+                reformer-like experience: spring-loaded resistance, a sliding surface, and enough
                 versatility to cover the majority of the classical reformer repertoire.
               </p>
               <p
@@ -335,8 +335,8 @@ export default function BlogEquipmentPage() {
                 style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
               >
                 These boards are generally under $220, fold flat for storage, and can be used
-                against any stable wall. They don&apos;t replicate the full reformer experience — the
-                carriage feel is quite different — but for footwork, leg press, and standing work,
+                against any stable wall. They don&apos;t replicate the full reformer experience: the
+                carriage feel is quite different, but for footwork, leg press, and standing work,
                 they&apos;re genuinely useful.
               </p>
               <ProductCard
@@ -348,7 +348,7 @@ export default function BlogEquipmentPage() {
               />
             </section>
 
-            {/* Section 6 — Beginners */}
+            {/* Section 6: Beginners */}
             <section
               className="rounded-2xl p-8"
               style={{
@@ -368,8 +368,8 @@ export default function BlogEquipmentPage() {
               >
                 If you&apos;re just starting your home practice, the answer is simple: a quality mat
                 and enough space to lie down. That&apos;s genuinely all you need to build a solid
-                foundation. The fundamental Pilates mat repertoire — the hundred, roll-up, single
-                leg circles, rolling like a ball, the series of five — requires nothing but your
+                foundation. The fundamental Pilates mat repertoire: the hundred, roll-up, single
+                leg circles, rolling like a ball, the series of five: requires nothing but your
                 own body weight.
               </p>
               <p
@@ -377,7 +377,7 @@ export default function BlogEquipmentPage() {
                 style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
               >
                 Add a resistance band once you&apos;ve established a consistent practice. Everything
-                else is supplementary. The best equipment is the equipment you&apos;ll actually use —
+                else is supplementary. The best equipment is the equipment you&apos;ll actually use:
                 don&apos;t let gear acquisition become a substitute for showing up.
               </p>
             </section>
@@ -497,7 +497,7 @@ export default function BlogEquipmentPage() {
               >
                 Build from there as your practice deepens. The classic mat repertoire is more than
                 enough to develop real strength and body awareness. Equipment amplifies a good
-                practice — it doesn&apos;t create one.
+                practice: it doesn&apos;t create one.
               </p>
               <a
                 href="/blog"

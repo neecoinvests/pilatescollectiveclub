@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     description: "Frame, weight rating, warranty and duty cycle: what separates the two tiers, and which one you need.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/commercial-vs-home-pilates-reformer",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/stitch-reformer-spring-detail.png", width: 1200, height: 630, alt: "Commercial vs Home Pilates Reformer — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/stitch-reformer-spring-detail.png", width: 1200, height: 630, alt: "Commercial vs Home Pilates Reformer: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -124,7 +124,7 @@ const PRODUCTS = [
   { name: "Balanced Body Replacement Reformer Ropes with Clips", description: "Ropes stretch and fray, and a stretched rope changes the working length of every strap exercise without anyone noticing the cause. Replace them as a set rather than individually so both sides match, and confirm the fit for your exact model before ordering.", price: "$35", affiliateUrl: "https://www.amazon.com/dp/B0CYM27QMZ?tag=pilatescollective-20" },
   { name: "Amazon Basics Microfiber Cloths (24-pack)", description: "Carriage noise and a gritty glide are almost always dirt in the wheel track rather than a worn bearing. Cleaning the rails and wheels on a schedule with a dry, then barely damp, microfiber cloth is the single highest-return maintenance task on any reformer, and it is the difference between a machine that feels studio-grade at year five and one that does not.", price: "$10.04", affiliateUrl: "https://www.amazon.com/dp/B009FUF6DM?tag=pilatescollective-20" },
   { name: "STAR BRITE Ultimate Vinyl Clean", description: "Upholstery is the first thing to look tired on any reformer at any price. Alcohol-heavy and bleach-based cleaners dry the vinyl until it cracks, which converts a wipe-down into a re-upholstery bill. A formula rated for vinyl and leatherette costs the same and does not do that.", price: "$14.95", affiliateUrl: "https://www.amazon.com/dp/B01CZ2ZW4O?tag=pilatescollective-20" },
-  { name: "Balanced Body Padded Jumpboard", description: "Available for the Studio Reformer and Allegro line and the cheapest way to add a genuinely different training stimulus to a reformer you already own. Mount-specific — confirm the fit for your exact machine before ordering.", price: "$280", affiliateUrl: "https://www.amazon.com/dp/B08CS4LJZ7?tag=pilatescollective-20" },
+  { name: "Balanced Body Padded Jumpboard", description: "Available for the Studio Reformer and Allegro line and the cheapest way to add a genuinely different training stimulus to a reformer you already own. Mount-specific: confirm the fit for your exact machine before ordering.", price: "$280", affiliateUrl: "https://www.amazon.com/dp/B08CS4LJZ7?tag=pilatescollective-20" },
   { name: "Eccentfit Pilates Grip Pads (4-pack)", description: "A thin grip pad is the cheapest fix for a carriage that has become slick with use, and it makes standing and kneeling work feel secure on an older machine. Worth having on a home reformer where the upholstery is past its best but the frame is sound.", price: "$7.99", affiliateUrl: "https://www.amazon.com/dp/B0GGR4QXNH?tag=pilatescollective-20" },
 ];
 

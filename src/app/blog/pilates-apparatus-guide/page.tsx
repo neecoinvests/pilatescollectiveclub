@@ -16,12 +16,12 @@ export const metadata: Metadata = {
   keywords: ["pilates apparatus guide", "pilates equipment explained", "what is pilates cadillac", "pilates reformer explained", "pilates wunda chair", "pilates apparatus list", "pilates equipment types", "classical pilates apparatus", "what does pilates reformer do", "pilates apparatus 2026"],
   openGraph: {
     title: "Pilates Apparatus Guide (2026): Every Piece of Equipment Explained",
-    description: "Reformer, Cadillac, Chair, barrels, mat — every Pilates apparatus explained. What each does and how the full system fits together.",
+    description: "Reformer, Cadillac, Chair, barrels, mat, every Pilates apparatus explained. What each does and how the full system fits together.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/pilates-apparatus-guide",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/juls-p-lB6lbkbe1XA-unsplash.jpg", width: 1200, height: 630, alt: "Pilates apparatus guide — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/juls-p-lB6lbkbe1XA-unsplash.jpg", width: 1200, height: 630, alt: "Pilates apparatus guide: Pilates Collective Club" }],
   },
-  twitter: { card: "summary_large_image", title: "Pilates Apparatus Guide (2026)", description: "Every Pilates apparatus explained — Reformer, Cadillac, Chair, barrels, and more.", images: ["https://pilatescollectiveclub.com/pictures/juls-p-lB6lbkbe1XA-unsplash.jpg"] },
+  twitter: { card: "summary_large_image", title: "Pilates Apparatus Guide (2026)", description: "Every Pilates apparatus explained: Reformer, Cadillac, Chair, barrels, and more.", images: ["https://pilatescollectiveclub.com/pictures/juls-p-lB6lbkbe1XA-unsplash.jpg"] },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/pilates-apparatus-guide" },
   robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
@@ -32,7 +32,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Pilates Apparatus Guide (2026): Every Piece of Equipment Explained",
-      "description": "The complete Pilates apparatus guide — Reformer, Cadillac, Wunda Chair, barrels, mat, and more. What each apparatus does, who it's for, and how the full system fits together.",
+      "description": "The complete Pilates apparatus guide: Reformer, Cadillac, Wunda Chair, barrels, mat, and more. What each apparatus does, who it's for, and how the full system fits together.",
       "url": "https://pilatescollectiveclub.com/blog/pilates-apparatus-guide",
       "datePublished": "2026-05-16",
       "dateModified": "2026-10-20",
@@ -65,7 +65,7 @@ const jsonLd = {
           "name": "Do I need all the apparatus to practice Pilates?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. The mat alone supports a complete and demanding practice. The Reformer adds significant exercise variety. The Cadillac, Chair, and Barrels each add specific qualities that deepen an advanced practice — but they are not prerequisites for a meaningful Pilates practice.",
+            "text": "No. The mat alone supports a complete and demanding practice. The Reformer adds significant exercise variety. The Cadillac, Chair, and Barrels each add specific qualities that deepen an advanced practice, but they are not prerequisites for a meaningful Pilates practice.",
           },
         },
         {
@@ -92,7 +92,7 @@ const jsonLd = {
 const apparatusData = [
   {
     name: "The Mat",
-    level: "All levels — Beginner to Advanced",
+    level: "All levels: Beginner to Advanced",
     classFormat: "Mat class, group or private",
     whereToFind: "Every Pilates studio; home practice",
     internalLink: null,
@@ -100,11 +100,11 @@ const apparatusData = [
     content: (
       <>
         <p style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontSize: "16px", lineHeight: "1.8", marginBottom: "16px" }}>
-          The mat is where every Pilates practice begins — and where it can reach its most demanding expression. Joseph Pilates developed the mat work first, and the classical sequence of approximately 34 exercises forms the conceptual foundation of the entire system. No apparatus is required beyond a firm mat; the practitioner uses their own body weight and the force of gravity as resistance. Beginning mat work is accessible to most people. Advanced mat work — the full classical sequence performed with control, precision, and flow — is among the most demanding physical work in the Pilates system. The mat is not a simplification of apparatus work; it is its own discipline.
+          The mat is where every Pilates practice begins, and where it can reach its most demanding expression. Joseph Pilates developed the mat work first, and the classical sequence of approximately 34 exercises forms the conceptual foundation of the entire system. No apparatus is required beyond a firm mat; the practitioner uses their own body weight and the force of gravity as resistance. Beginning mat work is accessible to most people. Advanced mat work (the full classical sequence performed with control, precision, and flow) is among the most demanding physical work in the Pilates system. The mat is not a simplification of apparatus work; it is its own discipline.
         </p>
       </>
     ),
-    who: "All practitioners — essential at every level",
+    who: "All practitioners: essential at every level",
   },
   {
     name: "The Reformer (Universal Reformer)",
@@ -116,15 +116,15 @@ const apparatusData = [
     content: (
       <>
         <p style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontSize: "16px", lineHeight: "1.8", marginBottom: "16px" }}>
-          The Reformer is the most versatile piece of apparatus in the Pilates system and the one most practitioners encounter first in a studio setting. It consists of a sliding carriage mounted on a frame, moved by spring resistance that can be adjusted to support or challenge the body. A footbar at one end and straps at the other allow an enormous range of exercise positions — lying, sitting, kneeling, standing, and inverted. The classical Reformer repertoire contains over 100 exercises; with creative application of the spring system and variable positions, the number grows further. The Reformer is genuinely suitable for beginners — the springs can assist movement as much as resist it — and simultaneously contains exercises that challenge the most advanced practitioners. It is the primary apparatus in most contemporary studios.
+          The Reformer is the most versatile piece of apparatus in the Pilates system and the one most practitioners encounter first in a studio setting. It consists of a sliding carriage mounted on a frame, moved by spring resistance that can be adjusted to support or challenge the body. A footbar at one end and straps at the other allow an enormous range of exercise positions: lying, sitting, kneeling, standing, and inverted. The classical Reformer repertoire contains over 100 exercises; with creative application of the spring system and variable positions, the number grows further. The Reformer is genuinely suitable for beginners, the springs can assist movement as much as resist it, and simultaneously contains exercises that challenge the most advanced practitioners. It is the primary apparatus in most contemporary studios.
         </p>
       </>
     ),
-    who: "All practitioners — the most widely used apparatus",
+    who: "All practitioners: the most widely used apparatus",
   },
   {
     name: "The Cadillac (Trapeze Table)",
-    level: "Intermediate to Advanced — clinical use at all levels",
+    level: "Intermediate to Advanced: clinical use at all levels",
     classFormat: "Private session",
     whereToFind: "Classical studios, full-service boutique studios, Pilates clinics",
     internalLink: "/blog/best-pilates-cadillac",
@@ -132,7 +132,7 @@ const apparatusData = [
     content: (
       <>
         <p style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontSize: "16px", lineHeight: "1.8", marginBottom: "16px" }}>
-          The Cadillac — also called the Trapeze Table — is the most comprehensive single piece of apparatus in the Pilates system. It is a full padded table with an overhead metal frame from which springs, a trapeze bar, push-through bars, and a roll-down bar are suspended. This overhead architecture allows exercises that no other apparatus can replicate: hanging work, spring-assisted standing, and supine spring work in positions that require the full height of the frame. The Cadillac carries a repertoire of over 80 exercises and is particularly valued in clinical and rehabilitation contexts — the spring system can offer gentle assistance for those recovering from injury or surgery — as well as in advanced classical training where hanging and inversion exercises form part of the full practice.
+          The Cadillac, also called the Trapeze Table, is the most comprehensive single piece of apparatus in the Pilates system. It is a full padded table with an overhead metal frame from which springs, a trapeze bar, push-through bars, and a roll-down bar are suspended. This overhead architecture allows exercises that no other apparatus can replicate: hanging work, spring-assisted standing, and supine spring work in positions that require the full height of the frame. The Cadillac carries a repertoire of over 80 exercises and is particularly valued in clinical and rehabilitation contexts, the spring system can offer gentle assistance for those recovering from injury or surgery, as well as in advanced classical training where hanging and inversion exercises form part of the full practice.
         </p>
       </>
     ),
@@ -148,7 +148,7 @@ const apparatusData = [
     content: (
       <>
         <p style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontSize: "16px", lineHeight: "1.8", marginBottom: "16px" }}>
-          The Wunda Chair is a compact wooden box with one or two spring-loaded pedals and is widely regarded as one of the most challenging apparatus in the classical system. Its small footprint belies its difficulty: the reduced base of support that the Chair provides demands exceptional balance, core stability, and precise muscular control in ways the larger apparatus cannot replicate. The classical Chair repertoire includes exercises performed sitting, standing, and inverted on this small platform — each requiring the full body to work as a coordinated unit. The Chair is not typically introduced until a practitioner has a solid foundation in mat and Reformer work. Its demanding nature makes it a reliable measure of a practitioner&apos;s real strength and control.
+          The Wunda Chair is a compact wooden box with one or two spring-loaded pedals and is widely regarded as one of the most challenging apparatus in the classical system. Its small footprint belies its difficulty: the reduced base of support that the Chair provides demands exceptional balance, core stability, and precise muscular control in ways the larger apparatus cannot replicate. The classical Chair repertoire includes exercises performed sitting, standing, and inverted on this small platform, each requiring the full body to work as a coordinated unit. The Chair is not typically introduced until a practitioner has a solid foundation in mat and Reformer work. Its demanding nature makes it a reliable measure of a practitioner&apos;s real strength and control.
         </p>
       </>
     ),
@@ -156,7 +156,7 @@ const apparatusData = [
   },
   {
     name: "The Ladder Barrel",
-    level: "Advanced — instructor and advanced practitioner use",
+    level: "Advanced: instructor and advanced practitioner use",
     classFormat: "Private session",
     whereToFind: "Classical studios, full-service boutique studios",
     internalLink: null,
@@ -164,7 +164,7 @@ const apparatusData = [
     content: (
       <>
         <p style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontSize: "16px", lineHeight: "1.8", marginBottom: "16px" }}>
-          The Ladder Barrel consists of a rounded barrel mounted on a base with a horizontal ladder rising from one side. Its primary function is spinal extension, lateral stretching, and advanced hanging exercises that develop the long muscles of the back and open the chest and hip flexors. The barrel&apos;s curved surface supports the spine in extension positions that would be unsupported on the mat, allowing a depth of backbending that builds gradually with practice. The ladder adds a further dimension — exercises that require hanging from the rungs in ways that decompress the spine and challenge upper body strength simultaneously. The Ladder Barrel is primarily the domain of advanced practitioners and instructors deepening their own practice. It is one of the apparatus least commonly encountered in contemporary studios outside classical training environments.
+          The Ladder Barrel consists of a rounded barrel mounted on a base with a horizontal ladder rising from one side. Its primary function is spinal extension, lateral stretching, and advanced hanging exercises that develop the long muscles of the back and open the chest and hip flexors. The barrel&apos;s curved surface supports the spine in extension positions that would be unsupported on the mat, allowing a depth of backbending that builds gradually with practice. The ladder adds a further dimension: exercises that require hanging from the rungs in ways that decompress the spine and challenge upper body strength simultaneously. The Ladder Barrel is primarily the domain of advanced practitioners and instructors deepening their own practice. It is one of the apparatus least commonly encountered in contemporary studios outside classical training environments.
         </p>
       </>
     ),
@@ -180,7 +180,7 @@ const apparatusData = [
     content: (
       <>
         <p style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontSize: "16px", lineHeight: "1.8", marginBottom: "16px" }}>
-          The Spine Corrector — sometimes called the Small Barrel — is a lower-curved barrel designed specifically for spinal articulation and extension work. Joseph Pilates designed it to address the postural deviations common in modern life: rounded upper backs, compressed lumbar spines, and restricted thoracic mobility. The Spine Corrector series drapes the practitioner over the barrel in a variety of positions that open the chest, mobilise the thoracic spine, and strengthen the posterior chain. Unlike the Ladder Barrel, the Spine Corrector sits close to the floor — making its exercises more accessible while still requiring good body awareness and spinal mobility to perform them safely and effectively. It is a valuable complement to both mat and Reformer work.
+          The Spine Corrector, sometimes called the Small Barrel, is a lower-curved barrel designed specifically for spinal articulation and extension work. Joseph Pilates designed it to address the postural deviations common in modern life: rounded upper backs, compressed lumbar spines, and restricted thoracic mobility. The Spine Corrector series drapes the practitioner over the barrel in a variety of positions that open the chest, mobilise the thoracic spine, and strengthen the posterior chain. Unlike the Ladder Barrel, the Spine Corrector sits close to the floor, making its exercises more accessible while still requiring good body awareness and spinal mobility to perform them safely and effectively. It is a valuable complement to both mat and Reformer work.
         </p>
       </>
     ),
@@ -196,7 +196,7 @@ const apparatusData = [
     content: (
       <>
         <p style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontSize: "16px", lineHeight: "1.8", marginBottom: "16px" }}>
-          The Arc Barrel is a contemporary apparatus developed by Balanced Body — it is not part of the classical Joseph Pilates apparatus, but has become widely used in contemporary studios for good reason. Its lower, flatter curve compared to the Spine Corrector makes it more accessible for extension support and core challenges, and it serves as an excellent home addition for practitioners building a mat practice. The Arc is particularly effective for thoracic extension over the barrel, hip flexor lengthening, and as an unstable surface for core exercises. Its compact size and lower price point relative to classical apparatus make it one of the most practical home purchases for a developing practitioner. Most contemporary studios stock the Arc as a standard piece of equipment.
+          The Arc Barrel is a contemporary apparatus developed by Balanced Body: it is not part of the classical Joseph Pilates apparatus, but has become widely used in contemporary studios for good reason. Its lower, flatter curve compared to the Spine Corrector makes it more accessible for extension support and core challenges, and it serves as an excellent home addition for practitioners building a mat practice. The Arc is particularly effective for thoracic extension over the barrel, hip flexor lengthening, and as an unstable surface for core exercises. Its compact size and lower price point relative to classical apparatus make it one of the most practical home purchases for a developing practitioner. Most contemporary studios stock the Arc as a standard piece of equipment.
         </p>
       </>
     ),
@@ -212,20 +212,20 @@ const apparatusData = [
     content: (
       <>
         <p style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontSize: "16px", lineHeight: "1.8", marginBottom: "16px" }}>
-          The Magic Circle is a flexible steel ring approximately 38cm in diameter with two padded handles, used to add light resistance to mat and standing exercises. It is a classical accessory attributed to Joseph Pilates — though its design has evolved from its origins. The ring is squeezed between the hands, between the thighs, or between the ankles to activate specific muscle groups that body weight alone may not load effectively. It is particularly useful for inner thigh and chest engagement, and for adding resistance to standing balance work without requiring large apparatus. The Magic Circle is one of the most affordable Pilates accessories and one of the most genuinely useful — it adds meaningful challenge to mat work and is a sensible first purchase for a home practice.
+          The Magic Circle is a flexible steel ring approximately 38cm in diameter with two padded handles, used to add light resistance to mat and standing exercises. It is a classical accessory attributed to Joseph Pilates, though its design has evolved from its origins. The ring is squeezed between the hands, between the thighs, or between the ankles to activate specific muscle groups that body weight alone may not load effectively. It is particularly useful for inner thigh and chest engagement, and for adding resistance to standing balance work without requiring large apparatus. The Magic Circle is one of the most affordable Pilates accessories and one of the most genuinely useful: it adds meaningful challenge to mat work and is a sensible first purchase for a home practice.
         </p>
       </>
     ),
-    who: "All levels — an excellent and affordable home accessory",
+    who: "All levels: an excellent and affordable home accessory",
   },
 ];
 
 const PRODUCTS = [
-  { name: "Byrex Pilates Prop Kit (Ring, Ball & Bands)", description: "We could not verify a standalone Balanced Body magic circle as a specific live Amazon listing. This kit bundles a ring, ball, and resistance bands — a genuine, currently-sold alternative used in mat, standing, and reformer work that teaches the lateral body connections central to the full apparatus system.", price: "$24.99", affiliateUrl: "https://www.amazon.com/dp/B0GSJHPSQT?tag=pilatescollective-20" },
-  { name: "Gaiam Premium Yoga Mat (6mm)", description: "Where most practitioners begin — the mat is the foundation of the Pilates system. We could not verify a Manduka mat at this price as a specific live listing; this Gaiam 6mm mat is a real, currently-sold alternative, marketed as a yoga mat but firm enough for daily Pilates practice.", price: "$39.99", affiliateUrl: "https://www.amazon.com/dp/B09WF4GPPC?tag=pilatescollective-20" },
-  { name: "Balanced Body Pilates Arc (Spine Corrector)", description: "The most accessible full apparatus piece for home studios, genuinely sold by Balanced Body on Amazon. Supports spinal extension and hip flexor lengthening — exercises impossible to replicate on the mat alone.", price: "$189.99", affiliateUrl: "https://www.amazon.com/dp/B002XVSNRG?tag=pilatescollective-20" },
-  { name: "Muezna Pilates Grip Socks (6-Pair)", description: "Essential once reformer or standing chair work is introduced — grip socks prevent foot slippage, a real safety consideration on any apparatus with a sliding or elevated surface.", price: "$7.59", affiliateUrl: "https://www.amazon.com/dp/B0DQ53GSP5?tag=pilatescollective-20" },
-  { name: "TriggerPoint GRID 2.0 Foam Roller", description: "A real, durable foam roller (roller only, not massage balls) for the thoracic mobility and self-myofascial release work described above — used before sessions as mobilisation or after for recovery.", price: "$74.99", affiliateUrl: "https://www.amazon.com/dp/B006GUC9KC?tag=pilatescollective-20" },
+  { name: "Byrex Pilates Prop Kit (Ring, Ball & Bands)", description: "We could not verify a standalone Balanced Body magic circle as a specific live Amazon listing. This kit bundles a ring, ball, and resistance bands: a genuine, currently-sold alternative used in mat, standing, and reformer work that teaches the lateral body connections central to the full apparatus system.", price: "$24.99", affiliateUrl: "https://www.amazon.com/dp/B0GSJHPSQT?tag=pilatescollective-20" },
+  { name: "Gaiam Premium Yoga Mat (6mm)", description: "Where most practitioners begin: the mat is the foundation of the Pilates system. We could not verify a Manduka mat at this price as a specific live listing; this Gaiam 6mm mat is a real, currently-sold alternative, marketed as a yoga mat but firm enough for daily Pilates practice.", price: "$39.99", affiliateUrl: "https://www.amazon.com/dp/B09WF4GPPC?tag=pilatescollective-20" },
+  { name: "Balanced Body Pilates Arc (Spine Corrector)", description: "The most accessible full apparatus piece for home studios, genuinely sold by Balanced Body on Amazon. Supports spinal extension and hip flexor lengthening: exercises impossible to replicate on the mat alone.", price: "$189.99", affiliateUrl: "https://www.amazon.com/dp/B002XVSNRG?tag=pilatescollective-20" },
+  { name: "Muezna Pilates Grip Socks (6-Pair)", description: "Essential once reformer or standing chair work is introduced: grip socks prevent foot slippage, a real safety consideration on any apparatus with a sliding or elevated surface.", price: "$7.59", affiliateUrl: "https://www.amazon.com/dp/B0DQ53GSP5?tag=pilatescollective-20" },
+  { name: "TriggerPoint GRID 2.0 Foam Roller", description: "A real, durable foam roller (roller only, not massage balls) for the thoracic mobility and self-myofascial release work described above, used before sessions as mobilisation or after for recovery.", price: "$74.99", affiliateUrl: "https://www.amazon.com/dp/B006GUC9KC?tag=pilatescollective-20" },
 ];
 
 const QUICK_PICKS = [
@@ -263,7 +263,7 @@ export default function PilatesApparatusGuidePage() {
               <TopPick name={QUICK_PICKS[0].name} price={QUICK_PICKS[0].price} note={QUICK_PICKS[0].note} url={QUICK_PICKS[0].url} />
             <div style={{ width: "64px", height: "1px", backgroundColor: "#d9c2ba", marginBottom: "32px" }} />
             <p style={{ fontSize: "18px", lineHeight: "1.8", color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Joseph Pilates designed a complete system — not just exercises, but a specific set of apparatus that work together to develop the body comprehensively. The mat is the foundation. The Reformer is the most versatile tool. The Cadillac, Chair, and Barrels each target qualities the other apparatus cannot. Understanding the full system helps practitioners make better choices about where to train and what equipment to invest in. This guide covers every major piece of Pilates apparatus, what it does, and who it is for.
+              Joseph Pilates designed a complete system, not just exercises, but a specific set of apparatus that work together to develop the body comprehensively. The mat is the foundation. The Reformer is the most versatile tool. The Cadillac, Chair, and Barrels each target qualities the other apparatus cannot. Understanding the full system helps practitioners make better choices about where to train and what equipment to invest in. This guide covers every major piece of Pilates apparatus, what it does, and who it is for.
             </p>
           </div>
         </section>
@@ -274,7 +274,7 @@ export default function PilatesApparatusGuidePage() {
             <div style={{ width: "100%", borderRadius: "16px", overflow: "hidden", position: "relative", height: "420px" }}>
               <Image
                 src="/pictures/juls-p-lB6lbkbe1XA-unsplash.jpg"
-                alt="Pilates apparatus — Reformer, Cadillac, Chair, and barrels in a studio"
+                alt="Pilates apparatus: Reformer, Cadillac, Chair, and barrels in a studio"
                 fill
                 style={{ objectFit: "cover", filter: "brightness(0.85)" }}
                 priority
@@ -295,10 +295,10 @@ export default function PilatesApparatusGuidePage() {
                 How the Pilates apparatus system works
               </h2>
               <p style={{ fontSize: "16px", lineHeight: "1.8", color: "#53433e", fontFamily: "'Montserrat', sans-serif", marginBottom: "20px" }}>
-                Joseph Pilates conceived his apparatus not as a collection of isolated machines but as a unified system — each piece designed to develop specific movement qualities, and the full collection intended to be practiced together over time. The Reformer and the mat form the foundation; they cover the widest range of exercises and are the pieces through which practitioners build the core vocabulary of the method. The Cadillac, Chair, and Barrels are not supplements to the Reformer — they are distinct apparatus that address qualities the Reformer cannot. The Cadillac allows overhead and hanging work. The Chair demands balance and control on a minimal surface. The Barrels target spinal mobility and extension in ways the flat surfaces of other apparatus cannot offer.
+                Joseph Pilates conceived his apparatus not as a collection of isolated machines but as a unified system, each piece designed to develop specific movement qualities, and the full collection intended to be practiced together over time. The Reformer and the mat form the foundation; they cover the widest range of exercises and are the pieces through which practitioners build the core vocabulary of the method. The Cadillac, Chair, and Barrels are not supplements to the Reformer: they are distinct apparatus that address qualities the Reformer cannot. The Cadillac allows overhead and hanging work. The Chair demands balance and control on a minimal surface. The Barrels target spinal mobility and extension in ways the flat surfaces of other apparatus cannot offer.
               </p>
               <p style={{ fontSize: "16px", lineHeight: "1.8", color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                In contemporary practice, most practitioners work primarily on the Reformer and mat, occasionally incorporating the Chair and Barrels as their practice develops. A full apparatus practice — using all equipment regularly as part of an integrated training approach — is the domain of advanced practitioners, dedicated students in classical lineages, and full-time Pilates professionals. For most people, building a strong foundation on the mat and Reformer is the most practical path. Understanding what each apparatus contributes to the system helps practitioners and prospective students choose studios wisely and know what to seek out as their practice matures.
+                In contemporary practice, most practitioners work primarily on the Reformer and mat, occasionally incorporating the Chair and Barrels as their practice develops. A full apparatus practice, using all equipment regularly as part of an integrated training approach, is the domain of advanced practitioners, dedicated students in classical lineages, and full-time Pilates professionals. For most people, building a strong foundation on the mat and Reformer is the most practical path. Understanding what each apparatus contributes to the system helps practitioners and prospective students choose studios wisely and know what to seek out as their practice matures.
               </p>
             </div>
 
@@ -370,10 +370,10 @@ export default function PilatesApparatusGuidePage() {
                 A note on contemporary additions
               </p>
               <p style={{ fontSize: "15px", lineHeight: "1.8", color: "#53433e", fontFamily: "'Montserrat', sans-serif", marginBottom: "14px" }}>
-                Several pieces of equipment commonly found in Pilates studios today are not part of the original classical system. The <strong style={{ color: "#1b1c1c" }}>Foam Roller</strong> — widely used for thoracic mobility and proprioception work — was adopted from physiotherapy practice, not designed by Joseph Pilates. Similarly, <strong style={{ color: "#1b1c1c" }}>Resistance Bands</strong> are a general fitness tool incorporated into Pilates supplementary work.
+                Several pieces of equipment commonly found in Pilates studios today are not part of the original classical system. The <strong style={{ color: "#1b1c1c" }}>Foam Roller</strong>, widely used for thoracic mobility and proprioception work, was adopted from physiotherapy practice, not designed by Joseph Pilates. Similarly, <strong style={{ color: "#1b1c1c" }}>Resistance Bands</strong> are a general fitness tool incorporated into Pilates supplementary work.
               </p>
               <p style={{ fontSize: "15px", lineHeight: "1.8", color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                The <strong style={{ color: "#1b1c1c" }}>Pedi-Pole</strong> and <strong style={{ color: "#1b1c1c" }}>Electric Chair (High Chair)</strong> are classical apparatus — designed by Pilates — but are less frequently encountered. The Pedi-Pole is a single spring-loaded vertical pole for standing balance and arm spring work; the Electric Chair is a taller version of the Wunda Chair with a back panel and its own distinct repertoire, more common in classical lineage studios.
+                The <strong style={{ color: "#1b1c1c" }}>Pedi-Pole</strong> and <strong style={{ color: "#1b1c1c" }}>Electric Chair (High Chair)</strong> are classical apparatus, designed by Pilates, but are less frequently encountered. The Pedi-Pole is a single spring-loaded vertical pole for standing balance and arm spring work; the Electric Chair is a taller version of the Wunda Chair with a back panel and its own distinct repertoire, more common in classical lineage studios.
               </p>
             </div>
 
@@ -383,7 +383,7 @@ export default function PilatesApparatusGuidePage() {
                 Which apparatus is right for you?
               </h2>
               <p style={{ fontSize: "16px", lineHeight: "1.8", color: "#53433e", fontFamily: "'Montserrat', sans-serif", marginBottom: "28px" }}>
-                The answer depends almost entirely on where you are in your practice. The Pilates system has a natural order — each stage opens the next. Skipping steps tends to create gaps in body awareness and technique that become increasingly apparent as difficulty increases.
+                The answer depends almost entirely on where you are in your practice. The Pilates system has a natural order, each stage opens the next. Skipping steps tends to create gaps in body awareness and technique that become increasingly apparent as difficulty increases.
               </p>
 
               <div style={{ display: "flex", flexDirection: "column", gap: "16px" }}>
@@ -391,7 +391,7 @@ export default function PilatesApparatusGuidePage() {
                   {
                     stage: "Complete beginner",
                     rec: "Mat + grip socks. Get studio sessions before anything else.",
-                    detail: "The mat is where every Pilates practice should begin. Before investing in any equipment, take studio sessions — private or small group — to learn the foundational exercises correctly. A qualified instructor will identify your movement patterns and correct them before they become ingrained. Grip socks are the only essential purchase at this stage.",
+                    detail: "The mat is where every Pilates practice should begin. Before investing in any equipment, take studio sessions, private or small group, to learn the foundational exercises correctly. A qualified instructor will identify your movement patterns and correct them before they become ingrained. Grip socks are the only essential purchase at this stage.",
                   },
                   {
                     stage: "3–6 months of studio experience",
@@ -401,7 +401,7 @@ export default function PilatesApparatusGuidePage() {
                   {
                     stage: "6–12 months of experience",
                     rec: "Consider a home reformer if you are training regularly.",
-                    detail: "If you are practising three or more times per week and your studio practice is well established, a home reformer becomes a worthwhile consideration. The quality of home reformers has improved significantly — entry-level and mid-range options now offer a genuine training experience. Read our guide to the best home reformers before purchasing.",
+                    detail: "If you are practising three or more times per week and your studio practice is well established, a home reformer becomes a worthwhile consideration. The quality of home reformers has improved significantly: entry-level and mid-range options now offer a genuine training experience. Read our guide to the best home reformers before purchasing.",
                   },
                   {
                     stage: "2+ years with a strong reformer foundation",
@@ -411,7 +411,7 @@ export default function PilatesApparatusGuidePage() {
                   {
                     stage: "Advanced practitioner or instructor",
                     rec: "Full apparatus access through a well-equipped studio is more valuable than accumulating home equipment.",
-                    detail: "At an advanced level, the relationship between all apparatus becomes the practice. Access to a fully equipped studio — Reformer, Cadillac, Chair, Ladder Barrel, Spine Corrector — used regularly with skilled guidance develops the body in ways that no home setup can replicate. The investment priority at this stage is quality studio time, not equipment acquisition.",
+                    detail: "At an advanced level, the relationship between all apparatus becomes the practice. Access to a fully equipped studio (Reformer, Cadillac, Chair, Ladder Barrel, Spine Corrector) used regularly with skilled guidance develops the body in ways that no home setup can replicate. The investment priority at this stage is quality studio time, not equipment acquisition.",
                   },
                 ].map((item, i) => (
                   <div
@@ -445,10 +445,10 @@ export default function PilatesApparatusGuidePage() {
                 Classical vs contemporary apparatus
               </h2>
               <p style={{ fontSize: "16px", lineHeight: "1.8", color: "#53433e", fontFamily: "'Montserrat', sans-serif", marginBottom: "20px" }}>
-                The distinction between classical and contemporary Pilates apparatus is frequently misunderstood. Classical apparatus — manufactured by Gratz Industries in New York — maintains the original specifications that Joseph Pilates established: spring tensions, proportions, wood types, and design details preserved as closely as possible to the originals from his studio. For practitioners in classical lineages, this fidelity to the original apparatus is considered important because the exercises were designed for these specific spring tensions and dimensions; changing them alters the exercise.
+                The distinction between classical and contemporary Pilates apparatus is frequently misunderstood. Classical apparatus, manufactured by Gratz Industries in New York, maintains the original specifications that Joseph Pilates established: spring tensions, proportions, wood types, and design details preserved as closely as possible to the originals from his studio. For practitioners in classical lineages, this fidelity to the original apparatus is considered important because the exercises were designed for these specific spring tensions and dimensions; changing them alters the exercise.
               </p>
               <p style={{ fontSize: "16px", lineHeight: "1.8", color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Contemporary apparatus — made by companies such as Balanced Body, Merrithew, and Align-Pilates — adapts the original designs with modern engineering: adjustable components, lighter materials, updated upholstery, and wider price accessibility. These manufacturers have also developed their own accessories and supplementary apparatus, such as the Arc Barrel. Neither classical nor contemporary apparatus is inherently superior; the choice depends almost entirely on your teacher&apos;s training lineage and the emphasis of the studio you train in. A well-taught classical practice on Gratz apparatus and a well-taught contemporary practice on Balanced Body apparatus are both legitimate expressions of the Pilates method.
+                Contemporary apparatus (made by companies such as Balanced Body, Merrithew, and Align-Pilates) adapts the original designs with modern engineering: adjustable components, lighter materials, updated upholstery, and wider price accessibility. These manufacturers have also developed their own accessories and supplementary apparatus, such as the Arc Barrel. Neither classical nor contemporary apparatus is inherently superior; the choice depends almost entirely on your teacher&apos;s training lineage and the emphasis of the studio you train in. A well-taught classical practice on Gratz apparatus and a well-taught contemporary practice on Balanced Body apparatus are both legitimate expressions of the Pilates method.
               </p>
             </div>
 
@@ -484,7 +484,7 @@ export default function PilatesApparatusGuidePage() {
                   },
                   {
                     q: "Do I need all the apparatus to practice Pilates?",
-                    a: "No. The mat alone supports a complete and demanding practice. The Reformer adds significant exercise variety. The Cadillac, Chair, and Barrels each add specific qualities that deepen an advanced practice — but they are not prerequisites for a meaningful Pilates practice.",
+                    a: "No. The mat alone supports a complete and demanding practice. The Reformer adds significant exercise variety. The Cadillac, Chair, and Barrels each add specific qualities that deepen an advanced practice, but they are not prerequisites for a meaningful Pilates practice.",
                   },
                   {
                     q: "What's the difference between classical and contemporary Pilates apparatus?",
@@ -518,7 +518,7 @@ export default function PilatesApparatusGuidePage() {
               <div>
                 <ArticleCard
                   title="Best Home Pilates Reformer (2026)"
-                  excerpt="The best home reformers at every price point — from entry-level to studio-grade."
+                  excerpt="The best home reformers at every price point, from entry-level to studio-grade."
                   href="/blog/best-home-pilates-reformer"
                   category="Equipment Guide"
                   readTime="10 min read"
@@ -527,7 +527,7 @@ export default function PilatesApparatusGuidePage() {
                 />
                 <ArticleCard
                   title="How to Set Up a Home Pilates Studio (2026)"
-                  excerpt="What equipment to buy, in what order, for what budget — the complete home studio guide."
+                  excerpt="What equipment to buy, in what order, for what budget: the complete home studio guide."
                   href="/blog/home-pilates-studio-setup"
                   category="Home Studio"
                   readTime="10 min read"

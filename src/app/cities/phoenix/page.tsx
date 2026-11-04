@@ -12,20 +12,20 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Studios in Phoenix, AZ (2026)",
-  description: "The best Pilates studios in Phoenix — reformer boutiques in Scottsdale, Arcadia, and Paradise Valley. Six verified picks for every level, 2026.",
+  description: "The best Pilates studios in Phoenix: reformer boutiques in Scottsdale, Arcadia, and Paradise Valley. Six verified picks for every level, 2026.",
   robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
   keywords: ["pilates phoenix", "reformer pilates phoenix", "best pilates studios phoenix az", "pilates studio phoenix", "pilates classes phoenix", "arcadia pilates phoenix", "paradise valley pilates", "pilates arizona", "best reformer pilates phoenix", "pilates scottsdale az"],
   openGraph: {
     title: "Best Pilates Studios in Phoenix, AZ (2026)",
-    description: "Six curated Pilates studios in Phoenix — Arcadia, Scottsdale, and Paradise Valley reformer picks. Verified 2026.",
+    description: "Six curated Pilates studios in Phoenix: Arcadia, Scottsdale, and Paradise Valley reformer picks. Verified 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/phoenix",
-    images: [{ url: "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1200&q=80", width: 1200, height: 630, alt: "Phoenix Arizona city guide — Pilates Collective Club" }],
+    images: [{ url: "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1200&q=80", width: 1200, height: 630, alt: "Phoenix Arizona city guide: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Studios in Phoenix (2026)",
-    description: "Six curated Pilates studios in Phoenix and Scottsdale — verified picks for every level.",
+    description: "Six curated Pilates studios in Phoenix and Scottsdale: verified picks for every level.",
     images: ["https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1200&q=80"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/cities/phoenix" },
@@ -50,8 +50,8 @@ const STUDIOS = [
     neighborhood: "Scottsdale",
     priceLevel: "$$$",
     review: "DEFINE Pilates is a boutique reformer studio in Scottsdale led by its founder Ashley, with 500-hour certified instructors and premium Balanced Body equipment.",
-    caveat: "we could not confirm the exact street address independently — check the studio's website.",
-    address: "—",
+    caveat: "we could not confirm the exact street address independently: check the studio's website.",
+    address: "",
     bestFor: "Boutique reformer with highly trained instructors",
     signatureClass: "Reformer Pilates",
     bookingTip: "Ask about an intro offer before buying a pack.",
@@ -62,7 +62,7 @@ const STUDIOS = [
     neighborhood: "McCormick Ranch, Scottsdale",
     priceLevel: "$$",
     review: "Workshop Pilates is a woman-owned reformer and heated mat Pilates studio in McCormick Ranch, founded in 2021, with small class sizes and certified instructors.",
-    caveat: "heated mat classes are warm — hydrate well.",
+    caveat: "heated mat classes are warm: hydrate well.",
     address: "8240 N Hayden Rd, Suite B-107, Scottsdale, AZ",
     bestFor: "Reformer and heated mat in Scottsdale",
     signatureClass: "Heated Mat Pilates",
@@ -74,11 +74,11 @@ const STUDIOS = [
     neighborhood: "Arcadia",
     priceLevel: "$$$",
     review: "Club Pilates Arcadia on East Indian School Road serves Arcadia and central-east Phoenix with levelled group reformer classes.",
-    caveat: "a franchise format — consistent, but less personalised than an independent studio.",
+    caveat: "a franchise format: consistent, but less personalised than an independent studio.",
     address: "3750 E Indian School Rd, Phoenix, AZ 85018",
     bestFor: "Arcadia residents wanting structured reformer classes",
     signatureClass: "Reformer Flow",
-    bookingTip: "Morning classes fill first — book two days ahead.",
+    bookingTip: "Morning classes fill first: book two days ahead.",
   },
   {
     number: "05",
@@ -86,7 +86,7 @@ const STUDIOS = [
     neighborhood: "Central Phoenix",
     priceLevel: "$$",
     review: "Club Pilates Central Phoenix on North 16th Street is a convenient option for central Phoenix, the Biltmore area and Camelback corridor.",
-    caveat: "a franchise format — consistent, but less personalised than an independent studio.",
+    caveat: "a franchise format: consistent, but less personalised than an independent studio.",
     address: "6819 N 16th St, Ste 7, Phoenix, AZ 85016",
     bestFor: "Central Phoenix residents",
     signatureClass: "Reformer Flow",
@@ -98,19 +98,19 @@ const STUDIOS = [
     neighborhood: "Tempe",
     priceLevel: "$$",
     review: "Club Pilates Tempe on East Guadalupe Road serves Tempe and the ASU area with levelled group reformer classes and membership pricing.",
-    caveat: "a franchise format — consistent, but less personalised than an independent studio.",
+    caveat: "a franchise format: consistent, but less personalised than an independent studio.",
     address: "1825 E Guadalupe Rd, Suite F-102, Tempe, AZ 85283",
     bestFor: "Tempe and East Valley residents",
     signatureClass: "Reformer Flow",
-    bookingTip: "Summer heat makes early-morning classes popular — book ahead.",
+    bookingTip: "Summer heat makes early-morning classes popular: book ahead.",
   },
 ];
 
 const BOOKING_TIPS = [
   { heading: "Expect to pay $28–58 per class", body: "Phoenix's Pilates market spans a wide range shaped by its dual character as both a year-round city and a seasonal resort destination. Drop-in rates run from $28 at accessible community studios to $58+ at Paradise Valley premium practices. Monthly memberships bring per-class costs to $18–30 for regular practitioners." },
-  { heading: "Summer changes everything", body: "Phoenix summers are extreme — temperatures regularly exceed 115°F from June through September. The outdoor-active population retreats indoors entirely, and Pilates studio demand actually increases during these months. Popular morning slots from June through August can be harder to book than during the pleasant October–April season." },
-  { heading: "The snowbird season is October through April", body: "Phoenix's large seasonal resident population — arriving from Canada and the northern US for winter — creates significant competition for studio slots from November through March. Practitioners who establish studio memberships before October typically have an easier time securing preferred timeslots than those who arrive with the snowbirds." },
-  { heading: "Visiting? Ask your resort", body: "Many Scottsdale resorts run their own fitness and wellness programmes. If you are staying in Old Town or Paradise Valley, ask the concierge which nearby studios guests use — and book directly with the studio." },
+  { heading: "Summer changes everything", body: "Phoenix summers are extreme: temperatures regularly exceed 115°F from June through September. The outdoor-active population retreats indoors entirely, and Pilates studio demand actually increases during these months. Popular morning slots from June through August can be harder to book than during the pleasant October–April season." },
+  { heading: "The snowbird season is October through April", body: "Phoenix's large seasonal resident population, arriving from Canada and the northern US for winter, creates significant competition for studio slots from November through March. Practitioners who establish studio memberships before October typically have an easier time securing preferred timeslots than those who arrive with the snowbirds." },
+  { heading: "Visiting? Ask your resort", body: "Many Scottsdale resorts run their own fitness and wellness programmes. If you are staying in Old Town or Paradise Valley, ask the concierge which nearby studios guests use, and book directly with the studio." },
   { heading: "Grip socks are required everywhere", body: "Universal across the Phoenix metro's reformer studios. Buying quality grip socks from Amazon before your first class is a consistent saving." },
 ];
 
@@ -118,7 +118,7 @@ const NEIGHBORHOODS = [
   { name: "Scottsdale (Old Town & North Scottsdale)", description: "The Phoenix metro's wellness capital. Scottsdale's concentration of luxury resorts, affluent residents, and seasonal visitors has produced the densest collection of premium Pilates practices in Arizona. The standard here is genuinely high." },
   { name: "Paradise Valley & Arcadia", description: "The metro's most exclusive residential neighbourhoods support exceptional premium and community-oriented studios. Arcadia in particular has a neighbourhood character that produces unusually loyal studio communities." },
   { name: "Downtown Phoenix & Roosevelt Row", description: "Phoenix's urban core is developing rapidly, and its Pilates studio culture is growing with it. Studios here serve the growing Downtown residential population and the creative community with contemporary programming and accessible pricing." },
-  { name: "Tempe, Chandler & the Southeast Valley", description: "The southeastern metro corridor — Tempe, Chandler, Gilbert, and Mesa — has strong franchise and independent studio offerings serving the area's large tech-sector and family population with practical, accessibly priced reformer access." },
+  { name: "Tempe, Chandler & the Southeast Valley", description: "The southeastern metro corridor (Tempe, Chandler, Gilbert, and Mesa) has strong franchise and independent studio offerings serving the area's large tech-sector and family population with practical, accessibly priced reformer access." },
 ];
 
 const GEAR = [
@@ -142,16 +142,16 @@ const GEAR = [
   },
   {
     name: "Foam Roller",
-    note: "Our pick: OPTP PRO-Roller Foam Roller (36-inch). Essential for post-class fascial release — particularly useful after outdoor activities during Phoenix's pleasant October–April season.",
+    note: "Our pick: OPTP PRO-Roller Foam Roller (36-inch). Essential for post-class fascial release, particularly useful after outdoor activities during Phoenix's pleasant October–April season.",
     price: "$62.99",
     url: "https://www.amazon.com/dp/B002C9EX14?tag=pilatescollective-20",
   },
 ];
 
 const HOME_REFORMERS = [
-  { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work — three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
+  { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work: three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
   { tag: "Mid-Range Pick", name: "AeroPilates Pro XP 557", note: "AeroPilates' top-of-the-range home reformer, a step up for practitioners training several times a week.", price: "$1,329.99", url: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20" },
-  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order — an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
+  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
 ];
 
 const RELATED_CITIES = [
@@ -162,8 +162,8 @@ const RELATED_CITIES = [
 ];
 
 const FURTHER_READING = [
-  { title: "Pilates for Back Pain: What the Research Shows", excerpt: "What Pilates can and can't do for chronic lower back pain — and the specific exercises with the strongest evidence.", href: "/blog/pilates-for-back-pain", category: "Health", readTime: "10 min read", date: "June 2026", imageUrl: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&q=80" },
-  { title: "Best Pilates Equipment for Home Practice", excerpt: "Everything you need for a consistent home practice — especially useful during Phoenix's summer months.", href: "/blog/best-pilates-equipment-for-home-practice", category: "Equipment", readTime: "10 min read", date: "June 2026", imageUrl: "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=800&q=80" },
+  { title: "Pilates for Back Pain: What the Research Shows", excerpt: "What Pilates can and can't do for chronic lower back pain, and the specific exercises with the strongest evidence.", href: "/blog/pilates-for-back-pain", category: "Health", readTime: "10 min read", date: "June 2026", imageUrl: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&q=80" },
+  { title: "Best Pilates Equipment for Home Practice", excerpt: "Everything you need for a consistent home practice, especially useful during Phoenix's summer months.", href: "/blog/best-pilates-equipment-for-home-practice", category: "Equipment", readTime: "10 min read", date: "June 2026", imageUrl: "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=800&q=80" },
 ];
 
 const CITY_FAQS = [
@@ -211,7 +211,7 @@ export default function PhoenixPage() {
             <p className="text-sm mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated October 2026 · 9 min read</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Phoenix has one of the most commercially sophisticated wellness markets in the American Southwest — shaped by the city&apos;s dual identity as both a year-round residential city and one of the world&apos;s premier resort and golf destinations. The Pilates scene reflects this: Scottsdale&apos;s classical practices serve the metro&apos;s most discerning practitioners and seasonal visitors, while Paradise Valley, Arcadia, and Tempe each offer their own distinct studio cultures. The extreme summer heat makes indoor movement practice not just appealing but essential for much of the year. This guide covers the six studios worth your time, verified October 2026.
+              Phoenix has one of the most commercially sophisticated wellness markets in the American Southwest: shaped by the city&apos;s dual identity as both a year-round residential city and one of the world&apos;s premier resort and golf destinations. The Pilates scene reflects this: Scottsdale&apos;s classical practices serve the metro&apos;s most discerning practitioners and seasonal visitors, while Paradise Valley, Arcadia, and Tempe each offer their own distinct studio cultures. The extreme summer heat makes indoor movement practice not just appealing but essential for much of the year. This guide covers the six studios worth your time, verified October 2026.
             </p>
           </div>
         </section>
@@ -286,7 +286,7 @@ export default function PhoenixPage() {
             <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Prefer To Train At Home?</p>
             <h2 className="text-3xl font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Not convinced? How about Pilates at home?</h2>
             <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-              Studio pricing or scheduling not for you right now? A home reformer gets you a genuine Pilates session on your own time. Here's where to start — from a $299 entry point to the machine serious practitioners buy once.{" "}
+              Studio pricing or scheduling not for you right now? A home reformer gets you a genuine Pilates session on your own time. Here's where to start, from a $299 entry point to the machine serious practitioners buy once.{" "}
               <Link href="/blog/best-home-pilates-reformer" style={{ color: "#8b4a31", textDecoration: "underline", fontFamily: "'Montserrat', sans-serif", fontSize: "inherit" }}>See the full reformer guide.</Link>
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
@@ -338,7 +338,7 @@ export default function PhoenixPage() {
           </div>
         </section>
 
-        <CTASection title="Find Pilates near you" subtitle="Use our AI Finder to discover studios in any city — coming soon." showSearch searchPlaceholder="Ask: best Pilates in Scottsdale or Phoenix…" />
+        <CTASection title="Find Pilates near you" subtitle="Use our AI Finder to discover studios in any city: coming soon." showSearch searchPlaceholder="Ask: best Pilates in Scottsdale or Phoenix…" />
       </main>
       <Footer />
     </>

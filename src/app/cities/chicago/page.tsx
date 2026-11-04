@@ -12,7 +12,7 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Studios in Chicago, IL (2026)",
-  description: "The best Pilates studios in Chicago — from Lincoln Park reformer boutiques to River North classical practices. Six curated picks, verified June 2026.",
+  description: "The best Pilates studios in Chicago, from Lincoln Park reformer boutiques to River North classical practices. Six curated picks, verified June 2026.",
   robots: {
     index: true,
     follow: true,
@@ -22,15 +22,15 @@ export const metadata: Metadata = {
   keywords: ["pilates chicago", "reformer pilates chicago", "best pilates studios chicago", "pilates studio chicago il", "pilates classes chicago", "lincoln park pilates", "river north pilates chicago", "pilates illinois", "best reformer pilates chicago", "pilates wicker park"],
   openGraph: {
     title: "Best Pilates Studios in Chicago, IL (2026)",
-    description: "Six curated Pilates studios in Chicago — Lincoln Park reformer boutiques to River North classical practices. Verified 2026.",
+    description: "Six curated Pilates studios in Chicago: Lincoln Park reformer boutiques to River North classical practices. Verified 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/chicago",
-    images: [{ url: "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1200&q=80", width: 1200, height: 630, alt: "Chicago city guide — Pilates Collective Club" }],
+    images: [{ url: "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1200&q=80", width: 1200, height: 630, alt: "Chicago city guide: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Studios in Chicago (2026)",
-    description: "Our curated guide to Chicago's finest Pilates studios — six verified picks with booking tips.",
+    description: "Our curated guide to Chicago's finest Pilates studios: six verified picks with booking tips.",
     images: ["https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1200&q=80"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/cities/chicago" },
@@ -43,7 +43,7 @@ const STUDIOS = [
     neighborhood: "River North",
     priceLevel: "$$$",
     review: "Amplified Pilates Center at 314 West Institute Place has been operating in River North since 2011 and was named Best Pilates Studio by CS Modern Luxury Magazine in both 2024 and 2025. Group classes cap at six students, and the 80-plus Yelp reviews consistently single out instructors for making technical corrections without breaking the flow of class.",
-    caveat: "the small six-person cap that makes coaching so personal also means fewer time slots overall — popular classes book out fast, so this isn't the studio for same-day spontaneity.",
+    caveat: "the small six-person cap that makes coaching so personal also means fewer time slots overall: popular classes book out fast, so this isn't the studio for same-day spontaneity.",
     address: "314 W Institute Place, 3W, Chicago, IL 60610",
     bestFor: "Small group instruction with individualized coaching",
     signatureClass: "Amplified Reformer",
@@ -55,12 +55,12 @@ const STUDIOS = [
     name: "Page One Pilates",
     neighborhood: "West Loop / Fulton Market",
     priceLevel: "$$$",
-    review: "Page One Pilates sits in Fulton Market at 213 N Morgan St, carrying a 4.8-star rating across its (still small, 14-review) Yelp presence. It's a genuinely intimate setup — just a handful of reformers — which reviewers credit for consistent, close instructor attention rather than a crowded studio-chain feel.",
-    caveat: "the review count here is thin (14 on Yelp) compared to the bigger downtown names — the rating looks excellent, but you're trusting a smaller sample size than at, say, Amplified.",
+    review: "Page One Pilates sits in Fulton Market at 213 N Morgan St, carrying a 4.8-star rating across its (still small, 14-review) Yelp presence. It's a genuinely intimate setup, just a handful of reformers, which reviewers credit for consistent, close instructor attention rather than a crowded studio-chain feel.",
+    caveat: "the review count here is thin (14 on Yelp) compared to the bigger downtown names: the rating looks excellent, but you're trusting a smaller sample size than at, say, Amplified.",
     address: "213 N Morgan St, Unit 1C, Chicago, IL 60607",
     bestFor: "Athletic reformer classes in a boutique setting",
     signatureClass: "Full Body Reformer Flow",
-    bookingTip: "Classes are especially popular with the Fulton Market work crowd — book the early morning and lunchtime slots well in advance.",
+    bookingTip: "Classes are especially popular with the Fulton Market work crowd: book the early morning and lunchtime slots well in advance.",
     rating: "4.8★ (14 Yelp reviews)",
   },
   {
@@ -68,24 +68,24 @@ const STUDIOS = [
     name: "Heat 3.0",
     neighborhood: "Lincoln Park",
     priceLevel: "$$$",
-    review: "Heat 3.0 on North Southport Avenue (the rebrand of the long-running Lincoln Park Pilates) combines reformer classes in infrared-heated rooms with spa-like amenities — showers, lockers, towels, a proper lobby for recovery. Beyond reformer, it runs barre, mat, yoga, and stretch sessions, positioning itself as a one-stop wellness stop rather than a Pilates-only studio. Open Mon–Fri 6am–8pm, Sat 8am–5pm, Sun 7:30am–1pm.",
-    caveat: "this is a multi-modality wellness studio, not a Pilates specialist — if you want a room that only does classical Pilates, the barre/yoga/sauna crowd mixed in might not be what you're after.",
+    review: "Heat 3.0 on North Southport Avenue (the rebrand of the long-running Lincoln Park Pilates) combines reformer classes in infrared-heated rooms with spa-like amenities: showers, lockers, towels, a proper lobby for recovery. Beyond reformer, it runs barre, mat, yoga, and stretch sessions, positioning itself as a one-stop wellness stop rather than a Pilates-only studio. Open Mon–Fri 6am–8pm, Sat 8am–5pm, Sun 7:30am–1pm.",
+    caveat: "this is a multi-modality wellness studio, not a Pilates specialist, if you want a room that only does classical Pilates, the barre/yoga/sauna crowd mixed in might not be what you're after.",
     address: "2105 N Southport Ave, Suite 200, Chicago, IL 60614",
     bestFor: "Infrared-heated reformer Pilates with premium spa amenities",
     signatureClass: "Heated Reformer Sculpt",
-    bookingTip: "The infrared sauna add-on is a fan favorite — book a class + sauna session combo in advance as sauna slots are limited.",
+    bookingTip: "The infrared sauna add-on is a fan favorite: book a class + sauna session combo in advance as sauna slots are limited.",
   },
   {
     number: "04",
     name: "Studio 8 Pilates",
     neighborhood: "North Center",
     priceLevel: "$$$",
-    review: "Studio 8 Pilates opened in North Center on July 1, 2015, founded by Christine Hall, a PMA-certified instructor, and remains 100% woman-owned. All instructors carry Pilates Method Alliance certification — a genuine credentialing standard, not just marketing language — and the studio specializes in private, duet, and small-group programming for athletes, prenatal/postpartum clients, and post-injury rehab. Free street parking, confirmed by reviewers, is a real practical perk in a city where that's rare.",
-    caveat: "the specialization in customized/rehab-oriented programming means fewer large drop-in group classes than a typical boutique studio — if you want a big-energy group scene, this isn't primarily built for that.",
+    review: "Studio 8 Pilates opened in North Center on July 1, 2015, founded by Christine Hall, a PMA-certified instructor, and remains 100% woman-owned. All instructors carry Pilates Method Alliance certification (a genuine credentialing standard, not just marketing language) and the studio specializes in private, duet, and small-group programming for athletes, prenatal/postpartum clients, and post-injury rehab. Free street parking, confirmed by reviewers, is a real practical perk in a city where that's rare.",
+    caveat: "the specialization in customized/rehab-oriented programming means fewer large drop-in group classes than a typical boutique studio, if you want a big-energy group scene, this isn't primarily built for that.",
     address: "3656 N Lincoln Ave, Suite F, Chicago, IL 60613",
     bestFor: "Private and small group sessions; prenatal/postpartum and rehab clients",
     signatureClass: "Personalized Reformer Session",
-    bookingTip: "Free street parking is readily available — rare for a Chicago fitness studio. First-time clients should book a private intake session before joining group classes.",
+    bookingTip: "Free street parking is readily available: rare for a Chicago fitness studio. First-time clients should book a private intake session before joining group classes.",
     websiteUrl: "http://www.studio8chicago.com/",
   },
   {
@@ -93,12 +93,12 @@ const STUDIOS = [
     name: "btone FITNESS",
     neighborhood: "Lakeview East",
     priceLevel: "$$",
-    review: "btone FITNESS Lakeview, which opened in September 2024, is the brand's first location outside its home base of Massachusetts. The format is a hybrid of Pilates-inspired movement and strength training on custom resistance equipment in a 45-minute class — deliberately high-intensity, low-impact. Reviewers consistently name specific instructors and cite the modifications offered as genuinely inclusive of different fitness levels, not just a talking point.",
-    caveat: "as a brand-new-to-Chicago outpost of an out-of-state chain, it doesn't have the years-deep local reputation of Studio 8 or Amplified — you're betting on a proven national format rather than an established local name.",
+    review: "btone FITNESS Lakeview, which opened in September 2024, is the brand's first location outside its home base of Massachusetts. The format is a hybrid of Pilates-inspired movement and strength training on custom resistance equipment in a 45-minute class: deliberately high-intensity, low-impact. Reviewers consistently name specific instructors and cite the modifications offered as genuinely inclusive of different fitness levels, not just a talking point.",
+    caveat: "as a brand-new-to-Chicago outpost of an out-of-state chain, it doesn't have the years-deep local reputation of Studio 8 or Amplified: you're betting on a proven national format rather than an established local name.",
     address: "556 W Diversey Pkwy, Chicago, IL 60614",
     bestFor: "High-intensity, low-impact Pilates-strength hybrid",
     signatureClass: "btone 45",
-    bookingTip: "The 14-day unlimited intro offer for $49 is exceptional value — use it to find your favorite instructor and class time before committing to a package.",
+    bookingTip: "The 14-day unlimited intro offer for $49 is exceptional value: use it to find your favorite instructor and class time before committing to a package.",
   },
   {
     number: "06",
@@ -106,12 +106,12 @@ const STUDIOS = [
     neighborhood: "Lakeview / Uptown",
     priceLevel: "$$$",
     rating: "5.0★ (Yelp, small sample)",
-    review: "The Pilates Advantage, on North Broadway near the Lakeview/Uptown border, is one of the few Chicago studios built entirely around Romana's Pilates certification and original Gratz equipment — the classical lineage and apparatus tradition that traces directly back to Joseph Pilates' own studio. It's a small, owner-led operation; one longtime client mentioned training with the owner for over a decade, which tells you more about retention than any marketing copy could.",
-    caveat: "its online review count is genuinely small — a handful of reviews, not hundreds — so treat the perfect rating as a promising signal from real regulars, not statistically robust proof the way Amplified's 80-review track record is.",
+    review: "The Pilates Advantage, on North Broadway near the Lakeview/Uptown border, is one of the few Chicago studios built entirely around Romana's Pilates certification and original Gratz equipment: the classical lineage and apparatus tradition that traces directly back to Joseph Pilates' own studio. It's a small, owner-led operation; one longtime client mentioned training with the owner for over a decade, which tells you more about retention than any marketing copy could.",
+    caveat: "its online review count is genuinely small (a handful of reviews, not hundreds) so treat the perfect rating as a promising signal from real regulars, not statistically robust proof the way Amplified's 80-review track record is.",
     address: "4027 N Broadway, Chicago, IL 60613",
     bestFor: "Authentic classical method on Gratz equipment",
     signatureClass: "Classical Reformer (Romana's Pilates lineage)",
-    bookingTip: "This is a small, owner-led studio — call ahead rather than relying on an online booking widget to find true availability.",
+    bookingTip: "This is a small, owner-led studio: call ahead rather than relying on an online booking widget to find true availability.",
   },
 ];
 
@@ -122,11 +122,11 @@ const BOOKING_TIPS = [
   },
   {
     heading: "Introductory packages are the smartest way to start",
-    body: "Most Chicago studios offer new-client intro packs — typically 3 classes for $45–75. Use these to trial instruction quality before committing to a monthly membership, which is how most Chicago regulars structure their practice.",
+    body: "Most Chicago studios offer new-client intro packs, typically 3 classes for $45–75. Use these to trial instruction quality before committing to a monthly membership, which is how most Chicago regulars structure their practice.",
   },
   {
     heading: "ClassPass works well across Chicago",
-    body: "ClassPass has strong coverage in Chicago and is useful for sampling studios across neighbourhoods — from Lincoln Park to the West Loop — before settling. It's also a practical solution for visitors staying in the city for a week or two.",
+    body: "ClassPass has strong coverage in Chicago and is useful for sampling studios across neighbourhoods, from Lincoln Park to the West Loop, before settling. It's also a practical solution for visitors staying in the city for a week or two.",
   },
   {
     heading: "Tipping is standard practice",
@@ -152,12 +152,12 @@ const NEIGHBORHOODS = [
   {
     name: "West Loop & Fulton Market",
     description:
-      "Chicago's fastest-growing neighbourhood has attracted a new generation of studios targeting the tech and creative professional community. Studios here are modern, schedule-dense, and increasingly sophisticated — and the neighbourhood's rapid growth means new openings are frequent.",
+      "Chicago's fastest-growing neighbourhood has attracted a new generation of studios targeting the tech and creative professional community. Studios here are modern, schedule-dense, and increasingly sophisticated, and the neighbourhood's rapid growth means new openings are frequent.",
   },
   {
     name: "Wicker Park & Bucktown",
     description:
-      "The north-west's creative heart has a growing Pilates scene that reflects its neighbourhood energy — younger, more eclectic, and less corporate than the Gold Coast or River North. Studios here tend to be more affordable and community-oriented, with a mix of beginners and intermediate practitioners.",
+      "The north-west's creative heart has a growing Pilates scene that reflects its neighbourhood energy: younger, more eclectic, and less corporate than the Gold Coast or River North. Studios here tend to be more affordable and community-oriented, with a mix of beginners and intermediate practitioners.",
   },
 ];
 
@@ -176,7 +176,7 @@ const GEAR = [
   },
   {
     name: "Magic Circle",
-    note: "Our pick: Balanced Body Ultra-Fit Circle (15-inch). Many studios incorporate the magic circle — worth owning for home reinforcement work.",
+    note: "Our pick: Balanced Body Ultra-Fit Circle (15-inch). Many studios incorporate the magic circle: worth owning for home reinforcement work.",
     price: "$35.00",
     url: "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20",
   },
@@ -195,9 +195,9 @@ const GEAR = [
 ];
 
 const HOME_REFORMERS = [
-  { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work — three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
+  { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work: three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
   { tag: "Mid-Range Pick", name: "AeroPilates Pro XP 557", note: "AeroPilates' top-of-the-range home reformer, a step up for practitioners training several times a week.", price: "$1,329.99", url: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20" },
-  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order — an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
+  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
 ];
 
 const RELATED_CITIES = [
@@ -210,7 +210,7 @@ const RELATED_CITIES = [
 const FURTHER_READING = [
   {
     title: "Best Pilates Equipment for Home Practice",
-    excerpt: "Everything you need between studio sessions — from a quality mat to resistance bands.",
+    excerpt: "Everything you need between studio sessions, from a quality mat to resistance bands.",
     href: "/blog/best-pilates-equipment-for-home-practice",
     category: "Equipment",
     readTime: "10 min read",
@@ -241,7 +241,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Best Pilates Studios in Chicago, IL (2026)",
-      "description": "The best Pilates studios in Chicago — from Lincoln Park reformer boutiques to River North classical practices. Six curated picks, verified June 2026.",
+      "description": "The best Pilates studios in Chicago, from Lincoln Park reformer boutiques to River North classical practices. Six curated picks, verified June 2026.",
       "url": "https://pilatescollectiveclub.com/cities/chicago",
       "datePublished": "2026-06-28",
       "dateModified": "2026-10-20",
@@ -313,7 +313,7 @@ export default function ChicagoPage() {
             </p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Chicago is a city that takes movement seriously — and its Pilates scene reflects that practicality and depth. Less trend-driven than Los Angeles, less saturated than New York, Chicago has cultivated a reformer and mat Pilates market built around genuine instruction quality and community loyalty. From the classical studios of Lincoln Park to the design-forward boutiques of River North, the city offers every type of Pilates practitioner something to invest in. This guide covers the six studios we rate most highly in Chicago, from the Gold Coast to Wicker Park, with everything you need before booking.
+              Chicago is a city that takes movement seriously, and its Pilates scene reflects that practicality and depth. Less trend-driven than Los Angeles, less saturated than New York, Chicago has cultivated a reformer and mat Pilates market built around genuine instruction quality and community loyalty. From the classical studios of Lincoln Park to the design-forward boutiques of River North, the city offers every type of Pilates practitioner something to invest in. This guide covers the six studios we rate most highly in Chicago, from the Gold Coast to Wicker Park, with everything you need before booking.
             </p>
           </div>
         </section>
@@ -331,7 +331,7 @@ export default function ChicagoPage() {
               <div className="absolute inset-0 flex items-end p-8" style={{ background: "linear-gradient(to top, rgba(27,28,28,0.55) 0%, transparent 60%)" }}>
                 <div>
                   <p className="text-white text-sm font-semibold uppercase tracking-widest mb-1" style={{ fontFamily: "'Montserrat', sans-serif" }}>Chicago, United States</p>
-                  <p className="text-white/70 text-xs" style={{ fontFamily: "'Montserrat', sans-serif" }}>Serious instruction and lasting community — Chicago's Pilates scene</p>
+                  <p className="text-white/70 text-xs" style={{ fontFamily: "'Montserrat', sans-serif" }}>Serious instruction and lasting community: Chicago's Pilates scene</p>
                 </div>
               </div>
             </div>
@@ -343,7 +343,7 @@ export default function ChicagoPage() {
             <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Before You Go</p>
             <h2 className="text-3xl font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What to bring to your first class</h2>
             <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-              Grip socks are required at most reformer studios in Chicago. These are our recommended picks — all available on Amazon.{" "}
+              Grip socks are required at most reformer studios in Chicago. These are our recommended picks: all available on Amazon.{" "}
               <Link href="/affiliate-disclosure" style={{ color: "#8b4a31", textDecoration: "underline", fontFamily: "'Montserrat', sans-serif", fontSize: "inherit" }}>Affiliate disclosure.</Link>
             </p>
             <QuickPicks className="mb-0" picks={GEAR.map((g) => ({ name: g.note.match(/Our pick: ([^.]+(?:\.\d+[^.]*)?)\./)?.[1] ?? g.name, price: g.price, url: g.url, note: g.name }))} />
@@ -356,7 +356,7 @@ export default function ChicagoPage() {
               6 Studios · Curated & Verified
             </p>
             <p className="text-sm mb-10" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>
-              Addresses, pricing, and ratings independently checked against each studio's own site and public review platforms in September 2026. We call out at least one real trade-off per studio — no pick here is presented as flawless.
+              Addresses, pricing, and ratings independently checked against each studio's own site and public review platforms in September 2026. We call out at least one real trade-off per studio: no pick here is presented as flawless.
             </p>
             <div className="space-y-8">
               {STUDIOS.map((studio) => (
@@ -409,7 +409,7 @@ export default function ChicagoPage() {
             <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Prefer To Train At Home?</p>
             <h2 className="text-3xl font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Not convinced? How about Pilates at home?</h2>
             <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-              Studio pricing or scheduling not for you right now? A home reformer gets you a genuine Pilates session on your own time. Here's where to start — from a $299 entry point to the machine serious practitioners buy once.{" "}
+              Studio pricing or scheduling not for you right now? A home reformer gets you a genuine Pilates session on your own time. Here's where to start, from a $299 entry point to the machine serious practitioners buy once.{" "}
               <Link href="/blog/best-home-pilates-reformer" style={{ color: "#8b4a31", textDecoration: "underline", fontFamily: "'Montserrat', sans-serif", fontSize: "inherit" }}>See the full reformer guide.</Link>
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">

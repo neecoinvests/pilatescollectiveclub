@@ -15,15 +15,15 @@ export const metadata: Metadata = {
   description: "The best studio-grade Pilates reformers on Amazon: Align-Pilates C8-PRO, Balanced Body Metro IQ and Studio Reformer, and PersonalHour, with specs and prices.",
   openGraph: {
     title: "Best Studio-Grade Pilates Reformers (2026): Align, Balanced Body & More",
-    description: "Five studio-grade reformers, all sold on Amazon, that serious home practitioners and studio owners often overlook — with verified specs and honest trade-offs.",
+    description: "Five studio-grade reformers, all sold on Amazon, that serious home practitioners and studio owners often overlook, with verified specs and honest trade-offs.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-studio-pilates-reformers",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg", width: 1200, height: 630, alt: "Studio-grade Pilates reformers — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg", width: 1200, height: 630, alt: "Studio-grade Pilates reformers: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Best Studio-Grade Pilates Reformers (2026)",
-    description: "Align-Pilates C8-PRO, Balanced Body Metro IQ, PersonalHour, BB Studio Reformer and BB Studio Reformer with Tower — the deeper premium guide.",
+    description: "Align-Pilates C8-PRO, Balanced Body Metro IQ, PersonalHour, BB Studio Reformer and BB Studio Reformer with Tower: the deeper premium guide.",
     images: ["https://pilatescollectiveclub.com/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg"],
   },
   keywords: ["best studio pilates reformer", "commercial pilates reformer 2026", "studio grade pilates reformer", "pilates studio equipment buy", "balanced body studio reformer", "merrithew commercial reformer", "align pilates c8 pro", "best reformer for pilates studio"],
@@ -39,7 +39,7 @@ const PRODUCTS = [
     verdict: "Align's professional spring system, sold on Amazon",
     tier: "Studio Grade",
     description:
-      "Align-Pilates' studio machines are known for the widest carriages and longest carriage travel in the category, and the C8-PRO brings that same core engineering — the 8-wheel PU carriage and Rapid Change Spring Bar — into a stackable, home-sized frame, sold on Amazon by Merrithew, Align's US distributor. Resistance changes fast and without tools, the carriage is quiet, and optional leg extensions raise the bed height to 44cm if you want a more studio-like position. At 239.5cm long and rated to 150kg (331 lbs), it's a serious machine at a price well under a dealer-quoted studio Align.",
+      "Align-Pilates' studio machines are known for the widest carriages and longest carriage travel in the category, and the C8-PRO brings that same core engineering, the 8-wheel PU carriage and Rapid Change Spring Bar, into a stackable, home-sized frame, sold on Amazon by Merrithew, Align's US distributor. Resistance changes fast and without tools, the carriage is quiet, and optional leg extensions raise the bed height to 44cm if you want a more studio-like position. At 239.5cm long and rated to 150kg (331 lbs), it's a serious machine at a price well under a dealer-quoted studio Align.",
     affiliateUrl: "https://www.amazon.com/dp/B099ZJ4C25?tag=pilatescollective-20",
     specs: [
       { label: "Length", value: "239.5cm (94.3\")" },
@@ -78,7 +78,7 @@ const PRODUCTS = [
       { label: "Machine weight", value: "About 85 lbs" },
     ],
     pros: [
-      "Telescoping frame — 62\" stored, up to 98\" in use",
+      "Telescoping frame, 62\" stored, up to 98\" in use",
       "Genuine Balanced Body springs and carriage",
       "Light enough to move and store easily",
       "Built-in standing platform",
@@ -88,7 +88,7 @@ const PRODUCTS = [
       "Lighter-duty than a full studio frame",
       "Fewer accessory and tower options than the Allegro 2",
       "Choose the wheel version to match how you’ll store it (under-bed vs upright)",
-      "Stock can be limited — check availability",
+      "Stock can be limited: check availability",
     ],
   },
   {
@@ -98,7 +98,7 @@ const PRODUCTS = [
     verdict: "Best wood-frame foldable studio-grade reformer",
     tier: "Professional",
     description:
-      "For a wood-frame reformer that still folds for storage, the Janet La Force Plus is a solid walnut machine sold on Amazon by PilatesUS. It runs six adjustable springs, has an upgraded cushioned carriage and adjustable footbar, and the frame is tower-ready if you want to add a vertical frame later. It folds upright on wheels — something none of the maple studio machines in this guide can do — and ships with a jumpboard, box, foot strap and loops included.",
+      "For a wood-frame reformer that still folds for storage, the Janet La Force Plus is a solid walnut machine sold on Amazon by PilatesUS. It runs six adjustable springs, has an upgraded cushioned carriage and adjustable footbar, and the frame is tower-ready if you want to add a vertical frame later. It folds upright on wheels, something none of the maple studio machines in this guide can do, and ships with a jumpboard, box, foot strap and loops included.",
     affiliateUrl: "https://www.amazon.com/dp/B0GNDHZXZK?tag=pilatescollective-20",
     specs: [
       { label: "Frame", value: "Solid walnut" },
@@ -108,14 +108,14 @@ const PRODUCTS = [
       { label: "Sold by", value: "PilatesUS (Amazon)" },
     ],
     pros: [
-      "Solid walnut frame — distinct from the aluminium/maple machines here",
+      "Solid walnut frame: distinct from the aluminium/maple machines here",
       "Folds upright on wheels for storage",
       "Tower-ready frame",
       "Full accessory set included in the price",
     ],
     cons: [
       "Smaller, newer brand than Balanced Body or Merrithew",
-      "Stock can run scarce — check availability",
+      "Stock can run scarce: check availability",
       "Less established resale value",
     ],
   },
@@ -143,9 +143,9 @@ const PRODUCTS = [
       "Sold by Balanced Body on Amazon",
     ],
     cons: [
-      "Does not fold — needs permanent floor space",
+      "Does not fold: needs permanent floor space",
       "More expensive than the Allegro 2",
-      "Made to order — three to four weeks to ship",
+      "Made to order: three to four weeks to ship",
       "Heavier and less portable than home-focused machines",
     ],
   },
@@ -173,15 +173,15 @@ const PRODUCTS = [
     ],
     cons: [
       "The most expensive machine in this guide",
-      "Doesn't fold — permanent installation",
-      "Made to order — allow lead time to ship",
+      "Doesn't fold: permanent installation",
+      "Made to order: allow lead time to ship",
     ],
   },
 ];
 
 const FAQS = [
   { q: "What is the difference between the Balanced Body Allegro 2 and Studio Reformer?", a: "The Allegro 2 is Balanced Body's home-focused machine: an aluminium frame with the Infinity Footbar that slides along the frame, and it can be stood on end for storage with the wheel kit. The Studio Reformer is the commercial machine: a solid rock maple frame, Revo footbar and springbar, built for permanent installation and heavy daily use, with tower and mat-conversion options. Both use Balanced Body's five Signature Springs. For most homes the Allegro 2 is the better fit; for a dedicated studio room, the Studio Reformer." },
-  { q: "Is the Align-Pilates C8-PRO the same as Align's studio machines?", a: "It shares the same core engineering — the 8-wheel PU carriage and the Rapid Change Spring Bar — as Align's full-size studio reformers, in a stackable, home-sized frame. It's sold on Amazon by Merrithew, Align's US distributor, at $2,750, well under what a dealer-quoted studio Align typically costs." },
+  { q: "Is the Align-Pilates C8-PRO the same as Align's studio machines?", a: "It shares the same core engineering, the 8-wheel PU carriage and the Rapid Change Spring Bar, as Align's full-size studio reformers, in a stackable, home-sized frame. It's sold on Amazon by Merrithew, Align's US distributor, at $2,750, well under what a dealer-quoted studio Align typically costs." },
   { q: "What's the difference between the Studio Reformer and the Studio Reformer with Tower?", a: "Both use the same hand-built Strata Rock Maple frame, 5 Reformer Signature Springs and Revo footbar. The Tower and Mat Conversion version adds a stainless steel tower with 8 additional springs and a mat-conversion platform, so one frame gives you reformer, Cadillac-style tower work and elevated mat training. It costs $6,975 versus $4,700 for the reformer alone." },
 ];
 
@@ -192,7 +192,7 @@ const jsonLd = {
       "@type": "Article",
       "@id": "https://pilatescollectiveclub.com/blog/best-studio-pilates-reformers/#article",
       "headline": "Best Studio-Grade Pilates Reformers (2026): Align, Balanced Body & More",
-      "description": "Studio-grade Pilates reformers beyond the usual suspects, all available on Amazon — Align-Pilates C8-PRO, Balanced Body Metro IQ, PersonalHour, Balanced Body Studio Reformer, and Studio Reformer with Tower.",
+      "description": "Studio-grade Pilates reformers beyond the usual suspects, all available on Amazon: Align-Pilates C8-PRO, Balanced Body Metro IQ, PersonalHour, Balanced Body Studio Reformer, and Studio Reformer with Tower.",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "@id": "https://pilatescollectiveclub.com/#organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "@id": "https://pilatescollectiveclub.com/#organization", "name": "Pilates Collective Club", "logo": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/pcc-logo.png" } },
@@ -262,7 +262,7 @@ export default function BestStudioReformersPage() {
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Our first premium reformer guide covered the machines that appear on every shortlist: Balanced Body Studio Reformer, Allegro Stretch, Merrithew At Home SPX, Align-Pilates C8-PRO and PersonalHour. This guide covers five more machines, all sold on Amazon, that serious practitioners and studio owners frequently miss — either because they represent different configurations, different frame materials, or solve a specific problem (space, storage, a complete reformer-tower-mat system) that the standard roundup machines do not.
+              Our first premium reformer guide covered the machines that appear on every shortlist: Balanced Body Studio Reformer, Allegro Stretch, Merrithew At Home SPX, Align-Pilates C8-PRO and PersonalHour. This guide covers five more machines, all sold on Amazon, that serious practitioners and studio owners frequently miss, either because they represent different configurations, different frame materials, or solve a specific problem (space, storage, a complete reformer-tower-mat system) that the standard roundup machines do not.
             </p>
           </div>
         </section>
@@ -395,7 +395,7 @@ export default function BestStudioReformersPage() {
                   </tbody>
                 </table>
               </div>
-              <p className="text-xs mt-3" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked on Amazon, September 2026. All machines are made to order — verify current lead times before purchasing.</p>
+              <p className="text-xs mt-3" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked on Amazon, September 2026. All machines are made to order: verify current lead times before purchasing.</p>
             </div>
 
             {/* Who should buy what */}
@@ -406,7 +406,7 @@ export default function BestStudioReformersPage() {
                 { who: "Practitioners who want fast, tool-free spring changes", buy: "Align-Pilates C8-PRO", reason: "The same Rapid Change Spring Bar and 8-wheel PU carriage as Align's studio machines, in a stackable home frame sold direct on Amazon." },
                 { who: "Practitioners who want a wood-frame machine that still folds", buy: "PersonalHour Janet La Force Plus", reason: "Solid walnut construction and six adjustable springs, with the storage convenience the maple studio machines don't offer." },
                 { who: "Home studio owners who want full tower capability", buy: "Balanced Body Studio Reformer", reason: "The Allegro 2 can take a tower too, but the Studio Reformer's maple frame and Revo adjustments are built for a permanent, heavily used studio, and Balanced Body sells it with Tower and Mat Conversion." },
-                { who: "Studio owners who want one frame for everything", buy: "Balanced Body Studio Reformer with Tower", reason: "Reformer, Cadillac-style tower work and elevated mat training from a single hand-built maple frame — the most complete apparatus in this guide." },
+                { who: "Studio owners who want one frame for everything", buy: "Balanced Body Studio Reformer with Tower", reason: "Reformer, Cadillac-style tower work and elevated mat training from a single hand-built maple frame: the most complete apparatus in this guide." },
               ].map((item) => (
                 <div key={item.who} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                   <div className="flex flex-wrap items-start gap-3 mb-2">
@@ -448,8 +448,8 @@ export default function BestStudioReformersPage() {
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Premium Pilates Reformers" excerpt="Our first premium reformer guide: Balanced Body Studio Reformer, Allegro Stretch, Merrithew At Home SPX and more compared." href="/blog/best-premium-pilates-reformer" category="Equipment" readTime="14 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
-                <ArticleCard title="Balanced Body vs Merrithew: Which Should You Buy?" excerpt="The definitive head-to-head of the two dominant professional reformer brands — compared on carriage, springs, accessories, and value." href="/blog/balanced-body-vs-merrithew" category="Comparison" readTime="13 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-cZ0WYsBFHhs-unsplash.jpg" />
-                <ArticleCard title="Peak Pilates Brand Guide" excerpt="Peak's studio reformers are in tens of thousands of professional studios — here's what sets them apart." href="/blog/peak-pilates" category="Brand Guide" readTime="10 min read" date="May 2026" imageUrl="/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg" />
+                <ArticleCard title="Balanced Body vs Merrithew: Which Should You Buy?" excerpt="The definitive head-to-head of the two dominant professional reformer brands: compared on carriage, springs, accessories, and value." href="/blog/balanced-body-vs-merrithew" category="Comparison" readTime="13 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-cZ0WYsBFHhs-unsplash.jpg" />
+                <ArticleCard title="Peak Pilates Brand Guide" excerpt="Peak's studio reformers are in tens of thousands of professional studios: here's what sets them apart." href="/blog/peak-pilates" category="Brand Guide" readTime="10 min read" date="May 2026" imageUrl="/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg" />
                 <ArticleCard title="Balanced Body Studio Reformer Review" excerpt="The real Balanced Body flagship sold on Amazon: carriage, springs and who it suits." href="/blog/balanced-body-allegro-2-review" category="Equipment" readTime="10 min read" date="June 2026" imageUrl="/pictures/stitch-reformer-sunlit-minimal.png" />
                 <ArticleCard title="Merrithew V2 Max Reformer: In-Depth Review" excerpt="The most detailed assessment of Merrithew's most advanced professional machine." href="/blog/merrithew-v2-max-review" category="Equipment" readTime="11 min read" date="May 2026" imageUrl="/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg" />
                 <ArticleCard title="Align Pilates Reformer Review" excerpt="Align-Pilates makes some of the most compact full-featured reformers on the market." href="/blog/align-pilates-reformer-review" category="Brand Review" readTime="10 min read" date="May 2026" imageUrl="/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg" />

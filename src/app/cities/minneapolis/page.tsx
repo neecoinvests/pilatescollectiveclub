@@ -17,15 +17,15 @@ export const metadata: Metadata = {
   keywords: ["pilates minneapolis", "reformer pilates minneapolis", "best pilates studios minneapolis", "pilates studio minneapolis mn", "pilates classes minneapolis", "uptown pilates minneapolis", "edina pilates mn", "pilates minnesota", "best reformer pilates minneapolis"],
   openGraph: {
     title: "Best Pilates Studios in Minneapolis, MN (2026)",
-    description: "Six curated Pilates studios in Minneapolis — Uptown and Edina reformer boutiques. Verified 2026.",
+    description: "Six curated Pilates studios in Minneapolis: Uptown and Edina reformer boutiques. Verified 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/minneapolis",
-    images: [{ url: "https://images.unsplash.com/photo-1548624313-0396c75e4b1a?w=1200&q=80", width: 1200, height: 630, alt: "Minneapolis Minnesota city guide — Pilates Collective Club" }],
+    images: [{ url: "https://images.unsplash.com/photo-1548624313-0396c75e4b1a?w=1200&q=80", width: 1200, height: 630, alt: "Minneapolis Minnesota city guide: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Studios in Minneapolis (2026)",
-    description: "Six curated Pilates studios in Minneapolis — verified picks for every level.",
+    description: "Six curated Pilates studios in Minneapolis: verified picks for every level.",
     images: ["https://images.unsplash.com/photo-1548624313-0396c75e4b1a?w=1200&q=80"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/cities/minneapolis" },
@@ -37,24 +37,24 @@ const STUDIOS = [
     name: "Lagree Minneapolis",
     neighborhood: "Uptown",
     priceLevel: "$$$",
-    review: "Lagree Minneapolis in Uptown is one of the most-reviewed studios in the Twin Cities on ClassPass, rated 4.9 from more than 18,000 reviews. Its 45-minute classes combine slow, high-tension sequences on the Megaformer — the intense end of the reformer spectrum.",
-    caveat: "this is Lagree, not traditional Pilates — slower, heavier and much sweatier.",
-    address: "—",
+    review: "Lagree Minneapolis in Uptown is one of the most-reviewed studios in the Twin Cities on ClassPass, rated 4.9 from more than 18,000 reviews. Its 45-minute classes combine slow, high-tension sequences on the Megaformer: the intense end of the reformer spectrum.",
+    caveat: "this is Lagree, not traditional Pilates: slower, heavier and much sweatier.",
+    address: "",
     bestFor: "High-intensity Lagree in Uptown",
     signatureClass: "Lagree (45 min)",
-    bookingTip: "New to Lagree? Take a beginner class first — the machine has a learning curve.",
+    bookingTip: "New to Lagree? Take a beginner class first: the machine has a learning curve.",
   },
   {
     number: "02",
-    name: "Club Pilates — West Lake",
+    name: "Club Pilates West Lake",
     neighborhood: "West Lake / Bde Maka Ska",
     priceLevel: "$$$",
     review: "Club Pilates' West Lake Street studio serves Uptown, Linden Hills and the Bde Maka Ska area with the brand's levelled group reformer system and a wide daily schedule.",
-    caveat: "a franchise format — consistent, but less personalised than an independent studio.",
+    caveat: "a franchise format: consistent, but less personalised than an independent studio.",
     address: "3200 W Lake St, Minneapolis, MN 55416",
     bestFor: "Structured reformer classes near the lakes",
     signatureClass: "Reformer Flow",
-    bookingTip: "Weekend mornings fill early in the week — book by Tuesday.",
+    bookingTip: "Weekend mornings fill early in the week: book by Tuesday.",
   },
   {
     number: "03",
@@ -62,11 +62,11 @@ const STUDIOS = [
     neighborhood: "Marcy-Holmes / St. Anthony Main",
     priceLevel: "$$",
     review: "Sunna on 2nd Street SE offers Pilates mat classes and is rated 4.9 from more than 2,500 reviews on ClassPass, a strong option just across the river from downtown.",
-    caveat: "mat-focused — choose a reformer studio if machine work is your priority.",
+    caveat: "mat-focused: choose a reformer studio if machine work is your priority.",
     address: "514 2nd St SE, Minneapolis, MN 55414",
     bestFor: "Highly rated mat Pilates near downtown",
     signatureClass: "Pilates Mat",
-    bookingTip: "Evening classes are popular — book a few days ahead.",
+    bookingTip: "Evening classes are popular: book a few days ahead.",
   },
   {
     number: "04",
@@ -74,8 +74,8 @@ const STUDIOS = [
     neighborhood: "Eagan · Edina",
     priceLevel: "$$$",
     review: "Twin Cities Pilates takes a classical reformer approach that prioritises alignment and control, and its Eagan studio leads ClassPass's Twin Cities list for low-impact, joint-friendly Pilates (4.9 from more than 5,000 reviews). It also has an Edina studio serving the southwest suburbs, and has announced a North Loop studio.",
-    caveat: "its studios are suburban — check the closest location before booking.",
-    address: "—",
+    caveat: "its studios are suburban: check the closest location before booking.",
+    address: "",
     bestFor: "Classical, joint-friendly reformer",
     signatureClass: "Classical Reformer",
     bookingTip: "Check whether the North Loop studio has opened if you live downtown.",
@@ -86,7 +86,7 @@ const STUDIOS = [
     neighborhood: "Eden Prairie / Southwest Suburbs",
     priceLevel: "$$",
     review: "Club Pilates Eden Prairie on Prairie Center Drive serves Eden Prairie, Edina and Minnetonka with the brand's levelled group reformer programme.",
-    caveat: "a franchise studio — reliable structure, less individual programming.",
+    caveat: "a franchise studio: reliable structure, less individual programming.",
     address: "574 Prairie Center Dr, Suite 155, Eden Prairie, MN 55344",
     bestFor: "Southwest suburban residents, membership-based training",
     signatureClass: "Reformer Flow",
@@ -98,18 +98,18 @@ const STUDIOS = [
     neighborhood: "Highland Park, St Paul",
     priceLevel: "$$",
     review: "Club Pilates' Highland Park studio on Cleveland Avenue South is the convenient St Paul option, serving Highland Park, Mac-Groveland and the Grand Avenue area with levelled group reformer classes.",
-    caveat: "a franchise format — consistent, but less personalised than an independent studio.",
+    caveat: "a franchise format: consistent, but less personalised than an independent studio.",
     address: "757 Cleveland Ave S, Saint Paul, MN 55116",
     bestFor: "St Paul residents wanting structured reformer classes",
     signatureClass: "Reformer Flow",
-    bookingTip: "Saturday mornings are the busiest — book by Wednesday.",
+    bookingTip: "Saturday mornings are the busiest: book by Wednesday.",
   },
 ];
 
 const BOOKING_TIPS = [
-  { heading: "Expect to pay $25–52 per class", body: "Minneapolis's Pilates market is moderately priced by US standards. Drop-in rates run from $25 at community studios to $52 at Linden Hills premium practices. Monthly memberships bring per-class costs to $18–28 for regular practitioners — making Minneapolis one of the more financially accessible major US cities for building a serious Pilates practice." },
+  { heading: "Expect to pay $25–52 per class", body: "Minneapolis's Pilates market is moderately priced by US standards. Drop-in rates run from $25 at community studios to $52 at Linden Hills premium practices. Monthly memberships bring per-class costs to $18–28 for regular practitioners, making Minneapolis one of the more financially accessible major US cities for building a serious Pilates practice." },
   { heading: "Winter is when Pilates matters most", body: "Minneapolis winters are among the most severe in the continental United States. From November through March, outdoor activity is limited or eliminated for weeks at a time. Practitioners who establish a studio routine before the cold arrives maintain it through the winter; those who wait until January rarely sustain one. Book a standing slot in September." },
-  { heading: "The skyway system changes your calculus", body: "Minneapolis's underground skyway network connects much of Downtown, allowing practitioners to access studios without outdoor exposure in winter. Studios in or connected to the skyway system become significantly more practical from November through March — worth factoring into neighbourhood choice." },
+  { heading: "The skyway system changes your calculus", body: "Minneapolis's underground skyway network connects much of Downtown, allowing practitioners to access studios without outdoor exposure in winter. Studios in or connected to the skyway system become significantly more practical from November through March: worth factoring into neighbourhood choice." },
   { heading: "St Paul is a separate market worth considering", body: "The Twin Cities' two urban cores each have distinct studio cultures. St Paul's Highland Park, Grand Avenue and Summit Hill areas have their own studios, so St Paul residents rarely need to cross the river for a good class." },
   { heading: "Grip socks are required everywhere", body: "Universal across Minneapolis's reformer studios. Buying quality grip socks from Amazon before your first class is a consistent saving over front-desk retail pricing across the Twin Cities market." },
 ];
@@ -149,9 +149,9 @@ const GEAR = [
 ];
 
 const HOME_REFORMERS = [
-  { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work — three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
+  { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work: three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
   { tag: "Mid-Range Pick", name: "AeroPilates Pro XP 557", note: "AeroPilates' top-of-the-range home reformer, a step up for practitioners training several times a week.", price: "$1,329.99", url: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20" },
-  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order — an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
+  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
 ];
 
 const RELATED_CITIES = [
@@ -163,11 +163,11 @@ const RELATED_CITIES = [
 
 const FURTHER_READING = [
   { title: "How to Build a Consistent Pilates Practice", excerpt: "The habits, scheduling strategies, and mindset shifts that separate occasional students from committed practitioners.", href: "/blog/how-to-build-a-consistent-pilates-practice", category: "Guide", readTime: "7 min read", date: "June 2026", imageUrl: "https://images.unsplash.com/photo-1548624313-0396c75e4b1a?w=1200&q=80" },
-  { title: "Best Pilates Equipment for Home Practice", excerpt: "Everything you actually need to build a consistent home practice — especially useful for Minneapolis winters.", href: "/blog/best-pilates-equipment-for-home-practice", category: "Equipment", readTime: "10 min read", date: "June 2026", imageUrl: "https://images.unsplash.com/photo-1548624313-0396c75e4b1a?w=1200&q=80" },
+  { title: "Best Pilates Equipment for Home Practice", excerpt: "Everything you actually need to build a consistent home practice, especially useful for Minneapolis winters.", href: "/blog/best-pilates-equipment-for-home-practice", category: "Equipment", readTime: "10 min read", date: "June 2026", imageUrl: "https://images.unsplash.com/photo-1548624313-0396c75e4b1a?w=1200&q=80" },
 ];
 
 const CITY_FAQS = [
-  { q: "What are the best Pilates studios in Minneapolis?", a: "Our 6 curated picks are Lagree Minneapolis (Uptown), Club Pilates — West Lake (West Lake / Bde Maka Ska), Sunna (Marcy-Holmes / St. Anthony Main), Twin Cities Pilates (Eagan · Edina), Club Pilates Eden Prairie (Eden Prairie / Southwest Suburbs) and Club Pilates Highland Park (Highland Park, St Paul). Each listing above covers what the studio is best for, its signature class and a booking tip." },
+  { q: "What are the best Pilates studios in Minneapolis?", a: "Our 6 curated picks are Lagree Minneapolis (Uptown), Club Pilates: West Lake (West Lake / Bde Maka Ska), Sunna (Marcy-Holmes / St. Anthony Main), Twin Cities Pilates (Eagan · Edina), Club Pilates Eden Prairie (Eden Prairie / Southwest Suburbs) and Club Pilates Highland Park (Highland Park, St Paul). Each listing above covers what the studio is best for, its signature class and a booking tip." },
   { q: "Which Minneapolis neighbourhoods are best for Pilates?", a: "This guide covers Linden Hills & Edina, Uptown & South Minneapolis, Northeast Minneapolis and Downtown, North Loop & St Paul (Grand Avenue). Linden Hills & Edina: Minneapolis's southwestern residential jewels house the city's most premium classical practices alongside strong franchise offerings." },
   { q: "What should I know about booking Pilates classes in Minneapolis?", a: "Expect to pay $25–52 per class. Minneapolis's Pilates market is moderately priced by US standards." },
   { q: "What should I bring to a Pilates class in Minneapolis?", a: "Grip socks are required at most reformer studios. Our gear list for Minneapolis covers Pilates grip socks, Pilates mat, resistance bands set and magic circle." },
@@ -211,7 +211,7 @@ export default function MinneapolisPage() {
             <p className="text-sm mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated October 2026 · 9 min read</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Minneapolis has one of the most underrated Pilates scenes in the United States — shaped by a population that takes its physical life seriously through long winters, a strong performing arts culture anchored by the Guthrie Theater and Minnesota Ballet, and a professional class with the health literacy to value movement education over fitness entertainment. The studio landscape spans classical Linden Hills practices, vibrant Uptown independents, and accessible Downtown studios within a compact, walkable city. This guide covers the six studios worth your time, verified October 2026.
+              Minneapolis has one of the most underrated Pilates scenes in the United States: shaped by a population that takes its physical life seriously through long winters, a strong performing arts culture anchored by the Guthrie Theater and Minnesota Ballet, and a professional class with the health literacy to value movement education over fitness entertainment. The studio landscape spans classical Linden Hills practices, vibrant Uptown independents, and accessible Downtown studios within a compact, walkable city. This guide covers the six studios worth your time, verified October 2026.
             </p>
           </div>
         </section>
@@ -286,7 +286,7 @@ export default function MinneapolisPage() {
             <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Prefer To Train At Home?</p>
             <h2 className="text-3xl font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Not convinced? How about Pilates at home?</h2>
             <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-              Studio pricing or scheduling not for you right now? A home reformer gets you a genuine Pilates session on your own time. Here's where to start — from a $299 entry point to the machine serious practitioners buy once.{" "}
+              Studio pricing or scheduling not for you right now? A home reformer gets you a genuine Pilates session on your own time. Here's where to start, from a $299 entry point to the machine serious practitioners buy once.{" "}
               <Link href="/blog/best-home-pilates-reformer" style={{ color: "#8b4a31", textDecoration: "underline", fontFamily: "'Montserrat', sans-serif", fontSize: "inherit" }}>See the full reformer guide.</Link>
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
@@ -338,7 +338,7 @@ export default function MinneapolisPage() {
           </div>
         </section>
 
-        <CTASection title="Find Pilates near you" subtitle="Use our AI Finder to discover studios in any city — coming soon." showSearch searchPlaceholder="Ask: best classical Pilates in Minneapolis…" />
+        <CTASection title="Find Pilates near you" subtitle="Use our AI Finder to discover studios in any city: coming soon." showSearch searchPlaceholder="Ask: best classical Pilates in Minneapolis…" />
       </main>
       <Footer />
     </>

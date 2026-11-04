@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     description: "The Micro by Lagree Fitness against the Megaformer you use in class: what each is for, what carries over at home, what doesn't, and the cost-per-workout maths.",
     type: "article",
     url: PAGE_URL,
-    images: [{ url: HERO_IMAGE, width: 1200, height: 630, alt: "A row of carriage machines in a studio — Lagree Micro vs Megaformer" }],
+    images: [{ url: HERO_IMAGE, width: 1200, height: 630, alt: "A row of carriage machines in a studio: Lagree Micro vs Megaformer" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -111,13 +111,13 @@ const MICRO_ADDONS: Pick[] = [
 
 const MEGAFORMER: Pick = {
   id: "megaformer",
-  badge: "Studio Machine — Not Sold on Amazon",
+  badge: "Studio Machine, Not Sold on Amazon",
   shortName: "Megaformer",
   name: "Megaformer (M3S / M3X)",
   price: "Contact Lagree Fitness",
   url: LAGREE_DIRECT,
   description:
-    "Not sold on Amazon — this links to lagreefitness.com and is not an affiliate link. The Megaformer is the commercial machine used in Lagree studios. Lagree Fitness sells it directly, mainly to studios and licensees, and quotes pricing on request.",
+    "Not sold on Amazon: this links to lagreefitness.com and is not an affiliate link. The Megaformer is the commercial machine used in Lagree studios. Lagree Fitness sells it directly, mainly to studios and licensees, and quotes pricing on request.",
 };
 
 const ALL_ITEMS: Pick[] = [MICRO, ...MICRO_ADDONS, MEGAFORMER];
@@ -157,7 +157,7 @@ const CARRIES = [
   { h: "The method itself.", b: "Slow, controlled movement and time under tension on a spring-loaded carriage. That is the heart of Lagree, and the Micro is built for it by the people who wrote the method." },
   { h: "Spring-based resistance.", b: "Four springs from heavy to extra light let you change the load move by move, as you would in class." },
   { h: "Carriage work.", b: "Moves that happen on the carriage itself transfer directly." },
-  { h: "Lunges and platform moves — with the add-on.", b: "The express lunge, 5th lunge, super crunch and giant wheelbarrow need the rear platform. Without it, a large part of the class repertoire is off the table." },
+  { h: "Lunges and platform moves, with the add-on.", b: "The express lunge, 5th lunge, super crunch and giant wheelbarrow need the rear platform. Without it, a large part of the class repertoire is off the table." },
 ];
 
 const LOSES = [
@@ -182,7 +182,7 @@ const PERSONAS = [
     points: [
       "You are new to Lagree and still learning the moves.",
       "You need a booked class to actually turn up.",
-      "You train once a week or less — the machine would take a long time to pay for itself.",
+      "You train once a week or less: the machine would take a long time to pay for itself.",
       "You live in a small space with no realistic storage.",
     ],
   },
@@ -341,10 +341,10 @@ export default function LagreeMicroVsMegaformerPage() {
             <TopPick name={QUICK_PICKS[0].name} price={QUICK_PICKS[0].price} note={QUICK_PICKS[0].note} url={QUICK_PICKS[0].url} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Every Lagree regular eventually does the maths: three classes a week adds up fast, and Lagree Fitness sells a home machine. So is the Micro ({MICRO.price}) a substitute for the Megaformer you shake on in class? Not quite — but for the right person it is the best Lagree purchase there is. Here is exactly what each machine is for, what carries over at home and what doesn&apos;t, and the cost-per-workout numbers.
+              Every Lagree regular eventually does the maths: three classes a week adds up fast, and Lagree Fitness sells a home machine. So is the Micro ({MICRO.price}) a substitute for the Megaformer you shake on in class? Not quite, but for the right person it is the best Lagree purchase there is. Here is exactly what each machine is for, what carries over at home and what doesn&apos;t, and the cost-per-workout numbers.
             </p>
             <p className="text-sm leading-relaxed" style={bodyStyle}>
-              Micro prices and stock were checked live on Amazon on October 4, 2026; all four items are sold by Lagree Fitness, and the pulley cables were low on stock. Megaformer pricing is not published — Lagree Fitness quotes it on request.
+              Micro prices and stock were checked live on Amazon on October 4, 2026; all four items are sold by Lagree Fitness, and the pulley cables were low on stock. Megaformer pricing is not published: Lagree Fitness quotes it on request.
             </p>
           </div>
         </section>
@@ -352,7 +352,7 @@ export default function LagreeMicroVsMegaformerPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/stitch-reformers-aerial-row.png" alt="A row of carriage machines in a studio — Lagree Micro vs Megaformer" fill className="object-cover" style={{ filter: "brightness(0.85)" }} priority />
+              <Image src="/pictures/stitch-reformers-aerial-row.png" alt="A row of carriage machines in a studio: Lagree Micro vs Megaformer" fill className="object-cover" style={{ filter: "brightness(0.85)" }} priority />
             </div>
           </div>
         </section>
@@ -456,7 +456,7 @@ export default function LagreeMicroVsMegaformerPage() {
                 Class equivalents assume a Lagree class costs ${CLASS_LOW}–${CLASS_HIGH}, a common range in major US cities; memberships and class packs can bring that down, so check your own studio&apos;s rate.
               </p>
               <p className="text-sm leading-relaxed" style={bodyStyle}>
-                <span className="font-semibold" style={strongStyle}>A realistic example:</span> you swap two of three weekly classes for Micro sessions. At ${CLASS_LOW}–${CLASS_HIGH} a class that saves ${2 * CLASS_LOW}–${2 * CLASS_HIGH} a week, so the {fmt(CORE_SETUP)} Micro-and-platform setup is covered in about {Math.round(CORE_SETUP / (2 * CLASS_HIGH))}–{Math.round(CORE_SETUP / (2 * CLASS_LOW))} weeks — before any streaming subscription. Swap just one class a week and it takes about {Math.round(CORE_SETUP / CLASS_HIGH)}–{Math.round(CORE_SETUP / CLASS_LOW)} weeks.
+                <span className="font-semibold" style={strongStyle}>A realistic example:</span> you swap two of three weekly classes for Micro sessions. At ${CLASS_LOW}–${CLASS_HIGH} a class that saves ${2 * CLASS_LOW}–${2 * CLASS_HIGH} a week, so the {fmt(CORE_SETUP)} Micro-and-platform setup is covered in about {Math.round(CORE_SETUP / (2 * CLASS_HIGH))}–{Math.round(CORE_SETUP / (2 * CLASS_LOW))} weeks, before any streaming subscription. Swap just one class a week and it takes about {Math.round(CORE_SETUP / CLASS_HIGH)}–{Math.round(CORE_SETUP / CLASS_LOW)} weeks.
               </p>
             </div>
 
@@ -470,7 +470,7 @@ export default function LagreeMicroVsMegaformerPage() {
                     <p className="text-base font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{p.title}</p>
                     <ul className="space-y-2">
                       {p.points.map((pt) => (
-                        <li key={pt} className="text-sm leading-relaxed" style={bodyStyle}>— {pt}</li>
+                        <li key={pt} className="text-sm leading-relaxed" style={bodyStyle}>{pt}</li>
                       ))}
                     </ul>
                   </div>
@@ -500,7 +500,7 @@ export default function LagreeMicroVsMegaformerPage() {
             <div className="mb-16">
               <h2 className="text-3xl font-semibold mb-4" style={h2Style}>The Megaformer</h2>
               <p className="text-sm leading-relaxed mb-8" style={bodyStyle}>
-                The Megaformer is the machine that defines Lagree, and the one under you in every licensed class. Lagree Fitness sells it directly — current models are referred to as the M3S and M3X — and quotes pricing on request. If you are opening a studio, contact the brand. If you simply want to ride one, book a class.
+                The Megaformer is the machine that defines Lagree, and the one under you in every licensed class. Lagree Fitness sells it directly, current models are referred to as the M3S and M3X, and quotes pricing on request. If you are opening a studio, contact the brand. If you simply want to ride one, book a class.
               </p>
               <TierCard p={MEGAFORMER} />
               <p className="text-sm leading-relaxed mt-2" style={bodyStyle}>

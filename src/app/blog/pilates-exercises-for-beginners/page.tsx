@@ -11,13 +11,13 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Pilates Exercises for Beginners (2026): 10 Moves to Start",
-  description: "15 foundational Pilates exercises for beginners — reformer and mat moves explained with modifications, spring settings, and progression tips for new practitioners.",
+  description: "15 foundational Pilates exercises for beginners: reformer and mat moves explained with modifications, spring settings, and progression tips for new practitioners.",
   openGraph: {
     title: "10 Pilates Exercises for Beginners: The Essential Foundation",
-    description: "The Hundred, Roll Up, Single Leg Stretch — the 10 exercises every beginner should master before anything else.",
+    description: "The Hundred, Roll Up, Single Leg Stretch: the 10 exercises every beginner should master before anything else.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/pilates-exercises-for-beginners",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg", width: 1200, height: 630, alt: "Pilates Exercises for Beginners — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg", width: 1200, height: 630, alt: "Pilates Exercises for Beginners: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -37,7 +37,7 @@ const exercises = [
     number: "01",
     name: "The Hundred",
     trains: "Deep abdominals, breath coordination, spinal stability",
-    description: "Lie on your back with knees bent to tabletop. Lift your head and shoulders into a slight curl. Pump your arms up and down in small, controlled movements — 5 counts inhaling, 5 counts exhaling — for 100 pumps total. The pumping arms drive the breath; the stable torso is the point.",
+    description: "Lie on your back with knees bent to tabletop. Lift your head and shoulders into a slight curl. Pump your arms up and down in small, controlled movements (5 counts inhaling, 5 counts exhaling) for 100 pumps total. The pumping arms drive the breath; the stable torso is the point.",
     mistake: "Pulling the neck with the hands. Your head should be cradled, not gripped, and the lift should come from the abdominals, not the neck flexors.",
     progression: "2-4 weeks of daily practice with knees bent. Progress to legs at 45 degrees only when the lower back doesn't lift off the mat.",
   },
@@ -45,16 +45,16 @@ const exercises = [
     number: "02",
     name: "The Roll Up",
     trains: "Spinal articulation, abdominal strength, hip flexor length",
-    description: "Lie flat with arms extended overhead. Inhale to prepare, then exhale as you peel the spine off the mat sequentially from the head down — vertebra by vertebra — reaching forward over your legs. Inhale at the top, then reverse the process back to flat.",
-    mistake: "Using momentum to throw yourself upright. The Roll Up should be controlled and sequential — if you can't do it smoothly, return to the Half Roll Back as a preliminary exercise.",
+    description: "Lie flat with arms extended overhead. Inhale to prepare, then exhale as you peel the spine off the mat sequentially from the head down, vertebra by vertebra, reaching forward over your legs. Inhale at the top, then reverse the process back to flat.",
+    mistake: "Using momentum to throw yourself upright. The Roll Up should be controlled and sequential, if you can't do it smoothly, return to the Half Roll Back as a preliminary exercise.",
     progression: "Master with knees slightly bent if the hamstrings limit range. Straight legs are the target.",
   },
   {
     number: "03",
     name: "Single Leg Circle",
     trains: "Hip mobility, pelvic stability, core control",
-    description: "Lie flat with one leg extended toward the ceiling. Draw a circle with the working leg, stabilising the pelvis completely throughout. The pelvis should not rock, shift, or lift — only the leg moves. 5 circles each direction, then switch legs.",
-    mistake: "Allowing the hip to lift or rock. If the circle is small enough to keep the pelvis completely still, it's the right size. Too large a circle is cheating — the work is in the stability, not the range.",
+    description: "Lie flat with one leg extended toward the ceiling. Draw a circle with the working leg, stabilising the pelvis completely throughout. The pelvis should not rock, shift, or lift, only the leg moves. 5 circles each direction, then switch legs.",
+    mistake: "Allowing the hip to lift or rock. If the circle is small enough to keep the pelvis completely still, it's the right size. Too large a circle is cheating: the work is in the stability, not the range.",
     progression: "Begin with small circles. Increase the circle size only when pelvic stability is consistent.",
   },
   {
@@ -62,14 +62,14 @@ const exercises = [
     name: "Rolling Like a Ball",
     trains: "Spinal massage, abdominal control, breath awareness",
     description: "Sit at the front of your mat, knees to chest, feet lifted, spine rounded into a C-curve. Balance on your tailbone. Inhale as you roll back to the shoulder blades; exhale as you roll forward to the starting balance point. Do not roll onto the neck.",
-    mistake: "Flinging backward and crashing. The movement should be controlled — the exhale on the forward roll engages the deep abdominals to control the return.",
+    mistake: "Flinging backward and crashing. The movement should be controlled: the exhale on the forward roll engages the deep abdominals to control the return.",
     progression: "If rolling feels uncontrolled, practice the C-curve balance position alone first. Build the core control before adding the roll.",
   },
   {
     number: "05",
     name: "Single Leg Stretch",
     trains: "Abdominal endurance, coordination, hip flexor mobility",
-    description: "Lie on your back in a slight curl. Draw one knee to chest while extending the other leg. Alternate legs in a rhythmic, coordinated pattern — right hand to outside ankle, left hand to inside knee on the right leg. Maintain the chest lift throughout.",
+    description: "Lie on your back in a slight curl. Draw one knee to chest while extending the other leg. Alternate legs in a rhythmic, coordinated pattern: right hand to outside ankle, left hand to inside knee on the right leg. Maintain the chest lift throughout.",
     mistake: "Losing the abdominal engagement as the legs move. The legs are the expression; the stable, lifted torso is the work. If the lower back rises off the mat, the legs are too low or the abdominals have lost connection.",
     progression: "Begin with legs at a high angle (60-70 degrees). Lower the extended leg toward the floor only as core control improves.",
   },
@@ -86,7 +86,7 @@ const exercises = [
     name: "Spine Stretch Forward",
     trains: "Spinal flexion, hamstring length, postural awareness",
     description: "Sit upright with legs extended wider than hip width, feet flexed. Inhale to grow tall. Exhale as you reach forward, rounding the spine sequentially from the crown of the head. The goal is not to reach the feet but to create length in each vertebra. Inhale to return.",
-    mistake: "Hinging forward from the hips with a flat back rather than rounding the spine. Spine Stretch Forward is a spinal articulation exercise, not a hamstring stretch — the round is intentional.",
+    mistake: "Hinging forward from the hips with a flat back rather than rounding the spine. Spine Stretch Forward is a spinal articulation exercise, not a hamstring stretch: the round is intentional.",
     progression: "If hamstring tightness prevents upright sitting, sit on a rolled blanket to tilt the pelvis forward.",
   },
   {
@@ -94,7 +94,7 @@ const exercises = [
     name: "The Bridge",
     trains: "Glutes, hamstrings, spinal articulation, pelvic stability",
     description: "Lie on your back with knees bent, feet hip-width apart and parallel. Inhale to prepare. Exhale as you tilt the pelvis and peel the spine off the mat vertebra by vertebra until the hips are in a straight line from knees to shoulders. Inhale at the top. Exhale to lower sequentially.",
-    mistake: "Popping up to full extension without articulating the spine. The sequential quality — each vertebra peeling off and returning — is the Pilates distinction. Treat it as a massage for the spine, not simply a glute exercise.",
+    mistake: "Popping up to full extension without articulating the spine. The sequential quality, each vertebra peeling off and returning, is the Pilates distinction. Treat it as a massage for the spine, not simply a glute exercise.",
     progression: "Single-leg bridge (one foot lifted) is the natural progression once the two-leg version is stable and sequential.",
   },
   {
@@ -109,8 +109,8 @@ const exercises = [
     number: "10",
     name: "Side Kicks",
     trains: "Hip abductors, core lateral stability, hip flexor length",
-    description: "Lie on your side in a straight line. Lift the top leg to hip height. Kick forward with a pulsed double beat; sweep back with control. The torso remains completely still — no rocking, no collapsing. The challenge is maintaining the stable side position while the leg moves freely.",
-    mistake: "Rolling the pelvis forward or back with each kick. Place one hand in front of the navel and feel for movement — if the hand moves, the pelvis is rotating. Reduce the leg's range until the pelvis stays square.",
+    description: "Lie on your side in a straight line. Lift the top leg to hip height. Kick forward with a pulsed double beat; sweep back with control. The torso remains completely still: no rocking, no collapsing. The challenge is maintaining the stable side position while the leg moves freely.",
+    mistake: "Rolling the pelvis forward or back with each kick. Place one hand in front of the navel and feel for movement, if the hand moves, the pelvis is rotating. Reduce the leg's range until the pelvis stays square.",
     progression: "Progress through the full side-lying series: front/back, circles, inner thigh lifts, and banana before adding ankle weights.",
   },
 ];
@@ -122,7 +122,7 @@ const jsonLd = {
       "@type": "Article",
       "@id": "https://pilatescollectiveclub.com/blog/pilates-exercises-for-beginners/#article",
       "headline": "10 Pilates Exercises for Beginners: The Essential Starting Point",
-      "description": "The 10 foundational Pilates exercises every beginner should master first — with correct technique, common mistakes, and progression guidance.",
+      "description": "The 10 foundational Pilates exercises every beginner should master first, with correct technique, common mistakes, and progression guidance.",
       "image": {
         "@type": "ImageObject",
         "url": "https://pilatescollectiveclub.com/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg",
@@ -172,12 +172,12 @@ const jsonLd = {
         {
           "@type": "Question",
           "name": "How long should a beginner Pilates session be?",
-          "acceptedAnswer": { "@type": "Answer", "text": "30-45 minutes is the ideal beginner session length. This is long enough to warm up, cover 6-10 exercises properly, and cool down — but short enough that technique doesn't deteriorate from fatigue. Quality of movement matters more than duration." }
+          "acceptedAnswer": { "@type": "Answer", "text": "30-45 minutes is the ideal beginner session length. This is long enough to warm up, cover 6-10 exercises properly, and cool down, but short enough that technique doesn't deteriorate from fatigue. Quality of movement matters more than duration." }
         },
         {
           "@type": "Question",
           "name": "Is Pilates hard for beginners?",
-          "acceptedAnswer": { "@type": "Answer", "text": "The movements appear simple but demand genuine concentration. The first 10-15 sessions are often humbling — stabilising the pelvis during leg movements, finding the deep abdominals, and maintaining spinal elongation simultaneously are skills that take weeks to develop. Progress is consistent and measurable, which is what keeps beginners engaged." }
+          "acceptedAnswer": { "@type": "Answer", "text": "The movements appear simple but demand genuine concentration. The first 10-15 sessions are often humbling: stabilising the pelvis during leg movements, finding the deep abdominals, and maintaining spinal elongation simultaneously are skills that take weeks to develop. Progress is consistent and measurable, which is what keeps beginners engaged." }
         },
       ],
     },
@@ -222,11 +222,11 @@ export default function PilatesExercisesForBeginnersPage() {
 
             <section className="pb-20">
               <p className="text-lg leading-relaxed mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-                Joseph Pilates developed his method as a progression — each exercise building on the last, each skill creating the foundation for the next. The 10 exercises in this guide are the most fundamental in the mat repertoire. Master these before progressing to the teaser, the corkscrew, or the scissors. The foundation is everything in Pilates.
+                Joseph Pilates developed his method as a progression, each exercise building on the last, each skill creating the foundation for the next. The 10 exercises in this guide are the most fundamental in the mat repertoire. Master these before progressing to the teaser, the corkscrew, or the scissors. The foundation is everything in Pilates.
               </p>
 
               <p className="text-base leading-relaxed mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                For home practice, all you need is a quality mat — the{" "}
+                For home practice, all you need is a quality mat: the{" "}
                 Manduka PRO{" "}
                 or{" "}
                 Liforme{" "}
@@ -279,8 +279,8 @@ export default function PilatesExercisesForBeginnersPage() {
                   {[
                     { q: "How often should a beginner do Pilates?", a: "2-3 sessions per week is the recommended starting frequency. This gives your body time to adapt between sessions while building the neural connections needed for proper movement patterning. After 6-8 weeks, many beginners move to 3-4 sessions per week." },
                     { q: "Do you need equipment for beginner Pilates?", a: "A good mat is the only essential. A 6mm or thicker mat provides the spinal cushioning needed for mat work. The magic circle, resistance bands, and Pilates ball are excellent supplemental tools once the foundational exercises are established." },
-                    { q: "How long should a beginner Pilates session be?", a: "30-45 minutes is the ideal beginner session length. This is long enough to warm up, cover 6-10 exercises properly, and cool down — but short enough that technique doesn't deteriorate from fatigue. Quality of movement matters more than duration." },
-                    { q: "Is Pilates hard for beginners?", a: "The movements appear simple but demand genuine concentration. The first 10-15 sessions are often humbling — stabilising the pelvis during leg movements, finding the deep abdominals, and maintaining spinal elongation simultaneously are skills that take weeks to develop. Progress is consistent and measurable, which is what keeps beginners engaged." },
+                    { q: "How long should a beginner Pilates session be?", a: "30-45 minutes is the ideal beginner session length. This is long enough to warm up, cover 6-10 exercises properly, and cool down, but short enough that technique doesn't deteriorate from fatigue. Quality of movement matters more than duration." },
+                    { q: "Is Pilates hard for beginners?", a: "The movements appear simple but demand genuine concentration. The first 10-15 sessions are often humbling: stabilising the pelvis during leg movements, finding the deep abdominals, and maintaining spinal elongation simultaneously are skills that take weeks to develop. Progress is consistent and measurable, which is what keeps beginners engaged." },
                   ].map((item) => (
                     <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                       <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
@@ -293,8 +293,8 @@ export default function PilatesExercisesForBeginnersPage() {
               <div>
                 <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                  <ArticleCard title="Best Pilates Mat (2026)" excerpt="Five mats ranked for beginners — firmness, grip, and spinal cushioning." href="/blog/best-pilates-mat" category="Equipment" readTime="9 min read" date="May 2026" imageUrl="/pictures/dane-wetton-t1NEMSm1rgI-unsplash.jpg" />
-                  <ArticleCard title="Best Pilates Starter Kit (2026)" excerpt="Everything to buy first — mat, grip socks, bands, ring — in the right order." href="/blog/best-pilates-starter-kit" category="Beginners" readTime="9 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-Zp4APUiwEsM-unsplash.jpg" />
+                  <ArticleCard title="Best Pilates Mat (2026)" excerpt="Five mats ranked for beginners: firmness, grip, and spinal cushioning." href="/blog/best-pilates-mat" category="Equipment" readTime="9 min read" date="May 2026" imageUrl="/pictures/dane-wetton-t1NEMSm1rgI-unsplash.jpg" />
+                  <ArticleCard title="Best Pilates Starter Kit (2026)" excerpt="Everything to buy first (mat, grip socks, bands, ring) in the right order." href="/blog/best-pilates-starter-kit" category="Beginners" readTime="9 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-Zp4APUiwEsM-unsplash.jpg" />
                 </div>
               </div>
             </section>

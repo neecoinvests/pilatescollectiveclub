@@ -12,14 +12,14 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Spin Bikes Under $500 (2026): Compared & Ranked",
-  description: "Indoor cycling bikes under $500 ranked on flywheel weight, drive type and resistance — plus why magnetic beats friction at this price and what you give up.",
+  description: "Indoor cycling bikes under $500 ranked on flywheel weight, drive type and resistance, plus why magnetic beats friction at this price and what you give up.",
   keywords: ["best spin bike under 500", "cheap spin bike", "budget indoor cycling bike", "yosuda indoor cycling bike", "sunny health spin bike", "magnetic spin bike under 500", "belt drive spin bike", "affordable exercise bike", "spin bike for home under 500", "budget spin bike 2026"],
   openGraph: {
     title: "Best Spin Bikes Under $500 (2026): Compared & Ranked",
-    description: "Flywheel weight, drive type and resistance compared — and why magnetic beats friction at this price.",
+    description: "Flywheel weight, drive type and resistance compared, and why magnetic beats friction at this price.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-spin-bike-under-500",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg", width: 1200, height: 630, alt: "Best Spin Bikes Under $500 — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg", width: 1200, height: 630, alt: "Best Spin Bikes Under $500: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -38,7 +38,7 @@ const PRODUCTS = [
     price: "$199.99",
     verdict: "Best overall spin bike under $500",
     description:
-      "The Yosuda has become the default budget recommendation for a straightforward reason: it gets the two specifications that matter right at a price where most competitors get one of them wrong. The flywheel is heavy enough — around 35lb on the standard model — to carry momentum through the dead spot at the top of the pedal stroke, which is what separates a bike that feels like cycling from one that feels like pedalling against a brake. And the frame is genuinely stable when you stand up, which many sub-$300 bikes are not. It is friction-resistance rather than magnetic, so expect the felt pad to need replacing after a year or two of heavy use and expect some noise. No console worth the name, no power measurement, and the stock saddle is poor. Budget for a saddle swap and a tablet mount and it is still comfortably the best value here.",
+      "The Yosuda has become the default budget recommendation for a straightforward reason: it gets the two specifications that matter right at a price where most competitors get one of them wrong. The flywheel is heavy enough, around 35lb on the standard model, to carry momentum through the dead spot at the top of the pedal stroke, which is what separates a bike that feels like cycling from one that feels like pedalling against a brake. And the frame is genuinely stable when you stand up, which many sub-$300 bikes are not. It is friction-resistance rather than magnetic, so expect the felt pad to need replacing after a year or two of heavy use and expect some noise. No console worth the name, no power measurement, and the stock saddle is poor. Budget for a saddle swap and a tablet mount and it is still comfortably the best value here.",
     affiliateUrl: "https://www.amazon.com/dp/B0BVHN3D72?tag=pilatescollective-20",
     tag: "Editor's Pick",
   },
@@ -48,7 +48,7 @@ const PRODUCTS = [
     price: "From $420",
     verdict: "Best magnetic resistance under $500",
     description:
-      "Magnetic resistance is the single upgrade most worth paying for at this price, and the SF-B1805 is the most credible magnetic bike that stays under the ceiling. Magnets apply resistance without touching the flywheel, which means there is nothing to wear out, nothing to replace, and almost no noise — a genuine consideration in a flat or a shared house, and the reason magnetic bikes are the ones people are still using in year five. The 40lb flywheel carries momentum well and the resistance progression is smooth rather than stepped. Against the Yosuda you are paying roughly $120 for quiet operation and zero maintenance. The console remains basic and there is no power meter, which is normal at this price. If the bike lives anywhere noise matters, buy this one rather than the friction alternative.",
+      "Magnetic resistance is the single upgrade most worth paying for at this price, and the SF-B1805 is the most credible magnetic bike that stays under the ceiling. Magnets apply resistance without touching the flywheel, which means there is nothing to wear out, nothing to replace, and almost no noise: a genuine consideration in a flat or a shared house, and the reason magnetic bikes are the ones people are still using in year five. The 40lb flywheel carries momentum well and the resistance progression is smooth rather than stepped. Against the Yosuda you are paying roughly $120 for quiet operation and zero maintenance. The console remains basic and there is no power meter, which is normal at this price. If the bike lives anywhere noise matters, buy this one rather than the friction alternative.",
     affiliateUrl: "https://www.amazon.com/s?k=sunny+health+fitness+magnetic+indoor+cycling+bike+sf+b1805&tag=pilatescollective-20",
     tag: "Best Magnetic",
   },
@@ -58,7 +58,7 @@ const PRODUCTS = [
     price: "From $450",
     verdict: "Best build quality at the top of the budget",
     description:
-      "The Joroto X2 sits at the upper edge of this bracket and spends the extra money on the frame rather than the features list, which is the right priority. The welded steel frame and wider base stay noticeably more planted during standing sprints than lighter budget bikes, and the higher stated user weight limit reflects real structural difference rather than marketing. Magnetic resistance again, so it runs quietly and needs no pad replacement. The belt drive is smooth and effectively silent. What you still do not get is any meaningful electronics — the console counts time and estimated distance and should be ignored in favour of a phone or a separate cadence sensor. If you are heavier, taller, or ride out of the saddle frequently, the extra stability here is worth more than any feature the cheaper bikes advertise.",
+      "The Joroto X2 sits at the upper edge of this bracket and spends the extra money on the frame rather than the features list, which is the right priority. The welded steel frame and wider base stay noticeably more planted during standing sprints than lighter budget bikes, and the higher stated user weight limit reflects real structural difference rather than marketing. Magnetic resistance again, so it runs quietly and needs no pad replacement. The belt drive is smooth and effectively silent. What you still do not get is any meaningful electronics: the console counts time and estimated distance and should be ignored in favour of a phone or a separate cadence sensor. If you are heavier, taller, or ride out of the saddle frequently, the extra stability here is worth more than any feature the cheaper bikes advertise.",
     affiliateUrl: "https://www.amazon.com/s?k=joroto+x2+magnetic+indoor+cycling+bike&tag=pilatescollective-20",
     tag: "Best Build",
   },
@@ -68,7 +68,7 @@ const PRODUCTS = [
     price: "From $330",
     verdict: "Quietest drivetrain for flats and shared houses",
     description:
-      "Chain drives are noisier than belt drives, and in an apartment that difference decides whether you can ride at seven in the morning. The SF-B1002 pairs a belt drive with a heavy 49lb flywheel, which is unusually substantial at this price and produces a smooth, road-like feel through the pedal stroke that lighter-flywheel bikes cannot match. The trade-off is that the resistance is friction-based, so while the drivetrain is quiet the resistance pad will eventually wear and can squeak if it gets damp with sweat — keep it wiped down. The heavy flywheel also makes the bike awkward to move, so decide where it lives before assembly. Best suited to steady-state riders who value drivetrain smoothness over the maintenance-free convenience of magnets.",
+      "Chain drives are noisier than belt drives, and in an apartment that difference decides whether you can ride at seven in the morning. The SF-B1002 pairs a belt drive with a heavy 49lb flywheel, which is unusually substantial at this price and produces a smooth, road-like feel through the pedal stroke that lighter-flywheel bikes cannot match. The trade-off is that the resistance is friction-based, so while the drivetrain is quiet the resistance pad will eventually wear and can squeak if it gets damp with sweat: keep it wiped down. The heavy flywheel also makes the bike awkward to move, so decide where it lives before assembly. Best suited to steady-state riders who value drivetrain smoothness over the maintenance-free convenience of magnets.",
     affiliateUrl: "https://www.amazon.com/s?k=sunny+health+fitness+belt+drive+indoor+cycling+bike+sf+b1002&tag=pilatescollective-20",
     tag: "Quietest Drivetrain",
   },
@@ -88,7 +88,7 @@ const PRODUCTS = [
     price: "$189.99",
     verdict: "Cheapest bike worth considering",
     description:
-      "Below about $250 the compromises stop being about features and start being about whether the bike is pleasant to ride at all. Flywheels drop under 30lb, which produces a lurching pedal stroke rather than a smooth one, frames flex when you stand, and adjustment ranges narrow to the point that taller riders cannot set the saddle correctly. That said, if the alternative is not riding, a cheap bike that gets used beats a good bike you did not buy. Set expectations honestly: plan to replace it rather than upgrade it, keep every bolt checked since budget frames loosen, and verify the return window before assembly. Two specifications are worth insisting on even here — a flywheel of at least 30lb, and a stated inseam range that covers you.",
+      "Below about $250 the compromises stop being about features and start being about whether the bike is pleasant to ride at all. Flywheels drop under 30lb, which produces a lurching pedal stroke rather than a smooth one, frames flex when you stand, and adjustment ranges narrow to the point that taller riders cannot set the saddle correctly. That said, if the alternative is not riding, a cheap bike that gets used beats a good bike you did not buy. Set expectations honestly: plan to replace it rather than upgrade it, keep every bolt checked since budget frames loosen, and verify the return window before assembly. Two specifications are worth insisting on even here: a flywheel of at least 30lb, and a stated inseam range that covers you.",
     affiliateUrl: "https://www.amazon.com/dp/B0HFNFRLNJ?tag=pilatescollective-20",
     tag: "Best Cheapest",
   },
@@ -137,7 +137,7 @@ const jsonLd = {
       "mainEntity": [
         { "@type": "Question", "name": "Magnetic or friction resistance on a budget spin bike?", "acceptedAnswer": { "@type": "Answer", "text": "Magnetic, if you can stretch to it. Magnets apply resistance without touching the flywheel, so there is nothing to wear out, nothing to replace and almost no noise. Friction bikes use a felt pad pressed against the flywheel: cheaper, effective, but the pad wears, needs replacing every year or two under heavy use, and can squeak when damp with sweat. In an apartment or shared house the noise difference alone justifies the roughly $100 premium, and magnetic bikes are the ones people are still riding in year five." } },
         { "@type": "Question", "name": "How heavy should the flywheel be?", "acceptedAnswer": { "@type": "Answer", "text": "At least 30lb, and 35 to 45lb is the sweet spot for this price bracket. Flywheel mass carries momentum through the dead spot at the top of the pedal stroke, which is what makes a bike feel like cycling rather than like pushing against a brake. Below about 30lb the stroke feels lurching and uneven, particularly at low cadence. Beyond roughly 45lb the returns diminish while the bike becomes genuinely difficult to move around a room, so a very heavy flywheel is not automatically better." } },
-        { "@type": "Question", "name": "Can you use a budget bike with Peloton or other class apps?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, with one caveat. Apps run on your own tablet or phone, so a bike with no screen is no obstacle — add a mount and you are set. The limitation is metrics: budget bikes have no power meter, so classes calling for specific output numbers cannot be followed precisely. You can add a cheap cadence sensor to match the RPM cues, which covers most of what a class actually asks for. Follow effort and cadence rather than trying to match someone else's wattage." } },
+        { "@type": "Question", "name": "Can you use a budget bike with Peloton or other class apps?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, with one caveat. Apps run on your own tablet or phone, so a bike with no screen is no obstacle: add a mount and you are set. The limitation is metrics: budget bikes have no power meter, so classes calling for specific output numbers cannot be followed precisely. You can add a cheap cadence sensor to match the RPM cues, which covers most of what a class actually asks for. Follow effort and cadence rather than trying to match someone else's wattage." } },
         { "@type": "Question", "name": "What should you budget beyond the bike itself?", "acceptedAnswer": { "@type": "Answer", "text": "Around $100 to $150 covers the things that turn a budget bike into a usable one. The stock saddle on nearly every bike at this price is poor, and a replacement runs $35 to $55. A floor mat protects the surface beneath and damps vibration. A tablet mount is essential if you follow classes, and a cadence sensor is worth having if your console is unreliable, which at this price it is. Factor this in when comparing a $299 bike against a $450 one, because the cheaper bike rarely stays cheaper." } },
       ],
     },
@@ -166,7 +166,7 @@ export default function BestSpinBikeUnder500Page() {
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Two specifications decide a bike at this price and neither appears in the marketing. Flywheel weight determines whether the pedal stroke feels like cycling or like pushing against a brake — 35lb and up. And resistance type determines whether you are still happy with the bike in year three: magnets are silent and wear-free, friction pads squeak and need replacing. Everything else on the spec sheet at this price is noise.
+              Two specifications decide a bike at this price and neither appears in the marketing. Flywheel weight determines whether the pedal stroke feels like cycling or like pushing against a brake, 35lb and up. And resistance type determines whether you are still happy with the bike in year three: magnets are silent and wear-free, friction pads squeak and need replacing. Everything else on the spec sheet at this price is noise.
             </p>
           </div>
         </section>
@@ -204,7 +204,7 @@ export default function BestSpinBikeUnder500Page() {
               <ul className="space-y-3">
                 {[
                   "A replacement saddle, $35–$55. The stock saddle on nearly every bike at this price is the first thing owners change.",
-                  "A floor mat to protect the surface below and damp vibration — essential on a hard floor or upstairs.",
+                  "A floor mat to protect the surface below and damp vibration: essential on a hard floor or upstairs.",
                   "A tablet mount if you follow classes, since no bike here has a usable screen.",
                   "A cadence sensor if you want reliable RPM, because the built-in consoles at this price are not trustworthy.",
                   "Check the stated inseam range against your own before ordering. A bike you cannot set up correctly is worse value than no bike.",
@@ -224,7 +224,7 @@ export default function BestSpinBikeUnder500Page() {
                 {[
                   { q: "Magnetic or friction resistance on a budget spin bike?", a: "Magnetic, if you can stretch to it. Magnets apply resistance without touching the flywheel, so there is nothing to wear out, nothing to replace and almost no noise. Friction bikes use a felt pad pressed against the flywheel: cheaper, effective, but the pad wears, needs replacing every year or two under heavy use, and can squeak when damp with sweat. In an apartment or shared house the noise difference alone justifies the roughly $100 premium, and magnetic bikes are the ones people are still riding in year five." },
                   { q: "How heavy should the flywheel be?", a: "At least 30lb, and 35 to 45lb is the sweet spot for this price bracket. Flywheel mass carries momentum through the dead spot at the top of the pedal stroke, which is what makes a bike feel like cycling rather than like pushing against a brake. Below about 30lb the stroke feels lurching and uneven, particularly at low cadence. Beyond roughly 45lb the returns diminish while the bike becomes genuinely difficult to move around a room, so a very heavy flywheel is not automatically better." },
-                  { q: "Can you use a budget bike with Peloton or other class apps?", a: "Yes, with one caveat. Apps run on your own tablet or phone, so a bike with no screen is no obstacle — add a mount and you are set. The limitation is metrics: budget bikes have no power meter, so classes calling for specific output numbers cannot be followed precisely. You can add a cheap cadence sensor to match the RPM cues, which covers most of what a class actually asks for. Follow effort and cadence rather than trying to match someone else's wattage." },
+                  { q: "Can you use a budget bike with Peloton or other class apps?", a: "Yes, with one caveat. Apps run on your own tablet or phone, so a bike with no screen is no obstacle: add a mount and you are set. The limitation is metrics: budget bikes have no power meter, so classes calling for specific output numbers cannot be followed precisely. You can add a cheap cadence sensor to match the RPM cues, which covers most of what a class actually asks for. Follow effort and cadence rather than trying to match someone else's wattage." },
                   { q: "What should you budget beyond the bike itself?", a: "Around $100 to $150 covers the things that turn a budget bike into a usable one. The stock saddle on nearly every bike at this price is poor, and a replacement runs $35 to $55. A floor mat protects the surface beneath and damps vibration. A tablet mount is essential if you follow classes, and a cadence sensor is worth having if your console is unreliable, which at this price it is. Factor this in when comparing a $299 bike against a $450 one, because the cheaper bike rarely stays cheaper." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>

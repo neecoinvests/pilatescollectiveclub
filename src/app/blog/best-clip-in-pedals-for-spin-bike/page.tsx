@@ -12,14 +12,14 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Clip-In Pedals for Spin Bikes (2026): SPD vs Delta",
-  description: "Clip-in pedals and cleats for indoor bikes ranked — why SPD beats Delta for studio cycling, which pedals fit Peloton, and the cleats to pair with them.",
+  description: "Clip-in pedals and cleats for indoor bikes ranked: why SPD beats Delta for studio cycling, which pedals fit Peloton, and the cleats to pair with them.",
   keywords: ["best clip in pedals for spin bike", "spd pedals indoor cycling", "peloton spd pedal conversion", "delta vs spd pedals", "dual sided spd pedals", "spin bike cleats", "shimano spd pedals spin", "toe cage pedals spin bike", "indoor cycling pedals", "spin bike pedals 2026"],
   openGraph: {
     title: "Best Clip-In Pedals for Spin Bikes (2026): SPD vs Delta",
     description: "Why SPD beats Delta for studio cycling, which pedals fit Peloton, and the cleats to pair with them.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-clip-in-pedals-for-spin-bike",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/dane-wetton-AkSJQnem75Y-unsplash.jpg", width: 1200, height: 630, alt: "Best Clip-In Pedals for Spin Bikes — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/dane-wetton-AkSJQnem75Y-unsplash.jpg", width: 1200, height: 630, alt: "Best Clip-In Pedals for Spin Bikes: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -38,7 +38,7 @@ const PRODUCTS = [
     price: "$39.98",
     verdict: "Best overall pedals for a home spin bike",
     description:
-      "Venzo's pedals are Shimano SPD compatible and include toe clips, which gives you two ways to ride the same pedal: clipped in with SPD-cleated shoes, or strapped in with ordinary trainers. That flexibility is the correct default for a shared home bike, where not everyone in the house owns cycling shoes. SPD is the right clip standard for indoor cycling because the cleat is small and recessed into the sole, so you can walk normally between the bike and the rest of the house — unlike a protruding Delta or road cleat. Check that your bike's spindle is 9/16 inch, which is standard on almost every indoor bike, and remember the left pedal is reverse-threaded.",
+      "Venzo's pedals are Shimano SPD compatible and include toe clips, which gives you two ways to ride the same pedal: clipped in with SPD-cleated shoes, or strapped in with ordinary trainers. That flexibility is the correct default for a shared home bike, where not everyone in the house owns cycling shoes. SPD is the right clip standard for indoor cycling because the cleat is small and recessed into the sole, so you can walk normally between the bike and the rest of the house, unlike a protruding Delta or road cleat. Check that your bike's spindle is 9/16 inch, which is standard on almost every indoor bike, and remember the left pedal is reverse-threaded.",
     affiliateUrl: "https://www.amazon.com/dp/B07NKFPGPC?tag=pilatescollective-20",
     tag: "Editor's Pick",
   },
@@ -58,7 +58,7 @@ const PRODUCTS = [
     price: "$35.66",
     verdict: "Best for durability under regular use",
     description:
-      "The YBEKI pedal uses sealed bearings, which resist the sweat and moisture that build up under a spin bike over repeated sessions, and it carries a 12-month warranty — a useful signal of confidence from the manufacturer given the price. For riders training several times a week who want a pedal built to hold up rather than the cheapest possible option, the combination of sealed bearings and warranty coverage makes this the more durable pick in this lineup.",
+      "The YBEKI pedal uses sealed bearings, which resist the sweat and moisture that build up under a spin bike over repeated sessions, and it carries a 12-month warranty: a useful signal of confidence from the manufacturer given the price. For riders training several times a week who want a pedal built to hold up rather than the cheapest possible option, the combination of sealed bearings and warranty coverage makes this the more durable pick in this lineup.",
     affiliateUrl: "https://www.amazon.com/dp/B07Y9Q9Q5X?tag=pilatescollective-20",
     tag: "Best for Durability",
   },
@@ -78,7 +78,7 @@ const PRODUCTS = [
     price: "$38.18",
     verdict: "Best flat-and-clip combo pedal",
     description:
-      "This BUCKLOS pedal pairs an SPD-cleat-compatible clip side with a flat platform on the reverse, the same combo-pedal logic that makes sense for any shared bike: clip in with cycling shoes, or ride flat in trainers, on the same pedal without swapping hardware. It's built to mountain-bike pedal standards, which typically means a wider platform than road-oriented pedals — useful if you want a bit more foot support on the flat side during longer sessions.",
+      "This BUCKLOS pedal pairs an SPD-cleat-compatible clip side with a flat platform on the reverse, the same combo-pedal logic that makes sense for any shared bike: clip in with cycling shoes, or ride flat in trainers, on the same pedal without swapping hardware. It's built to mountain-bike pedal standards, which typically means a wider platform than road-oriented pedals: useful if you want a bit more foot support on the flat side during longer sessions.",
     affiliateUrl: "https://www.amazon.com/dp/B0BYJYDLG6?tag=pilatescollective-20",
     tag: "Best Flat/Clip Combo",
   },
@@ -90,7 +90,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Best Clip-In Pedals for Spin Bikes (2026): SPD vs Delta",
-      "description": "Clip-in pedals, cleats and cages for indoor cycling compared — SPD versus Delta standards, Peloton conversions, thread sizes and release tension.",
+      "description": "Clip-in pedals, cleats and cages for indoor cycling compared: SPD versus Delta standards, Peloton conversions, thread sizes and release tension.",
       "url": "https://pilatescollectiveclub.com/blog/best-clip-in-pedals-for-spin-bike",
       "datePublished": "2026-09-14",
       "dateModified": "2026-10-20",
@@ -125,8 +125,8 @@ const jsonLd = {
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "SPD or Delta for indoor cycling?", "acceptedAnswer": { "@type": "Answer", "text": "SPD for almost everyone. The SPD cleat is small and sits recessed into the sole, so you can walk normally from the bike to anywhere else — a Delta or LOOK road cleat protrudes and makes walking awkward and slippery. SPD pedals are also usually double-sided, so you can clip in without flipping the pedal to find the right face. Delta exists on indoor bikes mainly because Peloton chose it; it offers a slightly larger contact platform, which matters for long road rides and very little for a 45-minute studio class. If your studio mandates a standard, follow the studio." } },
-        { "@type": "Question", "name": "Will any pedals fit my spin bike?", "acceptedAnswer": { "@type": "Answer", "text": "Almost certainly, provided the spindle is 9/16 inch, which is the standard on essentially every indoor bike including Peloton. The narrower 1/2 inch size exists on some very old or department-store machines, so check if your bike is unusual. There is nothing proprietary about a Peloton crank, which is why SPD conversion is straightforward. Remember the left pedal is reverse-threaded — it tightens anticlockwise — and you will need either a 15mm pedal spanner or a 6mm Allen key depending on the pedal design." } },
+        { "@type": "Question", "name": "SPD or Delta for indoor cycling?", "acceptedAnswer": { "@type": "Answer", "text": "SPD for almost everyone. The SPD cleat is small and sits recessed into the sole, so you can walk normally from the bike to anywhere else: a Delta or LOOK road cleat protrudes and makes walking awkward and slippery. SPD pedals are also usually double-sided, so you can clip in without flipping the pedal to find the right face. Delta exists on indoor bikes mainly because Peloton chose it; it offers a slightly larger contact platform, which matters for long road rides and very little for a 45-minute studio class. If your studio mandates a standard, follow the studio." } },
+        { "@type": "Question", "name": "Will any pedals fit my spin bike?", "acceptedAnswer": { "@type": "Answer", "text": "Almost certainly, provided the spindle is 9/16 inch, which is the standard on essentially every indoor bike including Peloton. The narrower 1/2 inch size exists on some very old or department-store machines, so check if your bike is unusual. There is nothing proprietary about a Peloton crank, which is why SPD conversion is straightforward. Remember the left pedal is reverse-threaded, it tightens anticlockwise, and you will need either a 15mm pedal spanner or a 6mm Allen key depending on the pedal design." } },
         { "@type": "Question", "name": "Do clip-in pedals come with cleats?", "acceptedAnswer": { "@type": "Answer", "text": "It varies by listing, and this is a common source of frustration. Some SPD-compatible and multi-cleat pedals include cleats in the box; others do not, and some listings show cleats in the photograph without actually including them. Read the product specification rather than trusting the image, and check the seller's listing details before ordering if cleats matter to your budget." } },
         { "@type": "Question", "name": "Are clip-in pedals worth it for indoor cycling?", "acceptedAnswer": { "@type": "Answer", "text": "For anything more than occasional riding, yes. Being attached to the pedal lets you apply force through the upstroke as well as the downstroke, which distributes work across more muscle and makes high-cadence efforts noticeably smoother. It also stops the foot sliding forward on the pedal, which is what causes hot spots and numbness in trainers. That said, a well-adjusted toe cage delivers a good share of the same benefit, and is the better choice for shared bikes or anyone who wants to get a foot down instantly." } },
       ],
@@ -156,7 +156,7 @@ export default function BestClipInPedalsForSpinBikePage() {
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              One decision governs this category: SPD or Delta. Choose SPD unless your studio tells you otherwise — the cleat sits recessed in the sole so you can walk normally, and the pedals are double-sided so you clip in without hunting for the right face. Delta is on indoor bikes largely because Peloton chose it, and any 9/16 inch SPD pedal will replace it. Nothing about a Peloton crank is proprietary.
+              One decision governs this category: SPD or Delta. Choose SPD unless your studio tells you otherwise: the cleat sits recessed in the sole so you can walk normally, and the pedals are double-sided so you clip in without hunting for the right face. Delta is on indoor bikes largely because Peloton chose it, and any 9/16 inch SPD pedal will replace it. Nothing about a Peloton crank is proprietary.
             </p>
           </div>
         </section>
@@ -198,7 +198,7 @@ export default function BestClipInPedalsForSpinBikePage() {
                   "Cleats are often sold separately. Read the specification rather than trusting the product photo.",
                   "Set release tension to the loosest usable setting while you learn, then tighten it as confidence grows.",
                   "Practise clipping out on both sides before your first class, holding onto something solid.",
-                  "Cleats are a wear item — replace them when release starts feeling vague, typically once a year with regular riding.",
+                  "Cleats are a wear item: replace them when release starts feeling vague, typically once a year with regular riding.",
                 ].map((tip, i) => (
                   <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                     <span className="font-semibold" style={{ color: "#8b4a31" }}>⚠</span>
@@ -212,8 +212,8 @@ export default function BestClipInPedalsForSpinBikePage() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "SPD or Delta for indoor cycling?", a: "SPD for almost everyone. The SPD cleat is small and sits recessed into the sole, so you can walk normally from the bike to anywhere else — a Delta or LOOK road cleat protrudes and makes walking awkward and slippery. SPD pedals are also usually double-sided, so you can clip in without flipping the pedal to find the right face. Delta exists on indoor bikes mainly because Peloton chose it; it offers a slightly larger contact platform, which matters for long road rides and very little for a 45-minute studio class. If your studio mandates a standard, follow the studio." },
-                  { q: "Will any pedals fit my spin bike?", a: "Almost certainly, provided the spindle is 9/16 inch, which is the standard on essentially every indoor bike including Peloton. The narrower 1/2 inch size exists on some very old or department-store machines, so check if your bike is unusual. There is nothing proprietary about a Peloton crank, which is why SPD conversion is straightforward. Remember the left pedal is reverse-threaded — it tightens anticlockwise — and you will need either a 15mm pedal spanner or a 6mm Allen key depending on the pedal design." },
+                  { q: "SPD or Delta for indoor cycling?", a: "SPD for almost everyone. The SPD cleat is small and sits recessed into the sole, so you can walk normally from the bike to anywhere else: a Delta or LOOK road cleat protrudes and makes walking awkward and slippery. SPD pedals are also usually double-sided, so you can clip in without flipping the pedal to find the right face. Delta exists on indoor bikes mainly because Peloton chose it; it offers a slightly larger contact platform, which matters for long road rides and very little for a 45-minute studio class. If your studio mandates a standard, follow the studio." },
+                  { q: "Will any pedals fit my spin bike?", a: "Almost certainly, provided the spindle is 9/16 inch, which is the standard on essentially every indoor bike including Peloton. The narrower 1/2 inch size exists on some very old or department-store machines, so check if your bike is unusual. There is nothing proprietary about a Peloton crank, which is why SPD conversion is straightforward. Remember the left pedal is reverse-threaded, it tightens anticlockwise, and you will need either a 15mm pedal spanner or a 6mm Allen key depending on the pedal design." },
                   { q: "Do clip-in pedals come with cleats?", a: "It varies by listing, and this is a common source of frustration. Some SPD-compatible and multi-cleat pedals include cleats in the box; others do not, and some listings show cleats in the photograph without actually including them. Read the product specification rather than trusting the image, and check the seller's listing details before ordering if cleats matter to your budget." },
                   { q: "Are clip-in pedals worth it for indoor cycling?", a: "For anything more than occasional riding, yes. Being attached to the pedal lets you apply force through the upstroke as well as the downstroke, which distributes work across more muscle and makes high-cadence efforts noticeably smoother. It also stops the foot sliding forward on the pedal, which is what causes hot spots and numbness in trainers. That said, a well-adjusted toe cage delivers a good share of the same benefit, and is the better choice for shared bikes or anyone who wants to get a foot down instantly." },
                 ].map((item) => (

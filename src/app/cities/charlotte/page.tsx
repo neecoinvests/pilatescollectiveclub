@@ -12,7 +12,7 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Studios in Charlotte, NC (2026)",
-  description: "The best Pilates studios in Charlotte — reformer and Lagree studios in South End, classical studios in Myers Park, Dilworth and Elizabeth. Six verified picks, 2026.",
+  description: "The best Pilates studios in Charlotte: reformer and Lagree studios in South End, classical studios in Myers Park, Dilworth and Elizabeth. Six verified picks, 2026.",
   robots: {
     index: true,
     follow: true,
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Best Pilates Studios in Charlotte, NC (2026)",
     description:
-      "Six curated Pilates studios in Charlotte — South End reformer boutiques to Myers Park classical method. Verified 2026.",
+      "Six curated Pilates studios in Charlotte: South End reformer boutiques to Myers Park classical method. Verified 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/charlotte",
     images: [
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Best Pilates Studios in Charlotte (2026)",
     description:
-      "The 6 best Pilates studios in Charlotte — curated, verified, and reviewed for 2026.",
+      "The 6 best Pilates studios in Charlotte: curated, verified, and reviewed for 2026.",
     images: [
       "https://images.unsplash.com/photo-1563387852576-964bc31b73af?w=1200&q=80",
     ],
@@ -55,20 +55,20 @@ const STUDIOS = [
     name: "Strength and Wellness Collective",
     neighborhood: "West Morehead / Uptown edge",
     priceLevel: "$$$",
-    review: "Strength and Wellness Collective on West Morehead Street tops ClassPass's ranking of Charlotte reformer studios, with a 4.8 rating from close to 10,000 reviews. Its carriage-based classes are Lagree Method on the Megaformer, alongside strength and yoga circuits and a hybrid Mega+ format — genuine strength work inside a broader wellness studio.",
-    caveat: "the reformer work here is Lagree on the Megaformer rather than traditional Pilates — slower, heavier and sweatier.",
+    review: "Strength and Wellness Collective on West Morehead Street tops ClassPass's ranking of Charlotte reformer studios, with a 4.8 rating from close to 10,000 reviews. Its carriage-based classes are Lagree Method on the Megaformer, alongside strength and yoga circuits and a hybrid Mega+ format: genuine strength work inside a broader wellness studio.",
+    caveat: "the reformer work here is Lagree on the Megaformer rather than traditional Pilates: slower, heavier and sweatier.",
     address: "628 W Morehead St, Charlotte, NC 28208",
     bestFor: "Lagree Megaformer strength training with yoga and strength circuits",
     signatureClass: "Mega+ (Megaformer hybrid)",
-    bookingTip: "With this many regulars, prime-time classes fill fast — book a few days ahead.",
+    bookingTip: "With this many regulars, prime-time classes fill fast: book a few days ahead.",
   },
   {
     number: "2",
-    name: "BK Pilates — South End",
+    name: "BK Pilates South End",
     neighborhood: "South End",
     priceLevel: "$$$",
-    review: "BK Pilates runs studios across the Carolinas — South End, SouthPark and Optimist Park in Charlotte, plus Concord and Mount Pleasant, SC. The South End studio on South Boulevard sits in what has become Charlotte's Pilates corridor, and its signature group reformer classes build on classical Pilates principles for all levels.",
-    caveat: "a growing multi-studio brand — consistent, but less intimate than the private-session studios on this list.",
+    review: "BK Pilates runs studios across the Carolinas: South End, SouthPark and Optimist Park in Charlotte, plus Concord and Mount Pleasant, SC. The South End studio on South Boulevard sits in what has become Charlotte's Pilates corridor, and its signature group reformer classes build on classical Pilates principles for all levels.",
+    caveat: "a growing multi-studio brand: consistent, but less intimate than the private-session studios on this list.",
     address: "1520 South Blvd, Suite 120, Charlotte, NC 28203",
     bestFor: "Group reformer classes in South End, multi-location access",
     signatureClass: "Signature Group Reformer",
@@ -92,11 +92,11 @@ const STUDIOS = [
     neighborhood: "Myers Park",
     priceLevel: "$$$",
     review: "Charlotte Pilates is a boutique Myers Park studio on Randolph Road, run by owner Michele and a team of certified instructors. It offers classical reformer Pilates through private sessions, semi-private sessions for couples and friends, small groups of three to six, and virtual sessions, and it is rated 5.0 on Google (from a small number of reviews).",
-    caveat: "the review count is small — the rating is a promising signal rather than robust proof.",
+    caveat: "the review count is small: the rating is a promising signal rather than robust proof.",
     address: "2711 Randolph Rd, Ste 509, Charlotte, NC 28207",
     bestFor: "Classical reformer in private and small-group formats",
     signatureClass: "Classical Reformer (small group)",
-    bookingTip: "Small groups cap at six — book recurring slots once you find a time that works.",
+    bookingTip: "Small groups cap at six: book recurring slots once you find a time that works.",
   },
   {
     number: "5",
@@ -104,7 +104,7 @@ const STUDIOS = [
     neighborhood: "Elizabeth",
     priceLevel: "$$",
     review: "Pilates Body Shaping on East 8th Street in the Elizabeth neighbourhood says it teaches Pilates as it was originally developed by Joseph Pilates, in the classical Romana's Pilates lineage. It offers mat and tower classes as well as private lessons, close to Uptown.",
-    caveat: "a classical studio — expect traditional repertoire and precision rather than a modern sculpt class.",
+    caveat: "a classical studio: expect traditional repertoire and precision rather than a modern sculpt class.",
     address: "1940 E 8th St, Charlotte, NC 28204",
     bestFor: "Classical mat and tower work near Uptown",
     signatureClass: "Classical Tower",
@@ -116,22 +116,22 @@ const STUDIOS = [
     neighborhood: "Dilworth",
     priceLevel: "$$$",
     review: "Clinging Grace Pilates is a fully equipped private studio in Dilworth run by Julia Hartstein, and one of two Charlotte studios teaching in the classical Romana's Pilates lineage. Sessions are private, so the programme is built around you from the first session.",
-    caveat: "private-session only — not the place for drop-in group classes; we could not confirm the street address independently, so contact the studio for directions.",
-    address: "—",
+    caveat: "private-session only, not the place for drop-in group classes; we could not confirm the street address independently, so contact the studio for directions.",
+    address: "",
     bestFor: "Private classical Pilates on the full apparatus",
     signatureClass: "Private Classical Session",
-    bookingTip: "Contact the studio directly to book — private studios rarely release slots through class apps.",
+    bookingTip: "Contact the studio directly to book: private studios rarely release slots through class apps.",
   },
 ];
 
 const BOOKING_TIPS = [
   {
     heading: "Time your visit around Charlotte's mild spring",
-    body: "Charlotte's spring (March–May) is ideal for visiting — mild temperatures, in-bloom dogwoods, and studios running seasonal new-client specials. Summer heat sends residents indoors, making July and August peak booking months, so plan further ahead then.",
+    body: "Charlotte's spring (March–May) is ideal for visiting: mild temperatures, in-bloom dogwoods, and studios running seasonal new-client specials. Summer heat sends residents indoors, making July and August peak booking months, so plan further ahead then.",
   },
   {
     heading: "Many studios offer intro packages for new clients",
-    body: "Most Charlotte studios offer a first-week or first-month introductory rate — typically three reformer classes for the price of one. These are the best way to audition a studio before committing to a membership.",
+    body: "Most Charlotte studios offer a first-week or first-month introductory rate, typically three reformer classes for the price of one. These are the best way to audition a studio before committing to a membership.",
   },
   {
     heading: "Ask about corporate wellness partnerships",
@@ -139,11 +139,11 @@ const BOOKING_TIPS = [
   },
   {
     heading: "Arrive 10 minutes early for equipment orientation",
-    body: "Reformers vary slightly between brands and studios. Arriving early lets you adjust footbar height, headrest angle, and spring tension before class starts — critical for getting full value from the session.",
+    body: "Reformers vary slightly between brands and studios. Arriving early lets you adjust footbar height, headrest angle, and spring tension before class starts: critical for getting full value from the session.",
   },
   {
     heading: "Grip socks are required at every Charlotte studio",
-    body: "All Charlotte studios require grip socks — bare feet on the reformer are a safety and hygiene issue. Pack a pair; studio socks are available for purchase but cost more than bringing your own.",
+    body: "All Charlotte studios require grip socks: bare feet on the reformer are a safety and hygiene issue. Pack a pair; studio socks are available for purchase but cost more than bringing your own.",
   },
 ];
 
@@ -156,7 +156,7 @@ const NEIGHBORHOODS = [
   {
     name: "Myers Park",
     description:
-      "An elegant, tree-lined neighborhood south of Uptown. Home to classical studios and wellness practitioners in beautifully restored early 20th-century homes. Quiet and unhurried — perfect for focused Pilates sessions.",
+      "An elegant, tree-lined neighborhood south of Uptown. Home to classical studios and wellness practitioners in beautifully restored early 20th-century homes. Quiet and unhurried, perfect for focused Pilates sessions.",
   },
   {
     name: "NoDa (North Davidson)",
@@ -166,7 +166,7 @@ const NEIGHBORHOODS = [
   {
     name: "Plaza Midwood",
     description:
-      "A walkable, eclectic neighborhood popular with young professionals and creatives. Small, owner-operated studios thrive here alongside independent coffee shops and restaurants — great for a full morning of movement and café culture.",
+      "A walkable, eclectic neighborhood popular with young professionals and creatives. Small, owner-operated studios thrive here alongside independent coffee shops and restaurants, great for a full morning of movement and café culture.",
   },
 ];
 
@@ -179,13 +179,13 @@ const GEAR = [
   },
   {
     name: "Pilates Mat (6mm)",
-    note: "Our pick: Manduka PRO Yoga & Pilates Mat (6mm). For mat classes at Myers Park Pilates and Plaza Midwood — slightly thicker than a yoga mat for joint comfort.",
+    note: "Our pick: Manduka PRO Yoga & Pilates Mat (6mm). For mat classes at Myers Park Pilates and Plaza Midwood: slightly thicker than a yoga mat for joint comfort.",
     price: "$144.00",
     url: "https://www.amazon.com/dp/B0066T7I54?tag=pilatescollective-20",
   },
   {
     name: "Magic Circle",
-    note: "Our pick: Balanced Body Ultra-Fit Circle (15-inch). Used in classical mat sequences — great to own if you're practicing at Myers Park or following a classical program at home.",
+    note: "Our pick: Balanced Body Ultra-Fit Circle (15-inch). Used in classical mat sequences, great to own if you're practicing at Myers Park or following a classical program at home.",
     price: "$35.00",
     url: "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20",
   },
@@ -197,16 +197,16 @@ const GEAR = [
   },
   {
     name: "High-Density Foam Roller",
-    note: "Our pick: OPTP PRO-Roller Foam Roller (36-inch). Ideal for thoracic mobility work — a great complement to Dilworth Pilates' therapeutic programming.",
+    note: "Our pick: OPTP PRO-Roller Foam Roller (36-inch). Ideal for thoracic mobility work: a great complement to Dilworth Pilates' therapeutic programming.",
     price: "$62.99",
     url: "https://www.amazon.com/dp/B002C9EX14?tag=pilatescollective-20",
   },
 ];
 
 const HOME_REFORMERS = [
-  { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work — three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
+  { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work: three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
   { tag: "Mid-Range Pick", name: "AeroPilates Pro XP 557", note: "AeroPilates' top-of-the-range home reformer, a step up for practitioners training several times a week.", price: "$1,329.99", url: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20" },
-  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order — an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
+  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
 ];
 
 const RELATED_CITIES = [
@@ -240,7 +240,7 @@ const FURTHER_READING = [
   {
     title: "How to Choose a Pilates Instructor",
     excerpt:
-      "Certifications, teaching style, and lineage — everything you need to evaluate a new instructor before committing to a package.",
+      "Certifications, teaching style, and lineage: everything you need to evaluate a new instructor before committing to a package.",
     href: "/blog/how-to-choose-a-pilates-instructor",
     category: "Guides",
     readTime: "7 min read",
@@ -251,7 +251,7 @@ const FURTHER_READING = [
   {
     title: "Classical vs Contemporary Pilates",
     excerpt:
-      "What actually separates classical and contemporary methods — and how to decide which approach suits your body and goals.",
+      "What actually separates classical and contemporary methods, and how to decide which approach suits your body and goals.",
     href: "/blog/classical-vs-contemporary-pilates",
     category: "Education",
     readTime: "6 min read",
@@ -262,7 +262,7 @@ const FURTHER_READING = [
 ];
 
 const CITY_FAQS = [
-  { q: "What are the best Pilates studios in Charlotte?", a: "Our 6 curated picks are Strength and Wellness Collective (West Morehead / Uptown edge), BK Pilates — South End (South End), Iron Butterfly Pilates (South End, Atherton Lofts), Charlotte Pilates (Myers Park), Pilates Body Shaping (Elizabeth) and Clinging Grace Pilates (Dilworth). Each listing above covers what the studio is best for, its signature class and a booking tip." },
+  { q: "What are the best Pilates studios in Charlotte?", a: "Our 6 curated picks are Strength and Wellness Collective (West Morehead / Uptown edge), BK Pilates: South End (South End), Iron Butterfly Pilates (South End, Atherton Lofts), Charlotte Pilates (Myers Park), Pilates Body Shaping (Elizabeth) and Clinging Grace Pilates (Dilworth). Each listing above covers what the studio is best for, its signature class and a booking tip." },
   { q: "Which Charlotte neighbourhoods are best for Pilates?", a: "This guide covers South End, Myers Park, NoDa (North Davidson) and Plaza Midwood. South End: Charlotte's most dynamic neighborhood for fitness and wellness." },
   { q: "What should I know about booking Pilates classes in Charlotte?", a: "Time your visit around Charlotte's mild spring. Charlotte's spring (March–May) is ideal for visiting, mild temperatures, in-bloom dogwoods, and studios running seasonal new-client specials." },
   { q: "What should I bring to a Pilates class in Charlotte?", a: "Grip socks are required at most reformer studios. Our gear list for Charlotte covers Pilates grip socks, Pilates mat (6mm), magic circle, fabric resistance bands and high-density foam roller." },
@@ -333,7 +333,7 @@ export default function CharlottePage() {
               Charlotte has emerged as one of the Southeast's most dynamic Pilates cities. From South End's
               reformer and Lagree studios to the classical Romana's-lineage studios of Myers Park, Dilworth and Elizabeth, the Queen City
               offers serious Pilates across every style and budget. We've checked every studio's location and details
-              against public listings and selected six that stand out — whether you're a first-timer or
+              against public listings and selected six that stand out, whether you're a first-timer or
               a seasoned mover relocating from another city.
             </p>
           </div>
@@ -502,7 +502,7 @@ export default function CharlottePage() {
           </div>
         </section>
 
-        <CTASection title="Find Pilates near you" subtitle="Use our AI Finder to discover studios in any city — coming soon." showSearch searchPlaceholder="Ask: best reformer Pilates in Charlotte…" />
+        <CTASection title="Find Pilates near you" subtitle="Use our AI Finder to discover studios in any city: coming soon." showSearch searchPlaceholder="Ask: best reformer Pilates in Charlotte…" />
       </main>
       <Footer />
     </>

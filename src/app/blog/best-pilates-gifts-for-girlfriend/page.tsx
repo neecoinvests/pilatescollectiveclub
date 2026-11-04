@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "Best Pilates Gifts for Your Girlfriend (2026)",
-    description: "Lululemon, Alo, Manduka, and more — the pilates gifts she'll love and actually use.",
+    description: "Lululemon, Alo, Manduka, and more: the pilates gifts she'll love and actually use.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-gifts-for-girlfriend",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/stitch-retail-activewear.png", width: 1200, height: 630, alt: "Best Pilates Gifts for Girlfriend 2026" }],
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Gifts for Your Girlfriend (2026)",
-    description: "The pilates gifts she'll genuinely love — leggings, mats, accessories and more.",
+    description: "The pilates gifts she'll genuinely love: leggings, mats, accessories and more.",
     images: ["https://pilatescollectiveclub.com/pictures/stitch-retail-activewear.png"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/best-pilates-gifts-for-girlfriend" },
@@ -45,7 +45,7 @@ const PRODUCTS = [
     name: "Lululemon Align High-Rise Legging 25\"",
     price: "$98.00",
     verdict: "The Gold Standard Gift",
-    description: "If she does pilates, she either owns these or wants them. The Align is Lululemon's signature pilates legging — made from their proprietary Nulu fabric, which is so light and soft it genuinely disappears during practice. The 25-inch length is the most popular for reformer work. High-waisted with zero waistband roll, fully opaque in every colour, and available in around 30 shades. If you're unsure of her size, go up one — the Align runs slightly small and exchanges are seamless at any Lululemon store. This is the gift that lands every time.",
+    description: "If she does pilates, she either owns these or wants them. The Align is Lululemon's signature pilates legging, made from their proprietary Nulu fabric, which is so light and soft it genuinely disappears during practice. The 25-inch length is the most popular for reformer work. High-waisted with zero waistband roll, fully opaque in every colour, and available in around 30 shades. If you're unsure of her size, go up one: the Align runs slightly small and exchanges are seamless at any Lululemon store. This is the gift that lands every time.",
     affiliateUrl: "https://www.amazon.com/dp/B08M8ZTKJS?tag=pilatescollective-20",
   },
   {
@@ -53,7 +53,7 @@ const PRODUCTS = [
     name: "Alo Yoga Airlift 7/8 Legging",
     price: "$114",
     verdict: "The Luxury Upgrade",
-    description: "Alo's Airlift is the legging that has taken over reformer studios from New York to Los Angeles. The Airlift fabric delivers precise, sculpting compression that looks incredible and moves even better. The wide waistband stays put through every footbar press, teaser, and long-stretch. Available in Alo's signature neutral palette — bone, espresso, midnight — these are the leggings she'll wear from class to brunch without changing. A genuinely impressive gift that signals you understand what she cares about. Not sold on Amazon: this link goes to Alo Yoga's own site.",
+    description: "Alo's Airlift is the legging that has taken over reformer studios from New York to Los Angeles. The Airlift fabric delivers precise, sculpting compression that looks incredible and moves even better. The wide waistband stays put through every footbar press, teaser, and long-stretch. Available in Alo's signature neutral palette (bone, espresso, midnight) these are the leggings she'll wear from class to brunch without changing. A genuinely impressive gift that signals you understand what she cares about. Not sold on Amazon: this link goes to Alo Yoga's own site.",
     affiliateUrl: "https://www.aloyoga.com",
   },
   {
@@ -61,7 +61,7 @@ const PRODUCTS = [
     name: "Manduka PRO Yoga & Pilates Mat",
     price: "$144.00",
     verdict: "Best Mat Gift",
-    description: "The Manduka PRO is the mat that professional pilates instructors buy for themselves. It is 6mm thick for joint support, made from a high-density closed-cell PVC that resists moisture and never absorbs sweat, and carries a lifetime guarantee — Manduka will replace it free if it ever wears out. The non-slip surface grips even during dynamic rolling and footwork. It weighs 7.5 lbs, so it stays put. If she's been practicing on a cheap studio mat, this will transform her home practice. An heirloom-grade gift.",
+    description: "The Manduka PRO is the mat that professional pilates instructors buy for themselves. It is 6mm thick for joint support, made from a high-density closed-cell PVC that resists moisture and never absorbs sweat, and carries a lifetime guarantee: Manduka will replace it free if it ever wears out. The non-slip surface grips even during dynamic rolling and footwork. It weighs 7.5 lbs, so it stays put. If she's been practicing on a cheap studio mat, this will transform her home practice. An heirloom-grade gift.",
     affiliateUrl: "https://www.amazon.com/dp/B0066T7I54?tag=pilatescollective-20",
   },
   {
@@ -69,7 +69,7 @@ const PRODUCTS = [
     name: "Lululemon Everywhere Belt Bag Large 2L",
     price: "$38",
     verdict: "Best Pilates Bag Gift",
-    description: "The Lululemon belt bag has become the unofficial pilates studio accessory — nearly every practitioner has one clipped to their bag or hung on the studio hook. The large 2L version fits her phone, keys, cards, lip balm, and a snack. It's made from a water-repellent ripstop fabric, has a quick-access front zip, and comes in a wide range of seasonal colours. At $48 it's a thoughtful gift at a very reasonable price point — and she will use it every single day. Not sold on Amazon: this link goes to Lululemon's own site.",
+    description: "The Lululemon belt bag has become the unofficial pilates studio accessory: nearly every practitioner has one clipped to their bag or hung on the studio hook. The large 2L version fits her phone, keys, cards, lip balm, and a snack. It's made from a water-repellent ripstop fabric, has a quick-access front zip, and comes in a wide range of seasonal colours. At $48 it's a thoughtful gift at a very reasonable price point, and she will use it every single day. Not sold on Amazon: this link goes to Lululemon's own site.",
     affiliateUrl: "https://shop.lululemon.com",
   },
   {
@@ -77,7 +77,7 @@ const PRODUCTS = [
     name: "ToeSox Half-Toe Grip Socks",
     price: "$16.00",
     verdict: "Essential Studio Accessory",
-    description: "Studios require grip socks — no exceptions. ToeSox are the brand that most instructors and practitioners choose when they're spending their own money. The half-toe design exposes the toes for footbar work and gives full proprioceptive feedback on the carriage. The Bellarina style in particular has become a cult favourite in pilates circles. Available in multi-packs in every colour. These make an excellent stocking stuffer or add-on gift that she'll genuinely appreciate.",
+    description: "Studios require grip socks: no exceptions. ToeSox are the brand that most instructors and practitioners choose when they're spending their own money. The half-toe design exposes the toes for footbar work and gives full proprioceptive feedback on the carriage. The Bellarina style in particular has become a cult favourite in pilates circles. Available in multi-packs in every colour. These make an excellent stocking stuffer or add-on gift that she'll genuinely appreciate.",
     affiliateUrl: "https://www.amazon.com/dp/B00VLMY04S?tag=pilatescollective-20",
   },
   {
@@ -85,23 +85,23 @@ const PRODUCTS = [
     name: "Theraband Professional Resistance Band Set",
     price: "$19.47",
     verdict: "Best Training Accessory",
-    description: "Theraband is the clinical standard in physical therapy and Pilates training — the brand that actual physiotherapists prescribe and the bands most certified Pilates instructors keep in their kit. The professional set includes six resistance levels from yellow (light) to black (extra-heavy). Perfect for at-home pilates practice, pre-class warm-up, and post-class stretching. At $26, this is the highest-value-per-dollar gift on this list — she'll use these for years.",
+    description: "Theraband is the clinical standard in physical therapy and Pilates training: the brand that actual physiotherapists prescribe and the bands most certified Pilates instructors keep in their kit. The professional set includes six resistance levels from yellow (light) to black (extra-heavy). Perfect for at-home pilates practice, pre-class warm-up, and post-class stretching. At $26, this is the highest-value-per-dollar gift on this list: she'll use these for years.",
     affiliateUrl: "https://www.amazon.com/dp/B07RF9FYM6?tag=pilatescollective-20",
   },
 ];
 
 const CRITERIA = [
-  { heading: "Her practice level", body: "Beginners need fundamentals — a mat, grip socks, a resistance band set. A regular practitioner already has these; invest in a quality upgrade like Lululemon leggings or a Manduka PRO mat." },
+  { heading: "Her practice level", body: "Beginners need fundamentals: a mat, grip socks, a resistance band set. A regular practitioner already has these; invest in a quality upgrade like Lululemon leggings or a Manduka PRO mat." },
   { heading: "Studio or home practice?", body: "Studio practitioners use grip socks every class, carry a small bag, and care about leggings. Home practitioners get the most value from a quality mat, resistance bands, and a foam roller." },
-  { heading: "Safe vs. specific gifts", body: "Leggings and mats require knowing her size. Grip socks, resistance bands, belt bags, and foam rollers are size-independent — ideal if you want a safe pick." },
+  { heading: "Safe vs. specific gifts", body: "Leggings and mats require knowing her size. Grip socks, resistance bands, belt bags, and foam rollers are size-independent, ideal if you want a safe pick." },
   { heading: "Budget guide", body: "Under $30: grip socks or a resistance band set. $30–$70: a belt bag or sports bra. $70–$120: Lululemon leggings. Over $120: a Manduka PRO mat, Alo Airlift leggings or a Theragun." },
 ];
 
 const FAQ = [
   { q: "What is the best pilates gift for a girlfriend?", a: "The Lululemon Align Legging ($98) is the most universally loved pilates gift for women. If she practices pilates and doesn't already own a pair, this is the gift she's quietly wanted. They're the gold standard for comfort and performance in studio pilates." },
   { q: "What do pilates girls want as gifts?", a: "Pilates practitioners consistently want quality leggings (Lululemon Align, Alo Airlift), a professional mat (Manduka PRO), grip socks (ToeSox), a studio bag (Lululemon belt bag), and resistance bands. These are items she uses every class that make a real difference." },
-  { q: "How much should I spend on a pilates gift for my girlfriend?", a: "Meaningful pilates gifts start at $18 (grip socks) and scale to $144 (Manduka PRO mat). For a girlfriend, $50–$100 is a thoughtful budget — it covers quality leggings, a studio bag, or a premium mat. Grip socks and bands make excellent add-on gifts at any budget." },
-  { q: "What size should I buy for pilates leggings?", a: "Lululemon Align leggings run slightly small — if you're between sizes or unsure, go up one. Alo Airlift runs true to size. If you don't know her size, a Lululemon gift card lets her choose in-store with their free size consultation. For socks: most brands offer S/M (US W 5–8) and M/L (US W 8–11)." },
+  { q: "How much should I spend on a pilates gift for my girlfriend?", a: "Meaningful pilates gifts start at $18 (grip socks) and scale to $144 (Manduka PRO mat). For a girlfriend, $50–$100 is a thoughtful budget: it covers quality leggings, a studio bag, or a premium mat. Grip socks and bands make excellent add-on gifts at any budget." },
+  { q: "What size should I buy for pilates leggings?", a: "Lululemon Align leggings run slightly small, if you're between sizes or unsure, go up one. Alo Airlift runs true to size. If you don't know her size, a Lululemon gift card lets her choose in-store with their free size consultation. For socks: most brands offer S/M (US W 5–8) and M/L (US W 8–11)." },
 ];
 
 const RELATED = [
@@ -116,7 +116,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Best Pilates Gifts for Your Girlfriend (2026)",
-      "description": "The best pilates gifts for your girlfriend — from Lululemon leggings and Manduka mats to luxury accessories she'll actually use every class.",
+      "description": "The best pilates gifts for your girlfriend, from Lululemon leggings and Manduka mats to luxury accessories she'll actually use every class.",
       "url": "https://pilatescollectiveclub.com/blog/best-pilates-gifts-for-girlfriend",
       "image": "https://pilatescollectiveclub.com/pictures/stitch-retail-activewear.png",
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -169,7 +169,7 @@ export default function Page() {
           <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
           <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
           <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-            If she does pilates, she has opinions about her gear — even if she's never said so out loud. The right gift isn't a candle or a journal. It's the leggings she's been adding to her cart for three months, the mat she's been eyeing at the studio, or the bag that every instructor seems to have. This guide covers six picks the pilates community consistently loves, ranked by what actually lands — with buying advice to help you choose the right one for her.
+            If she does pilates, she has opinions about her gear, even if she's never said so out loud. The right gift isn't a candle or a journal. It's the leggings she's been adding to her cart for three months, the mat she's been eyeing at the studio, or the bag that every instructor seems to have. This guide covers six picks the pilates community consistently loves, ranked by what actually lands, with buying advice to help you choose the right one for her.
           </p>
         </div>
       </section>

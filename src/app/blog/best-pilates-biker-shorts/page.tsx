@@ -12,19 +12,19 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Biker Shorts (2026): Top Picks",
-  description: "The best biker shorts for Pilates — Lululemon Align, Alo Airlift, and more compared on compression, waistband stability, and reformer performance.",
+  description: "The best biker shorts for Pilates: Lululemon Align, Alo Airlift, and more compared on compression, waistband stability, and reformer performance.",
   keywords: ["best pilates biker shorts", "pilates biker shorts 2026", "best shorts for reformer pilates", "lululemon align shorts pilates", "alo airlift shorts pilates", "high waist biker shorts pilates", "pilates bike shorts review", "best activewear shorts pilates"],
   openGraph: {
     title: "Best Pilates Biker Shorts (2026): Compared & Ranked",
-    description: "The best biker shorts for Pilates — compared on reformer performance and studio comfort.",
+    description: "The best biker shorts for Pilates: compared on reformer performance and studio comfort.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-biker-shorts",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg", width: 1200, height: 630, alt: "Best Pilates Biker Shorts — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg", width: 1200, height: 630, alt: "Best Pilates Biker Shorts: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Biker Shorts (2026)",
-    description: "The best biker shorts for Pilates — compared and ranked.",
+    description: "The best biker shorts for Pilates: compared and ranked.",
     images: ["https://pilatescollectiveclub.com/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/best-pilates-biker-shorts" },
@@ -38,7 +38,7 @@ const PRODUCTS = [
     price: "From $68",
     verdict: "Best overall biker short",
     description:
-      "The Align Short is the single most popular biker short in reformer studios globally — and the praise is fully earned. The Nulu fabric is so lightweight and frictionless that it disappears during practice, allowing full proprioceptive focus without fabric distraction. The high-rise waistband stays perfectly anchored through hip flexion, leg circles, and rolling exercises, and the 6-inch inseam hits at a flattering position that works for all proportions. The fabric is completely opaque even under the low angles and bright lighting typical of boutique studio environments. Available in a comprehensive range of neutral and seasonal colourways throughout the year. Not sold on Amazon: this link goes to Lululemon's own site.",
+      "The Align Short is the single most popular biker short in reformer studios globally, and the praise is fully earned. The Nulu fabric is so lightweight and frictionless that it disappears during practice, allowing full proprioceptive focus without fabric distraction. The high-rise waistband stays perfectly anchored through hip flexion, leg circles, and rolling exercises, and the 6-inch inseam hits at a flattering position that works for all proportions. The fabric is completely opaque even under the low angles and bright lighting typical of boutique studio environments. Available in a comprehensive range of neutral and seasonal colourways throughout the year. Not sold on Amazon: this link goes to Lululemon's own site.",
     affiliateUrl: "https://shop.lululemon.com",
     tag: "Editor's Pick",
   },
@@ -48,7 +48,7 @@ const PRODUCTS = [
     price: "From $62",
     verdict: "Best compression biker short",
     description:
-      "Alo's Biker Short provides a noticeably firmer compression than the Align — a quality that a significant number of reformer practitioners actively prefer for the supportive, body-aware feeling during footwork sequences and standing exercises. The Airlift fabric maintains its shape perfectly through an entire session and washes without pilling or sagging. The high-waist band is wide enough to provide genuine core support and coverage through forward-fold exercises, and the inseam length prevents any ride-up during reformer transitions. The clean matte finish photographs beautifully, which accounts for much of its visibility in the wider Pilates social media community. Not sold on Amazon: this link goes to Alo Yoga's own site.",
+      "Alo's Biker Short provides a noticeably firmer compression than the Align: a quality that a significant number of reformer practitioners actively prefer for the supportive, body-aware feeling during footwork sequences and standing exercises. The Airlift fabric maintains its shape perfectly through an entire session and washes without pilling or sagging. The high-waist band is wide enough to provide genuine core support and coverage through forward-fold exercises, and the inseam length prevents any ride-up during reformer transitions. The clean matte finish photographs beautifully, which accounts for much of its visibility in the wider Pilates social media community. Not sold on Amazon: this link goes to Alo Yoga's own site.",
     affiliateUrl: "https://www.aloyoga.com",
     tag: "Best Compression",
   },
@@ -58,7 +58,7 @@ const PRODUCTS = [
     price: "From $72",
     verdict: "Best for studio practitioners",
     description:
-      "Splits59 designs apparel specifically for studio Pilates and Barre, not adapted from running or cycling categories — and the Cora Short reflects that specialised intent. The high-waist construction is particularly clean, with a flat internal waistband that avoids any seam or hardware contact with the skin during floor exercises. The Supplex-blend fabric provides a mid-weight compression that strikes a balance between the featherlight Align and the firmer Alo, and the 5-inch inseam is precisely cut to avoid ride-up during the hip-flexion-heavy exercises that characterise reformer footwork.",
+      "Splits59 designs apparel specifically for studio Pilates and Barre, not adapted from running or cycling categories, and the Cora Short reflects that specialised intent. The high-waist construction is particularly clean, with a flat internal waistband that avoids any seam or hardware contact with the skin during floor exercises. The Supplex-blend fabric provides a mid-weight compression that strikes a balance between the featherlight Align and the firmer Alo, and the 5-inch inseam is precisely cut to avoid ride-up during the hip-flexion-heavy exercises that characterise reformer footwork.",
     affiliateUrl: "https://www.amazon.com/s?k=splits59+cora+high+waist+short&tag=pilatescollective-20",
     tag: "Studio Specialist",
   },
@@ -68,7 +68,7 @@ const PRODUCTS = [
     price: "From $65",
     verdict: "Best for extended sizing",
     description:
-      "Sweaty Betty's Stop Me Biker Short is the best option for practitioners who need extended sizing or find most biker shorts too short in the torso. The brand's size range extends to 3XL across its activewear line, and the Stop Me short features the same PowerForm fabric used in their flagship Power Legging — a firm, smoothing compression that provides excellent coverage through deep hip flexion. The wide waistband sits comfortably just below the natural waist and doesn't roll or fold during movement. A reliable daily-practice option from a brand with genuine expertise in performance activewear.",
+      "Sweaty Betty's Stop Me Biker Short is the best option for practitioners who need extended sizing or find most biker shorts too short in the torso. The brand's size range extends to 3XL across its activewear line, and the Stop Me short features the same PowerForm fabric used in their flagship Power Legging: a firm, smoothing compression that provides excellent coverage through deep hip flexion. The wide waistband sits comfortably just below the natural waist and doesn't roll or fold during movement. A reliable daily-practice option from a brand with genuine expertise in performance activewear.",
     affiliateUrl: "https://www.amazon.com/s?k=sweaty+betty+stop+me+biker+short&tag=pilatescollective-20",
     tag: "Best for Sizing",
   },
@@ -78,7 +78,7 @@ const PRODUCTS = [
     price: "From $58",
     verdict: "Best breathable option",
     description:
-      "Vuori's Daily Short uses a lighter, more breathable fabric than most competing biker shorts — a meaningful advantage for practitioners in heated studios, warm climates, or anyone who runs hot during vigorous reformer sessions. The fabric is moisture-wicking and quick-drying while remaining completely opaque. The fit is relaxed compared to compression-focused alternatives, which some practitioners find more comfortable for the sustained floor-based work in mat Pilates. The brand's design aesthetic is clean and understated, appropriate for both studio and everyday wear, making these shorts an investment that earns use well beyond class hours. Not sold on Amazon: this link goes to Vuori's own site.",
+      "Vuori's Daily Short uses a lighter, more breathable fabric than most competing biker shorts: a meaningful advantage for practitioners in heated studios, warm climates, or anyone who runs hot during vigorous reformer sessions. The fabric is moisture-wicking and quick-drying while remaining completely opaque. The fit is relaxed compared to compression-focused alternatives, which some practitioners find more comfortable for the sustained floor-based work in mat Pilates. The brand's design aesthetic is clean and understated, appropriate for both studio and everyday wear, making these shorts an investment that earns use well beyond class hours. Not sold on Amazon: this link goes to Vuori's own site.",
     affiliateUrl: "https://vuoriclothing.com",
     tag: "Best Breathability",
   },
@@ -100,7 +100,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Best Pilates Biker Shorts (2026): Compared & Ranked",
-      "description": "The best biker shorts for Pilates in 2026 — compared on reformer performance, compression, and studio comfort.",
+      "description": "The best biker shorts for Pilates in 2026: compared on reformer performance, compression, and studio comfort.",
       "url": "https://pilatescollectiveclub.com/blog/best-pilates-biker-shorts",
       "datePublished": "2026-05-21",
       "dateModified": "2026-10-20",
@@ -135,9 +135,9 @@ const jsonLd = {
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "Are biker shorts appropriate for reformer Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — biker shorts are widely worn in reformer studios. They offer more freedom of movement than leggings in some exercises, particularly anything involving hip flexion or seated work. The key requirement is a high-waist construction that stays in place during transitions and a fabric that is fully opaque through deep movements." } },
+        { "@type": "Question", "name": "Are biker shorts appropriate for reformer Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "Yes: biker shorts are widely worn in reformer studios. They offer more freedom of movement than leggings in some exercises, particularly anything involving hip flexion or seated work. The key requirement is a high-waist construction that stays in place during transitions and a fabric that is fully opaque through deep movements." } },
         { "@type": "Question", "name": "What inseam length is best for Pilates biker shorts?", "acceptedAnswer": { "@type": "Answer", "text": "5 to 7 inches is the standard range for Pilates. Shorter than 5 inches risks ride-up during reformer transitions; longer than 7 inches is functionally a short legging. The 6-inch Lululemon Align Short is the most widely adopted length in studio environments." } },
-        { "@type": "Question", "name": "Can I wear biker shorts for mat Pilates as well as reformer?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Biker shorts work across all Pilates modalities — mat, reformer, chair, and tower. For mat work on the floor, a slightly longer inseam (6–7 inches) prevents ride-up during rolling exercises. For reformer work, 5–6 inches is typically preferred." } },
+        { "@type": "Question", "name": "Can I wear biker shorts for mat Pilates as well as reformer?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Biker shorts work across all Pilates modalities: mat, reformer, chair, and tower. For mat work on the floor, a slightly longer inseam (6–7 inches) prevents ride-up during rolling exercises. For reformer work, 5–6 inches is typically preferred." } },
       ],
     },
   ],
@@ -165,7 +165,7 @@ export default function BestPilatesBikerShortsPage() {
             <TopPick name={PRODUCTS[5].name} price={PRODUCTS[5].price} note={QP_NOTES[5]} url={PRODUCTS[5].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Biker shorts have overtaken leggings as the most popular bottom in many boutique reformer studios. They offer full thigh coverage without the restriction of a full-length legging, and the compact silhouette gives instructors a clearer view of hip alignment and knee tracking during footwork and standing exercises. Not all biker shorts are built for Pilates — fabric weight, waistband construction, and inseam length all matter significantly. These six suit reformer, mat, and tower sessions.
+              Biker shorts have overtaken leggings as the most popular bottom in many boutique reformer studios. They offer full thigh coverage without the restriction of a full-length legging, and the compact silhouette gives instructors a clearer view of hip alignment and knee tracking during footwork and standing exercises. Not all biker shorts are built for Pilates: fabric weight, waistband construction, and inseam length all matter significantly. These six suit reformer, mat, and tower sessions.
             </p>
           </div>
         </section>
@@ -203,9 +203,9 @@ export default function BestPilatesBikerShortsPage() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "Are biker shorts appropriate for reformer Pilates?", a: "Yes — biker shorts are widely worn in reformer studios. They offer more freedom of movement than leggings in some exercises, particularly anything involving hip flexion or seated work. The key requirement is a high-waist construction that stays in place during transitions and a fabric that is fully opaque through deep movements." },
+                  { q: "Are biker shorts appropriate for reformer Pilates?", a: "Yes: biker shorts are widely worn in reformer studios. They offer more freedom of movement than leggings in some exercises, particularly anything involving hip flexion or seated work. The key requirement is a high-waist construction that stays in place during transitions and a fabric that is fully opaque through deep movements." },
                   { q: "What inseam length is best for Pilates biker shorts?", a: "5 to 7 inches is the standard range for Pilates. Shorter than 5 inches risks ride-up during reformer transitions; longer than 7 inches is functionally a short legging. The 6-inch Lululemon Align Short is the most widely adopted length in studio environments." },
-                  { q: "Can I wear biker shorts for mat Pilates as well as reformer?", a: "Yes. Biker shorts work across all Pilates modalities — mat, reformer, chair, and tower. For mat work on the floor, a slightly longer inseam (6–7 inches) prevents ride-up during rolling exercises. For reformer work, 5–6 inches is typically preferred." },
+                  { q: "Can I wear biker shorts for mat Pilates as well as reformer?", a: "Yes. Biker shorts work across all Pilates modalities: mat, reformer, chair, and tower. For mat work on the floor, a slightly longer inseam (6–7 inches) prevents ride-up during rolling exercises. For reformer work, 5–6 inches is typically preferred." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
@@ -220,7 +220,7 @@ export default function BestPilatesBikerShortsPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Pilates Leggings" excerpt="Five leggings for when biker shorts aren't enough coverage." href="/blog/best-pilates-leggings" category="Apparel" readTime="9 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Sets" excerpt="Six coordinated two-piece sets for a complete studio wardrobe." href="/blog/best-pilates-sets" category="Apparel" readTime="8 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-cZ0WYsBFHhs-unsplash.jpg" />
-                <ArticleCard title="Alo Yoga Pilates Activewear" excerpt="Alo's biker shorts are consistently ranked among the best for studio practice — full brand review." href="/blog/alo-yoga-pilates" category="Brand Review" readTime="10 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg" />
+                <ArticleCard title="Alo Yoga Pilates Activewear" excerpt="Alo's biker shorts are consistently ranked among the best for studio practice: full brand review." href="/blog/alo-yoga-pilates" category="Brand Review" readTime="10 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg" />
                 <ArticleCard title="Splits59 Pilates Activewear" excerpt="Splits59 makes the most technical biker shorts specifically designed for Pilates movement." href="/blog/splits59-pilates" category="Brand Review" readTime="9 min read" date="May 2026" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
               </div>
             </div>

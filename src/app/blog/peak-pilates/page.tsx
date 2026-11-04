@@ -12,19 +12,19 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Peak Pilates Equipment Review (2026): MVe & Fit Reformers",
-  description: "Peak Pilates MVe and Fit reformers reviewed — spring resistance, carriage construction, and how Peak Pilates compares to Merrithew and Balanced Body.",
+  description: "Peak Pilates MVe and Fit reformers reviewed: spring resistance, carriage construction, and how Peak Pilates compares to Merrithew and Balanced Body.",
   keywords: ["peak pilates review", "peak pilates reformer 2026", "peak pilates mve review", "peak pilates fit reformer", "peak pilates vs merrithew", "peak pilates equipment buy", "peak pilates cadillac review"],
   openGraph: {
     title: "Peak Pilates (2026): Equipment Review & Best Models Ranked",
-    description: "Peak Pilates reviewed — classical wood reformers compared on home studios and serious practitioners.",
+    description: "Peak Pilates reviewed: classical wood reformers compared on home studios and serious practitioners.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/peak-pilates",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/ahmet-kurt-a1IhqqW8JQE-unsplash.jpg", width: 1200, height: 630, alt: "Peak Pilates equipment review — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/ahmet-kurt-a1IhqqW8JQE-unsplash.jpg", width: 1200, height: 630, alt: "Peak Pilates equipment review: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Peak Pilates (2026): Equipment Review",
-    description: "Peak Pilates reformers and apparatus — honest review for classical practitioners.",
+    description: "Peak Pilates reformers and apparatus: honest review for classical practitioners.",
     images: ["https://pilatescollectiveclub.com/pictures/ahmet-kurt-a1IhqqW8JQE-unsplash.jpg"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/peak-pilates" },
@@ -36,9 +36,9 @@ const PRODUCTS = [
     rank: "01",
     name: "Peak Pilates MVe® Reformer",
     price: "Dealer-quoted",
-    verdict: "Peak's flagship studio reformer — not a live Amazon listing",
+    verdict: "Peak's flagship studio reformer, not a live Amazon listing",
     description:
-      "The MVe is positioned as Peak Pilates' flagship studio reformer, widely used in classical and hybrid studios. We could not find a genuine, currently-sold Amazon listing for this model — in our checks, Peak Pilates' reformers are sold through its own dealer network rather than through live Amazon offers, the same pattern we found for this brand elsewhere. Contact Peak Pilates or an authorised dealer for a current quote and confirmed specifications (spring count, frame material, carriage dimensions) rather than relying on a price or spec sheet quoted here or elsewhere online.",
+      "The MVe is positioned as Peak Pilates' flagship studio reformer, widely used in classical and hybrid studios. We could not find a genuine, currently-sold Amazon listing for this model, in our checks, Peak Pilates' reformers are sold through its own dealer network rather than through live Amazon offers, the same pattern we found for this brand elsewhere. Contact Peak Pilates or an authorised dealer for a current quote and confirmed specifications (spring count, frame material, carriage dimensions) rather than relying on a price or spec sheet quoted here or elsewhere online.",
     affiliateUrl: "https://www.peakpilates.com",
     tag: "Dealer Only",
   },
@@ -46,9 +46,9 @@ const PRODUCTS = [
     rank: "02",
     name: "Peak Pilates casa Reformer",
     price: "Dealer-quoted",
-    verdict: "Peak's home reformer — dealer-quoted, not on Amazon",
+    verdict: "Peak's home reformer: dealer-quoted, not on Amazon",
     description:
-      "The casa is described by Peak Pilates as its home-oriented reformer, with a Baltic Birch wood finish distinct from the MVe's studio-oriented build. As with the MVe, we could not verify a live Amazon listing for the casa at the time of writing — treat it as a dealer-network purchase and get a current quote directly from Peak Pilates rather than assuming the spring count or included accessories match what is described here.",
+      "The casa is described by Peak Pilates as its home-oriented reformer, with a Baltic Birch wood finish distinct from the MVe's studio-oriented build. As with the MVe, we could not verify a live Amazon listing for the casa at the time of writing: treat it as a dealer-network purchase and get a current quote directly from Peak Pilates rather than assuming the spring count or included accessories match what is described here.",
     affiliateUrl: "https://www.peakpilates.com",
     tag: "Dealer Only",
   },
@@ -56,9 +56,9 @@ const PRODUCTS = [
     rank: "03",
     name: "Peak PilateSystem (PPS) Deluxe",
     price: "Dealer-quoted",
-    verdict: "Peak's studio system — dealer-quoted, not confirmed on Amazon",
+    verdict: "Peak's studio system: dealer-quoted, not confirmed on Amazon",
     description:
-      "The PilateSystem (PPS) Deluxe is positioned by Peak Pilates as a combined reformer-and-Cadillac studio system. We could not verify a genuine, currently-sold Amazon listing for it. Treat this as a dealer-quoted purchase — get current pricing and specifications directly from Peak Pilates or an authorised dealer.",
+      "The PilateSystem (PPS) Deluxe is positioned by Peak Pilates as a combined reformer-and-Cadillac studio system. We could not verify a genuine, currently-sold Amazon listing for it. Treat this as a dealer-quoted purchase: get current pricing and specifications directly from Peak Pilates or an authorised dealer.",
     affiliateUrl: "https://www.peakpilates.com",
     tag: "Dealer Only",
   },
@@ -66,9 +66,9 @@ const PRODUCTS = [
     rank: "04",
     name: "Peak Pilates Fit Reformer",
     price: "Dealer-quoted",
-    verdict: "Peak's compact reformer — dealer-quoted, not on Amazon",
+    verdict: "Peak's compact reformer: dealer-quoted, not on Amazon",
     description:
-      "The Fit Reformer is described by Peak Pilates as a shorter, more compact machine in its lineup. We could not verify a live Amazon listing for it. If carriage length matters for your height, confirm the exact travel distance with Peak Pilates or a dealer before buying — we could not verify a specific figure for this model.",
+      "The Fit Reformer is described by Peak Pilates as a shorter, more compact machine in its lineup. We could not verify a live Amazon listing for it. If carriage length matters for your height, confirm the exact travel distance with Peak Pilates or a dealer before buying: we could not verify a specific figure for this model.",
     affiliateUrl: "https://www.peakpilates.com",
     tag: "Dealer Only",
   },
@@ -76,9 +76,9 @@ const PRODUCTS = [
     rank: "05",
     name: "Peak Pilates Wunda Chair",
     price: "Dealer-quoted",
-    verdict: "Peak's chair — dealer-quoted, not on Amazon",
+    verdict: "Peak's chair: dealer-quoted, not on Amazon",
     description:
-      "Peak Pilates offers a Wunda Chair in its lineup. We could not verify a live Amazon listing for it, or confirm the exact pedal configuration (split versus single pedal) and spring count from a source we trust — treat any such detail as something to confirm with Peak Pilates or an authorised dealer before buying, not an established fact.",
+      "Peak Pilates offers a Wunda Chair in its lineup. We could not verify a live Amazon listing for it, or confirm the exact pedal configuration (split versus single pedal) and spring count from a source we trust: treat any such detail as something to confirm with Peak Pilates or an authorised dealer before buying, not an established fact.",
     affiliateUrl: "https://www.peakpilates.com",
     tag: "Dealer Only",
   },
@@ -90,7 +90,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Peak Pilates (2026): Equipment Review & Best Models Ranked",
-      "description": "Peak Pilates equipment reviewed — the MVe, casa, fit, and PilateSystem Deluxe reformers and Wunda Chair compared on classical and contemporary practitioners.",
+      "description": "Peak Pilates equipment reviewed: the MVe, casa, fit, and PilateSystem Deluxe reformers and Wunda Chair compared on classical and contemporary practitioners.",
       "url": "https://pilatescollectiveclub.com/blog/peak-pilates",
       "datePublished": "2026-05-21",
       "dateModified": "2026-10-20",
@@ -127,10 +127,10 @@ const jsonLd = {
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "Is Peak Pilates classical or contemporary?", "acceptedAnswer": { "@type": "Answer", "text": "Peak Pilates occupies a classical-leaning position in the market — their equipment dimensions and spring specifications align more closely with classical Pilates proportions than brands like Merrithew/STOTT, which are explicitly contemporary. However, Peak equipment is used in both classical and contemporary studios, and the MVe and PilateSystem Deluxe are versatile enough to support either approach." } },
+        { "@type": "Question", "name": "Is Peak Pilates classical or contemporary?", "acceptedAnswer": { "@type": "Answer", "text": "Peak Pilates occupies a classical-leaning position in the market: their equipment dimensions and spring specifications align more closely with classical Pilates proportions than brands like Merrithew/STOTT, which are explicitly contemporary. However, Peak equipment is used in both classical and contemporary studios, and the MVe and PilateSystem Deluxe are versatile enough to support either approach." } },
         { "@type": "Question", "name": "How does Peak Pilates compare to Balanced Body?", "acceptedAnswer": { "@type": "Answer", "text": "Both brands produce clinical-grade studio equipment at comparable quality levels. Balanced Body has a broader accessory ecosystem and wider global service network. Peak Pilates offers more wood aesthetic options (particularly through the casa line) and often a slightly lower price point. The choice typically comes down to aesthetic preference, methodology alignment, and which brand your instructor or training programme recommends." } },
         { "@type": "Question", "name": "Where are Peak Pilates reformers made?", "acceptedAnswer": { "@type": "Answer", "text": "Peak Pilates equipment is designed in the United States. The brand was founded in Colorado and has maintained US-based design and engineering teams, though manufacturing components are sourced internationally. Peak reformers are sold and supported through an authorised dealer network globally." } },
-        { "@type": "Question", "name": "What is Baltic Birch and why does Peak Pilates use it?", "acceptedAnswer": { "@type": "Answer", "text": "Baltic Birch is a premium plywood species with very tight grain and minimal knots, making it structurally consistent and visually clean. Peak Pilates uses Baltic Birch for the wood platform elements on their casa reformer because it machines cleanly, takes finish well, and is dimensionally stable — it does not warp with temperature and humidity changes the way solid wood can." } },
+        { "@type": "Question", "name": "What is Baltic Birch and why does Peak Pilates use it?", "acceptedAnswer": { "@type": "Answer", "text": "Baltic Birch is a premium plywood species with very tight grain and minimal knots, making it structurally consistent and visually clean. Peak Pilates uses Baltic Birch for the wood platform elements on their casa reformer because it machines cleanly, takes finish well, and is dimensionally stable: it does not warp with temperature and humidity changes the way solid wood can." } },
       ],
     },
   ],
@@ -156,10 +156,10 @@ export default function PeakPilatesPage() {
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 10 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*We could not verify live Amazon listings for Peak Pilates equipment — links below go to Peak Pilates directly rather than to an Amazon offer.</p>
+            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*We could not verify live Amazon listings for Peak Pilates equipment: links below go to Peak Pilates directly rather than to an Amazon offer.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Peak Pilates is one of the most respected equipment brands in the global Pilates community — occupying a distinctive position as a classically-oriented manufacturer that has embraced modern engineering without abandoning the proportions and resistance profile that classical practitioners require. The brand is known for its use of Baltic Birch wood in the casa line, giving their equipment an aesthetic warmth that steel-framed competitors cannot replicate, and for a spring calibration that classical and hybrid teachers consistently describe as having the correct feel for the method.
+              Peak Pilates is one of the most respected equipment brands in the global Pilates community: occupying a distinctive position as a classically-oriented manufacturer that has embraced modern engineering without abandoning the proportions and resistance profile that classical practitioners require. The brand is known for its use of Baltic Birch wood in the casa line, giving their equipment an aesthetic warmth that steel-framed competitors cannot replicate, and for a spring calibration that classical and hybrid teachers consistently describe as having the correct feel for the method.
             </p>
           </div>
         </section>
@@ -167,7 +167,7 @@ export default function PeakPilatesPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/ahmet-kurt-a1IhqqW8JQE-unsplash.jpg" alt="Peak Pilates reformers — MVe, casa, fit, and PilateSystem Deluxe reviewed" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/ahmet-kurt-a1IhqqW8JQE-unsplash.jpg" alt="Peak Pilates reformers: MVe, casa, fit, and PilateSystem Deluxe reviewed" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>
         </section>
@@ -213,9 +213,9 @@ export default function PeakPilatesPage() {
               <h2 className="text-2xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Our verdict</h2>
               <div className="space-y-4">
                 {[
-                  { label: "Build quality", value: "Excellent — powder-coated aluminium and Baltic Birch wood hold up through years of studio use." },
-                  { label: "Spring feel", value: "Classical-leaning — the spring tension profile is more closely matched to classical proportions than Merrithew/STOTT." },
-                  { label: "Aesthetics", value: "Among the best in the market — the wood finish casa model is genuinely home-appropriate." },
+                  { label: "Build quality", value: "Excellent: powder-coated aluminium and Baltic Birch wood hold up through years of studio use." },
+                  { label: "Spring feel", value: "Classical-leaning: the spring tension profile is more closely matched to classical proportions than Merrithew/STOTT." },
+                  { label: "Aesthetics", value: "Among the best in the market: the wood finish casa model is genuinely home-appropriate." },
                   { label: "Accessories ecosystem", value: "Solid but smaller than Balanced Body. The Wunda Chair and Jump Board are well-integrated." },
                   { label: "Verdict", value: "The strongest recommendation for classically-oriented practitioners who want equipment that performs at clinical level and looks at home in a dedicated studio space. A thoughtful alternative to Balanced Body at a comparable or slightly lower price." },
                 ].map((item) => (
@@ -231,10 +231,10 @@ export default function PeakPilatesPage() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "Is Peak Pilates classical or contemporary?", a: "Peak Pilates occupies a classical-leaning position — their equipment dimensions and spring specifications align more closely with classical Pilates proportions than brands like Merrithew/STOTT. However, Peak equipment is used in both classical and contemporary studios, and the MVe and PilateSystem Deluxe are versatile enough to support either approach." },
+                  { q: "Is Peak Pilates classical or contemporary?", a: "Peak Pilates occupies a classical-leaning position: their equipment dimensions and spring specifications align more closely with classical Pilates proportions than brands like Merrithew/STOTT. However, Peak equipment is used in both classical and contemporary studios, and the MVe and PilateSystem Deluxe are versatile enough to support either approach." },
                   { q: "How does Peak Pilates compare to Balanced Body?", a: "Both brands produce clinical-grade studio equipment at comparable quality levels. Balanced Body has a broader accessory ecosystem and wider global service network. Peak Pilates offers more wood aesthetic options and often a slightly lower price point. The choice typically comes down to aesthetic preference and methodology alignment." },
                   { q: "Where are Peak Pilates reformers made?", a: "Peak Pilates equipment is designed in the United States. The brand was founded in Colorado and has maintained US-based design and engineering, though manufacturing components are sourced internationally. Peak reformers are sold through an authorised dealer network globally." },
-                  { q: "What is Baltic Birch and why does Peak Pilates use it?", a: "Baltic Birch is a premium plywood with very tight grain and minimal knots, making it structurally consistent and visually clean. Peak uses it for the wood platform elements on their casa reformer because it machines cleanly, takes finish well, and is dimensionally stable — it does not warp with temperature changes the way solid wood can." },
+                  { q: "What is Baltic Birch and why does Peak Pilates use it?", a: "Baltic Birch is a premium plywood with very tight grain and minimal knots, making it structurally consistent and visually clean. Peak uses it for the wood platform elements on their casa reformer because it machines cleanly, takes finish well, and is dimensionally stable: it does not warp with temperature changes the way solid wood can." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>

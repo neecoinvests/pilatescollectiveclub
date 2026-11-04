@@ -15,22 +15,22 @@ const PAGE_URL = "https://pilatescollectiveclub.com/blog/lagree-fitness";
 const HERO_IMAGE = "https://pilatescollectiveclub.com/pictures/stitch-reformers-aerial-row.png";
 const TITLE = "Lagree Fitness (2026): The Micro, Megaformer & What to Buy";
 const DESCRIPTION =
-  "Lagree Fitness explained: the method, the Megaformer, and The Micro ($990) sold on Lagree's own Amazon store — plus every accessory and the full setup cost.";
+  "Lagree Fitness explained: the method, the Megaformer, and The Micro ($990) sold on Lagree's own Amazon store, plus every accessory and the full setup cost.";
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESCRIPTION,
   openGraph: {
     title: TITLE,
-    description: "The complete Lagree Fitness brand guide — the method, the Megaformer, The Micro home machine and its accessories, and what a full home setup really costs.",
+    description: "The complete Lagree Fitness brand guide: the method, the Megaformer, The Micro home machine and its accessories, and what a full home setup really costs.",
     type: "article",
     url: PAGE_URL,
-    images: [{ url: HERO_IMAGE, width: 1200, height: 630, alt: "Lagree Fitness machines in a studio — Pilates Collective Club" }],
+    images: [{ url: HERO_IMAGE, width: 1200, height: 630, alt: "Lagree Fitness machines in a studio: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Lagree Fitness (2026): The Micro & Megaformer",
-    description: "The Lagree Fitness brand guide — The Micro ($990), its accessories and the full home setup cost.",
+    description: "The Lagree Fitness brand guide: The Micro ($990), its accessories and the full home setup cost.",
     images: [HERO_IMAGE],
   },
   keywords: [
@@ -115,7 +115,7 @@ const MEGAFORMER: Pick = {
   price: "Contact Lagree Fitness",
   url: LAGREE_DIRECT,
   description:
-    "Not sold on Amazon — this links to lagreefitness.com. The Megaformer is the commercial machine you use in Lagree studios. It is sold directly by Lagree Fitness, primarily to studios, and pricing is quoted on request, so contact Lagree Fitness for current models and pricing.",
+    "Not sold on Amazon: this links to lagreefitness.com. The Megaformer is the commercial machine you use in Lagree studios. It is sold directly by Lagree Fitness, primarily to studios, and pricing is quoted on request, so contact Lagree Fitness for current models and pricing.",
 };
 
 const ALTERNATIVES: Pick[] = [
@@ -144,12 +144,12 @@ const ALTERNATIVES: Pick[] = [
 type Gear = { category: string; name: string; price: string; url: string; note: string; guideHref: string };
 
 const GEAR: Gear[] = [
-  { category: "Grip socks", name: "toesox Low Rise Grip Socks 2-Pack (Full Toe)", price: "$30.00", url: amz("B07QHNDHW3"), note: "Lagree is sweaty and slow — grip on the carriage and platform matters.", guideHref: "/blog/best-lagree-grip-socks" },
+  { category: "Grip socks", name: "toesox Low Rise Grip Socks 2-Pack (Full Toe)", price: "$30.00", url: amz("B07QHNDHW3"), note: "Lagree is sweaty and slow: grip on the carriage and platform matters.", guideHref: "/blog/best-lagree-grip-socks" },
   { category: "Knee pad", name: "Impulse Yoga Knee Pad Cushion (1\")", price: "$20.72", url: amz("B06WV6XVV9"), note: "Cushions kneeling work on the carriage or the floor.", guideHref: "/blog/best-lagree-knee-pads" },
   { category: "Gloves", name: "Gaiam Grippy Yoga Gloves", price: "$7.65", url: amz("B001VROVEM"), note: "Helps sweaty hands on handlebars and platforms.", guideHref: "/blog/best-pilates-gloves" },
   { category: "Shorts", name: "CRZ YOGA Butterluxe Biker Shorts 6\"", price: "$24.00", url: amz("B0B28B34XX"), note: "Tight biker shorts do not ride up or catch on the carriage.", guideHref: "/blog/best-lagree-shorts" },
   { category: "Towel", name: "Shandali Stickyfiber Yoga Towel", price: "$19.99", url: amz("B011IU43WG"), note: "Keeps a sweaty carriage from getting slippery.", guideHref: "/blog/best-sweat-towel-for-lagree" },
-  { category: "Interval timer", name: "Gymboss Interval Timer", price: "$20.95", url: amz("B00CO8HO6O"), note: "Lagree sets are timed — useful when training on a Micro at home.", guideHref: "/blog/best-interval-timer-for-lagree" },
+  { category: "Interval timer", name: "Gymboss Interval Timer", price: "$20.95", url: amz("B00CO8HO6O"), note: "Lagree sets are timed: useful when training on a Micro at home.", guideHref: "/blog/best-interval-timer-for-lagree" },
 ];
 
 const toNumber = (price: string) => {
@@ -331,7 +331,7 @@ export default function LagreeFitnessPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/stitch-reformers-aerial-row.png" alt="Rows of Lagree-style machines in a studio — Lagree Fitness brand guide" fill className="object-cover" style={{ filter: "brightness(0.85)" }} priority />
+              <Image src="/pictures/stitch-reformers-aerial-row.png" alt="Rows of Lagree-style machines in a studio: Lagree Fitness brand guide" fill className="object-cover" style={{ filter: "brightness(0.85)" }} priority />
             </div>
           </div>
         </section>
@@ -355,7 +355,7 @@ export default function LagreeFitnessPage() {
             {/* At a glance table */}
             <div className="mb-16 overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
               <div className="px-6 py-4" style={{ backgroundColor: "#f6f3f2" }}>
-                <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={eyebrowStyle}>At a Glance — Lagree Fitness Equipment</p>
+                <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={eyebrowStyle}>At a Glance: Lagree Fitness Equipment</p>
               </div>
               {GLANCE.map((p, i) => (
                 <div key={p.id} className="flex items-center gap-3 sm:gap-4 px-6 py-4" style={{ borderTop: i === 0 ? "none" : "1px solid rgba(217,194,186,0.25)", backgroundColor: "#ffffff" }}>
@@ -463,8 +463,8 @@ export default function LagreeFitnessPage() {
                 <a href={LAGREE_DIRECT} target="_blank" rel={/amazon\./i.test(LAGREE_DIRECT) ? "noopener noreferrer sponsored" : "noopener noreferrer"} style={inlineLinkStyle}>lagreefitness.com</a>.
               </p>
               <p className="text-sm leading-relaxed" style={bodyStyle}>
-                An honest caveat: a machine at home does not come with an instructor. Lagree relies heavily on cueing (slower, lower, tuck), so the Micro makes most sense for people who already know the method from class. New to Lagree? Take a few studio classes first — our{" "}
-                <Link href="/blog/lagree-for-beginners" style={inlineLinkStyle}>Lagree for beginners guide</Link> explains what to expect — and read{" "}
+                An honest caveat: a machine at home does not come with an instructor. Lagree relies heavily on cueing (slower, lower, tuck), so the Micro makes most sense for people who already know the method from class. New to Lagree? Take a few studio classes first: our{" "}
+                <Link href="/blog/lagree-for-beginners" style={inlineLinkStyle}>Lagree for beginners guide</Link> explains what to expect, and read{" "}
                 <Link href="/blog/lagree-at-home" style={inlineLinkStyle}>Lagree at home</Link> for how to structure home sessions.
               </p>
             </div>
@@ -634,7 +634,7 @@ export default function LagreeFitnessPage() {
               <p className="text-sm leading-relaxed mt-2" style={bodyStyle}>
                 More on the Pilates side: <Link href="/blog/best-foldable-pilates-reformer" style={inlineLinkStyle}>best foldable Pilates reformers</Link> and{" "}
                 <Link href="/blog/merrithew-pilates" style={inlineLinkStyle}>our Merrithew brand guide</Link>. Tall? See{" "}
-                <Link href="/blog/best-pilates-reformer-for-tall-people" style={inlineLinkStyle}>best reformers for tall people</Link> — though at up to 6&apos;8&quot;, the Micro already covers most heights.
+                <Link href="/blog/best-pilates-reformer-for-tall-people" style={inlineLinkStyle}>best reformers for tall people</Link>though at up to 6&apos;8&quot;, the Micro already covers most heights.
               </p>
             </div>
 
@@ -658,7 +658,7 @@ export default function LagreeFitnessPage() {
                 <ArticleCard title="Best Megaformer Machine" excerpt="Lagree equipment reviewed, plus the studio-grade alternatives worth considering." href="/blog/best-megaformer-machine" category="Lagree" readTime="11 min read" date="September 2026" imageUrl="/pictures/stitch-reformers-aerial-row.png" />
                 <ArticleCard title="Lagree at Home" excerpt="How to train the Lagree way at home, from the Micro to floor work between classes." href="/blog/lagree-at-home" category="Lagree" readTime="9 min read" date="September 2026" imageUrl="/pictures/stitch-hands-on-carriage.png" />
                 <ArticleCard title="Lagree vs Pilates" excerpt="What separates the two methods, and which suits your goals and body." href="/blog/lagree-vs-pilates" category="Comparison" readTime="10 min read" date="June 2026" imageUrl="/pictures/stitch-reformer-row-studio.png" />
-                <ArticleCard title="Lagree Essentials" excerpt="Best, budget and splurge picks for every piece of Lagree gear — from grip socks to recovery." href="/blog/lagree-essentials" category="Equipment" readTime="12 min read" date="September 2026" imageUrl="/pictures/stitch-reformer-row-studio.png" />
+                <ArticleCard title="Lagree Essentials" excerpt="Best, budget and splurge picks for every piece of Lagree gear, from grip socks to recovery." href="/blog/lagree-essentials" category="Equipment" readTime="12 min read" date="September 2026" imageUrl="/pictures/stitch-reformer-row-studio.png" />
               </div>
             </div>
           </div>

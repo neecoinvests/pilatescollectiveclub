@@ -12,19 +12,19 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Water Bottles for Pilates (2026): Compared & Ranked",
-  description: "The best water bottles for Pilates — insulated, leak-proof, and sized right for studio use. Stanley, Hydro Flask, Owala, and more compared on reformer classes.",
+  description: "The best water bottles for Pilates: insulated, leak-proof, and sized right for studio use. Stanley, Hydro Flask, Owala, and more compared on reformer classes.",
   keywords: ["best water bottle for pilates", "pilates water bottle 2026", "best insulated water bottle pilates", "stanley quencher pilates", "hydro flask pilates", "owala water bottle pilates", "best gym water bottle women", "pilates studio water bottle"],
   openGraph: {
     title: "Best Water Bottles for Pilates (2026)",
-    description: "The best water bottles for Pilates — insulated, leak-proof, studio-ready.",
+    description: "The best water bottles for Pilates: insulated, leak-proof, studio-ready.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-water-bottle",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg", width: 1200, height: 630, alt: "Best Water Bottles for Pilates — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg", width: 1200, height: 630, alt: "Best Water Bottles for Pilates: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Best Water Bottles for Pilates (2026)",
-    description: "The best water bottles for Pilates — compared and ranked.",
+    description: "The best water bottles for Pilates: compared and ranked.",
     images: ["https://pilatescollectiveclub.com/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/best-pilates-water-bottle" },
@@ -38,7 +38,7 @@ const PRODUCTS = [
     price: "$44.70",
     verdict: "Best overall Pilates water bottle",
     description:
-      "The Stanley Quencher has become ubiquitous in studio changing rooms and reformer classes for good reason. The 40oz capacity means you will not run dry through a double session, and the vacuum insulation keeps water cold for over 12 hours without condensation forming on the exterior — a meaningful consideration when the bottle sits on a studio floor or bench. The rotating lid handles three positions: a wide straw opening for drinking mid-exercise, a fully open position, and a closed seal for transport. The broad base is stable on reformer side rails and studio floors, and the handle integrates grip loops for slipping onto a bag exterior. Available in over 40 colourways.",
+      "The Stanley Quencher has become ubiquitous in studio changing rooms and reformer classes for good reason. The 40oz capacity means you will not run dry through a double session, and the vacuum insulation keeps water cold for over 12 hours without condensation forming on the exterior: a meaningful consideration when the bottle sits on a studio floor or bench. The rotating lid handles three positions: a wide straw opening for drinking mid-exercise, a fully open position, and a closed seal for transport. The broad base is stable on reformer side rails and studio floors, and the handle integrates grip loops for slipping onto a bag exterior. Available in over 40 colourways.",
     affiliateUrl: "https://www.amazon.com/dp/B0CP9Z1S51?tag=pilatescollective-20",
     tag: "Editor's Pick",
   },
@@ -48,7 +48,7 @@ const PRODUCTS = [
     price: "From $50",
     verdict: "Best premium insulated bottle",
     description:
-      "Hydro Flask's Wide Mouth 32oz is the benchmark for insulated bottle durability. The 18/8 stainless steel construction and TempShield double-wall insulation keep water cold for 24 hours without the bottle sweating onto studio surfaces — a recurring frustration with cheaper insulated options. The 32oz format is the practical sweet spot for a single Pilates session without the bulk of a 40oz bottle. The straw lid included in this configuration allows clean sips without tilting the bottle, which matters when you are mid-exercise. The powder-coated exterior resists scratches and maintains its appearance through daily bag use. Hydro Flask's build quality is genuinely superior to most competitors at this price point.",
+      "Hydro Flask's Wide Mouth 32oz is the benchmark for insulated bottle durability. The 18/8 stainless steel construction and TempShield double-wall insulation keep water cold for 24 hours without the bottle sweating onto studio surfaces: a recurring frustration with cheaper insulated options. The 32oz format is the practical sweet spot for a single Pilates session without the bulk of a 40oz bottle. The straw lid included in this configuration allows clean sips without tilting the bottle, which matters when you are mid-exercise. The powder-coated exterior resists scratches and maintains its appearance through daily bag use. Hydro Flask's build quality is genuinely superior to most competitors at this price point.",
     affiliateUrl: "https://www.amazon.com/s?k=hydro+flask+32oz+wide+mouth+straw+lid&tag=pilatescollective-20",
     tag: "Best Premium",
   },
@@ -58,7 +58,7 @@ const PRODUCTS = [
     price: "$29.99",
     verdict: "Best for sipping mid-exercise",
     description:
-      "The Owala FreeSip earns its position through the most thoughtfully designed drinking mechanism on this list. The patented FreeSip spout integrates both a built-in straw for sipping in any position and a wide opening for drinking directly — no switching lids for different activities. The lid locks securely for transport and opens with a single button press, keeping it closed in a bag. The insulation matches Hydro Flask at a lower price, keeping water cold for 24 hours. The tapered base fits standard cup holders and most bag side pockets. For practitioners who want to drink comfortably between exercises without stopping to remove or replace a lid, the FreeSip mechanism is the cleanest solution available.",
+      "The Owala FreeSip earns its position through the most thoughtfully designed drinking mechanism on this list. The patented FreeSip spout integrates both a built-in straw for sipping in any position and a wide opening for drinking directly: no switching lids for different activities. The lid locks securely for transport and opens with a single button press, keeping it closed in a bag. The insulation matches Hydro Flask at a lower price, keeping water cold for 24 hours. The tapered base fits standard cup holders and most bag side pockets. For practitioners who want to drink comfortably between exercises without stopping to remove or replace a lid, the FreeSip mechanism is the cleanest solution available.",
     affiliateUrl: "https://www.amazon.com/dp/B085DVHQ57?tag=pilatescollective-20",
     tag: "Best Lid Design",
   },
@@ -68,7 +68,7 @@ const PRODUCTS = [
     price: "$24.50",
     verdict: "Best compact studio bottle",
     description:
-      "The S'well 17oz is the right choice for practitioners who want a compact, refined bottle that fits in bag side pockets and sits neatly beside a reformer without dominating the space. The narrow profile fits standard bag water bottle pockets, gym cubbies, and studio benches more cleanly than the wider Stanley and Hydro Flask formats. The triple-layer insulation keeps water cold for 24 hours and hot drinks warm for 12. The lid is leak-proof when closed, and the smooth exterior has no exposed paint or powder coat to chip — it looks consistently clean through years of studio use. Best for lighter sessions or practitioners who prefer a smaller carry.",
+      "The S'well 17oz is the right choice for practitioners who want a compact, refined bottle that fits in bag side pockets and sits neatly beside a reformer without dominating the space. The narrow profile fits standard bag water bottle pockets, gym cubbies, and studio benches more cleanly than the wider Stanley and Hydro Flask formats. The triple-layer insulation keeps water cold for 24 hours and hot drinks warm for 12. The lid is leak-proof when closed, and the smooth exterior has no exposed paint or powder coat to chip: it looks consistently clean through years of studio use. Best for lighter sessions or practitioners who prefer a smaller carry.",
     affiliateUrl: "https://www.amazon.com/dp/B07G2VPWPT?tag=pilatescollective-20",
     tag: "Best Compact",
   },
@@ -78,7 +78,7 @@ const PRODUCTS = [
     price: "$16.07",
     verdict: "Best budget Pilates bottle",
     description:
-      "The Nalgene Tritan 32oz is the honest budget recommendation for practitioners who want a reliable, durable water bottle without paying a premium for insulation they may not need. The BPA-free Tritan plastic is virtually indestructible — Nalgene bottles routinely outlast insulated steel alternatives by years. The wide mouth makes it easy to fill, add ice, and clean thoroughly. The lid is leak-proof when closed and attaches to bags via the loop. It does not insulate (water will warm to room temperature over a session), which is an honest trade-off at this price. For practitioners who refill frequently or keep their bottle in an insulated bag, the temperature limitation rarely matters in practice.",
+      "The Nalgene Tritan 32oz is the honest budget recommendation for practitioners who want a reliable, durable water bottle without paying a premium for insulation they may not need. The BPA-free Tritan plastic is virtually indestructible: Nalgene bottles routinely outlast insulated steel alternatives by years. The wide mouth makes it easy to fill, add ice, and clean thoroughly. The lid is leak-proof when closed and attaches to bags via the loop. It does not insulate (water will warm to room temperature over a session), which is an honest trade-off at this price. For practitioners who refill frequently or keep their bottle in an insulated bag, the temperature limitation rarely matters in practice.",
     affiliateUrl: "https://www.amazon.com/dp/B0B9T4KCV7?tag=pilatescollective-20",
     tag: "Best Budget",
   },
@@ -100,7 +100,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Best Water Bottles for Pilates (2026): Compared & Ranked",
-      "description": "The best water bottles for Pilates — insulated, leak-proof, and sized for studio use.",
+      "description": "The best water bottles for Pilates: insulated, leak-proof, and sized for studio use.",
       "url": "https://pilatescollectiveclub.com/blog/best-pilates-water-bottle",
       "datePublished": "2026-06-26",
       "dateModified": "2026-10-20",
@@ -137,7 +137,7 @@ const jsonLd = {
       "mainEntity": [
         { "@type": "Question", "name": "What size water bottle should I bring to Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "24-32oz is the practical range for most Pilates sessions. A 24oz bottle covers a standard 50-minute class. For double sessions, hot studios, or practitioners who hydrate heavily, 32-40oz is more comfortable. Larger bottles are heavier and take up more space on studio benches and in reformer cubbies." } },
         { "@type": "Question", "name": "Does a water bottle need to be insulated for Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "It depends on your studio and session length. Most studio classes run 50-60 minutes at controlled temperatures, so non-insulated bottles are adequate for single sessions. If you attend double sessions, practice outdoors, or want water consistently cold from start to finish, an insulated bottle is worth the extra cost." } },
-        { "@type": "Question", "name": "Are Stanley cups good for Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The Stanley Quencher's 40oz capacity, stable wide base, and leak-resistant rotating lid make it well-suited to studio use. The one consideration is size — the 40oz format is notably larger than competing 32oz bottles and may not fit all studio cubbies or bag side pockets." } },
+        { "@type": "Question", "name": "Are Stanley cups good for Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The Stanley Quencher's 40oz capacity, stable wide base, and leak-resistant rotating lid make it well-suited to studio use. The one consideration is size: the 40oz format is notably larger than competing 32oz bottles and may not fit all studio cubbies or bag side pockets." } },
       ],
     },
   ],
@@ -204,7 +204,7 @@ export default function BestPilatesWaterBottlePage() {
                 {[
                   { q: "What size water bottle should I bring to Pilates?", a: "24-32oz is the practical range for most Pilates sessions. A 24oz bottle covers a standard 50-minute class. For double sessions, hot studios, or practitioners who hydrate heavily, 32-40oz is more comfortable. Larger bottles are heavier and take up more space on studio benches and in reformer cubbies." },
                   { q: "Does a water bottle need to be insulated for Pilates?", a: "It depends on your studio and session length. Most studio classes run 50-60 minutes at controlled temperatures, so non-insulated bottles are adequate for single sessions. If you attend double sessions, practice outdoors, or want water consistently cold from start to finish, an insulated bottle is worth the extra cost." },
-                  { q: "Are Stanley cups good for Pilates?", a: "Yes. The Stanley Quencher's 40oz capacity, stable wide base, and leak-resistant rotating lid make it well-suited to studio use. The one consideration is size — the 40oz format is notably larger than competing 32oz bottles and may not fit all studio cubbies or bag side pockets." },
+                  { q: "Are Stanley cups good for Pilates?", a: "Yes. The Stanley Quencher's 40oz capacity, stable wide base, and leak-resistant rotating lid make it well-suited to studio use. The one consideration is size: the 40oz format is notably larger than competing 32oz bottles and may not fit all studio cubbies or bag side pockets." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
@@ -217,8 +217,8 @@ export default function BestPilatesWaterBottlePage() {
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="Best Pilates Bags (2026)" excerpt="Studio totes, duffels, and mat carriers — the complete guide for every type of practitioner." href="/blog/best-pilates-bag" category="Equipment" readTime="7 min read" date="May 2026" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
-                <ArticleCard title="Pilates Studio Bag Essentials" excerpt="Everything you actually need in your Pilates bag — and what you can leave at home." href="/blog/pilates-studio-bag-essentials" category="Guide" readTime="6 min read" date="April 2026" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Bags (2026)" excerpt="Studio totes, duffels, and mat carriers: the complete guide for every type of practitioner." href="/blog/best-pilates-bag" category="Equipment" readTime="7 min read" date="May 2026" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
+                <ArticleCard title="Pilates Studio Bag Essentials" excerpt="Everything you actually need in your Pilates bag, and what you can leave at home." href="/blog/pilates-studio-bag-essentials" category="Guide" readTime="6 min read" date="April 2026" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
                 <ArticleCard title="Best Water Bottle for Lagree (2026): 5 Bottles Ranked" excerpt="The best water bottles for sweaty Lagree classes: LARQ, YETI, Owala and Stanley, compared on one-handed drinking…" href="/blog/best-water-bottle-for-lagree" category="Lagree" readTime="7 min read" imageUrl="/pictures/stitch-water-towel-bench.png" />
                 <ArticleCard title="Best Water Bottle Holders for Spin Bikes (2026)" excerpt="Never lose your water mid-ride. We ranked the best water bottle holders and cages for Peloton, Schwinn…" href="/blog/best-water-bottle-holder-for-spin-bike" category="Spin" readTime="7 min read" imageUrl="/pictures/dane-wetton-AkSJQnem75Y-unsplash.jpg" />
                 <ArticleCard title="Pilates Essentials (2026): Every Must-Have in One List" excerpt="Every Pilates must-have on one page, best, budget and splurge picks, verified in-stock prices, and what the full…" href="/blog/pilates-essentials" category="Guide" readTime="12 min read" imageUrl="/pictures/stitch-pilates-essentials-logbook.png" />

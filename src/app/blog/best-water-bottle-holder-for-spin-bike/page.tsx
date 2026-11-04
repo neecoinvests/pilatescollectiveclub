@@ -193,7 +193,7 @@ const jsonLd = {
           name: "What size water bottle fits a spin bike cage?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Most cages accept standard 74 mm diameter bottles — typically 20 oz to 32 oz sizes. Insulated bottles like a Hydro Flask or YETI Rambler are slightly wider (80 mm) and need an adjustable or side-entry cage to fit securely.",
+            text: "Most cages accept standard 74 mm diameter bottles, typically 20 oz to 32 oz sizes. Insulated bottles like a Hydro Flask or YETI Rambler are slightly wider (80 mm) and need an adjustable or side-entry cage to fit securely.",
           },
         },
         {
@@ -201,7 +201,7 @@ const jsonLd = {
           name: "How do I stop my water bottle from falling out during sprints?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Use a cage with side-entry release (like the Elite Ciussi Evo) rather than a top-loading cage. Side-entry designs grip the bottle from multiple directions and require a deliberate lateral pull to remove — vibration alone won't eject the bottle.",
+            text: "Use a cage with side-entry release (like the Elite Ciussi Evo) rather than a top-loading cage. Side-entry designs grip the bottle from multiple directions and require a deliberate lateral pull to remove: vibration alone won't eject the bottle.",
           },
         },
       ],
@@ -341,11 +341,11 @@ export default function BestWaterBottleHolderPage() {
                 },
                 {
                   q: "What size water bottle fits a spin bike cage?",
-                  a: "Most cages accept standard 74 mm diameter bottles — typically 20 oz to 32 oz sizes. Insulated bottles like a Hydro Flask or YETI Rambler are slightly wider (80 mm) and need an adjustable or side-entry cage to fit securely.",
+                  a: "Most cages accept standard 74 mm diameter bottles, typically 20 oz to 32 oz sizes. Insulated bottles like a Hydro Flask or YETI Rambler are slightly wider (80 mm) and need an adjustable or side-entry cage to fit securely.",
                 },
                 {
                   q: "How do I stop my water bottle from falling out during sprints?",
-                  a: "Use a cage with side-entry release (like the Elite Ciussi Evo) rather than a top-loading cage. Side-entry designs grip the bottle from multiple directions and require a deliberate lateral pull to remove — vibration alone won't eject the bottle.",
+                  a: "Use a cage with side-entry release (like the Elite Ciussi Evo) rather than a top-loading cage. Side-entry designs grip the bottle from multiple directions and require a deliberate lateral pull to remove: vibration alone won't eject the bottle.",
                 },
               ].map((item) => (
                 <div
@@ -408,7 +408,7 @@ export default function BestWaterBottleHolderPage() {
                 />
                 <ArticleCard
                   title="Best Floor Mat for Spin Bike"
-                  excerpt="Protect your floors and reduce vibration with the right equipment mat — compared by thickness, grip, and size."
+                  excerpt="Protect your floors and reduce vibration with the right equipment mat: compared by thickness, grip, and size."
                   href="/blog/best-floor-mat-for-spin-bike"
                   category="Equipment"
                   readTime="6 min"

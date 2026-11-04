@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     description: "Lagree Black Friday 2026: grip socks, fitted leggings and tops, men's kit, gloves, towels, bags and fan merch, with today's Amazon price to beat.",
     type: "article",
     url: PAGE_URL,
-    images: [{ url: HERO_IMAGE, width: 1200, height: 630, alt: "Grip socks on a machine — Lagree clothing and gear Black Friday deals" }],
+    images: [{ url: HERO_IMAGE, width: 1200, height: 630, alt: "Grip socks on a machine: Lagree clothing and gear Black Friday deals" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -36,19 +36,19 @@ const GUIDE: DealsGuideProps = {
   "h1Accent": "Black Friday Deals 2026",
   "readTime": "7 min read",
   "heroImage": "/pictures/stitch-grip-socks-footbar.png",
-  "heroAlt": "Grip socks on a machine — Lagree clothing and gear Black Friday deals",
-  "intro": "Lagree eats through grip socks, towels and fitted kit faster than almost any class — which makes Black Friday the time to stock up. Here are 16 pieces we track on Amazon for Megaformer regulars, men and women, plus the fan merch that makes an easy gift. Each one shows today's price so you can spot a real discount.",
+  "heroAlt": "Grip socks on a machine: Lagree clothing and gear Black Friday deals",
+  "intro": "Lagree eats through grip socks, towels and fitted kit faster than almost any class, which makes Black Friday the time to stock up. Here are 16 pieces we track on Amazon for Megaformer regulars, men and women, plus the fan merch that makes an easy gift. Each one shows today's price so you can spot a real discount.",
   "sections": [
     {
       "id": "socks-hands",
       "title": "Socks, gloves and towels",
-      "intro": "The consumables of Lagree — buy them in bulk when they are discounted.",
+      "intro": "The consumables of Lagree: buy them in bulk when they are discounted.",
       "items": [
         {
           "asin": "B07QHNDHW3",
           "name": "toesox Low Rise Grip Socks (Full Toe, 2-Pack)",
           "badge": "Best grip socks",
-          "note": "Full-toe grip socks — separate toes help you spread your foot on the platform.",
+          "note": "Full-toe grip socks: separate toes help you spread your foot on the platform.",
           "price": "$30.00"
         },
         {
@@ -126,7 +126,7 @@ const GUIDE: DealsGuideProps = {
     {
       "id": "men",
       "title": "Fitted kit for men",
-      "intro": "Lined shorts and fitted tops — the two things men get wrong in their first class.",
+      "intro": "Lined shorts and fitted tops: the two things men get wrong in their first class.",
       "items": [
         {
           "asin": "B08BNFYKXR",
@@ -147,7 +147,7 @@ const GUIDE: DealsGuideProps = {
     {
       "id": "merch-bags",
       "title": "Bags and fan merch",
-      "intro": "For carrying it all — and for gifting. The fan designs are unofficial, not Lagree Fitness products.",
+      "intro": "For carrying it all, and for gifting. The fan designs are unofficial, not Lagree Fitness products.",
       "items": [
         {
           "asin": "B07RQHPBHC",
@@ -160,14 +160,14 @@ const GUIDE: DealsGuideProps = {
           "asin": "B0CY821PTP",
           "name": "I Love Lagree Pullover Hoodie",
           "badge": "Fan hoodie",
-          "note": "Unofficial fan design, sold by Amazon.com — not made or endorsed by Lagree Fitness.",
+          "note": "Unofficial fan design, sold by Amazon.com, not made or endorsed by Lagree Fitness.",
           "price": "$31.99"
         },
         {
           "asin": "B0G1KV5CTD",
           "name": "Lagree Superstar Tank Top",
           "badge": "Fan tank",
-          "note": "Unofficial retro fan design, sold by Amazon.com — not affiliated with Lagree Fitness.",
+          "note": "Unofficial retro fan design, sold by Amazon.com, not affiliated with Lagree Fitness.",
           "price": "$18.99"
         },
         {
@@ -183,7 +183,7 @@ const GUIDE: DealsGuideProps = {
   "watchFor": [
     {
       "h": "Check the 30-day price, not the strikethrough.",
-      "b": "Amazon's 'List' or 'Was' price can be set by the seller. Compare the Black Friday price with the price we recorded here in October — that is the real saving."
+      "b": "Amazon's 'List' or 'Was' price can be set by the seller. Compare the Black Friday price with the price we recorded here in October: that is the real saving."
     },
     {
       "h": "Check who is selling.",
@@ -197,7 +197,7 @@ const GUIDE: DealsGuideProps = {
   "faqs": [
     {
       "q": "What Lagree gear is worth buying on Black Friday?",
-      "a": "Grip socks, towels and fitted leggings or tops — you go through them fastest. Stock up when they are discounted."
+      "a": "Grip socks, towels and fitted leggings or tops: you go through them fastest. Stock up when they are discounted."
     },
     {
       "q": "Is there official Lagree merch on Amazon?",

@@ -47,7 +47,7 @@ const PRODUCTS = [
     name: "Balanced Body Sitting Box Lite",
     price: "$150",
     verdict: "The professional-tier reformer short/sitting box sold on Amazon",
-    description: "A note before anything else: we checked for brand-matched short boxes from Merrithew, Align Pilates, AeroPilates, and Peak Pilates, and none turned up as real, live Amazon listings under those names — the specific carriage-width and construction claims attached to them were not verifiable either. This Balanced Body Sitting Box Lite is the real, currently-sold professional-tier Amazon accessory: it sits on the carriage for rollback, tree, flat back, and oblique work rather than mounting to a specific frame, so it isn't cut to one brand's exact carriage width the way a true OEM box would be. Check its dimensions against your own reformer's carriage before ordering, since it is not built specifically for every model.",
+    description: "A note before anything else: we checked for brand-matched short boxes from Merrithew, Align Pilates, AeroPilates, and Peak Pilates, and none turned up as real, live Amazon listings under those names, the specific carriage-width and construction claims attached to them were not verifiable either. This Balanced Body Sitting Box Lite is the real, currently-sold professional-tier Amazon accessory: it sits on the carriage for rollback, tree, flat back, and oblique work rather than mounting to a specific frame, so it isn't cut to one brand's exact carriage width the way a true OEM box would be. Check its dimensions against your own reformer's carriage before ordering, since it is not built specifically for every model.",
     affiliateUrl: "https://www.amazon.com/dp/B0723DT2JP?tag=pilatescollective-20",
     tag: "Professional Tier · The Real Listing",
   },
@@ -55,7 +55,7 @@ const PRODUCTS = [
     rank: "02",
     name: "VEVOR Pilates Box for Reformer",
     price: "$54.80",
-    verdict: "Real budget pick — sold directly by Amazon.com itself",
+    verdict: "Real budget pick, sold directly by Amazon.com itself",
     description: "Sold by Amazon.com directly, which is worth noting on its own. At 25x17x9in, this is a genuine, currently-sold plywood box with metal-frame reinforcement and a PU-leather-and-sponge cover, at roughly a third of the Balanced Body price. It is a genuine budget option, not a compromise dressed up as one, for anyone who just needs a box that supports the short-box repertoire without the professional-tier price tag. Confirm the dimensions against your own reformer's carriage width before ordering, the same caveat that applies to every box in this guide, including Balanced Body's.",
     affiliateUrl: "https://www.amazon.com/dp/B0F4KH1CS2?tag=pilatescollective-20",
     tag: "Budget Tier · Real Listing",
@@ -64,8 +64,8 @@ const PRODUCTS = [
     rank: "03",
     name: "WINDFOOT Pilates Reformer Box",
     price: "$57.99",
-    verdict: "Real budget pick — 800lb load rating and a carry handle",
-    description: "Sold by YIWU MUZHU on Amazon. A second genuine budget-tier option at a similar price to the VEVOR box, with a claimed 800lb load-bearing capacity and a built-in carry handle for portability between a home studio and storage. As with every box in this guide, confirm dimensions against your reformer's carriage before ordering — a box that rocks during rollback work is a real safety issue regardless of price tier.",
+    verdict: "Real budget pick, 800lb load rating and a carry handle",
+    description: "Sold by YIWU MUZHU on Amazon. A second genuine budget-tier option at a similar price to the VEVOR box, with a claimed 800lb load-bearing capacity and a built-in carry handle for portability between a home studio and storage. As with every box in this guide, confirm dimensions against your reformer's carriage before ordering: a box that rocks during rollback work is a real safety issue regardless of price tier.",
     affiliateUrl: "https://www.amazon.com/dp/B0D1C8D8G5?tag=pilatescollective-20",
     tag: "Budget Tier · Real Listing",
   },
@@ -74,7 +74,7 @@ const PRODUCTS = [
     name: "Murago Pilates Box",
     price: "$59.99",
     verdict: "A third genuine budget option in the same price band",
-    description: "Sold by Murago Store on Amazon. A third real, currently-sold budget-tier box in the same roughly $55-60 range as VEVOR and WINDFOOT — worth comparing directly against those two listings for current stock, construction details, and owner reviews before choosing, since all three occupy the same budget tier below Balanced Body's professional Sitting Box Lite.",
+    description: "Sold by Murago Store on Amazon. A third real, currently-sold budget-tier box in the same roughly $55-60 range as VEVOR and WINDFOOT: worth comparing directly against those two listings for current stock, construction details, and owner reviews before choosing, since all three occupy the same budget tier below Balanced Body's professional Sitting Box Lite.",
     affiliateUrl: "https://www.amazon.com/dp/B0DZ67GSGN?tag=pilatescollective-20",
     tag: "Budget Tier · Real Listing",
   },
@@ -86,7 +86,7 @@ const jsonLd = {
     {
       "@type": "Article",
       headline: "Best Pilates Reformer Short Box (2026): Professional to Budget, 4 Real Options",
-      description: "The real, verified reformer sitting/short boxes sold on Amazon — Balanced Body's professional Sitting Box Lite plus real budget alternatives from VEVOR, WINDFOOT and Murago around $55-60 — and an honest note on the brand-specific boxes we could not verify.",
+      description: "The real, verified reformer sitting/short boxes sold on Amazon (Balanced Body's professional Sitting Box Lite plus real budget alternatives from VEVOR, WINDFOOT and Murago around $55-60) and an honest note on the brand-specific boxes we could not verify.",
       url: "https://pilatescollectiveclub.com/blog/best-pilates-reformer-short-box",
       datePublished: "2026-06-28",
       dateModified: "2026-10-20",
@@ -124,22 +124,22 @@ const jsonLd = {
         {
           "@type": "Question",
           name: "What is a Pilates reformer short box used for?",
-          acceptedAnswer: { "@type": "Answer", text: "The short box sits on the reformer carriage and supports a series of seated and supine exercises — including rollback, tree, flat back, oblique twist, and back extension. It elevates the practitioner above the carriage rails and provides a stable base for spinal articulation and hip flexor work." },
+          acceptedAnswer: { "@type": "Answer", text: "The short box sits on the reformer carriage and supports a series of seated and supine exercises, including rollback, tree, flat back, oblique twist, and back extension. It elevates the practitioner above the carriage rails and provides a stable base for spinal articulation and hip flexor work." },
         },
         {
           "@type": "Question",
           name: "Are reformer short boxes universal or brand-specific?",
-          acceptedAnswer: { "@type": "Answer", text: "OEM boxes are typically cut to a specific brand's carriage width, but we could not verify live Amazon listings for brand-matched short boxes from Merrithew, Align Pilates, AeroPilates, or Peak Pilates. The real Amazon-sold options we verified — Balanced Body's Sitting Box Lite and the budget boxes from VEVOR, WINDFOOT and Murago — all sit on the carriage rather than mounting to a specific frame, so check dimensions against your reformer before assuming a perfect fit, regardless of which one you choose." },
+          acceptedAnswer: { "@type": "Answer", text: "OEM boxes are typically cut to a specific brand's carriage width, but we could not verify live Amazon listings for brand-matched short boxes from Merrithew, Align Pilates, AeroPilates, or Peak Pilates. The real Amazon-sold options we verified (Balanced Body's Sitting Box Lite and the budget boxes from VEVOR, WINDFOOT and Murago) all sit on the carriage rather than mounting to a specific frame, so check dimensions against your reformer before assuming a perfect fit, regardless of which one you choose." },
         },
         {
           "@type": "Question",
           name: "Is there a budget alternative to the Balanced Body Sitting Box Lite?",
-          acceptedAnswer: { "@type": "Answer", text: "Yes. The Balanced Body Sitting Box Lite, at $150, is the professional tier. VEVOR ($54.80, sold directly by Amazon.com), WINDFOOT ($57.99, 800lb load rating) and Murago ($59.99) are real, currently-sold budget boxes in the same roughly $55-60 range — a genuine budget option, not a compromise, for anyone who just needs a box that supports the short-box repertoire." },
+          acceptedAnswer: { "@type": "Answer", text: "Yes. The Balanced Body Sitting Box Lite, at $150, is the professional tier. VEVOR ($54.80, sold directly by Amazon.com), WINDFOOT ($57.99, 800lb load rating) and Murago ($59.99) are real, currently-sold budget boxes in the same roughly $55-60 range: a genuine budget option, not a compromise, for anyone who just needs a box that supports the short-box repertoire." },
         },
         {
           "@type": "Question",
           name: "Can I use a long box as a short box?",
-          acceptedAnswer: { "@type": "Answer", text: "No — they serve different purposes. The short box is a compact square/rectangular platform for seated exercises and rollback series. The long box is a narrower elongated board used for prone back extension, swimming, and rowing exercises. Most studios and advanced home practitioners eventually invest in both." },
+          acceptedAnswer: { "@type": "Answer", text: "No: they serve different purposes. The short box is a compact square/rectangular platform for seated exercises and rollback series. The long box is a narrower elongated board used for prone back extension, swimming, and rowing exercises. Most studios and advanced home practitioners eventually invest in both." },
         },
       ],
     },
@@ -167,7 +167,7 @@ export default function BestPilatesReformerShortBoxPage() {
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <hr style={{ borderColor: "#e8e0db" }} className="mb-8" />
             <p className="text-lg leading-relaxed" style={{ color: "#5c4a3d" }}>
-              The short box unlocks an entire chapter of the Pilates repertoire — rollback series, tree, flat back, oblique twist, and back extension — that simply cannot be done properly without one. We went looking for brand-matched short boxes from Merrithew, Align Pilates, AeroPilates, and Peak Pilates and could not find genuine, currently-sold Amazon listings for any of them — the model-specific carriage-width and construction claims attached to those searches were not verifiable either. What we did find, real and currently sold, is the professional-tier Balanced Body Sitting Box Lite at $150, plus three genuine budget alternatives from VEVOR, WINDFOOT and Murago, each around $55-60 — a real budget option, not a compromise, for anyone who just needs a box that works.
+              The short box unlocks an entire chapter of the Pilates repertoire (rollback series, tree, flat back, oblique twist, and back extension) that simply cannot be done properly without one. We went looking for brand-matched short boxes from Merrithew, Align Pilates, AeroPilates, and Peak Pilates and could not find genuine, currently-sold Amazon listings for any of them: the model-specific carriage-width and construction claims attached to those searches were not verifiable either. What we did find, real and currently sold, is the professional-tier Balanced Body Sitting Box Lite at $150, plus three genuine budget alternatives from VEVOR, WINDFOOT and Murago, each around $55-60: a real budget option, not a compromise, for anyone who just needs a box that works.
             </p>
           </div>
         </section>
@@ -200,7 +200,7 @@ export default function BestPilatesReformerShortBoxPage() {
               <div className="space-y-5 text-base leading-relaxed" style={{ color: "#5c4a3d" }}>
                 <div>
                   <h3 className="font-semibold mb-1" style={{ color: "#2d1f17" }}>Match your reformer&apos;s carriage</h3>
-                  <p>Carriage widths and rail heights genuinely vary between reformer brands, and we could not independently verify exact measurements for every model on the market. A box sized for a different carriage may rock during rollbacks — potentially dangerous. Measure your own reformer&apos;s carriage and check it against the current listing rather than trusting a quoted range.</p>
+                  <p>Carriage widths and rail heights genuinely vary between reformer brands, and we could not independently verify exact measurements for every model on the market. A box sized for a different carriage may rock during rollbacks: potentially dangerous. Measure your own reformer&apos;s carriage and check it against the current listing rather than trusting a quoted range.</p>
                 </div>
                 <div>
                   <h3 className="font-semibold mb-1" style={{ color: "#2d1f17" }}>Padding density</h3>
@@ -212,7 +212,7 @@ export default function BestPilatesReformerShortBoxPage() {
                 </div>
                 <div>
                   <h3 className="font-semibold mb-1" style={{ color: "#2d1f17" }}>Professional vs budget tier</h3>
-                  <p>Balanced Body&apos;s Sitting Box Lite, at $150, is the professional tier — a name-brand build most likely to appear in a working studio. VEVOR, WINDFOOT and Murago sell real, currently-sold budget boxes around $55-60. They are a genuine budget option, not a compromise, for a home practitioner who just needs a box that supports the repertoire without the professional-tier price.</p>
+                  <p>Balanced Body&apos;s Sitting Box Lite, at $150, is the professional tier: a name-brand build most likely to appear in a working studio. VEVOR, WINDFOOT and Murago sell real, currently-sold budget boxes around $55-60. They are a genuine budget option, not a compromise, for a home practitioner who just needs a box that supports the repertoire without the professional-tier price.</p>
                 </div>
               </div>
             </div>
@@ -223,7 +223,7 @@ export default function BestPilatesReformerShortBoxPage() {
                 We looked for brand-matched short boxes from Merrithew (for SPX/V2 Max), Align Pilates (A/C/F3 series), AeroPilates (4700/5500/7500 series), and Peak Pilates (MVe/FIT), plus a &quot;universal&quot; foam-pad option. We could not find live Amazon listings for any of them under the names searched, and the carriage compatibility, padding density, and strap features quoted for them elsewhere could not be independently verified, so none of them appear in this list.
               </p>
               <p className="text-base leading-relaxed" style={{ color: "#5c4a3d" }}>
-                If you own one of those reformers and want a genuine, brand-matched short box, the most reliable path is contacting the manufacturer directly, or checking Amazon yourself for the current live listing under your exact model — rather than trusting a specific product name or spec quoted on a third-party page.
+                If you own one of those reformers and want a genuine, brand-matched short box, the most reliable path is contacting the manufacturer directly, or checking Amazon yourself for the current live listing under your exact model, rather than trusting a specific product name or spec quoted on a third-party page.
               </p>
             </div>
 
@@ -244,7 +244,7 @@ export default function BestPilatesReformerShortBoxPage() {
               <div className="grid md:grid-cols-2 gap-6">
                 <ArticleCard
                   title="Best Pilates Reformer Accessories (2026): Springs, Boxes & More"
-                  excerpt="The accessories that expand what your home reformer can do — from jump boards to tower attachments."
+                  excerpt="The accessories that expand what your home reformer can do, from jump boards to tower attachments."
                   href="/blog/best-pilates-reformer-accessories"
                   category="Equipment"
                   readTime="8 min"
@@ -253,7 +253,7 @@ export default function BestPilatesReformerShortBoxPage() {
                 />
                 <ArticleCard
                   title="Best Pilates Jumpboard (2026): Cardio Attachment Reviewed"
-                  excerpt="The jumpboards that add low-impact cardio to your reformer — Balanced Body, Merrithew, and universal options compared."
+                  excerpt="The jumpboards that add low-impact cardio to your reformer: Balanced Body, Merrithew, and universal options compared."
                   href="/blog/best-pilates-jumpboard"
                   category="Equipment"
                   readTime="7 min"

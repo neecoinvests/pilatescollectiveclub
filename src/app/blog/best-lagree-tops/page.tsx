@@ -16,10 +16,10 @@ export const metadata: Metadata = {
   keywords: ["lagree tops", "best tops for lagree", "lagree tank top", "what to wear to lagree top", "workout tank for megaformer", "lagree outfit", "lagree workout top", "megaformer top", "fitted workout tank", "what to wear to lagree"],
   openGraph: {
     title: "Best Lagree Tops (2026): Fitted Tanks That Stay Put",
-    description: "Five tops for Lagree, chosen for fit, sweat and the Megaformer — with Amazon prices verified October 2026.",
+    description: "Five tops for Lagree, chosen for fit, sweat and the Megaformer, with Amazon prices verified October 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-lagree-tops",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/stitch-retail-activewear.png", width: 1200, height: 630, alt: "Best Lagree Tops — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/stitch-retail-activewear.png", width: 1200, height: 630, alt: "Best Lagree Tops: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -40,7 +40,7 @@ const PRODUCTS = [
     price: "$32.00",
     verdict: "Best overall Lagree top",
     description:
-      "The default we would suggest for most people. It is a racerback tank in CRZ YOGA's Butterluxe fabric — the same soft-handfeel line as the Butterluxe leggings and biker shorts we recommend elsewhere in our Lagree guides, so it is easy to build a matching outfit. The racerback cut is the right shape for the Megaformer: it leaves your shoulder blades free for plank series, rows and overhead work, and there is no loose sleeve or wide armhole for a handle strap to slip into. Choose your size so the tank sits close to the body rather than draping; that is what stops the hem riding up to your chest when you drop into a plank or flip it over your head in an inversion. It layers over any of the sports bras in our Lagree bra guide. Soft fabrics like this are about comfort first, so if you sweat very heavily, the Under Armour Tech Tank below is the more technical alternative.",
+      "The default we would suggest for most people. It is a racerback tank in CRZ YOGA's Butterluxe fabric: the same soft-handfeel line as the Butterluxe leggings and biker shorts we recommend elsewhere in our Lagree guides, so it is easy to build a matching outfit. The racerback cut is the right shape for the Megaformer: it leaves your shoulder blades free for plank series, rows and overhead work, and there is no loose sleeve or wide armhole for a handle strap to slip into. Choose your size so the tank sits close to the body rather than draping; that is what stops the hem riding up to your chest when you drop into a plank or flip it over your head in an inversion. It layers over any of the sports bras in our Lagree bra guide. Soft fabrics like this are about comfort first, so if you sweat very heavily, the Under Armour Tech Tank below is the more technical alternative.",
     affiliateUrl: amazon("B09X9Y5S8G"),
     tag: "Best Overall",
   },
@@ -48,9 +48,9 @@ const PRODUCTS = [
     rank: "02",
     name: "Varley Marla Button Placket Tank (Black)",
     price: "$89.60",
-    verdict: "Premium pick — studio to street",
+    verdict: "Premium pick: studio to street",
     description:
-      "For the person whose Lagree class sits between a commute and brunch. Varley is a studio staple, and the Marla is its button-placket tank: the placket gives it more of a going-out look than a standard training tank, which is the point — you can walk out of class and not look like you just walked out of class. In black it pairs with almost anything, including the Varley Freesoft leggings and bralette in our Lagree leggings and bra guides. The Lagree-specific notes are about the buttons and fit. A front placket stays clear of the carriage in supine work, but check how the buttons feel in kneeling and face-down sequences before you commit to it as a class top. And size so it sits close to the body; a top that hangs away will ride up in plank. It is sold on Amazon through Shopbop, an Amazon company. It is a style choice more than a performance one, and priced accordingly.",
+      "For the person whose Lagree class sits between a commute and brunch. Varley is a studio staple, and the Marla is its button-placket tank: the placket gives it more of a going-out look than a standard training tank, which is the point, you can walk out of class and not look like you just walked out of class. In black it pairs with almost anything, including the Varley Freesoft leggings and bralette in our Lagree leggings and bra guides. The Lagree-specific notes are about the buttons and fit. A front placket stays clear of the carriage in supine work, but check how the buttons feel in kneeling and face-down sequences before you commit to it as a class top. And size so it sits close to the body; a top that hangs away will ride up in plank. It is sold on Amazon through Shopbop, an Amazon company. It is a style choice more than a performance one, and priced accordingly.",
     affiliateUrl: amazon("B0FP3MWK1Z"),
     tag: "Premium Pick",
   },
@@ -78,9 +78,9 @@ const PRODUCTS = [
     rank: "05",
     name: "Under Armour Women's Tech Knockout Tank",
     price: "$34.20",
-    verdict: "Best relaxed fit — tuck or tie it",
+    verdict: "Best relaxed fit: tuck or tie it",
     description:
-      "Not everyone wants a close-fitting top, and that is fine — but on the Megaformer a relaxed tank needs managing. This Under Armour tank has a looser cut than the others here, which is comfortable in a warm studio and more forgiving if you are self-conscious in fitted kit. The trade-off is fabric that hangs away from the body: in a plank it drops towards the carriage, in an inversion it heads for your face, and in lunges and handle work loose fabric has a habit of brushing springs and getting caught under the carriage edge. The fix is simple: tuck it into high-waisted leggings or knot the hem at the side before class. Do that and you get the comfort of a relaxed fit without the hassle. It is sold by Amazon.com. If you find yourself always tying it, the CRZ crop above is the version that does not need it.",
+      "Not everyone wants a close-fitting top, and that is fine, but on the Megaformer a relaxed tank needs managing. This Under Armour tank has a looser cut than the others here, which is comfortable in a warm studio and more forgiving if you are self-conscious in fitted kit. The trade-off is fabric that hangs away from the body: in a plank it drops towards the carriage, in an inversion it heads for your face, and in lunges and handle work loose fabric has a habit of brushing springs and getting caught under the carriage edge. The fix is simple: tuck it into high-waisted leggings or knot the hem at the side before class. Do that and you get the comfort of a relaxed fit without the hassle. It is sold by Amazon.com. If you find yourself always tying it, the CRZ crop above is the version that does not need it.",
     affiliateUrl: amazon("B0D1613L6S"),
     tag: "Best Relaxed Fit",
   },
@@ -90,7 +90,7 @@ const FAQS = [
   { q: "What kind of top should you wear to Lagree?", a: "A fitted, sweat-wicking tank or crop worn over a supportive sports bra. Fitted matters because so much of Lagree is in planks, inversions and kneeling work, where a loose top slides towards your chin or flips over your head, and loose fabric can catch on springs, straps and handles. Sweat-wicking matters because Lagree is slow and continuous, and most people sweat heavily for the whole class." },
   { q: "Can you wear a loose T-shirt to Lagree?", a: "You can, but most people only do it once. A loose tee rides up in every plank, hangs down towards the carriage, and can catch on the springs or a handle as you reach for it. If you prefer a relaxed fit, tuck it into high-waisted leggings or tie the hem at the side, or choose a crop so there is no hem to manage at all." },
   { q: "Is a cotton top OK for Lagree?", a: "It is not ideal. Cotton absorbs sweat and holds it, so in a hot, sweaty Lagree class a cotton top gets heavy, clingy and cold once you stop moving. Technical synthetic knits are designed to move moisture to the surface where it can evaporate, which is why most Lagree regulars wear them." },
-  { q: "Can you just wear a sports bra to Lagree?", a: "Yes, and plenty of people do, especially in hot studios. Longline sports bras are popular for exactly this reason, because the longer band gives more coverage than a standard crop. A tank or crop on top is a personal preference — useful if you want more coverage or are heading out after class." },
+  { q: "Can you just wear a sports bra to Lagree?", a: "Yes, and plenty of people do, especially in hot studios. Longline sports bras are popular for exactly this reason, because the longer band gives more coverage than a standard crop. A tank or crop on top is a personal preference: useful if you want more coverage or are heading out after class." },
   { q: "How many Lagree tops do you need?", a: "One per class between washes. Lagree sweat is continuous and technical fabrics hold odour once worn damp, so rewearing is not realistic. Two or three tops for a two- or three-class week is a sensible starting point. Wash cold and air dry to protect the stretch fibres." },
 ];
 
@@ -161,7 +161,7 @@ export default function BestLagreeTopsPage() {
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              The best Lagree top is the one you forget you are wearing. On the Megaformer that means fitted rather than loose: so much of the class happens in planks, inversions and kneeling work that a loose top spends the session sliding towards your chin, flipping over your head, or brushing the springs and handles. Add the heavy, continuous sweat of a slow-tempo class and the brief is clear — close to the body, sweat-wicking, and layered over a sports bra that does the support work. Below are four tops on Amazon that fit that brief, plus one relaxed tank and how to wear it.
+              The best Lagree top is the one you forget you are wearing. On the Megaformer that means fitted rather than loose: so much of the class happens in planks, inversions and kneeling work that a loose top spends the session sliding towards your chin, flipping over your head, or brushing the springs and handles. Add the heavy, continuous sweat of a slow-tempo class and the brief is clear: close to the body, sweat-wicking, and layered over a sports bra that does the support work. Below are four tops on Amazon that fit that brief, plus one relaxed tank and how to wear it.
             </p>
           </div>
         </section>
@@ -179,10 +179,10 @@ export default function BestLagreeTopsPage() {
             <div className="mb-12 mt-4">
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What a Lagree class asks of a top</h2>
               <div className="space-y-4 text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-                <p>A top does less work than any other piece of Lagree kit — your sports bra handles support, your grip socks handle traction — but it is the piece most likely to get in the way. The Megaformer puts your body in positions most gym classes do not. You hold planks on a moving carriage with your hands on the front platform, you tip forward into bear and crawl positions, you kneel on the carriage, and you reach for handles and straps at the ends of the machine. Every one of those positions tips your torso forward or upside down, and gravity takes a loose hem with it.</p>
-                <p>That is the main reason fitted beats loose. A top that sits close to the body stays where you put it; one that drapes rides up to your chest in a plank, flips over your head in an inversion, and hangs down towards the carriage where it can brush the springs or get caught under a handle. It sounds minor until you have spent a 45-minute class tugging your shirt back down between every set — or had to stop mid-plank because you cannot see.</p>
+                <p>A top does less work than any other piece of Lagree kit (your sports bra handles support, your grip socks handle traction) but it is the piece most likely to get in the way. The Megaformer puts your body in positions most gym classes do not. You hold planks on a moving carriage with your hands on the front platform, you tip forward into bear and crawl positions, you kneel on the carriage, and you reach for handles and straps at the ends of the machine. Every one of those positions tips your torso forward or upside down, and gravity takes a loose hem with it.</p>
+                <p>That is the main reason fitted beats loose. A top that sits close to the body stays where you put it; one that drapes rides up to your chest in a plank, flips over your head in an inversion, and hangs down towards the carriage where it can brush the springs or get caught under a handle. It sounds minor until you have spent a 45-minute class tugging your shirt back down between every set, or had to stop mid-plank because you cannot see.</p>
                 <p>The second factor is sweat. Lagree is slow by design, with long time under tension and very little rest, and studios tend to run warm. Most people sweat heavily and continuously, which is why synthetic training knits that move moisture away from the skin are the norm, and cotton is not. The third is layering: almost everyone wears a top over a sports bra, so the top only needs to cover and stay put. Racerback cuts work well here because they leave the shoulder blades free and line up with most sports bra backs.</p>
-                <p>How we chose: we picked fitted tanks, a crop and one relaxed tank from established brands on Amazon, confirmed each listing was in stock, and verified the prices on October 2, 2026. The notes below explain our reasoning — the cut, the fabric each brand lists, and how that plays out on the Megaformer — based on the listings and general fit logic, not on lab results.</p>
+                <p>How we chose: we picked fitted tanks, a crop and one relaxed tank from established brands on Amazon, confirmed each listing was in stock, and verified the prices on October 2, 2026. The notes below explain our reasoning (the cut, the fabric each brand lists, and how that plays out on the Megaformer) based on the listings and general fit logic, not on lab results.</p>
               </div>
             </div>
 
@@ -216,7 +216,7 @@ export default function BestLagreeTopsPage() {
                 {[
                   "Fitted over loose. A close fit stays put in planks and inversions; a draping top rides up and flips over your head.",
                   "Do the plank test at home: drop into a plank in front of a mirror. If the hem slides towards your chest, size down, tuck it, or choose a crop.",
-                  "Avoid long ties, drawstrings and loose fabric near the waist — they can catch on springs, straps and the carriage edge.",
+                  "Avoid long ties, drawstrings and loose fabric near the waist: they can catch on springs, straps and the carriage edge.",
                   "Choose synthetic, sweat-wicking fabric over cotton. Cotton holds sweat and gets heavy and clingy.",
                   "Racerbacks leave your shoulder blades free for rows and plank work and sit neatly over most sports bra backs.",
                   "Buy two or three. Lagree sweat is continuous, and technical fabric holds odour once worn damp.",
@@ -244,8 +244,8 @@ export default function BestLagreeTopsPage() {
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="Best Sports Bra for Lagree" excerpt="High, mid and light support picks for Megaformer classes — and what to check on the back before you buy." href="/blog/best-sports-bra-for-lagree" category="Lagree" readTime="9 min read" date="October 2026" imageUrl="/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg" />
-                <ArticleCard title="Best Leggings for Lagree" excerpt="Fabric, rise and grip on a moving carriage — the leggings that stay put through lunges and planks." href="/blog/best-leggings-for-lagree" category="Lagree" readTime="8 min read" date="October 2026" imageUrl="/pictures/stitch-retail-activewear.png" />
+                <ArticleCard title="Best Sports Bra for Lagree" excerpt="High, mid and light support picks for Megaformer classes, and what to check on the back before you buy." href="/blog/best-sports-bra-for-lagree" category="Lagree" readTime="9 min read" date="October 2026" imageUrl="/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg" />
+                <ArticleCard title="Best Leggings for Lagree" excerpt="Fabric, rise and grip on a moving carriage: the leggings that stay put through lunges and planks." href="/blog/best-leggings-for-lagree" category="Lagree" readTime="8 min read" date="October 2026" imageUrl="/pictures/stitch-retail-activewear.png" />
                 <ArticleCard title="Best Lagree Shorts" excerpt="Biker shorts that do not ride up on the carriage, plus men's options with and without liners." href="/blog/best-lagree-shorts" category="Lagree" readTime="8 min read" date="October 2026" imageUrl="/pictures/stitch-retail-activewear.png" />
                 <ArticleCard title="Lagree Essentials" excerpt="Everything worth bringing to a Lagree class, from grip socks to a sweat towel." href="/blog/lagree-essentials" category="Lagree" readTime="8 min read" imageUrl="/pictures/stitch-hands-on-carriage.png" />
               </div>

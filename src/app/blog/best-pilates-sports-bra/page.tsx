@@ -12,18 +12,18 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Sports Bras (2026): 5 Picks for Reformer",
-  description: "Eight sports bras compared on Pilates — light to medium support judged on reformer coverage, strap stability and how the back feels lying down.",
+  description: "Eight sports bras compared on Pilates: light to medium support judged on reformer coverage, strap stability and how the back feels lying down.",
   openGraph: {
     title: "Best Sports Bras for Pilates (2026): Coverage & Studio Style",
-    description: "The bra your instructor is wearing — and the four alternatives worth considering across every price point.",
+    description: "The bra your instructor is wearing, and the four alternatives worth considering across every price point.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-sports-bra",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg", width: 1200, height: 630, alt: "Best Sports Bras for Pilates — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg", width: 1200, height: 630, alt: "Best Sports Bras for Pilates: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Best Sports Bras for Pilates (2026)",
-    description: "The best sports bras for Pilates — honest reviews from Lululemon to Alo to Girlfriend Collective.",
+    description: "The best sports bras for Pilates: honest reviews from Lululemon to Alo to Girlfriend Collective.",
     images: ["https://pilatescollectiveclub.com/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg"],
   },
   keywords: ["best pilates sports bra", "sports bra for pilates 2026", "best bra for reformer pilates", "pilates sports bra coverage", "lululemon sports bra pilates", "alo sports bra pilates", "sweaty betty bra pilates", "light support bra pilates"],
@@ -41,7 +41,7 @@ const PRODUCTS = [
     verdict: "Best overall",
     tag: "Editor's Pick",
     description:
-      "The Free to Be is the gold standard for Pilates. Buttery-soft Nulu fabric, a scoop neck that stays in place through every roll-down and swan, and just enough structure for medium-impact work. The internal shelf provides coverage in inversions without restrictive underwire. It is the bra your instructor is wearing — there is a reason for that. Not sold on Amazon: this link goes to Lululemon's own site.",
+      "The Free to Be is the gold standard for Pilates. Buttery-soft Nulu fabric, a scoop neck that stays in place through every roll-down and swan, and just enough structure for medium-impact work. The internal shelf provides coverage in inversions without restrictive underwire. It is the bra your instructor is wearing: there is a reason for that. Not sold on Amazon: this link goes to Lululemon's own site.",
     affiliateUrl: "https://shop.lululemon.com",
   },
   {
@@ -51,7 +51,7 @@ const PRODUCTS = [
     verdict: "Best for open-back studios",
     tag: "Studio Favourite",
     description:
-      "The Airlift Bra defines the boutique studio aesthetic. The spaghetti strap and open keyhole back look exceptional, but the real story is the fabric — Alo's signature Airlift material lifts and compresses without wires. Medium support, excellent shape retention, and the only bra in this roundup that genuinely improves with wear. One caveat: the open back requires a long tank or legging with a high waist. Not sold on Amazon: this link goes to Alo Yoga's own site.",
+      "The Airlift Bra defines the boutique studio aesthetic. The spaghetti strap and open keyhole back look exceptional, but the real story is the fabric: Alo's signature Airlift material lifts and compresses without wires. Medium support, excellent shape retention, and the only bra in this roundup that genuinely improves with wear. One caveat: the open back requires a long tank or legging with a high waist. Not sold on Amazon: this link goes to Alo Yoga's own site.",
     affiliateUrl: "https://www.aloyoga.com",
   },
   {
@@ -71,7 +71,7 @@ const PRODUCTS = [
     verdict: "Best value",
     tag: "Best Value",
     description:
-      "At roughly half the price of Lululemon or Alo, the Gymshark Flex Strappy punches genuinely well. Medium support, good coverage through inversions, attractive strappy back detail, and the Flex fabric holds shape wash after wash. The main difference from the premium options is a slightly less luxurious fabric feel — but the functional performance is excellent for its price. Not sold on Amazon: this link goes to Gymshark's own site.",
+      "At roughly half the price of Lululemon or Alo, the Gymshark Flex Strappy punches genuinely well. Medium support, good coverage through inversions, attractive strappy back detail, and the Flex fabric holds shape wash after wash. The main difference from the premium options is a slightly less luxurious fabric feel, but the functional performance is excellent for its price. Not sold on Amazon: this link goes to Gymshark's own site.",
     affiliateUrl: "https://www.gymshark.com",
   },
   {
@@ -93,7 +93,7 @@ const FAQS = [
   },
   {
     q: "Is a low or high impact sports bra better for Pilates?",
-    a: "Low to medium impact. Pilates is not a running or jumping workout — high-impact encapsulation bras are unnecessary. A light-to-medium compression bralette gives shape, coverage, and comfort without the restrictive feel of a heavy-duty sports bra.",
+    a: "Low to medium impact. Pilates is not a running or jumping workout: high-impact encapsulation bras are unnecessary. A light-to-medium compression bralette gives shape, coverage, and comfort without the restrictive feel of a heavy-duty sports bra.",
   },
   {
     q: "What is the most popular sports bra brand at Pilates studios?",
@@ -198,7 +198,7 @@ export default function BestPilatesSportsBraPage() {
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              The sports bra question matters more in Pilates than in almost any other workout. Your instructor needs to see your ribcage expansion during breathing, your shoulder blade position during rowing, and your spinal curve through every transition. The wrong bra — overly padded, poorly fitted, or with thick crossing straps — obscures exactly the landmarks your instructor uses to cue you. This guide covers the five best options for every studio scenario and price point.
+              The sports bra question matters more in Pilates than in almost any other workout. Your instructor needs to see your ribcage expansion during breathing, your shoulder blade position during rowing, and your spinal curve through every transition. The wrong bra (overly padded, poorly fitted, or with thick crossing straps) obscures exactly the landmarks your instructor uses to cue you. This guide covers the five best options for every studio scenario and price point.
             </p>
           </div>
         </section>
@@ -221,9 +221,9 @@ export default function BestPilatesSportsBraPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[
                   { heading: "Instructor sightlines", body: "Your instructor needs to see your spine, ribcage, and shoulder alignment. Avoid thick crossed straps, high racer backs, or bulky padding that obscures these landmarks." },
-                  { heading: "Inversion coverage", body: "Roll-downs, the hundred, and short spine massage all involve positions where a bra needs to stay put. Test coverage before buying — a bra that shifts in a forward fold is not suitable." },
+                  { heading: "Inversion coverage", body: "Roll-downs, the hundred, and short spine massage all involve positions where a bra needs to stay put. Test coverage before buying: a bra that shifts in a forward fold is not suitable." },
                   { heading: "Reformer comfort", body: "You will lie supine on a carriage. Clasps, underwires, and thick bands create pressure points. Internal shelf bras with smooth back construction are the standard for reformer work." },
-                  { heading: "Fabric breathability", body: "Boutique studios run warm. Nulu (Lululemon) and Airlift (Alo) fabrics manage moisture and temperature better than standard polyester blends — worth the premium for daily practitioners." },
+                  { heading: "Fabric breathability", body: "Boutique studios run warm. Nulu (Lululemon) and Airlift (Alo) fabrics manage moisture and temperature better than standard polyester blends: worth the premium for daily practitioners." },
                 ].map((item) => (
                   <div key={item.heading} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.heading}</p>
@@ -263,10 +263,10 @@ export default function BestPilatesSportsBraPage() {
               <ul className="space-y-3">
                 {[
                   "Wash inside-out on a cold, delicate cycle. High heat degrades both the elastic and the silicone grip at the band.",
-                  "Air dry flat — tumble drying collapses the cup structure and warps padding over time.",
+                  "Air dry flat: tumble drying collapses the cup structure and warps padding over time.",
                   "Never use fabric softener on Nulu or Airlift fabrics. It coats the fibres, reducing moisture management.",
                   "Rotate between two or three bras so each can recover its shape between sessions.",
-                  "Replace when the band loses elasticity or the pads shift position — a poorly fitting bra in class is both uncomfortable and unhelpful for your instructor.",
+                  "Replace when the band loses elasticity or the pads shift position: a poorly fitting bra in class is both uncomfortable and unhelpful for your instructor.",
                 ].map((tip, i) => (
                   <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                     <span className="font-semibold shrink-0" style={{ color: "#8b4a31" }}>{i + 1}.</span>
@@ -293,9 +293,9 @@ export default function BestPilatesSportsBraPage() {
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="Best Pilates Leggings (2026)" excerpt="The leggings that serve the method — compared on opacity, waistband stability, and reformer performance." href="/blog/best-pilates-leggings" category="Apparel" readTime="9 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Leggings (2026)" excerpt="The leggings that serve the method: compared on opacity, waistband stability, and reformer performance." href="/blog/best-pilates-leggings" category="Apparel" readTime="9 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />
                 <ArticleCard title="What to Wear to Pilates" excerpt="The complete guide to choosing the right clothes for studio and reformer classes." href="/blog/what-to-wear-to-pilates" category="Guide" readTime="6 min read" date="May 2026" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
-                <ArticleCard title="Best Pilates Grip Socks" excerpt="The essential studio accessory — five options across every price point." href="/blog/best-pilates-grip-socks" category="Equipment" readTime="7 min read" date="May 2026" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Grip Socks" excerpt="The essential studio accessory: five options across every price point." href="/blog/best-pilates-grip-socks" category="Equipment" readTime="7 min read" date="May 2026" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
               </div>
             </div>
 

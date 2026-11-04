@@ -12,14 +12,14 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Yoga Wheel for Pilates (2026): Compared & Ranked",
-  description: "The best yoga wheels for Pilates thoracic extension — standard, cork, padded and mini wheels compared for spinal mobility, weight rating and comfort.",
+  description: "The best yoga wheels for Pilates thoracic extension: standard, cork, padded and mini wheels compared for spinal mobility, weight rating and comfort.",
   keywords: ["best yoga wheel for pilates", "yoga wheel pilates", "thoracic extension wheel", "cork yoga wheel", "padded yoga wheel", "mini yoga wheel", "yoga wheel for back", "pilates spinal mobility wheel", "yoga wheel set", "yoga wheel 2026"],
   openGraph: {
     title: "Best Yoga Wheel for Pilates (2026): Compared & Ranked",
     description: "Standard, cork, padded and mini wheels compared for thoracic extension and spinal mobility in Pilates.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-yoga-wheel-for-pilates",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg", width: 1200, height: 630, alt: "Best Yoga Wheel for Pilates — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg", width: 1200, height: 630, alt: "Best Yoga Wheel for Pilates: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -38,7 +38,7 @@ const PRODUCTS = [
     price: "$40.99",
     verdict: "Best value for a complete set",
     description:
-      "This set gives you three wheel sizes in one purchase, which matters because different diameters do genuinely different jobs — a larger wheel produces a gentler, broader extension curve while a smaller one arches the spine more sharply, and having a range on hand lets you match the wheel to how much extension you actually have that day rather than owning a single fixed curve. FARINOK pads these to 10mm, which is on the thicker side for the category and means more cushioning between a bony thoracic spine and the core of the wheel. For anyone building a home mobility routine from scratch, a multi-size set like this is the most complete single purchase — you are far less likely to end up needing a second wheel later because the one you bought turned out to be the wrong size.",
+      "This set gives you three wheel sizes in one purchase, which matters because different diameters do genuinely different jobs: a larger wheel produces a gentler, broader extension curve while a smaller one arches the spine more sharply, and having a range on hand lets you match the wheel to how much extension you actually have that day rather than owning a single fixed curve. FARINOK pads these to 10mm, which is on the thicker side for the category and means more cushioning between a bony thoracic spine and the core of the wheel. For anyone building a home mobility routine from scratch, a multi-size set like this is the most complete single purchase: you are far less likely to end up needing a second wheel later because the one you bought turned out to be the wrong size.",
     affiliateUrl: "https://www.amazon.com/dp/B0BWJT77L5?tag=pilatescollective-20",
     tag: "Editor's Pick",
   },
@@ -48,7 +48,7 @@ const PRODUCTS = [
     price: "$34.99",
     verdict: "Best for back pain relief and gentle stretching",
     description:
-      "New Guider Sports builds this one at 13 inches, a touch larger than the more common 12-inch standard, which produces a slightly gentler, broader extension curve rather than a sharp arch. That makes it a sensible pick for anyone using a wheel specifically for back pain relief and stretching rather than for pushing deep into end-range extension — a wider curve spreads the load over more of the spine instead of concentrating it at one point. It is a single fixed-size wheel rather than a set, so it suits someone who already knows roughly what curve they want and does not need to shop across multiple diameters.",
+      "New Guider Sports builds this one at 13 inches, a touch larger than the more common 12-inch standard, which produces a slightly gentler, broader extension curve rather than a sharp arch. That makes it a sensible pick for anyone using a wheel specifically for back pain relief and stretching rather than for pushing deep into end-range extension: a wider curve spreads the load over more of the spine instead of concentrating it at one point. It is a single fixed-size wheel rather than a set, so it suits someone who already knows roughly what curve they want and does not need to shop across multiple diameters.",
     affiliateUrl: "https://www.amazon.com/dp/B07ZCML5S2?tag=pilatescollective-20",
     tag: "Best for Back Pain Relief",
   },
@@ -58,7 +58,7 @@ const PRODUCTS = [
     price: "$23.62",
     verdict: "Best budget pick with a supportive cradle",
     description:
-      "This is the cheapest wheel on this list, and what sets it apart at the price is a foam-padded centre spine cradle rather than a flat padded curve — a shaped channel that gives the spine somewhere specific to settle into instead of pressing flat against the padding. For anyone new to using a wheel who is a little nervous about the spine sliding or shifting mid-extension, that cradle is a genuinely useful stability feature to get at this price point. It is a straightforward single wheel without the size options a set offers, which is the trade-off for the low cost, but as a first wheel to find out whether the movement suits you, it is a sensible entry point.",
+      "This is the cheapest wheel on this list, and what sets it apart at the price is a foam-padded centre spine cradle rather than a flat padded curve: a shaped channel that gives the spine somewhere specific to settle into instead of pressing flat against the padding. For anyone new to using a wheel who is a little nervous about the spine sliding or shifting mid-extension, that cradle is a genuinely useful stability feature to get at this price point. It is a straightforward single wheel without the size options a set offers, which is the trade-off for the low cost, but as a first wheel to find out whether the movement suits you, it is a sensible entry point.",
     affiliateUrl: "https://www.amazon.com/dp/B0FG394TMS?tag=pilatescollective-20",
     tag: "Best Budget",
   },
@@ -68,7 +68,7 @@ const PRODUCTS = [
     price: "$34.99",
     verdict: "Best single wheel for general use",
     description:
-      "This is FARINOK's standalone wheel rather than the multi-size set, aimed squarely at general stretching and back-rolling work. It suits anyone who has already tried a wheel — through a class, a set, or a friend's — and knows they want one reliable size in daily rotation rather than a range of diameters to choose between. Buying a single wheel rather than a set also keeps storage simple, which matters more than it sounds for something you actually want to reach for daily rather than dig out of a cupboard.",
+      "This is FARINOK's standalone wheel rather than the multi-size set, aimed squarely at general stretching and back-rolling work. It suits anyone who has already tried a wheel (through a class, a set, or a friend's) and knows they want one reliable size in daily rotation rather than a range of diameters to choose between. Buying a single wheel rather than a set also keeps storage simple, which matters more than it sounds for something you actually want to reach for daily rather than dig out of a cupboard.",
     affiliateUrl: "https://www.amazon.com/dp/B0D57DDBPB?tag=pilatescollective-20",
     tag: "Best Single Wheel",
   },
@@ -125,7 +125,7 @@ const jsonLd = {
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "Is a yoga wheel better than a foam roller for Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "They do different jobs and most home practices end up with both. A wheel's continuous curve supports the spine through a full extension arc, which makes it the better tool for opening the thoracic spine — the specific restriction behind most desk-related stiffness. A foam roller is flat along its length, so it works better for rolling along muscle to release soft tissue, and lying lengthwise on one gives a gravity-assisted chest opening a wheel cannot replicate. Buy the wheel for mobility, the roller for release." } },
+        { "@type": "Question", "name": "Is a yoga wheel better than a foam roller for Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "They do different jobs and most home practices end up with both. A wheel's continuous curve supports the spine through a full extension arc, which makes it the better tool for opening the thoracic spine: the specific restriction behind most desk-related stiffness. A foam roller is flat along its length, so it works better for rolling along muscle to release soft tissue, and lying lengthwise on one gives a gravity-assisted chest opening a wheel cannot replicate. Buy the wheel for mobility, the roller for release." } },
         { "@type": "Question", "name": "What size yoga wheel should I buy?", "acceptedAnswer": { "@type": "Answer", "text": "Twelve inches is the standard and the right choice for almost everyone, because the arc closely matches the natural thoracic curve. Ten-inch wheels create a deeper, sharper arch better suited to shorter torsos or to practitioners who already have good extension. Six-inch minis are a release tool rather than a mobility tool and cannot be used for spinal extension. If you are buying one wheel and are unsure, buy the 12-inch." } },
         { "@type": "Question", "name": "Is a yoga wheel safe if you have back pain?", "acceptedAnswer": { "@type": "Answer", "text": "It depends entirely on the cause, and this is a case where the wrong choice makes things noticeably worse. For stiffness-driven upper back pain, gentle thoracic extension over a wheel is often exactly what helps. For sciatica caused by a disc, extension can be beneficial, but for lumbar spinal stenosis it typically aggravates symptoms, and anyone with osteoporosis should avoid loaded spinal extension over a hard curve entirely. Keep the wheel under the thoracic spine, never the lower back, and get an assessment first if the pain radiates into a leg." } },
         { "@type": "Question", "name": "How long should you use a yoga wheel for?", "acceptedAnswer": { "@type": "Answer", "text": "Two to three minutes per position is plenty, and more is not better. Thoracic extension work is about restoring available range rather than accumulating time, and holding a strong extension for long periods can leave the surrounding muscles irritated. A practical routine is to spend two minutes draped over the wheel at each of three or four positions up the thoracic spine, breathing into the ribs, then move on. Daily short sessions produce far more change than an occasional long one." } },
@@ -156,7 +156,7 @@ export default function BestYogaWheelForPilatesPage() {
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Thoracic extension is the range almost every Pilates practitioner is short of, and it is the range that a desk removes fastest. A foam roller helps, but its flat profile only ever contacts one segment at a time. A wheel&apos;s continuous curve supports the whole thoracic arch at once, which is why it opens the upper back more effectively than anything else at this price. Diameter and weight rating are the only two specifications that really matter — these five cover both.
+              Thoracic extension is the range almost every Pilates practitioner is short of, and it is the range that a desk removes fastest. A foam roller helps, but its flat profile only ever contacts one segment at a time. A wheel&apos;s continuous curve supports the whole thoracic arch at once, which is why it opens the upper back more effectively than anything else at this price. Diameter and weight rating are the only two specifications that really matter: these five cover both.
             </p>
           </div>
         </section>
@@ -164,7 +164,7 @@ export default function BestYogaWheelForPilatesPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg" alt="Best yoga wheel for Pilates — thoracic extension and spinal mobility work" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg" alt="Best yoga wheel for Pilates: thoracic extension and spinal mobility work" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>
         </section>
@@ -193,11 +193,11 @@ export default function BestYogaWheelForPilatesPage() {
               <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Using a wheel safely</h2>
               <ul className="space-y-3">
                 {[
-                  "Keep the wheel under the thoracic spine — between the shoulder blades and the bottom of the ribs. It does not belong under the lower back.",
+                  "Keep the wheel under the thoracic spine, between the shoulder blades and the bottom of the ribs. It does not belong under the lower back.",
                   "Never buy a wheel rated under 300lb, and treat an unstated weight rating as a reason to skip the listing.",
                   "Support your head with your hands during extension so the neck is not left hanging unsupported at end range.",
                   "Avoid loaded spinal extension over a hard curve entirely if you have osteoporosis or reduced bone density.",
-                  "Stop if extension produces symptoms travelling down a leg — that is a signal to get assessed, not to push further.",
+                  "Stop if extension produces symptoms travelling down a leg: that is a signal to get assessed, not to push further.",
                   "Two to three minutes per position is enough. Longer holds tend to leave the surrounding muscles irritated rather than looser.",
                 ].map((tip, i) => (
                   <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
@@ -212,7 +212,7 @@ export default function BestYogaWheelForPilatesPage() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "Is a yoga wheel better than a foam roller for Pilates?", a: "They do different jobs and most home practices end up with both. A wheel's continuous curve supports the spine through a full extension arc, which makes it the better tool for opening the thoracic spine — the specific restriction behind most desk-related stiffness. A foam roller is flat along its length, so it works better for rolling along muscle to release soft tissue, and lying lengthwise on one gives a gravity-assisted chest opening a wheel cannot replicate. Buy the wheel for mobility, the roller for release." },
+                  { q: "Is a yoga wheel better than a foam roller for Pilates?", a: "They do different jobs and most home practices end up with both. A wheel's continuous curve supports the spine through a full extension arc, which makes it the better tool for opening the thoracic spine: the specific restriction behind most desk-related stiffness. A foam roller is flat along its length, so it works better for rolling along muscle to release soft tissue, and lying lengthwise on one gives a gravity-assisted chest opening a wheel cannot replicate. Buy the wheel for mobility, the roller for release." },
                   { q: "What size yoga wheel should I buy?", a: "Twelve inches is the standard and the right choice for almost everyone, because the arc closely matches the natural thoracic curve. Ten-inch wheels create a deeper, sharper arch better suited to shorter torsos or to practitioners who already have good extension. Six-inch minis are a release tool rather than a mobility tool and cannot be used for spinal extension. If you are buying one wheel and are unsure, buy the 12-inch." },
                   { q: "Is a yoga wheel safe if you have back pain?", a: "It depends entirely on the cause, and this is a case where the wrong choice makes things noticeably worse. For stiffness-driven upper back pain, gentle thoracic extension over a wheel is often exactly what helps. For sciatica caused by a disc, extension can be beneficial, but for lumbar spinal stenosis it typically aggravates symptoms, and anyone with osteoporosis should avoid loaded spinal extension over a hard curve entirely. Keep the wheel under the thoracic spine, never the lower back, and get an assessment first if the pain radiates into a leg." },
                   { q: "How long should you use a yoga wheel for?", a: "Two to three minutes per position is plenty, and more is not better. Thoracic extension work is about restoring available range rather than accumulating time, and holding a strong extension for long periods can leave the surrounding muscles irritated. A practical routine is to spend two minutes draped over the wheel at each of three or four positions up the thoracic spine, breathing into the ribs, then move on. Daily short sessions produce far more change than an occasional long one." },

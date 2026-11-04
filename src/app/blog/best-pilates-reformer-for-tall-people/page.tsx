@@ -12,19 +12,19 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Reformer for Tall People (2026): Long Frames",
-  description: "The best Pilates reformers for tall practitioners — long-frame and extendable footbar models reviewed for carriage travel, spring alignment, and leg room.",
+  description: "The best Pilates reformers for tall practitioners: long-frame and extendable footbar models reviewed for carriage travel, spring alignment, and leg room.",
   keywords: ["best pilates reformer for tall people", "pilates reformer tall person 2026", "long reformer pilates", "pilates reformer 6 foot tall", "extended frame pilates reformer", "balanced body reformer tall", "merrithew reformer tall people", "pilates for tall practitioners"],
   openGraph: {
     title: "Best Pilates Reformers for Tall People (2026): Long Carriage Options",
-    description: "The best Pilates reformers for tall practitioners — long carriage options compared and ranked.",
+    description: "The best Pilates reformers for tall practitioners: long carriage options compared and ranked.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-reformer-for-tall-people",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg", width: 1200, height: 630, alt: "Best Pilates Reformers for Tall People — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg", width: 1200, height: 630, alt: "Best Pilates Reformers for Tall People: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Reformers for Tall People (2026)",
-    description: "The best Pilates reformers for tall practitioners — long carriage options ranked.",
+    description: "The best Pilates reformers for tall practitioners: long carriage options ranked.",
     images: ["https://pilatescollectiveclub.com/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/best-pilates-reformer-for-tall-people" },
@@ -38,7 +38,7 @@ const PRODUCTS = [
     price: "$3,710",
     verdict: "Widest carriage among machines actually sold on Amazon",
     description:
-      "Worth knowing up front: you'll see a \"Balanced Body Allegro 2\" in searches, but we could not find a live Amazon listing for that model. The real Balanced Body machine with the widest carriage actually sold on Amazon is the Allegro Stretch — 2 inches wider and 6 inches longer than the standard Allegro, with a 36-inch adjustable footbar. Anodized aluminium frame, TwistLock shoulder rests. We could not independently verify an exact height cutoff for comfortable use, so confirm carriage and rail dimensions against your own height on the current listing before ordering.",
+      "Worth knowing up front: you'll see a \"Balanced Body Allegro 2\" in searches, but we could not find a live Amazon listing for that model. The real Balanced Body machine with the widest carriage actually sold on Amazon is the Allegro Stretch, 2 inches wider and 6 inches longer than the standard Allegro, with a 36-inch adjustable footbar. Anodized aluminium frame, TwistLock shoulder rests. We could not independently verify an exact height cutoff for comfortable use, so confirm carriage and rail dimensions against your own height on the current listing before ordering.",
     affiliateUrl: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20",
     tag: "Editor's Pick",
   },
@@ -46,9 +46,9 @@ const PRODUCTS = [
     rank: "02",
     name: "Gratz Universal Reformer",
     price: "Price on request",
-    verdict: "Classical reformer — not sold on Amazon",
+    verdict: "Classical reformer, not sold on Amazon",
     description:
-      "Gratz is a widely respected name in classical Pilates equipment, with a long carriage that appeals to taller practitioners studying in the classical tradition. We could not find a live Amazon listing for any Gratz reformer — it is sold direct through Gratz and their dealer network. Get a current quote and exact carriage dimensions from Gratz directly rather than relying on a figure quoted here.",
+      "Gratz is a widely respected name in classical Pilates equipment, with a long carriage that appeals to taller practitioners studying in the classical tradition. We could not find a live Amazon listing for any Gratz reformer: it is sold direct through Gratz and their dealer network. Get a current quote and exact carriage dimensions from Gratz directly rather than relying on a figure quoted here.",
     affiliateUrl: "https://www.gratzpilates.com/collections/reformers",
     tag: "Not Sold on Amazon",
   },
@@ -58,7 +58,7 @@ const PRODUCTS = [
     price: "$8,199",
     verdict: "The real V2 Max-family machine sold on Amazon",
     description:
-      "You'll also see a plain \"Merrithew V2 Max\" at a lower price — that studio-line model is sold through Merrithew and dealers, not as a standalone Amazon listing. The V2 Max-family machine genuinely sold on Amazon is the Rehab V2 Max Plus: a raised frame, wider carriage than the SPX line, a built-in Vertical Frame, and a patented retractable rope system that keeps rope length adjustable — useful if fixed-length ropes have been a problem for you on other machines. It is a significant step up in price from the machines above; it's included here because it's the real, live Amazon listing in Merrithew's wider-carriage range, not because it's the best value for most tall practitioners.",
+      "You'll also see a plain \"Merrithew V2 Max\" at a lower price: that studio-line model is sold through Merrithew and dealers, not as a standalone Amazon listing. The V2 Max-family machine genuinely sold on Amazon is the Rehab V2 Max Plus: a raised frame, wider carriage than the SPX line, a built-in Vertical Frame, and a patented retractable rope system that keeps rope length adjustable, useful if fixed-length ropes have been a problem for you on other machines. It is a significant step up in price from the machines above; it's included here because it's the real, live Amazon listing in Merrithew's wider-carriage range, not because it's the best value for most tall practitioners.",
     affiliateUrl: "https://www.amazon.com/dp/B002ABYKFI?tag=pilatescollective-20",
     tag: "Widest Merrithew Carriage",
   },
@@ -68,7 +68,7 @@ const PRODUCTS = [
     price: "Price on request",
     verdict: "Not sold on Amazon",
     description:
-      "Peak Pilates markets the MVe with a longer carriage aimed at taller practitioners. We could not find a live Amazon listing for it — it is sold direct through Peak Pilates and its dealer network. Get a current quote and exact carriage dimensions from Peak Pilates directly.",
+      "Peak Pilates markets the MVe with a longer carriage aimed at taller practitioners. We could not find a live Amazon listing for it: it is sold direct through Peak Pilates and its dealer network. Get a current quote and exact carriage dimensions from Peak Pilates directly.",
     affiliateUrl: "https://www.peakpilates.com",
     tag: "Not Sold on Amazon",
   },
@@ -78,7 +78,7 @@ const PRODUCTS = [
     price: "Price on request",
     verdict: "Not sold on Amazon",
     description:
-      "Elina's wood-framed reformers are visually distinctive and marketed with a longer rail aimed at taller practitioners. We could not find a live Amazon listing for any Elina Pilates reformer — it is sold direct through Elina and regional dealers. Get a current quote and exact dimensions from Elina directly rather than relying on a figure quoted here.",
+      "Elina's wood-framed reformers are visually distinctive and marketed with a longer rail aimed at taller practitioners. We could not find a live Amazon listing for any Elina Pilates reformer: it is sold direct through Elina and regional dealers. Get a current quote and exact dimensions from Elina directly rather than relying on a figure quoted here.",
     affiliateUrl: "https://www.elinapilates.com",
     tag: "Not Sold on Amazon",
   },
@@ -90,7 +90,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Best Pilates Reformers for Tall People (2026): Long Carriage Options",
-      "description": "The best Pilates reformers for tall practitioners — long carriage options from Balanced Body, Gratz, Merrithew, and more compared.",
+      "description": "The best Pilates reformers for tall practitioners: long carriage options from Balanced Body, Gratz, Merrithew, and more compared.",
       "url": "https://pilatescollectiveclub.com/blog/best-pilates-reformer-for-tall-people",
       "datePublished": "2026-05-21",
       "dateModified": "2026-10-20",
@@ -210,7 +210,7 @@ export default function BestPilatesReformerTallPeoplePage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Premium Pilates Reformers" excerpt="The top-tier reformers for serious practitioners at any height." href="/blog/best-premium-pilates-reformer" category="Equipment" readTime="11 min read" date="May 2026" imageUrl="/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg" />
                 <ArticleCard title="Balanced Body Studio Reformer Review" excerpt="An in-depth review of the real Balanced Body reformer sold on Amazon." href="/blog/balanced-body-allegro-2-review" category="Equipment" readTime="10 min read" date="May 2026" imageUrl="/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg" />
-                <ArticleCard title="Peak Pilates Brand Guide" excerpt="Peak's MVe and Fit reformers are purpose-built for tall practitioners — long carriages and precision engineering." href="/blog/peak-pilates" category="Brand Guide" readTime="10 min read" date="May 2026" imageUrl="/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg" />
+                <ArticleCard title="Peak Pilates Brand Guide" excerpt="Peak's MVe and Fit reformers are purpose-built for tall practitioners: long carriages and precision engineering." href="/blog/peak-pilates" category="Brand Guide" readTime="10 min read" date="May 2026" imageUrl="/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg" />
                 <ArticleCard title="Elina Pilates Brand Guide" excerpt="Elina's Elite Wood and Elite Aluminum reformers offer extra-long rails ideal for taller bodies." href="/blog/elina-pilates" category="Brand Guide" readTime="10 min read" date="May 2026" imageUrl="/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg" />
               </div>
             </div>

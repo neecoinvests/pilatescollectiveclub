@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     description: "Spin bike Black Friday 2026: indoor bikes from Sunny, YOSUDA, Schwinn and Echelon, plus shoes, pedals, shorts, mats and sensors, with prices to beat.",
     type: "article",
     url: PAGE_URL,
-    images: [{ url: HERO_IMAGE, width: 1200, height: 630, alt: "A modern studio — spin and indoor cycling Black Friday deals" }],
+    images: [{ url: HERO_IMAGE, width: 1200, height: 630, alt: "A modern studio: spin and indoor cycling Black Friday deals" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -36,7 +36,7 @@ const GUIDE: DealsGuideProps = {
   "h1Accent": "Black Friday Deals 2026",
   "readTime": "7 min read",
   "heroImage": "/pictures/stitch-studio-modern-row.png",
-  "heroAlt": "A modern studio — spin and indoor cycling Black Friday deals",
+  "heroAlt": "A modern studio: spin and indoor cycling Black Friday deals",
   "intro": "Exercise bikes are one of Black Friday's most discounted fitness categories. Here are five indoor bikes we track on Amazon, from under $300 to Echelon, plus the shoes, pedals, shorts and sensors that make home or studio cycling better. Each shows today's price so you can see the real saving.",
   "sections": [
     {
@@ -84,7 +84,7 @@ const GUIDE: DealsGuideProps = {
     {
       "id": "gear",
       "title": "Shoes, pedals and shorts",
-      "intro": "Clip in and pad up — the biggest comfort upgrade for spin.",
+      "intro": "Clip in and pad up: the biggest comfort upgrade for spin.",
       "items": [
         {
           "asin": "B0B6B9QD8G",
@@ -104,7 +104,7 @@ const GUIDE: DealsGuideProps = {
           "asin": "B07NKFPGPC",
           "name": "Venzo SPD-Compatible Pedals with Toe Clips",
           "badge": "Pedals",
-          "note": "SPD-compatible pedals with toe clips — clip in or ride in trainers.",
+          "note": "SPD-compatible pedals with toe clips: clip in or ride in trainers.",
           "price": "$39.98"
         },
         {
@@ -155,7 +155,7 @@ const GUIDE: DealsGuideProps = {
   "watchFor": [
     {
       "h": "Check the 30-day price, not the strikethrough.",
-      "b": "Amazon's 'List' or 'Was' price can be set by the seller. Compare the Black Friday price with the price we recorded here in October — that is the real saving."
+      "b": "Amazon's 'List' or 'Was' price can be set by the seller. Compare the Black Friday price with the price we recorded here in October: that is the real saving."
     },
     {
       "h": "Check who is selling.",
@@ -167,7 +167,7 @@ const GUIDE: DealsGuideProps = {
     },
     {
       "h": "Check the returns window.",
-      "b": "Amazon usually extends holiday returns on many items bought from November — confirm on the product page before you buy."
+      "b": "Amazon usually extends holiday returns on many items bought from November: confirm on the product page before you buy."
     }
   ],
   "faqs": [
@@ -181,7 +181,7 @@ const GUIDE: DealsGuideProps = {
     },
     {
       "q": "Do I need cycling shoes for spin?",
-      "a": "No, but clip-in shoes make pedalling smoother and more efficient. Check your bike's pedals — SPD is the most common for indoor bikes."
+      "a": "No, but clip-in shoes make pedalling smoother and more efficient. Check your bike's pedals: SPD is the most common for indoor bikes."
     }
   ],
   "guides": [

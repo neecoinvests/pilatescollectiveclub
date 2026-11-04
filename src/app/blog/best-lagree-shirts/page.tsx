@@ -22,10 +22,10 @@ export const metadata: Metadata = {
   description: DESCRIPTION,
   openGraph: {
     title: TITLE,
-    description: "Tees that work in Lagree class, and the Lagree fan shirts and hoodies you can buy — with prices checked live on Amazon.",
+    description: "Tees that work in Lagree class, and the Lagree fan shirts and hoodies you can buy, with prices checked live on Amazon.",
     type: "article",
     url: PAGE_URL,
-    images: [{ url: HERO_IMAGE, width: 1200, height: 630, alt: "Activewear on a rail — the best Lagree shirts and hoodies" }],
+    images: [{ url: HERO_IMAGE, width: 1200, height: 630, alt: "Activewear on a rail: the best Lagree shirts and hoodies" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -81,7 +81,7 @@ const CLASS_TEES: Pick[] = [
     name: "CRZ YOGA Seamless Crop T-Shirt",
     price: "$24.00",
     url: amz("B0D1GDXHT5"),
-    verdict: "Nothing to flip up — with high-rise leggings",
+    verdict: "Nothing to flip up, with high-rise leggings",
     description:
       "The same seamless, moisture-wicking four-way-stretch fabric in a slim, cropped cut, with breathable mesh in high-sweat areas and a crew neck with raglan sleeves. A cropped hem has nothing to slide up your back when you go upside down, so pair it with high-rise leggings.",
   },
@@ -94,7 +94,7 @@ const CLASS_TEES: Pick[] = [
     url: amz("B0C12FMNZN"),
     verdict: "Quick-dry and soft, sold by Amazon",
     description:
-      "UA Tech fabric that is quick-drying, ultra-soft and wicks sweat, in Under Armour's regular fit — not tight, not loose. Regular fit is roomier than the CRZ tees, so tuck it in or size down if you want it to stay put in bear and plank. Also available in a V-neck.",
+      "UA Tech fabric that is quick-drying, ultra-soft and wicks sweat, in Under Armour's regular fit, not tight, not loose. Regular fit is roomier than the CRZ tees, so tuck it in or size down if you want it to stay put in bear and plank. Also available in a V-neck.",
   },
   {
     id: "dalavch-4",
@@ -105,7 +105,7 @@ const CLASS_TEES: Pick[] = [
     url: amz("B0DQ84CJV9"),
     verdict: "Four fitted crop tees for one class-pack night out",
     description:
-      "Four slim, fitted compression crop tees in a soft spandex blend — about $6 each. Compression means it stays exactly where you put it, which is the whole brief for Lagree. The listing suggests ordering one size up for a looser fit.",
+      "Four slim, fitted compression crop tees in a soft spandex blend: about $6 each. Compression means it stays exactly where you put it, which is the whole brief for Lagree. The listing suggests ordering one size up for a looser fit.",
   },
 ];
 
@@ -119,7 +119,7 @@ const FAN_MERCH: Pick[] = [
     url: amz("B0CY81GT5X"),
     verdict: "The simplest 'I love Lagree' tee",
     description:
-      "A lightweight, classic-fit V-neck with an 'I love Lagree' heart design, double-needle sleeve and bottom hem. Unofficial fan design from the Dreadful Scrawl brand, sold by Amazon.com — not made or endorsed by Lagree Fitness. Also comes as a long sleeve, raglan and tri-blend tee.",
+      "A lightweight, classic-fit V-neck with an 'I love Lagree' heart design, double-needle sleeve and bottom hem. Unofficial fan design from the Dreadful Scrawl brand, sold by Amazon.com, not made or endorsed by Lagree Fitness. Also comes as a long sleeve, raglan and tri-blend tee.",
   },
   {
     id: "lagree-superstar-tank",
@@ -130,7 +130,7 @@ const FAN_MERCH: Pick[] = [
     url: amz("B0G1KV5CTD"),
     verdict: "Retro 70s gradient for the class regular",
     description:
-      "A lightweight, classic-fit tank with a retro 70s-style 'Lagree Superstar' gradient design. Unofficial fan merch from Dreadful Scrawl, sold by Amazon.com — not affiliated with Lagree Fitness. Also available as a V-neck tee, crop top, sweatshirt and hoodies.",
+      "A lightweight, classic-fit tank with a retro 70s-style 'Lagree Superstar' gradient design. Unofficial fan merch from Dreadful Scrawl, sold by Amazon.com, not affiliated with Lagree Fitness. Also available as a V-neck tee, crop top, sweatshirt and hoodies.",
   },
   {
     id: "i-love-lagree-hoodie",
@@ -141,7 +141,7 @@ const FAN_MERCH: Pick[] = [
     url: amz("B0CY821PTP"),
     verdict: "The after-class pullover",
     description:
-      "A classic-fit pullover hoodie with the 'I love Lagree' heart design, a pouch pocket and a double-lined hood. Unofficial fan design, sold by Amazon.com — not made or endorsed by Lagree Fitness.",
+      "A classic-fit pullover hoodie with the 'I love Lagree' heart design, a pouch pocket and a double-lined hood. Unofficial fan design, sold by Amazon.com, not made or endorsed by Lagree Fitness.",
   },
   {
     id: "i-love-lagree-zip",
@@ -163,7 +163,7 @@ const FAN_MERCH: Pick[] = [
     url: amz("B0G1KSSGPJ"),
     verdict: "The gift for your Lagree-obsessed friend",
     description:
-      "An 8.5 oz classic-fit pullover with the retro 'Lagree Superstar' gradient design, pitched by its maker as a gift for Lagree coaches and fans. Unofficial fan merch from Dreadful Scrawl, sold by Amazon.com — not affiliated with Lagree Fitness.",
+      "An 8.5 oz classic-fit pullover with the retro 'Lagree Superstar' gradient design, pitched by its maker as a gift for Lagree coaches and fans. Unofficial fan merch from Dreadful Scrawl, sold by Amazon.com, not affiliated with Lagree Fitness.",
   },
 ];
 
@@ -176,7 +176,7 @@ const FAQS = [
   },
   {
     q: "Is there official Lagree merch?",
-    a: "Lagree Fitness does not sell clothing on Amazon — its Amazon store carries only the Micro home machine and its accessories. The 'I Love Lagree' and 'Lagree Superstar' tees and hoodies on Amazon are unofficial fan designs, sold by Amazon.com. Many Lagree studios sell their own branded merch at the front desk.",
+    a: "Lagree Fitness does not sell clothing on Amazon: its Amazon store carries only the Micro home machine and its accessories. The 'I Love Lagree' and 'Lagree Superstar' tees and hoodies on Amazon are unofficial fan designs, sold by Amazon.com. Many Lagree studios sell their own branded merch at the front desk.",
   },
   {
     q: "Can I wear a cotton t-shirt to Lagree?",
@@ -300,7 +300,7 @@ export default function LagreeShirtsPage() {
             <TopPick name={QUICK_PICKS[0].name} price={QUICK_PICKS[0].price} note={QUICK_PICKS[0].note} url={QUICK_PICKS[0].url} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              &ldquo;Lagree shirt&rdquo; means two different things. One is the shirt you actually wear on the Megaformer — and it has to be fitted, because a loose tee slides up your back in bear and falls over your face in plank. The other is the shirt that says you do Lagree: the fan tees and hoodies you wear to class, after class, or give to the friend who won&apos;t stop talking about it. Here are the best of both.
+              &ldquo;Lagree shirt&rdquo; means two different things. One is the shirt you actually wear on the Megaformer, and it has to be fitted, because a loose tee slides up your back in bear and falls over your face in plank. The other is the shirt that says you do Lagree: the fan tees and hoodies you wear to class, after class, or give to the friend who won&apos;t stop talking about it. Here are the best of both.
             </p>
             <p className="text-sm leading-relaxed" style={bodyStyle}>
               Every Amazon price and stock status was checked live on October 4, 2026. Prices change, so the final price is whatever Amazon shows at checkout.
@@ -311,7 +311,7 @@ export default function LagreeShirtsPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/stitch-retail-activewear.png" alt="Fitted activewear tees on a rail — Lagree shirts" fill className="object-cover" style={{ filter: "brightness(0.85)" }} priority />
+              <Image src="/pictures/stitch-retail-activewear.png" alt="Fitted activewear tees on a rail: Lagree shirts" fill className="object-cover" style={{ filter: "brightness(0.85)" }} priority />
             </div>
           </div>
         </section>

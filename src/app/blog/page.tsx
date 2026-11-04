@@ -6,11 +6,11 @@ import type { Metadata } from "next";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Pilates Journal — Equipment Reviews, Method Guides & Studio Advice",
+  title: "Pilates Journal: Equipment Reviews, Method Guides & Studio Advice",
   description: "In-depth Pilates guides: equipment reviews, beginner advice, method comparisons, studio tips, and brand guides. Everything a serious practitioner needs to know.",
   keywords: ["pilates blog", "pilates equipment reviews", "pilates for beginners", "reformer pilates guide", "pilates vs yoga", "classical pilates", "best pilates mat", "pilates advice", "pilates method", "pilates tips 2026", "pilates articles"],
   openGraph: {
-    title: "Pilates Journal — Equipment Reviews, Method Guides & Studio Advice",
+    title: "Pilates Journal: Equipment Reviews, Method Guides & Studio Advice",
     description: "In-depth Pilates guides covering equipment reviews, beginner advice, method comparisons, and studio tips.",
     type: "website",
     url: "https://pilatescollectiveclub.com/blog",
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Pilates Journal — Equipment Reviews, Method Guides & Studio Advice",
+    title: "Pilates Journal: Equipment Reviews, Method Guides & Studio Advice",
     description: "In-depth Pilates guides covering equipment reviews, beginner advice, method comparisons, and studio tips.",
     images: ["https://pilatescollectiveclub.com/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg"],
   },
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
 const posts: { title: string; excerpt: string; href: string; category: string; readTime: string; imageUrl: string; featured?: boolean }[] = [
   {
     title: "Pilates Essentials (2026): The Complete List",
-    excerpt: "Every Pilates essential on one page — the best, budget and splurge pick for leggings, grip socks, mat, props, recovery and a home reformer.",
+    excerpt: "Every Pilates essential on one page: the best, budget and splurge pick for leggings, grip socks, mat, props, recovery and a home reformer.",
     href: "/blog/pilates-essentials",
     category: "Equipment",
     readTime: "14 min",
@@ -200,7 +200,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Pilates Clothing Black Friday Deals 2026",
-    excerpt: "Leggings, sports bras, grip socks and layers from CRZ YOGA, Varley, Sweaty Betty, toesox and TAVI \u2014 the prices to beat.",
+    excerpt: "Leggings, sports bras, grip socks and layers from CRZ YOGA, Varley, Sweaty Betty, toesox and TAVI: the prices to beat.",
     href: "/blog/black-friday-pilates-clothing-deals",
     category: "Guide",
     readTime: "7 min",
@@ -208,7 +208,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Pilates Gifts Under $50: Black Friday 2026 Picks",
-    excerpt: "13 useful Pilates gifts under $50 \u2014 rings, mats, socks, rollers and bags \u2014 grouped by budget.",
+    excerpt: "13 useful Pilates gifts under $50 (rings, mats, socks, rollers and bags), grouped by budget.",
     href: "/blog/black-friday-pilates-gifts-under-50",
     category: "Guide",
     readTime: "6 min",
@@ -240,7 +240,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Reformer Pilates Essentials (2026)",
-    excerpt: "What to wear, bring and buy for reformer class — from grip socks to the home reformer that pays for itself.",
+    excerpt: "What to wear, bring and buy for reformer class, from grip socks to the home reformer that pays for itself.",
     href: "/blog/reformer-pilates-essentials",
     category: "Equipment",
     readTime: "12 min",
@@ -248,7 +248,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Pilates Princess Essentials (2026)",
-    excerpt: "The aesthetic edit that actually performs — matching sets, Bala Bangles, grip socks and the at-home upgrades.",
+    excerpt: "The aesthetic edit that actually performs: matching sets, Bala Bangles, grip socks and the at-home upgrades.",
     href: "/blog/pilates-princess-essentials",
     category: "Clothing",
     readTime: "12 min",
@@ -256,7 +256,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Lagree Fitness (2026): The Micro, Megaformer & What to Buy",
-    excerpt: "The brand behind the Megaformer — and the compact Micro home machine it sells on Amazon, with every accessory explained.",
+    excerpt: "The brand behind the Megaformer, and the compact Micro home machine it sells on Amazon, with every accessory explained.",
     href: "/blog/lagree-fitness",
     category: "Lagree",
     readTime: "12 min",
@@ -264,7 +264,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Lagree Micro Review (2026): Specs, Springs & Real Cost",
-    excerpt: "The Micro by Lagree Fitness from its spec sheet: 72\" x 20\", 60 lb, four springs, users to 6'8\" — plus what each add-on unlocks and five setup budgets.",
+    excerpt: "The Micro by Lagree Fitness from its spec sheet: 72\" x 20\", 60 lb, four springs, users to 6'8\"plus what each add-on unlocks and five setup budgets.",
     href: "/blog/lagree-micro-review",
     category: "Lagree",
     readTime: "12 min",
@@ -296,7 +296,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Lagree Shirts & Hoodies (2026): Fitted Tees & Fan Merch",
-    excerpt: "Fitted tees that stay put on the Megaformer, plus the 'I Love Lagree' fan tees and hoodies — and what's official.",
+    excerpt: "Fitted tees that stay put on the Megaformer, plus the 'I Love Lagree' fan tees and hoodies, and what's official.",
     href: "/blog/best-lagree-shirts",
     category: "Lagree",
     readTime: "8 min",
@@ -392,7 +392,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Lagree Essentials (2026): Everything to Wear & Bring",
-    excerpt: "Grip socks, gloves, knee pads, biker shorts and the home upgrade — the complete Lagree kit on one page.",
+    excerpt: "Grip socks, gloves, knee pads, biker shorts and the home upgrade: the complete Lagree kit on one page.",
     href: "/blog/lagree-essentials",
     category: "Lagree",
     readTime: "12 min",
@@ -408,7 +408,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Lagree Gloves (2026): Do You Need Them?",
-    excerpt: "When grip gloves genuinely help on Megaformer handles and straps — and when bare hands are better.",
+    excerpt: "When grip gloves genuinely help on Megaformer handles and straps, and when bare hands are better.",
     href: "/blog/best-lagree-gloves",
     category: "Lagree",
     readTime: "9 min",
@@ -568,7 +568,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Tablet Holders for Spin Bikes (2026)",
-    excerpt: "Sweat corrodes them and sprints shake them loose. The mounts that survive, ranked — plus screen height and posture.",
+    excerpt: "Sweat corrodes them and sprints shake them loose. The mounts that survive, ranked, plus screen height and posture.",
     href: "/blog/best-tablet-holder-for-spin-bike",
     category: "Spinning",
     readTime: "8 min",
@@ -576,7 +576,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Lagree at Home (2026): The Full Setup, Costed",
-    excerpt: "The machine is not on Amazon — but everything that makes a home setup work is. What it costs, and what matters.",
+    excerpt: "The machine is not on Amazon, but everything that makes a home setup work is. What it costs, and what matters.",
     href: "/blog/lagree-at-home",
     category: "Lagree",
     readTime: "10 min",
@@ -584,7 +584,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Lagree Socks (2026): Best Grip Socks for Lagree",
-    excerpt: "Full-sole silicone versus dot grip — why the sock that works on a mat slips on a moving Megaformer carriage.",
+    excerpt: "Full-sole silicone versus dot grip: why the sock that works on a mat slips on a moving Megaformer carriage.",
     href: "/blog/best-lagree-grip-socks",
     category: "Lagree",
     readTime: "8 min",
@@ -608,7 +608,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Sports Bras for Lagree (2026)",
-    excerpt: "Support is half the story — back hardware digs in when you lie on a firm carriage. Six ranked.",
+    excerpt: "Support is half the story: back hardware digs in when you lie on a firm carriage. Six ranked.",
     href: "/blog/best-sports-bra-for-lagree",
     category: "Lagree",
     readTime: "8 min",
@@ -624,7 +624,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Bolsters for Pilates (2026)",
-    excerpt: "Rectangular, round, pranayama and prenatal bolsters — ranked on the one spec that matters: firmness.",
+    excerpt: "Rectangular, round, pranayama and prenatal bolsters, ranked on the one spec that matters: firmness.",
     href: "/blog/best-yoga-bolster-for-pilates",
     category: "Equipment",
     readTime: "8 min",
@@ -640,7 +640,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Barefoot Shoes for Pilates Practitioners (2026)",
-    excerpt: "Not for class — for the other twenty-three hours. Wide toe boxes and zero drop, plus how to transition safely.",
+    excerpt: "Not for class, for the other twenty-three hours. Wide toe boxes and zero drop, plus how to transition safely.",
     href: "/blog/best-barefoot-shoes-for-pilates",
     category: "Clothing",
     readTime: "9 min",
@@ -648,7 +648,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Pilates Equipment Storage (2026)",
-    excerpt: "Mat racks, rolling prop carts, wall rails and benches — because kit you can see is kit you actually use.",
+    excerpt: "Mat racks, rolling prop carts, wall rails and benches, because kit you can see is kit you actually use.",
     href: "/blog/best-pilates-equipment-storage",
     category: "Equipment",
     readTime: "8 min",
@@ -656,7 +656,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Weighted Vests for Pilates Practitioners (2026)",
-    excerpt: "For the walking and standing work beside your practice — and why you should never wear one in class.",
+    excerpt: "For the walking and standing work beside your practice, and why you should never wear one in class.",
     href: "/blog/best-weighted-vest-for-pilates",
     category: "Equipment",
     readTime: "9 min",
@@ -664,7 +664,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Pilates Bar Kits (2026)",
-    excerpt: "Portable bars, telescopic models, heavy-duty band systems and weighted toning bars — ranked for home practice.",
+    excerpt: "Portable bars, telescopic models, heavy-duty band systems and weighted toning bars: ranked for home practice.",
     href: "/blog/best-pilates-bar",
     category: "Equipment",
     readTime: "8 min",
@@ -688,7 +688,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Mirrors for a Home Pilates Studio (2026)",
-    excerpt: "Leaning, wall-mounted, acrylic and rolling mirrors — plus the mounting height almost everyone gets wrong.",
+    excerpt: "Leaning, wall-mounted, acrylic and rolling mirrors, plus the mounting height almost everyone gets wrong.",
     href: "/blog/best-mirror-for-home-pilates-studio",
     category: "Equipment",
     readTime: "8 min",
@@ -696,7 +696,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Pilates Hand Weights (2026)",
-    excerpt: "Neoprene dumbbells, toning balls and wrist weights ranked for the arm series — and why lighter is right.",
+    excerpt: "Neoprene dumbbells, toning balls and wrist weights ranked for the arm series, and why lighter is right.",
     href: "/blog/best-pilates-hand-weights",
     category: "Equipment",
     readTime: "7 min",
@@ -736,7 +736,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Pilates for Shoulder Pain (2026): Rotator Cuff & Impingement",
-    excerpt: "The scapular stability work that resolves most shoulder pain — and the loaded positions to avoid during a flare.",
+    excerpt: "The scapular stability work that resolves most shoulder pain, and the loaded positions to avoid during a flare.",
     href: "/blog/pilates-for-shoulder-pain",
     category: "Health",
     readTime: "11 min",
@@ -752,7 +752,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Pilates Reformer to Gift (2026)",
-    excerpt: "From the $330 AeroPilates Performer Plus to the $2,495 Merrithew V2 Max Plus — the reformers worth giving as a gift.",
+    excerpt: "From the $330 AeroPilates Performer Plus to the $2,495 Merrithew V2 Max Plus: the reformers worth giving as a gift.",
     href: "/blog/best-pilates-reformer-gift",
     category: "Guide",
     readTime: "10 min",
@@ -760,7 +760,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Pilates Reformer Gift Under $500 (2026)",
-    excerpt: "Six budget reformers under $500 that are actually worth gifting — bungee vs spring, foldable vs fixed, and who each one suits.",
+    excerpt: "Six budget reformers under $500 that are actually worth gifting: bungee vs spring, foldable vs fixed, and who each one suits.",
     href: "/blog/best-pilates-reformer-gift-under-500",
     category: "Guide",
     readTime: "9 min",
@@ -768,7 +768,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Pilates Christmas Gifts (2026)",
-    excerpt: "Lululemon, Theragun, Manduka, Alo — the definitive pilates Christmas gift guide at every budget.",
+    excerpt: "Lululemon, Theragun, Manduka, Alo: the definitive pilates Christmas gift guide at every budget.",
     href: "/blog/best-pilates-christmas-gifts",
     category: "Guide",
     readTime: "9 min",
@@ -776,7 +776,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Pilates Gift Sets & Bundles (2026)",
-    excerpt: "Six curated pilates bundles from $79 to $334 — everything she needs in one complete gift.",
+    excerpt: "Six curated pilates bundles from $79 to $334: everything she needs in one complete gift.",
     href: "/blog/best-pilates-gift-sets",
     category: "Guide",
     readTime: "9 min",
@@ -784,7 +784,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Gifts for a Pilates Instructor (2026)",
-    excerpt: "Practical, professional picks your instructor will actually use — not another candle.",
+    excerpt: "Practical, professional picks your instructor will actually use, not another candle.",
     href: "/blog/best-pilates-gifts-for-pilates-instructor",
     category: "Guide",
     readTime: "8 min",
@@ -792,7 +792,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Pilates Gifts for Him (2026)",
-    excerpt: "Lululemon ABC pants, Vuori joggers, Theragun — pilates gifts for the man who trains.",
+    excerpt: "Lululemon ABC pants, Vuori joggers, Theragun: pilates gifts for the man who trains.",
     href: "/blog/best-pilates-gifts-for-him",
     category: "Guide",
     readTime: "8 min",
@@ -800,7 +800,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Pilates Gifts for Mom (2026)",
-    excerpt: "The mat she's been meaning to upgrade, the leggings she wears until they pill — gifts that land.",
+    excerpt: "The mat she's been meaning to upgrade, the leggings she wears until they pill: gifts that land.",
     href: "/blog/best-pilates-gifts-for-mom",
     category: "Guide",
     readTime: "8 min",
@@ -808,7 +808,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Pilates Gifts for Your Girlfriend (2026)",
-    excerpt: "Lululemon, Alo, Manduka, ToeSox — the pilates gifts she'll genuinely love and use every class.",
+    excerpt: "Lululemon, Alo, Manduka, ToeSox: the pilates gifts she'll genuinely love and use every class.",
     href: "/blog/best-pilates-gifts-for-girlfriend",
     category: "Guide",
     readTime: "8 min",
@@ -817,7 +817,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Luxury Pilates Gifts (2026)",
-    excerpt: "Theragun Pro, Wolford leggings, Liforme mat — investment-grade gifts for the serious practitioner.",
+    excerpt: "Theragun Pro, Wolford leggings, Liforme mat: investment-grade gifts for the serious practitioner.",
     href: "/blog/best-luxury-pilates-gifts",
     category: "Guide",
     readTime: "9 min",
@@ -825,7 +825,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Pilates Gifts Under $100 (2026)",
-    excerpt: "Quality pilates gifts that feel premium without the premium price — all under $100.",
+    excerpt: "Quality pilates gifts that feel premium without the premium price: all under $100.",
     href: "/blog/best-pilates-gifts-under-100",
     category: "Guide",
     readTime: "7 min",
@@ -833,7 +833,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Pilates Gifts for Beginners (2026)",
-    excerpt: "The right first gifts for someone just starting their pilates journey — mats, socks, bands, and more.",
+    excerpt: "The right first gifts for someone just starting their pilates journey: mats, socks, bands, and more.",
     href: "/blog/best-pilates-gifts-for-beginners",
     category: "Guide",
     readTime: "8 min",
@@ -841,7 +841,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Pilates Gifts Under $50 (2026)",
-    excerpt: "Thoughtful, practical pilates gifts for any budget — all under $50.",
+    excerpt: "Thoughtful, practical pilates gifts for any budget: all under $50.",
     href: "/blog/best-pilates-gifts-under-50",
     category: "Guide",
     readTime: "7 min",
@@ -849,7 +849,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Luxury Pilates Reformers for Home Studios (2026)",
-    excerpt: "Gratz, Balanced Body Studio, Peak Pilates MVe, and Elina Pilates — investment-grade machines for the serious home studio.",
+    excerpt: "Gratz, Balanced Body Studio, Peak Pilates MVe, and Elina Pilates: investment-grade machines for the serious home studio.",
     href: "/blog/best-luxury-pilates-reformer",
     category: "Equipment",
     readTime: "11 min",
@@ -857,7 +857,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Luxury Pilates Accessories (2026)",
-    excerpt: "Balanced Body Magic Circle, TriggerPoint GRID, Theraband Professional, and Manduka cork props — premium small equipment for serious practitioners.",
+    excerpt: "Balanced Body Magic Circle, TriggerPoint GRID, Theraband Professional, and Manduka cork props: premium small equipment for serious practitioners.",
     href: "/blog/best-luxury-pilates-accessories",
     category: "Equipment",
     readTime: "9 min",
@@ -873,7 +873,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Luxury Pilates Mats (2026)",
-    excerpt: "Manduka PRO, Liforme, Alo Warrior, Lululemon The Mat, and Jade Harmony — the premium mats serious practitioners buy once and keep for years.",
+    excerpt: "Manduka PRO, Liforme, Alo Warrior, Lululemon The Mat, and Jade Harmony: the premium mats serious practitioners buy once and keep for years.",
     href: "/blog/best-luxury-pilates-mat",
     category: "Equipment",
     readTime: "9 min",
@@ -881,7 +881,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Luxury Pilates Leggings (2026)",
-    excerpt: "Wolford, Splits59, Varley, Alo Airbrush, and Lululemon Nulux — investment-grade leggings at the top tier of the market.",
+    excerpt: "Wolford, Splits59, Varley, Alo Airbrush, and Lululemon Nulux: investment-grade leggings at the top tier of the market.",
     href: "/blog/best-luxury-pilates-leggings",
     category: "Clothing",
     readTime: "10 min",
@@ -913,7 +913,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Pilates Tank Tops (2026)",
-    excerpt: "Racerbacks, strappy tanks, and studio styles from Lululemon, Alo, Gymshark, and Nike — ranked for breathability and fit.",
+    excerpt: "Racerbacks, strappy tanks, and studio styles from Lululemon, Alo, Gymshark, and Nike: ranked for breathability and fit.",
     href: "/blog/best-pilates-tank-tops",
     category: "Clothing",
     readTime: "8 min",
@@ -969,7 +969,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Cardio Rebounder for Lagree & Megaformer (2026)",
-    excerpt: "bellicon, JumpSport and budget rebounders for Lagree-style cardio intervals at home — honest about what a rebounder can and cannot replace.",
+    excerpt: "bellicon, JumpSport and budget rebounders for Lagree-style cardio intervals at home: honest about what a rebounder can and cannot replace.",
     href: "/blog/best-lagree-cardio-rebounder-attachment",
     category: "Equipment",
     readTime: "9 min",
@@ -1049,7 +1049,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Pilates Reformer Pads (2026): Shoulder Rests & Carriage Pads",
-    excerpt: "Balanced Body, Merrithew, AeroPilates, and aftermarket options — the replacement pads that restore comfort and extend the life of your home reformer.",
+    excerpt: "Balanced Body, Merrithew, AeroPilates, and aftermarket options: the replacement pads that restore comfort and extend the life of your home reformer.",
     href: "/blog/best-pilates-reformer-pads",
     category: "Equipment",
     readTime: "7 min",
@@ -1057,7 +1057,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Pilates Mat Cleaner (2026): Sprays & Wipes for Every Mat",
-    excerpt: "Manduka All Purpose Wash, Gaiam, Branch Basics — what actually cleans without degrading natural rubber, PU leather, or TPE mats.",
+    excerpt: "Manduka All Purpose Wash, Gaiam, Branch Basics: what actually cleans without degrading natural rubber, PU leather, or TPE mats.",
     href: "/blog/best-pilates-mat-cleaner",
     category: "Studio Essentials",
     readTime: "6 min",
@@ -1065,7 +1065,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Sweat Towel for Lagree & Pilates (2026): Studio Towels Ranked",
-    excerpt: "Manduka Yogitoes, Shandali, Rainleaf and PackTowl — grip towels for the carriage and quick-dry sweat towels for the sweatiest class there is.",
+    excerpt: "Manduka Yogitoes, Shandali, Rainleaf and PackTowl: grip towels for the carriage and quick-dry sweat towels for the sweatiest class there is.",
     href: "/blog/best-sweat-towel-for-lagree",
     category: "Studio Essentials",
     readTime: "5 min",
@@ -1073,7 +1073,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Interval Timer for Lagree & Pilates (2026): Studio Clocks Ranked",
-    excerpt: "GymNext Flex, BTB Multi-Sport, Rogue Echo — the wall timers with 100dB buzzers and readable LEDs that run every Lagree class on the planet.",
+    excerpt: "GymNext Flex, BTB Multi-Sport, Rogue Echo: the wall timers with 100dB buzzers and readable LEDs that run every Lagree class on the planet.",
     href: "/blog/best-interval-timer-for-lagree",
     category: "Studio Essentials",
     readTime: "6 min",
@@ -1081,7 +1081,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Pilates Reformer Short Box (2026): Accessories Compared",
-    excerpt: "Balanced Body, Merrithew, Align, AeroPilates — the short boxes that unlock the rollback series, tree, and oblique work for home reformer owners.",
+    excerpt: "Balanced Body, Merrithew, Align, AeroPilates: the short boxes that unlock the rollback series, tree, and oblique work for home reformer owners.",
     href: "/blog/best-pilates-reformer-short-box",
     category: "Equipment",
     readTime: "7 min",
@@ -1089,7 +1089,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Pilates Gloves (2026): Grip Gloves for Reformer & Lagree",
-    excerpt: "Harbinger, Bear Grips, Nike, RIMSports — the gloves that protect palms, add reformer grip, and support wrists without sacrificing Pilates hand sensitivity.",
+    excerpt: "Harbinger, Bear Grips, Nike, RIMSports: the gloves that protect palms, add reformer grip, and support wrists without sacrificing Pilates hand sensitivity.",
     href: "/blog/best-pilates-gloves",
     category: "Equipment",
     readTime: "6 min",
@@ -1097,7 +1097,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Compression Sleeves for Pilates (2026): Calves, Knees & Arms",
-    excerpt: "CEP Run Calf 3.0, 2XU, Zensah, Bauerfeind GenuTrain — the compression gear that accelerates recovery and supports joints through reformer work.",
+    excerpt: "CEP Run Calf 3.0, 2XU, Zensah, Bauerfeind GenuTrain: the compression gear that accelerates recovery and supports joints through reformer work.",
     href: "/blog/best-compression-sleeves-for-pilates",
     category: "Clothing",
     readTime: "7 min",
@@ -1105,7 +1105,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Warm-Up Jacket for Pilates (2026): Studio-to-Street Picks",
-    excerpt: "Alo Accolade Bomber, Lululemon Define, Beyond Yoga Foldover — the warm-up jackets that transition from reformer warm-up to studio lobby without missing a beat.",
+    excerpt: "Alo Accolade Bomber, Lululemon Define, Beyond Yoga Foldover: the warm-up jackets that transition from reformer warm-up to studio lobby without missing a beat.",
     href: "/blog/best-warm-up-jacket-for-pilates",
     category: "Clothing",
     readTime: "7 min",
@@ -1113,7 +1113,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Yoga Mat Towel for Pilates (2026): Non-Slip Picks Ranked",
-    excerpt: "Manduka eQua, Liforme, Gaiam — the mat towels that turn any surface into a non-slip Pilates platform, ranked by grip, drying speed, and value.",
+    excerpt: "Manduka eQua, Liforme, Gaiam: the mat towels that turn any surface into a non-slip Pilates platform, ranked by grip, drying speed, and value.",
     href: "/blog/best-yoga-mat-towel-for-pilates",
     category: "Equipment",
     readTime: "6 min",
@@ -1121,7 +1121,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Mini Resistance Loops for Pilates (2026): Glute Bands Ranked",
-    excerpt: "Peach Bands, Lululemon Emerge, TheraBand CLX — the mini loops that add targeted glute, hip, and thigh resistance to reformer and mat Pilates.",
+    excerpt: "Peach Bands, Lululemon Emerge, TheraBand CLX: the mini loops that add targeted glute, hip, and thigh resistance to reformer and mat Pilates.",
     href: "/blog/best-mini-resistance-loops-for-pilates",
     category: "Equipment",
     readTime: "6 min",
@@ -1129,7 +1129,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Megaformer Machine (2026): Lagree Equipment Reviewed",
-    excerpt: "The Lagree M3S, The Micro, M3X, and the best alternatives — a complete buyer's guide to Megaformer machines for home and studio use.",
+    excerpt: "The Lagree M3S, The Micro, M3X, and the best alternatives: a complete buyer's guide to Megaformer machines for home and studio use.",
     href: "/blog/best-megaformer-machine",
     category: "Equipment",
     readTime: "10 min",
@@ -1137,7 +1137,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Exercise Sliders for Pilates (2026): Gliding Discs Compared",
-    excerpt: "Valslide, SPRI, Synergee — the sliders that replicate reformer carriage movement on any floor, for every price point.",
+    excerpt: "Valslide, SPRI, Synergee: the sliders that replicate reformer carriage movement on any floor, for every price point.",
     href: "/blog/best-exercise-sliders-for-pilates",
     category: "Equipment",
     readTime: "6 min",
@@ -1145,7 +1145,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Yoga Blocks for Pilates (2026): Foam, Cork & Bamboo Compared",
-    excerpt: "Manduka, Hugger Mugger cork, Lululemon, and more — compared on thoracic support, hip alignment, and Pilates-specific modifications.",
+    excerpt: "Manduka, Hugger Mugger cork, Lululemon, and more: compared on thoracic support, hip alignment, and Pilates-specific modifications.",
     href: "/blog/best-yoga-blocks-for-pilates",
     category: "Equipment",
     readTime: "6 min",
@@ -1153,7 +1153,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Stretch Strap for Pilates (2026): Flexibility Straps Ranked",
-    excerpt: "OPTP Stretch Out Strap, TheraBand, Manduka Align — the straps that extend hamstring and hip flexor range for every practitioner.",
+    excerpt: "OPTP Stretch Out Strap, TheraBand, Manduka Align: the straps that extend hamstring and hip flexor range for every practitioner.",
     href: "/blog/best-stretch-strap-for-pilates",
     category: "Equipment",
     readTime: "6 min",
@@ -1161,7 +1161,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Massage Balls for Pilates (2026): Trigger Point Release",
-    excerpt: "TriggerPoint MB1, Rad Hard Ball, Pso-Rite, and the Chirp Wheel — the tools that reach where foam rollers cannot.",
+    excerpt: "TriggerPoint MB1, Rad Hard Ball, Pso-Rite, and the Chirp Wheel: the tools that reach where foam rollers cannot.",
     href: "/blog/best-massage-balls-for-pilates",
     category: "Equipment",
     readTime: "7 min",
@@ -1169,7 +1169,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Smartwatch for Pilates (2026): Apple Watch, Garmin, Whoop & More",
-    excerpt: "HRV accuracy, slim reformer-compatible profiles, and recovery metrics — the six wearables that actually work for Pilates practitioners.",
+    excerpt: "HRV accuracy, slim reformer-compatible profiles, and recovery metrics: the six wearables that actually work for Pilates practitioners.",
     href: "/blog/best-smartwatch-for-pilates",
     category: "Tech & Devices",
     readTime: "8 min",
@@ -1177,7 +1177,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Massage Gun for Pilates Recovery (2026): Theragun, Hypervolt & More",
-    excerpt: "Percussion devices for post-reformer muscle release — from the clinical-grade Theragun PRO Plus to compression boots that replace a sports massage.",
+    excerpt: "Percussion devices for post-reformer muscle release, from the clinical-grade Theragun PRO Plus to compression boots that replace a sports massage.",
     href: "/blog/best-massage-gun-for-pilates",
     category: "Tech & Devices",
     readTime: "7 min",
@@ -1185,7 +1185,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Vibrating Foam Roller for Pilates (2026): Hyperice, Therabody & More",
-    excerpt: "Thoracic extension, hip flexor release, IT band work — vibration rollers that deliver where standard foam cannot.",
+    excerpt: "Thoracic extension, hip flexor release, IT band work: vibration rollers that deliver where standard foam cannot.",
     href: "/blog/best-vibrating-foam-roller-for-pilates",
     category: "Tech & Devices",
     readTime: "7 min",
@@ -1193,7 +1193,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Smart Ring for Pilates (2026): Oura Ring 4, Samsung Galaxy Ring & More",
-    excerpt: "No wrist bulk, no reformer interference — the smart rings delivering HRV, recovery scores, and sleep data that outperform most smartwatches.",
+    excerpt: "No wrist bulk, no reformer interference: the smart rings delivering HRV, recovery scores, and sleep data that outperform most smartwatches.",
     href: "/blog/best-smart-ring-for-pilates",
     category: "Tech & Devices",
     readTime: "7 min",
@@ -1209,7 +1209,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Premium Pilates Reformers (2026): $2,000–$5,000+ Reviewed",
-    excerpt: "Balanced Body Allegro 2, Merrithew V2 Max, Gratz, Elina Elite Wood, Peak MVe — verified prices and honest assessments for serious home practitioners.",
+    excerpt: "Balanced Body Allegro 2, Merrithew V2 Max, Gratz, Elina Elite Wood, Peak MVe: verified prices and honest assessments for serious home practitioners.",
     href: "/blog/best-premium-pilates-reformer",
     category: "Equipment",
     readTime: "14 min",
@@ -1217,7 +1217,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Studio-Grade Pilates Reformers (2026): Align, BASI, Balanced Body & More",
-    excerpt: "Five studio-grade reformers the standard guides miss — Align A8 Pro, Balanced Body Metro IQ, BASI Systems, BB Studio Reformer, and Gratz Maple.",
+    excerpt: "Five studio-grade reformers the standard guides miss: Align A8 Pro, Balanced Body Metro IQ, BASI Systems, BB Studio Reformer, and Gratz Maple.",
     href: "/blog/best-studio-pilates-reformers",
     category: "Equipment",
     readTime: "13 min",
@@ -1225,7 +1225,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Merrithew V2 Max Review (2026): Worth the Upgrade?",
-    excerpt: "Patented retractable ropes, 24-inch carriage, high-precision springs — a detailed assessment of Merrithew's most advanced reformer vs the SPX Max.",
+    excerpt: "Patented retractable ropes, 24-inch carriage, high-precision springs: a detailed assessment of Merrithew's most advanced reformer vs the SPX Max.",
     href: "/blog/merrithew-v2-max-review",
     category: "Equipment",
     readTime: "11 min",
@@ -1233,7 +1233,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Sports Bras for Pilates (2026): Coverage & Studio Style",
-    excerpt: "The bra your instructor is wearing — and the four alternatives worth considering across every price point.",
+    excerpt: "The bra your instructor is wearing, and the four alternatives worth considering across every price point.",
     href: "/blog/best-pilates-sports-bra",
     category: "Equipment",
     readTime: "8 min",
@@ -1249,7 +1249,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Pilates Ankle Weights (2026): Bala Bangles & Alternatives",
-    excerpt: "The accessory that defines the boutique Pilates aesthetic — and the four alternatives that also deliver.",
+    excerpt: "The accessory that defines the boutique Pilates aesthetic, and the four alternatives that also deliver.",
     href: "/blog/best-pilates-ankle-weights",
     category: "Equipment",
     readTime: "7 min",
@@ -1257,7 +1257,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Mini Pilates Reformer (2026): Compact Machines Reviewed",
-    excerpt: "Full reformer experience in a smaller footprint — the compact machines that genuinely work.",
+    excerpt: "Full reformer experience in a smaller footprint: the compact machines that genuinely work.",
     href: "/blog/best-mini-pilates-reformer",
     category: "Equipment",
     readTime: "9 min",
@@ -1265,7 +1265,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Pilates Reformer Under $1,000 (2026)",
-    excerpt: "The honest guide to every reformer under four figures — spring vs cord, what you sacrifice, and our pick.",
+    excerpt: "The honest guide to every reformer under four figures: spring vs cord, what you sacrifice, and our pick.",
     href: "/blog/best-pilates-reformer-under-1000",
     category: "Equipment",
     readTime: "8 min",
@@ -1273,7 +1273,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Online Pilates Classes (2026): Platforms Compared",
-    excerpt: "Pilates Anytime, Alo Moves, and more — the platforms worth a subscription for home and travel practice.",
+    excerpt: "Pilates Anytime, Alo Moves, and more: the platforms worth a subscription for home and travel practice.",
     href: "/blog/best-online-pilates-classes",
     category: "Brand Guide",
     readTime: "9 min",
@@ -1289,7 +1289,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "10 Pilates Exercises for Beginners: The Essential Foundation",
-    excerpt: "The Hundred, Roll Up, Single Leg Stretch — the 10 exercises every beginner should master before anything else.",
+    excerpt: "The Hundred, Roll Up, Single Leg Stretch: the 10 exercises every beginner should master before anything else.",
     href: "/blog/pilates-exercises-for-beginners",
     category: "Beginners",
     readTime: "11 min",
@@ -1297,7 +1297,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Pilates for Seniors: Safe, Effective & Evidence-Based",
-    excerpt: "Why Pilates is one of the best exercises for over-60s — fall prevention, bone density, and balance, covered.",
+    excerpt: "Why Pilates is one of the best exercises for over-60s: fall prevention, bone density, and balance, covered.",
     href: "/blog/pilates-for-seniors",
     category: "Health",
     readTime: "10 min",
@@ -1305,7 +1305,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "How Often Should You Do Pilates? The Evidence-Based Answer",
-    excerpt: "Beginner or advanced, daily or twice weekly — exactly how much Pilates you need for your specific goals.",
+    excerpt: "Beginner or advanced, daily or twice weekly: exactly how much Pilates you need for your specific goals.",
     href: "/blog/how-often-should-you-do-pilates",
     category: "Guide",
     readTime: "7 min",
@@ -1313,7 +1313,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Pilates for Better Posture: The Exercises That Work",
-    excerpt: "Forward head, rounded shoulders, anterior pelvic tilt — the Pilates exercises that specifically correct each pattern.",
+    excerpt: "Forward head, rounded shoulders, anterior pelvic tilt: the Pilates exercises that specifically correct each pattern.",
     href: "/blog/pilates-for-posture",
     category: "Health",
     readTime: "9 min",
@@ -1321,7 +1321,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Pilates vs Gym: An Honest Comparison",
-    excerpt: "Strength, cost, body composition, injury risk — an evidence-based assessment of both, and who should choose what.",
+    excerpt: "Strength, cost, body composition, injury risk: an evidence-based assessment of both, and who should choose what.",
     href: "/blog/pilates-vs-gym",
     category: "Method",
     readTime: "10 min",
@@ -1329,7 +1329,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Pilates and the Pelvic Floor: What Actually Works",
-    excerpt: "The evidence on Pilates for pelvic floor health — which exercises help, which to avoid, and postpartum considerations.",
+    excerpt: "The evidence on Pilates for pelvic floor health, which exercises help, which to avoid, and postpartum considerations.",
     href: "/blog/pilates-for-pelvic-floor",
     category: "Health",
     readTime: "10 min",
@@ -1345,7 +1345,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Pilates for a Flat Stomach: What Works and What Doesn't",
-    excerpt: "The honest truth about Pilates and the abdomen — and the exercises that actually change your core shape.",
+    excerpt: "The honest truth about Pilates and the abdomen, and the exercises that actually change your core shape.",
     href: "/blog/pilates-for-flat-stomach",
     category: "Health",
     readTime: "8 min",
@@ -1386,7 +1386,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "What to Wear to Pilates (2026)",
-    excerpt: "Instructors need to see your alignment. Here's exactly what works — and what to avoid — for reformer, mat, and barre.",
+    excerpt: "Instructors need to see your alignment. Here's exactly what works, and what to avoid, for reformer, mat, and barre.",
     href: "/blog/what-to-wear-to-pilates",
     category: "Beginners",
     readTime: "6 min",
@@ -1410,7 +1410,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "6 Core Principles of Pilates Explained",
-    excerpt: "Breath, concentration, control, centring, precision, flow — understanding the method's foundations.",
+    excerpt: "Breath, concentration, control, centring, precision, flow: understanding the method's foundations.",
     href: "/blog/6-core-principles-of-pilates-explained",
     category: "Method",
     readTime: "7 min",
@@ -1442,7 +1442,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Pilates and Pregnancy",
-    excerpt: "Safe, effective Pilates throughout pregnancy — trimester by trimester.",
+    excerpt: "Safe, effective Pilates throughout pregnancy: trimester by trimester.",
     href: "/blog/pilates-and-pregnancy",
     category: "Health",
     readTime: "11 min",
@@ -1458,7 +1458,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "How to Choose a Pilates Instructor",
-    excerpt: "Credentials, lineage, teaching style — what actually matters when selecting your teacher.",
+    excerpt: "Credentials, lineage, teaching style: what actually matters when selecting your teacher.",
     href: "/blog/how-to-choose-a-pilates-instructor",
     category: "Guide",
     readTime: "7 min",
@@ -1482,7 +1482,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Pilates Leggings (2026): Compared & Ranked",
-    excerpt: "From Lululemon Align to CRZ YOGA — the leggings that genuinely serve the method, compared on opacity, waistband stability, and reformer performance.",
+    excerpt: "From Lululemon Align to CRZ YOGA: the leggings that genuinely serve the method, compared on opacity, waistband stability, and reformer performance.",
     href: "/blog/best-pilates-leggings",
     category: "Equipment",
     readTime: "9 min",
@@ -1490,7 +1490,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Pilates Reformer vs Mat: Key Differences Explained",
-    excerpt: "What's actually different between reformer and mat Pilates — which is harder, what you get from each, and how serious practitioners approach both.",
+    excerpt: "What's actually different between reformer and mat Pilates, which is harder, what you get from each, and how serious practitioners approach both.",
     href: "/blog/pilates-reformer-vs-mat",
     category: "Method",
     readTime: "10 min",
@@ -1498,7 +1498,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Pilates Resistance Bands (2026)",
-    excerpt: "Long bands, loop bands, and fabric options — the resistance bands that actually perform in a serious Pilates context.",
+    excerpt: "Long bands, loop bands, and fabric options: the resistance bands that actually perform in a serious Pilates context.",
     href: "/blog/best-pilates-resistance-bands",
     category: "Equipment",
     readTime: "8 min",
@@ -1506,7 +1506,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Pilates Starter Kit (2026): What to Buy First",
-    excerpt: "Mat, grip socks, resistance bands, Pilates ring — exactly what to buy, in what order, when starting your Pilates practice.",
+    excerpt: "Mat, grip socks, resistance bands, Pilates ring: exactly what to buy, in what order, when starting your Pilates practice.",
     href: "/blog/best-pilates-starter-kit",
     category: "Beginners",
     readTime: "9 min",
@@ -1514,7 +1514,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Pilates Reformer Accessories (2026)",
-    excerpt: "Sticky pads, jump boards, long box, leather straps — the five accessories that most meaningfully upgrade your reformer practice.",
+    excerpt: "Sticky pads, jump boards, long box, leather straps: the five accessories that most meaningfully upgrade your reformer practice.",
     href: "/blog/best-pilates-reformer-accessories",
     category: "Equipment",
     readTime: "9 min",
@@ -1522,7 +1522,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Pilates Mat (2026): Firmness, Grip & Durability Compared",
-    excerpt: "The Pilates mat is your most important equipment purchase. We compared five across firmness, grip, and spinal feedback — from Manduka PRO to travel options.",
+    excerpt: "The Pilates mat is your most important equipment purchase. We compared five across firmness, grip, and spinal feedback, from Manduka PRO to travel options.",
     href: "/blog/best-pilates-mat",
     category: "Equipment",
     readTime: "9 min",
@@ -1530,7 +1530,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Foam Roller for Pilates (2026)",
-    excerpt: "Spinal mobilisation, myofascial release, balance challenge — the foam rollers that actually perform in a serious Pilates context.",
+    excerpt: "Spinal mobilisation, myofascial release, balance challenge: the foam rollers that actually perform in a serious Pilates context.",
     href: "/blog/best-pilates-foam-roller",
     category: "Equipment",
     readTime: "8 min",
@@ -1538,7 +1538,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Pilates Ring / Magic Circle (2026)",
-    excerpt: "Joseph Pilates invented it. We compared five versions — from STOTT to Balanced Body — for resistance, pad quality, and durability.",
+    excerpt: "Joseph Pilates invented it. We compared five versions, from STOTT to Balanced Body, for resistance, pad quality, and durability.",
     href: "/blog/best-pilates-ring",
     category: "Equipment",
     readTime: "8 min",
@@ -1546,7 +1546,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Pilates Reformer Brands (2026): Compared Honestly",
-    excerpt: "Gratz vs Balanced Body vs Merrithew vs Align-Pilates — an honest brand comparison for home users, studio owners, and serious practitioners.",
+    excerpt: "Gratz vs Balanced Body vs Merrithew vs Align-Pilates: an honest brand comparison for home users, studio owners, and serious practitioners.",
     href: "/blog/best-pilates-reformer-brands",
     category: "Equipment",
     readTime: "12 min",
@@ -1562,7 +1562,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Pilates for Runners: The Work That Actually Helps",
-    excerpt: "How Pilates addresses glute medius weakness, hip flexor tightness, thoracic stiffness, and breathing economy — the specific deficits that cause running injuries.",
+    excerpt: "How Pilates addresses glute medius weakness, hip flexor tightness, thoracic stiffness, and breathing economy: the specific deficits that cause running injuries.",
     href: "/blog/pilates-for-runners",
     category: "Performance",
     readTime: "11 min",
@@ -1570,7 +1570,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Pilates for Scoliosis: What Actually Works",
-    excerpt: "An honest guide — what the research shows, which exercises help your specific curve pattern, what to avoid, and how to find an instructor who understands spinal asymmetry.",
+    excerpt: "An honest guide: what the research shows, which exercises help your specific curve pattern, what to avoid, and how to find an instructor who understands spinal asymmetry.",
     href: "/blog/pilates-for-scoliosis",
     category: "Health",
     readTime: "12 min",
@@ -1586,7 +1586,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "The History of Pilates: From Joseph Pilates to Today",
-    excerpt: "From internment camps to the New York City Ballet building to global boutique studios — the complete, honest history of how the method developed and fractured.",
+    excerpt: "From internment camps to the New York City Ballet building to global boutique studios: the complete, honest history of how the method developed and fractured.",
     href: "/blog/pilates-history",
     category: "Method",
     readTime: "14 min",
@@ -1594,7 +1594,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "How to Find a Great Pilates Studio (Before You Commit)",
-    excerpt: "The specific green flags, red flags, and questions that separate excellent studios from mediocre ones — before you spend on a class pack.",
+    excerpt: "The specific green flags, red flags, and questions that separate excellent studios from mediocre ones, before you spend on a class pack.",
     href: "/blog/how-to-find-a-good-pilates-studio",
     category: "Guide",
     readTime: "10 min",
@@ -1602,7 +1602,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Alo Yoga for Pilates (2026): Best Pieces & Honest Review",
-    excerpt: "The Airbrush legging, Airlift bra, Alo Moves app — what works for Pilates, what doesn't, and an honest assessment of the brand that defines the boutique studio aesthetic.",
+    excerpt: "The Airbrush legging, Airlift bra, Alo Moves app: what works for Pilates, what doesn't, and an honest assessment of the brand that defines the boutique studio aesthetic.",
     href: "/blog/alo-yoga-pilates",
     category: "Brand Guide",
     readTime: "10 min",
@@ -1610,7 +1610,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Lululemon for Pilates (2026): Best Pieces for Studio & Reformer",
-    excerpt: "The Align legging, Align bra, Flow Y, Define jacket — the Lululemon pieces that genuinely serve the method, and the ones to skip.",
+    excerpt: "The Align legging, Align bra, Flow Y, Define jacket: the Lululemon pieces that genuinely serve the method, and the ones to skip.",
     href: "/blog/lululemon-pilates",
     category: "Brand Guide",
     readTime: "10 min",
@@ -1618,7 +1618,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Club Pilates Review (2026): Is It Worth It?",
-    excerpt: "An honest assessment of the world's largest Pilates franchise — equipment, instructor training, class sizes, membership pricing, and who should look elsewhere.",
+    excerpt: "An honest assessment of the world's largest Pilates franchise: equipment, instructor training, class sizes, membership pricing, and who should look elsewhere.",
     href: "/blog/club-pilates-review",
     category: "Brand Guide",
     readTime: "11 min",
@@ -1626,7 +1626,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Balanced Body vs Merrithew: Which Reformer Is Right for You?",
-    excerpt: "The most detailed head-to-head of the two dominant professional reformer brands — spring feel, accessories, price, training alignment, and the verdict by use case.",
+    excerpt: "The most detailed head-to-head of the two dominant professional reformer brands: spring feel, accessories, price, training alignment, and the verdict by use case.",
     href: "/blog/balanced-body-vs-merrithew",
     category: "Brand Guide",
     readTime: "13 min",
@@ -1634,7 +1634,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Varley for Pilates (2026): The Boutique Studio Brand Reviewed",
-    excerpt: "The Reeves legging, Stratford bra, and Paloma tank — the Varley pieces built for the boutique reformer studio, honestly reviewed.",
+    excerpt: "The Reeves legging, Stratford bra, and Paloma tank: the Varley pieces built for the boutique reformer studio, honestly reviewed.",
     href: "/blog/varley-pilates-activewear",
     category: "Brand Guide",
     readTime: "9 min",
@@ -1650,7 +1650,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Sweaty Betty for Pilates (2026): Best Pieces & Honest Review",
-    excerpt: "The original UK boutique fitness brand. Power Workout Legging, Garudasana, and more — honest review for Pilates practitioners in London and beyond.",
+    excerpt: "The original UK boutique fitness brand. Power Workout Legging, Garudasana, and more: honest review for Pilates practitioners in London and beyond.",
     href: "/blog/sweaty-betty-pilates",
     category: "Brand Guide",
     readTime: "9 min",
@@ -1658,7 +1658,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Splits59 for Pilates (2026): The Brand Built for the Method",
-    excerpt: "Splits59 was designed explicitly for Pilates and barre. The Raquel legging is the method's finest piece of activewear — here is why.",
+    excerpt: "Splits59 was designed explicitly for Pilates and barre. The Raquel legging is the method's finest piece of activewear: here is why.",
     href: "/blog/splits59-pilates",
     category: "Brand Guide",
     readTime: "9 min",
@@ -1674,7 +1674,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Manduka Pilates Mat (2026): PRO, eKO & PRO Lite Compared",
-    excerpt: "The gold standard in Pilates mats. PRO vs eKO vs PRO Lite — which Manduka is right for your practice, home studio, or travel needs.",
+    excerpt: "The gold standard in Pilates mats. PRO vs eKO vs PRO Lite, which Manduka is right for your practice, home studio, or travel needs.",
     href: "/blog/manduka-pilates-mat",
     category: "Equipment",
     readTime: "9 min",
@@ -1682,7 +1682,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Vuori for Pilates (2026): Best Pieces for Men & Women",
-    excerpt: "The only major brand with genuinely great Pilates-appropriate pieces for men. Women's range excellent too — Performance Jogger and Daily Legging reviewed.",
+    excerpt: "The only major brand with genuinely great Pilates-appropriate pieces for men. Women's range excellent too: Performance Jogger and Daily Legging reviewed.",
     href: "/blog/vuori-pilates",
     category: "Brand Guide",
     readTime: "8 min",
@@ -1690,7 +1690,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Free People Movement for Pilates (2026): Best Pieces & Review",
-    excerpt: "The pilates girl aesthetic brand. Good Karma Legging, Barely There Bra, Roll With It Hoodie — lifestyle-forward activewear honestly reviewed for studio performance.",
+    excerpt: "The pilates girl aesthetic brand. Good Karma Legging, Barely There Bra, Roll With It Hoodie: lifestyle-forward activewear honestly reviewed for studio performance.",
     href: "/blog/free-people-movement-pilates",
     category: "Brand Guide",
     readTime: "8 min",
@@ -1698,7 +1698,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Girlfriend Collective for Pilates (2026): Sustainable Activewear Reviewed",
-    excerpt: "Made from recycled water bottles and fishing nets. Compressive Legging, Float Bra, and Bike Short — the ethical brand that genuinely performs, honestly reviewed.",
+    excerpt: "Made from recycled water bottles and fishing nets. Compressive Legging, Float Bra, and Bike Short: the ethical brand that genuinely performs, honestly reviewed.",
     href: "/blog/girlfriend-collective-pilates",
     category: "Brand Guide",
     readTime: "8 min",
@@ -1706,7 +1706,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Lululemon Align vs Alo Airbrush Leggings (2026): The Honest Verdict",
-    excerpt: "The two most-discussed Pilates leggings go head-to-head — fabric feel, compression, opacity, reformer performance, and which one is actually worth your money.",
+    excerpt: "The two most-discussed Pilates leggings go head-to-head: fabric feel, compression, opacity, reformer performance, and which one is actually worth your money.",
     href: "/blog/lululemon-align-vs-alo-airbrush",
     category: "Comparison",
     readTime: "10 min",
@@ -1714,7 +1714,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Pilates vs Barre (2026): Which Workout Is Right for You?",
-    excerpt: "Both are low-impact, studio-based, and devoted to precision. Here's how they actually differ — and which one suits your goals, fitness level, and lifestyle.",
+    excerpt: "Both are low-impact, studio-based, and devoted to precision. Here's how they actually differ, and which one suits your goals, fitness level, and lifestyle.",
     href: "/blog/pilates-vs-barre",
     category: "Guide",
     readTime: "8 min",
@@ -1722,7 +1722,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "AeroPilates Review (2026): Honest Assessment of the Budget Reformer",
-    excerpt: "Cord vs spring resistance, the rebounder, which model to choose — an honest AeroPilates review.",
+    excerpt: "Cord vs spring resistance, the rebounder, which model to choose: an honest AeroPilates review.",
     href: "/blog/aeropilates-review",
     category: "Brand Guide",
     readTime: "10 min",
@@ -1738,7 +1738,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Balanced Body Studio Reformer Review (2026): The Real Amazon Flagship",
-    excerpt: "Deep review of the real Balanced Body reformer sold on Amazon — carriage, springs, and whether $4,700 is justified.",
+    excerpt: "Deep review of the real Balanced Body reformer sold on Amazon: carriage, springs, and whether $4,700 is justified.",
     href: "/blog/balanced-body-allegro-2-review",
     category: "Equipment",
     readTime: "12 min",
@@ -1746,7 +1746,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Balanced Body for Pilates (2026): Equipment Review & Guide",
-    excerpt: "Everything Balanced Body makes — Allegro 2, accessories, and who their equipment is for. An honest practitioner review.",
+    excerpt: "Everything Balanced Body makes: Allegro 2, accessories, and who their equipment is for. An honest practitioner review.",
     href: "/blog/balanced-body-pilates",
     category: "Brand Guide",
     readTime: "10 min",
@@ -1754,7 +1754,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "BASI Systems Pilates (2026): Equipment Review & Brand Guide",
-    excerpt: "BASI Systems reviewed — the luxury reformer by Rael Isacowitz with the longest carriage in the industry.",
+    excerpt: "BASI Systems reviewed: the luxury reformer by Rael Isacowitz with the longest carriage in the industry.",
     href: "/blog/basi-systems-pilates",
     category: "Brand Guide",
     readTime: "10 min",
@@ -1762,7 +1762,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Foldable Pilates Reformer (2026): Space-Saving Machines",
-    excerpt: "Full-function Pilates reformers that fold and store — compared across budget, mid-range, and premium tiers.",
+    excerpt: "Full-function Pilates reformers that fold and store: compared across budget, mid-range, and premium tiers.",
     href: "/blog/best-foldable-pilates-reformer",
     category: "Equipment",
     readTime: "11 min",
@@ -1770,7 +1770,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Leggings for Reformer Pilates (2026): Ranked",
-    excerpt: "The best leggings for reformer Pilates — compared on opacity, seam placement, and performance on the carriage.",
+    excerpt: "The best leggings for reformer Pilates: compared on opacity, seam placement, and performance on the carriage.",
     href: "/blog/best-leggings-for-reformer-pilates",
     category: "Equipment",
     readTime: "9 min",
@@ -1778,7 +1778,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Pilates Bags (2026): Studio Totes & Carry-Alls Ranked",
-    excerpt: "The best bags for Pilates — compared on studio organisation and everyday carry.",
+    excerpt: "The best bags for Pilates: compared on studio organisation and everyday carry.",
     href: "/blog/best-pilates-bag",
     category: "Equipment",
     readTime: "8 min",
@@ -1786,7 +1786,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Pilates Barrel (2026): Arc, Spine Corrector & Ladder Barrel",
-    excerpt: "Three types of Pilates barrel — what each does, who needs it, and which brands make the best ones.",
+    excerpt: "Three types of Pilates barrel: what each does, who needs it, and which brands make the best ones.",
     href: "/blog/best-pilates-barrel",
     category: "Equipment",
     readTime: "10 min",
@@ -1794,7 +1794,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Pilates Biker Shorts (2026): Compared & Ranked",
-    excerpt: "The best biker shorts for Pilates — compared on reformer performance and studio comfort.",
+    excerpt: "The best biker shorts for Pilates: compared on reformer performance and studio comfort.",
     href: "/blog/best-pilates-biker-shorts",
     category: "Equipment",
     readTime: "8 min",
@@ -1802,7 +1802,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Pilates Bodysuits (2026): Compared & Ranked",
-    excerpt: "The best bodysuits for Pilates — compared on reformer performance and studio style.",
+    excerpt: "The best bodysuits for Pilates: compared on reformer performance and studio style.",
     href: "/blog/best-pilates-bodysuits",
     category: "Equipment",
     readTime: "8 min",
@@ -1810,7 +1810,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Pilates Cadillac & Trapeze Table (2026)",
-    excerpt: "The Pilates Cadillac — what it does, who needs one, and which brand to buy. Balanced Body vs Merrithew vs Gratz.",
+    excerpt: "The Pilates Cadillac: what it does, who needs one, and which brand to buy. Balanced Body vs Merrithew vs Gratz.",
     href: "/blog/best-pilates-cadillac",
     category: "Equipment",
     readTime: "10 min",
@@ -1818,7 +1818,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Pilates Wunda Chair (2026): Balanced Body, Merrithew & Gratz",
-    excerpt: "The definitive guide to the Pilates Wunda Chair — what it does, who makes the best one, and who should buy it.",
+    excerpt: "The definitive guide to the Pilates Wunda Chair: what it does, who makes the best one, and who should buy it.",
     href: "/blog/best-pilates-chair",
     category: "Equipment",
     readTime: "10 min",
@@ -1826,7 +1826,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Pilates Clothes for Men (2026): Shorts, Tights & Tops Ranked",
-    excerpt: "What men should actually wear to Pilates — six pieces across every budget.",
+    excerpt: "What men should actually wear to Pilates: six pieces across every budget.",
     href: "/blog/best-pilates-clothes-for-men",
     category: "Equipment",
     readTime: "9 min",
@@ -1834,7 +1834,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Pilates Equipment for Men (2026): Compared and Ranked",
-    excerpt: "Six essential Pilates equipment picks for men — mat, foam roller, magic circle, resistance bands, arc barrel, and home reformer.",
+    excerpt: "Six essential Pilates equipment picks for men: mat, foam roller, magic circle, resistance bands, arc barrel, and home reformer.",
     href: "/blog/best-pilates-equipment-for-men",
     category: "Equipment",
     readTime: "10 min",
@@ -1842,7 +1842,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Pilates Tote Bags for Women (2026): Studio Totes Ranked",
-    excerpt: "Six tote bags chosen for Pilates studio carry — structured, organised, and built to transition from studio to street.",
+    excerpt: "Six tote bags chosen for Pilates studio carry: structured, organised, and built to transition from studio to street.",
     href: "/blog/best-pilates-tote-bag",
     category: "Equipment",
     readTime: "7 min",
@@ -1850,7 +1850,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Pilates Studio Bags for Women (2026): Duffels & Carry-Alls Ranked",
-    excerpt: "The best studio bags for Pilates women — duffels and carry-alls reviewed for capacity, wet compartments, and studio-to-street style.",
+    excerpt: "The best studio bags for Pilates women: duffels and carry-alls reviewed for capacity, wet compartments, and studio-to-street style.",
     href: "/blog/best-pilates-studio-bag-women",
     category: "Equipment",
     readTime: "7 min",
@@ -1858,7 +1858,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Pilates Mat Tote Bags (2026): Carry Your Mat in Style",
-    excerpt: "Six mat tote bags for Pilates — from minimalist carriers to full studio totes with integrated mat straps.",
+    excerpt: "Six mat tote bags for Pilates, from minimalist carriers to full studio totes with integrated mat straps.",
     href: "/blog/best-pilates-mat-tote",
     category: "Equipment",
     readTime: "6 min",
@@ -1866,7 +1866,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Pilates Bags for Men (2026): Studio & Gym Bags Ranked",
-    excerpt: "The best bags for men who do Pilates — backpacks, duffels, and totes reviewed for studio commutes and everyday carry.",
+    excerpt: "The best bags for men who do Pilates: backpacks, duffels, and totes reviewed for studio commutes and everyday carry.",
     href: "/blog/best-pilates-bag-men",
     category: "Equipment",
     readTime: "7 min",
@@ -1874,7 +1874,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Water Bottles for Pilates (2026): Compared & Ranked",
-    excerpt: "Stanley, Hydro Flask, Owala, S'well — the best studio water bottles compared on insulation, lid design, and reformer-side stability.",
+    excerpt: "Stanley, Hydro Flask, Owala, S'well: the best studio water bottles compared on insulation, lid design, and reformer-side stability.",
     href: "/blog/best-pilates-water-bottle",
     category: "Equipment",
     readTime: "6 min",
@@ -1882,7 +1882,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Pilates Headbands (2026): Non-Slip & Studio-Ready",
-    excerpt: "Lululemon Fly Away Tamer, Alo Ribbed, Nike Dri-FIT — the best non-slip headbands for reformer and mat Pilates, ranked.",
+    excerpt: "Lululemon Fly Away Tamer, Alo Ribbed, Nike Dri-FIT: the best non-slip headbands for reformer and mat Pilates, ranked.",
     href: "/blog/best-pilates-headband",
     category: "Equipment",
     readTime: "5 min",
@@ -1890,7 +1890,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Pilates for Diastasis Recti: What Works, What to Avoid",
-    excerpt: "Safe Pilates exercises for abdominal separation — evidence-based guidance on recovery, progression, and the exercises to avoid.",
+    excerpt: "Safe Pilates exercises for abdominal separation: evidence-based guidance on recovery, progression, and the exercises to avoid.",
     href: "/blog/pilates-for-diastasis-recti",
     category: "Health",
     readTime: "9 min",
@@ -1898,7 +1898,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Postnatal Pilates: When to Start, What's Safe & How to Progress",
-    excerpt: "A complete guide to returning to Pilates after birth — safe exercises, realistic timelines for vaginal and caesarean births, and recovery equipment.",
+    excerpt: "A complete guide to returning to Pilates after birth: safe exercises, realistic timelines for vaginal and caesarean births, and recovery equipment.",
     href: "/blog/postnatal-pilates",
     category: "Health",
     readTime: "10 min",
@@ -1906,7 +1906,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Pilates for Arthritis: Benefits, Safe Exercises & Modifications",
-    excerpt: "Evidence-based guide to Pilates for osteoarthritis and rheumatoid arthritis — what works, how to modify, and the equipment that makes practice more comfortable.",
+    excerpt: "Evidence-based guide to Pilates for osteoarthritis and rheumatoid arthritis: what works, how to modify, and the equipment that makes practice more comfortable.",
     href: "/blog/pilates-for-arthritis",
     category: "Health",
     readTime: "8 min",
@@ -1914,7 +1914,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Pilates Jumpboards (2026): Compared & Ranked",
-    excerpt: "The best jumpboards for Pilates reformers — compared on compatibility and cardio performance.",
+    excerpt: "The best jumpboards for Pilates reformers: compared on compatibility and cardio performance.",
     href: "/blog/best-pilates-jumpboard",
     category: "Equipment",
     readTime: "8 min",
@@ -1922,7 +1922,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Pilates Mat Bags (2026): Carriers & Slings Compared",
-    excerpt: "The best Pilates mat bags and carriers — compared on durability, comfort, and mat fit.",
+    excerpt: "The best Pilates mat bags and carriers: compared on durability, comfort, and mat fit.",
     href: "/blog/best-pilates-mat-bag",
     category: "Equipment",
     readTime: "7 min",
@@ -1930,7 +1930,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Pilates Reformer for Beginners (2026): An Honest Guide",
-    excerpt: "Which reformer to buy as a beginner — and when you should wait before buying at all. An honest guide.",
+    excerpt: "Which reformer to buy as a beginner, and when you should wait before buying at all. An honest guide.",
     href: "/blog/best-pilates-reformer-for-beginners",
     category: "Beginners",
     readTime: "11 min",
@@ -1938,7 +1938,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Pilates Reformer for Small Spaces (2026): Compact Options Ranked",
-    excerpt: "The best compact Pilates reformers for apartments — foldable and short-footprint options ranked.",
+    excerpt: "The best compact Pilates reformers for apartments: foldable and short-footprint options ranked.",
     href: "/blog/best-pilates-reformer-for-small-spaces",
     category: "Equipment",
     readTime: "10 min",
@@ -1946,7 +1946,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Pilates Reformer for Tall People (2026): Long-Carriage Options",
-    excerpt: "If you're 6ft+ and struggling to find a reformer that fits, here are the 5 machines with the longest carriages — compared and ranked.",
+    excerpt: "If you're 6ft+ and struggling to find a reformer that fits, here are the 5 machines with the longest carriages: compared and ranked.",
     href: "/blog/best-pilates-reformer-for-tall-people",
     category: "Equipment",
     readTime: "9 min",
@@ -1962,7 +1962,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Pilates Reformers Under $500 (2026): Budget Options Honestly Reviewed",
-    excerpt: "An honest guide to budget Pilates reformers — what you get, what you sacrifice, and which machine is worth buying.",
+    excerpt: "An honest guide to budget Pilates reformers: what you get, what you sacrifice, and which machine is worth buying.",
     href: "/blog/best-pilates-reformer-under-500",
     category: "Equipment",
     readTime: "9 min",
@@ -1970,7 +1970,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Pilates Sets (2026): Matching Two-Piece Outfits Ranked",
-    excerpt: "The best matching sets for Pilates — compared on reformer performance and studio style.",
+    excerpt: "The best matching sets for Pilates: compared on reformer performance and studio style.",
     href: "/blog/best-pilates-sets",
     category: "Equipment",
     readTime: "8 min",
@@ -1978,7 +1978,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Portable Pilates Reformer (2026): Top Home & Travel Picks",
-    excerpt: "Compact, foldable, and lightweight Pilates reformers worth buying in 2026 — reviewed honestly with Amazon links.",
+    excerpt: "Compact, foldable, and lightweight Pilates reformers worth buying in 2026: reviewed honestly with Amazon links.",
     href: "/blog/best-portable-pilates-reformer",
     category: "Equipment",
     readTime: "11 min",
@@ -1986,15 +1986,15 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Beyond Yoga for Pilates (2026): Brand Review & Best Pieces",
-    excerpt: "Beyond Yoga reviewed for Pilates — Spacedye leggings, bras, and sets compared on studio performance.",
+    excerpt: "Beyond Yoga reviewed for Pilates: Spacedye leggings, bras, and sets compared on studio performance.",
     href: "/blog/beyond-yoga-pilates",
     category: "Brand Guide",
     readTime: "8 min",
     imageUrl: "/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg",
   },
   {
-    title: "Elina Pilates (2026): Equipment Review — Elite & HL1 Reformers",
-    excerpt: "Elina Pilates reviewed — Elite and HL1 reformers compared on studios and serious home practitioners.",
+    title: "Elina Pilates (2026): Equipment Review of the Elite & HL1 Reformers",
+    excerpt: "Elina Pilates reviewed: Elite and HL1 reformers compared on studios and serious home practitioners.",
     href: "/blog/elina-pilates",
     category: "Brand Guide",
     readTime: "10 min",
@@ -2010,7 +2010,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "How to Set Up a Home Pilates Studio (2026): Complete Guide",
-    excerpt: "What equipment to buy, in what order, for what budget — the complete home Pilates studio guide.",
+    excerpt: "What equipment to buy, in what order, for what budget: the complete home Pilates studio guide.",
     href: "/blog/home-pilates-studio-setup",
     category: "Guide",
     readTime: "10 min",
@@ -2018,7 +2018,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "How Long to See Results from Pilates (2026): What the Evidence Says",
-    excerpt: "When you will actually feel the difference, see physical changes, and build lasting results from Pilates — what the evidence says.",
+    excerpt: "When you will actually feel the difference, see physical changes, and build lasting results from Pilates: what the evidence says.",
     href: "/blog/how-long-to-see-results-pilates",
     category: "Health",
     readTime: "9 min",
@@ -2026,7 +2026,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "How Much Does a Pilates Reformer Cost? (2026): Every Price Tier Explained",
-    excerpt: "Every price tier from $299 to $12,000+ — what you actually get at each level and the real total cost of ownership.",
+    excerpt: "Every price tier from $299 to $12,000+: what you actually get at each level and the real total cost of ownership.",
     href: "/blog/how-much-does-a-pilates-reformer-cost",
     category: "Guide",
     readTime: "10 min",
@@ -2034,7 +2034,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Lagree vs Pilates: What's the Real Difference?",
-    excerpt: "Both use reformer-style machines. But Lagree and Pilates are fundamentally different methods — this guide explains the real distinctions.",
+    excerpt: "Both use reformer-style machines. But Lagree and Pilates are fundamentally different methods: this guide explains the real distinctions.",
     href: "/blog/lagree-vs-pilates",
     category: "Comparison",
     readTime: "9 min",
@@ -2042,7 +2042,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Lululemon Align Review (2026): Is It Worth It for Pilates?",
-    excerpt: "Honest Lululemon Align review for Pilates — compared for reformer, mat, and tower sessions.",
+    excerpt: "Honest Lululemon Align review for Pilates: compared for reformer, mat, and tower sessions.",
     href: "/blog/lululemon-align-review",
     category: "Brand Guide",
     readTime: "10 min",
@@ -2050,7 +2050,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Merrithew for Pilates (2026): STOTT Equipment & Honest Review",
-    excerpt: "Everything Merrithew makes — At Home SPX, V2 Max, STOTT certification, and who their equipment suits.",
+    excerpt: "Everything Merrithew makes, At Home SPX, V2 Max, STOTT certification, and who their equipment suits.",
     href: "/blog/merrithew-pilates",
     category: "Brand Guide",
     readTime: "10 min",
@@ -2058,7 +2058,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Merrithew At Home SPX Review (2026): The Real Amazon Listing",
-    excerpt: "Deep review of the real Merrithew SPX reformer sold on Amazon — spring system, what's included, and the Balanced Body comparison.",
+    excerpt: "Deep review of the real Merrithew SPX reformer sold on Amazon: spring system, what's included, and the Balanced Body comparison.",
     href: "/blog/merrithew-spx-max-review",
     category: "Equipment",
     readTime: "12 min",
@@ -2066,7 +2066,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Peak Pilates (2026): Equipment Review & Best Models Ranked",
-    excerpt: "Peak Pilates reviewed — classical wood reformers compared on home studios and serious practitioners.",
+    excerpt: "Peak Pilates reviewed: classical wood reformers compared on home studios and serious practitioners.",
     href: "/blog/peak-pilates",
     category: "Brand Guide",
     readTime: "10 min",
@@ -2074,7 +2074,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "PersonalHour Pilates (2026): Janet La Force Plus & Zous 2.0 Reviewed",
-    excerpt: "PersonalHour Pilates reviewed — wood-frame reformers for advanced home practitioners.",
+    excerpt: "PersonalHour Pilates reviewed: wood-frame reformers for advanced home practitioners.",
     href: "/blog/personalhour-pilates",
     category: "Brand Guide",
     readTime: "9 min",
@@ -2082,7 +2082,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Pilates Apparatus Guide (2026): Every Piece of Equipment Explained",
-    excerpt: "Reformer, Cadillac, Chair, barrels, mat — every Pilates apparatus explained. What each does and how the full system fits together.",
+    excerpt: "Reformer, Cadillac, Chair, barrels, mat, every Pilates apparatus explained. What each does and how the full system fits together.",
     href: "/blog/pilates-apparatus-guide",
     category: "Guide",
     readTime: "10 min",
@@ -2090,7 +2090,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Pilates for Anxiety & Stress (2026): The Science of How It Helps",
-    excerpt: "The neuroscience behind why Pilates reduces anxiety — and which specific practice patterns produce the strongest mental health benefits.",
+    excerpt: "The neuroscience behind why Pilates reduces anxiety, and which specific practice patterns produce the strongest mental health benefits.",
     href: "/blog/pilates-for-anxiety",
     category: "Health",
     readTime: "10 min",
@@ -2098,7 +2098,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Pilates for Hip Pain (2026): Exercises That Actually Help",
-    excerpt: "Evidence-based guide to using Pilates for hip pain — flexor tightness, bursitis, impingement, and arthritis.",
+    excerpt: "Evidence-based guide to using Pilates for hip pain: flexor tightness, bursitis, impingement, and arthritis.",
     href: "/blog/pilates-for-hip-pain",
     category: "Health",
     readTime: "11 min",
@@ -2106,7 +2106,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Pilates for Knee Pain (2026): Exercises That Help & What to Avoid",
-    excerpt: "Which Pilates exercises relieve and prevent knee pain — and which to avoid for different knee conditions.",
+    excerpt: "Which Pilates exercises relieve and prevent knee pain, and which to avoid for different knee conditions.",
     href: "/blog/pilates-for-knee-pain",
     category: "Health",
     readTime: "10 min",
@@ -2114,7 +2114,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Pilates for Neck & Shoulder Pain (2026): Exercises That Relieve and Strengthen",
-    excerpt: "Which Pilates exercises relieve neck and shoulder pain — and the ones that commonly make it worse.",
+    excerpt: "Which Pilates exercises relieve neck and shoulder pain, and the ones that commonly make it worse.",
     href: "/blog/pilates-for-neck-pain",
     category: "Health",
     readTime: "10 min",
@@ -2122,7 +2122,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Pilates for Office Workers & Desk Jobs (2026): Fix Posture, Reduce Pain",
-    excerpt: "How Pilates specifically counters the damage of sitting all day — and the most time-efficient way to get it done.",
+    excerpt: "How Pilates specifically counters the damage of sitting all day, and the most time-efficient way to get it done.",
     href: "/blog/pilates-for-office-workers",
     category: "Health",
     readTime: "10 min",
@@ -2138,7 +2138,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Pilates Morning Routine (2026): 10, 20 & 30-Minute Options",
-    excerpt: "Science-backed morning Pilates routines for every schedule — from a 10-minute pre-work wake-up to a full 30-minute session.",
+    excerpt: "Science-backed morning Pilates routines for every schedule, from a 10-minute pre-work wake-up to a full 30-minute session.",
     href: "/blog/pilates-morning-routine",
     category: "Guide",
     readTime: "8 min",
@@ -2146,7 +2146,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Pilates Reformer with Tower (2026): Complete Home Studio Guide",
-    excerpt: "Reformer + tower combos compared — what a tower adds to your practice and which setup is worth the investment.",
+    excerpt: "Reformer + tower combos compared: what a tower adds to your practice and which setup is worth the investment.",
     href: "/blog/pilates-reformer-with-tower",
     category: "Equipment",
     readTime: "10 min",
@@ -2154,15 +2154,15 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "What to Pack in Your Pilates Bag: Studio Essentials",
-    excerpt: "The instructor-approved list of what actually belongs in your Pilates bag — and what you can leave at home.",
+    excerpt: "The instructor-approved list of what actually belongs in your Pilates bag, and what you can leave at home.",
     href: "/blog/pilates-studio-bag-essentials",
     category: "Guide",
     readTime: "7 min",
     imageUrl: "/pictures/stitch-pilates-essentials-logbook.png",
   },
   {
-    title: "Wall Pilates: Complete Guide (2026) — What It Is and Whether It Works",
-    excerpt: "The honest guide to wall Pilates — what the exercises are, the science behind them, and what equipment actually helps.",
+    title: "Wall Pilates Complete Guide (2026): What It Is and Whether It Works",
+    excerpt: "The honest guide to wall Pilates: what the exercises are, the science behind them, and what equipment actually helps.",
     href: "/blog/wall-pilates-guide",
     category: "Guide",
     readTime: "8 min",
@@ -2170,7 +2170,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Your Reformer Review (2026): The Connected Home Studio",
-    excerpt: "Your Reformer — the premium wood reformer with integrated app reviewed for home studio practitioners.",
+    excerpt: "Your Reformer: the premium wood reformer with integrated app reviewed for home studio practitioners.",
     href: "/blog/your-reformer-pilates",
     category: "Brand Guide",
     readTime: "10 min",
@@ -2186,7 +2186,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "How Many Calories Does Pilates Burn? (2026): Honest Numbers",
-    excerpt: "Accurate calorie burn data for mat and reformer Pilates — by body weight, intensity, and session type.",
+    excerpt: "Accurate calorie burn data for mat and reformer Pilates, by body weight, intensity, and session type.",
     href: "/blog/how-many-calories-does-pilates-burn",
     category: "Health",
     readTime: "8 min",
@@ -2202,7 +2202,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Pilates for Cyclists (2026): Power, Posture & Recovery",
-    excerpt: "How Pilates improves cycling performance — core stability, hip flexor release, and spinal extension for aggressive positions.",
+    excerpt: "How Pilates improves cycling performance: core stability, hip flexor release, and spinal extension for aggressive positions.",
     href: "/blog/pilates-for-cyclists",
     category: "Health",
     readTime: "9 min",
@@ -2210,7 +2210,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Pilates for Fibromyalgia (2026): Gentle Exercises & What the Evidence Says",
-    excerpt: "How Pilates helps fibromyalgia — pain reduction, fatigue management, pacing principles, and the equipment that makes practice accessible.",
+    excerpt: "How Pilates helps fibromyalgia: pain reduction, fatigue management, pacing principles, and the equipment that makes practice accessible.",
     href: "/blog/pilates-for-fibromyalgia",
     category: "Health",
     readTime: "9 min",
@@ -2225,7 +2225,7 @@ const blogJsonLd = {
       "@type": "CollectionPage",
       "@id": "https://pilatescollectiveclub.com/blog/#webpage",
       "url": "https://pilatescollectiveclub.com/blog",
-      "name": "Pilates Journal — Equipment Reviews, Method Guides & Studio Advice",
+      "name": "Pilates Journal: Equipment Reviews, Method Guides & Studio Advice",
       "description": "In-depth Pilates guides covering equipment reviews, beginner advice, method comparisons, and studio tips.",
       "isPartOf": { "@id": "https://pilatescollectiveclub.com/#website" },
       "inLanguage": "en-US",

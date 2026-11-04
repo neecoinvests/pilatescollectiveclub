@@ -12,19 +12,19 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Bags for Men (2026): Duffels & Backpacks",
-  description: "The best bags for men attending Pilates — reviewed for capacity, studio organisation, and commute versatility in 2026.",
+  description: "The best bags for men attending Pilates: reviewed for capacity, studio organisation, and commute versatility in 2026.",
   keywords: ["best pilates bag men", "pilates gym bag men 2026", "mens pilates bag", "best duffel bag pilates men", "pilates backpack men", "mens studio bag pilates", "best gym bag reformer pilates", "lululemon pilates bag men"],
   openGraph: {
     title: "Best Pilates Bags for Men (2026)",
-    description: "The best bags for men attending Pilates — reviewed for capacity, studio organisation, and commute versatility.",
+    description: "The best bags for men attending Pilates: reviewed for capacity, studio organisation, and commute versatility.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-bag-men",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg", width: 1200, height: 630, alt: "Best Pilates Bags for Men — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg", width: 1200, height: 630, alt: "Best Pilates Bags for Men: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Bags for Men (2026)",
-    description: "The best bags for men attending Pilates — compared and ranked.",
+    description: "The best bags for men attending Pilates: compared and ranked.",
     images: ["https://pilatescollectiveclub.com/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/best-pilates-bag-men" },
@@ -38,7 +38,7 @@ const PRODUCTS = [
     price: "From $148",
     verdict: "Best overall bag for men",
     description:
-      "The Lululemon Commuter Backpack is the bag that makes the most sense for men whose Pilates practice is part of a broader daily routine — it handles a full studio kit while functioning equally well as a work and travel bag. The capacity is substantial without the bag reading as a gym bag in professional contexts, and the organisation is genuinely considered: a dedicated laptop compartment, interior organisation for a studio kit including shoes and a change of clothes, and external pockets positioned for things that need to be accessed without opening the main compartment. The padded back panel and shoulder straps are comfortable across both short studio commutes and longer travel days. Build quality is consistent with Lululemon's premium positioning. Not sold on Amazon: this link goes to Lululemon's own site.",
+      "The Lululemon Commuter Backpack is the bag that makes the most sense for men whose Pilates practice is part of a broader daily routine: it handles a full studio kit while functioning equally well as a work and travel bag. The capacity is substantial without the bag reading as a gym bag in professional contexts, and the organisation is genuinely considered: a dedicated laptop compartment, interior organisation for a studio kit including shoes and a change of clothes, and external pockets positioned for things that need to be accessed without opening the main compartment. The padded back panel and shoulder straps are comfortable across both short studio commutes and longer travel days. Build quality is consistent with Lululemon's premium positioning. Not sold on Amazon: this link goes to Lululemon's own site.",
     affiliateUrl: "https://shop.lululemon.com",
     tag: "Editor's Pick",
   },
@@ -48,7 +48,7 @@ const PRODUCTS = [
     price: "$109.99",
     verdict: "Best duffel for men",
     description:
-      "Herschel's Novel Duffel is the clean, unfussy studio duffel that handles a complete Pilates kit without drawing attention to itself. The capacity is generous — a full change of clothes, gym shoes, a towel, and accessories fit without compromising organisation — and the separate shoe compartment isolates footwear cleanly from the rest of the bag. The design avoids the overtly athletic branding that makes many gym bags feel out of place in other contexts, which suits practitioners who head from class to work or social commitments. The construction is durable and consistent with Herschel's reputation, and the range of colourways skews appropriately neutral for practitioners who prefer their bag to read as a bag rather than a sports statement.",
+      "Herschel's Novel Duffel is the clean, unfussy studio duffel that handles a complete Pilates kit without drawing attention to itself. The capacity is generous (a full change of clothes, gym shoes, a towel, and accessories fit without compromising organisation) and the separate shoe compartment isolates footwear cleanly from the rest of the bag. The design avoids the overtly athletic branding that makes many gym bags feel out of place in other contexts, which suits practitioners who head from class to work or social commitments. The construction is durable and consistent with Herschel's reputation, and the range of colourways skews appropriately neutral for practitioners who prefer their bag to read as a bag rather than a sports statement.",
     affiliateUrl: "https://www.amazon.com/dp/B0C3B2TWFN?tag=pilatescollective-20",
     tag: "Best Duffel",
   },
@@ -58,7 +58,7 @@ const PRODUCTS = [
     price: "$49.99",
     verdict: "Best value bag for men",
     description:
-      "Nike's Brasilia 9.5 is the practical, no-nonsense studio bag for men who want reliable function at a straightforward price. The separate shoe compartment is a genuine standout at this price point — properly sized and ventilated, it handles larger men's shoes that budget bags struggle with. The main compartment is spacious enough for a full kit change, and the organisation includes an interior zip pocket and exterior slip pockets for items that need to be accessed quickly. The durability is consistent across the Brasilia line, and the bag handles the wear of multiple sessions per week without premature ageing. For practitioners who want to invest budget in quality gear rather than the bag that carries it, the Brasilia is the standard recommendation.",
+      "Nike's Brasilia 9.5 is the practical, no-nonsense studio bag for men who want reliable function at a straightforward price. The separate shoe compartment is a genuine standout at this price point: properly sized and ventilated, it handles larger men's shoes that budget bags struggle with. The main compartment is spacious enough for a full kit change, and the organisation includes an interior zip pocket and exterior slip pockets for items that need to be accessed quickly. The durability is consistent across the Brasilia line, and the bag handles the wear of multiple sessions per week without premature ageing. For practitioners who want to invest budget in quality gear rather than the bag that carries it, the Brasilia is the standard recommendation.",
     affiliateUrl: "https://www.amazon.com/dp/B07Z56RJ28?tag=pilatescollective-20",
     tag: "Best Value",
   },
@@ -68,7 +68,7 @@ const PRODUCTS = [
     price: "From $98",
     verdict: "Best aesthetic bag for men",
     description:
-      "Vuori's Ripstop Duffel is the studio bag for men who care about how their kit looks as much as how it performs. The ripstop nylon construction is durable and distinctive without being loud, and the silhouette reads as considered rather than athletic — a bag you'd take to a premium reformer studio and also carry to a weekend away. The capacity suits a full studio kit, the organisation is clean and functional, and the hardware quality reflects the premium price. For practitioners at premium boutique studios where the gear in the changing room receives its own quiet appraisal, the Vuori positions correctly — functional enough to be the everyday bag, refined enough not to look like a concession. Not sold on Amazon: this link goes to Vuori's own site.",
+      "Vuori's Ripstop Duffel is the studio bag for men who care about how their kit looks as much as how it performs. The ripstop nylon construction is durable and distinctive without being loud, and the silhouette reads as considered rather than athletic: a bag you'd take to a premium reformer studio and also carry to a weekend away. The capacity suits a full studio kit, the organisation is clean and functional, and the hardware quality reflects the premium price. For practitioners at premium boutique studios where the gear in the changing room receives its own quiet appraisal, the Vuori positions correctly: functional enough to be the everyday bag, refined enough not to look like a concession. Not sold on Amazon: this link goes to Vuori's own site.",
     affiliateUrl: "https://vuoriclothing.com",
     tag: "Best Aesthetic",
   },
@@ -78,7 +78,7 @@ const PRODUCTS = [
     price: "$46.00",
     verdict: "Best budget bag for men",
     description:
-      "Adidas's Linear Duffel is the entry-level option for men who need a capable studio bag without a significant outlay. The capacity is sufficient for a standard Pilates kit — grip socks, a change of clothes, a water bottle — and the zippered front pocket and end pockets provide enough organisation for the basics. The polyester construction is durable and wipes clean easily, and the adjustable shoulder strap handles both hand and shoulder carry. Where it underperforms relative to premium options is in the shoe compartment — the Linear doesn't have one, which means footwear shares space with clean clothes unless managed with a separate shoe bag. For practitioners who don't carry studio shoes or who use a dedicated shoe bag, this limitation is manageable.",
+      "Adidas's Linear Duffel is the entry-level option for men who need a capable studio bag without a significant outlay. The capacity is sufficient for a standard Pilates kit (grip socks, a change of clothes, a water bottle) and the zippered front pocket and end pockets provide enough organisation for the basics. The polyester construction is durable and wipes clean easily, and the adjustable shoulder strap handles both hand and shoulder carry. Where it underperforms relative to premium options is in the shoe compartment: the Linear doesn't have one, which means footwear shares space with clean clothes unless managed with a separate shoe bag. For practitioners who don't carry studio shoes or who use a dedicated shoe bag, this limitation is manageable.",
     affiliateUrl: "https://www.amazon.com/dp/B0CZS6F91Q?tag=pilatescollective-20",
     tag: "Best Budget",
   },
@@ -88,7 +88,7 @@ const PRODUCTS = [
     price: "From $72",
     verdict: "Best tote for men",
     description:
-      "Manduka's Go Steady Bag is the structured tote option for male practitioners who prefer a tote carry over a duffel — a less common choice for men, but one that suits those whose Pilates session is part of a lighter day with a smaller kit. The structured design holds its shape fully loaded or empty, with a reinforced base that sits cleanly on studio benches and locker-room floors. The organisation is comprehensive for a tote format: multiple interior pockets, a secure zip closure, and a key hook. The durable construction is characteristic of Manduka's broader range, and the bag handles daily studio use over years without the structural degradation that cheaper totes experience. A sound choice for the minimalist male practitioner.",
+      "Manduka's Go Steady Bag is the structured tote option for male practitioners who prefer a tote carry over a duffel: a less common choice for men, but one that suits those whose Pilates session is part of a lighter day with a smaller kit. The structured design holds its shape fully loaded or empty, with a reinforced base that sits cleanly on studio benches and locker-room floors. The organisation is comprehensive for a tote format: multiple interior pockets, a secure zip closure, and a key hook. The durable construction is characteristic of Manduka's broader range, and the bag handles daily studio use over years without the structural degradation that cheaper totes experience. A sound choice for the minimalist male practitioner.",
     affiliateUrl: "https://www.amazon.com/s?k=manduka+go+steady+3.0+tote+bag&tag=pilatescollective-20",
     tag: "Best Tote",
   },
@@ -100,7 +100,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Best Pilates Bags for Men (2026)",
-      "description": "The best bags for men attending Pilates — reviewed for capacity, studio organisation, and commute versatility.",
+      "description": "The best bags for men attending Pilates: reviewed for capacity, studio organisation, and commute versatility.",
       "url": "https://pilatescollectiveclub.com/blog/best-pilates-bag-men",
       "datePublished": "2026-06-01",
       "dateModified": "2026-10-20",
@@ -135,7 +135,7 @@ const jsonLd = {
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "What bag should men bring to Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "A duffel or backpack in the 20–30 litre range covers most men's Pilates needs. Look for a separate shoe compartment — men's studio shoes take up more space than the average budget bag allows — and at least one interior zip pocket for valuables. A bag that doesn't read as overtly athletic is worth considering if you head from class to work or other commitments." } },
+        { "@type": "Question", "name": "What bag should men bring to Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "A duffel or backpack in the 20–30 litre range covers most men's Pilates needs. Look for a separate shoe compartment, men's studio shoes take up more space than the average budget bag allows, and at least one interior zip pocket for valuables. A bag that doesn't read as overtly athletic is worth considering if you head from class to work or other commitments." } },
         { "@type": "Question", "name": "Is Pilates popular with men?", "acceptedAnswer": { "@type": "Answer", "text": "Increasingly so. Pilates is well-established in professional sports as a core training method, and male practitioners now represent a significant and growing share of boutique studio attendance. The combination of mobility, core strength, and injury prevention appeals directly to men who train across multiple disciplines." } },
         { "@type": "Question", "name": "What size gym bag do men need for Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "A 20–30 litre bag handles a typical men's Pilates kit: grip socks, a change of clothes (men's clothing takes more volume than women's), a towel, shoes, and personal items. If you shower at the studio and carry a full change, lean toward 28–35 litres. For lighter sessions without a clothes change, 18–22 litres is sufficient." } },
       ],
@@ -165,7 +165,7 @@ export default function BestPilatesBagMenPage() {
             <TopPick name={PRODUCTS[1].name} price={PRODUCTS[1].price} note={QP_NOTES[1]} url={PRODUCTS[1].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              The bag requirements for men attending Pilates are straightforward in principle and poorly served in practice: enough capacity for a men's kit change, a proper shoe compartment, and a design that doesn't read as a gym bag in every other context of the day. Most dedicated gym bags solve only the capacity problem and ignore the rest. These six options have been selected for male Pilates practitioners specifically — prioritising shoe compartment quality, organisation that suits a studio kit, and designs that hold up in the kinds of premium studio environments where Pilates increasingly takes place.
+              The bag requirements for men attending Pilates are straightforward in principle and poorly served in practice: enough capacity for a men's kit change, a proper shoe compartment, and a design that doesn't read as a gym bag in every other context of the day. Most dedicated gym bags solve only the capacity problem and ignore the rest. These six options have been selected for male Pilates practitioners specifically: prioritising shoe compartment quality, organisation that suits a studio kit, and designs that hold up in the kinds of premium studio environments where Pilates increasingly takes place.
             </p>
           </div>
         </section>
@@ -203,7 +203,7 @@ export default function BestPilatesBagMenPage() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "What bag should men bring to Pilates?", a: "A duffel or backpack in the 20–30 litre range covers most men's Pilates needs. Look for a separate shoe compartment — men's studio shoes take up more space than the average budget bag allows — and at least one interior zip pocket for valuables. A bag that doesn't read as overtly athletic is worth considering if you head from class to work or other commitments." },
+                  { q: "What bag should men bring to Pilates?", a: "A duffel or backpack in the 20–30 litre range covers most men's Pilates needs. Look for a separate shoe compartment, men's studio shoes take up more space than the average budget bag allows, and at least one interior zip pocket for valuables. A bag that doesn't read as overtly athletic is worth considering if you head from class to work or other commitments." },
                   { q: "Is Pilates popular with men?", a: "Increasingly so. Pilates is well-established in professional sports as a core training method, and male practitioners now represent a significant and growing share of boutique studio attendance. The combination of mobility, core strength, and injury prevention appeals directly to men who train across multiple disciplines." },
                   { q: "What size gym bag do men need for Pilates?", a: "A 20–30 litre bag handles a typical men's Pilates kit: grip socks, a change of clothes (men's clothing takes more volume than women's), a towel, shoes, and personal items. If you shower at the studio and carry a full change, lean toward 28–35 litres. For lighter sessions without a clothes change, 18–22 litres is sufficient." },
                 ].map((item) => (
@@ -218,8 +218,8 @@ export default function BestPilatesBagMenPage() {
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="Best Pilates Bags (2026)" excerpt="Studio totes, duffels, and mat carriers — the complete guide for every type of practitioner." href="/blog/best-pilates-bag" category="Equipment" readTime="7 min read" date="May 2026" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
-                <ArticleCard title="Best Pilates Grip Socks" excerpt="The essential studio accessory — five options across every price point." href="/blog/best-pilates-grip-socks" category="Equipment" readTime="7 min read" date="May 2026" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Bags (2026)" excerpt="Studio totes, duffels, and mat carriers: the complete guide for every type of practitioner." href="/blog/best-pilates-bag" category="Equipment" readTime="7 min read" date="May 2026" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Grip Socks" excerpt="The essential studio accessory: five options across every price point." href="/blog/best-pilates-grip-socks" category="Equipment" readTime="7 min read" date="May 2026" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Clothes for Men (2026): What to Wear" excerpt="The best Pilates clothes for men, fitted shorts, tops and compression tights from Rhone, Lululemon, Vuori, Under…" href="/blog/best-pilates-clothes-for-men" category="Guide" readTime="9 min read" imageUrl="/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Equipment for Men (2026): Reformers & Gear" excerpt="The best Pilates equipment for men, reformers, mats, resistance bands, and accessories reviewed for male…" href="/blog/best-pilates-equipment-for-men" category="Guide" readTime="10 min read" imageUrl="/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg" />
                 <ArticleCard title="Lagree for Men (2026): What to Wear & What to Expect" excerpt="A man's guide to Lagree: what the class is really like, the clothing that works on a Megaformer, and two complete…" href="/blog/lagree-for-men" category="Lagree" readTime="9 min read" imageUrl="/pictures/stitch-reformer-row-studio.png" />

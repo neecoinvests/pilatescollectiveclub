@@ -16,15 +16,15 @@ export const metadata: Metadata = {
   keywords: ["basi systems pilates", "basi systems reformer", "basi pilates equipment", "rael isacowitz reformer", "basi systems review", "basi pilates reformer", "basi f2 system", "basi systems 2026", "budget pilates reformer amazon"],
   openGraph: {
     title: "BASI Systems Pilates (2026): Honestly Assessed",
-    description: "BASI Systems reviewed — the reformer line associated with Rael Isacowitz, sold direct and through dealers, plus a real budget Amazon alternative.",
+    description: "BASI Systems reviewed: the reformer line associated with Rael Isacowitz, sold direct and through dealers, plus a real budget Amazon alternative.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/basi-systems-pilates",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/ahmet-kurt-0xn-8kRWOhE-unsplash.jpg", width: 1200, height: 630, alt: "BASI Systems Pilates equipment review — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/ahmet-kurt-0xn-8kRWOhE-unsplash.jpg", width: 1200, height: 630, alt: "BASI Systems Pilates equipment review: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "BASI Systems Pilates (2026): Honestly Assessed",
-    description: "BASI Systems — the reformer line associated with Rael Isacowitz, reviewed honestly, plus a real budget Amazon alternative.",
+    description: "BASI Systems: the reformer line associated with Rael Isacowitz, reviewed honestly, plus a real budget Amazon alternative.",
     images: ["https://pilatescollectiveclub.com/pictures/ahmet-kurt-0xn-8kRWOhE-unsplash.jpg"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/basi-systems-pilates" },
@@ -35,40 +35,40 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "BASI Systems Reformer",
-    price: "Dealer-quoted — not sold on Amazon",
+    price: "Dealer-quoted, not sold on Amazon",
     verdict: "The flagship reformer, sold direct/through dealers",
     description:
-      "A note before anything else: we could not find a live, currently-sold Amazon listing for BASI Systems equipment. BASI Systems is the equipment line associated with BASI Pilates, the education organisation founded by Rael Isacowitz. The brand markets this reformer around extended carriage travel and a beechwood-and-aluminium frame, positioning it for taller practitioners and athletes. We could not independently verify specific superlative claims (such as \"longest carriage in the industry\"), exact material specifications, spring count, or current pricing — treat those as claims to confirm directly with BASI Systems or an authorised dealer rather than established facts.",
+      "A note before anything else: we could not find a live, currently-sold Amazon listing for BASI Systems equipment. BASI Systems is the equipment line associated with BASI Pilates, the education organisation founded by Rael Isacowitz. The brand markets this reformer around extended carriage travel and a beechwood-and-aluminium frame, positioning it for taller practitioners and athletes. We could not independently verify specific superlative claims (such as \"longest carriage in the industry\"), exact material specifications, spring count, or current pricing: treat those as claims to confirm directly with BASI Systems or an authorised dealer rather than established facts.",
     affiliateUrl: "https://basisystems.com/product-category/reformers/",
     tag: "Editor's Pick",
   },
   {
     rank: "02",
     name: "BASI Systems Reformer with F2 Tower",
-    price: "Dealer-quoted — not sold on Amazon",
+    price: "Dealer-quoted, not sold on Amazon",
     verdict: "The brand's complete apparatus, sold direct/through dealers",
     description:
-      "The BASI Systems Reformer with the F2 tower is described by the brand as its complete apparatus, combining the reformer with a modular tower attachment. We could not independently verify the specific mechanisms described in BASI's own marketing (such as a \"multi-angle pulley system\") or current pricing — confirm current specifications and cost directly with BASI Systems or an authorised dealer rather than relying on a figure quoted here or elsewhere.",
+      "The BASI Systems Reformer with the F2 tower is described by the brand as its complete apparatus, combining the reformer with a modular tower attachment. We could not independently verify the specific mechanisms described in BASI's own marketing (such as a \"multi-angle pulley system\") or current pricing: confirm current specifications and cost directly with BASI Systems or an authorised dealer rather than relying on a figure quoted here or elsewhere.",
     affiliateUrl: "https://basisystems.com/product-category/reformers/",
     tag: "Complete Apparatus",
   },
   {
     rank: "03",
     name: "BASI Systems Arc",
-    price: "Dealer-quoted — not sold on Amazon",
+    price: "Dealer-quoted, not sold on Amazon",
     verdict: "The brand's spine corrector, sold direct/through dealers",
     description:
-      "The BASI Systems Arc is the brand's version of a Pilates Arc-style spine corrector. We could not verify a live Amazon listing for it, or independently confirm claims about its exact curvature or construction versus other arcs. For a real, currently-sold Amazon alternative, the Balanced Body Pilates Arc is a genuine live listing at $189.99 — a practical option if you don't specifically need BASI-branded equipment.",
+      "The BASI Systems Arc is the brand's version of a Pilates Arc-style spine corrector. We could not verify a live Amazon listing for it, or independently confirm claims about its exact curvature or construction versus other arcs. For a real, currently-sold Amazon alternative, the Balanced Body Pilates Arc is a genuine live listing at $189.99: a practical option if you don't specifically need BASI-branded equipment.",
     affiliateUrl: "https://basisystems.com/product-category/arc/",
     tag: "Best Small Apparatus",
   },
   {
     rank: "04",
     name: "BASI Systems Stability Chair",
-    price: "Dealer-quoted — not sold on Amazon",
+    price: "Dealer-quoted, not sold on Amazon",
     verdict: "The brand's Pilates chair, sold direct/through dealers",
     description:
-      "The BASI Systems Stability Chair is described by the brand as its take on the Wunda Chair. We could not verify a live Amazon listing for it, or independently confirm the exact pedal configuration or spring count described in the brand's own marketing — confirm current specifications and pricing directly with BASI Systems or an authorised dealer before buying.",
+      "The BASI Systems Stability Chair is described by the brand as its take on the Wunda Chair. We could not verify a live Amazon listing for it, or independently confirm the exact pedal configuration or spring count described in the brand's own marketing: confirm current specifications and pricing directly with BASI Systems or an authorised dealer before buying.",
     affiliateUrl: "https://basisystems.com/product-category/chairs/",
     tag: "Best Chair",
   },
@@ -76,9 +76,9 @@ const PRODUCTS = [
     rank: "05",
     name: "PAETA Foldable Pilates Reformer",
     price: "$449.99",
-    verdict: "Not BASI — a real, budget-tier Amazon alternative for buyers who don't need the BASI name",
+    verdict: "Not BASI: a real, budget-tier Amazon alternative for buyers who don't need the BASI name",
     description:
-      "To be clear: this is not a BASI Systems product, and it's a fundamentally different tier of machine — a budget foldable reformer, not a professional-grade apparatus built to BASI's curriculum specifications. We include it because BASI Systems has no verified Amazon listing at any price, and some readers specifically want a real, currently-sold, purchase-today option rather than a dealer-quoted machine. The PAETA is a genuine, live Amazon listing at $449.99 with a foldable frame for home storage. If you need BASI's actual engineering and reputation for professional or curriculum use, buy from BASI Systems or a dealer; if you just want a working reformer today at a fraction of the cost, this is a real, honestly-disclosed alternative.",
+      "To be clear: this is not a BASI Systems product, and it's a fundamentally different tier of machine, a budget foldable reformer, not a professional-grade apparatus built to BASI's curriculum specifications. We include it because BASI Systems has no verified Amazon listing at any price, and some readers specifically want a real, currently-sold, purchase-today option rather than a dealer-quoted machine. The PAETA is a genuine, live Amazon listing at $449.99 with a foldable frame for home storage. If you need BASI's actual engineering and reputation for professional or curriculum use, buy from BASI Systems or a dealer; if you just want a working reformer today at a fraction of the cost, this is a real, honestly-disclosed alternative.",
     affiliateUrl: "https://www.amazon.com/dp/B0G1YL9QTN?tag=pilatescollective-20",
     tag: "Budget Amazon Alternative",
   },
@@ -90,7 +90,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "BASI Systems Pilates (2026): Equipment Review & Brand Guide",
-      "description": "BASI Systems Pilates equipment reviewed honestly — the reformer, F2 tower, Arc, and Stability Chair associated with Rael Isacowitz's BASI Pilates, sold direct or through dealers rather than on Amazon, plus one real budget-tier Amazon reformer alternative.",
+      "description": "BASI Systems Pilates equipment reviewed honestly: the reformer, F2 tower, Arc, and Stability Chair associated with Rael Isacowitz's BASI Pilates, sold direct or through dealers rather than on Amazon, plus one real budget-tier Amazon reformer alternative.",
       "url": "https://pilatescollectiveclub.com/blog/basi-systems-pilates",
       "datePublished": "2026-05-21",
       "dateModified": "2026-10-20",
@@ -127,7 +127,7 @@ const jsonLd = {
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "Is BASI Systems equipment sold on Amazon?", "acceptedAnswer": { "@type": "Answer", "text": "We could not find a live, currently-sold Amazon listing for BASI Systems equipment. It appears to be sold direct and through an authorised dealer network, not through Amazon — the links in this guide go to the brand's own site rather than an Amazon offer." } },
+        { "@type": "Question", "name": "Is BASI Systems equipment sold on Amazon?", "acceptedAnswer": { "@type": "Answer", "text": "We could not find a live, currently-sold Amazon listing for BASI Systems equipment. It appears to be sold direct and through an authorised dealer network, not through Amazon: the links in this guide go to the brand's own site rather than an Amazon offer." } },
         { "@type": "Question", "name": "What is BASI Systems?", "acceptedAnswer": { "@type": "Answer", "text": "BASI Systems is the equipment line associated with BASI Pilates, the education organisation founded by Rael Isacowitz in 1989. The brand markets its equipment around extended carriage travel and premium materials, though we could not independently verify specific superlative claims or exact specifications." } },
         { "@type": "Question", "name": "Who is Rael Isacowitz?", "acceptedAnswer": { "@type": "Answer", "text": "Rael Isacowitz is a widely known figure in contemporary Pilates education. He founded BASI (Body Arts and Science International) Pilates in 1989 and has trained instructors internationally. BASI Systems equipment is marketed as designed to his specifications." } },
         { "@type": "Question", "name": "How does BASI Systems compare to Balanced Body and Merrithew?", "acceptedAnswer": { "@type": "Answer", "text": "BASI Systems is generally positioned as a premium option, but we could not independently verify specific superlative claims (such as \"longest carriage in the market\") or exact pricing against Balanced Body or Merrithew. Balanced Body and Merrithew both have real, live Amazon listings; BASI Systems, as far as we could verify, does not, and is sold direct or through dealers instead." } },
@@ -161,7 +161,7 @@ export default function BasiSystemsPilatesPage() {
             <TopPick name={PRODUCTS[4].name} price={PRODUCTS[4].price} note={QP_NOTES[4]} url={PRODUCTS[4].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              BASI Systems is the equipment line associated with BASI Pilates, the education organisation founded by Rael Isacowitz. The brand markets its apparatus around extended carriage travel and premium materials, positioning it for professional athletes, dancers, and taller practitioners. As far as we could verify, none of it is sold on Amazon — it&apos;s a direct and dealer-network brand — and we could not independently confirm several of the specific superlatives and specifications the brand and other coverage have claimed. We&apos;ve included one real, honestly-disclosed budget Amazon alternative for readers who want a purchase-today option rather than a dealer quote. This guide is honest about what we could verify and what you should confirm yourself before buying.
+              BASI Systems is the equipment line associated with BASI Pilates, the education organisation founded by Rael Isacowitz. The brand markets its apparatus around extended carriage travel and premium materials, positioning it for professional athletes, dancers, and taller practitioners. As far as we could verify, none of it is sold on Amazon, it&apos;s a direct and dealer-network brand, and we could not independently confirm several of the specific superlatives and specifications the brand and other coverage have claimed. We&apos;ve included one real, honestly-disclosed budget Amazon alternative for readers who want a purchase-today option rather than a dealer quote. This guide is honest about what we could verify and what you should confirm yourself before buying.
             </p>
           </div>
         </section>
@@ -182,7 +182,7 @@ export default function BasiSystemsPilatesPage() {
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
                 {[
                   { label: "Founded", value: "1989 by Rael Isacowitz" },
-                  { label: "Sold on Amazon?", value: "No confirmed live listing for BASI equipment — sold direct or through dealers; one budget Amazon alternative included" },
+                  { label: "Sold on Amazon?", value: "No confirmed live listing for BASI equipment, sold direct or through dealers; one budget Amazon alternative included" },
                   { label: "Marketed for", value: "Athletes, dancers, taller practitioners, BASI curriculum studios (per brand)" },
                 ].map((item) => (
                   <div key={item.label}>
@@ -194,7 +194,7 @@ export default function BasiSystemsPilatesPage() {
             </div>
 
             <QuickPicks className="mb-6 mt-4" picks={PRODUCTS.map((pr, i) => ({ name: pr.name, price: pr.price, url: pr.affiliateUrl, note: QP_NOTES[i] }))} />
-            <AffiliateNote>We could not find a live Amazon listing for BASI Systems equipment — four links on this page go directly to basisystems.com and we earn no commission from them. One link goes to a real, verified Amazon product (not BASI-branded), and we earn a small commission on qualifying purchases through it.</AffiliateNote>
+            <AffiliateNote>We could not find a live Amazon listing for BASI Systems equipment: four links on this page go directly to basisystems.com and we earn no commission from them. One link goes to a real, verified Amazon product (not BASI-branded), and we earn a small commission on qualifying purchases through it.</AffiliateNote>
 
             <div className="mb-16">
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Items · 4 BASI Models + 1 Verified Amazon Alternative</p>
@@ -215,7 +215,7 @@ export default function BasiSystemsPilatesPage() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "Is BASI Systems equipment sold on Amazon?", a: "We could not find a live, currently-sold Amazon listing for BASI Systems equipment. It appears to be sold direct and through an authorised dealer network rather than through Amazon — the links in this guide go to the brand's own site, not to an Amazon offer." },
+                  { q: "Is BASI Systems equipment sold on Amazon?", a: "We could not find a live, currently-sold Amazon listing for BASI Systems equipment. It appears to be sold direct and through an authorised dealer network rather than through Amazon: the links in this guide go to the brand's own site, not to an Amazon offer." },
                   { q: "What is BASI Systems?", a: "BASI Systems is the equipment line associated with BASI Pilates, the education organisation founded by Rael Isacowitz in 1989. The brand markets its equipment around extended carriage travel and premium materials, though we could not independently verify specific superlative claims or exact specifications." },
                   { q: "Who is Rael Isacowitz?", a: "Rael Isacowitz is a widely known figure in contemporary Pilates education. He founded BASI Pilates in 1989 and has trained instructors internationally. BASI Systems equipment is marketed as designed to his specifications." },
                   { q: "How does BASI Systems compare to Balanced Body and Merrithew?", a: "We could not independently verify specific superlative claims (such as \"longest carriage in the market\") or exact pricing for BASI Systems against Balanced Body or Merrithew. Balanced Body and Merrithew both have real, live Amazon listings; BASI Systems, as far as we could verify, does not, and is sold direct or through dealers instead." },
@@ -234,7 +234,7 @@ export default function BasiSystemsPilatesPage() {
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="Best Pilates Reformers for Tall People" excerpt="Long-carriage options across all brands — BASI, Balanced Body, Gratz, and more." href="/blog/best-pilates-reformer-for-tall-people" category="Equipment" readTime="9 min read" date="May 2026" imageUrl="/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Reformers for Tall People" excerpt="Long-carriage options across all brands: BASI, Balanced Body, Gratz, and more." href="/blog/best-pilates-reformer-for-tall-people" category="Equipment" readTime="9 min read" date="May 2026" imageUrl="/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg" />
                 <ArticleCard title="Best Premium Pilates Reformers" excerpt="The top-tier reformers for serious practitioners across all brands." href="/blog/best-premium-pilates-reformer" category="Equipment" readTime="11 min read" date="May 2026" imageUrl="/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg" />
                 <ArticleCard title="Best Studio Pilates Reformers" excerpt="How BASI Systems compares against Peak, Balanced Body, and Gratz for professional studio use." href="/blog/best-studio-pilates-reformers" category="Equipment" readTime="14 min read" date="May 2026" imageUrl="/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Cadillac" excerpt="BASI builds one of the most respected cadillac/tower combos available for studio purchase." href="/blog/best-pilates-cadillac" category="Equipment" readTime="9 min read" date="May 2026" imageUrl="/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg" />

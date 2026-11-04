@@ -12,7 +12,7 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Studios in St. Louis, MO (2026)",
-  description: "The best Pilates studios in St. Louis — reformer, Lagree and classical studios in Tower Grove, Brentwood, Ladue and the Central West End. Six verified picks, 2026.",
+  description: "The best Pilates studios in St. Louis: reformer, Lagree and classical studios in Tower Grove, Brentwood, Ladue and the Central West End. Six verified picks, 2026.",
   robots: {
     index: true,
     follow: true,
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Best Pilates Studios in St. Louis, MO (2026)",
     description:
-      "Six curated Pilates studios in St. Louis — Clayton and Central West End reformer boutiques. Verified 2026.",
+      "Six curated Pilates studios in St. Louis: Clayton and Central West End reformer boutiques. Verified 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/st-louis",
     images: [
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Best Pilates Studios in St. Louis (2026)",
     description:
-      "The 6 best Pilates studios in St. Louis — curated, verified, and reviewed for 2026.",
+      "The 6 best Pilates studios in St. Louis: curated, verified, and reviewed for 2026.",
     images: [
       "https://images.unsplash.com/photo-1518391846015-55a9cc003b25?w=1200&h=630&fit=crop",
     ],
@@ -56,8 +56,8 @@ const STUDIOS = [
     neighborhood: "St. Louis County",
     priceLevel: "$$$",
     review: "The Pilates Center of St. Louis teaches the method as developed by Joseph H. Pilates and is a member of the Pilates Method Alliance, making it one of the area's more traditional, education-focused studios.",
-    caveat: "we could not confirm the current street address independently — check pilatescenterstl.com or call before visiting.",
-    address: "—",
+    caveat: "we could not confirm the current street address independently: check pilatescenterstl.com or call before visiting.",
+    address: "",
     bestFor: "Traditional, education-focused Pilates",
     signatureClass: "Classical Reformer",
     bookingTip: "Call the studio to arrange a first session.",
@@ -68,7 +68,7 @@ const STUDIOS = [
     neighborhood: "Brentwood",
     priceLevel: "$$",
     review: "Club Pilates Brentwood on South Brentwood Boulevard is a convenient inner-ring option for south and central St. Louis, with the brand's levelled group reformer system; it is bookable through ClassPass and Wellhub too.",
-    caveat: "a franchise format — consistent, but less personalised than an independent studio.",
+    caveat: "a franchise format: consistent, but less personalised than an independent studio.",
     address: "2535 S Brentwood Blvd, St. Louis, MO 63144",
     bestFor: "Structured reformer classes in inner-ring St. Louis",
     signatureClass: "Reformer Flow",
@@ -79,8 +79,8 @@ const STUDIOS = [
     name: "Freeman Pilates",
     neighborhood: "Tower Grove South",
     priceLevel: "$$$",
-    review: "Freeman Pilates is an intimate, instructor-led boutique studio on Morganford Road in Tower Grove South, with a second studio — Studio II by Freeman Pilates — on Washington Avenue. Reviewers on ClassPass praise its attentive, corrective cueing.",
-    caveat: "small classes mean limited spots — book ahead.",
+    review: "Freeman Pilates is an intimate, instructor-led boutique studio on Morganford Road in Tower Grove South, with a second studio, Studio II by Freeman Pilates, on Washington Avenue. Reviewers on ClassPass praise its attentive, corrective cueing.",
+    caveat: "small classes mean limited spots: book ahead.",
     address: "3172 Morganford Rd, St. Louis, MO 63116",
     bestFor: "Small-group reformer with attentive cueing",
     signatureClass: "Small Group Reformer",
@@ -104,7 +104,7 @@ const STUDIOS = [
     neighborhood: "The Grove / Forest Park Southeast",
     priceLevel: "$$",
     review: "Casa Di Pilates on South Kingshighway is a boutique studio in the Grove neighbourhood offering reformer Pilates, listed on ClassPass across several Pilates categories.",
-    caveat: "limited published detail about the instructors — try a single class first.",
+    caveat: "limited published detail about the instructors: try a single class first.",
     address: "1530 S Kingshighway Blvd, Suite 204, St. Louis, MO 63110",
     bestFor: "Boutique reformer in the Grove",
     signatureClass: "Reformer Pilates",
@@ -116,7 +116,7 @@ const STUDIOS = [
     neighborhood: "Lindenwood Park",
     priceLevel: "$$",
     review: "Studio Ivanhoe Pilates & Movement on Ivanhoe Avenue is an independent studio serving south St. Louis.",
-    caveat: "limited published detail about class formats — take an intro class first.",
+    caveat: "limited published detail about class formats: take an intro class first.",
     address: "3219 Ivanhoe Ave, St. Louis, MO 63139",
     bestFor: "Independent Pilates in south St. Louis",
     signatureClass: "Pilates Class",
@@ -135,15 +135,15 @@ const BOOKING_TIPS = [
   },
   {
     heading: "Classical studios expect a private intake session",
-    body: "The Pilates Center and Freeman Pilates both expect an initial private session before placing you in small-group programming. This is standard classical practice — instructors use the intake to understand your movement history, injuries, and goals. It is worth taking seriously rather than rushing through.",
+    body: "The Pilates Center and Freeman Pilates both expect an initial private session before placing you in small-group programming. This is standard classical practice: instructors use the intake to understand your movement history, injuries, and goals. It is worth taking seriously rather than rushing through.",
   },
   {
-    heading: "Lagree is not Pilates — know what you're signing up for",
+    heading: "Lagree is not Pilates: know what you're signing up for",
     body: "PLNK STL uses the Lagree Megaformer, which is physically significantly more demanding than traditional reformer Pilates. If you're new to either, start with conventional Pilates at Club Pilates or Casa Di Pilates before transitioning to Lagree. The intensity difference is meaningful.",
   },
   {
     heading: "Grip socks are required at every reformer and Megaformer studio",
-    body: "Universal across St. Louis's reformer market. Full-toe grip socks — bring your own rather than paying front-desk retail.",
+    body: "Universal across St. Louis's reformer market. Full-toe grip socks: bring your own rather than paying front-desk retail.",
   },
 ];
 
@@ -166,7 +166,7 @@ const NEIGHBORHOODS = [
   {
     name: "Brentwood & Inner Suburbs",
     description:
-      "The inner-ring western suburbs offer the most accessible franchise reformer programming in the metro — wide schedules, ClassPass compatibility, and consistent instruction for practitioners who prioritize convenience.",
+      "The inner-ring western suburbs offer the most accessible franchise reformer programming in the metro: wide schedules, ClassPass compatibility, and consistent instruction for practitioners who prioritize convenience.",
   },
 ];
 
@@ -191,22 +191,22 @@ const GEAR = [
   },
   {
     name: "Fabric Resistance Bands",
-    note: "Our pick: Arena Strength Fabric Glute Bands (3-Pack). Versatile for home practice — particularly useful between the intensive sessions common at St. Louis's classical studios.",
+    note: "Our pick: Arena Strength Fabric Glute Bands (3-Pack). Versatile for home practice, particularly useful between the intensive sessions common at St. Louis's classical studios.",
     price: "$29.00",
     url: "https://www.amazon.com/dp/B07VYK14JC?tag=pilatescollective-20",
   },
   {
     name: "High-Density Foam Roller",
-    note: "Our pick: OPTP PRO-Roller Foam Roller (36-inch). Post-class fascia release — a standard recovery tool across St. Louis's reformer and Megaformer studios.",
+    note: "Our pick: OPTP PRO-Roller Foam Roller (36-inch). Post-class fascia release: a standard recovery tool across St. Louis's reformer and Megaformer studios.",
     price: "$62.99",
     url: "https://www.amazon.com/dp/B002C9EX14?tag=pilatescollective-20",
   },
 ];
 
 const HOME_REFORMERS = [
-  { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work — three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
+  { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work: three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
   { tag: "Mid-Range Pick", name: "AeroPilates Pro XP 557", note: "AeroPilates' top-of-the-range home reformer, a step up for practitioners training several times a week.", price: "$1,329.99", url: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20" },
-  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order — an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
+  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
 ];
 
 const RELATED_CITIES = [
@@ -220,7 +220,7 @@ const FURTHER_READING = [
   {
     title: "Lagree vs Pilates: What's the Difference?",
     excerpt:
-      "The Megaformer isn't a reformer. Here's what separates Lagree from traditional Pilates — and how to choose.",
+      "The Megaformer isn't a reformer. Here's what separates Lagree from traditional Pilates, and how to choose.",
     href: "/blog/lagree-vs-pilates",
     category: "Education",
     readTime: "6 min read",
@@ -231,7 +231,7 @@ const FURTHER_READING = [
   {
     title: "Classical vs Contemporary Pilates",
     excerpt:
-      "The real differences between classical and contemporary approaches — and how to choose the right method for your goals.",
+      "The real differences between classical and contemporary approaches, and how to choose the right method for your goals.",
     href: "/blog/classical-vs-contemporary-pilates",
     category: "Education",
     readTime: "7 min read",
@@ -309,7 +309,7 @@ export default function StLouisPage() {
               Updated October 2026 · 6 studios reviewed
             </p>
             <p className="text-lg leading-relaxed" style={{ color: "#5c4f47" }}>
-              St. Louis has developed a quietly serious Pilates culture — one that spans the spectrum
+              St. Louis has developed a quietly serious Pilates culture: one that spans the spectrum
               from a master-instructor-led classical apparatus studio in Ladue that has been operating
               since 2008, to the city's premier Lagree Megaformer studio expanding across multiple
               locations, to intimate boutique practices in Tower Grove and Lindenwood Park where class
@@ -477,7 +477,7 @@ export default function StLouisPage() {
 
         <CTASection
           title="Find Pilates near you"
-          subtitle="Use our AI Finder to discover studios in any city — coming soon."
+          subtitle="Use our AI Finder to discover studios in any city: coming soon."
           showSearch
           searchPlaceholder="Ask: best reformer Pilates in St. Louis…"
         />

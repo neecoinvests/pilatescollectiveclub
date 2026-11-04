@@ -54,7 +54,7 @@ const PRODUCTS = [
     name: "Manduka Yogitoes Hot Yoga Mat Towel (71\")",
     price: "$72.00",
     verdict: "Premium pick for covering the carriage or mat",
-    description: "This is the towel for the second job — covering a surface rather than wiping your face. The Yogitoes is a full-length 71\" mat towel with a moisture-activated grip, which is exactly the property you want in Lagree: the sweatier the class gets, the more the towel is supposed to hold rather than skate. That matters on a Megaformer carriage, where you spend long, slow sets in plank, kneeling and bear positions with your hands and knees pressing into vinyl that gets slick fast. At 71\" it is longer than a carriage, so expect to fold it to fit, or keep it for mat and floor work at home. It is the most expensive towel here by a distance; buy it if slipping in planks is your actual problem, not as a face towel. Sold by Amazon.com.",
+    description: "This is the towel for the second job: covering a surface rather than wiping your face. The Yogitoes is a full-length 71\" mat towel with a moisture-activated grip, which is exactly the property you want in Lagree: the sweatier the class gets, the more the towel is supposed to hold rather than skate. That matters on a Megaformer carriage, where you spend long, slow sets in plank, kneeling and bear positions with your hands and knees pressing into vinyl that gets slick fast. At 71\" it is longer than a carriage, so expect to fold it to fit, or keep it for mat and floor work at home. It is the most expensive towel here by a distance; buy it if slipping in planks is your actual problem, not as a face towel. Sold by Amazon.com.",
     affiliateUrl: "https://www.amazon.com/dp/B0D5ZR3R1M?tag=pilatescollective-20",
     tag: "Premium Pick",
   },
@@ -72,7 +72,7 @@ const PRODUCTS = [
     name: "Eunzel Hot Yoga Towel with Grip Dots (2-Pack)",
     price: "$25.49",
     verdict: "Best 2-pack grip towel",
-    description: "Lagree regulars who go three or four times a week run into a laundry problem before they run into a grip problem: a sweat-soaked grip towel needs washing after every class. The Eunzel listing is a 2-pack of hot yoga towels with grip dots on the underside, so one can be in the wash while the other is in your bag. Grip dots are a different design from a fully silicone-backed towel — the dots give traction at contact points rather than across the whole back — but the purpose is the same: keep the towel from sliding on a sweaty carriage or mat. For the price of two, it is the best way to cover a full week of classes without doing laundry daily.",
+    description: "Lagree regulars who go three or four times a week run into a laundry problem before they run into a grip problem: a sweat-soaked grip towel needs washing after every class. The Eunzel listing is a 2-pack of hot yoga towels with grip dots on the underside, so one can be in the wash while the other is in your bag. Grip dots are a different design from a fully silicone-backed towel, the dots give traction at contact points rather than across the whole back, but the purpose is the same: keep the towel from sliding on a sweaty carriage or mat. For the price of two, it is the best way to cover a full week of classes without doing laundry daily.",
     affiliateUrl: "https://www.amazon.com/dp/B0F5QSYZW8?tag=pilatescollective-20",
     tag: "Best 2-Pack",
   },
@@ -81,7 +81,7 @@ const PRODUCTS = [
     name: "Rainleaf Microfiber Towel (Quick Dry, Compact)",
     price: "$12.99",
     verdict: "Best hand and face sweat towel",
-    description: "This is the towel for the first job — the one you actually reach for between sets. Lagree's slow tempo and long time under tension mean the sweat builds steadily rather than in bursts, and by the second half of class it is running into your eyes and making the handles and straps slippery. A compact, quick-dry microfiber towel is the right tool: small enough to sit on the platform or drape over the frame without getting in the way of the carriage, and quick to dry so it is not still damp in your bag the next morning. Rainleaf is a simple, inexpensive version of exactly that, and the obvious pick if you only buy one towel.",
+    description: "This is the towel for the first job: the one you actually reach for between sets. Lagree's slow tempo and long time under tension mean the sweat builds steadily rather than in bursts, and by the second half of class it is running into your eyes and making the handles and straps slippery. A compact, quick-dry microfiber towel is the right tool: small enough to sit on the platform or drape over the frame without getting in the way of the carriage, and quick to dry so it is not still damp in your bag the next morning. Rainleaf is a simple, inexpensive version of exactly that, and the obvious pick if you only buy one towel.",
     affiliateUrl: "https://www.amazon.com/dp/B01K1TX77W?tag=pilatescollective-20",
     tag: "Best Hand Towel",
   },
@@ -90,7 +90,7 @@ const PRODUCTS = [
     name: "PackTowl Personal Ultralight Microfiber Towel",
     price: "$16.95",
     verdict: "Best ultralight towel for your bag",
-    description: "PackTowl comes from the travel and outdoor world, and the Personal Ultralight is built around being light and small when packed. That suits the Lagree commute: if you go straight from work to class, or carry everything in a small tote, an ultralight microfiber towel takes up almost no room alongside your grip socks, bottle and a change of clothes. It does the same job as the Rainleaf — face, neck, hands and a quick wipe of the handles — and the choice between them is mostly about how much you care about pack size and weight. Sold by Amazon.com.",
+    description: "PackTowl comes from the travel and outdoor world, and the Personal Ultralight is built around being light and small when packed. That suits the Lagree commute: if you go straight from work to class, or carry everything in a small tote, an ultralight microfiber towel takes up almost no room alongside your grip socks, bottle and a change of clothes. It does the same job as the Rainleaf (face, neck, hands and a quick wipe of the handles) and the choice between them is mostly about how much you care about pack size and weight. Sold by Amazon.com.",
     affiliateUrl: "https://www.amazon.com/dp/B0BL8JFYFN?tag=pilatescollective-20",
     tag: "Best Ultralight",
   },
@@ -191,7 +191,7 @@ export default function BestSweatTowelForLagreePage() {
               Lagree generates more sweat per class than almost any other studio format. The tempo is slow, the sets are long and the muscles never really get a break, so instead of a burst of sweat at the end you get a steady build that has soaked your hands, face and the carriage by the halfway point. A towel is not an afterthought in this method; it is part of the kit.
             </p>
             <p className="text-lg leading-relaxed" style={{ color: "#5c4a3d" }}>
-              The mistake most people make is buying one towel and expecting it to do two different jobs. Below we explain the difference, then pick five towels that cover both — two quick-dry hand towels for your face and the handles, and three grip towels for covering a sweaty carriage or mat.
+              The mistake most people make is buying one towel and expecting it to do two different jobs. Below we explain the difference, then pick five towels that cover both: two quick-dry hand towels for your face and the handles, and three grip towels for covering a sweaty carriage or mat.
             </p>
           </div>
         </section>
@@ -215,10 +215,10 @@ export default function BestSweatTowelForLagreePage() {
                 <strong>Job one is wiping sweat.</strong> Your face, neck and hands get wet within minutes, and wet hands are a problem on a Megaformer because so much of the work runs through the handles and straps. A small, absorbent, quick-dry towel that you can grab during a transition and set down on the platform is what you need here. Microfiber is the usual choice because it is thin, light and dries quickly, so it fits in a small bag and is not still damp the next day.
               </p>
               <p className="text-base leading-relaxed mb-4" style={{ color: "#5c4a3d" }}>
-                <strong>Job two is grip on the surface.</strong> Lagree spends a lot of time in planks, bear holds, kneeling lunges and other positions where your hands or knees press into the carriage while it moves under spring tension. Sweat on vinyl is slippery. A grip towel — full length, with a silicone-backed or dotted underside — goes over the carriage or mat and gives your hands and knees a surface that is designed to stay put as it gets wet. A plain gym towel laid flat does this badly: it bunches, slides and can leave a loose corner near the rails.
+                <strong>Job two is grip on the surface.</strong> Lagree spends a lot of time in planks, bear holds, kneeling lunges and other positions where your hands or knees press into the carriage while it moves under spring tension. Sweat on vinyl is slippery. A grip towel (full length, with a silicone-backed or dotted underside) goes over the carriage or mat and gives your hands and knees a surface that is designed to stay put as it gets wet. A plain gym towel laid flat does this badly: it bunches, slides and can leave a loose corner near the rails.
               </p>
               <p className="text-base leading-relaxed" style={{ color: "#5c4a3d" }}>
-                If you only buy one, buy a hand towel — every Lagree class needs one. Add a grip towel if you notice your hands sliding in planks, or if your studio does not provide anything for the carriage. Before laying anything on the machine, ask your studio whether personal towels on the carriage are allowed.
+                If you only buy one, buy a hand towel, every Lagree class needs one. Add a grip towel if you notice your hands sliding in planks, or if your studio does not provide anything for the carriage. Before laying anything on the machine, ask your studio whether personal towels on the carriage are allowed.
               </p>
             </div>
 
@@ -235,7 +235,7 @@ export default function BestSweatTowelForLagreePage() {
             <div className="rounded-2xl p-6 mb-12" style={{ backgroundColor: "#fcf9f8", border: "1px solid #e8e0db" }}>
               <h2 className="text-lg font-bold mb-3" style={{ color: "#2d1f17" }}>Not Lagree-specific? That&apos;s fine</h2>
               <p className="text-base leading-relaxed" style={{ color: "#5c4a3d" }}>
-                None of these towels is made for Lagree, and you will not find a towel that is. Hot yoga towels and travel microfiber towels happen to solve the exact problems a Megaformer class creates — heavy sweat, slippery hands and a slick surface under planks and kneeling work. What matters is matching the towel to the job, not the label on it.
+                None of these towels is made for Lagree, and you will not find a towel that is. Hot yoga towels and travel microfiber towels happen to solve the exact problems a Megaformer class creates: heavy sweat, slippery hands and a slick surface under planks and kneeling work. What matters is matching the towel to the job, not the label on it.
               </p>
             </div>
 
@@ -267,7 +267,7 @@ export default function BestSweatTowelForLagreePage() {
               <div className="grid md:grid-cols-2 gap-6">
                 <ArticleCard
                   title="Lagree Essentials (2026): What to Wear, Bring & Buy"
-                  excerpt="The complete kit list for Lagree — clothing, grip socks, towels and what to pack for your first class."
+                  excerpt="The complete kit list for Lagree: clothing, grip socks, towels and what to pack for your first class."
                   href="/blog/lagree-essentials"
                   category="Lagree"
                   readTime="10 min"
@@ -285,7 +285,7 @@ export default function BestSweatTowelForLagreePage() {
                 />
                 <ArticleCard
                   title="Best Bag for Lagree (2026)"
-                  excerpt="Gym bags with wet and shoe compartments — room for a towel, bottle and a change of clothes."
+                  excerpt="Gym bags with wet and shoe compartments: room for a towel, bottle and a change of clothes."
                   href="/blog/best-lagree-bag"
                   category="Lagree"
                   readTime="8 min"

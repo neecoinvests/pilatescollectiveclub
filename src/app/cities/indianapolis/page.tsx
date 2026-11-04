@@ -12,7 +12,7 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Studios in Indianapolis, IN (2026)",
-  description: "The best Pilates studios in Indianapolis — small-group reformer in Nora, Downtown Indy and the northern suburbs. Verified 2026.",
+  description: "The best Pilates studios in Indianapolis: small-group reformer in Nora, Downtown Indy and the northern suburbs. Verified 2026.",
   robots: {
     index: true,
     follow: true,
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Best Pilates Studios in Indianapolis, IN (2026)",
     description:
-      "Curated Pilates studios in Indianapolis — Nora, Downtown and north-suburban reformer picks. Verified 2026.",
+      "Curated Pilates studios in Indianapolis: Nora, Downtown and north-suburban reformer picks. Verified 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/indianapolis",
     images: [
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Best Pilates Studios in Indianapolis (2026)",
     description:
-      "The 6 best Pilates studios in Indianapolis — curated, verified, and reviewed for 2026.",
+      "The 6 best Pilates studios in Indianapolis: curated, verified, and reviewed for 2026.",
     images: [
       "https://images.unsplash.com/photo-1564862384608-2fb0e2b5e0e4?w=1200&h=630&fit=crop",
     ],
@@ -56,11 +56,11 @@ const STUDIOS = [
     neighborhood: "Nora / Far North Side",
     priceLevel: "$$",
     review: "Foundations Studio is a woman-owned Pilates and wellness studio on East 86th Street, and it tops ClassPass's Indianapolis reformer ranking with a 4.97 rating. With only four reformers, classes feel personal, and the teaching treats spring selection and body position as skills to build over time. It also offers mat Pilates, yoga, pre/postnatal yoga and myofascial release.",
-    caveat: "only four reformers means reformer classes book up — plan ahead.",
+    caveat: "only four reformers means reformer classes book up: plan ahead.",
     address: "1726 E 86th St, Indianapolis, IN 46240",
     bestFor: "Precise, small-group reformer instruction",
     signatureClass: "Reformer (4-person class)",
-    bookingTip: "Book reformer classes several days ahead — the small room fills fast.",
+    bookingTip: "Book reformer classes several days ahead: the small room fills fast.",
   },
   {
     number: "2",
@@ -68,11 +68,11 @@ const STUDIOS = [
     neighborhood: "Mass Ave / Downtown",
     priceLevel: "$$$",
     review: "Club Pilates Downtown Indy on Massachusetts Avenue is the most central reformer studio in the city, convenient for downtown residents, Lockerbie Square and the medical district. It runs the brand's levelled group reformer system.",
-    caveat: "a franchise format — consistent, but less personalised than an independent studio.",
+    caveat: "a franchise format: consistent, but less personalised than an independent studio.",
     address: "530 Massachusetts Ave, Suite 160, Indianapolis, IN 46204",
     bestFor: "Downtown professionals wanting structured reformer classes",
     signatureClass: "Reformer Flow",
-    bookingTip: "Lunchtime and post-work classes fill quickly — book 48 hours ahead.",
+    bookingTip: "Lunchtime and post-work classes fill quickly: book 48 hours ahead.",
   },
   {
     number: "3",
@@ -80,7 +80,7 @@ const STUDIOS = [
     neighborhood: "Fall Creek / Northeast (Fishers area)",
     priceLevel: "$$",
     review: "Reforming Indy is an independent Pilates and barre studio on Fall Creek Road in the northeast of the city, near Fishers. It is a convenient option for north-east residents who want an independent studio rather than a franchise.",
-    caveat: "there is limited published detail about its instructors and class formats — try a single class first.",
+    caveat: "there is limited published detail about its instructors and class formats: try a single class first.",
     address: "11250 Fall Creek Rd, Indianapolis, IN 46256",
     bestFor: "Northeast-side reformer and barre",
     signatureClass: "Reformer Pilates",
@@ -91,12 +91,12 @@ const STUDIOS = [
     name: "Club Pilates North Indy",
     neighborhood: "Keystone at the Crossing",
     priceLevel: "$$$",
-    review: "Club Pilates' North Indy studio at Keystone at the Crossing serves the north side — Nora, Meridian-Kessler and Castleton — with levelled group reformer classes and a wide daily schedule.",
-    caveat: "we could not confirm the exact suite address independently — check the Club Pilates website before your visit.",
-    address: "—",
+    review: "Club Pilates' North Indy studio at Keystone at the Crossing serves the north side (Nora, Meridian-Kessler and Castleton) with levelled group reformer classes and a wide daily schedule.",
+    caveat: "we could not confirm the exact suite address independently: check the Club Pilates website before your visit.",
+    address: "",
     bestFor: "North-side residents wanting a convenient reformer studio",
     signatureClass: "Reformer Flow",
-    bookingTip: "Morning classes are the most competitive — book two days ahead.",
+    bookingTip: "Morning classes are the most competitive: book two days ahead.",
   },
   {
     number: "5",
@@ -104,7 +104,7 @@ const STUDIOS = [
     neighborhood: "Noblesville",
     priceLevel: "$$$",
     review: "Align Pilates leads ClassPass's Indianapolis aesthetic list with a 4.9 rating, and its Noblesville studio is known for a calm, design-led reformer environment of clean lines and deliberate lighting, paired with a wellness-focused approach.",
-    caveat: "Noblesville is a drive from central Indianapolis — best for north-suburban residents.",
+    caveat: "Noblesville is a drive from central Indianapolis: best for north-suburban residents.",
     address: "470 Lafayette Rd, Noblesville, IN 46060",
     bestFor: "Design-led reformer studio in the northern suburbs",
     signatureClass: "Reformer Pilates",
@@ -116,7 +116,7 @@ const STUDIOS = [
     neighborhood: "Zionsville",
     priceLevel: "$$",
     review: "Club Pilates Zionsville is in The Shoppes at Weston Pointe on North Michigan Road, serving Zionsville, Carmel's west side and northwest Indianapolis with levelled group reformer classes.",
-    caveat: "a franchise studio — reliable structure, less individual programming.",
+    caveat: "a franchise studio: reliable structure, less individual programming.",
     address: "10895 N Michigan Rd, Suite 110, Zionsville, IN 46077",
     bestFor: "Northwest suburban residents, membership-based training",
     signatureClass: "Reformer Flow",
@@ -127,7 +127,7 @@ const STUDIOS = [
 const BOOKING_TIPS = [
   {
     heading: "Indianapolis rewards consistent practice through its winters",
-    body: "Indianapolis winters are cold, grey, and long — from November through March, outdoor movement is limited and the case for a consistent indoor practice is at its strongest. Practitioners who establish studio routines before the cold arrives maintain them through winter. Book standing slots in September.",
+    body: "Indianapolis winters are cold, grey, and long, from November through March, outdoor movement is limited and the case for a consistent indoor practice is at its strongest. Practitioners who establish studio routines before the cold arrives maintain them through winter. Book standing slots in September.",
   },
   {
     heading: "The Indy 500 season brings unusual demand",
@@ -135,15 +135,15 @@ const BOOKING_TIPS = [
   },
   {
     heading: "The medical corridor creates strong demand for therapeutic instruction",
-    body: "Indianapolis is a major healthcare hub — Indiana University Health, Eskenazi, and St. Vincent are among the large systems anchored here. The resulting concentration of healthcare professionals creates strong demand for evidence-informed, therapeutically aware Pilates instruction. Studios with rehabilitation specializations are particularly well-supported.",
+    body: "Indianapolis is a major healthcare hub: Indiana University Health, Eskenazi, and St. Vincent are among the large systems anchored here. The resulting concentration of healthcare professionals creates strong demand for evidence-informed, therapeutically aware Pilates instruction. Studios with rehabilitation specializations are particularly well-supported.",
   },
   {
     heading: "Intro packages are the most cost-effective entry point",
-    body: "Every Indianapolis studio offers a new-client introductory rate. Indianapolis's moderate price point makes the intro package an excellent value — typically three reformer sessions for the price of one drop-in. Use it to evaluate instructor quality and community fit before committing to a membership.",
+    body: "Every Indianapolis studio offers a new-client introductory rate. Indianapolis's moderate price point makes the intro package an excellent value, typically three reformer sessions for the price of one drop-in. Use it to evaluate instructor quality and community fit before committing to a membership.",
   },
   {
     heading: "Grip socks are required at every reformer studio",
-    body: "Universal across Indianapolis's reformer market. Bring your own — full-toe grip socks from Amazon cost a fraction of front-desk retail at every studio in the city.",
+    body: "Universal across Indianapolis's reformer market. Bring your own: full-toe grip socks from Amazon cost a fraction of front-desk retail at every studio in the city.",
   },
 ];
 
@@ -161,7 +161,7 @@ const NEIGHBORHOODS = [
   {
     name: "Nora & Far North Side",
     description:
-      "The established residential corridor along the 86th Street spine — Nora, Keystone, Meridian-Kessler — supports both franchise and independent studios serving the area's professional and family communities with high-quality, consistently reliable programming.",
+      "The established residential corridor along the 86th Street spine (Nora, Keystone, Meridian-Kessler) supports both franchise and independent studios serving the area's professional and family communities with high-quality, consistently reliable programming.",
   },
   {
     name: "Carmel & North Suburbs",
@@ -197,16 +197,16 @@ const GEAR = [
   },
   {
     name: "High-Density Foam Roller",
-    note: "Our pick: OPTP PRO-Roller Foam Roller (36-inch). Post-class fascia release — invaluable on cold Indianapolis winter evenings after studio sessions.",
+    note: "Our pick: OPTP PRO-Roller Foam Roller (36-inch). Post-class fascia release: invaluable on cold Indianapolis winter evenings after studio sessions.",
     price: "$62.99",
     url: "https://www.amazon.com/dp/B002C9EX14?tag=pilatescollective-20",
   },
 ];
 
 const HOME_REFORMERS = [
-  { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work — three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
+  { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work: three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
   { tag: "Mid-Range Pick", name: "AeroPilates Pro XP 557", note: "AeroPilates' top-of-the-range home reformer, a step up for practitioners training several times a week.", price: "$1,329.99", url: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20" },
-  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order — an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
+  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
 ];
 
 const RELATED_CITIES = [
@@ -231,7 +231,7 @@ const FURTHER_READING = [
   {
     title: "How Often Should You Do Pilates?",
     excerpt:
-      "The research on training frequency — and how to build a sustainable weekly practice that actually works.",
+      "The research on training frequency, and how to build a sustainable weekly practice that actually works.",
     href: "/blog/how-often-should-you-do-pilates",
     category: "Education",
     readTime: "6 min read",
@@ -309,7 +309,7 @@ export default function IndianapolisPage() {
               Updated October 2026 · 6 studios reviewed
             </p>
             <p className="text-lg leading-relaxed" style={{ color: "#5c4f47" }}>
-              Indianapolis — the Circle City — has grown into one of the Midwest's most dynamic wellness
+              Indianapolis, the Circle City, has grown into one of the Midwest's most dynamic wellness
               markets. The city's sports culture (Colts, Pacers, the Indy 500), large healthcare sector,
               and rapidly expanding young professional population have created genuine demand for
               high-quality movement practices. From the arts corridor of Massachusetts Avenue to the
@@ -477,7 +477,7 @@ export default function IndianapolisPage() {
 
         <CTASection
           title="Find Pilates near you"
-          subtitle="Use our AI Finder to discover studios in any city — coming soon."
+          subtitle="Use our AI Finder to discover studios in any city: coming soon."
           showSearch
           searchPlaceholder="Ask: best reformer Pilates in Indianapolis…"
         />

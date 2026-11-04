@@ -15,22 +15,22 @@ const PAGE_URL = "https://pilatescollectiveclub.com/blog/pilates-essentials";
 const HERO_IMAGE = "https://pilatescollectiveclub.com/pictures/stitch-pilates-essentials-logbook.png";
 const TITLE = "Pilates Essentials (2026): Every Must-Have in One List";
 const DESCRIPTION =
-  "Pilates essentials in one list: the best, budget and splurge pick for every category — clothes, grip socks, mat, props, recovery and a home reformer.";
+  "Pilates essentials in one list: the best, budget and splurge pick for every category, clothes, grip socks, mat, props, recovery and a home reformer.";
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESCRIPTION,
   openGraph: {
     title: TITLE,
-    description: "Every Pilates must-have on one page — best, budget and splurge picks, verified in-stock prices, and what the full kit really costs.",
+    description: "Every Pilates must-have on one page: best, budget and splurge picks, verified in-stock prices, and what the full kit really costs.",
     type: "article",
     url: PAGE_URL,
-    images: [{ url: HERO_IMAGE, width: 1200, height: 630, alt: "Pilates essentials checklist — Pilates Collective Club" }],
+    images: [{ url: HERO_IMAGE, width: 1200, height: 630, alt: "Pilates essentials checklist: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Pilates Essentials (2026): Every Must-Have",
-    description: "Best, budget and splurge picks for every Pilates category — plus what the full kit costs.",
+    description: "Best, budget and splurge picks for every Pilates category, plus what the full kit costs.",
     images: [HERO_IMAGE],
   },
   keywords: [
@@ -107,7 +107,7 @@ const CATEGORIES: Category[] = [
         price: "~$128 (aloyoga.com)",
         url: "https://www.aloyoga.com/",
         description:
-          "Not sold on Amazon — this links to aloyoga.com. Airbrush is Alo's sleek, sculpting legging and one of the most recognisable pieces in studio changing rooms. Price is approximate and set by Alo; check the site for current colours and sizes.",
+          "Not sold on Amazon: this links to aloyoga.com. Airbrush is Alo's sleek, sculpting legging and one of the most recognisable pieces in studio changing rooms. Price is approximate and set by Alo; check the site for current colours and sizes.",
       },
     ],
   },
@@ -724,7 +724,7 @@ export default function PilatesEssentialsPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/stitch-pilates-essentials-logbook.png" alt="Pilates essentials checklist — the complete list of Pilates must-haves for studio and home" fill className="object-cover" style={{ filter: "brightness(0.85)" }} priority />
+              <Image src="/pictures/stitch-pilates-essentials-logbook.png" alt="Pilates essentials checklist: the complete list of Pilates must-haves for studio and home" fill className="object-cover" style={{ filter: "brightness(0.85)" }} priority />
             </div>
           </div>
         </section>
@@ -748,7 +748,7 @@ export default function PilatesEssentialsPage() {
             {/* At a glance table */}
             <div className="mb-16 overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
               <div className="px-6 py-4" style={{ backgroundColor: "#f6f3f2" }}>
-                <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={eyebrowStyle}>At a Glance — The Complete List</p>
+                <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={eyebrowStyle}>At a Glance: The Complete List</p>
               </div>
               {CATEGORIES.map((c, i) => {
                 const best = pickTier(c, "Best");
@@ -916,7 +916,7 @@ export default function PilatesEssentialsPage() {
                 <ArticleCard title="Best Pilates Starter Kit" excerpt="The shortest possible list of what a beginner needs to start Pilates at home or in the studio." href="/blog/best-pilates-starter-kit" category="Equipment" readTime="8 min read" date="September 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
                 <ArticleCard title="Pilates Studio Bag Essentials" excerpt="Exactly what to pack for class, from grip socks to post-class layers." href="/blog/pilates-studio-bag-essentials" category="Guide" readTime="6 min read" date="September 2026" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
                 <ArticleCard title="What to Wear to Pilates" excerpt="The complete guide to choosing the right clothes for studio and reformer classes." href="/blog/what-to-wear-to-pilates" category="Guide" readTime="6 min read" date="May 2026" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
-                <ArticleCard title="Reformer Pilates Essentials" excerpt="Everything you need for reformer class, organised by the class journey — before, on the carriage and after." href="/blog/reformer-pilates-essentials" category="Equipment" readTime="10 min read" date="September 2026" imageUrl="/pictures/stitch-reformer-sunlit-minimal.png" />
+                <ArticleCard title="Reformer Pilates Essentials" excerpt="Everything you need for reformer class, organised by the class journey, before, on the carriage and after." href="/blog/reformer-pilates-essentials" category="Equipment" readTime="10 min read" date="September 2026" imageUrl="/pictures/stitch-reformer-sunlit-minimal.png" />
               </div>
             </div>
           </div>

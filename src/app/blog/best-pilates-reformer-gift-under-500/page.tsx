@@ -45,7 +45,7 @@ const PRODUCTS = [
     name: "DWKWE Gray Metal Frame Foldable Reformer, 88\"",
     price: "$284.99",
     verdict: "Best Genuine Spring Reformer to Gift",
-    description: "A full reformer is a realistic gift under $500: live Amazon listings include a real tier of budget, generic-brand full reformers with genuine spring resistance, not just cord machines. The DWKWE is one of them: a reinforced metal frame with a height-adjustable footbar, spring-plus-latex dual resistance, and a jump board and headrest included, at $284.99. It's a genuine carriage-and-rail reformer from a third-party seller rather than an established Pilates brand, so we can't vouch for long-term durability or after-sale support — but it delivers real spring resistance, a genuinely bigger gift than a cord machine or an accessory.",
+    description: "A full reformer is a realistic gift under $500: live Amazon listings include a real tier of budget, generic-brand full reformers with genuine spring resistance, not just cord machines. The DWKWE is one of them: a reinforced metal frame with a height-adjustable footbar, spring-plus-latex dual resistance, and a jump board and headrest included, at $284.99. It's a genuine carriage-and-rail reformer from a third-party seller rather than an established Pilates brand, so we can't vouch for long-term durability or after-sale support, but it delivers real spring resistance, a genuinely bigger gift than a cord machine or an accessory.",
     affiliateUrl: "https://www.amazon.com/dp/B0HB4J5RKX?tag=pilatescollective-20",
   },
   {
@@ -53,7 +53,7 @@ const PRODUCTS = [
     name: "WINDFOOT Foldable Pilates Reformer w/ Jump Board",
     price: "$295.99",
     verdict: "Best Easy-Setup Reformer to Gift",
-    description: "One of the two lowest-priced genuine spring-based full reformers we could verify as a live Amazon listing, at $295.99 — a real advantage as a gift, since it ships roughly 90% pre-assembled with a stated 5–10 minute setup rather than requiring the recipient to build a machine from a box. Includes a padded rebounder for a cardio option and a non-slip leather surface with high-density padding. Generic dropship brand with no track record, so treat durability claims with appropriate caution, but it is a genuine reformer, not a cord machine.",
+    description: "One of the two lowest-priced genuine spring-based full reformers we could verify as a live Amazon listing, at $295.99: a real advantage as a gift, since it ships roughly 90% pre-assembled with a stated 5–10 minute setup rather than requiring the recipient to build a machine from a box. Includes a padded rebounder for a cardio option and a non-slip leather surface with high-density padding. Generic dropship brand with no track record, so treat durability claims with appropriate caution, but it is a genuine reformer, not a cord machine.",
     affiliateUrl: "https://www.amazon.com/dp/B0D31767J1?tag=pilatescollective-20",
   },
   {
@@ -61,7 +61,7 @@ const PRODUCTS = [
     name: "AeroPilates 287 Reformer",
     price: "$349.99",
     verdict: "Best Established-Brand Reformer to Gift",
-    description: "For a safer gift from a name the recipient may already recognize, the AeroPilates 287 is a genuine, currently-sold Amazon listing at $349.99 from an established home-fitness brand. It uses elastic cord resistance rather than coil springs — gentler and more forgiving than the spring reformers above, well suited to a beginner. We could not verify specific claims about carriage length or fold mechanism beyond what the current listing shows, so check that page before ordering.",
+    description: "For a safer gift from a name the recipient may already recognize, the AeroPilates 287 is a genuine, currently-sold Amazon listing at $349.99 from an established home-fitness brand. It uses elastic cord resistance rather than coil springs: gentler and more forgiving than the spring reformers above, well suited to a beginner. We could not verify specific claims about carriage length or fold mechanism beyond what the current listing shows, so check that page before ordering.",
     affiliateUrl: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20",
   },
   {
@@ -69,7 +69,7 @@ const PRODUCTS = [
     name: "Balanced Body Padded Jumpboard",
     price: "$280",
     verdict: "Best Gift for Someone Who Already Has a Reformer",
-    description: "For a recipient who already owns a reformer, a jumpboard is a genuinely useful and well-priced gift: it adds a low-impact cardio component to the exercise repertoire without needing another large piece of equipment. This is Balanced Body's own jumpboard, a real, currently-sold Amazon listing — confirm it fits the recipient's exact footbar configuration before ordering, since mountings are not universal even within one brand's range.",
+    description: "For a recipient who already owns a reformer, a jumpboard is a genuinely useful and well-priced gift: it adds a low-impact cardio component to the exercise repertoire without needing another large piece of equipment. This is Balanced Body's own jumpboard, a real, currently-sold Amazon listing: confirm it fits the recipient's exact footbar configuration before ordering, since mountings are not universal even within one brand's range.",
     affiliateUrl: "https://www.amazon.com/dp/B08CS4LJZ7?tag=pilatescollective-20",
   },
   {
@@ -77,7 +77,7 @@ const PRODUCTS = [
     name: "Balanced Body Sitting Box Lite",
     price: "$150",
     verdict: "Best Accessory Gift for an Existing Reformer",
-    description: "Short box, long box and seated work all need a box, and this is a real, currently-sold Balanced Body accessory that sits on the carriage rather than mounting to the frame — a genuinely useful gift for someone whose reformer practice has grown past footwork and rowing. Check the dimensions against the recipient's specific carriage before ordering.",
+    description: "Short box, long box and seated work all need a box, and this is a real, currently-sold Balanced Body accessory that sits on the carriage rather than mounting to the frame: a genuinely useful gift for someone whose reformer practice has grown past footwork and rowing. Check the dimensions against the recipient's specific carriage before ordering.",
     affiliateUrl: "https://www.amazon.com/dp/B0723DT2JP?tag=pilatescollective-20",
   },
   {
@@ -93,7 +93,7 @@ const PRODUCTS = [
     name: "TriggerPoint GRID 2.0 Foam Roller",
     price: "$74.99",
     verdict: "Best Recovery-Focused Gift",
-    description: "A foam roller isn't reformer-specific, but it's a genuinely useful companion gift for anyone with a regular Pilates or movement practice, and this is a real, well-reviewed, currently-sold listing — a roller, not massage balls. A safe, inexpensive add-on if you're also gifting a larger piece of equipment, or a standalone gift on its own.",
+    description: "A foam roller isn't reformer-specific, but it's a genuinely useful companion gift for anyone with a regular Pilates or movement practice, and this is a real, well-reviewed, currently-sold listing: a roller, not massage balls. A safe, inexpensive add-on if you're also gifting a larger piece of equipment, or a standalone gift on its own.",
     affiliateUrl: "https://www.amazon.com/dp/B006GUC9KC?tag=pilatescollective-20",
   },
   {
@@ -101,7 +101,7 @@ const PRODUCTS = [
     name: "Colaxi 5-Piece Reformer Spring Set (Aftermarket)",
     price: "$65.54",
     verdict: "Best Practical Gift for a Reformer Owner",
-    description: "For someone who already owns a coil-spring reformer, a spare or replacement spring set is a genuinely practical gift — springs lose tension gradually rather than failing visibly. This is a real, currently-sold aftermarket set built for contemporary coil-spring reformers; verify spring weight and fit against the recipient's specific machine before ordering, since it is not brand-matched to any single reformer manufacturer.",
+    description: "For someone who already owns a coil-spring reformer, a spare or replacement spring set is a genuinely practical gift: springs lose tension gradually rather than failing visibly. This is a real, currently-sold aftermarket set built for contemporary coil-spring reformers; verify spring weight and fit against the recipient's specific machine before ordering, since it is not brand-matched to any single reformer manufacturer.",
     affiliateUrl: "https://www.amazon.com/dp/B0DC93JC3M?tag=pilatescollective-20",
   },
 ];
@@ -132,22 +132,22 @@ const FAQ = [
   },
   {
     q: "Is a budget pilates reformer worth gifting?",
-    a: "Yes, for a beginner or someone building a home practice — any of the three reformers here delivers a real reformer movement experience: a carriage, footbar work, resistance. WINDFOOT and DWKWE give genuine spring resistance from unfamiliar brands; AeroPilates gives cord resistance from an established one. Match the gift to what the recipient values more: resistance mechanism or brand reliability.",
+    a: "Yes, for a beginner or someone building a home practice, any of the three reformers here delivers a real reformer movement experience: a carriage, footbar work, resistance. WINDFOOT and DWKWE give genuine spring resistance from unfamiliar brands; AeroPilates gives cord resistance from an established one. Match the gift to what the recipient values more: resistance mechanism or brand reliability.",
   },
   {
     q: "What is the best cheap pilates reformer to gift?",
-    a: "The DWKWE ($284.99, springs plus latex bands) and the WINDFOOT ($295.99) are the lowest-priced genuine spring reformers we could verify as live Amazon listings. The AeroPilates 287 (about $256) is the safer established-brand pick if you'd rather not gift an unfamiliar name. If the recipient already owns a reformer, a Balanced Body accessory — a jumpboard ($280), sitting box ($150), or spine corrector ($189.99) — is a well-priced, verifiable alternative gift.",
+    a: "The DWKWE ($284.99, springs plus latex bands) and the WINDFOOT ($295.99) are the lowest-priced genuine spring reformers we could verify as live Amazon listings. The AeroPilates 287 (about $256) is the safer established-brand pick if you'd rather not gift an unfamiliar name. If the recipient already owns a reformer, a Balanced Body accessory: a jumpboard ($280), sitting box ($150), or spine corrector ($189.99): is a well-priced, verifiable alternative gift.",
   },
   {
     q: "Will someone who does studio pilates be happy with a budget reformer?",
-    a: "It depends on how serious they are. Someone who does studio reformer classes for general fitness will likely appreciate a home machine — spring or cord — for supplementary practice between classes. Someone training seriously on a professional spring-based studio machine will feel the difference in build quality and brand support immediately. For the latter, a genuine coil-spring reformer from an established maker like the Align-Pilates C8-PRO (from $2,750) is a better fit, though it's well outside a $500 budget.",
+    a: "It depends on how serious they are. Someone who does studio reformer classes for general fitness will likely appreciate a home machine, spring or cord, for supplementary practice between classes. Someone training seriously on a professional spring-based studio machine will feel the difference in build quality and brand support immediately. For the latter, a genuine coil-spring reformer from an established maker like the Align-Pilates C8-PRO (from $2,750) is a better fit, though it's well outside a $500 budget.",
   },
 ];
 
 const RELATED = [
-  { title: "Best Pilates Reformer to Gift", excerpt: "The full reformer gift guide — every budget from $296 to $2,500.", href: "/blog/best-pilates-reformer-gift", category: "Guide", readTime: "10 min", imageUrl: "/pictures/stitch-reformers-aerial-row.png" },
+  { title: "Best Pilates Reformer to Gift", excerpt: "The full reformer gift guide, every budget from $296 to $2,500.", href: "/blog/best-pilates-reformer-gift", category: "Guide", readTime: "10 min", imageUrl: "/pictures/stitch-reformers-aerial-row.png" },
   { title: "Best Home Pilates Reformer", excerpt: "The complete guide to choosing a reformer for home use.", href: "/blog/best-home-pilates-reformer", category: "Equipment", readTime: "10 min", imageUrl: "/pictures/stitch-reformer-morning-light.png" },
-  { title: "Best Pilates Reformer Under $500", excerpt: "The best reformers at the accessible end of the budget — not gift-specific.", href: "/blog/best-pilates-reformer-under-500", category: "Equipment", readTime: "9 min", imageUrl: "/pictures/stitch-reformer-sunlit-minimal.png" },
+  { title: "Best Pilates Reformer Under $500", excerpt: "The best reformers at the accessible end of the budget, not gift-specific.", href: "/blog/best-pilates-reformer-under-500", category: "Equipment", readTime: "9 min", imageUrl: "/pictures/stitch-reformer-sunlit-minimal.png" },
 ];
 
 const jsonLd = {
@@ -215,7 +215,7 @@ export default function Page() {
           <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
           <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
           <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-            A full reformer is a realistic gift under $500: the DWKWE and WINDFOOT are both real, currently-sold full reformers with genuine spring resistance, under $300 each. This guide covers those two, plus the established-brand AeroPilates 287, so you can gift either a genuine spring reformer from an unfamiliar name or a cord machine from a brand the recipient may already trust — with real, well-priced accessory gifts alongside for someone who already owns a machine.
+            A full reformer is a realistic gift under $500: the DWKWE and WINDFOOT are both real, currently-sold full reformers with genuine spring resistance, under $300 each. This guide covers those two, plus the established-brand AeroPilates 287, so you can gift either a genuine spring reformer from an unfamiliar name or a cord machine from a brand the recipient may already trust, with real, well-priced accessory gifts alongside for someone who already owns a machine.
           </p>
         </div>
       </section>

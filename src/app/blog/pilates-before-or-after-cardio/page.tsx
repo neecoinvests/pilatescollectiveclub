@@ -16,10 +16,10 @@ export const metadata: Metadata = {
   keywords: ["pilates before or after cardio", "should i do pilates before or after running", "pilates and cardio same day", "pilates before or after gym", "pilates before or after workout", "pilates and running order", "pilates before cardio", "pilates after cardio"],
   openGraph: {
     title: "Pilates Before or After Cardio? The Right Order Explained",
-    description: "The evidence-based answer on whether to do Pilates before or after cardio — for runners, cyclists, and gym-goers.",
+    description: "The evidence-based answer on whether to do Pilates before or after cardio, for runners, cyclists, and gym-goers.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/pilates-before-or-after-cardio",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-cZ0WYsBFHhs-unsplash.jpg", width: 1200, height: 630, alt: "Pilates Before or After Cardio — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-cZ0WYsBFHhs-unsplash.jpg", width: 1200, height: 630, alt: "Pilates Before or After Cardio: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -38,7 +38,7 @@ const PRODUCTS = [
     price: "$28.99",
     verdict: "Best recovery tool between Pilates and cardio",
     description:
-      "The TriggerPoint GRID is the most commonly used foam roller for pre-run and post-Pilates tissue preparation. The multi-density surface mimics the pressure of a massage therapist's fingers more accurately than flat foam rollers, releasing the iliotibial band, hip flexors, and thoracic spine before cardio without the deep tissue fatigue that aggressive manual massage creates. Used for 5-10 minutes between a Pilates session and a run, it maintains the mobility gains from the Pilates work while preparing the legs for repetitive impact. The hollow core construction makes it more durable than solid foam alternatives — it does not compress and lose density with regular use.",
+      "The TriggerPoint GRID is the most commonly used foam roller for pre-run and post-Pilates tissue preparation. The multi-density surface mimics the pressure of a massage therapist's fingers more accurately than flat foam rollers, releasing the iliotibial band, hip flexors, and thoracic spine before cardio without the deep tissue fatigue that aggressive manual massage creates. Used for 5-10 minutes between a Pilates session and a run, it maintains the mobility gains from the Pilates work while preparing the legs for repetitive impact. The hollow core construction makes it more durable than solid foam alternatives: it does not compress and lose density with regular use.",
     affiliateUrl: "https://www.amazon.com/dp/B0040EGNIU?tag=pilatescollective-20",
     tag: "Best Between Sessions",
   },
@@ -48,7 +48,7 @@ const PRODUCTS = [
     price: "$11.99",
     verdict: "Best for Pilates activation before cardio",
     description:
-      "A short glute and hip activation sequence using light resistance bands before cardio — typically 5-10 minutes of clam shells, lateral band walks, and glute bridges — is one of the most evidence-supported warm-up protocols for runners and cyclists. This activation sequence is identical to Pilates hip work, meaning a brief Pilates mini-session before cardio serves a functional warm-up role rather than competing with it. Theraband's colour-coded flat band set provides the light resistance appropriate for activation work — light enough to perform with full neuromuscular control, heavy enough to create the proprioceptive feedback that switches on underactive glutes before impact loading begins.",
+      "A short glute and hip activation sequence using light resistance bands before cardio (typically 5-10 minutes of clam shells, lateral band walks, and glute bridges) is one of the most evidence-supported warm-up protocols for runners and cyclists. This activation sequence is identical to Pilates hip work, meaning a brief Pilates mini-session before cardio serves a functional warm-up role rather than competing with it. Theraband's colour-coded flat band set provides the light resistance appropriate for activation work: light enough to perform with full neuromuscular control, heavy enough to create the proprioceptive feedback that switches on underactive glutes before impact loading begins.",
     affiliateUrl: "https://www.amazon.com/dp/B01A58FHQ8?tag=pilatescollective-20",
     tag: "Best Activation Tool",
   },
@@ -58,7 +58,7 @@ const PRODUCTS = [
     price: "$15.95",
     verdict: "Best flexibility tool post-cardio into Pilates",
     description:
-      "A stretch strap with multiple loops allows longer-hold static stretching of the hamstrings, hip flexors, and calves in supine positions — the type of mobility work that is most effective post-cardio and most compatible with the Pilates movement vocabulary. Holding a hamstring stretch with a strap for 60-90 seconds post-run, then moving into a Pilates mat session, creates the optimal sequence for flexibility gains without the performance decrement that pre-exercise static stretching causes. The multiple loops allow precise adjustment of stretch intensity, which matters when fatigued muscles after cardio have less range of motion than during a rested session.",
+      "A stretch strap with multiple loops allows longer-hold static stretching of the hamstrings, hip flexors, and calves in supine positions: the type of mobility work that is most effective post-cardio and most compatible with the Pilates movement vocabulary. Holding a hamstring stretch with a strap for 60-90 seconds post-run, then moving into a Pilates mat session, creates the optimal sequence for flexibility gains without the performance decrement that pre-exercise static stretching causes. The multiple loops allow precise adjustment of stretch intensity, which matters when fatigued muscles after cardio have less range of motion than during a rested session.",
     affiliateUrl: "https://www.amazon.com/dp/B00065X222?tag=pilatescollective-20",
     tag: "Best for Post-Cardio Mobility",
   },
@@ -68,7 +68,7 @@ const PRODUCTS = [
     price: "$144.00",
     verdict: "Best mat for combined training days",
     description:
-      "On days combining cardio and Pilates, a high-quality non-slip mat eliminates the practical friction of post-run sweat degrading grip during Pilates floor work. The Manduka PRO's closed-cell surface does not absorb moisture — the mat wipes clean between a sweaty run and a Pilates session without becoming slippery. The 6mm cushioning protects joints that have already absorbed impact loading from running, reducing the cumulative fatigue that kneeling and prone exercises create on a standard thin mat after a distance run. The Manduka PRO's longevity — it is guaranteed for life — makes it the right investment for practitioners who train multiple modalities daily.",
+      "On days combining cardio and Pilates, a high-quality non-slip mat eliminates the practical friction of post-run sweat degrading grip during Pilates floor work. The Manduka PRO's closed-cell surface does not absorb moisture: the mat wipes clean between a sweaty run and a Pilates session without becoming slippery. The 6mm cushioning protects joints that have already absorbed impact loading from running, reducing the cumulative fatigue that kneeling and prone exercises create on a standard thin mat after a distance run. The Manduka PRO's longevity, it is guaranteed for life, makes it the right investment for practitioners who train multiple modalities daily.",
     affiliateUrl: "https://www.amazon.com/dp/B0000DZFXZ?tag=pilatescollective-20",
     tag: "Best Combined Training Mat",
   },
@@ -90,7 +90,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Pilates Before or After Cardio? The Right Order Explained",
-      "description": "The evidence-based answer on whether to do Pilates before or after cardio — for runners, cyclists, and gym-goers.",
+      "description": "The evidence-based answer on whether to do Pilates before or after cardio, for runners, cyclists, and gym-goers.",
       "url": "https://pilatescollectiveclub.com/blog/pilates-before-or-after-cardio",
       "datePublished": "2026-06-27",
       "dateModified": "2026-10-20",
@@ -110,9 +110,9 @@ const jsonLd = {
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "Should I do Pilates before or after cardio?", "acceptedAnswer": { "@type": "Answer", "text": "For most goals, Pilates after cardio is the better sequence. Running or cycling first, then Pilates, means your cardio performance is not compromised by Pilates-induced muscle fatigue, and the Pilates session serves as an active recovery and mobility session for muscles that have been loaded by the cardio work. The exception is when you want to use a short Pilates activation sequence as a warm-up before running — 10 minutes of hip and glute activation before a run is well-supported by evidence and is best done before cardio." } },
-        { "@type": "Question", "name": "Can you do Pilates and running on the same day?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Combining Pilates and running on the same day is a common and effective training approach for runners. The mobility work and core strengthening in Pilates directly complements the repetitive loading of running. The optimal sequence is cardio first, then Pilates — unless you are doing a short Pilates activation warm-up (10-15 minutes of hip and glute work) before the run." } },
-        { "@type": "Question", "name": "Does Pilates count as cardio?", "acceptedAnswer": { "@type": "Answer", "text": "Standard Pilates does not meet the intensity threshold for cardiovascular training — it does not sustainably elevate heart rate into the aerobic training zone for the duration needed for cardiorespiratory adaptation. Lagree and Megaformer classes, which use continuous resistance with minimal rest, do approach cardiovascular training intensity. For cardiovascular fitness, Pilates should be combined with dedicated cardio training rather than substituted for it." } },
+        { "@type": "Question", "name": "Should I do Pilates before or after cardio?", "acceptedAnswer": { "@type": "Answer", "text": "For most goals, Pilates after cardio is the better sequence. Running or cycling first, then Pilates, means your cardio performance is not compromised by Pilates-induced muscle fatigue, and the Pilates session serves as an active recovery and mobility session for muscles that have been loaded by the cardio work. The exception is when you want to use a short Pilates activation sequence as a warm-up before running, 10 minutes of hip and glute activation before a run is well-supported by evidence and is best done before cardio." } },
+        { "@type": "Question", "name": "Can you do Pilates and running on the same day?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Combining Pilates and running on the same day is a common and effective training approach for runners. The mobility work and core strengthening in Pilates directly complements the repetitive loading of running. The optimal sequence is cardio first, then Pilates, unless you are doing a short Pilates activation warm-up (10-15 minutes of hip and glute work) before the run." } },
+        { "@type": "Question", "name": "Does Pilates count as cardio?", "acceptedAnswer": { "@type": "Answer", "text": "Standard Pilates does not meet the intensity threshold for cardiovascular training: it does not sustainably elevate heart rate into the aerobic training zone for the duration needed for cardiorespiratory adaptation. Lagree and Megaformer classes, which use continuous resistance with minimal rest, do approach cardiovascular training intensity. For cardiovascular fitness, Pilates should be combined with dedicated cardio training rather than substituted for it." } },
       ],
     },
   ],
@@ -151,7 +151,7 @@ export default function PilatesBeforeOrAfterCardioPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/roxana-popovici-cZ0WYsBFHhs-unsplash.jpg" alt="Pilates before or after cardio — the right order" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/roxana-popovici-cZ0WYsBFHhs-unsplash.jpg" alt="Pilates before or after cardio: the right order" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>
         </section>
@@ -165,7 +165,7 @@ export default function PilatesBeforeOrAfterCardioPage() {
             <div className="mb-16">
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The case for Pilates after cardio</h2>
               <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Doing cardio first preserves your best physical and neuromuscular state for the activity that benefits most from it — the run, the cycle, the swim. Pilates after cardio then serves two functions simultaneously: it completes the session with mobility and core work, and it provides active recovery for muscles loaded by the cardio work.
+                Doing cardio first preserves your best physical and neuromuscular state for the activity that benefits most from it: the run, the cycle, the swim. Pilates after cardio then serves two functions simultaneously: it completes the session with mobility and core work, and it provides active recovery for muscles loaded by the cardio work.
               </p>
               <div className="space-y-4">
                 {[
@@ -187,10 +187,10 @@ export default function PilatesBeforeOrAfterCardioPage() {
             <div className="mb-16">
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The one case for Pilates before cardio</h2>
               <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                A short Pilates activation sequence — 10-15 minutes of glute activation, hip mobility, and core engagement — before running is well-supported by evidence as a warm-up protocol. This is not a full Pilates class; it is a targeted sequence designed to switch on underactive glutes and hip stabilisers before impact loading begins.
+                A short Pilates activation sequence (10-15 minutes of glute activation, hip mobility, and core engagement) before running is well-supported by evidence as a warm-up protocol. This is not a full Pilates class; it is a targeted sequence designed to switch on underactive glutes and hip stabilisers before impact loading begins.
               </p>
               <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Research consistently shows that runners with strong glute activation have better running economy, lower injury rates, and reduced knee and IT band pain. A 10-minute Pilates-style activation before a run — clam shells, single-leg bridges, lateral band walks — improves the neuromuscular pattern quality of the run without creating the fatigue that a full Pilates class would.
+                Research consistently shows that runners with strong glute activation have better running economy, lower injury rates, and reduced knee and IT band pain. A 10-minute Pilates-style activation before a run (clam shells, single-leg bridges, lateral band walks) improves the neuromuscular pattern quality of the run without creating the fatigue that a full Pilates class would.
               </p>
               <div className="rounded-xl p-6" style={{ backgroundColor: "#fff9f5", border: "1px solid rgba(197,168,130,0.3)" }}>
                 <p className="text-sm font-semibold mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>The rule of thumb</p>
@@ -219,7 +219,7 @@ export default function PilatesBeforeOrAfterCardioPage() {
               <div className="space-y-6">
                 {[
                   { q: "Should I do Pilates before or after cardio?", a: "For most goals, Pilates after cardio is the better sequence. Running or cycling first means your cardio performance is not compromised by Pilates-induced muscle fatigue, and the Pilates session serves as active recovery and mobility work. The exception is a short Pilates activation warm-up (10-15 minutes of hip and glute work) before a run, which is well-supported by evidence." },
-                  { q: "Can you do Pilates and running on the same day?", a: "Yes. Combining Pilates and running on the same day is a common and effective training approach for runners. The mobility work and core strengthening in Pilates directly complements the repetitive loading of running. The optimal sequence is cardio first, then Pilates — unless doing a short activation warm-up before the run." },
+                  { q: "Can you do Pilates and running on the same day?", a: "Yes. Combining Pilates and running on the same day is a common and effective training approach for runners. The mobility work and core strengthening in Pilates directly complements the repetitive loading of running. The optimal sequence is cardio first, then Pilates, unless doing a short activation warm-up before the run." },
                   { q: "Does Pilates count as cardio?", a: "Standard Pilates does not meet the intensity threshold for cardiovascular training. It does not sustainably elevate heart rate into the aerobic training zone for the duration needed for cardiorespiratory adaptation. Lagree and Megaformer classes do approach cardiovascular training intensity. For cardiovascular fitness, Pilates should be combined with dedicated cardio rather than substituted for it." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
@@ -233,7 +233,7 @@ export default function PilatesBeforeOrAfterCardioPage() {
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="Pilates for Runners" excerpt="Why runners benefit from Pilates — the specific muscles it targets and how to programme it alongside running training." href="/blog/pilates-for-runners" category="Health" readTime="8 min read" date="March 2026" imageUrl="/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg" />
+                <ArticleCard title="Pilates for Runners" excerpt="Why runners benefit from Pilates: the specific muscles it targets and how to programme it alongside running training." href="/blog/pilates-for-runners" category="Health" readTime="8 min read" date="March 2026" imageUrl="/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg" />
                 <ArticleCard title="Pilates for Athletes" excerpt="How professional and amateur athletes use Pilates for injury prevention, recovery, and performance." href="/blog/pilates-for-athletes" category="Health" readTime="8 min read" date="April 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
                 <ArticleCard title="How Often Should You Do Pilates? (2026 Expert Guide)" excerpt="How often to do Pilates for results, frequency recommendations for beginners, intermediates, and advanced…" href="/blog/how-often-should-you-do-pilates" category="Guide" readTime="7 min read" imageUrl="/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg" />
                 <ArticleCard title="Pilates for Weight Loss (2026): Honest Expectations" excerpt="Pilates for weight loss, what the research shows, how reformer Pilates supports body composition, and realistic…" href="/blog/pilates-for-weight-loss" category="Guide" readTime="10 min read" imageUrl="/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg" />

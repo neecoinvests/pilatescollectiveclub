@@ -94,7 +94,7 @@ const PRODUCTS = [
     price: "$23.88",
     verdict: "Best Budget",
     description:
-      "HeatGear moves sweat to the surface almost instantly and dries in minutes. The compression fit supports muscle engagement cues during Lagree slow-twitch work and the UPF 30 protection is a bonus for outdoor cooldowns. Exceptional value — stock up in two colours.",
+      "HeatGear moves sweat to the surface almost instantly and dries in minutes. The compression fit supports muscle engagement cues during Lagree slow-twitch work and the UPF 30 protection is a bonus for outdoor cooldowns. Exceptional value: stock up in two colours.",
     affiliateUrl:
       "https://www.amazon.com/dp/B0874WTGVM?tag=pilatescollective-20",
     tag: "Best Value",
@@ -184,7 +184,7 @@ const jsonLd = {
           name: "What fabric is best for moisture-wicking in Pilates and spin?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Polyester and nylon blends with proprietary moisture-management finishes (like Dri-FIT, Swiftly, or HeatGear) are the most effective. They draw sweat away from skin to the fabric surface where it evaporates quickly. Avoid 100% cotton — it absorbs moisture and stays wet.",
+            text: "Polyester and nylon blends with proprietary moisture-management finishes (like Dri-FIT, Swiftly, or HeatGear) are the most effective. They draw sweat away from skin to the fabric surface where it evaporates quickly. Avoid 100% cotton: it absorbs moisture and stays wet.",
           },
         },
         {
@@ -200,7 +200,7 @@ const jsonLd = {
           name: "How do I prevent workout tops from smelling after spin class?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Wash moisture-wicking tops immediately after training, turn them inside out, and use a sports-specific detergent. Avoid fabric softeners — they clog the moisture-wicking fibres over time. Air-dry rather than tumble-dry to preserve the technical finish.",
+            text: "Wash moisture-wicking tops immediately after training, turn them inside out, and use a sports-specific detergent. Avoid fabric softeners: they clog the moisture-wicking fibres over time. Air-dry rather than tumble-dry to preserve the technical finish.",
           },
         },
       ],
@@ -272,7 +272,7 @@ export default function BestMoistureWickingTopPage() {
                 marginBottom: "20px",
               }}
             >
-              A soaked cotton tee in a Lagree session is not just uncomfortable — it throws off your grip, your instructor&apos;s visibility of your form, and your motivation to push through the last four minutes. The right moisture-wicking top makes an outsized difference in how your training feels and performs.
+              A soaked cotton tee in a Lagree session is not just uncomfortable: it throws off your grip, your instructor&apos;s visibility of your form, and your motivation to push through the last four minutes. The right moisture-wicking top makes an outsized difference in how your training feels and performs.
             </p>
 
           </div>
@@ -336,7 +336,7 @@ export default function BestMoistureWickingTopPage() {
               {[
                 {
                   q: "What fabric is best for moisture-wicking in Pilates and spin?",
-                  a: "Polyester and nylon blends with proprietary moisture-management finishes (like Dri-FIT, Swiftly, or HeatGear) are the most effective. They draw sweat away from skin to the fabric surface where it evaporates quickly. Avoid 100% cotton — it absorbs moisture and stays wet.",
+                  a: "Polyester and nylon blends with proprietary moisture-management finishes (like Dri-FIT, Swiftly, or HeatGear) are the most effective. They draw sweat away from skin to the fabric surface where it evaporates quickly. Avoid 100% cotton: it absorbs moisture and stays wet.",
                 },
                 {
                   q: "Should I wear a tight or loose top for Lagree?",
@@ -344,7 +344,7 @@ export default function BestMoistureWickingTopPage() {
                 },
                 {
                   q: "How do I prevent workout tops from smelling after spin class?",
-                  a: "Wash moisture-wicking tops immediately after training, turn them inside out, and use a sports-specific detergent. Avoid fabric softeners — they clog the moisture-wicking fibres over time. Air-dry rather than tumble-dry to preserve the technical finish.",
+                  a: "Wash moisture-wicking tops immediately after training, turn them inside out, and use a sports-specific detergent. Avoid fabric softeners: they clog the moisture-wicking fibres over time. Air-dry rather than tumble-dry to preserve the technical finish.",
                 },
               ].map((item) => (
                 <div
@@ -407,7 +407,7 @@ export default function BestMoistureWickingTopPage() {
                 />
                 <ArticleCard
                   title="Best Cycling Shoes for Spin Class"
-                  excerpt="SPD vs Look Delta cleats, stiff soles, and breathable uppers — everything you need for efficient power transfer."
+                  excerpt="SPD vs Look Delta cleats, stiff soles, and breathable uppers: everything you need for efficient power transfer."
                   href="/blog/best-cycling-shoes-for-spin-class"
                   category="Equipment"
                   readTime="9 min"

@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     description: "A man's guide to Lagree: what the class is really like, the clothing that works on a Megaformer, and two complete outfits with prices checked live on Amazon.",
     type: "article",
     url: PAGE_URL,
-    images: [{ url: HERO_IMAGE, width: 1200, height: 630, alt: "A row of studio machines — Lagree for men" }],
+    images: [{ url: HERO_IMAGE, width: 1200, height: 630, alt: "A row of studio machines: Lagree for men" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -73,7 +73,7 @@ const SHORTS: Pick[] = [
     price: "$19.74",
     url: amz("B08BNFYKXR"),
     description:
-      "A 5-inch 2-in-1 short: a lightweight outer layer over a breathable compression liner, with a phone pocket and a back zip pocket, plus an elastic waistband with internal drawcord. The liner is the point — it keeps you covered in wheelbarrow, bear and wide lunges.",
+      "A 5-inch 2-in-1 short: a lightweight outer layer over a breathable compression liner, with a phone pocket and a back zip pocket, plus an elastic waistband with internal drawcord. The liner is the point: it keeps you covered in wheelbarrow, bear and wide lunges.",
   },
   {
     id: "rhone-pursuit",
@@ -82,7 +82,7 @@ const SHORTS: Pick[] = [
     price: "$84.00",
     url: amz("B0F5YC8SKL"),
     description:
-      "Rhone's moisture-wicking Pursuit fabric with all-way stretch and a medium-compression liner, which includes a drop-in pocket. Also sold unlined — for Lagree, get the lined version. Sold by Rhone.",
+      "Rhone's moisture-wicking Pursuit fabric with all-way stretch and a medium-compression liner, which includes a drop-in pocket. Also sold unlined, for Lagree, get the lined version. Sold by Rhone.",
   },
   {
     id: "ua-heatgear-leggings",
@@ -91,7 +91,7 @@ const SHORTS: Pick[] = [
     price: "$28.25",
     url: amz("B0874W7Z7R"),
     description:
-      "Compression-fit, super-light HeatGear leggings with a 28\" inseam, ergonomic seams and a side drop-in pocket. Wear them alone or under shorts — full coverage for kneeling on the carriage, and nothing rides up. Sold by Amazon.com.",
+      "Compression-fit, super-light HeatGear leggings with a 28\" inseam, ergonomic seams and a side drop-in pocket. Wear them alone or under shorts: full coverage for kneeling on the carriage, and nothing rides up. Sold by Amazon.com.",
   },
 ];
 
@@ -121,7 +121,7 @@ const TOPS: Pick[] = [
     price: "$54.40",
     url: amz("B0CKC5XTNT"),
     description:
-      "A moisture-wicking, odor-resistant, UPF 50+ training tee from Rhone — the one that also looks fine at brunch after class. Sold by Rhone.",
+      "A moisture-wicking, odor-resistant, UPF 50+ training tee from Rhone: the one that also looks fine at brunch after class. Sold by Rhone.",
   },
   {
     id: "tacvasen-tank",
@@ -173,7 +173,7 @@ const EXPECT = [
 
 const FAQS = [
   { q: "Is Lagree good for men?", a: "Yes. Lagree is a slow, high-intensity, low-impact workout built around time under tension, which builds muscular endurance and core strength without heavy loading on the joints. Many men use it alongside lifting or running." },
-  { q: "What should men wear to Lagree?", a: "Shorts with a built-in compression liner (or compression tights), a fitted wicking tee or tank, and grip socks in men's sizing. Avoid loose, unlined running shorts — they gape in wheelbarrow, bear and wide lunges." },
+  { q: "What should men wear to Lagree?", a: "Shorts with a built-in compression liner (or compression tights), a fitted wicking tee or tank, and grip socks in men's sizing. Avoid loose, unlined running shorts: they gape in wheelbarrow, bear and wide lunges." },
   { q: "Do men need grip socks for Lagree?", a: "Most studios require grip socks for everyone. Buy men's sizing so the grip covers your whole sole; many 'one size' grip socks are cut for smaller feet." },
   { q: "Is Lagree harder than lifting weights?", a: "It is different. Lifting uses heavy loads with rest between sets; Lagree uses moderate spring resistance with slow, continuous movement and very little rest. Many strong people find it humbling at first." },
   { q: "Can tall men do Lagree?", a: "Yes. If you are very tall, tell the instructor before class so they can help you set up. For home training, Lagree Fitness says its Micro home machine accommodates users up to 6'8\"." },
@@ -289,7 +289,7 @@ export default function LagreeForMenPage() {
             <TopPick name={QUICK_PICKS[0].name} price={QUICK_PICKS[0].price} note={QUICK_PICKS[0].note} url={QUICK_PICKS[0].url} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Plenty of men walk into their first Lagree class expecting a gentle stretch on a fancy machine, and walk out with shaking legs. The Megaformer is a strength workout built on slow, unbroken tension — and it rewards control, not ego. Here is what to expect, and exactly what to wear, because the standard men&apos;s gym kit of loose shorts and a baggy tee is the wrong choice for this class.
+              Plenty of men walk into their first Lagree class expecting a gentle stretch on a fancy machine, and walk out with shaking legs. The Megaformer is a strength workout built on slow, unbroken tension, and it rewards control, not ego. Here is what to expect, and exactly what to wear, because the standard men&apos;s gym kit of loose shorts and a baggy tee is the wrong choice for this class.
             </p>
             <p className="text-sm leading-relaxed" style={bodyStyle}>
               Every Amazon price and stock status was checked live on October 4, 2026. Prices change, so the final price is whatever Amazon shows at checkout.
@@ -300,7 +300,7 @@ export default function LagreeForMenPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/stitch-reformer-row-studio.png" alt="A row of studio machines — Lagree for men" fill className="object-cover" style={{ filter: "brightness(0.85)" }} priority />
+              <Image src="/pictures/stitch-reformer-row-studio.png" alt="A row of studio machines: Lagree for men" fill className="object-cover" style={{ filter: "brightness(0.85)" }} priority />
             </div>
           </div>
         </section>

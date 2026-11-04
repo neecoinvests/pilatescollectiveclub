@@ -22,15 +22,15 @@ export const metadata: Metadata = {
   description: DESCRIPTION,
   openGraph: {
     title: TITLE,
-    description: "Everything to wear, bring and buy for Lagree on one page — best, budget and splurge picks, verified prices, and what The Micro home setup really costs.",
+    description: "Everything to wear, bring and buy for Lagree on one page: best, budget and splurge picks, verified prices, and what The Micro home setup really costs.",
     type: "article",
     url: PAGE_URL,
-    images: [{ url: HERO_IMAGE, width: 1200, height: 630, alt: "Lagree essentials — what to wear, bring and buy — Pilates Collective Club" }],
+    images: [{ url: HERO_IMAGE, width: 1200, height: 630, alt: "Lagree essentials: what to wear, bring and buy, Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Lagree Essentials (2026): Wear, Bring & Buy",
-    description: "Best, budget and splurge Lagree gear — plus The Micro home machine and what the full kit costs.",
+    description: "Best, budget and splurge Lagree gear, plus The Micro home machine and what the full kit costs.",
     images: [HERO_IMAGE],
   },
   keywords: [
@@ -458,7 +458,7 @@ const CATEGORIES: Category[] = [
         price: "Contact Lagree Fitness",
         url: LAGREE_DIRECT,
         description:
-          "Not sold on Amazon — this links to lagreefitness.com. The Megaformer is Lagree's commercial studio machine, the one you train on in class. It is aimed at studios; contact Lagree Fitness directly for pricing.",
+          "Not sold on Amazon: this links to lagreefitness.com. The Megaformer is Lagree's commercial studio machine, the one you train on in class. It is aimed at studios; contact Lagree Fitness directly for pricing.",
       },
     ],
   },
@@ -644,7 +644,7 @@ export default function LagreeEssentialsPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/stitch-reformer-row-studio.png" alt="Lagree essentials — what to wear, bring and buy for Lagree class and home training" fill className="object-cover" style={{ filter: "brightness(0.85)" }} priority />
+              <Image src="/pictures/stitch-reformer-row-studio.png" alt="Lagree essentials: what to wear, bring and buy for Lagree class and home training" fill className="object-cover" style={{ filter: "brightness(0.85)" }} priority />
             </div>
           </div>
         </section>
@@ -671,7 +671,7 @@ export default function LagreeEssentialsPage() {
             {/* At a glance table */}
             <div className="mb-16 overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
               <div className="px-6 py-4" style={{ backgroundColor: "#f6f3f2" }}>
-                <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={eyebrowStyle}>At a Glance — The Complete Lagree List</p>
+                <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={eyebrowStyle}>At a Glance: The Complete Lagree List</p>
               </div>
               {CATEGORIES.map((c, i) => {
                 const best = pickTier(c, "Best");

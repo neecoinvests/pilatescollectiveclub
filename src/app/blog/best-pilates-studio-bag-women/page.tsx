@@ -12,19 +12,19 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Studio Bags for Women (2026): Duffels Ranked",
-  description: "The best studio bags for women who do Pilates — duffels and carry-alls reviewed for capacity, wet compartments, and studio-to-street style in 2026.",
+  description: "The best studio bags for women who do Pilates: duffels and carry-alls reviewed for capacity, wet compartments, and studio-to-street style in 2026.",
   keywords: ["best pilates studio bag women", "pilates gym bag women 2026", "best bag for pilates class", "pilates studio duffel women", "womens pilates bag 2026", "best gym bag for pilates", "pilates bag review women", "lululemon pilates bag"],
   openGraph: {
     title: "Best Pilates Studio Bags for Women (2026)",
-    description: "The best studio bags for Pilates — compared on capacity, organisation, and wet-dry separation.",
+    description: "The best studio bags for Pilates: compared on capacity, organisation, and wet-dry separation.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-studio-bag-women",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/jade-stephens-N21356amsyw-unsplash.jpg", width: 1200, height: 630, alt: "Best Pilates Studio Bags for Women — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/jade-stephens-N21356amsyw-unsplash.jpg", width: 1200, height: 630, alt: "Best Pilates Studio Bags for Women: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Studio Bags for Women (2026)",
-    description: "The best studio bags for Pilates — compared and ranked.",
+    description: "The best studio bags for Pilates: compared and ranked.",
     images: ["https://pilatescollectiveclub.com/pictures/jade-stephens-N21356amsyw-unsplash.jpg"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/best-pilates-studio-bag-women" },
@@ -38,7 +38,7 @@ const PRODUCTS = [
     price: "From $118",
     verdict: "Best overall studio bag",
     description:
-      "The Lululemon Wunderlust Duffle is purpose-built for the practitioner who commutes to class. The structured silhouette holds its shape fully loaded, and the 27-litre capacity handles a complete kit change — clothes, towel, grip socks, shoes, and toiletries — without stretching at the seams. The wet-dry separation pocket keeps damp post-class kit away from clean items, and the interior organisation is thorough enough to make packing and unpacking swift. The padded shoulder strap manages the bag's weight over longer commutes. Lululemon's material quality translates directly into longevity. Not sold on Amazon: this link goes to Lululemon's own site.",
+      "The Lululemon Wunderlust Duffle is purpose-built for the practitioner who commutes to class. The structured silhouette holds its shape fully loaded, and the 27-litre capacity handles a complete kit change (clothes, towel, grip socks, shoes, and toiletries) without stretching at the seams. The wet-dry separation pocket keeps damp post-class kit away from clean items, and the interior organisation is thorough enough to make packing and unpacking swift. The padded shoulder strap manages the bag's weight over longer commutes. Lululemon's material quality translates directly into longevity. Not sold on Amazon: this link goes to Lululemon's own site.",
     affiliateUrl: "https://shop.lululemon.com",
     tag: "Editor's Pick",
   },
@@ -48,7 +48,7 @@ const PRODUCTS = [
     price: "From $65",
     verdict: "Best organised studio bag",
     description:
-      "Sweaty Betty's Get It Together Bag earns its name through exceptional internal organisation. A dedicated waterproof lining handles damp towels and post-shower items without odour or leakage, and the layout of pockets — including a separate exterior zip for phone and keys — makes class-to-street transitions fast. The capacity suits practitioners who travel light rather than those carrying a full overnight kit, but the organisation quality means it functions more efficiently than larger bags with less thought given to layout. The fabric is water-resistant and structured enough to stand upright on a studio bench.",
+      "Sweaty Betty's Get It Together Bag earns its name through exceptional internal organisation. A dedicated waterproof lining handles damp towels and post-shower items without odour or leakage, and the layout of pockets, including a separate exterior zip for phone and keys, makes class-to-street transitions fast. The capacity suits practitioners who travel light rather than those carrying a full overnight kit, but the organisation quality means it functions more efficiently than larger bags with less thought given to layout. The fabric is water-resistant and structured enough to stand upright on a studio bench.",
     affiliateUrl: "https://www.amazon.com/s?k=sweaty+betty+studio+gym+bag+women&tag=pilatescollective-20",
     tag: "Best Organised",
   },
@@ -68,7 +68,7 @@ const PRODUCTS = [
     price: "From $78",
     verdict: "Best duffel for studio",
     description:
-      "Manduka's Go Play 3.0 Duffel is the most thoughtfully engineered bag on this list for pure studio functionality. The shoe compartment at the base keeps studio shoes separated from clothing and personal items — a feature that matters more than it sounds after a sweaty reformer session. The main compartment is spacious and structured, with a padded shoulder strap that makes the bag comfortable over a 20-minute walk or transit commute. Manduka's reputation for durability means this bag outlasts most alternatives, a relevant consideration given the wear that five weekly sessions generates over years of practice. Not sold on Amazon: this link goes to Manduka's own site.",
+      "Manduka's Go Play 3.0 Duffel is the most thoughtfully engineered bag on this list for pure studio functionality. The shoe compartment at the base keeps studio shoes separated from clothing and personal items: a feature that matters more than it sounds after a sweaty reformer session. The main compartment is spacious and structured, with a padded shoulder strap that makes the bag comfortable over a 20-minute walk or transit commute. Manduka's reputation for durability means this bag outlasts most alternatives, a relevant consideration given the wear that five weekly sessions generates over years of practice. Not sold on Amazon: this link goes to Manduka's own site.",
     affiliateUrl: "https://www.manduka.com",
     tag: "Best Duffel",
   },
@@ -78,7 +78,7 @@ const PRODUCTS = [
     price: "$49.99",
     verdict: "Best budget studio bag",
     description:
-      "Nike's Brasilia 9.5 is the standard against which budget studio bags are measured, and it earns that position through consistent delivery of the fundamentals. The capacity is generous for the price, the shoe bag pocket keeps footwear separated, and the main compartment handles a full studio kit without issue. The organisation is straightforward rather than elaborate, and the fabric handles repeated use without showing it disproportionately. For practitioners who want a reliable functional bag while keeping costs low — or want a second bag to leave packed and ready at home — the Brasilia 9.5 is the honest recommendation.",
+      "Nike's Brasilia 9.5 is the standard against which budget studio bags are measured, and it earns that position through consistent delivery of the fundamentals. The capacity is generous for the price, the shoe bag pocket keeps footwear separated, and the main compartment handles a full studio kit without issue. The organisation is straightforward rather than elaborate, and the fabric handles repeated use without showing it disproportionately. For practitioners who want a reliable functional bag while keeping costs low, or want a second bag to leave packed and ready at home, the Brasilia 9.5 is the honest recommendation.",
     affiliateUrl: "https://www.amazon.com/dp/B07Z56RJ28?tag=pilatescollective-20",
     tag: "Best Budget",
   },
@@ -88,7 +88,7 @@ const PRODUCTS = [
     price: "From $68",
     verdict: "Best convertible carry",
     description:
-      "The Calpak Luka Duffel converts between a hand-carry duffel, a backpack, and a shoulder bag — practical versatility for practitioners whose commute involves a mix of walking, transit, and carrying the bag into subsequent appointments. The 20-litre capacity covers a complete studio kit without the bulk of a full-size duffel. The organisation is efficient rather than exhaustive, with a shoe pocket and exterior slip pockets for essentials. The backpack conversion distributes weight well on longer walks to the studio or across town afterwards, making this the most versatile option on the list for urban practitioners. Not sold on Amazon: this link goes to Calpak's own site.",
+      "The Calpak Luka Duffel converts between a hand-carry duffel, a backpack, and a shoulder bag: practical versatility for practitioners whose commute involves a mix of walking, transit, and carrying the bag into subsequent appointments. The 20-litre capacity covers a complete studio kit without the bulk of a full-size duffel. The organisation is efficient rather than exhaustive, with a shoe pocket and exterior slip pockets for essentials. The backpack conversion distributes weight well on longer walks to the studio or across town afterwards, making this the most versatile option on the list for urban practitioners. Not sold on Amazon: this link goes to Calpak's own site.",
     affiliateUrl: "https://www.calpaktravel.com",
     tag: "Best Convertible",
   },
@@ -100,7 +100,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Best Pilates Studio Bags for Women (2026)",
-      "description": "The best studio bags for Pilates women — duffels and carry-alls compared on capacity, wet compartments, and studio-to-street use.",
+      "description": "The best studio bags for Pilates women: duffels and carry-alls compared on capacity, wet compartments, and studio-to-street use.",
       "url": "https://pilatescollectiveclub.com/blog/best-pilates-studio-bag-women",
       "datePublished": "2026-06-01",
       "dateModified": "2026-10-20",
@@ -165,7 +165,7 @@ export default function BestPilatesStudioBagWomenPage() {
             <TopPick name={PRODUCTS[4].name} price={PRODUCTS[4].price} note={QP_NOTES[4]} url={PRODUCTS[4].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              A proper studio bag makes the logistics of regular Pilates practice invisible. The right one holds your full kit, keeps wet items away from dry ones, and transitions from studio changing room to the rest of your day without broadcasting that you have just come from the gym. These six bags have been selected specifically for women attending reformer and mat classes multiple times per week — prioritising real capacity, practical organisation, and the durability to survive daily studio commutes across years of use.
+              A proper studio bag makes the logistics of regular Pilates practice invisible. The right one holds your full kit, keeps wet items away from dry ones, and transitions from studio changing room to the rest of your day without broadcasting that you have just come from the gym. These six bags have been selected specifically for women attending reformer and mat classes multiple times per week: prioritising real capacity, practical organisation, and the durability to survive daily studio commutes across years of use.
             </p>
           </div>
         </section>
@@ -218,7 +218,7 @@ export default function BestPilatesStudioBagWomenPage() {
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="Best Pilates Bags (2026)" excerpt="The complete guide — totes, duffels, and mat carriers for every type of practitioner." href="/blog/best-pilates-bag" category="Equipment" readTime="7 min read" date="May 2026" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Bags (2026)" excerpt="The complete guide: totes, duffels, and mat carriers for every type of practitioner." href="/blog/best-pilates-bag" category="Equipment" readTime="7 min read" date="May 2026" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Tote Bags for Women" excerpt="Six totes chosen for studio carry, organisation, and studio-to-street style." href="/blog/best-pilates-tote-bag" category="Equipment" readTime="7 min read" date="June 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
                 <ArticleCard title="What to Pack in Your Pilates Bag (2026): Studio Checklist" excerpt="Everything that goes in a well-packed Pilates studio bag, from the non-negotiable grip socks to the insulated…" href="/blog/pilates-studio-bag-essentials" category="Guide" readTime="6 min read" imageUrl="/pictures/stitch-pilates-essentials-logbook.png" />
                 <ArticleCard title="Pilates Essentials (2026): Every Must-Have in One List" excerpt="Every Pilates must-have on one page, best, budget and splurge picks, verified in-stock prices, and what the full…" href="/blog/pilates-essentials" category="Guide" readTime="12 min read" imageUrl="/pictures/stitch-pilates-essentials-logbook.png" />

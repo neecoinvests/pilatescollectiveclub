@@ -12,7 +12,7 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Studios in Lausanne (2026)",
-  description: "The best Pilates studios in Lausanne — reformer studios from the city centre to Montchoisi and Avenue de France. Four curated picks, verified October 2026.",
+  description: "The best Pilates studios in Lausanne: reformer studios from the city centre to Montchoisi and Avenue de France. Four curated picks, verified October 2026.",
   robots: {
     index: true,
     follow: true,
@@ -22,15 +22,15 @@ export const metadata: Metadata = {
   keywords: ["pilates lausanne", "reformer pilates lausanne", "best pilates studios lausanne", "pilates studio lausanne", "pilates ouchy", "pilates suisse romande", "pilates switzerland", "best pilates lausanne", "pilates classes lausanne", "pilates vaud"],
   openGraph: {
     title: "Best Pilates Studios in Lausanne (2026)",
-    description: "Four curated Pilates studios in Lausanne — reformer and classical method picks from Ouchy to the city centre. Verified 2026.",
+    description: "Four curated Pilates studios in Lausanne: reformer and classical method picks from Ouchy to the city centre. Verified 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/lausanne",
-    images: [{ url: "https://images.unsplash.com/photo-1527631746610-bca00a040d60?w=1200&q=80", width: 1200, height: 630, alt: "Lausanne city guide — Pilates Collective Club" }],
+    images: [{ url: "https://images.unsplash.com/photo-1527631746610-bca00a040d60?w=1200&q=80", width: 1200, height: 630, alt: "Lausanne city guide: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Studios in Lausanne (2026)",
-    description: "Our curated guide to Lausanne's best Pilates studios — four verified studios with booking tips.",
+    description: "Our curated guide to Lausanne's best Pilates studios: four verified studios with booking tips.",
     images: ["https://images.unsplash.com/photo-1527631746610-bca00a040d60?w=1200&q=80"],
   },
   alternates: {
@@ -45,7 +45,7 @@ const STUDIOS = [
     neighborhood: "Avenue de France (west centre)",
     priceLevel: "$$$",
     review: "Sculpt Pilates Studio on Avenue de France is Lausanne's most-reviewed reformer studio on ClassPass, rated 4.8 from more than 1,000 ratings. It runs reformer and mat classes for all levels, a short walk from the city centre.",
-    caveat: "its popularity means prime-time classes go quickly — book in advance.",
+    caveat: "its popularity means prime-time classes go quickly: book in advance.",
     address: "Avenue de France 18C, 1004 Lausanne",
     bestFor: "Proven group reformer close to the centre",
     signatureClass: "Reformer & Mat",
@@ -69,7 +69,7 @@ const STUDIOS = [
     neighborhood: "Flon / Centre",
     priceLevel: "$$$",
     review: "Kysko Studio on Rue du Rôtillon sits in the heart of Lausanne beside the Flon district, offering reformer Pilates in a central location that is easy to reach from the metro.",
-    caveat: "limited published detail about class formats — take a trial class first.",
+    caveat: "limited published detail about class formats: take a trial class first.",
     address: "Rue du Rôtillon 8, 1003 Lausanne",
     bestFor: "Central reformer classes near the Flon",
     signatureClass: "Reformer Pilates",
@@ -81,7 +81,7 @@ const STUDIOS = [
     neighborhood: "Lausanne (Longeraie)",
     priceLevel: "$$",
     review: "Alex Pilates & Yoga on Chemin de Longeraie combines reformer Pilates with yoga, making it a good fit for people who want both disciplines in one studio.",
-    caveat: "a Pilates-and-yoga studio — check that the class you book is reformer if that is what you want.",
+    caveat: "a Pilates-and-yoga studio: check that the class you book is reformer if that is what you want.",
     address: "Chemin de Longeraie 9b, 1006 Lausanne",
     bestFor: "Reformer Pilates alongside yoga",
     signatureClass: "Reformer Pilates",
@@ -100,7 +100,7 @@ const BOOKING_TIPS = [
   },
   {
     heading: "French is the primary language",
-    body: "Most Lausanne studios teach in French. However, several offer English instruction on request or have bilingual teachers — check when you book.",
+    body: "Most Lausanne studios teach in French. However, several offer English instruction on request or have bilingual teachers: check when you book.",
   },
   {
     heading: "Ouchy is worth the commute",
@@ -150,7 +150,7 @@ const GEAR = [
   },
   {
     name: "Magic Circle",
-    note: "Our pick: Balanced Body Ultra-Fit Circle (15-inch). Many studios incorporate the magic circle — worth owning for home reinforcement work.",
+    note: "Our pick: Balanced Body Ultra-Fit Circle (15-inch). Many studios incorporate the magic circle: worth owning for home reinforcement work.",
     price: "$35.00",
     url: "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20",
   },
@@ -168,7 +168,7 @@ const GEAR = [
   },
   {
     name: "Home Pilates Reformer",
-    note: "Our pick: PAETA Wooden Foldable Reformer. A home reformer extends your studio practice — AeroPilates and Align entry models deliver a genuine full-body session.",
+    note: "Our pick: PAETA Wooden Foldable Reformer. A home reformer extends your studio practice: AeroPilates and Align entry models deliver a genuine full-body session.",
     price: "$699.98",
     url: "https://www.amazon.com/dp/B0D7M7JNFV?tag=pilatescollective-20",
   },
@@ -185,7 +185,7 @@ const RELATED_CITIES = [
 const FURTHER_READING = [
   {
     title: "The 6 Core Principles of Pilates, Explained",
-    excerpt: "Concentration, control, centering, precision, breath, and flow — what they actually mean in practice.",
+    excerpt: "Concentration, control, centering, precision, breath, and flow: what they actually mean in practice.",
     href: "/blog/6-core-principles-of-pilates-explained",
     category: "Method",
     readTime: "6 min read",
@@ -216,7 +216,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Best Pilates Studios in Lausanne (2026)",
-      "description": "The best Pilates studios in Lausanne — reformer studios from the city centre to Montchoisi and Avenue de France. Four curated picks, verified October 2026.",
+      "description": "The best Pilates studios in Lausanne: reformer studios from the city centre to Montchoisi and Avenue de France. Four curated picks, verified October 2026.",
       "url": "https://pilatescollectiveclub.com/cities/lausanne",
       "datePublished": "2026-06-28",
       "dateModified": "2026-10-20",
@@ -282,7 +282,7 @@ export default function LausannePage() {
             <p className="text-sm mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 7 min read</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Lausanne sits on the terraced shores of Lake Geneva — a city of hills, academic energy, and a wellness culture that has evolved quietly into something genuinely impressive. Smaller than Zurich or Geneva, it rewards those who take the time to look. The studio scene is compact, so a few well-run reformer studios cover most of the city. This guide covers four we rate highly.
+              Lausanne sits on the terraced shores of Lake Geneva: a city of hills, academic energy, and a wellness culture that has evolved quietly into something genuinely impressive. Smaller than Zurich or Geneva, it rewards those who take the time to look. The studio scene is compact, so a few well-run reformer studios cover most of the city. This guide covers four we rate highly.
             </p>
           </div>
         </section>
@@ -353,7 +353,7 @@ export default function LausannePage() {
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What to bring to your first class</h2>
             <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-              Grip socks are required at most reformer studios in Lausanne. These are our recommended picks — all available on Amazon.{" "}
+              Grip socks are required at most reformer studios in Lausanne. These are our recommended picks: all available on Amazon.{" "}
               <Link href="/affiliate-disclosure" style={{ color: "#8b4a31", textDecoration: "underline", fontFamily: "'Montserrat', sans-serif", fontSize: "inherit" }}>Affiliate disclosure.</Link>
             </p>
             <QuickPicks className="mb-0" picks={GEAR.map((g) => ({ name: g.note.match(/Our pick: ([^.]+(?:\.\d+[^.]*)?)\./)?.[1] ?? g.name, price: g.price, url: g.url, note: g.name }))} />
@@ -394,7 +394,7 @@ export default function LausannePage() {
           </div>
         </section>
 
-        <CTASection title="Find Pilates near you" subtitle="Use our AI Finder to discover studios in any city — coming soon." showSearch searchPlaceholder="Ask: best Pilates studios in Lausanne…" />
+        <CTASection title="Find Pilates near you" subtitle="Use our AI Finder to discover studios in any city: coming soon." showSearch searchPlaceholder="Ask: best Pilates studios in Lausanne…" />
       </main>
       <Footer />
     </>

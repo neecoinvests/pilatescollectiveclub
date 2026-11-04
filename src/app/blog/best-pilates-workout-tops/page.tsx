@@ -12,19 +12,19 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Tops (2026): Tanks, Bra Tops & Long-Sleeves",
-  description: "The best tops for Pilates class — fitted tanks, bra tops, and long-sleeve options reviewed for reformer coverage, stretch quality, and non-bunching fit.",
+  description: "The best tops for Pilates class: fitted tanks, bra tops, and long-sleeve options reviewed for reformer coverage, stretch quality, and non-bunching fit.",
   keywords: ["best pilates tops", "pilates tank top 2026", "best workout top for pilates", "pilates bra top review", "lululemon tank pilates", "alo yoga top pilates", "pilates fitted top", "best top for reformer pilates class"],
   openGraph: {
     title: "Best Pilates Tops & Sports Bras (2026): Picks for Studio Wear",
-    description: "The best workout tops and sports bras for Pilates — compared on coverage, instructor visibility, and reformer comfort.",
+    description: "The best workout tops and sports bras for Pilates: compared on coverage, instructor visibility, and reformer comfort.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-workout-tops",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg", width: 1200, height: 630, alt: "Best Pilates Workout Tops — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg", width: 1200, height: 630, alt: "Best Pilates Workout Tops: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Tops & Sports Bras (2026)",
-    description: "The best workout tops and sports bras for Pilates — compared and ranked.",
+    description: "The best workout tops and sports bras for Pilates: compared and ranked.",
     images: ["https://pilatescollectiveclub.com/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg"],
   },
   alternates: {
@@ -40,7 +40,7 @@ const PRODUCTS = [
     price: "From $68",
     verdict: "Best overall Pilates tank top",
     description:
-      "The Align tank is the top equivalent of the Align legging — the same buttery Nulu fabric in a fitted, racerback silhouette with a built-in shelf bra. The coverage is full front and back, with no riding up during arm-overhead exercises or shoulder stand prep. The shelf bra provides light support suitable for low-impact work; practitioners who need more support should layer it over a dedicated sports bra. The fabric does not retain odour or pill with regular washing. A wardrobe staple for most regular Pilates practitioners — the neutral colours make it a versatile base layer for any studio. Not sold on Amazon: this link goes to Lululemon's own site.",
+      "The Align tank is the top equivalent of the Align legging: the same buttery Nulu fabric in a fitted, racerback silhouette with a built-in shelf bra. The coverage is full front and back, with no riding up during arm-overhead exercises or shoulder stand prep. The shelf bra provides light support suitable for low-impact work; practitioners who need more support should layer it over a dedicated sports bra. The fabric does not retain odour or pill with regular washing. A wardrobe staple for most regular Pilates practitioners: the neutral colours make it a versatile base layer for any studio. Not sold on Amazon: this link goes to Lululemon's own site.",
     affiliateUrl: "https://shop.lululemon.com",
     tag: "Editor's Pick",
   },
@@ -50,7 +50,7 @@ const PRODUCTS = [
     price: "From $62",
     verdict: "Best sports bra for reformer Pilates",
     description:
-      "Alo's Airlift Intrigue is the benchmark for sports bras in the Pilates studio environment. The medium-impact support is exactly right for reformer work — secure enough to be stable during dynamic movements, with none of the compression that makes high-impact bras uncomfortable during sustained floor-based work. The racerback design allows full shoulder mobility. The Airlift fabric is notably comfortable during the lying positions that characterise reformer Pilates — no underwire, no seams in uncomfortable positions, no bunching when the body changes orientation from supine to prone to side-lying. Not sold on Amazon: this link goes to Alo Yoga's own site.",
+      "Alo's Airlift Intrigue is the benchmark for sports bras in the Pilates studio environment. The medium-impact support is exactly right for reformer work: secure enough to be stable during dynamic movements, with none of the compression that makes high-impact bras uncomfortable during sustained floor-based work. The racerback design allows full shoulder mobility. The Airlift fabric is notably comfortable during the lying positions that characterise reformer Pilates: no underwire, no seams in uncomfortable positions, no bunching when the body changes orientation from supine to prone to side-lying. Not sold on Amazon: this link goes to Alo Yoga's own site.",
     affiliateUrl: "https://www.aloyoga.com",
     tag: "Best Sports Bra",
   },
@@ -60,7 +60,7 @@ const PRODUCTS = [
     price: "From $75",
     verdict: "Best boutique studio top",
     description:
-      "Varley has become the defining aesthetic of the upscale Pilates studio — their pieces are what you see at boutique reformer studios in London, New York, and Los Angeles. The Stratford bra top combines medium support with an elevated, tailored look that reads as appropriate in a luxury studio context without sacrificing function. The thick strap construction sits cleanly on the shoulders without sliding during dynamic arm work. The fabric handles the transition from reformer to post-class street wear without looking like activewear in the conventional sense.",
+      "Varley has become the defining aesthetic of the upscale Pilates studio: their pieces are what you see at boutique reformer studios in London, New York, and Los Angeles. The Stratford bra top combines medium support with an elevated, tailored look that reads as appropriate in a luxury studio context without sacrificing function. The thick strap construction sits cleanly on the shoulders without sliding during dynamic arm work. The fabric handles the transition from reformer to post-class street wear without looking like activewear in the conventional sense.",
     affiliateUrl: "https://www.amazon.com/s?k=varley+stratford+bra+top&tag=pilatescollective-20",
     tag: "Boutique Studio",
   },
@@ -70,7 +70,7 @@ const PRODUCTS = [
     price: "From $45",
     verdict: "Best sustainable option",
     description:
-      "Girlfriend Collective makes their activewear from recycled plastic bottles, and the Paloma bralette is the most functional piece in their Pilates-relevant range. Light support (appropriate for smaller busts or layering under a tank), clean lines that don't interfere with instructor observation of spinal alignment, and a fabric quality that improves with washing rather than degrading. The brand's commitment to inclusive sizing — up to 6XL — makes it the only premium sustainable option that genuinely works across a wide range of body types and cup sizes.",
+      "Girlfriend Collective makes their activewear from recycled plastic bottles, and the Paloma bralette is the most functional piece in their Pilates-relevant range. Light support (appropriate for smaller busts or layering under a tank), clean lines that don't interfere with instructor observation of spinal alignment, and a fabric quality that improves with washing rather than degrading. The brand's commitment to inclusive sizing, up to 6XL, makes it the only premium sustainable option that genuinely works across a wide range of body types and cup sizes.",
     affiliateUrl: "https://www.amazon.com/s?k=girlfriend+collective+paloma+bralette&tag=pilatescollective-20",
     tag: "Sustainable",
   },
@@ -80,7 +80,7 @@ const PRODUCTS = [
     price: "From $35",
     verdict: "Best budget top",
     description:
-      "For colder studios or practitioners who prefer more coverage, CRZ YOGA's seamless long sleeve is the best budget option. The fitted, four-way stretch construction moves without restriction through the full Pilates movement vocabulary, and the seamless construction eliminates the pressure points that standard seamed tops create when lying on a mat or reformer carriage. The thumb holes keep the sleeve in place during overhead work. Coverage and warmth with no compromise on mobility — at a price point that makes having multiple options practical.",
+      "For colder studios or practitioners who prefer more coverage, CRZ YOGA's seamless long sleeve is the best budget option. The fitted, four-way stretch construction moves without restriction through the full Pilates movement vocabulary, and the seamless construction eliminates the pressure points that standard seamed tops create when lying on a mat or reformer carriage. The thumb holes keep the sleeve in place during overhead work. Coverage and warmth with no compromise on mobility, at a price point that makes having multiple options practical.",
     affiliateUrl: "https://www.amazon.com/s?k=crz+yoga+seamless+long+sleeve+top&tag=pilatescollective-20",
     tag: "Best Budget",
   },
@@ -92,7 +92,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Best Pilates Tops & Sports Bras (2026): Picks for Studio Wear",
-      "description": "The best workout tops and sports bras for Pilates in 2026 — compared on coverage, visibility, and reformer comfort.",
+      "description": "The best workout tops and sports bras for Pilates in 2026: compared on coverage, visibility, and reformer comfort.",
       "url": "https://pilatescollectiveclub.com/blog/best-pilates-workout-tops",
       "datePublished": "2026-05-14",
       "dateModified": "2026-10-20",
@@ -112,10 +112,10 @@ const jsonLd = {
   {
     "@type": "FAQPage",
     "mainEntity": [
-      { "@type": "Question", "name": "Should I wear a sports bra or a built-in tank for Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "Both work. A dedicated sports bra under a tank gives you the most flexibility — you can adjust layers based on studio temperature and preference. A built-in shelf bra tank is convenient for practitioners who don't need significant support. A padded built-in bra is rarely suitable as the sole layer during active reformer work." } },
-      { "@type": "Question", "name": "Why do Pilates instructors care what you wear?", "acceptedAnswer": { "@type": "Answer", "text": "Pilates is a movement precision practice. Instructors observe spinal alignment, pelvic position, shoulder placement, and knee tracking in every exercise. Baggy or voluminous tops obscure the body landmarks they need to observe to give effective corrections. This is why fitted, body-conscious clothing is the norm in Pilates studios — it serves the instruction, not just aesthetics." } },
-      { "@type": "Question", "name": "Can I wear a regular gym top to a reformer class?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — any fitted top without loose fabric or hardware works. The only functional requirements are that it stays in place across all positions and allows full shoulder mobility. The premium brands recommended here go beyond minimum functionality, but any fitted athletic top without these problems is appropriate." } },
-      { "@type": "Question", "name": "What about wearing a hoodie or sweater over my top in class?", "acceptedAnswer": { "@type": "Answer", "text": "Layering for warmth before class is sensible. Most instructors will ask you to remove outer layers once class begins — a hoodie prevents the spinal observation that allows effective cueing. Keep a warm layer for the walk to and from the studio; plan to wear your studio top during the session itself." } }
+      { "@type": "Question", "name": "Should I wear a sports bra or a built-in tank for Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "Both work. A dedicated sports bra under a tank gives you the most flexibility: you can adjust layers based on studio temperature and preference. A built-in shelf bra tank is convenient for practitioners who don't need significant support. A padded built-in bra is rarely suitable as the sole layer during active reformer work." } },
+      { "@type": "Question", "name": "Why do Pilates instructors care what you wear?", "acceptedAnswer": { "@type": "Answer", "text": "Pilates is a movement precision practice. Instructors observe spinal alignment, pelvic position, shoulder placement, and knee tracking in every exercise. Baggy or voluminous tops obscure the body landmarks they need to observe to give effective corrections. This is why fitted, body-conscious clothing is the norm in Pilates studios: it serves the instruction, not just aesthetics." } },
+      { "@type": "Question", "name": "Can I wear a regular gym top to a reformer class?", "acceptedAnswer": { "@type": "Answer", "text": "Yes: any fitted top without loose fabric or hardware works. The only functional requirements are that it stays in place across all positions and allows full shoulder mobility. The premium brands recommended here go beyond minimum functionality, but any fitted athletic top without these problems is appropriate." } },
+      { "@type": "Question", "name": "What about wearing a hoodie or sweater over my top in class?", "acceptedAnswer": { "@type": "Answer", "text": "Layering for warmth before class is sensible. Most instructors will ask you to remove outer layers once class begins: a hoodie prevents the spinal observation that allows effective cueing. Keep a warm layer for the walk to and from the studio; plan to wear your studio top during the session itself." } }
     ]
   },
   ],
@@ -143,7 +143,7 @@ export default function BestPilatesWorkoutTopsPage() {
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Pilates tops need to do something most activewear tops don&apos;t: stay in place and provide clean lines for instructor observation across an enormous range of body positions — lying supine, prone, side-lying, seated, standing, and everything in between. A top that rides up during the hundred, bunches during shoulder bridge, or restricts shoulder mobility during long stretch makes the class both uncomfortable and less effective. These five options have been selected because they actually solve these problems.
+              Pilates tops need to do something most activewear tops don&apos;t: stay in place and provide clean lines for instructor observation across an enormous range of body positions, lying supine, prone, side-lying, seated, standing, and everything in between. A top that rides up during the hundred, bunches during shoulder bridge, or restricts shoulder mobility during long stretch makes the class both uncomfortable and less effective. These five options have been selected because they actually solve these problems.
             </p>
           </div>
         </section>
@@ -151,7 +151,7 @@ export default function BestPilatesWorkoutTopsPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" alt="Best Pilates workout tops and sports bras for studio and reformer — Lululemon, Alo, and Varley compared" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" alt="Best Pilates workout tops and sports bras for studio and reformer: Lululemon, Alo, and Varley compared" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>
         </section>
@@ -170,7 +170,7 @@ export default function BestPilatesWorkoutTopsPage() {
                   { heading: "Coverage across positions", body: "A top that covers the midriff while standing may not cover it in seated flexion, supine position, or during side-lying leg work. Test coverage across positions, not just standing." },
                   { heading: "No riding up", body: "Reformer work involves sustained lying and rolling. A top that stays in place in a standing twist must also stay down during roll-ups and the hundred. Longer hems and body-conscious cuts are essential." },
                   { heading: "Shoulder mobility", body: "Overhead work, the long stretch series, and open-leg rocker require full shoulder mobility. Tops with tight armholes or wide straps that pull restrict the arm movement Pilates demands." },
-                  { heading: "Support level", body: "Pilates is low-impact but involves significant postural changes. Medium support — enough to be stable without compression — is the ideal. High-impact bras are unnecessarily restrictive during floor-based work." },
+                  { heading: "Support level", body: "Pilates is low-impact but involves significant postural changes. Medium support, enough to be stable without compression, is the ideal. High-impact bras are unnecessarily restrictive during floor-based work." },
                 ].map((item) => (
                   <div key={item.heading} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.heading}</p>
@@ -199,11 +199,11 @@ export default function BestPilatesWorkoutTopsPage() {
               <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Building a Pilates wardrobe that works</h2>
               <ul className="space-y-3">
                 {[
-                  "Start with two to three tank tops or long sleeves in neutral colours — these work across every studio aesthetic and don't visually compete with your instructor's cues.",
+                  "Start with two to three tank tops or long sleeves in neutral colours: these work across every studio aesthetic and don't visually compete with your instructor's cues.",
                   "A medium-support sports bra worn under a tank gives you modular flexibility: the bra works alone in warm studios, the tank alone for cooler days, both together for high-movement classes.",
                   "Avoid tops with loose fabric, pockets, or decorative hardware. Anything that catches on a reformer strap or footbar during a class is a distraction and a safety consideration.",
-                  "Machine wash cold, air dry. Performance fabrics lose shape faster in tumble driers — particularly the four-way stretch materials that make fitted Pilates tops functional.",
-                  "Replace when the hem loses elasticity and begins to ride up. A hem that doesn't stay down during the rollover is not just annoying — it signals that the fabric's recovery has failed.",
+                  "Machine wash cold, air dry. Performance fabrics lose shape faster in tumble driers, particularly the four-way stretch materials that make fitted Pilates tops functional.",
+                  "Replace when the hem loses elasticity and begins to ride up. A hem that doesn't stay down during the rollover is not just annoying: it signals that the fabric's recovery has failed.",
                 ].map((tip, i) => (
                   <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                     <span className="font-semibold" style={{ color: "#8b4a31" }}>{i + 1}.</span>
@@ -217,10 +217,10 @@ export default function BestPilatesWorkoutTopsPage() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "Should I wear a sports bra or a built-in tank for Pilates?", a: "Both work. A dedicated sports bra under a tank gives you the most flexibility — you can adjust layers based on studio temperature and preference. A built-in shelf bra tank is convenient for practitioners who don't need significant support. A padded built-in bra is rarely suitable as the sole layer during active reformer work." },
-                  { q: "Why do Pilates instructors care what you wear?", a: "Pilates is a movement precision practice. Instructors observe spinal alignment, pelvic position, shoulder placement, and knee tracking in every exercise. Baggy or voluminous tops obscure the body landmarks they need to observe to give effective corrections. This is why fitted, body-conscious clothing is the norm in Pilates studios — it serves the instruction, not just aesthetics." },
-                  { q: "Can I wear a regular gym top to a reformer class?", a: "Yes — any fitted top without loose fabric or hardware works. The only functional requirements are that it stays in place across all positions and allows full shoulder mobility. The premium brands recommended here go beyond minimum functionality, but any fitted athletic top without these problems is appropriate." },
-                  { q: "What about wearing a hoodie or sweater over my top in class?", a: "Layering for warmth before class is sensible. Most instructors will ask you to remove outer layers once class begins — a hoodie prevents the spinal observation that allows effective cueing. Keep a warm layer for the walk to and from the studio; plan to wear your studio top during the session itself." },
+                  { q: "Should I wear a sports bra or a built-in tank for Pilates?", a: "Both work. A dedicated sports bra under a tank gives you the most flexibility: you can adjust layers based on studio temperature and preference. A built-in shelf bra tank is convenient for practitioners who don't need significant support. A padded built-in bra is rarely suitable as the sole layer during active reformer work." },
+                  { q: "Why do Pilates instructors care what you wear?", a: "Pilates is a movement precision practice. Instructors observe spinal alignment, pelvic position, shoulder placement, and knee tracking in every exercise. Baggy or voluminous tops obscure the body landmarks they need to observe to give effective corrections. This is why fitted, body-conscious clothing is the norm in Pilates studios: it serves the instruction, not just aesthetics." },
+                  { q: "Can I wear a regular gym top to a reformer class?", a: "Yes: any fitted top without loose fabric or hardware works. The only functional requirements are that it stays in place across all positions and allows full shoulder mobility. The premium brands recommended here go beyond minimum functionality, but any fitted athletic top without these problems is appropriate." },
+                  { q: "What about wearing a hoodie or sweater over my top in class?", a: "Layering for warmth before class is sensible. Most instructors will ask you to remove outer layers once class begins: a hoodie prevents the spinal observation that allows effective cueing. Keep a warm layer for the walk to and from the studio; plan to wear your studio top during the session itself." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
@@ -234,7 +234,7 @@ export default function BestPilatesWorkoutTopsPage() {
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="What to Wear to Pilates" excerpt="The complete guide to choosing the right clothes for studio and reformer classes." href="/blog/what-to-wear-to-pilates" category="Guide" readTime="6 min read" date="May 2026" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
-                <ArticleCard title="Best Pilates Leggings" excerpt="From Lululemon Align to CRZ YOGA — compared on opacity, waistband stability, and reformer performance." href="/blog/best-pilates-leggings" category="Equipment" readTime="9 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Leggings" excerpt="From Lululemon Align to CRZ YOGA: compared on opacity, waistband stability, and reformer performance." href="/blog/best-pilates-leggings" category="Equipment" readTime="9 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />
                 <ArticleCard title="Best Lagree Tops (2026): Fitted Tanks That Stay Put" excerpt="The best Lagree tops: fitted, sweat-wicking tanks that stay put in planks and never catch on springs or handles…" href="/blog/best-lagree-tops" category="Lagree" readTime="8 min read" imageUrl="/pictures/stitch-retail-activewear.png" />
                 <ArticleCard title="Best Lagree Workout Sets (2026): 5 Matching Outfits" excerpt="Matching legging and bra sets for Lagree: Beyond Yoga, Varley, Sweaty Betty, CRZ YOGA and SUUKSESS, with set…" href="/blog/best-lagree-workout-sets" category="Lagree" readTime="8 min read" imageUrl="/pictures/stitch-retail-activewear.png" />
                 <ArticleCard title="Best Pilates Tank Tops (2026)" excerpt="The best tank tops for Pilates, racerbacks, strappy styles, and seamless options compared on breathability…" href="/blog/best-pilates-tank-tops" category="Activewear" readTime="8 min read" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />

@@ -22,15 +22,15 @@ export const metadata: Metadata = {
   keywords: ["pilates london", "reformer pilates london", "best pilates studios london", "pilates studio london", "pilates classes london", "chelsea pilates", "notting hill pilates", "pilates marylebone", "pilates shoreditch", "best reformer pilates london"],
   openGraph: {
     title: "Best Pilates Studios in London (2026)",
-    description: "Six curated Pilates studios in London — Chelsea, Marylebone, Notting Hill and Islington picks. Verified October 2026.",
+    description: "Six curated Pilates studios in London: Chelsea, Marylebone, Notting Hill and Islington picks. Verified October 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/london",
-    images: [{ url: "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=1200&q=80", width: 1200, height: 630, alt: "London city guide — Pilates Collective Club" }],
+    images: [{ url: "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=1200&q=80", width: 1200, height: 630, alt: "London city guide: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Studios in London (2026)",
-    description: "Our curated guide to London's finest Pilates studios — six verified picks with booking tips.",
+    description: "Our curated guide to London's finest Pilates studios: six verified picks with booking tips.",
     images: ["https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=1200&q=80"],
   },
   alternates: {
@@ -45,7 +45,7 @@ const STUDIOS = [
     neighborhood: "Chelsea",
     priceLevel: "$$$$",
     review: "Heartcore Chelsea is on Burnsall Street, a short walk from the King's Road and about ten minutes from South Kensington. Its signature class is the Coreformer, built to increase strength, mobility and ease in everyday movement, alongside mat classes, more intense formats, pregnancy classes and bespoke personal training. It is open from 6:30am to 8:30pm.",
-    caveat: "premium London pricing — and Chelsea classes are in high demand at peak times.",
+    caveat: "premium London pricing, and Chelsea classes are in high demand at peak times.",
     address: "6 Burnsall Street, London SW3 3ST",
     bestFor: "Signature reformer classes and pregnancy Pilates in Chelsea",
     signatureClass: "Coreformer",
@@ -56,8 +56,8 @@ const STUDIOS = [
     name: "Exhale Pilates London",
     neighborhood: "Marylebone · Primrose Hill · North Finchley",
     priceLevel: "$$$$",
-    review: "Exhale, founded by Gaby Noble after Pilates helped her recover from a serious car accident, is one of the UK's best-known classical Pilates brands. Classes and privates are taught on the full apparatus — reformers, towers, a Cadillac, Wunda chairs, barrels and an electric chair — and every teacher completes 600 hours of comprehensive training. Its studios are in Marylebone, Primrose Hill and North Finchley.",
-    caveat: "classical teaching is precise and methodical — expect technique, not a high-energy workout.",
+    review: "Exhale, founded by Gaby Noble after Pilates helped her recover from a serious car accident, is one of the UK's best-known classical Pilates brands. Classes and privates are taught on the full apparatus (reformers, towers, a Cadillac, Wunda chairs, barrels and an electric chair) and every teacher completes 600 hours of comprehensive training. Its studios are in Marylebone, Primrose Hill and North Finchley.",
+    caveat: "classical teaching is precise and methodical: expect technique, not a high-energy workout.",
     address: "90 Wimpole Street, London W1G 0EE",
     bestFor: "Classical Pilates on the full apparatus",
     signatureClass: "Classical Small Group",
@@ -69,19 +69,19 @@ const STUDIOS = [
     neighborhood: "Notting Hill · Harvey Nichols Knightsbridge",
     priceLevel: "$$$$",
     review: "Pilates in the Clouds was founded in 2014 by Los Angeles-born instructor Lauren Masaoka and has long been London's most exclusive reformer studio: its Notting Hill studio works by appointment only, with sessions of one to three people and no published address for client privacy. It has since opened to the public with a new home in Harvey Nichols.",
-    caveat: "this is a very exclusive, premium experience — sessions are tiny and priced accordingly.",
-    address: "—",
+    caveat: "this is a very exclusive, premium experience: sessions are tiny and priced accordingly.",
+    address: "",
     bestFor: "Ultra-private reformer sessions for one to three people",
     signatureClass: "Private Reformer (1–3 people)",
-    bookingTip: "Book through the studio directly — Notting Hill sessions are by appointment only.",
+    bookingTip: "Book through the studio directly: Notting Hill sessions are by appointment only.",
   },
   {
     number: "04",
-    name: "Ten Health & Fitness — Fitzrovia",
+    name: "Ten Health & Fitness Fitzrovia",
     neighborhood: "Fitzrovia",
     priceLevel: "$$$",
     review: "Ten combines reformer Pilates with physiotherapy and treatment under one roof, and has grown from its first studio in Notting Hill to sites across London, including Fitzrovia, Chiswick, Little Venice, St James's, Nine Elms and the City. The Fitzrovia studio on Great Titchfield Street is close to Marylebone and Oxford Circus.",
-    caveat: "a multi-site London brand — consistent and well-run, but less intimate than an owner-run classical studio.",
+    caveat: "a multi-site London brand: consistent and well-run, but less intimate than an owner-run classical studio.",
     address: "83 Great Titchfield Street, London W1W 6RH",
     bestFor: "Reformer Pilates with physiotherapy on hand",
     signatureClass: "Reformer Pilates",
@@ -93,7 +93,7 @@ const STUDIOS = [
     neighborhood: "Islington",
     priceLevel: "$$$",
     review: "Complete Pilates Islington is inside the Business Design Centre on Upper Street, offering expert-led traditional Pilates on equipment and reformer, specialist one-to-one sessions for all experience levels, group classes and online classes.",
-    caveat: "a method-focused studio — great for technique and rehab, less so if you want a high-energy class.",
+    caveat: "a method-focused studio, great for technique and rehab, less so if you want a high-energy class.",
     address: "Unit 226, Business Design Centre, 52 Upper Street, London N1 0QH",
     bestFor: "Traditional equipment Pilates and one-to-ones in north London",
     signatureClass: "Equipment & Reformer",
@@ -101,26 +101,26 @@ const STUDIOS = [
   },
   {
     number: "06",
-    name: "Bootcamp Pilates — Notting Hill",
+    name: "Bootcamp Pilates Notting Hill",
     neighborhood: "Notting Hill / Bayswater",
     priceLevel: "$$$",
-    review: "Bootcamp Pilates does what the name suggests: athletic, challenging reformer sessions that combine strength and cardio. It has studios in Notting Hill — on Porchester Road in Bayswater — and in Richmond.",
-    caveat: "a high-intensity format — not the place for slow classical technique.",
+    review: "Bootcamp Pilates does what the name suggests: athletic, challenging reformer sessions that combine strength and cardio. It has studios in Notting Hill, on Porchester Road in Bayswater, and in Richmond.",
+    caveat: "a high-intensity format, not the place for slow classical technique.",
     address: "64 Porchester Road, London W2 6ET",
     bestFor: "Athletic, high-intensity reformer workouts",
     signatureClass: "Bootcamp Reformer",
-    bookingTip: "Bring a towel — the classes are sweaty.",
+    bookingTip: "Bring a towel: the classes are sweaty.",
   },
 ];
 
 const BOOKING_TIPS = [
   {
     heading: "Book at least 48 hours ahead for peak slots",
-    body: "London's top studios fill rapidly. Morning and lunchtime weekday slots at premium studios go within minutes of opening. Most apps allow booking 5–7 days in advance — set a calendar reminder.",
+    body: "London's top studios fill rapidly. Morning and lunchtime weekday slots at premium studios go within minutes of opening. Most apps allow booking 5–7 days in advance: set a calendar reminder.",
   },
   {
     heading: "Introductory offers are your friend",
-    body: "Almost every London studio runs a new-client special — typically 2–3 classes for £30–50. Use these to assess the instruction quality and culture before committing to a monthly membership.",
+    body: "Almost every London studio runs a new-client special, typically 2–3 classes for £30–50. Use these to assess the instruction quality and culture before committing to a monthly membership.",
   },
   {
     heading: "ClassPass works well for London",
@@ -128,7 +128,7 @@ const BOOKING_TIPS = [
   },
   {
     heading: "Grip socks are required almost everywhere",
-    body: "Bring your own — most studios sell them, but they're cheaper from Amazon or sports retailers. Toeless grip socks are the standard.",
+    body: "Bring your own: most studios sell them, but they're cheaper from Amazon or sports retailers. Toeless grip socks are the standard.",
   },
   {
     heading: "Expect to pay £20–35 per class",
@@ -140,17 +140,17 @@ const NEIGHBORHOODS = [
   {
     name: "Kensington & Chelsea",
     description:
-      "The heartland of London's premium wellness scene. Studios here tend to be beautifully designed, highly priced, and attended by a discerning clientele. Heartcore and several independent boutiques make this the most saturated — in a good way — postcode for Pilates in the city.",
+      "The heartland of London's premium wellness scene. Studios here tend to be beautifully designed, highly priced, and attended by a discerning clientele. Heartcore and several independent boutiques make this the most saturated, in a good way, postcode for Pilates in the city.",
   },
   {
     name: "Shoreditch & East London",
     description:
-      "Creative energy meets serious instruction. East London has seen the most exciting studio openings in recent years. Ten Health and Frame both operate here, offering different ends of the spectrum — one clinical, one communal — both excellent.",
+      "Creative energy meets serious instruction. East London has seen the most exciting studio openings in recent years. Ten Health and Frame both operate here, offering different ends of the spectrum (one clinical, one communal) both excellent.",
   },
   {
     name: "Notting Hill & Westbourne Grove",
     description:
-      "Notting Hill is home to some of London's most exclusive wellness addresses. Bodyism leads the field. Expect a neighbourhood-feel mixed with genuine luxury — and long waiting lists for private sessions.",
+      "Notting Hill is home to some of London's most exclusive wellness addresses. Bodyism leads the field. Expect a neighbourhood-feel mixed with genuine luxury, and long waiting lists for private sessions.",
   },
   {
     name: "Canary Wharf & The City",
@@ -174,7 +174,7 @@ const GEAR = [
   },
   {
     name: "Magic Circle",
-    note: "Our pick: Balanced Body Ultra-Fit Circle (15-inch). Many studios incorporate the magic circle — worth owning for home reinforcement work.",
+    note: "Our pick: Balanced Body Ultra-Fit Circle (15-inch). Many studios incorporate the magic circle: worth owning for home reinforcement work.",
     price: "$35.00",
     url: "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20",
   },
@@ -192,7 +192,7 @@ const GEAR = [
   },
   {
     name: "Home Pilates Reformer",
-    note: "Our pick: PAETA Wooden Foldable Reformer. A home reformer extends your studio practice — AeroPilates and Align entry models deliver a genuine full-body session.",
+    note: "Our pick: PAETA Wooden Foldable Reformer. A home reformer extends your studio practice: AeroPilates and Align entry models deliver a genuine full-body session.",
     price: "$699.98",
     url: "https://www.amazon.com/dp/B0D7M7JNFV?tag=pilatescollective-20",
   },
@@ -209,7 +209,7 @@ const RELATED_CITIES = [
 const FURTHER_READING = [
   {
     title: "Best Pilates Equipment for Home Practice",
-    excerpt: "Everything you need between studio sessions — from a quality mat to resistance bands.",
+    excerpt: "Everything you need between studio sessions, from a quality mat to resistance bands.",
     href: "/blog/best-pilates-equipment-for-home-practice",
     category: "Equipment",
     readTime: "10 min read",
@@ -228,7 +228,7 @@ const FURTHER_READING = [
 ];
 
 const CITY_FAQS = [
-  { q: "What are the best Pilates studios in London?", a: "Our 6 curated picks are Heartcore Chelsea (Chelsea), Exhale Pilates London (Marylebone · Primrose Hill · North Finchley), Pilates in the Clouds (Notting Hill · Harvey Nichols Knightsbridge), Ten Health & Fitness — Fitzrovia (Fitzrovia), Complete Pilates Islington (Islington) and Bootcamp Pilates — Notting Hill (Notting Hill / Bayswater). Each listing above covers what the studio is best for, its signature class and a booking tip." },
+  { q: "What are the best Pilates studios in London?", a: "Our 6 curated picks are Heartcore Chelsea (Chelsea), Exhale Pilates London (Marylebone · Primrose Hill · North Finchley), Pilates in the Clouds (Notting Hill · Harvey Nichols Knightsbridge), Ten Health & Fitness (Fitzrovia (Fitzrovia), Complete Pilates Islington (Islington) and Bootcamp Pilates) Notting Hill (Notting Hill / Bayswater). Each listing above covers what the studio is best for, its signature class and a booking tip." },
   { q: "Which London neighbourhoods are best for Pilates?", a: "This guide covers Kensington & Chelsea, Shoreditch & East London, Notting Hill & Westbourne Grove and Canary Wharf & The City. Kensington & Chelsea: The heartland of London's premium wellness scene." },
   { q: "What should I know about booking Pilates classes in London?", a: "Book at least 48 hours ahead for peak slots. London's top studios fill rapidly." },
   { q: "What should I bring to a Pilates class in London?", a: "Grip socks are required at most reformer studios. Our gear list for London covers Pilates grip socks, Pilates mat, magic circle, resistance bands, foam roller and home Pilates reformer." },
@@ -312,7 +312,7 @@ export default function LondonPage() {
             </p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              London has one of the most sophisticated Pilates markets in the world. The city's appetite for high-quality instruction, premium studio design, and method-driven classes has produced a scene that rivals — and in many ways leads — New York and Los Angeles. This guide covers six studios we rate highly, from Islington to Chelsea, along with everything you need to know before booking your first class.
+              London has one of the most sophisticated Pilates markets in the world. The city's appetite for high-quality instruction, premium studio design, and method-driven classes has produced a scene that rivals, and in many ways leads, New York and Los Angeles. This guide covers six studios we rate highly, from Islington to Chelsea, along with everything you need to know before booking your first class.
             </p>
           </div>
         </section>
@@ -393,7 +393,7 @@ export default function LondonPage() {
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What to bring to your first class</h2>
             <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-              Grip socks are required at most reformer studios in London. These are our recommended picks — all available on Amazon.{" "}
+              Grip socks are required at most reformer studios in London. These are our recommended picks: all available on Amazon.{" "}
               <Link href="/affiliate-disclosure" style={{ color: "#8b4a31", textDecoration: "underline", fontFamily: "'Montserrat', sans-serif", fontSize: "inherit" }}>Affiliate disclosure.</Link>
             </p>
             <QuickPicks className="mb-0" picks={GEAR.map((g) => ({ name: g.note.match(/Our pick: ([^.]+(?:\.\d+[^.]*)?)\./)?.[1] ?? g.name, price: g.price, url: g.url, note: g.name }))} />
@@ -440,7 +440,7 @@ export default function LondonPage() {
 
         <CTASection
           title="Find Pilates near you"
-          subtitle="Use our AI Finder to discover studios in any city — coming soon."
+          subtitle="Use our AI Finder to discover studios in any city: coming soon."
           showSearch
           searchPlaceholder="Ask: best reformer Pilates in London…"
         />

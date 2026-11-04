@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
-  description: "Privacy Policy for Pilates Collective Club — how we collect, use, and protect your information.",
+  description: "Privacy Policy for Pilates Collective Club: how we collect, use, and protect your information.",
   openGraph: {
     title: "Privacy Policy",
     description: "How Pilates Collective Club collects, uses, and protects your information.",
@@ -63,7 +63,7 @@ export default function PrivacyPage() {
             <h2 style={s.h2}>Information We Collect</h2>
             <p style={s.p}>We collect minimal information and only what is necessary to operate the site. Specifically:</p>
             <ul style={s.ul}>
-              <li style={{ marginBottom: "8px" }}><strong>Usage data.</strong> When you visit the site, our hosting provider and analytics tools may automatically collect standard log data — your IP address, browser type, pages visited, and time spent. This data is used in aggregate to understand how the site is used and improve content. We do not use this data to identify individuals.</li>
+              <li style={{ marginBottom: "8px" }}><strong>Usage data.</strong> When you visit the site, our hosting provider and analytics tools may automatically collect standard log data: your IP address, browser type, pages visited, and time spent. This data is used in aggregate to understand how the site is used and improve content. We do not use this data to identify individuals.</li>
               <li style={{ marginBottom: "8px" }}><strong>Cookies.</strong> We use cookies for basic site functionality and analytics (see Cookie Policy below). We do not use advertising cookies or sell data to third parties.</li>
               <li style={{ marginBottom: "8px" }}><strong>Contact information.</strong> If you contact us by email, we retain your email address solely to reply to your message.</li>
             </ul>

@@ -17,10 +17,10 @@ export const metadata: Metadata = {
   keywords: ["balanced body studio reformer vs merrithew at home spx", "balanced body vs merrithew reformer", "best home reformer comparison", "studio reformer review", "at home spx review", "which reformer to buy", "balanced body reformer price", "merrithew reformer price"],
   openGraph: {
     title: "Balanced Body Studio Reformer vs Merrithew At Home SPX (2026)",
-    description: "Springs, frame material, accessory ecosystem and price, with a verdict for each buyer — both machines actually available on Amazon.",
+    description: "Springs, frame material, accessory ecosystem and price, with a verdict for each buyer, both machines actually available on Amazon.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/balanced-body-allegro-2-vs-merrithew-spx-max",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/stitch-reformer-morning-light.png", width: 1200, height: 630, alt: "Balanced Body vs Merrithew reformer comparison — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/stitch-reformer-morning-light.png", width: 1200, height: 630, alt: "Balanced Body vs Merrithew reformer comparison: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -38,7 +38,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Balanced Body Studio Reformer vs Merrithew At Home SPX (2026)",
-      "description": "A head-to-head comparison of the Balanced Body Studio Reformer and the Merrithew At Home SPX Reformer Package — the two commercial-brand machines actually sold on Amazon — across spring systems, frame material, accessory ecosystem and price.",
+      "description": "A head-to-head comparison of the Balanced Body Studio Reformer and the Merrithew At Home SPX Reformer Package, the two commercial-brand machines actually sold on Amazon, across spring systems, frame material, accessory ecosystem and price.",
       "url": "https://pilatescollectiveclub.com/blog/balanced-body-allegro-2-vs-merrithew-spx-max",
       "datePublished": "2026-09-16",
       "dateModified": "2026-10-20",
@@ -58,9 +58,9 @@ const jsonLd = {
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "Which is better, the Balanced Body Studio Reformer or the Merrithew At Home SPX?", "acceptedAnswer": { "@type": "Answer", "text": "They sit at different price points and solve different problems. The Studio Reformer is $4,700, has a solid rock maple frame, and plugs into Balanced Body's deep accessory ecosystem (tower, mat conversion, jumpboard). The At Home SPX is $3,349, sold and shipped by Amazon.com directly, and covers the core repertoire on genuine Merrithew springs for meaningfully less. Neither folds flat — both are permanent-installation machines. If budget is the deciding factor, the At Home SPX wins; if you plan to build out a full home studio over years, the Studio Reformer's accessory range is the better long-term platform." } },
-        { "@type": "Question", "name": "How much do the Studio Reformer and At Home SPX cost?", "acceptedAnswer": { "@type": "Answer", "text": "The Balanced Body Studio Reformer is $4,700, sold direct by Balanced Body on Amazon. The Merrithew At Home SPX Reformer Package is $3,349, sold and shipped by Amazon.com itself. That's a gap of about $1,350, or roughly 40%, not a rounding error — factor it into the decision rather than treating the two as interchangeable at similar price points." } },
-        { "@type": "Question", "name": "Do either of these reformers fold for storage?", "acceptedAnswer": { "@type": "Answer", "text": "No. Neither the Studio Reformer nor the At Home SPX folds flat or collapses for storage — both need a dedicated, permanent floor space of roughly 8 feet by 2.5 feet. If a folding machine matters to you, look at Balanced Body's Allegro 2 (which can stand on end with an optional wheel kit) or AeroPilates' cord-based machines, which do fold on wheels." } },
+        { "@type": "Question", "name": "Which is better, the Balanced Body Studio Reformer or the Merrithew At Home SPX?", "acceptedAnswer": { "@type": "Answer", "text": "They sit at different price points and solve different problems. The Studio Reformer is $4,700, has a solid rock maple frame, and plugs into Balanced Body's deep accessory ecosystem (tower, mat conversion, jumpboard). The At Home SPX is $3,349, sold and shipped by Amazon.com directly, and covers the core repertoire on genuine Merrithew springs for meaningfully less. Neither folds flat, both are permanent-installation machines. If budget is the deciding factor, the At Home SPX wins; if you plan to build out a full home studio over years, the Studio Reformer's accessory range is the better long-term platform." } },
+        { "@type": "Question", "name": "How much do the Studio Reformer and At Home SPX cost?", "acceptedAnswer": { "@type": "Answer", "text": "The Balanced Body Studio Reformer is $4,700, sold direct by Balanced Body on Amazon. The Merrithew At Home SPX Reformer Package is $3,349, sold and shipped by Amazon.com itself. That's a gap of about $1,350, or roughly 40%, not a rounding error: factor it into the decision rather than treating the two as interchangeable at similar price points." } },
+        { "@type": "Question", "name": "Do either of these reformers fold for storage?", "acceptedAnswer": { "@type": "Answer", "text": "No. Neither the Studio Reformer nor the At Home SPX folds flat or collapses for storage, both need a dedicated, permanent floor space of roughly 8 feet by 2.5 feet. If a folding machine matters to you, look at Balanced Body's Allegro 2 (which can stand on end with an optional wheel kit) or AeroPilates' cord-based machines, which do fold on wheels." } },
         { "@type": "Question", "name": "Can you add a tower to either machine?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Balanced Body sells the Studio Reformer with a Tower and Mat Conversion option for $6,975. Merrithew's tower-equipped machine on Amazon is the Rehab V2 Max Plus ($8,199), which includes the Vertical Frame built in rather than as an add-on to the At Home SPX. Confirm tower compatibility for the exact model before ordering, and measure your ceiling height first." } },
       ],
     },
@@ -70,7 +70,7 @@ const jsonLd = {
 const COMPARISON = [
   {
     factor: "Frame and construction",
-    a: "Solid rock maple frame with commercial-grade black upholstery, built for daily professional use — the same frame material used across Balanced Body's studio line.",
+    a: "Solid rock maple frame with commercial-grade black upholstery, built for daily professional use: the same frame material used across Balanced Body's studio line.",
     b: "Aluminium rails with high-density foam padding and durable vinyl upholstery, built for home use with the same core components as Merrithew's commercial machines.",
   },
   {
@@ -80,18 +80,18 @@ const COMPARISON = [
   },
   {
     factor: "Accessory ecosystem",
-    a: "The deepest in the industry — towers, mat conversions, riser kits, jumpboards, boxes, all purpose-built and widely stocked. This is most of what the price premium buys.",
+    a: "The deepest in the industry: towers, mat conversions, riser kits, jumpboards, boxes, all purpose-built and widely stocked. This is most of what the price premium buys.",
     b: "The At Home SPX package already includes a reformer box, roll-up pole, platform extender and double-loop straps, so there's less to buy separately to start.",
   },
   {
     factor: "Storage",
     a: "Does not fold. A permanent, roughly 8 by 2.5 foot floor commitment, same as the At Home SPX.",
-    b: "Does not fold. Same permanent floor footprint as the Studio Reformer — this is not a point of difference between the two.",
+    b: "Does not fold. Same permanent floor footprint as the Studio Reformer: this is not a point of difference between the two.",
   },
   {
     factor: "Sold by",
     a: "Balanced Body Inc., direct through their Amazon storefront. Made to order, three to four weeks to ship.",
-    b: "Amazon.com itself — the only reformer in this comparison with standard Amazon fulfilment and returns.",
+    b: "Amazon.com itself: the only reformer in this comparison with standard Amazon fulfilment and returns.",
   },
   {
     factor: "Price",
@@ -107,10 +107,10 @@ const REFORMERS = [
 
 const PRODUCTS = [
   { name: "Balanced Body Padded Jumpboard", description: "Balanced Body's own jumpboard for the Studio Reformer line, turning it into cardio equipment for jump training. Fits Balanced Body's carriage mounting; check compatibility with your exact model before ordering.", price: "$280", affiliateUrl: "https://www.amazon.com/dp/B08CS4LJZ7?tag=pilatescollective-20" },
-  { name: "Merrithew Jumpboard (22-inch, SPX/SPX Max)", description: "The Merrithew-specific jumpboard sized for the SPX and SPX Max carriage. Made to order — allow lead time.", price: "$470", affiliateUrl: "https://www.amazon.com/dp/B004ICZD2Q?tag=pilatescollective-20" },
+  { name: "Merrithew Jumpboard (22-inch, SPX/SPX Max)", description: "The Merrithew-specific jumpboard sized for the SPX and SPX Max carriage. Made to order: allow lead time.", price: "$470", affiliateUrl: "https://www.amazon.com/dp/B004ICZD2Q?tag=pilatescollective-20" },
   { name: "Balanced Body Sitting Box Lite", description: "Opens the short box, long box and overhead series on the Studio Reformer. Sits on the carriage rather than mounting to the frame.", price: "$150", affiliateUrl: "https://www.amazon.com/dp/B0723DT2JP?tag=pilatescollective-20" },
   { name: "Pilates Reformer Grip Pads (4-pack)", description: "Non-slip pads for standing and kneeling work on either machine's carriage. Protects the upholstery, which is the first surface to show age on any reformer.", price: "$7.99", affiliateUrl: "https://www.amazon.com/dp/B0GGR4QXNH?tag=pilatescollective-20" },
-  { name: "Balanced Body Replacement Reformer Ropes with Clips", description: "Genuine Balanced Body replacement ropes for the Studio Reformer and Allegro line. Keep a spare set — springs and ropes lose tension gradually rather than failing visibly.", price: "$35", affiliateUrl: "https://www.amazon.com/dp/B0CYM27QMZ?tag=pilatescollective-20" },
+  { name: "Balanced Body Replacement Reformer Ropes with Clips", description: "Genuine Balanced Body replacement ropes for the Studio Reformer and Allegro line. Keep a spare set: springs and ropes lose tension gradually rather than failing visibly.", price: "$35", affiliateUrl: "https://www.amazon.com/dp/B0CYM27QMZ?tag=pilatescollective-20" },
   { name: "STAR BRITE Ultimate Vinyl Clean", description: "A vinyl-safe cleaner for either machine's upholstery. Alcohol-heavy and bleach-based cleaners dry vinyl until it cracks; a vinyl-rated formula costs the same and doesn't. Sold by Amazon.com.", price: "$14.95", affiliateUrl: "https://www.amazon.com/dp/B01CZ2ZW4O?tag=pilatescollective-20" },
 ];
 
@@ -139,7 +139,7 @@ export default function Allegro2VsSpxMaxPage() {
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              These are the two commercial-brand reformers you can actually buy on Amazon today: Balanced Body&apos;s Studio Reformer and Merrithew&apos;s At Home SPX Reformer Package. They&apos;re not close on price — $4,700 against $3,349, a gap of about 40% — and neither one folds for storage, so this isn&apos;t a comparison of mechanisms. It&apos;s a comparison of what the extra $1,350 actually buys: frame material, spring feel, and how deep an accessory ecosystem you plug into.
+              These are the two commercial-brand reformers you can actually buy on Amazon today: Balanced Body&apos;s Studio Reformer and Merrithew&apos;s At Home SPX Reformer Package. They&apos;re not close on price ($4,700 against $3,349, a gap of about 40%) and neither one folds for storage, so this isn&apos;t a comparison of mechanisms. It&apos;s a comparison of what the extra $1,350 actually buys: frame material, spring feel, and how deep an accessory ecosystem you plug into.
             </p>
           </div>
         </section>
@@ -162,7 +162,7 @@ export default function Allegro2VsSpxMaxPage() {
             <div className="mb-14 mt-4 rounded-2xl p-7" style={{ backgroundColor: "#fff4f1", border: "1px solid rgba(139,74,49,0.15)" }}>
               <p className="text-xs font-semibold uppercase tracking-[0.15em] mb-3" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>The short version</p>
               <p className="text-base leading-relaxed mb-0" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Budget is the real constraint here: At Home SPX, sold and shipped by Amazon.com, gets you genuine Merrithew springs and a complete starter kit for $3,349. If you can stretch to $4,700 and expect to build out a home studio over years with a tower, mat conversion and boxes, the Studio Reformer&apos;s Balanced Body ecosystem is the better long-term platform. Neither folds, so storage isn&apos;t the deciding factor — plan for a permanent 8-by-2.5-foot spot either way.
+                Budget is the real constraint here: At Home SPX, sold and shipped by Amazon.com, gets you genuine Merrithew springs and a complete starter kit for $3,349. If you can stretch to $4,700 and expect to build out a home studio over years with a tower, mat conversion and boxes, the Studio Reformer&apos;s Balanced Body ecosystem is the better long-term platform. Neither folds, so storage isn&apos;t the deciding factor: plan for a permanent 8-by-2.5-foot spot either way.
               </p>
             </div>
 
@@ -184,9 +184,9 @@ export default function Allegro2VsSpxMaxPage() {
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Neither one folds — plan the floor space first</h2>
+              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Neither one folds: plan the floor space first</h2>
               <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Both machines run the full reformer repertoire, and both are permanent-installation pieces of equipment: roughly 8 feet long by 2.5 feet wide, with no fold-flat or wall-mount storage option on either. If you need a machine that disappears between sessions, this pairing isn&apos;t it — look at Balanced Body&apos;s Allegro 2, which can be stood on end with an optional wheel kit, or a cord-based AeroPilates machine that genuinely folds.
+                Both machines run the full reformer repertoire, and both are permanent-installation pieces of equipment: roughly 8 feet long by 2.5 feet wide, with no fold-flat or wall-mount storage option on either. If you need a machine that disappears between sessions, this pairing isn&apos;t it: look at Balanced Body&apos;s Allegro 2, which can be stood on end with an optional wheel kit, or a cord-based AeroPilates machine that genuinely folds.
               </p>
               <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                 Since storage isn&apos;t the differentiator, the decision comes down to budget and how deep you want to go into an accessory ecosystem. Our{" "}
@@ -222,7 +222,7 @@ export default function Allegro2VsSpxMaxPage() {
                 The Studio Reformer is $4,700, sold direct by Balanced Body through their Amazon storefront, made to order with a three-to-four-week ship time.
               </p>
               <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                The At Home SPX Reformer Package is $3,349 — sold and shipped by Amazon.com itself, the only machine in this comparison with standard Amazon fulfilment. That&apos;s roughly $1,350 less, a genuine 40% price gap that should factor into the decision rather than being treated as a rounding difference.
+                The At Home SPX Reformer Package is $3,349, sold and shipped by Amazon.com itself, the only machine in this comparison with standard Amazon fulfilment. That&apos;s roughly $1,350 less, a genuine 40% price gap that should factor into the decision rather than being treated as a rounding difference.
               </p>
               <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                 Both list prices are for the base machine only; towers, boxes and jumpboards are separate purchases on either. Our guide to{" "}
@@ -237,7 +237,7 @@ export default function Allegro2VsSpxMaxPage() {
                 Reformers are platforms. What mounts to them is model-specific, not universal, so the machine you choose determines what you can add to it for as long as you own it.
               </p>
               <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Balanced Body has the deepest accessory catalogue in the industry — towers, mat conversions, riser kits, jumpboards, boxes, all purpose-built. If you can see yourself adding a tower or mat conversion over the next few years (Balanced Body sells the Studio Reformer with both bundled in for $6,975), that ecosystem is worth paying for now. If you want a reformer to do reformer work and the budget difference matters more, the At Home SPX delivers genuine Merrithew quality with everything you need to start included in the box.
+                Balanced Body has the deepest accessory catalogue in the industry: towers, mat conversions, riser kits, jumpboards, boxes, all purpose-built. If you can see yourself adding a tower or mat conversion over the next few years (Balanced Body sells the Studio Reformer with both bundled in for $6,975), that ecosystem is worth paying for now. If you want a reformer to do reformer work and the budget difference matters more, the At Home SPX delivers genuine Merrithew quality with everything you need to start included in the box.
               </p>
             </div>
 
@@ -247,7 +247,7 @@ export default function Allegro2VsSpxMaxPage() {
                 {[
                   "Is $1,350 the difference that matters most to you, or is the accessory ecosystem worth paying for now?",
                   "Do you want a tower eventually? Confirm compatibility for your exact configuration and measure your ceiling height first.",
-                  "Neither machine folds — do you have a genuinely permanent 8-by-2.5-foot spot for it?",
+                  "Neither machine folds: do you have a genuinely permanent 8-by-2.5-foot spot for it?",
                   "Will you teach paid sessions on it? Check the warranty wording for commercial use before anything else.",
                   "Can the machine physically reach the room? Measure doorways, corridor turns and lift depth.",
                   "What do replacement springs and ropes cost for that model, and are they stocked?",
@@ -264,9 +264,9 @@ export default function Allegro2VsSpxMaxPage() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "Which is better, the Balanced Body Studio Reformer or the Merrithew At Home SPX?", a: "They sit at different price points and solve different problems. The Studio Reformer is $4,700, has a solid rock maple frame, and plugs into Balanced Body's deep accessory ecosystem. The At Home SPX is $3,349, sold and shipped by Amazon.com directly, and covers the core repertoire on genuine Merrithew springs for meaningfully less. Neither folds — both are permanent-installation machines. If budget is the deciding factor, the At Home SPX wins; if you plan to build out a full home studio over years, the Studio Reformer's accessory range is the better long-term platform." },
-                  { q: "How much do the Studio Reformer and At Home SPX cost?", a: "The Balanced Body Studio Reformer is $4,700, sold direct by Balanced Body on Amazon. The Merrithew At Home SPX Reformer Package is $3,349, sold and shipped by Amazon.com itself. That's a gap of about $1,350, or roughly 40% — factor it into the decision rather than treating the two as interchangeable." },
-                  { q: "Do either of these reformers fold for storage?", a: "No. Neither the Studio Reformer nor the At Home SPX folds flat or collapses for storage — both need a dedicated, permanent floor space of roughly 8 feet by 2.5 feet. If a folding machine matters to you, look at Balanced Body's Allegro 2 (which can stand on end with an optional wheel kit) or AeroPilates' cord-based machines, which do fold on wheels." },
+                  { q: "Which is better, the Balanced Body Studio Reformer or the Merrithew At Home SPX?", a: "They sit at different price points and solve different problems. The Studio Reformer is $4,700, has a solid rock maple frame, and plugs into Balanced Body's deep accessory ecosystem. The At Home SPX is $3,349, sold and shipped by Amazon.com directly, and covers the core repertoire on genuine Merrithew springs for meaningfully less. Neither folds, both are permanent-installation machines. If budget is the deciding factor, the At Home SPX wins; if you plan to build out a full home studio over years, the Studio Reformer's accessory range is the better long-term platform." },
+                  { q: "How much do the Studio Reformer and At Home SPX cost?", a: "The Balanced Body Studio Reformer is $4,700, sold direct by Balanced Body on Amazon. The Merrithew At Home SPX Reformer Package is $3,349, sold and shipped by Amazon.com itself. That's a gap of about $1,350, or roughly 40%: factor it into the decision rather than treating the two as interchangeable." },
+                  { q: "Do either of these reformers fold for storage?", a: "No. Neither the Studio Reformer nor the At Home SPX folds flat or collapses for storage, both need a dedicated, permanent floor space of roughly 8 feet by 2.5 feet. If a folding machine matters to you, look at Balanced Body's Allegro 2 (which can stand on end with an optional wheel kit) or AeroPilates' cord-based machines, which do fold on wheels." },
                   { q: "Can you add a tower to either machine?", a: "Yes. Balanced Body sells the Studio Reformer with a Tower and Mat Conversion option for $6,975. Merrithew's tower-equipped machine on Amazon is the Rehab V2 Max Plus ($8,199), which includes the Vertical Frame built in rather than as an add-on to the At Home SPX. Confirm tower compatibility for the exact model before ordering, and measure your ceiling height first." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
@@ -282,7 +282,7 @@ export default function Allegro2VsSpxMaxPage() {
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Reformers</p>
               <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Both machines</h2>
               <p className="text-base leading-relaxed mb-8" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                The two machines this comparison is about — both verified live on Amazon. About $1,350 separates them, so decide on budget and ecosystem, not on storage mechanism. Check the warranty covers your intended use before ordering.
+                The two machines this comparison is about, both verified live on Amazon. About $1,350 separates them, so decide on budget and ecosystem, not on storage mechanism. Check the warranty covers your intended use before ordering.
               </p>
               <div className="space-y-8">
                 {REFORMERS.map((p) => (

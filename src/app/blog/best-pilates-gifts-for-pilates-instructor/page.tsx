@@ -11,7 +11,7 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Gifts for a Pilates Instructor (2026)",
-  description: "The best gifts for a pilates instructor — recovery tools, premium gear, and thoughtful picks that a teaching professional will genuinely use and appreciate.",
+  description: "The best gifts for a pilates instructor: recovery tools, premium gear, and thoughtful picks that a teaching professional will genuinely use and appreciate.",
   keywords: [
     "best gifts for pilates instructor",
     "pilates instructor gift ideas",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Best Gifts for a Pilates Instructor (2026)",
-    description: "Gifts your pilates instructor will actually use — not another candle.",
+    description: "Gifts your pilates instructor will actually use, not another candle.",
     images: ["https://pilatescollectiveclub.com/pictures/stitch-reformer-morning-light.png"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/best-pilates-gifts-for-pilates-instructor" },
@@ -45,7 +45,7 @@ const PRODUCTS = [
     name: "Theragun Pro (5th Generation)",
     price: "$529.99",
     verdict: "The Ultimate Instructor Gift",
-    description: "A pilates instructor's body is their instrument — and it takes significant wear over the course of a teaching day: demonstrating exercises, cueing with physical assists, standing on hard floors for hours at a time. The Theragun Pro is what serious professionals use for genuine recovery. 16mm amplitude, 1,750–2,400 RPM, six attachments, 150-minute battery, and connection to the Therabody app for protocol guidance. This is not a consumer device dressed up as professional — it is the professional device. An instructor who doesn't own one will immediately understand that you understand their work.",
+    description: "A pilates instructor's body is their instrument, and it takes significant wear over the course of a teaching day: demonstrating exercises, cueing with physical assists, standing on hard floors for hours at a time. The Theragun Pro is what serious professionals use for genuine recovery. 16mm amplitude, 1,750–2,400 RPM, six attachments, 150-minute battery, and connection to the Therabody app for protocol guidance. This is not a consumer device dressed up as professional: it is the professional device. An instructor who doesn't own one will immediately understand that you understand their work.",
     affiliateUrl: "https://www.amazon.com/dp/B0B6RL7NQJ?tag=pilatescollective-20",
   },
   {
@@ -53,7 +53,7 @@ const PRODUCTS = [
     name: "Lululemon Align High-Rise Legging 25\"",
     price: "$98.00",
     verdict: "The Studio Standard",
-    description: "Walk into any quality pilates studio and count how many instructors are wearing Lululemon Align leggings. The number will be high. The Nulu fabric is extraordinarily comfortable for a full day of movement — light enough to not restrict during demonstration, opaque enough for professional appearance at every angle, and durable enough to handle daily wear without pilling. An instructor who is on their feet teaching five or six classes a day needs leggings that hold up to that demand. A second or third pair is always welcomed.",
+    description: "Walk into any quality pilates studio and count how many instructors are wearing Lululemon Align leggings. The number will be high. The Nulu fabric is extraordinarily comfortable for a full day of movement: light enough to not restrict during demonstration, opaque enough for professional appearance at every angle, and durable enough to handle daily wear without pilling. An instructor who is on their feet teaching five or six classes a day needs leggings that hold up to that demand. A second or third pair is always welcomed.",
     affiliateUrl: "https://www.amazon.com/dp/B08M8ZTKJS?tag=pilatescollective-20",
   },
   {
@@ -61,7 +61,7 @@ const PRODUCTS = [
     name: "Manduka PRO Yoga & Pilates Mat",
     price: "$144.00",
     verdict: "The Professional's Mat",
-    description: "Many instructors bring their own mat to the studio for demonstrations — and the Manduka PRO is what serious professionals choose. At 6mm thick, it cushions the knees and spine during demonstration exercises; its closed-cell surface grips under both hands and feet without slipping. The lifetime guarantee means it will outlast years of professional use. An instructor who is still using a standard studio mat for their demonstrations will immediately feel the difference. This is the mat that professionals buy for themselves when they're ready to invest.",
+    description: "Many instructors bring their own mat to the studio for demonstrations, and the Manduka PRO is what serious professionals choose. At 6mm thick, it cushions the knees and spine during demonstration exercises; its closed-cell surface grips under both hands and feet without slipping. The lifetime guarantee means it will outlast years of professional use. An instructor who is still using a standard studio mat for their demonstrations will immediately feel the difference. This is the mat that professionals buy for themselves when they're ready to invest.",
     affiliateUrl: "https://www.amazon.com/dp/B0066T7I54?tag=pilatescollective-20",
   },
   {
@@ -69,15 +69,15 @@ const PRODUCTS = [
     name: "Balanced Body Magic Circle",
     price: "$35.00",
     verdict: "Best Studio Equipment Gift",
-    description: "The Magic Circle — also called the Pilates ring — is one of the most used props in classical and contemporary Pilates teaching, and Balanced Body makes the most trusted version in the professional market. Their ring uses a flexible steel core with foam-padded handles designed to withstand commercial studio use. Instructors use it for adductor work, arm strengthening, and as a teaching prop to illustrate alignment and muscle engagement. A Balanced Body Magic Circle is a considered, practical gift that an instructor will use in class rather than leave in a drawer.",
+    description: "The Magic Circle, also called the Pilates ring, is one of the most used props in classical and contemporary Pilates teaching, and Balanced Body makes the most trusted version in the professional market. Their ring uses a flexible steel core with foam-padded handles designed to withstand commercial studio use. Instructors use it for adductor work, arm strengthening, and as a teaching prop to illustrate alignment and muscle engagement. A Balanced Body Magic Circle is a considered, practical gift that an instructor will use in class rather than leave in a drawer.",
     affiliateUrl: "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20",
   },
   {
     rank: "05",
-    name: "ToeSox Half-Toe Grip Socks — 5-Pack",
+    name: "ToeSox Half-Toe Grip Socks 5-Pack",
     price: "$65",
     verdict: "The Gift That Gets Used Every Day",
-    description: "An instructor teaches in grip socks every single class — and goes through them at a rate that practitioners never do. A five-pack of ToeSox Half-Toe socks is a gift that gets opened and immediately slotted into their weekly rotation. ToeSox are the brand that instructors consistently choose when they're spending their own money. The half-toe design works for both demonstration and teaching; the grip holds on every surface in the studio. Practical, appreciated, and completely appropriate for a client-to-instructor gift.",
+    description: "An instructor teaches in grip socks every single class, and goes through them at a rate that practitioners never do. A five-pack of ToeSox Half-Toe socks is a gift that gets opened and immediately slotted into their weekly rotation. ToeSox are the brand that instructors consistently choose when they're spending their own money. The half-toe design works for both demonstration and teaching; the grip holds on every surface in the studio. Practical, appreciated, and completely appropriate for a client-to-instructor gift.",
     affiliateUrl: "https://www.amazon.com/s?k=toesox+half+toe+grip+socks+pilates+5+pack&tag=pilatescollective-20",
   },
   {
@@ -85,7 +85,7 @@ const PRODUCTS = [
     name: "Hydro Flask 40oz Wide Mouth Bottle",
     price: "$48.45",
     verdict: "Best Practical Gift",
-    description: "An instructor teaching back-to-back classes across a full day needs a water bottle that doesn't run out before the last session. The 40oz Hydro Flask is the right size for a professional's teaching day — large enough to cover four to five hours without a refill, double-wall vacuum insulated so water stays cold the entire time. The wide mouth takes ice easily and the flex cap is secure in any bag. A simple, premium, genuinely useful gift that requires no knowledge of their personal style or preferences.",
+    description: "An instructor teaching back-to-back classes across a full day needs a water bottle that doesn't run out before the last session. The 40oz Hydro Flask is the right size for a professional's teaching day: large enough to cover four to five hours without a refill, double-wall vacuum insulated so water stays cold the entire time. The wide mouth takes ice easily and the flex cap is secure in any bag. A simple, premium, genuinely useful gift that requires no knowledge of their personal style or preferences.",
     affiliateUrl: "https://www.amazon.com/dp/B0G996RFY4?tag=pilatescollective-20",
   },
 ];
@@ -97,22 +97,22 @@ const CRITERIA = [
   },
   {
     heading: "Recovery is the highest-value category",
-    body: "An instructor's body accumulates wear in a way that a regular practitioner's does not — daily demonstrations, floor-based assists, and standing on hard surfaces for hours. Recovery tools (Theragun, TriggerPoint GRID) address a genuine professional need. These gifts communicate that you understand what teaching costs physically.",
+    body: "An instructor's body accumulates wear in a way that a regular practitioner's does not: daily demonstrations, floor-based assists, and standing on hard surfaces for hours. Recovery tools (Theragun, TriggerPoint GRID) address a genuine professional need. These gifts communicate that you understand what teaching costs physically.",
   },
   {
     heading: "Match budget to relationship",
-    body: "A client-to-instructor gift sits comfortably at $20–$65: ToeSox socks, a Hydro Flask, grip socks in bulk. A group gift from a class pool can reach the Theragun Pro ($529.99) or Manduka PRO ($144). Don't overspend as an individual client — a $50 Hydro Flask is more appropriate and more appreciated than an extravagant gesture.",
+    body: "A client-to-instructor gift sits comfortably at $20–$65: ToeSox socks, a Hydro Flask, grip socks in bulk. A group gift from a class pool can reach the Theragun Pro ($529.99) or Manduka PRO ($144). Don't overspend as an individual client: a $50 Hydro Flask is more appropriate and more appreciated than an extravagant gesture.",
   },
   {
     heading: "Avoid props they already own",
-    body: "Professional instructors already have Magic Circles, resistance bands, and blocks — the studio provides them. The best gifts are personal items: leggings, socks, recovery tools, and hydration gear. If you want to give props, choose the premium version of something they use every day (Balanced Body over a generic ring).",
+    body: "Professional instructors already have Magic Circles, resistance bands, and blocks: the studio provides them. The best gifts are personal items: leggings, socks, recovery tools, and hydration gear. If you want to give props, choose the premium version of something they use every day (Balanced Body over a generic ring).",
   },
 ];
 
 const FAQ = [
   {
     q: "What is a good gift for a pilates instructor?",
-    a: "The best gifts for a pilates instructor are practical, high-quality tools they use daily: ToeSox grip socks (worn every class), Lululemon Align leggings (the studio standard), a Hydro Flask 40oz (for long teaching days), and a TriggerPoint foam roller or Theragun for recovery. Avoid generic gifts — instructors appreciate items that show you understand their profession.",
+    a: "The best gifts for a pilates instructor are practical, high-quality tools they use daily: ToeSox grip socks (worn every class), Lululemon Align leggings (the studio standard), a Hydro Flask 40oz (for long teaching days), and a TriggerPoint foam roller or Theragun for recovery. Avoid generic gifts: instructors appreciate items that show you understand their profession.",
   },
   {
     q: "How much should you spend on a pilates instructor gift?",
@@ -120,18 +120,18 @@ const FAQ = [
   },
   {
     q: "Do pilates instructors like gift cards?",
-    a: "A gift card to Lululemon, Alo Yoga, or Amazon is a reasonable fallback when you're uncertain about sizes or preferences — but specific, considered gifts land better. A five-pack of ToeSox socks ($65) or a Hydro Flask 40oz ($50) demonstrates more thought than a gift card of the same value. If in doubt, socks or a water bottle are universally appreciated.",
+    a: "A gift card to Lululemon, Alo Yoga, or Amazon is a reasonable fallback when you're uncertain about sizes or preferences, but specific, considered gifts land better. A five-pack of ToeSox socks ($65) or a Hydro Flask 40oz ($50) demonstrates more thought than a gift card of the same value. If in doubt, socks or a water bottle are universally appreciated.",
   },
   {
     q: "What should you not give a pilates instructor?",
-    a: "Avoid: candles, chocolates, bath products, and generic wellness items — instructors receive these constantly and they accumulate. Avoid studio equipment like reformer springs or blocks — they own these professionally. Avoid cheap activewear from fast-fashion brands — instructors are deeply familiar with quality differences and notice when gear is from Shein or Amazon basics.",
+    a: "Avoid: candles, chocolates, bath products, and generic wellness items, instructors receive these constantly and they accumulate. Avoid studio equipment like reformer springs or blocks: they own these professionally. Avoid cheap activewear from fast-fashion brands: instructors are deeply familiar with quality differences and notice when gear is from Shein or Amazon basics.",
   },
 ];
 
 const RELATED = [
   { title: "Best Luxury Pilates Gifts", excerpt: "Investment-grade gifts for the serious practitioner.", href: "/blog/best-luxury-pilates-gifts", category: "Guide", readTime: "9 min", imageUrl: "/pictures/stitch-studio-bench-towels.png" },
-  { title: "Best Pilates Gifts for Your Girlfriend", excerpt: "Lululemon, Alo, Manduka — the picks she'll actually use.", href: "/blog/best-pilates-gifts-for-girlfriend", category: "Guide", readTime: "9 min", imageUrl: "/pictures/stitch-retail-activewear.png" },
-  { title: "How to Choose a Pilates Instructor", excerpt: "What to look for — and what to avoid — when selecting a teacher.", href: "/blog/how-to-choose-a-pilates-instructor", category: "Guide", readTime: "9 min", imageUrl: "/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg" },
+  { title: "Best Pilates Gifts for Your Girlfriend", excerpt: "Lululemon, Alo, Manduka: the picks she'll actually use.", href: "/blog/best-pilates-gifts-for-girlfriend", category: "Guide", readTime: "9 min", imageUrl: "/pictures/stitch-retail-activewear.png" },
+  { title: "How to Choose a Pilates Instructor", excerpt: "What to look for, and what to avoid, when selecting a teacher.", href: "/blog/how-to-choose-a-pilates-instructor", category: "Guide", readTime: "9 min", imageUrl: "/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg" },
 ];
 
 const jsonLd = {
@@ -140,7 +140,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Best Gifts for a Pilates Instructor (2026)",
-      "description": "The best gifts for a pilates instructor — recovery tools, premium gear, and thoughtful picks that a teaching professional will genuinely use.",
+      "description": "The best gifts for a pilates instructor: recovery tools, premium gear, and thoughtful picks that a teaching professional will genuinely use.",
       "url": "https://pilatescollectiveclub.com/blog/best-pilates-gifts-for-pilates-instructor",
       "image": "https://pilatescollectiveclub.com/pictures/stitch-reformer-morning-light.png",
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -192,7 +192,7 @@ export default function Page() {
           <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
           <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
           <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-            Giving a gift to your pilates instructor is a meaningful gesture — and the gifts that land are always the practical ones. Not a candle or a card, but the grip socks they go through by the dozen, the recovery tool they use after five back-to-back classes, the legging that holds up to daily studio wear. This guide is built around what professional instructors actually use, at price points that work for individual clients and pooled group gifts alike.
+            Giving a gift to your pilates instructor is a meaningful gesture, and the gifts that land are always the practical ones. Not a candle or a card, but the grip socks they go through by the dozen, the recovery tool they use after five back-to-back classes, the legging that holds up to daily studio wear. This guide is built around what professional instructors actually use, at price points that work for individual clients and pooled group gifts alike.
           </p>
         </div>
       </section>

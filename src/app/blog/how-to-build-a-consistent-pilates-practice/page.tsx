@@ -16,15 +16,15 @@ export const metadata: Metadata = {
   description: "How to build a consistent Pilates practice: scheduling, progressive programming, home vs. studio balance, and plateau-busting tips from instructors.",
   openGraph: {
     title: "How to Build a Consistent Pilates Practice",
-    description: "Practical strategies for making Pilates a lasting habit — even with a demanding schedule. Frequency, environment, mindset, and the habits that make the difference.",
+    description: "Practical strategies for making Pilates a lasting habit, even with a demanding schedule. Frequency, environment, mindset, and the habits that make the difference.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/how-to-build-a-consistent-pilates-practice",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/logan-weaver-lgnwvr-u76Gd0hP5w4-unsplash.jpg", width: 1200, height: 630, alt: "Building a consistent Pilates practice — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/logan-weaver-lgnwvr-u76Gd0hP5w4-unsplash.jpg", width: 1200, height: 630, alt: "Building a consistent Pilates practice: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "How to Build a Consistent Pilates Practice",
-    description: "Practical strategies for making Pilates a lasting habit — even with a demanding schedule.",
+    description: "Practical strategies for making Pilates a lasting habit, even with a demanding schedule.",
     images: ["https://pilatescollectiveclub.com/pictures/logan-weaver-lgnwvr-u76Gd0hP5w4-unsplash.jpg"],
   },
   keywords: ["consistent pilates practice", "how to practice pilates regularly", "pilates habit building", "pilates practice schedule", "how often to do pilates", "pilates routine tips", "starting pilates routine", "pilates motivation tips", "how to stick to pilates", "pilates practice guide 2026"],
@@ -126,8 +126,8 @@ const jsonLd = {
   ],
 };
 const PRODUCTS = [
-  { name: "Manduka PRO Pilates Mat", description: "A mat you're proud to own makes home practice easier to maintain. The quality signals commitment — and the non-degrading foam means it performs identically in session 500 as in session 1.", price: "$144.00", affiliateUrl: "https://www.amazon.com/dp/B0066T7I54?tag=pilatescollective-20" },
-  { name: "TheraBand Resistance Bands Set", description: "Resistance bands make meaningful home sessions possible in 15-20 minutes — the minimum viable practice length for maintaining consistency between studio classes.", price: "$11.99", affiliateUrl: "https://www.amazon.com/dp/B01A58FHQ8?tag=pilatescollective-20" },
+  { name: "Manduka PRO Pilates Mat", description: "A mat you're proud to own makes home practice easier to maintain. The quality signals commitment, and the non-degrading foam means it performs identically in session 500 as in session 1.", price: "$144.00", affiliateUrl: "https://www.amazon.com/dp/B0066T7I54?tag=pilatescollective-20" },
+  { name: "TheraBand Resistance Bands Set", description: "Resistance bands make meaningful home sessions possible in 15-20 minutes: the minimum viable practice length for maintaining consistency between studio classes.", price: "$11.99", affiliateUrl: "https://www.amazon.com/dp/B01A58FHQ8?tag=pilatescollective-20" },
   { name: "OPTP Foam Roller (36-inch)", description: "A full-length foam roller stays out of the way when not in use but enables a 10-minute spinal opening session at any time. Low barrier to entry makes it the consistency tool of choice.", price: "$62.99", affiliateUrl: "https://www.amazon.com/dp/B002C9EX14?tag=pilatescollective-20" },
   { name: "Gorilla Fit Gym Workout Journal", description: "Tracking Pilates sessions, progress, and how each session feels builds the self-awareness that sustains long-term practice. Even brief notes create the feedback loop that habit formation requires.", price: "$19.99", affiliateUrl: "https://www.amazon.com/dp/B0CNW2F8YC?tag=pilatescollective-20" },
   { name: "Balanced Body Magic Circle", description: "Compact, immediately available, and instantly challenging. A magic circle on the living room floor is more likely to get used than equipment that requires assembly or setup.", price: "$35.00", affiliateUrl: "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20" },
@@ -168,7 +168,7 @@ export default function ConsistentPracticePage() {
             <article className="prose-custom">
 
               <Section title="Start with frequency, not intensity">
-                <p>The most common mistake new practitioners make is treating early Pilates sessions like HIIT classes — pushing through fatigue, booking daily sessions, then burning out or getting injured within the first month. Pilates is a skill acquisition practice. Neural adaptation takes time, and the early sessions are about learning to feel, not about performing.</p>
+                <p>The most common mistake new practitioners make is treating early Pilates sessions like HIIT classes: pushing through fatigue, booking daily sessions, then burning out or getting injured within the first month. Pilates is a skill acquisition practice. Neural adaptation takes time, and the early sessions are about learning to feel, not about performing.</p>
                 <p>Two sessions per week is the optimal starting frequency for most adults. This is enough to build muscle memory between classes without overwhelming the body&apos;s recovery capacity. Once you&apos;ve been consistent at two sessions for six to eight weeks, adding a third is the natural next step.</p>
                 <p>The &quot;more is more&quot; logic that works for some forms of training simply doesn&apos;t apply here. A practitioner who has done two sessions a week for twelve months has a more sophisticated practice than one who did daily classes for six weeks.</p>
               </Section>
@@ -179,23 +179,23 @@ export default function ConsistentPracticePage() {
 
               <Section title="Remove the friction from booking">
                 <p>Consistency lives in the systems around your practice, not in willpower. If booking your classes requires navigating a difficult website, calling the studio, or making a decision each time, you&apos;ll book less often. The lower the friction, the higher the attendance.</p>
-                <p>Choose a studio with a good app and book recurring weekly slots rather than making fresh decisions each week. If Tuesday at 7am works, block it permanently and treat it as an unscheduled appointment — not a preference. Most quality studios allow recurring bookings for members, and using this feature is one of the single most reliable predictors of long-term consistency.</p>
+                <p>Choose a studio with a good app and book recurring weekly slots rather than making fresh decisions each week. If Tuesday at 7am works, block it permanently and treat it as an unscheduled appointment, not a preference. Most quality studios allow recurring bookings for members, and using this feature is one of the single most reliable predictors of long-term consistency.</p>
                 <p>Lay out your grip socks, water bottle, and bag the night before. Keep a spare set of grip socks in your gym bag permanently. These small preparations reduce the chance that a minor inconvenience becomes an excuse not to go.</p>
               </Section>
 
               <Section title="Build a home practice alongside studio work">
-                <p>A ten-minute daily movement practice at home — even without equipment — dramatically accelerates progression compared to studio-only work. Short sequences of matwork: the Hundred, rolling exercises, single-leg stretches, and standing footwork patterns don&apos;t require a reformer and take less time than it sounds.</p>
-                <p>The value of home practice isn&apos;t primarily physical — it&apos;s about building the habit of tuning in to your body on a daily basis. Pilates practitioners who maintain some form of daily movement, even brief, develop a relationship with their bodies that shows unmistakably in the quality of their studio work.</p>
-                <p>Start with five minutes. Five minutes is achievable on almost any day, regardless of schedule. A simple sequence of ten repetitions each — breath, chest lift, single-leg stretch, spine stretch forward — is enough to maintain the thread between sessions and begin developing the daily body-awareness habit that characterises serious practitioners.</p>
+                <p>A ten-minute daily movement practice at home, even without equipment, dramatically accelerates progression compared to studio-only work. Short sequences of matwork: the Hundred, rolling exercises, single-leg stretches, and standing footwork patterns don&apos;t require a reformer and take less time than it sounds.</p>
+                <p>The value of home practice isn&apos;t primarily physical: it&apos;s about building the habit of tuning in to your body on a daily basis. Pilates practitioners who maintain some form of daily movement, even brief, develop a relationship with their bodies that shows unmistakably in the quality of their studio work.</p>
+                <p>Start with five minutes. Five minutes is achievable on almost any day, regardless of schedule. A simple sequence of ten repetitions each (breath, chest lift, single-leg stretch, spine stretch forward) is enough to maintain the thread between sessions and begin developing the daily body-awareness habit that characterises serious practitioners.</p>
               </Section>
 
               <Section title="Track your progress in a way that motivates you">
-                <p>Pilates progress is not always visible in the ways conventional fitness culture trains us to expect. You may not lose significant weight. You may not be able to quantify the work in reps and sets. What you will notice — if you pay attention — is functional: you sit more easily, stand more comfortably, move with less effort, sleep better.</p>
-                <p>Keep a simple practice journal. Not an elaborate log, but a sentence or two after each session: what you noticed, what felt different, what was hard. Over weeks and months, this journal becomes a record of progress that is far more motivating than any fitness metric — because it tracks the thing that Pilates actually changes, which is the quality of your relationship to your body.</p>
+                <p>Pilates progress is not always visible in the ways conventional fitness culture trains us to expect. You may not lose significant weight. You may not be able to quantify the work in reps and sets. What you will notice, if you pay attention, is functional: you sit more easily, stand more comfortably, move with less effort, sleep better.</p>
+                <p>Keep a simple practice journal. Not an elaborate log, but a sentence or two after each session: what you noticed, what felt different, what was hard. Over weeks and months, this journal becomes a record of progress that is far more motivating than any fitness metric, because it tracks the thing that Pilates actually changes, which is the quality of your relationship to your body.</p>
               </Section>
 
               <Section title="Give it three months before evaluating">
-                <p>People who quit Pilates before month three typically do so because they expected results that the method doesn&apos;t deliver in that timeframe — or because they chose a studio that wasn&apos;t right for them. Neither is a reason to abandon the practice.</p>
+                <p>People who quit Pilates before month three typically do so because they expected results that the method doesn&apos;t deliver in that timeframe, or because they chose a studio that wasn&apos;t right for them. Neither is a reason to abandon the practice.</p>
                 <p>If a studio isn&apos;t working, change studios. The right teacher changes everything. Finding them may take a few tries, and that&apos;s fine. Once you find a teacher and a studio that resonates, commit to three months of consistent attendance before making any assessment. The practice reveals itself slowly, and almost always on its own schedule.</p>
               </Section>
 

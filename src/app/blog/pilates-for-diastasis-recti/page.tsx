@@ -16,15 +16,15 @@ export const metadata: Metadata = {
   keywords: ["pilates for diastasis recti", "diastasis recti pilates exercises", "safe pilates diastasis recti", "pilates postpartum diastasis recti", "diastasis recti exercise guide", "pilates ab separation recovery", "diastasis recti healing pilates", "reformer pilates diastasis recti"],
   openGraph: {
     title: "Pilates for Diastasis Recti: What Works & What to Avoid",
-    description: "Safe Pilates exercises for diastasis recti — evidence-based guidance on recovery, progression, and what to avoid.",
+    description: "Safe Pilates exercises for diastasis recti: evidence-based guidance on recovery, progression, and what to avoid.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/pilates-for-diastasis-recti",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg", width: 1200, height: 630, alt: "Pilates for Diastasis Recti — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg", width: 1200, height: 630, alt: "Pilates for Diastasis Recti: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Pilates for Diastasis Recti: What Works & What to Avoid",
-    description: "Safe Pilates exercises for diastasis recti — evidence-based guidance.",
+    description: "Safe Pilates exercises for diastasis recti: evidence-based guidance.",
     images: ["https://pilatescollectiveclub.com/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/pilates-for-diastasis-recti" },
@@ -38,7 +38,7 @@ const PRODUCTS = [
     price: "$27.50",
     verdict: "Best abdominal support for early recovery",
     description:
-      "A firm but comfortable postpartum belly band provides external support for the linea alba during early diastasis recti recovery, reducing strain on the separation during standing, walking, and gentle exercises. The Leonisa band uses a wide panel design that distributes compression evenly across the abdominal wall without digging into the hips or rolling down during movement. It is worn under clothing during the day and removed for Pilates sessions where intentional core activation is the goal. Evidence supports abdominal binders as a short-term adjunct to reduce discomfort and improve function in the early postpartum period — not as a substitute for progressive rehabilitation.",
+      "A firm but comfortable postpartum belly band provides external support for the linea alba during early diastasis recti recovery, reducing strain on the separation during standing, walking, and gentle exercises. The Leonisa band uses a wide panel design that distributes compression evenly across the abdominal wall without digging into the hips or rolling down during movement. It is worn under clothing during the day and removed for Pilates sessions where intentional core activation is the goal. Evidence supports abdominal binders as a short-term adjunct to reduce discomfort and improve function in the early postpartum period, not as a substitute for progressive rehabilitation.",
     affiliateUrl: "https://www.amazon.com/dp/B00AWB11FU?tag=pilatescollective-20",
     tag: "Best Recovery Support",
   },
@@ -58,7 +58,7 @@ const PRODUCTS = [
     price: "$9.98",
     verdict: "Best resistance bands for DR rehab",
     description:
-      "Light resistance loop bands are a core tool in diastasis recti Pilates rehabilitation, used for hip and glute exercises that load the core indirectly without creating the direct intra-abdominal pressure that worsens separation. The Fit Simplify set includes five resistance levels — from extra light to extra heavy — which allows progressive overload as the rehabilitation advances. The bands are fabric-backed rather than plain latex, reducing the rolling and digging that makes plain latex bands uncomfortable on bare skin during floor exercises. All five levels are relevant to a typical DR rehabilitation programme: the lightest for early glute work and the heavier levels as strength returns over months.",
+      "Light resistance loop bands are a core tool in diastasis recti Pilates rehabilitation, used for hip and glute exercises that load the core indirectly without creating the direct intra-abdominal pressure that worsens separation. The Fit Simplify set includes five resistance levels, from extra light to extra heavy, which allows progressive overload as the rehabilitation advances. The bands are fabric-backed rather than plain latex, reducing the rolling and digging that makes plain latex bands uncomfortable on bare skin during floor exercises. All five levels are relevant to a typical DR rehabilitation programme: the lightest for early glute work and the heavier levels as strength returns over months.",
     affiliateUrl: "https://www.amazon.com/dp/B01AVDVHTI?tag=pilatescollective-20",
     tag: "Best for Progressive Rehab",
   },
@@ -68,7 +68,7 @@ const PRODUCTS = [
     price: "$7.99",
     verdict: "Best prop for breathing exercises",
     description:
-      "A small Pilates overball is one of the most useful props for diastasis recti rehabilitation. Placed between the knees in supine exercises, it encourages medial hip activation which creates indirect transverse abdominis engagement without the direct loading that crunches and sit-ups generate. Placed against the wall in standing exercises, it provides tactile feedback for neutral spine positioning. The 9-inch size is appropriate for most practitioners' hip widths and provides enough resistance to be useful without requiring significant force production. Trideer's overball is reliably firm — some budget alternatives deflate quickly — and available in a range of muted colours appropriate for home studio use.",
+      "A small Pilates overball is one of the most useful props for diastasis recti rehabilitation. Placed between the knees in supine exercises, it encourages medial hip activation which creates indirect transverse abdominis engagement without the direct loading that crunches and sit-ups generate. Placed against the wall in standing exercises, it provides tactile feedback for neutral spine positioning. The 9-inch size is appropriate for most practitioners' hip widths and provides enough resistance to be useful without requiring significant force production. Trideer's overball is reliably firm, some budget alternatives deflate quickly, and available in a range of muted colours appropriate for home studio use.",
     affiliateUrl: "https://www.amazon.com/dp/B077QD9TFF?tag=pilatescollective-20",
     tag: "Best Rehabilitation Prop",
   },
@@ -90,7 +90,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Pilates for Diastasis Recti: What Works, What to Avoid",
-      "description": "Safe Pilates exercises for diastasis recti — evidence-based guidance on recovery, progression, and what to avoid.",
+      "description": "Safe Pilates exercises for diastasis recti: evidence-based guidance on recovery, progression, and what to avoid.",
       "url": "https://pilatescollectiveclub.com/blog/pilates-for-diastasis-recti",
       "datePublished": "2026-06-26",
       "dateModified": "2026-10-20",
@@ -110,9 +110,9 @@ const jsonLd = {
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "Is Pilates good for diastasis recti?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, when appropriately modified. Pilates emphasises deep core activation, breath coordination, and controlled movement — all central to diastasis recti rehabilitation. The key is working with a qualified instructor who understands abdominal separation and can modify standard Pilates exercises to avoid loading the linea alba inappropriately, particularly in the early recovery phase." } },
-        { "@type": "Question", "name": "Which Pilates exercises should I avoid with diastasis recti?", "acceptedAnswer": { "@type": "Answer", "text": "Avoid exercises that cause coning or doming of the abdominal wall — the visible ridge that appears along the midline when the separation is being loaded. Standard crunches, double-leg lowering, the Pilates Hundred in the traditional position, and any exercise that creates high intra-abdominal pressure should be avoided until the separation has closed sufficiently and core function has returned. A pelvic floor physiotherapist assessment is the most reliable way to identify your specific safe range." } },
-        { "@type": "Question", "name": "How long does it take for diastasis recti to heal with Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "Recovery timelines vary significantly by severity of separation, postnatal history, and consistency of rehabilitation. A mild separation (1-2 finger widths) with consistent targeted rehabilitation can show meaningful improvement within 8-16 weeks. Moderate to severe separations typically require 6-12 months of progressive rehabilitation. The quality of tissue tension at the linea alba matters as much as the gap measurement — functional recovery often precedes full closure." } },
+        { "@type": "Question", "name": "Is Pilates good for diastasis recti?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, when appropriately modified. Pilates emphasises deep core activation, breath coordination, and controlled movement: all central to diastasis recti rehabilitation. The key is working with a qualified instructor who understands abdominal separation and can modify standard Pilates exercises to avoid loading the linea alba inappropriately, particularly in the early recovery phase." } },
+        { "@type": "Question", "name": "Which Pilates exercises should I avoid with diastasis recti?", "acceptedAnswer": { "@type": "Answer", "text": "Avoid exercises that cause coning or doming of the abdominal wall: the visible ridge that appears along the midline when the separation is being loaded. Standard crunches, double-leg lowering, the Pilates Hundred in the traditional position, and any exercise that creates high intra-abdominal pressure should be avoided until the separation has closed sufficiently and core function has returned. A pelvic floor physiotherapist assessment is the most reliable way to identify your specific safe range." } },
+        { "@type": "Question", "name": "How long does it take for diastasis recti to heal with Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "Recovery timelines vary significantly by severity of separation, postnatal history, and consistency of rehabilitation. A mild separation (1-2 finger widths) with consistent targeted rehabilitation can show meaningful improvement within 8-16 weeks. Moderate to severe separations typically require 6-12 months of progressive rehabilitation. The quality of tissue tension at the linea alba matters as much as the gap measurement: functional recovery often precedes full closure." } },
       ],
     },
   ],
@@ -143,7 +143,7 @@ export default function PilatesForDiastasisRectiPage() {
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Diastasis recti — the separation of the rectus abdominis muscles at the linea alba — affects up to 60% of women at some point postpartum. Pilates, when correctly adapted, is one of the most effective rehabilitation modalities available. When incorrectly applied, it can delay recovery and worsen the separation. The distinction is in the details: which exercises, in what sequence, with what breath pattern, at what stage of recovery.
+              Diastasis recti, the separation of the rectus abdominis muscles at the linea alba, affects up to 60% of women at some point postpartum. Pilates, when correctly adapted, is one of the most effective rehabilitation modalities available. When incorrectly applied, it can delay recovery and worsen the separation. The distinction is in the details: which exercises, in what sequence, with what breath pattern, at what stage of recovery.
             </p>
             <div className="rounded-xl p-6 mb-8" style={{ backgroundColor: "#fff9f5", border: "1px solid rgba(197,168,130,0.3)" }}>
               <p className="text-xs font-semibold uppercase tracking-[0.15em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Medical note</p>
@@ -169,10 +169,10 @@ export default function PilatesForDiastasisRectiPage() {
             <div className="mb-16">
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What is diastasis recti?</h2>
               <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Diastasis recti (DR) is the widening of the gap between the two sides of the rectus abdominis — the linea alba. It occurs when the connective tissue is stretched beyond its capacity to maintain tension, most commonly during pregnancy. A gap wider than 2 finger widths (approximately 2.5cm) at the level of the navel, combined with poor tissue tension at that gap, is the clinical definition most physiotherapists use.
+                Diastasis recti (DR) is the widening of the gap between the two sides of the rectus abdominis: the linea alba. It occurs when the connective tissue is stretched beyond its capacity to maintain tension, most commonly during pregnancy. A gap wider than 2 finger widths (approximately 2.5cm) at the level of the navel, combined with poor tissue tension at that gap, is the clinical definition most physiotherapists use.
               </p>
               <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                The measurement alone is not the only meaningful factor — a 3-finger gap with good tissue tension (where the connective tissue still generates force) may be less functionally limiting than a 2-finger gap with poor tension. This is why self-assessment has limits and a professional assessment is valuable.
+                The measurement alone is not the only meaningful factor: a 3-finger gap with good tissue tension (where the connective tissue still generates force) may be less functionally limiting than a 2-finger gap with poor tension. This is why self-assessment has limits and a professional assessment is valuable.
               </p>
             </div>
 
@@ -183,7 +183,7 @@ export default function PilatesForDiastasisRectiPage() {
               </p>
               <div className="space-y-4 mb-8">
                 {[
-                  { title: "Diaphragmatic breathing", text: "360-degree breathing that expands the ribcage laterally and engages the diaphragm in coordination with the pelvic floor is the foundation of every rehabilitation programme. This is not passive — it is an active relearning of how the deep core pressurisation system functions." },
+                  { title: "Diaphragmatic breathing", text: "360-degree breathing that expands the ribcage laterally and engages the diaphragm in coordination with the pelvic floor is the foundation of every rehabilitation programme. This is not passive: it is an active relearning of how the deep core pressurisation system functions." },
                   { title: "Heel slides", text: "Lying supine with knees bent, slowly sliding one heel along the floor to extend the leg without allowing the lumbar spine to arch or the abdominal wall to bulge. This creates low-load transverse abdominis engagement without pressure spikes." },
                   { title: "Clam shells", text: "Lying on your side with hips stacked, rotating the top knee open while keeping the pelvis still. Targets the hip abductors and glutes indirectly, which stabilise the pelvis and reduce load on the linea alba during standing activities." },
                   { title: "Bird-dog", text: "From quadruped (hands and knees), extending one arm and the opposite leg simultaneously while maintaining a neutral spine. This exercise builds rotational stability without direct abdominal loading, and is central to most advanced diastasis rehabilitation programmes." },
@@ -237,9 +237,9 @@ export default function PilatesForDiastasisRectiPage() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "Is Pilates good for diastasis recti?", a: "Yes, when appropriately modified. Pilates emphasises deep core activation, breath coordination, and controlled movement — all central to diastasis recti rehabilitation. The key is working with a qualified instructor who understands abdominal separation and can modify standard Pilates exercises to avoid loading the linea alba inappropriately, particularly in the early recovery phase." },
-                  { q: "Which Pilates exercises should I avoid with diastasis recti?", a: "Avoid exercises that cause coning or doming of the abdominal wall — the visible ridge that appears along the midline when the separation is being loaded. Standard crunches, double-leg lowering, the Pilates Hundred in the traditional position, and any exercise that creates high intra-abdominal pressure should be avoided until the separation has closed sufficiently. A pelvic floor physiotherapist assessment is the most reliable way to identify your specific safe range." },
-                  { q: "How long does it take for diastasis recti to heal with Pilates?", a: "Recovery timelines vary significantly by severity of separation, postnatal history, and consistency of rehabilitation. A mild separation with consistent targeted rehabilitation can show meaningful improvement within 8-16 weeks. Moderate to severe separations typically require 6-12 months of progressive rehabilitation. The quality of tissue tension at the linea alba matters as much as the gap measurement — functional recovery often precedes full closure." },
+                  { q: "Is Pilates good for diastasis recti?", a: "Yes, when appropriately modified. Pilates emphasises deep core activation, breath coordination, and controlled movement: all central to diastasis recti rehabilitation. The key is working with a qualified instructor who understands abdominal separation and can modify standard Pilates exercises to avoid loading the linea alba inappropriately, particularly in the early recovery phase." },
+                  { q: "Which Pilates exercises should I avoid with diastasis recti?", a: "Avoid exercises that cause coning or doming of the abdominal wall: the visible ridge that appears along the midline when the separation is being loaded. Standard crunches, double-leg lowering, the Pilates Hundred in the traditional position, and any exercise that creates high intra-abdominal pressure should be avoided until the separation has closed sufficiently. A pelvic floor physiotherapist assessment is the most reliable way to identify your specific safe range." },
+                  { q: "How long does it take for diastasis recti to heal with Pilates?", a: "Recovery timelines vary significantly by severity of separation, postnatal history, and consistency of rehabilitation. A mild separation with consistent targeted rehabilitation can show meaningful improvement within 8-16 weeks. Moderate to severe separations typically require 6-12 months of progressive rehabilitation. The quality of tissue tension at the linea alba matters as much as the gap measurement: functional recovery often precedes full closure." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
@@ -252,8 +252,8 @@ export default function PilatesForDiastasisRectiPage() {
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="Pilates and Pregnancy" excerpt="Safe Pilates practice through all trimesters — what changes, what stays, what to avoid." href="/blog/pilates-and-pregnancy" category="Health" readTime="8 min read" date="March 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
-                <ArticleCard title="Pilates for Pelvic Floor" excerpt="How Pilates supports pelvic floor function — exercises, cues, and what the research says." href="/blog/pilates-for-pelvic-floor" category="Health" readTime="7 min read" date="April 2026" imageUrl="/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg" />
+                <ArticleCard title="Pilates and Pregnancy" excerpt="Safe Pilates practice through all trimesters: what changes, what stays, what to avoid." href="/blog/pilates-and-pregnancy" category="Health" readTime="8 min read" date="March 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
+                <ArticleCard title="Pilates for Pelvic Floor" excerpt="How Pilates supports pelvic floor function: exercises, cues, and what the research says." href="/blog/pilates-for-pelvic-floor" category="Health" readTime="7 min read" date="April 2026" imageUrl="/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg" />
                 <ArticleCard title="Postnatal Pilates (2026): When to Start & How to Progress" excerpt="A complete guide to postnatal Pilates, when you can safely return, which exercises to start with, how to progress…" href="/blog/postnatal-pilates" category="Health" readTime="10 min read" imageUrl="/pictures/roxana-popovici-Zp4APUiwEsM-unsplash.jpg" />
                 <ArticleCard title="Pilates for a Flat Stomach (2026): What Actually Works" excerpt="Pilates for a flatter stomach, the exercises that actually strengthen the deep core, how Pilates shapes the waist…" href="/blog/pilates-for-flat-stomach" category="Guide" readTime="8 min read" imageUrl="/pictures/roxana-popovici-Zp4APUiwEsM-unsplash.jpg" />
                 <ArticleCard title="Pilates for Back Pain (2026): What the Research Shows" excerpt="Pilates for back pain: the best reformer and mat exercises for lumbar support, disc issues, and SI joint pain.…" href="/blog/pilates-for-back-pain" category="Health" readTime="8 min read" imageUrl="/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg" />

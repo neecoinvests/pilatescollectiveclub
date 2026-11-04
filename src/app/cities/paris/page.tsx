@@ -12,7 +12,7 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Studios in Paris (2026)",
-  description: "The best Pilates studios in Paris — reformer boutiques in the Marais, Saint-Germain, and the 16th arrondissement. Six curated picks, verified October 2026.",
+  description: "The best Pilates studios in Paris: reformer boutiques in the Marais, Saint-Germain, and the 16th arrondissement. Six curated picks, verified October 2026.",
   robots: {
     index: true,
     follow: true,
@@ -22,15 +22,15 @@ export const metadata: Metadata = {
   keywords: ["pilates paris", "studio pilates paris", "reformer pilates paris", "best pilates studios paris", "pilates paris 16", "pilates marais paris", "pilates saint-germain", "pilates france", "cours pilates paris", "best reformer pilates paris"],
   openGraph: {
     title: "Best Pilates Studios in Paris (2026)",
-    description: "Six curated Pilates studios in Paris — Marais, Saint-Germain, and 16th arrondissement reformer picks. Verified 2026.",
+    description: "Six curated Pilates studios in Paris: Marais, Saint-Germain, and 16th arrondissement reformer picks. Verified 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/paris",
-    images: [{ url: "https://images.unsplash.com/photo-1431274172761-fca41d930114?w=1200&q=80", width: 1200, height: 630, alt: "Paris city guide — Pilates Collective Club" }],
+    images: [{ url: "https://images.unsplash.com/photo-1431274172761-fca41d930114?w=1200&q=80", width: 1200, height: 630, alt: "Paris city guide: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Studios in Paris (2026)",
-    description: "Our curated guide to the best Pilates studios in Paris — six verified picks with booking tips.",
+    description: "Our curated guide to the best Pilates studios in Paris: six verified picks with booking tips.",
     images: ["https://images.unsplash.com/photo-1431274172761-fca41d930114?w=1200&q=80"],
   },
   alternates: {
@@ -56,9 +56,9 @@ const STUDIOS = [
     name: "The New Me",
     neighborhood: "16+ studios across Paris",
     priceLevel: "$$",
-    review: "The New Me has more than 15 Parisian studios and a fresh, upbeat take on reformer Pilates, including its own Newformer Pilates classes — the most convenient choice if you want a studio near home and work.",
-    caveat: "a large chain — consistent and accessible, but less intimate than a boutique.",
-    address: "—",
+    review: "The New Me has more than 15 Parisian studios and a fresh, upbeat take on reformer Pilates, including its own Newformer Pilates classes: the most convenient choice if you want a studio near home and work.",
+    caveat: "a large chain: consistent and accessible, but less intimate than a boutique.",
+    address: "",
     bestFor: "Accessible reformer with many locations",
     signatureClass: "Newformer Pilates",
     bookingTip: "Check which studio is closest before buying a membership.",
@@ -69,7 +69,7 @@ const STUDIOS = [
     neighborhood: "8th arrondissement · Boulogne",
     priceLevel: "$$$",
     review: "After building a following with yoga and Pilates, RIISE created its own reformer method, working the whole body in sync with music with passionate, experienced coaches. Its reformer studios are on Rue La Boétie in the 8th and in Boulogne.",
-    caveat: "music-driven group classes — energetic rather than classical.",
+    caveat: "music-driven group classes: energetic rather than classical.",
     address: "79 rue La Boétie, 75008 Paris",
     bestFor: "Music-driven reformer in the 8th and Boulogne",
     signatureClass: "RIISE Reformer",
@@ -81,7 +81,7 @@ const STUDIOS = [
     neighborhood: "Louvre (1st arrondissement)",
     priceLevel: "$$$",
     review: "YUJ combines yoga with reformer Pilates, and its reformer classes are limited to five people, so the coach can follow and correct each participant's movement.",
-    caveat: "with five places per class, slots are limited — book ahead. Reformer classes run only at the Louvre studio.",
+    caveat: "with five places per class, slots are limited: book ahead. Reformer classes run only at the Louvre studio.",
     address: "68 rue Jean-Jacques Rousseau, 75001 Paris",
     bestFor: "Small reformer classes alongside yoga",
     signatureClass: "Reformer (max 5)",
@@ -93,11 +93,11 @@ const STUDIOS = [
     neighborhood: "Saint-Germain-des-Prés",
     priceLevel: "$$$",
     review: "Sense Club opened in early 2025 as a Pilates studio and coffee shop in Saint-Germain. Members describe instructors who are gentle and demanding at the same time, pushing people to surpass themselves in a safe, welcoming setting.",
-    caveat: "a newer studio — its track record is shorter than the longer-established names here.",
-    address: "—",
+    caveat: "a newer studio: its track record is shorter than the longer-established names here.",
+    address: "",
     bestFor: "Reformer and coffee on the Left Bank",
     signatureClass: "Reformer Pilates",
-    bookingTip: "Stay for a coffee after class — that is part of the concept.",
+    bookingTip: "Stay for a coffee after class: that is part of the concept.",
   },
   {
     number: "06",
@@ -105,18 +105,18 @@ const STUDIOS = [
     neighborhood: "Paris",
     priceLevel: "$$$",
     review: "DNA Pilates tops ClassPass's ranking of reformer studios in France and is one of the most-reviewed reformer studios in Paris.",
-    caveat: "we could not confirm the exact address independently — check the booking app for the studio location.",
-    address: "—",
+    caveat: "we could not confirm the exact address independently: check the booking app for the studio location.",
+    address: "",
     bestFor: "Top-rated reformer in Paris",
     signatureClass: "Reformer Pilates",
-    bookingTip: "Its popularity means classes fill — book a few days ahead.",
+    bookingTip: "Its popularity means classes fill: book a few days ahead.",
   },
 ];
 
 const BOOKING_TIPS = [
   {
     heading: "Reservations are essential",
-    body: "Paris studios do not operate a reliable walk-in culture. Book in advance through the studio's website or app — last-minute availability is rare at the better studios.",
+    body: "Paris studios do not operate a reliable walk-in culture. Book in advance through the studio's website or app: last-minute availability is rare at the better studios.",
   },
   {
     heading: "Expect classes in French",
@@ -145,7 +145,7 @@ const NEIGHBORHOODS = [
   {
     name: "Saint-Germain-des-Prés (6th Arr.)",
     description:
-      "The Left Bank's quiet, intellectual character suits Pilates particularly well. Studios here tend toward the classical and clinical — excellent for those who take the method seriously.",
+      "The Left Bank's quiet, intellectual character suits Pilates particularly well. Studios here tend toward the classical and clinical: excellent for those who take the method seriously.",
   },
   {
     name: "République & Oberkampf (10th & 11th Arr.)",
@@ -174,7 +174,7 @@ const GEAR = [
   },
   {
     name: "Magic Circle",
-    note: "Our pick: Balanced Body Ultra-Fit Circle (15-inch). Many studios incorporate the magic circle — worth owning for home reinforcement work.",
+    note: "Our pick: Balanced Body Ultra-Fit Circle (15-inch). Many studios incorporate the magic circle: worth owning for home reinforcement work.",
     price: "$35.00",
     url: "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20",
   },
@@ -192,7 +192,7 @@ const GEAR = [
   },
   {
     name: "Home Pilates Reformer",
-    note: "Our pick: PAETA Wooden Foldable Reformer. A home reformer extends your studio practice — AeroPilates and Align entry models deliver a genuine full-body session.",
+    note: "Our pick: PAETA Wooden Foldable Reformer. A home reformer extends your studio practice: AeroPilates and Align entry models deliver a genuine full-body session.",
     price: "$699.98",
     url: "https://www.amazon.com/dp/B0D7M7JNFV?tag=pilatescollective-20",
   },
@@ -240,7 +240,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Best Pilates Studios in Paris (2026)",
-      "description": "The best Pilates studios in Paris — reformer boutiques in the Marais, Saint-Germain, and the 16th arrondissement. Six curated picks, verified October 2026.",
+      "description": "The best Pilates studios in Paris: reformer boutiques in the Marais, Saint-Germain, and the 16th arrondissement. Six curated picks, verified October 2026.",
       "url": "https://pilatescollectiveclub.com/cities/paris",
       "datePublished": "2026-06-28",
       "dateModified": "2026-10-20",
@@ -306,7 +306,7 @@ export default function ParisPage() {
             <p className="text-sm mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 8 min read</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Paris has developed a Pilates scene that, like everything in the city, carries its own distinct character. Studios here tend to be intimate, instruction-led, and deeply serious about the method — reflecting a Parisian cultural preference for genuine expertise over spectacle. This guide covers the six studios we rate most highly, from the Marais to the 15th, along with everything you need to navigate the city's booking culture and find your perfect match.
+              Paris has developed a Pilates scene that, like everything in the city, carries its own distinct character. Studios here tend to be intimate, instruction-led, and deeply serious about the method: reflecting a Parisian cultural preference for genuine expertise over spectacle. This guide covers the six studios we rate most highly, from the Marais to the 15th, along with everything you need to navigate the city's booking culture and find your perfect match.
             </p>
           </div>
         </section>
@@ -379,7 +379,7 @@ export default function ParisPage() {
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What to bring to your first class</h2>
             <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-              Grip socks are required at most reformer studios in Paris. These are our recommended picks — all available on Amazon.{" "}
+              Grip socks are required at most reformer studios in Paris. These are our recommended picks: all available on Amazon.{" "}
               <Link href="/affiliate-disclosure" style={{ color: "#8b4a31", textDecoration: "underline", fontFamily: "'Montserrat', sans-serif", fontSize: "inherit" }}>Affiliate disclosure.</Link>
             </p>
             <QuickPicks className="mb-0" picks={GEAR.map((g) => ({ name: g.note.match(/Our pick: ([^.]+(?:\.\d+[^.]*)?)\./)?.[1] ?? g.name, price: g.price, url: g.url, note: g.name }))} />
@@ -420,7 +420,7 @@ export default function ParisPage() {
           </div>
         </section>
 
-        <CTASection title="Find Pilates near you" subtitle="Use our AI Finder to discover studios in any city — coming soon." showSearch searchPlaceholder="Ask: best Pilates studios in Paris…" />
+        <CTASection title="Find Pilates near you" subtitle="Use our AI Finder to discover studios in any city: coming soon." showSearch searchPlaceholder="Ask: best Pilates studios in Paris…" />
       </main>
       <Footer />
     </>

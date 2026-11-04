@@ -12,7 +12,7 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Studios in Houston, TX (2026)",
-  description: "The best Pilates studios in Houston — from River Oaks reformer boutiques to classical method in the Heights and Midtown. Six verified picks, 2026.",
+  description: "The best Pilates studios in Houston, from River Oaks reformer boutiques to classical method in the Heights and Midtown. Six verified picks, 2026.",
   robots: {
     index: true,
     follow: true,
@@ -22,15 +22,15 @@ export const metadata: Metadata = {
   keywords: ["pilates houston", "reformer pilates houston", "best pilates studios houston tx", "pilates studio houston", "pilates classes houston", "river oaks pilates", "heights pilates houston", "pilates texas", "best reformer pilates houston", "pilates midtown houston"],
   openGraph: {
     title: "Best Pilates Studios in Houston, TX (2026)",
-    description: "Six curated Pilates studios in Houston — River Oaks reformer boutiques to the Heights. Verified October 2026.",
+    description: "Six curated Pilates studios in Houston: River Oaks reformer boutiques to the Heights. Verified October 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/houston",
-    images: [{ url: "https://images.unsplash.com/photo-1530089711124-9ca31fb9e863?w=1200&q=80", width: 1200, height: 630, alt: "Houston Texas city guide — Pilates Collective Club" }],
+    images: [{ url: "https://images.unsplash.com/photo-1530089711124-9ca31fb9e863?w=1200&q=80", width: 1200, height: 630, alt: "Houston Texas city guide: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Studios in Houston (2026)",
-    description: "Six curated Pilates studios in Houston — verified picks for every level.",
+    description: "Six curated Pilates studios in Houston: verified picks for every level.",
     images: ["https://images.unsplash.com/photo-1530089711124-9ca31fb9e863?w=1200&q=80"],
   },
   alternates: {
@@ -45,7 +45,7 @@ const STUDIOS = [
     neighborhood: "The Heights",
     priceLevel: "$$$",
     review: "ONESWEAT Pilates on West 18th Street is one of the most-reviewed reformer studios in Houston on ClassPass, rated 4.9 from more than 15,000 reviews. That volume of consistently high ratings makes it a safe first choice in the Heights.",
-    caveat: "its popularity means prime-time classes fill fast — book ahead.",
+    caveat: "its popularity means prime-time classes fill fast: book ahead.",
     address: "730 W 18th St, Unit A, Houston, TX 77008",
     bestFor: "Highly rated group reformer in the Heights",
     signatureClass: "Group Reformer",
@@ -57,19 +57,19 @@ const STUDIOS = [
     neighborhood: "Montrose",
     priceLevel: "$$$",
     review: "Revival Pilates is a boutique reformer studio on Westheimer Road in Montrose, founded by the team behind Black Swan Yoga Houston. Classes are taught by nationally accredited instructors.",
-    caveat: "a reformer-only boutique — if you want classical apparatus beyond the reformer, look for a classical studio.",
+    caveat: "a reformer-only boutique, if you want classical apparatus beyond the reformer, look for a classical studio.",
     address: "1201 Westheimer Rd, Suite D, Houston, TX 77006",
     bestFor: "Boutique reformer classes in Montrose",
     signatureClass: "Reformer Pilates",
-    bookingTip: "Weekend mornings are the most popular — book by midweek.",
+    bookingTip: "Weekend mornings are the most popular: book by midweek.",
   },
   {
     number: "03",
-    name: "The Studio BE — Montrose",
+    name: "The Studio BE Montrose",
     neighborhood: "Montrose",
     priceLevel: "$$",
     review: "The Studio BE is a boutique fitness studio on Westheimer Road offering reformer Pilates, mat Pilates and private sessions for all levels, along with yoga, aerial, prenatal and strength classes. It is open from 6:30am to 8pm daily.",
-    caveat: "a multi-discipline studio — check that your class is reformer if that is what you want.",
+    caveat: "a multi-discipline studio: check that your class is reformer if that is what you want.",
     address: "888 Westheimer Rd, Ste 209, Houston, TX 77006",
     bestFor: "Reformer and prenatal Pilates with long daily hours",
     signatureClass: "Reformer Pilates",
@@ -81,7 +81,7 @@ const STUDIOS = [
     neighborhood: "River Oaks District / Uptown",
     priceLevel: "$$$",
     review: "Method Pilates is next to River Oaks District on West Loop South and is rated 4.9 from more than 2,500 reviews on ClassPass, making it one of the strongest reformer options on the west side of the Loop.",
-    caveat: "Galleria-area traffic is heavy at rush hour — allow extra time.",
+    caveat: "Galleria-area traffic is heavy at rush hour: allow extra time.",
     address: "2111 West Loop South, Unit 140, Houston, TX 77027",
     bestFor: "Reformer classes near River Oaks District and the Galleria",
     signatureClass: "Reformer Pilates",
@@ -93,11 +93,11 @@ const STUDIOS = [
     neighborhood: "River Oaks / Montrose",
     priceLevel: "$$",
     review: "DUO pairs a coffee bar with a reformer Pilates studio on Westheimer Road, and it is one of the most-reviewed Pilates studios in Houston on ClassPass, rated 4.9 from more than 10,000 reviews.",
-    caveat: "a social, café-and-class concept — great for community, less so if you want a quiet classical session.",
+    caveat: "a social, café-and-class concept, great for community, less so if you want a quiet classical session.",
     address: "2147 Westheimer Rd, Houston, TX 77098",
     bestFor: "Reformer plus coffee and community",
     signatureClass: "Reformer Pilates",
-    bookingTip: "Arrive early and grab a coffee — that is half the point.",
+    bookingTip: "Arrive early and grab a coffee: that is half the point.",
   },
   {
     number: "06",
@@ -105,7 +105,7 @@ const STUDIOS = [
     neighborhood: "The Heights",
     priceLevel: "$$",
     review: "Club Pilates The Heights on North Shepherd Drive offers the brand's levelled group reformer system for all ages and fitness levels, with classes including Reformer Flow, Cardio Sculpt, Control and Restore.",
-    caveat: "a franchise format — consistent, but less personalised than an independent studio.",
+    caveat: "a franchise format: consistent, but less personalised than an independent studio.",
     address: "2401 N Shepherd Dr, Suite 120, Houston, TX 77008",
     bestFor: "Structured, levelled reformer classes in the Heights",
     signatureClass: "Reformer Flow",
@@ -115,14 +115,14 @@ const STUDIOS = [
 
 const BOOKING_TIPS = [
   { heading: "Expect to pay $28–58 per class", body: "Houston's Pilates market spans a wide range. Drop-in rates run from $28 at community studios to $58 at River Oaks premium practices. Monthly memberships bring per-class costs to $18–32 for regular practitioners. The River Oaks and West University premium is real and reflects genuinely higher instruction quality at the top end of the market." },
-  { heading: "Houston's heat is the dominant scheduling variable", body: "Temperatures from May through September frequently exceed 100°F with high humidity. Houston's Pilates studios become preferred movement spaces during these months — demand for popular morning and evening slots peaks in summer. Establishing standing bookings before June is strongly advisable." },
-  { heading: "The Medical Center creates unusual opportunity", body: "Houston is home to the world's largest medical complex. The resulting concentration of physicians, nurses, and healthcare professionals has created unusual demand for evidence-informed movement practice — several Houston studios are notable for their clinical and rehabilitation programming that serves this community directly." },
-  { heading: "Car dependency means neighbourhood proximity is paramount", body: "Houston has almost no public transport to speak of. Choosing a studio within a practical drive of home or work — accounting for Houston's formidable traffic during peak hours — is the single most important variable for long-term practice consistency." },
+  { heading: "Houston's heat is the dominant scheduling variable", body: "Temperatures from May through September frequently exceed 100°F with high humidity. Houston's Pilates studios become preferred movement spaces during these months: demand for popular morning and evening slots peaks in summer. Establishing standing bookings before June is strongly advisable." },
+  { heading: "The Medical Center creates unusual opportunity", body: "Houston is home to the world's largest medical complex. The resulting concentration of physicians, nurses, and healthcare professionals has created unusual demand for evidence-informed movement practice: several Houston studios are notable for their clinical and rehabilitation programming that serves this community directly." },
+  { heading: "Car dependency means neighbourhood proximity is paramount", body: "Houston has almost no public transport to speak of. Choosing a studio within a practical drive of home or work, accounting for Houston's formidable traffic during peak hours, is the single most important variable for long-term practice consistency." },
   { heading: "Grip socks are required everywhere", body: "Universal across Houston's reformer studios. Buying quality grip socks from Amazon before your first class is a consistent saving over front-desk pricing at every studio in the city." },
 ];
 
 const NEIGHBORHOODS = [
-  { name: "River Oaks & West University", description: "Houston's wealthiest residential corridor houses the city's most premium Pilates practices. Studios here serve a discerning clientele with the resources and sophistication to support excellent instruction. The highest price points in the city are found here — matched by correspondingly strong teaching quality." },
+  { name: "River Oaks & West University", description: "Houston's wealthiest residential corridor houses the city's most premium Pilates practices. Studios here serve a discerning clientele with the resources and sophistication to support excellent instruction. The highest price points in the city are found here: matched by correspondingly strong teaching quality." },
   { name: "Montrose & Midtown", description: "Houston's most culturally diverse and arts-oriented neighbourhoods support a strong independent studio culture. Studios here tend to be community-focused, more accessibly priced, and staffed by instructors who value neighbourhood integration as much as brand presentation." },
   { name: "The Heights", description: "One of Houston's fastest-growing and most family-oriented in-town neighbourhoods has developed an excellent studio culture particularly strong in prenatal and postnatal programming. Studios here are community-anchored and increasingly sophisticated in their method offerings." },
   { name: "Upper Kirby & Greenway Plaza", description: "The professional and medical community corridor between River Oaks and Midtown supports several excellent studios with therapeutic and rehabilitation specialisms that serve Houston's large healthcare population with unusual competence." },
@@ -156,9 +156,9 @@ const GEAR = [
 ];
 
 const HOME_REFORMERS = [
-  { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work — three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
+  { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work: three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
   { tag: "Mid-Range Pick", name: "AeroPilates Pro XP 557", note: "AeroPilates' top-of-the-range home reformer, a step up for practitioners training several times a week.", price: "$1,329.99", url: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20" },
-  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order — an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
+  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
 ];
 
 const RELATED_CITIES = [
@@ -169,12 +169,12 @@ const RELATED_CITIES = [
 ];
 
 const FURTHER_READING = [
-  { title: "Pilates for Back Pain: What the Research Shows", excerpt: "What Pilates can and can't do for chronic lower back pain — and the specific exercises with the strongest evidence.", href: "/blog/pilates-for-back-pain", category: "Health", readTime: "10 min read", date: "June 2026", imageUrl: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&q=80" },
+  { title: "Pilates for Back Pain: What the Research Shows", excerpt: "What Pilates can and can't do for chronic lower back pain, and the specific exercises with the strongest evidence.", href: "/blog/pilates-for-back-pain", category: "Health", readTime: "10 min read", date: "June 2026", imageUrl: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&q=80" },
   { title: "Best Pilates Equipment for Home Practice", excerpt: "Everything you actually need to build a consistent home practice during Houston summers when the studio feels far away.", href: "/blog/best-pilates-equipment-for-home-practice", category: "Equipment", readTime: "10 min read", date: "June 2026", imageUrl: "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=800&q=80" },
 ];
 
 const CITY_FAQS = [
-  { q: "What are the best Pilates studios in Houston?", a: "Our 6 curated picks are ONESWEAT Pilates (The Heights), Revival Pilates (Montrose), The Studio BE — Montrose (Montrose), Method Pilates (River Oaks District / Uptown), DUO Coffee & Pilates (River Oaks / Montrose) and Club Pilates The Heights (The Heights). Each listing above covers what the studio is best for, its signature class and a booking tip." },
+  { q: "What are the best Pilates studios in Houston?", a: "Our 6 curated picks are ONESWEAT Pilates (The Heights), Revival Pilates (Montrose), The Studio BE: Montrose (Montrose), Method Pilates (River Oaks District / Uptown), DUO Coffee & Pilates (River Oaks / Montrose) and Club Pilates The Heights (The Heights). Each listing above covers what the studio is best for, its signature class and a booking tip." },
   { q: "Which Houston neighbourhoods are best for Pilates?", a: "This guide covers River Oaks & West University, Montrose & Midtown, The Heights and Upper Kirby & Greenway Plaza. River Oaks & West University: Houston's wealthiest residential corridor houses the city's most premium Pilates practices." },
   { q: "What should I know about booking Pilates classes in Houston?", a: "Expect to pay $28–58 per class. Houston's Pilates market spans a wide range." },
   { q: "What should I bring to a Pilates class in Houston?", a: "Grip socks are required at most reformer studios. Our gear list for Houston covers Pilates grip socks, Pilates mat, magic circle and resistance bands set." },
@@ -216,7 +216,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "The Best Pilates Studios in Houston, TX (2026)",
-      "description": "A curated guide to the six best Pilates studios in Houston, Texas — verified October 2026.",
+      "description": "A curated guide to the six best Pilates studios in Houston, Texas: verified October 2026.",
       "url": "https://pilatescollectiveclub.com/cities/houston",
       "dateModified": "2026-10-03",
       "author": { "@type": "Organization", "name": "Pilates Collective Club" },
@@ -244,7 +244,7 @@ export default function HoustonPage() {
             <p className="text-sm mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated October 2026 · 9 min read</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Houston is the United States&apos; fourth-largest city and one of its most underrated Pilates markets. The combination of the world&apos;s largest medical complex, a wealthy international professional class, and a strong performing arts scene has produced a studio landscape with unusual range and genuine depth — from classical River Oaks practices that serve the city&apos;s most discerning practitioners to community-oriented East End studios built on honest pricing and serious instruction. The city&apos;s heat makes movement practice more important, not less. This guide covers the six studios worth your time, verified October 2026.
+              Houston is the United States&apos; fourth-largest city and one of its most underrated Pilates markets. The combination of the world&apos;s largest medical complex, a wealthy international professional class, and a strong performing arts scene has produced a studio landscape with unusual range and genuine depth, from classical River Oaks practices that serve the city&apos;s most discerning practitioners to community-oriented East End studios built on honest pricing and serious instruction. The city&apos;s heat makes movement practice more important, not less. This guide covers the six studios worth your time, verified October 2026.
             </p>
           </div>
         </section>
@@ -256,7 +256,7 @@ export default function HoustonPage() {
               <div className="absolute inset-0 flex items-end p-8" style={{ background: "linear-gradient(to top, rgba(27,28,28,0.55) 0%, transparent 60%)" }}>
                 <div>
                   <p className="text-white text-sm font-semibold uppercase tracking-widest mb-1" style={{ fontFamily: "'Montserrat', sans-serif" }}>Houston, Texas</p>
-                  <p className="text-white/70 text-xs" style={{ fontFamily: "'Montserrat', sans-serif" }}>America&apos;s most international city — with a Pilates scene to match</p>
+                  <p className="text-white/70 text-xs" style={{ fontFamily: "'Montserrat', sans-serif" }}>America&apos;s most international city, with a Pilates scene to match</p>
                 </div>
               </div>
             </div>
@@ -319,7 +319,7 @@ export default function HoustonPage() {
             <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Prefer To Train At Home?</p>
             <h2 className="text-3xl font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Not convinced? How about Pilates at home?</h2>
             <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-              Studio pricing or scheduling not for you right now? A home reformer gets you a genuine Pilates session on your own time. Here's where to start — from a $299 entry point to the machine serious practitioners buy once.{" "}
+              Studio pricing or scheduling not for you right now? A home reformer gets you a genuine Pilates session on your own time. Here's where to start, from a $299 entry point to the machine serious practitioners buy once.{" "}
               <Link href="/blog/best-home-pilates-reformer" style={{ color: "#8b4a31", textDecoration: "underline", fontFamily: "'Montserrat', sans-serif", fontSize: "inherit" }}>See the full reformer guide.</Link>
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
@@ -371,7 +371,7 @@ export default function HoustonPage() {
           </div>
         </section>
 
-        <CTASection title="Find Pilates near you" subtitle="Use our AI Finder to discover studios in any city — coming soon." showSearch searchPlaceholder="Ask: best therapeutic Pilates in Houston…" />
+        <CTASection title="Find Pilates near you" subtitle="Use our AI Finder to discover studios in any city: coming soon." showSearch searchPlaceholder="Ask: best therapeutic Pilates in Houston…" />
       </main>
       <Footer />
     </>

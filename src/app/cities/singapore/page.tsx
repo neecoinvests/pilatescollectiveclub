@@ -22,15 +22,15 @@ export const metadata: Metadata = {
   keywords: ["pilates singapore", "reformer pilates singapore", "best pilates studios singapore", "pilates studio singapore", "pilates classes singapore", "pilates orchard singapore", "pilates dempsey", "pilates tiong bahru", "best reformer pilates singapore", "pilates cbd singapore"],
   openGraph: {
     title: "Best Pilates Studios in Singapore (2026)",
-    description: "Six curated Pilates studios in Singapore — Orchard, CBD and Holland Village picks. Verified October 2026.",
+    description: "Six curated Pilates studios in Singapore: Orchard, CBD and Holland Village picks. Verified October 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/singapore",
-    images: [{ url: "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?w=1200&q=80", width: 1200, height: 630, alt: "Singapore city guide — Pilates Collective Club" }],
+    images: [{ url: "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?w=1200&q=80", width: 1200, height: 630, alt: "Singapore city guide: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Studios in Singapore (2026)",
-    description: "Our curated guide to Singapore's finest Pilates studios — six verified picks with booking tips.",
+    description: "Our curated guide to Singapore's finest Pilates studios: six verified picks with booking tips.",
     images: ["https://images.unsplash.com/photo-1525625293386-3f8f99389edd?w=1200&q=80"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/cities/singapore" },
@@ -39,11 +39,11 @@ export const metadata: Metadata = {
 const STUDIOS = [
   {
     number: "01",
-    name: "Absolute Pilates — The Centrepoint",
+    name: "Absolute Pilates The Centrepoint",
     neighborhood: "Orchard Road",
     priceLevel: "$$$",
     review: "Absolute is one of Singapore's best-known boutique fitness brands, and its Pilates studios run reformer and Wunda chair classes. The Centrepoint studio on Orchard Road is the most central; there is another at i12 Katong. New clients have been offered two trial classes for $49.",
-    caveat: "a larger brand — consistent and polished, but less intimate than a small independent studio.",
+    caveat: "a larger brand: consistent and polished, but less intimate than a small independent studio.",
     address: "176 Orchard Rd, #04-06 & #04-101, The Centrepoint, Singapore 238843",
     bestFor: "Reformer and Wunda chair classes on Orchard Road",
     signatureClass: "Reformer & Wunda Chair",
@@ -55,7 +55,7 @@ const STUDIOS = [
     neighborhood: "Raffles Quay · United Square · Katong · The Heeren · Galaxis",
     priceLevel: "$$$",
     review: "Breathe Pilates combines physiotherapy and Pilates for rehab and fitness, with programmes for injury recovery and chronic pain. It runs five studios with more than 100 weekly classes, including Raffles Quay in the CBD, and moved its flagship from Novena to United Square in 2026.",
-    caveat: "physio-led programmes are priced accordingly — classes have started from about $55.",
+    caveat: "physio-led programmes are priced accordingly: classes have started from about $55.",
     address: "6 Raffles Quay, #11-02, Singapore 048580",
     bestFor: "Physio-informed Pilates for rehab and chronic pain",
     signatureClass: "Rehab Reformer",
@@ -63,15 +63,15 @@ const STUDIOS = [
   },
   {
     number: "03",
-    name: "STRONG Pilates — Tanjong Pagar",
+    name: "STRONG Pilates Tanjong Pagar",
     neighborhood: "Tanjong Pagar",
     priceLevel: "$$",
     review: "STRONG Pilates, the Australian brand, runs HIIT-style reformer classes in Singapore, with studios including Tanjong Pagar, Holland Village and Orchard.",
-    caveat: "high-intensity, music-driven classes — not classical Pilates.",
-    address: "—",
+    caveat: "high-intensity, music-driven classes, not classical Pilates.",
+    address: "",
     bestFor: "HIIT-style reformer in the CBD",
     signatureClass: "STRONG Reformer",
-    bookingTip: "Trial prices vary by studio — check the one closest to you.",
+    bookingTip: "Trial prices vary by studio: check the one closest to you.",
   },
   {
     number: "04",
@@ -83,15 +83,15 @@ const STUDIOS = [
     address: "483 Sims Ave, Singapore",
     bestFor: "Women-only reformer with top ratings",
     signatureClass: "Reformer Pilates",
-    bookingTip: "Popular classes fill quickly — book a few days ahead.",
+    bookingTip: "Popular classes fill quickly: book a few days ahead.",
   },
   {
     number: "05",
-    name: "Lab Studios — Holland Village",
+    name: "Lab Studios Holland Village",
     neighborhood: "Holland Village",
     priceLevel: "$$",
     review: "Lab Studios runs yoga, barre and Pilates, with a dedicated reformer Pilates outpost; its Holland Village studio is on Holland Avenue.",
-    caveat: "a multi-discipline brand — check which classes are reformer.",
+    caveat: "a multi-discipline brand: check which classes are reformer.",
     address: "245A Holland Ave, Singapore",
     bestFor: "Pilates alongside yoga and barre in Holland Village",
     signatureClass: "Reformer Pilates",
@@ -99,12 +99,12 @@ const STUDIOS = [
   },
   {
     number: "06",
-    name: "Pure Fitness — Pilates",
+    name: "Pure Fitness Pilates",
     neighborhood: "Central Singapore",
     priceLevel: "$$$",
-    review: "Pure is a large gym brand whose Pilates classes focus on strengthening and lengthening muscles, building flexibility and agility — a convenient option if you already train at Pure.",
+    review: "Pure is a large gym brand whose Pilates classes focus on strengthening and lengthening muscles, building flexibility and agility: a convenient option if you already train at Pure.",
     caveat: "a gym-based class rather than a boutique Pilates studio.",
-    address: "—",
+    address: "",
     bestFor: "Pilates for existing Pure members",
     signatureClass: "Pilates Class",
     bookingTip: "Check your membership tier covers Pilates classes.",
@@ -113,7 +113,7 @@ const STUDIOS = [
 
 const BOOKING_TIPS = [
   {
-    heading: "Book 5–7 days ahead — Singapore studios fill fast",
+    heading: "Book 5–7 days ahead: Singapore studios fill fast",
     body: "Singapore's premium Pilates studios run tight schedules and fill well in advance. Premium studios typically open bookings 7 days ahead; set a reminder and book immediately when slots open for popular morning and evening classes.",
   },
   {
@@ -122,7 +122,7 @@ const BOOKING_TIPS = [
   },
   {
     heading: "GST applies to all studio fees",
-    body: "Singapore's 9% GST applies to all wellness and studio services. Published prices may or may not include GST — check before booking to avoid surprises at payment.",
+    body: "Singapore's 9% GST applies to all wellness and studio services. Published prices may or may not include GST: check before booking to avoid surprises at payment.",
   },
   {
     heading: "Grip socks are mandatory everywhere",
@@ -172,7 +172,7 @@ const GEAR = [
   },
   {
     name: "Magic Circle",
-    note: "Our pick: Balanced Body Ultra-Fit Circle (15-inch). Many studios incorporate the magic circle — worth owning for home reinforcement work.",
+    note: "Our pick: Balanced Body Ultra-Fit Circle (15-inch). Many studios incorporate the magic circle: worth owning for home reinforcement work.",
     price: "$35.00",
     url: "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20",
   },
@@ -190,7 +190,7 @@ const GEAR = [
   },
   {
     name: "Home Pilates Reformer",
-    note: "Our pick: PAETA Wooden Foldable Reformer. A home reformer extends your studio practice — AeroPilates and Align entry models deliver a genuine full-body session.",
+    note: "Our pick: PAETA Wooden Foldable Reformer. A home reformer extends your studio practice: AeroPilates and Align entry models deliver a genuine full-body session.",
     price: "$699.98",
     url: "https://www.amazon.com/dp/B0D7M7JNFV?tag=pilatescollective-20",
   },
@@ -207,7 +207,7 @@ const RELATED_CITIES = [
 const FURTHER_READING = [
   {
     title: "Best Pilates Equipment for Home Practice",
-    excerpt: "Everything you need between studio sessions — from a quality mat to resistance bands.",
+    excerpt: "Everything you need between studio sessions, from a quality mat to resistance bands.",
     href: "/blog/best-pilates-equipment-for-home-practice",
     category: "Equipment",
     readTime: "10 min read",
@@ -226,9 +226,9 @@ const FURTHER_READING = [
 ];
 
 const CITY_FAQS = [
-  { q: "What are the best Pilates studios in Singapore?", a: "Our 6 curated picks are Absolute Pilates — The Centrepoint (Orchard Road), Breathe Pilates (Raffles Quay · United Square · Katong · The Heeren · Galaxis), STRONG Pilates — Tanjong Pagar (Tanjong Pagar), MORF (Geylang / Sims Avenue), Lab Studios — Holland Village (Holland Village) and Pure Fitness — Pilates (Central Singapore). Each listing above covers what the studio is best for, its signature class and a booking tip." },
+  { q: "What are the best Pilates studios in Singapore?", a: "Our 6 curated picks are Absolute Pilates (The Centrepoint (Orchard Road), Breathe Pilates (Raffles Quay · United Square · Katong · The Heeren · Galaxis), STRONG Pilates) Tanjong Pagar (Tanjong Pagar), MORF (Geylang / Sims Avenue), Lab Studios, Holland Village (Holland Village) and Pure Fitness, Pilates (Central Singapore). Each listing above covers what the studio is best for, its signature class and a booking tip." },
   { q: "Which Singapore neighbourhoods are best for Pilates?", a: "This guide covers CBD & Tanjong Pagar, Orchard & River Valley, Holland Village & Buona Vista and Dempsey Hill & Tanglin. CBD & Tanjong Pagar: Singapore's financial district has a high density of studios catering to the lunchtime and early-morning professional crowd." },
-  { q: "What should I know about booking Pilates classes in Singapore?", a: "Book 5–7 days ahead — Singapore studios fill fast. Singapore's premium Pilates studios run tight schedules and fill well in advance." },
+  { q: "What should I know about booking Pilates classes in Singapore?", a: "Book 5–7 days ahead: Singapore studios fill fast. Singapore's premium Pilates studios run tight schedules and fill well in advance." },
   { q: "What should I bring to a Pilates class in Singapore?", a: "Grip socks are required at most reformer studios. Our gear list for Singapore covers Pilates grip socks, Pilates mat, magic circle, resistance bands, foam roller and home Pilates reformer." },
 ];
 
@@ -391,7 +391,7 @@ export default function SingaporePage() {
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What to bring to your first class</h2>
             <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-              Grip socks are required at most reformer studios in Singapore. These are our recommended picks — all available on Amazon.{" "}
+              Grip socks are required at most reformer studios in Singapore. These are our recommended picks: all available on Amazon.{" "}
               <Link href="/affiliate-disclosure" style={{ color: "#8b4a31", textDecoration: "underline", fontFamily: "'Montserrat', sans-serif", fontSize: "inherit" }}>Affiliate disclosure.</Link>
             </p>
             <QuickPicks className="mb-0" picks={GEAR.map((g) => ({ name: g.note.match(/Our pick: ([^.]+(?:\.\d+[^.]*)?)\./)?.[1] ?? g.name, price: g.price, url: g.url, note: g.name }))} />

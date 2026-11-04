@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "Best Luxury Pilates Leggings (2026)",
-    description: "Wolford, Splits59, Varley, Sweaty Betty and Year of Ours — the investment-grade leggings serious practitioners actually reach for, all available on Amazon.",
+    description: "Wolford, Splits59, Varley, Sweaty Betty and Year of Ours: the investment-grade leggings serious practitioners actually reach for, all available on Amazon.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-luxury-pilates-leggings",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/stitch-retail-activewear.png", width: 1200, height: 630, alt: "Best Luxury Pilates Leggings 2026" }],
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Best Luxury Pilates Leggings (2026)",
-    description: "Wolford, Splits59, Varley, Sweaty Betty and Year of Ours — the investment-grade leggings for serious practitioners.",
+    description: "Wolford, Splits59, Varley, Sweaty Betty and Year of Ours: the investment-grade leggings for serious practitioners.",
     images: ["https://pilatescollectiveclub.com/pictures/stitch-retail-activewear.png"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/best-luxury-pilates-leggings" },
@@ -159,7 +159,7 @@ export default function BestLuxuryPilatesLeggingsPage() {
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p style={{ fontFamily: "var(--font-sans)", fontSize: "17px", fontWeight: 300, color: "#4a4540", lineHeight: 1.8, marginBottom: "16px" }}>
-              There is a meaningful tier above the mainstream Pilates legging market — one occupied by brands with decades of fabric craftsmanship, precision manufacturing, and the trust of professional dancers and athletes. These are not aspirational purchases. They are investments in the quality of your daily practice.
+              There is a meaningful tier above the mainstream Pilates legging market: one occupied by brands with decades of fabric craftsmanship, precision manufacturing, and the trust of professional dancers and athletes. These are not aspirational purchases. They are investments in the quality of your daily practice.
             </p>
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               We reviewed six leggings in the £95–£180 range, assessing fabric feel, opacity, waistband construction, movement freedom, and how they hold up across six months of intensive studio use. These are the ones that earned their price.
@@ -216,8 +216,8 @@ export default function BestLuxuryPilatesLeggingsPage() {
             <div style={{ marginTop: "64px" }}>
               <h2 style={{ fontFamily: "var(--font-sans)", fontSize: "11px", fontWeight: 500, letterSpacing: "0.2em", textTransform: "uppercase", color: "#9a9490", marginBottom: "28px" }}>Further Reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="Best High-Waist Pilates Leggings (2026)" excerpt="The complete high-rise roundup across all price points — from CRZ YOGA to Lululemon Align." href="/blog/best-high-waist-pilates-leggings" category="Clothing" readTime="9 min" imageUrl="/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg" />
-                <ArticleCard title="Varley Pilates Activewear" excerpt="A deep dive into Varley's collection — the LA luxury brand that redefined studio activewear." href="/blog/varley-pilates-activewear" category="Brand Guide" readTime="7 min" imageUrl="/pictures/stitch-retail-activewear.png" />
+                <ArticleCard title="Best High-Waist Pilates Leggings (2026)" excerpt="The complete high-rise roundup across all price points, from CRZ YOGA to Lululemon Align." href="/blog/best-high-waist-pilates-leggings" category="Clothing" readTime="9 min" imageUrl="/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg" />
+                <ArticleCard title="Varley Pilates Activewear" excerpt="A deep dive into Varley's collection: the LA luxury brand that redefined studio activewear." href="/blog/varley-pilates-activewear" category="Brand Guide" readTime="7 min" imageUrl="/pictures/stitch-retail-activewear.png" />
                 <ArticleCard title="Best Pilates Leggings (2026): 5 Picks for Reformer & Mat" excerpt="The 5 best Pilates leggings on Amazon, from $26 to $134: Lululemon Align, Beyond Yoga, Sweaty Betty, Varley and…" href="/blog/best-pilates-leggings" category="Activewear" readTime="9 min read" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />
                 <ArticleCard title="Best Leggings for Lagree (2026): 5 Pairs by Use" excerpt="The best leggings for Lagree: what matters on a moving Megaformer carriage, plus five verified pairs from budget…" href="/blog/best-leggings-for-lagree" category="Lagree" readTime="9 min read" imageUrl="/pictures/stitch-retail-activewear.png" />
                 <ArticleCard title="Best Leggings for Reformer Pilates (2026): Compared & Ranked" excerpt="The best leggings for reformer Pilates in 2026: Lululemon Align, Alo Airbrush, Varley, Vuori, and Gymshark…" href="/blog/best-leggings-for-reformer-pilates" category="Activewear" readTime="8 min read" imageUrl="/pictures/stitch-teaser-pose-back.png" />

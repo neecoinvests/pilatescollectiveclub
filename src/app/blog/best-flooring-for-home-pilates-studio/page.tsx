@@ -12,14 +12,14 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Flooring for a Home Pilates Studio (2026)",
-  description: "Home Pilates studio flooring compared — interlocking EVA foam tiles ranked by price, coverage and durability, including a heavier rubber-top option for equipment.",
+  description: "Home Pilates studio flooring compared: interlocking EVA foam tiles ranked by price, coverage and durability, including a heavier rubber-top option for equipment.",
   keywords: ["best flooring for home pilates studio", "pilates studio flooring", "home gym flooring pilates", "interlocking foam tiles pilates", "EVA foam floor tiles", "reformer flooring", "pilates floor mat large room", "home pilates room floor", "rubber top exercise mat", "pilates flooring 2026"],
   openGraph: {
     title: "Best Flooring for a Home Pilates Studio (2026)",
     description: "Interlocking EVA foam tiles compared by price, coverage and durability, plus a rubber-top option for equipment.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-flooring-for-home-pilates-studio",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/stitch-mats-corner-sunlit.png", width: 1200, height: 630, alt: "Best Flooring for a Home Pilates Studio — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/stitch-mats-corner-sunlit.png", width: 1200, height: 630, alt: "Best Flooring for a Home Pilates Studio: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -38,7 +38,7 @@ const PRODUCTS = [
     price: "$139.99",
     verdict: "Best for covering a full room",
     description:
-      "ProsourceFit is an established name in this category, and this set is sold directly by Amazon.com rather than a third-party marketplace listing. The 36-tile set covers 144 square feet in one purchase, which is enough to floor a genuinely large room without piecing together multiple smaller packs — a real advantage if you're doing the whole space at once rather than building it up over time. The tiles are half-inch EVA foam with interlocking edges, so no adhesive or professional installation is needed; they lift out individually if one gets damaged and come up entirely if you move. Half-inch foam is on the thinner side as EVA goes, so this is best suited to mat, floor and prop-based practice rather than a room with a reformer or other equipment sitting on it permanently.",
+      "ProsourceFit is an established name in this category, and this set is sold directly by Amazon.com rather than a third-party marketplace listing. The 36-tile set covers 144 square feet in one purchase, which is enough to floor a genuinely large room without piecing together multiple smaller packs: a real advantage if you're doing the whole space at once rather than building it up over time. The tiles are half-inch EVA foam with interlocking edges, so no adhesive or professional installation is needed; they lift out individually if one gets damaged and come up entirely if you move. Half-inch foam is on the thinner side as EVA goes, so this is best suited to mat, floor and prop-based practice rather than a room with a reformer or other equipment sitting on it permanently.",
     affiliateUrl: "https://www.amazon.com/dp/B07YMZZ12Q?tag=pilatescollective-20",
     tag: "Editor's Pick",
   },
@@ -58,7 +58,7 @@ const PRODUCTS = [
     price: "$24.99",
     verdict: "Best budget pick",
     description:
-      "At almost exactly the same price as the Haulcove set, the bemaxx tiles (sold by PLConcepts) are the alternative budget pick on this list — worth comparing if you want a second option to check finish, colour or tile size against before you buy, or if the Haulcove set happens to be out of stock. Like the other EVA foam tiles here, they interlock without adhesive and are a straightforward, low-cost way to cover a small practice area.",
+      "At almost exactly the same price as the Haulcove set, the bemaxx tiles (sold by PLConcepts) are the alternative budget pick on this list: worth comparing if you want a second option to check finish, colour or tile size against before you buy, or if the Haulcove set happens to be out of stock. Like the other EVA foam tiles here, they interlock without adhesive and are a straightforward, low-cost way to cover a small practice area.",
     affiliateUrl: "https://www.amazon.com/dp/B019DZDM3O?tag=pilatescollective-20",
     tag: "Best Budget Pick",
   },
@@ -78,7 +78,7 @@ const PRODUCTS = [
     price: "$119.99",
     verdict: "Best heavier-duty option",
     description:
-      "AIRHOP's mats cover the same 48 square feet as the Nazhura set but are built differently — a rubber top over the tile rather than plain EVA foam. That construction is the reason to choose this over the cheaper foam-only options: a rubber surface resists compression and denting under sustained or concentrated weight far better than foam alone, which matters if a reformer or other apparatus is going to sit in the room. The higher price reflects that heavier-duty build rather than extra square footage, so this is the pick when durability under equipment matters more than covering the largest possible area for the least money.",
+      "AIRHOP's mats cover the same 48 square feet as the Nazhura set but are built differently: a rubber top over the tile rather than plain EVA foam. That construction is the reason to choose this over the cheaper foam-only options: a rubber surface resists compression and denting under sustained or concentrated weight far better than foam alone, which matters if a reformer or other apparatus is going to sit in the room. The higher price reflects that heavier-duty build rather than extra square footage, so this is the pick when durability under equipment matters more than covering the largest possible area for the least money.",
     affiliateUrl: "https://www.amazon.com/dp/B0CNG8MDWB?tag=pilatescollective-20",
     tag: "Best Heavy-Duty",
   },
@@ -125,9 +125,9 @@ const jsonLd = {
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "Can interlocking foam tiles handle a reformer or other Pilates equipment?", "acceptedAnswer": { "@type": "Answer", "text": "Standard EVA foam tiles, like the ProsourceFit, Haulcove, bemaxx and Nazhura sets, aren't built for concentrated point loads and can dent under a reformer's feet or wheels over time. If equipment will live in the room, the AIRHOP rubber-top tiles are the better choice — the rubber surface resists compression far better than foam alone. For rooms used for mat, floor and prop work only, any of the pure-foam options are fine." } },
-        { "@type": "Question", "name": "How much flooring do I actually need?", "acceptedAnswer": { "@type": "Answer", "text": "It depends entirely on the room. An 18-piece starter pack like the Haulcove set is enough for a single practice corner, a 12-pack such as the Nazhura set covers roughly 48 square feet — a mid-size room — and the ProsourceFit set's 144 square feet is built for covering a full room in one purchase. Measure your space in square feet first and add a little extra for trimming at the walls." } },
-        { "@type": "Question", "name": "Do budget and premium interlocking tiles actually differ?", "acceptedAnswer": { "@type": "Answer", "text": "Among pure EVA foam tiles, the main differences are pack size and finish quality rather than dramatic performance gaps — the Haulcove and bemaxx sets are both genuinely budget options at a similar price point, while the ProsourceFit set costs more mainly because it covers far more square footage in one purchase, not because the tile itself is a different category of product. The real step up in durability comes from switching to a rubber-top tile like AIRHOP, which is built to handle heavier use than any of the foam-only options." } },
+        { "@type": "Question", "name": "Can interlocking foam tiles handle a reformer or other Pilates equipment?", "acceptedAnswer": { "@type": "Answer", "text": "Standard EVA foam tiles, like the ProsourceFit, Haulcove, bemaxx and Nazhura sets, aren't built for concentrated point loads and can dent under a reformer's feet or wheels over time. If equipment will live in the room, the AIRHOP rubber-top tiles are the better choice: the rubber surface resists compression far better than foam alone. For rooms used for mat, floor and prop work only, any of the pure-foam options are fine." } },
+        { "@type": "Question", "name": "How much flooring do I actually need?", "acceptedAnswer": { "@type": "Answer", "text": "It depends entirely on the room. An 18-piece starter pack like the Haulcove set is enough for a single practice corner, a 12-pack such as the Nazhura set covers roughly 48 square feet, a mid-size room, and the ProsourceFit set's 144 square feet is built for covering a full room in one purchase. Measure your space in square feet first and add a little extra for trimming at the walls." } },
+        { "@type": "Question", "name": "Do budget and premium interlocking tiles actually differ?", "acceptedAnswer": { "@type": "Answer", "text": "Among pure EVA foam tiles, the main differences are pack size and finish quality rather than dramatic performance gaps: the Haulcove and bemaxx sets are both genuinely budget options at a similar price point, while the ProsourceFit set costs more mainly because it covers far more square footage in one purchase, not because the tile itself is a different category of product. The real step up in durability comes from switching to a rubber-top tile like AIRHOP, which is built to handle heavier use than any of the foam-only options." } },
       ],
     },
   ],
@@ -155,7 +155,7 @@ export default function BestFlooringForHomePilatesStudioPage() {
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Flooring is the decision people make last and regret first. Buy too little coverage and you&apos;re stuck taping tiles together at the edge of your mat; buy the wrong type and equipment leaves permanent dents within weeks. Interlocking EVA foam tiles are the practical, do-it-yourself answer for almost every home Pilates room — no adhesive, no professional installation, and tiles that lift out individually if one gets damaged or come up entirely when you move. The real decisions are how much square footage you need and whether anything heavier than a mat will sit on the floor. These five options span a small budget starter pack up to full-room coverage, plus a heavier rubber-top tile built to take equipment.
+              Flooring is the decision people make last and regret first. Buy too little coverage and you&apos;re stuck taping tiles together at the edge of your mat; buy the wrong type and equipment leaves permanent dents within weeks. Interlocking EVA foam tiles are the practical, do-it-yourself answer for almost every home Pilates room: no adhesive, no professional installation, and tiles that lift out individually if one gets damaged or come up entirely when you move. The real decisions are how much square footage you need and whether anything heavier than a mat will sit on the floor. These five options span a small budget starter pack up to full-room coverage, plus a heavier rubber-top tile built to take equipment.
             </p>
           </div>
         </section>
@@ -192,12 +192,12 @@ export default function BestFlooringForHomePilatesStudioPage() {
               <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Measure and check before you order</h2>
               <ul className="space-y-3">
                 {[
-                  "Measure your room in square feet before ordering — coverage varies hugely between these options, from an 18-piece starter pack up to the 144-square-foot full-room set.",
-                  "Add roughly 10 percent to your tile count for cuts and trimming at walls and doorways — interlocking tiles rarely divide evenly into a room's exact dimensions.",
-                  "If a reformer or other apparatus will use the room, go for the rubber-top AIRHOP tiles rather than pure EVA foam — concentrated point loads dent standard foam faster.",
+                  "Measure your room in square feet before ordering: coverage varies hugely between these options, from an 18-piece starter pack up to the 144-square-foot full-room set.",
+                  "Add roughly 10 percent to your tile count for cuts and trimming at walls and doorways: interlocking tiles rarely divide evenly into a room's exact dimensions.",
+                  "If a reformer or other apparatus will use the room, go for the rubber-top AIRHOP tiles rather than pure EVA foam: concentrated point loads dent standard foam faster.",
                   "Confirm the subfloor is reasonably level. Interlocking tiles conform to an uneven floor rather than correcting it.",
                   "Look for low-VOC or certified products where listed. Budget EVA foam can smell strongly when new, so air the room out for a few days before using it.",
-                  "If you're renting, this is one of the few flooring types that needs no adhesive at all — tiles lift up cleanly and travel with you when you move.",
+                  "If you're renting, this is one of the few flooring types that needs no adhesive at all: tiles lift up cleanly and travel with you when you move.",
                 ].map((tip, i) => (
                   <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                     <span className="font-semibold" style={{ color: "#8b4a31" }}>⚠</span>
@@ -211,9 +211,9 @@ export default function BestFlooringForHomePilatesStudioPage() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "Can interlocking foam tiles handle a reformer or other Pilates equipment?", a: "Standard EVA foam tiles, like the ProsourceFit, Haulcove, bemaxx and Nazhura sets, aren't built for concentrated point loads and can dent under a reformer's feet or wheels over time. If equipment will live in the room, the AIRHOP rubber-top tiles are the better choice — the rubber surface resists compression far better than foam alone. For rooms used for mat, floor and prop work only, any of the pure-foam options are fine." },
-                  { q: "How much flooring do I actually need?", a: "It depends entirely on the room. An 18-piece starter pack like the Haulcove set is enough for a single practice corner, a 12-pack such as the Nazhura set covers roughly 48 square feet — a mid-size room — and the ProsourceFit set's 144 square feet is built for covering a full room in one purchase. Measure your space in square feet first and add a little extra for trimming at the walls." },
-                  { q: "Do budget and premium interlocking tiles actually differ?", a: "Among pure EVA foam tiles, the main differences are pack size and finish quality rather than dramatic performance gaps — the Haulcove and bemaxx sets are both genuinely budget options at a similar price point, while the ProsourceFit set costs more mainly because it covers far more square footage in one purchase, not because the tile itself is a different category of product. The real step up in durability comes from switching to a rubber-top tile like AIRHOP, which is built to handle heavier use than any of the foam-only options." },
+                  { q: "Can interlocking foam tiles handle a reformer or other Pilates equipment?", a: "Standard EVA foam tiles, like the ProsourceFit, Haulcove, bemaxx and Nazhura sets, aren't built for concentrated point loads and can dent under a reformer's feet or wheels over time. If equipment will live in the room, the AIRHOP rubber-top tiles are the better choice: the rubber surface resists compression far better than foam alone. For rooms used for mat, floor and prop work only, any of the pure-foam options are fine." },
+                  { q: "How much flooring do I actually need?", a: "It depends entirely on the room. An 18-piece starter pack like the Haulcove set is enough for a single practice corner, a 12-pack such as the Nazhura set covers roughly 48 square feet, a mid-size room, and the ProsourceFit set's 144 square feet is built for covering a full room in one purchase. Measure your space in square feet first and add a little extra for trimming at the walls." },
+                  { q: "Do budget and premium interlocking tiles actually differ?", a: "Among pure EVA foam tiles, the main differences are pack size and finish quality rather than dramatic performance gaps: the Haulcove and bemaxx sets are both genuinely budget options at a similar price point, while the ProsourceFit set costs more mainly because it covers far more square footage in one purchase, not because the tile itself is a different category of product. The real step up in durability comes from switching to a rubber-top tile like AIRHOP, which is built to handle heavier use than any of the foam-only options." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
@@ -226,7 +226,7 @@ export default function BestFlooringForHomePilatesStudioPage() {
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="Home Pilates Studio Setup" excerpt="Space, flooring, equipment and lighting — how to plan a home studio that actually gets used." href="/blog/home-pilates-studio-setup" category="Guide" readTime="11 min read" date="June 2026" imageUrl="/pictures/stitch-studio-open-window.png" />
+                <ArticleCard title="Home Pilates Studio Setup" excerpt="Space, flooring, equipment and lighting: how to plan a home studio that actually gets used." href="/blog/home-pilates-studio-setup" category="Guide" readTime="11 min read" date="June 2026" imageUrl="/pictures/stitch-studio-open-window.png" />
                 <ArticleCard title="Best Pilates Reformer for Small Spaces" excerpt="Foldable and compact machines that fit a flat without dominating it." href="/blog/best-pilates-reformer-for-small-spaces" category="Equipment" readTime="10 min read" date="June 2026" imageUrl="/pictures/stitch-reformer-sunlit-minimal.png" />
                 <ArticleCard title="Best Mirrors for a Home Pilates Studio (2026)" excerpt="Home Pilates studio mirrors compared, leaning, frameless wall panels, shatterproof acrylic and rolling gym…" href="/blog/best-mirror-for-home-pilates-studio" category="Guide" readTime="8 min read" imageUrl="/pictures/stitch-luxury-studio-wide.png" />
                 <ArticleCard title="Best Lighting for a Home Pilates Studio (2026)" excerpt="Home Pilates studio lighting ranked, dimmable ceiling fixtures, indirect floor lamps, LED strips and smart bulbs…" href="/blog/best-lighting-for-home-pilates-studio" category="Guide" readTime="8 min read" imageUrl="/pictures/stitch-studio-arched-windows.png" />

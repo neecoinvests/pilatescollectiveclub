@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "Best Luxury Pilates Accessories (2026)",
-    description: "The finest small equipment for serious Pilates practitioners — magic circle, foam roller, blocks, and resistance bands at the premium tier.",
+    description: "The finest small equipment for serious Pilates practitioners: magic circle, foam roller, blocks, and resistance bands at the premium tier.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-luxury-pilates-accessories",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/stitch-props-cork-ring.png", width: 1200, height: 630, alt: "Best Luxury Pilates Accessories 2026" }],
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Best Luxury Pilates Accessories (2026)",
-    description: "The finest small equipment for serious Pilates practitioners — premium magic circle, foam roller, blocks, and bands.",
+    description: "The finest small equipment for serious Pilates practitioners: premium magic circle, foam roller, blocks, and bands.",
     images: ["https://pilatescollectiveclub.com/pictures/stitch-props-cork-ring.png"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/best-luxury-pilates-accessories" },
@@ -102,7 +102,7 @@ const jsonLd = {
     {
       "@type": "Article",
       headline: "Best Luxury Pilates Accessories (2026)",
-      description: "The finest small equipment for serious practitioners — magic circle, foam roller, resistance bands, cork blocks, and more at the premium tier.",
+      description: "The finest small equipment for serious practitioners: magic circle, foam roller, resistance bands, cork blocks, and more at the premium tier.",
       url: "https://pilatescollectiveclub.com/blog/best-luxury-pilates-accessories",
       datePublished: "2026-07-06",
       dateModified: "2026-10-20",
@@ -159,7 +159,7 @@ export default function BestLuxuryPilatesAccessoriesPage() {
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p style={{ fontFamily: "var(--font-sans)", fontSize: "17px", fontWeight: 300, color: "#4a4540", lineHeight: 1.8, marginBottom: "16px" }}>
-              The accessories in a serious Pilates practice are not afterthoughts. A precision magic circle, a clinical-grade foam roller, and professional resistance bands each serve a specific function — and at the premium tier, that function is performed with a consistency and durability that budget equipment cannot match.
+              The accessories in a serious Pilates practice are not afterthoughts. A precision magic circle, a clinical-grade foam roller, and professional resistance bands each serve a specific function, and at the premium tier, that function is performed with a consistency and durability that budget equipment cannot match.
             </p>
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               These are the six accessories we recommend to practitioners who have moved past beginner kit and want equipment that reflects the seriousness of their practice.
@@ -216,8 +216,8 @@ export default function BestLuxuryPilatesAccessoriesPage() {
             <div style={{ marginTop: "64px" }}>
               <h2 style={{ fontFamily: "var(--font-sans)", fontSize: "11px", fontWeight: 500, letterSpacing: "0.2em", textTransform: "uppercase", color: "#9a9490", marginBottom: "28px" }}>Further Reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="Best Luxury Pilates Mat (2026)" excerpt="Manduka PRO, Liforme, Alo Warrior, and more — the premium mats serious practitioners buy once and keep for years." href="/blog/best-luxury-pilates-mat" category="Equipment" readTime="9 min" imageUrl="/pictures/stitch-mat-setup-beige.png" />
-                <ArticleCard title="Best Luxury Pilates Reformer (2026)" excerpt="Gratz, Balanced Body Studio, Peak Pilates MVe — investment-grade reformers for the serious home studio." href="/blog/best-luxury-pilates-reformer" category="Equipment" readTime="10 min" imageUrl="/pictures/stitch-reformer-morning-light.png" />
+                <ArticleCard title="Best Luxury Pilates Mat (2026)" excerpt="Manduka PRO, Liforme, Alo Warrior, and more: the premium mats serious practitioners buy once and keep for years." href="/blog/best-luxury-pilates-mat" category="Equipment" readTime="9 min" imageUrl="/pictures/stitch-mat-setup-beige.png" />
+                <ArticleCard title="Best Luxury Pilates Reformer (2026)" excerpt="Gratz, Balanced Body Studio, Peak Pilates MVe: investment-grade reformers for the serious home studio." href="/blog/best-luxury-pilates-reformer" category="Equipment" readTime="10 min" imageUrl="/pictures/stitch-reformer-morning-light.png" />
                 <ArticleCard title="Best Pilates Reformer Accessories (2026): Must-Have Add-Ons" excerpt="The best Pilates reformer accessories, box sets, jump boards, sticky pads, and headrests reviewed for…" href="/blog/best-pilates-reformer-accessories" category="Reformers" readTime="9 min read" imageUrl="/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg" />
                 <ArticleCard title="Pilates Essentials (2026): Every Must-Have in One List" excerpt="Every Pilates must-have on one page, best, budget and splurge picks, verified in-stock prices, and what the full…" href="/blog/pilates-essentials" category="Guide" readTime="12 min read" imageUrl="/pictures/stitch-pilates-essentials-logbook.png" />
                 <ArticleCard title="Best Pilates Mat (2026): 5 Verified Picks" excerpt="5 verified, in-stock Pilates mats on Amazon, from thickness tiers to alignment lines and eco-friendlier TPE, led…" href="/blog/best-pilates-mat" category="Guide" readTime="8 min read" imageUrl="/pictures/dane-wetton-t1NEMSm1rgI-unsplash.jpg" />

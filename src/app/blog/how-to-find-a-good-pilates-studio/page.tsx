@@ -12,14 +12,14 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "How to Find a Good Pilates Studio (2026): Green & Red Flags",
-  description: "The specific green flags, red flags, and questions that separate excellent Pilates studios from mediocre ones — before you commit to a class pack or membership.",
+  description: "The specific green flags, red flags, and questions that separate excellent Pilates studios from mediocre ones, before you commit to a class pack or membership.",
   keywords: ["how to find a good pilates studio", "best pilates studio near me", "pilates studio green flags", "pilates studio red flags", "pilates studio what to look for", "choosing a pilates studio", "questions to ask pilates studio", "pilates studio review criteria", "how to evaluate pilates studio", "finding pilates studio 2026"],
   openGraph: {
     title: "How to Find a Great Pilates Studio (Before You Commit)",
     description: "The specific questions, red flags, and non-obvious signals that separate excellent Pilates studios from mediocre ones.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/how-to-find-a-good-pilates-studio",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg", width: 1200, height: 630, alt: "How to Find a Great Pilates Studio — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg", width: 1200, height: 630, alt: "How to Find a Great Pilates Studio: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -59,7 +59,7 @@ const jsonLd = {
   {
     "@type": "FAQPage",
     "mainEntity": [
-      { "@type": "Question", "name": "Is a more expensive studio always better?", "acceptedAnswer": { "@type": "Answer", "text": "No — price correlates with location and aesthetic investment, not instruction quality. Some of the best Pilates instruction available is at studios in unfashionable locations with modest fit-outs. The instructors who genuinely know the method are sometimes found in exactly those places, because they are not competing on aesthetic." } },
+      { "@type": "Question", "name": "Is a more expensive studio always better?", "acceptedAnswer": { "@type": "Answer", "text": "No: price correlates with location and aesthetic investment, not instruction quality. Some of the best Pilates instruction available is at studios in unfashionable locations with modest fit-outs. The instructors who genuinely know the method are sometimes found in exactly those places, because they are not competing on aesthetic." } },
       { "@type": "Question", "name": "How do I know if I'm improving at the right studio?", "acceptedAnswer": { "@type": "Answer", "text": "After three months of regular attendance (2–3 times per week), you should be noticeably stronger, your instructor should know your body's specific patterns and be actively working to address them, and you should be progressing through a more challenging repertoire. If you're doing the same exercises at the same difficulty level as you were in your first month and no one has suggested progression, you are not at a studio that is actively teaching you." } },
       { "@type": "Question", "name": "Should I stay local or travel to a better studio?", "acceptedAnswer": { "@type": "Answer", "text": "Proximity matters for consistency. A good studio you attend three times a week produces better results than an excellent studio you attend once because of travel time. Within your practical range, apply the quality criteria above. If there genuinely is no good studio within reasonable distance, a combination of online private sessions with a highly qualified remote instructor and in-person visits to better studios when travelling is a viable approach." } },
       { "@type": "Question", "name": "What's the difference between a boutique studio and a gym Pilates class?", "acceptedAnswer": { "@type": "Answer", "text": "Reformer classes at gyms typically have larger class sizes (16–20+), less specialised instructors who may teach multiple fitness formats, and less individualised attention. The equipment is also often the less expensive tier. For beginners, a gym Pilates class can be a reasonable introduction. For practitioners who want genuine progression and instruction, a dedicated boutique studio with the quality criteria described in this article is the appropriate environment." } }
@@ -69,10 +69,10 @@ const jsonLd = {
 };
 
 const PRODUCTS = [
-  { name: "ToeSox Grip Socks", description: "The first thing to buy before your first studio session. Most studios require grip socks for hygiene and safety on the reformer — arriving prepared signals you're serious.", price: "$16.00", affiliateUrl: "https://www.amazon.com/dp/B00A6YUEEW?tag=pilatescollective-20" },
+  { name: "ToeSox Grip Socks", description: "The first thing to buy before your first studio session. Most studios require grip socks for hygiene and safety on the reformer: arriving prepared signals you're serious.", price: "$16.00", affiliateUrl: "https://www.amazon.com/dp/B00A6YUEEW?tag=pilatescollective-20" },
   { name: "Manduka PRO Pilates Mat", description: "Bringing your own mat to studio sessions is always an option and avoids studio rental fees. A personal mat also means consistent surface quality regardless of which studio you attend.", price: "$144.00", affiliateUrl: "https://www.amazon.com/dp/B0066T7I54?tag=pilatescollective-20" },
   { name: "Under Armour Studio Lite Tote", description: "A dedicated studio bag keeps grip socks, mat, water, and a change of clothes organised. Reducing friction is how consistent studio attendance becomes a lasting habit.", price: "$40.64", affiliateUrl: "https://www.amazon.com/dp/B0D1W4RK7S?tag=pilatescollective-20" },
-  { name: "TheraBand Resistance Bands Set", description: "For the home sessions between studio visits. Consistency matters more than frequency — resistance bands allow meaningful practice on the days when studio attendance isn't possible.", price: "$11.99", affiliateUrl: "https://www.amazon.com/dp/B01A58FHQ8?tag=pilatescollective-20" },
+  { name: "TheraBand Resistance Bands Set", description: "For the home sessions between studio visits. Consistency matters more than frequency: resistance bands allow meaningful practice on the days when studio attendance isn't possible.", price: "$11.99", affiliateUrl: "https://www.amazon.com/dp/B01A58FHQ8?tag=pilatescollective-20" },
   { name: "Balanced Body Magic Circle", description: "The piece of equipment most instructors recommend buying first. Having a magic circle at home allows reinforcement of class exercises without needing the full studio setup.", price: "$35.00", affiliateUrl: "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20" },
 ];
 
@@ -101,7 +101,7 @@ export default function HowToFindStudioPage() {
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              The boutique Pilates market has expanded enormously. In any city of meaningful size, you now have options — and options vary wildly. The difference between an excellent Pilates studio and a mediocre one is not visible in the Instagram grid, the marble reception desk, or the pricing. It lives in the instructors&apos; training depth, the class sizes, the quality of the corrections, and a handful of non-obvious operational signals that experienced practitioners know to look for. This guide gives you those signals before you spend £200 on a class pack.
+              The boutique Pilates market has expanded enormously. In any city of meaningful size, you now have options, and options vary wildly. The difference between an excellent Pilates studio and a mediocre one is not visible in the Instagram grid, the marble reception desk, or the pricing. It lives in the instructors&apos; training depth, the class sizes, the quality of the corrections, and a handful of non-obvious operational signals that experienced practitioners know to look for. This guide gives you those signals before you spend £200 on a class pack.
             </p>
           </div>
         </section>
@@ -109,7 +109,7 @@ export default function HowToFindStudioPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg" alt="Inside a quality Pilates studio — what separates excellent reformer instruction from mediocre classes" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg" alt="Inside a quality Pilates studio: what separates excellent reformer instruction from mediocre classes" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>
         </section>
@@ -123,7 +123,7 @@ export default function HowToFindStudioPage() {
             <div className="mb-14 mt-4">
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What the best studios have in common</h2>
               <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Across every city, the studios that consistently produce practitioners who improve share the same underlying characteristics. They have instructors with deep training and genuine investment in ongoing education. They keep class sizes small enough for meaningful individual attention. They have a clear methodology — not a vague brand aesthetic. And they have instructors who give specific corrections, not generic encouragement.
+                Across every city, the studios that consistently produce practitioners who improve share the same underlying characteristics. They have instructors with deep training and genuine investment in ongoing education. They keep class sizes small enough for meaningful individual attention. They have a clear methodology, not a vague brand aesthetic. And they have instructors who give specific corrections, not generic encouragement.
               </p>
               <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                 The challenge is that these characteristics are not visible from outside. A studio&apos;s website, its space design, and its social media presence tell you almost nothing about the quality of instruction. You need to attend and know what to observe.
@@ -136,23 +136,23 @@ export default function HowToFindStudioPage() {
                 {[
                   {
                     title: "Instructors give specific, individual corrections",
-                    body: "In a great class, the instructor will tell you specifically what they observe about your body — 'your left hip is dropping in bridge', 'your ribs are flaring during the hundred', 'lengthen through the back of your neck, not the front'. Generic statements like 'engage your core' or 'breathe into your ribs' that apply to everyone equally are the sign of an instructor giving canned cues rather than observing your actual movement."
+                    body: "In a great class, the instructor will tell you specifically what they observe about your body: 'your left hip is dropping in bridge', 'your ribs are flaring during the hundred', 'lengthen through the back of your neck, not the front'. Generic statements like 'engage your core' or 'breathe into your ribs' that apply to everyone equally are the sign of an instructor giving canned cues rather than observing your actual movement."
                   },
                   {
                     title: "The instructor moves around the room constantly",
-                    body: "A good group reformer class instructor cannot effectively observe 10–12 practitioners from a fixed position at the front of the room. They should be moving continuously — watching from the side for spinal alignment, from the foot of the reformer for foot position on the footbar, and from above to assess rotation symmetry. An instructor who stands at the front and cues verbally throughout is providing a workout audio track, not instruction."
+                    body: "A good group reformer class instructor cannot effectively observe 10–12 practitioners from a fixed position at the front of the room. They should be moving continuously: watching from the side for spinal alignment, from the foot of the reformer for foot position on the footbar, and from above to assess rotation symmetry. An instructor who stands at the front and cues verbally throughout is providing a workout audio track, not instruction."
                   },
                   {
                     title: "Class sizes are capped at 10 or fewer for reformer",
-                    body: "12 is the absolute maximum for meaningful individual instruction in a reformer class. Studios that run 16 or 20 people are providing group fitness, not Pilates instruction. The revenue incentive to fill machines is significant — the studios that cap at 8–10 are making a deliberate quality decision that costs them money. This is one of the most reliable proxies for instruction quality."
+                    body: "12 is the absolute maximum for meaningful individual instruction in a reformer class. Studios that run 16 or 20 people are providing group fitness, not Pilates instruction. The revenue incentive to fill machines is significant: the studios that cap at 8–10 are making a deliberate quality decision that costs them money. This is one of the most reliable proxies for instruction quality."
                   },
                   {
                     title: "The studio has beginner-specific classes",
-                    body: "A studio that puts beginners directly into general intermediate classes is not interested in teaching you correctly — it's interested in filling slots. Excellent studios have an introductory series that covers the fundamental movement principles before you join general classes. This protects you from learning incorrect patterns from day one and protects the more advanced practitioners in general classes from being slowed down by beginners who haven't been taught the basics."
+                    body: "A studio that puts beginners directly into general intermediate classes is not interested in teaching you correctly: it's interested in filling slots. Excellent studios have an introductory series that covers the fundamental movement principles before you join general classes. This protects you from learning incorrect patterns from day one and protects the more advanced practitioners in general classes from being slowed down by beginners who haven't been taught the basics."
                   },
                   {
                     title: "Instructors can name their training and lineage",
-                    body: "Ask any instructor: 'Where did you train and who certified you?' A confident, specific answer — 'I'm STOTT certified, I trained with X at Y studio, and I've completed additional workshops in Z' — indicates someone who takes their professional credentials seriously. Vague answers about 'various trainings' or defensiveness at the question are red flags."
+                    body: "Ask any instructor: 'Where did you train and who certified you?' A confident, specific answer ('I'm STOTT certified, I trained with X at Y studio, and I've completed additional workshops in Z') indicates someone who takes their professional credentials seriously. Vague answers about 'various trainings' or defensiveness at the question are red flags."
                   },
                 ].map((item) => (
                   <div key={item.title} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
@@ -189,7 +189,7 @@ export default function HowToFindStudioPage() {
                   "What certification do your instructors hold, and how many hours of training does it require? (Reputable programmes require 450–600+ hours. Weekend courses producing 'certified instructors' are not equivalent.)",
                   "What is the maximum class size for reformer sessions?",
                   "Do you offer introductory or fundamentals classes for new clients, or do beginners join general classes?",
-                  "What is your cancellation policy? (Studios with very short cancellation windows — 2 hours or less — are managing revenue at the expense of client experience.)",
+                  "What is your cancellation policy? (Studios with very short cancellation windows, 2 hours or less, are managing revenue at the expense of client experience.)",
                   "Do you offer private or duet sessions? (Studios that have a strong private session component typically have higher-quality instructors who are also teaching one-on-one.)",
                   "Can I observe a class before purchasing? (Good studios should say yes. Reluctance suggests they know what you'd observe.)",
                 ].map((tip, i) => (
@@ -205,7 +205,7 @@ export default function HowToFindStudioPage() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "Is a more expensive studio always better?", a: "No — price correlates with location and aesthetic investment, not instruction quality. Some of the best Pilates instruction available is at studios in unfashionable locations with modest fit-outs. The instructors who genuinely know the method are sometimes found in exactly those places, because they are not competing on aesthetic." },
+                  { q: "Is a more expensive studio always better?", a: "No: price correlates with location and aesthetic investment, not instruction quality. Some of the best Pilates instruction available is at studios in unfashionable locations with modest fit-outs. The instructors who genuinely know the method are sometimes found in exactly those places, because they are not competing on aesthetic." },
                   { q: "How do I know if I'm improving at the right studio?", a: "After three months of regular attendance (2–3 times per week), you should be noticeably stronger, your instructor should know your body's specific patterns and be actively working to address them, and you should be progressing through a more challenging repertoire. If you're doing the same exercises at the same difficulty level as you were in your first month and no one has suggested progression, you are not at a studio that is actively teaching you." },
                   { q: "Should I stay local or travel to a better studio?", a: "Proximity matters for consistency. A good studio you attend three times a week produces better results than an excellent studio you attend once because of travel time. Within your practical range, apply the quality criteria above. If there genuinely is no good studio within reasonable distance, a combination of online private sessions with a highly qualified remote instructor and in-person visits to better studios when travelling is a viable approach." },
                   { q: "What's the difference between a boutique studio and a gym Pilates class?", a: "Reformer classes at gyms typically have larger class sizes (16–20+), less specialised instructors who may teach multiple fitness formats, and less individualised attention. The equipment is also often the less expensive tier. For beginners, a gym Pilates class can be a reasonable introduction. For practitioners who want genuine progression and instruction, a dedicated boutique studio with the quality criteria described in this article is the appropriate environment." },
@@ -234,7 +234,7 @@ export default function HowToFindStudioPage() {
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="How to Choose a Pilates Instructor" excerpt="Credentials, lineage, teaching style — what actually matters when selecting your teacher." href="/blog/how-to-choose-a-pilates-instructor" category="Guide" readTime="7 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg" />
+                <ArticleCard title="How to Choose a Pilates Instructor" excerpt="Credentials, lineage, teaching style: what actually matters when selecting your teacher." href="/blog/how-to-choose-a-pilates-instructor" category="Guide" readTime="7 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg" />
                 <ArticleCard title="Beginner's Guide to Reformer Pilates" excerpt="What to expect from your first reformer class and how to prepare." href="/blog/beginners-guide-to-reformer-pilates" category="Beginners" readTime="8 min read" date="May 2026" imageUrl="/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg" />
                 <ArticleCard title="How Much Does Pilates Cost? (2026 Price Guide)" excerpt="What Pilates actually costs in 2026, class, pack and membership pricing by format and city, the fees nobody…" href="/blog/how-much-does-pilates-cost" category="Guide" readTime="12 min read" imageUrl="/pictures/stitch-reformer-row-studio.png" />
                 <ArticleCard title="Pilates Exercises for Beginners (2026): 15 Moves to Start" excerpt="15 foundational Pilates exercises for beginners, reformer and mat moves explained with modifications, spring…" href="/blog/pilates-exercises-for-beginners" category="Guide" readTime="11 min read" imageUrl="/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" />

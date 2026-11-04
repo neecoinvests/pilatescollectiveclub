@@ -12,19 +12,19 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Smartwatch for Pilates (2026): Compared & Ranked",
-  description: "The best budget smartwatches and fitness trackers for Pilates — heart rate accuracy, thin profile for reformer work, and sleep tracking, all under $45.",
+  description: "The best budget smartwatches and fitness trackers for Pilates: heart rate accuracy, thin profile for reformer work, and sleep tracking, all under $45.",
   keywords: ["best smartwatch for pilates", "pilates fitness tracker 2026", "budget fitness tracker pilates", "affordable smartwatch pilates", "best wearable for pilates", "fitness tracker reformer pilates", "pilates heart rate monitor watch"],
   openGraph: {
     title: "Best Smartwatch for Pilates (2026)",
-    description: "Heart rate accuracy, slim profiles that work on a reformer, and sleep tracking — the best budget wearables for Pilates.",
+    description: "Heart rate accuracy, slim profiles that work on a reformer, and sleep tracking: the best budget wearables for Pilates.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-smartwatch-for-pilates",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg", width: 1200, height: 630, alt: "Best Smartwatch for Pilates — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg", width: 1200, height: 630, alt: "Best Smartwatch for Pilates: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Best Smartwatch for Pilates (2026)",
-    description: "The best budget wearables for Pilates — accuracy, profile, and battery life compared.",
+    description: "The best budget wearables for Pilates: accuracy, profile, and battery life compared.",
     images: ["https://pilatescollectiveclub.com/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/best-smartwatch-for-pilates" },
@@ -58,7 +58,7 @@ const PRODUCTS = [
     price: "$21.99",
     verdict: "Best for Bluetooth calling",
     description:
-      "The STECEi Smart Watch adds Bluetooth calling on top of 110+ sport modes, letting you answer or make calls directly from the wrist — useful if you keep your phone in a locker or bag during class and don't want to miss a call while working through a reformer sequence. At under $20, it undercuts most of the category while still covering the sport-mode range a Pilates practitioner would actually use, from general cardio settings to yoga-adjacent modes. It's a straightforward, no-frills tracker for anyone who wants call functionality without stepping up to a full smartwatch price point.",
+      "The STECEi Smart Watch adds Bluetooth calling on top of 110+ sport modes, letting you answer or make calls directly from the wrist: useful if you keep your phone in a locker or bag during class and don't want to miss a call while working through a reformer sequence. At under $20, it undercuts most of the category while still covering the sport-mode range a Pilates practitioner would actually use, from general cardio settings to yoga-adjacent modes. It's a straightforward, no-frills tracker for anyone who wants call functionality without stepping up to a full smartwatch price point.",
     affiliateUrl: "https://www.amazon.com/dp/B0HCNY8Y79?tag=pilatescollective-20",
     tag: "Best Bluetooth Calling",
   },
@@ -90,7 +90,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Best Smartwatch for Pilates (2026): Compared & Ranked",
-      "description": "Heart rate accuracy, HRV, and recovery metrics — the best wearables for Pilates practitioners.",
+      "description": "Heart rate accuracy, HRV, and recovery metrics: the best wearables for Pilates practitioners.",
       "url": "https://pilatescollectiveclub.com/blog/best-smartwatch-for-pilates",
       "datePublished": "2026-06-28",
       "dateModified": "2026-10-20",
@@ -155,7 +155,7 @@ export default function BestSmartwatchForPilatesPage() {
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Most smartwatch reviews focus on premium devices built for running or HIIT — movement patterns that are straightforward to measure and features most Pilates practitioners never touch. Pilates is a controlled, low-to-moderate intensity practice, and what most people actually need from a wearable is heart rate tracking, sleep data, and a slim profile that stays out of the way on a reformer — not a $600 multisport GPS watch. These five budget trackers have been evaluated for exactly that: profile, heart rate accuracy during deliberate low-range movement, and whether they stay comfortable through reformer straps and mat work, all for under $45.
+              Most smartwatch reviews focus on premium devices built for running or HIIT: movement patterns that are straightforward to measure and features most Pilates practitioners never touch. Pilates is a controlled, low-to-moderate intensity practice, and what most people actually need from a wearable is heart rate tracking, sleep data, and a slim profile that stays out of the way on a reformer, not a $600 multisport GPS watch. These five budget trackers have been evaluated for exactly that: profile, heart rate accuracy during deliberate low-range movement, and whether they stay comfortable through reformer straps and mat work, all for under $45.
             </p>
           </div>
         </section>
@@ -163,7 +163,7 @@ export default function BestSmartwatchForPilatesPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg" alt="Best smartwatch for Pilates — wearables for studio practice" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg" alt="Best smartwatch for Pilates: wearables for studio practice" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>
         </section>
@@ -191,7 +191,7 @@ export default function BestSmartwatchForPilatesPage() {
             <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.3)" }}>
               <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What to look for in a budget Pilates wearable</h2>
               <div className="space-y-4 text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                <p><strong>Profile and band comfort.</strong> Reformer work involves wrist-to-strap and wrist-to-carriage proximity. A slim case and a soft, adjustable band matter more at this price point than screen size or resolution — all five picks above use low-profile cases designed to sit comfortably under straps.</p>
+                <p><strong>Profile and band comfort.</strong> Reformer work involves wrist-to-strap and wrist-to-carriage proximity. A slim case and a soft, adjustable band matter more at this price point than screen size or resolution: all five picks above use low-profile cases designed to sit comfortably under straps.</p>
                 <p><strong>Heart rate accuracy at low intensity.</strong> Budget optical sensors can struggle during the deliberate, controlled movement of Pilates compared to high-intensity cardio. Continuous 24/7 monitoring, like the Bakoor and MorePro trackers offer, gives a more complete picture than a tracker that only samples heart rate periodically.</p>
                 <p><strong>Battery life and charging.</strong> Most budget trackers in this category run 5–10 days per charge with typical use. Daily charging is a friction point that disrupts sleep tracking, so check the listing for the specific battery figures before buying if that matters to your routine.</p>
                 <p><strong>Sport mode count and relevance.</strong> A higher sport-mode count (TRAUSI and STECEi both exceed 100) isn&apos;t essential, but having a general cardio or yoga-adjacent mode makes session data easier to review afterward than lumping every workout into one generic activity type.</p>

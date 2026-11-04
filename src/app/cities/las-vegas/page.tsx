@@ -12,7 +12,7 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Studios in Las Vegas, NV (2026)",
-  description: "The best Pilates studios in Las Vegas — top-rated independents, Henderson reformer studios and Club Pilates across the valley. Six verified picks, 2026.",
+  description: "The best Pilates studios in Las Vegas: top-rated independents, Henderson reformer studios and Club Pilates across the valley. Six verified picks, 2026.",
   robots: {
     index: true,
     follow: true,
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Best Pilates Studios in Las Vegas, NV (2026)",
     description:
-      "Six curated Pilates studios in Las Vegas — independents and Henderson reformer studios. Verified 2026.",
+      "Six curated Pilates studios in Las Vegas: independents and Henderson reformer studios. Verified 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/las-vegas",
     images: [
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Best Pilates Studios in Las Vegas (2026)",
     description:
-      "The 6 best Pilates studios in Las Vegas — curated, verified, and reviewed for 2026.",
+      "The 6 best Pilates studios in Las Vegas: curated, verified, and reviewed for 2026.",
     images: [
       "https://images.unsplash.com/photo-1605833556294-ea5c7a74f57d?w=1200&h=630&fit=crop",
     ],
@@ -55,12 +55,12 @@ const STUDIOS = [
     name: "Solidity Studio",
     neighborhood: "Henderson (St Rose Parkway)",
     priceLevel: "$$$",
-    review: "Solidity Studio tops ClassPass's Las Vegas reformer ranking with a 4.97 rating. Its teaching philosophy is about what the reformer builds over time — structural strength, movement confidence and a practice whose benefits compound session after session.",
+    review: "Solidity Studio tops ClassPass's Las Vegas reformer ranking with a 4.97 rating. Its teaching philosophy is about what the reformer builds over time: structural strength, movement confidence and a practice whose benefits compound session after session.",
     caveat: "it is in Henderson, about 20 minutes south of the Strip.",
     address: "3455 St Rose Pkwy, Suite 110, Henderson, NV",
     bestFor: "Progressive, technique-focused reformer",
     signatureClass: "Reformer Pilates",
-    bookingTip: "The top-rated studio in town fills fast — book a few days ahead.",
+    bookingTip: "The top-rated studio in town fills fast: book a few days ahead.",
   },
   {
     number: "2",
@@ -68,7 +68,7 @@ const STUDIOS = [
     neighborhood: "Henderson",
     priceLevel: "$$$",
     review: "ReformYou in Henderson focuses exclusively on reformer Pilates on professional-grade equipment, offering controlled, low-impact resistance training in group classes and private one-to-one sessions.",
-    caveat: "reformer-only — no mat or broader apparatus programme.",
+    caveat: "reformer-only: no mat or broader apparatus programme.",
     address: "650 E Horizon Dr, Suite 8, Henderson, NV 89015",
     bestFor: "Reformer-only group and private sessions in Henderson",
     signatureClass: "Group Reformer",
@@ -80,7 +80,7 @@ const STUDIOS = [
     neighborhood: "East Sahara / Central",
     priceLevel: "$$",
     review: "Pilates Land is a dedicated Pilates studio on East Sahara Avenue, a central location convenient for downtown and the east side of the city.",
-    caveat: "limited published detail about class formats — take a trial class first.",
+    caveat: "limited published detail about class formats: take a trial class first.",
     address: "953 E Sahara Ave, Suite B-8, Las Vegas, NV 89104",
     bestFor: "A central, independent Pilates studio",
     signatureClass: "Reformer Pilates",
@@ -92,11 +92,11 @@ const STUDIOS = [
     neighborhood: "Green Valley / Henderson",
     priceLevel: "$$",
     review: "Club Pilates Green Valley on North Green Valley Parkway serves one of Henderson's established residential corridors with the brand's levelled group reformer system.",
-    caveat: "a franchise format — consistent, but less personalised than an independent studio.",
+    caveat: "a franchise format: consistent, but less personalised than an independent studio.",
     address: "1550 N Green Valley Pkwy, Suite 350, Henderson, NV 89074",
     bestFor: "Green Valley residents wanting structured reformer classes",
     signatureClass: "Reformer Flow",
-    bookingTip: "Memberships cut per-class cost — use the intro offer first.",
+    bookingTip: "Memberships cut per-class cost: use the intro offer first.",
   },
   {
     number: "5",
@@ -104,7 +104,7 @@ const STUDIOS = [
     neighborhood: "Henderson (Eastern Ave)",
     priceLevel: "$$",
     review: "Club Pilates Henderson on South Eastern Avenue brings levelled group reformer classes to southern Henderson, with a wide schedule for professionals and families.",
-    caveat: "a franchise studio — reliable structure, less individual programming.",
+    caveat: "a franchise studio: reliable structure, less individual programming.",
     address: "10525 S Eastern Ave, Ste 140, Henderson, NV 89052",
     bestFor: "South Henderson residents, membership-based training",
     signatureClass: "Reformer Flow",
@@ -116,7 +116,7 @@ const STUDIOS = [
     neighborhood: "Spring Valley / Southwest",
     priceLevel: "$$",
     review: "Club Pilates Spring Valley on South Fort Apache Road serves the densely populated southwest of the valley with levelled group reformer classes, a practical entry point for beginners.",
-    caveat: "a franchise format — consistent, but less personalised than an independent studio.",
+    caveat: "a franchise format: consistent, but less personalised than an independent studio.",
     address: "5060 S Fort Apache Rd, Ste 115, Las Vegas, NV 89148",
     bestFor: "Southwest Las Vegas residents new to the reformer",
     signatureClass: "Reformer Flow",
@@ -126,7 +126,7 @@ const STUDIOS = [
 
 const BOOKING_TIPS = [
   {
-    heading: "Avoid the midday heat — book early morning or evening classes",
+    heading: "Avoid the midday heat: book early morning or evening classes",
     body: "Las Vegas summers regularly exceed 110°F (43°C). Walking to or from your car in the midday heat is genuinely unpleasant. Opt for 6–9 AM or 6–9 PM classes when temperatures are more forgiving. Most studios run fuller schedules at these hours anyway, so you'll have better class selection.",
   },
   {
@@ -139,11 +139,11 @@ const BOOKING_TIPS = [
   },
   {
     heading: "Las Vegas's hospitality workforce means flexible scheduling",
-    body: "Because so many residents work in hospitality and gaming — often on non-standard hours — many studios offer genuine mid-morning and mid-afternoon class options that other cities don't. If your schedule is unconventional, call ahead and ask about off-peak availability.",
+    body: "Because so many residents work in hospitality and gaming, often on non-standard hours, many studios offer genuine mid-morning and mid-afternoon class options that other cities don't. If your schedule is unconventional, call ahead and ask about off-peak availability.",
   },
   {
     heading: "Grip socks and hydration are non-negotiable",
-    body: "Every Las Vegas studio requires grip socks on the reformer — bring your own rather than buying at the studio. More importantly, Las Vegas's dry desert air means you'll dehydrate faster than you expect. Arrive with a full water bottle and drink before, during, and after class.",
+    body: "Every Las Vegas studio requires grip socks on the reformer: bring your own rather than buying at the studio. More importantly, Las Vegas's dry desert air means you'll dehydrate faster than you expect. Arrive with a full water bottle and drink before, during, and after class.",
   },
 ];
 
@@ -161,7 +161,7 @@ const NEIGHBORHOODS = [
   {
     name: "Downtown / Arts District",
     description:
-      "Las Vegas's creative hub, centered on the 18b Arts District near Fremont Street. A world apart from the Strip, this neighborhood draws artists, chefs, and independent business owners. Pilates here reflects the neighborhood's independent, community-first spirit — more affordable, more eclectic, and more socially vibrant than suburban alternatives.",
+      "Las Vegas's creative hub, centered on the 18b Arts District near Fremont Street. A world apart from the Strip, this neighborhood draws artists, chefs, and independent business owners. Pilates here reflects the neighborhood's independent, community-first spirit: more affordable, more eclectic, and more socially vibrant than suburban alternatives.",
   },
   {
     name: "Spring Valley",
@@ -173,40 +173,40 @@ const NEIGHBORHOODS = [
 const GEAR = [
   {
     name: "Pilates Grip Socks",
-    note: "Our pick: toesox Low Rise Full-Toe Grip Socks (2-Pack). Required at every Las Vegas studio. ToeSox and Tavi Noir both perform well on reformer footbars — worth owning before your first class.",
+    note: "Our pick: toesox Low Rise Full-Toe Grip Socks (2-Pack). Required at every Las Vegas studio. ToeSox and Tavi Noir both perform well on reformer footbars: worth owning before your first class.",
     price: "$30.00",
     url: "https://www.amazon.com/dp/B07QHNDHW3?tag=pilatescollective-20",
   },
   {
     name: "Pilates Mat (6mm)",
-    note: "Our pick: Manduka PRO Yoga & Pilates Mat (6mm). For mat classes at The Pilates Room and Henderson Pilates & Wellness — slightly thicker than a yoga mat for joint comfort on hard studio floors.",
+    note: "Our pick: Manduka PRO Yoga & Pilates Mat (6mm). For mat classes at The Pilates Room and Henderson Pilates & Wellness: slightly thicker than a yoga mat for joint comfort on hard studio floors.",
     price: "$144.00",
     url: "https://www.amazon.com/dp/B0066T7I54?tag=pilatescollective-20",
   },
   {
     name: "Magic Circle",
-    note: "Our pick: Balanced Body Ultra-Fit Circle (15-inch). Used in classical mat sequences — a worthwhile investment if you're practicing at The Pilates Room Las Vegas or following a classical program at home.",
+    note: "Our pick: Balanced Body Ultra-Fit Circle (15-inch). Used in classical mat sequences: a worthwhile investment if you're practicing at The Pilates Room Las Vegas or following a classical program at home.",
     price: "$35.00",
     url: "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20",
   },
   {
     name: "Fabric Resistance Bands",
-    note: "Our pick: Arena Strength Fabric Glute Bands (3-Pack). Versatile for warm-ups, hip activation, and home practice between studio sessions — especially useful for supplementing the therapeutic work at Henderson Pilates & Wellness.",
+    note: "Our pick: Arena Strength Fabric Glute Bands (3-Pack). Versatile for warm-ups, hip activation, and home practice between studio sessions, especially useful for supplementing the therapeutic work at Henderson Pilates & Wellness.",
     price: "$29.00",
     url: "https://www.amazon.com/dp/B07VYK14JC?tag=pilatescollective-20",
   },
   {
     name: "High-Density Foam Roller",
-    note: "Our pick: OPTP PRO-Roller Foam Roller (36-inch). Ideal for thoracic mobility and myofascial release — a natural complement to the therapeutic programming at Henderson Pilates & Wellness and Spring Valley Pilates.",
+    note: "Our pick: OPTP PRO-Roller Foam Roller (36-inch). Ideal for thoracic mobility and myofascial release: a natural complement to the therapeutic programming at Henderson Pilates & Wellness and Spring Valley Pilates.",
     price: "$62.99",
     url: "https://www.amazon.com/dp/B002C9EX14?tag=pilatescollective-20",
   },
 ];
 
 const HOME_REFORMERS = [
-  { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work — three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
+  { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work: three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
   { tag: "Mid-Range Pick", name: "AeroPilates Pro XP 557", note: "AeroPilates' top-of-the-range home reformer, a step up for practitioners training several times a week.", price: "$1,329.99", url: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20" },
-  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order — an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
+  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
 ];
 
 const RELATED_CITIES = [
@@ -240,7 +240,7 @@ const FURTHER_READING = [
   {
     title: "How to Choose a Pilates Instructor",
     excerpt:
-      "Certifications, teaching style, and lineage — everything you need to evaluate a new instructor before committing to a package.",
+      "Certifications, teaching style, and lineage: everything you need to evaluate a new instructor before committing to a package.",
     href: "/blog/how-to-choose-a-pilates-instructor",
     category: "Guides",
     readTime: "7 min read",
@@ -251,7 +251,7 @@ const FURTHER_READING = [
   {
     title: "Pilates for Back Pain: What the Research Shows",
     excerpt:
-      "A look at the clinical evidence behind Pilates as a therapeutic intervention for chronic and acute back pain — and what to look for in a studio.",
+      "A look at the clinical evidence behind Pilates as a therapeutic intervention for chronic and acute back pain, and what to look for in a studio.",
     href: "/blog/pilates-for-back-pain",
     category: "Health",
     readTime: "8 min read",
@@ -264,7 +264,7 @@ const FURTHER_READING = [
 const CITY_FAQS = [
   { q: "What are the best Pilates studios in Las Vegas?", a: "Our 6 curated picks are Solidity Studio (Henderson), ReformYou (Henderson), Pilates Land Las Vegas (East Sahara / Central), Club Pilates Green Valley (Green Valley / Henderson), Club Pilates Henderson (Henderson, Eastern Ave) and Club Pilates Spring Valley (Spring Valley / Southwest). Each listing above covers what the studio is best for, its signature class and a booking tip." },
   { q: "Which Las Vegas neighbourhoods are best for Pilates?", a: "This guide covers Summerlin, Henderson, Downtown / Arts District and Spring Valley. Summerlin: Las Vegas's most affluent master-planned community, situated along the western edge of the valley with views toward Red Rock Canyon." },
-  { q: "What should I know about booking Pilates classes in Las Vegas?", a: "Avoid the midday heat — book early morning or evening classes. Las Vegas summers regularly exceed 110°F (43°C)." },
+  { q: "What should I know about booking Pilates classes in Las Vegas?", a: "Avoid the midday heat: book early morning or evening classes. Las Vegas summers regularly exceed 110°F (43°C)." },
   { q: "What should I bring to a Pilates class in Las Vegas?", a: "Grip socks are required at most reformer studios. Our gear list for Las Vegas covers Pilates grip socks, Pilates mat (6mm), magic circle, fabric resistance bands and high-density foam roller." },
 ];
 
@@ -331,7 +331,7 @@ export default function LasVegasPage() {
             </p>
             <p className="text-lg leading-relaxed" style={{ color: "#5c4f47" }}>
               Las Vegas is far more than the Strip. Beyond the casinos and tourist corridors, a serious local
-              wellness culture has taken root across Summerlin, Henderson, and the Arts District — and Pilates
+              wellness culture has taken root across Summerlin, Henderson, and the Arts District, and Pilates
               is at its center. We've moved through the neighborhoods, attended the classes, and identified the
               six studios that genuinely deliver: whether you're a Las Vegas local building a consistent practice,
               a relocating professional scouting your next studio, or a visitor looking for a meaningful movement
@@ -502,7 +502,7 @@ export default function LasVegasPage() {
           </div>
         </section>
 
-        <CTASection title="Find Pilates near you" subtitle="Use our AI Finder to discover studios in any city — coming soon." showSearch searchPlaceholder="Ask: best reformer Pilates in Las Vegas…" />
+        <CTASection title="Find Pilates near you" subtitle="Use our AI Finder to discover studios in any city: coming soon." showSearch searchPlaceholder="Ask: best reformer Pilates in Las Vegas…" />
       </main>
       <Footer />
     </>

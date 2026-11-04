@@ -12,14 +12,14 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Barefoot Shoes for Pilates Practitioners (2026)",
-  description: "Barefoot shoes ranked for Pilates practitioners — wide toe boxes and zero drop that support what reformer footwork trains, plus how to transition safely.",
+  description: "Barefoot shoes ranked for Pilates practitioners: wide toe boxes and zero drop that support what reformer footwork trains, plus how to transition safely.",
   keywords: ["best barefoot shoes for pilates", "barefoot shoes wide toe box", "zero drop shoes pilates", "minimalist shoes for pilates", "cross training barefoot shoes", "budget barefoot shoes", "foot strength pilates", "studio to street shoes", "barefoot training shoes", "barefoot shoes 2026"],
   openGraph: {
     title: "Best Barefoot Shoes for Pilates Practitioners (2026)",
-    description: "Wide toe boxes and zero drop that support what Pilates footwork trains — ranked for studio-to-street wear.",
+    description: "Wide toe boxes and zero drop that support what Pilates footwork trains: ranked for studio-to-street wear.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-barefoot-shoes-for-pilates",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/stitch-grip-socks-footbar.png", width: 1200, height: 630, alt: "Best Barefoot Shoes for Pilates — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/stitch-grip-socks-footbar.png", width: 1200, height: 630, alt: "Best Barefoot Shoes for Pilates: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -90,7 +90,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Best Barefoot Shoes for Pilates Practitioners (2026)",
-      "description": "Barefoot and minimalist shoes compared for Pilates practitioners — toe box width, sole thickness, zero drop and studio-to-street practicality.",
+      "description": "Barefoot and minimalist shoes compared for Pilates practitioners: toe box width, sole thickness, zero drop and studio-to-street practicality.",
       "url": "https://pilatescollectiveclub.com/blog/best-barefoot-shoes-for-pilates",
       "datePublished": "2026-09-10",
       "dateModified": "2026-10-20",
@@ -125,10 +125,10 @@ const jsonLd = {
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "Do you wear barefoot shoes during Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "No. Pilates is practised barefoot or in grip socks, and nearly every reformer studio requires grip socks for hygiene and safety on the carriage. Barefoot shoes are not class footwear — they are what you wear to and from the studio, and during the rest of your week. The reason they belong in a Pilates conversation is that they stop undoing the foot work class builds: an hour of toe articulation and arch control followed by ten hours in a tapered, cushioned shoe leaves very little behind." } },
-        { "@type": "Question", "name": "Do barefoot shoes actually strengthen your feet?", "acceptedAnswer": { "@type": "Answer", "text": "The mechanism is straightforward — a cushioned, supportive shoe performs some of the work the intrinsic foot muscles would otherwise do, and a minimal shoe hands that work back. In practice, results depend almost entirely on how gradually you transition. Feet that have been supported for decades need months, not weeks, to adapt, and the adaptation happens in tendon and fascia that respond far more slowly than muscle. Rushing it is the single most common cause of the plantar fasciitis and Achilles pain people report from the switch." } },
-        { "@type": "Question", "name": "How do you transition to barefoot shoes safely?", "acceptedAnswer": { "@type": "Answer", "text": "Start with one hour a day of ordinary walking and add roughly an hour a week, keeping your usual shoes for long days and anything high-impact. Expect calf and arch soreness for the first fortnight, which is normal adaptation; sharp heel pain on the first steps in the morning is not, and means you have progressed too quickly. Foot and calf work helps — short foot exercises, toe splay drills and calf raises — and the reformer footwork series is genuinely useful here, since it loads the foot progressively in a controlled range." } },
-        { "@type": "Question", "name": "Are barefoot shoes suitable if you have flat feet or plantar fasciitis?", "acceptedAnswer": { "@type": "Answer", "text": "Take advice before switching. Flat feet are not automatically a contraindication and some people do well, but removing arch support abruptly from a foot that has relied on it for years can provoke exactly the symptoms you are trying to resolve. With active plantar fasciitis, this is not the moment to change footwear at all — settle the symptoms first, then transition slowly. Anyone with diabetes or reduced sensation in the feet should not wear minimal-soled shoes without medical guidance, since ground feel cuts both ways." } },
+        { "@type": "Question", "name": "Do you wear barefoot shoes during Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "No. Pilates is practised barefoot or in grip socks, and nearly every reformer studio requires grip socks for hygiene and safety on the carriage. Barefoot shoes are not class footwear: they are what you wear to and from the studio, and during the rest of your week. The reason they belong in a Pilates conversation is that they stop undoing the foot work class builds: an hour of toe articulation and arch control followed by ten hours in a tapered, cushioned shoe leaves very little behind." } },
+        { "@type": "Question", "name": "Do barefoot shoes actually strengthen your feet?", "acceptedAnswer": { "@type": "Answer", "text": "The mechanism is straightforward: a cushioned, supportive shoe performs some of the work the intrinsic foot muscles would otherwise do, and a minimal shoe hands that work back. In practice, results depend almost entirely on how gradually you transition. Feet that have been supported for decades need months, not weeks, to adapt, and the adaptation happens in tendon and fascia that respond far more slowly than muscle. Rushing it is the single most common cause of the plantar fasciitis and Achilles pain people report from the switch." } },
+        { "@type": "Question", "name": "How do you transition to barefoot shoes safely?", "acceptedAnswer": { "@type": "Answer", "text": "Start with one hour a day of ordinary walking and add roughly an hour a week, keeping your usual shoes for long days and anything high-impact. Expect calf and arch soreness for the first fortnight, which is normal adaptation; sharp heel pain on the first steps in the morning is not, and means you have progressed too quickly. Foot and calf work helps (short foot exercises, toe splay drills and calf raises) and the reformer footwork series is genuinely useful here, since it loads the foot progressively in a controlled range." } },
+        { "@type": "Question", "name": "Are barefoot shoes suitable if you have flat feet or plantar fasciitis?", "acceptedAnswer": { "@type": "Answer", "text": "Take advice before switching. Flat feet are not automatically a contraindication and some people do well, but removing arch support abruptly from a foot that has relied on it for years can provoke exactly the symptoms you are trying to resolve. With active plantar fasciitis, this is not the moment to change footwear at all: settle the symptoms first, then transition slowly. Anyone with diabetes or reduced sensation in the feet should not wear minimal-soled shoes without medical guidance, since ground feel cuts both ways." } },
       ],
     },
   ],
@@ -156,7 +156,7 @@ export default function BestBarefootShoesForPilatesPage() {
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              To be clear at the outset: you do not wear these in class. Pilates is practised barefoot or in grip socks, and every reformer studio will insist on the latter. The reason barefoot shoes belong in this conversation is what happens the other twenty-three hours — an hour of toe articulation and arch control on the footbar leaves very little behind if the foot then spends the day compressed into a tapered, cushioned shoe. These six are ranked on toe box, sole and how gently they let you make the switch.
+              To be clear at the outset: you do not wear these in class. Pilates is practised barefoot or in grip socks, and every reformer studio will insist on the latter. The reason barefoot shoes belong in this conversation is what happens the other twenty-three hours: an hour of toe articulation and arch control on the footbar leaves very little behind if the foot then spends the day compressed into a tapered, cushioned shoe. These six are ranked on toe box, sole and how gently they let you make the switch.
             </p>
           </div>
         </section>
@@ -164,7 +164,7 @@ export default function BestBarefootShoesForPilatesPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/stitch-grip-socks-footbar.png" alt="Feet in grip socks on a reformer footbar — the foot mechanics barefoot shoes are meant to preserve" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/stitch-grip-socks-footbar.png" alt="Feet in grip socks on a reformer footbar: the foot mechanics barefoot shoes are meant to preserve" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>
         </section>
@@ -190,15 +190,15 @@ export default function BestBarefootShoesForPilatesPage() {
             </div>
 
             <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#fff4f1", border: "1px solid rgba(139,74,49,0.15)" }}>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Transition slowly — this is where people get hurt</h2>
+              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Transition slowly: this is where people get hurt</h2>
               <ul className="space-y-3">
                 {[
-                  "Start at one hour a day of ordinary walking and add about an hour a week. Months, not weeks — tendon and fascia adapt far more slowly than muscle.",
-                  "Calf and arch soreness in the first fortnight is normal adaptation. Sharp heel pain on your first steps in the morning is not — back off.",
+                  "Start at one hour a day of ordinary walking and add about an hour a week. Months, not weeks: tendon and fascia adapt far more slowly than muscle.",
+                  "Calf and arch soreness in the first fortnight is normal adaptation. Sharp heel pain on your first steps in the morning is not: back off.",
                   "Keep your usual shoes for long days, running, and anything high-impact until well into the transition.",
                   "Do not switch during an active plantar fasciitis flare. Settle it first, then transition gradually.",
                   "Size up half a size in most barefoot brands, and measure against the brand's own chart rather than assuming your usual size.",
-                  "Anyone with diabetes or reduced sensation in the feet should take medical advice first — thin soles remove protection as well as adding feedback.",
+                  "Anyone with diabetes or reduced sensation in the feet should take medical advice first: thin soles remove protection as well as adding feedback.",
                 ].map((tip, i) => (
                   <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                     <span className="font-semibold" style={{ color: "#8b4a31" }}>⚠</span>
@@ -212,10 +212,10 @@ export default function BestBarefootShoesForPilatesPage() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "Do you wear barefoot shoes during Pilates?", a: "No. Pilates is practised barefoot or in grip socks, and nearly every reformer studio requires grip socks for hygiene and safety on the carriage. Barefoot shoes are not class footwear — they are what you wear to and from the studio, and during the rest of your week. The reason they belong in a Pilates conversation is that they stop undoing the foot work class builds: an hour of toe articulation and arch control followed by ten hours in a tapered, cushioned shoe leaves very little behind." },
-                  { q: "Do barefoot shoes actually strengthen your feet?", a: "The mechanism is straightforward — a cushioned, supportive shoe performs some of the work the intrinsic foot muscles would otherwise do, and a minimal shoe hands that work back. In practice, results depend almost entirely on how gradually you transition. Feet that have been supported for decades need months, not weeks, to adapt, and the adaptation happens in tendon and fascia that respond far more slowly than muscle. Rushing it is the single most common cause of the plantar fasciitis and Achilles pain people report from the switch." },
-                  { q: "How do you transition to barefoot shoes safely?", a: "Start with one hour a day of ordinary walking and add roughly an hour a week, keeping your usual shoes for long days and anything high-impact. Expect calf and arch soreness for the first fortnight, which is normal adaptation; sharp heel pain on the first steps in the morning is not, and means you have progressed too quickly. Foot and calf work helps — short foot exercises, toe splay drills and calf raises — and the reformer footwork series is genuinely useful here, since it loads the foot progressively in a controlled range." },
-                  { q: "Are barefoot shoes suitable if you have flat feet or plantar fasciitis?", a: "Take advice before switching. Flat feet are not automatically a contraindication and some people do well, but removing arch support abruptly from a foot that has relied on it for years can provoke exactly the symptoms you are trying to resolve. With active plantar fasciitis, this is not the moment to change footwear at all — settle the symptoms first, then transition slowly. Anyone with diabetes or reduced sensation in the feet should not wear minimal-soled shoes without medical guidance, since ground feel cuts both ways." },
+                  { q: "Do you wear barefoot shoes during Pilates?", a: "No. Pilates is practised barefoot or in grip socks, and nearly every reformer studio requires grip socks for hygiene and safety on the carriage. Barefoot shoes are not class footwear: they are what you wear to and from the studio, and during the rest of your week. The reason they belong in a Pilates conversation is that they stop undoing the foot work class builds: an hour of toe articulation and arch control followed by ten hours in a tapered, cushioned shoe leaves very little behind." },
+                  { q: "Do barefoot shoes actually strengthen your feet?", a: "The mechanism is straightforward: a cushioned, supportive shoe performs some of the work the intrinsic foot muscles would otherwise do, and a minimal shoe hands that work back. In practice, results depend almost entirely on how gradually you transition. Feet that have been supported for decades need months, not weeks, to adapt, and the adaptation happens in tendon and fascia that respond far more slowly than muscle. Rushing it is the single most common cause of the plantar fasciitis and Achilles pain people report from the switch." },
+                  { q: "How do you transition to barefoot shoes safely?", a: "Start with one hour a day of ordinary walking and add roughly an hour a week, keeping your usual shoes for long days and anything high-impact. Expect calf and arch soreness for the first fortnight, which is normal adaptation; sharp heel pain on the first steps in the morning is not, and means you have progressed too quickly. Foot and calf work helps (short foot exercises, toe splay drills and calf raises) and the reformer footwork series is genuinely useful here, since it loads the foot progressively in a controlled range." },
+                  { q: "Are barefoot shoes suitable if you have flat feet or plantar fasciitis?", a: "Take advice before switching. Flat feet are not automatically a contraindication and some people do well, but removing arch support abruptly from a foot that has relied on it for years can provoke exactly the symptoms you are trying to resolve. With active plantar fasciitis, this is not the moment to change footwear at all: settle the symptoms first, then transition slowly. Anyone with diabetes or reduced sensation in the feet should not wear minimal-soled shoes without medical guidance, since ground feel cuts both ways." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
@@ -228,7 +228,7 @@ export default function BestBarefootShoesForPilatesPage() {
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="Best Pilates Grip Socks (2026)" excerpt="The socks studios actually require — grip patterns, toe styles and fit compared." href="/blog/best-pilates-grip-socks" category="Equipment" readTime="7 min read" date="June 2026" imageUrl="/pictures/stitch-grip-socks-footbar.png" />
+                <ArticleCard title="Best Pilates Grip Socks (2026)" excerpt="The socks studios actually require: grip patterns, toe styles and fit compared." href="/blog/best-pilates-grip-socks" category="Equipment" readTime="7 min read" date="June 2026" imageUrl="/pictures/stitch-grip-socks-footbar.png" />
                 <ArticleCard title="What to Wear to Pilates" excerpt="What works on a reformer, what rides up, and what studios ask you to bring." href="/blog/what-to-wear-to-pilates" category="Guide" readTime="8 min read" date="June 2026" imageUrl="/pictures/stitch-retail-activewear.png" />
                 <ArticleCard title="Best Pilates Leggings (2026): 5 Picks for Reformer & Mat" excerpt="The 5 best Pilates leggings on Amazon, from $26 to $134: Lululemon Align, Beyond Yoga, Sweaty Betty, Varley and…" href="/blog/best-pilates-leggings" category="Activewear" readTime="9 min read" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Tops (2026): Tanks, Bra Tops & Long-Sleeves" excerpt="The best tops for Pilates class, fitted tanks, bra tops, and long-sleeve options reviewed for reformer coverage…" href="/blog/best-pilates-workout-tops" category="Activewear" readTime="8 min read" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />

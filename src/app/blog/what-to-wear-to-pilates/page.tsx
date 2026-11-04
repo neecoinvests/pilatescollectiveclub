@@ -13,18 +13,18 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "What to Wear to Pilates (2026): Complete Studio Outfit Guide",
-  description: "What to wear to Pilates class — the best leggings, tops, bras, and socks for reformer and mat studios, with outfit tips for beginners and regulars.",
+  description: "What to wear to Pilates class: the best leggings, tops, bras, and socks for reformer and mat studios, with outfit tips for beginners and regulars.",
   openGraph: {
     title: "What to Wear to Pilates (2026): The Complete Outfit Guide",
-    description: "Exactly what to wear to Pilates — for reformer, mat, and barre classes. The best leggings, tops, and layers reviewed, with what to avoid and why fit matters more than brand.",
+    description: "Exactly what to wear to Pilates, for reformer, mat, and barre classes. The best leggings, tops, and layers reviewed, with what to avoid and why fit matters more than brand.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/what-to-wear-to-pilates",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg", width: 1200, height: 630, alt: "What to wear to Pilates — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg", width: 1200, height: 630, alt: "What to wear to Pilates: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "What to Wear to Pilates (2026): The Complete Outfit Guide",
-    description: "Exactly what to wear to Pilates — the best leggings, tops, and layers reviewed.",
+    description: "Exactly what to wear to Pilates: the best leggings, tops, and layers reviewed.",
     images: ["https://pilatescollectiveclub.com/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg"],
   },
   keywords: ["what to wear to pilates", "pilates outfit guide 2026", "what to wear reformer pilates", "pilates class outfit women", "best pilates outfit", "pilates outfit beginner", "pilates studio dress code", "pilates clothes guide", "what do you wear to pilates class"],
@@ -61,7 +61,7 @@ const PRODUCTS = [
     price: "From $22",
     tag: "Best Warm-Up Layer",
     description:
-      "A studio-appropriate warm-up layer is essential for Pilates — you want to keep your core warm during setup and rest periods, and remove it for the active work. This cropped terry sweatshirt hits the right length (doesn't bunch when lying down), is lightweight enough to pack into a bag without adding bulk, and the relaxed fit accommodates full arm movement. One of the best-value warm-up pieces available, and the neutral colourway works over any legging.",
+      "A studio-appropriate warm-up layer is essential for Pilates: you want to keep your core warm during setup and rest periods, and remove it for the active work. This cropped terry sweatshirt hits the right length (doesn't bunch when lying down), is lightweight enough to pack into a bag without adding bulk, and the relaxed fit accommodates full arm movement. One of the best-value warm-up pieces available, and the neutral colourway works over any legging.",
     affiliateUrl: "https://www.amazon.com/s?k=amazon+essentials+studio+terry+cropped+sweatshirt&tag=pilatescollective-20",
     imageUrl: "/pictures/dane-wetton-t1NEMSm1rgI-unsplash.jpg",
   },
@@ -81,7 +81,7 @@ const PRODUCTS = [
     price: "$16.00",
     tag: "Essential Accessory",
     description:
-      "Required at most reformer studios and genuinely useful for mat work — grip socks are as much a part of your Pilates outfit as the leggings. ToeSox individual-toe design allows the foot to function naturally on the footbar, improving the proprioceptive feedback that makes Pilates effective. See our full grip sock guide for alternatives and detailed comparisons.",
+      "Required at most reformer studios and genuinely useful for mat work: grip socks are as much a part of your Pilates outfit as the leggings. ToeSox individual-toe design allows the foot to function naturally on the footbar, improving the proprioceptive feedback that makes Pilates effective. See our full grip sock guide for alternatives and detailed comparisons.",
     affiliateUrl: "https://www.amazon.com/dp/B074HNPQ9Y?tag=pilatescollective-20",
     imageUrl: "/pictures/roxana-popovici-Zp4APUiwEsM-unsplash.jpg",
   },
@@ -89,14 +89,14 @@ const PRODUCTS = [
 
 const DO_DONT = {
   dos: [
-    "Fitted, stretchy leggings — full-length or capri",
+    "Fitted, stretchy leggings: full-length or capri",
     "A close-fitting top that won't fall over your face during roll-overs",
     "Grip socks (required at most studios)",
     "A light warm-up layer you can remove easily",
     "Hair tied back or off the neck for mat work",
   ],
   donts: [
-    "Baggy shorts or trousers — the instructor needs to see your alignment",
+    "Baggy shorts or trousers: the instructor needs to see your alignment",
     "Jeans, denim, or anything with hardware that damages equipment",
     "Slippery socks or bare feet on a studio reformer",
     "Strong perfume or fragrance in a shared studio space",
@@ -111,7 +111,7 @@ const jsonLd = {
       "@type": "Article",
       "@id": "https://pilatescollectiveclub.com/blog/what-to-wear-to-pilates/#article",
       "headline": "What to Wear to Pilates (2026): The Complete Outfit Guide",
-      "description": "Exactly what to wear to Pilates — for reformer, mat, and barre classes. The best leggings, tops, and layers reviewed.",
+      "description": "Exactly what to wear to Pilates, for reformer, mat, and barre classes. The best leggings, tops, and layers reviewed.",
       "image": {
         "@type": "ImageObject",
         "url": "https://pilatescollectiveclub.com/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg",
@@ -203,7 +203,7 @@ export default function WhatToWearToPilatesPage() {
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              What you wear to Pilates matters more than it does in most fitness contexts. Instructors need to see your body alignment — how your spine curves, where your shoulders are, whether your pelvis is neutral — to give you accurate corrections. Loose or baggy clothing obscures this and makes good instruction harder. Here&apos;s exactly what to wear, what to avoid, and the specific pieces that work best across reformer, mat, and barre classes.
+              What you wear to Pilates matters more than it does in most fitness contexts. Instructors need to see your body alignment (how your spine curves, where your shoulders are, whether your pelvis is neutral) to give you accurate corrections. Loose or baggy clothing obscures this and makes good instruction harder. Here&apos;s exactly what to wear, what to avoid, and the specific pieces that work best across reformer, mat, and barre classes.
             </p>
           </div>
         </section>
@@ -256,15 +256,15 @@ export default function WhatToWearToPilatesPage() {
                 {[
                   {
                     type: "Reformer Pilates",
-                    guidance: "Full-length or capri leggings are ideal — the footbar and straps can catch on loose fabric. A fitted tank or T-shirt. Grip socks are required. If the studio is cold between exercises, a lightweight cropped sweatshirt you can remove easily.",
+                    guidance: "Full-length or capri leggings are ideal: the footbar and straps can catch on loose fabric. A fitted tank or T-shirt. Grip socks are required. If the studio is cold between exercises, a lightweight cropped sweatshirt you can remove easily.",
                   },
                   {
                     type: "Mat Pilates",
-                    guidance: "Same as reformer but slightly more flexibility is acceptable — you're on a mat rather than a machine. Still avoid baggy shorts. Grip socks are recommended for hardwood studio floors and required at most mat studios.",
+                    guidance: "Same as reformer but slightly more flexibility is acceptable: you're on a mat rather than a machine. Still avoid baggy shorts. Grip socks are recommended for hardwood studio floors and required at most mat studios.",
                   },
                   {
                     type: "Clinical or Rehabilitation Pilates",
-                    guidance: "Comfortable, fitted clothing that your physiotherapist or teacher can see through easily. Avoid anything that compresses the spine or restricts breathing — this type of session focuses heavily on breath and internal body awareness.",
+                    guidance: "Comfortable, fitted clothing that your physiotherapist or teacher can see through easily. Avoid anything that compresses the spine or restricts breathing: this type of session focuses heavily on breath and internal body awareness.",
                   },
                   {
                     type: "Pilates barre or fusion",
@@ -283,7 +283,7 @@ export default function WhatToWearToPilatesPage() {
 
             <div className="mb-16">
               <h2 className="text-3xl font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Our recommended pieces</h2>
-              <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Selected for fit, function, and value — all available on Amazon.</p>
+              <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Selected for fit, function, and value: all available on Amazon.</p>
               <div className="space-y-8">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
@@ -307,7 +307,7 @@ export default function WhatToWearToPilatesPage() {
                 The Pilates community has a strong association with high-end activewear brands, but the function of what you wear matters far more than the label. A well-fitted pair of £30 leggings that stays in place, allows full movement range, and lets your instructor see your alignment is better Pilates kit than a £120 designer pair that gaps at the waist in roll-over.
               </p>
               <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                The one non-negotiable investment is grip socks — cheaper alternatives often have inferior grip patterns that fail quickly, and this is both a quality and safety issue in a studio environment.
+                The one non-negotiable investment is grip socks: cheaper alternatives often have inferior grip patterns that fail quickly, and this is both a quality and safety issue in a studio environment.
               </p>
             </div>
 
@@ -316,7 +316,7 @@ export default function WhatToWearToPilatesPage() {
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="Best Pilates Grip Socks (2026)" excerpt="grip socks ranked — from ToeSox to Tavi Noir and the best budget picks." href="/blog/best-pilates-grip-socks" category="Equipment" readTime="7 min read" date="May 2026" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Grip Socks (2026)" excerpt="grip socks ranked, from ToeSox to Tavi Noir and the best budget picks." href="/blog/best-pilates-grip-socks" category="Equipment" readTime="7 min read" date="May 2026" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
                 <ArticleCard title="Beginner's Guide to Reformer Pilates" excerpt="What to expect from your first reformer class and how to prepare." href="/blog/beginners-guide-to-reformer-pilates" category="Guide" readTime="8 min read" date="May 2026" imageUrl="/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg" />
                 <ArticleCard title="What to Wear to Lagree (2026): 3 Complete Outfits" excerpt="Head-to-toe Lagree outfits at three budgets, what to bring to class, and what not to wear on a Megaformer. Prices…" href="/blog/what-to-wear-to-lagree" category="Lagree" readTime="10 min read" imageUrl="/pictures/stitch-grip-socks-footbar.png" />
                 <ArticleCard title="Best Pilates Leggings (2026): 5 Picks for Reformer & Mat" excerpt="The 5 best Pilates leggings on Amazon, from $26 to $134: Lululemon Align, Beyond Yoga, Sweaty Betty, Varley and…" href="/blog/best-pilates-leggings" category="Activewear" readTime="9 min read" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />

@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "Best Luxury Pilates Gifts (2026)",
-    description: "Investment-grade pilates gifts for the serious practitioner — Theragun, Liforme, Manduka, and more.",
+    description: "Investment-grade pilates gifts for the serious practitioner: Theragun, Liforme, Manduka, and more.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-luxury-pilates-gifts",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/stitch-studio-bench-towels.png", width: 1200, height: 630, alt: "Best Luxury Pilates Gifts 2026" }],
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Best Luxury Pilates Gifts (2026)",
-    description: "The finest pilates gifts money can buy — for practitioners who already have the basics.",
+    description: "The finest pilates gifts money can buy, for practitioners who already have the basics.",
     images: ["https://pilatescollectiveclub.com/pictures/stitch-studio-bench-towels.png"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/best-luxury-pilates-gifts" },
@@ -91,22 +91,22 @@ const PRODUCTS = [
 ];
 
 const CRITERIA = [
-  { heading: "Her level of practice", body: "Luxury gear rewards practitioners who show up regularly. The Theragun Pro or Liforme mat make the most sense for someone training three or more times a week — not occasional practitioners." },
+  { heading: "Her level of practice", body: "Luxury gear rewards practitioners who show up regularly. The Theragun Pro or Liforme mat make the most sense for someone training three or more times a week, not occasional practitioners." },
   { heading: "What she already owns", body: "Check before you gift. If she already has a Manduka PRO, gift the Liforme or the Theragun. If she already lives in one brand of leggings, the Beyond Yoga Spacedye or a Varley layer is a safe next-tier upgrade." },
   { heading: "Category: clothing, recovery, or equipment?", body: "Beyond Yoga and Varley are the clothing picks. Theragun Pro and TriggerPoint GRID are recovery. Liforme and Manduka PRO are equipment. Each category serves a different practice need." },
   { heading: "The durability test", body: "A genuine luxury pilates gift earns its price over years of daily use. Manduka PRO has a lifetime guarantee. The Theragun PRO is built for daily professional use. A Liforme mat lasts years with basic care." },
 ];
 
 const FAQ = [
-  { q: "What is the best luxury pilates gift?", a: "The Theragun PRO ($529.99) is the most impactful luxury pilates gift — professional-grade percussive therapy that serious practitioners use daily for recovery. For a more accessible luxury gift, the Liforme mat ($165) or Beyond Yoga Spacedye leggings ($97) are gifts she'll use every week." },
-  { q: "What luxury pilates gifts are worth the money?", a: "Theragun PRO, Manduka PRO mat (lifetime guarantee), Liforme mat and TriggerPoint GRID 2.0 are all genuinely worth their premium price. The Manduka PRO in particular is among the best-value luxury gifts in pilates — it lasts for years and is guaranteed for life." },
-  { q: "Is the Theragun worth it for pilates practitioners?", a: "Yes — the Theragun Pro reaches muscle tissue that foam rollers and standard massage tools cannot. For practitioners training three or more times a week, it is the single most impactful recovery investment available. Its 16mm amplitude is deeper than most budget massage guns, which is what lets it work into the glutes, hip flexors and upper back." },
-  { q: "What is the most luxurious pilates mat?", a: "The Liforme Original ($165) is generally considered the highest-performing luxury mat — an eco-polyurethane and rubber mat with alignment markers built into the surface. The Manduka PRO ($144) is the professional standard and offers a lifetime guarantee that Liforme does not. Both are excellent; the choice depends on whether she values grip and alignment markers (Liforme) or lifetime durability (Manduka PRO)." },
+  { q: "What is the best luxury pilates gift?", a: "The Theragun PRO ($529.99) is the most impactful luxury pilates gift: professional-grade percussive therapy that serious practitioners use daily for recovery. For a more accessible luxury gift, the Liforme mat ($165) or Beyond Yoga Spacedye leggings ($97) are gifts she'll use every week." },
+  { q: "What luxury pilates gifts are worth the money?", a: "Theragun PRO, Manduka PRO mat (lifetime guarantee), Liforme mat and TriggerPoint GRID 2.0 are all genuinely worth their premium price. The Manduka PRO in particular is among the best-value luxury gifts in pilates: it lasts for years and is guaranteed for life." },
+  { q: "Is the Theragun worth it for pilates practitioners?", a: "Yes: the Theragun Pro reaches muscle tissue that foam rollers and standard massage tools cannot. For practitioners training three or more times a week, it is the single most impactful recovery investment available. Its 16mm amplitude is deeper than most budget massage guns, which is what lets it work into the glutes, hip flexors and upper back." },
+  { q: "What is the most luxurious pilates mat?", a: "The Liforme Original ($165) is generally considered the highest-performing luxury mat: an eco-polyurethane and rubber mat with alignment markers built into the surface. The Manduka PRO ($144) is the professional standard and offers a lifetime guarantee that Liforme does not. Both are excellent; the choice depends on whether she values grip and alignment markers (Liforme) or lifetime durability (Manduka PRO)." },
 ];
 
 const RELATED = [
   { title: "Best Pilates Gifts for Your Girlfriend", excerpt: "Thoughtful picks she'll love and actually use every class.", href: "/blog/best-pilates-gifts-for-girlfriend", category: "Guide", readTime: "9 min", imageUrl: "/pictures/stitch-retail-activewear.png" },
-  { title: "Best Luxury Pilates Leggings", excerpt: "Wolford, Splits59, Varley, lululemon, Alo — the investment-grade leggings.", href: "/blog/best-luxury-pilates-leggings", category: "Clothing", readTime: "10 min", imageUrl: "/pictures/stitch-retail-activewear.png" },
+  { title: "Best Luxury Pilates Leggings", excerpt: "Wolford, Splits59, Varley, lululemon, Alo: the investment-grade leggings.", href: "/blog/best-luxury-pilates-leggings", category: "Clothing", readTime: "10 min", imageUrl: "/pictures/stitch-retail-activewear.png" },
   { title: "Best Luxury Pilates Accessories", excerpt: "Premium tools and accessories for the serious studio practitioner.", href: "/blog/best-luxury-pilates-accessories", category: "Equipment", readTime: "9 min", imageUrl: "/pictures/stitch-studio-shelf-props.png" },
 ];
 
@@ -116,7 +116,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Best Luxury Pilates Gifts (2026)",
-      "description": "The finest luxury pilates gifts for serious practitioners — Theragun, Liforme, Manduka, Beyond Yoga, Varley and investment-grade accessories.",
+      "description": "The finest luxury pilates gifts for serious practitioners: Theragun, Liforme, Manduka, Beyond Yoga, Varley and investment-grade accessories.",
       "url": "https://pilatescollectiveclub.com/blog/best-luxury-pilates-gifts",
       "image": "https://pilatescollectiveclub.com/pictures/stitch-studio-bench-towels.png",
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -169,7 +169,7 @@ export default function Page() {
           <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
           <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
           <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-            For the serious practitioner who has already covered the basics and deserves something genuinely exceptional. These are investment-grade gifts — tools and garments that professional instructors choose for themselves, that earn their price over years of daily use, and that immediately separate themselves from the standard activewear gift basket. Nothing on this list is padding. Each item earns its place by being the best in its category at any price.
+            For the serious practitioner who has already covered the basics and deserves something genuinely exceptional. These are investment-grade gifts: tools and garments that professional instructors choose for themselves, that earn their price over years of daily use, and that immediately separate themselves from the standard activewear gift basket. Nothing on this list is padding. Each item earns its place by being the best in its category at any price.
           </p>
         </div>
       </section>

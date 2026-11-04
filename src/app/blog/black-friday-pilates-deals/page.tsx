@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     description: "Pilates Black Friday 2026 deals to watch: reformers, clothing, grip socks and gifts, with today's Amazon price so you can spot a real discount on November 27.",
     type: "article",
     url: PAGE_URL,
-    images: [{ url: HERO_IMAGE, width: 1200, height: 630, alt: "A bright Pilates studio — Pilates Black Friday deals 2026" }],
+    images: [{ url: HERO_IMAGE, width: 1200, height: 630, alt: "A bright Pilates studio: Pilates Black Friday deals 2026" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -36,19 +36,19 @@ const GUIDE: DealsGuideProps = {
   "h1Accent": "2026: The Watchlist",
   "readTime": "6 min read",
   "heroImage": "/pictures/stitch-luxury-studio-wide.png",
-  "heroAlt": "A bright Pilates studio — Pilates Black Friday deals 2026",
+  "heroAlt": "A bright Pilates studio: Pilates Black Friday deals 2026",
   "intro": "Black Friday is Friday, November 27, 2026, and Cyber Monday follows on November 30. This is our watchlist: the best-value Pilates, Lagree and spin buys on Amazon, each with the price it sells for today. When the sales start, compare against these numbers and you will know instantly whether a 'deal' is real. Pick a category guide below for the full list.",
   "sections": [
     {
       "id": "reformers",
       "title": "Reformers to watch",
-      "intro": "The three home reformers we would buy at each budget — full list in our reformer Black Friday guide.",
+      "intro": "The three home reformers we would buy at each budget: full list in our reformer Black Friday guide.",
       "items": [
         {
           "asin": "B0D31767J1",
           "name": "WINDFOOT Foldable Pilates Reformer (Jump Board)",
           "badge": "Budget spring reformer",
-          "note": "A foldable spring reformer with a jump board — one of the lowest-priced real spring machines we list. A newer brand, so check the warranty.",
+          "note": "A foldable spring reformer with a jump board: one of the lowest-priced real spring machines we list. A newer brand, so check the warranty.",
           "price": "$295.99"
         },
         {
@@ -70,13 +70,13 @@ const GUIDE: DealsGuideProps = {
     {
       "id": "clothing",
       "title": "Clothing and socks to watch",
-      "intro": "The pieces you replace most often — and the ones most likely to drop in price.",
+      "intro": "The pieces you replace most often, and the ones most likely to drop in price.",
       "items": [
         {
           "asin": "B09P1G2952",
           "name": "CRZ YOGA Butterluxe Leggings 25\"",
           "badge": "Best-value leggings",
-          "note": "CRZ YOGA's softest, stretchiest fabric — the closest Amazon equivalent to buttery studio leggings.",
+          "note": "CRZ YOGA's softest, stretchiest fabric: the closest Amazon equivalent to buttery studio leggings.",
           "price": "$32.00"
         },
         {
@@ -98,7 +98,7 @@ const GUIDE: DealsGuideProps = {
     {
       "id": "gifts",
       "title": "Gifts to watch",
-      "intro": "Small, useful and under $50 — see our gifts guide for 13 more.",
+      "intro": "Small, useful and under $50: see our gifts guide for 13 more.",
       "items": [
         {
           "asin": "B086HNGNFZ",
@@ -141,7 +141,7 @@ const GUIDE: DealsGuideProps = {
   "watchFor": [
     {
       "h": "Check the 30-day price, not the strikethrough.",
-      "b": "Amazon's 'List' or 'Was' price can be set by the seller. Compare the Black Friday price with the price we recorded here in October — that is the real saving."
+      "b": "Amazon's 'List' or 'Was' price can be set by the seller. Compare the Black Friday price with the price we recorded here in October: that is the real saving."
     },
     {
       "h": "Check who is selling.",
@@ -153,7 +153,7 @@ const GUIDE: DealsGuideProps = {
     },
     {
       "h": "Check the returns window.",
-      "b": "Amazon usually extends holiday returns on many items bought from November — confirm on the product page before you buy."
+      "b": "Amazon usually extends holiday returns on many items bought from November: confirm on the product page before you buy."
     }
   ],
   "faqs": [
@@ -167,7 +167,7 @@ const GUIDE: DealsGuideProps = {
     },
     {
       "q": "Are the prices on this page Black Friday prices?",
-      "a": "Not yet. They are the current Amazon prices we checked in October. We will update the pages as Black Friday deals go live — use today's price as the baseline."
+      "a": "Not yet. They are the current Amazon prices we checked in October. We will update the pages as Black Friday deals go live: use today's price as the baseline."
     },
     {
       "q": "What Pilates gear is most likely to be discounted?",

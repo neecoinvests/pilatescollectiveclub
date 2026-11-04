@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     description: "Pilates clothing Black Friday 2026: leggings, bras, grip socks and layers from CRZ YOGA, Varley, Sweaty Betty, toesox and TAVI, with prices to beat.",
     type: "article",
     url: PAGE_URL,
-    images: [{ url: HERO_IMAGE, width: 1200, height: 630, alt: "Activewear on a rail — Pilates clothing Black Friday deals" }],
+    images: [{ url: HERO_IMAGE, width: 1200, height: 630, alt: "Activewear on a rail: Pilates clothing Black Friday deals" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -36,8 +36,8 @@ const GUIDE: DealsGuideProps = {
   "h1Accent": "Deals 2026: Leggings, Bras & Socks",
   "readTime": "7 min read",
   "heroImage": "/pictures/stitch-retail-activewear.png",
-  "heroAlt": "Activewear on a rail — Pilates clothing Black Friday deals",
-  "intro": "Activewear is where Black Friday discounts are deepest and most frequent. Here are 16 Pilates pieces we track on Amazon — leggings, bras and tops, grip socks and layers — each with today's price, so you can tell a genuine markdown from a recycled 'was' price.",
+  "heroAlt": "Activewear on a rail: Pilates clothing Black Friday deals",
+  "intro": "Activewear is where Black Friday discounts are deepest and most frequent. Here are 16 Pilates pieces we track on Amazon (leggings, bras and tops, grip socks and layers) each with today's price, so you can tell a genuine markdown from a recycled 'was' price.",
   "sections": [
     {
       "id": "leggings",
@@ -48,7 +48,7 @@ const GUIDE: DealsGuideProps = {
           "asin": "B09P1G2952",
           "name": "CRZ YOGA Butterluxe Leggings 25\"",
           "badge": "Best value",
-          "note": "CRZ YOGA's softest, stretchiest fabric — the closest Amazon equivalent to buttery studio leggings.",
+          "note": "CRZ YOGA's softest, stretchiest fabric: the closest Amazon equivalent to buttery studio leggings.",
           "price": "$32.00"
         },
         {
@@ -126,7 +126,7 @@ const GUIDE: DealsGuideProps = {
     {
       "id": "socks",
       "title": "Grip socks",
-      "intro": "Most studios require them — and they are the easiest thing to stock up on during a sale.",
+      "intro": "Most studios require them, and they are the easiest thing to stock up on during a sale.",
       "items": [
         {
           "asin": "B07QHNDHW3",
@@ -146,14 +146,14 @@ const GUIDE: DealsGuideProps = {
           "asin": "B072F6QR84",
           "name": "Tucketts Toeless Grip Socks",
           "badge": "Best toeless",
-          "note": "Toeless grip socks — for people who dislike socks over their toes.",
+          "note": "Toeless grip socks, for people who dislike socks over their toes.",
           "price": "$18.99"
         },
         {
           "asin": "B0DQ53GSP5",
           "name": "Muezna Pilates Grip Socks (6 Pairs)",
           "badge": "Best multi-pack",
-          "note": "Six pairs of grip socks — a week of classes without laundry.",
+          "note": "Six pairs of grip socks: a week of classes without laundry.",
           "price": "$7.59"
         }
       ]
@@ -183,7 +183,7 @@ const GUIDE: DealsGuideProps = {
   "watchFor": [
     {
       "h": "Check the 30-day price, not the strikethrough.",
-      "b": "Amazon's 'List' or 'Was' price can be set by the seller. Compare the Black Friday price with the price we recorded here in October — that is the real saving."
+      "b": "Amazon's 'List' or 'Was' price can be set by the seller. Compare the Black Friday price with the price we recorded here in October: that is the real saving."
     },
     {
       "h": "Check who is selling.",
@@ -195,13 +195,13 @@ const GUIDE: DealsGuideProps = {
     },
     {
       "h": "Check the returns window.",
-      "b": "Amazon usually extends holiday returns on many items bought from November — confirm on the product page before you buy."
+      "b": "Amazon usually extends holiday returns on many items bought from November: confirm on the product page before you buy."
     }
   ],
   "faqs": [
     {
       "q": "Do leggings go on sale on Black Friday?",
-      "a": "Yes — activewear is one of the most discounted categories. Prices often vary by colour and size, so check the exact variant you want."
+      "a": "Yes: activewear is one of the most discounted categories. Prices often vary by colour and size, so check the exact variant you want."
     },
     {
       "q": "Are lululemon or Alo on sale on Amazon?",

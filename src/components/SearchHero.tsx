@@ -23,7 +23,7 @@ export default function SearchHero() {
     return (
       <div style={{ border: "1px solid #ede9e3", padding: "32px", maxWidth: "600px", margin: "0 auto" }}>
         <p style={{ fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 500, letterSpacing: "0.2em", textTransform: "uppercase", color: "#c5a882", marginBottom: "10px" }}>
-          AI Finder — Coming Soon
+          AI Finder: Coming Soon
         </p>
         <p style={{ fontFamily: "var(--font-serif)", fontSize: "20px", fontWeight: 400, color: "#0a0a0a", marginBottom: "8px" }}>
           &ldquo;{query}&rdquo;

@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     description: "The honest guide to Lagree soreness: why slow work hurts the next day, what the evidence says helps, and the recovery tools worth the money.",
     type: "article",
     url: PAGE_URL,
-    images: [{ url: HERO_IMAGE, width: 1200, height: 630, alt: "Towels on a studio bench — recovering after Lagree" }],
+    images: [{ url: HERO_IMAGE, width: 1200, height: 630, alt: "Towels on a studio bench: recovering after Lagree" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -321,7 +321,7 @@ export default function LagreeRecoveryPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/stitch-studio-bench-towels.png" alt="Folded towels on a studio bench — recovering after Lagree" fill className="object-cover" style={{ filter: "brightness(0.85)" }} priority />
+              <Image src="/pictures/stitch-studio-bench-towels.png" alt="Folded towels on a studio bench: recovering after Lagree" fill className="object-cover" style={{ filter: "brightness(0.85)" }} priority />
             </div>
           </div>
         </section>
@@ -448,7 +448,7 @@ export default function LagreeRecoveryPage() {
 
               <div className="mb-10 overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
                 <div className="px-6 py-4" style={{ backgroundColor: "#f6f3f2" }}>
-                  <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={eyebrowStyle}>At a Glance — Lagree Recovery Gear</p>
+                  <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={eyebrowStyle}>At a Glance: Lagree Recovery Gear</p>
                 </div>
                 {ALL_ITEMS.map((p, i) => (
                   <div key={p.id} className="flex items-center gap-3 sm:gap-4 px-6 py-4" style={{ borderTop: i === 0 ? "none" : "1px solid rgba(217,194,186,0.25)", backgroundColor: "#ffffff" }}>

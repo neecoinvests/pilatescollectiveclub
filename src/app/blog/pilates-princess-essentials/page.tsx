@@ -25,12 +25,12 @@ export const metadata: Metadata = {
     description: "The pilates princess aesthetic, edited for performance: a genuine matching set, grip socks, Bala Bangles, the post-class layer and the dream home reformer.",
     type: "article",
     url: PAGE_URL,
-    images: [{ url: HERO_IMAGE, width: 1200, height: 630, alt: "Pilates princess essentials — matching activewear set and studio accessories" }],
+    images: [{ url: HERO_IMAGE, width: 1200, height: 630, alt: "Pilates princess essentials: matching activewear set and studio accessories" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Pilates Princess Essentials (2026)",
-    description: "The aesthetic edit — pieces that look beautiful and actually perform, with honest budget dupes.",
+    description: "The aesthetic edit: pieces that look beautiful and actually perform, with honest budget dupes.",
     images: [HERO_IMAGE],
   },
   keywords: [
@@ -80,14 +80,14 @@ interface Section {
 const SECTIONS: Section[] = [
   {
     id: "matching-set",
-    eyebrow: "01 — The matching set",
+    eyebrow: "01: The matching set",
     heading: "The matching set: Varley Freesoft in Marina",
     intro:
       "The matching set is the foundation of the look, and it is also where performance matters most. Reformer footwork, bridging and feet-in-straps work put your leggings under tension from every angle, so they need to stay opaque when stretched and sit still at the waist when you roll down. A sports bra has to hold through long spans of lying supine and rolling like a ball without a strap sliding off the shoulder. Buy for those jobs first; the colourway comes second. The good news is that the pieces below do both.",
     items: [
       {
         tier: "Best",
-        tag: "Best — the set",
+        tag: "Best: the set",
         name: "Varley Freesoft Piped Full Leggings (Marina)",
         price: "$98.00",
         description:
@@ -97,7 +97,7 @@ const SECTIONS: Section[] = [
       },
       {
         tier: "Best",
-        tag: "Best — the matching top",
+        tag: "Best: the matching top",
         name: "Varley Freesoft Harley Bralette (Marina)",
         price: "$66.00",
         description:
@@ -107,17 +107,17 @@ const SECTIONS: Section[] = [
       },
       {
         tier: "Splurge",
-        tag: "Splurge — the alternative",
+        tag: "Splurge: the alternative",
         name: "Alo Yoga Airbrush Legging",
         price: "~$128 (aloyoga.com)",
         description:
-          "Not sold on Amazon — this links to aloyoga.com. The Airbrush is one of the most recognisable leggings in boutique studios and the obvious alternative if you prefer Alo's sleek, sculpted finish to Varley's softer look. Price shown is approximate from Alo's own site, so check the current price and colourways there. Our Alo deep-dive covers the rest of the range.",
+          "Not sold on Amazon: this links to aloyoga.com. The Airbrush is one of the most recognisable leggings in boutique studios and the obvious alternative if you prefer Alo's sleek, sculpted finish to Varley's softer look. Price shown is approximate from Alo's own site, so check the current price and colourways there. Our Alo deep-dive covers the rest of the range.",
         url: "https://www.aloyoga.com/",
         brandDirect: true,
       },
       {
         tier: "Budget",
-        tag: "Budget dupe — leggings",
+        tag: "Budget dupe, leggings",
         name: "CRZ YOGA Butterluxe Leggings 25\"",
         price: "$32.00",
         description:
@@ -126,7 +126,7 @@ const SECTIONS: Section[] = [
       },
       {
         tier: "Budget",
-        tag: "Budget dupe — top",
+        tag: "Budget dupe, top",
         name: "CRZ YOGA Butterluxe U Back Sports Bra",
         price: "$28.00",
         description:
@@ -142,7 +142,7 @@ const SECTIONS: Section[] = [
   },
   {
     id: "grip-socks",
-    eyebrow: "02 — Grip socks",
+    eyebrow: "02: Grip socks",
     heading: "Grip socks: the detail every studio notices",
     intro:
       "Most reformer studios require grip socks, which makes them the one accessory you will wear every single class. That also makes them the easiest place to add a little polish. Function first: you want grip that covers the sole so your feet stay put on the footbar and platform. After that, cut and colour are fair game.",
@@ -159,7 +159,7 @@ const SECTIONS: Section[] = [
       },
       {
         tier: "Splurge",
-        tag: "Splurge — the aesthetic pick",
+        tag: "Splurge: the aesthetic pick",
         name: "TAVI Stacy Slouch Pilates Socks, 2-Pack",
         price: "$40.00",
         description:
@@ -180,14 +180,14 @@ const SECTIONS: Section[] = [
   },
   {
     id: "accessories",
-    eyebrow: "03 — The accessories",
+    eyebrow: "03: The accessories",
     heading: "The accessories: bangles, bottle, claw clip, bag",
     intro:
       "This is where the aesthetic really lives, and where it is easiest to overspend on things that do not earn their place. Each pick below has a job: adding load to mat work, keeping you hydrated through a double class, keeping hair off your neck when you roll, and carrying the lot.",
     items: [
       {
         tier: "Best",
-        tag: "Best — wrist & ankle weights",
+        tag: "Best: wrist & ankle weights",
         name: "Bala Bangles Wrist & Ankle Weights, 1 lb (pair)",
         price: "$55.00",
         description:
@@ -197,7 +197,7 @@ const SECTIONS: Section[] = [
       },
       {
         tier: "Splurge",
-        tag: "Step up — 2 lb",
+        tag: "Step up, 2 lb",
         name: "Bala Bangles Wrist & Ankle Weights, 2 lb (pair)",
         price: "$65.00",
         description:
@@ -215,7 +215,7 @@ const SECTIONS: Section[] = [
       },
       {
         tier: "Best",
-        tag: "Best — performance bottle",
+        tag: "Best: performance bottle",
         name: "Owala FreeSip Stainless Steel Water Bottle, 24 oz",
         price: "$29.99",
         description:
@@ -225,7 +225,7 @@ const SECTIONS: Section[] = [
       },
       {
         tier: "Best",
-        tag: "Best — hair",
+        tag: "Best, hair",
         name: "Kitsch 5\" Large Claw Clips (Black & Tort)",
         price: "$9.99",
         description:
@@ -239,13 +239,13 @@ const SECTIONS: Section[] = [
         name: "Lululemon Everywhere Belt Bag",
         price: "~$38 (lululemon.com)",
         description:
-          "Not sold on Amazon — this links to lululemon.com. The Everywhere Belt Bag is a studio-to-coffee staple: phone, keys and card worn crossbody so your main bag can stay in the cubby. Price is approximate from Lululemon's site; colours change seasonally.",
+          "Not sold on Amazon: this links to lululemon.com. The Everywhere Belt Bag is a studio-to-coffee staple: phone, keys and card worn crossbody so your main bag can stay in the cubby. Price is approximate from Lululemon's site; colours change seasonally.",
         url: "https://shop.lululemon.com/",
         brandDirect: true,
       },
       {
         tier: "Best",
-        tag: "Best — the tote",
+        tag: "Best: the tote",
         name: "Sportsnew Tote Yoga Mat Gym Bag 20L",
         price: "$24.35",
         description:
@@ -262,14 +262,14 @@ const SECTIONS: Section[] = [
   },
   {
     id: "post-class",
-    eyebrow: "04 — The post-class layer",
+    eyebrow: "04: The post-class layer",
     heading: "The post-class layer: Varley knit and sweat",
     intro:
       "Half of the aesthetic happens after class: the walk to coffee, the drive home, the errands you run still in your set. A good layer turns activewear into an outfit and keeps you warm once your muscles cool. Both picks are Varley, so they sit naturally over the Marina set.",
     items: [
       {
         tier: "Best",
-        tag: "Best — the light layer",
+        tag: "Best: the light layer",
         name: "Varley Callie Knit Top (Porcelain Blue)",
         price: "$55.00",
         description:
@@ -279,7 +279,7 @@ const SECTIONS: Section[] = [
       },
       {
         tier: "Splurge",
-        tag: "Splurge — the sweat",
+        tag: "Splurge: the sweat",
         name: "Varley Davidson Sweat (Taupe Marl)",
         price: "$138.00",
         description:
@@ -294,14 +294,14 @@ const SECTIONS: Section[] = [
   },
   {
     id: "at-home",
-    eyebrow: "05 — The at-home aesthetic",
+    eyebrow: "05: The at-home aesthetic",
     heading: "The at-home aesthetic: mat, ball and ring",
     intro:
       "Home practice is where the look becomes a habit. A mat you love to unroll gets unrolled more often, and a small ball and ring give you most of the props a mat class uses. Performance note: a yoga mat is usually thinner than a dedicated Pilates mat, so if you have sensitive knees or spine, fold a towel under you for rolling work or read our mat guide first.",
     items: [
       {
         tier: "Splurge",
-        tag: "Splurge — the mat",
+        tag: "Splurge: the mat",
         name: "Liforme Original Yoga Mat (alignment design)",
         price: "$165.00",
         description:
@@ -311,7 +311,7 @@ const SECTIONS: Section[] = [
       },
       {
         tier: "Budget",
-        tag: "Budget — the mat",
+        tag: "Budget: the mat",
         name: "Gaiam Premium Yoga Mat 6mm",
         price: "$39.99",
         description:
@@ -320,7 +320,7 @@ const SECTIONS: Section[] = [
       },
       {
         tier: "Best",
-        tag: "Best — the ball",
+        tag: "Best: the ball",
         name: "Bala Pilates Ball (small, non-weighted)",
         price: "$29.00",
         description:
@@ -330,7 +330,7 @@ const SECTIONS: Section[] = [
       },
       {
         tier: "Best",
-        tag: "Best — the ring",
+        tag: "Best: the ring",
         name: "Balanced Body Ultra-Fit Circle Mini 12\"",
         price: "$30.00",
         description:
@@ -340,7 +340,7 @@ const SECTIONS: Section[] = [
       },
       {
         tier: "Budget",
-        tag: "Budget — the ring",
+        tag: "Budget: the ring",
         name: "Gaiam Pilates Ring Fitness Circle 15\"",
         price: "$19.78",
         description:
@@ -356,7 +356,7 @@ const SECTIONS: Section[] = [
   },
   {
     id: "self-care",
-    eyebrow: "06 — Self-care",
+    eyebrow: "06, Self-care",
     heading: "Self-care: the recovery ritual",
     intro:
       "Recovery is part of the look for a reason: it is part of the practice. A few minutes on tight calves, glutes and upper back after class or a long day at a desk is a pleasant way to finish, and it makes the next session feel better.",
@@ -635,7 +635,7 @@ export default function PilatesPrincessEssentialsPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/stitch-retail-activewear.png" alt="Pilates princess essentials — soft-toned matching activewear sets and studio accessories on a boutique rail" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/stitch-retail-activewear.png" alt="Pilates princess essentials: soft-toned matching activewear sets and studio accessories on a boutique rail" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>
         </section>
@@ -649,7 +649,7 @@ export default function PilatesPrincessEssentialsPage() {
             {/* At a glance */}
             <div className="mb-10 mt-4 overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
               <div className="px-6 py-4" style={{ backgroundColor: "#f6f3f2" }}>
-                <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={eyebrowStyle}>At a Glance — the complete edit</p>
+                <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={eyebrowStyle}>At a Glance: the complete edit</p>
               </div>
               {GLANCE.map((p, i) => (
                 <div key={p.name} className="flex items-center gap-3 sm:gap-4 px-6 py-4" style={{ borderTop: i === 0 ? "none" : "1px solid rgba(217,194,186,0.25)", backgroundColor: "#ffffff" }}>
@@ -723,7 +723,7 @@ export default function PilatesPrincessEssentialsPage() {
 
             {/* The dream */}
             <div id="the-dream" className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={eyebrowStyle}>07 — The dream</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={eyebrowStyle}>07: The dream</p>
               <h2 className="text-3xl font-semibold mb-4" style={h2Style}>The dream: a reformer of your own</h2>
               <p className="text-sm leading-relaxed mb-4" style={bodyStyle}>
                 Every aesthetic has its ultimate piece, and for this one it is a reformer at home: sunlight, a quiet corner, a session whenever you like. It is also the one purchase on this page that can pay for itself. Studio reformer classes in major US cities commonly cost $30–$40 or more each, so if you are going three or four times a week the numbers add up quickly.

@@ -12,19 +12,19 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Bodysuits (2026): 6 Picks for the Reformer",
-  description: "Nine Pilates bodysuits compared on stretch recovery, opacity and coverage through inversions — from buttery-soft picks to the best value option.",
+  description: "Nine Pilates bodysuits compared on stretch recovery, opacity and coverage through inversions, from buttery-soft picks to the best value option.",
   keywords: ["best pilates bodysuits", "pilates bodysuit 2026", "best bodysuit for reformer pilates", "alo yoga bodysuit pilates", "lululemon bodysuit pilates", "pilates activewear bodysuit review", "best workout bodysuit pilates"],
   openGraph: {
     title: "Best Pilates Bodysuits (2026): Compared & Ranked",
-    description: "The best bodysuits for Pilates — compared on reformer performance and studio style.",
+    description: "The best bodysuits for Pilates: compared on reformer performance and studio style.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-bodysuits",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg", width: 1200, height: 630, alt: "Best Pilates Bodysuits — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg", width: 1200, height: 630, alt: "Best Pilates Bodysuits: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Bodysuits (2026)",
-    description: "The best bodysuits for Pilates — compared and ranked.",
+    description: "The best bodysuits for Pilates: compared and ranked.",
     images: ["https://pilatescollectiveclub.com/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/best-pilates-bodysuits" },
@@ -38,7 +38,7 @@ const PRODUCTS = [
     price: "From $118",
     verdict: "Best overall Pilates bodysuit",
     description:
-      "The Airlift Suit is the reference point for premium Pilates bodysuits. Alo's Airlift fabric is uniquely engineered — a medium-weight compression that smooths without restricting breath or spinal flexion, which matters enormously in exercises like the hundred, roll-up, and teaser. The scoop neck sits high enough to stay put during inversions, and the built-in shelf bra provides enough support for a full reformer session without requiring a separate sports bra. The clean, sculptural silhouette has made this a studio staple across New York, London, and Los Angeles. Available in a wide range of neutral and seasonal colourways. Not sold on Amazon: this link goes to Alo Yoga's own site.",
+      "The Airlift Suit is the reference point for premium Pilates bodysuits. Alo's Airlift fabric is uniquely engineered: a medium-weight compression that smooths without restricting breath or spinal flexion, which matters enormously in exercises like the hundred, roll-up, and teaser. The scoop neck sits high enough to stay put during inversions, and the built-in shelf bra provides enough support for a full reformer session without requiring a separate sports bra. The clean, sculptural silhouette has made this a studio staple across New York, London, and Los Angeles. Available in a wide range of neutral and seasonal colourways. Not sold on Amazon: this link goes to Alo Yoga's own site.",
     affiliateUrl: "https://www.aloyoga.com",
     tag: "Editor's Pick",
   },
@@ -48,7 +48,7 @@ const PRODUCTS = [
     price: "From $108",
     verdict: "Best for buttery softness",
     description:
-      "Lululemon's Align fabric translated into a bodysuit form is exactly as good as it sounds. The Nulu material is so lightweight and skin-soft that most practitioners forget they're wearing it — which is ideal for the deep proprioceptive focus that Pilates demands. The high-neck variant offers exceptional coverage for exercises performed in supine and prone positions on the reformer carriage, while the scoop-neck version works better for hot studios. The integrated gusset sits smoothly during all seated and standing exercises. If you already love the Align Legging, this bodysuit is the natural wardrobe companion. Not sold on Amazon: this link goes to Lululemon's own site.",
+      "Lululemon's Align fabric translated into a bodysuit form is exactly as good as it sounds. The Nulu material is so lightweight and skin-soft that most practitioners forget they're wearing it, which is ideal for the deep proprioceptive focus that Pilates demands. The high-neck variant offers exceptional coverage for exercises performed in supine and prone positions on the reformer carriage, while the scoop-neck version works better for hot studios. The integrated gusset sits smoothly during all seated and standing exercises. If you already love the Align Legging, this bodysuit is the natural wardrobe companion. Not sold on Amazon: this link goes to Lululemon's own site.",
     affiliateUrl: "https://shop.lululemon.com",
     tag: "Most Popular",
   },
@@ -58,7 +58,7 @@ const PRODUCTS = [
     price: "From $68",
     verdict: "Best sustainable option",
     description:
-      "Girlfriend Collective's Paloma Bodysuit is the most conscientiously made option on this list — constructed from recycled post-consumer plastic bottles with a buttery LITE fabric that moves well through the full Pilates repertoire. The removable cups provide flexible support, and the adjustable strap configuration lets you wear it as a racerback or straight-across depending on your practice. The compression is lighter than the Alo Airlift, making it preferable for practitioners who find firm compression restrictive during breath-intensive mat work. Inclusive sizing runs from XXS to 6XL.",
+      "Girlfriend Collective's Paloma Bodysuit is the most conscientiously made option on this list: constructed from recycled post-consumer plastic bottles with a buttery LITE fabric that moves well through the full Pilates repertoire. The removable cups provide flexible support, and the adjustable strap configuration lets you wear it as a racerback or straight-across depending on your practice. The compression is lighter than the Alo Airlift, making it preferable for practitioners who find firm compression restrictive during breath-intensive mat work. Inclusive sizing runs from XXS to 6XL.",
     affiliateUrl: "https://www.amazon.com/s?k=girlfriend+collective+paloma+bodysuit&tag=pilatescollective-20",
     tag: "Best Sustainable",
   },
@@ -68,7 +68,7 @@ const PRODUCTS = [
     price: "$158.00",
     verdict: "Best for studio aesthetics",
     description:
-      "Splits59 is the brand most deeply embedded in the studio Pilates world — their bodysuits are designed explicitly for reformer and mat practice, not adapted from gym or running apparel. The Splits59 bodysuit features a high-cut leg for freedom of movement during footwork sequences, a supportive under-bust band that stays in place during spinal articulation, and a minimal aesthetic that reads as polished in a boutique studio environment. The Supplex-blend fabric is mid-weight and compressive without feeling restrictive. A serious option for practitioners who spend multiple sessions per week in the studio.",
+      "Splits59 is the brand most deeply embedded in the studio Pilates world: their bodysuits are designed explicitly for reformer and mat practice, not adapted from gym or running apparel. The Splits59 bodysuit features a high-cut leg for freedom of movement during footwork sequences, a supportive under-bust band that stays in place during spinal articulation, and a minimal aesthetic that reads as polished in a boutique studio environment. The Supplex-blend fabric is mid-weight and compressive without feeling restrictive. A serious option for practitioners who spend multiple sessions per week in the studio.",
     affiliateUrl: "https://www.amazon.com/dp/B0BMF9SM9B?tag=pilatescollective-20",
     tag: "Studio Favourite",
   },
@@ -88,7 +88,7 @@ const PRODUCTS = [
     price: "From $78",
     verdict: "Best breathable bodysuit",
     description:
-      "Vuori's Halo Bodysuit uses a lighter, more breathable fabric than most competitors — making it the preferred choice for practitioners in heated studios or warm climates. The Performance fabric is moisture-wicking and quick-drying, which matters in a 55-minute reformer class. The racerback construction keeps straps completely clear of the shoulder blade area, which is particularly relevant in exercises involving scapular movement and stabilisation. The fit is secure without being compressive, and the minimalist design works across a variety of studio environments. Not sold on Amazon: this link goes to Vuori's own site.",
+      "Vuori's Halo Bodysuit uses a lighter, more breathable fabric than most competitors, making it the preferred choice for practitioners in heated studios or warm climates. The Performance fabric is moisture-wicking and quick-drying, which matters in a 55-minute reformer class. The racerback construction keeps straps completely clear of the shoulder blade area, which is particularly relevant in exercises involving scapular movement and stabilisation. The fit is secure without being compressive, and the minimalist design works across a variety of studio environments. Not sold on Amazon: this link goes to Vuori's own site.",
     affiliateUrl: "https://vuoriclothing.com",
     tag: "Best Breathability",
   },
@@ -100,7 +100,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Best Pilates Bodysuits (2026): Compared & Ranked",
-      "description": "The best bodysuits for Pilates in 2026 — compared on reformer performance, coverage, and studio style.",
+      "description": "The best bodysuits for Pilates in 2026: compared on reformer performance, coverage, and studio style.",
       "url": "https://pilatescollectiveclub.com/blog/best-pilates-bodysuits",
       "datePublished": "2026-05-21",
       "dateModified": "2026-10-20",
@@ -141,7 +141,7 @@ const jsonLd = {
         { "@type": "Question", "name": "Are bodysuits good for Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "Bodysuits are excellent for Pilates. They stay perfectly tucked through all spinal articulation and inversion-adjacent exercises, eliminating the bunching and ride-up common with separate tops. Many boutique studio practitioners have switched exclusively to bodysuits for this reason." } },
         { "@type": "Question", "name": "Do I need to wear a bra under a Pilates bodysuit?", "acceptedAnswer": { "@type": "Answer", "text": "Most performance bodysuits include an integrated shelf bra or removable pads. For low-impact Pilates mat and reformer work, this is typically sufficient for B–D cup sizes. Higher-impact variations or larger cup sizes may benefit from a light wireless bra underneath." } },
         { "@type": "Question", "name": "What should I wear over a Pilates bodysuit?", "acceptedAnswer": { "@type": "Answer", "text": "A bodysuit pairs with leggings, biker shorts, or high-waist shorts. Many practitioners layer a cropped jacket or cardigan for warmth during warm-up and cool-down, then remove it for the main session. The bodysuit silhouette is designed to work as a complete studio outfit on its own." } },
-        { "@type": "Question", "name": "Can I wear a bodysuit for reformer Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — bodysuits are particularly well-suited for reformer Pilates. Unlike separate tops, they cannot come untucked during footwork, long-spine exercises, or transitions between positions. Instructors also appreciate the clean silhouette, which makes it easier to observe spinal alignment and hip position." } },
+        { "@type": "Question", "name": "Can I wear a bodysuit for reformer Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "Yes: bodysuits are particularly well-suited for reformer Pilates. Unlike separate tops, they cannot come untucked during footwork, long-spine exercises, or transitions between positions. Instructors also appreciate the clean silhouette, which makes it easier to observe spinal alignment and hip position." } },
       ],
     },
   ],
@@ -169,7 +169,7 @@ export default function BestPilatesBodysuitsPage() {
             <TopPick name={PRODUCTS[3].name} price={PRODUCTS[3].price} note={QP_NOTES[3]} url={PRODUCTS[3].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              The bodysuit has become the dominant silhouette in boutique Pilates studios — and for practical reasons, not just aesthetic ones. Unlike a separate top, a bodysuit cannot ride up, bunch at the waist, or come untucked during the continuous transitions of a reformer class. Instructors can observe spinal position and hip alignment without fabric interference, and practitioners can move through the full repertoire without interruption. These six bodysuits have been selected for reformer performance, fabric quality, and staying power in serious studios.
+              The bodysuit has become the dominant silhouette in boutique Pilates studios, and for practical reasons, not just aesthetic ones. Unlike a separate top, a bodysuit cannot ride up, bunch at the waist, or come untucked during the continuous transitions of a reformer class. Instructors can observe spinal position and hip alignment without fabric interference, and practitioners can move through the full repertoire without interruption. These six bodysuits have been selected for reformer performance, fabric quality, and staying power in serious studios.
             </p>
           </div>
         </section>
@@ -192,7 +192,7 @@ export default function BestPilatesBodysuitsPage() {
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What makes a bodysuit work for Pilates</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[
-                  { heading: "Built-in support", body: "A shelf bra or removable pads are essential — a bodysuit without support requires an additional bra underneath, defeating the clean simplicity of the silhouette. Look for brands that specify cup sizes, not just S/M/L." },
+                  { heading: "Built-in support", body: "A shelf bra or removable pads are essential: a bodysuit without support requires an additional bra underneath, defeating the clean simplicity of the silhouette. Look for brands that specify cup sizes, not just S/M/L." },
                   { heading: "Gusset construction", body: "A seamless or flat-seamed gusset is non-negotiable for comfort during reformer footwork, squatting exercises, and any movement requiring hip flexion beyond 90 degrees." },
                   { heading: "Neckline depth", body: "High-neck and scoop-neck bodysuits each serve different needs. High-neck offers maximum coverage for exercises performed lying down; scoop-neck is cooler for heated studios. Consider your usual practice environment." },
                   { heading: "Fabric weight", body: "Heavier fabrics provide more smoothing and compressive support; lighter fabrics breathe better and feel less restrictive. Match fabric weight to your studio temperature and personal preference for compression." },
@@ -227,7 +227,7 @@ export default function BestPilatesBodysuitsPage() {
                   "Hand wash or machine wash on a delicate cycle in cold water. The gusset seams and bra components are under more stress than standard tops.",
                   "Never put a bodysuit in the dryer. Heat degrades the elastic in the gusset and the support structure of integrated bras significantly faster than air drying.",
                   "Lay flat or hang to dry. Hanging from the shoulder straps when wet can stretch them over time.",
-                  "Remove pads before washing and allow to dry separately — pads retain moisture and develop odour if dried inside the bodysuit.",
+                  "Remove pads before washing and allow to dry separately: pads retain moisture and develop odour if dried inside the bodysuit.",
                   "Rotate between two or three bodysuits rather than wearing the same one daily. Elastane requires 24 hours to fully recover its shape between sessions.",
                 ].map((tip, i) => (
                   <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
@@ -245,7 +245,7 @@ export default function BestPilatesBodysuitsPage() {
                   { q: "Are bodysuits good for Pilates?", a: "Bodysuits are excellent for Pilates. They stay perfectly tucked through all spinal articulation and inversion-adjacent exercises, eliminating the bunching and ride-up common with separate tops. Many boutique studio practitioners have switched exclusively to bodysuits for this reason." },
                   { q: "Do I need to wear a bra under a Pilates bodysuit?", a: "Most performance bodysuits include an integrated shelf bra or removable pads. For low-impact Pilates mat and reformer work, this is typically sufficient for B–D cup sizes. Higher-impact variations or larger cup sizes may benefit from a light wireless bra underneath." },
                   { q: "What should I wear over a Pilates bodysuit?", a: "A bodysuit pairs with leggings, biker shorts, or high-waist shorts. Many practitioners layer a cropped jacket or cardigan for warmth during warm-up and cool-down, then remove it for the main session. The bodysuit silhouette is designed to work as a complete studio outfit on its own." },
-                  { q: "Can I wear a bodysuit for reformer Pilates?", a: "Yes — bodysuits are particularly well-suited for reformer Pilates. Unlike separate tops, they cannot come untucked during footwork, long-spine exercises, or transitions between positions. Instructors also appreciate the clean silhouette, which makes it easier to observe spinal alignment and hip position." },
+                  { q: "Can I wear a bodysuit for reformer Pilates?", a: "Yes: bodysuits are particularly well-suited for reformer Pilates. Unlike separate tops, they cannot come untucked during footwork, long-spine exercises, or transitions between positions. Instructors also appreciate the clean silhouette, which makes it easier to observe spinal alignment and hip position." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
@@ -260,8 +260,8 @@ export default function BestPilatesBodysuitsPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Pilates Leggings" excerpt="Five leggings that pair perfectly with any bodysuit." href="/blog/best-pilates-leggings" category="Apparel" readTime="9 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />
                 <ArticleCard title="What to Wear to Pilates" excerpt="The complete guide to choosing the right clothes for studio and reformer classes." href="/blog/what-to-wear-to-pilates" category="Guide" readTime="6 min read" date="May 2026" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
-                <ArticleCard title="Alo Yoga Pilates Activewear" excerpt="Alo makes two of the six bodysuits in this guide — here's our full brand review." href="/blog/alo-yoga-pilates" category="Brand Review" readTime="10 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg" />
-                <ArticleCard title="Lululemon Align Review" excerpt="The most popular Pilates bodysuit in the world — honestly reviewed." href="/blog/lululemon-align-review" category="Brand Review" readTime="10 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg" />
+                <ArticleCard title="Alo Yoga Pilates Activewear" excerpt="Alo makes two of the six bodysuits in this guide: here's our full brand review." href="/blog/alo-yoga-pilates" category="Brand Review" readTime="10 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg" />
+                <ArticleCard title="Lululemon Align Review" excerpt="The most popular Pilates bodysuit in the world: honestly reviewed." href="/blog/lululemon-align-review" category="Brand Review" readTime="10 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg" />
               </div>
             </div>
           </div>

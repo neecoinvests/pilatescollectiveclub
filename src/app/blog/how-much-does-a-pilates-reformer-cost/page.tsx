@@ -16,12 +16,12 @@ export const metadata: Metadata = {
   keywords: ["how much does a pilates reformer cost", "pilates reformer price", "pilates reformer cost 2026", "how much is a pilates reformer", "pilates reformer price range", "cheap pilates reformer cost", "studio pilates reformer price", "pilates reformer budget", "pilates reformer investment", "cost of pilates reformer"],
   openGraph: {
     title: "How Much Does a Pilates Reformer Cost? (2026 Price Guide)",
-    description: "Every price tier from $296 to $8,200+ — what you actually get at each level and the real total cost of ownership.",
+    description: "Every price tier from $296 to $8,200+: what you actually get at each level and the real total cost of ownership.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/how-much-does-a-pilates-reformer-cost",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/logan-weaver-lgnwvr-u76Gd0hP5w4-unsplash.jpg", width: 1200, height: 630, alt: "Pilates reformer cost guide — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/logan-weaver-lgnwvr-u76Gd0hP5w4-unsplash.jpg", width: 1200, height: 630, alt: "Pilates reformer cost guide: Pilates Collective Club" }],
   },
-  twitter: { card: "summary_large_image", title: "How Much Does a Pilates Reformer Cost? (2026)", description: "Every price tier from $296 to $8,200+ — what you get at each level.", images: ["https://pilatescollectiveclub.com/pictures/logan-weaver-lgnwvr-u76Gd0hP5w4-unsplash.jpg"] },
+  twitter: { card: "summary_large_image", title: "How Much Does a Pilates Reformer Cost? (2026)", description: "Every price tier from $296 to $8,200+: what you get at each level.", images: ["https://pilatescollectiveclub.com/pictures/logan-weaver-lgnwvr-u76Gd0hP5w4-unsplash.jpg"] },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/how-much-does-a-pilates-reformer-cost" },
   robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
@@ -42,17 +42,17 @@ const PRICE_TIERS = [
     range: "$296–$750",
     heading: "Budget Spring Reformers (Generic Brands)",
     tag: "Real Springs, Unproven Brand",
-    body: "A genuine budget tier many buyers overlook: real carriage-and-rail spring reformers from generic/dropship brands, not just AeroPilates-style cord machines. Representative, verified live listings: WINDFOOT Foldable Reformer w/ Jump Board ($295.99, dual spring resistance, folds for storage), DWKWE Gray Metal Frame Foldable Reformer ($284.99, adjustable footbar, dual spring+latex resistance), PAETA 86\" Foldable Reformer with piano-wire springs ($419.99, 500 lb capacity), and the PAETA Wooden Foldable Reformer with Sitting Box ($699.98, solid oak frame, full accessory set). These are real spring reformers, not toys — but they come from brands with no track record, no certification recognition among instructors, and unclear long-term durability or warranty support.",
+    body: "A genuine budget tier many buyers overlook: real carriage-and-rail spring reformers from generic/dropship brands, not just AeroPilates-style cord machines. Representative, verified live listings: WINDFOOT Foldable Reformer w/ Jump Board ($295.99, dual spring resistance, folds for storage), DWKWE Gray Metal Frame Foldable Reformer ($284.99, adjustable footbar, dual spring+latex resistance), PAETA 86\" Foldable Reformer with piano-wire springs ($419.99, 500 lb capacity), and the PAETA Wooden Foldable Reformer with Sitting Box ($699.98, solid oak frame, full accessory set). These are real spring reformers, not toys, but they come from brands with no track record, no certification recognition among instructors, and unclear long-term durability or warranty support.",
     forWho: "Budget-constrained buyers who specifically want spring resistance (not cords) and are willing to accept brand-risk uncertainty in exchange for a much lower price.",
     sacrifice: "No established brand history, no instructor/certification recognition, unverified long-term durability, and warranty support that's unclear or minimal compared to Balanced Body or Merrithew.",
-    lifespan: "Unknown — no established track record to draw on",
+    lifespan: "Unknown: no established track record to draw on",
   },
   {
     label: "Tier 3",
     range: "$2,300–$2,600",
     heading: "Entry Spring Reformers (Established Brands)",
     tag: "First Established-Brand Spring",
-    body: "Real coil springs, sealed or semi-sealed bearings, from a brand with an actual track record. Representative: PersonalHour Janet La Force Plus Reformer ($2,555) — the cheapest genuine coil-spring reformer from a recognizable brand that we could verify as a real, live Amazon listing. We could not independently verify its spring count, fold mechanism, or included accessories beyond the base machine, so confirm those on the current listing.",
+    body: "Real coil springs, sealed or semi-sealed bearings, from a brand with an actual track record. Representative: PersonalHour Janet La Force Plus Reformer ($2,555), the cheapest genuine coil-spring reformer from a recognizable brand that we could verify as a real, live Amazon listing. We could not independently verify its spring count, fold mechanism, or included accessories beyond the base machine, so confirm those on the current listing.",
     forWho: "Practitioners ready for authentic spring resistance from a more established brand, who cannot yet commit to premium pricing.",
     sacrifice: "Narrower accessory ecosystem, unverified spec details beyond the base machine, shorter expected lifespan (5–8 years vs 10–15+).",
     lifespan: "5–8 years",
@@ -62,9 +62,9 @@ const PRICE_TIERS = [
     range: "$2,750–$3,710",
     heading: "Premium Home Reformers",
     tag: "Best for Home",
-    body: "Full professional spring system, major brand accessory compatibility. Representative machines: Align-Pilates C8-PRO Reformer ($2,750, sold on Amazon through Merrithew, Align's US distributor), Merrithew At Home SPX Reformer Package ($3,349 — not to be confused with the studio-line \"SPX Max,\" which is dealer-quoted only and not sold on Amazon), and Balanced Body Allegro Stretch Reformer ($3,710, the widest carriage among the Balanced Body machines actually sold on Amazon).",
+    body: "Full professional spring system, major brand accessory compatibility. Representative machines: Align-Pilates C8-PRO Reformer ($2,750, sold on Amazon through Merrithew, Align's US distributor), Merrithew At Home SPX Reformer Package ($3,349, not to be confused with the studio-line \"SPX Max,\" which is dealer-quoted only and not sold on Amazon), and Balanced Body Allegro Stretch Reformer ($3,710, the widest carriage among the Balanced Body machines actually sold on Amazon).",
     forWho: "Practitioners with consistent studio experience who are ready to invest properly in home practice.",
-    sacrifice: "Price of entry — and none of these have a verified fold mechanism, so don't assume any of them fold flat without checking the current listing.",
+    sacrifice: "Price of entry, and none of these have a verified fold mechanism, so don't assume any of them fold flat without checking the current listing.",
     lifespan: "10–15 years",
   },
   {
@@ -72,9 +72,9 @@ const PRICE_TIERS = [
     range: "$4,700",
     heading: "Professional / Studio Grade",
     tag: "The Long-Term Buy",
-    body: "The best carriage smoothness among Amazon-verified machines, full tower compatibility, and a Strata rock maple frame. Representative: Balanced Body Studio Reformer with Revo footbar ($4,700) — made to order, ships with a lead time, and does not fold; it's a permanent-installation machine.",
+    body: "The best carriage smoothness among Amazon-verified machines, full tower compatibility, and a Strata rock maple frame. Representative: Balanced Body Studio Reformer with Revo footbar ($4,700), made to order, ships with a lead time, and does not fold; it's a permanent-installation machine.",
     forWho: "Serious long-term home practitioners, private instructors, and small studios with a dedicated floor footprint.",
-    sacrifice: "Nothing meaningful in build quality — but no folding option, and made-to-order lead times rather than immediate stock.",
+    sacrifice: "Nothing meaningful in build quality, but no folding option, and made-to-order lead times rather than immediate stock.",
     lifespan: "15+ years",
   },
   {
@@ -82,9 +82,9 @@ const PRICE_TIERS = [
     range: "$4,500–$8,200+",
     heading: "Classical / Clinical & Commercial",
     tag: "Studio / Clinical",
-    body: "Classical apparatus built to Joseph Pilates' original specifications (Gratz) has no confirmed Amazon presence — it's sold direct through Gratz and its authorised dealers, so any pricing should be confirmed with them directly rather than assumed. The highest-specification machine we could verify as a real, live Amazon listing at this tier is the Merrithew Rehab V2 Max Plus Reformer ($8,199) — Merrithew's clinical/professional machine, with a raised frame, built-in Vertical Frame, and patented retractable rope system.",
+    body: "Classical apparatus built to Joseph Pilates' original specifications (Gratz) has no confirmed Amazon presence: it's sold direct through Gratz and its authorised dealers, so any pricing should be confirmed with them directly rather than assumed. The highest-specification machine we could verify as a real, live Amazon listing at this tier is the Merrithew Rehab V2 Max Plus Reformer ($8,199): Merrithew's clinical/professional machine, with a raised frame, built-in Vertical Frame, and patented retractable rope system.",
     forWho: "Classical lineage teachers and established commercial studios (via Gratz or authorised dealers); clinics and rehab practices for the Merrithew Rehab V2 Max Plus.",
-    sacrifice: "Not a meaningful concern at this level for the equipment itself — but confirm any classical-apparatus price directly, since we could not verify one via Amazon.",
+    sacrifice: "Not a meaningful concern at this level for the equipment itself, but confirm any classical-apparatus price directly, since we could not verify one via Amazon.",
     lifespan: "20+ years (a common claim for classical apparatus; we could not independently verify it)",
   },
 ];
@@ -92,7 +92,7 @@ const PRICE_TIERS = [
 const TECH_FACTORS = [
   {
     heading: "Carriage bearings",
-    body: "Sealed ball-bearing carriages (premium) vs nylon rollers (budget). The difference is smoothness, noise, and longevity — sealed bearings last the life of the machine; nylon rollers wear and become rough within 2–4 years of regular use.",
+    body: "Sealed ball-bearing carriages (premium) vs nylon rollers (budget). The difference is smoothness, noise, and longevity: sealed bearings last the life of the machine; nylon rollers wear and become rough within 2–4 years of regular use.",
   },
   {
     heading: "Spring system",
@@ -100,30 +100,30 @@ const TECH_FACTORS = [
   },
   {
     heading: "Frame material",
-    body: "Aircraft-grade aluminium (most professional machines) vs steel or mixed construction (budget). Aluminium is lighter and resistant to corrosion. Note that a fold mechanism itself is not guaranteed at any tier — several premium spring reformers we could verify on Amazon either have no confirmed fold mechanism or, like the Balanced Body Studio Reformer, are explicitly permanent-installation machines that do not fold.",
+    body: "Aircraft-grade aluminium (most professional machines) vs steel or mixed construction (budget). Aluminium is lighter and resistant to corrosion. Note that a fold mechanism itself is not guaranteed at any tier: several premium spring reformers we could verify on Amazon either have no confirmed fold mechanism or, like the Balanced Body Studio Reformer, are explicitly permanent-installation machines that do not fold.",
   },
   {
     heading: "Accessory ecosystem",
-    body: "Major brands (Balanced Body, Merrithew) have extensive accessory ranges that fit their reformers without adaptation. Budget machines rarely have compatible accessories — you are capped at whatever comes in the box.",
+    body: "Major brands (Balanced Body, Merrithew) have extensive accessory ranges that fit their reformers without adaptation. Budget machines rarely have compatible accessories: you are capped at whatever comes in the box.",
   },
 ];
 
 const FAQS = [
   {
     q: "Is a $500 Pilates reformer good enough?",
-    a: "For a beginner testing reformer Pilates, yes. At this price you now have two real options: a cord-based machine like the AeroPilates 701 Premier, or a genuine spring reformer from a generic brand like the DWKWE Foldable Reformer or PAETA piano-wire model — the latter gives real spring resistance but from a brand with no track record. Either way, for building a sustained practice, the limitations (durability, accessory ecosystem, warranty support) become apparent within a few months to a couple of years. Both are reasonable starting points, not long-term solutions for serious practitioners.",
+    a: "For a beginner testing reformer Pilates, yes. At this price you now have two real options: a cord-based machine like the AeroPilates 701 Premier, or a genuine spring reformer from a generic brand like the DWKWE Foldable Reformer or PAETA piano-wire model, the latter gives real spring resistance but from a brand with no track record. Either way, for building a sustained practice, the limitations (durability, accessory ecosystem, warranty support) become apparent within a few months to a couple of years. Both are reasonable starting points, not long-term solutions for serious practitioners.",
   },
   {
     q: "What is the cheapest real spring reformer?",
-    a: "Depends what you mean by \"real.\" The lowest-priced genuine spring reformers we can verify as real, live Amazon listings are the DWKWE 88\" ($284.99, springs plus latex bands) and the WINDFOOT Foldable Reformer ($295.99, dual-spring resistance) — but both are generic/dropship brands with no track record, no certification recognition among instructors, and unclear warranty support. If you specifically want an established brand (Balanced Body, Merrithew, Align-Pilates) with a spring system, the Balanced Body Metro IQ Reformer at $2,330 is the cheapest genuine coil-spring reformer from a recognizable name we can currently confirm. We could not verify a live Amazon listing for some lower-priced models sometimes cited elsewhere (for example, an \"Align Pilates H1\" or \"C2-Pro RC\"), so we don't quote pricing for those here. Below roughly $2,300, real springs exist, but you're choosing between an unproven brand and a cord-based machine from an established one.",
+    a: "Depends what you mean by \"real.\" The lowest-priced genuine spring reformers we can verify as real, live Amazon listings are the DWKWE 88\" ($284.99, springs plus latex bands) and the WINDFOOT Foldable Reformer ($295.99, dual-spring resistance), but both are generic/dropship brands with no track record, no certification recognition among instructors, and unclear warranty support. If you specifically want an established brand (Balanced Body, Merrithew, Align-Pilates) with a spring system, the Balanced Body Metro IQ Reformer at $2,330 is the cheapest genuine coil-spring reformer from a recognizable name we can currently confirm. We could not verify a live Amazon listing for some lower-priced models sometimes cited elsewhere (for example, an \"Align Pilates H1\" or \"C2-Pro RC\"), so we don't quote pricing for those here. Below roughly $2,300, real springs exist, but you're choosing between an unproven brand and a cord-based machine from an established one.",
   },
   {
     q: "Should I buy a used Pilates reformer?",
-    a: "A used Balanced Body or Merrithew reformer from a reputable seller is a good purchase — these machines last decades and hold their value. Inspect springs (replace if stretched or uneven), carriage (should roll without noise or resistance), and upholstery (repadding is inexpensive). Avoid used budget machines; they rarely have replacement parts available.",
+    a: "A used Balanced Body or Merrithew reformer from a reputable seller is a good purchase: these machines last decades and hold their value. Inspect springs (replace if stretched or uneven), carriage (should roll without noise or resistance), and upholstery (repadding is inexpensive). Avoid used budget machines; they rarely have replacement parts available.",
   },
   {
     q: "How much do Pilates reformer springs cost to replace?",
-    a: "A 5-piece aftermarket spring set (Colaxi) runs about $65.54 total on Amazon — a real, verified listing. We could not verify a specific per-spring price for genuine Balanced Body or Merrithew OEM springs, so don't assume a fixed per-spring figure; check current listings or contact the manufacturer directly. Reformer ropes wear out too — Balanced Body's Replacement Reformer Ropes with Clips are $35 for a real, verified set. Springs and ropes should generally be replaced when they lose consistent tension.",
+    a: "A 5-piece aftermarket spring set (Colaxi) runs about $65.54 total on Amazon: a real, verified listing. We could not verify a specific per-spring price for genuine Balanced Body or Merrithew OEM springs, so don't assume a fixed per-spring figure; check current listings or contact the manufacturer directly. Reformer ropes wear out too: Balanced Body's Replacement Reformer Ropes with Clips are $35 for a real, verified set. Springs and ropes should generally be replaced when they lose consistent tension.",
   },
 ];
 
@@ -133,7 +133,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "How Much Does a Pilates Reformer Cost? (2026 Complete Price Guide)",
-      "description": "The complete 2026 Pilates reformer price guide — from $296 budget machines to $8,200+ clinical/studio machines.",
+      "description": "The complete 2026 Pilates reformer price guide, from $296 budget machines to $8,200+ clinical/studio machines.",
       "url": "https://pilatescollectiveclub.com/blog/how-much-does-a-pilates-reformer-cost",
       "datePublished": "2026-05-16",
       "dateModified": "2026-10-20",
@@ -167,12 +167,12 @@ const jsonLd = {
 };
 
 const PRODUCTS = [
-  { name: "AeroPilates 287 Reformer (Budget Tier)", description: "The entry point — elastic cord resistance rather than springs, but it provides real Pilates movement patterns at a fraction of the mid-range price. Appropriate for anyone testing whether home reformer practice suits them.", price: "$349.99", affiliateUrl: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
-  { name: "PAETA 86\" Foldable Reformer (Piano Wire Springs)", description: "A real, currently-sold budget spring reformer — genuine piano-wire spring resistance rather than cords, a 500 lb weight capacity, and folds for storage. A genuine market segment, but PAETA is a generic brand with no established track record, no certification recognition among instructors, and unclear long-term durability or warranty support compared to Balanced Body or Merrithew.", price: "$419.99", affiliateUrl: "https://www.amazon.com/dp/B0DFXQX3XV?tag=pilatescollective-20" },
-  { name: "Merrithew At Home SPX Reformer Package", description: "A real, mid-range spring-system benchmark — Merrithew's five-spring system and studio-comparable exercise range. The point at which the home reformer becomes a serious practice tool rather than a fitness machine. This is the genuine Amazon-sold SPX machine; the studio-line \"SPX Max\" name is not a live listing.", price: "$3,349", affiliateUrl: "https://www.amazon.com/dp/B004FGT0TM?tag=pilatescollective-20" },
-  { name: "Gaiam Premium Yoga Mat (6mm)", description: "If a reformer is outside the current budget, a quality mat is the correct starting point. We could not verify a Manduka mat in this price range as a specific live listing; this Gaiam 6mm mat is a real, currently-sold alternative — marketed as a yoga mat, but a firm 6mm mat works for Pilates too.", price: "$39.99", affiliateUrl: "https://www.amazon.com/dp/B09WF4GPPC?tag=pilatescollective-20" },
-  { name: "Byrex Pilates Prop Kit (Ring, Ball & Bands)", description: "We could not verify a standalone TheraBand-branded set or Balanced Body magic circle as specific live Amazon listings. This kit bundles a ring, ball, and resistance bands — a genuine, currently-sold alternative that provides spring-like loading at minimal cost while saving towards a machine.", price: "$24.99", affiliateUrl: "https://www.amazon.com/dp/B0GSJHPSQT?tag=pilatescollective-20" },
-  { name: "Muezna Pilates Grip Socks (6-Pair)", description: "An inexpensive, genuinely useful accessory once you're working on a reformer — grip socks prevent foot slippage during standing exercises, which is a real safety consideration regardless of which price tier you buy into.", price: "$7.59", affiliateUrl: "https://www.amazon.com/dp/B0DQ53GSP5?tag=pilatescollective-20" },
+  { name: "AeroPilates 287 Reformer (Budget Tier)", description: "The entry point: elastic cord resistance rather than springs, but it provides real Pilates movement patterns at a fraction of the mid-range price. Appropriate for anyone testing whether home reformer practice suits them.", price: "$349.99", affiliateUrl: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
+  { name: "PAETA 86\" Foldable Reformer (Piano Wire Springs)", description: "A real, currently-sold budget spring reformer: genuine piano-wire spring resistance rather than cords, a 500 lb weight capacity, and folds for storage. A genuine market segment, but PAETA is a generic brand with no established track record, no certification recognition among instructors, and unclear long-term durability or warranty support compared to Balanced Body or Merrithew.", price: "$419.99", affiliateUrl: "https://www.amazon.com/dp/B0DFXQX3XV?tag=pilatescollective-20" },
+  { name: "Merrithew At Home SPX Reformer Package", description: "A real, mid-range spring-system benchmark: Merrithew's five-spring system and studio-comparable exercise range. The point at which the home reformer becomes a serious practice tool rather than a fitness machine. This is the genuine Amazon-sold SPX machine; the studio-line \"SPX Max\" name is not a live listing.", price: "$3,349", affiliateUrl: "https://www.amazon.com/dp/B004FGT0TM?tag=pilatescollective-20" },
+  { name: "Gaiam Premium Yoga Mat (6mm)", description: "If a reformer is outside the current budget, a quality mat is the correct starting point. We could not verify a Manduka mat in this price range as a specific live listing; this Gaiam 6mm mat is a real, currently-sold alternative: marketed as a yoga mat, but a firm 6mm mat works for Pilates too.", price: "$39.99", affiliateUrl: "https://www.amazon.com/dp/B09WF4GPPC?tag=pilatescollective-20" },
+  { name: "Byrex Pilates Prop Kit (Ring, Ball & Bands)", description: "We could not verify a standalone TheraBand-branded set or Balanced Body magic circle as specific live Amazon listings. This kit bundles a ring, ball, and resistance bands: a genuine, currently-sold alternative that provides spring-like loading at minimal cost while saving towards a machine.", price: "$24.99", affiliateUrl: "https://www.amazon.com/dp/B0GSJHPSQT?tag=pilatescollective-20" },
+  { name: "Muezna Pilates Grip Socks (6-Pair)", description: "An inexpensive, genuinely useful accessory once you're working on a reformer: grip socks prevent foot slippage during standing exercises, which is a real safety consideration regardless of which price tier you buy into.", price: "$7.59", affiliateUrl: "https://www.amazon.com/dp/B0DQ53GSP5?tag=pilatescollective-20" },
 ];
 
 const QUICK_PICKS = [
@@ -234,7 +234,7 @@ export default function HowMuchDoesAPilatesReformerCostPage() {
               className="text-lg leading-relaxed"
               style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}
             >
-              A Pilates reformer costs anywhere from $296 to over $8,000 — a range so wide it is nearly meaningless without context. What actually determines price is not brand prestige but the resistance system (cords vs springs), the brand&apos;s track record (established vs generic/dropship), construction quality (sealed bearings vs nylon rollers, aluminium vs steel), and the accessory ecosystem it supports. Notably, real spring resistance is not exclusive to the $2,300+ tier — a newer wave of budget, generic-brand folding reformers now puts genuine coil or piano-wire springs under $750, with the trade-off being brand risk rather than resistance type. This guide breaks down every price tier honestly, with what you actually get and the total cost of ownership at each level.
+              A Pilates reformer costs anywhere from $296 to over $8,000: a range so wide it is nearly meaningless without context. What actually determines price is not brand prestige but the resistance system (cords vs springs), the brand&apos;s track record (established vs generic/dropship), construction quality (sealed bearings vs nylon rollers, aluminium vs steel), and the accessory ecosystem it supports. Notably, real spring resistance is not exclusive to the $2,300+ tier: a newer wave of budget, generic-brand folding reformers now puts genuine coil or piano-wire springs under $750, with the trade-off being brand risk rather than resistance type. This guide breaks down every price tier honestly, with what you actually get and the total cost of ownership at each level.
             </p>
           </div>
         </section>
@@ -248,7 +248,7 @@ export default function HowMuchDoesAPilatesReformerCostPage() {
             >
               <Image
                 src="/pictures/logan-weaver-lgnwvr-u76Gd0hP5w4-unsplash.jpg"
-                alt="Pilates reformer cost guide — complete price breakdown from budget to studio grade"
+                alt="Pilates reformer cost guide: complete price breakdown from budget to studio grade"
                 fill
                 className="object-cover"
                 style={{ filter: "brightness(0.85)" }}
@@ -282,7 +282,7 @@ export default function HowMuchDoesAPilatesReformerCostPage() {
                 className="text-base leading-relaxed mb-10"
                 style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
               >
-                The six tiers below represent distinct product categories — different resistance systems, brand track records, build standards, and long-term trajectories. Moving from one tier to the next is not just spending more money; it is buying a qualitatively different machine.
+                The six tiers below represent distinct product categories: different resistance systems, brand track records, build standards, and long-term trajectories. Moving from one tier to the next is not just spending more money; it is buying a qualitatively different machine.
               </p>
 
               <div style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
@@ -496,7 +496,7 @@ export default function HowMuchDoesAPilatesReformerCostPage() {
                 className="text-base leading-relaxed mb-8"
                 style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
               >
-                The sticker price of the reformer is only the beginning. A fully equipped machine includes a box (required for the Long Box and Short Box exercise series), and optionally a jump board, a tower, and a pole. Budget at least an extra $150–$750 for verified accessories, depending on the depth of practice you plan — tower and pole pricing varies more, and we could not verify a specific Amazon listing for either.
+                The sticker price of the reformer is only the beginning. A fully equipped machine includes a box (required for the Long Box and Short Box exercise series), and optionally a jump board, a tower, and a pole. Budget at least an extra $150–$750 for verified accessories, depending on the depth of practice you plan: tower and pole pricing varies more, and we could not verify a specific Amazon listing for either.
               </p>
 
               {/* Accessories breakdown table */}
@@ -525,13 +525,13 @@ export default function HowMuchDoesAPilatesReformerCostPage() {
                       color: "#8b4a31",
                     }}
                   >
-                    Accessory costs — at a glance
+                    Accessory costs, at a glance
                   </p>
                 </div>
                 {[
-                  { name: "Box (Long/Short Box series)", cost: "$150", note: "Balanced Body Sitting Box Lite — a real, verified listing" },
-                  { name: "Jump Board", cost: "$280–$470", note: "Balanced Body Padded Jumpboard ($280) or Merrithew Jumpboard 22\" ($470) — both real listings, optional" },
-                  { name: "Tower / Vertical Stand", cost: "Varies", note: "We could not verify a specific tower/vertical stand price via a live Amazon listing — check manufacturer or dealer pricing directly" },
+                  { name: "Box (Long/Short Box series)", cost: "$150", note: "Balanced Body Sitting Box Lite: a real, verified listing" },
+                  { name: "Jump Board", cost: "$280–$470", note: "Balanced Body Padded Jumpboard ($280) or Merrithew Jumpboard 22\" ($470), both real listings, optional" },
+                  { name: "Tower / Vertical Stand", cost: "Varies", note: "We could not verify a specific tower/vertical stand price via a live Amazon listing: check manufacturer or dealer pricing directly" },
                   { name: "Pole", cost: "Varies", note: "We could not verify a specific pole price via a live Amazon listing" },
                 ].map((item, i) => (
                   <div
@@ -591,10 +591,10 @@ export default function HowMuchDoesAPilatesReformerCostPage() {
                 }}
               >
                 {[
-                  { label: "Budget setup", total: "$359–$556", note: "No accessories compatible", detail: "AeroPilates 287 or 701 Premier — cord-based machines lack a real accessory ecosystem" },
+                  { label: "Budget setup", total: "$359–$556", note: "No accessories compatible", detail: "AeroPilates 287 or 701 Premier: cord-based machines lack a real accessory ecosystem" },
                   { label: "Premium home setup", total: "$3,499", note: "Machine + box", detail: "Merrithew At Home SPX Reformer Package + Balanced Body Sitting Box Lite" },
                   { label: "Professional setup", total: "$5,130", note: "Machine + box + jump board", detail: "Balanced Body Studio Reformer + Sitting Box Lite + Padded Jumpboard" },
-                  { label: "Full studio setup", total: "$5,130+", note: "Machine + box + jump board (+ tower)", detail: "As above, plus a tower — we could not verify a specific tower price via Amazon, so add through the manufacturer directly" },
+                  { label: "Full studio setup", total: "$5,130+", note: "Machine + box + jump board (+ tower)", detail: "As above, plus a tower: we could not verify a specific tower price via Amazon, so add through the manufacturer directly" },
                 ].map((item) => (
                   <div
                     key={item.label}
@@ -683,7 +683,7 @@ export default function HowMuchDoesAPilatesReformerCostPage() {
                 className="text-base leading-relaxed mb-6"
                 style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
               >
-                The average studio reformer class costs $30–$50 per session in most major cities — higher in New York, London, and Zurich, where $60–$80 per session is common. At the typical range, a premium home reformer at $4,700 (the Balanced Body Studio Reformer, the real Balanced Body flagship sold on Amazon) pays for itself in approximately 95–155 avoided studio sessions. At three sessions per week, that is under a year of practice.
+                The average studio reformer class costs $30–$50 per session in most major cities: higher in New York, London, and Zurich, where $60–$80 per session is common. At the typical range, a premium home reformer at $4,700 (the Balanced Body Studio Reformer, the real Balanced Body flagship sold on Amazon) pays for itself in approximately 95–155 avoided studio sessions. At three sessions per week, that is under a year of practice.
               </p>
 
               <div
@@ -771,7 +771,7 @@ export default function HowMuchDoesAPilatesReformerCostPage() {
                     color: "#53433e",
                   }}
                 >
-                  Self-teaching on a reformer without an instructor is less effective than studio sessions. Most practitioners benefit from continuing some studio sessions alongside home practice — using the home machine for volume and the studio for technique refinement.
+                  Self-teaching on a reformer without an instructor is less effective than studio sessions. Most practitioners benefit from continuing some studio sessions alongside home practice: using the home machine for volume and the studio for technique refinement.
                 </p>
               </div>
 
@@ -783,7 +783,7 @@ export default function HowMuchDoesAPilatesReformerCostPage() {
                   color: "#53433e",
                 }}
               >
-                For a practitioner who plans to use the machine three or more times per week for five or more years, the economics of a premium home reformer are strongly positive. For anyone less certain of that commitment, studio classes — or a budget entry machine — are more proportionate.
+                For a practitioner who plans to use the machine three or more times per week for five or more years, the economics of a premium home reformer are strongly positive. For anyone less certain of that commitment, studio classes, or a budget entry machine, are more proportionate.
               </p>
             </div>
 
@@ -879,7 +879,7 @@ export default function HowMuchDoesAPilatesReformerCostPage() {
                 className="text-base leading-relaxed mb-8"
                 style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
               >
-                We checked every product below against live listing data before including it. Where we could not verify a specific claim — a spec, an included accessory, a fold mechanism — we say so rather than assert it.
+                We checked every product below against live listing data before including it. Where we could not verify a specific claim (a spec, an included accessory, a fold mechanism) we say so rather than assert it.
               </p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
@@ -945,7 +945,7 @@ export default function HowMuchDoesAPilatesReformerCostPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard
                   title="Best Home Pilates Reformer (2026)"
-                  excerpt="The best home reformers at every price point — from entry-level to studio-grade."
+                  excerpt="The best home reformers at every price point, from entry-level to studio-grade."
                   href="/blog/best-home-pilates-reformer"
                   category="Equipment Guide"
                   readTime="10 min read"
@@ -954,7 +954,7 @@ export default function HowMuchDoesAPilatesReformerCostPage() {
                 />
                 <ArticleCard
                   title="Best Pilates Reformer for Beginners (2026)"
-                  excerpt="Which reformer to start on — and when NOT to buy before you're ready."
+                  excerpt="Which reformer to start on, and when NOT to buy before you're ready."
                   href="/blog/best-pilates-reformer-for-beginners"
                   category="Beginners"
                   readTime="9 min read"

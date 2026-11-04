@@ -16,15 +16,15 @@ export const metadata: Metadata = {
   description: "Six Pilates balls ranked: Balanced Body's 12-inch ball, Bala, ProBody mini and 65cm stability balls, the Byrex prop kit and the BOSU balance trainer.",
   openGraph: {
     title: "Best Pilates Ball (2026): 6 Picks, Mini to Stability",
-    description: "Mini balls, a full-size stability ball, a starter prop bundle and a premium balance trainer — six Pilates balls ranked, with who each one suits.",
+    description: "Mini balls, a full-size stability ball, a starter prop bundle and a premium balance trainer: six Pilates balls ranked, with who each one suits.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-ball",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/dane-wetton-AkSJQnem75Y-unsplash.jpg", width: 1200, height: 630, alt: "Best Pilates Ball — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/dane-wetton-AkSJQnem75Y-unsplash.jpg", width: 1200, height: 630, alt: "Best Pilates Ball: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Ball (2026)",
-    description: "Six Pilates balls ranked — mini balls, stability ball, starter bundle and a premium balance upgrade.",
+    description: "Six Pilates balls ranked: mini balls, stability ball, starter bundle and a premium balance upgrade.",
     images: ["https://pilatescollectiveclub.com/pictures/dane-wetton-AkSJQnem75Y-unsplash.jpg"],
   },
   keywords: ["best pilates ball", "pilates mini ball 2026", "pilates stability ball", "balanced body pilates ball", "bala pilates ball", "pilates prop kit", "bosu balance trainer", "pilates ball exercises", "small ball for pilates"],
@@ -42,7 +42,7 @@ const PRODUCTS = [
     price: "$30.00",
     tag: "Best Overall",
     description:
-      "Balanced Body is one of the best-known names in studio Pilates equipment, and this 12-inch inflatable ball is sold on Amazon by Balanced Body Inc. itself — the manufacturer, not a reseller. It is the prop to buy if you want a small ball from a brand that makes studio apparatus: use it between the knees for bridges and inner-thigh work, behind the back for supported curl-ups, or under the upper back for thoracic extension.",
+      "Balanced Body is one of the best-known names in studio Pilates equipment, and this 12-inch inflatable ball is sold on Amazon by Balanced Body Inc. itself: the manufacturer, not a reseller. It is the prop to buy if you want a small ball from a brand that makes studio apparatus: use it between the knees for bridges and inner-thigh work, behind the back for supported curl-ups, or under the upper back for thoracic extension.",
     affiliateUrl: "https://www.amazon.com/dp/B002YR1YJ8?tag=pilatescollective-20",
   },
   {
@@ -52,7 +52,7 @@ const PRODUCTS = [
     price: "$29.00",
     tag: "Most Stylish",
     description:
-      "Bala is a design-led barre and Pilates brand (best known for its Bangles), and its small non-weighted Pilates ball is sold on Amazon by Bala Bangles directly. Functionally it does the same job as any mini ball — squeezes, supports and feedback during mat work — so the reason to choose it is the look. If your props live out in the open and you care how they sit alongside the rest of your kit, this is the pick.",
+      "Bala is a design-led barre and Pilates brand (best known for its Bangles), and its small non-weighted Pilates ball is sold on Amazon by Bala Bangles directly. Functionally it does the same job as any mini ball (squeezes, supports and feedback during mat work) so the reason to choose it is the look. If your props live out in the open and you care how they sit alongside the rest of your kit, this is the pick.",
     affiliateUrl: "https://www.amazon.com/dp/B0D1VP474D?tag=pilatescollective-20",
   },
   {
@@ -62,7 +62,7 @@ const PRODUCTS = [
     price: "$9.95",
     tag: "Best Budget Mini Ball",
     description:
-      "A 9-inch mini ball for under $10, sold by ProBody Pilates. It covers the same core uses as the pricier picks above — inner-thigh squeezes, ball-supported bridges and thoracic extension — at a third of the price. If you just want to try small-ball work at home before spending more, start here.",
+      "A 9-inch mini ball for under $10, sold by ProBody Pilates. It covers the same core uses as the pricier picks above (inner-thigh squeezes, ball-supported bridges and thoracic extension) at a third of the price. If you just want to try small-ball work at home before spending more, start here.",
     affiliateUrl: "https://www.amazon.com/dp/B010TJC4IM?tag=pilatescollective-20",
   },
   {
@@ -72,7 +72,7 @@ const PRODUCTS = [
     price: "$18.45",
     tag: "Best Stability Ball",
     description:
-      "If you need the full-size stability ball rather than a mini ball, this 65cm gym-grade ball from ProBody Pilates is the pick. A stability ball is a different tool entirely: it is for roll-outs, pikes, supported back extension, hamstring stretches and seated balance work. Sizing matters — 65cm is a common middle size, so check it suits your height before ordering.",
+      "If you need the full-size stability ball rather than a mini ball, this 65cm gym-grade ball from ProBody Pilates is the pick. A stability ball is a different tool entirely: it is for roll-outs, pikes, supported back extension, hamstring stretches and seated balance work. Sizing matters, 65cm is a common middle size, so check it suits your height before ordering.",
     affiliateUrl: "https://www.amazon.com/dp/B010TIO30U?tag=pilatescollective-20",
   },
   {
@@ -82,7 +82,7 @@ const PRODUCTS = [
     price: "$24.99",
     tag: "Best Starter Bundle",
     description:
-      "Rather than a ball on its own, the Byrex kit bundles a Pilates ring, a 10-inch mini ball, resistance bands and sliding discs for $24.99 (sold by ByrexLtd). That makes it the best value if you are building a home mat setup from scratch and want the main small props in one order. It does not include a large stability ball — pair it with the ProBody 65cm ball above if you want both.",
+      "Rather than a ball on its own, the Byrex kit bundles a Pilates ring, a 10-inch mini ball, resistance bands and sliding discs for $24.99 (sold by ByrexLtd). That makes it the best value if you are building a home mat setup from scratch and want the main small props in one order. It does not include a large stability ball: pair it with the ProBody 65cm ball above if you want both.",
     affiliateUrl: "https://www.amazon.com/dp/B0GSJHPSQT?tag=pilatescollective-20",
   },
   {
@@ -92,7 +92,7 @@ const PRODUCTS = [
     price: "$139.99",
     tag: "Premium Balance Upgrade",
     description:
-      "To be clear up front: the BOSU is not a classical Pilates prop. It is a 26-inch half-dome balance trainer, sold here by Amazon.com, and it is widely used in Pilates-fusion classes and balance-focused workouts. If you already own a mini ball and want to add unstable-surface work — planks, bridges, squats and balance holds on the dome — it is the premium step up. If you are after a traditional Pilates ball, one of the picks above is the better buy.",
+      "To be clear up front: the BOSU is not a classical Pilates prop. It is a 26-inch half-dome balance trainer, sold here by Amazon.com, and it is widely used in Pilates-fusion classes and balance-focused workouts. If you already own a mini ball and want to add unstable-surface work (planks, bridges, squats and balance holds on the dome) it is the premium step up. If you are after a traditional Pilates ball, one of the picks above is the better buy.",
     affiliateUrl: "https://www.amazon.com/dp/B00AQ4F19K?tag=pilatescollective-20",
   },
 ];
@@ -104,8 +104,8 @@ const EXERCISES = [
 ];
 
 const FAQS = [
-  { q: "What is the best Pilates ball?", a: "For most people, the Balanced Body Inflatable Workout Ball (12-inch, $30.00) is our top pick — it comes from an established studio-equipment brand and is sold on Amazon by the manufacturer. On a budget, the ProBody 9-inch mini ball ($9.95) does the same core jobs for much less." },
-  { q: "What is the difference between a mini Pilates ball and a stability ball?", a: "A mini Pilates ball (roughly 8–12 inches) is a prop for tactile feedback and precision cueing — squeezed between the knees, placed behind the back or under the upper spine. A stability ball (roughly 55–75cm) is used for seated balance, roll-outs, pikes and supported stretches. Our mini ball picks are the Balanced Body, Bala and ProBody 9-inch balls; our stability ball pick is the ProBody 65cm." },
+  { q: "What is the best Pilates ball?", a: "For most people, the Balanced Body Inflatable Workout Ball (12-inch, $30.00) is our top pick: it comes from an established studio-equipment brand and is sold on Amazon by the manufacturer. On a budget, the ProBody 9-inch mini ball ($9.95) does the same core jobs for much less." },
+  { q: "What is the difference between a mini Pilates ball and a stability ball?", a: "A mini Pilates ball (roughly 8–12 inches) is a prop for tactile feedback and precision cueing: squeezed between the knees, placed behind the back or under the upper spine. A stability ball (roughly 55–75cm) is used for seated balance, roll-outs, pikes and supported stretches. Our mini ball picks are the Balanced Body, Bala and ProBody 9-inch balls; our stability ball pick is the ProBody 65cm." },
   { q: "How inflated should a Pilates mini ball be?", a: "As a general rule, firm enough to maintain shape but soft enough to compress under pressure. Check the specific product's instructions, since inflation guidance varies by model." },
   { q: "Does the Byrex Pilates Prop Kit include a large stability ball?", a: "No. It bundles a Pilates ring, a 10-inch mini ball, resistance bands and sliding discs for $24.99. If you also want a full-size stability ball, the ProBody 65cm ball ($18.45) is our pick." },
   { q: "Is a BOSU ball a Pilates ball?", a: "Not in the classical sense. The BOSU Balance Ball Trainer is a half-dome balance trainer rather than a traditional Pilates prop, but it is widely used in Pilates-fusion and balance classes. Treat it as an upgrade once you already have a mini ball, not a replacement for one." },
@@ -191,7 +191,7 @@ export default function BestPilatesBallPage() {
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              &ldquo;Pilates ball&rdquo; can mean a small squeeze ball for mat work or a full-size stability ball — and they do very different jobs. We&apos;ve ranked six options across both: two premium mini balls, a budget mini ball, a 65cm stability ball, a starter prop bundle, and a premium balance trainer for when you want to go further.
+              &ldquo;Pilates ball&rdquo; can mean a small squeeze ball for mat work or a full-size stability ball, and they do very different jobs. We&apos;ve ranked six options across both: two premium mini balls, a budget mini ball, a 65cm stability ball, a starter prop bundle, and a premium balance trainer for when you want to go further.
             </p>
           </div>
         </section>
@@ -199,7 +199,7 @@ export default function BestPilatesBallPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/dane-wetton-AkSJQnem75Y-unsplash.jpg" alt="Best Pilates ball — mini balls and stability balls for home practice" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/dane-wetton-AkSJQnem75Y-unsplash.jpg" alt="Best Pilates ball: mini balls and stability balls for home practice" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>
         </section>
@@ -221,7 +221,7 @@ export default function BestPilatesBallPage() {
                 <div className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)" }}>
                   <h3 className="text-base font-semibold mb-3" style={{ color: "#8b4a31", fontFamily: "'Playfair Display', serif" }}>Mini Pilates Ball (roughly 8–10 inches)</h3>
                   <ul className="space-y-2">
-                    {["Inner thigh activation during bridges and supine exercises", "Pelvic stabilisation challenge in mat work", "Thoracic support for upper body extension", "Between-knee prop for spinal alignment", "Easily stored — fits in a gym bag"].map((item) => (
+                    {["Inner thigh activation during bridges and supine exercises", "Pelvic stabilisation challenge in mat work", "Thoracic support for upper body extension", "Between-knee prop for spinal alignment", "Easily stored: fits in a gym bag"].map((item) => (
                       <li key={item} className="text-sm flex gap-2" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}><span style={{ color: "#8b4a31" }}>·</span>{item}</li>
                     ))}
                   </ul>
@@ -265,10 +265,10 @@ export default function BestPilatesBallPage() {
             <UpsellCTA
               eyebrow="Build Your Home Studio"
               title="From props to a proper home setup"
-              body="A ball, a ring and a mat cover the mat repertoire. The next step — the one that most changes results — is spring resistance. These are the two upgrades worth considering once props become routine."
+              body="A ball, a ring and a mat cover the mat repertoire. The next step, the one that most changes results, is spring resistance. These are the two upgrades worth considering once props become routine."
               picks={[
-                { name: "Manduka PRO Yoga Mat (6mm)", price: "$144", url: "https://www.amazon.com/dp/B0000DZFXZ?tag=pilatescollective-20", note: "Sold by Amazon.com. Dense and stable — the studio-standard surface for ball work." },
-                { name: "WINDFOOT Foldable Pilates Reformer", price: "$295.99", url: "https://www.amazon.com/dp/B0D31767J1?tag=pilatescollective-20", note: "A budget spring reformer from a newer brand — one of the lowest-priced real spring reformers we have verified." },
+                { name: "Manduka PRO Yoga Mat (6mm)", price: "$144", url: "https://www.amazon.com/dp/B0000DZFXZ?tag=pilatescollective-20", note: "Sold by Amazon.com. Dense and stable: the studio-standard surface for ball work." },
+                { name: "WINDFOOT Foldable Pilates Reformer", price: "$295.99", url: "https://www.amazon.com/dp/B0D31767J1?tag=pilatescollective-20", note: "A budget spring reformer from a newer brand: one of the lowest-priced real spring reformers we have verified." },
               ]}
               guideHref="/blog/best-pilates-reformer-under-500"
               guideLabel="See every home reformer under $500"
@@ -310,10 +310,10 @@ export default function BestPilatesBallPage() {
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="Pilates Essentials: The Complete List" excerpt="The best, budget and splurge pick in every category — clothing, props, recovery and a home reformer, all on one page." href="/blog/pilates-essentials" category="Equipment" readTime="14 min read" date="September 2026" />
-                <ArticleCard title="Pilates Princess Essentials" excerpt="The aesthetic edit that actually performs — matching sets, Bala Bangles, grip socks and at-home upgrades." href="/blog/pilates-princess-essentials" category="Clothing" readTime="12 min read" date="September 2026" />
-                <ArticleCard title="Best Pilates Equipment for Home Practice" excerpt="The complete guide to building a home practice — mats, bands, rings, and more." href="/blog/best-pilates-equipment-for-home-practice" category="Equipment" readTime="10 min read" date="May 2026" imageUrl="/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg" />
-                <ArticleCard title="Best Home Pilates Reformer" excerpt="Every budget covered — from AeroPilates entry models to Balanced Body professional machines." href="/blog/best-home-pilates-reformer" category="Equipment" readTime="11 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
+                <ArticleCard title="Pilates Essentials: The Complete List" excerpt="The best, budget and splurge pick in every category: clothing, props, recovery and a home reformer, all on one page." href="/blog/pilates-essentials" category="Equipment" readTime="14 min read" date="September 2026" />
+                <ArticleCard title="Pilates Princess Essentials" excerpt="The aesthetic edit that actually performs: matching sets, Bala Bangles, grip socks and at-home upgrades." href="/blog/pilates-princess-essentials" category="Clothing" readTime="12 min read" date="September 2026" />
+                <ArticleCard title="Best Pilates Equipment for Home Practice" excerpt="The complete guide to building a home practice: mats, bands, rings, and more." href="/blog/best-pilates-equipment-for-home-practice" category="Equipment" readTime="10 min read" date="May 2026" imageUrl="/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg" />
+                <ArticleCard title="Best Home Pilates Reformer" excerpt="Every budget covered, from AeroPilates entry models to Balanced Body professional machines." href="/blog/best-home-pilates-reformer" category="Equipment" readTime="11 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
               </div>
             </div>
           </div>

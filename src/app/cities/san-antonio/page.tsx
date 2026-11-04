@@ -12,7 +12,7 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Studios in San Antonio, TX (2026)",
-  description: "The best Pilates studios in San Antonio — top-rated boutiques on the north side plus Club Pilates from Alamo Heights to the far west. Six verified picks, 2026.",
+  description: "The best Pilates studios in San Antonio: top-rated boutiques on the north side plus Club Pilates from Alamo Heights to the far west. Six verified picks, 2026.",
   robots: {
     index: true,
     follow: true,
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Best Pilates Studios in San Antonio, TX (2026)",
     description:
-      "Six curated Pilates studios in San Antonio — Alamo Heights and Pearl District reformer boutiques. Verified 2026.",
+      "Six curated Pilates studios in San Antonio: Alamo Heights and Pearl District reformer boutiques. Verified 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/san-antonio",
     images: [
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Best Pilates Studios in San Antonio (2026)",
     description:
-      "The 6 best Pilates studios in San Antonio — curated, verified, and reviewed for 2026.",
+      "The 6 best Pilates studios in San Antonio: curated, verified, and reviewed for 2026.",
     images: [
       "https://images.unsplash.com/photo-1469344804473-ce7d7a5b6086?w=1200&h=630&fit=crop",
     ],
@@ -56,7 +56,7 @@ const STUDIOS = [
     neighborhood: "Stone Oak / North San Antonio",
     priceLevel: "$$$",
     review: "Studio 1604, named for the loop that defines San Antonio's north side, leads ClassPass's San Antonio reformer ranking, with a boutique-first approach that puts member experience and instructor expertise ahead of growth.",
-    caveat: "popular classes fill quickly — book ahead.",
+    caveat: "popular classes fill quickly: book ahead.",
     address: "434 N Loop 1604 W, Ste 3103, San Antonio, TX 78232",
     bestFor: "Top-rated boutique reformer on the north side",
     signatureClass: "Reformer Pilates",
@@ -68,7 +68,7 @@ const STUDIOS = [
     neighborhood: "North Central / Huebner Corridor",
     priceLevel: "$$$",
     review: "IM=X Pilates on Huebner Road combines reformer Pilates with the IM=X functional training system and is rated 4.9 on ClassPass.",
-    caveat: "the IM=X format adds functional strength work — different from classical Pilates.",
+    caveat: "the IM=X format adds functional strength work: different from classical Pilates.",
     address: "15614 Huebner Rd, #114, San Antonio, TX 78248",
     bestFor: "Reformer plus functional IM=X training",
     signatureClass: "IM=X Reformer",
@@ -80,7 +80,7 @@ const STUDIOS = [
     neighborhood: "Alamo Heights / Quarry",
     priceLevel: "$$",
     review: "Club Pilates at the Quarry Market on East Basse Road serves Alamo Heights and central-north San Antonio with levelled group reformer classes.",
-    caveat: "a franchise format — consistent, but less personalised than an independent studio.",
+    caveat: "a franchise format: consistent, but less personalised than an independent studio.",
     address: "255 E Basse Rd, #360, San Antonio, TX 78209",
     bestFor: "Alamo Heights residents",
     signatureClass: "Reformer Flow",
@@ -92,11 +92,11 @@ const STUDIOS = [
     neighborhood: "Dominion / North San Antonio",
     priceLevel: "$$",
     review: "Club Pilates Dominion on IH-10 West serves the Dominion and north-west corridor with levelled group reformer classes.",
-    caveat: "a franchise format — consistent, but less personalised than an independent studio.",
+    caveat: "a franchise format: consistent, but less personalised than an independent studio.",
     address: "21803 IH-10 W, San Antonio, TX 78257",
     bestFor: "North-west San Antonio residents",
     signatureClass: "Reformer Flow",
-    bookingTip: "Morning classes fill first — book two days ahead.",
+    bookingTip: "Morning classes fill first: book two days ahead.",
   },
   {
     number: "5",
@@ -104,7 +104,7 @@ const STUDIOS = [
     neighborhood: "Stone Oak",
     priceLevel: "$$",
     review: "Club Pilates Stone Oak on Stone Oak Parkway serves the far north side with levelled group reformer classes.",
-    caveat: "a franchise format — consistent, but less personalised than an independent studio.",
+    caveat: "a franchise format: consistent, but less personalised than an independent studio.",
     address: "20210 Stone Oak Pkwy, Ste 105, San Antonio, TX 78258",
     bestFor: "Stone Oak residents",
     signatureClass: "Reformer Flow",
@@ -116,7 +116,7 @@ const STUDIOS = [
     neighborhood: "Stevens Ranch / Far West Side",
     priceLevel: "$$",
     review: "Club Pilates Stevens Ranch on Potranco Road brings levelled group reformer classes to the growing far west side.",
-    caveat: "a franchise format — consistent, but less personalised than an independent studio.",
+    caveat: "a franchise format: consistent, but less personalised than an independent studio.",
     address: "14244 Potranco Rd, San Antonio, TX 78253",
     bestFor: "Far-west-side residents",
     signatureClass: "Reformer Flow",
@@ -127,23 +127,23 @@ const STUDIOS = [
 const BOOKING_TIPS = [
   {
     heading: "San Antonio's heat is a scheduling variable",
-    body: "Summers in San Antonio run hot — temperatures exceeding 100°F are routine from June through September. Studios are climate-controlled and become the preferred movement option during these months. Demand for early morning and evening classes increases significantly in summer; book those windows in advance before the heat sets in.",
+    body: "Summers in San Antonio run hot: temperatures exceeding 100°F are routine from June through September. Studios are climate-controlled and become the preferred movement option during these months. Demand for early morning and evening classes increases significantly in summer; book those windows in advance before the heat sets in.",
   },
   {
     heading: "The military community creates non-standard scheduling needs",
-    body: "San Antonio is home to multiple large military installations — Joint Base San Antonio encompasses Lackland, Fort Sam Houston, and Randolph. A significant portion of studio clientele works military or adjacent schedules. Many west- and south-side studios accommodate early morning and midday classes that serve shift-based schedules — worth asking about if your hours are non-standard.",
+    body: "San Antonio is home to multiple large military installations: Joint Base San Antonio encompasses Lackland, Fort Sam Houston, and Randolph. A significant portion of studio clientele works military or adjacent schedules. Many west- and south-side studios accommodate early morning and midday classes that serve shift-based schedules: worth asking about if your hours are non-standard.",
   },
   {
     heading: "Intro packages are the most cost-effective entry point",
-    body: "Every major San Antonio studio offers a new-client introductory rate — typically three reformer sessions for the price of one drop-in. This is the most financially sensible way to audition a studio before committing to a monthly membership, and gives you enough sessions to judge instructor quality and community fit.",
+    body: "Every major San Antonio studio offers a new-client introductory rate, typically three reformer sessions for the price of one drop-in. This is the most financially sensible way to audition a studio before committing to a monthly membership, and gives you enough sessions to judge instructor quality and community fit.",
   },
   {
-    heading: "The city is large — choose your quadrant wisely",
-    body: "San Antonio spans an enormous geographic footprint. The IH-10 corridor, Loop 1604, and US-281 can add 20–40 minutes of commute time between quadrants at peak hours. Select a studio within your residential or work quadrant rather than the theoretically 'best' studio across town — attendance consistency is the most important variable for any practice.",
+    heading: "The city is large: choose your quadrant wisely",
+    body: "San Antonio spans an enormous geographic footprint. The IH-10 corridor, Loop 1604, and US-281 can add 20–40 minutes of commute time between quadrants at peak hours. Select a studio within your residential or work quadrant rather than the theoretically 'best' studio across town: attendance consistency is the most important variable for any practice.",
   },
   {
     heading: "Grip socks are required at every reformer studio",
-    body: "Universal across San Antonio's studio market. Bring your own — front-desk retail costs two to three times the Amazon price. Full-toe grip socks provide the most stability on reformer footbars.",
+    body: "Universal across San Antonio's studio market. Bring your own: front-desk retail costs two to three times the Amazon price. Full-toe grip socks provide the most stability on reformer footbars.",
   },
 ];
 
@@ -151,12 +151,12 @@ const NEIGHBORHOODS = [
   {
     name: "Alamo Heights & Quarry District",
     description:
-      "San Antonio's most walkable and culturally rich inner-city neighborhoods. The Quarry District anchors the Alamo Heights corridor with strong wellness infrastructure — studios here serve a sophisticated clientele and maintain correspondingly high instruction standards. A natural starting point for central San Antonio practitioners.",
+      "San Antonio's most walkable and culturally rich inner-city neighborhoods. The Quarry District anchors the Alamo Heights corridor with strong wellness infrastructure: studios here serve a sophisticated clientele and maintain correspondingly high instruction standards. A natural starting point for central San Antonio practitioners.",
   },
   {
     name: "Stone Oak & North San Antonio",
     description:
-      "The fast-growing far north corridor along US-281 and Loop 1604 is home to San Antonio's most affluent suburban communities. Stone Oak studios serve the area's professional and medical families with high-quality franchise and independent options — convenient for residents who work in the corridor.",
+      "The fast-growing far north corridor along US-281 and Loop 1604 is home to San Antonio's most affluent suburban communities. Stone Oak studios serve the area's professional and medical families with high-quality franchise and independent options: convenient for residents who work in the corridor.",
   },
   {
     name: "Dominion & IH-10 West Corridor",
@@ -197,16 +197,16 @@ const GEAR = [
   },
   {
     name: "High-Density Foam Roller",
-    note: "Our pick: OPTP PRO-Roller Foam Roller (36-inch). Post-class fascia release — essential for San Antonio's active military and athletic community.",
+    note: "Our pick: OPTP PRO-Roller Foam Roller (36-inch). Post-class fascia release: essential for San Antonio's active military and athletic community.",
     price: "$62.99",
     url: "https://www.amazon.com/dp/B002C9EX14?tag=pilatescollective-20",
   },
 ];
 
 const HOME_REFORMERS = [
-  { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work — three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
+  { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work: three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
   { tag: "Mid-Range Pick", name: "AeroPilates Pro XP 557", note: "AeroPilates' top-of-the-range home reformer, a step up for practitioners training several times a week.", price: "$1,329.99", url: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20" },
-  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order — an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
+  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
 ];
 
 const RELATED_CITIES = [
@@ -310,8 +310,8 @@ export default function SanAntonioPage() {
             </p>
             <p className="text-lg leading-relaxed" style={{ color: "#5c4f47" }}>
               San Antonio is the United States' seventh-largest city and one of its most underrated wellness markets.
-              The city's vast geography — stretching from the inner-city corridors of Alamo Heights to the suburban
-              sprawl of Stone Oak and Alamo Ranch — has produced a Pilates scene that reflects its diversity:
+              The city's vast geography, stretching from the inner-city corridors of Alamo Heights to the suburban
+              sprawl of Stone Oak and Alamo Ranch, has produced a Pilates scene that reflects its diversity:
               military-adjacent studios built for high-frequency training, affluent north-side boutiques catering
               to discerning professionals, and accessible west-side options serving the city's large family and
               healthcare communities. We've identified the six San Antonio studios that consistently deliver in 2026.
@@ -476,7 +476,7 @@ export default function SanAntonioPage() {
 
         <CTASection
           title="Find Pilates near you"
-          subtitle="Use our AI Finder to discover studios in any city — coming soon."
+          subtitle="Use our AI Finder to discover studios in any city: coming soon."
           showSearch
           searchPlaceholder="Ask: best reformer Pilates in San Antonio…"
         />

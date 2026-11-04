@@ -11,16 +11,16 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "How to Set Up a Home Pilates Studio (2026): Complete Guide",
-  description: "How to set up a home Pilates studio — space planning, reformer selection, flooring, lighting, and essential accessories covered in a complete 2026 guide.",
+  description: "How to set up a home Pilates studio: space planning, reformer selection, flooring, lighting, and essential accessories covered in a complete 2026 guide.",
   keywords: ["home pilates studio setup", "home pilates studio guide 2026", "how to set up pilates room", "home reformer pilates room", "pilates studio at home", "best home pilates equipment", "pilates studio room design", "home pilates space setup"],
   openGraph: {
     title: "How to Set Up a Home Pilates Studio (2026)",
-    description: "What equipment to buy, in what order, for what budget — the complete home Pilates studio guide.",
+    description: "What equipment to buy, in what order, for what budget: the complete home Pilates studio guide.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/home-pilates-studio-setup",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg", width: 1200, height: 630, alt: "Home Pilates studio setup guide — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg", width: 1200, height: 630, alt: "Home Pilates studio setup guide: Pilates Collective Club" }],
   },
-  twitter: { card: "summary_large_image", title: "How to Set Up a Home Pilates Studio (2026)", description: "The complete equipment guide — what to buy, in what order, for what budget.", images: ["https://pilatescollectiveclub.com/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg"] },
+  twitter: { card: "summary_large_image", title: "How to Set Up a Home Pilates Studio (2026)", description: "The complete equipment guide: what to buy, in what order, for what budget.", images: ["https://pilatescollectiveclub.com/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg"] },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/home-pilates-studio-setup" },
   robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
@@ -31,7 +31,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "How to Set Up a Home Pilates Studio (2026): The Complete Equipment Guide",
-      "description": "The complete guide to setting up a home Pilates studio — what equipment to buy, in what order, for what budget, and how much space you actually need.",
+      "description": "The complete guide to setting up a home Pilates studio: what equipment to buy, in what order, for what budget, and how much space you actually need.",
       "url": "https://pilatescollectiveclub.com/blog/home-pilates-studio-setup",
       "datePublished": "2026-05-16",
       "dateModified": "2026-10-20",
@@ -69,7 +69,7 @@ const jsonLd = {
         {
           "@type": "Question",
           "name": "Is rubber flooring necessary for a home Pilates studio?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Not strictly necessary, but strongly recommended for any space with a reformer. Rubber flooring prevents the reformer base from sliding, cushions mat work, and reduces noise. 8mm interlocking gym tiles are the most practical solution — installed in an afternoon, removable if you move." },
+          "acceptedAnswer": { "@type": "Answer", "text": "Not strictly necessary, but strongly recommended for any space with a reformer. Rubber flooring prevents the reformer base from sliding, cushions mat work, and reduces noise. 8mm interlocking gym tiles are the most practical solution: installed in an afternoon, removable if you move." },
         },
       ],
     },
@@ -81,7 +81,7 @@ const EQUIPMENT_STAGES = [
     stage: "01",
     item: "Mat",
     cost: "$100–$140",
-    unlocks: "The entire mat repertoire — The Hundred, Roll Up, Single Leg Circles, Rolling Like a Ball, and the full classical sequence. This is the foundation for every other piece of apparatus. No other equipment purchase is worth making before you have a quality mat and a consistent mat practice.",
+    unlocks: "The entire mat repertoire: The Hundred, Roll Up, Single Leg Circles, Rolling Like a Ball, and the full classical sequence. This is the foundation for every other piece of apparatus. No other equipment purchase is worth making before you have a quality mat and a consistent mat practice.",
   },
   {
     stage: "02",
@@ -93,37 +93,37 @@ const EQUIPMENT_STAGES = [
     stage: "03",
     item: "Foam roller or Arc barrel",
     cost: "$35–$265",
-    unlocks: "Thoracic mobility and extension work that the flat mat cannot provide. The foam roller addresses thoracic extension and self-myofascial release. The arc barrel goes further — it supports extension exercises, Breaststroke, and Swan variations, and introduces balance challenge to mat exercises. A foam roller is the budget entry; the arc barrel is the functional upgrade.",
+    unlocks: "Thoracic mobility and extension work that the flat mat cannot provide. The foam roller addresses thoracic extension and self-myofascial release. The arc barrel goes further: it supports extension exercises, Breaststroke, and Swan variations, and introduces balance challenge to mat exercises. A foam roller is the budget entry; the arc barrel is the functional upgrade.",
   },
   {
     stage: "04",
     item: "Reformer",
     cost: "$300–$3,500+",
-    unlocks: "The full reformer repertoire — Footwork, Leg Circles, Elephant, Long Stretch, Short Spine, and the hundreds of exercises that define the Pilates system beyond the mat. This is the most significant equipment step, and the one that requires prior studio experience to use safely and effectively.",
+    unlocks: "The full reformer repertoire: Footwork, Leg Circles, Elephant, Long Stretch, Short Spine, and the hundreds of exercises that define the Pilates system beyond the mat. This is the most significant equipment step, and the one that requires prior studio experience to use safely and effectively.",
   },
   {
     stage: "05",
     item: "Reformer Box",
     cost: "$150",
-    unlocks: "The Long Box and Short Box series — Pulling Straps, T-Pull, Rowing, Swan, Teaser variations on the box. The box should be purchased with the reformer; these series are part of the basic reformer repertoire and are not optional add-ons. The Balanced Body Sitting Box Lite ($150) is a real, currently-sold Amazon listing that works across most reformer brands.",
+    unlocks: "The Long Box and Short Box series: Pulling Straps, T-Pull, Rowing, Swan, Teaser variations on the box. The box should be purchased with the reformer; these series are part of the basic reformer repertoire and are not optional add-ons. The Balanced Body Sitting Box Lite ($150) is a real, currently-sold Amazon listing that works across most reformer brands.",
   },
   {
     stage: "06",
     item: "Jump Board",
     cost: "$280–$470",
-    unlocks: "Cardio intervals on the reformer — jumping footwork sequences that elevate heart rate while maintaining spring-loaded feedback. A lower-impact complement to the standard footwork sequence. Most useful for practitioners looking to add cardiovascular conditioning to their reformer sessions. The Balanced Body Padded Jumpboard ($280) and the Merrithew Jumpboard 22\" ($470) are both real, currently-sold Amazon listings.",
+    unlocks: "Cardio intervals on the reformer: jumping footwork sequences that elevate heart rate while maintaining spring-loaded feedback. A lower-impact complement to the standard footwork sequence. Most useful for practitioners looking to add cardiovascular conditioning to their reformer sessions. The Balanced Body Padded Jumpboard ($280) and the Merrithew Jumpboard 22\" ($470) are both real, currently-sold Amazon listings.",
   },
   {
     stage: "07",
     item: "Tower or Vertical Stand",
     cost: "$700–$900",
-    unlocks: "Push-through bar exercises, roll-down bar, arm springs, and leg spring work — the full mat tower repertoire. The tower attaches to the foot end of the reformer and does not require additional floor space, though it does require a ceiling height of at least 2.1m for push-through bar exercises.",
+    unlocks: "Push-through bar exercises, roll-down bar, arm springs, and leg spring work: the full mat tower repertoire. The tower attaches to the foot end of the reformer and does not require additional floor space, though it does require a ceiling height of at least 2.1m for push-through bar exercises.",
   },
   {
     stage: "08",
     item: "Pilates chair (EXO-style, single-pedal)",
     cost: "$1,255+",
-    unlocks: "Advanced balance, hip flexor, and standing work — including Pumping, Swan, Washerwoman, and Tendon Stretch. The most demanding apparatus in the Pilates system. Note: Balanced Body's own chair sold on Amazon is the single-pedal EXO Pilates Chair ($1,255); a real budget-tier two-pedal option also exists on Amazon (e.g. VEVOR's split-pedal combo chair, ~$250) if the classic design matters more to you than the brand. The chair requires genuine proficiency on the mat and reformer before it is used safely, and it is the least essential apparatus for home setups.",
+    unlocks: "Advanced balance, hip flexor, and standing work, including Pumping, Swan, Washerwoman, and Tendon Stretch. The most demanding apparatus in the Pilates system. Note: Balanced Body's own chair sold on Amazon is the single-pedal EXO Pilates Chair ($1,255); a real budget-tier two-pedal option also exists on Amazon (e.g. VEVOR's split-pedal combo chair, ~$250) if the classic design matters more to you than the brand. The chair requires genuine proficiency on the mat and reformer before it is used safely, and it is the least essential apparatus for home setups.",
   },
 ];
 
@@ -143,7 +143,7 @@ const BUDGET_SCENARIOS = [
     title: "Minimal setup",
     cost: "$250–$500",
     items: ["Quality Pilates mat (6mm)", "Grip socks (2–3 pairs)", "Resistance bands (set)", "Magic circle / Pilates ring", "Foam roller"],
-    covers: "The full mat repertoire — all classical mat exercises, hip and shoulder accessory work, thoracic mobility. A complete and challenging practice at a fraction of the cost of any apparatus.",
+    covers: "The full mat repertoire: all classical mat exercises, hip and shoulder accessory work, thoracic mobility. A complete and challenging practice at a fraction of the cost of any apparatus.",
   },
   {
     label: "02",
@@ -156,8 +156,8 @@ const BUDGET_SCENARIOS = [
     label: "03",
     title: "Home reformer practitioner",
     cost: "$4,000–$5,000",
-    items: ["Premium home reformer", "Reformer box (essential — buy with the reformer)", "Jump board", "Quality mat", "Grip socks (multiple pairs)"],
-    covers: "The full reformer and mat repertoire — footwork, all spring-based exercises, Long Box and Short Box series, cardio jump board intervals. This is the setup that covers 90% of what a weekly studio visitor experiences.",
+    items: ["Premium home reformer", "Reformer box (essential: buy with the reformer)", "Jump board", "Quality mat", "Grip socks (multiple pairs)"],
+    covers: "The full reformer and mat repertoire: footwork, all spring-based exercises, Long Box and Short Box series, cardio jump board intervals. This is the setup that covers 90% of what a weekly studio visitor experiences.",
   },
   {
     label: "04",
@@ -183,7 +183,7 @@ const FAQS = [
   },
   {
     q: "Is rubber flooring necessary for a home Pilates studio?",
-    a: "Not strictly necessary, but strongly recommended for any space with a reformer. Rubber flooring prevents the reformer base from sliding, cushions mat work, and reduces noise. 8mm interlocking gym tiles are the most practical solution — installed in an afternoon, removable if you move.",
+    a: "Not strictly necessary, but strongly recommended for any space with a reformer. Rubber flooring prevents the reformer base from sliding, cushions mat work, and reduces noise. 8mm interlocking gym tiles are the most practical solution: installed in an afternoon, removable if you move.",
   },
 ];
 
@@ -246,7 +246,7 @@ export default function HomePilatesStudioSetupPage() {
               className="text-lg leading-relaxed"
               style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}
             >
-              A home Pilates studio does not need to be a dedicated room or a six-figure investment. The most effective home setups are built incrementally — starting with the essential foundation and adding apparatus as the practice deepens and the budget allows. This guide covers the right order to buy equipment, the minimum space requirements, and what a complete setup at every budget level actually looks like.
+              A home Pilates studio does not need to be a dedicated room or a six-figure investment. The most effective home setups are built incrementally: starting with the essential foundation and adding apparatus as the practice deepens and the budget allows. This guide covers the right order to buy equipment, the minimum space requirements, and what a complete setup at every budget level actually looks like.
             </p>
           </div>
         </section>
@@ -260,7 +260,7 @@ export default function HomePilatesStudioSetupPage() {
             >
               <Image
                 src="/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg"
-                alt="Home Pilates studio setup — reformer, mat, and equipment guide"
+                alt="Home Pilates studio setup: reformer, mat, and equipment guide"
                 fill
                 className="object-cover"
                 style={{ filter: "brightness(0.85)" }}
@@ -276,7 +276,7 @@ export default function HomePilatesStudioSetupPage() {
             <QuickPicks className="mb-6 mt-4" picks={QUICK_PICKS} />
             <AffiliateNote className="mb-8" />
 
-            {/* Section A — Start here: the foundation before the reformer */}
+            {/* Section A, Start here: the foundation before the reformer */}
             <div className="mb-16">
               <h2
                 className="text-3xl font-semibold mb-6"
@@ -288,31 +288,31 @@ export default function HomePilatesStudioSetupPage() {
                 className="text-base leading-relaxed mb-5"
                 style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
               >
-                The single most common mistake in home studio building is buying a reformer first. The reformer is the most versatile piece of Pilates apparatus — and the most unforgiving of poor movement patterns. A practitioner without mat foundations will load the reformer incorrectly, compensate through the neck and hip flexors, and miss the muscular connections the apparatus is designed to train. The equipment amplifies whatever patterns the practitioner brings to it.
+                The single most common mistake in home studio building is buying a reformer first. The reformer is the most versatile piece of Pilates apparatus, and the most unforgiving of poor movement patterns. A practitioner without mat foundations will load the reformer incorrectly, compensate through the neck and hip flexors, and miss the muscular connections the apparatus is designed to train. The equipment amplifies whatever patterns the practitioner brings to it.
               </p>
               <p
                 className="text-base leading-relaxed mb-8"
                 style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
               >
-                The professional recommendation is 6–12 months of mat work or studio reformer sessions before purchasing your own reformer. This is not a conservative suggestion — it is the minimum time required to develop the body awareness that makes reformer work productive rather than just expensive. Build the foundation first. The correct order is mat work, then accessories, then reformer.
+                The professional recommendation is 6–12 months of mat work or studio reformer sessions before purchasing your own reformer. This is not a conservative suggestion: it is the minimum time required to develop the body awareness that makes reformer work productive rather than just expensive. Build the foundation first. The correct order is mat work, then accessories, then reformer.
               </p>
 
               <p
                 className="text-xs font-semibold uppercase tracking-[0.2em] mb-6"
                 style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}
               >
-                Foundation items — what to start with
+                Foundation items: what to start with
               </p>
 
               <div className="space-y-4">
                 {[
                   {
                     name: "Mat (firm, 6mm)",
-                    desc: "The foundation of everything. A quality mat provides the spinal feedback necessary for articulation exercises — you should feel each vertebra make contact distinctly during roll-down and roll-up movements. 6mm is the professional standard: firm enough for feedback, enough cushioning for sustained floor contact. Do not use a yoga mat as a substitute for daily Pilates work.",
+                    desc: "The foundation of everything. A quality mat provides the spinal feedback necessary for articulation exercises: you should feel each vertebra make contact distinctly during roll-down and roll-up movements. 6mm is the professional standard: firm enough for feedback, enough cushioning for sustained floor contact. Do not use a yoga mat as a substitute for daily Pilates work.",
                   },
                   {
                     name: "Grip socks",
-                    desc: "Essential for reformer work later, and useful on the mat for exercises where bare feet slide on the surface. Grip socks are a small investment with outsized safety implications — particularly for standing reformer exercises where foot slippage is a fall risk.",
+                    desc: "Essential for reformer work later, and useful on the mat for exercises where bare feet slide on the surface. Grip socks are a small investment with outsized safety implications, particularly for standing reformer exercises where foot slippage is a fall risk.",
                   },
                   {
                     name: "Resistance bands",
@@ -320,7 +320,7 @@ export default function HomePilatesStudioSetupPage() {
                   },
                   {
                     name: "Magic circle (Pilates ring)",
-                    desc: "The magic circle is the most underestimated small accessory in the Pilates system. Inner thigh and adductor work, chest and arm resistance exercises, and lateral rib cage compression — the ring adds genuine resistance challenge to mat exercises without requiring any floor clearance beyond the mat.",
+                    desc: "The magic circle is the most underestimated small accessory in the Pilates system. Inner thigh and adductor work, chest and arm resistance exercises, and lateral rib cage compression: the ring adds genuine resistance challenge to mat exercises without requiring any floor clearance beyond the mat.",
                   },
                   {
                     name: "Foam roller",
@@ -349,7 +349,7 @@ export default function HomePilatesStudioSetupPage() {
               </div>
             </div>
 
-            {/* Section B — Space requirements */}
+            {/* Section B: Space requirements */}
             <div className="mb-16">
               <h2
                 className="text-3xl font-semibold mb-6"
@@ -361,13 +361,13 @@ export default function HomePilatesStudioSetupPage() {
                 className="text-base leading-relaxed mb-3"
                 style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
               >
-                Reformer dimensions are widely underestimated. The carriage extends the reformer to its full 244cm length during footwork and long stretch sequences — the working space requirement is significantly larger than the equipment footprint alone. Safe entry and exit require 90cm of clearance on all sides. The ceiling height requirement (230cm minimum) eliminates some converted attic and basement spaces.
+                Reformer dimensions are widely underestimated. The carriage extends the reformer to its full 244cm length during footwork and long stretch sequences: the working space requirement is significantly larger than the equipment footprint alone. Safe entry and exit require 90cm of clearance on all sides. The ceiling height requirement (230cm minimum) eliminates some converted attic and basement spaces.
               </p>
               <p
                 className="text-base leading-relaxed mb-8"
                 style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
               >
-                Below are the precise space requirements for each configuration. These are minimums — the numbers where the setup is functional, not where it is comfortable. Add buffer where possible.
+                Below are the precise space requirements for each configuration. These are minimums: the numbers where the setup is functional, not where it is comfortable. Add buffer where possible.
               </p>
 
               <div className="overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
@@ -424,12 +424,12 @@ export default function HomePilatesStudioSetupPage() {
                   className="text-sm leading-relaxed"
                   style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
                 >
-                  The minimum ceiling height for all reformer exercises is 230cm — specifically for standing exercises performed on the reformer platform. Most standard residential ceilings (240–260cm) meet this requirement. Spaces with ceilings below 230cm should be limited to lying and seated reformer work only.
+                  The minimum ceiling height for all reformer exercises is 230cm: specifically for standing exercises performed on the reformer platform. Most standard residential ceilings (240–260cm) meet this requirement. Spaces with ceilings below 230cm should be limited to lying and seated reformer work only.
                 </p>
               </div>
             </div>
 
-            {/* Section C — Equipment acquisition order */}
+            {/* Section C: Equipment acquisition order */}
             <div className="mb-16">
               <h2
                 className="text-3xl font-semibold mb-3"
@@ -495,7 +495,7 @@ export default function HomePilatesStudioSetupPage() {
               </div>
             </div>
 
-            {/* Section D — Flooring, mirrors, and lighting */}
+            {/* Section D: Flooring, mirrors, and lighting */}
             <div className="mb-16">
               <h2
                 className="text-3xl font-semibold mb-6"
@@ -507,14 +507,14 @@ export default function HomePilatesStudioSetupPage() {
                 className="text-base leading-relaxed mb-8"
                 style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
               >
-                The environment a home studio creates has a direct effect on practice quality. Flooring affects reformer safety and mat cushioning. Lighting affects concentration during floor work. These are practical decisions — not aesthetic ones — and they are worth making deliberately.
+                The environment a home studio creates has a direct effect on practice quality. Flooring affects reformer safety and mat cushioning. Lighting affects concentration during floor work. These are practical decisions, not aesthetic ones, and they are worth making deliberately.
               </p>
 
               <div className="space-y-6">
                 {[
                   {
                     heading: "Flooring",
-                    content: "Rubber gym flooring (minimum 8mm) is the professional standard for home Pilates studios. It provides grip for the reformer base — preventing the apparatus from sliding during spring-loaded exercises — cushioning for mat work, and reduces noise transfer to rooms below. Interlocking tiles are the most practical format: installed in an afternoon, removable if you move, and expandable as the studio grows. Standard interlocking gym tiles from hardware stores work well. Horse stall mat rubber (12–20mm thickness) is a popular choice among home practitioners for its durability and lower cost per square metre — available in 6' × 4' panels at farm supply stores.",
+                    content: "Rubber gym flooring (minimum 8mm) is the professional standard for home Pilates studios. It provides grip for the reformer base, preventing the apparatus from sliding during spring-loaded exercises, cushioning for mat work, and reduces noise transfer to rooms below. Interlocking tiles are the most practical format: installed in an afternoon, removable if you move, and expandable as the studio grows. Standard interlocking gym tiles from hardware stores work well. Horse stall mat rubber (12–20mm thickness) is a popular choice among home practitioners for its durability and lower cost per square metre, available in 6' × 4' panels at farm supply stores.",
                   },
                   {
                     heading: "Mirrors",
@@ -522,11 +522,11 @@ export default function HomePilatesStudioSetupPage() {
                   },
                   {
                     heading: "Lighting",
-                    content: "Avoid harsh downward-facing spotlights. Overhead spots create direct glare during floor exercises — lying on your back with a spotlight directly above is uncomfortable and distracting. Wall sconces, floor lamps at the perimeter, or diffused ceiling panels eliminate this problem. Natural light is the ideal: a room with good window coverage on the north or east wall provides consistent diffused light without direct sun through sessions. If the space has no natural light, warm diffused artificial lighting (3000–3500K) is preferable to cool overhead fluorescents.",
+                    content: "Avoid harsh downward-facing spotlights. Overhead spots create direct glare during floor exercises: lying on your back with a spotlight directly above is uncomfortable and distracting. Wall sconces, floor lamps at the perimeter, or diffused ceiling panels eliminate this problem. Natural light is the ideal: a room with good window coverage on the north or east wall provides consistent diffused light without direct sun through sessions. If the space has no natural light, warm diffused artificial lighting (3000–3500K) is preferable to cool overhead fluorescents.",
                   },
                   {
                     heading: "Ventilation",
-                    content: "Pilates is low-intensity cardiovascular work. Unlike spin or HIIT, a Pilates session does not generate extreme body heat or require industrial ventilation. A fan, open window, or basic room ventilation is generally sufficient for home use. Dedicated HVAC is not required unless the space has no natural airflow. Ensure the room does not become humid — especially if rubber flooring is installed, as trapped moisture beneath the tiles creates mould risk.",
+                    content: "Pilates is low-intensity cardiovascular work. Unlike spin or HIIT, a Pilates session does not generate extreme body heat or require industrial ventilation. A fan, open window, or basic room ventilation is generally sufficient for home use. Dedicated HVAC is not required unless the space has no natural airflow. Ensure the room does not become humid, especially if rubber flooring is installed, as trapped moisture beneath the tiles creates mould risk.",
                   },
                 ].map((item) => (
                   <div
@@ -551,7 +551,7 @@ export default function HomePilatesStudioSetupPage() {
               </div>
             </div>
 
-            {/* Section E — Budget scenarios */}
+            {/* Section E: Budget scenarios */}
             <div className="mb-16">
               <h2
                 className="text-3xl font-semibold mb-3"
@@ -563,7 +563,7 @@ export default function HomePilatesStudioSetupPage() {
                 className="text-base leading-relaxed mb-8"
                 style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
               >
-                The four scenarios below represent natural stopping points in home studio development. Most practitioners settle at the first or third level. The fourth level is a studio, not a home setup — but it is achievable and worth understanding for those planning a full installation.
+                The four scenarios below represent natural stopping points in home studio development. Most practitioners settle at the first or third level. The fourth level is a studio, not a home setup, but it is achievable and worth understanding for those planning a full installation.
               </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
@@ -606,7 +606,7 @@ export default function HomePilatesStudioSetupPage() {
                             className="flex gap-2 text-sm"
                             style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
                           >
-                            <span style={{ color: "#8b4a31", flexShrink: 0 }}>—</span>
+                            <span style={{ color: "#8b4a31", flexShrink: 0 }}>•</span>
                             {item}
                           </li>
                         ))}
@@ -634,7 +634,7 @@ export default function HomePilatesStudioSetupPage() {
               </div>
             </div>
 
-            {/* Section F — FAQ */}
+            {/* Section F: FAQ */}
             <div className="mb-16">
               <h2
                 className="text-3xl font-semibold mb-8"
@@ -666,7 +666,7 @@ export default function HomePilatesStudioSetupPage() {
               </div>
             </div>
 
-            {/* Section G — Further reading */}
+            {/* Section G: Further reading */}
             <div>
               <h2
                 className="text-2xl font-semibold mb-2"
@@ -677,7 +677,7 @@ export default function HomePilatesStudioSetupPage() {
               <div>
                 <ArticleCard
                   title="Best Home Pilates Reformer (2026)"
-                  excerpt="The best home reformers at every price point — from entry-level to studio-grade."
+                  excerpt="The best home reformers at every price point, from entry-level to studio-grade."
                   href="/blog/best-home-pilates-reformer"
                   category="Equipment Guide"
                   readTime="10 min read"
@@ -686,7 +686,7 @@ export default function HomePilatesStudioSetupPage() {
                 />
                 <ArticleCard
                   title="Best Pilates Starter Kit (2026)"
-                  excerpt="Everything a beginner needs — mat, grip socks, bands, and ring, in the right order."
+                  excerpt="Everything a beginner needs: mat, grip socks, bands, and ring, in the right order."
                   href="/blog/best-pilates-starter-kit"
                   category="Beginners"
                   readTime="9 min read"
@@ -733,7 +733,7 @@ export default function HomePilatesStudioSetupPage() {
                   <div style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)", borderRadius: "12px", padding: "20px", height: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
                     <div>
                       <h3 style={{ fontFamily: "'Playfair Display', serif", fontSize: "15px", fontWeight: 600, color: "#1b1c1c", marginBottom: "8px" }}>Spring Reformer: Merrithew At Home SPX</h3>
-                      <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", color: "#53433e", lineHeight: 1.6, marginBottom: "12px" }}>A real, currently-sold spring-based reformer — Merrithew&apos;s five-spring system offers markedly better resistance feel and stability than a cord machine.</p>
+                      <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", color: "#53433e", lineHeight: 1.6, marginBottom: "12px" }}>A real, currently-sold spring-based reformer: Merrithew&apos;s five-spring system offers markedly better resistance feel and stability than a cord machine.</p>
                     </div>
                     <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
                       <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", fontWeight: 600, color: "#8b4a31" }}>$3,349</span>
@@ -745,7 +745,7 @@ export default function HomePilatesStudioSetupPage() {
                   <div style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)", borderRadius: "12px", padding: "20px", height: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
                     <div>
                       <h3 style={{ fontFamily: "'Playfair Display', serif", fontSize: "15px", fontWeight: 600, color: "#1b1c1c", marginBottom: "8px" }}>Mat (6mm)</h3>
-                      <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", color: "#53433e", lineHeight: 1.6, marginBottom: "12px" }}>A Gaiam Premium 6mm mat — marketed as a yoga mat, but a firm, non-slip 6mm mat works well for daily Pilates practice.</p>
+                      <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", color: "#53433e", lineHeight: 1.6, marginBottom: "12px" }}>A Gaiam Premium 6mm mat: marketed as a yoga mat, but a firm, non-slip 6mm mat works well for daily Pilates practice.</p>
                     </div>
                     <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
                       <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", fontWeight: 600, color: "#8b4a31" }}>$39.99</span>
@@ -757,7 +757,7 @@ export default function HomePilatesStudioSetupPage() {
                   <div style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)", borderRadius: "12px", padding: "20px", height: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
                     <div>
                       <h3 style={{ fontFamily: "'Playfair Display', serif", fontSize: "15px", fontWeight: 600, color: "#1b1c1c", marginBottom: "8px" }}>Ring, Ball &amp; Bands Kit</h3>
-                      <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", color: "#53433e", lineHeight: 1.6, marginBottom: "12px" }}>We could not verify a standalone magic circle as a specific live Amazon listing. This Byrex prop kit bundles a ring, ball, and bands — versatile props that add resistance to dozens of mat exercises.</p>
+                      <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", color: "#53433e", lineHeight: 1.6, marginBottom: "12px" }}>We could not verify a standalone magic circle as a specific live Amazon listing. This Byrex prop kit bundles a ring, ball, and bands: versatile props that add resistance to dozens of mat exercises.</p>
                     </div>
                     <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
                       <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", fontWeight: 600, color: "#8b4a31" }}>$19.99</span>
@@ -769,7 +769,7 @@ export default function HomePilatesStudioSetupPage() {
                   <div style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)", borderRadius: "12px", padding: "20px", height: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
                     <div>
                       <h3 style={{ fontFamily: "'Playfair Display', serif", fontSize: "15px", fontWeight: 600, color: "#1b1c1c", marginBottom: "8px" }}>Foam Roller</h3>
-                      <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", color: "#53433e", lineHeight: 1.6, marginBottom: "12px" }}>TriggerPoint GRID 2.0 — a real, durable foam roller (roller only) for spinal mobility, fascial release, and warm-up before class.</p>
+                      <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", color: "#53433e", lineHeight: 1.6, marginBottom: "12px" }}>TriggerPoint GRID 2.0: a real, durable foam roller (roller only) for spinal mobility, fascial release, and warm-up before class.</p>
                     </div>
                     <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
                       <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", fontWeight: 600, color: "#8b4a31" }}>$74.99</span>

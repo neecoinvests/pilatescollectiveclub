@@ -12,19 +12,19 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Mat Bag (2026): Carriers & Totes Reviewed",
-  description: "The best mat bags for Pilates — open carriers, zip totes, and backpacks reviewed for size, shoulder strap comfort, and fit for thick Pilates mats.",
+  description: "The best mat bags for Pilates: open carriers, zip totes, and backpacks reviewed for size, shoulder strap comfort, and fit for thick Pilates mats.",
   keywords: ["best pilates mat bag", "pilates mat carrier 2026", "mat bag for pilates", "pilates mat tote review", "best mat bag thick mat", "yoga mat bag pilates", "pilates mat backpack", "carry pilates mat bag"],
   openGraph: {
     title: "Best Pilates Mat Bags (2026): Carriers & Slings Compared",
-    description: "The best Pilates mat bags and carriers — compared on durability, comfort, and mat fit.",
+    description: "The best Pilates mat bags and carriers: compared on durability, comfort, and mat fit.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-mat-bag",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/jade-stephens-N21356amsyw-unsplash.jpg", width: 1200, height: 630, alt: "Best Pilates Mat Bags — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/jade-stephens-N21356amsyw-unsplash.jpg", width: 1200, height: 630, alt: "Best Pilates Mat Bags: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Mat Bags (2026)",
-    description: "The best Pilates mat bags and carriers — compared and ranked.",
+    description: "The best Pilates mat bags and carriers: compared and ranked.",
     images: ["https://pilatescollectiveclub.com/pictures/jade-stephens-N21356amsyw-unsplash.jpg"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/best-pilates-mat-bag" },
@@ -38,7 +38,7 @@ const PRODUCTS = [
     price: "From $52",
     verdict: "Best overall mat carrier",
     description:
-      "The Manduka Go Play 2.0 is the reference point for Pilates and yoga mat carriers — it has been refined over multiple generations into a product that handles every common mat carrying scenario without frustration. The adjustable strap system accommodates mats from 3mm travel mats to 6mm+ thicker Pilates mats (including the Manduka PRO and comparable) without requiring new hardware. The shoulder pad is generous enough to make a 20-minute commute on foot comfortable, the attached side pocket holds a phone and keys, and the open-top sling design allows quick mat retrieval and replacement between classes. The strap hardware is quality-grade and does not loosen with use — a surprising failure point on many competing carriers.",
+      "The Manduka Go Play 2.0 is the reference point for Pilates and yoga mat carriers: it has been refined over multiple generations into a product that handles every common mat carrying scenario without frustration. The adjustable strap system accommodates mats from 3mm travel mats to 6mm+ thicker Pilates mats (including the Manduka PRO and comparable) without requiring new hardware. The shoulder pad is generous enough to make a 20-minute commute on foot comfortable, the attached side pocket holds a phone and keys, and the open-top sling design allows quick mat retrieval and replacement between classes. The strap hardware is quality-grade and does not loosen with use: a surprising failure point on many competing carriers.",
     affiliateUrl: "https://www.amazon.com/s?k=manduka+go+play+2+mat+carrier&tag=pilatescollective-20",
     tag: "Editor's Pick",
   },
@@ -48,7 +48,7 @@ const PRODUCTS = [
     price: "$19.99",
     verdict: "Best enclosed mat bag",
     description:
-      "Gaiam's On-The-Go Mat Bag is a fully enclosed bag rather than an open-sling carrier — the mat slides in through a wide zip opening and is completely protected from rain, dust, and contact. This makes it preferable for transit journeys where an open sling would expose the mat, or for practitioners who store their mat in shared spaces and want full enclosure. The bag is sized to fit mats up to 68 inches long and 6mm thick — which accommodates most standard Pilates mats. The exterior pocket is large enough for a small towel and grip socks. A practical, durable option for practitioners who prioritise mat protection over minimal-carry aesthetics.",
+      "Gaiam's On-The-Go Mat Bag is a fully enclosed bag rather than an open-sling carrier: the mat slides in through a wide zip opening and is completely protected from rain, dust, and contact. This makes it preferable for transit journeys where an open sling would expose the mat, or for practitioners who store their mat in shared spaces and want full enclosure. The bag is sized to fit mats up to 68 inches long and 6mm thick, which accommodates most standard Pilates mats. The exterior pocket is large enough for a small towel and grip socks. A practical, durable option for practitioners who prioritise mat protection over minimal-carry aesthetics.",
     affiliateUrl: "https://www.amazon.com/dp/B010I7BGUW?tag=pilatescollective-20",
     tag: "Best Enclosed Bag",
   },
@@ -58,7 +58,7 @@ const PRODUCTS = [
     price: "From $38",
     verdict: "Best style-forward carrier",
     description:
-      "Lole's Roll and Go is the most aesthetically refined mat carrier in this guide — it reads as a considered accessory rather than gym equipment, making it appropriate for commutes that pass through offices, cafes, or other non-gym environments. The design uses a single full-length strap that wraps around the mat in multiple configurations, with a top handle for short carries and a shoulder strap for longer distances. The adjustable closure accommodates a range of mat diameters, and the fabric choices lean towards neutrals and earthy tones that complement the Pilates studio aesthetic. For practitioners who care about how their kit looks outside the studio, Lole offers the cleanest option in this category.",
+      "Lole's Roll and Go is the most aesthetically refined mat carrier in this guide: it reads as a considered accessory rather than gym equipment, making it appropriate for commutes that pass through offices, cafes, or other non-gym environments. The design uses a single full-length strap that wraps around the mat in multiple configurations, with a top handle for short carries and a shoulder strap for longer distances. The adjustable closure accommodates a range of mat diameters, and the fabric choices lean towards neutrals and earthy tones that complement the Pilates studio aesthetic. For practitioners who care about how their kit looks outside the studio, Lole offers the cleanest option in this category.",
     affiliateUrl: "https://www.amazon.com/s?k=lole+roll+go+yoga+mat+bag&tag=pilatescollective-20",
     tag: "Best Aesthetic",
   },
@@ -68,7 +68,7 @@ const PRODUCTS = [
     price: "From $44",
     verdict: "Best for wide or thick mats",
     description:
-      "The Athleta Prana Mat Carrier is sized and constructed for mats at the wider and thicker end of the market — which includes several popular Pilates mats that struggle with standard yoga mat carriers. The adjustable cinch system accommodates diameters up to approximately 6 inches when rolled, which covers thick 8mm mats and mats with significant diameter from a rubber or TPE construction. The padded shoulder strap distributes weight more evenly than a thin cord strap, which matters over longer carry distances. For practitioners with premium, thicker Pilates mats that don't fit comfortably into standard carriers, the Prana provides a reliable solution. Not sold on Amazon: this link goes to Athleta's own site.",
+      "The Athleta Prana Mat Carrier is sized and constructed for mats at the wider and thicker end of the market, which includes several popular Pilates mats that struggle with standard yoga mat carriers. The adjustable cinch system accommodates diameters up to approximately 6 inches when rolled, which covers thick 8mm mats and mats with significant diameter from a rubber or TPE construction. The padded shoulder strap distributes weight more evenly than a thin cord strap, which matters over longer carry distances. For practitioners with premium, thicker Pilates mats that don't fit comfortably into standard carriers, the Prana provides a reliable solution. Not sold on Amazon: this link goes to Athleta's own site.",
     affiliateUrl: "https://athleta.gap.com",
     tag: "Best for Thick Mats",
   },
@@ -78,7 +78,7 @@ const PRODUCTS = [
     price: "From $18",
     verdict: "Best value mat bag",
     description:
-      "The Tumaz Yoga Mat Bag is a fully enclosed design at a price point that makes it the obvious starting choice for practitioners who haven't yet decided how much they want to invest in a mat carrier. The bag fits mats up to 72 inches long and 4 inches in diameter — which covers most standard Pilates mats — and includes a small external pocket for essentials. The shoulder strap is not padded, which limits comfort on longer carries, but is adequate for short studio-to-car or studio-to-transit journeys. The closure design keeps the mat completely enclosed and dust-free. A practical, no-frills starting point that performs its function reliably.",
+      "The Tumaz Yoga Mat Bag is a fully enclosed design at a price point that makes it the obvious starting choice for practitioners who haven't yet decided how much they want to invest in a mat carrier. The bag fits mats up to 72 inches long and 4 inches in diameter, which covers most standard Pilates mats, and includes a small external pocket for essentials. The shoulder strap is not padded, which limits comfort on longer carries, but is adequate for short studio-to-car or studio-to-transit journeys. The closure design keeps the mat completely enclosed and dust-free. A practical, no-frills starting point that performs its function reliably.",
     affiliateUrl: "https://www.amazon.com/s?k=tumaz+yoga+mat+bag+carrier&tag=pilatescollective-20",
     tag: "Best Value",
   },
@@ -90,7 +90,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Best Pilates Mat Bags (2026): Carriers & Slings Compared",
-      "description": "The best Pilates mat bags and carriers — compared on durability, comfort, and mat compatibility.",
+      "description": "The best Pilates mat bags and carriers: compared on durability, comfort, and mat compatibility.",
       "url": "https://pilatescollectiveclub.com/blog/best-pilates-mat-bag",
       "datePublished": "2026-05-21",
       "dateModified": "2026-10-20",
@@ -126,8 +126,8 @@ const jsonLd = {
       "@type": "FAQPage",
       "mainEntity": [
         { "@type": "Question", "name": "Do I need a mat bag for Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "A mat bag is useful if you carry your own mat to studio classes or practice in multiple locations. Most reformer-only studios provide equipment including mats, so a mat bag is primarily relevant for mat Pilates practitioners. If you practice at home exclusively, a mat bag is unnecessary." } },
-        { "@type": "Question", "name": "What size mat bag do I need for a Pilates mat?", "acceptedAnswer": { "@type": "Answer", "text": "Pilates mats are typically longer (72–84 inches) and can be thicker (4–6mm) than standard yoga mats. Check the mat dimensions before buying a bag — most bags specify maximum mat length and diameter. Open sling carriers are more accommodating of different mat sizes than enclosed bags with fixed openings." } },
-        { "@type": "Question", "name": "Is an open sling or enclosed bag better for a mat?", "acceptedAnswer": { "@type": "Answer", "text": "Open slings are lighter, more compact, and accommodate a wider range of mat sizes and diameters. Enclosed bags provide better mat protection from rain, dust, and contact — preferable for commuters on public transit or practitioners who store mats in shared spaces. Choose based on your primary use case." } },
+        { "@type": "Question", "name": "What size mat bag do I need for a Pilates mat?", "acceptedAnswer": { "@type": "Answer", "text": "Pilates mats are typically longer (72–84 inches) and can be thicker (4–6mm) than standard yoga mats. Check the mat dimensions before buying a bag: most bags specify maximum mat length and diameter. Open sling carriers are more accommodating of different mat sizes than enclosed bags with fixed openings." } },
+        { "@type": "Question", "name": "Is an open sling or enclosed bag better for a mat?", "acceptedAnswer": { "@type": "Answer", "text": "Open slings are lighter, more compact, and accommodate a wider range of mat sizes and diameters. Enclosed bags provide better mat protection from rain, dust, and contact: preferable for commuters on public transit or practitioners who store mats in shared spaces. Choose based on your primary use case." } },
       ],
     },
   ],
@@ -155,7 +155,7 @@ export default function BestPilatesMatBagPage() {
             <TopPick name={PRODUCTS[1].name} price={PRODUCTS[1].price} note={QP_NOTES[1]} url={PRODUCTS[1].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              A mat bag is one of those purchases that most practitioners delay until they have suffered through enough awkward one-handed commutes with a mat tucked under an arm. The right carrier makes the mat feel lighter, protects it from urban grime and rain, and keeps your hands free — a meaningful quality-of-life improvement for practitioners who walk or transit to class. These five cover the range from open slings to fully enclosed bags, and from budget-conscious to investment-grade, with a focus on Pilates mats specifically, which tend to be longer and heavier than standard yoga mats.
+              A mat bag is one of those purchases that most practitioners delay until they have suffered through enough awkward one-handed commutes with a mat tucked under an arm. The right carrier makes the mat feel lighter, protects it from urban grime and rain, and keeps your hands free: a meaningful quality-of-life improvement for practitioners who walk or transit to class. These five cover the range from open slings to fully enclosed bags, and from budget-conscious to investment-grade, with a focus on Pilates mats specifically, which tend to be longer and heavier than standard yoga mats.
             </p>
           </div>
         </section>
@@ -194,8 +194,8 @@ export default function BestPilatesMatBagPage() {
               <div className="space-y-6">
                 {[
                   { q: "Do I need a mat bag for Pilates?", a: "A mat bag is useful if you carry your own mat to studio classes or practice in multiple locations. Most reformer-only studios provide equipment including mats, so a mat bag is primarily relevant for mat Pilates practitioners. If you practice at home exclusively, a mat bag is unnecessary." },
-                  { q: "What size mat bag do I need for a Pilates mat?", a: "Pilates mats are typically longer (72–84 inches) and can be thicker (4–6mm) than standard yoga mats. Check the mat dimensions before buying a bag — most bags specify maximum mat length and diameter. Open sling carriers are more accommodating of different mat sizes than enclosed bags with fixed openings." },
-                  { q: "Is an open sling or enclosed bag better for a mat?", a: "Open slings are lighter, more compact, and accommodate a wider range of mat sizes and diameters. Enclosed bags provide better mat protection from rain, dust, and contact — preferable for commuters on public transit or practitioners who store mats in shared spaces. Choose based on your primary use case." },
+                  { q: "What size mat bag do I need for a Pilates mat?", a: "Pilates mats are typically longer (72–84 inches) and can be thicker (4–6mm) than standard yoga mats. Check the mat dimensions before buying a bag: most bags specify maximum mat length and diameter. Open sling carriers are more accommodating of different mat sizes than enclosed bags with fixed openings." },
+                  { q: "Is an open sling or enclosed bag better for a mat?", a: "Open slings are lighter, more compact, and accommodate a wider range of mat sizes and diameters. Enclosed bags provide better mat protection from rain, dust, and contact: preferable for commuters on public transit or practitioners who store mats in shared spaces. Choose based on your primary use case." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
@@ -208,7 +208,7 @@ export default function BestPilatesMatBagPage() {
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="Best Pilates Mats" excerpt="The best mats for Pilates — five options compared on thickness, grip, and durability." href="/blog/best-pilates-mat" category="Equipment" readTime="8 min read" date="May 2026" imageUrl="/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Mats" excerpt="The best mats for Pilates: five options compared on thickness, grip, and durability." href="/blog/best-pilates-mat" category="Equipment" readTime="8 min read" date="May 2026" imageUrl="/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Bags" excerpt="The best studio carry-alls for your full Pilates kit." href="/blog/best-pilates-bag" category="Accessories" readTime="7 min read" date="May 2026" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Mat Tote Bags (2026): Carry Your Mat in Style" excerpt="The best mat tote bags for Pilates, reviewed for mat fit, capacity, and durability. Top picks for women who carry…" href="/blog/best-pilates-mat-tote" category="Guide" readTime="6 min read" imageUrl="/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg" />
                 <ArticleCard title="Manduka PRO Mat Review (2026): Worth $144 for Pilates?" excerpt="Manduka PRO and eKO mats reviewed for Pilates at $144, thickness, grip, weight, and whether a cheaper mat does the…" href="/blog/manduka-pilates-mat" category="Guide" readTime="9 min read" imageUrl="/pictures/dane-wetton-t1NEMSm1rgI-unsplash.jpg" />

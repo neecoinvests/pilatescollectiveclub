@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     description: "What to layer for Lagree: the Define Jacket, fitted alternatives from $20, and the warm cover-up for after class. Prices checked live on Amazon.",
     type: "article",
     url: PAGE_URL,
-    images: [{ url: HERO_IMAGE, width: 1200, height: 630, alt: "Studio entryway — the best jackets for Lagree class" }],
+    images: [{ url: HERO_IMAGE, width: 1200, height: 630, alt: "Studio entryway: the best jackets for Lagree class" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -95,7 +95,7 @@ const PICKS: Pick[] = [
     url: amz("B0FGXVD8XD"),
     verdict: "Slim, breathable, with pockets that actually zip",
     description:
-      "A slim-fit, lightweight full-zip with thumbhole cuffs and two zippered pockets for your phone and keys. IUGA calls out a windproof collar with a soft inner guard against zipper chafing, and moisture-wicking fabric — useful when you put it straight back on after class.",
+      "A slim-fit, lightweight full-zip with thumbhole cuffs and two zippered pockets for your phone and keys. IUGA calls out a windproof collar with a soft inner guard against zipper chafing, and moisture-wicking fabric: useful when you put it straight back on after class.",
   },
   {
     id: "90-degree",
@@ -146,7 +146,7 @@ const PICKS: Pick[] = [
 const FAQS = [
   {
     q: "Do you need a jacket for Lagree?",
-    a: "Not during class — you will be too warm within minutes. A layer is for before and after: studios are often kept cool, and you walk out damp with sweat. A fitted zip jacket goes on and off quickly and keeps you warm on the way home.",
+    a: "Not during class: you will be too warm within minutes. A layer is for before and after: studios are often kept cool, and you walk out damp with sweat. A fitted zip jacket goes on and off quickly and keeps you warm on the way home.",
   },
   {
     q: "Can you wear a jacket during a Lagree class?",
@@ -271,7 +271,7 @@ export default function LagreeJacketPage() {
             <TopPick name={QUICK_PICKS[0].name} price={QUICK_PICKS[0].price} note={QUICK_PICKS[0].note} url={QUICK_PICKS[0].url} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Nobody keeps a jacket on through a Lagree class — five minutes of slow lunges on the Megaformer and you&apos;re peeling it off. But you need one for the other two moments: waiting in a cool studio before class, and walking out drenched afterwards. That calls for a fitted zip layer that goes on fast over a damp top, keeps its shape and holds your phone. Here are seven, from the lululemon Define Jacket to a three-pack for about $33.
+              Nobody keeps a jacket on through a Lagree class: five minutes of slow lunges on the Megaformer and you&apos;re peeling it off. But you need one for the other two moments: waiting in a cool studio before class, and walking out drenched afterwards. That calls for a fitted zip layer that goes on fast over a damp top, keeps its shape and holds your phone. Here are seven, from the lululemon Define Jacket to a three-pack for about $33.
             </p>
             <p className="text-sm leading-relaxed" style={bodyStyle}>
               Every Amazon price and stock status was checked live on October 4, 2026. Prices change, so the final price is whatever Amazon shows at checkout.
@@ -304,7 +304,7 @@ export default function LagreeJacketPage() {
                   { h: "Fitted, not baggy", b: "It goes over a tank and leggings without bunching, and a slim cut keeps you warm without bulk." },
                   { h: "Full zip", b: "Pulling a sweatshirt over a soaked sports bra is miserable. A full zip goes on and off in seconds." },
                   { h: "Thumbholes", b: "They keep sleeves down when you carry your bag and water bottle, and keep your hands warm in a cold studio." },
-                  { h: "Zip pockets", b: "Phone, keys and card in zippered pockets — so you can leave your bag in the cubby." },
+                  { h: "Zip pockets", b: "Phone, keys and card in zippered pockets, so you can leave your bag in the cubby." },
                 ].map((item) => (
                   <div key={item.h} className="rounded-xl p-5" style={cardStyle}>
                     <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.h}</p>

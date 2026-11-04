@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "Best Luxury Pilates Reformers for Home Studios (2026)",
-    description: "Balanced Body's Studio and Rialto luxury line, plus Merrithew's Rehab V2 Max Plus — the investment-grade reformers for the serious home studio, all available on Amazon.",
+    description: "Balanced Body's Studio and Rialto luxury line, plus Merrithew's Rehab V2 Max Plus: the investment-grade reformers for the serious home studio, all available on Amazon.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-luxury-pilates-reformer",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/stitch-reformer-morning-light.png", width: 1200, height: 630, alt: "Best Luxury Pilates Reformers 2026" }],
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Best Luxury Pilates Reformers for Home Studios (2026)",
-    description: "Balanced Body Studio and Rialto, plus Merrithew Rehab V2 Max Plus — investment-grade reformers for the serious home studio.",
+    description: "Balanced Body Studio and Rialto, plus Merrithew Rehab V2 Max Plus: investment-grade reformers for the serious home studio.",
     images: ["https://pilatescollectiveclub.com/pictures/stitch-reformer-morning-light.png"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/best-luxury-pilates-reformer" },
@@ -65,7 +65,7 @@ const PRODUCTS = [
     price: "$4,850",
     verdict: "Most Adjustable Footbar",
     tag: "Commercial Grade",
-    description: "The same solid Strata Rock Maple Studio Reformer, built with the XSR footbar instead of the standard Revo — a wider range of footbar and springbar positions for practitioners who want to fine-tune leg and foot placement precisely. It keeps the TwistLock shoulder rests, the weight-bearing and adjustable-wheel carriage system, and the 5 Signature Springs. Sold direct by Balanced Body on Amazon; made to order.",
+    description: "The same solid Strata Rock Maple Studio Reformer, built with the XSR footbar instead of the standard Revo: a wider range of footbar and springbar positions for practitioners who want to fine-tune leg and foot placement precisely. It keeps the TwistLock shoulder rests, the weight-bearing and adjustable-wheel carriage system, and the 5 Signature Springs. Sold direct by Balanced Body on Amazon; made to order.",
     affiliateUrl: "https://www.amazon.com/dp/B0CQZ1KCKY?tag=pilatescollective-20",
   },
   {
@@ -118,7 +118,7 @@ const jsonLd = {
     {
       "@type": "Article",
       headline: "Best Luxury Pilates Reformers for Home Studios (2026)",
-      description: "The finest Pilates reformers available on Amazon — Balanced Body's Studio and Rialto luxury line, plus Merrithew's Rehab V2 Max Plus, compared for craftsmanship, performance, and investment value.",
+      description: "The finest Pilates reformers available on Amazon: Balanced Body's Studio and Rialto luxury line, plus Merrithew's Rehab V2 Max Plus, compared for craftsmanship, performance, and investment value.",
       url: "https://pilatescollectiveclub.com/blog/best-luxury-pilates-reformer",
       datePublished: "2026-07-06",
       dateModified: "2026-10-20",
@@ -179,10 +179,10 @@ export default function BestLuxuryPilatesReformerPage() {
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              At the summit of the Pilates equipment market sits a small number of machines built to a standard that has nothing to do with price sensitivity. Balanced Body&apos;s Studio and Rialto lines, and Merrithew&apos;s clinical-grade Rehab V2 Max Plus, represent decades of manufacturing craft and precision engineering — and, unlike most boutique reformer makers, they&apos;re sold direct through Amazon rather than only through a dealer network.
+              At the summit of the Pilates equipment market sits a small number of machines built to a standard that has nothing to do with price sensitivity. Balanced Body&apos;s Studio and Rialto lines, and Merrithew&apos;s clinical-grade Rehab V2 Max Plus, represent decades of manufacturing craft and precision engineering, and, unlike most boutique reformer makers, they&apos;re sold direct through Amazon rather than only through a dealer network.
             </p>
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              These are machines built to last thirty years in commercial studio environments, now available to the serious home practitioner. They are not the first reformer most people buy — they are often the last.
+              These are machines built to last thirty years in commercial studio environments, now available to the serious home practitioner. They are not the first reformer most people buy: they are often the last.
             </p>
           </div>
         </section>
@@ -243,8 +243,8 @@ export default function BestLuxuryPilatesReformerPage() {
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="Best Luxury Pilates Accessories" excerpt="STOTT Fitness Circle Pro, TriggerPoint GRID 2.0, the Balanced Body Pilates Arc — premium small equipment for the serious practitioner." href="/blog/best-luxury-pilates-accessories" category="Equipment" readTime="9 min" imageUrl="/pictures/stitch-props-cork-ring.png" />
-                <ArticleCard title="Best Premium Pilates Reformer" excerpt="The best reformers at the $800–$2,500 tier — Merrithew SPX, Align Pilates, and more for serious home practitioners." href="/blog/best-premium-pilates-reformer" category="Equipment" readTime="10 min" imageUrl="/pictures/stitch-reformers-aerial-row.png" />
+                <ArticleCard title="Best Luxury Pilates Accessories" excerpt="STOTT Fitness Circle Pro, TriggerPoint GRID 2.0, the Balanced Body Pilates Arc: premium small equipment for the serious practitioner." href="/blog/best-luxury-pilates-accessories" category="Equipment" readTime="9 min" imageUrl="/pictures/stitch-props-cork-ring.png" />
+                <ArticleCard title="Best Premium Pilates Reformer" excerpt="The best reformers at the $800–$2,500 tier: Merrithew SPX, Align Pilates, and more for serious home practitioners." href="/blog/best-premium-pilates-reformer" category="Equipment" readTime="10 min" imageUrl="/pictures/stitch-reformers-aerial-row.png" />
                 <ArticleCard title="Best Home Pilates Reformer (2026): $359 to $4,700 Compared" excerpt="Home Pilates reformers from $359 to $4,700 compared on springs, rail length and footprint, plus which budget tier…" href="/blog/best-home-pilates-reformer" category="Reformers" readTime="11 min read" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Reformer Brands (2026): Complete Brand Guide" excerpt="The best Pilates reformer brands of 2026: Balanced Body, Merrithew, Gratz, Align, and more compared on spring…" href="/blog/best-pilates-reformer-brands" category="Activewear" readTime="18 min read" imageUrl="/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Reformer for Small Spaces (2026): 7 Picks" excerpt="The best Pilates reformers for small spaces, seven real, verified Amazon listings, foldable and compact options…" href="/blog/best-pilates-reformer-for-small-spaces" category="Reformers" readTime="9 min read" imageUrl="/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg" />

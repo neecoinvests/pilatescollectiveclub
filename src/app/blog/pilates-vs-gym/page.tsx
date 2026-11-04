@@ -10,13 +10,13 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Pilates vs Gym (2026): Which is Right for You?",
-  description: "Pilates vs gym training compared — muscle building, core strength, cost per session, and which approach better fits different fitness goals and lifestyles.",
+  description: "Pilates vs gym training compared: muscle building, core strength, cost per session, and which approach better fits different fitness goals and lifestyles.",
   openGraph: {
     title: "Pilates vs Gym: An Honest Comparison",
-    description: "Strength, cost, body composition, injury risk — an evidence-based assessment of both, and who should choose what.",
+    description: "Strength, cost, body composition, injury risk: an evidence-based assessment of both, and who should choose what.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/pilates-vs-gym",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/ahmet-kurt-0xn-8kRWOhE-unsplash.jpg", width: 1200, height: 630, alt: "Pilates vs Gym — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/ahmet-kurt-0xn-8kRWOhE-unsplash.jpg", width: 1200, height: 630, alt: "Pilates vs Gym: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -38,7 +38,7 @@ const jsonLd = {
       "@type": "Article",
       "@id": "https://pilatescollectiveclub.com/blog/pilates-vs-gym/#article",
       "headline": "Pilates vs Gym: Which Is Better for Your Goals?",
-      "description": "An honest comparison of Pilates and gym training — strength, body composition, flexibility, cost, and injury risk.",
+      "description": "An honest comparison of Pilates and gym training: strength, body composition, flexibility, cost, and injury risk.",
       "image": {
         "@type": "ImageObject",
         "url": "https://pilatescollectiveclub.com/pictures/ahmet-kurt-0xn-8kRWOhE-unsplash.jpg",
@@ -78,7 +78,7 @@ const jsonLd = {
         {
           "@type": "Question",
           "name": "Is Pilates better than gym for weight loss?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Gym training (particularly strength training combined with cardio) burns more calories per session than Pilates. However, Pilates produces body composition changes — muscle development in the core, glutes, and stabilisers — that complement gym training well. The most effective approach for weight loss combines both." }
+          "acceptedAnswer": { "@type": "Answer", "text": "Gym training (particularly strength training combined with cardio) burns more calories per session than Pilates. However, Pilates produces body composition changes (muscle development in the core, glutes, and stabilisers) that complement gym training well. The most effective approach for weight loss combines both." }
         },
         {
           "@type": "Question",
@@ -93,7 +93,7 @@ const jsonLd = {
         {
           "@type": "Question",
           "name": "Should I do Pilates before or after gym?",
-          "acceptedAnswer": { "@type": "Answer", "text": "If doing both in a single session, Pilates before strength training activates the stabilisers and improves body awareness. If training on separate days, there's no meaningful difference. Many practitioners use Pilates on rest days from gym training — the movement quality focus provides active recovery without competing demands." }
+          "acceptedAnswer": { "@type": "Answer", "text": "If doing both in a single session, Pilates before strength training activates the stabilisers and improves body awareness. If training on separate days, there's no meaningful difference. Many practitioners use Pilates on rest days from gym training: the movement quality focus provides active recovery without competing demands." }
         },
       ],
     },
@@ -109,7 +109,7 @@ const comparisons = [
   },
   {
     category: "Body composition",
-    pilates: "Consistently improves body composition — reduces waist circumference, increases lean mass in key areas. Lower caloric burn per session limits overall weight loss.",
+    pilates: "Consistently improves body composition: reduces waist circumference, increases lean mass in key areas. Lower caloric burn per session limits overall weight loss.",
     gym: "Higher caloric expenditure per session. Strength training combined with cardio is the most evidence-supported approach for body composition change.",
     verdict: "Both effective. Combined approach produces best results.",
   },
@@ -162,7 +162,7 @@ export default function PilatesVsGymPage() {
 
             <section className="pb-20">
               <p className="text-lg leading-relaxed mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-                The Pilates vs gym debate generates more heat than light. Both approaches work. The right choice depends on your goals, your body, and what you'll actually sustain consistently. This guide compares them honestly across the dimensions that matter — without the tribal loyalty that tends to dominate these discussions.
+                The Pilates vs gym debate generates more heat than light. Both approaches work. The right choice depends on your goals, your body, and what you'll actually sustain consistently. This guide compares them honestly across the dimensions that matter, without the tribal loyalty that tends to dominate these discussions.
               </p>
 
               <div className="space-y-6 mb-16">
@@ -190,7 +190,7 @@ export default function PilatesVsGymPage() {
 
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The case for doing both</h2>
               <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                The most common trajectory among serious practitioners is: gym training from their 20s, adding Pilates in their 30s as injury prevention becomes a priority, and eventually shifting predominantly to Pilates as longevity becomes the goal. This trajectory is supported by research on exercise throughout the lifespan — high-impact, high-load training peaks in early adulthood, while movement quality and stability training become progressively more important with age.
+                The most common trajectory among serious practitioners is: gym training from their 20s, adding Pilates in their 30s as injury prevention becomes a priority, and eventually shifting predominantly to Pilates as longevity becomes the goal. This trajectory is supported by research on exercise throughout the lifespan: high-impact, high-load training peaks in early adulthood, while movement quality and stability training become progressively more important with age.
               </p>
               <p className="text-base leading-relaxed mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                 For those who want to combine both, the practical structure is: 2-3 gym sessions per week (strength focus) plus 2-3 Pilates sessions (mobility, stability, body awareness). If you need a home reformer for Pilates work, see our{" "}
@@ -207,10 +207,10 @@ export default function PilatesVsGymPage() {
                 <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
                 <div className="space-y-6">
                   {[
-                    { q: "Is Pilates better than gym for weight loss?", a: "Gym training (particularly strength training combined with cardio) burns more calories per session than Pilates. However, Pilates produces body composition changes — muscle development in the core, glutes, and stabilisers — that complement gym training well. The most effective approach for weight loss combines both." },
+                    { q: "Is Pilates better than gym for weight loss?", a: "Gym training (particularly strength training combined with cardio) burns more calories per session than Pilates. However, Pilates produces body composition changes (muscle development in the core, glutes, and stabilisers) that complement gym training well. The most effective approach for weight loss combines both." },
                     { q: "Can Pilates replace the gym?", a: "For strength sport goals (powerlifting, bodybuilding), no. For general fitness, health, and longevity goals, Pilates can be a primary training modality. Reformer Pilates provides genuine resistance training stimulus for those who don't pursue maximal strength. Many practitioners replace gym work entirely with Pilates and achieve excellent long-term outcomes." },
                     { q: "Is Pilates considered strength training?", a: "Contemporary Pilates, particularly reformer Pilates, is increasingly recognised as a form of resistance training. The spring resistance on a reformer produces meaningful muscular challenge, particularly for the core, hip, and shoulder stabilisers. It won't build maximal strength like barbell training, but it develops the functional strength most people need for daily life and healthy ageing." },
-                    { q: "Should I do Pilates before or after gym?", a: "If doing both in a single session, Pilates before strength training activates the stabilisers and improves body awareness. If training on separate days, there's no meaningful difference. Many practitioners use Pilates on rest days from gym training — the movement quality focus provides active recovery without competing demands." },
+                    { q: "Should I do Pilates before or after gym?", a: "If doing both in a single session, Pilates before strength training activates the stabilisers and improves body awareness. If training on separate days, there's no meaningful difference. Many practitioners use Pilates on rest days from gym training: the movement quality focus provides active recovery without competing demands." },
                   ].map((item) => (
                     <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                       <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>

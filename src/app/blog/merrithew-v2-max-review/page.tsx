@@ -15,15 +15,15 @@ export const metadata: Metadata = {
   description: "Merrithew Rehab V2 Max Plus review at $8,199: the V2 Max model sold on Amazon, its Vertical Frame and springs, and whether it beats the At Home SPX.",
   openGraph: {
     title: "Merrithew Rehab V2 Max Plus Reformer Review (2026): Is It Worth the Upgrade?",
-    description: "The Merrithew Rehab V2 Max Plus reviewed in detail — patented retractable rope system, built-in Vertical Frame, high-precision springs, and the honest answer on whether it justifies the price over the At Home SPX.",
+    description: "The Merrithew Rehab V2 Max Plus reviewed in detail: patented retractable rope system, built-in Vertical Frame, high-precision springs, and the honest answer on whether it justifies the price over the At Home SPX.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/merrithew-v2-max-review",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg", width: 1200, height: 630, alt: "Merrithew Rehab V2 Max Plus Reformer Review — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg", width: 1200, height: 630, alt: "Merrithew Rehab V2 Max Plus Reformer Review: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Merrithew Rehab V2 Max Plus Reformer Review (2026)",
-    description: "In-depth review of the Merrithew Rehab V2 Max Plus — specs, spring feel, and whether it justifies the upgrade over the At Home SPX.",
+    description: "In-depth review of the Merrithew Rehab V2 Max Plus: specs, spring feel, and whether it justifies the upgrade over the At Home SPX.",
     images: ["https://pilatescollectiveclub.com/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg"],
   },
   keywords: ["merrithew rehab v2 max plus review", "merrithew v2 max reformer 2026", "stott pilates v2 max review", "v2 max plus merrithew review", "merrithew v2 max price", "is merrithew v2 max worth it", "merrithew v2 max vs at home spx", "best clinical grade home reformer"],
@@ -38,7 +38,7 @@ const jsonLd = {
       "@type": "Article",
       "@id": "https://pilatescollectiveclub.com/blog/merrithew-v2-max-review/#article",
       "headline": "Merrithew Rehab V2 Max Plus Reformer Review (2026): Is It Worth the Upgrade?",
-      "description": "An in-depth review of the Merrithew Rehab V2 Max Plus Reformer — specs, spring feel, retractable rope system, and honest comparison with the At Home SPX.",
+      "description": "An in-depth review of the Merrithew Rehab V2 Max Plus Reformer: specs, spring feel, retractable rope system, and honest comparison with the At Home SPX.",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "@id": "https://pilatescollectiveclub.com/#organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "@id": "https://pilatescollectiveclub.com/#organization", "name": "Pilates Collective Club", "logo": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/pcc-logo.png" } },
@@ -121,9 +121,9 @@ export default function MerrithewV2MaxReviewPage() {
               {/* Quick verdict */}
               <div className="mb-12 rounded-2xl p-7" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.4)" }}>
                 <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Quick Verdict</p>
-                <p className="text-lg font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The V2 Max-family machine Merrithew actually sells on Amazon — a raised, clinical-grade frame with a built-in Vertical Frame. Worth it for clinics and rehab use; overkill for most home practitioners.</p>
+                <p className="text-lg font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The V2 Max-family machine Merrithew actually sells on Amazon: a raised, clinical-grade frame with a built-in Vertical Frame. Worth it for clinics and rehab use; overkill for most home practitioners.</p>
                 <p className="text-sm leading-relaxed mb-5" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                  A note before the review: Merrithew&apos;s studio-line V2 Max and V2 Max Plus are sold direct and through dealers, not as their own Amazon listings. The V2 Max-family reformer you can actually buy on Amazon is the Rehab V2 Max Plus — a raised frame built for clinics, with the Vertical Frame included. That&apos;s what this review covers, priced honestly at $8,199, not the lower figure sometimes quoted for the studio model.
+                  A note before the review: Merrithew&apos;s studio-line V2 Max and V2 Max Plus are sold direct and through dealers, not as their own Amazon listings. The V2 Max-family reformer you can actually buy on Amazon is the Rehab V2 Max Plus: a raised frame built for clinics, with the Vertical Frame included. That&apos;s what this review covers, priced honestly at $8,199, not the lower figure sometimes quoted for the studio model.
                 </p>
                 <div className="flex flex-wrap gap-3">
                   <a href="https://www.amazon.com/dp/B002ABYKFI?tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" className="inline-block px-5 py-2.5 rounded-xl text-sm font-semibold" style={{ backgroundColor: "#8b4a31", color: "#ffffff", fontFamily: "'Montserrat', sans-serif" }}>
@@ -143,10 +143,10 @@ export default function MerrithewV2MaxReviewPage() {
                     { label: "Dimensions", value: "97″ L × 30″ W × 77″ H (height includes the built-in Vertical Frame)" },
                     { label: "Machine weight", value: "224 lbs" },
                     { label: "Price", value: "$8,199, sold by Merrithew on Amazon" },
-                    { label: "Frame", value: "Raised — easier to mount and dismount, the reason clinics choose it" },
-                    { label: "Rope system", value: "Patented retractable — no rope management between exercises" },
-                    { label: "Vertical Frame", value: "Included — most other Merrithew reformers sell it separately" },
-                    { label: "Tower compatible", value: "Yes — Vertical Frame ships built in" },
+                    { label: "Frame", value: "Raised: easier to mount and dismount, the reason clinics choose it" },
+                    { label: "Rope system", value: "Patented retractable: no rope management between exercises" },
+                    { label: "Vertical Frame", value: "Included: most other Merrithew reformers sell it separately" },
+                    { label: "Tower compatible", value: "Yes: Vertical Frame ships built in" },
                     { label: "Shipping", value: "Made to order; leadtime, not immediate stock" },
                   ].map((row, i) => (
                     <div key={row.label} className="flex gap-4 px-5 py-4" style={{ backgroundColor: i % 2 === 0 ? "#ffffff" : "#faf8f7", borderBottom: "1px solid rgba(217,194,186,0.2)" }}>
@@ -169,7 +169,7 @@ export default function MerrithewV2MaxReviewPage() {
                     },
                     {
                       heading: "Built-in Vertical Frame",
-                      body: "Most Merrithew reformers sell the Vertical Frame — the accessory that adds tower-style standing and spring work — separately. On the Rehab V2 Max Plus it ships built in, which is a meaningful part of why the price sits well above the At Home SPX. If you know you want tower work from day one, that's folded into the cost here rather than an add-on purchase later.",
+                      body: "Most Merrithew reformers sell the Vertical Frame, the accessory that adds tower-style standing and spring work, separately. On the Rehab V2 Max Plus it ships built in, which is a meaningful part of why the price sits well above the At Home SPX. If you know you want tower work from day one, that's folded into the cost here rather than an add-on purchase later.",
                     },
                     {
                       heading: "Patented retractable rope system",
@@ -192,7 +192,7 @@ export default function MerrithewV2MaxReviewPage() {
               <div className="mb-12">
                 <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Rehab V2 Max Plus vs At Home SPX: The honest comparison</h2>
                 <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                  These are the two Merrithew machines actually sold on Amazon. They are not comparable price tiers — the Rehab V2 Max Plus costs roughly two and a half times as much — so the honest question is not &quot;which is better&quot; but &quot;which one matches what you&apos;re buying it for.&quot;
+                  These are the two Merrithew machines actually sold on Amazon. They are not comparable price tiers, the Rehab V2 Max Plus costs roughly two and a half times as much, so the honest question is not &quot;which is better&quot; but &quot;which one matches what you&apos;re buying it for.&quot;
                 </p>
                 <div className="rounded-xl overflow-hidden mb-4" style={{ border: "1px solid rgba(217,194,186,0.4)" }}>
                   <table className="w-full text-sm">
@@ -209,7 +209,7 @@ export default function MerrithewV2MaxReviewPage() {
                         { feature: "Sold by", spx: "Amazon.com directly", v2: "Merrithew (Amazon storefront)" },
                         { feature: "Springs", spx: "5 springs (4×100%, 1×50%)", v2: "High-precision spring package" },
                         { feature: "Rope system", spx: "Standard", v2: "Patented retractable" },
-                        { feature: "Frame height", spx: "Standard", v2: "Raised — easier to mount/dismount" },
+                        { feature: "Frame height", spx: "Standard", v2: "Raised: easier to mount/dismount" },
                         { feature: "Vertical Frame / tower", spx: "Not included", v2: "Included" },
                         { feature: "Machine weight", spx: "115 lbs", v2: "224 lbs" },
                         { feature: "Included accessories", spx: "Box, roll-up pole, platform extender, straps", v2: "Vertical Frame" },
@@ -225,7 +225,7 @@ export default function MerrithewV2MaxReviewPage() {
                 </div>
                 <div className="rounded-xl p-5" style={{ backgroundColor: "#fdf5f3", border: "1px solid rgba(139,74,49,0.15)" }}>
                   <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                    <strong style={{ color: "#1b1c1c" }}>Bottom line:</strong> the At Home SPX gets a serious home practitioner the full mat-and-footwork repertoire on genuine Merrithew springs for $3,349. The Rehab V2 Max Plus adds a raised frame and a built-in Vertical Frame for tower work — real, specific upgrades that justify the price if you need them (a clinic, a practitioner with mobility limitations, or someone who wants tower work from day one), and an expensive way to get standard reformer training if you don&apos;t.
+                    <strong style={{ color: "#1b1c1c" }}>Bottom line:</strong> the At Home SPX gets a serious home practitioner the full mat-and-footwork repertoire on genuine Merrithew springs for $3,349. The Rehab V2 Max Plus adds a raised frame and a built-in Vertical Frame for tower work: real, specific upgrades that justify the price if you need them (a clinic, a practitioner with mobility limitations, or someone who wants tower work from day one), and an expensive way to get standard reformer training if you don&apos;t.
                   </p>
                 </div>
               </div>
@@ -238,8 +238,8 @@ export default function MerrithewV2MaxReviewPage() {
                     { fit: true, desc: "Clinics and physiotherapy practices whose clients benefit from a raised, easy-to-mount frame" },
                     { fit: true, desc: "Practitioners who want tower/Vertical Frame work included from day one rather than added later" },
                     { fit: true, desc: "Merrithew-certified educators who want their home machine to match their teaching studio's clinical line" },
-                    { fit: false, desc: "Home practitioners who mainly want genuine Merrithew spring quality — the At Home SPX covers the core repertoire for well under half the price" },
-                    { fit: false, desc: "Anyone tight on floor space — at 224 lbs and 77 inches tall with the Vertical Frame, this is a permanent installation" },
+                    { fit: false, desc: "Home practitioners who mainly want genuine Merrithew spring quality: the At Home SPX covers the core repertoire for well under half the price" },
+                    { fit: false, desc: "Anyone tight on floor space, at 224 lbs and 77 inches tall with the Vertical Frame, this is a permanent installation" },
                   ].map((item, i) => (
                     <div key={i} className="flex items-start gap-3 rounded-lg px-4 py-3" style={{ backgroundColor: item.fit ? "#f0f7f1" : "#fdf5f3", border: `1px solid ${item.fit ? "rgba(83,98,87,0.2)" : "rgba(139,74,49,0.15)"}` }}>
                       <span className="text-base font-bold shrink-0 mt-0.5" style={{ color: item.fit ? "#536257" : "#8b4a31" }}>{item.fit ? "✓" : "✗"}</span>
@@ -258,8 +258,8 @@ export default function MerrithewV2MaxReviewPage() {
                 <div className="space-y-3">
                   {[
                     { name: "STOTT PILATES Merrithew Jumpboard (22\")", desc: "Converts the reformer for cardio-based footwork and jump training.", url: "https://www.amazon.com/dp/B004ICZD2Q?tag=pilatescollective-20" },
-                    { name: "Balanced Body Replacement Reformer Ropes with Clips", desc: "A reliable replacement set if your current ropes are fraying or stretched — fits most reformer rope-and-pulley systems.", url: "https://www.amazon.com/dp/B0CYM27QMZ?tag=pilatescollective-20" },
-                    { name: "Amazon Basics Microfiber Cleaning Cloths (24-pack)", desc: "For keeping vinyl upholstery and rails clean between sessions — a clinic detail that matters with daily client turnover.", url: "https://www.amazon.com/dp/B009FUF6DM?tag=pilatescollective-20" },
+                    { name: "Balanced Body Replacement Reformer Ropes with Clips", desc: "A reliable replacement set if your current ropes are fraying or stretched: fits most reformer rope-and-pulley systems.", url: "https://www.amazon.com/dp/B0CYM27QMZ?tag=pilatescollective-20" },
+                    { name: "Amazon Basics Microfiber Cleaning Cloths (24-pack)", desc: "For keeping vinyl upholstery and rails clean between sessions: a clinic detail that matters with daily client turnover.", url: "https://www.amazon.com/dp/B009FUF6DM?tag=pilatescollective-20" },
                   ].map((item) => (
                     <div key={item.name} className="flex items-start justify-between gap-4 rounded-lg px-4 py-3 bg-white" style={{ border: "1px solid rgba(217,194,186,0.3)" }}>
                       <div>
@@ -277,9 +277,9 @@ export default function MerrithewV2MaxReviewPage() {
               {/* Final verdict */}
               <div className="mb-12 rounded-2xl p-8 md:p-10" style={{ background: "linear-gradient(135deg, #8b4a31 0%, #a86247 100%)" }}>
                 <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-4 opacity-75" style={{ color: "#ffffff", fontFamily: "'Montserrat', sans-serif" }}>Our Verdict</p>
-                <h2 className="text-2xl font-semibold mb-4" style={{ color: "#ffffff", fontFamily: "'Playfair Display', serif" }}>A genuine clinical machine — but the At Home SPX is the better value for most home buyers.</h2>
+                <h2 className="text-2xl font-semibold mb-4" style={{ color: "#ffffff", fontFamily: "'Playfair Display', serif" }}>A genuine clinical machine, but the At Home SPX is the better value for most home buyers.</h2>
                 <p className="text-base leading-relaxed mb-6 opacity-85" style={{ color: "#ffffff", fontFamily: "'Montserrat', sans-serif" }}>
-                  The Rehab V2 Max Plus is the real V2 Max-family machine Merrithew sells on Amazon, and its raised frame and built-in Vertical Frame are genuine, specific upgrades — not marketing gloss. For a clinic or a practitioner who wants tower work from the start, $8,199 buys real capability. For a home practitioner who trains a few times a week and mainly wants Merrithew&apos;s spring feel, the At Home SPX Reformer Package delivers the core repertoire for well under half the price, sold and shipped by Amazon.com directly.
+                  The Rehab V2 Max Plus is the real V2 Max-family machine Merrithew sells on Amazon, and its raised frame and built-in Vertical Frame are genuine, specific upgrades, not marketing gloss. For a clinic or a practitioner who wants tower work from the start, $8,199 buys real capability. For a home practitioner who trains a few times a week and mainly wants Merrithew&apos;s spring feel, the At Home SPX Reformer Package delivers the core repertoire for well under half the price, sold and shipped by Amazon.com directly.
                 </p>
                 <div className="flex flex-wrap gap-3">
                   <a href="https://www.amazon.com/dp/B002ABYKFI?tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" className="inline-block px-6 py-3 rounded-xl text-sm font-semibold transition-opacity hover:opacity-90" style={{ backgroundColor: "#ffffff", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>

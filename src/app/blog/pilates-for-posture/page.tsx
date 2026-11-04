@@ -14,10 +14,10 @@ export const metadata: Metadata = {
   description: "Pilates for posture: the best reformer and mat exercises for forward head posture, rounded shoulders and anterior pelvic tilt. An evidence-based guide.",
   openGraph: {
     title: "Pilates for Better Posture: The Exercises That Work",
-    description: "Forward head, rounded shoulders, anterior pelvic tilt — the Pilates exercises that specifically correct each pattern.",
+    description: "Forward head, rounded shoulders, anterior pelvic tilt: the Pilates exercises that specifically correct each pattern.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/pilates-for-posture",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg", width: 1200, height: 630, alt: "Pilates for Posture — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg", width: 1200, height: 630, alt: "Pilates for Posture: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -39,7 +39,7 @@ const jsonLd = {
       "@type": "Article",
       "@id": "https://pilatescollectiveclub.com/blog/pilates-for-posture/#article",
       "headline": "Pilates for Posture: The Exercises That Actually Work",
-      "description": "How Pilates corrects posture — exercises for forward head, rounded shoulders, anterior pelvic tilt, and thoracic kyphosis.",
+      "description": "How Pilates corrects posture: exercises for forward head, rounded shoulders, anterior pelvic tilt, and thoracic kyphosis.",
       "image": {
         "@type": "ImageObject",
         "url": "https://pilatescollectiveclub.com/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg",
@@ -79,17 +79,17 @@ const jsonLd = {
         {
           "@type": "Question",
           "name": "How long does it take for Pilates to improve posture?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Noticeable postural changes typically emerge after 6-8 weeks of consistent practice (3 sessions per week). Joseph Pilates believed the method re-educated the body's habitual patterns — this re-education takes time but is measurable. Professional posture assessments before and after 12 weeks consistently show significant improvements." }
+          "acceptedAnswer": { "@type": "Answer", "text": "Noticeable postural changes typically emerge after 6-8 weeks of consistent practice (3 sessions per week). Joseph Pilates believed the method re-educated the body's habitual patterns: this re-education takes time but is measurable. Professional posture assessments before and after 12 weeks consistently show significant improvements." }
         },
         {
           "@type": "Question",
           "name": "Does Pilates fix rounded shoulders?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Yes. Rounded shoulders result from tight pectorals and weak mid-back muscles (rhomboids, lower trapezius). Pilates exercises like swan, chest expansion, and the backstroke series specifically target this pattern — lengthening the anterior chain and strengthening the posterior chain simultaneously." }
+          "acceptedAnswer": { "@type": "Answer", "text": "Yes. Rounded shoulders result from tight pectorals and weak mid-back muscles (rhomboids, lower trapezius). Pilates exercises like swan, chest expansion, and the backstroke series specifically target this pattern: lengthening the anterior chain and strengthening the posterior chain simultaneously." }
         },
         {
           "@type": "Question",
           "name": "Can Pilates fix anterior pelvic tilt?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Anterior pelvic tilt — where the pelvis tips forward, exaggerating the lumbar curve — is a primary focus of mat and reformer Pilates. The emphasis on neutral spine, deep abdominal engagement, and hip flexor lengthening directly addresses the muscular imbalances that cause anterior pelvic tilt." }
+          "acceptedAnswer": { "@type": "Answer", "text": "Anterior pelvic tilt (where the pelvis tips forward, exaggerating the lumbar curve) is a primary focus of mat and reformer Pilates. The emphasis on neutral spine, deep abdominal engagement, and hip flexor lengthening directly addresses the muscular imbalances that cause anterior pelvic tilt." }
         },
         {
           "@type": "Question",
@@ -165,10 +165,10 @@ export default function PilatesForPosturePage() {
 
             <section className="pb-20">
               <p className="text-lg leading-relaxed mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-                Pilates is among the most evidence-supported interventions for postural correction. Not because it focuses on posture as an aesthetic goal, but because every exercise in the method requires and trains spinal alignment simultaneously. The postural improvement is a structural consequence of the work — which is why it tends to stick in a way that other postural correction programmes don't.
+                Pilates is among the most evidence-supported interventions for postural correction. Not because it focuses on posture as an aesthetic goal, but because every exercise in the method requires and trains spinal alignment simultaneously. The postural improvement is a structural consequence of the work, which is why it tends to stick in a way that other postural correction programmes don't.
               </p>
 
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The four most common postural deviations — and the Pilates exercises that address them</h2>
+              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The four most common postural deviations, and the Pilates exercises that address them</h2>
 
               <div className="space-y-8 mb-10">
                 {postureIssues.map((issue) => (
@@ -199,11 +199,11 @@ export default function PilatesForPosturePage() {
                 <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                   A{" "}
                   foam roller{" "}
-                  placed lengthways along the spine is one of the most effective tools for thoracic extension — it passively opens the chest and stretches the anterior chain that prolonged sitting compresses. Use it for 5-10 minutes before any Pilates session for immediate postural improvement.
+                  placed lengthways along the spine is one of the most effective tools for thoracic extension: it passively opens the chest and stretches the anterior chain that prolonged sitting compresses. Use it for 5-10 minutes before any Pilates session for immediate postural improvement.
                 </p>
                 <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                   Long resistance bands{" "}
-                  substitute for the reformer straps in chest expansion, rowing, and backstroke exercises — all of which directly target rounded shoulders and thoracic kyphosis. For home practice, they're the most versatile postural correction tool available.
+                  substitute for the reformer straps in chest expansion, rowing, and backstroke exercises: all of which directly target rounded shoulders and thoracic kyphosis. For home practice, they're the most versatile postural correction tool available.
                 </p>
                 <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                   For a full review of foam rollers, see our{" "}
@@ -213,16 +213,16 @@ export default function PilatesForPosturePage() {
 
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>How long postural improvement takes</h2>
               <p className="text-base leading-relaxed mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Postural habits form over years of repetitive positioning. They don't reverse in a week. The research on Pilates and posture consistently shows significant improvement at 6-8 weeks for objective measurements (spinal angle, shoulder position, head position), with further improvement at 12 weeks. Sustained practice (3+ sessions per week) is required to maintain the gains — if practice stops, postural habits return.
+                Postural habits form over years of repetitive positioning. They don't reverse in a week. The research on Pilates and posture consistently shows significant improvement at 6-8 weeks for objective measurements (spinal angle, shoulder position, head position), with further improvement at 12 weeks. Sustained practice (3+ sessions per week) is required to maintain the gains, if practice stops, postural habits return.
               </p>
 
               <div className="mb-16">
                 <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
                 <div className="space-y-6">
                   {[
-                    { q: "How long does it take for Pilates to improve posture?", a: "Noticeable postural changes typically emerge after 6-8 weeks of consistent practice (3 sessions per week). Joseph Pilates believed the method re-educated the body's habitual patterns — this re-education takes time but is measurable. Professional posture assessments before and after 12 weeks consistently show significant improvements." },
-                    { q: "Does Pilates fix rounded shoulders?", a: "Yes. Rounded shoulders result from tight pectorals and weak mid-back muscles (rhomboids, lower trapezius). Pilates exercises like swan, chest expansion, and the backstroke series specifically target this pattern — lengthening the anterior chain and strengthening the posterior chain simultaneously." },
-                    { q: "Can Pilates fix anterior pelvic tilt?", a: "Anterior pelvic tilt — where the pelvis tips forward, exaggerating the lumbar curve — is a primary focus of mat and reformer Pilates. The emphasis on neutral spine, deep abdominal engagement, and hip flexor lengthening directly addresses the muscular imbalances that cause anterior pelvic tilt." },
+                    { q: "How long does it take for Pilates to improve posture?", a: "Noticeable postural changes typically emerge after 6-8 weeks of consistent practice (3 sessions per week). Joseph Pilates believed the method re-educated the body's habitual patterns: this re-education takes time but is measurable. Professional posture assessments before and after 12 weeks consistently show significant improvements." },
+                    { q: "Does Pilates fix rounded shoulders?", a: "Yes. Rounded shoulders result from tight pectorals and weak mid-back muscles (rhomboids, lower trapezius). Pilates exercises like swan, chest expansion, and the backstroke series specifically target this pattern: lengthening the anterior chain and strengthening the posterior chain simultaneously." },
+                    { q: "Can Pilates fix anterior pelvic tilt?", a: "Anterior pelvic tilt (where the pelvis tips forward, exaggerating the lumbar curve) is a primary focus of mat and reformer Pilates. The emphasis on neutral spine, deep abdominal engagement, and hip flexor lengthening directly addresses the muscular imbalances that cause anterior pelvic tilt." },
                     { q: "Is Pilates or yoga better for posture?", a: "Both improve posture. Pilates has a stronger evidence base for specific structural correction and has a more explicit focus on spinal alignment throughout all movements. Yoga's strength lies in flexibility and mindfulness. For desk workers with specific postural issues, Pilates provides more targeted intervention." },
                   ].map((item) => (
                     <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
@@ -236,7 +236,7 @@ export default function PilatesForPosturePage() {
               <div>
                 <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                  <ArticleCard title="Best Foam Roller for Pilates (2026)" excerpt="Spinal mobilisation, myofascial release — the foam rollers that actually perform." href="/blog/best-pilates-foam-roller" category="Equipment" readTime="8 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg" />
+                  <ArticleCard title="Best Foam Roller for Pilates (2026)" excerpt="Spinal mobilisation, myofascial release: the foam rollers that actually perform." href="/blog/best-pilates-foam-roller" category="Equipment" readTime="8 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg" />
                   <ArticleCard title="Pilates for Back Pain" excerpt="Clinical research meets practical guidance on using Pilates for chronic lower back pain." href="/blog/pilates-for-back-pain" category="Health" readTime="10 min read" date="May 2026" imageUrl="/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg" />
                 </div>
               </div>

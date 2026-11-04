@@ -18,7 +18,7 @@ interface StudioListingProps {
 export default function StudioListing({
   number, name, neighborhood, priceLevel, review, address, bestFor, signatureClass, bookingTip, websiteUrl, rating, caveat,
 }: StudioListingProps) {
-  const hasAddress = address && address !== "—";
+  const hasAddress = address && address !== "";
   return (
     <article style={{ borderTop: "1px solid #ede9e3", paddingTop: "48px", paddingBottom: "48px" }}>
       <div className="pcc-studio-header" style={{ display: "flex", alignItems: "flex-start", gap: "32px", marginBottom: "24px" }}>

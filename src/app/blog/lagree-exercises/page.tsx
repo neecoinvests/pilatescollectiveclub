@@ -15,22 +15,22 @@ const PAGE_URL = "https://pilatescollectiveclub.com/blog/lagree-exercises";
 const HERO_IMAGE = "https://pilatescollectiveclub.com/pictures/stitch-hands-on-carriage.png";
 const TITLE = "Lagree Exercises (2026): Signature Moves Explained";
 const DESCRIPTION =
-  "Lagree exercises explained: Wheelbarrow, Catfish, Bear, Super Lunge, Scrambled Eggs and more — the cues that matter, plus a Lagree-inspired home workout.";
+  "Lagree exercises explained: Wheelbarrow, Catfish, Bear, Super Lunge, Scrambled Eggs and more, the cues that matter, plus a Lagree-inspired home workout.";
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESCRIPTION,
   openGraph: {
     title: TITLE,
-    description: "The Lagree move names you hear in class, what they work and the form cues that matter — plus a 20-minute Lagree-inspired floor workout and the kit for it.",
+    description: "The Lagree move names you hear in class, what they work and the form cues that matter, plus a 20-minute Lagree-inspired floor workout and the kit for it.",
     type: "article",
     url: PAGE_URL,
-    images: [{ url: HERO_IMAGE, width: 1200, height: 630, alt: "Hands on a machine carriage — Lagree exercises explained" }],
+    images: [{ url: HERO_IMAGE, width: 1200, height: 630, alt: "Hands on a machine carriage: Lagree exercises explained" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Lagree Exercises: Signature Moves Explained",
-    description: "Wheelbarrow, Catfish, Bear, Super Lunge and more — plus a Lagree-inspired home workout.",
+    description: "Wheelbarrow, Catfish, Bear, Super Lunge and more, plus a Lagree-inspired home workout.",
     images: [HERO_IMAGE],
   },
   keywords: [
@@ -391,7 +391,7 @@ export default function LagreeExercisesPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/stitch-hands-on-carriage.png" alt="Hands braced on a machine carriage — Lagree exercises explained" fill className="object-cover" style={{ filter: "brightness(0.85)" }} priority />
+              <Image src="/pictures/stitch-hands-on-carriage.png" alt="Hands braced on a machine carriage: Lagree exercises explained" fill className="object-cover" style={{ filter: "brightness(0.85)" }} priority />
             </div>
           </div>
         </section>
@@ -522,7 +522,7 @@ export default function LagreeExercisesPage() {
 
               <div className="mb-10 overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
                 <div className="px-6 py-4" style={{ backgroundColor: "#f6f3f2" }}>
-                  <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={eyebrowStyle}>At a Glance — Home Lagree-Style Kit</p>
+                  <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={eyebrowStyle}>At a Glance: Home Lagree-Style Kit</p>
                 </div>
                 {FLOOR_KIT.map((p, i) => (
                   <div key={p.id} className="flex items-center gap-3 sm:gap-4 px-6 py-4" style={{ borderTop: i === 0 ? "none" : "1px solid rgba(217,194,186,0.25)", backgroundColor: "#ffffff" }}>

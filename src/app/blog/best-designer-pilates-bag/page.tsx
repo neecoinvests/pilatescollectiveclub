@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "Best Designer & Luxury Pilates Bags (2026)",
-    description: "The finest bags for Pilates — Tory Burch, Marc Jacobs, Varley, Herschel and Stoney Clover Lane compared for structure, capacity, and studio-to-life versatility.",
+    description: "The finest bags for Pilates: Tory Burch, Marc Jacobs, Varley, Herschel and Stoney Clover Lane compared for structure, capacity, and studio-to-life versatility.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-designer-pilates-bag",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/stitch-studio-changing-area.png", width: 1200, height: 630, alt: "Best Designer Pilates Bags 2026" }],
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Best Designer & Luxury Pilates Bags (2026)",
-    description: "The finest bags for Pilates — Tory Burch, Marc Jacobs, Varley, Herschel and Stoney Clover Lane compared.",
+    description: "The finest bags for Pilates: Tory Burch, Marc Jacobs, Varley, Herschel and Stoney Clover Lane compared.",
     images: ["https://pilatescollectiveclub.com/pictures/stitch-studio-changing-area.png"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/best-designer-pilates-bag" },
@@ -103,7 +103,7 @@ const jsonLd = {
     {
       "@type": "Article",
       headline: "Best Designer & Luxury Pilates Bags (2026)",
-      description: "The finest bags for Pilates practitioners — compared for structure, capacity, and studio-to-life versatility.",
+      description: "The finest bags for Pilates practitioners: compared for structure, capacity, and studio-to-life versatility.",
       url: "https://pilatescollectiveclub.com/blog/best-designer-pilates-bag",
       datePublished: "2026-07-06",
       dateModified: "2026-10-20",
@@ -168,7 +168,7 @@ export default function BestDesignerPilatesBagPage() {
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              The bag you carry to the studio is the first and last impression of your practice. For practitioners who have invested in premium kit, a considered bag completes the picture — and the right one transitions from studio changing room to board meeting without drawing a second glance.
+              The bag you carry to the studio is the first and last impression of your practice. For practitioners who have invested in premium kit, a considered bag completes the picture, and the right one transitions from studio changing room to board meeting without drawing a second glance.
             </p>
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               We assessed six luxury and designer options for functional design, material quality, interior organisation, and the intangible quality of a bag that looks expensive without announcing itself.
@@ -220,8 +220,8 @@ export default function BestDesignerPilatesBagPage() {
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="Best Pilates Studio Bag for Women" excerpt="The full bag roundup — totes, duffles, and backpacks for every budget and studio type." href="/blog/best-pilates-studio-bag-women" category="Studio Essentials" readTime="8 min" imageUrl="/pictures/stitch-studio-changing-area.png" />
-                <ArticleCard title="Best Luxury Pilates Leggings (2026)" excerpt="Wolford, Splits59, Varley, and Alo Yoga — the investment-grade leggings for serious practitioners." href="/blog/best-luxury-pilates-leggings" category="Clothing" readTime="10 min" imageUrl="/pictures/stitch-retail-activewear.png" />
+                <ArticleCard title="Best Pilates Studio Bag for Women" excerpt="The full bag roundup: totes, duffles, and backpacks for every budget and studio type." href="/blog/best-pilates-studio-bag-women" category="Studio Essentials" readTime="8 min" imageUrl="/pictures/stitch-studio-changing-area.png" />
+                <ArticleCard title="Best Luxury Pilates Leggings (2026)" excerpt="Wolford, Splits59, Varley, and Alo Yoga: the investment-grade leggings for serious practitioners." href="/blog/best-luxury-pilates-leggings" category="Clothing" readTime="10 min" imageUrl="/pictures/stitch-retail-activewear.png" />
                 <ArticleCard title="Best Pilates Bag (2026): Studio & Mat Totes Reviewed" excerpt="The best bags for Pilates, mat totes, studio bags, and gym-to-work options reviewed for size, mat fit, material…" href="/blog/best-pilates-bag" category="Guide" readTime="7 min read" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
                 <ArticleCard title="Pilates Essentials (2026): Every Must-Have in One List" excerpt="Every Pilates must-have on one page, best, budget and splurge picks, verified in-stock prices, and what the full…" href="/blog/pilates-essentials" category="Guide" readTime="12 min read" imageUrl="/pictures/stitch-pilates-essentials-logbook.png" />
                 <ArticleCard title="Best Pilates Mat (2026): 5 Verified Picks" excerpt="5 verified, in-stock Pilates mats on Amazon, from thickness tiers to alignment lines and eco-friendlier TPE, led…" href="/blog/best-pilates-mat" category="Guide" readTime="8 min read" imageUrl="/pictures/dane-wetton-t1NEMSm1rgI-unsplash.jpg" />

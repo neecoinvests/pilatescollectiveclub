@@ -12,7 +12,7 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Studios in Geneva (2026)",
-  description: "The best Pilates studios in Geneva — reformer boutiques and classical method in Eaux-Vives, Champel, and Carouge. Six curated picks, verified October 2026.",
+  description: "The best Pilates studios in Geneva: reformer boutiques and classical method in Eaux-Vives, Champel, and Carouge. Six curated picks, verified October 2026.",
   robots: {
     index: true,
     follow: true,
@@ -22,15 +22,15 @@ export const metadata: Metadata = {
   keywords: ["pilates geneve", "pilates geneva", "reformer pilates geneva", "best pilates studios geneva", "pilates studio geneve", "pilates eaux-vives", "pilates carouge", "pilates switzerland", "best pilates suisse", "pilates classes geneva"],
   openGraph: {
     title: "Best Pilates Studios in Geneva (2026)",
-    description: "Six curated Pilates studios in Geneva — reformer and classical method picks from Eaux-Vives to Carouge. Verified 2026.",
+    description: "Six curated Pilates studios in Geneva: reformer and classical method picks from Eaux-Vives to Carouge. Verified 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/geneva",
-    images: [{ url: "https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?w=1200&q=80", width: 1200, height: 630, alt: "Geneva city guide — Pilates Collective Club" }],
+    images: [{ url: "https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?w=1200&q=80", width: 1200, height: 630, alt: "Geneva city guide: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Studios in Geneva (2026)",
-    description: "Our curated guide to the best Pilates studios in Geneva — six verified studios with booking tips.",
+    description: "Our curated guide to the best Pilates studios in Geneva: six verified studios with booking tips.",
     images: ["https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?w=1200&q=80"],
   },
   alternates: {
@@ -41,27 +41,27 @@ export const metadata: Metadata = {
 const STUDIOS = [
   {
     number: "01",
-    name: "Form Studio — Pâquis",
+    name: "Form Studio Pâquis",
     neighborhood: "Pâquis",
     priceLevel: "$$$$",
     review: "Form Studio is a woman-owned reformer studio with two Geneva locations; the Pâquis studio on Place de la Navigation is the busier of the two, rated 4.8 from more than 1,000 reviews on ClassPass. It takes a modern, high-energy approach to reformer and mat Pilates, with showers, lockers and towels on site.",
-    caveat: "high-energy contemporary classes — classical purists may prefer a slower, method-led studio.",
+    caveat: "high-energy contemporary classes: classical purists may prefer a slower, method-led studio.",
     address: "Place de la Navigation 8, 1201 Genève",
     bestFor: "Modern, high-energy reformer close to the lake",
     signatureClass: "Reformer Pilates",
-    bookingTip: "Form's second studio is at Avenue de la Gare des Eaux-Vives 28 — useful if Pâquis is full.",
+    bookingTip: "Form's second studio is at Avenue de la Gare des Eaux-Vives 28: useful if Pâquis is full.",
   },
   {
     number: "02",
     name: "Pilates Social Club",
     neighborhood: "Champel · Eaux-Vives · Pâquis",
     priceLevel: "$$$",
-    review: "Pilates Social Club offers Pilates, barre and stretching in a warm, welcoming atmosphere across three Geneva studios — Avenue Dumas in Champel, Rue des Pierres-du-Niton in Eaux-Vives and Rue de Zurich in Pâquis — each rated around 4.8 on ClassPass. Having three studios makes it one of the most flexible options in the city.",
-    caveat: "a multi-studio brand — consistent, but less intimate than a single owner-run studio.",
+    review: "Pilates Social Club offers Pilates, barre and stretching in a warm, welcoming atmosphere across three Geneva studios (Avenue Dumas in Champel, Rue des Pierres-du-Niton in Eaux-Vives and Rue de Zurich in Pâquis) each rated around 4.8 on ClassPass. Having three studios makes it one of the most flexible options in the city.",
+    caveat: "a multi-studio brand: consistent, but less intimate than a single owner-run studio.",
     address: "Avenue Dumas 12, 1206 Genève (Champel)",
     bestFor: "Reformer, barre and stretch across three neighbourhoods",
     signatureClass: "Reformer Pilates",
-    bookingTip: "Book at whichever of the three studios is closest — schedules differ, so check all three.",
+    bookingTip: "Book at whichever of the three studios is closest: schedules differ, so check all three.",
   },
   {
     number: "03",
@@ -69,11 +69,11 @@ const STUDIOS = [
     neighborhood: "Old Town (Vieille-Ville)",
     priceLevel: "$$$",
     review: "Soho Studio on Rue de la Pélisserie, just below the Old Town, tops ClassPass's ranking of reformer studios in Switzerland, with a 4.7 rating from more than 5,000 reviews. That volume of reviews makes it one of the most proven reformer studios in the country.",
-    caveat: "its popularity means prime-time classes go quickly — book in advance.",
+    caveat: "its popularity means prime-time classes go quickly: book in advance.",
     address: "Rue de la Pélisserie 16, 1204 Genève",
     bestFor: "Well-proven group reformer in the centre",
     signatureClass: "Reformer Pilates",
-    bookingTip: "Set booking alerts for evening and weekend classes — they fill first.",
+    bookingTip: "Set booking alerts for evening and weekend classes: they fill first.",
   },
   {
     number: "04",
@@ -81,11 +81,11 @@ const STUDIOS = [
     neighborhood: "Eaux-Vives",
     priceLevel: "$$$",
     review: "Glow Pilates Studio on Rue de la Terrassière runs 50-minute group reformer classes in Eaux-Vives, a lively lakeside quarter of cafés and independent shops. At around CHF 49 per class it is typical of Geneva's premium reformer pricing.",
-    caveat: "there is limited published detail about the instructors — take a single class before buying a pack.",
+    caveat: "there is limited published detail about the instructors: take a single class before buying a pack.",
     address: "Rue de la Terrassière 28, 1207 Genève",
     bestFor: "50-minute group reformer in Eaux-Vives",
     signatureClass: "Group Reformer (50 min)",
-    bookingTip: "Compare single-class and pack pricing — packs usually lower the per-class cost.",
+    bookingTip: "Compare single-class and pack pricing: packs usually lower the per-class cost.",
   },
   {
     number: "05",
@@ -93,7 +93,7 @@ const STUDIOS = [
     neighborhood: "Eaux-Vives · Plainpalais",
     priceLevel: "$$$",
     review: "Sol Studio is a holistic movement space offering yoga and Pilates, with studios on Rue Maunoir in Eaux-Vives and Rue des Bains in Plainpalais. The Eaux-Vives studio is rated 4.9 from more than 1,000 reviews on ClassPass, and its classes include reformer and postnatal options.",
-    caveat: "a yoga-and-Pilates studio — check that the class you book is reformer if that is what you want.",
+    caveat: "a yoga-and-Pilates studio: check that the class you book is reformer if that is what you want.",
     address: "Rue Maunoir 14, 1207 Genève",
     bestFor: "Reformer and postnatal Pilates alongside yoga",
     signatureClass: "Reformer Pilates",
@@ -105,7 +105,7 @@ const STUDIOS = [
     neighborhood: "Carouge",
     priceLevel: "$$",
     review: "Aerial MVMT is a reformer Pilates studio on the first floor of Route des Jeunes 43 in Carouge, just south of central Geneva. It is a useful option for people living or working on the Carouge and La Praille side of the city.",
-    caveat: "limited published detail about class formats — take a trial class first; the entrance uses an access code, so read your booking confirmation.",
+    caveat: "limited published detail about class formats: take a trial class first; the entrance uses an access code, so read your booking confirmation.",
     address: "Route des Jeunes 43 (1st floor), 1227 Carouge",
     bestFor: "Reformer Pilates in Carouge",
     signatureClass: "Reformer Pilates",
@@ -116,7 +116,7 @@ const STUDIOS = [
 const BOOKING_TIPS = [
   {
     heading: "Geneva studios expect punctuality",
-    body: "Arrive at least 10 minutes before your class. Several Geneva studios operate a strict door policy — arriving late means being turned away. Swiss punctuality applies.",
+    body: "Arrive at least 10 minutes before your class. Several Geneva studios operate a strict door policy: arriving late means being turned away. Swiss punctuality applies.",
   },
   {
     heading: "French is the working language",
@@ -132,7 +132,7 @@ const BOOKING_TIPS = [
   },
   {
     heading: "Book 3–5 days in advance",
-    body: "Premium morning slots at well-regarded studios fill quickly. Most studios open weekly schedules on Sunday — set a reminder to book priority slots early.",
+    body: "Premium morning slots at well-regarded studios fill quickly. Most studios open weekly schedules on Sunday: set a reminder to book priority slots early.",
   },
 ];
 
@@ -174,7 +174,7 @@ const GEAR = [
   },
   {
     name: "Magic Circle",
-    note: "Our pick: Balanced Body Ultra-Fit Circle (15-inch). Many studios incorporate the magic circle — worth owning for home reinforcement work.",
+    note: "Our pick: Balanced Body Ultra-Fit Circle (15-inch). Many studios incorporate the magic circle: worth owning for home reinforcement work.",
     price: "$35.00",
     url: "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20",
   },
@@ -192,7 +192,7 @@ const GEAR = [
   },
   {
     name: "Home Pilates Reformer",
-    note: "Our pick: PAETA Wooden Foldable Reformer. A home reformer extends your studio practice — AeroPilates and Align entry models deliver a genuine full-body session.",
+    note: "Our pick: PAETA Wooden Foldable Reformer. A home reformer extends your studio practice: AeroPilates and Align entry models deliver a genuine full-body session.",
     price: "$699.98",
     url: "https://www.amazon.com/dp/B0D7M7JNFV?tag=pilatescollective-20",
   },
@@ -228,7 +228,7 @@ const FURTHER_READING = [
 ];
 
 const CITY_FAQS = [
-  { q: "What are the best Pilates studios in Geneva?", a: "Our 6 curated picks are Form Studio — Pâquis (Pâquis), Pilates Social Club (Champel · Eaux-Vives · Pâquis), Soho Studio (Old Town, Vieille-Ville), Glow Pilates Studio (Eaux-Vives), Sol Studio (Eaux-Vives · Plainpalais) and Aerial MVMT Pilates Studio (Carouge). Each listing above covers what the studio is best for, its signature class and a booking tip." },
+  { q: "What are the best Pilates studios in Geneva?", a: "Our 6 curated picks are Form Studio: Pâquis (Pâquis), Pilates Social Club (Champel · Eaux-Vives · Pâquis), Soho Studio (Old Town, Vieille-Ville), Glow Pilates Studio (Eaux-Vives), Sol Studio (Eaux-Vives · Plainpalais) and Aerial MVMT Pilates Studio (Carouge). Each listing above covers what the studio is best for, its signature class and a booking tip." },
   { q: "Which Geneva neighbourhoods are best for Pilates?", a: "This guide covers Eaux-Vives (Rive Gauche), Champel, Plainpalais & Acacias and Carouge. Eaux-Vives (Rive Gauche): Geneva's most vibrant lakeside neighbourhood, with excellent studio access and easy transport links." },
   { q: "What should I know about booking Pilates classes in Geneva?", a: "Geneva studios expect punctuality. Arrive at least 10 minutes before your class." },
   { q: "What should I bring to a Pilates class in Geneva?", a: "Grip socks are required at most reformer studios. Our gear list for Geneva covers Pilates grip socks, Pilates mat, magic circle, resistance bands, foam roller and home Pilates reformer." },
@@ -240,7 +240,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Best Pilates Studios in Geneva (2026)",
-      "description": "The best Pilates studios in Geneva — reformer boutiques and classical method in Eaux-Vives, Champel, and Carouge. Six curated picks, verified October 2026.",
+      "description": "The best Pilates studios in Geneva: reformer boutiques and classical method in Eaux-Vives, Champel, and Carouge. Six curated picks, verified October 2026.",
       "url": "https://pilatescollectiveclub.com/cities/geneva",
       "datePublished": "2026-06-28",
       "dateModified": "2026-10-20",
@@ -306,7 +306,7 @@ export default function GenevaPage() {
             <p className="text-sm mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 8 min read</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Geneva's status as one of Europe's most international cities has shaped a Pilates scene of real quality and diversity. The city's affluent, health-conscious population has driven demand for premium instruction, while a growing community of younger practitioners has opened space for more accessible, community-led studios. This guide navigates both worlds — from lakeside private sessions in Champel to energised group classes in Plainpalais.
+              Geneva's status as one of Europe's most international cities has shaped a Pilates scene of real quality and diversity. The city's affluent, health-conscious population has driven demand for premium instruction, while a growing community of younger practitioners has opened space for more accessible, community-led studios. This guide navigates both worlds, from lakeside private sessions in Champel to energised group classes in Plainpalais.
             </p>
           </div>
         </section>
@@ -377,7 +377,7 @@ export default function GenevaPage() {
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What to bring to your first class</h2>
             <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-              Grip socks are required at most reformer studios in Geneva. These are our recommended picks — all available on Amazon.{" "}
+              Grip socks are required at most reformer studios in Geneva. These are our recommended picks: all available on Amazon.{" "}
               <Link href="/affiliate-disclosure" style={{ color: "#8b4a31", textDecoration: "underline", fontFamily: "'Montserrat', sans-serif", fontSize: "inherit" }}>Affiliate disclosure.</Link>
             </p>
             <QuickPicks className="mb-0" picks={GEAR.map((g) => ({ name: g.note.match(/Our pick: ([^.]+(?:\.\d+[^.]*)?)\./)?.[1] ?? g.name, price: g.price, url: g.url, note: g.name }))} />
@@ -418,7 +418,7 @@ export default function GenevaPage() {
           </div>
         </section>
 
-        <CTASection title="Find Pilates near you" subtitle="Use our AI Finder to discover studios in any city — coming soon." showSearch searchPlaceholder="Ask: best Pilates in Geneva…" />
+        <CTASection title="Find Pilates near you" subtitle="Use our AI Finder to discover studios in any city: coming soon." showSearch searchPlaceholder="Ask: best Pilates in Geneva…" />
       </main>
       <Footer />
     </>

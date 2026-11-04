@@ -12,7 +12,7 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Studios in Cincinnati, OH (2026)",
-  description: "The best Pilates studios in Cincinnati — reformer boutiques and classical method practices across Hyde Park, Mount Lookout, and Downtown. Verified 2026.",
+  description: "The best Pilates studios in Cincinnati: reformer boutiques and classical method practices across Hyde Park, Mount Lookout, and Downtown. Verified 2026.",
   robots: {
     index: true,
     follow: true,
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Best Pilates Studios in Cincinnati, OH (2026)",
     description:
-      "Curated Pilates studios in Cincinnati — reformer and classical picks across Hyde Park and Downtown. Verified 2026.",
+      "Curated Pilates studios in Cincinnati: reformer and classical picks across Hyde Park and Downtown. Verified 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/cincinnati",
     images: [
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Best Pilates Studios in Cincinnati (2026)",
     description:
-      "The 6 best Pilates studios in Cincinnati — curated, verified, and reviewed for 2026.",
+      "The 6 best Pilates studios in Cincinnati: curated, verified, and reviewed for 2026.",
     images: [
       "https://images.unsplash.com/photo-1514565131-fce0801e5785?w=1200&h=630&fit=crop",
     ],
@@ -55,7 +55,7 @@ const STUDIOS = [
     name: "12th Street Pilates",
     neighborhood: "Over-the-Rhine (OTR)",
     priceLevel: "$$$",
-    review: "12th Street Pilates opened in Over-the-Rhine in 2012 and has since grown to studios in Covington and Madisonville. Small-group classes are taught by BASI-trained instructors — Body Arts and Science International is an internationally recognised Pilates education programme — which gives the studio a methodologically grounded, progressive approach.",
+    review: "12th Street Pilates opened in Over-the-Rhine in 2012 and has since grown to studios in Covington and Madisonville. Small-group classes are taught by BASI-trained instructors, Body Arts and Science International is an internationally recognised Pilates education programme, which gives the studio a methodologically grounded, progressive approach.",
     caveat: "the OTR studio is the most popular, so prime-time classes can be hard to get at short notice.",
     address: "109 E 12th St, Cincinnati, OH 45202",
     bestFor: "BASI-trained small-group reformer classes",
@@ -67,12 +67,12 @@ const STUDIOS = [
     name: "Club Pilates Hyde Park",
     neighborhood: "Hyde Park",
     priceLevel: "$$$",
-    review: "Club Pilates Hyde Park on Madison Road sits near the Rookwood shopping district, one of the most convenient locations in the city. It offers the full Club Pilates class menu — including Reformer Flow, Cardio Sculpt and Suspend — in a levelled system that makes progress easy to track.",
-    caveat: "a franchise format — consistent and well-organised, but less individual than an owner-run studio.",
+    review: "Club Pilates Hyde Park on Madison Road sits near the Rookwood shopping district, one of the most convenient locations in the city. It offers the full Club Pilates class menu (including Reformer Flow, Cardio Sculpt and Suspend) in a levelled system that makes progress easy to track.",
+    caveat: "a franchise format: consistent and well-organised, but less individual than an owner-run studio.",
     address: "2692 Madison Rd, Cincinnati, OH 45208",
     bestFor: "Structured, levelled reformer classes in Hyde Park",
     signatureClass: "Reformer Flow",
-    bookingTip: "Ask about an intro class before buying — it helps the studio place you at the right level.",
+    bookingTip: "Ask about an intro class before buying: it helps the studio place you at the right level.",
   },
   {
     number: "3",
@@ -80,7 +80,7 @@ const STUDIOS = [
     neighborhood: "Oakley",
     priceLevel: "$$",
     review: "Prism Pilates, featured by Cincinnati Refined as a feel-good fitness studio, is a light, plant-filled space just past Oakley Square. It is owned and run by Rachel, a certified personal trainer and Pilates instructor with nearly a decade in the industry. Classes include reformer Pilates, mat Pilates, bootcamp and vinyasa yoga, and reviewers praise private sessions that ease newcomers into the harder moves.",
-    caveat: "a mixed studio (Pilates, yoga and bootcamp) — if you want a Pilates-only, apparatus-focused studio, 12th Street Pilates is the closer fit.",
+    caveat: "a mixed studio (Pilates, yoga and bootcamp), if you want a Pilates-only, apparatus-focused studio, 12th Street Pilates is the closer fit.",
     address: "3212 Madison Rd, Cincinnati, OH 45209",
     bestFor: "Owner-run reformer and mat classes in Oakley",
     signatureClass: "Reformer Pilates",
@@ -91,12 +91,12 @@ const STUDIOS = [
     name: "College Hill Pilates and Physical Therapy",
     neighborhood: "College Hill",
     priceLevel: "$$$",
-    review: "College Hill Pilates and Physical Therapy is a cash-based private physical therapy clinic and Pilates studio owned by Mindy Nagel, PT, DPT — a board-certified orthopaedic clinical specialist, certified Pilates instructor and adjunct instructor at the University of Cincinnati. It treats back, neck, shoulder, hip, knee and foot pain, dance and sports injuries, arthritis, EDS and hypermobility in a one-to-one setting, which makes it the clear choice in Cincinnati for therapeutic Pilates.",
+    review: "College Hill Pilates and Physical Therapy is a cash-based private physical therapy clinic and Pilates studio owned by Mindy Nagel, PT, DPT: a board-certified orthopaedic clinical specialist, certified Pilates instructor and adjunct instructor at the University of Cincinnati. It treats back, neck, shoulder, hip, knee and foot pain, dance and sports injuries, arthritis, EDS and hypermobility in a one-to-one setting, which makes it the clear choice in Cincinnati for therapeutic Pilates.",
     caveat: "the physical therapy side is direct-pay and does not bill insurance, and opening hours are limited (Mon and Wed 9–6, Thu 10–2, Fri 11–2, plus appointments).",
     address: "5838 Hamilton Ave, Cincinnati, OH 45224",
     bestFor: "Therapeutic Pilates and PT for injuries, hypermobility and chronic pain",
     signatureClass: "One-to-One PT & Pilates",
-    bookingTip: "Share your injury or condition history when booking — sessions are planned around it.",
+    bookingTip: "Share your injury or condition history when booking: sessions are planned around it.",
   },
   {
     number: "5",
@@ -104,11 +104,11 @@ const STUDIOS = [
     neighborhood: "Kenwood",
     priceLevel: "$$$",
     review: "Club Pilates Kenwood on Kenwood Road is close to Kenwood Towne Centre and draws from Kenwood, Madeira and the northeast Cincinnati corridor. It offers the standard Club Pilates class menu with a broad daily schedule for beginners and experienced members alike.",
-    caveat: "a franchise studio — reliable structure, less individual programming.",
+    caveat: "a franchise studio: reliable structure, less individual programming.",
     address: "7827 Kenwood Rd, Cincinnati, OH 45236",
     bestFor: "Northeast Cincinnati residents wanting a convenient reformer studio",
     signatureClass: "Reformer Flow",
-    bookingTip: "Morning slots are the most competitive — book two days ahead.",
+    bookingTip: "Morning slots are the most competitive: book two days ahead.",
   },
   {
     number: "6",
@@ -116,7 +116,7 @@ const STUDIOS = [
     neighborhood: "Symmes Township / Northeast Cincinnati",
     priceLevel: "$$$",
     review: "Club Pilates Symmes Township on Montgomery Road is convenient for Mason, Blue Ash and northeast Cincinnati residents who want levelled group reformer classes without driving into the city. Like all Club Pilates studios, it includes gentler formats such as Restore alongside more demanding classes.",
-    caveat: "a franchise format — consistent, but less personalised than an owner-run studio.",
+    caveat: "a franchise format: consistent, but less personalised than an owner-run studio.",
     address: "12088 Montgomery Rd, Cincinnati, OH 45249",
     bestFor: "Northeast suburban residents, membership-based training",
     signatureClass: "Reformer Flow",
@@ -127,23 +127,23 @@ const STUDIOS = [
 const BOOKING_TIPS = [
   {
     heading: "Cincinnati's hills shape neighborhood fitness geography",
-    body: "Cincinnati is a city of hills and valleys — travel between neighborhoods can take longer than distances suggest. The east-side cluster (Hyde Park, Kenwood, Oakley) is largely self-contained. OTR and College Hill serve different communities. Choose a studio that sits on your habitual daily route rather than requiring a special trip.",
+    body: "Cincinnati is a city of hills and valleys: travel between neighborhoods can take longer than distances suggest. The east-side cluster (Hyde Park, Kenwood, Oakley) is largely self-contained. OTR and College Hill serve different communities. Choose a studio that sits on your habitual daily route rather than requiring a special trip.",
   },
   {
     heading: "The medical corridor creates strong therapeutic demand",
-    body: "Cincinnati is a major healthcare hub — UC Health, Cincinnati Children's, and Mercy Health are among the large systems anchored here. The resulting concentration of healthcare professionals creates elevated demand for evidence-informed, therapeutically aware Pilates instruction. Studios with clinical specializations book out faster than you'd expect.",
+    body: "Cincinnati is a major healthcare hub: UC Health, Cincinnati Children's, and Mercy Health are among the large systems anchored here. The resulting concentration of healthcare professionals creates elevated demand for evidence-informed, therapeutically aware Pilates instruction. Studios with clinical specializations book out faster than you'd expect.",
   },
   {
-    heading: "BASI credentials matter — ask before you book",
+    heading: "BASI credentials matter: ask before you book",
     body: "Cincinnati has an unusual concentration of BASI-trained instructors relative to its size. If methodological seriousness matters to you, ask about instructor credentials before booking. The difference between BASI-trained instruction and general group fitness certification is not subtle.",
   },
   {
     heading: "Intro packages are the standard entry point",
-    body: "Every Cincinnati studio offers new-client introductory rates. Use the intro to evaluate instructor quality and community fit before committing. The therapeutic studios (College Hill PT, 12th Street) have more involved intake processes — expect a longer first session.",
+    body: "Every Cincinnati studio offers new-client introductory rates. Use the intro to evaluate instructor quality and community fit before committing. The therapeutic studios (College Hill PT, 12th Street) have more involved intake processes: expect a longer first session.",
   },
   {
     heading: "Grip socks are required at every reformer studio",
-    body: "Universal across Cincinnati's reformer market. Full-toe grip socks — bring your own rather than paying front-desk retail prices.",
+    body: "Universal across Cincinnati's reformer market. Full-toe grip socks: bring your own rather than paying front-desk retail prices.",
   },
 ];
 
@@ -151,7 +151,7 @@ const NEIGHBORHOODS = [
   {
     name: "Hyde Park & Oakley",
     description:
-      "Cincinnati's most active east-side wellness corridor runs through Hyde Park and Oakley — neighborhoods with a health-invested professional population that supports both franchise studios and serious boutique independents.",
+      "Cincinnati's most active east-side wellness corridor runs through Hyde Park and Oakley: neighborhoods with a health-invested professional population that supports both franchise studios and serious boutique independents.",
   },
   {
     name: "Over-the-Rhine",
@@ -166,7 +166,7 @@ const NEIGHBORHOODS = [
   {
     name: "College Hill & Northwest",
     description:
-      "College Hill's historic northwest residential character hosts Cincinnati's most specialized studio — a clinical physical therapy and Pilates practice that draws clients from across the metro for its therapeutic expertise.",
+      "College Hill's historic northwest residential character hosts Cincinnati's most specialized studio: a clinical physical therapy and Pilates practice that draws clients from across the metro for its therapeutic expertise.",
   },
 ];
 
@@ -197,16 +197,16 @@ const GEAR = [
   },
   {
     name: "High-Density Foam Roller",
-    note: "Our pick: OPTP PRO-Roller Foam Roller (36-inch). Post-class fascia release — particularly valuable for therapeutic studio clients between appointments.",
+    note: "Our pick: OPTP PRO-Roller Foam Roller (36-inch). Post-class fascia release, particularly valuable for therapeutic studio clients between appointments.",
     price: "$62.99",
     url: "https://www.amazon.com/dp/B002C9EX14?tag=pilatescollective-20",
   },
 ];
 
 const HOME_REFORMERS = [
-  { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work — three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
+  { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work: three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
   { tag: "Mid-Range Pick", name: "AeroPilates Pro XP 557", note: "AeroPilates' top-of-the-range home reformer, a step up for practitioners training several times a week.", price: "$1,329.99", url: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20" },
-  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order — an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
+  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
 ];
 
 const RELATED_CITIES = [
@@ -220,7 +220,7 @@ const FURTHER_READING = [
   {
     title: "Pilates for Back Pain",
     excerpt:
-      "Why Pilates is one of the most evidence-supported interventions for chronic back pain — and how to find an instructor who understands it.",
+      "Why Pilates is one of the most evidence-supported interventions for chronic back pain, and how to find an instructor who understands it.",
     href: "/blog/pilates-for-back-pain",
     category: "Health",
     readTime: "7 min read",
@@ -312,7 +312,7 @@ export default function CincinnatiPage() {
               Cincinnati's Pilates scene has more depth than the city's national fitness profile suggests.
               The combination of a major medical corridor, a vibrant Over-the-Rhine revival, and
               established east-side residential neighborhoods with strong wellness culture has produced
-              a market with serious options at every level — from the city's official BASI host studio
+              a market with serious options at every level, from the city's official BASI host studio
               in OTR to a clinical physical therapy and Pilates practice in College Hill, to owner-operated
               boutiques in Oakley capping classes at seven students. These six studios represent the best
               Cincinnati has to offer in 2026.
@@ -477,7 +477,7 @@ export default function CincinnatiPage() {
 
         <CTASection
           title="Find Pilates near you"
-          subtitle="Use our AI Finder to discover studios in any city — coming soon."
+          subtitle="Use our AI Finder to discover studios in any city: coming soon."
           showSearch
           searchPlaceholder="Ask: best reformer Pilates in Cincinnati…"
         />

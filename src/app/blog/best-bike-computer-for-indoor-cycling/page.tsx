@@ -48,7 +48,7 @@ const PRODUCTS = [
     price: "$149.99",
     verdict: "Best premium cycling computer",
     description:
-      "The BSC500 is iGPSPORT's flagship, with a 3.3-inch touchscreen — the largest display on this list — and map voice navigation built in. For riders who want a genuinely premium head unit with a big, easy-to-read screen and spoken turn guidance rather than just a data readout, this is the step up from the CS600. The larger screen and navigation features come at the highest price here, which makes sense for riders who use the same device outdoors as well as on the spin bike.",
+      "The BSC500 is iGPSPORT's flagship, with a 3.3-inch touchscreen, the largest display on this list, and map voice navigation built in. For riders who want a genuinely premium head unit with a big, easy-to-read screen and spoken turn guidance rather than just a data readout, this is the step up from the CS600. The larger screen and navigation features come at the highest price here, which makes sense for riders who use the same device outdoors as well as on the spin bike.",
     affiliateUrl: "https://www.amazon.com/dp/B0GVNJJT6F?tag=pilatescollective-20",
     tag: "Best Premium",
   },
@@ -58,7 +58,7 @@ const PRODUCTS = [
     price: "$26.99",
     verdict: "Best ultra-lightweight budget pick",
     description:
-      "The CYCPLUS G1 weighs around 70 grams, making it the lightest computer on this list by a wide margin, and it does that at a genuinely budget price. For riders who just want basic live metrics on the handlebar without adding bulk or spending much, the G1 is the straightforward entry point — a sensible first head unit before deciding whether to invest in a touchscreen model.",
+      "The CYCPLUS G1 weighs around 70 grams, making it the lightest computer on this list by a wide margin, and it does that at a genuinely budget price. For riders who just want basic live metrics on the handlebar without adding bulk or spending much, the G1 is the straightforward entry point: a sensible first head unit before deciding whether to invest in a touchscreen model.",
     affiliateUrl: "https://www.amazon.com/dp/B08R75164S?tag=pilatescollective-20",
     tag: "Best Budget",
   },
@@ -78,7 +78,7 @@ const PRODUCTS = [
     price: "$35.96",
     verdict: "Best lightest-weight budget option",
     description:
-      "The BKVTOP is a wireless GPS computer weighing around 50 grams — even lighter than the CYCPLUS G1 — at the lowest price on this list. For riders who want the smallest, least noticeable head unit on the handlebar and don't need a touchscreen or navigation features, this is the most minimal and affordable way to get live ride data during indoor sessions.",
+      "The BKVTOP is a wireless GPS computer weighing around 50 grams, even lighter than the CYCPLUS G1, at the lowest price on this list. For riders who want the smallest, least noticeable head unit on the handlebar and don't need a touchscreen or navigation features, this is the most minimal and affordable way to get live ride data during indoor sessions.",
     affiliateUrl: "https://www.amazon.com/dp/B0GMHB839C?tag=pilatescollective-20",
     tag: "Lightest & Cheapest",
   },
@@ -125,7 +125,7 @@ const jsonLd = {
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "Do I need a bike computer for indoor spin training?", "acceptedAnswer": { "@type": "Answer", "text": "Not strictly — if your bike has a console or you use a connected platform like Peloton or Zwift on a tablet, your metrics are already displayed. A dedicated cycling computer is most useful for riders on non-connected bikes who want real-time power, cadence, and heart rate displayed without mounting a phone, or for athletes running structured interval plans that benefit from advanced analytics." } },
+        { "@type": "Question", "name": "Do I need a bike computer for indoor spin training?", "acceptedAnswer": { "@type": "Answer", "text": "Not strictly, if your bike has a console or you use a connected platform like Peloton or Zwift on a tablet, your metrics are already displayed. A dedicated cycling computer is most useful for riders on non-connected bikes who want real-time power, cadence, and heart rate displayed without mounting a phone, or for athletes running structured interval plans that benefit from advanced analytics." } },
         { "@type": "Question", "name": "What should I look for in a bike computer for indoor cycling?", "acceptedAnswer": { "@type": "Answer", "text": "Prioritize dual Bluetooth and ANT+ connectivity so the unit can pair with whatever sensors your bike or trainer already uses, and consider whether a touchscreen display is worth the extra cost over a simple button-navigated one. Weight and price matter less for a bike that stays indoors than they do outdoors, so an ultra-light budget unit can be just as effective as a premium touchscreen model for basic speed, cadence, and heart rate display." } },
         { "@type": "Question", "name": "Can I use a bike computer on a Peloton or other connected bike?", "acceptedAnswer": { "@type": "Answer", "text": "Peloton and similar connected bikes use proprietary systems that don't broadcast ANT+ or open Bluetooth data, so a third-party cycling computer cannot read their console metrics. A dedicated head unit is most useful on non-connected bikes paired with external cadence and heart rate sensors." } },
       ],
@@ -155,7 +155,7 @@ export default function BestBikeComputerPage() {
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              A dedicated cycling computer turns a non-connected spin bike into a data-rich training environment — displaying live speed, cadence, and heart rate from paired sensors without needing a phone mounted on the handlebar. This guide compares five GPS bike computers in 2026, from a full-featured touchscreen flagship to ultra-light, ultra-budget units.
+              A dedicated cycling computer turns a non-connected spin bike into a data-rich training environment: displaying live speed, cadence, and heart rate from paired sensors without needing a phone mounted on the handlebar. This guide compares five GPS bike computers in 2026, from a full-featured touchscreen flagship to ultra-light, ultra-budget units.
             </p>
           </div>
         </section>

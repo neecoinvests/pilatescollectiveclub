@@ -16,10 +16,10 @@ export const metadata: Metadata = {
   keywords: ["lagree gloves", "gloves for lagree", "megaformer gloves", "grip gloves lagree", "lagree handles gloves", "do you need gloves for lagree", "lagree wrist wraps", "fingerless gloves lagree", "megaformer handle grip", "pilates grip gloves"],
   openGraph: {
     title: "Lagree Gloves (2026): Do You Need Them? Best Picks",
-    description: "Gloves are optional in Lagree. Who actually benefits — sweaty hands on handles, calluses, wrists in long planks — and the verified picks for each.",
+    description: "Gloves are optional in Lagree. Who actually benefits (sweaty hands on handles, calluses, wrists in long planks) and the verified picks for each.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-lagree-gloves",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/stitch-hands-on-carriage.png", width: 1200, height: 630, alt: "Lagree Gloves — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/stitch-hands-on-carriage.png", width: 1200, height: 630, alt: "Lagree Gloves: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -58,7 +58,7 @@ const PRODUCTS = [
     price: "$13.98",
     verdict: "Best fingerless",
     description:
-      "Fingerless non-slip gloves are the middle ground between bare hands and a full gym glove. Covering the palm while leaving the fingers open keeps your dexterity for grabbing handles and adjusting straps, and lets more air reach your hands in a warm, sweaty room. For people who mainly want help in plank work — hands pressing into the platform or carriage for long holds — a non-slip palm is the part that matters. At $13.98 this oasymala pair sits between the Gaiam budget option and the TAVI premium pick. Check the listing's size guide against your hand measurement, because a loose glove can shift on the palm, which defeats the point.",
+      "Fingerless non-slip gloves are the middle ground between bare hands and a full gym glove. Covering the palm while leaving the fingers open keeps your dexterity for grabbing handles and adjusting straps, and lets more air reach your hands in a warm, sweaty room. For people who mainly want help in plank work, hands pressing into the platform or carriage for long holds, a non-slip palm is the part that matters. At $13.98 this oasymala pair sits between the Gaiam budget option and the TAVI premium pick. Check the listing's size guide against your hand measurement, because a loose glove can shift on the palm, which defeats the point.",
     affiliateUrl: "https://www.amazon.com/dp/B0DHKLSXLY?tag=pilatescollective-20",
     tag: "Best Fingerless",
   },
@@ -68,7 +68,7 @@ const PRODUCTS = [
     price: "$9.99",
     verdict: "Best value 2-pack",
     description:
-      "Lagree gloves get as sweaty as Lagree socks, and the same logic applies: if you train several times a week, a second pair means you are not pulling on damp gloves. This Eurzom listing gives you two pairs of yoga and Pilates gloves with grips for $9.99, which makes it the best value if you want a rotation. Treat them as everyday training gloves rather than a premium product. As with every glove here, the fit matters more than the brand — choose the size that sits snugly across the palm without bunching between your hand and the handle.",
+      "Lagree gloves get as sweaty as Lagree socks, and the same logic applies: if you train several times a week, a second pair means you are not pulling on damp gloves. This Eurzom listing gives you two pairs of yoga and Pilates gloves with grips for $9.99, which makes it the best value if you want a rotation. Treat them as everyday training gloves rather than a premium product. As with every glove here, the fit matters more than the brand: choose the size that sits snugly across the palm without bunching between your hand and the handle.",
     affiliateUrl: "https://www.amazon.com/dp/B0DZ2CZS1J?tag=pilatescollective-20",
     tag: "Best Value 2-Pack",
   },
@@ -98,18 +98,18 @@ const PRODUCTS = [
     price: "$15.50",
     verdict: "Best wrist wraps for plank-heavy classes",
     description:
-      "If your hands are fine but your wrists are not, skip gloves entirely and wear wrist wraps. These Harbinger Pro wraps come as a pair, are 20 inches long and have a thumb loop to anchor them while you wrap. Because they leave the hands completely bare, you keep full feel on the handles and platforms, while the wrap supports the wrist through long plank holds. They are a weight-training product, so expect a firmer wrap than a soft studio sleeve, and take them off — or loosen them — when you move to exercises that do not load the wrists. Sold by Amazon.com at the time we checked.",
+      "If your hands are fine but your wrists are not, skip gloves entirely and wear wrist wraps. These Harbinger Pro wraps come as a pair, are 20 inches long and have a thumb loop to anchor them while you wrap. Because they leave the hands completely bare, you keep full feel on the handles and platforms, while the wrap supports the wrist through long plank holds. They are a weight-training product, so expect a firmer wrap than a soft studio sleeve, and take them off, or loosen them, when you move to exercises that do not load the wrists. Sold by Amazon.com at the time we checked.",
     affiliateUrl: "https://www.amazon.com/dp/B000KFZ2JY?tag=pilatescollective-20",
     tag: "Best Wrist Wraps",
   },
 ];
 
 const FAQS = [
-  { q: "Do you need gloves for Lagree?", a: "No. Gloves are optional in Lagree, and most people train with bare hands. Studios typically require grip socks, not gloves. Gloves are worth considering if your hands get very sweaty on the handles and straps, if you are developing calluses, or — for wraps rather than gloves — if your wrists get sore in long planks." },
+  { q: "Do you need gloves for Lagree?", a: "No. Gloves are optional in Lagree, and most people train with bare hands. Studios typically require grip socks, not gloves. Gloves are worth considering if your hands get very sweaty on the handles and straps, if you are developing calluses, or, for wraps rather than gloves, if your wrists get sore in long planks." },
   { q: "Are Lagree gloves the same as Pilates gloves?", a: "Essentially, yes. There is no special 'Lagree glove' category; the same grip gloves sold for Pilates, yoga and barre are what people wear on the Megaformer. What changes is the demand: Lagree is sweatier and has longer holds than many Pilates classes, so palm grip and wrist support matter more." },
   { q: "Fingerless or full-finger gloves for the Megaformer?", a: "Fingerless or half-finger gloves are the more practical choice for most people. They cover the palm where the handles and strap loops sit while leaving the fingertips free to grab handles, adjust straps and change springs between exercises." },
   { q: "Will gloves help with wrist pain in Lagree planks?", a: "Ordinary grip gloves will not do much for the wrist joint itself. If wrist support is the goal, choose a glove with an integrated wrist wrap or wear separate wrist wraps. Persistent wrist pain is a reason to talk to your instructor about modifications and to see a professional." },
-  { q: "Can you wear gloves on the Megaformer handles?", a: "Yes. Gloves are generally fine on the handles and straps. Ask your instructor if you are unsure, and make sure the gloves fit snugly — a loose glove can shift on the palm, which defeats the point." },
+  { q: "Can you wear gloves on the Megaformer handles?", a: "Yes. Gloves are generally fine on the handles and straps. Ask your instructor if you are unsure, and make sure the gloves fit snugly: a loose glove can shift on the palm, which defeats the point." },
   { q: "How do you stop sweaty hands slipping in Lagree?", a: "Start with the simple things: keep a towel close to wipe your hands between exercises, and dry the handles if they are slick. If that is not enough, a grip glove or a set of grip pads adds a layer between your palm and the handle." },
 ];
 
@@ -183,7 +183,7 @@ export default function BestLagreeGlovesPage() {
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              The honest answer first: you do not need gloves for Lagree, and most people in a class train bare-handed. But gloves solve three real problems — sweaty palms slipping on the handles and straps, calluses from repeated gripping, and, in the form of wrist wraps, sore wrists in long plank holds. If one of those sounds like you, here are seven verified options, from a $7.65 starter pair to wrist wraps and grip pads.
+              The honest answer first: you do not need gloves for Lagree, and most people in a class train bare-handed. But gloves solve three real problems: sweaty palms slipping on the handles and straps, calluses from repeated gripping, and, in the form of wrist wraps, sore wrists in long plank holds. If one of those sounds like you, here are seven verified options, from a $7.65 starter pair to wrist wraps and grip pads.
             </p>
           </div>
         </section>
@@ -191,7 +191,7 @@ export default function BestLagreeGlovesPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/stitch-hands-on-carriage.png" alt="Lagree gloves — hands gripping a carriage" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/stitch-hands-on-carriage.png" alt="Lagree gloves: hands gripping a carriage" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>
         </section>
@@ -211,7 +211,7 @@ export default function BestLagreeGlovesPage() {
                 <ul className="list-disc pl-6 space-y-2">
                   <li><strong>Sweaty hands.</strong> If your grip starts slipping on the handles or straps late in class, a non-slip palm adds friction where sweat removes it.</li>
                   <li><strong>Calluses and hot spots.</strong> Regular handle and strap work can build calluses on the palm. A glove or grip pad spreads the contact.</li>
-                  <li><strong>Wrists in long planks.</strong> Planks load the wrists in extension for a long time. Gloves alone do little here — wrist wraps, or a glove with built-in wraps, are the tool for this job.</li>
+                  <li><strong>Wrists in long planks.</strong> Planks load the wrists in extension for a long time. Gloves alone do little here: wrist wraps, or a glove with built-in wraps, are the tool for this job.</li>
                 </ul>
                 <p>
                   If none of these is a problem for you, save your money. A towel within reach to dry your hands between exercises handles most grip issues for free.
@@ -235,7 +235,7 @@ export default function BestLagreeGlovesPage() {
               <div className="mt-10 rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                 <p className="text-base font-semibold mb-2" style={h2Style}>Not Lagree-branded? That&apos;s fine.</p>
                 <p className="text-sm leading-relaxed" style={bodyStyle}>
-                  None of these products is made specifically for Lagree — they are yoga, Pilates and gym gloves, wraps and pads. That is normal: there is no separate Lagree glove category. What makes one right for Lagree is the problem it solves (grip, calluses or wrists), the fit, and whether it leaves your fingers free for the class&apos;s constant handle and strap changes. Prices shown are the Amazon prices we verified on October 2, 2026; sizes and colours can be priced differently.
+                  None of these products is made specifically for Lagree: they are yoga, Pilates and gym gloves, wraps and pads. That is normal: there is no separate Lagree glove category. What makes one right for Lagree is the problem it solves (grip, calluses or wrists), the fit, and whether it leaves your fingers free for the class&apos;s constant handle and strap changes. Prices shown are the Amazon prices we verified on October 2, 2026; sizes and colours can be priced differently.
                 </p>
               </div>
             </div>
@@ -264,7 +264,7 @@ export default function BestLagreeGlovesPage() {
                 {[
                   "Start with the problem. Sweaty palms and calluses call for a grip glove or pads; sore wrists call for wraps.",
                   "Keep your fingertips free. Half-finger or fingerless styles make handle and strap changes quicker.",
-                  "Snug fit. A glove that shifts on the palm makes grip worse, not better — size by hand measurement.",
+                  "Snug fit. A glove that shifts on the palm makes grip worse, not better: size by hand measurement.",
                   "Two pairs if you train often. Gloves get as sweaty as socks in a Lagree class.",
                   "Wrap wrists firmly, not tightly, and loosen wraps between plank sequences.",
                   "Ask your instructor if you are unsure whether gloves suit a particular studio or exercise.",
@@ -294,7 +294,7 @@ export default function BestLagreeGlovesPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Lagree Socks: Best Grip Socks for Lagree" excerpt="Full-toe, closed-toe, toeless and men's grip socks for a moving Megaformer carriage." href="/blog/best-lagree-grip-socks" category="Lagree" readTime="9 min read" date="October 2026" />
                 <ArticleCard title="Best Lagree Carriage Handles" excerpt="Megaformer handles, the Micro Handlebars and the grip aids that go with them." href="/blog/best-lagree-carriage-handles" category="Lagree" readTime="8 min read" date="October 2026" />
-                <ArticleCard title="Lagree Essentials" excerpt="Everything to wear, bring and buy for Lagree — on one page." href="/blog/lagree-essentials" category="Lagree" readTime="12 min read" date="October 2026" />
+                <ArticleCard title="Lagree Essentials" excerpt="Everything to wear, bring and buy for Lagree, on one page." href="/blog/lagree-essentials" category="Lagree" readTime="12 min read" date="October 2026" />
                 <ArticleCard title="Best Pilates Gloves" excerpt="Verified grip gloves for reformer and mat Pilates." href="/blog/best-pilates-gloves" category="Equipment" readTime="8 min read" date="2026" />
               </div>
             </div>

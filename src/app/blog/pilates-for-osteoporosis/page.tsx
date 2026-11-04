@@ -20,12 +20,12 @@ export const metadata: Metadata = {
     description: "Which Pilates exercises safely support bone density, and which movements pose fracture risk for people with osteoporosis.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/pilates-for-osteoporosis",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg", width: 1200, height: 630, alt: "Pilates for Osteoporosis — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg", width: 1200, height: 630, alt: "Pilates for Osteoporosis: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Pilates for Osteoporosis: Safe Exercises & What to Avoid",
-    description: "Which Pilates movements are safe for osteoporosis — and which pose fracture risk.",
+    description: "Which Pilates movements are safe for osteoporosis, and which pose fracture risk.",
     images: ["https://pilatescollectiveclub.com/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/pilates-for-osteoporosis" },
@@ -38,7 +38,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Pilates for Osteoporosis (2026): Safe Exercises & What to Avoid",
-      "description": "Evidence-based guide to Pilates for osteoporosis and osteopenia — which exercises help, which to avoid, and the critical modifications for fracture risk reduction.",
+      "description": "Evidence-based guide to Pilates for osteoporosis and osteopenia, which exercises help, which to avoid, and the critical modifications for fracture risk reduction.",
       "url": "https://pilatescollectiveclub.com/blog/pilates-for-osteoporosis",
       "datePublished": "2026-06-01",
       "dateModified": "2026-10-20",
@@ -60,19 +60,19 @@ const jsonLd = {
       "mainEntity": [
         { "@type": "Question", "name": "Can Pilates increase bone density?", "acceptedAnswer": { "@type": "Answer", "text": "Research suggests that weight-bearing and resistance exercise, including Pilates, can slow bone density loss and in some cases produce modest increases. A 2021 systematic review in Osteoporosis International found that Pilates-based exercise programmes significantly improved bone mineral density at the lumbar spine and femoral neck in postmenopausal women compared to control groups. The effect is not as large as high-impact exercise (jumping, running), but Pilates is safer for those who already have significant bone loss." } },
         { "@type": "Question", "name": "Is Pilates safe with severe osteoporosis?", "acceptedAnswer": { "@type": "Answer", "text": "Pilates can be safe with severe osteoporosis if the exercises are appropriately modified and supervised by a qualified instructor familiar with the condition. The critical modifications are: no spinal flexion under load, no spinal rotation combined with flexion, and no high-impact movements. Many of the classical Pilates mat exercises require these modifications for people with T-scores below -2.5 (severe osteoporosis). Always inform your instructor of your diagnosis and provide your most recent DEXA scan result." } },
-        { "@type": "Question", "name": "What Pilates exercises are contraindicated for osteoporosis?", "acceptedAnswer": { "@type": "Answer", "text": "The primary contraindications are exercises involving flexion of the spine under load — particularly the roll-up, the hundred in full position, double-leg stretch, and spine stretch forward in seated. Rotational exercises combined with flexion (saw, corkscrew) are also contraindicated. Exercises that are generally safe include: back extension work (swan prep, swimming), hip strengthening (clam, bridge), standing exercises with support, and gentle reformer footwork." } },
-        { "@type": "Question", "name": "Is reformer Pilates better than mat for osteoporosis?", "acceptedAnswer": { "@type": "Answer", "text": "Reformer Pilates has advantages for osteoporosis management because the spring system provides resistance (bone-building stimulus) while the padded carriage supports the spine in safe positions. The long box series, footwork, and standing exercises on the reformer are particularly appropriate. However, mat Pilates — suitably modified — is equally valuable for the extension and stability work that benefits bone health. One-on-one reformer sessions with a clinically-trained instructor are the gold standard starting point." } },
+        { "@type": "Question", "name": "What Pilates exercises are contraindicated for osteoporosis?", "acceptedAnswer": { "@type": "Answer", "text": "The primary contraindications are exercises involving flexion of the spine under load, particularly the roll-up, the hundred in full position, double-leg stretch, and spine stretch forward in seated. Rotational exercises combined with flexion (saw, corkscrew) are also contraindicated. Exercises that are generally safe include: back extension work (swan prep, swimming), hip strengthening (clam, bridge), standing exercises with support, and gentle reformer footwork." } },
+        { "@type": "Question", "name": "Is reformer Pilates better than mat for osteoporosis?", "acceptedAnswer": { "@type": "Answer", "text": "Reformer Pilates has advantages for osteoporosis management because the spring system provides resistance (bone-building stimulus) while the padded carriage supports the spine in safe positions. The long box series, footwork, and standing exercises on the reformer are particularly appropriate. However, mat Pilates, suitably modified, is equally valuable for the extension and stability work that benefits bone health. One-on-one reformer sessions with a clinically-trained instructor are the gold standard starting point." } },
       ],
     },
   ],
 };
 
 const PRODUCTS = [
-  { name: "Manduka PRO Yoga Mat (6mm)", description: "A firm, dense mat for osteoporosis Pilates work — joint protection and surface stability matter more here than plush cushioning. The Manduka PRO is the studio-standard dense mat: it resists sinking at the wrists and hips during weight-bearing exercises, and is a long-term purchase rather than a replacement item.", price: "$144.00", affiliateUrl: "https://www.amazon.com/dp/B0000DZFXZ?tag=pilatescollective-20" },
-  { name: "THERABAND Resistance Bands Set (Beginner Kit)", description: "Progressive resistance loading for bone density — the mechanical stimulus that drives osteoblast activity. The yellow/red/green beginner kit allows light-to-medium progressive loading appropriate for osteoporotic bone.", price: "$11.99", affiliateUrl: "https://www.amazon.com/dp/B01A58FHQ8?tag=pilatescollective-20" },
-  { name: "Black Mountain Products High Density Foam Roller (36-inch)", description: "For thoracic extension and mobility work. Note: spinal flexion over the roller is contraindicated with osteoporosis — extension work only.", price: "$29.99", affiliateUrl: "https://www.amazon.com/dp/B00DL7BH2O?tag=pilatescollective-20" },
-  { name: "Gaiam Pilates Ring Fitness Circle (15\")", description: "Light resistance for hip and arm strengthening in standing positions — weight-bearing exercises with a magic circle provide bone-loading stimulus without fracture risk.", price: "$19.78", affiliateUrl: "https://www.amazon.com/dp/B086HNGNFZ?tag=pilatescollective-20" },
-  { name: "Balanced Body Pilates Arc (Step Barrel)", description: "The real Balanced Body-branded arc barrel, sold directly by the manufacturer on Amazon. Supports safe spinal extension exercises for osteoporosis — extension strengthens the posterior spinal muscles that protect vertebral bodies from compression fracture.", price: "$189.99", affiliateUrl: "https://www.amazon.com/dp/B002XVSNRG?tag=pilatescollective-20" },
+  { name: "Manduka PRO Yoga Mat (6mm)", description: "A firm, dense mat for osteoporosis Pilates work: joint protection and surface stability matter more here than plush cushioning. The Manduka PRO is the studio-standard dense mat: it resists sinking at the wrists and hips during weight-bearing exercises, and is a long-term purchase rather than a replacement item.", price: "$144.00", affiliateUrl: "https://www.amazon.com/dp/B0000DZFXZ?tag=pilatescollective-20" },
+  { name: "THERABAND Resistance Bands Set (Beginner Kit)", description: "Progressive resistance loading for bone density: the mechanical stimulus that drives osteoblast activity. The yellow/red/green beginner kit allows light-to-medium progressive loading appropriate for osteoporotic bone.", price: "$11.99", affiliateUrl: "https://www.amazon.com/dp/B01A58FHQ8?tag=pilatescollective-20" },
+  { name: "Black Mountain Products High Density Foam Roller (36-inch)", description: "For thoracic extension and mobility work. Note: spinal flexion over the roller is contraindicated with osteoporosis, extension work only.", price: "$29.99", affiliateUrl: "https://www.amazon.com/dp/B00DL7BH2O?tag=pilatescollective-20" },
+  { name: "Gaiam Pilates Ring Fitness Circle (15\")", description: "Light resistance for hip and arm strengthening in standing positions: weight-bearing exercises with a magic circle provide bone-loading stimulus without fracture risk.", price: "$19.78", affiliateUrl: "https://www.amazon.com/dp/B086HNGNFZ?tag=pilatescollective-20" },
+  { name: "Balanced Body Pilates Arc (Step Barrel)", description: "The real Balanced Body-branded arc barrel, sold directly by the manufacturer on Amazon. Supports safe spinal extension exercises for osteoporosis: extension strengthens the posterior spinal muscles that protect vertebral bodies from compression fracture.", price: "$189.99", affiliateUrl: "https://www.amazon.com/dp/B002XVSNRG?tag=pilatescollective-20" },
 ];
 
 const KIT_NOTES = [
@@ -106,7 +106,7 @@ export default function PilatesForOsteoporosisPage() {
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note="Dense, studio-standard mat that resists sinking at the wrists and hips" url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Pilates is one of the most frequently recommended exercise approaches for people with osteoporosis and osteopenia — and one of the most frequently misapplied. The method&apos;s emphasis on controlled movement and spinal alignment makes it naturally well-suited to bone health. But several classical Pilates exercises pose genuine fracture risk for people with low bone density. This guide explains the evidence, the exercises that help, and the critical modifications that make Pilates safe.
+              Pilates is one of the most frequently recommended exercise approaches for people with osteoporosis and osteopenia, and one of the most frequently misapplied. The method&apos;s emphasis on controlled movement and spinal alignment makes it naturally well-suited to bone health. But several classical Pilates exercises pose genuine fracture risk for people with low bone density. This guide explains the evidence, the exercises that help, and the critical modifications that make Pilates safe.
             </p>
             <div className="mt-6 p-4 rounded-xl" style={{ backgroundColor: "#fff4f1", border: "1px solid rgba(139,74,49,0.2)" }}>
               <p className="text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}><span className="font-semibold">Medical note:</span> This article is educational information, not medical advice. Always consult your GP or rheumatologist before starting a new exercise programme with osteoporosis or osteopenia, and inform your Pilates instructor of your diagnosis and most recent DEXA scan result.</p>
@@ -117,7 +117,7 @@ export default function PilatesForOsteoporosisPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg" alt="Pilates for osteoporosis — safe bone-building exercises and spinal extension work" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg" alt="Pilates for osteoporosis: safe bone-building exercises and spinal extension work" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>
         </section>
@@ -134,13 +134,13 @@ export default function PilatesForOsteoporosisPage() {
             <div className="mb-14">
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Why bone health is a movement problem</h2>
               <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Bone is living tissue that responds to mechanical load. When muscles pull on bones through their attachment points, the resulting stress stimulates osteoblast activity — new bone formation. This is Wolff&apos;s Law: bone adapts to the loads placed upon it. Conversely, without adequate load (sedentary behaviour, bed rest, weightlessness), bone density declines.
+                Bone is living tissue that responds to mechanical load. When muscles pull on bones through their attachment points, the resulting stress stimulates osteoblast activity: new bone formation. This is Wolff&apos;s Law: bone adapts to the loads placed upon it. Conversely, without adequate load (sedentary behaviour, bed rest, weightlessness), bone density declines.
               </p>
               <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Osteoporosis — defined as a T-score of -2.5 or lower on DEXA scan — represents a significant reduction in bone mineral density. It is most common in postmenopausal women (due to oestrogen loss) and in older men, but can affect any age group. Osteopenia (T-score -1.0 to -2.5) is a precursor state that responds well to exercise intervention.
+                Osteoporosis: defined as a T-score of -2.5 or lower on DEXA scan: represents a significant reduction in bone mineral density. It is most common in postmenopausal women (due to oestrogen loss) and in older men, but can affect any age group. Osteopenia (T-score -1.0 to -2.5) is a precursor state that responds well to exercise intervention.
               </p>
               <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                The goal of exercise for osteoporosis is twofold: stimulate bone formation through safe mechanical loading, and reduce fracture risk by improving balance, coordination, and postural muscle strength. Pilates addresses both — when appropriately modified. The challenge is that the classical Pilates repertoire includes exercises that compress the spine in flexion, which can trigger vertebral compression fractures in people with low bone density. Understanding this distinction is the critical starting point.
+                The goal of exercise for osteoporosis is twofold: stimulate bone formation through safe mechanical loading, and reduce fracture risk by improving balance, coordination, and postural muscle strength. Pilates addresses both, when appropriately modified. The challenge is that the classical Pilates repertoire includes exercises that compress the spine in flexion, which can trigger vertebral compression fractures in people with low bone density. Understanding this distinction is the critical starting point.
               </p>
             </div>
 
@@ -153,23 +153,23 @@ export default function PilatesForOsteoporosisPage() {
                 {[
                   {
                     title: "Back extension work (swan prep, swimming)",
-                    body: "Extension exercises load the posterior vertebrae and paraspinal muscles in a bone-stimulating way without the dangerous compressive flexion forces of forward-bending exercises. Swan prep — lying prone, lifting the chest — is particularly valuable. Swimming (alternating arm-leg lifts prone) develops the extensor endurance that maintains upright posture and reduces the thoracic kyphosis that worsens with osteoporosis.",
+                    body: "Extension exercises load the posterior vertebrae and paraspinal muscles in a bone-stimulating way without the dangerous compressive flexion forces of forward-bending exercises. Swan prep (lying prone, lifting the chest) is particularly valuable. Swimming (alternating arm-leg lifts prone) develops the extensor endurance that maintains upright posture and reduces the thoracic kyphosis that worsens with osteoporosis.",
                   },
                   {
                     title: "Standing balance and hip strength work",
-                    body: "Falls are the primary cause of osteoporotic fractures. Improving single-leg balance, hip stability, and reaction speed is therefore one of the most important exercise goals for people with osteoporosis. Pilates standing series — including hip circles, single-leg exercises with wall support, and heel raises — directly targets these outcomes.",
+                    body: "Falls are the primary cause of osteoporotic fractures. Improving single-leg balance, hip stability, and reaction speed is therefore one of the most important exercise goals for people with osteoporosis. Pilates standing series (including hip circles, single-leg exercises with wall support, and heel raises) directly targets these outcomes.",
                   },
                   {
                     title: "Bridge and glute strengthening",
-                    body: "The bridge exercise loads the hip extensors and lumbar spine extensors in a way that is safe for most osteoporosis presentations (spine in neutral throughout, not flexed under load). Progressive glute strengthening is particularly important for hip fracture prevention — hip fractures are the most catastrophic consequence of falls in people with osteoporosis.",
+                    body: "The bridge exercise loads the hip extensors and lumbar spine extensors in a way that is safe for most osteoporosis presentations (spine in neutral throughout, not flexed under load). Progressive glute strengthening is particularly important for hip fracture prevention: hip fractures are the most catastrophic consequence of falls in people with osteoporosis.",
                   },
                   {
                     title: "Reformer footwork series",
-                    body: "The reformer footwork series — pushing through the feet against spring resistance while lying supine — loads the tibia, femur, and hip in a controlled, low-impact way that stimulates bone formation. The spine is supported in neutral on the carriage throughout, making this one of the most appropriate bone-loading exercises for people with significant osteoporosis.",
+                    body: "The reformer footwork series, pushing through the feet against spring resistance while lying supine, loads the tibia, femur, and hip in a controlled, low-impact way that stimulates bone formation. The spine is supported in neutral on the carriage throughout, making this one of the most appropriate bone-loading exercises for people with significant osteoporosis.",
                   },
                   {
                     title: "Side-lying leg series",
-                    body: "Hip abduction, external rotation, and hip circle exercises in side-lying load the femoral neck — the most common site of osteoporotic hip fracture — through the abductor muscles. This is one of the most direct interventions for hip bone health available in the Pilates repertoire.",
+                    body: "Hip abduction, external rotation, and hip circle exercises in side-lying load the femoral neck, the most common site of osteoporotic hip fracture, through the abductor muscles. This is one of the most direct interventions for hip bone health available in the Pilates repertoire.",
                   },
                 ].map((item) => (
                   <div key={item.title} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
@@ -182,15 +182,15 @@ export default function PilatesForOsteoporosisPage() {
 
             <div className="mb-14 rounded-2xl p-8" style={{ backgroundColor: "#fff4f1", border: "1px solid rgba(139,74,49,0.2)" }}>
               <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Exercises to avoid with osteoporosis</h2>
-              <p className="text-sm leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>The following classical Pilates exercises are contraindicated or require significant modification for people with osteoporosis. The primary risk is vertebral compression fracture from loaded spinal flexion — the vertebrae are most vulnerable when the spine is bent forward under load.</p>
+              <p className="text-sm leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>The following classical Pilates exercises are contraindicated or require significant modification for people with osteoporosis. The primary risk is vertebral compression fracture from loaded spinal flexion: the vertebrae are most vulnerable when the spine is bent forward under load.</p>
               <ul className="space-y-3">
                 {[
-                  "Roll-up / roll-down (supine): full spinal flexion under load against gravity — high vertebral compression force. Avoid.",
+                  "Roll-up / roll-down (supine): full spinal flexion under load against gravity, high vertebral compression force. Avoid.",
                   "The Hundred in traditional position (head and shoulders lifted): loaded cervical and upper thoracic flexion. Modify to head-down or omit.",
                   "Spine stretch forward: seated forward spinal flexion. Contraindicated with significant vertebral osteoporosis. Replace with seated extension work.",
-                  "Saw: combines rotation and flexion — doubled compression risk. Avoid or replace with rotation only in neutral spine.",
+                  "Saw: combines rotation and flexion, doubled compression risk. Avoid or replace with rotation only in neutral spine.",
                   "Double-leg stretch: repeated flexion under core load. Modify to tabletop or single-leg only, head supported.",
-                  "Open-leg rocker: dynamic flexion with momentum — very high fracture risk. Avoid entirely.",
+                  "Open-leg rocker: dynamic flexion with momentum, very high fracture risk. Avoid entirely.",
                   "Roll-like-a-ball: same issue as open-leg rocker. Avoid.",
                   "Corkscrew: combines rotation and flexion. Avoid.",
                 ].map((tip, i) => (
@@ -205,13 +205,13 @@ export default function PilatesForOsteoporosisPage() {
             <div className="mb-14">
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What the research shows</h2>
               <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                A 2021 systematic review and meta-analysis published in <em>Osteoporosis International</em> analysed 12 randomised controlled trials examining Pilates exercise in postmenopausal women with low bone density. The authors found statistically significant improvements in lumbar spine bone mineral density (BMD) and femoral neck BMD compared to control groups, along with significant improvements in balance and functional mobility — both of which are critical fall-risk factors.
+                A 2021 systematic review and meta-analysis published in <em>Osteoporosis International</em> analysed 12 randomised controlled trials examining Pilates exercise in postmenopausal women with low bone density. The authors found statistically significant improvements in lumbar spine bone mineral density (BMD) and femoral neck BMD compared to control groups, along with significant improvements in balance and functional mobility, both of which are critical fall-risk factors.
               </p>
               <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                The effect on BMD was modest — roughly 1–3% improvement compared to control groups — but clinically meaningful. A 2–3% improvement in femoral neck BMD over 6 months represents a meaningful reduction in fracture risk. More significant are the improvements in balance and muscle strength, which reduce fall probability independently of bone density.
+                The effect on BMD was modest, roughly 1–3% improvement compared to control groups, but clinically meaningful. A 2–3% improvement in femoral neck BMD over 6 months represents a meaningful reduction in fracture risk. More significant are the improvements in balance and muscle strength, which reduce fall probability independently of bone density.
               </p>
               <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                The National Osteoporosis Foundation (US) and the Royal Osteoporosis Society (UK) both include exercise as a first-line recommendation for osteoporosis management. The Royal Osteoporosis Society&apos;s guidance specifically recommends resistance and balance exercises — the core elements of Pilates — as appropriate for people with osteoporosis when correctly supervised.
+                The National Osteoporosis Foundation (US) and the Royal Osteoporosis Society (UK) both include exercise as a first-line recommendation for osteoporosis management. The Royal Osteoporosis Society&apos;s guidance specifically recommends resistance and balance exercises, the core elements of Pilates, as appropriate for people with osteoporosis when correctly supervised.
               </p>
             </div>
 
@@ -221,8 +221,8 @@ export default function PilatesForOsteoporosisPage() {
                 {[
                   { q: "Can Pilates increase bone density?", a: "Research suggests that weight-bearing and resistance exercise, including Pilates, can slow bone density loss and in some cases produce modest increases. A 2021 systematic review in Osteoporosis International found that Pilates-based exercise programmes significantly improved bone mineral density at the lumbar spine and femoral neck in postmenopausal women compared to control groups. The effect is not as large as high-impact exercise (jumping, running), but Pilates is safer for those who already have significant bone loss." },
                   { q: "Is Pilates safe with severe osteoporosis?", a: "Pilates can be safe with severe osteoporosis if the exercises are appropriately modified and supervised by a qualified instructor familiar with the condition. The critical modifications are: no spinal flexion under load, no spinal rotation combined with flexion, and no high-impact movements. Many of the classical Pilates mat exercises require these modifications for people with T-scores below -2.5 (severe osteoporosis). Always inform your instructor of your diagnosis and provide your most recent DEXA scan result." },
-                  { q: "What Pilates exercises are contraindicated for osteoporosis?", a: "The primary contraindications are exercises involving flexion of the spine under load — particularly the roll-up, the hundred in full position, double-leg stretch, and spine stretch forward in seated. Rotational exercises combined with flexion (saw, corkscrew) are also contraindicated. Exercises that are generally safe include: back extension work (swan prep, swimming), hip strengthening (clam, bridge), standing exercises with support, and gentle reformer footwork." },
-                  { q: "Is reformer Pilates better than mat for osteoporosis?", a: "Reformer Pilates has advantages for osteoporosis management because the spring system provides resistance (bone-building stimulus) while the padded carriage supports the spine in safe positions. The long box series, footwork, and standing exercises on the reformer are particularly appropriate. However, mat Pilates — suitably modified — is equally valuable for the extension and stability work that benefits bone health. One-on-one reformer sessions with a clinically-trained instructor are the gold standard starting point." },
+                  { q: "What Pilates exercises are contraindicated for osteoporosis?", a: "The primary contraindications are exercises involving flexion of the spine under load, particularly the roll-up, the hundred in full position, double-leg stretch, and spine stretch forward in seated. Rotational exercises combined with flexion (saw, corkscrew) are also contraindicated. Exercises that are generally safe include: back extension work (swan prep, swimming), hip strengthening (clam, bridge), standing exercises with support, and gentle reformer footwork." },
+                  { q: "Is reformer Pilates better than mat for osteoporosis?", a: "Reformer Pilates has advantages for osteoporosis management because the spring system provides resistance (bone-building stimulus) while the padded carriage supports the spine in safe positions. The long box series, footwork, and standing exercises on the reformer are particularly appropriate. However, mat Pilates, suitably modified, is equally valuable for the extension and stability work that benefits bone health. One-on-one reformer sessions with a clinically-trained instructor are the gold standard starting point." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
@@ -247,10 +247,10 @@ export default function PilatesForOsteoporosisPage() {
             <UpsellCTA
               eyebrow="Taking It Home"
               title="Why many people with osteoporosis move to a home reformer"
-              body="As covered above, the reformer's springs load bone while the carriage supports the spine in neutral — which is why it is so often recommended for low bone density. Once you have learned safe modifications with a qualified instructor, a home reformer lets you keep that loading consistent between sessions. Check with your clinician first."
+              body="As covered above, the reformer's springs load bone while the carriage supports the spine in neutral, which is why it is so often recommended for low bone density. Once you have learned safe modifications with a qualified instructor, a home reformer lets you keep that loading consistent between sessions. Check with your clinician first."
               picks={[
                 { name: "AeroPilates Reformer by Stamina", price: "$555.99", url: "https://www.amazon.com/dp/B07G5J3SKS?tag=pilatescollective-20", note: "An established home-reformer brand. Cord-based resistance, low to the floor, folds for storage." },
-                { name: "WINDFOOT Foldable Pilates Reformer", price: "$295.99", url: "https://www.amazon.com/dp/B0D31767J1?tag=pilatescollective-20", note: "A budget spring reformer from a newer brand — less track record, so best for confident, instructor-trained users." },
+                { name: "WINDFOOT Foldable Pilates Reformer", price: "$295.99", url: "https://www.amazon.com/dp/B0D31767J1?tag=pilatescollective-20", note: "A budget spring reformer from a newer brand: less track record, so best for confident, instructor-trained users." },
               ]}
               guideHref="/blog/best-pilates-reformer-for-beginners"
               guideLabel="Compare the best reformers for beginners"
@@ -260,7 +260,7 @@ export default function PilatesForOsteoporosisPage() {
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Pilates for Menopause" excerpt="How Pilates addresses the physical and psychological symptoms of perimenopause and menopause." href="/blog/pilates-for-menopause" category="Health" readTime="9 min read" date="June 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
-                <ArticleCard title="Pilates for Seniors" excerpt="How to adapt Pilates practice for older adults — safety, modifications, and the specific benefits for ageing bodies." href="/blog/pilates-for-seniors" category="Health" readTime="10 min read" date="June 2026" imageUrl="/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg" />
+                <ArticleCard title="Pilates for Seniors" excerpt="How to adapt Pilates practice for older adults: safety, modifications, and the specific benefits for ageing bodies." href="/blog/pilates-for-seniors" category="Health" readTime="10 min read" date="June 2026" imageUrl="/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg" />
               </div>
             </div>
           </div>

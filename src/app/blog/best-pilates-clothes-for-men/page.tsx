@@ -11,19 +11,19 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Clothes for Men (2026): What to Wear",
-  description: "The best Pilates clothes for men — fitted shorts, tops and compression tights from Rhone, Lululemon, Vuori, Under Armour and CRZ YOGA, chosen for the reformer.",
+  description: "The best Pilates clothes for men: fitted shorts, tops and compression tights from Rhone, Lululemon, Vuori, Under Armour and CRZ YOGA, chosen for the reformer.",
   keywords: ["best pilates clothes for men", "men pilates outfit 2026", "what to wear pilates men", "men reformer pilates outfit", "best mens activewear pilates", "men pilates shorts", "men pilates leggings", "lululemon pilates men", "vuori pilates men", "rhone pilates men", "under armour compression leggings pilates"],
   openGraph: {
     title: "Best Pilates Clothes for Men (2026): Shorts, Tights & Tops",
-    description: "What men should actually wear to Pilates — seven picks across every budget.",
+    description: "What men should actually wear to Pilates: seven picks across every budget.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-clothes-for-men",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg", width: 1200, height: 630, alt: "Best Pilates clothes for men — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg", width: 1200, height: 630, alt: "Best Pilates clothes for men: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Clothes for Men (2026)",
-    description: "Rhone, Lululemon, Vuori, Under Armour, CRZ YOGA — the best men's Pilates clothing.",
+    description: "Rhone, Lululemon, Vuori, Under Armour, CRZ YOGA: the best men's Pilates clothing.",
     images: ["https://pilatescollectiveclub.com/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg"],
   },
   alternates: {
@@ -38,7 +38,7 @@ const PRODUCTS = [
     name: "Rhone Men's 5\" Pursuit Shorts (Lined)",
     price: "$84.00",
     verdict: "Best overall men's Pilates short",
-    description: "Rhone is a men's performance brand, and this listing is sold on Amazon by Rhone itself (RHONE APPAREL INC), so you are buying the genuine article. The Pursuit is a lined short, which matters in Pilates: the built-in liner keeps you covered through footwork, leg circles and hip work on the reformer without needing a separate base layer. The 5\" inseam is on the shorter side of our 7–9\" guideline — it gives instructors a clear view of knee and hip tracking, and the liner handles coverage. If you prefer more length, size your choice by inseam first.",
+    description: "Rhone is a men's performance brand, and this listing is sold on Amazon by Rhone itself (RHONE APPAREL INC), so you are buying the genuine article. The Pursuit is a lined short, which matters in Pilates: the built-in liner keeps you covered through footwork, leg circles and hip work on the reformer without needing a separate base layer. The 5\" inseam is on the shorter side of our 7–9\" guideline: it gives instructors a clear view of knee and hip tracking, and the liner handles coverage. If you prefer more length, size your choice by inseam first.",
     affiliateUrl: "https://www.amazon.com/dp/B0F5YC8SKL?tag=pilatescollective-20",
     tag: "pilatescollective-20",
   },
@@ -47,7 +47,7 @@ const PRODUCTS = [
     name: "Rhone Reign Men's Workout Shirt",
     price: "$54.40",
     verdict: "Best men's Pilates top",
-    description: "The right Pilates top for men is close-fitting without being restrictive — loose tops pile up during rolldowns and inversions, obscuring both your position and your instructor's view of your spine. The Reign is Rhone's workout shirt, sold on Amazon directly by the brand (RHONE APPAREL INC). Choose your normal size for a fitted — not tight — silhouette that stays down through mat work and does not restrict shoulder movement on the reformer straps. It pairs naturally with the Pursuit short above.",
+    description: "The right Pilates top for men is close-fitting without being restrictive: loose tops pile up during rolldowns and inversions, obscuring both your position and your instructor's view of your spine. The Reign is Rhone's workout shirt, sold on Amazon directly by the brand (RHONE APPAREL INC). Choose your normal size for a fitted, not tight, silhouette that stays down through mat work and does not restrict shoulder movement on the reformer straps. It pairs naturally with the Pursuit short above.",
     affiliateUrl: "https://www.amazon.com/dp/B0CKC5XTNT?tag=pilatescollective-20",
     tag: "pilatescollective-20",
   },
@@ -56,7 +56,7 @@ const PRODUCTS = [
     name: "Lululemon ABC Short",
     price: "~$68 (lululemon.com)",
     verdict: "Best brand-direct men's studio short",
-    description: "Not sold on Amazon — this links to lululemon.com. The ABC is one of the best-known men's shorts in studios. The gusseted construction and four-way stretch Warpstreme fabric reduce the bunching and restriction you feel in most athletic shorts during hip work, spine articulation and deep hip flexor exercises on the reformer. Pick an inseam in the 7–9\" range for the best balance of coverage during footwork and leg-alignment visibility for your instructor. Lululemon does not sell through Amazon, so we link to the brand's own site rather than an Amazon search that would surface unrelated products.",
+    description: "Not sold on Amazon: this links to lululemon.com. The ABC is one of the best-known men's shorts in studios. The gusseted construction and four-way stretch Warpstreme fabric reduce the bunching and restriction you feel in most athletic shorts during hip work, spine articulation and deep hip flexor exercises on the reformer. Pick an inseam in the 7–9\" range for the best balance of coverage during footwork and leg-alignment visibility for your instructor. Lululemon does not sell through Amazon, so we link to the brand's own site rather than an Amazon search that would surface unrelated products.",
     affiliateUrl: "https://shop.lululemon.com/",
     tag: "",
   },
@@ -65,7 +65,7 @@ const PRODUCTS = [
     name: "Vuori Kore Short",
     price: "~$64 (vuoriclothing.com)",
     verdict: "Best brand-direct premium alternative",
-    description: "Not sold on Amazon — this links to vuoriclothing.com. Vuori's Kore Short is a popular alternative to Lululemon for men who want a cleaner, more refined aesthetic in the studio. It has a tailored fit that holds well through the hip-hinge movements that are heavy in Pilates. Vuori's colour palette runs muted compared with most athletic brands, which makes it a natural choice if you care about how your kit looks as much as how it performs. Vuori does not sell through Amazon, so we link to the brand's own site.",
+    description: "Not sold on Amazon: this links to vuoriclothing.com. Vuori's Kore Short is a popular alternative to Lululemon for men who want a cleaner, more refined aesthetic in the studio. It has a tailored fit that holds well through the hip-hinge movements that are heavy in Pilates. Vuori's colour palette runs muted compared with most athletic brands, which makes it a natural choice if you care about how your kit looks as much as how it performs. Vuori does not sell through Amazon, so we link to the brand's own site.",
     affiliateUrl: "https://vuoriclothing.com/",
     tag: "",
   },
@@ -83,7 +83,7 @@ const PRODUCTS = [
     name: "Under Armour Men's HeatGear Armour Leggings",
     price: "$28.25",
     verdict: "Best men's compression tights for reformer",
-    description: "Compression tights are the right choice for many men's Pilates practice — they allow instructors to see your leg and hip alignment clearly, they do not shift or bunch on the reformer carriage, and they give proprioceptive feedback that helps with precision footwork. HeatGear is Under Armour's established compression line, and this listing is sold by Amazon.com. Wear them alone or under shorts if you prefer extra coverage.",
+    description: "Compression tights are the right choice for many men's Pilates practice: they allow instructors to see your leg and hip alignment clearly, they do not shift or bunch on the reformer carriage, and they give proprioceptive feedback that helps with precision footwork. HeatGear is Under Armour's established compression line, and this listing is sold by Amazon.com. Wear them alone or under shorts if you prefer extra coverage.",
     affiliateUrl: "https://www.amazon.com/dp/B0874W7Z7R?tag=pilatescollective-20",
     tag: "pilatescollective-20",
   },
@@ -92,16 +92,16 @@ const PRODUCTS = [
     name: "CRZ YOGA Linerless Workout Shorts 5\"",
     price: "$28.00",
     verdict: "Best budget men's Pilates short",
-    description: "Sold on Amazon by CRZ YOGA, a well-reviewed budget activewear brand. These are linerless, so they work best worn over a pair of compression shorts or tights — a common setup for men who want the look of shorts with the coverage and alignment visibility of tights. The 5\" inseam keeps the fabric clear of the footbar and gives instructors a clear view of the knee. The best-value option in this guide.",
+    description: "Sold on Amazon by CRZ YOGA, a well-reviewed budget activewear brand. These are linerless, so they work best worn over a pair of compression shorts or tights: a common setup for men who want the look of shorts with the coverage and alignment visibility of tights. The 5\" inseam keeps the fabric clear of the footbar and gives instructors a clear view of the knee. The best-value option in this guide.",
     affiliateUrl: "https://www.amazon.com/dp/B0CQ4Y9V74?tag=pilatescollective-20",
     tag: "pilatescollective-20",
   },
 ];
 
 const FAQS = [
-  { q: "What should men wear to Pilates?", a: "Close-fitting shorts (7–9\" inseam) or compression tights, with a fitted top. Loose shorts and baggy T-shirts prevent your instructor from seeing your alignment — which defeats the purpose of a correction-based practice. The Rhone Pursuit Short and Under Armour HeatGear compression leggings are two good starting points at different price points." },
-  { q: "Can men wear shorts to Pilates?", a: "Yes — shorts are perfectly appropriate. A 7–9 inch inseam is ideal: long enough for coverage during hip flexor and footwork exercises, short enough for instructors to see knee and hip tracking. Avoid very short athletic shorts (under 5\") which create coverage problems, and basketball-length shorts (11\"+) which bunch on the reformer and hide alignment." },
-  { q: "Do men need grip socks for Pilates?", a: "Yes — grip socks are required or strongly recommended at most studios. The grippy sole prevents slipping on reformer footbars and mat surfaces during standing balance work. Standard athletic socks are too slippery. Toesox and Tavi Noir are the most studio-recommended brands for men." },
+  { q: "What should men wear to Pilates?", a: "Close-fitting shorts (7–9\" inseam) or compression tights, with a fitted top. Loose shorts and baggy T-shirts prevent your instructor from seeing your alignment, which defeats the purpose of a correction-based practice. The Rhone Pursuit Short and Under Armour HeatGear compression leggings are two good starting points at different price points." },
+  { q: "Can men wear shorts to Pilates?", a: "Yes: shorts are perfectly appropriate. A 7–9 inch inseam is ideal: long enough for coverage during hip flexor and footwork exercises, short enough for instructors to see knee and hip tracking. Avoid very short athletic shorts (under 5\") which create coverage problems, and basketball-length shorts (11\"+) which bunch on the reformer and hide alignment." },
+  { q: "Do men need grip socks for Pilates?", a: "Yes: grip socks are required or strongly recommended at most studios. The grippy sole prevents slipping on reformer footbars and mat surfaces during standing balance work. Standard athletic socks are too slippery. Toesox and Tavi Noir are the most studio-recommended brands for men." },
   { q: "What is the difference between Lululemon and Vuori for Pilates?", a: "Both are excellent for Pilates. Lululemon's ABC Short has a more technical, performance-focused cut built around a gusseted, four-way stretch design. Vuori's Kore Short has a tailored fit and a cleaner, more muted aesthetic. Neither brand sells on Amazon, so we link directly to lululemon.com and vuoriclothing.com." },
 ];
 
@@ -111,7 +111,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Best Pilates Clothes for Men (2026): Shorts, Tights and Tops",
-      "description": "The best Pilates clothes for men — shorts, compression tights, and tops from Rhone, Lululemon, Vuori, Under Armour, and CRZ YOGA.",
+      "description": "The best Pilates clothes for men: shorts, compression tights, and tops from Rhone, Lululemon, Vuori, Under Armour, and CRZ YOGA.",
       "url": "https://pilatescollectiveclub.com/blog/best-pilates-clothes-for-men",
       "datePublished": "2026-05-21",
       "dateModified": "2026-10-20",
@@ -167,7 +167,7 @@ export default function BestPilatesClothesForMenPage() {
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Men show up to Pilates in basketball shorts and oversized T-shirts more often than not. It is a practical mistake — loose clothing prevents instructors from seeing your alignment, shifts and bunches on the reformer carriage, and turns a precision practice into a guessing game. This guide covers the seven best men&apos;s Pilates clothing options: what to wear, why it matters, and which specific pieces hold up in the studio.
+              Men show up to Pilates in basketball shorts and oversized T-shirts more often than not. It is a practical mistake: loose clothing prevents instructors from seeing your alignment, shifts and bunches on the reformer carriage, and turns a precision practice into a guessing game. This guide covers the seven best men&apos;s Pilates clothing options: what to wear, why it matters, and which specific pieces hold up in the studio.
             </p>
           </div>
         </section>
@@ -175,7 +175,7 @@ export default function BestPilatesClothesForMenPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "380px" }}>
-              <Image src="/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg" alt="Men's Pilates clothing — best shorts, tights and tops for studio practice" fill className="object-cover" style={{ filter: "brightness(0.82)" }} />
+              <Image src="/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg" alt="Men's Pilates clothing: best shorts, tights and tops for studio practice" fill className="object-cover" style={{ filter: "brightness(0.82)" }} />
             </div>
           </div>
         </section>
@@ -188,9 +188,9 @@ export default function BestPilatesClothesForMenPage() {
 
             {/* Why clothing matters for men */}
             <div>
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Why clothing matters in Pilates — specifically for men</h2>
+              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Why clothing matters in Pilates: specifically for men</h2>
               <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Pilates is a precision practice. Your instructor needs to see the relationship between your foot, knee, hip, and spine during footwork, the hundred, and long stretch — the whole kinetic chain from ankle to shoulder. Baggy shorts and loose tops make that impossible. You are paying for cueing and correction. Bad clothing wastes it.
+                Pilates is a precision practice. Your instructor needs to see the relationship between your foot, knee, hip, and spine during footwork, the hundred, and long stretch: the whole kinetic chain from ankle to shoulder. Baggy shorts and loose tops make that impossible. You are paying for cueing and correction. Bad clothing wastes it.
               </p>
               <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                 There is also a practical dimension: loose fabric catches on reformer footbars, pools during rolldowns, and shifts during carriage movements. Close-fitting technical fabric stays in place. The seven pieces below solve both problems.
@@ -239,7 +239,7 @@ export default function BestPilatesClothesForMenPage() {
 
             {/* FAQ */}
             <div>
-              <h2 className="text-2xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Men&apos;s Pilates clothing — common questions</h2>
+              <h2 className="text-2xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Men&apos;s Pilates clothing: common questions</h2>
               <div className="space-y-4">
                 {FAQS.map((faq, i) => (
                   <div key={i} className="rounded-xl p-5" style={{ backgroundColor: "#fcf9f8", border: "1px solid rgba(217,194,186,0.3)" }}>
@@ -254,10 +254,10 @@ export default function BestPilatesClothesForMenPage() {
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="Best Pilates Equipment for Men" excerpt="Mats, grip socks, foam rollers, resistance bands and the best home reformer for men — all compared." href="/blog/best-pilates-equipment-for-men" category="Equipment" readTime="10 min read" date="May 2026" imageUrl="/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg" />
-                <ArticleCard title="What to Wear to Pilates" excerpt="The complete guide to Pilates clothing — covering women and men, mat and reformer classes." href="/blog/what-to-wear-to-pilates" category="Guide" readTime="6 min read" date="May 2026" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
-                <ArticleCard title="Best Pilates Grip Socks" excerpt="The right grip sock prevents slipping on reformer footbars and mat surfaces — six options compared." href="/blog/best-pilates-grip-socks" category="Apparel" readTime="6 min read" date="May 2026" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
-                <ArticleCard title="Gymshark Pilates Activewear" excerpt="Gymshark's Pilates range for men — which pieces work in the studio and which don't." href="/blog/gymshark-pilates" category="Brand Review" readTime="9 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Equipment for Men" excerpt="Mats, grip socks, foam rollers, resistance bands and the best home reformer for men: all compared." href="/blog/best-pilates-equipment-for-men" category="Equipment" readTime="10 min read" date="May 2026" imageUrl="/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg" />
+                <ArticleCard title="What to Wear to Pilates" excerpt="The complete guide to Pilates clothing: covering women and men, mat and reformer classes." href="/blog/what-to-wear-to-pilates" category="Guide" readTime="6 min read" date="May 2026" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Grip Socks" excerpt="The right grip sock prevents slipping on reformer footbars and mat surfaces: six options compared." href="/blog/best-pilates-grip-socks" category="Apparel" readTime="6 min read" date="May 2026" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
+                <ArticleCard title="Gymshark Pilates Activewear" excerpt="Gymshark's Pilates range for men, which pieces work in the studio and which don't." href="/blog/gymshark-pilates" category="Brand Review" readTime="9 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg" />
               </div>
             </div>
 

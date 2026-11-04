@@ -12,7 +12,7 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Studios in Barcelona (2026)",
-  description: "The best Pilates studios in Barcelona — reformer boutiques in Eixample, Gràcia, and the Gothic Quarter. Six curated picks, verified October 2026.",
+  description: "The best Pilates studios in Barcelona: reformer boutiques in Eixample, Gràcia, and the Gothic Quarter. Six curated picks, verified October 2026.",
   robots: {
     index: true,
     follow: true,
@@ -22,15 +22,15 @@ export const metadata: Metadata = {
   keywords: ["pilates barcelona", "reformer pilates barcelona", "best pilates studios barcelona", "pilates studio barcelona", "pilates clases barcelona", "pilates eixample", "pilates gracia barcelona", "pilates spain", "best reformer pilates barcelona", "estudio pilates barcelona"],
   openGraph: {
     title: "Best Pilates Studios in Barcelona (2026)",
-    description: "Six curated Pilates studios in Barcelona — reformer and classical picks from Eixample to Gràcia. Verified October 2026.",
+    description: "Six curated Pilates studios in Barcelona: reformer and classical picks from Eixample to Gràcia. Verified October 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/barcelona",
-    images: [{ url: "https://images.unsplash.com/photo-1539037116277-4db20889f2d4?w=1200&q=80", width: 1200, height: 630, alt: "Barcelona city guide — Pilates Collective Club" }],
+    images: [{ url: "https://images.unsplash.com/photo-1539037116277-4db20889f2d4?w=1200&q=80", width: 1200, height: 630, alt: "Barcelona city guide: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Studios in Barcelona (2026)",
-    description: "Our curated guide to Barcelona's best Pilates studios — six verified picks.",
+    description: "Our curated guide to Barcelona's best Pilates studios: six verified picks.",
     images: ["https://images.unsplash.com/photo-1539037116277-4db20889f2d4?w=1200&q=80"],
   },
   alternates: {
@@ -44,8 +44,8 @@ const STUDIOS = [
     name: "SimplyBe Pilates",
     neighborhood: "Eixample (near Urquinaona)",
     priceLevel: "$$$",
-    review: "SimplyBe is a boutique studio on Carrer de Pau Claris, a three-minute walk from Urquinaona metro, that combines Pilates with osteopathy and massage. It has been operating in Barcelona for more than 13 years, and classes cover Pilates, strength training, barre, pregnancy, injury prevention and rehabilitation — all taught in English, which makes it the most straightforward choice for expats and visitors.",
-    caveat: "it is a smaller wellness centre that mixes Pilates with manual therapy rather than a large reformer room — check the schedule for the class format you want.",
+    review: "SimplyBe is a boutique studio on Carrer de Pau Claris, a three-minute walk from Urquinaona metro, that combines Pilates with osteopathy and massage. It has been operating in Barcelona for more than 13 years, and classes cover Pilates, strength training, barre, pregnancy, injury prevention and rehabilitation: all taught in English, which makes it the most straightforward choice for expats and visitors.",
+    caveat: "it is a smaller wellness centre that mixes Pilates with manual therapy rather than a large reformer room: check the schedule for the class format you want.",
     address: "Carrer de Pau Claris, 83, 3-3, 08010 Barcelona",
     bestFor: "English-speaking expats and visitors; Pilates for injury and pregnancy",
     signatureClass: "Pilates (taught in English)",
@@ -56,8 +56,8 @@ const STUDIOS = [
     name: "PILAT3S Gràcia",
     neighborhood: "Gràcia",
     priceLevel: "$$$",
-    review: "PILAT3S Gràcia is a design-led boutique reformer studio on Carrer del Perill that pairs traditional Pilates with modern technology. It teaches the brand's three class types — Align, Tone and Power — for all levels, and offers showers with toiletries, changing rooms and lockers, which makes it easy to fit a class around a workday.",
-    caveat: "this is a polished boutique chain format — consistent and well-run, but less individual than a small owner-run studio.",
+    review: "PILAT3S Gràcia is a design-led boutique reformer studio on Carrer del Perill that pairs traditional Pilates with modern technology. It teaches the brand's three class types (Align, Tone and Power) for all levels, and offers showers with toiletries, changing rooms and lockers, which makes it easy to fit a class around a workday.",
+    caveat: "this is a polished boutique chain format: consistent and well-run, but less individual than a small owner-run studio.",
     address: "Carrer del Perill, 40, Gràcia, 08012 Barcelona",
     bestFor: "Reformer classes with full amenities, early-morning and evening slots",
     signatureClass: "Align · Tone · Power",
@@ -65,11 +65,11 @@ const STUDIOS = [
   },
   {
     number: "03",
-    name: "BCN Pilates Poblenou — Llull",
+    name: "BCN Pilates Poblenou Llull",
     neighborhood: "Poblenou",
     priceLevel: "$$",
     review: "BCN Pilates runs several studios around Poblenou, and the Carrer Llull location has two mat Pilates rooms for groups of up to nine people plus a reformer room with four machines. That small reformer room means a genuinely small class, at prices that are friendlier than the central boutique chains.",
-    caveat: "with only four reformers, reformer slots are limited — mat classes are much easier to get into.",
+    caveat: "with only four reformers, reformer slots are limited: mat classes are much easier to get into.",
     address: "Carrer de Llull, 233, 08025 Barcelona",
     bestFor: "Small-group reformer and mat Pilates in Poblenou",
     signatureClass: "Reformer (4-person class)",
@@ -80,20 +80,20 @@ const STUDIOS = [
     name: "Area Pilates",
     neighborhood: "Sarrià-Sant Gervasi",
     priceLevel: "$$$",
-    review: "Area Pilates is a 150 m² studio in Sarrià-Sant Gervasi equipped with the full range of Pilates apparatus — Cadillac, reformer, chair and barrel — plus small props. Changing rooms and showers come with towels, shampoo and gel, and subscribers get an hour of free parking, a real perk in the upper part of the city.",
-    caveat: "we could not confirm the exact street address independently — check the studio's listing on Urban Sports Club or its own site before your visit.",
-    address: "—",
+    review: "Area Pilates is a 150 m² studio in Sarrià-Sant Gervasi equipped with the full range of Pilates apparatus (Cadillac, reformer, chair and barrel) plus small props. Changing rooms and showers come with towels, shampoo and gel, and subscribers get an hour of free parking, a real perk in the upper part of the city.",
+    caveat: "we could not confirm the exact street address independently: check the studio's listing on Urban Sports Club or its own site before your visit.",
+    address: "",
     bestFor: "Full-apparatus Pilates in the upper city, with parking",
     signatureClass: "Reformer & Cadillac",
-    bookingTip: "Ask about the free parking when you sign up — it only applies to subscription and monthly plans.",
+    bookingTip: "Ask about the free parking when you sign up: it only applies to subscription and monthly plans.",
   },
   {
     number: "05",
-    name: "Mou Pilates — Santaló",
+    name: "Mou Pilates Santaló",
     neighborhood: "Sant Gervasi",
     priceLevel: "$$",
     review: "Mou Pilates has a reformer studio on Carrer de Santaló in Sant Gervasi, a residential part of the upper city close to Muntaner and Via Augusta. It is available through Urban Sports Club, which makes it easy to try before committing to a monthly plan.",
-    caveat: "there is limited published detail about the instructors and class formats — take a trial class first.",
+    caveat: "there is limited published detail about the instructors and class formats: take a trial class first.",
     address: "Carrer de Santaló, 15, 08021 Barcelona",
     bestFor: "Upper-city residents who want a neighbourhood reformer studio",
     signatureClass: "Reformer Pilates",
@@ -105,7 +105,7 @@ const STUDIOS = [
     neighborhood: "Sagrada Família / Sant Martí",
     priceLevel: "$$$",
     review: "PILAT3S Sagrada Família on Carrer de la Independència runs the brand's Tone, Power and Align reformer classes in small groups, taught in Spanish and English. It is rated 4.9 stars from more than 600 reviews on Urban Sports Club, and it opens early and closes late on weekdays.",
-    caveat: "bookings are required and you will not be let in once class has started — arrive a few minutes early.",
+    caveat: "bookings are required and you will not be let in once class has started: arrive a few minutes early.",
     address: "Carrer de la Independència, 273, 08026 Barcelona",
     bestFor: "Bilingual small-group reformer classes near Sagrada Família",
     signatureClass: "Tone · Power · Align",
@@ -115,8 +115,8 @@ const STUDIOS = [
 
 const BOOKING_TIPS = [
   { heading: "€20–38 per class is typical", body: "Barcelona reformer Pilates pricing is more accessible than London or Paris. Drop-in rates run from €20 at neighbourhood studios to €38 at premium boutiques. Bonos (class packs) of 5 or 10 sessions offer the best per-class rate." },
-  { heading: "Spanish and English instruction are both widely available", body: "Barcelona's international population has pushed most quality studios to offer English-language instruction as standard. Catalan is occasionally used at neighbourhood studios — confirm language preference when booking." },
-  { heading: "Bonos (class packs) are the standard purchase model", body: "Unlike monthly memberships common in the US and UK, Barcelona studios typically sell bonos — packs of 5 or 10 sessions. These usually expire after three months, so be realistic about frequency when purchasing." },
+  { heading: "Spanish and English instruction are both widely available", body: "Barcelona's international population has pushed most quality studios to offer English-language instruction as standard. Catalan is occasionally used at neighbourhood studios: confirm language preference when booking." },
+  { heading: "Bonos (class packs) are the standard purchase model", body: "Unlike monthly memberships common in the US and UK, Barcelona studios typically sell bonos: packs of 5 or 10 sessions. These usually expire after three months, so be realistic about frequency when purchasing." },
   { heading: "Book 2–3 days ahead", body: "Barcelona studios are popular but rarely as pressured as their London counterparts. Two to three days' notice is generally sufficient, with Saturday morning and early evening classes requiring more advance planning." },
   { heading: "August is quiet", body: "Many Barcelona studios operate reduced schedules in August as the city empties for summer. If visiting in August, confirm the studio is open and running a full schedule before planning around it." },
 ];
@@ -143,7 +143,7 @@ const GEAR = [
   },
   {
     name: "Magic Circle",
-    note: "Our pick: Balanced Body Ultra-Fit Circle (15-inch). Many studios incorporate the magic circle — worth owning for home reinforcement work.",
+    note: "Our pick: Balanced Body Ultra-Fit Circle (15-inch). Many studios incorporate the magic circle: worth owning for home reinforcement work.",
     price: "$35.00",
     url: "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20",
   },
@@ -161,7 +161,7 @@ const GEAR = [
   },
   {
     name: "Home Pilates Reformer",
-    note: "Our pick: PAETA Wooden Foldable Reformer. A home reformer extends your studio practice — AeroPilates and Align entry models deliver a genuine full-body session.",
+    note: "Our pick: PAETA Wooden Foldable Reformer. A home reformer extends your studio practice: AeroPilates and Align entry models deliver a genuine full-body session.",
     price: "$699.98",
     url: "https://www.amazon.com/dp/B0D7M7JNFV?tag=pilatescollective-20",
   },
@@ -181,7 +181,7 @@ const FURTHER_READING = [
 ];
 
 const CITY_FAQS = [
-  { q: "What are the best Pilates studios in Barcelona?", a: "Our 6 curated picks are SimplyBe Pilates (Eixample, near Urquinaona), PILAT3S Gràcia (Gràcia), BCN Pilates Poblenou — Llull (Poblenou), Area Pilates (Sarrià-Sant Gervasi), Mou Pilates — Santaló (Sant Gervasi) and PILAT3S Sagrada Família (Sagrada Família / Sant Martí). Each listing above covers what the studio is best for, its signature class and a booking tip." },
+  { q: "What are the best Pilates studios in Barcelona?", a: "Our 6 curated picks are SimplyBe Pilates (Eixample, near Urquinaona), PILAT3S Gràcia (Gràcia), BCN Pilates Poblenou (Llull (Poblenou), Area Pilates (Sarrià-Sant Gervasi), Mou Pilates) Santaló (Sant Gervasi) and PILAT3S Sagrada Família (Sagrada Família / Sant Martí). Each listing above covers what the studio is best for, its signature class and a booking tip." },
   { q: "Which Barcelona neighbourhoods are best for Pilates?", a: "This guide covers Eixample, Gràcia & Sarrià, Born, Barceloneta & El Raval and Poblenou & Sant Martí. Eixample: Barcelona's elegant central district hosts the city's most established classical studios." },
   { q: "What should I know about booking Pilates classes in Barcelona?", a: "€20–38 per class is typical. Barcelona reformer Pilates pricing is more accessible than London or Paris." },
   { q: "What should I bring to a Pilates class in Barcelona?", a: "Grip socks are required at most reformer studios. Our gear list for Barcelona covers Pilates grip socks, Pilates mat, magic circle, resistance bands, foam roller and home Pilates reformer." },
@@ -193,7 +193,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Best Pilates Studios in Barcelona (2026)",
-      "description": "The best Pilates studios in Barcelona — reformer boutiques in Eixample, Gràcia, and the Gothic Quarter. Six curated picks, verified October 2026.",
+      "description": "The best Pilates studios in Barcelona: reformer boutiques in Eixample, Gràcia, and the Gothic Quarter. Six curated picks, verified October 2026.",
       "url": "https://pilatescollectiveclub.com/cities/barcelona",
       "datePublished": "2026-06-28",
       "dateModified": "2026-10-20",
@@ -258,7 +258,7 @@ export default function BarcelonaPage() {
             <p className="text-sm mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 7 min read</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Barcelona's relationship with wellness is deeply embedded in its culture — the city's climate, its architecture, its café rhythms all encourage a certain attentiveness to physical wellbeing. The Pilates scene here reflects this: studios tend to be beautifully housed, thoughtfully run, and staffed by teachers who treat the method seriously. This guide covers the six studios we rate most highly across the city's distinct neighbourhoods.
+              Barcelona's relationship with wellness is deeply embedded in its culture: the city's climate, its architecture, its café rhythms all encourage a certain attentiveness to physical wellbeing. The Pilates scene here reflects this: studios tend to be beautifully housed, thoughtfully run, and staffed by teachers who treat the method seriously. This guide covers the six studios we rate most highly across the city's distinct neighbourhoods.
             </p>
           </div>
         </section>
@@ -316,7 +316,7 @@ export default function BarcelonaPage() {
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What to bring to your first class</h2>
             <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-              Grip socks are required at most reformer studios in Barcelona. These are our recommended picks — all available on Amazon.{" "}
+              Grip socks are required at most reformer studios in Barcelona. These are our recommended picks: all available on Amazon.{" "}
               <Link href="/affiliate-disclosure" style={{ color: "#8b4a31", textDecoration: "underline", fontFamily: "'Montserrat', sans-serif", fontSize: "inherit" }}>Affiliate disclosure.</Link>
             </p>
             <QuickPicks className="mb-0" picks={GEAR.map((g) => ({ name: g.note.match(/Our pick: ([^.]+(?:\.\d+[^.]*)?)\./)?.[1] ?? g.name, price: g.price, url: g.url, note: g.name }))} />
@@ -351,7 +351,7 @@ export default function BarcelonaPage() {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-2xl">{FURTHER_READING.map((a) => <ArticleCard key={a.href} {...a} />)}</div>
           </div>
         </section>
-        <CTASection title="Find Pilates near you" subtitle="Use our AI Finder to discover studios in any city — coming soon." showSearch searchPlaceholder="Ask: best Pilates studios in Barcelona…" />
+        <CTASection title="Find Pilates near you" subtitle="Use our AI Finder to discover studios in any city: coming soon." showSearch searchPlaceholder="Ask: best Pilates studios in Barcelona…" />
       </main>
       <Footer />
     </>

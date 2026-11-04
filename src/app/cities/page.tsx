@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description: "Curated guides to the best Pilates studios in 65 cities worldwide: London, New York, Paris, Vienna, Edinburgh, Auckland, Mexico City and more. Find the right studio before you book.",
   keywords: ["pilates studios by city", "best pilates studios worldwide", "pilates city guides", "reformer pilates cities", "pilates london paris new york"],
   openGraph: {
-    title: "Pilates Studio Guides by City — Pilates Collective Club",
+    title: "Pilates Studio Guides by City: Pilates Collective Club",
     description: "Find the best Pilates studios in 25 cities worldwide. Curated picks with booking tips.",
     type: "website",
     url: "https://pilatescollectiveclub.com/cities",
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Pilates Studio Guides by City — Pilates Collective Club",
+    title: "Pilates Studio Guides by City: Pilates Collective Club",
     description: "Find the best Pilates studios in 25 cities worldwide. Curated picks with booking tips.",
     images: ["https://pilatescollectiveclub.com/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg"],
   },
@@ -139,7 +139,7 @@ export default function CitiesPage() {
               Studios worldwide.
             </h1>
             <p className="text-lg max-w-xl" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Curated picks in {CITIES.length} cities across the US and worldwide — the studios worth booking, with advice on what to expect before you arrive.
+              Curated picks in {CITIES.length} cities across the US and worldwide: the studios worth booking, with advice on what to expect before you arrive.
             </p>
           </div>
         </section>

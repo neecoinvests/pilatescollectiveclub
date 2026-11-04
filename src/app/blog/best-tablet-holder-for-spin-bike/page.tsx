@@ -12,14 +12,14 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Tablet Holders for Spin Bikes (2026): Compared & Ranked",
-  description: "Tablet and phone holders for indoor bikes ranked — clamp mounts, trays and gooseneck arms compared on sweat resistance, sprint stability and screen height.",
+  description: "Tablet and phone holders for indoor bikes ranked: clamp mounts, trays and gooseneck arms compared on sweat resistance, sprint stability and screen height.",
   keywords: ["best tablet holder for spin bike", "spin bike tablet mount", "peloton tablet holder", "ipad holder for exercise bike", "phone mount spin bike", "handlebar tablet mount", "gooseneck tablet holder bike", "indoor bike screen holder", "tablet tray exercise bike", "spin bike phone holder 2026"],
   openGraph: {
     title: "Best Tablet Holders for Spin Bikes (2026): Compared & Ranked",
     description: "Clamp mounts, trays and gooseneck arms compared on sweat resistance, sprint stability and screen height.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-tablet-holder-for-spin-bike",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/henrique-ferreira-omiTbS-nb_M-unsplash.jpg", width: 1200, height: 630, alt: "Best Tablet Holders for Spin Bikes — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/henrique-ferreira-omiTbS-nb_M-unsplash.jpg", width: 1200, height: 630, alt: "Best Tablet Holders for Spin Bikes: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -48,7 +48,7 @@ const PRODUCTS = [
     price: "From $42",
     verdict: "Best for bikes with an existing screen post",
     description:
-      "If your bike already has a screen or a screen post, a tray that sits above or in front of it is a cleaner solution than clamping a second device to the bars. Trays distribute the load across a wide flat platform instead of a single clamp point, which means they cope far better with a heavy tablet, and they leave the handlebars entirely free for your hands — worth more than it sounds when you move between positions. The important check is the mounting interface: some trays fit the Peloton screen arm specifically, others use a universal strap, and the two are not interchangeable. Also confirm the tray does not block the bike's own console or resistance knob. Best suited to riders following a class on one screen while keeping metrics on another.",
+      "If your bike already has a screen or a screen post, a tray that sits above or in front of it is a cleaner solution than clamping a second device to the bars. Trays distribute the load across a wide flat platform instead of a single clamp point, which means they cope far better with a heavy tablet, and they leave the handlebars entirely free for your hands: worth more than it sounds when you move between positions. The important check is the mounting interface: some trays fit the Peloton screen arm specifically, others use a universal strap, and the two are not interchangeable. Also confirm the tray does not block the bike's own console or resistance knob. Best suited to riders following a class on one screen while keeping metrics on another.",
     affiliateUrl: "https://www.amazon.com/s?k=peloton+compatible+tablet+tray+shelf+mount&tag=pilatescollective-20",
     tag: "Best Tray",
   },
@@ -68,7 +68,7 @@ const PRODUCTS = [
     price: "From $14",
     verdict: "Best for phones and minimal setups",
     description:
-      "For a phone rather than a tablet, a silicone strap mount is genuinely hard to beat. It has no hinges, no screws and no metal to corrode, which removes every common failure mode in a sweaty environment, and it costs about a tenth of a rigid mount. The silicone grips the bar and the device simultaneously and damps vibration better than a hard cradle does. Limitations are honest: it will not hold a full-size tablet, the viewing angle is essentially fixed, and the silicone perishes with UV exposure over a couple of years. For following a class app, tracking metrics, or just keeping a phone visible and out of a pocket, it is the most practical purchase on this list. Buy two — they cost almost nothing and the spare lives in a gym bag.",
+      "For a phone rather than a tablet, a silicone strap mount is genuinely hard to beat. It has no hinges, no screws and no metal to corrode, which removes every common failure mode in a sweaty environment, and it costs about a tenth of a rigid mount. The silicone grips the bar and the device simultaneously and damps vibration better than a hard cradle does. Limitations are honest: it will not hold a full-size tablet, the viewing angle is essentially fixed, and the silicone perishes with UV exposure over a couple of years. For following a class app, tracking metrics, or just keeping a phone visible and out of a pocket, it is the most practical purchase on this list. Buy two: they cost almost nothing and the spare lives in a gym bag.",
     affiliateUrl: "https://www.amazon.com/s?k=silicone+strap+phone+mount+bike+handlebar&tag=pilatescollective-20",
     tag: "Best for Phones",
   },
@@ -78,7 +78,7 @@ const PRODUCTS = [
     price: "From $55",
     verdict: "Best for large devices and note-taking",
     description:
-      "A full-width tray that spans the handlebars turns the bike into a workstation, which is a real use case for anyone doing steady-state endurance riding while watching something or working. The wide platform carries a laptop or a large tablet without any clamp stress, and most include a lip to stop the device sliding during braking-style resistance changes. Two caveats worth taking seriously. First, a tray this size blocks the bars, so it only suits seated riding — it is unsuitable for any class involving out-of-saddle work. Second, sweat runs off you and lands on the tray, which is directly above your device; look for a tray with a raised lip and drainage, and wipe it down every session. Not the pick for interval classes.",
+      "A full-width tray that spans the handlebars turns the bike into a workstation, which is a real use case for anyone doing steady-state endurance riding while watching something or working. The wide platform carries a laptop or a large tablet without any clamp stress, and most include a lip to stop the device sliding during braking-style resistance changes. Two caveats worth taking seriously. First, a tray this size blocks the bars, so it only suits seated riding: it is unsuitable for any class involving out-of-saddle work. Second, sweat runs off you and lands on the tray, which is directly above your device; look for a tray with a raised lip and drainage, and wipe it down every session. Not the pick for interval classes.",
     affiliateUrl: "https://www.amazon.com/s?k=wide+handlebar+tray+exercise+bike+laptop+desk&tag=pilatescollective-20",
     tag: "Best Large Tray",
   },
@@ -88,7 +88,7 @@ const PRODUCTS = [
     price: "$19.99",
     verdict: "Cheapest serviceable mount",
     description:
-      "The budget end of this category is serviceable because the engineering requirement is genuinely modest — hold a light object steady on a tube. What you give up is longevity in a sweaty environment. Cheap mounts use plated steel screws and springs that corrode within months of regular use, and the plastic cradles become brittle. Two habits extend their life considerably: wipe the mount down at the end of each session rather than letting sweat dry on it, and remove the device between rides so the spring is not held under permanent tension. Check the listing states a bar diameter that covers indoor bikes, since many budget mounts are specified for slimmer road bars and will not close around a thicker indoor handlebar. Fine as a first mount to establish how you actually want the screen positioned.",
+      "The budget end of this category is serviceable because the engineering requirement is genuinely modest: hold a light object steady on a tube. What you give up is longevity in a sweaty environment. Cheap mounts use plated steel screws and springs that corrode within months of regular use, and the plastic cradles become brittle. Two habits extend their life considerably: wipe the mount down at the end of each session rather than letting sweat dry on it, and remove the device between rides so the spring is not held under permanent tension. Check the listing states a bar diameter that covers indoor bikes, since many budget mounts are specified for slimmer road bars and will not close around a thicker indoor handlebar. Fine as a first mount to establish how you actually want the screen positioned.",
     affiliateUrl: "https://www.amazon.com/dp/B08BZ72L5Q?tag=pilatescollective-20",
     tag: "Best Budget",
   },
@@ -100,7 +100,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Best Tablet Holders for Spin Bikes (2026): Compared & Ranked",
-      "description": "Tablet and phone mounts for indoor cycling compared — clamp mounts, trays, gooseneck arms and strap mounts on stability, sweat resistance and screen height.",
+      "description": "Tablet and phone mounts for indoor cycling compared: clamp mounts, trays, gooseneck arms and strap mounts on stability, sweat resistance and screen height.",
       "url": "https://pilatescollectiveclub.com/blog/best-tablet-holder-for-spin-bike",
       "datePublished": "2026-09-14",
       "dateModified": "2026-10-20",
@@ -137,7 +137,7 @@ const jsonLd = {
       "mainEntity": [
         { "@type": "Question", "name": "Will a tablet holder fit my spin bike handlebars?", "acceptedAnswer": { "@type": "Answer", "text": "Check the bar diameter before ordering, because this is the most common reason a mount arrives and cannot be fitted. Indoor bike handlebars are typically thicker than road bike bars, commonly 31.8 to 35mm, while many budget mounts are specified for slimmer tubing. Measure across the section of bar where you intend to clamp, since many indoor bars taper. If your bike has an unusually shaped or fully wrapped bar, a strap-style silicone mount or a tray that fits the screen post is a safer choice than a rigid clamp." } },
         { "@type": "Question", "name": "Will the mount survive sweat?", "acceptedAnswer": { "@type": "Answer", "text": "Only if you choose materials with that in mind. Sweat is salty and corrosive, and it drips directly onto anything mounted to the bars, so plated steel screws and springs rust within months of regular use. Prefer anodised aluminium, moulded plastic or silicone, and stainless hardware where there is hardware at all. The single most effective habit is wiping the mount down at the end of each session rather than letting sweat dry on it, which roughly doubles the useful life of anything in this category." } },
-        { "@type": "Question", "name": "Where should the screen sit for good posture?", "acceptedAnswer": { "@type": "Answer", "text": "As close to eye level as the setup allows. A tablet clamped to the handlebars sits low, which means 45 minutes with the neck flexed forward — the same sustained position that produces the upper back and neck stiffness most desk workers are already dealing with. A gooseneck or floor-stand arm lets you raise the screen to eye height and keep the neck neutral. If you are stuck with a bar-level mount, deliberately look up and away every few minutes rather than holding one head position for the whole class." } },
+        { "@type": "Question", "name": "Where should the screen sit for good posture?", "acceptedAnswer": { "@type": "Answer", "text": "As close to eye level as the setup allows. A tablet clamped to the handlebars sits low, which means 45 minutes with the neck flexed forward: the same sustained position that produces the upper back and neck stiffness most desk workers are already dealing with. A gooseneck or floor-stand arm lets you raise the screen to eye height and keep the neck neutral. If you are stuck with a bar-level mount, deliberately look up and away every few minutes rather than holding one head position for the whole class." } },
         { "@type": "Question", "name": "Are tablet holders stable during out-of-saddle sprints?", "acceptedAnswer": { "@type": "Answer", "text": "Short rigid clamps are; long flexible arms and wide trays are not. Standing sprints shake the bars considerably, and any mount with an extended unsupported arm will oscillate enough to make a screen unreadable and to work the fitting loose over time. If your riding involves frequent standing work, choose the shortest, most rigid mount that holds your device and keep it close to the bar. Wide trays in particular are only suitable for seated endurance riding, since they also block the bars themselves." } },
       ],
     },
@@ -166,7 +166,7 @@ export default function BestTabletHolderForSpinBikePage() {
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Two things kill mounts in this category and neither is load capacity. Sweat is corrosive and drips straight onto anything clamped to the bars, so plated steel hardware rusts within months. And out-of-saddle sprints shake the handlebars hard enough that long unsupported arms oscillate until the screen is unreadable and the fitting works loose. Bar diameter is the third trap — indoor bars are thicker than road bars, so measure before ordering.
+              Two things kill mounts in this category and neither is load capacity. Sweat is corrosive and drips straight onto anything clamped to the bars, so plated steel hardware rusts within months. And out-of-saddle sprints shake the handlebars hard enough that long unsupported arms oscillate until the screen is unreadable and the fitting works loose. Bar diameter is the third trap: indoor bars are thicker than road bars, so measure before ordering.
             </p>
           </div>
         </section>
@@ -206,7 +206,7 @@ export default function BestTabletHolderForSpinBikePage() {
                   "Measure your handlebar diameter. Indoor bars are commonly 31.8–35mm, thicker than the road bars many budget mounts are specified for.",
                   "Prefer anodised aluminium, plastic or silicone over plated steel. Sweat corrodes steel hardware within months.",
                   "Keep the arm short if you ride out of the saddle. Long arms oscillate during sprints and work loose.",
-                  "Aim for eye level, not bar level — 45 minutes with the neck flexed is a posture problem, not a comfort one.",
+                  "Aim for eye level, not bar level, 45 minutes with the neck flexed is a posture problem, not a comfort one.",
                   "Check a tray does not block the bike's own console or resistance knob.",
                   "Wipe the mount down after every session. It roughly doubles the life of anything in this category.",
                 ].map((tip, i) => (
@@ -224,7 +224,7 @@ export default function BestTabletHolderForSpinBikePage() {
                 {[
                   { q: "Will a tablet holder fit my spin bike handlebars?", a: "Check the bar diameter before ordering, because this is the most common reason a mount arrives and cannot be fitted. Indoor bike handlebars are typically thicker than road bike bars, commonly 31.8 to 35mm, while many budget mounts are specified for slimmer tubing. Measure across the section of bar where you intend to clamp, since many indoor bars taper. If your bike has an unusually shaped or fully wrapped bar, a strap-style silicone mount or a tray that fits the screen post is a safer choice than a rigid clamp." },
                   { q: "Will the mount survive sweat?", a: "Only if you choose materials with that in mind. Sweat is salty and corrosive, and it drips directly onto anything mounted to the bars, so plated steel screws and springs rust within months of regular use. Prefer anodised aluminium, moulded plastic or silicone, and stainless hardware where there is hardware at all. The single most effective habit is wiping the mount down at the end of each session rather than letting sweat dry on it, which roughly doubles the useful life of anything in this category." },
-                  { q: "Where should the screen sit for good posture?", a: "As close to eye level as the setup allows. A tablet clamped to the handlebars sits low, which means 45 minutes with the neck flexed forward — the same sustained position that produces the upper back and neck stiffness most desk workers are already dealing with. A gooseneck or floor-stand arm lets you raise the screen to eye height and keep the neck neutral. If you are stuck with a bar-level mount, deliberately look up and away every few minutes rather than holding one head position for the whole class." },
+                  { q: "Where should the screen sit for good posture?", a: "As close to eye level as the setup allows. A tablet clamped to the handlebars sits low, which means 45 minutes with the neck flexed forward: the same sustained position that produces the upper back and neck stiffness most desk workers are already dealing with. A gooseneck or floor-stand arm lets you raise the screen to eye height and keep the neck neutral. If you are stuck with a bar-level mount, deliberately look up and away every few minutes rather than holding one head position for the whole class." },
                   { q: "Are tablet holders stable during out-of-saddle sprints?", a: "Short rigid clamps are; long flexible arms and wide trays are not. Standing sprints shake the bars considerably, and any mount with an extended unsupported arm will oscillate enough to make a screen unreadable and to work the fitting loose over time. If your riding involves frequent standing work, choose the shortest, most rigid mount that holds your device and keep it close to the bar. Wide trays in particular are only suitable for seated endurance riding, since they also block the bars themselves." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>

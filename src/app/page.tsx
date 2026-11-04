@@ -12,19 +12,19 @@ import type { FeaturedItem } from "@/components/FeaturedRotator";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Pilates Collective Club — Find the Best Pilates Studios Worldwide",
+  title: "Pilates Collective Club: Find the Best Pilates Studios Worldwide",
   description: "Curated city guides, studio reviews, and equipment picks for Pilates practitioners. Find the best reformer studios in London, New York, Paris, Zurich and beyond.",
   keywords: ["best pilates studios", "pilates studios near me", "reformer pilates studios", "pilates city guides", "pilates london", "pilates new york", "pilates paris", "pilates zurich", "find pilates studio", "pilates class near me", "best reformer pilates", "pilates studio guide"],
   openGraph: {
-    title: "Pilates Collective Club — Find Your Studio. Know Your Method.",
+    title: "Pilates Collective Club: Find Your Studio. Know Your Method.",
     description: "Curated city guides and expert studio recommendations for Pilates practitioners worldwide. Find the best reformer studios in London, New York, Paris, Zurich and more.",
     type: "website",
     url: "https://pilatescollectiveclub.com",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg", width: 1200, height: 630, alt: "Pilates Collective Club — curated studio guides and equipment picks for Pilates practitioners" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg", width: 1200, height: 630, alt: "Pilates Collective Club: curated studio guides and equipment picks for Pilates practitioners" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Pilates Collective Club — Find Your Studio. Know Your Method.",
+    title: "Pilates Collective Club: Find Your Studio. Know Your Method.",
     description: "Curated city guides and expert studio recommendations for Pilates practitioners worldwide.",
     images: ["https://pilatescollectiveclub.com/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg"],
   },
@@ -83,10 +83,10 @@ const CITIES = [
 ];
 
 const FEATURED_ITEMS: FeaturedItem[] = [
-  // 1 — Product
+  // 1, Product
   {
     title: "Best Pilates Reformer Under $1,000 (2026): Honest Reviews",
-    excerpt: "The best mid-range reformers compared honestly — AeroPilates, Stamina, and Merrithew entry-level machines ranked by resistance quality, build, and long-term value.",
+    excerpt: "The best mid-range reformers compared honestly: AeroPilates, Stamina, and Merrithew entry-level machines ranked by resistance quality, build, and long-term value.",
     href: "/blog/best-pilates-reformer-under-1000",
     category: "Best For · Equipment",
     readTime: "10 min read",
@@ -94,16 +94,16 @@ const FEATURED_ITEMS: FeaturedItem[] = [
     affiliateUrl: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20",
     affiliateLabel: "Shop Our Top Pick →",
   },
-  // 2 — City
+  // 2, City
   {
     title: "The Best Pilates Studios in London",
-    excerpt: "From Heartcore in Kensington to Ten Health in Shoreditch — our complete guide to London's most respected reformer studios. Every studio compared on format, price and reviews.",
+    excerpt: "From Heartcore in Kensington to Ten Health in Shoreditch: our complete guide to London's most respected reformer studios. Every studio compared on format, price and reviews.",
     href: "/cities/london",
     category: "City Guide",
     readTime: "8 min read",
     imageUrl: "/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg",
   },
-  // 3 — Article
+  // 3, Article
   {
     title: "The Beginner's Guide to Reformer Pilates",
     excerpt: "What to expect in your first reformer class, how to choose a studio, and how to progress with confidence. Everything a new practitioner needs to know before stepping on the carriage.",
@@ -112,37 +112,37 @@ const FEATURED_ITEMS: FeaturedItem[] = [
     readTime: "8 min read",
     imageUrl: "/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg",
   },
-  // 4 — Product
+  // 4, Product
   {
     title: "Best Home Pilates Reformer (2026): Every Budget",
-    excerpt: "A quality home reformer changes your practice permanently. We compared every price tier — from the AeroPilates 435 to the Gratz — so you know exactly what you get at each level.",
+    excerpt: "A quality home reformer changes your practice permanently. We compared every price tier, from the AeroPilates 435 to the Gratz, so you know exactly what you get at each level.",
     href: "/blog/best-home-pilates-reformer",
     category: "Best For · Equipment",
     readTime: "11 min read",
     imageUrl: "/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg",
   },
-  // 5 — City
+  // 5, City
   {
     title: "The Best Pilates Studios in New York",
-    excerpt: "From Tribeca's classical powerhouses to the Upper East Side's boutique reformer rooms — the definitive guide to New York's five best Pilates studios, verified for 2026.",
+    excerpt: "From Tribeca's classical powerhouses to the Upper East Side's boutique reformer rooms: the definitive guide to New York's five best Pilates studios, verified for 2026.",
     href: "/cities/new-york",
     category: "City Guide",
     readTime: "9 min read",
     imageUrl: "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=1400&q=80",
   },
-  // 6 — Article
+  // 6, Article
   {
     title: "Classical vs Contemporary Pilates",
-    excerpt: "The split between Joseph Pilates' original Contrology system and modern functional interpretations — what it means for your practice, and how to choose your lineage.",
+    excerpt: "The split between Joseph Pilates' original Contrology system and modern functional interpretations: what it means for your practice, and how to choose your lineage.",
     href: "/blog/classical-vs-contemporary-pilates",
     category: "Method",
     readTime: "8 min read",
     imageUrl: "/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg",
   },
-  // 7 — Product
+  // 7, Product
   {
     title: "Best Pilates Leggings (2026): Compared & Ranked",
-    excerpt: "From Lululemon Align to Splits59 Raquel — the leggings that genuinely serve the method, compared on opacity, waistband stability, and reformer performance across fifteen sessions.",
+    excerpt: "From Lululemon Align to Splits59 Raquel: the leggings that genuinely serve the method, compared on opacity, waistband stability, and reformer performance across fifteen sessions.",
     href: "/blog/best-pilates-leggings",
     category: "Best For · Equipment",
     readTime: "9 min read",
@@ -150,28 +150,28 @@ const FEATURED_ITEMS: FeaturedItem[] = [
     affiliateUrl: "https://www.amazon.com/dp/B08M8ZTKJS?tag=pilatescollective-20",
     affiliateLabel: "Shop Our Top Pick →",
   },
-  // 8 — City
+  // 8, City
   {
     title: "The Best Pilates Studios in Paris",
-    excerpt: "From the Marais to Saint-Germain — Paris has quietly built one of the most sophisticated Pilates scenes in Europe. Our curated guide to the five studios worth your time.",
+    excerpt: "From the Marais to Saint-Germain: Paris has quietly built one of the most sophisticated Pilates scenes in Europe. Our curated guide to the five studios worth your time.",
     href: "/cities/paris",
     category: "City Guide",
     readTime: "8 min read",
     imageUrl: "https://images.unsplash.com/photo-1431274172761-fca41d930114?w=1400&q=80",
   },
-  // 9 — Article
+  // 9, Article
   {
     title: "Pilates for Back Pain: What the Research Shows",
-    excerpt: "Clinical research meets practical guidance. What Pilates can and can't do for chronic lower back pain — and the specific exercises with the strongest evidence behind them.",
+    excerpt: "Clinical research meets practical guidance. What Pilates can and can't do for chronic lower back pain, and the specific exercises with the strongest evidence behind them.",
     href: "/blog/pilates-for-back-pain",
     category: "Health",
     readTime: "10 min read",
     imageUrl: "/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg",
   },
-  // 10 — Product
+  // 10, Product
   {
     title: "Best Pilates Grip Socks (2026): Compared & Ranked",
-    excerpt: "Required at virtually every reformer studio worldwide. We compared five options across grip, durability, and comfort — from ToeSox to Tavi Noir — so you don't have to.",
+    excerpt: "Required at virtually every reformer studio worldwide. We compared five options across grip, durability, and comfort, from ToeSox to Tavi Noir, so you don't have to.",
     href: "/blog/best-pilates-grip-socks",
     category: "Best For · Equipment",
     readTime: "7 min read",
@@ -179,28 +179,28 @@ const FEATURED_ITEMS: FeaturedItem[] = [
     affiliateUrl: "https://www.amazon.com/dp/B07QHNDHW3?tag=pilatescollective-20",
     affiliateLabel: "Shop Our Top Pick →",
   },
-  // 11 — City
+  // 11, City
   {
     title: "The Best Pilates Studios in Zurich",
-    excerpt: "From lakeside private studios to Seefeld reformer boutiques — our complete guide to Zurich's refined, results-driven Pilates scene. Six studios worth your time.",
+    excerpt: "From lakeside private studios to Seefeld reformer boutiques: our complete guide to Zurich's refined, results-driven Pilates scene. Six studios worth your time.",
     href: "/cities/zurich",
     category: "City Guide",
     readTime: "8 min read",
     imageUrl: "/pictures/henrique-ferreira-omiTbS-nb_M-unsplash.jpg",
   },
-  // 12 — Article
+  // 12, Article
   {
     title: "Pilates vs Yoga: Key Differences",
-    excerpt: "A clear, honest comparison of two of the world's most popular movement practices — how they differ in method, intent, and outcome, and how to decide which is right for you.",
+    excerpt: "A clear, honest comparison of two of the world's most popular movement practices: how they differ in method, intent, and outcome, and how to decide which is right for you.",
     href: "/blog/pilates-vs-yoga",
     category: "Method",
     readTime: "7 min read",
     imageUrl: "/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg",
   },
-  // 13 — Product
+  // 13, Product
   {
     title: "Best Pilates Mat (2026): Firmness, Grip & Durability",
-    excerpt: "The mat is your most important equipment purchase. We compared five across firmness, grip, and spinal feedback — from the Manduka PRO to travel-friendly options under $40.",
+    excerpt: "The mat is your most important equipment purchase. We compared five across firmness, grip, and spinal feedback, from the Manduka PRO to travel-friendly options under $40.",
     href: "/blog/best-pilates-mat",
     category: "Best For · Equipment",
     readTime: "9 min read",
@@ -208,16 +208,16 @@ const FEATURED_ITEMS: FeaturedItem[] = [
     affiliateUrl: "https://www.amazon.com/dp/B0000DZFXZ?tag=pilatescollective-20",
     affiliateLabel: "Shop Our Top Pick →",
   },
-  // 14 — City
+  // 14, City
   {
     title: "The Best Pilates Studios in Tokyo",
-    excerpt: "From Minami-Aoyama's precision reformer studios to Daikanyama's boutique movement spaces — the definitive guide to Tokyo's most respected Pilates studios.",
+    excerpt: "From Minami-Aoyama's precision reformer studios to Daikanyama's boutique movement spaces: the definitive guide to Tokyo's most respected Pilates studios.",
     href: "/cities/tokyo",
     category: "City Guide",
     readTime: "8 min read",
     imageUrl: "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=1400&q=80",
   },
-  // 15 — Product
+  // 15, Product
   {
     title: "Best Premium Pilates Reformers (2026): $2K–$5K+",
     excerpt: "Merrithew V2 Max, Balanced Body Studio Reformer, and Gratz Maple Classic compared side by side. Which professional-grade machine is worth the investment?",
@@ -228,10 +228,10 @@ const FEATURED_ITEMS: FeaturedItem[] = [
     affiliateUrl: "https://www.amazon.com/dp/B004FGT0TM?tag=pilatescollective-20",
     affiliateLabel: "Shop Our Top Pick →",
   },
-  // 16 — Product
+  // 16, Product
   {
     title: "Best Pilates Magic Circle (2026): Ranked",
-    excerpt: "Joseph Pilates invented it. We compared five versions — from STOTT to Balanced Body — for resistance feel, pad quality, and durability across 30 sessions of inner thigh and arm work.",
+    excerpt: "Joseph Pilates invented it. We compared five versions, from STOTT to Balanced Body, for resistance feel, pad quality, and durability across 30 sessions of inner thigh and arm work.",
     href: "/blog/best-pilates-ring",
     category: "Best For · Equipment",
     readTime: "8 min read",
@@ -242,20 +242,20 @@ const FEATURED_ITEMS: FeaturedItem[] = [
 ];
 
 const GUIDES = [
-  { title: "The Best Pilates Studios in Tampa, FL", excerpt: "From Hyde Park's upscale reformer studios to Seminole Heights' independent scene — six verified picks across the Tampa Bay area.", href: "/cities/tampa", category: "City Guide", readTime: "9 min read", date: "June 2026" },
-  { title: "The Best Pilates Studios in Raleigh, NC", excerpt: "From North Hills classics to Durham's creative movement studios — the definitive Pilates guide for the Research Triangle.", href: "/cities/raleigh", category: "City Guide", readTime: "9 min read", date: "June 2026" },
-  { title: "The Best Pilates Studios in Charlotte, NC", excerpt: "From South End's reformer boutiques to Myers Park's classical studios — six verified picks across Charlotte's vibrant Pilates scene.", href: "/cities/charlotte", category: "City Guide", readTime: "9 min read", date: "June 2026" },
-  { title: "The Best Pilates Studios in Portland, OR", excerpt: "From the Pearl District's warehouse studios to Lake Oswego's serene spaces — the definitive guide to Portland's best Pilates studios.", href: "/cities/portland", category: "City Guide", readTime: "9 min read", date: "June 2026" },
-  { title: "The Best Pilates Studios in Austin, TX", excerpt: "From classical Rosedale studios to community-focused East Austin practices — our complete guide to Austin's growing Pilates scene.", href: "/cities/austin", category: "City Guide", readTime: "9 min read", date: "June 2026" },
-  { title: "The Best Pilates Studios in Washington DC", excerpt: "From Georgetown's classical depth to Arlington's professional reformer rooms — six verified picks across the DC metro area.", href: "/cities/washington-dc", category: "City Guide", readTime: "9 min read", date: "June 2026" },
-  { title: "The Best Pilates Studios in Dallas, TX", excerpt: "From Highland Park classical studios to Deep Ellum's movement-forward independents — the definitive guide to Dallas's best Pilates studios.", href: "/cities/dallas", category: "City Guide", readTime: "9 min read", date: "June 2026" },
-  { title: "The Best Pilates Studios in Philadelphia, PA", excerpt: "From Rittenhouse Square's classical practices to Fishtown's community-oriented studios — six verified picks across Philadelphia.", href: "/cities/philadelphia", category: "City Guide", readTime: "9 min read", date: "June 2026" },
-  { title: "The Best Pilates Studios in Zurich", excerpt: "From Seefeld reformer boutiques to lakeside private studios — our complete guide to Zurich's thriving Pilates scene.", href: "/cities/zurich", category: "City Guide", readTime: "8 min read", date: "May 2026" },
+  { title: "The Best Pilates Studios in Tampa, FL", excerpt: "From Hyde Park's upscale reformer studios to Seminole Heights' independent scene: six verified picks across the Tampa Bay area.", href: "/cities/tampa", category: "City Guide", readTime: "9 min read", date: "June 2026" },
+  { title: "The Best Pilates Studios in Raleigh, NC", excerpt: "From North Hills classics to Durham's creative movement studios: the definitive Pilates guide for the Research Triangle.", href: "/cities/raleigh", category: "City Guide", readTime: "9 min read", date: "June 2026" },
+  { title: "The Best Pilates Studios in Charlotte, NC", excerpt: "From South End's reformer boutiques to Myers Park's classical studios: six verified picks across Charlotte's vibrant Pilates scene.", href: "/cities/charlotte", category: "City Guide", readTime: "9 min read", date: "June 2026" },
+  { title: "The Best Pilates Studios in Portland, OR", excerpt: "From the Pearl District's warehouse studios to Lake Oswego's serene spaces: the definitive guide to Portland's best Pilates studios.", href: "/cities/portland", category: "City Guide", readTime: "9 min read", date: "June 2026" },
+  { title: "The Best Pilates Studios in Austin, TX", excerpt: "From classical Rosedale studios to community-focused East Austin practices: our complete guide to Austin's growing Pilates scene.", href: "/cities/austin", category: "City Guide", readTime: "9 min read", date: "June 2026" },
+  { title: "The Best Pilates Studios in Washington DC", excerpt: "From Georgetown's classical depth to Arlington's professional reformer rooms: six verified picks across the DC metro area.", href: "/cities/washington-dc", category: "City Guide", readTime: "9 min read", date: "June 2026" },
+  { title: "The Best Pilates Studios in Dallas, TX", excerpt: "From Highland Park classical studios to Deep Ellum's movement-forward independents: the definitive guide to Dallas's best Pilates studios.", href: "/cities/dallas", category: "City Guide", readTime: "9 min read", date: "June 2026" },
+  { title: "The Best Pilates Studios in Philadelphia, PA", excerpt: "From Rittenhouse Square's classical practices to Fishtown's community-oriented studios: six verified picks across Philadelphia.", href: "/cities/philadelphia", category: "City Guide", readTime: "9 min read", date: "June 2026" },
+  { title: "The Best Pilates Studios in Zurich", excerpt: "From Seefeld reformer boutiques to lakeside private studios: our complete guide to Zurich's thriving Pilates scene.", href: "/cities/zurich", category: "City Guide", readTime: "8 min read", date: "May 2026" },
   { title: "The Beginner's Guide to Reformer Pilates", excerpt: "What to expect in your first reformer class, how to choose a studio, and how to progress with confidence.", href: "/blog/beginners-guide-to-reformer-pilates", category: "Beginner Guide", readTime: "8 min read", date: "May 2026" },
-  { title: "Pilates for Back Pain: What the Research Shows", excerpt: "A clear-eyed look at the evidence — what Pilates can and can't do for chronic back pain, and how to start safely.", href: "/blog/pilates-for-back-pain", category: "Wellness", readTime: "9 min read", date: "May 2026" },
-  { title: "Classical vs Contemporary Pilates", excerpt: "Understanding the key differences between the original method and modern interpretations — and which is right for you.", href: "/blog/classical-vs-contemporary-pilates", category: "Method", readTime: "7 min read", date: "May 2026" },
+  { title: "Pilates for Back Pain: What the Research Shows", excerpt: "A clear-eyed look at the evidence: what Pilates can and can't do for chronic back pain, and how to start safely.", href: "/blog/pilates-for-back-pain", category: "Wellness", readTime: "9 min read", date: "May 2026" },
+  { title: "Classical vs Contemporary Pilates", excerpt: "Understanding the key differences between the original method and modern interpretations, and which is right for you.", href: "/blog/classical-vs-contemporary-pilates", category: "Method", readTime: "7 min read", date: "May 2026" },
   { title: "Best Pilates Equipment for Home Practice", excerpt: "Everything you actually need to build a consistent home practice, from a quality mat to the best reformer alternatives.", href: "/blog/best-pilates-equipment-for-home-practice", category: "Equipment", readTime: "10 min read", date: "May 2026" },
-  { title: "Pilates vs Yoga: Key Differences", excerpt: "A clear, honest comparison of two of the world's most popular movement practices — and how to decide between them.", href: "/blog/pilates-vs-yoga", category: "Method", readTime: "7 min read", date: "May 2026" },
+  { title: "Pilates vs Yoga: Key Differences", excerpt: "A clear, honest comparison of two of the world's most popular movement practices, and how to decide between them.", href: "/blog/pilates-vs-yoga", category: "Method", readTime: "7 min read", date: "May 2026" },
   { title: "The Best Pilates Retreats in Europe", excerpt: "The finest Pilates immersion experiences across the continent, from Provence to Puglia.", href: "/blog/best-pilates-retreats-europe", category: "Travel", readTime: "8 min read", date: "May 2026" },
   { title: "Pilates for Athletes", excerpt: "How elite sports professionals use Pilates to build functional strength, prevent injury, and extend their careers.", href: "/blog/pilates-for-athletes", category: "Performance", readTime: "7 min read", date: "May 2026" },
 ];
@@ -273,7 +273,7 @@ const PRODUCT_CATEGORIES = [
       },
       {
         name: "toesox Low Rise Full-Toe Grip Socks (2-Pack)",
-        description: "Full-toe coverage, seamless construction. Non-negotiable for reformer work — keeps you connected to the foot bar.",
+        description: "Full-toe coverage, seamless construction. Non-negotiable for reformer work: keeps you connected to the foot bar.",
         price: "$30.00",
         affiliateUrl: "https://www.amazon.com/dp/B07QHNDHW3?tag=pilatescollective-20",
         imageUrl: "/pictures/jade-stephens-N21356amsyw-unsplash.jpg",
@@ -348,7 +348,7 @@ const PRODUCT_CATEGORIES = [
       },
       {
         name: "StrongTek Yoga Wedge Blocks (2-Pack)",
-        description: "Slanted foam support for wrist protection during planks and push-ups. Reduces extension load — essential for practitioners with wrist sensitivity.",
+        description: "Slanted foam support for wrist protection during planks and push-ups. Reduces extension load: essential for practitioners with wrist sensitivity.",
         price: "$29.95",
         affiliateUrl: "https://www.amazon.com/dp/B07BGQZVWK?tag=pilatescollective-20",
         imageUrl: "/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg",
@@ -395,14 +395,14 @@ const PRODUCT_CATEGORIES = [
       },
       {
         name: "AeroPilates Precision Pilates Chair",
-        description: "Joseph Pilates' most underrated invention. Challenges every plane of movement in a compact footprint — ideal for a serious home practice.",
+        description: "Joseph Pilates' most underrated invention. Challenges every plane of movement in a compact footprint, ideal for a serious home practice.",
         price: "$449.00",
         affiliateUrl: "https://www.amazon.com/dp/B07YVYLZZ2?tag=pilatescollective-20",
         imageUrl: "/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg",
       },
       {
         name: "Balanced Body Pilates Arc",
-        description: "The arc is the most compact barrel available — ideal for spinal extension, hip flexor opening, and side-lying work in smaller spaces.",
+        description: "The arc is the most compact barrel available, ideal for spinal extension, hip flexor opening, and side-lying work in smaller spaces.",
         price: "$189.99",
         affiliateUrl: "https://www.amazon.com/dp/B002XVSNRG?tag=pilatescollective-20",
         imageUrl: "/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg",
@@ -416,14 +416,14 @@ const PRODUCT_CATEGORIES = [
       },
       {
         name: "Balanced Body CoreAlign",
-        description: "The CoreAlign targets functional upright movement — standing balance, gait, and dynamic core stability — in ways the reformer alone cannot replicate. Not sold on Amazon: this link goes to Balanced Body's own site.",
+        description: "The CoreAlign targets functional upright movement (standing balance, gait, and dynamic core stability) in ways the reformer alone cannot replicate. Not sold on Amazon: this link goes to Balanced Body's own site.",
         price: "From $1,200",
         affiliateUrl: "https://www.pilates.com",
         imageUrl: "/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg",
       },
       {
         name: "Balanced Body Trapeze Table (Cadillac)",
-        description: "The full Cadillac apparatus — or a reformer tower conversion — opens the complete classical repertoire. The most comprehensive piece of Pilates equipment available.",
+        description: "The full Cadillac apparatus, or a reformer tower conversion, opens the complete classical repertoire. The most comprehensive piece of Pilates equipment available.",
         price: "$5,030.00",
         affiliateUrl: "https://www.amazon.com/dp/B01N5OIH13?tag=pilatescollective-20",
         imageUrl: "/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg",
@@ -512,7 +512,7 @@ const homeJsonLd = {
       "@type": "WebPage",
       "@id": "https://pilatescollectiveclub.com/#webpage",
       "url": "https://pilatescollectiveclub.com",
-      "name": "Pilates Collective Club — Find Your Studio. Know Your Method.",
+      "name": "Pilates Collective Club: Find Your Studio. Know Your Method.",
       "description": "Curated city guides, expert studio recommendations, and equipment picks for Pilates practitioners worldwide.",
       "isPartOf": { "@id": "https://pilatescollectiveclub.com/#website" },
       "about": { "@id": "https://pilatescollectiveclub.com/#organization" },
@@ -572,13 +572,13 @@ export default function Home() {
             style={{ objectFit: "cover", objectPosition: "center 20%" }}
             priority
           />
-          {/* Cinematic gradient overlay — dark at bottom for legibility */}
+          {/* Cinematic gradient overlay: dark at bottom for legibility */}
           <div style={{
             position: "absolute",
             inset: 0,
             background: "linear-gradient(to top, rgba(8,8,8,0.90) 0%, rgba(8,8,8,0.45) 45%, rgba(8,8,8,0.10) 100%)",
           }} />
-          {/* Top bar — logo label */}
+          {/* Top bar: logo label */}
           <div style={{
             position: "absolute",
             top: 0,
@@ -614,7 +614,7 @@ export default function Home() {
             </p>
           </div>
 
-          {/* Main content — pinned to bottom */}
+          {/* Main content: pinned to bottom */}
           <div className="pcc-hero-content" style={{
             position: "relative",
             zIndex: 2,
@@ -651,7 +651,7 @@ export default function Home() {
                 margin: 0,
                 letterSpacing: "0.01em",
               }}>
-                Curated studio guides, editorial reviews, and the best in Pilates equipment — built for the global Pilates community.
+                Curated studio guides, editorial reviews, and the best in Pilates equipment, built for the global Pilates community.
               </p>
               <div style={{ display: "flex", gap: "12px", flexWrap: "wrap" }}>
                 <Link href="/blog" style={{
@@ -822,10 +822,10 @@ export default function Home() {
               The independent guide<br />for serious practitioners.
             </h2>
             <p style={{ fontFamily: "var(--font-sans)", fontSize: "15px", fontWeight: 300, color: "#6b6560", lineHeight: 1.85, marginBottom: "20px" }}>
-              Pilates Collective Club is an editorially independent platform built for the global Pilates community. We research studios, review equipment, and document the method — so you spend less time searching and more time on the carriage.
+              Pilates Collective Club is an editorially independent platform built for the global Pilates community. We research studios, review equipment, and document the method, so you spend less time searching and more time on the carriage.
             </p>
             <p style={{ fontFamily: "var(--font-sans)", fontSize: "14px", fontWeight: 300, color: "#9a9490", lineHeight: 1.85 }}>
-              Every studio guide is independently researched. Every equipment pick is selected on merit. We are never paid to feature a studio — and we are transparent about the affiliate links that keep this resource free.
+              Every studio guide is independently researched. Every equipment pick is selected on merit. We are never paid to feature a studio, and we are transparent about the affiliate links that keep this resource free.
             </p>
           </div>
         </section>

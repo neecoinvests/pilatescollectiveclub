@@ -38,7 +38,7 @@ const PRODUCTS = [
     price: "$36.99",
     verdict: "Best overall women's pick",
     description:
-      "The Baleaf high-waisted short pairs a multi-density 3D chamois pad with a four-way stretch compression fabric, and the high-rise waistband stays in place through standing climbs and out-of-saddle intervals without rolling — a common complaint with lower-rise shorts during high-intensity spin. The chamois is foam-based rather than gel, which breathes better over a 45-60 minute class but provides slightly less cushioning than premium gel pads for very long rides. Side pockets fit a phone or key, useful since most spin classes don't have storage at the bike. For studio-length sessions, this is the strongest all-around value in women's padded shorts.",
+      "The Baleaf high-waisted short pairs a multi-density 3D chamois pad with a four-way stretch compression fabric, and the high-rise waistband stays in place through standing climbs and out-of-saddle intervals without rolling: a common complaint with lower-rise shorts during high-intensity spin. The chamois is foam-based rather than gel, which breathes better over a 45-60 minute class but provides slightly less cushioning than premium gel pads for very long rides. Side pockets fit a phone or key, useful since most spin classes don't have storage at the bike. For studio-length sessions, this is the strongest all-around value in women's padded shorts.",
     affiliateUrl: "https://www.amazon.com/dp/B091T8FYXR?tag=pilatescollective-20",
     tag: "Best Overall (Women's)",
   },
@@ -48,7 +48,7 @@ const PRODUCTS = [
     price: "$65.00",
     verdict: "Best overall men's pick",
     description:
-      "Pearl Izumi is a heritage cycling brand and the Quest short reflects that — a multi-panel anatomical chamois designed around sustained pedaling position rather than a generic insert, with a wide elastic waistband and gripper leg hem that stays put without compressing uncomfortably. The fabric is rated UPF 50+ and wicks moisture aggressively, which matters in a heated or high-output spin studio. The price sits well above budget options, but the chamois quality and fit precision are noticeably better for riders doing multiple weekly sessions.",
+      "Pearl Izumi is a heritage cycling brand and the Quest short reflects that: a multi-panel anatomical chamois designed around sustained pedaling position rather than a generic insert, with a wide elastic waistband and gripper leg hem that stays put without compressing uncomfortably. The fabric is rated UPF 50+ and wicks moisture aggressively, which matters in a heated or high-output spin studio. The price sits well above budget options, but the chamois quality and fit precision are noticeably better for riders doing multiple weekly sessions.",
     affiliateUrl: "https://www.amazon.com/dp/B09N2F5XM1?tag=pilatescollective-20",
     tag: "Best Overall (Men's)",
   },
@@ -58,7 +58,7 @@ const PRODUCTS = [
     price: "From $98",
     verdict: "Best studio-specific design",
     description:
-      "Like its shoe line, Tiem designs the Cadence short specifically around the boutique studio cycling experience rather than outdoor road riding — meaning a shorter, more flattering inseam length appropriate for studio wear and a chamois calibrated for 45-60 minute sessions rather than multi-hour rides. The compression fabric has a matte, non-shiny finish that reads as athleisure rather than overt cycling gear, which some studio-goers prefer for the walk to and from class. The price reflects the boutique positioning, but the fit and finish are genuinely premium.",
+      "Like its shoe line, Tiem designs the Cadence short specifically around the boutique studio cycling experience rather than outdoor road riding, meaning a shorter, more flattering inseam length appropriate for studio wear and a chamois calibrated for 45-60 minute sessions rather than multi-hour rides. The compression fabric has a matte, non-shiny finish that reads as athleisure rather than overt cycling gear, which some studio-goers prefer for the walk to and from class. The price reflects the boutique positioning, but the fit and finish are genuinely premium.",
     affiliateUrl: "https://www.amazon.com/s?k=tiem+cadence+cycling+shorts&tag=pilatescollective-20",
     tag: "Best Studio Design",
   },
@@ -68,7 +68,7 @@ const PRODUCTS = [
     price: "$46.00",
     verdict: "Best looser-fit option",
     description:
-      "Not every rider wants a skin-tight compression short, and ZOIC's Essential addresses that with a looser mountain-bike-style outer short over a removable padded liner — effectively two garments in one. This construction allows the outer layer to look like a normal athletic short while the inner liner provides the chamois padding, and the liner can be removed for non-cycling workouts. For riders who find traditional compression cycling shorts too tight or revealing for a mixed-use gym bag, this hybrid design is the most comfortable alternative without sacrificing chamois support.",
+      "Not every rider wants a skin-tight compression short, and ZOIC's Essential addresses that with a looser mountain-bike-style outer short over a removable padded liner: effectively two garments in one. This construction allows the outer layer to look like a normal athletic short while the inner liner provides the chamois padding, and the liner can be removed for non-cycling workouts. For riders who find traditional compression cycling shorts too tight or revealing for a mixed-use gym bag, this hybrid design is the most comfortable alternative without sacrificing chamois support.",
     affiliateUrl: "https://www.amazon.com/dp/B0822TL74G?tag=pilatescollective-20",
     tag: "Best Loose Fit",
   },
@@ -78,7 +78,7 @@ const PRODUCTS = [
     price: "$19.99",
     verdict: "Best budget men's pick",
     description:
-      "The men's counterpart to Baleaf's women's short, this budget option uses the same 3D foam chamois construction at a price well below premium brands like Pearl Izumi. Compression fit is snug without being restrictive, and the fabric breathes adequately for studio-length sessions. The chamois pad is noticeably thinner than the Pearl Izumi Quest, which is the main trade-off — fine for 2-3 sessions a week but riders training daily may find the padding wears thin faster. For occasional spin riders or those testing whether padded shorts improve their comfort before investing in a premium pair, this is the lowest-risk entry point.",
+      "The men's counterpart to Baleaf's women's short, this budget option uses the same 3D foam chamois construction at a price well below premium brands like Pearl Izumi. Compression fit is snug without being restrictive, and the fabric breathes adequately for studio-length sessions. The chamois pad is noticeably thinner than the Pearl Izumi Quest, which is the main trade-off: fine for 2-3 sessions a week but riders training daily may find the padding wears thin faster. For occasional spin riders or those testing whether padded shorts improve their comfort before investing in a premium pair, this is the lowest-risk entry point.",
     affiliateUrl: "https://www.amazon.com/dp/B00MTE6OTQ?tag=pilatescollective-20",
     tag: "Best Budget Pick",
   },
@@ -88,7 +88,7 @@ const PRODUCTS = [
     price: "From $45",
     verdict: "Best for waistband-free comfort",
     description:
-      "Bib shorts replace the elastic waistband with shoulder straps, eliminating the waist compression and digging that some riders experience during seated climbs and intense intervals. The CHICTRY bib uses a gel-foam hybrid chamois and a breathable mesh back panel. The trade-off is practicality — bibs are less convenient for bathroom breaks than standard shorts, a relevant consideration outside the studio. For riders who specifically struggle with waistband discomfort during longer or higher-intensity spin sessions, the bib format solves that problem directly.",
+      "Bib shorts replace the elastic waistband with shoulder straps, eliminating the waist compression and digging that some riders experience during seated climbs and intense intervals. The CHICTRY bib uses a gel-foam hybrid chamois and a breathable mesh back panel. The trade-off is practicality: bibs are less convenient for bathroom breaks than standard shorts, a relevant consideration outside the studio. For riders who specifically struggle with waistband discomfort during longer or higher-intensity spin sessions, the bib format solves that problem directly.",
     affiliateUrl: "https://www.amazon.com/s?k=womens+cycling+bib+shorts&tag=pilatescollective-20",
     tag: "Best Bib Option",
   },
@@ -135,9 +135,9 @@ const jsonLd = {
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "Do I need padded cycling shorts for a 45-minute spin class?", "acceptedAnswer": { "@type": "Answer", "text": "If you ride more than once or twice a week, yes — even a 45-minute session on a narrow spin saddle creates pressure points that a chamois pad meaningfully reduces. Occasional riders can get by without them, but most regular spin-goers find padded shorts noticeably improve comfort and let them maintain better form through the full class." } },
-        { "@type": "Question", "name": "Foam vs gel chamois — which is better for spin class?", "acceptedAnswer": { "@type": "Answer", "text": "Foam chamois pads, used in shorts like the Baleaf line, breathe better and feel less bulky, making them well-suited to 45-60 minute indoor sessions in a heated studio. Gel chamois pads provide more cushioning but trap more heat and are generally better suited to multi-hour outdoor rides. For typical spin class length, foam is usually the more comfortable choice." } },
-        { "@type": "Question", "name": "Should I wear underwear under padded cycling shorts?", "acceptedAnswer": { "@type": "Answer", "text": "No. Padded cycling shorts are designed to be worn without underwear — the chamois is built to sit directly against skin, and adding underwear creates extra seams and fabric layers that increase friction and chafing risk rather than reducing it." } },
+        { "@type": "Question", "name": "Do I need padded cycling shorts for a 45-minute spin class?", "acceptedAnswer": { "@type": "Answer", "text": "If you ride more than once or twice a week, yes, even a 45-minute session on a narrow spin saddle creates pressure points that a chamois pad meaningfully reduces. Occasional riders can get by without them, but most regular spin-goers find padded shorts noticeably improve comfort and let them maintain better form through the full class." } },
+        { "@type": "Question", "name": "Foam vs gel chamois, which is better for spin class?", "acceptedAnswer": { "@type": "Answer", "text": "Foam chamois pads, used in shorts like the Baleaf line, breathe better and feel less bulky, making them well-suited to 45-60 minute indoor sessions in a heated studio. Gel chamois pads provide more cushioning but trap more heat and are generally better suited to multi-hour outdoor rides. For typical spin class length, foam is usually the more comfortable choice." } },
+        { "@type": "Question", "name": "Should I wear underwear under padded cycling shorts?", "acceptedAnswer": { "@type": "Answer", "text": "No. Padded cycling shorts are designed to be worn without underwear: the chamois is built to sit directly against skin, and adding underwear creates extra seams and fabric layers that increase friction and chafing risk rather than reducing it." } },
       ],
     },
   ],
@@ -165,7 +165,7 @@ export default function BestPaddedCyclingShortsPage() {
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              A narrow spin saddle and 45 minutes of seated and standing intervals will find every pressure point a generic athletic short can't address. Padded cycling shorts — built around a chamois insert and compression fit — are the single most impactful comfort upgrade for regular spin riders. This guide compares the six best women's and men's options for 2026.
+              A narrow spin saddle and 45 minutes of seated and standing intervals will find every pressure point a generic athletic short can't address. Padded cycling shorts, built around a chamois insert and compression fit, are the single most impactful comfort upgrade for regular spin riders. This guide compares the six best women's and men's options for 2026.
             </p>
           </div>
         </section>
@@ -216,9 +216,9 @@ export default function BestPaddedCyclingShortsPage() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "Do I need padded cycling shorts for a 45-minute spin class?", a: "If you ride more than once or twice a week, yes — even a 45-minute session on a narrow spin saddle creates pressure points that a chamois pad meaningfully reduces. Occasional riders can get by without them, but most regular spin-goers find padded shorts noticeably improve comfort." },
-                  { q: "Foam vs gel chamois — which is better for spin class?", a: "Foam chamois pads breathe better and feel less bulky, making them well-suited to 45-60 minute indoor sessions in a heated studio. Gel chamois pads provide more cushioning but trap more heat and suit multi-hour outdoor rides better. For typical spin class length, foam is usually the more comfortable choice." },
-                  { q: "Should I wear underwear under padded cycling shorts?", a: "No. Padded cycling shorts are designed to be worn without underwear — the chamois sits directly against skin, and underwear adds extra seams that increase friction and chafing risk." },
+                  { q: "Do I need padded cycling shorts for a 45-minute spin class?", a: "If you ride more than once or twice a week, yes, even a 45-minute session on a narrow spin saddle creates pressure points that a chamois pad meaningfully reduces. Occasional riders can get by without them, but most regular spin-goers find padded shorts noticeably improve comfort." },
+                  { q: "Foam vs gel chamois, which is better for spin class?", a: "Foam chamois pads breathe better and feel less bulky, making them well-suited to 45-60 minute indoor sessions in a heated studio. Gel chamois pads provide more cushioning but trap more heat and suit multi-hour outdoor rides better. For typical spin class length, foam is usually the more comfortable choice." },
+                  { q: "Should I wear underwear under padded cycling shorts?", a: "No. Padded cycling shorts are designed to be worn without underwear: the chamois sits directly against skin, and underwear adds extra seams that increase friction and chafing risk." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>

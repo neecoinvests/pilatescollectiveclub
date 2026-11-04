@@ -11,7 +11,7 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Gifts Under $50 (2026)",
-  description: "The best pilates gifts under $50 — thoughtful, practical picks that any pilates practitioner will love. Grip socks, resistance bands, foam rollers, and more.",
+  description: "The best pilates gifts under $50: thoughtful, practical picks that any pilates practitioner will love. Grip socks, resistance bands, foam rollers, and more.",
   keywords: [
     "best pilates gifts under 50",
     "pilates gifts under 50 dollars",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "Best Pilates Gifts Under $50 (2026)",
-    description: "Thoughtful pilates gifts that stay well under $50 — for any occasion, any budget.",
+    description: "Thoughtful pilates gifts that stay well under $50, for any occasion, any budget.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-gifts-under-50",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/stitch-grip-socks-footbar.png", width: 1200, height: 630, alt: "Best Pilates Gifts Under $50 2026" }],
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Gifts Under $50 (2026)",
-    description: "Great pilates gifts on any budget — all under $50, all actually useful.",
+    description: "Great pilates gifts on any budget: all under $50, all actually useful.",
     images: ["https://pilatescollectiveclub.com/pictures/stitch-grip-socks-footbar.png"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/best-pilates-gifts-under-50" },
@@ -42,10 +42,10 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
-    name: "ToeSox Half-Toe Grip Socks — 3-Pack",
+    name: "ToeSox Half-Toe Grip Socks 3-Pack",
     price: "$44.00",
     verdict: "Best Stocking Stuffer",
-    description: "ToeSox grip socks are required at reformer studios and consistently the item that practitioners forget, lose, or wear out first — which makes a 3-pack one of the most practically appreciated pilates gifts at any price point. The half-toe design is specifically built for footbar work: open toes give proprioceptive feedback on the carriage while the full-grip sole prevents sliding on every surface. ToeSox is the brand that most practitioners settle on once they've tried a few — the quality is noticeably better than cheaper alternatives. Available in coordinated neutrals and seasonal colours.",
+    description: "ToeSox grip socks are required at reformer studios and consistently the item that practitioners forget, lose, or wear out first, which makes a 3-pack one of the most practically appreciated pilates gifts at any price point. The half-toe design is specifically built for footbar work: open toes give proprioceptive feedback on the carriage while the full-grip sole prevents sliding on every surface. ToeSox is the brand that most practitioners settle on once they've tried a few: the quality is noticeably better than cheaper alternatives. Available in coordinated neutrals and seasonal colours.",
     affiliateUrl: "https://www.amazon.com/dp/B07Q5JM1G5?tag=pilatescollective-20",
   },
   {
@@ -53,15 +53,15 @@ const PRODUCTS = [
     name: "Theraband Professional Resistance Band Set",
     price: "$19.47",
     verdict: "Best Value Gift",
-    description: "For $19.47, the Theraband Professional Set is the most value-dense pilates gift that exists at any budget. Six resistance levels — from yellow (very light) through black (extra heavy) — cover the full spectrum of pilates and physiotherapy applications. Theraband is the brand that hospital physiotherapy departments use; their bands are more durable, more precisely graded, and more consistently calibrated than alternatives. The set comes pre-cut to exercise length and colour-coded. For a beginner or experienced practitioner alike, this is a gift she'll reach for constantly.",
+    description: "For $19.47, the Theraband Professional Set is the most value-dense pilates gift that exists at any budget. Six resistance levels, from yellow (very light) through black (extra heavy), cover the full spectrum of pilates and physiotherapy applications. Theraband is the brand that hospital physiotherapy departments use; their bands are more durable, more precisely graded, and more consistently calibrated than alternatives. The set comes pre-cut to exercise length and colour-coded. For a beginner or experienced practitioner alike, this is a gift she'll reach for constantly.",
     affiliateUrl: "https://www.amazon.com/dp/B07RF9FYM6?tag=pilatescollective-20",
   },
   {
     rank: "03",
-    name: "Trideer Pilates Ball — 9-Inch",
+    name: "Trideer Pilates Ball 9-Inch",
     price: "$7.99",
     verdict: "Best Small Equipment Pick",
-    description: "The 9-inch pilates ball is one of the most versatile and underused pieces of pilates equipment — and most practitioners don't own one, which makes it an ideal gift. Used for inner thigh squeezes in mat class, as a spinal support during rolling exercises, and as a proprioceptive challenge in balance work. Trideer's version is burst-resistant, comes with a hand pump, and includes a QR code linking to an exercise guide. Lightweight and compact — it fits in any bag and travels easily to class.",
+    description: "The 9-inch pilates ball is one of the most versatile and underused pieces of pilates equipment, and most practitioners don't own one, which makes it an ideal gift. Used for inner thigh squeezes in mat class, as a spinal support during rolling exercises, and as a proprioceptive challenge in balance work. Trideer's version is burst-resistant, comes with a hand pump, and includes a QR code linking to an exercise guide. Lightweight and compact: it fits in any bag and travels easily to class.",
     affiliateUrl: "https://www.amazon.com/dp/B077QD9TFF?tag=pilatescollective-20",
   },
   {
@@ -69,7 +69,7 @@ const PRODUCTS = [
     name: "Lululemon Everywhere Belt Bag (1L)",
     price: "$46.00",
     verdict: "Best Studio Accessory",
-    description: "The Lululemon belt bag has become so embedded in pilates studio culture that it borders on uniform. The 1L version is the compact option — small enough to clip to a larger bag or wear crossbody during class, with enough space for a phone, keys, and cards. Made from water-repellent ripstop fabric with a quick-access zip. Available in a rotating range of seasonal colours. At $38 this is a genuinely thoughtful gift at an accessible price — she'll carry it every day.",
+    description: "The Lululemon belt bag has become so embedded in pilates studio culture that it borders on uniform. The 1L version is the compact option: small enough to clip to a larger bag or wear crossbody during class, with enough space for a phone, keys, and cards. Made from water-repellent ripstop fabric with a quick-access zip. Available in a rotating range of seasonal colours. At $38 this is a genuinely thoughtful gift at an accessible price: she'll carry it every day.",
     affiliateUrl: "https://www.amazon.com/dp/B0945QT74T?tag=pilatescollective-20",
   },
   {
@@ -77,7 +77,7 @@ const PRODUCTS = [
     name: "Manduka Cork Yoga Block (Single)",
     price: "$26.00",
     verdict: "Best Prop Gift",
-    description: "Most pilates practitioners have foam blocks — and most wish they'd bought cork instead. Manduka's cork block is made from sustainably harvested Portuguese cork, naturally antimicrobial, and provides a firm, unchanging surface that foam cannot replicate. Used for spine extension, lateral stretching, and alignment work in both mat and reformer practices. At $22 for a single block, it's one of the most cost-effective quality upgrades in pilates props. A gift she'll use for decades.",
+    description: "Most pilates practitioners have foam blocks, and most wish they'd bought cork instead. Manduka's cork block is made from sustainably harvested Portuguese cork, naturally antimicrobial, and provides a firm, unchanging surface that foam cannot replicate. Used for spine extension, lateral stretching, and alignment work in both mat and reformer practices. At $22 for a single block, it's one of the most cost-effective quality upgrades in pilates props. A gift she'll use for decades.",
     affiliateUrl: "https://www.amazon.com/dp/B000VUAGAS?tag=pilatescollective-20",
   },
   {
@@ -85,7 +85,7 @@ const PRODUCTS = [
     name: "Hydro Flask 21oz Standard Mouth Water Bottle",
     price: "$30.00",
     verdict: "Best Everyday Studio Gift",
-    description: "Hydro Flask is the water bottle that the pilates and wellness community has collectively adopted — and for good reason. The 21oz standard mouth is the ideal size for a pilates class: large enough to last a 55-minute session, compact enough to fit in a belt bag or small studio tote. The double-wall vacuum insulation keeps water cold for 24 hours — still ice-cold at the end of class. Available in a wide palette of muted tones that complement studio aesthetics. A practical, beautiful gift she'll carry every day.",
+    description: "Hydro Flask is the water bottle that the pilates and wellness community has collectively adopted, and for good reason. The 21oz standard mouth is the ideal size for a pilates class: large enough to last a 55-minute session, compact enough to fit in a belt bag or small studio tote. The double-wall vacuum insulation keeps water cold for 24 hours, still ice-cold at the end of class. Available in a wide palette of muted tones that complement studio aesthetics. A practical, beautiful gift she'll carry every day.",
     affiliateUrl: "https://www.amazon.com/dp/B0DG34PXZT?tag=pilatescollective-20",
   },
 ];
@@ -101,7 +101,7 @@ const CRITERIA = [
   },
   {
     heading: "Avoid generic fitness gifts",
-    body: "Generic resistance bands, foam rollers from sports superstores, and unbranded accessories send the wrong message. In the pilates community, brand matters — Theraband, ToeSox, Hydro Flask, and Manduka are all recognised names that signal you know what you're doing.",
+    body: "Generic resistance bands, foam rollers from sports superstores, and unbranded accessories send the wrong message. In the pilates community, brand matters: Theraband, ToeSox, Hydro Flask, and Manduka are all recognised names that signal you know what you're doing.",
   },
   {
     heading: "Stack for more impact",
@@ -112,19 +112,19 @@ const CRITERIA = [
 const FAQ = [
   {
     q: "What is the best pilates gift under $50?",
-    a: "The best pilates gift under $50 is ToeSox grip socks ($18–42 depending on pack size) — required at every reformer studio and genuinely appreciated by all practitioners. The Theraband Resistance Set ($19.47) is the best value for money at any price in pilates gifting. Both together cost around $44 and make an excellent paired gift.",
+    a: "The best pilates gift under $50 is ToeSox grip socks ($18–42 depending on pack size): required at every reformer studio and genuinely appreciated by all practitioners. The Theraband Resistance Set ($19.47) is the best value for money at any price in pilates gifting. Both together cost around $44 and make an excellent paired gift.",
   },
   {
     q: "What are good pilates stocking stuffers?",
-    a: "The best pilates stocking stuffers are: ToeSox grip socks ($16), Theraband resistance bands ($19.47), a Trideer pilates ball ($7.99), and a Manduka cork block ($26). All are practical, compact, and genuinely useful in every class. A single ToeSox pair at $18 is the classic stocking stuffer — small, needed, and from a brand practitioners recognise.",
+    a: "The best pilates stocking stuffers are: ToeSox grip socks ($16), Theraband resistance bands ($19.47), a Trideer pilates ball ($7.99), and a Manduka cork block ($26). All are practical, compact, and genuinely useful in every class. A single ToeSox pair at $18 is the classic stocking stuffer: small, needed, and from a brand practitioners recognise.",
   },
   {
     q: "Is a Lululemon belt bag a good pilates gift?",
-    a: "Yes — the Lululemon belt bag (1L, $46 on Amazon) is one of the most universally appreciated under-$50 pilates gifts. It has become an informal part of the pilates studio uniform, carried by students and instructors alike. The 1L version fits within the under-$50 budget; the 2L version just exceeds it but is more functional for a full studio day.",
+    a: "Yes: the Lululemon belt bag (1L, $46 on Amazon) is one of the most universally appreciated under-$50 pilates gifts. It has become an informal part of the pilates studio uniform, carried by students and instructors alike. The 1L version fits within the under-$50 budget; the 2L version just exceeds it but is more functional for a full studio day.",
   },
   {
     q: "Can you make a good pilates gift basket under $50?",
-    a: "Yes — the best under-$50 pilates gift basket combines three small items: ToeSox grip socks ($16), a Trideer pilates ball ($7.99), and a Theraband set ($19.47). That's about $44 total for three genuinely useful items, or you can pick any two to stay under $50. Present them in a simple white box or drawstring bag rather than a traditional gift basket.",
+    a: "Yes, the best under-$50 pilates gift basket combines three small items: ToeSox grip socks ($16), a Trideer pilates ball ($7.99), and a Theraband set ($19.47). That's about $44 total for three genuinely useful items, or you can pick any two to stay under $50. Present them in a simple white box or drawstring bag rather than a traditional gift basket.",
   },
 ];
 
@@ -140,7 +140,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Best Pilates Gifts Under $50 (2026)",
-      "description": "The best pilates gifts under $50 — thoughtful, practical picks that any pilates practitioner will love.",
+      "description": "The best pilates gifts under $50: thoughtful, practical picks that any pilates practitioner will love.",
       "url": "https://pilatescollectiveclub.com/blog/best-pilates-gifts-under-50",
       "image": "https://pilatescollectiveclub.com/pictures/stitch-grip-socks-footbar.png",
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -198,7 +198,7 @@ export default function Page() {
           <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
           <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
           <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-            A $50 limit is actually a good place to find pilates gifts — it covers the everyday essentials that practitioners run through, wear out, or simply never get around to buying for themselves. Grip socks, resistance bands, a foam ball, a studio bag: these are gifts that land in the rotation immediately and stay there. This guide narrows it to six picks that offer the best quality and usefulness at this price point, with a note at the end on how to combine them for maximum impact.
+            A $50 limit is actually a good place to find pilates gifts: it covers the everyday essentials that practitioners run through, wear out, or simply never get around to buying for themselves. Grip socks, resistance bands, a foam ball, a studio bag: these are gifts that land in the rotation immediately and stay there. This guide narrows it to six picks that offer the best quality and usefulness at this price point, with a note at the end on how to combine them for maximum impact.
           </p>
         </div>
       </section>

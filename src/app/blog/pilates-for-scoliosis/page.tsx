@@ -16,15 +16,15 @@ export const metadata: Metadata = {
   keywords: ["pilates for scoliosis", "scoliosis pilates exercises", "pilates spinal curve", "pilates schroth method", "pilates scoliosis safe exercises", "reformer pilates scoliosis", "pilates scoliosis instructor", "exercises to avoid scoliosis pilates", "pilates for spinal asymmetry", "scoliosis pilates guide 2026"],
   openGraph: {
     title: "Pilates for Scoliosis: What Actually Works",
-    description: "An honest guide to Pilates for scoliosis — what the research shows and how to approach your practice safely.",
+    description: "An honest guide to Pilates for scoliosis: what the research shows and how to approach your practice safely.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/pilates-for-scoliosis",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg", width: 1200, height: 630, alt: "Pilates for Scoliosis — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg", width: 1200, height: 630, alt: "Pilates for Scoliosis: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Pilates for Scoliosis: What Actually Works",
-    description: "An honest guide to Pilates for scoliosis — research, safe exercises, and what to avoid.",
+    description: "An honest guide to Pilates for scoliosis: research, safe exercises, and what to avoid.",
     images: ["https://pilatescollectiveclub.com/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg"],
   },
   alternates: {
@@ -39,7 +39,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Pilates for Scoliosis: What Actually Works",
-      "description": "An honest guide to Pilates for scoliosis — what the research shows, which exercises help, and what to avoid.",
+      "description": "An honest guide to Pilates for scoliosis: what the research shows, which exercises help, and what to avoid.",
       "url": "https://pilatescollectiveclub.com/blog/pilates-for-scoliosis",
       "datePublished": "2026-05-14",
       "dateModified": "2026-10-20",
@@ -59,10 +59,10 @@ const jsonLd = {
   {
     "@type": "FAQPage",
     "mainEntity": [
-      { "@type": "Question", "name": "Can Pilates straighten scoliosis in adults?", "acceptedAnswer": { "@type": "Answer", "text": "No — Pilates cannot reduce Cobb angle in skeletally mature adults. The structural curve is determined by the bone morphology of each vertebra and cannot be changed through exercise. What Pilates can achieve is improved pain management, better postural awareness, stronger paraspinal stabilisers, and improved quality of life. These are clinically meaningful outcomes even without structural change." } },
-      { "@type": "Question", "name": "Is reformer or mat Pilates better for scoliosis?", "acceptedAnswer": { "@type": "Answer", "text": "One-on-one reformer sessions with a scoliosis-informed instructor are optimal — the spring resistance can be precisely calibrated to address asymmetric muscle weakness, and the instructor can monitor alignment throughout. Group mat classes are appropriate once you have an individualised programme and understand how to modify standard exercises for your curve pattern." } },
-      { "@type": "Question", "name": "Are there any Pilates exercises I should never do with scoliosis?", "acceptedAnswer": { "@type": "Answer", "text": "No universal contraindications apply to all scoliosis — it depends entirely on your specific curve pattern, its location, and your current capacity. Exercises that load into the concavity of your curve or that cause pain during or after the session should be avoided or modified. This is why individual assessment is essential rather than trying to self-navigate a generic exercise programme." } },
-      { "@type": "Question", "name": "How long before I see improvement?", "acceptedAnswer": { "@type": "Answer", "text": "Pain reduction typically begins within 6–8 weeks of consistent, appropriate Pilates practice. Meaningful improvements in posture and functional capacity generally emerge at 3–6 months. The condition requires ongoing management — Pilates works best as a long-term component of your routine rather than a finite course of treatment." } }
+      { "@type": "Question", "name": "Can Pilates straighten scoliosis in adults?", "acceptedAnswer": { "@type": "Answer", "text": "No: Pilates cannot reduce Cobb angle in skeletally mature adults. The structural curve is determined by the bone morphology of each vertebra and cannot be changed through exercise. What Pilates can achieve is improved pain management, better postural awareness, stronger paraspinal stabilisers, and improved quality of life. These are clinically meaningful outcomes even without structural change." } },
+      { "@type": "Question", "name": "Is reformer or mat Pilates better for scoliosis?", "acceptedAnswer": { "@type": "Answer", "text": "One-on-one reformer sessions with a scoliosis-informed instructor are optimal: the spring resistance can be precisely calibrated to address asymmetric muscle weakness, and the instructor can monitor alignment throughout. Group mat classes are appropriate once you have an individualised programme and understand how to modify standard exercises for your curve pattern." } },
+      { "@type": "Question", "name": "Are there any Pilates exercises I should never do with scoliosis?", "acceptedAnswer": { "@type": "Answer", "text": "No universal contraindications apply to all scoliosis: it depends entirely on your specific curve pattern, its location, and your current capacity. Exercises that load into the concavity of your curve or that cause pain during or after the session should be avoided or modified. This is why individual assessment is essential rather than trying to self-navigate a generic exercise programme." } },
+      { "@type": "Question", "name": "How long before I see improvement?", "acceptedAnswer": { "@type": "Answer", "text": "Pain reduction typically begins within 6–8 weeks of consistent, appropriate Pilates practice. Meaningful improvements in posture and functional capacity generally emerge at 3–6 months. The condition requires ongoing management: Pilates works best as a long-term component of your routine rather than a finite course of treatment." } }
     ]
   },
   ],
@@ -71,9 +71,9 @@ const jsonLd = {
 const PRODUCTS = [
   { name: "Manduka PRO Pilates Mat", description: "A non-compressing, consistent-density mat for scoliosis Pilates work. Surface stability is important for exercises that require precise lateral positioning and asymmetric corrections.", price: "$144.00", affiliateUrl: "https://www.amazon.com/dp/B0066T7I54?tag=pilatescollective-20" },
   { name: "OPTP Foam Roller (36-inch)", description: "For thoracic mobility and lateral curve release. Placed laterally under the convex side of the curve, a foam roller allows passive opening of the compressed side.", price: "$62.99", affiliateUrl: "https://www.amazon.com/dp/B002C9EX14?tag=pilatescollective-20" },
-  { name: "TheraBand Resistance Bands Set", description: "For asymmetric strengthening — loading the weaker side of the curve to address the muscular imbalances that develop alongside structural scoliosis.", price: "$11.99", affiliateUrl: "https://www.amazon.com/dp/B01A58FHQ8?tag=pilatescollective-20" },
-  { name: "Balanced Body Magic Circle", description: "Provides lateral resistance that can be applied asymmetrically — useful for loading the convex side musculature and building the strength that helps manage curve progression.", price: "$35.00", affiliateUrl: "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20" },
-  { name: "Balanced Body Pilates Arc", description: "Particularly useful for scoliosis work — lateral flexion over the arc opens compressed rib spaces and provides three-dimensional movement that flat mat work cannot replicate.", price: "$189.99", affiliateUrl: "https://www.amazon.com/dp/B002XVSNRG?tag=pilatescollective-20" },
+  { name: "TheraBand Resistance Bands Set", description: "For asymmetric strengthening: loading the weaker side of the curve to address the muscular imbalances that develop alongside structural scoliosis.", price: "$11.99", affiliateUrl: "https://www.amazon.com/dp/B01A58FHQ8?tag=pilatescollective-20" },
+  { name: "Balanced Body Magic Circle", description: "Provides lateral resistance that can be applied asymmetrically: useful for loading the convex side musculature and building the strength that helps manage curve progression.", price: "$35.00", affiliateUrl: "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20" },
+  { name: "Balanced Body Pilates Arc", description: "Particularly useful for scoliosis work: lateral flexion over the arc opens compressed rib spaces and provides three-dimensional movement that flat mat work cannot replicate.", price: "$189.99", affiliateUrl: "https://www.amazon.com/dp/B002XVSNRG?tag=pilatescollective-20" },
 ];
 
 const QP_NOTES = ["A consistent-density mat for precise lateral work", "Thoracic mobility and lateral curve release", "Asymmetric strengthening for the weaker side", "Lateral resistance you can apply to one side", "Lateral flexion work over the arc"];
@@ -101,7 +101,7 @@ export default function PilatesForScoliosisPage() {
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Scoliosis affects an estimated 2–3% of the population. For most adults, it is a mild lateral spinal curvature that causes asymmetric loading, muscle imbalance, and in moderate to severe cases, chronic pain. Pilates is one of the most commonly recommended exercises for adults with scoliosis — but the generic advice to &quot;do Pilates for your scoliosis&quot; is dangerously imprecise. What you do, and crucially what you don&apos;t do, matters enormously depending on your specific curve pattern.
+              Scoliosis affects an estimated 2–3% of the population. For most adults, it is a mild lateral spinal curvature that causes asymmetric loading, muscle imbalance, and in moderate to severe cases, chronic pain. Pilates is one of the most commonly recommended exercises for adults with scoliosis, but the generic advice to &quot;do Pilates for your scoliosis&quot; is dangerously imprecise. What you do, and crucially what you don&apos;t do, matters enormously depending on your specific curve pattern.
             </p>
           </div>
         </section>
@@ -109,7 +109,7 @@ export default function PilatesForScoliosisPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg" alt="Pilates for scoliosis — spinal curve management, safe exercises, and Schroth-informed practice guidance" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg" alt="Pilates for scoliosis: spinal curve management, safe exercises, and Schroth-informed practice guidance" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>
         </section>
@@ -123,10 +123,10 @@ export default function PilatesForScoliosisPage() {
             <div className="mb-14 mt-4">
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What scoliosis actually involves</h2>
               <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Scoliosis is a three-dimensional spinal deformity — not just a lateral curve, but a rotation of the vertebrae around the spinal axis, and in many cases an alteration of the normal sagittal curves (kyphosis and lordosis). A Cobb angle above 10 degrees qualifies as scoliosis by clinical definition. Most adults with idiopathic scoliosis have curves in the 10–40 degree range. Curves above 50 degrees may be candidates for surgical consideration.
+                Scoliosis is a three-dimensional spinal deformity, not just a lateral curve, but a rotation of the vertebrae around the spinal axis, and in many cases an alteration of the normal sagittal curves (kyphosis and lordosis). A Cobb angle above 10 degrees qualifies as scoliosis by clinical definition. Most adults with idiopathic scoliosis have curves in the 10–40 degree range. Curves above 50 degrees may be candidates for surgical consideration.
               </p>
               <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                The pattern of the curve matters enormously for exercise selection. A right thoracic curve (the most common adult pattern) creates different muscle imbalances from a left lumbar curve or a double-major curve. What helps one pattern may aggravate another. This is why individualised assessment — not a generic Pilates class — is the appropriate starting point.
+                The pattern of the curve matters enormously for exercise selection. A right thoracic curve (the most common adult pattern) creates different muscle imbalances from a left lumbar curve or a double-major curve. What helps one pattern may aggravate another. This is why individualised assessment, not a generic Pilates class, is the appropriate starting point.
               </p>
               <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                 The goals of Pilates for scoliosis are not to straighten the curve (this is not possible through exercise in skeletally mature adults) but to: manage and reduce pain, develop the paraspinal and core musculature that stabilises the curved spine, address compensatory patterns in the hips and shoulders, and improve the body awareness needed to avoid habitual loading into the concave side of the curve.
@@ -139,15 +139,15 @@ export default function PilatesForScoliosisPage() {
                 Multiple studies have examined Pilates as an intervention for adult scoliosis. A 2018 systematic review in the Journal of Bodywork and Movement Therapies found that Pilates produced statistically significant improvements in pain levels, functional disability, and quality of life in adults with scoliosis. The studies with the strongest outcomes were those using individualised programmes rather than generic group classes.
               </p>
               <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Importantly, the research does not show that Pilates reduces Cobb angle in adults — the structural curve does not change through exercise once skeletal maturity is reached. What changes is how the body manages, compensates for, and loads the curve. These functional improvements are clinically meaningful for quality of life.
+                Importantly, the research does not show that Pilates reduces Cobb angle in adults: the structural curve does not change through exercise once skeletal maturity is reached. What changes is how the body manages, compensates for, and loads the curve. These functional improvements are clinically meaningful for quality of life.
               </p>
               <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                The Schroth method — a German physiotherapy approach involving specific breathing, posture, and exercise techniques — is the most evidence-supported exercise intervention for scoliosis specifically. Many clinical Pilates practitioners integrate Schroth-influenced principles into their scoliosis work. If your primary goal is curve management rather than general fitness, finding a Schroth-trained Pilates instructor is worth the additional effort.
+                The Schroth method (a German physiotherapy approach involving specific breathing, posture, and exercise techniques) is the most evidence-supported exercise intervention for scoliosis specifically. Many clinical Pilates practitioners integrate Schroth-influenced principles into their scoliosis work. If your primary goal is curve management rather than general fitness, finding a Schroth-trained Pilates instructor is worth the additional effort.
               </p>
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What to do — and what to avoid</h2>
+              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What to do, and what to avoid</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
                 {[
                   { heading: "Emphasise", body: "Lateral breathing into the concave side. Unilateral exercises that address the asymmetry directly. Elongation and decompression exercises. Gentle rotation away from the convex side where appropriate.", color: "#536257" },
@@ -167,11 +167,11 @@ export default function PilatesForScoliosisPage() {
               <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>How to find the right instructor</h2>
               <ul className="space-y-3">
                 {[
-                  "Look for instructors with specific scoliosis training — not just general Pilates certification. Terms to look for: Schroth-trained, BSPTS (Barcelona Scoliosis Physical Therapy School), or clinical Pilates with spinal specialisation.",
+                  "Look for instructors with specific scoliosis training, not just general Pilates certification. Terms to look for: Schroth-trained, BSPTS (Barcelona Scoliosis Physical Therapy School), or clinical Pilates with spinal specialisation.",
                   "Start with individual sessions, not group classes. A scoliosis-informed instructor needs to assess your curve pattern before designing a programme. Generic group classes apply the same exercise selection to everyone, which is inappropriate for a structural asymmetry.",
                   "Request that your instructor communicate with your physiotherapist or orthopaedic consultant. Good scoliosis Pilates should be integrated with your wider medical management, not replace it.",
                   "Re-evaluate every 3–6 months. As your strength and body awareness develop, the exercises that are appropriate change. What was challenging six months ago may now be insufficient, or may need to be modified as your curve pattern responds to loading.",
-                  "Be cautious of instructors who claim Pilates will reduce your Cobb angle. This is not evidence-based for adult scoliosis. Honest instructors will focus on pain management, function, and quality of life — not structural correction.",
+                  "Be cautious of instructors who claim Pilates will reduce your Cobb angle. This is not evidence-based for adult scoliosis. Honest instructors will focus on pain management, function, and quality of life, not structural correction.",
                 ].map((tip, i) => (
                   <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                     <span className="font-semibold" style={{ color: "#8b4a31" }}>{i + 1}.</span>
@@ -185,10 +185,10 @@ export default function PilatesForScoliosisPage() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "Can Pilates straighten scoliosis in adults?", a: "No — Pilates cannot reduce Cobb angle in skeletally mature adults. The structural curve is determined by the bone morphology of each vertebra and cannot be changed through exercise. What Pilates can achieve is improved pain management, better postural awareness, stronger paraspinal stabilisers, and improved quality of life. These are clinically meaningful outcomes even without structural change." },
-                  { q: "Is reformer or mat Pilates better for scoliosis?", a: "One-on-one reformer sessions with a scoliosis-informed instructor are optimal — the spring resistance can be precisely calibrated to address asymmetric muscle weakness, and the instructor can monitor alignment throughout. Group mat classes are appropriate once you have an individualised programme and understand how to modify standard exercises for your curve pattern." },
-                  { q: "Are there any Pilates exercises I should never do with scoliosis?", a: "No universal contraindications apply to all scoliosis — it depends entirely on your specific curve pattern, its location, and your current capacity. Exercises that load into the concavity of your curve or that cause pain during or after the session should be avoided or modified. This is why individual assessment is essential rather than trying to self-navigate a generic exercise programme." },
-                  { q: "How long before I see improvement?", a: "Pain reduction typically begins within 6–8 weeks of consistent, appropriate Pilates practice. Meaningful improvements in posture and functional capacity generally emerge at 3–6 months. The condition requires ongoing management — Pilates works best as a long-term component of your routine rather than a finite course of treatment." },
+                  { q: "Can Pilates straighten scoliosis in adults?", a: "No: Pilates cannot reduce Cobb angle in skeletally mature adults. The structural curve is determined by the bone morphology of each vertebra and cannot be changed through exercise. What Pilates can achieve is improved pain management, better postural awareness, stronger paraspinal stabilisers, and improved quality of life. These are clinically meaningful outcomes even without structural change." },
+                  { q: "Is reformer or mat Pilates better for scoliosis?", a: "One-on-one reformer sessions with a scoliosis-informed instructor are optimal: the spring resistance can be precisely calibrated to address asymmetric muscle weakness, and the instructor can monitor alignment throughout. Group mat classes are appropriate once you have an individualised programme and understand how to modify standard exercises for your curve pattern." },
+                  { q: "Are there any Pilates exercises I should never do with scoliosis?", a: "No universal contraindications apply to all scoliosis: it depends entirely on your specific curve pattern, its location, and your current capacity. Exercises that load into the concavity of your curve or that cause pain during or after the session should be avoided or modified. This is why individual assessment is essential rather than trying to self-navigate a generic exercise programme." },
+                  { q: "How long before I see improvement?", a: "Pain reduction typically begins within 6–8 weeks of consistent, appropriate Pilates practice. Meaningful improvements in posture and functional capacity generally emerge at 3–6 months. The condition requires ongoing management: Pilates works best as a long-term component of your routine rather than a finite course of treatment." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
@@ -215,7 +215,7 @@ export default function PilatesForScoliosisPage() {
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Pilates for Back Pain" excerpt="Clinical research meets practical guidance on using Pilates to address chronic lower back pain." href="/blog/pilates-for-back-pain" category="Health" readTime="10 min read" date="May 2026" imageUrl="/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg" />
-                <ArticleCard title="How to Choose a Pilates Instructor" excerpt="Credentials, lineage, teaching style — what actually matters when selecting your teacher." href="/blog/how-to-choose-a-pilates-instructor" category="Guide" readTime="7 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg" />
+                <ArticleCard title="How to Choose a Pilates Instructor" excerpt="Credentials, lineage, teaching style: what actually matters when selecting your teacher." href="/blog/how-to-choose-a-pilates-instructor" category="Guide" readTime="7 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg" />
                 <ArticleCard title="Pilates for Posture (2026): Best Exercises for Alignment" excerpt="Pilates for posture improvement, the best reformer and mat exercises to correct forward head posture, rounded…" href="/blog/pilates-for-posture" category="Guide" readTime="9 min read" imageUrl="/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg" />
                 <ArticleCard title="Pilates for Sciatica (2026): Safe Exercises & What to Avoid" excerpt="Pilates for sciatica: which exercises calm nerve pain, which aggravate a disc, and how the approach changes for…" href="/blog/pilates-for-sciatica" category="Health" readTime="12 min read" imageUrl="/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg" />
                 <ArticleCard title="Pilates for Osteoporosis (2026): Safe Exercise Guide" excerpt="Pilates for osteoporosis and osteopenia: which exercises safely build bone density, which to avoid, and how to…" href="/blog/pilates-for-osteoporosis" category="Health" readTime="12 min read" imageUrl="/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg" />

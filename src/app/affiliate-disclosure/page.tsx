@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Affiliate Disclosure",
-  description: "Affiliate Disclosure for Pilates Collective Club — how we use affiliate links and how it affects our editorial recommendations.",
+  description: "Affiliate Disclosure for Pilates Collective Club: how we use affiliate links and how it affects our editorial recommendations.",
   openGraph: {
     title: "Affiliate Disclosure",
     description: "How Pilates Collective Club uses affiliate links and how it affects our editorial recommendations.",
@@ -51,7 +51,7 @@ export default function AffiliateDisclosurePage() {
             <div style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px", padding: "28px 32px", marginBottom: "40px" }}>
               <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", fontWeight: 600, letterSpacing: "0.1em", textTransform: "uppercase", color: "#8b4a31", marginBottom: "12px" }}>The short version</p>
               <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "15px", fontWeight: 300, color: "#53433e", lineHeight: 1.8, margin: 0 }}>
-                Some links on this site earn us a small commission if you buy through them. It costs you nothing extra. Our recommendations are always based on research and honest editorial judgment — never on commission rates.
+                Some links on this site earn us a small commission if you buy through them. It costs you nothing extra. Our recommendations are always based on research and honest editorial judgment, never on commission rates.
               </p>
             </div>
 

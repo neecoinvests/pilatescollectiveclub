@@ -12,7 +12,7 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Cycling Gloves for Spin Class (2026): Padded & Grip",
-  description: "The best padded cycling gloves for indoor spin class — compared for palm cushioning, grip, breathability, and comfort during high-output handlebar-heavy sessions.",
+  description: "The best padded cycling gloves for indoor spin class: compared for palm cushioning, grip, breathability, and comfort during high-output handlebar-heavy sessions.",
   keywords: ["best cycling gloves for spin class", "padded cycling gloves 2026", "indoor cycling gloves review", "spin class gloves fingerless", "bike gloves for peloton", "handlebar grip gloves indoor cycling", "cycling gloves women men"],
   openGraph: {
     title: "Best Cycling Gloves for Spin Class (2026)",
@@ -126,7 +126,7 @@ const jsonLd = {
       "@type": "FAQPage",
       "mainEntity": [
         { "@type": "Question", "name": "Why wear cycling gloves for indoor spin class?", "acceptedAnswer": { "@type": "Answer", "text": "Spin handlebars require sustained grip during out-of-saddle climbs and sprints, which creates ulnar and carpal pressure that over time causes tingling and numbness in the palm and fingers. Padded gloves redistribute that pressure and provide a secure sweat-resistant grip, improving comfort and allowing better form throughout the session." } },
-        { "@type": "Question", "name": "Foam vs gel palm padding — which is better for spin class?", "acceptedAnswer": { "@type": "Answer", "text": "Gel padding conforms more precisely to the hand's contact points under pressure and absorbs vibration more effectively over many sessions without bottoming out. Foam padding is lighter and more breathable but compresses faster. For regular spinners training multiple times per week, gel is the better long-term investment." } },
+        { "@type": "Question", "name": "Foam vs gel palm padding, which is better for spin class?", "acceptedAnswer": { "@type": "Answer", "text": "Gel padding conforms more precisely to the hand's contact points under pressure and absorbs vibration more effectively over many sessions without bottoming out. Foam padding is lighter and more breathable but compresses faster. For regular spinners training multiple times per week, gel is the better long-term investment." } },
         { "@type": "Question", "name": "Are cycling gloves worth it if I'm new to spin class?", "acceptedAnswer": { "@type": "Answer", "text": "For casual riders doing one class per week, gloves are optional. For anyone training three or more times weekly, especially those who spend significant time out of the saddle during sprints and climbs, gloves meaningfully improve palm comfort and handlebar grip and are worth the investment even at budget-level pricing." } },
       ],
     },
@@ -207,7 +207,7 @@ export default function BestCyclingGlovesPage() {
               <div className="space-y-6">
                 {[
                   { q: "Why wear cycling gloves for indoor spin class?", a: "Spin handlebars require sustained grip during out-of-saddle climbs and sprints, which creates ulnar and carpal pressure that causes tingling and numbness in the palm over time. Padded gloves redistribute that pressure and provide a secure sweat-resistant grip, improving comfort and form throughout the session." },
-                  { q: "Foam vs gel palm padding — which is better for spin class?", a: "Gel padding conforms more precisely to the hand's contact points under pressure and absorbs vibration more effectively without bottoming out. Foam is lighter and more breathable but compresses faster. For regular spinners training multiple times per week, gel is the better long-term investment." },
+                  { q: "Foam vs gel palm padding, which is better for spin class?", a: "Gel padding conforms more precisely to the hand's contact points under pressure and absorbs vibration more effectively without bottoming out. Foam is lighter and more breathable but compresses faster. For regular spinners training multiple times per week, gel is the better long-term investment." },
                   { q: "Are cycling gloves worth it if I'm new to spin class?", a: "For casual riders doing one class per week, gloves are optional. For anyone training three or more times weekly, especially those spending significant time out of the saddle, gloves meaningfully improve palm comfort and handlebar grip." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>

@@ -11,18 +11,18 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "How Often Should You Do Pilates? (2026 Expert Guide)",
-  description: "How often to do Pilates for results — frequency recommendations for beginners, intermediates, and advanced practitioners, with recovery and consistency guidance.",
+  description: "How often to do Pilates for results: frequency recommendations for beginners, intermediates, and advanced practitioners, with recovery and consistency guidance.",
   openGraph: {
     title: "How Often Should You Do Pilates? The Evidence-Based Answer",
-    description: "Beginner or advanced, daily or twice weekly — exactly how much Pilates you need for your specific goals.",
+    description: "Beginner or advanced, daily or twice weekly: exactly how much Pilates you need for your specific goals.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/how-often-should-you-do-pilates",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg", width: 1200, height: 630, alt: "How Often Should You Do Pilates — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg", width: 1200, height: 630, alt: "How Often Should You Do Pilates: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "How Often Should You Do Pilates?",
-    description: "The evidence-based answer — beginners, intermediate, and goal-specific frequency guidance.",
+    description: "The evidence-based answer: beginners, intermediate, and goal-specific frequency guidance.",
     images: ["https://pilatescollectiveclub.com/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg"],
   },
   keywords: ["how often should you do pilates", "pilates frequency 2026", "how many times a week pilates", "pilates 3 times a week results", "pilates daily is it ok", "best pilates schedule", "how often reformer pilates", "pilates frequency beginners"],
@@ -79,7 +79,7 @@ const jsonLd = {
         {
           "@type": "Question",
           "name": "Is it OK to do Pilates every day?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Joseph Pilates himself recommended daily practice. For mat Pilates, daily sessions are generally safe and beneficial. For reformer Pilates, 5-6 sessions per week is the maximum most instructors recommend, allowing one or two recovery days. The key is varying intensity — alternate between more demanding sessions and gentler work." }
+          "acceptedAnswer": { "@type": "Answer", "text": "Joseph Pilates himself recommended daily practice. For mat Pilates, daily sessions are generally safe and beneficial. For reformer Pilates, 5-6 sessions per week is the maximum most instructors recommend, allowing one or two recovery days. The key is varying intensity: alternate between more demanding sessions and gentler work." }
         },
         {
           "@type": "Question",
@@ -89,7 +89,7 @@ const jsonLd = {
         {
           "@type": "Question",
           "name": "Is Pilates enough on its own or should you do other exercise?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Pilates covers strength, flexibility, and body awareness exceptionally well. What it doesn't cover is cardiovascular conditioning — walking, cycling, swimming, or running complement Pilates without creating recovery competition. For general health, Pilates plus 150 minutes of moderate cardio per week is a complete programme." }
+          "acceptedAnswer": { "@type": "Answer", "text": "Pilates covers strength, flexibility, and body awareness exceptionally well. What it doesn't cover is cardiovascular conditioning: walking, cycling, swimming, or running complement Pilates without creating recovery competition. For general health, Pilates plus 150 minutes of moderate cardio per week is a complete programme." }
         },
         {
           "@type": "Question",
@@ -139,7 +139,7 @@ export default function HowOftenShouldYouDoPilatesPage() {
 
             <section className="pb-20">
               <p className="text-lg leading-relaxed mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-                Joseph Pilates prescribed daily practice. Contemporary research suggests a minimum of three sessions per week for meaningful progress. The truth lies somewhere in between — and it depends on what you're training for, what level you're at, and whether you're supplementing studio work with home practice.
+                Joseph Pilates prescribed daily practice. Contemporary research suggests a minimum of three sessions per week for meaningful progress. The truth lies somewhere in between, and it depends on what you're training for, what level you're at, and whether you're supplementing studio work with home practice.
               </p>
 
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What frequency research recommends</h2>
@@ -161,7 +161,7 @@ export default function HowOftenShouldYouDoPilatesPage() {
                   { goal: "Injury rehabilitation", sessions: "3–5 sessions/week", note: "Higher frequency under instructor guidance; sessions may be shorter" },
                   { goal: "Mobility and flexibility", sessions: "3–4 sessions/week", note: "Daily gentle practice is well-tolerated and accelerates progress" },
                   { goal: "Athletic performance", sessions: "2–3 sessions/week", note: "Integrated with primary sport training; Pilates as complement" },
-                  { goal: "Classical mastery / serious practice", sessions: "5–6 sessions/week", note: "The Joseph Pilates approach — varied intensity, daily commitment" },
+                  { goal: "Classical mastery / serious practice", sessions: "5–6 sessions/week", note: "The Joseph Pilates approach: varied intensity, daily commitment" },
                 ].map((row, i) => (
                   <div key={row.goal} className="px-6 py-4" style={{ borderTop: "1px solid rgba(217,194,186,0.25)", backgroundColor: i % 2 === 0 ? "#ffffff" : "#faf8f7" }}>
                     <div className="flex items-start justify-between gap-4">
@@ -190,10 +190,10 @@ export default function HowOftenShouldYouDoPilatesPage() {
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>How to structure a weekly Pilates schedule</h2>
               <div className="space-y-4 mb-10">
                 {[
-                  { heading: "Beginner (0–3 months)", body: "2-3 sessions per week, 30-45 minutes each. Focus on the foundational exercises — Hundred, Roll Up, Single Leg Stretch, Bridge. Rest days allow the body to process new movement patterns." },
+                  { heading: "Beginner (0–3 months)", body: "2-3 sessions per week, 30-45 minutes each. Focus on the foundational exercises: Hundred, Roll Up, Single Leg Stretch, Bridge. Rest days allow the body to process new movement patterns." },
                   { heading: "Intermediate (3–12 months)", body: "3-4 sessions per week, 45-60 minutes each. Begin mixing mat and reformer (if accessible). Add ankleweights and magic circle for variety." },
                   { heading: "Advanced (12+ months)", body: "4-6 sessions per week. Mix full classical mat sequences, reformer work, and tower work. Include at least one recovery-focused session per week (stretching, gentle mat work)." },
-                  { heading: "Combining with other exercise", body: "Pilates on the days between gym or running sessions works well. Pilates the day after strength training provides active recovery. Pilates and high-intensity training on the same day can be done in either order — Pilates before for activation, after for recovery." },
+                  { heading: "Combining with other exercise", body: "Pilates on the days between gym or running sessions works well. Pilates the day after strength training provides active recovery. Pilates and high-intensity training on the same day can be done in either order: Pilates before for activation, after for recovery." },
                 ].map((item) => (
                   <div key={item.heading} className="flex gap-5 rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <div className="w-1.5 rounded-full shrink-0 mt-1" style={{ backgroundColor: "#8b4a31", minHeight: "20px" }} />
@@ -209,9 +209,9 @@ export default function HowOftenShouldYouDoPilatesPage() {
                 <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
                 <div className="space-y-6">
                   {[
-                    { q: "Is it OK to do Pilates every day?", a: "Joseph Pilates himself recommended daily practice. For mat Pilates, daily sessions are generally safe and beneficial. For reformer Pilates, 5-6 sessions per week is the maximum most instructors recommend, allowing one or two recovery days. The key is varying intensity — alternate between more demanding sessions and gentler work." },
+                    { q: "Is it OK to do Pilates every day?", a: "Joseph Pilates himself recommended daily practice. For mat Pilates, daily sessions are generally safe and beneficial. For reformer Pilates, 5-6 sessions per week is the maximum most instructors recommend, allowing one or two recovery days. The key is varying intensity: alternate between more demanding sessions and gentler work." },
                     { q: "How many times a week is Pilates enough to see results?", a: "3 sessions per week is the minimum threshold for consistent results. Below this, your body doesn't accumulate enough stimulus between sessions to develop the pattern recognition and strength that characterise Pilates progress. Joseph Pilates' quote about 10/20/30 sessions applies to consistent, frequent practice." },
-                    { q: "Is Pilates enough on its own or should you do other exercise?", a: "Pilates covers strength, flexibility, and body awareness exceptionally well. What it doesn't cover is cardiovascular conditioning — walking, cycling, swimming, or running complement Pilates without creating recovery competition. For general health, Pilates plus 150 minutes of moderate cardio per week is a complete programme." },
+                    { q: "Is Pilates enough on its own or should you do other exercise?", a: "Pilates covers strength, flexibility, and body awareness exceptionally well. What it doesn't cover is cardiovascular conditioning: walking, cycling, swimming, or running complement Pilates without creating recovery competition. For general health, Pilates plus 150 minutes of moderate cardio per week is a complete programme." },
                     { q: "Can you do too much Pilates?", a: "Overtraining is possible but uncommon in Pilates compared to high-impact sports. The main risk is repetitive strain from performing the same exercises with poor technique day after day. Variety in exercises, working with an instructor periodically, and including rest days prevents this." },
                   ].map((item) => (
                     <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>

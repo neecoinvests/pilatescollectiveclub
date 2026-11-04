@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "Best Pilates Gifts for Beginners (2026)",
-    description: "The perfect first pilates gifts — everything a beginner needs to start their practice right.",
+    description: "The perfect first pilates gifts: everything a beginner needs to start their practice right.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-gifts-for-beginners",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/stitch-studio-windowsill.png", width: 1200, height: 630, alt: "Best Pilates Gifts for Beginners 2026" }],
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Gifts for Beginners (2026)",
-    description: "Gift the right start — equipment and gear a new pilates practitioner will actually use.",
+    description: "Gift the right start: equipment and gear a new pilates practitioner will actually use.",
     images: ["https://pilatescollectiveclub.com/pictures/stitch-studio-windowsill.png"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/best-pilates-gifts-for-beginners" },
@@ -45,7 +45,7 @@ const PRODUCTS = [
     name: "Gaiam Premium Yoga & Pilates Mat (6mm)",
     price: "$21.90",
     verdict: "The Ideal First Mat",
-    description: "Every pilates practitioner needs a mat — and the Gaiam Premium is the ideal first one. At 6mm thick it provides genuine joint cushioning for pilates floor work (abs, stretching, rolling) without being so thick that ground contact is lost. The non-slip surface grips on both sides; it rolls into a clean cylinder, fits any mat bag, and holds its shape over years of regular use. Gaiam has been the leading accessible mat brand for over two decades — she'll know the name and trust the quality. A foundational gift that never misses.",
+    description: "Every pilates practitioner needs a mat, and the Gaiam Premium is the ideal first one. At 6mm thick it provides genuine joint cushioning for pilates floor work (abs, stretching, rolling) without being so thick that ground contact is lost. The non-slip surface grips on both sides; it rolls into a clean cylinder, fits any mat bag, and holds its shape over years of regular use. Gaiam has been the leading accessible mat brand for over two decades: she'll know the name and trust the quality. A foundational gift that never misses.",
     affiliateUrl: "https://www.amazon.com/dp/B0BYFFX51Z?tag=pilatescollective-20",
   },
   {
@@ -53,7 +53,7 @@ const PRODUCTS = [
     name: "ToeSox Half-Toe Grip Socks",
     price: "$16.00",
     verdict: "Essential Studio Gear",
-    description: "Grip socks aren't optional in reformer pilates — studios universally require them, and they're a source of genuine anxiety for beginners who arrive without them. ToeSox are the brand most practitioners settle on once they've tried a few pairs. The half-toe design exposes the toes for footbar work while the full-grip sole keeps feet anchored on the carriage and mat. Available in multi-packs in coordinated colours. This is the single most practical pilates gift for someone just starting — they will use these every single class.",
+    description: "Grip socks aren't optional in reformer pilates: studios universally require them, and they're a source of genuine anxiety for beginners who arrive without them. ToeSox are the brand most practitioners settle on once they've tried a few pairs. The half-toe design exposes the toes for footbar work while the full-grip sole keeps feet anchored on the carriage and mat. Available in multi-packs in coordinated colours. This is the single most practical pilates gift for someone just starting: they will use these every single class.",
     affiliateUrl: "https://www.amazon.com/dp/B00VLMY04S?tag=pilatescollective-20",
   },
   {
@@ -61,7 +61,7 @@ const PRODUCTS = [
     name: "Theraband Resistance Bands Set (6 Levels)",
     price: "$26",
     verdict: "Best Home Practice Accessory",
-    description: "Theraband is the clinical standard in resistance bands — the brand used in hospital physiotherapy and prescribed by sports medicine physicians. The six-level set covers every stage of a beginner's pilates progression, from the gentlest yellow band for introductory footwork and arm work to the progressively heavier colours for conditioning. The bands are pre-cut to exercise length, colour-coded, and made from a durable latex blend. For a beginner building a home practice alongside their studio classes, this set is invaluable — and at $26, it's among the most generous gifts per dollar on this list.",
+    description: "Theraband is the clinical standard in resistance bands: the brand used in hospital physiotherapy and prescribed by sports medicine physicians. The six-level set covers every stage of a beginner's pilates progression, from the gentlest yellow band for introductory footwork and arm work to the progressively heavier colours for conditioning. The bands are pre-cut to exercise length, colour-coded, and made from a durable latex blend. For a beginner building a home practice alongside their studio classes, this set is invaluable, and at $26, it's among the most generous gifts per dollar on this list.",
     affiliateUrl: "https://www.amazon.com/s?k=theraband+resistance+band+set+6+levels+pilates&tag=pilatescollective-20",
   },
   {
@@ -69,7 +69,7 @@ const PRODUCTS = [
     name: "Trideer Pilates Ball (9-inch)",
     price: "$7.99",
     verdict: "Best Small Equipment Gift",
-    description: "The pilates ball is one of the most versatile pieces of beginner equipment — it's used in mat classes, at-home practice, and as a prop in reformer sessions for adductor and core work. Trideer's 9-inch ball is the right size for most pilates applications: small enough for inner thigh squeezes and spinal support work, durable enough to handle years of use. Made from burst-resistant PVC, it comes with a hand pump and includes an access code to a digital exercise guide. A practical, lightweight gift that will get immediate use.",
+    description: "The pilates ball is one of the most versatile pieces of beginner equipment: it's used in mat classes, at-home practice, and as a prop in reformer sessions for adductor and core work. Trideer's 9-inch ball is the right size for most pilates applications: small enough for inner thigh squeezes and spinal support work, durable enough to handle years of use. Made from burst-resistant PVC, it comes with a hand pump and includes an access code to a digital exercise guide. A practical, lightweight gift that will get immediate use.",
     affiliateUrl: "https://www.amazon.com/dp/B077QD9TFF?tag=pilatescollective-20",
   },
   {
@@ -77,7 +77,7 @@ const PRODUCTS = [
     name: "Lululemon Align High-Rise Legging 25\"",
     price: "$98.00",
     verdict: "The Legging That Changes Everything",
-    description: "For a beginner, the first class in a genuinely great pair of leggings is a revelation. The Lululemon Align — made from their proprietary Nulu fabric — is that legging. It is so light and soft that it disappears during practice, allowing full attention on movement and alignment rather than adjusting clothing. The high waist holds without compression, the 25-inch length is the reformer-ideal cut, and the range of colours means she can choose something that feels like her. If you're choosing one gift for a beginner that signals you've really thought about it, this is it.",
+    description: "For a beginner, the first class in a genuinely great pair of leggings is a revelation. The Lululemon Align, made from their proprietary Nulu fabric, is that legging. It is so light and soft that it disappears during practice, allowing full attention on movement and alignment rather than adjusting clothing. The high waist holds without compression, the 25-inch length is the reformer-ideal cut, and the range of colours means she can choose something that feels like her. If you're choosing one gift for a beginner that signals you've really thought about it, this is it.",
     affiliateUrl: "https://www.amazon.com/dp/B08M8ZTKJS?tag=pilatescollective-20",
   },
   {
@@ -85,7 +85,7 @@ const PRODUCTS = [
     name: "\"Pilates Anatomy\" by Rael Isacowitz & Karen Clippinger",
     price: "$17.81",
     verdict: "Best Book Gift for a Beginner",
-    description: "Pilates Anatomy is the definitive book on understanding pilates from the inside — why each exercise works, which muscles are targeted, and how the method develops functional strength and mobility. Written by master instructor Rael Isacowitz and kinesiologist Karen Clippinger, it includes detailed anatomical illustrations of over 45 pilates exercises. For a beginner who wants to understand their practice rather than just follow instructions, this book accelerates their progress significantly. A thoughtful gift that pairs beautifully with any of the equipment picks above.",
+    description: "Pilates Anatomy is the definitive book on understanding pilates from the inside: why each exercise works, which muscles are targeted, and how the method develops functional strength and mobility. Written by master instructor Rael Isacowitz and kinesiologist Karen Clippinger, it includes detailed anatomical illustrations of over 45 pilates exercises. For a beginner who wants to understand their practice rather than just follow instructions, this book accelerates their progress significantly. A thoughtful gift that pairs beautifully with any of the equipment picks above.",
     affiliateUrl: "https://www.amazon.com/dp/1492567701?tag=pilatescollective-20",
   },
 ];
@@ -93,11 +93,11 @@ const PRODUCTS = [
 const CRITERIA = [
   {
     heading: "Start with what the studio requires",
-    body: "Every reformer studio requires grip socks — a beginner who shows up without them has to buy a studio pair at the door. ToeSox socks are the most practical first gift for this reason: used from class one, every single time.",
+    body: "Every reformer studio requires grip socks: a beginner who shows up without them has to buy a studio pair at the door. ToeSox socks are the most practical first gift for this reason: used from class one, every single time.",
   },
   {
     heading: "Prioritise everyday use over novelty",
-    body: "Beginners don't need specialised equipment — they need the fundamentals they'll reach for constantly. A mat, socks, and resistance bands beat a gadget that gathers dust. Choose items that enter the weekly routine immediately.",
+    body: "Beginners don't need specialised equipment: they need the fundamentals they'll reach for constantly. A mat, socks, and resistance bands beat a gadget that gathers dust. Choose items that enter the weekly routine immediately.",
   },
   {
     heading: "Consider where they'll practice",
@@ -112,7 +112,7 @@ const CRITERIA = [
 const FAQ = [
   {
     q: "What is the best pilates gift for a beginner?",
-    a: "The best pilates gift for a beginner is grip socks (ToeSox, $16) — they are required equipment at every reformer studio and consistently the item new practitioners show up without. A close second is a quality mat (Gaiam Premium, $21.90) for home practice. If budget allows, combine both with a Theraband set ($26) for a complete beginner kit around $79.",
+    a: "The best pilates gift for a beginner is grip socks (ToeSox, $16): they are required equipment at every reformer studio and consistently the item new practitioners show up without. A close second is a quality mat (Gaiam Premium, $21.90) for home practice. If budget allows, combine both with a Theraband set ($26) for a complete beginner kit around $79.",
   },
   {
     q: "What equipment does a pilates beginner need?",
@@ -120,7 +120,7 @@ const FAQ = [
   },
   {
     q: "Is Lululemon worth it for a pilates beginner?",
-    a: "Yes — the Lululemon Align legging is worth it for a beginner because it removes one source of distraction during class. When your clothing isn't pulling, rolling, or restricting movement, you can focus entirely on the exercises. That said, the Gaiam mat and ToeSox socks are higher priority purchases for someone just starting out.",
+    a: "Yes: the Lululemon Align legging is worth it for a beginner because it removes one source of distraction during class. When your clothing isn't pulling, rolling, or restricting movement, you can focus entirely on the exercises. That said, the Gaiam mat and ToeSox socks are higher priority purchases for someone just starting out.",
   },
   {
     q: "What pilates book should a beginner read?",
@@ -140,7 +140,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Best Pilates Gifts for Beginners (2026)",
-      "description": "The best pilates gifts for beginners — starter kits, mats, grip socks, and resistance bands that give new practitioners everything they need.",
+      "description": "The best pilates gifts for beginners: starter kits, mats, grip socks, and resistance bands that give new practitioners everything they need.",
       "url": "https://pilatescollectiveclub.com/blog/best-pilates-gifts-for-beginners",
       "image": "https://pilatescollectiveclub.com/pictures/stitch-studio-windowsill.png",
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -198,7 +198,7 @@ export default function Page() {
           <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
           <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
           <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-            If she's just starting pilates — or just signed up for her first reformer session — the right gift can transform her experience from the very beginning. Beginners need fundamentals, not gimmicks: the grip socks the studio requires, the mat for home practice, the resistance bands that extend her training. This guide covers exactly those — the equipment that gives a beginner the right foundation, ranked by what gets used most and bought least.
+            If she's just starting pilates, or just signed up for her first reformer session, the right gift can transform her experience from the very beginning. Beginners need fundamentals, not gimmicks: the grip socks the studio requires, the mat for home practice, the resistance bands that extend her training. This guide covers exactly those: the equipment that gives a beginner the right foundation, ranked by what gets used most and bought least.
           </p>
         </div>
       </section>

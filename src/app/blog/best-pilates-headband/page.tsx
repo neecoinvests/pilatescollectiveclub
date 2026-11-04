@@ -12,19 +12,19 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Headbands (2026): Non-Slip & Studio-Ready",
-  description: "The best headbands for Pilates — non-slip, sweat-wicking, and secure through reformer inversions. Lululemon, Alo, Nike, Sweaty Betty and more compared on studio use.",
+  description: "The best headbands for Pilates: non-slip, sweat-wicking, and secure through reformer inversions. Lululemon, Alo, Nike, Sweaty Betty and more compared on studio use.",
   keywords: ["best pilates headband", "pilates headband 2026", "non slip headband pilates", "best workout headband women", "headband for reformer pilates", "lululemon headband pilates", "alo yoga headband pilates", "sweat headband pilates studio"],
   openGraph: {
     title: "Best Pilates Headbands (2026): Non-Slip & Studio-Ready",
-    description: "The best headbands for Pilates — non-slip, sweat-wicking, secure through every exercise.",
+    description: "The best headbands for Pilates: non-slip, sweat-wicking, secure through every exercise.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-headband",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-cZ0WYsBFHhs-unsplash.jpg", width: 1200, height: 630, alt: "Best Pilates Headbands — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-cZ0WYsBFHhs-unsplash.jpg", width: 1200, height: 630, alt: "Best Pilates Headbands: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Headbands (2026)",
-    description: "The best headbands for Pilates — compared and ranked.",
+    description: "The best headbands for Pilates: compared and ranked.",
     images: ["https://pilatescollectiveclub.com/pictures/roxana-popovici-cZ0WYsBFHhs-unsplash.jpg"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/best-pilates-headband" },
@@ -38,7 +38,7 @@ const PRODUCTS = [
     price: "$26.90",
     verdict: "Best overall Pilates headband",
     description:
-      "The Lululemon Fly Away Tamer is the most recommended headband in reformer studios, and the reasons are straightforward. The silicone grip strips on the interior hold the band in place through inversions, leg circles, and any position that puts your head at an angle — without requiring the band to be so tight it creates pressure. The fabric is stretchy enough to sit comfortably for a full 60-minute session without tightening or shifting, and sweat-wicking enough to keep hair off your face at the point where it matters most. The low-profile design does not add bulk at the back of the head, which matters for exercises in a supine position on the reformer carriage.",
+      "The Lululemon Fly Away Tamer is the most recommended headband in reformer studios, and the reasons are straightforward. The silicone grip strips on the interior hold the band in place through inversions, leg circles, and any position that puts your head at an angle, without requiring the band to be so tight it creates pressure. The fabric is stretchy enough to sit comfortably for a full 60-minute session without tightening or shifting, and sweat-wicking enough to keep hair off your face at the point where it matters most. The low-profile design does not add bulk at the back of the head, which matters for exercises in a supine position on the reformer carriage.",
     affiliateUrl: "https://www.amazon.com/dp/B08JXGVL4R?tag=pilatescollective-20",
     tag: "Editor's Pick",
   },
@@ -78,7 +78,7 @@ const PRODUCTS = [
     price: "$9.99",
     verdict: "Best value headband",
     description:
-      "Kitsch's Soft Ribbed Headband punches above its price bracket for Pilates use. The plush ribbed fabric is gentler against the scalp than performance-fabric alternatives, making it comfortable for practitioners who find workout headbands too tight or abrasive. The stretch is appropriate for mat Pilates and lower-intensity reformer work — less grippy than the Lululemon Fly Away Tamer in extreme inversions, but entirely adequate for standard class positions. Available in packs of multiple colourways, which suits practitioners who want a fresh headband for each session without the cost of buying premium options individually.",
+      "Kitsch's Soft Ribbed Headband punches above its price bracket for Pilates use. The plush ribbed fabric is gentler against the scalp than performance-fabric alternatives, making it comfortable for practitioners who find workout headbands too tight or abrasive. The stretch is appropriate for mat Pilates and lower-intensity reformer work: less grippy than the Lululemon Fly Away Tamer in extreme inversions, but entirely adequate for standard class positions. Available in packs of multiple colourways, which suits practitioners who want a fresh headband for each session without the cost of buying premium options individually.",
     affiliateUrl: "https://www.amazon.com/dp/B0GY9XFPLX?tag=pilatescollective-20",
     tag: "Best Value",
   },
@@ -88,7 +88,7 @@ const PRODUCTS = [
     price: "From $16",
     verdict: "Best for mat Pilates",
     description:
-      "Manduka's Headband is a thoughtful choice for mat Pilates practitioners who spend significant time in supine and prone positions. The low-profile design minimises the bulk at the back of the head that creates discomfort when lying flat — a genuine consideration for practitioners who do extended mat work rather than primarily reformer classes. The fabric is modal-blend soft, sweat-wicking, and gentle enough for sensitive skin. The grip is reliable for standard mat exercises, though less robust in inverted reformer positions than the Lululemon Fly Away Tamer. For mat-first practitioners, Manduka's headband is the most considered choice on this list.",
+      "Manduka's Headband is a thoughtful choice for mat Pilates practitioners who spend significant time in supine and prone positions. The low-profile design minimises the bulk at the back of the head that creates discomfort when lying flat: a genuine consideration for practitioners who do extended mat work rather than primarily reformer classes. The fabric is modal-blend soft, sweat-wicking, and gentle enough for sensitive skin. The grip is reliable for standard mat exercises, though less robust in inverted reformer positions than the Lululemon Fly Away Tamer. For mat-first practitioners, Manduka's headband is the most considered choice on this list.",
     affiliateUrl: "https://www.amazon.com/s?k=manduka+yoga+headband+workout&tag=pilatescollective-20",
     tag: "Best for Mat Pilates",
   },
@@ -100,7 +100,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Best Pilates Headbands (2026): Non-Slip & Studio-Ready",
-      "description": "The best headbands for Pilates — non-slip, sweat-wicking, and secure through every exercise.",
+      "description": "The best headbands for Pilates: non-slip, sweat-wicking, and secure through every exercise.",
       "url": "https://pilatescollectiveclub.com/blog/best-pilates-headband",
       "datePublished": "2026-06-26",
       "dateModified": "2026-10-20",
@@ -137,7 +137,7 @@ const jsonLd = {
       "mainEntity": [
         { "@type": "Question", "name": "Do I need a non-slip headband for Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, if you do reformer Pilates or exercises that involve lying on your back or inverting your head. Standard headbands without silicone grip strips slide forward or backward during position changes and require constant readjustment. A non-slip headband with interior grip stays in place through a full class without intervention." } },
         { "@type": "Question", "name": "What width headband is best for Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "A medium-width headband (2-4cm) is the most versatile for Pilates. Narrow headbands contain less hair but create less pressure and sit more comfortably when lying flat. Wide headbands contain more hair but can feel bulky in supine positions. Most studio practitioners prefer medium-width options that balance containment with comfort." } },
-        { "@type": "Question", "name": "Can I wear a hair tie instead of a headband for Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "A bun or ponytail secured with a hair tie works well for most Pilates classes. The issue is that a low bun or ponytail can create pressure against the reformer headrest in supine exercises. Many practitioners use both — a headband for flyaways at the hairline and a hair tie to secure the rest." } },
+        { "@type": "Question", "name": "Can I wear a hair tie instead of a headband for Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "A bun or ponytail secured with a hair tie works well for most Pilates classes. The issue is that a low bun or ponytail can create pressure against the reformer headrest in supine exercises. Many practitioners use both: a headband for flyaways at the hairline and a hair tie to secure the rest." } },
       ],
     },
   ],
@@ -165,7 +165,7 @@ export default function BestPilatesHeadbandPage() {
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              A Pilates headband that slides has one job and fails at it. The non-slip grip, fabric weight, and profile all matter differently in a reformer class than they do in a spin session — particularly for exercises in supine and inverted positions where gravity works against a poorly designed band. These six headbands have been chosen specifically for studio Pilates: non-slip enough for dynamic reformer work, comfortable enough for a 60-minute supine session, and considered enough in their design to wear as part of a polished studio kit.
+              A Pilates headband that slides has one job and fails at it. The non-slip grip, fabric weight, and profile all matter differently in a reformer class than they do in a spin session, particularly for exercises in supine and inverted positions where gravity works against a poorly designed band. These six headbands have been chosen specifically for studio Pilates: non-slip enough for dynamic reformer work, comfortable enough for a 60-minute supine session, and considered enough in their design to wear as part of a polished studio kit.
             </p>
           </div>
         </section>
@@ -204,7 +204,7 @@ export default function BestPilatesHeadbandPage() {
                 {[
                   { q: "Do I need a non-slip headband for Pilates?", a: "Yes, if you do reformer Pilates or exercises that involve lying on your back or inverting your head. Standard headbands without silicone grip strips slide forward or backward during position changes and require constant readjustment. A non-slip headband with interior grip stays in place through a full class without intervention." },
                   { q: "What width headband is best for Pilates?", a: "A medium-width headband (2-4cm) is the most versatile for Pilates. Narrow headbands contain less hair but create less pressure and sit more comfortably when lying flat. Wide headbands contain more hair but can feel bulky in supine positions. Most studio practitioners prefer medium-width options that balance containment with comfort." },
-                  { q: "Can I wear a hair tie instead of a headband for Pilates?", a: "A bun or ponytail secured with a hair tie works well for most Pilates classes. The issue is that a low bun or ponytail can create pressure against the reformer headrest in supine exercises. Many practitioners use both — a headband for flyaways at the hairline and a hair tie to secure the rest." },
+                  { q: "Can I wear a hair tie instead of a headband for Pilates?", a: "A bun or ponytail secured with a hair tie works well for most Pilates classes. The issue is that a low bun or ponytail can create pressure against the reformer headrest in supine exercises. Many practitioners use both: a headband for flyaways at the hairline and a hair tie to secure the rest." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
@@ -218,7 +218,7 @@ export default function BestPilatesHeadbandPage() {
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="What to Wear to Pilates" excerpt="A complete guide to studio-appropriate clothing, grip socks, and accessories." href="/blog/what-to-wear-to-pilates" category="Guide" readTime="6 min read" date="March 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
-                <ArticleCard title="Best Pilates Grip Socks" excerpt="The essential studio accessory — five options across every price point." href="/blog/best-pilates-grip-socks" category="Equipment" readTime="7 min read" date="May 2026" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Grip Socks" excerpt="The essential studio accessory: five options across every price point." href="/blog/best-pilates-grip-socks" category="Equipment" readTime="7 min read" date="May 2026" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
                 <ArticleCard title="Best Headband for Lagree (2026): 6 Sweatproof, No-Slip Picks" excerpt="The best sweatproof, no-slip headbands for Lagree: Halo, Sweaty Bands, Nike, Under Armour, Bondi Band and a…" href="/blog/best-headband-for-lagree" category="Lagree" readTime="7 min read" imageUrl="/pictures/stitch-studio-round-mirror.png" />
                 <ArticleCard title="Best Pilates Leggings (2026): 5 Picks for Reformer & Mat" excerpt="The 5 best Pilates leggings on Amazon, from $26 to $134: Lululemon Align, Beyond Yoga, Sweaty Betty, Varley and…" href="/blog/best-pilates-leggings" category="Activewear" readTime="9 min read" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />
                 <ArticleCard title="Athleta for Pilates (2026): Best Leggings & Tops Reviewed" excerpt="Best Athleta pieces for Pilates, Salutation, Elation, and Brooklyn leggings reviewed for reformer class…" href="/blog/athleta-pilates" category="Activewear" readTime="9 min read" imageUrl="/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" />

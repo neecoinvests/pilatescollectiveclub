@@ -11,18 +11,18 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Retreats in Europe (2026): Top Picks by Country",
-  description: "The best Pilates retreats in Europe — reformer and classical method retreats in Portugal, Spain, Italy, and beyond, curated for 2026.",
+  description: "The best Pilates retreats in Europe: reformer and classical method retreats in Portugal, Spain, Italy, and beyond, curated for 2026.",
   openGraph: {
     title: "The Best Pilates Retreats in Europe",
-    description: "The finest Pilates immersion experiences across the continent — from Provence lavender fields to the Puglian coast, the retreats worth planning your year around.",
+    description: "The finest Pilates immersion experiences across the continent, from Provence lavender fields to the Puglian coast, the retreats worth planning your year around.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-retreats-europe",
-    images: [{ url: "https://pilatescollectiveclub.com/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg", width: 1200, height: 630, alt: "Best Pilates Retreats in Europe — Pilates Collective Club" }],
+    images: [{ url: "https://pilatescollectiveclub.com/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg", width: 1200, height: 630, alt: "Best Pilates Retreats in Europe: Pilates Collective Club" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "The Best Pilates Retreats in Europe",
-    description: "From Provence to Puglia — the European Pilates retreats worth planning your year around.",
+    description: "From Provence to Puglia: the European Pilates retreats worth planning your year around.",
     images: ["https://pilatescollectiveclub.com/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg"],
   },
   keywords: ["best pilates retreats europe", "pilates retreat europe 2026", "pilates holiday europe", "reformer pilates retreat", "pilates retreat portugal", "pilates retreat spain", "pilates retreat italy", "pilates wellness retreat europe", "best pilates getaway europe"],
@@ -144,12 +144,12 @@ export default function BestPilatesRetreatsEuropePage() {
 
             <section className="pb-20">
               <Section title="What makes a retreat worth attending">
-                <p>The retreat market has expanded enormously in recent years, and the quality varies correspondingly. A genuinely excellent Pilates retreat distinguishes itself on a handful of criteria: the calibre of the teaching, the appropriateness of the setting, the balance between structure and rest, and the care taken with the non-Pilates elements — food, accommodation, and the general rhythm of the days.</p>
+                <p>The retreat market has expanded enormously in recent years, and the quality varies correspondingly. A genuinely excellent Pilates retreat distinguishes itself on a handful of criteria: the calibre of the teaching, the appropriateness of the setting, the balance between structure and rest, and the care taken with the non-Pilates elements, food, accommodation, and the general rhythm of the days.</p>
                 <p>The best retreats we&apos;ve encountered are those where the teaching is led by a single highly trained instructor or a small team of complementary teachers, rather than a rotating cast assembled for the occasion. Continuity matters: a teacher who works with you across five days can identify and address movement patterns that a single session never would.</p>
                 <p>Setting also matters more than it might seem. There is something about practising outdoors, or in a beautiful space with natural light and views, that frees the body in ways that a city studio cannot quite replicate. The retreats below have been selected partly for the quality of their physical environment.</p>
               </Section>
 
-              <Callout>The best retreats don&apos;t just improve your Pilates — they reset your relationship with your body, your breath, and your daily practice at home.</Callout>
+              <Callout>The best retreats don&apos;t just improve your Pilates: they reset your relationship with your body, your breath, and your daily practice at home.</Callout>
 
               <Section title="Recommended retreats">
                 <RetreatCard
@@ -158,7 +158,7 @@ export default function BestPilatesRetreatsEuropePage() {
                   duration="5–7 nights"
                   focus="Classical Pilates, outdoor movement, French countryside"
                   priceRange="€2,400–3,200"
-                  description="Held at a restored eighteenth-century domaine in the Var countryside, this annual retreat offers daily reformer and mat sessions led by Paris-trained instructors in an outdoor pavilion overlooking lavender fields. Afternoons are structured around rest, local excursions, and optional restorative sessions. The food is exceptional — Provençal produce prepared with genuine care — and the setting makes the practice feel like a privilege rather than a workout. One of the most popular European Pilates retreats among serious practitioners."
+                  description="Held at a restored eighteenth-century domaine in the Var countryside, this annual retreat offers daily reformer and mat sessions led by Paris-trained instructors in an outdoor pavilion overlooking lavender fields. Afternoons are structured around rest, local excursions, and optional restorative sessions. The food is exceptional, Provençal produce prepared with genuine care, and the setting makes the practice feel like a privilege rather than a workout. One of the most popular European Pilates retreats among serious practitioners."
                 />
                 <RetreatCard
                   name="Masseria Pilates Immersion"
@@ -166,7 +166,7 @@ export default function BestPilatesRetreatsEuropePage() {
                   duration="6 nights"
                   focus="Contemporary Pilates, Mediterranean wellbeing, olive grove setting"
                   priceRange="€2,800–3,600"
-                  description="Based in a working masseria (farmhouse estate) in the Valle d'Itria, this retreat combines twice-daily Pilates sessions with long lunches, countryside cycling, and the deeply restorative pace of Puglian life. The teaching is contemporary and intelligent — the resident instructor trained in both classical and STOTT methods — and the group size is capped at eight, ensuring real individual attention. The whitewashed trulli architecture and the quality of the regional cuisine make this one of the most atmospheric retreats on the continent."
+                  description="Based in a working masseria (farmhouse estate) in the Valle d'Itria, this retreat combines twice-daily Pilates sessions with long lunches, countryside cycling, and the deeply restorative pace of Puglian life. The teaching is contemporary and intelligent, the resident instructor trained in both classical and STOTT methods, and the group size is capped at eight, ensuring real individual attention. The whitewashed trulli architecture and the quality of the regional cuisine make this one of the most atmospheric retreats on the continent."
                 />
                 <RetreatCard
                   name="Casa Pilates Portugal"
@@ -174,7 +174,7 @@ export default function BestPilatesRetreatsEuropePage() {
                   duration="4–6 nights"
                   focus="Mat and reformer work, nature immersion, cork forest setting"
                   priceRange="€1,800–2,600"
-                  description="Set on a farm estate in Portugal's golden Alentejo plain, this intimate retreat hosts maximum six guests in beautifully converted stone buildings surrounded by cork oak forest. The programme blends morning reformer sessions with afternoon mat work and optional walks through the estate. The teaching is precise and demanding without being pressured, and the evenings — long dinners, wood fires, extraordinary silence — are exactly what intensive practice requires as counterbalance. One of Europe&apos;s best value retreat propositions at this quality level."
+                  description="Set on a farm estate in Portugal's golden Alentejo plain, this intimate retreat hosts maximum six guests in beautifully converted stone buildings surrounded by cork oak forest. The programme blends morning reformer sessions with afternoon mat work and optional walks through the estate. The teaching is precise and demanding without being pressured, and the evenings (long dinners, wood fires, extraordinary silence) are exactly what intensive practice requires as counterbalance. One of Europe&apos;s best value retreat propositions at this quality level."
                 />
                 <RetreatCard
                   name="Swiss Alps Movement Retreat"
@@ -182,7 +182,7 @@ export default function BestPilatesRetreatsEuropePage() {
                   duration="5 nights"
                   focus="Pilates, hiking, alpine recovery"
                   priceRange="CHF 3,200–4,400"
-                  description="An unusual combination: daily reformer Pilates sessions in a mountain studio, paired with guided hiking on the trails above the retreat's alpine hotel base. The Pilates teaching is focused on functional movement and injury prevention — directly applicable to the hiking programme — and the altitude, air quality, and landscape produce a physical reset that is difficult to achieve anywhere else. Best suited to active practitioners who want their Pilates embedded in a broader movement context. Exceptional in summer; a more intimate and quieter experience in early autumn."
+                  description="An unusual combination: daily reformer Pilates sessions in a mountain studio, paired with guided hiking on the trails above the retreat's alpine hotel base. The Pilates teaching is focused on functional movement and injury prevention, directly applicable to the hiking programme, and the altitude, air quality, and landscape produce a physical reset that is difficult to achieve anywhere else. Best suited to active practitioners who want their Pilates embedded in a broader movement context. Exceptional in summer; a more intimate and quieter experience in early autumn."
                 />
                 <RetreatCard
                   name="Cortijo Retreat Andalucia"
@@ -190,23 +190,23 @@ export default function BestPilatesRetreatsEuropePage() {
                   duration="7 nights"
                   focus="Classical Pilates, flamenco-influenced movement, Moorish architecture"
                   priceRange="€2,200–3,000"
-                  description="Based in a converted Andalusian cortijo (farmhouse) in the foothills of the Sierra Nevada, this culturally rich retreat combines classical Pilates with workshops on flamenco-informed posture and movement — an approach that might sound unusual but proves genuinely illuminating for practitioners at intermediate to advanced levels. The setting is extraordinary: whitewashed walls, a tiled courtyard, views across olive groves to the mountains. Teaching quality is high, group size is capped at ten, and the local food and wine programme is taken seriously."
+                  description="Based in a converted Andalusian cortijo (farmhouse) in the foothills of the Sierra Nevada, this culturally rich retreat combines classical Pilates with workshops on flamenco-informed posture and movement: an approach that might sound unusual but proves genuinely illuminating for practitioners at intermediate to advanced levels. The setting is extraordinary: whitewashed walls, a tiled courtyard, views across olive groves to the mountains. Teaching quality is high, group size is capped at ten, and the local food and wine programme is taken seriously."
                 />
               </Section>
 
               <Section title="How to choose the right retreat">
-                <p><strong style={{ color: "#1b1c1c" }}>Consider your level.</strong> Most retreats specify whether they are suitable for beginners, intermediate, or advanced practitioners. Be honest with yourself about where you are — a retreat pitched at advanced practitioners will be frustrating if you&apos;re still building foundations, and a beginners&apos; retreat will bore an experienced mover. Look for retreats that specify the level clearly and ask questions if you&apos;re uncertain.</p>
+                <p><strong style={{ color: "#1b1c1c" }}>Consider your level.</strong> Most retreats specify whether they are suitable for beginners, intermediate, or advanced practitioners. Be honest with yourself about where you are: a retreat pitched at advanced practitioners will be frustrating if you&apos;re still building foundations, and a beginners&apos; retreat will bore an experienced mover. Look for retreats that specify the level clearly and ask questions if you&apos;re uncertain.</p>
                 <p><strong style={{ color: "#1b1c1c" }}>Consider the teacher&apos;s lineage.</strong> Ask who is leading the retreat, where they trained, and how long they have been teaching. A retreat led by a teacher with 15 years of experience and a clear classical or contemporary lineage is a fundamentally different proposition from one led by a recently certified instructor.</p>
                 <p><strong style={{ color: "#1b1c1c" }}>Consider the group size.</strong> The best retreats cap group sizes at 8–12 participants. Larger groups reduce the individual attention you receive and shift the experience closer to a class than a retreat. If a retreat can accommodate 20 or more participants, expect the teaching to be less personalised.</p>
-                <p><strong style={{ color: "#1b1c1c" }}>Consider the balance of programme.</strong> A retreat that schedules Pilates from 7am to 6pm with minimal rest is not a retreat — it&apos;s a bootcamp. The best Pilates retreats build in substantial rest time, because the integration of intensive physical work happens during rest, not during the sessions themselves.</p>
+                <p><strong style={{ color: "#1b1c1c" }}>Consider the balance of programme.</strong> A retreat that schedules Pilates from 7am to 6pm with minimal rest is not a retreat: it&apos;s a bootcamp. The best Pilates retreats build in substantial rest time, because the integration of intensive physical work happens during rest, not during the sessions themselves.</p>
               </Section>
 
               <Callout>Book as early as possible. The finest European retreats fill six to twelve months in advance, particularly for summer dates.</Callout>
 
               <Section title="Practical planning notes">
-                <p>Most European Pilates retreats run between May and October, with July and August the most popular months and the highest prices. Early June and September offer the best combination of good weather, fewer crowds, and slightly lower prices — our recommended booking window for first-time retreat attendees.</p>
-                <p>Travel insurance that specifically covers retreat cancellations is worth purchasing, particularly for higher-priced programmes. Most retreats have strict cancellation policies — review them carefully before booking.</p>
-                <p>Pack light, neutral-coloured movement clothing. Reformer work requires grip socks — most retreats provide them, but confirm in advance. A good quality mat (3–5mm) is worth bringing if you&apos;re attached to one; retreat mats vary considerably in quality.</p>
+                <p>Most European Pilates retreats run between May and October, with July and August the most popular months and the highest prices. Early June and September offer the best combination of good weather, fewer crowds, and slightly lower prices: our recommended booking window for first-time retreat attendees.</p>
+                <p>Travel insurance that specifically covers retreat cancellations is worth purchasing, particularly for higher-priced programmes. Most retreats have strict cancellation policies: review them carefully before booking.</p>
+                <p>Pack light, neutral-coloured movement clothing. Reformer work requires grip socks: most retreats provide them, but confirm in advance. A good quality mat (3–5mm) is worth bringing if you&apos;re attached to one; retreat mats vary considerably in quality.</p>
               </Section>
             {FAQS.length > 0 && <FaqSection faqs={FAQS} />}
             </section>
@@ -228,7 +228,7 @@ export default function BestPilatesRetreatsEuropePage() {
             <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "11px", fontWeight: 600, letterSpacing: "0.18em", textTransform: "uppercase", color: "#8b4a31", marginBottom: "12px" }}>Equipment</p>
             <h2 style={{ fontFamily: "'Playfair Display', serif", fontSize: "28px", fontWeight: 600, color: "#1b1c1c", marginBottom: "8px" }}>What to pack for a Pilates retreat</h2>
             <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "14px", color: "#53433e", marginBottom: "32px", lineHeight: 1.7 }}>
-              Most retreat centres supply equipment — but bringing your own grip socks and a travel mat is always recommended.{" "}<a href="/affiliate-disclosure" style={{ color: "#8b4a31", textDecoration: "underline" }}>Affiliate disclosure.</a>
+              Most retreat centres supply equipment, but bringing your own grip socks and a travel mat is always recommended.{" "}<a href="/affiliate-disclosure" style={{ color: "#8b4a31", textDecoration: "underline" }}>Affiliate disclosure.</a>
             </p>
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))", gap: "16px" }}>
               
@@ -260,7 +260,7 @@ export default function BestPilatesRetreatsEuropePage() {
                   <div style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)", borderRadius: "12px", padding: "20px", height: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
                     <div>
                       <h3 style={{ fontFamily: "'Playfair Display', serif", fontSize: "15px", fontWeight: 600, color: "#1b1c1c", marginBottom: "8px" }}>Pilates Mat Bag</h3>
-                      <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", color: "#53433e", lineHeight: 1.6, marginBottom: "12px" }}>A dedicated mat carrier makes getting to class significantly easier — no awkward balancing.</p>
+                      <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", color: "#53433e", lineHeight: 1.6, marginBottom: "12px" }}>A dedicated mat carrier makes getting to class significantly easier: no awkward balancing.</p>
                     </div>
                     <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
                       <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", fontWeight: 600, color: "#8b4a31" }}>From $22</span>

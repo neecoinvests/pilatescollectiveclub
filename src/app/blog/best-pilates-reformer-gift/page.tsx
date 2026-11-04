@@ -11,7 +11,7 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Reformer to Gift (2026)",
-  description: "The best pilates reformers to gift — from entry-level home machines under $400 to professional-grade studio reformers. A complete gifting guide at every budget.",
+  description: "The best pilates reformers to gift, from entry-level home machines under $400 to professional-grade studio reformers. A complete gifting guide at every budget.",
   keywords: [
     "best pilates reformer gift",
     "pilates reformer as a gift",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "Best Pilates Reformer to Gift (2026)",
-    description: "The best pilates reformers to gift — every budget, every space, every level.",
+    description: "The best pilates reformers to gift, every budget, every space, every level.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-reformer-gift",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/stitch-reformers-aerial-row.png", width: 1200, height: 630, alt: "Best Pilates Reformer Gift 2026" }],
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Reformer to Gift (2026)",
-    description: "The reformer she's been wanting — gifting guide at every price point.",
+    description: "The reformer she's been wanting: gifting guide at every price point.",
     images: ["https://pilatescollectiveclub.com/pictures/stitch-reformers-aerial-row.png"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/best-pilates-reformer-gift" },
@@ -45,7 +45,7 @@ const PRODUCTS = [
     name: "AeroPilates 287 Reformer",
     price: "$349.99",
     verdict: "Best Entry-Level Reformer Gift",
-    description: "The AeroPilates 287 is one of the most accessible ways to bring a reformer-style workout into someone's home. It uses elastic cord resistance rather than coil springs, which gives a genuinely different, more forgiving feel than a studio machine — well suited to a beginner or someone building a home practice. We could not verify specific claims about resistance levels, fold mechanism, or included accessories beyond what the current Amazon listing shows, so check that page before assuming it matches other AeroPilates models. At $349.99, this is a reasonable gift for someone who has taken studio classes and wants to build a home practice without a four-figure investment.",
+    description: "The AeroPilates 287 is one of the most accessible ways to bring a reformer-style workout into someone's home. It uses elastic cord resistance rather than coil springs, which gives a genuinely different, more forgiving feel than a studio machine: well suited to a beginner or someone building a home practice. We could not verify specific claims about resistance levels, fold mechanism, or included accessories beyond what the current Amazon listing shows, so check that page before assuming it matches other AeroPilates models. At $349.99, this is a reasonable gift for someone who has taken studio classes and wants to build a home practice without a four-figure investment.",
     affiliateUrl: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20",
   },
   {
@@ -53,7 +53,7 @@ const PRODUCTS = [
     name: "AeroPilates 701 Premier Reformer",
     price: "$555.99",
     verdict: "Best Under-$600 Complete System",
-    description: "The AeroPilates 701 Premier is a step up from the entry-level 287 at a real, currently-sold price point. Like other AeroPilates machines, it uses elastic cord resistance rather than traditional coil springs, which provides a gentler, more forgiving feel than a spring reformer — often a good fit for home practice and returning-to-movement practitioners. We could not verify specific carriage length, included accessories, or a fold mechanism for this exact listing beyond what the current Amazon page shows, so confirm those details before ordering rather than assuming.",
+    description: "The AeroPilates 701 Premier is a step up from the entry-level 287 at a real, currently-sold price point. Like other AeroPilates machines, it uses elastic cord resistance rather than traditional coil springs, which provides a gentler, more forgiving feel than a spring reformer, often a good fit for home practice and returning-to-movement practitioners. We could not verify specific carriage length, included accessories, or a fold mechanism for this exact listing beyond what the current Amazon page shows, so confirm those details before ordering rather than assuming.",
     affiliateUrl: "https://www.amazon.com/dp/B07G5J3SKS?tag=pilatescollective-20",
   },
   {
@@ -61,7 +61,7 @@ const PRODUCTS = [
     name: "Align-Pilates C8-PRO Reformer",
     price: "$2,750",
     verdict: "Best Value Mid-Range Reformer",
-    description: "Align-Pilates has built a strong reputation in the studio market for commercial-rated quality at a lower price than Merrithew and Balanced Body. The C8-PRO is sold on Amazon by Merrithew, Align's US distributor, with a genuine coil-spring system (not elastic cord) and an adjustable footbar sized for the full repertoire. Real springs provide the resistance feel that cord-based alternatives cannot replicate — important for someone who trains seriously or has studio experience. We could not verify specific claims about a folding mechanism or exact frame weight beyond what the current listing shows, so check that before assuming it stores away. This is a genuine discount to anything comparable from Balanced Body or Merrithew, and it's a real, currently-sold Amazon listing under its own name.",
+    description: "Align-Pilates has built a strong reputation in the studio market for commercial-rated quality at a lower price than Merrithew and Balanced Body. The C8-PRO is sold on Amazon by Merrithew, Align's US distributor, with a genuine coil-spring system (not elastic cord) and an adjustable footbar sized for the full repertoire. Real springs provide the resistance feel that cord-based alternatives cannot replicate: important for someone who trains seriously or has studio experience. We could not verify specific claims about a folding mechanism or exact frame weight beyond what the current listing shows, so check that before assuming it stores away. This is a genuine discount to anything comparable from Balanced Body or Merrithew, and it's a real, currently-sold Amazon listing under its own name.",
     affiliateUrl: "https://www.amazon.com/dp/B099ZJ4C25?tag=pilatescollective-20",
   },
   {
@@ -69,7 +69,7 @@ const PRODUCTS = [
     name: "Merrithew At Home SPX Reformer Package",
     price: "$3,349",
     verdict: "Best Studio-Quality Gift",
-    description: "Merrithew is the professional studio brand behind STOTT PILATES — the method taught in widely certified training programmes. The At Home SPX Reformer Package is the real SPX-family machine Merrithew sells on Amazon, with a genuine coil-spring system built around five colour-coded springs with fine gradation at the light end. We could not verify a folding or space-saving feature for this listing, so don't assume it stores away. For someone who has trained in a real pilates studio and knows what good equipment feels like, this is a reformer built to a standard they'll recognise. A gift at this price communicates genuine understanding of the practice.",
+    description: "Merrithew is the professional studio brand behind STOTT PILATES: the method taught in widely certified training programmes. The At Home SPX Reformer Package is the real SPX-family machine Merrithew sells on Amazon, with a genuine coil-spring system built around five colour-coded springs with fine gradation at the light end. We could not verify a folding or space-saving feature for this listing, so don't assume it stores away. For someone who has trained in a real pilates studio and knows what good equipment feels like, this is a reformer built to a standard they'll recognise. A gift at this price communicates genuine understanding of the practice.",
     affiliateUrl: "https://www.amazon.com/dp/B004FGT0TM?tag=pilatescollective-20",
   },
   {
@@ -77,7 +77,7 @@ const PRODUCTS = [
     name: "Balanced Body Studio Reformer (Revo Footbar)",
     price: "$4,700",
     verdict: "Best Premium Gift",
-    description: "Balanced Body is one of the most widely used brands in certified training studios and teacher certification programmes. The Studio Reformer with the Revo footbar is the real Balanced Body flagship sold on Amazon: a Strata rock maple frame, five Signature Springs, and full tower compatibility. It does not fold — it is a permanent-installation, made-to-order machine, so this is a gift for someone with dedicated floor space rather than an apartment-friendly surprise. Nothing about the spring system or build quality requires compromise: it is the same machine that populates certification centres and clinics. A gift at this level says the recipient's practice is being taken seriously.",
+    description: "Balanced Body is one of the most widely used brands in certified training studios and teacher certification programmes. The Studio Reformer with the Revo footbar is the real Balanced Body flagship sold on Amazon: a Strata rock maple frame, five Signature Springs, and full tower compatibility. It does not fold: it is a permanent-installation, made-to-order machine, so this is a gift for someone with dedicated floor space rather than an apartment-friendly surprise. Nothing about the spring system or build quality requires compromise: it is the same machine that populates certification centres and clinics. A gift at this level says the recipient's practice is being taken seriously.",
     affiliateUrl: "https://www.amazon.com/dp/B002XVWIFE?tag=pilatescollective-20",
   },
   {
@@ -85,7 +85,7 @@ const PRODUCTS = [
     name: "Merrithew Rehab V2 Max Plus Reformer",
     price: "$8,199",
     verdict: "The Ultimate Reformer Gift",
-    description: "The Merrithew Rehab V2 Max Plus is Merrithew's clinical/professional-grade reformer — the real product behind any \"Merrithew V2 Max\" reference, and the top of Merrithew's real Amazon-sold reformer range. We could not verify specific claims about included tower accessories, spring count, or bundle contents beyond what the current listing shows, so confirm exactly what ships with it before ordering rather than assuming it includes a full apparatus set. If you are gifting someone the top of what Merrithew genuinely sells on Amazon rather than a home-tier machine, this is it.",
+    description: "The Merrithew Rehab V2 Max Plus is Merrithew's clinical/professional-grade reformer: the real product behind any \"Merrithew V2 Max\" reference, and the top of Merrithew's real Amazon-sold reformer range. We could not verify specific claims about included tower accessories, spring count, or bundle contents beyond what the current listing shows, so confirm exactly what ships with it before ordering rather than assuming it includes a full apparatus set. If you are gifting someone the top of what Merrithew genuinely sells on Amazon rather than a home-tier machine, this is it.",
     affiliateUrl: "https://www.amazon.com/dp/B002ABYKFI?tag=pilatescollective-20",
   },
 ];
@@ -93,45 +93,45 @@ const PRODUCTS = [
 const CRITERIA = [
   {
     heading: "Talk about space before you order",
-    body: "A full-length reformer typically needs roughly 7–8 feet of length and 2 feet of width in use — longer than most sofas. We could not verify folding or fold-flat storage for any of the specific machines above, so before gifting, confirm the recipient has a dedicated space rather than assuming a machine folds away, and check the current listing for any storage feature it does claim.",
+    body: "A full-length reformer typically needs roughly 7–8 feet of length and 2 feet of width in use: longer than most sofas. We could not verify folding or fold-flat storage for any of the specific machines above, so before gifting, confirm the recipient has a dedicated space rather than assuming a machine folds away, and check the current listing for any storage feature it does claim.",
   },
   {
     heading: "Match the machine to their experience",
-    body: "A beginner who has never used a reformer is well-served by an AeroPilates elastic-cord machine ($359–$556). Someone who has trained regularly in a studio for a year or more will feel the difference between cord and coil-spring resistance immediately — and will appreciate an Align-Pilates or Merrithew machine. Don't under-gift a serious practitioner.",
+    body: "A beginner who has never used a reformer is well-served by an AeroPilates elastic-cord machine ($359–$556). Someone who has trained regularly in a studio for a year or more will feel the difference between cord and coil-spring resistance immediately, and will appreciate an Align-Pilates or Merrithew machine. Don't under-gift a serious practitioner.",
   },
   {
     heading: "Coil springs vs. elastic cord resistance",
-    body: "Budget reformers (AeroPilates) use elastic cords. Professional reformers (Align-Pilates, Merrithew, Balanced Body) use coil springs. Springs provide graduated resistance that increases as the carriage moves — the resistance feel most studio-trained practitioners expect. Elastic cord is lighter, more forgiving, and appropriate for beginners. Above roughly $2,000, the machines in this guide switch to genuine coil springs.",
+    body: "Budget reformers (AeroPilates) use elastic cords. Professional reformers (Align-Pilates, Merrithew, Balanced Body) use coil springs. Springs provide graduated resistance that increases as the carriage moves: the resistance feel most studio-trained practitioners expect. Elastic cord is lighter, more forgiving, and appropriate for beginners. Above roughly $2,000, the machines in this guide switch to genuine coil springs.",
   },
   {
     heading: "Consider delivery and assembly",
-    body: "Mid-range and premium reformers are heavy and require assembly; the Balanced Body Studio Reformer ships made to order, so expect a lead time rather than immediate delivery. Check the shipping policy and whether in-home assembly is included before ordering. Some brands offer authorised dealer installation — worth the premium as a gift.",
+    body: "Mid-range and premium reformers are heavy and require assembly; the Balanced Body Studio Reformer ships made to order, so expect a lead time rather than immediate delivery. Check the shipping policy and whether in-home assembly is included before ordering. Some brands offer authorised dealer installation: worth the premium as a gift.",
   },
 ];
 
 const FAQ = [
   {
     q: "Is a pilates reformer a good gift?",
-    a: "A pilates reformer is an outstanding gift for someone who trains regularly and has mentioned wanting home equipment — but it requires advance planning. Confirm they have the space (most reformers need roughly 7–8 feet of length in use), coordinate on delivery, and consider gifting with a setup session from a certified instructor. At $359–$556, AeroPilates elastic-cord reformers are reasonable surprise gifts. Above $2,000, involve the recipient in choosing.",
+    a: "A pilates reformer is an outstanding gift for someone who trains regularly and has mentioned wanting home equipment, but it requires advance planning. Confirm they have the space (most reformers need roughly 7–8 feet of length in use), coordinate on delivery, and consider gifting with a setup session from a certified instructor. At $359–$556, AeroPilates elastic-cord reformers are reasonable surprise gifts. Above $2,000, involve the recipient in choosing.",
   },
   {
     q: "What is the best pilates reformer to give as a gift?",
-    a: "For a beginner: the AeroPilates 287 ($349.99) — a genuine, currently-sold entry point and a meaningful upgrade from studio-only practice. For someone with studio experience: the Align-Pilates C8-PRO ($2,750) or Merrithew At Home SPX Reformer Package ($3,349), which use real coil springs for an authentic feel. For a serious or advanced practitioner: the Balanced Body Studio Reformer ($4,700) — the professional standard, though it does not fold and needs dedicated floor space.",
+    a: "For a beginner: the AeroPilates 287 ($349.99), a genuine, currently-sold entry point and a meaningful upgrade from studio-only practice. For someone with studio experience: the Align-Pilates C8-PRO ($2,750) or Merrithew At Home SPX Reformer Package ($3,349), which use real coil springs for an authentic feel. For a serious or advanced practitioner: the Balanced Body Studio Reformer ($4,700), the professional standard, though it does not fold and needs dedicated floor space.",
   },
   {
     q: "How do I gift a pilates reformer without ruining the surprise?",
-    a: "For budget machines (under $600), you can generally surprise the recipient — the space requirements are manageable and the investment is reasonable. For machines above $2,000, either involve them in choosing (frame it as 'I want to invest in this with you') or gift a deposit/voucher toward their choice. Reformers at this price point have real preferences around spring feel and footbar design that are worth confirming before you buy.",
+    a: "For budget machines (under $600), you can generally surprise the recipient: the space requirements are manageable and the investment is reasonable. For machines above $2,000, either involve them in choosing (frame it as 'I want to invest in this with you') or gift a deposit/voucher toward their choice. Reformers at this price point have real preferences around spring feel and footbar design that are worth confirming before you buy.",
   },
   {
     q: "What is the difference between a home reformer and a studio reformer?",
-    a: "The AeroPilates line uses elastic cord resistance and is generally lighter and lower-priced, designed for one-person home use. The Align-Pilates, Merrithew and Balanced Body machines in this guide use genuine coil springs and are built to a commercial standard — the Balanced Body Studio Reformer, for example, does not fold and is a permanent-installation machine. We could not verify specific claims about warranty length or adjustment positions across models, so check the current listing for your exact machine.",
+    a: "The AeroPilates line uses elastic cord resistance and is generally lighter and lower-priced, designed for one-person home use. The Align-Pilates, Merrithew and Balanced Body machines in this guide use genuine coil springs and are built to a commercial standard: the Balanced Body Studio Reformer, for example, does not fold and is a permanent-installation machine. We could not verify specific claims about warranty length or adjustment positions across models, so check the current listing for your exact machine.",
   },
 ];
 
 const RELATED = [
   { title: "Best Pilates Reformer Under $500", excerpt: "The best reformers at the accessible end of the budget.", href: "/blog/best-pilates-reformer-under-500", category: "Equipment", readTime: "9 min", imageUrl: "/pictures/stitch-reformer-sunlit-minimal.png" },
   { title: "Best Home Pilates Reformer", excerpt: "The complete guide to choosing a reformer for home use.", href: "/blog/best-home-pilates-reformer", category: "Equipment", readTime: "10 min", imageUrl: "/pictures/stitch-reformer-morning-light.png" },
-  { title: "Best Pilates Gift Sets & Bundles", excerpt: "Curated pilates bundles at every budget — not just reformers.", href: "/blog/best-pilates-gift-sets", category: "Guide", readTime: "9 min", imageUrl: "/pictures/stitch-water-towel-bench.png" },
+  { title: "Best Pilates Gift Sets & Bundles", excerpt: "Curated pilates bundles at every budget, not just reformers.", href: "/blog/best-pilates-gift-sets", category: "Guide", readTime: "9 min", imageUrl: "/pictures/stitch-water-towel-bench.png" },
 ];
 
 const jsonLd = {
@@ -140,7 +140,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Best Pilates Reformer to Gift (2026)",
-      "description": "The best pilates reformers to gift — from entry-level home machines under $400 to professional-grade studio reformers.",
+      "description": "The best pilates reformers to gift, from entry-level home machines under $400 to professional-grade studio reformers.",
       "url": "https://pilatescollectiveclub.com/blog/best-pilates-reformer-gift",
       "image": "https://pilatescollectiveclub.com/pictures/stitch-reformers-aerial-row.png",
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -193,7 +193,7 @@ export default function Page() {
           <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
           <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
           <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-            A pilates reformer is the most significant gift you can give a practitioner — and the one that delivers the most lasting return on that investment. This guide covers six real, currently-sold reformers across every price tier, from a $349.99 entry-level home machine to Merrithew&apos;s clinical-grade Rehab V2 Max Plus at $8,199. Each pick is chosen for the gifting context: space requirements, delivery logistics, assembly, and the question of how much to involve the recipient in the decision — and we flag anywhere we couldn&apos;t verify a specific spec, like folding or exact included accessories, rather than assert it.
+            A pilates reformer is the most significant gift you can give a practitioner, and the one that delivers the most lasting return on that investment. This guide covers six real, currently-sold reformers across every price tier, from a $349.99 entry-level home machine to Merrithew&apos;s clinical-grade Rehab V2 Max Plus at $8,199. Each pick is chosen for the gifting context: space requirements, delivery logistics, assembly, and the question of how much to involve the recipient in the decision, and we flag anywhere we couldn&apos;t verify a specific spec, like folding or exact included accessories, rather than assert it.
           </p>
         </div>
       </section>

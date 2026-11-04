@@ -8,7 +8,7 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Gift Sets & Bundles (2026)",
-  description: "The best pilates gift sets — curated bundles of mats, socks, resistance bands, and accessories that give practitioners everything they need in one thoughtful gift.",
+  description: "The best pilates gift sets: curated bundles of mats, socks, resistance bands, and accessories that give practitioners everything they need in one thoughtful gift.",
   keywords: [
     "best pilates gift sets",
     "pilates gift bundle ideas",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "Best Pilates Gift Sets & Bundles (2026)",
-    description: "Curated pilates gift bundles — everything she needs in one thoughtful, complete gift.",
+    description: "Curated pilates gift bundles: everything she needs in one thoughtful, complete gift.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-gift-sets",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/stitch-water-towel-bench.png", width: 1200, height: 630, alt: "Best Pilates Gift Sets 2026" }],
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Gift Sets & Bundles (2026)",
-    description: "Complete pilates gift sets and bundle ideas — curated for every budget and every level.",
+    description: "Complete pilates gift sets and bundle ideas: curated for every budget and every level.",
     images: ["https://pilatescollectiveclub.com/pictures/stitch-water-towel-bench.png"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/best-pilates-gift-sets" },
@@ -42,7 +42,7 @@ const SETS = [
     name: "The Complete Beginner Set",
     price: "$55 total",
     verdict: "Best First Pilates Gift Bundle",
-    description: "For someone just starting pilates, assemble: a Gaiam Premium Mat ($19.29), ToeSox Half-Toe Grip Socks ($16), and a Theraband Resistance Band Set ($19.58). Together these three items cover everything a beginner needs for their first reformer class and at-home practice — a mat to work on, socks the studio requires, and bands for supplementary conditioning. Total cost: around $55, and every item gets immediate use from day one. Wrap them together with a note explaining each piece and why it matters.",
+    description: "For someone just starting pilates, assemble: a Gaiam Premium Mat ($19.29), ToeSox Half-Toe Grip Socks ($16), and a Theraband Resistance Band Set ($19.58). Together these three items cover everything a beginner needs for their first reformer class and at-home practice: a mat to work on, socks the studio requires, and bands for supplementary conditioning. Total cost: around $55, and every item gets immediate use from day one. Wrap them together with a note explaining each piece and why it matters.",
     affiliateUrl: "https://www.amazon.com/s?k=gaiam+premium+pilates+mat+beginners+kit&tag=pilatescollective-20",
   },
   {
@@ -50,7 +50,7 @@ const SETS = [
     name: "The Lululemon Studio Bundle",
     price: "$146 total",
     verdict: "Best Premium Gift Bundle",
-    description: "Two Lululemon pieces that work together perfectly: the Align High-Rise Legging 25\" ($98) and the Everywhere Belt Bag 2L ($48). The Align is the studio standard legging; the belt bag is the studio standard accessory. Together they cover what she wears and what she carries to every class. Both are available across a rotating seasonal palette — choose coordinating or contrasting colours. At $146 total this is a complete, considered gift that demonstrates real knowledge of what she cares about. No filler required.",
+    description: "Two Lululemon pieces that work together perfectly: the Align High-Rise Legging 25\" ($98) and the Everywhere Belt Bag 2L ($48). The Align is the studio standard legging; the belt bag is the studio standard accessory. Together they cover what she wears and what she carries to every class. Both are available across a rotating seasonal palette: choose coordinating or contrasting colours. At $146 total this is a complete, considered gift that demonstrates real knowledge of what she cares about. No filler required.",
     affiliateUrl: "https://www.amazon.com/s?k=lululemon+align+legging+women+pilates&tag=pilatescollective-20",
   },
   {
@@ -58,7 +58,7 @@ const SETS = [
     name: "The Recovery Set",
     price: "$57 total",
     verdict: "Best Wellness Gift Bundle",
-    description: "For the practitioner who trains hard and needs to recover well: TriggerPoint GRID Foam Roller ($28.99) plus a Theraband Resistance Band Set ($19.58) for active recovery and mobility work, and a Trideer Pilates Ball ($7.99) for targeted spinal mobility and stretching. Together these three pieces cover myofascial release, resistance mobility, and ball work — a complete recovery and maintenance kit for any level of practitioner. Approximately $57 total, presented in a simple basket with a handwritten card.",
+    description: "For the practitioner who trains hard and needs to recover well: TriggerPoint GRID Foam Roller ($28.99) plus a Theraband Resistance Band Set ($19.58) for active recovery and mobility work, and a Trideer Pilates Ball ($7.99) for targeted spinal mobility and stretching. Together these three pieces cover myofascial release, resistance mobility, and ball work: a complete recovery and maintenance kit for any level of practitioner. Approximately $57 total, presented in a simple basket with a handwritten card.",
     affiliateUrl: "https://www.amazon.com/s?k=triggerpoint+grid+foam+roller+recovery+set&tag=pilatescollective-20",
   },
   {
@@ -66,7 +66,7 @@ const SETS = [
     name: "The Luxury Mat & Bag Bundle",
     price: "$292 total",
     verdict: "Best Investment Gift Bundle",
-    description: "The pairing that serious practitioners build toward: a Manduka PRO Mat ($144) and a Liforme Original Mat Bag ($148). The Manduka PRO is the lifetime-guaranteed professional mat; the Liforme bag is designed specifically to carry it, with a padded shoulder strap, water bottle pocket, and accessory compartment. Together they make an heirloom-grade set — the mat and bag she'll still be using a decade from now. A gift that communicates genuine understanding of the practice and what it deserves.",
+    description: "The pairing that serious practitioners build toward: a Manduka PRO Mat ($144) and a Liforme Original Mat Bag ($148). The Manduka PRO is the lifetime-guaranteed professional mat; the Liforme bag is designed specifically to carry it, with a padded shoulder strap, water bottle pocket, and accessory compartment. Together they make an heirloom-grade set: the mat and bag she'll still be using a decade from now. A gift that communicates genuine understanding of the practice and what it deserves.",
     affiliateUrl: "https://www.amazon.com/s?k=manduka+pro+mat+bag+set+pilates+gift&tag=pilatescollective-20",
   },
   {
@@ -74,7 +74,7 @@ const SETS = [
     name: "The Alo Yoga Pilates Set",
     price: "$176 total",
     verdict: "Best Clothing Bundle",
-    description: "Alo's two most coveted pilates pieces paired together: the Airlift 7/8 Legging ($114) and the Airlift Strappy Bra ($62). Both are made from Alo's signature Airlift fabric — precision-compression, sculpting, and engineered for zero movement during exercise. Choosing matching or tonal colourways (both come in bone, black, espresso, and seasonal shades) creates a complete studio look that is as intentional and refined as the practice itself. This is the bundle that arrives and goes directly into her next-class bag. Not sold on Amazon: this link goes to Alo Yoga's own site.",
+    description: "Alo's two most coveted pilates pieces paired together: the Airlift 7/8 Legging ($114) and the Airlift Strappy Bra ($62). Both are made from Alo's signature Airlift fabric: precision-compression, sculpting, and engineered for zero movement during exercise. Choosing matching or tonal colourways (both come in bone, black, espresso, and seasonal shades) creates a complete studio look that is as intentional and refined as the practice itself. This is the bundle that arrives and goes directly into her next-class bag. Not sold on Amazon: this link goes to Alo Yoga's own site.",
     affiliateUrl: "https://www.aloyoga.com",
   },
   {
@@ -82,7 +82,7 @@ const SETS = [
     name: "The Tech & Recovery Bundle",
     price: "$428 total",
     verdict: "Best High-End Gift Bundle",
-    description: "For the serious practitioner ready for the next level of recovery: Theragun Elite ($399) plus a TriggerPoint GRID Roller ($28.99). The Theragun handles deep percussive therapy for the hip flexors, thoracic spine, and shoulders; the GRID covers myofascial rolling for the IT band, calves, and thoracic extensors. Together they build a complete recovery toolkit that professional athletes use. Approximately $428 total — an exceptional end-of-year gift, or a pooled gift from a group of studio friends.",
+    description: "For the serious practitioner ready for the next level of recovery: Theragun Elite ($399) plus a TriggerPoint GRID Roller ($28.99). The Theragun handles deep percussive therapy for the hip flexors, thoracic spine, and shoulders; the GRID covers myofascial rolling for the IT band, calves, and thoracic extensors. Together they build a complete recovery toolkit that professional athletes use. Approximately $428 total: an exceptional end-of-year gift, or a pooled gift from a group of studio friends.",
     affiliateUrl: "https://www.amazon.com/s?k=theragun+elite+recovery+set+pilates&tag=pilatescollective-20",
   },
 ];
@@ -90,11 +90,11 @@ const SETS = [
 const CRITERIA = [
   {
     heading: "Every item in the bundle must earn its place",
-    body: "A gift set fails when it includes one strong item and two pieces of filler. The best pilates bundles are built so that every component gets used regularly — not so one marquee item justifies weak additions. Fewer items at higher quality always beats a padded basket.",
+    body: "A gift set fails when it includes one strong item and two pieces of filler. The best pilates bundles are built so that every component gets used regularly, not so one marquee item justifies weak additions. Fewer items at higher quality always beats a padded basket.",
   },
   {
     heading: "Match the bundle to her practice level",
-    body: "A beginner needs fundamentals (mat, socks, bands). An experienced practitioner doesn't need another mat — she needs better leggings, a quality recovery tool, or a premium accessory. Diagnosing what stage she's at determines which bundle fits.",
+    body: "A beginner needs fundamentals (mat, socks, bands). An experienced practitioner doesn't need another mat: she needs better leggings, a quality recovery tool, or a premium accessory. Diagnosing what stage she's at determines which bundle fits.",
   },
   {
     heading: "Think about what covers a daily gap",
@@ -109,7 +109,7 @@ const CRITERIA = [
 const FAQ = [
   {
     q: "What is a good pilates gift set?",
-    a: "The best pilates gift set for a beginner is: Gaiam mat ($19.29) + ToeSox grip socks ($16) + Theraband set ($19.58) = about $55 total. For an experienced practitioner: Lululemon Align Legging ($98) + Lululemon Belt Bag ($48) = $146 total. Both bundles feel complete and intentional — every item has a clear purpose in her daily practice.",
+    a: "The best pilates gift set for a beginner is: Gaiam mat ($19.29) + ToeSox grip socks ($16) + Theraband set ($19.58) = about $55 total. For an experienced practitioner: Lululemon Align Legging ($98) + Lululemon Belt Bag ($48) = $146 total. Both bundles feel complete and intentional, every item has a clear purpose in her daily practice.",
   },
   {
     q: "How do I make a pilates gift basket?",
@@ -117,7 +117,7 @@ const FAQ = [
   },
   {
     q: "Is a pilates gift set better than a single gift?",
-    a: "A well-chosen bundle is better than a single mediocre gift — but a single outstanding gift beats a poorly assembled bundle every time. If you're confident in one item (a Manduka PRO mat, a Theragun Elite, a pair of Lululemon Align leggings), that alone is more impactful than three weak items bundled together. Bundle when you can make every piece count.",
+    a: "A well-chosen bundle is better than a single mediocre gift, but a single outstanding gift beats a poorly assembled bundle every time. If you're confident in one item (a Manduka PRO mat, a Theragun Elite, a pair of Lululemon Align leggings), that alone is more impactful than three weak items bundled together. Bundle when you can make every piece count.",
   },
   {
     q: "What is the best pilates gift bundle under $100?",
@@ -126,7 +126,7 @@ const FAQ = [
 ];
 
 const RELATED = [
-  { title: "Best Pilates Gifts for Your Girlfriend", excerpt: "Individual picks she'll love — Lululemon, Alo, Manduka.", href: "/blog/best-pilates-gifts-for-girlfriend", category: "Guide", readTime: "9 min", imageUrl: "/pictures/stitch-retail-activewear.png" },
+  { title: "Best Pilates Gifts for Your Girlfriend", excerpt: "Individual picks she'll love: Lululemon, Alo, Manduka.", href: "/blog/best-pilates-gifts-for-girlfriend", category: "Guide", readTime: "9 min", imageUrl: "/pictures/stitch-retail-activewear.png" },
   { title: "Best Pilates Gifts Under $100", excerpt: "Quality pilates gifts that stay comfortably under $100.", href: "/blog/best-pilates-gifts-under-100", category: "Guide", readTime: "8 min", imageUrl: "/pictures/stitch-studio-shelf-props.png" },
   { title: "Best Pilates Starter Kit", excerpt: "The complete equipment kit for home pilates practice.", href: "/blog/best-pilates-starter-kit", category: "Equipment", readTime: "9 min", imageUrl: "/pictures/stitch-studio-shelf-props.png" },
 ];
@@ -137,7 +137,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Best Pilates Gift Sets & Bundles (2026)",
-      "description": "The best pilates gift sets — curated bundles that give practitioners everything they need in one thoughtful gift.",
+      "description": "The best pilates gift sets: curated bundles that give practitioners everything they need in one thoughtful gift.",
       "url": "https://pilatescollectiveclub.com/blog/best-pilates-gift-sets",
       "image": "https://pilatescollectiveclub.com/pictures/stitch-water-towel-bench.png",
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -183,7 +183,7 @@ export default function Page() {
             Best Pilates Gift Sets & Bundles
           </h1>
           <p style={{ fontFamily: "var(--font-sans)", fontSize: "1.05rem", color: "#6b6560", lineHeight: 1.8, marginBottom: "28px" }}>
-            A single great gift is good. A curated set of two or three items that work together — covering training, recovery, and every daily ritual around her practice — is better. This guide builds six complete pilates gift bundles across every budget tier, from a $55 beginner kit to a $428 high-performance recovery set. Each bundle is designed so every item in it earns its place, with guidance on how to choose the right bundle for the practitioner you're gifting.
+            A single great gift is good. A curated set of two or three items that work together (covering training, recovery, and every daily ritual around her practice) is better. This guide builds six complete pilates gift bundles across every budget tier, from a $55 beginner kit to a $428 high-performance recovery set. Each bundle is designed so every item in it earns its place, with guidance on how to choose the right bundle for the practitioner you're gifting.
           </p>
           <div style={{ display: "flex", gap: "24px", flexWrap: "wrap" }}>
             <span style={{ fontFamily: "var(--font-sans)", fontSize: "11px", color: "#9a9490", letterSpacing: "0.08em" }}>✓ Curated bundles at every budget</span>
@@ -203,7 +203,7 @@ export default function Page() {
           {/* Quick picks table */}
           <div style={{ marginBottom: "56px", border: "1px solid #ede9e3", overflow: "hidden" }}>
             <div style={{ padding: "16px 24px", backgroundColor: "#faf8f5", borderBottom: "1px solid #ede9e3" }}>
-              <p style={{ fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 700, letterSpacing: "0.2em", textTransform: "uppercase", color: "#8b4a31", margin: 0 }}>Quick Picks — At a Glance</p>
+              <p style={{ fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 700, letterSpacing: "0.2em", textTransform: "uppercase", color: "#8b4a31", margin: 0 }}>Quick Picks, At a Glance</p>
             </div>
             {SETS.map((p, i) => (
               <div key={p.rank} style={{ display: "flex", alignItems: "center", gap: "16px", padding: "14px 24px", borderTop: i === 0 ? "none" : "1px solid #ede9e3", backgroundColor: "#ffffff", flexWrap: "wrap" }}>

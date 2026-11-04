@@ -72,7 +72,7 @@ export default function TermsPage() {
 
             <h2 style={s.h2}>Intellectual Property</h2>
             <p style={s.p}>
-              All content on the Site — including text, editorial copy, layout, and design — is the property of Pilates Collective Club or its content suppliers and is protected by applicable copyright and intellectual property laws. Photography sourced from Unsplash is subject to the Unsplash licence.
+              All content on the Site (including text, editorial copy, layout, and design) is the property of Pilates Collective Club or its content suppliers and is protected by applicable copyright and intellectual property laws. Photography sourced from Unsplash is subject to the Unsplash licence.
             </p>
             <p style={s.p}>
               You may quote brief excerpts from articles for non-commercial purposes (commentary, criticism, education) provided you attribute the source with a link to the original page.
@@ -80,7 +80,7 @@ export default function TermsPage() {
 
             <h2 style={s.h2}>Disclaimer of Warranties</h2>
             <p style={s.p}>
-              The content on this Site is provided &quot;as is&quot; and for general informational purposes only. We make no representations or warranties of any kind — express or implied — about the accuracy, completeness, reliability, or suitability of any information on the Site.
+              The content on this Site is provided &quot;as is&quot; and for general informational purposes only. We make no representations or warranties of any kind, express or implied, about the accuracy, completeness, reliability, or suitability of any information on the Site.
             </p>
             <p style={s.p}>
               In particular, content related to Pilates exercises, equipment, and health benefits is editorial in nature and does not constitute medical or professional advice. Always consult a qualified instructor or healthcare provider before beginning a new exercise programme, especially if you have a pre-existing health condition.
@@ -96,7 +96,7 @@ export default function TermsPage() {
 
             <h2 style={s.h2}>Limitation of Liability</h2>
             <p style={s.p}>
-              To the fullest extent permitted by law, Pilates Collective Club shall not be liable for any direct, indirect, incidental, consequential, or punitive damages arising from your use of — or inability to use — the Site or its content. This includes any injury or harm resulting from following exercise advice found on the Site.
+              To the fullest extent permitted by law, Pilates Collective Club shall not be liable for any direct, indirect, incidental, consequential, or punitive damages arising from your use of, or inability to use, the Site or its content. This includes any injury or harm resulting from following exercise advice found on the Site.
             </p>
 
             <h2 style={s.h2}>Studio Listings & Third-Party Information</h2>
