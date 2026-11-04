@@ -53,6 +53,7 @@ const PRODUCTS = [
     verdict: "Best overall: from a dedicated Pilates/barre grip brand",
     description: "TAVI is a dedicated Pilates and barre grip brand, and this half-finger glove pairs a full-coverage grip palm with open fingertips for reformer handles, straps and mat work. Sold on Amazon by The Active Footwear Store, TAVI's official distributor. At $31.99 it's the priciest glove here — the one to buy if you want a glove designed for the studio rather than the weights floor.",
     affiliateUrl: "https://www.amazon.com/dp/B09GPVMF86?tag=pilatescollective-20",
+    imageUrl: "https://m.media-amazon.com/images/I/415sXqF7ebL._SL500_.jpg",
     tag: "Best Overall",
   },
   {
@@ -62,6 +63,7 @@ const PRODUCTS = [
     verdict: "Best budget: an established brand for under $8",
     description: "Gaiam is an established yoga and Pilates accessories brand, and its Grippy Yoga Gloves are the lowest-priced pair on this list at $7.65, sold by W&E Distribution. A sensible way to find out whether you like training in grip gloves before spending more.",
     affiliateUrl: "https://www.amazon.com/dp/B001VROVEM?tag=pilatescollective-20",
+    imageUrl: "https://m.media-amazon.com/images/I/51bEW--3d-L._SL500_.jpg",
     tag: "Best Budget",
   },
   {
@@ -71,6 +73,7 @@ const PRODUCTS = [
     verdict: "Best fingerless: marketed specifically for Pilates and barre",
     description: "A non-slip fingerless glove sold by OasyMala and marketed for Pilates and barre. At $13.98 it sits between the budget Gaiam pair and the TAVI glove — a mid-priced option if you want a fingerless style aimed at studio work.",
     affiliateUrl: "https://www.amazon.com/dp/B0DHKLSXLY?tag=pilatescollective-20",
+    imageUrl: "https://m.media-amazon.com/images/I/311RhwGad5L._SL500_.jpg",
     tag: "Best Fingerless",
   },
   {
@@ -80,15 +83,17 @@ const PRODUCTS = [
     verdict: "Best value 2-pack: two pairs for under $10",
     description: "Two pairs of yoga/Pilates grip gloves for $9.99, sold by Yaoshinegoup. Having a second pair means one can dry while you wear the other — useful if you practise several times a week.",
     affiliateUrl: "https://www.amazon.com/dp/B0DZ2CZS1J?tag=pilatescollective-20",
+    imageUrl: "https://m.media-amazon.com/images/I/41pEvShBfML._SL500_.jpg",
     tag: "Best Value 2-Pack",
   },
   {
     rank: "05",
     name: "MhIL Workout Gloves for Women",
-    price: "$8.99",
+    price: "$9.99",
     verdict: "Best wrist support: for Lagree and weighted work",
     description: "A breathable glove with wrist wrap support built in, sold by MhIL. The wrist wrap is a useful detail for Pilates practitioners who feel strain during plank and push-up work on the reformer box, and the breathable construction helps during sweaty Megaformer sessions.",
     affiliateUrl: "https://www.amazon.com/dp/B08R6CB2K6?tag=pilatescollective-20",
+    imageUrl: "https://m.media-amazon.com/images/I/51n6clqSr+L._SL500_.jpg",
     tag: "Best Wrist Support",
   },
 ];
@@ -102,7 +107,7 @@ const jsonLd = {
       description: "Five verified Pilates grip gloves for reformer, barre and mat — led by TAVI's half-finger glove — plus one wrist-support glove for Lagree and weighted work.",
       url: "https://pilatescollectiveclub.com/blog/best-pilates-gloves",
       datePublished: "2026-06-28",
-      dateModified: "2026-10-20",
+      dateModified: "2026-11-04",
       image: "https://pilatescollectiveclub.com/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg",
       author: { "@type": "Organization", name: "Pilates Collective Club", url: "https://pilatescollectiveclub.com" },
       publisher: { "@type": "Organization", name: "Pilates Collective Club", url: "https://pilatescollectiveclub.com", logo: { "@type": "ImageObject", url: "https://pilatescollectiveclub.com/logo.png" } },
@@ -118,6 +123,7 @@ const jsonLd = {
         item: {
           "@type": "Product",
           name: p.name,
+          image: p.imageUrl,
           description: p.description,
           offers: {
             "@type": "Offer",
@@ -182,7 +188,7 @@ export default function BestPilatesGlovesPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               Best Pilates Gloves (2026):<br /><span style={{ color: "#8b4a31" }}>Grip Gloves for Reformer &amp; Lagree</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 6 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked November 4, 2026 · 6 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note="Half-finger grip glove from a dedicated Pilates and barre brand" url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
@@ -225,6 +231,7 @@ export default function BestPilatesGlovesPage() {
                   description={p.description}
                   price={p.price}
                   affiliateUrl={p.affiliateUrl}
+                  productImageUrl={p.imageUrl}
                 />
               </div>
             ))}
