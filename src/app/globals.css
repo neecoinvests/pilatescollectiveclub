@@ -159,7 +159,16 @@ h1, h2, h3, h4 {
 .pcc-mega-card img { transition: transform 0.4s ease; }
 .pcc-mega-card:hover img { transform: scale(1.03); }
 .pcc-mega-grid { display: grid; grid-template-columns: 210px minmax(0, 1fr) 280px; gap: 48px; }
+.pcc-mega-grid.pcc-mega-norail { grid-template-columns: minmax(0, 1fr) 280px; }
+.pcc-mega-grid.pcc-mega-noside { grid-template-columns: 210px minmax(0, 1fr); }
+.pcc-mega-grid.pcc-mega-norail.pcc-mega-noside { grid-template-columns: minmax(0, 1fr); }
 @media (max-width: 1199px) {
   .pcc-mega-grid { grid-template-columns: 180px minmax(0, 1fr); gap: 32px; }
+  .pcc-mega-grid.pcc-mega-norail { grid-template-columns: minmax(0, 1fr); }
   .pcc-mega-feature { display: none; }
 }
+
+/* Top nav triggers: hover colour and an underline on the open item */
+.pcc-nav-trigger:hover { color: #0a0a0a !important; }
+.pcc-nav-trigger::after { content: ""; position: absolute; left: 0; right: 14px; bottom: 0; height: 1px; background: #8b4a31; transform: scaleX(0); transform-origin: left; transition: transform 0.25s ease; }
+.pcc-nav-trigger[data-open]::after { transform: scaleX(1); }
