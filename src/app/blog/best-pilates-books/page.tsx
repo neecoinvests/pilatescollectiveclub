@@ -235,7 +235,6 @@ export default function BestPilatesBooksPage() {
                         description={book.description}
                         price={book.price}
                         affiliateUrl={book.affiliateUrl}
-                        imageUrl={book.imageUrl}
                       />
                     </div>
                   ))}

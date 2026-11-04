@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import ProductCard from "@/components/ProductCard";
 import Header from "@/components/Header";
 import QuickPicks from "@/components/QuickPicks";
 import TopPick from "@/components/TopPick";
@@ -204,23 +205,12 @@ export default function BestPilatesEquipmentForMenPage() {
               <h2 className="text-3xl font-semibold mb-10" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The 6 best Pilates equipment picks for men</h2>
               <div className="space-y-8">
                 {PRODUCTS.map((product) => (
-                  <div key={product.rank} className="rounded-2xl overflow-hidden" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)", boxShadow: "0 1px 6px rgba(0,0,0,0.04)" }}>
-                    <div className="p-7">
-                      <div className="flex items-start justify-between gap-4 mb-4">
-                        <div className="flex items-center gap-3">
-                          <span className="text-xs font-semibold w-6 h-6 rounded-full flex items-center justify-center text-white flex-shrink-0" style={{ backgroundColor: "#1b1c1c", fontFamily: "'Montserrat', sans-serif", fontSize: "10px" }}>{product.rank}</span>
-                          <div>
-                            <h3 className="text-xl font-semibold" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{product.name}</h3>
-                            <p className="text-xs mt-0.5" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif", fontWeight: 600 }}>{product.verdict}</p>
-                          </div>
-                        </div>
-                        <span className="text-sm font-semibold whitespace-nowrap" style={{ color: "#c5a882", fontFamily: "'Montserrat', sans-serif" }}>{product.price}</span>
-                      </div>
-                      <p className="text-sm leading-relaxed mb-5" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{product.description}</p>
-                      <a href={product.affiliateUrl} target="_blank" rel="noopener noreferrer sponsored" className="inline-block px-5 py-2.5 rounded-xl text-xs font-semibold transition-opacity hover:opacity-90" style={{ backgroundColor: "#8b4a31", color: "#ffffff", fontFamily: "'Montserrat', sans-serif" }}>
-                        Shop {product.name.split(" ").slice(0, 3).join(" ")} →
-                      </a>
+                  <div key={product.rank}>
+                    <div className="flex items-center gap-3 mb-4">
+                      <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "\'Playfair Display\', serif" }}>{String(product.rank).padStart(2, "0")}</span>
+                      <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "\'Montserrat\', sans-serif" }}>{product.verdict}</span>
                     </div>
+                    <ProductCard name={product.name} description={product.description} price={product.price} affiliateUrl={product.affiliateUrl} />
                   </div>
                 ))}
               </div>

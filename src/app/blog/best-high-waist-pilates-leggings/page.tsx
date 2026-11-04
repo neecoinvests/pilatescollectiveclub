@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import ProductCard from "@/components/ProductCard";
 import Header from "@/components/Header";
 import QuickPicks from "@/components/QuickPicks";
 import TopPick from "@/components/TopPick";
@@ -179,19 +180,12 @@ export default function BestHighWaistPilatesLeggingsPage() {
 
             <div style={{ display: "flex", flexDirection: "column", gap: "48px" }}>
               {PRODUCTS.map((p) => (
-                <div key={p.rank} style={{ borderTop: "1px solid #ede9e3", paddingTop: "36px" }}>
-                  <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", gap: "16px", marginBottom: "8px" }}>
-                    <div style={{ display: "flex", alignItems: "baseline", gap: "14px" }}>
-                      <span style={{ fontFamily: "var(--font-serif)", fontSize: "13px", color: "#c5a882" }}>{p.rank}</span>
-                      <h3 style={{ fontFamily: "var(--font-serif)", fontSize: "1.3rem", fontWeight: 400, color: "#1a1714", margin: 0 }}>{p.name}</h3>
-                    </div>
-                    <span style={{ fontFamily: "var(--font-sans)", fontSize: "12px", color: "#c5a882", whiteSpace: "nowrap" }}>{p.price}</span>
+                <div key={p.rank}>
+                  <div className="flex items-center gap-3 mb-4">
+                    <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "\'Playfair Display\', serif" }}>{p.rank}</span>
+                    <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "\'Montserrat\', sans-serif" }}>{p.verdict}</span>
                   </div>
-                  <span style={{ fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 500, letterSpacing: "0.15em", textTransform: "uppercase", color: "#9a9490", display: "block", marginBottom: "14px" }}>{p.verdict}</span>
-                  <p style={{ fontFamily: "var(--font-sans)", fontSize: "15px", fontWeight: 300, color: "#4a4540", lineHeight: 1.8, marginBottom: "20px" }}>{p.description}</p>
-                  <a href={p.affiliateUrl} target="_blank" rel={/amazon\./i.test(p.affiliateUrl) ? "noopener noreferrer nofollow sponsored" : "noopener noreferrer nofollow"} style={{ display: "inline-block", fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 500, letterSpacing: "0.18em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "13px 24px" }}>
-                    Shop on Amazon
-                  </a>
+                  <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                 </div>
               ))}
             </div>

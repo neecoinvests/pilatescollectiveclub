@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import AffiliateNote from "@/components/AffiliateNote";
+import ProductCard from "@/components/ProductCard";
 import Header from "@/components/Header";
 import QuickPicks from "@/components/QuickPicks";
 import TopPick from "@/components/TopPick";
@@ -250,26 +251,18 @@ export default function MerrithewV2MaxReviewPage() {
               </div>
 
               {/* Accessories */}
-              <div className="mb-12 rounded-2xl p-7" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
+              <div className="mb-12">
                 <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Accessories worth adding</h2>
                 <p className="text-sm leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                   The Vertical Frame is already included on the Rehab V2 Max Plus. These are the accessories that add the most for the box and jumpboard series:
                 </p>
-                <div className="space-y-3">
+                <div>
                   {[
                     { name: "STOTT PILATES Merrithew Jumpboard (22\")", desc: "Converts the reformer for cardio-based footwork and jump training.", url: "https://www.amazon.com/dp/B004ICZD2Q?tag=pilatescollective-20" },
                     { name: "Balanced Body Replacement Reformer Ropes with Clips", desc: "A reliable replacement set if your current ropes are fraying or stretched: fits most reformer rope-and-pulley systems.", url: "https://www.amazon.com/dp/B0CYM27QMZ?tag=pilatescollective-20" },
                     { name: "Amazon Basics Microfiber Cleaning Cloths (24-pack)", desc: "For keeping vinyl upholstery and rails clean between sessions: a clinic detail that matters with daily client turnover.", url: "https://www.amazon.com/dp/B009FUF6DM?tag=pilatescollective-20" },
                   ].map((item) => (
-                    <div key={item.name} className="flex items-start justify-between gap-4 rounded-lg px-4 py-3 bg-white" style={{ border: "1px solid rgba(217,194,186,0.3)" }}>
-                      <div>
-                        <p className="text-sm font-semibold mb-0.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.name}</p>
-                        <p className="text-xs leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.desc}</p>
-                      </div>
-                      <a href={item.url} target="_blank" rel="noopener noreferrer sponsored" className="shrink-0 text-xs font-semibold px-3 py-1.5 rounded-lg whitespace-nowrap" style={{ backgroundColor: "#8b4a31", color: "#ffffff", fontFamily: "'Montserrat', sans-serif" }}>
-                        Shop →
-                      </a>
-                    </div>
+                    <ProductCard key={item.name} name={item.name} description={item.desc} affiliateUrl={item.url} />
                   ))}
                 </div>
               </div>

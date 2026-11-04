@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import ProductCard from "@/components/ProductCard";
 import Header from "@/components/Header";
 import QuickPicks from "@/components/QuickPicks";
 import TopPick from "@/components/TopPick";
@@ -207,21 +208,12 @@ export default function BestMegaformerMachinePage() {
                   const onAmazon = p.affiliateUrl.includes("amazon.com");
                   return (
                     <div key={p.name}>
-                      <div className="flex items-center gap-3 mb-4">
+                      <div className="flex flex-wrap items-center gap-x-3 gap-y-2 mb-4">
                         <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                        <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tag}</span>
+                        <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full whitespace-nowrap" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tag}</span>
+                        <span className="text-xs font-semibold uppercase tracking-widest" style={{ color: "#536257", fontFamily: "\'Montserrat\', sans-serif" }}>{p.verdict}</span>
                       </div>
-                      <div style={{ borderTop: "1px solid #ede9e3", paddingTop: "24px", paddingBottom: "28px" }}>
-                        <div className="flex justify-between items-start gap-4 mb-2.5">
-                          <h3 style={{ fontFamily: "var(--font-serif)", fontSize: "20px", fontWeight: 400, color: "#0a0a0a", lineHeight: 1.2, margin: 0 }}>{p.name}</h3>
-                          <span style={{ fontFamily: "var(--font-sans)", fontSize: "12px", color: "#c5a882", whiteSpace: "nowrap", letterSpacing: "0.05em" }}>{p.price}</span>
-                        </div>
-                        <p style={{ fontFamily: "var(--font-sans)", fontSize: "12px", color: "#8b4a31", marginBottom: "14px" }}>{p.verdict}</p>
-                        <p style={{ fontFamily: "var(--font-sans)", fontSize: "13px", fontWeight: 300, color: "#6b6560", lineHeight: 1.75, marginBottom: "18px" }} dangerouslySetInnerHTML={{ __html: p.description }} />
-                        <a href={p.affiliateUrl} target="_blank" rel={onAmazon ? "noopener noreferrer sponsored nofollow" : "noopener noreferrer nofollow"}
-                          style={{ display: "block", fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 500, letterSpacing: "0.18em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "14px 20px", textAlign: "center" }}
-                        >{onAmazon ? "Shop Now →" : "Shop Lagree Fitness Direct (not on Amazon) →"}</a>
-                      </div>
+                      <ProductCard name={p.name} description={p.description} descriptionHtml={p.description} price={p.price} affiliateUrl={p.affiliateUrl} ctaLabel={onAmazon ? undefined : "Shop Lagree Fitness Direct (not on Amazon) →"} />
                     </div>
                   );
                 })}

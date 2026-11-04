@@ -11,9 +11,11 @@ interface ProductCardProps {
   /** Square product photo (e.g. an Amazon image URL), shown beside the text on desktop and above it on mobile. */
   productImageUrl?: string;
   ctaLabel?: string;
+  /** Description containing inline HTML (bold, links) from the page's own copy. */
+  descriptionHtml?: string;
 }
 
-export default function ProductCardView({ name, description, price, affiliateUrl = "#", imageUrl, productImageUrl, ctaLabel }: ProductCardProps) {
+export default function ProductCardView({ name, description, price, affiliateUrl = "#", imageUrl, productImageUrl, ctaLabel, descriptionHtml }: ProductCardProps) {
   const buttonLabel = ctaLabel ?? (/amazon\.[a-z.]+\//.test(affiliateUrl) ? "Shop on Amazon" : "Shop Direct");
   const linkRel = /amazon\./i.test(affiliateUrl) ? "noopener noreferrer nofollow sponsored" : "noopener noreferrer nofollow";
   if (productImageUrl) {
@@ -50,8 +52,8 @@ export default function ProductCardView({ name, description, price, affiliateUrl
               </span>
             )}
           </div>
-          <p style={{ fontFamily: "var(--font-sans)", fontSize: "13px", fontWeight: 300, color: "#6b6560", lineHeight: 1.75, marginBottom: "24px", flex: 1 }}>
-            {description}
+          <p style={{ fontFamily: "var(--font-sans)", fontSize: "13px", fontWeight: 300, color: "#6b6560", lineHeight: 1.75, marginBottom: "24px", flex: 1 }} dangerouslySetInnerHTML={descriptionHtml ? { __html: descriptionHtml } : undefined}>
+            {descriptionHtml ? null : description}
           </p>
           <a
             href={affiliateUrl}
@@ -116,8 +118,8 @@ export default function ProductCardView({ name, description, price, affiliateUrl
           lineHeight: 1.75,
           marginBottom: "24px",
           flex: 1,
-        }}>
-          {description}
+        }} dangerouslySetInnerHTML={descriptionHtml ? { __html: descriptionHtml } : undefined}>
+          {descriptionHtml ? null : description}
         </p>
 
         <a

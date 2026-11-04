@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import ProductCard from "@/components/ProductCard";
 import Header from "@/components/Header";
 import QuickPicks from "@/components/QuickPicks";
 import TopPick from "@/components/TopPick";
@@ -213,38 +214,22 @@ export default function BestPortablePilatesReformerPage() {
 
             <div className="space-y-10 mb-14">
               {REFORMERS.map((reformer) => (
-                <div key={reformer.rank} className="rounded-2xl overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.35)" }}>
-                  <div className="px-6 py-4" style={{ backgroundColor: "#f6f3f2" }}>
-                    <div className="flex items-center gap-3 mb-1">
-                      <span className="text-2xl font-bold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>#{reformer.rank}</span>
-                      <span className="text-xs font-semibold uppercase tracking-widest px-2 py-0.5 rounded-full" style={{ backgroundColor: "#8b4a31", color: "#ffffff", fontFamily: "'Montserrat', sans-serif" }}>{reformer.tag}</span>
-                    </div>
-                    <h2 className="text-xl font-semibold" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{reformer.name}</h2>
-                    <p className="text-sm font-medium" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{reformer.price} · {reformer.verdict}</p>
+                <div key={reformer.rank}>
+                  <div className="flex flex-wrap items-center gap-x-3 gap-y-2 mb-4">
+                    <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{String(reformer.rank).padStart(2, "0")}</span>
+                    <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full whitespace-nowrap" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{reformer.tag}</span>
+                    <span className="text-xs font-semibold uppercase tracking-widest" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>{reformer.verdict}</span>
                   </div>
-                  <div className="px-6 py-5 bg-white">
-                    <p className="text-sm leading-relaxed mb-5" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{reformer.description}</p>
-                    <div className="grid grid-cols-2 gap-4 mb-5">
-                      <div>
-                        <p className="text-xs font-semibold uppercase tracking-widest mb-2" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Pros</p>
-                        <ul className="space-y-1">
-                          {reformer.pros.map((p) => (
-                            <li key={p} className="text-xs" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>+ {p}</li>
-                          ))}
-                        </ul>
-                      </div>
-                      <div>
-                        <p className="text-xs font-semibold uppercase tracking-widest mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Cons</p>
-                        <ul className="space-y-1">
-                          {reformer.cons.map((c) => (
-                            <li key={c} className="text-xs" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>- {c}</li>
-                          ))}
-                        </ul>
-                      </div>
+                  <ProductCard name={reformer.name} description={reformer.description} price={reformer.price} affiliateUrl={reformer.affiliateUrl} />
+                  <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div className="rounded-lg p-4" style={{ backgroundColor: "#f0f7f1", border: "1px solid rgba(83,98,87,0.2)" }}>
+                      <p className="text-xs font-semibold uppercase tracking-wider mb-2" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Pros</p>
+                      <ul className="space-y-1">{reformer.pros.map((p) => <li key={p} className="text-xs" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>+ {p}</li>)}</ul>
                     </div>
-                    <a href={reformer.affiliateUrl} target="_blank" rel="noopener noreferrer sponsored" className="inline-block text-sm font-semibold px-5 py-2.5 rounded-full transition-opacity hover:opacity-80" style={{ backgroundColor: "#8b4a31", color: "#ffffff", fontFamily: "'Montserrat', sans-serif" }}>
-                      Shop on Amazon →
-                    </a>
+                    <div className="rounded-lg p-4" style={{ backgroundColor: "#fdf5f3", border: "1px solid rgba(139,74,49,0.15)" }}>
+                      <p className="text-xs font-semibold uppercase tracking-wider mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Cons</p>
+                      <ul className="space-y-1">{reformer.cons.map((c) => <li key={c} className="text-xs" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>− {c}</li>)}</ul>
+                    </div>
                   </div>
                 </div>
               ))}

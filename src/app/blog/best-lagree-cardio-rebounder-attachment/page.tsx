@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import ProductCard from "@/components/ProductCard";
 import Header from "@/components/Header";
 import QuickPicks from "@/components/QuickPicks";
 import TopPick from "@/components/TopPick";
@@ -35,9 +36,6 @@ export const metadata: Metadata = {
 };
 
 const amz = (asin: string) => `https://www.amazon.com/dp/${asin}?tag=pilatescollective-20`;
-const isAmazon = (url: string) => /amazon\.[a-z.]+\//.test(url);
-const linkRel = (url: string) => (isAmazon(url) ? "noopener noreferrer nofollow sponsored" : "noopener noreferrer nofollow");
-const linkLabel = (url: string) => (isAmazon(url) ? "Shop on Amazon" : "Shop Direct");
 
 const PRODUCTS = [
   {
@@ -148,7 +146,6 @@ const jsonLd = {
 const bodyStyle = { color: "#53433e", fontFamily: "'Montserrat', sans-serif" };
 const h2Style = { color: "#1b1c1c", fontFamily: "'Playfair Display', serif" };
 const inlineLinkStyle = { color: "#8b4a31", textDecoration: "underline" };
-const buttonStyle = { display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase" as const, color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap" as const, flexShrink: 0 };
 
 const QP_NOTES = ["Best overall", "Premium pick", "Best pro-line option from JumpSport", "Best mid-price", "Best budget"];
 
@@ -212,18 +209,7 @@ export default function BestCardioRebounderPage() {
                       <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
                       <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tag}</span>
                     </div>
-                    <div className="rounded-2xl overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.3)" }}>
-                      <div className="p-6" style={{ backgroundColor: "#ffffff" }}>
-                        <div className="flex items-start justify-between gap-4 mb-4">
-                          <div>
-                            <h3 className="text-xl font-semibold mb-1" style={h2Style}>{p.name}</h3>
-                            <p className="text-sm font-semibold" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.price}</p>
-                          </div>
-                          <a href={p.affiliateUrl} target="_blank" rel={linkRel(p.affiliateUrl)} style={buttonStyle}>{linkLabel(p.affiliateUrl)}</a>
-                        </div>
-                        <p className="text-sm leading-relaxed" style={bodyStyle} dangerouslySetInnerHTML={{ __html: p.description }} />
-                      </div>
-                    </div>
+                    <ProductCard name={p.name} description={p.description} descriptionHtml={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                   </div>
                 ))}
               </div>

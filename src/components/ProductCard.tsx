@@ -9,6 +9,7 @@ interface ProductCardProps {
   imageUrl?: string;
   productImageUrl?: string;
   ctaLabel?: string;
+  descriptionHtml?: string;
   /** Set to false when the link goes to a stand-in product, so its photo is not shown under another product's name. */
   showProductImage?: boolean;
 }
