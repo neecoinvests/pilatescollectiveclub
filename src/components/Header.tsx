@@ -3,6 +3,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { useCallback, useState } from "react";
+import SiteSearch from "@/components/SiteSearch";
 
 const NAV = [
   { label: "Journal", href: "/blog" },
@@ -250,6 +251,8 @@ export default function Header() {
             </Link>
           ))}
 
+          <SiteSearch />
+
           {/* Shop Gear mega-dropdown trigger */}
           <div
             style={{ position: "relative" }}
@@ -387,9 +390,10 @@ export default function Header() {
           </div>
         </nav>
 
-        {/* Mobile hamburger */}
+        {/* Mobile search + hamburger */}
+        <div className="md:hidden flex items-center gap-3">
+        <SiteSearch variant="mobile" />
         <button
-          className="md:hidden"
           onClick={() => setMenuOpen(!menuOpen)}
           aria-label="Toggle menu"
           style={{
@@ -406,6 +410,7 @@ export default function Header() {
         >
           {menuOpen ? "Close" : "Menu"}
         </button>
+        </div>
       </div>
 
       {/* Mobile menu */}
