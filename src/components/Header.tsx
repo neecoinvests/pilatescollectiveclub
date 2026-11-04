@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { useState } from "react";
+import { useCallback, useState } from "react";
 
 const NAV = [
   { label: "Journal", href: "/blog" },
@@ -197,6 +197,13 @@ export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [shopOpen, setShopOpen] = useState(false);
   const [shopHovered, setShopHovered] = useState(false);
+  const [megaMaxHeight, setMegaMaxHeight] = useState<number | undefined>(undefined);
+  // Keep the Shop Gear dropdown inside the window on short laptop screens; it scrolls on its own if it is taller.
+  const megaRef = useCallback((el: HTMLDivElement | null) => {
+    if (!el) return;
+    const fit = () => setMegaMaxHeight(Math.max(240, window.innerHeight - el.getBoundingClientRect().top - 16));
+    fit();
+  }, []);
 
   return (
     <header
@@ -275,7 +282,11 @@ export default function Header() {
             {/* Mega dropdown */}
             {shopHovered && (
               <div
+                ref={megaRef}
                 style={{
+                  maxHeight: megaMaxHeight,
+                  overflowY: "auto",
+                  overscrollBehavior: "contain",
                   position: "absolute",
                   top: "calc(100% + 1px)",
                   right: 0,
