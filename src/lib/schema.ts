@@ -3,6 +3,8 @@
 // list some items without a verifiable price (brand-direct, "contact for
 // pricing"), so run every JSON-LD object through this before rendering it.
 
+import { amazonImageFor } from "@/lib/amazonImages";
+
 type Node = Record<string, unknown>;
 
 const isProduct = (t: unknown) => t === "Product" || (Array.isArray(t) && t.includes("Product"));
@@ -24,14 +26,18 @@ function validOffer(offer: unknown, fallbackUrl: unknown): Node | null {
 }
 
 // Turns a Product node into one Google accepts, or null when it cannot be valid.
+// Merchant listings also need an image: Amazon items get their product photo
+// from the Creators API data; a priced item with no real photo is not marked up
+// as a product for sale rather than shown with an unrelated picture.
 function cleanProduct(p: Node): Node | null {
   const offer = validOffer(p.offers, p.url);
-  if (offer) return { ...p, offers: offer };
+  const image = p.image ?? amazonImageFor(String(offer?.url ?? p.url ?? ""));
+  if (offer && image) return { ...p, image, offers: offer };
   if (!p.review && !p.aggregateRating) return null;
   // Reviewed products stay valid without an offer; drop an unusable one.
   const { offers: _o, ...rest } = p;
   void _o;
-  return rest;
+  return image ? { ...rest, image } : rest;
 }
 
 function clean(value: unknown): unknown {
