@@ -258,6 +258,15 @@ export const SHOP_CATEGORIES: MenuTab[] = [
         ],
       },
       {
+        label: "Advent",
+        links: [
+          { label: "Pilates & Yoga", href: "/blog/best-pilates-yoga-advent-calendars" },
+          { label: "Fitness & Gym", href: "/blog/best-fitness-gym-advent-calendars" },
+          { label: "Sports", href: "/blog/best-sports-advent-calendars" },
+          { label: "Wellness & Self-Care", href: "/blog/best-wellness-self-care-advent-calendars" },
+        ],
+      },
+      {
         label: "For someone",
         links: [
           { label: "Gifts for Girlfriend", href: "/blog/best-pilates-gifts-for-girlfriend" },

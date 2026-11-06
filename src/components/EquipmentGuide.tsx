@@ -175,7 +175,7 @@ export default function EquipmentGuide(props: EquipmentGuideProps) {
           "item": {
             "@type": "Product",
             "name": it.name,
-            "brand": { "@type": "Brand", "name": it.brand },
+            ...(it.brand ? { "brand": { "@type": "Brand", "name": it.brand } } : {}),
             "description": it.body,
             "offers": { "@type": "Offer", "priceCurrency": "USD", "price": it.price, "availability": AVAILABILITY[it.availability].schema, "url": it.url },
           },
