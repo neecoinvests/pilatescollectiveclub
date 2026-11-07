@@ -44,26 +44,6 @@ const PRODUCTS = [
   },
   {
     rank: "02",
-    name: "Rolling Storage Cart with Mesh Baskets",
-    price: "From $60",
-    verdict: "Best for props in a shared room",
-    description:
-      "A three-tier rolling cart is the single most practical answer to the shared-room problem, and it is the item most home studios end up wishing they had bought first. Everything small (bands, magic circle, balls, socks, hand weights) lives in the baskets, the whole cart rolls to where you are practising, and afterwards it rolls back against a wall or into a cupboard. That mobility removes the friction that quietly kills home practice: setting up stops being a five-minute hunt through three rooms. Mesh baskets are the right choice over solid ones because you can see what is in them and because damp bands and grip socks dry rather than sitting in still air. Check the caster quality and the total weight rating, since carts loaded with hand weights are heavier than the cheap ones expect, and look for at least one basket deep enough to take a foam roller upright.",
-    affiliateUrl: "https://www.amazon.com/s?k=3+tier+rolling+storage+cart+mesh+baskets&tag=pilatescollective-20",
-    tag: "Best for Props",
-  },
-  {
-    rank: "03",
-    name: "Wall Rail System with Hooks",
-    price: "From $35",
-    verdict: "Best for bands, straps and small props",
-    description:
-      "Resistance bands are the equipment most likely to end up in a tangled knot at the bottom of a drawer, and a tangled band is a band you do not use. A wall rail with movable hooks solves it for very little money: bands hang straight, which also extends their life, since latex stored folded or kinked develops stress points at the crease and fails there first. The same rail takes stretch straps, jump ropes, grip socks on a clip, and a magic circle hung by its pads. Movable hooks matter more than the number of hooks, as your kit changes, fixed spacing becomes wrong. For renters, adhesive rail systems rated to a few pounds each work fine for bands and straps, which weigh almost nothing; just do not hang anything heavy on them. Mount at shoulder height so long bands clear the floor.",
-    affiliateUrl: "https://www.amazon.com/s?k=wall+mounted+rail+system+with+hooks+gym+storage&tag=pilatescollective-20",
-    tag: "Best for Bands",
-  },
-  {
-    rank: "04",
     name: "SONGMICS Folding Storage Ottoman Bench",
     price: "$49.99",
     verdict: "Best for a living room that hides its equipment",
@@ -73,17 +53,7 @@ const PRODUCTS = [
     tag: "Best Hidden Storage",
   },
   {
-    rank: "05",
-    name: "Ball & Foam Roller Storage Rack",
-    price: "From $70",
-    verdict: "Best for bulky round props",
-    description:
-      "Balls and rollers are the props that defeat ordinary storage: they roll off shelves, do not stack, and take up disproportionate floor space when simply left out. A dedicated rack with cradles or a vertical tube arrangement is the only tidy answer once you own more than a couple, and if you have accumulated a stability ball, an over-ball, a couple of massage balls and two rollers, it pays for itself in reclaimed floor immediately. Freestanding versions suit a dedicated room; wall-mounted cradles are better where floor space is the constraint. The specification to check is cradle diameter, because racks sold for gym medicine balls often will not take a 55cm or 65cm stability ball, which is the item most people are actually trying to store. Confirm the largest ball you own against the stated capacity before ordering.",
-    affiliateUrl: "https://www.amazon.com/s?k=exercise+ball+and+foam+roller+storage+rack&tag=pilatescollective-20",
-    tag: "Best for Balls & Rollers",
-  },
-  {
-    rank: "06",
+    rank: "03",
     name: "Amazon Basics Collapsible Storage Bins",
     price: "$17.99",
     verdict: "Best budget and best for renters",
@@ -91,6 +61,36 @@ const PRODUCTS = [
       "Fabric bins are the least interesting option here and the most broadly useful. A set of two or three under a bed, on a shelf, or in the base of a wardrobe holds every small prop you own for the price of a single studio class, requires no mounting, no tools and no landlord conversation, and collapses flat when not needed. For anyone whose home practice consists of a mat and a handful of props, this is genuinely all the storage required, and buying a rack system instead would be solving a problem you do not have. Label them or choose bins with a clear window, because the drawback of opaque soft storage is that props become invisible and forgotten. Look for reinforced sides that hold shape when loaded: the very cheapest bins collapse inward under any weight and become impossible to pack neatly.",
     affiliateUrl: "https://www.amazon.com/dp/B07TXL7CPQ?tag=pilatescollective-20",
     tag: "Best Budget",
+  },
+  {
+    rank: "04",
+    name: "Rolling Storage Cart with Mesh Baskets",
+    price: "From $60",
+    verdict: "Best for props in a shared room",
+    description:
+      "A three-tier rolling cart is the single most practical answer to the shared-room problem, and it is the item most home studios end up wishing they had bought first. Everything small (bands, magic circle, balls, socks, hand weights) lives in the baskets, the whole cart rolls to where you are practising, and afterwards it rolls back against a wall or into a cupboard. That mobility removes the friction that quietly kills home practice: setting up stops being a five-minute hunt through three rooms. Mesh baskets are the right choice over solid ones because you can see what is in them and because damp bands and grip socks dry rather than sitting in still air. Check the caster quality and the total weight rating, since carts loaded with hand weights are heavier than the cheap ones expect, and look for at least one basket deep enough to take a foam roller upright.",
+    affiliateUrl: "https://www.amazon.com/s?k=3+tier+rolling+storage+cart+mesh+baskets&tag=pilatescollective-20",
+    tag: "Best for Props",
+  },
+  {
+    rank: "05",
+    name: "Wall Rail System with Hooks",
+    price: "From $35",
+    verdict: "Best for bands, straps and small props",
+    description:
+      "Resistance bands are the equipment most likely to end up in a tangled knot at the bottom of a drawer, and a tangled band is a band you do not use. A wall rail with movable hooks solves it for very little money: bands hang straight, which also extends their life, since latex stored folded or kinked develops stress points at the crease and fails there first. The same rail takes stretch straps, jump ropes, grip socks on a clip, and a magic circle hung by its pads. Movable hooks matter more than the number of hooks, as your kit changes, fixed spacing becomes wrong. For renters, adhesive rail systems rated to a few pounds each work fine for bands and straps, which weigh almost nothing; just do not hang anything heavy on them. Mount at shoulder height so long bands clear the floor.",
+    affiliateUrl: "https://www.amazon.com/s?k=wall+mounted+rail+system+with+hooks+gym+storage&tag=pilatescollective-20",
+    tag: "Best for Bands",
+  },
+  {
+    rank: "06",
+    name: "Ball & Foam Roller Storage Rack",
+    price: "From $70",
+    verdict: "Best for bulky round props",
+    description:
+      "Balls and rollers are the props that defeat ordinary storage: they roll off shelves, do not stack, and take up disproportionate floor space when simply left out. A dedicated rack with cradles or a vertical tube arrangement is the only tidy answer once you own more than a couple, and if you have accumulated a stability ball, an over-ball, a couple of massage balls and two rollers, it pays for itself in reclaimed floor immediately. Freestanding versions suit a dedicated room; wall-mounted cradles are better where floor space is the constraint. The specification to check is cradle diameter, because racks sold for gym medicine balls often will not take a 55cm or 65cm stability ball, which is the item most people are actually trying to store. Confirm the largest ball you own against the stated capacity before ordering.",
+    affiliateUrl: "https://www.amazon.com/s?k=exercise+ball+and+foam+roller+storage+rack&tag=pilatescollective-20",
+    tag: "Best for Balls & Rollers",
   },
 ];
 
@@ -144,7 +144,7 @@ const jsonLd = {
   ],
 };
 
-const QP_NOTES = ["Best overall storage for mats", "Best for props in a shared room", "Best for bands, straps and small props", "Best for a living room that hides its equipment", "Best for bulky round props", "Best budget and best for renters"];
+const QP_NOTES = ["Best overall storage for mats", "Best for a living room that hides its equipment", "Best budget and best for renters", "Best for props in a shared room", "Best for bands, straps and small props", "Best for bulky round props"];
 
 export default function BestPilatesEquipmentStoragePage() {
   return (

@@ -170,7 +170,7 @@ const GEAR_TOTAL = GEAR.reduce((sum, g) => sum + toNumber(g.price), 0); // 30 + 
 const classRange = (n: number) => `${Math.round(n / 45)}–${Math.round(n / 35)}`;
 
 const GLANCE: Pick[] = [MICRO, ...ACCESSORIES, MEGAFORMER];
-const ALL_ITEMS: Pick[] = [MICRO, ...ACCESSORIES, MEGAFORMER, ...ALTERNATIVES];
+const ALL_ITEMS: Pick[] = [MICRO, ...ACCESSORIES, ...ALTERNATIVES, MEGAFORMER];
 
 const FAQS = [
   {

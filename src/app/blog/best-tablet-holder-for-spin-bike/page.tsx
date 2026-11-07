@@ -44,16 +44,6 @@ const PRODUCTS = [
   },
   {
     rank: "02",
-    name: "Peloton-Compatible Tablet Tray / Shelf",
-    price: "From $42",
-    verdict: "Best for bikes with an existing screen post",
-    description:
-      "If your bike already has a screen or a screen post, a tray that sits above or in front of it is a cleaner solution than clamping a second device to the bars. Trays distribute the load across a wide flat platform instead of a single clamp point, which means they cope far better with a heavy tablet, and they leave the handlebars entirely free for your hands: worth more than it sounds when you move between positions. The important check is the mounting interface: some trays fit the Peloton screen arm specifically, others use a universal strap, and the two are not interchangeable. Also confirm the tray does not block the bike's own console or resistance knob. Best suited to riders following a class on one screen while keeping metrics on another.",
-    affiliateUrl: "https://www.amazon.com/s?k=peloton+compatible+tablet+tray+shelf+mount&tag=pilatescollective-20",
-    tag: "Best Tray",
-  },
-  {
-    rank: "03",
     name: "Lamicall Tablet Floor Stand",
     price: "$27.99",
     verdict: "Best for adjustable screen height",
@@ -63,7 +53,27 @@ const PRODUCTS = [
     tag: "Best for Neck Position",
   },
   {
+    rank: "03",
+    name: "Lamicall Spin Bike Tablet Mount",
+    price: "$19.99",
+    verdict: "Cheapest serviceable mount",
+    description:
+      "The budget end of this category is serviceable because the engineering requirement is genuinely modest: hold a light object steady on a tube. What you give up is longevity in a sweaty environment. Cheap mounts use plated steel screws and springs that corrode within months of regular use, and the plastic cradles become brittle. Two habits extend their life considerably: wipe the mount down at the end of each session rather than letting sweat dry on it, and remove the device between rides so the spring is not held under permanent tension. Check the listing states a bar diameter that covers indoor bikes, since many budget mounts are specified for slimmer road bars and will not close around a thicker indoor handlebar. Fine as a first mount to establish how you actually want the screen positioned.",
+    affiliateUrl: "https://www.amazon.com/dp/B08BZ72L5Q?tag=pilatescollective-20",
+    tag: "Best Budget",
+  },
+  {
     rank: "04",
+    name: "Peloton-Compatible Tablet Tray / Shelf",
+    price: "From $42",
+    verdict: "Best for bikes with an existing screen post",
+    description:
+      "If your bike already has a screen or a screen post, a tray that sits above or in front of it is a cleaner solution than clamping a second device to the bars. Trays distribute the load across a wide flat platform instead of a single clamp point, which means they cope far better with a heavy tablet, and they leave the handlebars entirely free for your hands: worth more than it sounds when you move between positions. The important check is the mounting interface: some trays fit the Peloton screen arm specifically, others use a universal strap, and the two are not interchangeable. Also confirm the tray does not block the bike's own console or resistance knob. Best suited to riders following a class on one screen while keeping metrics on another.",
+    affiliateUrl: "https://www.amazon.com/s?k=peloton+compatible+tablet+tray+shelf+mount&tag=pilatescollective-20",
+    tag: "Best Tray",
+  },
+  {
+    rank: "05",
     name: "Silicone Strap Phone Mount",
     price: "From $14",
     verdict: "Best for phones and minimal setups",
@@ -73,7 +83,7 @@ const PRODUCTS = [
     tag: "Best for Phones",
   },
   {
-    rank: "05",
+    rank: "06",
     name: "Wide Handlebar Tray (Laptop-Capable)",
     price: "From $55",
     verdict: "Best for large devices and note-taking",
@@ -81,16 +91,6 @@ const PRODUCTS = [
       "A full-width tray that spans the handlebars turns the bike into a workstation, which is a real use case for anyone doing steady-state endurance riding while watching something or working. The wide platform carries a laptop or a large tablet without any clamp stress, and most include a lip to stop the device sliding during braking-style resistance changes. Two caveats worth taking seriously. First, a tray this size blocks the bars, so it only suits seated riding: it is unsuitable for any class involving out-of-saddle work. Second, sweat runs off you and lands on the tray, which is directly above your device; look for a tray with a raised lip and drainage, and wipe it down every session. Not the pick for interval classes.",
     affiliateUrl: "https://www.amazon.com/s?k=wide+handlebar+tray+exercise+bike+laptop+desk&tag=pilatescollective-20",
     tag: "Best Large Tray",
-  },
-  {
-    rank: "06",
-    name: "Lamicall Spin Bike Tablet Mount",
-    price: "$19.99",
-    verdict: "Cheapest serviceable mount",
-    description:
-      "The budget end of this category is serviceable because the engineering requirement is genuinely modest: hold a light object steady on a tube. What you give up is longevity in a sweaty environment. Cheap mounts use plated steel screws and springs that corrode within months of regular use, and the plastic cradles become brittle. Two habits extend their life considerably: wipe the mount down at the end of each session rather than letting sweat dry on it, and remove the device between rides so the spring is not held under permanent tension. Check the listing states a bar diameter that covers indoor bikes, since many budget mounts are specified for slimmer road bars and will not close around a thicker indoor handlebar. Fine as a first mount to establish how you actually want the screen positioned.",
-    affiliateUrl: "https://www.amazon.com/dp/B08BZ72L5Q?tag=pilatescollective-20",
-    tag: "Best Budget",
   },
 ];
 
@@ -144,7 +144,7 @@ const jsonLd = {
   ],
 };
 
-const QP_NOTES = ["Best overall tablet holder for indoor bikes", "Best for bikes with an existing screen post", "Best for adjustable screen height", "Best for phones and minimal setups", "Best for large devices and note-taking", "Cheapest serviceable mount"];
+const QP_NOTES = ["Best overall tablet holder for indoor bikes", "Best for adjustable screen height", "Cheapest serviceable mount", "Best for bikes with an existing screen post", "Best for phones and minimal setups", "Best for large devices and note-taking"];
 
 export default function BestTabletHolderForSpinBikePage() {
   return (

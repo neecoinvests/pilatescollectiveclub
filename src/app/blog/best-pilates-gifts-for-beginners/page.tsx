@@ -59,14 +59,6 @@ const PRODUCTS = [
   },
   {
     rank: "03",
-    name: "Theraband Resistance Bands Set (6 Levels)",
-    price: "$26",
-    verdict: "Best Home Practice Accessory",
-    description: "Theraband is the clinical standard in resistance bands: the brand used in hospital physiotherapy and prescribed by sports medicine physicians. The six-level set covers every stage of a beginner's pilates progression, from the gentlest yellow band for introductory footwork and arm work to the progressively heavier colours for conditioning. The bands are pre-cut to exercise length, colour-coded, and made from a durable latex blend. For a beginner building a home practice alongside their studio classes, this set is invaluable, and at $26, it's among the most generous gifts per dollar on this list.",
-    affiliateUrl: "https://www.amazon.com/s?k=theraband+resistance+band+set+6+levels+pilates&tag=pilatescollective-20",
-  },
-  {
-    rank: "04",
     name: "Trideer Pilates Ball (9-inch)",
     price: "$7.99",
     verdict: "Best Small Equipment Gift",
@@ -74,7 +66,7 @@ const PRODUCTS = [
     affiliateUrl: "https://www.amazon.com/dp/B077QD9TFF?tag=pilatescollective-20",
   },
   {
-    rank: "05",
+    rank: "04",
     name: "Lululemon Align High-Rise Legging 25\"",
     price: "$98.00",
     verdict: "The Legging That Changes Everything",
@@ -82,12 +74,20 @@ const PRODUCTS = [
     affiliateUrl: "https://www.amazon.com/dp/B08M8ZTKJS?tag=pilatescollective-20",
   },
   {
-    rank: "06",
+    rank: "05",
     name: "\"Pilates Anatomy\" by Rael Isacowitz & Karen Clippinger",
     price: "$17.81",
     verdict: "Best Book Gift for a Beginner",
     description: "Pilates Anatomy is the definitive book on understanding pilates from the inside: why each exercise works, which muscles are targeted, and how the method develops functional strength and mobility. Written by master instructor Rael Isacowitz and kinesiologist Karen Clippinger, it includes detailed anatomical illustrations of over 45 pilates exercises. For a beginner who wants to understand their practice rather than just follow instructions, this book accelerates their progress significantly. A thoughtful gift that pairs beautifully with any of the equipment picks above.",
     affiliateUrl: "https://www.amazon.com/dp/1492567701?tag=pilatescollective-20",
+  },
+  {
+    rank: "06",
+    name: "Theraband Resistance Bands Set (6 Levels)",
+    price: "$26",
+    verdict: "Best Home Practice Accessory",
+    description: "Theraband is the clinical standard in resistance bands: the brand used in hospital physiotherapy and prescribed by sports medicine physicians. The six-level set covers every stage of a beginner's pilates progression, from the gentlest yellow band for introductory footwork and arm work to the progressively heavier colours for conditioning. The bands are pre-cut to exercise length, colour-coded, and made from a durable latex blend. For a beginner building a home practice alongside their studio classes, this set is invaluable, and at $26, it's among the most generous gifts per dollar on this list.",
+    affiliateUrl: "https://www.amazon.com/s?k=theraband+resistance+band+set+6+levels+pilates&tag=pilatescollective-20",
   },
 ];
 
@@ -175,7 +175,7 @@ const jsonLd = {
   ],
 };
 
-const QP_NOTES = ["The Ideal First Mat", "Essential Studio Gear", "Best Home Practice Accessory", "Best Small Equipment Gift", "The Legging That Changes Everything", "Best Book Gift for a Beginner"];
+const QP_NOTES = ["The Ideal First Mat", "Essential Studio Gear", "Best Small Equipment Gift", "The Legging That Changes Everything", "Best Book Gift for a Beginner", "Best Home Practice Accessory"];
 
 const ITEM_LIST = productItemList("Best Pilates Gifts for Beginners (2026)", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 

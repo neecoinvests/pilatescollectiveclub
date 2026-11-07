@@ -54,16 +54,6 @@ const PRODUCTS = [
   },
   {
     rank: "03",
-    name: "Bellababy Hands-Free Pumping Bra",
-    price: "From $28",
-    verdict: "Best practical accessory for nursing mothers",
-    description:
-      "For breastfeeding practitioners who attend Pilates classes or practice at home, a supportive hands-free pumping bra that also functions as a sports bra simplifies the logistics of fitting practice around feeding schedules. The Bellababy design provides enough compression for low-to-moderate intensity Pilates while accommodating the breast size changes of the postpartum period. The adjustable fit accounts for daily volume fluctuations. This is a practical consideration that standard Pilates accessory guides omit: the physical discomfort of a poorly fitting bra during postnatal exercise is a genuine barrier to consistent practice, and solving it directly improves adherence.",
-    affiliateUrl: "https://www.amazon.com/s?k=bellababy+hands+free+pumping+bra+sports&tag=pilatescollective-20",
-    tag: "Best for Nursing Mothers",
-  },
-  {
-    rank: "04",
     name: "Tune Up Fitness Therapy Balls (in Tote)",
     price: "$19.99",
     verdict: "Best recovery tool for tight postpartum muscles",
@@ -71,6 +61,16 @@ const PRODUCTS = [
       "Targeted soft-tissue release using a lacrosse or massage ball is one of the most effective self-care tools for postnatal practitioners dealing with the shoulder and upper back tension that accumulates from feeding, carrying, and sleep positions. Rolling the thoracic spine, releasing the pectorals against a wall, and releasing the glutes in a figure-four position can meaningfully improve the mobility available for Pilates exercises. The dense rubber lacrosse ball provides more specific pressure than a foam roller, allowing targeted release of individual muscles rather than broad compression. A set of two allows bilateral hip and glute release simultaneously.",
     affiliateUrl: "https://www.amazon.com/dp/B00ERFBX9G?tag=pilatescollective-20",
     tag: "Best Recovery Tool",
+  },
+  {
+    rank: "04",
+    name: "Bellababy Hands-Free Pumping Bra",
+    price: "From $28",
+    verdict: "Best practical accessory for nursing mothers",
+    description:
+      "For breastfeeding practitioners who attend Pilates classes or practice at home, a supportive hands-free pumping bra that also functions as a sports bra simplifies the logistics of fitting practice around feeding schedules. The Bellababy design provides enough compression for low-to-moderate intensity Pilates while accommodating the breast size changes of the postpartum period. The adjustable fit accounts for daily volume fluctuations. This is a practical consideration that standard Pilates accessory guides omit: the physical discomfort of a poorly fitting bra during postnatal exercise is a genuine barrier to consistent practice, and solving it directly improves adherence.",
+    affiliateUrl: "https://www.amazon.com/s?k=bellababy+hands+free+pumping+bra+sports&tag=pilatescollective-20",
+    tag: "Best for Nursing Mothers",
   },
   {
     rank: "05",
@@ -118,7 +118,7 @@ const jsonLd = {
   ],
 };
 
-const QP_NOTES = ["Best resistance bands for postnatal rehab", "Best mat for postnatal practice", "Best practical accessory for nursing mothers", "Best recovery tool for tight postpartum muscles", "Best postnatal exercise reference"];
+const QP_NOTES = ["Best resistance bands for postnatal rehab", "Best mat for postnatal practice", "Best recovery tool for tight postpartum muscles", "Best practical accessory for nursing mothers", "Best postnatal exercise reference"];
 
 const ITEM_LIST = productItemList("Postnatal Pilates (2026): When to Start & How to Progress", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 

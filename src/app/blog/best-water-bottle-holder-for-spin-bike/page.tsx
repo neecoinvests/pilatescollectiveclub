@@ -79,17 +79,6 @@ const PRODUCTS = [
   },
   {
     rank: "03",
-    name: "Elite Ciussi Evo Cage",
-    price: "$22",
-    verdict: "Best Grip",
-    description:
-      "Elite's Ciussi Evo has an unusually deep basket with side-entry release that prevents bottles from bouncing out during high-cadence intervals. Polypropylene construction is lightweight and non-scratch. Works with oversized bottles and hydration cups from major spin brands.",
-    affiliateUrl:
-      "https://www.amazon.com/s?k=elite+ciussi+evo+bottle+cage&tag=pilatescollective-20",
-    tag: "Best Grip",
-  },
-  {
-    rank: "04",
     name: "CyclingDeal Water Bottle Cage with Handlebar Mount",
     price: "$9.98",
     verdict: "Best Handlebar Mount",
@@ -100,7 +89,7 @@ const PRODUCTS = [
     tag: "No-Mount Solution",
   },
   {
-    rank: "05",
+    rank: "04",
     name: "Arundel Mandible Cage",
     price: "$104.95",
     verdict: "Best Premium Option",
@@ -109,6 +98,17 @@ const PRODUCTS = [
     affiliateUrl:
       "https://www.amazon.com/dp/B006M4ONN8?tag=pilatescollective-20",
     tag: "Premium",
+  },
+  {
+    rank: "05",
+    name: "Elite Ciussi Evo Cage",
+    price: "$22",
+    verdict: "Best Grip",
+    description:
+      "Elite's Ciussi Evo has an unusually deep basket with side-entry release that prevents bottles from bouncing out during high-cadence intervals. Polypropylene construction is lightweight and non-scratch. Works with oversized bottles and hydration cups from major spin brands.",
+    affiliateUrl:
+      "https://www.amazon.com/s?k=elite+ciussi+evo+bottle+cage&tag=pilatescollective-20",
+    tag: "Best Grip",
   },
   {
     rank: "06",
@@ -209,7 +209,7 @@ const jsonLd = {
   ],
 };
 
-const QP_NOTES = ["Best for Peloton", "Best adjustable cage", "Best grip", "Best handlebar mount", "Best premium option", "Best budget, 2-pack"];
+const QP_NOTES = ["Best for Peloton", "Best adjustable cage", "Best handlebar mount", "Best premium option", "Best grip", "Best budget, 2-pack"];
 
 export default function BestWaterBottleHolderPage() {
   return (

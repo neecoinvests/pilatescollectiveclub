@@ -36,26 +36,6 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
-    name: "Lululemon Free to Be Bra",
-    price: "From $48",
-    verdict: "Best overall",
-    tag: "Editor's Pick",
-    description:
-      "The Free to Be is the gold standard for Pilates. Buttery-soft Nulu fabric, a scoop neck that stays in place through every roll-down and swan, and just enough structure for medium-impact work. The internal shelf provides coverage in inversions without restrictive underwire. It is the bra your instructor is wearing: there is a reason for that. Not sold on Amazon: this link goes to Lululemon's own site.",
-    affiliateUrl: "https://shop.lululemon.com",
-  },
-  {
-    rank: "02",
-    name: "Alo Yoga Airlift Bra",
-    price: "From $62",
-    verdict: "Best for open-back studios",
-    tag: "Studio Favourite",
-    description:
-      "The Airlift Bra defines the boutique studio aesthetic. The spaghetti strap and open keyhole back look exceptional, but the real story is the fabric: Alo's signature Airlift material lifts and compresses without wires. Medium support, excellent shape retention, and the only bra in this roundup that genuinely improves with wear. One caveat: the open back requires a long tank or legging with a high waist. Not sold on Amazon: this link goes to Alo Yoga's own site.",
-    affiliateUrl: "https://www.aloyoga.com",
-  },
-  {
-    rank: "03",
     name: "Varley Topa Bra",
     price: "From $55",
     verdict: "Best boutique brand option",
@@ -65,17 +45,7 @@ const PRODUCTS = [
     affiliateUrl: "https://www.amazon.com/s?k=varley+pilates+bra&tag=pilatescollective-20",
   },
   {
-    rank: "04",
-    name: "Gymshark Flex Strappy Sports Bra",
-    price: "From $35",
-    verdict: "Best value",
-    tag: "Best Value",
-    description:
-      "At roughly half the price of Lululemon or Alo, the Gymshark Flex Strappy punches genuinely well. Medium support, good coverage through inversions, attractive strappy back detail, and the Flex fabric holds shape wash after wash. The main difference from the premium options is a slightly less luxurious fabric feel, but the functional performance is excellent for its price. Not sold on Amazon: this link goes to Gymshark's own site.",
-    affiliateUrl: "https://www.gymshark.com",
-  },
-  {
-    rank: "05",
+    rank: "02",
     name: "Girlfriend Collective Paloma Bra",
     price: "From $45",
     verdict: "Best sustainable option",
@@ -83,6 +53,36 @@ const PRODUCTS = [
     description:
       "Made from recycled plastic bottles, the Paloma Bra is an ethical choice that doesn't compromise on performance. The wide-strap racerback provides excellent shoulder coverage, the cups are well-padded, and the compression is ideal for medium-impact class. The muted, earthy colour palette fits the reformer studio aesthetic perfectly. B Corp certified, size-inclusive up to 6XL.",
     affiliateUrl: "https://www.amazon.com/s?k=girlfriend+collective+paloma+bra+sports&tag=pilatescollective-20",
+  },
+  {
+    rank: "03",
+    name: "Lululemon Free to Be Bra",
+    price: "From $48",
+    verdict: "Best overall",
+    tag: "Editor's Pick",
+    description:
+      "The Free to Be is the gold standard for Pilates. Buttery-soft Nulu fabric, a scoop neck that stays in place through every roll-down and swan, and just enough structure for medium-impact work. The internal shelf provides coverage in inversions without restrictive underwire. It is the bra your instructor is wearing: there is a reason for that. Not sold on Amazon: this link goes to Lululemon's own site.",
+    affiliateUrl: "https://shop.lululemon.com",
+  },
+  {
+    rank: "04",
+    name: "Alo Yoga Airlift Bra",
+    price: "From $62",
+    verdict: "Best for open-back studios",
+    tag: "Studio Favourite",
+    description:
+      "The Airlift Bra defines the boutique studio aesthetic. The spaghetti strap and open keyhole back look exceptional, but the real story is the fabric: Alo's signature Airlift material lifts and compresses without wires. Medium support, excellent shape retention, and the only bra in this roundup that genuinely improves with wear. One caveat: the open back requires a long tank or legging with a high waist. Not sold on Amazon: this link goes to Alo Yoga's own site.",
+    affiliateUrl: "https://www.aloyoga.com",
+  },
+  {
+    rank: "05",
+    name: "Gymshark Flex Strappy Sports Bra",
+    price: "From $35",
+    verdict: "Best value",
+    tag: "Best Value",
+    description:
+      "At roughly half the price of Lululemon or Alo, the Gymshark Flex Strappy punches genuinely well. Medium support, good coverage through inversions, attractive strappy back detail, and the Flex fabric holds shape wash after wash. The main difference from the premium options is a slightly less luxurious fabric feel, but the functional performance is excellent for its price. Not sold on Amazon: this link goes to Gymshark's own site.",
+    affiliateUrl: "https://www.gymshark.com",
   },
 ];
 
@@ -174,7 +174,7 @@ const jsonLd = {
   ],
 };
 
-const QP_NOTES = ["Best overall", "Best for open-back studios", "Best boutique brand option", "Best value", "Best sustainable option"];
+const QP_NOTES = ["Best boutique brand option", "Best sustainable option", "Best overall", "Best for open-back studios", "Best value"];
 
 export default function BestPilatesSportsBraPage() {
   return (
@@ -195,7 +195,7 @@ export default function BestPilatesSportsBraPage() {
               Best Sports Bras for Pilates<br /><span style={{ color: "#8b4a31" }}>(2026): Coverage & Style</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 8 min read</p>
-            <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
+            <TopPick name={PRODUCTS[2].name} price={PRODUCTS[2].price} note={QP_NOTES[2]} url={PRODUCTS[2].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               The sports bra question matters more in Pilates than in almost any other workout. Your instructor needs to see your ribcage expansion during breathing, your shoulder blade position during rowing, and your spinal curve through every transition. The wrong bra (overly padded, poorly fitted, or with thick crossing straps) obscures exactly the landmarks your instructor uses to cue you. This guide covers the five best options for every studio scenario and price point.

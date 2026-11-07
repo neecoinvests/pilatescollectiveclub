@@ -54,15 +54,6 @@ const PRODUCTS = [
   },
   {
     rank: 3,
-    name: "TheraBand CLX Resistance Band Set",
-    price: "~$28",
-    verdict: "Best resistance bands for Pilates men",
-    description: "Resistance bands bridge the gap between Pilates and the strength training most men have a background in: they allow you to add progressive overload to the arm and shoulder curriculum while maintaining the control and precision the method requires. TheraBand CLX bands are the clinical standard: interconnected loops that allow grip-free use during footwork alternatives and footbar-free exercises. The set includes three resistance levels (Light, Medium, Heavy) which cover the full range from fine motor shoulder stabilisation to loaded hip extension. Unlike tube bands, the CLX flat-band construction distributes load evenly across the hand and foot, matching the feel of reformer strap work.",
-    affiliateUrl: "https://www.amazon.com/s?k=theraband+clx+resistance+band+set&tag=pilatescollective-20",
-    tag: "pilatescollective-20",
-  },
-  {
-    rank: 4,
     name: "OPTP PRO-ROLLER Foam Roller (36\")",
     price: "$62.99",
     verdict: "Best foam roller for Pilates men",
@@ -71,21 +62,30 @@ const PRODUCTS = [
     tag: "pilatescollective-20",
   },
   {
-    rank: 5,
-    name: "Elina Pilates Arc Barrel",
-    price: "~$280",
-    verdict: "Best Pilates arc barrel for men",
-    description: "The arc barrel (spine corrector) is the single most important piece of Pilates equipment for men who spend long hours seated or who have anterior pelvic tilt, which is most men. The arc's contoured profile opens the thoracic spine into extension, stretches the hip flexors in a supported position, and creates the anterior-posterior pressure needed to engage deep paraspinal muscles that standard mat work misses entirely. Elina Pilates makes one of the most durable and dimensionally accurate arc barrels available: dense closed-cell foam over a solid wood base, with a curve radius that matches the physiological thoracic extension angle. Used in professional studios worldwide. Not sold on Amazon: this link goes to Elina Pilates's own site.",
-    affiliateUrl: "https://www.elinapilates.com",
-    tag: "pilatescollective-20",
-  },
-  {
-    rank: 6,
+    rank: 4,
     name: "Align-Pilates C8 Pro Reformer",
     price: "$2,750.00",
     verdict: "Best home reformer for men",
     description: "For men who are serious about taking a home Pilates practice beyond mat work, the Align-Pilates C8 Pro is the best reformer. The 240cm frame accommodates practitioners up to 6'2\", the calibrated spring system provides a genuine professional-grade resistance profile (not the elastic cord systems found in cheaper machines), and the fold-flat mechanism collapses to a manageable footprint without compromising spring geometry. The C8 Pro is the machine most frequently recommended by instructors to male home practitioners: sturdy enough to not shift during powerful footwork, spring-responsive enough for the precision control work, and priced significantly below equivalent Balanced Body or Merrithew machines.",
     affiliateUrl: "https://www.amazon.com/dp/B099ZJ4C25?tag=pilatescollective-20",
+    tag: "pilatescollective-20",
+  },
+  {
+    rank: 5,
+    name: "TheraBand CLX Resistance Band Set",
+    price: "~$28",
+    verdict: "Best resistance bands for Pilates men",
+    description: "Resistance bands bridge the gap between Pilates and the strength training most men have a background in: they allow you to add progressive overload to the arm and shoulder curriculum while maintaining the control and precision the method requires. TheraBand CLX bands are the clinical standard: interconnected loops that allow grip-free use during footwork alternatives and footbar-free exercises. The set includes three resistance levels (Light, Medium, Heavy) which cover the full range from fine motor shoulder stabilisation to loaded hip extension. Unlike tube bands, the CLX flat-band construction distributes load evenly across the hand and foot, matching the feel of reformer strap work.",
+    affiliateUrl: "https://www.amazon.com/s?k=theraband+clx+resistance+band+set&tag=pilatescollective-20",
+    tag: "pilatescollective-20",
+  },
+  {
+    rank: 6,
+    name: "Elina Pilates Arc Barrel",
+    price: "~$280",
+    verdict: "Best Pilates arc barrel for men",
+    description: "The arc barrel (spine corrector) is the single most important piece of Pilates equipment for men who spend long hours seated or who have anterior pelvic tilt, which is most men. The arc's contoured profile opens the thoracic spine into extension, stretches the hip flexors in a supported position, and creates the anterior-posterior pressure needed to engage deep paraspinal muscles that standard mat work misses entirely. Elina Pilates makes one of the most durable and dimensionally accurate arc barrels available: dense closed-cell foam over a solid wood base, with a curve radius that matches the physiological thoracic extension angle. Used in professional studios worldwide. Not sold on Amazon: this link goes to Elina Pilates's own site.",
+    affiliateUrl: "https://www.elinapilates.com",
     tag: "pilatescollective-20",
   },
 ];
@@ -134,7 +134,7 @@ const jsonLd = {
   ],
 };
 
-const QP_NOTES = ["Best Pilates mat for men", "Best Pilates ring for men", "Best resistance bands for Pilates men", "Best foam roller for Pilates men", "Best Pilates arc barrel for men", "Best home reformer for men"];
+const QP_NOTES = ["Best Pilates mat for men", "Best Pilates ring for men", "Best foam roller for Pilates men", "Best home reformer for men", "Best resistance bands for Pilates men", "Best Pilates arc barrel for men"];
 
 const ITEM_LIST = productItemList("Best Pilates Equipment for Men (2026): Reformers & Gear", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 

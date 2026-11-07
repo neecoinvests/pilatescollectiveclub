@@ -34,16 +34,6 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
-    name: "Lululemon Commuter Backpack",
-    price: "From $148",
-    verdict: "Best overall bag for men",
-    description:
-      "The Lululemon Commuter Backpack is the bag that makes the most sense for men whose Pilates practice is part of a broader daily routine: it handles a full studio kit while functioning equally well as a work and travel bag. The capacity is substantial without the bag reading as a gym bag in professional contexts, and the organisation is genuinely considered: a dedicated laptop compartment, interior organisation for a studio kit including shoes and a change of clothes, and external pockets positioned for things that need to be accessed without opening the main compartment. The padded back panel and shoulder straps are comfortable across both short studio commutes and longer travel days. Build quality is consistent with Lululemon's premium positioning. Not sold on Amazon: this link goes to Lululemon's own site.",
-    affiliateUrl: "https://shop.lululemon.com",
-    tag: "Editor's Pick",
-  },
-  {
-    rank: "02",
     name: "Herschel Novel Duffel Bag",
     price: "$109.99",
     verdict: "Best duffel for men",
@@ -53,7 +43,7 @@ const PRODUCTS = [
     tag: "Best Duffel",
   },
   {
-    rank: "03",
+    rank: "02",
     name: "Nike Brasilia 9.5 Gym Bag",
     price: "$49.99",
     verdict: "Best value bag for men",
@@ -63,17 +53,7 @@ const PRODUCTS = [
     tag: "Best Value",
   },
   {
-    rank: "04",
-    name: "Vuori Ripstop Duffel",
-    price: "From $98",
-    verdict: "Best aesthetic bag for men",
-    description:
-      "Vuori's Ripstop Duffel is the studio bag for men who care about how their kit looks as much as how it performs. The ripstop nylon construction is durable and distinctive without being loud, and the silhouette reads as considered rather than athletic: a bag you'd take to a premium reformer studio and also carry to a weekend away. The capacity suits a full studio kit, the organisation is clean and functional, and the hardware quality reflects the premium price. For practitioners at premium boutique studios where the gear in the changing room receives its own quiet appraisal, the Vuori positions correctly: functional enough to be the everyday bag, refined enough not to look like a concession. Not sold on Amazon: this link goes to Vuori's own site.",
-    affiliateUrl: "https://vuoriclothing.com",
-    tag: "Best Aesthetic",
-  },
-  {
-    rank: "05",
+    rank: "03",
     name: "Adidas Linear Duffel",
     price: "$46.00",
     verdict: "Best budget bag for men",
@@ -83,7 +63,7 @@ const PRODUCTS = [
     tag: "Best Budget",
   },
   {
-    rank: "06",
+    rank: "04",
     name: "Manduka Go Steady Bag",
     price: "From $72",
     verdict: "Best tote for men",
@@ -91,6 +71,26 @@ const PRODUCTS = [
       "Manduka's Go Steady Bag is the structured tote option for male practitioners who prefer a tote carry over a duffel: a less common choice for men, but one that suits those whose Pilates session is part of a lighter day with a smaller kit. The structured design holds its shape fully loaded or empty, with a reinforced base that sits cleanly on studio benches and locker-room floors. The organisation is comprehensive for a tote format: multiple interior pockets, a secure zip closure, and a key hook. The durable construction is characteristic of Manduka's broader range, and the bag handles daily studio use over years without the structural degradation that cheaper totes experience. A sound choice for the minimalist male practitioner.",
     affiliateUrl: "https://www.amazon.com/s?k=manduka+go+steady+3.0+tote+bag&tag=pilatescollective-20",
     tag: "Best Tote",
+  },
+  {
+    rank: "05",
+    name: "Lululemon Commuter Backpack",
+    price: "From $148",
+    verdict: "Best overall bag for men",
+    description:
+      "The Lululemon Commuter Backpack is the bag that makes the most sense for men whose Pilates practice is part of a broader daily routine: it handles a full studio kit while functioning equally well as a work and travel bag. The capacity is substantial without the bag reading as a gym bag in professional contexts, and the organisation is genuinely considered: a dedicated laptop compartment, interior organisation for a studio kit including shoes and a change of clothes, and external pockets positioned for things that need to be accessed without opening the main compartment. The padded back panel and shoulder straps are comfortable across both short studio commutes and longer travel days. Build quality is consistent with Lululemon's premium positioning. Not sold on Amazon: this link goes to Lululemon's own site.",
+    affiliateUrl: "https://shop.lululemon.com",
+    tag: "Editor's Pick",
+  },
+  {
+    rank: "06",
+    name: "Vuori Ripstop Duffel",
+    price: "From $98",
+    verdict: "Best aesthetic bag for men",
+    description:
+      "Vuori's Ripstop Duffel is the studio bag for men who care about how their kit looks as much as how it performs. The ripstop nylon construction is durable and distinctive without being loud, and the silhouette reads as considered rather than athletic: a bag you'd take to a premium reformer studio and also carry to a weekend away. The capacity suits a full studio kit, the organisation is clean and functional, and the hardware quality reflects the premium price. For practitioners at premium boutique studios where the gear in the changing room receives its own quiet appraisal, the Vuori positions correctly: functional enough to be the everyday bag, refined enough not to look like a concession. Not sold on Amazon: this link goes to Vuori's own site.",
+    affiliateUrl: "https://vuoriclothing.com",
+    tag: "Best Aesthetic",
   },
 ];
 
@@ -143,7 +143,7 @@ const jsonLd = {
   ],
 };
 
-const QP_NOTES = ["Best overall bag for men", "Best duffel for men", "Best value bag for men", "Best aesthetic bag for men", "Best budget bag for men", "Best tote for men"];
+const QP_NOTES = ["Best duffel for men", "Best value bag for men", "Best budget bag for men", "Best tote for men", "Best overall bag for men", "Best aesthetic bag for men"];
 
 export default function BestPilatesBagMenPage() {
   return (
@@ -162,7 +162,7 @@ export default function BestPilatesBagMenPage() {
               Best Pilates Bags<br /><span style={{ color: "#8b4a31" }}>for Men (2026)</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 7 min read</p>
-            <TopPick name={PRODUCTS[1].name} price={PRODUCTS[1].price} note={QP_NOTES[1]} url={PRODUCTS[1].affiliateUrl} />
+            <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               The bag requirements for men attending Pilates are straightforward in principle and poorly served in practice: enough capacity for a men's kit change, a proper shoe compartment, and a design that doesn't read as a gym bag in every other context of the day. Most dedicated gym bags solve only the capacity problem and ignore the rest. These six options have been selected for male Pilates practitioners specifically: prioritising shoe compartment quality, organisation that suits a studio kit, and designs that hold up in the kinds of premium studio environments where Pilates increasingly takes place.

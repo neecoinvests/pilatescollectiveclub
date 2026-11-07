@@ -51,14 +51,6 @@ const PRODUCTS = [
   },
   {
     rank: "02",
-    name: "Alo Yoga Airlift 7/8 Legging",
-    price: "$114",
-    verdict: "The Luxury Upgrade",
-    description: "Alo's Airlift is the legging that has taken over reformer studios from New York to Los Angeles. The Airlift fabric delivers precise, sculpting compression that looks incredible and moves even better. The wide waistband stays put through every footbar press, teaser, and long-stretch. Available in Alo's signature neutral palette (bone, espresso, midnight) these are the leggings she'll wear from class to brunch without changing. A genuinely impressive gift that signals you understand what she cares about. Not sold on Amazon: this link goes to Alo Yoga's own site.",
-    affiliateUrl: "https://www.aloyoga.com",
-  },
-  {
-    rank: "03",
     name: "Manduka PRO Yoga & Pilates Mat",
     price: "$144.00",
     verdict: "Best Mat Gift",
@@ -66,15 +58,7 @@ const PRODUCTS = [
     affiliateUrl: "https://www.amazon.com/dp/B0066T7I54?tag=pilatescollective-20",
   },
   {
-    rank: "04",
-    name: "Lululemon Everywhere Belt Bag Large 2L",
-    price: "$38",
-    verdict: "Best Pilates Bag Gift",
-    description: "The Lululemon belt bag has become the unofficial pilates studio accessory: nearly every practitioner has one clipped to their bag or hung on the studio hook. The large 2L version fits her phone, keys, cards, lip balm, and a snack. It's made from a water-repellent ripstop fabric, has a quick-access front zip, and comes in a wide range of seasonal colours. At $48 it's a thoughtful gift at a very reasonable price point, and she will use it every single day. Not sold on Amazon: this link goes to Lululemon's own site.",
-    affiliateUrl: "https://shop.lululemon.com",
-  },
-  {
-    rank: "05",
+    rank: "03",
     name: "ToeSox Half-Toe Grip Socks",
     price: "$16.00",
     verdict: "Essential Studio Accessory",
@@ -82,12 +66,28 @@ const PRODUCTS = [
     affiliateUrl: "https://www.amazon.com/dp/B00VLMY04S?tag=pilatescollective-20",
   },
   {
-    rank: "06",
+    rank: "04",
     name: "Theraband Professional Resistance Band Set",
     price: "$19.47",
     verdict: "Best Training Accessory",
     description: "Theraband is the clinical standard in physical therapy and Pilates training: the brand that actual physiotherapists prescribe and the bands most certified Pilates instructors keep in their kit. The professional set includes six resistance levels from yellow (light) to black (extra-heavy). Perfect for at-home pilates practice, pre-class warm-up, and post-class stretching. At $26, this is the highest-value-per-dollar gift on this list: she'll use these for years.",
     affiliateUrl: "https://www.amazon.com/dp/B07RF9FYM6?tag=pilatescollective-20",
+  },
+  {
+    rank: "05",
+    name: "Alo Yoga Airlift 7/8 Legging",
+    price: "$114",
+    verdict: "The Luxury Upgrade",
+    description: "Alo's Airlift is the legging that has taken over reformer studios from New York to Los Angeles. The Airlift fabric delivers precise, sculpting compression that looks incredible and moves even better. The wide waistband stays put through every footbar press, teaser, and long-stretch. Available in Alo's signature neutral palette (bone, espresso, midnight) these are the leggings she'll wear from class to brunch without changing. A genuinely impressive gift that signals you understand what she cares about. Not sold on Amazon: this link goes to Alo Yoga's own site.",
+    affiliateUrl: "https://www.aloyoga.com",
+  },
+  {
+    rank: "06",
+    name: "Lululemon Everywhere Belt Bag Large 2L",
+    price: "$38",
+    verdict: "Best Pilates Bag Gift",
+    description: "The Lululemon belt bag has become the unofficial pilates studio accessory: nearly every practitioner has one clipped to their bag or hung on the studio hook. The large 2L version fits her phone, keys, cards, lip balm, and a snack. It's made from a water-repellent ripstop fabric, has a quick-access front zip, and comes in a wide range of seasonal colours. At $48 it's a thoughtful gift at a very reasonable price point, and she will use it every single day. Not sold on Amazon: this link goes to Lululemon's own site.",
+    affiliateUrl: "https://shop.lululemon.com",
   },
 ];
 
@@ -146,7 +146,7 @@ const jsonLd = {
   ],
 };
 
-const QP_NOTES = ["The Gold Standard Gift", "The Luxury Upgrade", "Best Mat Gift", "Best Pilates Bag Gift", "Essential Studio Accessory", "Best Training Accessory"];
+const QP_NOTES = ["The Gold Standard Gift", "Best Mat Gift", "Essential Studio Accessory", "Best Training Accessory", "The Luxury Upgrade", "Best Pilates Bag Gift"];
 
 const ITEM_LIST = productItemList("Best Pilates Gifts for Your Girlfriend (2026)", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 

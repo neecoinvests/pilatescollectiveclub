@@ -34,26 +34,6 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
-    name: "Manduka eQua Yoga Hand Towel & Mat Towel",
-    price: "From $22 (hand) / $68 (mat)",
-    verdict: "Best overall mat towel for Pilates",
-    description:
-      "The Manduka eQua is the benchmark yoga and Pilates mat towel, and its dominance in studio changing rooms is earned: the ultrafine microfibre construction absorbs moisture faster than standard terry cloth, the silicone grip dots on the underside anchor the towel to any Pilates mat surface without shifting during movement transitions, and the full-length 68x24 inch format covers a standard Pilates mat completely with no exposed mat edges. The grip quality improves as the towel dampens: the microfibre fibres lock to the mat surface under moisture, which is the inverse of most materials that become more slippery when wet. This makes the eQua specifically well-suited to heated Pilates and Lagree classes where perspiration accumulates progressively through the session. The towel is machine washable at 30°C and dries within 60 minutes. The eQua hand towel (16x12 inches) is the companion piece for equipment wipe-down between exercises. Available in over 20 colourways. The Manduka eQua is the towel Pilates instructors are most likely to recommend to their students.",
-    affiliateUrl: "https://www.amazon.com/s?k=manduka+equa+yoga+mat+towel&tag=pilatescollective-20",
-    tag: "Editor's Pick",
-  },
-  {
-    rank: "02",
-    name: "Liforme Yoga Mat Towel",
-    price: "From $78",
-    verdict: "Best premium grippy mat towel",
-    description:
-      "The Liforme Yoga Mat Towel is the premium alternative to the Manduka eQua and the choice for practitioners who prioritise maximum grip security over all other criteria. Liforme's GripForLife technology, a proprietary microfibre weave that provides friction in all directions simultaneously, eliminates the directional grip limitation found in standard towels where grip is high longitudinally but lower laterally. For Pilates specifically, this matters during side-lying exercises and rotational movements where lateral forces challenge towel positioning. The Liforme towel is 68x24 inches with a silicone underside grip that is the most aggressive on this list: the towel does not shift on any mat surface. The microfibre face absorbs sweat immediately without beading. At $78 it is the most expensive mat towel on this list, but the Liforme brand's commitment to grip quality means it genuinely outperforms the Manduka eQua in wet conditions. For practitioners in heated Pilates studios who experience towel slippage with other products, the Liforme is the solution.",
-    affiliateUrl: "https://www.amazon.com/s?k=liforme+yoga+mat+towel&tag=pilatescollective-20",
-    tag: "Best Grip Performance",
-  },
-  {
-    rank: "03",
     name: "Gaiam Yoga Mat Towel (Full Length)",
     price: "$17.64",
     verdict: "Best mid-price mat towel",
@@ -63,7 +43,7 @@ const PRODUCTS = [
     tag: "Best Mid-Price",
   },
   {
-    rank: "04",
+    rank: "02",
     name: "Shandali Hot Yoga Towel (Non-Slip)",
     price: "$19.99",
     verdict: "Best for heated Pilates and Lagree",
@@ -73,7 +53,7 @@ const PRODUCTS = [
     tag: "Best for Heated Classes",
   },
   {
-    rank: "05",
+    rank: "03",
     name: "IUGA Non-Slip Yoga Mat Towel",
     price: "$22.99",
     verdict: "Best budget full-coverage towel",
@@ -81,6 +61,26 @@ const PRODUCTS = [
       "The IUGA Non-Slip Mat Towel is the correct entry-level recommendation for practitioners new to using mat towels who want to assess whether a full-coverage towel improves their practice before committing to premium pricing. The microfibre construction is thinner than the Manduka eQua and Shandali, which reduces sweat absorption capacity but also reduces drying time significantly: the IUGA towel dries in 30–40 minutes versus 60 minutes for heavier towels. The silicone grip dots on the underside prevent shifting during standard temperature Pilates sessions. The 72x24 inch format provides full mat coverage with some overhang. The IUGA towel is machine washable and available in multiple colourways. The thinner microfibre makes it less suitable for heavy-sweat heated environments, but for standard studio Pilates where a hygiene layer and moderate grip improvement are the primary goals, the IUGA performs reliably at its price point.",
     affiliateUrl: "https://www.amazon.com/dp/B0719NT7KL?tag=pilatescollective-20",
     tag: "Best Budget",
+  },
+  {
+    rank: "04",
+    name: "Manduka eQua Yoga Hand Towel & Mat Towel",
+    price: "From $22 (hand) / $68 (mat)",
+    verdict: "Best overall mat towel for Pilates",
+    description:
+      "The Manduka eQua is the benchmark yoga and Pilates mat towel, and its dominance in studio changing rooms is earned: the ultrafine microfibre construction absorbs moisture faster than standard terry cloth, the silicone grip dots on the underside anchor the towel to any Pilates mat surface without shifting during movement transitions, and the full-length 68x24 inch format covers a standard Pilates mat completely with no exposed mat edges. The grip quality improves as the towel dampens: the microfibre fibres lock to the mat surface under moisture, which is the inverse of most materials that become more slippery when wet. This makes the eQua specifically well-suited to heated Pilates and Lagree classes where perspiration accumulates progressively through the session. The towel is machine washable at 30°C and dries within 60 minutes. The eQua hand towel (16x12 inches) is the companion piece for equipment wipe-down between exercises. Available in over 20 colourways. The Manduka eQua is the towel Pilates instructors are most likely to recommend to their students.",
+    affiliateUrl: "https://www.amazon.com/s?k=manduka+equa+yoga+mat+towel&tag=pilatescollective-20",
+    tag: "Editor's Pick",
+  },
+  {
+    rank: "05",
+    name: "Liforme Yoga Mat Towel",
+    price: "From $78",
+    verdict: "Best premium grippy mat towel",
+    description:
+      "The Liforme Yoga Mat Towel is the premium alternative to the Manduka eQua and the choice for practitioners who prioritise maximum grip security over all other criteria. Liforme's GripForLife technology, a proprietary microfibre weave that provides friction in all directions simultaneously, eliminates the directional grip limitation found in standard towels where grip is high longitudinally but lower laterally. For Pilates specifically, this matters during side-lying exercises and rotational movements where lateral forces challenge towel positioning. The Liforme towel is 68x24 inches with a silicone underside grip that is the most aggressive on this list: the towel does not shift on any mat surface. The microfibre face absorbs sweat immediately without beading. At $78 it is the most expensive mat towel on this list, but the Liforme brand's commitment to grip quality means it genuinely outperforms the Manduka eQua in wet conditions. For practitioners in heated Pilates studios who experience towel slippage with other products, the Liforme is the solution.",
+    affiliateUrl: "https://www.amazon.com/s?k=liforme+yoga+mat+towel&tag=pilatescollective-20",
+    tag: "Best Grip Performance",
   },
   {
     rank: "06",
@@ -143,7 +143,7 @@ const jsonLd = {
   ],
 };
 
-const QP_NOTES = ["Best overall mat towel for Pilates", "Best premium grippy mat towel", "Best mid-price mat towel", "Best for heated Pilates and Lagree", "Best budget full-coverage towel", "Best equipment wipe-down towel"];
+const QP_NOTES = ["Best mid-price mat towel", "Best for heated Pilates and Lagree", "Best budget full-coverage towel", "Best overall mat towel for Pilates", "Best premium grippy mat towel", "Best equipment wipe-down towel"];
 
 export default function BestYogaMatTowelForPilatesPage() {
   return (
@@ -162,7 +162,7 @@ export default function BestYogaMatTowelForPilatesPage() {
               Best Yoga Mat Towel<br /><span style={{ color: "#8b4a31" }}>for Pilates (2026)</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 6 min read</p>
-            <TopPick name={PRODUCTS[2].name} price={PRODUCTS[2].price} note={QP_NOTES[2]} url={PRODUCTS[2].affiliateUrl} />
+            <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               A mat towel serves two functions in a Pilates context: hygiene and grip. For standard temperature studios the hygiene function is the primary use case: a personal towel layer between skin and a shared or well-used mat. For heated Pilates and Lagree sessions, grip becomes equally important as perspiration reduces the mat&apos;s natural friction. These six towels have been selected for how well they perform at both functions, with specific attention to grip behaviour under moisture: the condition where most mat towels fail.

@@ -46,6 +46,16 @@ const PRODUCTS = [
   },
   {
     rank: "02",
+    name: "Lululemon Define Jacket",
+    price: "$188.00",
+    verdict: "Best Lululemon piece for between-class wear",
+    description:
+      "The Define Jacket solves the transition problem elegantly: from reformer class to the street without a full outfit change. The fitted silhouette is appropriate over a tank and leggings without looking like a sports jacket. The fabric is substantial enough for cool weather but breathable enough to wear immediately post-class without overheating. The full zip and clean exterior design means it works over Pilates studio wear in contexts where activewear alone reads as underdressed. For practitioners who go directly to work, lunch, or other commitments after a morning class, the Define is the piece that makes this transition practical.",
+    affiliateUrl: "https://www.amazon.com/dp/B0CMYVDPQ6?tag=pilatescollective-20",
+    tag: "Studio to Street",
+  },
+  {
+    rank: "03",
     name: "Lululemon Align Bra (Light Support)",
     price: "From $58",
     verdict: "Best Lululemon bra for Pilates",
@@ -55,7 +65,7 @@ const PRODUCTS = [
     tag: "Best Bra",
   },
   {
-    rank: "03",
+    rank: "04",
     name: "Lululemon Align Tank Top",
     price: "From $68",
     verdict: "Best Lululemon tank for Pilates",
@@ -65,7 +75,7 @@ const PRODUCTS = [
     tag: "Best Tank",
   },
   {
-    rank: "04",
+    rank: "05",
     name: "Lululemon Flow Y Bra (Medium Support)",
     price: "From $68",
     verdict: "Best Lululemon bra for dynamic classes",
@@ -73,16 +83,6 @@ const PRODUCTS = [
       "For practitioners who find the Align Bra insufficient during jump board sessions, more dynamic reformer classes, or mat work with significant movement variation, the Flow Y provides medium support without sacrificing the comfort required for lying positions. The Y-shaped back allows the same shoulder mobility as the Align Bra while providing meaningfully more hold. The wider band sits comfortably at the ribcage without the digging that narrower-band medium-support bras often cause during bridge and shoulder work. The Flow Y is the Lululemon bra that active reformer practitioners choose when the Align Bra doesn't quite hold enough. Not sold on Amazon: this link goes to Lululemon's own site.",
     affiliateUrl: "https://shop.lululemon.com",
     tag: "Dynamic Classes",
-  },
-  {
-    rank: "05",
-    name: "Lululemon Define Jacket",
-    price: "$188.00",
-    verdict: "Best Lululemon piece for between-class wear",
-    description:
-      "The Define Jacket solves the transition problem elegantly: from reformer class to the street without a full outfit change. The fitted silhouette is appropriate over a tank and leggings without looking like a sports jacket. The fabric is substantial enough for cool weather but breathable enough to wear immediately post-class without overheating. The full zip and clean exterior design means it works over Pilates studio wear in contexts where activewear alone reads as underdressed. For practitioners who go directly to work, lunch, or other commitments after a morning class, the Define is the piece that makes this transition practical.",
-    affiliateUrl: "https://www.amazon.com/dp/B0CMYVDPQ6?tag=pilatescollective-20",
-    tag: "Studio to Street",
   },
 ];
 
@@ -121,7 +121,7 @@ const jsonLd = {
   ],
 };
 
-const QP_NOTES = ["The definitive Pilates legging", "Best Lululemon bra for Pilates", "Best Lululemon tank for Pilates", "Best Lululemon bra for dynamic classes", "Best Lululemon piece for between-class wear"];
+const QP_NOTES = ["The definitive Pilates legging", "Best Lululemon piece for between-class wear", "Best Lululemon bra for Pilates", "Best Lululemon tank for Pilates", "Best Lululemon bra for dynamic classes"];
 
 const ITEM_LIST = productItemList("Lululemon for Pilates (2026): Align vs Wunder Train", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 

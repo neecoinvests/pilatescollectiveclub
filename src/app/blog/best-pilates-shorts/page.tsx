@@ -36,26 +36,6 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
-    name: "Lululemon Align High-Rise Short",
-    price: "From $68",
-    verdict: "Best biker short",
-    tag: "Editor's Pick",
-    description:
-      "The Align fabric is the softest thing in activewear, and the shorts version delivers all the properties that make the legging famous: buttery compression, excellent stretch, and absolute opacity through the full movement range. The 6-inch inseam provides full reformer coverage without the restriction of a legging. Instructors get clear sightlines to the hip and knee alignment, which is the point. Not sold on Amazon: this link goes to Lululemon's own site.",
-    affiliateUrl: "https://shop.lululemon.com",
-  },
-  {
-    rank: "02",
-    name: "Alo Yoga Airbrushed Short",
-    price: "From $62",
-    verdict: "Best for studio aesthetics",
-    tag: "Studio Favourite",
-    description:
-      "The Airbrush short is a boutique studio staple for good reason. The high-waist sculpted design creates a clean silhouette from footwork to standing work, the compression is consistent and non-restrictive, and the 5-inch inseam keeps coverage during all seated and supine work. Available in an extensive colour range including the neutrals that define the reformer studio look. Not sold on Amazon: this link goes to Alo Yoga's own site.",
-    affiliateUrl: "https://www.aloyoga.com",
-  },
-  {
-    rank: "03",
     name: "Splits59 Airweight Short",
     price: "$68.00",
     verdict: "Best premium option",
@@ -65,17 +45,7 @@ const PRODUCTS = [
     affiliateUrl: "https://www.amazon.com/dp/B08BQ9QG3Z?tag=pilatescollective-20",
   },
   {
-    rank: "04",
-    name: "Vuori Daily Short",
-    price: "From $68",
-    verdict: "Best for men",
-    tag: "Men's Pick",
-    description:
-      "Most Pilates apparel brands produce almost nothing usable for men. The Vuori Daily Short is the exception: a 5-inch inseam in a soft, four-way stretch fabric with enough compression to stay in place through all reformer work without being uncomfortably tight. Clean design, no logos, and a colour range that fits the reformer studio environment. Not sold on Amazon: this link goes to Vuori's own site.",
-    affiliateUrl: "https://vuoriclothing.com",
-  },
-  {
-    rank: "05",
+    rank: "02",
     name: "CRZ YOGA Butterluxe Biker Short",
     price: "$24.00",
     verdict: "Best budget option",
@@ -83,6 +53,36 @@ const PRODUCTS = [
     description:
       "CRZ YOGA produces some of the best Lululemon alternatives on the market, and the Butterluxe biker short is a genuine contender at a third of the price. The fabric drape mimics Align's Nulu well, opacity is excellent, and the high-rise waistband is stable through all mat work. For those who want the biker short experience without the Lululemon price, this is the obvious choice.",
     affiliateUrl: "https://www.amazon.com/dp/B0B287V65J?tag=pilatescollective-20",
+  },
+  {
+    rank: "03",
+    name: "Lululemon Align High-Rise Short",
+    price: "From $68",
+    verdict: "Best biker short",
+    tag: "Editor's Pick",
+    description:
+      "The Align fabric is the softest thing in activewear, and the shorts version delivers all the properties that make the legging famous: buttery compression, excellent stretch, and absolute opacity through the full movement range. The 6-inch inseam provides full reformer coverage without the restriction of a legging. Instructors get clear sightlines to the hip and knee alignment, which is the point. Not sold on Amazon: this link goes to Lululemon's own site.",
+    affiliateUrl: "https://shop.lululemon.com",
+  },
+  {
+    rank: "04",
+    name: "Alo Yoga Airbrushed Short",
+    price: "From $62",
+    verdict: "Best for studio aesthetics",
+    tag: "Studio Favourite",
+    description:
+      "The Airbrush short is a boutique studio staple for good reason. The high-waist sculpted design creates a clean silhouette from footwork to standing work, the compression is consistent and non-restrictive, and the 5-inch inseam keeps coverage during all seated and supine work. Available in an extensive colour range including the neutrals that define the reformer studio look. Not sold on Amazon: this link goes to Alo Yoga's own site.",
+    affiliateUrl: "https://www.aloyoga.com",
+  },
+  {
+    rank: "05",
+    name: "Vuori Daily Short",
+    price: "From $68",
+    verdict: "Best for men",
+    tag: "Men's Pick",
+    description:
+      "Most Pilates apparel brands produce almost nothing usable for men. The Vuori Daily Short is the exception: a 5-inch inseam in a soft, four-way stretch fabric with enough compression to stay in place through all reformer work without being uncomfortably tight. Clean design, no logos, and a colour range that fits the reformer studio environment. Not sold on Amazon: this link goes to Vuori's own site.",
+    affiliateUrl: "https://vuoriclothing.com",
   },
 ];
 
@@ -174,7 +174,7 @@ const jsonLd = {
   ],
 };
 
-const QP_NOTES = ["Best biker short", "Best for studio aesthetics", "Best premium option", "Best for men", "Best budget option"];
+const QP_NOTES = ["Best premium option", "Best budget option", "Best biker short", "Best for studio aesthetics", "Best for men"];
 
 export default function BestPilatesShortsPage() {
   return (
@@ -195,7 +195,7 @@ export default function BestPilatesShortsPage() {
               Best Pilates Shorts<br /><span style={{ color: "#8b4a31" }}>(2026): Reformer & Mat</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 7 min read</p>
-            <TopPick name={PRODUCTS[2].name} price={PRODUCTS[2].price} note={QP_NOTES[2]} url={PRODUCTS[2].affiliateUrl} />
+            <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Shorts give your instructor something leggings don't: a direct view of your knee tracking, hip alignment, and thigh engagement through every exercise. At most boutique reformer studios, biker shorts have largely displaced leggings as the preferred bottom. This guide covers the five best options, from the gold standard Lululemon Align short to the value champion that costs a third of the price.

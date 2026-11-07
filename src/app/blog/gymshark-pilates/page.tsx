@@ -36,6 +36,16 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
+    name: "Gymshark Vital Seamless 2.0 Sports Bra",
+    price: "$17.50",
+    verdict: "Best Bra",
+    description:
+      "The matching piece to the Vital Seamless 2.0 Legging, and the stronger of the two. The seamless construction matters most here: there are no underwire channels, no rigid seaming, and no hardware to press against the reformer headrest during supine work or against the mat during prone exercises. The light-to-medium support level is appropriate for the low-impact demands of Pilates; practitioners who need more hold during jump board or vigorous reformer work should layer a second bra or choose a higher-support option. The wide band sits below the ribcage without digging into the spine during bridge work. Buying the Vital Seamless set is sensible: the tonal colour match is exact and the combined cost is around $85–100.",
+    affiliateUrl: "https://www.amazon.com/dp/B0BTTFJTGW?tag=pilatescollective-20",
+    tag: "Best Bra",
+  },
+  {
+    rank: "02",
     name: "Gymshark Flex High Waist Legging",
     price: "From $55",
     verdict: "Best Overall",
@@ -45,7 +55,7 @@ const PRODUCTS = [
     tag: "Top Pick",
   },
   {
-    rank: "02",
+    rank: "03",
     name: "Gymshark Vital Seamless 2.0 Legging",
     price: "From $50",
     verdict: "Best Seamless",
@@ -53,16 +63,6 @@ const PRODUCTS = [
       "Seamless construction is functionally important for Pilates, not just aesthetically: the absence of seams at the inner thigh and glute eliminates friction against the reformer carriage during footwork, long-box work, and the extended lying sequences of the classical repertoire. The Vital Seamless 2.0 uses a marled knit that is more opaque than the first generation and has a softer hand feel that works well for mat classes. The waistband is the weakest element, it is not as secure as the Flex, but for lighter mat-focused practice or practitioners who prioritise freedom of movement over waistband hold, this is a legitimate option at a lower price than comparable seamless leggings from Alo or Lululemon. Not sold on Amazon: this link goes to Gymshark's own site.",
     affiliateUrl: "https://www.gymshark.com",
     tag: "Best Seamless",
-  },
-  {
-    rank: "03",
-    name: "Gymshark Vital Seamless 2.0 Sports Bra",
-    price: "$17.50",
-    verdict: "Best Bra",
-    description:
-      "The matching piece to the Vital Seamless 2.0 Legging, and the stronger of the two. The seamless construction matters most here: there are no underwire channels, no rigid seaming, and no hardware to press against the reformer headrest during supine work or against the mat during prone exercises. The light-to-medium support level is appropriate for the low-impact demands of Pilates; practitioners who need more hold during jump board or vigorous reformer work should layer a second bra or choose a higher-support option. The wide band sits below the ribcage without digging into the spine during bridge work. Buying the Vital Seamless set is sensible: the tonal colour match is exact and the combined cost is around $85–100.",
-    affiliateUrl: "https://www.amazon.com/dp/B0BTTFJTGW?tag=pilatescollective-20",
-    tag: "Best Bra",
   },
   {
     rank: "04",
@@ -121,7 +121,7 @@ const jsonLd = {
   ],
 };
 
-const QP_NOTES = ["Best Overall", "Best Seamless", "Best Bra", "Best Tank", "Best Shorts"];
+const QP_NOTES = ["Best Bra", "Best Overall", "Best Seamless", "Best Tank", "Best Shorts"];
 
 const ITEM_LIST = productItemList("Gymshark for Pilates (2026): Best Leggings & Sets Reviewed", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 
@@ -143,7 +143,7 @@ export default function GymsharkPilatesPage() {
               Gymshark for Pilates (2026):<br /><span style={{ color: "#8b4a31" }}>Best Pieces &amp; Honest Review</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 9 min read</p>
-            <TopPick name={PRODUCTS[2].name} price={PRODUCTS[2].price} note={QP_NOTES[2]} url={PRODUCTS[2].affiliateUrl} />
+            <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Gymshark started life as a bodybuilding brand. The pivot to lifestyle and Pilates has been deliberate and commercially successful, but it has also left a catalogue full of pieces that are wrong for the method sitting alongside pieces that are genuinely good. This guide identifies the five Gymshark pieces worth buying for Pilates and explains exactly why, along with an honest assessment of where the brand still falls short compared to Lululemon and Alo at higher price points.

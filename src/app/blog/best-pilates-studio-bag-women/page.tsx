@@ -34,13 +34,13 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
-    name: "Lululemon Wunderlust Duffle",
-    price: "From $118",
-    verdict: "Best overall studio bag",
+    name: "Nike Brasilia 9.5 Training Duffel",
+    price: "$49.99",
+    verdict: "Best budget studio bag",
     description:
-      "The Lululemon Wunderlust Duffle is purpose-built for the practitioner who commutes to class. The structured silhouette holds its shape fully loaded, and the 27-litre capacity handles a complete kit change (clothes, towel, grip socks, shoes, and toiletries) without stretching at the seams. The wet-dry separation pocket keeps damp post-class kit away from clean items, and the interior organisation is thorough enough to make packing and unpacking swift. The padded shoulder strap manages the bag's weight over longer commutes. Lululemon's material quality translates directly into longevity. Not sold on Amazon: this link goes to Lululemon's own site.",
-    affiliateUrl: "https://shop.lululemon.com",
-    tag: "Editor's Pick",
+      "Nike's Brasilia 9.5 is the standard against which budget studio bags are measured, and it earns that position through consistent delivery of the fundamentals. The capacity is generous for the price, the shoe bag pocket keeps footwear separated, and the main compartment handles a full studio kit without issue. The organisation is straightforward rather than elaborate, and the fabric handles repeated use without showing it disproportionately. For practitioners who want a reliable functional bag while keeping costs low, or want a second bag to leave packed and ready at home, the Brasilia 9.5 is the honest recommendation.",
+    affiliateUrl: "https://www.amazon.com/dp/B07Z56RJ28?tag=pilatescollective-20",
+    tag: "Best Budget",
   },
   {
     rank: "02",
@@ -54,6 +54,16 @@ const PRODUCTS = [
   },
   {
     rank: "03",
+    name: "Lululemon Wunderlust Duffle",
+    price: "From $118",
+    verdict: "Best overall studio bag",
+    description:
+      "The Lululemon Wunderlust Duffle is purpose-built for the practitioner who commutes to class. The structured silhouette holds its shape fully loaded, and the 27-litre capacity handles a complete kit change (clothes, towel, grip socks, shoes, and toiletries) without stretching at the seams. The wet-dry separation pocket keeps damp post-class kit away from clean items, and the interior organisation is thorough enough to make packing and unpacking swift. The padded shoulder strap manages the bag's weight over longer commutes. Lululemon's material quality translates directly into longevity. Not sold on Amazon: this link goes to Lululemon's own site.",
+    affiliateUrl: "https://shop.lululemon.com",
+    tag: "Editor's Pick",
+  },
+  {
+    rank: "04",
     name: "Alo Yoga Hatha Gym Bag",
     price: "From $78",
     verdict: "Best aesthetic studio bag",
@@ -63,7 +73,7 @@ const PRODUCTS = [
     tag: "Best Aesthetic",
   },
   {
-    rank: "04",
+    rank: "05",
     name: "Manduka Go Play 3.0 Duffel",
     price: "From $78",
     verdict: "Best duffel for studio",
@@ -71,16 +81,6 @@ const PRODUCTS = [
       "Manduka's Go Play 3.0 Duffel is the most thoughtfully engineered bag on this list for pure studio functionality. The shoe compartment at the base keeps studio shoes separated from clothing and personal items: a feature that matters more than it sounds after a sweaty reformer session. The main compartment is spacious and structured, with a padded shoulder strap that makes the bag comfortable over a 20-minute walk or transit commute. Manduka's reputation for durability means this bag outlasts most alternatives, a relevant consideration given the wear that five weekly sessions generates over years of practice. Not sold on Amazon: this link goes to Manduka's own site.",
     affiliateUrl: "https://www.manduka.com",
     tag: "Best Duffel",
-  },
-  {
-    rank: "05",
-    name: "Nike Brasilia 9.5 Training Duffel",
-    price: "$49.99",
-    verdict: "Best budget studio bag",
-    description:
-      "Nike's Brasilia 9.5 is the standard against which budget studio bags are measured, and it earns that position through consistent delivery of the fundamentals. The capacity is generous for the price, the shoe bag pocket keeps footwear separated, and the main compartment handles a full studio kit without issue. The organisation is straightforward rather than elaborate, and the fabric handles repeated use without showing it disproportionately. For practitioners who want a reliable functional bag while keeping costs low, or want a second bag to leave packed and ready at home, the Brasilia 9.5 is the honest recommendation.",
-    affiliateUrl: "https://www.amazon.com/dp/B07Z56RJ28?tag=pilatescollective-20",
-    tag: "Best Budget",
   },
   {
     rank: "06",
@@ -143,7 +143,7 @@ const jsonLd = {
   ],
 };
 
-const QP_NOTES = ["Best overall studio bag", "Best organised studio bag", "Best aesthetic studio bag", "Best duffel for studio", "Best budget studio bag", "Best convertible carry"];
+const QP_NOTES = ["Best budget studio bag", "Best organised studio bag", "Best overall studio bag", "Best aesthetic studio bag", "Best duffel for studio", "Best convertible carry"];
 
 export default function BestPilatesStudioBagWomenPage() {
   return (
@@ -162,7 +162,7 @@ export default function BestPilatesStudioBagWomenPage() {
               Best Pilates Studio Bags<br /><span style={{ color: "#8b4a31" }}>for Women (2026)</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 7 min read</p>
-            <TopPick name={PRODUCTS[4].name} price={PRODUCTS[4].price} note={QP_NOTES[4]} url={PRODUCTS[4].affiliateUrl} />
+            <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               A proper studio bag makes the logistics of regular Pilates practice invisible. The right one holds your full kit, keeps wet items away from dry ones, and transitions from studio changing room to the rest of your day without broadcasting that you have just come from the gym. These six bags have been selected specifically for women attending reformer and mat classes multiple times per week: prioritising real capacity, practical organisation, and the durability to survive daily studio commutes across years of use.

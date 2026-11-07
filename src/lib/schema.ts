@@ -40,10 +40,37 @@ function cleanProduct(p: Node): Node | null {
   return image ? { ...rest, image } : rest;
 }
 
+// Product lists follow the site rule: Amazon product (ASIN) links first, then
+// Amazon search links, then brand-direct links. Entries without a shop link
+// (and The Core Collab partner placements) keep their slot; the rest are
+// stably sorted around them and the positions renumbered.
+function linkRank(url: unknown): number | null {
+  const u = typeof url === "string" ? url : "";
+  if (!u || /thecorecollab/i.test(u)) return null;
+  if (/amazon\.[a-z.]+\/(?:[^/?#]+\/)?(?:dp|gp\/product)\//.test(u)) return 0;
+  if (/amazon\.[a-z.]+\/s\?/.test(u)) return 1;
+  return /^https?:\/\//.test(u) && !u.includes("pilatescollectiveclub.com") ? 2 : null;
+}
+
+function sortItemList(list: Node): Node {
+  const items = list.itemListElement;
+  if (!Array.isArray(items)) return list;
+  const urlOf = (li: Node) => {
+    const item = (li.item && typeof li.item === "object" ? li.item : {}) as Node;
+    return (item.offers as Node | undefined)?.url ?? item.url ?? li.url;
+  };
+  const ranks = items.map((li) => linkRank(urlOf(li as Node)));
+  const movable = ranks.map((r, i) => (r === null ? -1 : i)).filter((i) => i >= 0);
+  const order = [...movable].sort((a, b) => (ranks[a] as number) - (ranks[b] as number) || a - b);
+  const next = [...items];
+  movable.forEach((slot, k) => { next[slot] = items[order[k]]; });
+  return { ...list, itemListElement: next.map((li, i) => (li && typeof li === "object" && "position" in (li as Node) ? { ...(li as Node), position: i + 1 } : li)) };
+}
+
 function clean(value: unknown): unknown {
   if (Array.isArray(value)) return value.map(clean);
   if (!value || typeof value !== "object") return value;
-  const node = value as Node;
+  const node = value["@type" as keyof typeof value] === "ItemList" ? sortItemList(value as Node) : (value as Node);
 
   // ItemList entries: keep the list position but drop the Product type when
   // the item has no valid price, so it stays a plain named, linked list item.

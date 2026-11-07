@@ -34,36 +34,6 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
-    name: "Alo Yoga Airlift Suit",
-    price: "From $118",
-    verdict: "Best overall Pilates bodysuit",
-    description:
-      "The Airlift Suit is the reference point for premium Pilates bodysuits. Alo's Airlift fabric is uniquely engineered: a medium-weight compression that smooths without restricting breath or spinal flexion, which matters enormously in exercises like the hundred, roll-up, and teaser. The scoop neck sits high enough to stay put during inversions, and the built-in shelf bra provides enough support for a full reformer session without requiring a separate sports bra. The clean, sculptural silhouette has made this a studio staple across New York, London, and Los Angeles. Available in a wide range of neutral and seasonal colourways. Not sold on Amazon: this link goes to Alo Yoga's own site.",
-    affiliateUrl: "https://www.aloyoga.com",
-    tag: "Editor's Pick",
-  },
-  {
-    rank: "02",
-    name: "Lululemon Align Bodysuit",
-    price: "From $108",
-    verdict: "Best for buttery softness",
-    description:
-      "Lululemon's Align fabric translated into a bodysuit form is exactly as good as it sounds. The Nulu material is so lightweight and skin-soft that most practitioners forget they're wearing it, which is ideal for the deep proprioceptive focus that Pilates demands. The high-neck variant offers exceptional coverage for exercises performed in supine and prone positions on the reformer carriage, while the scoop-neck version works better for hot studios. The integrated gusset sits smoothly during all seated and standing exercises. If you already love the Align Legging, this bodysuit is the natural wardrobe companion. Not sold on Amazon: this link goes to Lululemon's own site.",
-    affiliateUrl: "https://shop.lululemon.com",
-    tag: "Most Popular",
-  },
-  {
-    rank: "03",
-    name: "Girlfriend Collective Paloma Bra Bodysuit",
-    price: "From $68",
-    verdict: "Best sustainable option",
-    description:
-      "Girlfriend Collective's Paloma Bodysuit is the most conscientiously made option on this list: constructed from recycled post-consumer plastic bottles with a buttery LITE fabric that moves well through the full Pilates repertoire. The removable cups provide flexible support, and the adjustable strap configuration lets you wear it as a racerback or straight-across depending on your practice. The compression is lighter than the Alo Airlift, making it preferable for practitioners who find firm compression restrictive during breath-intensive mat work. Inclusive sizing runs from XXS to 6XL.",
-    affiliateUrl: "https://www.amazon.com/s?k=girlfriend+collective+paloma+bodysuit&tag=pilatescollective-20",
-    tag: "Best Sustainable",
-  },
-  {
-    rank: "04",
     name: "Splits59 Airweight Jumpsuit",
     price: "$158.00",
     verdict: "Best for studio aesthetics",
@@ -73,7 +43,17 @@ const PRODUCTS = [
     tag: "Studio Favourite",
   },
   {
-    rank: "05",
+    rank: "02",
+    name: "Girlfriend Collective Paloma Bra Bodysuit",
+    price: "From $68",
+    verdict: "Best sustainable option",
+    description:
+      "Girlfriend Collective's Paloma Bodysuit is the most conscientiously made option on this list: constructed from recycled post-consumer plastic bottles with a buttery LITE fabric that moves well through the full Pilates repertoire. The removable cups provide flexible support, and the adjustable strap configuration lets you wear it as a racerback or straight-across depending on your practice. The compression is lighter than the Alo Airlift, making it preferable for practitioners who find firm compression restrictive during breath-intensive mat work. Inclusive sizing runs from XXS to 6XL.",
+    affiliateUrl: "https://www.amazon.com/s?k=girlfriend+collective+paloma+bodysuit&tag=pilatescollective-20",
+    tag: "Best Sustainable",
+  },
+  {
+    rank: "03",
     name: "CRZ YOGA Naked Feeling Bodysuit",
     price: "From $34",
     verdict: "Best value bodysuit",
@@ -81,6 +61,26 @@ const PRODUCTS = [
       "CRZ YOGA has built a strong reputation for producing premium-fabric activewear at accessible price points, and their Naked Feeling bodysuit is the clearest expression of that proposition. The fabric genuinely approaches the Align's softness, the four-way stretch accommodates the full range of Pilates movement, and the bodysuit stays securely in position through dynamic exercises. The integrated shelf bra provides light support suitable for low-impact studio work. For practitioners who want to try the bodysuit silhouette without committing to a premium price, this is the ideal starting point.",
     affiliateUrl: "https://www.amazon.com/s?k=crz+yoga+naked+feeling+bodysuit&tag=pilatescollective-20",
     tag: "Best Value",
+  },
+  {
+    rank: "04",
+    name: "Alo Yoga Airlift Suit",
+    price: "From $118",
+    verdict: "Best overall Pilates bodysuit",
+    description:
+      "The Airlift Suit is the reference point for premium Pilates bodysuits. Alo's Airlift fabric is uniquely engineered: a medium-weight compression that smooths without restricting breath or spinal flexion, which matters enormously in exercises like the hundred, roll-up, and teaser. The scoop neck sits high enough to stay put during inversions, and the built-in shelf bra provides enough support for a full reformer session without requiring a separate sports bra. The clean, sculptural silhouette has made this a studio staple across New York, London, and Los Angeles. Available in a wide range of neutral and seasonal colourways. Not sold on Amazon: this link goes to Alo Yoga's own site.",
+    affiliateUrl: "https://www.aloyoga.com",
+    tag: "Editor's Pick",
+  },
+  {
+    rank: "05",
+    name: "Lululemon Align Bodysuit",
+    price: "From $108",
+    verdict: "Best for buttery softness",
+    description:
+      "Lululemon's Align fabric translated into a bodysuit form is exactly as good as it sounds. The Nulu material is so lightweight and skin-soft that most practitioners forget they're wearing it, which is ideal for the deep proprioceptive focus that Pilates demands. The high-neck variant offers exceptional coverage for exercises performed in supine and prone positions on the reformer carriage, while the scoop-neck version works better for hot studios. The integrated gusset sits smoothly during all seated and standing exercises. If you already love the Align Legging, this bodysuit is the natural wardrobe companion. Not sold on Amazon: this link goes to Lululemon's own site.",
+    affiliateUrl: "https://shop.lululemon.com",
+    tag: "Most Popular",
   },
   {
     rank: "06",
@@ -147,7 +147,7 @@ const jsonLd = {
   ],
 };
 
-const QP_NOTES = ["Best overall Pilates bodysuit", "Best for buttery softness", "Best sustainable option", "Best for studio aesthetics", "Best value bodysuit", "Best breathable bodysuit"];
+const QP_NOTES = ["Best for studio aesthetics", "Best sustainable option", "Best value bodysuit", "Best overall Pilates bodysuit", "Best for buttery softness", "Best breathable bodysuit"];
 
 export default function BestPilatesBodysuitsPage() {
   return (
@@ -166,7 +166,7 @@ export default function BestPilatesBodysuitsPage() {
               Best Pilates Bodysuits<br /><span style={{ color: "#8b4a31" }}>(2026): Compared & Ranked</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 8 min read</p>
-            <TopPick name={PRODUCTS[3].name} price={PRODUCTS[3].price} note={QP_NOTES[3]} url={PRODUCTS[3].affiliateUrl} />
+            <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               The bodysuit has become the dominant silhouette in boutique Pilates studios, and for practical reasons, not just aesthetic ones. Unlike a separate top, a bodysuit cannot ride up, bunch at the waist, or come untucked during the continuous transitions of a reformer class. Instructors can observe spinal position and hip alignment without fabric interference, and practitioners can move through the full repertoire without interruption. These six bodysuits have been selected for reformer performance, fabric quality, and staying power in serious studios.

@@ -46,6 +46,16 @@ const PRODUCTS = [
   },
   {
     rank: "02",
+    name: "Splits59 Airweight Short",
+    price: "$68.00",
+    verdict: "Best Shorts",
+    description:
+      "Splits59 makes the best Pilates-specific shorts in the market because they understand exactly what the reformer requires: a fitted mid-thigh cut with no inner-seam bulk, a waistband that does not create pressure at the hip crease in deep flexion, and opacity in all positions including the internally-rotated hip positions common in footwork. The Airweight fabric is the brand&apos;s lightest, which makes these appropriate for warm studios and summer mat practice. The distinction from Gymshark or generic athletic shorts is immediate in wear: the construction is specifically calibrated for the movement patterns of Pilates rather than adapted from a gym or running context.",
+    affiliateUrl: "https://www.amazon.com/dp/B08BQ9QG3Z?tag=pilatescollective-20",
+    tag: "Best Shorts",
+  },
+  {
+    rank: "03",
     name: "Splits59 Sylvie Shelf Bra Crop",
     price: "From $82",
     verdict: "Best Bra / Top",
@@ -55,7 +65,7 @@ const PRODUCTS = [
     tag: "Best Top",
   },
   {
-    rank: "03",
+    rank: "04",
     name: "Splits59 Beckett Jacket",
     price: "From $148",
     verdict: "Best Layer",
@@ -65,7 +75,7 @@ const PRODUCTS = [
     tag: "Best Layer",
   },
   {
-    rank: "04",
+    rank: "05",
     name: "Splits59 Hartley High Waist Legging",
     price: "From $108",
     verdict: "Best Value Option",
@@ -73,16 +83,6 @@ const PRODUCTS = [
       "The Hartley uses a lighter-weight fabric than the Raquel and sits at a lower price point: the entry to the Splits59 range for practitioners who want to test the brand before committing to Raquel pricing. The waistband is similarly engineered, wide and flat, and performs comparably to the Raquel for mat work. The difference shows in the fabric compression: the Hartley is softer and less structured, which some practitioners actively prefer for gentle mat practice, prenatal Pilates, or sessions that are more restorative than dynamic. For vigorous reformer classes, the Raquel is meaningfully better; for lighter mat work, the Hartley closes most of that gap at $30 less.",
     affiliateUrl: "https://www.amazon.com/s?k=splits59+hartley+high+waist+legging&tag=pilatescollective-20",
     tag: "Best Value",
-  },
-  {
-    rank: "05",
-    name: "Splits59 Airweight Short",
-    price: "$68.00",
-    verdict: "Best Shorts",
-    description:
-      "Splits59 makes the best Pilates-specific shorts in the market because they understand exactly what the reformer requires: a fitted mid-thigh cut with no inner-seam bulk, a waistband that does not create pressure at the hip crease in deep flexion, and opacity in all positions including the internally-rotated hip positions common in footwork. The Airweight fabric is the brand&apos;s lightest, which makes these appropriate for warm studios and summer mat practice. The distinction from Gymshark or generic athletic shorts is immediate in wear: the construction is specifically calibrated for the movement patterns of Pilates rather than adapted from a gym or running context.",
-    affiliateUrl: "https://www.amazon.com/dp/B08BQ9QG3Z?tag=pilatescollective-20",
-    tag: "Best Shorts",
   },
 ];
 
@@ -121,7 +121,7 @@ const jsonLd = {
   ],
 };
 
-const QP_NOTES = ["Best Pilates Legging Available", "Best Bra / Top", "Best Layer", "Best Value Option", "Best Shorts"];
+const QP_NOTES = ["Best Pilates Legging Available", "Best Shorts", "Best Bra / Top", "Best Layer", "Best Value Option"];
 
 const ITEM_LIST = productItemList("Splits59 for Pilates (2026): Raquel Tight & Sets Reviewed", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 

@@ -52,15 +52,6 @@ const PRODUCTS = [
   },
   {
     rank: "02",
-    name: "Alo Yoga Airbrush High-Waist Legging",
-    price: "$114",
-    verdict: "Best Sculpting",
-    description: "Alo's Airbrush fabric applies light compression that creates a sculpted appearance without restricting movement or breathing. The high waistband is wide (around 3.5 inches) and completely opaque, making it one of the most secure feeling options for inverted and prone reformer positions. The matte finish and seamless construction photograph beautifully. Not sold on Amazon: this link goes to Alo Yoga's own site.",
-    affiliateUrl: "https://www.aloyoga.com",
-    tag: "Best Sculpting",
-  },
-  {
-    rank: "03",
     name: "Beyond Yoga Spacedye High-Waist Midi Legging",
     price: "$99.00",
     verdict: "Best for Tall Practitioners",
@@ -69,7 +60,25 @@ const PRODUCTS = [
     tag: "Best for Tall",
   },
   {
+    rank: "03",
+    name: "CRZ YOGA Naked Feeling High-Waist Legging",
+    price: "$26.00",
+    verdict: "Best Budget",
+    description: "The CRZ YOGA Naked Feeling legging has become a cult favourite for budget-conscious Pilates practitioners. The fabric is genuinely comparable to the Lululemon Align in softness and weight. The high waistband holds without rolling. Completely squat-proof. At $28, it's the most remarkable value on this list, and a credible alternative to leggings costing three times the price.",
+    affiliateUrl: "https://www.amazon.com/dp/B07DCSM69V?tag=pilatescollective-20",
+    tag: "Best Value",
+  },
+  {
     rank: "04",
+    name: "Alo Yoga Airbrush High-Waist Legging",
+    price: "$114",
+    verdict: "Best Sculpting",
+    description: "Alo's Airbrush fabric applies light compression that creates a sculpted appearance without restricting movement or breathing. The high waistband is wide (around 3.5 inches) and completely opaque, making it one of the most secure feeling options for inverted and prone reformer positions. The matte finish and seamless construction photograph beautifully. Not sold on Amazon: this link goes to Alo Yoga's own site.",
+    affiliateUrl: "https://www.aloyoga.com",
+    tag: "Best Sculpting",
+  },
+  {
+    rank: "05",
     name: "Gymshark Vital Seamless High-Waist Legging",
     price: "$48",
     verdict: "Best Mid-Range",
@@ -78,22 +87,13 @@ const PRODUCTS = [
     tag: "Best Mid-Range",
   },
   {
-    rank: "05",
+    rank: "06",
     name: "Vuori Daily Performance Legging",
     price: "$84",
     verdict: "Best Versatile",
     description: "The Vuori Daily Performance Legging bridges the gap between technical workout wear and everyday comfort. The high rise waistband is substantial but never constrictive, and the anti-microbial finish keeps the legging fresh across multiple sessions. The streamlined design transitions seamlessly from studio to errands: a practical choice for busy practitioners. Not sold on Amazon: this link goes to Vuori's own site.",
     affiliateUrl: "https://vuoriclothing.com",
     tag: "Most Versatile",
-  },
-  {
-    rank: "06",
-    name: "CRZ YOGA Naked Feeling High-Waist Legging",
-    price: "$26.00",
-    verdict: "Best Budget",
-    description: "The CRZ YOGA Naked Feeling legging has become a cult favourite for budget-conscious Pilates practitioners. The fabric is genuinely comparable to the Lululemon Align in softness and weight. The high waistband holds without rolling. Completely squat-proof. At $28, it's the most remarkable value on this list, and a credible alternative to leggings costing three times the price.",
-    affiliateUrl: "https://www.amazon.com/dp/B07DCSM69V?tag=pilatescollective-20",
-    tag: "Best Value",
   },
 ];
 
@@ -137,7 +137,7 @@ const jsonLd = {
   ],
 };
 
-const QP_NOTES = ["Best Overall", "Best Sculpting", "Best for Tall Practitioners", "Best Mid-Range", "Best Versatile", "Best Budget"];
+const QP_NOTES = ["Best Overall", "Best for Tall Practitioners", "Best Budget", "Best Sculpting", "Best Mid-Range", "Best Versatile"];
 
 const ITEM_LIST = productItemList("Best High-Waist Pilates Leggings (2026)", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 

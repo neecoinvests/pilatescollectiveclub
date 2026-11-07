@@ -71,19 +71,19 @@ const SETS = [
   },
   {
     rank: "05",
-    name: "The Alo Yoga Pilates Set",
-    price: "$176 total",
-    verdict: "Best Clothing Bundle",
-    description: "Alo's two most coveted pilates pieces paired together: the Airlift 7/8 Legging ($114) and the Airlift Strappy Bra ($62). Both are made from Alo's signature Airlift fabric: precision-compression, sculpting, and engineered for zero movement during exercise. Choosing matching or tonal colourways (both come in bone, black, espresso, and seasonal shades) creates a complete studio look that is as intentional and refined as the practice itself. This is the bundle that arrives and goes directly into her next-class bag. Not sold on Amazon: this link goes to Alo Yoga's own site.",
-    affiliateUrl: "https://www.aloyoga.com",
-  },
-  {
-    rank: "06",
     name: "The Tech & Recovery Bundle",
     price: "$428 total",
     verdict: "Best High-End Gift Bundle",
     description: "For the serious practitioner ready for the next level of recovery: Theragun Elite ($399) plus a TriggerPoint GRID Roller ($28.99). The Theragun handles deep percussive therapy for the hip flexors, thoracic spine, and shoulders; the GRID covers myofascial rolling for the IT band, calves, and thoracic extensors. Together they build a complete recovery toolkit that professional athletes use. Approximately $428 total: an exceptional end-of-year gift, or a pooled gift from a group of studio friends.",
     affiliateUrl: "https://www.amazon.com/s?k=theragun+elite+recovery+set+pilates&tag=pilatescollective-20",
+  },
+  {
+    rank: "06",
+    name: "The Alo Yoga Pilates Set",
+    price: "$176 total",
+    verdict: "Best Clothing Bundle",
+    description: "Alo's two most coveted pilates pieces paired together: the Airlift 7/8 Legging ($114) and the Airlift Strappy Bra ($62). Both are made from Alo's signature Airlift fabric: precision-compression, sculpting, and engineered for zero movement during exercise. Choosing matching or tonal colourways (both come in bone, black, espresso, and seasonal shades) creates a complete studio look that is as intentional and refined as the practice itself. This is the bundle that arrives and goes directly into her next-class bag. Not sold on Amazon: this link goes to Alo Yoga's own site.",
+    affiliateUrl: "https://www.aloyoga.com",
   },
 ];
 

@@ -333,13 +333,6 @@ const PRODUCT_CATEGORIES = [
         imageUrl: "/pictures/juls-p-lB6lbkbe1XA-unsplash.jpg",
       },
       {
-        name: "Stability Ball (55cm)",
-        description: "For practitioners 5'1\" to 5'7\". Ideal for spinal rolling, seated balance work, and open-chain leg exercises.",
-        price: "From $28",
-        affiliateUrl: "https://www.amazon.com/s?k=pilates+exercise+stability+ball+55cm&tag=pilatescollective-20",
-        imageUrl: "/pictures/dane-wetton-t1NEMSm1rgI-unsplash.jpg",
-      },
-      {
         name: "Theraband Flexbar",
         description: "For grip strength and wrist rehabilitation. Increasingly used in Pilates for hand and forearm conditioning in reformer prep work.",
         price: "$18.80",
@@ -354,18 +347,25 @@ const PRODUCT_CATEGORIES = [
         imageUrl: "/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg",
       },
       {
-        name: "Long Resistance Band",
-        description: "2-metre looped band in light, medium, and heavy. Essential for the arm series, footwork variations, and full-body stretching sequences.",
-        price: "From $12",
-        affiliateUrl: "https://www.amazon.com/s?k=long+resistance+band+set+pilates+exercise&tag=pilatescollective-20",
-        imageUrl: "/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg",
-      },
-      {
         name: "SISSEL Pilates Toning Balls (2 x 1 lb)",
         description: "Weighted soft-grip balls (1 lb each) for arm, shoulder, and standing balance work. Adds meaningful load without disrupting the Pilates flow.",
         price: "$26.89",
         affiliateUrl: "https://www.amazon.com/dp/B005LD3M9W?tag=pilatescollective-20",
         imageUrl: "/pictures/roxana-popovici-Zp4APUiwEsM-unsplash.jpg",
+      },
+      {
+        name: "Stability Ball (55cm)",
+        description: "For practitioners 5'1\" to 5'7\". Ideal for spinal rolling, seated balance work, and open-chain leg exercises.",
+        price: "From $28",
+        affiliateUrl: "https://www.amazon.com/s?k=pilates+exercise+stability+ball+55cm&tag=pilatescollective-20",
+        imageUrl: "/pictures/dane-wetton-t1NEMSm1rgI-unsplash.jpg",
+      },
+      {
+        name: "Long Resistance Band",
+        description: "2-metre looped band in light, medium, and heavy. Essential for the arm series, footwork variations, and full-body stretching sequences.",
+        price: "From $12",
+        affiliateUrl: "https://www.amazon.com/s?k=long+resistance+band+set+pilates+exercise&tag=pilatescollective-20",
+        imageUrl: "/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg",
       },
     ],
   },
@@ -415,13 +415,6 @@ const PRODUCT_CATEGORIES = [
         imageUrl: "/pictures/ahmet-kurt-0xn-8kRWOhE-unsplash.jpg",
       },
       {
-        name: "Balanced Body CoreAlign",
-        description: "The CoreAlign targets functional upright movement (standing balance, gait, and dynamic core stability) in ways the reformer alone cannot replicate. Not sold on Amazon: this link goes to Balanced Body's own site.",
-        price: "From $1,200",
-        affiliateUrl: "https://www.pilates.com",
-        imageUrl: "/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg",
-      },
-      {
         name: "Balanced Body Trapeze Table (Cadillac)",
         description: "The full Cadillac apparatus, or a reformer tower conversion, opens the complete classical repertoire. The most comprehensive piece of Pilates equipment available.",
         price: "$5,030.00",
@@ -434,6 +427,13 @@ const PRODUCT_CATEGORIES = [
         price: "$150.00",
         affiliateUrl: "https://www.amazon.com/dp/B0723DT2JP?tag=pilatescollective-20",
         imageUrl: "/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg",
+      },
+      {
+        name: "Balanced Body CoreAlign",
+        description: "The CoreAlign targets functional upright movement (standing balance, gait, and dynamic core stability) in ways the reformer alone cannot replicate. Not sold on Amazon: this link goes to Balanced Body's own site.",
+        price: "From $1,200",
+        affiliateUrl: "https://www.pilates.com",
+        imageUrl: "/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg",
       },
     ],
   },
@@ -474,13 +474,6 @@ const PRODUCT_CATEGORIES = [
     label: "Premium Reformers",
     items: [
       {
-        name: "Merrithew SPX Max",
-        description: "The professional studio standard used in accredited training centres worldwide. Full 5-spring system, 97-inch rail, 350 lb capacity. The entry point to serious home practice. Not sold on Amazon: this link goes to Merrithew's own site.",
-        price: "Sold direct",
-        affiliateUrl: "https://www.merrithew.com",
-        imageUrl: "/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg",
-      },
-      {
         name: "Balanced Body Allegro Stretch Reformer",
         description: "The long version of Balanced Body's aluminium Allegro: a wider, longer carriage and an 18-inch-longer frame for taller users, with five Signature Springs. Made to order.",
         price: "$3,710.00",
@@ -493,6 +486,13 @@ const PRODUCT_CATEGORIES = [
         price: "$8,199.00",
         affiliateUrl: "https://www.amazon.com/dp/B002ABYKFI?tag=pilatescollective-20",
         imageUrl: "/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg",
+      },
+      {
+        name: "Merrithew SPX Max",
+        description: "The professional studio standard used in accredited training centres worldwide. Full 5-spring system, 97-inch rail, 350 lb capacity. The entry point to serious home practice. Not sold on Amazon: this link goes to Merrithew's own site.",
+        price: "Sold direct",
+        affiliateUrl: "https://www.merrithew.com",
+        imageUrl: "/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg",
       },
       {
         name: "Gratz Universal Reformer",

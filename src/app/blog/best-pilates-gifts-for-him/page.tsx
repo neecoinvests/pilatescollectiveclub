@@ -43,22 +43,6 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
-    name: "Lululemon ABC Pant (Classic Fit)",
-    price: "$128",
-    verdict: "The Best Men's Pilates Pant",
-    description: "The Lululemon ABC pant is the men's activewear piece that converts sceptics, designed with a gusseted crotch for full range of motion, four-way stretch fabric, and a tailored silhouette that works on the reformer as well as in a meeting. Made from Warpstreme fabric, which is moisture-wicking, lightweight, and wrinkle-resistant. The flat waistband sits flush against the reformer carriage padding. Available in slim and classic fits, in neutral and seasonal colours. For a man who does pilates regularly, this is the gift that immediately becomes the pant he reaches for every class. Not sold on Amazon: this link goes to Lululemon's own site.",
-    affiliateUrl: "https://shop.lululemon.com",
-  },
-  {
-    rank: "02",
-    name: "Vuori Ponto Performance Jogger",
-    price: "$89",
-    verdict: "Best Relaxed-Fit Training Pant",
-    description: "Vuori is the activewear brand that the pilates and wellness community has quietly adopted for men who want quality without the Lululemon logo. The Ponto Jogger is their most refined piece, made from a four-way stretch French terry that's soft enough for mat work and structured enough to wear out of the studio. Tapered leg, hidden side pockets, and a waistband that stays put through every spinal articulation and footbar press. Available in Vuori's muted, earthy palette. A gift that earns its keep in his regular rotation. Not sold on Amazon: this link goes to Vuori's own site.",
-    affiliateUrl: "https://vuoriclothing.com",
-  },
-  {
-    rank: "03",
     name: "Theragun Elite (5th Gen)",
     price: "$399.00",
     verdict: "Best Recovery Gift for Men",
@@ -66,7 +50,7 @@ const PRODUCTS = [
     affiliateUrl: "https://www.amazon.com/dp/B0C42NTLYC?tag=pilatescollective-20",
   },
   {
-    rank: "04",
+    rank: "02",
     name: "Manduka PRO Yoga & Pilates Mat",
     price: "$144.00",
     verdict: "Best Mat for Serious Practitioners",
@@ -74,7 +58,7 @@ const PRODUCTS = [
     affiliateUrl: "https://www.amazon.com/dp/B0066T7I54?tag=pilatescollective-20",
   },
   {
-    rank: "05",
+    rank: "03",
     name: "Hydro Flask 32oz Wide Mouth Water Bottle",
     price: "$44.70",
     verdict: "Best Everyday Gift",
@@ -82,12 +66,28 @@ const PRODUCTS = [
     affiliateUrl: "https://www.amazon.com/dp/B0FJZHK6YQ?tag=pilatescollective-20",
   },
   {
-    rank: "06",
+    rank: "04",
     name: "TriggerPoint GRID Foam Roller",
     price: "$28.99",
     verdict: "Best Value Recovery Gift",
     description: "TriggerPoint is the foam roller brand that physical therapists prescribe and professional sports teams specify. The GRID's multi-density surface works harder than a uniform roller: three zone patterns that replicate the varying pressure of a therapist's hand, targeting the IT band, thoracic spine, and glutes that accumulate tension in pilates training. The hollow core supports up to 500 lbs and won't compress over time. At $36 it is the single best-value recovery gift in this category: he'll use it before and after every training session.",
     affiliateUrl: "https://www.amazon.com/dp/B0040EGNIU?tag=pilatescollective-20",
+  },
+  {
+    rank: "05",
+    name: "Lululemon ABC Pant (Classic Fit)",
+    price: "$128",
+    verdict: "The Best Men's Pilates Pant",
+    description: "The Lululemon ABC pant is the men's activewear piece that converts sceptics, designed with a gusseted crotch for full range of motion, four-way stretch fabric, and a tailored silhouette that works on the reformer as well as in a meeting. Made from Warpstreme fabric, which is moisture-wicking, lightweight, and wrinkle-resistant. The flat waistband sits flush against the reformer carriage padding. Available in slim and classic fits, in neutral and seasonal colours. For a man who does pilates regularly, this is the gift that immediately becomes the pant he reaches for every class. Not sold on Amazon: this link goes to Lululemon's own site.",
+    affiliateUrl: "https://shop.lululemon.com",
+  },
+  {
+    rank: "06",
+    name: "Vuori Ponto Performance Jogger",
+    price: "$89",
+    verdict: "Best Relaxed-Fit Training Pant",
+    description: "Vuori is the activewear brand that the pilates and wellness community has quietly adopted for men who want quality without the Lululemon logo. The Ponto Jogger is their most refined piece, made from a four-way stretch French terry that's soft enough for mat work and structured enough to wear out of the studio. Tapered leg, hidden side pockets, and a waistband that stays put through every spinal articulation and footbar press. Available in Vuori's muted, earthy palette. A gift that earns its keep in his regular rotation. Not sold on Amazon: this link goes to Vuori's own site.",
+    affiliateUrl: "https://vuoriclothing.com",
   },
 ];
 
@@ -170,7 +170,7 @@ const jsonLd = {
   ],
 };
 
-const QP_NOTES = ["The Best Men's Pilates Pant", "Best Relaxed-Fit Training Pant", "Best Recovery Gift for Men", "Best Mat for Serious Practitioners", "Best Everyday Gift", "Best Value Recovery Gift"];
+const QP_NOTES = ["Best Recovery Gift for Men", "Best Mat for Serious Practitioners", "Best Everyday Gift", "Best Value Recovery Gift", "The Best Men's Pilates Pant", "Best Relaxed-Fit Training Pant"];
 
 const ITEM_LIST = productItemList("Best Pilates Gifts for Him (2026)", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 
@@ -190,7 +190,7 @@ export default function Page() {
             Best Pilates Gifts for Him
           </h1>
           <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 9 min read</p>
-          <TopPick name={PRODUCTS[2].name} price={PRODUCTS[2].price} note={QP_NOTES[2]} url={PRODUCTS[2].affiliateUrl} />
+          <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
           <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
           <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
             Men who do pilates tend to be particular about their gear, and they rarely buy the good stuff for themselves. This guide is built for the husband, boyfriend, or father who shows up to class in whatever he grabbed first, and deserves the Lululemon pants, the real foam roller, and the recovery tool he's been vaguely meaning to invest in. All picks are men's-specific or gender-neutral, from brands that have earned their place in serious training culture.

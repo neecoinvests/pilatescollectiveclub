@@ -46,6 +46,16 @@ const PRODUCTS = [
     imageUrl: "/pictures/ahmet-kurt-0xn-8kRWOhE-unsplash.jpg",
   },
   {
+    category: "Socks",
+    name: "ToeSox Half Toe Low Rise Grip Sock",
+    price: "$16.00",
+    tag: "Essential Accessory",
+    description:
+      "Required at most reformer studios and genuinely useful for mat work: grip socks are as much a part of your Pilates outfit as the leggings. ToeSox individual-toe design allows the foot to function naturally on the footbar, improving the proprioceptive feedback that makes Pilates effective. See our full grip sock guide for alternatives and detailed comparisons.",
+    affiliateUrl: "https://www.amazon.com/dp/B074HNPQ9Y?tag=pilatescollective-20",
+    imageUrl: "/pictures/roxana-popovici-Zp4APUiwEsM-unsplash.jpg",
+  },
+  {
     category: "Leggings",
     name: "Halara Cloudful High-Waisted Leggings",
     price: "From $32",
@@ -74,16 +84,6 @@ const PRODUCTS = [
       "Pilates demands a bra that stays put during rolling exercises, inversions, and all the transitions where a traditional sports bra can shift. The ODODOS cross-back design distributes the load evenly across the back, the racerback cut allows complete arm and shoulder mobility, and the medium-to-high support level is appropriate for the dynamic range of reformer and mat work without over-compressing. Available from XS to 3XL.",
     affiliateUrl: "https://www.amazon.com/s?k=ododos+cross+back+sports+bra&tag=pilatescollective-20",
     imageUrl: "/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg",
-  },
-  {
-    category: "Socks",
-    name: "ToeSox Half Toe Low Rise Grip Sock",
-    price: "$16.00",
-    tag: "Essential Accessory",
-    description:
-      "Required at most reformer studios and genuinely useful for mat work: grip socks are as much a part of your Pilates outfit as the leggings. ToeSox individual-toe design allows the foot to function naturally on the footbar, improving the proprioceptive feedback that makes Pilates effective. See our full grip sock guide for alternatives and detailed comparisons.",
-    affiliateUrl: "https://www.amazon.com/dp/B074HNPQ9Y?tag=pilatescollective-20",
-    imageUrl: "/pictures/roxana-popovici-Zp4APUiwEsM-unsplash.jpg",
   },
 ];
 
@@ -176,7 +176,7 @@ const jsonLd = {
   ],
 };
 
-const QP_NOTES = ["Best Leggings", "Best for Reformer", "Best Warm-Up Layer", "Best Sports Bra", "Essential Accessory"];
+const QP_NOTES = ["Best Leggings", "Essential Accessory", "Best for Reformer", "Best Warm-Up Layer", "Best Sports Bra"];
 
 const ITEM_LIST = productItemList("What to Wear to Pilates (2026): Complete Studio Outfit Guide", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 

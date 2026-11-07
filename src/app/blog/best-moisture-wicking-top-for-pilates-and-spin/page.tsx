@@ -57,14 +57,14 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
-    name: "Lululemon Swiftly Tech Long Sleeve",
-    price: "$78",
-    verdict: "Best Overall",
+    name: "Under Armour HeatGear Armour Compression Top",
+    price: "$23.88",
+    verdict: "Best Budget",
     description:
-      "Lululemon's Swiftly Tech fabric wicks sweat faster than almost anything on the market. The four-way stretch and flatlock seams mean zero chafing during Megaformer planks or a 45-minute spin climb. Available in a slim or relaxed fit and holds its shape after dozens of washes. Not sold on Amazon: this link goes to Lululemon's own site.",
+      "HeatGear moves sweat to the surface almost instantly and dries in minutes. The compression fit supports muscle engagement cues during Lagree slow-twitch work and the UPF 30 protection is a bonus for outdoor cooldowns. Exceptional value: stock up in two colours.",
     affiliateUrl:
-      "https://shop.lululemon.com",
-    tag: "Top Pick",
+      "https://www.amazon.com/dp/B0874WTGVM?tag=pilatescollective-20",
+    tag: "Best Value",
   },
   {
     rank: "02",
@@ -79,6 +79,28 @@ const PRODUCTS = [
   },
   {
     rank: "03",
+    name: "Patagonia Capilene Cool Daily Shirt",
+    price: "$49",
+    verdict: "Best Sustainable Option",
+    description:
+      "Made from recycled polyester with HeiQ Fresh odour control, the Capilene Cool Daily is the most sustainable pick on this list without sacrificing performance. Dries incredibly fast and resists the post-workout smell that plagues cheaper synthetics. A smart buy for daily training.",
+    affiliateUrl:
+      "https://www.amazon.com/s?k=patagonia+capilene+cool+daily+shirt&tag=pilatescollective-20",
+    tag: "Eco Choice",
+  },
+  {
+    rank: "04",
+    name: "Lululemon Swiftly Tech Long Sleeve",
+    price: "$78",
+    verdict: "Best Overall",
+    description:
+      "Lululemon's Swiftly Tech fabric wicks sweat faster than almost anything on the market. The four-way stretch and flatlock seams mean zero chafing during Megaformer planks or a 45-minute spin climb. Available in a slim or relaxed fit and holds its shape after dozens of washes. Not sold on Amazon: this link goes to Lululemon's own site.",
+    affiliateUrl:
+      "https://shop.lululemon.com",
+    tag: "Top Pick",
+  },
+  {
+    rank: "05",
     name: "Alo Yoga Amplify Tank",
     price: "$64",
     verdict: "Best for Lagree",
@@ -89,18 +111,7 @@ const PRODUCTS = [
     tag: "Lagree Pick",
   },
   {
-    rank: "04",
-    name: "Under Armour HeatGear Armour Compression Top",
-    price: "$23.88",
-    verdict: "Best Budget",
-    description:
-      "HeatGear moves sweat to the surface almost instantly and dries in minutes. The compression fit supports muscle engagement cues during Lagree slow-twitch work and the UPF 30 protection is a bonus for outdoor cooldowns. Exceptional value: stock up in two colours.",
-    affiliateUrl:
-      "https://www.amazon.com/dp/B0874WTGVM?tag=pilatescollective-20",
-    tag: "Best Value",
-  },
-  {
-    rank: "05",
+    rank: "06",
     name: "Gymshark Speed Seamless Top",
     price: "$45",
     verdict: "Best Seamless Construction",
@@ -109,17 +120,6 @@ const PRODUCTS = [
     affiliateUrl:
       "https://www.gymshark.com",
     tag: "Studio Favourite",
-  },
-  {
-    rank: "06",
-    name: "Patagonia Capilene Cool Daily Shirt",
-    price: "$49",
-    verdict: "Best Sustainable Option",
-    description:
-      "Made from recycled polyester with HeiQ Fresh odour control, the Capilene Cool Daily is the most sustainable pick on this list without sacrificing performance. Dries incredibly fast and resists the post-workout smell that plagues cheaper synthetics. A smart buy for daily training.",
-    affiliateUrl:
-      "https://www.amazon.com/s?k=patagonia+capilene+cool+daily+shirt&tag=pilatescollective-20",
-    tag: "Eco Choice",
   },
 ];
 
@@ -208,7 +208,7 @@ const jsonLd = {
   ],
 };
 
-const QP_NOTES = ["Best overall, sold by Lululemon", "Best for spin", "Best for Lagree, sold by Alo", "Best budget", "Best seamless, sold by Gymshark", "Best sustainable option"];
+const QP_NOTES = ["Best budget", "Best for spin", "Best sustainable option", "Best overall, sold by Lululemon", "Best for Lagree, sold by Alo", "Best seamless, sold by Gymshark"];
 
 export default function BestMoistureWickingTopPage() {
   return (

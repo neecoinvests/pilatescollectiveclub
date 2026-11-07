@@ -46,6 +46,16 @@ const PRODUCTS = [
   },
   {
     rank: "02",
+    name: "Girlfriend Collective Bike Short",
+    price: "$62.66",
+    verdict: "Best Short for Pilates",
+    description:
+      "The Girlfriend Collective Bike Short has a 5-inch inseam: long enough to provide full coverage during all reformer exercises including those where the legs are elevated, and short enough not to bunch behind the knee during seated or bent-leg positions. The fabric is the same recycled RPET construction as the Compressive Legging, which means the opacity and compression hold up wash after wash. No ride-up on the reformer carriage, which is the specific functional test a studio short needs to pass. At under $40, this is excellent value for a performance short.",
+    affiliateUrl: "https://www.amazon.com/dp/B0CLS2GT5G?tag=pilatescollective-20",
+    tag: "Best Short",
+  },
+  {
+    rank: "03",
     name: "Girlfriend Collective Float Sports Bra",
     price: "From $42",
     verdict: "Best Bra for Pilates",
@@ -55,7 +65,7 @@ const PRODUCTS = [
     tag: "Best Bra",
   },
   {
-    rank: "03",
+    rank: "04",
     name: "Girlfriend Collective Paloma Bra",
     price: "From $45",
     verdict: "Best Bra Top",
@@ -63,16 +73,6 @@ const PRODUCTS = [
       "The Paloma is a bralette-style top that provides more coverage than the Float: appropriate for studio classes where a sports bra alone is insufficient for the practitioner&apos;s comfort level. The wide band sits firmly at the ribcage without digging during deep breathing exercises, and the straight neckline provides consistent coverage through every reformer exercise including those that require the torso to be horizontal or inverted. The recycled fabric quality is excellent: the Paloma is the piece that Girlfriend Collective customers most frequently cite as matching the feel of comparable Lululemon pieces at a lower price point.",
     affiliateUrl: "https://www.amazon.com/s?k=girlfriend+collective+paloma+bra+top&tag=pilatescollective-20",
     tag: "Best Bra Top",
-  },
-  {
-    rank: "04",
-    name: "Girlfriend Collective Bike Short",
-    price: "$62.66",
-    verdict: "Best Short for Pilates",
-    description:
-      "The Girlfriend Collective Bike Short has a 5-inch inseam: long enough to provide full coverage during all reformer exercises including those where the legs are elevated, and short enough not to bunch behind the knee during seated or bent-leg positions. The fabric is the same recycled RPET construction as the Compressive Legging, which means the opacity and compression hold up wash after wash. No ride-up on the reformer carriage, which is the specific functional test a studio short needs to pass. At under $40, this is excellent value for a performance short.",
-    affiliateUrl: "https://www.amazon.com/dp/B0CLS2GT5G?tag=pilatescollective-20",
-    tag: "Best Short",
   },
   {
     rank: "05",
@@ -121,7 +121,7 @@ const jsonLd = {
   ],
 };
 
-const QP_NOTES = ["Best Overall Legging", "Best Bra for Pilates", "Best Bra Top", "Best Short for Pilates", "Best Value Set"];
+const QP_NOTES = ["Best Overall Legging", "Best Short for Pilates", "Best Bra for Pilates", "Best Bra Top", "Best Value Set"];
 
 const ITEM_LIST = productItemList("Girlfriend Collective for Pilates (2026): Picks Reviewed", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 

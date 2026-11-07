@@ -54,16 +54,6 @@ const PRODUCTS = [
   },
   {
     rank: "03",
-    name: "Memory Foam Seat Cushion Cover",
-    price: "From $26",
-    verdict: "Best for shorter, lower-intensity rides",
-    description:
-      "Memory foam behaves differently from gel under load: it compresses progressively and rebounds slowly, which spreads pressure more evenly across a broad contact area but offers less support once it has fully compressed. That makes it a better match for 20 to 30 minute endurance-style sessions in the saddle than for interval classes with repeated standing and sitting, where the slow rebound means the cushion is still flat when you land back down. It also runs warmer than gel, which in a hot studio is a real consideration. Choose memory foam if your riding is steady and seated and your complaint is general soreness; choose gel or a proper saddle swap if your complaint is numbness or a specific hot spot, which is a pressure-distribution problem foam will not solve.",
-    affiliateUrl: "https://www.amazon.com/s?k=memory+foam+bike+seat+cushion+cover&tag=pilatescollective-20",
-    tag: "Best Memory Foam",
-  },
-  {
-    rank: "04",
     name: "Selle SMP TRK Lady Saddle",
     price: "$94.00",
     verdict: "Best anatomic fit for wider sit bones",
@@ -71,6 +61,16 @@ const PRODUCTS = [
       "Sit bone width varies considerably between individuals and is on average wider in women, while stock indoor bike saddles are almost universally cut to a narrow unisex shape. That mismatch is the mechanical reason so many riders describe the same problem in the same words. A saddle designed around a wider platform with a pronounced central cutout addresses it directly rather than padding over it. Expect a short adjustment period: a correctly supportive saddle can feel firmer than the squashy one it replaced, because your weight is now on bone rather than sinking into foam, and that is the point. Pair the swap with a saddle height check: a saddle roughly 5mm too high causes rocking that produces chafing no amount of padding will fix.",
     affiliateUrl: "https://www.amazon.com/dp/B00ZG6BF7U?tag=pilatescollective-20",
     tag: "Best Anatomic Fit",
+  },
+  {
+    rank: "04",
+    name: "Memory Foam Seat Cushion Cover",
+    price: "From $26",
+    verdict: "Best for shorter, lower-intensity rides",
+    description:
+      "Memory foam behaves differently from gel under load: it compresses progressively and rebounds slowly, which spreads pressure more evenly across a broad contact area but offers less support once it has fully compressed. That makes it a better match for 20 to 30 minute endurance-style sessions in the saddle than for interval classes with repeated standing and sitting, where the slow rebound means the cushion is still flat when you land back down. It also runs warmer than gel, which in a hot studio is a real consideration. Choose memory foam if your riding is steady and seated and your complaint is general soreness; choose gel or a proper saddle swap if your complaint is numbness or a specific hot spot, which is a pressure-distribution problem foam will not solve.",
+    affiliateUrl: "https://www.amazon.com/s?k=memory+foam+bike+seat+cushion+cover&tag=pilatescollective-20",
+    tag: "Best Memory Foam",
   },
   {
     rank: "05",
@@ -144,7 +144,7 @@ const jsonLd = {
   ],
 };
 
-const QP_NOTES = ["Best overall, replace the saddle, do not cover it", "Best cover if you cannot change the saddle", "Best for shorter, lower-intensity rides", "Best anatomic fit for wider sit bones", "Best for Peloton and standard-rail bikes", "Cheapest way to test whether padding is your problem"];
+const QP_NOTES = ["Best overall, replace the saddle, do not cover it", "Best cover if you cannot change the saddle", "Best anatomic fit for wider sit bones", "Best for shorter, lower-intensity rides", "Best for Peloton and standard-rail bikes", "Cheapest way to test whether padding is your problem"];
 
 export default function BestSpinBikeSeatCushionPage() {
   return (

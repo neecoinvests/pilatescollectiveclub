@@ -34,46 +34,6 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
-    name: "Your Reformer The Original",
-    price: "Priced direct: confirm on yourreformer.com",
-    verdict: "The brand's entry connected home reformer",
-    description:
-      "Worth knowing up front: Your Reformer is not sold on Amazon, so this section links directly to the brand's own site rather than an Amazon listing, and we could not independently verify the exact price or full spec sheet, confirm both on yourreformer.com before buying. Your Reformer's The Original is positioned as a spring-resistance machine with a wood-accented frame designed to read as furniture rather than gym equipment. The brand's own marketing describes an integrated app with on-demand and live classes, accessible through a tablet mount on the machine. We could not independently verify specific figures such as spring count, class-length ranges, or bearing type, so treat any precise spec quoted elsewhere as something to confirm directly with Your Reformer rather than an established fact.",
-    affiliateUrl: "https://yourreformer.com",
-    tag: "Editor's Pick",
-  },
-  {
-    rank: "02",
-    name: "Your Reformer The Studio",
-    price: "Priced direct: confirm on yourreformer.com",
-    verdict: "The brand's premium tier reformer",
-    description:
-      "The Studio is described by Your Reformer as its premium machine: an extended version of The Original aimed at taller practitioners and more advanced work. We could not independently verify the exact carriage length, footbar reach, or height range this model accommodates, so treat any specific figure (including a height cutoff) as a claim to confirm directly with Your Reformer rather than an established fact. The construction is described as consistent with The Original, wood and aluminium, at a larger specification and a higher price point that you should confirm on the brand's own site before ordering.",
-    affiliateUrl: "https://yourreformer.com",
-    tag: "Premium Model",
-  },
-  {
-    rank: "03",
-    name: "Your Reformer App Subscription",
-    price: "Priced direct: confirm on yourreformer.com",
-    verdict: "The content ecosystem",
-    description:
-      "The YR app is the component of Your Reformer that most distinguishes the brand from conventional reformer manufacturers, at least according to the brand's own marketing. It is described as a library of reformer classes filmed for Your Reformer machines and structured into progressive programmes rather than standalone sessions. We could not independently verify the subscription price or the exact content library size: confirm current pricing directly on yourreformer.com. The subscription is described as optional; the hardware does not require connectivity to operate.",
-    affiliateUrl: "https://yourreformer.com",
-    tag: "App Platform",
-  },
-  {
-    rank: "04",
-    name: "Your Reformer Accessories",
-    price: "Priced direct: confirm on yourreformer.com",
-    verdict: "Brand-specific add-ons",
-    description:
-      "Your Reformer sells reformer-specific accessories, including a box set that the brand describes as unlocking short box, long box, and kneeling series work. We could not independently verify current pricing or exactly what ships in any bundle, so confirm contents and cost directly on yourreformer.com before ordering. These are brand-specific accessories designed for Your Reformer machines rather than universal parts.",
-    affiliateUrl: "https://yourreformer.com",
-    tag: "Accessories",
-  },
-  {
-    rank: "05",
     name: "WINDFOOT Pilates Reformer",
     price: "$295.99",
     verdict: "Not Your Reformer: a real, budget-tier Amazon alternative with no app",
@@ -83,7 +43,7 @@ const PRODUCTS = [
     tag: "Budget Amazon Alternative",
   },
   {
-    rank: "06",
+    rank: "02",
     name: "DWKWE Pilates Reformer",
     price: "$284.99",
     verdict: "Not Your Reformer: a second real, budget-tier Amazon alternative",
@@ -91,6 +51,46 @@ const PRODUCTS = [
       "Also not a Your Reformer product and, like the WINDFOOT above, it skips the app and the wood-accented furniture look entirely. We include it as a second genuine, currently-sold Amazon option at $284.99 for readers comparing budget hardware side by side before deciding whether Your Reformer's premium, app-connected package is worth the price difference to them. Confirm current specs and stock directly on the Amazon listing before buying.",
     affiliateUrl: "https://www.amazon.com/dp/B0HB4J5RKX?tag=pilatescollective-20",
     tag: "Budget Amazon Alternative",
+  },
+  {
+    rank: "03",
+    name: "Your Reformer The Original",
+    price: "Priced direct: confirm on yourreformer.com",
+    verdict: "The brand's entry connected home reformer",
+    description:
+      "Worth knowing up front: Your Reformer is not sold on Amazon, so this section links directly to the brand's own site rather than an Amazon listing, and we could not independently verify the exact price or full spec sheet, confirm both on yourreformer.com before buying. Your Reformer's The Original is positioned as a spring-resistance machine with a wood-accented frame designed to read as furniture rather than gym equipment. The brand's own marketing describes an integrated app with on-demand and live classes, accessible through a tablet mount on the machine. We could not independently verify specific figures such as spring count, class-length ranges, or bearing type, so treat any precise spec quoted elsewhere as something to confirm directly with Your Reformer rather than an established fact.",
+    affiliateUrl: "https://yourreformer.com",
+    tag: "Editor's Pick",
+  },
+  {
+    rank: "04",
+    name: "Your Reformer The Studio",
+    price: "Priced direct: confirm on yourreformer.com",
+    verdict: "The brand's premium tier reformer",
+    description:
+      "The Studio is described by Your Reformer as its premium machine: an extended version of The Original aimed at taller practitioners and more advanced work. We could not independently verify the exact carriage length, footbar reach, or height range this model accommodates, so treat any specific figure (including a height cutoff) as a claim to confirm directly with Your Reformer rather than an established fact. The construction is described as consistent with The Original, wood and aluminium, at a larger specification and a higher price point that you should confirm on the brand's own site before ordering.",
+    affiliateUrl: "https://yourreformer.com",
+    tag: "Premium Model",
+  },
+  {
+    rank: "05",
+    name: "Your Reformer App Subscription",
+    price: "Priced direct: confirm on yourreformer.com",
+    verdict: "The content ecosystem",
+    description:
+      "The YR app is the component of Your Reformer that most distinguishes the brand from conventional reformer manufacturers, at least according to the brand's own marketing. It is described as a library of reformer classes filmed for Your Reformer machines and structured into progressive programmes rather than standalone sessions. We could not independently verify the subscription price or the exact content library size: confirm current pricing directly on yourreformer.com. The subscription is described as optional; the hardware does not require connectivity to operate.",
+    affiliateUrl: "https://yourreformer.com",
+    tag: "App Platform",
+  },
+  {
+    rank: "06",
+    name: "Your Reformer Accessories",
+    price: "Priced direct: confirm on yourreformer.com",
+    verdict: "Brand-specific add-ons",
+    description:
+      "Your Reformer sells reformer-specific accessories, including a box set that the brand describes as unlocking short box, long box, and kneeling series work. We could not independently verify current pricing or exactly what ships in any bundle, so confirm contents and cost directly on yourreformer.com before ordering. These are brand-specific accessories designed for Your Reformer machines rather than universal parts.",
+    affiliateUrl: "https://yourreformer.com",
+    tag: "Accessories",
   },
 ];
 
@@ -149,7 +149,7 @@ const jsonLd = {
 };
 
 
-const QP_NOTES = ["The brand's entry connected home reformer", "The brand's premium tier reformer", "The content ecosystem", "Brand-specific add-ons", "Not Your Reformer, a real, budget-tier Amazon alternative with no app", "Not Your Reformer, a second real, budget-tier Amazon alternative"];
+const QP_NOTES = ["Not Your Reformer, a real, budget-tier Amazon alternative with no app", "Not Your Reformer, a second real, budget-tier Amazon alternative", "The brand's entry connected home reformer", "The brand's premium tier reformer", "The content ecosystem", "Brand-specific add-ons"];
 
 export default function YourReformerPilatesPage() {
   return (
@@ -168,7 +168,7 @@ export default function YourReformerPilatesPage() {
               Your Reformer<br /><span style={{ color: "#8b4a31" }}>(2026): The Connected Home Studio</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 10 min read</p>
-            <TopPick name={PRODUCTS[4].name} price={PRODUCTS[4].price} note={QP_NOTES[4]} url={PRODUCTS[4].affiliateUrl} />
+            <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Your Reformer pairs a reformer with an integrated app: hardware plus content, in the vein of Peloton&apos;s approach to home cycling. It is sold direct through yourreformer.com rather than on Amazon, so this review is honest about what we could and couldn&apos;t independently verify: we could not confirm the brand&apos;s specific spring count, exact pricing, or precise hardware specifications. What follows covers what the brand itself claims, flags what we couldn&apos;t verify, points you to yourreformer.com to confirm specifics before buying, and adds two real, honestly-disclosed budget Amazon alternatives for readers who want purchase-today hardware instead.

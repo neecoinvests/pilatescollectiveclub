@@ -42,42 +42,15 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
-    name: "Lululemon Scuba Oversized Half-Zip Hoodie",
-    price: "$118",
-    verdict: "Best Overall",
-    description: "The Lululemon Scuba is the most-recognised hoodie in the global Pilates community. The French terry fabric is soft enough to wear against bare skin and warm enough for cold studios, pre-class warm-ups, and post-class cool-downs. The oversized fit layers easily over any Pilates outfit. The half-zip makes removal easy between exercises without needing to fully undress. Not sold on Amazon: this link goes to Lululemon's own site.",
-    affiliateUrl: "https://shop.lululemon.com",
-    tag: "Top Pick",
+    name: "Amazon Essentials Full-Zip Fleece Hoodie",
+    price: "$15.50",
+    verdict: "Best Budget",
+    description: "At $15.50, Amazon's Essentials Full-Zip Fleece Hoodie is the most accessible warm-up option on this list. The full-zip design makes layering and removal effortless, the fleece is adequately warm for most studio temperatures, and the classic cut suits any studio environment. For practitioners just building out their Pilates wardrobe, this is the sensible starting point.",
+    affiliateUrl: "https://www.amazon.com/dp/B07BJ8GVFJ?tag=pilatescollective-20",
+    tag: "Budget Pick",
   },
   {
     rank: "02",
-    name: "Alo Yoga Muse Sweatshirt",
-    price: "$114",
-    verdict: "Best Premium",
-    description: "Alo's Muse Sweatshirt has become a studio staple for practitioners who want their warm-up layer to look as considered as their workout kit. The heavyweight French terry drapes beautifully and the dropped shoulders allow complete arm mobility for warm-up stretches. A crossover piece that transitions from studio to daily wear without looking like gym kit. Not sold on Amazon: this link goes to Alo Yoga's own site.",
-    affiliateUrl: "https://www.aloyoga.com",
-    tag: "Premium",
-  },
-  {
-    rank: "03",
-    name: "Vuori Halo Performance Hoodie",
-    price: "$89",
-    verdict: "Best Performance Hoodie",
-    description: "Vuori's Halo Performance Hoodie bridges technical and lifestyle wear better than almost any other option. The CloudKnit fabric is moisture-wicking, quick-drying, and soft against the skin, meaning you can keep it on through your entire session if the studio is cool. The athletic-tapered silhouette doesn't bunch during reformer exercises or restrict shoulder movement. Not sold on Amazon: this link goes to Vuori's own site.",
-    affiliateUrl: "https://vuoriclothing.com",
-    tag: "Best Performance",
-  },
-  {
-    rank: "04",
-    name: "Gymshark Crest Hoodie",
-    price: "$60",
-    verdict: "Best Value",
-    description: "The Gymshark Crest Hoodie is the most straightforward, no-nonsense option on this list. The brushed-back fleece interior is genuinely warm, the kangaroo pocket is functional, and the relaxed fit accommodates layers underneath without feeling sloppy. Excellent durability at $60: a reliable pick for practitioners who need a warm-up layer without the premium price tag. Not sold on Amazon: this link goes to Gymshark's own site.",
-    affiliateUrl: "https://www.gymshark.com",
-    tag: "Best Value",
-  },
-  {
-    rank: "05",
     name: "Girlfriend Collective Restored Fleece Hoodie",
     price: "$78",
     verdict: "Best Sustainable",
@@ -86,13 +59,40 @@ const PRODUCTS = [
     tag: "Eco Choice",
   },
   {
+    rank: "03",
+    name: "Lululemon Scuba Oversized Half-Zip Hoodie",
+    price: "$118",
+    verdict: "Best Overall",
+    description: "The Lululemon Scuba is the most-recognised hoodie in the global Pilates community. The French terry fabric is soft enough to wear against bare skin and warm enough for cold studios, pre-class warm-ups, and post-class cool-downs. The oversized fit layers easily over any Pilates outfit. The half-zip makes removal easy between exercises without needing to fully undress. Not sold on Amazon: this link goes to Lululemon's own site.",
+    affiliateUrl: "https://shop.lululemon.com",
+    tag: "Top Pick",
+  },
+  {
+    rank: "04",
+    name: "Alo Yoga Muse Sweatshirt",
+    price: "$114",
+    verdict: "Best Premium",
+    description: "Alo's Muse Sweatshirt has become a studio staple for practitioners who want their warm-up layer to look as considered as their workout kit. The heavyweight French terry drapes beautifully and the dropped shoulders allow complete arm mobility for warm-up stretches. A crossover piece that transitions from studio to daily wear without looking like gym kit. Not sold on Amazon: this link goes to Alo Yoga's own site.",
+    affiliateUrl: "https://www.aloyoga.com",
+    tag: "Premium",
+  },
+  {
+    rank: "05",
+    name: "Vuori Halo Performance Hoodie",
+    price: "$89",
+    verdict: "Best Performance Hoodie",
+    description: "Vuori's Halo Performance Hoodie bridges technical and lifestyle wear better than almost any other option. The CloudKnit fabric is moisture-wicking, quick-drying, and soft against the skin, meaning you can keep it on through your entire session if the studio is cool. The athletic-tapered silhouette doesn't bunch during reformer exercises or restrict shoulder movement. Not sold on Amazon: this link goes to Vuori's own site.",
+    affiliateUrl: "https://vuoriclothing.com",
+    tag: "Best Performance",
+  },
+  {
     rank: "06",
-    name: "Amazon Essentials Full-Zip Fleece Hoodie",
-    price: "$15.50",
-    verdict: "Best Budget",
-    description: "At $15.50, Amazon's Essentials Full-Zip Fleece Hoodie is the most accessible warm-up option on this list. The full-zip design makes layering and removal effortless, the fleece is adequately warm for most studio temperatures, and the classic cut suits any studio environment. For practitioners just building out their Pilates wardrobe, this is the sensible starting point.",
-    affiliateUrl: "https://www.amazon.com/dp/B07BJ8GVFJ?tag=pilatescollective-20",
-    tag: "Budget Pick",
+    name: "Gymshark Crest Hoodie",
+    price: "$60",
+    verdict: "Best Value",
+    description: "The Gymshark Crest Hoodie is the most straightforward, no-nonsense option on this list. The brushed-back fleece interior is genuinely warm, the kangaroo pocket is functional, and the relaxed fit accommodates layers underneath without feeling sloppy. Excellent durability at $60: a reliable pick for practitioners who need a warm-up layer without the premium price tag. Not sold on Amazon: this link goes to Gymshark's own site.",
+    affiliateUrl: "https://www.gymshark.com",
+    tag: "Best Value",
   },
 ];
 
@@ -136,7 +136,7 @@ const jsonLd = {
   ],
 };
 
-const QP_NOTES = ["Best Overall", "Best Premium", "Best Performance Hoodie", "Best Value", "Best Sustainable", "Best Budget"];
+const QP_NOTES = ["Best Budget", "Best Sustainable", "Best Overall", "Best Premium", "Best Performance Hoodie", "Best Value"];
 
 const ITEM_LIST = productItemList("Best Pilates Hoodies & Warm-Up Jackets (2026)", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 
@@ -156,7 +156,7 @@ export default function BestPilatesHoodiePage() {
               Best Pilates Hoodies &amp; Warm-Up Jackets<br /><span style={{ color: "#8b4a31" }}>(2026)</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 8 min read</p>
-            <TopPick name={PRODUCTS[5].name} price={PRODUCTS[5].price} note={QP_NOTES[5]} url={PRODUCTS[5].affiliateUrl} />
+            <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               The warm-up layer you throw on before class and reach for immediately after is as much a part of your Pilates kit as your leggings. The right hoodie keeps muscles warm between exercises and signals the kind of considered approach to training that the Pilates method demands.

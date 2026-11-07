@@ -55,16 +55,6 @@ const PRODUCTS = [
   },
   {
     rank: "03",
-    name: "Lululemon Wunder Train High-Rise Tight",
-    price: "~$98",
-    verdict: "Brand-direct pick (lululemon.com)",
-    description:
-      "Not sold on Amazon by Lululemon: this links to lululemon.com. On Amazon, Wunder Train appears only via third-party resellers priced above retail, so we link to Lululemon directly; the approximate $98 price is Lululemon's own. If you already shop Lululemon, this is the line to look at for Lagree rather than the Align. Lululemon positions Wunder Train as a training tight, whereas Align is sold on a weightless, barely-there feel aimed at yoga and low-impact work. That distinction matters on a Megaformer, where you want a legging that stays put and supports you through long time-under-tension sets rather than one designed to disappear. The high rise is the other reason it suits the format: a tall waistband is less likely to roll down when you fold into a pike or work in a reverse plank. Check the inseam options on Lululemon's site before ordering, since Lululemon sells its tights in several lengths.",
-    affiliateUrl: "https://shop.lululemon.com/",
-    tag: "Brand-Direct",
-  },
-  {
-    rank: "04",
     name: "HeyNuts Pure&Plain Workout Pro 1.0 Leggings 25\"",
     price: "$19.99",
     verdict: "Best budget pair",
@@ -74,7 +64,7 @@ const PRODUCTS = [
     tag: "Best Budget",
   },
   {
-    rank: "05",
+    rank: "04",
     name: "Under Armour Men's HeatGear Armour Leggings",
     price: "$28.25",
     verdict: "Best option for men",
@@ -82,6 +72,16 @@ const PRODUCTS = [
       "Men often arrive at their first Lagree class in loose gym shorts and discover within ten minutes why that does not work: loose fabric rides up in a lunge, can catch on the carriage edge or springs, and leaves bare skin on vinyl in kneeling positions, which sticks and leaves sweat on a shared machine. A fitted legging fixes all of it, and Under Armour's HeatGear Armour legging is the straightforward, widely available option. HeatGear is the name Under Armour gives its warm-conditions gear, which suits a studio that runs hot. Wear it on its own or under a short, whichever you are comfortable with. A fitted leg also lets your instructor see your hip and knee alignment, which is half the value of a coached class. If you prefer shorts, see our Lagree shorts guide, which includes men's options with a built-in liner.",
     affiliateUrl: "https://www.amazon.com/dp/B0874W7Z7R?tag=pilatescollective-20",
     tag: "Best for Men",
+  },
+  {
+    rank: "05",
+    name: "Lululemon Wunder Train High-Rise Tight",
+    price: "~$98",
+    verdict: "Brand-direct pick (lululemon.com)",
+    description:
+      "Not sold on Amazon by Lululemon: this links to lululemon.com. On Amazon, Wunder Train appears only via third-party resellers priced above retail, so we link to Lululemon directly; the approximate $98 price is Lululemon's own. If you already shop Lululemon, this is the line to look at for Lagree rather than the Align. Lululemon positions Wunder Train as a training tight, whereas Align is sold on a weightless, barely-there feel aimed at yoga and low-impact work. That distinction matters on a Megaformer, where you want a legging that stays put and supports you through long time-under-tension sets rather than one designed to disappear. The high rise is the other reason it suits the format: a tall waistband is less likely to roll down when you fold into a pike or work in a reverse plank. Check the inseam options on Lululemon's site before ordering, since Lululemon sells its tights in several lengths.",
+    affiliateUrl: "https://shop.lululemon.com/",
+    tag: "Brand-Direct",
   },
 ];
 
@@ -138,7 +138,7 @@ const jsonLd = {
   ],
 };
 
-const QP_NOTES = ["Best overall value for Lagree", "Premium pick, studio to street", "Brand-direct pick (lululemon.com)", "Best budget pair", "Best option for men"];
+const QP_NOTES = ["Best overall value for Lagree", "Premium pick, studio to street", "Best budget pair", "Best option for men", "Brand-direct pick (lululemon.com)"];
 
 export default function BestLeggingsForLagreePage() {
   return (

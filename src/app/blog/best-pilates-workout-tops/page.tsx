@@ -36,26 +36,6 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
-    name: "Lululemon Align Tank Top",
-    price: "From $68",
-    verdict: "Best overall Pilates tank top",
-    description:
-      "The Align tank is the top equivalent of the Align legging: the same buttery Nulu fabric in a fitted, racerback silhouette with a built-in shelf bra. The coverage is full front and back, with no riding up during arm-overhead exercises or shoulder stand prep. The shelf bra provides light support suitable for low-impact work; practitioners who need more support should layer it over a dedicated sports bra. The fabric does not retain odour or pill with regular washing. A wardrobe staple for most regular Pilates practitioners: the neutral colours make it a versatile base layer for any studio. Not sold on Amazon: this link goes to Lululemon's own site.",
-    affiliateUrl: "https://shop.lululemon.com",
-    tag: "Editor's Pick",
-  },
-  {
-    rank: "02",
-    name: "Alo Yoga Airlift Intrigue Bra",
-    price: "From $62",
-    verdict: "Best sports bra for reformer Pilates",
-    description:
-      "Alo's Airlift Intrigue is the benchmark for sports bras in the Pilates studio environment. The medium-impact support is exactly right for reformer work: secure enough to be stable during dynamic movements, with none of the compression that makes high-impact bras uncomfortable during sustained floor-based work. The racerback design allows full shoulder mobility. The Airlift fabric is notably comfortable during the lying positions that characterise reformer Pilates: no underwire, no seams in uncomfortable positions, no bunching when the body changes orientation from supine to prone to side-lying. Not sold on Amazon: this link goes to Alo Yoga's own site.",
-    affiliateUrl: "https://www.aloyoga.com",
-    tag: "Best Sports Bra",
-  },
-  {
-    rank: "03",
     name: "Varley Stratford Bra Top",
     price: "From $75",
     verdict: "Best boutique studio top",
@@ -65,7 +45,7 @@ const PRODUCTS = [
     tag: "Boutique Studio",
   },
   {
-    rank: "04",
+    rank: "02",
     name: "Girlfriend Collective Paloma Bralette",
     price: "From $45",
     verdict: "Best sustainable option",
@@ -75,7 +55,7 @@ const PRODUCTS = [
     tag: "Sustainable",
   },
   {
-    rank: "05",
+    rank: "03",
     name: "CRZ YOGA Seamless Long Sleeve",
     price: "From $35",
     verdict: "Best budget top",
@@ -83,6 +63,26 @@ const PRODUCTS = [
       "For colder studios or practitioners who prefer more coverage, CRZ YOGA's seamless long sleeve is the best budget option. The fitted, four-way stretch construction moves without restriction through the full Pilates movement vocabulary, and the seamless construction eliminates the pressure points that standard seamed tops create when lying on a mat or reformer carriage. The thumb holes keep the sleeve in place during overhead work. Coverage and warmth with no compromise on mobility, at a price point that makes having multiple options practical.",
     affiliateUrl: "https://www.amazon.com/s?k=crz+yoga+seamless+long+sleeve+top&tag=pilatescollective-20",
     tag: "Best Budget",
+  },
+  {
+    rank: "04",
+    name: "Lululemon Align Tank Top",
+    price: "From $68",
+    verdict: "Best overall Pilates tank top",
+    description:
+      "The Align tank is the top equivalent of the Align legging: the same buttery Nulu fabric in a fitted, racerback silhouette with a built-in shelf bra. The coverage is full front and back, with no riding up during arm-overhead exercises or shoulder stand prep. The shelf bra provides light support suitable for low-impact work; practitioners who need more support should layer it over a dedicated sports bra. The fabric does not retain odour or pill with regular washing. A wardrobe staple for most regular Pilates practitioners: the neutral colours make it a versatile base layer for any studio. Not sold on Amazon: this link goes to Lululemon's own site.",
+    affiliateUrl: "https://shop.lululemon.com",
+    tag: "Editor's Pick",
+  },
+  {
+    rank: "05",
+    name: "Alo Yoga Airlift Intrigue Bra",
+    price: "From $62",
+    verdict: "Best sports bra for reformer Pilates",
+    description:
+      "Alo's Airlift Intrigue is the benchmark for sports bras in the Pilates studio environment. The medium-impact support is exactly right for reformer work: secure enough to be stable during dynamic movements, with none of the compression that makes high-impact bras uncomfortable during sustained floor-based work. The racerback design allows full shoulder mobility. The Airlift fabric is notably comfortable during the lying positions that characterise reformer Pilates: no underwire, no seams in uncomfortable positions, no bunching when the body changes orientation from supine to prone to side-lying. Not sold on Amazon: this link goes to Alo Yoga's own site.",
+    affiliateUrl: "https://www.aloyoga.com",
+    tag: "Best Sports Bra",
   },
 ];
 
@@ -121,7 +121,7 @@ const jsonLd = {
   ],
 };
 
-const QP_NOTES = ["Best overall Pilates tank top", "Best sports bra for reformer Pilates", "Best boutique studio top", "Best sustainable option", "Best budget top"];
+const QP_NOTES = ["Best boutique studio top", "Best sustainable option", "Best budget top", "Best overall Pilates tank top", "Best sports bra for reformer Pilates"];
 
 export default function BestPilatesWorkoutTopsPage() {
   return (
@@ -140,7 +140,7 @@ export default function BestPilatesWorkoutTopsPage() {
               Best Pilates Tops &amp; Sports Bras<br /><span style={{ color: "#8b4a31" }}>(2026): Ranked</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 8 min read</p>
-            <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
+            <TopPick name={PRODUCTS[3].name} price={PRODUCTS[3].price} note={QP_NOTES[3]} url={PRODUCTS[3].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Pilates tops need to do something most activewear tops don&apos;t: stay in place and provide clean lines for instructor observation across an enormous range of body positions, lying supine, prone, side-lying, seated, standing, and everything in between. A top that rides up during the hundred, bunches during shoulder bridge, or restricts shoulder mobility during long stretch makes the class both uncomfortable and less effective. These five options have been selected because they actually solve these problems.

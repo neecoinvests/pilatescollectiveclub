@@ -34,16 +34,6 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
-    name: "Alo Yoga Accolade Bomber Jacket",
-    price: "From $168",
-    verdict: "Best overall studio jacket for Pilates",
-    description:
-      "The Alo Accolade Bomber is the jacket most consistently seen in boutique Pilates and Lagree studio environments, and its prevalence reflects genuine performance rather than trend alone. The ribbed cuffs and hem seal body heat during reformer warm-up while allowing immediate removal when intensity rises: the bomber cut means it slides off one arm at a time without disrupting a reformer carriage position. The nylon shell is smooth enough that it does not catch on reformer upholstery or leather straps during the transitional exercises where practitioners shift between on-reformer and standing positions. The slim fit allows an instructor to see spinal alignment and shoulder position during warm-up: the same fit requirement that governs all Pilates and Lagree clothing. The front zip opens fully for rapid cooling. The Alo Accolade is also the jacket that holds its appearance through studio washing cycles better than most knit alternatives: the woven nylon resists pilling across consistent use. Available in 12 colourways. Not sold on Amazon: this link goes to Alo Yoga's own site.",
-    affiliateUrl: "https://www.aloyoga.com",
-    tag: "Editor's Pick",
-  },
-  {
-    rank: "02",
     name: "Lululemon Define Jacket",
     price: "$188.00",
     verdict: "Best fitted studio jacket",
@@ -53,7 +43,7 @@ const PRODUCTS = [
     tag: "Best Fitted Stretch Layer",
   },
   {
-    rank: "03",
+    rank: "02",
     name: "Beyond Yoga Foldover Pullover",
     price: "From $99",
     verdict: "Best soft studio pullover",
@@ -63,7 +53,7 @@ const PRODUCTS = [
     tag: "Best Soft Pullover",
   },
   {
-    rank: "04",
+    rank: "03",
     name: "Varley Claremont Track Top",
     price: "From $110",
     verdict: "Best track jacket for Pilates studio style",
@@ -73,7 +63,7 @@ const PRODUCTS = [
     tag: "Best Studio Style",
   },
   {
-    rank: "05",
+    rank: "04",
     name: "Girlfriend Collective Jackson Cropped Hoodie",
     price: "From $88",
     verdict: "Best sustainable warm-up layer",
@@ -83,7 +73,7 @@ const PRODUCTS = [
     tag: "Best Sustainable Option",
   },
   {
-    rank: "06",
+    rank: "05",
     name: "Splits59 Warm Up Jacket",
     price: "From $138",
     verdict: "Best performance zip jacket for Lagree",
@@ -91,6 +81,16 @@ const PRODUCTS = [
       "The Splits59 Warm Up Jacket is designed specifically for the boutique fitness studio environment and performs particularly well for Lagree classes where the warm-up-through-cool-down temperature arc is steeper than in standard Pilates sessions. The lightweight supplex fabric provides wind resistance for studio transit without adding bulk on the Megaformer, the full-zip allows staged removal as class intensity rises, and the slim-to-body cut does not interfere with the multi-limb platform positioning of Lagree exercises during early-session warm-up. Splits59 is one of the few activewear brands with studio-specific garment design rather than repurposed athletic styling: their warm-up jacket proportions are calibrated for reformer and Megaformer use rather than running or gym work. The jacket is available in the brand's signature neutral and muted colourways that integrate with any Pilates or Lagree studio environment.",
     affiliateUrl: "https://www.amazon.com/s?k=splits59+warm+up+jacket+women&tag=pilatescollective-20",
     tag: "Best for Lagree",
+  },
+  {
+    rank: "06",
+    name: "Alo Yoga Accolade Bomber Jacket",
+    price: "From $168",
+    verdict: "Best overall studio jacket for Pilates",
+    description:
+      "The Alo Accolade Bomber is the jacket most consistently seen in boutique Pilates and Lagree studio environments, and its prevalence reflects genuine performance rather than trend alone. The ribbed cuffs and hem seal body heat during reformer warm-up while allowing immediate removal when intensity rises: the bomber cut means it slides off one arm at a time without disrupting a reformer carriage position. The nylon shell is smooth enough that it does not catch on reformer upholstery or leather straps during the transitional exercises where practitioners shift between on-reformer and standing positions. The slim fit allows an instructor to see spinal alignment and shoulder position during warm-up: the same fit requirement that governs all Pilates and Lagree clothing. The front zip opens fully for rapid cooling. The Alo Accolade is also the jacket that holds its appearance through studio washing cycles better than most knit alternatives: the woven nylon resists pilling across consistent use. Available in 12 colourways. Not sold on Amazon: this link goes to Alo Yoga's own site.",
+    affiliateUrl: "https://www.aloyoga.com",
+    tag: "Editor's Pick",
   },
 ];
 
@@ -143,7 +143,7 @@ const jsonLd = {
   ],
 };
 
-const QP_NOTES = ["Best overall studio jacket for Pilates", "Best fitted studio jacket", "Best soft studio pullover", "Best track jacket for Pilates studio style", "Best sustainable warm-up layer", "Best performance zip jacket for Lagree"];
+const QP_NOTES = ["Best fitted studio jacket", "Best soft studio pullover", "Best track jacket for Pilates studio style", "Best sustainable warm-up layer", "Best performance zip jacket for Lagree", "Best overall studio jacket for Pilates"];
 
 export default function BestWarmUpJacketForPilatesPage() {
   return (
@@ -162,7 +162,7 @@ export default function BestWarmUpJacketForPilatesPage() {
               Best Warm-Up Jacket<br /><span style={{ color: "#8b4a31" }}>for Pilates (2026)</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 7 min read</p>
-            <TopPick name={PRODUCTS[1].name} price={PRODUCTS[1].price} note={QP_NOTES[1]} url={PRODUCTS[1].affiliateUrl} />
+            <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               A Pilates warm-up jacket is a specific garment: fitted enough that alignment is visible during early exercises, stretchy enough to move through overhead reach and lateral work, removable quickly mid-session without disrupting a reformer carriage position, and polished enough for the boutique studio environment. These six options, from the Alo Accolade Bomber to the Splits59 Lagree-specific jacket, cover every material, cut, and price point across the studio wardrobe.

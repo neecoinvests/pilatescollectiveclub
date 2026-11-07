@@ -44,16 +44,6 @@ const PRODUCTS = [
   },
   {
     rank: "02",
-    name: "Alo Yoga Move Mat Tote",
-    price: "From $88",
-    verdict: "Best premium mat tote",
-    description:
-      "Alo's Move Mat Tote is the rare bag that solves the mat-carry problem elegantly for practitioners who also need a full studio kit in the same carry. External straps secure a rolled mat to the exterior of the bag, keeping mat and gear contained without requiring a separate carrier. The main compartment holds a complete studio kit including shoes and a change of clothes, and the interior organisation is sufficient for everyday carry items. The aesthetic is unmistakably Alo: clean, minimal, and appropriate for both studio and street. Best suited for mat Pilates practitioners; those who only do reformer work may prefer a simpler tote without external straps. Not sold on Amazon: this link goes to Alo Yoga's own site.",
-    affiliateUrl: "https://www.aloyoga.com",
-    tag: "Best Premium",
-  },
-  {
-    rank: "03",
     name: "Manduka Go Light Mat Carrier",
     price: "From $38",
     verdict: "Best minimalist mat carrier",
@@ -63,17 +53,7 @@ const PRODUCTS = [
     tag: "Best Minimalist",
   },
   {
-    rank: "04",
-    name: "Lululemon Yoga Mat Bag",
-    price: "From $48",
-    verdict: "Best structured mat bag",
-    description:
-      "Lululemon's Yoga Mat Bag takes the enclosed bag approach and executes it with the brand's characteristic attention to detail. The main compartment fits a standard mat snugly, the exterior pocket handles personal items, and the carry handle and adjustable shoulder strap give flexible carrying options for different commute lengths. The fabric is water-resistant and maintains its structure rather than slouching when the mat is removed: a minor but meaningful quality-of-life improvement over cheaper fabric bags. For practitioners who want their mat bag to match a Lululemon studio kit, the integration is seamless. Not sold on Amazon: this link goes to Lululemon's own site.",
-    affiliateUrl: "https://shop.lululemon.com",
-    tag: "Best Structured",
-  },
-  {
-    rank: "05",
+    rank: "03",
     name: "MIER Large Yoga Mat Tote",
     price: "From $32",
     verdict: "Best value mat tote",
@@ -83,7 +63,7 @@ const PRODUCTS = [
     tag: "Best Value",
   },
   {
-    rank: "06",
+    rank: "04",
     name: "Myga Yoga Mat Carry Bag",
     price: "From $22",
     verdict: "Best budget mat bag",
@@ -91,6 +71,26 @@ const PRODUCTS = [
       "Myga's Yoga Mat Carry Bag is the honest budget recommendation for practitioners who need a mat carrier without a premium price. The design is straightforward (a canvas-style bag with a full-length zip, a side pocket, and a carry handle) and it does what a mat bag needs to do without embellishment. The capacity fits most standard mats, and the fabric, while not as durable as premium options, holds up well across regular weekly use. For beginners who are not yet committed to a specific mat brand or practice style, or practitioners who want a second bag to keep at a studio locker, Myga's bag delivers solid value.",
     affiliateUrl: "https://www.amazon.com/s?k=myga+yoga+mat+carry+bag&tag=pilatescollective-20",
     tag: "Best Budget",
+  },
+  {
+    rank: "05",
+    name: "Alo Yoga Move Mat Tote",
+    price: "From $88",
+    verdict: "Best premium mat tote",
+    description:
+      "Alo's Move Mat Tote is the rare bag that solves the mat-carry problem elegantly for practitioners who also need a full studio kit in the same carry. External straps secure a rolled mat to the exterior of the bag, keeping mat and gear contained without requiring a separate carrier. The main compartment holds a complete studio kit including shoes and a change of clothes, and the interior organisation is sufficient for everyday carry items. The aesthetic is unmistakably Alo: clean, minimal, and appropriate for both studio and street. Best suited for mat Pilates practitioners; those who only do reformer work may prefer a simpler tote without external straps. Not sold on Amazon: this link goes to Alo Yoga's own site.",
+    affiliateUrl: "https://www.aloyoga.com",
+    tag: "Best Premium",
+  },
+  {
+    rank: "06",
+    name: "Lululemon Yoga Mat Bag",
+    price: "From $48",
+    verdict: "Best structured mat bag",
+    description:
+      "Lululemon's Yoga Mat Bag takes the enclosed bag approach and executes it with the brand's characteristic attention to detail. The main compartment fits a standard mat snugly, the exterior pocket handles personal items, and the carry handle and adjustable shoulder strap give flexible carrying options for different commute lengths. The fabric is water-resistant and maintains its structure rather than slouching when the mat is removed: a minor but meaningful quality-of-life improvement over cheaper fabric bags. For practitioners who want their mat bag to match a Lululemon studio kit, the integration is seamless. Not sold on Amazon: this link goes to Lululemon's own site.",
+    affiliateUrl: "https://shop.lululemon.com",
+    tag: "Best Structured",
   },
 ];
 
@@ -143,7 +143,7 @@ const jsonLd = {
   ],
 };
 
-const QP_NOTES = ["Best overall mat tote", "Best premium mat tote", "Best minimalist mat carrier", "Best structured mat bag", "Best value mat tote", "Best budget mat bag"];
+const QP_NOTES = ["Best overall mat tote", "Best minimalist mat carrier", "Best value mat tote", "Best budget mat bag", "Best premium mat tote", "Best structured mat bag"];
 
 export default function BestPilatesMatTotePage() {
   return (

@@ -44,16 +44,6 @@ const PRODUCTS = [
   },
   {
     rank: "02",
-    name: "Hydro Flask Wide Mouth 32oz with Straw Lid",
-    price: "From $50",
-    verdict: "Best premium insulated bottle",
-    description:
-      "Hydro Flask's Wide Mouth 32oz is the benchmark for insulated bottle durability. The 18/8 stainless steel construction and TempShield double-wall insulation keep water cold for 24 hours without the bottle sweating onto studio surfaces: a recurring frustration with cheaper insulated options. The 32oz format is the practical sweet spot for a single Pilates session without the bulk of a 40oz bottle. The straw lid included in this configuration allows clean sips without tilting the bottle, which matters when you are mid-exercise. The powder-coated exterior resists scratches and maintains its appearance through daily bag use. Hydro Flask's build quality is genuinely superior to most competitors at this price point.",
-    affiliateUrl: "https://www.amazon.com/s?k=hydro+flask+32oz+wide+mouth+straw+lid&tag=pilatescollective-20",
-    tag: "Best Premium",
-  },
-  {
-    rank: "03",
     name: "Owala FreeSip 32oz Insulated",
     price: "$29.99",
     verdict: "Best for sipping mid-exercise",
@@ -63,7 +53,7 @@ const PRODUCTS = [
     tag: "Best Lid Design",
   },
   {
-    rank: "04",
+    rank: "03",
     name: "S'well 17oz Stainless Bottle",
     price: "$24.50",
     verdict: "Best compact studio bottle",
@@ -73,7 +63,7 @@ const PRODUCTS = [
     tag: "Best Compact",
   },
   {
-    rank: "05",
+    rank: "04",
     name: "Nalgene Tritan Wide Mouth 32oz",
     price: "$16.07",
     verdict: "Best budget Pilates bottle",
@@ -83,7 +73,7 @@ const PRODUCTS = [
     tag: "Best Budget",
   },
   {
-    rank: "06",
+    rank: "05",
     name: "Takeya Actives Insulated 24oz",
     price: "$29.99",
     verdict: "Best mid-size insulated bottle",
@@ -91,6 +81,16 @@ const PRODUCTS = [
       "Takeya's Actives 24oz sits between the compact S'well and the full-size Stanley in both capacity and price. The insulated stainless construction keeps water cold for 24 hours, the spout lid opens and closes with one hand without touching your mouth, and the carrying loop doubles as a bag attachment point. The 24oz format is the right size for a single reformer session without the weight of a 32oz or 40oz bottle. The bottle fits most car cup holders and bag side pockets without forcing. Takeya's quality control is consistent and their bottles match or exceed Hydro Flask's performance at a meaningfully lower price point.",
     affiliateUrl: "https://www.amazon.com/dp/B0B6QFSBCB?tag=pilatescollective-20",
     tag: "Best Mid-Size",
+  },
+  {
+    rank: "06",
+    name: "Hydro Flask Wide Mouth 32oz with Straw Lid",
+    price: "From $50",
+    verdict: "Best premium insulated bottle",
+    description:
+      "Hydro Flask's Wide Mouth 32oz is the benchmark for insulated bottle durability. The 18/8 stainless steel construction and TempShield double-wall insulation keep water cold for 24 hours without the bottle sweating onto studio surfaces: a recurring frustration with cheaper insulated options. The 32oz format is the practical sweet spot for a single Pilates session without the bulk of a 40oz bottle. The straw lid included in this configuration allows clean sips without tilting the bottle, which matters when you are mid-exercise. The powder-coated exterior resists scratches and maintains its appearance through daily bag use. Hydro Flask's build quality is genuinely superior to most competitors at this price point.",
+    affiliateUrl: "https://www.amazon.com/s?k=hydro+flask+32oz+wide+mouth+straw+lid&tag=pilatescollective-20",
+    tag: "Best Premium",
   },
 ];
 
@@ -143,7 +143,7 @@ const jsonLd = {
   ],
 };
 
-const QP_NOTES = ["Best overall Pilates water bottle", "Best premium insulated bottle", "Best for sipping mid-exercise", "Best compact studio bottle", "Best budget Pilates bottle", "Best mid-size insulated bottle"];
+const QP_NOTES = ["Best overall Pilates water bottle", "Best for sipping mid-exercise", "Best compact studio bottle", "Best budget Pilates bottle", "Best mid-size insulated bottle", "Best premium insulated bottle"];
 
 export default function BestPilatesWaterBottlePage() {
   return (

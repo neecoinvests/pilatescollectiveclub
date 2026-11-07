@@ -51,16 +51,6 @@ const PRODUCTS = [
   },
   {
     rank: "02",
-    name: "Megaformer Handles & Replacement Parts (Lagree Fitness)",
-    price: "Contact Lagree Fitness",
-    verdict: "Studio Megaformer owners: buy OEM, direct",
-    description:
-      "<strong>Not sold on Amazon. This links to lagreefitness.com.</strong> If you own or run a full-size Megaformer, the handles on it are original-equipment parts, and the only reliable source for replacements is the manufacturer. We could not find genuine Megaformer handles listed on Amazon, and we could not verify a public price, so we are not quoting one. Amazon searches for an &quot;OEM handle set&quot; did not lead us to a verified Lagree product. Contact Lagree Fitness (or the dealer you bought the machine from) with your machine model and they can tell you which part fits. Treat any third-party listing claiming to be a &quot;Megaformer handle&quot; with caution: the handles are part of a commercial machine that takes heavy spring loads, and a part that doesn't mount exactly as designed is not worth the saving.",
-    affiliateUrl: "https://www.lagreefitness.com/",
-    tag: "Megaformer Owners",
-  },
-  {
-    rank: "03",
     name: "TAVI Half Finger Gym Gloves",
     price: "$31.99",
     verdict: "Best grip glove for handles and straps",
@@ -70,7 +60,7 @@ const PRODUCTS = [
     tag: "Best Grip Glove",
   },
   {
-    rank: "04",
+    rank: "03",
     name: "PULLUP & DIP Neoprene Grip Pads (Set of 4)",
     price: "$10.90",
     verdict: "Best minimalist grip aid",
@@ -80,7 +70,7 @@ const PRODUCTS = [
     tag: "Best Grip Pads",
   },
   {
-    rank: "05",
+    rank: "04",
     name: "Harbinger Pro 20-Inch WristWraps (Pair)",
     price: "$15.50",
     verdict: "Best wrist support for plank-heavy sessions",
@@ -90,7 +80,7 @@ const PRODUCTS = [
     tag: "Best Wrist Support",
   },
   {
-    rank: "06",
+    rank: "05",
     name: "Gaiam Grippy Yoga Gloves",
     price: "$7.65",
     verdict: "Best budget grip glove",
@@ -98,6 +88,16 @@ const PRODUCTS = [
       "The low-cost way to find out whether gloves help you at all. Gaiam's grippy yoga gloves are made for exactly the problem Lagree regulars describe: palms that get slippery against a handle or platform once the sweat starts. They are not a premium training glove, and at this price you shouldn't expect one, but if you are unsure whether you are a glove person, this is a sensible first try before spending more on the TAVI pair above.",
     affiliateUrl: amz("B001VROVEM"),
     tag: "Best Budget Grip",
+  },
+  {
+    rank: "06",
+    name: "Megaformer Handles & Replacement Parts (Lagree Fitness)",
+    price: "Contact Lagree Fitness",
+    verdict: "Studio Megaformer owners: buy OEM, direct",
+    description:
+      "<strong>Not sold on Amazon. This links to lagreefitness.com.</strong> If you own or run a full-size Megaformer, the handles on it are original-equipment parts, and the only reliable source for replacements is the manufacturer. We could not find genuine Megaformer handles listed on Amazon, and we could not verify a public price, so we are not quoting one. Amazon searches for an &quot;OEM handle set&quot; did not lead us to a verified Lagree product. Contact Lagree Fitness (or the dealer you bought the machine from) with your machine model and they can tell you which part fits. Treat any third-party listing claiming to be a &quot;Megaformer handle&quot; with caution: the handles are part of a commercial machine that takes heavy spring loads, and a part that doesn't mount exactly as designed is not worth the saving.",
+    affiliateUrl: "https://www.lagreefitness.com/",
+    tag: "Megaformer Owners",
   },
 ];
 
@@ -160,7 +160,7 @@ const bodyStyle = { color: "#53433e", fontFamily: "'Montserrat', sans-serif" };
 const h2Style = { color: "#1b1c1c", fontFamily: "'Playfair Display', serif" };
 const inlineLinkStyle = { color: "#8b4a31", textDecoration: "underline" };
 
-const QP_NOTES = ["The real Lagree handles on Amazon, for The Micro only", "Studio Megaformer owners", "Best grip glove for handles and straps", "Best minimalist grip aid", "Best wrist support for plank-heavy sessions", "Best budget grip glove"];
+const QP_NOTES = ["The real Lagree handles on Amazon, for The Micro only", "Best grip glove for handles and straps", "Best minimalist grip aid", "Best wrist support for plank-heavy sessions", "Best budget grip glove", "Studio Megaformer owners"];
 
 export default function BestLagreeCarriageHandlesPage() {
   return (

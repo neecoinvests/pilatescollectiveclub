@@ -44,16 +44,6 @@ const PRODUCTS = [
   },
   {
     rank: "02",
-    name: "Alo Yoga Airbrush High-Waist Legging",
-    price: "From $114",
-    verdict: "Best compressive legging",
-    description:
-      "Where the Lululemon Align is soft and cloud-like, the Alo Airbrush is firm and sculpting. The Airbrush fabric applies gentle compression that many practitioners find supportive during longer reformer sessions and standing exercises. The fabric is fully opaque, meaningfully more so than many competitors, and maintains that opacity under the studio lighting conditions where cheaper leggings often fail. The high-waist band is substantial and stays locked in position throughout any sequence. No distracting inner-thigh seams. For practitioners who prefer compression over a second-skin feel, the Airbrush is the strongest choice in this category at any price point. Not sold on Amazon: this link goes to Alo Yoga's own site.",
-    affiliateUrl: "https://www.aloyoga.com",
-    tag: "Best Compression",
-  },
-  {
-    rank: "03",
     name: "Varley Reeves High Waist Legging",
     price: "From $130",
     verdict: "Best premium legging",
@@ -61,6 +51,16 @@ const PRODUCTS = [
       "Varley is a British activewear brand with strong roots in the studio Pilates community, and the Reeves Legging represents the upper tier of what a reformer-specific legging can be. The fabric is mid-weight (more structured than the Align, less compressive than the Airbrush) and achieves an excellent balance between support and freedom of movement. The waistband is wide, flat, and completely secure during inversions and transitions. The Reeves has a clean, minimal aesthetic that reads as elevated in boutique studio environments. For practitioners who spend significant time in the studio and want a legging that looks as considered as it performs, Varley is a serious investment.",
     affiliateUrl: "https://www.amazon.com/s?k=varley+reeves+high+waist+legging&tag=pilatescollective-20",
     tag: "Premium Pick",
+  },
+  {
+    rank: "03",
+    name: "Alo Yoga Airbrush High-Waist Legging",
+    price: "From $114",
+    verdict: "Best compressive legging",
+    description:
+      "Where the Lululemon Align is soft and cloud-like, the Alo Airbrush is firm and sculpting. The Airbrush fabric applies gentle compression that many practitioners find supportive during longer reformer sessions and standing exercises. The fabric is fully opaque, meaningfully more so than many competitors, and maintains that opacity under the studio lighting conditions where cheaper leggings often fail. The high-waist band is substantial and stays locked in position throughout any sequence. No distracting inner-thigh seams. For practitioners who prefer compression over a second-skin feel, the Airbrush is the strongest choice in this category at any price point. Not sold on Amazon: this link goes to Alo Yoga's own site.",
+    affiliateUrl: "https://www.aloyoga.com",
+    tag: "Best Compression",
   },
   {
     rank: "04",
@@ -122,7 +122,7 @@ const jsonLd = {
   ],
 };
 
-const QP_NOTES = ["Best overall legging for reformer", "Best compressive legging", "Best premium legging", "Best for breathability", "Best budget legging"];
+const QP_NOTES = ["Best overall legging for reformer", "Best premium legging", "Best compressive legging", "Best for breathability", "Best budget legging"];
 
 const ITEM_LIST = productItemList("Best Leggings for Reformer Pilates (2026): Compared & Ranked", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 

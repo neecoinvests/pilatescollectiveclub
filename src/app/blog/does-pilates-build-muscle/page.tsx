@@ -74,16 +74,6 @@ const PRODUCTS = [
   },
   {
     rank: "05",
-    name: "Retrospec Solana Yoga Sliders",
-    price: "From $16",
-    verdict: "Best core intensifier for Pilates",
-    description:
-      "Exercise sliders placed under the hands or feet in Pilates exercises dramatically increase core and stabiliser activation by adding an instability element to movements that are otherwise performed on a static surface. Pike slides, mountain climber variations, and reverse lunge slides on a smooth studio floor create sustained eccentric load in the core, hip flexors, and glutes that standard mat exercises do not replicate. The dual-sided Retrospec Solana sliders work on both carpet and hard floors. Used during the standing and floor elements of a mat class, they bridge the gap between standard Pilates and the muscular challenge needed for genuine hypertrophy without requiring additional equipment or departing from the Pilates movement vocabulary.",
-    affiliateUrl: "https://www.amazon.com/s?k=retrospec+exercise+sliders+core+workout&tag=pilatescollective-20",
-    tag: "Best Core Intensifier",
-  },
-  {
-    rank: "06",
     name: "Trideer Pilates Ball 9 Inch Overball",
     price: "$7.99",
     verdict: "Best prop for deep muscle activation",
@@ -91,6 +81,16 @@ const PRODUCTS = [
       "The small Pilates overball creates instability and proprioceptive challenge that recruits deep stabiliser muscles the standard flat-surface exercises do not reach. Placed under the lumbar spine in supine exercises, it challenges the multifidus and deep spinal extensors. Placed between the knees, it maintains inner thigh and adductor activation through exercises that would otherwise allow these muscles to disengage. The overball is particularly effective for practitioners who have plateaued on standard mat Pilates: adding it to familiar exercises creates fresh muscular challenge from the same movement patterns. The 9-inch size fits most practitioners' hip and knee widths without adjustment.",
     affiliateUrl: "https://www.amazon.com/dp/B077QD9TFF?tag=pilatescollective-20",
     tag: "Best for Deep Muscles",
+  },
+  {
+    rank: "06",
+    name: "Retrospec Solana Yoga Sliders",
+    price: "From $16",
+    verdict: "Best core intensifier for Pilates",
+    description:
+      "Exercise sliders placed under the hands or feet in Pilates exercises dramatically increase core and stabiliser activation by adding an instability element to movements that are otherwise performed on a static surface. Pike slides, mountain climber variations, and reverse lunge slides on a smooth studio floor create sustained eccentric load in the core, hip flexors, and glutes that standard mat exercises do not replicate. The dual-sided Retrospec Solana sliders work on both carpet and hard floors. Used during the standing and floor elements of a mat class, they bridge the gap between standard Pilates and the muscular challenge needed for genuine hypertrophy without requiring additional equipment or departing from the Pilates movement vocabulary.",
+    affiliateUrl: "https://www.amazon.com/s?k=retrospec+exercise+sliders+core+workout&tag=pilatescollective-20",
+    tag: "Best Core Intensifier",
   },
 ];
 
@@ -128,7 +128,7 @@ const jsonLd = {
   ],
 };
 
-const QP_NOTES = ["Best for adding load to Pilates", "Best light dumbbell set for Pilates", "Best resistance bands for Pilates muscle work", "Best classic Pilates prop for muscle activation", "Best core intensifier for Pilates", "Best prop for deep muscle activation"];
+const QP_NOTES = ["Best for adding load to Pilates", "Best light dumbbell set for Pilates", "Best resistance bands for Pilates muscle work", "Best classic Pilates prop for muscle activation", "Best prop for deep muscle activation", "Best core intensifier for Pilates"];
 
 const ITEM_LIST = productItemList("Does Pilates Build Muscle? What the Science Says (2026)", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 

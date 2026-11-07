@@ -42,33 +42,6 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
-    name: "Lululemon Swiftly Tech Racerback Tank",
-    price: "$58",
-    verdict: "Best Overall",
-    description: "The Swiftly Tech Racerback is the most recommended tank in Pilates studios globally for good reason. The Swiftly fabric is buttery-soft, wicks sweat almost instantly, and the racerback cut provides full shoulder freedom for overhead reaches and shoulder bridge variations. It doesn't ride up, pill, or lose its shape after repeated washing. Not sold on Amazon: this link goes to Lululemon's own site.",
-    affiliateUrl: "https://shop.lululemon.com",
-    tag: "Top Pick",
-  },
-  {
-    rank: "02",
-    name: "Alo Yoga Airlift Intrigue Tank",
-    price: "$62",
-    verdict: "Best Premium",
-    description: "Alo's Airlift fabric is their most technical offering: ultra-lightweight, compressive, and opaque in every colour. The Intrigue Tank features an open-cross back that elevates the silhouette while maximising airflow during heated reformer sessions. Worn equally for Pilates, yoga, and studio barre. Not sold on Amazon: this link goes to Alo Yoga's own site.",
-    affiliateUrl: "https://www.aloyoga.com",
-    tag: "Premium",
-  },
-  {
-    rank: "03",
-    name: "Gymshark Flex Strappy Back Tank",
-    price: "$35",
-    verdict: "Best for Lagree",
-    description: "The multi-strap back of the Gymshark Flex Tank keeps you cool during high-output Lagree sessions while the fitted front stays in place through plank, pike, and mountain climber. Gymshark's Flex fabric has a subtle compression that doesn't restrict breathing: important during slow-twitch Megaformer work where breath control is essential. Not sold on Amazon: this link goes to Gymshark's own site.",
-    affiliateUrl: "https://www.gymshark.com",
-    tag: "Lagree Favourite",
-  },
-  {
-    rank: "04",
     name: "Nike Dri-FIT One Slim-Fit Tank",
     price: "$35",
     verdict: "Best Budget Performance",
@@ -77,7 +50,7 @@ const PRODUCTS = [
     tag: "Best Value",
   },
   {
-    rank: "05",
+    rank: "02",
     name: "Free People Movement Good Karma Tank",
     price: "$58",
     verdict: "Best Aesthetic",
@@ -86,13 +59,40 @@ const PRODUCTS = [
     tag: "Lifestyle Pick",
   },
   {
-    rank: "06",
+    rank: "03",
     name: "Amazon Essentials Active Performance Tank",
     price: "$18",
     verdict: "Best Budget",
     description: "At under $20, the Amazon Essentials Performance Tank does everything a basic tank needs to: wicks sweat, provides a comfortable fit through a full reformer class, and comes in a wide range of colours. The polyester-elastane blend has reasonable four-way stretch and holds up well to regular washing. An honest, unpretentious pick for beginners.",
     affiliateUrl: "https://www.amazon.com/s?k=amazon+essentials+active+performance+tank+top+women&tag=pilatescollective-20",
     tag: "Budget Pick",
+  },
+  {
+    rank: "04",
+    name: "Lululemon Swiftly Tech Racerback Tank",
+    price: "$58",
+    verdict: "Best Overall",
+    description: "The Swiftly Tech Racerback is the most recommended tank in Pilates studios globally for good reason. The Swiftly fabric is buttery-soft, wicks sweat almost instantly, and the racerback cut provides full shoulder freedom for overhead reaches and shoulder bridge variations. It doesn't ride up, pill, or lose its shape after repeated washing. Not sold on Amazon: this link goes to Lululemon's own site.",
+    affiliateUrl: "https://shop.lululemon.com",
+    tag: "Top Pick",
+  },
+  {
+    rank: "05",
+    name: "Alo Yoga Airlift Intrigue Tank",
+    price: "$62",
+    verdict: "Best Premium",
+    description: "Alo's Airlift fabric is their most technical offering: ultra-lightweight, compressive, and opaque in every colour. The Intrigue Tank features an open-cross back that elevates the silhouette while maximising airflow during heated reformer sessions. Worn equally for Pilates, yoga, and studio barre. Not sold on Amazon: this link goes to Alo Yoga's own site.",
+    affiliateUrl: "https://www.aloyoga.com",
+    tag: "Premium",
+  },
+  {
+    rank: "06",
+    name: "Gymshark Flex Strappy Back Tank",
+    price: "$35",
+    verdict: "Best for Lagree",
+    description: "The multi-strap back of the Gymshark Flex Tank keeps you cool during high-output Lagree sessions while the fitted front stays in place through plank, pike, and mountain climber. Gymshark's Flex fabric has a subtle compression that doesn't restrict breathing: important during slow-twitch Megaformer work where breath control is essential. Not sold on Amazon: this link goes to Gymshark's own site.",
+    affiliateUrl: "https://www.gymshark.com",
+    tag: "Lagree Favourite",
   },
 ];
 
@@ -136,7 +136,7 @@ const jsonLd = {
   ],
 };
 
-const QP_NOTES = ["Best Overall", "Best Premium", "Best for Lagree", "Best Budget Performance", "Best Aesthetic", "Best Budget"];
+const QP_NOTES = ["Best Budget Performance", "Best Aesthetic", "Best Budget", "Best Overall", "Best Premium", "Best for Lagree"];
 
 export default function BestPilatesTankTopsPage() {
   return (
@@ -153,7 +153,7 @@ export default function BestPilatesTankTopsPage() {
               Best Pilates Tank Tops<br /><span style={{ color: "#8b4a31" }}>(2026)</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated October 2026 · 8 min read</p>
-            <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
+            <TopPick name={PRODUCTS[3].name} price={PRODUCTS[3].price} note={QP_NOTES[3]} url={PRODUCTS[3].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               A tank top might be the most-worn item in a Pilates practitioner&apos;s wardrobe. It needs to stay put through footwork, float-free during roll-ups, and not draw a single distracted thought mid-class. These six picks earn their place in any studio kit.

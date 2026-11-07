@@ -75,19 +75,19 @@ const PRODUCTS = [
   },
   {
     rank: "05",
-    name: "ToeSox Half-Toe Grip Socks 5-Pack",
-    price: "$65",
-    verdict: "The Gift That Gets Used Every Day",
-    description: "An instructor teaches in grip socks every single class, and goes through them at a rate that practitioners never do. A five-pack of ToeSox Half-Toe socks is a gift that gets opened and immediately slotted into their weekly rotation. ToeSox are the brand that instructors consistently choose when they're spending their own money. The half-toe design works for both demonstration and teaching; the grip holds on every surface in the studio. Practical, appreciated, and completely appropriate for a client-to-instructor gift.",
-    affiliateUrl: "https://www.amazon.com/s?k=toesox+half+toe+grip+socks+pilates+5+pack&tag=pilatescollective-20",
-  },
-  {
-    rank: "06",
     name: "Hydro Flask 40oz Wide Mouth Bottle",
     price: "$48.45",
     verdict: "Best Practical Gift",
     description: "An instructor teaching back-to-back classes across a full day needs a water bottle that doesn't run out before the last session. The 40oz Hydro Flask is the right size for a professional's teaching day: large enough to cover four to five hours without a refill, double-wall vacuum insulated so water stays cold the entire time. The wide mouth takes ice easily and the flex cap is secure in any bag. A simple, premium, genuinely useful gift that requires no knowledge of their personal style or preferences.",
     affiliateUrl: "https://www.amazon.com/dp/B0G996RFY4?tag=pilatescollective-20",
+  },
+  {
+    rank: "06",
+    name: "ToeSox Half-Toe Grip Socks 5-Pack",
+    price: "$65",
+    verdict: "The Gift That Gets Used Every Day",
+    description: "An instructor teaches in grip socks every single class, and goes through them at a rate that practitioners never do. A five-pack of ToeSox Half-Toe socks is a gift that gets opened and immediately slotted into their weekly rotation. ToeSox are the brand that instructors consistently choose when they're spending their own money. The half-toe design works for both demonstration and teaching; the grip holds on every surface in the studio. Practical, appreciated, and completely appropriate for a client-to-instructor gift.",
+    affiliateUrl: "https://www.amazon.com/s?k=toesox+half+toe+grip+socks+pilates+5+pack&tag=pilatescollective-20",
   },
 ];
 
@@ -170,7 +170,7 @@ const jsonLd = {
   ],
 };
 
-const QP_NOTES = ["The Ultimate Instructor Gift", "The Studio Standard", "The Professional's Mat", "Best Studio Equipment Gift", "The Gift That Gets Used Every Day", "Best Practical Gift"];
+const QP_NOTES = ["The Ultimate Instructor Gift", "The Studio Standard", "The Professional's Mat", "Best Studio Equipment Gift", "Best Practical Gift", "The Gift That Gets Used Every Day"];
 
 const ITEM_LIST = productItemList("Best Gifts for a Pilates Instructor (2026)", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 

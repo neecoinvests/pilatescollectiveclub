@@ -34,26 +34,6 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
-    name: "Lululemon Everywhere Tote 22L",
-    price: "From $88",
-    verdict: "Best overall Pilates tote",
-    description:
-      "The Lululemon Everywhere Tote 22L has become the benchmark against which other Pilates totes are judged, and for good reason. The 22-litre capacity is the sweet spot for a studio kit: generous enough for grip socks, a change of clothes, a water bottle, and personal items, but compact enough to sit neatly under a bench without dominating the changing room. The structured base keeps the bag upright rather than collapsing in a heap, and the interior organisation (zip pocket, card slots, key clip) is genuinely functional rather than decorative. The smooth exterior wipes clean after studio use, and the dual-carry handles transition naturally from hand to shoulder without awkwardness. Not sold on Amazon: this link goes to Lululemon's own site.",
-    affiliateUrl: "https://shop.lululemon.com",
-    tag: "Editor's Pick",
-  },
-  {
-    rank: "02",
-    name: "Alo Yoga Accolade Tote",
-    price: "From $98",
-    verdict: "Best premium Pilates tote",
-    description:
-      "Alo's Accolade Tote occupies the premium end of the Pilates tote market and justifies its price through a combination of materials quality, thoughtful organisation, and unmistakable aesthetic. The bag is structured enough to stand on its own, with a reinforced base that survives daily studio use without losing its shape. Interior pockets are positioned logically for studio use: phone and cards accessible at the top, a deeper compartment for clothes and shoes below. The exterior fabric is water-resistant and maintains its appearance through repeated use. For practitioners who want a bag that reads as polished in a boardroom as it does in a studio changing room, the Accolade is the natural choice. Not sold on Amazon: this link goes to Alo Yoga's own site.",
-    affiliateUrl: "https://www.aloyoga.com",
-    tag: "Best Premium",
-  },
-  {
-    rank: "03",
     name: "CRZ YOGA Lightweight Tote Bag",
     price: "From $29",
     verdict: "Best value Pilates tote",
@@ -63,7 +43,7 @@ const PRODUCTS = [
     tag: "Best Value",
   },
   {
-    rank: "04",
+    rank: "02",
     name: "Manduka Go Steady 3.0 Tote",
     price: "From $72",
     verdict: "Best structured tote",
@@ -71,6 +51,26 @@ const PRODUCTS = [
       "Manduka's Go Steady 3.0 Tote is built for practitioners who want their bag to behave like a proper piece of kit rather than a soft fashion accessory. The structured design holds its shape fully loaded or empty, with a reinforced base that stays firm on locker-room floors and studio benches. The organisation is comprehensive: multiple internal pockets, a secure zip closure, and a dedicated exterior slip pocket for items that need to be accessed without opening the main compartment. The durable fabric is consistent with Manduka's reputation for longevity, and the bag improves with use rather than degrading over time.",
     affiliateUrl: "https://www.amazon.com/s?k=manduka+go+steady+tote+bag&tag=pilatescollective-20",
     tag: "Best Structured",
+  },
+  {
+    rank: "03",
+    name: "Lululemon Everywhere Tote 22L",
+    price: "From $88",
+    verdict: "Best overall Pilates tote",
+    description:
+      "The Lululemon Everywhere Tote 22L has become the benchmark against which other Pilates totes are judged, and for good reason. The 22-litre capacity is the sweet spot for a studio kit: generous enough for grip socks, a change of clothes, a water bottle, and personal items, but compact enough to sit neatly under a bench without dominating the changing room. The structured base keeps the bag upright rather than collapsing in a heap, and the interior organisation (zip pocket, card slots, key clip) is genuinely functional rather than decorative. The smooth exterior wipes clean after studio use, and the dual-carry handles transition naturally from hand to shoulder without awkwardness. Not sold on Amazon: this link goes to Lululemon's own site.",
+    affiliateUrl: "https://shop.lululemon.com",
+    tag: "Editor's Pick",
+  },
+  {
+    rank: "04",
+    name: "Alo Yoga Accolade Tote",
+    price: "From $98",
+    verdict: "Best premium Pilates tote",
+    description:
+      "Alo's Accolade Tote occupies the premium end of the Pilates tote market and justifies its price through a combination of materials quality, thoughtful organisation, and unmistakable aesthetic. The bag is structured enough to stand on its own, with a reinforced base that survives daily studio use without losing its shape. Interior pockets are positioned logically for studio use: phone and cards accessible at the top, a deeper compartment for clothes and shoes below. The exterior fabric is water-resistant and maintains its appearance through repeated use. For practitioners who want a bag that reads as polished in a boardroom as it does in a studio changing room, the Accolade is the natural choice. Not sold on Amazon: this link goes to Alo Yoga's own site.",
+    affiliateUrl: "https://www.aloyoga.com",
+    tag: "Best Premium",
   },
   {
     rank: "05",
@@ -143,7 +143,7 @@ const jsonLd = {
   ],
 };
 
-const QP_NOTES = ["Best overall Pilates tote", "Best premium Pilates tote", "Best value Pilates tote", "Best structured tote", "Best minimalist tote", "Best sporty tote"];
+const QP_NOTES = ["Best value Pilates tote", "Best structured tote", "Best overall Pilates tote", "Best premium Pilates tote", "Best minimalist tote", "Best sporty tote"];
 
 export default function BestPilatesToteBagPage() {
   return (
@@ -162,7 +162,7 @@ export default function BestPilatesToteBagPage() {
               Best Pilates Tote Bags<br /><span style={{ color: "#8b4a31" }}>for Women (2026)</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated June 2026 · 7 min read</p>
-            <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
+            <TopPick name={PRODUCTS[2].name} price={PRODUCTS[2].price} note={QP_NOTES[2]} url={PRODUCTS[2].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               The right tote bag for Pilates is the one you stop noticing: it holds everything you need, stays organised through a rushed post-class change, and looks presentable enough to take from studio to wherever your day takes you next. The wrong one means a damp towel against your clean clothes and a two-minute excavation to find your keys in the lobby. These six tote bags have been chosen specifically for Pilates use: the right capacity for a studio kit, enough organisation to matter, and the durability to survive five sessions a week over years of practice.

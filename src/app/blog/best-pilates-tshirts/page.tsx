@@ -42,33 +42,6 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
-    name: "Lululemon Metal Vent Tech Short-Sleeve Shirt",
-    price: "$68",
-    verdict: "Best Overall",
-    description: "Lululemon's Metal Vent Tech is the benchmark for Pilates tees. The back panel is open-weave mesh for maximum ventilation during reformer work, while the front stays structured enough for studio settings. Four-way stretch means the fabric moves with you through every rotation and extension without bunching or restricting. Not sold on Amazon: this link goes to Lululemon's own site.",
-    affiliateUrl: "https://shop.lululemon.com",
-    tag: "Top Pick",
-  },
-  {
-    rank: "02",
-    name: "Vuori Strato Tech Tee",
-    price: "$64",
-    verdict: "Best Breathable",
-    description: "Vuori's Strato Tech uses a proprietary anti-microbial polyester that stays fresh through back-to-back sessions. The relaxed fit is on-trend for Pilates studios without being sloppy: it doesn't ride up during supine footwork or aerial work on the reformer. The neutral colourways suit any studio aesthetic. Not sold on Amazon: this link goes to Vuori's own site.",
-    affiliateUrl: "https://vuoriclothing.com",
-    tag: "Best Breathable",
-  },
-  {
-    rank: "03",
-    name: "Alo Yoga The Triumph Tee",
-    price: "$58",
-    verdict: "Best Studio Style",
-    description: "If aesthetics matter in your studio, and they do, the Triumph Tee is Alo's most popular silhouette for a reason. The micro-rib fabric has a polished look that reads elevated without sacrificing movement. It's slightly fitted through the torso, which keeps it from interfering with strap work or carriage-based exercises. Not sold on Amazon: this link goes to Alo Yoga's own site.",
-    affiliateUrl: "https://www.aloyoga.com",
-    tag: "Studio Favourite",
-  },
-  {
-    rank: "04",
     name: "Nike Dri-FIT Legend Training Tee",
     price: "$37.00",
     verdict: "Best Budget",
@@ -77,22 +50,49 @@ const PRODUCTS = [
     tag: "Best Value",
   },
   {
-    rank: "05",
-    name: "Gymshark Vital Seamless T-Shirt",
-    price: "$38",
-    verdict: "Best Seamless",
-    description: "Seamless construction eliminates every seam that could press into skin during floor work. The Vital fabric is lightweight but substantial enough to feel like real clothing rather than a performance layer. Subtle texture panels on the side add visual interest without adding bulk: a good choice for those who prefer minimalist styling. Not sold on Amazon: this link goes to Gymshark's own site.",
-    affiliateUrl: "https://www.gymshark.com",
-    tag: "Seamless Pick",
-  },
-  {
-    rank: "06",
+    rank: "02",
     name: "Patagonia Capilene Cool Trail Shirt",
     price: "$45",
     verdict: "Best Sustainable",
     description: "Made from 100% recycled polyester with HeiQ Fresh technology for odour control, the Capilene Cool Trail is the most environmentally responsible pick on this list without cutting corners on performance. The UPF 40+ rating and flat-lock seams make it a versatile tee equally suited to studio Pilates, outdoor cross-training, or travel.",
     affiliateUrl: "https://www.amazon.com/s?k=patagonia+capilene+cool+trail+shirt&tag=pilatescollective-20",
     tag: "Eco Choice",
+  },
+  {
+    rank: "03",
+    name: "Lululemon Metal Vent Tech Short-Sleeve Shirt",
+    price: "$68",
+    verdict: "Best Overall",
+    description: "Lululemon's Metal Vent Tech is the benchmark for Pilates tees. The back panel is open-weave mesh for maximum ventilation during reformer work, while the front stays structured enough for studio settings. Four-way stretch means the fabric moves with you through every rotation and extension without bunching or restricting. Not sold on Amazon: this link goes to Lululemon's own site.",
+    affiliateUrl: "https://shop.lululemon.com",
+    tag: "Top Pick",
+  },
+  {
+    rank: "04",
+    name: "Vuori Strato Tech Tee",
+    price: "$64",
+    verdict: "Best Breathable",
+    description: "Vuori's Strato Tech uses a proprietary anti-microbial polyester that stays fresh through back-to-back sessions. The relaxed fit is on-trend for Pilates studios without being sloppy: it doesn't ride up during supine footwork or aerial work on the reformer. The neutral colourways suit any studio aesthetic. Not sold on Amazon: this link goes to Vuori's own site.",
+    affiliateUrl: "https://vuoriclothing.com",
+    tag: "Best Breathable",
+  },
+  {
+    rank: "05",
+    name: "Alo Yoga The Triumph Tee",
+    price: "$58",
+    verdict: "Best Studio Style",
+    description: "If aesthetics matter in your studio, and they do, the Triumph Tee is Alo's most popular silhouette for a reason. The micro-rib fabric has a polished look that reads elevated without sacrificing movement. It's slightly fitted through the torso, which keeps it from interfering with strap work or carriage-based exercises. Not sold on Amazon: this link goes to Alo Yoga's own site.",
+    affiliateUrl: "https://www.aloyoga.com",
+    tag: "Studio Favourite",
+  },
+  {
+    rank: "06",
+    name: "Gymshark Vital Seamless T-Shirt",
+    price: "$38",
+    verdict: "Best Seamless",
+    description: "Seamless construction eliminates every seam that could press into skin during floor work. The Vital fabric is lightweight but substantial enough to feel like real clothing rather than a performance layer. Subtle texture panels on the side add visual interest without adding bulk: a good choice for those who prefer minimalist styling. Not sold on Amazon: this link goes to Gymshark's own site.",
+    affiliateUrl: "https://www.gymshark.com",
+    tag: "Seamless Pick",
   },
 ];
 
@@ -136,7 +136,7 @@ const jsonLd = {
   ],
 };
 
-const QP_NOTES = ["Best Overall", "Best Breathable", "Best Studio Style", "Best Budget", "Best Seamless", "Best Sustainable"];
+const QP_NOTES = ["Best Budget", "Best Sustainable", "Best Overall", "Best Breathable", "Best Studio Style", "Best Seamless"];
 
 const ITEM_LIST = productItemList("Best Pilates T-Shirts (2026)", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 
@@ -156,7 +156,7 @@ export default function BestPilatesTshirtsPage() {
               Best Pilates T-Shirts<br /><span style={{ color: "#8b4a31" }}>(2026)</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 8 min read</p>
-            <TopPick name={PRODUCTS[3].name} price={PRODUCTS[3].price} note={QP_NOTES[3]} url={PRODUCTS[3].affiliateUrl} />
+            <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               The t-shirt you choose for Pilates matters more than most people realise. A cotton tee becomes a wet, restrictive layer within twenty minutes of reformer work. A quality technical tee stays light, moves with you, and keeps you looking as composed in the last exercise as the first.

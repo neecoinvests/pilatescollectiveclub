@@ -64,16 +64,6 @@ const PRODUCTS = [
   },
   {
     rank: "04",
-    name: "Bowflex VeloCore",
-    price: "From $1,699",
-    verdict: "Best for core-engagement training",
-    description:
-      "The Bowflex VeloCore has a feature no other bike on this list offers: a lean mode that allows the entire bike to tilt up to 16 degrees side to side, engaging the core and obliques in a way fixed-frame bikes cannot replicate. This makes the VeloCore a genuinely interesting crossover for Pilates and Lagree practitioners who already prioritize core stability work and want their cycling sessions to reinforce rather than ignore that training emphasis. The magnetic resistance system is smooth and near-silent, and the bike includes a JRNY app subscription with adaptive workout programming. The lean mode can be locked for riders who prefer a standard fixed-frame ride. For practitioners who want cycling that complements a core-focused training philosophy, the VeloCore is the most distinctive option available.",
-    affiliateUrl: "https://www.amazon.com/s?k=bowflex+velocore+bike&tag=pilatescollective-20",
-    tag: "Best for Core Engagement",
-  },
-  {
-    rank: "05",
     name: "Yosuda Indoor Cycling Bike",
     price: "$199.99",
     verdict: "Best budget entry-level bike",
@@ -81,6 +71,16 @@ const PRODUCTS = [
       "The Yosuda is a straightforward friction-resistance bike with a 35-lb flywheel, adjustable seat and handlebars, and a basic LCD console tracking speed, distance, and calories. It has no app connectivity or auto-resistance features, but the chain-drive mechanism and flywheel weight provide a genuinely solid ride feel for the price, and the bike has become one of the most consistently well-reviewed budget options on the market. For practitioners testing whether indoor cycling fits into their training routine before committing to a premium connected bike, or building a basic home studio on a tight budget, the Yosuda delivers dependable performance well above its price point.",
     affiliateUrl: "https://www.amazon.com/dp/B0BVHN3D72?tag=pilatescollective-20",
     tag: "Best Budget Pick",
+  },
+  {
+    rank: "05",
+    name: "Bowflex VeloCore",
+    price: "From $1,699",
+    verdict: "Best for core-engagement training",
+    description:
+      "The Bowflex VeloCore has a feature no other bike on this list offers: a lean mode that allows the entire bike to tilt up to 16 degrees side to side, engaging the core and obliques in a way fixed-frame bikes cannot replicate. This makes the VeloCore a genuinely interesting crossover for Pilates and Lagree practitioners who already prioritize core stability work and want their cycling sessions to reinforce rather than ignore that training emphasis. The magnetic resistance system is smooth and near-silent, and the bike includes a JRNY app subscription with adaptive workout programming. The lean mode can be locked for riders who prefer a standard fixed-frame ride. For practitioners who want cycling that complements a core-focused training philosophy, the VeloCore is the most distinctive option available.",
+    affiliateUrl: "https://www.amazon.com/s?k=bowflex+velocore+bike&tag=pilatescollective-20",
+    tag: "Best for Core Engagement",
   },
   {
     rank: "06",
@@ -143,7 +143,7 @@ const jsonLd = {
   ],
 };
 
-const QP_NOTES = ["Best overall connected spin bike", "Best value connected bike", "Best for incline/decline simulation", "Best for core-engagement training", "Best budget entry-level bike", "Best mid-range connected alternative"];
+const QP_NOTES = ["Best overall connected spin bike", "Best value connected bike", "Best for incline/decline simulation", "Best budget entry-level bike", "Best for core-engagement training", "Best mid-range connected alternative"];
 
 export default function BestIndoorSpinBikePage() {
   return (

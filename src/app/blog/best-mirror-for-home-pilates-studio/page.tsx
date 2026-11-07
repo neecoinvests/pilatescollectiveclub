@@ -54,16 +54,6 @@ const PRODUCTS = [
   },
   {
     rank: "03",
-    name: "Shatterproof Acrylic Mirror Sheets",
-    price: "From $75",
-    verdict: "Best for renters, safety and upper floors",
-    description:
-      "Acrylic is the practical answer when glass is not an option: a rented flat where you cannot drill, a room shared with young children, or an upper floor where the weight of a glass wall is a genuine consideration. Acrylic sheets weigh roughly half of equivalent glass, cut with a utility knife, and mount with adhesive strips rather than fixings, so the whole installation is reversible. They will not shatter, which is the real selling point. The trade-off is optical quality, and it is not subtle: acrylic flexes, and any flex produces a visible wave in the reflection. Mitigate it by choosing the thickest sheet available, 3mm or more, never the 1.5mm craft sheets, and by mounting onto a genuinely flat wall with continuous adhesive rather than corner tabs, since spot-mounting is what creates the funhouse effect people complain about. Accept some distortion and it is a sensible compromise.",
-    affiliateUrl: "https://www.amazon.com/s?k=shatterproof+acrylic+mirror+sheets+gym+wall+3mm&tag=pilatescollective-20",
-    tag: "Best for Renters",
-  },
-  {
-    rank: "04",
     name: "AISUNDY Tilting Full-Length Mirror on Wheels (65 x 22 in)",
     price: "$142.99",
     verdict: "Best when the room has another purpose",
@@ -73,7 +63,7 @@ const PRODUCTS = [
     tag: "Best Movable",
   },
   {
-    rank: "05",
+    rank: "04",
     name: "BEAUTYPEAK Arched Full-Length Mirror (65 x 24 in)",
     price: "$90.00",
     verdict: "Best-looking option for a room you live in",
@@ -83,7 +73,7 @@ const PRODUCTS = [
     tag: "Best Aesthetic",
   },
   {
-    rank: "06",
+    rank: "05",
     name: "Antok Over-the-Door Full-Length Mirror (58 x 20 in)",
     price: "$59.99",
     verdict: "Best budget option for a small space",
@@ -91,6 +81,16 @@ const PRODUCTS = [
       "An over-door mirror is the minimum viable option and, for a beginner practising in a bedroom, an entirely reasonable one. It hangs on existing door hardware with no drilling, costs less than a single studio class, and provides enough reflection to check standing alignment and the basics of rib and shoulder position. Where it falls short is floor work: mounted high on a door and perfectly vertical, it shows you very little of what happens below waist height, which is where most Pilates actually happens. The narrow width, typically 14 to 16 inches, also means you see a slice of yourself rather than a full frame. Treat this as a starting point rather than a solution: it is the right purchase if you are unsure whether you will use a mirror at all, and the thing you replace first once you know you will.",
     affiliateUrl: "https://www.amazon.com/dp/B0GLMSSH79?tag=pilatescollective-20",
     tag: "Best Budget",
+  },
+  {
+    rank: "06",
+    name: "Shatterproof Acrylic Mirror Sheets",
+    price: "From $75",
+    verdict: "Best for renters, safety and upper floors",
+    description:
+      "Acrylic is the practical answer when glass is not an option: a rented flat where you cannot drill, a room shared with young children, or an upper floor where the weight of a glass wall is a genuine consideration. Acrylic sheets weigh roughly half of equivalent glass, cut with a utility knife, and mount with adhesive strips rather than fixings, so the whole installation is reversible. They will not shatter, which is the real selling point. The trade-off is optical quality, and it is not subtle: acrylic flexes, and any flex produces a visible wave in the reflection. Mitigate it by choosing the thickest sheet available, 3mm or more, never the 1.5mm craft sheets, and by mounting onto a genuinely flat wall with continuous adhesive rather than corner tabs, since spot-mounting is what creates the funhouse effect people complain about. Accept some distortion and it is a sensible compromise.",
+    affiliateUrl: "https://www.amazon.com/s?k=shatterproof+acrylic+mirror+sheets+gym+wall+3mm&tag=pilatescollective-20",
+    tag: "Best for Renters",
   },
 ];
 
@@ -144,7 +144,7 @@ const jsonLd = {
   ],
 };
 
-const QP_NOTES = ["Best overall mirror for a home Pilates studio", "Best for a true studio mirror wall", "Best for renters, safety and upper floors", "Best when the room has another purpose", "Best-looking option for a room you live in", "Best budget option for a small space"];
+const QP_NOTES = ["Best overall mirror for a home Pilates studio", "Best for a true studio mirror wall", "Best when the room has another purpose", "Best-looking option for a room you live in", "Best budget option for a small space", "Best for renters, safety and upper floors"];
 
 export default function BestMirrorForHomePilatesStudioPage() {
   return (

@@ -44,16 +44,6 @@ const PRODUCTS = [
   },
   {
     rank: "02",
-    name: "LuxFit High Density Foam Roller Extra Firm",
-    price: "From $22",
-    verdict: "Best recovery tool for fibromyalgia",
-    description:
-      "Myofascial release work with a foam roller is widely used in fibromyalgia management to reduce the muscular tension and tender points that define the condition. The critical consideration for fibromyalgia is pressure sensitivity: standard high-density foam rollers can be too painful for fibromyalgia flare periods. The LuxFit high-density roller is appropriate for practitioners in a stable phase of fibromyalgia who are building tolerance for myofascial work. Practitioners experiencing heightened sensitivity should start with a softer roller or apply pressure only to less tender areas, gradually building. Self-massage before a Pilates session (particularly to the upper trapezius, thoracic spine, and hip flexors) can reduce the body's pain response during exercise, making the subsequent session more productive and less uncomfortable.",
-    affiliateUrl: "https://www.amazon.com/s?k=luxfit+foam+roller+high+density&tag=pilatescollective-20",
-    tag: "Best for Myofascial Release",
-  },
-  {
-    rank: "03",
     name: "Fit Simplify Resistance Loop Bands Set",
     price: "$9.98",
     verdict: "Best light resistance tool for fibromyalgia",
@@ -63,7 +53,7 @@ const PRODUCTS = [
     tag: "Best Light Resistance",
   },
   {
-    rank: "04",
+    rank: "03",
     name: "Tune Up Fitness Therapy Balls (in Tote)",
     price: "$19.99",
     verdict: "Best for targeted tender point relief",
@@ -71,6 +61,16 @@ const PRODUCTS = [
       "The 18 defined tender points of fibromyalgia (located at the neck, shoulders, upper chest, elbows, hips, and knees) respond to targeted myofascial release work before and after exercise. A set of massage balls (typically including a lacrosse ball size and a smaller spiked ball) allows precise application of pressure to specific tender points in a controlled way. Using a massage ball against a wall or the floor allows the practitioner to control pressure completely, making it appropriate even during moderate fibromyalgia flares. Five to ten minutes of targeted ball work on the most symptomatic areas before a Pilates session can reduce local pain sensitisation and improve the range of motion available during the class. Post-session ball work also supports recovery by addressing the muscle tension that accumulates during exercise.",
     affiliateUrl: "https://www.amazon.com/dp/B00ERFBX9G?tag=pilatescollective-20",
     tag: "Best for Tender Points",
+  },
+  {
+    rank: "04",
+    name: "LuxFit High Density Foam Roller Extra Firm",
+    price: "From $22",
+    verdict: "Best recovery tool for fibromyalgia",
+    description:
+      "Myofascial release work with a foam roller is widely used in fibromyalgia management to reduce the muscular tension and tender points that define the condition. The critical consideration for fibromyalgia is pressure sensitivity: standard high-density foam rollers can be too painful for fibromyalgia flare periods. The LuxFit high-density roller is appropriate for practitioners in a stable phase of fibromyalgia who are building tolerance for myofascial work. Practitioners experiencing heightened sensitivity should start with a softer roller or apply pressure only to less tender areas, gradually building. Self-massage before a Pilates session (particularly to the upper trapezius, thoracic spine, and hip flexors) can reduce the body's pain response during exercise, making the subsequent session more productive and less uncomfortable.",
+    affiliateUrl: "https://www.amazon.com/s?k=luxfit+foam+roller+high+density&tag=pilatescollective-20",
+    tag: "Best for Myofascial Release",
   },
   {
     rank: "05",
@@ -118,7 +118,7 @@ const jsonLd = {
   ],
 };
 
-const QP_NOTES = ["Best mat for pain-sensitive practice", "Best recovery tool for fibromyalgia", "Best light resistance tool for fibromyalgia", "Best for targeted tender point relief", "Best heat therapy for pre-session preparation"];
+const QP_NOTES = ["Best mat for pain-sensitive practice", "Best light resistance tool for fibromyalgia", "Best for targeted tender point relief", "Best recovery tool for fibromyalgia", "Best heat therapy for pre-session preparation"];
 
 const ITEM_LIST = productItemList("Pilates for Fibromyalgia (2026): Gentle Exercises & Tips", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 

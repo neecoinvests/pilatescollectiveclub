@@ -133,7 +133,18 @@ function ItemCard({ item, rank }: { item: GuideItem; rank: number }) {
   );
 }
 
-export default function EquipmentGuide(props: EquipmentGuideProps) {
+// List order on every guide: Amazon product (ASIN) links first, then Amazon
+// search links, then brand-direct links. Stable, so each group keeps its order.
+const linkRank = (url: string) => (/amazon\.[a-z.]+\/(?:[^/?#]+\/)?(?:dp|gp\/product)\//.test(url) ? 0 : /amazon\.[a-z.]+\/s\?/.test(url) ? 1 : 2);
+function byLinkType<T>(list: T[], url: (x: T) => string): T[] {
+  return list.map((x, i) => ({ x, i })).sort((a, b) => linkRank(url(a.x)) - linkRank(url(b.x)) || a.i - b.i).map((e) => e.x);
+}
+
+export default function EquipmentGuide(rawProps: EquipmentGuideProps) {
+  const props: EquipmentGuideProps = {
+    ...rawProps,
+    blocks: rawProps.blocks.map((b) => (b.kind === "products" ? { ...b, items: byLinkType(b.items, (it) => it.url) } : b)),
+  };
   const pageUrl = `${SITE}/blog/${props.slug}`;
   const heroUrl = `${SITE}${props.heroImage}`;
   const allItems = props.blocks.flatMap((b) => (b.kind === "products" ? b.items : []));
@@ -144,6 +155,7 @@ export default function EquipmentGuide(props: EquipmentGuideProps) {
     ? props.quickPicks.map((qp) => ({ it: itemById.get(qp.itemId), label: qp.label }))
     : allItems.slice(0, 5).map((it) => ({ it, label: it.badge }))
   ).filter((x): x is { it: GuideItem; label: string } => Boolean(x.it));
+  const sortedPicks = byLinkType(picks, (x) => x.it.url);
   const isAmazonProduct = (u: string) => /amazon\.[a-z.]+\/dp\//.test(u);
   const top = picks.find((x) => isAmazonProduct(x.it.url)) ?? picks[0];
 
@@ -240,7 +252,7 @@ export default function EquipmentGuide(props: EquipmentGuideProps) {
           <div className="max-w-3xl mx-auto">
 
             {picks.length > 0 && (
-              <QuickPicks className="mb-6 mt-4" picks={picks.map((x) => ({ name: x.it.name, price: x.it.price, url: x.it.url, note: x.label }))} />
+              <QuickPicks className="mb-6 mt-4" picks={sortedPicks.map((x) => ({ name: x.it.name, price: x.it.price, url: x.it.url, note: x.label }))} />
             )}
             <AffiliateNote className={picks.length > 0 ? "mb-16" : "mb-10 mt-4"}>Some links on this page are affiliate links: we earn a small commission on qualifying purchases at no extra cost to you. Specifications are taken from each product&apos;s listing or the manufacturer, not from our own testing. Prices were checked live on Amazon on the date above and change often.</AffiliateNote>
 

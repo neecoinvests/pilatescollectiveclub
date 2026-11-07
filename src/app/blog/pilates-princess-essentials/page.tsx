@@ -106,16 +106,6 @@ const SECTIONS: Section[] = [
         glance: "Bralette (matching)",
       },
       {
-        tier: "Splurge",
-        tag: "Splurge: the alternative",
-        name: "Alo Yoga Airbrush Legging",
-        price: "~$128 (aloyoga.com)",
-        description:
-          "Not sold on Amazon: this links to aloyoga.com. The Airbrush is one of the most recognisable leggings in boutique studios and the obvious alternative if you prefer Alo's sleek, sculpted finish to Varley's softer look. Price shown is approximate from Alo's own site, so check the current price and colourways there. Our Alo deep-dive covers the rest of the range.",
-        url: "https://www.aloyoga.com/",
-        brandDirect: true,
-      },
-      {
         tier: "Budget",
         tag: "Budget dupe, leggings",
         name: "CRZ YOGA Butterluxe Leggings 25\"",
@@ -132,6 +122,16 @@ const SECTIONS: Section[] = [
         description:
           "Pair it with the Butterluxe leggings for a same-fabric budget set. The U-back is a flattering shape that keeps straps flat against your shoulder blades when you are lying on the carriage. $28.00, sold by CRZ YOGA.",
         url: amazon("B09ZP9VXLJ"),
+      },
+      {
+        tier: "Splurge",
+        tag: "Splurge: the alternative",
+        name: "Alo Yoga Airbrush Legging",
+        price: "~$128 (aloyoga.com)",
+        description:
+          "Not sold on Amazon: this links to aloyoga.com. The Airbrush is one of the most recognisable leggings in boutique studios and the obvious alternative if you prefer Alo's sleek, sculpted finish to Varley's softer look. Price shown is approximate from Alo's own site, so check the current price and colourways there. Our Alo deep-dive covers the rest of the range.",
+        url: "https://www.aloyoga.com/",
+        brandDirect: true,
       },
     ],
     guides: [
@@ -234,16 +234,6 @@ const SECTIONS: Section[] = [
         glance: "Claw clip",
       },
       {
-        tier: "Splurge",
-        tag: "The belt bag",
-        name: "Lululemon Everywhere Belt Bag",
-        price: "~$38 (lululemon.com)",
-        description:
-          "Not sold on Amazon: this links to lululemon.com. The Everywhere Belt Bag is a studio-to-coffee staple: phone, keys and card worn crossbody so your main bag can stay in the cubby. Price is approximate from Lululemon's site; colours change seasonally.",
-        url: "https://shop.lululemon.com/",
-        brandDirect: true,
-      },
-      {
         tier: "Best",
         tag: "Best: the tote",
         name: "Sportsnew Tote Yoga Mat Gym Bag 20L",
@@ -252,6 +242,16 @@ const SECTIONS: Section[] = [
           "A tote that actually works as a Pilates bag: 20L of space, a separate shoe compartment so trainers stay away from your set, and a wet pocket for used grip socks. It is the functional answer to carrying a whole kit without looking like you are headed to the gym. $24.35, sold by Sportsnew.",
         url: amazon("B0BHP38PNG"),
         glance: "Tote bag",
+      },
+      {
+        tier: "Splurge",
+        tag: "The belt bag",
+        name: "Lululemon Everywhere Belt Bag",
+        price: "~$38 (lululemon.com)",
+        description:
+          "Not sold on Amazon: this links to lululemon.com. The Everywhere Belt Bag is a studio-to-coffee staple: phone, keys and card worn crossbody so your main bag can stay in the cubby. Price is approximate from Lululemon's site; colours change seasonally.",
+        url: "https://shop.lululemon.com/",
+        brandDirect: true,
       },
     ],
     guides: [

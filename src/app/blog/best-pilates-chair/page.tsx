@@ -49,26 +49,6 @@ const PRODUCTS = [
   },
   {
     rank: "03",
-    name: "Merrithew Split-Pedal Stability Chair",
-    price: "Price on request",
-    verdict: "Not sold on Amazon: genuine clinical/rehab chair, dealer-direct",
-    description:
-      "We could not find a live Amazon listing for this chair, and we could not verify a specific public price, so we're not quoting one. Merrithew's split-pedal design lets practitioners work each leg or arm independently, which is genuinely useful for rehabilitation and identifying strength asymmetries, but buying it means going through Merrithew directly or an authorised dealer, not Amazon.",
-    affiliateUrl: "https://www.merrithew.com",
-    tag: "Rehab-Friendly · Dealer-Direct",
-  },
-  {
-    rank: "04",
-    name: "Gratz Wunda Chair",
-    price: "Price on request",
-    verdict: "Not sold on Amazon: the classical single-pedal original, dealer-direct",
-    description:
-      "We could not find a live Amazon listing for the Gratz Wunda Chair, and we could not verify a specific public price, so we're not quoting one: Gratz pricing is generally supplied on request. It maintains the original single-pedal design Joseph Pilates specified. For classical practitioners whose teacher works on Gratz equipment, it is the reference tool for the traditional Chair exercises. Purchased directly from Gratz (gratzpilates.com); a generational purchase for serious classical studios.",
-    affiliateUrl: "https://www.gratzpilates.com/collections/chairs",
-    tag: "Classical · Dealer-Direct",
-  },
-  {
-    rank: "05",
     name: "Gaiam Premium Yoga Mat (6mm)",
     price: "$39.99",
     verdict: "A real, verified kneeling-comfort option",
@@ -78,7 +58,7 @@ const PRODUCTS = [
     tag: "Kneeling Comfort",
   },
   {
-    rank: "06",
+    rank: "04",
     name: "ProsourceFit Interlocking Foam Tiles (48 sq ft)",
     price: "$49.99",
     verdict: "A real, verified way to stabilize the floor under the Chair",
@@ -86,6 +66,26 @@ const PRODUCTS = [
       "We could not find a purpose-made \"non-slip mat for chair base\" as a live Amazon listing, so instead of inventing one, here is a real, verified alternative: interlocking foam floor tiles laid beneath the chair reduce shifting on smooth or hardwood floors during standing, single-leg work. Confirm the tile thickness doesn't destabilize the chair's own footing before relying on it for balance-intensive exercises.",
     affiliateUrl: "https://www.amazon.com/dp/B07YN1W5W3?tag=pilatescollective-20",
     tag: "Floor Stability",
+  },
+  {
+    rank: "05",
+    name: "Merrithew Split-Pedal Stability Chair",
+    price: "Price on request",
+    verdict: "Not sold on Amazon: genuine clinical/rehab chair, dealer-direct",
+    description:
+      "We could not find a live Amazon listing for this chair, and we could not verify a specific public price, so we're not quoting one. Merrithew's split-pedal design lets practitioners work each leg or arm independently, which is genuinely useful for rehabilitation and identifying strength asymmetries, but buying it means going through Merrithew directly or an authorised dealer, not Amazon.",
+    affiliateUrl: "https://www.merrithew.com",
+    tag: "Rehab-Friendly · Dealer-Direct",
+  },
+  {
+    rank: "06",
+    name: "Gratz Wunda Chair",
+    price: "Price on request",
+    verdict: "Not sold on Amazon: the classical single-pedal original, dealer-direct",
+    description:
+      "We could not find a live Amazon listing for the Gratz Wunda Chair, and we could not verify a specific public price, so we're not quoting one: Gratz pricing is generally supplied on request. It maintains the original single-pedal design Joseph Pilates specified. For classical practitioners whose teacher works on Gratz equipment, it is the reference tool for the traditional Chair exercises. Purchased directly from Gratz (gratzpilates.com); a generational purchase for serious classical studios.",
+    affiliateUrl: "https://www.gratzpilates.com/collections/chairs",
+    tag: "Classical · Dealer-Direct",
   },
 ];
 
@@ -124,7 +124,7 @@ const jsonLd = {
   ],
 };
 
-const QP_NOTES = ["The professional-grade single-pedal chair sold on Amazon", "A real, budget-tier split-pedal chair genuinely sold on Amazon", "Not sold on Amazon, genuine clinical/rehab chair, dealer-direct", "Not sold on Amazon, the classical single-pedal original, dealer-direct", "A real, verified kneeling-comfort option", "A real, verified way to stabilize the floor under the Chair"];
+const QP_NOTES = ["The professional-grade single-pedal chair sold on Amazon", "A real, budget-tier split-pedal chair genuinely sold on Amazon", "A real, verified kneeling-comfort option", "A real, verified way to stabilize the floor under the Chair", "Not sold on Amazon, genuine clinical/rehab chair, dealer-direct", "Not sold on Amazon, the classical single-pedal original, dealer-direct"];
 
 const ITEM_LIST = productItemList("Best Pilates Chair (2026): Wunda & High Chairs Reviewed", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 

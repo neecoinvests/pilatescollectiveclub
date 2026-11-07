@@ -29,36 +29,6 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
-    name: "Gratz Universal Reformer",
-    price: "Direct from Gratz",
-    verdict: "The classical reformer benchmark",
-    description:
-      "The Gratz Universal Reformer is the closest production equipment gets to the apparatus Joseph Pilates designed in his 8th Avenue studio. The spring system uses original-specification springs with a characteristic tension profile: what classical teachers describe as having more immediacy and 'life' than modern springs. The wooden frame, canvas straps, and natural rubber components give it an aesthetic and tactile quality that contemporary steel-and-upholstery reformers cannot replicate. This is priced well into four figures and up, and we could not independently verify a current figure: get a quote directly from Gratz rather than relying on a number quoted elsewhere. Gratz is sold direct at gratzpilates.com and through authorised dealers, not on Amazon.",
-    affiliateUrl: "https://www.gratzpilates.com/collections/reformers",
-    tag: "Classical Standard",
-  },
-  {
-    rank: "02",
-    name: "Gratz Wunda Chair",
-    price: "Direct from Gratz",
-    verdict: "Best classical chair for advanced work",
-    description:
-      "The Wunda Chair was invented by Joseph Pilates and remains one of the most challenging apparatus in the classical system. The Gratz version is built to original specifications: a solid wood construction with the specific spring tensions and pedal geometry that the classical Chair exercises require. Unlike contemporary chairs with split pedals and multiple spring configurations, the Gratz Wunda Chair maintains the single pedal design with stepped spring heights. For classical studios and advanced practitioners, no contemporary version provides the same exercise quality. Purchase direct from Gratz; expect a real lead time and confirm current pricing with them rather than a figure quoted elsewhere.",
-    affiliateUrl: "https://www.gratzpilates.com/collections/chairs",
-    tag: "Advanced Apparatus",
-  },
-  {
-    rank: "03",
-    name: "Gratz Spine Corrector",
-    price: "Direct from Gratz",
-    verdict: "Best classical barrel accessory",
-    description:
-      "The Spine Corrector is one of the most functional Pilates accessories available and the Gratz version is built to original specifications. The curved barrel shape, when used correctly, provides thoracic extension, hip flexor lengthening, and abdominal strengthening that mat work alone cannot achieve. It is meaningfully more expensive than contemporary alternatives: Balanced Body's Pilates Arc, a real listing sold on Amazon, serves a similar function at $189.99. The honest distinction: the Gratz Spine Corrector is the correct tool for the classical repertoire as Pilates designed it. For practitioners training in the classical lineage, it's worth the price. For home practitioners without a classical teacher, the Arc is a sensible, genuinely purchasable alternative.",
-    affiliateUrl: "https://www.gratzpilates.com/collections/barrels",
-    tag: "Classical Barrel",
-  },
-  {
-    rank: "04",
     name: "Balanced Body Replacement Reformer Ropes with Clips",
     price: "$35",
     verdict: "A real, currently-sold rope alternative, not Gratz leather straps",
@@ -68,7 +38,7 @@ const PRODUCTS = [
     tag: "Replacement Straps",
   },
   {
-    rank: "05",
+    rank: "02",
     name: "Colaxi 5-Piece Reformer Spring Set (Aftermarket)",
     price: "$65.54",
     verdict: "A real aftermarket spring set, not Gratz's original classical springs",
@@ -76,6 +46,36 @@ const PRODUCTS = [
       "Classical Pilates apparatus springs are heavier and have a different tension profile than contemporary springs, and Gratz sells its own original replacement springs directly to match. We could not find that original spring for sale on Amazon. This Colaxi 5-piece set is a real, currently-sold aftermarket reformer spring set, but it is built for contemporary coil-spring reformers rather than to Gratz's classical specification: verify spring weight and fit before ordering, and if you own genuine Gratz apparatus, buying the matched replacement direct from Gratz is the safer choice for exercise feel and safety.",
     affiliateUrl: "https://www.amazon.com/dp/B0DC93JC3M?tag=pilatescollective-20",
     tag: "Maintenance",
+  },
+  {
+    rank: "03",
+    name: "Gratz Universal Reformer",
+    price: "Direct from Gratz",
+    verdict: "The classical reformer benchmark",
+    description:
+      "The Gratz Universal Reformer is the closest production equipment gets to the apparatus Joseph Pilates designed in his 8th Avenue studio. The spring system uses original-specification springs with a characteristic tension profile: what classical teachers describe as having more immediacy and 'life' than modern springs. The wooden frame, canvas straps, and natural rubber components give it an aesthetic and tactile quality that contemporary steel-and-upholstery reformers cannot replicate. This is priced well into four figures and up, and we could not independently verify a current figure: get a quote directly from Gratz rather than relying on a number quoted elsewhere. Gratz is sold direct at gratzpilates.com and through authorised dealers, not on Amazon.",
+    affiliateUrl: "https://www.gratzpilates.com/collections/reformers",
+    tag: "Classical Standard",
+  },
+  {
+    rank: "04",
+    name: "Gratz Wunda Chair",
+    price: "Direct from Gratz",
+    verdict: "Best classical chair for advanced work",
+    description:
+      "The Wunda Chair was invented by Joseph Pilates and remains one of the most challenging apparatus in the classical system. The Gratz version is built to original specifications: a solid wood construction with the specific spring tensions and pedal geometry that the classical Chair exercises require. Unlike contemporary chairs with split pedals and multiple spring configurations, the Gratz Wunda Chair maintains the single pedal design with stepped spring heights. For classical studios and advanced practitioners, no contemporary version provides the same exercise quality. Purchase direct from Gratz; expect a real lead time and confirm current pricing with them rather than a figure quoted elsewhere.",
+    affiliateUrl: "https://www.gratzpilates.com/collections/chairs",
+    tag: "Advanced Apparatus",
+  },
+  {
+    rank: "05",
+    name: "Gratz Spine Corrector",
+    price: "Direct from Gratz",
+    verdict: "Best classical barrel accessory",
+    description:
+      "The Spine Corrector is one of the most functional Pilates accessories available and the Gratz version is built to original specifications. The curved barrel shape, when used correctly, provides thoracic extension, hip flexor lengthening, and abdominal strengthening that mat work alone cannot achieve. It is meaningfully more expensive than contemporary alternatives: Balanced Body's Pilates Arc, a real listing sold on Amazon, serves a similar function at $189.99. The honest distinction: the Gratz Spine Corrector is the correct tool for the classical repertoire as Pilates designed it. For practitioners training in the classical lineage, it's worth the price. For home practitioners without a classical teacher, the Arc is a sensible, genuinely purchasable alternative.",
+    affiliateUrl: "https://www.gratzpilates.com/collections/barrels",
+    tag: "Classical Barrel",
   },
 ];
 
@@ -142,7 +142,7 @@ const jsonLd = {
   ],
 };
 
-const QP_NOTES = ["The classical reformer benchmark", "Best classical chair for advanced work", "Best classical barrel accessory", "A real, currently-sold rope alternative, not Gratz leather straps", "A real aftermarket spring set, not Gratz's original classical springs"];
+const QP_NOTES = ["A real, currently-sold rope alternative, not Gratz leather straps", "A real aftermarket spring set, not Gratz's original classical springs", "The classical reformer benchmark", "Best classical chair for advanced work", "Best classical barrel accessory"];
 
 const ITEM_LIST = productItemList("Gratz Pilates Equipment Review (2026): Classical Standard", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 
@@ -165,7 +165,7 @@ export default function GratzPilatesPage() {
               Gratz Pilates (2026):<br /><span style={{ color: "#8b4a31" }}>The Classical Apparatus Standard, Reviewed</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 11 min read</p>
-            <TopPick name={PRODUCTS[3].name} price={PRODUCTS[3].price} note={QP_NOTES[3]} url={PRODUCTS[3].affiliateUrl} />
+            <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Gratz Industries has manufactured Pilates apparatus since the 1920s: building the original equipment for Joseph Pilates&apos; studio at 939 8th Avenue in New York City. Today, trading as Gratz Pilates, they remain the only production manufacturer that holds an unbroken line to those original specifications. Every piece of apparatus they make is handcrafted in New York, using the same spring tensions, dimensions, and material choices that the classical repertoire was built around. This guide is for classical practitioners, studio owners, and serious enthusiasts trying to understand whether the Gratz premium is warranted, and exactly what they are buying.

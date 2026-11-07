@@ -54,24 +54,6 @@ const PRODUCTS = [
   },
   {
     rank: 3,
-    name: "Lululemon ABC Short",
-    price: "~$68 (lululemon.com)",
-    verdict: "Best brand-direct men's studio short",
-    description: "Not sold on Amazon: this links to lululemon.com. The ABC is one of the best-known men's shorts in studios. The gusseted construction and four-way stretch Warpstreme fabric reduce the bunching and restriction you feel in most athletic shorts during hip work, spine articulation and deep hip flexor exercises on the reformer. Pick an inseam in the 7–9\" range for the best balance of coverage during footwork and leg-alignment visibility for your instructor. Lululemon does not sell through Amazon, so we link to the brand's own site rather than an Amazon search that would surface unrelated products.",
-    affiliateUrl: "https://shop.lululemon.com/",
-    tag: "",
-  },
-  {
-    rank: 4,
-    name: "Vuori Kore Short",
-    price: "~$64 (vuoriclothing.com)",
-    verdict: "Best brand-direct premium alternative",
-    description: "Not sold on Amazon: this links to vuoriclothing.com. Vuori's Kore Short is a popular alternative to Lululemon for men who want a cleaner, more refined aesthetic in the studio. It has a tailored fit that holds well through the hip-hinge movements that are heavy in Pilates. Vuori's colour palette runs muted compared with most athletic brands, which makes it a natural choice if you care about how your kit looks as much as how it performs. Vuori does not sell through Amazon, so we link to the brand's own site.",
-    affiliateUrl: "https://vuoriclothing.com/",
-    tag: "",
-  },
-  {
-    rank: 5,
     name: "Under Armour Men's Tech Mesh Shorts",
     price: "$24.99",
     verdict: "Best mid-price men's short",
@@ -80,7 +62,7 @@ const PRODUCTS = [
     tag: "pilatescollective-20",
   },
   {
-    rank: 6,
+    rank: 4,
     name: "Under Armour Men's HeatGear Armour Leggings",
     price: "$28.25",
     verdict: "Best men's compression tights for reformer",
@@ -89,13 +71,31 @@ const PRODUCTS = [
     tag: "pilatescollective-20",
   },
   {
-    rank: 7,
+    rank: 5,
     name: "CRZ YOGA Linerless Workout Shorts 5\"",
     price: "$28.00",
     verdict: "Best budget men's Pilates short",
     description: "Sold on Amazon by CRZ YOGA, a well-reviewed budget activewear brand. These are linerless, so they work best worn over a pair of compression shorts or tights: a common setup for men who want the look of shorts with the coverage and alignment visibility of tights. The 5\" inseam keeps the fabric clear of the footbar and gives instructors a clear view of the knee. The best-value option in this guide.",
     affiliateUrl: "https://www.amazon.com/dp/B0CQ4Y9V74?tag=pilatescollective-20",
     tag: "pilatescollective-20",
+  },
+  {
+    rank: 6,
+    name: "Lululemon ABC Short",
+    price: "~$68 (lululemon.com)",
+    verdict: "Best brand-direct men's studio short",
+    description: "Not sold on Amazon: this links to lululemon.com. The ABC is one of the best-known men's shorts in studios. The gusseted construction and four-way stretch Warpstreme fabric reduce the bunching and restriction you feel in most athletic shorts during hip work, spine articulation and deep hip flexor exercises on the reformer. Pick an inseam in the 7–9\" range for the best balance of coverage during footwork and leg-alignment visibility for your instructor. Lululemon does not sell through Amazon, so we link to the brand's own site rather than an Amazon search that would surface unrelated products.",
+    affiliateUrl: "https://shop.lululemon.com/",
+    tag: "",
+  },
+  {
+    rank: 7,
+    name: "Vuori Kore Short",
+    price: "~$64 (vuoriclothing.com)",
+    verdict: "Best brand-direct premium alternative",
+    description: "Not sold on Amazon: this links to vuoriclothing.com. Vuori's Kore Short is a popular alternative to Lululemon for men who want a cleaner, more refined aesthetic in the studio. It has a tailored fit that holds well through the hip-hinge movements that are heavy in Pilates. Vuori's colour palette runs muted compared with most athletic brands, which makes it a natural choice if you care about how your kit looks as much as how it performs. Vuori does not sell through Amazon, so we link to the brand's own site.",
+    affiliateUrl: "https://vuoriclothing.com/",
+    tag: "",
   },
 ];
 
@@ -143,7 +143,7 @@ const jsonLd = {
   ],
 };
 
-const QP_NOTES = ["Best overall men's Pilates short", "Best men's Pilates top", "Best brand-direct men's studio short", "Best brand-direct premium alternative", "Best mid-price men's short", "Best men's compression tights for reformer", "Best budget men's Pilates short"];
+const QP_NOTES = ["Best overall men's Pilates short", "Best men's Pilates top", "Best mid-price men's short", "Best men's compression tights for reformer", "Best budget men's Pilates short", "Best brand-direct men's studio short", "Best brand-direct premium alternative"];
 
 const ITEM_LIST = productItemList("Best Pilates Clothes for Men (2026): What to Wear", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 

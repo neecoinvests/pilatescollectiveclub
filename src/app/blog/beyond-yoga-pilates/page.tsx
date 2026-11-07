@@ -44,6 +44,16 @@ const PRODUCTS = [
   },
   {
     rank: "02",
+    name: "Beyond Yoga Spacedye Slim Racerback Tank",
+    price: "$68.00",
+    verdict: "Best top for Pilates",
+    description:
+      "Beyond Yoga's Slim Racerback Tank is the most functional top in the brand's range for Pilates use. The racerback construction keeps straps away from the shoulder blade area, relevant for exercises involving scapular movement and arm work on the reformer, while the slim-fit silhouette stays tucked through active movement without requiring a bodysuit. The Spacedye fabric breathes well and matches the legging range for a complete studio ensemble. The tank is cut slightly longer than most activewear tops, sitting reliably below the waistband of the high-rise legging through all spinal articulation.",
+    affiliateUrl: "https://www.amazon.com/dp/B07D2VDMZ2?tag=pilatescollective-20",
+    tag: "Best Top",
+  },
+  {
+    rank: "03",
     name: "Beyond Yoga Spacedye Uplift Bra",
     price: "From $62",
     verdict: "Best bra for Beyond Yoga sets",
@@ -53,7 +63,7 @@ const PRODUCTS = [
     tag: "Best Companion Piece",
   },
   {
-    rank: "03",
+    rank: "04",
     name: "Beyond Yoga Spacedye Caught in the Midi Short",
     price: "From $68",
     verdict: "Best Beyond Yoga short for Pilates",
@@ -63,7 +73,7 @@ const PRODUCTS = [
     tag: "Best Short",
   },
   {
-    rank: "04",
+    rank: "05",
     name: "Beyond Yoga Spacedye At Your Leisure High Waisted Flare Pant",
     price: "From $108",
     verdict: "Best for studio-to-street style",
@@ -71,16 +81,6 @@ const PRODUCTS = [
       "The At Your Leisure Flare Pant occupies an interesting position in the Pilates wardrobe: it is genuinely appropriate for studio practice while functioning as convincing everyday wear. The high-rise, close-fitting upper transitions to a gentle flare below the knee that reads more as a fashion trouser than activewear from a distance. The Spacedye fabric provides the same excellent softness and moderate compression as the flagship legging. For practitioners who commute directly from work to the studio and want a single garment that works in both contexts, the flare pant is a practical and aesthetic solution.",
     affiliateUrl: "https://www.amazon.com/s?k=beyond+yoga+spacedye+flare+pant&tag=pilatescollective-20",
     tag: "Best Versatile",
-  },
-  {
-    rank: "05",
-    name: "Beyond Yoga Spacedye Slim Racerback Tank",
-    price: "$68.00",
-    verdict: "Best top for Pilates",
-    description:
-      "Beyond Yoga's Slim Racerback Tank is the most functional top in the brand's range for Pilates use. The racerback construction keeps straps away from the shoulder blade area, relevant for exercises involving scapular movement and arm work on the reformer, while the slim-fit silhouette stays tucked through active movement without requiring a bodysuit. The Spacedye fabric breathes well and matches the legging range for a complete studio ensemble. The tank is cut slightly longer than most activewear tops, sitting reliably below the waistband of the high-rise legging through all spinal articulation.",
-    affiliateUrl: "https://www.amazon.com/dp/B07D2VDMZ2?tag=pilatescollective-20",
-    tag: "Best Top",
   },
 ];
 
@@ -118,7 +118,7 @@ const jsonLd = {
   ],
 };
 
-const QP_NOTES = ["Best Beyond Yoga piece for Pilates", "Best bra for Beyond Yoga sets", "Best Beyond Yoga short for Pilates", "Best for studio-to-street style", "Best top for Pilates"];
+const QP_NOTES = ["Best Beyond Yoga piece for Pilates", "Best top for Pilates", "Best bra for Beyond Yoga sets", "Best Beyond Yoga short for Pilates", "Best for studio-to-street style"];
 
 const ITEM_LIST = productItemList("Beyond Yoga for Pilates (2026): Spacedye Sets Reviewed", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 

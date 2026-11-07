@@ -34,6 +34,16 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
+    name: "PAETA Foldable Pilates Reformer",
+    price: "$449.99",
+    verdict: "Not BASI: a real, budget-tier Amazon alternative for buyers who don't need the BASI name",
+    description:
+      "To be clear: this is not a BASI Systems product, and it's a fundamentally different tier of machine, a budget foldable reformer, not a professional-grade apparatus built to BASI's curriculum specifications. We include it because BASI Systems has no verified Amazon listing at any price, and some readers specifically want a real, currently-sold, purchase-today option rather than a dealer-quoted machine. The PAETA is a genuine, live Amazon listing at $449.99 with a foldable frame for home storage. If you need BASI's actual engineering and reputation for professional or curriculum use, buy from BASI Systems or a dealer; if you just want a working reformer today at a fraction of the cost, this is a real, honestly-disclosed alternative.",
+    affiliateUrl: "https://www.amazon.com/dp/B0G1YL9QTN?tag=pilatescollective-20",
+    tag: "Budget Amazon Alternative",
+  },
+  {
+    rank: "02",
     name: "BASI Systems Reformer",
     price: "Dealer-quoted, not sold on Amazon",
     verdict: "The flagship reformer, sold direct/through dealers",
@@ -43,7 +53,7 @@ const PRODUCTS = [
     tag: "Editor's Pick",
   },
   {
-    rank: "02",
+    rank: "03",
     name: "BASI Systems Reformer with F2 Tower",
     price: "Dealer-quoted, not sold on Amazon",
     verdict: "The brand's complete apparatus, sold direct/through dealers",
@@ -53,7 +63,7 @@ const PRODUCTS = [
     tag: "Complete Apparatus",
   },
   {
-    rank: "03",
+    rank: "04",
     name: "BASI Systems Arc",
     price: "Dealer-quoted, not sold on Amazon",
     verdict: "The brand's spine corrector, sold direct/through dealers",
@@ -63,7 +73,7 @@ const PRODUCTS = [
     tag: "Best Small Apparatus",
   },
   {
-    rank: "04",
+    rank: "05",
     name: "BASI Systems Stability Chair",
     price: "Dealer-quoted, not sold on Amazon",
     verdict: "The brand's Pilates chair, sold direct/through dealers",
@@ -71,16 +81,6 @@ const PRODUCTS = [
       "The BASI Systems Stability Chair is described by the brand as its take on the Wunda Chair. We could not verify a live Amazon listing for it, or independently confirm the exact pedal configuration or spring count described in the brand's own marketing: confirm current specifications and pricing directly with BASI Systems or an authorised dealer before buying.",
     affiliateUrl: "https://basisystems.com/product-category/chairs/",
     tag: "Best Chair",
-  },
-  {
-    rank: "05",
-    name: "PAETA Foldable Pilates Reformer",
-    price: "$449.99",
-    verdict: "Not BASI: a real, budget-tier Amazon alternative for buyers who don't need the BASI name",
-    description:
-      "To be clear: this is not a BASI Systems product, and it's a fundamentally different tier of machine, a budget foldable reformer, not a professional-grade apparatus built to BASI's curriculum specifications. We include it because BASI Systems has no verified Amazon listing at any price, and some readers specifically want a real, currently-sold, purchase-today option rather than a dealer-quoted machine. The PAETA is a genuine, live Amazon listing at $449.99 with a foldable frame for home storage. If you need BASI's actual engineering and reputation for professional or curriculum use, buy from BASI Systems or a dealer; if you just want a working reformer today at a fraction of the cost, this is a real, honestly-disclosed alternative.",
-    affiliateUrl: "https://www.amazon.com/dp/B0G1YL9QTN?tag=pilatescollective-20",
-    tag: "Budget Amazon Alternative",
   },
 ];
 
@@ -139,7 +139,7 @@ const jsonLd = {
 };
 
 
-const QP_NOTES = ["The flagship reformer, sold direct/through dealers", "The brand's complete apparatus, sold direct/through dealers", "The brand's spine corrector, sold direct/through dealers", "The brand's Pilates chair, sold direct/through dealers", "Not BASI, a real, budget-tier Amazon alternative for buyers who don't need the BASI name"];
+const QP_NOTES = ["Not BASI, a real, budget-tier Amazon alternative for buyers who don't need the BASI name", "The flagship reformer, sold direct/through dealers", "The brand's complete apparatus, sold direct/through dealers", "The brand's spine corrector, sold direct/through dealers", "The brand's Pilates chair, sold direct/through dealers"];
 
 export default function BasiSystemsPilatesPage() {
   return (
@@ -158,7 +158,7 @@ export default function BasiSystemsPilatesPage() {
               BASI Systems<br /><span style={{ color: "#8b4a31" }}>(2026): Equipment Reviewed</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 10 min read</p>
-            <TopPick name={PRODUCTS[4].name} price={PRODUCTS[4].price} note={QP_NOTES[4]} url={PRODUCTS[4].affiliateUrl} />
+            <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               BASI Systems is the equipment line associated with BASI Pilates, the education organisation founded by Rael Isacowitz. The brand markets its apparatus around extended carriage travel and premium materials, positioning it for professional athletes, dancers, and taller practitioners. As far as we could verify, none of it is sold on Amazon, it&apos;s a direct and dealer-network brand, and we could not independently confirm several of the specific superlatives and specifications the brand and other coverage have claimed. We&apos;ve included one real, honestly-disclosed budget Amazon alternative for readers who want a purchase-today option rather than a dealer quote. This guide is honest about what we could verify and what you should confirm yourself before buying.

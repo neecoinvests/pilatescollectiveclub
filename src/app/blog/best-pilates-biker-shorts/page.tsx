@@ -34,26 +34,16 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
-    name: "Lululemon Align High-Rise Short 6\"",
-    price: "From $68",
-    verdict: "Best overall biker short",
+    name: "CRZ YOGA Naked Feeling Biker Short",
+    price: "$18.00",
+    verdict: "Best value biker short",
     description:
-      "The Align Short is the single most popular biker short in reformer studios globally, and the praise is fully earned. The Nulu fabric is so lightweight and frictionless that it disappears during practice, allowing full proprioceptive focus without fabric distraction. The high-rise waistband stays perfectly anchored through hip flexion, leg circles, and rolling exercises, and the 6-inch inseam hits at a flattering position that works for all proportions. The fabric is completely opaque even under the low angles and bright lighting typical of boutique studio environments. Available in a comprehensive range of neutral and seasonal colourways throughout the year. Not sold on Amazon: this link goes to Lululemon's own site.",
-    affiliateUrl: "https://shop.lululemon.com",
-    tag: "Editor's Pick",
+      "CRZ YOGA's Naked Feeling Biker Short consistently surprises practitioners who try it expecting a significant quality gap from premium brands. The fabric approaches the Align's softness at less than half the price, the high-waist construction stays in place reliably through Pilates movement, and the opacity holds up through deep squats and hip-flexion exercises. An exceptional value for anyone building a studio wardrobe, filling out a rotation, or looking for a lower-stakes first biker short.",
+    affiliateUrl: "https://www.amazon.com/dp/B087JSRQ8H?tag=pilatescollective-20",
+    tag: "Best Value",
   },
   {
     rank: "02",
-    name: "Alo Yoga High-Waist Biker Short",
-    price: "From $62",
-    verdict: "Best compression biker short",
-    description:
-      "Alo's Biker Short provides a noticeably firmer compression than the Align: a quality that a significant number of reformer practitioners actively prefer for the supportive, body-aware feeling during footwork sequences and standing exercises. The Airlift fabric maintains its shape perfectly through an entire session and washes without pilling or sagging. The high-waist band is wide enough to provide genuine core support and coverage through forward-fold exercises, and the inseam length prevents any ride-up during reformer transitions. The clean matte finish photographs beautifully, which accounts for much of its visibility in the wider Pilates social media community. Not sold on Amazon: this link goes to Alo Yoga's own site.",
-    affiliateUrl: "https://www.aloyoga.com",
-    tag: "Best Compression",
-  },
-  {
-    rank: "03",
     name: "Splits59 Cora High Waist Short",
     price: "From $72",
     verdict: "Best for studio practitioners",
@@ -63,7 +53,7 @@ const PRODUCTS = [
     tag: "Studio Specialist",
   },
   {
-    rank: "04",
+    rank: "03",
     name: "Sweaty Betty Stop Me Biker Short",
     price: "From $65",
     verdict: "Best for extended sizing",
@@ -73,7 +63,27 @@ const PRODUCTS = [
     tag: "Best for Sizing",
   },
   {
+    rank: "04",
+    name: "Lululemon Align High-Rise Short 6\"",
+    price: "From $68",
+    verdict: "Best overall biker short",
+    description:
+      "The Align Short is the single most popular biker short in reformer studios globally, and the praise is fully earned. The Nulu fabric is so lightweight and frictionless that it disappears during practice, allowing full proprioceptive focus without fabric distraction. The high-rise waistband stays perfectly anchored through hip flexion, leg circles, and rolling exercises, and the 6-inch inseam hits at a flattering position that works for all proportions. The fabric is completely opaque even under the low angles and bright lighting typical of boutique studio environments. Available in a comprehensive range of neutral and seasonal colourways throughout the year. Not sold on Amazon: this link goes to Lululemon's own site.",
+    affiliateUrl: "https://shop.lululemon.com",
+    tag: "Editor's Pick",
+  },
+  {
     rank: "05",
+    name: "Alo Yoga High-Waist Biker Short",
+    price: "From $62",
+    verdict: "Best compression biker short",
+    description:
+      "Alo's Biker Short provides a noticeably firmer compression than the Align: a quality that a significant number of reformer practitioners actively prefer for the supportive, body-aware feeling during footwork sequences and standing exercises. The Airlift fabric maintains its shape perfectly through an entire session and washes without pilling or sagging. The high-waist band is wide enough to provide genuine core support and coverage through forward-fold exercises, and the inseam length prevents any ride-up during reformer transitions. The clean matte finish photographs beautifully, which accounts for much of its visibility in the wider Pilates social media community. Not sold on Amazon: this link goes to Alo Yoga's own site.",
+    affiliateUrl: "https://www.aloyoga.com",
+    tag: "Best Compression",
+  },
+  {
+    rank: "06",
     name: "Vuori Daily Short",
     price: "From $58",
     verdict: "Best breathable option",
@@ -81,16 +91,6 @@ const PRODUCTS = [
       "Vuori's Daily Short uses a lighter, more breathable fabric than most competing biker shorts: a meaningful advantage for practitioners in heated studios, warm climates, or anyone who runs hot during vigorous reformer sessions. The fabric is moisture-wicking and quick-drying while remaining completely opaque. The fit is relaxed compared to compression-focused alternatives, which some practitioners find more comfortable for the sustained floor-based work in mat Pilates. The brand's design aesthetic is clean and understated, appropriate for both studio and everyday wear, making these shorts an investment that earns use well beyond class hours. Not sold on Amazon: this link goes to Vuori's own site.",
     affiliateUrl: "https://vuoriclothing.com",
     tag: "Best Breathability",
-  },
-  {
-    rank: "06",
-    name: "CRZ YOGA Naked Feeling Biker Short",
-    price: "$18.00",
-    verdict: "Best value biker short",
-    description:
-      "CRZ YOGA's Naked Feeling Biker Short consistently surprises practitioners who try it expecting a significant quality gap from premium brands. The fabric approaches the Align's softness at less than half the price, the high-waist construction stays in place reliably through Pilates movement, and the opacity holds up through deep squats and hip-flexion exercises. An exceptional value for anyone building a studio wardrobe, filling out a rotation, or looking for a lower-stakes first biker short.",
-    affiliateUrl: "https://www.amazon.com/dp/B087JSRQ8H?tag=pilatescollective-20",
-    tag: "Best Value",
   },
 ];
 
@@ -143,7 +143,7 @@ const jsonLd = {
   ],
 };
 
-const QP_NOTES = ["Best overall biker short", "Best compression biker short", "Best for studio practitioners", "Best for extended sizing", "Best breathable option", "Best value biker short"];
+const QP_NOTES = ["Best value biker short", "Best for studio practitioners", "Best for extended sizing", "Best overall biker short", "Best compression biker short", "Best breathable option"];
 
 export default function BestPilatesBikerShortsPage() {
   return (
@@ -162,7 +162,7 @@ export default function BestPilatesBikerShortsPage() {
               Best Pilates Biker Shorts<br /><span style={{ color: "#8b4a31" }}>(2026): Compared & Ranked</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 8 min read</p>
-            <TopPick name={PRODUCTS[5].name} price={PRODUCTS[5].price} note={QP_NOTES[5]} url={PRODUCTS[5].affiliateUrl} />
+            <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Biker shorts have overtaken leggings as the most popular bottom in many boutique reformer studios. They offer full thigh coverage without the restriction of a full-length legging, and the compact silhouette gives instructors a clearer view of hip alignment and knee tracking during footwork and standing exercises. Not all biker shorts are built for Pilates: fabric weight, waistband construction, and inseam length all matter significantly. These six suit reformer, mat, and tower sessions.

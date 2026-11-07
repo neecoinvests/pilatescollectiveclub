@@ -34,16 +34,6 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
-    name: "Dimmable LED Flush Mount Ceiling Light",
-    price: "From $70",
-    verdict: "Best overall ceiling fixture for a Pilates room",
-    description:
-      "The single most important property of a Pilates room's ceiling light is that you can look directly at it without wincing, because you will be doing exactly that for a large share of every session. A flush-mount fixture with a diffused opal panel spreads light across its whole surface rather than concentrating it into a point, which is the difference between a comfortable supine position and squinting through the hundred. Dimmability is the second requirement and it is not a luxury: the brightness that suits standing work at eight in the morning is uncomfortable lying down at nine in the evening. Look for adjustable colour temperature between roughly 2700K and 5000K, so the room can run cool and alert for morning practice and warm for evening, and for a CRI above 90 so skin and the room read naturally, which matters more than expected if a mirror is involved. Avoid anything described as a spotlight, downlight or track fixture.",
-    affiliateUrl: "https://www.amazon.com/s?k=dimmable+led+flush+mount+ceiling+light+adjustable+color+temperature&tag=pilatescollective-20",
-    tag: "Editor's Pick",
-  },
-  {
-    rank: "02",
     name: "Brightech Halo Split LED Torchiere Floor Lamp",
     price: "$84.99",
     verdict: "Best indirect lighting and best for renters",
@@ -53,7 +43,7 @@ const PRODUCTS = [
     tag: "Best Indirect Light",
   },
   {
-    rank: "03",
+    rank: "02",
     name: "HitLights COB LED Strip Kit (Warm White)",
     price: "$69.99",
     verdict: "Best accent and perimeter lighting",
@@ -63,7 +53,7 @@ const PRODUCTS = [
     tag: "Best Accent Lighting",
   },
   {
-    rank: "04",
+    rank: "03",
     name: "Govee Smart LED Bulbs (4-Pack)",
     price: "$39.99",
     verdict: "Best upgrade for existing fixtures",
@@ -73,7 +63,7 @@ const PRODUCTS = [
     tag: "Best Retrofit",
   },
   {
-    rank: "05",
+    rank: "04",
     name: "NEEWER Bi-Color 660 LED Light Kit (2-Pack with Stands)",
     price: "$199.99",
     verdict: "Best if you film your practice",
@@ -83,7 +73,7 @@ const PRODUCTS = [
     tag: "Best for Filming",
   },
   {
-    rank: "06",
+    rank: "05",
     name: "PASSICA DECOR Rechargeable Wall Sconces (2-Pack)",
     price: "$79.99",
     verdict: "Best no-wiring option for a rented space",
@@ -91,6 +81,16 @@ const PRODUCTS = [
       "Battery-powered sconces and puck lights are the answer when the room's existing lighting is a single harsh ceiling bulb, you cannot change it, and a floor lamp will not fit. Mounted at wall height with adhesive pads or a single small screw, they wash light sideways across the room rather than down onto you, which is precisely the direction you want. A set of three or four along one wall produces surprisingly even, low-glare illumination for very little money, and remote or app dimming is standard even at this price. Being honest about the limits: battery models need recharging or new cells every few months depending on use, the output is modest so they work best as a supplement to daylight or another source, and adhesive mounts do fail on textured or freshly painted walls. Rechargeable USB versions are worth the small premium over disposable batteries.",
     affiliateUrl: "https://www.amazon.com/dp/B0DQ8431YZ?tag=pilatescollective-20",
     tag: "Best No-Wiring Option",
+  },
+  {
+    rank: "06",
+    name: "Dimmable LED Flush Mount Ceiling Light",
+    price: "From $70",
+    verdict: "Best overall ceiling fixture for a Pilates room",
+    description:
+      "The single most important property of a Pilates room's ceiling light is that you can look directly at it without wincing, because you will be doing exactly that for a large share of every session. A flush-mount fixture with a diffused opal panel spreads light across its whole surface rather than concentrating it into a point, which is the difference between a comfortable supine position and squinting through the hundred. Dimmability is the second requirement and it is not a luxury: the brightness that suits standing work at eight in the morning is uncomfortable lying down at nine in the evening. Look for adjustable colour temperature between roughly 2700K and 5000K, so the room can run cool and alert for morning practice and warm for evening, and for a CRI above 90 so skin and the room read naturally, which matters more than expected if a mirror is involved. Avoid anything described as a spotlight, downlight or track fixture.",
+    affiliateUrl: "https://www.amazon.com/s?k=dimmable+led+flush+mount+ceiling+light+adjustable+color+temperature&tag=pilatescollective-20",
+    tag: "Editor's Pick",
   },
 ];
 
@@ -144,7 +144,7 @@ const jsonLd = {
   ],
 };
 
-const QP_NOTES = ["Best overall ceiling fixture for a Pilates room", "Best indirect lighting and best for renters", "Best accent and perimeter lighting", "Best upgrade for existing fixtures", "Best if you film your practice", "Best no-wiring option for a rented space"];
+const QP_NOTES = ["Best indirect lighting and best for renters", "Best accent and perimeter lighting", "Best upgrade for existing fixtures", "Best if you film your practice", "Best no-wiring option for a rented space", "Best overall ceiling fixture for a Pilates room"];
 
 export default function BestLightingForHomePilatesStudioPage() {
   return (
@@ -163,7 +163,7 @@ export default function BestLightingForHomePilatesStudioPage() {
               Best Lighting for a<br /><span style={{ color: "#8b4a31" }}>Home Pilates Studio</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 8 min read</p>
-            <TopPick name={PRODUCTS[1].name} price={PRODUCTS[1].price} note={QP_NOTES[1]} url={PRODUCTS[1].affiliateUrl} />
+            <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Home gym lighting advice is written for people standing up. Pilates is not: a large share of every session is spent lying on your back looking directly at the ceiling, which puts any bright fixture straight in your eyeline for minutes at a time. Squinting through the hundred is not a small annoyance either; it builds exactly the neck and jaw tension the exercise is trying to remove. Diffusion and dimming matter more here than brightness, and these six are ranked accordingly.

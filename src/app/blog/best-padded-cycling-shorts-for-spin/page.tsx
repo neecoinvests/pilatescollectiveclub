@@ -54,16 +54,6 @@ const PRODUCTS = [
   },
   {
     rank: "03",
-    name: "Tiem Cadence Bike Short",
-    price: "From $98",
-    verdict: "Best studio-specific design",
-    description:
-      "Like its shoe line, Tiem designs the Cadence short specifically around the boutique studio cycling experience rather than outdoor road riding, meaning a shorter, more flattering inseam length appropriate for studio wear and a chamois calibrated for 45-60 minute sessions rather than multi-hour rides. The compression fabric has a matte, non-shiny finish that reads as athleisure rather than overt cycling gear, which some studio-goers prefer for the walk to and from class. The price reflects the boutique positioning, but the fit and finish are genuinely premium.",
-    affiliateUrl: "https://www.amazon.com/s?k=tiem+cadence+cycling+shorts&tag=pilatescollective-20",
-    tag: "Best Studio Design",
-  },
-  {
-    rank: "04",
     name: "ZOIC Men's Essential Cycling Shorts",
     price: "$46.00",
     verdict: "Best looser-fit option",
@@ -73,7 +63,7 @@ const PRODUCTS = [
     tag: "Best Loose Fit",
   },
   {
-    rank: "05",
+    rank: "04",
     name: "Baleaf Men's 3D Padded Cycling Shorts",
     price: "$19.99",
     verdict: "Best budget men's pick",
@@ -81,6 +71,16 @@ const PRODUCTS = [
       "The men's counterpart to Baleaf's women's short, this budget option uses the same 3D foam chamois construction at a price well below premium brands like Pearl Izumi. Compression fit is snug without being restrictive, and the fabric breathes adequately for studio-length sessions. The chamois pad is noticeably thinner than the Pearl Izumi Quest, which is the main trade-off: fine for 2-3 sessions a week but riders training daily may find the padding wears thin faster. For occasional spin riders or those testing whether padded shorts improve their comfort before investing in a premium pair, this is the lowest-risk entry point.",
     affiliateUrl: "https://www.amazon.com/dp/B00MTE6OTQ?tag=pilatescollective-20",
     tag: "Best Budget Pick",
+  },
+  {
+    rank: "05",
+    name: "Tiem Cadence Bike Short",
+    price: "From $98",
+    verdict: "Best studio-specific design",
+    description:
+      "Like its shoe line, Tiem designs the Cadence short specifically around the boutique studio cycling experience rather than outdoor road riding, meaning a shorter, more flattering inseam length appropriate for studio wear and a chamois calibrated for 45-60 minute sessions rather than multi-hour rides. The compression fabric has a matte, non-shiny finish that reads as athleisure rather than overt cycling gear, which some studio-goers prefer for the walk to and from class. The price reflects the boutique positioning, but the fit and finish are genuinely premium.",
+    affiliateUrl: "https://www.amazon.com/s?k=tiem+cadence+cycling+shorts&tag=pilatescollective-20",
+    tag: "Best Studio Design",
   },
   {
     rank: "06",
@@ -143,7 +143,7 @@ const jsonLd = {
   ],
 };
 
-const QP_NOTES = ["Best overall women's pick", "Best overall men's pick", "Best studio-specific design", "Best looser-fit option", "Best budget men's pick", "Best for waistband-free comfort"];
+const QP_NOTES = ["Best overall women's pick", "Best overall men's pick", "Best looser-fit option", "Best budget men's pick", "Best studio-specific design", "Best for waistband-free comfort"];
 
 export default function BestPaddedCyclingShortsPage() {
   return (

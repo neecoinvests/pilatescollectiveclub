@@ -67,6 +67,14 @@ const PRODUCTS = [
   },
   {
     rank: "04",
+    name: "Theraband Professional Resistance Band Set",
+    price: "$19.47",
+    verdict: "Most Useful Under-$30 Gift",
+    description: "Theraband is the clinical standard: the brand used in hospital physiotherapy and prescribed by sports medicine physicians. The professional set includes six colour-coded resistance levels, pre-cut to exercise length, covering everything from gentle warm-up to serious conditioning. For a practitioner building a home practice or doing supplementary work between studio sessions, this set becomes a daily tool. At $26 it is the highest-value pilates gift per dollar on this list: practical, durable, and genuinely useful every week.",
+    affiliateUrl: "https://www.amazon.com/dp/B07RF9FYM6?tag=pilatescollective-20",
+  },
+  {
+    rank: "05",
     name: "Alo Yoga Muse Sweatshirt",
     price: "$114",
     verdict: "Best Studio-to-Street Layer",
@@ -74,20 +82,12 @@ const PRODUCTS = [
     affiliateUrl: "https://www.aloyoga.com",
   },
   {
-    rank: "05",
+    rank: "06",
     name: "Lululemon Everywhere Belt Bag Large 2L",
     price: "$38",
     verdict: "The Bag Everyone Has",
     description: "The Lululemon belt bag is not a trend: it has become a permanent fixture in pilates studio culture, hanging on lockers and clipped to tote bags across the country. The 2L large version fits a phone, keys, cards, lip balm, and a snack. Water-repellent ripstop fabric, a quick-access front zip, and an adjustable strap that works worn crossbody or around the waist. At $48 it is a considered gift at an accessible price: practical, recognisable, and used every single day. Not sold on Amazon: this link goes to Lululemon's own site.",
     affiliateUrl: "https://shop.lululemon.com",
-  },
-  {
-    rank: "06",
-    name: "Theraband Professional Resistance Band Set",
-    price: "$19.47",
-    verdict: "Most Useful Under-$30 Gift",
-    description: "Theraband is the clinical standard: the brand used in hospital physiotherapy and prescribed by sports medicine physicians. The professional set includes six colour-coded resistance levels, pre-cut to exercise length, covering everything from gentle warm-up to serious conditioning. For a practitioner building a home practice or doing supplementary work between studio sessions, this set becomes a daily tool. At $26 it is the highest-value pilates gift per dollar on this list: practical, durable, and genuinely useful every week.",
-    affiliateUrl: "https://www.amazon.com/dp/B07RF9FYM6?tag=pilatescollective-20",
   },
 ];
 
@@ -170,7 +170,7 @@ const jsonLd = {
   ],
 };
 
-const QP_NOTES = ["The Heirloom Gift", "The Legging She'll Wear to Every Class", "Best Recovery Gift", "Best Studio-to-Street Layer", "The Bag Everyone Has", "Most Useful Under-$30 Gift"];
+const QP_NOTES = ["The Heirloom Gift", "The Legging She'll Wear to Every Class", "Best Recovery Gift", "Most Useful Under-$30 Gift", "Best Studio-to-Street Layer", "The Bag Everyone Has"];
 
 const ITEM_LIST = productItemList("Best Pilates Gifts for Mom (2026)", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 

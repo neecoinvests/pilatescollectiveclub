@@ -34,16 +34,6 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
-    name: "Fitbit Charge 6 Fitness Tracker",
-    price: "From $120",
-    verdict: "Best fitness tracker for Pilates calorie tracking",
-    description:
-      "The Fitbit Charge 6 is the most practical wrist-based calorie tracker for Pilates use. The optical heart rate sensor samples continuously throughout a session, and Fitbit's calorie algorithm integrates heart rate data with individual basal metabolic rate for more accurate estimates than MET-based calculators. The slim profile does not interfere with reformer strap work or mat exercises. Battery life is six days, eliminating the frustration of mid-week charging. Fitbit's exercise tracking records Pilates as a specific activity type rather than lumping it with generic yoga, which improves the accuracy of long-term calorie trend analysis. Connects to Google Maps and has built-in GPS for walks and runs to complement your studio sessions.",
-    affiliateUrl: "https://www.amazon.com/s?k=fitbit+charge+6+fitness+tracker&tag=pilatescollective-20",
-    tag: "Best Overall Tracker",
-  },
-  {
-    rank: "02",
     name: "Garmin Vivosmart 5",
     price: "$142.99",
     verdict: "Best slim tracker for studio use",
@@ -53,7 +43,7 @@ const PRODUCTS = [
     tag: "Best Slim Profile",
   },
   {
-    rank: "03",
+    rank: "02",
     name: "Polar H10 Heart Rate Monitor Chest Strap",
     price: "$104.65",
     verdict: "Most accurate calorie measurement",
@@ -63,7 +53,7 @@ const PRODUCTS = [
     tag: "Most Accurate",
   },
   {
-    rank: "04",
+    rank: "03",
     name: "Apple Watch SE 3",
     price: "$239.99",
     verdict: "Best for iPhone users",
@@ -73,7 +63,7 @@ const PRODUCTS = [
     tag: "Best for Apple Users",
   },
   {
-    rank: "05",
+    rank: "04",
     name: "Samsung Galaxy Fit3",
     price: "$49.99",
     verdict: "Best budget tracker",
@@ -81,6 +71,16 @@ const PRODUCTS = [
       "Samsung's Galaxy Fit3 delivers continuous heart rate monitoring and calorie tracking at a price point significantly below the Fitbit and Garmin alternatives. The slim band design is comfortable during all Pilates positions including supine exercises where a thicker watch face creates discomfort. Accuracy is comparable to other optical wrist sensors at similar price points: within 15-20% of laboratory measurements for low-intensity activity. For Android users who want a functional activity tracker without committing to a premium price, the Galaxy Fit3 covers the core calorie-tracking function adequately. Battery life is excellent at up to 13 days.",
     affiliateUrl: "https://www.amazon.com/dp/B0CW3VWC3X?tag=pilatescollective-20",
     tag: "Best Budget Tracker",
+  },
+  {
+    rank: "05",
+    name: "Fitbit Charge 6 Fitness Tracker",
+    price: "From $120",
+    verdict: "Best fitness tracker for Pilates calorie tracking",
+    description:
+      "The Fitbit Charge 6 is the most practical wrist-based calorie tracker for Pilates use. The optical heart rate sensor samples continuously throughout a session, and Fitbit's calorie algorithm integrates heart rate data with individual basal metabolic rate for more accurate estimates than MET-based calculators. The slim profile does not interfere with reformer strap work or mat exercises. Battery life is six days, eliminating the frustration of mid-week charging. Fitbit's exercise tracking records Pilates as a specific activity type rather than lumping it with generic yoga, which improves the accuracy of long-term calorie trend analysis. Connects to Google Maps and has built-in GPS for walks and runs to complement your studio sessions.",
+    affiliateUrl: "https://www.amazon.com/s?k=fitbit+charge+6+fitness+tracker&tag=pilatescollective-20",
+    tag: "Best Overall Tracker",
   },
 ];
 
@@ -127,7 +127,7 @@ const jsonLd = {
   ],
 };
 
-const QP_NOTES = ["Best fitness tracker for Pilates calorie tracking", "Best slim tracker for studio use", "Most accurate calorie measurement", "Best for iPhone users", "Best budget tracker"];
+const QP_NOTES = ["Best slim tracker for studio use", "Most accurate calorie measurement", "Best for iPhone users", "Best budget tracker", "Best fitness tracker for Pilates calorie tracking"];
 
 const ITEM_LIST = productItemList("How Many Calories Does Pilates Burn? (2026 Data)", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 
@@ -149,7 +149,7 @@ export default function CaloriesPilatesPage() {
               How Many Calories<br /><span style={{ color: "#8b4a31" }}>Does Pilates Burn?</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 7 min read</p>
-            <TopPick name={PRODUCTS[1].name} price={PRODUCTS[1].price} note={QP_NOTES[1]} url={PRODUCTS[1].affiliateUrl} />
+            <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Pilates burns significantly more calories than most people expect, and significantly less than most fitness apps report. The truth is somewhere between the dismissive claim that Pilates is "just stretching" and the inflated numbers that studio marketing uses. Here is what the metabolic research actually shows, broken down by format, intensity, and body weight.

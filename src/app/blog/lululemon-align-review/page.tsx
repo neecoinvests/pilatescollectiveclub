@@ -44,6 +44,16 @@ const PRODUCTS = [
   },
   {
     rank: "02",
+    name: "Lululemon Align High-Rise Pant 25\"",
+    price: "$98.00",
+    verdict: "Best for petite frames",
+    description:
+      "The 25-inch Align Pant is the right choice for practitioners under 5'4\" who find the standard 28-inch length bunches at the ankle or sits slightly above it. The shorter inseam creates a full-length silhouette on petite frames that the 28-inch cannot achieve. Functionally identical to the flagship in fabric, waistband construction, and performance: the only variable is length. Some taller practitioners also choose the 25-inch intentionally for a 7/8 silhouette. Lululemon also offers a 21-inch crop if you want a defined capri length. The sizing advice from Lululemon's website is reliable for selecting the right inseam.",
+    affiliateUrl: "https://www.amazon.com/dp/B08M8ZTKJS?tag=pilatescollective-20",
+    tag: "Best Petite",
+  },
+  {
+    rank: "03",
     name: "Lululemon Align High-Rise Short 6\"",
     price: "From $68",
     verdict: "The best biker short for Pilates",
@@ -53,7 +63,7 @@ const PRODUCTS = [
     tag: "Studio Favourite",
   },
   {
-    rank: "03",
+    rank: "04",
     name: "Lululemon Align Bodysuit",
     price: "From $108",
     verdict: "The cleanest silhouette for reformer",
@@ -61,16 +71,6 @@ const PRODUCTS = [
       "The Align Bodysuit extends the Nulu fabric proposition into a one-piece form that many reformer practitioners consider the ideal Pilates garment. A bodysuit cannot come untucked, ride up, or bunch at the waist during transitions: the most common annoyances of a separate top and legging combination. The Align Bodysuit's integrated shelf bra provides sufficient support for a 55-minute reformer session for B-D cup sizes without requiring an additional undergarment layer. Available in scoop-neck and high-neck variants; the high-neck is preferred for exercises performed lying down, the scoop-neck for warmer studios. Pairs with any Align legging or short for a fully coordinated studio kit. Not sold on Amazon: this link goes to Lululemon's own site.",
     affiliateUrl: "https://shop.lululemon.com",
     tag: "Best for Reformer",
-  },
-  {
-    rank: "04",
-    name: "Lululemon Align High-Rise Pant 25\"",
-    price: "$98.00",
-    verdict: "Best for petite frames",
-    description:
-      "The 25-inch Align Pant is the right choice for practitioners under 5'4\" who find the standard 28-inch length bunches at the ankle or sits slightly above it. The shorter inseam creates a full-length silhouette on petite frames that the 28-inch cannot achieve. Functionally identical to the flagship in fabric, waistband construction, and performance: the only variable is length. Some taller practitioners also choose the 25-inch intentionally for a 7/8 silhouette. Lululemon also offers a 21-inch crop if you want a defined capri length. The sizing advice from Lululemon's website is reliable for selecting the right inseam.",
-    affiliateUrl: "https://www.amazon.com/dp/B08M8ZTKJS?tag=pilatescollective-20",
-    tag: "Best Petite",
   },
   {
     rank: "05",
@@ -119,7 +119,7 @@ const jsonLd = {
   ],
 };
 
-const QP_NOTES = ["The flagship, and the right choice for most", "The best biker short for Pilates", "The cleanest silhouette for reformer", "Best for petite frames", "Best bra to complete the set"];
+const QP_NOTES = ["The flagship, and the right choice for most", "Best for petite frames", "The best biker short for Pilates", "The cleanest silhouette for reformer", "Best bra to complete the set"];
 
 const ITEM_LIST = productItemList("Lululemon Align Review (2026): Is It Opaque Enough?", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 

@@ -43,14 +43,6 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
-    name: "Lululemon Align Reversible Bra",
-    price: "$48",
-    verdict: "Best Under-$50 Gift",
-    description: "The Align Bra is Lululemon's most popular sports bra, made from the same Nulu fabric as the iconic Align leggings. It's light, buttery, fully reversible (two colours in one), and designed for low-impact activities like pilates, yoga, and barre where comfort and aesthetics matter as much as performance. The removable cups provide modest coverage and the smoothed silhouette works under fitted studio tops. At $48 it's one of the most thoughtful under-$50 gifts in pilates: she'll wear it to every class. Not sold on Amazon: this link goes to Lululemon's own site.",
-    affiliateUrl: "https://shop.lululemon.com",
-  },
-  {
-    rank: "02",
     name: "Gaiam Premium Print Yoga Mat (6mm)",
     price: "$39.99",
     verdict: "Best Beginner-to-Intermediate Mat",
@@ -58,7 +50,7 @@ const PRODUCTS = [
     affiliateUrl: "https://www.amazon.com/dp/B09WF2LLWP?tag=pilatescollective-20",
   },
   {
-    rank: "03",
+    rank: "02",
     name: "TriggerPoint GRID Foam Roller",
     price: "$28.99",
     verdict: "Best Recovery Gift",
@@ -66,12 +58,20 @@ const PRODUCTS = [
     affiliateUrl: "https://www.amazon.com/dp/B0040EGNIU?tag=pilatescollective-20",
   },
   {
-    rank: "04",
+    rank: "03",
     name: "Theraband Professional Resistance Band Set",
     price: "$19.47",
     verdict: "Best Accessory Under $30",
     description: "Theraband is the clinical gold standard in resistance bands: the same brand used in hospital physiotherapy departments and prescribed by sports medicine professionals. The professional set includes six resistance levels from yellow through black, covering every stage of pilates progression from gentle rehabilitation to advanced conditioning. Each band is colour-coded, pre-cut to exercise length, and made from a latex blend that won't snap or degrade. For a practitioner of any level, this is the highest-value-for-money gift on this list.",
     affiliateUrl: "https://www.amazon.com/dp/B07RF9FYM6?tag=pilatescollective-20",
+  },
+  {
+    rank: "04",
+    name: "ToeSox Half-Toe Grip Socks 3-Pack",
+    price: "$44.00",
+    verdict: "Best Multi-Pack Gift",
+    description: "ToeSox grip socks are required equipment for reformer studios and the preferred choice of the majority of serious practitioners. The half-toe design is specifically engineered for footbar work: the exposed toes provide full proprioceptive feedback on the reformer carriage while the full-grip sole keeps feet anchored on every surface. The three-pack in a coordinated colour set is a gift that's practical, repeatable, and genuinely appreciated. She'll reach for these every class.",
+    affiliateUrl: "https://www.amazon.com/dp/B07Q5JM1G5?tag=pilatescollective-20",
   },
   {
     rank: "05",
@@ -83,11 +83,11 @@ const PRODUCTS = [
   },
   {
     rank: "06",
-    name: "ToeSox Half-Toe Grip Socks 3-Pack",
-    price: "$44.00",
-    verdict: "Best Multi-Pack Gift",
-    description: "ToeSox grip socks are required equipment for reformer studios and the preferred choice of the majority of serious practitioners. The half-toe design is specifically engineered for footbar work: the exposed toes provide full proprioceptive feedback on the reformer carriage while the full-grip sole keeps feet anchored on every surface. The three-pack in a coordinated colour set is a gift that's practical, repeatable, and genuinely appreciated. She'll reach for these every class.",
-    affiliateUrl: "https://www.amazon.com/dp/B07Q5JM1G5?tag=pilatescollective-20",
+    name: "Lululemon Align Reversible Bra",
+    price: "$48",
+    verdict: "Best Under-$50 Gift",
+    description: "The Align Bra is Lululemon's most popular sports bra, made from the same Nulu fabric as the iconic Align leggings. It's light, buttery, fully reversible (two colours in one), and designed for low-impact activities like pilates, yoga, and barre where comfort and aesthetics matter as much as performance. The removable cups provide modest coverage and the smoothed silhouette works under fitted studio tops. At $48 it's one of the most thoughtful under-$50 gifts in pilates: she'll wear it to every class. Not sold on Amazon: this link goes to Lululemon's own site.",
+    affiliateUrl: "https://shop.lululemon.com",
   },
 ];
 
@@ -146,7 +146,7 @@ const jsonLd = {
   ],
 };
 
-const QP_NOTES = ["Best Under-$50 Gift", "Best Beginner-to-Intermediate Mat", "Best Recovery Gift", "Best Accessory Under $30", "Best Prop Investment", "Best Multi-Pack Gift"];
+const QP_NOTES = ["Best Beginner-to-Intermediate Mat", "Best Recovery Gift", "Best Accessory Under $30", "Best Multi-Pack Gift", "Best Prop Investment", "Best Under-$50 Gift"];
 
 const ITEM_LIST = productItemList("Best Pilates Gifts Under $100 (2026)", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 
@@ -167,7 +167,7 @@ export default function Page() {
             Best Pilates Gifts Under $100
           </h1>
           <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 8 min read</p>
-          <TopPick name={PRODUCTS[1].name} price={PRODUCTS[1].price} note={QP_NOTES[1]} url={PRODUCTS[1].affiliateUrl} />
+          <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
           <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
           <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
             The best pilates gifts don't have to be expensive: they have to be right. This guide focuses on the sub-$100 tier where thoughtfulness matters more than price: the grip socks she reaches for every class, the foam roller she actually uses, the mat that finally replaces the studio's communal one. All picks are from brands the pilates community trusts, with guidance to help you choose the right one for her practice level and routine.

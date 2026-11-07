@@ -67,19 +67,19 @@ const PRODUCTS = [
   },
   {
     rank: "04",
-    name: "Alo Yoga Airlift 7/8 Legging",
-    price: "$114",
-    verdict: "Best Luxury Christmas Legging",
-    description: "For the practitioner who already owns the Lululemon Align and is ready for the next level, the Alo Airlift is the Christmas gift. The Airlift fabric applies sculpting compression that the Align doesn't: a tighter, more structured feel that creates a visibly lifted silhouette. The wide waistband is entirely opaque and stays in place through dynamic movement. Available in Alo's beautiful holiday palette: seasonal colourways that sell out by mid-December. Order early. This is the gift that gets worn from New Year's Day onwards. Not sold on Amazon: this link goes to Alo Yoga's own site.",
-    affiliateUrl: "https://www.aloyoga.com",
-  },
-  {
-    rank: "05",
     name: "ToeSox Half-Toe Grip Socks 3-Pack",
     price: "$44.00",
     verdict: "Best Stocking Stuffer",
     description: "Grip socks are the perfect Christmas stocking stuffer for anyone who does reformer pilates: compact enough to physically fit in a stocking, practical enough to be immediately used, and from a brand (ToeSox) that practitioners consistently choose over cheaper alternatives. The half-toe design is the studio standard; the 3-pack in coordinated seasonal colours is a gift that arrives looking considered rather than hasty. At $42 for three pairs, it is also the most budget-friendly genuinely-appreciated pilates Christmas gift on this list.",
     affiliateUrl: "https://www.amazon.com/dp/B07Q5JM1G5?tag=pilatescollective-20",
+  },
+  {
+    rank: "05",
+    name: "Alo Yoga Airlift 7/8 Legging",
+    price: "$114",
+    verdict: "Best Luxury Christmas Legging",
+    description: "For the practitioner who already owns the Lululemon Align and is ready for the next level, the Alo Airlift is the Christmas gift. The Airlift fabric applies sculpting compression that the Align doesn't: a tighter, more structured feel that creates a visibly lifted silhouette. The wide waistband is entirely opaque and stays in place through dynamic movement. Available in Alo's beautiful holiday palette: seasonal colourways that sell out by mid-December. Order early. This is the gift that gets worn from New Year's Day onwards. Not sold on Amazon: this link goes to Alo Yoga's own site.",
+    affiliateUrl: "https://www.aloyoga.com",
   },
   {
     rank: "06",
@@ -170,7 +170,7 @@ const jsonLd = {
   ],
 };
 
-const QP_NOTES = ["Best Overall Christmas Gift", "Best Premium Christmas Gift", "Best Mat Gift", "Best Luxury Christmas Legging", "Best Stocking Stuffer", "Best Under-$50 Christmas Gift"];
+const QP_NOTES = ["Best Overall Christmas Gift", "Best Premium Christmas Gift", "Best Mat Gift", "Best Stocking Stuffer", "Best Luxury Christmas Legging", "Best Under-$50 Christmas Gift"];
 
 const ITEM_LIST = productItemList("Best Pilates Christmas Gifts (2026)", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 

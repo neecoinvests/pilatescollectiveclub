@@ -45,6 +45,15 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
+    name: "ASUTRA Yoga Mat Cleaner Spray (Lavender)",
+    price: "$13.99",
+    verdict: "Best scented option",
+    description: "Asutra's yoga mat cleaner combines tea tree oil (antimicrobial), lavender (refreshing), and witch hazel in a pre-mixed spray. The scent profile is among the best in the category: noticeable enough to refresh the mat without being overwhelming in a closed studio. Safe for TPE, PVC, and standard rubber mats. Not recommended for open-cell natural rubber.",
+    affiliateUrl: "https://www.amazon.com/dp/B00XQBHJOU?tag=pilatescollective-20",
+    tag: "Best Scent",
+  },
+  {
+    rank: "02",
     name: "Manduka All Purpose Mat Wash Concentrate",
     price: "From $15",
     verdict: "Best overall mat cleaner",
@@ -53,7 +62,7 @@ const PRODUCTS = [
     tag: "Editor's Pick",
   },
   {
-    rank: "02",
+    rank: "03",
     name: "Gaiam Yoga Mat Spray Cleaner",
     price: "From $12",
     verdict: "Best budget spray cleaner",
@@ -62,22 +71,13 @@ const PRODUCTS = [
     tag: "Best Value",
   },
   {
-    rank: "03",
+    rank: "04",
     name: "Branch Basics Concentrate All-Purpose Cleaner",
     price: "From $39",
     verdict: "Best for natural rubber and premium mats",
     description: "Branch Basics is a non-toxic, fragrance-free concentrate that Manduka and Liforme mat owners frequently use as an alternative to branded sprays. The formula contains no essential oils (which can degrade natural rubber over time) and no harsh surfactants that strip mat coatings. One bottle makes over 60 spray bottles of cleaner: a long-term value proposition despite the upfront cost.",
     affiliateUrl: "https://www.amazon.com/s?k=Branch+Basics+Concentrate+All+Purpose+Cleaner&tag=pilatescollective-20",
     tag: "Natural Rubber Safe",
-  },
-  {
-    rank: "04",
-    name: "ASUTRA Yoga Mat Cleaner Spray (Lavender)",
-    price: "$13.99",
-    verdict: "Best scented option",
-    description: "Asutra's yoga mat cleaner combines tea tree oil (antimicrobial), lavender (refreshing), and witch hazel in a pre-mixed spray. The scent profile is among the best in the category: noticeable enough to refresh the mat without being overwhelming in a closed studio. Safe for TPE, PVC, and standard rubber mats. Not recommended for open-cell natural rubber.",
-    affiliateUrl: "https://www.amazon.com/dp/B00XQBHJOU?tag=pilatescollective-20",
-    tag: "Best Scent",
   },
   {
     rank: "05",
@@ -160,7 +160,7 @@ const jsonLd = {
   ],
 };
 
-const QP_NOTES = ["Best overall mat cleaner", "Best budget spray cleaner", "Best for natural rubber and premium mats", "Best scented option", "Best for shared studio equipment", "Best eco-friendly pick"];
+const QP_NOTES = ["Best scented option", "Best overall mat cleaner", "Best budget spray cleaner", "Best for natural rubber and premium mats", "Best for shared studio equipment", "Best eco-friendly pick"];
 
 export default function BestPilatesMatCleanerPage() {
   return (
@@ -178,7 +178,7 @@ export default function BestPilatesMatCleanerPage() {
               Best Pilates Mat Cleaner (2026): Sprays &amp; Wipes for Every Mat
             </h1>
             <p className="text-sm mb-6" style={{ color: "#9e8a7e" }}>Prices checked October 20, 2026 · 6 min read</p>
-            <TopPick name={PRODUCTS[3].name} price={PRODUCTS[3].price} note={QP_NOTES[3]} url={PRODUCTS[3].affiliateUrl} />
+            <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <hr style={{ borderColor: "#e8e0db" }} className="mb-8" />
             <p className="text-lg leading-relaxed" style={{ color: "#5c4a3d" }}>
               The wrong cleaner can destroy a $150 Pilates mat in months: essential oils degrade natural rubber, bleach breaks down PVC, and alcohol strips the grip surface from PU leather. The right cleaner extends mat life, keeps the surface hygienic, and doesn&apos;t leave a residue that makes you slip during downward dog or spine stretch. Here are six cleaners that actually work, matched to mat type and practice frequency.

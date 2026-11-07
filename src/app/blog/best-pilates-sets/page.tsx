@@ -34,26 +34,6 @@ export const metadata: Metadata = {
 const PRODUCTS = [
   {
     rank: "01",
-    name: "Alo Yoga Airbrush High-Waist Legging & Bra Set",
-    price: "From $176",
-    verdict: "Best overall Pilates set",
-    description:
-      "Alo's Airbrush set is the default choice in boutique reformer studios across New York, Los Angeles, and London, and for good reason. The matching legging and bra combination is engineered as a coordinated system: the high-waist legging sits perfectly at the waist regardless of the bra style, the fabric weight is consistent across both pieces, and the colourways are designed to complement rather than merely match. The medium-weight compression fabric supports without restricting breath, which is particularly important in exercises like the hundred and long-box series. The sports bra component offers enough coverage and support for a full reformer session without requiring a separate layer. Not sold on Amazon: this link goes to Alo Yoga's own site.",
-    affiliateUrl: "https://www.aloyoga.com",
-    tag: "Editor's Pick",
-  },
-  {
-    rank: "02",
-    name: "Lululemon Align High-Rise Set",
-    price: "From $186",
-    verdict: "Best for softness",
-    description:
-      "The Lululemon Align set pairs the iconic Align High-Rise Pant with the Free to Be Bra or Energy Bra, and the result is the softest coordinated Pilates outfit available at any price point. The Nulu fabric's near-weightless quality is immediately apparent in movement: there's no fabric resistance through hip flexion, spinal rotation, or the deep stretches of the full Pilates repertoire. The set is available in a comprehensive range of neutral and seasonal colourways, and the pieces can be purchased individually to build multiple combinations. A wardrobe investment that justifies itself across hundreds of studio sessions. Not sold on Amazon: this link goes to Lululemon's own site.",
-    affiliateUrl: "https://shop.lululemon.com",
-    tag: "Most Popular",
-  },
-  {
-    rank: "03",
     name: "Sweaty Betty Power Set",
     price: "From $166.00",
     verdict: "Best premium set you can buy on Amazon",
@@ -67,27 +47,7 @@ const PRODUCTS = [
     tag: "Best for Sizing",
   },
   {
-    rank: "04",
-    name: "Vuori Halo Performance Set",
-    price: "From $148",
-    verdict: "Best for warm studios",
-    description:
-      "Vuori's Halo set prioritises breathability above all else: the lightweight, breathable fabric makes it the preferred choice for heated studios and warm-climate practitioners. The fabric is lighter and less compressive than Alo or Sweaty Betty, but it is completely opaque and provides a clean, streamlined aesthetic appropriate for any studio environment. The Halo Bra has a clean cross-back construction that doesn't interfere with scapular movement during stabilisation exercises, and both pieces are available in Vuori's characteristic muted, nature-inspired colourway palette. Not sold on Amazon: this link goes to Vuori's own site.",
-    affiliateUrl: "https://vuoriclothing.com",
-    tag: "Best Breathability",
-  },
-  {
-    rank: "05",
-    name: "Girlfriend Collective Compressive Set",
-    price: "From $136",
-    verdict: "Best sustainable set",
-    description:
-      "Girlfriend Collective's Compressive Set, pairing their Compressive High-Rise Legging with the Paloma Bra, is the most environmentally considered option in premium Pilates apparel. Both pieces are made from recycled post-consumer materials, and the brand maintains exceptional transparency about its supply chain. The compressive fabric provides firm, supportive coverage suitable for reformer work, and the Paloma Bra's removable cups offer adaptable support. The brand's inclusive sizing runs XXS to 6XL, and the consistently thoughtful colourway releases have built a loyal following among practitioners who want to align their studio wardrobe with broader values.",
-    affiliateUrl: "https://www.amazon.com/s?k=girlfriend+collective+compressive+set&tag=pilatescollective-20",
-    tag: "Best Sustainable",
-  },
-  {
-    rank: "06",
+    rank: "02",
     name: "CRZ YOGA Naked Feeling Set",
     price: "From $52.00",
     verdict: "Best value set",
@@ -101,7 +61,7 @@ const PRODUCTS = [
     tag: "Best Value",
   },
   {
-    rank: "07",
+    rank: "03",
     name: "SUUKSESS 2-Piece Pilates Set",
     price: "$33.95",
     verdict: "Best budget set in one listing",
@@ -109,6 +69,46 @@ const PRODUCTS = [
       "A genuine two-piece set sold as one listing: high-waisted, squat-proof leggings with pockets and a racerback top with a built-in medium-support bra, in a 75% polyamide, 25% spandex fabric the listing describes as buttery soft, breathable and moisture-wicking. Check the size chart before ordering.",
     affiliateUrl: "https://www.amazon.com/dp/B0HJCN5LF6?tag=pilatescollective-20",
     tag: "Best Budget",
+  },
+  {
+    rank: "04",
+    name: "Girlfriend Collective Compressive Set",
+    price: "From $136",
+    verdict: "Best sustainable set",
+    description:
+      "Girlfriend Collective's Compressive Set, pairing their Compressive High-Rise Legging with the Paloma Bra, is the most environmentally considered option in premium Pilates apparel. Both pieces are made from recycled post-consumer materials, and the brand maintains exceptional transparency about its supply chain. The compressive fabric provides firm, supportive coverage suitable for reformer work, and the Paloma Bra's removable cups offer adaptable support. The brand's inclusive sizing runs XXS to 6XL, and the consistently thoughtful colourway releases have built a loyal following among practitioners who want to align their studio wardrobe with broader values.",
+    affiliateUrl: "https://www.amazon.com/s?k=girlfriend+collective+compressive+set&tag=pilatescollective-20",
+    tag: "Best Sustainable",
+  },
+  {
+    rank: "05",
+    name: "Alo Yoga Airbrush High-Waist Legging & Bra Set",
+    price: "From $176",
+    verdict: "Best overall Pilates set",
+    description:
+      "Alo's Airbrush set is the default choice in boutique reformer studios across New York, Los Angeles, and London, and for good reason. The matching legging and bra combination is engineered as a coordinated system: the high-waist legging sits perfectly at the waist regardless of the bra style, the fabric weight is consistent across both pieces, and the colourways are designed to complement rather than merely match. The medium-weight compression fabric supports without restricting breath, which is particularly important in exercises like the hundred and long-box series. The sports bra component offers enough coverage and support for a full reformer session without requiring a separate layer. Not sold on Amazon: this link goes to Alo Yoga's own site.",
+    affiliateUrl: "https://www.aloyoga.com",
+    tag: "Editor's Pick",
+  },
+  {
+    rank: "06",
+    name: "Lululemon Align High-Rise Set",
+    price: "From $186",
+    verdict: "Best for softness",
+    description:
+      "The Lululemon Align set pairs the iconic Align High-Rise Pant with the Free to Be Bra or Energy Bra, and the result is the softest coordinated Pilates outfit available at any price point. The Nulu fabric's near-weightless quality is immediately apparent in movement: there's no fabric resistance through hip flexion, spinal rotation, or the deep stretches of the full Pilates repertoire. The set is available in a comprehensive range of neutral and seasonal colourways, and the pieces can be purchased individually to build multiple combinations. A wardrobe investment that justifies itself across hundreds of studio sessions. Not sold on Amazon: this link goes to Lululemon's own site.",
+    affiliateUrl: "https://shop.lululemon.com",
+    tag: "Most Popular",
+  },
+  {
+    rank: "07",
+    name: "Vuori Halo Performance Set",
+    price: "From $148",
+    verdict: "Best for warm studios",
+    description:
+      "Vuori's Halo set prioritises breathability above all else: the lightweight, breathable fabric makes it the preferred choice for heated studios and warm-climate practitioners. The fabric is lighter and less compressive than Alo or Sweaty Betty, but it is completely opaque and provides a clean, streamlined aesthetic appropriate for any studio environment. The Halo Bra has a clean cross-back construction that doesn't interfere with scapular movement during stabilisation exercises, and both pieces are available in Vuori's characteristic muted, nature-inspired colourway palette. Not sold on Amazon: this link goes to Vuori's own site.",
+    affiliateUrl: "https://vuoriclothing.com",
+    tag: "Best Breathability",
   },
 ];
 
@@ -161,7 +161,7 @@ const jsonLd = {
   ],
 };
 
-const QP_NOTES = ["Best overall Pilates set", "Best for softness", "Best premium set you can buy on Amazon", "Best for warm studios", "Best sustainable set", "Best value set", "Best budget set in one listing"];
+const QP_NOTES = ["Best premium set you can buy on Amazon", "Best value set", "Best budget set in one listing", "Best sustainable set", "Best overall Pilates set", "Best for softness", "Best for warm studios"];
 
 export default function BestPilatesSetsPage() {
   return (
@@ -180,7 +180,7 @@ export default function BestPilatesSetsPage() {
               Best Pilates Sets<br /><span style={{ color: "#8b4a31" }}>(2026): Ranked & Compared</span>
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 8 min read</p>
-            <TopPick name={PRODUCTS[6].name} price={PRODUCTS[6].price} note={QP_NOTES[6]} url={PRODUCTS[6].affiliateUrl} />
+            <TopPick name={PRODUCTS[2].name} price={PRODUCTS[2].price} note={QP_NOTES[2]} url={PRODUCTS[2].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               A matching set removes a decision from your morning, and in Pilates, where mental clarity and presence matter, that simplicity has real value. Beyond the aesthetic appeal, coordinated two-piece sets are designed as systems: the fabric weight, compression level, and waistband height are engineered to work together. These six sets represent the best of what the Pilates apparel market currently offers, from investment-grade premium options to exceptional value alternatives.
