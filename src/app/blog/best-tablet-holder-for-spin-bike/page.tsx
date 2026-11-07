@@ -45,7 +45,7 @@ const PRODUCTS = [
   {
     rank: "02",
     name: "Lamicall Tablet Floor Stand",
-    price: "$27.99",
+    price: "$34.99",
     verdict: "Best for adjustable screen height",
     description:
       "The overlooked problem with handlebar mounts is neck position: a tablet on the bars sits low, so you spend 45 minutes looking down with the neck flexed, which is the same posture the rest of this site spends its time correcting. A gooseneck arm clamped to the frame or a floor stand lets you place the screen at eye level, where your neck stays neutral. That makes it the right choice for anyone who already has neck or upper back complaints. The trade-off is stability: a long flexible arm is the format most prone to bouncing during sprints, so choose the shortest arm that reaches eye level and a clamp with a genuinely wide jaw. Set it up once, mark the position, and avoid re-adjusting it constantly, which is what loosens gooseneck joints.",
@@ -54,12 +54,12 @@ const PRODUCTS = [
   },
   {
     rank: "03",
-    name: "Lamicall Spin Bike Tablet Mount",
-    price: "$19.99",
+    name: "JUBOR Spin Bike Tablet Holder (360° Rotation)",
+    price: "$14.99",
     verdict: "Cheapest serviceable mount",
     description:
-      "The budget end of this category is serviceable because the engineering requirement is genuinely modest: hold a light object steady on a tube. What you give up is longevity in a sweaty environment. Cheap mounts use plated steel screws and springs that corrode within months of regular use, and the plastic cradles become brittle. Two habits extend their life considerably: wipe the mount down at the end of each session rather than letting sweat dry on it, and remove the device between rides so the spring is not held under permanent tension. Check the listing states a bar diameter that covers indoor bikes, since many budget mounts are specified for slimmer road bars and will not close around a thicker indoor handlebar. Fine as a first mount to establish how you actually want the screen positioned.",
-    affiliateUrl: "https://www.amazon.com/dp/B08BZ72L5Q?tag=pilatescollective-20",
+      "The budget pick at $14.99, sold by Satawit. Per the listing, its C-clamp closes on round bars from 0.6 to 2.2 inches, which covers the 31.8 to 35mm handlebars on most indoor bikes, and a foam pad inside the clamp protects the bar. The cradle takes devices from 4.7 to 13.5 inches, with or without a case, and a ball joint rotates 360° so you can switch between portrait for workout apps and landscape for shows. It fits and removes without tools. What you give up at this price is longevity in a sweaty environment: wipe the mount down after each session and take the device off between rides so the clamp spring is not held under permanent tension.",
+    affiliateUrl: "https://www.amazon.com/dp/B0BK889K42?tag=pilatescollective-20",
     tag: "Best Budget",
   },
   {
@@ -103,7 +103,7 @@ const jsonLd = {
       "description": "Tablet and phone mounts for indoor cycling compared: clamp mounts, trays, gooseneck arms and strap mounts on stability, sweat resistance and screen height.",
       "url": "https://pilatescollectiveclub.com/blog/best-tablet-holder-for-spin-bike",
       "datePublished": "2026-09-14",
-      "dateModified": "2026-10-20",
+      "dateModified": "2026-11-07",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/henrique-ferreira-omiTbS-nb_M-unsplash.jpg", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -162,7 +162,7 @@ export default function BestTabletHolderForSpinBikePage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               Best Tablet Holders<br /><span style={{ color: "#8b4a31" }}>for Spin Bikes (2026)</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 8 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked November 7, 2026 · 8 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
