@@ -15,7 +15,7 @@ interface ProductCardProps {
 }
 
 export default function ProductCard({ showProductImage = true, ...props }: ProductCardProps) {
-  // Cards that already carry their own lifestyle photo keep it; otherwise show the Amazon product photo when we have one.
-  const productImageUrl = !showProductImage ? undefined : props.productImageUrl ?? (props.imageUrl ? undefined : amazonImageFor(props.affiliateUrl));
-  return <ProductCardView {...props} productImageUrl={productImageUrl} />;
+  // The real Amazon product photo always wins over a stock lifestyle photo; the lifestyle photo is only used when there is no product photo.
+  const productImageUrl = !showProductImage ? undefined : props.productImageUrl ?? amazonImageFor(props.affiliateUrl);
+  return <ProductCardView {...props} imageUrl={productImageUrl ? undefined : props.imageUrl} productImageUrl={productImageUrl} />;
 }

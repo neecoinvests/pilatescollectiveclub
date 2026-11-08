@@ -201,11 +201,10 @@ export default function BlogEquipmentPage() {
                 portability without compromising on quality.
               </p>
               <ProductCard
-                name="The Studio Mat Pro"
-                description="6mm thick, high-density closed-cell foam with a natural cork surface layer for superior grip. Lightweight, easy to wipe clean, and comes with a carry strap. Our top recommendation for serious home practitioners."
-                price="From $52"
-                affiliateUrl="https://www.amazon.com/s?k=pilates+mat+6mm+cork+non+slip&tag=pilatescollective-20"
-                imageUrl="/pictures/ahmet-kurt-0xn-8kRWOhE-unsplash.jpg"
+                name="Gaiam Premium Yoga Mat (6mm)"
+                description="Gaiam's Premium mat meets the 6mm minimum, measures 68 x 24 inches, and has a textured, sticky non-slip surface, per the listing. It is lightweight PVC made free of the seven phthalates Gaiam lists, wipes clean easily, and is sold by Amazon.com, from a long-established yoga and Pilates accessories brand. Unroll it and let it air for a couple of days before the first session, as the listing advises."
+                price="$39.99"
+                affiliateUrl="https://www.amazon.com/dp/B09WF4GPPC?tag=pilatescollective-20"
               />
             </section>
 
@@ -235,11 +234,10 @@ export default function BlogEquipmentPage() {
                 during leg exercises.
               </p>
               <ProductCard
-                name="Premium Resistance Band Set"
-                description="Set of 3 fabric-covered bands (light, medium, heavy). Durable looped design with anti-slip inner layer. Ideal for Pilates footwork, chest expansion, and stretching series. Includes a mesh storage bag."
-                price="From $28"
-                affiliateUrl="https://www.amazon.com/s?k=pilates+resistance+band+set+fabric&tag=pilatescollective-20"
-                imageUrl="/pictures/ahmet-kurt-a1IhqqW8JQE-unsplash.jpg"
+                name="Your Reformer Fabric Booty Bands Set (3 Levels)"
+                description="Three fabric loop bands in light, medium and heavy, from Your Reformer, a home-reformer brand. Per the listing, internal rubber stitching keeps them from rolling or slipping during footwork, bridging and side-lying series, and the design is latex free. Light enough to pack for the studio. Marked low stock on Amazon, so check availability."
+                price="$29.00"
+                affiliateUrl="https://www.amazon.com/dp/B0DPBBF3YY?tag=pilatescollective-20"
               />
             </section>
 
@@ -274,7 +272,6 @@ export default function BlogEquipmentPage() {
                 description="Fibreglass core with dual foam-padded handles. Provides firm but pliable resistance ideal for inner thigh, arm, and chest work. 38cm diameter, compatible with standard Pilates repertoire."
                 price="$35.00"
                 affiliateUrl="https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20"
-                imageUrl="/pictures/dane-wetton-t1NEMSm1rgI-unsplash.jpg"
               />
             </section>
 
@@ -308,7 +305,6 @@ export default function BlogEquipmentPage() {
                 description="Neoprene-covered with adjustable fill pockets, 0.5–2kg per weight. Machine washable, secure velcro closure, and a slim profile that doesn't restrict movement range. A rare combination of quality and versatility."
                 price="$33.99"
                 affiliateUrl="https://www.amazon.com/dp/B07F25L7QK?tag=pilatescollective-20"
-                imageUrl="/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg"
               />
             </section>
 
@@ -344,7 +340,6 @@ export default function BlogEquipmentPage() {
                 description="Spring-loaded sliding board with adjustable resistance. Foldable and wall-mountable. Covers footwork, squat series, and standing balance exercises. A smart option before committing to a full reformer."
                 price="$69.90"
                 affiliateUrl="https://www.amazon.com/dp/B0DJZF4T7K?tag=pilatescollective-20"
-                imageUrl="/pictures/roxana-popovici-Zp4APUiwEsM-unsplash.jpg"
               />
             </section>
 
@@ -412,35 +407,35 @@ export default function BlogEquipmentPage() {
                         need: "Essential",
                         budget: "Standard foam, ~$22",
                         premium: "Cork/natural rubber, $90+",
-                        pick: "The Studio Mat Pro",
+                        pick: "Gaiam Premium Yoga Mat (6mm)",
                       },
                       {
                         item: "Resistance Bands",
                         need: "Very useful",
                         budget: "Latex loop bands, $9",
                         premium: "Fabric set of 3, $33",
-                        pick: "Premium Resistance Band Set",
+                        pick: "Your Reformer Fabric Booty Bands Set",
                       },
                       {
                         item: "Pilates Ring",
                         need: "Optional",
                         budget: "Basic plastic, $13",
                         premium: "Fibreglass with padding, $44",
-                        pick: "Precision Magic Circle",
+                        pick: "Balanced Body Ultra-Fit Circle",
                       },
                       {
                         item: "Ankle Weights",
                         need: "Optional",
                         budget: "Fixed 1kg pair, $11",
                         premium: "Adjustable neoprene, $44",
-                        pick: "Adjustable Ankle Weights",
+                        pick: "Sportneer Adjustable Ankle Weights",
                       },
                       {
                         item: "Reformer Alternative",
                         need: "Advanced",
                         budget: "Second-hand reformer, $450",
                         premium: "Full home reformer, $2,200+",
-                        pick: "Home Pilates Board",
+                        pick: "JANUA Pilates Board",
                       },
                     ].map((row, i) => (
                       <tr

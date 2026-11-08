@@ -43,7 +43,6 @@ const PRODUCTS = [
     description:
       "CRZ YOGA's Naked Feeling fabric has become a genuine cult choice among Pilates practitioners who want the performance of Lululemon Align at a fraction of the price. The fabric is buttery-soft, squat-proof, and has enough compression to stay put during leg circles and side-lying work without feeling restrictive. The high waist stays up through all inversions and doesn't roll. Available in 20+ colours. Consistently one of the highest-rated Pilates leggings on Amazon.",
     affiliateUrl: "https://www.amazon.com/dp/B07DCSM69V?tag=pilatescollective-20",
-    imageUrl: "/pictures/ahmet-kurt-0xn-8kRWOhE-unsplash.jpg",
   },
   {
     category: "Socks",
@@ -53,37 +52,33 @@ const PRODUCTS = [
     description:
       "Required at most reformer studios and genuinely useful for mat work: grip socks are as much a part of your Pilates outfit as the leggings. ToeSox individual-toe design allows the foot to function naturally on the footbar, improving the proprioceptive feedback that makes Pilates effective. See our full grip sock guide for alternatives and detailed comparisons.",
     affiliateUrl: "https://www.amazon.com/dp/B074HNPQ9Y?tag=pilatescollective-20",
-    imageUrl: "/pictures/roxana-popovici-Zp4APUiwEsM-unsplash.jpg",
   },
   {
     category: "Leggings",
-    name: "Halara Cloudful High-Waisted Leggings",
-    price: "From $32",
+    name: "Colorfulkoala Dreamlux No Front Seam Leggings (28\")",
+    price: "$32.00",
     tag: "Best for Reformer",
     description:
-      "Halara's Cloudful leggings are specifically praised by reformer practitioners for their four-way stretch and close fit that doesn't bunch on the carriage. The fabric doesn't pill, the colour holds through repeated washing, and the waistband has a hidden pocket large enough for a key or card. The lack of seams at the inner thigh prevents the irritation some practitioners experience during footwork and side-splits work.",
-    affiliateUrl: "https://www.amazon.com/s?k=halara+cloudful+leggings+pilates&tag=pilatescollective-20",
-    imageUrl: "/pictures/ahmet-kurt-a1IhqqW8JQE-unsplash.jpg",
+      "Colorfulkoala is one of Amazon's best-known legging brands, and the Dreamlux line is its buttery-soft fabric. Per the listing, the no-front-seam design gives a smooth, chafe-free fit, the high-rise waistband has no seam, and LYCRA BLACK technology stops dark colours turning see-through when you bend and stretch, which matters in footwork and side-lying work. The listing recommends them for yoga, Pilates and light-impact workouts. The 28\" standard inseam is sized for heights of about 5'4\" to 5'8\".",
+    affiliateUrl: "https://www.amazon.com/dp/B0DQDCKBJ3?tag=pilatescollective-20",
   },
   {
     category: "Top",
-    name: "Amazon Essentials Studio Terry Cropped Sweatshirt",
-    price: "From $22",
+    name: "Hanes Originals Comfywear French Terry Cropped Crewneck",
+    price: "$24.99",
     tag: "Best Warm-Up Layer",
     description:
-      "A studio-appropriate warm-up layer is essential for Pilates: you want to keep your core warm during setup and rest periods, and remove it for the active work. This cropped terry sweatshirt hits the right length (doesn't bunch when lying down), is lightweight enough to pack into a bag without adding bulk, and the relaxed fit accommodates full arm movement. One of the best-value warm-up pieces available, and the neutral colourway works over any legging.",
-    affiliateUrl: "https://www.amazon.com/s?k=amazon+essentials+studio+terry+cropped+sweatshirt&tag=pilatescollective-20",
-    imageUrl: "/pictures/dane-wetton-t1NEMSm1rgI-unsplash.jpg",
+      "A warm-up layer keeps your core warm during setup and rest periods, and comes off for the active work. This Hanes crewneck, sold by Amazon.com, is lightweight soft-stretch French terry with a boxy cropped fit, so it does not bunch when you lie down on the mat or carriage and packs into a bag without adding bulk. The listing describes it as year-round weight, and the neutral colours work over any legging.",
+    affiliateUrl: "https://www.amazon.com/dp/B0D3257211?tag=pilatescollective-20",
   },
   {
     category: "Sports Bra",
-    name: "ODODOS High Impact Cross-Back Sports Bra",
-    price: "From $24",
+    name: "ODODOS Crisscross Back Sports Bra (Square Neck)",
+    price: "$19.98",
     tag: "Best Sports Bra",
     description:
-      "Pilates demands a bra that stays put during rolling exercises, inversions, and all the transitions where a traditional sports bra can shift. The ODODOS cross-back design distributes the load evenly across the back, the racerback cut allows complete arm and shoulder mobility, and the medium-to-high support level is appropriate for the dynamic range of reformer and mat work without over-compressing. Available from XS to 3XL.",
-    affiliateUrl: "https://www.amazon.com/s?k=ododos+cross+back+sports+bra&tag=pilatescollective-20",
-    imageUrl: "/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg",
+      "Pilates needs a bra that stays put through rolling exercises and transitions without over-compressing. ODODOS lists this square-neck bra as low to medium support, which suits mat and reformer work. The crisscross open back leaves full shoulder mobility, a widened elastic underband keeps it in place, and the pads are removable. Made from a soft, breathable four-way-stretch fabric, per the listing.",
+    affiliateUrl: "https://www.amazon.com/dp/B0H4LVR81P?tag=pilatescollective-20",
   },
 ];
 
@@ -293,7 +288,6 @@ export default function WhatToWearToPilatesPage() {
                       description={p.description}
                       price={p.price}
                       affiliateUrl={p.affiliateUrl}
-                      imageUrl={p.imageUrl}
                     />
                   </div>
                 ))}
