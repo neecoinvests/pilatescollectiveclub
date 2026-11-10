@@ -197,7 +197,7 @@ export default function BestClipInPedalsForSpinBikePage() {
                   "Check the spindle is 9/16 inch. Nearly all indoor bikes use it; the narrower 1/2 inch size will not fit.",
                   "Cleats are often sold separately. Read the specification rather than trusting the product photo.",
                   "Set release tension to the loosest usable setting while you learn, then tighten it as confidence grows.",
-                  "Practise clipping out on both sides before your first class, holding onto something solid.",
+                  "Practice clipping out on both sides before your first class, holding onto something solid.",
                   "Cleats are a wear item: replace them when release starts feeling vague, typically once a year with regular riding.",
                 ].map((tip, i) => (
                   <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>

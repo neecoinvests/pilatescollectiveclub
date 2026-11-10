@@ -120,7 +120,7 @@ const jsonLd = {
           "name": "Is barre considered Pilates?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Barre and Pilates are distinct disciplines with different origins, principles, and equipment. Barre derives from ballet barre conditioning and was popularised as a studio fitness format by Lotte Berk in the 1950s. Pilates was developed by Joseph Pilates and is centred on controlled movement, deep core engagement, and spinal articulation. Some studios offer hybrid 'Pilates barre' classes that blend elements of both, but these are fusion formats, not the same as either method practised on its own terms.",
+            "text": "No. Barre and Pilates are distinct disciplines with different origins, principles, and equipment. Barre derives from ballet barre conditioning and was popularised as a studio fitness format by Lotte Berk in the 1950s. Pilates was developed by Joseph Pilates and is centred on controlled movement, deep core engagement, and spinal articulation. Some studios offer hybrid 'Pilates barre' classes that blend elements of both, but these are fusion formats, not the same as either method practiced on its own terms.",
           },
         },
         {
@@ -183,7 +183,7 @@ export default function PilatesVsBarrePage() {
             {/* Intro */}
             <div className="mb-14">
               <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-                At first glance, Pilates and barre occupy the same corner of the fitness landscape: low-impact, studio-based, broadly &ldquo;feminine&rdquo; in cultural perception, and associated with a lean, controlled physicality. But practised seriously, they are quite different disciplines: different in origin, in what they train, in the equipment they require, and in who they genuinely serve best. If you&rsquo;re deciding between them, this guide gives you an honest answer.
+                At first glance, Pilates and barre occupy the same corner of the fitness landscape: low-impact, studio-based, broadly &ldquo;feminine&rdquo; in cultural perception, and associated with a lean, controlled physicality. But practiced seriously, they are quite different disciplines: different in origin, in what they train, in the equipment they require, and in who they genuinely serve best. If you&rsquo;re deciding between them, this guide gives you an honest answer.
               </p>
             </div>
 
@@ -233,7 +233,7 @@ export default function PilatesVsBarrePage() {
                     Barre
                   </h3>
                   <p className="text-sm leading-relaxed mb-3" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                    Barre fitness derives from the ballet barre conditioning tradition, popularised as a studio workout by dancer Lotte Berk in London in the 1950s and subsequently developed into the contemporary barre formats practised in studios worldwide. Classes use the ballet barre for balance support while performing high-repetition, isometric holds and small-range movements designed to fatigue specific muscle groups, particularly the glutes, inner thighs, and hamstrings.
+                    Barre fitness derives from the ballet barre conditioning tradition, popularised as a studio workout by dancer Lotte Berk in London in the 1950s and subsequently developed into the contemporary barre formats practiced in studios worldwide. Classes use the ballet barre for balance support while performing high-repetition, isometric holds and small-range movements designed to fatigue specific muscle groups, particularly the glutes, inner thighs, and hamstrings.
                   </p>
                   <ul className="text-sm leading-relaxed space-y-1.5" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                     <li><strong style={{ color: "#1b1c1c" }}>Equipment:</strong> ballet barre (or chair back), light hand weights, resistance bands</li>
@@ -461,7 +461,7 @@ export default function PilatesVsBarrePage() {
                   },
                   {
                     q: "Is barre considered Pilates?",
-                    a: "No. Barre and Pilates are distinct disciplines with different origins, principles, and equipment. Barre derives from ballet barre conditioning and was popularised by Lotte Berk in the 1950s. Pilates was developed by Joseph Pilates and is centred on controlled movement, deep core engagement, and spinal articulation. Some studios offer hybrid 'Pilates barre' classes that blend elements of both, but these are fusion formats, not the same as either method practised on its own terms.",
+                    a: "No. Barre and Pilates are distinct disciplines with different origins, principles, and equipment. Barre derives from ballet barre conditioning and was popularised by Lotte Berk in the 1950s. Pilates was developed by Joseph Pilates and is centred on controlled movement, deep core engagement, and spinal articulation. Some studios offer hybrid 'Pilates barre' classes that blend elements of both, but these are fusion formats, not the same as either method practiced on its own terms.",
                   },
                   {
                     q: "Can I do both Pilates and barre in the same week?",

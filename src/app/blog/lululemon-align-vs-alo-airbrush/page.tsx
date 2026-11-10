@@ -843,7 +843,7 @@ export default function LululemonAlignVsAloAirbrushPage() {
                     className="text-sm leading-relaxed"
                     style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
                   >
-                    You practise primarily mat-based Pilates, barre, or yoga, or any format where freedom of movement and sensory minimalism are the priority. The Align is also the right choice if you are sensitive to compression or find firmer fabrics distracting during core-focused exercises. For practitioners who do not pile through inner-thigh fabric quickly (lighter body weight, lower activity frequency), the pilling concern is less pressing. If sizing inclusivity or a wide range of inseam options matters to you, Lululemon&apos;s range is also substantially more accommodating. Choose dark colourways for reformer classes specifically.
+                    You practice primarily mat-based Pilates, barre, or yoga, or any format where freedom of movement and sensory minimalism are the priority. The Align is also the right choice if you are sensitive to compression or find firmer fabrics distracting during core-focused exercises. For practitioners who do not pile through inner-thigh fabric quickly (lighter body weight, lower activity frequency), the pilling concern is less pressing. If sizing inclusivity or a wide range of inseam options matters to you, Lululemon&apos;s range is also substantially more accommodating. Choose dark colourways for reformer classes specifically.
                   </p>
                 </div>
 

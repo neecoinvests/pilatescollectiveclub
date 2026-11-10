@@ -206,7 +206,7 @@ export default function AeroPilatesReviewPage() {
                       "You want a cardio component: the rebounder is a genuine differentiator",
                       "Space is limited and fold-flat storage is a requirement",
                       "You're returning from injury and need low-impact, accessible resistance",
-                      "You want to practise at home between studio visits without the full investment",
+                      "You want to practice at home between studio visits without the full investment",
                     ].map((point, i) => (
                       <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                         <span className="font-semibold shrink-0" style={{ color: "#8b4a31" }}>✓</span>

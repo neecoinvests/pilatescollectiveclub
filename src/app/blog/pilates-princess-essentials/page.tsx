@@ -383,7 +383,7 @@ const DREAM: Item[] = [
     name: "Merrithew At Home SPX Reformer Package",
     price: "$3,349.00",
     description:
-      "The real studio-brand reformer for home. Merrithew is the company behind STOTT PILATES, and the At Home SPX package brings its studio lineage into a home-sized machine. It is a serious investment at $3,349.00, sold by Amazon.com. At a common $30–$40 per studio class, that is roughly the cost of 85 to 110 classes, so it makes sense for someone who already practises several times a week and plans to keep going for years.",
+      "The real studio-brand reformer for home. Merrithew is the company behind STOTT PILATES, and the At Home SPX package brings its studio lineage into a home-sized machine. It is a serious investment at $3,349.00, sold by Amazon.com. At a common $30–$40 per studio class, that is roughly the cost of 85 to 110 classes, so it makes sense for someone who already practices several times a week and plans to keep going for years.",
     url: amazon("B004FGT0TM"),
     glance: "Home reformer",
   },
@@ -482,7 +482,7 @@ const FAQS = [
   },
   {
     q: "Is a home reformer worth it for the pilates princess lifestyle?",
-    a: "Only if you already practise regularly. Studio reformer classes in major US cities commonly cost $30–$40 or more each. The WINDFOOT Foldable Reformer ($295.99) costs roughly 7 to 10 classes; the Merrithew At Home SPX Reformer Package ($3,349.00) is a long-term investment for someone practising several times a week.",
+    a: "Only if you already practice regularly. Studio reformer classes in major US cities commonly cost $30–$40 or more each. The WINDFOOT Foldable Reformer ($295.99) costs roughly 7 to 10 classes; the Merrithew At Home SPX Reformer Package ($3,349.00) is a long-term investment for someone practicing several times a week.",
   },
 ];
 

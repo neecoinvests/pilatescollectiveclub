@@ -81,7 +81,7 @@ const PRODUCTS = [
     name: "Eurzom 2-Pairs Yoga Pilates Gloves with Grips",
     price: "$9.99",
     verdict: "Best value 2-pack: two pairs for under $10",
-    description: "Two pairs of yoga/Pilates grip gloves for $9.99, sold by Yaoshinegoup. Having a second pair means one can dry while you wear the other: useful if you practise several times a week.",
+    description: "Two pairs of yoga/Pilates grip gloves for $9.99, sold by Yaoshinegoup. Having a second pair means one can dry while you wear the other: useful if you practice several times a week.",
     affiliateUrl: "https://www.amazon.com/dp/B0DZ2CZS1J?tag=pilatescollective-20",
     imageUrl: "https://m.media-amazon.com/images/I/41pEvShBfML._SL500_.jpg",
     tag: "Best Value 2-Pack",
@@ -239,7 +239,7 @@ export default function BestPilatesGlovesPage() {
             <UpsellCTA
               eyebrow="Complete Your Studio Kit"
               title="Grip handled. The upgrade that matters more"
-              body="Gloves protect your hands; the surface under you and the machine you train on shape everything else. If you practise at home, a dense studio-grade mat and a budget home reformer are the two upgrades regulars say they wish they had bought sooner."
+              body="Gloves protect your hands; the surface under you and the machine you train on shape everything else. If you practice at home, a dense studio-grade mat and a budget home reformer are the two upgrades regulars say they wish they had bought sooner."
               picks={[
                 { name: "Manduka PRO Yoga Mat (6mm)", price: "$144", url: "https://www.amazon.com/dp/B0000DZFXZ?tag=pilatescollective-20", note: "Sold by Amazon.com. The dense mat studios use: firm enough for Pilates wrist and knee work." },
                 { name: "WINDFOOT Foldable Pilates Reformer", price: "$295.99", url: "https://www.amazon.com/dp/B0D31767J1?tag=pilatescollective-20", note: "A budget spring reformer from a newer brand: folds away after use." },

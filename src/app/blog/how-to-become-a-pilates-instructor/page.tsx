@@ -211,7 +211,7 @@ export default function HowToBecomeAPilatesInstructorPage() {
               <ul className="space-y-3">
                 {[
                   "Is studio access for self-practice and practice-teaching hours included, or charged separately? This is the most common hidden cost and can add substantially to the total.",
-                  "What is the total hour requirement, and how is it split between taught, observed, and practised hours?",
+                  "What is the total hour requirement, and how is it split between taught, observed, and practiced hours?",
                   "Who actually teaches the modules, and how long have they been teaching teachers rather than clients?",
                   "What is the pass rate, and what does a retake cost?",
                   "Does the programme prepare you for the NPCP exam if you want that independent credential?",

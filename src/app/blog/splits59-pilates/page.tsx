@@ -40,7 +40,7 @@ const PRODUCTS = [
     price: "$118.00",
     verdict: "Best Pilates Legging Available",
     description:
-      "The Raquel is the legging most serious Pilates practitioners reference when asked what they actually wear, and the reason is specific. The wide, flat waistband was engineered for the repeated hip flexion of reformer footwork: it does not fold, roll, or create pressure points through hundreds of repetitions in a bent-knee position. The fabric has a precise compression level, held but not restricted, that provides proprioceptive feedback on leg alignment without limiting spinal articulation or rotation. Full opacity in every position, including the deep hip flexion of standing split-squat balance work. The price is significant but the Raquel outlasts almost everything else in terms of wash cycles and maintained compression quality. If you practise four or more times per week, this is the economically rational choice.",
+      "The Raquel is the legging most serious Pilates practitioners reference when asked what they actually wear, and the reason is specific. The wide, flat waistband was engineered for the repeated hip flexion of reformer footwork: it does not fold, roll, or create pressure points through hundreds of repetitions in a bent-knee position. The fabric has a precise compression level, held but not restricted, that provides proprioceptive feedback on leg alignment without limiting spinal articulation or rotation. Full opacity in every position, including the deep hip flexion of standing split-squat balance work. The price is significant but the Raquel outlasts almost everything else in terms of wash cycles and maintained compression quality. If you practice four or more times per week, this is the economically rational choice.",
     affiliateUrl: "https://www.amazon.com/dp/B08THBM215?tag=pilatescollective-20",
     tag: "Top Pick",
   },
@@ -219,7 +219,7 @@ export default function Splits59PilatesPage() {
                 {[
                   "The wide, flat waistband was designed specifically for the hip flexion demands of reformer footwork: a technical requirement no other brand has addressed as directly. It does not fold or roll under repeated bent-knee work.",
                   "The compression level is calibrated for the full range of spinal articulation the Pilates repertoire demands. It provides proprioceptive feedback without restricting movement: a difficult balance that the Raquel achieves and most leggings do not.",
-                  "The fabric maintains compression quality over significantly more wash cycles than comparable premium leggings. Practitioners who practise four or more times per week consistently report two-year-plus lifespan without degradation.",
+                  "The fabric maintains compression quality over significantly more wash cycles than comparable premium leggings. Practitioners who practice four or more times per week consistently report two-year-plus lifespan without degradation.",
                   "The opacity is absolute in every position including the deep external rotation and hip flexion positions that expose opacity failures in other leggings.",
                 ].map((point, i) => (
                   <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>

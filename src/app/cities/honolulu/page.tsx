@@ -100,7 +100,7 @@ const STUDIOS = [
     neighborhood: "North Shore",
     priceLevel: "$$$",
     websiteUrl: "https://sunsetbeachpilates.com",
-    review: "Sunset Beach Pilates has taught on the North Shore since 2014, offering mat and reformer Pilates with a focus on core strength and posture. It also streams its classes on demand, so you can keep practising once you leave the island.",
+    review: "Sunset Beach Pilates has taught on the North Shore since 2014, offering mat and reformer Pilates with a focus on core strength and posture. It also streams its classes on demand, so you can keep practicing once you leave the island.",
     caveat: "it is on the North Shore, about an hour's drive from Honolulu.",
     address: "Sunset Beach, Haleiwa, HI 96712",
     bestFor: "Reformer and mat Pilates on the North Shore",

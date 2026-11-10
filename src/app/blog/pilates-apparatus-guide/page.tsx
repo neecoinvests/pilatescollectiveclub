@@ -401,7 +401,7 @@ export default function PilatesApparatusGuidePage() {
                   {
                     stage: "6–12 months of experience",
                     rec: "Consider a home reformer if you are training regularly.",
-                    detail: "If you are practising three or more times per week and your studio practice is well established, a home reformer becomes a worthwhile consideration. The quality of home reformers has improved significantly: entry-level and mid-range options now offer a genuine training experience. Read our guide to the best home reformers before purchasing.",
+                    detail: "If you are practicing three or more times per week and your studio practice is well established, a home reformer becomes a worthwhile consideration. The quality of home reformers has improved significantly: entry-level and mid-range options now offer a genuine training experience. Read our guide to the best home reformers before purchasing.",
                   },
                   {
                     stage: "2+ years with a strong reformer foundation",

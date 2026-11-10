@@ -172,7 +172,7 @@ export default function BestStarterKitPage() {
                 {[
                   { heading: "For studio reformer classes", body: "Grip socks are the only equipment requirement. Everything else is provided by the studio. Buy two pairs before your first class." },
                   { heading: "For studio mat classes", body: "Studios provide mats, but most regular practitioners prefer their own. Grip socks are also useful. No other equipment is needed initially." },
-                  { heading: "For home mat practice", body: "A firm mat, a resistance band, and a Pilates ring covers the full classical mat repertoire with variations. Add a foam roller once you're practising regularly." },
+                  { heading: "For home mat practice", body: "A firm mat, a resistance band, and a Pilates ring covers the full classical mat repertoire with variations. Add a foam roller once you're practicing regularly." },
                   { heading: "What to skip as a beginner", body: "Foam rollers, stability balls, balance boards, and large apparatus. Learn the core movements first. Equipment purchased before building a practice habit typically gathers dust." },
                 ].map((item) => (
                   <div key={item.heading} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
@@ -211,10 +211,10 @@ export default function BestStarterKitPage() {
                 {[
                   "Start with grip socks before your first studio class, every reformer studio requires them.",
                   "Add a quality mat once you're attending class regularly or starting home practice.",
-                  "Get a resistance band set (3 levels) once you're practising at home: it extends your exercise range significantly for minimal cost.",
+                  "Get a resistance band set (3 levels) once you're practicing at home: it extends your exercise range significantly for minimal cost.",
                   "Add a Pilates ring once you know the basic mat sequence and want to add variety.",
                   "Consider a foam roller after 3 months of regular practice: it's useful for recovery and spinal mobility but not essential at the start.",
-                  "Defer any decision about a home reformer until you've practised for at least 6 months and know the method well enough to train effectively without an instructor.",
+                  "Defer any decision about a home reformer until you've practiced for at least 6 months and know the method well enough to train effectively without an instructor.",
                 ].map((tip, i) => (
                   <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                     <span className="font-semibold" style={{ color: "#8b4a31" }}>{i + 1}.</span>

@@ -81,7 +81,7 @@ const GUIDE: EquipmentGuideProps = {
         { h: "Order by late November", b: "Advent starts on December 1. Order by around November 25 so it arrives in time, and check the delivery estimate on each listing." },
         { h: "Props or gym gear?", b: "Look for a ring, small ball, grip socks and sliders. Calendars that list gloves, jump ropes and lifting straps are general fitness kits." },
         { h: "Who it is for", b: "Prop kits suit beginners building a home kit. Someone with a full studio setup will enjoy a practice book or mindfulness cards more." },
-        { h: "Sizes", b: "Grip socks in these kits are usually one size. If they practise on the reformer, a dedicated pair of grip socks is still worth buying." },
+        { h: "Sizes", b: "Grip socks in these kits are usually one size. If they practice on the reformer, a dedicated pair of grip socks is still worth buying." },
       ],
     },
   ],

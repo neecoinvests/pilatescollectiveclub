@@ -70,7 +70,7 @@ const PRODUCTS = [
     price: "$54.00",
     verdict: "Best Travel Mat",
     description:
-      "The Superlite is not a standalone practice mat: it is a travel overlay designed to be placed over studio equipment or hotel gym mats. At 1.5mm and under 2 lbs, it folds to the size of a small towel. The natural rubber surface provides excellent hygiene separation from shared studio mats and reformer pads, and the grip layer performs well enough for mat work and stretching. For practitioners who travel frequently and refuse to practise on unfamiliar shared surfaces, the Superlite is the one accessory that solves the problem completely.",
+      "The Superlite is not a standalone practice mat: it is a travel overlay designed to be placed over studio equipment or hotel gym mats. At 1.5mm and under 2 lbs, it folds to the size of a small towel. The natural rubber surface provides excellent hygiene separation from shared studio mats and reformer pads, and the grip layer performs well enough for mat work and stretching. For practitioners who travel frequently and refuse to practice on unfamiliar shared surfaces, the Superlite is the one accessory that solves the problem completely.",
     affiliateUrl: "https://www.amazon.com/dp/B07T1F2VNW?tag=pilatescollective-20",
     tag: "Best Travel",
   },

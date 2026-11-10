@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   description: "Pilates and pregnancy: safe exercises by trimester, modifications to avoid, and prenatal reformer guidelines from certified instructors. Full guide.",
   openGraph: {
     title: "Pilates and Pregnancy: A Complete Guide",
-    description: "How to safely practise Pilates during pregnancy and postpartum: what to do, what to avoid, and how to find a specialist instructor.",
+    description: "How to safely practice Pilates during pregnancy and postpartum: what to do, what to avoid, and how to find a specialist instructor.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/pilates-and-pregnancy",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/juls-p-lB6lbkbe1XA-unsplash.jpg", width: 1200, height: 630, alt: "Pilates and pregnancy guide: Pilates Collective Club" }],
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Pilates and Pregnancy: A Complete Guide",
-    description: "How to safely practise Pilates during pregnancy and postpartum: what to do, what to avoid.",
+    description: "How to safely practice Pilates during pregnancy and postpartum: what to do, what to avoid.",
     images: ["https://pilatescollectiveclub.com/pictures/juls-p-lB6lbkbe1XA-unsplash.jpg"],
   },
   keywords: ["pilates during pregnancy", "prenatal pilates", "pregnancy pilates guide", "pilates when pregnant", "safe pilates exercises pregnancy", "pilates second trimester", "pilates third trimester", "pelvic floor pilates pregnancy", "antenatal pilates", "prenatal pilates 2026"],
@@ -167,7 +167,7 @@ export default function PilatesAndPregnancyPage() {
                   <TrimesterCard
                     trimester="Second Trimester (weeks 14–27)"
                     heading="Modify supine exercises; focus on stability"
-                    content="From approximately 20 weeks, lying flat on the back (supine) should be avoided or minimised: the weight of the uterus can compress the vena cava, reducing blood flow. Many classical Pilates exercises that use the supine position need modification: either elevating the upper body on the reformer box or carriage, or transitioning to side-lying and seated alternatives. The focus shifts to pelvic stability, lateral hip strength, and functional movement. The second trimester is often when women feel best and can practise most consistently."
+                    content="From approximately 20 weeks, lying flat on the back (supine) should be avoided or minimised: the weight of the uterus can compress the vena cava, reducing blood flow. Many classical Pilates exercises that use the supine position need modification: either elevating the upper body on the reformer box or carriage, or transitioning to side-lying and seated alternatives. The focus shifts to pelvic stability, lateral hip strength, and functional movement. The second trimester is often when women feel best and can practice most consistently."
                   />
                   <TrimesterCard
                     trimester="Third Trimester (weeks 28–40)"

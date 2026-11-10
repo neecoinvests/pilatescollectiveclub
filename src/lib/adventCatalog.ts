@@ -23,7 +23,7 @@ export const ADVENT = {
     id: "jazozt-yoga-pilates-advent-calendar", name: "JAZOZT 24-Day Yoga & Pilates Advent Calendar 2026", brand: "JAZOZT", price: "$34.99", url: amz("B0H6BZYZ1W"),
     availability: "in-stock", soldBy: "MaySin Direct",
     specs: ["8\" and 6\" Pilates balls", "Resistance band, fabric exercise band and stretching yoga strap", "Core sliders", "Instruction guide with routines for beginners"],
-    body: "Two Pilates balls, a fabric booty band and a stretching strap make this one of the better-equipped mat Pilates calendars, and the instruction guide helps a beginner put each piece to use. A good pick for someone who practises at home between classes.",
+    body: "Two Pilates balls, a fabric booty band and a stretching strap make this one of the better-equipped mat Pilates calendars, and the instruction guide helps a beginner put each piece to use. A good pick for someone who practices at home between classes.",
   },
   pidouzimFitness: {
     id: "pidouzim-fitness-advent-calendar-women", name: "pidouzim Fitness Advent Calendar 2026 for Women", brand: "pidouzim", price: "$33.99", url: amz("B0H74XDNYC"),

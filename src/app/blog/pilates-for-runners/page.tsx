@@ -151,7 +151,7 @@ export default function PilatesForRunnersPage() {
                   },
                   {
                     title: "Respiratory efficiency and diaphragm function",
-                    body: "Breathing in Pilates is not optional or incidental: the breath is integrated into every exercise as a biomechanical tool. The emphasis on full exhalation (facilitating deep transversus abdominis engagement) and three-dimensional ribcage breathing develops diaphragm function that directly improves oxygen efficiency during running. Runners who practise Pilates regularly consistently report improved breathing economy at threshold efforts."
+                    body: "Breathing in Pilates is not optional or incidental: the breath is integrated into every exercise as a biomechanical tool. The emphasis on full exhalation (facilitating deep transversus abdominis engagement) and three-dimensional ribcage breathing develops diaphragm function that directly improves oxygen efficiency during running. Runners who practice Pilates regularly consistently report improved breathing economy at threshold efforts."
                   },
                 ].map((item) => (
                   <div key={item.title} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>

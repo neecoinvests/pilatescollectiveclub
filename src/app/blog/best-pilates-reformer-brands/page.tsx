@@ -90,7 +90,7 @@ const jsonLd = {
         {
           "@type": "Question",
           "name": "What are the best Pilates machine brands?",
-          "acceptedAnswer": { "@type": "Answer", "text": "The best Pilates machine brands for studio and professional use are Balanced Body, Gratz, Merrithew, Peak Pilates, and BASI Systems. For home use, the best brands are Align-Pilates, Your Reformer, Elina Pilates, AeroPilates, and PersonalHour. Each brand has a different spring feel, carriage weight, and accessory ecosystem: the right choice depends on which version of the Pilates method you practise." },
+          "acceptedAnswer": { "@type": "Answer", "text": "The best Pilates machine brands for studio and professional use are Balanced Body, Gratz, Merrithew, Peak Pilates, and BASI Systems. For home use, the best brands are Align-Pilates, Your Reformer, Elina Pilates, AeroPilates, and PersonalHour. Each brand has a different spring feel, carriage weight, and accessory ecosystem: the right choice depends on which version of the Pilates method you practice." },
         },
         {
           "@type": "Question",
@@ -130,7 +130,7 @@ const BRANDS = [
     price: "From about $4,600",
     bestFor: "Classical practitioners, method purists, serious collectors",
     flagship: "Universal Reformer",
-    summary: "Gratz is the original. The company built apparatus for Joseph Pilates himself in New York and still hand-builds its machines there to his designs. A Gratz reformer uses four equal-tension springs and a gear bar, with the firm, direct spring response and dimensions the classical repertoire was built around. The 86-inch aluminium Classic Reformer is $4,645 and the maple Designer Reformer starts at $4,590. If you practise classical Pilates (Romana's Pilates, New York Pilates, or the Contrology lineage), there is no substitute. The investment is significant, but Gratz reformers from the 1960s are still in active studio use.",
+    summary: "Gratz is the original. The company built apparatus for Joseph Pilates himself in New York and still hand-builds its machines there to his designs. A Gratz reformer uses four equal-tension springs and a gear bar, with the firm, direct spring response and dimensions the classical repertoire was built around. The 86-inch aluminium Classic Reformer is $4,645 and the maple Designer Reformer starts at $4,590. If you practice classical Pilates (Romana's Pilates, New York Pilates, or the Contrology lineage), there is no substitute. The investment is significant, but Gratz reformers from the 1960s are still in active studio use.",
     pros: ["Historically accurate spring tensions the entire classical repertoire is built on", "Lifetime durability: original 1960s machines still performing", "Every classical apparatus available from a single source", "The tactile feedback the method was designed around"],
     cons: ["Little adjustability compared with contemporary machines", "Not designed for contemporary method modifications", "Limited dealer network outside the US", "Made to order: lead times can run to several months"],
     affiliateUrl: null,
@@ -295,7 +295,7 @@ const AMAZON_PICKS = [
 
 const QUICK_MATCH = [
   { scenario: "You want the best reformer Pilates machine overall", brand: "Balanced Body Studio Reformer", href: "/blog/balanced-body-pilates" },
-  { scenario: "You practise classical Pilates and want historical accuracy", brand: "Gratz Classic Reformer", href: "/blog/gratz-pilates" },
+  { scenario: "You practice classical Pilates and want historical accuracy", brand: "Gratz Classic Reformer", href: "/blog/gratz-pilates" },
   { scenario: "You trained with a STOTT-certified instructor", brand: "Merrithew SPX Max", href: "/blog/merrithew-pilates" },
   { scenario: "You want professional springs at a home-reformer price", brand: "Align-Pilates C8-Pro", href: "/blog/align-pilates-reformer-review" },
   { scenario: "You want the best Pilates at home brand with programming", brand: "Your Reformer Original", href: "/blog/your-reformer-pilates" },
@@ -555,7 +555,7 @@ export default function BestReformerBrandsPage() {
                   },
                   {
                     q: "What are the best Pilates machine brands?",
-                    a: "The best Pilates machine brands for studio and professional use are Balanced Body, Gratz, Merrithew, Peak Pilates, and BASI Systems. For home use, the best brands are Align-Pilates, Your Reformer, Elina Pilates, AeroPilates, and PersonalHour. The right choice depends on which version of the Pilates method you practise and how intensively the machine will be used."
+                    a: "The best Pilates machine brands for studio and professional use are Balanced Body, Gratz, Merrithew, Peak Pilates, and BASI Systems. For home use, the best brands are Align-Pilates, Your Reformer, Elina Pilates, AeroPilates, and PersonalHour. The right choice depends on which version of the Pilates method you practice and how intensively the machine will be used."
                   },
                   {
                     q: "Is a more expensive reformer brand always better?",

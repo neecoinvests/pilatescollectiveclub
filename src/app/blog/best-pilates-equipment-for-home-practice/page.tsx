@@ -88,7 +88,7 @@ const jsonLd = {
     {
       "@type": "Question",
       "name": "Is a Pilates reformer worth buying for home use?",
-      "acceptedAnswer": { "@type": "Answer", "text": "A home reformer is worthwhile if you practise three or more times per week, have space, and budget $400\u2013$3,000. Entry-level machines like the AeroPilates 435 cover around 75% of a studio reformer's repertoire. For occasional practice, mat work with props is the better investment." }
+      "acceptedAnswer": { "@type": "Answer", "text": "A home reformer is worthwhile if you practice three or more times per week, have space, and budget $400\u2013$3,000. Entry-level machines like the AeroPilates 435 cover around 75% of a studio reformer's repertoire. For occasional practice, mat work with props is the better investment." }
     },
     {
       "@type": "Question",

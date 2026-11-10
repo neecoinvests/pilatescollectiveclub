@@ -775,7 +775,7 @@ export default function PilatesEssentialsPage() {
             <div className="mb-16">
               <h2 className="text-3xl font-semibold mb-6" style={h2Style}>What you actually need, and in what order</h2>
               <p className="text-sm leading-relaxed mb-6" style={bodyStyle}>
-                You do not need everything on this list, and you definitely do not need it all at once. Here is how to prioritise, depending on how you practise.
+                You do not need everything on this list, and you definitely do not need it all at once. Here is how to prioritise, depending on how you practice.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[

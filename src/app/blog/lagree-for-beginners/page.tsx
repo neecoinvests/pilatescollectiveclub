@@ -707,7 +707,7 @@ export default function LagreeForBeginnersPage() {
               </div>
               <h2 className="text-3xl font-semibold mb-4" style={h2Style}>Lagree-inspired floor work at home</h2>
               <p className="text-sm leading-relaxed mb-4" style={bodyStyle}>
-                Let&apos;s be clear first: floor work is not Lagree. There is no Megaformer, no springs and no carriage, and nothing on the floor recreates the way the machine loads your muscles. What you can practise at home is the principle (slow, controlled movement with the muscle under tension for a timed set) which makes your studio classes feel more familiar.
+                Let&apos;s be clear first: floor work is not Lagree. There is no Megaformer, no springs and no carriage, and nothing on the floor recreates the way the machine loads your muscles. What you can practice at home is the principle (slow, controlled movement with the muscle under tension for a timed set) which makes your studio classes feel more familiar.
               </p>
               <p className="text-sm leading-relaxed mb-10" style={bodyStyle}>
                 Three inexpensive tools get you most of the way: sliders for lunges and planks, an interval timer for timed sets, and light ankle weights. Together, the picks below come to {fmt(HOME_TOTAL)}. For more ideas, read our{" "}

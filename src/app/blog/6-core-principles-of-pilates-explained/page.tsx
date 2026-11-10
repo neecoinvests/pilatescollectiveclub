@@ -166,7 +166,7 @@ const PRODUCTS = [
   { name: "Return to Life Through Contrology", description: "The original text by Joseph Pilates: the primary source for understanding what the principles meant in their original context. Essential reading for any serious practitioner.", price: "$17.90", affiliateUrl: "https://www.amazon.com/dp/1928564909?tag=pilatescollective-20" },
 ];
 
-const QP_NOTES = ["A stable, consistent surface for mat practice", "Teaches centring, control and integration", "Spinal articulation and thoracic mobility work", "Resistance work to practise the principles at home", "Joseph Pilates' original text"];
+const QP_NOTES = ["A stable, consistent surface for mat practice", "Teaches centring, control and integration", "Spinal articulation and thoracic mobility work", "Resistance work to practice the principles at home", "Joseph Pilates' original text"];
 
 const ITEM_LIST = productItemList("The 6 Core Principles of Pilates Explained", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 

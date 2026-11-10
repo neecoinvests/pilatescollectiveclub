@@ -106,7 +106,7 @@ const GUIDE: DealsGuideProps = {
     },
     {
       "id": "at-home",
-      "title": "To practise at home",
+      "title": "To practice at home",
       "intro": "Props that recreate reformer-style work on the mat.",
       "items": [
         {

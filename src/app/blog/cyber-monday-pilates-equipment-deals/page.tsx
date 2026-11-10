@@ -58,7 +58,7 @@ const GUIDE: DealsGuideProps = {
   "readTime": "8 min read",
   "heroImage": "/pictures/stitch-studio-shelf-props.png",
   "heroAlt": "Pilates props on a studio shelf",
-  "intro": "You do not need a reformer to practise Pilates well at home. A good mat, a ring, a ball, bands and a roller cover most of the repertoire, and these are exactly the products that go on sale on Cyber Monday. Here is what to watch, with today's Amazon price.",
+  "intro": "You do not need a reformer to practice Pilates well at home. A good mat, a ring, a ball, bands and a roller cover most of the repertoire, and these are exactly the products that go on sale on Cyber Monday. Here is what to watch, with today's Amazon price.",
   "sections": [
     {
       "id": "mats",

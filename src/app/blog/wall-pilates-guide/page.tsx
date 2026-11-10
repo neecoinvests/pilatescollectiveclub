@@ -208,7 +208,7 @@ export default function WallPilatesGuidePage() {
                 What wall Pilates does not match is the progressive loading, variety, and full-body integration that reformer Pilates provides. The spring system of a reformer creates variable resistance through movement arcs in a way that wall surfaces cannot replicate. For advanced practitioners or those seeking significant strength development, wall Pilates is a useful supplement rather than a complete programme.
               </p>
               <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                A 2023 review published in the Journal of Bodywork and Movement Therapies confirmed that mat-based Pilates (which wall Pilates falls within) significantly improves core muscle endurance, balance, and flexibility over 8–12 weeks when practised consistently 3 times per week. The wall-based variant adds proprioceptive precision to these established outcomes.
+                A 2023 review published in the Journal of Bodywork and Movement Therapies confirmed that mat-based Pilates (which wall Pilates falls within) significantly improves core muscle endurance, balance, and flexibility over 8–12 weeks when practiced consistently 3 times per week. The wall-based variant adds proprioceptive precision to these established outcomes.
               </p>
             </div>
 

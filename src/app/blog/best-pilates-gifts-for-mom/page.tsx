@@ -193,7 +193,7 @@ export default function Page() {
           <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
           <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
           <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-            If your mom does pilates, she has a routine she's built around it, and the right gift fits right into that routine. Not a gesture, not a spa voucher: the mat she's been meaning to upgrade, the leggings she wears until they pill, the foam roller she's borrowed from the studio. This guide covers the six gifts that land every time for a pilates-practising mom, chosen for quality she'll notice and practicality she'll appreciate every single class.
+            If your mom does pilates, she has a routine she's built around it, and the right gift fits right into that routine. Not a gesture, not a spa voucher: the mat she's been meaning to upgrade, the leggings she wears until they pill, the foam roller she's borrowed from the studio. This guide covers the six gifts that land every time for a pilates-practicing mom, chosen for quality she'll notice and practicality she'll appreciate every single class.
           </p>
         </div>
       </section>

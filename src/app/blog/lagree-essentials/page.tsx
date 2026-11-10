@@ -309,7 +309,7 @@ const CATEGORIES: Category[] = [
     title: "Interval timer",
     shortName: "Interval timer",
     intro:
-      "Lagree is built on timed, continuous sets rather than rep counts. If you practise Lagree-inspired floor work at home, a dedicated interval timer keeps you honest about time under tension without reaching for your phone.",
+      "Lagree is built on timed, continuous sets rather than rep counts. If you practice Lagree-inspired floor work at home, a dedicated interval timer keeps you honest about time under tension without reaching for your phone.",
     guideHref: "/blog/best-interval-timer-for-lagree",
     guideLabel: "Full interval timer guide",
     picks: [
@@ -715,7 +715,7 @@ export default function LagreeEssentialsPage() {
                 ))}
               </div>
               <p className="text-sm leading-relaxed mt-6" style={bodyStyle}>
-                <span className="font-semibold" style={{ color: "#1b1c1c" }}>What to buy first:</span> for your first few classes, grip socks, fitted shorts or leggings, a sports bra, a towel and a water bottle cover everything. Add gloves and a knee pad once you know you are coming back. Everything under &ldquo;Train between classes&rdquo; is for people practising at home, and The Micro is for people who are properly hooked. Our Best pick is the one we would choose for most people, Budget is the cheapest option we would still recommend, and Splurge is worth it only if the upgrade matters to you.
+                <span className="font-semibold" style={{ color: "#1b1c1c" }}>What to buy first:</span> for your first few classes, grip socks, fitted shorts or leggings, a sports bra, a towel and a water bottle cover everything. Add gloves and a knee pad once you know you are coming back. Everything under &ldquo;Train between classes&rdquo; is for people practicing at home, and The Micro is for people who are properly hooked. Our Best pick is the one we would choose for most people, Budget is the cheapest option we would still recommend, and Splurge is worth it only if the upgrade matters to you.
               </p>
             </div>
 

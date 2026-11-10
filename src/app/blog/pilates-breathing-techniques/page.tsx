@@ -107,7 +107,7 @@ export default function PilatesBreathingTechniquesPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/roxana-popovici-Zp4APUiwEsM-unsplash.jpg" alt="Pilates breathing technique: lateral ribcage expansion practised in a supine position" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/roxana-popovici-Zp4APUiwEsM-unsplash.jpg" alt="Pilates breathing technique: lateral ribcage expansion practiced in a supine position" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
             </div>
           </div>
         </section>

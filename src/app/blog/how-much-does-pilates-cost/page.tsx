@@ -99,7 +99,7 @@ export default function HowMuchDoesPilatesCostPage() {
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Pilates has a reputation as an expensive way to exercise, and at drop-in rates that reputation is earned. But the headline price is the worst price: almost nobody who practises regularly pays it. What follows is what each format actually costs in 2026, how much of that varies by city, the fees studios do not advertise, and the point at which buying equipment becomes cheaper than continuing to pay for classes.
+              Pilates has a reputation as an expensive way to exercise, and at drop-in rates that reputation is earned. But the headline price is the worst price: almost nobody who practices regularly pays it. What follows is what each format actually costs in 2026, how much of that varies by city, the fees studios do not advertise, and the point at which buying equipment becomes cheaper than continuing to pay for classes.
             </p>
           </div>
         </section>

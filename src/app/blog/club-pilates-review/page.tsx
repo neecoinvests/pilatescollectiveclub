@@ -192,7 +192,7 @@ export default function ClubPilatesReviewPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[
                   { heading: "Beginners building a habit", body: "The standardised beginner programme, accessible pricing, and high location density make Club Pilates the most practical entry point for someone who has never tried reformer Pilates. The structured foundations classes are generally well-designed." },
-                  { heading: "High-frequency practitioners on a budget", body: "If you want to practise 4–5 times per week, Club Pilates membership economics are compelling. The per-class cost at membership rates is a fraction of boutique drop-in pricing." },
+                  { heading: "High-frequency practitioners on a budget", body: "If you want to practice 4–5 times per week, Club Pilates membership economics are compelling. The per-class cost at membership rates is a fraction of boutique drop-in pricing." },
                   { heading: "Practitioners between cities", body: "The franchise network's geographic spread means Club Pilates is an option when travelling in ways that independent boutiques are not. Useful for maintaining practice continuity during travel." },
                   { heading: "Cardio-focused reformer practitioners", body: "The jump board programme at Club Pilates is well-developed and consistently offered. For practitioners whose primary goal is cardiovascular Pilates with jump board work, Club Pilates delivers this reliably." },
                 ].map((item) => (

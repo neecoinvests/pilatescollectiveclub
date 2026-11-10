@@ -128,12 +128,12 @@ const jsonLd = {
 const PRODUCTS = [
   { name: "Manduka PRO Pilates Mat", description: "Your mat practice between reformer sessions is as important as the sessions themselves. A high-quality mat makes home practice sustainable: the regularity that actually builds the strength reformer classes demand.", price: "$144.00", affiliateUrl: "https://www.amazon.com/dp/B0066T7I54?tag=pilatescollective-20" },
   { name: "ToeSox Grip Socks", description: "Non-negotiable for reformer class: grip socks prevent sliding on the footbar and carriage. Individual toe pockets improve proprioception and are required by most studios for hygiene.", price: "$16.00", affiliateUrl: "https://www.amazon.com/dp/B00A6YUEEW?tag=pilatescollective-20" },
-  { name: "TheraBand Resistance Bands Set", description: "Resistance bands allow beginners to practise reformer-style movements at home between classes. Many foundational reformer exercises can be replicated with bands during the early weeks of practice.", price: "$11.99", affiliateUrl: "https://www.amazon.com/dp/B01A58FHQ8?tag=pilatescollective-20" },
+  { name: "TheraBand Resistance Bands Set", description: "Resistance bands allow beginners to practice reformer-style movements at home between classes. Many foundational reformer exercises can be replicated with bands during the early weeks of practice.", price: "$11.99", affiliateUrl: "https://www.amazon.com/dp/B01A58FHQ8?tag=pilatescollective-20" },
   { name: "Balanced Body Magic Circle", description: "Introduced in most beginner reformer progressions by the third or fourth session. Having your own allows home reinforcement of the inner thigh and arm activation patterns learned in class.", price: "$35.00", affiliateUrl: "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20" },
   { name: "Under Armour Studio Lite Tote", description: "A dedicated bag for grip socks, mat, water, and a change of clothes keeps studio logistics simple: removing friction from the habit of getting to class consistently.", price: "$40.64", affiliateUrl: "https://www.amazon.com/dp/B0D1W4RK7S?tag=pilatescollective-20" },
 ];
 
-const QP_NOTES = ["A quality mat for home practice between classes", "Required at reformer class to stop sliding", "Practise reformer-style moves at home", "Usually introduced by your third or fourth class", "Keeps socks, water and a change of clothes together"];
+const QP_NOTES = ["A quality mat for home practice between classes", "Required at reformer class to stop sliding", "Practice reformer-style moves at home", "Usually introduced by your third or fourth class", "Keeps socks, water and a change of clothes together"];
 
 const ITEM_LIST = productItemList("Beginner's Guide to Reformer Pilates (2026): What to Expect", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 
@@ -199,7 +199,7 @@ export default function BeginnerGuideReformerPage() {
                 <p>You don&apos;t need to bring a mat or any equipment. Studios provide everything. Bring water and arrive 10 minutes early to complete any intake paperwork and receive orientation before the class begins.</p>
               </Section>
 
-              <Section title="How often should I practise?">
+              <Section title="How often should I practice?">
                 <p>Joseph Pilates famously said that practitioners would feel a difference in 10 sessions, see a difference in 20, and have a new body in 30. He wasn&apos;t entirely wrong, but the premise depends on consistency.</p>
                 <p>For beginners, two sessions per week is the sweet spot: enough frequency to build neural pathways and muscle memory, without the overwhelm that comes from daily sessions before the body has adapted. As you progress, three sessions per week is where most serious practitioners settle.</p>
                 <p>The method rewards long-term commitment more than intensity. A practitioner who has done two sessions a week for two years will outperform one who did daily classes for a month and then stopped.</p>

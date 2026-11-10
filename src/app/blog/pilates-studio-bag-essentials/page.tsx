@@ -39,7 +39,7 @@ const ITEMS = [
     verdict: "The one non-negotiable",
     tag: "Essential",
     description:
-      "Grip socks are required at virtually every reformer and mat Pilates studio, for hygiene, safety, and effective footwork. Most studios sell them at the desk at a markup. Buying your own ToeSox, Tavi Noir, or Shashi grip socks costs less per pair and gives you a better fit. The half-toe design (ToeSox) improves proprioception; full-toe designs (Tavi Noir) are more comfortable for wide feet. Pack two pairs if you practise more than twice a week.",
+      "Grip socks are required at virtually every reformer and mat Pilates studio, for hygiene, safety, and effective footwork. Most studios sell them at the desk at a markup. Buying your own ToeSox, Tavi Noir, or Shashi grip socks costs less per pair and gives you a better fit. The half-toe design (ToeSox) improves proprioception; full-toe designs (Tavi Noir) are more comfortable for wide feet. Pack two pairs if you practice more than twice a week.",
     affiliateUrl: "https://www.amazon.com/dp/B08ZGNC7X6?tag=pilatescollective-20",
   },
   {
@@ -59,7 +59,7 @@ const ITEMS = [
     verdict: "Small, fast-drying, essential",
     tag: "Practical",
     description:
-      "A small microfibre towel serves two purposes: wiping down the reformer carriage at the end of class (most studios expect this) and wiping your hands during exercises where grip on the reformer loops matters. A 40cm x 80cm size fits easily in any bag without taking up much space. Microfibre dries significantly faster than cotton between sessions: important if you practise multiple times per week.",
+      "A small microfibre towel serves two purposes: wiping down the reformer carriage at the end of class (most studios expect this) and wiping your hands during exercises where grip on the reformer loops matters. A 40cm x 80cm size fits easily in any bag without taking up much space. Microfibre dries significantly faster than cotton between sessions: important if you practice multiple times per week.",
     affiliateUrl: "https://www.amazon.com/s?k=microfibre+gym+towel+small+compact&tag=pilatescollective-20",
   },
   {
@@ -113,7 +113,7 @@ const jsonLd = {
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "Do I need to bring a mat to Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "No: studios provide mats and all equipment. You only need to bring your own mat if you prefer a specific thickness or brand, or if you practise at home. Grip socks are the one item you genuinely need to supply yourself." } },
+        { "@type": "Question", "name": "Do I need to bring a mat to Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "No: studios provide mats and all equipment. You only need to bring your own mat if you prefer a specific thickness or brand, or if you practice at home. Grip socks are the one item you genuinely need to supply yourself." } },
         { "@type": "Question", "name": "What should I not bring to Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "Leave jewellery at home: rings and bracelets scratch the reformer carriage and can catch on straps. Avoid strong perfume in a small studio. Don't bring a large gym bag that takes up an entire changing room bench. Food is unwelcome in most boutique studios." } },
         { "@type": "Question", "name": "Do Pilates studios provide grip socks?", "acceptedAnswer": { "@type": "Answer", "text": "Most studios sell grip socks at the front desk, typically for $18–$25 per pair. Buying your own in advance is cheaper and ensures a better fit: studio socks are usually one-size and rarely the best brands." } },
       ],
@@ -230,7 +230,7 @@ export default function PilatesStudioBagEssentialsPage() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "Do I need to bring a mat to Pilates?", a: "No: studios provide mats and all equipment. You only need to bring your own mat if you prefer a specific thickness or brand, or if you practise at home. Grip socks are the one item you genuinely need to supply yourself." },
+                  { q: "Do I need to bring a mat to Pilates?", a: "No: studios provide mats and all equipment. You only need to bring your own mat if you prefer a specific thickness or brand, or if you practice at home. Grip socks are the one item you genuinely need to supply yourself." },
                   { q: "What should I not bring to Pilates?", a: "Leave jewellery at home: rings and bracelets scratch the reformer carriage and can catch on straps. Avoid strong perfume in a small studio. Don't bring a large gym bag that takes up an entire changing room bench. Food is unwelcome in most boutique studios." },
                   { q: "Do Pilates studios provide grip socks?", a: "Most studios sell grip socks at the front desk, typically for $18–$25 per pair. Buying your own in advance is cheaper and ensures a better fit: studio socks are usually one-size and rarely the best brands." },
                 ].map((item) => (

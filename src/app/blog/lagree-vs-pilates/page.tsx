@@ -245,7 +245,7 @@ export default function LagreevsPilatesPage() {
             </Section>
 
             <Callout>
-              Lagree is not a variation of Pilates: it is a distinct method that happens to use a machine visually inspired by the Pilates reformer. The distinction matters when you are choosing what to practise.
+              Lagree is not a variation of Pilates: it is a distinct method that happens to use a machine visually inspired by the Pilates reformer. The distinction matters when you are choosing what to practice.
             </Callout>
 
             {/* Head-to-head comparison */}
