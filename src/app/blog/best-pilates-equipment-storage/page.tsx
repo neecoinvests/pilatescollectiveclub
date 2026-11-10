@@ -13,7 +13,7 @@ import { jsonLdHtml } from "@/lib/schema";
 export const metadata: Metadata = {
   title: "Best Pilates Equipment Storage (2026): Racks, Carts & Bins",
   description: "Pilates equipment storage ranked: mat racks, rolling prop carts, wall rails, storage benches and bins that keep a home studio usable in a shared room.",
-  keywords: ["best pilates equipment storage", "pilates mat storage rack", "yoga mat wall rack", "home gym storage", "prop storage cart", "resistance band storage", "pilates props organiser", "storage for home studio", "foam roller storage", "pilates storage 2026"],
+  keywords: ["best pilates equipment storage", "pilates mat storage rack", "yoga mat wall rack", "home gym storage", "prop storage cart", "resistance band storage", "pilates props organizer", "storage for home studio", "foam roller storage", "pilates storage 2026"],
   openGraph: {
     title: "Best Pilates Equipment Storage (2026): Racks, Carts & Bins",
     description: "Mat racks, rolling prop carts, wall rails and storage benches: ranked for keeping a shared room usable.",
@@ -242,7 +242,7 @@ export default function BestPilatesEquipmentStoragePage() {
                 <ArticleCard title="Best Flooring for a Home Pilates Studio" excerpt="Foam, cork, rubber and vinyl compared for reformers, noise and subfloor protection." href="/blog/best-flooring-for-home-pilates-studio" category="Equipment" readTime="9 min read" date="September 2026" imageUrl="/pictures/stitch-mats-corner-sunlit.png" />
                 <ArticleCard title="Best Pilates Equipment for Home Practice (2026)" excerpt="The best Pilates equipment for home, reformers, mats, rings, and resistance bands reviewed for durability, value…" href="/blog/best-pilates-equipment-for-home-practice" category="Guide" readTime="10 min read" imageUrl="/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Equipment for Men (2026): Reformers & Gear" excerpt="The best Pilates equipment for men, reformers, mats, resistance bands, and accessories reviewed for male…" href="/blog/best-pilates-equipment-for-men" category="Guide" readTime="10 min read" imageUrl="/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg" />
-                <ArticleCard title="Pilates Studio Equipment Cost Breakdown (2026): 3 Budgets" excerpt="Itemised equipment budgets for a 3, 6 and 10 reformer Pilates studio, built from current list prices, with the…" href="/blog/pilates-studio-equipment-cost-breakdown" category="Guide" readTime="12 min read" imageUrl="/pictures/stitch-reformers-aerial-row.png" />
+                <ArticleCard title="Pilates Studio Equipment Cost Breakdown (2026): 3 Budgets" excerpt="Itemized equipment budgets for a 3, 6 and 10 reformer Pilates studio, built from current list prices, with the…" href="/blog/pilates-studio-equipment-cost-breakdown" category="Guide" readTime="12 min read" imageUrl="/pictures/stitch-reformers-aerial-row.png" />
               </div>
             </div>
           </div>

@@ -59,7 +59,7 @@ const STUDIOS = [
     review: "Pilates Social Club offers Pilates, barre and stretching in a warm, welcoming atmosphere across three Geneva studios (Avenue Dumas in Champel, Rue des Pierres-du-Niton in Eaux-Vives and Rue de Zurich in Pâquis) each rated around 4.8 on ClassPass. Having three studios makes it one of the most flexible options in the city.",
     caveat: "a multi-studio brand: consistent, but less intimate than a single owner-run studio.",
     address: "Avenue Dumas 12, 1206 Genève (Champel)",
-    bestFor: "Reformer, barre and stretch across three neighbourhoods",
+    bestFor: "Reformer, barre and stretch across three neighborhoods",
     signatureClass: "Reformer Pilates",
     bookingTip: "Book at whichever of the three studios is closest: schedules differ, so check all three.",
   },
@@ -71,7 +71,7 @@ const STUDIOS = [
     review: "Soho Studio on Rue de la Pélisserie, just below the Old Town, tops ClassPass's ranking of reformer studios in Switzerland, with a 4.7 rating from more than 5,000 reviews. That volume of reviews makes it one of the most proven reformer studios in the country.",
     caveat: "its popularity means prime-time classes go quickly: book in advance.",
     address: "Rue de la Pélisserie 16, 1204 Genève",
-    bestFor: "Well-proven group reformer in the centre",
+    bestFor: "Well-proven group reformer in the center",
     signatureClass: "Reformer Pilates",
     bookingTip: "Set booking alerts for evening and weekend classes: they fill first.",
   },
@@ -80,7 +80,7 @@ const STUDIOS = [
     name: "Glow Pilates Studio",
     neighborhood: "Eaux-Vives",
     priceLevel: "$$$",
-    review: "Glow Pilates Studio on Rue de la Terrassière runs 50-minute group reformer classes in Eaux-Vives, a lively lakeside quarter of cafés and independent shops. At around CHF 49 per class it is typical of Geneva's premium reformer pricing.",
+    review: "Glow Pilates Studio on Rue de la Terrassière runs 50-minute group reformer classes in Eaux-Vives, a lively lakeside quarter of cafés and independent shops. At around $60 per class it is typical of Geneva's premium reformer pricing.",
     caveat: "there is limited published detail about the instructors: take a single class before buying a pack.",
     address: "Rue de la Terrassière 28, 1207 Genève",
     bestFor: "50-minute group reformer in Eaux-Vives",
@@ -123,8 +123,8 @@ const BOOKING_TIPS = [
     body: "Most Geneva studios teach in French. However, given the city's international character, many instructors speak excellent English. Check when booking if this matters to you.",
   },
   {
-    heading: "CHF 35–55 per class is standard",
-    body: "Drop-in reformer classes in Geneva run from CHF 35 at value studios to CHF 55 at premium boutiques. Class packs and abonnements (monthly memberships) offer meaningful savings.",
+    heading: "About $43–67 per class is standard",
+    body: "Drop-in reformer classes in Geneva run from about $43 at value studios to $67 at premium boutiques. Class packs and abonnements (monthly memberships) offer meaningful savings.",
   },
   {
     heading: "Grip socks are required",
@@ -140,12 +140,12 @@ const NEIGHBORHOODS = [
   {
     name: "Eaux-Vives (Rive Gauche)",
     description:
-      "Geneva's most vibrant lakeside neighbourhood, with excellent studio access and easy transport links. A natural home for wellness practitioners and a growing number of quality studios.",
+      "Geneva's most vibrant lakeside neighborhood, with excellent studio access and easy transport links. A natural home for wellness practitioners and a growing number of quality studios.",
   },
   {
     name: "Champel",
     description:
-      "One of Geneva's most affluent residential areas, home to premium wellness studios that prioritise private sessions and bespoke experiences. Expect high standards and correspondingly higher prices.",
+      "One of Geneva's most affluent residential areas, home to premium wellness studios that prioritize private sessions and bespoke experiences. Expect high standards and correspondingly higher prices.",
   },
   {
     name: "Plainpalais & Acacias",
@@ -155,7 +155,7 @@ const NEIGHBORHOODS = [
   {
     name: "Carouge",
     description:
-      "This charming, independent neighbourhood just south of Geneva proper has an authentic village character that attracts loyal local practitioners. Studios here are intimate and community-focused.",
+      "This charming, independent neighborhood just south of Geneva proper has an authentic village character that attracts loyal local practitioners. Studios here are intimate and community-focused.",
   },
 ];
 
@@ -229,7 +229,7 @@ const FURTHER_READING = [
 
 const CITY_FAQS = [
   { q: "What are the best Pilates studios in Geneva?", a: "Our 6 curated picks are Form Studio: Pâquis (Pâquis), Pilates Social Club (Champel · Eaux-Vives · Pâquis), Soho Studio (Old Town, Vieille-Ville), Glow Pilates Studio (Eaux-Vives), Sol Studio (Eaux-Vives · Plainpalais) and Aerial MVMT Pilates Studio (Carouge). Each listing above covers what the studio is best for, its signature class and a booking tip." },
-  { q: "Which Geneva neighbourhoods are best for Pilates?", a: "This guide covers Eaux-Vives (Rive Gauche), Champel, Plainpalais & Acacias and Carouge. Eaux-Vives (Rive Gauche): Geneva's most vibrant lakeside neighbourhood, with excellent studio access and easy transport links." },
+  { q: "Which Geneva neighborhoods are best for Pilates?", a: "This guide covers Eaux-Vives (Rive Gauche), Champel, Plainpalais & Acacias and Carouge. Eaux-Vives (Rive Gauche): Geneva's most vibrant lakeside neighborhood, with excellent studio access and easy transport links." },
   { q: "What should I know about booking Pilates classes in Geneva?", a: "Geneva studios expect punctuality. Arrive at least 10 minutes before your class." },
   { q: "What should I bring to a Pilates class in Geneva?", a: "Grip socks are required at most reformer studios. Our gear list for Geneva covers Pilates grip socks, Pilates mat, magic circle, resistance bands, foam roller and home Pilates reformer." },
 ];
@@ -306,7 +306,7 @@ export default function GenevaPage() {
             <p className="text-sm mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 8 min read</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Geneva's status as one of Europe's most international cities has shaped a Pilates scene of real quality and diversity. The city's affluent, health-conscious population has driven demand for premium instruction, while a growing community of younger practitioners has opened space for more accessible, community-led studios. This guide navigates both worlds, from lakeside private sessions in Champel to energised group classes in Plainpalais.
+              Geneva's status as one of Europe's most international cities has shaped a Pilates scene of real quality and diversity. The city's affluent, health-conscious population has driven demand for premium instruction, while a growing community of younger practitioners has opened space for more accessible, community-led studios. This guide navigates both worlds, from lakeside private sessions in Champel to energized group classes in Plainpalais.
             </p>
           </div>
         </section>
@@ -359,8 +359,8 @@ export default function GenevaPage() {
 
         <section className="py-20 px-6" style={{ backgroundColor: "#fcf9f8" }}>
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Best neighbourhoods for Pilates in Geneva</h2>
-            <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Geneva's neighbourhoods each have a distinct character. Here's where to look.</p>
+            <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Best neighborhoods for Pilates in Geneva</h2>
+            <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Geneva's neighborhoods each have a distinct character. Here's where to look.</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {NEIGHBORHOODS.map((n) => (
                 <div key={n.name} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217, 194, 186, 0.35)" }}>

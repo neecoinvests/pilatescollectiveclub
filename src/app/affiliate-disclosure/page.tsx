@@ -55,9 +55,9 @@ export default function AffiliateDisclosurePage() {
               </p>
             </div>
 
-            <h2 style={s.h2}>Amazon Associates Programme</h2>
+            <h2 style={s.h2}>Amazon Associates Program</h2>
             <p style={s.p}>
-              Pilates Collective Club is a participant in the Amazon Services LLC Associates Programme, an affiliate advertising programme designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com and its international variants (Amazon.co.uk, Amazon.de, Amazon.fr, etc.).
+              Pilates Collective Club is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com and its international variants (Amazon.co.uk, Amazon.de, Amazon.fr, etc.).
             </p>
             <p style={s.p}>
               When you click a product link marked <strong>Shop Now →</strong> on this site and make a qualifying purchase on Amazon, we may earn a small commission, typically 1–8% depending on the product category. This commission is paid by Amazon and does not increase the price you pay.

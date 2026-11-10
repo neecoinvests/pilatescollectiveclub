@@ -63,7 +63,7 @@ const BOOKS = [
     price: "$17.81",
     tag: "Best for Understanding the Body",
     description:
-      "The definitive anatomy reference for Pilates practitioners and teachers. Isacowitz and Clippinger map each classical exercise to the muscles it targets, the joints it mobilises, and the common alignment errors that compromise its effectiveness. Full-colour anatomical illustrations show exactly what's happening beneath the surface during the hundred, spine stretch, and side-lying series. Essential reading for anyone who wants to understand why Pilates works, not just how to do it.",
+      "The definitive anatomy reference for Pilates practitioners and teachers. Isacowitz and Clippinger map each classical exercise to the muscles it targets, the joints it mobilizes, and the common alignment errors that compromise its effectiveness. Full-color anatomical illustrations show exactly what's happening beneath the surface during the hundred, spine stretch, and side-lying series. Essential reading for anyone who wants to understand why Pilates works, not just how to do it.",
     affiliateUrl: "https://www.amazon.com/dp/1492567701?tag=pilatescollective-20",
     bestFor: "Intermediate to advanced practitioners and teachers",
     imageUrl: "/pictures/dane-wetton-t1NEMSm1rgI-unsplash.jpg",
@@ -152,7 +152,7 @@ const jsonLd = {
     {
       "@type": "Question",
       "name": "Are there Pilates books for specific conditions?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Pilates for Rehabilitation by Brent Anderson covers clinical applications. For back pain, specialised instructor-recommended texts address Pilates-informed care. Always cross-reference with a qualified instructor." }
+      "acceptedAnswer": { "@type": "Answer", "text": "Pilates for Rehabilitation by Brent Anderson covers clinical applications. For back pain, specialized instructor-recommended texts address Pilates-informed care. Always cross-reference with a qualified instructor." }
     },
     {
       "@type": "Question",

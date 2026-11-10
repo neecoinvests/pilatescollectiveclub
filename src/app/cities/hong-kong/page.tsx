@@ -56,7 +56,7 @@ const STUDIOS = [
     name: "Iso Fit",
     neighborhood: "Central",
     priceLevel: "$$$$",
-    review: "Iso Fit is a top-tier Pilates and Gyrotonic studio on Wyndham Street, offering specialised training systems and equipment that it says are exclusive in Asia. It suits clients who want precise, equipment-led work rather than a group fitness class.",
+    review: "Iso Fit is a top-tier Pilates and Gyrotonic studio on Wyndham Street, offering specialized training systems and equipment that it says are exclusive in Asia. It suits clients who want precise, equipment-led work rather than a group fitness class.",
     caveat: "a specialist, premium studio: better for focused private and small-group work than casual drop-ins.",
     address: "802–805, 8/F, Yu Yuet Lai Building, 43–55 Wyndham Street, Central",
     bestFor: "Pilates and Gyrotonic on specialist equipment",
@@ -107,14 +107,14 @@ const STUDIOS = [
     review: "Mindful Pilates is a Sheung Wan studio on Wing Lok Street, a convenient option for people working between Sheung Wan and Central who want a dedicated Pilates studio away from the big chains.",
     caveat: "there is limited published detail about class formats and instructors: take a trial class first.",
     address: "7B Cheong Tai Commercial Building, 64–66 Wing Lok Street, Sheung Wan",
-    bestFor: "A neighbourhood Pilates studio in Sheung Wan",
+    bestFor: "A neighborhood Pilates studio in Sheung Wan",
     signatureClass: "Pilates Class",
     bookingTip: "Contact the studio to find the right class level before your first visit.",
   },
 ];
 
 const BOOKING_TIPS = [
-  { heading: "Expect to pay HK$250–450 per group class", body: "Hong Kong reformer pricing is among the highest in Asia, reflecting the city's real-estate costs and demand. Group classes typically run HK$250–300 at independent studios and HK$350–450 at premium branded venues. Ten-class packs offer the best per-session rate for regulars." },
+  { heading: "Expect to pay about $32–57 per group class", body: "Hong Kong reformer pricing is among the highest in Asia, reflecting the city's real-estate costs and demand. Group classes typically run about $32–38 at independent studios and $45–57 at premium branded venues. Ten-class packs offer the best per-session rate for regulars." },
   { heading: "ClassPass is available in Hong Kong", body: "ClassPass has solid coverage in Hong Kong and is a practical way to trial studios before committing to a pack. Premium venues like Pure require higher credit allocations, so factor that into your plan if you're targeting the top-tier studios." },
   { heading: "Book 3–7 days ahead for peak slots", body: "Hong Kong's best studios fill quickly. Morning classes (7–9am) and post-work slots (6–8pm) at popular venues are typically fully booked within hours of opening. Check studio apps Sunday evening when many open the following week's schedule." },
   { heading: "Grip socks are mandatory, everywhere", body: "Every studio in Hong Kong requires grip socks on the reformer. Some sell branded pairs at the desk; others require you to bring your own. Keep a pair in your bag to avoid being turned away or paying premium for studio socks." },
@@ -123,9 +123,9 @@ const BOOKING_TIPS = [
 
 const NEIGHBORHOODS = [
   { name: "Central & Admiralty", description: "Hong Kong's financial heart concentrates some of the city's most premium wellness addresses. Studios here serve a time-pressed, expense-account clientele: expect world-class instructors, state-of-the-art equipment, and prices to match. Ideal for weekday lunchtime sessions or early-morning sessions before the markets open." },
-  { name: "Wan Chai & Causeway Bay", description: "The city's most accessible districts for Pilates offer a strong mix of established studios and newer boutique entrants. Wan Chai in particular has become a wellness hub, with studios clustered around the harbour-facing streets. Good transport links make it easy to reach from most parts of the Island." },
-  { name: "Sai Ying Pun & Kennedy Town", description: "The western end of Hong Kong Island has developed a thriving independent wellness scene over the past decade. Studios here tend to be owner-operated, smaller in scale, and more community-focused, with pricing that's more accessible than the Central corridor. The neighbourhood's young professional population has created a loyal studio clientele." },
-  { name: "The Southside (Stanley & Repulse Bay)", description: "Hong Kong's southern peninsula is home to a quieter, more residential studio scene. Venues here prioritise quality over volume: small class sizes, beautiful natural settings, and a pace that feels distinct from the frenetic city centre. Worth the commute for those seeking a more unhurried practice." },
+  { name: "Wan Chai & Causeway Bay", description: "The city's most accessible districts for Pilates offer a strong mix of established studios and newer boutique entrants. Wan Chai in particular has become a wellness hub, with studios clustered around the harbor-facing streets. Good transport links make it easy to reach from most parts of the Island." },
+  { name: "Sai Ying Pun & Kennedy Town", description: "The western end of Hong Kong Island has developed a thriving independent wellness scene over the past decade. Studios here tend to be owner-operated, smaller in scale, and more community-focused, with pricing that's more accessible than the Central corridor. The neighborhood's young professional population has created a loyal studio clientele." },
+  { name: "The Southside (Stanley & Repulse Bay)", description: "Hong Kong's southern peninsula is home to a quieter, more residential studio scene. Venues here prioritize quality over volume: small class sizes, beautiful natural settings, and a pace that feels distinct from the frenetic city center. Worth the commute for those seeking a more unhurried practice." },
 ];
 
 const GEAR = [
@@ -182,8 +182,8 @@ const FURTHER_READING = [
 
 const CITY_FAQS = [
   { q: "What are the best Pilates studios in Hong Kong?", a: "Our 6 curated picks are FLEX Studio (Central · Wong Chuk Hang), Iso Fit (Central), PILATESBEAT (Sheung Wan), DEFIN8 Fitness: Central (Central), Jesel Studio (Wan Chai) and Mindful Pilates (Sheung Wan). Each listing above covers what the studio is best for, its signature class and a booking tip." },
-  { q: "Which Hong Kong neighbourhoods are best for Pilates?", a: "This guide covers Central & Admiralty, Wan Chai & Causeway Bay, Sai Ying Pun & Kennedy Town and The Southside (Stanley & Repulse Bay). Central & Admiralty: Hong Kong's financial heart concentrates some of the city's most premium wellness addresses." },
-  { q: "What should I know about booking Pilates classes in Hong Kong?", a: "Expect to pay HK$250–450 per group class. Hong Kong reformer pricing is among the highest in Asia, reflecting the city's real-estate costs and demand." },
+  { q: "Which Hong Kong neighborhoods are best for Pilates?", a: "This guide covers Central & Admiralty, Wan Chai & Causeway Bay, Sai Ying Pun & Kennedy Town and The Southside (Stanley & Repulse Bay). Central & Admiralty: Hong Kong's financial heart concentrates some of the city's most premium wellness addresses." },
+  { q: "What should I know about booking Pilates classes in Hong Kong?", a: "Expect to pay about $32–57 per group class. Hong Kong reformer pricing is among the highest in Asia, reflecting the city's real-estate costs and demand." },
   { q: "What should I bring to a Pilates class in Hong Kong?", a: "Grip socks are required at most reformer studios. Our gear list for Hong Kong covers Pilates grip socks, Pilates mat, magic circle, resistance bands, foam roller and home Pilates reformer." },
 ];
 
@@ -305,8 +305,8 @@ export default function HongKongPage() {
 
         <section className="py-20 px-6" style={{ backgroundColor: "#fcf9f8" }}>
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Best neighbourhoods for Pilates in Hong Kong</h2>
-            <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Hong Kong's Pilates landscape is shaped by its neighbourhoods.</p>
+            <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Best neighborhoods for Pilates in Hong Kong</h2>
+            <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Hong Kong's Pilates landscape is shaped by its neighborhoods.</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {NEIGHBORHOODS.map((n) => (
                 <div key={n.name} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217, 194, 186, 0.35)" }}>

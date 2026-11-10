@@ -14,10 +14,10 @@ export const metadata: Metadata = {
   title: "Best Pilates Studios in Manchester (2026)",
   description: "The best Pilates studios in Manchester: reformer at Goods Yard, King Street West, Dale Street and Ancoats, plus Restart and Whitefield. Six picks for 2026.",
   robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
-  keywords: ["pilates manchester", "reformer pilates manchester", "best pilates studios manchester", "reformer pilates manchester city centre", "pilates ancoats", "pilates northern quarter", "pilates whitefield", "pilates classes manchester"],
+  keywords: ["pilates manchester", "reformer pilates manchester", "best pilates studios manchester", "reformer pilates manchester city center", "pilates ancoats", "pilates northern quarter", "pilates whitefield", "pilates classes manchester"],
   openGraph: {
     title: "Best Pilates Studios in Manchester (2026)",
-    description: "Six curated Pilates studios in Manchester: city centre, Ancoats, Cheetham Hill and Whitefield. Checked November 2026.",
+    description: "Six curated Pilates studios in Manchester: city center, Ancoats, Cheetham Hill and Whitefield. Checked November 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/manchester",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/stitch-mats-corner-sunlit.png", width: 1200, height: 630, alt: "Manchester Pilates guide, Pilates Collective Club" }],
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Studios in Manchester (2026)",
-    description: "Six curated Pilates studios in Manchester: city centre, Ancoats, Cheetham Hill and Whitefield. Checked November 2026.",
+    description: "Six curated Pilates studios in Manchester: city center, Ancoats, Cheetham Hill and Whitefield. Checked November 2026.",
     images: ["https://pilatescollectiveclub.com/pictures/stitch-mats-corner-sunlit.png"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/cities/manchester" },
@@ -37,7 +37,7 @@ const STUDIOS = [
     name: "The Formula Studio (Formula MCR)",
     neighborhood: "Goods Yard (St John's)",
     priceLevel: "$$$",
-    review: "The Formula sits in Goods Yard, one of the city centre's newest developments, with panoramic views over the square next to Aviva Studios. It tops ClassPass's Manchester reformer ranking with a 4.9 rating from thousands of reviews.",
+    review: "The Formula sits in Goods Yard, one of the city center's newest developments, with panoramic views over the square next to Aviva Studios. It tops ClassPass's Manchester reformer ranking with a 4.9 rating from thousands of reviews.",
     caveat: "popular slots go quickly; book ahead.",
     address: "6 Goods Yard St, Manchester M3 3BG",
     bestFor: "Polished reformer with a view",
@@ -52,9 +52,9 @@ const STUDIOS = [
     review: "Kore Studios on King Street West runs reformer Pilates and strength classes and holds a consistent 4.88 average from more than 10,000 ClassPass reviews.",
     caveat: "a busy central studio at peak times.",
     address: "31-33 King Street West, Manchester",
-    bestFor: "Reformer and strength in the city centre",
+    bestFor: "Reformer and strength in the city center",
     signatureClass: "Reformer",
-    bookingTip: "Lunchtime classes suit city-centre workers.",
+    bookingTip: "Lunchtime classes suit city-center workers.",
   },
   {
     number: "03",
@@ -98,7 +98,7 @@ const STUDIOS = [
     neighborhood: "Whitefield (North Manchester)",
     priceLevel: "$$",
     review: "Whitefield Reformer Pilates is a boutique studio on Bury New Road that opened in 2019, a good option if you live in north Manchester.",
-    caveat: "outside the city centre; best for north Manchester residents.",
+    caveat: "outside the city center; best for north Manchester residents.",
     address: "143a Bury New Rd, Whitefield, Manchester M45 6AA",
     bestFor: "Boutique reformer in north Manchester",
     signatureClass: "Reformer",
@@ -106,17 +106,17 @@ const STUDIOS = [
   },
 ];
 
-const BOOKING_TIPS = [{"heading": "Book ahead", "body": "City-centre reformer classes fill quickly, especially before work and at weekends."}, {"heading": "Start with fundamentals", "body": "Several studios offer foundation or beginner classes. Take one before moving to faster formats."}, {"heading": "Use the Metrolink", "body": "Most studios in this guide are a short walk from a tram stop."}, {"heading": "Use ClassPass to compare", "body": "Most Manchester studios list on ClassPass, which makes it easy to try a few."}, {"heading": "Bring grip socks", "body": "Grip socks are required at most reformer studios in Manchester."}];
+const BOOKING_TIPS = [{"heading": "Book ahead", "body": "City-center reformer classes fill quickly, especially before work and at weekends."}, {"heading": "Start with fundamentals", "body": "Several studios offer foundation or beginner classes. Take one before moving to faster formats."}, {"heading": "Use the Metrolink", "body": "Most studios in this guide are a short walk from a tram stop."}, {"heading": "Use ClassPass to compare", "body": "Most Manchester studios list on ClassPass, which makes it easy to try a few."}, {"heading": "Bring grip socks", "body": "Grip socks are required at most reformer studios in Manchester."}];
 
-const NEIGHBORHOODS = [{"name": "City centre & Spinningfields", "description": "Polished reformer studios at Goods Yard and on King Street West."}, {"name": "Northern Quarter & Ancoats", "description": "Established reformer on Dale Street and in Sam's Yard on Port Street."}, {"name": "Cheetham Hill", "description": "Restart's original studio at The Bee Hive on Derby Street."}, {"name": "Whitefield", "description": "A boutique studio on Bury New Road for north Manchester."}];
+const NEIGHBORHOODS = [{"name": "City center & Spinningfields", "description": "Polished reformer studios at Goods Yard and on King Street West."}, {"name": "Northern Quarter & Ancoats", "description": "Established reformer on Dale Street and in Sam's Yard on Port Street."}, {"name": "Cheetham Hill", "description": "Restart's original studio at The Bee Hive on Derby Street."}, {"name": "Whitefield", "description": "A boutique studio on Bury New Road for north Manchester."}];
 
 const GEAR = [{"name": "Pilates Grip Socks", "note": "Our pick: toesox Low Rise Full-Toe Grip Socks (2-Pack). Required at most reformer studios; full-toe grip socks are the standard.", "price": "$30.00", "url": "https://www.amazon.com/dp/B07QHNDHW3?tag=pilatescollective-20"}, {"name": "Pilates Mat", "note": "Our pick: Manduka PRO Yoga & Pilates Mat (6mm). A dense 6mm mat for mat classes and home practice between studio sessions.", "price": "$144.00", "url": "https://www.amazon.com/dp/B0000DZFXZ?tag=pilatescollective-20"}, {"name": "Magic Circle", "note": "Our pick: Balanced Body Ultra-Fit Circle (15-inch). Many studios use the magic circle; worth owning for home reinforcement work.", "price": "$35.00", "url": "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20"}, {"name": "Resistance Bands", "note": "Our pick: Arena Strength Fabric Glute Bands (3-Pack). Fabric loops that carry reformer leg and glute work into home sessions.", "price": "$29.00", "url": "https://www.amazon.com/dp/B07VYK14JC?tag=pilatescollective-20"}, {"name": "Foam Roller", "note": "Our pick: OPTP PRO-Roller Foam Roller (36-inch). For spinal mobility and release work before and after class.", "price": "$62.99", "url": "https://www.amazon.com/dp/B002C9EX14?tag=pilatescollective-20"}, {"name": "Home Pilates Reformer", "note": "Our pick: PAETA Wooden Foldable Reformer. A folding home reformer to keep your practice going between studio classes.", "price": "$719.99", "url": "https://www.amazon.com/dp/B0D7M7JNFV?tag=pilatescollective-20"}];
 
 const RELATED_CITIES = [{"city": "London", "country": "United Kingdom", "href": "/cities/london", "studioCount": 6}, {"city": "Edinburgh", "country": "United Kingdom", "href": "/cities/edinburgh", "studioCount": 6}, {"city": "Dublin", "country": "Ireland", "href": "/cities/dublin", "studioCount": 6}, {"city": "Amsterdam", "country": "Netherlands", "href": "/cities/amsterdam", "studioCount": 6}];
 
-const FURTHER_READING = [{"title": "Beginner's Guide to Reformer Pilates", "excerpt": "What to expect in your first reformer class, how to choose a studio and how to progress.", "href": "/blog/beginners-guide-to-reformer-pilates", "category": "Beginner Guide", "readTime": "8 min read"}, {"title": "Best Pilates Grip Socks (2026)", "excerpt": "Five verified grip socks for reformer classes, from budget packs to studio favourites.", "href": "/blog/best-pilates-grip-socks", "category": "Accessories", "readTime": "6 min read"}, {"title": "What to Wear to Pilates", "excerpt": "A complete studio outfit guide: leggings, tops, bras and what to leave at home.", "href": "/blog/what-to-wear-to-pilates", "category": "Apparel", "readTime": "6 min read"}, {"title": "Best Pilates Equipment for Home Practice", "excerpt": "Everything you need between studio sessions, from a quality mat to resistance bands.", "href": "/blog/best-pilates-equipment-for-home-practice", "category": "Equipment", "readTime": "10 min read"}];
+const FURTHER_READING = [{"title": "Beginner's Guide to Reformer Pilates", "excerpt": "What to expect in your first reformer class, how to choose a studio and how to progress.", "href": "/blog/beginners-guide-to-reformer-pilates", "category": "Beginner Guide", "readTime": "8 min read"}, {"title": "Best Pilates Grip Socks (2026)", "excerpt": "Five verified grip socks for reformer classes, from budget packs to studio favorites.", "href": "/blog/best-pilates-grip-socks", "category": "Accessories", "readTime": "6 min read"}, {"title": "What to Wear to Pilates", "excerpt": "A complete studio outfit guide: leggings, tops, bras and what to leave at home.", "href": "/blog/what-to-wear-to-pilates", "category": "Apparel", "readTime": "6 min read"}, {"title": "Best Pilates Equipment for Home Practice", "excerpt": "Everything you need between studio sessions, from a quality mat to resistance bands.", "href": "/blog/best-pilates-equipment-for-home-practice", "category": "Equipment", "readTime": "10 min read"}];
 
-const CITY_FAQS = [{"q": "What are the best Pilates studios in Manchester?", "a": "Our 6 picks are The Formula Studio (Formula MCR) (Goods Yard (St John's)), Kore Studios (King Street West (Spinningfields)), Runway Pilates (Dale Street (Northern Quarter)), Restart Reformer Pilates (Cheetham Hill · Circle Square · Deansgate · Bankside), The Reformer Studio Ancoats (Ancoats) and Whitefield Reformer Pilates (Whitefield (North Manchester)). Each listing above covers what the studio is best for, its signature class and a booking tip."}, {"q": "Which Manchester neighbourhoods are best for Pilates?", "a": "This guide covers City centre & Spinningfields, Northern Quarter & Ancoats, Cheetham Hill and Whitefield. Polished reformer studios at Goods Yard and on King Street West."}, {"q": "What should I know about booking Pilates classes in Manchester?", "a": "Book ahead. Start with fundamentals. Use the Metrolink."}, {"q": "What should I bring to a Pilates class in Manchester?", "a": "Grip socks are required at most reformer studios. Our gear list for Manchester covers grip socks, a Pilates mat, a magic circle, resistance bands, a foam roller and a home reformer."}, {"q": "Where should a beginner start with reformer Pilates in Manchester?", "a": "Restart Reformer Pilates runs a Foundation class for beginners, and Runway Pilates and The Formula also suit newcomers who tell the instructor they are new."}];
+const CITY_FAQS = [{"q": "What are the best Pilates studios in Manchester?", "a": "Our 6 picks are The Formula Studio (Formula MCR) (Goods Yard (St John's)), Kore Studios (King Street West (Spinningfields)), Runway Pilates (Dale Street (Northern Quarter)), Restart Reformer Pilates (Cheetham Hill · Circle Square · Deansgate · Bankside), The Reformer Studio Ancoats (Ancoats) and Whitefield Reformer Pilates (Whitefield (North Manchester)). Each listing above covers what the studio is best for, its signature class and a booking tip."}, {"q": "Which Manchester neighborhoods are best for Pilates?", "a": "This guide covers City center & Spinningfields, Northern Quarter & Ancoats, Cheetham Hill and Whitefield. Polished reformer studios at Goods Yard and on King Street West."}, {"q": "What should I know about booking Pilates classes in Manchester?", "a": "Book ahead. Start with fundamentals. Use the Metrolink."}, {"q": "What should I bring to a Pilates class in Manchester?", "a": "Grip socks are required at most reformer studios. Our gear list for Manchester covers grip socks, a Pilates mat, a magic circle, resistance bands, a foam roller and a home reformer."}, {"q": "Where should a beginner start with reformer Pilates in Manchester?", "a": "Restart Reformer Pilates runs a Foundation class for beginners, and Runway Pilates and The Formula also suit newcomers who tell the instructor they are new."}];
 
 const gearName = (g: { name: string; note: string }) => g.note.match(/Our pick: ([^.]+(?:\.\d+[^.]*)?)\./)?.[1] ?? g.name;
 
@@ -189,7 +189,7 @@ export default function ManchesterPage() {
             </p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              {"Manchester's reformer scene has grown fast, with polished city-centre studios at Goods Yard and King Street West, established names on Dale Street and in Ancoats, and a fast-growing local brand with several studios. This guide covers six studios with confirmed addresses, what each does best and how to book."}
+              {"Manchester's reformer scene has grown fast, with polished city-center studios at Goods Yard and King Street West, established names on Dale Street and in Ancoats, and a fast-growing local brand with several studios. This guide covers six studios with confirmed addresses, what each does best and how to book."}
             </p>
           </div>
         </section>
@@ -240,7 +240,7 @@ export default function ManchesterPage() {
 
         <section className="py-20 px-6" style={{ backgroundColor: "#fcf9f8" }}>
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Best neighbourhoods for Pilates in Manchester</h2>
+            <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Best neighborhoods for Pilates in Manchester</h2>
             <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Where to look depending on where you live, work or stay.</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {NEIGHBORHOODS.map((n) => (

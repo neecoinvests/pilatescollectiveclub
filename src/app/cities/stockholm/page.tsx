@@ -94,14 +94,14 @@ const STUDIOS = [
     address: "Lästmakargatan 5, Stockholm",
     bestFor: "Central reformer near Stureplan",
     signatureClass: "Reformer Pilates",
-    bookingTip: "Lunchtime classes suit people working in the centre.",
+    bookingTip: "Lunchtime classes suit people working in the center.",
   },
 ];
 
 const BOOKING_TIPS = [
   {
-    heading: "Expect to pay €25–55 per class",
-    body: "Stockholm is an expensive city and its Pilates studios reflect that. Group reformer classes at mid-range studios run 280–420 SEK (approximately €25–38); boutique small-group sessions reach 500–600 SEK. Monthly memberships typically offer the best per-session economics for regular practitioners.",
+    heading: "Expect to pay about $28–62 per class",
+    body: "Stockholm is an expensive city and its Pilates studios reflect that. Group reformer classes at mid-range studios run about $29–43; boutique small-group sessions reach about $51–61. Monthly memberships typically offer the best per-session economics for regular practitioners.",
   },
   {
     heading: "Book well in advance: particularly in winter",
@@ -113,7 +113,7 @@ const BOOKING_TIPS = [
   },
   {
     heading: "Grip socks at every studio: no exceptions",
-    body: "As across Europe, toeless grip socks are mandatory. Most studios sell them (approximately 150 SEK), but bringing your own is cheaper. A number of Stockholm studios also have proprietary branded socks at a premium: your own will serve just as well.",
+    body: "As across Europe, toeless grip socks are mandatory. Most studios sell them (approximately $15), but bringing your own is cheaper. A number of Stockholm studios also have proprietary branded socks at a premium: your own will serve just as well.",
   },
   {
     heading: "Trial packages are universally available",
@@ -130,17 +130,17 @@ const NEIGHBORHOODS = [
   {
     name: "Vasastan",
     description:
-      "An inner-city neighbourhood with genuine community warmth and a growing wellness infrastructure. Vasastan studios tend to prioritise instruction quality and regular-client relationships over aesthetic positioning. Reform Studio captures this approach well: serious about the work, welcoming in character.",
+      "An inner-city neighborhood with genuine community warmth and a growing wellness infrastructure. Vasastan studios tend to prioritize instruction quality and regular-client relationships over aesthetic positioning. Reform Studio captures this approach well: serious about the work, welcoming in character.",
   },
   {
     name: "Norrmalm",
     description:
-      "Stockholm's commercial centre has become an increasingly viable location for boutique wellness thanks to studios like Studio Norr, which prove that quality and central convenience aren't mutually exclusive. Excellent for visitors and professionals without time to travel to residential neighbourhoods.",
+      "Stockholm's commercial center has become an increasingly viable location for boutique wellness thanks to studios like Studio Norr, which prove that quality and central convenience aren't mutually exclusive. Excellent for visitors and professionals without time to travel to residential neighborhoods.",
   },
   {
     name: "Södermalm",
     description:
-      "The island south of the city centre is Stockholm's creative quarter, and it's produced a Pilates culture to match. Studios here tend to be more accessible in price and more progressive in programming, with a community culture that's warmer and less scene-driven than the northern neighbourhoods.",
+      "The island south of the city center is Stockholm's creative quarter, and it's produced a Pilates culture to match. Studios here tend to be more accessible in price and more progressive in programming, with a community culture that's warmer and less scene-driven than the northern neighborhoods.",
   },
 ];
 
@@ -214,8 +214,8 @@ const FURTHER_READING = [
 
 const CITY_FAQS = [
   { q: "What are the best Pilates studios in Stockholm?", a: "Our 4 curated picks are The Place Stockholm (Östermalm), Tim's Pilates (Östermalm), Energii, Sigtunagatan (Vasastan) and Energii, Lästmakargatan (Norrmalm). Each listing above covers what the studio is best for, its signature class and a booking tip." },
-  { q: "Which Stockholm neighbourhoods are best for Pilates?", a: "This guide covers Östermalm, Vasastan, Norrmalm and Södermalm. Östermalm: Stockholm's most prestigious residential district sets the standard for premium Pilates in Sweden." },
-  { q: "What should I know about booking Pilates classes in Stockholm?", a: "Expect to pay €25–55 per class. Stockholm is an expensive city and its Pilates studios reflect that." },
+  { q: "Which Stockholm neighborhoods are best for Pilates?", a: "This guide covers Östermalm, Vasastan, Norrmalm and Södermalm. Östermalm: Stockholm's most prestigious residential district sets the standard for premium Pilates in Sweden." },
+  { q: "What should I know about booking Pilates classes in Stockholm?", a: "Expect to pay about $28–62 per class. Stockholm is an expensive city and its Pilates studios reflect that." },
   { q: "What should I bring to a Pilates class in Stockholm?", a: "Grip socks are required at most reformer studios. Our gear list for Stockholm covers Pilates grip socks, Pilates mat, magic circle, resistance bands, foam roller and home Pilates reformer." },
 ];
 
@@ -297,7 +297,7 @@ export default function StockholmPage() {
             </p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Stockholm has developed one of northern Europe's most coherent wellness cultures, and its Pilates scene is a reflection of that. The city's instinct for quality design, combined with a population that takes movement seriously, has produced a group of studios that compare favourably with anything in London or Paris. From the premium reformer boutiques of Östermalm to the community-minded spaces of Södermalm, this guide covers the four studios that best represent Stockholm's considerable Pilates offering.
+              Stockholm has developed one of northern Europe's most coherent wellness cultures, and its Pilates scene is a reflection of that. The city's instinct for quality design, combined with a population that takes movement seriously, has produced a group of studios that compare favorably with anything in London or Paris. From the premium reformer boutiques of Östermalm to the community-minded spaces of Södermalm, this guide covers the four studios that best represent Stockholm's considerable Pilates offering.
             </p>
           </div>
         </section>
@@ -357,10 +357,10 @@ export default function StockholmPage() {
         <section className="py-20 px-6" style={{ backgroundColor: "#fcf9f8" }}>
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best neighbourhoods for Pilates in Stockholm
+              Best neighborhoods for Pilates in Stockholm
             </h2>
             <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-              Stockholm's Pilates landscape is shaped by its neighbourhoods.
+              Stockholm's Pilates landscape is shaped by its neighborhoods.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {NEIGHBORHOODS.map((n) => (

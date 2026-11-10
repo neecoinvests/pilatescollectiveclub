@@ -68,7 +68,7 @@ const PRODUCTS = [
     price: "$73.74",
     verdict: "Best for matching spring length",
     description:
-      "A five-spring steel set (two yellow, two green, one red) whose listing states exact dimensions: 18.58 inches long including hooks, with wire diameters given for each colour. That makes it easier to check against the springs on your machine before ordering. As with every product here, it's a generic third-party replacement for standard reformer/Megaformer-style springs, not a Lagree Fitness branded part.",
+      "A five-spring steel set (two yellow, two green, one red) whose listing states exact dimensions: 18.58 inches long including hooks, with wire diameters given for each color. That makes it easier to check against the springs on your machine before ordering. As with every product here, it's a generic third-party replacement for standard reformer/Megaformer-style springs, not a Lagree Fitness branded part.",
     affiliateUrl: "https://www.amazon.com/dp/B0FP2RQG9M?tag=pilatescollective-20",
     tag: "Best for Sizing",
   },

@@ -79,8 +79,8 @@ const STUDIOS = [
     name: "Club Pilates Quarry Market",
     neighborhood: "Alamo Heights / Quarry",
     priceLevel: "$$",
-    review: "Club Pilates at the Quarry Market on East Basse Road serves Alamo Heights and central-north San Antonio with levelled group reformer classes.",
-    caveat: "a franchise format: consistent, but less personalised than an independent studio.",
+    review: "Club Pilates at the Quarry Market on East Basse Road serves Alamo Heights and central-north San Antonio with leveled group reformer classes.",
+    caveat: "a franchise format: consistent, but less personalized than an independent studio.",
     address: "255 E Basse Rd, #360, San Antonio, TX 78209",
     bestFor: "Alamo Heights residents",
     signatureClass: "Reformer Flow",
@@ -91,8 +91,8 @@ const STUDIOS = [
     name: "Club Pilates Dominion",
     neighborhood: "Dominion / North San Antonio",
     priceLevel: "$$",
-    review: "Club Pilates Dominion on IH-10 West serves the Dominion and north-west corridor with levelled group reformer classes.",
-    caveat: "a franchise format: consistent, but less personalised than an independent studio.",
+    review: "Club Pilates Dominion on IH-10 West serves the Dominion and north-west corridor with leveled group reformer classes.",
+    caveat: "a franchise format: consistent, but less personalized than an independent studio.",
     address: "21803 IH-10 W, San Antonio, TX 78257",
     bestFor: "North-west San Antonio residents",
     signatureClass: "Reformer Flow",
@@ -103,8 +103,8 @@ const STUDIOS = [
     name: "Club Pilates Stone Oak",
     neighborhood: "Stone Oak",
     priceLevel: "$$",
-    review: "Club Pilates Stone Oak on Stone Oak Parkway serves the far north side with levelled group reformer classes.",
-    caveat: "a franchise format: consistent, but less personalised than an independent studio.",
+    review: "Club Pilates Stone Oak on Stone Oak Parkway serves the far north side with leveled group reformer classes.",
+    caveat: "a franchise format: consistent, but less personalized than an independent studio.",
     address: "20210 Stone Oak Pkwy, Ste 105, San Antonio, TX 78258",
     bestFor: "Stone Oak residents",
     signatureClass: "Reformer Flow",
@@ -115,8 +115,8 @@ const STUDIOS = [
     name: "Club Pilates Stevens Ranch",
     neighborhood: "Stevens Ranch / Far West Side",
     priceLevel: "$$",
-    review: "Club Pilates Stevens Ranch on Potranco Road brings levelled group reformer classes to the growing far west side.",
-    caveat: "a franchise format: consistent, but less personalised than an independent studio.",
+    review: "Club Pilates Stevens Ranch on Potranco Road brings leveled group reformer classes to the growing far west side.",
+    caveat: "a franchise format: consistent, but less personalized than an independent studio.",
     address: "14244 Potranco Rd, San Antonio, TX 78253",
     bestFor: "Far-west-side residents",
     signatureClass: "Reformer Flow",
@@ -206,7 +206,7 @@ const GEAR = [
 const HOME_REFORMERS = [
   { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work: three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
   { tag: "Mid-Range Pick", name: "AeroPilates Pro XP 557", note: "AeroPilates' top-of-the-range home reformer, a step up for practitioners training several times a week.", price: "$1,329.99", url: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20" },
-  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
+  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodized aluminum frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
 ];
 
 const RELATED_CITIES = [
@@ -243,7 +243,7 @@ const FURTHER_READING = [
 
 const CITY_FAQS = [
   { q: "What are the best Pilates studios in San Antonio?", a: "Our 6 curated picks are Studio 1604 Pilates & Fitness (Stone Oak / North San Antonio), IM=X Pilates San Antonio (North Central / Huebner Corridor), Club Pilates Quarry Market (Alamo Heights / Quarry), Club Pilates Dominion (Dominion / North San Antonio), Club Pilates Stone Oak (Stone Oak) and Club Pilates Stevens Ranch (Stevens Ranch / Far West Side). Each listing above covers what the studio is best for, its signature class and a booking tip." },
-  { q: "Which San Antonio neighbourhoods are best for Pilates?", a: "This guide covers Alamo Heights & Quarry District, Stone Oak & North San Antonio, Dominion & IH-10 West Corridor and Alamo Ranch & Southwest Side. Alamo Heights & Quarry District: San Antonio's most walkable and culturally rich inner-city neighborhoods." },
+  { q: "Which San Antonio neighborhoods are best for Pilates?", a: "This guide covers Alamo Heights & Quarry District, Stone Oak & North San Antonio, Dominion & IH-10 West Corridor and Alamo Ranch & Southwest Side. Alamo Heights & Quarry District: San Antonio's most walkable and culturally rich inner-city neighborhoods." },
   { q: "What should I know about booking Pilates classes in San Antonio?", a: "San Antonio's heat is a scheduling variable. Summers in San Antonio run hot, temperatures exceeding 100°F are routine from June through September." },
   { q: "What should I bring to a Pilates class in San Antonio?", a: "Grip socks are required at most reformer studios. Our gear list for San Antonio covers Pilates grip socks, Pilates mat (6mm), magic circle, fabric resistance bands and high-density foam roller." },
 ];

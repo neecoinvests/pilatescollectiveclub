@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   keywords: ["does pilates build muscle", "can you build muscle with pilates", "pilates for muscle building", "pilates muscle gain", "pilates vs weights muscle", "reformer pilates muscle building", "pilates body transformation", "pilates strength training"],
   openGraph: {
     title: "Does Pilates Build Muscle? What the Science Actually Says",
-    description: "The honest, evidence-based answer on Pilates and muscle building: what changes, what doesn't, and how to optimise.",
+    description: "The honest, evidence-based answer on Pilates and muscle building: what changes, what doesn't, and how to optimize.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/does-pilates-build-muscle",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg", width: 1200, height: 630, alt: "Does Pilates Build Muscle: Pilates Collective Club" }],
@@ -48,7 +48,7 @@ const PRODUCTS = [
     price: "$10.61",
     verdict: "Best light dumbbell set for Pilates",
     description:
-      "A set of light dumbbells (1lb, 2lb, and 3lb) used during the standing arm series in mat and reformer Pilates creates genuine muscular overload in the shoulder stabilisers and rotator cuff that bodyweight Pilates alone does not provide. The neoprene coating gives secure grip with sweaty hands, and the hex shape prevents rolling on studio floors. The 1-3lb range is specifically appropriate for Pilates: heavier weights compromise form and shift the exercise away from the precision Pilates requires. This set covers the full progression from beginner to advanced mat arm work without becoming the kind of gym equipment that feels out of place in a studio.",
+      "A set of light dumbbells (1lb, 2lb, and 3lb) used during the standing arm series in mat and reformer Pilates creates genuine muscular overload in the shoulder stabilizers and rotator cuff that bodyweight Pilates alone does not provide. The neoprene coating gives secure grip with sweaty hands, and the hex shape prevents rolling on studio floors. The 1-3lb range is specifically appropriate for Pilates: heavier weights compromise form and shift the exercise away from the precision Pilates requires. This set covers the full progression from beginner to advanced mat arm work without becoming the kind of gym equipment that feels out of place in a studio.",
     affiliateUrl: "https://www.amazon.com/dp/B00A6MKU7A?tag=pilatescollective-20",
     tag: "Best Light Dumbbells",
   },
@@ -68,7 +68,7 @@ const PRODUCTS = [
     price: "$35.00",
     verdict: "Best classic Pilates prop for muscle activation",
     description:
-      "The Pilates magic circle (ring) is the original Pilates resistance prop, designed by Joseph Pilates himself using a beer keg ring. Squeezed between the palms, placed between the inner thighs, or pressed with the outer ankles, it creates isometric and isotonic resistance in the muscle groups Pilates targets most: inner thighs, glutes, pectoral stabilisers, and shoulder adductors. The Balanced Body version uses a flexible fiberglass ring with padded handles: more durable and consistently resilient than the cheap foam-and-metal alternatives. The resistance is fixed rather than progressive, which is appropriate for the activation and endurance work Pilates uses the ring for rather than maximal load exercises.",
+      "The Pilates magic circle (ring) is the original Pilates resistance prop, designed by Joseph Pilates himself using a beer keg ring. Squeezed between the palms, placed between the inner thighs, or pressed with the outer ankles, it creates isometric and isotonic resistance in the muscle groups Pilates targets most: inner thighs, glutes, pectoral stabilizers, and shoulder adductors. The Balanced Body version uses a flexible fiberglass ring with padded handles: more durable and consistently resilient than the cheap foam-and-metal alternatives. The resistance is fixed rather than progressive, which is appropriate for the activation and endurance work Pilates uses the ring for rather than maximal load exercises.",
     affiliateUrl: "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20",
     tag: "Best Pilates Prop",
   },
@@ -78,7 +78,7 @@ const PRODUCTS = [
     price: "$7.99",
     verdict: "Best prop for deep muscle activation",
     description:
-      "The small Pilates overball creates instability and proprioceptive challenge that recruits deep stabiliser muscles the standard flat-surface exercises do not reach. Placed under the lumbar spine in supine exercises, it challenges the multifidus and deep spinal extensors. Placed between the knees, it maintains inner thigh and adductor activation through exercises that would otherwise allow these muscles to disengage. The overball is particularly effective for practitioners who have plateaued on standard mat Pilates: adding it to familiar exercises creates fresh muscular challenge from the same movement patterns. The 9-inch size fits most practitioners' hip and knee widths without adjustment.",
+      "The small Pilates overball creates instability and proprioceptive challenge that recruits deep stabilizer muscles the standard flat-surface exercises do not reach. Placed under the lumbar spine in supine exercises, it challenges the multifidus and deep spinal extensors. Placed between the knees, it maintains inner thigh and adductor activation through exercises that would otherwise allow these muscles to disengage. The overball is particularly effective for practitioners who have plateaued on standard mat Pilates: adding it to familiar exercises creates fresh muscular challenge from the same movement patterns. The 9-inch size fits most practitioners' hip and knee widths without adjustment.",
     affiliateUrl: "https://www.amazon.com/dp/B077QD9TFF?tag=pilatescollective-20",
     tag: "Best for Deep Muscles",
   },
@@ -88,7 +88,7 @@ const PRODUCTS = [
     price: "From $16",
     verdict: "Best core intensifier for Pilates",
     description:
-      "Exercise sliders placed under the hands or feet in Pilates exercises dramatically increase core and stabiliser activation by adding an instability element to movements that are otherwise performed on a static surface. Pike slides, mountain climber variations, and reverse lunge slides on a smooth studio floor create sustained eccentric load in the core, hip flexors, and glutes that standard mat exercises do not replicate. The dual-sided Retrospec Solana sliders work on both carpet and hard floors. Used during the standing and floor elements of a mat class, they bridge the gap between standard Pilates and the muscular challenge needed for genuine hypertrophy without requiring additional equipment or departing from the Pilates movement vocabulary.",
+      "Exercise sliders placed under the hands or feet in Pilates exercises dramatically increase core and stabilizer activation by adding an instability element to movements that are otherwise performed on a static surface. Pike slides, mountain climber variations, and reverse lunge slides on a smooth studio floor create sustained eccentric load in the core, hip flexors, and glutes that standard mat exercises do not replicate. The dual-sided Retrospec Solana sliders work on both carpet and hard floors. Used during the standing and floor elements of a mat class, they bridge the gap between standard Pilates and the muscular challenge needed for genuine hypertrophy without requiring additional equipment or departing from the Pilates movement vocabulary.",
     affiliateUrl: "https://www.amazon.com/s?k=retrospec+exercise+sliders+core+workout&tag=pilatescollective-20",
     tag: "Best Core Intensifier",
   },
@@ -100,7 +100,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Does Pilates Build Muscle? What the Science Actually Says",
-      "description": "The honest, evidence-based answer on Pilates and muscle building: what changes, what doesn't, and how to optimise.",
+      "description": "The honest, evidence-based answer on Pilates and muscle building: what changes, what doesn't, and how to optimize.",
       "url": "https://pilatescollectiveclub.com/blog/does-pilates-build-muscle",
       "datePublished": "2026-06-27",
       "dateModified": "2026-10-20",
@@ -120,7 +120,7 @@ const jsonLd = {
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "Does Pilates build muscle?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, but with important caveats. Pilates builds muscular endurance, improves muscle activation patterns, and can produce hypertrophy in specific muscle groups (particularly the deep core, glutes, and hip stabilisers) in beginners and deconditioned individuals. For experienced exercisers seeking significant muscle mass, Pilates alone is insufficient without progressive overload via added resistance. Reformer Pilates provides more resistance than mat Pilates and produces greater muscular development." } },
+        { "@type": "Question", "name": "Does Pilates build muscle?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, but with important caveats. Pilates builds muscular endurance, improves muscle activation patterns, and can produce hypertrophy in specific muscle groups (particularly the deep core, glutes, and hip stabilizers) in beginners and deconditioned individuals. For experienced exercisers seeking significant muscle mass, Pilates alone is insufficient without progressive overload via added resistance. Reformer Pilates provides more resistance than mat Pilates and produces greater muscular development." } },
         { "@type": "Question", "name": "Can Pilates change your body shape?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Regular Pilates practice produces measurable changes in posture, muscle tone, and body composition, particularly in the waist, core, and hips. The characteristic 'Pilates body' (long, lean appearance with improved posture and defined core musculature) is a real and documented outcome of consistent practice. Body shape changes are more pronounced with reformer Pilates than mat-only practice, and accelerate when progressive resistance is added." } },
         { "@type": "Question", "name": "How long does it take to see muscle results from Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "Most practitioners notice postural improvements and increased muscle tone within 4-8 weeks of consistent practice (3+ sessions per week). Visible body composition changes typically become apparent at 8-12 weeks. Significant muscular development comparable to resistance training requires either adding external resistance to Pilates exercises or combining Pilates with strength training." } },
       ],
@@ -153,7 +153,7 @@ export default function DoesPilatesBuildMusclePage() {
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              The short answer is yes, but the degree depends on who you are, what kind of Pilates you do, and how you define muscle building. Pilates unambiguously improves muscle activation, endurance, and tone. Whether it produces the hypertrophy (increase in muscle fibre size) associated with strength training is a more nuanced question. Here is what the evidence actually shows.
+              The short answer is yes, but the degree depends on who you are, what kind of Pilates you do, and how you define muscle building. Pilates unambiguously improves muscle activation, endurance, and tone. Whether it produces the hypertrophy (increase in muscle fiber size) associated with strength training is a more nuanced question. Here is what the evidence actually shows.
             </p>
           </div>
         </section>
@@ -182,9 +182,9 @@ export default function DoesPilatesBuildMusclePage() {
               </p>
               <div className="space-y-4">
                 {[
-                  { label: "Core musculature", text: "The transverse abdominis, multifidus, and pelvic floor, the deep stabilisers that most gym programmes neglect, show consistent strength and activation improvements with Pilates across all populations." },
-                  { label: "Glutes and hip stabilisers", text: "The gluteus medius and external hip rotators, undertrained by most gym programmes, are primary targets in reformer footwork and mat hip series. Measurable strength gains in these muscles are well-documented." },
-                  { label: "Shoulder and scapular stabilisers", text: "The serratus anterior, lower trapezius, and rotator cuff muscles, essential for shoulder health, are consistently challenged by Pilates arm series and show functional strength improvements." },
+                  { label: "Core musculature", text: "The transverse abdominis, multifidus, and pelvic floor, the deep stabilizers that most gym programs neglect, show consistent strength and activation improvements with Pilates across all populations." },
+                  { label: "Glutes and hip stabilizers", text: "The gluteus medius and external hip rotators, undertrained by most gym programs, are primary targets in reformer footwork and mat hip series. Measurable strength gains in these muscles are well-documented." },
+                  { label: "Shoulder and scapular stabilizers", text: "The serratus anterior, lower trapezius, and rotator cuff muscles, essential for shoulder health, are consistently challenged by Pilates arm series and show functional strength improvements." },
                   { label: "What Pilates does not do", text: "Without progressive overload beyond bodyweight, Pilates does not produce the sustained hypertrophy stimulus needed for significant muscle mass increases in trained individuals. The loads are simply insufficient past a certain baseline." },
                 ].map((item) => (
                   <div key={item.label} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
@@ -228,7 +228,7 @@ export default function DoesPilatesBuildMusclePage() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "Does Pilates build muscle?", a: "Yes, but with important caveats. Pilates builds muscular endurance, improves muscle activation patterns, and can produce hypertrophy in specific muscle groups (particularly the deep core, glutes, and hip stabilisers) in beginners and deconditioned individuals. For experienced exercisers seeking significant muscle mass, Pilates alone is insufficient without progressive overload via added resistance." },
+                  { q: "Does Pilates build muscle?", a: "Yes, but with important caveats. Pilates builds muscular endurance, improves muscle activation patterns, and can produce hypertrophy in specific muscle groups (particularly the deep core, glutes, and hip stabilizers) in beginners and deconditioned individuals. For experienced exercisers seeking significant muscle mass, Pilates alone is insufficient without progressive overload via added resistance." },
                   { q: "Can Pilates change your body shape?", a: "Yes. Regular Pilates practice produces measurable changes in posture, muscle tone, and body composition, particularly in the waist, core, and hips. The characteristic Pilates body, improved posture and defined core musculature, is a real and documented outcome of consistent practice. Body shape changes are more pronounced with reformer Pilates than mat-only practice." },
                   { q: "How long does it take to see muscle results from Pilates?", a: "Most practitioners notice postural improvements and increased muscle tone within 4-8 weeks of consistent practice (3+ sessions per week). Visible body composition changes typically become apparent at 8-12 weeks. Significant muscular development comparable to resistance training requires either adding external resistance to Pilates exercises or combining Pilates with strength training." },
                 ].map((item) => (

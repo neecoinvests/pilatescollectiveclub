@@ -37,7 +37,7 @@ const STUDIOS = [
     name: "The Pilates Center",
     neighborhood: "Boulder",
     priceLevel: "$$$",
-    review: "The Pilates Center was founded in Boulder in 1990 by sisters Amy Taylor Alpers and Rachel Taylor Segel, who launched its teacher training programme in 1991. Its mission is to promote the original, classical method, and its 600-hour comprehensive training is recognised by the University of Colorado Boulder.",
+    review: "The Pilates Center was founded in Boulder in 1990 by sisters Amy Taylor Alpers and Rachel Taylor Segel, who launched its teacher training program in 1991. Its mission is to promote the original, classical method, and its 600-hour comprehensive training is recognized by the University of Colorado Boulder.",
     caveat: "listings show more than one address, so confirm the current studio location before you go.",
     address: "Boulder, CO 80301",
     bestFor: "Classical Pilates and teacher training",
@@ -61,7 +61,7 @@ const STUDIOS = [
     name: "Care To Pilates",
     neighborhood: "Pearl Street (east)",
     priceLevel: "$$$",
-    review: "Care To Pilates is a boutique studio on Pearl Street specialising in reformer and mat Pilates. Its entrance is on Spruce Street, which is worth knowing before your first visit.",
+    review: "Care To Pilates is a boutique studio on Pearl Street specializing in reformer and mat Pilates. Its entrance is on Spruce Street, which is worth knowing before your first visit.",
     caveat: "a small studio, so class times are limited.",
     address: "2795 Pearl Street, Suite 102, Boulder, CO 80302",
     bestFor: "Boutique reformer and mat",
@@ -73,7 +73,7 @@ const STUDIOS = [
     name: "Bolder Pilates",
     neighborhood: "Folsom Street",
     priceLevel: "$$$",
-    review: "Bolder Pilates is a small boutique studio on Folsom Street offering personalised group classes and private sessions. It describes itself as voted one of the best places for Pilates in Boulder.",
+    review: "Bolder Pilates is a small boutique studio on Folsom Street offering personalized group classes and private sessions. It describes itself as voted one of the best places for Pilates in Boulder.",
     caveat: "small classes mean limited spaces.",
     address: "3012 Folsom Street, Boulder, CO 80304",
     bestFor: "Personal attention in small classes",
@@ -114,9 +114,9 @@ const GEAR = [{"name": "Pilates Grip Socks", "note": "Our pick: toesox Low Rise 
 
 const RELATED_CITIES = [{"city": "Denver", "country": "United States", "href": "/cities/denver", "studioCount": 6}, {"city": "Salt Lake City", "country": "United States", "href": "/cities/salt-lake-city", "studioCount": 6}, {"city": "Austin", "country": "United States", "href": "/cities/austin", "studioCount": 6}, {"city": "Seattle", "country": "United States", "href": "/cities/seattle", "studioCount": 6}];
 
-const FURTHER_READING = [{"title": "Beginner's Guide to Reformer Pilates", "excerpt": "What to expect in your first reformer class, how to choose a studio and how to progress.", "href": "/blog/beginners-guide-to-reformer-pilates", "category": "Beginner Guide", "readTime": "8 min read"}, {"title": "Best Pilates Grip Socks (2026)", "excerpt": "Five verified grip socks for reformer classes, from budget packs to studio favourites.", "href": "/blog/best-pilates-grip-socks", "category": "Accessories", "readTime": "6 min read"}, {"title": "What to Wear to Pilates", "excerpt": "A complete studio outfit guide: leggings, tops, bras and what to leave at home.", "href": "/blog/what-to-wear-to-pilates", "category": "Apparel", "readTime": "6 min read"}, {"title": "Best Pilates Reformer Brands (2026)", "excerpt": "Every major reformer brand ranked, for home practitioners and studio owners.", "href": "/blog/best-pilates-reformer-brands", "category": "Equipment", "readTime": "18 min read"}];
+const FURTHER_READING = [{"title": "Beginner's Guide to Reformer Pilates", "excerpt": "What to expect in your first reformer class, how to choose a studio and how to progress.", "href": "/blog/beginners-guide-to-reformer-pilates", "category": "Beginner Guide", "readTime": "8 min read"}, {"title": "Best Pilates Grip Socks (2026)", "excerpt": "Five verified grip socks for reformer classes, from budget packs to studio favorites.", "href": "/blog/best-pilates-grip-socks", "category": "Accessories", "readTime": "6 min read"}, {"title": "What to Wear to Pilates", "excerpt": "A complete studio outfit guide: leggings, tops, bras and what to leave at home.", "href": "/blog/what-to-wear-to-pilates", "category": "Apparel", "readTime": "6 min read"}, {"title": "Best Pilates Reformer Brands (2026)", "excerpt": "Every major reformer brand ranked, for home practitioners and studio owners.", "href": "/blog/best-pilates-reformer-brands", "category": "Equipment", "readTime": "18 min read"}];
 
-const CITY_FAQS = [{"q": "What are the best Pilates studios in Boulder?", "a": "Our 6 picks are The Pilates Center (Boulder), TransFORM Colorado (Pearl Parkway), Care To Pilates (Pearl Street (east)), Bolder Pilates (Folsom Street), Club Pilates Boulder (Baseline Road) and MK Pilates (30th Street). Each listing above covers what the studio is best for, its signature class and a booking tip."}, {"q": "Which Boulder neighbourhoods are best for Pilates?", "a": "This guide covers Pearl Street & downtown, Folsom & central Boulder, Pearl Parkway & 30th Street and Baseline & south Boulder. Boutique reformer and mat studios a short walk from the Pearl Street Mall."}, {"q": "What should I know about booking Pilates classes in Boulder?", "a": "Fit classes around training. Try classical at least once. Use ClassPass to compare."}, {"q": "What should I bring to a Pilates class in Boulder?", "a": "Grip socks are required at most reformer studios. Our gear list for Boulder covers grip socks, a Pilates mat, a magic circle, resistance bands, a foam roller and a home reformer."}, {"q": "Can I train to become a Pilates teacher in Boulder?", "a": "Yes. The Pilates Center has run a classical teacher training programme since 1991, including a 600-hour comprehensive course, and the University of Colorado Boulder recognises its Pilates teaching certificate."}];
+const CITY_FAQS = [{"q": "What are the best Pilates studios in Boulder?", "a": "Our 6 picks are The Pilates Center (Boulder), TransFORM Colorado (Pearl Parkway), Care To Pilates (Pearl Street (east)), Bolder Pilates (Folsom Street), Club Pilates Boulder (Baseline Road) and MK Pilates (30th Street). Each listing above covers what the studio is best for, its signature class and a booking tip."}, {"q": "Which Boulder neighborhoods are best for Pilates?", "a": "This guide covers Pearl Street & downtown, Folsom & central Boulder, Pearl Parkway & 30th Street and Baseline & south Boulder. Boutique reformer and mat studios a short walk from the Pearl Street Mall."}, {"q": "What should I know about booking Pilates classes in Boulder?", "a": "Fit classes around training. Try classical at least once. Use ClassPass to compare."}, {"q": "What should I bring to a Pilates class in Boulder?", "a": "Grip socks are required at most reformer studios. Our gear list for Boulder covers grip socks, a Pilates mat, a magic circle, resistance bands, a foam roller and a home reformer."}, {"q": "Can I train to become a Pilates teacher in Boulder?", "a": "Yes. The Pilates Center has run a classical teacher training program since 1991, including a 600-hour comprehensive course, and the University of Colorado Boulder recognizes its Pilates teaching certificate."}];
 
 const gearName = (g: { name: string; note: string }) => g.note.match(/Our pick: ([^.]+(?:\.\d+[^.]*)?)\./)?.[1] ?? g.name;
 
@@ -240,7 +240,7 @@ export default function BoulderPage() {
 
         <section className="py-20 px-6" style={{ backgroundColor: "#fcf9f8" }}>
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Best neighbourhoods for Pilates in Boulder</h2>
+            <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Best neighborhoods for Pilates in Boulder</h2>
             <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Where to look depending on where you live, work or stay.</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {NEIGHBORHOODS.map((n) => (

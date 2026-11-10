@@ -67,10 +67,10 @@ const STUDIOS = [
     name: "Club Pilates Grandview Yard",
     neighborhood: "Grandview Heights",
     priceLevel: "$$$",
-    review: "Club Pilates Grandview Yard sits inside the walkable Grandview Yard mixed-use development and offers the full Club Pilates class menu (including Reformer Flow, Cardio Sculpt and Suspend) in a levelled system that suits beginners without boring intermediate members.",
-    caveat: "a franchise format: consistent and well-organised, but less individual than an owner-run studio.",
+    review: "Club Pilates Grandview Yard sits inside the walkable Grandview Yard mixed-use development and offers the full Club Pilates class menu (including Reformer Flow, Cardio Sculpt and Suspend) in a leveled system that suits beginners without boring intermediate members.",
+    caveat: "a franchise format: consistent and well-organized, but less individual than an owner-run studio.",
     address: "1080 Yard St, Grandview Heights, OH 43212",
-    bestFor: "Structured, levelled reformer classes west of downtown",
+    bestFor: "Structured, leveled reformer classes west of downtown",
     signatureClass: "Reformer Flow",
     bookingTip: "Check the Grandview Yard parking rules before your first visit: the development has garage parking.",
   },
@@ -79,7 +79,7 @@ const STUDIOS = [
     name: "Reform Pilates",
     neighborhood: "Upper Arlington (Mallway)",
     priceLevel: "$$",
-    review: "Reform Pilates is a boutique studio of more than 1,400 square feet in Upper Arlington's Mallway, with large windows, natural light and newly remodelled plank flooring. It offers private sessions, small group classes at beginner, intermediate and advanced levels, and online classes, and is within walking distance of shops with easy parking out front and on Arlington Avenue.",
+    review: "Reform Pilates is a boutique studio of more than 1,400 square feet in Upper Arlington's Mallway, with large windows, natural light and newly remodeled plank flooring. It offers private sessions, small group classes at beginner, intermediate and advanced levels, and online classes, and is within walking distance of shops with easy parking out front and on Arlington Avenue.",
     caveat: "its online review count is small, so treat ratings as a promising signal rather than proof.",
     address: "2064 Arlington Ave, Columbus, OH 43221",
     bestFor: "Small-group and private reformer in Upper Arlington",
@@ -115,7 +115,7 @@ const STUDIOS = [
     name: "Club Pilates East Columbus",
     neighborhood: "East Columbus",
     priceLevel: "$$",
-    review: "Club Pilates East Columbus on East Broad Street brings levelled group reformer classes to the east side, with weekday classes from 8am to 8pm and weekend classes until 2pm. It is a convenient entry point for east-side residents new to the method.",
+    review: "Club Pilates East Columbus on East Broad Street brings leveled group reformer classes to the east side, with weekday classes from 8am to 8pm and weekend classes until 2pm. It is a convenient entry point for east-side residents new to the method.",
     caveat: "a franchise studio: reliable structure, less individual programming.",
     address: "6919 E Broad St, Columbus, OH 43213",
     bestFor: "East-side residents new to reformer Pilates",
@@ -127,7 +127,7 @@ const STUDIOS = [
 const BOOKING_TIPS = [
   {
     heading: "Columbus winters are long: build a routine before they arrive",
-    body: "Columbus winters run from November through March, with cold, grey stretches that make outdoor movement impractical. Practitioners who establish indoor studio routines before the season hold them through winter. Lock in recurring slots in September or October.",
+    body: "Columbus winters run from November through March, with cold, gray stretches that make outdoor movement impractical. Practitioners who establish indoor studio routines before the season hold them through winter. Lock in recurring slots in September or October.",
   },
   {
     heading: "OSU's academic calendar shapes studio demand",
@@ -206,7 +206,7 @@ const GEAR = [
 const HOME_REFORMERS = [
   { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work: three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
   { tag: "Mid-Range Pick", name: "AeroPilates Pro XP 557", note: "AeroPilates' top-of-the-range home reformer, a step up for practitioners training several times a week.", price: "$1,329.99", url: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20" },
-  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
+  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodized aluminum frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
 ];
 
 const RELATED_CITIES = [
@@ -243,8 +243,8 @@ const FURTHER_READING = [
 
 const CITY_FAQS = [
   { q: "What are the best Pilates studios in Columbus?", a: "Our 6 curated picks are Pilates Plus (Short North), Club Pilates Grandview Yard (Grandview Heights), Reform Pilates (Upper Arlington, Mallway), Internal Pilates (Clintonville), Body Pure Pilates (Northeast Columbus) and Club Pilates East Columbus (East Columbus). Each listing above covers what the studio is best for, its signature class and a booking tip." },
-  { q: "Which Columbus neighbourhoods are best for Pilates?", a: "This guide covers Short North & Clintonville, Grandview Heights & Upper Arlington, Bexley & East Side and Northeast Columbus & Gahanna. Short North & Clintonville: Columbus's most vibrant arts corridor runs through Short North and into Clintonville, a walkable, culturally rich stretch that supports accessible studios serving the city's largest young professional and university-adjacent population." },
-  { q: "What should I know about booking Pilates classes in Columbus?", a: "Columbus winters are long: build a routine before they arrive. Columbus winters run from November through March, with cold, grey stretches that make outdoor movement impractical." },
+  { q: "Which Columbus neighborhoods are best for Pilates?", a: "This guide covers Short North & Clintonville, Grandview Heights & Upper Arlington, Bexley & East Side and Northeast Columbus & Gahanna. Short North & Clintonville: Columbus's most vibrant arts corridor runs through Short North and into Clintonville, a walkable, culturally rich stretch that supports accessible studios serving the city's largest young professional and university-adjacent population." },
+  { q: "What should I know about booking Pilates classes in Columbus?", a: "Columbus winters are long: build a routine before they arrive. Columbus winters run from November through March, with cold, gray stretches that make outdoor movement impractical." },
   { q: "What should I bring to a Pilates class in Columbus?", a: "Grip socks are required at most reformer studios. Our gear list for Columbus covers Pilates grip socks, Pilates mat (6mm), magic circle, fabric resistance bands and high-density foam roller." },
 ];
 

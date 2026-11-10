@@ -58,7 +58,7 @@ const PRODUCTS = [
     price: "$9.98",
     verdict: "Best resistance bands for DR rehab",
     description:
-      "Light resistance loop bands are a core tool in diastasis recti Pilates rehabilitation, used for hip and glute exercises that load the core indirectly without creating the direct intra-abdominal pressure that worsens separation. The Fit Simplify set includes five resistance levels, from extra light to extra heavy, which allows progressive overload as the rehabilitation advances. The bands are fabric-backed rather than plain latex, reducing the rolling and digging that makes plain latex bands uncomfortable on bare skin during floor exercises. All five levels are relevant to a typical DR rehabilitation programme: the lightest for early glute work and the heavier levels as strength returns over months.",
+      "Light resistance loop bands are a core tool in diastasis recti Pilates rehabilitation, used for hip and glute exercises that load the core indirectly without creating the direct intra-abdominal pressure that worsens separation. The Fit Simplify set includes five resistance levels, from extra light to extra heavy, which allows progressive overload as the rehabilitation advances. The bands are fabric-backed rather than plain latex, reducing the rolling and digging that makes plain latex bands uncomfortable on bare skin during floor exercises. All five levels are relevant to a typical DR rehabilitation program: the lightest for early glute work and the heavier levels as strength returns over months.",
     affiliateUrl: "https://www.amazon.com/dp/B01AVDVHTI?tag=pilatescollective-20",
     tag: "Best for Progressive Rehab",
   },
@@ -68,7 +68,7 @@ const PRODUCTS = [
     price: "$7.99",
     verdict: "Best prop for breathing exercises",
     description:
-      "A small Pilates overball is one of the most useful props for diastasis recti rehabilitation. Placed between the knees in supine exercises, it encourages medial hip activation which creates indirect transverse abdominis engagement without the direct loading that crunches and sit-ups generate. Placed against the wall in standing exercises, it provides tactile feedback for neutral spine positioning. The 9-inch size is appropriate for most practitioners' hip widths and provides enough resistance to be useful without requiring significant force production. Trideer's overball is reliably firm, some budget alternatives deflate quickly, and available in a range of muted colours appropriate for home studio use.",
+      "A small Pilates overball is one of the most useful props for diastasis recti rehabilitation. Placed between the knees in supine exercises, it encourages medial hip activation which creates indirect transverse abdominis engagement without the direct loading that crunches and sit-ups generate. Placed against the wall in standing exercises, it provides tactile feedback for neutral spine positioning. The 9-inch size is appropriate for most practitioners' hip widths and provides enough resistance to be useful without requiring significant force production. Trideer's overball is reliably firm, some budget alternatives deflate quickly, and available in a range of muted colors appropriate for home studio use.",
     affiliateUrl: "https://www.amazon.com/dp/B077QD9TFF?tag=pilatescollective-20",
     tag: "Best Rehabilitation Prop",
   },
@@ -78,9 +78,9 @@ const PRODUCTS = [
     price: "From $22",
     verdict: "Best structured recovery guide",
     description:
-      "The Mutu System is among the most evidence-cited diastasis recti rehabilitation programmes available, developed by a UK physiotherapist and reviewed by pelvic floor specialists. The book format provides the foundational framework for a self-directed rehabilitation programme, covering the assessment of separation severity, the progression logic from early recovery through return to full activity, and the specific exercise contraindications most rehabilitation guides omit. While a one-to-one physiotherapist assessment remains the gold standard for diastasis recti recovery, the Mutu System provides a more rigorous and evidence-grounded starting point than the generic postpartum exercise content that dominates social media.",
+      "The Mutu System is among the most evidence-cited diastasis recti rehabilitation programs available, developed by a UK physiotherapist and reviewed by pelvic floor specialists. The book format provides the foundational framework for a self-directed rehabilitation program, covering the assessment of separation severity, the progression logic from early recovery through return to full activity, and the specific exercise contraindications most rehabilitation guides omit. While a one-to-one physiotherapist assessment remains the gold standard for diastasis recti recovery, the Mutu System provides a more rigorous and evidence-grounded starting point than the generic postpartum exercise content that dominates social media.",
     affiliateUrl: "https://www.amazon.com/s?k=mutu+system+diastasis+recti+book&tag=pilatescollective-20",
-    tag: "Best Recovery Programme",
+    tag: "Best Recovery Program",
   },
 ];
 
@@ -110,7 +110,7 @@ const jsonLd = {
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "Is Pilates good for diastasis recti?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, when appropriately modified. Pilates emphasises deep core activation, breath coordination, and controlled movement: all central to diastasis recti rehabilitation. The key is working with a qualified instructor who understands abdominal separation and can modify standard Pilates exercises to avoid loading the linea alba inappropriately, particularly in the early recovery phase." } },
+        { "@type": "Question", "name": "Is Pilates good for diastasis recti?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, when appropriately modified. Pilates emphasizes deep core activation, breath coordination, and controlled movement: all central to diastasis recti rehabilitation. The key is working with a qualified instructor who understands abdominal separation and can modify standard Pilates exercises to avoid loading the linea alba inappropriately, particularly in the early recovery phase." } },
         { "@type": "Question", "name": "Which Pilates exercises should I avoid with diastasis recti?", "acceptedAnswer": { "@type": "Answer", "text": "Avoid exercises that cause coning or doming of the abdominal wall: the visible ridge that appears along the midline when the separation is being loaded. Standard crunches, double-leg lowering, the Pilates Hundred in the traditional position, and any exercise that creates high intra-abdominal pressure should be avoided until the separation has closed sufficiently and core function has returned. A pelvic floor physiotherapist assessment is the most reliable way to identify your specific safe range." } },
         { "@type": "Question", "name": "How long does it take for diastasis recti to heal with Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "Recovery timelines vary significantly by severity of separation, postnatal history, and consistency of rehabilitation. A mild separation (1-2 finger widths) with consistent targeted rehabilitation can show meaningful improvement within 8-16 weeks. Moderate to severe separations typically require 6-12 months of progressive rehabilitation. The quality of tissue tension at the linea alba matters as much as the gap measurement: functional recovery often precedes full closure." } },
       ],
@@ -147,7 +147,7 @@ export default function PilatesForDiastasisRectiPage() {
             </p>
             <div className="rounded-xl p-6 mb-8" style={{ backgroundColor: "#fff9f5", border: "1px solid rgba(197,168,130,0.3)" }}>
               <p className="text-xs font-semibold uppercase tracking-[0.15em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Medical note</p>
-              <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>This guide is for general educational purposes. Diastasis recti severity varies significantly between individuals, and a pelvic floor physiotherapist assessment is the most reliable starting point for a personalised recovery programme.</p>
+              <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>This guide is for general educational purposes. Diastasis recti severity varies significantly between individuals, and a pelvic floor physiotherapist assessment is the most reliable starting point for a personalized recovery program.</p>
             </div>
           </div>
         </section>
@@ -183,10 +183,10 @@ export default function PilatesForDiastasisRectiPage() {
               </p>
               <div className="space-y-4 mb-8">
                 {[
-                  { title: "Diaphragmatic breathing", text: "360-degree breathing that expands the ribcage laterally and engages the diaphragm in coordination with the pelvic floor is the foundation of every rehabilitation programme. This is not passive: it is an active relearning of how the deep core pressurisation system functions." },
+                  { title: "Diaphragmatic breathing", text: "360-degree breathing that expands the ribcage laterally and engages the diaphragm in coordination with the pelvic floor is the foundation of every rehabilitation program. This is not passive: it is an active relearning of how the deep core pressurization system functions." },
                   { title: "Heel slides", text: "Lying supine with knees bent, slowly sliding one heel along the floor to extend the leg without allowing the lumbar spine to arch or the abdominal wall to bulge. This creates low-load transverse abdominis engagement without pressure spikes." },
-                  { title: "Clam shells", text: "Lying on your side with hips stacked, rotating the top knee open while keeping the pelvis still. Targets the hip abductors and glutes indirectly, which stabilise the pelvis and reduce load on the linea alba during standing activities." },
-                  { title: "Bird-dog", text: "From quadruped (hands and knees), extending one arm and the opposite leg simultaneously while maintaining a neutral spine. This exercise builds rotational stability without direct abdominal loading, and is central to most advanced diastasis rehabilitation programmes." },
+                  { title: "Clam shells", text: "Lying on your side with hips stacked, rotating the top knee open while keeping the pelvis still. Targets the hip abductors and glutes indirectly, which stabilize the pelvis and reduce load on the linea alba during standing activities." },
+                  { title: "Bird-dog", text: "From quadruped (hands and knees), extending one arm and the opposite leg simultaneously while maintaining a neutral spine. This exercise builds rotational stability without direct abdominal loading, and is central to most advanced diastasis rehabilitation programs." },
                   { title: "Wall roll-downs", text: "Standing with the back against a wall, slowly rolling the spine down vertebra by vertebra and returning. The wall provides feedback on spinal position and limits the range to what the core can control without creating pressure spikes." },
                 ].map((item) => (
                   <div key={item.title} className="flex gap-4">
@@ -237,7 +237,7 @@ export default function PilatesForDiastasisRectiPage() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "Is Pilates good for diastasis recti?", a: "Yes, when appropriately modified. Pilates emphasises deep core activation, breath coordination, and controlled movement: all central to diastasis recti rehabilitation. The key is working with a qualified instructor who understands abdominal separation and can modify standard Pilates exercises to avoid loading the linea alba inappropriately, particularly in the early recovery phase." },
+                  { q: "Is Pilates good for diastasis recti?", a: "Yes, when appropriately modified. Pilates emphasizes deep core activation, breath coordination, and controlled movement: all central to diastasis recti rehabilitation. The key is working with a qualified instructor who understands abdominal separation and can modify standard Pilates exercises to avoid loading the linea alba inappropriately, particularly in the early recovery phase." },
                   { q: "Which Pilates exercises should I avoid with diastasis recti?", a: "Avoid exercises that cause coning or doming of the abdominal wall: the visible ridge that appears along the midline when the separation is being loaded. Standard crunches, double-leg lowering, the Pilates Hundred in the traditional position, and any exercise that creates high intra-abdominal pressure should be avoided until the separation has closed sufficiently. A pelvic floor physiotherapist assessment is the most reliable way to identify your specific safe range." },
                   { q: "How long does it take for diastasis recti to heal with Pilates?", a: "Recovery timelines vary significantly by severity of separation, postnatal history, and consistency of rehabilitation. A mild separation with consistent targeted rehabilitation can show meaningful improvement within 8-16 weeks. Moderate to severe separations typically require 6-12 months of progressive rehabilitation. The quality of tissue tension at the linea alba matters as much as the gap measurement: functional recovery often precedes full closure." },
                 ].map((item) => (

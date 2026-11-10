@@ -50,7 +50,7 @@ const SETS = [
     name: "The Lululemon Studio Bundle",
     price: "$146 total",
     verdict: "Best Premium Gift Bundle",
-    description: "Two Lululemon pieces that work together perfectly: the Align High-Rise Legging 25\" ($98) and the Everywhere Belt Bag 2L ($48). The Align is the studio standard legging; the belt bag is the studio standard accessory. Together they cover what she wears and what she carries to every class. Both are available across a rotating seasonal palette: choose coordinating or contrasting colours. At $146 total this is a complete, considered gift that demonstrates real knowledge of what she cares about. No filler required.",
+    description: "Two Lululemon pieces that work together perfectly: the Align High-Rise Legging 25\" ($98) and the Everywhere Belt Bag 2L ($48). The Align is the studio standard legging; the belt bag is the studio standard accessory. Together they cover what she wears and what she carries to every class. Both are available across a rotating seasonal palette: choose coordinating or contrasting colors. At $146 total this is a complete, considered gift that demonstrates real knowledge of what she cares about. No filler required.",
     affiliateUrl: "https://www.amazon.com/s?k=lululemon+align+legging+women+pilates&tag=pilatescollective-20",
   },
   {
@@ -82,7 +82,7 @@ const SETS = [
     name: "The Alo Yoga Pilates Set",
     price: "$176 total",
     verdict: "Best Clothing Bundle",
-    description: "Alo's two most coveted pilates pieces paired together: the Airlift 7/8 Legging ($114) and the Airlift Strappy Bra ($62). Both are made from Alo's signature Airlift fabric: precision-compression, sculpting, and engineered for zero movement during exercise. Choosing matching or tonal colourways (both come in bone, black, espresso, and seasonal shades) creates a complete studio look that is as intentional and refined as the practice itself. This is the bundle that arrives and goes directly into her next-class bag. Not sold on Amazon: this link goes to Alo Yoga's own site.",
+    description: "Alo's two most coveted pilates pieces paired together: the Airlift 7/8 Legging ($114) and the Airlift Strappy Bra ($62). Both are made from Alo's signature Airlift fabric: precision-compression, sculpting, and engineered for zero movement during exercise. Choosing matching or tonal colorways (both come in bone, black, espresso, and seasonal shades) creates a complete studio look that is as intentional and refined as the practice itself. This is the bundle that arrives and goes directly into her next-class bag. Not sold on Amazon: this link goes to Alo Yoga's own site.",
     affiliateUrl: "https://www.aloyoga.com",
   },
 ];
@@ -121,7 +121,7 @@ const FAQ = [
   },
   {
     q: "What is the best pilates gift bundle under $100?",
-    a: "The best pilates gift bundle under $100 is: ToeSox grip socks ($44 for a 3-pack) + TriggerPoint GRID Foam Roller ($28.99) = about $73 total. This covers studio essentials and daily recovery in two items, both from brands practitioners recognise and trust. The Gaiam mat ($35) + ToeSox ($18) + Theraband set ($26) = $79 is the best beginner-specific bundle under $100.",
+    a: "The best pilates gift bundle under $100 is: ToeSox grip socks ($44 for a 3-pack) + TriggerPoint GRID Foam Roller ($28.99) = about $73 total. This covers studio essentials and daily recovery in two items, both from brands practitioners recognize and trust. The Gaiam mat ($35) + ToeSox ($18) + Theraband set ($26) = $79 is the best beginner-specific bundle under $100.",
   },
 ];
 
@@ -266,7 +266,7 @@ export default function Page() {
           </div>
 
           <p style={{ fontFamily: "var(--font-sans)", fontSize: "11px", color: "#9a9490", lineHeight: 1.7, marginTop: "64px", paddingTop: "24px", borderTop: "1px solid #ede9e3" }}>
-            Pilates Collective Club participates in the Amazon Associates programme. Purchases through our links earn us a small commission at no additional cost to you. All recommendations are independently chosen.
+            Pilates Collective Club participates in the Amazon Associates program. Purchases through our links earn us a small commission at no additional cost to you. All recommendations are independently chosen.
           </p>
         </div>
       </section>

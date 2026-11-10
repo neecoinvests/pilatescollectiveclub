@@ -48,7 +48,7 @@ const PRODUCTS = [
     price: "$11.99",
     verdict: "Best for Pilates activation before cardio",
     description:
-      "A short glute and hip activation sequence using light resistance bands before cardio (typically 5-10 minutes of clam shells, lateral band walks, and glute bridges) is one of the most evidence-supported warm-up protocols for runners and cyclists. This activation sequence is identical to Pilates hip work, meaning a brief Pilates mini-session before cardio serves a functional warm-up role rather than competing with it. Theraband's colour-coded flat band set provides the light resistance appropriate for activation work: light enough to perform with full neuromuscular control, heavy enough to create the proprioceptive feedback that switches on underactive glutes before impact loading begins.",
+      "A short glute and hip activation sequence using light resistance bands before cardio (typically 5-10 minutes of clam shells, lateral band walks, and glute bridges) is one of the most evidence-supported warm-up protocols for runners and cyclists. This activation sequence is identical to Pilates hip work, meaning a brief Pilates mini-session before cardio serves a functional warm-up role rather than competing with it. Theraband's color-coded flat band set provides the light resistance appropriate for activation work: light enough to perform with full neuromuscular control, heavy enough to create the proprioceptive feedback that switches on underactive glutes before impact loading begins.",
     affiliateUrl: "https://www.amazon.com/dp/B01A58FHQ8?tag=pilatescollective-20",
     tag: "Best Activation Tool",
   },
@@ -169,7 +169,7 @@ export default function PilatesBeforeOrAfterCardioPage() {
               </p>
               <div className="space-y-4">
                 {[
-                  { title: "Your run or cycle is not compromised", text: "Pilates-induced core and hip fatigue before a run increases injury risk and reduces performance. Running with a fatigued core is biomechanically destabilising, particularly in the late miles when form degrades." },
+                  { title: "Your run or cycle is not compromised", text: "Pilates-induced core and hip fatigue before a run increases injury risk and reduces performance. Running with a fatigued core is biomechanically destabilizing, particularly in the late miles when form degrades." },
                   { title: "Post-cardio mobility is most effective", text: "Muscles are warm and pliable after cardio, making the hip flexor, hamstring, and thoracic mobility work in Pilates more effective than when performed cold. Range of motion gains from stretching are greater on warm tissue." },
                   { title: "Pilates becomes active recovery", text: "The controlled, low-impact movement of Pilates promotes circulation and tissue recovery after cardio loading without adding significant fatigue. This is the principle behind post-run yoga and stretching sequences used by elite runners." },
                 ].map((item) => (
@@ -187,7 +187,7 @@ export default function PilatesBeforeOrAfterCardioPage() {
             <div className="mb-16">
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The one case for Pilates before cardio</h2>
               <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                A short Pilates activation sequence (10-15 minutes of glute activation, hip mobility, and core engagement) before running is well-supported by evidence as a warm-up protocol. This is not a full Pilates class; it is a targeted sequence designed to switch on underactive glutes and hip stabilisers before impact loading begins.
+                A short Pilates activation sequence (10-15 minutes of glute activation, hip mobility, and core engagement) before running is well-supported by evidence as a warm-up protocol. This is not a full Pilates class; it is a targeted sequence designed to switch on underactive glutes and hip stabilizers before impact loading begins.
               </p>
               <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                 Research consistently shows that runners with strong glute activation have better running economy, lower injury rates, and reduced knee and IT band pain. A 10-minute Pilates-style activation before a run (clam shells, single-leg bridges, lateral band walks) improves the neuromuscular pattern quality of the run without creating the fatigue that a full Pilates class would.
@@ -233,7 +233,7 @@ export default function PilatesBeforeOrAfterCardioPage() {
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="Pilates for Runners" excerpt="Why runners benefit from Pilates: the specific muscles it targets and how to programme it alongside running training." href="/blog/pilates-for-runners" category="Health" readTime="8 min read" date="March 2026" imageUrl="/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg" />
+                <ArticleCard title="Pilates for Runners" excerpt="Why runners benefit from Pilates: the specific muscles it targets and how to program it alongside running training." href="/blog/pilates-for-runners" category="Health" readTime="8 min read" date="March 2026" imageUrl="/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg" />
                 <ArticleCard title="Pilates for Athletes" excerpt="How professional and amateur athletes use Pilates for injury prevention, recovery, and performance." href="/blog/pilates-for-athletes" category="Health" readTime="8 min read" date="April 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
                 <ArticleCard title="How Often Should You Do Pilates? (2026 Expert Guide)" excerpt="How often to do Pilates for results, frequency recommendations for beginners, intermediates, and advanced…" href="/blog/how-often-should-you-do-pilates" category="Guide" readTime="7 min read" imageUrl="/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg" />
                 <ArticleCard title="Pilates for Weight Loss (2026): Honest Expectations" excerpt="Pilates for weight loss, what the research shows, how reformer Pilates supports body composition, and realistic…" href="/blog/pilates-for-weight-loss" category="Guide" readTime="10 min read" imageUrl="/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg" />

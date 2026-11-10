@@ -40,7 +40,7 @@ const GUIDE: EquipmentGuideProps = {
   ],
   quickPicks: [
     { label: "Best group-studio reformer", itemId: "balanced-body-studio-reformer" },
-    { label: "Best aluminium studio reformer", itemId: "balanced-body-allegro-stretch" },
+    { label: "Best aluminum studio reformer", itemId: "balanced-body-allegro-stretch" },
     { label: "Best reformer + tower", itemId: "balanced-body-studio-reformer-tower" },
     { label: "Best for clinics", itemId: "merrithew-rehab-v2-max-plus" },
     { label: "Best first extra apparatus", itemId: "balanced-body-exo-chair" },
@@ -55,7 +55,7 @@ const GUIDE: EquipmentGuideProps = {
         { h: "Decide what kind of studio you are opening", b: "Private and duet (1 to 3 reformers), group reformer (6 to 12), comprehensive classical (reformers plus Cadillac, chair and barrel), or mat and hybrid. This one decision sets your equipment bill, rent, staffing and pricing, so settle it before anything else." },
         { h: "Run the numbers on one page", b: "Revenue ceiling = stations × weekly class slots × price per head. Apply a realistic occupancy rate, then subtract rent, payroll, insurance, software, utilities and consumables, which are due whether a class fills or not. Model the quiet Tuesday morning, not the full Saturday." },
         { h: "Find premises that fit the apparatus", b: "Start from the machines and work outward. A reformer needs working space on its ends and one long side, and a tower or trapeze needs ceiling height. Check floor loading, delivery access, ventilation and permitted use before you sign." },
-        { h: "Set up the business and the paperwork", b: "Choose a business structure with an accountant, confirm zoning and occupancy approval, and arrange professional liability, general liability, equipment and business-interruption cover. Add waivers, health screening, a music licence and a data-protection plan." },
+        { h: "Set up the business and the paperwork", b: "Choose a business structure with an accountant, confirm zoning and occupancy approval, and arrange professional liability, general liability, equipment and business-interruption cover. Add waivers, health screening, a music license and a data-protection plan." },
         { h: "Order the equipment", b: "Buy matching, commercially warranted machines in batches, order spare springs and ropes with them, and get delivery, assembly and service terms in writing. Many studio machines are made to order, so place the order early." },
         { h: "Hire your teachers", b: "Decide employee or contractor status with professional advice, since the legal test does not depend on what the contract calls it. If you do not teach yourself, hire a lead instructor early to own the timetable and quality." },
         { h: "Choose booking software and set prices", b: "Pick a booking platform that handles memberships, class packs, waitlists, waivers and secure client data. Price for occupancy you can sustain, and avoid introductory offers so cheap that the clients they attract never convert." },
@@ -102,7 +102,7 @@ const GUIDE: EquipmentGuideProps = {
         { h: "Equipment and business interruption", b: "Insure apparatus at replacement value. Business-interruption cover pays the rent if the room is unusable after a leak or fire, and is the line owners most often skip." },
         { h: "Teacher employment status", b: "Employee or contractor has tax, insurance and legal consequences, and the test is set by law. Decide it with professional advice before your first hire." },
         { h: "Waivers and health screening", b: "Make a signed waiver and pre-participation health questionnaire a condition of the first session." },
-        { h: "Music licence and data protection", b: "Playing recorded music commercially usually needs a licence. You will also hold health and payment data, so choose a booking platform that handles privacy properly." },
+        { h: "Music license and data protection", b: "Playing recorded music commercially usually needs a license. You will also hold health and payment data, so choose a booking platform that handles privacy properly." },
       ],
     },
     {
@@ -126,7 +126,7 @@ const GUIDE: EquipmentGuideProps = {
       rows: [
         ["Private and duet", "2 × Studio Reformer (Revo) $9,400 + 1 × Studio Reformer with Tower & Mat $6,975 + 1 × EXO Chair $1,255", "$17,630"],
         ["Group reformer, maple", "8 × Studio Reformer (Revo) at $4,700", "$37,600"],
-        ["Group reformer, aluminium", "8 × Allegro Stretch at $3,710", "$29,680"],
+        ["Group reformer, aluminum", "8 × Allegro Stretch at $3,710", "$29,680"],
         ["Comprehensive classical", "4 × Studio Reformer (Revo) $18,800 + Studio Reformer with Tower & Mat $6,975 + Cadillac $5,030 + Ladder Barrel $2,195 + EXO Chair $1,255", "$34,255"],
         ["Clinical / rehab", "2 × Merrithew Rehab V2 Max Plus $16,398 + 1 × Ladder Barrel $2,195", "$18,593"],
       ],
@@ -140,7 +140,7 @@ const GUIDE: EquipmentGuideProps = {
       items: [
         item("studioRevo", {
           badge: "Best Group-Studio Reformer",
-          body: "The solid-maple machine many studios standardise on, with up to 46 resistance settings from five Signature Springs and a deep range of add-ons. Buy a row of these and every station feels the same.",
+          body: "The solid-maple machine many studios standardize on, with up to 46 resistance settings from five Signature Springs and a deep range of add-ons. Buy a row of these and every station feels the same.",
           pros: ["Strata Rock Maple frame", "Up to 46 resistance settings", "Wide range of matching accessories"],
           cons: ["Made to order", "Does not fold"],
         }),
@@ -150,13 +150,13 @@ const GUIDE: EquipmentGuideProps = {
           cons: ["212 lb", "Made to order"],
         }),
         item("allegroStretch", {
-          badge: "Best Aluminium Studio Reformer",
+          badge: "Best Aluminum Studio Reformer",
           pros: ["Longer, wider carriage suits tall clients", "Transport wheels make cleaning and reconfiguring easier", "Lower price per station than the Studio Reformer"],
           cons: ["111\" long: plan the room around it", "Made to order"],
         }),
         item("rialtoTower", {
           badge: "Best Value Reformer + Tower",
-          pros: ["Tower with 29 spring-attachment points and mat", "Maple frame on aluminium legs", "$4,230"],
+          pros: ["Tower with 29 spring-attachment points and mat", "Maple frame on aluminum legs", "$4,230"],
           cons: ["Made to order"],
         }),
       ],
@@ -173,7 +173,7 @@ const GUIDE: EquipmentGuideProps = {
           cons: ["78\" high: check your ceiling", "341 lb"],
         }),
         item("allegroStretchTower", {
-          badge: "Aluminium Reformer + Tower",
+          badge: "Aluminum Reformer + Tower",
           pros: ["Drop-in mat conversion", "22 spring-attachment points on the tower"],
           cons: ["251 lb", "Made to order"],
         }),
@@ -236,14 +236,14 @@ const GUIDE: EquipmentGuideProps = {
   ],
   faqs: [
     { q: "How much does it cost to equip a Pilates studio?", a: "Using Amazon prices checked on " + PRICES_CHECKED + ": eight Balanced Body Studio Reformers cost $37,600 and eight Allegro Stretch reformers $29,680. A private studio with two Studio Reformers, a Studio Reformer with Tower and an EXO Chair comes to $17,630. That excludes shipping, tax, props, flooring and fit-out." },
-    { q: "Do you need to be a certified instructor to open a Pilates studio?", a: "No. Owning a studio is a business, and many owners hire all their teaching. But without certification you cannot cover a class at short notice, judge a teacher in an interview or programme the timetable from experience. Owners who do not teach usually hire a lead instructor early." },
+    { q: "Do you need to be a certified instructor to open a Pilates studio?", a: "No. Owning a studio is a business, and many owners hire all their teaching. But without certification you cannot cover a class at short notice, judge a teacher in an interview or program the timetable from experience. Owners who do not teach usually hire a lead instructor early." },
     { q: "How much space does a Pilates studio need?", a: "Work from the apparatus outward. The reformers on this page are about 90 to 111 inches long and 24 to 30 inches wide, and each needs working space at both ends and along one side for the teacher. Add reception, changing, a bathroom and storage. Ceiling height matters as much as floor area if you want a tower or trapeze." },
     { q: "What equipment do you need to open a Pilates studio?", a: "For a group reformer studio: a row of matching commercial reformers, spare springs and ropes, sitting boxes and props in class-sized multiples. A comprehensive studio adds a Cadillac or reformer with tower, a chair and a ladder barrel." },
     { q: "What insurance does a Pilates studio need?", a: "At minimum: professional liability for instruction, general liability for visitors, and property cover for the equipment at replacement value. If you employ teachers, employers' liability or workers' compensation is usually required. Confirm the policy covers apparatus work and every teacher under your roof." },
-    { q: "Is a Pilates studio profitable?", a: "It can be, and the maths is transparent. Revenue is capped by stations, class slots and price, so profit turns on occupancy and on rent as a share of revenue. The two common failures are a lease too big for the client base you can build in year one, and introductory offers so cheap that clients never convert to full price." },
+    { q: "Is a Pilates studio profitable?", a: "It can be, and the math is transparent. Revenue is capped by stations, class slots and price, so profit turns on occupancy and on rent as a share of revenue. The two common failures are a lease too big for the client base you can build in year one, and introductory offers so cheap that clients never convert to full price." },
   ],
   related: [
-    { title: "Pilates Studio Equipment Cost Breakdown", excerpt: "Itemised budgets for small, medium and large studios.", href: "/blog/pilates-studio-equipment-cost-breakdown", imageUrl: "/pictures/stitch-reformers-aerial-row.png", category: "Guide", readTime: "12 min read" },
+    { title: "Pilates Studio Equipment Cost Breakdown", excerpt: "Itemized budgets for small, medium and large studios.", href: "/blog/pilates-studio-equipment-cost-breakdown", imageUrl: "/pictures/stitch-reformers-aerial-row.png", category: "Guide", readTime: "12 min read" },
     { title: "Commercial vs Home Pilates Reformer", excerpt: "What the commercial tier actually buys you.", href: "/blog/commercial-vs-home-pilates-reformer", imageUrl: "/pictures/stitch-reformer-spring-detail.png", category: "Equipment", readTime: "11 min read" },
     { title: "Best Pilates Reformer Under $5,000", excerpt: "Studio Reformer, Rialto, Allegro Stretch and SPX compared.", href: "/blog/best-pilates-reformer-under-5000", imageUrl: "/pictures/stitch-reformer-row-studio.png", category: "Equipment", readTime: "15 min read" },
     { title: "How to Become a Pilates Instructor", excerpt: "Certification routes, costs and what the job pays.", href: "/blog/how-to-become-a-pilates-instructor", imageUrl: "/pictures/stitch-studio-modern-row.png", category: "Guide", readTime: "13 min read" },

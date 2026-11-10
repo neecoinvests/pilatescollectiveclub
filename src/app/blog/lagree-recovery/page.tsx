@@ -187,7 +187,7 @@ const FAQS = [
   },
   {
     q: "When is soreness after Lagree a warning sign?",
-    a: "Get medical attention for severe muscle pain out of proportion to the workout, unusual weakness, swelling, or dark, tea- or cola-coloured urine. Together these can signal rhabdomyolysis, a rare but serious condition sometimes linked to very intense new exercise. Also stop and get checked for sharp pain, pain in a joint rather than a muscle, or pain that worsens after a week.",
+    a: "Get medical attention for severe muscle pain out of proportion to the workout, unusual weakness, swelling, or dark, tea- or cola-colored urine. Together these can signal rhabdomyolysis, a rare but serious condition sometimes linked to very intense new exercise. Also stop and get checked for sharp pain, pain in a joint rather than a muscle, or pain that worsens after a week.",
   },
   {
     q: "Do Epsom salt baths help Lagree soreness?",
@@ -412,7 +412,7 @@ export default function LagreeRecoveryPage() {
               <div className="rounded-2xl p-6" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.5)" }}>
                 <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={eyebrowStyle}>When it is not normal soreness</p>
                 <p className="text-sm leading-relaxed" style={bodyStyle}>
-                  Get medical help for severe pain out of proportion to the workout, unusual weakness, swelling, or dark, tea- or cola-coloured urine. These can signal rhabdomyolysis, which is rare but serious. Sharp pain, pain in a joint rather than a muscle, or pain that worsens after a week also deserves a professional opinion.
+                  Get medical help for severe pain out of proportion to the workout, unusual weakness, swelling, or dark, tea- or cola-colored urine. These can signal rhabdomyolysis, which is rare but serious. Sharp pain, pain in a joint rather than a muscle, or pain that worsens after a week also deserves a professional opinion.
                 </p>
               </div>
             </div>

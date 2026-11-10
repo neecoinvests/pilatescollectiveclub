@@ -41,7 +41,7 @@ const PRODUCTS = [
     verdict: "Best boutique brand option",
     tag: "Boutique Pick",
     description:
-      "Varley designs specifically for the reformer studio, and the Topa shows it. The adjustable racerback keeps straps out of the way during arm circles and rowing, the padding is removable and correctly positioned, and the fabric has a subtle shimmer that elevates the studio look. Soft-touch construction, wider band than most bralettes, and exceptional colour range.",
+      "Varley designs specifically for the reformer studio, and the Topa shows it. The adjustable racerback keeps straps out of the way during arm circles and rowing, the padding is removable and correctly positioned, and the fabric has a subtle shimmer that elevates the studio look. Soft-touch construction, wider band than most bralettes, and exceptional color range.",
     affiliateUrl: "https://www.amazon.com/s?k=varley+pilates+bra&tag=pilatescollective-20",
   },
   {
@@ -51,7 +51,7 @@ const PRODUCTS = [
     verdict: "Best sustainable option",
     tag: "Ethical Pick",
     description:
-      "Made from recycled plastic bottles, the Paloma Bra is an ethical choice that doesn't compromise on performance. The wide-strap racerback provides excellent shoulder coverage, the cups are well-padded, and the compression is ideal for medium-impact class. The muted, earthy colour palette fits the reformer studio aesthetic perfectly. B Corp certified, size-inclusive up to 6XL.",
+      "Made from recycled plastic bottles, the Paloma Bra is an ethical choice that doesn't compromise on performance. The wide-strap racerback provides excellent shoulder coverage, the cups are well-padded, and the compression is ideal for medium-impact class. The muted, earthy color palette fits the reformer studio aesthetic perfectly. B Corp certified, size-inclusive up to 6XL.",
     affiliateUrl: "https://www.amazon.com/s?k=girlfriend+collective+paloma+bra+sports&tag=pilatescollective-20",
   },
   {
@@ -69,7 +69,7 @@ const PRODUCTS = [
     name: "Alo Yoga Airlift Bra",
     price: "From $62",
     verdict: "Best for open-back studios",
-    tag: "Studio Favourite",
+    tag: "Studio Favorite",
     description:
       "The Airlift Bra defines the boutique studio aesthetic. The spaghetti strap and open keyhole back look exceptional, but the real story is the fabric: Alo's signature Airlift material lifts and compresses without wires. Medium support, excellent shape retention, and the only bra in this roundup that genuinely improves with wear. One caveat: the open back requires a long tank or legging with a high waist. Not sold on Amazon: this link goes to Alo Yoga's own site.",
     affiliateUrl: "https://www.aloyoga.com",
@@ -264,7 +264,7 @@ export default function BestPilatesSportsBraPage() {
                 {[
                   "Wash inside-out on a cold, delicate cycle. High heat degrades both the elastic and the silicone grip at the band.",
                   "Air dry flat: tumble drying collapses the cup structure and warps padding over time.",
-                  "Never use fabric softener on Nulu or Airlift fabrics. It coats the fibres, reducing moisture management.",
+                  "Never use fabric softener on Nulu or Airlift fabrics. It coats the fibers, reducing moisture management.",
                   "Rotate between two or three bras so each can recover its shape between sessions.",
                   "Replace when the band loses elasticity or the pads shift position: a poorly fitting bra in class is both uncomfortable and unhelpful for your instructor.",
                 ].map((tip, i) => (

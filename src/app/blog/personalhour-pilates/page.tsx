@@ -38,7 +38,7 @@ const PRODUCTS = [
     price: "$2,555",
     verdict: "The brand's luxury flagship: foldable walnut frame with lifetime classes",
     description:
-      "The Janet La Force Plus sits at the top of PersonalHour's real, currently-verified Amazon lineup. It's a foldable luxury reformer built on a walnut frame: wood rather than the aluminium construction most competitors use at this price point, which is the reason owners cite it for stability during demanding work. It's sold by PilatesUS (currently IN_STOCK_SCARCE, so availability can be tight) and includes the Pilates box, a jumpboard, and access to lifetime classes in the box. If you want the top of the PersonalHour range and are comfortable with the walnut-and-wood build, this is the model to buy.",
+      "The Janet La Force Plus sits at the top of PersonalHour's real, currently-verified Amazon lineup. It's a foldable luxury reformer built on a walnut frame: wood rather than the aluminum construction most competitors use at this price point, which is the reason owners cite it for stability during demanding work. It's sold by PilatesUS (currently IN_STOCK_SCARCE, so availability can be tight) and includes the Pilates box, a jumpboard, and access to lifetime classes in the box. If you want the top of the PersonalHour range and are comfortable with the walnut-and-wood build, this is the model to buy.",
     affiliateUrl: "https://www.amazon.com/dp/B0GNDHZXZK?tag=pilatescollective-20",
     tag: "Flagship",
   },
@@ -135,7 +135,7 @@ const jsonLd = {
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "Is PersonalHour a good reformer brand?", "acceptedAnswer": { "@type": "Answer", "text": "PersonalHour has built a reputation in the home reformer market for using solid wood in its frames rather than aluminium alone. We verified six genuine, currently-sold Amazon listings spanning $1,415.51 (Zous Pro) to $2,690 (Nano Elite Plus), all sold by PilatesUS, covering entry, mid-range, and luxury tiers." } },
+        { "@type": "Question", "name": "Is PersonalHour a good reformer brand?", "acceptedAnswer": { "@type": "Answer", "text": "PersonalHour has built a reputation in the home reformer market for using solid wood in its frames rather than aluminum alone. We verified six genuine, currently-sold Amazon listings spanning $1,415.51 (Zous Pro) to $2,690 (Nano Elite Plus), all sold by PilatesUS, covering entry, mid-range, and luxury tiers." } },
         { "@type": "Question", "name": "Which PersonalHour reformer should I buy?", "acceptedAnswer": { "@type": "Answer", "text": "For most home buyers, the Luraush ($1,897) or Janet 2.0 ($1,753.34) offer the best balance of price and accessories. Budget-conscious buyers should look at the Zous Pro ($1,415.51). Buyers who want the most rigid, studio-grade build should look at the Nano Elite Plus ($2,690), and those who want the brand's signature walnut-frame flagship should choose the Janet La Force Plus ($2,555)." } },
         { "@type": "Question", "name": "Does PersonalHour make a foldable reformer?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Both the Janet 2.0 and the Zous Pro use a quick-fold mechanism, and the Janet La Force Plus is also foldable. Confirm exact folded dimensions on the current Amazon listing before buying if storage space is a constraint." } },
         { "@type": "Question", "name": "How does PersonalHour compare to Elina Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "PersonalHour has six confirmed, live Amazon listings across its range. We could not verify a live Amazon listing for any genuine Elina-branded reformer at the time of writing: Elina is sold direct or through dealers. If Amazon purchase with buyer protection matters to you, PersonalHour is the verified option between the two." } },
@@ -166,7 +166,7 @@ export default function PersonalHourPilatesPage() {
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              PersonalHour has built a following in the home reformer market by committing to solid wood in its frames rather than the aluminium or engineered composites most competitors use at this price tier. We verified six genuine, currently-sold Amazon listings across the full range, from the $1,415.51 Zous Pro up to the $2,690 Nano Elite Plus, all sold by PilatesUS. This guide covers the real range as it exists on Amazon today.
+              PersonalHour has built a following in the home reformer market by committing to solid wood in its frames rather than the aluminum or engineered composites most competitors use at this price tier. We verified six genuine, currently-sold Amazon listings across the full range, from the $1,415.51 Zous Pro up to the $2,690 Nano Elite Plus, all sold by PilatesUS. This guide covers the real range as it exists on Amazon today.
             </p>
           </div>
         </section>

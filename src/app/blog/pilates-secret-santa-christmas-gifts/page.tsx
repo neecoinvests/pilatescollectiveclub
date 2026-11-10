@@ -185,7 +185,7 @@ const GUIDE: DealsGuideProps = {
   "watchFor": [
     {
       "h": "Buy for how they actually train.",
-      "b": "Reformer regulars use grip socks and a good bottle every class; home practisers get more from a ring, ball, bands or a better mat."
+      "b": "Reformer regulars use grip socks and a good bottle every class; home practitioners get more from a ring, ball, bands or a better mat."
     },
     {
       "h": "Sizes are the risk.",

@@ -117,7 +117,7 @@ const GUIDE: DealsGuideProps = {
         {
           "asin": "B07QHNDHW3",
           "name": "toesox Low Rise Grip Socks (Full Toe, 2-Pack)",
-          "badge": "Studio favourite",
+          "badge": "Studio favorite",
           "note": "Two pairs of full-toe grip socks from a studio staple brand.",
           "price": "$30.00"
         }
@@ -159,7 +159,7 @@ const GUIDE: DealsGuideProps = {
     },
     {
       "h": "Order early.",
-      "b": "Popular sizes and colours sell out, and holiday delivery slows down. Buying on Black Friday leaves time for exchanges."
+      "b": "Popular sizes and colors sell out, and holiday delivery slows down. Buying on Black Friday leaves time for exchanges."
     },
     {
       "h": "Check the returns window.",

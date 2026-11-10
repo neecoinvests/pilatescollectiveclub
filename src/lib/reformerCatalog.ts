@@ -33,7 +33,7 @@ export const CATALOG = {
   nanoElitePlus: {
     id: "personalhour-nano-elite-plus", name: "PersonalHour Nano Elite Plus Wood Reformer", brand: "PersonalHour", price: "$2,690.00", url: amz("B0DL4HSKG5"),
     availability: "made-to-order", soldBy: "PilatesUS",
-    specs: ["Layered maple frame, 2\" thick", "Aluminium chrome footbar", "Adjustable headrest", "Sitting box and jumpboard included", "91\" L × 27\" W × 15\" H", "290 lb"],
+    specs: ["Layered maple frame, 2\" thick", "Aluminum chrome footbar", "Adjustable headrest", "Sitting box and jumpboard included", "91\" L × 27\" W × 15\" H", "290 lb"],
     body: "A heavy, studio-style wood reformer: a 2-inch layered maple frame (double the thickness of its predecessor, per the listing), a chrome footbar, and a sitting box and jumpboard in the box.",
   },
   nour2: {
@@ -64,7 +64,7 @@ export const CATALOG = {
     id: "merrithew-at-home-spx", name: "Merrithew At Home SPX Reformer Package", brand: "Merrithew", price: "$3,349.00", url: amz("B004FGT0TM"),
     availability: "in-stock", soldBy: "Amazon.com",
     specs: ["Aluminum rails", "5 springs: 4 × 100%, 1 × 50%", "Box, metal roll-up pole, padded platform extender and double-loop straps included", "Uses the same components as Merrithew's commercial reformers, per the listing", "96.5\" L × 26\" W × 10\" H", "115 lb"],
-    body: "Merrithew's (STOTT PILATES) home package: an aluminium-rail SPX reformer plus box, roll-up pole, platform extender and straps, sold and shipped by Amazon.com. A version with a vertical storage stand is also listed.",
+    body: "Merrithew's (STOTT PILATES) home package: an aluminum-rail SPX reformer plus box, roll-up pole, platform extender and straps, sold and shipped by Amazon.com. A version with a vertical storage stand is also listed.",
   },
   spxHomeStand: {
     id: "merrithew-at-home-spx-stand", name: "Merrithew At Home SPX Reformer Package with Vertical Stand", brand: "Merrithew", price: "$3,549.00", url: amz("B0BSZ92NMH"),
@@ -76,7 +76,7 @@ export const CATALOG = {
     id: "balanced-body-allegro-stretch", name: "Balanced Body Allegro Stretch Reformer", brand: "Balanced Body", price: "$3,710.00", url: amz("B093R8DYC9"),
     availability: "made-to-order", soldBy: "Balanced Body",
     specs: ["Carriage 2\" wider and 6\" longer, frame 18\" longer than the standard Allegro", "Anodized aluminum frame", "36\" footbar with 4 locking positions", "5 Balanced Body Signature Springs", "8-wheel suspension; integrated transport wheels", "111\" L × 24.5\" W × 14\" H (14\" legs)"],
-    body: "The long version of Balanced Body's best-known aluminium reformer, built for taller and larger users: a wider, longer carriage and an 18-inch-longer frame than the standard Allegro.",
+    body: "The long version of Balanced Body's best-known aluminum reformer, built for taller and larger users: a wider, longer carriage and an 18-inch-longer frame than the standard Allegro.",
   },
   allegroStretchTower: {
     id: "balanced-body-allegro-stretch-tower", name: "Balanced Body Allegro Stretch with Tower & Mat", brand: "Balanced Body", price: "$5,275.00", url: amz("B0CQRQ9ZP4"),
@@ -88,13 +88,13 @@ export const CATALOG = {
     id: "balanced-body-rialto", name: "Balanced Body Rialto Reformer with Sitting Box Lite", brand: "Balanced Body", price: "$3,495.00", url: amz("B08CS2FYGB"),
     availability: "made-to-order", soldBy: "Balanced Body",
     specs: ["Handcrafted solid maple frame on extruded aluminum legs", "5-position footbar; 3-position no-roll springbar", "5 Signature Springs", "Extra-wide non-skid standing platform", "Sitting Box Lite and footstrap included", "96\" L × 26.5\" W × 14\" H; 140 lb"],
-    body: "Balanced Body's mixed-material reformer: a solid maple frame on aluminium legs, five Signature Springs, and a Sitting Box Lite included. The best-looking way into a Balanced Body maple frame for less than the Studio Reformer.",
+    body: "Balanced Body's mixed-material reformer: a solid maple frame on aluminum legs, five Signature Springs, and a Sitting Box Lite included. The best-looking way into a Balanced Body maple frame for less than the Studio Reformer.",
   },
   rialtoTower: {
     id: "balanced-body-rialto-tower", name: "Balanced Body Rialto Reformer with Tower & Mat", brand: "Balanced Body", price: "$4,230.00", url: amz("B08CR4XZWD"),
     availability: "made-to-order", soldBy: "Balanced Body",
     specs: ["Tower: 29 spring-attachment points, wood roll-down bar, attached push-through bar", "8 tower springs; over-molded mat", "5 Signature Springs on the reformer", "Sitting Box Lite and footstrap included", "96\" L × 26.5\" W × 74.6\" H; 180 lb"],
-    body: "The Rialto with a tower and mat conversion: reformer, tower and mat work on one maple-and-aluminium frame, for under $4,500.",
+    body: "The Rialto with a tower and mat conversion: reformer, tower and mat work on one maple-and-aluminum frame, for under $4,500.",
   },
   studioRevo: {
     id: "balanced-body-studio-reformer", name: "Balanced Body Studio Reformer (Revo Footbar)", brand: "Balanced Body", price: "$4,700.00", url: amz("B002XVWIFE"),
@@ -123,7 +123,7 @@ export const CATALOG = {
   cadillac: {
     id: "balanced-body-cadillac", name: "Balanced Body Trapeze Table (Cadillac)", brand: "Balanced Body", price: "$5,030.00", url: amz("B01N5OIH13"),
     availability: "made-to-order", soldBy: "Balanced Body",
-    specs: ["Stainless steel canopy", "12 Signature Springs", "Push-through bar on an anodized aluminium slide, 3 heights", "Maple roll-down bar, padded trapeze bar, belly strap", "86\" × 28.5\" × 87\" with canopy", "Made in the USA"],
+    specs: ["Stainless steel canopy", "12 Signature Springs", "Push-through bar on an anodized aluminum slide, 3 heights", "Maple roll-down bar, padded trapeze bar, belly strap", "86\" × 28.5\" × 87\" with canopy", "Made in the USA"],
     body: "The Cadillac: the apparatus that, after reformers, most separates a full equipment studio from a reformer-only room. Made in the USA with a stainless steel canopy and 12 Signature Springs.",
   },
   ladderBarrel: {

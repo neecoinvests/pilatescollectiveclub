@@ -43,12 +43,12 @@ const PRINCIPLES = [
   {
     number: "02",
     name: "Control",
-    body: "The original name of Pilates was 'Contrology'the study of control. Every movement is performed with deliberate muscular control rather than momentum, gravity, or habit. This is why Pilates exercises are typically slow: speed allows sloppiness; control demands precision. When you control a movement, you train the muscle fibres, connective tissue, and neural pathways simultaneously.",
+    body: "The original name of Pilates was 'Contrology'the study of control. Every movement is performed with deliberate muscular control rather than momentum, gravity, or habit. This is why Pilates exercises are typically slow: speed allows sloppiness; control demands precision. When you control a movement, you train the muscle fibers, connective tissue, and neural pathways simultaneously.",
   },
   {
     number: "03",
     name: "Centering",
-    body: "Pilates identified the centre of the body (the area between the lower ribs and the hip bones, encompassing the deep abdominals, pelvic floor, and spinal stabilisers) as the origin of all movement. He called it the 'powerhouse.' Every exercise, on the mat or the reformer, initiates from and returns to this centre. Developing awareness of and strength in the powerhouse is the defining physical goal of the method.",
+    body: "Pilates identified the center of the body (the area between the lower ribs and the hip bones, encompassing the deep abdominals, pelvic floor, and spinal stabilizers) as the origin of all movement. He called it the 'powerhouse.' Every exercise, on the mat or the reformer, initiates from and returns to this center. Developing awareness of and strength in the powerhouse is the defining physical goal of the method.",
   },
   {
     number: "04",
@@ -142,12 +142,12 @@ const jsonLd = {
     {
       "@type": "Question",
       "name": "Why is breathing important in Pilates?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Breathing in Pilates is functional and intentional. Exhalation on exertion engages the deep abdominals and pelvic floor, supporting spinal stability. Lateral breathing keeps the ribcage stable during abdominal work. Proper breath prevents the Valsalva manoeuvre during loading." }
+      "acceptedAnswer": { "@type": "Answer", "text": "Breathing in Pilates is functional and intentional. Exhalation on exertion engages the deep abdominals and pelvic floor, supporting spinal stability. Lateral breathing keeps the ribcage stable during abdominal work. Proper breath prevents the Valsalva maneuver during loading." }
     },
     {
       "@type": "Question",
       "name": "What is the powerhouse in Pilates?",
-      "acceptedAnswer": { "@type": "Answer", "text": "The powerhouse is Joseph Pilates' term for the deep muscular corset supporting the spine: the transverse abdominis, multifidus, pelvic floor, and diaphragm. Modern anatomical understanding describes this as the 'inner unit' or 'local stabilisers'. All Pilates movement initiates from this centre." }
+      "acceptedAnswer": { "@type": "Answer", "text": "The powerhouse is Joseph Pilates' term for the deep muscular corset supporting the spine: the transverse abdominis, multifidus, pelvic floor, and diaphragm. Modern anatomical understanding describes this as the 'inner unit' or 'local stabilizers'. All Pilates movement initiates from this center." }
     },
     {
       "@type": "Question",
@@ -161,7 +161,7 @@ const jsonLd = {
 const PRODUCTS = [
   { name: "Manduka PRO Pilates Mat", description: "The six principles are most fully expressed on a stable, consistent surface. The PRO's density and grip allow the concentration and precision that the method demands without distraction.", price: "$144.00", affiliateUrl: "https://www.amazon.com/dp/B0066T7I54?tag=pilatescollective-20" },
   { name: "Balanced Body Magic Circle", description: "Designed specifically to teach the activation connections that embody the Pilates principles: centring, control, and integration of the whole body in every exercise.", price: "$35.00", affiliateUrl: "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20" },
-  { name: "OPTP Foam Roller (36-inch)", description: "Spinal articulation, one of the most central expressions of the Pilates principles, is developed through consistent thoracic mobilisation. The foam roller supports this foundational work.", price: "$62.99", affiliateUrl: "https://www.amazon.com/dp/B002C9EX14?tag=pilatescollective-20" },
+  { name: "OPTP Foam Roller (36-inch)", description: "Spinal articulation, one of the most central expressions of the Pilates principles, is developed through consistent thoracic mobilization. The foam roller supports this foundational work.", price: "$62.99", affiliateUrl: "https://www.amazon.com/dp/B002C9EX14?tag=pilatescollective-20" },
   { name: "TheraBand Resistance Bands Set", description: "Home practice resistance work that applies the six principles outside the studio. Using bands with full concentration and control develops the somatic intelligence that Pilates is designed to build.", price: "$11.99", affiliateUrl: "https://www.amazon.com/dp/B01A58FHQ8?tag=pilatescollective-20" },
   { name: "Return to Life Through Contrology", description: "The original text by Joseph Pilates: the primary source for understanding what the principles meant in their original context. Essential reading for any serious practitioner.", price: "$17.90", affiliateUrl: "https://www.amazon.com/dp/1928564909?tag=pilatescollective-20" },
 ];

@@ -96,9 +96,9 @@ const GUIDE: EquipmentGuideProps = {
       eyebrow: "Earbuds",
       heading: "Earbuds for training and the commute",
       items: [
-        gift("airpodsPro3", { badge: "Best for iPhone Users", pros: ["Heart rate sensing", "Strong noise cancelling"], cons: ["No earhooks"] }),
+        gift("airpodsPro3", { badge: "Best for iPhone Users", pros: ["Heart rate sensing", "Strong noise canceling"], cons: ["No earhooks"] }),
         gift("powerbeatsPro2", { badge: "Best Workout Earbuds", pros: ["Earhooks stay put", "Up to 45 hours with case"], cons: ["Earhooks are bulkier than standard earbuds"] }),
-        gift("boseQCUltra2", { badge: "Best Noise Cancelling", pros: ["CustomTune fit", "Immersive Audio"], cons: ["Up to 6 hours per charge"] }),
+        gift("boseQCUltra2", { badge: "Best Noise Canceling", pros: ["CustomTune fit", "Immersive Audio"], cons: ["Up to 6 hours per charge"] }),
         gift("smartGoggles", { badge: "Best Wind-Down Gadget", pros: ["Heat, compression and vibration"], cons: ["For relaxation, not training"] }),
       ],
     },
@@ -107,7 +107,7 @@ const GUIDE: EquipmentGuideProps = {
     { q: "What is the best fitness tracker for Pilates?", a: "For iPhone users, the Apple Watch Series 12; for long battery life, the Garmin Venu 4 (up to 10 days). If they would rather not wear a watch to class, the Oura Ring 5 or a WHOOP band tracks sleep and recovery without a screen." },
     { q: "Oura or WHOOP?", a: "Oura Ring 5 ($399) is a ring with a monthly membership after the first month. WHOOP's price is a 12-month membership with the device included: $199 for WHOOP One or $359 for WHOOP Life with ECG." },
     { q: "Can you wear a smartwatch to reformer Pilates?", a: "Many people do. Some prefer a ring or band so nothing catches on straps or the carriage; ask the studio if they have a policy." },
-    { q: "What are the best earbuds for working out?", a: "Beats Powerbeats Pro 2 ($249) have earhooks that stay put. AirPods Pro 3 ($199) add heart rate sensing; Bose QuietComfort Ultra Earbuds 2nd Gen ($299) lead on noise cancelling." },
+    { q: "What are the best earbuds for working out?", a: "Beats Powerbeats Pro 2 ($249) have earhooks that stay put. AirPods Pro 3 ($199) add heart rate sensing; Bose QuietComfort Ultra Earbuds 2nd Gen ($299) lead on noise canceling." },
     { q: "Are these prices final?", a: `They are the Amazon prices we checked on ${GIFTS_CHECKED}. Tech is often discounted around Black Friday (November 27) and Cyber Monday (November 30).` },
   ],
   related: [

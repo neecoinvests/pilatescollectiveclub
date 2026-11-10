@@ -221,7 +221,7 @@ export default function PilatesReformerWithTowerPage() {
                 <ul className="space-y-2">
                   {[
                     "You want to start with a confirmed tower-compatible reformer now and add the tower attachment later through a Balanced Body dealer.",
-                    "You already favour Balanced Body's accessory ecosystem and are comfortable buying the tower piece outside of Amazon.",
+                    "You already favor Balanced Body's accessory ecosystem and are comfortable buying the tower piece outside of Amazon.",
                     "You want the lower entry price of the reformer alone before committing to the full tower cost.",
                   ].map((item, i) => (
                     <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>

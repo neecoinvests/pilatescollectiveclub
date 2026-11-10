@@ -40,7 +40,7 @@ const PRODUCTS = [
     price: "$98.00",
     verdict: "Best Varley legging for Pilates",
     description:
-      "The Freesoft Piped Full Leggings are Varley&apos;s full-length legging, made from the brand&apos;s Freesoft fabric and finished with a piped seam down the outer leg: a small detail that reads as considered rather than plain. This listing is the Marina colourway, a deep tonal blue that fits the muted, boutique-studio palette Varley is known for. At $98.00, it&apos;s one of the more accessible entry points into the brand&apos;s legging range.",
+      "The Freesoft Piped Full Leggings are Varley&apos;s full-length legging, made from the brand&apos;s Freesoft fabric and finished with a piped seam down the outer leg: a small detail that reads as considered rather than plain. This listing is the Marina colorway, a deep tonal blue that fits the muted, boutique-studio palette Varley is known for. At $98.00, it&apos;s one of the more accessible entry points into the brand&apos;s legging range.",
     affiliateUrl: "https://www.amazon.com/dp/B0FXN378H8?tag=pilatescollective-20",
     tag: "Top Pick",
   },
@@ -50,7 +50,7 @@ const PRODUCTS = [
     price: "$138.00",
     verdict: "Best Varley layer for post-class",
     description:
-      "The Davidson Sweat is Varley&apos;s pullover sweatshirt: the piece to throw on before or after class, over a bra and legging, without looking like gym wear. This listing is the Taupe Marl colourway, a soft heathered neutral that pairs easily with the rest of a tonal Varley wardrobe. At $138 it&apos;s the most expensive item on this list, priced as the layering piece it is rather than a core class garment.",
+      "The Davidson Sweat is Varley&apos;s pullover sweatshirt: the piece to throw on before or after class, over a bra and legging, without looking like gym wear. This listing is the Taupe Marl colorway, a soft heathered neutral that pairs easily with the rest of a tonal Varley wardrobe. At $138 it&apos;s the most expensive item on this list, priced as the layering piece it is rather than a core class garment.",
     affiliateUrl: "https://www.amazon.com/dp/B0DFZPBZDV?tag=pilatescollective-20",
     tag: "Post-Class Layer",
   },
@@ -60,7 +60,7 @@ const PRODUCTS = [
     price: "$55.00",
     verdict: "Best Varley top for studio-to-street",
     description:
-      "The Callie Knit Top is built for the transition between studio and the rest of the day, not a technical class top, but the kind of piece that makes a Pilates wardrobe work outside the studio too. Shown here in Porcelain Blue, a pale, soft blue in keeping with Varley&apos;s understated colour sensibility. At $55.00 it&apos;s one of the more wallet-friendly ways into the brand.",
+      "The Callie Knit Top is built for the transition between studio and the rest of the day, not a technical class top, but the kind of piece that makes a Pilates wardrobe work outside the studio too. Shown here in Porcelain Blue, a pale, soft blue in keeping with Varley&apos;s understated color sensibility. At $55.00 it&apos;s one of the more wallet-friendly ways into the brand.",
     affiliateUrl: "https://www.amazon.com/dp/B0FP46RRCG?tag=pilatescollective-20",
     tag: "Studio-to-Street",
   },
@@ -80,7 +80,7 @@ const PRODUCTS = [
     price: "$66.00",
     verdict: "Best Varley bra for studio wear",
     description:
-      "The Freesoft Harley Bralette is Varley&apos;s bralette, cut from the same Freesoft fabric as the Piped Full Legging above and shown here in the matching Marina colourway: an easy way to build a tonal, matching set. At $66.00 it&apos;s the most affordable piece on this list and a low-commitment way to try the Freesoft fabric before buying into a full legging.",
+      "The Freesoft Harley Bralette is Varley&apos;s bralette, cut from the same Freesoft fabric as the Piped Full Legging above and shown here in the matching Marina colorway: an easy way to build a tonal, matching set. At $66.00 it&apos;s the most affordable piece on this list and a low-commitment way to try the Freesoft fabric before buying into a full legging.",
     affiliateUrl: "https://www.amazon.com/dp/B0FXN42JWR?tag=pilatescollective-20",
     tag: "Matching Set",
   },
@@ -114,8 +114,8 @@ const jsonLd = {
     "mainEntity": [
       { "@type": "Question", "name": "Is Varley worth the price for Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, with the caveat that you buy the right pieces. The Freesoft leggings and matching Harley bralette are a genuinely well-made, Pilates-appropriate set, and the Davidson Sweat is a strong post-class layer. The brand's less functional pieces (relaxed fits, mesh panels) are not worth the price for Pilates specifically. Buy selectively." } },
       { "@type": "Question", "name": "How does Varley sizing compare to Lululemon?", "acceptedAnswer": { "@type": "Answer", "text": "Varley generally runs true to size across their legging range, including the Freesoft leggings featured above. Most Varley leggings have slightly more structure than the equivalent Lululemon Align at the same size, which most practitioners find appropriate. If you are between sizes and usually size up in Lululemon, stay true to size in Varley. The waistband does not have significant give, so sizing accurately is important." } },
-      { "@type": "Question", "name": "Where can I buy Varley?", "acceptedAnswer": { "@type": "Answer", "text": "Varley is available through their own website, Net-a-Porter, Selfridges, Bloomingdale's, and selected boutique activewear retailers. On Amazon, Varley is sold via Shopbop and Zappos, both Amazon-owned retailers, though the selection is limited to specific sizes and colourways rather than the full range. For the widest selection including new arrivals, the brand's own website is the most reliable source." } },
-      { "@type": "Question", "name": "Varley vs Alo vs Lululemon, which brand should I buy first?", "acceptedAnswer": { "@type": "Answer", "text": "For most practitioners starting a studio wardrobe: start with Lululemon Align (best value, widest availability, proven performance). Add Alo Airbrush if you prefer firmer compression. Add Varley if you want the European boutique aesthetic or find Alo's colourways too saturated. Varley is typically the third brand in a practitioner's wardrobe rather than the first, but those who start with it rarely leave it." } }
+      { "@type": "Question", "name": "Where can I buy Varley?", "acceptedAnswer": { "@type": "Answer", "text": "Varley is available through their own website, Net-a-Porter, Selfridges, Bloomingdale's, and selected boutique activewear retailers. On Amazon, Varley is sold via Shopbop and Zappos, both Amazon-owned retailers, though the selection is limited to specific sizes and colorways rather than the full range. For the widest selection including new arrivals, the brand's own website is the most reliable source." } },
+      { "@type": "Question", "name": "Varley vs Alo vs Lululemon, which brand should I buy first?", "acceptedAnswer": { "@type": "Answer", "text": "For most practitioners starting a studio wardrobe: start with Lululemon Align (best value, widest availability, proven performance). Add Alo Airbrush if you prefer firmer compression. Add Varley if you want the European boutique aesthetic or find Alo's colorways too saturated. Varley is typically the third brand in a practitioner's wardrobe rather than the first, but those who start with it rarely leave it." } }
     ]
   },
   ],
@@ -169,15 +169,15 @@ export default function VarleyPilatesPage() {
             <div className="mb-16 mt-4">
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What makes Varley different from Lululemon and Alo</h2>
               <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Varley occupies a specific market position: more sophisticated in aesthetic than Lululemon, more European in sensibility than Alo. The brand is British-founded and their colour palette reflects it: muted, tonal, understated rather than the saturated hues that Alo uses. In the boutique Pilates studios of Mayfair, Paris, and Zurich, Varley is the most common premium brand. In New York, it competes directly with Alo.
+                Varley occupies a specific market position: more sophisticated in aesthetic than Lululemon, more European in sensibility than Alo. The brand is British-founded and their color palette reflects it: muted, tonal, understated rather than the saturated hues that Alo uses. In the boutique Pilates studios of Mayfair, Paris, and Zurich, Varley is the most common premium brand. In New York, it competes directly with Alo.
               </p>
               <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                 The functional differentiator is their approach to fabric: the LUXE-fit fabric used across their core Pilates range achieves a specific balance of softness and structure that positions the brand between the pure softness of the Lululemon Align and the firmer compression of the Alo Airbrush. For practitioners who find the Align slightly too unstructured and the Airbrush slightly too firm, Varley is the natural choice.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-6">
                 {[
-                  { heading: "vs Lululemon", body: "More structured than the Align. Similar softness to the Align Bra. More sophisticated colour palette. Higher price point for equivalent pieces." },
-                  { heading: "vs Alo Yoga", body: "Less compression than the Airbrush. More European aesthetic. Better post-class transition pieces. More neutral colourways." },
+                  { heading: "vs Lululemon", body: "More structured than the Align. Similar softness to the Align Bra. More sophisticated color palette. Higher price point for equivalent pieces." },
+                  { heading: "vs Alo Yoga", body: "Less compression than the Airbrush. More European aesthetic. Better post-class transition pieces. More neutral colorways." },
                   { heading: "vs Vuori", body: "More Pilates-specific design intent. Less unisex appeal. Higher price. Cleaner studio aesthetic, less street-casual." },
                 ].map((item) => (
                   <div key={item.heading} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
@@ -226,8 +226,8 @@ export default function VarleyPilatesPage() {
                 {[
                   { q: "Is Varley worth the price for Pilates?", a: "Yes, with the caveat that you buy the right pieces. The Freesoft leggings and matching Harley bralette are a genuinely well-made, Pilates-appropriate set, and the Davidson Sweat is a strong post-class layer. The brand's less functional pieces (relaxed fits, mesh panels) are not worth the price for Pilates specifically. Buy selectively." },
                   { q: "How does Varley sizing compare to Lululemon?", a: "Varley generally runs true to size across their legging range, including the Freesoft leggings featured above. Most Varley leggings have slightly more structure than the equivalent Lululemon Align at the same size, which most practitioners find appropriate. If you are between sizes and usually size up in Lululemon, stay true to size in Varley. The waistband does not have significant give, so sizing accurately is important." },
-                  { q: "Where can I buy Varley?", a: "Varley is available through their own website, Net-a-Porter, Selfridges, Bloomingdale's, and selected boutique activewear retailers. On Amazon, Varley is sold via Shopbop and Zappos, both Amazon-owned retailers, though the selection is limited to specific sizes and colourways rather than the full range. For the widest selection including new arrivals, the brand's own website is the most reliable source." },
-                  { q: "Varley vs Alo vs Lululemon, which brand should I buy first?", a: "For most practitioners starting a studio wardrobe: start with Lululemon Align (best value, widest availability, proven performance). Add Alo Airbrush if you prefer firmer compression. Add Varley if you want the European boutique aesthetic or find Alo's colourways too saturated. Varley is typically the third brand in a practitioner's wardrobe rather than the first, but those who start with it rarely leave it." },
+                  { q: "Where can I buy Varley?", a: "Varley is available through their own website, Net-a-Porter, Selfridges, Bloomingdale's, and selected boutique activewear retailers. On Amazon, Varley is sold via Shopbop and Zappos, both Amazon-owned retailers, though the selection is limited to specific sizes and colorways rather than the full range. For the widest selection including new arrivals, the brand's own website is the most reliable source." },
+                  { q: "Varley vs Alo vs Lululemon, which brand should I buy first?", a: "For most practitioners starting a studio wardrobe: start with Lululemon Align (best value, widest availability, proven performance). Add Alo Airbrush if you prefer firmer compression. Add Varley if you want the European boutique aesthetic or find Alo's colorways too saturated. Varley is typically the third brand in a practitioner's wardrobe rather than the first, but those who start with it rarely leave it." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>

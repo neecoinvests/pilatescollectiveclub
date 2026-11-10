@@ -319,7 +319,7 @@ export default function LagreeFitnessPage() {
             <TopPick name={QUICK_PICKS[0].name} price={QUICK_PICKS[0].price} note={QUICK_PICKS[0].note} url={QUICK_PICKS[0].url} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Lagree Fitness is the company behind the Lagree method and the Megaformer, the spring-loaded machine you shake on in Lagree studios. What most people do not realise is that you can buy genuine Lagree-branded equipment for home: The Micro, Lagree Fitness&apos;s compact home machine, and its accessories are sold by Lagree Fitness through its own Amazon store. This guide covers who the brand is, how the method works, the machine family, and exactly what a full home setup costs.
+              Lagree Fitness is the company behind the Lagree method and the Megaformer, the spring-loaded machine you shake on in Lagree studios. What most people do not realize is that you can buy genuine Lagree-branded equipment for home: The Micro, Lagree Fitness&apos;s compact home machine, and its accessories are sold by Lagree Fitness through its own Amazon store. This guide covers who the brand is, how the method works, the machine family, and exactly what a full home setup costs.
             </p>
             <p className="text-sm leading-relaxed" style={bodyStyle}>
               Every Amazon listing below was checked as live on September 28, 2026, at the price shown. The Micro and the Micro Pulley Cables were low on stock at that time; if either is unavailable, buy direct from{" "}
@@ -340,7 +340,7 @@ export default function LagreeFitnessPage() {
           <div className="max-w-3xl mx-auto">
 
             <QuickPicks className="mb-6 mt-4" picks={QUICK_PICKS} />
-            <AffiliateNote>Most links on this page go to Amazon, and we earn a small commission on qualifying purchases. The Megaformer is not sold on Amazon and links directly to lagreefitness.com; it is labelled as such.</AffiliateNote>
+            <AffiliateNote>Most links on this page go to Amazon, and we earn a small commission on qualifying purchases. The Megaformer is not sold on Amazon and links directly to lagreefitness.com; it is labeled as such.</AffiliateNote>
 
             {/* Related hubs */}
             <div className="mb-10 mt-4 flex flex-col sm:flex-row gap-3">
@@ -383,7 +383,7 @@ export default function LagreeFitnessPage() {
             <div className="mb-16">
               <h2 className="text-3xl font-semibold mb-6" style={h2Style}>What Lagree Fitness is</h2>
               <p className="text-sm leading-relaxed mb-4" style={bodyStyle}>
-                Lagree Fitness is the company behind the Lagree method, which was created by Sebastien Lagree, and it makes the machines the method is taught on. When you book a Lagree class, the machine under you is a Megaformer, and the workout is built around it. That tight link between method and machine is what makes Lagree different from most boutique formats: the equipment is not generic gym kit with a branded class on top, it is the thing the whole programme is written for.
+                Lagree Fitness is the company behind the Lagree method, which was created by Sebastien Lagree, and it makes the machines the method is taught on. When you book a Lagree class, the machine under you is a Megaformer, and the workout is built around it. That tight link between method and machine is what makes Lagree different from most boutique formats: the equipment is not generic gym kit with a branded class on top, it is the thing the whole program is written for.
               </p>
               <p className="text-sm leading-relaxed mb-4" style={bodyStyle}>
                 For shoppers, the brand splits into two product lines. The Megaformer is the commercial studio machine, sold directly by Lagree Fitness. The Micro is the compact home machine, and it, together with its rear platform, handlebars and pulley cables, is sold by Lagree Fitness on Amazon. That matters because it means the Amazon listings on this page are the real, brand-sold products, not look-alikes from unrelated sellers.
@@ -481,7 +481,7 @@ export default function LagreeFitnessPage() {
                 ))}
               </div>
               <div className="mt-6 rounded-2xl p-6 md:p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.5)" }}>
-                <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={eyebrowStyle}>How to prioritise</p>
+                <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={eyebrowStyle}>How to prioritize</p>
                 <ul className="space-y-3">
                   <li className="text-sm leading-relaxed" style={bodyStyle}>
                     <span className="font-semibold" style={{ color: "#1b1c1c" }}>Rear platform first.</span> It adds the most exercises (express lunge, 5th lunge, super crunch, giant wheelbarrow), and it is required before handlebars can go at the back.

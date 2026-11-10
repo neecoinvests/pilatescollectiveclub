@@ -112,7 +112,7 @@ const jsonLd = {
       "mainEntity": [
         { "@type": "Question", "name": "Is Pilates good for arthritis?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Multiple clinical studies support Pilates as beneficial for both osteoarthritis (OA) and rheumatoid arthritis (RA). Benefits include improved joint mobility, reduced pain scores, better balance and proprioception, and stronger supporting musculature. The low-impact nature of Pilates and its emphasis on controlled movement make it more accessible than many other exercise forms for people with arthritic joints." } },
         { "@type": "Question", "name": "Which type of Pilates is best for arthritis?", "acceptedAnswer": { "@type": "Answer", "text": "Reformer Pilates is often better tolerated than mat Pilates for arthritis because the spring resistance system allows exercises to be performed with less body weight through the joints. The carriage support reduces the need to hold positions that load arthritic knees and wrists, and the spring assistance can reduce the effort required in challenging positions. Mat Pilates is also appropriate with a thick mat and appropriate modifications." } },
-        { "@type": "Question", "name": "Should I do Pilates during an arthritis flare?", "acceptedAnswer": { "@type": "Answer", "text": "No. During an active inflammatory flare (characterised by significant joint swelling, redness, warmth, and acute pain) rest and medical management take priority over exercise. Gentle range-of-motion movements and walking may be appropriate depending on severity, but structured Pilates should wait until the acute flare resolves. Consult your rheumatologist for specific guidance on exercise during flares." } },
+        { "@type": "Question", "name": "Should I do Pilates during an arthritis flare?", "acceptedAnswer": { "@type": "Answer", "text": "No. During an active inflammatory flare (characterized by significant joint swelling, redness, warmth, and acute pain) rest and medical management take priority over exercise. Gentle range-of-motion movements and walking may be appropriate depending on severity, but structured Pilates should wait until the acute flare resolves. Consult your rheumatologist for specific guidance on exercise during flares." } },
       ],
     },
   ],
@@ -147,7 +147,7 @@ export default function PilatesForArthritisPage() {
             </p>
             <div className="rounded-xl p-6 mb-4" style={{ backgroundColor: "#fff9f5", border: "1px solid rgba(197,168,130,0.3)" }}>
               <p className="text-xs font-semibold uppercase tracking-[0.15em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Medical note</p>
-              <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Consult your rheumatologist or GP before beginning or modifying an exercise programme. This guide is for general educational purposes and does not replace individual medical advice.</p>
+              <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Consult your rheumatologist or GP before beginning or modifying an exercise program. This guide is for general educational purposes and does not replace individual medical advice.</p>
             </div>
           </div>
         </section>
@@ -169,7 +169,7 @@ export default function PilatesForArthritisPage() {
             <div className="mb-16">
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What the evidence says</h2>
               <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Multiple randomised controlled trials have examined Pilates for arthritis management. Key findings include:
+                Multiple randomized controlled trials have examined Pilates for arthritis management. Key findings include:
               </p>
               <div className="space-y-4 mb-8">
                 {[
@@ -193,7 +193,7 @@ export default function PilatesForArthritisPage() {
                   { joint: "Knees", mods: "Use a thick mat (10mm) for kneeling exercises. Avoid deep knee flexion beyond comfortable range. Perform footwork on the reformer with spring assistance rather than full body weight. Use a knee sleeve for warmth and proprioception." },
                   { joint: "Hips", mods: "Avoid exercises that require full hip flexion or extreme external rotation beyond your pain-free range. Supine hip work with a small overball between the knees is often more comfortable than standing hip exercises. Avoid high-impact reformer jumping work." },
                   { joint: "Wrists and hands", mods: "Substitute fist-leaning or forearm-supported positions for open-palm quadruped exercises. Use wrist wraps for exercises that require wrist extension loading. Reformer work with loops is often more accessible than mat exercises that require floor hand placement." },
-                  { joint: "Spine", mods: "Work within a comfortable range of flexion and extension: do not force through end-range where there is arthritic disc or facet involvement. The neutral spine position that Pilates emphasises is inherently protective for most spinal arthritis presentations." },
+                  { joint: "Spine", mods: "Work within a comfortable range of flexion and extension: do not force through end-range where there is arthritic disc or facet involvement. The neutral spine position that Pilates emphasizes is inherently protective for most spinal arthritis presentations." },
                 ].map((item) => (
                   <div key={item.joint} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-sm font-semibold mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{item.joint}</p>
@@ -225,7 +225,7 @@ export default function PilatesForArthritisPage() {
                 {[
                   { q: "Is Pilates good for arthritis?", a: "Yes. Multiple clinical studies support Pilates as beneficial for both osteoarthritis and rheumatoid arthritis. Benefits include improved joint mobility, reduced pain scores, better balance and proprioception, and stronger supporting musculature. The low-impact nature of Pilates and its emphasis on controlled movement make it more accessible than many other exercise forms for people with arthritic joints." },
                   { q: "Which type of Pilates is best for arthritis?", a: "Reformer Pilates is often better tolerated than mat Pilates for arthritis because the spring resistance system allows exercises to be performed with less body weight through the joints. The carriage support reduces the need to hold positions that load arthritic knees and wrists, and the spring assistance can reduce the effort required in challenging positions. Mat Pilates is also appropriate with a thick mat and appropriate modifications." },
-                  { q: "Should I do Pilates during an arthritis flare?", a: "No. During an active inflammatory flare (characterised by significant joint swelling, redness, warmth, and acute pain) rest and medical management take priority over exercise. Structured Pilates should wait until the acute flare resolves. Consult your rheumatologist for specific guidance on exercise during flares." },
+                  { q: "Should I do Pilates during an arthritis flare?", a: "No. During an active inflammatory flare (characterized by significant joint swelling, redness, warmth, and acute pain) rest and medical management take priority over exercise. Structured Pilates should wait until the acute flare resolves. Consult your rheumatologist for specific guidance on exercise during flares." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>

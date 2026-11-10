@@ -32,7 +32,7 @@ const PRODUCTS = [
     name: "Merrithew At Home SPX Reformer Package",
     price: "$3,349",
     verdict: "The real SPX machine Merrithew actually sells on Amazon",
-    description: "First, a naming note: this reformer is often searched for as the \"SPX Max,\" but that name is not a standalone Amazon listing. The machine Merrithew genuinely sells on Amazon is the At Home SPX Reformer Package, and that is what this review covers, priced honestly at $3,349. It carries Merrithew's five colour-coded spring system, with unusually fine gradation at the light end, the range that matters most for rehabilitation and prenatal work, and is sized to fit along a wall in most bedrooms rather than requiring a dedicated studio footprint.",
+    description: "First, a naming note: this reformer is often searched for as the \"SPX Max,\" but that name is not a standalone Amazon listing. The machine Merrithew genuinely sells on Amazon is the At Home SPX Reformer Package, and that is what this review covers, priced honestly at $3,349. It carries Merrithew's five color-coded spring system, with unusually fine gradation at the light end, the range that matters most for rehabilitation and prenatal work, and is sized to fit along a wall in most bedrooms rather than requiring a dedicated studio footprint.",
     affiliateUrl: "https://www.amazon.com/dp/B004FGT0TM?tag=pilatescollective-20",
     tag: "The Real Listing",
   },
@@ -77,7 +77,7 @@ const PRODUCTS = [
 const SPECS = [
   { label: "Sold by", value: "Amazon.com directly, under the At Home SPX Reformer Package listing" },
   { label: "Price", value: "$3,349" },
-  { label: "Springs", value: "Five colour-coded springs, with fine gradation at the light-resistance end" },
+  { label: "Springs", value: "Five color-coded springs, with fine gradation at the light-resistance end" },
   { label: "Footprint", value: "Sized to fit along a wall in most bedrooms" },
   { label: "Sold as", value: "A package: confirm exactly what is included before ordering, since Merrithew's packages vary" },
   { label: "Methodology", value: "STOTT PILATES: Merrithew's contemporary, neutral-spine approach to Pilates" },
@@ -87,7 +87,7 @@ const SPECS = [
 const FAQS = [
   {
     q: "Is the \"Merrithew SPX Max\" sold on Amazon?",
-    a: "Not as a standalone listing. \"SPX Max\" is Merrithew's studio-line name, sold through Merrithew's own site and authorised dealers. The SPX-family machine actually sold on Amazon is the At Home SPX Reformer Package, at $3,349: that is the real product this review covers.",
+    a: "Not as a standalone listing. \"SPX Max\" is Merrithew's studio-line name, sold through Merrithew's own site and authorized dealers. The SPX-family machine actually sold on Amazon is the At Home SPX Reformer Package, at $3,349: that is the real product this review covers.",
   },
   {
     q: "How does the At Home SPX compare to Balanced Body?",
@@ -103,7 +103,7 @@ const FAQS = [
   },
   {
     q: "Where do I buy the Merrithew At Home SPX?",
-    a: "Directly on Amazon.com, or through Merrithew authorised dealers listed on merrithew.com. Authorised dealers provide warranty coverage and access to servicing.",
+    a: "Directly on Amazon.com, or through Merrithew authorized dealers listed on merrithew.com. Authorized dealers provide warranty coverage and access to servicing.",
   },
 ];
 
@@ -196,13 +196,13 @@ export default function MerrithewSPXMaxReviewPage() {
             <div className="mb-16 mt-4">
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What makes the At Home SPX different</h2>
               <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Merrithew&apos;s spring system is built around five colour-coded springs with unusually fine gradation at the light end of the resistance range. That precision matters most in rehabilitation exercises, pregnancy Pilates, and early post-surgical recovery, where a small jump between settings can be the difference between a productive rep and one that overloads a joint. The STOTT PILATES certification program has standardised these colour conventions across Merrithew&apos;s global instructor network, so a STOTT-trained practitioner works within the same resistance language wherever they train. For general home practice the difference against a well-built Balanced Body machine is less dramatic, both brands cover the full reformer repertoire, but the light-end gradation is a genuine, specific advantage worth knowing about.
+                Merrithew&apos;s spring system is built around five color-coded springs with unusually fine gradation at the light end of the resistance range. That precision matters most in rehabilitation exercises, pregnancy Pilates, and early post-surgical recovery, where a small jump between settings can be the difference between a productive rep and one that overloads a joint. The STOTT PILATES certification program has standardized these color conventions across Merrithew&apos;s global instructor network, so a STOTT-trained practitioner works within the same resistance language wherever they train. For general home practice the difference against a well-built Balanced Body machine is less dramatic, both brands cover the full reformer repertoire, but the light-end gradation is a genuine, specific advantage worth knowing about.
               </p>
               <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                 On footprint, the At Home SPX is sized to fit along a wall in most bedrooms rather than demanding a dedicated studio room, which is the reason it gets recommended for apartments and multi-use spaces. We could not verify a fold-flat-onto-castors storage feature for this specific listing, so don&apos;t count on it folding flat and rolling under a bed. If flat-fold, under-bed storage is a hard requirement for you, verify that feature against the current Amazon listing yourself before buying on the strength of it.
               </p>
               <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Merrithew developed the STOTT PILATES method: a contemporary, biomechanically refined approach to Pilates that emphasises natural spinal curves (neutral spine) rather than the imprinted spine of classical Pilates. For practitioners who have trained with STOTT-certified instructors, which accounts for a large share of the contemporary Pilates community, the spring colour conventions and carriage feel are exactly what they have already been taught on. Moving from studio to home on genuinely Merrithew-branded equipment removes a real variable from that transition.
+                Merrithew developed the STOTT PILATES method: a contemporary, biomechanically refined approach to Pilates that emphasizes natural spinal curves (neutral spine) rather than the imprinted spine of classical Pilates. For practitioners who have trained with STOTT-certified instructors, which accounts for a large share of the contemporary Pilates community, the spring color conventions and carriage feel are exactly what they have already been taught on. Moving from studio to home on genuinely Merrithew-branded equipment removes a real variable from that transition.
               </p>
             </div>
 
@@ -224,7 +224,7 @@ export default function MerrithewSPXMaxReviewPage() {
               <h2 className="text-2xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The honest case against the At Home SPX</h2>
               <ul className="space-y-5">
                 {[
-                  { heading: "Not the studio SPX Max", body: "If you specifically want the studio-line SPX Max, the machine used in some STOTT certification training, buying through Amazon does not get you that model. You would need to go through Merrithew's own site or an authorised dealer, at studio-line pricing." },
+                  { heading: "Not the studio SPX Max", body: "If you specifically want the studio-line SPX Max, the machine used in some STOTT certification training, buying through Amazon does not get you that model. You would need to go through Merrithew's own site or an authorized dealer, at studio-line pricing." },
                   { heading: "Package contents vary", body: "This is sold as a package, and package contents change over time. Confirm exactly what ships with the current listing (box, straps, extenders) before assuming it matches what another buyer received." },
                   { heading: "No verified fold-flat storage", body: "We could not confirm a genuine flat-fold-onto-castors mechanism for this listing. Treat any storage claim as something to verify on the current listing, not something to assume." },
                   { heading: "Narrower accessory ecosystem than Balanced Body", body: "Balanced Body's range of towers, boxes, jumpboards and converters is deeper and more widely stocked. We could not find a genuine Merrithew-branded box as its own live Amazon listing at review time, which is why the accessory picks below lean on Balanced Body for that piece." },

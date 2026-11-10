@@ -11,7 +11,7 @@ const BASE_URL = "https://pilatescollectiveclub.com";
 export const metadata: Metadata = {
   title: "Advertise",
   description:
-    "Advertising on Pilates Collective Club: sponsored pages written by us and labelled as sponsored, plus affiliate partnerships. Priced per project.",
+    "Advertising on Pilates Collective Club: sponsored pages written by us and labeled as sponsored, plus affiliate partnerships. Priced per project.",
   openGraph: {
     title: "Advertise",
     description:
@@ -72,7 +72,7 @@ const jsonLd = {
       "url": `${BASE_URL}/advertise`,
       "name": "Advertise",
       "description":
-        "Advertising on Pilates Collective Club: sponsored pages written by us and labelled as sponsored, plus affiliate partnerships. Priced per project.",
+        "Advertising on Pilates Collective Club: sponsored pages written by us and labeled as sponsored, plus affiliate partnerships. Priced per project.",
       "isPartOf": { "@id": `${BASE_URL}/#website` },
       "about": { "@id": `${BASE_URL}/#organization` },
       "inLanguage": "en",
@@ -185,7 +185,7 @@ export default function AdvertisePage() {
               <p style={{ ...s.p, marginBottom: "12px" }}>
                 A dedicated article about your product or studio, on its own
                 address on this site. We research it and we write it. It is
-                labelled as sponsored at the top of the page.
+                labeled as sponsored at the top of the page.
               </p>
               <p style={{ ...s.p, marginBottom: 0 }}>
                 You get a draft to check for factual accuracy before it goes live.
@@ -196,7 +196,7 @@ export default function AdvertisePage() {
             <div style={s.card}>
               <h3 style={s.cardTitle}>Affiliate partnerships</h3>
               <p style={{ ...s.p, marginBottom: 0 }}>
-                If you run an affiliate programme, we can link to you through it
+                If you run an affiliate program, we can link to you through it
                 where your product already fits an article. Commission does not
                 buy a place in a ranking or change a verdict. Our{" "}
                 <Link href="/affiliate-disclosure" style={{ color: "#8b4a31", textDecoration: "underline" }}>

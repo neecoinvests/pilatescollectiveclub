@@ -73,7 +73,7 @@ const PICKS: Pick[] = [
     url: DEFINE_SEARCH,
     verdict: "The one everyone at the studio is wearing",
     description:
-      "The fitted studio jacket other brands copy. Per its listing: added Lycra fibre for shape retention, thumbholes and cuffins to keep sleeves down and hands warm, secure front pockets, and a body-skimming, hip-length fit. One honest caution: lululemon does not sell on Amazon, so Amazon listings come from third-party resellers (we found one at $188.00 from Edgeplay Sports). Check the seller and return policy, or buy direct from lululemon.com for guaranteed authenticity.",
+      "The fitted studio jacket other brands copy. Per its listing: added Lycra fiber for shape retention, thumbholes and cuffins to keep sleeves down and hands warm, secure front pockets, and a body-skimming, hip-length fit. One honest caution: lululemon does not sell on Amazon, so Amazon listings come from third-party resellers (we found one at $188.00 from Edgeplay Sports). Check the seller and return policy, or buy direct from lululemon.com for guaranteed authenticity.",
   },
   {
     id: "crz-butterluxe",
@@ -84,7 +84,7 @@ const PICKS: Pick[] = [
     url: amz("B0BJ2G3JNW"),
     verdict: "The Define look for about a quarter of the price",
     description:
-      "Slim fit and waist length in CRZ YOGA's Butterluxe fabric, which the brand describes as extremely soft and ultra stretchy. Thumbholes, side zip pockets and inner hidden pockets, with a streamlined back. Sold by CRZ YOGA in several colours. If you already wear Butterluxe leggings to Lagree, this is the matching layer.",
+      "Slim fit and waist length in CRZ YOGA's Butterluxe fabric, which the brand describes as extremely soft and ultra stretchy. Thumbholes, side zip pockets and inner hidden pockets, with a streamlined back. Sold by CRZ YOGA in several colors. If you already wear Butterluxe leggings to Lagree, this is the matching layer.",
   },
   {
     id: "iuga",
@@ -132,7 +132,7 @@ const PICKS: Pick[] = [
   },
   {
     id: "crz-half-zip",
-    badge: "Best Post-Class Cosy",
+    badge: "Best Post-Class Cozy",
     shortName: "CRZ half-zip fleece",
     name: "CRZ YOGA Fleece-Lined Half-Zip Sweatshirt",
     price: "$48.00",
@@ -154,7 +154,7 @@ const FAQS = [
   },
   {
     q: "Is the lululemon Define Jacket worth it for Lagree?",
-    a: "It is a great fitted layer with thumbholes, shape-retaining Lycra fibre and secure pockets, but it costs around $188 at reseller prices. If you want the same fitted look for less, the CRZ YOGA Butterluxe Jacket is $48 and the 90 Degree By Reflex track jacket is $39.99.",
+    a: "It is a great fitted layer with thumbholes, shape-retaining Lycra fiber and secure pockets, but it costs around $188 at reseller prices. If you want the same fitted look for less, the CRZ YOGA Butterluxe Jacket is $48 and the 90 Degree By Reflex track jacket is $39.99.",
   },
   {
     q: "Is the Define Jacket sold on Amazon?",

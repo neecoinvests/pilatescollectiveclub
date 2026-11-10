@@ -91,7 +91,7 @@ const FAQS = [
   { q: "Can you wear a loose T-shirt to Lagree?", a: "You can, but most people only do it once. A loose tee rides up in every plank, hangs down towards the carriage, and can catch on the springs or a handle as you reach for it. If you prefer a relaxed fit, tuck it into high-waisted leggings or tie the hem at the side, or choose a crop so there is no hem to manage at all." },
   { q: "Is a cotton top OK for Lagree?", a: "It is not ideal. Cotton absorbs sweat and holds it, so in a hot, sweaty Lagree class a cotton top gets heavy, clingy and cold once you stop moving. Technical synthetic knits are designed to move moisture to the surface where it can evaporate, which is why most Lagree regulars wear them." },
   { q: "Can you just wear a sports bra to Lagree?", a: "Yes, and plenty of people do, especially in hot studios. Longline sports bras are popular for exactly this reason, because the longer band gives more coverage than a standard crop. A tank or crop on top is a personal preference: useful if you want more coverage or are heading out after class." },
-  { q: "How many Lagree tops do you need?", a: "One per class between washes. Lagree sweat is continuous and technical fabrics hold odour once worn damp, so rewearing is not realistic. Two or three tops for a two- or three-class week is a sensible starting point. Wash cold and air dry to protect the stretch fibres." },
+  { q: "How many Lagree tops do you need?", a: "One per class between washes. Lagree sweat is continuous and technical fabrics hold odor once worn damp, so rewearing is not realistic. Two or three tops for a two- or three-class week is a sensible starting point. Wash cold and air dry to protect the stretch fibers." },
 ];
 
 const jsonLd = {
@@ -219,7 +219,7 @@ export default function BestLagreeTopsPage() {
                   "Avoid long ties, drawstrings and loose fabric near the waist: they can catch on springs, straps and the carriage edge.",
                   "Choose synthetic, sweat-wicking fabric over cotton. Cotton holds sweat and gets heavy and clingy.",
                   "Racerbacks leave your shoulder blades free for rows and plank work and sit neatly over most sports bra backs.",
-                  "Buy two or three. Lagree sweat is continuous, and technical fabric holds odour once worn damp.",
+                  "Buy two or three. Lagree sweat is continuous, and technical fabric holds odor once worn damp.",
                 ].map((tip, i) => (
                   <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                     <span className="font-semibold" style={{ color: "#8b4a31" }}>⚠</span>

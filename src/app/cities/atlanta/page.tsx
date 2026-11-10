@@ -44,10 +44,10 @@ const STUDIOS = [
     name: "Club Pilates Buckhead",
     neighborhood: "Buckhead (Peachtree Battle)",
     priceLevel: "$$$",
-    review: "Club Pilates' first in-town Atlanta studio opened in February 2017 in the Peachtree Battle Shopping Center, in the heart of Buckhead. It runs the national Club Pilates group reformer format, so classes are levelled and standardised: a Level 1 Reformer Flow here follows the same structure as one anywhere else in the country, which makes it an easy, low-risk place to learn the reformer.",
-    caveat: "this is a franchise format: consistent and well-organised, but programming comes from a national curriculum rather than an individual owner-teacher, so it will not feel like a classical boutique.",
+    review: "Club Pilates' first in-town Atlanta studio opened in February 2017 in the Peachtree Battle Shopping Center, in the heart of Buckhead. It runs the national Club Pilates group reformer format, so classes are leveled and standardized: a Level 1 Reformer Flow here follows the same structure as one anywhere else in the country, which makes it an easy, low-risk place to learn the reformer.",
+    caveat: "this is a franchise format: consistent and well-organized, but programming comes from a national curriculum rather than an individual owner-teacher, so it will not feel like a classical boutique.",
     address: "2391 Peachtree Rd NE, Atlanta, GA 30305",
-    bestFor: "Beginners and regulars who want a structured, levelled reformer programme",
+    bestFor: "Beginners and regulars who want a structured, leveled reformer program",
     signatureClass: "Reformer Flow",
     bookingTip: "New to Club Pilates? Book an intro class first: studios use it to fit you into the right level before you buy a membership.",
   },
@@ -56,7 +56,7 @@ const STUDIOS = [
     name: "Intown Pilates",
     neighborhood: "Amsterdam Walk (Virginia-Highland / Morningside)",
     priceLevel: "$$$",
-    review: "Intown Pilates works across the full range of Pilates apparatus (reformer, Cadillac, towers, Wunda chairs and the ladder barrel) and builds customised programmes around them. Group options include mat and tower classes such as Pilates Sculpt, Pilates Pump and Tower Stretch, alongside private sessions, which makes it one of the more apparatus-complete independent studios in town.",
+    review: "Intown Pilates works across the full range of Pilates apparatus (reformer, Cadillac, towers, Wunda chairs and the ladder barrel) and builds customized programs around them. Group options include mat and tower classes such as Pilates Sculpt, Pilates Pump and Tower Stretch, alongside private sessions, which makes it one of the more apparatus-complete independent studios in town.",
     caveat: "group classes here lean toward mat and tower rather than big reformer rooms, if you specifically want a high-energy group reformer class, a reformer-focused studio will suit you better.",
     address: "500 Amsterdam Ave NE, Suite L5, Atlanta, GA 30306",
     bestFor: "Private sessions and tower work on the full range of Pilates apparatus",
@@ -92,10 +92,10 @@ const STUDIOS = [
     name: "Club Pilates Decatur",
     neighborhood: "North Decatur / Toco Hills",
     priceLevel: "$$",
-    review: "Club Pilates Decatur sits on Church Street in the North Decatur and Toco Hills area, convenient for Decatur, Druid Hills and Emory-area residents. It offers the same levelled Club Pilates class system as the Buckhead studio, which suits people who want a predictable format and membership pricing.",
+    review: "Club Pilates Decatur sits on Church Street in the North Decatur and Toco Hills area, convenient for Decatur, Druid Hills and Emory-area residents. It offers the same leveled Club Pilates class system as the Buckhead studio, which suits people who want a predictable format and membership pricing.",
     caveat: "despite the name, the studio is on Church Street toward Toco Hills rather than on Decatur Square: check the map before assuming it is walkable from downtown Decatur.",
     address: "1605 Church St, Suite 660, Decatur, GA 30033",
-    bestFor: "East-side residents who want a levelled reformer programme",
+    bestFor: "East-side residents who want a leveled reformer program",
     signatureClass: "Reformer Flow",
     bookingTip: "If you hold a Club Pilates membership, check whether your plan lets you book at other Atlanta-area studios too.",
   },
@@ -104,7 +104,7 @@ const STUDIOS = [
     name: "Club Pilates Sandy Springs",
     neighborhood: "Sandy Springs (Exchange at Hammond)",
     priceLevel: "$$$",
-    review: "Club Pilates Sandy Springs is in the Exchange at Hammond shopping centre on Roswell Road, serving the north-Atlanta residential corridor inside and just outside I-285. Like the other Club Pilates studios, it runs a levelled group reformer curriculum, which makes it a practical choice for people who want to train several times a week close to home.",
+    review: "Club Pilates Sandy Springs is in the Exchange at Hammond shopping center on Roswell Road, serving the north-Atlanta residential corridor inside and just outside I-285. Like the other Club Pilates studios, it runs a leveled group reformer curriculum, which makes it a practical choice for people who want to train several times a week close to home.",
     caveat: "a franchise studio rather than an independent: reliable structure, less individual programming.",
     address: "5968 Roswell Rd, Sandy Springs, GA 30328",
     bestFor: "North-Atlanta residents, consistent reformer programming, memberships",
@@ -116,15 +116,15 @@ const STUDIOS = [
 const BOOKING_TIPS = [
   { heading: "Expect to pay $28–55 per class", body: "Atlanta's Pilates market is meaningfully more accessible than coastal US cities. Drop-in rates run from around $28 at community studios to $55 at Buckhead premium practices. Monthly memberships bring per-class costs to $18–30 for regular practitioners, making Atlanta one of the more financially viable US cities for building a consistent practice." },
   { heading: "Traffic in Atlanta is serious business", body: "Atlanta has some of the worst traffic congestion in the United States. The I-285 and I-75/I-85 corridors are genuinely impassable during rush hour. Choose a studio on your home or work commute route rather than the 'best' studio on the other side of the city: attendance consistency is the most important variable in practice development." },
-  { heading: "The studio market is neighbourhood-defined", body: "Atlanta's sprawl means the studio scene is more fragmented than comparable US cities. Buckhead, Midtown, and Decatur each have their own distinct studio cultures and clientele profiles. Spend a week exploring the Pilates offering nearest to where you spend most of your time before committing to a membership." },
+  { heading: "The studio market is neighborhood-defined", body: "Atlanta's sprawl means the studio scene is more fragmented than comparable US cities. Buckhead, Midtown, and Decatur each have their own distinct studio cultures and clientele profiles. Spend a week exploring the Pilates offering nearest to where you spend most of your time before committing to a membership." },
   { heading: "Summer heat affects scheduling preferences", body: "Atlanta's summers are extremely hot and humid. Pilates studios' climate-controlled environments make morning and early evening classes particularly popular in July and August: book those slots well in advance from May onwards." },
   { heading: "Bring grip socks", body: "Most reformer studios in Atlanta require or strongly recommend grip socks. Buying a pair before your first class is usually cheaper than front-desk retail: check your studio's policy when you book." },
 ];
 
 const NEIGHBORHOODS = [
-  { name: "Buckhead", description: "Atlanta's wealthiest neighbourhood houses the city's most premium Pilates practices. Higher price points are matched by excellent instruction and a wellness-invested clientele that sets a high bar. The natural starting point for practitioners who prioritise quality above all other variables." },
-  { name: "Midtown", description: "Atlanta's cultural and professional centre supports a diverse range of studios serving the city's creative and corporate communities. Excellent MARTA access from most of the metro area makes Midtown studios genuinely practical for practitioners who don't drive into the city." },
-  { name: "Virginia-Highland, Inman Park & Candler Park", description: "The in-town residential neighbourhoods east of Midtown have developed excellent independent studio cultures: community-focused, intelligently taught, and priced for the neighbourhood demographic. Strong options for practitioners who live in or commute through this corridor." },
+  { name: "Buckhead", description: "Atlanta's wealthiest neighborhood houses the city's most premium Pilates practices. Higher price points are matched by excellent instruction and a wellness-invested clientele that sets a high bar. The natural starting point for practitioners who prioritize quality above all other variables." },
+  { name: "Midtown", description: "Atlanta's cultural and professional center supports a diverse range of studios serving the city's creative and corporate communities. Excellent MARTA access from most of the metro area makes Midtown studios genuinely practical for practitioners who don't drive into the city." },
+  { name: "Virginia-Highland, Inman Park & Candler Park", description: "The in-town residential neighborhoods east of Midtown have developed excellent independent studio cultures: community-focused, intelligently taught, and priced for the neighborhood demographic. Strong options for practitioners who live in or commute through this corridor." },
   { name: "Decatur & Sandy Springs", description: "Atlanta's eastern and northern suburbs have increasingly strong Pilates offerings serving the city's sprawling professional class. Studios here are well-run and practically accessible for practitioners who live beyond the I-285 perimeter." },
 ];
 
@@ -164,7 +164,7 @@ const GEAR = [
 const HOME_REFORMERS = [
   { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work: three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
   { tag: "Mid-Range Pick", name: "AeroPilates Pro XP 557", note: "AeroPilates' top-of-the-range home reformer, a step up for practitioners training several times a week.", price: "$1,329.99", url: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20" },
-  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
+  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodized aluminum frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
 ];
 
 const RELATED_CITIES = [
@@ -181,7 +181,7 @@ const FURTHER_READING = [
 
 const CITY_FAQS = [
   { q: "What are the best Pilates studios in Atlanta?", a: "Our 6 curated picks are Club Pilates Buckhead (Buckhead, Peachtree Battle), Intown Pilates (Amsterdam Walk, Virginia-Highland / Morningside), The Studio Pilates: West Midtown (West Midtown), HIPfit (Virginia-Highland, on the BeltLine), Club Pilates Decatur (North Decatur / Toco Hills) and Club Pilates Sandy Springs (Sandy Springs, Exchange at Hammond). Each listing above covers what the studio is best for, its signature class and a booking tip." },
-  { q: "Which Atlanta neighbourhoods are best for Pilates?", a: "This guide covers Buckhead, Midtown, Virginia-Highland, Inman Park & Candler Park and Decatur & Sandy Springs. Buckhead: Atlanta's wealthiest neighbourhood houses the city's most premium Pilates practices." },
+  { q: "Which Atlanta neighborhoods are best for Pilates?", a: "This guide covers Buckhead, Midtown, Virginia-Highland, Inman Park & Candler Park and Decatur & Sandy Springs. Buckhead: Atlanta's wealthiest neighborhood houses the city's most premium Pilates practices." },
   { q: "What should I know about booking Pilates classes in Atlanta?", a: "Expect to pay $28–55 per class. Atlanta's Pilates market is meaningfully more accessible than coastal US cities." },
   { q: "What should I bring to a Pilates class in Atlanta?", a: "Grip socks are required at most reformer studios. Our gear list for Atlanta covers Pilates grip socks, Pilates mat, magic circle, resistance bands set and foam roller." },
 ];
@@ -307,8 +307,8 @@ export default function AtlantaPage() {
 
         <section className="py-20 px-6" style={{ backgroundColor: "#f6f3f2" }}>
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Best neighbourhoods for Pilates in Atlanta</h2>
-            <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Atlanta&apos;s sprawl makes neighbourhood choice as important as studio quality. Here&apos;s where to look.</p>
+            <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Best neighborhoods for Pilates in Atlanta</h2>
+            <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Atlanta&apos;s sprawl makes neighborhood choice as important as studio quality. Here&apos;s where to look.</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {NEIGHBORHOODS.map((n) => (
                 <div key={n.name} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)" }}>

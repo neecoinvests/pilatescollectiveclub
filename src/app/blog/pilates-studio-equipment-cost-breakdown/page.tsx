@@ -13,11 +13,11 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Pilates Studio Equipment Cost Breakdown (2026): 3 Budgets",
-  description: "Itemised equipment budgets for a 3, 6 and 10 reformer Pilates studio, built from current list prices, with the costs most first-time owners leave out.",
+  description: "Itemized equipment budgets for a 3, 6 and 10 reformer Pilates studio, built from current list prices, with the costs most first-time owners leave out.",
   keywords: ["pilates studio equipment cost", "pilates studio startup cost", "cost to equip a pilates studio", "pilates reformer bulk pricing", "commercial pilates equipment price", "pilates studio budget", "how much does pilates equipment cost", "pilates studio equipment list"],
   openGraph: {
     title: "Pilates Studio Equipment Cost Breakdown (2026)",
-    description: "Itemised budgets for a 3, 6 and 10 reformer studio, built from current list prices.",
+    description: "Itemized budgets for a 3, 6 and 10 reformer studio, built from current list prices.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/pilates-studio-equipment-cost-breakdown",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/stitch-reformers-aerial-row.png", width: 1200, height: 630, alt: "Pilates Studio Equipment Cost Breakdown: Pilates Collective Club" }],
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Pilates Studio Equipment Cost Breakdown (2026)",
-    description: "Three itemised studio budgets, and the costs owners forget.",
+    description: "Three itemized studio budgets, and the costs owners forget.",
     images: ["https://pilatescollectiveclub.com/pictures/stitch-reformers-aerial-row.png"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/blog/pilates-studio-equipment-cost-breakdown" },
@@ -38,7 +38,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Pilates Studio Equipment Cost Breakdown (2026): 3 Real Budgets",
-      "description": "Itemised equipment budgets for a 3, 6 and 10 reformer Pilates studio, built from current list prices, plus the costs first-time owners typically omit.",
+      "description": "Itemized equipment budgets for a 3, 6 and 10 reformer Pilates studio, built from current list prices, plus the costs first-time owners typically omit.",
       "url": "https://pilatescollectiveclub.com/blog/pilates-studio-equipment-cost-breakdown",
       "datePublished": "2026-09-16",
       "dateModified": "2026-10-20",
@@ -96,9 +96,9 @@ const largeStudio = [
 ];
 
 const REFORMERS = [
-  { name: "Align-Pilates C8-PRO Reformer", description: "The value pick among commercial-rated machines, and genuinely not a compromise. Aluminium rails, a graded colour-coded spring set, and a build specified for studio use, sold on Amazon by Merrithew, Align's US distributor, at a real discount to anything comparable from Balanced Body.", price: "From $2,750", affiliateUrl: "https://www.amazon.com/dp/B099ZJ4C25?tag=pilatescollective-20" },
-  { name: "Balanced Body Allegro Stretch Reformer", description: "The widest carriage among the machines actually sold on Amazon: 2 inches wider and 6 inches longer than the standard Allegro, with a 36-inch adjustable footbar. (A dealer-only Align model with a similarly wide carriage is sometimes quoted for group rooms, but it isn't sold on Amazon: this is the real, buyable equivalent.) Anodized aluminium frame.", price: "From $3,710", affiliateUrl: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
-  { name: "Balanced Body Studio Reformer (Revo Footbar)", description: "The permanent-installation machine that populates certification centres and clinics. Strata rock maple frame, five Signature Springs, and full tower compatibility. Sold direct by Balanced Body on Amazon; made to order. It does not fold.", price: "From $4,700", affiliateUrl: "https://www.amazon.com/dp/B002XVWIFE?tag=pilatescollective-20" },
+  { name: "Align-Pilates C8-PRO Reformer", description: "The value pick among commercial-rated machines, and genuinely not a compromise. Aluminum rails, a graded color-coded spring set, and a build specified for studio use, sold on Amazon by Merrithew, Align's US distributor, at a real discount to anything comparable from Balanced Body.", price: "From $2,750", affiliateUrl: "https://www.amazon.com/dp/B099ZJ4C25?tag=pilatescollective-20" },
+  { name: "Balanced Body Allegro Stretch Reformer", description: "The widest carriage among the machines actually sold on Amazon: 2 inches wider and 6 inches longer than the standard Allegro, with a 36-inch adjustable footbar. (A dealer-only Align model with a similarly wide carriage is sometimes quoted for group rooms, but it isn't sold on Amazon: this is the real, buyable equivalent.) Anodized aluminum frame.", price: "From $3,710", affiliateUrl: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
+  { name: "Balanced Body Studio Reformer (Revo Footbar)", description: "The permanent-installation machine that populates certification centers and clinics. Strata rock maple frame, five Signature Springs, and full tower compatibility. Sold direct by Balanced Body on Amazon; made to order. It does not fold.", price: "From $4,700", affiliateUrl: "https://www.amazon.com/dp/B002XVWIFE?tag=pilatescollective-20" },
   { name: "Balanced Body Trapeze Table / Cadillac", description: "The single biggest line in a comprehensive studio fit-out after the reformers, and what most distinguishes a full apparatus room from a reformer class business. Needs ceiling height and permanent floor space; a lead-time item, but a real live Amazon listing.", price: "From $5,030", affiliateUrl: "https://www.amazon.com/dp/B01N5OIH13?tag=pilatescollective-20" },
   { name: "Balanced Body EXO Pilates Chair", description: "The real Balanced Body chair sold on Amazon: a single-pedal design rather than the classic two-pedal Wunda Chair, which has no verified Amazon listing. It still carries the most teaching per square foot of any piece in the room, opening up standing, seated and pressing work in roughly the footprint of an armchair.", price: "From $1,255", affiliateUrl: "https://www.amazon.com/dp/B002XVZVRQ?tag=pilatescollective-20" },
   { name: "Balanced Body Ladder Barrel", description: "Spinal extension and lateral work that nothing else in the room replicates, and the piece clients with desk-bound postures benefit from most. A comprehensive studio is not comprehensive without one.", price: "From $2,195", affiliateUrl: "https://www.amazon.com/dp/B01NBVI3JU?tag=pilatescollective-20" },
@@ -172,7 +172,7 @@ export default function PilatesStudioEquipmentCostBreakdownPage() {
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Three itemised budgets below, at three studio sizes, built from the list prices we publish across our equipment reviews. Every line is a real product at a real price so you can check the arithmetic and swap any row for the brand you prefer. What these tables give you is the shape of the number and the items people forget, which is what you need before you ask a supplier for a quote.
+              Three itemized budgets below, at three studio sizes, built from the list prices we publish across our equipment reviews. Every line is a real product at a real price so you can check the arithmetic and swap any row for the brand you prefer. What these tables give you is the shape of the number and the items people forget, which is what you need before you ask a supplier for a quote.
             </p>
           </div>
         </section>
@@ -197,7 +197,7 @@ export default function PilatesStudioEquipmentCostBreakdownPage() {
                 Reformer prices below were checked against current dealer listings in September 2026. Figures marked with a tilde are indicative allowances for props and fit-out rather than a specific product, and chair, barrel and cadillac prices are the list prices we track across our equipment reviews. Apparatus pricing moves and varies by country and dealer, so treat all of it as the basis for a conversation rather than a quote.
               </p>
               <p className="text-base leading-relaxed mb-0" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                These are also single-unit prices. Commercial suppliers price multi-machine orders differently and studio accounts are normal practice, so a real quote for six or ten reformers is a negotiation, not a sum of website prices. Ask for the quote in writing with delivery, assembly and first service itemised, because a machine price that excludes assembly is not comparable to one that includes it.
+                These are also single-unit prices. Commercial suppliers price multi-machine orders differently and studio accounts are normal practice, so a real quote for six or ten reformers is a negotiation, not a sum of website prices. Ask for the quote in writing with delivery, assembly and first service itemized, because a machine price that excludes assembly is not comparable to one that includes it.
               </p>
             </div>
 
@@ -250,7 +250,7 @@ export default function PilatesStudioEquipmentCostBreakdownPage() {
                   { label: "Reception, changing and storage fit-out", body: "Benches, hooks, lockers, a desk, a card reader. Individually small, collectively a few thousand, and entirely invisible in an equipment quote." },
                   { label: "Booking and payment software", body: "A recurring monthly cost from your first day, and one that is difficult to change later once your client base and class history live inside it. Worth choosing carefully rather than quickly." },
                   { label: "Consumables and replacement parts", body: "Springs, ropes, straps, bands, cleaning supplies and laundry. Recurring, predictable, and the line that most first-year budgets omit entirely. Order spare springs and ropes with the original machines." },
-                  { label: "Insurance and licences", body: "Professional and public liability, property cover for the apparatus at replacement value, business interruption, and music licensing. See our guide to ", link: { href: "/blog/how-to-open-a-pilates-studio", text: "opening a Pilates studio" }, bodyAfter: " for the full list." },
+                  { label: "Insurance and licenses", body: "Professional and public liability, property cover for the apparatus at replacement value, business interruption, and music licensing. See our guide to ", link: { href: "/blog/how-to-open-a-pilates-studio", text: "opening a Pilates studio" }, bodyAfter: " for the full list." },
                 ].map((item) => (
                   <div key={item.label} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.label}</p>
@@ -269,12 +269,12 @@ export default function PilatesStudioEquipmentCostBreakdownPage() {
             <div className="mb-14">
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Where to spend and where not to</h2>
               <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                The reformers are not the place to economise, and the reason is warranty rather than snobbery. Manufacturer warranties typically distinguish domestic from commercial use, so a home-rated machine put on a studio timetable is usually out of cover from the first paid class. The saving on the purchase is borrowed against the first frame or spring failure. Our{" "}
+                The reformers are not the place to economize, and the reason is warranty rather than snobbery. Manufacturer warranties typically distinguish domestic from commercial use, so a home-rated machine put on a studio timetable is usually out of cover from the first paid class. The saving on the purchase is borrowed against the first frame or spring failure. Our{" "}
                 <Link href="/blog/commercial-vs-home-pilates-reformer" style={{ color: "#8b4a31", textDecoration: "underline" }}>commercial versus home comparison</Link>{" "}
                 sets out what actually differs in the build.
               </p>
               <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Spend on matching machines, on commercial rating, and on spare springs and ropes. Those three decisions are difficult and expensive to reverse. Economise instead on the fit-out layer: mirrors, storage, flooring tiles, sound and reception furniture are all replaceable later out of revenue, and nobody has ever left a studio because the prop shelf was plain.
+                Spend on matching machines, on commercial rating, and on spare springs and ropes. Those three decisions are difficult and expensive to reverse. Economize instead on the fit-out layer: mirrors, storage, flooring tiles, sound and reception furniture are all replaceable later out of revenue, and nobody has ever left a studio because the prop shelf was plain.
               </p>
               <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                 The other genuine economy is buying fewer machines rather than cheaper ones. Three commercial reformers running privates will out-earn six home-grade machines in a room you cannot fill, and they leave you the capital to survive the months before the timetable fills. Machines are easier to add than a lease is to shrink.

@@ -186,7 +186,7 @@ export default function ConsistentPracticePage() {
               <Section title="Build a home practice alongside studio work">
                 <p>A ten-minute daily movement practice at home, even without equipment, dramatically accelerates progression compared to studio-only work. Short sequences of matwork: the Hundred, rolling exercises, single-leg stretches, and standing footwork patterns don&apos;t require a reformer and take less time than it sounds.</p>
                 <p>The value of home practice isn&apos;t primarily physical: it&apos;s about building the habit of tuning in to your body on a daily basis. Pilates practitioners who maintain some form of daily movement, even brief, develop a relationship with their bodies that shows unmistakably in the quality of their studio work.</p>
-                <p>Start with five minutes. Five minutes is achievable on almost any day, regardless of schedule. A simple sequence of ten repetitions each (breath, chest lift, single-leg stretch, spine stretch forward) is enough to maintain the thread between sessions and begin developing the daily body-awareness habit that characterises serious practitioners.</p>
+                <p>Start with five minutes. Five minutes is achievable on almost any day, regardless of schedule. A simple sequence of ten repetitions each (breath, chest lift, single-leg stretch, spine stretch forward) is enough to maintain the thread between sessions and begin developing the daily body-awareness habit that characterizes serious practitioners.</p>
               </Section>
 
               <Section title="Track your progress in a way that motivates you">

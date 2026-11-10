@@ -171,7 +171,7 @@ export default function PilatesForWeightLossPage() {
 
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Why Pilates changes body composition even without weight loss</h2>
               <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                The body composition changes from Pilates are disproportionate to its caloric burn, and the reason is muscle specificity. Pilates systematically develops the deep stabilising muscles (transverse abdominis, multifidus, pelvic floor, and hip rotators) that most other forms of exercise neglect. These muscles are largely invisible on the scale but highly visible in posture, silhouette, and functional movement quality.
+                The body composition changes from Pilates are disproportionate to its caloric burn, and the reason is muscle specificity. Pilates systematically develops the deep stabilizing muscles (transverse abdominis, multifidus, pelvic floor, and hip rotators) that most other forms of exercise neglect. These muscles are largely invisible on the scale but highly visible in posture, silhouette, and functional movement quality.
               </p>
               <p className="text-base leading-relaxed mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                 A practitioner who does 3 sessions per week for 12 weeks consistently reports a flatter abdomen, a more defined waist, and a leaner leg profile: changes that are real and measurable even when the scale doesn't reflect them. This is the honest story of Pilates and body composition.
@@ -182,7 +182,7 @@ export default function PilatesForWeightLossPage() {
                 {[
                   { heading: "3-4 Pilates sessions per week", body: "This is the minimum threshold for meaningful body composition change. Below 3 sessions per week, the training stimulus is insufficient to produce the muscle development that drives visible change." },
                   { heading: "Add 2-3 cardiovascular sessions", body: "Pilates plus cardio produces significantly better weight management outcomes than either alone. Walking, cycling, and swimming complement Pilates without creating competing recovery demands." },
-                  { heading: "Prioritise nutrition", body: "No exercise modality overrides nutrition for weight management. Pilates supports a caloric deficit by building muscle (raising resting metabolic rate) but cannot compensate for a sustained caloric surplus." },
+                  { heading: "Prioritize nutrition", body: "No exercise modality overrides nutrition for weight management. Pilates supports a caloric deficit by building muscle (raising resting metabolic rate) but cannot compensate for a sustained caloric surplus." },
                   { heading: "Use the reformer if accessible", body: "Reformer Pilates burns 15-25% more calories per session than mat work and develops greater total muscle mass due to the spring resistance. If you have access to a reformer, studio or home, use it." },
                 ].map((item) => (
                   <div key={item.heading} className="flex gap-5 rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>

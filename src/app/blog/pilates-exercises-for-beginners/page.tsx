@@ -53,7 +53,7 @@ const exercises = [
     number: "03",
     name: "Single Leg Circle",
     trains: "Hip mobility, pelvic stability, core control",
-    description: "Lie flat with one leg extended toward the ceiling. Draw a circle with the working leg, stabilising the pelvis completely throughout. The pelvis should not rock, shift, or lift, only the leg moves. 5 circles each direction, then switch legs.",
+    description: "Lie flat with one leg extended toward the ceiling. Draw a circle with the working leg, stabilizing the pelvis completely throughout. The pelvis should not rock, shift, or lift, only the leg moves. 5 circles each direction, then switch legs.",
     mistake: "Allowing the hip to lift or rock. If the circle is small enough to keep the pelvis completely still, it's the right size. Too large a circle is cheating: the work is in the stability, not the range.",
     progression: "Begin with small circles. Increase the circle size only when pelvic stability is consistent.",
   },
@@ -77,7 +77,7 @@ const exercises = [
     number: "06",
     name: "Double Leg Stretch",
     trains: "Core integration, breath coordination, spinal stability",
-    description: "From Single Leg Stretch position, draw both knees to chest. Inhale as you extend both arms and legs away from the centre simultaneously. Exhale as you circle the arms back around and draw the knees in. The movement of the limbs away from the centre while the core holds is the central challenge.",
+    description: "From Single Leg Stretch position, draw both knees to chest. Inhale as you extend both arms and legs away from the center simultaneously. Exhale as you circle the arms back around and draw the knees in. The movement of the limbs away from the center while the core holds is the central challenge.",
     mistake: "Allowing the lower back to arch as the legs extend. The moment the back lifts, the core has disengaged. Reduce the challenge by keeping the extended legs higher or limiting the reach of the arms.",
     progression: "Legs at 60-70 degrees initially. Progress to lower angles as core control improves.",
   },
@@ -177,7 +177,7 @@ const jsonLd = {
         {
           "@type": "Question",
           "name": "Is Pilates hard for beginners?",
-          "acceptedAnswer": { "@type": "Answer", "text": "The movements appear simple but demand genuine concentration. The first 10-15 sessions are often humbling: stabilising the pelvis during leg movements, finding the deep abdominals, and maintaining spinal elongation simultaneously are skills that take weeks to develop. Progress is consistent and measurable, which is what keeps beginners engaged." }
+          "acceptedAnswer": { "@type": "Answer", "text": "The movements appear simple but demand genuine concentration. The first 10-15 sessions are often humbling: stabilizing the pelvis during leg movements, finding the deep abdominals, and maintaining spinal elongation simultaneously are skills that take weeks to develop. Progress is consistent and measurable, which is what keeps beginners engaged." }
         },
       ],
     },
@@ -280,7 +280,7 @@ export default function PilatesExercisesForBeginnersPage() {
                     { q: "How often should a beginner do Pilates?", a: "2-3 sessions per week is the recommended starting frequency. This gives your body time to adapt between sessions while building the neural connections needed for proper movement patterning. After 6-8 weeks, many beginners move to 3-4 sessions per week." },
                     { q: "Do you need equipment for beginner Pilates?", a: "A good mat is the only essential. A 6mm or thicker mat provides the spinal cushioning needed for mat work. The magic circle, resistance bands, and Pilates ball are excellent supplemental tools once the foundational exercises are established." },
                     { q: "How long should a beginner Pilates session be?", a: "30-45 minutes is the ideal beginner session length. This is long enough to warm up, cover 6-10 exercises properly, and cool down, but short enough that technique doesn't deteriorate from fatigue. Quality of movement matters more than duration." },
-                    { q: "Is Pilates hard for beginners?", a: "The movements appear simple but demand genuine concentration. The first 10-15 sessions are often humbling: stabilising the pelvis during leg movements, finding the deep abdominals, and maintaining spinal elongation simultaneously are skills that take weeks to develop. Progress is consistent and measurable, which is what keeps beginners engaged." },
+                    { q: "Is Pilates hard for beginners?", a: "The movements appear simple but demand genuine concentration. The first 10-15 sessions are often humbling: stabilizing the pelvis during leg movements, finding the deep abdominals, and maintaining spinal elongation simultaneously are skills that take weeks to develop. Progress is consistent and measurable, which is what keeps beginners engaged." },
                   ].map((item) => (
                     <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                       <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>

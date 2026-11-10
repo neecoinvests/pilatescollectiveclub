@@ -11,7 +11,7 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Studios in Zurich (2026)",
-  description: "The best Pilates studios in Zurich: reformer boutiques in Seefeld, Hottingen, and the city centre. Six curated picks, verified June 2026.",
+  description: "The best Pilates studios in Zurich: reformer boutiques in Seefeld, Hottingen, and the city center. Six curated picks, verified June 2026.",
   robots: {
     index: true,
     follow: true,
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   keywords: ["pilates zürich", "pilates zurich", "reformer pilates zurich", "best pilates studios zurich", "pilates studio zürich", "pilates seefeld zürich", "pilates hottingen", "pilates switzerland", "best reformer pilates zurich", "pilates classes zurich"],
   openGraph: {
     title: "Best Pilates Studios in Zurich (2026)",
-    description: "Six curated Pilates studios in Zurich: Seefeld, Hottingen, and city centre reformer picks. Verified June 2026.",
+    description: "Six curated Pilates studios in Zurich: Seefeld, Hottingen, and city center reformer picks. Verified June 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/zurich",
     images: [{ url: "https://images.unsplash.com/photo-1595435934249-5df7ed86e1c0?w=1200&q=80", width: 1200, height: 630, alt: "Zurich city guide: Pilates Collective Club" }],
@@ -45,7 +45,7 @@ const STUDIOS = [
     priceLevel: "CHF ··",
     review: "ProPilates has been the benchmark for classical instruction in Zurich for over a decade, operating from a light-filled studio in the residential Seefeld quarter where the city's lake-adjacent calm seems to enter through the windows. The teaching here is rooted in the Stott Pilates method and delivered by instructors who have accumulated real hours: this is not a studio that hires quickly or trains superficially. Equipment is comprehensive and impeccably maintained, and the programming ranges from beginner-appropriate mat work to demanding intermediate reformer sequences that reward consistent attendance. The clientele is largely made up of Zurich's business and medical community, many of whom have been coming for years and treat sessions here as non-negotiable in their weekly schedules. Newcomers are welcomed but the studio's soul belongs to its long-term members.",
     address: "Kreuzstrasse 42, 8008 Zürich",
-    bestFor: "Classical practitioners and long-term Zurich residents seeking rigour",
+    bestFor: "Classical practitioners and long-term Zurich residents seeking rigor",
     signatureClass: "ProPilates Reformer Intensive",
     bookingTip: "Long-term members fill most slots; book at least a week ahead as a new client",
   },
@@ -54,7 +54,7 @@ const STUDIOS = [
     name: "ilu move",
     neighborhood: "Kreis 5",
     priceLevel: "CHF ··",
-    review: "ilu move arrived in Kreis 5, Zurich's most culturally alive district, and immediately found its people: the creative class, the design-minded, the young professionals who want their wellness to reflect the same values as the neighbourhood they've chosen to live in. The studio's aesthetic is deliberate and warm, with natural materials and a spatial generosity that distinguishes it from the more clinical Swiss wellness offer. Instruction leans toward contemporary Pilates with a movement-positive philosophy: classes emphasise flow and body awareness alongside the technical precision that Zurich practitioners tend to demand. Small group sizes keep the work genuinely instructed rather than broadly supervised. ilu move suits clients at the intermediate level who are looking for a studio that feels like a community rather than a facility.",
+    review: "ilu move arrived in Kreis 5, Zurich's most culturally alive district, and immediately found its people: the creative class, the design-minded, the young professionals who want their wellness to reflect the same values as the neighborhood they've chosen to live in. The studio's aesthetic is deliberate and warm, with natural materials and a spatial generosity that distinguishes it from the more clinical Swiss wellness offer. Instruction leans toward contemporary Pilates with a movement-positive philosophy: classes emphasize flow and body awareness alongside the technical precision that Zurich practitioners tend to demand. Small group sizes keep the work genuinely instructed rather than broadly supervised. ilu move suits clients at the intermediate level who are looking for a studio that feels like a community rather than a facility.",
     address: "",
     bestFor: "Creative professionals and intermediate practitioners in the Kreis 5 community",
     signatureClass: "ilu Reformer Flow",
@@ -65,7 +65,7 @@ const STUDIOS = [
     name: "Form Studio Zurich",
     neighborhood: "Wiedikon",
     priceLevel: "CHF ·",
-    review: "Form Studio operates in Wiedikon with the unpretentious confidence of a studio that understands exactly who it serves: residents of one of Zurich's most liveable, and increasingly sought-after, neighbourhoods who want serious Pilates without the premium that a lakefront address would add to the invoice. The space is clean, thoughtfully arranged, and equipped with a solid fleet of reformers that see consistent use across a schedule dense with well-attended classes. Instructors are approachable and technically capable, with a particular strength in beginner and early-intermediate programming that makes this an excellent entry point for new practitioners. The studio's value proposition is the strongest of any quality Pilates address in Zurich, which sustains a large and genuinely loyal regular base. Form is the studio you build your practice at before you decide whether the more expensive options are really necessary.",
+    review: "Form Studio operates in Wiedikon with the unpretentious confidence of a studio that understands exactly who it serves: residents of one of Zurich's most liveable, and increasingly sought-after, neighborhoods who want serious Pilates without the premium that a lakefront address would add to the invoice. The space is clean, thoughtfully arranged, and equipped with a solid fleet of reformers that see consistent use across a schedule dense with well-attended classes. Instructors are approachable and technically capable, with a particular strength in beginner and early-intermediate programming that makes this an excellent entry point for new practitioners. The studio's value proposition is the strongest of any quality Pilates address in Zurich, which sustains a large and genuinely loyal regular base. Form is the studio you build your practice at before you decide whether the more expensive options are really necessary.",
     address: "",
     bestFor: "Beginners and early-intermediate practitioners seeking honest value",
     signatureClass: "Form Reformer Foundations",
@@ -76,7 +76,7 @@ const STUDIOS = [
     name: "Protagonist Zurich",
     neighborhood: "Enge",
     priceLevel: "CHF ··",
-    review: "Protagonist is one of the most thoughtfully programmed studios in Zurich, occupying a refined space in the residential Enge quarter that draws practitioners from across the city's lakeside and city centre neighbourhoods. The teaching philosophy here places anatomy and functional movement at the centre of every session: instructors are encouraged to understand clients' bodies deeply rather than simply directing them through sequences, and the depth of that approach is palpable from the first session. Equipment includes a full reformer suite alongside cadillac and chair units, allowing for programming that can accommodate rehabilitation clients alongside performance-focused practitioners. The clientele tends to be health-literate and precise in what they expect from a session, which suits the studio's teaching style perfectly. Private and semi-private sessions are particularly strong here.",
+    review: "Protagonist is one of the most thoughtfully programmed studios in Zurich, occupying a refined space in the residential Enge quarter that draws practitioners from across the city's lakeside and city center neighborhoods. The teaching philosophy here places anatomy and functional movement at the center of every session: instructors are encouraged to understand clients' bodies deeply rather than simply directing them through sequences, and the depth of that approach is palpable from the first session. Equipment includes a full reformer suite alongside cadillac and chair units, allowing for programming that can accommodate rehabilitation clients alongside performance-focused practitioners. The clientele tends to be health-literate and precise in what they expect from a session, which suits the studio's teaching style perfectly. Private and semi-private sessions are particularly strong here.",
     address: "",
     bestFor: "Anatomy-aware practitioners and those managing injury or rehabilitation",
     signatureClass: "Protagonist Functional Reformer",
@@ -87,7 +87,7 @@ const STUDIOS = [
     name: "Trunk Pilates",
     neighborhood: "Oerlikon",
     priceLevel: "CHF ·",
-    review: "Trunk Pilates has established itself quietly and confidently in Oerlikon: a northern district that has transformed substantially in recent years and now supports a wellness infrastructure that would once have required a trip to the city centre. The studio is practical and well-equipped, with a focus on classical reformer work that prioritises correct spinal mechanics and genuine core engagement over the kind of high-intensity hybrid formats that have become fashionable elsewhere. Instructors are methodical and clear in their teaching, making Trunk an excellent choice for those rebuilding a practice after injury or returning to Pilates after a significant gap. Pricing is among the most accessible in the city for the quality offered, which has generated a broad client base spanning students, families, and working professionals from the surrounding neighbourhood.",
+    review: "Trunk Pilates has established itself quietly and confidently in Oerlikon: a northern district that has transformed substantially in recent years and now supports a wellness infrastructure that would once have required a trip to the city center. The studio is practical and well-equipped, with a focus on classical reformer work that prioritizes correct spinal mechanics and genuine core engagement over the kind of high-intensity hybrid formats that have become fashionable elsewhere. Instructors are methodical and clear in their teaching, making Trunk an excellent choice for those rebuilding a practice after injury or returning to Pilates after a significant gap. Pricing is among the most accessible in the city for the quality offered, which has generated a broad client base spanning students, families, and working professionals from the surrounding neighborhood.",
     address: "",
     bestFor: "Returning practitioners and those seeking classical work at accessible prices",
     signatureClass: "Trunk Classical Reformer",
@@ -98,7 +98,7 @@ const STUDIOS = [
     name: "in2motion",
     neighborhood: "Hottingen",
     priceLevel: "CHF ··",
-    review: "In the leafy, residential Hottingen quarter, perched on the gentle rise between the city centre and the Zürichberg forest, in2motion has built a reputation for high-calibre instruction delivered in an environment of considerable calm. The studio's positioning reflects its clientele: Zurich's established professional and family community who value discretion and depth over novelty or social media visibility. Teaching is personal and thorough, with instructors who invest time in understanding each client's history and movement patterns before progressing the work. Equipment is premium throughout, and the studio's smaller scale ensures that nothing about a session feels rushed or impersonal. in2motion is particularly well-regarded for its work with post-natal clients and those managing chronic back conditions: a specificity of expertise that distinguishes it from the broader reformer boutique category.",
+    review: "In the leafy, residential Hottingen quarter, perched on the gentle rise between the city center and the Zürichberg forest, in2motion has built a reputation for high-calibre instruction delivered in an environment of considerable calm. The studio's positioning reflects its clientele: Zurich's established professional and family community who value discretion and depth over novelty or social media visibility. Teaching is personal and thorough, with instructors who invest time in understanding each client's history and movement patterns before progressing the work. Equipment is premium throughout, and the studio's smaller scale ensures that nothing about a session feels rushed or impersonal. in2motion is particularly well-regarded for its work with post-natal clients and those managing chronic back conditions: a specificity of expertise that distinguishes it from the broader reformer boutique category.",
     address: "",
     bestFor: "Established professionals, post-natal clients, and those with chronic back conditions",
     signatureClass: "in2motion Personalised Reformer",
@@ -124,8 +124,8 @@ const BOOKING_TIPS = [
     body: "Almost every reformer studio in Zurich requires grip socks. Some sell them on arrival, but it's cheaper to bring your own.",
   },
   {
-    heading: "CHF 30–50 per class is standard",
-    body: "Drop-in rates at premium Zurich studios typically fall between CHF 30 and CHF 50. Monthly memberships and class packs offer meaningful savings.",
+    heading: "About $37–61 per class is standard",
+    body: "Drop-in rates at premium Zurich studios typically fall between about $37 and $61. Monthly memberships and class packs offer meaningful savings.",
   },
 ];
 
@@ -138,7 +138,7 @@ const NEIGHBORHOODS = [
   {
     name: "Kreis 1 / Niederdorf",
     description:
-      "The historic city centre is surprisingly well-served by boutique studios. Easy to access and perfect for combining a class with a day in the old town.",
+      "The historic city center is surprisingly well-served by boutique studios. Easy to access and perfect for combining a class with a day in the old town.",
   },
   {
     name: "Kreis 4 / Langstrasse",
@@ -214,7 +214,7 @@ const FURTHER_READING = [
 
 const CITY_FAQS = [
   { q: "What are the best Pilates studios in Zurich?", a: "Our 6 curated picks are ProPilates (Seefeld), ilu move (Kreis 5), Form Studio Zurich (Wiedikon), Protagonist Zurich (Enge), Trunk Pilates (Oerlikon) and in2motion (Hottingen). Each listing above covers what the studio is best for, its signature class and a booking tip." },
-  { q: "Which Zurich neighbourhoods are best for Pilates?", a: "This guide covers Seefeld, Kreis 1 / Niederdorf, Kreis 4 / Langstrasse and Kreis 1 / Central. Seefeld: The upscale eastern lakeside district is home to Zurich's most polished studios." },
+  { q: "Which Zurich neighborhoods are best for Pilates?", a: "This guide covers Seefeld, Kreis 1 / Niederdorf, Kreis 4 / Langstrasse and Kreis 1 / Central. Seefeld: The upscale eastern lakeside district is home to Zurich's most polished studios." },
   { q: "What should I know about booking Pilates classes in Zurich?", a: "Book early for morning slots. Quality studios in Zurich fill up fast." },
   { q: "What should I bring to a Pilates class in Zurich?", a: "Grip socks are required at most reformer studios, and a mat, water bottle and small towel are useful for mat classes." },
 ];
@@ -225,7 +225,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Best Pilates Studios in Zurich (2026)",
-      "description": "The best Pilates studios in Zurich: reformer boutiques in Seefeld, Hottingen, and the city centre. Six curated picks, verified June 2026.",
+      "description": "The best Pilates studios in Zurich: reformer boutiques in Seefeld, Hottingen, and the city center. Six curated picks, verified June 2026.",
       "url": "https://pilatescollectiveclub.com/cities/zurich",
       "datePublished": "2026-06-28",
       "dateModified": "2026-10-20",
@@ -328,7 +328,7 @@ export default function ZurichPage() {
               precision and a culture of excellence have shaped a studio scene that takes the method
               seriously, whether you're stepping onto a reformer for the first time or deepening
               a decade-long practice. This guide covers the six studios we return to again and
-              again, the neighbourhoods worth knowing, and everything you need before booking your
+              again, the neighborhoods worth knowing, and everything you need before booking your
               first class.
             </p>
           </div>
@@ -425,7 +425,7 @@ export default function ZurichPage() {
               className="text-3xl font-semibold mb-4"
               style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}
             >
-              Best neighbourhoods for Pilates in Zurich
+              Best neighborhoods for Pilates in Zurich
             </h2>
             <p
               className="text-base mb-10"

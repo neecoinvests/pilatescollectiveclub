@@ -116,7 +116,7 @@ const STUDIOS = [
     neighborhood: "Point Breeze",
     priceLevel: "$$",
     review:
-      "Stellar Pilates is Point Breeze's boutique reformer studio, with a community-first feel that matches the neighbourhood. Its standout entry point is a Saturday noon intro class for new clients, one of the easiest ways to try reformer Pilates in the East End. Ideal for East End residents seeking quality instruction at a more accessible price point.",
+      "Stellar Pilates is Point Breeze's boutique reformer studio, with a community-first feel that matches the neighborhood. Its standout entry point is a Saturday noon intro class for new clients, one of the easiest ways to try reformer Pilates in the East End. Ideal for East End residents seeking quality instruction at a more accessible price point.",
     address: "6634 Hamilton Ave, Pittsburgh, PA 15206",
     bestFor: "Point Breeze and East End residents, beginners, small-group instruction",
     signatureClass: "Reformer Foundation",
@@ -127,7 +127,7 @@ const STUDIOS = [
 const BOOKING_TIPS = [
   {
     heading: "Pittsburgh winters reward a studio commitment made in autumn",
-    body: "Pittsburgh's winters are grey, wet, and long, from November through March, consistent outdoor movement is limited. Practitioners who lock in a studio routine before the cold arrives maintain it through winter. Book recurring slots in September and October before the demand spike.",
+    body: "Pittsburgh's winters are gray, wet, and long, from November through March, consistent outdoor movement is limited. Practitioners who lock in a studio routine before the cold arrives maintain it through winter. Book recurring slots in September and October before the demand spike.",
   },
   {
     heading: "The Oakland medical corridor creates strong therapeutic demand",
@@ -206,7 +206,7 @@ const GEAR = [
 const HOME_REFORMERS = [
   { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work: three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
   { tag: "Mid-Range Pick", name: "AeroPilates Pro XP 557", note: "AeroPilates' top-of-the-range home reformer, a step up for practitioners training several times a week.", price: "$1,329.99", url: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20" },
-  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
+  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodized aluminum frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
 ];
 
 const RELATED_CITIES = [
@@ -243,8 +243,8 @@ const FURTHER_READING = [
 
 const CITY_FAQS = [
   { q: "What are the best Pilates studios in Pittsburgh?", a: "Our 6 curated picks are Reform Pilates (Strip District), Club Pilates Shadyside (Shadyside), STHIEL Pilates & MOVEment Center (East Liberty), Moxie Mind & Body Pilates Studio (Downtown / Market Square), Touchstone Pilates (Mt. Lebanon) and Stellar Pilates (Point Breeze). Each listing above covers what the studio is best for, its signature class and a booking tip." },
-  { q: "Which Pittsburgh neighbourhoods are best for Pilates?", a: "This guide covers Shadyside & East End, Strip District, Downtown & Market Square and Mt. Lebanon & South Hills. Shadyside & East End: Pittsburgh's most walkable wellness corridor runs through Shadyside, East Liberty, and Point Breeze, a cluster of neighborhoods with a health-invested, professional population that supports both franchise studios and serious independent boutiques." },
-  { q: "What should I know about booking Pilates classes in Pittsburgh?", a: "Pittsburgh winters reward a studio commitment made in autumn. Pittsburgh's winters are grey, wet, and long, from November through March, consistent outdoor movement is limited." },
+  { q: "Which Pittsburgh neighborhoods are best for Pilates?", a: "This guide covers Shadyside & East End, Strip District, Downtown & Market Square and Mt. Lebanon & South Hills. Shadyside & East End: Pittsburgh's most walkable wellness corridor runs through Shadyside, East Liberty, and Point Breeze, a cluster of neighborhoods with a health-invested, professional population that supports both franchise studios and serious independent boutiques." },
+  { q: "What should I know about booking Pilates classes in Pittsburgh?", a: "Pittsburgh winters reward a studio commitment made in autumn. Pittsburgh's winters are gray, wet, and long, from November through March, consistent outdoor movement is limited." },
   { q: "What should I bring to a Pilates class in Pittsburgh?", a: "Grip socks are required at most reformer studios. Our gear list for Pittsburgh covers Pilates grip socks, Pilates mat (6mm), magic circle, fabric resistance bands and high-density foam roller." },
 ];
 

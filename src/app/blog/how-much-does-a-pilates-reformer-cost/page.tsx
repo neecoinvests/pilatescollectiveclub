@@ -82,8 +82,8 @@ const PRICE_TIERS = [
     range: "$4,500–$8,200+",
     heading: "Classical / Clinical & Commercial",
     tag: "Studio / Clinical",
-    body: "Classical apparatus built to Joseph Pilates' original specifications (Gratz) has no confirmed Amazon presence: it's sold direct through Gratz and its authorised dealers, so any pricing should be confirmed with them directly rather than assumed. The highest-specification machine we could verify as a real, live Amazon listing at this tier is the Merrithew Rehab V2 Max Plus Reformer ($8,199): Merrithew's clinical/professional machine, with a raised frame, built-in Vertical Frame, and patented retractable rope system.",
-    forWho: "Classical lineage teachers and established commercial studios (via Gratz or authorised dealers); clinics and rehab practices for the Merrithew Rehab V2 Max Plus.",
+    body: "Classical apparatus built to Joseph Pilates' original specifications (Gratz) has no confirmed Amazon presence: it's sold direct through Gratz and its authorized dealers, so any pricing should be confirmed with them directly rather than assumed. The highest-specification machine we could verify as a real, live Amazon listing at this tier is the Merrithew Rehab V2 Max Plus Reformer ($8,199): Merrithew's clinical/professional machine, with a raised frame, built-in Vertical Frame, and patented retractable rope system.",
+    forWho: "Classical lineage teachers and established commercial studios (via Gratz or authorized dealers); clinics and rehab practices for the Merrithew Rehab V2 Max Plus.",
     sacrifice: "Not a meaningful concern at this level for the equipment itself, but confirm any classical-apparatus price directly, since we could not verify one via Amazon.",
     lifespan: "20+ years (a common claim for classical apparatus; we could not independently verify it)",
   },
@@ -100,7 +100,7 @@ const TECH_FACTORS = [
   },
   {
     heading: "Frame material",
-    body: "Aircraft-grade aluminium (most professional machines) vs steel or mixed construction (budget). Aluminium is lighter and resistant to corrosion. Note that a fold mechanism itself is not guaranteed at any tier: several premium spring reformers we could verify on Amazon either have no confirmed fold mechanism or, like the Balanced Body Studio Reformer, are explicitly permanent-installation machines that do not fold.",
+    body: "Aircraft-grade aluminum (most professional machines) vs steel or mixed construction (budget). Aluminum is lighter and resistant to corrosion. Note that a fold mechanism itself is not guaranteed at any tier: several premium spring reformers we could verify on Amazon either have no confirmed fold mechanism or, like the Balanced Body Studio Reformer, are explicitly permanent-installation machines that do not fold.",
   },
   {
     heading: "Accessory ecosystem",
@@ -234,7 +234,7 @@ export default function HowMuchDoesAPilatesReformerCostPage() {
               className="text-lg leading-relaxed"
               style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}
             >
-              A Pilates reformer costs anywhere from $296 to over $8,000: a range so wide it is nearly meaningless without context. What actually determines price is not brand prestige but the resistance system (cords vs springs), the brand&apos;s track record (established vs generic/dropship), construction quality (sealed bearings vs nylon rollers, aluminium vs steel), and the accessory ecosystem it supports. Notably, real spring resistance is not exclusive to the $2,300+ tier: a newer wave of budget, generic-brand folding reformers now puts genuine coil or piano-wire springs under $750, with the trade-off being brand risk rather than resistance type. This guide breaks down every price tier honestly, with what you actually get and the total cost of ownership at each level.
+              A Pilates reformer costs anywhere from $296 to over $8,000: a range so wide it is nearly meaningless without context. What actually determines price is not brand prestige but the resistance system (cords vs springs), the brand&apos;s track record (established vs generic/dropship), construction quality (sealed bearings vs nylon rollers, aluminum vs steel), and the accessory ecosystem it supports. Notably, real spring resistance is not exclusive to the $2,300+ tier: a newer wave of budget, generic-brand folding reformers now puts genuine coil or piano-wire springs under $750, with the trade-off being brand risk rather than resistance type. This guide breaks down every price tier honestly, with what you actually get and the total cost of ownership at each level.
             </p>
           </div>
         </section>

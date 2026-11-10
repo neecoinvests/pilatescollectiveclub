@@ -68,7 +68,7 @@ const STUDIOS = [
     neighborhood: "Henderson",
     priceLevel: "$$$",
     review: "ReformYou in Henderson focuses exclusively on reformer Pilates on professional-grade equipment, offering controlled, low-impact resistance training in group classes and private one-to-one sessions.",
-    caveat: "reformer-only: no mat or broader apparatus programme.",
+    caveat: "reformer-only: no mat or broader apparatus program.",
     address: "650 E Horizon Dr, Suite 8, Henderson, NV 89015",
     bestFor: "Reformer-only group and private sessions in Henderson",
     signatureClass: "Group Reformer",
@@ -91,8 +91,8 @@ const STUDIOS = [
     name: "Club Pilates Green Valley",
     neighborhood: "Green Valley / Henderson",
     priceLevel: "$$",
-    review: "Club Pilates Green Valley on North Green Valley Parkway serves one of Henderson's established residential corridors with the brand's levelled group reformer system.",
-    caveat: "a franchise format: consistent, but less personalised than an independent studio.",
+    review: "Club Pilates Green Valley on North Green Valley Parkway serves one of Henderson's established residential corridors with the brand's leveled group reformer system.",
+    caveat: "a franchise format: consistent, but less personalized than an independent studio.",
     address: "1550 N Green Valley Pkwy, Suite 350, Henderson, NV 89074",
     bestFor: "Green Valley residents wanting structured reformer classes",
     signatureClass: "Reformer Flow",
@@ -103,7 +103,7 @@ const STUDIOS = [
     name: "Club Pilates Henderson",
     neighborhood: "Henderson (Eastern Ave)",
     priceLevel: "$$",
-    review: "Club Pilates Henderson on South Eastern Avenue brings levelled group reformer classes to southern Henderson, with a wide schedule for professionals and families.",
+    review: "Club Pilates Henderson on South Eastern Avenue brings leveled group reformer classes to southern Henderson, with a wide schedule for professionals and families.",
     caveat: "a franchise studio: reliable structure, less individual programming.",
     address: "10525 S Eastern Ave, Ste 140, Henderson, NV 89052",
     bestFor: "South Henderson residents, membership-based training",
@@ -115,8 +115,8 @@ const STUDIOS = [
     name: "Club Pilates Spring Valley",
     neighborhood: "Spring Valley / Southwest",
     priceLevel: "$$",
-    review: "Club Pilates Spring Valley on South Fort Apache Road serves the densely populated southwest of the valley with levelled group reformer classes, a practical entry point for beginners.",
-    caveat: "a franchise format: consistent, but less personalised than an independent studio.",
+    review: "Club Pilates Spring Valley on South Fort Apache Road serves the densely populated southwest of the valley with leveled group reformer classes, a practical entry point for beginners.",
+    caveat: "a franchise format: consistent, but less personalized than an independent studio.",
     address: "5060 S Fort Apache Rd, Ste 115, Las Vegas, NV 89148",
     bestFor: "Southwest Las Vegas residents new to the reformer",
     signatureClass: "Reformer Flow",
@@ -206,7 +206,7 @@ const GEAR = [
 const HOME_REFORMERS = [
   { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work: three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
   { tag: "Mid-Range Pick", name: "AeroPilates Pro XP 557", note: "AeroPilates' top-of-the-range home reformer, a step up for practitioners training several times a week.", price: "$1,329.99", url: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20" },
-  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
+  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodized aluminum frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
 ];
 
 const RELATED_CITIES = [
@@ -263,7 +263,7 @@ const FURTHER_READING = [
 
 const CITY_FAQS = [
   { q: "What are the best Pilates studios in Las Vegas?", a: "Our 6 curated picks are Solidity Studio (Henderson), ReformYou (Henderson), Pilates Land Las Vegas (East Sahara / Central), Club Pilates Green Valley (Green Valley / Henderson), Club Pilates Henderson (Henderson, Eastern Ave) and Club Pilates Spring Valley (Spring Valley / Southwest). Each listing above covers what the studio is best for, its signature class and a booking tip." },
-  { q: "Which Las Vegas neighbourhoods are best for Pilates?", a: "This guide covers Summerlin, Henderson, Downtown / Arts District and Spring Valley. Summerlin: Las Vegas's most affluent master-planned community, situated along the western edge of the valley with views toward Red Rock Canyon." },
+  { q: "Which Las Vegas neighborhoods are best for Pilates?", a: "This guide covers Summerlin, Henderson, Downtown / Arts District and Spring Valley. Summerlin: Las Vegas's most affluent master-planned community, situated along the western edge of the valley with views toward Red Rock Canyon." },
   { q: "What should I know about booking Pilates classes in Las Vegas?", a: "Avoid the midday heat: book early morning or evening classes. Las Vegas summers regularly exceed 110°F (43°C)." },
   { q: "What should I bring to a Pilates class in Las Vegas?", a: "Grip socks are required at most reformer studios. Our gear list for Las Vegas covers Pilates grip socks, Pilates mat (6mm), magic circle, fabric resistance bands and high-density foam roller." },
 ];

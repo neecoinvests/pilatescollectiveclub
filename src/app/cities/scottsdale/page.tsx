@@ -85,12 +85,12 @@ const STUDIOS = [
     name: "The Pilates Room",
     neighborhood: "North Scottsdale (Pima Road)",
     priceLevel: "$$$",
-    review: "The Pilates Room on North Pima Road focuses exclusively on reformer Pilates, with group classes and personalised training in a boutique setting.",
+    review: "The Pilates Room on North Pima Road focuses exclusively on reformer Pilates, with group classes and personalized training in a boutique setting.",
     caveat: "a smaller studio; book popular times ahead.",
     address: "20789 N Pima Rd, Suite 150, Scottsdale, AZ 85255",
     bestFor: "Reformer-only boutique",
     signatureClass: "Reformer",
-    bookingTip: "Ask about privates if you want personalised training.",
+    bookingTip: "Ask about privates if you want personalized training.",
   },
   {
     number: "06",
@@ -114,9 +114,9 @@ const GEAR = [{"name": "Pilates Grip Socks", "note": "Our pick: toesox Low Rise 
 
 const RELATED_CITIES = [{"city": "Phoenix", "country": "United States", "href": "/cities/phoenix", "studioCount": 6}, {"city": "Las Vegas", "country": "United States", "href": "/cities/las-vegas", "studioCount": 6}, {"city": "San Diego", "country": "United States", "href": "/cities/san-diego", "studioCount": 6}, {"city": "Los Angeles", "country": "United States", "href": "/cities/los-angeles", "studioCount": 6}];
 
-const FURTHER_READING = [{"title": "Beginner's Guide to Reformer Pilates", "excerpt": "What to expect in your first reformer class, how to choose a studio and how to progress.", "href": "/blog/beginners-guide-to-reformer-pilates", "category": "Beginner Guide", "readTime": "8 min read"}, {"title": "Best Pilates Grip Socks (2026)", "excerpt": "Five verified grip socks for reformer classes, from budget packs to studio favourites.", "href": "/blog/best-pilates-grip-socks", "category": "Accessories", "readTime": "6 min read"}, {"title": "What to Wear to Pilates", "excerpt": "A complete studio outfit guide: leggings, tops, bras and what to leave at home.", "href": "/blog/what-to-wear-to-pilates", "category": "Apparel", "readTime": "6 min read"}, {"title": "Best Pilates Equipment for Home Practice", "excerpt": "Everything you need between studio sessions, from a quality mat to resistance bands.", "href": "/blog/best-pilates-equipment-for-home-practice", "category": "Equipment", "readTime": "10 min read"}];
+const FURTHER_READING = [{"title": "Beginner's Guide to Reformer Pilates", "excerpt": "What to expect in your first reformer class, how to choose a studio and how to progress.", "href": "/blog/beginners-guide-to-reformer-pilates", "category": "Beginner Guide", "readTime": "8 min read"}, {"title": "Best Pilates Grip Socks (2026)", "excerpt": "Five verified grip socks for reformer classes, from budget packs to studio favorites.", "href": "/blog/best-pilates-grip-socks", "category": "Accessories", "readTime": "6 min read"}, {"title": "What to Wear to Pilates", "excerpt": "A complete studio outfit guide: leggings, tops, bras and what to leave at home.", "href": "/blog/what-to-wear-to-pilates", "category": "Apparel", "readTime": "6 min read"}, {"title": "Best Pilates Equipment for Home Practice", "excerpt": "Everything you need between studio sessions, from a quality mat to resistance bands.", "href": "/blog/best-pilates-equipment-for-home-practice", "category": "Equipment", "readTime": "10 min read"}];
 
-const CITY_FAQS = [{"q": "What are the best Pilates studios in Scottsdale?", "a": "Our 6 picks are Workshop Pilates McCormick Ranch (McCormick Ranch), Concrete Pilates (Old Town), Get It Movement HIIT Pilates (Scottsdale Airpark), BODYBAR Pilates Scottsdale Ranch (Scottsdale Ranch), The Pilates Room (North Scottsdale (Pima Road)) and Pilates North (Far North Scottsdale). Each listing above covers what the studio is best for, its signature class and a booking tip."}, {"q": "Which Scottsdale neighbourhoods are best for Pilates?", "a": "This guide covers Old Town, McCormick Ranch & Scottsdale Ranch, Scottsdale Airpark and North Scottsdale. Boutique reformer within walking distance of Old Town's restaurants and hotels."}, {"q": "What should I know about booking Pilates classes in Scottsdale?", "a": "Pick your format. Book early mornings. Hydrate."}, {"q": "What should I bring to a Pilates class in Scottsdale?", "a": "Grip socks are required at most reformer studios. Our gear list for Scottsdale covers grip socks, a Pilates mat, a magic circle, resistance bands, a foam roller and a home reformer."}, {"q": "Is there hot Pilates in Scottsdale?", "a": "Yes. Workshop Pilates runs 105°F heated mat classes alongside reformer at its McCormick Ranch studio."}];
+const CITY_FAQS = [{"q": "What are the best Pilates studios in Scottsdale?", "a": "Our 6 picks are Workshop Pilates McCormick Ranch (McCormick Ranch), Concrete Pilates (Old Town), Get It Movement HIIT Pilates (Scottsdale Airpark), BODYBAR Pilates Scottsdale Ranch (Scottsdale Ranch), The Pilates Room (North Scottsdale (Pima Road)) and Pilates North (Far North Scottsdale). Each listing above covers what the studio is best for, its signature class and a booking tip."}, {"q": "Which Scottsdale neighborhoods are best for Pilates?", "a": "This guide covers Old Town, McCormick Ranch & Scottsdale Ranch, Scottsdale Airpark and North Scottsdale. Boutique reformer within walking distance of Old Town's restaurants and hotels."}, {"q": "What should I know about booking Pilates classes in Scottsdale?", "a": "Pick your format. Book early mornings. Hydrate."}, {"q": "What should I bring to a Pilates class in Scottsdale?", "a": "Grip socks are required at most reformer studios. Our gear list for Scottsdale covers grip socks, a Pilates mat, a magic circle, resistance bands, a foam roller and a home reformer."}, {"q": "Is there hot Pilates in Scottsdale?", "a": "Yes. Workshop Pilates runs 105°F heated mat classes alongside reformer at its McCormick Ranch studio."}];
 
 const gearName = (g: { name: string; note: string }) => g.note.match(/Our pick: ([^.]+(?:\.\d+[^.]*)?)\./)?.[1] ?? g.name;
 
@@ -240,7 +240,7 @@ export default function ScottsdalePage() {
 
         <section className="py-20 px-6" style={{ backgroundColor: "#fcf9f8" }}>
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Best neighbourhoods for Pilates in Scottsdale</h2>
+            <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Best neighborhoods for Pilates in Scottsdale</h2>
             <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Where to look depending on where you live, work or stay.</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {NEIGHBORHOODS.map((n) => (

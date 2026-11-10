@@ -147,7 +147,7 @@ const GUIDE: DealsGuideProps = {
           "asin": "B0FXN378H8",
           "name": "Varley Freesoft Piped Full Leggings",
           "badge": "Best premium leggings",
-          "note": "Varley's soft Freesoft leggings, a premium studio favourite.",
+          "note": "Varley's soft Freesoft leggings, a premium studio favorite.",
           "price": "$98.00"
         },
         {

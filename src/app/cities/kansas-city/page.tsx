@@ -55,7 +55,7 @@ const STUDIOS = [
     name: "Pilates Stance",
     neighborhood: "Kansas City, MO",
     priceLevel: "$$$",
-    review: "Pilates Stance is a pure Pilates studio where every instructor is certified through Romana's Pilates: the programme that continues Joseph and Clara Pilates' teaching as directly as possible. For people who want authentic classical method rather than a reformer workout, it is the most traditional option in the metro.",
+    review: "Pilates Stance is a pure Pilates studio where every instructor is certified through Romana's Pilates: the program that continues Joseph and Clara Pilates' teaching as directly as possible. For people who want authentic classical method rather than a reformer workout, it is the most traditional option in the metro.",
     caveat: "classical teaching is precise and methodical, and we could not confirm the current street address independently, so check the studio's website before visiting.",
     address: "",
     bestFor: "Authentic classical Pilates (Romana's lineage)",
@@ -67,8 +67,8 @@ const STUDIOS = [
     name: "Club Pilates Country Club Plaza",
     neighborhood: "Country Club Plaza / Midtown",
     priceLevel: "$$$",
-    review: "Club Pilates Country Club Plaza on West 48th Street sits at the west side of the Plaza, convenient for midtown residents and anyone combining a class with the Plaza's shops and restaurants. It runs the brand's levelled group reformer system.",
-    caveat: "a franchise format: consistent, but less personalised than an independent studio.",
+    review: "Club Pilates Country Club Plaza on West 48th Street sits at the west side of the Plaza, convenient for midtown residents and anyone combining a class with the Plaza's shops and restaurants. It runs the brand's leveled group reformer system.",
+    caveat: "a franchise format: consistent, but less personalized than an independent studio.",
     address: "610 W 48th St, Kansas City, MO 64112",
     bestFor: "Structured reformer classes at the Plaza",
     signatureClass: "Reformer Flow",
@@ -91,7 +91,7 @@ const STUDIOS = [
     name: "The Body Lab",
     neighborhood: "Prairie Village",
     priceLevel: "$$$",
-    review: "The Body Lab on The Mall in Prairie Village specialises in Lagree Fitness on the Megaformer, and it holds a 5.0 rating on ClassPass. It is the go-to Lagree option for Prairie Village and the Kansas side of the state line.",
+    review: "The Body Lab on The Mall in Prairie Village specializes in Lagree Fitness on the Megaformer, and it holds a 5.0 rating on ClassPass. It is the go-to Lagree option for Prairie Village and the Kansas side of the state line.",
     caveat: "Lagree is very different from Pilates: slower, heavier and sweatier.",
     address: "11 On The Mall, Prairie Village, KS 66208",
     bestFor: "Lagree on the Megaformer",
@@ -115,7 +115,7 @@ const STUDIOS = [
     name: "BODYBAR Pilates South Overland Park",
     neighborhood: "South Overland Park",
     priceLevel: "$$",
-    review: "BODYBAR Pilates opened its South Overland Park studio in the Deer Creek Woods shopping centre in April 2024. Its 40–50 minute classes target strength, balance, toning and flexibility using jump boards, tower springs and stability chairs. At opening, single classes were $32 and memberships ran from $99 (four classes a month) to $199 (unlimited).",
+    review: "BODYBAR Pilates opened its South Overland Park studio in the Deer Creek Woods shopping center in April 2024. Its 40–50 minute classes target strength, balance, toning and flexibility using jump boards, tower springs and stability chairs. At opening, single classes were $32 and memberships ran from $99 (four classes a month) to $199 (unlimited).",
     caveat: "a franchise brand: upbeat and consistent, but less individual than a private-session studio.",
     address: "13340 Metcalf Ave, Overland Park, KS 66213",
     bestFor: "Upbeat reformer classes in southern Johnson County",
@@ -206,7 +206,7 @@ const GEAR = [
 const HOME_REFORMERS = [
   { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work: three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
   { tag: "Mid-Range Pick", name: "AeroPilates Pro XP 557", note: "AeroPilates' top-of-the-range home reformer, a step up for practitioners training several times a week.", price: "$1,329.99", url: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20" },
-  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
+  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodized aluminum frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
 ];
 
 const RELATED_CITIES = [
@@ -243,7 +243,7 @@ const FURTHER_READING = [
 
 const CITY_FAQS = [
   { q: "What are the best Pilates studios in Kansas City?", a: "Our 6 curated picks are Pilates Stance (Kansas City, MO), Club Pilates Country Club Plaza (Country Club Plaza / Midtown), Pilates 1901 (Kansas City, KS, Rosedale), The Body Lab (Prairie Village), Club Pilates Prairie Village (Prairie Village) and BODYBAR Pilates South Overland Park (South Overland Park). Each listing above covers what the studio is best for, its signature class and a booking tip." },
-  { q: "Which Kansas City neighbourhoods are best for Pilates?", a: "This guide covers Country Club Plaza & Midtown, Waldo & Brookside, Prairie Village & Overland Park and South Overland Park & Leawood. Country Club Plaza & Midtown: KC's most iconic commercial district anchors the city-core Pilates scene, with both franchise and boutique studios serving the surrounding midtown residential neighborhoods and the Plaza's professional and shopping traffic." },
+  { q: "Which Kansas City neighborhoods are best for Pilates?", a: "This guide covers Country Club Plaza & Midtown, Waldo & Brookside, Prairie Village & Overland Park and South Overland Park & Leawood. Country Club Plaza & Midtown: KC's most iconic commercial district anchors the city-core Pilates scene, with both franchise and boutique studios serving the surrounding midtown residential neighborhoods and the Plaza's professional and shopping traffic." },
   { q: "What should I know about booking Pilates classes in Kansas City?", a: "KC's winters and summers both favor a studio commitment. Kansas City gets both brutal winters and sweltering summers, two seasons that push outdoor exercisers indoors and create year-round demand spikes at reformer studios." },
   { q: "What should I bring to a Pilates class in Kansas City?", a: "Grip socks are required at most reformer studios. Our gear list for Kansas City covers Pilates grip socks, Pilates mat (6mm), magic circle, fabric resistance bands and high-density foam roller." },
 ];

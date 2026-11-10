@@ -86,7 +86,7 @@ const STUDIOS = [
     name: "Nice Pilates",
     neighborhood: "Central Richmond",
     priceLevel: "$$",
-    review: "NICE Pilates (the name stands for Nourishing, Integrative, Classical, Experience) is a classical-leaning studio on 15th Avenue in the Richmond District, with an intimate neighbourhood feel and instructors known for making every client feel cared for. A true local gem that serves the Richmond's diverse, community-oriented population.",
+    review: "NICE Pilates (the name stands for Nourishing, Integrative, Classical, Experience) is a classical-leaning studio on 15th Avenue in the Richmond District, with an intimate neighborhood feel and instructors known for making every client feel cared for. A true local gem that serves the Richmond's diverse, community-oriented population.",
     address: "412 15th Ave, San Francisco, CA 94118",
     bestFor: "Community-focused neighborhood Pilates; accessible pricing",
     signatureClass: "Classical Reformer",
@@ -108,11 +108,11 @@ const STUDIOS = [
     name: "Rebalanced SF",
     neighborhood: "Hayes Valley / Duboce Triangle",
     priceLevel: "$$$$",
-    review: "Rebalanced SF Pilates & Strength Training on Market Street specialises in personalised rehabilitation-focused work, including Redcord Suspension Training sessions led by Justin. Clients praise his expertise, individual attention and success with pain reduction and rehabilitation.",
+    review: "Rebalanced SF Pilates & Strength Training on Market Street specializes in personalized rehabilitation-focused work, including Redcord Suspension Training sessions led by Justin. Clients praise his expertise, individual attention and success with pain reduction and rehabilitation.",
     address: "1844 Market St, San Francisco, CA 94102",
     bestFor: "Pilates as rehabilitation; chronic pain, injury history, movement dysfunction",
     signatureClass: "Redcord Suspension + Pilates Rehab",
-    bookingTip: "Request an initial evaluation so your programme is customised from the start.",
+    bookingTip: "Request an initial evaluation so your program is customized from the start.",
   },
 ];
 
@@ -134,7 +134,7 @@ const BOOKING_TIPS = [
     body: "No exceptions: bring your own. The standard is toeless grip socks, available at most studios for $15–18 or cheaper online. A few studios will loan a pair for your first visit but will charge for them.",
   },
   {
-    heading: "Neighbourhood matters for your routine",
+    heading: "Neighborhood matters for your routine",
     body: "San Francisco's hills and traffic patterns make cross-city commutes genuinely inconvenient at peak times. Choose a studio within fifteen minutes of your home or office: consistency matters far more than prestige, and a studio you'll actually attend is always the right studio.",
   },
 ];
@@ -148,12 +148,12 @@ const NEIGHBORHOODS = [
   {
     name: "Noe Valley",
     description:
-      "A quieter, family-oriented neighbourhood with a strong community wellness culture. Studios here lean toward private and semi-private work, and the pace is deliberately unhurried. Excellent for clients seeking a more personal relationship with their instructor and a less scene-driven environment.",
+      "A quieter, family-oriented neighborhood with a strong community wellness culture. Studios here lean toward private and semi-private work, and the pace is deliberately unhurried. Excellent for clients seeking a more personal relationship with their instructor and a less scene-driven environment.",
   },
   {
     name: "Russian Hill & Polk Gulch",
     description:
-      "Home to some of the city's most classically-minded studios. The elevated streets and neighbourhood calm suit the focused, methodical approach these studios bring. The Pilates Studio SF sets the tone: serious, traditional, and deeply invested in the original method.",
+      "Home to some of the city's most classically-minded studios. The elevated streets and neighborhood calm suit the focused, methodical approach these studios bring. The Pilates Studio SF sets the tone: serious, traditional, and deeply invested in the original method.",
   },
   {
     name: "SoMa",
@@ -204,7 +204,7 @@ const GEAR = [
 const HOME_REFORMERS = [
   { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work: three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
   { tag: "Mid-Range Pick", name: "AeroPilates Pro XP 557", note: "AeroPilates' top-of-the-range home reformer, a step up for practitioners training several times a week.", price: "$1,329.99", url: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20" },
-  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
+  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodized aluminum frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
 ];
 
 const RELATED_CITIES = [
@@ -237,7 +237,7 @@ const FURTHER_READING = [
 
 const CITY_FAQS = [
   { q: "What are the best Pilates studios in San Francisco?", a: "Our 6 curated picks are Mighty Pilates (Laurel Heights), BODYROK (Mission District), Bright Star Pilates (Castro / Mission Dolores), Nice Pilates (Central Richmond), Pilates Story (West Portal) and Rebalanced SF (Hayes Valley / Duboce Triangle). Each listing above covers what the studio is best for, its signature class and a booking tip." },
-  { q: "Which San Francisco neighbourhoods are best for Pilates?", a: "This guide covers Pacific Heights, Noe Valley, Russian Hill & Polk Gulch and SoMa. Pacific Heights: San Francisco's wealthiest residential quarter has a corresponding density of premium wellness studios." },
+  { q: "Which San Francisco neighborhoods are best for Pilates?", a: "This guide covers Pacific Heights, Noe Valley, Russian Hill & Polk Gulch and SoMa. Pacific Heights: San Francisco's wealthiest residential quarter has a corresponding density of premium wellness studios." },
   { q: "What should I know about booking Pilates classes in San Francisco?", a: "Expect to pay $30–55 per class. San Francisco boutique Pilates sits at the higher end of the US market." },
   { q: "What should I bring to a Pilates class in San Francisco?", a: "Grip socks are required at most reformer studios. Our gear list for San Francisco covers Pilates grip socks, Pilates mat, magic circle, resistance bands, foam roller and home Pilates reformer." },
 ];
@@ -392,10 +392,10 @@ export default function SanFranciscoPage() {
         <section className="py-20 px-6" style={{ backgroundColor: "#fcf9f8" }}>
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best neighbourhoods for Pilates in San Francisco
+              Best neighborhoods for Pilates in San Francisco
             </h2>
             <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-              San Francisco's Pilates landscape is shaped by its neighbourhoods.
+              San Francisco's Pilates landscape is shaped by its neighborhoods.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {NEIGHBORHOODS.map((n) => (

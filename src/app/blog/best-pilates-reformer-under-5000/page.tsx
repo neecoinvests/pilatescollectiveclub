@@ -35,7 +35,7 @@ const GUIDE: EquipmentGuideProps = {
   heroAlt: "A row of studio Pilates reformers",
   heroCaption: "Studio-grade reformers · Towers · Upgrades",
   intro: [
-    "Up to $5,000 buys the machines studios actually run: Balanced Body's Studio Reformer in solid maple, the maple-and-aluminium Rialto, the long Allegro Stretch, and Merrithew's At Home SPX package. It also buys a reformer with a full tower, which is how many home studios grow into Cadillac work without a second footprint.",
+    "Up to $5,000 buys the machines studios actually run: Balanced Body's Studio Reformer in solid maple, the maple-and-aluminum Rialto, the long Allegro Stretch, and Merrithew's At Home SPX package. It also buys a reformer with a full tower, which is how many home studios grow into Cadillac work without a second footprint.",
     "We compared every studio-brand reformer we could find on Amazon in this band, using the specifications published on each listing. Most Balanced Body machines are made to order, so we note lead times; prices were checked live.",
   ],
   quickPicks: [
@@ -64,7 +64,7 @@ const GUIDE: EquipmentGuideProps = {
       id: "studio-reformers",
       eyebrow: "The studio standard",
       heading: "Balanced Body Studio Reformer",
-      intro: "The machine most certification centres and studios are built around. Both versions are made to order by Balanced Body.",
+      intro: "The machine most certification centers and studios are built around. Both versions are made to order by Balanced Body.",
       items: [
         item("studioRevo", {
           badge: "Best Overall",
@@ -83,7 +83,7 @@ const GUIDE: EquipmentGuideProps = {
       id: "rialto-allegro",
       eyebrow: "Mid-range Balanced Body",
       heading: "Rialto and Allegro Stretch",
-      intro: "Two ways into Balanced Body for less than the Studio Reformer: the maple-framed Rialto, and the aluminium Allegro Stretch built for taller users.",
+      intro: "Two ways into Balanced Body for less than the Studio Reformer: the maple-framed Rialto, and the aluminum Allegro Stretch built for taller users.",
       items: [
         item("rialtoTower", {
           badge: "Best Reformer + Tower",
@@ -92,12 +92,12 @@ const GUIDE: EquipmentGuideProps = {
         }),
         item("allegroStretch", {
           badge: "Best for Tall Users",
-          pros: ["Wider, longer carriage and an 18\"-longer frame than the standard Allegro", "Anodized aluminium frame with transport wheels", "36\" footbar with 4 positions"],
+          pros: ["Wider, longer carriage and an 18\"-longer frame than the standard Allegro", "Anodized aluminum frame with transport wheels", "36\" footbar with 4 positions"],
           cons: ["111\" long: needs a long room", "Tower version is $5,275, just over budget"],
         }),
         item("rialtoBox", {
           badge: "Best Maple for Less",
-          pros: ["Solid maple frame on aluminium legs", "Sitting Box Lite included", "Can add the tower later with the retrofit kit"],
+          pros: ["Solid maple frame on aluminum legs", "Sitting Box Lite included", "Can add the tower later with the retrofit kit"],
           cons: ["Made to order", "Jumpboard sold separately"],
         }),
       ],
@@ -110,7 +110,7 @@ const GUIDE: EquipmentGuideProps = {
       items: [
         item("spxHome", {
           badge: "Best Complete Home Package",
-          pros: ["Box, roll-up pole, platform extender and straps included", "Sold and shipped by Amazon.com, in stock", "Aluminium rails; STOTT PILATES springs (4 × 100%, 1 × 50%)"],
+          pros: ["Box, roll-up pole, platform extender and straps included", "Sold and shipped by Amazon.com, in stock", "Aluminum rails; STOTT PILATES springs (4 × 100%, 1 × 50%)"],
           cons: ["Lower to the floor than studio machines", "Vertical-stand version is $3,549"],
         }),
         item("alignC8Pro", {
@@ -141,10 +141,10 @@ const GUIDE: EquipmentGuideProps = {
       rows: [
         ["BB Studio Reformer (Revo)", "$4,700", "Strata Rock Maple", "5 Signature, 46 settings", "Reformer only", "92.6\""],
         ["BB Studio Reformer (XSR)", "$4,850", "Strata Rock Maple", "5 Signature, 46 settings", "Sitting box, strap", "Not stated"],
-        ["BB Rialto + Tower & Mat", "$4,230", "Maple + aluminium legs", "5 Signature + 8 tower", "Tower, mat, box lite", "96\""],
-        ["BB Allegro Stretch", "$3,710", "Anodized aluminium", "5 Signature", "Reformer only", "111\""],
-        ["BB Rialto + Sitting Box Lite", "$3,495", "Maple + aluminium legs", "5 Signature", "Box lite, strap", "96\""],
-        ["Merrithew At Home SPX", "$3,349", "Aluminium rails", "4 × 100%, 1 × 50%", "Box, pole, extender, straps", "96.5\""],
+        ["BB Rialto + Tower & Mat", "$4,230", "Maple + aluminum legs", "5 Signature + 8 tower", "Tower, mat, box lite", "96\""],
+        ["BB Allegro Stretch", "$3,710", "Anodized aluminum", "5 Signature", "Reformer only", "111\""],
+        ["BB Rialto + Sitting Box Lite", "$3,495", "Maple + aluminum legs", "5 Signature", "Box lite, strap", "96\""],
+        ["Merrithew At Home SPX", "$3,349", "Aluminum rails", "4 × 100%, 1 × 50%", "Box, pole, extender, straps", "96.5\""],
         ["Align-Pilates C8-PRO", "$2,750", "Not stated", "Align professional", "Reformer only", "239.5 cm"],
       ],
     },
@@ -153,17 +153,17 @@ const GUIDE: EquipmentGuideProps = {
       eyebrow: "How to choose",
       heading: "Five decisions that matter more than the brand",
       cards: [
-        { h: "Maple or aluminium", b: "Maple (Studio, Rialto) is heavier and permanent with a warm, solid feel. Aluminium (Allegro, SPX) is lighter and easier to move. Our wood vs aluminium guide covers the trade-offs." },
+        { h: "Maple or aluminum", b: "Maple (Studio, Rialto) is heavier and permanent with a warm, solid feel. Aluminum (Allegro, SPX) is lighter and easier to move. Our wood vs aluminum guide covers the trade-offs." },
         { h: "Tower now or later", b: "If you want roll-downs and push-through work, a tower bundle costs less than buying one later. The Rialto can be upgraded with a $1,275 retrofit kit." },
         { h: "Ceiling and floor", b: "Tower machines stand about 75 to 78 inches tall. Reformers run 92 to 111 inches long. Measure the room and the route in." },
         { h: "Lead times", b: "Most Balanced Body machines are made to order. The Merrithew At Home SPX and Align C8-PRO were in stock when we checked." },
-        { h: "Resale", b: "Studio-brand reformers are widely recognised second-hand, which supports resale value if your plans change." },
+        { h: "Resale", b: "Studio-brand reformers are widely recognized second-hand, which supports resale value if your plans change." },
         { h: "Accessories", b: "Jumpboards are model-specific: Merrithew's 22-inch board fits SPX carriages, the 24-inch fits V2 Max carriages. Check before ordering." },
       ],
     },
   ],
   faqs: [
-    { q: "What is the best Pilates reformer under $5,000?", a: "The Balanced Body Studio Reformer ($4,700 on Amazon, made to order). It has a solid Strata Rock Maple frame and five Signature Springs offering up to 46 resistance settings, and it is the machine many studios and certification centres use." },
+    { q: "What is the best Pilates reformer under $5,000?", a: "The Balanced Body Studio Reformer ($4,700 on Amazon, made to order). It has a solid Strata Rock Maple frame and five Signature Springs offering up to 46 resistance settings, and it is the machine many studios and certification centers use." },
     { q: "Can I get a reformer with a tower for under $5,000?", a: "Yes. The Balanced Body Rialto Reformer with Tower & Mat is $4,230 and includes the tower, an over-molded mat and a Sitting Box Lite. The Allegro Stretch with Tower & Mat is $5,275, just over budget." },
     { q: "Balanced Body or Merrithew under $5,000?", a: "Balanced Body if you want a maple studio frame or a tower combo; Merrithew if you want a complete package in one box. Merrithew's At Home SPX ($3,349) includes a box, roll-up pole, platform extender and straps and ships from Amazon.com." },
     { q: "Which reformer is best for tall people?", a: "The Balanced Body Allegro Stretch. Its carriage is 2 inches wider and 6 inches longer, and its frame 18 inches longer, than the standard Allegro." },
@@ -172,7 +172,7 @@ const GUIDE: EquipmentGuideProps = {
   related: [
     { title: "Best Pilates Reformer Under $3,000", excerpt: "Align C8-PRO, Metro IQ, PersonalHour and wood reformers with towers.", href: "/blog/best-pilates-reformer-under-3000", imageUrl: "/pictures/stitch-reformer-sunlit-minimal.png", category: "Equipment", readTime: "14 min read" },
     { title: "Merrithew SPX Max vs V2 Max", excerpt: "Carriage width, height, springs and price compared.", href: "/blog/merrithew-spx-max-vs-v2-max", imageUrl: "/pictures/stitch-reformer-spring-detail.png", category: "Comparison", readTime: "11 min read" },
-    { title: "Wood vs Aluminium Pilates Reformer", excerpt: "Which frame suits your home and your practice.", href: "/blog/wood-vs-aluminium-pilates-reformer", imageUrl: "/pictures/stitch-white-reformer-plaster.png", category: "Equipment", readTime: "11 min read" },
+    { title: "Wood vs Aluminum Pilates Reformer", excerpt: "Which frame suits your home and your practice.", href: "/blog/wood-vs-aluminium-pilates-reformer", imageUrl: "/pictures/stitch-white-reformer-plaster.png", category: "Equipment", readTime: "11 min read" },
     { title: "How to Open a Pilates Studio", excerpt: "Equipment, space and budget for your first studio.", href: "/blog/how-to-open-a-pilates-studio", imageUrl: "/pictures/stitch-luxury-studio-wide.png", category: "Business", readTime: "16 min read" },
   ],
 };

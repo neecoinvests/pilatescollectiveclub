@@ -60,7 +60,7 @@ const PRODUCTS = [
     description:
       "The 6-inch Align Short delivers the same Nulu fabric experience in biker short form. The inseam length is precisely calibrated: long enough to prevent ride-up during reformer transitions, short enough to allow freedom of movement in deep hip-flexion exercises. The high-rise waistband from the legging translates identically into the short: it stays in place, doesn't roll, and provides a flat surface that doesn't create pressure points during supine exercises. The Align Short has become the single most visible item of clothing in boutique reformer studios across global cities, and the usage pattern reflects its performance. If you practice in a warm studio or prefer the feel of shorts, this is the starting point. Not sold on Amazon: this link goes to Lululemon's own site.",
     affiliateUrl: "https://shop.lululemon.com",
-    tag: "Studio Favourite",
+    tag: "Studio Favorite",
   },
   {
     rank: "04",
@@ -78,7 +78,7 @@ const PRODUCTS = [
     price: "From $58",
     verdict: "Best bra to complete the set",
     description:
-      "The Align Reversible Bra completes a coordinated studio kit with a sports bra built from the same Nulu fabric family. Light support (appropriate for Pilates, yoga, and barre) and a clean aesthetic that reads as polished in any studio environment. The reversible design effectively gives you two colourways in a single garment, which is genuinely useful for building a studio wardrobe with limited individual purchases. The straps are thin enough to wear under bodysuit-style back cut-outs, and the underband is flat-seamed for comfort during floor exercises. This is not a high-impact sports bra: it is purpose-built for the low-impact demands of the Pilates repertoire. Not sold on Amazon: this link goes to Lululemon's own site.",
+      "The Align Reversible Bra completes a coordinated studio kit with a sports bra built from the same Nulu fabric family. Light support (appropriate for Pilates, yoga, and barre) and a clean aesthetic that reads as polished in any studio environment. The reversible design effectively gives you two colorways in a single garment, which is genuinely useful for building a studio wardrobe with limited individual purchases. The straps are thin enough to wear under bodysuit-style back cut-outs, and the underband is flat-seamed for comfort during floor exercises. This is not a high-impact sports bra: it is purpose-built for the low-impact demands of the Pilates repertoire. Not sold on Amazon: this link goes to Lululemon's own site.",
     affiliateUrl: "https://shop.lululemon.com",
     tag: "Best Companion Bra",
   },
@@ -167,7 +167,7 @@ export default function LululemonAlignReviewPage() {
             <div className="mb-12 mt-4 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
               <h2 className="text-xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What is Nulu fabric?</h2>
               <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Nulu is Lululemon&apos;s proprietary fabric technology: a buttery-soft, lightweight material with four-way stretch that is engineered to feel as close to nothing as possible against the skin. It differs from standard activewear fabrics in that it prioritises softness and minimal weight over compression or moisture-wicking performance. This makes it specifically well-suited for Pilates, where breath and movement are unrestricted by fabric tension, and less optimal for high-sweat activities where moisture management is the primary concern.
+                Nulu is Lululemon&apos;s proprietary fabric technology: a buttery-soft, lightweight material with four-way stretch that is engineered to feel as close to nothing as possible against the skin. It differs from standard activewear fabrics in that it prioritizes softness and minimal weight over compression or moisture-wicking performance. This makes it specifically well-suited for Pilates, where breath and movement are unrestricted by fabric tension, and less optimal for high-sweat activities where moisture management is the primary concern.
               </p>
             </div>
 

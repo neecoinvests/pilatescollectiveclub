@@ -84,12 +84,12 @@ const jsonLd = {
         {
           "@type": "Question",
           "name": "How many times a week is Pilates enough to see results?",
-          "acceptedAnswer": { "@type": "Answer", "text": "3 sessions per week is the minimum threshold for consistent results. Below this, your body doesn't accumulate enough stimulus between sessions to develop the pattern recognition and strength that characterise Pilates progress. Joseph Pilates' quote about 10/20/30 sessions applies to consistent, frequent practice." }
+          "acceptedAnswer": { "@type": "Answer", "text": "3 sessions per week is the minimum threshold for consistent results. Below this, your body doesn't accumulate enough stimulus between sessions to develop the pattern recognition and strength that characterize Pilates progress. Joseph Pilates' quote about 10/20/30 sessions applies to consistent, frequent practice." }
         },
         {
           "@type": "Question",
           "name": "Is Pilates enough on its own or should you do other exercise?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Pilates covers strength, flexibility, and body awareness exceptionally well. What it doesn't cover is cardiovascular conditioning: walking, cycling, swimming, or running complement Pilates without creating recovery competition. For general health, Pilates plus 150 minutes of moderate cardio per week is a complete programme." }
+          "acceptedAnswer": { "@type": "Answer", "text": "Pilates covers strength, flexibility, and body awareness exceptionally well. What it doesn't cover is cardiovascular conditioning: walking, cycling, swimming, or running complement Pilates without creating recovery competition. For general health, Pilates plus 150 minutes of moderate cardio per week is a complete program." }
         },
         {
           "@type": "Question",
@@ -210,8 +210,8 @@ export default function HowOftenShouldYouDoPilatesPage() {
                 <div className="space-y-6">
                   {[
                     { q: "Is it OK to do Pilates every day?", a: "Joseph Pilates himself recommended daily practice. For mat Pilates, daily sessions are generally safe and beneficial. For reformer Pilates, 5-6 sessions per week is the maximum most instructors recommend, allowing one or two recovery days. The key is varying intensity: alternate between more demanding sessions and gentler work." },
-                    { q: "How many times a week is Pilates enough to see results?", a: "3 sessions per week is the minimum threshold for consistent results. Below this, your body doesn't accumulate enough stimulus between sessions to develop the pattern recognition and strength that characterise Pilates progress. Joseph Pilates' quote about 10/20/30 sessions applies to consistent, frequent practice." },
-                    { q: "Is Pilates enough on its own or should you do other exercise?", a: "Pilates covers strength, flexibility, and body awareness exceptionally well. What it doesn't cover is cardiovascular conditioning: walking, cycling, swimming, or running complement Pilates without creating recovery competition. For general health, Pilates plus 150 minutes of moderate cardio per week is a complete programme." },
+                    { q: "How many times a week is Pilates enough to see results?", a: "3 sessions per week is the minimum threshold for consistent results. Below this, your body doesn't accumulate enough stimulus between sessions to develop the pattern recognition and strength that characterize Pilates progress. Joseph Pilates' quote about 10/20/30 sessions applies to consistent, frequent practice." },
+                    { q: "Is Pilates enough on its own or should you do other exercise?", a: "Pilates covers strength, flexibility, and body awareness exceptionally well. What it doesn't cover is cardiovascular conditioning: walking, cycling, swimming, or running complement Pilates without creating recovery competition. For general health, Pilates plus 150 minutes of moderate cardio per week is a complete program." },
                     { q: "Can you do too much Pilates?", a: "Overtraining is possible but uncommon in Pilates compared to high-impact sports. The main risk is repetitive strain from performing the same exercises with poor technique day after day. Variety in exercises, working with an instructor periodically, and including rest days prevents this." },
                   ].map((item) => (
                     <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>

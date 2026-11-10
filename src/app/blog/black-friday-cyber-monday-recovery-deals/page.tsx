@@ -77,7 +77,7 @@ const GUIDE: EquipmentGuideProps = {
         gift("jetbootsPrime", { badge: "Best Value Boots", pros: ["Wireless", "Folds into a backpack"], cons: ["Choose the right inseam size"] }),
         gift("normatecHips", { badge: "Best for Hips & Back", pros: ["Cordless", "Up to 4 hours of battery"], cons: ["Hips and lower back only"] }),
         gift("normatec3Legs", { badge: "Best Compression Boots", pros: ["The original system", "7 levels"], cons: ["Hose to a control unit"] }),
-        gift("normatecElite", { badge: "Best Wireless Normatec", pros: ["Hose-free", "Synchronised legs"], cons: ["Costs more than Normatec 3"] }),
+        gift("normatecElite", { badge: "Best Wireless Normatec", pros: ["Hose-free", "Synchronized legs"], cons: ["Costs more than Normatec 3"] }),
         gift("normatec3Lower", { badge: "Legs + Hips", pros: ["Hip attachment included"], cons: ["$1,149"] }),
         gift("jetbootsProPlus", { badge: "Most Advanced Boots", pros: ["Compression, vibration and light"], cons: ["The priciest boots here"] }),
         gift("normatec3Full", { badge: "The Complete System", pros: ["Legs, arms and hips"], cons: ["$1,549"] }),

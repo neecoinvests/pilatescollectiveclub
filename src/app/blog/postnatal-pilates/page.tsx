@@ -38,7 +38,7 @@ const PRODUCTS = [
     price: "$11.99",
     verdict: "Best resistance bands for postnatal rehab",
     description:
-      "Theraband's colour-coded resistance bands are the standard in physiotherapy clinics for postnatal rehabilitation and are equally effective for home Pilates practice. The flat band format allows a wider range of grip positions than loop bands: wrapping around the foot for supine leg exercises, anchored under the mat for arm work, or held for standing exercises. The progressive resistance system (yellow through black, lightest to heaviest) allows the safe incremental progression that postnatal recovery demands: starting with minimal resistance and advancing as core and whole-body strength returns over months. Each band is long enough to create multiple exercise setups from a single cut.",
+      "Theraband's color-coded resistance bands are the standard in physiotherapy clinics for postnatal rehabilitation and are equally effective for home Pilates practice. The flat band format allows a wider range of grip positions than loop bands: wrapping around the foot for supine leg exercises, anchored under the mat for arm work, or held for standing exercises. The progressive resistance system (yellow through black, lightest to heaviest) allows the safe incremental progression that postnatal recovery demands: starting with minimal resistance and advancing as core and whole-body strength returns over months. Each band is long enough to create multiple exercise setups from a single cut.",
     affiliateUrl: "https://www.amazon.com/dp/B01A58FHQ8?tag=pilatescollective-20",
     tag: "Best for Progressive Recovery",
   },
@@ -78,7 +78,7 @@ const PRODUCTS = [
     price: "From $18",
     verdict: "Best postnatal exercise reference",
     description:
-      "A structured postnatal exercise guide written by a qualified women's health physiotherapist provides the progression logic and safety framework that generic fitness content lacks. The specific considerations for returning to exercise after both vaginal birth and caesarean section (with different timelines, different scar tissue management protocols, and different loading parameters) require more nuance than a standard beginner Pilates guide provides. Look for books authored by physiotherapists who specialise in pelvic health; the quality gap between clinical expertise and general fitness advice is significant in this area.",
+      "A structured postnatal exercise guide written by a qualified women's health physiotherapist provides the progression logic and safety framework that generic fitness content lacks. The specific considerations for returning to exercise after both vaginal birth and caesarean section (with different timelines, different scar tissue management protocols, and different loading parameters) require more nuance than a standard beginner Pilates guide provides. Look for books authored by physiotherapists who specialize in pelvic health; the quality gap between clinical expertise and general fitness advice is significant in this area.",
     affiliateUrl: "https://www.amazon.com/s?k=postnatal+exercise+recovery+guide+physiotherapist&tag=pilatescollective-20",
     tag: "Best Reference Guide",
   },
@@ -147,7 +147,7 @@ export default function PostnatalPilatesPage() {
             </p>
             <div className="rounded-xl p-6 mb-4" style={{ backgroundColor: "#fff9f5", border: "1px solid rgba(197,168,130,0.3)" }}>
               <p className="text-xs font-semibold uppercase tracking-[0.15em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Medical note</p>
-              <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Always obtain medical clearance from your midwife or GP before returning to exercise. A pelvic floor physiotherapist assessment is strongly recommended before returning to any structured exercise programme postnatally.</p>
+              <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Always obtain medical clearance from your midwife or GP before returning to exercise. A pelvic floor physiotherapist assessment is strongly recommended before returning to any structured exercise program postnatally.</p>
             </div>
           </div>
         </section>
@@ -186,7 +186,7 @@ export default function PostnatalPilatesPage() {
             <div className="mb-16">
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The starting exercises</h2>
               <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                The following exercises form the foundation of a postnatal Pilates programme and can be performed from as early as 1-2 weeks postpartum (vaginal birth) if they feel comfortable and cause no pelvic floor symptoms:
+                The following exercises form the foundation of a postnatal Pilates program and can be performed from as early as 1-2 weeks postpartum (vaginal birth) if they feel comfortable and cause no pelvic floor symptoms:
               </p>
               <div className="space-y-4">
                 {[

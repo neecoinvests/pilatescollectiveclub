@@ -67,8 +67,8 @@ const STUDIOS = [
     name: "Club Pilates Uptown",
     neighborhood: "Uptown (Magazine Street)",
     priceLevel: "$$$",
-    review: "Club Pilates Uptown on Magazine Street serves Uptown and the Garden District with the brand's levelled group reformer system.",
-    caveat: "a franchise format: consistent, but less personalised than an independent studio.",
+    review: "Club Pilates Uptown on Magazine Street serves Uptown and the Garden District with the brand's leveled group reformer system.",
+    caveat: "a franchise format: consistent, but less personalized than an independent studio.",
     address: "6001 Magazine St, New Orleans, LA 70118",
     bestFor: "Structured reformer classes Uptown",
     signatureClass: "Reformer Flow",
@@ -91,7 +91,7 @@ const STUDIOS = [
     name: "Club Pilates Mid-City",
     neighborhood: "Mid-City",
     priceLevel: "$$",
-    review: "Club Pilates Mid-City on Orleans Avenue is rated 4.8 on ClassPass and brings levelled group reformer classes to one of the city's most central neighbourhoods, close to City Park.",
+    review: "Club Pilates Mid-City on Orleans Avenue is rated 4.8 on ClassPass and brings leveled group reformer classes to one of the city's most central neighborhoods, close to City Park.",
     caveat: "a franchise studio: reliable structure, less individual programming.",
     address: "3700 Orleans Ave, Suite 103A & B, New Orleans, LA 70119",
     bestFor: "Central reformer classes near City Park",
@@ -206,7 +206,7 @@ const GEAR = [
 const HOME_REFORMERS = [
   { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work: three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
   { tag: "Mid-Range Pick", name: "AeroPilates Pro XP 557", note: "AeroPilates' top-of-the-range home reformer, a step up for practitioners training several times a week.", price: "$1,329.99", url: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20" },
-  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
+  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodized aluminum frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
 ];
 
 const RELATED_CITIES = [
@@ -263,7 +263,7 @@ const FURTHER_READING = [
 
 const CITY_FAQS = [
   { q: "What are the best Pilates studios in New Orleans?", a: "Our 6 curated picks are DEFINE body & mind (Uptown), Club Pilates Uptown (Uptown, Magazine Street), Romney Studios (Uptown, Magazine Street), Club Pilates Mid-City (Mid-City), The Pilates and Yoga Loft (Metairie) and Devotion Studios (French Quarter). Each listing above covers what the studio is best for, its signature class and a booking tip." },
-  { q: "Which New Orleans neighbourhoods are best for Pilates?", a: "This guide covers Garden District, Uptown, Marigny/Bywater and Mid-City. Garden District: New Orleans' most storied residential neighborhood, lined with antebellum mansions and mature live oaks." },
+  { q: "Which New Orleans neighborhoods are best for Pilates?", a: "This guide covers Garden District, Uptown, Marigny/Bywater and Mid-City. Garden District: New Orleans' most storied residential neighborhood, lined with antebellum mansions and mature live oaks." },
   { q: "What should I know about booking Pilates classes in New Orleans?", a: "Plan around New Orleans' heat and humidity. Summers in New Orleans are intensely hot and humid, arriving at a studio already overheated will affect your session." },
   { q: "What should I bring to a Pilates class in New Orleans?", a: "Grip socks are required at most reformer studios. Our gear list for New Orleans covers Pilates grip socks, Pilates mat (6mm), magic circle, fabric resistance bands and high-density foam roller." },
 ];

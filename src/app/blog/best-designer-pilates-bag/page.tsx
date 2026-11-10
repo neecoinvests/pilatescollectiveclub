@@ -55,7 +55,7 @@ const PRODUCTS = [
     name: "Marc Jacobs The Large Puffy Tote",
     price: "$298.00",
     verdict: "Best Statement Bag",
-    description: "Marc Jacobs' The Tote is one of the most recognisable carryalls of the decade, and the Puffy version is the light, padded-nylon take that suits a studio day. It measures 15 × 12.5 × 7 inches, deeper than most totes, so a folded towel, trainers and a change of clothes fit without a fight, and it weighs just 13 oz. The branding is unmistakable, which is either the point or not your style. Sold by Shopbop (an Amazon company).",
+    description: "Marc Jacobs' The Tote is one of the most recognizable carryalls of the decade, and the Puffy version is the light, padded-nylon take that suits a studio day. It measures 15 × 12.5 × 7 inches, deeper than most totes, so a folded towel, trainers and a change of clothes fit without a fight, and it weighs just 13 oz. The branding is unmistakable, which is either the point or not your style. Sold by Shopbop (an Amazon company).",
     affiliateUrl: "https://www.amazon.com/dp/B0GXXH5KSV?tag=pilatescollective-20",
     tag: "Statement",
   },
@@ -73,7 +73,7 @@ const PRODUCTS = [
     name: "Herschel Novel Duffle (43L)",
     price: "$109.99",
     verdict: "Best Accessible Luxury",
-    description: "The Novel is Herschel's signature duffle, and its best feature for Pilates is the separate zippered shoe compartment in the end panel, which keeps trainers and damp kit away from clean clothes. The 43-litre body (20.5 × 11.75 × 11 inches) is roomy enough for a weekend, the 600D fabric is made from recycled polyester, and the zips are waterproof. Clean, low-key styling with vegan leather handles. Sold and shipped by Amazon.",
+    description: "The Novel is Herschel's signature duffle, and its best feature for Pilates is the separate zippered shoe compartment in the end panel, which keeps trainers and damp kit away from clean clothes. The 43-liter body (20.5 × 11.75 × 11 inches) is roomy enough for a weekend, the 600D fabric is made from recycled polyester, and the zips are waterproof. Clean, low-key styling with vegan leather handles. Sold and shipped by Amazon.",
     affiliateUrl: "https://www.amazon.com/dp/B0C3B2TWFN?tag=pilatescollective-20",
     tag: "Best Value",
   },
@@ -91,7 +91,7 @@ const PRODUCTS = [
     name: "BAGGU Cloud Bag",
     price: "$62",
     verdict: "Best Lightweight Carryall",
-    description: "BAGGU's puffy nylon Cloud Bag is light, squashy and surprisingly roomy (12.75 × 13.75 × 8 inches), with a top zip and an exterior pocket. It's big enough for a studio change of clothes and a towel, and when you don't need it, it packs into its own detachable interior pouch. The colours are the fun part. Sold by BAGGU on Amazon.",
+    description: "BAGGU's puffy nylon Cloud Bag is light, squashy and surprisingly roomy (12.75 × 13.75 × 8 inches), with a top zip and an exterior pocket. It's big enough for a studio change of clothes and a towel, and when you don't need it, it packs into its own detachable interior pouch. The colors are the fun part. Sold by BAGGU on Amazon.",
     affiliateUrl: "https://www.amazon.com/dp/B08JYLLYS6?tag=pilatescollective-20",
     tag: "Lightweight",
   },
@@ -171,7 +171,7 @@ export default function BestDesignerPilatesBagPage() {
               The bag you carry to the studio is the first and last impression of your practice. For practitioners who have invested in premium kit, a considered bag completes the picture, and the right one transitions from studio changing room to board meeting without drawing a second glance.
             </p>
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              We assessed six luxury and designer options for functional design, material quality, interior organisation, and the intangible quality of a bag that looks expensive without announcing itself.
+              We assessed six luxury and designer options for functional design, material quality, interior organization, and the intangible quality of a bag that looks expensive without announcing itself.
             </p>
           </div>
         </section>
@@ -230,7 +230,7 @@ export default function BestDesignerPilatesBagPage() {
           </div>
         </section>
 
-        <CTASection title="Find Your Studio" subtitle="Discover the world's finest Pilates and reformer studios." showSearch searchPlaceholder="Search by city or neighbourhood..." />
+        <CTASection title="Find Your Studio" subtitle="Discover the world's finest Pilates and reformer studios." showSearch searchPlaceholder="Search by city or neighborhood..." />
       </main>
       <Footer />
     </>

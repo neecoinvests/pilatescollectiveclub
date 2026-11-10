@@ -70,7 +70,7 @@ const jsonLd = {
 const TIMELINE = [
   {
     period: "Sessions 1–10 (Weeks 1–3)",
-    colour: "#f6f3f2",
+    color: "#f6f3f2",
     heading: "You feel the difference",
     changes: [
       "Increased body awareness: you begin to feel muscles you were previously unaware of",
@@ -83,7 +83,7 @@ const TIMELINE = [
   },
   {
     period: "Sessions 10–20 (Weeks 3–7)",
-    colour: "#f0ebe9",
+    color: "#f0ebe9",
     heading: "Others start to notice",
     changes: [
       "Postural improvement visible to others: taller, more open chest and shoulders",
@@ -92,11 +92,11 @@ const TIMELINE = [
       "Core activation becoming more automatic and less effortful",
       "Initial changes in body composition if combined with adequate protein intake",
     ],
-    note: "The second phase of Pilates' timeline: 'In twenty sessions you will see the difference.' Structural adaptations are beginning, connective tissue is remodelling, and postural muscles are strengthening.",
+    note: "The second phase of Pilates' timeline: 'In twenty sessions you will see the difference.' Structural adaptations are beginning, connective tissue is remodeling, and postural muscles are strengthening.",
   },
   {
     period: "Sessions 20–36 (Weeks 7–12)",
-    colour: "#e8e2e0",
+    color: "#e8e2e0",
     heading: "Measurable physical changes",
     changes: [
       "Visible changes in muscle tone, particularly in the abdominals, glutes, and inner thighs",
@@ -105,11 +105,11 @@ const TIMELINE = [
       "Reduced chronic pain (back, hip, neck) in people practicing for these conditions",
       "Improved athletic performance metrics (balance, stability, power) in cross-training athletes",
     ],
-    note: "By 30 sessions at consistent frequency, the body has undergone genuine structural adaptation. This is what Pilates described as 'a whole new body'not rhetoric, but a reflection of how long connective tissue and postural muscle remodelling actually takes.",
+    note: "By 30 sessions at consistent frequency, the body has undergone genuine structural adaptation. This is what Pilates described as 'a whole new body'not rhetoric, but a reflection of how long connective tissue and postural muscle remodeling actually takes.",
   },
   {
     period: "3–6 Months and Beyond",
-    colour: "#d9c2ba",
+    color: "#d9c2ba",
     heading: "Lasting transformation",
     changes: [
       "The practice becomes intuitive: Pilates movement principles appear in your everyday movement",
@@ -118,7 +118,7 @@ const TIMELINE = [
       "Access to the full Pilates repertoire: advanced exercises become achievable",
       "The mental benefits (reduced anxiety, improved body image, greater self-efficacy) compound over time",
     ],
-    note: "Long-term Pilates practice is where the method's potential fully realises. Practitioners with 6+ months of consistent practice typically describe it as a permanent shift in how they inhabit their bodies, not just an exercise habit.",
+    note: "Long-term Pilates practice is where the method's potential fully realizes. Practitioners with 6+ months of consistent practice typically describe it as a permanent shift in how they inhabit their bodies, not just an exercise habit.",
   },
 ];
 
@@ -187,7 +187,7 @@ export default function HowLongToSeeResultsPage() {
             <div className="mb-14 mt-12">
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The variables that determine your timeline</h2>
               <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                The Pilates results timeline is not fixed: it varies significantly based on a handful of key factors. Understanding these helps you set realistic expectations and optimise your approach.
+                The Pilates results timeline is not fixed: it varies significantly based on a handful of key factors. Understanding these helps you set realistic expectations and optimize your approach.
               </p>
               <div className="space-y-4">
                 {[
@@ -195,7 +195,7 @@ export default function HowLongToSeeResultsPage() {
                   { label: "Your starting point", body: "A sedentary person beginning Pilates will notice changes faster and more dramatically than someone who is already active. The neuromuscular novelty of Pilates, recruiting muscles that habitual movement patterns don't access, is greatest in those with the most room for improvement." },
                   { label: "Format: mat vs reformer", body: "Reformer Pilates provides progressive spring resistance that accelerates strength and tonal changes. Mat Pilates builds the neuromuscular foundation. Both work; reformer tends to produce faster visible physical changes, particularly after the first 4–6 weeks." },
                   { label: "Instruction quality", body: "Group classes at a large studio with varying instructor quality produce slower results than consistent sessions with a skilled instructor who provides corrective feedback. If your form is poor, you will adapt poorly: the muscles will compensate in ways that mirror your existing imbalances rather than correct them." },
-                  { label: "Nutrition", body: "Pilates builds lean muscle. Without adequate protein intake (typically 1.6–2.0g per kg of body weight per day for active adults), the muscle-building stimulus from Pilates does not fully realise as visible tonal change. This is frequently the reason people practice consistently for months without visible results." },
+                  { label: "Nutrition", body: "Pilates builds lean muscle. Without adequate protein intake (typically 1.6–2.0g per kg of body weight per day for active adults), the muscle-building stimulus from Pilates does not fully realize as visible tonal change. This is frequently the reason people practice consistently for months without visible results." },
                 ].map((item) => (
                   <div key={item.label} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.label}</p>
@@ -210,7 +210,7 @@ export default function HowLongToSeeResultsPage() {
               <div className="space-y-6">
                 {TIMELINE.map((phase) => (
                   <div key={phase.period} className="rounded-2xl overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.35)" }}>
-                    <div className="px-6 py-4" style={{ backgroundColor: phase.colour }}>
+                    <div className="px-6 py-4" style={{ backgroundColor: phase.color }}>
                       <p className="text-xs font-semibold uppercase tracking-widest mb-1" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{phase.period}</p>
                       <p className="text-xl font-semibold" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{phase.heading}</p>
                     </div>
@@ -230,11 +230,11 @@ export default function HowLongToSeeResultsPage() {
             </div>
 
             <div className="mb-14 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Maximising your results: what the evidence recommends</h2>
+              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Maximizing your results: what the evidence recommends</h2>
               <ul className="space-y-3">
                 {[
                   "Practice 3 times per week minimum: the evidence threshold for meaningful adaptation.",
-                  "Prioritise one-on-one sessions in the first month: corrective feedback in the early phases prevents the formation of compensatory patterns that slow progress.",
+                  "Prioritize one-on-one sessions in the first month: corrective feedback in the early phases prevents the formation of compensatory patterns that slow progress.",
                   "Track non-scale markers: posture photos, flexibility measurements, and subjective back pain ratings often show progress weeks before visible body changes.",
                   "Combine reformer and mat practice: reformer for progressive loading, mat for daily neuromuscular reinforcement.",
                   "Support the practice with adequate protein: the lean muscle stimulus from Pilates needs nutritional support to express as visible change.",

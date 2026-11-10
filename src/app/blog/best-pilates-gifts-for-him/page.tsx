@@ -62,7 +62,7 @@ const PRODUCTS = [
     name: "Hydro Flask 32oz Wide Mouth Water Bottle",
     price: "$44.70",
     verdict: "Best Everyday Gift",
-    description: "The 32oz Hydro Flask is the water bottle that the serious training community has settled on: genuinely double-wall vacuum insulated, so water stays cold for 24 hours and hot drinks stay warm for 12. The 32oz wide mouth is the men's standard: large enough to cover a full class and a post-class stretch without needing a refill, with a wide opening that takes ice easily. The flex cap is simple, leak-proof, and secure in any bag. Available in a wide range of solid colours. A practical, premium gift that travels everywhere he does.",
+    description: "The 32oz Hydro Flask is the water bottle that the serious training community has settled on: genuinely double-wall vacuum insulated, so water stays cold for 24 hours and hot drinks stay warm for 12. The 32oz wide mouth is the men's standard: large enough to cover a full class and a post-class stretch without needing a refill, with a wide opening that takes ice easily. The flex cap is simple, leak-proof, and secure in any bag. Available in a wide range of solid colors. A practical, premium gift that travels everywhere he does.",
     affiliateUrl: "https://www.amazon.com/dp/B0FJZHK6YQ?tag=pilatescollective-20",
   },
   {
@@ -78,7 +78,7 @@ const PRODUCTS = [
     name: "Lululemon ABC Pant (Classic Fit)",
     price: "$128",
     verdict: "The Best Men's Pilates Pant",
-    description: "The Lululemon ABC pant is the men's activewear piece that converts sceptics, designed with a gusseted crotch for full range of motion, four-way stretch fabric, and a tailored silhouette that works on the reformer as well as in a meeting. Made from Warpstreme fabric, which is moisture-wicking, lightweight, and wrinkle-resistant. The flat waistband sits flush against the reformer carriage padding. Available in slim and classic fits, in neutral and seasonal colours. For a man who does pilates regularly, this is the gift that immediately becomes the pant he reaches for every class. Not sold on Amazon: this link goes to Lululemon's own site.",
+    description: "The Lululemon ABC pant is the men's activewear piece that converts skeptics, designed with a gusseted crotch for full range of motion, four-way stretch fabric, and a tailored silhouette that works on the reformer as well as in a meeting. Made from Warpstreme fabric, which is moisture-wicking, lightweight, and wrinkle-resistant. The flat waistband sits flush against the reformer carriage padding. Available in slim and classic fits, in neutral and seasonal colors. For a man who does pilates regularly, this is the gift that immediately becomes the pant he reaches for every class. Not sold on Amazon: this link goes to Lululemon's own site.",
     affiliateUrl: "https://shop.lululemon.com",
   },
   {
@@ -93,7 +93,7 @@ const PRODUCTS = [
 
 const CRITERIA = [
   {
-    heading: "Prioritise what he'll actually wear",
+    heading: "Prioritize what he'll actually wear",
     body: "Men in pilates are often in whatever they grabbed from their workout drawer. The right gift is training pants that are genuinely built for pilates: four-way stretch, a gusseted fit, and a silhouette that looks intentional. Lululemon ABC and Vuori Ponto are the two brands worth trusting.",
   },
   {
@@ -102,7 +102,7 @@ const CRITERIA = [
   },
   {
     heading: "Skip the generic and go brand-specific",
-    body: "Generic resistance bands and foam rollers from unrecognised brands communicate the wrong thing. Theragun, Manduka, TriggerPoint, Lululemon, and Vuori are names that signal quality in training circles: they tell him you understand what he actually does.",
+    body: "Generic resistance bands and foam rollers from unrecognized brands communicate the wrong thing. Theragun, Manduka, TriggerPoint, Lululemon, and Vuori are names that signal quality in training circles: they tell him you understand what he actually does.",
   },
   {
     heading: "Know whether he goes to a studio",
@@ -250,7 +250,7 @@ export default function Page() {
           </div>
 
           <p style={{ fontFamily: "var(--font-sans)", fontSize: "11px", color: "#9a9490", lineHeight: 1.7, marginTop: "64px", paddingTop: "24px", borderTop: "1px solid #ede9e3" }}>
-            Pilates Collective Club participates in the Amazon Associates programme. Purchases through our links earn us a small commission at no additional cost to you. All recommendations are independently chosen.
+            Pilates Collective Club participates in the Amazon Associates program. Purchases through our links earn us a small commission at no additional cost to you. All recommendations are independently chosen.
           </p>
         </div>
       </section>

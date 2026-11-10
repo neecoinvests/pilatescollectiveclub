@@ -71,7 +71,7 @@ const COMPARISON = [
   {
     factor: "Frame and construction",
     a: "Solid rock maple frame with commercial-grade black upholstery, built for daily professional use: the same frame material used across Balanced Body's studio line.",
-    b: "Aluminium rails with high-density foam padding and durable vinyl upholstery, built for home use with the same core components as Merrithew's commercial machines.",
+    b: "Aluminum rails with high-density foam padding and durable vinyl upholstery, built for home use with the same core components as Merrithew's commercial machines.",
   },
   {
     factor: "Spring system",
@@ -91,7 +91,7 @@ const COMPARISON = [
   {
     factor: "Sold by",
     a: "Balanced Body Inc., direct through their Amazon storefront. Made to order, three to four weeks to ship.",
-    b: "Amazon.com itself: the only reformer in this comparison with standard Amazon fulfilment and returns.",
+    b: "Amazon.com itself: the only reformer in this comparison with standard Amazon fulfillment and returns.",
   },
   {
     factor: "Price",
@@ -102,7 +102,7 @@ const COMPARISON = [
 
 const REFORMERS = [
   { name: "Balanced Body Studio Reformer (Revo Footbar)", description: "The commercial machine most contemporary studios actually run. Solid rock maple frame, five Signature Springs for 46 resistance combinations, and the Revo footbar and springbar system. Sold direct by Balanced Body on Amazon; made to order.", price: "$4,700", affiliateUrl: "https://www.amazon.com/dp/B002XVWIFE?tag=pilatescollective-20" },
-  { name: "Merrithew At Home SPX Reformer Package", description: "Merrithew's home-specific reformer, using the same quality components as its studio machines: aluminium rails, a smooth quiet carriage, and five high-tension springs. Comes complete with a reformer box, roll-up pole, platform extender and straps. Sold and shipped by Amazon.com.", price: "$3,349", affiliateUrl: "https://www.amazon.com/dp/B004FGT0TM?tag=pilatescollective-20" },
+  { name: "Merrithew At Home SPX Reformer Package", description: "Merrithew's home-specific reformer, using the same quality components as its studio machines: aluminum rails, a smooth quiet carriage, and five high-tension springs. Comes complete with a reformer box, roll-up pole, platform extender and straps. Sold and shipped by Amazon.com.", price: "$3,349", affiliateUrl: "https://www.amazon.com/dp/B004FGT0TM?tag=pilatescollective-20" },
 ];
 
 const PRODUCTS = [
@@ -222,7 +222,7 @@ export default function Allegro2VsSpxMaxPage() {
                 The Studio Reformer is $4,700, sold direct by Balanced Body through their Amazon storefront, made to order with a three-to-four-week ship time.
               </p>
               <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                The At Home SPX Reformer Package is $3,349, sold and shipped by Amazon.com itself, the only machine in this comparison with standard Amazon fulfilment. That&apos;s roughly $1,350 less, a genuine 40% price gap that should factor into the decision rather than being treated as a rounding difference.
+                The At Home SPX Reformer Package is $3,349, sold and shipped by Amazon.com itself, the only machine in this comparison with standard Amazon fulfillment. That&apos;s roughly $1,350 less, a genuine 40% price gap that should factor into the decision rather than being treated as a rounding difference.
               </p>
               <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                 Both list prices are for the base machine only; towers, boxes and jumpboards are separate purchases on either. Our guide to{" "}
@@ -237,7 +237,7 @@ export default function Allegro2VsSpxMaxPage() {
                 Reformers are platforms. What mounts to them is model-specific, not universal, so the machine you choose determines what you can add to it for as long as you own it.
               </p>
               <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Balanced Body has the deepest accessory catalogue in the industry: towers, mat conversions, riser kits, jumpboards, boxes, all purpose-built. If you can see yourself adding a tower or mat conversion over the next few years (Balanced Body sells the Studio Reformer with both bundled in for $6,975), that ecosystem is worth paying for now. If you want a reformer to do reformer work and the budget difference matters more, the At Home SPX delivers genuine Merrithew quality with everything you need to start included in the box.
+                Balanced Body has the deepest accessory catalog in the industry: towers, mat conversions, riser kits, jumpboards, boxes, all purpose-built. If you can see yourself adding a tower or mat conversion over the next few years (Balanced Body sells the Studio Reformer with both bundled in for $6,975), that ecosystem is worth paying for now. If you want a reformer to do reformer work and the budget difference matters more, the At Home SPX delivers genuine Merrithew quality with everything you need to start included in the box.
               </p>
             </div>
 

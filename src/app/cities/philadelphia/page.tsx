@@ -104,8 +104,8 @@ const STUDIOS = [
     name: "Club Pilates Rittenhouse",
     neighborhood: "Rittenhouse Square",
     priceLevel: "$$$",
-    review: "Club Pilates Rittenhouse on Walnut Street brings the brand's levelled group reformer system to Center City.",
-    caveat: "a franchise format: consistent, but less personalised than an independent studio.",
+    review: "Club Pilates Rittenhouse on Walnut Street brings the brand's leveled group reformer system to Center City.",
+    caveat: "a franchise format: consistent, but less personalized than an independent studio.",
     address: "1616 Walnut St, Philadelphia, PA 19103",
     bestFor: "Structured reformer classes in Center City",
     signatureClass: "Reformer Flow",
@@ -117,14 +117,14 @@ const BOOKING_TIPS = [
   { heading: "Expect to pay $28–55 per class", body: "Philadelphia's Pilates market is slightly more accessible than New York but shares the Northeast's generally higher price baseline. Drop-in rates run from $28 at community studios to $55+ at Rittenhouse Square premium practices. Monthly memberships bring per-class costs to $20–32 for regular practitioners." },
   { heading: "The academic calendar shapes demand", body: "Philadelphia's enormous university population (Penn, Drexel, Temple, Jefferson, and many others) creates unusual seasonality in the fitness market. Summer sees reduced competition for popular timeslots, while September through November and January through April are the most demand-intensive periods." },
   { heading: "The Main Line is a separate market", body: "The Philadelphia suburban corridor along the SEPTA Regional Rail (Ardmore, Bryn Mawr, Wayne, and beyond) has its own excellent studio landscape that serves the western suburbs with high-quality instruction. Don't overlook Main Line options if you live or work in the suburbs." },
-  { heading: "SEPTA makes Philly studios genuinely accessible", body: "Unlike most American cities, Philadelphia's transit system is functional enough to make studios across the city genuinely accessible without a car. The Broad Street Line and Market-Frankford Line connect most major studio districts, and the transit network rewards practitioners willing to explore beyond their immediate neighbourhood." },
+  { heading: "SEPTA makes Philly studios genuinely accessible", body: "Unlike most American cities, Philadelphia's transit system is functional enough to make studios across the city genuinely accessible without a car. The Broad Street Line and Market-Frankford Line connect most major studio districts, and the transit network rewards practitioners willing to explore beyond their immediate neighborhood." },
   { heading: "Grip socks are required everywhere", body: "Universal across Philadelphia's reformer studios. Buying quality grip socks from Amazon before your first class is a consistent and practical saving over front-desk retail prices at every studio in the city." },
 ];
 
 const NEIGHBORHOODS = [
-  { name: "Rittenhouse Square & Center City", description: "Philadelphia's most commercially sophisticated residential neighbourhood houses the city's premier Pilates practices alongside a strong franchise studio presence. Excellent public transport access makes these studios genuinely accessible from across the metro area." },
-  { name: "Fitler Square, Graduate Hospital & South Street", description: "The neighbourhoods between Rittenhouse and South Philadelphia support a strong independent studio culture with academic and medical community influences. Studios here combine high instruction standards with a somewhat more accessible price point than Rittenhouse proper." },
-  { name: "Fishtown & Northern Liberties", description: "Philadelphia's most creatively vibrant east-side neighbourhoods have developed excellent independent studio cultures over the past decade. Studios here are community-focused, honestly priced, and staffed by instructors who chose these neighbourhoods because they share their values." },
+  { name: "Rittenhouse Square & Center City", description: "Philadelphia's most commercially sophisticated residential neighborhood houses the city's premier Pilates practices alongside a strong franchise studio presence. Excellent public transport access makes these studios genuinely accessible from across the metro area." },
+  { name: "Fitler Square, Graduate Hospital & South Street", description: "The neighborhoods between Rittenhouse and South Philadelphia support a strong independent studio culture with academic and medical community influences. Studios here combine high instruction standards with a somewhat more accessible price point than Rittenhouse proper." },
+  { name: "Fishtown & Northern Liberties", description: "Philadelphia's most creatively vibrant east-side neighborhoods have developed excellent independent studio cultures over the past decade. Studios here are community-focused, honestly priced, and staffed by instructors who chose these neighborhoods because they share their values." },
   { name: "Main Line (Ardmore, Bryn Mawr, Wayne)", description: "The western suburbs along the SEPTA Regional Rail offer several excellent private and semi-private practices serving the Main Line's affluent, health-invested residential community. Strong options for practitioners based outside the city." },
 ];
 
@@ -164,7 +164,7 @@ const GEAR = [
 const HOME_REFORMERS = [
   { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work: three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
   { tag: "Mid-Range Pick", name: "AeroPilates Pro XP 557", note: "AeroPilates' top-of-the-range home reformer, a step up for practitioners training several times a week.", price: "$1,329.99", url: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20" },
-  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
+  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodized aluminum frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
 ];
 
 const RELATED_CITIES = [
@@ -181,7 +181,7 @@ const FURTHER_READING = [
 
 const CITY_FAQS = [
   { q: "What are the best Pilates studios in Philadelphia?", a: "Our 6 curated picks are Star Pilates (Rittenhouse), CenterSpace Pilates (Rittenhouse / Center City), Retro Pilates (Fishtown), Midsection Connection (Spring Garden), FS8 Fishtown (Fishtown) and Club Pilates Rittenhouse (Rittenhouse Square). Each listing above covers what the studio is best for, its signature class and a booking tip." },
-  { q: "Which Philadelphia neighbourhoods are best for Pilates?", a: "This guide covers Rittenhouse Square & Center City, Fitler Square, Graduate Hospital & South Street, Fishtown & Northern Liberties and Main Line (Ardmore, Bryn Mawr, Wayne). Rittenhouse Square & Center City: Philadelphia's most commercially sophisticated residential neighbourhood houses the city's premier Pilates practices alongside a strong franchise studio presence." },
+  { q: "Which Philadelphia neighborhoods are best for Pilates?", a: "This guide covers Rittenhouse Square & Center City, Fitler Square, Graduate Hospital & South Street, Fishtown & Northern Liberties and Main Line (Ardmore, Bryn Mawr, Wayne). Rittenhouse Square & Center City: Philadelphia's most commercially sophisticated residential neighborhood houses the city's premier Pilates practices alongside a strong franchise studio presence." },
   { q: "What should I know about booking Pilates classes in Philadelphia?", a: "Expect to pay $28–55 per class. Philadelphia's Pilates market is slightly more accessible than New York but shares the Northeast's generally higher price baseline." },
   { q: "What should I bring to a Pilates class in Philadelphia?", a: "Grip socks are required at most reformer studios. Our gear list for Philadelphia covers Pilates grip socks, Pilates mat, magic circle, foam roller and resistance bands set." },
 ];
@@ -307,7 +307,7 @@ export default function PhiladelphiaPage() {
 
         <section className="py-20 px-6" style={{ backgroundColor: "#f6f3f2" }}>
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Best neighbourhoods for Pilates in Philadelphia</h2>
+            <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Best neighborhoods for Pilates in Philadelphia</h2>
             <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Philadelphia&apos;s compact size and functioning transit system make the whole city accessible. Here&apos;s where to look.</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {NEIGHBORHOODS.map((n) => (

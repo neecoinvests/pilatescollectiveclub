@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   keywords: ["pilates dublin", "reformer pilates dublin", "best pilates studios dublin", "pilates rathmines", "pilates dublin 2", "reformer pilates ireland", "pilates classes dublin", "pilates rathfarnham", "barre dublin"],
   openGraph: {
     title: "Best Pilates Studios in Dublin (2026)",
-    description: "Six curated Pilates studios in Dublin: city centre, Rathmines and Rathfarnham reformer picks. Checked October 2026.",
+    description: "Six curated Pilates studios in Dublin: city center, Rathmines and Rathfarnham reformer picks. Checked October 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/dublin",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/stitch-studio-arched-windows.png", width: 1200, height: 630, alt: "Dublin Pilates guide, Pilates Collective Club" }],
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Best Pilates Studios in Dublin (2026)",
-    description: "Six curated Pilates studios in Dublin: city centre, Rathmines and Rathfarnham reformer picks. Checked October 2026.",
+    description: "Six curated Pilates studios in Dublin: city center, Rathmines and Rathfarnham reformer picks. Checked October 2026.",
     images: ["https://pilatescollectiveclub.com/pictures/stitch-studio-arched-windows.png"],
   },
   alternates: { canonical: "https://pilatescollectiveclub.com/cities/dublin" },
@@ -39,7 +39,7 @@ const STUDIOS = [
     priceLevel: "$$$$",
     websiteUrl: "https://saintstudios.ie",
     review: "SAINT Studios is an all-in-one training space on South William Street combining HIIT, spin and reformer Pilates with rooftop recovery facilities, including three saunas and six cold plunges. It quickly became known for its reformer classes, which appear on its timetable as Signature 1 and Signature 2.",
-    caveat: "a busy, premium city-centre club; expect a high-energy atmosphere rather than a quiet studio.",
+    caveat: "a busy, premium city-center club; expect a high-energy atmosphere rather than a quiet studio.",
     address: "South William Street, Dublin 2",
     bestFor: "Reformer classes plus sauna and cold-plunge recovery",
     signatureClass: "Signature Reformer",
@@ -75,10 +75,10 @@ const STUDIOS = [
     neighborhood: "Rathmines, Dublin 6",
     priceLevel: "$$$",
     websiteUrl: "https://mondaystudio.ie",
-    review: "Monday Studio is a first-floor studio on Rathmines Road Upper offering reformer Pilates, mat Pilates and barre. It is a convenient neighbourhood option for Rathmines and Ranelagh, with a timetable built around reformer classes.",
-    caveat: "a neighbourhood studio with a smaller timetable than the big city-centre clubs.",
+    review: "Monday Studio is a first-floor studio on Rathmines Road Upper offering reformer Pilates, mat Pilates and barre. It is a convenient neighborhood option for Rathmines and Ranelagh, with a timetable built around reformer classes.",
+    caveat: "a neighborhood studio with a smaller timetable than the big city-center clubs.",
     address: "First Floor, 3 Rathmines Road Upper, Dublin 6, D06 N5K3",
-    bestFor: "Neighbourhood reformer and barre in Rathmines",
+    bestFor: "Neighborhood reformer and barre in Rathmines",
     signatureClass: "Reformer Pilates",
     bookingTip: "Weekend morning classes are the most popular; book them early in the week.",
   },
@@ -101,7 +101,7 @@ const STUDIOS = [
     neighborhood: "Rathfarnham, Dublin 16",
     priceLevel: "$$",
     review: "Pilates Performance Ireland runs reformer and mat classes from Grange Road Retail Park in Rathfarnham, with a clear progression from Reformer Beginners to Level 1 and 2. The studio says it has been named best Pilates studio in Ireland by the All Ireland Business Foundation for seven consecutive years.",
-    caveat: "it is in the southern suburbs, so it suits locals more than visitors staying in the centre.",
+    caveat: "it is in the southern suburbs, so it suits locals more than visitors staying in the center.",
     address: "Unit 11, Grange Road Retail Park, Rathfarnham, Dublin 16",
     bestFor: "Structured reformer progression in south Dublin",
     signatureClass: "Reformer Beginners",
@@ -111,15 +111,15 @@ const STUDIOS = [
 
 const BOOKING_TIPS = [{"heading": "Book reformer classes a few days ahead", "body": "Reformer studios have a fixed number of machines, and evening and weekend classes in Dublin 2 and Rathmines fill first. Book as soon as you know your week."}, {"heading": "Use intro packs to compare studios", "body": "Several Dublin studios offer intro packs for new clients, such as yogahub's Reformer Pilates Intro 8 Pack. They are the cheapest way to find the right fit before committing."}, {"heading": "ClassPass covers a lot of Dublin", "body": "Many Dublin reformer studios list classes on ClassPass, which is handy if you want to sample studios across the city."}, {"heading": "Start at beginner level", "body": "Even experienced mat practitioners benefit from a beginner reformer class to learn the springs, straps and footbar safely."}, {"heading": "Bring grip socks", "body": "Grip socks are expected at almost every reformer studio. Owning a couple of pairs saves buying them at the desk."}];
 
-const NEIGHBORHOODS = [{"name": "Dublin 2 city centre", "description": "South William Street, Camden Street and Fitzwilliam Square cover the full range, from a high-energy training club with rooftop recovery to small Georgian studios. Ideal if you work in the centre."}, {"name": "Rathmines & Ranelagh", "description": "Dublin 6 has a cluster of neighbourhood studios along Rathmines Road, offering reformer, mat and barre within walking distance of each other."}, {"name": "Smithfield & the north inner city", "description": "yogahub's Smithfield studio brings reformer and hot yoga north of the Liffey, a short walk from Stoneybatter."}, {"name": "Rathfarnham & the southern suburbs", "description": "Larger suburban studios with easier parking and structured reformer programmes, suited to regular locals rather than visitors."}];
+const NEIGHBORHOODS = [{"name": "Dublin 2 city center", "description": "South William Street, Camden Street and Fitzwilliam Square cover the full range, from a high-energy training club with rooftop recovery to small Georgian studios. Ideal if you work in the center."}, {"name": "Rathmines & Ranelagh", "description": "Dublin 6 has a cluster of neighborhood studios along Rathmines Road, offering reformer, mat and barre within walking distance of each other."}, {"name": "Smithfield & the north inner city", "description": "yogahub's Smithfield studio brings reformer and hot yoga north of the Liffey, a short walk from Stoneybatter."}, {"name": "Rathfarnham & the southern suburbs", "description": "Larger suburban studios with easier parking and structured reformer programs, suited to regular locals rather than visitors."}];
 
 const GEAR = [{"name": "Pilates Grip Socks", "note": "Our pick: toesox Low Rise Full-Toe Grip Socks (2-Pack). Required at most reformer studios; full-toe grip socks are the standard.", "price": "$30.00", "url": "https://www.amazon.com/dp/B07QHNDHW3?tag=pilatescollective-20"}, {"name": "Pilates Mat", "note": "Our pick: Manduka PRO Yoga & Pilates Mat (6mm). A dense 6mm mat for mat classes and home practice between studio sessions.", "price": "$144.00", "url": "https://www.amazon.com/dp/B0000DZFXZ?tag=pilatescollective-20"}, {"name": "Magic Circle", "note": "Our pick: Balanced Body Ultra-Fit Circle (15-inch). Many studios use the magic circle; worth owning for home reinforcement work.", "price": "$35.00", "url": "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20"}, {"name": "Resistance Bands", "note": "Our pick: Arena Strength Fabric Glute Bands (3-Pack). Fabric loops that carry reformer leg and glute work into home sessions.", "price": "$29.00", "url": "https://www.amazon.com/dp/B07VYK14JC?tag=pilatescollective-20"}, {"name": "Foam Roller", "note": "Our pick: OPTP PRO-Roller Foam Roller (36-inch). For spinal mobility and release work before and after class.", "price": "$62.99", "url": "https://www.amazon.com/dp/B002C9EX14?tag=pilatescollective-20"}, {"name": "Home Pilates Reformer", "note": "Our pick: PAETA Wooden Foldable Reformer. A folding home reformer to keep your practice going between studio classes.", "price": "$719.99", "url": "https://www.amazon.com/dp/B0D7M7JNFV?tag=pilatescollective-20"}];
 
 const RELATED_CITIES = [{"city": "London", "country": "United Kingdom", "href": "/cities/london", "studioCount": 6}, {"city": "Amsterdam", "country": "Netherlands", "href": "/cities/amsterdam", "studioCount": 6}, {"city": "Paris", "country": "France", "href": "/cities/paris", "studioCount": 6}, {"city": "Copenhagen", "country": "Denmark", "href": "/cities/copenhagen", "studioCount": 6}];
 
-const FURTHER_READING = [{"title": "Beginner's Guide to Reformer Pilates", "excerpt": "What to expect in your first reformer class, how to choose a studio and how to progress.", "href": "/blog/beginners-guide-to-reformer-pilates", "category": "Beginner Guide", "readTime": "8 min read"}, {"title": "Best Pilates Grip Socks (2026)", "excerpt": "Five verified grip socks for reformer classes, from budget packs to studio favourites.", "href": "/blog/best-pilates-grip-socks", "category": "Accessories", "readTime": "6 min read"}, {"title": "What to Wear to Pilates", "excerpt": "A complete studio outfit guide: leggings, tops, bras and what to leave at home.", "href": "/blog/what-to-wear-to-pilates", "category": "Apparel", "readTime": "6 min read"}, {"title": "Best Pilates Equipment for Home Practice", "excerpt": "Everything you need between studio sessions, from a quality mat to resistance bands.", "href": "/blog/best-pilates-equipment-for-home-practice", "category": "Equipment", "readTime": "10 min read"}];
+const FURTHER_READING = [{"title": "Beginner's Guide to Reformer Pilates", "excerpt": "What to expect in your first reformer class, how to choose a studio and how to progress.", "href": "/blog/beginners-guide-to-reformer-pilates", "category": "Beginner Guide", "readTime": "8 min read"}, {"title": "Best Pilates Grip Socks (2026)", "excerpt": "Five verified grip socks for reformer classes, from budget packs to studio favorites.", "href": "/blog/best-pilates-grip-socks", "category": "Accessories", "readTime": "6 min read"}, {"title": "What to Wear to Pilates", "excerpt": "A complete studio outfit guide: leggings, tops, bras and what to leave at home.", "href": "/blog/what-to-wear-to-pilates", "category": "Apparel", "readTime": "6 min read"}, {"title": "Best Pilates Equipment for Home Practice", "excerpt": "Everything you need between studio sessions, from a quality mat to resistance bands.", "href": "/blog/best-pilates-equipment-for-home-practice", "category": "Equipment", "readTime": "10 min read"}];
 
-const CITY_FAQS = [{"q": "What are the best Pilates studios in Dublin?", "a": "Our 6 picks are SAINT Studios (South William Street, Dublin 2), yogahub (Camden · Smithfield · more city sites), Luuma (Fitzwilliam Square, Dublin 2), Monday Studio (Rathmines, Dublin 6), Wunderform (Rathmines, Dublin 6) and Pilates Performance Ireland (Rathfarnham, Dublin 16). Each listing above covers what the studio is best for, its signature class and a booking tip."}, {"q": "Which Dublin neighbourhoods are best for Pilates?", "a": "This guide covers Dublin 2 city centre, Rathmines & Ranelagh, Smithfield & the north inner city and Rathfarnham & the southern suburbs. South William Street, Camden Street and Fitzwilliam Square cover the full range, from a high-energy training club with rooftop recovery to small Georgian studios. Ideal if you work in the centre."}, {"q": "What should I know about booking Pilates classes in Dublin?", "a": "Book reformer classes a few days ahead. Use intro packs to compare studios. ClassPass covers a lot of Dublin."}, {"q": "What should I bring to a Pilates class in Dublin?", "a": "Grip socks are required at most reformer studios. Our gear list for Dublin covers grip socks, a Pilates mat, a magic circle, resistance bands, a foam roller and a home reformer."}, {"q": "Do Dublin studios offer recovery facilities?", "a": "Some do. SAINT Studios has rooftop recovery with saunas and cold plunges, and yogahub's Camden studio has a sauna and ice bath. Smaller neighbourhood studios usually focus on classes only."}];
+const CITY_FAQS = [{"q": "What are the best Pilates studios in Dublin?", "a": "Our 6 picks are SAINT Studios (South William Street, Dublin 2), yogahub (Camden · Smithfield · more city sites), Luuma (Fitzwilliam Square, Dublin 2), Monday Studio (Rathmines, Dublin 6), Wunderform (Rathmines, Dublin 6) and Pilates Performance Ireland (Rathfarnham, Dublin 16). Each listing above covers what the studio is best for, its signature class and a booking tip."}, {"q": "Which Dublin neighborhoods are best for Pilates?", "a": "This guide covers Dublin 2 city center, Rathmines & Ranelagh, Smithfield & the north inner city and Rathfarnham & the southern suburbs. South William Street, Camden Street and Fitzwilliam Square cover the full range, from a high-energy training club with rooftop recovery to small Georgian studios. Ideal if you work in the center."}, {"q": "What should I know about booking Pilates classes in Dublin?", "a": "Book reformer classes a few days ahead. Use intro packs to compare studios. ClassPass covers a lot of Dublin."}, {"q": "What should I bring to a Pilates class in Dublin?", "a": "Grip socks are required at most reformer studios. Our gear list for Dublin covers grip socks, a Pilates mat, a magic circle, resistance bands, a foam roller and a home reformer."}, {"q": "Do Dublin studios offer recovery facilities?", "a": "Some do. SAINT Studios has rooftop recovery with saunas and cold plunges, and yogahub's Camden studio has a sauna and ice bath. Smaller neighborhood studios usually focus on classes only."}];
 
 const gearName = (g: { name: string; note: string }) => g.note.match(/Our pick: ([^.]+(?:\.\d+[^.]*)?)\./)?.[1] ?? g.name;
 
@@ -243,7 +243,7 @@ export default function DublinPage() {
 
         <section className="py-20 px-6" style={{ backgroundColor: "#fcf9f8" }}>
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Best neighbourhoods for Pilates in Dublin</h2>
+            <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Best neighborhoods for Pilates in Dublin</h2>
             <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Where to look depending on where you live, work or stay.</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {NEIGHBORHOODS.map((n) => (

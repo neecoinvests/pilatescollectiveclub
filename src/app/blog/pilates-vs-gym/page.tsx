@@ -78,7 +78,7 @@ const jsonLd = {
         {
           "@type": "Question",
           "name": "Is Pilates better than gym for weight loss?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Gym training (particularly strength training combined with cardio) burns more calories per session than Pilates. However, Pilates produces body composition changes (muscle development in the core, glutes, and stabilisers) that complement gym training well. The most effective approach for weight loss combines both." }
+          "acceptedAnswer": { "@type": "Answer", "text": "Gym training (particularly strength training combined with cardio) burns more calories per session than Pilates. However, Pilates produces body composition changes (muscle development in the core, glutes, and stabilizers) that complement gym training well. The most effective approach for weight loss combines both." }
         },
         {
           "@type": "Question",
@@ -88,12 +88,12 @@ const jsonLd = {
         {
           "@type": "Question",
           "name": "Is Pilates considered strength training?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Contemporary Pilates, particularly reformer Pilates, is increasingly recognised as a form of resistance training. The spring resistance on a reformer produces meaningful muscular challenge, particularly for the core, hip, and shoulder stabilisers. It won't build maximal strength like barbell training, but it develops the functional strength most people need for daily life and healthy ageing." }
+          "acceptedAnswer": { "@type": "Answer", "text": "Contemporary Pilates, particularly reformer Pilates, is increasingly recognized as a form of resistance training. The spring resistance on a reformer produces meaningful muscular challenge, particularly for the core, hip, and shoulder stabilizers. It won't build maximal strength like barbell training, but it develops the functional strength most people need for daily life and healthy aging." }
         },
         {
           "@type": "Question",
           "name": "Should I do Pilates before or after gym?",
-          "acceptedAnswer": { "@type": "Answer", "text": "If doing both in a single session, Pilates before strength training activates the stabilisers and improves body awareness. If training on separate days, there's no meaningful difference. Many practitioners use Pilates on rest days from gym training: the movement quality focus provides active recovery without competing demands." }
+          "acceptedAnswer": { "@type": "Answer", "text": "If doing both in a single session, Pilates before strength training activates the stabilizers and improves body awareness. If training on separate days, there's no meaningful difference. Many practitioners use Pilates on rest days from gym training: the movement quality focus provides active recovery without competing demands." }
         },
       ],
     },
@@ -103,7 +103,7 @@ const jsonLd = {
 const comparisons = [
   {
     category: "Strength development",
-    pilates: "Excellent for functional and stabiliser strength. Reformer spring resistance challenges the core, hips, and shoulders meaningfully. Limited for maximal strength development.",
+    pilates: "Excellent for functional and stabilizer strength. Reformer spring resistance challenges the core, hips, and shoulders meaningfully. Limited for maximal strength development.",
     gym: "Superior for maximal strength. Progressive overload with barbells and machines builds muscle mass more efficiently than Pilates.",
     verdict: "Gym wins for max strength. Pilates wins for functional stability.",
   },
@@ -116,7 +116,7 @@ const comparisons = [
   {
     category: "Flexibility and mobility",
     pilates: "Exceptional. Flexibility is integrated throughout every exercise. Mat Pilates specifically develops spinal mobility, hip flexibility, and posterior chain length.",
-    gym: "Minimal flexibility development without dedicated stretching. Most gym programmes neglect mobility entirely.",
+    gym: "Minimal flexibility development without dedicated stretching. Most gym programs neglect mobility entirely.",
     verdict: "Pilates clearly superior for flexibility.",
   },
   {
@@ -207,10 +207,10 @@ export default function PilatesVsGymPage() {
                 <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
                 <div className="space-y-6">
                   {[
-                    { q: "Is Pilates better than gym for weight loss?", a: "Gym training (particularly strength training combined with cardio) burns more calories per session than Pilates. However, Pilates produces body composition changes (muscle development in the core, glutes, and stabilisers) that complement gym training well. The most effective approach for weight loss combines both." },
+                    { q: "Is Pilates better than gym for weight loss?", a: "Gym training (particularly strength training combined with cardio) burns more calories per session than Pilates. However, Pilates produces body composition changes (muscle development in the core, glutes, and stabilizers) that complement gym training well. The most effective approach for weight loss combines both." },
                     { q: "Can Pilates replace the gym?", a: "For strength sport goals (powerlifting, bodybuilding), no. For general fitness, health, and longevity goals, Pilates can be a primary training modality. Reformer Pilates provides genuine resistance training stimulus for those who don't pursue maximal strength. Many practitioners replace gym work entirely with Pilates and achieve excellent long-term outcomes." },
-                    { q: "Is Pilates considered strength training?", a: "Contemporary Pilates, particularly reformer Pilates, is increasingly recognised as a form of resistance training. The spring resistance on a reformer produces meaningful muscular challenge, particularly for the core, hip, and shoulder stabilisers. It won't build maximal strength like barbell training, but it develops the functional strength most people need for daily life and healthy ageing." },
-                    { q: "Should I do Pilates before or after gym?", a: "If doing both in a single session, Pilates before strength training activates the stabilisers and improves body awareness. If training on separate days, there's no meaningful difference. Many practitioners use Pilates on rest days from gym training: the movement quality focus provides active recovery without competing demands." },
+                    { q: "Is Pilates considered strength training?", a: "Contemporary Pilates, particularly reformer Pilates, is increasingly recognized as a form of resistance training. The spring resistance on a reformer produces meaningful muscular challenge, particularly for the core, hip, and shoulder stabilizers. It won't build maximal strength like barbell training, but it develops the functional strength most people need for daily life and healthy aging." },
+                    { q: "Should I do Pilates before or after gym?", a: "If doing both in a single session, Pilates before strength training activates the stabilizers and improves body awareness. If training on separate days, there's no meaningful difference. Many practitioners use Pilates on rest days from gym training: the movement quality focus provides active recovery without competing demands." },
                   ].map((item) => (
                     <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                       <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>

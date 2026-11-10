@@ -83,7 +83,7 @@ const PRODUCTS = [
     price: "Price on request",
     verdict: "Not sold on Amazon: genuine STOTT PILATES apparatus, dealer-direct",
     description:
-      "We could not find a live Amazon listing for Merrithew's Cadillac / Trapeze Table, and we could not verify a specific public price for it either, so we're not quoting one. It is the reference apparatus for the STOTT PILATES Cadillac repertoire, and instructors certified in that method train on this machine. If your studio is already built around Merrithew equipment, buying through Merrithew directly or an authorised dealer keeps the spring conventions and programming consistent, but go in expecting to request a quote rather than seeing a fixed sticker price.",
+      "We could not find a live Amazon listing for Merrithew's Cadillac / Trapeze Table, and we could not verify a specific public price for it either, so we're not quoting one. It is the reference apparatus for the STOTT PILATES Cadillac repertoire, and instructors certified in that method train on this machine. If your studio is already built around Merrithew equipment, buying through Merrithew directly or an authorized dealer keeps the spring conventions and programming consistent, but go in expecting to request a quote rather than seeing a fixed sticker price.",
     affiliateUrl: "https://www.merrithew.com",
     tag: "STOTT PILATES · Dealer-Direct",
   },
@@ -93,7 +93,7 @@ const PRODUCTS = [
     price: "Price on request",
     verdict: "Not sold on Amazon: converts an existing Align reformer",
     description:
-      "We could not find a live Amazon listing for this frame, and we could not verify a specific public price, so we're not quoting one. Unlike Balanced Body and Merrithew, Align-Pilates doesn't sell a standalone Cadillac table: instead it sells a frame that adds the overhead structure, push-through bar, roll-down bar and trapeze to a reformer you already own. It requires a compatible Align reformer as a base; it is not a standalone machine. Purchased through an authorised Align-Pilates dealer.",
+      "We could not find a live Amazon listing for this frame, and we could not verify a specific public price, so we're not quoting one. Unlike Balanced Body and Merrithew, Align-Pilates doesn't sell a standalone Cadillac table: instead it sells a frame that adds the overhead structure, push-through bar, roll-down bar and trapeze to a reformer you already own. It requires a compatible Align reformer as a base; it is not a standalone machine. Purchased through an authorized Align-Pilates dealer.",
     affiliateUrl: "https://pilatesmatters.com/products/align-pilates-full-cadillac-frame-a-c-series-reformer-pap-c1profcad",
     tag: "Reformer Conversion · Dealer-Direct",
   },

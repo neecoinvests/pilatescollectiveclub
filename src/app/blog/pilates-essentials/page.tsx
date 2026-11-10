@@ -91,7 +91,7 @@ const CATEGORIES: Category[] = [
         price: "$98.00",
         url: amz("B0FXN378H8"),
         description:
-          "Varley is a studio-favourite label, and the Freesoft line is its soft, brushed-feel fabric. This full-length, piped pair is sold through Shopbop, an Amazon company, and the listing is shown in Marina. It is the one to buy if you want a single pair that looks as good on the walk to class as it does on the carriage.",
+          "Varley is a studio-favorite label, and the Freesoft line is its soft, brushed-feel fabric. This full-length, piped pair is sold through Shopbop, an Amazon company, and the listing is shown in Marina. It is the one to buy if you want a single pair that looks as good on the walk to class as it does on the carriage.",
       },
       {
         tier: "Budget",
@@ -107,7 +107,7 @@ const CATEGORIES: Category[] = [
         price: "~$128 (aloyoga.com)",
         url: "https://www.aloyoga.com/",
         description:
-          "Not sold on Amazon: this links to aloyoga.com. Airbrush is Alo's sleek, sculpting legging and one of the most recognisable pieces in studio changing rooms. Price is approximate and set by Alo; check the site for current colours and sizes.",
+          "Not sold on Amazon: this links to aloyoga.com. Airbrush is Alo's sleek, sculpting legging and one of the most recognizable pieces in studio changing rooms. Price is approximate and set by Alo; check the site for current colors and sizes.",
       },
     ],
   },
@@ -127,7 +127,7 @@ const CATEGORIES: Category[] = [
         price: "$66.00",
         url: amz("B0FXN42JWR"),
         description:
-          "The Harley Bralette is in the same Freesoft fabric and the same Marina colour as the leggings above, so the two make a genuine matching set. Sold through Shopbop. It is a light-support bralette, which suits mat and reformer work but not high-impact cardio.",
+          "The Harley Bralette is in the same Freesoft fabric and the same Marina color as the leggings above, so the two make a genuine matching set. Sold through Shopbop. It is a light-support bralette, which suits mat and reformer work but not high-impact cardio.",
       },
       {
         tier: "Budget",
@@ -389,7 +389,7 @@ const CATEGORIES: Category[] = [
         price: "$29.00",
         url: amz("B0D1VP474D"),
         description:
-          "A small, non-weighted Pilates ball from Bala, sold by Bala Bangles. Essentially the same price as the Balanced Body ball, so choose on colour and which brand you prefer.",
+          "A small, non-weighted Pilates ball from Bala, sold by Bala Bangles. Essentially the same price as the Balanced Body ball, so choose on color and which brand you prefer.",
       },
     ],
   },
@@ -685,7 +685,7 @@ const h2Style = { color: "#1b1c1c", fontFamily: "'Playfair Display', serif" };
 const inlineLinkStyle = { color: "#8b4a31", textDecoration: "underline" };
 
 const QUICK_PICKS = [
-  { name: "Varley Freesoft Piped Full Leggings (Marina)", price: "$98.00", url: "https://www.amazon.com/dp/B0FXN378H8?tag=pilatescollective-20", note: "Premium leggings from a studio-favourite brand" },
+  { name: "Varley Freesoft Piped Full Leggings (Marina)", price: "$98.00", url: "https://www.amazon.com/dp/B0FXN378H8?tag=pilatescollective-20", note: "Premium leggings from a studio-favorite brand" },
   { name: "toesox Low Rise Grip Socks 2-Pack (Full Toe)", price: "$30.00", url: "https://www.amazon.com/dp/B07QHNDHW3?tag=pilatescollective-20", note: "Full-toe grip socks from the original studio brand" },
   { name: "TAVI Half Finger Gym Gloves", price: "$31.99", url: "https://www.amazon.com/dp/B09GPVMF86?tag=pilatescollective-20", note: "Half-finger grip gloves" },
   { name: "CRZ YOGA Butterluxe Leggings 25\"", price: "$32.00", url: "https://www.amazon.com/dp/B09P1G2952?tag=pilatescollective-20", note: "Budget leggings that stay opaque" },
@@ -713,7 +713,7 @@ export default function PilatesEssentialsPage() {
             <TopPick name={QUICK_PICKS[0].name} price={QUICK_PICKS[0].price} note={QUICK_PICKS[0].note} url={QUICK_PICKS[0].url} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Pilates needs less gear than most workouts, but the few things you do need make a real difference: socks that grip, leggings that stay put, a mat thick enough for your spine. This is our master list of Pilates essentials, with a best, budget and (where it is worth it) splurge pick in every category, organised from what you wear to what you might one day put in your living room.
+              Pilates needs less gear than most workouts, but the few things you do need make a real difference: socks that grip, leggings that stay put, a mat thick enough for your spine. This is our master list of Pilates essentials, with a best, budget and (where it is worth it) splurge pick in every category, organized from what you wear to what you might one day put in your living room.
             </p>
             <p className="text-sm leading-relaxed" style={bodyStyle}>
               Every Amazon listing below was checked as live and in stock on September 27, 2026, at the price shown. Prices change, so the final price is whatever the retailer shows at checkout.
@@ -733,7 +733,7 @@ export default function PilatesEssentialsPage() {
           <div className="max-w-3xl mx-auto">
 
             <QuickPicks className="mb-6 mt-4" picks={QUICK_PICKS} />
-            <AffiliateNote>Most links on this page go to Amazon, and we earn a small commission on qualifying purchases. One pick (the Alo Yoga Airbrush Legging) is not sold on Amazon and links directly to aloyoga.com; it is labelled as such.</AffiliateNote>
+            <AffiliateNote>Most links on this page go to Amazon, and we earn a small commission on qualifying purchases. One pick (the Alo Yoga Airbrush Legging) is not sold on Amazon and links directly to aloyoga.com; it is labeled as such.</AffiliateNote>
 
             {/* Related hubs */}
             <div className="mb-10 mt-4 flex flex-col sm:flex-row gap-3">
@@ -775,7 +775,7 @@ export default function PilatesEssentialsPage() {
             <div className="mb-16">
               <h2 className="text-3xl font-semibold mb-6" style={h2Style}>What you actually need, and in what order</h2>
               <p className="text-sm leading-relaxed mb-6" style={bodyStyle}>
-                You do not need everything on this list, and you definitely do not need it all at once. Here is how to prioritise, depending on how you practice.
+                You do not need everything on this list, and you definitely do not need it all at once. Here is how to prioritize, depending on how you practice.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[
@@ -802,7 +802,7 @@ export default function PilatesEssentialsPage() {
 
                 {group === "The big upgrade" && (
                   <div className="mb-10 rounded-2xl p-6 md:p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.5)" }}>
-                    <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={eyebrowStyle}>The maths</p>
+                    <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={eyebrowStyle}>The math</p>
                     <p className="text-sm leading-relaxed mb-4" style={bodyStyle}>
                       Studio reformer classes in major US cities commonly cost $30–$40 or more each. At that rate, here is roughly how many classes each reformer below is worth:
                     </p>
@@ -916,7 +916,7 @@ export default function PilatesEssentialsPage() {
                 <ArticleCard title="Best Pilates Starter Kit" excerpt="The shortest possible list of what a beginner needs to start Pilates at home or in the studio." href="/blog/best-pilates-starter-kit" category="Equipment" readTime="8 min read" date="September 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
                 <ArticleCard title="Pilates Studio Bag Essentials" excerpt="Exactly what to pack for class, from grip socks to post-class layers." href="/blog/pilates-studio-bag-essentials" category="Guide" readTime="6 min read" date="September 2026" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
                 <ArticleCard title="What to Wear to Pilates" excerpt="The complete guide to choosing the right clothes for studio and reformer classes." href="/blog/what-to-wear-to-pilates" category="Guide" readTime="6 min read" date="May 2026" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
-                <ArticleCard title="Reformer Pilates Essentials" excerpt="Everything you need for reformer class, organised by the class journey, before, on the carriage and after." href="/blog/reformer-pilates-essentials" category="Equipment" readTime="10 min read" date="September 2026" imageUrl="/pictures/stitch-reformer-sunlit-minimal.png" />
+                <ArticleCard title="Reformer Pilates Essentials" excerpt="Everything you need for reformer class, organized by the class journey, before, on the carriage and after." href="/blog/reformer-pilates-essentials" category="Equipment" readTime="10 min read" date="September 2026" imageUrl="/pictures/stitch-reformer-sunlit-minimal.png" />
               </div>
             </div>
           </div>

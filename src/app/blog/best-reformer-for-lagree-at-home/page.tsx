@@ -95,7 +95,7 @@ const GUIDE: EquipmentGuideProps = {
       cards: [
         { h: "Platforms at both ends", b: "Lagree choreography uses standing platforms at the front and back of the carriage for lunges and planks. A reformer has a footbar end and a headrest end, so look for a long frame and a sitting box or standing platform you can work from." },
         { h: "Heavier springs, slower tempo", b: "The Lagree burn comes from slow, continuous time under tension. A reformer with several springs, including a heavy one, lets you load the carriage enough to make slow work hard." },
-        { h: "A high weight rating", b: "Lunges and planks on a moving carriage put more load on the frame than lying-down Pilates. We favour machines rated for 400 to 500 lb." },
+        { h: "A high weight rating", b: "Lunges and planks on a moving carriage put more load on the frame than lying-down Pilates. We favor machines rated for 400 to 500 lb." },
         { h: "Length", b: "Long frames give you room for lunges and full-length planks. The Buytime is 95.7 inches and the BalanceFrom 89 inches, per their listings." },
       ],
     },

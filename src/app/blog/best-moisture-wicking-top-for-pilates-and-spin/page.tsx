@@ -61,7 +61,7 @@ const PRODUCTS = [
     price: "$23.88",
     verdict: "Best Budget",
     description:
-      "HeatGear moves sweat to the surface almost instantly and dries in minutes. The compression fit supports muscle engagement cues during Lagree slow-twitch work and the UPF 30 protection is a bonus for outdoor cooldowns. Exceptional value: stock up in two colours.",
+      "HeatGear moves sweat to the surface almost instantly and dries in minutes. The compression fit supports muscle engagement cues during Lagree slow-twitch work and the UPF 30 protection is a bonus for outdoor cooldowns. Exceptional value: stock up in two colors.",
     affiliateUrl:
       "https://www.amazon.com/dp/B0874WTGVM?tag=pilatescollective-20",
     tag: "Best Value",
@@ -75,7 +75,7 @@ const PRODUCTS = [
       "Nike's ADV-tier Dri-FIT uses a textured yarn that channels moisture away from skin more aggressively than standard Dri-FIT. The open back panel is a major advantage in a hot spin studio. Lightweight enough that you almost forget you're wearing it at full RPM.",
     affiliateUrl:
       "https://www.amazon.com/s?k=nike+dri-fit+adv+rise+365+short+sleeve&tag=pilatescollective-20",
-    tag: "Spin Favourite",
+    tag: "Spin Favorite",
   },
   {
     rank: "03",
@@ -83,7 +83,7 @@ const PRODUCTS = [
     price: "$49",
     verdict: "Best Sustainable Option",
     description:
-      "Made from recycled polyester with HeiQ Fresh odour control, the Capilene Cool Daily is the most sustainable pick on this list without sacrificing performance. Dries incredibly fast and resists the post-workout smell that plagues cheaper synthetics. A smart buy for daily training.",
+      "Made from recycled polyester with HeiQ Fresh odor control, the Capilene Cool Daily is the most sustainable pick on this list without sacrificing performance. Dries incredibly fast and resists the post-workout smell that plagues cheaper synthetics. A smart buy for daily training.",
     affiliateUrl:
       "https://www.amazon.com/s?k=patagonia+capilene+cool+daily+shirt&tag=pilatescollective-20",
     tag: "Eco Choice",
@@ -116,10 +116,10 @@ const PRODUCTS = [
     price: "$45",
     verdict: "Best Seamless Construction",
     description:
-      "Seamless construction eliminates all pressure points and rubbing that can occur in long Megaformer sessions. The Speed fabric is engineered for high-output workouts with ventilation zones across the upper back and underarm. A cult favourite in Lagree studios worldwide. Not sold on Amazon: this link goes to Gymshark's own site.",
+      "Seamless construction eliminates all pressure points and rubbing that can occur in long Megaformer sessions. The Speed fabric is engineered for high-output workouts with ventilation zones across the upper back and underarm. A cult favorite in Lagree studios worldwide. Not sold on Amazon: this link goes to Gymshark's own site.",
     affiliateUrl:
       "https://www.gymshark.com",
-    tag: "Studio Favourite",
+    tag: "Studio Favorite",
   },
 ];
 
@@ -200,7 +200,7 @@ const jsonLd = {
           name: "How do I prevent workout tops from smelling after spin class?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Wash moisture-wicking tops immediately after training, turn them inside out, and use a sports-specific detergent. Avoid fabric softeners: they clog the moisture-wicking fibres over time. Air-dry rather than tumble-dry to preserve the technical finish.",
+            text: "Wash moisture-wicking tops immediately after training, turn them inside out, and use a sports-specific detergent. Avoid fabric softeners: they clog the moisture-wicking fibers over time. Air-dry rather than tumble-dry to preserve the technical finish.",
           },
         },
       ],
@@ -344,7 +344,7 @@ export default function BestMoistureWickingTopPage() {
                 },
                 {
                   q: "How do I prevent workout tops from smelling after spin class?",
-                  a: "Wash moisture-wicking tops immediately after training, turn them inside out, and use a sports-specific detergent. Avoid fabric softeners: they clog the moisture-wicking fibres over time. Air-dry rather than tumble-dry to preserve the technical finish.",
+                  a: "Wash moisture-wicking tops immediately after training, turn them inside out, and use a sports-specific detergent. Avoid fabric softeners: they clog the moisture-wicking fibers over time. Air-dry rather than tumble-dry to preserve the technical finish.",
                 },
               ].map((item) => (
                 <div
@@ -425,7 +425,7 @@ export default function BestMoistureWickingTopPage() {
           title="Find Your Studio"
           subtitle="Explore top-rated Pilates and Lagree studios near you."
           showSearch
-          searchPlaceholder="Search by city or neighbourhood..."
+          searchPlaceholder="Search by city or neighborhood..."
         />
       </main>
       <Footer />

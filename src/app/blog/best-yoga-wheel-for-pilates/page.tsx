@@ -58,7 +58,7 @@ const PRODUCTS = [
     price: "$23.62",
     verdict: "Best budget pick with a supportive cradle",
     description:
-      "This is the cheapest wheel on this list, and what sets it apart at the price is a foam-padded centre spine cradle rather than a flat padded curve: a shaped channel that gives the spine somewhere specific to settle into instead of pressing flat against the padding. For anyone new to using a wheel who is a little nervous about the spine sliding or shifting mid-extension, that cradle is a genuinely useful stability feature to get at this price point. It is a straightforward single wheel without the size options a set offers, which is the trade-off for the low cost, but as a first wheel to find out whether the movement suits you, it is a sensible entry point.",
+      "This is the cheapest wheel on this list, and what sets it apart at the price is a foam-padded center spine cradle rather than a flat padded curve: a shaped channel that gives the spine somewhere specific to settle into instead of pressing flat against the padding. For anyone new to using a wheel who is a little nervous about the spine sliding or shifting mid-extension, that cradle is a genuinely useful stability feature to get at this price point. It is a straightforward single wheel without the size options a set offers, which is the trade-off for the low cost, but as a first wheel to find out whether the movement suits you, it is a sensible entry point.",
     affiliateUrl: "https://www.amazon.com/dp/B0FG394TMS?tag=pilatescollective-20",
     tag: "Best Budget",
   },
@@ -197,7 +197,7 @@ export default function BestYogaWheelForPilatesPage() {
                   "Never buy a wheel rated under 300lb, and treat an unstated weight rating as a reason to skip the listing.",
                   "Support your head with your hands during extension so the neck is not left hanging unsupported at end range.",
                   "Avoid loaded spinal extension over a hard curve entirely if you have osteoporosis or reduced bone density.",
-                  "Stop if extension produces symptoms travelling down a leg: that is a signal to get assessed, not to push further.",
+                  "Stop if extension produces symptoms traveling down a leg: that is a signal to get assessed, not to push further.",
                   "Two to three minutes per position is enough. Longer holds tend to leave the surrounding muscles irritated rather than looser.",
                 ].map((tip, i) => (
                   <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>

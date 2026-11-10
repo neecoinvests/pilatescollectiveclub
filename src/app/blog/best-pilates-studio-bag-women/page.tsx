@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   keywords: ["best pilates studio bag women", "pilates gym bag women 2026", "best bag for pilates class", "pilates studio duffel women", "womens pilates bag 2026", "best gym bag for pilates", "pilates bag review women", "lululemon pilates bag"],
   openGraph: {
     title: "Best Pilates Studio Bags for Women (2026)",
-    description: "The best studio bags for Pilates: compared on capacity, organisation, and wet-dry separation.",
+    description: "The best studio bags for Pilates: compared on capacity, organization, and wet-dry separation.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-studio-bag-women",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/jade-stephens-N21356amsyw-unsplash.jpg", width: 1200, height: 630, alt: "Best Pilates Studio Bags for Women: Pilates Collective Club" }],
@@ -38,7 +38,7 @@ const PRODUCTS = [
     price: "$49.99",
     verdict: "Best budget studio bag",
     description:
-      "Nike's Brasilia 9.5 is the standard against which budget studio bags are measured, and it earns that position through consistent delivery of the fundamentals. The capacity is generous for the price, the shoe bag pocket keeps footwear separated, and the main compartment handles a full studio kit without issue. The organisation is straightforward rather than elaborate, and the fabric handles repeated use without showing it disproportionately. For practitioners who want a reliable functional bag while keeping costs low, or want a second bag to leave packed and ready at home, the Brasilia 9.5 is the honest recommendation.",
+      "Nike's Brasilia 9.5 is the standard against which budget studio bags are measured, and it earns that position through consistent delivery of the fundamentals. The capacity is generous for the price, the shoe bag pocket keeps footwear separated, and the main compartment handles a full studio kit without issue. The organization is straightforward rather than elaborate, and the fabric handles repeated use without showing it disproportionately. For practitioners who want a reliable functional bag while keeping costs low, or want a second bag to leave packed and ready at home, the Brasilia 9.5 is the honest recommendation.",
     affiliateUrl: "https://www.amazon.com/dp/B07Z56RJ28?tag=pilatescollective-20",
     tag: "Best Budget",
   },
@@ -46,11 +46,11 @@ const PRODUCTS = [
     rank: "02",
     name: "Sweaty Betty Get It Together Bag",
     price: "From $65",
-    verdict: "Best organised studio bag",
+    verdict: "Best organized studio bag",
     description:
-      "Sweaty Betty's Get It Together Bag earns its name through exceptional internal organisation. A dedicated waterproof lining handles damp towels and post-shower items without odour or leakage, and the layout of pockets, including a separate exterior zip for phone and keys, makes class-to-street transitions fast. The capacity suits practitioners who travel light rather than those carrying a full overnight kit, but the organisation quality means it functions more efficiently than larger bags with less thought given to layout. The fabric is water-resistant and structured enough to stand upright on a studio bench.",
+      "Sweaty Betty's Get It Together Bag earns its name through exceptional internal organization. A dedicated waterproof lining handles damp towels and post-shower items without odor or leakage, and the layout of pockets, including a separate exterior zip for phone and keys, makes class-to-street transitions fast. The capacity suits practitioners who travel light rather than those carrying a full overnight kit, but the organization quality means it functions more efficiently than larger bags with less thought given to layout. The fabric is water-resistant and structured enough to stand upright on a studio bench.",
     affiliateUrl: "https://www.amazon.com/s?k=sweaty+betty+studio+gym+bag+women&tag=pilatescollective-20",
-    tag: "Best Organised",
+    tag: "Best Organized",
   },
   {
     rank: "03",
@@ -58,7 +58,7 @@ const PRODUCTS = [
     price: "From $118",
     verdict: "Best overall studio bag",
     description:
-      "The Lululemon Wunderlust Duffle is purpose-built for the practitioner who commutes to class. The structured silhouette holds its shape fully loaded, and the 27-litre capacity handles a complete kit change (clothes, towel, grip socks, shoes, and toiletries) without stretching at the seams. The wet-dry separation pocket keeps damp post-class kit away from clean items, and the interior organisation is thorough enough to make packing and unpacking swift. The padded shoulder strap manages the bag's weight over longer commutes. Lululemon's material quality translates directly into longevity. Not sold on Amazon: this link goes to Lululemon's own site.",
+      "The Lululemon Wunderlust Duffle is purpose-built for the practitioner who commutes to class. The structured silhouette holds its shape fully loaded, and the 27-liter capacity handles a complete kit change (clothes, towel, grip socks, shoes, and toiletries) without stretching at the seams. The wet-dry separation pocket keeps damp post-class kit away from clean items, and the interior organization is thorough enough to make packing and unpacking swift. The padded shoulder strap manages the bag's weight over longer commutes. Lululemon's material quality translates directly into longevity. Not sold on Amazon: this link goes to Lululemon's own site.",
     affiliateUrl: "https://shop.lululemon.com",
     tag: "Editor's Pick",
   },
@@ -68,7 +68,7 @@ const PRODUCTS = [
     price: "From $78",
     verdict: "Best aesthetic studio bag",
     description:
-      "Alo's Hatha Gym Bag brings the brand's signature aesthetic sensibility to a fully functional studio bag. The clean lines and neutral colourway look appropriate in upscale studios and transition naturally to post-class errands without announcing themselves as gym kit. The capacity is generous, the interior organisation is practical without being elaborate, and the coated canvas fabric wipes clean easily and maintains its appearance through regular use. For practitioners who attend premium reformer studios where the changing room doubles as a social space, the Hatha Bag's presentation is a genuine consideration alongside its functionality. Not sold on Amazon: this link goes to Alo Yoga's own site.",
+      "Alo's Hatha Gym Bag brings the brand's signature aesthetic sensibility to a fully functional studio bag. The clean lines and neutral colorway look appropriate in upscale studios and transition naturally to post-class errands without announcing themselves as gym kit. The capacity is generous, the interior organization is practical without being elaborate, and the coated canvas fabric wipes clean easily and maintains its appearance through regular use. For practitioners who attend premium reformer studios where the changing room doubles as a social space, the Hatha Bag's presentation is a genuine consideration alongside its functionality. Not sold on Amazon: this link goes to Alo Yoga's own site.",
     affiliateUrl: "https://www.aloyoga.com",
     tag: "Best Aesthetic",
   },
@@ -88,7 +88,7 @@ const PRODUCTS = [
     price: "From $68",
     verdict: "Best convertible carry",
     description:
-      "The Calpak Luka Duffel converts between a hand-carry duffel, a backpack, and a shoulder bag: practical versatility for practitioners whose commute involves a mix of walking, transit, and carrying the bag into subsequent appointments. The 20-litre capacity covers a complete studio kit without the bulk of a full-size duffel. The organisation is efficient rather than exhaustive, with a shoe pocket and exterior slip pockets for essentials. The backpack conversion distributes weight well on longer walks to the studio or across town afterwards, making this the most versatile option on the list for urban practitioners. Not sold on Amazon: this link goes to Calpak's own site.",
+      "The Calpak Luka Duffel converts between a hand-carry duffel, a backpack, and a shoulder bag: practical versatility for practitioners whose commute involves a mix of walking, transit, and carrying the bag into subsequent appointments. The 20-liter capacity covers a complete studio kit without the bulk of a full-size duffel. The organization is efficient rather than exhaustive, with a shoe pocket and exterior slip pockets for essentials. The backpack conversion distributes weight well on longer walks to the studio or across town afterwards, making this the most versatile option on the list for urban practitioners. Not sold on Amazon: this link goes to Calpak's own site.",
     affiliateUrl: "https://www.calpaktravel.com",
     tag: "Best Convertible",
   },
@@ -135,15 +135,15 @@ const jsonLd = {
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "How big should a Pilates studio bag be?", "acceptedAnswer": { "@type": "Answer", "text": "For a standard reformer or mat class, 20-30 litres covers a full kit change, grip socks, a towel, and personal items comfortably. If you shower at the studio or commute from work, the higher end of that range gives you space for toiletries and a change of clothes without the bag becoming unwieldy." } },
-        { "@type": "Question", "name": "Should a Pilates bag have a wet pocket?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, if you shower at the studio or regularly carry a damp towel home. A waterproof-lined wet compartment keeps damp items separate from clean clothes and prevents the musty odour that develops when wet fabric sits against dry clothing in a sealed bag." } },
-        { "@type": "Question", "name": "Is a duffel or tote better for Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "Duffels offer more capacity and tend to be better organised with shoe compartments and wet pockets. Totes are lighter and easier to manage for shorter commutes or lighter kits. Most practitioners who attend class multiple times a week prefer a duffel for its organisation and capacity." } },
+        { "@type": "Question", "name": "How big should a Pilates studio bag be?", "acceptedAnswer": { "@type": "Answer", "text": "For a standard reformer or mat class, 20-30 liters covers a full kit change, grip socks, a towel, and personal items comfortably. If you shower at the studio or commute from work, the higher end of that range gives you space for toiletries and a change of clothes without the bag becoming unwieldy." } },
+        { "@type": "Question", "name": "Should a Pilates bag have a wet pocket?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, if you shower at the studio or regularly carry a damp towel home. A waterproof-lined wet compartment keeps damp items separate from clean clothes and prevents the musty odor that develops when wet fabric sits against dry clothing in a sealed bag." } },
+        { "@type": "Question", "name": "Is a duffel or tote better for Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "Duffels offer more capacity and tend to be better organized with shoe compartments and wet pockets. Totes are lighter and easier to manage for shorter commutes or lighter kits. Most practitioners who attend class multiple times a week prefer a duffel for its organization and capacity." } },
       ],
     },
   ],
 };
 
-const QP_NOTES = ["Best budget studio bag", "Best organised studio bag", "Best overall studio bag", "Best aesthetic studio bag", "Best duffel for studio", "Best convertible carry"];
+const QP_NOTES = ["Best budget studio bag", "Best organized studio bag", "Best overall studio bag", "Best aesthetic studio bag", "Best duffel for studio", "Best convertible carry"];
 
 export default function BestPilatesStudioBagWomenPage() {
   return (
@@ -165,7 +165,7 @@ export default function BestPilatesStudioBagWomenPage() {
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              A proper studio bag makes the logistics of regular Pilates practice invisible. The right one holds your full kit, keeps wet items away from dry ones, and transitions from studio changing room to the rest of your day without broadcasting that you have just come from the gym. These six bags have been selected specifically for women attending reformer and mat classes multiple times per week: prioritising real capacity, practical organisation, and the durability to survive daily studio commutes across years of use.
+              A proper studio bag makes the logistics of regular Pilates practice invisible. The right one holds your full kit, keeps wet items away from dry ones, and transitions from studio changing room to the rest of your day without broadcasting that you have just come from the gym. These six bags have been selected specifically for women attending reformer and mat classes multiple times per week: prioritizing real capacity, practical organization, and the durability to survive daily studio commutes across years of use.
             </p>
           </div>
         </section>
@@ -203,9 +203,9 @@ export default function BestPilatesStudioBagWomenPage() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "How big should a Pilates studio bag be?", a: "For a standard reformer or mat class, 20-30 litres covers a full kit change, grip socks, a towel, and personal items comfortably. If you shower at the studio or commute from work, the higher end of that range gives you space for toiletries and a change of clothes without the bag becoming unwieldy." },
-                  { q: "Should a Pilates bag have a wet pocket?", a: "Yes, if you shower at the studio or regularly carry a damp towel home. A waterproof-lined wet compartment keeps damp items separate from clean clothes and prevents the musty odour that develops when wet fabric sits against dry clothing in a sealed bag." },
-                  { q: "Is a duffel or tote better for Pilates?", a: "Duffels offer more capacity and tend to be better organised with shoe compartments and wet pockets. Totes are lighter and easier to manage for shorter commutes or lighter kits. Most practitioners who attend class multiple times a week prefer a duffel for its organisation and capacity." },
+                  { q: "How big should a Pilates studio bag be?", a: "For a standard reformer or mat class, 20-30 liters covers a full kit change, grip socks, a towel, and personal items comfortably. If you shower at the studio or commute from work, the higher end of that range gives you space for toiletries and a change of clothes without the bag becoming unwieldy." },
+                  { q: "Should a Pilates bag have a wet pocket?", a: "Yes, if you shower at the studio or regularly carry a damp towel home. A waterproof-lined wet compartment keeps damp items separate from clean clothes and prevents the musty odor that develops when wet fabric sits against dry clothing in a sealed bag." },
+                  { q: "Is a duffel or tote better for Pilates?", a: "Duffels offer more capacity and tend to be better organized with shoe compartments and wet pockets. Totes are lighter and easier to manage for shorter commutes or lighter kits. Most practitioners who attend class multiple times a week prefer a duffel for its organization and capacity." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
@@ -219,7 +219,7 @@ export default function BestPilatesStudioBagWomenPage() {
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Pilates Bags (2026)" excerpt="The complete guide: totes, duffels, and mat carriers for every type of practitioner." href="/blog/best-pilates-bag" category="Equipment" readTime="7 min read" date="May 2026" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
-                <ArticleCard title="Best Pilates Tote Bags for Women" excerpt="Six totes chosen for studio carry, organisation, and studio-to-street style." href="/blog/best-pilates-tote-bag" category="Equipment" readTime="7 min read" date="June 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Tote Bags for Women" excerpt="Six totes chosen for studio carry, organization, and studio-to-street style." href="/blog/best-pilates-tote-bag" category="Equipment" readTime="7 min read" date="June 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
                 <ArticleCard title="What to Pack in Your Pilates Bag (2026): Studio Checklist" excerpt="Everything that goes in a well-packed Pilates studio bag, from the non-negotiable grip socks to the insulated…" href="/blog/pilates-studio-bag-essentials" category="Guide" readTime="6 min read" imageUrl="/pictures/stitch-pilates-essentials-logbook.png" />
                 <ArticleCard title="Pilates Essentials (2026): Every Must-Have in One List" excerpt="Every Pilates must-have on one page, best, budget and splurge picks, verified in-stock prices, and what the full…" href="/blog/pilates-essentials" category="Guide" readTime="12 min read" imageUrl="/pictures/stitch-pilates-essentials-logbook.png" />
                 <ArticleCard title="Best Pilates Mat (2026): 5 Verified Picks" excerpt="5 verified, in-stock Pilates mats on Amazon, from thickness tiers to alignment lines and eco-friendlier TPE, led…" href="/blog/best-pilates-mat" category="Guide" readTime="8 min read" imageUrl="/pictures/dane-wetton-t1NEMSm1rgI-unsplash.jpg" />

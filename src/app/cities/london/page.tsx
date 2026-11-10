@@ -120,7 +120,7 @@ const BOOKING_TIPS = [
   },
   {
     heading: "Introductory offers are your friend",
-    body: "Almost every London studio runs a new-client special, typically 2–3 classes for £30–50. Use these to assess the instruction quality and culture before committing to a monthly membership.",
+    body: "Almost every London studio runs a new-client special, typically 2–3 classes for about $40–67. Use these to assess the instruction quality and culture before committing to a monthly membership.",
   },
   {
     heading: "ClassPass works well for London",
@@ -131,8 +131,8 @@ const BOOKING_TIPS = [
     body: "Bring your own: most studios sell them, but they're cheaper from Amazon or sports retailers. Toeless grip socks are the standard.",
   },
   {
-    heading: "Expect to pay £20–35 per class",
-    body: "Drop-in reformer Pilates in London runs from around £20 at value studios to £35+ at premium boutiques. Monthly memberships typically bring the per-class cost down to £15–22.",
+    heading: "Expect to pay about $27–47 per class",
+    body: "Drop-in reformer Pilates in London runs from around $27 at value studios to $47+ at premium boutiques. Monthly memberships typically bring the per-class cost down to $20–30.",
   },
 ];
 
@@ -150,12 +150,12 @@ const NEIGHBORHOODS = [
   {
     name: "Notting Hill & Westbourne Grove",
     description:
-      "Notting Hill is home to some of London's most exclusive wellness addresses. Bodyism leads the field. Expect a neighbourhood-feel mixed with genuine luxury, and long waiting lists for private sessions.",
+      "Notting Hill is home to some of London's most exclusive wellness addresses. Bodyism leads the field. Expect a neighborhood-feel mixed with genuine luxury, and long waiting lists for private sessions.",
   },
   {
     name: "Canary Wharf & The City",
     description:
-      "Built for convenience around London's financial district. Studios here prioritise schedule density, lunchtime availability, and efficient class formats. Excellent for busy professionals who need quality without the trek west.",
+      "Built for convenience around London's financial district. Studios here prioritize schedule density, lunchtime availability, and efficient class formats. Excellent for busy professionals who need quality without the trek west.",
   },
 ];
 
@@ -229,7 +229,7 @@ const FURTHER_READING = [
 
 const CITY_FAQS = [
   { q: "What are the best Pilates studios in London?", a: "Our 6 curated picks are Heartcore Chelsea (Chelsea), Exhale Pilates London (Marylebone · Primrose Hill · North Finchley), Pilates in the Clouds (Notting Hill · Harvey Nichols Knightsbridge), Ten Health & Fitness (Fitzrovia (Fitzrovia), Complete Pilates Islington (Islington) and Bootcamp Pilates) Notting Hill (Notting Hill / Bayswater). Each listing above covers what the studio is best for, its signature class and a booking tip." },
-  { q: "Which London neighbourhoods are best for Pilates?", a: "This guide covers Kensington & Chelsea, Shoreditch & East London, Notting Hill & Westbourne Grove and Canary Wharf & The City. Kensington & Chelsea: The heartland of London's premium wellness scene." },
+  { q: "Which London neighborhoods are best for Pilates?", a: "This guide covers Kensington & Chelsea, Shoreditch & East London, Notting Hill & Westbourne Grove and Canary Wharf & The City. Kensington & Chelsea: The heartland of London's premium wellness scene." },
   { q: "What should I know about booking Pilates classes in London?", a: "Book at least 48 hours ahead for peak slots. London's top studios fill rapidly." },
   { q: "What should I bring to a Pilates class in London?", a: "Grip socks are required at most reformer studios. Our gear list for London covers Pilates grip socks, Pilates mat, magic circle, resistance bands, foam roller and home Pilates reformer." },
 ];
@@ -372,10 +372,10 @@ export default function LondonPage() {
         <section className="py-20 px-6" style={{ backgroundColor: "#fcf9f8" }}>
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best neighbourhoods for Pilates in London
+              Best neighborhoods for Pilates in London
             </h2>
             <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-              London's Pilates landscape is shaped by its neighbourhoods. Here's where to look depending on where you're based.
+              London's Pilates landscape is shaped by its neighborhoods. Here's where to look depending on where you're based.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {NEIGHBORHOODS.map((n) => (

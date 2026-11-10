@@ -98,7 +98,7 @@ const OUTFITS: { id: string; title: string; who: string; items: Item[] }[] = [
       { id: "varley-leggings", role: "Leggings", name: "Varley Freesoft Piped Full Leggings", price: "$98.00", url: amz("B0FXN378H8"), description: "Varley's soft Freesoft fabric with contrast piping, sold by Shopbop (an Amazon company).", guide: { label: "Best leggings for Lagree", href: "/blog/best-leggings-for-lagree" } },
       { id: "varley-tank", role: "Top", name: "Varley Marla Button Placket Tank", price: "$89.60", url: amz("B0FP3MWK1Z"), description: "A fitted tank with a button placket: the studio-to-coffee piece. Sold by Shopbop.", guide: { label: "Best Lagree tops", href: "/blog/best-lagree-tops" } },
       { id: "varley-bra", role: "Sports bra", name: "Varley Freesoft Harley Bralette", price: "$66.00", url: amz("B0FXN42JWR"), description: "A Freesoft bralette that matches the leggings. Light support suits Lagree's low-impact movement. Sold by Shopbop.", guide: { label: "Best sports bra for Lagree", href: "/blog/best-sports-bra-for-lagree" } },
-      { id: "tavi-stacy", role: "Grip socks", name: "TAVI Stacy Slouch Pilates Socks (2-Pack)", price: "$40.00", url: amz("B0GFPGMWWS"), description: "Slouchy, closed-toe grip socks from TAVI, a studio favourite. Two pairs per pack.", guide: { label: "Lagree socks", href: "/blog/best-lagree-grip-socks" } },
+      { id: "tavi-stacy", role: "Grip socks", name: "TAVI Stacy Slouch Pilates Socks (2-Pack)", price: "$40.00", url: amz("B0GFPGMWWS"), description: "Slouchy, closed-toe grip socks from TAVI, a studio favorite. Two pairs per pack.", guide: { label: "Lagree socks", href: "/blog/best-lagree-grip-socks" } },
     ],
   },
 ];
@@ -120,7 +120,7 @@ const RULES = [
   { h: "Grip socks, no shoes.", b: "Lagree is done in socks on the machine, and most studios require grip socks for safety. Check your studio's policy; many sell them at the desk." },
   { h: "Wicking, not cotton.", b: "Lagree is slow but intense, and you will sweat a lot. Moisture-wicking fabric stays lighter and dries faster than cotton." },
   { h: "Squat-proof leggings.", b: "Lunges and deep squats stretch the fabric. If your leggings go sheer in a squat in the mirror at home, they will in class." },
-  { h: "Nothing that snags.", b: "Skip zips, buckles and dangling jewellery on the machine. They scratch the upholstery, catch on springs and get in the way." },
+  { h: "Nothing that snags.", b: "Skip zips, buckles and dangling jewelry on the machine. They scratch the upholstery, catch on springs and get in the way." },
 ];
 
 const FAQS = [
@@ -216,7 +216,7 @@ function Divider({ label }: { label: string }) {
 
 const QUICK_PICKS = [
   { name: "CRZ YOGA Butterluxe Leggings 25\"", price: "$32.00", url: "https://www.amazon.com/dp/B09P1G2952?tag=pilatescollective-20", note: "Opaque, buttery leggings for the carriage" },
-  { name: "Varley Freesoft Piped Full Leggings", price: "$98.00", url: "https://www.amazon.com/dp/B0FXN378H8?tag=pilatescollective-20", note: "Premium leggings from a studio-favourite brand" },
+  { name: "Varley Freesoft Piped Full Leggings", price: "$98.00", url: "https://www.amazon.com/dp/B0FXN378H8?tag=pilatescollective-20", note: "Premium leggings from a studio-favorite brand" },
   { name: "CRZ YOGA Butterluxe U Back Sports Bra", price: "$28.00", url: "https://www.amazon.com/dp/B09ZP9VXLJ?tag=pilatescollective-20", note: "Medium-support bra that stays put" },
   { name: "toesox Low Rise Grip Socks (Full Toe, 2-Pack)", price: "$30.00", url: "https://www.amazon.com/dp/B07QHNDHW3?tag=pilatescollective-20", note: "Full-toe grip socks" },
   { name: "CRZ YOGA Quick Dry Racerback Crop Tank", price: "$20.00", url: "https://www.amazon.com/dp/B0H1HV6YXB?tag=pilatescollective-20", note: "Quick-dry crop tank" },
@@ -340,7 +340,7 @@ export default function WhatToWearToLagreePage() {
                   { h: "Baggy tees and hoodies.", b: "Great for the walk home, terrible upside down on a carriage." },
                   { h: "Sneakers on the machine.", b: "Lagree is done in grip socks; shoes go in your bag." },
                   { h: "Thin or sheer leggings.", b: "Check them in a deep squat before class, not during it." },
-                  { h: "Jewellery, belts and zips.", b: "They catch on springs and scratch the upholstery." },
+                  { h: "Jewelry, belts and zips.", b: "They catch on springs and scratch the upholstery." },
                 ].map((x) => (
                   <li key={x.h} className="text-sm leading-relaxed" style={bodyStyle}><span className="font-semibold" style={strongStyle}>{x.h}</span> {x.b}</li>
                 ))}

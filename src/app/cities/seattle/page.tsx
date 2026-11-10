@@ -66,7 +66,7 @@ const STUDIOS = [
     name: "Atlas Pilates",
     neighborhood: "Belltown",
     priceLevel: "$$$",
-    review: "Atlas Pilates is an independently owned studio founded by certified Pilates teachers in 2009, on the ground floor of a Belltown high-rise. It offers private sessions, semi-private sessions and small group classes on classical Pilates apparatus in a purpose-built studio, and an independent physical therapy clinic on site specialises in sports injury rehabilitation.",
+    review: "Atlas Pilates is an independently owned studio founded by certified Pilates teachers in 2009, on the ground floor of a Belltown high-rise. It offers private sessions, semi-private sessions and small group classes on classical Pilates apparatus in a purpose-built studio, and an independent physical therapy clinic on site specializes in sports injury rehabilitation.",
     address: "2612 3rd Ave, Seattle, WA 98121",
     bestFor: "Equipment quality; injury prevention; athletic training",
     signatureClass: "Reformer + Tower",
@@ -88,7 +88,7 @@ const STUDIOS = [
     name: "Vitality Pilates Phinney Ridge",
     neighborhood: "Phinney Ridge",
     priceLevel: "$$",
-    review: "Vitality Pilates opened its first studio in Mount Baker in 2001 and now has three Seattle locations, including Phinney Ridge and Ravenna. It specialises in progressive equipment classes and personalised private lessons, and also offers Zoom and on-demand classes. The studio feels like something the neighborhood built for itself rather than a fitness business that moved in.",
+    review: "Vitality Pilates opened its first studio in Mount Baker in 2001 and now has three Seattle locations, including Phinney Ridge and Ravenna. It specializes in progressive equipment classes and personalized private lessons, and also offers Zoom and on-demand classes. The studio feels like something the neighborhood built for itself rather than a fitness business that moved in.",
     address: "7216 Greenwood Ave N, Seattle, WA 98103",
     bestFor: "Holistic well-being; all levels; neighborhood community feel",
     signatureClass: "Progressive Equipment Class",
@@ -109,16 +109,16 @@ const STUDIOS = [
 
 const BOOKING_TIPS = [
   { heading: "Expect to pay $32–58 per class", body: "Seattle's Pilates market sits in the upper-middle range nationally. Drop-in rates run from around $32 at community studios to $58 at premium practices. Monthly memberships and packs reduce the per-session cost to $22–35 for regular practitioners." },
-  { heading: "Seattle rewards studio loyalty", body: "Unlike transient fitness markets, Seattle's Pilates studios tend to build genuinely committed communities. Practitioners who commit to a single studio for several months consistently report faster progress: instructors learn their bodies and programme accordingly." },
-  { heading: "Weather affects scheduling discipline", body: "Seattle's long grey winters can erode fitness motivation. Studios with early morning or lunchtime slots tend to serve practitioners better through the winter months. Committing to a standing booking before you feel demotivated is more effective than trying to reschedule mid-slump." },
-  { heading: "The Eastside has excellent options", body: "Bellevue, Kirkland, and Redmond have developed genuinely strong Pilates offerings in recent years. If you work or live on the Eastside, don't assume you need to cross the bridge for quality: some of the most technically proficient studios in the metro area are in Eastside neighbourhoods." },
+  { heading: "Seattle rewards studio loyalty", body: "Unlike transient fitness markets, Seattle's Pilates studios tend to build genuinely committed communities. Practitioners who commit to a single studio for several months consistently report faster progress: instructors learn their bodies and program accordingly." },
+  { heading: "Weather affects scheduling discipline", body: "Seattle's long gray winters can erode fitness motivation. Studios with early morning or lunchtime slots tend to serve practitioners better through the winter months. Committing to a standing booking before you feel demotivated is more effective than trying to reschedule mid-slump." },
+  { heading: "The Eastside has excellent options", body: "Bellevue, Kirkland, and Redmond have developed genuinely strong Pilates offerings in recent years. If you work or live on the Eastside, don't assume you need to cross the bridge for quality: some of the most technically proficient studios in the metro area are in Eastside neighborhoods." },
   { heading: "Grip socks are required everywhere", body: "Every reformer studio in Seattle requires grip socks. Buying a quality pair in advance is far cheaper than purchasing at the front desk. Full-toe grip socks are the standard: half-toe styles are typically not accepted at Seattle studios." },
 ];
 
 const NEIGHBORHOODS = [
-  { name: "Fremont & Ballard", description: "Two of Seattle's most community-focused neighbourhoods, home to studios that prioritise accessibility, depth of teaching, and loyal clienteles. The independent studio culture here is among the strongest in the city." },
+  { name: "Fremont & Ballard", description: "Two of Seattle's most community-focused neighborhoods, home to studios that prioritize accessibility, depth of teaching, and loyal clienteles. The independent studio culture here is among the strongest in the city." },
   { name: "Capitol Hill & First Hill", description: "Central Seattle's most diverse and culturally active district supports a range of Pilates offerings from classical studios to contemporary boutiques. Excellent public transport access from most of the city." },
-  { name: "Queen Anne & Magnolia", description: "These established residential neighbourhoods house several excellent smaller studios with loyal communities. Studios here tend toward the serious and consistent rather than the trendy, good ground for long-term practitioners." },
+  { name: "Queen Anne & Magnolia", description: "These established residential neighborhoods house several excellent smaller studios with loyal communities. Studios here tend toward the serious and consistent rather than the trendy, good ground for long-term practitioners." },
   { name: "South Lake Union & Eastside (Bellevue/Kirkland)", description: "The corporate tech presence in South Lake Union and the Eastside has driven investment in premium fitness infrastructure. Studios in these areas are well-equipped, professionally staffed, and designed for practitioners with demanding work schedules." },
 ];
 
@@ -158,7 +158,7 @@ const GEAR = [
 const HOME_REFORMERS = [
   { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work: three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
   { tag: "Mid-Range Pick", name: "AeroPilates Pro XP 557", note: "AeroPilates' top-of-the-range home reformer, a step up for practitioners training several times a week.", price: "$1,329.99", url: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20" },
-  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
+  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodized aluminum frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
 ];
 
 const RELATED_CITIES = [
@@ -175,7 +175,7 @@ const FURTHER_READING = [
 
 const CITY_FAQS = [
   { q: "What are the best Pilates studios in Seattle?", a: "Our 6 curated picks are Metropolitan Pilates (University District / University Village), Pilates Seattle International (South Lake Union), Atlas Pilates (Belltown), Pilates on 10th (Capitol Hill), Vitality Pilates, Phinney Ridge (Phinney Ridge) and Vitality Pilates, Ravenna (Ravenna). Each listing above covers what the studio is best for, its signature class and a booking tip." },
-  { q: "Which Seattle neighbourhoods are best for Pilates?", a: "This guide covers Fremont & Ballard, Capitol Hill & First Hill, Queen Anne & Magnolia and South Lake Union & Eastside (Bellevue/Kirkland). Fremont & Ballard: Two of Seattle's most community-focused neighbourhoods, home to studios that prioritise accessibility, depth of teaching, and loyal clienteles." },
+  { q: "Which Seattle neighborhoods are best for Pilates?", a: "This guide covers Fremont & Ballard, Capitol Hill & First Hill, Queen Anne & Magnolia and South Lake Union & Eastside (Bellevue/Kirkland). Fremont & Ballard: Two of Seattle's most community-focused neighborhoods, home to studios that prioritize accessibility, depth of teaching, and loyal clienteles." },
   { q: "What should I know about booking Pilates classes in Seattle?", a: "Expect to pay $32–58 per class. Seattle's Pilates market sits in the upper-middle range nationally." },
   { q: "What should I bring to a Pilates class in Seattle?", a: "Grip socks are required at most reformer studios. Our gear list for Seattle covers Pilates grip socks, Pilates mat, resistance bands set, magic circle and home Pilates reformer." },
 ];
@@ -250,7 +250,7 @@ export default function SeattlePage() {
             <p className="text-sm mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated October 2026 · 9 min read</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Seattle's Pilates scene is more serious than its modesty suggests. Behind the city's outdoor-focused identity lies a strong classical movement culture: shaped in part by Pacific Northwest Ballet, the University of Washington's dance programme, and a technology sector whose workers are increasingly investing in the kind of body knowledge that survives a desk job. From Fremont's classical studios to South Lake Union's high-spec boutiques, the city offers genuine range. This guide covers the six studios that merit your time, verified October 2026.
+              Seattle's Pilates scene is more serious than its modesty suggests. Behind the city's outdoor-focused identity lies a strong classical movement culture: shaped in part by Pacific Northwest Ballet, the University of Washington's dance program, and a technology sector whose workers are increasingly investing in the kind of body knowledge that survives a desk job. From Fremont's classical studios to South Lake Union's high-spec boutiques, the city offers genuine range. This guide covers the six studios that merit your time, verified October 2026.
             </p>
           </div>
         </section>
@@ -308,11 +308,11 @@ export default function SeattlePage() {
           </div>
         </section>
 
-        {/* Neighbourhoods */}
+        {/* Neighborhoods */}
         <section className="py-20 px-6" style={{ backgroundColor: "#f6f3f2" }}>
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Best neighbourhoods for Pilates in Seattle</h2>
-            <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Seattle's studio landscape follows the city's distinct neighbourhood cultures. Here's where to look.</p>
+            <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Best neighborhoods for Pilates in Seattle</h2>
+            <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Seattle's studio landscape follows the city's distinct neighborhood cultures. Here's where to look.</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {NEIGHBORHOODS.map((n) => (
                 <div key={n.name} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)" }}>

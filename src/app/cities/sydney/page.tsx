@@ -138,17 +138,17 @@ const NEIGHBORHOODS = [
   {
     name: "Bondi & Eastern Suburbs",
     description:
-      "The epicentre of Sydney's wellness culture. Bondi Beach and the surrounding eastern suburbs have the highest concentration of Pilates studios in the city, ranging from high-energy reformer boutiques to quieter mat-focused spaces. The clientele is health-conscious and the competition between studios is strong, which generally means high instruction standards.",
+      "The epicenter of Sydney's wellness culture. Bondi Beach and the surrounding eastern suburbs have the highest concentration of Pilates studios in the city, ranging from high-energy reformer boutiques to quieter mat-focused spaces. The clientele is health-conscious and the competition between studios is strong, which generally means high instruction standards.",
   },
   {
     name: "CBD & Surry Hills",
     description:
-      "The city centre and its inner-south neighbour cater to different crowds: the CBD for convenience-driven lunchtime and before-work classes, Surry Hills for more independent studios with a stronger method focus. Between them, they cover most of what a Sydney resident might need.",
+      "The city center and its inner-south neighbor cater to different crowds: the CBD for convenience-driven lunchtime and before-work classes, Surry Hills for more independent studios with a stronger method focus. Between them, they cover most of what a Sydney resident might need.",
   },
   {
     name: "Lower North Shore",
     description:
-      "Mosman, Neutral Bay, and Cremorne host some of Sydney's most established and community-rooted studios. These tend to be smaller, more personalised, and frequented by long-term locals building multi-year practices. Less trend-driven, more consistency-focused.",
+      "Mosman, Neutral Bay, and Cremorne host some of Sydney's most established and community-rooted studios. These tend to be smaller, more personalized, and frequented by long-term locals building multi-year practices. Less trend-driven, more consistency-focused.",
   },
   {
     name: "Inner West",
@@ -227,7 +227,7 @@ const FURTHER_READING = [
 
 const CITY_FAQS = [
   { q: "What are the best Pilates studios in Sydney?", a: "Our 6 curated picks are Studio Mouvoir (Surry Hills), BodyMindLife (Surry Hills), Fluidform Pilates (Multiple Sydney locations), Mode Pilates (North Sydney · Mosman · Manly), Bodylove Pilates (Manly) and KX Pilates (Multiple Sydney locations). Each listing above covers what the studio is best for, its signature class and a booking tip." },
-  { q: "Which Sydney neighbourhoods are best for Pilates?", a: "This guide covers Bondi & Eastern Suburbs, CBD & Surry Hills, Lower North Shore and Inner West. Bondi & Eastern Suburbs: The epicentre of Sydney's wellness culture." },
+  { q: "Which Sydney neighborhoods are best for Pilates?", a: "This guide covers Bondi & Eastern Suburbs, CBD & Surry Hills, Lower North Shore and Inner West. Bondi & Eastern Suburbs: The epicenter of Sydney's wellness culture." },
   { q: "What should I know about booking Pilates classes in Sydney?", a: "Book 5–7 days ahead for popular morning classes. Sydney's premium studios release bookings 7 days in advance, and the 6am–8am weekday slots vanish almost immediately." },
   { q: "What should I bring to a Pilates class in Sydney?", a: "Grip socks are required at most reformer studios. Our gear list for Sydney covers Pilates grip socks, Pilates mat, magic circle, resistance bands, foam roller and home Pilates reformer." },
 ];
@@ -310,7 +310,7 @@ export default function SydneyPage() {
             </p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Sydney has one of the most developed Pilates cultures in the southern hemisphere. The city's appetite for high-quality movement, outdoor living, and physical wellness has produced a reformer studio scene that punches well above its weight globally. From harbourside boutiques in Mosman to high-energy reformer studios in Bondi, the standard of instruction is consistently impressive. This guide covers the six studios we rate most highly, from the CBD to the eastern suburbs, along with everything you need to know before booking your first class.
+              Sydney has one of the most developed Pilates cultures in the southern hemisphere. The city's appetite for high-quality movement, outdoor living, and physical wellness has produced a reformer studio scene that punches well above its weight globally. From harborside boutiques in Mosman to high-energy reformer studios in Bondi, the standard of instruction is consistently impressive. This guide covers the six studios we rate most highly, from the CBD to the eastern suburbs, along with everything you need to know before booking your first class.
             </p>
           </div>
         </section>
@@ -370,10 +370,10 @@ export default function SydneyPage() {
         <section className="py-20 px-6" style={{ backgroundColor: "#fcf9f8" }}>
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best neighbourhoods for Pilates in Sydney
+              Best neighborhoods for Pilates in Sydney
             </h2>
             <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-              Sydney's Pilates landscape is shaped by its neighbourhoods. Here's where to look depending on where you're based.
+              Sydney's Pilates landscape is shaped by its neighborhoods. Here's where to look depending on where you're based.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {NEIGHBORHOODS.map((n) => (

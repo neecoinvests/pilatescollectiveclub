@@ -69,9 +69,9 @@ const PRODUCTS = [
     name: "Alo Yoga Airbrushed Short",
     price: "From $62",
     verdict: "Best for studio aesthetics",
-    tag: "Studio Favourite",
+    tag: "Studio Favorite",
     description:
-      "The Airbrush short is a boutique studio staple for good reason. The high-waist sculpted design creates a clean silhouette from footwork to standing work, the compression is consistent and non-restrictive, and the 5-inch inseam keeps coverage during all seated and supine work. Available in an extensive colour range including the neutrals that define the reformer studio look. Not sold on Amazon: this link goes to Alo Yoga's own site.",
+      "The Airbrush short is a boutique studio staple for good reason. The high-waist sculpted design creates a clean silhouette from footwork to standing work, the compression is consistent and non-restrictive, and the 5-inch inseam keeps coverage during all seated and supine work. Available in an extensive color range including the neutrals that define the reformer studio look. Not sold on Amazon: this link goes to Alo Yoga's own site.",
     affiliateUrl: "https://www.aloyoga.com",
   },
   {
@@ -81,7 +81,7 @@ const PRODUCTS = [
     verdict: "Best for men",
     tag: "Men's Pick",
     description:
-      "Most Pilates apparel brands produce almost nothing usable for men. The Vuori Daily Short is the exception: a 5-inch inseam in a soft, four-way stretch fabric with enough compression to stay in place through all reformer work without being uncomfortably tight. Clean design, no logos, and a colour range that fits the reformer studio environment. Not sold on Amazon: this link goes to Vuori's own site.",
+      "Most Pilates apparel brands produce almost nothing usable for men. The Vuori Daily Short is the exception: a 5-inch inseam in a soft, four-way stretch fabric with enough compression to stay in place through all reformer work without being uncomfortably tight. Clean design, no logos, and a color range that fits the reformer studio environment. Not sold on Amazon: this link goes to Vuori's own site.",
     affiliateUrl: "https://vuoriclothing.com",
   },
 ];

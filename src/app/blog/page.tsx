@@ -495,8 +495,8 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
     imageUrl: "/pictures/stitch-reformer-spring-detail.png",
   },
   {
-    title: "Wood vs Aluminium Pilates Reformer (2026): Which Frame Is Better?",
-    excerpt: "Weight, feel, storage, care and price, with the best maple, walnut and aluminium reformers.",
+    title: "Wood vs Aluminum Pilates Reformer (2026): Which Frame Is Better?",
+    excerpt: "Weight, feel, storage, care and price, with the best maple, walnut and aluminum reformers.",
     href: "/blog/wood-vs-aluminium-pilates-reformer",
     category: "Equipment",
     readTime: "11 min",
@@ -544,7 +544,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Pilates Studio Equipment Cost Breakdown",
-    excerpt: "Itemised budgets for a 3, 6 and 10 reformer studio at real list prices, plus the costs most first-time owners leave out.",
+    excerpt: "Itemized budgets for a 3, 6 and 10 reformer studio at real list prices, plus the costs most first-time owners leave out.",
     href: "/blog/pilates-studio-equipment-cost-breakdown",
     category: "Guide",
     readTime: "12 min",
@@ -1562,7 +1562,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Foam Roller for Pilates (2026)",
-    excerpt: "Spinal mobilisation, myofascial release, balance challenge: the foam rollers that actually perform in a serious Pilates context.",
+    excerpt: "Spinal mobilization, myofascial release, balance challenge: the foam rollers that actually perform in a serious Pilates context.",
     href: "/blog/best-pilates-foam-roller",
     category: "Equipment",
     readTime: "8 min",
@@ -1610,7 +1610,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Pilates During Menopause: Bone Density, Hormones & Practice",
-    excerpt: "How oestrogen decline changes the musculoskeletal system, why Pilates is exceptionally well-positioned to help, and how to adapt your practice.",
+    excerpt: "How estrogen decline changes the musculoskeletal system, why Pilates is exceptionally well-positioned to help, and how to adapt your practice.",
     href: "/blog/pilates-for-menopause",
     category: "Health",
     readTime: "13 min",
@@ -1810,7 +1810,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Pilates Bags (2026): Studio Totes & Carry-Alls Ranked",
-    excerpt: "The best bags for Pilates: compared on studio organisation and everyday carry.",
+    excerpt: "The best bags for Pilates: compared on studio organization and everyday carry.",
     href: "/blog/best-pilates-bag",
     category: "Equipment",
     readTime: "8 min",
@@ -1874,7 +1874,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Pilates Tote Bags for Women (2026): Studio Totes Ranked",
-    excerpt: "Six tote bags chosen for Pilates studio carry: structured, organised, and built to transition from studio to street.",
+    excerpt: "Six tote bags chosen for Pilates studio carry: structured, organized, and built to transition from studio to street.",
     href: "/blog/best-pilates-tote-bag",
     category: "Equipment",
     readTime: "7 min",

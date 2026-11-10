@@ -127,13 +127,13 @@ const jsonLd = {
 };
 const PRODUCTS = [
   { name: "Manduka PRO Pilates Mat", description: "The mat used in clinical Pilates settings, 6mm density absorbs reformer and floor work alike. Non-slip surface works on hardwood and carpet.", price: "$144.00", affiliateUrl: "https://www.amazon.com/dp/B0066T7I54?tag=pilatescollective-20" },
-  { name: "OPTP Foam Roller (36-inch)", description: "Full-length foam roller for thoracic mobilisation and spinal articulation: an essential tool for anyone using Pilates to address back pain.", price: "$62.99", affiliateUrl: "https://www.amazon.com/dp/B002C9EX14?tag=pilatescollective-20" },
+  { name: "OPTP Foam Roller (36-inch)", description: "Full-length foam roller for thoracic mobilization and spinal articulation: an essential tool for anyone using Pilates to address back pain.", price: "$62.99", affiliateUrl: "https://www.amazon.com/dp/B002C9EX14?tag=pilatescollective-20" },
   { name: "Balanced Body Magic Circle", description: "Provides light resistance for inner thigh, hip flexor, and glute activation: all muscle groups that directly support spinal stability.", price: "$35.00", affiliateUrl: "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20" },
   { name: "TheraBand Resistance Bands Set", description: "Three resistance levels for progressive loading of back and core exercises. Used in both clinical and home Pilates settings.", price: "$11.99", affiliateUrl: "https://www.amazon.com/dp/B01A58FHQ8?tag=pilatescollective-20" },
   { name: "Gaiam Restore Lower Back Support", description: "A lumbar support cushion useful during mat work and seated recovery: helpful in the sub-acute phase when floor exercises require positioning support.", price: "From $25", affiliateUrl: "https://www.amazon.com/s?k=gaiam+restore+lower+back+support+cushion&tag=pilatescollective-20" },
 ];
 
-const QP_NOTES = ["The dense mat used in clinical Pilates settings", "Thoracic mobilisation and spinal articulation", "Light resistance for hip and glute activation", "Three resistance levels for back and core work", "Lumbar support for mat work and recovery"];
+const QP_NOTES = ["The dense mat used in clinical Pilates settings", "Thoracic mobilization and spinal articulation", "Light resistance for hip and glute activation", "Three resistance levels for back and core work", "Lumbar support for mat work and recovery"];
 
 const ITEM_LIST = productItemList("Pilates for Back Pain (2026): What the Research Shows", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 
@@ -172,13 +172,13 @@ export default function PilatesForBackPainPage() {
                   <circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/>
                 </svg>
                 <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                  <strong style={{ color: "#8b4a31" }}>Medical disclaimer:</strong> This article is for informational purposes only and does not constitute medical advice. If you are experiencing acute back pain, consult a qualified healthcare provider before beginning any exercise programme.
+                  <strong style={{ color: "#8b4a31" }}>Medical disclaimer:</strong> This article is for informational purposes only and does not constitute medical advice. If you are experiencing acute back pain, consult a qualified healthcare provider before beginning any exercise program.
                 </p>
               </div>
 
               <Section title="What the research actually says">
                 <p>The evidence base for Pilates as a treatment for chronic low back pain is, by the standards of exercise science, reasonably strong. A 2015 systematic review published in the <em>Journal of Orthopaedic & Sports Physical Therapy</em> found that Pilates was more effective than minimal intervention (advice alone or general practitioner care) for reducing pain and disability in chronic low back pain patients. A 2016 Cochrane review reached similar conclusions: Pilates produced short-term improvements in pain and function that were comparable to other forms of exercise and superior to no treatment.</p>
-                <p>The caveat is important: &quot;other forms of exercise.&quot; Pilates is not uniquely superior to other well-designed exercise interventions for back pain. Walking, swimming, general strength training, and yoga have all produced comparable results in controlled trials. What Pilates does offer is a particularly well-structured approach to core stabilisation, spinal mobility, and body awareness: qualities that make it especially relevant for back pain populations.</p>
+                <p>The caveat is important: &quot;other forms of exercise.&quot; Pilates is not uniquely superior to other well-designed exercise interventions for back pain. Walking, swimming, general strength training, and yoga have all produced comparable results in controlled trials. What Pilates does offer is a particularly well-structured approach to core stabilization, spinal mobility, and body awareness: qualities that make it especially relevant for back pain populations.</p>
               </Section>
 
               <Callout>
@@ -186,13 +186,13 @@ export default function PilatesForBackPainPage() {
               </Callout>
 
               <Section title="Why Pilates addresses back pain effectively">
-                <p>Most chronic back pain is associated with one or more of the following: weak deep spinal stabilisers (particularly the multifidus and transversus abdominis), reduced spinal mobility, poor movement patterns under load, and inadequate hip and gluteal strength. Pilates addresses all of these directly.</p>
+                <p>Most chronic back pain is associated with one or more of the following: weak deep spinal stabilizers (particularly the multifidus and transversus abdominis), reduced spinal mobility, poor movement patterns under load, and inadequate hip and gluteal strength. Pilates addresses all of these directly.</p>
                 <p>The deep core muscles, particularly the transversus abdominis and pelvic floor, are the primary focus of the foundational Pilates repertoire. Unlike the superficial abdominals targeted in conventional &quot;core&quot; training, these muscles provide the moment-to-moment dynamic stability that the spine needs under load. Training them requires the precise, slow, intentional movement that Pilates demands, and that most gym-based exercise does not.</p>
                 <p>The reformer, in particular, is well-suited to back pain rehabilitation. The spring resistance can be precisely adjusted to match a client&apos;s current capacity, and the supported positions (lying, seated with back support) allow movement to be trained in ranges that are pain-free even when standing exercise is not yet possible.</p>
               </Section>
 
               <Section title="What Pilates cannot do">
-                <p>Back pain has many causes: structural (disc herniation, spinal stenosis, facet joint disease), inflammatory (ankylosing spondylitis, rheumatoid arthritis), and psychosocial (stress, sleep disruption, catastrophising). Pilates addresses the musculoskeletal components of the first category effectively but is not a treatment for structural pathology requiring medical or surgical intervention.</p>
+                <p>Back pain has many causes: structural (disc herniation, spinal stenosis, facet joint disease), inflammatory (ankylosing spondylitis, rheumatoid arthritis), and psychosocial (stress, sleep disruption, catastrophizing). Pilates addresses the musculoskeletal components of the first category effectively but is not a treatment for structural pathology requiring medical or surgical intervention.</p>
                 <p>If you&apos;ve been told you have a herniated disc, spinal stenosis, or spondylolisthesis, Pilates may still be appropriate, many people with these diagnoses benefit significantly, but you should begin with a clinical Pilates instructor who has physiotherapy training, not a general group class. The difference in how exercises are modified can be significant.</p>
                 <p>Acute back pain (recent onset, severe pain) is generally not a good time to start Pilates. The first priority is settling the acute phase, which typically takes 4–6 weeks. Pilates is most effective in the sub-acute and chronic phases, where rebuilding strength and movement quality becomes the primary goal.</p>
               </Section>
@@ -236,7 +236,7 @@ export default function PilatesForBackPainPage() {
               </div>
 
               <Section title="The long-term picture">
-                <p>The practitioners who benefit most from Pilates for back pain are those who treat it as a long-term practice rather than a short-term fix. The deep stabiliser strength and movement quality that Pilates develops take months to build, but once built, they tend to be durable in a way that other interventions are not.</p>
+                <p>The practitioners who benefit most from Pilates for back pain are those who treat it as a long-term practice rather than a short-term fix. The deep stabilizer strength and movement quality that Pilates develops take months to build, but once built, they tend to be durable in a way that other interventions are not.</p>
                 <p>Many people begin Pilates because of back pain and continue for decades because of what the practice does for their quality of life more broadly. That is, ultimately, the most compelling evidence of all.</p>
               </Section>
             </article>

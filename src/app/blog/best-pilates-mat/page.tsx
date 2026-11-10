@@ -215,7 +215,7 @@ export default function BestPilatesMatPage() {
               <ul className="space-y-3">
                 {[
                   "Clean after every session with a mild mat spray or water and a few drops of tea tree oil. Avoid alcohol-based cleaners on natural rubber: they can degrade the surface.",
-                  "Air dry completely before rolling. Rolling a damp mat traps moisture and can lead to mould in PVC mats.",
+                  "Air dry completely before rolling. Rolling a damp mat traps moisture and can lead to mold in PVC mats.",
                   "Store rolled, not folded. Permanent fold lines create uneven surfaces and weakened points in the material.",
                   "Keep away from direct sunlight during storage. UV exposure can yellow PVC and degrade natural rubber over time.",
                   "Replace when the surface becomes pilled, cracked, or when the mat compresses unevenly underfoot. A compromised surface is a slip risk.",

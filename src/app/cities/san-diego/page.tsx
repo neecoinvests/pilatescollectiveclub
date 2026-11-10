@@ -61,8 +61,8 @@ const STUDIOS = [
     name: "Club Pilates La Jolla",
     neighborhood: "La Jolla",
     priceLevel: "$$$",
-    review: "Club Pilates La Jolla on Villa La Jolla Drive serves La Jolla and the UTC area with levelled group reformer classes.",
-    caveat: "a franchise format: consistent, but less personalised than an independent studio.",
+    review: "Club Pilates La Jolla on Villa La Jolla Drive serves La Jolla and the UTC area with leveled group reformer classes.",
+    caveat: "a franchise format: consistent, but less personalized than an independent studio.",
     address: "8657 Villa La Jolla Dr, Suite 125, La Jolla, CA 92037",
     bestFor: "La Jolla and UTC residents",
     signatureClass: "Reformer Flow",
@@ -73,8 +73,8 @@ const STUDIOS = [
     name: "Club Pilates North Park",
     neighborhood: "North Park",
     priceLevel: "$$",
-    review: "Club Pilates North Park on 30th Street brings levelled group reformer classes to one of San Diego's most walkable neighbourhoods.",
-    caveat: "a franchise format: consistent, but less personalised than an independent studio.",
+    review: "Club Pilates North Park on 30th Street brings leveled group reformer classes to one of San Diego's most walkable neighborhoods.",
+    caveat: "a franchise format: consistent, but less personalized than an independent studio.",
     address: "3959 30th St, Suite 101, San Diego, CA 92104",
     bestFor: "North Park residents",
     signatureClass: "Reformer Flow",
@@ -85,8 +85,8 @@ const STUDIOS = [
     name: "Club Pilates Del Mar",
     neighborhood: "Carmel Valley / Del Mar",
     priceLevel: "$$$",
-    review: "Club Pilates Del Mar on El Camino Real serves Carmel Valley and Del Mar with levelled group reformer classes.",
-    caveat: "a franchise format: consistent, but less personalised than an independent studio.",
+    review: "Club Pilates Del Mar on El Camino Real serves Carmel Valley and Del Mar with leveled group reformer classes.",
+    caveat: "a franchise format: consistent, but less personalized than an independent studio.",
     address: "12843 El Camino Real, Suite 202, San Diego, CA 92130",
     bestFor: "Carmel Valley and Del Mar residents",
     signatureClass: "Reformer Flow",
@@ -97,8 +97,8 @@ const STUDIOS = [
     name: "Club Pilates Encinitas",
     neighborhood: "Encinitas / North County",
     priceLevel: "$$",
-    review: "Club Pilates Encinitas on 2nd Street is close to downtown Encinitas and the coast, with levelled group reformer classes.",
-    caveat: "a franchise format: consistent, but less personalised than an independent studio.",
+    review: "Club Pilates Encinitas on 2nd Street is close to downtown Encinitas and the coast, with leveled group reformer classes.",
+    caveat: "a franchise format: consistent, but less personalized than an independent studio.",
     address: "555 2nd St, Suite 2, Encinitas, CA 92024",
     bestFor: "North County coastal residents",
     signatureClass: "Reformer Flow",
@@ -116,7 +116,7 @@ const BOOKING_TIPS = [
 
 const NEIGHBORHOODS = [
   { name: "La Jolla & Torrey Pines", description: "San Diego's most exclusive coastal enclave houses the city's premier Pilates practices. Exceptional instruction quality, premium pricing, and a clientele drawn from the Salk Institute, UCSD, and the city's most accomplished professional community." },
-  { name: "North Park, Hillcrest & Mission Hills", description: "San Diego's most vibrant urban neighbourhoods support a range of independent studios that combine strong instruction with genuine community character. More accessibly priced than La Jolla with teaching quality that is often comparable." },
+  { name: "North Park, Hillcrest & Mission Hills", description: "San Diego's most vibrant urban neighborhoods support a range of independent studios that combine strong instruction with genuine community character. More accessibly priced than La Jolla with teaching quality that is often comparable." },
   { name: "Del Mar, Encinitas & North County Coastal", description: "The coastal communities north of central San Diego have their own excellent studio landscape that serves the active, outdoors-first North County culture with instruction calibrated for athletic bodies and accessible pricing." },
   { name: "Mission Valley & East San Diego", description: "The city's central residential and commercial corridors support a growing number of franchise and independent studios serving the broader San Diego population. Practical and accessible for practitioners based east of the I-5 corridor." },
 ];
@@ -151,7 +151,7 @@ const GEAR = [
 const HOME_REFORMERS = [
   { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work: three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
   { tag: "Mid-Range Pick", name: "AeroPilates Pro XP 557", note: "AeroPilates' top-of-the-range home reformer, a step up for practitioners training several times a week.", price: "$1,329.99", url: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20" },
-  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
+  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodized aluminum frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
 ];
 
 const RELATED_CITIES = [
@@ -168,7 +168,7 @@ const FURTHER_READING = [
 
 const CITY_FAQS = [
   { q: "What are the best Pilates studios in San Diego?", a: "Our 6 curated picks are Beyond Pilates Hillcrest (Hillcrest), The Pilates Studio (University Heights), Club Pilates La Jolla (La Jolla), Club Pilates North Park (North Park), Club Pilates Del Mar (Carmel Valley / Del Mar) and Club Pilates Encinitas (Encinitas / North County). Each listing above covers what the studio is best for, its signature class and a booking tip." },
-  { q: "Which San Diego neighbourhoods are best for Pilates?", a: "This guide covers La Jolla & Torrey Pines, North Park, Hillcrest & Mission Hills, Del Mar, Encinitas & North County Coastal and Mission Valley & East San Diego. La Jolla & Torrey Pines: San Diego's most exclusive coastal enclave houses the city's premier Pilates practices." },
+  { q: "Which San Diego neighborhoods are best for Pilates?", a: "This guide covers La Jolla & Torrey Pines, North Park, Hillcrest & Mission Hills, Del Mar, Encinitas & North County Coastal and Mission Valley & East San Diego. La Jolla & Torrey Pines: San Diego's most exclusive coastal enclave houses the city's premier Pilates practices." },
   { q: "What should I know about booking Pilates classes in San Diego?", a: "Expect to pay $30–58 per class. San Diego's Pilates market sits between Los Angeles and the broader California baseline, premium but not LA-extreme." },
   { q: "What should I bring to a Pilates class in San Diego?", a: "Grip socks are required at most reformer studios. Our gear list for San Diego covers Pilates grip socks, Pilates mat, magic circle and resistance bands set." },
 ];
@@ -268,7 +268,7 @@ export default function SanDiegoPage() {
 
         <section className="py-20 px-6" style={{ backgroundColor: "#f6f3f2" }}>
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Best neighbourhoods for Pilates in San Diego</h2>
+            <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Best neighborhoods for Pilates in San Diego</h2>
             <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>San Diego&apos;s studio quality extends from La Jolla to Encinitas and from North Park to the coast. Here&apos;s where to look.</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {NEIGHBORHOODS.map((n) => (

@@ -39,7 +39,7 @@ const PRODUCTS = [
     price: "From $88",
     verdict: "Best Alo piece for reformer Pilates",
     description:
-      "The Airbrush is the Alo legging most Pilates practitioners actually wear: firmer compression than the Alo Matte, fully opaque at every angle, and a high waistband that does not move through any exercise in the Pilates repertoire. The smoothing effect is significant without being restrictive. For reformer work specifically, the Airbrush outperforms the softer Alo options because the compression provides proprioceptive feedback on leg position: useful during footwork series where you want to feel your legs working symmetrically. Available in an excellent range of neutral colours appropriate for studio environments.",
+      "The Airbrush is the Alo legging most Pilates practitioners actually wear: firmer compression than the Alo Matte, fully opaque at every angle, and a high waistband that does not move through any exercise in the Pilates repertoire. The smoothing effect is significant without being restrictive. For reformer work specifically, the Airbrush outperforms the softer Alo options because the compression provides proprioceptive feedback on leg position: useful during footwork series where you want to feel your legs working symmetrically. Available in an excellent range of neutral colors appropriate for studio environments.",
     affiliateUrl: "https://www.aloyoga.com/",
     tag: "Top Pick",
   },
@@ -79,7 +79,7 @@ const PRODUCTS = [
     price: "From $78",
     verdict: "Best Alo studio bag",
     description:
-      "The practical Alo purchase that most brand reviews overlook: a bag that holds grip socks, a change of clothes, a water bottle, and a mat strap while looking appropriate in a boutique studio environment. The Ritual Runner is a structured tote with enough interior organisation to keep grip socks separate from everything else: a small but genuinely useful detail for regular studio-goers. The aesthetic is consistent with the brand's clean, luxury-adjacent positioning. An honest addition to a Pilates kit that solves a real practical problem.",
+      "The practical Alo purchase that most brand reviews overlook: a bag that holds grip socks, a change of clothes, a water bottle, and a mat strap while looking appropriate in a boutique studio environment. The Ritual Runner is a structured tote with enough interior organization to keep grip socks separate from everything else: a small but genuinely useful detail for regular studio-goers. The aesthetic is consistent with the brand's clean, luxury-adjacent positioning. An honest addition to a Pilates kit that solves a real practical problem.",
     affiliateUrl: "https://www.aloyoga.com/",
     tag: "Studio Bag",
   },
@@ -138,7 +138,7 @@ export default function AloYogaPilatesPage() {
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated October 20, 2026 · 10 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note="Sold at aloyoga.com, not on Amazon" url={PRODUCTS[0].affiliateUrl} cta="Shop Alo →" />
-            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Alo Yoga&apos;s Amazon presence is real but limited to occasional single-size, single-colour listings, not reliable enough to recommend here. These links go directly to Alo&apos;s own site rather than an affiliate program.</p>
+            <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Alo Yoga&apos;s Amazon presence is real but limited to occasional single-size, single-color listings, not reliable enough to recommend here. These links go directly to Alo&apos;s own site rather than an affiliate program.</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
               Alo Yoga has become the defining aesthetic brand of the boutique Pilates studio. Walk into any reformer class in New York, London, or Los Angeles and Alo is what you see on the majority of practitioners. The brand has earned this position partly through quality and partly through savvy positioning, but not everything they make is equally suited to Pilates. This is a specific guide to what works, what doesn&apos;t, and what Alo Moves offers as a training platform.

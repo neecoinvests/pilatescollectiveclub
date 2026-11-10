@@ -169,7 +169,7 @@ const GUIDE: DealsGuideProps = {
           "asin": "B01K1TX77W",
           "name": "Rainleaf Microfiber Towel",
           "badge": "Best towel",
-          "note": "A quick-dry microfibre towel that packs small.",
+          "note": "A quick-dry microfiber towel that packs small.",
           "price": "$12.99"
         },
         {
@@ -192,7 +192,7 @@ const GUIDE: DealsGuideProps = {
   "watchFor": [
     {
       "h": "Buy for how they actually train.",
-      "b": "Reformer regulars use grip socks and a good bottle every class; home practisers get more from a ring, ball, bands or a better mat."
+      "b": "Reformer regulars use grip socks and a good bottle every class; home practitioners get more from a ring, ball, bands or a better mat."
     },
     {
       "h": "Sizes are the risk.",
@@ -210,7 +210,7 @@ const GUIDE: DealsGuideProps = {
   "faqs": [
     {
       "q": "What are good stocking stuffers for Pilates lovers?",
-      "a": "Grip socks are the most useful, followed by small props such as a mini ball, bands or sliders. Claw clips, a microfibre towel and a bath soak are easy extras."
+      "a": "Grip socks are the most useful, followed by small props such as a mini ball, bands or sliders. Claw clips, a microfiber towel and a bath soak are easy extras."
     },
     {
       "q": "Do grip socks make a good stocking stuffer?",

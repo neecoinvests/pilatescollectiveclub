@@ -45,7 +45,7 @@ const STUDIOS = [
     neighborhood: "Uptown",
     priceLevel: "$$$",
     review: "Oak Cliff Pilates is a community-driven Dallas studio network that started in Bishop Arts and now has studios in Uptown and Lower Greenville too. The Uptown studio at McKinney Avenue and Pearl Street is the fast-paced, central option built for the professional crowd. Instructors rotate between locations and teach nine different class types, all bookable in one app.",
-    caveat: "a fast-growing local brand: classes are energetic and well-organised, but less individual than a private-session studio.",
+    caveat: "a fast-growing local brand: classes are energetic and well-organized, but less individual than a private-session studio.",
     address: "2222 McKinney Ave, #160, Dallas, TX 75201",
     bestFor: "Uptown professionals wanting reformer and mat classes",
     signatureClass: "Group Reformer",
@@ -80,8 +80,8 @@ const STUDIOS = [
     name: "Club Pilates Lakewood",
     neighborhood: "Lakewood / East Dallas",
     priceLevel: "$$",
-    review: "Club Pilates Lakewood is in the Lakewood Shopping Center on Gaston Avenue, serving East Dallas with the brand's levelled group reformer system. It suits people who want a structured programme close to home, with membership pricing for frequent training.",
-    caveat: "a franchise format: consistent, but less personalised than an independent studio.",
+    review: "Club Pilates Lakewood is in the Lakewood Shopping Center on Gaston Avenue, serving East Dallas with the brand's leveled group reformer system. It suits people who want a structured program close to home, with membership pricing for frequent training.",
+    caveat: "a franchise format: consistent, but less personalized than an independent studio.",
     address: "6402 Gaston Ave, Ste 6402A, Dallas, TX 75214",
     bestFor: "East Dallas residents wanting structured reformer classes",
     signatureClass: "Reformer Flow",
@@ -122,9 +122,9 @@ const BOOKING_TIPS = [
 ];
 
 const NEIGHBORHOODS = [
-  { name: "Highland Park & University Park (The Park Cities)", description: "Dallas's most affluent residential enclave houses the city's premier Pilates practices. Studios here serve a discerning, wellness-invested clientele that has the sophistication to recognise quality and the resources to sustain it. The correct starting point for practitioners who prioritise depth of method." },
+  { name: "Highland Park & University Park (The Park Cities)", description: "Dallas's most affluent residential enclave houses the city's premier Pilates practices. Studios here serve a discerning, wellness-invested clientele that has the sophistication to recognize quality and the resources to sustain it. The correct starting point for practitioners who prioritize depth of method." },
   { name: "Uptown & Knox-Henderson", description: "Dallas's most commercially vibrant entertainment and residential districts support a strong contemporary studio market. Studios here are design-forward and professionally staffed, serving the city's young professional population with sessions calibrated for efficiency and results." },
-  { name: "Lakewood & East Dallas", description: "East Dallas's characterful residential neighbourhoods have developed strong independent studio cultures over the past decade: community-focused, intelligently taught, and more accessibly priced than the Park Cities premium market." },
+  { name: "Lakewood & East Dallas", description: "East Dallas's characterful residential neighborhoods have developed strong independent studio cultures over the past decade: community-focused, intelligently taught, and more accessibly priced than the Park Cities premium market." },
   { name: "Deep Ellum & Design District", description: "Dallas's creative districts are home to the city's most interesting independent movement practices: studios that take Pilates seriously while approaching its presentation unconventionally. Worth exploring for practitioners who find standard boutique formats limiting." },
 ];
 
@@ -164,7 +164,7 @@ const GEAR = [
 const HOME_REFORMERS = [
   { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work: three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
   { tag: "Mid-Range Pick", name: "AeroPilates Pro XP 557", note: "AeroPilates' top-of-the-range home reformer, a step up for practitioners training several times a week.", price: "$1,329.99", url: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20" },
-  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
+  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodized aluminum frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
 ];
 
 const RELATED_CITIES = [
@@ -181,7 +181,7 @@ const FURTHER_READING = [
 
 const CITY_FAQS = [
   { q: "What are the best Pilates studios in Dallas?", a: "Our 6 curated picks are Oak Cliff Pilates (Uptown (Uptown), Session Pilates (Knox / Fitzhugh), The PilatesBarre (Park Cities), Club Pilates Lakewood (Lakewood / East Dallas), Oak Cliff Pilates) Lower Greenville (Lower Greenville) and BODYBAR Pilates: Knox-Henderson (Knox-Henderson). Each listing above covers what the studio is best for, its signature class and a booking tip." },
-  { q: "Which Dallas neighbourhoods are best for Pilates?", a: "This guide covers Highland Park & University Park (The Park Cities), Uptown & Knox-Henderson, Lakewood & East Dallas and Deep Ellum & Design District. Highland Park & University Park (The Park Cities): Dallas's most affluent residential enclave houses the city's premier Pilates practices." },
+  { q: "Which Dallas neighborhoods are best for Pilates?", a: "This guide covers Highland Park & University Park (The Park Cities), Uptown & Knox-Henderson, Lakewood & East Dallas and Deep Ellum & Design District. Highland Park & University Park (The Park Cities): Dallas's most affluent residential enclave houses the city's premier Pilates practices." },
   { q: "What should I know about booking Pilates classes in Dallas?", a: "Expect to pay $28–58 per class. Dallas's Pilates market spans a wide range, from $28 at community and East Dallas studios to $58+ at Highland Park premium practices." },
   { q: "What should I bring to a Pilates class in Dallas?", a: "Grip socks are required at most reformer studios. Our gear list for Dallas covers Pilates grip socks, Pilates mat, magic circle, resistance bands set and foam roller." },
 ];
@@ -307,8 +307,8 @@ export default function DallasPage() {
 
         <section className="py-20 px-6" style={{ backgroundColor: "#f6f3f2" }}>
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Best neighbourhoods for Pilates in Dallas</h2>
-            <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Dallas&apos;s studio landscape maps closely to the city&apos;s neighbourhood wealth and character. Here&apos;s where to look.</p>
+            <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Best neighborhoods for Pilates in Dallas</h2>
+            <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Dallas&apos;s studio landscape maps closely to the city&apos;s neighborhood wealth and character. Here&apos;s where to look.</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {NEIGHBORHOODS.map((n) => (
                 <div key={n.name} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)" }}>

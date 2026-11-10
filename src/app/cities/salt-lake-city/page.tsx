@@ -67,8 +67,8 @@ const STUDIOS = [
     name: "The Point Pilates",
     neighborhood: "Sugar House",
     priceLevel: "$$",
-    review: "The Point Pilates on South 900 East specialises in reformer Pilates and is rated 4.9 on ClassPass, a strong option for Sugar House and the East Bench.",
-    caveat: "a reformer-focused studio: no broader apparatus programme.",
+    review: "The Point Pilates on South 900 East specializes in reformer Pilates and is rated 4.9 on ClassPass, a strong option for Sugar House and the East Bench.",
+    caveat: "a reformer-focused studio: no broader apparatus program.",
     address: "2695 S 900 E, Salt Lake City, UT 84106",
     bestFor: "Reformer Pilates in Sugar House",
     signatureClass: "Reformer Pilates",
@@ -103,8 +103,8 @@ const STUDIOS = [
     name: "Club Pilates Salt Lake City",
     neighborhood: "Marmalade / North Downtown",
     priceLevel: "$$",
-    review: "Club Pilates on North 300 West brings the brand's levelled group reformer system to central Salt Lake City.",
-    caveat: "a franchise format: consistent, but less personalised than an independent studio.",
+    review: "Club Pilates on North 300 West brings the brand's leveled group reformer system to central Salt Lake City.",
+    caveat: "a franchise format: consistent, but less personalized than an independent studio.",
     address: "569 N 300 W, Salt Lake City, UT 84103",
     bestFor: "Structured reformer classes in central SLC",
     signatureClass: "Reformer Flow",
@@ -206,7 +206,7 @@ const GEAR = [
 const HOME_REFORMERS = [
   { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work: three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
   { tag: "Mid-Range Pick", name: "AeroPilates Pro XP 557", note: "AeroPilates' top-of-the-range home reformer, a step up for practitioners training several times a week.", price: "$1,329.99", url: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20" },
-  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
+  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodized aluminum frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
 ];
 
 const RELATED_CITIES = [
@@ -263,7 +263,7 @@ const FURTHER_READING = [
 
 const CITY_FAQS = [
   { q: "What are the best Pilates studios in Salt Lake City?", a: "Our 6 curated picks are The Block SLC (Granary District / Downtown), The Point Pilates (Sugar House), Seek Studio (Sugar House), Seven Sisters Pilates (Marmalade / Capitol Hill), Club Pilates Salt Lake City (Marmalade / North Downtown) and BODYBAR Pilates: Downtown SLC (Downtown). Each listing above covers what the studio is best for, its signature class and a booking tip." },
-  { q: "Which Salt Lake City neighbourhoods are best for Pilates?", a: "This guide covers Sugar House, The Avenues, 9th & 9th District and Cottonwood Heights. Sugar House: One of SLC's most vibrant and walkable neighborhoods, Sugar House is a hub for independent studios, healthy restaurants, and the city's active outdoor community." },
+  { q: "Which Salt Lake City neighborhoods are best for Pilates?", a: "This guide covers Sugar House, The Avenues, 9th & 9th District and Cottonwood Heights. Sugar House: One of SLC's most vibrant and walkable neighborhoods, Sugar House is a hub for independent studios, healthy restaurants, and the city's active outdoor community." },
   { q: "What should I know about booking Pilates classes in Salt Lake City?", a: "Account for altitude when you first arrive. Salt Lake City sits at 4,226 feet above sea level." },
   { q: "What should I bring to a Pilates class in Salt Lake City?", a: "Grip socks are required at most reformer studios. Our gear list for Salt Lake City covers Pilates grip socks, Pilates mat (6mm), magic circle, fabric resistance bands and high-density foam roller." },
 ];

@@ -58,7 +58,7 @@ const STUDIOS = [
     name: "Real Pilates",
     neighborhood: "Tribeca",
     priceLevel: "$$$$",
-    review: "Alycea Ungaro, a physical therapist, runs Real Pilates out of a loft space at 137 Duane Street, and the studio's identity follows from her background: full classical apparatus (Reformer, Cadillac, Wunda Chair, Ladder Barrel), Romana Kryzanowska-lineage instruction, and a music-free room that keeps the focus on cueing rather than energy. New clients start with a $85 trial private session (55 minutes) rather than a group class, which is unusual for the category and tells you what the studio actually prioritises.",
+    review: "Alycea Ungaro, a physical therapist, runs Real Pilates out of a loft space at 137 Duane Street, and the studio's identity follows from her background: full classical apparatus (Reformer, Cadillac, Wunda Chair, Ladder Barrel), Romana Kryzanowska-lineage instruction, and a music-free room that keeps the focus on cueing rather than energy. New clients start with a $85 trial private session (55 minutes) rather than a group class, which is unusual for the category and tells you what the studio actually prioritizes.",
     caveat: "there's no cheap way in: this is a private-and-semi-private-first studio, and group class pricing isn't even published on their site. Budget-conscious beginners will find AeroPilates-style budget studios elsewhere in Tribeca first.",
     address: "137 Duane St, New York, NY 10013",
     bestFor: "Classical apparatus training",
@@ -131,7 +131,7 @@ const BOOKING_TIPS = [
 ];
 
 const NEIGHBORHOODS = [
-  { name: "SoHo & Tribeca", description: "Downtown's most design-conscious neighbourhoods carry the highest concentration of premium reformer studios in Manhattan: New York Pilates, Real Pilates, and Erika Bloom Wellness are all within a 10-minute walk of each other here. Expect beautiful interiors and correspondingly higher price points." },
+  { name: "SoHo & Tribeca", description: "Downtown's most design-conscious neighborhoods carry the highest concentration of premium reformer studios in Manhattan: New York Pilates, Real Pilates, and Erika Bloom Wellness are all within a 10-minute walk of each other here. Expect beautiful interiors and correspondingly higher price points." },
   { name: "Midtown & Midtown East", description: "Less glamorous than downtown, but this is where the accessible classical studios (Power Pilates) and the lunch-hour strength-training format ([solidcore]) actually cluster, serving the office population directly." },
   { name: "Upper East Side & Upper West Side", description: "Manhattan's established residential districts carry a mix of classical studios and barre-Pilates hybrids like Physique 57's flagship. Less trendy, often better value than downtown for group classes." },
   { name: "Brooklyn (Williamsburg & Park Slope)", description: "Brooklyn's growing Pilates scene has produced several independent studios with strong community cultures and more accessible pricing than Manhattan. Worth the subway ride if you're based in the borough." },
@@ -179,7 +179,7 @@ const GEAR = [
 const HOME_REFORMERS = [
   { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work: three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
   { tag: "Mid-Range Pick", name: "AeroPilates Pro XP 557", note: "AeroPilates' top-of-the-range home reformer, a step up for practitioners training several times a week.", price: "$1,329.99", url: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20" },
-  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
+  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodized aluminum frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
 ];
 
 const RELATED_CITIES = [
@@ -196,7 +196,7 @@ const FURTHER_READING = [
 
 const CITY_FAQS = [
   { q: "What are the best Pilates studios in New York City?", a: "Our 6 curated picks are New York Pilates (SoHo), Real Pilates (Tribeca), Power Pilates (Midtown), Solidcore (Midtown East), Erika Bloom Wellness (Tribeca) and Physique 57 (Upper East Side). Each listing above covers what the studio is best for, its signature class and a booking tip." },
-  { q: "Which New York City neighbourhoods are best for Pilates?", a: "This guide covers SoHo & Tribeca, Midtown & Midtown East, Upper East Side & Upper West Side and Brooklyn (Williamsburg & Park Slope). SoHo & Tribeca: Downtown's most design-conscious neighbourhoods carry the highest concentration of premium reformer studios in Manhattan, New York Pilates, Real Pilates, and Erika Bloom Wellness are all within a 10-minute walk of each other here." },
+  { q: "Which New York City neighborhoods are best for Pilates?", a: "This guide covers SoHo & Tribeca, Midtown & Midtown East, Upper East Side & Upper West Side and Brooklyn (Williamsburg & Park Slope). SoHo & Tribeca: Downtown's most design-conscious neighborhoods carry the highest concentration of premium reformer studios in Manhattan, New York Pilates, Real Pilates, and Erika Bloom Wellness are all within a 10-minute walk of each other here." },
   { q: "What should I know about booking Pilates classes in New York City?", a: "ClassPass is genuinely useful in NYC. New York's studio density makes ClassPass an excellent tool for discovering the right studio before committing to a membership." },
   { q: "What should I bring to a Pilates class in New York City?", a: "Grip socks are required at most reformer studios. Our gear list for New York City covers Pilates grip socks, Pilates mat, magic circle, resistance bands, foam roller and home Pilates reformer." },
 ];
@@ -329,8 +329,8 @@ export default function NewYorkPage() {
         </section>
         <section className="py-20 px-6" style={{ backgroundColor: "#fcf9f8" }}>
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Best neighbourhoods for Pilates in New York</h2>
-            <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Manhattan's studio landscape is shaped by neighbourhood culture. Here's where to look.</p>
+            <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Best neighborhoods for Pilates in New York</h2>
+            <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Manhattan's studio landscape is shaped by neighborhood culture. Here's where to look.</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {NEIGHBORHOODS.map((n) => (
                 <div key={n.name} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)" }}>

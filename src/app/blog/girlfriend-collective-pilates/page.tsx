@@ -60,7 +60,7 @@ const PRODUCTS = [
     price: "From $42",
     verdict: "Best Bra for Pilates",
     description:
-      "The Float is Girlfriend Collective&apos;s low-impact bra: the correct support level for a Pilates practice, which requires unrestricted ribcage expansion for breathing and does not need the heavy-duty support of a running bra. The recycled fabric is soft against skin during the prolonged floor sequences that characterise mat and reformer work, and the bra lies flat when prone, which is more than can be said for bras with structured cups or thick padding. The back closure is clean and sits below the shoulder blade, which prevents the discomfort of lying on hardware during supine exercises.",
+      "The Float is Girlfriend Collective&apos;s low-impact bra: the correct support level for a Pilates practice, which requires unrestricted ribcage expansion for breathing and does not need the heavy-duty support of a running bra. The recycled fabric is soft against skin during the prolonged floor sequences that characterize mat and reformer work, and the bra lies flat when prone, which is more than can be said for bras with structured cups or thick padding. The back closure is clean and sits below the shoulder blade, which prevents the discomfort of lying on hardware during supine exercises.",
     affiliateUrl: "https://www.amazon.com/s?k=girlfriend+collective+float+sports+bra&tag=pilatescollective-20",
     tag: "Best Bra",
   },
@@ -80,7 +80,7 @@ const PRODUCTS = [
     price: "From $108",
     verdict: "Best Value Set",
     description:
-      "Buying the Topanga Bra and Legging as a set saves approximately $20 versus purchasing separately, which makes it one of the most straightforward value propositions in sustainable activewear. The set coordinates across Girlfriend Collective&apos;s full colour range, from clean neutral tones to the brand&apos;s more distinctive pigmented options. The matched set also ensures consistent fabric behaviour, which matters when you want the bra and legging to stay in position relative to each other during movement. For a new customer to the brand, the set is the correct entry point.",
+      "Buying the Topanga Bra and Legging as a set saves approximately $20 versus purchasing separately, which makes it one of the most straightforward value propositions in sustainable activewear. The set coordinates across Girlfriend Collective&apos;s full color range, from clean neutral tones to the brand&apos;s more distinctive pigmented options. The matched set also ensures consistent fabric behavior, which matters when you want the bra and legging to stay in position relative to each other during movement. For a new customer to the brand, the set is the correct entry point.",
     affiliateUrl: "https://www.amazon.com/s?k=girlfriend+collective+topanga+set+activewear&tag=pilatescollective-20",
     tag: "Best Value",
   },
@@ -253,7 +253,7 @@ export default function GirlfriendCollectivePilatesPage() {
                 <ArticleCard title="What to Wear to Pilates" excerpt="The definitive guide to dressing for reformer and mat Pilates: what works, what to avoid, and why it matters." href="/blog/what-to-wear-to-pilates" category="Style Guide" readTime="7 min read" date="May 2026" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
                 <ArticleCard title="Best Seamless Sports Bras for Pilates (2026)" excerpt="The best seamless sports bras for Pilates, no pressure points, no chafing, full movement. Picks from Lululemon…" href="/blog/best-pilates-seamless-sports-bra" category="Activewear" readTime="8 min read" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
                 <ArticleCard title="Athleta for Pilates (2026): Best Leggings & Tops Reviewed" excerpt="Best Athleta pieces for Pilates, Salutation, Elation, and Brooklyn leggings reviewed for reformer class…" href="/blog/athleta-pilates" category="Activewear" readTime="9 min read" imageUrl="/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" />
-                <ArticleCard title="Best Pilates Grip Socks (2026): 5 Verified Picks" excerpt="5 verified, in-stock Pilates grip socks on Amazon: toesox and TAVI studio favourites, Tucketts toeless, plus Gaiam…" href="/blog/best-pilates-grip-socks" category="Activewear" readTime="6 min read" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Grip Socks (2026): 5 Verified Picks" excerpt="5 verified, in-stock Pilates grip socks on Amazon: toesox and TAVI studio favorites, Tucketts toeless, plus Gaiam…" href="/blog/best-pilates-grip-socks" category="Activewear" readTime="6 min read" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
               </div>
             </div>
           </div>

@@ -608,7 +608,7 @@ const QUICK_PICKS = [
   { name: "toesox Low Rise Grip Socks 2-Pack (Full Toe)", price: "$30.00", url: "https://www.amazon.com/dp/B07QHNDHW3?tag=pilatescollective-20", note: "Full-toe grip socks from the original studio brand" },
   { name: "TAVI Half Finger Gym Gloves", price: "$31.99", url: "https://www.amazon.com/dp/B09GPVMF86?tag=pilatescollective-20", note: "Half-finger grip gloves for the handles" },
   { name: "CRZ YOGA Butterluxe Leggings 25\"", price: "$32.00", url: "https://www.amazon.com/dp/B09P1G2952?tag=pilatescollective-20", note: "Opaque, buttery leggings for the carriage" },
-  { name: "Varley Freesoft Piped Full Leggings", price: "$98.00", url: "https://www.amazon.com/dp/B0FXN378H8?tag=pilatescollective-20", note: "Premium leggings from a studio-favourite brand" },
+  { name: "Varley Freesoft Piped Full Leggings", price: "$98.00", url: "https://www.amazon.com/dp/B0FXN378H8?tag=pilatescollective-20", note: "Premium leggings from a studio-favorite brand" },
   { name: "Impulse Yoga Knee Pad Cushion (1\" / 25mm)", price: "$20.72", url: "https://www.amazon.com/dp/B06WV6XVV9?tag=pilatescollective-20", note: "1-inch knee pad for kneeling work" },
   { name: "Muezna Pilates Grip Socks (6 Pairs)", price: "$7.59", url: "https://www.amazon.com/dp/B0DQ53GSP5?tag=pilatescollective-20", note: "Six pairs of grip socks on a budget" },
 ];
@@ -653,7 +653,7 @@ export default function LagreeEssentialsPage() {
           <div className="max-w-3xl mx-auto">
 
             <QuickPicks className="mb-6 mt-4" picks={QUICK_PICKS} />
-            <AffiliateNote>Most links on this page go to Amazon, and we earn a small commission on qualifying purchases. One item (the Lagree Megaformer) is not sold on Amazon and links directly to lagreefitness.com; it is labelled as such.</AffiliateNote>
+            <AffiliateNote>Most links on this page go to Amazon, and we earn a small commission on qualifying purchases. One item (the Lagree Megaformer) is not sold on Amazon and links directly to lagreefitness.com; it is labeled as such.</AffiliateNote>
 
             {/* Related hubs */}
             <div className="mb-10 mt-4 flex flex-col sm:flex-row gap-3">
@@ -852,7 +852,7 @@ export default function LagreeEssentialsPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Lagree Fitness: The Brand, the Megaformer and The Micro" excerpt="Who Lagree Fitness is, how the machines differ, and what you can actually buy for home." href="/blog/lagree-fitness" category="Guide" readTime="10 min read" date="September 2026" imageUrl="/pictures/stitch-reformers-aerial-row.png" />
                 <ArticleCard title="Lagree for Beginners" excerpt="What your first Lagree class feels like, the mistakes to avoid and what to bring." href="/blog/lagree-for-beginners" category="Guide" readTime="9 min read" date="September 2026" imageUrl="/pictures/stitch-hands-on-carriage.png" />
-                <ArticleCard title="Best Lagree Grip Socks" excerpt="The grip socks that hold on a sweaty carriage, from budget multi-packs to studio favourites." href="/blog/best-lagree-grip-socks" category="Equipment" readTime="8 min read" date="September 2026" imageUrl="/pictures/stitch-reformer-row-studio.png" />
+                <ArticleCard title="Best Lagree Grip Socks" excerpt="The grip socks that hold on a sweaty carriage, from budget multi-packs to studio favorites." href="/blog/best-lagree-grip-socks" category="Equipment" readTime="8 min read" date="September 2026" imageUrl="/pictures/stitch-reformer-row-studio.png" />
                 <ArticleCard title="Pilates Essentials" excerpt="Every Pilates must-have in one list, with best, budget and splurge picks and what the full kit costs." href="/blog/pilates-essentials" category="Equipment" readTime="12 min read" date="September 2026" imageUrl="/pictures/stitch-pilates-essentials-logbook.png" />
               </div>
             </div>

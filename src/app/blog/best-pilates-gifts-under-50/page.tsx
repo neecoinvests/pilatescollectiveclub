@@ -46,7 +46,7 @@ const PRODUCTS = [
     name: "ToeSox Half-Toe Grip Socks 3-Pack",
     price: "$44.00",
     verdict: "Best Stocking Stuffer",
-    description: "ToeSox grip socks are required at reformer studios and consistently the item that practitioners forget, lose, or wear out first, which makes a 3-pack one of the most practically appreciated pilates gifts at any price point. The half-toe design is specifically built for footbar work: open toes give proprioceptive feedback on the carriage while the full-grip sole prevents sliding on every surface. ToeSox is the brand that most practitioners settle on once they've tried a few: the quality is noticeably better than cheaper alternatives. Available in coordinated neutrals and seasonal colours.",
+    description: "ToeSox grip socks are required at reformer studios and consistently the item that practitioners forget, lose, or wear out first, which makes a 3-pack one of the most practically appreciated pilates gifts at any price point. The half-toe design is specifically built for footbar work: open toes give proprioceptive feedback on the carriage while the full-grip sole prevents sliding on every surface. ToeSox is the brand that most practitioners settle on once they've tried a few: the quality is noticeably better than cheaper alternatives. Available in coordinated neutrals and seasonal colors.",
     affiliateUrl: "https://www.amazon.com/dp/B07Q5JM1G5?tag=pilatescollective-20",
   },
   {
@@ -54,7 +54,7 @@ const PRODUCTS = [
     name: "Theraband Professional Resistance Band Set",
     price: "$19.47",
     verdict: "Best Value Gift",
-    description: "For $19.47, the Theraband Professional Set is the most value-dense pilates gift that exists at any budget. Six resistance levels, from yellow (very light) through black (extra heavy), cover the full spectrum of pilates and physiotherapy applications. Theraband is the brand that hospital physiotherapy departments use; their bands are more durable, more precisely graded, and more consistently calibrated than alternatives. The set comes pre-cut to exercise length and colour-coded. For a beginner or experienced practitioner alike, this is a gift she'll reach for constantly.",
+    description: "For $19.47, the Theraband Professional Set is the most value-dense pilates gift that exists at any budget. Six resistance levels, from yellow (very light) through black (extra heavy), cover the full spectrum of pilates and physiotherapy applications. Theraband is the brand that hospital physiotherapy departments use; their bands are more durable, more precisely graded, and more consistently calibrated than alternatives. The set comes pre-cut to exercise length and color-coded. For a beginner or experienced practitioner alike, this is a gift she'll reach for constantly.",
     affiliateUrl: "https://www.amazon.com/dp/B07RF9FYM6?tag=pilatescollective-20",
   },
   {
@@ -70,7 +70,7 @@ const PRODUCTS = [
     name: "Lululemon Everywhere Belt Bag (1L)",
     price: "$46.00",
     verdict: "Best Studio Accessory",
-    description: "The Lululemon belt bag has become so embedded in pilates studio culture that it borders on uniform. The 1L version is the compact option: small enough to clip to a larger bag or wear crossbody during class, with enough space for a phone, keys, and cards. Made from water-repellent ripstop fabric with a quick-access zip. Available in a rotating range of seasonal colours. At $38 this is a genuinely thoughtful gift at an accessible price: she'll carry it every day.",
+    description: "The Lululemon belt bag has become so embedded in pilates studio culture that it borders on uniform. The 1L version is the compact option: small enough to clip to a larger bag or wear crossbody during class, with enough space for a phone, keys, and cards. Made from water-repellent ripstop fabric with a quick-access zip. Available in a rotating range of seasonal colors. At $38 this is a genuinely thoughtful gift at an accessible price: she'll carry it every day.",
     affiliateUrl: "https://www.amazon.com/dp/B0945QT74T?tag=pilatescollective-20",
   },
   {
@@ -102,7 +102,7 @@ const CRITERIA = [
   },
   {
     heading: "Avoid generic fitness gifts",
-    body: "Generic resistance bands, foam rollers from sports superstores, and unbranded accessories send the wrong message. In the pilates community, brand matters: Theraband, ToeSox, Hydro Flask, and Manduka are all recognised names that signal you know what you're doing.",
+    body: "Generic resistance bands, foam rollers from sports superstores, and unbranded accessories send the wrong message. In the pilates community, brand matters: Theraband, ToeSox, Hydro Flask, and Manduka are all recognized names that signal you know what you're doing.",
   },
   {
     heading: "Stack for more impact",
@@ -117,7 +117,7 @@ const FAQ = [
   },
   {
     q: "What are good pilates stocking stuffers?",
-    a: "The best pilates stocking stuffers are: ToeSox grip socks ($16), Theraband resistance bands ($19.47), a Trideer pilates ball ($7.99), and a Manduka cork block ($26). All are practical, compact, and genuinely useful in every class. A single ToeSox pair at $18 is the classic stocking stuffer: small, needed, and from a brand practitioners recognise.",
+    a: "The best pilates stocking stuffers are: ToeSox grip socks ($16), Theraband resistance bands ($19.47), a Trideer pilates ball ($7.99), and a Manduka cork block ($26). All are practical, compact, and genuinely useful in every class. A single ToeSox pair at $18 is the classic stocking stuffer: small, needed, and from a brand practitioners recognize.",
   },
   {
     q: "Is a Lululemon belt bag a good pilates gift?",
@@ -258,7 +258,7 @@ export default function Page() {
           </div>
 
           <p style={{ fontFamily: "var(--font-sans)", fontSize: "11px", color: "#9a9490", lineHeight: 1.7, marginTop: "64px", paddingTop: "24px", borderTop: "1px solid #ede9e3" }}>
-            Pilates Collective Club participates in the Amazon Associates programme. Purchases through our links earn us a small commission at no additional cost to you. All recommendations are independently chosen.
+            Pilates Collective Club participates in the Amazon Associates program. Purchases through our links earn us a small commission at no additional cost to you. All recommendations are independently chosen.
           </p>
         </div>
       </section>

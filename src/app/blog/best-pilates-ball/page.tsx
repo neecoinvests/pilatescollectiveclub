@@ -98,9 +98,9 @@ const PRODUCTS = [
 ];
 
 const EXERCISES = [
-  { name: "Mini ball inner thigh squeeze", equipment: "Small ball", level: "All levels", benefit: "Activates adductors, stabilises pelvis" },
+  { name: "Mini ball inner thigh squeeze", equipment: "Small ball", level: "All levels", benefit: "Activates adductors, stabilizes pelvis" },
   { name: "Ball-supported bridge", equipment: "Small ball", level: "Beginner–Intermediate", benefit: "Deepens glute activation, challenges pelvic stability" },
-  { name: "Thoracic extension over ball", equipment: "Small ball", level: "All levels", benefit: "Mobilises thoracic spine, counters desk posture" },
+  { name: "Thoracic extension over ball", equipment: "Small ball", level: "All levels", benefit: "Mobilizes thoracic spine, counters desk posture" },
 ];
 
 const FAQS = [
@@ -221,7 +221,7 @@ export default function BestPilatesBallPage() {
                 <div className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)" }}>
                   <h3 className="text-base font-semibold mb-3" style={{ color: "#8b4a31", fontFamily: "'Playfair Display', serif" }}>Mini Pilates Ball (roughly 8–10 inches)</h3>
                   <ul className="space-y-2">
-                    {["Inner thigh activation during bridges and supine exercises", "Pelvic stabilisation challenge in mat work", "Thoracic support for upper body extension", "Between-knee prop for spinal alignment", "Easily stored: fits in a gym bag"].map((item) => (
+                    {["Inner thigh activation during bridges and supine exercises", "Pelvic stabilization challenge in mat work", "Thoracic support for upper body extension", "Between-knee prop for spinal alignment", "Easily stored: fits in a gym bag"].map((item) => (
                       <li key={item} className="text-sm flex gap-2" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}><span style={{ color: "#8b4a31" }}>·</span>{item}</li>
                     ))}
                   </ul>

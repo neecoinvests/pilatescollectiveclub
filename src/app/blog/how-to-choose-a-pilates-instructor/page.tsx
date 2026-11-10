@@ -84,7 +84,7 @@ const jsonLd = {
     {
       "@type": "Question",
       "name": "What qualifications should a Pilates instructor have?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Look for comprehensive training from recognised bodies such as STOTT Pilates, Balanced Body, BASI, or Pilates Method Alliance (PMA). These programmes require 450\u2013600+ hours covering anatomy, all apparatus, and supervised teaching. Weekend certifications are insufficient." }
+      "acceptedAnswer": { "@type": "Answer", "text": "Look for comprehensive training from recognized bodies such as STOTT Pilates, Balanced Body, BASI, or Pilates Method Alliance (PMA). These programs require 450\u2013600+ hours covering anatomy, all apparatus, and supervised teaching. Weekend certifications are insufficient." }
     },
     {
       "@type": "Question",
@@ -109,8 +109,8 @@ const PRODUCTS = [
   { name: "ToeSox Grip Socks", description: "The first equipment purchase before trialling a new instructor. Arriving with your own grip socks signals preparation and allows you to focus the introductory session on assessing the instructor, not logistics.", price: "$16.00", affiliateUrl: "https://www.amazon.com/dp/B00A6YUEEW?tag=pilatescollective-20" },
   { name: "Manduka PRO Pilates Mat", description: "For the home sessions your instructor recommends between studio visits. A mat at home enables the practice continuity that makes the instructor relationship most productive.", price: "$144.00", affiliateUrl: "https://www.amazon.com/dp/B0066T7I54?tag=pilatescollective-20" },
   { name: "Return to Life Through Contrology", description: "Reading the original Pilates text gives you a reference point for evaluating whether an instructor is grounded in the method or merely using the name. Useful context for any serious student.", price: "$17.90", affiliateUrl: "https://www.amazon.com/dp/1928564909?tag=pilatescollective-20" },
-  { name: "TheraBand Resistance Bands Set", description: "For the home exercises your instructor prescribes. Most good instructors provide between-session exercises: having resistance bands at home allows you to follow through on the programme.", price: "$11.99", affiliateUrl: "https://www.amazon.com/dp/B01A58FHQ8?tag=pilatescollective-20" },
-  { name: "Under Armour Studio Lite Tote", description: "A dedicated bag for your instructor sessions: grip socks, mat, water, and whatever props your instructor recommends bringing. Being organised demonstrates commitment and respects the instructor's time.", price: "$40.64", affiliateUrl: "https://www.amazon.com/dp/B0D1W4RK7S?tag=pilatescollective-20" },
+  { name: "TheraBand Resistance Bands Set", description: "For the home exercises your instructor prescribes. Most good instructors provide between-session exercises: having resistance bands at home allows you to follow through on the program.", price: "$11.99", affiliateUrl: "https://www.amazon.com/dp/B01A58FHQ8?tag=pilatescollective-20" },
+  { name: "Under Armour Studio Lite Tote", description: "A dedicated bag for your instructor sessions: grip socks, mat, water, and whatever props your instructor recommends bringing. Being organized demonstrates commitment and respects the instructor's time.", price: "$40.64", affiliateUrl: "https://www.amazon.com/dp/B0D1W4RK7S?tag=pilatescollective-20" },
 ];
 
 const QP_NOTES = ["Buy before you trial a new instructor", "For the home sessions your instructor suggests", "A reference for judging an instructor's grounding", "For the exercises your instructor prescribes", "Carries socks, mat, water and props"];
@@ -148,9 +148,9 @@ export default function HowToChoosePilatesInstructorPage() {
 
             <section className="pb-20">
               <Section title="The certification landscape">
-                <p>Pilates instructor certification is not regulated in the same way that medical or physiotherapy qualifications are in most countries. This means the range of training behind someone calling themselves a &quot;Pilates instructor&quot; is extraordinarily wide, from weekend courses with minimal practical hours to multi-year apprenticeship programmes with thousands of supervised teaching hours.</p>
-                <p>The most rigorous certifications (those from organisations like the Pilates Method Alliance (PMA), STOTT PILATES, Balanced Body, Romana&apos;s Pilates, and Peak Pilates) require between 450 and 1,000+ hours of training, including anatomy education, practical observation, apprentice teaching, and written and practical examinations. These are genuinely demanding programmes.</p>
-                <p>At the other end of the spectrum, weekend and online certification courses can confer the same &quot;certified Pilates instructor&quot; title with a fraction of the training. When choosing an instructor, ask specifically about their certification programme, the hours it required, and the organisation that awarded it.</p>
+                <p>Pilates instructor certification is not regulated in the same way that medical or physiotherapy qualifications are in most countries. This means the range of training behind someone calling themselves a &quot;Pilates instructor&quot; is extraordinarily wide, from weekend courses with minimal practical hours to multi-year apprenticeship programs with thousands of supervised teaching hours.</p>
+                <p>The most rigorous certifications (those from organizations like the Pilates Method Alliance (PMA), STOTT PILATES, Balanced Body, Romana&apos;s Pilates, and Peak Pilates) require between 450 and 1,000+ hours of training, including anatomy education, practical observation, apprentice teaching, and written and practical examinations. These are genuinely demanding programs.</p>
+                <p>At the other end of the spectrum, weekend and online certification courses can confer the same &quot;certified Pilates instructor&quot; title with a fraction of the training. When choosing an instructor, ask specifically about their certification program, the hours it required, and the organization that awarded it.</p>
               </Section>
 
               <Callout>A great Pilates instructor teaches the person in front of them, not the class. Find someone who sees you specifically, not just the body filling the reformer.</Callout>
@@ -160,7 +160,7 @@ export default function HowToChoosePilatesInstructorPage() {
                   <CheckItem
                     isGreen={true}
                     label="Comprehensive certification (450+ hours)"
-                    description="Look for certification from a recognised organisation with rigorous training standards. Ask directly: 'Which programme did you train with, and how many training hours did it require?'"
+                    description="Look for certification from a recognized organization with rigorous training standards. Ask directly: 'Which program did you train with, and how many training hours did it require?'"
                   />
                   <CheckItem
                     isGreen={true}
@@ -205,7 +205,7 @@ export default function HowToChoosePilatesInstructorPage() {
                   <CheckItem
                     isGreen={false}
                     label="No intake process for new clients"
-                    description="A studio that allows anyone to walk into a group reformer class without any assessment of their experience or physical condition is prioritising booking volume over client safety."
+                    description="A studio that allows anyone to walk into a group reformer class without any assessment of their experience or physical condition is prioritizing booking volume over client safety."
                   />
                   <CheckItem
                     isGreen={false}

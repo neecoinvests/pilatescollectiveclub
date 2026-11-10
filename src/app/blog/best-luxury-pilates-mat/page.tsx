@@ -91,7 +91,7 @@ const PRODUCTS = [
     name: "Yoga Design Lab Combo Mat 5.5mm",
     price: "$131",
     verdict: "Best Mat-and-Towel in One",
-    description: "Yoga Design Lab's Combo Mat bonds a soft microfibre towel surface to a natural rubber base, so it gets grippier as you sweat. That makes it the pick for hot mat classes, sweaty Lagree-style sessions or anyone who usually lays a towel over their mat. The printed designs are the most distinctive here, and the 5.5mm version adds useful cushioning for Pilates. A carrying strap is included. Sold by Hugger Mugger Yoga on Amazon.",
+    description: "Yoga Design Lab's Combo Mat bonds a soft microfiber towel surface to a natural rubber base, so it gets grippier as you sweat. That makes it the pick for hot mat classes, sweaty Lagree-style sessions or anyone who usually lays a towel over their mat. The printed designs are the most distinctive here, and the 5.5mm version adds useful cushioning for Pilates. A carrying strap is included. Sold by Hugger Mugger Yoga on Amazon.",
     affiliateUrl: "https://www.amazon.com/dp/B09JWWCCH1?tag=pilatescollective-20",
     tag: "Artisan Design",
   },
@@ -220,7 +220,7 @@ export default function BestLuxuryPilatesMatPage() {
           </div>
         </section>
 
-        <CTASection title="Find Your Studio" subtitle="Discover the world's finest Pilates and reformer studios." showSearch searchPlaceholder="Search by city or neighbourhood..." />
+        <CTASection title="Find Your Studio" subtitle="Discover the world's finest Pilates and reformer studios." showSearch searchPlaceholder="Search by city or neighborhood..." />
       </main>
       <Footer />
     </>

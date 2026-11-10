@@ -82,7 +82,7 @@ const GUIDE: DealsGuideProps = {
         {
           "asin": "B07QHNDHW3",
           "name": "toesox Low Rise Grip Socks (Full Toe, 2-Pack)",
-          "badge": "Studio favourite socks",
+          "badge": "Studio favorite socks",
           "note": "Full-toe grip socks with a non-slip sole, in an organic cotton blend.",
           "price": "$30.00"
         },

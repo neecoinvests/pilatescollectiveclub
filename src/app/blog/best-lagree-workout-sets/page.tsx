@@ -22,7 +22,7 @@ const ITEMS: Record<string, Omit<GuideItem, "badge">> = {
     id: "beyond-yoga-spacedye-lift-your-spirits-bra", name: "Beyond Yoga Spacedye Lift Your Spirits Bra", brand: "Beyond Yoga", price: "$68.00", url: amz("B07HRVHSST"),
     availability: "in-stock", soldBy: "Grivet Outdoors",
     specs: ["Spacedye fabric: 87% polyester, 13% elastane", "Medium support", "Removable pads", "4-way stretch", "Contouring seams"],
-    body: "The matching bra in the same Spacedye fabric, with medium support and removable pads. Choose the same colour as the legging for a true set.",
+    body: "The matching bra in the same Spacedye fabric, with medium support and removable pads. Choose the same color as the legging for a true set.",
   },
   varleyLegging: {
     id: "varley-freesoft-25-legging", name: "Varley FreeSoft 25\" High-Rise Leggings", brand: "Varley", price: "$98.00", url: amz("B0D673NJB4"),
@@ -46,7 +46,7 @@ const ITEMS: Record<string, Omit<GuideItem, "badge">> = {
     id: "sweaty-betty-power-medium-bra", name: "Sweaty Betty Power Medium Racer Back Sports Bra", brand: "Sweaty Betty", price: "$26.10", url: amz("B0BW197M92"),
     availability: "in-stock", soldBy: "Amazon.com",
     specs: ["Medium support", "Stretchy, sweat-wicking, quick-drying", "Scoop neck", "Looped back with adjustable T-bar strap"],
-    body: "Sweaty Betty's bestselling Power Bra, with an adjustable strap. Sold and shipped by Amazon.com; colours and prices vary by size.",
+    body: "Sweaty Betty's bestselling Power Bra, with an adjustable strap. Sold and shipped by Amazon.com; colors and prices vary by size.",
   },
   crzLegging: {
     id: "crz-yoga-butterluxe-25-legging", name: "CRZ YOGA Butterluxe Leggings 25\"", brand: "CRZ YOGA", price: "$32.00", url: amz("B09P1GB319"),
@@ -110,7 +110,7 @@ const GUIDE: EquipmentGuideProps = {
         ["CRZ YOGA Butterluxe", "$32.00", "$28.00", "$60.00"],
         ["SUUKSESS two-piece", "Included", "Built-in-bra tank", "$39.95"],
       ],
-      note: `Amazon prices checked on ${CHECKED} for the size and colour linked. Prices can vary by size and colour.`,
+      note: `Amazon prices checked on ${CHECKED} for the size and color linked. Prices can vary by size and color.`,
     },
     {
       kind: "cards",
@@ -129,10 +129,10 @@ const GUIDE: EquipmentGuideProps = {
       eyebrow: "Premium sets",
       heading: "Premium matching sets",
       items: [
-        it("beyondLegging", "Best Overall Set", ["Signature soft Spacedye fabric", "No outseam"], ["Sold by Zappos; colours vary by size"]),
+        it("beyondLegging", "Best Overall Set", ["Signature soft Spacedye fabric", "No outseam"], ["Sold by Zappos; colors vary by size"]),
         it("beyondBra", "Matching Bra", ["Removable pads", "Medium support"], ["Not for high-impact cardio"]),
         it("sbLegging", "Best for Sweaty Classes", ["Sweat-wicking and quick-drying", "Sold by Amazon.com", "Back zip pocket"], ["The priciest legging here"]),
-        it("sbBra", "Matching Bra", ["Adjustable T-bar strap", "Sold by Amazon.com"], ["Price varies a lot by colour and size"]),
+        it("sbBra", "Matching Bra", ["Adjustable T-bar strap", "Sold by Amazon.com"], ["Price varies a lot by color and size"]),
         it("varleyLegging", "Best Light Compression", ["Soft with light compression", "Minimal seams"], ["Sold by Zappos"]),
         it("varleyBra", "Matching Bra", ["Removable cups", "Moisture-wicking"], ["Low stock in some sizes"]),
       ],

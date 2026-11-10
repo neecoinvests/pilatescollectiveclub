@@ -40,7 +40,7 @@ const PRODUCTS = [
     price: "From $89",
     verdict: "Best Versatile Bottom",
     description:
-      "The Performance Jogger is Vuori&apos;s most universally useful Pilates piece because it sits precisely at the intersection of technical and presentable. The tapered cut is narrow enough at the ankle to avoid any contact with the reformer footbar or shoulder blocks, while the fabric, Vuori&apos;s signature Coast Fleece blend, provides stretch without the cling of compression tights. For practitioners who move directly from a reformer class to the rest of their day, this is the piece that handles both without a wardrobe change. Available for men and women in a range of neutral and coastal colours. Not sold on Amazon: this link goes to Vuori's own site.",
+      "The Performance Jogger is Vuori&apos;s most universally useful Pilates piece because it sits precisely at the intersection of technical and presentable. The tapered cut is narrow enough at the ankle to avoid any contact with the reformer footbar or shoulder blocks, while the fabric, Vuori&apos;s signature Coast Fleece blend, provides stretch without the cling of compression tights. For practitioners who move directly from a reformer class to the rest of their day, this is the piece that handles both without a wardrobe change. Available for men and women in a range of neutral and coastal colors. Not sold on Amazon: this link goes to Vuori's own site.",
     affiliateUrl: "https://vuoriclothing.com",
     tag: "Top Pick",
   },
@@ -80,7 +80,7 @@ const PRODUCTS = [
     price: "From $44",
     verdict: "Best Tank",
     description:
-      "The Halo tank is Vuori&apos;s most versatile top for Pilates: fitted enough not to shift during inversions or prone exercises, but not so structured that it constrains shoulder mobility. The fabric wicks moisture efficiently, which matters during reformer classes that run at a pace sufficient to create heat. The cut works on both men and women, and the length is long enough to stay tucked when worn with high-waisted bottoms: a practical consideration during any exercise that requires the practitioner to be horizontal. Available in a range of colours with the brand&apos;s characteristic clean aesthetic. Not sold on Amazon: this link goes to Vuori's own site.",
+      "The Halo tank is Vuori&apos;s most versatile top for Pilates: fitted enough not to shift during inversions or prone exercises, but not so structured that it constrains shoulder mobility. The fabric wicks moisture efficiently, which matters during reformer classes that run at a pace sufficient to create heat. The cut works on both men and women, and the length is long enough to stay tucked when worn with high-waisted bottoms: a practical consideration during any exercise that requires the practitioner to be horizontal. Available in a range of colors with the brand&apos;s characteristic clean aesthetic. Not sold on Amazon: this link goes to Vuori's own site.",
     affiliateUrl: "https://vuoriclothing.com",
     tag: "Best Tank",
   },
@@ -238,7 +238,7 @@ export default function VuoriPilatesPage() {
                 <ArticleCard title="What to Wear to Pilates" excerpt="The definitive guide to dressing for reformer and mat Pilates: what works, what to avoid, and why it matters." href="/blog/what-to-wear-to-pilates" category="Style Guide" readTime="7 min read" date="May 2026" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
                 <ArticleCard title="Athleta for Pilates (2026): Best Leggings & Tops Reviewed" excerpt="Best Athleta pieces for Pilates, Salutation, Elation, and Brooklyn leggings reviewed for reformer class…" href="/blog/athleta-pilates" category="Activewear" readTime="9 min read" imageUrl="/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" />
                 <ArticleCard title="Best Warm-Up Jacket for Pilates (2026): Studio Layers Ranked" excerpt="The best warm-up jackets for Pilates, Alo Accolade, Lululemon Define, Beyond Yoga, and more compared for studio…" href="/blog/best-warm-up-jacket-for-pilates" category="Activewear" readTime="7 min read" imageUrl="/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg" />
-                <ArticleCard title="Best Pilates Grip Socks (2026): 5 Verified Picks" excerpt="5 verified, in-stock Pilates grip socks on Amazon: toesox and TAVI studio favourites, Tucketts toeless, plus Gaiam…" href="/blog/best-pilates-grip-socks" category="Activewear" readTime="6 min read" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Grip Socks (2026): 5 Verified Picks" excerpt="5 verified, in-stock Pilates grip socks on Amazon: toesox and TAVI studio favorites, Tucketts toeless, plus Gaiam…" href="/blog/best-pilates-grip-socks" category="Activewear" readTime="6 min read" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
               </div>
             </div>
           </div>

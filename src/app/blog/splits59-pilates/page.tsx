@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   keywords: ["splits59 pilates review", "splits59 raquel tight pilates", "splits59 vs lululemon pilates", "best splits59 for reformer pilates", "splits59 activewear pilates 2026", "splits59 airweight pilates"],
   openGraph: {
     title: "Splits59 for Pilates (2026): The Brand Built for the Method",
-    description: "Splits59 is the activewear brand most explicitly designed for Pilates and barre: the Raquel legging, Sylvie bra, and what to prioritise.",
+    description: "Splits59 is the activewear brand most explicitly designed for Pilates and barre: the Raquel legging, Sylvie bra, and what to prioritize.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/splits59-pilates",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg", width: 1200, height: 630, alt: "Splits59 for Pilates: Pilates Collective Club" }],
@@ -92,7 +92,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Splits59 for Pilates (2026): The Brand Built for the Method",
-      "description": "Splits59 is the activewear brand most explicitly designed for Pilates and barre: the Raquel legging, Sylvie bra, and what to prioritise.",
+      "description": "Splits59 is the activewear brand most explicitly designed for Pilates and barre: the Raquel legging, Sylvie bra, and what to prioritize.",
       "url": "https://pilatescollectiveclub.com/blog/splits59-pilates",
       "datePublished": "2026-05-14",
       "dateModified": "2026-10-20",
@@ -254,7 +254,7 @@ export default function Splits59PilatesPage() {
                 <ArticleCard title="Best Pilates Leggings (2026)" excerpt="Five leggings across every price point: compared on opacity, waistband stability, and reformer performance." href="/blog/best-pilates-leggings" category="Buyer&apos;s Guide" readTime="9 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />
                 <ArticleCard title="Best Luxury Pilates Leggings (2026)" excerpt="The finest pilates leggings money can buy on Amazon, Wolford, Splits59, Varley, Sweaty Betty, Year of Ours and…" href="/blog/best-luxury-pilates-leggings" category="Activewear" readTime="10 min read" imageUrl="/pictures/stitch-retail-activewear.png" />
                 <ArticleCard title="Athleta for Pilates (2026): Best Leggings & Tops Reviewed" excerpt="Best Athleta pieces for Pilates, Salutation, Elation, and Brooklyn leggings reviewed for reformer class…" href="/blog/athleta-pilates" category="Activewear" readTime="9 min read" imageUrl="/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" />
-                <ArticleCard title="Best Pilates Grip Socks (2026): 5 Verified Picks" excerpt="5 verified, in-stock Pilates grip socks on Amazon: toesox and TAVI studio favourites, Tucketts toeless, plus Gaiam…" href="/blog/best-pilates-grip-socks" category="Activewear" readTime="6 min read" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Grip Socks (2026): 5 Verified Picks" excerpt="5 verified, in-stock Pilates grip socks on Amazon: toesox and TAVI studio favorites, Tucketts toeless, plus Gaiam…" href="/blog/best-pilates-grip-socks" category="Activewear" readTime="6 min read" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
               </div>
             </div>
           </div>

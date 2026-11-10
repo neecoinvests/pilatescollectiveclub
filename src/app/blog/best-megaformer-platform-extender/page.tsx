@@ -56,7 +56,7 @@ const PRODUCTS = [
     price: "Dealer-quoted only",
     verdict: "Not a verified Amazon listing",
     description:
-      "Align Pilates markets an extension kit for its F-series reformers, aimed at the wide-base standing and lunge positions used in slow-tempo eccentric programming. We could not verify a live Amazon listing for this specific kit. The only Align-Pilates product we could confirm as genuinely sold on Amazon is the C8-PRO reformer (sold through Merrithew, Align's US distributor): the extension kit itself should be sourced through an authorised Align Pilates dealer, where fit is guaranteed for F1/F2/F3 frames.",
+      "Align Pilates markets an extension kit for its F-series reformers, aimed at the wide-base standing and lunge positions used in slow-tempo eccentric programming. We could not verify a live Amazon listing for this specific kit. The only Align-Pilates product we could confirm as genuinely sold on Amazon is the C8-PRO reformer (sold through Merrithew, Align's US distributor): the extension kit itself should be sourced through an authorized Align Pilates dealer, where fit is guaranteed for F1/F2/F3 frames.",
     affiliateUrl: null,
     tag: "Dealer Direct",
   },

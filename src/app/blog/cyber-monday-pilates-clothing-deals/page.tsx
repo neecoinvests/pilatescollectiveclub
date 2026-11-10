@@ -76,7 +76,7 @@ const GUIDE: DealsGuideProps = {
           "asin": "B09P1G2952",
           "name": "CRZ YOGA Butterluxe Leggings 25\"",
           "badge": "Best value",
-          "note": "Buttery-soft leggings that many people buy in several colours.",
+          "note": "Buttery-soft leggings that many people buy in several colors.",
           "price": "$32.00"
         },
         {

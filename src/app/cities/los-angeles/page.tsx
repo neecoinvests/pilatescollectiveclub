@@ -107,7 +107,7 @@ const STUDIOS = [
     neighborhood: "Beverly Hills",
     priceLevel: "$$$$",
     review: "Natural Pilates Beverly Hills carries a 4.9-star rating across 262 Yelp reviews, one of the highest review volumes of any studio on this list, built on classical apparatus training (Reformer, Cadillac, Chair, Barrel) rather than reformer-only programming. It's particularly well-regarded for post-surgical and chronic-pain clients, an area where the full-apparatus range genuinely matters for progression. Validated parking is available at the Hodes lot next door for about $1.50.",
-    caveat: "\"Beverly Hills\" pricing here is more moderate than the neighbourhood's reputation suggests: it's priced closer to a well-regarded independent studio than to the ultra-premium end of the market, which is good news for your wallet but worth knowing if you were expecting the most expensive option in the city.",
+    caveat: "\"Beverly Hills\" pricing here is more moderate than the neighborhood's reputation suggests: it's priced closer to a well-regarded independent studio than to the ultra-premium end of the market, which is good news for your wallet but worth knowing if you were expecting the most expensive option in the city.",
     address: "9869 S Santa Monica Blvd, Suite 207, Beverly Hills, CA 90212",
     bestFor: "Private & semi-private, rehabilitation",
     signatureClass: "Full Apparatus Private",
@@ -125,7 +125,7 @@ const BOOKING_TIPS = [
 ];
 
 const NEIGHBORHOODS = [
-  { name: "Santa Monica & Brentwood", description: "LA's most established Pilates neighbourhood. The concentration of classical studios, experienced instructors, and wellness-conscious clientele here is unmatched in the city. Worth the traffic." },
+  { name: "Santa Monica & Brentwood", description: "LA's most established Pilates neighborhood. The concentration of classical studios, experienced instructors, and wellness-conscious clientele here is unmatched in the city. Worth the traffic." },
   { name: "West Hollywood & Beverly Hills", description: "Premium boutique territory. Studios here tend toward the contemporary, design-forward, and celebrity-adjacent. Expect excellent instruction alongside elevated price points." },
   { name: "Los Feliz, Silver Lake & Echo Park", description: "The eastside has developed a genuinely excellent independent studio scene in recent years: community-focused, intelligently taught, and substantially more accessible in pricing than the westside." },
   { name: "Manhattan Beach & the South Bay", description: "LA's beach communities have a distinct wellness culture: active, outdoors-oriented, and increasingly well-served by reformer studios that appeal to surfers, triathletes, and fitness-focused professionals." },
@@ -173,7 +173,7 @@ const GEAR = [
 const HOME_REFORMERS = [
   { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work: three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
   { tag: "Mid-Range Pick", name: "AeroPilates Pro XP 557", note: "AeroPilates' top-of-the-range home reformer, a step up for practitioners training several times a week.", price: "$1,329.99", url: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20" },
-  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
+  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodized aluminum frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
 ];
 
 const RELATED_CITIES = [
@@ -190,7 +190,7 @@ const FURTHER_READING = [
 
 const CITY_FAQS = [
   { q: "What are the best Pilates studios in Los Angeles?", a: "Our 6 curated picks are Speir Pilates (West Hollywood), Movement Pilates (Koreatown), Flow Pilates (Koreatown / Arts District), Carrie's Pilates Plus (West Hollywood), The Studio MDR (Marina del Rey) and Natural Pilates Beverly Hills (Beverly Hills). Each listing above covers what the studio is best for, its signature class and a booking tip." },
-  { q: "Which Los Angeles neighbourhoods are best for Pilates?", a: "This guide covers Santa Monica & Brentwood, West Hollywood & Beverly Hills, Los Feliz, Silver Lake & Echo Park and Manhattan Beach & the South Bay. Santa Monica & Brentwood: LA's most established Pilates neighbourhood." },
+  { q: "Which Los Angeles neighborhoods are best for Pilates?", a: "This guide covers Santa Monica & Brentwood, West Hollywood & Beverly Hills, Los Feliz, Silver Lake & Echo Park and Manhattan Beach & the South Bay. Santa Monica & Brentwood: LA's most established Pilates neighborhood." },
   { q: "What should I know about booking Pilates classes in Los Angeles?", a: "Traffic matters more than you think. LA's Pilates scene spans a vast geography." },
   { q: "What should I bring to a Pilates class in Los Angeles?", a: "Grip socks are required at most reformer studios. Our gear list for Los Angeles covers Pilates grip socks, Pilates mat, magic circle, resistance bands, foam roller and home Pilates reformer." },
 ];
@@ -323,8 +323,8 @@ export default function LosAngelesPage() {
         </section>
         <section className="py-20 px-6" style={{ backgroundColor: "#fcf9f8" }}>
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Best neighbourhoods for Pilates in Los Angeles</h2>
-            <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>LA's sheer size means neighbourhood choice significantly affects your experience. Here's a guide.</p>
+            <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Best neighborhoods for Pilates in Los Angeles</h2>
+            <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>LA's sheer size means neighborhood choice significantly affects your experience. Here's a guide.</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {NEIGHBORHOODS.map((n) => (
                 <div key={n.name} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)" }}>

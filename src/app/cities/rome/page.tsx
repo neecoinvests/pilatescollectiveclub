@@ -53,12 +53,12 @@ const STUDIOS = [
     name: "Gaia Pilates Roma",
     neighborhood: "Trastevere",
     priceLevel: "$$$",
-    review: "Gaia Pilates Roma is a boutique classical Pilates studio near the Botanical Garden in Trastevere, directed by owner Gaia Faggiani and featured in Gratz Pilates' Featured Studio Series. Programmes are designed around each client's needs and goals.",
+    review: "Gaia Pilates Roma is a boutique classical Pilates studio near the Botanical Garden in Trastevere, directed by owner Gaia Faggiani and featured in Gratz Pilates' Featured Studio Series. Programs are designed around each client's needs and goals.",
     caveat: "classical teaching is precise and methodical: expect technique, not a high-energy class.",
     address: "Largo Cristina di Svezia 17, 00165 Roma",
     bestFor: "Classical Pilates in Trastevere",
     signatureClass: "Classical Private Session",
-    bookingTip: "Start with a private session so the programme can be built around you.",
+    bookingTip: "Start with a private session so the program can be built around you.",
   },
   {
     number: "02",
@@ -82,7 +82,7 @@ const STUDIOS = [
     address: "Via Collina 36, 00187 Roma",
     bestFor: "Traditional Pilates and reformer with evening classes",
     signatureClass: "Traditional Reformer",
-    bookingTip: "Evening classes suit people working in the centre.",
+    bookingTip: "Evening classes suit people working in the center.",
   },
   {
     number: "04",
@@ -114,7 +114,7 @@ const STUDIOS = [
     neighborhood: "Tuscolano",
     priceLevel: "$$",
     review: "Reform Studio Pilates on Via Flavio Stilicone runs small reformer classes of up to seven people in an 80 m² room with parquet flooring.",
-    caveat: "it is in the Tuscolano area, south-east of the centre: easy by metro but not walkable from the historic centre.",
+    caveat: "it is in the Tuscolano area, south-east of the center: easy by metro but not walkable from the historic center.",
     address: "Via Flavio Stilicone 238, 00175 Roma",
     bestFor: "Small reformer classes in south-east Rome",
     signatureClass: "Small Group Reformer",
@@ -124,12 +124,12 @@ const STUDIOS = [
 
 const BOOKING_TIPS = [
   {
-    heading: "Expect to pay €20–60 per class",
-    body: "Rome's Pilates pricing varies considerably by model and neighbourhood. Group reformer classes at accessible studios run €20–35; semi-private sessions at premium addresses reach €50–70 per person. Carnet packages of eight to ten sessions typically save 15–20% versus drop-in rates.",
+    heading: "Expect to pay about $22–67 per class",
+    body: "Rome's Pilates pricing varies considerably by model and neighborhood. Group reformer classes at accessible studios run about $22–39; semi-private sessions at premium addresses reach about $56–78 per person. Carnet packages of eight to ten sessions typically save 15–20% versus drop-in rates.",
   },
   {
     heading: "August closures are universal",
-    body: "Like Milan and most of Italy, Rome's independent wellness studios close for two to four weeks in August. Larger gyms with Pilates programmes may stay open, but boutique studios will be shut. Plan around this: September sees very high demand as regulars return.",
+    body: "Like Milan and most of Italy, Rome's independent wellness studios close for two to four weeks in August. Larger gyms with Pilates programs may stay open, but boutique studios will be shut. Plan around this: September sees very high demand as regulars return.",
   },
   {
     heading: "Private sessions first: everywhere",
@@ -137,11 +137,11 @@ const BOOKING_TIPS = [
   },
   {
     heading: "English is increasingly available",
-    body: "International-facing studios in Prati, Trastevere, and Flaminio typically have at least one English-speaking instructor. Studios in more residential neighbourhoods like Parioli may be Italian-only. If this matters, check before booking.",
+    body: "International-facing studios in Prati, Trastevere, and Flaminio typically have at least one English-speaking instructor. Studios in more residential neighborhoods like Parioli may be Italian-only. If this matters, check before booking.",
   },
   {
     heading: "Grip socks are non-negotiable",
-    body: "Every studio in Rome requires grip socks. Bring your own: the studio-sold options are typically €14–18 and you can find better value online. A few studios offer loaner pairs for first visits, but don't count on it.",
+    body: "Every studio in Rome requires grip socks. Bring your own: the studio-sold options are typically about $16–20 and you can find better value online. A few studios offer loaner pairs for first visits, but don't count on it.",
   },
 ];
 
@@ -149,7 +149,7 @@ const NEIGHBORHOODS = [
   {
     name: "Prati",
     description:
-      "Rome's most coherent modern neighbourhood: wide boulevards, good transport links, and a density of professional services that includes several excellent Pilates studios. Prati is the most practical base for consistent Pilates practice in central Rome, with studios that attract a serious, committed clientele.",
+      "Rome's most coherent modern neighborhood: wide boulevards, good transport links, and a density of professional services that includes several excellent Pilates studios. Prati is the most practical base for consistent Pilates practice in central Rome, with studios that attract a serious, committed clientele.",
   },
   {
     name: "Parioli",
@@ -159,12 +159,12 @@ const NEIGHBORHOODS = [
   {
     name: "Trastevere",
     description:
-      "Characterful, expat-friendly, and increasingly well-served for wellness. Trastevere's studios tend toward the community-oriented and accessible, which makes the neighbourhood an excellent starting point for visitors or newcomers to the city looking to establish a practice.",
+      "Characterful, expat-friendly, and increasingly well-served for wellness. Trastevere's studios tend toward the community-oriented and accessible, which makes the neighborhood an excellent starting point for visitors or newcomers to the city looking to establish a practice.",
   },
   {
     name: "Flaminio & Testaccio",
     description:
-      "Two distinct but increasingly dynamic neighbourhoods for Pilates. Flaminio appeals to the gallery-and-design crowd with its considered wellness offering; Testaccio is younger and more energetic, with newer studios that bring fresh programming ideas to a neighbourhood discovering its wellness identity.",
+      "Two distinct but increasingly dynamic neighborhoods for Pilates. Flaminio appeals to the gallery-and-design crowd with its considered wellness offering; Testaccio is younger and more energetic, with newer studios that bring fresh programming ideas to a neighborhood discovering its wellness identity.",
   },
 ];
 
@@ -238,8 +238,8 @@ const FURTHER_READING = [
 
 const CITY_FAQS = [
   { q: "What are the best Pilates studios in Rome?", a: "Our 6 curated picks are Gaia Pilates Roma (Trastevere), Pilates Muse (Parioli), Postural Pilates Academy (Porta Pia · Libia), Aletheia Pilates (Piazza del Popolo · Porta Pia · Appio-Latino), RYOGA (Trastevere · Prati) and Reform Studio Pilates (Tuscolano). Each listing above covers what the studio is best for, its signature class and a booking tip." },
-  { q: "Which Rome neighbourhoods are best for Pilates?", a: "This guide covers Prati, Parioli, Trastevere and Flaminio & Testaccio. Prati: Rome's most coherent modern neighbourhood, wide boulevards, good transport links, and a density of professional services that includes several excellent Pilates studios." },
-  { q: "What should I know about booking Pilates classes in Rome?", a: "Expect to pay €20–60 per class. Rome's Pilates pricing varies considerably by model and neighbourhood." },
+  { q: "Which Rome neighborhoods are best for Pilates?", a: "This guide covers Prati, Parioli, Trastevere and Flaminio & Testaccio. Prati: Rome's most coherent modern neighborhood, wide boulevards, good transport links, and a density of professional services that includes several excellent Pilates studios." },
+  { q: "What should I know about booking Pilates classes in Rome?", a: "Expect to pay about $22–67 per class. Rome's Pilates pricing varies considerably by model and neighborhood." },
   { q: "What should I bring to a Pilates class in Rome?", a: "Grip socks are required at most reformer studios. Our gear list for Rome covers Pilates grip socks, Pilates mat, magic circle, resistance bands, foam roller and home Pilates reformer." },
 ];
 
@@ -381,10 +381,10 @@ export default function RomePage() {
         <section className="py-20 px-6" style={{ backgroundColor: "#fcf9f8" }}>
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best neighbourhoods for Pilates in Rome
+              Best neighborhoods for Pilates in Rome
             </h2>
             <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-              Rome's Pilates landscape is shaped by its neighbourhoods.
+              Rome's Pilates landscape is shaped by its neighborhoods.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {NEIGHBORHOODS.map((n) => (

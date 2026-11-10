@@ -66,7 +66,7 @@ const PRODUCTS = [
     price: "$3,349",
     verdict: "Best professional-brand home reformer on Amazon",
     description:
-      "Merrithew (the company behind STOTT PILATES) designed the At Home SPX for home use with the same quality components as its studio machines, and this package is sold and shipped by Amazon.com. It has aluminium rails, a smooth, whisper-quiet carriage and five high-tension springs (4 × 100%, 1 × 50%), and it comes with a reformer box, metal roll-up pole, padded platform extender and double-loop straps, so you have everything needed for the full repertoire. It's 96.5 inches long and weighs 115 lbs.",
+      "Merrithew (the company behind STOTT PILATES) designed the At Home SPX for home use with the same quality components as its studio machines, and this package is sold and shipped by Amazon.com. It has aluminum rails, a smooth, whisper-quiet carriage and five high-tension springs (4 × 100%, 1 × 50%), and it comes with a reformer box, metal roll-up pole, padded platform extender and double-loop straps, so you have everything needed for the full repertoire. It's 96.5 inches long and weighs 115 lbs.",
     affiliateUrl: "https://www.amazon.com/dp/B004FGT0TM?tag=pilatescollective-20",
     pros: ["True spring resistance", "Box, pole and platform extender included", "Sold and shipped by Amazon.com"],
     cons: ["Significant investment", "Needs a dedicated 8-foot space", "Fewer light-spring options than Merrithew's studio SPX Max"],
@@ -241,7 +241,7 @@ export default function BestHomeReformerPage() {
                   { heading: "Spring vs cord resistance", body: "Professional reformers use calibrated steel springs. Budget models substitute elastic cords. Cords are usable, but they feel softer and less even than springs, and they lose tension over time. For beginners, this is manageable. Trained practitioners will notice the difference." },
                   { heading: "Carriage weight and glide quality", body: "The carriage should move smoothly, quietly, and with consistent resistance throughout the stroke. Cheap carriages wobble laterally, squeak, and have uneven glide. This directly affects your ability to perform controlled, precise movement: the entire point of reformer Pilates." },
                   { heading: "Rail length", body: "Standard studio reformers have a rail of around 96–100 inches. Shorter rails restrict the full range of motion for tall practitioners and limit certain exercises. Check rail length before buying, especially if you're over 5'10\"." },
-                  { heading: "Frame stability", body: "The reformer must not rock, flex, or shift during explosive footwork or jump board work. Cheap aluminium frames flex under load: this is both a quality and a safety issue." },
+                  { heading: "Frame stability", body: "The reformer must not rock, flex, or shift during explosive footwork or jump board work. Cheap aluminum frames flex under load: this is both a quality and a safety issue." },
                   { heading: "Footbar adjustability", body: "A footbar that adjusts to multiple heights and positions is essential for proper alignment in footwork and for accommodating different leg lengths. Fixed footbars significantly limit the repertoire you can safely perform." },
                 ].map((item) => (
                   <div key={item.heading} className="flex gap-5 rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
@@ -342,7 +342,7 @@ export default function BestHomeReformerPage() {
                   { label: "The room has another purpose", body: "Machines that fold and stand vertically against a wall, dropping the stored footprint to about 30 by 12 inches.", href: "/blog/best-foldable-pilates-reformer", cta: "Foldable reformers" },
                   { label: "No space for a full-size frame", body: "Compact and half-length machines for flats where 8.5 feet is simply not available.", href: "/blog/best-pilates-reformer-for-small-spaces", cta: "Reformers for small spaces" },
                   { label: "You are over about 5ft 10in", body: "Rail length is the specification that matters. Short rails cut your leg extension short on every exercise.", href: "/blog/best-pilates-reformer-for-tall-people", cta: "Reformers for tall people" },
-                  { label: "First reformer, still learning", body: "What to prioritise before spending, and which features you will not use in your first year.", href: "/blog/best-pilates-reformer-for-beginners", cta: "Reformers for beginners" },
+                  { label: "First reformer, still learning", body: "What to prioritize before spending, and which features you will not use in your first year.", href: "/blog/best-pilates-reformer-for-beginners", cta: "Reformers for beginners" },
                 ].map((t) => (
                   <div key={t.href} className="rounded-xl p-5 flex flex-col" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)" }}>
                     <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{t.label}</p>

@@ -70,7 +70,7 @@ const PRODUCTS = [
     name: "Merrithew At Home SPX Reformer Package",
     price: "$3,349",
     verdict: "Best Studio-Quality Gift",
-    description: "Merrithew is the professional studio brand behind STOTT PILATES: the method taught in widely certified training programmes. The At Home SPX Reformer Package is the real SPX-family machine Merrithew sells on Amazon, with a genuine coil-spring system built around five colour-coded springs with fine gradation at the light end. We could not verify a folding or space-saving feature for this listing, so don't assume it stores away. For someone who has trained in a real pilates studio and knows what good equipment feels like, this is a reformer built to a standard they'll recognise. A gift at this price communicates genuine understanding of the practice.",
+    description: "Merrithew is the professional studio brand behind STOTT PILATES: the method taught in widely certified training programs. The At Home SPX Reformer Package is the real SPX-family machine Merrithew sells on Amazon, with a genuine coil-spring system built around five color-coded springs with fine gradation at the light end. We could not verify a folding or space-saving feature for this listing, so don't assume it stores away. For someone who has trained in a real pilates studio and knows what good equipment feels like, this is a reformer built to a standard they'll recognize. A gift at this price communicates genuine understanding of the practice.",
     affiliateUrl: "https://www.amazon.com/dp/B004FGT0TM?tag=pilatescollective-20",
   },
   {
@@ -78,7 +78,7 @@ const PRODUCTS = [
     name: "Balanced Body Studio Reformer (Revo Footbar)",
     price: "$4,700",
     verdict: "Best Premium Gift",
-    description: "Balanced Body is one of the most widely used brands in certified training studios and teacher certification programmes. The Studio Reformer with the Revo footbar is the real Balanced Body flagship sold on Amazon: a Strata rock maple frame, five Signature Springs, and full tower compatibility. It does not fold: it is a permanent-installation, made-to-order machine, so this is a gift for someone with dedicated floor space rather than an apartment-friendly surprise. Nothing about the spring system or build quality requires compromise: it is the same machine that populates certification centres and clinics. A gift at this level says the recipient's practice is being taken seriously.",
+    description: "Balanced Body is one of the most widely used brands in certified training studios and teacher certification programs. The Studio Reformer with the Revo footbar is the real Balanced Body flagship sold on Amazon: a Strata rock maple frame, five Signature Springs, and full tower compatibility. It does not fold: it is a permanent-installation, made-to-order machine, so this is a gift for someone with dedicated floor space rather than an apartment-friendly surprise. Nothing about the spring system or build quality requires compromise: it is the same machine that populates certification centers and clinics. A gift at this level says the recipient's practice is being taken seriously.",
     affiliateUrl: "https://www.amazon.com/dp/B002XVWIFE?tag=pilatescollective-20",
   },
   {
@@ -106,7 +106,7 @@ const CRITERIA = [
   },
   {
     heading: "Consider delivery and assembly",
-    body: "Mid-range and premium reformers are heavy and require assembly; the Balanced Body Studio Reformer ships made to order, so expect a lead time rather than immediate delivery. Check the shipping policy and whether in-home assembly is included before ordering. Some brands offer authorised dealer installation: worth the premium as a gift.",
+    body: "Mid-range and premium reformers are heavy and require assembly; the Balanced Body Studio Reformer ships made to order, so expect a lead time rather than immediate delivery. Check the shipping policy and whether in-home assembly is included before ordering. Some brands offer authorized dealer installation: worth the premium as a gift.",
   },
 ];
 
@@ -253,7 +253,7 @@ export default function Page() {
           </div>
 
           <p style={{ fontFamily: "var(--font-sans)", fontSize: "11px", color: "#9a9490", lineHeight: 1.7, marginTop: "64px", paddingTop: "24px", borderTop: "1px solid #ede9e3" }}>
-            Pilates Collective Club participates in the Amazon Associates programme. Purchases through our links earn us a small commission at no additional cost to you. All recommendations are independently chosen.
+            Pilates Collective Club participates in the Amazon Associates program. Purchases through our links earn us a small commission at no additional cost to you. All recommendations are independently chosen.
           </p>
         </div>
       </section>

@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   keywords: ["best pilates bag", "pilates mat bag 2026", "best bag for pilates studio", "pilates tote bag review", "mat carrier pilates bag", "yoga mat bag pilates", "best pilates gym bag", "pilates bag with mat carrier"],
   openGraph: {
     title: "Best Pilates Bags (2026): Studio Totes & Carry-Alls Ranked",
-    description: "The best bags for Pilates: compared for studio organisation and everyday carry.",
+    description: "The best bags for Pilates: compared for studio organization and everyday carry.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-pilates-bag",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg", width: 1200, height: 630, alt: "Best Pilates Bags: Pilates Collective Club" }],
@@ -78,7 +78,7 @@ const PRODUCTS = [
     price: "From $98",
     verdict: "Best overall studio bag",
     description:
-      "The Lululemon Everywhere Tote has become the de facto standard studio bag across boutique Pilates, and its dominance is justified. The 29-litre capacity comfortably holds a change of clothes, grip socks, water bottle, and full-size toiletries without feeling bulky. The structured base keeps the bag upright on studio benches and locker-room floors, an underappreciated feature when you're changing quickly between appointments. The internal organisation (a zip pocket, card slots, and a key clip) is genuinely thoughtful rather than decorative, and the smooth exterior fabric wipes clean easily after studio use. The dual-carry design transitions from hand to shoulder as needed. Not sold on Amazon: this link goes to Lululemon's own site.",
+      "The Lululemon Everywhere Tote has become the de facto standard studio bag across boutique Pilates, and its dominance is justified. The 29-liter capacity comfortably holds a change of clothes, grip socks, water bottle, and full-size toiletries without feeling bulky. The structured base keeps the bag upright on studio benches and locker-room floors, an underappreciated feature when you're changing quickly between appointments. The internal organization (a zip pocket, card slots, and a key clip) is genuinely thoughtful rather than decorative, and the smooth exterior fabric wipes clean easily after studio use. The dual-carry design transitions from hand to shoulder as needed. Not sold on Amazon: this link goes to Lululemon's own site.",
     affiliateUrl: "https://shop.lululemon.com",
     tag: "Editor's Pick",
   },
@@ -88,7 +88,7 @@ const PRODUCTS = [
     price: "From $88",
     verdict: "Best for mat carriers",
     description:
-      "Alo's Move Mat Tote is the rare bag that solves the mat-carrying problem elegantly. External straps secure a rolled mat to the exterior of the bag, keeping your gear contained in a single carry rather than requiring a separate mat strap. The main compartment is spacious enough for a full studio kit including shoes and a change of clothes, and the interior organisation is sufficient for everyday carry items. The aesthetic is unmistakably Alo: clean, minimal, and appropriate for both studio and street. Note that this bag is best suited for mat Pilates practitioners; reformer-focused practitioners who don't travel with a mat may prefer a simpler tote. Not sold on Amazon: this link goes to Alo Yoga's own site.",
+      "Alo's Move Mat Tote is the rare bag that solves the mat-carrying problem elegantly. External straps secure a rolled mat to the exterior of the bag, keeping your gear contained in a single carry rather than requiring a separate mat strap. The main compartment is spacious enough for a full studio kit including shoes and a change of clothes, and the interior organization is sufficient for everyday carry items. The aesthetic is unmistakably Alo: clean, minimal, and appropriate for both studio and street. Note that this bag is best suited for mat Pilates practitioners; reformer-focused practitioners who don't travel with a mat may prefer a simpler tote. Not sold on Amazon: this link goes to Alo Yoga's own site.",
     affiliateUrl: "https://www.aloyoga.com",
     tag: "Best Mat Carrier",
   },
@@ -98,7 +98,7 @@ const PRODUCTS = [
     price: "From $78",
     verdict: "Best duffel for studio",
     description:
-      "Manduka's Go Play 2.0 Duffel is purpose-built for studio-to-street carry. The main compartment is structured and spacious (large enough for a full change of clothes, towel, and accessories with room to spare) and the shoe compartment at the base keeps studio shoes separate from clean clothes and personal items. The duffel format distributes weight more evenly than a tote on longer commutes, and the padded shoulder strap makes it comfortable for 20-minute walks or transit journeys. The interior organisation includes multiple pockets and a key hook. Manduka's reputation for durability means this bag outlasts most fabric-only alternatives significantly. Not sold on Amazon: this link goes to Manduka's own site.",
+      "Manduka's Go Play 2.0 Duffel is purpose-built for studio-to-street carry. The main compartment is structured and spacious (large enough for a full change of clothes, towel, and accessories with room to spare) and the shoe compartment at the base keeps studio shoes separate from clean clothes and personal items. The duffel format distributes weight more evenly than a tote on longer commutes, and the padded shoulder strap makes it comfortable for 20-minute walks or transit journeys. The interior organization includes multiple pockets and a key hook. Manduka's reputation for durability means this bag outlasts most fabric-only alternatives significantly. Not sold on Amazon: this link goes to Manduka's own site.",
     affiliateUrl: "https://www.manduka.com",
     tag: "Best Duffel",
   },
@@ -108,7 +108,7 @@ const PRODUCTS = [
     price: "From $68",
     verdict: "Best convertible carry",
     description:
-      "The Calpak Luka Duffel converts between a hand-carry duffel, a backpack, and a tote: a versatility that suits the varied commutes of urban studio-goers. The 20-litre capacity is on the moderate side but handles a complete Pilates studio kit without issue. The organisation is clean rather than elaborate, with a shoe pocket and two exterior slip pockets covering the essentials. The fabric is scratch-resistant and wipes clean, and the structured base keeps the bag off locker-room floors. The convertible strap system adds meaningful practical value for practitioners who walk to the studio, commute by transit, and then carry the bag to subsequent appointments. Not sold on Amazon: this link goes to Calpak's own site.",
+      "The Calpak Luka Duffel converts between a hand-carry duffel, a backpack, and a tote: a versatility that suits the varied commutes of urban studio-goers. The 20-liter capacity is on the moderate side but handles a complete Pilates studio kit without issue. The organization is clean rather than elaborate, with a shoe pocket and two exterior slip pockets covering the essentials. The fabric is scratch-resistant and wipes clean, and the structured base keeps the bag off locker-room floors. The convertible strap system adds meaningful practical value for practitioners who walk to the studio, commute by transit, and then carry the bag to subsequent appointments. Not sold on Amazon: this link goes to Calpak's own site.",
     affiliateUrl: "https://www.calpaktravel.com",
     tag: "Best Convertible",
   },
@@ -120,7 +120,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Best Pilates Bags (2026): Studio Totes & Carry-Alls Ranked",
-      "description": "The best bags for Pilates studio sessions: compared for capacity, organisation, and studio-to-street carry.",
+      "description": "The best bags for Pilates studio sessions: compared for capacity, organization, and studio-to-street carry.",
       "url": "https://pilatescollectiveclub.com/blog/best-pilates-bag",
       "datePublished": "2026-05-21",
       "dateModified": "2026-10-20",
@@ -155,8 +155,8 @@ const jsonLd = {
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "What size bag do I need for Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "For a standard reformer or mat class, a 15–25 litre bag is sufficient to carry grip socks, a small towel, a change of clothes, and personal items. If you shower at the studio or commute directly from work, a 25–35 litre bag gives you the space for a full change of clothes and toiletries." } },
-        { "@type": "Question", "name": "Do I need a separate mat bag for Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "Only if you practice mat Pilates and carry your own mat. Most reformer studios provide mats and equipment. If you attend mat classes or practice at home, a dedicated mat bag or a tote with external mat straps keeps your gear organised and your mat protected." } },
+        { "@type": "Question", "name": "What size bag do I need for Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "For a standard reformer or mat class, a 15–25 liter bag is sufficient to carry grip socks, a small towel, a change of clothes, and personal items. If you shower at the studio or commute directly from work, a 25–35 liter bag gives you the space for a full change of clothes and toiletries." } },
+        { "@type": "Question", "name": "Do I need a separate mat bag for Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "Only if you practice mat Pilates and carry your own mat. Most reformer studios provide mats and equipment. If you attend mat classes or practice at home, a dedicated mat bag or a tote with external mat straps keeps your gear organized and your mat protected." } },
         { "@type": "Question", "name": "What features matter most in a Pilates studio bag?", "acceptedAnswer": { "@type": "Answer", "text": "A structured base (so it stands up in changing rooms), at least one wet compartment or waterproof lining, and enough pockets to keep grip socks and personal items separate. A key hook and a dedicated phone pocket prevent the frustrating bottom-of-bag search that's all too common in mid-session studio visits." } },
       ],
     },
@@ -183,7 +183,7 @@ export default function BestPilatesBagPage() {
             <TopPick label="Top value pick" name={PRODUCTS[1].name} price={PRODUCTS[1].price} note="24L gym tote with compartments, sold by BAGSMART on Amazon" url={PRODUCTS[1].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              A good studio bag is one you barely notice: it holds everything, stays organised, and transitions from studio to street without announcing itself as gym kit. A bad one means tangled grip socks, a wet towel against clean clothes, and a ten-second locker-room excavation to find your card. These six bags have been selected for Pilates-specific use: the right capacity for a studio kit, the right organisation for changing quickly, and the durability to survive multiple sessions per week across years of practice.
+              A good studio bag is one you barely notice: it holds everything, stays organized, and transitions from studio to street without announcing itself as gym kit. A bad one means tangled grip socks, a wet towel against clean clothes, and a ten-second locker-room excavation to find your card. These six bags have been selected for Pilates-specific use: the right capacity for a studio kit, the right organization for changing quickly, and the durability to survive multiple sessions per week across years of practice.
             </p>
           </div>
         </section>
@@ -221,8 +221,8 @@ export default function BestPilatesBagPage() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "What size bag do I need for Pilates?", a: "For a standard reformer or mat class, a 15–25 litre bag is sufficient to carry grip socks, a small towel, a change of clothes, and personal items. If you shower at the studio or commute directly from work, a 25–35 litre bag gives you the space for a full change of clothes and toiletries." },
-                  { q: "Do I need a separate mat bag for Pilates?", a: "Only if you practice mat Pilates and carry your own mat. Most reformer studios provide mats and equipment. If you attend mat classes or practice at home, a dedicated mat bag or a tote with external mat straps keeps your gear organised and your mat protected." },
+                  { q: "What size bag do I need for Pilates?", a: "For a standard reformer or mat class, a 15–25 liter bag is sufficient to carry grip socks, a small towel, a change of clothes, and personal items. If you shower at the studio or commute directly from work, a 25–35 liter bag gives you the space for a full change of clothes and toiletries." },
+                  { q: "Do I need a separate mat bag for Pilates?", a: "Only if you practice mat Pilates and carry your own mat. Most reformer studios provide mats and equipment. If you attend mat classes or practice at home, a dedicated mat bag or a tote with external mat straps keeps your gear organized and your mat protected." },
                   { q: "What features matter most in a Pilates studio bag?", a: "A structured base (so it stands up in changing rooms), at least one wet compartment or waterproof lining, and enough pockets to keep grip socks and personal items separate. A key hook and a dedicated phone pocket prevent the frustrating bottom-of-bag search that's all too common in mid-session studio visits." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>

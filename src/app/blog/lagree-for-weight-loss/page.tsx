@@ -92,7 +92,7 @@ const TRACKING: Pick[] = [
     price: "$129.95",
     url: amz("B0C3JNJPZ7"),
     description:
-      "Tracks weight to within 50 g and estimates body fat percentage and body composition, with trends on its colour display. It syncs over Wi-Fi and Bluetooth and is compatible with Apple Health. Composition is the point for Lagree, because building muscle while losing fat can leave the number on a basic scale stuck. Sold by Amazon.com.",
+      "Tracks weight to within 50 g and estimates body fat percentage and body composition, with trends on its color display. It syncs over Wi-Fi and Bluetooth and is compatible with Apple Health. Composition is the point for Lagree, because building muscle while losing fat can leave the number on a basic scale stuck. Sold by Amazon.com.",
   },
   {
     id: "etekcity-scale",
@@ -487,7 +487,7 @@ export default function LagreeForWeightLossPage() {
             <div className="mb-16">
               <h2 className="text-3xl font-semibold mb-4" style={h2Style}>When class fees limit how often you go</h2>
               <p className="text-sm leading-relaxed mb-8" style={bodyStyle}>
-                For many people, the real limit on frequency is the price of a class. If you already know the method and want three or four sessions a week, a home machine changes the maths.
+                For many people, the real limit on frequency is the price of a class. If you already know the method and want three or four sessions a week, a home machine changes the math.
               </p>
               <TierCard p={MICRO} />
               <p className="text-sm leading-relaxed mt-2" style={bodyStyle}>

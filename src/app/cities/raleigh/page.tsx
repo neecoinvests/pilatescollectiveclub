@@ -91,8 +91,8 @@ const STUDIOS = [
     name: "Club Pilates Midtown Raleigh",
     neighborhood: "Midtown / North Hills",
     priceLevel: "$$",
-    review: "Club Pilates Midtown Raleigh on Sherman Oak Place is the brand's closest studio to North Hills, with levelled group reformer classes.",
-    caveat: "a franchise format: consistent, but less personalised than an independent studio.",
+    review: "Club Pilates Midtown Raleigh on Sherman Oak Place is the brand's closest studio to North Hills, with leveled group reformer classes.",
+    caveat: "a franchise format: consistent, but less personalized than an independent studio.",
     address: "2920 Sherman Oak Place, Suite 130, Raleigh, NC 27609",
     bestFor: "North Hills and Midtown residents",
     signatureClass: "Reformer Flow",
@@ -103,8 +103,8 @@ const STUDIOS = [
     name: "Club Pilates Durham",
     neighborhood: "Durham",
     priceLevel: "$$",
-    review: "Club Pilates Durham on NC 54 serves south Durham and the RTP side of the Triangle with levelled group reformer classes.",
-    caveat: "a franchise format: consistent, but less personalised than an independent studio.",
+    review: "Club Pilates Durham on NC 54 serves south Durham and the RTP side of the Triangle with leveled group reformer classes.",
+    caveat: "a franchise format: consistent, but less personalized than an independent studio.",
     address: "1125 NC 54, Suite 404, Durham, NC 27707",
     bestFor: "Durham and RTP residents",
     signatureClass: "Reformer Flow",
@@ -115,8 +115,8 @@ const STUDIOS = [
     name: "Club Pilates Chapel Hill",
     neighborhood: "Chapel Hill",
     priceLevel: "$$",
-    review: "Club Pilates Chapel Hill on East Franklin Street serves Chapel Hill and Carrboro with levelled group reformer classes.",
-    caveat: "a franchise format: consistent, but less personalised than an independent studio.",
+    review: "Club Pilates Chapel Hill on East Franklin Street serves Chapel Hill and Carrboro with leveled group reformer classes.",
+    caveat: "a franchise format: consistent, but less personalized than an independent studio.",
     address: "1800 E Franklin St, #9, Chapel Hill, NC 27514",
     bestFor: "Chapel Hill and Carrboro residents",
     signatureClass: "Reformer Flow",
@@ -206,7 +206,7 @@ const GEAR = [
 const HOME_REFORMERS = [
   { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work: three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
   { tag: "Mid-Range Pick", name: "AeroPilates Pro XP 557", note: "AeroPilates' top-of-the-range home reformer, a step up for practitioners training several times a week.", price: "$1,329.99", url: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20" },
-  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
+  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodized aluminum frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
 ];
 
 const RELATED_CITIES = [
@@ -263,7 +263,7 @@ const FURTHER_READING = [
 
 const CITY_FAQS = [
   { q: "What are the best Pilates studios in Raleigh?", a: "Our 6 curated picks are BK Pilates Raleigh (Raleigh), JETSET Pilates: Downtown Raleigh (Downtown), Studio 104 (Rolesville), Club Pilates Midtown Raleigh (Midtown / North Hills), Club Pilates Durham (Durham) and Club Pilates Chapel Hill (Chapel Hill). Each listing above covers what the studio is best for, its signature class and a booking tip." },
-  { q: "Which Raleigh neighbourhoods are best for Pilates?", a: "This guide covers North Hills, Five Points, Glenwood South and Durham / Chapel Hill. North Hills: Raleigh's upscale mid-city district, rebuilt over the last decade into a walkable mixed-use hub." },
+  { q: "Which Raleigh neighborhoods are best for Pilates?", a: "This guide covers North Hills, Five Points, Glenwood South and Durham / Chapel Hill. North Hills: Raleigh's upscale mid-city district, rebuilt over the last decade into a walkable mixed-use hub." },
   { q: "What should I know about booking Pilates classes in Raleigh?", a: "Plan around the Research Triangle's academic calendar. Raleigh, Durham, and Chapel Hill pulse to the rhythms of NC State, Duke, and UNC. Studios near campuses fill sharply at semester start (late August, mid-January) and empty over breaks." },
   { q: "What should I bring to a Pilates class in Raleigh?", a: "Grip socks are required at most reformer studios. Our gear list for Raleigh covers Pilates grip socks, Pilates mat (6mm), magic circle, fabric resistance bands and high-density foam roller." },
 ];

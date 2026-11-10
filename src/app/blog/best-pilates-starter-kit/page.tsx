@@ -40,7 +40,7 @@ const PRODUCTS = [
     price: "$144.00",
     verdict: "Best mat for serious beginners",
     description:
-      "A quality mat is the single most important Pilates purchase. The Manduka PRO is denser and firmer than standard yoga mats: essential for Pilates, where a spongy mat undermines spinal articulation exercises and destabilises footwork. The 6mm thickness cushions the spine adequately without compromising the grounded feeling that Pilates requires. The surface has appropriate grip without being overly sticky. Crucially, it will last a decade with regular use, making the upfront cost genuinely economical over time.",
+      "A quality mat is the single most important Pilates purchase. The Manduka PRO is denser and firmer than standard yoga mats: essential for Pilates, where a spongy mat undermines spinal articulation exercises and destabilizes footwork. The 6mm thickness cushions the spine adequately without compromising the grounded feeling that Pilates requires. The surface has appropriate grip without being overly sticky. Crucially, it will last a decade with regular use, making the upfront cost genuinely economical over time.",
     affiliateUrl: "https://www.amazon.com/dp/B0000DZFXZ?tag=pilatescollective-20",
     tag: "First Purchase",
   },

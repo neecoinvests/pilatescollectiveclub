@@ -40,7 +40,7 @@ const PRODUCTS = [
     description:
       "Splits59 is the brand most deeply embedded in the studio Pilates world: their bodysuits are designed explicitly for reformer and mat practice, not adapted from gym or running apparel. The Splits59 bodysuit features a high-cut leg for freedom of movement during footwork sequences, a supportive under-bust band that stays in place during spinal articulation, and a minimal aesthetic that reads as polished in a boutique studio environment. The Supplex-blend fabric is mid-weight and compressive without feeling restrictive. A serious option for practitioners who spend multiple sessions per week in the studio.",
     affiliateUrl: "https://www.amazon.com/dp/B0BMF9SM9B?tag=pilatescollective-20",
-    tag: "Studio Favourite",
+    tag: "Studio Favorite",
   },
   {
     rank: "02",
@@ -68,7 +68,7 @@ const PRODUCTS = [
     price: "From $118",
     verdict: "Best overall Pilates bodysuit",
     description:
-      "The Airlift Suit is the reference point for premium Pilates bodysuits. Alo's Airlift fabric is uniquely engineered: a medium-weight compression that smooths without restricting breath or spinal flexion, which matters enormously in exercises like the hundred, roll-up, and teaser. The scoop neck sits high enough to stay put during inversions, and the built-in shelf bra provides enough support for a full reformer session without requiring a separate sports bra. The clean, sculptural silhouette has made this a studio staple across New York, London, and Los Angeles. Available in a wide range of neutral and seasonal colourways. Not sold on Amazon: this link goes to Alo Yoga's own site.",
+      "The Airlift Suit is the reference point for premium Pilates bodysuits. Alo's Airlift fabric is uniquely engineered: a medium-weight compression that smooths without restricting breath or spinal flexion, which matters enormously in exercises like the hundred, roll-up, and teaser. The scoop neck sits high enough to stay put during inversions, and the built-in shelf bra provides enough support for a full reformer session without requiring a separate sports bra. The clean, sculptural silhouette has made this a studio staple across New York, London, and Los Angeles. Available in a wide range of neutral and seasonal colorways. Not sold on Amazon: this link goes to Alo Yoga's own site.",
     affiliateUrl: "https://www.aloyoga.com",
     tag: "Editor's Pick",
   },
@@ -88,7 +88,7 @@ const PRODUCTS = [
     price: "From $78",
     verdict: "Best breathable bodysuit",
     description:
-      "Vuori's Halo Bodysuit uses a lighter, more breathable fabric than most competitors, making it the preferred choice for practitioners in heated studios or warm climates. The Performance fabric is moisture-wicking and quick-drying, which matters in a 55-minute reformer class. The racerback construction keeps straps completely clear of the shoulder blade area, which is particularly relevant in exercises involving scapular movement and stabilisation. The fit is secure without being compressive, and the minimalist design works across a variety of studio environments. Not sold on Amazon: this link goes to Vuori's own site.",
+      "Vuori's Halo Bodysuit uses a lighter, more breathable fabric than most competitors, making it the preferred choice for practitioners in heated studios or warm climates. The Performance fabric is moisture-wicking and quick-drying, which matters in a 55-minute reformer class. The racerback construction keeps straps completely clear of the shoulder blade area, which is particularly relevant in exercises involving scapular movement and stabilization. The fit is secure without being compressive, and the minimalist design works across a variety of studio environments. Not sold on Amazon: this link goes to Vuori's own site.",
     affiliateUrl: "https://vuoriclothing.com",
     tag: "Best Breathability",
   },
@@ -227,7 +227,7 @@ export default function BestPilatesBodysuitsPage() {
                   "Hand wash or machine wash on a delicate cycle in cold water. The gusset seams and bra components are under more stress than standard tops.",
                   "Never put a bodysuit in the dryer. Heat degrades the elastic in the gusset and the support structure of integrated bras significantly faster than air drying.",
                   "Lay flat or hang to dry. Hanging from the shoulder straps when wet can stretch them over time.",
-                  "Remove pads before washing and allow to dry separately: pads retain moisture and develop odour if dried inside the bodysuit.",
+                  "Remove pads before washing and allow to dry separately: pads retain moisture and develop odor if dried inside the bodysuit.",
                   "Rotate between two or three bodysuits rather than wearing the same one daily. Elastane requires 24 hours to fully recover its shape between sessions.",
                 ].map((tip, i) => (
                   <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>

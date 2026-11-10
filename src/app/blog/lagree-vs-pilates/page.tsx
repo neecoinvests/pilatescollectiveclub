@@ -120,7 +120,7 @@ const jsonLd = {
           "name": "Can I do Lagree if I'm recovering from injury?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Consult your healthcare provider before beginning any exercise programme during injury recovery. Generally, Pilates is more appropriate for rehabilitation due to its lower intensity, spring-assisted progressions, and extensive physiotherapy applications. Lagree's high-intensity format, sustained time under tension, and significant cardiovascular component make it less suitable for injury recovery contexts.",
+            "text": "Consult your healthcare provider before beginning any exercise program during injury recovery. Generally, Pilates is more appropriate for rehabilitation due to its lower intensity, spring-assisted progressions, and extensive physiotherapy applications. Lagree's high-intensity format, sustained time under tension, and significant cardiovascular component make it less suitable for injury recovery contexts.",
           },
         },
         {
@@ -211,7 +211,7 @@ export default function LagreevsPilatesPage() {
                   <ul className="text-sm leading-relaxed space-y-1.5" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                     <li><strong style={{ color: "#1b1c1c" }}>Machine:</strong> Megaformer (~$10,000–14,000; commercial only)</li>
                     <li><strong style={{ color: "#1b1c1c" }}>Typical class:</strong> 50 minutes; sustained high intensity</li>
-                    <li><strong style={{ color: "#1b1c1c" }}>Key principle:</strong> time under tension; slow-twitch muscle fibres</li>
+                    <li><strong style={{ color: "#1b1c1c" }}>Key principle:</strong> time under tension; slow-twitch muscle fibers</li>
                     <li><strong style={{ color: "#1b1c1c" }}>Cardio component:</strong> significant; heart rate elevated throughout</li>
                   </ul>
                 </div>
@@ -237,7 +237,7 @@ export default function LagreevsPilatesPage() {
                   <ul className="text-sm leading-relaxed space-y-1.5" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                     <li><strong style={{ color: "#1b1c1c" }}>Machine:</strong> Pilates reformer ($300–7,000+; home practice possible)</li>
                     <li><strong style={{ color: "#1b1c1c" }}>Typical class:</strong> 50–55 minutes; low-to-moderate intensity</li>
-                    <li><strong style={{ color: "#1b1c1c" }}>Key principle:</strong> neuromuscular control; deep stabilisers</li>
+                    <li><strong style={{ color: "#1b1c1c" }}>Key principle:</strong> neuromuscular control; deep stabilizers</li>
                     <li><strong style={{ color: "#1b1c1c" }}>Cardio component:</strong> minimal; not a cardiovascular workout</li>
                   </ul>
                 </div>
@@ -276,8 +276,8 @@ export default function LagreevsPilatesPage() {
                   heading="Muscle targeting"
                   body={
                     <>
-                      <p>Lagree is designed around time under tension: exercises are performed at a slow, controlled pace (typically two to four seconds in each direction) with the explicit goal of exhausting slow-twitch muscle fibres. This produces a full-body burn that is diffuse and cumulative throughout a session. The sensation is sustained fatigue across multiple muscle groups simultaneously.</p>
-                      <p className="mt-3">Pilates targets the deep stabilising muscles of the pelvis and spine (the transversus abdominis, multifidus, pelvic floor, and hip stabilisers) alongside global mobilisers. The emphasis is on neuromuscular control rather than muscular endurance in the Lagree sense. A Pilates session asks you to engage muscles that may have been dormant for years; the challenge is not always one of brute fatigue but of activation, coordination, and proprioceptive awareness. The two approaches produce genuinely different adaptations.</p>
+                      <p>Lagree is designed around time under tension: exercises are performed at a slow, controlled pace (typically two to four seconds in each direction) with the explicit goal of exhausting slow-twitch muscle fibers. This produces a full-body burn that is diffuse and cumulative throughout a session. The sensation is sustained fatigue across multiple muscle groups simultaneously.</p>
+                      <p className="mt-3">Pilates targets the deep stabilizing muscles of the pelvis and spine (the transversus abdominis, multifidus, pelvic floor, and hip stabilizers) alongside global mobilizers. The emphasis is on neuromuscular control rather than muscular endurance in the Lagree sense. A Pilates session asks you to engage muscles that may have been dormant for years; the challenge is not always one of brute fatigue but of activation, coordination, and proprioceptive awareness. The two approaches produce genuinely different adaptations.</p>
                     </>
                   }
                 />
@@ -297,7 +297,7 @@ export default function LagreevsPilatesPage() {
                   body={
                     <>
                       <p>Both methods have genuine learning curves, but they are different in character. Lagree is more immediately accessible for people who already have a fitness background: the instruction is generally cue-based and exercise-focused, and the intensity provides clear physical feedback. Most fitness-experienced practitioners feel reasonably capable within a few sessions, even if technique continues to develop over months.</p>
-                      <p className="mt-3">Pilates technique is harder to internalise, but the rewards of getting it right are more far-reaching. The internal attention that Pilates requires (feeling which muscles are working, sensing spinal alignment, integrating breath with movement) takes time to develop and cannot be shortcut. Many practitioners describe a period of genuine confusion in early reformer sessions before the method begins to make sense as a coherent system. That investment is worthwhile: Pilates technique, once acquired, applies to how you move in everyday life in ways that Lagree does not.</p>
+                      <p className="mt-3">Pilates technique is harder to internalize, but the rewards of getting it right are more far-reaching. The internal attention that Pilates requires (feeling which muscles are working, sensing spinal alignment, integrating breath with movement) takes time to develop and cannot be shortcut. Many practitioners describe a period of genuine confusion in early reformer sessions before the method begins to make sense as a coherent system. That investment is worthwhile: Pilates technique, once acquired, applies to how you move in everyday life in ways that Lagree does not.</p>
                     </>
                   }
                 />
@@ -327,7 +327,7 @@ export default function LagreevsPilatesPage() {
 
             {/* Honest verdict */}
             <Section title="The honest verdict">
-              <p>Most dedicated practitioners will eventually try both, and many will find real value in each. But if you are choosing one to start, or deciding which to prioritise, the distinctions are clear enough to give a direct steer.</p>
+              <p>Most dedicated practitioners will eventually try both, and many will find real value in each. But if you are choosing one to start, or deciding which to prioritize, the distinctions are clear enough to give a direct steer.</p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-6">
                 {/* Choose Lagree */}
                 <div
@@ -430,7 +430,7 @@ export default function LagreevsPilatesPage() {
             {/* Can you do both */}
             <Section title="Can you do both?">
               <p>
-                Yes, and many serious practitioners do. Lagree and Pilates are genuinely complementary rather than competing methods. A common approach is to use Lagree on high-intensity days when you want cardio conditioning alongside full-body work, and Pilates on recovery or technique-focused days when the priority is deep neuromuscular engagement and spinal health. The two methods address different physiological demands and can coexist in the same weekly programme without redundancy.
+                Yes, and many serious practitioners do. Lagree and Pilates are genuinely complementary rather than competing methods. A common approach is to use Lagree on high-intensity days when you want cardio conditioning alongside full-body work, and Pilates on recovery or technique-focused days when the priority is deep neuromuscular engagement and spinal health. The two methods address different physiological demands and can coexist in the same weekly program without redundancy.
               </p>
               <p>
                 The main thing to be clear on is that they are not interchangeable: attending a Lagree class is not a substitute for Pilates, and vice versa. Each delivers something the other does not, and understanding that distinction is the first step to using both well.
@@ -451,7 +451,7 @@ export default function LagreevsPilatesPage() {
                   },
                   {
                     q: "Can I do Lagree if I'm recovering from injury?",
-                    a: "Consult your healthcare provider before beginning any exercise programme during injury recovery. As a general principle, Lagree's high-intensity format, sustained time under tension, and significant cardiovascular demand make it less appropriate for rehabilitation than Pilates. Pilates is widely used in physiotherapy settings precisely because its spring system can assist movement through injured ranges, its intensity is controllable, and qualified instructors can adapt exercises to specific conditions. If you are in active recovery, Pilates, ideally in a small-group or private setting with an experienced instructor, is the more considered starting point.",
+                    a: "Consult your healthcare provider before beginning any exercise program during injury recovery. As a general principle, Lagree's high-intensity format, sustained time under tension, and significant cardiovascular demand make it less appropriate for rehabilitation than Pilates. Pilates is widely used in physiotherapy settings precisely because its spring system can assist movement through injured ranges, its intensity is controllable, and qualified instructors can adapt exercises to specific conditions. If you are in active recovery, Pilates, ideally in a small-group or private setting with an experienced instructor, is the more considered starting point.",
                   },
                   {
                     q: "Is the Megaformer available for home use?",

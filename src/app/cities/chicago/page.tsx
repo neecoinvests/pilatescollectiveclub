@@ -126,7 +126,7 @@ const BOOKING_TIPS = [
   },
   {
     heading: "ClassPass works well across Chicago",
-    body: "ClassPass has strong coverage in Chicago and is useful for sampling studios across neighbourhoods, from Lincoln Park to the West Loop, before settling. It's also a practical solution for visitors staying in the city for a week or two.",
+    body: "ClassPass has strong coverage in Chicago and is useful for sampling studios across neighborhoods, from Lincoln Park to the West Loop, before settling. It's also a practical solution for visitors staying in the city for a week or two.",
   },
   {
     heading: "Tipping is standard practice",
@@ -142,7 +142,7 @@ const NEIGHBORHOODS = [
   {
     name: "Lincoln Park & Old Town",
     description:
-      "Chicago's most established neighbourhood for serious Pilates. Lincoln Park has a high concentration of quality studios, from classical practices to modern reformer boutiques, serving a residential population that prioritises health and wellness. The area rewards those looking to build a long-term practice rather than sample what's new.",
+      "Chicago's most established neighborhood for serious Pilates. Lincoln Park has a high concentration of quality studios, from classical practices to modern reformer boutiques, serving a residential population that prioritizes health and wellness. The area rewards those looking to build a long-term practice rather than sample what's new.",
   },
   {
     name: "River North & Gold Coast",
@@ -152,12 +152,12 @@ const NEIGHBORHOODS = [
   {
     name: "West Loop & Fulton Market",
     description:
-      "Chicago's fastest-growing neighbourhood has attracted a new generation of studios targeting the tech and creative professional community. Studios here are modern, schedule-dense, and increasingly sophisticated, and the neighbourhood's rapid growth means new openings are frequent.",
+      "Chicago's fastest-growing neighborhood has attracted a new generation of studios targeting the tech and creative professional community. Studios here are modern, schedule-dense, and increasingly sophisticated, and the neighborhood's rapid growth means new openings are frequent.",
   },
   {
     name: "Wicker Park & Bucktown",
     description:
-      "The north-west's creative heart has a growing Pilates scene that reflects its neighbourhood energy: younger, more eclectic, and less corporate than the Gold Coast or River North. Studios here tend to be more affordable and community-oriented, with a mix of beginners and intermediate practitioners.",
+      "The north-west's creative heart has a growing Pilates scene that reflects its neighborhood energy: younger, more eclectic, and less corporate than the Gold Coast or River North. Studios here tend to be more affordable and community-oriented, with a mix of beginners and intermediate practitioners.",
   },
 ];
 
@@ -197,7 +197,7 @@ const GEAR = [
 const HOME_REFORMERS = [
   { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work: three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
   { tag: "Mid-Range Pick", name: "AeroPilates Pro XP 557", note: "AeroPilates' top-of-the-range home reformer, a step up for practitioners training several times a week.", price: "$1,329.99", url: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20" },
-  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
+  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodized aluminum frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
 ];
 
 const RELATED_CITIES = [
@@ -230,7 +230,7 @@ const FURTHER_READING = [
 
 const CITY_FAQS = [
   { q: "What are the best Pilates studios in Chicago?", a: "Our 6 curated picks are Amplified Pilates Center (River North), Page One Pilates (West Loop / Fulton Market), Heat 3.0 (Lincoln Park), Studio 8 Pilates (North Center), btone FITNESS (Lakeview East) and The Pilates Advantage (Lakeview / Uptown). Each listing above covers what the studio is best for, its signature class and a booking tip." },
-  { q: "Which Chicago neighbourhoods are best for Pilates?", a: "This guide covers Lincoln Park & Old Town, River North & Gold Coast, West Loop & Fulton Market and Wicker Park & Bucktown. Lincoln Park & Old Town: Chicago's most established neighbourhood for serious Pilates." },
+  { q: "Which Chicago neighborhoods are best for Pilates?", a: "This guide covers Lincoln Park & Old Town, River North & Gold Coast, West Loop & Fulton Market and Wicker Park & Bucktown. Lincoln Park & Old Town: Chicago's most established neighborhood for serious Pilates." },
   { q: "What should I know about booking Pilates classes in Chicago?", a: "Book 5–7 days in advance for sought-after slots. Chicago's busiest Pilates studios release bookings 7 days ahead, and morning and evening slots at Lincoln Park, River North, and Gold Coast studios fill quickly." },
   { q: "What should I bring to a Pilates class in Chicago?", a: "Grip socks are required at most reformer studios. Our gear list for Chicago covers Pilates grip socks, Pilates mat, magic circle, resistance bands and foam roller." },
 ];
@@ -388,10 +388,10 @@ export default function ChicagoPage() {
         <section className="py-20 px-6" style={{ backgroundColor: "#fcf9f8" }}>
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best neighbourhoods for Pilates in Chicago
+              Best neighborhoods for Pilates in Chicago
             </h2>
             <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-              Chicago's Pilates landscape is shaped by its neighbourhoods. Here's where to look depending on where you're based.
+              Chicago's Pilates landscape is shaped by its neighborhoods. Here's where to look depending on where you're based.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {NEIGHBORHOODS.map((n) => (

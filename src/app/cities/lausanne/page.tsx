@@ -12,7 +12,7 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Studios in Lausanne (2026)",
-  description: "The best Pilates studios in Lausanne: reformer studios from the city centre to Montchoisi and Avenue de France. Four curated picks, verified October 2026.",
+  description: "The best Pilates studios in Lausanne: reformer studios from the city center to Montchoisi and Avenue de France. Four curated picks, verified October 2026.",
   robots: {
     index: true,
     follow: true,
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   keywords: ["pilates lausanne", "reformer pilates lausanne", "best pilates studios lausanne", "pilates studio lausanne", "pilates ouchy", "pilates suisse romande", "pilates switzerland", "best pilates lausanne", "pilates classes lausanne", "pilates vaud"],
   openGraph: {
     title: "Best Pilates Studios in Lausanne (2026)",
-    description: "Four curated Pilates studios in Lausanne: reformer and classical method picks from Ouchy to the city centre. Verified 2026.",
+    description: "Four curated Pilates studios in Lausanne: reformer and classical method picks from Ouchy to the city center. Verified 2026.",
     type: "article",
     url: "https://pilatescollectiveclub.com/cities/lausanne",
     images: [{ url: "https://images.unsplash.com/photo-1527631746610-bca00a040d60?w=1200&q=80", width: 1200, height: 630, alt: "Lausanne city guide: Pilates Collective Club" }],
@@ -44,10 +44,10 @@ const STUDIOS = [
     name: "Sculpt Pilates Studio",
     neighborhood: "Avenue de France (west centre)",
     priceLevel: "$$$",
-    review: "Sculpt Pilates Studio on Avenue de France is Lausanne's most-reviewed reformer studio on ClassPass, rated 4.8 from more than 1,000 ratings. It runs reformer and mat classes for all levels, a short walk from the city centre.",
+    review: "Sculpt Pilates Studio on Avenue de France is Lausanne's most-reviewed reformer studio on ClassPass, rated 4.8 from more than 1,000 ratings. It runs reformer and mat classes for all levels, a short walk from the city center.",
     caveat: "its popularity means prime-time classes go quickly: book in advance.",
     address: "Avenue de France 18C, 1004 Lausanne",
-    bestFor: "Proven group reformer close to the centre",
+    bestFor: "Proven group reformer close to the center",
     signatureClass: "Reformer & Mat",
     bookingTip: "Morning classes suit early starters; evening sessions are popular with commuters, so book those first.",
   },
@@ -56,7 +56,7 @@ const STUDIOS = [
     name: "Neo Pilates Reformer Studio",
     neighborhood: "Montchoisi",
     priceLevel: "$$$",
-    review: "Neo Pilates is a dedicated reformer studio on Avenue de Montchoisi, between the centre and the lake at Ouchy. It is rated 4.9 on ClassPass, from a smaller number of reviews than Sculpt.",
+    review: "Neo Pilates is a dedicated reformer studio on Avenue de Montchoisi, between the center and the lake at Ouchy. It is rated 4.9 on ClassPass, from a smaller number of reviews than Sculpt.",
     caveat: "its review count is still modest, so treat the rating as a promising signal rather than proof.",
     address: "Avenue de Montchoisi 27, 1006 Lausanne",
     bestFor: "Dedicated reformer classes near Ouchy",
@@ -73,7 +73,7 @@ const STUDIOS = [
     address: "Rue du Rôtillon 8, 1003 Lausanne",
     bestFor: "Central reformer classes near the Flon",
     signatureClass: "Reformer Pilates",
-    bookingTip: "Lunchtime classes are convenient for people working in the centre.",
+    bookingTip: "Lunchtime classes are convenient for people working in the center.",
   },
   {
     number: "04",
@@ -95,8 +95,8 @@ const BOOKING_TIPS = [
     body: "The city's Pilates scene is more intimate, which means quality studios have fewer spots and regulars tend to book recurring slots. Flexibility on timing helps if you're new to a studio.",
   },
   {
-    heading: "CHF 30–50 per class is the typical range",
-    body: "Drop-in rates across Lausanne's studios run from around CHF 30 at more accessible studios to CHF 50 at premium private session specialists. Abonnements are available at all studios and offer significant savings.",
+    heading: "About $37–61 per class is the typical range",
+    body: "Drop-in rates across Lausanne's studios run from around $37 at more accessible studios to $61 at premium private session specialists. Abonnements are available at all studios and offer significant savings.",
   },
   {
     heading: "French is the primary language",
@@ -104,7 +104,7 @@ const BOOKING_TIPS = [
   },
   {
     heading: "Ouchy is worth the commute",
-    body: "If you're based in central Lausanne, the metro M2 gets you to the lakeside Ouchy neighbourhood in under 10 minutes. The studios there often have the most beautiful settings in the region.",
+    body: "If you're based in central Lausanne, the metro M2 gets you to the lakeside Ouchy neighborhood in under 10 minutes. The studios there often have the most beautiful settings in the region.",
   },
   {
     heading: "Early booking is essential",
@@ -116,22 +116,22 @@ const NEIGHBORHOODS = [
   {
     name: "Centre-Ville",
     description:
-      "The city centre is well-served by public transport and has the highest concentration of studios. Practical for practitioners who are visiting or working centrally.",
+      "The city center is well-served by public transport and has the highest concentration of studios. Practical for practitioners who are visiting or working centrally.",
   },
   {
     name: "Ouchy",
     description:
-      "The lakeside neighbourhood at the foot of the city, reached via the funicular or metro. Studios here offer the most scenic practice environments in the region.",
+      "The lakeside neighborhood at the foot of the city, reached via the funicular or metro. Studios here offer the most scenic practice environments in the region.",
   },
   {
     name: "Flon",
     description:
-      "Lausanne's revitalised cultural and commercial district. A younger crowd, energetic studios, and a vibrant social scene that makes the before-and-after ritual particularly enjoyable.",
+      "Lausanne's revitalized cultural and commercial district. A younger crowd, energetic studios, and a vibrant social scene that makes the before-and-after ritual particularly enjoyable.",
   },
   {
     name: "Pully",
     description:
-      "The quiet eastern suburb is home to neighbourhood studios with a loyal local following. Lower prices, intimate atmosphere, and the kind of long-term community feel that's hard to manufacture.",
+      "The quiet eastern suburb is home to neighborhood studios with a loyal local following. Lower prices, intimate atmosphere, and the kind of long-term community feel that's hard to manufacture.",
   },
 ];
 
@@ -204,8 +204,8 @@ const FURTHER_READING = [
 ];
 
 const CITY_FAQS = [
-  { q: "What are the best Pilates studios in Lausanne?", a: "Our 4 curated picks are Sculpt Pilates Studio (Avenue de France, west centre), Neo Pilates Reformer Studio (Montchoisi), Kysko Studio (Flon / Centre) and Alex Pilates & Yoga (Lausanne, Longeraie). Each listing above covers what the studio is best for, its signature class and a booking tip." },
-  { q: "Which Lausanne neighbourhoods are best for Pilates?", a: "This guide covers Centre-Ville, Ouchy, Flon and Pully. Centre-Ville: The city centre is well-served by public transport and has the highest concentration of studios." },
+  { q: "What are the best Pilates studios in Lausanne?", a: "Our 4 curated picks are Sculpt Pilates Studio (Avenue de France, west center), Neo Pilates Reformer Studio (Montchoisi), Kysko Studio (Flon / Centre) and Alex Pilates & Yoga (Lausanne, Longeraie). Each listing above covers what the studio is best for, its signature class and a booking tip." },
+  { q: "Which Lausanne neighborhoods are best for Pilates?", a: "This guide covers Centre-Ville, Ouchy, Flon and Pully. Centre-Ville: The city center is well-served by public transport and has the highest concentration of studios." },
   { q: "What should I know about booking Pilates classes in Lausanne?", a: "Lausanne is smaller than Zurich or Geneva. The city's Pilates scene is more intimate, which means quality studios have fewer spots and regulars tend to book recurring slots." },
   { q: "What should I bring to a Pilates class in Lausanne?", a: "Grip socks are required at most reformer studios. Our gear list for Lausanne covers Pilates grip socks, Pilates mat, magic circle, resistance bands, foam roller and home Pilates reformer." },
 ];
@@ -216,7 +216,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Best Pilates Studios in Lausanne (2026)",
-      "description": "The best Pilates studios in Lausanne: reformer studios from the city centre to Montchoisi and Avenue de France. Four curated picks, verified October 2026.",
+      "description": "The best Pilates studios in Lausanne: reformer studios from the city center to Montchoisi and Avenue de France. Four curated picks, verified October 2026.",
       "url": "https://pilatescollectiveclub.com/cities/lausanne",
       "datePublished": "2026-06-28",
       "dateModified": "2026-10-20",
@@ -335,8 +335,8 @@ export default function LausannePage() {
 
         <section className="py-20 px-6" style={{ backgroundColor: "#fcf9f8" }}>
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Best neighbourhoods for Pilates in Lausanne</h2>
-            <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Lausanne's hills shape its neighbourhoods as much as its culture. Here's where to look.</p>
+            <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Best neighborhoods for Pilates in Lausanne</h2>
+            <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Lausanne's hills shape its neighborhoods as much as its culture. Here's where to look.</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {NEIGHBORHOODS.map((n) => (
                 <div key={n.name} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217, 194, 186, 0.35)" }}>

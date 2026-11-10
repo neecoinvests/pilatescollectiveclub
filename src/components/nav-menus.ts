@@ -55,7 +55,7 @@ export const SHOP_CATEGORIES: MenuTab[] = [
           { label: "Mini Reformers", href: "/blog/best-mini-pilates-reformer" },
           { label: "For Small Spaces", href: "/blog/best-pilates-reformer-for-small-spaces" },
           { label: "For Tall People", href: "/blog/best-pilates-reformer-for-tall-people" },
-          { label: "Wood vs Aluminium", href: "/blog/wood-vs-aluminium-pilates-reformer" },
+          { label: "Wood vs Aluminum", href: "/blog/wood-vs-aluminium-pilates-reformer" },
           { label: "Reformer Accessories", href: "/blog/best-pilates-reformer-accessories" },
         ],
       },

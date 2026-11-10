@@ -108,7 +108,7 @@ const PRODUCTS = [
       { label: "Sold by", value: "PilatesUS (Amazon)" },
     ],
     pros: [
-      "Solid walnut frame: distinct from the aluminium/maple machines here",
+      "Solid walnut frame: distinct from the aluminum/maple machines here",
       "Folds upright on wheels for storage",
       "Tower-ready frame",
       "Full accessory set included in the price",
@@ -180,7 +180,7 @@ const PRODUCTS = [
 ];
 
 const FAQS = [
-  { q: "What is the difference between the Balanced Body Allegro 2 and Studio Reformer?", a: "The Allegro 2 is Balanced Body's home-focused machine: an aluminium frame with the Infinity Footbar that slides along the frame, and it can be stood on end for storage with the wheel kit. The Studio Reformer is the commercial machine: a solid rock maple frame, Revo footbar and springbar, built for permanent installation and heavy daily use, with tower and mat-conversion options. Both use Balanced Body's five Signature Springs. For most homes the Allegro 2 is the better fit; for a dedicated studio room, the Studio Reformer." },
+  { q: "What is the difference between the Balanced Body Allegro 2 and Studio Reformer?", a: "The Allegro 2 is Balanced Body's home-focused machine: an aluminum frame with the Infinity Footbar that slides along the frame, and it can be stood on end for storage with the wheel kit. The Studio Reformer is the commercial machine: a solid rock maple frame, Revo footbar and springbar, built for permanent installation and heavy daily use, with tower and mat-conversion options. Both use Balanced Body's five Signature Springs. For most homes the Allegro 2 is the better fit; for a dedicated studio room, the Studio Reformer." },
   { q: "Is the Align-Pilates C8-PRO the same as Align's studio machines?", a: "It shares the same core engineering, the 8-wheel PU carriage and the Rapid Change Spring Bar, as Align's full-size studio reformers, in a stackable, home-sized frame. It's sold on Amazon by Merrithew, Align's US distributor, at $2,750, well under what a dealer-quoted studio Align typically costs." },
   { q: "What's the difference between the Studio Reformer and the Studio Reformer with Tower?", a: "Both use the same hand-built Strata Rock Maple frame, 5 Reformer Signature Springs and Revo footbar. The Tower and Mat Conversion version adds a stainless steel tower with 8 additional springs and a mat-conversion platform, so one frame gives you reformer, Cadillac-style tower work and elevated mat training. It costs $6,975 versus $4,700 for the reformer alone." },
 ];
@@ -283,7 +283,7 @@ export default function BestStudioReformersPage() {
             {/* Introduction */}
             <div className="mb-16 mt-4">
               <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Prices were checked on Amazon in September 2026, where every machine in this guide is sold direct by the manufacturer or an authorised distributor.
+                Prices were checked on Amazon in September 2026, where every machine in this guide is sold direct by the manufacturer or an authorized distributor.
               </p>
               <div className="rounded-xl p-5 mt-6" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(139,74,49,0.15)" }}>
                 <p className="text-sm font-semibold mb-1" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The standout in this guide</p>

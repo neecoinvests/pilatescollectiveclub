@@ -214,7 +214,7 @@ const MOVES: Move[] = [
   {
     name: "Scrambled Eggs",
     family: "Obliques",
-    what: "A move from Lagree's oblique family, often named alongside Super Lunge and Catfish as one of the method's most recognisable exercises.",
+    what: "A move from Lagree's oblique family, often named alongside Super Lunge and Catfish as one of the method's most recognizable exercises.",
     cues: ["Keep the movement slow and small rather than swinging.", "If your lower back takes over, reduce the range."],
   },
   {
@@ -415,7 +415,7 @@ export default function LagreeExercisesPage() {
             <div className="mb-16">
               <h2 className="text-3xl font-semibold mb-6" style={h2Style}>The three rules behind every Lagree move</h2>
               <p className="text-sm leading-relaxed mb-6" style={bodyStyle}>
-                The exercise library is huge; studios often say the Megaformer allows hundreds of variations. You do not need to memorise them. Every move follows the same three rules, and once you understand those, any new name makes sense.
+                The exercise library is huge; studios often say the Megaformer allows hundreds of variations. You do not need to memorize them. Every move follows the same three rules, and once you understand those, any new name makes sense.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                 {[

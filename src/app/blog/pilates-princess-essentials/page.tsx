@@ -83,7 +83,7 @@ const SECTIONS: Section[] = [
     eyebrow: "01: The matching set",
     heading: "The matching set: Varley Freesoft in Marina",
     intro:
-      "The matching set is the foundation of the look, and it is also where performance matters most. Reformer footwork, bridging and feet-in-straps work put your leggings under tension from every angle, so they need to stay opaque when stretched and sit still at the waist when you roll down. A sports bra has to hold through long spans of lying supine and rolling like a ball without a strap sliding off the shoulder. Buy for those jobs first; the colourway comes second. The good news is that the pieces below do both.",
+      "The matching set is the foundation of the look, and it is also where performance matters most. Reformer footwork, bridging and feet-in-straps work put your leggings under tension from every angle, so they need to stay opaque when stretched and sit still at the waist when you roll down. A sports bra has to hold through long spans of lying supine and rolling like a ball without a strap sliding off the shoulder. Buy for those jobs first; the colorway comes second. The good news is that the pieces below do both.",
     items: [
       {
         tier: "Best",
@@ -91,7 +91,7 @@ const SECTIONS: Section[] = [
         name: "Varley Freesoft Piped Full Leggings (Marina)",
         price: "$98.00",
         description:
-          "Varley is a studio-favourite label, and the Freesoft Piped Full Legging is the half of this edit that makes it a genuine set: it is listed in the Marina colourway, the same shade as the Harley Bralette below, so you are buying a true match rather than a near-miss. The piping detail gives it a polished, tailored look off the carriage. It is sold on Amazon via Shopbop, an Amazon company, at $98.00 when we verified the listing.",
+          "Varley is a studio-favorite label, and the Freesoft Piped Full Legging is the half of this edit that makes it a genuine set: it is listed in the Marina colorway, the same shade as the Harley Bralette below, so you are buying a true match rather than a near-miss. The piping detail gives it a polished, tailored look off the carriage. It is sold on Amazon via Shopbop, an Amazon company, at $98.00 when we verified the listing.",
         url: amazon("B0FXN378H8"),
         glance: "Leggings",
       },
@@ -101,7 +101,7 @@ const SECTIONS: Section[] = [
         name: "Varley Freesoft Harley Bralette (Marina)",
         price: "$66.00",
         description:
-          "The other half of the Marina set. A bralette-style top suits Pilates better than it suits running: the work is controlled and low-impact, so you can prioritise comfort and a clean neckline over maximum compression. If you are larger-chested or also wear your kit for HIIT, see our sports bra guide for higher-support options. Sold via Shopbop (an Amazon company) at $66.00.",
+          "The other half of the Marina set. A bralette-style top suits Pilates better than it suits running: the work is controlled and low-impact, so you can prioritize comfort and a clean neckline over maximum compression. If you are larger-chested or also wear your kit for HIIT, see our sports bra guide for higher-support options. Sold via Shopbop (an Amazon company) at $66.00.",
         url: amazon("B0FXN42JWR"),
         glance: "Bralette (matching)",
       },
@@ -111,7 +111,7 @@ const SECTIONS: Section[] = [
         name: "CRZ YOGA Butterluxe Leggings 25\"",
         price: "$32.00",
         description:
-          "The honest budget answer. CRZ YOGA's Butterluxe line is widely used as an affordable alternative to premium studio leggings, and at $32.00 (sold by CRZ YOGA) it is roughly a third of the Varley price. The 25\" inseam lands above the ankle, which keeps fabric clear of the footbar and straps. Choose a colour that sits near your bra and you have a convincing set for a fraction of the cost.",
+          "The honest budget answer. CRZ YOGA's Butterluxe line is widely used as an affordable alternative to premium studio leggings, and at $32.00 (sold by CRZ YOGA) it is roughly a third of the Varley price. The 25\" inseam lands above the ankle, which keeps fabric clear of the footbar and straps. Choose a color that sits near your bra and you have a convincing set for a fraction of the cost.",
         url: amazon("B09P1G2952"),
       },
       {
@@ -129,7 +129,7 @@ const SECTIONS: Section[] = [
         name: "Alo Yoga Airbrush Legging",
         price: "~$128 (aloyoga.com)",
         description:
-          "Not sold on Amazon: this links to aloyoga.com. The Airbrush is one of the most recognisable leggings in boutique studios and the obvious alternative if you prefer Alo's sleek, sculpted finish to Varley's softer look. Price shown is approximate from Alo's own site, so check the current price and colourways there. Our Alo deep-dive covers the rest of the range.",
+          "Not sold on Amazon: this links to aloyoga.com. The Airbrush is one of the most recognizable leggings in boutique studios and the obvious alternative if you prefer Alo's sleek, sculpted finish to Varley's softer look. Price shown is approximate from Alo's own site, so check the current price and colorways there. Our Alo deep-dive covers the rest of the range.",
         url: "https://www.aloyoga.com/",
         brandDirect: true,
       },
@@ -145,7 +145,7 @@ const SECTIONS: Section[] = [
     eyebrow: "02: Grip socks",
     heading: "Grip socks: the detail every studio notices",
     intro:
-      "Most reformer studios require grip socks, which makes them the one accessory you will wear every single class. That also makes them the easiest place to add a little polish. Function first: you want grip that covers the sole so your feet stay put on the footbar and platform. After that, cut and colour are fair game.",
+      "Most reformer studios require grip socks, which makes them the one accessory you will wear every single class. That also makes them the easiest place to add a little polish. Function first: you want grip that covers the sole so your feet stay put on the footbar and platform. After that, cut and color are fair game.",
     items: [
       {
         tier: "Best",
@@ -219,7 +219,7 @@ const SECTIONS: Section[] = [
         name: "Owala FreeSip Stainless Steel Water Bottle, 24 oz",
         price: "$29.99",
         description:
-          "Performance first: the FreeSip is a compact 24 oz stainless bottle that fits a bag side pocket and a studio cubby more easily than a 40 oz tumbler. It comes in plenty of colourways, so it still suits the look. If you only buy one bottle, this is the practical pick. $29.99, sold by Amazon.com.",
+          "Performance first: the FreeSip is a compact 24 oz stainless bottle that fits a bag side pocket and a studio cubby more easily than a 40 oz tumbler. It comes in plenty of colorways, so it still suits the look. If you only buy one bottle, this is the practical pick. $29.99, sold by Amazon.com.",
         url: amazon("B0BZYCJK89"),
         glance: "Water bottle",
       },
@@ -249,7 +249,7 @@ const SECTIONS: Section[] = [
         name: "Lululemon Everywhere Belt Bag",
         price: "~$38 (lululemon.com)",
         description:
-          "Not sold on Amazon: this links to lululemon.com. The Everywhere Belt Bag is a studio-to-coffee staple: phone, keys and card worn crossbody so your main bag can stay in the cubby. Price is approximate from Lululemon's site; colours change seasonally.",
+          "Not sold on Amazon: this links to lululemon.com. The Everywhere Belt Bag is a studio-to-coffee staple: phone, keys and card worn crossbody so your main bag can stay in the cubby. Price is approximate from Lululemon's site; colors change seasonally.",
         url: "https://shop.lululemon.com/",
         brandDirect: true,
       },
@@ -283,7 +283,7 @@ const SECTIONS: Section[] = [
         name: "Varley Davidson Sweat (Taupe Marl)",
         price: "$138.00",
         description:
-          "The cosy option for cold mornings and early classes. Taupe Marl is a neutral that works with almost any set colour, which is what makes an expensive sweatshirt earn its keep. $138.00, sold by Zappos on Amazon.",
+          "The cozy option for cold mornings and early classes. Taupe Marl is a neutral that works with almost any set color, which is what makes an expensive sweatshirt earn its keep. $138.00, sold by Zappos on Amazon.",
         url: amazon("B0DFZPBZDV"),
       },
     ],
@@ -305,7 +305,7 @@ const SECTIONS: Section[] = [
         name: "Liforme Original Yoga Mat (alignment design)",
         price: "$165.00",
         description:
-          "The mat with the printed alignment markers, and one of the most photographed mats in any studio. The markings are genuinely useful in Pilates too: they help you set up square and centred for leg circles, side-lying series and standing work. $165.00, sold by Liforme.",
+          "The mat with the printed alignment markers, and one of the most photographed mats in any studio. The markings are genuinely useful in Pilates too: they help you set up square and centered for leg circles, side-lying series and standing work. $165.00, sold by Liforme.",
         url: amazon("B01CGLCGRA"),
         glance: "Mat",
       },
@@ -462,11 +462,11 @@ const GLANCE = ALL_ITEMS.filter((i) => i.glance);
 const FAQS = [
   {
     q: "What are pilates princess essentials?",
-    a: "The pilates princess aesthetic is a polished, soft-toned take on studio Pilates: a matching set, grip socks (often slouch-style), a claw clip, a statement water bottle, light wrist and ankle weights such as Bala Bangles, and a cosy post-class layer. The essentials that matter most for performance are leggings that stay opaque when stretched, grip socks with full-sole grip, and a bra that stays put when you lie and roll.",
+    a: "The pilates princess aesthetic is a polished, soft-toned take on studio Pilates: a matching set, grip socks (often slouch-style), a claw clip, a statement water bottle, light wrist and ankle weights such as Bala Bangles, and a cozy post-class layer. The essentials that matter most for performance are leggings that stay opaque when stretched, grip socks with full-sole grip, and a bra that stays put when you lie and roll.",
   },
   {
     q: "What does a pilates princess wear to class?",
-    a: "Usually a matching legging-and-bralette set in a soft colour, grip socks, and hair up in a claw clip, with a knit or sweatshirt for after class. Our pick is the Varley Freesoft Piped Full Leggings ($98.00) with the Harley Bralette ($66.00), both in Marina, so they genuinely match. The budget version is the CRZ YOGA Butterluxe leggings ($32.00) and U Back bra ($28.00).",
+    a: "Usually a matching legging-and-bralette set in a soft color, grip socks, and hair up in a claw clip, with a knit or sweatshirt for after class. Our pick is the Varley Freesoft Piped Full Leggings ($98.00) with the Harley Bralette ($66.00), both in Marina, so they genuinely match. The budget version is the CRZ YOGA Butterluxe leggings ($32.00) and U Back bra ($28.00).",
   },
   {
     q: "How much does the pilates princess aesthetic cost?",
@@ -596,7 +596,7 @@ function KitList({ title, subtitle, items, total }: { title: string; subtitle: s
 }
 
 const QUICK_PICKS = [
-  { name: "Varley Freesoft Piped Full Leggings (Marina)", price: "$98.00", url: "https://www.amazon.com/dp/B0FXN378H8?tag=pilatescollective-20", note: "Soft, opaque leggings from a studio-favourite brand" },
+  { name: "Varley Freesoft Piped Full Leggings (Marina)", price: "$98.00", url: "https://www.amazon.com/dp/B0FXN378H8?tag=pilatescollective-20", note: "Soft, opaque leggings from a studio-favorite brand" },
   { name: "Liforme Original Yoga Mat (alignment design)", price: "$165.00", url: "https://www.amazon.com/dp/B01CGLCGRA?tag=pilatescollective-20", note: "Alignment-marked mat with real grip" },
   { name: "Bala Bangles Wrist & Ankle Weights, 1 lb (pair)", price: "$55.00", url: "https://www.amazon.com/dp/B0BQCJRL6Q?tag=pilatescollective-20", note: "1 lb wearable weights for mat and barre" },
   { name: "STANLEY Quencher H2.0 Flow State Tumbler 40 oz (Cream)", price: "$39.99", url: "https://www.amazon.com/dp/B0CP9Y3152?tag=pilatescollective-20", note: "40 oz tumbler in cream" },
@@ -624,7 +624,7 @@ export default function PilatesPrincessEssentialsPage() {
             <TopPick name={QUICK_PICKS[0].name} price={QUICK_PICKS[0].price} note={QUICK_PICKS[0].note} url={QUICK_PICKS[0].url} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed mb-6" style={{ ...bodyStyle, fontWeight: 300 }}>
-              The pilates princess aesthetic is soft colours, matching sets, slouchy grip socks, a claw clip and a beautiful water bottle. It is easy to buy the look and end up with leggings that go sheer on the footbar or a bra that slides every time you roll. This edit works the other way round: <strong style={{ fontWeight: 600 }}>performance first, pretty second</strong>. Every pick has a job in class, every price was checked against a live listing, and wherever a budget dupe does the job, we say so.
+              The pilates princess aesthetic is soft colors, matching sets, slouchy grip socks, a claw clip and a beautiful water bottle. It is easy to buy the look and end up with leggings that go sheer on the footbar or a bra that slides every time you roll. This edit works the other way round: <strong style={{ fontWeight: 600 }}>performance first, pretty second</strong>. Every pick has a job in class, every price was checked against a live listing, and wherever a budget dupe does the job, we say so.
             </p>
             <p className="text-sm leading-relaxed" style={bodyStyle}>
               Want the no-frills version? See our <Link href="/blog/pilates-essentials" style={guideLinkStyle}>complete Pilates essentials list →</Link> or, for studio classes, our <Link href="/blog/reformer-pilates-essentials" style={guideLinkStyle}>reformer Pilates essentials →</Link>
@@ -674,7 +674,7 @@ export default function PilatesPrincessEssentialsPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[
                   { heading: "It has to work on the carriage", body: "Leggings that stay opaque in deep flexion, a top that stays put on your back, socks with real sole grip. If it fails in class, it is not an essential, however good it looks." },
-                  { heading: "A real match beats a near-miss", body: "Our headline set is two Varley Freesoft pieces listed in the same Marina colourway, so they genuinely match rather than sit a shade apart." },
+                  { heading: "A real match beats a near-miss", body: "Our headline set is two Varley Freesoft pieces listed in the same Marina colorway, so they genuinely match rather than sit a shade apart." },
                   { heading: "Budget dupes, honestly offered", body: "Where a cheaper piece does the same job, it is listed as the budget pick. The premium version earns its place on finish and feel, not on performance you cannot get elsewhere." },
                   { heading: "Verified, not invented", body: "Every Amazon price was checked against a live, in-stock listing. We do not quote ratings or claim to have tested products; the two brand-direct links are flagged." },
                 ].map((item) => (
@@ -710,7 +710,7 @@ export default function PilatesPrincessEssentialsPage() {
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={eyebrowStyle}>What the kit costs</p>
               <h2 className="text-2xl font-semibold mb-3" style={h2Style}>The starter aesthetic vs the full edit</h2>
               <p className="text-sm leading-relaxed mb-6" style={bodyStyle}>
-                The honest maths, using the verified Amazon prices above. Both kits cover a matching set, grip socks, a bottle, a claw clip, a bag and home props; the full edit adds the Varley layers, Bala Bangles and recovery. Brand-direct pieces (Alo, Lululemon) and the home reformer are left out of both totals.
+                The honest math, using the verified Amazon prices above. Both kits cover a matching set, grip socks, a bottle, a claw clip, a bag and home props; the full edit adds the Varley layers, Bala Bangles and recovery. Brand-direct pieces (Alo, Lululemon) and the home reformer are left out of both totals.
               </p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
                 <KitList title="The starter aesthetic" subtitle="Budget dupes that do the job" items={STARTER_KIT} total={STARTER_TOTAL} />
@@ -760,7 +760,7 @@ export default function PilatesPrincessEssentialsPage() {
             <div>
               <h2 className="text-2xl font-semibold mb-8" style={h2Style}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <ArticleCard title="Varley for Pilates" excerpt="The studio-favourite label behind our matching set: which Varley pieces work best for reformer and mat." href="/blog/varley-pilates-activewear" category="Brand Guide" readTime="8 min read" date="September 2026" />
+                <ArticleCard title="Varley for Pilates" excerpt="The studio-favorite label behind our matching set: which Varley pieces work best for reformer and mat." href="/blog/varley-pilates-activewear" category="Brand Guide" readTime="8 min read" date="September 2026" />
                 <ArticleCard title="Alo Yoga for Pilates" excerpt="Airbrush, Airlift and the rest of the Alo range, judged on how they perform on the carriage." href="/blog/alo-yoga-pilates" category="Brand Guide" readTime="8 min read" date="September 2026" />
                 <ArticleCard title="Best Luxury Pilates Leggings" excerpt="The premium leggings worth the price, and what you actually get for the extra spend." href="/blog/best-luxury-pilates-leggings" category="Clothing" readTime="9 min read" date="September 2026" />
                 <ArticleCard title="Pilates Essentials: The Complete List" excerpt="The best pick in every category, from grip socks to a home reformer, all in one place." href="/blog/pilates-essentials" category="Essentials" readTime="12 min read" date="September 2026" />

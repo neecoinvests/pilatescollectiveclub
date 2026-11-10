@@ -117,7 +117,7 @@ const BOOKING_TIPS = [
 
 const NEIGHBORHOODS = [
   { name: "Georgetown & Dupont Circle", description: "DC's most internationally oriented residential areas support a sophisticated Pilates market. Studios here serve diplomatic and professional populations with high standards and strong disposable income. A natural starting point for practitioners who value quality above all." },
-  { name: "Logan Circle & Columbia Heights", description: "The revitalised central neighbourhoods have developed strong independent studio cultures in the past decade: instructors who prioritise depth and specificity over volume. Often better value and more technically serious than the premium Georgetown options." },
+  { name: "Logan Circle & Columbia Heights", description: "The revitalized central neighborhoods have developed strong independent studio cultures in the past decade: instructors who prioritize depth and specificity over volume. Often better value and more technically serious than the premium Georgetown options." },
   { name: "Bethesda & Chevy Chase (Maryland)", description: "Montgomery County's most affluent communities house several excellent studios serving the DC metro's wealthiest health-conscious population. Comparable quality to Georgetown with slightly better parking and scheduling accessibility." },
   { name: "Arlington & Alexandria (Virginia)", description: "Northern Virginia's professional population is increasingly well-served by studios that understand the particular needs of commuters, veterans, and government contractors. The Metro connection makes Virginia studios genuinely practical for practitioners based in the District." },
 ];
@@ -164,7 +164,7 @@ const GEAR = [
 const HOME_REFORMERS = [
   { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work: three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
   { tag: "Mid-Range Pick", name: "AeroPilates Pro XP 557", note: "AeroPilates' top-of-the-range home reformer, a step up for practitioners training several times a week.", price: "$1,329.99", url: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20" },
-  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
+  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodized aluminum frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
 ];
 
 const RELATED_CITIES = [
@@ -181,7 +181,7 @@ const FURTHER_READING = [
 
 const CITY_FAQS = [
   { q: "What are the best Pilates studios in Washington DC?", a: "Our 6 curated picks are District Pilates (Shaw), Fuse Pilates (Logan Circle / U Street Corridor), Toolbox Pilates (NoMa), Excel Pilates DC (Brookland), Capital Pilates Studio (Spring Valley / American University Park) and DC Pilates (Downtown / Penn Quarter). Each listing above covers what the studio is best for, its signature class and a booking tip." },
-  { q: "Which Washington DC neighbourhoods are best for Pilates?", a: "This guide covers Georgetown & Dupont Circle, Logan Circle & Columbia Heights, Bethesda & Chevy Chase (Maryland) and Arlington & Alexandria (Virginia). Georgetown & Dupont Circle: DC's most internationally oriented residential areas support a sophisticated Pilates market." },
+  { q: "Which Washington DC neighborhoods are best for Pilates?", a: "This guide covers Georgetown & Dupont Circle, Logan Circle & Columbia Heights, Bethesda & Chevy Chase (Maryland) and Arlington & Alexandria (Virginia). Georgetown & Dupont Circle: DC's most internationally oriented residential areas support a sophisticated Pilates market." },
   { q: "What should I know about booking Pilates classes in Washington DC?", a: "Expect to pay $32–60 per class. Washington DC's Pilates market is priced in line with other major US cities." },
   { q: "What should I bring to a Pilates class in Washington DC?", a: "Grip socks are required at most reformer studios. Our gear list for Washington DC covers Pilates grip socks, Pilates mat, magic circle, foam roller, resistance bands set and home Pilates reformer." },
 ];
@@ -314,10 +314,10 @@ export default function WashingtonDCPage() {
           </div>
         </section>
 
-        {/* Neighbourhoods */}
+        {/* Neighborhoods */}
         <section className="py-20 px-6" style={{ backgroundColor: "#f6f3f2" }}>
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Best neighbourhoods for Pilates in Washington DC</h2>
+            <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Best neighborhoods for Pilates in Washington DC</h2>
             <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>DC's compact geography and Metro access make the full metro area a practical search zone. Here's where to look across the District and its suburbs.</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {NEIGHBORHOODS.map((n) => (

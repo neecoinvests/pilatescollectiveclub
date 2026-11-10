@@ -234,7 +234,7 @@ export default function BestOnlinePilatesClassesPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[
                   { heading: "Library depth", body: "The best platforms have hundreds of hours of content at every level. A library of fewer than 500 videos will feel limited within a few months of regular use." },
-                  { heading: "Instructor credentials", body: "Look for platforms featuring certified instructors from recognised training programmes: BASI, Balanced Body, STOTT, Pilates Method Alliance, or direct classical lineage." },
+                  { heading: "Instructor credentials", body: "Look for platforms featuring certified instructors from recognized training programs: BASI, Balanced Body, STOTT, Pilates Method Alliance, or direct classical lineage." },
                   { heading: "Reformer content", body: "If you own a home reformer, check whether the platform has reformer-specific classes. Many platforms are mat-only or have limited reformer libraries." },
                   { heading: "App quality", body: "The platform needs to work reliably on your TV, tablet, and phone. Poor streaming quality, buggy apps, or difficult download systems significantly affect the practice experience." },
                 ].map((item) => (

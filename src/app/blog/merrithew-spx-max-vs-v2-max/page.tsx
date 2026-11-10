@@ -93,7 +93,7 @@ const GUIDE: EquipmentGuideProps = {
       items: [
         item("spxHome", {
           badge: "Best for Most Homes",
-          pros: ["Box, roll-up pole, platform extender and straps included", "Sold and shipped by Amazon.com, in stock", "Aluminium rails, 115 lb"],
+          pros: ["Box, roll-up pole, platform extender and straps included", "Sold and shipped by Amazon.com, in stock", "Aluminum rails, 115 lb"],
           cons: ["Lower frame than the V2 Max", "22\" carriage is narrower"],
         }),
         item("spxMaxDirect", {

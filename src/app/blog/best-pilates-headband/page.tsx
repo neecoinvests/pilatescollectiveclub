@@ -48,7 +48,7 @@ const PRODUCTS = [
     price: "$19.79",
     verdict: "Best for high-sweat sessions",
     description:
-      "Nike's Swoosh Sport Headband is the choice for practitioners who prioritise sweat management over aesthetics. The Dri-FIT fabric actively pulls moisture away from the hairline and dries quickly, making it more effective at managing sweat during intense Lagree-style sessions or heated reformer classes than softer cotton or modal alternatives. The wide band keeps more hair contained than narrow styles, and the fabric is thick enough to absorb meaningfully rather than simply redirecting sweat. The silicone grip strip on the interior holds position reliably. Less polished-looking than the Lululemon or Alo options, but functionally superior in genuinely sweaty conditions.",
+      "Nike's Swoosh Sport Headband is the choice for practitioners who prioritize sweat management over aesthetics. The Dri-FIT fabric actively pulls moisture away from the hairline and dries quickly, making it more effective at managing sweat during intense Lagree-style sessions or heated reformer classes than softer cotton or modal alternatives. The wide band keeps more hair contained than narrow styles, and the fabric is thick enough to absorb meaningfully rather than simply redirecting sweat. The silicone grip strip on the interior holds position reliably. Less polished-looking than the Lululemon or Alo options, but functionally superior in genuinely sweaty conditions.",
     affiliateUrl: "https://www.amazon.com/dp/B00OY9KCH4?tag=pilatescollective-20",
     tag: "Best for Sweat",
   },
@@ -58,7 +58,7 @@ const PRODUCTS = [
     price: "$9.99",
     verdict: "Best value headband",
     description:
-      "Kitsch's Soft Ribbed Headband punches above its price bracket for Pilates use. The plush ribbed fabric is gentler against the scalp than performance-fabric alternatives, making it comfortable for practitioners who find workout headbands too tight or abrasive. The stretch is appropriate for mat Pilates and lower-intensity reformer work: less grippy than the Lululemon Fly Away Tamer in extreme inversions, but entirely adequate for standard class positions. Available in packs of multiple colourways, which suits practitioners who want a fresh headband for each session without the cost of buying premium options individually.",
+      "Kitsch's Soft Ribbed Headband punches above its price bracket for Pilates use. The plush ribbed fabric is gentler against the scalp than performance-fabric alternatives, making it comfortable for practitioners who find workout headbands too tight or abrasive. The stretch is appropriate for mat Pilates and lower-intensity reformer work: less grippy than the Lululemon Fly Away Tamer in extreme inversions, but entirely adequate for standard class positions. Available in packs of multiple colorways, which suits practitioners who want a fresh headband for each session without the cost of buying premium options individually.",
     affiliateUrl: "https://www.amazon.com/dp/B0GY9XFPLX?tag=pilatescollective-20",
     tag: "Best Value",
   },
@@ -68,7 +68,7 @@ const PRODUCTS = [
     price: "From $18",
     verdict: "Best for thick or curly hair",
     description:
-      "Sweaty Betty's Power Headband uses a wider profile and stronger elastane blend than most studio headbands, which makes it the best choice for practitioners with thick, curly, or voluminous hair that standard narrow headbands fail to contain. The band sits flat against the head without riding up or folding over, and the grip is reliable enough to survive dynamic exercises without repositioning. The sweat-wicking fabric is effective and the headband dries quickly after class. Sweaty Betty produces it in a consistently broad range of neutral colourways that coordinate with most studio wardrobes.",
+      "Sweaty Betty's Power Headband uses a wider profile and stronger elastane blend than most studio headbands, which makes it the best choice for practitioners with thick, curly, or voluminous hair that standard narrow headbands fail to contain. The band sits flat against the head without riding up or folding over, and the grip is reliable enough to survive dynamic exercises without repositioning. The sweat-wicking fabric is effective and the headband dries quickly after class. Sweaty Betty produces it in a consistently broad range of neutral colorways that coordinate with most studio wardrobes.",
     affiliateUrl: "https://www.amazon.com/s?k=sweaty+betty+power+headband&tag=pilatescollective-20",
     tag: "Best for Volume Hair",
   },
@@ -78,7 +78,7 @@ const PRODUCTS = [
     price: "From $16",
     verdict: "Best for mat Pilates",
     description:
-      "Manduka's Headband is a thoughtful choice for mat Pilates practitioners who spend significant time in supine and prone positions. The low-profile design minimises the bulk at the back of the head that creates discomfort when lying flat: a genuine consideration for practitioners who do extended mat work rather than primarily reformer classes. The fabric is modal-blend soft, sweat-wicking, and gentle enough for sensitive skin. The grip is reliable for standard mat exercises, though less robust in inverted reformer positions than the Lululemon Fly Away Tamer. For mat-first practitioners, Manduka's headband is the most considered choice on this list.",
+      "Manduka's Headband is a thoughtful choice for mat Pilates practitioners who spend significant time in supine and prone positions. The low-profile design minimizes the bulk at the back of the head that creates discomfort when lying flat: a genuine consideration for practitioners who do extended mat work rather than primarily reformer classes. The fabric is modal-blend soft, sweat-wicking, and gentle enough for sensitive skin. The grip is reliable for standard mat exercises, though less robust in inverted reformer positions than the Lululemon Fly Away Tamer. For mat-first practitioners, Manduka's headband is the most considered choice on this list.",
     affiliateUrl: "https://www.amazon.com/s?k=manduka+yoga+headband+workout&tag=pilatescollective-20",
     tag: "Best for Mat Pilates",
   },

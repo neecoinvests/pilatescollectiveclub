@@ -67,8 +67,8 @@ const STUDIOS = [
     name: "Club Pilates Brentwood",
     neighborhood: "Brentwood",
     priceLevel: "$$",
-    review: "Club Pilates Brentwood on South Brentwood Boulevard is a convenient inner-ring option for south and central St. Louis, with the brand's levelled group reformer system; it is bookable through ClassPass and Wellhub too.",
-    caveat: "a franchise format: consistent, but less personalised than an independent studio.",
+    review: "Club Pilates Brentwood on South Brentwood Boulevard is a convenient inner-ring option for south and central St. Louis, with the brand's leveled group reformer system; it is bookable through ClassPass and Wellhub too.",
+    caveat: "a franchise format: consistent, but less personalized than an independent studio.",
     address: "2535 S Brentwood Blvd, St. Louis, MO 63144",
     bestFor: "Structured reformer classes in inner-ring St. Louis",
     signatureClass: "Reformer Flow",
@@ -103,7 +103,7 @@ const STUDIOS = [
     name: "Casa Di Pilates",
     neighborhood: "The Grove / Forest Park Southeast",
     priceLevel: "$$",
-    review: "Casa Di Pilates on South Kingshighway is a boutique studio in the Grove neighbourhood offering reformer Pilates, listed on ClassPass across several Pilates categories.",
+    review: "Casa Di Pilates on South Kingshighway is a boutique studio in the Grove neighborhood offering reformer Pilates, listed on ClassPass across several Pilates categories.",
     caveat: "limited published detail about the instructors: try a single class first.",
     address: "1530 S Kingshighway Blvd, Suite 204, St. Louis, MO 63110",
     bestFor: "Boutique reformer in the Grove",
@@ -206,7 +206,7 @@ const GEAR = [
 const HOME_REFORMERS = [
   { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work: three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
   { tag: "Mid-Range Pick", name: "AeroPilates Pro XP 557", note: "AeroPilates' top-of-the-range home reformer, a step up for practitioners training several times a week.", price: "$1,329.99", url: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20" },
-  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
+  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodized aluminum frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
 ];
 
 const RELATED_CITIES = [
@@ -243,7 +243,7 @@ const FURTHER_READING = [
 
 const CITY_FAQS = [
   { q: "What are the best Pilates studios in St. Louis?", a: "Our 6 curated picks are The Pilates Center of St. Louis (St. Louis County), Club Pilates Brentwood (Brentwood), Freeman Pilates (Tower Grove South), PLNK STL (Ladue · Central West End · Town & Country), Casa Di Pilates (The Grove / Forest Park Southeast) and Studio Ivanhoe Pilates & Movement (Lindenwood Park). Each listing above covers what the studio is best for, its signature class and a booking tip." },
-  { q: "Which St. Louis neighbourhoods are best for Pilates?", a: "This guide covers Ladue & Clayton, Tower Grove & The Grove, Central West End and Brentwood & Inner Suburbs. Ladue & Clayton: St. Louis's most affluent western suburbs have developed a premium wellness infrastructure with long-running classical studios and instructor training programs." },
+  { q: "Which St. Louis neighborhoods are best for Pilates?", a: "This guide covers Ladue & Clayton, Tower Grove & The Grove, Central West End and Brentwood & Inner Suburbs. Ladue & Clayton: St. Louis's most affluent western suburbs have developed a premium wellness infrastructure with long-running classical studios and instructor training programs." },
   { q: "What should I know about booking Pilates classes in St. Louis?", a: "St. Louis summers drive studio demand differently than most cities. Studio demand peaks in summer and winter, with spring and fall offering better availability." },
   { q: "What should I bring to a Pilates class in St. Louis?", a: "Grip socks are required at most reformer studios. Our gear list for St. Louis covers Pilates grip socks, Pilates mat (6mm), magic circle, fabric resistance bands and high-density foam roller." },
 ];

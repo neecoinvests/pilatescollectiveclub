@@ -97,7 +97,7 @@ const GUIDE: EquipmentGuideProps = {
         gift("theragunProPlus", { badge: "Best Massage Gun", pros: ["Heat and vibration on top of percussion"], cons: ["Cold attachment sold separately"] }),
         gift("higherdose", { badge: "Best Wellness Splurge", pros: ["Home sauna, no installation", "9 heat levels"], cons: ["Low stock"] }),
         gift("normatec3Legs", { badge: "Best Recovery Gift", pros: ["The original air-compression boots", "7 levels"], cons: ["Needs floor or sofa space to use"] }),
-        gift("normatecElite", { badge: "Best Wireless Normatec", pros: ["Hose-free", "Synchronised legs"], cons: ["Costs more than Normatec 3"] }),
+        gift("normatecElite", { badge: "Best Wireless Normatec", pros: ["Hose-free", "Synchronized legs"], cons: ["Costs more than Normatec 3"] }),
       ],
     },
     {

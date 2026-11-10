@@ -156,7 +156,7 @@ const GUIDE: EquipmentGuideProps = {
       eyebrow: "Just over budget",
       heading: "Worth stretching to?",
       body: [
-        "Merrithew's At Home SPX Reformer Package is $3,349 on Amazon and includes a box, roll-up pole, platform extender and straps, sold by Amazon.com. Balanced Body's Rialto, with a solid maple frame on aluminium legs and a Sitting Box Lite, is $3,495. Both are in our guide to the best reformers under $5,000.",
+        "Merrithew's At Home SPX Reformer Package is $3,349 on Amazon and includes a box, roll-up pole, platform extender and straps, sold by Amazon.com. Balanced Body's Rialto, with a solid maple frame on aluminum legs and a Sitting Box Lite, is $3,495. Both are in our guide to the best reformers under $5,000.",
       ],
     },
   ],
@@ -165,11 +165,11 @@ const GUIDE: EquipmentGuideProps = {
     { q: "Is a $3,000 reformer worth it over a $500 one?", a: "If you practice several times a week, usually yes. Machines in this band use real springs, sturdier frames and studio-style carriages, and established brands hold resale value. Budget machines are fine to start, but often use cords and lighter frames." },
     { q: "Can I get a reformer with a tower under $3,000?", a: "Yes. The DELAVIN Solid Wood Reformer with Tower ($1,229.99) and the PAETA Wooden Reformer with Tower & Mat ($1,299.99) both include a tower. They are from newer brands, so check warranty terms on the listing." },
     { q: "Which reformer under $3,000 is best for a small apartment?", a: "The Balanced Body Metro IQ. Its telescoping frame goes from 98 inches in use to 62 inches for storage, and it weighs 85 lb. The PersonalHour Janet La Force Plus, which folds upright on wheels, is the best wood option." },
-    { q: "Are wood reformers better than aluminium?", a: "Neither is better across the board. Wood is heavier, quieter-looking and warmer; aluminium is lighter and easier to move. See our wood vs aluminium reformer guide for the full comparison." },
+    { q: "Are wood reformers better than aluminum?", a: "Neither is better across the board. Wood is heavier, quieter-looking and warmer; aluminum is lighter and easier to move. See our wood vs aluminum reformer guide for the full comparison." },
   ],
   related: [
     { title: "Best Pilates Reformer Under $5,000", excerpt: "Balanced Body Studio, Rialto, Allegro Stretch and Merrithew SPX compared.", href: "/blog/best-pilates-reformer-under-5000", imageUrl: "/pictures/stitch-reformer-row-studio.png", category: "Equipment", readTime: "15 min read" },
-    { title: "Wood vs Aluminium Pilates Reformer", excerpt: "Weight, feel, care and price: which frame suits you.", href: "/blog/wood-vs-aluminium-pilates-reformer", imageUrl: "/pictures/stitch-white-reformer-plaster.png", category: "Equipment", readTime: "11 min read" },
+    { title: "Wood vs Aluminum Pilates Reformer", excerpt: "Weight, feel, care and price: which frame suits you.", href: "/blog/wood-vs-aluminium-pilates-reformer", imageUrl: "/pictures/stitch-white-reformer-plaster.png", category: "Equipment", readTime: "11 min read" },
     { title: "Align Pilates vs Balanced Body", excerpt: "The C8-PRO against the Metro IQ, Allegro Stretch and Studio Reformer.", href: "/blog/align-pilates-vs-balanced-body", imageUrl: "/pictures/stitch-reformers-aerial-row.png", category: "Comparison", readTime: "12 min read" },
     { title: "Best Pilates Reformer Under $2,000", excerpt: "The best spring reformers for less.", href: "/blog/best-pilates-reformer-under-2000", imageUrl: "/pictures/stitch-reformer-morning-light.png", category: "Equipment", readTime: "10 min read" },
   ],

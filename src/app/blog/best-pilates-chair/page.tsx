@@ -73,7 +73,7 @@ const PRODUCTS = [
     price: "Price on request",
     verdict: "Not sold on Amazon: genuine clinical/rehab chair, dealer-direct",
     description:
-      "We could not find a live Amazon listing for this chair, and we could not verify a specific public price, so we're not quoting one. Merrithew's split-pedal design lets practitioners work each leg or arm independently, which is genuinely useful for rehabilitation and identifying strength asymmetries, but buying it means going through Merrithew directly or an authorised dealer, not Amazon.",
+      "We could not find a live Amazon listing for this chair, and we could not verify a specific public price, so we're not quoting one. Merrithew's split-pedal design lets practitioners work each leg or arm independently, which is genuinely useful for rehabilitation and identifying strength asymmetries, but buying it means going through Merrithew directly or an authorized dealer, not Amazon.",
     affiliateUrl: "https://www.merrithew.com",
     tag: "Rehab-Friendly · Dealer-Direct",
   },

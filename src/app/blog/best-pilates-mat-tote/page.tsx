@@ -38,7 +38,7 @@ const PRODUCTS = [
     price: "$19.99",
     verdict: "Best overall mat tote",
     description:
-      "The Gaiam Classic is the default recommendation for practitioners who want a dedicated mat carrier without overthinking it. The zippered main compartment fits most standard Pilates and yoga mats rolled to their natural diameter, and the side mesh pocket holds a water bottle securely without the bag tipping. The shoulder strap is padded and adjustable, distributing the weight of a filled mat bag comfortably across a 15-minute walk to class. The range of colourways is broad, and the fabric holds up to repeated daily use without fraying at the seams. For mat Pilates practitioners attending regular classes, this bag solves the mat-carry problem cleanly and economically.",
+      "The Gaiam Classic is the default recommendation for practitioners who want a dedicated mat carrier without overthinking it. The zippered main compartment fits most standard Pilates and yoga mats rolled to their natural diameter, and the side mesh pocket holds a water bottle securely without the bag tipping. The shoulder strap is padded and adjustable, distributing the weight of a filled mat bag comfortably across a 15-minute walk to class. The range of colorways is broad, and the fabric holds up to repeated daily use without fraying at the seams. For mat Pilates practitioners attending regular classes, this bag solves the mat-carry problem cleanly and economically.",
     affiliateUrl: "https://www.amazon.com/dp/B079W416C6?tag=pilatescollective-20",
     tag: "Editor's Pick",
   },
@@ -58,7 +58,7 @@ const PRODUCTS = [
     price: "From $32",
     verdict: "Best value mat tote",
     description:
-      "MIER's Large Yoga Mat Tote is the best-value option for practitioners who need more than just a mat carrier. The large main compartment fits a rolled mat alongside a towel, change of clothes, and accessories, effectively combining mat bag and studio bag in a single carry. The side water bottle pocket, interior zip pocket, and key hook cover the organisational basics without unnecessary complexity. The fabric is water-resistant and handles studio use without degrading quickly. For practitioners who attend mat classes and want to avoid carrying two separate bags, this tote eliminates that friction efficiently.",
+      "MIER's Large Yoga Mat Tote is the best-value option for practitioners who need more than just a mat carrier. The large main compartment fits a rolled mat alongside a towel, change of clothes, and accessories, effectively combining mat bag and studio bag in a single carry. The side water bottle pocket, interior zip pocket, and key hook cover the organizational basics without unnecessary complexity. The fabric is water-resistant and handles studio use without degrading quickly. For practitioners who attend mat classes and want to avoid carrying two separate bags, this tote eliminates that friction efficiently.",
     affiliateUrl: "https://www.amazon.com/s?k=mier+yoga+mat+bag+tote&tag=pilatescollective-20",
     tag: "Best Value",
   },
@@ -78,7 +78,7 @@ const PRODUCTS = [
     price: "From $88",
     verdict: "Best premium mat tote",
     description:
-      "Alo's Move Mat Tote is the rare bag that solves the mat-carry problem elegantly for practitioners who also need a full studio kit in the same carry. External straps secure a rolled mat to the exterior of the bag, keeping mat and gear contained without requiring a separate carrier. The main compartment holds a complete studio kit including shoes and a change of clothes, and the interior organisation is sufficient for everyday carry items. The aesthetic is unmistakably Alo: clean, minimal, and appropriate for both studio and street. Best suited for mat Pilates practitioners; those who only do reformer work may prefer a simpler tote without external straps. Not sold on Amazon: this link goes to Alo Yoga's own site.",
+      "Alo's Move Mat Tote is the rare bag that solves the mat-carry problem elegantly for practitioners who also need a full studio kit in the same carry. External straps secure a rolled mat to the exterior of the bag, keeping mat and gear contained without requiring a separate carrier. The main compartment holds a complete studio kit including shoes and a change of clothes, and the interior organization is sufficient for everyday carry items. The aesthetic is unmistakably Alo: clean, minimal, and appropriate for both studio and street. Best suited for mat Pilates practitioners; those who only do reformer work may prefer a simpler tote without external straps. Not sold on Amazon: this link goes to Alo Yoga's own site.",
     affiliateUrl: "https://www.aloyoga.com",
     tag: "Best Premium",
   },

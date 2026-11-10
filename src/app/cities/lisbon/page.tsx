@@ -92,7 +92,7 @@ const STUDIOS = [
     name: "Alinéa Wellness Club",
     neighborhood: "Campolide",
     priceLevel: "$$",
-    review: "Alinéa Wellness Club on Rua General Taborda offers reformer Pilates and yoga, a practical option for Campolide and the residential areas north-west of the centre.",
+    review: "Alinéa Wellness Club on Rua General Taborda offers reformer Pilates and yoga, a practical option for Campolide and the residential areas north-west of the center.",
     caveat: "limited published detail about instructors: try a single class first.",
     address: "Rua General Taborda 52A, 1070-271 Lisboa",
     bestFor: "Reformer and yoga in Campolide",
@@ -114,7 +114,7 @@ const STUDIOS = [
 ];
 
 const BOOKING_TIPS = [
-  { heading: "Expect to pay €18–45 per class", body: "Lisbon's Pilates pricing remains among the most accessible of any major European city. Community studios and mat classes can be found from €12–18; group reformer classes at quality independent studios run €20–30; premium private sessions at boutique venues typically cost more. Class packs (typically five or ten sessions) offer meaningful discounts at most studios." },
+  { heading: "Expect to pay about $20–50 per class", body: "Lisbon's Pilates pricing remains among the most accessible of any major European city. Community studios and mat classes can be found from about $13–20; group reformer classes at quality independent studios run about $22–34; premium private sessions at boutique venues typically cost more. Class packs (typically five or ten sessions) offer meaningful discounts at most studios." },
   { heading: "ClassPass has growing coverage in Lisbon", body: "ClassPass has expanded its Lisbon coverage in recent years and is a practical option for visitors wanting to trial studios without committing to packs. Coverage is best in Chiado, Alcântara, and Parque das Nações. Some of the more traditional studios in Príncipe Real and Mouraria do not participate." },
   { heading: "Booking in English is widely possible", body: "Lisbon's international character means most studios are comfortable with English-language bookings and correspondence. Email and WhatsApp are the dominant communication channels: don't be surprised if a studio's booking system is simply a WhatsApp number rather than an online platform. Response times are typically same-day." },
   { heading: "Bring your own grip socks", body: "Grip socks are required at reformer studios but less universally available for purchase than in Northern European cities. Pack a pair in your bag before your first session. Decathlon stores across Lisbon sell suitable fitness socks at very reasonable prices if you arrive unprepared." },
@@ -122,10 +122,10 @@ const BOOKING_TIPS = [
 ];
 
 const NEIGHBORHOODS = [
-  { name: "Príncipe Real & Bairro Alto", description: "Lisbon's most affluent and historically significant neighbourhood is home to the city's finest premium wellness addresses. Studios here occupy converted palaces and townhouses, attracting an international creative and professional community willing to invest in exceptional instruction. The neighbourhood's dense concentration of galleries, restaurants, and design boutiques makes it the natural home of Lisbon's luxury wellness culture." },
-  { name: "Chiado & Baixa", description: "The city's historic commercial centre offers the most accessible quality Pilates in central Lisbon. Studios here benefit from excellent public transport connections and a steady flow of international residents and visitors: most have adapted to offer bilingual instruction. Good value for central Lisbon, with group classes at competitive prices and a convenient location for most of the city's short-term visitors." },
-  { name: "Alcântara & Santos", description: "Lisbon's post-industrial west has become a creative wellness hub: converted factories and warehouses host some of the city's most design-forward studios. The neighbourhood's arts and tech community has driven a Pilates scene that is contemporary, community-focused, and distinctly cosmopolitan. Weekend mornings in Alcântara have a particular energy that is worth experiencing." },
-  { name: "Mouraria & Intendente", description: "The city's most authentically Lisboeta neighbourhoods (historically working-class, now undergoing careful gentrification) host a small number of community-focused studios that offer exceptional value and genuine cultural experience. Mat Pilates and hybrid movement practices are more prevalent here than reformer-focused offerings, reflecting both the space constraints and the ethos of studios that prioritise accessibility." },
+  { name: "Príncipe Real & Bairro Alto", description: "Lisbon's most affluent and historically significant neighborhood is home to the city's finest premium wellness addresses. Studios here occupy converted palaces and townhouses, attracting an international creative and professional community willing to invest in exceptional instruction. The neighborhood's dense concentration of galleries, restaurants, and design boutiques makes it the natural home of Lisbon's luxury wellness culture." },
+  { name: "Chiado & Baixa", description: "The city's historic commercial center offers the most accessible quality Pilates in central Lisbon. Studios here benefit from excellent public transport connections and a steady flow of international residents and visitors: most have adapted to offer bilingual instruction. Good value for central Lisbon, with group classes at competitive prices and a convenient location for most of the city's short-term visitors." },
+  { name: "Alcântara & Santos", description: "Lisbon's post-industrial west has become a creative wellness hub: converted factories and warehouses host some of the city's most design-forward studios. The neighborhood's arts and tech community has driven a Pilates scene that is contemporary, community-focused, and distinctly cosmopolitan. Weekend mornings in Alcântara have a particular energy that is worth experiencing." },
+  { name: "Mouraria & Intendente", description: "The city's most authentically Lisboeta neighborhoods (historically working-class, now undergoing careful gentrification) host a small number of community-focused studios that offer exceptional value and genuine cultural experience. Mat Pilates and hybrid movement practices are more prevalent here than reformer-focused offerings, reflecting both the space constraints and the ethos of studios that prioritize accessibility." },
 ];
 
 const GEAR = [
@@ -182,8 +182,8 @@ const FURTHER_READING = [
 
 const CITY_FAQS = [
   { q: "What are the best Pilates studios in Lisbon?", a: "Our 6 curated picks are The Kynd Space (Príncipe Real), The Reformer Lab (Amoreiras (Amoreiras), Prescription Pilates) Saldanha (Saldanha), PILAT3S Palácio SottoMayor (Saldanha / Picoas), Alinéa Wellness Club (Campolide) and beHaus Lisbon (Lisbon). Each listing above covers what the studio is best for, its signature class and a booking tip." },
-  { q: "Which Lisbon neighbourhoods are best for Pilates?", a: "This guide covers Príncipe Real & Bairro Alto, Chiado & Baixa, Alcântara & Santos and Mouraria & Intendente. Príncipe Real & Bairro Alto: Lisbon's most affluent and historically significant neighbourhood is home to the city's finest premium wellness addresses." },
-  { q: "What should I know about booking Pilates classes in Lisbon?", a: "Expect to pay €18–45 per class. Lisbon's Pilates pricing remains among the most accessible of any major European city." },
+  { q: "Which Lisbon neighborhoods are best for Pilates?", a: "This guide covers Príncipe Real & Bairro Alto, Chiado & Baixa, Alcântara & Santos and Mouraria & Intendente. Príncipe Real & Bairro Alto: Lisbon's most affluent and historically significant neighborhood is home to the city's finest premium wellness addresses." },
+  { q: "What should I know about booking Pilates classes in Lisbon?", a: "Expect to pay about $20–50 per class. Lisbon's Pilates pricing remains among the most accessible of any major European city." },
   { q: "What should I bring to a Pilates class in Lisbon?", a: "Grip socks are required at most reformer studios. Our gear list for Lisbon covers Pilates grip socks, Pilates mat, magic circle, resistance bands, foam roller and home Pilates reformer." },
 ];
 
@@ -258,7 +258,7 @@ export default function LisbonPage() {
             <p className="text-sm mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 8 min read</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Lisbon's Pilates scene has grown rapidly alongside the city's emergence as one of Europe's most desirable destinations for international residents and wellness-conscious travellers. The city's combination of a young, internationally educated professional class, a large digital nomad community, and an increasingly sophisticated local demand for quality movement practices has produced a studio landscape that is diverse, accessible, and, at its best, genuinely exceptional. This guide covers six studios we rate highly across the city's distinct neighbourhoods.
+              Lisbon's Pilates scene has grown rapidly alongside the city's emergence as one of Europe's most desirable destinations for international residents and wellness-conscious travelers. The city's combination of a young, internationally educated professional class, a large digital nomad community, and an increasingly sophisticated local demand for quality movement practices has produced a studio landscape that is diverse, accessible, and, at its best, genuinely exceptional. This guide covers six studios we rate highly across the city's distinct neighborhoods.
             </p>
           </div>
         </section>
@@ -305,8 +305,8 @@ export default function LisbonPage() {
 
         <section className="py-20 px-6" style={{ backgroundColor: "#fcf9f8" }}>
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Best neighbourhoods for Pilates in Lisbon</h2>
-            <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Lisbon's Pilates landscape is shaped by its neighbourhoods.</p>
+            <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Best neighborhoods for Pilates in Lisbon</h2>
+            <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Lisbon's Pilates landscape is shaped by its neighborhoods.</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {NEIGHBORHOODS.map((n) => (
                 <div key={n.name} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217, 194, 186, 0.35)" }}>

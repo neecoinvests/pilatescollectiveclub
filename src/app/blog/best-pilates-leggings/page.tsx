@@ -218,7 +218,7 @@ export default function BestPilatesLeggingsPage() {
                   >Shop Now →</a>
                 </div>
               ))}
-              <p className="px-6 py-3 text-xs" style={{ color: "#86736d", fontFamily: sans, backgroundColor: "#ffffff", borderTop: "1px solid rgba(217,194,186,0.25)" }}>Amazon prices checked {CHECKED} for the size and colour linked; prices vary by size and colour.</p>
+              <p className="px-6 py-3 text-xs" style={{ color: "#86736d", fontFamily: sans, backgroundColor: "#ffffff", borderTop: "1px solid rgba(217,194,186,0.25)" }}>Amazon prices checked {CHECKED} for the size and color linked; prices vary by size and color.</p>
             </div>
             <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
@@ -228,7 +228,7 @@ export default function BestPilatesLeggingsPage() {
                 {[
                   { heading: "Opacity", body: "Deep hip flexion, spinal rotation and bridges all stretch the fabric. Try a squat in front of a mirror before you take the tags off: if there is any sheerness, it will show more on the reformer." },
                   { heading: "Waistband stability", body: "A high-rise waistband that stays put through roll-ups, the hundred and leg circles is essential. Avoid drawstrings and low-rise styles for Pilates." },
-                  { heading: "Length", body: "A 7/8 (around 25\") inseam is the studio favourite: it keeps fabric clear of springs and straps and shows off your grip socks. Midi and full length suit mat classes." },
+                  { heading: "Length", body: "A 7/8 (around 25\") inseam is the studio favorite: it keeps fabric clear of springs and straps and shows off your grip socks. Midi and full length suit mat classes." },
                   { heading: "Seams", body: "Flat seams matter more in Pilates than in most workouts, because you lie and kneel on the carriage for most of the class. Look for minimal or flat seams and no outseam." },
                 ].map((item) => (
                   <div key={item.heading} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
@@ -271,7 +271,7 @@ export default function BestPilatesLeggingsPage() {
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={{ color: "#8b4a31", fontFamily: sans }}>Make it a set</p>
               <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: serif }}>Matching sports bras</h2>
               <p className="text-sm leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: sans }}>
-                A bra from the same line shares the fabric and colour of your leggings. More options in our <Link href="/blog/best-pilates-sets" style={linkStyle}>Pilates sets</Link> and <Link href="/blog/best-pilates-sports-bra" style={linkStyle}>Pilates sports bra</Link> guides.
+                A bra from the same line shares the fabric and color of your leggings. More options in our <Link href="/blog/best-pilates-sets" style={linkStyle}>Pilates sets</Link> and <Link href="/blog/best-pilates-sports-bra" style={linkStyle}>Pilates sports bra</Link> guides.
               </p>
               <div className="space-y-4">
                 {BRAS.map((b) => (
@@ -293,7 +293,7 @@ export default function BestPilatesLeggingsPage() {
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                 {[
                   { heading: "Reformer", body: "A 25\" high-rise legging with flat seams: Lululemon Align, Varley FreeSoft or CRZ YOGA Naked Feeling. See our reformer leggings guide.", href: "/blog/best-leggings-for-reformer-pilates" },
-                  { heading: "Mat", body: "Softness and coverage matter most. Beyond Yoga Spacedye's 28\" midi is a favourite. See our high-waist leggings guide.", href: "/blog/best-high-waist-pilates-leggings" },
+                  { heading: "Mat", body: "Softness and coverage matter most. Beyond Yoga Spacedye's 28\" midi is a favorite. See our high-waist leggings guide.", href: "/blog/best-high-waist-pilates-leggings" },
                   { heading: "Hot or dynamic classes", body: "Sweat-wicking, quick-drying fabric: Sweaty Betty Power or CRZ YOGA Naked Feeling, which its listing says is designed for hot yoga or Pilates.", href: "/blog/what-to-wear-to-pilates" },
                 ].map((item) => (
                   <Link key={item.heading} href={item.href} className="rounded-xl p-5 block" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
@@ -310,7 +310,7 @@ export default function BestPilatesLeggingsPage() {
                 {[
                   "Wash inside-out on cold. Hot water wears out the elastane that gives leggings their stretch and shape.",
                   "Air dry flat or on a line. Tumble drying shortens the life of any performance fabric.",
-                  "Skip fabric softener. It coats moisture-wicking fibres and makes them less breathable.",
+                  "Skip fabric softener. It coats moisture-wicking fibers and makes them less breathable.",
                   "Rinse sweaty leggings straight after class if you can't wash them right away.",
                   "Replace them when the waistband loses its grip. A rolling waistband makes it harder for your instructor to see your alignment.",
                 ].map((tip, i) => (

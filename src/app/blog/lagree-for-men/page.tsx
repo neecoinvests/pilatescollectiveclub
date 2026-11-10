@@ -164,7 +164,7 @@ const OUTFITS = [
 ];
 
 const EXPECT = [
-  { h: "Strength doesn't transfer the way you think.", b: "Lagree is slow, constant tension with no rest. Big lifters are often surprised to be shaking within minutes, because the moves target stabilisers and endurance, not one-rep strength." },
+  { h: "Strength doesn't transfer the way you think.", b: "Lagree is slow, constant tension with no rest. Big lifters are often surprised to be shaking within minutes, because the moves target stabilizers and endurance, not one-rep strength." },
   { h: "Heavier springs aren't always harder.", b: "On a Megaformer, a lighter load can make the carriage less stable and a move harder to control. Follow the instructor's spring cues rather than loading up." },
   { h: "Slow is the whole point.", b: "The most common correction for first-timers is 'slower'. Moving fast uses momentum; moving slowly keeps the muscle under tension." },
   { h: "Tight hips and hamstrings show up fast.", b: "Lunges on the platform and carriage expose limited mobility. Take the easier option the instructor offers; nobody is watching." },

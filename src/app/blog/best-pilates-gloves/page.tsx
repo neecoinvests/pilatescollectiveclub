@@ -164,7 +164,7 @@ const jsonLd = {
         {
           "@type": "Question",
           name: "Are Lagree gloves different from regular workout gloves?",
-          acceptedAnswer: { "@type": "Answer", text: "Lagree practitioners often prefer full-grip or full-finger gloves because the Megaformer's handles and carriage bars require sustained grip. The key difference is prioritising grip coverage over dexterity, since Lagree movements are slow and controlled rather than requiring fine motor adjustments. If you also want wrist support for Lagree or weighted work, the MhIL gloves with built-in wrist wraps are our pick." },
+          acceptedAnswer: { "@type": "Answer", text: "Lagree practitioners often prefer full-grip or full-finger gloves because the Megaformer's handles and carriage bars require sustained grip. The key difference is prioritizing grip coverage over dexterity, since Lagree movements are slow and controlled rather than requiring fine motor adjustments. If you also want wrist support for Lagree or weighted work, the MhIL gloves with built-in wrist wraps are our pick." },
         },
       ],
     },

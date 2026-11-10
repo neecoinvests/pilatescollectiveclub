@@ -90,7 +90,7 @@ const TIERS: Tier[] = [
         price: "$16.00",
         url: amz("B08VYL1XFT"),
         description:
-          "Every Lagree regular goes through grip socks, so you can never give too many. TAVI's patented triangle grip and certified organic cotton knit come in fashion colours, which makes them feel like a gift rather than a chore. Check the size on the listing (this one is Medium).",
+          "Every Lagree regular goes through grip socks, so you can never give too many. TAVI's patented triangle grip and certified organic cotton knit come in fashion colors, which makes them feel like a gift rather than a chore. Check the size on the listing (this one is Medium).",
       },
       {
         id: "gaiam-sliders",
@@ -110,7 +110,7 @@ const TIERS: Tier[] = [
         price: "$19.99",
         url: amz("B011IU43WG"),
         description:
-          "Lagree is one of the sweatiest workouts in any studio. A mat-sized towel with a silicone grip back covers the platform for floor and kneeling work and doubles as a hand towel. Mat-sized at 24\" x 72\", in several colours.",
+          "Lagree is one of the sweatiest workouts in any studio. A mat-sized towel with a silicone grip back covers the platform for floor and kneeling work and doubles as a hand towel. Mat-sized at 24\" x 72\", in several colors.",
       },
       {
         id: "gymboss",
@@ -138,7 +138,7 @@ const TIERS: Tier[] = [
         price: "$29.99",
         url: amz("B085DVHQ57"),
         description:
-          "A 32 oz double-wall insulated bottle that keeps drinks cold for up to 24 hours. The FreeSip spout lets you sip through the built-in straw or tilt and swig, and the push-button lid locks closed for the gym bag. Sold by Amazon.com, in many colours.",
+          "A 32 oz double-wall insulated bottle that keeps drinks cold for up to 24 hours. The FreeSip spout lets you sip through the built-in straw or tilt and swig, and the push-button lid locks closed for the gym bag. Sold by Amazon.com, in many colors.",
       },
       {
         id: "toesox",
@@ -188,7 +188,7 @@ const TIERS: Tier[] = [
         price: "$89.60",
         url: amz("B0FP3MWK1Z"),
         description:
-          "A lightweight, super-stretch jersey tank with a crew neck, sold by Shopbop (an Amazon company). Varley is a favourite for the boutique-fitness crowd, and a fitted tank stays put during planks. This listing is size M, so check sizing or include a gift receipt.",
+          "A lightweight, super-stretch jersey tank with a crew neck, sold by Shopbop (an Amazon company). Varley is a favorite for the boutique-fitness crowd, and a fitted tank stays put during planks. This listing is size M, so check sizing or include a gift receipt.",
       },
       {
         id: "manduka-yogitoes",
@@ -236,7 +236,7 @@ const TIERS: Tier[] = [
         price: "$219.99",
         url: amz("B0DV7JN7ZD"),
         description:
-          "The name most people recognise. It has three attachments, one-button control with three speeds, and Bluetooth for guided routines in the Therabody app. Compact enough for travel, and it comes in several colours. Sold by TheraGun.",
+          "The name most people recognize. It has three attachments, one-button control with three speeds, and Bluetooth for guided routines in the Therabody app. Compact enough for travel, and it comes in several colors. Sold by TheraGun.",
       },
     ],
   },

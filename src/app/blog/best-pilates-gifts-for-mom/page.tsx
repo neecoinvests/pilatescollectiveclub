@@ -46,7 +46,7 @@ const PRODUCTS = [
     name: "Manduka PRO Yoga & Pilates Mat",
     price: "$144.00",
     verdict: "The Heirloom Gift",
-    description: "If she's been rolling out a basic studio mat or an entry-level mat she bought years ago, the Manduka PRO is the upgrade she hasn't given herself. It is 6mm thick for full joint cushioning, made from a high-density closed-cell PVC that never absorbs moisture or odour, and backed by a lifetime guarantee: Manduka replaces it free if it ever wears out. Non-slip on both sides, heavy enough to stay anchored, and available in a range of refined colours. Professional instructors buy this mat for themselves. It is the most enduring, practical gift in pilates.",
+    description: "If she's been rolling out a basic studio mat or an entry-level mat she bought years ago, the Manduka PRO is the upgrade she hasn't given herself. It is 6mm thick for full joint cushioning, made from a high-density closed-cell PVC that never absorbs moisture or odor, and backed by a lifetime guarantee: Manduka replaces it free if it ever wears out. Non-slip on both sides, heavy enough to stay anchored, and available in a range of refined colors. Professional instructors buy this mat for themselves. It is the most enduring, practical gift in pilates.",
     affiliateUrl: "https://www.amazon.com/dp/B0066T7I54?tag=pilatescollective-20",
   },
   {
@@ -54,7 +54,7 @@ const PRODUCTS = [
     name: "Lululemon Align High-Rise Legging 25\"",
     price: "$98.00",
     verdict: "The Legging She'll Wear to Every Class",
-    description: "The Lululemon Align has become the default pilates legging because nothing else feels like it at the price. The Nulu fabric is second-skin light, genuinely soft in a way that synthetic fabrics rarely achieve, and fully opaque in every colour. The high waist doesn't roll or dig. The 25-inch inseam is the ideal length for reformer footwork. If she's been wearing older leggings or anything that pulls down during practice, this is the gift that changes her morning routine. Available in over 30 colours: choose one she's mentioned or stick to black.",
+    description: "The Lululemon Align has become the default pilates legging because nothing else feels like it at the price. The Nulu fabric is second-skin light, genuinely soft in a way that synthetic fabrics rarely achieve, and fully opaque in every color. The high waist doesn't roll or dig. The 25-inch inseam is the ideal length for reformer footwork. If she's been wearing older leggings or anything that pulls down during practice, this is the gift that changes her morning routine. Available in over 30 colors: choose one she's mentioned or stick to black.",
     affiliateUrl: "https://www.amazon.com/dp/B08M8ZTKJS?tag=pilatescollective-20",
   },
   {
@@ -70,7 +70,7 @@ const PRODUCTS = [
     name: "Theraband Professional Resistance Band Set",
     price: "$19.47",
     verdict: "Most Useful Under-$30 Gift",
-    description: "Theraband is the clinical standard: the brand used in hospital physiotherapy and prescribed by sports medicine physicians. The professional set includes six colour-coded resistance levels, pre-cut to exercise length, covering everything from gentle warm-up to serious conditioning. For a practitioner building a home practice or doing supplementary work between studio sessions, this set becomes a daily tool. At $26 it is the highest-value pilates gift per dollar on this list: practical, durable, and genuinely useful every week.",
+    description: "Theraband is the clinical standard: the brand used in hospital physiotherapy and prescribed by sports medicine physicians. The professional set includes six color-coded resistance levels, pre-cut to exercise length, covering everything from gentle warm-up to serious conditioning. For a practitioner building a home practice or doing supplementary work between studio sessions, this set becomes a daily tool. At $26 it is the highest-value pilates gift per dollar on this list: practical, durable, and genuinely useful every week.",
     affiliateUrl: "https://www.amazon.com/dp/B07RF9FYM6?tag=pilatescollective-20",
   },
   {
@@ -86,7 +86,7 @@ const PRODUCTS = [
     name: "Lululemon Everywhere Belt Bag Large 2L",
     price: "$38",
     verdict: "The Bag Everyone Has",
-    description: "The Lululemon belt bag is not a trend: it has become a permanent fixture in pilates studio culture, hanging on lockers and clipped to tote bags across the country. The 2L large version fits a phone, keys, cards, lip balm, and a snack. Water-repellent ripstop fabric, a quick-access front zip, and an adjustable strap that works worn crossbody or around the waist. At $48 it is a considered gift at an accessible price: practical, recognisable, and used every single day. Not sold on Amazon: this link goes to Lululemon's own site.",
+    description: "The Lululemon belt bag is not a trend: it has become a permanent fixture in pilates studio culture, hanging on lockers and clipped to tote bags across the country. The 2L large version fits a phone, keys, cards, lip balm, and a snack. Water-repellent ripstop fabric, a quick-access front zip, and an adjustable strap that works worn crossbody or around the waist. At $48 it is a considered gift at an accessible price: practical, recognizable, and used every single day. Not sold on Amazon: this link goes to Lululemon's own site.",
     affiliateUrl: "https://shop.lululemon.com",
   },
 ];
@@ -97,7 +97,7 @@ const CRITERIA = [
     body: "A mom who has been doing pilates for years already has basics: she doesn't need another mat or resistance bands. She's ready for the upgrade: better leggings, a professional mat, or a quality recovery tool. A beginner mom needs fundamentals first.",
   },
   {
-    heading: "Prioritise quality over novelty",
+    heading: "Prioritize quality over novelty",
     body: "The best pilates gifts for moms are items she would buy for herself if she was being extravagant. A Manduka PRO mat or Lululemon Align legging says 'I know what you love' in a way that a novelty gift never can. Quality is the message.",
   },
   {
@@ -121,11 +121,11 @@ const FAQ = [
   },
   {
     q: "Is the Manduka PRO mat worth the price as a gift?",
-    a: "Yes: the Manduka PRO at $144 is worth every dollar as a gift for a mom who practices regularly. It comes with a lifetime guarantee (Manduka replaces it free if it ever wears out), the closed-cell surface never absorbs sweat or odour, and it is the mat that professional instructors choose for themselves. It will outlast any cheaper mat by years.",
+    a: "Yes: the Manduka PRO at $144 is worth every dollar as a gift for a mom who practices regularly. It comes with a lifetime guarantee (Manduka replaces it free if it ever wears out), the closed-cell surface never absorbs sweat or odor, and it is the mat that professional instructors choose for themselves. It will outlast any cheaper mat by years.",
   },
   {
     q: "What pilates gift is good for Mother's Day?",
-    a: "The Lululemon Align Legging ($98) is ideal for Mother's Day: it arrives feeling personal and considered, it's used at every class, and the wide colour range means you can choose something she's mentioned. The TriggerPoint GRID Roller ($28.99) is the best under-$50 Mother's Day pilates gift. Both are available on Amazon with reliable fast shipping.",
+    a: "The Lululemon Align Legging ($98) is ideal for Mother's Day: it arrives feeling personal and considered, it's used at every class, and the wide color range means you can choose something she's mentioned. The TriggerPoint GRID Roller ($28.99) is the best under-$50 Mother's Day pilates gift. Both are available on Amazon with reliable fast shipping.",
   },
 ];
 
@@ -250,7 +250,7 @@ export default function Page() {
           </div>
 
           <p style={{ fontFamily: "var(--font-sans)", fontSize: "11px", color: "#9a9490", lineHeight: 1.7, marginTop: "64px", paddingTop: "24px", borderTop: "1px solid #ede9e3" }}>
-            Pilates Collective Club participates in the Amazon Associates programme. Purchases through our links earn us a small commission at no additional cost to you. All recommendations are independently chosen.
+            Pilates Collective Club participates in the Amazon Associates program. Purchases through our links earn us a small commission at no additional cost to you. All recommendations are independently chosen.
           </p>
         </div>
       </section>

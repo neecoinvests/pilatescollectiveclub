@@ -149,7 +149,7 @@ const BUDGET_SCENARIOS = [
     label: "02",
     title: "Serious mat practitioner",
     cost: "$400–$700",
-    items: ["Everything in the Minimal setup", "Arc barrel (upgrade from foam roller)", "Quality mat bag for storage and organisation"],
+    items: ["Everything in the Minimal setup", "Arc barrel (upgrade from foam roller)", "Quality mat bag for storage and organization"],
     covers: "Everything the minimal setup covers, plus extension work, Swan and Breaststroke variations, and balance challenges that the flat mat cannot provide. The arc barrel is the most versatile single upgrade to a mat-only practice.",
   },
   {
@@ -324,7 +324,7 @@ export default function HomePilatesStudioSetupPage() {
                   },
                   {
                     name: "Foam roller",
-                    desc: "Thoracic mobility work and self-myofascial release that the flat mat cannot provide. The foam roller allows thoracic extension over a curved surface, addressing the thoracic kyphosis that sedentary work patterns create. Used before mat sessions as mobilisation, or after sessions for recovery.",
+                    desc: "Thoracic mobility work and self-myofascial release that the flat mat cannot provide. The foam roller allows thoracic extension over a curved surface, addressing the thoracic kyphosis that sedentary work patterns create. Used before mat sessions as mobilization, or after sessions for recovery.",
                   },
                 ].map((item) => (
                   <div
@@ -514,7 +514,7 @@ export default function HomePilatesStudioSetupPage() {
                 {[
                   {
                     heading: "Flooring",
-                    content: "Rubber gym flooring (minimum 8mm) is the professional standard for home Pilates studios. It provides grip for the reformer base, preventing the apparatus from sliding during spring-loaded exercises, cushioning for mat work, and reduces noise transfer to rooms below. Interlocking tiles are the most practical format: installed in an afternoon, removable if you move, and expandable as the studio grows. Standard interlocking gym tiles from hardware stores work well. Horse stall mat rubber (12–20mm thickness) is a popular choice among home practitioners for its durability and lower cost per square metre, available in 6' × 4' panels at farm supply stores.",
+                    content: "Rubber gym flooring (minimum 8mm) is the professional standard for home Pilates studios. It provides grip for the reformer base, preventing the apparatus from sliding during spring-loaded exercises, cushioning for mat work, and reduces noise transfer to rooms below. Interlocking tiles are the most practical format: installed in an afternoon, removable if you move, and expandable as the studio grows. Standard interlocking gym tiles from hardware stores work well. Horse stall mat rubber (12–20mm thickness) is a popular choice among home practitioners for its durability and lower cost per square meter, available in 6' × 4' panels at farm supply stores.",
                   },
                   {
                     heading: "Mirrors",
@@ -526,7 +526,7 @@ export default function HomePilatesStudioSetupPage() {
                   },
                   {
                     heading: "Ventilation",
-                    content: "Pilates is low-intensity cardiovascular work. Unlike spin or HIIT, a Pilates session does not generate extreme body heat or require industrial ventilation. A fan, open window, or basic room ventilation is generally sufficient for home use. Dedicated HVAC is not required unless the space has no natural airflow. Ensure the room does not become humid, especially if rubber flooring is installed, as trapped moisture beneath the tiles creates mould risk.",
+                    content: "Pilates is low-intensity cardiovascular work. Unlike spin or HIIT, a Pilates session does not generate extreme body heat or require industrial ventilation. A fan, open window, or basic room ventilation is generally sufficient for home use. Dedicated HVAC is not required unless the space has no natural airflow. Ensure the room does not become humid, especially if rubber flooring is installed, as trapped moisture beneath the tiles creates mold risk.",
                   },
                 ].map((item) => (
                   <div

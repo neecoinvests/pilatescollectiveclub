@@ -12,7 +12,7 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Studios in Copenhagen (2026)",
-  description: "The best Pilates studios in Copenhagen: reformer boutiques in Østerbro, Frederiksberg, and the city centre. Six curated picks, verified October 2026.",
+  description: "The best Pilates studios in Copenhagen: reformer boutiques in Østerbro, Frederiksberg, and the city center. Six curated picks, verified October 2026.",
   robots: {
     index: true,
     follow: true,
@@ -77,7 +77,7 @@ const STUDIOS = [
     name: "Copenhagen Pilates Studio",
     neighborhood: "Indre By (Nyhavn)",
     priceLevel: "$$$",
-    review: "Copenhagen Pilates Studio on Peder Skrams Gade sits in the old city near Nyhavn, a short walk from Kongens Nytorv metro. It is a dedicated Pilates studio listed on Bruce Studios, convenient for anyone working in the centre.",
+    review: "Copenhagen Pilates Studio on Peder Skrams Gade sits in the old city near Nyhavn, a short walk from Kongens Nytorv metro. It is a dedicated Pilates studio listed on Bruce Studios, convenient for anyone working in the center.",
     caveat: "there is limited published detail about its class formats and equipment: check the schedule or take an intro class first.",
     address: "Peder Skrams Gade 5, København K",
     bestFor: "Central Pilates near Nyhavn",
@@ -104,7 +104,7 @@ const STUDIOS = [
     review: "Power Studio by Power House runs power reformer Pilates in a small, aesthetic studio in Indre By. Having only a few machines leaves the instructors plenty of time to guide each person, and it is rated 4.8 from about 300 reviews on Bruce Studios. Classes are taught in Danish.",
     caveat: "power reformer classes are high-energy: beginners should tell the instructor it is their first class.",
     address: "Vester Farimagsgade 29, 1606 København V",
-    bestFor: "Energetic power reformer in the city centre",
+    bestFor: "Energetic power reformer in the city center",
     signatureClass: "Power Reformer",
     bookingTip: "With few machines per class, book ahead, especially for after-work slots.",
   },
@@ -124,8 +124,8 @@ const STUDIOS = [
 
 const BOOKING_TIPS = [
   {
-    heading: "Expect to pay €25–55 per class",
-    body: "Copenhagen's Pilates pricing is comparable to Stockholm and London. Group reformer classes run approximately 250–450 DKK (€33–60); private sessions at classical studios reach 600–750 DKK. Monthly membership packages, typically four to eight sessions, provide the best per-class economics for regular practitioners.",
+    heading: "Expect to pay about $28–62 per class",
+    body: "Copenhagen's Pilates pricing is comparable to Stockholm and London. Group reformer classes run about $38–68; private sessions at classical studios reach about $90–115. Monthly membership packages, typically four to eight sessions, provide the best per-class economics for regular practitioners.",
   },
   {
     heading: "Book early: demand consistently outstrips supply",
@@ -137,7 +137,7 @@ const BOOKING_TIPS = [
   },
   {
     heading: "Grip socks are required and worth buying your own",
-    body: "All Copenhagen studios require toeless grip socks. The studio-sold options typically run 120–150 DKK: buying online ahead of your visit saves money and the minor inconvenience of arriving without them.",
+    body: "All Copenhagen studios require toeless grip socks. The studio-sold options typically run about $18–23: buying online ahead of your visit saves money and the minor inconvenience of arriving without them.",
   },
   {
     heading: "Introductory offers: use them before committing",
@@ -154,17 +154,17 @@ const NEIGHBORHOODS = [
   {
     name: "Østerbro",
     description:
-      "A prosperous, family-oriented neighbourhood east of the centre with a strong wellness culture and growing studio infrastructure. The Reformery represents the best of what Østerbro offers: community warmth combined with genuine instruction quality at pricing that doesn't require Frederiksberg budgets.",
+      "A prosperous, family-oriented neighborhood east of the center with a strong wellness culture and growing studio infrastructure. The Reformery represents the best of what Østerbro offers: community warmth combined with genuine instruction quality at pricing that doesn't require Frederiksberg budgets.",
   },
   {
     name: "Nørrebro",
     description:
-      "Copenhagen's most culturally diverse and creatively animated neighbourhood has developed an unexpectedly coherent wellness scene. Nørrebro studios are typically more accessible in both price and atmosphere than the western districts, without making significant compromises on instruction.",
+      "Copenhagen's most culturally diverse and creatively animated neighborhood has developed an unexpectedly coherent wellness scene. Nørrebro studios are typically more accessible in both price and atmosphere than the western districts, without making significant compromises on instruction.",
   },
   {
     name: "Vesterbro & Indre By",
     description:
-      "Two distinct but complementary options. Vesterbro's studios reflect the neighbourhood's creative and independent character: innovative, energetic, and community-minded. Indre By, the historic city centre, is home to the Copenhagen Pilates Centre: the city's most classically rigorous and long-established address.",
+      "Two distinct but complementary options. Vesterbro's studios reflect the neighborhood's creative and independent character: innovative, energetic, and community-minded. Indre By, the historic city center, is home to the Copenhagen Pilates Centre: the city's most classically rigorous and long-established address.",
   },
 ];
 
@@ -238,8 +238,8 @@ const FURTHER_READING = [
 
 const CITY_FAQS = [
   { q: "What are the best Pilates studios in Copenhagen?", a: "Our 6 curated picks are Studio 41 Pilates (Vesterbro), Pilates CPH (Central Copenhagen), Copenhagen Pilates Studio (Indre By, Nyhavn), Rama Reformer Club (Amager), Power Studio by Power House (Indre By) and PWR.8 Studio (Frederiksberg). Each listing above covers what the studio is best for, its signature class and a booking tip." },
-  { q: "Which Copenhagen neighbourhoods are best for Pilates?", a: "This guide covers Frederiksberg, Østerbro, Nørrebro and Vesterbro & Indre By. Frederiksberg: Technically its own municipality, Frederiksberg sits at the heart of Copenhagen's premium wellness offer." },
-  { q: "What should I know about booking Pilates classes in Copenhagen?", a: "Expect to pay €25–55 per class. Copenhagen's Pilates pricing is comparable to Stockholm and London." },
+  { q: "Which Copenhagen neighborhoods are best for Pilates?", a: "This guide covers Frederiksberg, Østerbro, Nørrebro and Vesterbro & Indre By. Frederiksberg: Technically its own municipality, Frederiksberg sits at the heart of Copenhagen's premium wellness offer." },
+  { q: "What should I know about booking Pilates classes in Copenhagen?", a: "Expect to pay about $28–62 per class. Copenhagen's Pilates pricing is comparable to Stockholm and London." },
   { q: "What should I bring to a Pilates class in Copenhagen?", a: "Grip socks are required at most reformer studios. Our gear list for Copenhagen covers Pilates grip socks, Pilates mat, magic circle, resistance bands, foam roller and home Pilates reformer." },
 ];
 
@@ -249,7 +249,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Best Pilates Studios in Copenhagen (2026)",
-      "description": "The best Pilates studios in Copenhagen: reformer boutiques in Østerbro, Frederiksberg, and the city centre. Six curated picks, verified October 2026.",
+      "description": "The best Pilates studios in Copenhagen: reformer boutiques in Østerbro, Frederiksberg, and the city center. Six curated picks, verified October 2026.",
       "url": "https://pilatescollectiveclub.com/cities/copenhagen",
       "datePublished": "2026-06-28",
       "dateModified": "2026-10-20",
@@ -321,7 +321,7 @@ export default function CopenhagenPage() {
             </p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Copenhagen has emerged as one of northern Europe's most compelling destinations for Pilates, combining the Scandinavian instinct for considered design and purposeful movement with a studio culture that takes instruction seriously. The city's wellness market is relatively compact but remarkably coherent, from the classical rigour of Vesterbro to small-group reformer clubs on Amager. This guide identifies six studios that represent the range of what Copenhagen currently offers, from classical Gratz apparatus in Vesterbro to power reformer in Indre By.
+              Copenhagen has emerged as one of northern Europe's most compelling destinations for Pilates, combining the Scandinavian instinct for considered design and purposeful movement with a studio culture that takes instruction seriously. The city's wellness market is relatively compact but remarkably coherent, from the classical rigor of Vesterbro to small-group reformer clubs on Amager. This guide identifies six studios that represent the range of what Copenhagen currently offers, from classical Gratz apparatus in Vesterbro to power reformer in Indre By.
             </p>
           </div>
         </section>
@@ -381,10 +381,10 @@ export default function CopenhagenPage() {
         <section className="py-20 px-6" style={{ backgroundColor: "#fcf9f8" }}>
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best neighbourhoods for Pilates in Copenhagen
+              Best neighborhoods for Pilates in Copenhagen
             </h2>
             <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-              Copenhagen's Pilates landscape is shaped by its neighbourhoods.
+              Copenhagen's Pilates landscape is shaped by its neighborhoods.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {NEIGHBORHOODS.map((n) => (

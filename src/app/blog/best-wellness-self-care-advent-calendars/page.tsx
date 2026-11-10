@@ -55,7 +55,7 @@ const GUIDE: EquipmentGuideProps = {
       items: [
         advent("twiningsTea", { badge: "Best Tea Calendar", pros: ["2 tea bags a day, 48 in total", "Sold by Amazon"], cons: ["Mostly classic blends"] }),
         advent("pukkaTea", { badge: "Best Caffeine-Free Options", pros: ["Organic herbal blends", "Recyclable paper sachets", "Under $17"], cons: ["One bag a day"] }),
-        advent("stashTea", { badge: "Best Dessert Flavours", pros: ["9 caffeine-free blends", "Vanilla caramel, chai and berry flavours"], cons: ["Sweeter flavour profile"] }),
+        advent("stashTea", { badge: "Best Dessert Flavors", pros: ["9 caffeine-free blends", "Vanilla caramel, chai and berry flavors"], cons: ["Sweeter flavor profile"] }),
         advent("taylorsTea", { badge: "Best for Tea Purists", pros: ["2 bags a day", "Blending since 1886"], cons: ["Blend list not published"] }),
         advent("teaForte", { badge: "Best Luxury Tea", pros: ["24 different loose-leaf blends", "Signature pyramid infusers"], cons: ["$78"] }),
       ],

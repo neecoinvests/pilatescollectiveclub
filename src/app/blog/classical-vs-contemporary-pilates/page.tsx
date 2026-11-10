@@ -109,12 +109,12 @@ const jsonLd = {
     {
       "@type": "Question",
       "name": "What is contemporary Pilates?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Contemporary Pilates draws from the original method but incorporates modern anatomical research, biomechanics, and injury rehabilitation principles. STOTT Pilates, Balanced Body, and BASI represent contemporary training organisations." }
+      "acceptedAnswer": { "@type": "Answer", "text": "Contemporary Pilates draws from the original method but incorporates modern anatomical research, biomechanics, and injury rehabilitation principles. STOTT Pilates, Balanced Body, and BASI represent contemporary training organizations." }
     },
     {
       "@type": "Question",
       "name": "Which style is better for beginners?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Neither is categorically better. Contemporary studios often offer more structured beginner programmes. Classical studios tend to work from the full repertoire earlier. The most important factor is finding a qualified instructor regardless of lineage." }
+      "acceptedAnswer": { "@type": "Answer", "text": "Neither is categorically better. Contemporary studios often offer more structured beginner programs. Classical studios tend to work from the full repertoire earlier. The most important factor is finding a qualified instructor regardless of lineage." }
     },
     {
       "@type": "Question",
@@ -178,9 +178,9 @@ export default function ClassicalVsContemporaryPage() {
               </Callout>
 
               <Section title="Contemporary Pilates: evolution or departure?">
-                <p>Contemporary Pilates emerged in the latter decades of the 20th century as physical therapy research, biomechanics, and exercise science began to inform how Pilates teachers trained and taught. Organisations like STOTT Pilates and BASI (Body Arts and Science International) developed contemporary curricula that incorporated modern understanding of spinal anatomy, neutral spine positioning, and muscle activation sequencing.</p>
-                <p>The result is a version of Pilates that is more adaptive, more evidence-informed, and better suited to clinical populations: people recovering from injury, those with significant postural imbalances, or clients with specific rehabilitation needs. Contemporary teachers modify exercises freely, often prioritise neutral spine over Joseph&apos;s preferred imprinted position, and integrate props and functional movement patterns that weren&apos;t part of the original repertoire.</p>
-                <p>This flexibility is a genuine strength. But contemporary Pilates also encompasses a wide range of quality: at its best, it is rigorous, intelligent, and highly personalised; at its worst, it is indistinguishable from generic core conditioning classes with reformers.</p>
+                <p>Contemporary Pilates emerged in the latter decades of the 20th century as physical therapy research, biomechanics, and exercise science began to inform how Pilates teachers trained and taught. Organizations like STOTT Pilates and BASI (Body Arts and Science International) developed contemporary curricula that incorporated modern understanding of spinal anatomy, neutral spine positioning, and muscle activation sequencing.</p>
+                <p>The result is a version of Pilates that is more adaptive, more evidence-informed, and better suited to clinical populations: people recovering from injury, those with significant postural imbalances, or clients with specific rehabilitation needs. Contemporary teachers modify exercises freely, often prioritize neutral spine over Joseph&apos;s preferred imprinted position, and integrate props and functional movement patterns that weren&apos;t part of the original repertoire.</p>
+                <p>This flexibility is a genuine strength. But contemporary Pilates also encompasses a wide range of quality: at its best, it is rigorous, intelligent, and highly personalized; at its worst, it is indistinguishable from generic core conditioning classes with reformers.</p>
               </Section>
 
               <Section title="Fusion formats: Pilates-adjacent or something else?">
@@ -207,7 +207,7 @@ export default function ClassicalVsContemporaryPage() {
                         ["Exercise order", "Fixed, prescribed sequence", "Flexible, adapted to client"],
                         ["Spinal position", "Imprinted (flattened lumbar)", "Often neutral spine"],
                         ["Equipment preference", "Gratz (original specifications)", "Balanced Body, Merrithew"],
-                        ["Modifications", "Minimal, preserve the system", "Extensive, client-centred"],
+                        ["Modifications", "Minimal, preserve the system", "Extensive, client-centered"],
                         ["Evidence base", "Traditional lineage & empirical", "Sports science & physiotherapy"],
                         ["Best for", "Discipline, purists, tradition", "Rehab, beginners, clinical needs"],
                       ].map(([aspect, classical, contemporary], i) => (

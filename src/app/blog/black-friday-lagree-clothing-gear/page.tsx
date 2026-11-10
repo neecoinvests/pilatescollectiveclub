@@ -190,7 +190,7 @@ const GUIDE: DealsGuideProps = {
       "b": "Sold by Amazon.com or the brand's own store is the safest bet for returns. Some listings switch to third-party sellers during sales."
     },
     {
-      "h": "Check size and colour.",
+      "h": "Check size and color.",
       "b": "Clothing prices often vary by variant, and the deal may not cover yours."
     }
   ],

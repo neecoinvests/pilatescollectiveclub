@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   description: DESCRIPTION,
   openGraph: {
     title: TITLE,
-    description: "The Micro by Lagree Fitness against the Megaformer you use in class: what each is for, what carries over at home, what doesn't, and the cost-per-workout maths.",
+    description: "The Micro by Lagree Fitness against the Megaformer you use in class: what each is for, what carries over at home, what doesn't, and the cost-per-workout math.",
     type: "article",
     url: PAGE_URL,
     images: [{ url: HERO_IMAGE, width: 1200, height: 630, alt: "A row of carriage machines in a studio: Lagree Micro vs Megaformer" }],
@@ -341,7 +341,7 @@ export default function LagreeMicroVsMegaformerPage() {
             <TopPick name={QUICK_PICKS[0].name} price={QUICK_PICKS[0].price} note={QUICK_PICKS[0].note} url={QUICK_PICKS[0].url} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Every Lagree regular eventually does the maths: three classes a week adds up fast, and Lagree Fitness sells a home machine. So is the Micro ({MICRO.price}) a substitute for the Megaformer you shake on in class? Not quite, but for the right person it is the best Lagree purchase there is. Here is exactly what each machine is for, what carries over at home and what doesn&apos;t, and the cost-per-workout numbers.
+              Every Lagree regular eventually does the math: three classes a week adds up fast, and Lagree Fitness sells a home machine. So is the Micro ({MICRO.price}) a substitute for the Megaformer you shake on in class? Not quite, but for the right person it is the best Lagree purchase there is. Here is exactly what each machine is for, what carries over at home and what doesn&apos;t, and the cost-per-workout numbers.
             </p>
             <p className="text-sm leading-relaxed" style={bodyStyle}>
               Micro prices and stock were checked live on Amazon on October 4, 2026; all four items are sold by Lagree Fitness, and the pulley cables were low on stock. Megaformer pricing is not published: Lagree Fitness quotes it on request.

@@ -55,10 +55,10 @@ const STUDIOS = [
     name: "Club Pilates Rotunda",
     neighborhood: "Hampden / Rotunda",
     priceLevel: "$$$",
-    review: "Club Pilates Rotunda sits inside the Rotunda complex on West 40th Street, at the Hampden–Roland Park border. It offers the brand's levelled group reformer format in a polished, welcoming studio, and it is one of the most convenient reformer options for north Baltimore: Hampden, Roland Park, Medfield and the Johns Hopkins Homewood area.",
-    caveat: "a franchise studio follows a national curriculum: consistent and well-organised, but less individual than an owner-run independent.",
+    review: "Club Pilates Rotunda sits inside the Rotunda complex on West 40th Street, at the Hampden–Roland Park border. It offers the brand's leveled group reformer format in a polished, welcoming studio, and it is one of the most convenient reformer options for north Baltimore: Hampden, Roland Park, Medfield and the Johns Hopkins Homewood area.",
+    caveat: "a franchise studio follows a national curriculum: consistent and well-organized, but less individual than an owner-run independent.",
     address: "727 W 40th St, Suite 132, Baltimore, MD 21211",
-    bestFor: "North Baltimore residents, all levels, structured reformer programme",
+    bestFor: "North Baltimore residents, all levels, structured reformer program",
     signatureClass: "Reformer Flow",
     bookingTip: "Book morning and early-evening classes at least 48 hours ahead: they are the first to fill.",
   },
@@ -67,7 +67,7 @@ const STUDIOS = [
     name: "Club Pilates Canton Waterfront",
     neighborhood: "Canton / Waterfront",
     priceLevel: "$$$",
-    review: "Club Pilates' Canton Waterfront studio serves southeast Baltimore (Canton, Brewers Hill and Highlandtown) with the same levelled group reformer system as the Rotunda studio. Reviewers highlight friendly staff, patient instructors and early-morning class options that make it easier to build a consistent routine.",
+    review: "Club Pilates' Canton Waterfront studio serves southeast Baltimore (Canton, Brewers Hill and Highlandtown) with the same leveled group reformer system as the Rotunda studio. Reviewers highlight friendly staff, patient instructors and early-morning class options that make it easier to build a consistent routine.",
     caveat: "we could not independently confirm the studio's current street address, so check the Club Pilates website before your first visit.",
     address: "",
     bestFor: "Canton and southeast Baltimore residents, early-morning classes",
@@ -103,7 +103,7 @@ const STUDIOS = [
     name: "Embody Pilates & Wellness",
     neighborhood: "Mount Washington",
     priceLevel: "$$$",
-    review: "Embody is a north Baltimore studio and spa that combines boutique fitness classes, Pilates and barre, with physical therapy, massage, counselling and beauty services under one roof. Classes are small with personalised attention, in a rustic, chic space with modern equipment, which makes it a strong fit for clients who want Pilates alongside therapeutic or recovery services.",
+    review: "Embody is a north Baltimore studio and spa that combines boutique fitness classes, Pilates and barre, with physical therapy, massage, counseling and beauty services under one roof. Classes are small with personalized attention, in a rustic, chic space with modern equipment, which makes it a strong fit for clients who want Pilates alongside therapeutic or recovery services.",
     caveat: "it is a multi-service wellness spa rather than a Pilates-only studio, great for integrated care, less so if you only want classical apparatus work.",
     address: "5002 Lawndale Ave, Baltimore, MD 21210",
     bestFor: "Pilates combined with physical therapy and wellness services",
@@ -115,7 +115,7 @@ const STUDIOS = [
     name: "Club Pilates Laurel",
     neighborhood: "Laurel (Baltimore–Washington Corridor)",
     priceLevel: "$$",
-    review: "Club Pilates Laurel on Baltimore Avenue (US-1) serves the suburban Baltimore–Washington corridor with the brand's levelled group reformer programme. It is a practical choice for people who live or work between the two cities and want reliable reformer access without driving into either downtown.",
+    review: "Club Pilates Laurel on Baltimore Avenue (US-1) serves the suburban Baltimore–Washington corridor with the brand's leveled group reformer program. It is a practical choice for people who live or work between the two cities and want reliable reformer access without driving into either downtown.",
     caveat: "a franchise format: consistent, but less individual than an independent studio.",
     address: "14712 Baltimore Ave, Suite 103, Laurel, MD 20707",
     bestFor: "Corridor commuters, all levels, membership-based training",
@@ -206,7 +206,7 @@ const GEAR = [
 const HOME_REFORMERS = [
   { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work: three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
   { tag: "Mid-Range Pick", name: "AeroPilates Pro XP 557", note: "AeroPilates' top-of-the-range home reformer, a step up for practitioners training several times a week.", price: "$1,329.99", url: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20" },
-  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
+  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodized aluminum frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
 ];
 
 const RELATED_CITIES = [
@@ -243,7 +243,7 @@ const FURTHER_READING = [
 
 const CITY_FAQS = [
   { q: "What are the best Pilates studios in Baltimore?", a: "Our 6 curated picks are Club Pilates Rotunda (Hampden / Rotunda), Club Pilates Canton Waterfront (Canton / Waterfront), Pilates House (Fells Point), Ebene Pilates (Locust Point), Embody Pilates & Wellness (Mount Washington) and Club Pilates Laurel (Laurel, Baltimore–Washington Corridor). Each listing above covers what the studio is best for, its signature class and a booking tip." },
-  { q: "Which Baltimore neighbourhoods are best for Pilates?", a: "This guide covers Hampden & Roland Park, Fells Point & Canton, Mount Washington & North Baltimore and Baltimore–Washington Corridor. Hampden & Roland Park: Baltimore's most wellness-oriented north-side corridor supports a strong mix of franchise and independent studios." },
+  { q: "Which Baltimore neighborhoods are best for Pilates?", a: "This guide covers Hampden & Roland Park, Fells Point & Canton, Mount Washington & North Baltimore and Baltimore–Washington Corridor. Hampden & Roland Park: Baltimore's most wellness-oriented north-side corridor supports a strong mix of franchise and independent studios." },
   { q: "What should I know about booking Pilates classes in Baltimore?", a: "Baltimore rewards neighborhood loyalty. Baltimore's distinct neighborhood identities, Fells Point, Canton, Hampden, Mount Washington, each have their own studio culture and community character." },
   { q: "What should I bring to a Pilates class in Baltimore?", a: "Grip socks are required at most reformer studios. Our gear list for Baltimore covers Pilates grip socks, Pilates mat (6mm), magic circle, fabric resistance bands and high-density foam roller." },
 ];

@@ -53,7 +53,7 @@ const PRODUCTS = [
     price: "Direct from Gratz",
     verdict: "The classical reformer benchmark",
     description:
-      "The Gratz Universal Reformer is the closest production equipment gets to the apparatus Joseph Pilates designed in his 8th Avenue studio. The spring system uses original-specification springs with a characteristic tension profile: what classical teachers describe as having more immediacy and 'life' than modern springs. The wooden frame, canvas straps, and natural rubber components give it an aesthetic and tactile quality that contemporary steel-and-upholstery reformers cannot replicate. This is priced well into four figures and up, and we could not independently verify a current figure: get a quote directly from Gratz rather than relying on a number quoted elsewhere. Gratz is sold direct at gratzpilates.com and through authorised dealers, not on Amazon.",
+      "The Gratz Universal Reformer is the closest production equipment gets to the apparatus Joseph Pilates designed in his 8th Avenue studio. The spring system uses original-specification springs with a characteristic tension profile: what classical teachers describe as having more immediacy and 'life' than modern springs. The wooden frame, canvas straps, and natural rubber components give it an aesthetic and tactile quality that contemporary steel-and-upholstery reformers cannot replicate. This is priced well into four figures and up, and we could not independently verify a current figure: get a quote directly from Gratz rather than relying on a number quoted elsewhere. Gratz is sold direct at gratzpilates.com and through authorized dealers, not on Amazon.",
     affiliateUrl: "https://www.gratzpilates.com/collections/reformers",
     tag: "Classical Standard",
   },
@@ -126,7 +126,7 @@ const jsonLd = {
           "name": "Can I buy Gratz on Amazon?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Typically not. Gratz sells directly at gratzpilates.com and through a small network of authorised dealers. If you see a Gratz listing on Amazon, verify the seller carefully.",
+            "text": "Typically not. Gratz sells directly at gratzpilates.com and through a small network of authorized dealers. If you see a Gratz listing on Amazon, verify the seller carefully.",
           },
         },
         {
@@ -193,7 +193,7 @@ export default function GratzPilatesPage() {
           <div className="max-w-3xl mx-auto">
 
             <QuickPicks className="mb-6 mt-4" picks={PRODUCTS.map((pr, i) => ({ name: pr.name, price: pr.price, url: pr.affiliateUrl, note: QP_NOTES[i] }))} />
-            <AffiliateNote>Gratz apparatus is sold directly through gratzpilates.com and certified dealers, not on Amazon. The apparatus links below go to gratzpilates.com. For accessories, we could not find genuine Gratz leather straps or classical-spec springs on Amazon, so those two items link instead to real, currently-sold (but non-Gratz) Amazon alternatives: clearly labelled as such. We earn a small commission on qualifying Amazon purchases.</AffiliateNote>
+            <AffiliateNote>Gratz apparatus is sold directly through gratzpilates.com and certified dealers, not on Amazon. The apparatus links below go to gratzpilates.com. For accessories, we could not find genuine Gratz leather straps or classical-spec springs on Amazon, so those two items link instead to real, currently-sold (but non-Gratz) Amazon alternatives: clearly labeled as such. We earn a small commission on qualifying Amazon purchases.</AffiliateNote>
 
             {/* Brand overview */}
 
@@ -265,7 +265,7 @@ export default function GratzPilatesPage() {
                   },
                   {
                     q: "Can I buy Gratz on Amazon?",
-                    a: "Typically not. Gratz sells directly at gratzpilates.com and through a small network of authorised dealers. If you see a Gratz listing on Amazon, verify the seller carefully: it may be a third-party reseller or a misrepresented item. The apparatus links in this guide go directly to gratzpilates.com; the two accessory items linked to Amazon are real listings from other brands, not Gratz products, and are labelled as such.",
+                    a: "Typically not. Gratz sells directly at gratzpilates.com and through a small network of authorized dealers. If you see a Gratz listing on Amazon, verify the seller carefully: it may be a third-party reseller or a misrepresented item. The apparatus links in this guide go directly to gratzpilates.com; the two accessory items linked to Amazon are real listings from other brands, not Gratz products, and are labeled as such.",
                   },
                   {
                     q: "What's the difference between Gratz and a classical Pilates reformer from another brand?",

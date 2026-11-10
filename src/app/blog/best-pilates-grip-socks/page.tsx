@@ -12,7 +12,7 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Grip Socks (2026): 5 Verified Picks",
-  description: "5 verified, in-stock Pilates grip socks on Amazon: toesox and TAVI studio favourites, Tucketts toeless, plus Gaiam and a 6-pair budget multi-pack from $7.59.",
+  description: "5 verified, in-stock Pilates grip socks on Amazon: toesox and TAVI studio favorites, Tucketts toeless, plus Gaiam and a 6-pair budget multi-pack from $7.59.",
   openGraph: {
     title: "Best Pilates Grip Socks (2026): 5 Verified Picks",
     description: "Five grip socks we verified as real, in-stock Amazon listings, from toesox and TAVI to budget picks, ranked and compared.",
@@ -40,7 +40,7 @@ const PRODUCTS = [
     price: "$30.00",
     verdict: "The original studio grip-sock brand, full-toe design: our top overall pick",
     description:
-      "toesox is the original studio grip-sock brand, and this low-rise 2-pack uses its full-toe design, with each toe in its own pocket. It's sold on Amazon by The Active Footwear Store, toesox's official distributor. At $30.00 for two pairs it costs more than the budget options below, but it's the brand many reformer regulars recognise from the studio floor.",
+      "toesox is the original studio grip-sock brand, and this low-rise 2-pack uses its full-toe design, with each toe in its own pocket. It's sold on Amazon by The Active Footwear Store, toesox's official distributor. At $30.00 for two pairs it costs more than the budget options below, but it's the brand many reformer regulars recognize from the studio floor.",
     affiliateUrl: "https://www.amazon.com/dp/B07QHNDHW3?tag=pilatescollective-20",
     tag: "Best Overall",
   },
@@ -235,7 +235,7 @@ export default function BestGripSocksPage() {
               title="Socks sorted? Here's what regulars upgrade next"
               body="Grip socks are the entry ticket to reformer class. The two purchases that change the experience most are leggings that stay opaque and put on the carriage, and, once you are going three times a week, a home reformer that pays for itself against class fees."
               picks={[
-                { name: "Varley FreeSoft Piped Full Leggings", price: "$98.00", url: "https://www.amazon.com/dp/B0FXN378H8?tag=pilatescollective-20", note: "Sold by Shopbop (an Amazon company). Soft, light-compression leggings from a studio-favourite brand." },
+                { name: "Varley FreeSoft Piped Full Leggings", price: "$98.00", url: "https://www.amazon.com/dp/B0FXN378H8?tag=pilatescollective-20", note: "Sold by Shopbop (an Amazon company). Soft, light-compression leggings from a studio-favorite brand." },
                 { name: "Buytime 96\" Wooden Pilates Reformer", price: "$529.99", url: "https://www.amazon.com/dp/B0HDCZHW6K?tag=pilatescollective-20", note: "Full-length 95.7\" wooden frame, 5 springs, jump board and sitting box included, per the listing." },
                 { name: "WINDFOOT Foldable Pilates Reformer", price: "$295.99", url: "https://www.amazon.com/dp/B0D31767J1?tag=pilatescollective-20", note: "A budget foldable reformer from a newer brand, with a jump board." },
               ]}
@@ -254,7 +254,7 @@ export default function BestGripSocksPage() {
                 {[
                   { heading: "Grip pattern coverage", body: "The most effective grip socks cover the full sole and heel. A sparse dot pattern at the ball of the foot only can be insufficient for reformer footwork." },
                   { heading: "Toe style", body: "Individual toe pockets can improve proprioception for some practitioners. Full-toe styles are more comfortable for others, especially wide feet. Neither is objectively better: it's personal preference." },
-                  { heading: "Fabric quality", body: "Breathable cotton or bamboo blends tend to resist retaining odour better than pure synthetic fabrics in a studio environment." },
+                  { heading: "Fabric quality", body: "Breathable cotton or bamboo blends tend to resist retaining odor better than pure synthetic fabrics in a studio environment." },
                   { heading: "Compression fit", body: "The sock needs to stay in place during dynamic movement. A loose grip sock that bunches or slides is both annoying and a safety issue on a moving carriage." },
                 ].map((item) => (
                   <div key={item.heading} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>

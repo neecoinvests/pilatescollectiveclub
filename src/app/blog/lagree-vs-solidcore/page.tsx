@@ -82,7 +82,7 @@ const PICKS: Pick[] = [
     price: "$16.00",
     url: amz("B08VYL1XFT"),
     description:
-      "If toe socks feel strange, this is the classic closed-toe alternative. TAVI uses a patented triangle grip pattern that the brand says was designed with instructors, on a certified organic cotton knit. One pair, in fashion colours. Check the size on the listing before you add it to your cart (this listing is Medium).",
+      "If toe socks feel strange, this is the classic closed-toe alternative. TAVI uses a patented triangle grip pattern that the brand says was designed with instructors, on a certified organic cotton knit. One pair, in fashion colors. Check the size on the listing before you add it to your cart (this listing is Medium).",
   },
   {
     id: "crz-biker",

@@ -55,7 +55,7 @@ const PRODUCTS = [
     name: "Beyond Yoga Spacedye High-Waist Midi Legging",
     price: "$99.00",
     verdict: "Best for Tall Practitioners",
-    description: "Beyond Yoga's Spacedye fabric has a distinctive heathered texture that moves with the body rather than against it. Their sizing runs long: excellent for tall practitioners who find most leggings mid-calf rather than ankle-length. The high waistband has sufficient compression to stay put without feeling tight, and the fabric is fully squat-proof in all colours.",
+    description: "Beyond Yoga's Spacedye fabric has a distinctive heathered texture that moves with the body rather than against it. Their sizing runs long: excellent for tall practitioners who find most leggings mid-calf rather than ankle-length. The high waistband has sufficient compression to stay put without feeling tight, and the fabric is fully squat-proof in all colors.",
     affiliateUrl: "https://www.amazon.com/dp/B07663TDHG?tag=pilatescollective-20",
     tag: "Best for Tall",
   },
@@ -64,7 +64,7 @@ const PRODUCTS = [
     name: "CRZ YOGA Naked Feeling High-Waist Legging",
     price: "$26.00",
     verdict: "Best Budget",
-    description: "The CRZ YOGA Naked Feeling legging has become a cult favourite for budget-conscious Pilates practitioners. The fabric is genuinely comparable to the Lululemon Align in softness and weight. The high waistband holds without rolling. Completely squat-proof. At $28, it's the most remarkable value on this list, and a credible alternative to leggings costing three times the price.",
+    description: "The CRZ YOGA Naked Feeling legging has become a cult favorite for budget-conscious Pilates practitioners. The fabric is genuinely comparable to the Lululemon Align in softness and weight. The high waistband holds without rolling. Completely squat-proof. At $28, it's the most remarkable value on this list, and a credible alternative to leggings costing three times the price.",
     affiliateUrl: "https://www.amazon.com/dp/B07DCSM69V?tag=pilatescollective-20",
     tag: "Best Value",
   },
@@ -130,7 +130,7 @@ const jsonLd = {
       "@type": "FAQPage",
       mainEntity: [
         { "@type": "Question", name: "Why do high-waist leggings work better for Pilates?", acceptedAnswer: { "@type": "Answer", text: "High-waist leggings stay in place through the full range of Pilates movement, particularly during supine, inverted, and rolling exercises where mid-rise leggings tend to slip down. The wider waistband also provides light core support and can aid proprioception (body awareness) in the lumbar region, which is beneficial for spinal articulation exercises." } },
-        { "@type": "Question", name: "How do I know if a high-waist legging is squat-proof?", acceptedAnswer: { "@type": "Answer", text: "The stretch test: hold the fabric at full extension (both hands pulling outward) and look through it. Squat-proof fabric remains opaque when stretched. Thin fabrics and light-coloured leggings in pale pink or white are most susceptible to becoming see-through. Fabric weight above 200 GSM is generally squat-proof; lighter fabrics need to be tested." } },
+        { "@type": "Question", name: "How do I know if a high-waist legging is squat-proof?", acceptedAnswer: { "@type": "Answer", text: "The stretch test: hold the fabric at full extension (both hands pulling outward) and look through it. Squat-proof fabric remains opaque when stretched. Thin fabrics and light-colored leggings in pale pink or white are most susceptible to becoming see-through. Fabric weight above 200 GSM is generally squat-proof; lighter fabrics need to be tested." } },
         { "@type": "Question", name: "What is the best high-waist legging for Pilates under $50?", acceptedAnswer: { "@type": "Answer", text: "The CRZ YOGA Naked Feeling High-Waist Legging (around $26) and the Gymshark Vital Seamless (around $48) are both excellent picks under $50. The CRZ YOGA competes directly with Lululemon's Align in fabric feel and opacity. The Gymshark offers seamless construction and consistent sizing. Both outperform many leggings in the $70–$90 range." } },
       ],
     },
@@ -194,7 +194,7 @@ export default function BestHighWaistPilatesLeggingsPage() {
               <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "1.6rem", fontWeight: 400, color: "#1a1714", marginBottom: "32px" }}>Frequently Asked Questions</h2>
               {[
                 { q: "Why do high-waist leggings work better for Pilates?", a: "High-waist leggings stay in place through the full range of Pilates movement, particularly during supine, inverted, and rolling exercises where mid-rise leggings tend to slip down. The wider waistband also provides light core support and can aid proprioception (body awareness) in the lumbar region, which is beneficial for spinal articulation exercises." },
-                { q: "How do I know if a high-waist legging is squat-proof?", a: "The stretch test: hold the fabric at full extension (both hands pulling outward) and look through it. Squat-proof fabric remains opaque when stretched. Thin fabrics and light-coloured leggings in pale pink or white are most susceptible to becoming see-through. Fabric weight above 200 GSM is generally squat-proof; lighter fabrics need to be tested." },
+                { q: "How do I know if a high-waist legging is squat-proof?", a: "The stretch test: hold the fabric at full extension (both hands pulling outward) and look through it. Squat-proof fabric remains opaque when stretched. Thin fabrics and light-colored leggings in pale pink or white are most susceptible to becoming see-through. Fabric weight above 200 GSM is generally squat-proof; lighter fabrics need to be tested." },
                 { q: "What is the best high-waist legging for Pilates under $50?", a: "The CRZ YOGA Naked Feeling High-Waist Legging (around $26) and the Gymshark Vital Seamless (around $48) are both excellent picks under $50. The CRZ YOGA competes directly with Lululemon's Align in fabric feel and opacity. The Gymshark offers seamless construction and consistent sizing. Both outperform many leggings in the $70–$90 range." },
               ].map((item) => (
                 <div key={item.q} style={{ borderTop: "1px solid #ede6dc", paddingTop: "24px", paddingBottom: "24px" }}>
@@ -217,7 +217,7 @@ export default function BestHighWaistPilatesLeggingsPage() {
           </div>
         </section>
 
-        <CTASection title="Find Your Studio" subtitle="Explore top-rated Pilates studios near you." showSearch searchPlaceholder="Search by city or neighbourhood..." />
+        <CTASection title="Find Your Studio" subtitle="Explore top-rated Pilates studios near you." showSearch searchPlaceholder="Search by city or neighborhood..." />
       </main>
       <Footer />
     </>

@@ -206,7 +206,7 @@ const GEAR = [
 const HOME_REFORMERS = [
   { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work: three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
   { tag: "Mid-Range Pick", name: "AeroPilates Pro XP 557", note: "AeroPilates' top-of-the-range home reformer, a step up for practitioners training several times a week.", price: "$1,329.99", url: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20" },
-  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
+  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodized aluminum frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
 ];
 
 const RELATED_CITIES = [
@@ -263,7 +263,7 @@ const FURTHER_READING = [
 
 const CITY_FAQS = [
   { q: "What are the best Pilates studios in Tampa?", a: "Our 6 curated picks are Club Pilates Hyde Park (Hyde Park / South Tampa), Club Pilates South Tampa (South Tampa), Club Pilates Westchase (Westchase), Club Pilates Seminole Heights (Seminole Heights), Club Pilates St. Petersburg (St. Petersburg) and Club Pilates Brandon (Brandon, East Tampa). Each listing above covers what the studio is best for, its signature class and a booking tip." },
-  { q: "Which Tampa neighbourhoods are best for Pilates?", a: "This guide covers Hyde Park / South Tampa, Seminole Heights, St. Petersburg and Westchase. Hyde Park / South Tampa: South Tampa's most upscale corridor, anchored by Bayshore Boulevard and Hyde Park Village." },
+  { q: "Which Tampa neighborhoods are best for Pilates?", a: "This guide covers Hyde Park / South Tampa, Seminole Heights, St. Petersburg and Westchase. Hyde Park / South Tampa: South Tampa's most upscale corridor, anchored by Bayshore Boulevard and Hyde Park Village." },
   { q: "What should I know about booking Pilates classes in Tampa?", a: "Plan around Florida's heat and humidity. Tampa's summers (June–September) are intensely hot and humid, arriving sweaty from a parking lot walk is the norm." },
   { q: "What should I bring to a Pilates class in Tampa?", a: "Grip socks are required at most reformer studios. Our gear list for Tampa covers Pilates grip socks, Pilates mat (6mm), magic circle, fabric resistance bands and high-density foam roller." },
 ];

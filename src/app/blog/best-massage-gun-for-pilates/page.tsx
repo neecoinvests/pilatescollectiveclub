@@ -155,7 +155,7 @@ export default function BestMassageGunForPilatesPage() {
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Reformer Pilates creates a distinctive pattern of muscular fatigue: deep hip flexors, thoracic paraspinals, and the smaller stabilising muscles of the shoulder girdle accumulate tension across sessions in ways that foam rolling alone cannot fully address. Percussion therapy, applied correctly, accelerates inter-session recovery and improves tissue extensibility before the next class. These five devices range from budget-friendly options like TOLOCO and Elefor to a trusted Therabody pick, evaluated specifically for post-Pilates application.
+              Reformer Pilates creates a distinctive pattern of muscular fatigue: deep hip flexors, thoracic paraspinals, and the smaller stabilizing muscles of the shoulder girdle accumulate tension across sessions in ways that foam rolling alone cannot fully address. Percussion therapy, applied correctly, accelerates inter-session recovery and improves tissue extensibility before the next class. These five devices range from budget-friendly options like TOLOCO and Elefor to a trusted Therabody pick, evaluated specifically for post-Pilates application.
             </p>
           </div>
         </section>

@@ -89,7 +89,7 @@ const jsonLd = {
     {
       "@type": "Question",
       "name": "Is Pilates or yoga better for back pain?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Both have evidence for back pain relief, but Pilates has stronger research for lower back pain due to its emphasis on spinal articulation and core stabilisation. Yoga benefit depends on style: restorative yoga is gentler, dynamic vinyasa can aggravate certain conditions." }
+      "acceptedAnswer": { "@type": "Answer", "text": "Both have evidence for back pain relief, but Pilates has stronger research for lower back pain due to its emphasis on spinal articulation and core stabilization. Yoga benefit depends on style: restorative yoga is gentler, dynamic vinyasa can aggravate certain conditions." }
     },
     {
       "@type": "Question",
@@ -157,7 +157,7 @@ export default function PilatesVsYogaPage() {
                 <Callout>The question isn&apos;t which is better: it&apos;s which is better for you, at this point in your life, with the goals you currently have.</Callout>
 
                 <Section title="What each practice develops">
-                  <p><strong style={{ color: "#1b1c1c" }}>Pilates</strong> primarily develops core strength, spinal articulation, postural alignment, and controlled movement patterns. The method works the deep stabilising muscles (the transversus abdominis, the multifidus, the pelvic floor) that most conventional gym training neglects. Reformer Pilates adds spring resistance, which develops muscular strength and endurance in ways that mat work alone cannot.</p>
+                  <p><strong style={{ color: "#1b1c1c" }}>Pilates</strong> primarily develops core strength, spinal articulation, postural alignment, and controlled movement patterns. The method works the deep stabilizing muscles (the transversus abdominis, the multifidus, the pelvic floor) that most conventional gym training neglects. Reformer Pilates adds spring resistance, which develops muscular strength and endurance in ways that mat work alone cannot.</p>
                   <p><strong style={{ color: "#1b1c1c" }}>Yoga</strong> primarily develops flexibility, balance, and body awareness, alongside, in flowing styles, cardiovascular fitness. More strength-oriented styles (ashtanga, power yoga) build considerable upper body and functional strength. The practice also develops breath regulation and, in dedicated practitioners, significant mental stillness.</p>
                   <p>Both practices improve body awareness, reduce injury risk, and produce calmer, more functional movers. The difference is emphasis: Pilates is more clinical and targeted; yoga is broader and, for many practitioners, more holistic.</p>
                 </Section>

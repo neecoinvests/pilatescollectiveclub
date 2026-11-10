@@ -46,7 +46,7 @@ const PRODUCTS = [
     name: "Lululemon Align High-Rise Legging 25\"",
     price: "$98.00",
     verdict: "Best Overall Christmas Gift",
-    description: "If there is one pilates Christmas gift that lands for virtually every woman who practices, it is the Lululemon Align. Made from Lululemon's proprietary Nulu fabric (cloud-soft, fully opaque, and so light it disappears during practice) the Align is the legging that defines reformer studio culture worldwide. The 25-inch inseam is the reformer-ideal length; the high waist stays put through every footbar press and long-stretch. Available in over 30 colours for the season, including limited holiday editions. If you're choosing one gift and nothing else, choose this.",
+    description: "If there is one pilates Christmas gift that lands for virtually every woman who practices, it is the Lululemon Align. Made from Lululemon's proprietary Nulu fabric (cloud-soft, fully opaque, and so light it disappears during practice) the Align is the legging that defines reformer studio culture worldwide. The 25-inch inseam is the reformer-ideal length; the high waist stays put through every footbar press and long-stretch. Available in over 30 colors for the season, including limited holiday editions. If you're choosing one gift and nothing else, choose this.",
     affiliateUrl: "https://www.amazon.com/dp/B08M8ZTKJS?tag=pilatescollective-20",
   },
   {
@@ -62,7 +62,7 @@ const PRODUCTS = [
     name: "Manduka PRO Yoga & Pilates Mat",
     price: "$144.00",
     verdict: "Best Mat Gift",
-    description: "A Manduka PRO under the Christmas tree is a genuinely special gift: an item that practitioners know, want, and almost never buy themselves because there's always something else to spend that $144 on. It is the professional standard: 6mm thick, closed-cell PVC surface that never absorbs moisture, and a lifetime guarantee. It ships flat in a flat-pack box that presents beautifully. Choose from their expanded holiday colour range, which includes earth tones and seasonal limited editions. She will know exactly what it is when she picks it up.",
+    description: "A Manduka PRO under the Christmas tree is a genuinely special gift: an item that practitioners know, want, and almost never buy themselves because there's always something else to spend that $144 on. It is the professional standard: 6mm thick, closed-cell PVC surface that never absorbs moisture, and a lifetime guarantee. It ships flat in a flat-pack box that presents beautifully. Choose from their expanded holiday color range, which includes earth tones and seasonal limited editions. She will know exactly what it is when she picks it up.",
     affiliateUrl: "https://www.amazon.com/dp/B0066T7I54?tag=pilatescollective-20",
   },
   {
@@ -70,7 +70,7 @@ const PRODUCTS = [
     name: "ToeSox Half-Toe Grip Socks 3-Pack",
     price: "$44.00",
     verdict: "Best Stocking Stuffer",
-    description: "Grip socks are the perfect Christmas stocking stuffer for anyone who does reformer pilates: compact enough to physically fit in a stocking, practical enough to be immediately used, and from a brand (ToeSox) that practitioners consistently choose over cheaper alternatives. The half-toe design is the studio standard; the 3-pack in coordinated seasonal colours is a gift that arrives looking considered rather than hasty. At $42 for three pairs, it is also the most budget-friendly genuinely-appreciated pilates Christmas gift on this list.",
+    description: "Grip socks are the perfect Christmas stocking stuffer for anyone who does reformer pilates: compact enough to physically fit in a stocking, practical enough to be immediately used, and from a brand (ToeSox) that practitioners consistently choose over cheaper alternatives. The half-toe design is the studio standard; the 3-pack in coordinated seasonal colors is a gift that arrives looking considered rather than hasty. At $42 for three pairs, it is also the most budget-friendly genuinely-appreciated pilates Christmas gift on this list.",
     affiliateUrl: "https://www.amazon.com/dp/B07Q5JM1G5?tag=pilatescollective-20",
   },
   {
@@ -78,7 +78,7 @@ const PRODUCTS = [
     name: "Alo Yoga Airlift 7/8 Legging",
     price: "$114",
     verdict: "Best Luxury Christmas Legging",
-    description: "For the practitioner who already owns the Lululemon Align and is ready for the next level, the Alo Airlift is the Christmas gift. The Airlift fabric applies sculpting compression that the Align doesn't: a tighter, more structured feel that creates a visibly lifted silhouette. The wide waistband is entirely opaque and stays in place through dynamic movement. Available in Alo's beautiful holiday palette: seasonal colourways that sell out by mid-December. Order early. This is the gift that gets worn from New Year's Day onwards. Not sold on Amazon: this link goes to Alo Yoga's own site.",
+    description: "For the practitioner who already owns the Lululemon Align and is ready for the next level, the Alo Airlift is the Christmas gift. The Airlift fabric applies sculpting compression that the Align doesn't: a tighter, more structured feel that creates a visibly lifted silhouette. The wide waistband is entirely opaque and stays in place through dynamic movement. Available in Alo's beautiful holiday palette: seasonal colorways that sell out by mid-December. Order early. This is the gift that gets worn from New Year's Day onwards. Not sold on Amazon: this link goes to Alo Yoga's own site.",
     affiliateUrl: "https://www.aloyoga.com",
   },
   {
@@ -86,15 +86,15 @@ const PRODUCTS = [
     name: "Lululemon Everywhere Belt Bag Large 2L",
     price: "$38",
     verdict: "Best Under-$50 Christmas Gift",
-    description: "Lululemon releases seasonal colourways of the Everywhere Belt Bag every holiday period, and they sell out. The 2L large version is the pilates studio staple: worn crossbody or clipped to a larger bag, it fits a phone, keys, lip balm, and cards. Water-repellent ripstop fabric, quick-access zip, adjustable strap. At $48 it is the most reliably appreciated under-$50 Christmas gift in the pilates space: giftable, recognisable, and used every day. Grab the seasonal colour before they're gone. Not sold on Amazon: this link goes to Lululemon's own site.",
+    description: "Lululemon releases seasonal colorways of the Everywhere Belt Bag every holiday period, and they sell out. The 2L large version is the pilates studio staple: worn crossbody or clipped to a larger bag, it fits a phone, keys, lip balm, and cards. Water-repellent ripstop fabric, quick-access zip, adjustable strap. At $48 it is the most reliably appreciated under-$50 Christmas gift in the pilates space: giftable, recognizable, and used every day. Grab the seasonal color before they're gone. Not sold on Amazon: this link goes to Lululemon's own site.",
     affiliateUrl: "https://shop.lululemon.com",
   },
 ];
 
 const CRITERIA = [
   {
-    heading: "Order early: colours sell out",
-    body: "Lululemon Align leggings in limited holiday colourways, Alo Yoga seasonal pieces, and the Lululemon belt bag in holiday colours consistently sell out by mid-December. If you want a specific colour for Christmas, shop in late November. Stock in neutral colours (black, bone, slate) stays available longer.",
+    heading: "Order early: colors sell out",
+    body: "Lululemon Align leggings in limited holiday colorways, Alo Yoga seasonal pieces, and the Lululemon belt bag in holiday colors consistently sell out by mid-December. If you want a specific color for Christmas, shop in late November. Stock in neutral colors (black, bone, slate) stays available longer.",
   },
   {
     heading: "Know her practice level",
@@ -121,11 +121,11 @@ const FAQ = [
   },
   {
     q: "What pilates gifts sell out at Christmas?",
-    a: "Lululemon Align leggings in limited holiday colourways, Alo Yoga seasonal pieces, and Lululemon belt bags in holiday colours typically sell out by mid-December. Order early, typically by late November, to guarantee your preferred colour and size. Standard colours (black, midnight navy, bone) remain available longer but the seasonal editions are worth ordering first.",
+    a: "Lululemon Align leggings in limited holiday colorways, Alo Yoga seasonal pieces, and Lululemon belt bags in holiday colors typically sell out by mid-December. Order early, typically by late November, to guarantee your preferred color and size. Standard colors (black, midnight navy, bone) remain available longer but the seasonal editions are worth ordering first.",
   },
   {
     q: "What is the best budget pilates Christmas gift?",
-    a: "The best budget pilates Christmas gift is a single pair of ToeSox Half-Toe Grip Socks ($18): they are required at every reformer studio, used at every class, and from a brand practitioners recognise as the quality standard. A Theraband Resistance Band Set ($26) is the best under-$30 gift that addresses training rather than just accessories. Both ship fast and present well as stocking fillers.",
+    a: "The best budget pilates Christmas gift is a single pair of ToeSox Half-Toe Grip Socks ($18): they are required at every reformer studio, used at every class, and from a brand practitioners recognize as the quality standard. A Theraband Resistance Band Set ($26) is the best under-$30 gift that addresses training rather than just accessories. Both ship fast and present well as stocking fillers.",
   },
 ];
 
@@ -193,7 +193,7 @@ export default function Page() {
           <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
           <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
           <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-            Christmas is the one moment in the year when a pilates practitioner might actually receive the Lululemon leggings, the Manduka mat, or the Theragun she's been quietly wanting for months. This guide covers every price tier, from a $42 stocking stuffer to a $399 premium gift, with picks that land because they're exactly what practitioners want, chosen from the brands they actually trust. Order early: the best colourways sell out before December.
+            Christmas is the one moment in the year when a pilates practitioner might actually receive the Lululemon leggings, the Manduka mat, or the Theragun she's been quietly wanting for months. This guide covers every price tier, from a $42 stocking stuffer to a $399 premium gift, with picks that land because they're exactly what practitioners want, chosen from the brands they actually trust. Order early: the best colorways sell out before December.
           </p>
         </div>
       </section>
@@ -250,7 +250,7 @@ export default function Page() {
           </div>
 
           <p style={{ fontFamily: "var(--font-sans)", fontSize: "11px", color: "#9a9490", lineHeight: 1.7, marginTop: "64px", paddingTop: "24px", borderTop: "1px solid #ede9e3" }}>
-            Pilates Collective Club participates in the Amazon Associates programme. Purchases through our links earn us a small commission at no additional cost to you. All recommendations are independently chosen.
+            Pilates Collective Club participates in the Amazon Associates program. Purchases through our links earn us a small commission at no additional cost to you. All recommendations are independently chosen.
           </p>
         </div>
       </section>

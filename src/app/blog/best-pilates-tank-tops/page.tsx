@@ -45,7 +45,7 @@ const PRODUCTS = [
     name: "Nike Dri-FIT One Slim-Fit Tank",
     price: "$35",
     verdict: "Best Budget Performance",
-    description: "Nike's Dri-FIT One Tank delivers reliable moisture management at a price that makes it a no-brainer for daily training. The slim fit stays tucked during reformer footwork and the minimal design suits any studio environment. Available in 20+ colours. Wash after wash, it holds its shape and colour longer than most competitors at this price.",
+    description: "Nike's Dri-FIT One Tank delivers reliable moisture management at a price that makes it a no-brainer for daily training. The slim fit stays tucked during reformer footwork and the minimal design suits any studio environment. Available in 20+ colors. Wash after wash, it holds its shape and color longer than most competitors at this price.",
     affiliateUrl: "https://www.amazon.com/s?k=nike+dri-fit+one+slim+fit+tank+top+women&tag=pilatescollective-20",
     tag: "Best Value",
   },
@@ -54,7 +54,7 @@ const PRODUCTS = [
     name: "Free People Movement Good Karma Tank",
     price: "$58",
     verdict: "Best Aesthetic",
-    description: "Free People's Good Karma Tank bridges the gap between workout gear and everyday wear effortlessly. The loose, draped silhouette is ideal for mat Pilates and studio-to-street transitions, while the modal-blend fabric breathes well and drapes without clinging. A favourite for practitioners who prioritise style alongside performance.",
+    description: "Free People's Good Karma Tank bridges the gap between workout gear and everyday wear effortlessly. The loose, draped silhouette is ideal for mat Pilates and studio-to-street transitions, while the modal-blend fabric breathes well and drapes without clinging. A favorite for practitioners who prioritize style alongside performance.",
     affiliateUrl: "https://www.amazon.com/s?k=free+people+movement+good+karma+tank&tag=pilatescollective-20",
     tag: "Lifestyle Pick",
   },
@@ -63,7 +63,7 @@ const PRODUCTS = [
     name: "Amazon Essentials Active Performance Tank",
     price: "$18",
     verdict: "Best Budget",
-    description: "At under $20, the Amazon Essentials Performance Tank does everything a basic tank needs to: wicks sweat, provides a comfortable fit through a full reformer class, and comes in a wide range of colours. The polyester-elastane blend has reasonable four-way stretch and holds up well to regular washing. An honest, unpretentious pick for beginners.",
+    description: "At under $20, the Amazon Essentials Performance Tank does everything a basic tank needs to: wicks sweat, provides a comfortable fit through a full reformer class, and comes in a wide range of colors. The polyester-elastane blend has reasonable four-way stretch and holds up well to regular washing. An honest, unpretentious pick for beginners.",
     affiliateUrl: "https://www.amazon.com/s?k=amazon+essentials+active+performance+tank+top+women&tag=pilatescollective-20",
     tag: "Budget Pick",
   },
@@ -81,7 +81,7 @@ const PRODUCTS = [
     name: "Alo Yoga Airlift Intrigue Tank",
     price: "$62",
     verdict: "Best Premium",
-    description: "Alo's Airlift fabric is their most technical offering: ultra-lightweight, compressive, and opaque in every colour. The Intrigue Tank features an open-cross back that elevates the silhouette while maximising airflow during heated reformer sessions. Worn equally for Pilates, yoga, and studio barre. Not sold on Amazon: this link goes to Alo Yoga's own site.",
+    description: "Alo's Airlift fabric is their most technical offering: ultra-lightweight, compressive, and opaque in every color. The Intrigue Tank features an open-cross back that elevates the silhouette while maximizing airflow during heated reformer sessions. Worn equally for Pilates, yoga, and studio barre. Not sold on Amazon: this link goes to Alo Yoga's own site.",
     affiliateUrl: "https://www.aloyoga.com",
     tag: "Premium",
   },
@@ -92,7 +92,7 @@ const PRODUCTS = [
     verdict: "Best for Lagree",
     description: "The multi-strap back of the Gymshark Flex Tank keeps you cool during high-output Lagree sessions while the fitted front stays in place through plank, pike, and mountain climber. Gymshark's Flex fabric has a subtle compression that doesn't restrict breathing: important during slow-twitch Megaformer work where breath control is essential. Not sold on Amazon: this link goes to Gymshark's own site.",
     affiliateUrl: "https://www.gymshark.com",
-    tag: "Lagree Favourite",
+    tag: "Lagree Favorite",
   },
 ];
 
@@ -214,13 +214,13 @@ export default function BestPilatesTankTopsPage() {
                 <ArticleCard title="Best Moisture-Wicking Tops for Pilates & Spin" excerpt="The best sweat-wicking tops for high-intensity Lagree and spin sessions, ranked by breathability and fit." href="/blog/best-moisture-wicking-top-for-pilates-and-spin" category="Clothing" readTime="9 min" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
                 <ArticleCard title="Best Lagree Tops (2026): Fitted Tanks That Stay Put" excerpt="The best Lagree tops: fitted, sweat-wicking tanks that stay put in planks and never catch on springs or handles…" href="/blog/best-lagree-tops" category="Lagree" readTime="8 min read" imageUrl="/pictures/stitch-retail-activewear.png" />
                 <ArticleCard title="Best Pilates Tops (2026): Tanks, Bra Tops & Long-Sleeves" excerpt="The best tops for Pilates class, fitted tanks, bra tops, and long-sleeve options reviewed for reformer coverage…" href="/blog/best-pilates-workout-tops" category="Activewear" readTime="8 min read" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
-                <ArticleCard title="Best Pilates Grip Socks (2026): 5 Verified Picks" excerpt="5 verified, in-stock Pilates grip socks on Amazon: toesox and TAVI studio favourites, Tucketts toeless, plus Gaiam…" href="/blog/best-pilates-grip-socks" category="Activewear" readTime="6 min read" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Grip Socks (2026): 5 Verified Picks" excerpt="5 verified, in-stock Pilates grip socks on Amazon: toesox and TAVI studio favorites, Tucketts toeless, plus Gaiam…" href="/blog/best-pilates-grip-socks" category="Activewear" readTime="6 min read" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
               </div>
             </div>
           </div>
         </section>
 
-        <CTASection title="Find Your Studio" subtitle="Explore top-rated Pilates studios near you." showSearch searchPlaceholder="Search by city or neighbourhood..." />
+        <CTASection title="Find Your Studio" subtitle="Explore top-rated Pilates studios near you." showSearch searchPlaceholder="Search by city or neighborhood..." />
       </main>
       <Footer />
     </>

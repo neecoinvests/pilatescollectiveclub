@@ -146,7 +146,7 @@ export default function PilatesForPelvicFloorPage() {
 
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The anatomy: pelvic floor and the Pilates powerhouse</h2>
               <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                The pelvic floor is a group of muscles that form the base of the pelvis, supporting the pelvic organs and contributing to continence, sexual function, and spinal stability. In Pilates anatomy, the pelvic floor works in co-contraction with the transverse abdominis (the deep "corset" muscle), the multifidus (deep spinal stabiliser), and the diaphragm. These four structures form a closed pressure system, when one contracts, the others respond. This is the physiological basis for Pilates' effectiveness for pelvic floor rehabilitation.
+                The pelvic floor is a group of muscles that form the base of the pelvis, supporting the pelvic organs and contributing to continence, sexual function, and spinal stability. In Pilates anatomy, the pelvic floor works in co-contraction with the transverse abdominis (the deep "corset" muscle), the multifidus (deep spinal stabilizer), and the diaphragm. These four structures form a closed pressure system, when one contracts, the others respond. This is the physiological basis for Pilates' effectiveness for pelvic floor rehabilitation.
               </p>
 
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Which Pilates exercises are most beneficial</h2>
@@ -156,7 +156,7 @@ export default function PilatesForPelvicFloorPage() {
                   { heading: "Bridge series", body: "The bridge activates the glutes, hamstrings, and pelvic floor simultaneously. Sequential spinal articulation in the bridge adds pelvic floor awareness through movement. Begin with a gentle two-leg bridge before progressing to single-leg variations." },
                   { heading: "Clam", body: "The clam (side-lying hip rotation with feet together) activates the deep hip external rotators and the lateral pelvic floor. One of the most commonly prescribed exercises by pelvic floor physiotherapists alongside Pilates." },
                   { heading: "Side-lying leg work", body: "Side-lying exercises maintain a neutral spine position and low intra-abdominal pressure, making them well-suited for pelvic floor rehabilitation. Side kicks, clams, and inner thigh lifts all work within this safe range." },
-                  { heading: "Seated breathing exercises", body: "360-degree diaphragmatic breathing (inhaling to expand the ribcage in all directions, exhaling to lift and draw in) directly coordinates with pelvic floor response. It is often the first exercise in a pelvic floor-focused Pilates programme." },
+                  { heading: "Seated breathing exercises", body: "360-degree diaphragmatic breathing (inhaling to expand the ribcage in all directions, exhaling to lift and draw in) directly coordinates with pelvic floor response. It is often the first exercise in a pelvic floor-focused Pilates program." },
                 ].map((item) => (
                   <div key={item.heading} className="flex gap-5 rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                     <div className="w-1.5 rounded-full shrink-0 mt-1" style={{ backgroundColor: "#536257", minHeight: "20px" }} />

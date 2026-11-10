@@ -198,7 +198,7 @@ export default function ContactPage() {
 
             <div style={{ backgroundColor: "#f6f3f2", borderRadius: "12px", padding: "20px 24px" }}>
               <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "14px", fontWeight: 300, color: "#53433e", lineHeight: 1.8, margin: 0 }}>
-                Paid content is labelled. Any page an advertiser has paid for says so
+                Paid content is labeled. Any page an advertiser has paid for says so
                 at the top of that page. See our{" "}
                 <Link href="/affiliate-disclosure" style={{ color: "#8b4a31", textDecoration: "underline" }}>
                   affiliate disclosure

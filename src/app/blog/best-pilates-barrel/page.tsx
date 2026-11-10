@@ -68,7 +68,7 @@ const PRODUCTS = [
     name: "Merrithew Arc Barrel",
     price: "Price on request",
     verdict: "Not sold on Amazon: genuine STOTT PILATES arc, dealer-direct",
-    description: "We could not find a live Amazon listing for a Merrithew-branded Arc Barrel, and we could not verify a specific public price, so we're not quoting one. If your teacher is STOTT-certified and your other equipment is Merrithew, staying in that ecosystem is a reasonable choice, but it means buying through Merrithew directly or an authorised dealer, not Amazon.",
+    description: "We could not find a live Amazon listing for a Merrithew-branded Arc Barrel, and we could not verify a specific public price, so we're not quoting one. If your teacher is STOTT-certified and your other equipment is Merrithew, staying in that ecosystem is a reasonable choice, but it means buying through Merrithew directly or an authorized dealer, not Amazon.",
     affiliateUrl: "https://www.merrithew.com",
     tag: "STOTT PILATES · Dealer-Direct",
   },
@@ -157,7 +157,7 @@ export default function BestPilatesBarrelPage() {
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              The Pilates barrel is one of the least understood and most underutilised pieces of apparatus in the system: regularly present in good studios, rarely seen in home practice. There are three distinct barrel functions (Arc, Spine Corrector, Ladder Barrel), each serving different needs and appropriate for different levels of experience. This guide explains what each does and who it is for: honestly: Balanced Body sells one Amazon-listed barrel that covers Arc/spine-corrector-style work, plus its professional Ladder Barrel. Below that professional tier sit two real, currently-sold budget-brand Ladder Barrel alternatives, from PAETA and GDMSTIH: genuine, functional generic-brand options at a fraction of the price, no brand pedigree attached. Merrithew and Gratz make genuine barrels too, but they&apos;re dealer-direct only.
+              The Pilates barrel is one of the least understood and most underutilized pieces of apparatus in the system: regularly present in good studios, rarely seen in home practice. There are three distinct barrel functions (Arc, Spine Corrector, Ladder Barrel), each serving different needs and appropriate for different levels of experience. This guide explains what each does and who it is for: honestly: Balanced Body sells one Amazon-listed barrel that covers Arc/spine-corrector-style work, plus its professional Ladder Barrel. Below that professional tier sit two real, currently-sold budget-brand Ladder Barrel alternatives, from PAETA and GDMSTIH: genuine, functional generic-brand options at a fraction of the price, no brand pedigree attached. Merrithew and Gratz make genuine barrels too, but they&apos;re dealer-direct only.
             </p>
           </div>
         </section>

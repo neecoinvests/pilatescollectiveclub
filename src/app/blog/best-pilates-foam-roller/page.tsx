@@ -196,8 +196,8 @@ export default function BestFoamRollerPage() {
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[
-                  { heading: "Spinal mobilisation", body: "Placed lengthwise under the spine, a full-round roller allows thoracic extension and rotation with gravity assisting: a passive opening that can counteract the flexion patterns of daily life." },
-                  { heading: "Balance challenge", body: "Placed crosswise under the pelvis or feet, the roller creates an unstable surface that recruits deep stabilisers during bridging, leg work, and arm reaches." },
+                  { heading: "Spinal mobilization", body: "Placed lengthwise under the spine, a full-round roller allows thoracic extension and rotation with gravity assisting: a passive opening that can counteract the flexion patterns of daily life." },
+                  { heading: "Balance challenge", body: "Placed crosswise under the pelvis or feet, the roller creates an unstable surface that recruits deep stabilizers during bridging, leg work, and arm reaches." },
                   { heading: "Myofascial release", body: "Used on the thoracic paraspinals, hip flexors, ITB, and calves before or after practice to reduce tissue density and improve range of motion for subsequent exercises." },
                   { heading: "Density and firmness", body: "Standard or medium-high density suits most Pilates applications. Soft rollers compress too easily to provide meaningful pressure; extra-firm rollers can be too aggressive for spinal work. Check the current listing's density rating." },
                 ].map((item) => (

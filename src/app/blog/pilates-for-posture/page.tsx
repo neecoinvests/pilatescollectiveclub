@@ -124,7 +124,7 @@ const postureIssues = [
     name: "Thoracic Kyphosis (Hunched Upper Back)",
     cause: "Weak posterior chain, tight anterior chain, age-related postural collapse",
     exercises: ["Foam Roller thoracic extension", "Swan and Swimming", "T-Bar / Elephant on reformer", "Side Body Stretch", "Spine Twist"],
-    equipment: "Foam roller for thoracic mobilisation",
+    equipment: "Foam roller for thoracic mobilization",
   },
 ];
 
@@ -165,7 +165,7 @@ export default function PilatesForPosturePage() {
 
             <section className="pb-20">
               <p className="text-lg leading-relaxed mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-                Pilates is among the most evidence-supported interventions for postural correction. Not because it focuses on posture as an aesthetic goal, but because every exercise in the method requires and trains spinal alignment simultaneously. The postural improvement is a structural consequence of the work, which is why it tends to stick in a way that other postural correction programmes don't.
+                Pilates is among the most evidence-supported interventions for postural correction. Not because it focuses on posture as an aesthetic goal, but because every exercise in the method requires and trains spinal alignment simultaneously. The postural improvement is a structural consequence of the work, which is why it tends to stick in a way that other postural correction programs don't.
               </p>
 
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The four most common postural deviations, and the Pilates exercises that address them</h2>
@@ -236,7 +236,7 @@ export default function PilatesForPosturePage() {
               <div>
                 <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                  <ArticleCard title="Best Foam Roller for Pilates (2026)" excerpt="Spinal mobilisation, myofascial release: the foam rollers that actually perform." href="/blog/best-pilates-foam-roller" category="Equipment" readTime="8 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg" />
+                  <ArticleCard title="Best Foam Roller for Pilates (2026)" excerpt="Spinal mobilization, myofascial release: the foam rollers that actually perform." href="/blog/best-pilates-foam-roller" category="Equipment" readTime="8 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg" />
                   <ArticleCard title="Pilates for Back Pain" excerpt="Clinical research meets practical guidance on using Pilates for chronic lower back pain." href="/blog/pilates-for-back-pain" category="Health" readTime="10 min read" date="May 2026" imageUrl="/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg" />
                 </div>
               </div>

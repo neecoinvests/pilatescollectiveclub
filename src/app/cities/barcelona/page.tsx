@@ -45,7 +45,7 @@ const STUDIOS = [
     neighborhood: "Eixample (near Urquinaona)",
     priceLevel: "$$$",
     review: "SimplyBe is a boutique studio on Carrer de Pau Claris, a three-minute walk from Urquinaona metro, that combines Pilates with osteopathy and massage. It has been operating in Barcelona for more than 13 years, and classes cover Pilates, strength training, barre, pregnancy, injury prevention and rehabilitation: all taught in English, which makes it the most straightforward choice for expats and visitors.",
-    caveat: "it is a smaller wellness centre that mixes Pilates with manual therapy rather than a large reformer room: check the schedule for the class format you want.",
+    caveat: "it is a smaller wellness center that mixes Pilates with manual therapy rather than a large reformer room: check the schedule for the class format you want.",
     address: "Carrer de Pau Claris, 83, 3-3, 08010 Barcelona",
     bestFor: "English-speaking expats and visitors; Pilates for injury and pregnancy",
     signatureClass: "Pilates (taught in English)",
@@ -95,7 +95,7 @@ const STUDIOS = [
     review: "Mou Pilates has a reformer studio on Carrer de Santaló in Sant Gervasi, a residential part of the upper city close to Muntaner and Via Augusta. It is available through Urban Sports Club, which makes it easy to try before committing to a monthly plan.",
     caveat: "there is limited published detail about the instructors and class formats: take a trial class first.",
     address: "Carrer de Santaló, 15, 08021 Barcelona",
-    bestFor: "Upper-city residents who want a neighbourhood reformer studio",
+    bestFor: "Upper-city residents who want a neighborhood reformer studio",
     signatureClass: "Reformer Pilates",
     bookingTip: "Use an Urban Sports Club trial or a single class to test the teaching before buying a pack.",
   },
@@ -114,8 +114,8 @@ const STUDIOS = [
 ];
 
 const BOOKING_TIPS = [
-  { heading: "€20–38 per class is typical", body: "Barcelona reformer Pilates pricing is more accessible than London or Paris. Drop-in rates run from €20 at neighbourhood studios to €38 at premium boutiques. Bonos (class packs) of 5 or 10 sessions offer the best per-class rate." },
-  { heading: "Spanish and English instruction are both widely available", body: "Barcelona's international population has pushed most quality studios to offer English-language instruction as standard. Catalan is occasionally used at neighbourhood studios: confirm language preference when booking." },
+  { heading: "About $22–43 per class is typical", body: "Barcelona reformer Pilates pricing is more accessible than London or Paris. Drop-in rates run from about $22 at neighborhood studios to $43 at premium boutiques. Bonos (class packs) of 5 or 10 sessions offer the best per-class rate." },
+  { heading: "Spanish and English instruction are both widely available", body: "Barcelona's international population has pushed most quality studios to offer English-language instruction as standard. Catalan is occasionally used at neighborhood studios: confirm language preference when booking." },
   { heading: "Bonos (class packs) are the standard purchase model", body: "Unlike monthly memberships common in the US and UK, Barcelona studios typically sell bonos: packs of 5 or 10 sessions. These usually expire after three months, so be realistic about frequency when purchasing." },
   { heading: "Book 2–3 days ahead", body: "Barcelona studios are popular but rarely as pressured as their London counterparts. Two to three days' notice is generally sufficient, with Saturday morning and early evening classes requiring more advance planning." },
   { heading: "August is quiet", body: "Many Barcelona studios operate reduced schedules in August as the city empties for summer. If visiting in August, confirm the studio is open and running a full schedule before planning around it." },
@@ -182,8 +182,8 @@ const FURTHER_READING = [
 
 const CITY_FAQS = [
   { q: "What are the best Pilates studios in Barcelona?", a: "Our 6 curated picks are SimplyBe Pilates (Eixample, near Urquinaona), PILAT3S Gràcia (Gràcia), BCN Pilates Poblenou (Llull (Poblenou), Area Pilates (Sarrià-Sant Gervasi), Mou Pilates) Santaló (Sant Gervasi) and PILAT3S Sagrada Família (Sagrada Família / Sant Martí). Each listing above covers what the studio is best for, its signature class and a booking tip." },
-  { q: "Which Barcelona neighbourhoods are best for Pilates?", a: "This guide covers Eixample, Gràcia & Sarrià, Born, Barceloneta & El Raval and Poblenou & Sant Martí. Eixample: Barcelona's elegant central district hosts the city's most established classical studios." },
-  { q: "What should I know about booking Pilates classes in Barcelona?", a: "€20–38 per class is typical. Barcelona reformer Pilates pricing is more accessible than London or Paris." },
+  { q: "Which Barcelona neighborhoods are best for Pilates?", a: "This guide covers Eixample, Gràcia & Sarrià, Born, Barceloneta & El Raval and Poblenou & Sant Martí. Eixample: Barcelona's elegant central district hosts the city's most established classical studios." },
+  { q: "What should I know about booking Pilates classes in Barcelona?", a: "About $22–43 per class is typical. Barcelona reformer Pilates pricing is more accessible than London or Paris." },
   { q: "What should I bring to a Pilates class in Barcelona?", a: "Grip socks are required at most reformer studios. Our gear list for Barcelona covers Pilates grip socks, Pilates mat, magic circle, resistance bands, foam roller and home Pilates reformer." },
 ];
 
@@ -258,7 +258,7 @@ export default function BarcelonaPage() {
             <p className="text-sm mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 7 min read</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Barcelona's relationship with wellness is deeply embedded in its culture: the city's climate, its architecture, its café rhythms all encourage a certain attentiveness to physical wellbeing. The Pilates scene here reflects this: studios tend to be beautifully housed, thoughtfully run, and staffed by teachers who treat the method seriously. This guide covers the six studios we rate most highly across the city's distinct neighbourhoods.
+              Barcelona's relationship with wellness is deeply embedded in its culture: the city's climate, its architecture, its café rhythms all encourage a certain attentiveness to physical wellbeing. The Pilates scene here reflects this: studios tend to be beautifully housed, thoughtfully run, and staffed by teachers who treat the method seriously. This guide covers the six studios we rate most highly across the city's distinct neighborhoods.
             </p>
           </div>
         </section>
@@ -299,8 +299,8 @@ export default function BarcelonaPage() {
         </section>
         <section className="py-20 px-6" style={{ backgroundColor: "#fcf9f8" }}>
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Best neighbourhoods for Pilates in Barcelona</h2>
-            <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Barcelona's diverse neighbourhoods each offer a distinct studio culture and price point.</p>
+            <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Best neighborhoods for Pilates in Barcelona</h2>
+            <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Barcelona's diverse neighborhoods each offer a distinct studio culture and price point.</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {NEIGHBORHOODS.map((n) => (
                 <div key={n.name} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)" }}>

@@ -86,16 +86,16 @@ export default function PrivacyPage() {
             <p style={s.p}>We use the following types of cookies:</p>
             <ul style={s.ul}>
               <li style={{ marginBottom: "8px" }}><strong>Essential cookies.</strong> Required for the site to function correctly. Cannot be disabled.</li>
-              <li style={{ marginBottom: "8px" }}><strong>Analytics cookies.</strong> Help us understand how visitors use the site (e.g. Google Analytics or a privacy-first alternative). These are anonymised and not used to identify individuals.</li>
+              <li style={{ marginBottom: "8px" }}><strong>Analytics cookies.</strong> Help us understand how visitors use the site (e.g. Google Analytics or a privacy-first alternative). These are anonymized and not used to identify individuals.</li>
             </ul>
             <p style={s.p}>You can disable non-essential cookies at any time through your browser settings. This will not affect your ability to access the site.</p>
 
             <h2 style={s.h2}>Third-Party Services</h2>
             <p style={s.p}>We use the following third-party services that may process data on your behalf:</p>
             <ul style={s.ul}>
-              <li style={{ marginBottom: "8px" }}><strong>Amazon Associates.</strong> Affiliate programme. Amazon&apos;s privacy policy governs data collected when you click through to Amazon.</li>
+              <li style={{ marginBottom: "8px" }}><strong>Amazon Associates.</strong> Affiliate program. Amazon&apos;s privacy policy governs data collected when you click through to Amazon.</li>
               <li style={{ marginBottom: "8px" }}><strong>Unsplash.</strong> Photography service used for editorial imagery. Images are served from Unsplash&apos;s CDN.</li>
-              <li style={{ marginBottom: "8px" }}><strong>Analytics provider.</strong> Anonymised visitor analytics to help us improve content.</li>
+              <li style={{ marginBottom: "8px" }}><strong>Analytics provider.</strong> Anonymized visitor analytics to help us improve content.</li>
             </ul>
 
             <h2 style={s.h2}>Your Rights</h2>

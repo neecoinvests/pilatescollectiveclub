@@ -134,7 +134,7 @@ export const ADVENT = {
   metaboBike: {
     id: "metabo-bicycle-tool-advent-calendar", name: "metabo Bicycle Tool Advent Calendar 2026", brand: "metabo", price: "$72.31", url: amz("B0HCYTLPFR"),
     availability: "low-stock", soldBy: "Amazon Germany",
-    specs: ["Magnetic mini ratchet, 100 mm bit holder and 11 S2 bits", "Chain rivet, chain gauge, chain hooks, cone wrenches, spoke tensioner", "Tyre levers, valve keys and adapters", "Bike bell, torch, microfibre cloth, saddle bag"],
+    specs: ["Magnetic mini ratchet, 100 mm bit holder and 11 S2 bits", "Chain rivet, chain gauge, chain hooks, cone wrenches, spoke tensioner", "Tire levers, valve keys and adapters", "Bike bell, torch, microfiber cloth, saddle bag"],
     body: "The pick for serious riders: a real bike-maintenance toolkit from metabo, a long-established German tool brand. Shipped from Amazon Germany and marked low stock, so order early.",
   },
   zjtapeBike: {
@@ -202,7 +202,7 @@ export const ADVENT = {
   stashTea: {
     id: "stash-tea-advent-calendar", name: "STASH Tea Advent Calendar 2026", brand: "Stash", price: "$20.73", url: amz("B0FKV1G9XP"),
     availability: "in-stock", soldBy: "Amazon.com",
-    specs: ["24 tea bags: 15 caffeinated and 9 caffeine-free", "Black, green, herbal and rooibos blends", "Flavours include Toasted Vanilla Caramel, Cozy Cardamom Chai and Chamomile Nights"],
+    specs: ["24 tea bags: 15 caffeinated and 9 caffeine-free", "Black, green, herbal and rooibos blends", "Flavors include Toasted Vanilla Caramel, Cozy Cardamom Chai and Chamomile Nights"],
     body: "The dessert-lover's tea calendar, with vanilla caramel, chai and berry blends. Fun, festive and inexpensive.",
   },
   taylorsTea: {
@@ -221,7 +221,7 @@ export const ADVENT = {
     id: "kitsch-12-day-advent-calendar", name: "Kitsch 12-Day Self Care Advent Calendar 2026", brand: "Kitsch", price: "$118.99", url: amz("B0HFYPSJKW"),
     availability: "in-stock", soldBy: "Kitsch LLC",
     specs: ["12 days of self-care", "Rice water shampoo and conditioner bars, hair perfume (20 ml)", "Satin pillowcase and oversized satin bonnet", "Claw clips, hair elastics, dermaplane oil and 12 dermaplaners"],
-    body: "Kitsch hair and skin favourites: shampoo and conditioner bars, a satin pillowcase and bonnet, and claw clips for tying hair back in class. Twelve days rather than 24, so start it on December 13.",
+    body: "Kitsch hair and skin favorites: shampoo and conditioner bars, a satin pillowcase and bonnet, and claw clips for tying hair back in class. Twelve days rather than 24, so start it on December 13.",
   },
   bodyEarth: {
     id: "body-and-earth-spa-advent-calendar", name: "BODY & EARTH 24-Day Spa Advent Calendar 2026", brand: "BODY & EARTH", price: "$29.79", url: amz("B094ZVLM3X"),

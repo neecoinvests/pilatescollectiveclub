@@ -210,7 +210,7 @@ export default function BestLeggingsForReformerPilatesPage() {
                   "Wash inside-out on a cold, gentle cycle. This protects the outer surface and the elastane content from mechanical stress.",
                   "Never tumble dry. Heat is the primary cause of elastane degradation: a dried legging that fits perfectly once may not recover its shape after repeated tumble cycles.",
                   "Air dry flat. Hanging leggings when wet stretches the waistband and leg openings over time.",
-                  "Avoid fabric softener. It coats the fibre and reduces the moisture-wicking performance of synthetic fabrics.",
+                  "Avoid fabric softener. It coats the fiber and reduces the moisture-wicking performance of synthetic fabrics.",
                   "Rotate between at least two pairs. Elastane needs 24 hours to fully recover its compression and shape between sessions.",
                 ].map((tip, i) => (
                   <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>

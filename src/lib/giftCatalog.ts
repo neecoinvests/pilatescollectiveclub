@@ -16,7 +16,7 @@ export const GIFTS = {
   normatec3Legs: {
     id: "hyperice-normatec-3-legs", name: "Hyperice Normatec 3 Legs", brand: "Hyperice", price: "$899.00", url: amz("B0B72QBWHC"),
     availability: "in-stock", soldBy: "Hyperice",
-    specs: ["Dynamic air compression boots for the legs", "7 levels of compression", "Patented Pulse technology across 5 overlapping zones, with ZoneBoost", "Unlocks extra features and customisation in the Hyperice app"],
+    specs: ["Dynamic air compression boots for the legs", "7 levels of compression", "Patented Pulse technology across 5 overlapping zones, with ZoneBoost", "Unlocks extra features and customization in the Hyperice app"],
     body: "The compression boots you see in pro locker rooms and recovery studios. Air chambers inflate in sequence from the feet up for a massaging squeeze that leaves legs feeling fresh after a hard week of classes.",
   },
   normatec3Lower: {
@@ -34,7 +34,7 @@ export const GIFTS = {
   normatecElite: {
     id: "hyperice-normatec-elite", name: "Hyperice Normatec Elite (Wireless Boots)", brand: "Hyperice", price: "$1,099.00", url: amz("B0D4876TX4"),
     availability: "in-stock", soldBy: "Hyperice",
-    specs: ["Fully wireless, hose-free compression boots", "7 compression levels with adjustable treatment time", "HyperSync keeps both legs synchronised", "Hyperice app via Bluetooth"],
+    specs: ["Fully wireless, hose-free compression boots", "7 compression levels with adjustable treatment time", "HyperSync keeps both legs synchronized", "Hyperice app via Bluetooth"],
     body: "Normatec without the hoses or the control box: the compression is built into the boots, so they are quicker to use and easier to store.",
   },
   normatecHips: {
@@ -149,7 +149,7 @@ export const GIFTS = {
     id: "apple-watch-series-12", name: "Apple Watch Series 12 (GPS, 42mm)", brand: "Apple", price: "$389.99", url: amz("B0HJ9ZXCSD"),
     availability: "in-stock", soldBy: "Amazon.com",
     specs: ["Measures HRV as often as every five minutes, per the listing", "Overnight health metrics in the Vitals app", "Readiness score for the day", "Heart Rate Zones and workout metrics"],
-    body: "Apple's main smartwatch: health, sleep and workout tracking that suits someone who mixes Pilates with walking, running or strength work. The link opens the 42mm Light Gold; other sizes and colours are on the listing.",
+    body: "Apple's main smartwatch: health, sleep and workout tracking that suits someone who mixes Pilates with walking, running or strength work. The link opens the 42mm Light Gold; other sizes and colors are on the listing.",
   },
   appleWatchUltra4: {
     id: "apple-watch-ultra-4", name: "Apple Watch Ultra 4 (GPS + Cellular, 49mm)", brand: "Apple", price: "$774.00", url: amz("B0HJB6C34Y"),
@@ -166,7 +166,7 @@ export const GIFTS = {
   garminVenu4: {
     id: "garmin-venu-4", name: "Garmin Venu 4 (41mm)", brand: "Garmin", price: "$549.99", url: amz("B0FRGDGRXY"),
     availability: "in-stock", soldBy: "Amazon.com",
-    specs: ["Up to 10 days of battery life", "Stainless steel design with a built-in flashlight", "Sleep score and personalised sleep coaching", "Health status feature tracks heart rate, HRV and skin temperature trends"],
+    specs: ["Up to 10 days of battery life", "Stainless steel design with a built-in flashlight", "Sleep score and personalized sleep coaching", "Health status feature tracks heart rate, HRV and skin temperature trends"],
     body: "Garmin's lifestyle smartwatch: long battery life and detailed health and sleep tracking in a refined 41mm design.",
   },
   garminFR970: {
@@ -202,7 +202,7 @@ export const GIFTS = {
   powerbeatsPro2: {
     id: "beats-powerbeats-pro-2", name: "Beats Powerbeats Pro 2", brand: "Beats", price: "$249.00", url: amz("B0DT2344N3"),
     availability: "in-stock", soldBy: "Amazon.com",
-    specs: ["Secure-fit earhooks", "Active noise cancelling", "Heart rate sensors in the earbuds", "Up to 45 hours with the charging case"],
+    specs: ["Secure-fit earhooks", "Active noise canceling", "Heart rate sensors in the earbuds", "Up to 45 hours with the charging case"],
     body: "Workout earbuds with earhooks that stay put through planks, jumps and rolling work.",
   },
   boseQCUltra2: {
@@ -220,7 +220,7 @@ export const GIFTS = {
   marcyMat: {
     id: "marcy-equipment-floor-mat", name: "Marcy Equipment Mat & Floor Protector (78\" x 36\")", brand: "Marcy", price: "$42.29", url: amz("B0041GQH3S"),
     availability: "in-stock", soldBy: "Amazon.com",
-    specs: ["78\" \u00d7 36\" \u00d7 0.25\" EVA foam", "Absorbs impact and protects floors", "Non-slip surface to stabilise machines"],
+    specs: ["78\" \u00d7 36\" \u00d7 0.25\" EVA foam", "Absorbs impact and protects floors", "Non-slip surface to stabilize machines"],
     body: "A floor protector to put under a home machine. Measure the machine first: the Micro with its rear platform is 81.5 inches long, per Lagree Fitness.",
   },
   taviGloves: {
@@ -233,7 +233,7 @@ export const GIFTS = {
     id: "tavi-stacy-slouch-socks", name: "TAVI Stacy Slouch Grip Socks (2-Pack)", brand: "TAVI", price: "$40.00", url: amz("B0GFPGMWWS"),
     availability: "in-stock", soldBy: "The Active Footwear Store",
     specs: ["Patented triangle grip pattern", "Certified organic cotton knit", "Two pairs"],
-    body: "Stylish grip socks from a studio favourite brand, the finishing touch for a Lagree gift.",
+    body: "Stylish grip socks from a studio favorite brand, the finishing touch for a Lagree gift.",
   },
   lagreeHoodie: {
     id: "i-love-lagree-hoodie", name: "I Love Lagree Pullover Hoodie", brand: "Dreadful Scrawl", price: "$31.99", url: amz("B0CY821PTP"),

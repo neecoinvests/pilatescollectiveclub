@@ -104,10 +104,10 @@ const STUDIOS = [
     name: "Club Pilates The Heights",
     neighborhood: "The Heights",
     priceLevel: "$$",
-    review: "Club Pilates The Heights on North Shepherd Drive offers the brand's levelled group reformer system for all ages and fitness levels, with classes including Reformer Flow, Cardio Sculpt, Control and Restore.",
-    caveat: "a franchise format: consistent, but less personalised than an independent studio.",
+    review: "Club Pilates The Heights on North Shepherd Drive offers the brand's leveled group reformer system for all ages and fitness levels, with classes including Reformer Flow, Cardio Sculpt, Control and Restore.",
+    caveat: "a franchise format: consistent, but less personalized than an independent studio.",
     address: "2401 N Shepherd Dr, Suite 120, Houston, TX 77008",
-    bestFor: "Structured, levelled reformer classes in the Heights",
+    bestFor: "Structured, leveled reformer classes in the Heights",
     signatureClass: "Reformer Flow",
     bookingTip: "Memberships cut the per-class cost if you train three or more times a week.",
   },
@@ -117,14 +117,14 @@ const BOOKING_TIPS = [
   { heading: "Expect to pay $28–58 per class", body: "Houston's Pilates market spans a wide range. Drop-in rates run from $28 at community studios to $58 at River Oaks premium practices. Monthly memberships bring per-class costs to $18–32 for regular practitioners. The River Oaks and West University premium is real and reflects genuinely higher instruction quality at the top end of the market." },
   { heading: "Houston's heat is the dominant scheduling variable", body: "Temperatures from May through September frequently exceed 100°F with high humidity. Houston's Pilates studios become preferred movement spaces during these months: demand for popular morning and evening slots peaks in summer. Establishing standing bookings before June is strongly advisable." },
   { heading: "The Medical Center creates unusual opportunity", body: "Houston is home to the world's largest medical complex. The resulting concentration of physicians, nurses, and healthcare professionals has created unusual demand for evidence-informed movement practice: several Houston studios are notable for their clinical and rehabilitation programming that serves this community directly." },
-  { heading: "Car dependency means neighbourhood proximity is paramount", body: "Houston has almost no public transport to speak of. Choosing a studio within a practical drive of home or work, accounting for Houston's formidable traffic during peak hours, is the single most important variable for long-term practice consistency." },
+  { heading: "Car dependency means neighborhood proximity is paramount", body: "Houston has almost no public transport to speak of. Choosing a studio within a practical drive of home or work, accounting for Houston's formidable traffic during peak hours, is the single most important variable for long-term practice consistency." },
   { heading: "Grip socks are required everywhere", body: "Universal across Houston's reformer studios. Buying quality grip socks from Amazon before your first class is a consistent saving over front-desk pricing at every studio in the city." },
 ];
 
 const NEIGHBORHOODS = [
   { name: "River Oaks & West University", description: "Houston's wealthiest residential corridor houses the city's most premium Pilates practices. Studios here serve a discerning clientele with the resources and sophistication to support excellent instruction. The highest price points in the city are found here: matched by correspondingly strong teaching quality." },
-  { name: "Montrose & Midtown", description: "Houston's most culturally diverse and arts-oriented neighbourhoods support a strong independent studio culture. Studios here tend to be community-focused, more accessibly priced, and staffed by instructors who value neighbourhood integration as much as brand presentation." },
-  { name: "The Heights", description: "One of Houston's fastest-growing and most family-oriented in-town neighbourhoods has developed an excellent studio culture particularly strong in prenatal and postnatal programming. Studios here are community-anchored and increasingly sophisticated in their method offerings." },
+  { name: "Montrose & Midtown", description: "Houston's most culturally diverse and arts-oriented neighborhoods support a strong independent studio culture. Studios here tend to be community-focused, more accessibly priced, and staffed by instructors who value neighborhood integration as much as brand presentation." },
+  { name: "The Heights", description: "One of Houston's fastest-growing and most family-oriented in-town neighborhoods has developed an excellent studio culture particularly strong in prenatal and postnatal programming. Studios here are community-anchored and increasingly sophisticated in their method offerings." },
   { name: "Upper Kirby & Greenway Plaza", description: "The professional and medical community corridor between River Oaks and Midtown supports several excellent studios with therapeutic and rehabilitation specialisms that serve Houston's large healthcare population with unusual competence." },
 ];
 
@@ -158,7 +158,7 @@ const GEAR = [
 const HOME_REFORMERS = [
   { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work: three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
   { tag: "Mid-Range Pick", name: "AeroPilates Pro XP 557", note: "AeroPilates' top-of-the-range home reformer, a step up for practitioners training several times a week.", price: "$1,329.99", url: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20" },
-  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
+  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodized aluminum frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
 ];
 
 const RELATED_CITIES = [
@@ -175,7 +175,7 @@ const FURTHER_READING = [
 
 const CITY_FAQS = [
   { q: "What are the best Pilates studios in Houston?", a: "Our 6 curated picks are ONESWEAT Pilates (The Heights), Revival Pilates (Montrose), The Studio BE: Montrose (Montrose), Method Pilates (River Oaks District / Uptown), DUO Coffee & Pilates (River Oaks / Montrose) and Club Pilates The Heights (The Heights). Each listing above covers what the studio is best for, its signature class and a booking tip." },
-  { q: "Which Houston neighbourhoods are best for Pilates?", a: "This guide covers River Oaks & West University, Montrose & Midtown, The Heights and Upper Kirby & Greenway Plaza. River Oaks & West University: Houston's wealthiest residential corridor houses the city's most premium Pilates practices." },
+  { q: "Which Houston neighborhoods are best for Pilates?", a: "This guide covers River Oaks & West University, Montrose & Midtown, The Heights and Upper Kirby & Greenway Plaza. River Oaks & West University: Houston's wealthiest residential corridor houses the city's most premium Pilates practices." },
   { q: "What should I know about booking Pilates classes in Houston?", a: "Expect to pay $28–58 per class. Houston's Pilates market spans a wide range." },
   { q: "What should I bring to a Pilates class in Houston?", a: "Grip socks are required at most reformer studios. Our gear list for Houston covers Pilates grip socks, Pilates mat, magic circle and resistance bands set." },
 ];
@@ -301,7 +301,7 @@ export default function HoustonPage() {
 
         <section className="py-20 px-6" style={{ backgroundColor: "#f6f3f2" }}>
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Best neighbourhoods for Pilates in Houston</h2>
+            <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Best neighborhoods for Pilates in Houston</h2>
             <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Houston&apos;s studio quality is distributed across the city. Here&apos;s how the landscape breaks down by area.</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {NEIGHBORHOODS.map((n) => (

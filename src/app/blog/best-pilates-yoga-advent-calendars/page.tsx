@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   title: TITLE,
   description: DESCRIPTION,
   keywords: ["pilates advent calendar", "pilates advent calendar 2026", "yoga advent calendar", "yoga advent calendar 2026", "fitness advent calendar for women", "pilates christmas countdown", "advent calendar for pilates lovers", "mindfulness advent calendar", "chair yoga advent calendar"],
-  openGraph: { title: TITLE, description: DESCRIPTION, type: "article", url: URL, images: [{ url: `https://pilatescollectiveclub.com${HERO}`, width: 1200, height: 630, alt: "A hand holding a grey Pilates ring" }] },
+  openGraph: { title: TITLE, description: DESCRIPTION, type: "article", url: URL, images: [{ url: `https://pilatescollectiveclub.com${HERO}`, width: 1200, height: 630, alt: "A hand holding a gray Pilates ring" }] },
   twitter: { card: "summary_large_image", title: TITLE, description: DESCRIPTION, images: [`https://pilatescollectiveclub.com${HERO}`] },
   alternates: { canonical: URL },
   robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
@@ -32,7 +32,7 @@ const GUIDE: EquipmentGuideProps = {
   datePublished: ADVENT_CHECKED_ISO,
   dateModified: ADVENT_CHECKED_ISO,
   heroImage: HERO,
-  heroAlt: "A hand holding a grey Pilates ring",
+  heroAlt: "A hand holding a gray Pilates ring",
   heroCaption: "Prop kits · Practice books · Mindfulness",
   intro: [
     "A Pilates advent calendar swaps 24 chocolates for 24 small props: a ring, a mini ball, grip socks, sliders and bands. By Christmas Eve the person who opens it has a complete home mat kit.",

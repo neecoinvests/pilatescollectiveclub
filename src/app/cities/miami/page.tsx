@@ -66,7 +66,7 @@ const STUDIOS = [
     name: "Pilathon",
     neighborhood: "Wynwood",
     priceLevel: "$$",
-    review: "Pilathon describes itself as the first boutique Pilates studio in Wynwood, offering reformer and props classes for all levels in one of Miami's most creative neighbourhoods.",
+    review: "Pilathon describes itself as the first boutique Pilates studio in Wynwood, offering reformer and props classes for all levels in one of Miami's most creative neighborhoods.",
     caveat: "we could not confirm the current street address independently: check the studio's directions before your first visit.",
     address: "",
     bestFor: "Boutique reformer in Wynwood",
@@ -95,7 +95,7 @@ const STUDIOS = [
     address: "1201 20th St, CU-8, Miami Beach, FL 33139",
     bestFor: "Infrared-heated mat Pilates and sculpt",
     signatureClass: "Heated Mat Pilates & Sculpt",
-    bookingTip: "Arrive a few minutes early to acclimatise to the heat, and hydrate well.",
+    bookingTip: "Arrive a few minutes early to acclimatize to the heat, and hydrate well.",
   },
   {
     number: "06",
@@ -143,7 +143,7 @@ const NEIGHBORHOODS = [
   {
     name: "Brickell & Downtown",
     description:
-      "Miami's financial district has seen rapid wellness studio growth, driven by a large professional population needing convenient, high-quality lunchtime and early-morning options. Studios here are sleek, modern, and optimised for efficiency, ideal for time-pressed professionals.",
+      "Miami's financial district has seen rapid wellness studio growth, driven by a large professional population needing convenient, high-quality lunchtime and early-morning options. Studios here are sleek, modern, and optimized for efficiency, ideal for time-pressed professionals.",
   },
   {
     name: "Coconut Grove & Coral Gables",
@@ -153,7 +153,7 @@ const NEIGHBORHOODS = [
   {
     name: "Wynwood & Design District",
     description:
-      "Miami's creative quarter has attracted a younger, more experimental wellness crowd, and the studios that have opened here reflect that: more concept-driven, atmospheric, and design-forward than traditional Pilates boutiques. The neighbourhood is ideal for practitioners who want their workout to feel like an experience.",
+      "Miami's creative quarter has attracted a younger, more experimental wellness crowd, and the studios that have opened here reflect that: more concept-driven, atmospheric, and design-forward than traditional Pilates boutiques. The neighborhood is ideal for practitioners who want their workout to feel like an experience.",
   },
 ];
 
@@ -199,7 +199,7 @@ const GEAR = [
 const HOME_REFORMERS = [
   { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work: three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
   { tag: "Mid-Range Pick", name: "AeroPilates Pro XP 557", note: "AeroPilates' top-of-the-range home reformer, a step up for practitioners training several times a week.", price: "$1,329.99", url: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20" },
-  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
+  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodized aluminum frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
 ];
 
 const RELATED_CITIES = [
@@ -232,7 +232,7 @@ const FURTHER_READING = [
 
 const CITY_FAQS = [
   { q: "What are the best Pilates studios in Miami?", a: "Our 6 curated picks are Pilates in the Grove (Coconut Grove), JETSET Pilates (South of Fifth (South of Fifth, Miami Beach), Pilathon (Wynwood), CADiLab Pilates (Coral Way), Fuze House) Sunset Harbour (Sunset Harbour, Miami Beach) and JETSET Pilates: Brickell (Brickell / Downtown). Each listing above covers what the studio is best for, its signature class and a booking tip." },
-  { q: "Which Miami neighbourhoods are best for Pilates?", a: "This guide covers South Beach & Miami Beach, Brickell & Downtown, Coconut Grove & Coral Gables and Wynwood & Design District. South Beach & Miami Beach: The most concentrated wellness corridor in Miami." },
+  { q: "Which Miami neighborhoods are best for Pilates?", a: "This guide covers South Beach & Miami Beach, Brickell & Downtown, Coconut Grove & Coral Gables and Wynwood & Design District. South Beach & Miami Beach: The most concentrated wellness corridor in Miami." },
   { q: "What should I know about booking Pilates classes in Miami?", a: "Book 5–7 days in advance for premium morning slots. Miami's most popular studios, especially South Beach and Brickell, fill their early morning and lunchtime slots within hours of opening." },
   { q: "What should I bring to a Pilates class in Miami?", a: "Grip socks are required at most reformer studios. Our gear list for Miami covers Pilates grip socks, Pilates mat, magic circle, resistance bands, foam roller and home Pilates reformer." },
 ];
@@ -315,7 +315,7 @@ export default function MiamiPage() {
             </p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Miami has always taken fitness seriously, but the city's Pilates scene has matured well beyond the beach-body culture of its past. A city that attracts international residents, professional athletes, and wellness-conscious visitors year-round has built a reformer studio market that is simultaneously premium, diverse, and surprisingly deep. From the classical lineage practices of Coconut Grove to the design-forward boutiques of Wynwood, Miami now offers serious Pilates across every neighbourhood and every level. This guide covers the six studios we rate most highly, with everything you need before booking.
+              Miami has always taken fitness seriously, but the city's Pilates scene has matured well beyond the beach-body culture of its past. A city that attracts international residents, professional athletes, and wellness-conscious visitors year-round has built a reformer studio market that is simultaneously premium, diverse, and surprisingly deep. From the classical lineage practices of Coconut Grove to the design-forward boutiques of Wynwood, Miami now offers serious Pilates across every neighborhood and every level. This guide covers the six studios we rate most highly, with everything you need before booking.
             </p>
           </div>
         </section>
@@ -387,10 +387,10 @@ export default function MiamiPage() {
         <section className="py-20 px-6" style={{ backgroundColor: "#fcf9f8" }}>
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best neighbourhoods for Pilates in Miami
+              Best neighborhoods for Pilates in Miami
             </h2>
             <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-              Miami's Pilates landscape is shaped by its neighbourhoods. Here's where to look depending on where you're based.
+              Miami's Pilates landscape is shaped by its neighborhoods. Here's where to look depending on where you're based.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {NEIGHBORHOODS.map((n) => (

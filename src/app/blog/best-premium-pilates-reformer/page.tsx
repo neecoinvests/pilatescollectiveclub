@@ -39,7 +39,7 @@ const PRODUCTS = [
     verdict: "Best premium reformer sold on Amazon",
     tier: "Premium Home",
     description:
-      "Sold and shipped by Amazon.com itself, this is a genuine Merrithew machine with Amazon's delivery and returns behind it. It's Merrithew's home-specific model rather than the studio SPX Max, but it uses the same quality components: aluminium rails, a smooth, quiet carriage and five springs (4 × 100%, 1 × 50%). The package includes the reformer box, a metal roll-up pole, a padded platform extender and double-loop straps, so there is nothing else to buy to start. It measures 96.5 inches long and weighs 115 lbs.",
+      "Sold and shipped by Amazon.com itself, this is a genuine Merrithew machine with Amazon's delivery and returns behind it. It's Merrithew's home-specific model rather than the studio SPX Max, but it uses the same quality components: aluminum rails, a smooth, quiet carriage and five springs (4 × 100%, 1 × 50%). The package includes the reformer box, a metal roll-up pole, a padded platform extender and double-loop straps, so there is nothing else to buy to start. It measures 96.5 inches long and weighs 115 lbs.",
     affiliateUrl: "https://www.amazon.com/dp/B004FGT0TM?tag=pilatescollective-20",
     specs: [
       { label: "Length", value: "96.5 inches" },
@@ -77,12 +77,12 @@ const PRODUCTS = [
     verdict: "Best for taller or larger practitioners",
     tier: "Premium",
     description:
-      "The Allegro Stretch is Balanced Body's answer for practitioners who find standard reformers cramped: a carriage 2 inches wider and 6 inches longer than the regular Allegro, with a 36-inch adjustable footbar (4 locking positions) instead of a fixed-width bar. The frame is low-maintenance anodized aluminium with a built-in nonslip standing platform, TwistLock shoulder rests, and an 8-wheel suspension system (4 vertical, 4 horizontal) for a smooth, stable glide. Sold direct by Balanced Body through Amazon.",
+      "The Allegro Stretch is Balanced Body's answer for practitioners who find standard reformers cramped: a carriage 2 inches wider and 6 inches longer than the regular Allegro, with a 36-inch adjustable footbar (4 locking positions) instead of a fixed-width bar. The frame is low-maintenance anodized aluminum with a built-in nonslip standing platform, TwistLock shoulder rests, and an 8-wheel suspension system (4 vertical, 4 horizontal) for a smooth, stable glide. Sold direct by Balanced Body through Amazon.",
     affiliateUrl: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20",
     specs: [
       { label: "Carriage", value: "2\" wider, 6\" longer than the standard Allegro" },
       { label: "Footbar", value: "36\" adjustable, 4 locking positions" },
-      { label: "Frame", value: "Anodized aluminium" },
+      { label: "Frame", value: "Anodized aluminum" },
       { label: "Carriage suspension", value: "8-wheel (4 vertical, 4 horizontal)" },
       { label: "Sold by", value: "Balanced Body Inc. (Amazon)" },
     ],
@@ -124,7 +124,7 @@ const PRODUCTS = [
       { label: "Included", value: "Jumpboard, box, foot strap, loops" },
       { label: "Sold by", value: "PilatesUS (Amazon)" },
     ],
-    pros: ["Solid walnut frame: distinct from the aluminium/maple machines here", "Folds upright on wheels for storage", "Tower-ready frame", "Full accessory set included in the price"],
+    pros: ["Solid walnut frame: distinct from the aluminum/maple machines here", "Folds upright on wheels for storage", "Tower-ready frame", "Full accessory set included in the price"],
     cons: ["Smaller, newer brand than Balanced Body or Merrithew", "Stock can run scarce: check availability", "Less established resale value"],
   },
   {
@@ -152,7 +152,7 @@ const FAQS = [
   { q: "What is the best premium Pilates reformer for home use?", a: "The Balanced Body Studio Reformer ($4,700) is the most complete premium home reformer: a solid rock maple frame, 46 resistance combinations, and full compatibility with Balanced Body's accessory range. If you want the lowest price for a genuine premium-brand machine, the Merrithew At Home SPX Reformer Package ($3,349) is sold and shipped by Amazon.com. For a lower price on a true professional spring system, the Align-Pilates C8-PRO ($2,750) is the best value in this guide." },
   { q: "What's the difference between the Balanced Body Studio Reformer and the Allegro Stretch?", a: "Both are genuine Balanced Body machines. The Studio Reformer ($4,700) is the commercial-grade frame used in professional studios, with solid rock maple construction and the Revo footbar system. The Allegro Stretch ($3,710) is built specifically for taller or larger practitioners: its carriage is 2 inches wider and 6 inches longer, with a 36-inch adjustable footbar instead of a fixed bar. Choose the Studio Reformer for maximum durability and accessory compatibility; choose the Allegro Stretch if a standard-size carriage feels cramped." },
   { q: "Is the Align-Pilates C8-PRO a real professional reformer?", a: "Yes. It uses Align-Pilates' Rapid Change Spring Bar and an 8-wheel PU carriage, the same core engineering as Align's studio machines, in a home-sized, stackable frame. At $2,750 it's the least expensive true professional-grade spring reformer in this guide, though its accessory ecosystem is smaller than Balanced Body's or Merrithew's." },
-  { q: "What's the difference between a maple, aluminium and walnut reformer?", a: "The frame material mostly affects weight, sound and price rather than performance. Solid rock maple (Balanced Body Studio Reformer) and solid walnut (PersonalHour Janet La Force Plus) are heavier and have a warmer, quieter carriage sound. Anodized aluminium (Allegro Stretch, Align C8-PRO) is lighter, lower-maintenance and often more affordable. All the machines in this guide use genuine calibrated steel springs regardless of frame material." },
+  { q: "What's the difference between a maple, aluminum and walnut reformer?", a: "The frame material mostly affects weight, sound and price rather than performance. Solid rock maple (Balanced Body Studio Reformer) and solid walnut (PersonalHour Janet La Force Plus) are heavier and have a warmer, quieter carriage sound. Anodized aluminum (Allegro Stretch, Align C8-PRO) is lighter, lower-maintenance and often more affordable. All the machines in this guide use genuine calibrated steel springs regardless of frame material." },
 ];
 const jsonLd = {
   "@context": "https://schema.org",
@@ -252,7 +252,7 @@ export default function BestPremiumReformerPage() {
             {/* Introduction */}
             <div className="mb-16 mt-4">
               <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Every machine in this guide is sold on Amazon by the manufacturer or an authorised distributor, and prices and stock were verified there in September 2026. Reformer pricing and availability change; treat our figures as current benchmarks and check the listing before buying.
+                Every machine in this guide is sold on Amazon by the manufacturer or an authorized distributor, and prices and stock were verified there in September 2026. Reformer pricing and availability change; treat our figures as current benchmarks and check the listing before buying.
               </p>
               <div className="rounded-xl p-5 mt-6" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(139,74,49,0.15)" }}>
                 <p className="text-sm font-semibold mb-1" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Our overall pick</p>
@@ -268,7 +268,7 @@ export default function BestPremiumReformerPage() {
               <div className="space-y-4">
                 {[
                   { heading: "Steel springs, not cords", body: "Every machine in this guide uses calibrated steel springs. The resistance curve is consistent throughout the movement range: it does not accelerate at end range as elastic cords do. This is not an aesthetic difference. It fundamentally changes how exercises feel and how your body learns to control movement against resistance." },
-                  { heading: "Frame rigidity under load", body: "Premium frames do not flex during explosive footwork or jump board intervals. Cheap aluminium frames introduce micro-movements that compromise precision. At this price tier, the frame is rigid enough that the only movement you feel is intentional carriage travel." },
+                  { heading: "Frame rigidity under load", body: "Premium frames do not flex during explosive footwork or jump board intervals. Cheap aluminum frames introduce micro-movements that compromise precision. At this price tier, the frame is rigid enough that the only movement you feel is intentional carriage travel." },
                   { heading: "Carriage precision", body: "High-precision bearing systems (polyurethane wheels, precision-machined rails) eliminate the lateral wobble and uneven glide of entry-level machines. The difference is immediately perceptible to any trained practitioner. A precise carriage is what makes subtle weight-shifting and control exercises possible." },
                   { heading: "Full repertoire compatibility", body: "Rails of 96–103 inches accommodate practitioners up to 6'3\". Adjustable shoulder rests, three-position headrests, and multi-position footbars mean the machine conforms to the practitioner rather than the reverse." },
                   { heading: "Accessory ecosystems", body: "Every brand in this guide has a developed accessory range: jump boards, boxes, towers, Cadillac conversions, vertical stands. Buying into an ecosystem means your machine can grow with your practice rather than becoming obsolete." },
@@ -421,7 +421,7 @@ export default function BestPremiumReformerPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Merrithew V2 Max Reformer: In-Depth Review" excerpt="The most detailed assessment of Merrithew's most advanced professional machine." href="/blog/merrithew-v2-max-review" category="Equipment" readTime="11 min read" date="May 2026" imageUrl="/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg" />
                 <ArticleCard title="Balanced Body vs Merrithew" excerpt="The definitive head-to-head of the two dominant professional reformer brands." href="/blog/balanced-body-vs-merrithew" category="Comparison" readTime="13 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
-                <ArticleCard title="Peak Pilates Brand Guide" excerpt="Peak's MVe reformer is a top-tier premium machine favoured by classical studios worldwide." href="/blog/peak-pilates" category="Brand Guide" readTime="10 min read" date="May 2026" imageUrl="/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg" />
+                <ArticleCard title="Peak Pilates Brand Guide" excerpt="Peak's MVe reformer is a top-tier premium machine favored by classical studios worldwide." href="/blog/peak-pilates" category="Brand Guide" readTime="10 min read" date="May 2026" imageUrl="/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg" />
                 <ArticleCard title="Elina Pilates Brand Guide" excerpt="Elina's handcrafted wood and aluminum reformers compete directly with Balanced Body and Merrithew." href="/blog/elina-pilates" category="Brand Guide" readTime="10 min read" date="May 2026" imageUrl="/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg" />
                 <ArticleCard title="Balanced Body Studio Reformer Review" excerpt="The real Balanced Body flagship sold on Amazon: carriage, springs and who it suits." href="/blog/balanced-body-allegro-2-review" category="Equipment" readTime="10 min read" date="June 2026" imageUrl="/pictures/stitch-reformer-sunlit-minimal.png" />
               </div>

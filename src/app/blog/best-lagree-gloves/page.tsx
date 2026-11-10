@@ -235,7 +235,7 @@ export default function BestLagreeGlovesPage() {
               <div className="mt-10 rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                 <p className="text-base font-semibold mb-2" style={h2Style}>Not Lagree-branded? That&apos;s fine.</p>
                 <p className="text-sm leading-relaxed" style={bodyStyle}>
-                  None of these products is made specifically for Lagree: they are yoga, Pilates and gym gloves, wraps and pads. That is normal: there is no separate Lagree glove category. What makes one right for Lagree is the problem it solves (grip, calluses or wrists), the fit, and whether it leaves your fingers free for the class&apos;s constant handle and strap changes. Prices shown are the Amazon prices we verified on October 2, 2026; sizes and colours can be priced differently.
+                  None of these products is made specifically for Lagree: they are yoga, Pilates and gym gloves, wraps and pads. That is normal: there is no separate Lagree glove category. What makes one right for Lagree is the problem it solves (grip, calluses or wrists), the fit, and whether it leaves your fingers free for the class&apos;s constant handle and strap changes. Prices shown are the Amazon prices we verified on October 2, 2026; sizes and colors can be priced differently.
                 </p>
               </div>
             </div>

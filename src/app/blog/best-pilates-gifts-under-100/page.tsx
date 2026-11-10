@@ -62,7 +62,7 @@ const PRODUCTS = [
     name: "Theraband Professional Resistance Band Set",
     price: "$19.47",
     verdict: "Best Accessory Under $30",
-    description: "Theraband is the clinical gold standard in resistance bands: the same brand used in hospital physiotherapy departments and prescribed by sports medicine professionals. The professional set includes six resistance levels from yellow through black, covering every stage of pilates progression from gentle rehabilitation to advanced conditioning. Each band is colour-coded, pre-cut to exercise length, and made from a latex blend that won't snap or degrade. For a practitioner of any level, this is the highest-value-for-money gift on this list.",
+    description: "Theraband is the clinical gold standard in resistance bands: the same brand used in hospital physiotherapy departments and prescribed by sports medicine professionals. The professional set includes six resistance levels from yellow through black, covering every stage of pilates progression from gentle rehabilitation to advanced conditioning. Each band is color-coded, pre-cut to exercise length, and made from a latex blend that won't snap or degrade. For a practitioner of any level, this is the highest-value-for-money gift on this list.",
     affiliateUrl: "https://www.amazon.com/dp/B07RF9FYM6?tag=pilatescollective-20",
   },
   {
@@ -70,7 +70,7 @@ const PRODUCTS = [
     name: "ToeSox Half-Toe Grip Socks 3-Pack",
     price: "$44.00",
     verdict: "Best Multi-Pack Gift",
-    description: "ToeSox grip socks are required equipment for reformer studios and the preferred choice of the majority of serious practitioners. The half-toe design is specifically engineered for footbar work: the exposed toes provide full proprioceptive feedback on the reformer carriage while the full-grip sole keeps feet anchored on every surface. The three-pack in a coordinated colour set is a gift that's practical, repeatable, and genuinely appreciated. She'll reach for these every class.",
+    description: "ToeSox grip socks are required equipment for reformer studios and the preferred choice of the majority of serious practitioners. The half-toe design is specifically engineered for footbar work: the exposed toes provide full proprioceptive feedback on the reformer carriage while the full-grip sole keeps feet anchored on every surface. The three-pack in a coordinated color set is a gift that's practical, repeatable, and genuinely appreciated. She'll reach for these every class.",
     affiliateUrl: "https://www.amazon.com/dp/B07Q5JM1G5?tag=pilatescollective-20",
   },
   {
@@ -86,7 +86,7 @@ const PRODUCTS = [
     name: "Lululemon Align Reversible Bra",
     price: "$48",
     verdict: "Best Under-$50 Gift",
-    description: "The Align Bra is Lululemon's most popular sports bra, made from the same Nulu fabric as the iconic Align leggings. It's light, buttery, fully reversible (two colours in one), and designed for low-impact activities like pilates, yoga, and barre where comfort and aesthetics matter as much as performance. The removable cups provide modest coverage and the smoothed silhouette works under fitted studio tops. At $48 it's one of the most thoughtful under-$50 gifts in pilates: she'll wear it to every class. Not sold on Amazon: this link goes to Lululemon's own site.",
+    description: "The Align Bra is Lululemon's most popular sports bra, made from the same Nulu fabric as the iconic Align leggings. It's light, buttery, fully reversible (two colors in one), and designed for low-impact activities like pilates, yoga, and barre where comfort and aesthetics matter as much as performance. The removable cups provide modest coverage and the smoothed silhouette works under fitted studio tops. At $48 it's one of the most thoughtful under-$50 gifts in pilates: she'll wear it to every class. Not sold on Amazon: this link goes to Lululemon's own site.",
     affiliateUrl: "https://shop.lululemon.com",
   },
 ];
@@ -230,7 +230,7 @@ export default function Page() {
           </div>
 
           <p style={{ fontFamily: "var(--font-sans)", fontSize: "11px", color: "#9a9490", lineHeight: 1.7, marginTop: "64px", paddingTop: "24px", borderTop: "1px solid #ede9e3" }}>
-            Pilates Collective Club participates in the Amazon Associates programme. Purchases through our links earn us a small commission at no additional cost to you. All recommendations are independently chosen.
+            Pilates Collective Club participates in the Amazon Associates program. Purchases through our links earn us a small commission at no additional cost to you. All recommendations are independently chosen.
           </p>
         </div>
       </section>

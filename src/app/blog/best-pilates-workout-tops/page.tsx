@@ -70,7 +70,7 @@ const PRODUCTS = [
     price: "From $68",
     verdict: "Best overall Pilates tank top",
     description:
-      "The Align tank is the top equivalent of the Align legging: the same buttery Nulu fabric in a fitted, racerback silhouette with a built-in shelf bra. The coverage is full front and back, with no riding up during arm-overhead exercises or shoulder stand prep. The shelf bra provides light support suitable for low-impact work; practitioners who need more support should layer it over a dedicated sports bra. The fabric does not retain odour or pill with regular washing. A wardrobe staple for most regular Pilates practitioners: the neutral colours make it a versatile base layer for any studio. Not sold on Amazon: this link goes to Lululemon's own site.",
+      "The Align tank is the top equivalent of the Align legging: the same buttery Nulu fabric in a fitted, racerback silhouette with a built-in shelf bra. The coverage is full front and back, with no riding up during arm-overhead exercises or shoulder stand prep. The shelf bra provides light support suitable for low-impact work; practitioners who need more support should layer it over a dedicated sports bra. The fabric does not retain odor or pill with regular washing. A wardrobe staple for most regular Pilates practitioners: the neutral colors make it a versatile base layer for any studio. Not sold on Amazon: this link goes to Lululemon's own site.",
     affiliateUrl: "https://shop.lululemon.com",
     tag: "Editor's Pick",
   },
@@ -80,7 +80,7 @@ const PRODUCTS = [
     price: "From $62",
     verdict: "Best sports bra for reformer Pilates",
     description:
-      "Alo's Airlift Intrigue is the benchmark for sports bras in the Pilates studio environment. The medium-impact support is exactly right for reformer work: secure enough to be stable during dynamic movements, with none of the compression that makes high-impact bras uncomfortable during sustained floor-based work. The racerback design allows full shoulder mobility. The Airlift fabric is notably comfortable during the lying positions that characterise reformer Pilates: no underwire, no seams in uncomfortable positions, no bunching when the body changes orientation from supine to prone to side-lying. Not sold on Amazon: this link goes to Alo Yoga's own site.",
+      "Alo's Airlift Intrigue is the benchmark for sports bras in the Pilates studio environment. The medium-impact support is exactly right for reformer work: secure enough to be stable during dynamic movements, with none of the compression that makes high-impact bras uncomfortable during sustained floor-based work. The racerback design allows full shoulder mobility. The Airlift fabric is notably comfortable during the lying positions that characterize reformer Pilates: no underwire, no seams in uncomfortable positions, no bunching when the body changes orientation from supine to prone to side-lying. Not sold on Amazon: this link goes to Alo Yoga's own site.",
     affiliateUrl: "https://www.aloyoga.com",
     tag: "Best Sports Bra",
   },
@@ -199,7 +199,7 @@ export default function BestPilatesWorkoutTopsPage() {
               <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Building a Pilates wardrobe that works</h2>
               <ul className="space-y-3">
                 {[
-                  "Start with two to three tank tops or long sleeves in neutral colours: these work across every studio aesthetic and don't visually compete with your instructor's cues.",
+                  "Start with two to three tank tops or long sleeves in neutral colors: these work across every studio aesthetic and don't visually compete with your instructor's cues.",
                   "A medium-support sports bra worn under a tank gives you modular flexibility: the bra works alone in warm studios, the tank alone for cooler days, both together for high-movement classes.",
                   "Avoid tops with loose fabric, pockets, or decorative hardware. Anything that catches on a reformer strap or footbar during a class is a distraction and a safety consideration.",
                   "Machine wash cold, air dry. Performance fabrics lose shape faster in tumble driers, particularly the four-way stretch materials that make fitted Pilates tops functional.",

@@ -38,7 +38,7 @@ const PRODUCTS = [
     price: "$24.98",
     verdict: "Best mat for pain-sensitive practice",
     description:
-      "A 10mm mat is one of the most important equipment choices for practitioners with fibromyalgia. The widespread musculoskeletal tenderness that characterises fibromyalgia makes standard 4-6mm mats genuinely uncomfortable for exercises that require lying prone, side-lying, or any position that places bony prominences against the floor. A 10mm mat provides enough cushioning to meaningfully reduce that discomfort without creating the instability that very thick foam can produce during standing or balance exercises. The Gaiam Essentials mat is a well-established option at a sensible price point: it provides adequate cushioning for most practitioners without the premium cost of specialist thick mats. For fibromyalgia, the investment in a thicker mat is not optional comfort: it is a prerequisite for consistent practice.",
+      "A 10mm mat is one of the most important equipment choices for practitioners with fibromyalgia. The widespread musculoskeletal tenderness that characterizes fibromyalgia makes standard 4-6mm mats genuinely uncomfortable for exercises that require lying prone, side-lying, or any position that places bony prominences against the floor. A 10mm mat provides enough cushioning to meaningfully reduce that discomfort without creating the instability that very thick foam can produce during standing or balance exercises. The Gaiam Essentials mat is a well-established option at a sensible price point: it provides adequate cushioning for most practitioners without the premium cost of specialist thick mats. For fibromyalgia, the investment in a thicker mat is not optional comfort: it is a prerequisite for consistent practice.",
     affiliateUrl: "https://www.amazon.com/dp/B07H9PZDQW?tag=pilatescollective-20",
     tag: "Best Thick Mat",
   },
@@ -58,7 +58,7 @@ const PRODUCTS = [
     price: "$19.99",
     verdict: "Best for targeted tender point relief",
     description:
-      "The 18 defined tender points of fibromyalgia (located at the neck, shoulders, upper chest, elbows, hips, and knees) respond to targeted myofascial release work before and after exercise. A set of massage balls (typically including a lacrosse ball size and a smaller spiked ball) allows precise application of pressure to specific tender points in a controlled way. Using a massage ball against a wall or the floor allows the practitioner to control pressure completely, making it appropriate even during moderate fibromyalgia flares. Five to ten minutes of targeted ball work on the most symptomatic areas before a Pilates session can reduce local pain sensitisation and improve the range of motion available during the class. Post-session ball work also supports recovery by addressing the muscle tension that accumulates during exercise.",
+      "The 18 defined tender points of fibromyalgia (located at the neck, shoulders, upper chest, elbows, hips, and knees) respond to targeted myofascial release work before and after exercise. A set of massage balls (typically including a lacrosse ball size and a smaller spiked ball) allows precise application of pressure to specific tender points in a controlled way. Using a massage ball against a wall or the floor allows the practitioner to control pressure completely, making it appropriate even during moderate fibromyalgia flares. Five to ten minutes of targeted ball work on the most symptomatic areas before a Pilates session can reduce local pain sensitization and improve the range of motion available during the class. Post-session ball work also supports recovery by addressing the muscle tension that accumulates during exercise.",
     affiliateUrl: "https://www.amazon.com/dp/B00ERFBX9G?tag=pilatescollective-20",
     tag: "Best for Tender Points",
   },
@@ -110,7 +110,7 @@ const jsonLd = {
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "Is Pilates good for fibromyalgia?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Clinical evidence consistently shows that low-to-moderate intensity exercise, including Pilates, reduces fibromyalgia pain scores, improves fatigue, and enhances quality of life. Pilates is particularly suitable because it is low-impact, controllable in intensity, and emphasises body awareness, which helps practitioners learn to work within their symptom limits rather than triggering post-exertional malaise." } },
+        { "@type": "Question", "name": "Is Pilates good for fibromyalgia?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Clinical evidence consistently shows that low-to-moderate intensity exercise, including Pilates, reduces fibromyalgia pain scores, improves fatigue, and enhances quality of life. Pilates is particularly suitable because it is low-impact, controllable in intensity, and emphasizes body awareness, which helps practitioners learn to work within their symptom limits rather than triggering post-exertional malaise." } },
         { "@type": "Question", "name": "Can Pilates make fibromyalgia worse?", "acceptedAnswer": { "@type": "Answer", "text": "Pilates can temporarily worsen symptoms if intensity is too high or if sessions are too long or frequent for the individual's current capacity. The key risk is post-exertional malaise: a worsening of symptoms that can follow excessive exertion. Fibromyalgia Pilates should start with very short sessions (15-20 minutes), low intensity, and significant rest between sessions, progressing only when the individual consistently recovers well." } },
         { "@type": "Question", "name": "How often should I do Pilates with fibromyalgia?", "acceptedAnswer": { "@type": "Answer", "text": "Start with two sessions per week of 15-20 minutes each, leaving at least two days between sessions to assess recovery. If you consistently recover without symptom increase, gradually extend session duration before increasing frequency. Most people with fibromyalgia do best with two to three sessions per week of 30-45 minutes, rather than daily practice which can outpace recovery capacity." } },
       ],
@@ -143,11 +143,11 @@ export default function PilatesForFibromyalgiaPage() {
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Fibromyalgia presents a genuine paradox for exercise: inactivity worsens symptoms, but exertion can trigger flares. Pilates, with its emphasis on slow, controlled movement, breathwork, and precise muscle engagement, sits in an unusually productive middle ground: enough stimulus to build strength and reduce pain sensitisation, with enough control to stay within individual tolerance. The evidence supports it clearly, and the practical question is not whether to do Pilates, but how to do it safely.
+              Fibromyalgia presents a genuine paradox for exercise: inactivity worsens symptoms, but exertion can trigger flares. Pilates, with its emphasis on slow, controlled movement, breathwork, and precise muscle engagement, sits in an unusually productive middle ground: enough stimulus to build strength and reduce pain sensitization, with enough control to stay within individual tolerance. The evidence supports it clearly, and the practical question is not whether to do Pilates, but how to do it safely.
             </p>
             <div className="rounded-xl p-6 mb-4" style={{ backgroundColor: "#fff9f5", border: "1px solid rgba(197,168,130,0.3)" }}>
               <p className="text-xs font-semibold uppercase tracking-[0.15em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Medical note</p>
-              <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Consult your GP or rheumatologist before beginning a new exercise programme with fibromyalgia. This guide is for general educational purposes only.</p>
+              <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Consult your GP or rheumatologist before beginning a new exercise program with fibromyalgia. This guide is for general educational purposes only.</p>
             </div>
           </div>
         </section>
@@ -173,11 +173,11 @@ export default function PilatesForFibromyalgiaPage() {
               </p>
               <div className="space-y-4 mb-8">
                 {[
-                  "A 2017 randomised controlled trial published in the Clinical Rehabilitation journal found that 12 weeks of Pilates significantly reduced pain intensity, fatigue, and depression in women with fibromyalgia compared to a control group.",
+                  "A 2017 randomized controlled trial published in the Clinical Rehabilitation journal found that 12 weeks of Pilates significantly reduced pain intensity, fatigue, and depression in women with fibromyalgia compared to a control group.",
                   "Pilates improves sleep quality in fibromyalgia patients: a critical finding, since disrupted sleep is both a symptom and a driver of fibromyalgia pain amplification.",
                   "The proprioceptive and body awareness elements of Pilates training help fibromyalgia patients develop better movement economy, using less muscular effort for the same tasks, which directly reduces the energy cost of daily activity.",
                   "Unlike higher-intensity exercise, Pilates at appropriate intensity does not consistently trigger post-exertional malaise when the pacing principles described below are followed.",
-                  "The breathing component of Pilates has measurable effects on the autonomic nervous system, reducing the sympathetic activation that characterises fibromyalgia's central sensitisation.",
+                  "The breathing component of Pilates has measurable effects on the autonomic nervous system, reducing the sympathetic activation that characterizes fibromyalgia's central sensitization.",
                 ].map((point, i) => (
                   <div key={i} className="flex gap-4">
                     <div className="w-1.5 rounded-full shrink-0 mt-1" style={{ backgroundColor: "#c5a882", minHeight: "20px" }} />
@@ -218,7 +218,7 @@ export default function PilatesForFibromyalgiaPage() {
                   { name: "Knee folds (one at a time)", why: "Gentle hip flexor engagement in a fully supported position. Develops core activation without the spinal loading of sit-up based exercises that fibromyalgia practitioners often cannot tolerate." },
                   { name: "Leg slides", why: "Slow, controlled leg extension in supine position. Builds hip stability and psoas strength without loading the painful areas most fibromyalgia patients identify: upper trapezius, neck, and lumbar spine." },
                   { name: "Clam shells with light band", why: "Hip abductor and external rotator strengthening in side-lying: a non-weight-bearing position that is reliably accessible during moderate fibromyalgia symptoms." },
-                  { name: "Seated spine twist", why: "Thoracic rotation mobilisation that addresses the thoracic stiffness almost universally present in fibromyalgia. Performed seated with minimal loading, it is accessible on most symptom days." },
+                  { name: "Seated spine twist", why: "Thoracic rotation mobilization that addresses the thoracic stiffness almost universally present in fibromyalgia. Performed seated with minimal loading, it is accessible on most symptom days." },
                   { name: "Standing wall roll-down", why: "Controlled spinal flexion with the support of a wall. Builds hamstring flexibility and spinal mobility without the uncontrolled loading of standard forward bends." },
                 ].map((ex) => (
                   <div key={ex.name} className="flex gap-4">
@@ -252,7 +252,7 @@ export default function PilatesForFibromyalgiaPage() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "Is Pilates good for fibromyalgia?", a: "Yes. Clinical evidence consistently shows that low-to-moderate intensity exercise, including Pilates, reduces fibromyalgia pain scores, improves fatigue, and enhances quality of life. Pilates is particularly suitable because it is low-impact, controllable in intensity, and emphasises body awareness, which helps practitioners learn to work within their symptom limits rather than triggering post-exertional malaise." },
+                  { q: "Is Pilates good for fibromyalgia?", a: "Yes. Clinical evidence consistently shows that low-to-moderate intensity exercise, including Pilates, reduces fibromyalgia pain scores, improves fatigue, and enhances quality of life. Pilates is particularly suitable because it is low-impact, controllable in intensity, and emphasizes body awareness, which helps practitioners learn to work within their symptom limits rather than triggering post-exertional malaise." },
                   { q: "Can Pilates make fibromyalgia worse?", a: "Pilates can temporarily worsen symptoms if intensity is too high or if sessions are too long or frequent for the individual's current capacity. The key risk is post-exertional malaise: a worsening of symptoms that can follow excessive exertion. Fibromyalgia Pilates should start with very short sessions (15-20 minutes), low intensity, and significant rest between sessions, progressing only when the individual consistently recovers well." },
                   { q: "How often should I do Pilates with fibromyalgia?", a: "Start with two sessions per week of 15-20 minutes each, leaving at least two days between sessions to assess recovery. If you consistently recover without symptom increase, gradually extend session duration before increasing frequency. Most people with fibromyalgia do best with two to three sessions per week of 30-45 minutes, rather than daily practice which can outpace recovery capacity." },
                 ].map((item) => (

@@ -73,8 +73,8 @@ const STUDIOS = [
     name: "Club Pilates Arcadia",
     neighborhood: "Arcadia",
     priceLevel: "$$$",
-    review: "Club Pilates Arcadia on East Indian School Road serves Arcadia and central-east Phoenix with levelled group reformer classes.",
-    caveat: "a franchise format: consistent, but less personalised than an independent studio.",
+    review: "Club Pilates Arcadia on East Indian School Road serves Arcadia and central-east Phoenix with leveled group reformer classes.",
+    caveat: "a franchise format: consistent, but less personalized than an independent studio.",
     address: "3750 E Indian School Rd, Phoenix, AZ 85018",
     bestFor: "Arcadia residents wanting structured reformer classes",
     signatureClass: "Reformer Flow",
@@ -86,7 +86,7 @@ const STUDIOS = [
     neighborhood: "Central Phoenix",
     priceLevel: "$$",
     review: "Club Pilates Central Phoenix on North 16th Street is a convenient option for central Phoenix, the Biltmore area and Camelback corridor.",
-    caveat: "a franchise format: consistent, but less personalised than an independent studio.",
+    caveat: "a franchise format: consistent, but less personalized than an independent studio.",
     address: "6819 N 16th St, Ste 7, Phoenix, AZ 85016",
     bestFor: "Central Phoenix residents",
     signatureClass: "Reformer Flow",
@@ -97,8 +97,8 @@ const STUDIOS = [
     name: "Club Pilates Tempe",
     neighborhood: "Tempe",
     priceLevel: "$$",
-    review: "Club Pilates Tempe on East Guadalupe Road serves Tempe and the ASU area with levelled group reformer classes and membership pricing.",
-    caveat: "a franchise format: consistent, but less personalised than an independent studio.",
+    review: "Club Pilates Tempe on East Guadalupe Road serves Tempe and the ASU area with leveled group reformer classes and membership pricing.",
+    caveat: "a franchise format: consistent, but less personalized than an independent studio.",
     address: "1825 E Guadalupe Rd, Suite F-102, Tempe, AZ 85283",
     bestFor: "Tempe and East Valley residents",
     signatureClass: "Reformer Flow",
@@ -110,13 +110,13 @@ const BOOKING_TIPS = [
   { heading: "Expect to pay $28–58 per class", body: "Phoenix's Pilates market spans a wide range shaped by its dual character as both a year-round city and a seasonal resort destination. Drop-in rates run from $28 at accessible community studios to $58+ at Paradise Valley premium practices. Monthly memberships bring per-class costs to $18–30 for regular practitioners." },
   { heading: "Summer changes everything", body: "Phoenix summers are extreme: temperatures regularly exceed 115°F from June through September. The outdoor-active population retreats indoors entirely, and Pilates studio demand actually increases during these months. Popular morning slots from June through August can be harder to book than during the pleasant October–April season." },
   { heading: "The snowbird season is October through April", body: "Phoenix's large seasonal resident population, arriving from Canada and the northern US for winter, creates significant competition for studio slots from November through March. Practitioners who establish studio memberships before October typically have an easier time securing preferred timeslots than those who arrive with the snowbirds." },
-  { heading: "Visiting? Ask your resort", body: "Many Scottsdale resorts run their own fitness and wellness programmes. If you are staying in Old Town or Paradise Valley, ask the concierge which nearby studios guests use, and book directly with the studio." },
+  { heading: "Visiting? Ask your resort", body: "Many Scottsdale resorts run their own fitness and wellness programs. If you are staying in Old Town or Paradise Valley, ask the concierge which nearby studios guests use, and book directly with the studio." },
   { heading: "Grip socks are required everywhere", body: "Universal across the Phoenix metro's reformer studios. Buying quality grip socks from Amazon before your first class is a consistent saving." },
 ];
 
 const NEIGHBORHOODS = [
   { name: "Scottsdale (Old Town & North Scottsdale)", description: "The Phoenix metro's wellness capital. Scottsdale's concentration of luxury resorts, affluent residents, and seasonal visitors has produced the densest collection of premium Pilates practices in Arizona. The standard here is genuinely high." },
-  { name: "Paradise Valley & Arcadia", description: "The metro's most exclusive residential neighbourhoods support exceptional premium and community-oriented studios. Arcadia in particular has a neighbourhood character that produces unusually loyal studio communities." },
+  { name: "Paradise Valley & Arcadia", description: "The metro's most exclusive residential neighborhoods support exceptional premium and community-oriented studios. Arcadia in particular has a neighborhood character that produces unusually loyal studio communities." },
   { name: "Downtown Phoenix & Roosevelt Row", description: "Phoenix's urban core is developing rapidly, and its Pilates studio culture is growing with it. Studios here serve the growing Downtown residential population and the creative community with contemporary programming and accessible pricing." },
   { name: "Tempe, Chandler & the Southeast Valley", description: "The southeastern metro corridor (Tempe, Chandler, Gilbert, and Mesa) has strong franchise and independent studio offerings serving the area's large tech-sector and family population with practical, accessibly priced reformer access." },
 ];
@@ -151,7 +151,7 @@ const GEAR = [
 const HOME_REFORMERS = [
   { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work: three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
   { tag: "Mid-Range Pick", name: "AeroPilates Pro XP 557", note: "AeroPilates' top-of-the-range home reformer, a step up for practitioners training several times a week.", price: "$1,329.99", url: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20" },
-  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
+  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodized aluminum frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
 ];
 
 const RELATED_CITIES = [
@@ -168,7 +168,7 @@ const FURTHER_READING = [
 
 const CITY_FAQS = [
   { q: "What are the best Pilates studios in Phoenix?", a: "Our 6 curated picks are Body Politik (Paradise Valley), DEFINE Pilates (Scottsdale), Workshop Pilates (McCormick Ranch, Scottsdale), Club Pilates Arcadia (Arcadia), Club Pilates Central Phoenix (Central Phoenix) and Club Pilates Tempe (Tempe). Each listing above covers what the studio is best for, its signature class and a booking tip." },
-  { q: "Which Phoenix neighbourhoods are best for Pilates?", a: "This guide covers Scottsdale (Old Town & North Scottsdale), Paradise Valley & Arcadia, Downtown Phoenix & Roosevelt Row and Tempe, Chandler & the Southeast Valley. Scottsdale (Old Town & North Scottsdale): The Phoenix metro's wellness capital." },
+  { q: "Which Phoenix neighborhoods are best for Pilates?", a: "This guide covers Scottsdale (Old Town & North Scottsdale), Paradise Valley & Arcadia, Downtown Phoenix & Roosevelt Row and Tempe, Chandler & the Southeast Valley. Scottsdale (Old Town & North Scottsdale): The Phoenix metro's wellness capital." },
   { q: "What should I know about booking Pilates classes in Phoenix?", a: "Expect to pay $28–58 per class. Phoenix's Pilates market spans a wide range shaped by its dual character as both a year-round city and a seasonal resort destination." },
   { q: "What should I bring to a Pilates class in Phoenix?", a: "Grip socks are required at most reformer studios. Our gear list for Phoenix covers Pilates grip socks, Pilates mat, resistance bands set and foam roller." },
 ];
@@ -268,7 +268,7 @@ export default function PhoenixPage() {
 
         <section className="py-20 px-6" style={{ backgroundColor: "#f6f3f2" }}>
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Best neighbourhoods for Pilates in Phoenix</h2>
+            <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Best neighborhoods for Pilates in Phoenix</h2>
             <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>The Phoenix metro&apos;s studio quality spans central Phoenix, Scottsdale, and the Southeast Valley. Here&apos;s where to look.</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {NEIGHBORHOODS.map((n) => (

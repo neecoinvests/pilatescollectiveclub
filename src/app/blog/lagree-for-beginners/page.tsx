@@ -770,7 +770,7 @@ export default function LagreeForBeginnersPage() {
               </div>
 
               <div className="rounded-2xl p-6 md:p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.5)" }}>
-                <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={eyebrowStyle}>The maths</p>
+                <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={eyebrowStyle}>The math</p>
                 <p className="text-sm leading-relaxed mb-4" style={bodyStyle}>
                   Lagree classes in major US cities commonly cost $35–$45 or more each. At that rate, The Micro on its own ({MICRO.price}) costs about the same as {Math.round(MICRO_PRICE / 45)}–{Math.round(MICRO_PRICE / 35)} classes. With the rear platform and one pair of handlebars, the setup comes to {fmt(MICRO_SETUP_TOTAL)} ($990.00 + $290.00 + $190.00), or roughly {Math.round(MICRO_SETUP_TOTAL / 45)}–{Math.round(MICRO_SETUP_TOTAL / 35)} classes. Adding the pulley cables brings the full setup to $1,700.00.
                 </p>

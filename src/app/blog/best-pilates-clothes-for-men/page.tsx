@@ -93,7 +93,7 @@ const PRODUCTS = [
     name: "Vuori Kore Short",
     price: "~$64 (vuoriclothing.com)",
     verdict: "Best brand-direct premium alternative",
-    description: "Not sold on Amazon: this links to vuoriclothing.com. Vuori's Kore Short is a popular alternative to Lululemon for men who want a cleaner, more refined aesthetic in the studio. It has a tailored fit that holds well through the hip-hinge movements that are heavy in Pilates. Vuori's colour palette runs muted compared with most athletic brands, which makes it a natural choice if you care about how your kit looks as much as how it performs. Vuori does not sell through Amazon, so we link to the brand's own site.",
+    description: "Not sold on Amazon: this links to vuoriclothing.com. Vuori's Kore Short is a popular alternative to Lululemon for men who want a cleaner, more refined aesthetic in the studio. It has a tailored fit that holds well through the hip-hinge movements that are heavy in Pilates. Vuori's color palette runs muted compared with most athletic brands, which makes it a natural choice if you care about how your kit looks as much as how it performs. Vuori does not sell through Amazon, so we link to the brand's own site.",
     affiliateUrl: "https://vuoriclothing.com/",
     tag: "",
   },

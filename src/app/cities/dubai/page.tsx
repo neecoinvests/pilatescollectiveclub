@@ -54,7 +54,7 @@ const STUDIOS = [
     name: "11 Pilates",
     neighborhood: "Jumeirah 1 / Dubai Marina",
     priceLevel: "$$$",
-    review: "11 Pilates was founded in the UK and specialises in dynamic reformer Pilates for all levels, using Merrithew reformers and Cadillacs. Its progressive classes (Core Reformer, Core Plus+ and Dynamic Reformer) build strength, flexibility, posture and coordination, and it has studios in Jumeirah 1 and Dubai Marina.",
+    review: "11 Pilates was founded in the UK and specializes in dynamic reformer Pilates for all levels, using Merrithew reformers and Cadillacs. Its progressive classes (Core Reformer, Core Plus+ and Dynamic Reformer) build strength, flexibility, posture and coordination, and it has studios in Jumeirah 1 and Dubai Marina.",
     caveat: "weekend hours are shorter (Sundays close around 5pm), so check the schedule before planning a weekend class.",
     address: "",
     bestFor: "Progressive reformer classes on Merrithew equipment",
@@ -90,10 +90,10 @@ const STUDIOS = [
     name: "Art of Pilates Business Bay",
     neighborhood: "Business Bay",
     priceLevel: "$$$",
-    review: "Art of Pilates is a modern reformer studio in Business Bay with showers, lockers, towels and parking. Its classes are clearly levelled (Reformer Beginners, Pilates Reformer Intermediate and Reformer Power Pilates) plus targeted sessions such as Slim Legs and Strong Core, and it is rated 4.8 from more than 500 ratings on ClassPass.",
+    review: "Art of Pilates is a modern reformer studio in Business Bay with showers, lockers, towels and parking. Its classes are clearly leveled (Reformer Beginners, Pilates Reformer Intermediate and Reformer Power Pilates) plus targeted sessions such as Slim Legs and Strong Core, and it is rated 4.8 from more than 500 ratings on ClassPass.",
     caveat: "we could not confirm the exact building address: check the booking app for directions.",
     address: "",
-    bestFor: "Levelled reformer classes for Business Bay and Downtown",
+    bestFor: "Leveled reformer classes for Business Bay and Downtown",
     signatureClass: "Reformer Power Pilates",
     bookingTip: "Begin with Reformer Beginners before booking Power Pilates.",
   },
@@ -118,7 +118,7 @@ const BOOKING_TIPS = [
   },
   {
     heading: "Tipping is not customary but always appreciated",
-    body: "Unlike in some Western cities, tipping Pilates instructors is not an established norm in Dubai. A kind word and consistent return are the most meaningful currency. If you do tip, 20–30 AED is a generous gesture.",
+    body: "Unlike in some Western cities, tipping Pilates instructors is not an established norm in Dubai. A kind word and consistent return are the most meaningful currency. If you do tip, about $5–8 is a generous gesture.",
   },
   {
     heading: "ClassPass has good coverage in Dubai",
@@ -129,8 +129,8 @@ const BOOKING_TIPS = [
     body: "While Dubai has relaxed significantly, arriving to your Pilates studio in appropriate workout attire is expected. Most studios ask that you change on-site rather than arriving in outdoor clothes.",
   },
   {
-    heading: "Expect to pay 150–300 AED per reformer class",
-    body: "Drop-in reformer classes range from around 150 AED at community studios to 300 AED at premium boutiques in DIFC and City Walk. Monthly memberships and class packs typically bring the per-session cost down by 30–40%.",
+    heading: "Expect to pay about $41–82 per reformer class",
+    body: "Drop-in reformer classes range from around $41 at community studios to $82 at premium boutiques in DIFC and City Walk. Monthly memberships and class packs typically bring the per-session cost down by 30–40%.",
   },
   {
     heading: "Summer scheduling shifts significantly",
@@ -231,7 +231,7 @@ const FURTHER_READING = [
 
 const CITY_FAQS = [
   { q: "What are the best Pilates studios in Dubai?", a: "Our 6 curated picks are Reform Athletica (DIFC (DIFC, ICD Brookfield Place), 11 Pilates (Jumeirah 1 / Dubai Marina), Studio14 (Al Quoz), Tula Studios) JBR (JBR, Jumeirah Beach Residence), Art of Pilates: Business Bay (Business Bay) and Revolution Studios DXB (Al Quoz). Each listing above covers what the studio is best for, its signature class and a booking tip." },
-  { q: "Which Dubai neighbourhoods are best for Pilates?", a: "This guide covers DIFC & Downtown Dubai, Jumeirah & Al Safa, Dubai Marina & JBR and City Walk & Business Bay. DIFC & Downtown Dubai: The financial heart of Dubai is also its premium wellness hub." },
+  { q: "Which Dubai neighborhoods are best for Pilates?", a: "This guide covers DIFC & Downtown Dubai, Jumeirah & Al Safa, Dubai Marina & JBR and City Walk & Business Bay. DIFC & Downtown Dubai: The financial heart of Dubai is also its premium wellness hub." },
   { q: "What should I know about booking Pilates classes in Dubai?", a: "Book at least 48–72 hours ahead for peak slots. Dubai's top Pilates studios fill quickly, particularly morning slots before 9am and evening slots from 6pm." },
   { q: "What should I bring to a Pilates class in Dubai?", a: "Grip socks are required at most reformer studios. Our gear list for Dubai covers Pilates grip socks, Pilates mat, magic circle, resistance bands, foam roller and home Pilates reformer." },
 ];
@@ -314,7 +314,7 @@ export default function DubaiPage() {
             </p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Dubai has transformed into one of the Middle East's most ambitious wellness destinations, and its Pilates scene reflects that ambition fully. A city of high expectations and high standards, Dubai has attracted instructors and studio concepts from London, New York, and Sydney: producing a reformer market that is simultaneously premium, diverse, and competitive. From the financial towers of DIFC to the waterfront studios of Bluewaters Island, the city now offers world-class Pilates across neighbourhoods. This guide covers the six studios we rate most highly, with everything you need to know before booking.
+              Dubai has transformed into one of the Middle East's most ambitious wellness destinations, and its Pilates scene reflects that ambition fully. A city of high expectations and high standards, Dubai has attracted instructors and studio concepts from London, New York, and Sydney: producing a reformer market that is simultaneously premium, diverse, and competitive. From the financial towers of DIFC to the waterfront studios of Bluewaters Island, the city now offers world-class Pilates across neighborhoods. This guide covers the six studios we rate most highly, with everything you need to know before booking.
             </p>
           </div>
         </section>
@@ -374,10 +374,10 @@ export default function DubaiPage() {
         <section className="py-20 px-6" style={{ backgroundColor: "#fcf9f8" }}>
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best neighbourhoods for Pilates in Dubai
+              Best neighborhoods for Pilates in Dubai
             </h2>
             <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-              Dubai's Pilates landscape is shaped by its neighbourhoods. Here's where to look depending on where you're based.
+              Dubai's Pilates landscape is shaped by its neighborhoods. Here's where to look depending on where you're based.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {NEIGHBORHOODS.map((n) => (

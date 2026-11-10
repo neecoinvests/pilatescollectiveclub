@@ -49,7 +49,7 @@ const PRODUCTS = [
     price: "$18.00",
     verdict: "Best single pair",
     description:
-      "If you want to try full-toe socks before committing to a multi-pack, the Bellarina is the single-pair route into toesox. The design is the same idea as the Low Rise: separate toe pockets so the toes can grip independently. It is a good choice for a trial class or as the pair you keep in your bag for a drop-in. The $18.00 price is for the Black, Medium listing we checked; other colours and sizes are separate listings and can be priced differently, so confirm the size on the page before you buy. As with any full-toe sock, take a minute to seat each toe before you step onto the carriage: a half-seated toe pocket is a distraction you do not want mid-plank.",
+      "If you want to try full-toe socks before committing to a multi-pack, the Bellarina is the single-pair route into toesox. The design is the same idea as the Low Rise: separate toe pockets so the toes can grip independently. It is a good choice for a trial class or as the pair you keep in your bag for a drop-in. The $18.00 price is for the Black, Medium listing we checked; other colors and sizes are separate listings and can be priced differently, so confirm the size on the page before you buy. As with any full-toe sock, take a minute to seat each toe before you step onto the carriage: a half-seated toe pocket is a distraction you do not want mid-plank.",
     affiliateUrl: "https://www.amazon.com/dp/B00TXH0BK0?tag=pilatescollective-20",
     tag: "Best Single Pair",
   },
@@ -69,7 +69,7 @@ const PRODUCTS = [
     price: "$16.00",
     verdict: "Best closed-toe value",
     description:
-      "The Savvy is TAVI's everyday closed-toe grip sock and the cheapest way into the brand. For most people, closed-toe is the practical default for Lagree: no toe pockets to fiddle with, quick to put on, and a single sock shape that is easier to fit if your toes do not like being separated. What you give up is independent toe grip, which some people value in single-leg work and others never notice. The $16.00 price is for the Haze, Medium listing we checked: TAVI sells colours and sizes as separate listings, so prices can differ. Look at the sole photos on the listing before you buy and pick the size by the brand's chart rather than your shoe size alone.",
+      "The Savvy is TAVI's everyday closed-toe grip sock and the cheapest way into the brand. For most people, closed-toe is the practical default for Lagree: no toe pockets to fiddle with, quick to put on, and a single sock shape that is easier to fit if your toes do not like being separated. What you give up is independent toe grip, which some people value in single-leg work and others never notice. The $16.00 price is for the Haze, Medium listing we checked: TAVI sells colors and sizes as separate listings, so prices can differ. Look at the sole photos on the listing before you buy and pick the size by the brand's chart rather than your shoe size alone.",
     affiliateUrl: "https://www.amazon.com/dp/B08VYL1XFT?tag=pilatescollective-20",
     tag: "Best Closed-Toe Value",
   },
@@ -99,7 +99,7 @@ const PRODUCTS = [
     price: "$19.11",
     verdict: "Best Lagree socks for men",
     description:
-      "Most grip socks are sized and styled with women in mind, and the problem for larger feet is not just tightness. If the grip area stops short of where your forefoot actually lands, the sole cannot support you in a lunge or a plank on a moving carriage. A men's-specific sock is sized for a longer foot, so the grip area has a better chance of covering it. This Muezna listing is labelled as a men's non-slip sock, which makes it the easiest starting point if you have struggled to find Lagree socks in your size. Check the listing's size chart against your foot length and the number of pairs included before ordering.",
+      "Most grip socks are sized and styled with women in mind, and the problem for larger feet is not just tightness. If the grip area stops short of where your forefoot actually lands, the sole cannot support you in a lunge or a plank on a moving carriage. A men's-specific sock is sized for a longer foot, so the grip area has a better chance of covering it. This Muezna listing is labeled as a men's non-slip sock, which makes it the easiest starting point if you have struggled to find Lagree socks in your size. Check the listing's size chart against your foot length and the number of pairs included before ordering.",
     affiliateUrl: "https://www.amazon.com/dp/B07H4F3FXK?tag=pilatescollective-20",
     tag: "Best for Men",
   },
@@ -129,7 +129,7 @@ const FAQS = [
   { q: "Do you need grip socks for Lagree?", a: "At most Lagree studios, yes: grip socks are usually required rather than recommended, partly for hygiene and partly because the carriage and platforms are slippery under bare feet or ordinary socks once you start sweating. Studios usually sell pairs at reception, but buying before your first class gives you more choice and usually costs less. Check your studio's policy page in case it asks for a particular style, such as full coverage." },
   { q: "What is the difference between Lagree socks and Pilates grip socks?", a: "There is no separate 'Lagree sock' category: Lagree socks are grip socks. What changes is the demand. Lagree holds you in slow lunges and planks on a moving carriage for long sets, with a lot of sweat. That shifts the load sideways across the sole as well as straight down, so grip coverage under the ball of the foot and a fit that does not rotate underfoot matter more than they do on a mat." },
   { q: "Full-toe, closed-toe or toeless socks for Lagree?", a: "All three work, and for most people it is personal preference. Full-toe socks (such as toesox) let the toes spread and grip independently. Closed-toe socks (such as TAVI) are quicker to put on and suit people who dislike toe pockets. Toeless socks (such as Tucketts) run cooler and leave the toes bare, but check that your studio allows them. Choose by fit and sole coverage first, toe style second." },
-  { q: "Can men wear grip socks for Lagree?", a: "Yes, and they should: the rules are the same for everyone. The main issue for men is size: many grip socks are graded for smaller feet, so the grip area can end before the forefoot. Look for listings labelled as men's (the Muezna Men's and CoolMate Men's socks above) and size them by foot length." },
+  { q: "Can men wear grip socks for Lagree?", a: "Yes, and they should: the rules are the same for everyone. The main issue for men is size: many grip socks are graded for smaller feet, so the grip area can end before the forefoot. Look for listings labeled as men's (the Muezna Men's and CoolMate Men's socks above) and size them by foot length." },
   { q: "Can you wear regular socks on a Megaformer?", a: "Not safely. Ordinary socks slide on the carriage and platforms, especially once you start sweating, and most studios will not let you train in them. If you forget your grip socks, buy a pair at reception rather than risk it." },
   { q: "How many pairs of Lagree socks do you need?", a: "Plan on one pair per class between washes. If you train two or three times a week, three to five pairs keeps you covered, which is why a multi-pack plus one or two premium pairs is the most practical setup. Wash them inside out on a cool cycle and air-dry them, because heat is generally hard on silicone grip prints." },
 ];
@@ -253,7 +253,7 @@ export default function BestLagreeGripSocksPage() {
               <div className="mt-10 rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
                 <p className="text-base font-semibold mb-2" style={h2Style}>Not Lagree-branded? That&apos;s fine.</p>
                 <p className="text-sm leading-relaxed" style={bodyStyle}>
-                  None of these socks is made specifically for Lagree, and that is normal: studio grip socks are designed for Pilates, barre, yoga and Lagree alike. What makes a pair right for Lagree is not a label but the sole coverage, the fit and how many pairs you have in rotation. Prices shown are the Amazon prices we verified on October 2, 2026; colour and size variations can be priced differently.
+                  None of these socks is made specifically for Lagree, and that is normal: studio grip socks are designed for Pilates, barre, yoga and Lagree alike. What makes a pair right for Lagree is not a label but the sole coverage, the fit and how many pairs you have in rotation. Prices shown are the Amazon prices we verified on October 2, 2026; color and size variations can be priced differently.
                 </p>
               </div>
             </div>
@@ -305,7 +305,7 @@ export default function BestLagreeGripSocksPage() {
                   "Fit by foot length. A sock that rotates underfoot is useless mid-set, however good the sole.",
                   "Enough pairs. Lagree is sweaty enough that rewearing is not realistic: plan one pair per class between washes.",
                   "Studio rules. Some studios ask for full coverage or a particular style; check before you buy toeless socks.",
-                  "Colour and size listings. Branded socks are often listed separately by colour and size, and prices can differ between them.",
+                  "Color and size listings. Branded socks are often listed separately by color and size, and prices can differ between them.",
                   "Care. Wash inside out on a cool cycle and air-dry: heat is generally hard on silicone grip prints.",
                 ].map((tip, i) => (
                   <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>

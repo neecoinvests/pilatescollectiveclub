@@ -98,7 +98,7 @@ const jsonLd = {
           "name": "Which legging is more opaque: the Lululemon Align or Alo Airbrush?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The Alo Airbrush is consistently more opaque across all colourways and in positions of deep hip flexion. The Lululemon Align is fully opaque in black and darker shades but lighter colours (particularly whites, light pinks, and pale neutrals) can show sheerness during the deep forward fold required in reformer footwork. For Pilates specifically, darker Align colourways or the Airbrush in any colour are both safe choices.",
+            "text": "The Alo Airbrush is consistently more opaque across all colorways and in positions of deep hip flexion. The Lululemon Align is fully opaque in black and darker shades but lighter colors (particularly whites, light pinks, and pale neutrals) can show sheerness during the deep forward fold required in reformer footwork. For Pilates specifically, darker Align colorways or the Airbrush in any color are both safe choices.",
           },
         },
         {
@@ -197,7 +197,7 @@ export default function LululemonAlignVsAloAirbrushPage() {
 
         {/* Main editorial content */}
         <section className="px-6 pb-20">
-          <AffiliateNote><span style={{ fontWeight: 600 }}>Affiliate disclosure:</span> Some links on this page go to Amazon. We earn a small commission on qualifying purchases at no extra cost to you. This does not affect our editorial judgement: we compare both products honestly.</AffiliateNote>
+          <AffiliateNote><span style={{ fontWeight: 600 }}>Affiliate disclosure:</span> Some links on this page go to Amazon. We earn a small commission on qualifying purchases at no extra cost to you. This does not affect our editorial judgment: we compare both products honestly.</AffiliateNote>
 
           <div className="max-w-3xl mx-auto">
 
@@ -235,7 +235,7 @@ export default function LululemonAlignVsAloAirbrushPage() {
                       "Practitioners who want a barely-there, second-skin sensation",
                       "Mat Pilates and barre where compression is less critical",
                       "Anyone sensitive to waistband pressure during core work",
-                      "Those who prioritise movement freedom over figure-sculpting",
+                      "Those who prioritize movement freedom over figure-sculpting",
                     ].map((item) => (
                       <li
                         key={item}
@@ -270,7 +270,7 @@ export default function LululemonAlignVsAloAirbrushPage() {
                       "Reformer-focused practitioners who want medium-firm compression",
                       "Anyone who pilles through the Align's Nulu fabric quickly",
                       "Those who prefer a sculpted silhouette during class",
-                      "Practitioners who need reliable opacity across all colourways",
+                      "Practitioners who need reliable opacity across all colorways",
                     ].map((item) => (
                       <li
                         key={item}
@@ -482,13 +482,13 @@ export default function LululemonAlignVsAloAirbrushPage() {
                   className="text-sm leading-relaxed mb-4"
                   style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
                 >
-                  Black is the safest Align colour for opacity. Lighter colourways (ivory, soft blush, pale stone, and pastel tones) are more likely to show sheerness in deep hip flexion. This is a consequence of Nulu&apos;s lower fabric weight and the way it stretches: the weave opens under tension. Lululemon&apos;s own squat-test marketing focuses on squatting, but the Pilates hip-flexion position is a more extreme fabric stress test than a bodyweight squat.
+                  Black is the safest Align color for opacity. Lighter colorways (ivory, soft blush, pale stone, and pastel tones) are more likely to show sheerness in deep hip flexion. This is a consequence of Nulu&apos;s lower fabric weight and the way it stretches: the weave opens under tension. Lululemon&apos;s own squat-test marketing focuses on squatting, but the Pilates hip-flexion position is a more extreme fabric stress test than a bodyweight squat.
                 </p>
                 <p
                   className="text-sm leading-relaxed"
                   style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
                 >
-                  The Alo Airbrush is fully opaque across all colourways including white and light neutrals. The denser Airlift fabric does not open under stretch in the same way. For practitioners who love lighter colourways, the Airbrush is the only safe choice. For darker Align shades, opacity is not a concern.
+                  The Alo Airbrush is fully opaque across all colorways including white and light neutrals. The denser Airlift fabric does not open under stretch in the same way. For practitioners who love lighter colorways, the Airbrush is the only safe choice. For darker Align shades, opacity is not a concern.
                 </p>
                 <div
                   className="mt-4 px-4 py-2 rounded-lg inline-block"
@@ -498,7 +498,7 @@ export default function LululemonAlignVsAloAirbrushPage() {
                     className="text-xs"
                     style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif", fontWeight: 600 }}
                   >
-                    Edge: Airbrush (decisive advantage, all colourways)
+                    Edge: Airbrush (decisive advantage, all colorways)
                   </p>
                 </div>
               </div>
@@ -656,7 +656,7 @@ export default function LululemonAlignVsAloAirbrushPage() {
                   className="text-sm leading-relaxed mb-4"
                   style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
                 >
-                  Lululemon offers the Align in sizes 0–20 (US), with a dedicated Align Tall line extending inseams to 31 inches. Standard inseam options are 21 inches (crop), 25 inches (7/8), and 28 inches (full), with some colourways also available in 31 inches. For Pilates specifically, the 25-inch or 28-inch inseam is the most practical: instructors can observe knee alignment clearly, and the length prevents the legging from riding up during leg-circle or spring-resistance footwork.
+                  Lululemon offers the Align in sizes 0–20 (US), with a dedicated Align Tall line extending inseams to 31 inches. Standard inseam options are 21 inches (crop), 25 inches (7/8), and 28 inches (full), with some colorways also available in 31 inches. For Pilates specifically, the 25-inch or 28-inch inseam is the most practical: instructors can observe knee alignment clearly, and the length prevents the legging from riding up during leg-circle or spring-resistance footwork.
                 </p>
                 <p
                   className="text-sm leading-relaxed"
@@ -708,7 +708,7 @@ export default function LululemonAlignVsAloAirbrushPage() {
                   className="text-sm leading-relaxed mb-4"
                   style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
                 >
-                  The Alo Airbrush holds up significantly better. The denser Airlift fabric resists pilling, colour holds through repeated cold washing, and the waistband elasticity remains consistent beyond 100 wash cycles. Both leggings should be washed inside-out on cold and air-dried: tumble drying accelerates the degradation of elastane in any performance fabric. Fabric softener should be avoided: it coats the moisture-wicking fibres and reduces both breathability and compression recovery over time.
+                  The Alo Airbrush holds up significantly better. The denser Airlift fabric resists pilling, color holds through repeated cold washing, and the waistband elasticity remains consistent beyond 100 wash cycles. Both leggings should be washed inside-out on cold and air-dried: tumble drying accelerates the degradation of elastane in any performance fabric. Fabric softener should be avoided: it coats the moisture-wicking fibers and reduces both breathability and compression recovery over time.
                 </p>
                 <div
                   className="mt-4 px-4 py-2 rounded-lg inline-block"
@@ -748,7 +748,7 @@ export default function LululemonAlignVsAloAirbrushPage() {
                   className="text-sm leading-relaxed mb-4"
                   style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
                 >
-                  Both brands have made public commitments to sustainability, and both have been challenged on the gap between stated goals and operational reality. Lululemon has a Be Planet initiative targeting net-zero by 2050 and has introduced some recycled materials into select products, but the Align leggings are not yet made from recycled fibres. The brand has faced scrutiny over supply chain transparency.
+                  Both brands have made public commitments to sustainability, and both have been challenged on the gap between stated goals and operational reality. Lululemon has a Be Planet initiative targeting net-zero by 2050 and has introduced some recycled materials into select products, but the Align leggings are not yet made from recycled fibers. The brand has faced scrutiny over supply chain transparency.
                 </p>
                 <p
                   className="text-sm leading-relaxed"
@@ -843,7 +843,7 @@ export default function LululemonAlignVsAloAirbrushPage() {
                     className="text-sm leading-relaxed"
                     style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
                   >
-                    You practice primarily mat-based Pilates, barre, or yoga, or any format where freedom of movement and sensory minimalism are the priority. The Align is also the right choice if you are sensitive to compression or find firmer fabrics distracting during core-focused exercises. For practitioners who do not pile through inner-thigh fabric quickly (lighter body weight, lower activity frequency), the pilling concern is less pressing. If sizing inclusivity or a wide range of inseam options matters to you, Lululemon&apos;s range is also substantially more accommodating. Choose dark colourways for reformer classes specifically.
+                    You practice primarily mat-based Pilates, barre, or yoga, or any format where freedom of movement and sensory minimalism are the priority. The Align is also the right choice if you are sensitive to compression or find firmer fabrics distracting during core-focused exercises. For practitioners who do not pile through inner-thigh fabric quickly (lighter body weight, lower activity frequency), the pilling concern is less pressing. If sizing inclusivity or a wide range of inseam options matters to you, Lululemon&apos;s range is also substantially more accommodating. Choose dark colorways for reformer classes specifically.
                   </p>
                 </div>
 
@@ -861,7 +861,7 @@ export default function LululemonAlignVsAloAirbrushPage() {
                     className="text-sm leading-relaxed"
                     style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
                   >
-                    You attend reformer classes multiple times per week and want a legging that holds up to that frequency without pilling or losing shape. The Airbrush is also the only choice if you want to wear white or light-coloured leggings to class safely. Its consistent opacity across all colourways is a genuine functional advantage over the Align. The compression level suits practitioners who find proprioceptive feedback through their clothing helpful, and the sculpting effect is appreciated by many who want to feel put-together in a boutique studio environment without sacrificing function.
+                    You attend reformer classes multiple times per week and want a legging that holds up to that frequency without pilling or losing shape. The Airbrush is also the only choice if you want to wear white or light-colored leggings to class safely. Its consistent opacity across all colorways is a genuine functional advantage over the Align. The compression level suits practitioners who find proprioceptive feedback through their clothing helpful, and the sculpting effect is appreciated by many who want to feel put-together in a boutique studio environment without sacrificing function.
                   </p>
                 </div>
 
@@ -901,7 +901,7 @@ export default function LululemonAlignVsAloAirbrushPage() {
                   },
                   {
                     q: "Which legging is more opaque: the Lululemon Align or Alo Airbrush?",
-                    a: "The Alo Airbrush is consistently more opaque across all colourways and in positions of deep hip flexion. The Lululemon Align is fully opaque in black and darker shades but lighter colours (particularly whites, light pinks, and pale neutrals) can show sheerness during the deep forward fold required in reformer footwork. For Pilates specifically, darker Align colourways or the Airbrush in any colour are both safe choices.",
+                    a: "The Alo Airbrush is consistently more opaque across all colorways and in positions of deep hip flexion. The Lululemon Align is fully opaque in black and darker shades but lighter colors (particularly whites, light pinks, and pale neutrals) can show sheerness during the deep forward fold required in reformer footwork. For Pilates specifically, darker Align colorways or the Airbrush in any color are both safe choices.",
                   },
                   {
                     q: "Do the Lululemon Align leggings pill over time?",
@@ -962,7 +962,7 @@ export default function LululemonAlignVsAloAirbrushPage() {
               />
               <ArticleCard title="Lululemon Align Review (2026): Is It Opaque Enough?" excerpt="Lululemon Align reviewed for Pilates, is Nulu opaque enough on a reformer? Waistband hold, sizing, and an honest…" href="/blog/lululemon-align-review" category="Activewear" readTime="10 min read" imageUrl="/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg" />
               <ArticleCard title="Lululemon for Pilates (2026): Align vs Wunder Train" excerpt="Which Lululemon lines suit Pilates, Align, Wunder Train and Define compared on opacity, compression and how they…" href="/blog/lululemon-pilates" category="Activewear" readTime="10 min read" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
-              <ArticleCard title="Best Pilates Grip Socks (2026): 5 Verified Picks" excerpt="5 verified, in-stock Pilates grip socks on Amazon: toesox and TAVI studio favourites, Tucketts toeless, plus Gaiam…" href="/blog/best-pilates-grip-socks" category="Activewear" readTime="6 min read" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
+              <ArticleCard title="Best Pilates Grip Socks (2026): 5 Verified Picks" excerpt="5 verified, in-stock Pilates grip socks on Amazon: toesox and TAVI studio favorites, Tucketts toeless, plus Gaiam…" href="/blog/best-pilates-grip-socks" category="Activewear" readTime="6 min read" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
             </div>
 
           </div>

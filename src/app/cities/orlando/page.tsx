@@ -67,7 +67,7 @@ const STUDIOS = [
     name: "Winter Park Pilates",
     neighborhood: "Winter Park",
     priceLevel: "$$$",
-    review: "Winter Park Pilates teaches authentic classical Pilates on original-style Gratz, Pilates Designs and Legacy equipment, specialising in small group classes: the most traditional option in the Orlando area.",
+    review: "Winter Park Pilates teaches authentic classical Pilates on original-style Gratz, Pilates Designs and Legacy equipment, specializing in small group classes: the most traditional option in the Orlando area.",
     caveat: "classical instruction is precise and methodical, so expect a slower pace than a fusion class.",
     address: "3500 Aloma Ave, Suite C1, Winter Park, FL",
     bestFor: "Classical Pilates on traditional apparatus",
@@ -91,8 +91,8 @@ const STUDIOS = [
     name: "Club Pilates SODO",
     neighborhood: "SoDo / South Downtown",
     priceLevel: "$$",
-    review: "Club Pilates SODO on South Orange Avenue is the brand's most central Orlando studio, linking downtown and the SoDo district, with levelled group reformer classes.",
-    caveat: "a franchise format: consistent, but less personalised than an independent studio.",
+    review: "Club Pilates SODO on South Orange Avenue is the brand's most central Orlando studio, linking downtown and the SoDo district, with leveled group reformer classes.",
+    caveat: "a franchise format: consistent, but less personalized than an independent studio.",
     address: "3123 S Orange Ave, Ste 103, Orlando, FL 32806",
     bestFor: "Central reformer classes near downtown",
     signatureClass: "Reformer Flow",
@@ -103,7 +103,7 @@ const STUDIOS = [
     name: "Club Pilates Dr. Phillips",
     neighborhood: "Dr. Phillips / Restaurant Row",
     priceLevel: "$$",
-    review: "Club Pilates Dr. Phillips on Dr. Phillips Boulevard serves the Restaurant Row area and south-west Orlando with levelled group reformer classes.",
+    review: "Club Pilates Dr. Phillips on Dr. Phillips Boulevard serves the Restaurant Row area and south-west Orlando with leveled group reformer classes.",
     caveat: "a franchise studio: reliable structure, less individual programming.",
     address: "7600 Dr. Phillips Blvd, Ste 86, Orlando, FL 32819",
     bestFor: "South-west Orlando residents",
@@ -115,8 +115,8 @@ const STUDIOS = [
     name: "Club Pilates Waterford Lakes",
     neighborhood: "Waterford Lakes / East Orlando",
     priceLevel: "$$",
-    review: "Club Pilates Waterford Lakes on North Alafaya Trail serves east Orlando and the UCF area with levelled group reformer classes and membership pricing for frequent training.",
-    caveat: "a franchise format: consistent, but less personalised than an independent studio.",
+    review: "Club Pilates Waterford Lakes on North Alafaya Trail serves east Orlando and the UCF area with leveled group reformer classes and membership pricing for frequent training.",
+    caveat: "a franchise format: consistent, but less personalized than an independent studio.",
     address: "504 N Alafaya Trl, Suite 108, Orlando, FL 32828",
     bestFor: "East Orlando residents new to the reformer",
     signatureClass: "Reformer Flow",
@@ -206,7 +206,7 @@ const GEAR = [
 const HOME_REFORMERS = [
   { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work: three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
   { tag: "Mid-Range Pick", name: "AeroPilates Pro XP 557", note: "AeroPilates' top-of-the-range home reformer, a step up for practitioners training several times a week.", price: "$1,329.99", url: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20" },
-  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
+  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodized aluminum frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
 ];
 
 const RELATED_CITIES = [
@@ -243,7 +243,7 @@ const FURTHER_READING = [
 
 const CITY_FAQS = [
   { q: "What are the best Pilates studios in Orlando?", a: "Our 6 curated picks are Pilates on 5th (Winter Park), Winter Park Pilates (Winter Park), JETSET Pilates: Dr. Phillips (Dr. Phillips), Club Pilates SODO (SoDo / South Downtown), Club Pilates Dr. Phillips (Dr. Phillips / Restaurant Row) and Club Pilates Waterford Lakes (Waterford Lakes / East Orlando). Each listing above covers what the studio is best for, its signature class and a booking tip." },
-  { q: "Which Orlando neighbourhoods are best for Pilates?", a: "This guide covers Winter Park, Dr. Phillips & Restaurant Row, SoDo & South Downtown and East Orlando & Waterford Lakes. Winter Park: Florida's most charming small city, brick-lined Park Avenue, canopied streets, and a wellness culture that is genuinely sophisticated." },
+  { q: "Which Orlando neighborhoods are best for Pilates?", a: "This guide covers Winter Park, Dr. Phillips & Restaurant Row, SoDo & South Downtown and East Orlando & Waterford Lakes. Winter Park: Florida's most charming small city, brick-lined Park Avenue, canopied streets, and a wellness culture that is genuinely sophisticated." },
   { q: "What should I know about booking Pilates classes in Orlando?", a: "Orlando's summer heat makes studios essential. Central Florida summers are intensely hot and humid from May through October." },
   { q: "What should I bring to a Pilates class in Orlando?", a: "Grip socks are required at most reformer studios. Our gear list for Orlando covers Pilates grip socks, Pilates mat (6mm), magic circle, fabric resistance bands and high-density foam roller." },
 ];

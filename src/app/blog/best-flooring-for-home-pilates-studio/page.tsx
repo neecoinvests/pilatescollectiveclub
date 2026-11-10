@@ -58,7 +58,7 @@ const PRODUCTS = [
     price: "$24.99",
     verdict: "Best budget pick",
     description:
-      "At almost exactly the same price as the Haulcove set, the bemaxx tiles (sold by PLConcepts) are the alternative budget pick on this list: worth comparing if you want a second option to check finish, colour or tile size against before you buy, or if the Haulcove set happens to be out of stock. Like the other EVA foam tiles here, they interlock without adhesive and are a straightforward, low-cost way to cover a small practice area.",
+      "At almost exactly the same price as the Haulcove set, the bemaxx tiles (sold by PLConcepts) are the alternative budget pick on this list: worth comparing if you want a second option to check finish, color or tile size against before you buy, or if the Haulcove set happens to be out of stock. Like the other EVA foam tiles here, they interlock without adhesive and are a straightforward, low-cost way to cover a small practice area.",
     affiliateUrl: "https://www.amazon.com/dp/B019DZDM3O?tag=pilatescollective-20",
     tag: "Best Budget Pick",
   },

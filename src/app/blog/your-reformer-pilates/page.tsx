@@ -68,7 +68,7 @@ const PRODUCTS = [
     price: "Priced direct: confirm on yourreformer.com",
     verdict: "The brand's premium tier reformer",
     description:
-      "The Studio is described by Your Reformer as its premium machine: an extended version of The Original aimed at taller practitioners and more advanced work. We could not independently verify the exact carriage length, footbar reach, or height range this model accommodates, so treat any specific figure (including a height cutoff) as a claim to confirm directly with Your Reformer rather than an established fact. The construction is described as consistent with The Original, wood and aluminium, at a larger specification and a higher price point that you should confirm on the brand's own site before ordering.",
+      "The Studio is described by Your Reformer as its premium machine: an extended version of The Original aimed at taller practitioners and more advanced work. We could not independently verify the exact carriage length, footbar reach, or height range this model accommodates, so treat any specific figure (including a height cutoff) as a claim to confirm directly with Your Reformer rather than an established fact. The construction is described as consistent with The Original, wood and aluminum, at a larger specification and a higher price point that you should confirm on the brand's own site before ordering.",
     affiliateUrl: "https://yourreformer.com",
     tag: "Premium Model",
   },
@@ -78,7 +78,7 @@ const PRODUCTS = [
     price: "Priced direct: confirm on yourreformer.com",
     verdict: "The content ecosystem",
     description:
-      "The YR app is the component of Your Reformer that most distinguishes the brand from conventional reformer manufacturers, at least according to the brand's own marketing. It is described as a library of reformer classes filmed for Your Reformer machines and structured into progressive programmes rather than standalone sessions. We could not independently verify the subscription price or the exact content library size: confirm current pricing directly on yourreformer.com. The subscription is described as optional; the hardware does not require connectivity to operate.",
+      "The YR app is the component of Your Reformer that most distinguishes the brand from conventional reformer manufacturers, at least according to the brand's own marketing. It is described as a library of reformer classes filmed for Your Reformer machines and structured into progressive programs rather than standalone sessions. We could not independently verify the subscription price or the exact content library size: confirm current pricing directly on yourreformer.com. The subscription is described as optional; the hardware does not require connectivity to operate.",
     affiliateUrl: "https://yourreformer.com",
     tag: "App Platform",
   },
@@ -245,7 +245,7 @@ export default function YourReformerPilatesPage() {
               <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Home Pilates Reformers" excerpt="The complete buyer's guide across all price points and brands." href="/blog/best-home-pilates-reformer" category="Equipment" readTime="14 min read" date="May 2026" imageUrl="/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg" />
-                <ArticleCard title="Best Online Pilates Classes" excerpt="The top platforms for guided Pilates at home, including reformer programmes." href="/blog/best-online-pilates-classes" category="Equipment" readTime="8 min read" date="May 2026" imageUrl="/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" />
+                <ArticleCard title="Best Online Pilates Classes" excerpt="The top platforms for guided Pilates at home, including reformer programs." href="/blog/best-online-pilates-classes" category="Equipment" readTime="8 min read" date="May 2026" imageUrl="/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Reformers for Small Spaces" excerpt="How Your Reformer compares against Align and AeroPilates for compact apartment living." href="/blog/best-pilates-reformer-for-small-spaces" category="Equipment" readTime="9 min read" date="May 2026" imageUrl="/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg" />
                 <ArticleCard title="Best Foldable Pilates Reformers" excerpt="Which reformers are genuinely marketed and sold as fold-flat, and which folding claims don't hold up." href="/blog/best-foldable-pilates-reformer" category="Equipment" readTime="9 min read" date="September 2026" imageUrl="/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg" />
               </div>

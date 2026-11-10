@@ -45,7 +45,7 @@ const PRODUCTS = [
     name: "Nike Dri-FIT Legend Training Tee",
     price: "$37.00",
     verdict: "Best Budget",
-    description: "Nike's standard-issue Dri-FIT Legend is the workhorse pick for practitioners who train daily and don't want to think too hard about laundry. It wicks effectively, holds its shape through dozens of washes, and is available in an extensive colour range. At $37, it's the most cost-effective option on this list.",
+    description: "Nike's standard-issue Dri-FIT Legend is the workhorse pick for practitioners who train daily and don't want to think too hard about laundry. It wicks effectively, holds its shape through dozens of washes, and is available in an extensive color range. At $37, it's the most cost-effective option on this list.",
     affiliateUrl: "https://www.amazon.com/dp/B0CR775CQR?tag=pilatescollective-20",
     tag: "Best Value",
   },
@@ -54,7 +54,7 @@ const PRODUCTS = [
     name: "Patagonia Capilene Cool Trail Shirt",
     price: "$45",
     verdict: "Best Sustainable",
-    description: "Made from 100% recycled polyester with HeiQ Fresh technology for odour control, the Capilene Cool Trail is the most environmentally responsible pick on this list without cutting corners on performance. The UPF 40+ rating and flat-lock seams make it a versatile tee equally suited to studio Pilates, outdoor cross-training, or travel.",
+    description: "Made from 100% recycled polyester with HeiQ Fresh technology for odor control, the Capilene Cool Trail is the most environmentally responsible pick on this list without cutting corners on performance. The UPF 40+ rating and flat-lock seams make it a versatile tee equally suited to studio Pilates, outdoor cross-training, or travel.",
     affiliateUrl: "https://www.amazon.com/s?k=patagonia+capilene+cool+trail+shirt&tag=pilatescollective-20",
     tag: "Eco Choice",
   },
@@ -72,7 +72,7 @@ const PRODUCTS = [
     name: "Vuori Strato Tech Tee",
     price: "$64",
     verdict: "Best Breathable",
-    description: "Vuori's Strato Tech uses a proprietary anti-microbial polyester that stays fresh through back-to-back sessions. The relaxed fit is on-trend for Pilates studios without being sloppy: it doesn't ride up during supine footwork or aerial work on the reformer. The neutral colourways suit any studio aesthetic. Not sold on Amazon: this link goes to Vuori's own site.",
+    description: "Vuori's Strato Tech uses a proprietary anti-microbial polyester that stays fresh through back-to-back sessions. The relaxed fit is on-trend for Pilates studios without being sloppy: it doesn't ride up during supine footwork or aerial work on the reformer. The neutral colorways suit any studio aesthetic. Not sold on Amazon: this link goes to Vuori's own site.",
     affiliateUrl: "https://vuoriclothing.com",
     tag: "Best Breathable",
   },
@@ -83,7 +83,7 @@ const PRODUCTS = [
     verdict: "Best Studio Style",
     description: "If aesthetics matter in your studio, and they do, the Triumph Tee is Alo's most popular silhouette for a reason. The micro-rib fabric has a polished look that reads elevated without sacrificing movement. It's slightly fitted through the torso, which keeps it from interfering with strap work or carriage-based exercises. Not sold on Amazon: this link goes to Alo Yoga's own site.",
     affiliateUrl: "https://www.aloyoga.com",
-    tag: "Studio Favourite",
+    tag: "Studio Favorite",
   },
   {
     rank: "06",
@@ -129,7 +129,7 @@ const jsonLd = {
       "@type": "FAQPage",
       mainEntity: [
         { "@type": "Question", name: "Should I wear a t-shirt or tank top for Pilates?", acceptedAnswer: { "@type": "Answer", text: "Both work well. T-shirts are preferred in cooler studios or for those who feel more comfortable with covered shoulders. In heated reformer studios or intense Lagree sessions, a tank top may be more practical for temperature regulation. The key is fabric: choose moisture-wicking synthetic blends over cotton." } },
-        { "@type": "Question", name: "What fabric is best for a Pilates t-shirt?", acceptedAnswer: { "@type": "Answer", text: "Polyester and nylon blends with moisture-wicking technology are the best choice. They dry quickly, stretch with your movements, and resist odour better than cotton. Look for four-way stretch construction and flatlock seams to avoid chafing during mat and reformer work." } },
+        { "@type": "Question", name: "What fabric is best for a Pilates t-shirt?", acceptedAnswer: { "@type": "Answer", text: "Polyester and nylon blends with moisture-wicking technology are the best choice. They dry quickly, stretch with your movements, and resist odor better than cotton. Look for four-way stretch construction and flatlock seams to avoid chafing during mat and reformer work." } },
         { "@type": "Question", name: "Can I wear a regular t-shirt to Pilates?", acceptedAnswer: { "@type": "Answer", text: "Yes, but regular cotton t-shirts absorb sweat rather than wicking it away, become heavy and uncomfortable mid-session, and can restrict movement. A technical athletic tee makes a noticeable difference in comfort and freedom of movement, especially during intensive reformer or Megaformer sessions." } },
       ],
     },
@@ -159,7 +159,7 @@ export default function BestPilatesTshirtsPage() {
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              The t-shirt you choose for Pilates matters more than most people realise. A cotton tee becomes a wet, restrictive layer within twenty minutes of reformer work. A quality technical tee stays light, moves with you, and keeps you looking as composed in the last exercise as the first.
+              The t-shirt you choose for Pilates matters more than most people realize. A cotton tee becomes a wet, restrictive layer within twenty minutes of reformer work. A quality technical tee stays light, moves with you, and keeps you looking as composed in the last exercise as the first.
             </p>
           </div>
         </section>
@@ -203,7 +203,7 @@ export default function BestPilatesTshirtsPage() {
               <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "1.6rem", fontWeight: 400, color: "#1a1714", marginBottom: "32px" }}>Frequently Asked Questions</h2>
               {[
                 { q: "Should I wear a t-shirt or tank top for Pilates?", a: "Both work well. T-shirts are preferred in cooler studios or for those who feel more comfortable with covered shoulders. In heated reformer studios or intense Lagree sessions, a tank top may be more practical for temperature regulation. The key is fabric: choose moisture-wicking synthetic blends over cotton." },
-                { q: "What fabric is best for a Pilates t-shirt?", a: "Polyester and nylon blends with moisture-wicking technology are the best choice. They dry quickly, stretch with your movements, and resist odour better than cotton. Look for four-way stretch construction and flatlock seams to avoid chafing during mat and reformer work." },
+                { q: "What fabric is best for a Pilates t-shirt?", a: "Polyester and nylon blends with moisture-wicking technology are the best choice. They dry quickly, stretch with your movements, and resist odor better than cotton. Look for four-way stretch construction and flatlock seams to avoid chafing during mat and reformer work." },
                 { q: "Can I wear a regular t-shirt to Pilates?", a: "Yes, but regular cotton t-shirts absorb sweat rather than wicking it away, become heavy and uncomfortable mid-session, and can restrict movement. A technical athletic tee makes a noticeable difference in comfort and freedom of movement, especially during intensive reformer or Megaformer sessions." },
               ].map((item) => (
                 <div key={item.q} style={{ borderTop: "1px solid #ede6dc", paddingTop: "24px", paddingBottom: "24px" }}>
@@ -219,7 +219,7 @@ export default function BestPilatesTshirtsPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Pilates Tank Tops (2026)" excerpt="Racerbacks, strappy tanks, and studio styles compared for breathability, fit, and reformer-ready performance." href="/blog/best-pilates-tank-tops" category="Clothing" readTime="8 min" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Workout Tops" excerpt="Long-sleeve, short-sleeve, and layering tops compared for reformer and mat Pilates." href="/blog/best-pilates-workout-tops" category="Clothing" readTime="8 min" imageUrl="/pictures/stitch-retail-activewear.png" />
-                <ArticleCard title="Best Pilates Grip Socks (2026): 5 Verified Picks" excerpt="5 verified, in-stock Pilates grip socks on Amazon: toesox and TAVI studio favourites, Tucketts toeless, plus Gaiam…" href="/blog/best-pilates-grip-socks" category="Activewear" readTime="6 min read" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Grip Socks (2026): 5 Verified Picks" excerpt="5 verified, in-stock Pilates grip socks on Amazon: toesox and TAVI studio favorites, Tucketts toeless, plus Gaiam…" href="/blog/best-pilates-grip-socks" category="Activewear" readTime="6 min read" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Leggings (2026): 5 Picks for Reformer & Mat" excerpt="The 5 best Pilates leggings on Amazon, from $26 to $134: Lululemon Align, Beyond Yoga, Sweaty Betty, Varley and…" href="/blog/best-pilates-leggings" category="Activewear" readTime="9 min read" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />
                 <ArticleCard title="Athleta for Pilates (2026): Best Leggings & Tops Reviewed" excerpt="Best Athleta pieces for Pilates, Salutation, Elation, and Brooklyn leggings reviewed for reformer class…" href="/blog/athleta-pilates" category="Activewear" readTime="9 min read" imageUrl="/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" />
               </div>
@@ -227,7 +227,7 @@ export default function BestPilatesTshirtsPage() {
           </div>
         </section>
 
-        <CTASection title="Find Your Studio" subtitle="Explore top-rated Pilates and reformer studios near you." showSearch searchPlaceholder="Search by city or neighbourhood..." />
+        <CTASection title="Find Your Studio" subtitle="Explore top-rated Pilates and reformer studios near you." showSearch searchPlaceholder="Search by city or neighborhood..." />
       </main>
       <Footer />
     </>

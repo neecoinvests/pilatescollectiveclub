@@ -38,7 +38,7 @@ const PRODUCTS = [
     price: "$99.00",
     verdict: "Best Beyond Yoga piece for Pilates",
     description:
-      "The Spacedye Midi Legging is Beyond Yoga's defining product and the clearest expression of the brand's design philosophy: exceptional softness, inclusive sizing, and a distinctive spacedye pattern that photographs beautifully in any studio. The fabric, Beyond Yoga's proprietary Spacedye knit, is genuinely comparable in softness to Lululemon Nulu, with a slightly heavier weight that provides more smoothing compression without feeling restrictive. The high-waisted construction sits comfortably above the hip through all Pilates movement, and the flat inner seams prevent irritation during the sustained floor work of mat practice. Available in a comprehensive range of heathered colourways, none of which look cheap at any price point.",
+      "The Spacedye Midi Legging is Beyond Yoga's defining product and the clearest expression of the brand's design philosophy: exceptional softness, inclusive sizing, and a distinctive spacedye pattern that photographs beautifully in any studio. The fabric, Beyond Yoga's proprietary Spacedye knit, is genuinely comparable in softness to Lululemon Nulu, with a slightly heavier weight that provides more smoothing compression without feeling restrictive. The high-waisted construction sits comfortably above the hip through all Pilates movement, and the flat inner seams prevent irritation during the sustained floor work of mat practice. Available in a comprehensive range of heathered colorways, none of which look cheap at any price point.",
     affiliateUrl: "https://www.amazon.com/dp/B07663TDHG?tag=pilatescollective-20",
     tag: "Editor's Pick",
   },
@@ -58,7 +58,7 @@ const PRODUCTS = [
     price: "From $62",
     verdict: "Best bra for Beyond Yoga sets",
     description:
-      "The Uplift Bra is the ideal companion piece to the Spacedye Legging for Pilates. The construction provides light-to-medium support, appropriate for the low-impact demands of reformer and mat practice, with a clean racerback profile that stays completely clear of the shoulder blades during scapular stabilisation exercises. The spacedye fabric matches exactly with the legging for a fully coordinated studio look, and the wide underband provides a smooth base that doesn't create pressure points during floor exercises. Removable pads allow adjustment for personal preference, and the bra's length is cut specifically to work at high-rise waistbands without a gap.",
+      "The Uplift Bra is the ideal companion piece to the Spacedye Legging for Pilates. The construction provides light-to-medium support, appropriate for the low-impact demands of reformer and mat practice, with a clean racerback profile that stays completely clear of the shoulder blades during scapular stabilization exercises. The spacedye fabric matches exactly with the legging for a fully coordinated studio look, and the wide underband provides a smooth base that doesn't create pressure points during floor exercises. Removable pads allow adjustment for personal preference, and the bra's length is cut specifically to work at high-rise waistbands without a gap.",
     affiliateUrl: "https://www.amazon.com/s?k=beyond+yoga+spacedye+uplift+bra&tag=pilatescollective-20",
     tag: "Best Companion Piece",
   },
@@ -166,7 +166,7 @@ export default function BeyondYogaPilatesPage() {
             <div className="mb-12 mt-4 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
               <h2 className="text-xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What is Spacedye fabric?</h2>
               <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Beyond Yoga&apos;s Spacedye is a proprietary knit fabric that creates a subtle, heathered colour variation through a yarn-dyeing process that applies colour before knitting rather than after. The result is a depth and texture that reads as distinctly premium compared to standard solid-colour activewear. The fabric itself is a blend of polyester and elastane that delivers four-way stretch, moderate compression, and exceptional softness: comparable in touch to Lululemon Nulu but with a slightly heavier weight. It is opaque through all studio movement and maintains its shape and colour through consistent washing.
+                Beyond Yoga&apos;s Spacedye is a proprietary knit fabric that creates a subtle, heathered color variation through a yarn-dyeing process that applies color before knitting rather than after. The result is a depth and texture that reads as distinctly premium compared to standard solid-color activewear. The fabric itself is a blend of polyester and elastane that delivers four-way stretch, moderate compression, and exceptional softness: comparable in touch to Lululemon Nulu but with a slightly heavier weight. It is opaque through all studio movement and maintains its shape and color through consistent washing.
               </p>
             </div>
 

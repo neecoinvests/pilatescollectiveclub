@@ -116,7 +116,7 @@ const GUIDE: EquipmentGuideProps = {
   related: [
     { title: "Pilates Christmas Gifts Over $500", excerpt: "16 splurge gifts, from reformers to recovery.", href: "/blog/pilates-christmas-gifts-over-500", imageUrl: "/pictures/stitch-luxury-studio-wide.png", category: "Gifts", readTime: "12 min read" },
     { title: "Best Pilates Reformer Under $5,000", excerpt: "Studio machines compared.", href: "/blog/best-pilates-reformer-under-5000", imageUrl: "/pictures/stitch-reformer-row-studio.png", category: "Equipment", readTime: "15 min read" },
-    { title: "Wood vs Aluminium Pilates Reformer", excerpt: "Which frame suits your home.", href: "/blog/wood-vs-aluminium-pilates-reformer", imageUrl: "/pictures/stitch-white-reformer-plaster.png", category: "Equipment", readTime: "11 min read" },
+    { title: "Wood vs Aluminum Pilates Reformer", excerpt: "Which frame suits your home.", href: "/blog/wood-vs-aluminium-pilates-reformer", imageUrl: "/pictures/stitch-white-reformer-plaster.png", category: "Equipment", readTime: "11 min read" },
     { title: "Best Pilates Reformer as a Gift", excerpt: "Reformers that make a great gift.", href: "/blog/best-pilates-reformer-gift", imageUrl: "/pictures/stitch-reformer-sunlit-minimal.png", category: "Gifts", readTime: "10 min read" },
   ],
   ctaTitle: "Find a studio near you",

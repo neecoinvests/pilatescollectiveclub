@@ -37,7 +37,7 @@ const STUDIOS = [
     name: "Heartwood Pilates",
     neighborhood: "Northeast Portland (Irvington / Sabin)",
     priceLevel: "$$$",
-    review: "Heartwood Pilates is an independent studio on NE 23rd Avenue offering personalised Pilates instruction in a welcoming, community-focused setting.",
+    review: "Heartwood Pilates is an independent studio on NE 23rd Avenue offering personalized Pilates instruction in a welcoming, community-focused setting.",
     caveat: "limited published detail about class formats: take an intro class first.",
     address: "3024 NE 23rd Ave, Portland, OR 97212",
     bestFor: "Personal, community-focused Pilates in NE Portland",
@@ -61,10 +61,10 @@ const STUDIOS = [
     name: "Johnna Buchanan Pilates",
     neighborhood: "Alberta Arts District",
     priceLevel: "$$$",
-    review: "Johnna Buchanan Pilates is an independent studio in the Alberta Arts District offering personalised instruction in mat and reformer Pilates.",
+    review: "Johnna Buchanan Pilates is an independent studio in the Alberta Arts District offering personalized instruction in mat and reformer Pilates.",
     caveat: "a smaller owner-led studio: fewer class times, more attention.",
     address: "",
-    bestFor: "Personalised mat and reformer in NE Portland",
+    bestFor: "Personalized mat and reformer in NE Portland",
     signatureClass: "Private Reformer",
     bookingTip: "Contact the studio to arrange a first session.",
   },
@@ -97,8 +97,8 @@ const STUDIOS = [
     name: "Club Pilates West Hills",
     neighborhood: "West Hills / Cedar Hills",
     priceLevel: "$$",
-    review: "Club Pilates West Hills on SW Barnes Road serves Portland's west side with the brand's levelled group reformer system.",
-    caveat: "a franchise format: consistent, but less personalised than an independent studio.",
+    review: "Club Pilates West Hills on SW Barnes Road serves Portland's west side with the brand's leveled group reformer system.",
+    caveat: "a franchise format: consistent, but less personalized than an independent studio.",
     address: "7515 SW Barnes Rd, Ste 102, Portland, OR 97225",
     bestFor: "West-side residents wanting structured reformer classes",
     signatureClass: "Reformer Flow",
@@ -108,16 +108,16 @@ const STUDIOS = [
 
 const BOOKING_TIPS = [
   { heading: "Expect to pay $25–52 per class", body: "Portland's Pilates market is moderately priced by West Coast standards: meaningfully cheaper than San Francisco or LA but sharing the Pacific Northwest's generally higher quality baseline. Drop-in rates run from $25 at community studios to $52 at Pearl District premium practices. Monthly memberships bring per-class costs to $18–28." },
-  { heading: "Portland rewards neighbourhood loyalty", body: "Portland's distinct neighbourhood identities make studio choice a community decision as much as a fitness one. Practitioners who choose studios within their neighbourhood, rather than commuting across the city, consistently build more durable practice habits and develop stronger relationships with instructors." },
+  { heading: "Portland rewards neighborhood loyalty", body: "Portland's distinct neighborhood identities make studio choice a community decision as much as a fitness one. Practitioners who choose studios within their neighborhood, rather than commuting across the city, consistently build more durable practice habits and develop stronger relationships with instructors." },
   { heading: "Rain doesn't stop Portland practitioners", body: "Portland's nine months of overcast, drizzly weather is a notorious deterrent to outdoor activity, and one of the best arguments for a consistent indoor practice. Studios see strong attendance year-round, and the rainy season actually increases demand for indoor movement options. Book standing slots before October." },
   { heading: "The west side is a separate consideration", body: "Beaverton, Hillsboro, and the broader west-side tech corridor are not well-connected to central Portland studios by public transport. West-side practitioners are better served by the strong studio offerings in Beaverton and Lake Oswego than by crossing the Tualatin Mountains for a central-city session." },
   { heading: "Grip socks are required at every reformer studio", body: "Universal across Portland's reformer market. Buying quality grip socks from Amazon before your first class is a consistent saving over front-desk retail prices across the city." },
 ];
 
 const NEIGHBORHOODS = [
-  { name: "Pearl District & Northwest", description: "Portland's most design-forward neighbourhood houses the city's premier classical studios alongside several well-run contemporary boutiques. Central, walkable, and served by the MAX light rail from most parts of the city." },
-  { name: "NE Portland (Alberta, Mississippi, Irvington)", description: "Northeast Portland's independent commercial streets support some of the city's best community-oriented studios. Teaching quality is high, pricing is fair, and the neighbourhood atmosphere is among the warmest in Portland's studio market." },
-  { name: "SE Portland (Division, Hawthorne, Sellwood)", description: "Southeast Portland's creative residential neighbourhoods have developed a strong independent studio culture over the past decade: a range of practices that value community, authenticity, and accessible pricing alongside serious instruction." },
+  { name: "Pearl District & Northwest", description: "Portland's most design-forward neighborhood houses the city's premier classical studios alongside several well-run contemporary boutiques. Central, walkable, and served by the MAX light rail from most parts of the city." },
+  { name: "NE Portland (Alberta, Mississippi, Irvington)", description: "Northeast Portland's independent commercial streets support some of the city's best community-oriented studios. Teaching quality is high, pricing is fair, and the neighborhood atmosphere is among the warmest in Portland's studio market." },
+  { name: "SE Portland (Division, Hawthorne, Sellwood)", description: "Southeast Portland's creative residential neighborhoods have developed a strong independent studio culture over the past decade: a range of practices that value community, authenticity, and accessible pricing alongside serious instruction." },
   { name: "Lake Oswego & Beaverton / West Side", description: "The metro area's southern and western suburbs each have their own strong studio offerings. Lake Oswego serves the affluent south metro with premium private and semi-private practices; Beaverton serves the west-side tech corridor with accessible, schedule-dense group reformer." },
 ];
 
@@ -136,7 +136,7 @@ const GEAR = [
   },
   {
     name: "Resistance Bands Set",
-    note: "Our pick: Arena Strength Fabric Glute Bands (3-Pack). Portable fabric bands are ideal for home Pilates practice on Portland's many grey winter days.",
+    note: "Our pick: Arena Strength Fabric Glute Bands (3-Pack). Portable fabric bands are ideal for home Pilates practice on Portland's many gray winter days.",
     price: "$29.00",
     url: "https://www.amazon.com/dp/B07VYK14JC?tag=pilatescollective-20",
   },
@@ -157,7 +157,7 @@ const GEAR = [
 const HOME_REFORMERS = [
   { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work: three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
   { tag: "Mid-Range Pick", name: "AeroPilates Pro XP 557", note: "AeroPilates' top-of-the-range home reformer, a step up for practitioners training several times a week.", price: "$1,329.99", url: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20" },
-  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
+  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodized aluminum frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
 ];
 
 const RELATED_CITIES = [
@@ -174,7 +174,7 @@ const FURTHER_READING = [
 
 const CITY_FAQS = [
   { q: "What are the best Pilates studios in Portland?", a: "Our 6 curated picks are Heartwood Pilates (Northeast Portland, Irvington / Sabin), Pearl Pilates Studio (Pearl District), Johnna Buchanan Pilates (Alberta Arts District), Studio 45 (Central Eastside / Division), IM=X Pilates: Lake Oswego (Lake Oswego) and Club Pilates West Hills (West Hills / Cedar Hills). Each listing above covers what the studio is best for, its signature class and a booking tip." },
-  { q: "Which Portland neighbourhoods are best for Pilates?", a: "This guide covers Pearl District & Northwest, NE Portland (Alberta, Mississippi, Irvington), SE Portland (Division, Hawthorne, Sellwood) and Lake Oswego & Beaverton / West Side. Pearl District & Northwest: Portland's most design-forward neighbourhood houses the city's premier classical studios alongside several well-run contemporary boutiques." },
+  { q: "Which Portland neighborhoods are best for Pilates?", a: "This guide covers Pearl District & Northwest, NE Portland (Alberta, Mississippi, Irvington), SE Portland (Division, Hawthorne, Sellwood) and Lake Oswego & Beaverton / West Side. Pearl District & Northwest: Portland's most design-forward neighborhood houses the city's premier classical studios alongside several well-run contemporary boutiques." },
   { q: "What should I know about booking Pilates classes in Portland?", a: "Expect to pay $25–52 per class. Portland's Pilates market is moderately priced by West Coast standards, meaningfully cheaper than San Francisco or LA but sharing the Pacific Northwest's generally higher quality baseline." },
   { q: "What should I bring to a Pilates class in Portland?", a: "Grip socks are required at most reformer studios. Our gear list for Portland covers Pilates grip socks, Pilates mat, resistance bands set, magic circle and foam roller." },
 ];
@@ -217,7 +217,7 @@ export default function PortlandPage() {
             <p className="text-sm mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated October 2026 · 9 min read</p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Portland&apos;s Pilates scene is shaped by the city&apos;s unusually strong movement culture: a legacy of the Pacific Northwest&apos;s outdoor activity tradition, its dance and performing arts community, and a population that has always taken the quality of its physical life seriously. The studio landscape is more decentralised than most US cities: strong independent practices are distributed across Portland&apos;s distinct neighbourhoods rather than concentrated in a single premium district. From the Pearl District&apos;s classical studios to Southeast Portland&apos;s community-oriented practices, the city offers genuine range. This guide covers the six studios worth your time, verified October 2026.
+              Portland&apos;s Pilates scene is shaped by the city&apos;s unusually strong movement culture: a legacy of the Pacific Northwest&apos;s outdoor activity tradition, its dance and performing arts community, and a population that has always taken the quality of its physical life seriously. The studio landscape is more decentralized than most US cities: strong independent practices are distributed across Portland&apos;s distinct neighborhoods rather than concentrated in a single premium district. From the Pearl District&apos;s classical studios to Southeast Portland&apos;s community-oriented practices, the city offers genuine range. This guide covers the six studios worth your time, verified October 2026.
             </p>
           </div>
         </section>
@@ -229,7 +229,7 @@ export default function PortlandPage() {
               <div className="absolute inset-0 flex items-end p-8" style={{ background: "linear-gradient(to top, rgba(27,28,28,0.55) 0%, transparent 60%)" }}>
                 <div>
                   <p className="text-white text-sm font-semibold uppercase tracking-widest mb-1" style={{ fontFamily: "'Montserrat', sans-serif" }}>Portland, Oregon</p>
-                  <p className="text-white/70 text-xs" style={{ fontFamily: "'Montserrat', sans-serif" }}>Independent studios, movement culture, neighbourhood depth</p>
+                  <p className="text-white/70 text-xs" style={{ fontFamily: "'Montserrat', sans-serif" }}>Independent studios, movement culture, neighborhood depth</p>
                 </div>
               </div>
             </div>
@@ -274,8 +274,8 @@ export default function PortlandPage() {
 
         <section className="py-20 px-6" style={{ backgroundColor: "#f6f3f2" }}>
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Best neighbourhoods for Pilates in Portland</h2>
-            <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Portland&apos;s studio quality is genuinely distributed across its distinct neighbourhoods. Here&apos;s where to look.</p>
+            <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Best neighborhoods for Pilates in Portland</h2>
+            <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Portland&apos;s studio quality is genuinely distributed across its distinct neighborhoods. Here&apos;s where to look.</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {NEIGHBORHOODS.map((n) => (
                 <div key={n.name} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)" }}>

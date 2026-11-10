@@ -54,7 +54,7 @@ const GUIDE: EquipmentGuideProps = {
       rows: [
         ["Therabody JetBoots Prime", "$549.99", "Yes", "Built-in control panel; 4 overlapping chambers"],
         ["Hyperice Normatec 3 Legs", "$899.00", "No (control unit)", "7 compression levels, 5 zones"],
-        ["Hyperice Normatec Elite", "$1,099.00", "Yes, hose-free", "7 levels; legs synchronised"],
+        ["Hyperice Normatec Elite", "$1,099.00", "Yes, hose-free", "7 levels; legs synchronized"],
         ["Therabody JetBoots PRO Plus", "$1,149.99", "Yes", "8 presets; compression, vibration and light"],
       ],
       note: "Details from each Amazon listing. JetBoots are sold by inseam size; the links open the Regular (30–34\") size.",
@@ -68,7 +68,7 @@ const GUIDE: EquipmentGuideProps = {
         gift("jetbootsPrime", { badge: "Best Value Boots", pros: ["Wireless and packable", "3-hour battery"], cons: ["Fewer settings than Normatec"] }),
         gift("normatecHips", { badge: "Best for Hips & Lower Back", pros: ["Cordless", "Targets IT bands, glutes and hips"], cons: ["Does not cover the legs"] }),
         gift("normatec3Legs", { badge: "Best Compression Boots", pros: ["The original air-compression system", "7 levels and app features"], cons: ["Hose to a control unit"] }),
-        gift("normatecElite", { badge: "Best Wireless Boots", pros: ["No hoses or control box", "Synchronised legs"], cons: ["More expensive than Normatec 3"] }),
+        gift("normatecElite", { badge: "Best Wireless Boots", pros: ["No hoses or control box", "Synchronized legs"], cons: ["More expensive than Normatec 3"] }),
         gift("jetbootsProPlus", { badge: "Most Advanced Boots", pros: ["Compression, vibration and light", "8 presets"], cons: ["The priciest boots here"] }),
         gift("normatec3Lower", { badge: "Best for Legs + Hips", pros: ["Legs and hip attachments"], cons: ["$1,149"] }),
         gift("normatec3Full", { badge: "The Complete System", pros: ["Legs, arms and hips"], cons: ["$1,549"] }),

@@ -12,7 +12,7 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Sets & Matching Outfits (2026)",
-  description: "The best matching Pilates sets of 2026: legging and bra sets from Lululemon, Alo, and Varley reviewed for reformer class performance and colour range.",
+  description: "The best matching Pilates sets of 2026: legging and bra sets from Lululemon, Alo, and Varley reviewed for reformer class performance and color range.",
   keywords: ["best pilates sets", "pilates matching sets 2026", "pilates outfit set", "lululemon pilates set", "alo yoga pilates set", "matching pilates leggings bra", "pilates activewear sets", "best workout set pilates"],
   openGraph: {
     title: "Best Pilates Sets (2026): Matching Two-Piece Outfits Ranked",
@@ -38,7 +38,7 @@ const PRODUCTS = [
     price: "From $166.00",
     verdict: "Best premium set you can buy on Amazon",
     description:
-      "Sweaty Betty's Power set pairs the Power legging with the Power Medium Racer Back bra, and unlike Alo or Lululemon, both pieces are sold by Amazon.com. Per the listings, the cropped Power legging is stretchy, sweat-wicking and quick-drying with sculpting seams, a side pocket and a back zip pocket; the bra is medium impact with removable pads, an adjustable T-bar strap and contour seamlines designed to match the Power leggings. Amazon prices vary a lot by colour and size, so check the variant you want.",
+      "Sweaty Betty's Power set pairs the Power legging with the Power Medium Racer Back bra, and unlike Alo or Lululemon, both pieces are sold by Amazon.com. Per the listings, the cropped Power legging is stretchy, sweat-wicking and quick-drying with sculpting seams, a side pocket and a back zip pocket; the bra is medium impact with removable pads, an adjustable T-bar strap and contour seamlines designed to match the Power leggings. Amazon prices vary a lot by color and size, so check the variant you want.",
     affiliateUrl: "https://www.amazon.com/dp/B0B153HHKD?tag=pilatescollective-20",
     pieces: [
       { label: "Power Cropped Legging (black)", price: "$98.00", url: "https://www.amazon.com/dp/B0B153HHKD?tag=pilatescollective-20" },
@@ -52,7 +52,7 @@ const PRODUCTS = [
     price: "From $52.00",
     verdict: "Best value set",
     description:
-      "Build the set from two pieces in the same Naked Feeling fabric, both sold by CRZ YOGA. The 25-inch high-rise legging is designed for hot yoga or Pilates, with sweat-wicking fabric, decent compression, a seamless waistband and a hidden pocket; the Strappy bra is medium support with removable pads and a wide underband that stays in place. Two pieces for about $52, in matching colours: the starting point for anyone unwilling to spend $150+ on a two-piece outfit.",
+      "Build the set from two pieces in the same Naked Feeling fabric, both sold by CRZ YOGA. The 25-inch high-rise legging is designed for hot yoga or Pilates, with sweat-wicking fabric, decent compression, a seamless waistband and a hidden pocket; the Strappy bra is medium support with removable pads and a wide underband that stays in place. Two pieces for about $52, in matching colors: the starting point for anyone unwilling to spend $150+ on a two-piece outfit.",
     affiliateUrl: "https://www.amazon.com/dp/B07DCSM69V?tag=pilatescollective-20",
     pieces: [
       { label: "Naked Feeling Legging 25\" (black)", price: "$26.00", url: "https://www.amazon.com/dp/B07DCSM69V?tag=pilatescollective-20" },
@@ -76,7 +76,7 @@ const PRODUCTS = [
     price: "From $136",
     verdict: "Best sustainable set",
     description:
-      "Girlfriend Collective's Compressive Set, pairing their Compressive High-Rise Legging with the Paloma Bra, is the most environmentally considered option in premium Pilates apparel. Both pieces are made from recycled post-consumer materials, and the brand maintains exceptional transparency about its supply chain. The compressive fabric provides firm, supportive coverage suitable for reformer work, and the Paloma Bra's removable cups offer adaptable support. The brand's inclusive sizing runs XXS to 6XL, and the consistently thoughtful colourway releases have built a loyal following among practitioners who want to align their studio wardrobe with broader values.",
+      "Girlfriend Collective's Compressive Set, pairing their Compressive High-Rise Legging with the Paloma Bra, is the most environmentally considered option in premium Pilates apparel. Both pieces are made from recycled post-consumer materials, and the brand maintains exceptional transparency about its supply chain. The compressive fabric provides firm, supportive coverage suitable for reformer work, and the Paloma Bra's removable cups offer adaptable support. The brand's inclusive sizing runs XXS to 6XL, and the consistently thoughtful colorway releases have built a loyal following among practitioners who want to align their studio wardrobe with broader values.",
     affiliateUrl: "https://www.amazon.com/s?k=girlfriend+collective+compressive+set&tag=pilatescollective-20",
     tag: "Best Sustainable",
   },
@@ -86,7 +86,7 @@ const PRODUCTS = [
     price: "From $176",
     verdict: "Best overall Pilates set",
     description:
-      "Alo's Airbrush set is the default choice in boutique reformer studios across New York, Los Angeles, and London, and for good reason. The matching legging and bra combination is engineered as a coordinated system: the high-waist legging sits perfectly at the waist regardless of the bra style, the fabric weight is consistent across both pieces, and the colourways are designed to complement rather than merely match. The medium-weight compression fabric supports without restricting breath, which is particularly important in exercises like the hundred and long-box series. The sports bra component offers enough coverage and support for a full reformer session without requiring a separate layer. Not sold on Amazon: this link goes to Alo Yoga's own site.",
+      "Alo's Airbrush set is the default choice in boutique reformer studios across New York, Los Angeles, and London, and for good reason. The matching legging and bra combination is engineered as a coordinated system: the high-waist legging sits perfectly at the waist regardless of the bra style, the fabric weight is consistent across both pieces, and the colorways are designed to complement rather than merely match. The medium-weight compression fabric supports without restricting breath, which is particularly important in exercises like the hundred and long-box series. The sports bra component offers enough coverage and support for a full reformer session without requiring a separate layer. Not sold on Amazon: this link goes to Alo Yoga's own site.",
     affiliateUrl: "https://www.aloyoga.com",
     tag: "Editor's Pick",
   },
@@ -96,7 +96,7 @@ const PRODUCTS = [
     price: "From $186",
     verdict: "Best for softness",
     description:
-      "The Lululemon Align set pairs the iconic Align High-Rise Pant with the Free to Be Bra or Energy Bra, and the result is the softest coordinated Pilates outfit available at any price point. The Nulu fabric's near-weightless quality is immediately apparent in movement: there's no fabric resistance through hip flexion, spinal rotation, or the deep stretches of the full Pilates repertoire. The set is available in a comprehensive range of neutral and seasonal colourways, and the pieces can be purchased individually to build multiple combinations. A wardrobe investment that justifies itself across hundreds of studio sessions. Not sold on Amazon: this link goes to Lululemon's own site.",
+      "The Lululemon Align set pairs the iconic Align High-Rise Pant with the Free to Be Bra or Energy Bra, and the result is the softest coordinated Pilates outfit available at any price point. The Nulu fabric's near-weightless quality is immediately apparent in movement: there's no fabric resistance through hip flexion, spinal rotation, or the deep stretches of the full Pilates repertoire. The set is available in a comprehensive range of neutral and seasonal colorways, and the pieces can be purchased individually to build multiple combinations. A wardrobe investment that justifies itself across hundreds of studio sessions. Not sold on Amazon: this link goes to Lululemon's own site.",
     affiliateUrl: "https://shop.lululemon.com",
     tag: "Most Popular",
   },
@@ -106,7 +106,7 @@ const PRODUCTS = [
     price: "From $148",
     verdict: "Best for warm studios",
     description:
-      "Vuori's Halo set prioritises breathability above all else: the lightweight, breathable fabric makes it the preferred choice for heated studios and warm-climate practitioners. The fabric is lighter and less compressive than Alo or Sweaty Betty, but it is completely opaque and provides a clean, streamlined aesthetic appropriate for any studio environment. The Halo Bra has a clean cross-back construction that doesn't interfere with scapular movement during stabilisation exercises, and both pieces are available in Vuori's characteristic muted, nature-inspired colourway palette. Not sold on Amazon: this link goes to Vuori's own site.",
+      "Vuori's Halo set prioritizes breathability above all else: the lightweight, breathable fabric makes it the preferred choice for heated studios and warm-climate practitioners. The fabric is lighter and less compressive than Alo or Sweaty Betty, but it is completely opaque and provides a clean, streamlined aesthetic appropriate for any studio environment. The Halo Bra has a clean cross-back construction that doesn't interfere with scapular movement during stabilization exercises, and both pieces are available in Vuori's characteristic muted, nature-inspired colorway palette. Not sold on Amazon: this link goes to Vuori's own site.",
     affiliateUrl: "https://vuoriclothing.com",
     tag: "Best Breathability",
   },
@@ -153,7 +153,7 @@ const jsonLd = {
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "Is it better to buy a matching Pilates set or mix and match?", "acceptedAnswer": { "@type": "Answer", "text": "Both approaches work. Matching sets offer colour consistency and fabric coordination, and are often slightly discounted compared to buying pieces individually. Mix and match gives more flexibility and allows you to replace individual pieces as they wear. Most serious practitioners do both: a few coordinated sets for efficiency, supplemented with versatile individual pieces." } },
+        { "@type": "Question", "name": "Is it better to buy a matching Pilates set or mix and match?", "acceptedAnswer": { "@type": "Answer", "text": "Both approaches work. Matching sets offer color consistency and fabric coordination, and are often slightly discounted compared to buying pieces individually. Mix and match gives more flexibility and allows you to replace individual pieces as they wear. Most serious practitioners do both: a few coordinated sets for efficiency, supplemented with versatile individual pieces." } },
         { "@type": "Question", "name": "What bra style is best for a Pilates set?", "acceptedAnswer": { "@type": "Answer", "text": "Medium-support bras with racerback or T-back constructions work best for Pilates. Halter styles can restrict shoulder movement during arm exercises; thick padded styles add unnecessary bulk. Look for a bra with a clean back profile that won't interfere with the scapular exercises common in the repertoire." } },
         { "@type": "Question", "name": "Are Pilates sets worth the investment?", "acceptedAnswer": { "@type": "Answer", "text": "At premium price points, coordinated sets from Alo, Lululemon, or Sweaty Betty represent a genuine investment. The fabrics are designed to last through regular washing and multiple sessions per week. If you practice three or more times weekly, the per-session cost of a quality set is low. Budget options from CRZ YOGA perform well but have a shorter lifespan." } },
       ],
@@ -232,7 +232,7 @@ export default function BestPilatesSetsPage() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "Is it better to buy a matching Pilates set or mix and match?", a: "Both approaches work. Matching sets offer colour consistency and fabric coordination, and are often slightly discounted compared to buying pieces individually. Mix and match gives more flexibility and allows you to replace individual pieces as they wear. Most serious practitioners do both: a few coordinated sets for efficiency, supplemented with versatile individual pieces." },
+                  { q: "Is it better to buy a matching Pilates set or mix and match?", a: "Both approaches work. Matching sets offer color consistency and fabric coordination, and are often slightly discounted compared to buying pieces individually. Mix and match gives more flexibility and allows you to replace individual pieces as they wear. Most serious practitioners do both: a few coordinated sets for efficiency, supplemented with versatile individual pieces." },
                   { q: "What bra style is best for a Pilates set?", a: "Medium-support bras with racerback or T-back constructions work best for Pilates. Halter styles can restrict shoulder movement during arm exercises; thick padded styles add unnecessary bulk. Look for a bra with a clean back profile that won't interfere with the scapular exercises common in the repertoire." },
                   { q: "Are Pilates sets worth the investment?", a: "At premium price points, coordinated sets from Alo, Lululemon, or Sweaty Betty represent a genuine investment. The fabrics are designed to last through regular washing and multiple sessions per week. If you practice three or more times weekly, the per-session cost of a quality set is low. Budget options from CRZ YOGA perform well but have a shorter lifespan." },
                 ].map((item) => (

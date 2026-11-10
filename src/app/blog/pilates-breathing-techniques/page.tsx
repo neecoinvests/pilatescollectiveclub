@@ -124,7 +124,7 @@ export default function PilatesBreathingTechniquesPage() {
                 Most breathing instruction you have encountered (in yoga, meditation, or a physiotherapy clinic) teaches diaphragmatic breathing, where the belly rises on the inhale. It is an excellent pattern for relaxation and it is not wrong. It is simply incompatible with what Pilates is asking the abdominal wall to do.
               </p>
               <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Pilates asks for near-continuous engagement of the deep abdominals to stabilise the spine while the limbs move. If the belly expands outward on every inhale, that engagement releases twelve to sixteen times a minute. You would be alternating between stabilising and letting go, which defeats the purpose of the exercise.
+                Pilates asks for near-continuous engagement of the deep abdominals to stabilize the spine while the limbs move. If the belly expands outward on every inhale, that engagement releases twelve to sixteen times a minute. You would be alternating between stabilizing and letting go, which defeats the purpose of the exercise.
               </p>
               <p className="text-base leading-relaxed">
                 <span style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
@@ -139,7 +139,7 @@ export default function PilatesBreathingTechniquesPage() {
                 {[
                   {
                     title: "1. Find the ribs with your hands",
-                    body: "Sit or lie with knees bent. Place your hands on the sides of your lower ribcage, thumbs pointing back, fingers wrapping around the front. Breathe in and try to widen your hands apart without letting the belly push forward or the chest lift toward the chin. Most people feel almost nothing on the first few attempts: the movement is a couple of centimetres, not a dramatic expansion.",
+                    body: "Sit or lie with knees bent. Place your hands on the sides of your lower ribcage, thumbs pointing back, fingers wrapping around the front. Breathe in and try to widen your hands apart without letting the belly push forward or the chest lift toward the chin. Most people feel almost nothing on the first few attempts: the movement is a couple of centimeters, not a dramatic expansion.",
                   },
                   {
                     title: "2. Add a band for feedback",

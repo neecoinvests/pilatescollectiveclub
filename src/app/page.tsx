@@ -442,7 +442,7 @@ const PRODUCT_CATEGORIES = [
     items: [
       {
         name: "Lululemon Align High-Rise Pant 25-inch",
-        description: "High-rise leggings with a flat waistband and a hidden key pocket. A reformer-studio favourite. Sold on Amazon by a reseller, not by Lululemon.",
+        description: "High-rise leggings with a flat waistband and a hidden key pocket. A reformer-studio favorite. Sold on Amazon by a reseller, not by Lululemon.",
         price: "$98.00",
         affiliateUrl: "https://www.amazon.com/dp/B08M8ZTKJS?tag=pilatescollective-20",
         imageUrl: "/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg",
@@ -463,7 +463,7 @@ const PRODUCT_CATEGORIES = [
       },
       {
         name: "Bala Bangles (1 lb)",
-        description: "Bala Bangles (1 lb each) are a boutique studio favourite that wrap on at the wrist or ankle.",
+        description: "Bala Bangles (1 lb each) are a boutique studio favorite that wrap on at the wrist or ankle.",
         price: "$55.00",
         affiliateUrl: "https://www.amazon.com/dp/B09SNTB8DF?tag=pilatescollective-20",
         imageUrl: "/pictures/jade-stephens-N21356amsyw-unsplash.jpg",
@@ -475,7 +475,7 @@ const PRODUCT_CATEGORIES = [
     items: [
       {
         name: "Balanced Body Allegro Stretch Reformer",
-        description: "The long version of Balanced Body's aluminium Allegro: a wider, longer carriage and an 18-inch-longer frame for taller users, with five Signature Springs. Made to order.",
+        description: "The long version of Balanced Body's aluminum Allegro: a wider, longer carriage and an 18-inch-longer frame for taller users, with five Signature Springs. Made to order.",
         price: "$3,710.00",
         affiliateUrl: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20",
         imageUrl: "/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg",
@@ -489,7 +489,7 @@ const PRODUCT_CATEGORIES = [
       },
       {
         name: "Merrithew SPX Max",
-        description: "The professional studio standard used in accredited training centres worldwide. Full 5-spring system, 97-inch rail, 350 lb capacity. The entry point to serious home practice. Not sold on Amazon: this link goes to Merrithew's own site.",
+        description: "The professional studio standard used in accredited training centers worldwide. Full 5-spring system, 97-inch rail, 350 lb capacity. The entry point to serious home practice. Not sold on Amazon: this link goes to Merrithew's own site.",
         price: "Sold direct",
         affiliateUrl: "https://www.merrithew.com",
         imageUrl: "/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg",

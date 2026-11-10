@@ -48,7 +48,7 @@ const PRODUCTS = [
     price: "From $72",
     verdict: "Best for studio practitioners",
     description:
-      "Splits59 designs apparel specifically for studio Pilates and Barre, not adapted from running or cycling categories, and the Cora Short reflects that specialised intent. The high-waist construction is particularly clean, with a flat internal waistband that avoids any seam or hardware contact with the skin during floor exercises. The Supplex-blend fabric provides a mid-weight compression that strikes a balance between the featherlight Align and the firmer Alo, and the 5-inch inseam is precisely cut to avoid ride-up during the hip-flexion-heavy exercises that characterise reformer footwork.",
+      "Splits59 designs apparel specifically for studio Pilates and Barre, not adapted from running or cycling categories, and the Cora Short reflects that specialized intent. The high-waist construction is particularly clean, with a flat internal waistband that avoids any seam or hardware contact with the skin during floor exercises. The Supplex-blend fabric provides a mid-weight compression that strikes a balance between the featherlight Align and the firmer Alo, and the 5-inch inseam is precisely cut to avoid ride-up during the hip-flexion-heavy exercises that characterize reformer footwork.",
     affiliateUrl: "https://www.amazon.com/s?k=splits59+cora+high+waist+short&tag=pilatescollective-20",
     tag: "Studio Specialist",
   },
@@ -68,7 +68,7 @@ const PRODUCTS = [
     price: "From $68",
     verdict: "Best overall biker short",
     description:
-      "The Align Short is the single most popular biker short in reformer studios globally, and the praise is fully earned. The Nulu fabric is so lightweight and frictionless that it disappears during practice, allowing full proprioceptive focus without fabric distraction. The high-rise waistband stays perfectly anchored through hip flexion, leg circles, and rolling exercises, and the 6-inch inseam hits at a flattering position that works for all proportions. The fabric is completely opaque even under the low angles and bright lighting typical of boutique studio environments. Available in a comprehensive range of neutral and seasonal colourways throughout the year. Not sold on Amazon: this link goes to Lululemon's own site.",
+      "The Align Short is the single most popular biker short in reformer studios globally, and the praise is fully earned. The Nulu fabric is so lightweight and frictionless that it disappears during practice, allowing full proprioceptive focus without fabric distraction. The high-rise waistband stays perfectly anchored through hip flexion, leg circles, and rolling exercises, and the 6-inch inseam hits at a flattering position that works for all proportions. The fabric is completely opaque even under the low angles and bright lighting typical of boutique studio environments. Available in a comprehensive range of neutral and seasonal colorways throughout the year. Not sold on Amazon: this link goes to Lululemon's own site.",
     affiliateUrl: "https://shop.lululemon.com",
     tag: "Editor's Pick",
   },

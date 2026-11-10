@@ -41,7 +41,7 @@ const PRODUCTS = [
     price: "$26.00",
     tag: "Best Leggings",
     description:
-      "CRZ YOGA's Naked Feeling fabric has become a genuine cult choice among Pilates practitioners who want the performance of Lululemon Align at a fraction of the price. The fabric is buttery-soft, squat-proof, and has enough compression to stay put during leg circles and side-lying work without feeling restrictive. The high waist stays up through all inversions and doesn't roll. Available in 20+ colours. Consistently one of the highest-rated Pilates leggings on Amazon.",
+      "CRZ YOGA's Naked Feeling fabric has become a genuine cult choice among Pilates practitioners who want the performance of Lululemon Align at a fraction of the price. The fabric is buttery-soft, squat-proof, and has enough compression to stay put during leg circles and side-lying work without feeling restrictive. The high waist stays up through all inversions and doesn't roll. Available in 20+ colors. Consistently one of the highest-rated Pilates leggings on Amazon.",
     affiliateUrl: "https://www.amazon.com/dp/B07DCSM69V?tag=pilatescollective-20",
   },
   {
@@ -59,7 +59,7 @@ const PRODUCTS = [
     price: "$32.00",
     tag: "Best for Reformer",
     description:
-      "Colorfulkoala is one of Amazon's best-known legging brands, and the Dreamlux line is its buttery-soft fabric. Per the listing, the no-front-seam design gives a smooth, chafe-free fit, the high-rise waistband has no seam, and LYCRA BLACK technology stops dark colours turning see-through when you bend and stretch, which matters in footwork and side-lying work. The listing recommends them for yoga, Pilates and light-impact workouts. The 28\" standard inseam is sized for heights of about 5'4\" to 5'8\".",
+      "Colorfulkoala is one of Amazon's best-known legging brands, and the Dreamlux line is its buttery-soft fabric. Per the listing, the no-front-seam design gives a smooth, chafe-free fit, the high-rise waistband has no seam, and LYCRA BLACK technology stops dark colors turning see-through when you bend and stretch, which matters in footwork and side-lying work. The listing recommends them for yoga, Pilates and light-impact workouts. The 28\" standard inseam is sized for heights of about 5'4\" to 5'8\".",
     affiliateUrl: "https://www.amazon.com/dp/B0DQDCKBJ3?tag=pilatescollective-20",
   },
   {
@@ -68,7 +68,7 @@ const PRODUCTS = [
     price: "$24.99",
     tag: "Best Warm-Up Layer",
     description:
-      "A warm-up layer keeps your core warm during setup and rest periods, and comes off for the active work. This Hanes crewneck, sold by Amazon.com, is lightweight soft-stretch French terry with a boxy cropped fit, so it does not bunch when you lie down on the mat or carriage and packs into a bag without adding bulk. The listing describes it as year-round weight, and the neutral colours work over any legging.",
+      "A warm-up layer keeps your core warm during setup and rest periods, and comes off for the active work. This Hanes crewneck, sold by Amazon.com, is lightweight soft-stretch French terry with a boxy cropped fit, so it does not bunch when you lie down on the mat or carriage and packs into a bag without adding bulk. The listing describes it as year-round weight, and the neutral colors work over any legging.",
     affiliateUrl: "https://www.amazon.com/dp/B0D3257211?tag=pilatescollective-20",
   },
   {
@@ -95,7 +95,7 @@ const DO_DONT = {
     "Jeans, denim, or anything with hardware that damages equipment",
     "Slippery socks or bare feet on a studio reformer",
     "Strong perfume or fragrance in a shared studio space",
-    "Jewellery that can snag on the reformer's straps or springs",
+    "Jewelry that can snag on the reformer's straps or springs",
   ],
 };
 
@@ -163,8 +163,8 @@ const jsonLd = {
     },
     {
       "@type": "Question",
-      "name": "What colours are best for Pilates?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Practicality first: darker colours on the lower body are more forgiving. The studio aesthetic tends toward neutral tones but there is no dress code beyond the fitted-clothing requirement." }
+      "name": "What colors are best for Pilates?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Practicality first: darker colors on the lower body are more forgiving. The studio aesthetic tends toward neutral tones but there is no dress code beyond the fitted-clothing requirement." }
     }
       ]
     },
@@ -298,7 +298,7 @@ export default function WhatToWearToPilatesPage() {
             <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
               <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Fit matters more than brand</h2>
               <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                The Pilates community has a strong association with high-end activewear brands, but the function of what you wear matters far more than the label. A well-fitted pair of £30 leggings that stays in place, allows full movement range, and lets your instructor see your alignment is better Pilates kit than a £120 designer pair that gaps at the waist in roll-over.
+                The Pilates community has a strong association with high-end activewear brands, but the function of what you wear matters far more than the label. A well-fitted pair of $30 leggings that stays in place, allows full movement range, and lets your instructor see your alignment is better Pilates kit than a $120 designer pair that gaps at the waist in roll-over.
               </p>
               <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                 The one non-negotiable investment is grip socks: cheaper alternatives often have inferior grip patterns that fail quickly, and this is both a quality and safety issue in a studio environment.

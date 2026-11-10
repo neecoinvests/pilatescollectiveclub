@@ -254,7 +254,7 @@ export default function BlogEquipmentPage() {
                 style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
               >
                 Joseph Pilates originally designed the magic circle using the ring from a beer
-                keg. The modern version is a flexible fibreglass or metal ring with padded handles,
+                keg. The modern version is a flexible fiberglass or metal ring with padded handles,
                 and it remains one of the most effective props in classical repertoire. Primary
                 targets are the inner thighs and pelvic floor, but it&apos;s equally useful for chest
                 and arm work.
@@ -269,7 +269,7 @@ export default function BlogEquipmentPage() {
               </p>
               <ProductCard
                 name="Balanced Body Ultra-Fit Circle (15-inch)"
-                description="Fibreglass core with dual foam-padded handles. Provides firm but pliable resistance ideal for inner thigh, arm, and chest work. 38cm diameter, compatible with standard Pilates repertoire."
+                description="Fiberglass core with dual foam-padded handles. Provides firm but pliable resistance ideal for inner thigh, arm, and chest work. 38cm diameter, compatible with standard Pilates repertoire."
                 price="$35.00"
                 affiliateUrl="https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20"
               />
@@ -420,7 +420,7 @@ export default function BlogEquipmentPage() {
                         item: "Pilates Ring",
                         need: "Optional",
                         budget: "Basic plastic, $13",
-                        premium: "Fibreglass with padding, $44",
+                        premium: "Fiberglass with padding, $44",
                         pick: "Balanced Body Ultra-Fit Circle",
                       },
                       {

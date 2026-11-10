@@ -67,8 +67,8 @@ const STUDIOS = [
     name: "Club Pilates Downtown Indy",
     neighborhood: "Mass Ave / Downtown",
     priceLevel: "$$$",
-    review: "Club Pilates Downtown Indy on Massachusetts Avenue is the most central reformer studio in the city, convenient for downtown residents, Lockerbie Square and the medical district. It runs the brand's levelled group reformer system.",
-    caveat: "a franchise format: consistent, but less personalised than an independent studio.",
+    review: "Club Pilates Downtown Indy on Massachusetts Avenue is the most central reformer studio in the city, convenient for downtown residents, Lockerbie Square and the medical district. It runs the brand's leveled group reformer system.",
+    caveat: "a franchise format: consistent, but less personalized than an independent studio.",
     address: "530 Massachusetts Ave, Suite 160, Indianapolis, IN 46204",
     bestFor: "Downtown professionals wanting structured reformer classes",
     signatureClass: "Reformer Flow",
@@ -91,7 +91,7 @@ const STUDIOS = [
     name: "Club Pilates North Indy",
     neighborhood: "Keystone at the Crossing",
     priceLevel: "$$$",
-    review: "Club Pilates' North Indy studio at Keystone at the Crossing serves the north side (Nora, Meridian-Kessler and Castleton) with levelled group reformer classes and a wide daily schedule.",
+    review: "Club Pilates' North Indy studio at Keystone at the Crossing serves the north side (Nora, Meridian-Kessler and Castleton) with leveled group reformer classes and a wide daily schedule.",
     caveat: "we could not confirm the exact suite address independently: check the Club Pilates website before your visit.",
     address: "",
     bestFor: "North-side residents wanting a convenient reformer studio",
@@ -115,7 +115,7 @@ const STUDIOS = [
     name: "Club Pilates Zionsville",
     neighborhood: "Zionsville",
     priceLevel: "$$",
-    review: "Club Pilates Zionsville is in The Shoppes at Weston Pointe on North Michigan Road, serving Zionsville, Carmel's west side and northwest Indianapolis with levelled group reformer classes.",
+    review: "Club Pilates Zionsville is in The Shoppes at Weston Pointe on North Michigan Road, serving Zionsville, Carmel's west side and northwest Indianapolis with leveled group reformer classes.",
     caveat: "a franchise studio: reliable structure, less individual programming.",
     address: "10895 N Michigan Rd, Suite 110, Zionsville, IN 46077",
     bestFor: "Northwest suburban residents, membership-based training",
@@ -127,7 +127,7 @@ const STUDIOS = [
 const BOOKING_TIPS = [
   {
     heading: "Indianapolis rewards consistent practice through its winters",
-    body: "Indianapolis winters are cold, grey, and long, from November through March, outdoor movement is limited and the case for a consistent indoor practice is at its strongest. Practitioners who establish studio routines before the cold arrives maintain them through winter. Book standing slots in September.",
+    body: "Indianapolis winters are cold, gray, and long, from November through March, outdoor movement is limited and the case for a consistent indoor practice is at its strongest. Practitioners who establish studio routines before the cold arrives maintain them through winter. Book standing slots in September.",
   },
   {
     heading: "The Indy 500 season brings unusual demand",
@@ -206,7 +206,7 @@ const GEAR = [
 const HOME_REFORMERS = [
   { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work: three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
   { tag: "Mid-Range Pick", name: "AeroPilates Pro XP 557", note: "AeroPilates' top-of-the-range home reformer, a step up for practitioners training several times a week.", price: "$1,329.99", url: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20" },
-  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
+  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodized aluminum frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
 ];
 
 const RELATED_CITIES = [
@@ -243,8 +243,8 @@ const FURTHER_READING = [
 
 const CITY_FAQS = [
   { q: "What are the best Pilates studios in Indianapolis?", a: "Our 6 curated picks are Foundations Studio (Nora / Far North Side), Club Pilates Downtown Indy (Mass Ave / Downtown), Reforming Indy (Fall Creek / Northeast, Fishers area), Club Pilates North Indy (Keystone at the Crossing), Align Pilates Indy (Noblesville) and Club Pilates Zionsville (Zionsville). Each listing above covers what the studio is best for, its signature class and a booking tip." },
-  { q: "Which Indianapolis neighbourhoods are best for Pilates?", a: "This guide covers Mass Ave & Downtown, Broad Ripple & Near North, Nora & Far North Side and Carmel & North Suburbs. Mass Ave & Downtown: Indianapolis's most vibrant arts and entertainment corridor anchors the city's downtown Pilates scene." },
-  { q: "What should I know about booking Pilates classes in Indianapolis?", a: "Indianapolis rewards consistent practice through its winters. Indianapolis winters are cold, grey, and long, from November through March, outdoor movement is limited and the case for a consistent indoor practice is at its strongest." },
+  { q: "Which Indianapolis neighborhoods are best for Pilates?", a: "This guide covers Mass Ave & Downtown, Broad Ripple & Near North, Nora & Far North Side and Carmel & North Suburbs. Mass Ave & Downtown: Indianapolis's most vibrant arts and entertainment corridor anchors the city's downtown Pilates scene." },
+  { q: "What should I know about booking Pilates classes in Indianapolis?", a: "Indianapolis rewards consistent practice through its winters. Indianapolis winters are cold, gray, and long, from November through March, outdoor movement is limited and the case for a consistent indoor practice is at its strongest." },
   { q: "What should I bring to a Pilates class in Indianapolis?", a: "Grip socks are required at most reformer studios. Our gear list for Indianapolis covers Pilates grip socks, Pilates mat (6mm), magic circle, fabric resistance bands and high-density foam roller." },
 ];
 

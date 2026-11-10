@@ -61,7 +61,7 @@ const jsonLd = {
       "mainEntity": [
         { "@type": "Question", "name": "Can I use Merrithew accessories on a Balanced Body reformer?", "acceptedAnswer": { "@type": "Answer", "text": "Generally no: the proprietary dimensions of boxes, footbars, and jump boards are brand-specific. Universal accessories (foam rollers, general grip pads, bands) work across brands. Jump boards, long boxes, and short boxes are almost always brand-specific and should be confirmed with the manufacturer before purchasing." } },
         { "@type": "Question", "name": "Which brand holds resale value better?", "acceptedAnswer": { "@type": "Answer", "text": "Balanced Body is generally reported to hold resale value more robustly in the US used market, owing to its larger installed base, but we don't have verified resale-price data to quantify that, so treat it as a general reputation rather than a specific figure." } },
-        { "@type": "Question", "name": "Is one brand harder to service than the other?", "acceptedAnswer": { "@type": "Answer", "text": "Both brands have authorised service networks and offer direct purchase of springs, ropes, and replacement parts. Balanced Body has a larger US dealer network; Merrithew has a strong international presence. We have not independently verified comparative service response times." } },
+        { "@type": "Question", "name": "Is one brand harder to service than the other?", "acceptedAnswer": { "@type": "Answer", "text": "Both brands have authorized service networks and offer direct purchase of springs, ropes, and replacement parts. Balanced Body has a larger US dealer network; Merrithew has a strong international presence. We have not independently verified comparative service response times." } },
         { "@type": "Question", "name": "Which brand do professional instructors prefer?", "acceptedAnswer": { "@type": "Answer", "text": "Preference divides largely along training lineage. STOTT-trained instructors typically prefer Merrithew, since the curriculum was built around it. Practitioners without a strong training-system allegiance often cite Balanced Body's broader accessory ecosystem as the deciding factor." } },
       ],
     },
@@ -77,7 +77,7 @@ const comparisons = [
   },
   {
     dimension: "Accessory ecosystem",
-    bb: "The deepest accessory catalogue of the two, verified on Amazon: padded jumpboards, sitting boxes, platform extenders, and replacement ropes are all real, currently-sold listings. Tower and Cadillac apparatus is also sold direct on Amazon.",
+    bb: "The deepest accessory catalog of the two, verified on Amazon: padded jumpboards, sitting boxes, platform extenders, and replacement ropes are all real, currently-sold listings. Tower and Cadillac apparatus is also sold direct on Amazon.",
     m: "A real jumpboard (22\") is sold on Amazon. We could not find a genuine Merrithew-branded box as a standalone live Amazon listing: Balanced Body's Sitting Box Lite is the honest substitute if you need one for an SPX-family machine.",
     verdict: "Balanced Body for verified depth on Amazon specifically",
   },
@@ -89,13 +89,13 @@ const comparisons = [
   },
   {
     dimension: "Instructor training alignment",
-    bb: "Balanced Body is associated with its own instructor-training affiliations and is used across both classical and contemporary training programmes. No single training methodology dominates: it functions as a neutral platform.",
-    m: "Merrithew owns the STOTT Pilates teacher-training programme. If you trained as a STOTT instructor, your curriculum was designed around Merrithew's spring conventions and machine dimensions: a meaningful advantage if your background is STOTT.",
+    bb: "Balanced Body is associated with its own instructor-training affiliations and is used across both classical and contemporary training programs. No single training methodology dominates: it functions as a neutral platform.",
+    m: "Merrithew owns the STOTT Pilates teacher-training program. If you trained as a STOTT instructor, your curriculum was designed around Merrithew's spring conventions and machine dimensions: a meaningful advantage if your background is STOTT.",
     verdict: "Merrithew if STOTT-trained, Balanced Body otherwise",
   },
   {
     dimension: "Build quality and durability",
-    bb: "The Studio Reformer's Strata rock maple frame is the machine that populates many certification centres and clinics: commercial-grade construction built for intensive daily studio use.",
+    bb: "The Studio Reformer's Strata rock maple frame is the machine that populates many certification centers and clinics: commercial-grade construction built for intensive daily studio use.",
     m: "The Rehab V2 Max Plus is Merrithew's clinical/professional-tier machine, built for higher-intensity use, with a raised frame and a built-in Vertical Frame. The At Home SPX is designed for home use rather than high-volume commercial studio traffic.",
     verdict: "Compare the Studio Reformer against the Rehab V2 Max Plus for commercial intensity, not against the At Home SPX",
   },
@@ -233,7 +233,7 @@ export default function BalancedBodyVsMerrithewPage() {
                 {[
                   { q: "Can I use Merrithew accessories on a Balanced Body reformer?", a: "Generally no: the proprietary dimensions of boxes, footbars, and jump boards are brand-specific. Universal accessories (foam rollers, general grip pads, bands) work across brands. Jump boards, long boxes, and short boxes are almost always brand-specific and should be confirmed with the manufacturer before purchasing." },
                   { q: "Which brand holds resale value better?", a: "Balanced Body is generally reported to hold resale value more robustly in the US used market, owing to its larger installed base, but we don't have verified resale-price data to quantify that, so treat it as a general reputation rather than a specific figure." },
-                  { q: "Is one brand harder to service than the other?", a: "Both brands have authorised service networks and offer direct purchase of springs, ropes, and replacement parts. Balanced Body has a larger US dealer network; Merrithew has a strong international presence. We have not independently verified comparative service response times." },
+                  { q: "Is one brand harder to service than the other?", a: "Both brands have authorized service networks and offer direct purchase of springs, ropes, and replacement parts. Balanced Body has a larger US dealer network; Merrithew has a strong international presence. We have not independently verified comparative service response times." },
                   { q: "Which brand do professional instructors prefer?", a: "Preference divides largely along training lineage. STOTT-trained instructors typically prefer Merrithew, since the curriculum was built around it. Practitioners without a strong training-system allegiance often cite Balanced Body's broader accessory ecosystem as the deciding factor." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>

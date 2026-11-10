@@ -47,7 +47,7 @@ const STUDIOS = [
     review: "Reformation opened in 2017 and is known for both the quality of its classes and its warm welcome. Group classes run on reformer or tower machines with certified trainers, in two light-filled studios on Rue du Temple in the Marais and Rue de Richelieu near the Palais-Royal.",
     caveat: "popular weekend classes fill early in the week.",
     address: "175 Rue du Temple, 75003 Paris",
-    bestFor: "Reformer and tower group classes in the centre",
+    bestFor: "Reformer and tower group classes in the center",
     signatureClass: "Reformer & Tower",
     bookingTip: "If the Marais is full, try the Palais-Royal studio at 47 Rue de Richelieu.",
   },
@@ -127,8 +127,8 @@ const BOOKING_TIPS = [
     body: "Parisian studios typically offer introductory pricing for new clients valid for a limited period (often two to four weeks). Use it strategically to assess the studio's teaching style properly.",
   },
   {
-    heading: "€18–35 per class is typical",
-    body: "Drop-in rates at quality Paris studios range from around €18 at value-positioned studios to €35 at premium boutiques. Carnet (class pack) pricing brings the per-session cost down meaningfully.",
+    heading: "About $20–39 per class is typical",
+    body: "Drop-in rates at quality Paris studios range from around $20 at value-positioned studios to $39 at premium boutiques. Carnet (class pack) pricing brings the per-session cost down meaningfully.",
   },
   {
     heading: "Cancellation policies are strict",
@@ -150,12 +150,12 @@ const NEIGHBORHOODS = [
   {
     name: "République & Oberkampf (10th & 11th Arr.)",
     description:
-      "Paris's most exciting emerging wellness neighbourhood. A younger, more diverse crowd, more accessible pricing, and some genuinely excellent independent studios that haven't been discovered by tourist guides yet.",
+      "Paris's most exciting emerging wellness neighborhood. A younger, more diverse crowd, more accessible pricing, and some genuinely excellent independent studios that haven't been discovered by tourist guides yet.",
   },
   {
     name: "15th Arrondissement",
     description:
-      "A residential neighbourhood with a loyal local clientele and several long-established studios. Quieter, less trendy, and often significantly better value than the central arrondissements.",
+      "A residential neighborhood with a loyal local clientele and several long-established studios. Quieter, less trendy, and often significantly better value than the central arrondissements.",
   },
 ];
 
@@ -229,7 +229,7 @@ const FURTHER_READING = [
 
 const CITY_FAQS = [
   { q: "What are the best Pilates studios in Paris?", a: "Our 6 curated picks are Reformation Pilates (Le Marais · Palais-Royal), The New Me (16+ studios across Paris), RIISE Reformer (8th arrondissement · Boulogne), YUJ (Louvre, 1st arrondissement), Sense Club (Saint-Germain-des-Prés) and DNA Pilates (Paris). Each listing above covers what the studio is best for, its signature class and a booking tip." },
-  { q: "Which Paris neighbourhoods are best for Pilates?", a: "This guide covers The Marais (3rd & 4th Arr.), Saint-Germain-des-Prés (6th Arr.), République & Oberkampf (10th & 11th Arr.) and 15th Arrondissement. The spiritual home of Paris's boutique wellness scene." },
+  { q: "Which Paris neighborhoods are best for Pilates?", a: "This guide covers The Marais (3rd & 4th Arr.), Saint-Germain-des-Prés (6th Arr.), République & Oberkampf (10th & 11th Arr.) and 15th Arrondissement. The spiritual home of Paris's boutique wellness scene." },
   { q: "What should I know about booking Pilates classes in Paris?", a: "Reservations are essential. Paris studios do not operate a reliable walk-in culture." },
   { q: "What should I bring to a Pilates class in Paris?", a: "Grip socks are required at most reformer studios. Our gear list for Paris covers Pilates grip socks, Pilates mat, magic circle, resistance bands, foam roller and home Pilates reformer." },
 ];
@@ -361,7 +361,7 @@ export default function ParisPage() {
 
         <section className="py-20 px-6" style={{ backgroundColor: "#fcf9f8" }}>
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Best neighbourhoods for Pilates in Paris</h2>
+            <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Best neighborhoods for Pilates in Paris</h2>
             <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Paris's arrondissement system shapes where you'll find each type of studio. Here's a quick reference.</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {NEIGHBORHOODS.map((n) => (

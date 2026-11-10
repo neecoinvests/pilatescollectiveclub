@@ -12,7 +12,7 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Studios in Calgary (2026)",
-  description: "The best Pilates studios in Calgary: reformer and yoga in Inglewood, heated reformer in Mission, an award-winning centre and more. Six picks for 2026.",
+  description: "The best Pilates studios in Calgary: reformer and yoga in Inglewood, heated reformer in Mission, an award-winning center and more. Six picks for 2026.",
   robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
   keywords: ["pilates calgary", "reformer pilates calgary", "best pilates studios calgary", "pilates inglewood", "pilates mission calgary", "heated reformer calgary", "pilates marda loop", "pilates classes calgary"],
   openGraph: {
@@ -76,7 +76,7 @@ const STUDIOS = [
     review: "Refine Pilates Method on Memorial Drive runs Level 1 and Level 2 reformer classes, workshops, online classes and teacher training, and reviewers praise its inclusive atmosphere.",
     caveat: "a smaller studio with limited class times.",
     address: "414 Memorial Dr NE, Calgary, AB T2E 4Y7",
-    bestFor: "Inclusive, levelled reformer",
+    bestFor: "Inclusive, leveled reformer",
     signatureClass: "Reformer Level 1",
     bookingTip: "Start at Level 1 before moving up.",
   },
@@ -85,7 +85,7 @@ const STUDIOS = [
     name: "Club Pilates Marda Loop",
     neighborhood: "Marda Loop",
     priceLevel: "$$",
-    review: "Club Pilates Marda Loop on 34 Avenue SW runs the chain's levelled reformer programme, a reliable choice for beginners in the inner southwest.",
+    review: "Club Pilates Marda Loop on 34 Avenue SW runs the chain's leveled reformer program, a reliable choice for beginners in the inner southwest.",
     caveat: "franchise format with larger classes than the independents.",
     address: "2107 34 Ave SW, #130, Calgary, AB T2T 2C5",
     bestFor: "Structured beginner reformer",
@@ -106,17 +106,17 @@ const STUDIOS = [
   },
 ];
 
-const BOOKING_TIPS = [{"heading": "Choose warm or cool", "body": "Some Calgary studios heat their reformer rooms. Check the class description if you prefer a cool room."}, {"heading": "Book early mornings ahead", "body": "Before-work classes fill first. Book as soon as the schedule opens."}, {"heading": "Plan for winter", "body": "Allow extra travel time in snow, and bring layers for the walk to the studio."}, {"heading": "Start with levelled classes", "body": "Several studios run Level 1 and Level 2 reformer. Start at Level 1."}, {"heading": "Bring grip socks", "body": "Grip socks are required at most reformer studios in Calgary."}];
+const BOOKING_TIPS = [{"heading": "Choose warm or cool", "body": "Some Calgary studios heat their reformer rooms. Check the class description if you prefer a cool room."}, {"heading": "Book early mornings ahead", "body": "Before-work classes fill first. Book as soon as the schedule opens."}, {"heading": "Plan for winter", "body": "Allow extra travel time in snow, and bring layers for the walk to the studio."}, {"heading": "Start with leveled classes", "body": "Several studios run Level 1 and Level 2 reformer. Start at Level 1."}, {"heading": "Bring grip socks", "body": "Grip socks are required at most reformer studios in Calgary."}];
 
-const NEIGHBORHOODS = [{"name": "Inglewood", "description": "Yoga and reformer on 9 Avenue SE, with rooftop classes in summer."}, {"name": "Mission & Marda Loop", "description": "Warm-room reformer on 4 Street SW and Club Pilates on 34 Avenue SW."}, {"name": "Bridgeland", "description": "Inclusive, levelled reformer on Memorial Drive."}, {"name": "Mayfair & south Calgary", "description": "An established centre on Elbow Drive and warm-room reformer on Macleod Trail."}];
+const NEIGHBORHOODS = [{"name": "Inglewood", "description": "Yoga and reformer on 9 Avenue SE, with rooftop classes in summer."}, {"name": "Mission & Marda Loop", "description": "Warm-room reformer on 4 Street SW and Club Pilates on 34 Avenue SW."}, {"name": "Bridgeland", "description": "Inclusive, leveled reformer on Memorial Drive."}, {"name": "Mayfair & south Calgary", "description": "An established center on Elbow Drive and warm-room reformer on Macleod Trail."}];
 
 const GEAR = [{"name": "Pilates Grip Socks", "note": "Our pick: toesox Low Rise Full-Toe Grip Socks (2-Pack). Required at most reformer studios; full-toe grip socks are the standard.", "price": "$30.00", "url": "https://www.amazon.com/dp/B07QHNDHW3?tag=pilatescollective-20"}, {"name": "Pilates Mat", "note": "Our pick: Manduka PRO Yoga & Pilates Mat (6mm). A dense 6mm mat for mat classes and home practice between studio sessions.", "price": "$144.00", "url": "https://www.amazon.com/dp/B0000DZFXZ?tag=pilatescollective-20"}, {"name": "Magic Circle", "note": "Our pick: Balanced Body Ultra-Fit Circle (15-inch). Many studios use the magic circle; worth owning for home reinforcement work.", "price": "$35.00", "url": "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20"}, {"name": "Resistance Bands", "note": "Our pick: Arena Strength Fabric Glute Bands (3-Pack). Fabric loops that carry reformer leg and glute work into home sessions.", "price": "$29.00", "url": "https://www.amazon.com/dp/B07VYK14JC?tag=pilatescollective-20"}, {"name": "Foam Roller", "note": "Our pick: OPTP PRO-Roller Foam Roller (36-inch). For spinal mobility and release work before and after class.", "price": "$62.99", "url": "https://www.amazon.com/dp/B002C9EX14?tag=pilatescollective-20"}, {"name": "Home Pilates Reformer", "note": "Our pick: PAETA Wooden Foldable Reformer. A folding home reformer to keep your practice going between studio classes.", "price": "$719.99", "url": "https://www.amazon.com/dp/B0D7M7JNFV?tag=pilatescollective-20"}];
 
 const RELATED_CITIES = [{"city": "Vancouver", "country": "Canada", "href": "/cities/vancouver", "studioCount": 6}, {"city": "Toronto", "country": "Canada", "href": "/cities/toronto", "studioCount": 6}, {"city": "Montreal", "country": "Canada", "href": "/cities/montreal", "studioCount": 6}, {"city": "Denver", "country": "United States", "href": "/cities/denver", "studioCount": 6}];
 
-const FURTHER_READING = [{"title": "Beginner's Guide to Reformer Pilates", "excerpt": "What to expect in your first reformer class, how to choose a studio and how to progress.", "href": "/blog/beginners-guide-to-reformer-pilates", "category": "Beginner Guide", "readTime": "8 min read"}, {"title": "Best Pilates Grip Socks (2026)", "excerpt": "Five verified grip socks for reformer classes, from budget packs to studio favourites.", "href": "/blog/best-pilates-grip-socks", "category": "Accessories", "readTime": "6 min read"}, {"title": "What to Wear to Pilates", "excerpt": "A complete studio outfit guide: leggings, tops, bras and what to leave at home.", "href": "/blog/what-to-wear-to-pilates", "category": "Apparel", "readTime": "6 min read"}, {"title": "Best Pilates Reformer Brands (2026)", "excerpt": "Every major reformer brand ranked, for home practitioners and studio owners.", "href": "/blog/best-pilates-reformer-brands", "category": "Equipment", "readTime": "18 min read"}];
+const FURTHER_READING = [{"title": "Beginner's Guide to Reformer Pilates", "excerpt": "What to expect in your first reformer class, how to choose a studio and how to progress.", "href": "/blog/beginners-guide-to-reformer-pilates", "category": "Beginner Guide", "readTime": "8 min read"}, {"title": "Best Pilates Grip Socks (2026)", "excerpt": "Five verified grip socks for reformer classes, from budget packs to studio favorites.", "href": "/blog/best-pilates-grip-socks", "category": "Accessories", "readTime": "6 min read"}, {"title": "What to Wear to Pilates", "excerpt": "A complete studio outfit guide: leggings, tops, bras and what to leave at home.", "href": "/blog/what-to-wear-to-pilates", "category": "Apparel", "readTime": "6 min read"}, {"title": "Best Pilates Reformer Brands (2026)", "excerpt": "Every major reformer brand ranked, for home practitioners and studio owners.", "href": "/blog/best-pilates-reformer-brands", "category": "Equipment", "readTime": "18 min read"}];
 
-const CITY_FAQS = [{"q": "What are the best Pilates studios in Calgary?", "a": "Our 6 picks are Junction 9 Yoga & Pilates (Inglewood · Mission), Reformed Pilates Mission (Mission), Calgary Pilates Centre (Mayfair (Elbow Drive)), Refine Pilates Method (Bridgeland), Club Pilates Marda Loop (Marda Loop) and Reformed Pilates Macleod Trail (South Calgary). Each listing above covers what the studio is best for, its signature class and a booking tip."}, {"q": "Which Calgary neighbourhoods are best for Pilates?", "a": "This guide covers Inglewood, Mission & Marda Loop, Bridgeland and Mayfair & south Calgary. Yoga and reformer on 9 Avenue SE, with rooftop classes in summer."}, {"q": "What should I know about booking Pilates classes in Calgary?", "a": "Choose warm or cool. Book early mornings ahead. Plan for winter."}, {"q": "What should I bring to a Pilates class in Calgary?", "a": "Grip socks are required at most reformer studios. Our gear list for Calgary covers grip socks, a Pilates mat, a magic circle, resistance bands, a foam roller and a home reformer."}, {"q": "Is there heated reformer Pilates in Calgary?", "a": "Yes. Reformed Pilates runs reformer classes in rooms that are heated but not hot, at studios in Mission, south Calgary and elsewhere."}];
+const CITY_FAQS = [{"q": "What are the best Pilates studios in Calgary?", "a": "Our 6 picks are Junction 9 Yoga & Pilates (Inglewood · Mission), Reformed Pilates Mission (Mission), Calgary Pilates Centre (Mayfair (Elbow Drive)), Refine Pilates Method (Bridgeland), Club Pilates Marda Loop (Marda Loop) and Reformed Pilates Macleod Trail (South Calgary). Each listing above covers what the studio is best for, its signature class and a booking tip."}, {"q": "Which Calgary neighborhoods are best for Pilates?", "a": "This guide covers Inglewood, Mission & Marda Loop, Bridgeland and Mayfair & south Calgary. Yoga and reformer on 9 Avenue SE, with rooftop classes in summer."}, {"q": "What should I know about booking Pilates classes in Calgary?", "a": "Choose warm or cool. Book early mornings ahead. Plan for winter."}, {"q": "What should I bring to a Pilates class in Calgary?", "a": "Grip socks are required at most reformer studios. Our gear list for Calgary covers grip socks, a Pilates mat, a magic circle, resistance bands, a foam roller and a home reformer."}, {"q": "Is there heated reformer Pilates in Calgary?", "a": "Yes. Reformed Pilates runs reformer classes in rooms that are heated but not hot, at studios in Mission, south Calgary and elsewhere."}];
 
 const gearName = (g: { name: string; note: string }) => g.note.match(/Our pick: ([^.]+(?:\.\d+[^.]*)?)\./)?.[1] ?? g.name;
 
@@ -126,7 +126,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Best Pilates Studios in Calgary (2026)",
-      "description": "The best Pilates studios in Calgary: reformer and yoga in Inglewood, heated reformer in Mission, an award-winning centre and more. Six picks for 2026.",
+      "description": "The best Pilates studios in Calgary: reformer and yoga in Inglewood, heated reformer in Mission, an award-winning center and more. Six picks for 2026.",
       "url": "https://pilatescollectiveclub.com/cities/calgary",
       "datePublished": "2026-11-01",
       "dateModified": "2026-11-01",
@@ -189,7 +189,7 @@ export default function CalgaryPage() {
             </p>
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              {"Calgary's Pilates scene ranges from a highly rated yoga and reformer studio in Inglewood to heated reformer in Mission, a long-running award-winning centre on Elbow Drive and small studios in Bridgeland and Marda Loop. This guide covers six studios with confirmed addresses, what each does best and how to book."}
+              {"Calgary's Pilates scene ranges from a highly rated yoga and reformer studio in Inglewood to heated reformer in Mission, a long-running award-winning center on Elbow Drive and small studios in Bridgeland and Marda Loop. This guide covers six studios with confirmed addresses, what each does best and how to book."}
             </p>
           </div>
         </section>
@@ -240,7 +240,7 @@ export default function CalgaryPage() {
 
         <section className="py-20 px-6" style={{ backgroundColor: "#fcf9f8" }}>
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Best neighbourhoods for Pilates in Calgary</h2>
+            <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Best neighborhoods for Pilates in Calgary</h2>
             <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Where to look depending on where you live, work or stay.</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {NEIGHBORHOODS.map((n) => (

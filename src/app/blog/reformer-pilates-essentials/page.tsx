@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   description: DESCRIPTION,
   openGraph: {
     title: TITLE,
-    description: "The reformer class kit, organised by the class journey (before class, on the carriage, after class, and taking it home) with verified Best, Budget and Splurge picks.",
+    description: "The reformer class kit, organized by the class journey (before class, on the carriage, after class, and taking it home) with verified Best, Budget and Splurge picks.",
     type: "article",
     url: PAGE_URL,
     images: [{ url: HERO_IMAGE, width: 1200, height: 630, alt: "Reformer Pilates essentials: a sunlit reformer studio" }],
@@ -127,7 +127,7 @@ const STAGES: Stage[] = [
         title: "A bag that separates clean from sweaty",
         glanceLabel: "Studio bag",
         intro:
-          "You do not need a mat for most reformer classes, so a reformer bag is less about carrying bulk and more about organisation: a spot for shoes you take off at the door, a pocket for damp socks after class, and room for a layer.",
+          "You do not need a mat for most reformer classes, so a reformer bag is less about carrying bulk and more about organization: a spot for shoes you take off at the door, a pocket for damp socks after class, and room for a layer.",
         items: [
           { tier: "Best", ...P.sportsnewTote, description: "A 20L tote with a separate shoe compartment and a wet pocket: exactly the two features a reformer bag needs. Shoes go in their own section at check-in, used grip socks go in the wet pocket afterwards, and nothing damp touches your post-class layer. It also has room for a mat on days you do a mat class instead." },
           { tier: "Budget", ...P.bagsmartDuffle, description: "If you commute to class from work or prefer a structured holdall, this BAGSMART duffle is one of the lowest-priced options in our pool at $21.43. It works as a gym bag and a weekender, so it earns its keep outside the studio too." },
@@ -193,7 +193,7 @@ const STAGES: Stage[] = [
         intro:
           "Reformer classes put your legs in positions mat classes rarely do: feet in straps overhead, deep frog, wide second on the footbar, with a teacher and a mirror nearby. Choose full-length or 7/8 leggings with a high waist and no zips or hardware, then do a deep squat in front of a mirror at home before your first class. That test tells you more about opacity than any product page.",
         items: [
-          { tier: "Best", ...P.varleyLeggings, description: "Varley is a studio-favourite label, and the Freesoft Piped leggings are a full-length, clean design with no hardware to catch on the carriage. This listing (Marina colourway) is sold via Shopbop, an Amazon company. It is the pair to buy if you are committing to reformer as a habit." },
+          { tier: "Best", ...P.varleyLeggings, description: "Varley is a studio-favorite label, and the Freesoft Piped leggings are a full-length, clean design with no hardware to catch on the carriage. This listing (Marina colorway) is sold via Shopbop, an Amazon company. It is the pair to buy if you are committing to reformer as a habit." },
           { tier: "Budget", ...P.crzLeggings, description: "CRZ YOGA's Butterluxe is the pick for anyone starting out, at a third of the Varley price. The 25\" inseam sits around the ankle on many heights, which keeps fabric clear of the footbar and springs." },
           { tier: "Splurge", ...P.alo, description: "Alo's Airbrush is the legging many studio regulars already own, and it is a smooth, high-waisted design with no hardware." + directNote("aloyoga.com") },
         ],
@@ -207,7 +207,7 @@ const STAGES: Stage[] = [
         intro:
           "Reformer is low impact, so you rarely need maximum support. What matters more is that nothing digs in when you lie supine on the carriage: no clasps at the back, no chunky adjusters, and straps that stay flat against the headrest and shoulder rests.",
         items: [
-          { tier: "Best", ...P.varleyBra, description: "A soft bralette from Varley's Freesoft range, and the same Marina colourway as the leggings above if you want a matching set. Sold via Shopbop, an Amazon company." },
+          { tier: "Best", ...P.varleyBra, description: "A soft bralette from Varley's Freesoft range, and the same Marina colorway as the leggings above if you want a matching set. Sold via Shopbop, an Amazon company." },
           { tier: "Budget", ...P.crzBra, description: "CRZ YOGA's Butterluxe U Back bra pairs naturally with the Butterluxe leggings, and the U-back cut keeps straps out of the way of the shoulder rests." },
         ],
         guideHref: "/blog/best-pilates-sports-bra",
@@ -254,7 +254,7 @@ const STAGES: Stage[] = [
         intro:
           "A massage gun reaches places a roller cannot, like calves after a heavy footwork class or the front of the hips after a lot of leg springs.",
         items: [
-          { tier: "Best", ...P.theragun, description: "The TheraGun Relief is Therabody's entry model, sold by TheraGun on Amazon. A good choice if you want percussive therapy from a recognised brand without paying for pro-level features." },
+          { tier: "Best", ...P.theragun, description: "The TheraGun Relief is Therabody's entry model, sold by TheraGun on Amazon. A good choice if you want percussive therapy from a recognized brand without paying for pro-level features." },
         ],
         guideHref: "/blog/best-massage-gun-for-pilates",
         guideLabel: "Full guide: best massage guns for Pilates",
@@ -325,7 +325,7 @@ const FAQS = [
   },
   {
     q: "What should I wear to my first reformer Pilates class?",
-    a: "Full-length or 7/8 leggings with a high waist, a supportive sports bra or fitted top with no back clasps, and grip socks. Avoid loose shorts, baggy T-shirts, zips, buckles and jewellery: loose fabric can catch in springs and straps, and hardware is uncomfortable when you lie on the carriage. Tie long hair back low or with a claw clip so it doesn't press into the headrest.",
+    a: "Full-length or 7/8 leggings with a high waist, a supportive sports bra or fitted top with no back clasps, and grip socks. Avoid loose shorts, baggy T-shirts, zips, buckles and jewelry: loose fabric can catch in springs and straps, and hardware is uncomfortable when you lie on the carriage. Tie long hair back low or with a claw clip so it doesn't press into the headrest.",
   },
   {
     q: "Do you need grip socks for reformer Pilates?",
@@ -646,7 +646,7 @@ export default function ReformerPilatesEssentialsPage() {
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={{ color: "#8b4a31", fontFamily: sans }}>Stage 4 of 4 · The big upgrade</p>
               <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: serif }}>Taking it home: is a home reformer worth it?</h2>
               <p className="text-sm leading-relaxed mb-4" style={bodyText}>
-                Once you are taking two or three reformer classes a week, the maths starts to look different. At $30–$40 a class, two classes a week is roughly $60–$80 a week, or somewhere around $3,000–$4,000 a year. A home reformer is a one-off cost, and every session you do on it instead of in a studio moves you closer to having paid it off.
+                Once you are taking two or three reformer classes a week, the math starts to look different. At $30–$40 a class, two classes a week is roughly $60–$80 a week, or somewhere around $3,000–$4,000 a year. A home reformer is a one-off cost, and every session you do on it instead of in a studio moves you closer to having paid it off.
               </p>
               <p className="text-sm leading-relaxed mb-8" style={bodyText}>
                 That is the honest case for it, and the honest caveats matter just as much. A home machine does not correct your form the way a good teacher does, it needs floor space (check our{" "}

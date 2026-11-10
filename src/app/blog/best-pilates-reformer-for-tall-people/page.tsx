@@ -38,7 +38,7 @@ const PRODUCTS = [
     price: "$3,710",
     verdict: "Widest carriage among machines actually sold on Amazon",
     description:
-      "Worth knowing up front: you'll see a \"Balanced Body Allegro 2\" in searches, but we could not find a live Amazon listing for that model. The real Balanced Body machine with the widest carriage actually sold on Amazon is the Allegro Stretch, 2 inches wider and 6 inches longer than the standard Allegro, with a 36-inch adjustable footbar. Anodized aluminium frame, TwistLock shoulder rests. We could not independently verify an exact height cutoff for comfortable use, so confirm carriage and rail dimensions against your own height on the current listing before ordering.",
+      "Worth knowing up front: you'll see a \"Balanced Body Allegro 2\" in searches, but we could not find a live Amazon listing for that model. The real Balanced Body machine with the widest carriage actually sold on Amazon is the Allegro Stretch, 2 inches wider and 6 inches longer than the standard Allegro, with a 36-inch adjustable footbar. Anodized aluminum frame, TwistLock shoulder rests. We could not independently verify an exact height cutoff for comfortable use, so confirm carriage and rail dimensions against your own height on the current listing before ordering.",
     affiliateUrl: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20",
     tag: "Editor's Pick",
   },

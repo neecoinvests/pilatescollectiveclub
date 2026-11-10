@@ -49,8 +49,8 @@ const STUDIOS = [
     name: "Club Pilates West Lake",
     neighborhood: "West Lake / Bde Maka Ska",
     priceLevel: "$$$",
-    review: "Club Pilates' West Lake Street studio serves Uptown, Linden Hills and the Bde Maka Ska area with the brand's levelled group reformer system and a wide daily schedule.",
-    caveat: "a franchise format: consistent, but less personalised than an independent studio.",
+    review: "Club Pilates' West Lake Street studio serves Uptown, Linden Hills and the Bde Maka Ska area with the brand's leveled group reformer system and a wide daily schedule.",
+    caveat: "a franchise format: consistent, but less personalized than an independent studio.",
     address: "3200 W Lake St, Minneapolis, MN 55416",
     bestFor: "Structured reformer classes near the lakes",
     signatureClass: "Reformer Flow",
@@ -73,7 +73,7 @@ const STUDIOS = [
     name: "Twin Cities Pilates",
     neighborhood: "Eagan · Edina",
     priceLevel: "$$$",
-    review: "Twin Cities Pilates takes a classical reformer approach that prioritises alignment and control, and its Eagan studio leads ClassPass's Twin Cities list for low-impact, joint-friendly Pilates (4.9 from more than 5,000 reviews). It also has an Edina studio serving the southwest suburbs, and has announced a North Loop studio.",
+    review: "Twin Cities Pilates takes a classical reformer approach that prioritizes alignment and control, and its Eagan studio leads ClassPass's Twin Cities list for low-impact, joint-friendly Pilates (4.9 from more than 5,000 reviews). It also has an Edina studio serving the southwest suburbs, and has announced a North Loop studio.",
     caveat: "its studios are suburban: check the closest location before booking.",
     address: "",
     bestFor: "Classical, joint-friendly reformer",
@@ -85,7 +85,7 @@ const STUDIOS = [
     name: "Club Pilates Eden Prairie",
     neighborhood: "Eden Prairie / Southwest Suburbs",
     priceLevel: "$$",
-    review: "Club Pilates Eden Prairie on Prairie Center Drive serves Eden Prairie, Edina and Minnetonka with the brand's levelled group reformer programme.",
+    review: "Club Pilates Eden Prairie on Prairie Center Drive serves Eden Prairie, Edina and Minnetonka with the brand's leveled group reformer program.",
     caveat: "a franchise studio: reliable structure, less individual programming.",
     address: "574 Prairie Center Dr, Suite 155, Eden Prairie, MN 55344",
     bestFor: "Southwest suburban residents, membership-based training",
@@ -97,8 +97,8 @@ const STUDIOS = [
     name: "Club Pilates Highland Park",
     neighborhood: "Highland Park, St Paul",
     priceLevel: "$$",
-    review: "Club Pilates' Highland Park studio on Cleveland Avenue South is the convenient St Paul option, serving Highland Park, Mac-Groveland and the Grand Avenue area with levelled group reformer classes.",
-    caveat: "a franchise format: consistent, but less personalised than an independent studio.",
+    review: "Club Pilates' Highland Park studio on Cleveland Avenue South is the convenient St Paul option, serving Highland Park, Mac-Groveland and the Grand Avenue area with leveled group reformer classes.",
+    caveat: "a franchise format: consistent, but less personalized than an independent studio.",
     address: "757 Cleveland Ave S, Saint Paul, MN 55116",
     bestFor: "St Paul residents wanting structured reformer classes",
     signatureClass: "Reformer Flow",
@@ -109,16 +109,16 @@ const STUDIOS = [
 const BOOKING_TIPS = [
   { heading: "Expect to pay $25–52 per class", body: "Minneapolis's Pilates market is moderately priced by US standards. Drop-in rates run from $25 at community studios to $52 at Linden Hills premium practices. Monthly memberships bring per-class costs to $18–28 for regular practitioners, making Minneapolis one of the more financially accessible major US cities for building a serious Pilates practice." },
   { heading: "Winter is when Pilates matters most", body: "Minneapolis winters are among the most severe in the continental United States. From November through March, outdoor activity is limited or eliminated for weeks at a time. Practitioners who establish a studio routine before the cold arrives maintain it through the winter; those who wait until January rarely sustain one. Book a standing slot in September." },
-  { heading: "The skyway system changes your calculus", body: "Minneapolis's underground skyway network connects much of Downtown, allowing practitioners to access studios without outdoor exposure in winter. Studios in or connected to the skyway system become significantly more practical from November through March: worth factoring into neighbourhood choice." },
+  { heading: "The skyway system changes your calculus", body: "Minneapolis's underground skyway network connects much of Downtown, allowing practitioners to access studios without outdoor exposure in winter. Studios in or connected to the skyway system become significantly more practical from November through March: worth factoring into neighborhood choice." },
   { heading: "St Paul is a separate market worth considering", body: "The Twin Cities' two urban cores each have distinct studio cultures. St Paul's Highland Park, Grand Avenue and Summit Hill areas have their own studios, so St Paul residents rarely need to cross the river for a good class." },
   { heading: "Grip socks are required everywhere", body: "Universal across Minneapolis's reformer studios. Buying quality grip socks from Amazon before your first class is a consistent saving over front-desk retail pricing across the Twin Cities market." },
 ];
 
 const NEIGHBORHOODS = [
   { name: "Linden Hills & Edina", description: "Minneapolis's southwestern residential jewels house the city's most premium classical practices alongside strong franchise offerings. The wellness-invested, educated clientele here sets a high instructional standard that benefits the whole local market." },
-  { name: "Uptown & South Minneapolis", description: "The city's most culturally active neighbourhood supports a range of contemporary and community-oriented studios. High energy, good instruction, and a schedule dense enough to accommodate the varied lives of Minneapolis's most active young professional population." },
-  { name: "Northeast Minneapolis", description: "The Twin Cities' arts and innovation district has developed an excellent independent studio culture in the past decade. Studios here are community-focused, intelligently taught, and priced for the neighbourhood's creative and professional population." },
-  { name: "Downtown, North Loop & St Paul (Grand Avenue)", description: "Central Minneapolis and St Paul's premier residential corridor each support strong studio offerings for practitioners who work downtown or live in the capital. Grand Avenue in particular has an intimate neighbourhood-studio culture well worth exploring." },
+  { name: "Uptown & South Minneapolis", description: "The city's most culturally active neighborhood supports a range of contemporary and community-oriented studios. High energy, good instruction, and a schedule dense enough to accommodate the varied lives of Minneapolis's most active young professional population." },
+  { name: "Northeast Minneapolis", description: "The Twin Cities' arts and innovation district has developed an excellent independent studio culture in the past decade. Studios here are community-focused, intelligently taught, and priced for the neighborhood's creative and professional population." },
+  { name: "Downtown, North Loop & St Paul (Grand Avenue)", description: "Central Minneapolis and St Paul's premier residential corridor each support strong studio offerings for practitioners who work downtown or live in the capital. Grand Avenue in particular has an intimate neighborhood-studio culture well worth exploring." },
 ];
 
 const GEAR = [
@@ -151,7 +151,7 @@ const GEAR = [
 const HOME_REFORMERS = [
   { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work: three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
   { tag: "Mid-Range Pick", name: "AeroPilates Pro XP 557", note: "AeroPilates' top-of-the-range home reformer, a step up for practitioners training several times a week.", price: "$1,329.99", url: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20" },
-  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
+  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodized aluminum frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
 ];
 
 const RELATED_CITIES = [
@@ -168,7 +168,7 @@ const FURTHER_READING = [
 
 const CITY_FAQS = [
   { q: "What are the best Pilates studios in Minneapolis?", a: "Our 6 curated picks are Lagree Minneapolis (Uptown), Club Pilates: West Lake (West Lake / Bde Maka Ska), Sunna (Marcy-Holmes / St. Anthony Main), Twin Cities Pilates (Eagan · Edina), Club Pilates Eden Prairie (Eden Prairie / Southwest Suburbs) and Club Pilates Highland Park (Highland Park, St Paul). Each listing above covers what the studio is best for, its signature class and a booking tip." },
-  { q: "Which Minneapolis neighbourhoods are best for Pilates?", a: "This guide covers Linden Hills & Edina, Uptown & South Minneapolis, Northeast Minneapolis and Downtown, North Loop & St Paul (Grand Avenue). Linden Hills & Edina: Minneapolis's southwestern residential jewels house the city's most premium classical practices alongside strong franchise offerings." },
+  { q: "Which Minneapolis neighborhoods are best for Pilates?", a: "This guide covers Linden Hills & Edina, Uptown & South Minneapolis, Northeast Minneapolis and Downtown, North Loop & St Paul (Grand Avenue). Linden Hills & Edina: Minneapolis's southwestern residential jewels house the city's most premium classical practices alongside strong franchise offerings." },
   { q: "What should I know about booking Pilates classes in Minneapolis?", a: "Expect to pay $25–52 per class. Minneapolis's Pilates market is moderately priced by US standards." },
   { q: "What should I bring to a Pilates class in Minneapolis?", a: "Grip socks are required at most reformer studios. Our gear list for Minneapolis covers Pilates grip socks, Pilates mat, resistance bands set and magic circle." },
 ];
@@ -268,8 +268,8 @@ export default function MinneapolisPage() {
 
         <section className="py-20 px-6" style={{ backgroundColor: "#f6f3f2" }}>
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Best neighbourhoods for Pilates in Minneapolis</h2>
-            <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>The Twin Cities&apos; studio quality is distributed across distinct neighbourhoods and both cities. Here&apos;s where to look.</p>
+            <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Best neighborhoods for Pilates in Minneapolis</h2>
+            <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>The Twin Cities&apos; studio quality is distributed across distinct neighborhoods and both cities. Here&apos;s where to look.</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {NEIGHBORHOODS.map((n) => (
                 <div key={n.name} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)" }}>

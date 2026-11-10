@@ -72,7 +72,7 @@ export default function TermsPage() {
 
             <h2 style={s.h2}>Intellectual Property</h2>
             <p style={s.p}>
-              All content on the Site (including text, editorial copy, layout, and design) is the property of Pilates Collective Club or its content suppliers and is protected by applicable copyright and intellectual property laws. Photography sourced from Unsplash is subject to the Unsplash licence.
+              All content on the Site (including text, editorial copy, layout, and design) is the property of Pilates Collective Club or its content suppliers and is protected by applicable copyright and intellectual property laws. Photography sourced from Unsplash is subject to the Unsplash license.
             </p>
             <p style={s.p}>
               You may quote brief excerpts from articles for non-commercial purposes (commentary, criticism, education) provided you attribute the source with a link to the original page.
@@ -83,12 +83,12 @@ export default function TermsPage() {
               The content on this Site is provided &quot;as is&quot; and for general informational purposes only. We make no representations or warranties of any kind, express or implied, about the accuracy, completeness, reliability, or suitability of any information on the Site.
             </p>
             <p style={s.p}>
-              In particular, content related to Pilates exercises, equipment, and health benefits is editorial in nature and does not constitute medical or professional advice. Always consult a qualified instructor or healthcare provider before beginning a new exercise programme, especially if you have a pre-existing health condition.
+              In particular, content related to Pilates exercises, equipment, and health benefits is editorial in nature and does not constitute medical or professional advice. Always consult a qualified instructor or healthcare provider before beginning a new exercise program, especially if you have a pre-existing health condition.
             </p>
 
             <h2 style={s.h2}>Affiliate Links & Product Recommendations</h2>
             <p style={s.p}>
-              The Site participates in affiliate programmes including Amazon Associates. Product recommendations are editorial opinions based on research and analysis. We may earn a commission if you purchase through an affiliate link. This does not affect our editorial independence or the price you pay. See our <a href="/affiliate-disclosure" style={{ color: "#8b4a31", textDecoration: "underline" }}>Affiliate Disclosure</a> for full details.
+              The Site participates in affiliate programs including Amazon Associates. Product recommendations are editorial opinions based on research and analysis. We may earn a commission if you purchase through an affiliate link. This does not affect our editorial independence or the price you pay. See our <a href="/affiliate-disclosure" style={{ color: "#8b4a31", textDecoration: "underline" }}>Affiliate Disclosure</a> for full details.
             </p>
             <p style={s.p}>
               We are not responsible for the content, accuracy, or practices of third-party websites linked from the Site, including Amazon and studio websites.

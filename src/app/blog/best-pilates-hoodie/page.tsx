@@ -63,7 +63,7 @@ const PRODUCTS = [
     name: "Lululemon Scuba Oversized Half-Zip Hoodie",
     price: "$118",
     verdict: "Best Overall",
-    description: "The Lululemon Scuba is the most-recognised hoodie in the global Pilates community. The French terry fabric is soft enough to wear against bare skin and warm enough for cold studios, pre-class warm-ups, and post-class cool-downs. The oversized fit layers easily over any Pilates outfit. The half-zip makes removal easy between exercises without needing to fully undress. Not sold on Amazon: this link goes to Lululemon's own site.",
+    description: "The Lululemon Scuba is the most-recognized hoodie in the global Pilates community. The French terry fabric is soft enough to wear against bare skin and warm enough for cold studios, pre-class warm-ups, and post-class cool-downs. The oversized fit layers easily over any Pilates outfit. The half-zip makes removal easy between exercises without needing to fully undress. Not sold on Amazon: this link goes to Lululemon's own site.",
     affiliateUrl: "https://shop.lululemon.com",
     tag: "Top Pick",
   },
@@ -129,8 +129,8 @@ const jsonLd = {
       "@type": "FAQPage",
       mainEntity: [
         { "@type": "Question", name: "Should I wear a hoodie during a Pilates session?", acceptedAnswer: { "@type": "Answer", text: "In most cases, hoodies are worn before and after rather than during a Pilates session. However, in cold studios or during the first few minutes of a mat warm-up, wearing a lightweight hoodie until your body temperature rises is practical. Remove it before reformer work: excess fabric can interfere with straps and inhibit the instructor's view of your alignment." } },
-        { "@type": "Question", name: "What makes a good Pilates hoodie different from a regular one?", acceptedAnswer: { "@type": "Answer", text: "A good Pilates hoodie prioritises arm mobility (raglan or dropped shoulder seams), stays in place when arms are raised, is soft enough to wear against bare skin, and is easy to remove mid-class if needed. A half-zip or full-zip design is more practical than a pullover for layering purposes in a studio setting." } },
-        { "@type": "Question", name: "What is the most popular hoodie worn at Pilates studios?", acceptedAnswer: { "@type": "Answer", text: "The Lululemon Scuba Oversized Half-Zip Hoodie is by far the most-seen hoodie in Pilates and reformer studios globally. Its reputation is well-earned: the French terry fabric is exceptionally soft, the oversized fit is comfortable over any base layer, and it has become a recognisable signifier of the Pilates community aesthetic worldwide." } },
+        { "@type": "Question", name: "What makes a good Pilates hoodie different from a regular one?", acceptedAnswer: { "@type": "Answer", text: "A good Pilates hoodie prioritizes arm mobility (raglan or dropped shoulder seams), stays in place when arms are raised, is soft enough to wear against bare skin, and is easy to remove mid-class if needed. A half-zip or full-zip design is more practical than a pullover for layering purposes in a studio setting." } },
+        { "@type": "Question", name: "What is the most popular hoodie worn at Pilates studios?", acceptedAnswer: { "@type": "Answer", text: "The Lululemon Scuba Oversized Half-Zip Hoodie is by far the most-seen hoodie in Pilates and reformer studios globally. Its reputation is well-earned: the French terry fabric is exceptionally soft, the oversized fit is comfortable over any base layer, and it has become a recognizable signifier of the Pilates community aesthetic worldwide." } },
       ],
     },
   ],
@@ -200,8 +200,8 @@ export default function BestPilatesHoodiePage() {
               <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "1.6rem", fontWeight: 400, color: "#1a1714", marginBottom: "32px" }}>Frequently Asked Questions</h2>
               {[
                 { q: "Should I wear a hoodie during a Pilates session?", a: "In most cases, hoodies are worn before and after rather than during a Pilates session. However, in cold studios or during the first few minutes of a mat warm-up, wearing a lightweight hoodie until your body temperature rises is practical. Remove it before reformer work: excess fabric can interfere with straps and inhibit the instructor's view of your alignment." },
-                { q: "What makes a good Pilates hoodie different from a regular one?", a: "A good Pilates hoodie prioritises arm mobility (raglan or dropped shoulder seams), stays in place when arms are raised, is soft enough to wear against bare skin, and is easy to remove mid-class if needed. A half-zip or full-zip design is more practical than a pullover for layering purposes in a studio setting." },
-                { q: "What is the most popular hoodie worn at Pilates studios?", a: "The Lululemon Scuba Oversized Half-Zip Hoodie is by far the most-seen hoodie in Pilates and reformer studios globally. Its reputation is well-earned: the French terry fabric is exceptionally soft, the oversized fit is comfortable over any base layer, and it has become a recognisable signifier of the Pilates community aesthetic worldwide." },
+                { q: "What makes a good Pilates hoodie different from a regular one?", a: "A good Pilates hoodie prioritizes arm mobility (raglan or dropped shoulder seams), stays in place when arms are raised, is soft enough to wear against bare skin, and is easy to remove mid-class if needed. A half-zip or full-zip design is more practical than a pullover for layering purposes in a studio setting." },
+                { q: "What is the most popular hoodie worn at Pilates studios?", a: "The Lululemon Scuba Oversized Half-Zip Hoodie is by far the most-seen hoodie in Pilates and reformer studios globally. Its reputation is well-earned: the French terry fabric is exceptionally soft, the oversized fit is comfortable over any base layer, and it has become a recognizable signifier of the Pilates community aesthetic worldwide." },
               ].map((item) => (
                 <div key={item.q} style={{ borderTop: "1px solid #ede6dc", paddingTop: "24px", paddingBottom: "24px" }}>
                   <h3 style={{ fontFamily: "var(--font-sans)", fontSize: "15px", fontWeight: 500, color: "#1a1714", marginBottom: "10px" }}>{item.q}</h3>
@@ -215,7 +215,7 @@ export default function BestPilatesHoodiePage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Pilates T-Shirts (2026)" excerpt="Technical tees from Lululemon, Vuori, Alo Yoga, and Nike: compared on breathability and studio-ready style." href="/blog/best-pilates-tshirts" category="Clothing" readTime="8 min" imageUrl="/pictures/stitch-retail-activewear.png" />
                 <ArticleCard title="What to Wear to Pilates" excerpt="The complete guide to Pilates clothing: what works, what to avoid, and how to dress for reformer vs mat." href="/blog/what-to-wear-to-pilates" category="Beginners" readTime="7 min" imageUrl="/pictures/stitch-retail-activewear.png" />
-                <ArticleCard title="Best Pilates Grip Socks (2026): 5 Verified Picks" excerpt="5 verified, in-stock Pilates grip socks on Amazon: toesox and TAVI studio favourites, Tucketts toeless, plus Gaiam…" href="/blog/best-pilates-grip-socks" category="Activewear" readTime="6 min read" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Grip Socks (2026): 5 Verified Picks" excerpt="5 verified, in-stock Pilates grip socks on Amazon: toesox and TAVI studio favorites, Tucketts toeless, plus Gaiam…" href="/blog/best-pilates-grip-socks" category="Activewear" readTime="6 min read" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Leggings (2026): 5 Picks for Reformer & Mat" excerpt="The 5 best Pilates leggings on Amazon, from $26 to $134: Lululemon Align, Beyond Yoga, Sweaty Betty, Varley and…" href="/blog/best-pilates-leggings" category="Activewear" readTime="9 min read" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />
                 <ArticleCard title="Athleta for Pilates (2026): Best Leggings & Tops Reviewed" excerpt="Best Athleta pieces for Pilates, Salutation, Elation, and Brooklyn leggings reviewed for reformer class…" href="/blog/athleta-pilates" category="Activewear" readTime="9 min read" imageUrl="/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" />
               </div>
@@ -223,7 +223,7 @@ export default function BestPilatesHoodiePage() {
           </div>
         </section>
 
-        <CTASection title="Find Your Studio" subtitle="Explore top-rated Pilates studios near you." showSearch searchPlaceholder="Search by city or neighbourhood..." />
+        <CTASection title="Find Your Studio" subtitle="Explore top-rated Pilates studios near you." showSearch searchPlaceholder="Search by city or neighborhood..." />
       </main>
       <Footer />
     </>

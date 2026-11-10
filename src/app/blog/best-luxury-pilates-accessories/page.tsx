@@ -64,7 +64,7 @@ const PRODUCTS = [
     name: "THERABAND Professional Latex Resistance Band Set (7-Pack)",
     price: "$19.47",
     verdict: "Best Professional Resistance Bands",
-    description: "THERABAND is the band physiotherapists and clinical Pilates teachers actually use, and its colour-coded system is the one most rehab programmes are written around. This professional set gives you seven 6-foot bands in seven progressive resistance levels, which covers everything from shoulder rehab to leg work in the mat repertoire. Natural latex gives smooth, progressive tension (choose THERABAND's non-latex bands if you have a latex allergy). It's the least expensive item on this list and one of the most useful.",
+    description: "THERABAND is the band physiotherapists and clinical Pilates teachers actually use, and its color-coded system is the one most rehab programs are written around. This professional set gives you seven 6-foot bands in seven progressive resistance levels, which covers everything from shoulder rehab to leg work in the mat repertoire. Natural latex gives smooth, progressive tension (choose THERABAND's non-latex bands if you have a latex allergy). It's the least expensive item on this list and one of the most useful.",
     affiliateUrl: "https://www.amazon.com/dp/B07RF9FYM6?tag=pilatescollective-20",
     tag: "Clinical Standard",
   },
@@ -130,7 +130,7 @@ const jsonLd = {
       "@type": "FAQPage",
       mainEntity: [
         { "@type": "Question", name: "What accessories do serious Pilates practitioners invest in?", acceptedAnswer: { "@type": "Answer", text: "Beyond the mat, the accessories that make the most consistent difference in a serious Pilates practice are: a steel-sprung magic circle (for adductor and abductor work), a quality foam roller (for thoracic mobility and recovery), and professional-grade resistance bands (for supplementary conditioning). Cork props over foam are preferred at the premium tier for feel and durability." } },
-        { "@type": "Question", name: "Are professional Pilates props like the STOTT PILATES Fitness Circle Pro worth the price?", acceptedAnswer: { "@type": "Answer", text: "Yes, for practitioners who train regularly. A professional ring like Merrithew's Fitness Circle Pro is made of sprung steel rather than plastic or fibreglass, so the resistance is firm and even and the ring keeps its shape for years. Budget magic circles vary widely in resistance and many lose tension or deform within months." } },
+        { "@type": "Question", name: "Are professional Pilates props like the STOTT PILATES Fitness Circle Pro worth the price?", acceptedAnswer: { "@type": "Answer", text: "Yes, for practitioners who train regularly. A professional ring like Merrithew's Fitness Circle Pro is made of sprung steel rather than plastic or fiberglass, so the resistance is firm and even and the ring keeps its shape for years. Budget magic circles vary widely in resistance and many lose tension or deform within months." } },
         { "@type": "Question", name: "What makes cork pilates props better than foam?", acceptedAnswer: { "@type": "Answer", text: "Cork has significant advantages over foam for Pilates props: it is a natural, renewable material that doesn't off-gas chemicals; it is naturally resistant to moisture and easy to clean; it is firmer and grippier than foam; and it doesn't compress over time the way soft foam does. The trade-off is weight and a firmer surface, so many studios keep both." } },
       ],
     },
@@ -197,7 +197,7 @@ export default function BestLuxuryPilatesAccessoriesPage() {
               <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "1.6rem", fontWeight: 400, color: "#1a1714", marginBottom: "32px" }}>Frequently Asked Questions</h2>
               {[
                 { q: "What accessories do serious Pilates practitioners invest in?", a: "Beyond the mat, the accessories that make the most consistent difference in a serious Pilates practice are: a steel-sprung magic circle (for adductor and abductor work), a quality foam roller (for thoracic mobility and recovery), and professional-grade resistance bands (for supplementary conditioning). Cork props over foam are preferred at the premium tier for feel and durability." },
-                { q: "Are professional Pilates props like the STOTT PILATES Fitness Circle Pro worth the price?", a: "Yes, for practitioners who train regularly. A professional ring like Merrithew's Fitness Circle Pro is made of sprung steel rather than plastic or fibreglass, so the resistance is firm and even and the ring keeps its shape for years. Budget magic circles vary widely in resistance and many lose tension or deform within months." },
+                { q: "Are professional Pilates props like the STOTT PILATES Fitness Circle Pro worth the price?", a: "Yes, for practitioners who train regularly. A professional ring like Merrithew's Fitness Circle Pro is made of sprung steel rather than plastic or fiberglass, so the resistance is firm and even and the ring keeps its shape for years. Budget magic circles vary widely in resistance and many lose tension or deform within months." },
                 { q: "What makes cork pilates props better than foam?", a: "Cork has significant advantages over foam for Pilates props: it is a natural, renewable material that doesn't off-gas chemicals; it is naturally resistant to moisture and easy to clean; it is firmer and grippier than foam; and it doesn't compress over time the way soft foam does. The trade-off is weight and a firmer surface, so many studios keep both." },
               ].map((item) => (
                 <div key={item.q} style={{ borderTop: "1px solid #ede6dc", paddingTop: "24px", paddingBottom: "24px" }}>
@@ -220,7 +220,7 @@ export default function BestLuxuryPilatesAccessoriesPage() {
           </div>
         </section>
 
-        <CTASection title="Find Your Studio" subtitle="Discover the world's finest Pilates and reformer studios." showSearch searchPlaceholder="Search by city or neighbourhood..." />
+        <CTASection title="Find Your Studio" subtitle="Discover the world's finest Pilates and reformer studios." showSearch searchPlaceholder="Search by city or neighborhood..." />
       </main>
       <Footer />
     </>

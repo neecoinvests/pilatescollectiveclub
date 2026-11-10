@@ -99,7 +99,7 @@ const GUIDE: EquipmentGuideProps = {
       heading: "Merrithew and Balanced Body classics",
       items: [
         item("spxHome", { badge: "Best Merrithew Package", pros: ["Box, pole, extender and straps included", "Sold by Amazon.com"], cons: ["Low frame height"] }),
-        item("rialtoBox", { badge: "Best Value Balanced Body", pros: ["Maple frame on aluminium legs", "Sitting box included"], cons: ["Made to order"] }),
+        item("rialtoBox", { badge: "Best Value Balanced Body", pros: ["Maple frame on aluminum legs", "Sitting box included"], cons: ["Made to order"] }),
         item("allegroStretch", { badge: "Best for Tall Users", pros: ["Longer, wider carriage", "Transport wheels"], cons: ["111\" long", "Made to order"] }),
         item("rialtoTower", { badge: "Best Reformer + Tower", pros: ["29 spring-attachment points", "Mat conversion"], cons: ["Made to order"] }),
         item("studioRevo", { badge: "Best Balanced Body", pros: ["Strata Rock Maple", "Up to 46 resistance settings"], cons: ["Made to order"] }),

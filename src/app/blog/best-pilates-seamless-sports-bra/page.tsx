@@ -54,7 +54,7 @@ const PRODUCTS = [
     name: "Amazon Essentials Seamless Medium-Support Bra",
     price: "$14.90",
     verdict: "Best Budget",
-    description: "Amazon's Essentials seamless sports bra is a remarkably functional option at under $20. The seamless construction prevents pressure point chafing during mat work, the medium support is appropriate for Pilates intensity, and the wide straps stay in place through reformer sequences. Stock up in multiple colours for daily training without laundry anxiety.",
+    description: "Amazon's Essentials seamless sports bra is a remarkably functional option at under $20. The seamless construction prevents pressure point chafing during mat work, the medium support is appropriate for Pilates intensity, and the wide straps stay in place through reformer sequences. Stock up in multiple colors for daily training without laundry anxiety.",
     affiliateUrl: "https://www.amazon.com/dp/B08JLF7N8G?tag=pilatescollective-20",
     tag: "Best Value",
   },
@@ -81,7 +81,7 @@ const PRODUCTS = [
     name: "Alo Yoga Airlift Bra",
     price: "$62",
     verdict: "Best Support + Style",
-    description: "Alo's Airlift Bra uses their most performance-focused fabric with a seamless racerback construction that provides medium support without any underwire or stitched seam pressure. The open-weave mesh panels at the sides maximise airflow during heated Lagree sessions. Available in 15+ colourways, it's the most versatile Pilates bra on this list. Not sold on Amazon: this link goes to Alo Yoga's own site.",
+    description: "Alo's Airlift Bra uses their most performance-focused fabric with a seamless racerback construction that provides medium support without any underwire or stitched seam pressure. The open-weave mesh panels at the sides maximize airflow during heated Lagree sessions. Available in 15+ colorways, it's the most versatile Pilates bra on this list. Not sold on Amazon: this link goes to Alo Yoga's own site.",
     affiliateUrl: "https://www.aloyoga.com",
     tag: "Best Support",
   },
@@ -216,14 +216,14 @@ export default function BestPilatesSeamlessSportsBraPage() {
                 <ArticleCard title="Best Pilates Sports Bras" excerpt="The full roundup of top-rated sports bras for Pilates: padded, wired, and wireless options compared." href="/blog/best-pilates-sports-bra" category="Clothing" readTime="8 min" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Bodysuits" excerpt="One-piece options that eliminate bra-top coordination entirely: the best bodysuits for reformer Pilates." href="/blog/best-pilates-bodysuits" category="Clothing" readTime="7 min" imageUrl="/pictures/stitch-retail-activewear.png" />
                 <ArticleCard title="Best Sports Bra for Lagree (2026): 6 Picks by Support" excerpt="The best sports bra for Lagree, matched to support level: high-impact picks for jumps and lunges, smooth backs for…" href="/blog/best-sports-bra-for-lagree" category="Lagree" readTime="9 min read" imageUrl="/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg" />
-                <ArticleCard title="Best Pilates Grip Socks (2026): 5 Verified Picks" excerpt="5 verified, in-stock Pilates grip socks on Amazon: toesox and TAVI studio favourites, Tucketts toeless, plus Gaiam…" href="/blog/best-pilates-grip-socks" category="Activewear" readTime="6 min read" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
+                <ArticleCard title="Best Pilates Grip Socks (2026): 5 Verified Picks" excerpt="5 verified, in-stock Pilates grip socks on Amazon: toesox and TAVI studio favorites, Tucketts toeless, plus Gaiam…" href="/blog/best-pilates-grip-socks" category="Activewear" readTime="6 min read" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Leggings (2026): 5 Picks for Reformer & Mat" excerpt="The 5 best Pilates leggings on Amazon, from $26 to $134: Lululemon Align, Beyond Yoga, Sweaty Betty, Varley and…" href="/blog/best-pilates-leggings" category="Activewear" readTime="9 min read" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />
               </div>
             </div>
           </div>
         </section>
 
-        <CTASection title="Find Your Studio" subtitle="Explore top-rated Pilates studios near you." showSearch searchPlaceholder="Search by city or neighbourhood..." />
+        <CTASection title="Find Your Studio" subtitle="Explore top-rated Pilates studios near you." showSearch searchPlaceholder="Search by city or neighborhood..." />
       </main>
       <Footer />
     </>

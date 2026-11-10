@@ -54,12 +54,12 @@ const ITEMS = [
   },
   {
     rank: "03",
-    name: "Microfibre Gym Towel",
+    name: "Microfiber Gym Towel",
     price: "From $12",
     verdict: "Small, fast-drying, essential",
     tag: "Practical",
     description:
-      "A small microfibre towel serves two purposes: wiping down the reformer carriage at the end of class (most studios expect this) and wiping your hands during exercises where grip on the reformer loops matters. A 40cm x 80cm size fits easily in any bag without taking up much space. Microfibre dries significantly faster than cotton between sessions: important if you practice multiple times per week.",
+      "A small microfiber towel serves two purposes: wiping down the reformer carriage at the end of class (most studios expect this) and wiping your hands during exercises where grip on the reformer loops matters. A 40cm x 80cm size fits easily in any bag without taking up much space. Microfiber dries significantly faster than cotton between sessions: important if you practice multiple times per week.",
     affiliateUrl: "https://www.amazon.com/s?k=microfibre+gym+towel+small+compact&tag=pilatescollective-20",
   },
   {
@@ -114,7 +114,7 @@ const jsonLd = {
       "@type": "FAQPage",
       "mainEntity": [
         { "@type": "Question", "name": "Do I need to bring a mat to Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "No: studios provide mats and all equipment. You only need to bring your own mat if you prefer a specific thickness or brand, or if you practice at home. Grip socks are the one item you genuinely need to supply yourself." } },
-        { "@type": "Question", "name": "What should I not bring to Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "Leave jewellery at home: rings and bracelets scratch the reformer carriage and can catch on straps. Avoid strong perfume in a small studio. Don't bring a large gym bag that takes up an entire changing room bench. Food is unwelcome in most boutique studios." } },
+        { "@type": "Question", "name": "What should I not bring to Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "Leave jewelry at home: rings and bracelets scratch the reformer carriage and can catch on straps. Avoid strong perfume in a small studio. Don't bring a large gym bag that takes up an entire changing room bench. Food is unwelcome in most boutique studios." } },
         { "@type": "Question", "name": "Do Pilates studios provide grip socks?", "acceptedAnswer": { "@type": "Answer", "text": "Most studios sell grip socks at the front desk, typically for $18–$25 per pair. Buying your own in advance is cheaper and ensures a better fit: studio socks are usually one-size and rarely the best brands." } },
       ],
     },
@@ -208,7 +208,7 @@ export default function PilatesStudioBagEssentialsPage() {
                 {[
                   { item: "Grip socks", note: "Non-negotiable" },
                   { item: "Insulated water bottle", note: "Stays cold all class" },
-                  { item: "Small microfibre towel", note: "For wiping down carriage" },
+                  { item: "Small microfiber towel", note: "For wiping down carriage" },
                   { item: "Change of top", note: "For after class" },
                   { item: "Clean underwear", note: "If showering at studio" },
                   { item: "The bag itself", note: "22L max for most studios" },
@@ -231,7 +231,7 @@ export default function PilatesStudioBagEssentialsPage() {
               <div className="space-y-6">
                 {[
                   { q: "Do I need to bring a mat to Pilates?", a: "No: studios provide mats and all equipment. You only need to bring your own mat if you prefer a specific thickness or brand, or if you practice at home. Grip socks are the one item you genuinely need to supply yourself." },
-                  { q: "What should I not bring to Pilates?", a: "Leave jewellery at home: rings and bracelets scratch the reformer carriage and can catch on straps. Avoid strong perfume in a small studio. Don't bring a large gym bag that takes up an entire changing room bench. Food is unwelcome in most boutique studios." },
+                  { q: "What should I not bring to Pilates?", a: "Leave jewelry at home: rings and bracelets scratch the reformer carriage and can catch on straps. Avoid strong perfume in a small studio. Don't bring a large gym bag that takes up an entire changing room bench. Food is unwelcome in most boutique studios." },
                   { q: "Do Pilates studios provide grip socks?", a: "Most studios sell grip socks at the front desk, typically for $18–$25 per pair. Buying your own in advance is cheaper and ensures a better fit: studio socks are usually one-size and rarely the best brands." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>

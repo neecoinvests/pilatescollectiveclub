@@ -83,9 +83,9 @@ const jsonLd = {
       "@type": "FAQPage",
       "mainEntity": [
         { "@type": "Question", "name": "Is the Align-Pilates C8-PRO sold on Amazon?", "acceptedAnswer": { "@type": "Answer", "text": "Yes: the C8-PRO is genuinely sold on Amazon, at $2,750, listed by Merrithew as Align's US distributor. It's the only Align-Pilates reformer we could independently verify as a live Amazon listing." } },
-        { "@type": "Question", "name": "Is there a cheaper Align-Pilates model, like a 'C2 Pro RC'?", "acceptedAnswer": { "@type": "Answer", "text": "We could not confirm a distinct 'C2 Pro RC' model as a live, standalone Amazon listing, or verify an ASIN for one. Align does publish other models on its own site, but we're not asserting Amazon availability, pricing, or specs for anything beyond the C8-PRO here: check directly with Align or an authorised dealer for other models." } },
+        { "@type": "Question", "name": "Is there a cheaper Align-Pilates model, like a 'C2 Pro RC'?", "acceptedAnswer": { "@type": "Answer", "text": "We could not confirm a distinct 'C2 Pro RC' model as a live, standalone Amazon listing, or verify an ASIN for one. Align does publish other models on its own site, but we're not asserting Amazon availability, pricing, or specs for anything beyond the C8-PRO here: check directly with Align or an authorized dealer for other models." } },
         { "@type": "Question", "name": "How does the C8-PRO compare to Balanced Body and Merrithew?", "acceptedAnswer": { "@type": "Answer", "text": "On price, the C8-PRO at $2,750 undercuts both Balanced Body's Allegro Stretch ($3,710) and Merrithew's At Home SPX Reformer Package ($3,349). On accessories, both Balanced Body and Merrithew have deeper, more widely stocked ecosystems than Align, whose accessory range on Amazon we could not independently verify beyond the reformer itself." } },
-        { "@type": "Question", "name": "Which Align-Pilates model should I buy?", "acceptedAnswer": { "@type": "Answer", "text": "The C8-PRO is the model we can actually recommend from a verified Amazon listing. If you're considering another Align model, get current specs, pricing, and Amazon availability directly from Align or an authorised dealer rather than relying on unverified claims." } },
+        { "@type": "Question", "name": "Which Align-Pilates model should I buy?", "acceptedAnswer": { "@type": "Answer", "text": "The C8-PRO is the model we can actually recommend from a verified Amazon listing. If you're considering another Align model, get current specs, pricing, and Amazon availability directly from Align or an authorized dealer rather than relying on unverified claims." } },
       ],
     },
   ],
@@ -142,7 +142,7 @@ export default function AlignPilatesReformerReviewPage() {
                 Align-Pilates is a UK-founded brand that entered the market as a lower-cost alternative to the dominant American brands. Its US-market flagship, the C8-PRO, is sold on Amazon by Merrithew, Align&apos;s US distributor, which is the detail that matters most for anyone shopping on Amazon specifically: it&apos;s a real, verifiable listing, not a search result standing in for a product that isn&apos;t actually there.
               </p>
               <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                Align markets its spring system as colour-coded in a way that maps to the STOTT PILATES convention familiar to Merrithew-trained instructors. We could not independently verify the exact spring count or colour breakdown for the current C8-PRO listing, so treat any specific number as something to confirm on the live Amazon page rather than a fact asserted here.
+                Align markets its spring system as color-coded in a way that maps to the STOTT PILATES convention familiar to Merrithew-trained instructors. We could not independently verify the exact spring count or color breakdown for the current C8-PRO listing, so treat any specific number as something to confirm on the live Amazon page rather than a fact asserted here.
               </p>
               <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
                 Align is not yet the default recommendation for large commercial studios, where Balanced Body and Merrithew still dominate, but for practitioners specifically comparing real, Amazon-sold reformers on price, the C8-PRO at $2,750 is a genuine option below both of the major American brands&apos; cheapest comparable machines.
@@ -153,7 +153,7 @@ export default function AlignPilatesReformerReviewPage() {
             <div className="mb-16 rounded-2xl p-7" style={{ backgroundColor: "#fff4f1", border: "1px solid rgba(139,74,49,0.15)" }}>
               <p className="text-xs font-semibold uppercase tracking-[0.15em] mb-3" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Other Align models</p>
               <p className="text-base leading-relaxed mb-0" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                If you&apos;ve seen a &quot;C2 Pro RC&quot; quoted with its own price and spec differences from the C8-PRO (footbar positions, folding storage, a separately-sold tower attachment), we could not verify it as a genuine, live Align-Pilates listing on Amazon, so we don&apos;t cover it here. If Align sells other models through other channels, get current details directly from Align or an authorised dealer.
+                If you&apos;ve seen a &quot;C2 Pro RC&quot; quoted with its own price and spec differences from the C8-PRO (footbar positions, folding storage, a separately-sold tower attachment), we could not verify it as a genuine, live Align-Pilates listing on Amazon, so we don&apos;t cover it here. If Align sells other models through other channels, get current details directly from Align or an authorized dealer.
               </p>
             </div>
 
@@ -164,7 +164,7 @@ export default function AlignPilatesReformerReviewPage() {
                 {[
                   {
                     heading: "Spring system",
-                    body: "Align markets a colour-coded spring system in the STOTT PILATES convention. We could not independently verify the exact spring count for the current listing: check the live Amazon page for the current specification before buying on the strength of a specific number.",
+                    body: "Align markets a color-coded spring system in the STOTT PILATES convention. We could not independently verify the exact spring count for the current listing: check the live Amazon page for the current specification before buying on the strength of a specific number.",
                   },
                   {
                     heading: "Carriage",
@@ -172,7 +172,7 @@ export default function AlignPilatesReformerReviewPage() {
                   },
                   {
                     heading: "Build",
-                    body: "A stackable aluminium frame, per the listing. Align's track record is shorter than Balanced Body's decades-long history, but we found no significant, verifiable failure pattern reported for the C8-PRO specifically.",
+                    body: "A stackable aluminum frame, per the listing. Align's track record is shorter than Balanced Body's decades-long history, but we found no significant, verifiable failure pattern reported for the C8-PRO specifically.",
                   },
                   {
                     heading: "Price vs. real alternatives",
@@ -258,7 +258,7 @@ export default function AlignPilatesReformerReviewPage() {
                   },
                   {
                     q: "Is there a cheaper Align-Pilates model, like a \"C2 Pro RC\"?",
-                    a: "We could not confirm a distinct \"C2 Pro RC\" model as a live, standalone Amazon listing, or verify an ASIN for one. Align may sell other models through other channels, but we're not asserting Amazon availability, pricing, or specs for anything beyond the C8-PRO here: check directly with Align or an authorised dealer for other models.",
+                    a: "We could not confirm a distinct \"C2 Pro RC\" model as a live, standalone Amazon listing, or verify an ASIN for one. Align may sell other models through other channels, but we're not asserting Amazon availability, pricing, or specs for anything beyond the C8-PRO here: check directly with Align or an authorized dealer for other models.",
                   },
                   {
                     q: "How does the C8-PRO compare to Balanced Body and Merrithew?",
@@ -266,7 +266,7 @@ export default function AlignPilatesReformerReviewPage() {
                   },
                   {
                     q: "Which Align-Pilates model should I buy?",
-                    a: "The C8-PRO is the model we can actually recommend from a verified Amazon listing. If you're considering another Align model, get current specs, pricing, and Amazon availability directly from Align or an authorised dealer rather than relying on unverified claims elsewhere.",
+                    a: "The C8-PRO is the model we can actually recommend from a verified Amazon listing. If you're considering another Align model, get current specs, pricing, and Amazon availability directly from Align or an authorized dealer rather than relying on unverified claims elsewhere.",
                   },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>

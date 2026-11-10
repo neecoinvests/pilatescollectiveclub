@@ -46,7 +46,7 @@ const PRODUCTS = [
     name: "Wolford Energy Leggings",
     price: "$144.00",
     verdict: "Most Luxurious",
-    description: "Wolford, the Austrian hosiery house founded in 1950, applies its knitting expertise to activewear with the Energy Leggings. They're circular-knit, which means very few seams to press into you on the carriage, with a matt finish that reads more polished than typical gym leggings. They dry quickly, are sustainably dyed, and are made from recycled BLUFIBRE yarn derived from tyre waste. Full length. Sold by Wolford's own shop on Amazon; stock by size can be thin, so check yours before ordering.",
+    description: "Wolford, the Austrian hosiery house founded in 1950, applies its knitting expertise to activewear with the Energy Leggings. They're circular-knit, which means very few seams to press into you on the carriage, with a matt finish that reads more polished than typical gym leggings. They dry quickly, are sustainably dyed, and are made from recycled BLUFIBRE yarn derived from tire waste. Full length. Sold by Wolford's own shop on Amazon; stock by size can be thin, so check yours before ordering.",
     affiliateUrl: "https://www.amazon.com/dp/B0G43JFT1F?tag=pilatescollective-20",
     tag: "Pinnacle Luxury",
   },
@@ -91,7 +91,7 @@ const PRODUCTS = [
     name: "Beyond Yoga Spacedye Caught in the Midi High Waisted Legging",
     price: "$99",
     verdict: "Softest Fabric",
-    description: "Beyond Yoga's Spacedye is the legging people describe as the softest they own. The heathered, space-dyed fabric (87% polyester, 13% elastane) prioritises comfort over compression, and the 5-inch high waistband gives gentle smoothing without pressure points, which makes it ideal for longer, slower mat sessions and holds. It comes in a wide, inclusive size range and dozens of colours. Sold by Zappos on Amazon.",
+    description: "Beyond Yoga's Spacedye is the legging people describe as the softest they own. The heathered, space-dyed fabric (87% polyester, 13% elastane) prioritizes comfort over compression, and the 5-inch high waistband gives gentle smoothing without pressure points, which makes it ideal for longer, slower mat sessions and holds. It comes in a wide, inclusive size range and dozens of colors. Sold by Zappos on Amazon.",
     affiliateUrl: "https://www.amazon.com/dp/B07663TDHG?tag=pilatescollective-20",
     tag: "Premium Fabric",
   },
@@ -163,7 +163,7 @@ export default function BestLuxuryPilatesLeggingsPage() {
               There is a meaningful tier above the mainstream Pilates legging market: one occupied by brands with decades of fabric craftsmanship, precision manufacturing, and the trust of professional dancers and athletes. These are not aspirational purchases. They are investments in the quality of your daily practice.
             </p>
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              We reviewed six leggings in the £95–£180 range, assessing fabric feel, opacity, waistband construction, movement freedom, and how they hold up across six months of intensive studio use. These are the ones that earned their price.
+              We compared six leggings in the $98–$144 range on fabric feel, opacity, waistband construction and movement freedom, using each brand's product details and listing. These are the ones that earned their price.
             </p>
           </div>
         </section>
@@ -220,7 +220,7 @@ export default function BestLuxuryPilatesLeggingsPage() {
           </div>
         </section>
 
-        <CTASection title="Find Your Studio" subtitle="Discover the world's finest Pilates and reformer studios." showSearch searchPlaceholder="Search by city or neighbourhood..." />
+        <CTASection title="Find Your Studio" subtitle="Discover the world's finest Pilates and reformer studios." showSearch searchPlaceholder="Search by city or neighborhood..." />
       </main>
       <Footer />
     </>

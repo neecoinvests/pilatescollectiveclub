@@ -56,7 +56,7 @@ const STUDIOS = [
     name: "Frame Pilates",
     neighborhood: "Hillsboro Pike / Green Hills",
     priceLevel: "$$",
-    review: "Frame Pilates on Hillsboro Pike specialises in classical reformer Pilates and offers one of the friendliest entry prices in town: an intro offer of three classes for $49.",
+    review: "Frame Pilates on Hillsboro Pike specializes in classical reformer Pilates and offers one of the friendliest entry prices in town: an intro offer of three classes for $49.",
     caveat: "a small studio, so book popular times ahead.",
     address: "4219 Hillsboro Pike, Suite 103, Nashville, TN 37215",
     bestFor: "Classical reformer with an affordable intro offer",
@@ -68,10 +68,10 @@ const STUDIOS = [
     name: "Somos Pilates",
     neighborhood: "The Nations · East Nashville",
     priceLevel: "$$",
-    review: "Somos Pilates has two studios, in The Nations and East Nashville, and anchors the classical-roots end of Nashville's Pilates scene, with explicit specialisations in orthopaedic, autoimmune and prenatal clients.",
+    review: "Somos Pilates has two studios, in The Nations and East Nashville, and anchors the classical-roots end of Nashville's Pilates scene, with explicit specializations in orthopedic, autoimmune and prenatal clients.",
     caveat: "a method-led approach: slower and more precise than a sculpt class. The East Nashville studio is at 747 Douglas Ave.",
     address: "4900 Centennial Blvd, Nashville, TN (The Nations)",
-    bestFor: "Classical Pilates for orthopaedic, autoimmune and prenatal clients",
+    bestFor: "Classical Pilates for orthopedic, autoimmune and prenatal clients",
     signatureClass: "Classical Reformer",
     bookingTip: "Tell the studio about any condition when booking so they can place you correctly.",
   },
@@ -92,8 +92,8 @@ const STUDIOS = [
     name: "Club Pilates North Gulch",
     neighborhood: "North Gulch",
     priceLevel: "$$",
-    review: "Club Pilates North Gulch on 11th Avenue North is the brand's most central Nashville studio, convenient for the Gulch, Midtown and downtown, with levelled group reformer classes.",
-    caveat: "a franchise format: consistent, but less personalised than an independent studio.",
+    review: "Club Pilates North Gulch on 11th Avenue North is the brand's most central Nashville studio, convenient for the Gulch, Midtown and downtown, with leveled group reformer classes.",
+    caveat: "a franchise format: consistent, but less personalized than an independent studio.",
     address: "402 11th Ave N, Nashville, TN 37203",
     bestFor: "Central reformer classes near the Gulch",
     signatureClass: "Reformer Flow",
@@ -104,7 +104,7 @@ const STUDIOS = [
     name: "Club Pilates Belle Meade",
     neighborhood: "Belle Meade",
     priceLevel: "$$",
-    review: "Club Pilates Belle Meade on Harding Pike serves west Nashville (Belle Meade, West Meade and Sylvan Park) with the brand's levelled group reformer programme.",
+    review: "Club Pilates Belle Meade on Harding Pike serves west Nashville (Belle Meade, West Meade and Sylvan Park) with the brand's leveled group reformer program.",
     caveat: "a franchise studio: reliable structure, less individual programming.",
     address: "4326 Harding Pike, Ste 105, Nashville, TN 37205",
     bestFor: "West Nashville residents wanting structured reformer classes",
@@ -115,16 +115,16 @@ const STUDIOS = [
 
 const BOOKING_TIPS = [
   { heading: "Expect to pay $25–50 per class", body: "Nashville's Pilates market is slightly more accessible than major coastal cities. Drop-in rates run from around $25 at community studios to $50 at premium boutiques. Monthly memberships bring the per-class cost to $18–28 for regular practitioners, making Nashville one of the more financially accessible US cities for building a serious practice." },
-  { heading: "Nashville's growth is reshaping the studio landscape", body: "Nashville's rapid population growth has brought a large wave of coastal transplants who expect the Pilates quality they found in New York, LA, or Chicago. This has raised standards city-wide and produced new studio openings in previously underserved neighbourhoods: the landscape in 2026 is meaningfully stronger than it was three years ago." },
+  { heading: "Nashville's growth is reshaping the studio landscape", body: "Nashville's rapid population growth has brought a large wave of coastal transplants who expect the Pilates quality they found in New York, LA, or Chicago. This has raised standards city-wide and produced new studio openings in previously underserved neighborhoods: the landscape in 2026 is meaningfully stronger than it was three years ago." },
   { heading: "The music industry connection matters", body: "Nashville's performing arts population (singers, musicians, dancers, stage performers) creates unusually strong demand for movement practices that serve the performing body. Studios with performance-aware programming, particularly in Green Hills and East Nashville, tend to have instructors with the background to serve this community particularly well." },
-  { heading: "Traffic on I-65 and I-24 is significant", body: "Nashville's infrastructure has not kept pace with its population growth. The major interstates are congested during morning and evening commute windows. Choosing a studio on your commute route or within your neighbourhood is a practical consideration that significantly affects long-term attendance." },
+  { heading: "Traffic on I-65 and I-24 is significant", body: "Nashville's infrastructure has not kept pace with its population growth. The major interstates are congested during morning and evening commute windows. Choosing a studio on your commute route or within your neighborhood is a practical consideration that significantly affects long-term attendance." },
   { heading: "Grip socks are required everywhere", body: "Universal across Nashville's reformer studios. Buying quality grip socks in advance from Amazon is a simple and consistent saving over front-desk pricing at every studio in the city." },
 ];
 
 const NEIGHBORHOODS = [
-  { name: "Green Hills & Belle Meade", description: "Nashville's most established wellness neighbourhood houses the city's premier classical Pilates practices. Studios here serve a discerning, health-invested clientele with correspondingly high instruction standards. The natural starting point for practitioners who prioritise method depth." },
-  { name: "12 South & The Gulch", description: "Two of Nashville's most commercially vibrant neighbourhoods support strong contemporary studio offerings. Studios here are design-forward and socially engaging, attracting the young professional and creative populations that have made these areas Nashville's most photographed districts." },
-  { name: "East Nashville", description: "Nashville's arts-forward east side has developed an independent studio culture that reflects the neighbourhood's creative identity: more experimental in programming, more accessible in pricing, and inhabited by practitioners who value community as much as conditioning." },
+  { name: "Green Hills & Belle Meade", description: "Nashville's most established wellness neighborhood houses the city's premier classical Pilates practices. Studios here serve a discerning, health-invested clientele with correspondingly high instruction standards. The natural starting point for practitioners who prioritize method depth." },
+  { name: "12 South & The Gulch", description: "Two of Nashville's most commercially vibrant neighborhoods support strong contemporary studio offerings. Studios here are design-forward and socially engaging, attracting the young professional and creative populations that have made these areas Nashville's most photographed districts." },
+  { name: "East Nashville", description: "Nashville's arts-forward east side has developed an independent studio culture that reflects the neighborhood's creative identity: more experimental in programming, more accessible in pricing, and inhabited by practitioners who value community as much as conditioning." },
   { name: "Hillsboro Village & Midtown", description: "The Vanderbilt University corridor and surrounding Midtown area support a range of studios serving the academic and young professional population with solid instruction at more accessible price points than the Green Hills premium market." },
 ];
 
@@ -158,7 +158,7 @@ const GEAR = [
 const HOME_REFORMERS = [
   { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work: three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
   { tag: "Mid-Range Pick", name: "AeroPilates Pro XP 557", note: "AeroPilates' top-of-the-range home reformer, a step up for practitioners training several times a week.", price: "$1,329.99", url: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20" },
-  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
+  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodized aluminum frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
 ];
 
 const RELATED_CITIES = [
@@ -175,7 +175,7 @@ const FURTHER_READING = [
 
 const CITY_FAQS = [
   { q: "What are the best Pilates studios in Nashville?", a: "Our 6 curated picks are SESSION Pilates: Green Hills (Green Hills), Frame Pilates (Hillsboro Pike / Green Hills), Somos Pilates (The Nations · East Nashville), Lagree Nashville (Green Hills), Club Pilates North Gulch (North Gulch) and Club Pilates Belle Meade (Belle Meade). Each listing above covers what the studio is best for, its signature class and a booking tip." },
-  { q: "Which Nashville neighbourhoods are best for Pilates?", a: "This guide covers Green Hills & Belle Meade, 12 South & The Gulch, East Nashville and Hillsboro Village & Midtown. Green Hills & Belle Meade: Nashville's most established wellness neighbourhood houses the city's premier classical Pilates practices." },
+  { q: "Which Nashville neighborhoods are best for Pilates?", a: "This guide covers Green Hills & Belle Meade, 12 South & The Gulch, East Nashville and Hillsboro Village & Midtown. Green Hills & Belle Meade: Nashville's most established wellness neighborhood houses the city's premier classical Pilates practices." },
   { q: "What should I know about booking Pilates classes in Nashville?", a: "Expect to pay $25–50 per class. Nashville's Pilates market is slightly more accessible than major coastal cities." },
   { q: "What should I bring to a Pilates class in Nashville?", a: "Grip socks are required at most reformer studios. Our gear list for Nashville covers Pilates grip socks, Pilates mat, magic circle and resistance bands set." },
 ];
@@ -301,8 +301,8 @@ export default function NashvillePage() {
 
         <section className="py-20 px-6" style={{ backgroundColor: "#f6f3f2" }}>
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Best neighbourhoods for Pilates in Nashville</h2>
-            <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Nashville&apos;s studio scene follows the city&apos;s distinct neighbourhood identities. Here&apos;s where to look.</p>
+            <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Best neighborhoods for Pilates in Nashville</h2>
+            <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Nashville&apos;s studio scene follows the city&apos;s distinct neighborhood identities. Here&apos;s where to look.</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {NEIGHBORHOODS.map((n) => (
                 <div key={n.name} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)" }}>

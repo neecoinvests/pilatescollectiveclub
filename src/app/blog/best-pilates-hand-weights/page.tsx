@@ -78,7 +78,7 @@ const PRODUCTS = [
     price: "$14.99",
     verdict: "Best durable mini medicine ball for toss-and-catch work",
     description:
-      "A soft-shell, non-burst PVC mini medicine ball filled with sand, built to handle repeated tossing and catching as well as static holds: useful if your routine mixes toning-ball work with partner passes or rebound drills. It comes in colour-coded weights from 2lb up; the 2lb is often out of stock, so we link the 3lb, which suits most Pilates arm work. Stock can be limited.",
+      "A soft-shell, non-burst PVC mini medicine ball filled with sand, built to handle repeated tossing and catching as well as static holds: useful if your routine mixes toning-ball work with partner passes or rebound drills. It comes in color-coded weights from 2lb up; the 2lb is often out of stock, so we link the 3lb, which suits most Pilates arm work. Stock can be limited.",
     affiliateUrl: "https://www.amazon.com/dp/B0921HPRJB?tag=pilatescollective-20",
     tag: "Best For Toss & Catch",
   },
@@ -215,7 +215,7 @@ export default function BestPilatesHandWeightsPage() {
               <ul className="space-y-3">
                 {[
                   "Your shoulders stay down. If the shoulders hike toward the ears partway through a set, the weight is likely too heavy: regardless of how light it feels in your hand at rest.",
-                  "The neck stays quiet. Neck tension during the arm series is a common signal that the load has exceeded what the shoulder stabilisers can control.",
+                  "The neck stays quiet. Neck tension during the arm series is a common signal that the load has exceeded what the shoulder stabilizers can control.",
                   "The last few repetitions look like the first few. Pilates loading is generally judged on whether movement quality holds, not on reaching failure.",
                   "You are not gripping hard. A tight grip means the forearm is compensating: the ProsourceFit balls are shaped to rest in an open palm, so if you find yourself clutching it, size down.",
                   "Range does not shrink. If the arm circles get smaller as the set goes on, drop from the 3lb to the 2lb, or the 5lb to the 3lb.",

@@ -104,7 +104,7 @@ const GUIDE: EquipmentGuideProps = {
   ],
   faqs: [
     { q: "What is the best golf advent calendar?", a: "The Gowinn Golf Advent Calendar 2026 ($49.99) is the most complete we found, with tees, ball markers, divot tools, a cap, a water bottle and towels. KreativeKraft is a cheaper, more novelty option at $18.99." },
-    { q: "Is there a cycling advent calendar with real tools?", a: "Yes. The metabo Bicycle Tool Advent Calendar 2026 ($72.31) includes a mini ratchet with 11 bits, a chain rivet, a spoke tensioner, tyre levers and valve tools, plus a saddle bag and torch." },
+    { q: "Is there a cycling advent calendar with real tools?", a: "Yes. The metabo Bicycle Tool Advent Calendar 2026 ($72.31) includes a mini ratchet with 11 bits, a chain rivet, a spoke tensioner, tire levers and valve tools, plus a saddle bag and torch." },
     { q: "Are there official NBA and NFL advent calendars?", a: "Yes. TeenyMates NBA and NFL advent calendars ($64.99 each) contain officially licensed mini figures with real team uniforms. Funko also makes a 14-day NBA Pocket POP! calendar." },
     { q: "What is in a pickleball advent calendar?", a: "The Sean's Choice calendar includes 4 pickleballs (2 outdoor, 2 indoor), a cooling towel, ball retriever, paddle eraser, grip tapes, a cap and socks, plus a few fun extras." },
     { q: "When should I order a sports advent calendar?", a: "By late November for a December 1 start. Black Friday is November 27 and Cyber Monday November 30, but popular calendars can sell out first." },

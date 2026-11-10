@@ -85,7 +85,7 @@ const jsonLd = {
         {
           "@type": "Question",
           "name": "Why is reformer Pilates so expensive?",
-          "acceptedAnswer": { "@type": "Answer", "text": "The machine cost is the primary factor. A single professional reformer costs $2,000-$5,000. Studios amortise this across class sizes limited to 8-12 practitioners (for safe instruction) rather than the 20-30 in a gym class. Smaller class sizes mean higher instructor ratios, higher rent per student, and ultimately, higher prices per session." }
+          "acceptedAnswer": { "@type": "Answer", "text": "The machine cost is the primary factor. A single professional reformer costs $2,000-$5,000. Studios amortize this across class sizes limited to 8-12 practitioners (for safe instruction) rather than the 20-30 in a gym class. Smaller class sizes mean higher instructor ratios, higher rent per student, and ultimately, higher prices per session." }
         },
         {
           "@type": "Question",
@@ -106,7 +106,7 @@ const PRODUCTS = [
   { name: "PAETA Wooden Foldable Reformer", description: "If the studio cost is your main concern, a home reformer pays for itself in 12-18 months of equivalent studio sessions. Entry-level machines from AeroPilates and Merrithew are the starting point.", price: "$699.98", affiliateUrl: "https://www.amazon.com/dp/B0D7M7JNFV?tag=pilatescollective-20" },
   { name: "Manduka PRO Pilates Mat", description: "If you are deciding between reformer and mat practice, a high-quality mat is the lower-cost starting point. Many practitioners begin with mat, add studio reformer work, and build from there.", price: "$144.00", affiliateUrl: "https://www.amazon.com/dp/B0066T7I54?tag=pilatescollective-20" },
   { name: "TheraBand Resistance Bands Set", description: "Resistance bands provide spring-like resistance for mat practice: useful for assessing whether resistance-based Pilates work suits you before committing to studio fees or a home reformer.", price: "$11.99", affiliateUrl: "https://www.amazon.com/dp/B01A58FHQ8?tag=pilatescollective-20" },
-  { name: "Balanced Body Magic Circle", description: "The most cost-effective way to add resistance to mat practice. Many intermediate practitioners use a mat, magic circle, and resistance bands for a complete home programme that complements studio reformer work.", price: "$35.00", affiliateUrl: "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20" },
+  { name: "Balanced Body Magic Circle", description: "The most cost-effective way to add resistance to mat practice. Many intermediate practitioners use a mat, magic circle, and resistance bands for a complete home program that complements studio reformer work.", price: "$35.00", affiliateUrl: "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20" },
   { name: "ToeSox Grip Socks", description: "The entry cost of reformer Pilates. Required by virtually every studio: a small investment that enables full participation in any reformer class regardless of studio.", price: "$16.00", affiliateUrl: "https://www.amazon.com/dp/B00A6YUEEW?tag=pilatescollective-20" },
 ];
 
@@ -149,7 +149,7 @@ export default function IsReformerPilatesWorthItPage() {
               <div className="space-y-4 mb-10">
                 {[
                   { heading: "Spring resistance", body: "The reformer's spring system provides consistent, calibrated resistance throughout the full range of movement. This is fundamentally different from bodyweight work: the spring loads muscles at angles and in positions that mat Pilates cannot access. The footwork series, the abdominal series with the carriage, and exercises like short spine massage are only possible on a reformer." },
-                  { heading: "Sliding carriage", body: "The moving carriage introduces an unstable, dynamic element that challenges the stabiliser muscles differently from mat work. Exercises like elephant, down-stretch, and semi-circle require and develop a quality of core engagement that mat Pilates doesn't access in the same way." },
+                  { heading: "Sliding carriage", body: "The moving carriage introduces an unstable, dynamic element that challenges the stabilizer muscles differently from mat work. Exercises like elephant, down-stretch, and semi-circle require and develop a quality of core engagement that mat Pilates doesn't access in the same way." },
                   { heading: "Repertoire range", body: "The reformer supports over 250 exercises in the classical repertoire vs approximately 40 for the mat. Standing work, jump board cardio, sitting box work, and the full lying series are all reformer-specific. This variety is both practically useful and motivationally valuable for long-term practitioners." },
                   { heading: "Injury rehabilitation", body: "The spring assistance is genuinely unique: it allows movement through ranges that might be inaccessible on a mat, making it the tool of choice for physiotherapists and rehabilitation specialists worldwide. For post-surgical recovery, the reformer offers advantages mat Pilates simply can't replicate." },
                 ].map((item) => (
@@ -187,7 +187,7 @@ export default function IsReformerPilatesWorthItPage() {
                 ))}
               </div>
 
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Who should prioritise reformer Pilates</h2>
+              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Who should prioritize reformer Pilates</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
                 {[
                   { heading: "Strongly yes", items: ["Injury rehabilitation (post-surgical, chronic pain)", "Athletes seeking injury prevention and cross-training", "Those who want the full repertoire and variety", "Serious practitioners committed to long-term practice"] },
@@ -221,7 +221,7 @@ export default function IsReformerPilatesWorthItPage() {
                 <div className="space-y-6">
                   {[
                     { q: "Is reformer Pilates more effective than mat?", a: "For body composition, injury rehabilitation, and movement variety, yes: the reformer's spring resistance and sliding carriage enable exercises and resistance profiles that mat work can't replicate. For flexibility and foundational strength, both achieve similar outcomes. The reformer is not superior for all goals, but for most practitioners, it meaningfully expands what's achievable." },
-                    { q: "Why is reformer Pilates so expensive?", a: "The machine cost is the primary factor. A single professional reformer costs $2,000-$5,000. Studios amortise this across class sizes limited to 8-12 practitioners (for safe instruction) rather than the 20-30 in a gym class. Smaller class sizes mean higher instructor ratios, higher rent per student, and ultimately, higher prices per session." },
+                    { q: "Why is reformer Pilates so expensive?", a: "The machine cost is the primary factor. A single professional reformer costs $2,000-$5,000. Studios amortize this across class sizes limited to 8-12 practitioners (for safe instruction) rather than the 20-30 in a gym class. Smaller class sizes mean higher instructor ratios, higher rent per student, and ultimately, higher prices per session." },
                     { q: "How many reformer Pilates sessions before you see results?", a: "Most practitioners notice improved posture, a stronger core, and better body awareness after 8-12 sessions. Visible body composition changes typically require 3-4 weeks of regular practice (2-3 sessions per week minimum). Joseph Pilates' 30-session rule holds broadly true." },
                     { q: "Is reformer Pilates worth buying a home reformer?", a: "If you currently attend 3+ studio sessions per week at $30-40 per class, a quality home reformer pays for itself in 18-24 months. The Balanced Body Allegro 2 at $3,500 vs $90-120/week on classes is financially straightforward for committed practitioners. The real barrier is space and the motivation to practice without an instructor." },
                   ].map((item) => (

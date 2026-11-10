@@ -55,8 +55,8 @@ const STUDIOS = [
     name: "Club Pilates Midtown Sacramento",
     neighborhood: "Midtown",
     priceLevel: "$$",
-    review: "Club Pilates Midtown on 21st Street is the brand's most central Sacramento studio, with levelled group reformer classes.",
-    caveat: "a franchise format: consistent, but less personalised than an independent studio.",
+    review: "Club Pilates Midtown on 21st Street is the brand's most central Sacramento studio, with leveled group reformer classes.",
+    caveat: "a franchise format: consistent, but less personalized than an independent studio.",
     address: "1330 21st St, Ste 101, Sacramento, CA 95811",
     bestFor: "Midtown residents wanting structured reformer classes",
     signatureClass: "Reformer Flow",
@@ -72,7 +72,7 @@ const STUDIOS = [
     address: "2012 P St, Sacramento, CA 95811",
     bestFor: "Hot Pilates in Midtown",
     signatureClass: "Hot Pilates",
-    bookingTip: "Arrive early to acclimatise to the heat.",
+    bookingTip: "Arrive early to acclimatize to the heat.",
   },
   {
     number: "3",
@@ -206,7 +206,7 @@ const GEAR = [
 const HOME_REFORMERS = [
   { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work: three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
   { tag: "Mid-Range Pick", name: "AeroPilates Pro XP 557", note: "AeroPilates' top-of-the-range home reformer, a step up for practitioners training several times a week.", price: "$1,329.99", url: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20" },
-  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
+  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodized aluminum frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
 ];
 
 const RELATED_CITIES = [
@@ -243,7 +243,7 @@ const FURTHER_READING = [
 
 const CITY_FAQS = [
   { q: "What are the best Pilates studios in Sacramento?", a: "Our 6 curated picks are Club Pilates Midtown Sacramento (Midtown), P2O Hot Pilates & Fitness (Midtown / Downtown), DOMA Studio (Midtown), Paz Pilates Studio (East Sacramento, McKinley Blvd), Thrive Movement Arts (Arden-Arcade) and PILAX Pilates (Land Park / South Sacramento). Each listing above covers what the studio is best for, its signature class and a booking tip." },
-  { q: "Which Sacramento neighbourhoods are best for Pilates?", a: "This guide covers Midtown & Downtown, Fair Oaks & Carmichael, Natomas & North Sacramento and Arden-Arcade & Land Park. Midtown & Downtown: Sacramento's most walkable and culturally vibrant neighborhoods anchor the city's independent studio scene." },
+  { q: "Which Sacramento neighborhoods are best for Pilates?", a: "This guide covers Midtown & Downtown, Fair Oaks & Carmichael, Natomas & North Sacramento and Arden-Arcade & Land Park. Midtown & Downtown: Sacramento's most walkable and culturally vibrant neighborhoods anchor the city's independent studio scene." },
   { q: "What should I know about booking Pilates classes in Sacramento?", a: "Sacramento's government calendar shapes studio demand. As the state capital, Sacramento's professional population follows California's legislative calendar." },
   { q: "What should I bring to a Pilates class in Sacramento?", a: "Grip socks are required at most reformer studios. Our gear list for Sacramento covers Pilates grip socks, Pilates mat (6mm), magic circle, fabric resistance bands and high-density foam roller." },
 ];

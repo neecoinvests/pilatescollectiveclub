@@ -65,8 +65,8 @@ const GUIDE: EquipmentGuideProps = {
       rows: [
         ["Align C8-PRO", "Not stated on listing", "Same springs as Align pro machines; Rapid Change Spring Bar", "239.5 × 66 × 26 cm (about 94\" × 26\" × 10\")", "Stackable", "$2,750"],
         ["BB Metro IQ", "Telescoping frame", "5 Signature Springs", "98\" in use, 62\" stored; 85 lb", "Telescopes", "$2,330"],
-        ["BB Rialto (with box)", "Solid maple on aluminium legs", "5 Signature Springs", "96\" × 26.5\" × 14\"; 140 lb", "Stays put", "$3,495"],
-        ["BB Allegro Stretch", "Anodized aluminium", "5 Signature Springs", "111\" × 24.5\" × 14\"", "Transport wheels", "$3,710"],
+        ["BB Rialto (with box)", "Solid maple on aluminum legs", "5 Signature Springs", "96\" × 26.5\" × 14\"; 140 lb", "Stays put", "$3,495"],
+        ["BB Allegro Stretch", "Anodized aluminum", "5 Signature Springs", "111\" × 24.5\" × 14\"", "Transport wheels", "$3,710"],
         ["BB Studio Reformer (Revo)", "Strata Rock Maple", "5 Signature Springs, up to 46 settings", "92.6\" × 26.5\" × 15\"", "Stays put", "$4,700"],
       ],
       note: "The C8-PRO's optional leg extensions raise the bed from 26 cm to 44 cm (about 10\" to 17\"), per the listing.",
@@ -116,7 +116,7 @@ const GUIDE: EquipmentGuideProps = {
         }),
         item("rialtoBox", {
           badge: "Best Wood-Frame Value",
-          pros: ["Solid maple frame on aluminium legs", "Sitting Box Lite included", "Can take a tower later with the retrofit kit"],
+          pros: ["Solid maple frame on aluminum legs", "Sitting Box Lite included", "Can take a tower later with the retrofit kit"],
           cons: ["Made to order", "Does not fold or stack"],
         }),
         item("studioRevo", {
@@ -151,12 +151,12 @@ const GUIDE: EquipmentGuideProps = {
       paragraphs: [
         "If you want one excellent reformer for your home and do not plan to build on it, buy the Align C8-PRO. At $2,750 it is the best value of the machines here, it is in stock, and it stacks away.",
         "If space is the problem, the Balanced Body Metro IQ is cheaper still and stores at 62 inches. If you are tall, the Allegro Stretch was built for you.",
-        "If you are building a studio, or a home setup you expect to grow with a tower, box and jumpboard, choose Balanced Body. The Rialto is the value route into that system; the Studio Reformer is the machine many studios standardise on.",
+        "If you are building a studio, or a home setup you expect to grow with a tower, box and jumpboard, choose Balanced Body. The Rialto is the value route into that system; the Studio Reformer is the machine many studios standardize on.",
       ],
     },
   ],
   faqs: [
-    { q: "Is Align Pilates as good as Balanced Body?", a: "For a single home machine, the Align C8-PRO competes well: it uses the same springs as Align's professional reformers, has an 8-wheel PU carriage and stacks for storage. Balanced Body's advantage is range: more machines, more accessories sold on Amazon, and machines like the Studio Reformer that many studios standardise on." },
+    { q: "Is Align Pilates as good as Balanced Body?", a: "For a single home machine, the Align C8-PRO competes well: it uses the same springs as Align's professional reformers, has an 8-wheel PU carriage and stacks for storage. Balanced Body's advantage is range: more machines, more accessories sold on Amazon, and machines like the Studio Reformer that many studios standardize on." },
     { q: "How much cheaper is Align Pilates than Balanced Body?", a: "On Amazon on " + PRICES_CHECKED + ", the Align C8-PRO was $2,750. Balanced Body's Metro IQ was $2,330, the Rialto $3,495, the Allegro Stretch $3,710 and the Studio Reformer $4,700. So Align undercuts Balanced Body's full-size machines, but the compact Metro IQ is cheaper." },
     { q: "Which is better for a home studio?", a: "For one machine you will keep, the Align C8-PRO is the better value. For a home studio you plan to expand with a tower, box and jumpboard, Balanced Body is the safer choice because its accessories are easier to buy." },
     { q: "Is the Align C8-PRO good for tall people?", a: "Align lists the C8-PRO for users from 145 to 193 cm (about 4'9\" to 6'4\") and up to 150 kg. If you are near or above that height, look at the Balanced Body Allegro Stretch, whose carriage is 2 inches wider and 6 inches longer than the standard Allegro." },
@@ -166,7 +166,7 @@ const GUIDE: EquipmentGuideProps = {
   related: [
     { title: "Best Pilates Reformer Under $3,000", excerpt: "Seven studio-grade picks, including the C8-PRO and Metro IQ.", href: "/blog/best-pilates-reformer-under-3000", imageUrl: "/pictures/stitch-reformer-sunlit-minimal.png", category: "Equipment", readTime: "14 min read" },
     { title: "Best Pilates Reformer Under $5,000", excerpt: "Studio Reformer, Rialto, Allegro Stretch and SPX compared.", href: "/blog/best-pilates-reformer-under-5000", imageUrl: "/pictures/stitch-reformer-row-studio.png", category: "Equipment", readTime: "15 min read" },
-    { title: "Wood vs Aluminium Pilates Reformer", excerpt: "Which frame material suits your space.", href: "/blog/wood-vs-aluminium-pilates-reformer", imageUrl: "/pictures/stitch-white-reformer-plaster.png", category: "Equipment", readTime: "11 min read" },
+    { title: "Wood vs Aluminum Pilates Reformer", excerpt: "Which frame material suits your space.", href: "/blog/wood-vs-aluminium-pilates-reformer", imageUrl: "/pictures/stitch-white-reformer-plaster.png", category: "Equipment", readTime: "11 min read" },
     { title: "Balanced Body vs Merrithew", excerpt: "The two biggest reformer brands compared.", href: "/blog/balanced-body-vs-merrithew", imageUrl: "/pictures/stitch-reformers-aerial-row.png", category: "Comparison", readTime: "12 min read" },
   ],
 };

@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     description: "How elite sports professionals use Pilates to build functional strength and prevent injury.",
     images: ["https://pilatescollectiveclub.com/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg"],
   },
-  keywords: ["pilates for athletes", "pilates cross training", "pilates for runners", "pilates for cyclists", "pilates injury prevention", "pilates sports performance", "pilates for swimmers", "pilates athlete training", "sports pilates programme", "pilates for athletes 2026"],
+  keywords: ["pilates for athletes", "pilates cross training", "pilates for runners", "pilates for cyclists", "pilates injury prevention", "pilates sports performance", "pilates for swimmers", "pilates athlete training", "sports pilates program", "pilates for athletes 2026"],
   alternates: {
     canonical: "https://pilatescollectiveclub.com/blog/pilates-for-athletes",
   },
@@ -94,7 +94,7 @@ const jsonLd = {
     {
       "@type": "Question",
       "name": "Can Pilates replace strength training for athletes?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Pilates does not replace heavy resistance training for athletes needing maximum force production. It excels at stability, proprioception, and corrective work. The most effective programmes combine both: Pilates for control and injury prevention, resistance training for power." }
+      "acceptedAnswer": { "@type": "Answer", "text": "Pilates does not replace heavy resistance training for athletes needing maximum force production. It excels at stability, proprioception, and corrective work. The most effective programs combine both: Pilates for control and injury prevention, resistance training for power." }
     },
     {
       "@type": "Question",
@@ -110,7 +110,7 @@ const PRODUCTS = [
   { name: "TheraBand Resistance Bands Set", description: "Sport-specific strength work between Pilates sessions. Resistance bands allow targeted hip, shoulder, and rotator cuff work that translates directly to athletic performance.", price: "$11.99", affiliateUrl: "https://www.amazon.com/dp/B01A58FHQ8?tag=pilatescollective-20" },
   { name: "Manduka PRO Pilates Mat", description: "A high-density mat built for athletes who practice with intensity. The PRO handles repeated high-load exercises and provides consistent surface quality across years of use.", price: "$144.00", affiliateUrl: "https://www.amazon.com/dp/B0066T7I54?tag=pilatescollective-20" },
   { name: "Balanced Body Magic Circle", description: "The magic circle adds loading to hip adductor and glute work: muscle groups that directly support athletic power and reduce injury risk in lateral movement sports.", price: "$35.00", affiliateUrl: "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20" },
-  { name: "Balanced Body Pilates Arc", description: "The arc barrel supports spinal extension and hip flexor lengthening: the mobility work most athletes need but most training programmes neglect.", price: "$189.99", affiliateUrl: "https://www.amazon.com/dp/B002XVSNRG?tag=pilatescollective-20" },
+  { name: "Balanced Body Pilates Arc", description: "The arc barrel supports spinal extension and hip flexor lengthening: the mobility work most athletes need but most training programs neglect.", price: "$189.99", affiliateUrl: "https://www.amazon.com/dp/B002XVSNRG?tag=pilatescollective-20" },
 ];
 
 const QP_NOTES = ["Recovery and release tool for athletes", "Sport-specific hip, shoulder and cuff work", "A high-density mat for intense practice", "Adds load to adductor and glute work", "Spinal extension and hip flexor lengthening"];
@@ -148,15 +148,15 @@ export default function PilatesForAthletesPage() {
 
             <section className="pb-20">
               <Section title="Why elite athletes turn to Pilates">
-                <p>At the highest levels of sport, marginal gains determine outcomes. Athletes and their support teams are always looking for training interventions that improve performance, reduce injury risk, or extend careers. Pilates has become part of many elite programmes for a specific reason: it addresses the foundational movement quality that conventional sports training often neglects.</p>
-                <p>Most athletic training is sport-specific and often dominated by primary movers: the large muscle groups most involved in the sport&apos;s demands. This develops impressive power and skill, but frequently at the expense of the stabilising muscles and movement control that protect joints and allow forces to be transmitted efficiently through the body. Pilates targets exactly this.</p>
+                <p>At the highest levels of sport, marginal gains determine outcomes. Athletes and their support teams are always looking for training interventions that improve performance, reduce injury risk, or extend careers. Pilates has become part of many elite programs for a specific reason: it addresses the foundational movement quality that conventional sports training often neglects.</p>
+                <p>Most athletic training is sport-specific and often dominated by primary movers: the large muscle groups most involved in the sport&apos;s demands. This develops impressive power and skill, but frequently at the expense of the stabilizing muscles and movement control that protect joints and allow forces to be transmitted efficiently through the body. Pilates targets exactly this.</p>
                 <p>The result, for most athletes who integrate Pilates seriously, is not a dramatic change in strength metrics: it&apos;s a qualitative improvement in how the body moves and absorbs force, which over time translates to fewer injuries, faster recovery, and often measurable performance improvement in sport-specific skills.</p>
               </Section>
 
-              <Callout>Pilates doesn&apos;t make you stronger in the way a weight room does. It makes your existing strength more available: more efficiently delivered through a better-organised body.</Callout>
+              <Callout>Pilates doesn&apos;t make you stronger in the way a weight room does. It makes your existing strength more available: more efficiently delivered through a better-organized body.</Callout>
 
               <Section title="What Pilates specifically develops for athletes">
-                <p><strong style={{ color: "#1b1c1c" }}>Deep core stability.</strong> The transversus abdominis, multifidus, pelvic floor, and diaphragm form a cylinder of support around the spine. Athletic training rarely specifically targets these muscles, which are too deep and too stabilising in function to be effectively worked through conventional exercises. Pilates is explicitly designed to develop this deep system, and the difference it makes to spinal stability, power transfer, and injury resilience is significant.</p>
+                <p><strong style={{ color: "#1b1c1c" }}>Deep core stability.</strong> The transversus abdominis, multifidus, pelvic floor, and diaphragm form a cylinder of support around the spine. Athletic training rarely specifically targets these muscles, which are too deep and too stabilizing in function to be effectively worked through conventional exercises. Pilates is explicitly designed to develop this deep system, and the difference it makes to spinal stability, power transfer, and injury resilience is significant.</p>
                 <p><strong style={{ color: "#1b1c1c" }}>Spinal mobility and articulation.</strong> Pilates requires the spine to move in all directions (flexion, extension, lateral flexion, rotation) with control. For athletes whose sports involve repetitive, unidirectional movement (cyclists, swimmers, rowers), the spinal mobility and symmetry that Pilates develops is particularly valuable.</p>
                 <p><strong style={{ color: "#1b1c1c" }}>Hip function and gluteal activation.</strong> Weak or poorly coordinated gluteal muscles are implicated in a huge range of sports injuries, from knee problems to lower back pain to hamstring strains. Pilates is exceptionally effective at developing gluteal strength and the neuromuscular coordination needed to activate these muscles at the right moment during athletic movement.</p>
                 <p><strong style={{ color: "#1b1c1c" }}>Body awareness and proprioception.</strong> Pilates demands continuous attention to body position, movement quality, and the relationship between body parts. This cultivated proprioception, the body&apos;s sense of itself in space, transfers directly to athletic performance, particularly in sports requiring balance, coordination, and reactive movement.</p>
@@ -168,7 +168,7 @@ export default function PilatesForAthletesPage() {
                   <SportCard
                     sport="Cycling"
                     benefit="Spinal endurance and hip symmetry"
-                    detail="The sustained forward lean of road cycling shortens hip flexors and loads the lower back asymmetrically over thousands of kilometres. Pilates counteracts these adaptations, maintaining spinal health and hip mobility across a long season."
+                    detail="The sustained forward lean of road cycling shortens hip flexors and loads the lower back asymmetrically over thousands of kilometers. Pilates counteracts these adaptations, maintaining spinal health and hip mobility across a long season."
                   />
                   <SportCard
                     sport="Swimming"
@@ -178,7 +178,7 @@ export default function PilatesForAthletesPage() {
                   <SportCard
                     sport="Tennis & Racket Sports"
                     benefit="Rotational power and injury prevention"
-                    detail="Tennis is a sport of powerful rotation repeated thousands of times per season. Pilates develops the deep rotators and spinal stabilisers that make this rotation more powerful and far less likely to produce injury."
+                    detail="Tennis is a sport of powerful rotation repeated thousands of times per season. Pilates develops the deep rotators and spinal stabilizers that make this rotation more powerful and far less likely to produce injury."
                   />
                   <SportCard
                     sport="Football & Field Sports"
@@ -200,11 +200,11 @@ export default function PilatesForAthletesPage() {
 
               <Callout>The athletes who benefit most from Pilates are not those who add it as a supplement: it&apos;s those who integrate it as a foundational part of how they train.</Callout>
 
-              <Section title="How to integrate Pilates into an athletic training programme">
-                <p><strong style={{ color: "#1b1c1c" }}>Start with private sessions.</strong> Athletes bringing specific movement patterns, training loads, and performance goals need individualised attention that group classes cannot provide. A good Pilates instructor will assess your movement, identify sport-specific imbalances, and design a programme that addresses them. This investment at the start pays dividends throughout.</p>
+              <Section title="How to integrate Pilates into an athletic training program">
+                <p><strong style={{ color: "#1b1c1c" }}>Start with private sessions.</strong> Athletes bringing specific movement patterns, training loads, and performance goals need individualized attention that group classes cannot provide. A good Pilates instructor will assess your movement, identify sport-specific imbalances, and design a program that addresses them. This investment at the start pays dividends throughout.</p>
                 <p><strong style={{ color: "#1b1c1c" }}>Treat it as training, not recovery.</strong> Pilates is sometimes positioned as a recovery or cross-training modality: something to do on rest days. It is more productive when treated as a performance intervention that receives the same attention and consistency as primary training. Two sessions per week, done seriously and consistently, will produce measurable results over 8–12 weeks.</p>
-                <p><strong style={{ color: "#1b1c1c" }}>Communicate with your teacher.</strong> The best Pilates instructors who work with athletes want to understand your training load, your sport&apos;s physical demands, and any injuries or areas of concern. This dialogue shapes the programme and prevents the Pilates work from conflicting with peak training periods.</p>
-                <p><strong style={{ color: "#1b1c1c" }}>Look for sport-specific experience.</strong> Not all Pilates instructors have experience working with athletes. Look for teachers with backgrounds in rehabilitation, sports physiotherapy, or explicit experience training competitive athletes. They will understand load management, periodisation, and the specific demands of athletic training in a way that general instructors may not.</p>
+                <p><strong style={{ color: "#1b1c1c" }}>Communicate with your teacher.</strong> The best Pilates instructors who work with athletes want to understand your training load, your sport&apos;s physical demands, and any injuries or areas of concern. This dialogue shapes the program and prevents the Pilates work from conflicting with peak training periods.</p>
+                <p><strong style={{ color: "#1b1c1c" }}>Look for sport-specific experience.</strong> Not all Pilates instructors have experience working with athletes. Look for teachers with backgrounds in rehabilitation, sports physiotherapy, or explicit experience training competitive athletes. They will understand load management, periodization, and the specific demands of athletic training in a way that general instructors may not.</p>
               </Section>
 
               <Section title="The recreational athlete">

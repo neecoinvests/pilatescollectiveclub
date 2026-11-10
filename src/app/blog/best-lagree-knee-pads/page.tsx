@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: TITLE,
-    description: "Loose pads slide on a travelling carriage. Five verified knee pad picks for Lagree, wearable sleeves first, cushions for floor work at home.",
+    description: "Loose pads slide on a traveling carriage. Five verified knee pad picks for Lagree, wearable sleeves first, cushions for floor work at home.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/best-lagree-knee-pads",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/stitch-hands-on-carriage.png", width: 1200, height: 630, alt: "Best Knee Pads for Lagree: Pilates Collective Club" }],

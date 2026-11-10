@@ -55,7 +55,7 @@ const STUDIOS = [
     name: "12th Street Pilates",
     neighborhood: "Over-the-Rhine (OTR)",
     priceLevel: "$$$",
-    review: "12th Street Pilates opened in Over-the-Rhine in 2012 and has since grown to studios in Covington and Madisonville. Small-group classes are taught by BASI-trained instructors, Body Arts and Science International is an internationally recognised Pilates education programme, which gives the studio a methodologically grounded, progressive approach.",
+    review: "12th Street Pilates opened in Over-the-Rhine in 2012 and has since grown to studios in Covington and Madisonville. Small-group classes are taught by BASI-trained instructors, Body Arts and Science International is an internationally recognized Pilates education program, which gives the studio a methodologically grounded, progressive approach.",
     caveat: "the OTR studio is the most popular, so prime-time classes can be hard to get at short notice.",
     address: "109 E 12th St, Cincinnati, OH 45202",
     bestFor: "BASI-trained small-group reformer classes",
@@ -67,10 +67,10 @@ const STUDIOS = [
     name: "Club Pilates Hyde Park",
     neighborhood: "Hyde Park",
     priceLevel: "$$$",
-    review: "Club Pilates Hyde Park on Madison Road sits near the Rookwood shopping district, one of the most convenient locations in the city. It offers the full Club Pilates class menu (including Reformer Flow, Cardio Sculpt and Suspend) in a levelled system that makes progress easy to track.",
-    caveat: "a franchise format: consistent and well-organised, but less individual than an owner-run studio.",
+    review: "Club Pilates Hyde Park on Madison Road sits near the Rookwood shopping district, one of the most convenient locations in the city. It offers the full Club Pilates class menu (including Reformer Flow, Cardio Sculpt and Suspend) in a leveled system that makes progress easy to track.",
+    caveat: "a franchise format: consistent and well-organized, but less individual than an owner-run studio.",
     address: "2692 Madison Rd, Cincinnati, OH 45208",
-    bestFor: "Structured, levelled reformer classes in Hyde Park",
+    bestFor: "Structured, leveled reformer classes in Hyde Park",
     signatureClass: "Reformer Flow",
     bookingTip: "Ask about an intro class before buying: it helps the studio place you at the right level.",
   },
@@ -91,7 +91,7 @@ const STUDIOS = [
     name: "College Hill Pilates and Physical Therapy",
     neighborhood: "College Hill",
     priceLevel: "$$$",
-    review: "College Hill Pilates and Physical Therapy is a cash-based private physical therapy clinic and Pilates studio owned by Mindy Nagel, PT, DPT: a board-certified orthopaedic clinical specialist, certified Pilates instructor and adjunct instructor at the University of Cincinnati. It treats back, neck, shoulder, hip, knee and foot pain, dance and sports injuries, arthritis, EDS and hypermobility in a one-to-one setting, which makes it the clear choice in Cincinnati for therapeutic Pilates.",
+    review: "College Hill Pilates and Physical Therapy is a cash-based private physical therapy clinic and Pilates studio owned by Mindy Nagel, PT, DPT: a board-certified orthopedic clinical specialist, certified Pilates instructor and adjunct instructor at the University of Cincinnati. It treats back, neck, shoulder, hip, knee and foot pain, dance and sports injuries, arthritis, EDS and hypermobility in a one-to-one setting, which makes it the clear choice in Cincinnati for therapeutic Pilates.",
     caveat: "the physical therapy side is direct-pay and does not bill insurance, and opening hours are limited (Mon and Wed 9–6, Thu 10–2, Fri 11–2, plus appointments).",
     address: "5838 Hamilton Ave, Cincinnati, OH 45224",
     bestFor: "Therapeutic Pilates and PT for injuries, hypermobility and chronic pain",
@@ -115,8 +115,8 @@ const STUDIOS = [
     name: "Club Pilates Symmes Township",
     neighborhood: "Symmes Township / Northeast Cincinnati",
     priceLevel: "$$$",
-    review: "Club Pilates Symmes Township on Montgomery Road is convenient for Mason, Blue Ash and northeast Cincinnati residents who want levelled group reformer classes without driving into the city. Like all Club Pilates studios, it includes gentler formats such as Restore alongside more demanding classes.",
-    caveat: "a franchise format: consistent, but less personalised than an owner-run studio.",
+    review: "Club Pilates Symmes Township on Montgomery Road is convenient for Mason, Blue Ash and northeast Cincinnati residents who want leveled group reformer classes without driving into the city. Like all Club Pilates studios, it includes gentler formats such as Restore alongside more demanding classes.",
+    caveat: "a franchise format: consistent, but less personalized than an owner-run studio.",
     address: "12088 Montgomery Rd, Cincinnati, OH 45249",
     bestFor: "Northeast suburban residents, membership-based training",
     signatureClass: "Reformer Flow",
@@ -206,7 +206,7 @@ const GEAR = [
 const HOME_REFORMERS = [
   { tag: "Budget Pick", name: "Stamina AeroPilates 287", note: "An accessible entry point to home reformer work: three bungee-cord resistance, a padded footbar and an adjustable headrest.", price: "$349.99", url: "https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" },
   { tag: "Mid-Range Pick", name: "AeroPilates Pro XP 557", note: "AeroPilates' top-of-the-range home reformer, a step up for practitioners training several times a week.", price: "$1,329.99", url: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20" },
-  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodised aluminium frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
+  { tag: "Buy Once", name: "Balanced Body Allegro Stretch Reformer", note: "Studio-grade and made to order: an anodized aluminum frame, nonslip standing platform and 36-inch adjustable footbar, with a longer, wider carriage for taller users.", price: "$3,710", url: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
 ];
 
 const RELATED_CITIES = [
@@ -243,7 +243,7 @@ const FURTHER_READING = [
 
 const CITY_FAQS = [
   { q: "What are the best Pilates studios in Cincinnati?", a: "Our 6 curated picks are 12th Street Pilates (Over-the-Rhine, OTR), Club Pilates Hyde Park (Hyde Park), Prism Pilates (Oakley), College Hill Pilates and Physical Therapy (College Hill), Club Pilates Kenwood (Kenwood) and Club Pilates Symmes Township (Symmes Township / Northeast Cincinnati). Each listing above covers what the studio is best for, its signature class and a booking tip." },
-  { q: "Which Cincinnati neighbourhoods are best for Pilates?", a: "This guide covers Hyde Park & Oakley, Over-the-Rhine, Kenwood & Northeast Cincinnati and College Hill & Northwest. Hyde Park & Oakley: Cincinnati's most active east-side wellness corridor runs through Hyde Park and Oakley, neighborhoods with a health-invested professional population that supports both franchise studios and serious boutique independents." },
+  { q: "Which Cincinnati neighborhoods are best for Pilates?", a: "This guide covers Hyde Park & Oakley, Over-the-Rhine, Kenwood & Northeast Cincinnati and College Hill & Northwest. Hyde Park & Oakley: Cincinnati's most active east-side wellness corridor runs through Hyde Park and Oakley, neighborhoods with a health-invested professional population that supports both franchise studios and serious boutique independents." },
   { q: "What should I know about booking Pilates classes in Cincinnati?", a: "Cincinnati's hills shape neighborhood fitness geography. Cincinnati is a city of hills and valleys, travel between neighborhoods can take longer than distances suggest." },
   { q: "What should I bring to a Pilates class in Cincinnati?", a: "Grip socks are required at most reformer studios. Our gear list for Cincinnati covers Pilates grip socks, Pilates mat (6mm), magic circle, fabric resistance bands and high-density foam roller." },
 ];

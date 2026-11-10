@@ -186,7 +186,7 @@ export default function BeginnerGuideReformerPage() {
               <Section title="How do I choose a studio?">
                 <p>Not all reformer studios are equal, and the explosion of reformer-style classes in the last five years has produced a wide range of quality. When evaluating a studio, look for these indicators:</p>
                 <ul>
-                  <li><strong>Qualified instructors</strong>look for teachers who hold a recognised comprehensive Pilates certification (BASI, STOTT, Peak, or equivalent) rather than a weekend reformer course. The former requires 450–600+ hours of training; the latter sometimes as few as 16.</li>
+                  <li><strong>Qualified instructors</strong>look for teachers who hold a recognized comprehensive Pilates certification (BASI, STOTT, Peak, or equivalent) rather than a weekend reformer course. The former requires 450–600+ hours of training; the latter sometimes as few as 16.</li>
                   <li><strong>Small class sizes</strong>the best studios cap reformer classes at 8–10 clients. Anything above 12 compromises the ability to provide meaningful individual feedback.</li>
                   <li><strong>A level structure</strong>studios that distinguish between beginner, intermediate, and advanced classes tend to take the method seriously. Avoid studios that put all levels in the same class without an assessment process.</li>
                   <li><strong>Good equipment</strong>quality reformers (Balanced Body, Merrithew/STOTT, Gratz) matter. They hold their calibration, spring tension is consistent, and they&apos;re designed for the full range of exercises the method requires.</li>

@@ -130,7 +130,7 @@ const BRANDS = [
     price: "From about $4,600",
     bestFor: "Classical practitioners, method purists, serious collectors",
     flagship: "Universal Reformer",
-    summary: "Gratz is the original. The company built apparatus for Joseph Pilates himself in New York and still hand-builds its machines there to his designs. A Gratz reformer uses four equal-tension springs and a gear bar, with the firm, direct spring response and dimensions the classical repertoire was built around. The 86-inch aluminium Classic Reformer is $4,645 and the maple Designer Reformer starts at $4,590. If you practice classical Pilates (Romana's Pilates, New York Pilates, or the Contrology lineage), there is no substitute. The investment is significant, but Gratz reformers from the 1960s are still in active studio use.",
+    summary: "Gratz is the original. The company built apparatus for Joseph Pilates himself in New York and still hand-builds its machines there to his designs. A Gratz reformer uses four equal-tension springs and a gear bar, with the firm, direct spring response and dimensions the classical repertoire was built around. The 86-inch aluminum Classic Reformer is $4,645 and the maple Designer Reformer starts at $4,590. If you practice classical Pilates (Romana's Pilates, New York Pilates, or the Contrology lineage), there is no substitute. The investment is significant, but Gratz reformers from the 1960s are still in active studio use.",
     pros: ["Historically accurate spring tensions the entire classical repertoire is built on", "Lifetime durability: original 1960s machines still performing", "Every classical apparatus available from a single source", "The tactile feedback the method was designed around"],
     cons: ["Little adjustability compared with contemporary machines", "Not designed for contemporary method modifications", "Limited dealer network outside the US", "Made to order: lead times can run to several months"],
     affiliateUrl: null,
@@ -148,7 +148,7 @@ const BRANDS = [
     price: "$2,899–$8,200",
     bestFor: "STOTT-certified instructors, rehabilitation, contemporary studios",
     flagship: "V2 Max Plus Reformer",
-    summary: "Merrithew produces the reformer designed in parallel with the STOTT Pilates training system: the world's most widely adopted contemporary teacher certification. The machines are engineered explicitly for the biomechanical refinements STOTT added to the original method: neutral spine positioning, modified footbar angles, and spring configurations calibrated to the full STOTT curriculum. The V2 Max Plus is the clinical benchmark, used in rehabilitation centres, physiotherapy practices, and serious studios worldwide. If you trained STOTT, a Merrithew machine means your exercises, progressions, and cues translate directly from training to practice.",
+    summary: "Merrithew produces the reformer designed in parallel with the STOTT Pilates training system: the world's most widely adopted contemporary teacher certification. The machines are engineered explicitly for the biomechanical refinements STOTT added to the original method: neutral spine positioning, modified footbar angles, and spring configurations calibrated to the full STOTT curriculum. The V2 Max Plus is the clinical benchmark, used in rehabilitation centers, physiotherapy practices, and serious studios worldwide. If you trained STOTT, a Merrithew machine means your exercises, progressions, and cues translate directly from training to practice.",
     pros: ["Machine and curriculum designed together: exercises transfer directly", "Best rehabilitation positioning options of any brand", "At Home SPX package ($3,349) is sold and shipped by Amazon; studio SPX Max is $3,499", "Strong global dealer and certified service network"],
     cons: ["Spring feel is brand-specific: noticeable transition if switching from Balanced Body", "Tower accessories are not cross-compatible with other brands", "Less suited to classical method practitioners"],
     affiliateUrl: "https://www.amazon.com/dp/B004FGT0TM?tag=pilatescollective-20",
@@ -166,7 +166,7 @@ const BRANDS = [
     price: "About $4,000–$6,200",
     bestFor: "US studios, classical-leaning contemporary practitioners",
     flagship: "MVe® Reformer",
-    summary: "Peak Pilates is a Colorado-based professional equipment maker, less globally dominant than Balanced Body but well regarded in the American market. The MVe Reformer is the flagship: an aluminium frame with five springs (1 heavy, 2 medium, 2 light), retractable shoulder blocks and risers, gear-bar adjustment, and a frame that nests up to four high. It sells for $4,295 with the Long/Short Box, and a Tower bundle adds Cadillac-style work. For practitioners who want professional quality without committing to the Balanced Body ecosystem price, Peak is the most credible alternative.",
+    summary: "Peak Pilates is a Colorado-based professional equipment maker, less globally dominant than Balanced Body but well regarded in the American market. The MVe Reformer is the flagship: an aluminum frame with five springs (1 heavy, 2 medium, 2 light), retractable shoulder blocks and risers, gear-bar adjustment, and a frame that nests up to four high. It sells for $4,295 with the Long/Short Box, and a Tower bundle adds Cadillac-style work. For practitioners who want professional quality without committing to the Balanced Body ecosystem price, Peak is the most credible alternative.",
     pros: ["Retractable shoulder blocks and risers for quick set-up changes", "MVe reformers nest up to four high, ideal for small studios", "Strong resale value in the US market", "Competitively priced against Balanced Body for comparable quality"],
     cons: ["Limited international dealer network: harder to service outside North America", "Fewer budget entry-level models than Align or Merrithew", "Less prominent training methodology association"],
     affiliateUrl: null,
@@ -184,8 +184,8 @@ const BRANDS = [
     price: "$5,250–$11,750",
     bestFor: "BASI-trained practitioners, athletes, dancers, educators",
     flagship: "BASI Systems Reformer",
-    summary: "BASI Systems is the equipment brand built to match the BASI Pilates education programme: founded by Rael Isacowitz, one of the world's most respected Pilates educators. The reformer runs on aircraft-grade aluminium tracks and adjusts for a wide range of body sizes, and if you trained with a BASI teacher it reproduces the set-up you learned on. In the US it is sold only through Bodynetworx: the Compact Reformer starts at $5,250, the full Reformer at $6,850 and the Reformer Combo (with tower) lists at $11,750. A serious choice for serious practitioners.",
-    pros: ["Full-size and Compact frames to suit different rooms", "Built to support the full BASI curriculum from beginner to performance", "Smooth, quiet aluminium-track carriage", "Exceptional durability for intensive commercial use"],
+    summary: "BASI Systems is the equipment brand built to match the BASI Pilates education program: founded by Rael Isacowitz, one of the world's most respected Pilates educators. The reformer runs on aircraft-grade aluminum tracks and adjusts for a wide range of body sizes, and if you trained with a BASI teacher it reproduces the set-up you learned on. In the US it is sold only through Bodynetworx: the Compact Reformer starts at $5,250, the full Reformer at $6,850 and the Reformer Combo (with tower) lists at $11,750. A serious choice for serious practitioners.",
+    pros: ["Full-size and Compact frames to suit different rooms", "Built to support the full BASI curriculum from beginner to performance", "Smooth, quiet aluminum-track carriage", "Exceptional durability for intensive commercial use"],
     cons: ["Premium pricing: significantly above Merrithew and Balanced Body for comparable models", "Less widely available: boutique dealer network", "Over-engineered for general home use"],
     affiliateUrl: null,
     affiliateLabel: null,
@@ -202,7 +202,7 @@ const BRANDS = [
     price: "About $3,000–$6,500",
     bestFor: "Boutique studios, home serious users, quality-conscious buyers",
     flagship: "Elite Wood Reformer",
-    summary: "Elina Pilates occupies the premium end of the value tier: handcrafted wood and aluminium reformers that compete directly with Balanced Body and Merrithew on quality while often undercutting them on price. The Elite Wood (about $3,995) is the brand's signature: a rock maple frame, a six-spring system with a height-adjustable springbar, a 7-position quick-release footbar and eight polyurethane carriage wheels on precision bearings, in a stackable design. Elina also produces a full cadillac, chair, and barrel range, making it a viable single-source option for a boutique studio that wants handcrafted aesthetics at below-Balanced-Body prices.",
+    summary: "Elina Pilates occupies the premium end of the value tier: handcrafted wood and aluminum reformers that compete directly with Balanced Body and Merrithew on quality while often undercutting them on price. The Elite Wood (about $3,995) is the brand's signature: a rock maple frame, a six-spring system with a height-adjustable springbar, a 7-position quick-release footbar and eight polyurethane carriage wheels on precision bearings, in a stackable design. Elina also produces a full cadillac, chair, and barrel range, making it a viable single-source option for a boutique studio that wants handcrafted aesthetics at below-Balanced-Body prices.",
     pros: ["Handcrafted wood construction, aesthetically premium for boutique studios", "Quiet eight-wheel carriage and six-spring system", "Priced below Balanced Body and Merrithew for comparable quality", "Full apparatus range available (cadillac, chair, barrel)"],
     cons: ["Less established global reputation than the top three brands", "Servicing can be harder to arrange outside Europe and Australia", "Spring feel is less smooth than Balanced Body: an adjustment if switching"],
     affiliateUrl: null,
@@ -319,13 +319,13 @@ const PARTNER_ENTRY = (
         { label: "Best for", value: "Home practitioners and studio owners who want a customizable, studio-style machine" },
         { label: "Pricing", value: "From $2,399 (The Core Collab Eco Folding Reformer); The Core Collab Queen Studio Pilates Reformer is $2,999 and The Core Collab Sculptformer is $8,499." },
       ]}
-      description="Founded in Australia and now selling in the US through its own store, The Core Collab makes Pilates reformers for home and studio use. The range runs from The Core Collab Eco Folding Reformer and The Core Collab Queen Folding Reformer, built for homes where the machine has to be put away, to The Core Collab Queen Studio Pilates Reformer, The Core Collab Sculptformer, its Lagree-style machine, and full studio set-ups. Many models can be customized with your choice of frame finish and upholstery colour."
+      description="Founded in Australia and now selling in the US through its own store, The Core Collab makes Pilates reformers for home and studio use. The range runs from The Core Collab Eco Folding Reformer and The Core Collab Queen Folding Reformer, built for homes where the machine has to be put away, to The Core Collab Queen Studio Pilates Reformer, The Core Collab Sculptformer, its Lagree-style machine, and full studio set-ups. Many models can be customized with your choice of frame finish and upholstery color."
       pointsHeading="Key selling points"
       points={[
         "The Core Collab Eco Folding Reformer and The Core Collab Queen Folding Reformer for homes with limited space",
         "Six springs on The Core Collab Eco Folding Reformer, The Core Collab Queen Folding Reformer and The Core Collab Queen Studio Pilates Reformer (3 heavy, 2 medium and 1 light on The Core Collab Queen Studio Pilates Reformer), according to the brand",
         "10-year frame warranty and 2-year warranty on moving parts, according to the brand",
-        "Custom frame finish and upholstery colours, plus your studio logo for studio owners",
+        "Custom frame finish and upholstery colors, plus your studio logo for studio owners",
       ]}
       ctaLabel="Visit The Core Collab →"
       ctaHref="https://thecorecollabusa.com/?utm_source=pilatescollectiveclub&utm_medium=referral&utm_campaign=best-reformer-brands"

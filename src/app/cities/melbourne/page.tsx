@@ -114,7 +114,7 @@ const STUDIOS = [
 ];
 
 const BOOKING_TIPS = [
-  { heading: "Expect to pay AU$35–60 per class", body: "Melbourne reformer Pilates pricing is competitive by global standards. Independent studios typically charge AU$35–45 for group reformer classes; premium boutique venues and private sessions run AU$55–80. Ten-class packs reduce the per-session cost meaningfully: most studios offer them from AU$280–380." },
+  { heading: "Expect to pay about $24–41 per class", body: "Melbourne reformer Pilates pricing is competitive by global standards. Independent studios typically charge about $24–31 for group reformer classes; premium boutique venues and private sessions run about $38–55. Ten-class packs reduce the per-session cost meaningfully: most studios offer them from about $195–260." },
   { heading: "ClassPass has strong Melbourne coverage", body: "ClassPass is widely used across Melbourne's studio scene and is an excellent way to trial multiple venues before committing to a membership. Most of the studios in this guide have ClassPass listings, though premium slots at top venues require higher credit allocations." },
   { heading: "Book 3–5 days ahead for popular sessions", body: "Melbourne's inner-city studios are busy, particularly on weekday mornings and Saturday. The city's strong brunch and fitness culture means weekend sessions are almost always booked out by midweek. Popular instructors' sessions can fill within hours of opening: follow your studio's social channels for notifications." },
   { heading: "Grip socks are required everywhere", body: "All Melbourne reformer studios require grip socks. Bonds and target both sell suitable pairs affordably; boutique grip socks from Lorna Jane or Alo are widely worn and available at most studios at the front desk. Keep a pair in your gym bag." },
@@ -182,8 +182,8 @@ const FURTHER_READING = [
 
 const CITY_FAQS = [
   { q: "What are the best Pilates studios in Melbourne?", a: "Our 6 curated picks are KX Pilates (Melbourne CBD (CBD), Peaches Pilates) Fitzroy (Fitzroy · Windsor), Pilates Republic (Collingwood (Collingwood · Brunswick), 1R) South Yarra (South Yarra), Upstate Studios: Fitzroy (Fitzroy) and Project Mood (Southbank). Each listing above covers what the studio is best for, its signature class and a booking tip." },
-  { q: "Which Melbourne neighbourhoods are best for Pilates?", a: "This guide covers South Yarra & Prahran, Fitzroy & Collingwood, Armadale & Toorak and St Kilda & Albert Park. South Yarra & Prahran: Melbourne's most established wellness corridor runs along Chapel Street and its surrounding streets in South Yarra and Prahran." },
-  { q: "What should I know about booking Pilates classes in Melbourne?", a: "Expect to pay AU$35–60 per class. Melbourne reformer Pilates pricing is competitive by global standards." },
+  { q: "Which Melbourne neighborhoods are best for Pilates?", a: "This guide covers South Yarra & Prahran, Fitzroy & Collingwood, Armadale & Toorak and St Kilda & Albert Park. South Yarra & Prahran: Melbourne's most established wellness corridor runs along Chapel Street and its surrounding streets in South Yarra and Prahran." },
+  { q: "What should I know about booking Pilates classes in Melbourne?", a: "Expect to pay about $24–41 per class. Melbourne reformer Pilates pricing is competitive by global standards." },
   { q: "What should I bring to a Pilates class in Melbourne?", a: "Grip socks are required at most reformer studios. Our gear list for Melbourne covers Pilates grip socks, Pilates mat, magic circle, resistance bands, foam roller and home Pilates reformer." },
 ];
 
@@ -305,8 +305,8 @@ export default function MelbournePage() {
 
         <section className="py-20 px-6" style={{ backgroundColor: "#fcf9f8" }}>
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Best neighbourhoods for Pilates in Melbourne</h2>
-            <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Melbourne's Pilates landscape is shaped by its neighbourhoods.</p>
+            <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Best neighborhoods for Pilates in Melbourne</h2>
+            <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Melbourne's Pilates landscape is shaped by its neighborhoods.</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {NEIGHBORHOODS.map((n) => (
                 <div key={n.name} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217, 194, 186, 0.35)" }}>

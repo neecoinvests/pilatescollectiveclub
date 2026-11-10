@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   keywords: ["pilates for runners", "running pilates training", "pilates running injury prevention", "glute medius pilates runner", "pilates hip flexor runner", "pilates breathing running", "reformer pilates running", "pilates for marathon runners", "cross training pilates running", "pilates runner guide 2026"],
   openGraph: {
     title: "Pilates for Runners: The Specific Work That Actually Helps",
-    description: "How Pilates addresses the actual movement deficits that cause running injuries, and what to prioritise in your practice.",
+    description: "How Pilates addresses the actual movement deficits that cause running injuries, and what to prioritize in your practice.",
     type: "article",
     url: "https://pilatescollectiveclub.com/blog/pilates-for-runners",
     images: [{ url: "https://pilatescollectiveclub.com/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg", width: 1200, height: 630, alt: "Pilates for Runners: Pilates Collective Club" }],
@@ -60,8 +60,8 @@ const jsonLd = {
     "@type": "FAQPage",
     "mainEntity": [
       { "@type": "Question", "name": "How often should runners do Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "Once or twice per week is the most commonly recommended frequency for injury prevention: one reformer class and one mat session being the most effective combination. More than three sessions per week begins to compete with running recovery time. Consistency over months matters more than frequency in any given week." } },
-      { "@type": "Question", "name": "Will Pilates make me slower by adding muscle mass?", "acceptedAnswer": { "@type": "Answer", "text": "No. Pilates develops type I slow-twitch muscle fibres and neurological efficiency, neither of which adds significant mass. The strength gains are specific to stability and control patterns, not hypertrophy. Most runners who add Pilates report improved economy and pace at equivalent effort, not any weight or speed penalty." } },
-      { "@type": "Question", "name": "Should I do Pilates before or after my runs?", "acceptedAnswer": { "@type": "Answer", "text": "After easy runs or on dedicated rest days. Pilates sessions that include significant core work reduce the explosive reactivity of the core stabilisers temporarily: running immediately after a demanding Pilates session is not ideal. A short, gentle mat sequence (10 minutes) is appropriate as a post-run cooldown; a full 55-minute reformer session works best on a separate day." } },
+      { "@type": "Question", "name": "Will Pilates make me slower by adding muscle mass?", "acceptedAnswer": { "@type": "Answer", "text": "No. Pilates develops type I slow-twitch muscle fibers and neurological efficiency, neither of which adds significant mass. The strength gains are specific to stability and control patterns, not hypertrophy. Most runners who add Pilates report improved economy and pace at equivalent effort, not any weight or speed penalty." } },
+      { "@type": "Question", "name": "Should I do Pilates before or after my runs?", "acceptedAnswer": { "@type": "Answer", "text": "After easy runs or on dedicated rest days. Pilates sessions that include significant core work reduce the explosive reactivity of the core stabilizers temporarily: running immediately after a demanding Pilates session is not ideal. A short, gentle mat sequence (10 minutes) is appropriate as a post-run cooldown; a full 55-minute reformer session works best on a separate day." } },
       { "@type": "Question", "name": "Can Pilates help with runner's knee?", "acceptedAnswer": { "@type": "Answer", "text": "Yes: patellofemoral pain (runner's knee) is typically driven by hip abductor weakness causing the femur to internally rotate and the patella to track laterally. Pilates glute medius work directly addresses this. Significant improvement is typically reported within 6–8 weeks of consistent Pilates practice combined with appropriate running load modification." } }
     ]
   },
@@ -73,7 +73,7 @@ const PRODUCTS = [
   { name: "TheraBand Resistance Bands Set", description: "Hip abductor and glute strengthening between sessions. The glute medius weakness that causes most running injuries is precisely what Pilates resistance band work targets.", price: "$11.99", affiliateUrl: "https://www.amazon.com/dp/B01A58FHQ8?tag=pilatescollective-20" },
   { name: "Manduka PRO Pilates Mat", description: "Runners need a stable, high-density mat for the hip and core work that makes Pilates most effective as a running complement. A non-slip surface matters during single-leg balance work.", price: "$144.00", affiliateUrl: "https://www.amazon.com/dp/B0066T7I54?tag=pilatescollective-20" },
   { name: "Balanced Body Magic Circle", description: "Hip adductor and abductor resistance work to complement the unilateral strength that running develops. Efficient for the lateral hip work runners most commonly neglect.", price: "$35.00", affiliateUrl: "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20" },
-  { name: "Trideer 9-inch Pilates Ball", description: "Used for hip and glute activation during mat Pilates, between the knees during bridging, it activates the adductor-glute chain that stabilises the pelvis during running gait.", price: "$7.99", affiliateUrl: "https://www.amazon.com/dp/B077QD9TFF?tag=pilatescollective-20" },
+  { name: "Trideer 9-inch Pilates Ball", description: "Used for hip and glute activation during mat Pilates, between the knees during bridging, it activates the adductor-glute chain that stabilizes the pelvis during running gait.", price: "$7.99", affiliateUrl: "https://www.amazon.com/dp/B077QD9TFF?tag=pilatescollective-20" },
 ];
 
 const QP_NOTES = ["The standard release tool for runners", "Glute and hip abductor strength between sessions", "Stable, high-density mat for hip and core work", "Lateral hip resistance runners usually lack", "Glute and adductor activation in bridging"];
@@ -101,7 +101,7 @@ export default function PilatesForRunnersPage() {
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Runners who add Pilates to their training often describe the same experience: a gradual disappearance of the niggles that had become background noise, the hip that tightened after long runs, the knee that ached on descents, the lower back that stiffened after speed work. This isn&apos;t coincidence. Pilates systematically addresses the specific movement deficits that running both requires and creates. This guide explains the mechanism, the exercises that matter most, and how to structure Pilates within a running programme.
+              Runners who add Pilates to their training often describe the same experience: a gradual disappearance of the niggles that had become background noise, the hip that tightened after long runs, the knee that ached on descents, the lower back that stiffened after speed work. This isn&apos;t coincidence. Pilates systematically addresses the specific movement deficits that running both requires and creates. This guide explains the mechanism, the exercises that matter most, and how to structure Pilates within a running program.
             </p>
           </div>
         </section>
@@ -129,7 +129,7 @@ export default function PilatesForRunnersPage() {
                 Most running injuries are not acute trauma. They are the accumulated product of these imbalances expressed over thousands of repetitions. Runner&apos;s knee, ITBS, plantar fasciitis, and lower back pain are all downstream effects of the same upstream movement problems. Pilates does not cure these conditions by treating symptoms: it addresses the root patterns.
               </p>
               <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                The mechanism is threefold: Pilates develops the deep stabilising musculature (multifidus, transversus abdominis) that manages spinal load during the running gait cycle; it restores lateral hip and rotational capacity that running doesn&apos;t train; and it develops the breath control that separates efficient runners from those who fatigue early and lose form.
+                The mechanism is threefold: Pilates develops the deep stabilizing musculature (multifidus, transversus abdominis) that manages spinal load during the running gait cycle; it restores lateral hip and rotational capacity that running doesn&apos;t train; and it develops the breath control that separates efficient runners from those who fatigue early and lose form.
               </p>
             </div>
 
@@ -139,7 +139,7 @@ export default function PilatesForRunnersPage() {
                 {[
                   {
                     title: "Glute medius activation and hip stability",
-                    body: "The glute medius is the primary lateral hip stabiliser: responsible for preventing the pelvis from dropping to the unsupported side during single-leg stance (which occurs at every step in running). Weakness here is the most common finding in injured runners and the most common deficit that Pilates addresses. Side-lying leg series, clam, and side-lying abduction exercises in the Pilates mat and reformer repertoire specifically target this muscle in ways that running does not."
+                    body: "The glute medius is the primary lateral hip stabilizer: responsible for preventing the pelvis from dropping to the unsupported side during single-leg stance (which occurs at every step in running). Weakness here is the most common finding in injured runners and the most common deficit that Pilates addresses. Side-lying leg series, clam, and side-lying abduction exercises in the Pilates mat and reformer repertoire specifically target this muscle in ways that running does not."
                   },
                   {
                     title: "Thoracic rotation and arm swing efficiency",
@@ -201,8 +201,8 @@ export default function PilatesForRunnersPage() {
               <div className="space-y-6">
                 {[
                   { q: "How often should runners do Pilates?", a: "Once or twice per week is the most commonly recommended frequency for injury prevention: one reformer class and one mat session being the most effective combination. More than three sessions per week begins to compete with running recovery time. Consistency over months matters more than frequency in any given week." },
-                  { q: "Will Pilates make me slower by adding muscle mass?", a: "No. Pilates develops type I slow-twitch muscle fibres and neurological efficiency, neither of which adds significant mass. The strength gains are specific to stability and control patterns, not hypertrophy. Most runners who add Pilates report improved economy and pace at equivalent effort, not any weight or speed penalty." },
-                  { q: "Should I do Pilates before or after my runs?", a: "After easy runs or on dedicated rest days. Pilates sessions that include significant core work reduce the explosive reactivity of the core stabilisers temporarily: running immediately after a demanding Pilates session is not ideal. A short, gentle mat sequence (10 minutes) is appropriate as a post-run cooldown; a full 55-minute reformer session works best on a separate day." },
+                  { q: "Will Pilates make me slower by adding muscle mass?", a: "No. Pilates develops type I slow-twitch muscle fibers and neurological efficiency, neither of which adds significant mass. The strength gains are specific to stability and control patterns, not hypertrophy. Most runners who add Pilates report improved economy and pace at equivalent effort, not any weight or speed penalty." },
+                  { q: "Should I do Pilates before or after my runs?", a: "After easy runs or on dedicated rest days. Pilates sessions that include significant core work reduce the explosive reactivity of the core stabilizers temporarily: running immediately after a demanding Pilates session is not ideal. A short, gentle mat sequence (10 minutes) is appropriate as a post-run cooldown; a full 55-minute reformer session works best on a separate day." },
                   { q: "Can Pilates help with runner's knee?", a: "Yes: patellofemoral pain (runner's knee) is typically driven by hip abductor weakness causing the femur to internally rotate and the patella to track laterally. Pilates glute medius work directly addresses this. Significant improvement is typically reported within 6–8 weeks of consistent Pilates practice combined with appropriate running load modification." },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>

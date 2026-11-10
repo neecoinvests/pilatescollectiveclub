@@ -46,7 +46,7 @@ const PRODUCTS = [
     name: "Lululemon Align High-Rise Legging 25\"",
     price: "$98.00",
     verdict: "The Gold Standard Gift",
-    description: "If she does pilates, she either owns these or wants them. The Align is Lululemon's signature pilates legging, made from their proprietary Nulu fabric, which is so light and soft it genuinely disappears during practice. The 25-inch length is the most popular for reformer work. High-waisted with zero waistband roll, fully opaque in every colour, and available in around 30 shades. If you're unsure of her size, go up one: the Align runs slightly small and exchanges are seamless at any Lululemon store. This is the gift that lands every time.",
+    description: "If she does pilates, she either owns these or wants them. The Align is Lululemon's signature pilates legging, made from their proprietary Nulu fabric, which is so light and soft it genuinely disappears during practice. The 25-inch length is the most popular for reformer work. High-waisted with zero waistband roll, fully opaque in every color, and available in around 30 shades. If you're unsure of her size, go up one: the Align runs slightly small and exchanges are seamless at any Lululemon store. This is the gift that lands every time.",
     affiliateUrl: "https://www.amazon.com/dp/B08M8ZTKJS?tag=pilatescollective-20",
   },
   {
@@ -62,7 +62,7 @@ const PRODUCTS = [
     name: "ToeSox Half-Toe Grip Socks",
     price: "$16.00",
     verdict: "Essential Studio Accessory",
-    description: "Studios require grip socks: no exceptions. ToeSox are the brand that most instructors and practitioners choose when they're spending their own money. The half-toe design exposes the toes for footbar work and gives full proprioceptive feedback on the carriage. The Bellarina style in particular has become a cult favourite in pilates circles. Available in multi-packs in every colour. These make an excellent stocking stuffer or add-on gift that she'll genuinely appreciate.",
+    description: "Studios require grip socks: no exceptions. ToeSox are the brand that most instructors and practitioners choose when they're spending their own money. The half-toe design exposes the toes for footbar work and gives full proprioceptive feedback on the carriage. The Bellarina style in particular has become a cult favorite in pilates circles. Available in multi-packs in every color. These make an excellent stocking stuffer or add-on gift that she'll genuinely appreciate.",
     affiliateUrl: "https://www.amazon.com/dp/B00VLMY04S?tag=pilatescollective-20",
   },
   {
@@ -86,7 +86,7 @@ const PRODUCTS = [
     name: "Lululemon Everywhere Belt Bag Large 2L",
     price: "$38",
     verdict: "Best Pilates Bag Gift",
-    description: "The Lululemon belt bag has become the unofficial pilates studio accessory: nearly every practitioner has one clipped to their bag or hung on the studio hook. The large 2L version fits her phone, keys, cards, lip balm, and a snack. It's made from a water-repellent ripstop fabric, has a quick-access front zip, and comes in a wide range of seasonal colours. At $48 it's a thoughtful gift at a very reasonable price point, and she will use it every single day. Not sold on Amazon: this link goes to Lululemon's own site.",
+    description: "The Lululemon belt bag has become the unofficial pilates studio accessory: nearly every practitioner has one clipped to their bag or hung on the studio hook. The large 2L version fits her phone, keys, cards, lip balm, and a snack. It's made from a water-repellent ripstop fabric, has a quick-access front zip, and comes in a wide range of seasonal colors. At $48 it's a thoughtful gift at a very reasonable price point, and she will use it every single day. Not sold on Amazon: this link goes to Lululemon's own site.",
     affiliateUrl: "https://shop.lululemon.com",
   },
 ];
@@ -230,7 +230,7 @@ export default function Page() {
           </div>
 
           <p style={{ fontFamily: "var(--font-sans)", fontSize: "11px", color: "#9a9490", lineHeight: 1.7, marginTop: "64px", paddingTop: "24px", borderTop: "1px solid #ede9e3" }}>
-            Pilates Collective Club participates in the Amazon Associates programme. Purchases made through our links earn us a small commission at no additional cost to you. All recommendations are independent and based on real pilates community feedback.
+            Pilates Collective Club participates in the Amazon Associates program. Purchases made through our links earn us a small commission at no additional cost to you. All recommendations are independent and based on real pilates community feedback.
           </p>
         </div>
       </section>

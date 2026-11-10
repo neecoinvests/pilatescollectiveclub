@@ -5,15 +5,15 @@ import { item, PRICES_CHECKED, PRICES_CHECKED_ISO } from "@/lib/reformerCatalog"
 const SLUG = "wood-vs-aluminium-pilates-reformer";
 const URL = `https://pilatescollectiveclub.com/blog/${SLUG}`;
 const HERO = "/pictures/stitch-white-reformer-plaster.png";
-const TITLE = "Wood vs Aluminium Pilates Reformer (2026): Which Is Better?";
-const DESCRIPTION = "Wood vs aluminium Pilates reformers compared on weight, feel, storage, care and price, with the best maple, walnut and aluminium reformers to buy now.";
+const TITLE = "Wood vs Aluminum Pilates Reformer (2026): Which Is Better?";
+const DESCRIPTION = "Wood vs aluminum Pilates reformers compared on weight, feel, storage, care and price, with the best maple, walnut and aluminum reformers to buy now.";
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESCRIPTION,
-  keywords: ["wood vs aluminium pilates reformer", "wood vs aluminum reformer", "maple pilates reformer", "aluminium pilates reformer", "wooden reformer vs metal", "best wood pilates reformer", "best aluminum pilates reformer", "balanced body studio reformer maple", "allegro aluminum reformer"],
+  keywords: ["wood vs aluminum pilates reformer", "wood vs aluminum reformer", "maple pilates reformer", "aluminum pilates reformer", "wooden reformer vs metal", "best wood pilates reformer", "best aluminum pilates reformer", "balanced body studio reformer maple", "allegro aluminum reformer"],
   openGraph: { title: TITLE, description: DESCRIPTION, type: "article", url: URL, images: [{ url: `https://pilatescollectiveclub.com${HERO}`, width: 1200, height: 630, alt: "A Pilates reformer in a bright room" }] },
-  twitter: { card: "summary_large_image", title: "Wood vs Aluminium Pilates Reformer (2026)", description: DESCRIPTION, images: [`https://pilatescollectiveclub.com${HERO}`] },
+  twitter: { card: "summary_large_image", title: "Wood vs Aluminum Pilates Reformer (2026)", description: DESCRIPTION, images: [`https://pilatescollectiveclub.com${HERO}`] },
   alternates: { canonical: URL },
   robots: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
 };
@@ -22,10 +22,10 @@ const GUIDE: EquipmentGuideProps = {
   slug: SLUG,
   title: TITLE,
   description: DESCRIPTION,
-  breadcrumb: "Wood vs Aluminium Reformer",
+  breadcrumb: "Wood vs Aluminum Reformer",
   eyebrow: "Buying Guide",
   eyebrowAccent: "Frame Materials",
-  h1: "Wood vs Aluminium Pilates Reformer",
+  h1: "Wood vs Aluminum Pilates Reformer",
   h1Accent: "(2026): Which Frame Is Better?",
   readTime: "11 min read",
   updatedLabel: `Prices checked ${PRICES_CHECKED}`,
@@ -33,35 +33,35 @@ const GUIDE: EquipmentGuideProps = {
   dateModified: PRICES_CHECKED_ISO,
   heroImage: HERO,
   heroAlt: "A Pilates reformer in a bright, minimal room",
-  heroCaption: "Maple · Walnut · Oak · Aluminium",
+  heroCaption: "Maple · Walnut · Oak · Aluminum",
   intro: [
-    "The frame is the first choice most reformer buyers make, often without realising it. Balanced Body's Studio Reformer is solid Strata Rock Maple; its Allegro is anodized aluminium. Merrithew's SPX runs on aluminium rails; PersonalHour builds in maple and walnut. Both materials are used on serious studio machines, so this is not a quality question. It is about weight, storage, looks, care and budget.",
-    "Below we compare the two materials on what actually changes your experience, using the weights and specifications published on each listing, then pick the best wood and aluminium reformers you can buy now.",
+    "The frame is the first choice most reformer buyers make, often without realizing it. Balanced Body's Studio Reformer is solid Strata Rock Maple; its Allegro is anodized aluminum. Merrithew's SPX runs on aluminum rails; PersonalHour builds in maple and walnut. Both materials are used on serious studio machines, so this is not a quality question. It is about weight, storage, looks, care and budget.",
+    "Below we compare the two materials on what actually changes your experience, using the weights and specifications published on each listing, then pick the best wood and aluminum reformers you can buy now.",
   ],
   quickPicks: [
     { label: "Best wood reformer", itemId: "balanced-body-studio-reformer" },
-    { label: "Best maple + aluminium hybrid", itemId: "balanced-body-rialto" },
+    { label: "Best maple + aluminum hybrid", itemId: "balanced-body-rialto" },
     { label: "Best folding wood reformer", itemId: "personalhour-janet-la-force-plus" },
     { label: "Best value wood reformer", itemId: "vevor-maple-reformer" },
-    { label: "Best aluminium reformer", itemId: "balanced-body-allegro-stretch" },
-    { label: "Best aluminium home package", itemId: "merrithew-at-home-spx" },
+    { label: "Best aluminum reformer", itemId: "balanced-body-allegro-stretch" },
+    { label: "Best aluminum home package", itemId: "merrithew-at-home-spx" },
   ],
   blocks: [
     {
       kind: "callout",
       eyebrow: "The short answer",
-      heading: "Wood or aluminium?",
+      heading: "Wood or aluminum?",
       body: [
         "Choose wood if the reformer will live in one place, you want it to look like furniture, and you like a heavy, planted machine. Maple is the traditional studio frame.",
-        "Choose aluminium if you will move or store the reformer, live on an upper floor, or want lower weight and simpler care. Aluminium frames are standard on many studio machines too.",
-        "Can't decide? Balanced Body's Rialto uses a solid maple frame on aluminium legs.",
+        "Choose aluminum if you will move or store the reformer, live on an upper floor, or want lower weight and simpler care. Aluminum frames are standard on many studio machines too.",
+        "Can't decide? Balanced Body's Rialto uses a solid maple frame on aluminum legs.",
       ],
     },
     {
       kind: "table",
       eyebrow: "Head to head",
-      heading: "Wood vs aluminium reformer: the comparison",
-      columns: ["Factor", "Wood (maple, walnut, oak)", "Aluminium"],
+      heading: "Wood vs aluminum reformer: the comparison",
+      columns: ["Factor", "Wood (maple, walnut, oak)", "Aluminum"],
       rows: [
         ["Weight", "Heavier. Listed weights: Nano Elite Plus 290 lb, Studio Reformer XSR 212 lb, Rialto 140 lb", "Lighter. Listed weights: At Home SPX 115 lb, Metro IQ 85 lb"],
         ["Moving and storage", "Usually stays put; some fold (Janet La Force Plus)", "Easier to roll, stand up or stack"],
@@ -77,12 +77,12 @@ const GUIDE: EquipmentGuideProps = {
       eyebrow: "What really changes",
       heading: "Five things the frame material affects",
       cards: [
-        { h: "Where you can put it", b: "A 200 to 300 lb wood machine is a fixture. If you share the room, rent, or plan to move it, aluminium is easier. Check your floor if a heavy machine is going upstairs." },
-        { h: "How it looks in your home", b: "This matters more than people admit. A maple or walnut reformer reads as furniture in a living space; aluminium reads as equipment." },
+        { h: "Where you can put it", b: "A 200 to 300 lb wood machine is a fixture. If you share the room, rent, or plan to move it, aluminum is easier. Check your floor if a heavy machine is going upstairs." },
+        { h: "How it looks in your home", b: "This matters more than people admit. A maple or walnut reformer reads as furniture in a living space; aluminum reads as equipment." },
         { h: "How it feels to train on", b: "Spring quality and the carriage matter more to feel than the frame. A heavy wood frame does feel very planted, which many people like." },
-        { h: "Care and climate", b: "Wood is a natural material. Keep it out of direct sun and away from big humidity swings, and follow the maker's instructions. Aluminium is largely wipe-and-go." },
-        { h: "Value over time", b: "Well-known studio brands in either material are recognised second-hand. Brand reputation affects resale more than material does." },
-        { h: "Mixed designs", b: "Some machines combine both: Balanced Body's Rialto pairs a solid maple frame with extruded aluminium legs; Merrithew's SPX uses aluminium rails." },
+        { h: "Care and climate", b: "Wood is a natural material. Keep it out of direct sun and away from big humidity swings, and follow the maker's instructions. Aluminum is largely wipe-and-go." },
+        { h: "Value over time", b: "Well-known studio brands in either material are recognized second-hand. Brand reputation affects resale more than material does." },
+        { h: "Mixed designs", b: "Some machines combine both: Balanced Body's Rialto pairs a solid maple frame with extruded aluminum legs; Merrithew's SPX uses aluminum rails." },
       ],
     },
     {
@@ -93,12 +93,12 @@ const GUIDE: EquipmentGuideProps = {
       items: [
         item("studioRevo", {
           badge: "Best Wood Reformer",
-          pros: ["Solid Strata Rock Maple, the classic studio frame", "Up to 46 resistance settings", "Recognised second-hand"],
+          pros: ["Solid Strata Rock Maple, the classic studio frame", "Up to 46 resistance settings", "Recognized second-hand"],
           cons: ["Does not fold", "Made to order"],
         }),
         item("rialtoBox", {
-          badge: "Best Maple + Aluminium Hybrid",
-          pros: ["Maple frame, aluminium legs: a lighter wood machine at 140 lb", "Sitting Box Lite included", "Tower upgrade available"],
+          badge: "Best Maple + Aluminum Hybrid",
+          pros: ["Maple frame, aluminum legs: a lighter wood machine at 140 lb", "Sitting Box Lite included", "Tower upgrade available"],
           cons: ["Made to order"],
         }),
         item("janetLaForce", {
@@ -126,28 +126,28 @@ const GUIDE: EquipmentGuideProps = {
     {
       kind: "products",
       id: "aluminium",
-      eyebrow: "Best aluminium reformers",
-      heading: "The best aluminium Pilates reformers",
+      eyebrow: "Best aluminum reformers",
+      heading: "The best aluminum Pilates reformers",
       items: [
         item("allegroStretch", {
-          badge: "Best Aluminium Reformer",
-          pros: ["Anodized aluminium frame with transport wheels", "Longer, wider carriage for tall users", "5 Signature Springs"],
+          badge: "Best Aluminum Reformer",
+          pros: ["Anodized aluminum frame with transport wheels", "Longer, wider carriage for tall users", "5 Signature Springs"],
           cons: ["111\" long", "Made to order"],
         }),
         item("spxHome", {
-          badge: "Best Aluminium Home Package",
-          pros: ["Aluminium rails, 115 lb", "Box, pole, extender and straps included", "Sold by Amazon.com"],
+          badge: "Best Aluminum Home Package",
+          pros: ["Aluminum rails, 115 lb", "Box, pole, extender and straps included", "Sold by Amazon.com"],
           cons: ["Low frame height"],
         }),
       ],
     },
   ],
   faqs: [
-    { q: "Is a wood or aluminium Pilates reformer better?", a: "Neither is better overall. Wood (usually maple) is heavier, more furniture-like and very planted; aluminium is lighter and easier to move or store. Both are used on professional studio machines, so choose on space, weight and looks." },
-    { q: "Are wood reformers heavier?", a: "Generally, yes. On their Amazon listings, the PersonalHour Nano Elite Plus weighs 290 lb and the Balanced Body Studio Reformer (XSR) 212 lb, while Merrithew's aluminium-rail At Home SPX weighs 115 lb." },
-    { q: "Do wood reformers need special care?", a: "Wood is a natural material, so keep it out of direct sunlight and away from large humidity swings, and follow the manufacturer's care instructions. Aluminium frames mostly need wiping down." },
-    { q: "What is the best wood Pilates reformer?", a: "The Balanced Body Studio Reformer, with a solid Strata Rock Maple frame ($4,700 on Amazon). For less, the Rialto ($3,495) combines a maple frame with aluminium legs, and the VEVOR maple reformer is $1,309.90." },
-    { q: "What is the best aluminium Pilates reformer?", a: "The Balanced Body Allegro Stretch ($3,710), with an anodized aluminium frame and a longer, wider carriage. Merrithew's At Home SPX package ($3,349) is the best aluminium-rail option with accessories included." },
+    { q: "Is a wood or aluminum Pilates reformer better?", a: "Neither is better overall. Wood (usually maple) is heavier, more furniture-like and very planted; aluminum is lighter and easier to move or store. Both are used on professional studio machines, so choose on space, weight and looks." },
+    { q: "Are wood reformers heavier?", a: "Generally, yes. On their Amazon listings, the PersonalHour Nano Elite Plus weighs 290 lb and the Balanced Body Studio Reformer (XSR) 212 lb, while Merrithew's aluminum-rail At Home SPX weighs 115 lb." },
+    { q: "Do wood reformers need special care?", a: "Wood is a natural material, so keep it out of direct sunlight and away from large humidity swings, and follow the manufacturer's care instructions. Aluminum frames mostly need wiping down." },
+    { q: "What is the best wood Pilates reformer?", a: "The Balanced Body Studio Reformer, with a solid Strata Rock Maple frame ($4,700 on Amazon). For less, the Rialto ($3,495) combines a maple frame with aluminum legs, and the VEVOR maple reformer is $1,309.90." },
+    { q: "What is the best aluminum Pilates reformer?", a: "The Balanced Body Allegro Stretch ($3,710), with an anodized aluminum frame and a longer, wider carriage. Merrithew's At Home SPX package ($3,349) is the best aluminum-rail option with accessories included." },
   ],
   related: [
     { title: "Best Pilates Reformer Under $3,000", excerpt: "Seven studio-grade picks including wood reformers with towers.", href: "/blog/best-pilates-reformer-under-3000", imageUrl: "/pictures/stitch-reformer-sunlit-minimal.png", category: "Equipment", readTime: "14 min read" },

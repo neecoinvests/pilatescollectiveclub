@@ -54,7 +54,7 @@ const PRODUCTS = [
     name: "Beyond Yoga Spacedye Caught in the Midi High Waisted Legging",
     price: "$99",
     verdict: "Most Luxurious Leggings",
-    description: "Ask a room of reformer regulars which leggings they reach for first and Beyond Yoga's Spacedye comes up again and again. The heathered space-dyed fabric is exceptionally soft, with enough stretch for full-range work on the carriage, and the 5-inch high waistband gives gentle, smoothing compression without digging in during roll-ups. They come in a wide, inclusive size range and a long list of colours, which makes them an easy gift to get right. Sold by Zappos on Amazon.",
+    description: "Ask a room of reformer regulars which leggings they reach for first and Beyond Yoga's Spacedye comes up again and again. The heathered space-dyed fabric is exceptionally soft, with enough stretch for full-range work on the carriage, and the 5-inch high waistband gives gentle, smoothing compression without digging in during roll-ups. They come in a wide, inclusive size range and a long list of colors, which makes them an easy gift to get right. Sold by Zappos on Amazon.",
     affiliateUrl: "https://www.amazon.com/dp/B07663TDHG?tag=pilatescollective-20",
   },
   {
@@ -70,7 +70,7 @@ const PRODUCTS = [
     name: "Varley Davidson Sweatshirt",
     price: "$138",
     verdict: "Best Luxury Studio Layer",
-    description: "Varley is the London label that dresses a lot of boutique-studio regulars, and the Davidson is its signature crew: a relaxed, soft crew-neck sweatshirt that slips over leggings and a sports bra between classes and looks put-together enough for the coffee afterwards. The marl colourways (ivory, taupe, olive) are the ones to buy as a gift. Sold by Zappos on Amazon, so returns and size exchanges are simple.",
+    description: "Varley is the London label that dresses a lot of boutique-studio regulars, and the Davidson is its signature crew: a relaxed, soft crew-neck sweatshirt that slips over leggings and a sports bra between classes and looks put-together enough for the coffee afterwards. The marl colorways (ivory, taupe, olive) are the ones to buy as a gift. Sold by Zappos on Amazon, so returns and size exchanges are simple.",
     affiliateUrl: "https://www.amazon.com/dp/B0CKHVXSZ5?tag=pilatescollective-20",
   },
   {
@@ -230,7 +230,7 @@ export default function Page() {
           </div>
 
           <p style={{ fontFamily: "var(--font-sans)", fontSize: "11px", color: "#9a9490", lineHeight: 1.7, marginTop: "64px", paddingTop: "24px", borderTop: "1px solid #ede9e3" }}>
-            Pilates Collective Club participates in the Amazon Associates programme. Purchases through our links earn us a small commission at no additional cost to you. All recommendations are independently chosen.
+            Pilates Collective Club participates in the Amazon Associates program. Purchases through our links earn us a small commission at no additional cost to you. All recommendations are independently chosen.
           </p>
         </div>
       </section>

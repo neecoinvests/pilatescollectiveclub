@@ -48,7 +48,7 @@ const PRODUCTS = [
     name: "Balanced Body Magic Circle (Pilates Ring)",
     price: "$35.00",
     verdict: "Best Pilates ring for men",
-    description: "The magic circle is the most under-used piece of Pilates equipment in men's practice and arguably the most important for the areas where men most frequently lack: inner thigh activation, glute medius strength, and lateral hip stability. Balanced Body's ring is the studio standard: fibreglass core with padded foam handles that hold shape under sustained compression without the spring degradation that ruins cheaper rings after a few months. For men, the primary uses are inner thigh adductor squeezes, hip abductor work in side-lying, and arm circle series that challenge shoulder stabilisation. A $42 investment that upgrades the entire lower body curriculum.",
+    description: "The magic circle is the most under-used piece of Pilates equipment in men's practice and arguably the most important for the areas where men most frequently lack: inner thigh activation, glute medius strength, and lateral hip stability. Balanced Body's ring is the studio standard: fiberglass core with padded foam handles that hold shape under sustained compression without the spring degradation that ruins cheaper rings after a few months. For men, the primary uses are inner thigh adductor squeezes, hip abductor work in side-lying, and arm circle series that challenge shoulder stabilization. A $42 investment that upgrades the entire lower body curriculum.",
     affiliateUrl: "https://www.amazon.com/dp/B002YQW3IU?tag=pilatescollective-20",
     tag: "pilatescollective-20",
   },
@@ -57,7 +57,7 @@ const PRODUCTS = [
     name: "OPTP PRO-ROLLER Foam Roller (36\")",
     price: "$62.99",
     verdict: "Best foam roller for Pilates men",
-    description: "Most men arrive at Pilates with significantly restricted thoracic extension: the upper back mobility that spine articulation, rolldowns, and the extension series require. A foam roller addresses this before and after class better than any other tool. The OPTP PRO-ROLLER is the physical therapist's choice: high-density, non-compressible closed-cell foam that doesn't degrade with repeated use, 36\" length that accommodates the full thoracic spine longitudinally, and a smooth surface appropriate for the sustained positioning that hip flexor and lat mobilisation requires. More durable and precisely calibrated than the grid rollers that dominate the consumer market.",
+    description: "Most men arrive at Pilates with significantly restricted thoracic extension: the upper back mobility that spine articulation, rolldowns, and the extension series require. A foam roller addresses this before and after class better than any other tool. The OPTP PRO-ROLLER is the physical therapist's choice: high-density, non-compressible closed-cell foam that doesn't degrade with repeated use, 36\" length that accommodates the full thoracic spine longitudinally, and a smooth surface appropriate for the sustained positioning that hip flexor and lat mobilization requires. More durable and precisely calibrated than the grid rollers that dominate the consumer market.",
     affiliateUrl: "https://www.amazon.com/dp/B002C9EX14?tag=pilatescollective-20",
     tag: "pilatescollective-20",
   },
@@ -75,7 +75,7 @@ const PRODUCTS = [
     name: "TheraBand CLX Resistance Band Set",
     price: "~$28",
     verdict: "Best resistance bands for Pilates men",
-    description: "Resistance bands bridge the gap between Pilates and the strength training most men have a background in: they allow you to add progressive overload to the arm and shoulder curriculum while maintaining the control and precision the method requires. TheraBand CLX bands are the clinical standard: interconnected loops that allow grip-free use during footwork alternatives and footbar-free exercises. The set includes three resistance levels (Light, Medium, Heavy) which cover the full range from fine motor shoulder stabilisation to loaded hip extension. Unlike tube bands, the CLX flat-band construction distributes load evenly across the hand and foot, matching the feel of reformer strap work.",
+    description: "Resistance bands bridge the gap between Pilates and the strength training most men have a background in: they allow you to add progressive overload to the arm and shoulder curriculum while maintaining the control and precision the method requires. TheraBand CLX bands are the clinical standard: interconnected loops that allow grip-free use during footwork alternatives and footbar-free exercises. The set includes three resistance levels (Light, Medium, Heavy) which cover the full range from fine motor shoulder stabilization to loaded hip extension. Unlike tube bands, the CLX flat-band construction distributes load evenly across the hand and foot, matching the feel of reformer strap work.",
     affiliateUrl: "https://www.amazon.com/s?k=theraband+clx+resistance+band+set&tag=pilatescollective-20",
     tag: "pilatescollective-20",
   },
@@ -91,7 +91,7 @@ const PRODUCTS = [
 ];
 
 const FAQS = [
-  { q: "Is Pilates good for men?", a: "Yes: Pilates was originally developed by Joseph Pilates for men, and was first practiced by boxers, soldiers, and male dancers. The method directly targets the physical patterns most men carry: tight hip flexors, anterior pelvic tilt, limited thoracic mobility, and under-developed stabilisers relative to prime movers. Many professional male athletes (including Premier League footballers, elite cyclists, and professional rugby players) use Pilates as primary cross-training." },
+  { q: "Is Pilates good for men?", a: "Yes: Pilates was originally developed by Joseph Pilates for men, and was first practiced by boxers, soldiers, and male dancers. The method directly targets the physical patterns most men carry: tight hip flexors, anterior pelvic tilt, limited thoracic mobility, and under-developed stabilizers relative to prime movers. Many professional male athletes (including Premier League footballers, elite cyclists, and professional rugby players) use Pilates as primary cross-training." },
   { q: "Do men need different Pilates equipment?", a: "No: the equipment is the same. But men use certain pieces more frequently and at higher loads. An extra-long mat matters because men are taller. An arc barrel matters because anterior pelvic tilt is more common in men. A heavier-resistance magic circle matters because men typically need more load to activate adductors meaningfully. The equipment list is the same; the emphasis differs." },
   { q: "What is the best home Pilates reformer for men?", a: "The Align-Pilates C8 Pro is the best home reformer for men. It accommodates practitioners up to 6'2\", uses genuine calibrated springs, and folds flat without compromising the spring system. At $1,699 it is significantly less expensive than Balanced Body or Merrithew equivalents and is the most frequently recommended machine by instructors for male home practitioners." },
   { q: "How long does Pilates take to work for men?", a: "Most men notice meaningful changes in posture and movement quality within 6–8 sessions. Hamstring flexibility and thoracic extension, the areas men most commonly lack, respond relatively quickly to regular Pilates practice because they are driven by motor pattern change rather than structural tissue change. Strength changes take 8–12 weeks of consistent practice." },
@@ -159,7 +159,7 @@ export default function BestPilatesEquipmentForMenPage() {
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Pilates was invented by a man for men. Joseph Pilates developed the method for soldiers, boxers, and dancers: people with powerful prime movers and compressed stabilisers, exactly the pattern most men carry today. The right equipment addresses what men specifically need from the practice: thoracic extension, hip mobility, inner thigh activation, and deep spinal stabilisation. This guide covers six essential pieces for men&apos;s Pilates, from a $28 band set to the best home reformer for serious practice.
+              Pilates was invented by a man for men. Joseph Pilates developed the method for soldiers, boxers, and dancers: people with powerful prime movers and compressed stabilizers, exactly the pattern most men carry today. The right equipment addresses what men specifically need from the practice: thoracic extension, hip mobility, inner thigh activation, and deep spinal stabilization. This guide covers six essential pieces for men&apos;s Pilates, from a $28 band set to the best home reformer for serious practice.
             </p>
           </div>
         </section>
@@ -222,7 +222,7 @@ export default function BestPilatesEquipmentForMenPage() {
               <div className="space-y-3">
                 {[
                   { step: "Start here", item: "Mat + foam roller", why: "These two pieces unlock the full mat repertoire and address thoracic mobility: the immediate priority for most men." },
-                  { step: "Add next", item: "Magic circle + resistance bands", why: "Under $80 combined. Doubles the exercise variety and directly targets adductor and shoulder stabiliser patterns." },
+                  { step: "Add next", item: "Magic circle + resistance bands", why: "Under $80 combined. Doubles the exercise variety and directly targets adductor and shoulder stabilizer patterns." },
                   { step: "Serious upgrade", item: "Arc barrel", why: "The $280 investment that addresses hip flexor tightness and thoracic extension more effectively than any other single tool." },
                   { step: "Full home studio", item: "Align-Pilates C8 Pro", why: "The $1,699 home reformer that delivers the full Pilates method at home: the platform all other equipment builds toward." },
                 ].map((item, i) => (

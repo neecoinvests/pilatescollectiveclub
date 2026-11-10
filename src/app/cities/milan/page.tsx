@@ -12,7 +12,7 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Pilates Studios in Milan (2026)",
-  description: "The best Pilates studios in Milan: reformer and full-apparatus studios in Brera, Porta Romana, Magenta and the centre. Six curated picks, verified October 2026.",
+  description: "The best Pilates studios in Milan: reformer and full-apparatus studios in Brera, Porta Romana, Magenta and the center. Six curated picks, verified October 2026.",
   robots: {
     index: true,
     follow: true,
@@ -65,12 +65,12 @@ const STUDIOS = [
     name: "Attimo Pilates",
     neighborhood: "Porta Romana",
     priceLevel: "$$$",
-    review: "Attimo Pilates sits inside the dance school of the historic Teatro Carcano on Corso di Porta Romana, with a complete range of apparatus (reformer, Cadillac, Wunda chair and ladder barrel) for personalised lessons in a refined space.",
-    caveat: "personalised lessons on the full apparatus: less suited to anyone wanting a big group class.",
+    review: "Attimo Pilates sits inside the dance school of the historic Teatro Carcano on Corso di Porta Romana, with a complete range of apparatus (reformer, Cadillac, Wunda chair and ladder barrel) for personalized lessons in a refined space.",
+    caveat: "personalized lessons on the full apparatus: less suited to anyone wanting a big group class.",
     address: "Corso di Porta Romana 61, 20122 Milano",
-    bestFor: "Personalised full-apparatus Pilates",
+    bestFor: "Personalized full-apparatus Pilates",
     signatureClass: "Full Apparatus Session",
-    bookingTip: "Book a first private session so the instructor can plan your programme.",
+    bookingTip: "Book a first private session so the instructor can plan your program.",
   },
   {
     number: "03",
@@ -124,8 +124,8 @@ const STUDIOS = [
 
 const BOOKING_TIPS = [
   {
-    heading: "Expect to pay €25–65 per class",
-    body: "Milan's Pilates pricing spans a wide range. Group reformer classes at mid-range studios run €25–40; private sessions at premium boutiques can reach €60–80. Monthly memberships, typically four to eight classes, bring the per-class cost down to €22–35 and are the most common payment model.",
+    heading: "Expect to pay about $28–73 per class",
+    body: "Milan's Pilates pricing spans a wide range. Group reformer classes at mid-range studios run about $28–45; private sessions at premium boutiques can reach about $67–90. Monthly memberships, typically four to eight classes, bring the per-class cost down to $25–39 and are the most common payment model.",
   },
   {
     heading: "Many studios close in August",
@@ -137,7 +137,7 @@ const BOOKING_TIPS = [
   },
   {
     heading: "Grip socks are mandatory",
-    body: "As across Europe, toeless grip socks are required at every studio. Most sell them at reception (€12–16) but bringing your own saves both money and the awkwardness of arriving unprepared.",
+    body: "As across Europe, toeless grip socks are required at every studio. Most sell them at reception (about $13–18) but bringing your own saves both money and the awkwardness of arriving unprepared.",
   },
   {
     heading: "Introductory offers vary: check the terms",
@@ -149,12 +149,12 @@ const NEIGHBORHOODS = [
   {
     name: "Brera",
     description:
-      "Milan's most artistically prestigious quarter is also home to its most sophisticated wellness offering. Studios here tend toward the boutique and considered: small class sizes, carefully sourced equipment, and an instructor quality that matches the neighbourhood's exacting standards. The premium for a Brera address is real but justified.",
+      "Milan's most artistically prestigious quarter is also home to its most sophisticated wellness offering. Studios here tend toward the boutique and considered: small class sizes, carefully sourced equipment, and an instructor quality that matches the neighborhood's exacting standards. The premium for a Brera address is real but justified.",
   },
   {
     name: "Porta Venezia & Corso Buenos Aires",
     description:
-      "A more accessible and diverse neighbourhood with a growing wellness infrastructure. Studios here offer better value than central Milan without compromising significantly on quality. The Corso Buenos Aires corridor in particular has seen strong studio growth over the last three years.",
+      "A more accessible and diverse neighborhood with a growing wellness infrastructure. Studios here offer better value than central Milan without compromising significantly on quality. The Corso Buenos Aires corridor in particular has seen strong studio growth over the last three years.",
   },
   {
     name: "Moscova",
@@ -238,8 +238,8 @@ const FURTHER_READING = [
 
 const CITY_FAQS = [
   { q: "What are the best Pilates studios in Milan?", a: "Our 6 curated picks are Möt Studios (Brera · Magenta), Attimo Pilates (Porta Romana), Hey Pilates (Centro, Sant'Ambrogio / Cinque Vie), Pilates Suite Brera (Brera), CoreWork: Magenta (Magenta) and GlamPilates (Sant'Ambrogio). Each listing above covers what the studio is best for, its signature class and a booking tip." },
-  { q: "Which Milan neighbourhoods are best for Pilates?", a: "This guide covers Brera, Porta Venezia & Corso Buenos Aires, Moscova and Navigli. Brera: Milan's most artistically prestigious quarter is also home to its most sophisticated wellness offering." },
-  { q: "What should I know about booking Pilates classes in Milan?", a: "Expect to pay €25–65 per class. Milan's Pilates pricing spans a wide range." },
+  { q: "Which Milan neighborhoods are best for Pilates?", a: "This guide covers Brera, Porta Venezia & Corso Buenos Aires, Moscova and Navigli. Brera: Milan's most artistically prestigious quarter is also home to its most sophisticated wellness offering." },
+  { q: "What should I know about booking Pilates classes in Milan?", a: "Expect to pay about $28–73 per class. Milan's Pilates pricing spans a wide range." },
   { q: "What should I bring to a Pilates class in Milan?", a: "Grip socks are required at most reformer studios. Our gear list for Milan covers Pilates grip socks, Pilates mat, magic circle, resistance bands, foam roller and home Pilates reformer." },
 ];
 
@@ -249,7 +249,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Best Pilates Studios in Milan (2026)",
-      "description": "The best Pilates studios in Milan: reformer and full-apparatus studios in Brera, Porta Romana, Magenta and the centre. Six curated picks, verified October 2026.",
+      "description": "The best Pilates studios in Milan: reformer and full-apparatus studios in Brera, Porta Romana, Magenta and the center. Six curated picks, verified October 2026.",
       "url": "https://pilatescollectiveclub.com/cities/milan",
       "datePublished": "2026-06-28",
       "dateModified": "2026-10-20",
@@ -381,10 +381,10 @@ export default function MilanPage() {
         <section className="py-20 px-6" style={{ backgroundColor: "#fcf9f8" }}>
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best neighbourhoods for Pilates in Milan
+              Best neighborhoods for Pilates in Milan
             </h2>
             <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-              Milan's Pilates landscape is shaped by its neighbourhoods.
+              Milan's Pilates landscape is shaped by its neighborhoods.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {NEIGHBORHOODS.map((n) => (

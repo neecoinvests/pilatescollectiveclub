@@ -131,7 +131,7 @@ const GUIDE: DealsGuideProps = {
         {
           "asin": "B07QHNDHW3",
           "name": "toesox Low Rise Grip Socks (Full Toe, 2-Pack)",
-          "badge": "Studio favourite",
+          "badge": "Studio favorite",
           "note": "Full-toe grip socks with a non-slip sole, in an organic cotton blend.",
           "price": "$30.00"
         },
@@ -190,8 +190,8 @@ const GUIDE: DealsGuideProps = {
       "b": "Sold by Amazon.com or the brand's own store is the safest bet for returns. Some listings switch to third-party sellers during sales."
     },
     {
-      "h": "Check the size and colour.",
-      "b": "Activewear prices on Amazon often vary by size and colour, and the deal may only apply to some. Check the variant you actually want."
+      "h": "Check the size and color.",
+      "b": "Activewear prices on Amazon often vary by size and color, and the deal may only apply to some. Check the variant you actually want."
     },
     {
       "h": "Check the returns window.",
@@ -201,7 +201,7 @@ const GUIDE: DealsGuideProps = {
   "faqs": [
     {
       "q": "Do leggings go on sale on Black Friday?",
-      "a": "Yes: activewear is one of the most discounted categories. Prices often vary by colour and size, so check the exact variant you want."
+      "a": "Yes: activewear is one of the most discounted categories. Prices often vary by color and size, so check the exact variant you want."
     },
     {
       "q": "Are lululemon or Alo on sale on Amazon?",
@@ -209,7 +209,7 @@ const GUIDE: DealsGuideProps = {
     },
     {
       "q": "Which grip socks are worth stocking up on?",
-      "a": "A multi-pack like Muezna's six pairs covers a week of classes. For a single favourite pair, toesox and TAVI are studio staples."
+      "a": "A multi-pack like Muezna's six pairs covers a week of classes. For a single favorite pair, toesox and TAVI are studio staples."
     }
   ],
   "guides": [

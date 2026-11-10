@@ -15,7 +15,7 @@ const ITEMS: Record<string, Omit<GuideItem, "badge">> = {
   halo: {
     id: "halo-headband-ii", name: "Halo Headband II Pullover Sweatband", brand: "Halo Headband", price: "$16.95", url: amz("B002L9ZEHW"),
     availability: "in-stock", soldBy: "Halo Headband",
-    specs: ["Patented silicone SweatSeal channels sweat away from the eyes", "Dryline fabric: 63% nylon, 23% polyester, 14% Lycra", "Silver ions to reduce odour", "Non-slip grip", "Pullover; men or women"],
+    specs: ["Patented silicone SweatSeal channels sweat away from the eyes", "Dryline fabric: 63% nylon, 23% polyester, 14% Lycra", "Silver ions to reduce odor", "Non-slip grip", "Pullover; men or women"],
     body: "The headband for heavy sweaters. Halo's silicone SweatSeal strip channels sweat to the sides instead of into your eyes, which is exactly the problem in a dripping Lagree plank.",
   },
   sweatyBands: {
@@ -101,7 +101,7 @@ const GUIDE: EquipmentGuideProps = {
       eyebrow: "Our picks",
       heading: "The best headbands for Lagree",
       items: [
-        it("halo", "Best for Heavy Sweat", ["SweatSeal keeps sweat out of eyes", "Anti-odour fabric"], ["Pullover, sporty look"]),
+        it("halo", "Best for Heavy Sweat", ["SweatSeal keeps sweat out of eyes", "Anti-odor fabric"], ["Pullover, sporty look"]),
         it("sweatyBands", "Best No-Slip Slim Band", ["Velvet grip", "Looks good after class"], ["Slim: absorbs less sweat", "Hand wash only"]),
         it("nike", "Best Wide Band", ["Covers more forehead", "Sold by Amazon.com"], ["Simple elastic grip"]),
         it("ua", "Best Budget", ["Under $11", "Sold by Amazon.com"], ["Thinner than the wide bands"]),

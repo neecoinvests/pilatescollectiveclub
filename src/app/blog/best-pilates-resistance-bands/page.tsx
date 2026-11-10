@@ -224,7 +224,7 @@ export default function BestResistanceBandsPage() {
                 {[
                   "Store flat or loosely coiled in a cool, dark place. Avoid folding at sharp angles: latex bands develop weak points at crease lines.",
                   "Wipe down with a damp cloth after use. Avoid petroleum-based products which degrade latex rapidly.",
-                  "Inspect before each use for nicks, discolouration, or thin spots. A band showing early signs of failure should be replaced immediately.",
+                  "Inspect before each use for nicks, discoloration, or thin spots. A band showing early signs of failure should be replaced immediately.",
                   "Replace latex bands every 6–12 months with regular use, regardless of visible condition. Latex degrades internally over time.",
                   "Keep away from direct sunlight and heat: UV exposure accelerates latex breakdown significantly.",
                 ].map((tip, i) => (

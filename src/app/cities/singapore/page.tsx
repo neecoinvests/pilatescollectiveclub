@@ -54,8 +54,8 @@ const STUDIOS = [
     name: "Breathe Pilates",
     neighborhood: "Raffles Quay · United Square · Katong · The Heeren · Galaxis",
     priceLevel: "$$$",
-    review: "Breathe Pilates combines physiotherapy and Pilates for rehab and fitness, with programmes for injury recovery and chronic pain. It runs five studios with more than 100 weekly classes, including Raffles Quay in the CBD, and moved its flagship from Novena to United Square in 2026.",
-    caveat: "physio-led programmes are priced accordingly: classes have started from about $55.",
+    review: "Breathe Pilates combines physiotherapy and Pilates for rehab and fitness, with programs for injury recovery and chronic pain. It runs five studios with more than 100 weekly classes, including Raffles Quay in the CBD, and moved its flagship from Novena to United Square in 2026.",
+    caveat: "physio-led programs are priced accordingly: classes have started from about $55.",
     address: "6 Raffles Quay, #11-02, Singapore 048580",
     bestFor: "Physio-informed Pilates for rehab and chronic pain",
     signatureClass: "Rehab Reformer",
@@ -126,11 +126,11 @@ const BOOKING_TIPS = [
   },
   {
     heading: "Grip socks are mandatory everywhere",
-    body: "Every reformer studio in Singapore requires grip socks. Bring your own (toeless style is the norm) or buy at the studio for $20–28 SGD. Most studios also sell branded socks as a keepsake.",
+    body: "Every reformer studio in Singapore requires grip socks. Bring your own (toeless style is the norm) or buy at the studio for about $16–22. Most studios also sell branded socks as a keepsake.",
   },
   {
-    heading: "Expect to pay $45–90 SGD per reformer class",
-    body: "Drop-in rates range from around $45 SGD at volume studios to $90 SGD for private or premium boutique sessions. Monthly memberships and class packs typically offer 20–35% savings over drop-in rates.",
+    heading: "Expect to pay about $35–70 per reformer class",
+    body: "Drop-in rates range from around $35 at volume studios to $70 for private or premium boutique sessions. Monthly memberships and class packs typically offer 20–35% savings over drop-in rates.",
   },
 ];
 
@@ -138,7 +138,7 @@ const NEIGHBORHOODS = [
   {
     name: "CBD & Tanjong Pagar",
     description:
-      "Singapore's financial district has a high density of studios catering to the lunchtime and early-morning professional crowd. Scheduling density is high, and studios here are optimised for convenience and efficiency. Some of the city's most classical and technically rigorous studios are also found here.",
+      "Singapore's financial district has a high density of studios catering to the lunchtime and early-morning professional crowd. Scheduling density is high, and studios here are optimized for convenience and efficiency. Some of the city's most classical and technically rigorous studios are also found here.",
   },
   {
     name: "Orchard & River Valley",
@@ -153,7 +153,7 @@ const NEIGHBORHOODS = [
   {
     name: "Dempsey Hill & Tanglin",
     description:
-      "Set in beautifully converted colonial-era barracks, Dempsey Hill is a tranquil wellness enclave away from the urban density. Studios here are typically smaller, more holistic, and attract clients who prioritise calm, quality, and privacy over convenience.",
+      "Set in beautifully converted colonial-era barracks, Dempsey Hill is a tranquil wellness enclave away from the urban density. Studios here are typically smaller, more holistic, and attract clients who prioritize calm, quality, and privacy over convenience.",
   },
 ];
 
@@ -227,7 +227,7 @@ const FURTHER_READING = [
 
 const CITY_FAQS = [
   { q: "What are the best Pilates studios in Singapore?", a: "Our 6 curated picks are Absolute Pilates (The Centrepoint (Orchard Road), Breathe Pilates (Raffles Quay · United Square · Katong · The Heeren · Galaxis), STRONG Pilates) Tanjong Pagar (Tanjong Pagar), MORF (Geylang / Sims Avenue), Lab Studios, Holland Village (Holland Village) and Pure Fitness, Pilates (Central Singapore). Each listing above covers what the studio is best for, its signature class and a booking tip." },
-  { q: "Which Singapore neighbourhoods are best for Pilates?", a: "This guide covers CBD & Tanjong Pagar, Orchard & River Valley, Holland Village & Buona Vista and Dempsey Hill & Tanglin. CBD & Tanjong Pagar: Singapore's financial district has a high density of studios catering to the lunchtime and early-morning professional crowd." },
+  { q: "Which Singapore neighborhoods are best for Pilates?", a: "This guide covers CBD & Tanjong Pagar, Orchard & River Valley, Holland Village & Buona Vista and Dempsey Hill & Tanglin. CBD & Tanjong Pagar: Singapore's financial district has a high density of studios catering to the lunchtime and early-morning professional crowd." },
   { q: "What should I know about booking Pilates classes in Singapore?", a: "Book 5–7 days ahead: Singapore studios fill fast. Singapore's premium Pilates studios run tight schedules and fill well in advance." },
   { q: "What should I bring to a Pilates class in Singapore?", a: "Grip socks are required at most reformer studios. Our gear list for Singapore covers Pilates grip socks, Pilates mat, magic circle, resistance bands, foam roller and home Pilates reformer." },
 ];
@@ -370,10 +370,10 @@ export default function SingaporePage() {
         <section className="py-20 px-6" style={{ backgroundColor: "#fcf9f8" }}>
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best neighbourhoods for Pilates in Singapore
+              Best neighborhoods for Pilates in Singapore
             </h2>
             <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-              Singapore's Pilates landscape is shaped by its neighbourhoods. Here's where to look depending on where you're based.
+              Singapore's Pilates landscape is shaped by its neighborhoods. Here's where to look depending on where you're based.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {NEIGHBORHOODS.map((n) => (

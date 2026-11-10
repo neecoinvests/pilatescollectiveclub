@@ -55,7 +55,7 @@ const STUDIOS = [
     name: "Fortides Pilates",
     neighborhood: "Roncesvalles",
     priceLevel: "C$$",
-    review: "Fortides Pilates has established a quiet authority in the Roncesvalles Village community: a studio where the teaching is serious but the atmosphere is never austere, which is precisely the combination the neighbourhood rewards. The reformer programming is grounded in classical method principles, and instructors are known for the kind of patient, observational teaching that produces real technical progress rather than just a good workout. Pricing is calibrated to the neighbourhood and reflects a genuine commitment to accessibility without sacrificing the quality of the equipment or the instruction. It attracts a mix of parents, creatives, and long-term Pilates practitioners who prefer depth to novelty.",
+    review: "Fortides Pilates has established a quiet authority in the Roncesvalles Village community: a studio where the teaching is serious but the atmosphere is never austere, which is precisely the combination the neighborhood rewards. The reformer programming is grounded in classical method principles, and instructors are known for the kind of patient, observational teaching that produces real technical progress rather than just a good workout. Pricing is calibrated to the neighborhood and reflects a genuine commitment to accessibility without sacrificing the quality of the equipment or the instruction. It attracts a mix of parents, creatives, and long-term Pilates practitioners who prefer depth to novelty.",
     address: "149 Roncesvalles Ave, Toronto, ON M6R 2L3",
     bestFor: "Classical reformer, accessible pricing, Roncesvalles community",
     signatureClass: "Classical Reformer (open level)",
@@ -66,7 +66,7 @@ const STUDIOS = [
     name: "Core Studio Pilates",
     neighborhood: "Queen West",
     priceLevel: "C$$$",
-    review: "Core Studio Pilates anchors the Queen West wellness corridor with a programme that matches the neighbourhood's design sensibility: considered, precise, and worth the investment. The studio runs reformer and apparatus classes in a beautifully appointed space, and the instruction is drawn from classical lineage with an intelligence that shows in the way teachers adapt to what is happening in the room rather than delivering a fixed routine. The clientele is predominantly creative professionals and Queen West regulars who regard their practice here as a non-negotiable part of the week. It is one of the most consistently praised studios in the city for the quality of its teaching staff.",
+    review: "Core Studio Pilates anchors the Queen West wellness corridor with a program that matches the neighborhood's design sensibility: considered, precise, and worth the investment. The studio runs reformer and apparatus classes in a beautifully appointed space, and the instruction is drawn from classical lineage with an intelligence that shows in the way teachers adapt to what is happening in the room rather than delivering a fixed routine. The clientele is predominantly creative professionals and Queen West regulars who regard their practice here as a non-negotiable part of the week. It is one of the most consistently praised studios in the city for the quality of its teaching staff.",
     address: "553 Queen St W, Toronto, ON",
     bestFor: "Classical-informed reformer, apparatus variety, Queen West professionals",
     signatureClass: "Core Reformer (55 min)",
@@ -81,14 +81,14 @@ const STUDIOS = [
     address: "",
     bestFor: "Reformer, welcoming atmosphere, Leslieville community, all levels",
     signatureClass: "Reformer Group",
-    bookingTip: "Leslieville parking is far more manageable than downtown Toronto: street parking is typically available. Book evening classes in advance as after-work demand in the neighbourhood is high.",
+    bookingTip: "Leslieville parking is far more manageable than downtown Toronto: street parking is typically available. Book evening classes in advance as after-work demand in the neighborhood is high.",
   },
   {
     number: "05",
     name: "Body Harmonics",
     neighborhood: "Dupont",
     priceLevel: "C$$$",
-    review: "Body Harmonics is one of Canada's most respected Pilates institutions: its teacher training programme has produced instructors working across the country, and the Dupont studio reflects the depth of that educational commitment in every class it offers. The teaching is rooted in functional anatomy and movement science, and instructors here think in terms of long-term structural change rather than short-term aesthetic outcomes, which produces a different quality of result for clients willing to engage at that level. Private and semi-private sessions allow the full scope of the Body Harmonics method to be applied to individual movement histories, and the results are consistently described as transformative by clients who have trained extensively elsewhere. It is Toronto's essential address for practitioners who regard Pilates as a therapeutic and developmental practice.",
+    review: "Body Harmonics is one of Canada's most respected Pilates institutions: its teacher training program has produced instructors working across the country, and the Dupont studio reflects the depth of that educational commitment in every class it offers. The teaching is rooted in functional anatomy and movement science, and instructors here think in terms of long-term structural change rather than short-term aesthetic outcomes, which produces a different quality of result for clients willing to engage at that level. Private and semi-private sessions allow the full scope of the Body Harmonics method to be applied to individual movement histories, and the results are consistently described as transformative by clients who have trained extensively elsewhere. It is Toronto's essential address for practitioners who regard Pilates as a therapeutic and developmental practice.",
     address: "672 Dupont St, Suite 406, Toronto, ON",
     bestFor: "Movement science-grounded Pilates, rehabilitation, serious practitioners, teacher training",
     signatureClass: "Private and Semi-Private Apparatus",
@@ -99,7 +99,7 @@ const STUDIOS = [
     name: "Imprint Pilates",
     neighborhood: "Kensington Market",
     priceLevel: "C$$",
-    review: "Imprint Pilates brings rigorous reformer instruction to Kensington Market at pricing that reflects the neighbourhood's anti-premium sensibility, making it one of the more refreshing studios in a city where boutique fitness can feel aspirationally priced. The teaching is grounded and attentive: instructors make real adjustments and ask real questions about how clients are feeling in their bodies, which is rarer than it should be. The studio attracts a diverse mix of practitioners including many who discovered Pilates here and have no desire to train anywhere else. For practitioners based in the Annex, Harbord Village, or Kensington itself, it is the neighbourhood option with nothing to apologise for.",
+    review: "Imprint Pilates brings rigorous reformer instruction to Kensington Market at pricing that reflects the neighborhood's anti-premium sensibility, making it one of the more refreshing studios in a city where boutique fitness can feel aspirationally priced. The teaching is grounded and attentive: instructors make real adjustments and ask real questions about how clients are feeling in their bodies, which is rarer than it should be. The studio attracts a diverse mix of practitioners including many who discovered Pilates here and have no desire to train anywhere else. For practitioners based in the Annex, Harbord Village, or Kensington itself, it is the neighborhood option with nothing to apologize for.",
     address: "",
     bestFor: "Reformer, accessible pricing, Kensington and Annex community",
     signatureClass: "Reformer Group",
@@ -108,18 +108,18 @@ const STUDIOS = [
 ];
 
 const BOOKING_TIPS = [
-  { heading: "Expect to pay CA$35–65 per class", body: "Toronto reformer Pilates pricing has risen steadily in recent years. Group reformer classes at independent studios typically run CA$35–50; premium boutique studios in Yorkville and Midtown charge CA$55–65 for group sessions and CA$90–150 for private instruction. Monthly memberships offer the best value for practitioners attending three or more times per week." },
+  { heading: "Expect to pay about $25–46 per class", body: "Toronto reformer Pilates pricing has risen steadily in recent years. Group reformer classes at independent studios typically run about $25–35; premium boutique studios in Yorkville and Midtown charge about $39–46 for group sessions and $64–105 for private instruction. Monthly memberships offer the best value for practitioners attending three or more times per week." },
   { heading: "ClassPass is widely available in Toronto", body: "ClassPass has strong Toronto coverage across the studio scene and is an effective way to trial different venues before committing to a membership. Note that premium studios and peak-time slots require higher credit allocations: budget accordingly if you're planning to target Yorkville or Midtown venues." },
   { heading: "Winters require planning ahead", body: "Toronto's winters significantly affect studio attendance patterns. January and February see high demand as practitioners seek warm indoor movement activities; competition for coveted morning slots intensifies. Book further in advance during these months: four to seven days is advisable for popular instructors." },
-  { heading: "HST is added to all studio transactions", body: "Ontario's Harmonised Sales Tax (13%) is added to all fitness studio purchases and may not be included in the displayed price. Factor this into your budget when comparing studio pricing: a CA$40 class is effectively CA$45.20 after tax." },
-  { heading: "Tipping instructors is appreciated but not mandatory", body: "Unlike the US, tipping fitness instructors in Canada is not culturally obligatory. That said, many Toronto Pilates clients do tip for exceptional private sessions: CA$10–20 is common. For group classes, leaving a thoughtful Google review is generally more meaningful to studios than a tip." },
+  { heading: "HST is added to all studio transactions", body: "Ontario's Harmonized Sales Tax (13%) is added to all fitness studio purchases and may not be included in the displayed price. Factor this into your budget when comparing studio pricing: a $28 class is effectively about $32 after tax." },
+  { heading: "Tipping instructors is appreciated but not mandatory", body: "Unlike the US, tipping fitness instructors in Canada is not culturally obligatory. That said, many Toronto Pilates clients do tip for exceptional private sessions: about $7–14 is common. For group classes, leaving a thoughtful Google review is generally more meaningful to studios than a tip." },
 ];
 
 const NEIGHBORHOODS = [
   { name: "Yorkville & Midtown", description: "Toronto's most premium wellness corridor runs through Yorkville and along the Yonge–Eglinton corridor. Studios here attract a mix of established professionals, healthcare executives, and serious practitioners willing to invest in the best instruction the city offers. Expect world-class teaching and pricing to match, but the quality ceiling here is genuinely high." },
   { name: "Queen West & Ossington", description: "Toronto's creative west end has developed a dynamic boutique studio scene that matches the area's design-forward character. Studios here tend to be progressive in their programming, community-oriented in their culture, and more accessible in pricing than the Yorkville corridor. A natural home for practitioners who want quality without formality." },
-  { name: "The Annex & Christie Pits", description: "The neighbourhoods between Bloor West and Spadina have nurtured a number of excellent independent studios serving the University of Toronto community and long-term Annex residents. The atmosphere is intellectual and unpretentious; instruction quality is reliably high; pricing is typically more accessible than the city centre. Worth seeking out for genuine neighbourhood studio culture." },
-  { name: "Leslieville & Riverdale", description: "Toronto's east end has been quietly developing a strong independent wellness scene over the past decade. Studios here are owner-operated, deeply community-embedded, and represent some of the best value-to-quality propositions in the city. The neighbourhoods' strong sense of local identity has fostered the kind of loyal studio communities that the best Pilates practices thrive on." },
+  { name: "The Annex & Christie Pits", description: "The neighborhoods between Bloor West and Spadina have nurtured a number of excellent independent studios serving the University of Toronto community and long-term Annex residents. The atmosphere is intellectual and unpretentious; instruction quality is reliably high; pricing is typically more accessible than the city center. Worth seeking out for genuine neighborhood studio culture." },
+  { name: "Leslieville & Riverdale", description: "Toronto's east end has been quietly developing a strong independent wellness scene over the past decade. Studios here are owner-operated, deeply community-embedded, and represent some of the best value-to-quality propositions in the city. The neighborhoods' strong sense of local identity has fostered the kind of loyal studio communities that the best Pilates practices thrive on." },
 ];
 
 const GEAR = [
@@ -176,8 +176,8 @@ const FURTHER_READING = [
 
 const CITY_FAQS = [
   { q: "What are the best Pilates studios in Toronto?", a: "Our 6 curated picks are Retrofit Pilates (Bloor West Village), Fortides Pilates (Roncesvalles), Core Studio Pilates (Queen West), Have a Nice Day Pilates (Leslieville), Body Harmonics (Dupont) and Imprint Pilates (Kensington Market). Each listing above covers what the studio is best for, its signature class and a booking tip." },
-  { q: "Which Toronto neighbourhoods are best for Pilates?", a: "This guide covers Yorkville & Midtown, Queen West & Ossington, The Annex & Christie Pits and Leslieville & Riverdale. Yorkville & Midtown: Toronto's most premium wellness corridor runs through Yorkville and along the Yonge–Eglinton corridor." },
-  { q: "What should I know about booking Pilates classes in Toronto?", a: "Expect to pay CA$35–65 per class. Toronto reformer Pilates pricing has risen steadily in recent years." },
+  { q: "Which Toronto neighborhoods are best for Pilates?", a: "This guide covers Yorkville & Midtown, Queen West & Ossington, The Annex & Christie Pits and Leslieville & Riverdale. Yorkville & Midtown: Toronto's most premium wellness corridor runs through Yorkville and along the Yonge–Eglinton corridor." },
+  { q: "What should I know about booking Pilates classes in Toronto?", a: "Expect to pay about $25–46 per class. Toronto reformer Pilates pricing has risen steadily in recent years." },
   { q: "What should I bring to a Pilates class in Toronto?", a: "Grip socks are required at most reformer studios. Our gear list for Toronto covers Pilates grip socks, Pilates mat, magic circle, resistance bands, foam roller and home Pilates reformer." },
 ];
 
@@ -299,8 +299,8 @@ export default function TorontoPage() {
 
         <section className="py-20 px-6" style={{ backgroundColor: "#fcf9f8" }}>
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Best neighbourhoods for Pilates in Toronto</h2>
-            <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Toronto's Pilates landscape is shaped by its neighbourhoods.</p>
+            <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Best neighborhoods for Pilates in Toronto</h2>
+            <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Toronto's Pilates landscape is shaped by its neighborhoods.</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {NEIGHBORHOODS.map((n) => (
                 <div key={n.name} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217, 194, 186, 0.35)" }}>
