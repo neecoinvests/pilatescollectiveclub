@@ -174,17 +174,6 @@ const jsonLd = {
             "availability": "https://schema.org/InStock",
             "url": p.affiliateUrl,
           },
-          "review": {
-            "@type": "Review",
-            "reviewBody": p.description,
-            "author": { "@type": "Organization", "name": "Pilates Collective Club" },
-            "reviewRating": {
-              "@type": "Rating",
-              "ratingValue": 5 - i * 0.1,
-              "bestRating": 5,
-              "worstRating": 1,
-            },
-          },
         },
       })),
     },

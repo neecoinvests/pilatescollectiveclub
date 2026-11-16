@@ -231,7 +231,6 @@ const jsonLd = {
           "name": p.name,
           "description": p.description,
           "offers": { "@type": "Offer", "priceCurrency": "USD", "price": p.price.replace(/[^0-9,]/g, "").split(",")[0], "availability": "https://schema.org/InStock", "url": p.affiliateUrl },
-          "review": { "@type": "Review", "reviewBody": p.description, "author": { "@type": "Organization", "name": "Pilates Collective Club" }, "reviewRating": { "@type": "Rating", "ratingValue": 4.9 - i * 0.05, "bestRating": 5, "worstRating": 1 } },
         },
       })),
     },
