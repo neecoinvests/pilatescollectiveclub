@@ -13,7 +13,7 @@ import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Lagree Socks (2026): Best Grip Socks for Lagree",
-  description: "The best Lagree socks for a moving Megaformer carriage: full-toe, closed-toe, toeless and men's grip socks, with Amazon prices verified October 2026.",
+  description: "The best Lagree socks for a moving Megaformer carriage: full-toe, closed-toe, toeless and men's grip socks, with Amazon prices verified November 2026.",
   keywords: ["lagree socks", "lagree grip socks", "socks for lagree", "megaformer socks", "grip socks for lagree", "lagree socks men", "best socks for lagree class", "toesox lagree", "tavi grip socks lagree", "toeless grip socks lagree"],
   openGraph: {
     title: "Lagree Socks (2026): Best Grip Socks for Lagree",
@@ -85,16 +85,26 @@ const PRODUCTS = [
   },
   {
     rank: "06",
+    name: "Ozaiic Pilates Grip Socks (Cotton, Full Cushion Sole)",
+    price: "$13.99",
+    verdict: "Best cushioned cotton sock",
+    description:
+      "Ozaiic's grip socks are combed cotton with a fully cushioned sole and a ballet-inspired strap across the top, per the listing, sold by Ozaiic. The cushioning is the reason to pick them for Lagree: kneeling and long holds on the carriage are kinder on the feet with a padded sole, and cotton is comfortable against the skin through a long, hot class. The listing describes grip across the bottom of the sock; as with any pair, check the sole photos to confirm it reaches under the ball of the foot. One size fits women's shoe sizes US 5.5 to 11, so larger feet should look at the men's pairs below.",
+    affiliateUrl: "https://www.amazon.com/dp/B07CQM36X3?tag=pilatescollective-20",
+    tag: "Best Cushioned",
+  },
+  {
+    rank: "07",
     name: "Muezna Pilates Grip Socks (6 Pairs)",
-    price: "$7.59",
+    price: "$7.99",
     verdict: "Best multi-pack on a budget",
     description:
-      "Six pairs for $7.59 solves the real Lagree sock problem, which is volume rather than prestige. If you take three or four classes a week, you need a rotation, every pair comes off damp, and buying that many branded pairs is an expensive way to stay ahead of your laundry. A budget multi-pack like this is ideal for a first month of classes, for keeping a spare pair in your car or bag, or as the everyday pairs that let your premium socks last longer. Set your expectations accordingly: at this price, do not expect the same finish or longevity as toesox or TAVI. Look at the sole photos and choose a pattern with grip reaching under the ball of the foot, which is where your weight lands in planks and lunges.",
+      "Six pairs for $7.99 solves the real Lagree sock problem, which is volume rather than prestige. If you take three or four classes a week, you need a rotation, every pair comes off damp, and buying that many branded pairs is an expensive way to stay ahead of your laundry. A budget multi-pack like this is ideal for a first month of classes, for keeping a spare pair in your car or bag, or as the everyday pairs that let your premium socks last longer. Set your expectations accordingly: at this price, do not expect the same finish or longevity as toesox or TAVI. Look at the sole photos and choose a pattern with grip reaching under the ball of the foot, which is where your weight lands in planks and lunges.",
     affiliateUrl: "https://www.amazon.com/dp/B0DQ53GSP5?tag=pilatescollective-20",
     tag: "Best Multi-Pack",
   },
   {
-    rank: "07",
+    rank: "08",
     name: "Muezna Men's Non-Slip Yoga Socks",
     price: "$19.11",
     verdict: "Best Lagree socks for men",
@@ -104,7 +114,7 @@ const PRODUCTS = [
     tag: "Best for Men",
   },
   {
-    rank: "08",
+    rank: "09",
     name: "CoolMate Men's Grip Socks (4 Pairs)",
     price: "$14.99",
     verdict: "Best men's multi-pack",
@@ -114,12 +124,12 @@ const PRODUCTS = [
     tag: "Men's Multi-Pack",
   },
   {
-    rank: "09",
+    rank: "10",
     name: "Gaiam Grippy Studio Yoga Socks",
-    price: "$9.00",
+    price: "$9.49",
     verdict: "Best open-toe budget option",
     description:
-      "If you have a trial class booked tomorrow and want to avoid paying studio-reception prices, Gaiam is the cheap, widely available fallback. It is a yoga sock first, not a Lagree-specific design, and the open-toe style has the same pros and cons as the Tucketts pair above: cooler and more toe contact, less coverage. At $9.00 (sold by Amazon.com at the time we checked) it is a reasonable way to find out whether you enjoy Lagree before you spend more. If you keep going, upgrade to a pair you choose deliberately for the sole pattern and fit.",
+      "If you have a trial class booked tomorrow and want to avoid paying studio-reception prices, Gaiam is the cheap, widely available fallback. It is a yoga sock first, not a Lagree-specific design, and the open-toe style has the same pros and cons as the Tucketts pair above: cooler and more toe contact, less coverage. At $9.49 (sold by Amazon.com at the time we checked) it is a reasonable way to find out whether you enjoy Lagree before you spend more. If you keep going, upgrade to a pair you choose deliberately for the sole pattern and fit.",
     affiliateUrl: "https://www.amazon.com/dp/B079VX3FBG?tag=pilatescollective-20",
     tag: "Budget Open-Toe",
   },
@@ -140,10 +150,10 @@ const jsonLd = {
     {
       "@type": "Article",
       "headline": "Lagree Socks (2026): Best Grip Socks for Lagree",
-      "description": "The best Lagree socks for a moving Megaformer carriage: full-toe, closed-toe, toeless and men's grip socks, with Amazon prices verified October 2026.",
+      "description": "The best Lagree socks for a moving Megaformer carriage: full-toe, closed-toe, toeless and men's grip socks, with Amazon prices verified November 2026.",
       "url": "https://pilatescollectiveclub.com/blog/best-lagree-grip-socks",
       "datePublished": "2026-09-12",
-      "dateModified": "2026-10-20",
+      "dateModified": "2026-11-16",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/stitch-grip-socks-footbar.png", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -182,7 +192,7 @@ const jsonLd = {
 const h2Style = { color: "#1b1c1c", fontFamily: "'Playfair Display', serif" };
 const bodyStyle = { color: "#53433e", fontFamily: "'Montserrat', sans-serif" };
 
-const QP_NOTES = ["Best overall Lagree socks", "Best single pair", "Premium pick", "Best closed-toe value", "Best toeless", "Best multi-pack on a budget", "Best Lagree socks for men", "Best men's multi-pack", "Best open-toe budget option"];
+const QP_NOTES = ["Best overall Lagree socks", "Best single pair", "Premium pick", "Best closed-toe value", "Best toeless", "Best cushioned cotton sock", "Best multi-pack on a budget", "Best Lagree socks for men", "Best men's multi-pack", "Best open-toe budget option"];
 
 export default function BestLagreeGripSocksPage() {
   return (
@@ -200,11 +210,11 @@ export default function BestLagreeGripSocksPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               Lagree Socks<br /><span style={{ color: "#8b4a31" }}>The Best Grip Socks for Lagree (2026)</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 9 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked November 16, 2026 · 9 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Lagree socks are not a special product, they are grip socks, but Lagree asks more of them than almost any other class. You hold slow lunges and planks for long sets on a carriage that moves under you, you sweat heavily, and you kneel, step and transition between platforms all class. Below are nine verified pairs covering every style that works: full-toe, closed-toe, toeless, men&apos;s and budget multi-packs.
+              Lagree socks are not a special product, they are grip socks, but Lagree asks more of them than almost any other class. You hold slow lunges and planks for long sets on a carriage that moves under you, you sweat heavily, and you kneel, step and transition between platforms all class. Below are ten verified pairs covering every style that works: full-toe, closed-toe, toeless, cushioned cotton, men&apos;s and budget multi-packs.
             </p>
           </div>
         </section>
@@ -238,7 +248,7 @@ export default function BestLagreeGripSocksPage() {
             </div>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>9 Pairs · Verified Listings</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>10 Pairs · Verified Listings</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>

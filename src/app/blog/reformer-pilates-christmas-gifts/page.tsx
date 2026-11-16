@@ -110,11 +110,11 @@ const GUIDE: DealsGuideProps = {
       "intro": "Props that recreate reformer-style work on the mat.",
       "items": [
         {
-          "asin": "B0008MF640",
-          "name": "Balanced Body Ultra-Fit Circle Mini (12\")",
+          "asin": "B086HNGNFZ",
+          "name": "Gaiam Pilates Ring Fitness Circle (15\")",
           "badge": "Best ring",
-          "note": "Balanced Body's 12-inch mini ring.",
-          "price": "$30.00"
+          "note": "A 15-inch Pilates ring with foam-padded handles, sold by Amazon.com.",
+          "price": "$18.24"
         },
         {
           "asin": "B002YR1YJ8",

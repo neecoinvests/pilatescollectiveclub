@@ -12,7 +12,7 @@ import { jsonLdHtml, productItemList } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Best Luxury Pilates Mats (2026)",
-  description: "The best luxury Pilates mats on Amazon: Manduka PRO, Liforme, Hugger Mugger, JadeYoga and Yoga Design Lab compared for grip, cushioning and longevity.",
+  description: "The best luxury Pilates mats on Amazon: Manduka PRO and eKO, Liforme, Hugger Mugger, JadeYoga and Yoga Design Lab compared for grip, cushioning and longevity.",
   keywords: [
     "best luxury pilates mat",
     "premium pilates mat 2026",
@@ -44,10 +44,10 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "Manduka PRO Yoga & Pilates Mat 6mm",
-    price: "$141.00",
+    price: "$144.00",
     verdict: "Best Overall Luxury",
     description: "The Manduka PRO is the studio standard, and it comes with a lifetime guarantee. Its 6mm ultra-dense cushioning is the right amount for spinal articulation and kneeling work without the wobble of soft foam, the closed-cell surface keeps sweat from soaking in and wipes clean easily, and a dotted underside keeps it planted. At 71 × 26 inches it's a little wider than most mats, and at 7.5 lbs it's a home mat rather than one you carry around. Expect a short break-in before it reaches full grip. Sold by Amazon.",
-    affiliateUrl: "https://www.amazon.com/dp/B01I5CFUHM?tag=pilatescollective-20",
+    affiliateUrl: "https://www.amazon.com/dp/B0000DZFXZ?tag=pilatescollective-20",
     tag: "Studio Standard",
   },
   {
@@ -79,6 +79,15 @@ const PRODUCTS = [
   },
   {
     rank: "05",
+    name: "Manduka eKO Yoga Mat 5mm",
+    price: "$114.00",
+    verdict: "Best Eco Natural Rubber",
+    description: "The eKO is Manduka's natural-rubber mat: biodegradable tree rubber with no PVC, foaming agents or plasticizers, per the listing. The rippled, textured surface grips well in dry conditions and the latest version adds a wet-grip finish, while 5mm of cushioning is enough for rolling and kneeling work. It is 71 inches long and weighs about 7 lbs. Manduka describes its manufacturing process as latex-free, but natural rubber has a characteristic smell that fades with use. Clean it with a spray and a wipe, never by soaking. Sold by Amazon.com.",
+    affiliateUrl: "https://www.amazon.com/dp/B00DJQF9D0?tag=pilatescollective-20",
+    tag: "Eco Rubber",
+  },
+  {
+    rank: "06",
     name: "JadeYoga Harmony Mat",
     price: "$114.95",
     verdict: "Best Natural Rubber",
@@ -87,7 +96,7 @@ const PRODUCTS = [
     tag: "Made in USA",
   },
   {
-    rank: "06",
+    rank: "07",
     name: "Yoga Design Lab Combo Mat 5.5mm",
     price: "$131",
     verdict: "Best Mat-and-Towel in One",
@@ -103,10 +112,10 @@ const jsonLd = {
     {
       "@type": "Article",
       headline: "Best Luxury Pilates Mats (2026)",
-      description: "The best luxury Pilates mats on Amazon: Manduka PRO, Liforme, Hugger Mugger, JadeYoga and Yoga Design Lab compared for grip, cushioning and longevity.",
+      description: "The best luxury Pilates mats on Amazon: Manduka PRO and eKO, Liforme, Hugger Mugger, JadeYoga and Yoga Design Lab compared for grip, cushioning and longevity.",
       url: "https://pilatescollectiveclub.com/blog/best-luxury-pilates-mat",
       datePublished: "2026-07-06",
-      dateModified: "2026-10-20",
+      dateModified: "2026-11-16",
       image: "https://pilatescollectiveclub.com/pictures/stitch-mat-setup-beige.png",
       author: { "@type": "Organization", name: "Pilates Collective Club", url: "https://pilatescollectiveclub.com" },
       publisher: { "@type": "Organization", name: "Pilates Collective Club", logo: { "@type": "ImageObject", url: "https://pilatescollectiveclub.com/logo.png" } },
@@ -137,7 +146,7 @@ const jsonLd = {
   ],
 };
 
-const QP_NOTES = ["Best Overall Luxury", "Best Alignment Lines", "Best Heavyweight Mat", "Best Everyday Luxury", "Best Natural Rubber", "Best Mat-and-Towel in One"];
+const QP_NOTES = ["Best Overall Luxury", "Best Alignment Lines", "Best Heavyweight Mat", "Best Everyday Luxury", "Best Eco Natural Rubber", "Best Natural Rubber", "Best Mat-and-Towel in One"];
 
 const ITEM_LIST = productItemList("Best Luxury Pilates Mats (2026)", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 
@@ -156,14 +165,14 @@ export default function BestLuxuryPilatesMatPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               Best Luxury Pilates Mats<br /><span style={{ color: "#8b4a31" }}>(2026)</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 9 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked November 16, 2026 · 9 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p style={{ fontFamily: "var(--font-sans)", fontSize: "17px", fontWeight: 300, color: "#4a4540", lineHeight: 1.8, marginBottom: "16px" }}>
               A premium mat is not an indulgence: it is the single surface between your spine and the floor for every mat Pilates class you will ever take. The quality of that surface affects grip security, spinal cushioning, hygiene, and ultimately your ability to focus on movement rather than your equipment.
             </p>
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              These six mats represent the finest available in 2026, each compared on grip stability, cushioning precision, ease of care, and the intangible quality of a mat that makes every session feel more considered.
+              These seven mats represent the finest available in 2026, each compared on grip stability, cushioning precision, ease of care, and the intangible quality of a mat that makes every session feel more considered.
             </p>
           </div>
         </section>

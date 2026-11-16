@@ -113,14 +113,14 @@ const GUIDE: DealsGuideProps = {
           "name": "Gaiam Pilates Ring (15\")",
           "badge": "Best ring",
           "note": "A 15-inch Pilates ring for inner thighs, arms and core.",
-          "price": "$24.99"
+          "price": "$18.24"
         },
         {
-          "asin": "B0008MF640",
-          "name": "Balanced Body Ultra-Fit Circle Mini (12\")",
+          "asin": "B002YQW3IU",
+          "name": "Balanced Body Ultra-Fit Circle (15\")",
           "badge": "Best studio-brand ring",
-          "note": "Balanced Body's 12-inch mini ring.",
-          "price": "$30.00"
+          "note": "Balanced Body's 15-inch ring with padded inner and outer handles.",
+          "price": "$35.00"
         },
         {
           "asin": "B010TJC4IM",

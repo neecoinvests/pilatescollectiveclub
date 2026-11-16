@@ -11,8 +11,8 @@ import CTASection from "@/components/CTASection";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Bodysuits (2026): 6 Picks for the Reformer",
-  description: "Nine Pilates bodysuits compared on stretch recovery, opacity and coverage through inversions, from buttery-soft picks to the best value option.",
+  title: "Best Pilates Bodysuits (2026): 7 Picks for the Reformer",
+  description: "Seven Pilates bodysuits compared on stretch recovery, opacity and coverage through inversions, from buttery-soft picks to the best value option.",
   keywords: ["best pilates bodysuits", "pilates bodysuit 2026", "best bodysuit for reformer pilates", "alo yoga bodysuit pilates", "lululemon bodysuit pilates", "pilates activewear bodysuit review", "best workout bodysuit pilates"],
   openGraph: {
     title: "Best Pilates Bodysuits (2026): Compared & Ranked",
@@ -44,6 +44,16 @@ const PRODUCTS = [
   },
   {
     rank: "02",
+    name: "YIOIOIO Seamless Ribbed Jumpsuit",
+    price: "$14.99",
+    verdict: "Best budget ribbed jumpsuit",
+    description:
+      "The budget way into the one-piece look. YIOIOIO's jumpsuit is a seamless rib-knit with a square neck and full-length legs, made with as few seams as possible and a 4-way stretch fabric that the listing describes as thick enough not to be see-through. The snug, compressive fit stays put through rolling and inversions, which is what you want on the reformer. It does not have the technical finish of the premium picks, but at $14.99, sold by YIOIOIO Athletica, it is an inexpensive way to find out whether you like training in a jumpsuit.",
+    affiliateUrl: "https://www.amazon.com/dp/B0C72LV7K6?tag=pilatescollective-20",
+    tag: "Best Budget",
+  },
+  {
+    rank: "03",
     name: "Girlfriend Collective Paloma Bra Bodysuit",
     price: "From $68",
     verdict: "Best sustainable option",
@@ -53,7 +63,7 @@ const PRODUCTS = [
     tag: "Best Sustainable",
   },
   {
-    rank: "03",
+    rank: "04",
     name: "CRZ YOGA Naked Feeling Bodysuit",
     price: "From $34",
     verdict: "Best value bodysuit",
@@ -63,7 +73,7 @@ const PRODUCTS = [
     tag: "Best Value",
   },
   {
-    rank: "04",
+    rank: "05",
     name: "Alo Yoga Airlift Suit",
     price: "From $118",
     verdict: "Best overall Pilates bodysuit",
@@ -73,7 +83,7 @@ const PRODUCTS = [
     tag: "Editor's Pick",
   },
   {
-    rank: "05",
+    rank: "06",
     name: "Lululemon Align Bodysuit",
     price: "From $108",
     verdict: "Best for buttery softness",
@@ -83,7 +93,7 @@ const PRODUCTS = [
     tag: "Most Popular",
   },
   {
-    rank: "06",
+    rank: "07",
     name: "Vuori Halo Performance Bodysuit",
     price: "From $78",
     verdict: "Best breathable bodysuit",
@@ -103,7 +113,7 @@ const jsonLd = {
       "description": "The best bodysuits for Pilates in 2026: compared on reformer performance, coverage, and studio style.",
       "url": "https://pilatescollectiveclub.com/blog/best-pilates-bodysuits",
       "datePublished": "2026-05-21",
-      "dateModified": "2026-10-20",
+      "dateModified": "2026-11-16",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -112,9 +122,9 @@ const jsonLd = {
     {
       "@type": "ItemList",
       "name": "Best Pilates Bodysuits (2026)",
-      "description": "The six best bodysuits for Pilates, compared and ranked.",
+      "description": "The seven best bodysuits for Pilates, compared and ranked.",
       "url": "https://pilatescollectiveclub.com/blog/best-pilates-bodysuits",
-      "numberOfItems": 6,
+      "numberOfItems": PRODUCTS.length,
       "itemListElement": PRODUCTS.map((p, i) => ({
         "@type": "ListItem",
         "position": i + 1,
@@ -123,7 +133,6 @@ const jsonLd = {
           "name": p.name,
           "description": p.description,
           "offers": { "@type": "Offer", "priceCurrency": "USD", "price": p.price, "availability": "https://schema.org/InStock", "url": p.affiliateUrl },
-          "review": { "@type": "Review", "reviewBody": p.description, "author": { "@type": "Organization", "name": "Pilates Collective Club" }, "reviewRating": { "@type": "Rating", "ratingValue": 5 - i * 0.1, "bestRating": 5, "worstRating": 1 } },
         },
       })),
     },
@@ -147,7 +156,7 @@ const jsonLd = {
   ],
 };
 
-const QP_NOTES = ["Best for studio aesthetics", "Best sustainable option", "Best value bodysuit", "Best overall Pilates bodysuit", "Best for buttery softness", "Best breathable bodysuit"];
+const QP_NOTES = ["Best for studio aesthetics", "Best budget ribbed jumpsuit", "Best sustainable option", "Best value bodysuit", "Best overall Pilates bodysuit", "Best for buttery softness", "Best breathable bodysuit"];
 
 export default function BestPilatesBodysuitsPage() {
   return (
@@ -165,11 +174,11 @@ export default function BestPilatesBodysuitsPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               Best Pilates Bodysuits<br /><span style={{ color: "#8b4a31" }}>(2026): Compared & Ranked</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 8 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked November 16, 2026 · 8 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              The bodysuit has become the dominant silhouette in boutique Pilates studios, and for practical reasons, not just aesthetic ones. Unlike a separate top, a bodysuit cannot ride up, bunch at the waist, or come untucked during the continuous transitions of a reformer class. Instructors can observe spinal position and hip alignment without fabric interference, and practitioners can move through the full repertoire without interruption. These six bodysuits have been selected for reformer performance, fabric quality, and staying power in serious studios.
+              The bodysuit has become the dominant silhouette in boutique Pilates studios, and for practical reasons, not just aesthetic ones. Unlike a separate top, a bodysuit cannot ride up, bunch at the waist, or come untucked during the continuous transitions of a reformer class. Instructors can observe spinal position and hip alignment without fabric interference, and practitioners can move through the full repertoire without interruption. These seven bodysuits have been selected for reformer performance, fabric quality, and staying power in serious studios.
             </p>
           </div>
         </section>
@@ -260,7 +269,7 @@ export default function BestPilatesBodysuitsPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Pilates Leggings" excerpt="Five leggings that pair perfectly with any bodysuit." href="/blog/best-pilates-leggings" category="Apparel" readTime="9 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />
                 <ArticleCard title="What to Wear to Pilates" excerpt="The complete guide to choosing the right clothes for studio and reformer classes." href="/blog/what-to-wear-to-pilates" category="Guide" readTime="6 min read" date="May 2026" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
-                <ArticleCard title="Alo Yoga Pilates Activewear" excerpt="Alo makes two of the six bodysuits in this guide: here's our full brand review." href="/blog/alo-yoga-pilates" category="Brand Review" readTime="10 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg" />
+                <ArticleCard title="Alo Yoga Pilates Activewear" excerpt="Alo's Airlift Suit is one of the picks in this guide: here's our full brand review." href="/blog/alo-yoga-pilates" category="Brand Review" readTime="10 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg" />
                 <ArticleCard title="Lululemon Align Review" excerpt="The most popular Pilates bodysuit in the world: honestly reviewed." href="/blog/lululemon-align-review" category="Brand Review" readTime="10 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg" />
               </div>
             </div>

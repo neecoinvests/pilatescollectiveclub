@@ -35,7 +35,7 @@ const PRODUCTS = [
   {
     rank: "01",
     name: "Gaiam On-The-Go Yoga Mat Bag",
-    price: "$19.99",
+    price: "$19.98",
     verdict: "Best enclosed mat bag",
     description:
       "Gaiam's On-The-Go Mat Bag is a fully enclosed bag rather than an open-sling carrier: the mat slides in through a wide zip opening and is completely protected from rain, dust, and contact. This makes it preferable for transit journeys where an open sling would expose the mat, or for practitioners who store their mat in shared spaces and want full enclosure. The bag is sized to fit mats up to 68 inches long and 6mm thick, which accommodates most standard Pilates mats. The exterior pocket is large enough for a small towel and grip socks. A practical, durable option for practitioners who prioritize mat protection over minimal-carry aesthetics.",
@@ -44,6 +44,16 @@ const PRODUCTS = [
   },
   {
     rank: "02",
+    name: "Tumaz Yoga Mat Strap",
+    price: "$6.99",
+    verdict: "Best value mat carrier",
+    description:
+      "If you only need to get your mat from home to the studio, a strap does the job for a fraction of the price of a bag. Tumaz's strap is an extra-thick cotton-polyester blend with self-cinching slipknot loops that tighten around the rolled mat, so there are no buckles to adjust, and it fits most standard and oversized mats, per the listing. It carries over the shoulder, comes in two sizes and more than 16 colors, and is sold by Tumaz at $6.99. The trade-off is protection: an open strap leaves the mat exposed to rain and grime, so choose an enclosed bag for long commutes on foot or transit.",
+    affiliateUrl: "https://www.amazon.com/dp/B07HQFLDBJ?tag=pilatescollective-20",
+    tag: "Best Value",
+  },
+  {
+    rank: "03",
     name: "Manduka Go Play 2.0 Mat Carrier",
     price: "From $52",
     verdict: "Best overall mat carrier",
@@ -53,7 +63,7 @@ const PRODUCTS = [
     tag: "Editor's Pick",
   },
   {
-    rank: "03",
+    rank: "04",
     name: "Lole Roll and Go Yoga Mat Bag",
     price: "From $38",
     verdict: "Best style-forward carrier",
@@ -61,16 +71,6 @@ const PRODUCTS = [
       "Lole's Roll and Go is the most aesthetically refined mat carrier in this guide: it reads as a considered accessory rather than gym equipment, making it appropriate for commutes that pass through offices, cafes, or other non-gym environments. The design uses a single full-length strap that wraps around the mat in multiple configurations, with a top handle for short carries and a shoulder strap for longer distances. The adjustable closure accommodates a range of mat diameters, and the fabric choices lean towards neutrals and earthy tones that complement the Pilates studio aesthetic. For practitioners who care about how their kit looks outside the studio, Lole offers the cleanest option in this category.",
     affiliateUrl: "https://www.amazon.com/s?k=lole+roll+go+yoga+mat+bag&tag=pilatescollective-20",
     tag: "Best Aesthetic",
-  },
-  {
-    rank: "04",
-    name: "Tumaz Yoga Mat Bag",
-    price: "From $18",
-    verdict: "Best value mat bag",
-    description:
-      "The Tumaz Yoga Mat Bag is a fully enclosed design at a price point that makes it the obvious starting choice for practitioners who haven't yet decided how much they want to invest in a mat carrier. The bag fits mats up to 72 inches long and 4 inches in diameter, which covers most standard Pilates mats, and includes a small external pocket for essentials. The shoulder strap is not padded, which limits comfort on longer carries, but is adequate for short studio-to-car or studio-to-transit journeys. The closure design keeps the mat completely enclosed and dust-free. A practical, no-frills starting point that performs its function reliably.",
-    affiliateUrl: "https://www.amazon.com/s?k=tumaz+yoga+mat+bag+carrier&tag=pilatescollective-20",
-    tag: "Best Value",
   },
   {
     rank: "05",
@@ -93,7 +93,7 @@ const jsonLd = {
       "description": "The best Pilates mat bags and carriers: compared on durability, comfort, and mat compatibility.",
       "url": "https://pilatescollectiveclub.com/blog/best-pilates-mat-bag",
       "datePublished": "2026-05-21",
-      "dateModified": "2026-10-20",
+      "dateModified": "2026-11-16",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/jade-stephens-N21356amsyw-unsplash.jpg", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -133,7 +133,7 @@ const jsonLd = {
   ],
 };
 
-const QP_NOTES = ["Best enclosed mat bag", "Best overall mat carrier", "Best style-forward carrier", "Best value mat bag", "Best for wide or thick mats"];
+const QP_NOTES = ["Best enclosed mat bag", "Best value mat carrier", "Best overall mat carrier", "Best style-forward carrier", "Best for wide or thick mats"];
 
 export default function BestPilatesMatBagPage() {
   return (
@@ -151,7 +151,7 @@ export default function BestPilatesMatBagPage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               Best Pilates Mat Bags<br /><span style={{ color: "#8b4a31" }}>(2026): Carriers Compared</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 7 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked November 16, 2026 · 7 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>

@@ -1394,7 +1394,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Best Pilates Grip Socks (2026): Compared & Ranked",
-    excerpt: "Required at virtually every reformer studio. Five options across every price point and preference.",
+    excerpt: "Required at virtually every reformer studio. Six options across every price point and preference.",
     href: "/blog/best-pilates-grip-socks",
     category: "Equipment",
     readTime: "7 min",

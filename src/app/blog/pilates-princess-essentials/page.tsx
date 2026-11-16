@@ -331,20 +331,20 @@ const SECTIONS: Section[] = [
       {
         tier: "Best",
         tag: "Best: the ring",
-        name: "Balanced Body Ultra-Fit Circle Mini 12\"",
-        price: "$30.00",
+        name: "Balanced Body Ultra-Fit Circle 15\"",
+        price: "$35.00",
         description:
-          "Balanced Body is one of the major studio equipment makers, and its mini circle is a compact 12\" Pilates ring for inner- and outer-thigh work, arm presses and chest work. A studio-brand prop at a small-prop price. $30.00, sold by Balanced Body Inc.",
-        url: amazon("B0008MF640"),
+          "Balanced Body is one of the major studio equipment makers, and its Ultra-Fit Circle is a 15\" Pilates ring with a soft rubberized shell and padded handles inside and out, for inner- and outer-thigh work, arm presses and chest work. A studio-brand prop at a small-prop price. $35.00, sold by Balanced Body Inc.",
+        url: amazon("B002YQW3IU"),
         glance: "Pilates ring",
       },
       {
         tier: "Budget",
         tag: "Budget: the ring",
         name: "Gaiam Pilates Ring Fitness Circle 15\"",
-        price: "$19.78",
+        price: "$18.24",
         description:
-          "A larger 15\" ring from Gaiam for less. Perfectly fine for learning ring work at home. $19.78, sold by Amazon.com.",
+          "A 15\" ring from Gaiam for about half the price. Perfectly fine for learning ring work at home. $18.24, sold by Amazon.com.",
         url: amazon("B086HNGNFZ"),
       },
     ],
@@ -443,7 +443,7 @@ const FULL_EDIT = [
   "Varley Davidson Sweat (Taupe Marl)",
   "Liforme Original Yoga Mat (alignment design)",
   "Bala Pilates Ball (small, non-weighted)",
-  "Balanced Body Ultra-Fit Circle Mini 12\"",
+  "Balanced Body Ultra-Fit Circle 15\"",
   "Therabody TheraGun Relief Massage Gun",
 ].map(findItem);
 

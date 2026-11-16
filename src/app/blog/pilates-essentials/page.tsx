@@ -349,19 +349,19 @@ const CATEGORIES: Category[] = [
     picks: [
       {
         tier: "Best",
-        name: "Balanced Body Ultra-Fit Circle Mini 12\"",
-        price: "$30.00",
-        url: amz("B0008MF640"),
+        name: "Balanced Body Ultra-Fit Circle 15\"",
+        price: "$35.00",
+        url: amz("B002YQW3IU"),
         description:
-          "Balanced Body is one of the main studio equipment makers, and this is its 12\" ring, sold by Balanced Body Inc. The smaller diameter works well between the knees or ankles.",
+          "Balanced Body is one of the main studio equipment makers, and this is its 15\" ring, sold by Balanced Body Inc. A soft rubberized shell and padded handles on the inside and outside make it comfortable between the knees or in the hands.",
       },
       {
         tier: "Budget",
         name: "Gaiam Pilates Ring Fitness Circle 15\"",
-        price: "$19.78",
+        price: "$18.24",
         url: amz("B086HNGNFZ"),
         description:
-          "A full-size 15\" ring at under half the price, sold by Amazon.com. A sensible first ring if you are trying out home Pilates.",
+          "A full-size 15\" ring at about half the price, sold by Amazon.com. A sensible first ring if you are trying out home Pilates.",
       },
     ],
   },
