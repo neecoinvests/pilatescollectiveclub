@@ -476,7 +476,7 @@ export default function BestReformerBrandsPage() {
                       <div style={{ borderTop: "1px solid #ede9e3", paddingTop: "24px", paddingBottom: "28px" }}>
                         <div className="flex justify-between items-start gap-4 mb-2.5">
                           <h3 style={{ fontFamily: "var(--font-serif)", fontSize: "20px", fontWeight: 400, color: "#0a0a0a", lineHeight: 1.2, margin: 0 }}>{brand.name}</h3>
-                          <span style={{ fontFamily: "var(--font-sans)", fontSize: "12px", color: "#c5a882", whiteSpace: "nowrap", letterSpacing: "0.05em" }}>{brand.price}</span>
+                          <span style={{ fontFamily: "var(--font-sans)", fontSize: "13px", fontWeight: 600, color: "#8f6d3f", whiteSpace: "nowrap", letterSpacing: "0.03em" }}>{brand.price}</span>
                         </div>
                         <p style={{ fontFamily: "var(--font-sans)", fontSize: "12px", color: "#8b4a31", marginBottom: "14px" }}>Flagship: {brand.flagship} · Best for: {brand.bestFor}</p>
                         <p style={{ fontFamily: "var(--font-sans)", fontSize: "13px", fontWeight: 300, color: "#6b6560", lineHeight: 1.75, marginBottom: "18px" }}>{brand.summary}</p>

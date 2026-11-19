@@ -47,7 +47,7 @@ export default function StudioListing({
             <span style={{ fontFamily: "var(--font-sans)", fontSize: "11px", fontWeight: 300, color: "#9a9490", letterSpacing: "0.05em" }}>
               {neighborhood}
             </span>
-            <span style={{ fontFamily: "var(--font-sans)", fontSize: "11px", fontWeight: 500, color: "#c5a882", letterSpacing: "0.1em" }}>
+            <span style={{ fontFamily: "var(--font-sans)", fontSize: "11px", fontWeight: 600, color: "#8f6d3f", letterSpacing: "0.1em" }}>
               {priceLevel}
             </span>
             {rating && (

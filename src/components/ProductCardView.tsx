@@ -47,7 +47,7 @@ export default function ProductCardView({ name, description, price, affiliateUrl
               {name}
             </h3>
             {price && (
-              <span style={{ fontFamily: "var(--font-sans)", fontSize: "12px", fontWeight: 400, color: "#c5a882", whiteSpace: "nowrap", textAlign: "right", letterSpacing: "0.05em" }}>
+              <span style={{ fontFamily: "var(--font-sans)", fontSize: "13px", fontWeight: 600, color: "#8f6d3f", whiteSpace: "nowrap", textAlign: "right", letterSpacing: "0.03em" }}>
                 {price}
               </span>
             )}
@@ -97,9 +97,9 @@ export default function ProductCardView({ name, description, price, affiliateUrl
           {price && (
             <span style={{
               fontFamily: "var(--font-sans)",
-              fontSize: "12px",
-              fontWeight: 400,
-              color: "#c5a882",
+              fontSize: "13px",
+              fontWeight: 600,
+              color: "#8f6d3f",
               whiteSpace: price.length > 16 ? "normal" : "nowrap",
               maxWidth: price.length > 16 ? "45%" : undefined,
               textAlign: "right",

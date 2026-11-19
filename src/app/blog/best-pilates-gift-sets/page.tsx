@@ -226,7 +226,7 @@ export default function Page() {
                     <span style={{ fontFamily: "var(--font-serif)", fontSize: "13px", color: "#c5a882", minWidth: "24px" }}>{p.rank}</span>
                     <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "1.35rem", fontWeight: 400, color: "#1a1714", margin: 0 }}>{p.name}</h2>
                   </div>
-                  <span style={{ fontFamily: "var(--font-sans)", fontSize: "12px", color: "#c5a882", whiteSpace: "nowrap" }}>{p.price}</span>
+                  <span style={{ fontFamily: "var(--font-sans)", fontSize: "13px", fontWeight: 600, color: "#8f6d3f", whiteSpace: "nowrap" }}>{p.price}</span>
                 </div>
                 <div style={{ paddingLeft: "40px" }}>
                   <span style={{ fontFamily: "var(--font-sans)", fontSize: "9px", fontWeight: 700, letterSpacing: "0.2em", textTransform: "uppercase", color: "#8b4a31", display: "block", marginBottom: "12px" }}>{p.verdict}</span>

@@ -63,8 +63,8 @@ function MegaPanel({ menu, active, setActive, onNavigate }: { menu: Menu; active
                       marginBottom: "2px",
                       fontFamily: "var(--font-sans)",
                       fontSize: "13px",
-                      fontWeight: on ? 500 : 400,
-                      color: on ? "#0a0a0a" : "#6b6560",
+                      fontWeight: on ? 600 : 500,
+                      color: on ? "#0a0a0a" : "#3a3530",
                       textAlign: "left",
                       transition: "background-color 0.15s, color 0.15s",
                     }}
@@ -226,10 +226,10 @@ export default function Header() {
                 style={{
                   fontFamily: "var(--font-sans)",
                   fontSize: "11px",
-                  fontWeight: 400,
+                  fontWeight: 600,
                   letterSpacing: "0.15em",
                   textTransform: "uppercase",
-                  color: on ? "#0a0a0a" : "#9a9490",
+                  color: on ? "#8b4a31" : "#3a3530",
                   textDecoration: "none",
                   transition: "color 0.2s",
                   display: "inline-flex",
