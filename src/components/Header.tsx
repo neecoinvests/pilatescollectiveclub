@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useCallback, useEffect, useRef, useState } from "react";
 import SiteSearch from "@/components/SiteSearch";
+import DealBanner from "@/components/DealBanner";
 import { MENUS, SHOP_CATEGORIES, SHOP_MENU, type Menu } from "@/components/nav-menus";
 
 const NAV = MENUS.map((m) => ({ label: m.label, href: m.href ?? "/" }));
@@ -194,6 +195,7 @@ export default function Header() {
         borderBottom: "1px solid #ddd8d0",
       }}
     >
+      <DealBanner />
       <div className="pcc-header-inner max-w-7xl mx-auto px-8 h-24 flex items-center justify-between">
         <Link href="/" style={{ textDecoration: "none", display: "flex", alignItems: "center" }}>
           <div className="pcc-logo" style={{ position: "relative", width: 210, height: 70, flexShrink: 0 }}>

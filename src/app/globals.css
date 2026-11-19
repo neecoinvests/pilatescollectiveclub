@@ -45,6 +45,9 @@ h1, h2, h3, h4 {
     padding-right: 1rem !important;
     height: 3.75rem !important;
   }
+  /* Black Friday bar: short copy on phones; the mobile menu leaves room for it */
+  .pcc-deal-banner-extra { display: none; }
+
   .pcc-logo {
     width: 120px !important;
     height: 40px !important;
@@ -54,8 +57,8 @@ h1, h2, h3, h4 {
      content past the viewport bottom cannot be reached by page scroll:
      it needs its own scroll container or the lower Shop Gear links are lost. */
   .pcc-mobile-menu {
-    max-height: calc(100vh - 3.75rem);
-    max-height: calc(100dvh - 3.75rem);
+    max-height: calc(100vh - 3.75rem - var(--deal-banner-h, 0px));
+    max-height: calc(100dvh - 3.75rem - var(--deal-banner-h, 0px));
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
     overscroll-behavior: contain;
@@ -172,3 +175,9 @@ h1, h2, h3, h4 {
 .pcc-nav-trigger:hover { color: #0a0a0a !important; }
 .pcc-nav-trigger::after { content: ""; position: absolute; left: 0; right: 14px; bottom: 0; height: 1px; background: #8b4a31; transform: scaleX(0); transform-origin: left; transition: transform 0.25s ease; }
 .pcc-nav-trigger[data-open]::after { transform: scaleX(1); }
+
+/* Black Friday bar (DealBanner): its height, so the mobile menu still fits the screen */
+body:has(.pcc-deal-banner) { --deal-banner-h: 34px; }
+/* Push page content below the taller header (the homepage hero sits under the header by design) */
+body:has(.pcc-deal-banner) main:not(:has(.pcc-hero)) { margin-top: var(--deal-banner-h); }
+body:has(.pcc-deal-banner) .scroll-mt-28 { scroll-margin-top: calc(7rem + var(--deal-banner-h)); }
