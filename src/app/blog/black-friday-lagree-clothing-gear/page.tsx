@@ -6,11 +6,11 @@ const HERO_IMAGE = "https://pilatescollectiveclub.com/pictures/stitch-grip-socks
 
 export const metadata: Metadata = {
   title: "Lagree Clothing & Gear Black Friday Deals 2026",
-  description: "Lagree Black Friday 2026: grip socks, fitted leggings and tops, men's kit, gloves, towels, bags and fan merch, with live Amazon prices and deals marked.",
+  description: "Lagree Black Friday 2026: grip socks, fitted leggings, shorts and a gym bag for Megaformer regulars, all on an Amazon Black Friday Deal.",
   keywords: ["lagree black friday", "lagree clothing deals", "lagree socks black friday", "lagree gifts black friday", "lagree outfit deals", "lagree merch", "lagree gear sale", "black friday lagree gifts"],
   openGraph: {
     title: "Lagree Clothing & Gear Black Friday Deals 2026",
-    description: "Lagree Black Friday 2026: grip socks, fitted leggings and tops, men's kit, gloves, towels, bags and fan merch, with live Amazon prices and deals marked.",
+    description: "Lagree Black Friday 2026: grip socks, fitted leggings, shorts and a gym bag for Megaformer regulars, all on an Amazon Black Friday Deal.",
     type: "article",
     url: PAGE_URL,
     images: [{ url: HERO_IMAGE, width: 1200, height: 630, alt: "Grip socks on a machine: Lagree clothing and gear Black Friday deals" }],
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Lagree Clothing & Gear Black Friday Deals 2026",
-    description: "Lagree Black Friday 2026: grip socks, fitted leggings and tops, men's kit, gloves, towels, bags and fan merch, with live Amazon prices and deals marked.",
+    description: "Lagree Black Friday 2026: grip socks, fitted leggings, shorts and a gym bag for Megaformer regulars, all on an Amazon Black Friday Deal.",
     images: [HERO_IMAGE],
   },
   alternates: { canonical: PAGE_URL },
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
 const GUIDE: DealsGuideProps = {
   "slug": "black-friday-lagree-clothing-gear",
   "title": "Lagree Clothing & Gear Black Friday Deals 2026",
-  "description": "Lagree Black Friday 2026: grip socks, fitted leggings and tops, men's kit, gloves, towels, bags and fan merch, with live Amazon prices and deals marked.",
+  "description": "Lagree Black Friday 2026: grip socks, fitted leggings, shorts and a gym bag for Megaformer regulars, all on an Amazon Black Friday Deal.",
   "breadcrumb": "Lagree Clothing & Gear Black Friday",
   "eyebrow": "Lagree",
   "h1": "Lagree Clothing & Gear",
@@ -37,11 +37,11 @@ const GUIDE: DealsGuideProps = {
   "readTime": "7 min read",
   "heroImage": "/pictures/stitch-grip-socks-footbar.png",
   "heroAlt": "Grip socks on a machine: Lagree clothing and gear Black Friday deals",
-  "intro": "Lagree eats through grip socks, towels and fitted kit faster than almost any class, which makes Black Friday the time to stock up. Here are 16 pieces we track on Amazon for Megaformer regulars, men and women, plus the fan merch that makes an easy gift. Each shows its Amazon price on November 19, 2026, and seven are on an Amazon Black Friday Deal, marked below.",
+  "intro": "Lagree eats through grip socks, towels and fitted kit faster than almost any class, which makes Black Friday the time to stock up. Here are the seven pieces for Megaformer regulars, men and women, on an Amazon Black Friday Deal on November 19, 2026, each with the saving Amazon reports.",
   "sections": [
     {
       "id": "socks-hands",
-      "title": "Socks, gloves and towels",
+      "title": "Grip socks",
       "intro": "The consumables of Lagree: buy them in bulk when they are discounted.",
       "items": [
         {
@@ -77,28 +77,6 @@ const GUIDE: DealsGuideProps = {
           "wasLabel": "Was",
           "pctOff": 15,
           "amazonDeal": true
-        },
-        {
-          "asin": "B09GPVMF86",
-          "name": "TAVI Half Finger Gym Gloves",
-          "badge": "Best gloves",
-          "note": "Half-finger grip gloves for sweaty hands on handles and platforms.",
-          "price": "$31.99",
-          "lowStock": true
-        },
-        {
-          "asin": "B001VROVEM",
-          "name": "Gaiam Grippy Yoga Gloves",
-          "badge": "Budget gloves",
-          "note": "Grippy gloves for planks on a slippery carriage.",
-          "price": "$15.21"
-        },
-        {
-          "asin": "B01K1TX77W",
-          "name": "Rainleaf Microfiber Towel",
-          "badge": "Sweat towel",
-          "note": "A compact, quick-dry towel for you and the machine.",
-          "price": "$12.99"
         }
       ]
     },
@@ -128,23 +106,6 @@ const GUIDE: DealsGuideProps = {
           "wasLabel": "List",
           "pctOff": 17,
           "amazonDeal": true
-        },
-        {
-          "asin": "B0H1HV6YXB",
-          "name": "CRZ YOGA Quick Dry Racerback Crop Tank",
-          "badge": "Crop tank",
-          "note": "A quick-dry crop with nothing to slide up upside down.",
-          "price": "$17.00",
-          "wasPrice": "$20.00",
-          "wasLabel": "List",
-          "pctOff": 15
-        },
-        {
-          "asin": "B0FGXVD8XD",
-          "name": "IUGA Lightweight Full-Zip Workout Jacket",
-          "badge": "Layer",
-          "note": "Slim full-zip with thumbholes and zippered pockets.",
-          "price": "$42.99"
         }
       ]
     },
@@ -163,23 +124,13 @@ const GUIDE: DealsGuideProps = {
           "wasLabel": "Was",
           "pctOff": 25,
           "amazonDeal": true
-        },
-        {
-          "asin": "B0874X72WP",
-          "name": "Under Armour Men's HeatGear Compression T-Shirt",
-          "badge": "Compression tee",
-          "note": "A second-skin compression tee that stays put on all fours. Sold by Amazon.com.",
-          "price": "$30.00",
-          "wasPrice": "$35.00",
-          "wasLabel": "List",
-          "pctOff": 14
         }
       ]
     },
     {
       "id": "merch-bags",
-      "title": "Bags and fan merch",
-      "intro": "For carrying it all, and for gifting. The fan designs are unofficial, not Lagree Fitness products.",
+      "title": "Bags",
+      "intro": "For carrying it all, with shoes and wet kit kept apart.",
       "items": [
         {
           "asin": "B07RQHPBHC",
@@ -191,27 +142,6 @@ const GUIDE: DealsGuideProps = {
           "wasLabel": "Was",
           "pctOff": 20,
           "amazonDeal": true
-        },
-        {
-          "asin": "B0CY821PTP",
-          "name": "I Love Lagree Pullover Hoodie",
-          "badge": "Fan hoodie",
-          "note": "Unofficial fan design, sold by Amazon.com, not made or endorsed by Lagree Fitness.",
-          "price": "$31.99"
-        },
-        {
-          "asin": "B0G1KV5CTD",
-          "name": "Lagree Superstar Tank Top",
-          "badge": "Fan tank",
-          "note": "Unofficial retro fan design, sold by Amazon.com, not affiliated with Lagree Fitness.",
-          "price": "$18.99"
-        },
-        {
-          "asin": "B0CY81GT5X",
-          "name": "Women's I Love Lagree V-Neck T-Shirt",
-          "badge": "Fan tee",
-          "note": "Unofficial fan design, sold by Amazon.com.",
-          "price": "$18.99"
         }
       ]
     }
@@ -237,11 +167,11 @@ const GUIDE: DealsGuideProps = {
     },
     {
       "q": "Is there official Lagree merch on Amazon?",
-      "a": "Lagree Fitness's Amazon store carries only the Micro and its accessories. The 'I Love Lagree' and 'Lagree Superstar' items are unofficial fan designs."
+      "a": "Lagree Fitness's Amazon store carries only the Micro and its accessories. Other Lagree-branded clothing on Amazon comes from unofficial fan designs."
     },
     {
       "q": "What is a good Lagree gift?",
-      "a": "A grip-sock multi-pack, a sweat towel or a fan hoodie. For a bigger budget, see our Lagree gifts guide."
+      "a": "A grip-sock multi-pack like CoolMate's four pairs, fitted leggings, or a gym bag with a shoe compartment. For a bigger budget, see our Lagree gifts guide."
     }
   ],
   "guides": [

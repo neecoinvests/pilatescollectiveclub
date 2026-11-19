@@ -123,7 +123,7 @@ const GUIDE: EquipmentGuideProps = {
     { q: "Will a studio reformer arrive before Christmas?", a: "In-stock machines usually can, but most Balanced Body reformers are made to order and ship after a lead time. Check the delivery estimate on the listing." },
   ],
   related: [
-    { title: "Black Friday Reformer Deals", excerpt: "Home reformers from $289.99, with Black Friday deals marked.", href: "/blog/black-friday-pilates-reformer-deals", imageUrl: "/pictures/stitch-reformer-sunlit-minimal.png", category: "Deals", readTime: "Deals" },
+    { title: "Black Friday Reformer Deals", excerpt: "Four home reformers on a Black Friday Deal, up to 26% off.", href: "/blog/black-friday-pilates-reformer-deals", imageUrl: "/pictures/stitch-reformer-sunlit-minimal.png", category: "Deals", readTime: "Deals" },
     { title: "Cyber Monday Reformer Deals", excerpt: "Every budget, from foldable to studio-grade.", href: "/blog/cyber-monday-pilates-reformer-deals", imageUrl: "/pictures/stitch-reformer-sunlit-minimal.png", category: "Deals", readTime: "Deals" },
     { title: "Best Pilates Reformer Under $5,000", excerpt: "Studio machines compared in depth.", href: "/blog/best-pilates-reformer-under-5000", imageUrl: "/pictures/stitch-reformer-row-studio.png", category: "Equipment", readTime: "15 min read" },
     { title: "Black Friday & Cyber Monday Recovery Deals", excerpt: "Normatec, JetBoots and Theragun: up to 21% off now.", href: "/blog/black-friday-cyber-monday-recovery-deals", imageUrl: "/pictures/stitch-studio-bench-towels.png", category: "Deals", readTime: "Deals" },

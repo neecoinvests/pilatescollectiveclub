@@ -80,7 +80,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Black Friday & Cyber Monday Recovery Deals 2026: Live Now",
-    excerpt: "Normatec, JetBoots, Theragun, Hypervolt and HigherDOSE, up to 21% off on Amazon now.",
+    excerpt: "Normatec, JetBoots, Theragun and HigherDOSE, up to 21% off on Amazon now.",
     href: "/blog/black-friday-cyber-monday-recovery-deals",
     category: "Guide",
     readTime: "11 min",
@@ -224,7 +224,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Pilates Reformer Black Friday Deals 2026",
-    excerpt: "13 home reformers from under $300 to Merrithew, grouped by budget, with live prices and deals marked.",
+    excerpt: "Four PAETA and DELAVIN home reformers on an Amazon Black Friday Deal, up to 26% off.",
     href: "/blog/black-friday-pilates-reformer-deals",
     category: "Guide",
     readTime: "8 min",
@@ -232,7 +232,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Pilates Clothing Black Friday Deals 2026",
-    excerpt: "Leggings, sports bras, grip socks and layers from CRZ YOGA, Varley, Sweaty Betty, toesox and TAVI, ten on a deal.",
+    excerpt: "Ten leggings, bras, grip socks and layers from CRZ YOGA, Sweaty Betty, toesox, TAVI and Tucketts, all on a deal.",
     href: "/blog/black-friday-pilates-clothing-deals",
     category: "Guide",
     readTime: "7 min",
@@ -240,7 +240,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Pilates Gifts Under $50: Black Friday 2026 Picks",
-    excerpt: "13 useful Pilates gifts under $50 (rings, mats, socks, rollers and bags), grouped by budget.",
+    excerpt: "Seven Pilates gifts under $50 on an Amazon Black Friday Deal, up to 44% off.",
     href: "/blog/black-friday-pilates-gifts-under-50",
     category: "Guide",
     readTime: "6 min",
@@ -256,7 +256,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Lagree Clothing & Gear Black Friday Deals 2026",
-    excerpt: "Grip socks, fitted kit, men's gear, gloves, towels, bags and Lagree fan merch to stock up on.",
+    excerpt: "Grip socks, fitted kit and a gym bag for Lagree regulars, all on an Amazon Black Friday Deal.",
     href: "/blog/black-friday-lagree-clothing-gear",
     category: "Guide",
     readTime: "7 min",
@@ -264,7 +264,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Spin Bike & Indoor Cycling Black Friday Deals 2026",
-    excerpt: "Indoor bikes from Sunny, YOSUDA, Schwinn and Echelon, plus shoes, pedals, shorts and sensors.",
+    excerpt: "Two Sunny smart bikes up to 35% off, plus COOSPO cadence and heart rate sensors, all on a deal.",
     href: "/blog/black-friday-spin-deals",
     category: "Guide",
     readTime: "7 min",

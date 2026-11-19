@@ -6,11 +6,11 @@ const HERO_IMAGE = "https://pilatescollectiveclub.com/pictures/stitch-reformer-s
 
 export const metadata: Metadata = {
   title: "Pilates Reformer Black Friday Deals 2026",
-  description: "Pilates reformer Black Friday 2026: 13 home reformers from under $300 to studio brands, with live Amazon prices and the Black Friday deals marked.",
+  description: "Pilates reformer Black Friday 2026: four home reformers from PAETA and DELAVIN on an Amazon Black Friday Deal, up to 26% off, with live prices.",
   keywords: ["pilates reformer black friday", "reformer black friday deal", "black friday pilates reformer 2026", "pilates machine black friday", "cyber monday pilates reformer", "pilates reformer sale", "aeropilates black friday", "balanced body black friday"],
   openGraph: {
     title: "Pilates Reformer Black Friday Deals 2026: Live Deals",
-    description: "Pilates reformer Black Friday 2026: 13 home reformers from under $300 to studio brands, with live Amazon prices and the Black Friday deals marked.",
+    description: "Pilates reformer Black Friday 2026: four home reformers from PAETA and DELAVIN on an Amazon Black Friday Deal, up to 26% off, with live prices.",
     type: "article",
     url: PAGE_URL,
     images: [{ url: HERO_IMAGE, width: 1200, height: 630, alt: "A home Pilates reformer in a sunlit room: reformer Black Friday deals" }],
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Pilates Reformer Black Friday Deals 2026",
-    description: "Pilates reformer Black Friday 2026: 13 home reformers from under $300 to studio brands, with live Amazon prices and the Black Friday deals marked.",
+    description: "Pilates reformer Black Friday 2026: four home reformers from PAETA and DELAVIN on an Amazon Black Friday Deal, up to 26% off, with live prices.",
     images: [HERO_IMAGE],
   },
   alternates: { canonical: PAGE_URL },
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
 const GUIDE: DealsGuideProps = {
   "slug": "black-friday-pilates-reformer-deals",
   "title": "Pilates Reformer Black Friday Deals 2026: Live Deals",
-  "description": "Pilates reformer Black Friday 2026: 13 home reformers from under $300 to studio brands, with live Amazon prices and the Black Friday deals marked.",
+  "description": "Pilates reformer Black Friday 2026: four home reformers from PAETA and DELAVIN on an Amazon Black Friday Deal, up to 26% off, with live prices.",
   "breadcrumb": "Reformer Black Friday Deals",
   "eyebrow": "Reformers",
   "h1": "Pilates Reformer Black Friday",
@@ -37,34 +37,13 @@ const GUIDE: DealsGuideProps = {
   "readTime": "8 min read",
   "heroImage": "/pictures/stitch-reformer-sunlit-minimal.png",
   "heroAlt": "A home Pilates reformer in a sunlit room: reformer Black Friday deals",
-  "intro": "A reformer is the biggest Pilates purchase most people make, which makes it the one where Black Friday matters most. Here are 13 machines we track on Amazon, grouped by budget, each with its Amazon price on November 19, 2026. Four are on an Amazon Black Friday Deal, marked below; Amazon's event runs through November 30.",
+  "intro": "A reformer is the biggest Pilates purchase most people make, which makes it the one where Black Friday matters most. Here are the reformers on an Amazon Black Friday Deal on November 19, 2026, grouped by budget: four machines from PAETA and DELAVIN, at 19% to 26% off. Amazon's event runs through November 30. No AeroPilates, Balanced Body, Merrithew or Align-Pilates machine was on a deal that day.",
   "sections": [
     {
       "id": "under-500",
       "title": "Under $500",
-      "intro": "Foldable spring and cord machines from newer brands and AeroPilates. Real resistance at a low price: the trade-off is brand track record and warranty.",
+      "intro": "Two foldable PAETA machines with real springs. Real resistance at a low price: PAETA is a newer brand, so check the warranty.",
       "items": [
-        {
-          "asin": "B0D31767J1",
-          "name": "WINDFOOT Foldable Pilates Reformer (Jump Board)",
-          "badge": "Budget spring reformer",
-          "note": "A foldable spring reformer with a jump board. Newer brand: check the warranty terms on the listing.",
-          "price": "$289.99"
-        },
-        {
-          "asin": "B0HB4J5RKX",
-          "name": "DWKWE Foldable Reformer 88\"",
-          "badge": "Longest budget carriage",
-          "note": "An 88\" metal-frame foldable reformer with adjustable footbar, dual spring-plus-latex resistance, jump board and headrest.",
-          "price": "$339.99"
-        },
-        {
-          "asin": "B01FMODVAE",
-          "name": "AeroPilates 287 Reformer",
-          "badge": "Established brand, entry level",
-          "note": "Stamina's entry AeroPilates with bungee-cord resistance: a known brand at a budget price.",
-          "price": "$356.99"
-        },
         {
           "asin": "B0DFXQX3XV",
           "name": "PAETA 86\" Foldable Reformer (Piano-Wire Springs)",
@@ -92,15 +71,8 @@ const GUIDE: DealsGuideProps = {
     {
       "id": "500-1500",
       "title": "$500 to $1,500",
-      "intro": "Sturdier home machines, including AeroPilates' best-selling models and wood-frame options.",
+      "intro": "Wood-frame home machines from PAETA and DELAVIN.",
       "items": [
-        {
-          "asin": "B07G5J3SKS",
-          "name": "AeroPilates Premier 701 Reformer",
-          "badge": "Best-selling home reformer",
-          "note": "The AeroPilates Premier, Stamina's popular home model with cord resistance.",
-          "price": "$550.99"
-        },
         {
           "asin": "B0D7M7JNFV",
           "name": "PAETA Wooden Foldable Reformer with Sitting Box",
@@ -122,50 +94,6 @@ const GUIDE: DealsGuideProps = {
           "wasLabel": "List",
           "pctOff": 19,
           "amazonDeal": true
-        },
-        {
-          "asin": "B0012TJI8S",
-          "name": "AeroPilates Pro XP 557 Reformer",
-          "badge": "Top AeroPilates model",
-          "note": "AeroPilates' top home reformer. Stock is often limited.",
-          "price": "$1,329.99"
-        }
-      ]
-    },
-    {
-      "id": "premium",
-      "title": "Premium and studio brands",
-      "intro": "Established Pilates brands. These discount less often: a modest saving here is still a lot of money.",
-      "items": [
-        {
-          "asin": "B09HNCMTZL",
-          "name": "Balanced Body Metro IQ Reformer",
-          "badge": "Balanced Body at home",
-          "note": "Balanced Body's home reformer with wheelbarrow wheels for moving and storage.",
-          "price": "$2,524.00",
-          "lowStock": true
-        },
-        {
-          "asin": "B0GNDHZXZK",
-          "name": "PersonalHour Janet La Force Plus Foldable Reformer",
-          "badge": "Premium foldable",
-          "note": "A walnut-frame foldable home reformer with box and jumpboard. Often low stock.",
-          "price": "$2,555.00",
-          "lowStock": true
-        },
-        {
-          "asin": "B099ZJ4C25",
-          "name": "Align-Pilates C8-Pro Reformer",
-          "badge": "Best-value pro springs",
-          "note": "Professional springs and a studio-style carriage at a home price.",
-          "price": "$2,750.00"
-        },
-        {
-          "asin": "B004FGT0TM",
-          "name": "Merrithew At Home SPX Reformer Package",
-          "badge": "STOTT-method home machine",
-          "note": "Merrithew's home reformer package, sold by Amazon.com.",
-          "price": "$3,349.00"
         }
       ]
     }
@@ -195,15 +123,15 @@ const GUIDE: DealsGuideProps = {
   "faqs": [
     {
       "q": "Is Black Friday a good time to buy a Pilates reformer?",
-      "a": "It can be, especially for budget and mid-range home reformers, which are discounted more often than premium studio brands. This page shows each machine's current price and marks the ones on a Black Friday Deal."
+      "a": "It can be, especially for budget and mid-range home reformers, which are discounted more often than premium studio brands. This page lists only the machines on an Amazon Black Friday Deal."
     },
     {
       "q": "Do Balanced Body or Merrithew reformers go on sale?",
-      "a": "Less often and by less than budget brands. If one does drop, compare with the price we recorded here and check the delivery lead time."
+      "a": "Less often and by less than budget brands. On November 19, 2026, no Balanced Body or Merrithew reformer was on an Amazon Black Friday Deal; our studio reformer guide has their current prices."
     },
     {
       "q": "What is the cheapest real spring reformer?",
-      "a": "Among the machines we track, the foldable reformers from WINDFOOT, DWKWE and PAETA are the lowest-priced models with real springs. They come from newer brands, so check the warranty."
+      "a": "Of the reformers on a Black Friday Deal, the two PAETA 86\" foldable models are the lowest-priced with real springs: $398.99 and $417.99 on November 19, 2026. PAETA is a newer brand, so check the warranty."
     },
     {
       "q": "Should I wait for Cyber Monday?",

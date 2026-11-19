@@ -6,11 +6,11 @@ const HERO_IMAGE = "https://pilatescollectiveclub.com/pictures/stitch-props-cork
 
 export const metadata: Metadata = {
   title: "Pilates Gifts Under $50: Black Friday 2026",
-  description: "13 Pilates gifts under $50 for Black Friday 2026: rings, mats, balls, bands, grip socks, rollers, towels and bags, with live Amazon prices and deals marked.",
+  description: "Seven Pilates gifts under $50 on an Amazon Black Friday Deal: a Pilates ring, bands, grip socks, a foam roller, a gym tote and a jacket, up to 44% off.",
   keywords: ["pilates gifts under 50", "black friday pilates gifts", "pilates gift ideas", "gifts for pilates lovers", "pilates stocking stuffers", "pilates christmas gifts", "cheap pilates gifts", "pilates gift guide 2026"],
   openGraph: {
     title: "Pilates Gifts Under $50: Black Friday 2026 Picks",
-    description: "13 Pilates gifts under $50 for Black Friday 2026: rings, mats, balls, bands, grip socks, rollers, towels and bags, with live Amazon prices and deals marked.",
+    description: "Seven Pilates gifts under $50 on an Amazon Black Friday Deal: a Pilates ring, bands, grip socks, a foam roller, a gym tote and a jacket, up to 44% off.",
     type: "article",
     url: PAGE_URL,
     images: [{ url: HERO_IMAGE, width: 1200, height: 630, alt: "Pilates props including a ring: Pilates gifts under $50" }],
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Pilates Gifts Under $50: Black Friday 2026",
-    description: "13 Pilates gifts under $50 for Black Friday 2026: rings, mats, balls, bands, grip socks, rollers, towels and bags, with live Amazon prices and deals marked.",
+    description: "Seven Pilates gifts under $50 on an Amazon Black Friday Deal: a Pilates ring, bands, grip socks, a foam roller, a gym tote and a jacket, up to 44% off.",
     images: [HERO_IMAGE],
   },
   alternates: { canonical: PAGE_URL },
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
 const GUIDE: DealsGuideProps = {
   "slug": "black-friday-pilates-gifts-under-50",
   "title": "Pilates Gifts Under $50: Black Friday 2026 Picks",
-  "description": "13 Pilates gifts under $50 for Black Friday 2026: rings, mats, balls, bands, grip socks, rollers, towels and bags, with live Amazon prices and deals marked.",
+  "description": "Seven Pilates gifts under $50 on an Amazon Black Friday Deal: a Pilates ring, bands, grip socks, a foam roller, a gym tote and a jacket, up to 44% off.",
   "breadcrumb": "Pilates Gifts Under $50",
   "eyebrow": "Gifts",
   "h1": "Pilates Gifts Under $50",
@@ -37,7 +37,7 @@ const GUIDE: DealsGuideProps = {
   "readTime": "6 min read",
   "heroImage": "/pictures/stitch-props-cork-ring.png",
   "heroAlt": "Pilates props including a ring: Pilates gifts under $50",
-  "intro": "Black Friday is the best moment to cross Pilates gifts off the list: small props and accessories are exactly what goes on sale. Here are 13 useful gifts that all cost under $50 on Amazon (prices checked November 19, 2026), grouped by budget. Seven are on an Amazon Black Friday Deal. Buy early enough for delivery, and check each listing's holiday returns window.",
+  "intro": "Black Friday is the best moment to cross Pilates gifts off the list: small props and accessories are exactly what goes on sale. Here are seven useful gifts under $50 on an Amazon Black Friday Deal (prices checked November 19, 2026), grouped by budget. Buy early enough for delivery, and check each listing's holiday returns window.",
   "sections": [
     {
       "id": "under-20",
@@ -56,16 +56,6 @@ const GUIDE: DealsGuideProps = {
           "amazonDeal": true
         },
         {
-          "asin": "B010TJC4IM",
-          "name": "ProBody Pilates Ball (9\")",
-          "badge": "Small prop",
-          "note": "The small, soft ball instructors use under the pelvis or between the knees.",
-          "price": "$9.95",
-          "wasPrice": "$13.95",
-          "wasLabel": "List",
-          "pctOff": 29
-        },
-        {
           "asin": "B01A58FHQ8",
           "name": "THERABAND Resistance Bands Set (Beginner Kit)",
           "badge": "Home workout",
@@ -75,30 +65,6 @@ const GUIDE: DealsGuideProps = {
           "wasLabel": "List",
           "pctOff": 24,
           "amazonDeal": true
-        },
-        {
-          "asin": "B01K1TX77W",
-          "name": "Rainleaf Microfiber Towel",
-          "badge": "Gym-bag essential",
-          "note": "A compact, quick-dry microfiber towel for the studio.",
-          "price": "$12.99"
-        },
-        {
-          "asin": "B011NQZBAI",
-          "name": "Gaiam Cargo Yoga Mat Bag",
-          "badge": "Mat carrier",
-          "note": "A full-zip mat bag with cargo and phone pockets. Sold by Amazon.com.",
-          "price": "$19.99"
-        },
-        {
-          "asin": "B0GSJHPSQT",
-          "name": "Byrex Pilates Equipment Kit",
-          "badge": "All-in-one",
-          "note": "A ring, small ball, bands and sliders in one box.",
-          "price": "$9.99",
-          "wasPrice": "$19.99",
-          "wasLabel": "Was",
-          "pctOff": 50
         },
         {
           "asin": "B086HNGNFZ",
@@ -118,13 +84,6 @@ const GUIDE: DealsGuideProps = {
       "title": "$20 to $35",
       "intro": "A proper upgrade they would not buy themselves.",
       "items": [
-        {
-          "asin": "B00XM2MRGI",
-          "name": "Amazon Basics High-Density Foam Roller (36\")",
-          "badge": "Recovery",
-          "note": "A full-length firm roller for back and leg release.",
-          "price": "$23.99"
-        },
         {
           "asin": "B01BVACFAK",
           "name": "TriggerPoint CORE Foam Roller (18\")",
@@ -167,13 +126,6 @@ const GUIDE: DealsGuideProps = {
       "intro": "The splurge, still under $50.",
       "items": [
         {
-          "asin": "B09WF4GPPC",
-          "name": "Gaiam Premium Yoga Mat (6mm)",
-          "badge": "Home mat",
-          "note": "A 6mm mat for rolling and spinal work at home. Sold by Amazon.com.",
-          "price": "$39.99"
-        },
-        {
           "asin": "B0BJ2G3JNW",
           "name": "CRZ YOGA Butterluxe Jacket (Waist Length)",
           "badge": "Studio layer",
@@ -204,7 +156,7 @@ const GUIDE: DealsGuideProps = {
   "faqs": [
     {
       "q": "What is a good Pilates gift under $50?",
-      "a": "Grip socks, a Pilates ring, a small ball, a mat bag or a foam roller are all useful and under $50. If you are not sure what they have, a grip-sock multi-pack is the safest bet."
+      "a": "Grip socks, a Pilates ring, resistance bands, a foam roller or a gym tote are all useful, under $50 and on a Black Friday Deal on this page. If you are not sure what they have, a grip-sock multi-pack is the safest bet."
     },
     {
       "q": "What do you buy someone who does reformer Pilates?",
@@ -212,7 +164,7 @@ const GUIDE: DealsGuideProps = {
     },
     {
       "q": "Will these be cheaper on Black Friday?",
-      "a": "Small props and accessories are often discounted around Black Friday. Seven of the gifts here are on an Amazon Black Friday Deal now, marked with the saving Amazon reports."
+      "a": "They already are: all seven gifts here are on an Amazon Black Friday Deal, marked with the saving Amazon reports. The deals run through November 30."
     }
   ],
   "guides": [

@@ -37,7 +37,7 @@ const GUIDE: DealsGuideProps = {
   "readTime": "7 min read",
   "heroImage": "/pictures/stitch-luxury-studio-wide.png",
   "heroAlt": "A bright Pilates studio: Pilates Black Friday deals 2026",
-  "intro": "Amazon's Black Friday event is live: it started on November 19 and runs through November 30, 2026, with Black Friday on Friday, November 27 and Cyber Monday on November 30. This hub collects the best-value Pilates, Lagree and spin buys on Amazon with their current price, and marks every one Amazon has put on a Black Friday Deal. Start with the biggest discounts below, or pick a category guide for the full list.",
+  "intro": "Amazon's Black Friday event is live: it started on November 19 and runs through November 30, 2026, with Black Friday on Friday, November 27 and Cyber Monday on November 30. This hub lists only the Pilates, Lagree and spin buys Amazon has put on a Black Friday Deal, with their current price and saving. Start with the biggest discounts below, or pick a category guide for more.",
   "sections": [
     {
       "id": "best-deals",
@@ -136,34 +136,6 @@ const GUIDE: DealsGuideProps = {
       ]
     },
     {
-      "id": "reformers",
-      "title": "Reformers",
-      "intro": "The three home reformers we would buy at each budget: full list in our reformer Black Friday guide.",
-      "items": [
-        {
-          "asin": "B0D31767J1",
-          "name": "WINDFOOT Foldable Pilates Reformer (Jump Board)",
-          "badge": "Budget spring reformer",
-          "note": "A foldable spring reformer with a jump board: one of the lowest-priced real spring machines we list. A newer brand, so check the warranty.",
-          "price": "$289.99"
-        },
-        {
-          "asin": "B07G5J3SKS",
-          "name": "AeroPilates Premier 701 Reformer",
-          "badge": "Best-known beginner brand",
-          "note": "Stamina's AeroPilates is the long-established home brand. Cord-based resistance rather than steel springs.",
-          "price": "$550.99"
-        },
-        {
-          "asin": "B099ZJ4C25",
-          "name": "Align-Pilates C8-Pro Reformer",
-          "badge": "Best-value pro springs",
-          "note": "Professional springs and a studio-style carriage at a home price.",
-          "price": "$2,750.00"
-        }
-      ]
-    },
-    {
       "id": "clothing",
       "title": "Clothing and socks",
       "intro": "The pieces you replace most often, and the ones most likely to drop in price.",
@@ -190,55 +162,6 @@ const GUIDE: DealsGuideProps = {
           "pctOff": 15,
           "amazonDeal": true,
           "lowStock": true
-        },
-        {
-          "asin": "B0FXN378H8",
-          "name": "Varley Freesoft Piped Full Leggings",
-          "badge": "Premium leggings",
-          "note": "Varley's soft Freesoft fabric, sold by Shopbop (an Amazon company).",
-          "price": "$36.75",
-          "wasPrice": "$98.00",
-          "wasLabel": "List",
-          "pctOff": 63,
-          "lowStock": true
-        }
-      ]
-    },
-    {
-      "id": "gifts",
-      "title": "Gifts",
-      "intro": "Small, useful and under $50 (the Gaiam ring, at the top of this page, is one too): see our gifts guide for 13 more.",
-      "items": [
-        {
-          "asin": "B0GSJHPSQT",
-          "name": "Byrex Pilates Equipment Kit",
-          "badge": "All-in-one gift",
-          "note": "A ring, small ball, resistance bands and sliders in one box.",
-          "price": "$9.99",
-          "wasPrice": "$19.99",
-          "wasLabel": "Was",
-          "pctOff": 50
-        }
-      ]
-    },
-    {
-      "id": "lagree-spin",
-      "title": "Lagree and spin",
-      "intro": "Lagree's own home machine and a best-selling studio bike.",
-      "items": [
-        {
-          "asin": "B0BBT7YV93",
-          "name": "The Micro by Lagree Fitness",
-          "badge": "Lagree home machine",
-          "note": "Lagree Fitness's own compact home machine, sold by Lagree Fitness. 72\" x 20\" x 6\", 60 lb, four springs.",
-          "price": "$990.00"
-        },
-        {
-          "asin": "B07WZXSDKW",
-          "name": "Schwinn IC4 Indoor Cycling Bike",
-          "badge": "Studio-style bike",
-          "note": "Schwinn's magnetic indoor cycling bike, sold by Amazon.com.",
-          "price": "$799.00"
         }
       ]
     }
@@ -268,11 +191,11 @@ const GUIDE: DealsGuideProps = {
     },
     {
       "q": "Do Pilates reformers go on sale for Black Friday?",
-      "a": "Budget and mid-range home reformers often see discounts; premium studio brands discount less often. Our reformer guide shows the current price of every machine and marks the ones on a Black Friday Deal."
+      "a": "Budget and mid-range home reformers do: on November 19, 2026, four PAETA and DELAVIN machines were on an Amazon Black Friday Deal. Premium studio brands discount less often, and none was on a deal that day. Our reformer deals guide lists the four."
     },
     {
       "q": "Are the prices on this page Black Friday prices?",
-      "a": "Some of them. Items marked Black Friday Deal show Amazon's event price on November 19, 2026; the event runs through November 30. The other items show their regular Amazon price that day. Prices can change at any time, so check the listing before you buy."
+      "a": "Yes. Every item here is on an Amazon Black Friday Deal, at Amazon's price on November 19, 2026; the event runs through November 30. Prices can change at any time, so check the listing before you buy."
     },
     {
       "q": "What Pilates gear is most likely to be discounted?",

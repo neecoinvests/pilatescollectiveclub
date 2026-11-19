@@ -6,11 +6,11 @@ const HERO_IMAGE = "https://pilatescollectiveclub.com/pictures/stitch-studio-mod
 
 export const metadata: Metadata = {
   title: "Spin Bike & Indoor Cycling Black Friday Deals 2026",
-  description: "Spin bike Black Friday 2026: indoor bikes from Sunny, YOSUDA, Schwinn and Echelon, plus shoes, pedals, shorts, mats and sensors, with live prices and deals.",
+  description: "Spin bike Black Friday 2026: two Sunny smart bikes up to 35% off, plus COOSPO cadence and heart rate sensors, all on Amazon Black Friday Deals.",
   keywords: ["spin bike black friday", "indoor cycling bike black friday", "exercise bike black friday 2026", "schwinn ic4 black friday", "cycling shoes black friday", "peloton alternative black friday", "spin class gear deals", "cyber monday exercise bike"],
   openGraph: {
     title: "Spin Bike & Indoor Cycling Black Friday Deals 2026",
-    description: "Spin bike Black Friday 2026: indoor bikes from Sunny, YOSUDA, Schwinn and Echelon, plus shoes, pedals, shorts, mats and sensors, with live prices and deals.",
+    description: "Spin bike Black Friday 2026: two Sunny smart bikes up to 35% off, plus COOSPO cadence and heart rate sensors, all on Amazon Black Friday Deals.",
     type: "article",
     url: PAGE_URL,
     images: [{ url: HERO_IMAGE, width: 1200, height: 630, alt: "A modern studio: spin and indoor cycling Black Friday deals" }],
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Spin Bike & Indoor Cycling Black Friday Deals 2026",
-    description: "Spin bike Black Friday 2026: indoor bikes from Sunny, YOSUDA, Schwinn and Echelon, plus shoes, pedals, shorts, mats and sensors, with live prices and deals.",
+    description: "Spin bike Black Friday 2026: two Sunny smart bikes up to 35% off, plus COOSPO cadence and heart rate sensors, all on Amazon Black Friday Deals.",
     images: [HERO_IMAGE],
   },
   alternates: { canonical: PAGE_URL },
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
 const GUIDE: DealsGuideProps = {
   "slug": "black-friday-spin-deals",
   "title": "Spin Bike & Indoor Cycling Black Friday Deals 2026",
-  "description": "Spin bike Black Friday 2026: indoor bikes from Sunny, YOSUDA, Schwinn and Echelon, plus shoes, pedals, shorts, mats and sensors, with live prices and deals.",
+  "description": "Spin bike Black Friday 2026: two Sunny smart bikes up to 35% off, plus COOSPO cadence and heart rate sensors, all on Amazon Black Friday Deals.",
   "breadcrumb": "Spin Black Friday Deals",
   "eyebrow": "Spin",
   "h1": "Spin & Indoor Cycling",
@@ -37,7 +37,7 @@ const GUIDE: DealsGuideProps = {
   "readTime": "7 min read",
   "heroImage": "/pictures/stitch-studio-modern-row.png",
   "heroAlt": "A modern studio: spin and indoor cycling Black Friday deals",
-  "intro": "Exercise bikes are one of Black Friday's most discounted fitness categories. Here are five indoor bikes we track on Amazon, from under $300 to Echelon, plus the shoes, pedals, shorts and sensors that make home or studio cycling better. Each shows its Amazon price on November 19, 2026; four, including two Sunny smart bikes, are on an Amazon Black Friday Deal.",
+  "intro": "Exercise bikes are one of Black Friday's most discounted fitness categories. Here are the indoor cycling buys on an Amazon Black Friday Deal on November 19, 2026: two Sunny smart bikes at 33% and 35% off, plus two COOSPO sensors. Amazon's event runs through November 30.",
   "sections": [
     {
       "id": "bikes",
@@ -56,13 +56,6 @@ const GUIDE: DealsGuideProps = {
           "amazonDeal": true
         },
         {
-          "asin": "B097P77B69",
-          "name": "YOSUDA PRO Magnetic Exercise Bike",
-          "badge": "Best value",
-          "note": "A magnetic bike with a 350 lb weight capacity, sold by Amazon.com.",
-          "price": "$329.99"
-        },
-        {
           "asin": "B0CLBFJRW3",
           "name": "Sunny Health & Fitness Smart Pro Exercise Bike",
           "badge": "Step-up pick",
@@ -73,77 +66,14 @@ const GUIDE: DealsGuideProps = {
           "pctOff": 35,
           "amazonDeal": true,
           "lowStock": true
-        },
-        {
-          "asin": "B07WZXSDKW",
-          "name": "Schwinn IC4 Indoor Cycling Bike",
-          "badge": "Best studio-style bike",
-          "note": "Schwinn's indoor cycling bike, sold by Amazon.com.",
-          "price": "$799.00"
-        },
-        {
-          "asin": "B07XGN9G8W",
-          "name": "Echelon Smart Connect Fitness Bike",
-          "badge": "Peloton alternative",
-          "note": "Echelon's connected bike with a free trial membership, sold by Echelon.",
-          "price": "$999.99",
-          "wasPrice": "$1,199.99",
-          "wasLabel": "Was",
-          "pctOff": 17
-        }
-      ]
-    },
-    {
-      "id": "gear",
-      "title": "Shoes, pedals and shorts",
-      "intro": "Clip in and pad up: the biggest comfort upgrade for spin.",
-      "items": [
-        {
-          "asin": "B0B6B9QD8G",
-          "name": "Shimano SH-RP101 Cycling Shoe",
-          "badge": "Best value shoe",
-          "note": "Shimano's all-round cycling shoe.",
-          "price": "$65.00"
-        },
-        {
-          "asin": "B07GRNDWKT",
-          "name": "TIEM Slipstream Indoor Cycling Shoe",
-          "badge": "Best indoor shoe",
-          "note": "An SPD-compatible shoe designed for indoor cycling.",
-          "price": "$145.00"
-        },
-        {
-          "asin": "B07NKFPGPC",
-          "name": "Venzo SPD-Compatible Pedals with Toe Clips",
-          "badge": "Pedals",
-          "note": "SPD-compatible pedals with toe clips: clip in or ride in trainers.",
-          "price": "$39.98"
-        },
-        {
-          "asin": "B0BQ6ND4BF",
-          "name": "Baleaf Women's 4D Padded Bike Shorts 7\"",
-          "badge": "Padded shorts",
-          "note": "High-waist 4D padded shorts with a side pocket.",
-          "price": "$36.99",
-          "lowStock": true
         }
       ]
     },
     {
       "id": "accessories",
-      "title": "Mats and sensors",
+      "title": "Sensors",
       "intro": "Small add-ons that make a home bike work better.",
       "items": [
-        {
-          "asin": "B0H517MP29",
-          "name": "FLEXLIFT Exercise Bike Mat (70\" x 30\")",
-          "badge": "Floor mat",
-          "note": "Protects floors and reduces noise under the bike.",
-          "price": "$22.99",
-          "wasPrice": "$29.99",
-          "wasLabel": "List",
-          "pctOff": 23
-        },
         {
           "asin": "B07CDCPF4Z",
           "name": "COOSPO BK467 Speed & Cadence Sensor",
@@ -165,16 +95,6 @@ const GUIDE: DealsGuideProps = {
           "wasLabel": "List",
           "pctOff": 19,
           "amazonDeal": true
-        },
-        {
-          "asin": "B07PM54P4N",
-          "name": "Polar H10 Heart Rate Monitor",
-          "badge": "Best heart rate",
-          "note": "Polar's chest strap, sold by Amazon.com.",
-          "price": "$89.20",
-          "wasPrice": "$104.95",
-          "wasLabel": "List",
-          "pctOff": 15
         }
       ]
     }
@@ -200,11 +120,11 @@ const GUIDE: DealsGuideProps = {
   "faqs": [
     {
       "q": "Are exercise bikes cheaper on Black Friday?",
-      "a": "Exercise bikes are among the most discounted fitness products around Black Friday. Compare with the price we recorded here to see the real saving."
+      "a": "Exercise bikes are among the most discounted fitness products around Black Friday. The two Sunny bikes here are 33% and 35% off, as Amazon reports it."
     },
     {
       "q": "What is a good Peloton alternative?",
-      "a": "Echelon's Smart Connect and Schwinn's IC4 are the best-known alternatives we track. Budget magnetic bikes from Sunny and YOSUDA cost far less."
+      "a": "Echelon and Schwinn's IC4 are the best-known alternatives, but neither was on an Amazon Black Friday Deal on November 19, 2026. The Sunny smart bikes on this page cost far less and are on a deal."
     },
     {
       "q": "Do I need cycling shoes for spin?",

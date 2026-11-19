@@ -8,20 +8,18 @@ const SLUG = "black-friday-cyber-monday-recovery-deals";
 const URL = `https://pilatescollectiveclub.com/blog/${SLUG}`;
 const HERO = "/pictures/stitch-studio-bench-towels.png";
 const TITLE = "Black Friday & Cyber Monday Recovery Deals (2026)";
-const DESCRIPTION = "Normatec, Therabody JetBoots, Theragun, Hypervolt and HigherDOSE Black Friday and Cyber Monday deals live on Amazon, up to 21% off, with current prices.";
+const DESCRIPTION = "Normatec, Therabody JetBoots, Theragun and HigherDOSE Black Friday and Cyber Monday deals live on Amazon, up to 21% off, with current prices.";
 
 // Live Amazon prices and deals (Creators API, November 19, 2026). These override the gift catalog
 // for this page only; the catalog itself keeps the prices its other pages were checked against.
 const DEAL = { badge: "Black Friday Deal", endsIso: BF_DEALS_END_ISO };
 const LIVE: Partial<Record<GiftKey, Partial<GuideItem>>> = {
   jetbootsPrime: { price: "$439.99", availability: "in-stock", wasPrice: "$549.99", wasLabel: "List", pctOff: 20, amazonDeal: DEAL },
-  normatecHips: { price: "$524.00", availability: "in-stock", wasPrice: "$599.00", wasLabel: "List", pctOff: 13 },
   normatec3Legs: { price: "$719.00", availability: "in-stock", wasPrice: "$899.00", wasLabel: "List", pctOff: 20, amazonDeal: DEAL },
   normatec3Lower: { price: "$919.00", availability: "in-stock", wasPrice: "$1,149.00", wasLabel: "List", pctOff: 20, amazonDeal: DEAL },
   jetbootsProPlus: { price: "$919.99", availability: "in-stock", wasPrice: "$1,149.99", wasLabel: "List", pctOff: 20, amazonDeal: DEAL },
   normatec3Full: { price: "$1,299.00", availability: "in-stock", wasPrice: "$1,549.00", wasLabel: "List", pctOff: 16, amazonDeal: DEAL },
   thermBack: { price: "$259.99", availability: "in-stock", wasPrice: "$329.99", wasLabel: "List", pctOff: 21, amazonDeal: DEAL },
-  hypervolt3Pro: { price: "$299.00", availability: "in-stock", wasPrice: "$349.00", wasLabel: "List", pctOff: 14 },
   theragunPrimePlus: { price: "$349.99", availability: "in-stock", wasPrice: "$429.99", wasLabel: "List", pctOff: 19, amazonDeal: DEAL },
   theragunProPlus: { price: "$549.99", availability: "in-stock", wasPrice: "$649.99", wasLabel: "List", pctOff: 15, amazonDeal: DEAL },
   higherdose: { price: "$559.20", availability: "in-stock", wasPrice: "$699.00", wasLabel: "List", pctOff: 20, amazonDeal: DEAL },
@@ -31,7 +29,7 @@ const gift = (key: GiftKey, overrides: Partial<GuideItem> & { badge: string }): 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESCRIPTION,
-  keywords: ["normatec black friday", "theragun black friday", "cyber monday massage gun deals", "jetboots black friday", "recovery deals black friday 2026", "hypervolt cyber monday", "compression boots black friday", "higherdose sauna blanket black friday"],
+  keywords: ["normatec black friday", "theragun black friday", "cyber monday massage gun deals", "jetboots black friday", "recovery deals black friday 2026", "compression boots black friday", "higherdose sauna blanket black friday"],
   openGraph: { title: TITLE, description: DESCRIPTION, type: "article", url: URL, images: [{ url: `https://pilatescollectiveclub.com${HERO}`, width: 1200, height: 630, alt: "Towels on a studio bench" }] },
   twitter: { card: "summary_large_image", title: "Black Friday & Cyber Monday Recovery Deals 2026", description: DESCRIPTION, images: [`https://pilatescollectiveclub.com${HERO}`] },
   alternates: { canonical: URL },
@@ -56,13 +54,13 @@ const GUIDE: EquipmentGuideProps = {
   heroCaption: "Compression boots · Massage guns · Heat therapy",
   intro: [
     "Recovery tech is one of the most popular categories every Black Friday (November 27) and Cyber Monday (November 30), and the prices are high enough that a discount really matters.",
-    `Amazon's Black Friday deals are live through ${BF_DEALS_END}. Here are 11 premium recovery products from Hyperice, Therabody and HigherDOSE with their Amazon price on ${BF_PRICES_CHECKED}: nine are on an Amazon Black Friday Deal, at 15% to 21% off the list price Amazon shows.`,
+    `Amazon's Black Friday deals are live through ${BF_DEALS_END}. Here are the nine premium recovery products from Hyperice, Therabody and HigherDOSE on an Amazon Black Friday Deal on ${BF_PRICES_CHECKED}, at 15% to 21% off the list price Amazon shows.`,
   ],
   quickPicks: [
     { label: "Best compression boots", itemId: "hyperice-normatec-3-legs" },
     { label: "Best value boots", itemId: "therabody-jetboots-prime" },
     { label: "Best massage gun", itemId: "therabody-theragun-pro-plus" },
-    { label: "Best Hyperice massage gun", itemId: "hyperice-hypervolt-3-pro" },
+    { label: "Best heated massage gun", itemId: "therabody-theragun-prime-plus" },
     { label: "Best wellness splurge", itemId: "higherdose-infrared-sauna-blanket" },
   ],
   blocks: [
@@ -73,10 +71,8 @@ const GUIDE: EquipmentGuideProps = {
       columns: ["Product", "Price now", "List price", "Saving"],
       rows: [
         ["Therabody ThermBack LED", "$259.99", "$329.99", "21% (Black Friday Deal)"],
-        ["Hyperice Hypervolt 3 Pro", "$299.00", "$349.00", "14%"],
         ["Therabody Theragun Prime Plus", "$349.99", "$429.99", "19% (Black Friday Deal)"],
         ["Therabody JetBoots Prime", "$439.99", "$549.99", "20% (Black Friday Deal)"],
-        ["Hyperice Normatec Elite Hips", "$524.00", "$599.00", "13%"],
         ["Therabody Theragun PRO Plus", "$549.99", "$649.99", "15% (Black Friday Deal)"],
         ["HigherDOSE Infrared Sauna Blanket", "$559.20", "$699.00", "20% (Black Friday Deal)"],
         ["Hyperice Normatec 3 Legs", "$719.00", "$899.00", "20% (Black Friday Deal)"],
@@ -93,7 +89,6 @@ const GUIDE: EquipmentGuideProps = {
       heading: "Compression boots and wraps",
       items: [
         gift("jetbootsPrime", { badge: "Best Value Boots", pros: ["Wireless", "Folds into a backpack"], cons: ["Choose the right inseam size"] }),
-        gift("normatecHips", { badge: "Best for Hips & Back", pros: ["Cordless", "Up to 4 hours of battery"], cons: ["Hips and lower back only"] }),
         gift("normatec3Legs", { badge: "Best Compression Boots", pros: ["The original system", "7 levels"], cons: ["Hose to a control unit"] }),
         gift("normatec3Lower", { badge: "Legs + Hips", pros: ["Hip attachment included"], cons: ["Hose to a control unit"] }),
         gift("jetbootsProPlus", { badge: "Most Advanced Boots", pros: ["Compression, vibration and light"], cons: ["The priciest boots here"] }),
@@ -107,7 +102,6 @@ const GUIDE: EquipmentGuideProps = {
       heading: "Massage guns and heat therapy",
       items: [
         gift("thermBack", { badge: "Best for Lower Back", pros: ["Heat, infrared, LED and vibration"], cons: ["Lower back only"] }),
-        gift("hypervolt3Pro", { badge: "Best Hyperice Massage Gun", pros: ["Heated head attachment", "4-hour battery"], cons: ["2.5 lb"] }),
         gift("theragunPrimePlus", { badge: "Best Heated Theragun", pros: ["3 heat levels"], cons: ["4 attachments"] }),
         gift("theragunProPlus", { badge: "Best Massage Gun", pros: ["Heat and vibration on top of percussion"], cons: ["Cold attachment sold separately"] }),
         gift("higherdose", { badge: "Best Wellness Splurge", pros: ["Home sauna sessions", "9 heat levels"], cons: ["Sold by a third-party seller (FRONT ROW)"] }),
