@@ -6,11 +6,11 @@ const HERO_IMAGE = "https://pilatescollectiveclub.com/pictures/stitch-retail-act
 
 export const metadata: Metadata = {
   title: "Pilates Clothing Black Friday Deals 2026",
-  description: "Pilates clothing Black Friday 2026: leggings, bras, grip socks and layers from CRZ YOGA, Varley, Sweaty Betty, toesox and TAVI, with prices to beat.",
+  description: "Pilates clothing Black Friday 2026: leggings, bras, grip socks and layers from CRZ YOGA, Varley, Sweaty Betty, toesox and TAVI, with live deals marked.",
   keywords: ["pilates clothing black friday", "black friday leggings deals", "pilates leggings black friday", "grip socks black friday", "activewear black friday 2026", "varley black friday", "sweaty betty black friday", "cyber monday activewear"],
   openGraph: {
     title: "Pilates Clothing Black Friday Deals 2026: Leggings, Bras & Socks",
-    description: "Pilates clothing Black Friday 2026: leggings, bras, grip socks and layers from CRZ YOGA, Varley, Sweaty Betty, toesox and TAVI, with prices to beat.",
+    description: "Pilates clothing Black Friday 2026: leggings, bras, grip socks and layers from CRZ YOGA, Varley, Sweaty Betty, toesox and TAVI, with live deals marked.",
     type: "article",
     url: PAGE_URL,
     images: [{ url: HERO_IMAGE, width: 1200, height: 630, alt: "Activewear on a rail: Pilates clothing Black Friday deals" }],
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Pilates Clothing Black Friday Deals 2026",
-    description: "Pilates clothing Black Friday 2026: leggings, bras, grip socks and layers from CRZ YOGA, Varley, Sweaty Betty, toesox and TAVI, with prices to beat.",
+    description: "Pilates clothing Black Friday 2026: leggings, bras, grip socks and layers from CRZ YOGA, Varley, Sweaty Betty, toesox and TAVI, with live deals marked.",
     images: [HERO_IMAGE],
   },
   alternates: { canonical: PAGE_URL },
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
 const GUIDE: DealsGuideProps = {
   "slug": "black-friday-pilates-clothing-deals",
   "title": "Pilates Clothing Black Friday Deals 2026: Leggings, Bras & Socks",
-  "description": "Pilates clothing Black Friday 2026: leggings, bras, grip socks and layers from CRZ YOGA, Varley, Sweaty Betty, toesox and TAVI, with prices to beat.",
+  "description": "Pilates clothing Black Friday 2026: leggings, bras, grip socks and layers from CRZ YOGA, Varley, Sweaty Betty, toesox and TAVI, with live deals marked.",
   "breadcrumb": "Pilates Clothing Black Friday Deals",
   "eyebrow": "Clothing",
   "h1": "Pilates Clothing Black Friday",
@@ -37,7 +37,7 @@ const GUIDE: DealsGuideProps = {
   "readTime": "7 min read",
   "heroImage": "/pictures/stitch-retail-activewear.png",
   "heroAlt": "Activewear on a rail: Pilates clothing Black Friday deals",
-  "intro": "Activewear is where Black Friday discounts are deepest and most frequent. Here are 16 Pilates pieces we track on Amazon (leggings, bras and tops, grip socks and layers) each with today's price, so you can tell a genuine markdown from a recycled 'was' price.",
+  "intro": "Activewear is where Black Friday discounts are deepest and most frequent. Here are 16 Pilates pieces we track on Amazon (leggings, bras and tops, grip socks and layers) each with its Amazon price on November 19, 2026. Ten are on an Amazon Black Friday Deal, marked below with the saving Amazon reports.",
   "sections": [
     {
       "id": "leggings",
@@ -49,35 +49,54 @@ const GUIDE: DealsGuideProps = {
           "name": "CRZ YOGA Butterluxe Leggings 25\"",
           "badge": "Best value",
           "note": "CRZ YOGA's softest, stretchiest fabric: the closest Amazon equivalent to buttery studio leggings.",
-          "price": "$32.00"
+          "price": "$27.20",
+          "wasPrice": "$32.00",
+          "wasLabel": "List",
+          "pctOff": 15,
+          "amazonDeal": true
         },
         {
           "asin": "B07DCSM69V",
           "name": "CRZ YOGA Naked Feeling Leggings 25\"",
           "badge": "Best for hot classes",
           "note": "High-rise, sweat-wicking, with a hidden waistband pocket. Designed for hot yoga or Pilates.",
-          "price": "$26.00"
+          "price": "$22.10",
+          "wasPrice": "$26.00",
+          "wasLabel": "List",
+          "pctOff": 15,
+          "amazonDeal": true
         },
         {
           "asin": "B0CTCFMDMJ",
           "name": "HeyNuts Pure&Plain Workout Pro 1.0 Leggings 25\"",
           "badge": "Best budget",
           "note": "A 25-inch full-length legging at a budget price.",
-          "price": "$19.99"
+          "price": "$19.99",
+          "wasPrice": "$32.00",
+          "wasLabel": "List",
+          "pctOff": 38
         },
         {
           "asin": "B0B153HHKD",
           "name": "Sweaty Betty Power Cropped Leggings",
           "badge": "Premium, sold by Amazon",
           "note": "Sweat-wicking, quick-drying, with sculpting seams, a side pocket and a back zip pocket. Sold by Amazon.com.",
-          "price": "$98.00"
+          "price": "$83.29",
+          "wasPrice": "$98.00",
+          "wasLabel": "List",
+          "pctOff": 15,
+          "amazonDeal": true
         },
         {
           "asin": "B0FXN378H8",
           "name": "Varley Freesoft Piped Full Leggings",
           "badge": "Premium",
           "note": "Varley's soft Freesoft fabric with contrast piping, sold by Shopbop (an Amazon company).",
-          "price": "$98.00"
+          "price": "$36.75",
+          "wasPrice": "$98.00",
+          "wasLabel": "List",
+          "pctOff": 63,
+          "lowStock": true
         }
       ]
     },
@@ -91,35 +110,52 @@ const GUIDE: DealsGuideProps = {
           "name": "CRZ YOGA Butterluxe U Back Sports Bra",
           "badge": "Best-value bra",
           "note": "A Butterluxe U-back bra for low-impact training.",
-          "price": "$28.00"
+          "price": "$23.80",
+          "wasPrice": "$28.00",
+          "wasLabel": "List",
+          "pctOff": 15,
+          "amazonDeal": true
         },
         {
           "asin": "B0BSB22J5P",
           "name": "Sweaty Betty Power Medium Racer Back Bra",
           "badge": "Premium bra",
           "note": "Medium impact with removable pads and an adjustable T-bar strap. Sold by Amazon.com.",
-          "price": "$55.76"
+          "price": "$53.98",
+          "wasPrice": "$68.00",
+          "wasLabel": "List",
+          "pctOff": 21
         },
         {
           "asin": "B0FXN42JWR",
           "name": "Varley Freesoft Harley Bralette",
           "badge": "Premium bralette",
           "note": "A light-support Freesoft bralette that matches the Varley leggings. Sold by Shopbop.",
-          "price": "$66.00"
+          "price": "$29.70",
+          "wasPrice": "$66.00",
+          "wasLabel": "List",
+          "pctOff": 55
         },
         {
           "asin": "B09X9Y5S8G",
           "name": "CRZ YOGA Butterluxe Racerback Tank",
           "badge": "Fitted tank",
           "note": "A fitted racerback tank in Butterluxe fabric.",
-          "price": "$32.00"
+          "price": "$27.20",
+          "wasPrice": "$32.00",
+          "wasLabel": "List",
+          "pctOff": 15,
+          "amazonDeal": true
         },
         {
           "asin": "B0FP3MWK1Z",
           "name": "Varley Marla Button Placket Tank",
           "badge": "Studio-to-street tank",
           "note": "A fitted tank with a button placket. Sold by Shopbop.",
-          "price": "$89.60"
+          "price": "$67.20",
+          "wasPrice": "$128.00",
+          "wasLabel": "List",
+          "pctOff": 48
         }
       ]
     },
@@ -133,28 +169,45 @@ const GUIDE: DealsGuideProps = {
           "name": "toesox Low Rise Grip Socks (Full Toe, 2-Pack)",
           "badge": "Studio favorite",
           "note": "Full-toe grip socks with a non-slip sole, in an organic cotton blend.",
-          "price": "$30.00"
+          "price": "$25.50",
+          "wasPrice": "$30.00",
+          "wasLabel": "List",
+          "pctOff": 15,
+          "amazonDeal": true,
+          "lowStock": true
         },
         {
           "asin": "B0GFPGMWWS",
           "name": "TAVI Stacy Slouch Pilates Socks (2-Pack)",
           "badge": "Most stylish",
           "note": "Slouchy closed-toe grip socks from TAVI.",
-          "price": "$40.00"
+          "price": "$30.40",
+          "wasPrice": "$40.00",
+          "wasLabel": "List",
+          "pctOff": 24,
+          "amazonDeal": true
         },
         {
           "asin": "B072F6QR84",
           "name": "Tucketts Toeless Grip Socks",
           "badge": "Best toeless",
           "note": "Toeless grip socks, for people who dislike socks over their toes.",
-          "price": "$18.99"
+          "price": "$14.99",
+          "wasPrice": "$17.99",
+          "wasLabel": "List",
+          "pctOff": 17,
+          "amazonDeal": true
         },
         {
           "asin": "B0DQ53GSP5",
           "name": "Muezna Pilates Grip Socks (6 Pairs)",
           "badge": "Best multi-pack",
           "note": "Six pairs of grip socks: a week of classes without laundry.",
-          "price": "$7.59"
+          "price": "$6.79",
+          "wasPrice": "$7.99",
+          "wasLabel": "Was",
+          "pctOff": 15,
+          "amazonDeal": true
         }
       ]
     },
@@ -168,7 +221,11 @@ const GUIDE: DealsGuideProps = {
           "name": "CRZ YOGA Butterluxe Jacket (Waist Length)",
           "badge": "Best-value layer",
           "note": "Slim-fit, waist-length zip jacket with thumbholes and zip pockets.",
-          "price": "$48.00"
+          "price": "$40.80",
+          "wasPrice": "$48.00",
+          "wasLabel": "List",
+          "pctOff": 15,
+          "amazonDeal": true
         },
         {
           "asin": "B0DFZPBZDV",
@@ -183,7 +240,7 @@ const GUIDE: DealsGuideProps = {
   "watchFor": [
     {
       "h": "Check the 30-day price, not the strikethrough.",
-      "b": "Amazon's 'List' or 'Was' price can be set by the seller. Compare the Black Friday price with the price we recorded here in October: that is the real saving."
+      "b": "Amazon's 'List' price is set by the seller and can be higher than the item usually sells for. Where Amazon shows a 'Was' price (its recent selling price), that is the fairer comparison, and each saving here says which one it uses."
     },
     {
       "h": "Check who is selling.",

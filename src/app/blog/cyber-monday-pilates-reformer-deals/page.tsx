@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import DealsGuide, { type DealsGuideProps } from "@/components/DealsGuide";
 
 export const metadata: Metadata = {
-  "title": "Cyber Monday Pilates Reformer Deals 2026: Prices to Beat",
-  "description": "Cyber Monday 2026 Pilates reformer deals to watch, from foldable machines under $300 to Align, Balanced Body and Merrithew, with today's Amazon price to beat.",
+  "title": "Cyber Monday Pilates Reformer Deals 2026: Live Prices",
+  "description": "Cyber Monday 2026 Pilates reformer deals, from foldable machines under $300 to Align, Balanced Body and Merrithew, with live Amazon prices and deals marked.",
   "keywords": [
     "cyber monday pilates reformer",
     "pilates reformer cyber monday deal",
@@ -14,8 +14,8 @@ export const metadata: Metadata = {
     "balanced body cyber monday"
   ],
   "openGraph": {
-    "title": "Cyber Monday Pilates Reformer Deals 2026: Prices to Beat",
-    "description": "Cyber Monday 2026 Pilates reformer deals to watch, from foldable machines under $300 to Align, Balanced Body and Merrithew, with today's Amazon price to beat.",
+    "title": "Cyber Monday Pilates Reformer Deals 2026: Live Prices",
+    "description": "Cyber Monday 2026 Pilates reformer deals, from foldable machines under $300 to Align, Balanced Body and Merrithew, with live Amazon prices and deals marked.",
     "type": "article",
     "url": "https://pilatescollectiveclub.com/blog/cyber-monday-pilates-reformer-deals",
     "images": [
@@ -29,8 +29,8 @@ export const metadata: Metadata = {
   },
   "twitter": {
     "card": "summary_large_image",
-    "title": "Cyber Monday Pilates Reformer Deals 2026: Prices to Beat",
-    "description": "Cyber Monday 2026 Pilates reformer deals to watch, from foldable machines under $300 to Align, Balanced Body and Merrithew, with today's Amazon price to beat.",
+    "title": "Cyber Monday Pilates Reformer Deals 2026: Live Prices",
+    "description": "Cyber Monday 2026 Pilates reformer deals, from foldable machines under $300 to Align, Balanced Body and Merrithew, with live Amazon prices and deals marked.",
     "images": [
       "https://pilatescollectiveclub.com/pictures/stitch-reformer-sunlit-minimal.png"
     ]
@@ -46,19 +46,19 @@ export const metadata: Metadata = {
   }
 };
 
-// Prices are the live Amazon prices checked on October 14, 2026.
+// Prices are the live Amazon prices checked on November 19, 2026 (Creators API), with Amazon's deal badges.
 const GUIDE: DealsGuideProps = {
   "slug": "cyber-monday-pilates-reformer-deals",
   "title": "Cyber Monday Pilates Reformer Deals 2026",
-  "description": "Cyber Monday 2026 Pilates reformer deals to watch, from foldable machines under $300 to Align, Balanced Body and Merrithew, with today's Amazon price to beat.",
+  "description": "Cyber Monday 2026 Pilates reformer deals, from foldable machines under $300 to Align, Balanced Body and Merrithew, with live Amazon prices and deals marked.",
   "breadcrumb": "Cyber Monday Reformer Deals",
   "eyebrow": "Reformers",
   "h1": "Cyber Monday Pilates Reformer Deals",
-  "h1Accent": "2026: Prices to Beat",
+  "h1Accent": "2026: Live Prices",
   "readTime": "9 min read",
   "heroImage": "/pictures/stitch-reformer-sunlit-minimal.png",
   "heroAlt": "A Pilates reformer in a sunlit room",
-  "intro": "A reformer is the biggest Pilates purchase most people make, so a Cyber Monday discount on one is worth real money. Below are the home reformers we track, grouped by budget, each with the Amazon price we checked today. If a deal does not beat that number, it is not a deal.",
+  "intro": "A reformer is the biggest Pilates purchase most people make, so a Cyber Monday discount on one is worth real money. Below are the home reformers we track, grouped by budget, each with its Amazon price on November 19, 2026. Three are on an Amazon Black Friday Deal, marked below.",
   "sections": [
     {
       "id": "under-500",
@@ -70,28 +70,32 @@ const GUIDE: DealsGuideProps = {
           "name": "DWKWE Foldable Pilates Reformer 88\"",
           "badge": "Lowest price",
           "note": "A foldable metal-frame reformer with an adjustable footbar, at one of the lowest prices we track.",
-          "price": "$284.99"
+          "price": "$339.99"
         },
         {
           "asin": "B0D31767J1",
           "name": "WINDFOOT Foldable Pilates Reformer with Jump Board",
           "badge": "Best with jump board",
           "note": "A foldable reformer that includes a jump board for cardio work.",
-          "price": "$295.99"
+          "price": "$289.99"
         },
         {
           "asin": "B01FMODVAE",
           "name": "AeroPilates 287 Reformer",
           "badge": "Best-known budget brand",
           "note": "AeroPilates' entry machine, which uses cord resistance rather than springs.",
-          "price": "$359.00"
+          "price": "$356.99"
         },
         {
           "asin": "B0DFXQX3XV",
           "name": "PAETA 86\" Foldable Pilates Reformer",
           "badge": "Best foldable springs",
           "note": "An 86-inch foldable reformer from PAETA.",
-          "price": "$419.99"
+          "price": "$398.99",
+          "wasPrice": "$499.99",
+          "wasLabel": "List",
+          "pctOff": 20,
+          "amazonDeal": true
         }
       ]
     },
@@ -105,14 +109,18 @@ const GUIDE: DealsGuideProps = {
           "name": "AeroPilates Premier 701 Reformer",
           "badge": "Best mid-range AeroPilates",
           "note": "AeroPilates' Premier 701, a step up from the 287.",
-          "price": "$555.99"
+          "price": "$550.99"
         },
         {
           "asin": "B0D7M7JNFV",
           "name": "PAETA Wooden Foldable Reformer with Sitting Box",
           "badge": "Best wood under $1,000",
           "note": "A wooden foldable reformer with a sitting box included.",
-          "price": "$719.99"
+          "price": "$664.98",
+          "wasPrice": "$899.99",
+          "wasLabel": "List",
+          "pctOff": 26,
+          "amazonDeal": true
         },
         {
           "asin": "B0BBT7YV93",
@@ -126,29 +134,32 @@ const GUIDE: DealsGuideProps = {
           "name": "DELAVIN Solid Wood Pilates Reformer",
           "badge": "Best solid-wood frame",
           "note": "A solid wood reformer for a home studio.",
-          "price": "$1,229.99"
+          "price": "$1,120.99",
+          "wasPrice": "$1,377.49",
+          "wasLabel": "List",
+          "pctOff": 19,
+          "amazonDeal": true
         },
         {
           "asin": "B0012TJI8S",
           "name": "AeroPilates Pro XP 557 Reformer",
           "badge": "Best AeroPilates flagship",
           "note": "AeroPilates' top home model with an oak-finish frame.",
-          "price": "$1,329.99",
-          "lowStock": true
+          "price": "$1,329.99"
         }
       ]
     },
     {
       "id": "studio-grade",
       "title": "Studio-grade home reformers",
-      "intro": "Studio brands discount less often, so even a small saving is worth watching.",
+      "intro": "Studio brands discount less often, and none of these was on a deal on November 19.",
       "items": [
         {
           "asin": "B09HNCMTZL",
           "name": "Balanced Body Metro IQ Reformer",
           "badge": "Best for small spaces",
           "note": "Balanced Body's telescoping reformer that shortens for storage.",
-          "price": "$2,330.00",
+          "price": "$2,524.00",
           "lowStock": true
         },
         {
@@ -199,8 +210,8 @@ const GUIDE: DealsGuideProps = {
   ],
   "watchFor": [
     {
-      "h": "Write down today's price.",
-      "b": "Every product here shows the Amazon price we checked in October. A real Cyber Monday deal beats it; a 'was' price you have never seen does not."
+      "h": "Check what the saving is measured against.",
+      "b": "Each product shows its Amazon price on November 19, 2026, plus the List or Was price Amazon compares it with. 'Was' is Amazon's recent selling price; 'List' is set by the seller and can be higher than the item usually sells for."
     },
     {
       "h": "Black Friday and Cyber Monday often overlap.",
@@ -222,7 +233,7 @@ const GUIDE: DealsGuideProps = {
     },
     {
       "q": "Are these Cyber Monday prices?",
-      "a": "Not yet. They are the Amazon prices we checked on October 14, 2026, so you have a baseline. We will update this page with real Cyber Monday deals before the day."
+      "a": "Partly. Amazon's Black Friday and Cyber Monday event started on November 19 and runs through November 30, 2026. Items marked Black Friday Deal show Amazon's event price on November 19; the others show their regular Amazon price that day. Prices can change at any time, so check the listing before you buy."
     },
     {
       "q": "Do Pilates reformers go on sale on Cyber Monday?",

@@ -9,8 +9,8 @@ import CTASection from "@/components/CTASection";
 import QuickPicks from "@/components/QuickPicks";
 import TopPick from "@/components/TopPick";
 import { jsonLdHtml } from "@/lib/schema";
-import { BF_DATES, BF_GUIDES, BF_PRICES_CHECKED, BF_PRICES_CHECKED_ISO } from "@/lib/blackFriday";
-import { CM_DATE, CM_GUIDES, XMAS_DATE, XMAS_GUIDES, SEASONAL_PRICES_CHECKED, SEASONAL_PRICES_CHECKED_ISO } from "@/lib/seasonalGuides";
+import { BF_DATES, BF_DEALS_END, BF_DEALS_END_ISO, BF_GUIDES, BF_PRICES_CHECKED, BF_PRICES_CHECKED_ISO } from "@/lib/blackFriday";
+import { CM_DATE, CM_GUIDES, CM_PRICES_CHECKED, CM_PRICES_CHECKED_ISO, XMAS_DATE, XMAS_GUIDES, SEASONAL_PRICES_CHECKED, SEASONAL_PRICES_CHECKED_ISO } from "@/lib/seasonalGuides";
 
 export type DealItem = {
   asin: string;
@@ -19,6 +19,13 @@ export type DealItem = {
   badge: string;
   note: string;
   lowStock?: boolean;
+  /** Amazon's comparison price, from the Creators API: "List" (list price) or "Was" (recent price). */
+  wasPrice?: string;
+  wasLabel?: "List" | "Was";
+  /** Percent off the comparison price, as Amazon reports it. */
+  pctOff?: number;
+  /** True when Amazon badges the listing "Black Friday Deal". */
+  amazonDeal?: boolean;
 };
 
 export type DealSection = {
@@ -57,10 +64,10 @@ const SEASONS = {
     label: "Black Friday 2026",
     checked: BF_PRICES_CHECKED,
     checkedIso: BF_PRICES_CHECKED_ISO,
-    disclaimer: "*Product links go to Amazon, where we earn a small commission on qualifying purchases at no extra cost to you. The prices shown are the current Amazon prices we checked, not sale prices: we are tracking these listings and will update this page as Black Friday deals go live.",
-    dates: [{ label: "Black Friday", value: BF_DATES.blackFriday }, { label: "Cyber Monday", value: BF_DATES.cyberMonday }],
-    listLabel: "The watchlist: price to beat",
-    cta: "Check price →",
+    disclaimer: `*Product links go to Amazon, where we earn a small commission on qualifying purchases at no extra cost to you. Prices are Amazon's prices on ${BF_PRICES_CHECKED}. Items marked Black Friday Deal are part of Amazon's Black Friday event, which runs through ${BF_DEALS_END}; prices can change at any time, so check the price on Amazon before you buy.`,
+    dates: [{ label: "Black Friday", value: BF_DATES.blackFriday }, { label: "Amazon deals end", value: BF_DEALS_END }],
+    listLabel: "Deals and prices at a glance",
+    cta: "See deal →",
     tipsHeading: "How to tell a real Black Friday deal",
     relatedHeading: "More Black Friday 2026 guides",
     related: BF_GUIDES as Related[],
@@ -69,12 +76,12 @@ const SEASONS = {
   },
   "cyber-monday": {
     label: "Cyber Monday 2026",
-    checked: SEASONAL_PRICES_CHECKED,
-    checkedIso: SEASONAL_PRICES_CHECKED_ISO,
-    disclaimer: "*Product links go to Amazon, where we earn a small commission on qualifying purchases at no extra cost to you. Prices shown are today's Amazon prices, not sale prices. We are tracking these listings and will update this page with real Cyber Monday deals before the day.",
+    checked: CM_PRICES_CHECKED,
+    checkedIso: CM_PRICES_CHECKED_ISO,
+    disclaimer: `*Product links go to Amazon, where we earn a small commission on qualifying purchases at no extra cost to you. Prices are Amazon's prices on ${CM_PRICES_CHECKED}. Items marked Black Friday Deal are part of Amazon's Black Friday and Cyber Monday event, which runs through ${BF_DEALS_END}; prices can change at any time, so check the price on Amazon before you buy.`,
     dates: [{ label: "Black Friday", value: BF_DATES.blackFriday }, { label: "Cyber Monday", value: CM_DATE }],
-    listLabel: "The watchlist: price to beat",
-    cta: "Check price →",
+    listLabel: "Deals and prices at a glance",
+    cta: "See deal →",
     tipsHeading: "How to tell a real Cyber Monday deal",
     relatedHeading: "More Cyber Monday 2026 guides",
     related: [...CM_GUIDES, ...BF_GUIDES.slice(0, 2)] as Related[],
@@ -101,12 +108,19 @@ const SEASONS = {
 const SITE = "https://pilatescollectiveclub.com";
 const amz = (asin: string) => `https://www.amazon.com/dp/${asin}?tag=pilatescollective-20`;
 
+// "$11.13 (List $19.99)": the comparison price is shown only when Amazon reports one.
+const priceLabel = (p: DealItem) => (p.wasPrice ? `${p.price} (${p.wasLabel ?? "List"} ${p.wasPrice})` : p.price);
+// Amazon's deal badge and the saving, as Amazon reports them; null when the item is not discounted.
+const dealLabel = (p: DealItem) =>
+  p.amazonDeal ? `Black Friday Deal${p.pctOff ? ` · ${p.pctOff}% off` : ""}` : p.pctOff && p.pctOff >= 10 ? `${p.pctOff}% off ${p.wasLabel === "Was" ? "recent price" : "list price"}` : null;
+
 const eyebrowStyle = { color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" };
 const bodyStyle = { color: "#53433e", fontFamily: "'Montserrat', sans-serif" };
 const h2Style = { color: "#1b1c1c", fontFamily: "'Playfair Display', serif" };
 const inlineLinkStyle = { color: "#8b4a31", textDecoration: "underline" };
 const chipStyle = { backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" };
 const cardStyle = { backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" };
+const dealChipStyle = { backgroundColor: "#8b4a31", color: "#ffffff", fontFamily: "'Montserrat', sans-serif" };
 
 export default function DealsGuide(props: DealsGuideProps) {
   const pageUrl = `${SITE}/blog/${props.slug}`;
@@ -149,7 +163,7 @@ export default function DealsGuide(props: DealsGuideProps) {
             "@type": "Product",
             "name": p.name,
             "description": p.note,
-            "offers": { "@type": "Offer", "priceCurrency": "USD", "price": p.price, "availability": p.lowStock ? "https://schema.org/LimitedAvailability" : "https://schema.org/InStock", "url": amz(p.asin) },
+            "offers": { "@type": "Offer", "priceCurrency": "USD", "price": p.price, "availability": p.lowStock ? "https://schema.org/LimitedAvailability" : "https://schema.org/InStock", "url": amz(p.asin), ...(p.amazonDeal ? { "priceValidUntil": BF_DEALS_END_ISO } : {}) },
           },
         })),
       },
@@ -185,7 +199,7 @@ export default function DealsGuide(props: DealsGuideProps) {
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked {season.checked} · {props.readTime}</p>
             {allItems[0] && (
-              <TopPick label="Top pick to watch" name={allItems[0].name} price={allItems[0].price} note={allItems[0].badge} url={amz(allItems[0].asin)} cta={season.cta} />
+              <TopPick label="Top pick" name={allItems[0].name} price={priceLabel(allItems[0])} note={dealLabel(allItems[0]) ?? allItems[0].badge} url={amz(allItems[0].asin)} cta={season.cta} />
             )}
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>{props.intro}</p>
@@ -207,7 +221,7 @@ export default function DealsGuide(props: DealsGuideProps) {
             <div className="mb-12 mt-4 grid grid-cols-1 sm:grid-cols-3 gap-3">
               {[
                 ...season.dates,
-                { label: "Baseline prices checked", value: season.checked },
+                { label: "Prices checked", value: season.checked },
               ].map((d) => (
                 <div key={d.label} className="rounded-xl p-4" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.5)" }}>
                   <p className="text-xs font-semibold uppercase tracking-widest mb-1" style={eyebrowStyle}>{d.label}</p>
@@ -217,7 +231,7 @@ export default function DealsGuide(props: DealsGuideProps) {
             </div>
 
             {/* Watchlist */}
-            <QuickPicks className="mb-6" title={season.listLabel} picks={allItems.map((p) => ({ name: p.name, price: p.price, url: amz(p.asin), note: p.badge, cta: season.cta }))} />
+            <QuickPicks className="mb-6" title={season.listLabel} picks={allItems.map((p) => ({ name: p.name, price: p.price, url: amz(p.asin), note: dealLabel(p) ? `${dealLabel(p)} · ${p.badge}` : p.badge, cta: season.cta }))} />
             <AffiliateNote className="mb-16">{season.disclaimer.replace(/^\*/, "")}</AffiliateNote>
 
             {/* Sections */}
@@ -232,10 +246,11 @@ export default function DealsGuide(props: DealsGuideProps) {
                 <div className="space-y-8">
                   {s.items.map((p) => (
                     <div key={p.asin}>
-                      <div className="flex items-center gap-3 mb-4">
+                      <div className="flex flex-wrap items-center gap-2 mb-4">
                         <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={chipStyle}>{p.badge}</span>
+                        {dealLabel(p) && <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={dealChipStyle}>{dealLabel(p)}</span>}
                       </div>
-                      <ProductCard name={p.name} description={p.note} price={p.price} affiliateUrl={amz(p.asin)} ctaLabel={props.season && props.season !== "black-friday" ? "Shop Now →" : undefined} />
+                      <ProductCard name={p.name} description={p.note} price={priceLabel(p)} affiliateUrl={amz(p.asin)} ctaLabel={props.season && props.season !== "black-friday" ? "Shop Now →" : undefined} />
                     </div>
                   ))}
                 </div>

@@ -4,10 +4,14 @@
 export const CM_DATE = "Monday, November 30, 2026";
 export const XMAS_DATE = "Friday, December 25, 2026";
 
-// Date the baseline prices on the Cyber Monday and Christmas pages were last
+// Date the prices on the Christmas pages were last
 // checked against live Amazon listings. Update it whenever prices are refreshed.
 export const SEASONAL_PRICES_CHECKED = "October 20, 2026";
 export const SEASONAL_PRICES_CHECKED_ISO = "2026-10-20";
+
+// Cyber Monday pages were re-checked separately, once Amazon's Black Friday deals went live.
+export const CM_PRICES_CHECKED = "November 19, 2026";
+export const CM_PRICES_CHECKED_ISO = "2026-11-19";
 
 export type SeasonalGuide = {
   href: string;
@@ -19,9 +23,9 @@ export type SeasonalGuide = {
 
 export const CM_GUIDES: SeasonalGuide[] = [
   { href: "/blog/cyber-monday-pilates-deals", title: "Cyber Monday Pilates Deals 2026", excerpt: "The hub: reformers, equipment, clothing and gifts to watch on Cyber Monday.", imageUrl: "/pictures/stitch-luxury-studio-wide.png", group: "Cyber Monday" },
-  { href: "/blog/cyber-monday-pilates-reformer-deals", title: "Cyber Monday Pilates Reformer Deals", excerpt: "Home reformers from under $300 to studio-grade, with today's price to beat.", imageUrl: "/pictures/stitch-reformer-sunlit-minimal.png", group: "Cyber Monday" },
-  { href: "/blog/black-friday-cyber-monday-studio-reformer-deals", title: "Black Friday & Cyber Monday Studio Reformer Deals", excerpt: "Balanced Body, Merrithew, Align and PersonalHour: the price to beat on 13 studio-grade reformers.", imageUrl: "/pictures/stitch-reformers-aerial-row.png", group: "Cyber Monday" },
-  { href: "/blog/black-friday-cyber-monday-recovery-deals", title: "Black Friday & Cyber Monday Recovery Deals", excerpt: "Normatec, JetBoots, Theragun, Hypervolt and HigherDOSE: prices to beat.", imageUrl: "/pictures/stitch-studio-bench-towels.png", group: "Cyber Monday" },
+  { href: "/blog/cyber-monday-pilates-reformer-deals", title: "Cyber Monday Pilates Reformer Deals", excerpt: "Home reformers from under $300 to studio-grade, with live prices and deals marked.", imageUrl: "/pictures/stitch-reformer-sunlit-minimal.png", group: "Cyber Monday" },
+  { href: "/blog/black-friday-cyber-monday-studio-reformer-deals", title: "Black Friday & Cyber Monday Studio Reformer Deals", excerpt: "Balanced Body, Merrithew, Align and PersonalHour: current prices on 12 studio-grade reformers.", imageUrl: "/pictures/stitch-reformers-aerial-row.png", group: "Cyber Monday" },
+  { href: "/blog/black-friday-cyber-monday-recovery-deals", title: "Black Friday & Cyber Monday Recovery Deals", excerpt: "Normatec, JetBoots, Theragun, Hypervolt and HigherDOSE: up to 21% off now.", imageUrl: "/pictures/stitch-studio-bench-towels.png", group: "Cyber Monday" },
   { href: "/blog/cyber-monday-pilates-equipment-deals", title: "Cyber Monday Pilates Equipment Deals", excerpt: "Mats, rings, balls, rollers, weights and recovery tools for a home setup.", imageUrl: "/pictures/stitch-studio-shelf-props.png", group: "Cyber Monday" },
   { href: "/blog/cyber-monday-pilates-clothing-deals", title: "Cyber Monday Pilates Clothing Deals", excerpt: "Leggings, bras, layers, grip socks and bags for class.", imageUrl: "/pictures/stitch-retail-activewear.png", group: "Cyber Monday" },
   { href: "/blog/cyber-monday-pilates-gift-deals", title: "Cyber Monday Pilates Gift Deals", excerpt: "Gifts for every budget to buy on Cyber Monday, from stocking fillers to big-ticket.", imageUrl: "/pictures/stitch-props-cork-ring.png", group: "Cyber Monday" },

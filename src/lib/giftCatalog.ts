@@ -243,6 +243,8 @@ export const GIFTS = {
   },
 } satisfies Record<string, Base>;
 
+export type GiftKey = keyof typeof GIFTS;
+
 export function gift(key: keyof typeof GIFTS, overrides: Partial<GuideItem> & { badge: string }): GuideItem {
   return { ...(GIFTS[key] as Base), ...overrides } as GuideItem;
 }

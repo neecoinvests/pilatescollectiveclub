@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
 import EquipmentGuide, { type EquipmentGuideProps } from "@/components/EquipmentGuide";
 import { item } from "@/lib/reformerCatalog";
-import { GIFTS_CHECKED, GIFTS_CHECKED_ISO } from "@/lib/giftCatalog";
+import { BF_DEALS_END, BF_PRICES_CHECKED, BF_PRICES_CHECKED_ISO } from "@/lib/blackFriday";
 
 const SLUG = "black-friday-cyber-monday-studio-reformer-deals";
 const URL = `https://pilatescollectiveclub.com/blog/${SLUG}`;
 const HERO = "/pictures/stitch-reformers-aerial-row.png";
 const TITLE = "Black Friday & Cyber Monday Studio Reformer Deals 2026";
-const DESCRIPTION = "Studio reformer deals to watch this Black Friday and Cyber Monday: Balanced Body, Merrithew, Align-Pilates and PersonalHour, with today's price to beat.";
+const DESCRIPTION = "Black Friday and Cyber Monday 2026 studio reformers on Amazon: Balanced Body, Merrithew, Align-Pilates and PersonalHour, with current prices and deal status.";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -29,15 +29,15 @@ const GUIDE: EquipmentGuideProps = {
   h1: "Black Friday & Cyber Monday",
   h1Accent: "Studio Reformer Deals 2026",
   readTime: "13 min read",
-  updatedLabel: `Prices checked ${GIFTS_CHECKED}`,
-  datePublished: GIFTS_CHECKED_ISO,
-  dateModified: GIFTS_CHECKED_ISO,
+  updatedLabel: `Prices checked ${BF_PRICES_CHECKED}`,
+  datePublished: "2026-10-20",
+  dateModified: BF_PRICES_CHECKED_ISO,
   heroImage: HERO,
   heroAlt: "Rows of studio reformers seen from above",
   heroCaption: "Balanced Body · Merrithew · Align-Pilates · PersonalHour",
   intro: [
     "Black Friday is Friday, November 27 and Cyber Monday is Monday, November 30. For anyone planning to buy a studio-grade reformer, these are the days to watch: on a $3,000 to $8,000 machine, even a modest discount is real money.",
-    "This guide tracks 13 studio-grade reformers sold on Amazon, from Balanced Body, Merrithew, Align-Pilates and PersonalHour. Each shows the price we checked today, so you can tell at a glance whether a holiday deal is genuine. We will update the page as deals go live.",
+    `This guide lists 12 studio-grade reformers sold on Amazon, from Balanced Body, Merrithew, Align-Pilates and PersonalHour, with their Amazon price on ${BF_PRICES_CHECKED}. Amazon's Black Friday deals are live through ${BF_DEALS_END}, but none of these machines was on one: studio brands rarely discount, so these are the prices to judge any later offer against.`,
   ],
   quickPicks: [
     { label: "Best value studio-grade", itemId: "align-c8-pro" },
@@ -49,12 +49,12 @@ const GUIDE: EquipmentGuideProps = {
   blocks: [
     {
       kind: "table",
-      eyebrow: "The watchlist",
-      heading: "Price to beat on every studio reformer",
-      intro: "A Black Friday or Cyber Monday deal is only a deal if it beats these numbers.",
-      columns: ["Reformer", "Price today", "Availability"],
+      eyebrow: "At a glance",
+      heading: "Every studio reformer, by price",
+      intro: `None of these was on an Amazon Black Friday Deal on ${BF_PRICES_CHECKED}. A later deal is only a deal if it beats these numbers.`,
+      columns: ["Reformer", "Price now", "Availability"],
       rows: [
-        ["Balanced Body Metro IQ", "$2,330.00", "Low stock"],
+        ["Balanced Body Metro IQ", "$2,524.00", "Low stock"],
         ["PersonalHour Janet La Force Plus", "$2,555.00", "Low stock"],
         ["PersonalHour Nano Elite Plus", "$2,690.00", "Made to order"],
         ["Align-Pilates C8-PRO", "$2,750.00", "In stock"],
@@ -66,9 +66,8 @@ const GUIDE: EquipmentGuideProps = {
         ["Balanced Body Studio Reformer (XSR)", "$4,850.00", "Made to order"],
         ["Balanced Body Allegro Stretch with Tower", "$5,275.00", "Made to order"],
         ["Balanced Body Studio Reformer with Tower", "$6,975.00", "Made to order"],
-        ["Merrithew Rehab V2 Max Plus", "$8,199.00", "Made to order"],
       ],
-      note: `Amazon prices and availability checked on ${GIFTS_CHECKED}.`,
+      note: `Amazon prices and availability checked on ${BF_PRICES_CHECKED}. The Merrithew Rehab V2 Max Plus is no longer listed here: it was unavailable on Amazon that day.`,
     },
     {
       kind: "callout",
@@ -86,7 +85,7 @@ const GUIDE: EquipmentGuideProps = {
       eyebrow: "Under $3,000",
       heading: "Studio-grade reformers under $3,000",
       items: [
-        item("metroIQ", { badge: "Best for Small Spaces", pros: ["Telescopes to 62\" for storage", "Signature Springs", "85 lb"], cons: ["Low stock"] }),
+        item("metroIQ", { badge: "Best for Small Spaces", price: "$2,524.00", pros: ["Telescopes to 62\" for storage", "Signature Springs", "85 lb"], cons: ["Low stock", "Price up from $2,330 in October"] }),
         item("janetLaForce", { badge: "Best Foldable Premium", pros: ["Solid walnut", "Folds upright on wheels", "Jumpboard and box included"], cons: ["Low stock"] }),
         item("nanoElitePlus", { badge: "Best Thick Wood Frame", pros: ["2\" layered maple", "Box and jumpboard included"], cons: ["290 lb", "Made to order"] }),
         item("alignC8Pro", { badge: "Best Value Studio-Grade", pros: ["Same springs as Align's pro machines", "Stackable", "In stock"], cons: ["Low bed without leg extensions"] }),
@@ -110,25 +109,24 @@ const GUIDE: EquipmentGuideProps = {
       kind: "products",
       id: "over-5000",
       eyebrow: "$5,000 and up",
-      heading: "Towers and clinical machines",
+      heading: "Reformers with towers",
       items: [
         item("allegroStretchTower", { badge: "Tall Users + Tower", pros: ["Drop-in mat conversion", "22 spring-attachment points"], cons: ["251 lb", "Made to order"] }),
         item("studioTower", { badge: "The Flagship", pros: ["Maple reformer with stainless steel tower", "Twin conversion mats"], cons: ["78\" high", "341 lb"] }),
-        item("v2MaxPlus", { badge: "Best for Clinics", pros: ["Raised frame", "Vertical Frame"], cons: ["$8,199", "Made to order"] }),
       ],
     },
   ],
   faqs: [
-    { q: "Does Balanced Body have Black Friday deals?", a: "Studio brands like Balanced Body discount less often than budget reformer brands. We track their Amazon listings and will update this page if prices drop; use today's price in our table to judge any deal." },
-    { q: "When are Black Friday and Cyber Monday 2026?", a: "Black Friday is Friday, November 27, 2026 and Cyber Monday is Monday, November 30, 2026. Many retailers start sales earlier in November." },
-    { q: "What is the best studio-grade reformer to buy on Black Friday?", a: "For value, the Align-Pilates C8-PRO ($2,750 today) uses the same springs as Align's professional reformers. For the classic studio machine, the Balanced Body Studio Reformer ($4,700). For a reformer with a tower, the Balanced Body Rialto with Tower ($4,230)." },
+    { q: "Does Balanced Body have Black Friday deals?", a: `Not on Amazon so far. On ${BF_PRICES_CHECKED}, none of the Balanced Body reformers listed here was part of Amazon's Black Friday deals, which run through ${BF_DEALS_END}. Studio brands discount less often than budget reformer brands; use the prices in our table to judge any offer.` },
+    { q: "When are Black Friday and Cyber Monday 2026?", a: "Black Friday is Friday, November 27, 2026 and Cyber Monday is Monday, November 30, 2026. Amazon's Black Friday deals started on November 19 and run through November 30." },
+    { q: "What is the best studio-grade reformer to buy on Black Friday?", a: "For value, the Align-Pilates C8-PRO ($2,750 on November 19, 2026) uses the same springs as Align's professional reformers. For the classic studio machine, the Balanced Body Studio Reformer ($4,700). For a reformer with a tower, the Balanced Body Rialto with Tower ($4,230)." },
     { q: "Will a studio reformer arrive before Christmas?", a: "In-stock machines usually can, but most Balanced Body reformers are made to order and ship after a lead time. Check the delivery estimate on the listing." },
   ],
   related: [
-    { title: "Black Friday Reformer Deals", excerpt: "Home reformers from $295.99, with prices to beat.", href: "/blog/black-friday-pilates-reformer-deals", imageUrl: "/pictures/stitch-reformer-sunlit-minimal.png", category: "Deals", readTime: "Deals" },
+    { title: "Black Friday Reformer Deals", excerpt: "Home reformers from $289.99, with Black Friday deals marked.", href: "/blog/black-friday-pilates-reformer-deals", imageUrl: "/pictures/stitch-reformer-sunlit-minimal.png", category: "Deals", readTime: "Deals" },
     { title: "Cyber Monday Reformer Deals", excerpt: "Every budget, from foldable to studio-grade.", href: "/blog/cyber-monday-pilates-reformer-deals", imageUrl: "/pictures/stitch-reformer-sunlit-minimal.png", category: "Deals", readTime: "Deals" },
     { title: "Best Pilates Reformer Under $5,000", excerpt: "Studio machines compared in depth.", href: "/blog/best-pilates-reformer-under-5000", imageUrl: "/pictures/stitch-reformer-row-studio.png", category: "Equipment", readTime: "15 min read" },
-    { title: "Black Friday & Cyber Monday Recovery Deals", excerpt: "Normatec, JetBoots and Theragun: prices to beat.", href: "/blog/black-friday-cyber-monday-recovery-deals", imageUrl: "/pictures/stitch-studio-bench-towels.png", category: "Deals", readTime: "Deals" },
+    { title: "Black Friday & Cyber Monday Recovery Deals", excerpt: "Normatec, JetBoots and Theragun: up to 21% off now.", href: "/blog/black-friday-cyber-monday-recovery-deals", imageUrl: "/pictures/stitch-studio-bench-towels.png", category: "Deals", readTime: "Deals" },
   ],
   ctaTitle: "Find a studio near you",
   ctaSubtitle: "Use our curated city guides to find the best Pilates studios worldwide.",

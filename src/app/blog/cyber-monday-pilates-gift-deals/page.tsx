@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   }
 };
 
-// Prices are the live Amazon prices checked on October 14, 2026.
+// Prices are the live Amazon prices checked on November 19, 2026 (Creators API), with Amazon's deal badges.
 const GUIDE: DealsGuideProps = {
   "slug": "cyber-monday-pilates-gift-deals",
   "title": "Cyber Monday Pilates Gift Deals 2026",
@@ -58,7 +58,7 @@ const GUIDE: DealsGuideProps = {
   "readTime": "8 min read",
   "heroImage": "/pictures/stitch-props-cork-ring.png",
   "heroAlt": "Pilates props including a ring",
-  "intro": "Cyber Monday is the moment to tick off Christmas gifts for the Pilates lover in your life, early enough for delivery and at the best prices of the season. Here are gifts at every budget, each with today's Amazon price so you can spot a real saving.",
+  "intro": "Cyber Monday is the moment to tick off Christmas gifts for the Pilates lover in your life, early enough for delivery and at the best prices of the season. Here are gifts at every budget, each with its Amazon price on November 19, 2026; seven are on an Amazon Black Friday Deal.",
   "sections": [
     {
       "id": "under-25",
@@ -70,35 +70,49 @@ const GUIDE: DealsGuideProps = {
           "name": "Muezna Pilates Grip Socks (6 Pairs)",
           "badge": "Most useful",
           "note": "Six pairs of grip socks, the gift every reformer regular runs out of.",
-          "price": "$7.59"
+          "price": "$6.79",
+          "wasPrice": "$7.99",
+          "wasLabel": "Was",
+          "pctOff": 15,
+          "amazonDeal": true
         },
         {
           "asin": "B010TJC4IM",
           "name": "ProBody Pilates Ball (9\")",
           "badge": "Small prop",
           "note": "A soft 9-inch Pilates ball for core and spine work.",
-          "price": "$9.95"
+          "price": "$9.95",
+          "wasPrice": "$13.95",
+          "wasLabel": "List",
+          "pctOff": 29
         },
         {
           "asin": "B0GSJHPSQT",
           "name": "Byrex Pilates Kit (Ring, Ball, Bands, Sliders)",
           "badge": "Best set",
           "note": "A ring, ball, bands and sliders in one box.",
-          "price": "$19.99"
+          "price": "$9.99",
+          "wasPrice": "$19.99",
+          "wasLabel": "Was",
+          "pctOff": 50
         },
         {
           "asin": "B09GYPV213",
           "name": "Kitsch Large Claw Clips",
           "badge": "Class essential",
           "note": "Large claw clips that hold hair off the neck during mat work.",
-          "price": "$11.87"
+          "price": "$11.99"
         },
         {
           "asin": "B086HNGNFZ",
           "name": "Gaiam Pilates Ring (15\")",
           "badge": "Classic prop",
           "note": "A 15-inch Pilates ring.",
-          "price": "$24.99"
+          "price": "$11.13",
+          "wasPrice": "$19.99",
+          "wasLabel": "List",
+          "pctOff": 44,
+          "amazonDeal": true
         }
       ]
     },
@@ -112,28 +126,41 @@ const GUIDE: DealsGuideProps = {
           "name": "Owala FreeSip Water Bottle (32 oz)",
           "badge": "Best bottle",
           "note": "A big insulated bottle with a sip spout.",
-          "price": "$29.99"
+          "price": "$34.97"
         },
         {
           "asin": "B07QHNDHW3",
           "name": "toesox Low Rise Grip Socks (2-Pack)",
           "badge": "Best socks",
           "note": "toesox full-toe grip socks, 2-pack.",
-          "price": "$30.00"
+          "price": "$25.50",
+          "wasPrice": "$30.00",
+          "wasLabel": "List",
+          "pctOff": 15,
+          "amazonDeal": true,
+          "lowStock": true
         },
         {
           "asin": "B0B1VFNFL1",
           "name": "BAGSMART Gym Tote Bag",
           "badge": "Best bag",
           "note": "A roomy tote for a mat, shoes and a change of clothes.",
-          "price": "$37.99"
+          "price": "$25.06",
+          "wasPrice": "$37.99",
+          "wasLabel": "Was",
+          "pctOff": 34,
+          "amazonDeal": true
         },
         {
           "asin": "B0BQCG9VMY",
           "name": "Bala Bangles Wrist & Ankle Weights (2 lb pair)",
           "badge": "Best weights",
           "note": "Bala's 2 lb bangles, a stylish small weight for wrists or ankles.",
-          "price": "$65.00"
+          "price": "$48.75",
+          "wasPrice": "$65.00",
+          "wasLabel": "List",
+          "pctOff": 25,
+          "amazonDeal": true
         },
         {
           "asin": "B0D5ZR3R1M",
@@ -147,7 +174,11 @@ const GUIDE: DealsGuideProps = {
           "name": "TriggerPoint GRID 2.0 Foam Roller",
           "badge": "Best roller",
           "note": "TriggerPoint's GRID foam roller.",
-          "price": "$74.99"
+          "price": "$63.74",
+          "wasPrice": "$74.99",
+          "wasLabel": "List",
+          "pctOff": 15,
+          "amazonDeal": true
         }
       ]
     },
@@ -161,44 +192,53 @@ const GUIDE: DealsGuideProps = {
           "name": "Hyperice Hypersphere Go Vibrating Massage Ball",
           "badge": "Best recovery ball",
           "note": "A vibrating massage ball for feet, hips and shoulders.",
-          "price": "$109.00"
+          "price": "$69.00",
+          "wasPrice": "$109.00",
+          "wasLabel": "List",
+          "pctOff": 37
         },
         {
           "asin": "B0000DZFXZ",
           "name": "Manduka PRO Yoga Mat (6mm)",
           "badge": "Best mat",
           "note": "A dense 6mm mat that lasts for years.",
-          "price": "$143.99",
-          "lowStock": true
+          "price": "$144.00"
         },
         {
           "asin": "B0DV7JN7ZD",
           "name": "Therabody TheraGun Mini (3rd Gen)",
           "badge": "Best massage gun",
           "note": "Therabody's pocket-size massage gun.",
-          "price": "$219.99"
+          "price": "$154.99",
+          "wasPrice": "$219.99",
+          "wasLabel": "List",
+          "pctOff": 30,
+          "amazonDeal": true
         },
         {
           "asin": "B0D9WWB3WX",
           "name": "OURA Ring 4 Smart Ring",
           "badge": "Best tech",
           "note": "A smart ring that tracks sleep, activity and recovery.",
-          "price": "$349.00"
+          "price": "$249.00",
+          "wasPrice": "$349.00",
+          "wasLabel": "List",
+          "pctOff": 29
         },
         {
           "asin": "B0D31767J1",
           "name": "WINDFOOT Foldable Pilates Reformer with Jump Board",
           "badge": "Best home reformer under $300",
           "note": "A foldable home reformer with a jump board.",
-          "price": "$295.99"
+          "price": "$289.99"
         }
       ]
     }
   ],
   "watchFor": [
     {
-      "h": "Write down today's price.",
-      "b": "Every product here shows the Amazon price we checked in October. A real Cyber Monday deal beats it; a 'was' price you have never seen does not."
+      "h": "Check what the saving is measured against.",
+      "b": "Each product shows its Amazon price on November 19, 2026, plus the List or Was price Amazon compares it with. 'Was' is Amazon's recent selling price; 'List' is set by the seller and can be higher than the item usually sells for."
     },
     {
       "h": "Black Friday and Cyber Monday often overlap.",
@@ -220,7 +260,7 @@ const GUIDE: DealsGuideProps = {
     },
     {
       "q": "Are these Cyber Monday prices?",
-      "a": "Not yet. They are the Amazon prices we checked on October 14, 2026, so you have a baseline. We will update this page with real Cyber Monday deals before the day."
+      "a": "Partly. Amazon's Black Friday and Cyber Monday event started on November 19 and runs through November 30, 2026. Items marked Black Friday Deal show Amazon's event price on November 19; the others show their regular Amazon price that day. Prices can change at any time, so check the listing before you buy."
     },
     {
       "q": "What is a good Pilates gift?",

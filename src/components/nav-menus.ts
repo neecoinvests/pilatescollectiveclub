@@ -40,7 +40,7 @@ export const SHOP_CATEGORIES: MenuTab[] = [
         ],
       },
     ],
-    featured: { title: "Pilates Black Friday Deals 2026: The Watchlist", href: "/blog/black-friday-pilates-deals", image: "/pictures/stitch-luxury-studio-wide.png" },
+    featured: { title: "Pilates Black Friday Deals 2026: Live Amazon Deals", href: "/blog/black-friday-pilates-deals", image: "/pictures/stitch-luxury-studio-wide.png" },
     all: { label: "Cyber Monday deals", href: "/blog/cyber-monday-pilates-deals" },
   },
   {

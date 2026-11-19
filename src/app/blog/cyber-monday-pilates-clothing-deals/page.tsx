@@ -3,7 +3,7 @@ import DealsGuide, { type DealsGuideProps } from "@/components/DealsGuide";
 
 export const metadata: Metadata = {
   "title": "Cyber Monday Pilates Clothing Deals 2026: Leggings & Socks",
-  "description": "Cyber Monday 2026 Pilates clothing deals to watch: leggings, sports bras, tanks, layers, grip socks and bags from CRZ YOGA, Varley, Sweaty Betty and toesox.",
+  "description": "Cyber Monday 2026 Pilates clothing deals on Amazon: leggings, sports bras, tanks, layers, grip socks and bags from CRZ YOGA, Varley, Sweaty Betty and toesox.",
   "keywords": [
     "cyber monday pilates clothing",
     "cyber monday leggings deals",
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   ],
   "openGraph": {
     "title": "Cyber Monday Pilates Clothing Deals 2026: Leggings & Socks",
-    "description": "Cyber Monday 2026 Pilates clothing deals to watch: leggings, sports bras, tanks, layers, grip socks and bags from CRZ YOGA, Varley, Sweaty Betty and toesox.",
+    "description": "Cyber Monday 2026 Pilates clothing deals on Amazon: leggings, sports bras, tanks, layers, grip socks and bags from CRZ YOGA, Varley, Sweaty Betty and toesox.",
     "type": "article",
     "url": "https://pilatescollectiveclub.com/blog/cyber-monday-pilates-clothing-deals",
     "images": [
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   "twitter": {
     "card": "summary_large_image",
     "title": "Cyber Monday Pilates Clothing Deals 2026: Leggings & Socks",
-    "description": "Cyber Monday 2026 Pilates clothing deals to watch: leggings, sports bras, tanks, layers, grip socks and bags from CRZ YOGA, Varley, Sweaty Betty and toesox.",
+    "description": "Cyber Monday 2026 Pilates clothing deals on Amazon: leggings, sports bras, tanks, layers, grip socks and bags from CRZ YOGA, Varley, Sweaty Betty and toesox.",
     "images": [
       "https://pilatescollectiveclub.com/pictures/stitch-retail-activewear.png"
     ]
@@ -46,11 +46,11 @@ export const metadata: Metadata = {
   }
 };
 
-// Prices are the live Amazon prices checked on October 14, 2026.
+// Prices are the live Amazon prices checked on November 19, 2026 (Creators API), with Amazon's deal badges.
 const GUIDE: DealsGuideProps = {
   "slug": "cyber-monday-pilates-clothing-deals",
   "title": "Cyber Monday Pilates Clothing Deals 2026",
-  "description": "Cyber Monday 2026 Pilates clothing deals to watch: leggings, sports bras, tanks, layers, grip socks and bags from CRZ YOGA, Varley, Sweaty Betty and toesox.",
+  "description": "Cyber Monday 2026 Pilates clothing deals on Amazon: leggings, sports bras, tanks, layers, grip socks and bags from CRZ YOGA, Varley, Sweaty Betty and toesox.",
   "breadcrumb": "Cyber Monday Clothing Deals",
   "eyebrow": "Clothing",
   "h1": "Cyber Monday Pilates Clothing Deals",
@@ -58,7 +58,7 @@ const GUIDE: DealsGuideProps = {
   "readTime": "8 min read",
   "heroImage": "/pictures/stitch-retail-activewear.png",
   "heroAlt": "Activewear on a rail in a studio shop",
-  "intro": "Activewear is a popular Cyber Monday category. For Pilates, the essentials are fitted leggings, a supportive bra or tank, a warm layer and, for reformer classes, grip socks. Here is what to watch at every budget, plus what to bring to class.",
+  "intro": "Activewear is a popular Cyber Monday category. For Pilates, the essentials are fitted leggings, a supportive bra or tank, a warm layer and, for reformer classes, grip socks. Here is the best of each at every budget, with Amazon's current price; ten are on an Amazon Black Friday Deal, which runs through Cyber Monday.",
   "sections": [
     {
       "id": "leggings",
@@ -70,35 +70,53 @@ const GUIDE: DealsGuideProps = {
           "name": "HeyNuts Pure&Plain Workout Leggings 25\"",
           "badge": "Best budget",
           "note": "Simple 25-inch leggings at a low price.",
-          "price": "$19.99"
+          "price": "$19.99",
+          "wasPrice": "$32.00",
+          "wasLabel": "List",
+          "pctOff": 38
         },
         {
           "asin": "B09P1G2952",
           "name": "CRZ YOGA Butterluxe Leggings 25\"",
           "badge": "Best value",
           "note": "Buttery-soft leggings that many people buy in several colors.",
-          "price": "$32.00"
+          "price": "$27.20",
+          "wasPrice": "$32.00",
+          "wasLabel": "List",
+          "pctOff": 15,
+          "amazonDeal": true
         },
         {
           "asin": "B0B153HHKD",
           "name": "Sweaty Betty Power Cropped Leggings",
           "badge": "Best for sweaty classes",
           "note": "Sweaty Betty's sweat-wicking cropped leggings.",
-          "price": "$98.00"
+          "price": "$83.29",
+          "wasPrice": "$98.00",
+          "wasLabel": "List",
+          "pctOff": 15,
+          "amazonDeal": true
         },
         {
           "asin": "B0FXN378H8",
           "name": "Varley Freesoft Piped Full Leggings",
           "badge": "Best premium",
           "note": "Varley's soft Freesoft full-length leggings.",
-          "price": "$98.00"
+          "price": "$36.75",
+          "wasPrice": "$98.00",
+          "wasLabel": "List",
+          "pctOff": 63,
+          "lowStock": true
         },
         {
           "asin": "B07663TDHG",
           "name": "Beyond Yoga Spacedye Caught in the Midi Leggings",
           "badge": "Best high-waisted",
           "note": "Beyond Yoga's high-waisted midi leggings.",
-          "price": "$99.00"
+          "price": "$66.33",
+          "wasPrice": "$99.00",
+          "wasLabel": "List",
+          "pctOff": 33
         }
       ]
     },
@@ -112,35 +130,53 @@ const GUIDE: DealsGuideProps = {
           "name": "CRZ YOGA Butterluxe U Back Sports Bra",
           "badge": "Best budget bra",
           "note": "A soft U-back sports bra.",
-          "price": "$28.00"
+          "price": "$23.80",
+          "wasPrice": "$28.00",
+          "wasLabel": "List",
+          "pctOff": 15,
+          "amazonDeal": true
         },
         {
           "asin": "B0BSB22J5P",
           "name": "Sweaty Betty Power Medium Racer Back Bra",
           "badge": "Best support",
           "note": "Sweaty Betty's medium-support racerback bra.",
-          "price": "$55.76"
+          "price": "$53.98",
+          "wasPrice": "$68.00",
+          "wasLabel": "List",
+          "pctOff": 21
         },
         {
           "asin": "B0FXN42JWR",
           "name": "Varley Freesoft Harley Bralette",
           "badge": "Best premium bralette",
           "note": "Varley's Freesoft bralette.",
-          "price": "$66.00"
+          "price": "$29.70",
+          "wasPrice": "$66.00",
+          "wasLabel": "List",
+          "pctOff": 55
         },
         {
           "asin": "B09X9Y5S8G",
           "name": "CRZ YOGA Butterluxe Racerback Tank",
           "badge": "Best tank",
           "note": "A racerback tank with a built-in bra.",
-          "price": "$32.00"
+          "price": "$27.20",
+          "wasPrice": "$32.00",
+          "wasLabel": "List",
+          "pctOff": 15,
+          "amazonDeal": true
         },
         {
           "asin": "B0BJ2G3JNW",
           "name": "CRZ YOGA Butterluxe Jacket",
           "badge": "Best layer",
           "note": "A soft, waist-length jacket for the walk to class.",
-          "price": "$48.00"
+          "price": "$40.80",
+          "wasPrice": "$48.00",
+          "wasLabel": "List",
+          "pctOff": 15,
+          "amazonDeal": true
         },
         {
           "asin": "B0DFZPBZDV",
@@ -161,28 +197,45 @@ const GUIDE: DealsGuideProps = {
           "name": "Muezna Pilates Grip Socks (6 Pairs)",
           "badge": "Best multipack",
           "note": "Six pairs of grip socks for regular classes.",
-          "price": "$7.59"
+          "price": "$6.79",
+          "wasPrice": "$7.99",
+          "wasLabel": "Was",
+          "pctOff": 15,
+          "amazonDeal": true
         },
         {
           "asin": "B07QHNDHW3",
           "name": "toesox Low Rise Grip Socks (2-Pack)",
           "badge": "Best full-toe",
           "note": "toesox's full-toe grip socks, 2-pack.",
-          "price": "$30.00"
+          "price": "$25.50",
+          "wasPrice": "$30.00",
+          "wasLabel": "List",
+          "pctOff": 15,
+          "amazonDeal": true,
+          "lowStock": true
         },
         {
           "asin": "B0GFPGMWWS",
           "name": "TAVI Stacy Slouch Pilates Socks (2-Pack)",
           "badge": "Best style",
           "note": "TAVI's slouch Pilates socks, 2-pack.",
-          "price": "$40.00"
+          "price": "$30.40",
+          "wasPrice": "$40.00",
+          "wasLabel": "List",
+          "pctOff": 24,
+          "amazonDeal": true
         },
         {
           "asin": "B0F626LL9W",
           "name": "CoolMate Men's Grip Socks (4 Pairs)",
           "badge": "Best for men",
           "note": "Four pairs of men's grip socks.",
-          "price": "$14.99"
+          "price": "$12.10",
+          "wasPrice": "$14.99",
+          "wasLabel": "Was",
+          "pctOff": 19,
+          "amazonDeal": true
         },
         {
           "asin": "B0BZYCJK89",
@@ -196,15 +249,19 @@ const GUIDE: DealsGuideProps = {
           "name": "BAGSMART Gym Tote Bag",
           "badge": "Best bag",
           "note": "A tote with room for a mat, shoes and a change of clothes.",
-          "price": "$37.99"
+          "price": "$25.06",
+          "wasPrice": "$37.99",
+          "wasLabel": "Was",
+          "pctOff": 34,
+          "amazonDeal": true
         }
       ]
     }
   ],
   "watchFor": [
     {
-      "h": "Write down today's price.",
-      "b": "Every product here shows the Amazon price we checked in October. A real Cyber Monday deal beats it; a 'was' price you have never seen does not."
+      "h": "Check what the saving is measured against.",
+      "b": "Each product shows its Amazon price on November 19, 2026, plus the List or Was price Amazon compares it with. 'Was' is Amazon's recent selling price; 'List' is set by the seller and can be higher than the item usually sells for."
     },
     {
       "h": "Black Friday and Cyber Monday often overlap.",
@@ -230,7 +287,7 @@ const GUIDE: DealsGuideProps = {
     },
     {
       "q": "Are these Cyber Monday prices?",
-      "a": "Not yet. They are the Amazon prices we checked on October 14, 2026, so you have a baseline. We will update this page with real Cyber Monday deals before the day."
+      "a": "Partly. Amazon's Black Friday and Cyber Monday event started on November 19 and runs through November 30, 2026. Items marked Black Friday Deal show Amazon's event price on November 19; the others show their regular Amazon price that day. Prices can change at any time, so check the listing before you buy."
     },
     {
       "q": "What should I wear to a Pilates class?",

@@ -3,7 +3,7 @@ import DealsGuide, { type DealsGuideProps } from "@/components/DealsGuide";
 
 export const metadata: Metadata = {
   "title": "Cyber Monday Pilates Equipment Deals 2026: Home Setup",
-  "description": "Cyber Monday 2026 deals to watch on Pilates equipment: mats, rings, balls, bands, foam rollers, ankle weights and massage guns, with today's Amazon price.",
+  "description": "Cyber Monday 2026 deals on Pilates equipment: mats, rings, balls, bands, foam rollers, ankle weights and massage guns, with today's Amazon price.",
   "keywords": [
     "cyber monday pilates equipment",
     "pilates equipment deals",
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   ],
   "openGraph": {
     "title": "Cyber Monday Pilates Equipment Deals 2026: Home Setup",
-    "description": "Cyber Monday 2026 deals to watch on Pilates equipment: mats, rings, balls, bands, foam rollers, ankle weights and massage guns, with today's Amazon price.",
+    "description": "Cyber Monday 2026 deals on Pilates equipment: mats, rings, balls, bands, foam rollers, ankle weights and massage guns, with today's Amazon price.",
     "type": "article",
     "url": "https://pilatescollectiveclub.com/blog/cyber-monday-pilates-equipment-deals",
     "images": [
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   "twitter": {
     "card": "summary_large_image",
     "title": "Cyber Monday Pilates Equipment Deals 2026: Home Setup",
-    "description": "Cyber Monday 2026 deals to watch on Pilates equipment: mats, rings, balls, bands, foam rollers, ankle weights and massage guns, with today's Amazon price.",
+    "description": "Cyber Monday 2026 deals on Pilates equipment: mats, rings, balls, bands, foam rollers, ankle weights and massage guns, with today's Amazon price.",
     "images": [
       "https://pilatescollectiveclub.com/pictures/stitch-studio-shelf-props.png"
     ]
@@ -46,11 +46,11 @@ export const metadata: Metadata = {
   }
 };
 
-// Prices are the live Amazon prices checked on October 14, 2026.
+// Prices are the live Amazon prices checked on November 19, 2026 (Creators API), with Amazon's deal badges.
 const GUIDE: DealsGuideProps = {
   "slug": "cyber-monday-pilates-equipment-deals",
   "title": "Cyber Monday Pilates Equipment Deals 2026",
-  "description": "Cyber Monday 2026 deals to watch on Pilates equipment: mats, rings, balls, bands, foam rollers, ankle weights and massage guns, with today's Amazon price.",
+  "description": "Cyber Monday 2026 deals on Pilates equipment: mats, rings, balls, bands, foam rollers, ankle weights and massage guns, with today's Amazon price.",
   "breadcrumb": "Cyber Monday Equipment Deals",
   "eyebrow": "Equipment",
   "h1": "Cyber Monday Pilates Equipment Deals",
@@ -58,7 +58,7 @@ const GUIDE: DealsGuideProps = {
   "readTime": "8 min read",
   "heroImage": "/pictures/stitch-studio-shelf-props.png",
   "heroAlt": "Pilates props on a studio shelf",
-  "intro": "You do not need a reformer to practice Pilates well at home. A good mat, a ring, a ball, bands and a roller cover most of the repertoire, and these are exactly the products that go on sale on Cyber Monday. Here is what to watch, with today's Amazon price.",
+  "intro": "You do not need a reformer to practice Pilates well at home. A good mat, a ring, a ball, bands and a roller cover most of the repertoire, and these are exactly the products that go on sale on Cyber Monday. Here is the best of each with its current Amazon price; nine are on an Amazon Black Friday Deal, which runs through Cyber Monday.",
   "sections": [
     {
       "id": "mats",
@@ -77,22 +77,25 @@ const GUIDE: DealsGuideProps = {
           "name": "Manduka PRO Yoga Mat (6mm)",
           "badge": "Best long-lasting mat",
           "note": "A dense, heavy 6mm mat built to last for years.",
-          "price": "$143.99",
-          "lowStock": true
+          "price": "$144.00"
         },
         {
           "asin": "B09X66N6GX",
           "name": "Liforme Original Yoga Mat",
           "badge": "Best alignment mat",
           "note": "Liforme's mat with printed alignment markers; a bag is included.",
-          "price": "$165.00"
+          "price": "$140.00",
+          "wasPrice": "$164.95",
+          "wasLabel": "List",
+          "pctOff": 15,
+          "amazonDeal": true
         },
         {
           "asin": "B06WV6XVV9",
           "name": "Impulse Yoga Knee Pad Cushion (1\")",
           "badge": "Best add-on",
           "note": "A thick cushion for kneeling work on hard floors.",
-          "price": "$20.49"
+          "price": "$19.99"
         }
       ]
     },
@@ -106,14 +109,21 @@ const GUIDE: DealsGuideProps = {
           "name": "Byrex Pilates Kit (Ring, Ball, Bands, Sliders)",
           "badge": "Best starter kit",
           "note": "Ring, ball, bands and sliders in one set.",
-          "price": "$19.99"
+          "price": "$9.99",
+          "wasPrice": "$19.99",
+          "wasLabel": "Was",
+          "pctOff": 50
         },
         {
           "asin": "B086HNGNFZ",
           "name": "Gaiam Pilates Ring (15\")",
           "badge": "Best ring",
           "note": "A 15-inch Pilates ring for inner thighs, arms and core.",
-          "price": "$18.24"
+          "price": "$11.13",
+          "wasPrice": "$19.99",
+          "wasLabel": "List",
+          "pctOff": 44,
+          "amazonDeal": true
         },
         {
           "asin": "B002YQW3IU",
@@ -127,78 +137,109 @@ const GUIDE: DealsGuideProps = {
           "name": "ProBody Pilates Ball (9\")",
           "badge": "Best small ball",
           "note": "A soft 9-inch ball for core and spine work.",
-          "price": "$9.95"
+          "price": "$9.95",
+          "wasPrice": "$13.95",
+          "wasLabel": "List",
+          "pctOff": 29
         },
         {
           "asin": "B01A58FHQ8",
           "name": "THERABAND Resistance Bands Set (Beginner Kit)",
           "badge": "Best bands",
           "note": "THERABAND's beginner set in three resistances.",
-          "price": "$11.99"
+          "price": "$10.45",
+          "wasPrice": "$13.71",
+          "wasLabel": "List",
+          "pctOff": 24,
+          "amazonDeal": true
         },
         {
           "asin": "B0BQCJRL6Q",
           "name": "Bala Bangles Wrist & Ankle Weights (1 lb pair)",
           "badge": "Best ankle weights",
           "note": "Bala's 1 lb bangles for wrists or ankles.",
-          "price": "$55.00"
+          "price": "$41.25",
+          "wasPrice": "$55.00",
+          "wasLabel": "List",
+          "pctOff": 25,
+          "amazonDeal": true
         },
         {
           "asin": "B0964G1N18",
           "name": "Gaiam Core Sliding Discs (Set of 2)",
           "badge": "Best sliders",
           "note": "Dual-sided sliding discs for core and leg work on any floor.",
-          "price": "$16.99"
+          "price": "$9.34",
+          "wasPrice": "$10.99",
+          "wasLabel": "List",
+          "pctOff": 15,
+          "amazonDeal": true
         }
       ]
     },
     {
       "id": "recovery",
       "title": "Rollers and recovery",
-      "intro": "Recovery tools make good gifts and are worth watching for a deal.",
+      "intro": "Recovery tools make good gifts, and several are on a deal now.",
       "items": [
         {
           "asin": "B00XM2MRGI",
           "name": "Amazon Basics High-Density Foam Roller (36\")",
           "badge": "Best value roller",
           "note": "A long, high-density roller for back and spine release.",
-          "price": "$22.49"
+          "price": "$23.99"
         },
         {
           "asin": "B006GUC9KC",
           "name": "TriggerPoint GRID 2.0 Foam Roller",
           "badge": "Best textured roller",
           "note": "TriggerPoint's firm GRID roller.",
-          "price": "$74.99"
+          "price": "$63.74",
+          "wasPrice": "$74.99",
+          "wasLabel": "List",
+          "pctOff": 15,
+          "amazonDeal": true
         },
         {
           "asin": "B08HW7GXSQ",
           "name": "Therabody WaveRoller Vibrating Foam Roller",
           "badge": "Best vibrating roller",
           "note": "Therabody's vibrating foam roller.",
-          "price": "$179.99"
+          "price": "$149.99",
+          "wasPrice": "$179.99",
+          "wasLabel": "List",
+          "pctOff": 17,
+          "amazonDeal": true
         },
         {
           "asin": "B0CNS894RH",
           "name": "Therabody TheraGun Relief Massage Gun",
           "badge": "Best entry massage gun",
           "note": "Therabody's simple three-speed massage gun.",
-          "price": "$159.99"
+          "price": "$119.99",
+          "wasPrice": "$159.99",
+          "wasLabel": "List",
+          "pctOff": 25,
+          "amazonDeal": true
         },
         {
           "asin": "B0G82W9ZZK",
           "name": "Hyperice Hypervolt Go 3 Massage Gun",
           "badge": "Best compact massage gun",
           "note": "Hyperice's lightweight Hypervolt Go 3, with a carry case.",
-          "price": "$149.00"
+          "price": "$119.00",
+          "wasPrice": "$149.00",
+          "wasLabel": "List",
+          "pctOff": 20,
+          "amazonDeal": true
         }
       ]
     }
   ],
   "watchFor": [
     {
-      "h": "Write down today's price.",
-      "b": "Every product here shows the Amazon price we checked in October. A real Cyber Monday deal beats it; a 'was' price you have never seen does not."
+      "h": "Check what the saving is measured against.",
+      "b": "Each product shows its Amazon price on November 19, 2026, plus the List or Was price Amazon compares it with. 'Was' is Amazon's recent selling price; 'List' is set by the seller and can be higher than the item usually sells for."
     },
     {
       "h": "Black Friday and Cyber Monday often overlap.",
@@ -220,7 +261,7 @@ const GUIDE: DealsGuideProps = {
     },
     {
       "q": "Are these Cyber Monday prices?",
-      "a": "Not yet. They are the Amazon prices we checked on October 14, 2026, so you have a baseline. We will update this page with real Cyber Monday deals before the day."
+      "a": "Partly. Amazon's Black Friday and Cyber Monday event started on November 19 and runs through November 30, 2026. Items marked Black Friday Deal show Amazon's event price on November 19; the others show their regular Amazon price that day. Prices can change at any time, so check the listing before you buy."
     },
     {
       "q": "What Pilates equipment do I need at home?",

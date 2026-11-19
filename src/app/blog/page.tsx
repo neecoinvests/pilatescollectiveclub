@@ -72,15 +72,15 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Black Friday & Cyber Monday Studio Reformer Deals 2026",
-    excerpt: "The price to beat on 13 studio-grade reformers from Balanced Body, Merrithew, Align and PersonalHour.",
+    excerpt: "Current prices on 12 studio-grade reformers from Balanced Body, Merrithew, Align and PersonalHour.",
     href: "/blog/black-friday-cyber-monday-studio-reformer-deals",
     category: "Guide",
     readTime: "13 min",
     imageUrl: "/pictures/stitch-reformers-aerial-row.png",
   },
   {
-    title: "Black Friday & Cyber Monday Recovery Deals 2026: Price to Beat",
-    excerpt: "Normatec, JetBoots, Theragun, Hypervolt and HigherDOSE, with today's price for each.",
+    title: "Black Friday & Cyber Monday Recovery Deals 2026: Live Now",
+    excerpt: "Normatec, JetBoots, Theragun, Hypervolt and HigherDOSE, up to 21% off on Amazon now.",
     href: "/blog/black-friday-cyber-monday-recovery-deals",
     category: "Guide",
     readTime: "11 min",
@@ -144,7 +144,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Cyber Monday Pilates Deals 2026: Reformers, Gear & Gifts",
-    excerpt: "Cyber Monday is November 30. Reformers, equipment, clothing and gifts to watch, with today's price to beat.",
+    excerpt: "Cyber Monday is November 30. Reformers, equipment, clothing and gifts, with Amazon's live deals marked.",
     href: "/blog/cyber-monday-pilates-deals",
     category: "Guide",
     readTime: "8 min",
@@ -152,7 +152,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Cyber Monday Pilates Reformer Deals 2026",
-    excerpt: "Home reformers from under $300 to Align, Balanced Body and Merrithew, with today's price for each.",
+    excerpt: "Home reformers from under $300 to Align, Balanced Body and Merrithew, with live prices and deals marked.",
     href: "/blog/cyber-monday-pilates-reformer-deals",
     category: "Guide",
     readTime: "9 min",
@@ -215,8 +215,8 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
     imageUrl: "/pictures/stitch-reformer-sunlit-minimal.png",
   },
   {
-    title: "Pilates Black Friday Deals 2026: The Watchlist",
-    excerpt: "Black Friday is November 27. The Pilates, Lagree and spin buys worth watching, with today's price to beat for each.",
+    title: "Pilates Black Friday Deals 2026: Live Amazon Deals",
+    excerpt: "Amazon's Black Friday deals are live: the biggest Pilates, Lagree and spin discounts, with current prices.",
     href: "/blog/black-friday-pilates-deals",
     category: "Guide",
     readTime: "6 min",
@@ -224,7 +224,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Pilates Reformer Black Friday Deals 2026",
-    excerpt: "13 home reformers from under $300 to Merrithew, grouped by budget, with the baseline price for every one.",
+    excerpt: "13 home reformers from under $300 to Merrithew, grouped by budget, with live prices and deals marked.",
     href: "/blog/black-friday-pilates-reformer-deals",
     category: "Guide",
     readTime: "8 min",
@@ -232,7 +232,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Pilates Clothing Black Friday Deals 2026",
-    excerpt: "Leggings, sports bras, grip socks and layers from CRZ YOGA, Varley, Sweaty Betty, toesox and TAVI: the prices to beat.",
+    excerpt: "Leggings, sports bras, grip socks and layers from CRZ YOGA, Varley, Sweaty Betty, toesox and TAVI, ten on a deal.",
     href: "/blog/black-friday-pilates-clothing-deals",
     category: "Guide",
     readTime: "7 min",
@@ -248,7 +248,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Lagree Black Friday Deals 2026: The Micro & Home Setup",
-    excerpt: "The Lagree Micro, its three add-ons and the home-setup gear around it, with today's price for each.",
+    excerpt: "The Lagree Micro, its three add-ons and the home-setup gear around it, with current prices.",
     href: "/blog/black-friday-lagree-deals",
     category: "Guide",
     readTime: "6 min",

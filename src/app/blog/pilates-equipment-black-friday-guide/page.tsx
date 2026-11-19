@@ -42,7 +42,7 @@ const jsonLd = {
       "description": "A buyer's guide to Pilates equipment in the Black Friday window: which categories discount and which do not, how to judge a claimed saving, and the published list prices to measure against.",
       "url": "https://pilatescollectiveclub.com/blog/pilates-equipment-black-friday-guide",
       "datePublished": "2026-09-16",
-      "dateModified": "2026-10-20",
+      "dateModified": "2026-11-19",
       "image": { "@type": "ImageObject", "url": "https://pilatescollectiveclub.com/pictures/stitch-retail-activewear.png", "width": 1200, "height": 630 },
       "author": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
       "publisher": { "@type": "Organization", "name": "Pilates Collective Club", "url": "https://pilatescollectiveclub.com" },
@@ -59,7 +59,7 @@ const jsonLd = {
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "When is Black Friday 2026?", "acceptedAnswer": { "@type": "Answer", "text": "Black Friday falls on 27 November 2026, with Cyber Monday on 30 November. In practice the window is far longer than the name suggests: marketplace pricing on smaller equipment and apparel typically starts moving in the first half of November, and some manufacturers run their own promotions on a schedule that has nothing to do with the American calendar. Treat the date as the center of a several-week period rather than a single day." } },
+        { "@type": "Question", "name": "When is Black Friday 2026?", "acceptedAnswer": { "@type": "Answer", "text": "Black Friday falls on November 27, 2026, with Cyber Monday on November 30, and Amazon's Black Friday deals run from November 19 to November 30. In practice the window is far longer than the name suggests: marketplace pricing on smaller equipment and apparel typically starts moving in the first half of November, and some manufacturers run their own promotions on a schedule that has nothing to do with the American calendar. Treat the date as the center of a several-week period rather than a single day." } },
         { "@type": "Question", "name": "Do Pilates reformers go on sale on Black Friday?", "acceptedAnswer": { "@type": "Answer", "text": "Sometimes, but reformers behave differently from most products in a November sale, and it is worth understanding why before you wait. Studio-grade apparatus is largely sold direct by the manufacturer or through authorized dealers rather than on open marketplaces, which means there is no third-party seller competing on price. Where reductions do appear they tend to be manufacturer promotions, bundle offers that include a jumpboard or props rather than a lower machine price, or clearance on a model being replaced. The consumer end of the market, meaning the sub-$1,000 machines sold through general retailers, behaves much more like ordinary consumer electronics." } },
         { "@type": "Question", "name": "Is it worth waiting until Black Friday to buy Pilates equipment?", "acceptedAnswer": { "@type": "Answer", "text": "For props, apparel, recovery gear and consumer-end machines, waiting a few weeks in November is usually reasonable if you are not in a hurry. For studio-grade apparatus, waiting is a weaker bet: the discount is less predictable, stock on specific models can be thin by late November, and if you are fitting out a studio, a negotiated multi-unit quote from a commercial supplier is normally worth more than any seasonal promotion. If you need the equipment for a specific date, buy when you can confirm delivery rather than gambling on a sale." } },
         { "@type": "Question", "name": "How do I tell whether a Black Friday deal is real?", "acceptedAnswer": { "@type": "Answer", "text": "Know the ordinary price before the sale starts. That single step defeats almost every misleading claim, because the common tactic is not a fake discount but a genuine discount from an inflated reference price. Record the price of everything on your shortlist now, in the weeks before November, and compare against your own note rather than against the retailer's crossed-out figure. Then check three other things: that the seller is the brand or an authorized dealer rather than an unknown third party, that shipping on a heavy item is included, and what the return window and restocking terms are." } },
@@ -69,60 +69,59 @@ const jsonLd = {
 };
 
 const REFORMER_BASELINE = [
-  { item: "WINDFOOT Foldable Reformer w/ Jump Board", tier: "Budget spring (generic brand)", price: "$295.99" },
-  { item: "DWKWE Foldable Reformer, 88\"", tier: "Budget spring (generic brand)", price: "$284.99" },
-  { item: "PAETA 86\" Foldable Reformer (piano-wire springs)", tier: "Budget spring (generic brand)", price: "$439.99" },
-  { item: "PAETA Wooden Foldable Reformer w/ Sitting Box", tier: "Budget spring (generic brand)", price: "$699.98" },
-  { item: "AeroPilates Pro XP 557", tier: "Consumer (cord-based)", price: "$1,329.99" },
-  { item: "Balanced Body Metro IQ", tier: "Studio standard", price: "$2,330" },
-  { item: "PersonalHour Janet La Force Plus", tier: "Studio standard", price: "$2,555" },
-  { item: "Align-Pilates C8-PRO", tier: "Studio standard", price: "$2,750" },
-  { item: "Merrithew At Home SPX", tier: "Compact", price: "$3,349" },
-  { item: "Balanced Body Allegro Stretch", tier: "Studio standard", price: "$3,710" },
-  { item: "BASI Systems Reformer", tier: "Premium", price: "~$3,900" },
-  { item: "Gratz Universal Aluminum", tier: "Classical", price: "$4,590" },
-  { item: "Balanced Body Studio Reformer", tier: "Studio standard", price: "$4,700" },
-  { item: "Gratz Maple Classic", tier: "Classical", price: "$5,295" },
-  { item: "Merrithew Rehab V2 Max Plus", tier: "Premium", price: "$8,199" },
+  { item: "WINDFOOT Foldable Reformer w/ Jump Board", tier: "Budget spring (generic brand)", price: "$295.99", now: "$289.99" },
+  { item: "DWKWE Foldable Reformer, 88\"", tier: "Budget spring (generic brand)", price: "$284.99", now: "$339.99" },
+  { item: "PAETA 86\" Foldable Reformer (piano-wire springs)", tier: "Budget spring (generic brand)", price: "$439.99", now: "$398.99 · Black Friday Deal, 20% off" },
+  { item: "PAETA Wooden Foldable Reformer w/ Sitting Box", tier: "Budget spring (generic brand)", price: "$699.98", now: "$664.98 · Black Friday Deal, 26% off" },
+  { item: "AeroPilates Pro XP 557", tier: "Consumer (cord-based)", price: "$1,329.99", now: "$1,329.99" },
+  { item: "Balanced Body Metro IQ", tier: "Studio standard", price: "$2,330", now: "$2,524" },
+  { item: "PersonalHour Janet La Force Plus", tier: "Studio standard", price: "$2,555", now: "$2,555" },
+  { item: "Align-Pilates C8-PRO", tier: "Studio standard", price: "$2,750", now: "$2,750" },
+  { item: "Merrithew At Home SPX", tier: "Compact", price: "$3,349", now: "$3,349" },
+  { item: "Balanced Body Allegro Stretch", tier: "Studio standard", price: "$3,710", now: "$3,710" },
+  { item: "BASI Systems Reformer", tier: "Premium", price: "~$3,900", now: "Not on Amazon" },
+  { item: "Gratz Universal Aluminum", tier: "Classical", price: "$4,590", now: "Not on Amazon" },
+  { item: "Balanced Body Studio Reformer", tier: "Studio standard", price: "$4,700", now: "$4,700" },
+  { item: "Gratz Maple Classic", tier: "Classical", price: "$5,295", now: "Not on Amazon" },
+  { item: "Merrithew Rehab V2 Max Plus", tier: "Premium", price: "$8,199", now: "Unavailable on Amazon" },
 ];
 
 const APPARATUS_BASELINE = [
-  { item: "Balanced Body Pilates Arc (Spine Corrector)", tier: "Barrel", price: "$189.99" },
-  { item: "Balanced Body Padded Jumpboard", tier: "Attachment", price: "$280" },
-  { item: "Balanced Body EXO Pilates Chair (single-pedal)", tier: "Chair", price: "$1,255" },
-  { item: "Merrithew Split-Pedal Stability Chair", tier: "Chair", price: "$1,999" },
-  { item: "Balanced Body Ladder Barrel", tier: "Barrel", price: "$2,195" },
-  { item: "Align-Pilates Cadillac Frame (reformer conversion)", tier: "Cadillac", price: "$3,500" },
-  { item: "Balanced Body Trapeze Table / Cadillac", tier: "Cadillac", price: "$5,030" },
+  { item: "Balanced Body Pilates Arc (Spine Corrector)", tier: "Barrel", price: "$189.99", now: "$189.99" },
+  { item: "Balanced Body Padded Jumpboard", tier: "Attachment", price: "$280", now: "$280" },
+  { item: "Balanced Body EXO Pilates Chair (single-pedal)", tier: "Chair", price: "$1,255", now: "$1,255" },
+  { item: "Merrithew Split-Pedal Stability Chair", tier: "Chair", price: "$1,999", now: "Not on Amazon" },
+  { item: "Balanced Body Ladder Barrel", tier: "Barrel", price: "$2,195", now: "$2,195" },
+  { item: "Align-Pilates Cadillac Frame (reformer conversion)", tier: "Cadillac", price: "$3,500", now: "Not on Amazon" },
+  { item: "Balanced Body Trapeze Table / Cadillac", tier: "Cadillac", price: "$5,030", now: "$5,030" },
 ];
 
 const REFORMERS = [
-  { name: "WINDFOOT Foldable Reformer w/ Jump Board", description: "One of the lowest-priced real spring reformers we could verify as a live Amazon listing at any tier: genuine dual-spring resistance, pre-assembled roughly 90%, and it folds flat for storage. WINDFOOT is a generic/dropship brand with no track record, no certification recognition among instructors, and unclear warranty support, so weigh that against the price before buying.", price: "From $295.99", affiliateUrl: "https://www.amazon.com/dp/B0D31767J1?tag=pilatescollective-20" },
-  { name: "PAETA 86\" Foldable Reformer (Piano Wire Springs)", description: "Genuine piano-wire spring resistance, a 500 lb weight capacity, and folds for storage: a real spring reformer under $500. Like the other budget entries here, PAETA is a generic brand without an established reputation among instructors, so treat the low price as buying real springs plus brand-risk, not as a discount on an established machine.", price: "From $419.99", affiliateUrl: "https://www.amazon.com/dp/B0DFXQX3XV?tag=pilatescollective-20" },
-  { name: "Balanced Body Metro IQ Reformer", description: "The cheapest genuine spring reformer from a major brand, and the machine that marks the real floor of the category. Short stored length makes it the one that fits where a full studio frame does not.", price: "From $2,330", affiliateUrl: "https://www.amazon.com/dp/B09HNCMTZL?tag=pilatescollective-20" },
-  { name: "AeroPilates Pro XP 557 Reformer", description: "The one machine from a recognized brand that genuinely costs under $2,000. It uses elastic cord rather than coil springs, which is a real difference in how resistance builds, but for building a habit it is a workable trade.", price: "From $1,329.99", affiliateUrl: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20" },
-  { name: "PersonalHour Janet La Force Plus Reformer", description: "An aluminum-frame studio machine with a real, live Amazon listing: worth a look if the C8-PRO is out of stock at your price point.", price: "From $2,555", affiliateUrl: "https://www.amazon.com/dp/B0GNDHZXZK?tag=pilatescollective-20" },
-  { name: "Align-Pilates C8-PRO Reformer", description: "The value pick among commercial-rated machines, and genuinely not a compromise. Aluminum rails, a graded color-coded spring set, and a build specified for studio use, sold on Amazon by Merrithew, Align's US distributor, at a real discount to anything comparable from Balanced Body.", price: "From $2,750", affiliateUrl: "https://www.amazon.com/dp/B099ZJ4C25?tag=pilatescollective-20" },
-  { name: "Merrithew At Home SPX Reformer", description: "Shorter and narrower than a full-size studio frame while keeping the same spring system and carriage build. Fits along a wall in most bedrooms. Sold mainly as a package, so confirm what a given price includes.", price: "From $3,349", affiliateUrl: "https://www.amazon.com/dp/B004FGT0TM?tag=pilatescollective-20" },
-  { name: "Balanced Body Allegro Stretch Reformer", description: "The real, buyable answer to a wide-carriage machine: 2 inches wider and 6 inches longer than the standard Allegro, with a 36-inch adjustable footbar. (A dealer-only \"widest carriage\" model sometimes quoted here isn't actually sold on Amazon: this is.) Anodized aluminum frame, sold direct on Amazon.", price: "From $3,710", affiliateUrl: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
-  { name: "Balanced Body Studio Reformer (Revo Footbar)", description: "The permanent-installation machine that populates certification centers and clinics. Strata rock maple frame, five Signature Springs, and full tower compatibility. Sold direct by Balanced Body on Amazon; made to order. It does not fold.", price: "From $4,700", affiliateUrl: "https://www.amazon.com/dp/B002XVWIFE?tag=pilatescollective-20" },
-  { name: "Balanced Body Trapeze Table / Cadillac", description: "The single biggest line in a comprehensive studio fit-out after the reformers, and what most distinguishes a full apparatus room from a reformer class business. Needs ceiling height and permanent floor space; a lead-time item, but a real live Amazon listing.", price: "From $5,030", affiliateUrl: "https://www.amazon.com/dp/B01N5OIH13?tag=pilatescollective-20" },
-  { name: "Balanced Body EXO Pilates Chair", description: "The real Balanced Body chair sold on Amazon: a single-pedal design rather than the classic two-pedal Wunda Chair, which has no verified Amazon listing. It still carries the most teaching per square foot of any piece in the room, opening up standing, seated and pressing work in roughly the footprint of an armchair.", price: "From $1,255", affiliateUrl: "https://www.amazon.com/dp/B002XVZVRQ?tag=pilatescollective-20" },
-  { name: "Merrithew Rehab V2 Max Plus Reformer", description: "Merrithew's professional and clinical machine: wider carriage than the SPX line, high-precision spring gradation, and the patented retractable rope system that keeps ropes adjustable and out of the way. The one to look at if you are tall or working clinically.", price: "From $8,199", affiliateUrl: "https://www.amazon.com/dp/B002ABYKFI?tag=pilatescollective-20" },
-  { name: "Balanced Body Ladder Barrel", description: "Spinal extension and lateral work that nothing else in the room replicates, and the piece clients with desk-bound postures benefit from most. A comprehensive studio is not comprehensive without one.", price: "From $2,195", affiliateUrl: "https://www.amazon.com/dp/B01NBVI3JU?tag=pilatescollective-20" },
+  { name: "WINDFOOT Foldable Reformer w/ Jump Board", description: "One of the lowest-priced real spring reformers we could verify as a live Amazon listing at any tier: genuine dual-spring resistance, pre-assembled roughly 90%, and it folds flat for storage. WINDFOOT is a generic/dropship brand with no track record, no certification recognition among instructors, and unclear warranty support, so weigh that against the price before buying.", price: "$289.99", affiliateUrl: "https://www.amazon.com/dp/B0D31767J1?tag=pilatescollective-20" },
+  { name: "PAETA 86\" Foldable Reformer (Piano Wire Springs)", description: "Genuine piano-wire spring resistance, a 500 lb weight capacity, and folds for storage: a real spring reformer under $500. Like the other budget entries here, PAETA is a generic brand without an established reputation among instructors, so treat the low price as buying real springs plus brand-risk, not as a discount on an established machine.", price: "$398.99 (List $499.99)", affiliateUrl: "https://www.amazon.com/dp/B0DFXQX3XV?tag=pilatescollective-20" },
+  { name: "Balanced Body Metro IQ Reformer", description: "The cheapest genuine spring reformer from a major brand, and the machine that marks the real floor of the category. Short stored length makes it the one that fits where a full studio frame does not.", price: "$2,524", affiliateUrl: "https://www.amazon.com/dp/B09HNCMTZL?tag=pilatescollective-20" },
+  { name: "AeroPilates Pro XP 557 Reformer", description: "The one machine from a recognized brand that genuinely costs under $2,000. It uses elastic cord rather than coil springs, which is a real difference in how resistance builds, but for building a habit it is a workable trade.", price: "$1,329.99", affiliateUrl: "https://www.amazon.com/dp/B0012TJI8S?tag=pilatescollective-20" },
+  { name: "PersonalHour Janet La Force Plus Reformer", description: "An aluminum-frame studio machine with a real, live Amazon listing: worth a look if the C8-PRO is out of stock at your price point.", price: "$2,555", affiliateUrl: "https://www.amazon.com/dp/B0GNDHZXZK?tag=pilatescollective-20" },
+  { name: "Align-Pilates C8-PRO Reformer", description: "The value pick among commercial-rated machines, and genuinely not a compromise. Aluminum rails, a graded color-coded spring set, and a build specified for studio use, sold on Amazon by Merrithew, Align's US distributor, at a real discount to anything comparable from Balanced Body.", price: "$2,750", affiliateUrl: "https://www.amazon.com/dp/B099ZJ4C25?tag=pilatescollective-20" },
+  { name: "Merrithew At Home SPX Reformer", description: "Shorter and narrower than a full-size studio frame while keeping the same spring system and carriage build. Fits along a wall in most bedrooms. Sold mainly as a package, so confirm what a given price includes.", price: "$3,349", affiliateUrl: "https://www.amazon.com/dp/B004FGT0TM?tag=pilatescollective-20" },
+  { name: "Balanced Body Allegro Stretch Reformer", description: "The real, buyable answer to a wide-carriage machine: 2 inches wider and 6 inches longer than the standard Allegro, with a 36-inch adjustable footbar. (A dealer-only \"widest carriage\" model sometimes quoted here isn't actually sold on Amazon: this is.) Anodized aluminum frame, sold direct on Amazon.", price: "$3,710", affiliateUrl: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20" },
+  { name: "Balanced Body Studio Reformer (Revo Footbar)", description: "The permanent-installation machine that populates certification centers and clinics. Strata rock maple frame, five Signature Springs, and full tower compatibility. Sold direct by Balanced Body on Amazon; made to order. It does not fold.", price: "$4,700", affiliateUrl: "https://www.amazon.com/dp/B002XVWIFE?tag=pilatescollective-20" },
+  { name: "Balanced Body Trapeze Table / Cadillac", description: "The single biggest line in a comprehensive studio fit-out after the reformers, and what most distinguishes a full apparatus room from a reformer class business. Needs ceiling height and permanent floor space; a lead-time item, but a real live Amazon listing.", price: "$5,030", affiliateUrl: "https://www.amazon.com/dp/B01N5OIH13?tag=pilatescollective-20" },
+  { name: "Balanced Body EXO Pilates Chair", description: "The real Balanced Body chair sold on Amazon: a single-pedal design rather than the classic two-pedal Wunda Chair, which has no verified Amazon listing. It still carries the most teaching per square foot of any piece in the room, opening up standing, seated and pressing work in roughly the footprint of an armchair.", price: "$1,255", affiliateUrl: "https://www.amazon.com/dp/B002XVZVRQ?tag=pilatescollective-20" },
+  { name: "Balanced Body Ladder Barrel", description: "Spinal extension and lateral work that nothing else in the room replicates, and the piece clients with desk-bound postures benefit from most. A comprehensive studio is not comprehensive without one.", price: "$2,195", affiliateUrl: "https://www.amazon.com/dp/B01NBVI3JU?tag=pilatescollective-20" },
   { name: "Gratz Universal Aluminum Reformer", description: "The original Gratz design, built to the classical specification and still the reference for that lineage. Buy this if the classical repertoire is what you are training, not because it is the most expensive option. Sold direct at gratzpilates.com, not available on Amazon.", price: "From $4,590", affiliateUrl: "https://www.gratzpilates.com/collections/reformers" },
 ];
 
 const PRODUCTS = [
-  { name: "Byrex Pilates Prop Kit", description: "Props are the category where a November sale is most likely to be worth acting on, because they sell through open marketplaces with multiple sellers competing. This kit (ring, ball and resistance bands) genuinely expands what you can do on a mat. It is a single kit, so if you are outfitting more than one person, order accordingly. Bands are the genuine consumable here.", price: "From $19.99", affiliateUrl: "https://www.amazon.com/dp/B0GSJHPSQT?tag=pilatescollective-20" },
-  { name: "Gaiam Premium Yoga Mat, 6mm", description: "A mat is the most-used piece of equipment most practitioners own and the easiest to under-buy. Thickness and density matter more than brand: a 6mm mat that does not compress under the spine is the difference between finishing a session comfortable or sore. Worth watching in a sale because mats discount readily and last years.", price: "From $21", affiliateUrl: "https://www.amazon.com/dp/B09WF4GPPC?tag=pilatescollective-20" },
-  { name: "Balanced Body Padded Jumpboard", description: "If you already own a reformer, this is the highest-value addition available to it and a sensible thing to put on a November shortlist. Confirm the fit for your exact model before ordering: jumpboards mount to the footbar or frame and mountings are not universal across brands.", price: "From $280", affiliateUrl: "https://www.amazon.com/dp/B08CS4LJZ7?tag=pilatescollective-20" },
-  { name: "Balanced Body Replacement Reformer Ropes with Clips", description: "An unglamorous thing to buy in a sale and one of the more useful. Ropes stretch and lose tension long before they visibly fail, and a set that has quietly drifted changes every resistance setting you use. Stocking a spare set at a lower price is genuinely worth doing. Check compatibility with your model before ordering.", price: "From $35", affiliateUrl: "https://www.amazon.com/dp/B0CYM27QMZ?tag=pilatescollective-20" },
-  { name: "TriggerPoint GRID 2.0 Foam Roller", description: "Recovery gear discounts reliably because it is a crowded marketplace category with little brand loyalty. A dense roller covers most of what a recovery routine needs and never wears out. This listing is the roller only: massage balls are sold separately if you want both.", price: "From $75", affiliateUrl: "https://www.amazon.com/dp/B006GUC9KC?tag=pilatescollective-20" },
-  { name: "Muezna Pilates Grip Socks, 6-Pair", description: "Required by most studios, easily forgotten, and a category where a multipack in a sale is straightforwardly better value than buying pairs through the year. Sizing runs small on many brands, so read the chart rather than ordering your shoe size.", price: "From $7.59", affiliateUrl: "https://www.amazon.com/dp/B0DQ53GSP5?tag=pilatescollective-20" },
+  { name: "Byrex Pilates Prop Kit", description: "Props are the category where a November sale is most likely to be worth acting on, because they sell through open marketplaces with multiple sellers competing. This kit (ring, ball and resistance bands) genuinely expands what you can do on a mat. It is a single kit, so if you are outfitting more than one person, order accordingly. Bands are the genuine consumable here.", price: "$9.99 (Was $19.99)", affiliateUrl: "https://www.amazon.com/dp/B0GSJHPSQT?tag=pilatescollective-20" },
+  { name: "Gaiam Premium Yoga Mat, 6mm", description: "A mat is the most-used piece of equipment most practitioners own and the easiest to under-buy. Thickness and density matter more than brand: a 6mm mat that does not compress under the spine is the difference between finishing a session comfortable or sore. Worth watching in a sale because mats discount readily and last years.", price: "$39.99", affiliateUrl: "https://www.amazon.com/dp/B09WF4GPPC?tag=pilatescollective-20" },
+  { name: "Balanced Body Padded Jumpboard", description: "If you already own a reformer, this is the highest-value addition available to it and a sensible thing to put on a November shortlist. Confirm the fit for your exact model before ordering: jumpboards mount to the footbar or frame and mountings are not universal across brands.", price: "$280", affiliateUrl: "https://www.amazon.com/dp/B08CS4LJZ7?tag=pilatescollective-20" },
+  { name: "Balanced Body Replacement Reformer Ropes with Clips", description: "An unglamorous thing to buy in a sale and one of the more useful. Ropes stretch and lose tension long before they visibly fail, and a set that has quietly drifted changes every resistance setting you use. Stocking a spare set at a lower price is genuinely worth doing. Check compatibility with your model before ordering.", price: "$35", affiliateUrl: "https://www.amazon.com/dp/B0CYM27QMZ?tag=pilatescollective-20" },
+  { name: "TriggerPoint GRID 2.0 Foam Roller", description: "Recovery gear discounts reliably because it is a crowded marketplace category with little brand loyalty. A dense roller covers most of what a recovery routine needs and never wears out. This listing is the roller only: massage balls are sold separately if you want both.", price: "$63.74 (List $74.99)", affiliateUrl: "https://www.amazon.com/dp/B006GUC9KC?tag=pilatescollective-20" },
+  { name: "Muezna Pilates Grip Socks, 6-Pair", description: "Required by most studios, easily forgotten, and a category where a multipack in a sale is straightforwardly better value than buying pairs through the year. Sizing runs small on many brands, so read the chart rather than ordering your shoe size.", price: "$6.79 (List $7.99)", affiliateUrl: "https://www.amazon.com/dp/B0DQ53GSP5?tag=pilatescollective-20" },
 ];
 
-function BaselineTable({ rows }: { rows: { item: string; tier: string; price: string }[] }) {
+function BaselineTable({ rows }: { rows: { item: string; tier: string; price: string; now: string }[] }) {
   return (
     <div className="rounded-xl overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", backgroundColor: "#ffffff" }}>
       <div style={{ overflowX: "auto" }}>
@@ -131,7 +130,8 @@ function BaselineTable({ rows }: { rows: { item: string; tier: string; price: st
             <tr style={{ backgroundColor: "#f6f3f2" }}>
               <th style={{ textAlign: "left", padding: "12px 16px", fontWeight: 600, color: "#1b1c1c", whiteSpace: "nowrap" }}>Model</th>
               <th style={{ textAlign: "left", padding: "12px 12px", fontWeight: 600, color: "#1b1c1c", whiteSpace: "nowrap" }}>Tier</th>
-              <th style={{ textAlign: "right", padding: "12px 16px", fontWeight: 600, color: "#1b1c1c", whiteSpace: "nowrap" }}>List price</th>
+              <th style={{ textAlign: "right", padding: "12px 12px", fontWeight: 600, color: "#1b1c1c", whiteSpace: "nowrap" }}>September</th>
+              <th style={{ textAlign: "right", padding: "12px 16px", fontWeight: 600, color: "#1b1c1c", whiteSpace: "nowrap" }}>November 19</th>
             </tr>
           </thead>
           <tbody>
@@ -139,7 +139,8 @@ function BaselineTable({ rows }: { rows: { item: string; tier: string; price: st
               <tr key={r.item} style={{ borderTop: "1px solid rgba(217,194,186,0.3)" }}>
                 <td style={{ padding: "12px 16px", color: "#53433e", fontWeight: 300 }}>{r.item}</td>
                 <td style={{ padding: "12px 12px", color: "#86736d", fontWeight: 300, whiteSpace: "nowrap" }}>{r.tier}</td>
-                <td style={{ padding: "12px 16px", textAlign: "right", color: "#1b1c1c", whiteSpace: "nowrap" }}>{r.price}</td>
+                <td style={{ padding: "12px 12px", textAlign: "right", color: "#86736d", whiteSpace: "nowrap" }}>{r.price}</td>
+                <td style={{ padding: "12px 16px", textAlign: "right", color: /Deal/.test(r.now) ? "#8b4a31" : "#1b1c1c", fontWeight: /Deal/.test(r.now) ? 600 : 400 }}>{r.now}</td>
               </tr>
             ))}
           </tbody>
@@ -170,11 +171,11 @@ export default function PilatesEquipmentBlackFridayGuidePage() {
             <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
               Pilates Equipment<br /><span style={{ color: "#8b4a31" }}>Black Friday Guide</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated 16 September 2026 · 10 min read</p>
+            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated November 19, 2026 · 10 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              Black Friday falls on 27 November 2026. This page is published early on purpose, because the single most useful thing you can do about a November sale is know the ordinary price of everything on your shortlist before the sale starts. Below is what genuinely tends to move on price in this category, what almost never does, and the current list prices to measure any claim against.
+              Black Friday falls on November 27, 2026. This page was published early on purpose, because the single most useful thing you can do about a November sale is know the ordinary price of everything on your shortlist before the sale starts. Below is what genuinely tends to move on price in this category, what almost never does, and the current list prices to measure any claim against.
             </p>
           </div>
         </section>
@@ -204,10 +205,10 @@ export default function PilatesEquipmentBlackFridayGuidePage() {
             <div className="mb-14 mt-4 rounded-2xl p-7" style={{ backgroundColor: "#fff4f1", border: "1px solid rgba(139,74,49,0.15)" }}>
               <p className="text-xs font-semibold uppercase tracking-[0.15em] mb-3" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Live deal status</p>
               <p className="text-base leading-relaxed mb-3" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                <strong>As of 16 September 2026: no verified Black Friday pricing has been published yet.</strong> Nothing in this category has moved, because the promotions do not exist this far out.
+                <strong>Update, November 19, 2026: Amazon&apos;s Black Friday deals are live, through November 30.</strong> We re-checked every Amazon listing on this page. What moved is exactly what this guide predicted: the prop kit, grip socks, foam roller and two budget PAETA reformers are discounted, the PAETA machines by 20% and 26% as official Black Friday Deals. What did not move: every studio-grade machine from Balanced Body, Merrithew, Align and PersonalHour. Two prices went up instead: the Balanced Body Metro IQ (from $2,330 to $2,524) and the DWKWE foldable (from $284.99 to $339.99).
               </p>
               <p className="text-base leading-relaxed mb-0" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                We are not going to print a predicted discount percentage. Anybody publishing one in September is guessing, and a guessed number is worse than no number because you might act on it. What this page gives you instead is the baseline: the current list prices, updated as we track them, so that when a deal does appear you can tell in ten seconds whether it is real. We will add confirmed reductions here as they land.
+                We still do not print predicted discounts. The tables below show the September price next to Amazon&apos;s price on November 19, so you can see in ten seconds whether a claimed saving is real. Savings quoted on this page are Amazon&apos;s own figures against the list or recent price it shows.
               </p>
             </div>
 
@@ -245,7 +246,7 @@ export default function PilatesEquipmentBlackFridayGuidePage() {
             <div className="mb-14">
               <h2 className="text-3xl font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Reformer baseline prices</h2>
               <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                These are list prices as at September 2026. The Balanced Body and Align Pilates figures were checked against current dealer listings; the rest are the prices we track across our equipment reviews and are being re-checked. This table is the actual tool on this page: screenshot it, or write down the two or three models you care about, and compare any November claim against these figures rather than against a retailer&apos;s crossed-out number. Prices vary by country and dealer and they move, so confirm before buying.
+                The September column is the list price we recorded before any sale; the November 19 column is Amazon&apos;s price that day, with any Black Friday Deal marked. Models marked Not on Amazon are sold direct or through dealers. This table is the actual tool on this page: screenshot it, or write down the two or three models you care about, and compare any November claim against these figures rather than against a retailer&apos;s crossed-out number. Prices vary by country and dealer and they move, so confirm before buying.
               </p>
               <BaselineTable rows={REFORMER_BASELINE} />
             </div>
@@ -297,7 +298,7 @@ export default function PilatesEquipmentBlackFridayGuidePage() {
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
-                  { q: "When is Black Friday 2026?", a: "Black Friday falls on 27 November 2026, with Cyber Monday on 30 November. In practice the window is far longer than the name suggests: marketplace pricing on smaller equipment and apparel typically starts moving in the first half of November, and some manufacturers run their own promotions on a schedule that has nothing to do with the American calendar. Treat the date as the center of a several-week period rather than a single day." },
+                  { q: "When is Black Friday 2026?", a: "Black Friday falls on November 27, 2026, with Cyber Monday on November 30, and Amazon's Black Friday deals run from November 19 to November 30. In practice the window is far longer than the name suggests: marketplace pricing on smaller equipment and apparel typically starts moving in the first half of November, and some manufacturers run their own promotions on a schedule that has nothing to do with the American calendar. Treat the date as the center of a several-week period rather than a single day." },
                   { q: "Do Pilates reformers go on sale on Black Friday?", a: "Sometimes, but reformers behave differently from most products in a November sale, and it is worth understanding why before you wait. Studio-grade apparatus is largely sold direct by the manufacturer or through authorized dealers rather than on open marketplaces, which means there is no third-party seller competing on price. Where reductions do appear they tend to be manufacturer promotions, bundle offers that include a jumpboard or props rather than a lower machine price, or clearance on a model being replaced. The consumer end of the market, meaning the sub-$1,000 machines sold through general retailers, behaves much more like ordinary consumer electronics." },
                   { q: "Is it worth waiting until Black Friday to buy Pilates equipment?", a: "For props, apparel, recovery gear and consumer-end machines, waiting a few weeks in November is usually reasonable if you are not in a hurry. For studio-grade apparatus, waiting is a weaker bet: the discount is less predictable, stock on specific models can be thin by late November, and if you are fitting out a studio, a negotiated multi-unit quote from a commercial supplier is normally worth more than any seasonal promotion. If you need the equipment for a specific date, buy when you can confirm delivery rather than gambling on a sale." },
                   { q: "How do I tell whether a Black Friday deal is real?", a: "Know the ordinary price before the sale starts. That single step defeats almost every misleading claim, because the common tactic is not a fake discount but a genuine discount from an inflated reference price. Record the price of everything on your shortlist now, in the weeks before November, and compare against your own note rather than against the retailer's crossed-out figure. Then check three other things: that the seller is the brand or an authorized dealer rather than an unknown third party, that shipping on a heavy item is included, and what the return window and restocking terms are." },
@@ -316,7 +317,7 @@ export default function PilatesEquipmentBlackFridayGuidePage() {
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Reformers</p>
               <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The machines on the baseline table</h2>
               <p className="text-base leading-relaxed mb-8" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                The reformers worth watching in November, at the September list prices you should measure any claimed deal against. Check the warranty covers your intended use before ordering, and confirm the machine fits the room and the route into it.
+                The reformers worth watching in November, at their Amazon price on November 19, 2026 (the September baseline is in the table above). Check the warranty covers your intended use before ordering, and confirm the machine fits the room and the route into it.
               </p>
               <div className="space-y-8">
                 {REFORMERS.map((p) => (
@@ -330,7 +331,7 @@ export default function PilatesEquipmentBlackFridayGuidePage() {
               <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
               <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Worth putting on a November shortlist</h2>
               <p className="text-base leading-relaxed mb-8" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                These are the categories that genuinely do move on price, which makes them the sensible things to watch rather than the expensive apparatus everybody writes about. Prices shown are ordinary list prices, not sale prices.
+                These are the categories that genuinely do move on price, which makes them the sensible things to watch rather than the expensive apparatus everybody writes about. Prices shown are Amazon&apos;s prices on November 19, 2026, including any discount Amazon was showing.
               </p>
               <div className="space-y-8">
                 {PRODUCTS.map((p) => (

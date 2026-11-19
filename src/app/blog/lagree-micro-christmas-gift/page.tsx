@@ -114,7 +114,7 @@ const GUIDE: EquipmentGuideProps = {
   ],
   related: [
     { title: "Best Megaformer Machine", excerpt: "Megaformers and Lagree-style machines compared.", href: "/blog/best-megaformer-machine", imageUrl: "/pictures/stitch-reformer-spring-detail.png", category: "Equipment", readTime: "12 min read" },
-    { title: "Lagree Black Friday Deals", excerpt: "The Micro and add-ons: prices to beat.", href: "/blog/black-friday-lagree-deals", imageUrl: "/pictures/stitch-reformer-spring-detail.png", category: "Deals", readTime: "Deals" },
+    { title: "Lagree Black Friday Deals", excerpt: "The Micro and add-ons, with current prices.", href: "/blog/black-friday-lagree-deals", imageUrl: "/pictures/stitch-reformer-spring-detail.png", category: "Deals", readTime: "Deals" },
     { title: "Best Lagree Gifts", excerpt: "Gifts for Lagree lovers at every budget.", href: "/blog/best-lagree-gifts", imageUrl: "/pictures/stitch-grip-socks-footbar.png", category: "Gifts", readTime: "9 min read" },
     { title: "Home Workout Machine Christmas Gifts", excerpt: "The best home machine gifts compared.", href: "/blog/best-home-workout-machine-christmas-gift", imageUrl: "/pictures/stitch-reformer-spring-detail.png", category: "Gifts", readTime: "11 min read" },
   ],

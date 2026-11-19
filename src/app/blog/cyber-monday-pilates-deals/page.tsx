@@ -3,7 +3,7 @@ import DealsGuide, { type DealsGuideProps } from "@/components/DealsGuide";
 
 export const metadata: Metadata = {
   "title": "Cyber Monday Pilates Deals 2026: Reformers, Gear & Gifts",
-  "description": "The best Cyber Monday 2026 Pilates deals to watch: home reformers, mats, props, clothing, grip socks and gifts, with today's Amazon price to compare against.",
+  "description": "The best Cyber Monday 2026 Pilates deals on Amazon: home reformers, mats, props, clothing, grip socks and gifts, with live prices and deal savings.",
   "keywords": [
     "cyber monday pilates deals",
     "cyber monday pilates reformer",
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   ],
   "openGraph": {
     "title": "Cyber Monday Pilates Deals 2026: Reformers, Gear & Gifts",
-    "description": "The best Cyber Monday 2026 Pilates deals to watch: home reformers, mats, props, clothing, grip socks and gifts, with today's Amazon price to compare against.",
+    "description": "The best Cyber Monday 2026 Pilates deals on Amazon: home reformers, mats, props, clothing, grip socks and gifts, with live prices and deal savings.",
     "type": "article",
     "url": "https://pilatescollectiveclub.com/blog/cyber-monday-pilates-deals",
     "images": [
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   "twitter": {
     "card": "summary_large_image",
     "title": "Cyber Monday Pilates Deals 2026: Reformers, Gear & Gifts",
-    "description": "The best Cyber Monday 2026 Pilates deals to watch: home reformers, mats, props, clothing, grip socks and gifts, with today's Amazon price to compare against.",
+    "description": "The best Cyber Monday 2026 Pilates deals on Amazon: home reformers, mats, props, clothing, grip socks and gifts, with live prices and deal savings.",
     "images": [
       "https://pilatescollectiveclub.com/pictures/stitch-luxury-studio-wide.png"
     ]
@@ -46,11 +46,11 @@ export const metadata: Metadata = {
   }
 };
 
-// Prices are the live Amazon prices checked on October 14, 2026.
+// Prices are the live Amazon prices checked on November 19, 2026 (Creators API), with Amazon's deal badges.
 const GUIDE: DealsGuideProps = {
   "slug": "cyber-monday-pilates-deals",
   "title": "Cyber Monday Pilates Deals 2026: Reformers, Gear & Gifts",
-  "description": "The best Cyber Monday 2026 Pilates deals to watch: home reformers, mats, props, clothing, grip socks and gifts, with today's Amazon price to compare against.",
+  "description": "The best Cyber Monday 2026 Pilates deals on Amazon: home reformers, mats, props, clothing, grip socks and gifts, with live prices and deal savings.",
   "breadcrumb": "Cyber Monday Pilates Deals",
   "eyebrow": "Deals Hub",
   "h1": "Cyber Monday Pilates Deals",
@@ -58,11 +58,11 @@ const GUIDE: DealsGuideProps = {
   "readTime": "8 min read",
   "heroImage": "/pictures/stitch-luxury-studio-wide.png",
   "heroAlt": "A bright Pilates studio with reformers",
-  "intro": "Cyber Monday is the last big sale of the season and one of the best days to buy Pilates gear online. This hub collects the products most worth watching, from a home reformer to grip socks, with the Amazon price we checked today. When deals go live, compare against these numbers and you will know whether a discount is real.",
+  "intro": "Cyber Monday is the last big sale of the season and one of the best days to buy Pilates gear online. This hub collects the products most worth buying, from a home reformer to grip socks, with their Amazon price on November 19, 2026. Amazon's Black Friday and Cyber Monday deals are already live, and six of these are on one.",
   "sections": [
     {
       "id": "reformers",
-      "title": "Home reformers to watch",
+      "title": "Home reformers",
       "intro": "The biggest savings in money terms. Budget and mid-range machines discount most often.",
       "items": [
         {
@@ -70,21 +70,25 @@ const GUIDE: DealsGuideProps = {
           "name": "WINDFOOT Foldable Pilates Reformer with Jump Board",
           "badge": "Best budget reformer",
           "note": "A foldable home reformer with a jump board, one of the lowest-priced reformers we track.",
-          "price": "$295.99"
+          "price": "$289.99"
         },
         {
           "asin": "B07G5J3SKS",
           "name": "AeroPilates Premier 701 Reformer",
           "badge": "Best-known home brand",
           "note": "AeroPilates' mid-range machine, a long-running home reformer that uses cord resistance.",
-          "price": "$555.99"
+          "price": "$550.99"
         },
         {
           "asin": "B0D7M7JNFV",
           "name": "PAETA Wooden Foldable Reformer with Sitting Box",
           "badge": "Best wood under $1,000",
           "note": "A wooden foldable reformer that comes with a sitting box.",
-          "price": "$719.99"
+          "price": "$664.98",
+          "wasPrice": "$899.99",
+          "wasLabel": "List",
+          "pctOff": 26,
+          "amazonDeal": true
         },
         {
           "asin": "B099ZJ4C25",
@@ -105,29 +109,39 @@ const GUIDE: DealsGuideProps = {
           "name": "Byrex Pilates Kit (Ring, Ball, Bands, Sliders)",
           "badge": "Best starter kit",
           "note": "A ring, ball, resistance bands and sliders in one box for home Pilates.",
-          "price": "$19.99"
+          "price": "$9.99",
+          "wasPrice": "$19.99",
+          "wasLabel": "Was",
+          "pctOff": 50
         },
         {
           "asin": "B0000DZFXZ",
           "name": "Manduka PRO Yoga Mat (6mm)",
           "badge": "Best premium mat",
           "note": "A dense, heavy 6mm mat built to last for years.",
-          "price": "$143.99",
-          "lowStock": true
+          "price": "$144.00"
         },
         {
           "asin": "B006GUC9KC",
           "name": "TriggerPoint GRID 2.0 Foam Roller",
           "badge": "Best foam roller",
           "note": "A firm, textured roller for releasing tight legs and back after class.",
-          "price": "$74.99"
+          "price": "$63.74",
+          "wasPrice": "$74.99",
+          "wasLabel": "List",
+          "pctOff": 15,
+          "amazonDeal": true
         },
         {
           "asin": "B0CNS894RH",
           "name": "Therabody TheraGun Relief Massage Gun",
           "badge": "Best recovery gift",
           "note": "Therabody's entry massage gun, with three speeds.",
-          "price": "$159.99"
+          "price": "$119.99",
+          "wasPrice": "$159.99",
+          "wasLabel": "List",
+          "pctOff": 25,
+          "amazonDeal": true
         }
       ]
     },
@@ -141,36 +155,53 @@ const GUIDE: DealsGuideProps = {
           "name": "CRZ YOGA Butterluxe Leggings 25\"",
           "badge": "Best-value leggings",
           "note": "Soft, buttery leggings at a price that makes buying two easy.",
-          "price": "$32.00"
+          "price": "$27.20",
+          "wasPrice": "$32.00",
+          "wasLabel": "List",
+          "pctOff": 15,
+          "amazonDeal": true
         },
         {
           "asin": "B0FXN378H8",
           "name": "Varley Freesoft Piped Full Leggings",
           "badge": "Best premium leggings",
           "note": "Varley's soft Freesoft leggings, a premium studio favorite.",
-          "price": "$98.00"
+          "price": "$36.75",
+          "wasPrice": "$98.00",
+          "wasLabel": "List",
+          "pctOff": 63,
+          "lowStock": true
         },
         {
           "asin": "B07QHNDHW3",
           "name": "toesox Low Rise Grip Socks (2-Pack)",
           "badge": "Best grip socks",
           "note": "Full-toe grip socks from toesox, a studio staple, in a 2-pack.",
-          "price": "$30.00"
+          "price": "$25.50",
+          "wasPrice": "$30.00",
+          "wasLabel": "List",
+          "pctOff": 15,
+          "amazonDeal": true,
+          "lowStock": true
         },
         {
           "asin": "B0B1VFNFL1",
           "name": "BAGSMART Gym Tote Bag",
           "badge": "Best gym bag",
           "note": "A roomy tote with space for a mat, shoes and a change of clothes.",
-          "price": "$37.99"
+          "price": "$25.06",
+          "wasPrice": "$37.99",
+          "wasLabel": "Was",
+          "pctOff": 34,
+          "amazonDeal": true
         }
       ]
     }
   ],
   "watchFor": [
     {
-      "h": "Write down today's price.",
-      "b": "Every product here shows the Amazon price we checked in October. A real Cyber Monday deal beats it; a 'was' price you have never seen does not."
+      "h": "Check what the saving is measured against.",
+      "b": "Each product shows its Amazon price on November 19, 2026, plus the List or Was price Amazon compares it with. 'Was' is Amazon's recent selling price; 'List' is set by the seller and can be higher than the item usually sells for."
     },
     {
       "h": "Black Friday and Cyber Monday often overlap.",
@@ -192,7 +223,7 @@ const GUIDE: DealsGuideProps = {
     },
     {
       "q": "Are these Cyber Monday prices?",
-      "a": "Not yet. They are the Amazon prices we checked on October 14, 2026, so you have a baseline. We will update this page with real Cyber Monday deals before the day."
+      "a": "Partly. Amazon's Black Friday and Cyber Monday event started on November 19 and runs through November 30, 2026. Items marked Black Friday Deal show Amazon's event price on November 19; the others show their regular Amazon price that day. Prices can change at any time, so check the listing before you buy."
     },
     {
       "q": "Is Cyber Monday better than Black Friday for Pilates gear?",

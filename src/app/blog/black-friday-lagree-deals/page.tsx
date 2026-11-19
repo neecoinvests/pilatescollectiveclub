@@ -6,11 +6,11 @@ const HERO_IMAGE = "https://pilatescollectiveclub.com/pictures/stitch-reformer-s
 
 export const metadata: Metadata = {
   title: "Lagree Black Friday Deals 2026: Micro & Setup",
-  description: "Lagree Black Friday 2026: the Lagree Micro, its rear platform, handlebars and cables, and the home setup around it, with today's Amazon price to beat.",
+  description: "Lagree Black Friday 2026: the Lagree Micro, its rear platform, handlebars and cables, and the home setup around it, with live Amazon prices.",
   keywords: ["lagree black friday", "lagree micro black friday", "lagree micro sale", "lagree fitness black friday", "megaformer black friday", "lagree deals 2026", "lagree cyber monday", "lagree at home deal"],
   openGraph: {
     title: "Lagree Black Friday Deals 2026: The Micro & Home Setup",
-    description: "Lagree Black Friday 2026: the Lagree Micro, its rear platform, handlebars and cables, and the home setup around it, with today's Amazon price to beat.",
+    description: "Lagree Black Friday 2026: the Lagree Micro, its rear platform, handlebars and cables, and the home setup around it, with live Amazon prices.",
     type: "article",
     url: PAGE_URL,
     images: [{ url: HERO_IMAGE, width: 1200, height: 630, alt: "Springs on a carriage machine: Lagree Micro Black Friday deals" }],
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Lagree Black Friday Deals 2026: Micro & Setup",
-    description: "Lagree Black Friday 2026: the Lagree Micro, its rear platform, handlebars and cables, and the home setup around it, with today's Amazon price to beat.",
+    description: "Lagree Black Friday 2026: the Lagree Micro, its rear platform, handlebars and cables, and the home setup around it, with live Amazon prices.",
     images: [HERO_IMAGE],
   },
   alternates: { canonical: PAGE_URL },
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
 const GUIDE: DealsGuideProps = {
   "slug": "black-friday-lagree-deals",
   "title": "Lagree Black Friday Deals 2026: The Micro & Home Setup",
-  "description": "Lagree Black Friday 2026: the Lagree Micro, its rear platform, handlebars and cables, and the home setup around it, with today's Amazon price to beat.",
+  "description": "Lagree Black Friday 2026: the Lagree Micro, its rear platform, handlebars and cables, and the home setup around it, with live Amazon prices.",
   "breadcrumb": "Lagree Black Friday Deals",
   "eyebrow": "Lagree",
   "h1": "Lagree Black Friday Deals",
@@ -37,7 +37,7 @@ const GUIDE: DealsGuideProps = {
   "readTime": "6 min read",
   "heroImage": "/pictures/stitch-reformer-spring-detail.png",
   "heroAlt": "Springs on a carriage machine: Lagree Micro Black Friday deals",
-  "intro": "The Micro is Lagree Fitness's own home machine, and it is sold by Lagree Fitness on Amazon along with its three add-ons. Whether the brand runs a Black Friday price is up to Lagree Fitness, so here is exactly what each piece costs today, plus the home-setup gear around it that is far more likely to be discounted.",
+  "intro": "The Micro is Lagree Fitness's own home machine, and it is sold by Lagree Fitness on Amazon along with its three add-ons. Whether the brand runs a Black Friday price is up to Lagree Fitness, so here is exactly what each piece cost on November 19, 2026, plus the home-setup gear around it that is far more likely to be discounted.",
   "sections": [
     {
       "id": "micro",
@@ -70,7 +70,8 @@ const GUIDE: DealsGuideProps = {
           "name": "Lagree Fitness Micro Pulley Cables",
           "badge": "Add-on #3",
           "note": "The Micro's cable attachment. Stock is limited.",
-          "price": "$230.00"
+          "price": "$230.00",
+          "lowStock": true
         }
       ]
     },
@@ -84,14 +85,18 @@ const GUIDE: DealsGuideProps = {
           "name": "Marcy Equipment Mat & Floor Protector (78\" x 36\")",
           "badge": "Floor mat: Micro only",
           "note": "Covers the Micro's 72\" length. Not long enough with the rear platform.",
-          "price": "$42.29"
+          "price": "$25.49",
+          "wasPrice": "$29.99",
+          "wasLabel": "List",
+          "pctOff": 15,
+          "amazonDeal": true
         },
         {
           "asin": "B005SUKZJ8",
           "name": "Rubber-Cal Rubber Flooring Roll (4 x 7 ft)",
           "badge": "Floor mat, with platform",
           "note": "84\" long: enough for the Micro with its rear platform.",
-          "price": "$49.50"
+          "price": "$49.88"
         },
         {
           "asin": "B06WV6XVV9",
@@ -117,7 +122,7 @@ const GUIDE: DealsGuideProps = {
     },
     {
       "h": "Check the 30-day price, not the strikethrough.",
-      "b": "Amazon's 'List' or 'Was' price can be set by the seller. Compare the Black Friday price with the price we recorded here in October: that is the real saving."
+      "b": "Amazon's 'List' price is set by the seller and can be higher than the item usually sells for. Where Amazon shows a 'Was' price (its recent selling price), that is the fairer comparison, and each saving here says which one it uses."
     },
     {
       "h": "Price the full setup.",
@@ -127,7 +132,7 @@ const GUIDE: DealsGuideProps = {
   "faqs": [
     {
       "q": "Does the Lagree Micro go on sale for Black Friday?",
-      "a": "That depends on Lagree Fitness, which sells the Micro on Amazon. We have recorded today's price so you can see straight away if it drops."
+      "a": "That depends on Lagree Fitness, which sells the Micro on Amazon. On November 19, 2026, the Micro was not part of Amazon's Black Friday deals, so check the listing for the current price."
     },
     {
       "q": "Can you buy a Megaformer on Black Friday?",

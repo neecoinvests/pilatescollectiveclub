@@ -29,6 +29,13 @@ export type GuideItem = {
   pros?: string[];
   cons?: string[];
   ctaLabel?: string;
+  /** Amazon's comparison price from the Creators API: "List" (list price) or "Was" (recent price). */
+  wasPrice?: string;
+  wasLabel?: "List" | "Was";
+  /** Percent off the comparison price, as Amazon reports it. */
+  pctOff?: number;
+  /** Set when Amazon badges the listing with an event deal: the badge text and the ISO date the deal ends. */
+  amazonDeal?: { badge: string; endsIso: string };
 };
 
 export type GuideBlock =
@@ -80,6 +87,12 @@ const AVAILABILITY: Record<GuideItem["availability"], { label: string; schema: s
   direct: { label: "Sold direct by the brand or its dealers", schema: "https://schema.org/InStock" },
 };
 
+// "$11.13 (List $19.99)" when Amazon reports a comparison price.
+const priceLabel = (it: GuideItem) => (it.wasPrice ? `${it.price} (${it.wasLabel ?? "List"} ${it.wasPrice})` : it.price);
+// Amazon's deal badge and saving, as Amazon reports them; null when the item is not discounted.
+const dealLabel = (it: GuideItem) =>
+  it.amazonDeal ? `${it.amazonDeal.badge}${it.pctOff ? ` · ${it.pctOff}% off` : ""}` : it.pctOff && it.pctOff >= 10 ? `${it.pctOff}% off ${it.wasLabel === "Was" ? "recent price" : "list price"}` : null;
+
 function Eyebrow({ text }: { text?: string }) {
   if (!text) return null;
   return (
@@ -95,11 +108,12 @@ function Eyebrow({ text }: { text?: string }) {
 function ItemCard({ item, rank }: { item: GuideItem; rank: number }) {
   return (
     <div id={item.id} className="scroll-mt-28">
-      <div className="flex items-center gap-3 mb-4">
+      <div className="flex flex-wrap items-center gap-3 mb-4">
         <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: serif }}>{String(rank).padStart(2, "0")}</span>
         <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: sans }}>{item.badge}</span>
+        {dealLabel(item) && <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#8b4a31", color: "#ffffff", fontFamily: sans }}>{dealLabel(item)}</span>}
       </div>
-      <ProductCard name={item.name} description={item.body} price={item.price} affiliateUrl={item.url} ctaLabel={item.ctaLabel} />
+      <ProductCard name={item.name} description={item.body} price={priceLabel(item)} affiliateUrl={item.url} ctaLabel={item.ctaLabel} />
       <div className="rounded-lg p-4" style={{ backgroundColor: "#f9f6f5", border: "1px solid rgba(217,194,186,0.3)" }}>
         <p className="text-xs font-semibold uppercase tracking-wider mb-2" style={{ color: "#8b4a31", fontFamily: sans }}>Key specs (from the listing)</p>
         <ul className="space-y-1">
@@ -189,7 +203,7 @@ export default function EquipmentGuide(rawProps: EquipmentGuideProps) {
             "name": it.name,
             ...(it.brand ? { "brand": { "@type": "Brand", "name": it.brand } } : {}),
             "description": it.body,
-            "offers": { "@type": "Offer", "priceCurrency": "USD", "price": it.price, "availability": AVAILABILITY[it.availability].schema, "url": it.url },
+            "offers": { "@type": "Offer", "priceCurrency": "USD", "price": it.price, "availability": AVAILABILITY[it.availability].schema, "url": it.url, ...(it.amazonDeal ? { "priceValidUntil": it.amazonDeal.endsIso } : {}) },
           },
         })),
       },
@@ -225,8 +239,8 @@ export default function EquipmentGuide(rawProps: EquipmentGuideProps) {
             </h1>
             <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: sans }}>{props.updatedLabel} · {props.readTime}</p>
             {top && (
-              <TopPick name={top.it.name} price={top.it.price} url={top.it.url}
-                note={top.it.soldBy ? `${top.label} · sold by ${top.it.soldBy}` : top.label} />
+              <TopPick name={top.it.name} price={priceLabel(top.it)} url={top.it.url}
+                note={[dealLabel(top.it), top.label, top.it.soldBy ? `sold by ${top.it.soldBy}` : null].filter(Boolean).join(" · ")} />
             )}
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             {props.intro.map((p, i) => (
@@ -252,7 +266,7 @@ export default function EquipmentGuide(rawProps: EquipmentGuideProps) {
           <div className="max-w-3xl mx-auto">
 
             {picks.length > 0 && (
-              <QuickPicks className="mb-6 mt-4" picks={sortedPicks.map((x) => ({ name: x.it.name, price: x.it.price, url: x.it.url, note: x.label }))} />
+              <QuickPicks className="mb-6 mt-4" picks={sortedPicks.map((x) => ({ name: x.it.name, price: x.it.price, url: x.it.url, note: dealLabel(x.it) ? `${dealLabel(x.it)} · ${x.label}` : x.label }))} />
             )}
             <AffiliateNote className={picks.length > 0 ? "mb-16" : "mb-10 mt-4"}>Some links on this page are affiliate links: we earn a small commission on qualifying purchases at no extra cost to you. Specifications are taken from each product&apos;s listing or the manufacturer, not from our own testing. Prices were checked live on Amazon on the date above and change often.</AffiliateNote>
 
