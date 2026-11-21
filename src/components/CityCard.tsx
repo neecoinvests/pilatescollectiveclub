@@ -72,63 +72,20 @@ export default function CityCard({ city, country, href, studioCount }: CityCardP
   const imageUrl = cityImages[city];
 
   return (
-    <Link href={href} className="group block" style={{ textDecoration: "none" }}>
-      <div style={{ position: "relative", overflow: "hidden", aspectRatio: "3/4" }}>
-        {imageUrl ? (
-          <Image
-            src={imageUrl}
-            alt={`Best Pilates studios in ${city}, ${country}`}
-            fill
-            unoptimized
-            className="object-cover transition-transform duration-700 group-hover:scale-105"
-          />
-        ) : (
-          <div style={{ position: "absolute", inset: 0, backgroundColor: "#ede9e3" }} />
-        )}
+    <Link href={href} className="r-city">
+      {imageUrl && (
+        <Image
+          src={imageUrl}
+          alt={`Best Pilates studios in ${city}, ${country}`}
+          fill
+          sizes="(max-width: 520px) 50vw, (max-width: 1000px) 33vw, 260px"
+        />
+      )}
 
-        {/* Gradient overlay */}
-        <div style={{
-          position: "absolute",
-          inset: 0,
-          background: "linear-gradient(to top, rgba(10,10,10,0.75) 0%, rgba(10,10,10,0.2) 50%, transparent 100%)",
-        }} />
-
-        {/* Text */}
-        <div style={{ position: "absolute", bottom: 0, left: 0, right: 0, padding: "24px 20px" }}>
-          <p style={{
-            fontFamily: "var(--font-sans)",
-            fontSize: "10px",
-            fontWeight: 400,
-            letterSpacing: "0.2em",
-            textTransform: "uppercase",
-            color: "rgba(255,255,255,0.6)",
-            marginBottom: "4px",
-          }}>
-            {country}
-          </p>
-          <h3 style={{
-            fontFamily: "var(--font-serif)",
-            fontSize: "22px",
-            fontWeight: 400,
-            color: "#ffffff",
-            lineHeight: 1.1,
-            margin: 0,
-          }}>
-            {city}
-          </h3>
-          {studioCount !== undefined && (
-            <p style={{
-              fontFamily: "var(--font-sans)",
-              fontSize: "10px",
-              fontWeight: 300,
-              color: "rgba(255,255,255,0.5)",
-              marginTop: "4px",
-              letterSpacing: "0.05em",
-            }}>
-              {studioCount} curated studios
-            </p>
-          )}
-        </div>
+      <div className="r-city-tx">
+        <p>{country}</p>
+        <h3>{city}</h3>
+        {studioCount !== undefined && <p>{studioCount} curated studios</p>}
       </div>
     </Link>
   );

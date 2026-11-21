@@ -7,23 +7,23 @@ interface BadgeProps {
 
 const variantStyles: Record<BadgeVariant, { bg: string; text: string; label: string }> = {
   affiliate: {
-    bg: "#d6e7d9",
-    text: "#3b4a40",
+    bg: "#ede9e3",
+    text: "#3a3530",
     label: "Affiliate link",
   },
   new: {
-    bg: "#ffdbce",
-    text: "#71361e",
+    bg: "#c5a882",
+    text: "#0a0a0a",
     label: "New",
   },
   featured: {
-    bg: "#e8e2d6",
-    text: "#4a473e",
+    bg: "#0a0a0a",
+    text: "#f7f4f0",
     label: "Featured",
   },
   popular: {
-    bg: "#dcd9d9",
-    text: "#303030",
+    bg: "#ede9e3",
+    text: "#0a0a0a",
     label: "Popular",
   },
 };
@@ -33,13 +33,8 @@ export default function Badge({ variant, className = "" }: BadgeProps) {
 
   return (
     <span
-      className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium ${className}`}
-      style={{
-        backgroundColor: styles.bg,
-        color: styles.text,
-        fontFamily: "'Montserrat', sans-serif",
-        letterSpacing: "0.025em",
-      }}
+      className={`r-pill ${className}`}
+      style={{ backgroundColor: styles.bg, color: styles.text }}
     >
       {styles.label}
     </span>

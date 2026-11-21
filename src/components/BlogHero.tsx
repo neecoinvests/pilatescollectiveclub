@@ -20,30 +20,29 @@ export default function BlogHero({ imageUrl, imageAlt, category, subcategory, ti
   const showSub = subcategory && subcategory !== readTime;
   return (
     <>
-      <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-        <div className="max-w-3xl mx-auto">
-          <div className="flex items-center gap-3 mb-6">
-            <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{category}</span>
+      <section className="r-ah">
+        <div className="r-wrap">
+          <div className="r-ah-cr r-sm">
+            <span>{category}</span>
             {showSub && (
               <>
-                <span style={{ color: "#d9c2ba" }}>·</span>
-                <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>{subcategory}</span>
+                <span>·</span>
+                <span>{subcategory}</span>
               </>
             )}
           </div>
-          <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
+          <h1 className="r-d r-ah-long">
             {title}
           </h1>
-          <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{dateLabel ?? date} · {readTime}</p>
+          <p className="r-ah-meta mb-6"><span>{dateLabel ?? date}</span> · <span>{readTime}</span></p>
           {topPick}
-          <div className="w-16 h-px" style={{ backgroundColor: "#d9c2ba" }} />
         </div>
       </section>
 
-      <section className="px-6">
-        <div className="max-w-5xl mx-auto">
-          <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-            <Image src={imageUrl} alt={imageAlt} fill className="object-cover" priority style={{ filter: "brightness(0.85)" }} />
+      <section>
+        <div className="r-wrap">
+          <div className="pcc-city-hero-image r-ah-img">
+            <Image src={imageUrl} alt={imageAlt} fill preload sizes="(max-width: 1320px) 100vw, 1320px" />
           </div>
         </div>
       </section>

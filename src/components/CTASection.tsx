@@ -10,39 +10,15 @@ export default function CTASection({
   subtitle,
 }: CTASectionProps) {
   return (
-    <section
-      className="py-20 px-6"
-      style={{ backgroundColor: "#8b4a31" }}
-    >
-      <div className="max-w-3xl mx-auto text-center">
-        <h2
-          className="text-3xl md:text-4xl font-semibold mb-4"
-          style={{
-            fontFamily: "'Playfair Display', serif",
-            color: "#ffffff",
-          }}
-        >
-          {title}
-        </h2>
-        {subtitle && (
-          <p
-            className="text-lg mb-8 opacity-85"
-            style={{ color: "#ffffff", fontFamily: "'Montserrat', sans-serif" }}
-          >
-            {subtitle}
-          </p>
-        )}
-        <a
-          href="/cities"
-          className="inline-block px-8 py-3.5 rounded-xl text-sm font-semibold transition-opacity hover:opacity-90"
-          style={{
-            backgroundColor: "#ffffff",
-            color: "#8b4a31",
-            fontFamily: "'Montserrat', sans-serif",
-          }}
-        >
-          Explore City Guides →
-        </a>
+    <section className="r-cta">
+      <div className="r-wrap">
+        <div className="r-cta-in">
+          <h2 className="r-d">{title}</h2>
+          {subtitle && <p>{subtitle}</p>}
+          <a href="/cities" className="r-btn">
+            Explore City Guides →
+          </a>
+        </div>
       </div>
     </section>
   );

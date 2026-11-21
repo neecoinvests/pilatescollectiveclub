@@ -22,13 +22,13 @@ export default function FaqSection({ faqs, className = "mt-16 mb-16" }: { faqs: 
   if (!faqs.length) return null;
   return (
     <div className={className}>
-      <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
-      <div className="space-y-6">
+      <h2 className="r-d r-faq-h">Frequently asked questions</h2>
+      <div className="r-faq">
         {faqs.map((item) => (
-          <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-            <h3 className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</h3>
-            <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
-          </div>
+          <details key={item.q} open>
+            <summary><h3>{item.q}</h3></summary>
+            <p className="r-faq-an">{item.a}</p>
+          </details>
         ))}
       </div>
     </div>
