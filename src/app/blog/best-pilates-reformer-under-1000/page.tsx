@@ -9,6 +9,7 @@ import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 import { jsonLdHtml } from "@/lib/schema";
+import PriceRail from "@/components/rail/PriceRail";
 
 export const metadata: Metadata = {
   title: "Best Pilates Reformer Under $1,000 (2026): 6 Real Picks",
@@ -198,52 +199,59 @@ const jsonLd = {
 
 const QP_NOTES = ["Best genuine spring reformer under $1,000", "Best value genuine spring reformer", "Best value genuine spring reformer under $300", "Easiest setup among the genuine spring reformers", "Best established-brand cord reformer", "Best true entry point for an established brand"];
 
+// Price rail: one dot per product, read from the prices already in PRODUCTS.
+const RAIL_ITEMS = PRODUCTS.map((p) => ({ name: p.name, price: Number(p.price.replace(/[^0-9.]/g, "")), priceLabel: p.price }));
+
 export default function BestPilatesReformerUnder1000Page() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
       <Header />
-      <main>
+      <main className="r-art">
 
-        {/* Hero section */}
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
-            <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Budget Reformers</span>
+        {/* Article header */}
+        <section className="r-ah">
+          <div className="r-wrap">
+            <div className="r-ah-cr r-sm">
+              <span>Equipment Guide</span>
+              <span>·</span>
+              <span>Budget Reformers</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best Pilates Reformer<br /><span style={{ color: "#8b4a31" }}>Under $1,000 (2026)</span>
+            <h1 className="r-d">
+              Best Pilates Reformer<br /><span className="r-gold">Under $1,000 (2026)</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 9 min read</p>
-            <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <p className="r-ah-meta mb-6"><span>Prices checked October 20, 2026</span> · <span>9 min read</span></p>
+            <div className="max-w-3xl">
+              <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
+            </div>
+            <p className="r-lead r-intro max-w-5xl">
               Genuine spring reformers do exist under $1,000. Live Amazon listings include a real tier of budget, generic-brand reformers (WINDFOOT, DWKWE, and two PAETA models) with genuine coil-spring or spring-plus-cord resistance, all comfortably under $1,000. This guide covers all six genuine, currently-sold reformers in this bracket: four with real spring resistance from unfamiliar brands, and two established-brand cord machines from AeroPilates.
             </p>
           </div>
         </section>
 
         {/* Hero image */}
-        <section className="px-6 mb-8">
-          <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" alt="Budget Pilates reformer for home use" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+        <section className="mb-8">
+          <div className="r-wrap">
+            <div className="pcc-city-hero-image r-ah-img">
+              <Image src="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" alt="Budget Pilates reformer for home use" fill sizes="(max-width: 1320px) 100vw, 1320px" />
             </div>
           </div>
         </section>
 
-        {/* Main content */}
-        <section className="px-6 pb-20">
-          <div className="max-w-3xl mx-auto">
+        <PriceRail items={RAIL_ITEMS} />
 
-            <div className="mb-16 mt-4 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The honest picture under $1,000</h2>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+        {/* Main content */}
+        <section className="pb-20">
+          <div className="r-wrap">
+            <div className="r-col">
+
+            <div className="mb-12">
+              <h2 className="r-d">The honest picture under $1,000</h2>
+              <p className="r-b">
                 There are now two real categories under $1,000. Four machines (WINDFOOT, DWKWE, and two PAETA models) use genuine coil-spring or spring-plus-cord resistance in an actual carriage-and-rail frame, mechanically closer to a studio reformer. Two machines, both AeroPilates, use elastic cord resistance instead. Cords resist progressively more toward the end of the movement range, while springs maintain more consistent tension throughout: this matters for footwork, the abdominal series, and any exercise where resistance quality is part of the training stimulus.
               </p>
-              <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="r-b">
                 The tradeoff isn&apos;t just resistance type: it&apos;s also brand. WINDFOOT, DWKWE and PAETA are generic or dropship brands with no instructor track record and unverified long-term durability. AeroPilates is an established brand with a longer history and more predictable after-sale support, but its machines use cords, not springs. Know which tradeoff matters more to you before you buy.
               </p>
             </div>
@@ -253,33 +261,35 @@ export default function BestPilatesReformerUnder1000Page() {
             <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{PRODUCTS.length} Verified Reformers · Under $1,000</p>
-              <div className="space-y-12">
+              <p className="r-cnt">{PRODUCTS.length} Verified Reformers · Under $1,000</p>
+              <div>
                 {PRODUCTS.map((p) => (
-                  <div key={p.name}>
-                    <div className="flex items-center gap-3 mb-4">
-                      <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                      <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tag}</span>
-                      <span className="text-xs font-semibold uppercase tracking-widest" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>{p.verdict}</span>
-                    </div>
-                    <ProductCard
-                      name={p.name}
-                      description={p.description}
-                      price={p.price}
-                      affiliateUrl={p.affiliateUrl}
-                    />
-                    <div className="mt-4 grid grid-cols-2 gap-4">
-                      <div className="rounded-lg p-4" style={{ backgroundColor: "#f0f7f1", border: "1px solid rgba(83,98,87,0.2)" }}>
-                        <p className="text-xs font-semibold uppercase tracking-wider mb-2" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Pros</p>
-                        <ul className="space-y-1">
-                          {p.pros.map((pro) => <li key={pro} className="text-xs" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>+ {pro}</li>)}
-                        </ul>
+                  <div key={p.name} className="r-pd" data-pr-item>
+                    <div className="r-pd-no">{p.rank}</div>
+                    <div>
+                      <div className="r-pd-tg">
+                        <span className="r-pill r-pill-black">{p.tag}</span>
+                        <span className="r-pill">{p.verdict}</span>
                       </div>
-                      <div className="rounded-lg p-4" style={{ backgroundColor: "#fdf5f3", border: "1px solid rgba(139,74,49,0.15)" }}>
-                        <p className="text-xs font-semibold uppercase tracking-wider mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Cons</p>
-                        <ul className="space-y-1">
-                          {p.cons.map((con) => <li key={con} className="text-xs" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>− {con}</li>)}
-                        </ul>
+                      <ProductCard
+                        name={p.name}
+                        description={p.description}
+                        price={p.price}
+                        affiliateUrl={p.affiliateUrl}
+                      />
+                      <div className="r-pcn">
+                        <div>
+                          <p>Pros</p>
+                          <ul>
+                            {p.pros.map((pro) => <li key={pro}>+ {pro}</li>)}
+                          </ul>
+                        </div>
+                        <div>
+                          <p>Cons</p>
+                          <ul>
+                            {p.cons.map((con) => <li key={con}>− {con}</li>)}
+                          </ul>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -289,21 +299,23 @@ export default function BestPilatesReformerUnder1000Page() {
 
             {/* FAQ */}
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
-              <div className="space-y-6">
+              <h2 className="r-d">Frequently asked questions</h2>
+              <div className="r-faq">
                 {FAQS.map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
-                  </div>
+                  <details key={item.q} open>
+                    <summary><p>{item.q}</p></summary>
+                    <p className="r-faq-an">{item.a}</p>
+                  </details>
                 ))}
               </div>
             </div>
 
+            </div>
+
             {/* Further reading */}
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              <h2 className="r-d">Further reading</h2>
+              <div className="r-more">
                 <ArticleCard title="Best Home Pilates Reformer (2026)" excerpt="Every budget from $299 to $3,500+: the complete guide to home reformers." href="/blog/best-home-pilates-reformer" category="Equipment" readTime="11 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
                 <ArticleCard title="Best Mini Pilates Reformer (2026)" excerpt="Compact machines for small spaces: the fold-flat options that actually work." href="/blog/best-mini-pilates-reformer" category="Equipment" readTime="9 min read" date="May 2026" imageUrl="/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg" />
                 <ArticleCard title="Is Reformer Pilates Worth It?" excerpt="An honest look at what reformer classes deliver over mat work, and who should pay the premium." href="/blog/is-reformer-pilates-worth-it" category="Guide" readTime="10 min read" date="June 2026" imageUrl="/pictures/stitch-reformer-sunlit-minimal.png" />
