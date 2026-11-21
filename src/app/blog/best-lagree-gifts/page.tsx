@@ -76,11 +76,11 @@ const TIERS: Tier[] = [
         id: "dr-teals",
         badge: "Stocking Stuffer",
         shortName: "Bath soak",
-        name: "Dr Teal's Arnica Body Relief Epsom Salt Soak (3 lb)",
+        name: "Dr Teal's Relax & Relief Epsom Salt Soak (3 lb)",
         price: "$5.87",
-        url: amz("B0DTKLKYW8"),
+        url: amz("B0092MG5JW"),
         description:
-          "An Epsom salt (magnesium sulfate) soak with arnica, menthol and eucalyptus oil, marketed for post-workout muscle relief. The science on soaking magnesium through skin is thin, but a 20-minute warm bath after the Lagree shakes is its own reward. Sold by Amazon.com. Pair it with any gift below.",
+          "An Epsom salt (magnesium sulfate) soak scented with eucalyptus and spearmint essential oils, marketed for easing aches and relaxing. The science on soaking magnesium through skin is thin, but a 20-minute warm bath after the Lagree shakes is its own reward. Sold by Amazon.com. Pair it with any gift below.",
       },
       {
         id: "tavi-savvy",
@@ -403,7 +403,7 @@ const QUICK_PICKS = [
   { name: "Bala Bangles Wrist & Ankle Weights (1 lb, pair)", price: "$55.00", url: "https://www.amazon.com/dp/B0BQCJRL6Q?tag=pilatescollective-20", note: "1 lb wrist and ankle weights for home work" },
   { name: "Manduka Yogitoes Hot Yoga Mat Towel 71\"", price: "$72.00", url: "https://www.amazon.com/dp/B0D5ZR3R1M?tag=pilatescollective-20", note: "Non-slip mat towel for sweaty classes" },
   { name: "Owala FreeSip Insulated Water Bottle 32 oz", price: "$29.99", url: "https://www.amazon.com/dp/B085DVHQ57?tag=pilatescollective-20", note: "Insulated 32 oz bottle for class" },
-  { name: "Dr Teal's Arnica Body Relief Epsom Salt Soak (3 lb)", price: "$5.87", url: "https://www.amazon.com/dp/B0DTKLKYW8?tag=pilatescollective-20", note: "A post-class Epsom soak" },
+  { name: "Dr Teal's Relax & Relief Epsom Salt Soak (3 lb)", price: "$5.87", url: "https://www.amazon.com/dp/B0092MG5JW?tag=pilatescollective-20", note: "A post-class Epsom soak" },
 ];
 
 export default function BestLagreeGiftsPage() {

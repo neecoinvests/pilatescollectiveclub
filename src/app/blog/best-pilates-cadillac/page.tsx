@@ -11,7 +11,7 @@ import CTASection from "@/components/CTASection";
 import { jsonLdHtml } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Best Pilates Cadillac (2026): 8 Real Trapeze Tables Compared",
+  title: "Best Pilates Cadillac (2026): 7 Real Trapeze Tables Compared",
   description: "The best Pilates Cadillac and combo tables: Balanced Body's Trapeze Table plus budget reformer, Cadillac and tower combos, all live on Amazon.",
   keywords: ["best pilates cadillac", "pilates trapeze table review 2026", "pilates cadillac buy", "best pilates trapeze table", "balanced body cadillac review", "budget pilates cadillac", "reformer cadillac combo", "pilates cadillac vs reformer", "pilates cadillac table home"],
   openGraph: {
@@ -59,16 +59,6 @@ const PRODUCTS = [
   },
   {
     rank: "04",
-    name: "Yorkgargen Reformer w/ Cadillac Trapeze Table/Tower + Jump Board",
-    price: "$899.00",
-    verdict: "Real budget combo: same tier as Gndigufa, with a jump board instead",
-    description:
-      "Sold by YC Home-US on Amazon. This sits at the same price point and general spec tier as the Gndigufa unit above (a second live, genuine reformer/Cadillac-trapeze/tower combo option) but bundles a jump board rather than a sitting box. Worth comparing directly against the Gndigufa listing for current stock, included accessories, and reviews before choosing between the two, since the core machine is functionally similar. Same honest caveat as the rest of this budget tier: a home 2-in-1 combo unit, not a standalone professional Cadillac.",
-    affiliateUrl: "https://www.amazon.com/dp/B0GQGVFCYQ?tag=pilatescollective-20",
-    tag: "Budget Combo · Real Listing",
-  },
-  {
-    rank: "05",
     name: "PAETA Wooden Reformer w/ Cadillac Trapeze Table",
     price: "$1,299.99",
     verdict: "Real mid-budget combo: wood-frame reformer with Cadillac trapeze",
@@ -78,7 +68,7 @@ const PRODUCTS = [
     tag: "Mid-Budget Combo · Real Listing",
   },
   {
-    rank: "06",
+    rank: "05",
     name: "Merrithew Cadillac / Trapeze Table",
     price: "Price on request",
     verdict: "Not sold on Amazon: genuine STOTT PILATES apparatus, dealer-direct",
@@ -88,7 +78,7 @@ const PRODUCTS = [
     tag: "STOTT PILATES · Dealer-Direct",
   },
   {
-    rank: "07",
+    rank: "06",
     name: "Align-Pilates Cadillac Frame (Reformer Conversion)",
     price: "Price on request",
     verdict: "Not sold on Amazon: converts an existing Align reformer",
@@ -98,7 +88,7 @@ const PRODUCTS = [
     tag: "Reformer Conversion · Dealer-Direct",
   },
   {
-    rank: "08",
+    rank: "07",
     name: "Gratz Trapeze Table",
     price: "Price on request",
     verdict: "Not sold on Amazon: the classical standard, dealer-direct",
@@ -114,8 +104,8 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Article",
-      "headline": "Best Pilates Cadillac & Trapeze Table (2026): 8 Real Options Compared",
-      "description": "The Pilates Cadillac (Trapeze Table) explained: Balanced Body's professional standalone table plus real budget reformer/Cadillac/tower combo units from LeisureKing, Gndigufa, Yorkgargen and PAETA, with Merrithew, Align-Pilates and Gratz covered as dealer-direct options. What it does, who needs one, and what a full setup costs at every budget.",
+      "headline": "Best Pilates Cadillac & Trapeze Table (2026): 7 Real Options Compared",
+      "description": "The Pilates Cadillac (Trapeze Table) explained: Balanced Body's professional standalone table plus real budget reformer/Cadillac/tower combo units from LeisureKing, Gndigufa and PAETA, with Merrithew, Align-Pilates and Gratz covered as dealer-direct options. What it does, who needs one, and what a full setup costs at every budget.",
       "url": "https://pilatescollectiveclub.com/blog/best-pilates-cadillac",
       "datePublished": "2026-05-16",
       "dateModified": "2026-10-20",
@@ -152,15 +142,15 @@ const jsonLd = {
       "mainEntity": [
         { "@type": "Question", "name": "What is the difference between a Cadillac and a Trapeze Table?", "acceptedAnswer": { "@type": "Answer", "text": "They are the same apparatus. \"Cadillac\" is the nickname used in contemporary Pilates; \"Trapeze Table\" is the more descriptive name and common in classical lineages. Both refer to the same full-frame table apparatus." } },
         { "@type": "Question", "name": "Do I need a Cadillac or will a Reformer + Tower do?", "acceptedAnswer": { "@type": "Answer", "text": "For most home practitioners, a Reformer + Tower is the more proportionate choice: it covers approximately 60–70% of Cadillac exercises at 40–50% of the cost, and fits in a normal room. A full Cadillac is justified for working instructors, clinical settings, and practitioners whose teacher programs regular trapeze work." } },
-        { "@type": "Question", "name": "Are the budget reformer/Cadillac combo units the same as a real Cadillac?", "acceptedAnswer": { "@type": "Answer", "text": "Not quite. Balanced Body's Trapeze Table is a standalone, professional, certification-recognized Cadillac. LeisureKing, Gndigufa, Yorkgargen and PAETA sell genuine, currently-sold 2-in-1 units that combine a reformer with a Cadillac trapeze/tower attachment on one frame, aimed at home use. They're a real and useful way to get tower and trapeze work without buying two separate large machines, but they're a different product category from a standalone studio Cadillac, with smaller overhead structures and no certification pedigree." } },
+        { "@type": "Question", "name": "Are the budget reformer/Cadillac combo units the same as a real Cadillac?", "acceptedAnswer": { "@type": "Answer", "text": "Not quite. Balanced Body's Trapeze Table is a standalone, professional, certification-recognized Cadillac. LeisureKing, Gndigufa and PAETA sell genuine, currently-sold 2-in-1 units that combine a reformer with a Cadillac trapeze/tower attachment on one frame, aimed at home use. They're a real and useful way to get tower and trapeze work without buying two separate large machines, but they're a different product category from a standalone studio Cadillac, with smaller overhead structures and no certification pedigree." } },
         { "@type": "Question", "name": "What ceiling height do I need for a Pilates Cadillac?", "acceptedAnswer": { "@type": "Answer", "text": "Minimum 230–240cm of clear ceiling height above the table. The overhead frame itself is approximately 200cm tall; the trapeze exercises require additional clearance. Measure your space carefully before purchasing, and check the specific overhead height on any combo unit's listing too, since it will typically be shorter than a full standalone Cadillac." } },
-        { "@type": "Question", "name": "How much does a Pilates Cadillac cost in total?", "acceptedAnswer": { "@type": "Answer", "text": "The professional-tier price we verified is the Balanced Body Trapeze Table / Cadillac on Amazon, at $5,030, plus delivery and installation. Budget reformer/Cadillac/tower combo units run from about $899 to $1,995 on Amazon (Gndigufa, Yorkgargen, PAETA, LeisureKing). Merrithew, Align-Pilates and Gratz do not publish fixed prices for their Cadillac apparatus and quote on request through dealers, so we're not asserting a specific figure for those: expect a substantial investment, and get a current quote before budgeting." } },
+        { "@type": "Question", "name": "How much does a Pilates Cadillac cost in total?", "acceptedAnswer": { "@type": "Answer", "text": "The professional-tier price we verified is the Balanced Body Trapeze Table / Cadillac on Amazon, at $5,030, plus delivery and installation. Budget reformer/Cadillac/tower combo units run from about $899 to $1,995 on Amazon (Gndigufa, PAETA, LeisureKing). Merrithew, Align-Pilates and Gratz do not publish fixed prices for their Cadillac apparatus and quote on request through dealers, so we're not asserting a specific figure for those: expect a substantial investment, and get a current quote before budgeting." } },
       ],
     },
   ],
 };
 
-const QP_NOTES = ["The professional, certification-recognized standalone Cadillac", "Real budget combo, one frame, reformer and Cadillac/tower modes", "Real budget combo, reformer, tower, and a sitting box bundled in", "Real budget combo, same tier as Gndigufa, with a jump board instead", "Real mid-budget combo, wood-frame reformer with Cadillac trapeze", "Not sold on Amazon, genuine STOTT PILATES apparatus, dealer-direct", "Not sold on Amazon, converts an existing Align reformer", "Not sold on Amazon, the classical standard, dealer-direct"];
+const QP_NOTES = ["The professional, certification-recognized standalone Cadillac", "Real budget combo, one frame, reformer and Cadillac/tower modes", "Real budget combo, reformer, tower, and a sitting box bundled in", "Real mid-budget combo, wood-frame reformer with Cadillac trapeze", "Not sold on Amazon, genuine STOTT PILATES apparatus, dealer-direct", "Not sold on Amazon, converts an existing Align reformer", "Not sold on Amazon, the classical standard, dealer-direct"];
 
 export default function BestPilatesCadillaPage() {
   return (
@@ -183,7 +173,7 @@ export default function BestPilatesCadillaPage() {
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
             <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
-              The Pilates Cadillac, also called the Trapeze Table, is the most comprehensive single piece of apparatus in the classical Pilates system, and the one most people have never used. It combines the spring resistance of a reformer with hanging, suspension, and vertical spring work that no other apparatus can replicate. This guide explains what the Cadillac does, who genuinely needs one, and which real options exist at every budget: honestly: Balanced Body&apos;s Trapeze Table/Cadillac is the professional, certification-recognized standalone apparatus, verified as a real, live Amazon listing. Below it sit four genuine, currently-sold budget reformer/Cadillac/tower combo units from LeisureKing, Gndigufa, Yorkgargen and PAETA, 2-in-1 home machines, not standalone Cadillacs, but a real way to add trapeze and tower work without two separate large purchases. Merrithew, Align-Pilates and Gratz build genuine Cadillac apparatus too, but it&apos;s dealer-direct only, so we&apos;ve linked to the manufacturers rather than a fabricated Amazon offer.
+              The Pilates Cadillac, also called the Trapeze Table, is the most comprehensive single piece of apparatus in the classical Pilates system, and the one most people have never used. It combines the spring resistance of a reformer with hanging, suspension, and vertical spring work that no other apparatus can replicate. This guide explains what the Cadillac does, who genuinely needs one, and which real options exist at every budget: honestly: Balanced Body&apos;s Trapeze Table/Cadillac is the professional, certification-recognized standalone apparatus, verified as a real, live Amazon listing. Below it sit three genuine, currently-sold budget reformer/Cadillac/tower combo units from LeisureKing, Gndigufa and PAETA, 2-in-1 home machines, not standalone Cadillacs, but a real way to add trapeze and tower work without two separate large purchases. Merrithew, Align-Pilates and Gratz build genuine Cadillac apparatus too, but it&apos;s dealer-direct only, so we&apos;ve linked to the manufacturers rather than a fabricated Amazon offer.
             </p>
           </div>
         </section>
@@ -237,7 +227,7 @@ export default function BestPilatesCadillaPage() {
                   },
                   {
                     heading: "Budget reality",
-                    body: "The professional-tier price we verified is the Balanced Body Trapeze Table/Cadillac on Amazon, at $5,030. Real budget alternatives exist too: reformer/Cadillac/tower combo units from LeisureKing, Gndigufa, Yorkgargen and PAETA run roughly $899–$1,995 on Amazon, a different product category (2-in-1 home units, not standalone Cadillacs), but genuinely functional. Merrithew, Align-Pilates and Gratz quote on request rather than publishing a fixed price. Factor in delivery and installation either way: a Cadillac is not self-assembled.",
+                    body: "The professional-tier price we verified is the Balanced Body Trapeze Table/Cadillac on Amazon, at $5,030. Real budget alternatives exist too: reformer/Cadillac/tower combo units from LeisureKing, Gndigufa and PAETA run roughly $899–$1,995 on Amazon, a different product category (2-in-1 home units, not standalone Cadillacs), but genuinely functional. Merrithew, Align-Pilates and Gratz quote on request rather than publishing a fixed price. Factor in delivery and installation either way: a Cadillac is not self-assembled.",
                   },
                 ].map((item) => (
                   <div key={item.heading} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
@@ -335,11 +325,11 @@ export default function BestPilatesCadillaPage() {
                   },
                   {
                     q: "How much does a Pilates Cadillac cost in total?",
-                    a: "Professional tier: a Balanced Body Trapeze Table/Cadillac runs $5,030 on Amazon, plus delivery and installation; Merrithew, Align-Pilates and Gratz quote on request and typically land higher. Budget tier: reformer/Cadillac/tower combo units from LeisureKing, Gndigufa, Yorkgargen and PAETA run roughly $899–$1,995 on Amazon, a genuinely different, smaller product, not a substitute for the professional apparatus, but a real option if tower and trapeze work on a single home unit is the goal.",
+                    a: "Professional tier: a Balanced Body Trapeze Table/Cadillac runs $5,030 on Amazon, plus delivery and installation; Merrithew, Align-Pilates and Gratz quote on request and typically land higher. Budget tier: reformer/Cadillac/tower combo units from LeisureKing, Gndigufa and PAETA run roughly $899–$1,995 on Amazon, a genuinely different, smaller product, not a substitute for the professional apparatus, but a real option if tower and trapeze work on a single home unit is the goal.",
                   },
                   {
                     q: "What's the difference between a standalone Cadillac and a reformer/Cadillac combo unit?",
-                    a: "A standalone Cadillac, like Balanced Body's Trapeze Table, is a dedicated, professional, certification-recognized apparatus used on its own. A reformer/Cadillac combo unit (the LeisureKing, Gndigufa, Yorkgargen and PAETA products in this guide) is a single home-use frame that converts between a reformer and a smaller Cadillac/tower setup. They're genuinely useful for home practitioners who want tower work without owning two large machines, but they're a different product category, not an equivalent budget version of the standalone table.",
+                    a: "A standalone Cadillac, like Balanced Body's Trapeze Table, is a dedicated, professional, certification-recognized apparatus used on its own. A reformer/Cadillac combo unit (the LeisureKing, Gndigufa and PAETA products in this guide) is a single home-use frame that converts between a reformer and a smaller Cadillac/tower setup. They're genuinely useful for home practitioners who want tower work without owning two large machines, but they're a different product category, not an equivalent budget version of the standalone table.",
                   },
                 ].map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>

@@ -199,10 +199,10 @@ export default function PilatesForHipPainPage() {
               <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>A small selection of inexpensive tools makes at-home hip Pilates significantly more effective.</p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[
-                  { name: "Fabric resistance bands", use: "For clam and hip abduction progressions", url: "https://www.amazon.co.uk/s?k=fabric+resistance+bands+pilates+glute&tag=pilatescollective-20" },
-                  { name: "Foam roller", use: "TFL and hip flexor release pre-exercise", url: "https://www.amazon.co.uk/s?k=foam+roller+pilates+hip&tag=pilatescollective-20" },
-                  { name: "Pilates ball (25cm)", use: "Inner thigh and adductor activation", url: "https://www.amazon.co.uk/s?k=pilates+ball+small+25cm&tag=pilatescollective-20" },
-                  { name: "Non-slip mat (6mm+)", use: "Cushioning for side-lying and supine work", url: "https://www.amazon.co.uk/s?k=thick+pilates+mat+6mm+non+slip&tag=pilatescollective-20" },
+                  { name: "Fabric resistance bands", use: "For clam and hip abduction progressions", url: "https://www.amazon.com/s?k=fabric+resistance+bands+pilates+glute&tag=pilatescollective-20" },
+                  { name: "Foam roller", use: "TFL and hip flexor release pre-exercise", url: "https://www.amazon.com/s?k=foam+roller+pilates+hip&tag=pilatescollective-20" },
+                  { name: "Pilates ball (25cm)", use: "Inner thigh and adductor activation", url: "https://www.amazon.com/s?k=pilates+ball+small+25cm&tag=pilatescollective-20" },
+                  { name: "Non-slip mat (6mm+)", use: "Cushioning for side-lying and supine work", url: "https://www.amazon.com/s?k=thick+pilates+mat+6mm+non+slip&tag=pilatescollective-20" },
                 ].map((item) => (
                   <a key={item.name} href={item.url} target="_blank" rel="noopener noreferrer sponsored" className="block rounded-xl p-5 transition-opacity hover:opacity-80" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)" }}>
                     <p className="text-sm font-semibold mb-1" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.name}</p>

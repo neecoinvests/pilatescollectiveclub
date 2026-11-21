@@ -173,10 +173,10 @@ const GUIDE: DealsGuideProps = {
           "price": "$12.99"
         },
         {
-          "asin": "B0DTKLKYW8",
-          "name": "Dr Teal's Arnica Epsom Salt Soak",
+          "asin": "B0092MG5JW",
+          "name": "Dr Teal's Relax & Relief Epsom Salt Soak",
           "badge": "Best treat",
-          "note": "An arnica Epsom salt soak for after a hard class.",
+          "note": "A eucalyptus and spearmint Epsom salt soak for after a hard class.",
           "price": "$5.87"
         },
         {

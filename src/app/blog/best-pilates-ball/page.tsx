@@ -67,13 +67,13 @@ const PRODUCTS = [
   },
   {
     rank: "04",
-    name: "ProBody Pilates Yoga Ball (65cm, gym grade)",
+    name: "ProBody Pilates Yoga Ball (65cm)",
     type: "Stability Ball",
-    price: "$18.45",
+    price: "$19.95",
     tag: "Best Stability Ball",
     description:
-      "If you need the full-size stability ball rather than a mini ball, this 65cm gym-grade ball from ProBody Pilates is the pick. A stability ball is a different tool entirely: it is for roll-outs, pikes, supported back extension, hamstring stretches and seated balance work. Sizing matters, 65cm is a common middle size, so check it suits your height before ordering.",
-    affiliateUrl: "https://www.amazon.com/dp/B010TIO30U?tag=pilatescollective-20",
+      "If you need the full-size stability ball rather than a mini ball, this 65cm anti-burst ball from ProBody Pilates is the pick. It comes with a dual-action pump and an illustrated exercise guide. A stability ball is a different tool entirely: it is for roll-outs, pikes, supported back extension, hamstring stretches and seated balance work. Sizing matters: ProBody recommends the 65cm for adults about 5'6\" to 6'1\", the 55cm for smaller frames and the 75cm for taller people.",
+    affiliateUrl: "https://www.amazon.com/dp/B01DVHNRVM?tag=pilatescollective-20",
   },
   {
     rank: "05",
@@ -107,7 +107,7 @@ const FAQS = [
   { q: "What is the best Pilates ball?", a: "For most people, the Balanced Body Inflatable Workout Ball (12-inch, $30.00) is our top pick: it comes from an established studio-equipment brand and is sold on Amazon by the manufacturer. On a budget, the ProBody 9-inch mini ball ($9.95) does the same core jobs for much less." },
   { q: "What is the difference between a mini Pilates ball and a stability ball?", a: "A mini Pilates ball (roughly 8–12 inches) is a prop for tactile feedback and precision cueing: squeezed between the knees, placed behind the back or under the upper spine. A stability ball (roughly 55–75cm) is used for seated balance, roll-outs, pikes and supported stretches. Our mini ball picks are the Balanced Body, Bala and ProBody 9-inch balls; our stability ball pick is the ProBody 65cm." },
   { q: "How inflated should a Pilates mini ball be?", a: "As a general rule, firm enough to maintain shape but soft enough to compress under pressure. Check the specific product's instructions, since inflation guidance varies by model." },
-  { q: "Does the Byrex Pilates Prop Kit include a large stability ball?", a: "No. It bundles a Pilates ring, a 10-inch mini ball, resistance bands and sliding discs for $24.99. If you also want a full-size stability ball, the ProBody 65cm ball ($18.45) is our pick." },
+  { q: "Does the Byrex Pilates Prop Kit include a large stability ball?", a: "No. It bundles a Pilates ring, a 10-inch mini ball, resistance bands and sliding discs for $24.99. If you also want a full-size stability ball, the ProBody 65cm ball ($19.95) is our pick." },
   { q: "Is a BOSU ball a Pilates ball?", a: "Not in the classical sense. The BOSU Balance Ball Trainer is a half-dome balance trainer rather than a traditional Pilates prop, but it is widely used in Pilates-fusion and balance classes. Treat it as an upgrade once you already have a mini ball, not a replacement for one." },
 ];
 

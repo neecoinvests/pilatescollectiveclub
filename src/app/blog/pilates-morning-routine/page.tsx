@@ -67,10 +67,10 @@ const jsonLd = {
 };
 
 const EQUIPMENT = [
-  { name: "Non-slip Pilates mat (6mm)", use: "The only essential: choose grip over thickness for morning floor work", url: "https://www.amazon.co.uk/s?k=non+slip+pilates+mat+6mm+morning+practice&tag=pilatescollective-20" },
-  { name: "Full-length foam roller (90cm)", use: "Thoracic extension and spinal decompression first thing in the morning", url: "https://www.amazon.co.uk/s?k=foam+roller+full+90cm+pilates&tag=pilatescollective-20" },
-  { name: "Pilates ball (25cm)", use: "Inner thigh, pelvic floor, and core activation across all three routines", url: "https://www.amazon.co.uk/s?k=pilates+ball+25cm+small+morning&tag=pilatescollective-20" },
-  { name: "Fabric resistance band (light–medium)", use: "Progressive resistance for glute and hip work without a reformer", url: "https://www.amazon.co.uk/s?k=fabric+resistance+band+light+pilates+home&tag=pilatescollective-20" },
+  { name: "Non-slip Pilates mat (6mm)", use: "The only essential: choose grip over thickness for morning floor work", url: "https://www.amazon.com/s?k=non+slip+pilates+mat+6mm+morning+practice&tag=pilatescollective-20" },
+  { name: "Full-length foam roller (90cm)", use: "Thoracic extension and spinal decompression first thing in the morning", url: "https://www.amazon.com/s?k=foam+roller+full+90cm+pilates&tag=pilatescollective-20" },
+  { name: "Pilates ball (25cm)", use: "Inner thigh, pelvic floor, and core activation across all three routines", url: "https://www.amazon.com/s?k=pilates+ball+25cm+small+morning&tag=pilatescollective-20" },
+  { name: "Fabric resistance band (light–medium)", use: "Progressive resistance for glute and hip work without a reformer", url: "https://www.amazon.com/s?k=fabric+resistance+band+light+pilates+home&tag=pilatescollective-20" },
 ];
 
 const PRODUCTS = [

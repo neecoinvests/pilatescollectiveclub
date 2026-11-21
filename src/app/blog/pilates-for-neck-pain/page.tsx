@@ -188,10 +188,10 @@ export default function PilatesForNeckPainPage() {
               <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Three pieces of inexpensive equipment significantly expand your options for at-home neck and shoulder work.</p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[
-                  { name: "Foam roller (full-length, 90cm)", use: "Thoracic extension: the single most effective tool for desk workers with neck pain", url: "https://www.amazon.co.uk/s?k=foam+roller+full+length+pilates&tag=pilatescollective-20" },
-                  { name: "Yoga block / head rest", use: "Supporting the head during supine Pilates exercises to remove cervical strain", url: "https://www.amazon.co.uk/s?k=yoga+block+cork+head+support&tag=pilatescollective-20" },
-                  { name: "Resistance band (light)", use: "Scapular retraction rows and face pulls for lower trapezius strengthening", url: "https://www.amazon.co.uk/s?k=light+resistance+band+shoulder+pilates&tag=pilatescollective-20" },
-                  { name: "Spiky massage ball", use: "Suboccipital and upper trapezius release pre-exercise", url: "https://www.amazon.co.uk/s?k=spiky+massage+ball+neck+shoulder&tag=pilatescollective-20" },
+                  { name: "Foam roller (full-length, 90cm)", use: "Thoracic extension: the single most effective tool for desk workers with neck pain", url: "https://www.amazon.com/s?k=foam+roller+full+length+pilates&tag=pilatescollective-20" },
+                  { name: "Yoga block / head rest", use: "Supporting the head during supine Pilates exercises to remove cervical strain", url: "https://www.amazon.com/s?k=yoga+block+cork+head+support&tag=pilatescollective-20" },
+                  { name: "Resistance band (light)", use: "Scapular retraction rows and face pulls for lower trapezius strengthening", url: "https://www.amazon.com/s?k=light+resistance+band+shoulder+pilates&tag=pilatescollective-20" },
+                  { name: "Spiky massage ball", use: "Suboccipital and upper trapezius release pre-exercise", url: "https://www.amazon.com/s?k=spiky+massage+ball+neck+shoulder&tag=pilatescollective-20" },
                 ].map((item) => (
                   <a key={item.name} href={item.url} target="_blank" rel="noopener noreferrer sponsored" className="block rounded-xl p-5 transition-opacity hover:opacity-80" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)" }}>
                     <p className="text-sm font-semibold mb-1" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.name}</p>

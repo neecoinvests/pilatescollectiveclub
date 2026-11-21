@@ -64,12 +64,13 @@ const PRODUCTS = [
   },
   {
     rank: "04",
-    name: "Theralamp Infrared Heating Wand",
-    price: "$39.99",
+    name: "Infarex Handheld Infrared Heating Wand",
+    price: "$30.99",
     verdict: "Best budget pick",
     description:
-      "The Theralamp is the lowest-cost device on this list and the right entry point for anyone who wants to try red light and infrared heat therapy before committing to a pricier device. It ships with a replacement bulb included, which is a practical detail: it signals the manufacturer expects the unit to see regular use and saves you from hunting for a compatible replacement part later. As a heating wand rather than a pure LED panel, it combines light with warmth, which some practitioners find more immediately soothing on tight hip flexors or a sore lower back after a long reformer class, even without the wavelength precision of the pricier devices above.",
-    affiliateUrl: "https://www.amazon.com/dp/B07RJT52WT?tag=pilatescollective-20",
+      "The Infarex wand, from M Pain Management Technologies, is the lowest-cost device on this list and the right entry point for anyone who wants to try infrared heat therapy before committing to a pricier device. It is a handheld infrared heat lamp with a simple High/Low switch, an angled head that reaches shoulders, back and legs, and a 6 ft cord. It ships with a spare bulb, which saves you from hunting for a compatible part later. As a heating wand rather than an LED panel, it gives warmth rather than the measured red and near-infrared wavelengths of the pricier devices above, which some practitioners find more immediately soothing on tight hip flexors or a sore lower back after a long reformer class. Keep it moving and never rest it on your skin, as the maker instructs.",
+
+    affiliateUrl: "https://www.amazon.com/dp/B07GDTWKHN?tag=pilatescollective-20",
     tag: "Best Budget Pick",
   },
   {
@@ -194,7 +195,7 @@ export default function BestRedLightTherapyDeviceForPilatesPage() {
                 <p><strong>Wavelength selection.</strong> Red light (roughly 630–660nm) targets superficial tissue, while near-infrared (roughly 810–850nm) penetrates deeper into muscle. A device with selectable wavelengths, like the BONTANNY, offers more flexibility than a single fixed setting if you want to target different depths for different soreness.</p>
                 <p><strong>Portability and direct-contact use.</strong> The advantage of a handheld wand over a panel is applying it directly against the sore area at zero distance, which is convenient for the specific spots Pilates tends to fatigue: hip flexors, lower back, shoulders, and quads. Check the device&apos;s size and weight against how you&apos;ll actually use it: at a desk, on the couch, or propped against a body part during downtime.</p>
                 <p><strong>Session time and ease of use.</strong> A handheld device requires holding it in place for the treatment duration, so a comfortable grip and a simple on/off or timer function matter more day to day than extra features. The budget picks on this list keep controls minimal by design.</p>
-                <p><strong>Added features.</strong> Some devices add heat (the Theralamp) or a blue-light setting (LumaDoc) on top of red/near-infrared light. These aren&apos;t essential for muscle recovery but can be useful if you want a device that does double duty.</p>
+                <p><strong>Added features.</strong> Some devices add heat (the Infarex wand) or a blue-light setting (LumaDoc) on top of red/near-infrared light. These aren&apos;t essential for muscle recovery but can be useful if you want a device that does double duty.</p>
               </div>
             </div>
 

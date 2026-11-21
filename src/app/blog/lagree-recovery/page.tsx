@@ -88,11 +88,11 @@ const BASICS: Pick[] = [
     id: "dr-teals",
     badge: "Best Bath Soak",
     shortName: "Epsom salt",
-    name: "Dr Teal's Arnica Body Relief Epsom Salt Soak (3 lb)",
+    name: "Dr Teal's Relax & Relief Epsom Salt Soak (3 lb)",
     price: "$5.87",
-    url: amz("B0DTKLKYW8"),
+    url: amz("B0092MG5JW"),
     description:
-      "Magnesium sulfate with arnica, menthol and eucalyptus oil. To be honest about it, evidence that magnesium absorbs through skin in any useful amount is weak. The 20-minute warm bath is the part that feels good, and the scent makes it a ritual. At under $6, that is fine. Sold by Amazon.com.",
+      "Magnesium sulfate scented with eucalyptus and spearmint essential oils. To be honest about it, evidence that magnesium absorbs through skin in any useful amount is weak. The 20-minute warm bath is the part that feels good, and the scent makes it a ritual. At under $6, that is fine. Sold by Amazon.com.",
   },
   {
     id: "fitrell-socks",
@@ -287,7 +287,7 @@ const QUICK_PICKS = [
   { name: "TriggerPoint GRID Foam Roller (13\")", price: "$28.96", url: "https://www.amazon.com/dp/B00BIBMB70?tag=pilatescollective-20", note: "Textured foam roller for legs and back" },
   { name: "Hyperice Normatec 3 Legs (Standard)", price: "$899.00", url: "https://www.amazon.com/dp/B0B72QBWHC?tag=pilatescollective-20", note: "Compression boots for serious recovery" },
   { name: "Kieba Massage Lacrosse Balls (Set of 2)", price: "$7.99", url: "https://www.amazon.com/dp/B017V7UKW2?tag=pilatescollective-20", note: "Lacrosse balls for glutes and feet" },
-  { name: "Dr Teal's Arnica Body Relief Epsom Salt Soak (3 lb)", price: "$5.87", url: "https://www.amazon.com/dp/B0DTKLKYW8?tag=pilatescollective-20", note: "Epsom salt soak after class" },
+  { name: "Dr Teal's Relax & Relief Epsom Salt Soak (3 lb)", price: "$5.87", url: "https://www.amazon.com/dp/B0092MG5JW?tag=pilatescollective-20", note: "Epsom salt soak after class" },
 ];
 
 export default function LagreeRecoveryPage() {

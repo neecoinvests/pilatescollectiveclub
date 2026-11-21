@@ -67,10 +67,10 @@ const jsonLd = {
 };
 
 const DESK_PRODUCTS = [
-  { name: "Full-length foam roller (90cm)", desc: "Thoracic extension: the highest-value tool for desk workers", url: "https://www.amazon.co.uk/s?k=foam+roller+full+90cm+pilates&tag=pilatescollective-20" },
-  { name: "Resistance bands set", desc: "Scapular rows and hip strengthening at home", url: "https://www.amazon.co.uk/s?k=resistance+bands+set+fabric+pilates&tag=pilatescollective-20" },
-  { name: "Non-slip Pilates mat", desc: "For the daily 10-minute desk worker routine", url: "https://www.amazon.co.uk/s?k=non+slip+pilates+mat+thick&tag=pilatescollective-20" },
-  { name: "Cork yoga block", desc: "Head support during supine exercises and seated forward bends", url: "https://www.amazon.co.uk/s?k=cork+yoga+block+pilates+head+support&tag=pilatescollective-20" },
+  { name: "Full-length foam roller (90cm)", desc: "Thoracic extension: the highest-value tool for desk workers", url: "https://www.amazon.com/s?k=foam+roller+full+90cm+pilates&tag=pilatescollective-20" },
+  { name: "Resistance bands set", desc: "Scapular rows and hip strengthening at home", url: "https://www.amazon.com/s?k=resistance+bands+set+fabric+pilates&tag=pilatescollective-20" },
+  { name: "Non-slip Pilates mat", desc: "For the daily 10-minute desk worker routine", url: "https://www.amazon.com/s?k=non+slip+pilates+mat+thick&tag=pilatescollective-20" },
+  { name: "Cork yoga block", desc: "Head support during supine exercises and seated forward bends", url: "https://www.amazon.com/s?k=cork+yoga+block+pilates+head+support&tag=pilatescollective-20" },
 ];
 
 const PRODUCTS = [
