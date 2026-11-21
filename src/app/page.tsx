@@ -10,6 +10,9 @@ import ProductCard from "@/components/ProductCard";
 import FeaturedRotator from "@/components/FeaturedRotator";
 import type { FeaturedItem } from "@/components/FeaturedRotator";
 import { jsonLdHtml } from "@/lib/schema";
+import Reveal from "@/components/rail/Reveal";
+import Marquee from "@/components/rail/Marquee";
+import WordFill from "@/components/rail/WordFill";
 
 export const metadata: Metadata = {
   title: "Pilates Collective Club: Find the Best Pilates Studios Worldwide",
@@ -537,14 +540,8 @@ const homeJsonLd = {
   ],
 };
 
-const label = {
-  fontFamily: "var(--font-sans)",
-  fontSize: "10px",
-  fontWeight: 500,
-  letterSpacing: "0.25em",
-  textTransform: "uppercase" as const,
-  color: "#9a9490",
-};
+// Decorative marquee rows above the city cards: the same city names, three rows.
+const MARQUEE_ROWS = [0, 1, 2].map((r) => CITIES.filter((_, i) => i % 3 === r).map((c) => c.city));
 
 export default function Home() {
   return (
@@ -554,136 +551,39 @@ export default function Home() {
       <main>
 
         {/* Hero */}
-        <section className="pcc-hero" style={{
-          position: "relative",
-          height: "100svh",
-          minHeight: "520px",
-          maxHeight: "1000px",
-          overflow: "hidden",
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "flex-end",
-        }}>
-          {/* Full-bleed background image */}
-          <Image
-            src="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg"
-            alt="Pilates studio"
-            fill
-            style={{ objectFit: "cover", objectPosition: "center 20%" }}
-            priority
-          />
-          {/* Cinematic gradient overlay: dark at bottom for legibility */}
-          <div style={{
-            position: "absolute",
-            inset: 0,
-            background: "linear-gradient(to top, rgba(8,8,8,0.90) 0%, rgba(8,8,8,0.45) 45%, rgba(8,8,8,0.10) 100%)",
-          }} />
-          {/* Top bar: logo label */}
-          <div style={{
-            position: "absolute",
-            top: 0,
-            left: 0,
-            right: 0,
-            padding: "32px 52px",
-            display: "flex",
-            justifyContent: "space-between",
-            alignItems: "center",
-            zIndex: 2,
-          }}>
-            <p style={{
-              fontFamily: "var(--font-sans)",
-              fontSize: "10px",
-              fontWeight: 500,
-              letterSpacing: "0.22em",
-              textTransform: "uppercase" as const,
-              color: "rgba(255,255,255,0.55)",
-              margin: 0,
-            }}>
-              Pilates Collective Club
-            </p>
-            <p style={{
-              fontFamily: "var(--font-sans)",
-              fontSize: "10px",
-              fontWeight: 400,
-              letterSpacing: "0.15em",
-              textTransform: "uppercase" as const,
-              color: "rgba(255,255,255,0.35)",
-              margin: 0,
-            }}>
-              Est. 2026
-            </p>
+        <section className="r-hero">
+          {/* Full-bleed background image, fading into the page on the left */}
+          <div className="r-hero-bg">
+            <Image
+              src="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg"
+              alt="Pilates studio"
+              fill
+              sizes="100vw"
+              preload
+            />
           </div>
 
-          {/* Main content: pinned to bottom */}
-          <div className="pcc-hero-content" style={{
-            position: "relative",
-            zIndex: 2,
-            padding: "0 52px 64px",
-            maxWidth: "1300px",
-            width: "100%",
-          }}>
-            {/* Thin gold rule */}
-            <div style={{ width: "48px", height: "1px", backgroundColor: "#c5a882", marginBottom: "28px" }} />
+          <div className="r-wrap r-hero-in">
+            <div className="r-hero-eyebrow">
+              <p className="r-sm">Pilates Collective Club</p>
+              <p className="r-sm">Est. 2026</p>
+            </div>
 
-            <h1 style={{
-              fontFamily: "var(--font-serif)",
-              fontSize: "clamp(48px, 7.5vw, 112px)",
-              fontWeight: 300,
-              lineHeight: 0.98,
-              color: "#ffffff",
-              letterSpacing: "-0.02em",
-              marginBottom: "36px",
-              maxWidth: "780px",
-            }}>
-              From the<br />
-              powerhouse,<br />
-              <em style={{ color: "#c5a882" }}>everything follows.</em>
+            <h1 className="r-d">
+              <span><b>From the</b></span>
+              <span><b>powerhouse,</b></span>
+              <span><b><em className="r-gold">everything follows.</em></b></span>
             </h1>
 
-            <div style={{ display: "flex", alignItems: "center", gap: "32px", flexWrap: "wrap" }}>
-              <p style={{
-                fontFamily: "var(--font-sans)",
-                fontSize: "13px",
-                fontWeight: 300,
-                color: "rgba(255,255,255,0.55)",
-                lineHeight: 1.7,
-                maxWidth: "380px",
-                margin: 0,
-                letterSpacing: "0.01em",
-              }}>
+            <div className="r-hero-row">
+              <p>
                 Curated studio guides, editorial reviews, and the best in Pilates equipment, built for the global Pilates community.
               </p>
-              <div style={{ display: "flex", gap: "12px", flexWrap: "wrap" }}>
-                <Link href="/blog" style={{
-                  fontFamily: "var(--font-sans)",
-                  fontSize: "10px",
-                  fontWeight: 500,
-                  letterSpacing: "0.18em",
-                  textTransform: "uppercase" as const,
-                  color: "#0a0a0a",
-                  textDecoration: "none",
-                  backgroundColor: "#ffffff",
-                  padding: "13px 26px",
-                  display: "inline-block",
-                  boxSizing: "border-box" as const,
-                  whiteSpace: "nowrap",
-                }}>
+              <div className="r-hero-ctas">
+                <Link href="/blog" className="r-btn">
                   Read the Journal
                 </Link>
-                <Link href="/#cities" style={{
-                  fontFamily: "var(--font-sans)",
-                  fontSize: "10px",
-                  fontWeight: 500,
-                  letterSpacing: "0.18em",
-                  textTransform: "uppercase" as const,
-                  color: "#ffffff",
-                  textDecoration: "none",
-                  border: "1px solid rgba(255,255,255,0.4)",
-                  padding: "13px 26px",
-                  display: "inline-block",
-                  boxSizing: "border-box" as const,
-                  whiteSpace: "nowrap",
-                }}>
+                <Link href="/#cities" className="r-btn r-btn-o">
                   Browse Studios
                 </Link>
               </div>
@@ -691,62 +591,32 @@ export default function Home() {
           </div>
 
           {/* Scroll cue */}
-          <div style={{
-            position: "absolute",
-            bottom: "36px",
-            right: "52px",
-            zIndex: 2,
-            display: "flex",
-            flexDirection: "column" as const,
-            alignItems: "center",
-            gap: "8px",
-          }}>
-            <p style={{
-              fontFamily: "var(--font-sans)",
-              fontSize: "9px",
-              fontWeight: 400,
-              letterSpacing: "0.2em",
-              textTransform: "uppercase" as const,
-              color: "rgba(255,255,255,0.3)",
-              margin: 0,
-              writingMode: "vertical-rl" as const,
-            }}>Scroll</p>
-            <div style={{ width: "1px", height: "40px", backgroundColor: "rgba(255,255,255,0.2)" }} />
-          </div>
+          <p className="r-sm r-hero-cue">Scroll</p>
         </section>
-
-        <div className="pcc-divider" style={{ height: "1px", backgroundColor: "#ede9e3", margin: "0 40px" }} />
 
         {/* Featured Story */}
-        <section className="pcc-hp-section" style={{ padding: "100px 40px", backgroundColor: "#ffffff" }}>
-          <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
-            <p style={{ ...label, marginBottom: "40px" }}>Featured</p>
-            <FeaturedRotator items={FEATURED_ITEMS} />
-          </div>
-        </section>
-
-        <div className="pcc-divider" style={{ height: "1px", backgroundColor: "#ede9e3", margin: "0 40px" }} />
+        <FeaturedRotator items={FEATURED_ITEMS} lead={<p>Featured</p>} />
 
         {/* Equipment */}
-        <section id="equipment" className="pcc-hp-section" style={{ padding: "100px 40px", backgroundColor: "#f7f4f0" }}>
-          <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
-            <div className="pcc-section-header" style={{ display: "flex", alignItems: "flex-end", justifyContent: "space-between", marginBottom: "64px" }}>
+        <section id="equipment" className="r-s r-s-flush">
+          <div className="r-wrap">
+            <Reveal className="r-hd">
               <div>
-                <p style={{ ...label, marginBottom: "12px" }}>Equipment</p>
-                <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "clamp(32px, 4vw, 48px)", fontWeight: 400, color: "#0a0a0a", margin: 0 }}>
+                <p className="r-sm">Equipment</p>
+                <h2 className="r-d">
                   Editor&apos;s essentials
                 </h2>
               </div>
-              <p style={{ fontFamily: "var(--font-sans)", fontSize: "13px", fontWeight: 300, color: "#9a9490", margin: 0 }}>
+              <p className="r-sm">
                 Carefully selected. Available on Amazon.
               </p>
-            </div>
-            <AffiliateNote className="mb-12 -mt-12" />
+            </Reveal>
+            <AffiliateNote className="mb-8" />
 
-            {PRODUCT_CATEGORIES.map((cat, ci) => (
-              <div key={cat.label} style={{ marginBottom: ci < PRODUCT_CATEGORIES.length - 1 ? "72px" : 0 }}>
-                <p style={{ ...label, marginBottom: "28px", color: "#0a0a0a" }}>{cat.label}</p>
-                <div className="pcc-grid-products" style={{ display: "grid", gap: "24px" }}>
+            {PRODUCT_CATEGORIES.map((cat) => (
+              <div key={cat.label} className="r-eg-group">
+                <p className="r-eg-label">{cat.label}</p>
+                <div className="r-eg">
                   {cat.items.map((p) => (
                     <ProductCard key={p.name} {...p} />
                   ))}
@@ -756,28 +626,26 @@ export default function Home() {
           </div>
         </section>
 
-        <div className="pcc-divider" style={{ height: "1px", backgroundColor: "#ede9e3", margin: "0 40px" }} />
-
         {/* City Guides */}
-        <section id="cities" className="pcc-hp-section" style={{ padding: "100px 40px", backgroundColor: "#ffffff" }}>
-          <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
-            <div className="pcc-section-header" style={{ display: "flex", alignItems: "flex-end", justifyContent: "space-between", marginBottom: "52px" }}>
+        <section id="cities" className="r-s r-s-flush">
+          <div className="r-wrap">
+            <Reveal className="r-hd">
               <div>
-                <p style={{ ...label, marginBottom: "12px" }}>City Guides</p>
-                <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "clamp(32px, 4vw, 48px)", fontWeight: 400, color: "#0a0a0a", margin: 0 }}>
+                <p className="r-sm">City Guides</p>
+                <h2 className="r-d">
                   Studio guides by city
                 </h2>
               </div>
-              <Link href="/cities" style={{
-                fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 500,
-                letterSpacing: "0.15em", textTransform: "uppercase", color: "#9a9490",
-                textDecoration: "none", borderBottom: "1px solid #9a9490", paddingBottom: "2px",
-              }}>
+              <Link href="/cities" className="r-btn">
                 All cities
               </Link>
-            </div>
+            </Reveal>
+          </div>
 
-            <div className="pcc-grid-cities" style={{ display: "grid", gap: "2px" }}>
+          <Marquee rows={MARQUEE_ROWS} />
+
+          <div className="r-wrap">
+            <div className="r-cities">
               {CITIES.map((c) => (
                 <CityCard key={c.city} {...c} />
               ))}
@@ -785,28 +653,22 @@ export default function Home() {
           </div>
         </section>
 
-        <div className="pcc-divider" style={{ height: "1px", backgroundColor: "#ede9e3", margin: "0 40px" }} />
-
         {/* Journal */}
-        <section className="pcc-hp-section" style={{ padding: "100px 40px", backgroundColor: "#ffffff" }}>
-          <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
-            <div className="pcc-section-header" style={{ display: "flex", alignItems: "flex-end", justifyContent: "space-between", marginBottom: "8px" }}>
+        <section className="r-s r-s-flush">
+          <div className="r-wrap">
+            <Reveal className="r-hd">
               <div>
-                <p style={{ ...label, marginBottom: "12px" }}>Editorial</p>
-                <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "clamp(32px, 4vw, 48px)", fontWeight: 400, color: "#0a0a0a", margin: 0 }}>
+                <p className="r-sm">Editorial</p>
+                <h2 className="r-d">
                   Journal
                 </h2>
               </div>
-              <Link href="/blog" style={{
-                fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 500,
-                letterSpacing: "0.15em", textTransform: "uppercase", color: "#9a9490",
-                textDecoration: "none", borderBottom: "1px solid #9a9490", paddingBottom: "2px",
-              }}>
+              <Link href="/blog" className="r-btn">
                 All articles
               </Link>
-            </div>
+            </Reveal>
 
-            <div className="pcc-grid-journal" style={{ display: "grid", gap: "0 60px" }}>
+            <div className="r-more">
               {GUIDES.map((g) => (
                 <ArticleCard key={g.href} {...g} />
               ))}
@@ -815,16 +677,17 @@ export default function Home() {
         </section>
 
         {/* About */}
-        <section id="about" className="pcc-hp-section" style={{ padding: "120px 40px", backgroundColor: "#ffffff" }}>
-          <div style={{ maxWidth: "640px", margin: "0 auto", textAlign: "center" }}>
-            <p style={{ ...label, marginBottom: "20px" }}>About</p>
-            <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "clamp(28px, 3.5vw, 42px)", fontWeight: 400, color: "#0a0a0a", marginBottom: "32px", lineHeight: 1.2 }}>
+        <section id="about" className="r-s r-ab">
+          <div className="r-wrap">
+            <p className="r-sm">About</p>
+            <h2 className="r-d">
               The independent guide<br />for serious practitioners.
             </h2>
-            <p style={{ fontFamily: "var(--font-sans)", fontSize: "15px", fontWeight: 300, color: "#6b6560", lineHeight: 1.85, marginBottom: "20px" }}>
-              Pilates Collective Club is an editorially independent platform built for the global Pilates community. We research studios, review equipment, and document the method, so you spend less time searching and more time on the carriage.
-            </p>
-            <p style={{ fontFamily: "var(--font-sans)", fontSize: "14px", fontWeight: 300, color: "#9a9490", lineHeight: 1.85 }}>
+            <WordFill
+              className="r-fill"
+              text="Pilates Collective Club is an editorially independent platform built for the global Pilates community. We research studios, review equipment, and document the method, so you spend less time searching and more time on the carriage."
+            />
+            <p className="r-ab-note">
               Every studio guide is independently researched. Every equipment pick is selected on merit. We are never paid to feature a studio, and we are transparent about the affiliate links that keep this resource free.
             </p>
           </div>
