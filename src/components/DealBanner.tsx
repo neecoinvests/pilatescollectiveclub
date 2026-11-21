@@ -46,23 +46,14 @@ export default function DealBanner() {
   if (!open) return null;
 
   return (
-    <div className="pcc-deal-banner" style={{ backgroundColor: "#8b4a31", color: "#ffffff" }}>
-      <div className="max-w-7xl mx-auto px-4 flex items-center justify-center gap-3" style={{ minHeight: "34px" }}>
-        <Link
-          href={HREF}
-          className="text-center"
-          style={{ color: "#ffffff", textDecoration: "none", fontFamily: "var(--font-sans)", fontSize: "12px", letterSpacing: "0.04em", lineHeight: 1.35, padding: "7px 0" }}
-        >
-          <span style={{ fontWeight: 600 }}>Black Friday deals are live<span className="pcc-deal-banner-extra"> on Amazon</span></span>
+    <div className="pcc-deal-banner r-deal">
+      <div className="r-wrap r-deal-in">
+        <Link href={HREF}>
+          <b>Black Friday deals are live<span className="pcc-deal-banner-extra"> on Amazon</span></b>
           <span className="pcc-deal-banner-extra"> through November 30</span>
-          <span style={{ textDecoration: "underline", textUnderlineOffset: "3px", marginLeft: "8px", whiteSpace: "nowrap" }}>See the deals →</span>
+          <u>See the deals →</u>
         </Link>
-        <button
-          type="button"
-          onClick={close}
-          aria-label="Close the Black Friday banner"
-          style={{ background: "none", border: "none", color: "#ffffff", cursor: "pointer", fontSize: "18px", lineHeight: 1, padding: "4px 6px", opacity: 0.85, flexShrink: 0 }}
-        >
+        <button type="button" onClick={close} aria-label="Close the Black Friday banner">
           ×
         </button>
       </div>

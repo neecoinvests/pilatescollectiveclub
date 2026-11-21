@@ -190,14 +190,13 @@ export default function SiteSearch({ variant = "desktop" }: { variant?: "desktop
         type="button"
         onClick={openSearch}
         aria-label="Search articles"
-        className="pcc-search-trigger"
-        style={{ display: "inline-flex", alignItems: "center", gap: "8px", background: "none", border: "1px solid #ddd8d0", padding: "8px 12px", cursor: "pointer", color: "#6b6560", fontFamily: "var(--font-sans)", fontSize: "11px", letterSpacing: "0.12em", textTransform: "uppercase" }}
+        className="r-search-btn"
       >
         <SearchIcon />
         Search
       </button>
     ) : (
-      <button type="button" onClick={openSearch} aria-label="Search articles" style={{ background: "none", border: "none", padding: "6px", cursor: "pointer", color: "#0a0a0a", display: "inline-flex" }}>
+      <button type="button" onClick={openSearch} aria-label="Search articles" className="r-icon-btn">
         <SearchIcon size={18} />
       </button>
     );
@@ -213,7 +212,7 @@ export default function SiteSearch({ variant = "desktop" }: { variant?: "desktop
         >
           <div style={{ width: "100%", maxWidth: "640px", backgroundColor: "#ffffff", boxShadow: "0 24px 60px rgba(0,0,0,0.25)", display: "flex", flexDirection: "column", maxHeight: "calc(100dvh - min(12vh, 96px) - 16px)" }}>
             <div style={{ display: "flex", alignItems: "center", gap: "12px", padding: "16px 20px", borderBottom: "1px solid #ede9e3" }}>
-              <span style={{ color: "#8b4a31", display: "inline-flex" }}><SearchIcon size={18} /></span>
+              <span style={{ color: "#0a0a0a", display: "inline-flex" }}><SearchIcon size={18} /></span>
               <input
                 ref={inputRef}
                 value={q}
@@ -232,7 +231,7 @@ export default function SiteSearch({ variant = "desktop" }: { variant?: "desktop
             </div>
             <div style={{ overflowY: "auto", overscrollBehavior: "contain" }}>
               {!q.trim() && (
-                <p style={{ margin: 0, padding: "16px 20px 4px", fontFamily: "var(--font-sans)", fontSize: "9px", fontWeight: 700, letterSpacing: "0.2em", textTransform: "uppercase", color: "#8b4a31" }}>Popular</p>
+                <p style={{ margin: 0, padding: "16px 20px 4px", fontFamily: "var(--font-sans)", fontSize: "9px", fontWeight: 700, letterSpacing: "0.2em", textTransform: "uppercase", color: "#0a0a0a" }}>Popular</p>
               )}
               {q.trim() && docs && list.length === 0 && (
                 <p style={{ margin: 0, padding: "24px 20px", fontFamily: "var(--font-sans)", fontSize: "13px", color: "#6b6560" }}>
@@ -249,7 +248,7 @@ export default function SiteSearch({ variant = "desktop" }: { variant?: "desktop
                       href={item.url}
                       onClick={(e) => { e.preventDefault(); go(item.url); }}
                       onMouseEnter={() => setActive(i)}
-                      style={{ display: "block", padding: "12px 20px", textDecoration: "none", backgroundColor: i === active ? "#f6f3f2" : "transparent", borderLeft: `2px solid ${i === active ? "#8b4a31" : "transparent"}` }}
+                      style={{ display: "block", padding: "12px 20px", textDecoration: "none", backgroundColor: i === active ? "#ede9e3" : "transparent", borderLeft: `2px solid ${i === active ? "#0a0a0a" : "transparent"}` }}
                     >
                       {item.type && (
                         <span style={{ display: "block", fontFamily: "var(--font-sans)", fontSize: "9px", fontWeight: 600, letterSpacing: "0.18em", textTransform: "uppercase", color: "#a8988f", marginBottom: "3px" }}>{item.type}</span>
