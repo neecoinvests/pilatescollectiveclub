@@ -1,8 +1,23 @@
 import type { Metadata } from "next";
 import Script from "next/script";
+import { Bricolage_Grotesque } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import { jsonLdHtml } from "@/lib/schema";
+import RailProgress from "@/components/rail/RailProgress";
+
+// One variable family for the whole site: weight and width axes.
+const rail = Bricolage_Grotesque({
+  subsets: ["latin"],
+  axes: ["wdth"],
+  display: "swap",
+  variable: "--font-rail",
+});
+
+// Runs before first paint. Marks the page as script-enabled so the "starts
+// hidden" animation states apply; without it everything renders visible.
+// If the page never hydrates, reveal everything after a few seconds.
+const JS_FLAG = `document.documentElement.classList.add("js");setTimeout(function(){var d=document.documentElement;if(!d.dataset.railReady)d.classList.add("rv-all")},4000);`;
 
 const BASE_URL = "https://pilatescollectiveclub.com";
 
@@ -96,8 +111,10 @@ const orgSchema = {
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" className="h-full">
+    <html lang="en" className={`h-full ${rail.variable}`} suppressHydrationWarning>
       <body className="min-h-full flex flex-col antialiased">
+        <script dangerouslySetInnerHTML={{ __html: JS_FLAG }} />
+        <RailProgress />
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-5H5C236ZVF" strategy="afterInteractive" />
         <Script id="google-analytics" strategy="afterInteractive">{`
           window.dataLayer = window.dataLayer || [];
