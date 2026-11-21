@@ -232,7 +232,7 @@ const posts: { title: string; excerpt: string; href: string; category: string; r
   },
   {
     title: "Pilates Clothing Black Friday Deals 2026",
-    excerpt: "Ten leggings, bras, grip socks and layers from CRZ YOGA, Sweaty Betty, toesox, TAVI and Tucketts, all on a deal.",
+    excerpt: "Nine leggings, bras, grip socks and layers from CRZ YOGA, toesox, TAVI and Tucketts, all on a deal.",
     href: "/blog/black-friday-pilates-clothing-deals",
     category: "Guide",
     readTime: "7 min",

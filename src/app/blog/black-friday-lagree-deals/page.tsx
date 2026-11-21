@@ -48,28 +48,28 @@ const GUIDE: DealsGuideProps = {
           "asin": "B0BBT7YV93",
           "name": "The Micro by Lagree Fitness",
           "badge": "The machine",
-          "note": "72\" x 20\" x 6\", 60 lb, four springs, fits users up to 6'8\". Stores under a bed or against a wall.",
+          "note": "Lagree Fitness's own compact home machine, sold by Lagree Fitness on Amazon. It measures 72\" x 20\" x 6\", weighs 60 lb and comes with four springs (heavy, medium, light and extra light). It fits users up to 6'8\" and stores under a bed, against a wall or on a bike rack.",
           "price": "$990.00"
         },
         {
           "asin": "B0BKN2LSWD",
           "name": "Lagree Fitness Micro Rear Platform",
           "badge": "Add-on #1",
-          "note": "Unlocks the express lunge, 5th lunge, super crunch and giant wheelbarrow. With it, the Micro is 81.5\" long.",
+          "note": "The add-on most Micro owners buy first. The rear platform (10.5\" x 8.5\" x 6\") gives you a sturdy place to plant feet, hands and knees, and unlocks moves like the express lunge, 5th lunge, super crunch and giant wheelbarrow. With it fitted, the Micro is 81.5\" long. Sold by Lagree Fitness.",
           "price": "$290.00"
         },
         {
           "asin": "B0BKMP89SH",
           "name": "Lagree Fitness Micro Handlebars (Pair)",
           "badge": "Add-on #2",
-          "note": "For Catfish, Twister, Spoon and Runner's Lunge. Front or back: the back needs the rear platform.",
+          "note": "A pair of handlebars that pin onto the front or back of the Micro in seconds, with no tools. They add the stability you need for Catfish, Twister, Spoon and Runner's Lunge. Using them at the back requires the rear platform, and you need two pairs for handles at both ends. Sold by Lagree Fitness.",
           "price": "$190.00"
         },
         {
           "asin": "B0BYMD4S91",
           "name": "Lagree Fitness Micro Pulley Cables",
           "badge": "Add-on #3",
-          "note": "The Micro's cable attachment. Stock is limited.",
+          "note": "The Micro's pulley cable attachment, sold by Lagree Fitness, for adding cable-based moves to your home sessions. Stock is often limited; if it shows unavailable, buy direct from lagreefitness.com.",
           "price": "$230.00",
           "lowStock": true
         }
@@ -84,7 +84,7 @@ const GUIDE: DealsGuideProps = {
           "asin": "B0041GQH3S",
           "name": "Marcy Equipment Mat & Floor Protector (78\" x 36\")",
           "badge": "Floor mat: Micro only",
-          "note": "Covers the Micro's 72\" length. Not long enough with the rear platform.",
+          "note": "A 78\" x 36\" mat of 1/4\" EVA foam that goes under the Micro to protect your floor, cut vibration and noise, and stop the machine from creeping. At 78\" it covers the Micro on its own (72\"), but not with the rear platform fitted (81.5\"). Sold by Amazon.com.",
           "price": "$25.49",
           "wasPrice": "$29.99",
           "wasLabel": "List",
@@ -95,21 +95,21 @@ const GUIDE: DealsGuideProps = {
           "asin": "B005SUKZJ8",
           "name": "Rubber-Cal Rubber Flooring Roll (4 x 7 ft)",
           "badge": "Floor mat, with platform",
-          "note": "84\" long: enough for the Micro with its rear platform.",
+          "note": "A 4 x 7 ft roll of 3 mm diamond-plate rubber flooring. At 84\" long, it is long enough for the Micro with its rear platform fitted (81.5\"), which a standard 78\" equipment mat is not. Sold by Amazon.com.",
           "price": "$49.88"
         },
         {
           "asin": "B06WV6XVV9",
           "name": "Impulse Yoga Knee Pad Cushion (1\")",
           "badge": "Kneeling",
-          "note": "One inch of foam for kneeling moves on the carriage.",
+          "note": "A 24\" x 12\" cushion with a full inch of foam, for kneeling moves on the carriage or a hard floor. It now comes with a breathable mesh carry bag. Also handy for planks and push-ups if your wrists or knees complain.",
           "price": "$19.99"
         },
         {
           "asin": "B00CO8HO6O",
           "name": "Gymboss Interval Timer",
           "badge": "Timing",
-          "note": "Lagree is timed, not counted. Runs one or two intervals with chime and vibration alerts.",
+          "note": "Lagree is timed, not counted, and this pager-sized timer runs one or two intervals from two seconds to 99 minutes, repeating up to 99 times. It alerts you with a chime, a vibration or both, and clips to your waistband. It is sweat and impact resistant, and takes one AAA battery (not included).",
           "price": "$20.95"
         }
       ]
