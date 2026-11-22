@@ -224,7 +224,7 @@ function compare(pathname, base, branch) {
   if (LAGREE_PARTNER.includes(pathname)) {
     const ref = basePartnerPreview;
     if (!branch.partner.text) fails.push("partner card not found");
-    if (!ref.text.includes(branch.partner.text)) fails.push("partner card text differs from the approved preview");
+    if (ref.text !== branch.partner.text) fails.push("partner card text differs between the article and the preview page");
     for (const l of branch.partner.links) if (!ref.links.includes(l)) fails.push(`partner card link differs from the approved preview (${l})`);
     for (const alt of branch.partner.alts) if (!ref.alts.includes(alt)) fails.push(`partner card image alt differs (${alt})`);
     if (!isSubsequence(branch.text, base.text)) fails.push("text outside the partner card was added or changed");
@@ -332,7 +332,9 @@ try {
   paths = [...new Set([...paths, ...NOINDEX_PATHS])];
   if (ONLY) paths = ONLY.split(",");
 
-  basePartnerPreview = analyse(await fetch(`${B}/partner-preview/the-core-collab/lagree-fitness`).then((r) => r.text()), "base", "/partner-preview/the-core-collab/lagree-fitness");
+  // The card was updated to the partner's own copy (price terms and what is included), so the
+  // reference is the card on the branch's preview page: the article must carry exactly that card.
+  basePartnerPreview = analyse(await fetch(`${N}/partner-preview/the-core-collab/lagree-fitness`).then((r) => r.text()), "branch", "/partner-preview/the-core-collab/lagree-fitness").partner;
   const amazon = { base: 0, branch: 0, baseTagged: 0, branchTagged: 0 };
   const failedPages = [];
   await pool(paths, 8, async (p) => {

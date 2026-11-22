@@ -36,12 +36,12 @@
 
   --gutter: clamp(16px, 3.6vw, 56px);
   --rail-h: 3px;
-  --hdr-h: 62px;
+  --hdr-h: 72px;
   --ease-out: cubic-bezier(.2, .8, .2, 1);
   --ease-spring: cubic-bezier(.3, 1.6, .4, 1);
 }
 @media (max-width: 760px) {
-  :root { --hdr-h: 60px; }
+  :root { --hdr-h: 64px; }
 }
 
 @layer base {
@@ -143,7 +143,8 @@
   html.js:not([data-scrolled]) .r-hdr:not([data-solid]) { background: transparent; -webkit-backdrop-filter: none; backdrop-filter: none; }
   .r-hdr-in { display: flex; align-items: center; justify-content: space-between; gap: 16px; height: var(--hdr-h); }
   .r-logo { display: flex; align-items: center; min-height: 44px; flex-shrink: 0; }
-  .r-logo img { height: 34px; width: auto; filter: brightness(0); }
+  .r-logo img { height: 48px; width: auto; filter: brightness(0); }
+  @media (max-width: 760px) { .r-logo img { height: 42px; } }
   .r-nav { display: none; align-items: center; gap: 4px; }
   @media (min-width: 768px) { .r-nav { display: flex; } }
   .r-nav-a {
@@ -235,8 +236,8 @@
   .r-hero-in { position: relative; width: 100%; padding-block: 150px clamp(34px, 5vw, 64px); }
   .r-hero-eyebrow { display: flex; gap: 6px 14px; flex-wrap: wrap; margin-bottom: 14px; }
   .r-hero-eyebrow p { margin: 0; color: var(--dark); }
-  .r-hero h1 { font-size: clamp(44px, 10.4vw, 168px); margin: 0; }
-  .r-hero h1 > span { display: block; overflow: hidden; padding-bottom: .06em; }
+  .r-hero h1 { font-size: clamp(44px, 6vw, 96px); margin: 0; }
+  .r-hero h1 > span { display: block; padding-bottom: .04em; }
   .r-hero h1 b { display: block; font-weight: 800; }
   .r-hero-row { display: flex; justify-content: space-between; align-items: flex-end; gap: 24px; flex-wrap: wrap; margin-top: clamp(22px, 3vw, 40px); }
   .r-hero-row > p { max-width: 27em; color: var(--dark); font-size: clamp(16px, 1.3vw, 19px); margin: 0; }
@@ -249,21 +250,13 @@
   }
   @media (prefers-reduced-motion: no-preference) {
     .r-hero-bg img { animation: r-kb 14s ease-out both; }
-    /* Phones: the headline rises once and stays. */
-    .r-hero h1 b { animation: r-rise 1s var(--ease-out) both; }
-    .r-hero h1 > span:nth-child(2) b { animation-delay: .1s; }
-    .r-hero h1 > span:nth-child(3) b { animation-delay: .2s; }
-  }
-  /* Wider screens add the "spring": letters widen after the rise. On a phone
-     the widening re-wraps the lines, which reads as a second load. */
-  @media (prefers-reduced-motion: no-preference) and (min-width: 761px) {
-    .r-hero h1 b { animation: r-rise 1s var(--ease-out) both, r-spring 1.6s var(--ease-spring) .55s both; }
-    .r-hero h1 > span:nth-child(2) b { animation-delay: .1s, .65s; }
-    .r-hero h1 > span:nth-child(3) b { animation-delay: .2s, .75s; }
+    /* One movement only: the whole headline fades up once the font is ready,
+       so it never appears in a fallback font and then changes. */
+    html.js .r-hero h1 { opacity: 0; }
+    html.js.fonts .r-hero h1 { animation: r-in .7s var(--ease-out) both; }
   }
   @keyframes r-kb { from { transform: scale(1.16); } to { transform: scale(1); } }
-  @keyframes r-rise { from { transform: translateY(110%); } to { transform: none; } }
-  @keyframes r-spring { from { font-stretch: 75%; } to { font-stretch: 100%; } }
+  @keyframes r-in { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: none; } }
 
   /* Horizontal carriage track. Default: a native swipe row. Pinned mode is
      switched on only with JavaScript, a wide screen and motion allowed. */
@@ -637,8 +630,8 @@ main .overflow-hidden:has(> table) { overflow-x: auto; }
      content past the viewport bottom cannot be reached by page scroll:
      it needs its own scroll container or the lower Shop Gear links are lost. */
   .pcc-mobile-menu {
-    max-height: calc(100vh - 66px - var(--deal-banner-h, 0px));
-    max-height: calc(100dvh - 66px - var(--deal-banner-h, 0px));
+    max-height: calc(100vh - 70px - var(--deal-banner-h, 0px));
+    max-height: calc(100dvh - 70px - var(--deal-banner-h, 0px));
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
     overscroll-behavior: contain;

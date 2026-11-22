@@ -17,7 +17,9 @@ const rail = Bricolage_Grotesque({
 // Runs before first paint. Marks the page as script-enabled so the "starts
 // hidden" animation states apply; without it everything renders visible.
 // If the page never hydrates, reveal everything after a few seconds.
-const JS_FLAG = `document.documentElement.classList.add("js");setTimeout(function(){var d=document.documentElement;if(!d.dataset.railReady)d.classList.add("rv-all")},4000);`;
+// It also flags when the web font is ready (or after 1.5s at most), which is
+// when the homepage headline fades in.
+const JS_FLAG = `document.documentElement.classList.add("js");(function(){var d=document.documentElement,f=function(){d.classList.add("fonts")};if(document.fonts&&document.fonts.ready){document.fonts.ready.then(f)}setTimeout(f,1500)})();setTimeout(function(){var d=document.documentElement;if(!d.dataset.railReady)d.classList.add("rv-all")},4000);`;
 
 const BASE_URL = "https://pilatescollectiveclub.com";
 

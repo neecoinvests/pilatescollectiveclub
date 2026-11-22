@@ -136,7 +136,7 @@ export default function Header() {
       <DealBanner />
       <div className="r-wrap r-hdr-in">
         <Link href="/" className="r-logo">
-          <Image src="/pictures/pcc-logo.png" alt="Pilates Collective Club" width={859} height={286} sizes="110px" preload />
+          <Image src="/pictures/pcc-logo.png" alt="Pilates Collective Club" width={859} height={286} sizes="160px" preload />
         </Link>
 
         {/* Desktop nav: every item opens a full-width panel (positioned against the fixed header). */}

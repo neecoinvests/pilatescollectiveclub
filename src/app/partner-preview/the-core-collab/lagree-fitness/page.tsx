@@ -207,7 +207,8 @@ const PARTNER_ENTRY = (
       { label: "Machine", value: "The Core Collab Sculptformer" },
       { label: "Best for", value: "Studios and committed home trainers who want a Lagree-style machine to buy" },
       { label: "Sold", value: "Direct from The Core Collab" },
-      { label: "Price", value: "$8,499, including white-glove delivery and installation" },
+      { label: "Price", value: "$8,499, with no license fee and no extras" },
+      { label: "Included", value: "Box, jumpboard, ropes and cables, handles, straps, bungees and platforms, plus white-glove delivery and installation, in any custom color" },
     ]}
     description="If you want a Megaformer-style machine of your own rather than in class, The Core Collab Sculptformer is the brand's Lagree-style machine, which the company positions as an alternative to the Megaformer for studios and serious home trainers. It is not made or endorsed by Lagree Fitness. It is sold direct by The Core Collab through its US store, and the brand says there is no licensing fee to use it."
     pointsHeading="Key product features"
@@ -219,7 +220,7 @@ const PARTNER_ENTRY = (
     ]}
     ctaLabel="Visit The Core Collab →"
     ctaHref="https://thecorecollabusa.com/products/sculptformer?utm_source=pilatescollectiveclub&utm_medium=referral&utm_campaign=lagree-fitness"
-    sourceNote="Details from The Core Collab's product pages."
+    sourceNote="Details from The Core Collab."
   />
 );
 
