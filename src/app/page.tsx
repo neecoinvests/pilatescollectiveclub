@@ -244,25 +244,24 @@ const FEATURED_ITEMS: FeaturedItem[] = [
   },
 ];
 
+// Journal cards on the homepage: one from each part of the site rather than a run of city guides.
 const GUIDES = [
-  { title: "The Best Pilates Studios in Tampa, FL", excerpt: "From Hyde Park's upscale reformer studios to Seminole Heights' independent scene: six verified picks across the Tampa Bay area.", href: "/cities/tampa", category: "City Guide", readTime: "9 min read", date: "June 2026" },
-  { title: "The Best Pilates Studios in Raleigh, NC", excerpt: "From North Hills classics to Durham's creative movement studios: the definitive Pilates guide for the Research Triangle.", href: "/cities/raleigh", category: "City Guide", readTime: "9 min read", date: "June 2026" },
-  { title: "The Best Pilates Studios in Charlotte, NC", excerpt: "From South End's reformer boutiques to Myers Park's classical studios: six verified picks across Charlotte's vibrant Pilates scene.", href: "/cities/charlotte", category: "City Guide", readTime: "9 min read", date: "June 2026" },
-  { title: "The Best Pilates Studios in Portland, OR", excerpt: "From the Pearl District's warehouse studios to Lake Oswego's serene spaces: the definitive guide to Portland's best Pilates studios.", href: "/cities/portland", category: "City Guide", readTime: "9 min read", date: "June 2026" },
-  { title: "The Best Pilates Studios in Austin, TX", excerpt: "From classical Rosedale studios to community-focused East Austin practices: our complete guide to Austin's growing Pilates scene.", href: "/cities/austin", category: "City Guide", readTime: "9 min read", date: "June 2026" },
-  { title: "The Best Pilates Studios in Washington DC", excerpt: "From Georgetown's classical depth to Arlington's professional reformer rooms: six verified picks across the DC metro area.", href: "/cities/washington-dc", category: "City Guide", readTime: "9 min read", date: "June 2026" },
-  { title: "The Best Pilates Studios in Dallas, TX", excerpt: "From Highland Park classical studios to Deep Ellum's movement-forward independents: the definitive guide to Dallas's best Pilates studios.", href: "/cities/dallas", category: "City Guide", readTime: "9 min read", date: "June 2026" },
-  { title: "The Best Pilates Studios in Philadelphia, PA", excerpt: "From Rittenhouse Square's classical practices to Fishtown's community-oriented studios: six verified picks across Philadelphia.", href: "/cities/philadelphia", category: "City Guide", readTime: "9 min read", date: "June 2026" },
-  { title: "The Best Pilates Studios in Zurich", excerpt: "From Seefeld reformer boutiques to lakeside private studios: our complete guide to Zurich's thriving Pilates scene.", href: "/cities/zurich", category: "City Guide", readTime: "8 min read", date: "May 2026" },
-  { title: "The Beginner's Guide to Reformer Pilates", excerpt: "What to expect in your first reformer class, how to choose a studio, and how to progress with confidence.", href: "/blog/beginners-guide-to-reformer-pilates", category: "Beginner Guide", readTime: "8 min read", date: "May 2026" },
-  { title: "Pilates for Back Pain: What the Research Shows", excerpt: "A clear-eyed look at the evidence: what Pilates can and can't do for chronic back pain, and how to start safely.", href: "/blog/pilates-for-back-pain", category: "Wellness", readTime: "9 min read", date: "May 2026" },
-  { title: "Classical vs Contemporary Pilates", excerpt: "Understanding the key differences between the original method and modern interpretations, and which is right for you.", href: "/blog/classical-vs-contemporary-pilates", category: "Method", readTime: "7 min read", date: "May 2026" },
-  { title: "Best Pilates Equipment for Home Practice", excerpt: "Everything you actually need to build a consistent home practice, from a quality mat to the best reformer alternatives.", href: "/blog/best-pilates-equipment-for-home-practice", category: "Equipment", readTime: "10 min read", date: "May 2026" },
-  { title: "Pilates vs Yoga: Key Differences", excerpt: "A clear, honest comparison of two of the world's most popular movement practices, and how to decide between them.", href: "/blog/pilates-vs-yoga", category: "Method", readTime: "7 min read", date: "May 2026" },
-  { title: "The Best Pilates Retreats in Europe", excerpt: "The finest Pilates immersion experiences across the continent, from Provence to Puglia.", href: "/blog/best-pilates-retreats-europe", category: "Travel", readTime: "8 min read", date: "May 2026" },
-  { title: "Pilates for Athletes", excerpt: "How elite sports professionals use Pilates to build functional strength, prevent injury, and extend their careers.", href: "/blog/pilates-for-athletes", category: "Performance", readTime: "7 min read", date: "May 2026" },
+  { title: "Pilates Essentials (2026): The Complete List", excerpt: "Every Pilates essential on one page: the best, budget and splurge pick for leggings, grip socks, mat, props, recovery and a home reformer.", href: "/blog/pilates-essentials", category: "Equipment", readTime: "14 min read" },
+  { title: "The Beginner's Guide to Reformer Pilates", excerpt: "What to expect in your first reformer class, how to choose a studio, and how to progress with confidence.", href: "/blog/beginners-guide-to-reformer-pilates", category: "Beginner Guide", readTime: "8 min read" },
+  { title: "Best Home Pilates Reformer (2026): Every Budget", excerpt: "A quality home reformer changes your practice permanently. We compared every price tier so you know exactly what you get.", href: "/blog/best-home-pilates-reformer", category: "Equipment", readTime: "11 min read" },
+  { title: "Classical vs Contemporary Pilates", excerpt: "Understanding the key differences between the original method and modern interpretations, and which is right for you.", href: "/blog/classical-vs-contemporary-pilates", category: "Method", readTime: "7 min read" },
+  { title: "What to Wear to Pilates (2026)", excerpt: "Instructors need to see your alignment. Here's exactly what works, and what to avoid, for reformer, mat, and barre.", href: "/blog/what-to-wear-to-pilates", category: "Beginners", readTime: "6 min read" },
+  { title: "Pilates for Back Pain: What the Research Shows", excerpt: "A clear-eyed look at the evidence: what Pilates can and can't do for chronic back pain, and how to start safely.", href: "/blog/pilates-for-back-pain", category: "Wellness", readTime: "9 min read" },
+  { title: "Lagree for Beginners (2026): Your First Class", excerpt: "What a first Lagree class really feels like, the mistakes everyone makes, and the short kit worth buying.", href: "/blog/lagree-for-beginners", category: "Lagree", readTime: "11 min read" },
+  { title: "How Much Does a Pilates Reformer Cost? (2026): Every Price Tier Explained", excerpt: "Every price tier from $299 to $12,000+: what you actually get at each level and the real total cost of ownership.", href: "/blog/how-much-does-a-pilates-reformer-cost", category: "Guide", readTime: "10 min read" },
+  { title: "Best Pilates Reformer Brands (2026): Compared Honestly", excerpt: "Gratz vs Balanced Body vs Merrithew vs Align-Pilates: an honest brand comparison for home users, studio owners, and serious practitioners.", href: "/blog/best-pilates-reformer-brands", category: "Brand Guide", readTime: "12 min read" },
+  { title: "The Best Pilates Studios in Zurich", excerpt: "From Seefeld reformer boutiques to lakeside private studios: our complete guide to Zurich's thriving Pilates scene.", href: "/cities/zurich", category: "City Guide", readTime: "8 min read" },
+  { title: "The Best Pilates Retreats in Europe", excerpt: "The finest Pilates immersion experiences across the continent, from Provence to Puglia.", href: "/blog/best-pilates-retreats-europe", category: "Travel", readTime: "8 min read" },
+  { title: "Pilates for Athletes", excerpt: "How elite sports professionals use Pilates to build functional strength, prevent injury, and extend their careers.", href: "/blog/pilates-for-athletes", category: "Performance", readTime: "7 min read" },
 ];
 
+// Homepage equipment picks: four studio essentials and four home studio pieces.
+// The full range lives in the equipment guides linked under the grid.
 const PRODUCT_CATEGORIES = [
   {
     label: "Studio Essentials",
@@ -294,81 +293,6 @@ const PRODUCT_CATEGORIES = [
         price: "$62.99",
         affiliateUrl: "https://www.amazon.com/dp/B002C9EX14?tag=pilatescollective-20",
         imageUrl: "/pictures/henrique-ferreira-omiTbS-nb_M-unsplash.jpg",
-      },
-      {
-        name: "Manduka Cork Yoga Block",
-        description: "Firm cork support for seated modifications, spinal extension work, and elevated footwork. More stable than foam, better grip under load.",
-        price: "$26.00",
-        affiliateUrl: "https://www.amazon.com/dp/B000VUAGAS?tag=pilatescollective-20",
-        imageUrl: "/pictures/dane-wetton-AkSJQnem75Y-unsplash.jpg",
-      },
-      {
-        name: "Tune Up Fitness Therapy Balls (in Tote)",
-        description: "A pair of grippy therapy balls in a tote, for targeted myofascial release on the feet, glutes and upper back between sessions.",
-        price: "$19.99",
-        affiliateUrl: "https://www.amazon.com/dp/B00ERFBX9G?tag=pilatescollective-20",
-        imageUrl: "/pictures/ahmet-kurt-a1IhqqW8JQE-unsplash.jpg",
-      },
-    ],
-  },
-  {
-    label: "Props & Resistance",
-    items: [
-      {
-        name: "THERABAND Mini Ball (9-inch)",
-        description: "The 9-inch ball transforms mat work entirely. Adds tactile feedback, precise cueing, and progressive resistance to dozens of exercises.",
-        price: "$14.45",
-        affiliateUrl: "https://www.amazon.com/dp/B008DIFJT8?tag=pilatescollective-20",
-        imageUrl: "/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg",
-      },
-      {
-        name: "Arena Strength Fabric Glute Bands (3-Pack)",
-        description: "Fabric-wrapped loops in three resistance levels. Versatile, portable, and far more useful than basic latex therabands.",
-        price: "$29.00",
-        affiliateUrl: "https://www.amazon.com/dp/B07VYK14JC?tag=pilatescollective-20",
-        imageUrl: "/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg",
-      },
-      {
-        name: "Bala Bangles (1 lb)",
-        description: "1 lb each. Adds load to the leg circle series, standing footwork, and arabesque variations.",
-        price: "$55.00",
-        affiliateUrl: "https://www.amazon.com/dp/B09SNTB8DF?tag=pilatescollective-20",
-        imageUrl: "/pictures/juls-p-lB6lbkbe1XA-unsplash.jpg",
-      },
-      {
-        name: "Theraband Flexbar",
-        description: "For grip strength and wrist rehabilitation. Increasingly used in Pilates for hand and forearm conditioning in reformer prep work.",
-        price: "$18.80",
-        affiliateUrl: "https://www.amazon.com/dp/B00066D6K4?tag=pilatescollective-20",
-        imageUrl: "/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg",
-      },
-      {
-        name: "StrongTek Yoga Wedge Blocks (2-Pack)",
-        description: "Slanted foam support for wrist protection during planks and push-ups. Reduces extension load: essential for practitioners with wrist sensitivity.",
-        price: "$29.95",
-        affiliateUrl: "https://www.amazon.com/dp/B07BGQZVWK?tag=pilatescollective-20",
-        imageUrl: "/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg",
-      },
-      {
-        name: "SISSEL Pilates Toning Balls (2 x 1 lb)",
-        description: "Weighted soft-grip balls (1 lb each) for arm, shoulder, and standing balance work. Adds meaningful load without disrupting the Pilates flow.",
-        price: "$26.89",
-        affiliateUrl: "https://www.amazon.com/dp/B005LD3M9W?tag=pilatescollective-20",
-        imageUrl: "/pictures/roxana-popovici-Zp4APUiwEsM-unsplash.jpg",
-      },
-      {
-        name: "THERABAND Standard 22\" (55cm) Exercise Ball",
-        description: "Sized for users about 5'1\" to 5'6\", per THERABAND. A slow-deflate ball for spinal rolling, seated balance work and open-chain leg exercises.",
-        price: "$17.76",
-        affiliateUrl: "https://www.amazon.com/dp/B0000534W0?tag=pilatescollective-20",
-        imageUrl: "/pictures/dane-wetton-t1NEMSm1rgI-unsplash.jpg",
-      },
-      {
-        name: "Fitense Pull Up Resistance Bands Set (4 Levels)",
-        description: "Four looped bands from 5 to 80 lb, with a door anchor and storage bag. Use them for the arm series, footwork variations and full-body stretching.",
-        price: "$15.99",
-        affiliateUrl: "https://www.amazon.com/dp/B0DDC65RQ3?tag=pilatescollective-20",
-        imageUrl: "/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg",
       },
     ],
   },
@@ -402,107 +326,6 @@ const PRODUCT_CATEGORIES = [
         price: "$449.00",
         affiliateUrl: "https://www.amazon.com/dp/B07YVYLZZ2?tag=pilatescollective-20",
         imageUrl: "/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg",
-      },
-      {
-        name: "Balanced Body Pilates Arc",
-        description: "The arc is the most compact barrel available, ideal for spinal extension, hip flexor opening, and side-lying work in smaller spaces.",
-        price: "$189.99",
-        affiliateUrl: "https://www.amazon.com/dp/B002XVSNRG?tag=pilatescollective-20",
-        imageUrl: "/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg",
-      },
-      {
-        name: "Balanced Body Padded Jumpboard (Allegro 2)",
-        description: "Balanced Body's padded jumpboard for the Allegro 2 reformer. Adds low-impact jumping sequences for cardio.",
-        price: "$350.00",
-        affiliateUrl: "https://www.amazon.com/dp/B008Z3NREA?tag=pilatescollective-20",
-        imageUrl: "/pictures/ahmet-kurt-0xn-8kRWOhE-unsplash.jpg",
-      },
-      {
-        name: "Balanced Body Trapeze Table (Cadillac)",
-        description: "The full Cadillac apparatus, or a reformer tower conversion, opens the complete classical repertoire. The most comprehensive piece of Pilates equipment available.",
-        price: "$5,030.00",
-        affiliateUrl: "https://www.amazon.com/dp/B01N5OIH13?tag=pilatescollective-20",
-        imageUrl: "/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg",
-      },
-      {
-        name: "Balanced Body Sitting Box Lite",
-        description: "Balanced Body's lightweight sitting box for long box and short box work, the accessory that expands the reformer repertoire most.",
-        price: "$150.00",
-        affiliateUrl: "https://www.amazon.com/dp/B0723DT2JP?tag=pilatescollective-20",
-        imageUrl: "/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg",
-      },
-      {
-        name: "Balanced Body CoreAlign",
-        description: "The CoreAlign targets functional upright movement (standing balance, gait, and dynamic core stability) in ways the reformer alone cannot replicate. Not sold on Amazon: this link goes to Balanced Body's own site.",
-        price: "From $1,200",
-        affiliateUrl: "https://www.pilates.com",
-        imageUrl: "/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg",
-      },
-    ],
-  },
-  {
-    label: "Apparel",
-    items: [
-      {
-        name: "Lululemon Align High-Rise Pant 25-inch",
-        description: "High-rise leggings with a flat waistband and a hidden key pocket. A reformer-studio favorite. Sold on Amazon by a reseller, not by Lululemon.",
-        price: "$98.00",
-        affiliateUrl: "https://www.amazon.com/dp/B08M8ZTKJS?tag=pilatescollective-20",
-        imageUrl: "/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg",
-      },
-      {
-        name: "Beyond Yoga Spacedye Lift Your Spirits Bra",
-        description: "Medium-support bra with removable pads in Beyond Yoga's soft Spacedye fabric. Keeps the instructor's sightlines clear.",
-        price: "$68.00",
-        affiliateUrl: "https://www.amazon.com/dp/B07HRVHSST?tag=pilatescollective-20",
-        imageUrl: "/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg",
-      },
-      {
-        name: "CRZ YOGA Butterluxe Biker Shorts (6-inch)",
-        description: "5–6 inch inseam biker shorts let instructors see your knee tracking clearly. The Lululemon Align Short and Alo Airbrush are the studio standards.",
-        price: "$24.00",
-        affiliateUrl: "https://www.amazon.com/dp/B0B287V65J?tag=pilatescollective-20",
-        imageUrl: "/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg",
-      },
-      {
-        name: "Bala Bangles (1 lb)",
-        description: "Bala Bangles (1 lb each) are a boutique studio favorite that wrap on at the wrist or ankle.",
-        price: "$55.00",
-        affiliateUrl: "https://www.amazon.com/dp/B09SNTB8DF?tag=pilatescollective-20",
-        imageUrl: "/pictures/jade-stephens-N21356amsyw-unsplash.jpg",
-      },
-    ],
-  },
-  {
-    label: "Premium Reformers",
-    items: [
-      {
-        name: "Balanced Body Allegro Stretch Reformer",
-        description: "The long version of Balanced Body's aluminum Allegro: a wider, longer carriage and an 18-inch-longer frame for taller users, with five Signature Springs. Made to order.",
-        price: "$3,710.00",
-        affiliateUrl: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20",
-        imageUrl: "/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg",
-      },
-      {
-        name: "Merrithew Rehab V2 Max Plus Reformer",
-        description: "Merrithew's raised-frame reformer for clinics and serious home studios, with the Vertical Frame for tower-style work. Made to order.",
-        price: "$8,199.00",
-        affiliateUrl: "https://www.amazon.com/dp/B002ABYKFI?tag=pilatescollective-20",
-        imageUrl: "/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg",
-      },
-      {
-        name: "Merrithew SPX Max",
-        description: "The professional studio standard used in accredited training centers worldwide. Full 5-spring system, 97-inch rail, 350 lb capacity. The entry point to serious home practice. Not sold on Amazon: this link goes to Merrithew's own site.",
-        price: "Sold direct",
-        affiliateUrl: "https://www.merrithew.com",
-        imageUrl: "/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg",
-      },
-      {
-        name: "Gratz Universal Reformer",
-        description: "The original. Built since 1965 under Joseph Pilates' direction, handmade in New York. Four springs, 3-gear bar, unchanged in six decades. $4,590–$5,295.",
-        price: "From $4,590",
-        affiliateUrl: "https://www.gratzpilates.com/collections/reformers",
-        imageUrl: "/pictures/roxana-popovici-cZ0WYsBFHhs-unsplash.jpg",
       },
     ],
   },
@@ -623,6 +446,12 @@ export default function Home() {
                 </div>
               </div>
             ))}
+
+            <div className="mt-10">
+              <Link href="/blog?category=Equipment" className="r-btn r-btn-o">
+                All equipment guides
+              </Link>
+            </div>
           </div>
         </section>
 

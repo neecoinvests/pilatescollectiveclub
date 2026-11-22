@@ -45,13 +45,23 @@ const FEATURED = { base: /\bpcc-featured-grid\b/, branch: null, branchAttr: "dat
 //     its destination no longer appears anywhere else on the page.
 const b = (slug) => `/blog/${slug}`;
 const DEDUPED = new Set([
-  b("lagree-fitness"), b("lagree-essentials"), b("pilates-princess-essentials"),
+  b("lagree-essentials"), b("pilates-princess-essentials"),
   b("reformer-pilates-essentials"), b("best-lagree-gifts"), b("pilates-essentials"), b("lagree-for-weight-loss"), b("lagree-recovery"),
   b("lagree-exercises"), b("lagree-vs-solidcore"), b("best-pilates-chair"), b("best-pilates-cadillac"), b("best-pilates-reformer-for-beginners"),
 ]);
 // Paid partnership pages (The Core Collab): text and links must match the base
 // exactly. They can never be on an exception list.
-const PROTECTED = [b("best-pilates-reformer-brands"), b("best-megaformer-machine"), "/partner-preview/the-core-collab/lagree-fitness"];
+const PROTECTED = [b("best-pilates-reformer-brands"), b("best-megaformer-machine")];
+//  5. Lagree Fitness (owner request): The Core Collab card from the partner
+//     preview now sits near the top of the article, and the preview page mirrors
+//     the article. The card must match the card on the base preview page word
+//     for word and link for link; the rest of both pages is remove-only.
+const LAGREE_PARTNER = [b("lagree-fitness"), "/partner-preview/the-core-collab/lagree-fitness"];
+let basePartnerPreview = null;
+//  6. Homepage (owner request): fewer equipment picks and a more varied Journal.
+//     Page title, section headings, head tags and JSON-LD must match; card
+//     changes are reported as links removed and added.
+const homeReport = { removed: [], added: [] };
 for (const p of PROTECTED) if (DEDUPED.has(p)) throw new Error(`${p} is a partner page and cannot be an exception`);
 const isSubsequence = (small, big) => {
   let i = 0;
@@ -81,7 +91,7 @@ const sortKeys = (v) =>
 
 // Small tolerant HTML walker. Good enough for server-rendered React output.
 function analyse(html, side, pathname) {
-  const res = { text: "", headings: [], links: [], alts: [], imgNoAlt: 0, jsonld: [], head: {}, featured: { text: "", links: [], alts: [] }, footer: { text: "", links: [], alts: [], texts: [] } };
+  const res = { text: "", headings: [], links: [], alts: [], imgNoAlt: 0, jsonld: [], head: {}, featured: { text: "", links: [], alts: [] }, footer: { text: "", links: [], alts: [], texts: [] }, partner: { text: "", links: [], alts: [] } };
   const re = /<!--[\s\S]*?-->|<(script|style)\b[^>]*>[\s\S]*?<\/\1\s*>|<\/?[a-zA-Z][^>]*>|[^<]+/g;
   const stack = []; // { name, hidden, featured, heading }
   let inBody = false;
@@ -93,6 +103,7 @@ function analyse(html, side, pathname) {
     const hidden = top?.hidden;
     const featured = top?.featured;
     const footer = top?.footer;
+    const partner = top?.partner;
     if (m[1]) {
       if (m[1].toLowerCase() === "script") {
         const open = tok.slice(0, tok.indexOf(">") + 1);
@@ -116,7 +127,7 @@ function analyse(html, side, pathname) {
       if (hidden) continue;
       const t = decode(tok);
       if (footer) res.footer.texts.push(squash(t));
-      (footer ? res.footer : featured ? res.featured : res).text += t;
+      (footer ? res.footer : partner ? res.partner : featured ? res.featured : res).text += t;
       for (const el of stack) if (el.heading) el.heading.text += t;
       continue;
     }
@@ -144,7 +155,8 @@ function analyse(html, side, pathname) {
       (pathname === "/" && (side === "base" ? FEATURED.base.test(a.class ?? "") : FEATURED.branchAttr in a));
     const isHidden = hidden || skip || a["aria-hidden"] === "true";
     const isFooter = footer || name === "footer";
-    const bucket = isFooter ? res.footer : isFeatured ? res.featured : res;
+    const isPartner = partner || "data-partner-entry" in a;
+    const bucket = isFooter ? res.footer : isPartner ? res.partner : isFeatured ? res.featured : res;
     if (inBody && !skip) {
       if (name === "a" && "href" in a) bucket.links.push([a.href, a.rel ?? "", a.target ?? ""].join(" | "));
       if (name === "img") {
@@ -154,15 +166,16 @@ function analyse(html, side, pathname) {
       }
     }
     let heading = null;
-    if (inBody && !isHidden && /^h[1-4]$/.test(name) && !isFeatured && !isFooter) {
+    if (inBody && !isHidden && /^h[1-4]$/.test(name) && !isFeatured && !isFooter && !isPartner) {
       heading = { level: name, text: "" };
       res.headings.push(heading);
     }
-    if (!VOID.has(name) && !tok.endsWith("/>")) stack.push({ name, hidden: isHidden, featured: isFeatured, footer: isFooter, heading });
+    if (!VOID.has(name) && !tok.endsWith("/>")) stack.push({ name, hidden: isHidden, featured: isFeatured, footer: isFooter, partner: isPartner, heading });
   }
   res.text = squash(res.text);
   res.featured.text = squash(res.featured.text);
   res.footer.text = squash(res.footer.text);
+  res.partner.text = squash(res.partner.text);
   res.headings = res.headings.map((h) => `${h.level}: ${squash(h.text)}`);
   res.alts.sort();
   res.jsonld.sort();
@@ -187,6 +200,39 @@ function compare(pathname, base, branch) {
   const footerLinks = new Set(branch.footer.links);
   for (const l of base.footer.links) if (!footerLinks.has(l)) fails.push(`footer: link missing (${l})`);
   for (const t of base.footer.texts) if (t && !branch.footer.text.includes(t)) fails.push(`footer: text missing (${t.slice(0, 40)})`);
+  // The advertise page prints a product count computed from the site itself;
+  // it moves when products are added or removed anywhere.
+  if (pathname === "/advertise") {
+    const norm = (t) => t.replace(/[\d,]+Productwrite-ups/, "NProductwrite-ups");
+    if (norm(base.text) !== norm(branch.text)) fails.push(`text ${firstDiff(norm(base.text), norm(branch.text))}`);
+    const count = (t) => /([\d,]+)Productwrite-ups/.exec(t)?.[1];
+    if (count(base.text) !== count(branch.text)) console.log(`NOTE /advertise product count: ${count(base.text)} on base, ${count(branch.text)} on branch (computed from the site).`);
+    base = { ...base, text: "" };
+    branch = { ...branch, text: "" };
+  }
+  if (pathname === "/") {
+    const h12 = (r) => r.headings.filter((h) => /^h[12]:/.test(h));
+    if (JSON.stringify(h12(base)) !== JSON.stringify(h12(branch))) fails.push(`homepage h1/h2 ${listDiff(h12(base), h12(branch))}`);
+    if (JSON.stringify(sortKeys(base.head)) !== JSON.stringify(sortKeys(branch.head))) fails.push("head differs");
+    if (JSON.stringify(base.jsonld) !== JSON.stringify(branch.jsonld)) fails.push("json-ld differs");
+    const all = (r) => new Set([...r.links, ...r.featured.links].map((l) => l.split(" | ")[0]));
+    const [ba, br] = [all(base), all(branch)];
+    homeReport.removed = [...ba].filter((h) => !br.has(h));
+    homeReport.added = [...br].filter((h) => !ba.has(h));
+    return fails;
+  }
+  if (LAGREE_PARTNER.includes(pathname)) {
+    const ref = basePartnerPreview;
+    if (!branch.partner.text) fails.push("partner card not found");
+    if (!ref.text.includes(branch.partner.text)) fails.push("partner card text differs from the approved preview");
+    for (const l of branch.partner.links) if (!ref.links.includes(l)) fails.push(`partner card link differs from the approved preview (${l})`);
+    for (const alt of branch.partner.alts) if (!ref.alts.includes(alt)) fails.push(`partner card image alt differs (${alt})`);
+    if (!isSubsequence(branch.text, base.text)) fails.push("text outside the partner card was added or changed");
+    if (!isSubsequence(branch.links, base.links)) fails.push("a link outside the partner card was added or changed");
+    if (JSON.stringify(sortKeys(base.head)) !== JSON.stringify(sortKeys(branch.head))) fails.push("head differs");
+    if (JSON.stringify(base.jsonld) !== JSON.stringify(branch.jsonld)) fails.push("json-ld differs");
+    return fails;
+  }
   if (DEDUPED.has(pathname)) {
     if (!isSubsequence(branch.text, base.text) || branch.text.length >= base.text.length) fails.push("deduped page: text was added or changed, not only removed");
     if (!isSubsequence(branch.links, base.links)) fails.push("deduped page: a link was added or changed, not only removed");
@@ -286,6 +332,7 @@ try {
   paths = [...new Set([...paths, ...NOINDEX_PATHS])];
   if (ONLY) paths = ONLY.split(",");
 
+  basePartnerPreview = analyse(await fetch(`${B}/partner-preview/the-core-collab/lagree-fitness`).then((r) => r.text()), "base", "/partner-preview/the-core-collab/lagree-fitness");
   const amazon = { base: 0, branch: 0, baseTagged: 0, branchTagged: 0 };
   const failedPages = [];
   await pool(paths, 8, async (p) => {
@@ -314,6 +361,9 @@ try {
   console.log(`Sitemap URLs: ${sitemapCount}. Pages compared: ${paths.length}. Pages with differences: ${failedPages.length}.`);
   console.log(`Amazon links: base ${amazon.base} (${amazon.baseTagged} tagged), branch ${amazon.branch} (${amazon.branchTagged} tagged).`);
   console.log(`Partner pages held to an exact match: ${PROTECTED.filter((p) => !failedPages.includes(p)).length} of ${PROTECTED.length} identical.`);
+  console.log(`Homepage: ${homeReport.removed.length} link destination(s) removed, ${homeReport.added.length} added.`);
+  for (const h of homeReport.removed) console.log(`   removed ${h}`);
+  for (const h of homeReport.added) console.log(`   added   ${h}`);
   console.log(`Deduped pages (one At a Glance list each): ${DEDUPED.size}. Link destinations that no longer appear on their page: ${lostLinks.length}.`);
   for (const l of lostLinks) console.log(`   ${l}`);
   console.log("Counted per page across all pages, so shared header, footer and card links repeat. The homepage count rises because every featured story is now in the HTML.");

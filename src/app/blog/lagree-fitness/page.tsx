@@ -9,6 +9,7 @@ import ProductCard from "@/components/ProductCard";
 import ArticleCard from "@/components/ArticleCard";
 import CTASection from "@/components/CTASection";
 import { jsonLdHtml } from "@/lib/schema";
+import PartnerBrandEntry from "@/components/PartnerBrandEntry";
 
 const PAGE_URL = "https://pilatescollectiveclub.com/blog/lagree-fitness";
 const HERO_IMAGE = "https://pilatescollectiveclub.com/pictures/stitch-reformers-aerial-row.png";
@@ -298,6 +299,34 @@ const QUICK_PICKS = [
   { name: "Impulse Yoga Knee Pad Cushion (1\")", price: "$20.72", url: "https://www.amazon.com/dp/B06WV6XVV9?tag=pilatescollective-20", note: "1-inch knee pad for kneeling work" },
 ];
 
+const PARTNER_ENTRY = (
+  <PartnerBrandEntry
+    variant="machine"
+    brandName="The Core Collab Sculptformer"
+    sponsorName="The Core Collab"
+    logoSrc="/pictures/partners/the-core-collab-logo.png"
+    imageSrc="/pictures/partners/the-core-collab-sculptformer.jpg"
+    imageAlt="The Core Collab Sculptformer Lagree-style machine in black"
+    details={[
+      { label: "Machine", value: "The Core Collab Sculptformer" },
+      { label: "Best for", value: "Studios and committed home trainers who want a Lagree-style machine to buy" },
+      { label: "Sold", value: "Direct from The Core Collab" },
+      { label: "Price", value: "$8,499, including white-glove delivery and installation" },
+    ]}
+    description="If you want a Megaformer-style machine of your own rather than in class, The Core Collab Sculptformer is the brand's Lagree-style machine, which the company positions as an alternative to the Megaformer for studios and serious home trainers. It is not made or endorsed by Lagree Fitness. It is sold direct by The Core Collab through its US store, and the brand says there is no licensing fee to use it."
+    pointsHeading="Key product features"
+    points={[
+      "Eight springs, from extra-heavy to light, according to the brand",
+      "Steel frame built in-house, with a 10-year frame warranty, according to the brand",
+      "Available in any custom color at no extra cost",
+      "Designed for the slow, time-under-tension training style covered in this guide",
+    ]}
+    ctaLabel="Visit The Core Collab →"
+    ctaHref="https://thecorecollabusa.com/products/sculptformer?utm_source=pilatescollectiveclub&utm_medium=referral&utm_campaign=lagree-fitness"
+    sourceNote="Details from The Core Collab's product pages."
+  />
+);
+
 export default function LagreeFitnessPage() {
   return (
     <>
@@ -375,6 +404,9 @@ export default function LagreeFitnessPage() {
                 <span>{fmt(SETUP_TOTAL)}</span>
               </div>
             </div>
+
+            {/* Featured partner: The Core Collab. Text and links as approved in the partner preview. */}
+            <div className="mb-16" data-partner-entry>{PARTNER_ENTRY}</div>
 
             {/* What Lagree Fitness is */}
             <div className="mb-16">

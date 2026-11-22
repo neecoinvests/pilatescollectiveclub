@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
-import QuickPicks from "@/components/QuickPicks";
 import TopPick from "@/components/TopPick";
 import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
@@ -263,7 +262,6 @@ export default function LagreeFitnessPartnerPreview() {
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
 
-            <QuickPicks className="mb-6 mt-4" picks={QUICK_PICKS} />
             <AffiliateNote>Most links on this page go to Amazon, and we earn a small commission on qualifying purchases. The Megaformer is not sold on Amazon and links directly to lagreefitness.com; it is labeled as such.</AffiliateNote>
 
             {/* Related hubs */}
@@ -301,6 +299,9 @@ export default function LagreeFitnessPartnerPreview() {
                 <span>{fmt(SETUP_TOTAL)}</span>
               </div>
             </div>
+
+            {/* Featured partner: The Core Collab. Text and links as approved in the partner preview. */}
+            <div className="mb-16" data-partner-entry>{PARTNER_ENTRY}</div>
 
             {/* What Lagree Fitness is */}
             <div className="mb-16">
@@ -354,7 +355,6 @@ export default function LagreeFitnessPartnerPreview() {
                 <Link href="/blog/lagree-micro-vs-megaformer" style={inlineLinkStyle}>Lagree Micro vs Megaformer</Link>. Comparing Lagree machines and the alternatives? See our{" "}
                 <Link href="/blog/best-megaformer-machine" style={inlineLinkStyle}>best Megaformer machine guide</Link>.
               </p>
-              <div className="mt-10">{PARTNER_ENTRY}</div>
             </div>
 
             {/* The Micro */}
