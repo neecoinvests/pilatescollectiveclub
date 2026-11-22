@@ -359,8 +359,8 @@ const homeJsonLd = {
   ],
 };
 
-// Decorative marquee rows above the city cards: the same city names, three rows.
-const MARQUEE_ROWS = [0, 1, 2].map((r) => CITIES.filter((_, i) => i % 3 === r).map((c) => c.city));
+// Marquee rows above the city cards: the same cities, three rows, each name linking to its guide.
+const MARQUEE_ROWS = [0, 1, 2].map((r) => CITIES.filter((_, i) => i % 3 === r).map((c) => ({ label: c.city, href: c.href })));
 
 export default function Home() {
   return (

@@ -221,6 +221,15 @@
   .r-hero { position: relative; min-height: min(100svh, 860px); display: flex; align-items: flex-end; overflow: hidden; }
   .r-hero-bg { position: absolute; inset: 0; }
   .r-hero-bg img { object-fit: cover; object-position: 60% 30%; }
+  /* Wide screens crop the portrait photo to a strip: aim it at the person and the mirrors, not the ceiling. */
+  @media (min-width: 761px) {
+    .r-hero-bg img { object-position: 60% 57%; }
+    .r-hero-bg::after {
+      background:
+        linear-gradient(90deg, rgba(247, 244, 240, .93), rgba(247, 244, 240, .8) 30%, rgba(247, 244, 240, .4) 52%, rgba(247, 244, 240, 0) 78%),
+        linear-gradient(0deg, #f7f4f0, rgba(247, 244, 240, 0) 40%);
+    }
+  }
   .r-hero-bg::after {
     content: ""; position: absolute; inset: 0;
     background:
@@ -318,6 +327,8 @@
   .r-mq-wrap { overflow: hidden; margin-bottom: clamp(28px, 4vw, 56px); }
   .r-mq { display: flex; gap: .35em; white-space: nowrap; font-weight: 800; font-stretch: 78%; font-size: clamp(40px, 9.4vw, 150px); line-height: 1.02; letter-spacing: -.02em; will-change: transform; }
   .r-mq span { display: inline-flex; align-items: center; gap: .35em; color: var(--off-white); -webkit-text-stroke: 2.4px #b3a99d; paint-order: stroke fill; }
+  .r-mq a { color: inherit; text-decoration: none; transition: color .25s, -webkit-text-stroke-color .25s; }
+  @media (hover: hover) { .r-mq a:hover { color: var(--gold); -webkit-text-stroke-color: var(--gold); } }
   .r-mq i { font-style: normal; color: var(--gold); -webkit-text-stroke: 0; font-size: .3em; }
 
   /* City card */
@@ -384,7 +395,7 @@
   .r-ab-note { font-size: clamp(17px, 1.5vw, 21px); line-height: 1.45; color: var(--cream); max-width: 34em; margin: clamp(26px, 4vw, 50px) 0 0; }
 
   /* Footer */
-  .r-ft { padding-top: clamp(40px, 6vw, 80px); font-size: 14px; color: var(--muted); overflow: hidden; border-top: 1px solid var(--line); margin-top: clamp(40px, 6vw, 80px); }
+  .r-ft { padding-top: clamp(40px, 6vw, 80px); padding-bottom: env(safe-area-inset-bottom, 0px); font-size: 14px; color: var(--muted); overflow: hidden; border-top: 1px solid var(--line); margin-top: clamp(40px, 6vw, 80px); }
   .r-ft-cta { background: var(--cream); border-radius: 18px; padding: clamp(26px, 4.4vw, 56px); display: flex; justify-content: space-between; align-items: flex-end; gap: 24px 32px; flex-wrap: wrap; }
   /* Pages that already end with their own call-to-action panel do not get a second one in the footer. */
   main:has(.r-cta) ~ .r-ft .r-ft-cta { display: none; }
@@ -393,7 +404,8 @@
   .r-ft-cta-h { font-size: clamp(38px, 6vw, 92px); color: var(--black); margin: 0; }
   .r-ft-cta-btns { display: flex; flex-wrap: wrap; gap: 10px; }
   .r-ft-grid { display: grid; grid-template-columns: 1.5fr repeat(4, minmax(0, 1fr)); gap: 40px 28px; padding-block: clamp(36px, 5vw, 64px) 36px; }
-  .r-ft-home { display: inline-flex; align-items: center; min-height: 44px; font-size: 22px; font-weight: 800; font-stretch: 80%; letter-spacing: -.01em; color: var(--black); text-decoration: none; }
+  .r-ft-logo { display: block; height: 56px; width: auto; filter: brightness(0); margin-bottom: 14px; }
+  .r-ft-home { display: inline-flex; flex-direction: column; align-items: flex-start; min-height: 44px; font-size: 22px; font-weight: 800; font-stretch: 80%; letter-spacing: -.01em; color: var(--black); text-decoration: none; }
   .r-ft-brand p { max-width: 21em; margin: 4px 0 0; font-size: 15px; color: var(--dark); }
   .r-ft-label { display: block; font-size: 12.5px; font-weight: 700; color: var(--muted); margin-bottom: 6px; }
   .r-ft-a { display: flex; align-items: center; min-height: 44px; color: var(--black); font-size: 15px; line-height: 1.25; text-decoration: none; }
@@ -408,7 +420,6 @@
   .r-ft-legal .r-ft-label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
   .r-ft-legal .r-ft-a, .r-ft-top { font-size: 14px; }
   .r-ft-top { font-weight: 700; }
-  .r-ft-big { font-weight: 800; font-stretch: 75%; font-size: clamp(44px, 12.4vw, 230px); line-height: .78; letter-spacing: -.03em; color: var(--line); white-space: nowrap; text-align: center; margin: clamp(10px, 2vw, 28px) 0 -0.06em; padding-bottom: env(safe-area-inset-bottom, 0px); user-select: none; }
   @media (max-width: 1000px) {
     .r-ft-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
     .r-ft-brand { grid-column: 1 / -1; }

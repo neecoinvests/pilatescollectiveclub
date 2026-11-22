@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 type FooterLink = { label: string; href: string };
@@ -106,6 +107,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="r-ft-brand">
             <Link href="/" className="r-ft-home">
+              <Image src="/pictures/pcc-logo.png" alt="" width={859} height={286} sizes="180px" className="r-ft-logo" />
               Pilates Collective Club
             </Link>
             <p>
@@ -154,7 +156,6 @@ export default function Footer() {
           </a>
         </div>
       </div>
-      <div className="r-ft-big" aria-hidden="true">Pilates Collective Club</div>
     </footer>
   );
 }
