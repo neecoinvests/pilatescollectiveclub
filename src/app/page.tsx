@@ -385,7 +385,6 @@ export default function Home() {
           <div className="r-wrap r-hero-in">
             <div className="r-hero-eyebrow">
               <p className="r-sm">Pilates Collective Club</p>
-              <p className="r-sm">Est. 2026</p>
             </div>
 
             <h1 className="r-d">

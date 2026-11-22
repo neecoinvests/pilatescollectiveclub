@@ -249,9 +249,15 @@
   }
   @media (prefers-reduced-motion: no-preference) {
     .r-hero-bg img { animation: r-kb 14s ease-out both; }
-    .r-hero h1 b {
-      animation: r-rise 1s var(--ease-out) both, r-spring 1.6s var(--ease-spring) .55s both;
-    }
+    /* Phones: the headline rises once and stays. */
+    .r-hero h1 b { animation: r-rise 1s var(--ease-out) both; }
+    .r-hero h1 > span:nth-child(2) b { animation-delay: .1s; }
+    .r-hero h1 > span:nth-child(3) b { animation-delay: .2s; }
+  }
+  /* Wider screens add the "spring": letters widen after the rise. On a phone
+     the widening re-wraps the lines, which reads as a second load. */
+  @media (prefers-reduced-motion: no-preference) and (min-width: 761px) {
+    .r-hero h1 b { animation: r-rise 1s var(--ease-out) both, r-spring 1.6s var(--ease-spring) .55s both; }
     .r-hero h1 > span:nth-child(2) b { animation-delay: .1s, .65s; }
     .r-hero h1 > span:nth-child(3) b { animation-delay: .2s, .75s; }
   }
