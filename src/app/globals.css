@@ -387,6 +387,10 @@
   /* Footer */
   .r-ft { padding-top: clamp(40px, 6vw, 80px); font-size: 14px; color: var(--muted); overflow: hidden; border-top: 1px solid var(--line); margin-top: clamp(40px, 6vw, 80px); }
   .r-ft-cta { background: var(--cream); border-radius: 18px; padding: clamp(26px, 4.4vw, 56px); display: flex; justify-content: space-between; align-items: flex-end; gap: 24px 32px; flex-wrap: wrap; }
+  /* Pages that already end with their own call-to-action panel do not get a second one in the footer. */
+  main:has(.r-cta) ~ .r-ft .r-ft-cta { display: none; }
+  main:has(.r-cta) ~ .r-ft { margin-top: 0; padding-top: 0; }
+  main:has(.r-cta) ~ .r-ft .r-ft-grid { padding-top: clamp(28px, 4vw, 48px); }
   .r-ft-cta-h { font-size: clamp(38px, 6vw, 92px); color: var(--black); margin: 0; }
   .r-ft-cta-btns { display: flex; flex-wrap: wrap; gap: 10px; }
   .r-ft-grid { display: grid; grid-template-columns: 1.5fr repeat(4, minmax(0, 1fr)); gap: 40px 28px; padding-block: clamp(36px, 5vw, 64px) 36px; }
