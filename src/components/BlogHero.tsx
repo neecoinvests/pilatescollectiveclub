@@ -21,7 +21,7 @@ export default function BlogHero({ imageUrl, imageAlt, category, subcategory, ti
   return (
     <>
       <section className="r-ah">
-        <div className="r-wrap">
+        <div className="max-w-[1200px] mx-auto px-6 md:px-10">
           <div className="r-ah-cr r-sm">
             <span>{category}</span>
             {showSub && (
@@ -40,7 +40,7 @@ export default function BlogHero({ imageUrl, imageAlt, category, subcategory, ti
       </section>
 
       <section>
-        <div className="r-wrap">
+        <div className="max-w-[1200px] mx-auto px-6 md:px-10">
           <div className="pcc-city-hero-image r-ah-img">
             <Image src={imageUrl} alt={imageAlt} fill preload sizes="(max-width: 1320px) 100vw, 1320px" />
           </div>

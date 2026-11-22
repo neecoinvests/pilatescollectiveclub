@@ -446,8 +446,11 @@
   .r-h2 { font-size: clamp(32px, 4.2vw, 58px); }
   .r-hx { font-weight: 700; line-height: 1.15; letter-spacing: -.01em; }
   .r-ah-legacy { padding-bottom: 28px; }
-  .r-ah-legacy h1 { margin: 16px 0 20px; max-width: 13em; }
-  .r-ah-legacy > .r-wrap > :not(h1) { max-width: 820px; }
+  /* The article header shares the body's centred column, so the title, topic
+     line and intro line up with the text below them. */
+  .r-ah-legacy > .r-wrap { max-width: calc(48rem + 48px); padding-inline: 24px; }
+  .r-ah-legacy.r-ah-wide > .r-wrap { max-width: calc(72rem + 48px); }
+  .r-ah-legacy h1 { font-size: clamp(36px, 5.2vw, 68px); margin: 16px 0 20px; }
 
   /* Article body */
   .r-art h2 { font-size: clamp(34px, 4.6vw, 66px); margin: clamp(40px, 5vw, 70px) 0 20px; }

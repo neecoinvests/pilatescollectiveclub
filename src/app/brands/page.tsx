@@ -294,7 +294,7 @@ export default function BrandsPage() {
       <Header />
       <main>
         {/* Hero */}
-        <section className="r-ah r-ah-legacy">
+        <section className="r-ah r-ah-legacy r-ah-wide">
           <div className="r-wrap">
             <p className="text-[12.5px] font-bold mb-4" style={{ color: "#0a0a0a" }}>
               Brand Guides

@@ -210,21 +210,21 @@ export default function BestPilatesReformerUnder1000Page() {
       <main className="r-art">
 
         {/* Article header */}
-        <section className="r-ah">
+        <section className="r-ah r-ah-legacy">
           <div className="r-wrap">
             <div className="r-ah-cr r-sm">
               <span>Equipment Guide</span>
               <span>·</span>
               <span>Budget Reformers</span>
             </div>
-            <h1 className="r-d">
+            <h1 className="r-d r-h1">
               Best Pilates Reformer<br /><span className="r-gold">Under $1,000 (2026)</span>
             </h1>
             <p className="r-ah-meta mb-6"><span>Prices checked October 20, 2026</span> · <span>9 min read</span></p>
             <div className="max-w-3xl">
               <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
             </div>
-            <p className="r-lead r-intro max-w-5xl">
+            <p className="r-lead r-intro">
               Genuine spring reformers do exist under $1,000. Live Amazon listings include a real tier of budget, generic-brand reformers (WINDFOOT, DWKWE, and two PAETA models) with genuine coil-spring or spring-plus-cord resistance, all comfortably under $1,000. This guide covers all six genuine, currently-sold reformers in this bracket: four with real spring resistance from unfamiliar brands, and two established-brand cord machines from AeroPilates.
             </p>
           </div>
@@ -244,7 +244,7 @@ export default function BestPilatesReformerUnder1000Page() {
         {/* Main content */}
         <section className="pb-20">
           <div className="r-wrap">
-            <div className="r-col">
+            <div className="max-w-3xl mx-auto">
 
             <div className="mb-12">
               <h2 className="r-d">The honest picture under $1,000</h2>
