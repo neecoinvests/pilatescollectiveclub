@@ -34,6 +34,9 @@ const NOINDEX_PATHS = ["/partner-preview/the-core-collab/lagree-fitness"];
 //  2. Homepage: the featured stories used to be a rotator that put one story in the
 //     HTML at a time; all of them are now cards in the HTML. The featured block is
 //     compared separately: everything the base had must still be there.
+//  4. Footer (owner request): the footer was expanded with more links. It is
+//     compared separately: every link and every piece of text the base footer
+//     had must still be in the new footer; additions are allowed there only.
 const FEATURED = { base: /\bpcc-featured-grid\b/, branch: null, branchAttr: "data-track-item" };
 
 //  3. One "At a Glance" product list per page (owner request): on these pages a
@@ -78,7 +81,7 @@ const sortKeys = (v) =>
 
 // Small tolerant HTML walker. Good enough for server-rendered React output.
 function analyse(html, side, pathname) {
-  const res = { text: "", headings: [], links: [], alts: [], imgNoAlt: 0, jsonld: [], head: {}, featured: { text: "", links: [], alts: [] } };
+  const res = { text: "", headings: [], links: [], alts: [], imgNoAlt: 0, jsonld: [], head: {}, featured: { text: "", links: [], alts: [] }, footer: { text: "", links: [], alts: [], texts: [] } };
   const re = /<!--[\s\S]*?-->|<(script|style)\b[^>]*>[\s\S]*?<\/\1\s*>|<\/?[a-zA-Z][^>]*>|[^<]+/g;
   const stack = []; // { name, hidden, featured, heading }
   let inBody = false;
@@ -89,6 +92,7 @@ function analyse(html, side, pathname) {
     const top = stack[stack.length - 1];
     const hidden = top?.hidden;
     const featured = top?.featured;
+    const footer = top?.footer;
     if (m[1]) {
       if (m[1].toLowerCase() === "script") {
         const open = tok.slice(0, tok.indexOf(">") + 1);
@@ -111,7 +115,8 @@ function analyse(html, side, pathname) {
       }
       if (hidden) continue;
       const t = decode(tok);
-      (featured ? res.featured : res).text += t;
+      if (footer) res.footer.texts.push(squash(t));
+      (footer ? res.footer : featured ? res.featured : res).text += t;
       for (const el of stack) if (el.heading) el.heading.text += t;
       continue;
     }
@@ -138,7 +143,8 @@ function analyse(html, side, pathname) {
       featured ||
       (pathname === "/" && (side === "base" ? FEATURED.base.test(a.class ?? "") : FEATURED.branchAttr in a));
     const isHidden = hidden || skip || a["aria-hidden"] === "true";
-    const bucket = isFeatured ? res.featured : res;
+    const isFooter = footer || name === "footer";
+    const bucket = isFooter ? res.footer : isFeatured ? res.featured : res;
     if (inBody && !skip) {
       if (name === "a" && "href" in a) bucket.links.push([a.href, a.rel ?? "", a.target ?? ""].join(" | "));
       if (name === "img") {
@@ -148,14 +154,15 @@ function analyse(html, side, pathname) {
       }
     }
     let heading = null;
-    if (inBody && !isHidden && /^h[1-4]$/.test(name) && !isFeatured) {
+    if (inBody && !isHidden && /^h[1-4]$/.test(name) && !isFeatured && !isFooter) {
       heading = { level: name, text: "" };
       res.headings.push(heading);
     }
-    if (!VOID.has(name) && !tok.endsWith("/>")) stack.push({ name, hidden: isHidden, featured: isFeatured, heading });
+    if (!VOID.has(name) && !tok.endsWith("/>")) stack.push({ name, hidden: isHidden, featured: isFeatured, footer: isFooter, heading });
   }
   res.text = squash(res.text);
   res.featured.text = squash(res.featured.text);
+  res.footer.text = squash(res.footer.text);
   res.headings = res.headings.map((h) => `${h.level}: ${squash(h.text)}`);
   res.alts.sort();
   res.jsonld.sort();
@@ -176,6 +183,10 @@ const listDiff = (a, b) => {
 
 function compare(pathname, base, branch) {
   const fails = [];
+  // Footer: nothing the base had may be missing.
+  const footerLinks = new Set(branch.footer.links);
+  for (const l of base.footer.links) if (!footerLinks.has(l)) fails.push(`footer: link missing (${l})`);
+  for (const t of base.footer.texts) if (t && !branch.footer.text.includes(t)) fails.push(`footer: text missing (${t.slice(0, 40)})`);
   if (DEDUPED.has(pathname)) {
     if (!isSubsequence(branch.text, base.text) || branch.text.length >= base.text.length) fails.push("deduped page: text was added or changed, not only removed");
     if (!isSubsequence(branch.links, base.links)) fails.push("deduped page: a link was added or changed, not only removed");
