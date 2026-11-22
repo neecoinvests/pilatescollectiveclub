@@ -131,7 +131,7 @@ export default function PilatesVsYogaPage() {
           imageAlt="Pilates and yoga practice comparison"
           category="Method"
           subcategory="7 min read"
-          title={<>Pilates vs Yoga:<br /><span style={{ color: "#8b4a31" }}>Key Differences and How to Choose</span></>}
+          title={<>Pilates vs Yoga:<br /><span style={{ color: "#0a0a0a" }}>Key Differences and How to Choose</span></>}
           date="May 2026"
           readTime="7 min read"
           dateLabel="Prices checked October 20, 2026"
@@ -157,8 +157,8 @@ export default function PilatesVsYogaPage() {
                 <Callout>The question isn&apos;t which is better: it&apos;s which is better for you, at this point in your life, with the goals you currently have.</Callout>
 
                 <Section title="What each practice develops">
-                  <p><strong style={{ color: "#1b1c1c" }}>Pilates</strong> primarily develops core strength, spinal articulation, postural alignment, and controlled movement patterns. The method works the deep stabilizing muscles (the transversus abdominis, the multifidus, the pelvic floor) that most conventional gym training neglects. Reformer Pilates adds spring resistance, which develops muscular strength and endurance in ways that mat work alone cannot.</p>
-                  <p><strong style={{ color: "#1b1c1c" }}>Yoga</strong> primarily develops flexibility, balance, and body awareness, alongside, in flowing styles, cardiovascular fitness. More strength-oriented styles (ashtanga, power yoga) build considerable upper body and functional strength. The practice also develops breath regulation and, in dedicated practitioners, significant mental stillness.</p>
+                  <p><strong style={{ color: "#0a0a0a" }}>Pilates</strong> primarily develops core strength, spinal articulation, postural alignment, and controlled movement patterns. The method works the deep stabilizing muscles (the transversus abdominis, the multifidus, the pelvic floor) that most conventional gym training neglects. Reformer Pilates adds spring resistance, which develops muscular strength and endurance in ways that mat work alone cannot.</p>
+                  <p><strong style={{ color: "#0a0a0a" }}>Yoga</strong> primarily develops flexibility, balance, and body awareness, alongside, in flowing styles, cardiovascular fitness. More strength-oriented styles (ashtanga, power yoga) build considerable upper body and functional strength. The practice also develops breath regulation and, in dedicated practitioners, significant mental stillness.</p>
                   <p>Both practices improve body awareness, reduce injury risk, and produce calmer, more functional movers. The difference is emphasis: Pilates is more clinical and targeted; yoga is broader and, for many practitioners, more holistic.</p>
                 </Section>
 
@@ -166,10 +166,10 @@ export default function PilatesVsYogaPage() {
                   <div className="overflow-x-auto r-glance">
                     <table className="w-full" style={{ borderCollapse: "collapse" }}>
                       <thead>
-                        <tr style={{ backgroundColor: "#f6f3f2" }}>
-                          <th className="py-4 px-5 text-left text-xs font-semibold uppercase tracking-wider" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}></th>
-                          <th className="py-4 px-5 text-left text-xs font-semibold uppercase tracking-wider" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Pilates</th>
-                          <th className="py-4 px-5 text-left text-xs font-semibold uppercase tracking-wider" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Yoga</th>
+                        <tr style={{ backgroundColor: "#ede9e3" }}>
+                          <th className="py-4 px-5 text-left text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}></th>
+                          <th className="py-4 px-5 text-left text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Pilates</th>
+                          <th className="py-4 px-5 text-left text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Yoga</th>
                         </tr>
                       </thead>
                       <tbody className="px-5">
@@ -200,8 +200,8 @@ export default function PilatesVsYogaPage() {
                 </Section>
 
                 <Section title="Choosing the right style within each">
-                  <p><strong style={{ color: "#1b1c1c" }}>Within Pilates:</strong> Classical Pilates (following the original Pilates sequence) suits those who want a methodical, progressive system. Contemporary Pilates is more adaptive and incorporates modern movement science. Reformer Pilates adds resistance and is generally more physically demanding than mat work alone.</p>
-                  <p><strong style={{ color: "#1b1c1c" }}>Within yoga:</strong> Hatha yoga is slow-paced and accessible to beginners. Vinyasa is flowing and cardiovascular. Ashtanga is the most structured and physically demanding. Yin yoga is passive and focused on connective tissue and the nervous system. Restorative yoga is deeply relaxing and therapeutic.</p>
+                  <p><strong style={{ color: "#0a0a0a" }}>Within Pilates:</strong> Classical Pilates (following the original Pilates sequence) suits those who want a methodical, progressive system. Contemporary Pilates is more adaptive and incorporates modern movement science. Reformer Pilates adds resistance and is generally more physically demanding than mat work alone.</p>
+                  <p><strong style={{ color: "#0a0a0a" }}>Within yoga:</strong> Hatha yoga is slow-paced and accessible to beginners. Vinyasa is flowing and cardiovascular. Ashtanga is the most structured and physically demanding. Yin yoga is passive and focused on connective tissue and the nervous system. Restorative yoga is deeply relaxing and therapeutic.</p>
                   <p>The style matters as much as the practice. A vigorous ashtanga practice is physically closer to reformer Pilates than it is to restorative yoga. Choose based on your temperament and your goals, not on what you think you should be doing.</p>
                 </Section>
               </div>
@@ -211,9 +211,9 @@ export default function PilatesVsYogaPage() {
             {/* Equipment */}
 
             {FAQS.length > 0 && <FaqSection faqs={FAQS} />}
-            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Recommended kit</h2>
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid #ddd6cc" }}>
+              <p className="text-[12.5px] font-bold mb-2" style={{ color: "#0a0a0a" }}>Equipment</p>
+              <h2 className="mb-8 r-d r-h2">Recommended kit</h2>
               <div className="space-y-8">
                 {PRODUCTS.map((p) => (
                   <ProductCard key={p.name} name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
@@ -240,8 +240,8 @@ export default function PilatesVsYogaPage() {
 function Section({ title, children }: { title: string; children: React.ReactNode }) {
   return (
     <div className="mb-12">
-      <h2 className="text-2xl font-semibold mb-5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{title}</h2>
-      <div className="space-y-4 text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+      <h2 className="mb-5 r-d r-h2">{title}</h2>
+      <div className="space-y-4 text-base leading-relaxed" style={{ color: "#3a3530" }}>
         {children}
       </div>
     </div>
@@ -250,8 +250,8 @@ function Section({ title, children }: { title: string; children: React.ReactNode
 
 function Callout({ children }: { children: React.ReactNode }) {
   return (
-    <blockquote className="my-10 border-l-4 pl-6 py-2" style={{ borderColor: "#8b4a31" }}>
-      <p className="text-lg italic leading-relaxed" style={{ color: "#8b4a31", fontFamily: "'Playfair Display', serif" }}>{children}</p>
+    <blockquote className="my-10 border-l-4 pl-6 py-2" style={{ borderColor: "#0a0a0a" }}>
+      <p className="text-lg italic leading-relaxed r-hx" style={{ color: "#0a0a0a" }}>{children}</p>
     </blockquote>
   );
 }
@@ -259,9 +259,9 @@ function Callout({ children }: { children: React.ReactNode }) {
 function CompareRow({ feature, pilates, yoga }: { feature: string; pilates: string; yoga: string }) {
   return (
     <tr>
-      <td className="py-3 pr-6 font-semibold text-sm align-top" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif", borderBottom: "1px solid rgba(217,194,186,0.3)", minWidth: "140px" }}>{feature}</td>
-      <td className="py-3 pr-6 text-sm align-top" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", borderBottom: "1px solid rgba(217,194,186,0.3)" }}>{pilates}</td>
-      <td className="py-3 text-sm align-top" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", borderBottom: "1px solid rgba(217,194,186,0.3)" }}>{yoga}</td>
+      <td className="py-3 pr-6 font-semibold text-sm align-top" style={{ color: "#0a0a0a", borderBottom: "1px solid #ddd6cc", minWidth: "140px" }}>{feature}</td>
+      <td className="py-3 pr-6 text-sm align-top" style={{ color: "#3a3530", borderBottom: "1px solid #ddd6cc" }}>{pilates}</td>
+      <td className="py-3 text-sm align-top" style={{ color: "#3a3530", borderBottom: "1px solid #ddd6cc" }}>{yoga}</td>
     </tr>
   );
 }

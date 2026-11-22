@@ -150,7 +150,7 @@ export default function ConsistentPracticePage() {
           imageUrl="/pictures/logan-weaver-lgnwvr-u76Gd0hP5w4-unsplash.jpg"
           imageAlt="Building a consistent Pilates practice"
           category="Lifestyle"
-          title={<>How to Build a Consistent<br /><span style={{ color: "#8b4a31" }}>Pilates Practice</span></>}
+          title={<>How to Build a Consistent<br /><span style={{ color: "#0a0a0a" }}>Pilates Practice</span></>}
           date="Updated May 2026"
           readTime="7 min read"
           dateLabel="Prices checked October 20, 2026"
@@ -204,9 +204,9 @@ export default function ConsistentPracticePage() {
 
             {FAQS.length > 0 && <FaqSection faqs={FAQS} />}
             {/* Equipment */}
-            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Recommended kit</h2>
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid #ddd6cc" }}>
+              <p className="text-[12.5px] font-bold mb-2" style={{ color: "#0a0a0a" }}>Equipment</p>
+              <h2 className="mb-8 r-d r-h2">Recommended kit</h2>
               <div className="space-y-8">
                 {PRODUCTS.map((p) => (
                   <ProductCard key={p.name} name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
@@ -215,8 +215,8 @@ export default function ConsistentPracticePage() {
             </div>
 
             {/* Continue reading */}
-            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Continue reading</h2>
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid #ddd6cc" }}>
+              <h2 className="mb-8 r-d r-h2">Continue reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 {RELATED.map((a) => (<ArticleCard key={a.href} {...a} />))}
               </div>
@@ -241,8 +241,8 @@ export default function ConsistentPracticePage() {
 function Section({ title, children }: { title: string; children: React.ReactNode }) {
   return (
     <div className="mb-12">
-      <h2 className="text-2xl font-semibold mb-5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{title}</h2>
-      <div className="space-y-4 text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+      <h2 className="mb-5 r-d r-h2">{title}</h2>
+      <div className="space-y-4 text-base leading-relaxed" style={{ color: "#3a3530" }}>
         {children}
       </div>
     </div>
@@ -251,8 +251,8 @@ function Section({ title, children }: { title: string; children: React.ReactNode
 
 function Callout({ children }: { children: React.ReactNode }) {
   return (
-    <blockquote className="my-10 border-l-4 pl-6 py-2" style={{ borderColor: "#8b4a31" }}>
-      <p className="text-lg italic leading-relaxed" style={{ color: "#8b4a31", fontFamily: "'Playfair Display', serif" }}>{children}</p>
+    <blockquote className="my-10 border-l-4 pl-6 py-2" style={{ borderColor: "#0a0a0a" }}>
+      <p className="text-lg italic leading-relaxed r-hx" style={{ color: "#0a0a0a" }}>{children}</p>
     </blockquote>
   );
 }

@@ -206,7 +206,7 @@ export default function PilatesExercisesForBeginnersPage() {
           imageAlt="Beginner Pilates mat practice"
           category="Beginners"
           subcategory="Exercise Guide"
-          title={<>10 Pilates Exercises<br /><span style={{ color: "#8b4a31" }}>for Beginners</span></>}
+          title={<>10 Pilates Exercises<br /><span style={{ color: "#0a0a0a" }}>for Beginners</span></>}
           date="Updated May 2026"
           readTime="11 min read"
           dateLabel="Prices checked October 20, 2026"
@@ -221,11 +221,11 @@ export default function PilatesExercisesForBeginnersPage() {
 
 
             <section className="pb-20">
-              <p className="text-lg leading-relaxed mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+              <p className="text-lg leading-relaxed mb-10" style={{ color: "#3a3530" }}>
                 Joseph Pilates developed his method as a progression, each exercise building on the last, each skill creating the foundation for the next. The 10 exercises in this guide are the most fundamental in the mat repertoire. Master these before progressing to the teaser, the corkscrew, or the scissors. The foundation is everything in Pilates.
               </p>
 
-              <p className="text-base leading-relaxed mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed mb-10" style={{ color: "#3a3530" }}>
                 For home practice, all you need is a quality mat: the{" "}
                 Manduka PRO{" "}
                 or{" "}
@@ -236,37 +236,37 @@ export default function PilatesExercisesForBeginnersPage() {
 
               <div className="space-y-12 mb-16">
                 {exercises.map((ex) => (
-                  <div key={ex.name} className="rounded-2xl overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.35)" }}>
-                    <div className="px-6 py-5" style={{ backgroundColor: "#f6f3f2", borderBottom: "1px solid rgba(217,194,186,0.35)" }}>
+                  <div key={ex.name} className="rounded-2xl overflow-hidden" style={{ border: "1px solid #ddd6cc" }}>
+                    <div className="px-6 py-5" style={{ backgroundColor: "#ede9e3", borderBottom: "1px solid #ddd6cc" }}>
                       <div className="flex items-center gap-4">
-                        <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{ex.number}</span>
+                        <span className="text-2xl r-hx" style={{ color: "#9a9490" }}>{ex.number}</span>
                         <div>
-                          <h2 className="text-xl font-semibold" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{ex.name}</h2>
-                          <p className="text-xs mt-1" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif", fontWeight: 600 }}>{ex.trains}</p>
+                          <h2 className="r-d r-h2">{ex.name}</h2>
+                          <p className="text-xs mt-1" style={{ color: "#3a3530", fontWeight: 600 }}>{ex.trains}</p>
                         </div>
                       </div>
                     </div>
                     <div className="px-6 py-5 bg-white space-y-4">
-                      <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{ex.description}</p>
-                      <div className="rounded-lg p-4" style={{ backgroundColor: "#fdf5f3", border: "1px solid rgba(139,74,49,0.15)" }}>
-                        <p className="text-xs font-semibold uppercase tracking-wider mb-1.5" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Common mistake</p>
-                        <p className="text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{ex.mistake}</p>
+                      <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{ex.description}</p>
+                      <div className="rounded-2xl p-4" style={{ backgroundColor: "#ede9e3" }}>
+                        <p className="text-[12.5px] font-bold mb-1.5" style={{ color: "#0a0a0a" }}>Common mistake</p>
+                        <p className="text-base" style={{ color: "#3a3530" }}>{ex.mistake}</p>
                       </div>
-                      <div className="rounded-lg p-4" style={{ backgroundColor: "#f0f7f1", border: "1px solid rgba(83,98,87,0.2)" }}>
-                        <p className="text-xs font-semibold uppercase tracking-wider mb-1.5" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Progression</p>
-                        <p className="text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{ex.progression}</p>
+                      <div className="rounded-2xl p-4" style={{ backgroundColor: "#ede9e3" }}>
+                        <p className="text-[12.5px] font-bold mb-1.5" style={{ color: "#3a3530" }}>Progression</p>
+                        <p className="text-base" style={{ color: "#3a3530" }}>{ex.progression}</p>
                       </div>
                     </div>
                   </div>
                 ))}
               </div>
 
-              <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
-                <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Equipment for your first Pilates kit</h2>
-                <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#ede9e3" }}>
+                <h2 className="mb-4 r-d r-h2">Equipment for your first Pilates kit</h2>
+                <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                   These 10 exercises require only a mat. But as you build consistency, a few accessories enhance the experience significantly:
                 </p>
-                <ul className="space-y-2 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+                <ul className="space-y-2 text-sm" style={{ color: "#3a3530" }}>
                   <li>A{" "}Pilates magic circle{" "}adds resistance to the inner thigh, arm, and abdominal work.</li>
                   <li>Long resistance bands{" "}extend the arm and leg work and substitute for a reformer in some rowing exercises.</li>
                   <li>A{" "}Pilates small ball{" "}adds proprioceptive challenge and supports the lower back in some exercises.</li>
@@ -274,7 +274,7 @@ export default function PilatesExercisesForBeginnersPage() {
               </div>
 
               <div className="mb-16">
-                <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+                <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
                 <div className="space-y-6">
                   {[
                     { q: "How often should a beginner do Pilates?", a: "2-3 sessions per week is the recommended starting frequency. This gives your body time to adapt between sessions while building the neural connections needed for proper movement patterning. After 6-8 weeks, many beginners move to 3-4 sessions per week." },
@@ -282,16 +282,16 @@ export default function PilatesExercisesForBeginnersPage() {
                     { q: "How long should a beginner Pilates session be?", a: "30-45 minutes is the ideal beginner session length. This is long enough to warm up, cover 6-10 exercises properly, and cool down, but short enough that technique doesn't deteriorate from fatigue. Quality of movement matters more than duration." },
                     { q: "Is Pilates hard for beginners?", a: "The movements appear simple but demand genuine concentration. The first 10-15 sessions are often humbling: stabilizing the pelvis during leg movements, finding the deep abdominals, and maintaining spinal elongation simultaneously are skills that take weeks to develop. Progress is consistent and measurable, which is what keeps beginners engaged." },
                   ].map((item) => (
-                    <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                      <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                      <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                    <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                      <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                      <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                     </div>
                   ))}
                 </div>
               </div>
 
               <div>
-                <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+                <h2 className="mb-8 r-d r-h2">Further reading</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                   <ArticleCard title="Best Pilates Mat (2026)" excerpt="Five mats ranked for beginners: firmness, grip, and spinal cushioning." href="/blog/best-pilates-mat" category="Equipment" readTime="9 min read" date="May 2026" imageUrl="/pictures/dane-wetton-t1NEMSm1rgI-unsplash.jpg" />
                   <ArticleCard title="Best Pilates Starter Kit (2026)" excerpt="Everything to buy first (mat, grip socks, bands, ring) in the right order." href="/blog/best-pilates-starter-kit" category="Beginners" readTime="9 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-Zp4APUiwEsM-unsplash.jpg" />

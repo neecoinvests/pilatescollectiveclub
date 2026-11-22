@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
-import QuickPicks from "@/components/QuickPicks";
 import TopPick from "@/components/TopPick";
 import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
@@ -377,20 +376,20 @@ const jsonLd = {
   ],
 };
 
-const eyebrowStyle = { color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" };
-const bodyStyle = { color: "#53433e", fontFamily: "'Montserrat', sans-serif" };
-const h2Style = { color: "#1b1c1c", fontFamily: "'Playfair Display', serif" };
-const inlineLinkStyle = { color: "#8b4a31", textDecoration: "underline" };
-const chipStyle = { backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" };
-const cardStyle = { backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" };
-const hubStyle = { backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.4)", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif", textDecoration: "none" };
-const shopStyle = { display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase" as const, color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap" as const, flexShrink: 0 };
+const eyebrowStyle = { color: "#0a0a0a" };
+const bodyStyle = { color: "#3a3530" };
+const h2Style = { color: "#0a0a0a" };
+const inlineLinkStyle = { color: "#0a0a0a", textDecoration: "underline" };
+const chipStyle = { backgroundColor: "#ede9e3", color: "#0a0a0a" };
+const cardStyle = { backgroundColor: "#ede9e3" };
+const hubStyle = { backgroundColor: "#ede9e3", color: "#0a0a0a", textDecoration: "none" };
+const shopStyle = { display: "block", fontSize: "12.5px", fontWeight: 600, color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap" as const, flexShrink: 0 };
 
 function GiftCard({ g }: { g: Gift }) {
   return (
     <div id={g.id} className="scroll-mt-28">
       <div className="flex items-center gap-3 mb-4">
-        <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={chipStyle}>{g.badge}</span>
+        <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={chipStyle}>{g.badge}</span>
       </div>
       <ProductCard name={g.name} description={g.description} price={g.price} affiliateUrl={g.url} />
     </div>
@@ -412,23 +411,23 @@ export default function BestLagreeGiftsPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={eyebrowStyle}>Gift Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Lagree</span>
+              <span className="text-[12.5px] font-bold" style={eyebrowStyle}>Gift Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Lagree</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              The Best Lagree Gifts<br /><span style={{ color: "#8b4a31" }}>(2026): 18 Ideas for Every Budget</span>
+            <h1 className="mb-6 r-d r-h1">
+              The Best Lagree Gifts<br /><span style={{ color: "#a98a5f" }}>(2026): 18 Ideas for Every Budget</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 11 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 11 min read</p>
             <TopPick name={QUICK_PICKS[0].name} price={QUICK_PICKS[0].price} note={QUICK_PICKS[0].note} url={QUICK_PICKS[0].url} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed mb-6" style={{ color: "#3a3530" }}>
               Shopping for someone who talks about &ldquo;the shakes&rdquo; like it is a good thing? Lagree people are easy to buy for once you know the secret: they go through grip socks and towels fast, they are always a little sore, and they would never buy themselves the premium version of either. Here are 18 gifts they will actually use, sorted by budget, from a $6 stocking stuffer to the brand&apos;s own home machine.
             </p>
-            <p className="text-sm leading-relaxed" style={bodyStyle}>
+            <p className="text-base leading-relaxed" style={bodyStyle}>
               Every product was checked live on Amazon on October 3, 2026, at the price shown. Prices change, especially around the holidays, so the final price is whatever Amazon shows at checkout.
             </p>
           </div>
@@ -436,8 +435,8 @@ export default function BestLagreeGiftsPage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/stitch-studio-shelf-props.png" alt="A studio shelf of props and accessories: best Lagree gifts" fill className="object-cover" style={{ filter: "brightness(0.85)" }} priority />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/stitch-studio-shelf-props.png" alt="A studio shelf of props and accessories: best Lagree gifts" fill className="object-cover" priority />
             </div>
           </div>
         </section>
@@ -445,7 +444,6 @@ export default function BestLagreeGiftsPage() {
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
 
-            <QuickPicks className="mb-6 mt-4" picks={QUICK_PICKS} />
             <AffiliateNote>Every link on this page goes to Amazon, and we earn a small commission on qualifying purchases at no extra cost to you.</AffiliateNote>
 
             <div className="mb-10 mt-4 flex flex-col sm:flex-row gap-3">
@@ -463,8 +461,8 @@ export default function BestLagreeGiftsPage() {
               </div>
               {TIERS.map((t) => (
                 <div key={t.id}>
-                  <div className="px-6 py-2" style={{ borderTop: "1px solid rgba(217,194,186,0.25)", backgroundColor: "#fcf9f8" }}>
-                    <p className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>{t.label}</p>
+                  <div className="px-6 py-2" style={{ borderTop: "1px solid #ddd6cc", backgroundColor: "#f7f4f0" }}>
+                    <p className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>{t.label}</p>
                   </div>
                   {t.gifts.map((g) => {
                     const n = GIFT_NUMBER.get(g.id) ?? 0;
@@ -489,7 +487,7 @@ export default function BestLagreeGiftsPage() {
 
             {/* How to choose */}
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-6" style={h2Style}>How to pick a Lagree gift they will actually use</h2>
+              <h2 className="mb-6 r-d r-h2" style={h2Style}>How to pick a Lagree gift they will actually use</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[
                   { heading: "Consumables win", body: "Grip socks and towels wear out. A gift that replaces something they already buy never ends up in a drawer." },
@@ -498,8 +496,8 @@ export default function BestLagreeGiftsPage() {
                   { heading: "Mind the sizes", body: "Socks, gloves, tops and smart rings need a size. Bottles, towels, sliders and massage tools do not." },
                 ].map((item) => (
                   <div key={item.heading} className="rounded-xl p-5" style={cardStyle}>
-                    <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.heading}</p>
-                    <p className="text-sm leading-relaxed" style={bodyStyle}>{item.body}</p>
+                    <p className="text-sm mb-1.5 r-hx" style={{ color: "#0a0a0a" }}>{item.heading}</p>
+                    <p className="text-base leading-relaxed" style={bodyStyle}>{item.body}</p>
                   </div>
                 ))}
               </div>
@@ -509,11 +507,11 @@ export default function BestLagreeGiftsPage() {
             {TIERS.map((t) => (
               <div key={t.id} id={t.id} className="mb-16 scroll-mt-28">
                 <div className="flex items-center gap-4 mb-10">
-                  <p className="text-xs font-semibold uppercase tracking-[0.2em] shrink-0" style={eyebrowStyle}>{t.label}</p>
-                  <div className="flex-1 h-px" style={{ backgroundColor: "#d9c2ba" }} />
+                  <p className="text-[12.5px] font-bold shrink-0" style={eyebrowStyle}>{t.label}</p>
+                  <div className="flex-1 h-px" style={{ backgroundColor: "#ddd6cc" }} />
                 </div>
-                <h2 className="text-3xl font-semibold mb-4" style={h2Style}>{t.title}</h2>
-                <p className="text-sm leading-relaxed mb-8" style={bodyStyle}>{t.intro}</p>
+                <h2 className="mb-4 r-d r-h2" style={h2Style}>{t.title}</h2>
+                <p className="text-base leading-relaxed mb-8" style={bodyStyle}>{t.intro}</p>
                 <div className="space-y-8">
                   {t.gifts.map((g) => (
                     <GiftCard key={g.id} g={g} />
@@ -523,18 +521,18 @@ export default function BestLagreeGiftsPage() {
             ))}
 
             {/* Bundles */}
-            <div className="mb-16 rounded-2xl p-6 md:p-8" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.5)" }}>
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={eyebrowStyle}>Ready-made bundles</p>
-              <h2 className="text-2xl font-semibold mb-4" style={h2Style}>Three gift sets that always land</h2>
+            <div className="mb-16 rounded-2xl p-6 md:p-8" style={{ backgroundColor: "#ede9e3" }}>
+              <p className="text-[12.5px] font-bold mb-3" style={eyebrowStyle}>Ready-made bundles</p>
+              <h2 className="mb-4 r-d r-h2" style={h2Style}>Three gift sets that always land</h2>
               <ul className="space-y-3">
-                <li className="text-sm leading-relaxed" style={bodyStyle}>
-                  <span className="font-semibold" style={{ color: "#1b1c1c" }}>The class bag refill (about $66):</span> TAVI Savvy socks ($16.00) + Shandali towel ($19.99) + Owala bottle ($29.99) = $65.98.
+                <li className="text-base leading-relaxed" style={bodyStyle}>
+                  <span className="font-semibold" style={{ color: "#0a0a0a" }}>The class bag refill (about $66):</span> TAVI Savvy socks ($16.00) + Shandali towel ($19.99) + Owala bottle ($29.99) = $65.98.
                 </li>
-                <li className="text-sm leading-relaxed" style={bodyStyle}>
-                  <span className="font-semibold" style={{ color: "#1b1c1c" }}>The day-after kit (about $155):</span> Hypervolt Go 3 ($149.00) + Dr Teal&apos;s soak ($5.87) = $154.87.
+                <li className="text-base leading-relaxed" style={bodyStyle}>
+                  <span className="font-semibold" style={{ color: "#0a0a0a" }}>The day-after kit (about $155):</span> Hypervolt Go 3 ($149.00) + Dr Teal&apos;s soak ($5.87) = $154.87.
                 </li>
-                <li className="text-sm leading-relaxed" style={bodyStyle}>
-                  <span className="font-semibold" style={{ color: "#1b1c1c" }}>The home studio ($1,280):</span> The Micro ($990.00) + Rear Platform ($290.00) = $1,280.00. See the full setup in our{" "}
+                <li className="text-base leading-relaxed" style={bodyStyle}>
+                  <span className="font-semibold" style={{ color: "#0a0a0a" }}>The home studio ($1,280):</span> The Micro ($990.00) + Rear Platform ($290.00) = $1,280.00. See the full setup in our{" "}
                   <Link href="/blog/lagree-fitness" style={inlineLinkStyle}>Lagree Fitness brand guide</Link>.
                 </li>
               </ul>
@@ -542,16 +540,16 @@ export default function BestLagreeGiftsPage() {
 
             {/* FAQ */}
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={h2Style}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2" style={h2Style}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {FAQS.map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={cardStyle}>
-                    <h3 className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</h3>
-                    <p className="text-sm leading-relaxed" style={bodyStyle}>{item.a}</p>
+                    <h3 className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</h3>
+                    <p className="text-base leading-relaxed" style={bodyStyle}>{item.a}</p>
                   </div>
                 ))}
               </div>
-              <p className="text-sm leading-relaxed mt-6" style={bodyStyle}>
+              <p className="text-base leading-relaxed mt-6" style={bodyStyle}>
                 Shopping for a Pilates person too? See{" "}
                 <Link href="/blog/best-pilates-gifts-under-50" style={inlineLinkStyle}>Pilates gifts under $50</Link> and{" "}
                 <Link href="/blog/best-luxury-pilates-gifts" style={inlineLinkStyle}>luxury Pilates gifts</Link>.
@@ -560,7 +558,7 @@ export default function BestLagreeGiftsPage() {
 
             {/* Further reading */}
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={h2Style}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2" style={h2Style}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Lagree Essentials" excerpt="Best, budget and splurge picks for every piece of Lagree gear, from grip socks to recovery." href="/blog/lagree-essentials" category="Equipment" readTime="12 min read" date="September 2026" imageUrl="/pictures/stitch-reformer-row-studio.png" />
                 <ArticleCard title="Sore After Lagree?" excerpt="Why Lagree soreness happens, how long it lasts, and the recovery gear worth buying." href="/blog/lagree-recovery" category="Lagree" readTime="11 min read" date="October 2026" imageUrl="/pictures/stitch-studio-bench-towels.png" />

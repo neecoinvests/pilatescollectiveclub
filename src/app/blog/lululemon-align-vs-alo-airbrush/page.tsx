@@ -130,46 +130,45 @@ export default function LululemonAlignVsAloAirbrushPage() {
       <main>
 
         {/* Hero */}
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
               <span
-                className="text-xs font-semibold uppercase tracking-[0.2em]"
-                style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}
+                className="text-[12.5px] font-bold"
+                style={{ color: "#0a0a0a" }}
               >
                 Comparison
               </span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
+              <span style={{ color: "#9a9490" }}>·</span>
               <span
-                className="text-xs font-semibold uppercase tracking-[0.15em]"
-                style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}
+                className="text-[12.5px] font-bold"
+                style={{ color: "#6f6964" }}
               >
                 Apparel
               </span>
             </div>
 
             <h1
-              className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6"
-              style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}
+              className="mb-6 r-d r-h1"
             >
               Lululemon Align vs Alo Airbrush Leggings:{" "}
-              <span style={{ color: "#8b4a31" }}>The Honest Verdict</span>
+              <span style={{ color: "#a98a5f" }}>The Honest Verdict</span>
             </h1>
 
             <p
-              className="text-sm mb-6"
-              style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}
+              className="text-base mb-6"
+              style={{ color: "#6f6964" }}
             >
               Updated May 2026 · 10 min read
             </p>
             <TopPick name="lululemon Align High-Rise Pant 25-inch" price="$98.00" note="Sold on Amazon; Alo Airbrush is sold at aloyoga.com" url="https://www.amazon.com/dp/B08M8ZTKJS?tag=pilatescollective-20" />
 
 
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
 
             <p
               className="text-lg leading-relaxed"
-              style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}
+              style={{ color: "#3a3530" }}
             >
               This comparison is written for practitioners who already know they want to invest in a premium studio legging and are deciding between the two most-discussed options in Pilates circles. We compared both across reformer, mat, and tower sessions: specifically examining the criteria that matter in a Pilates context, where your instructor observes alignment closely and the equipment places unusual demands on fabric. Here is what we actually found.
             </p>
@@ -188,7 +187,6 @@ export default function LululemonAlignVsAloAirbrushPage() {
                 alt="Lululemon Align vs Alo Airbrush leggings compared for reformer Pilates"
                 fill
                 className="object-cover"
-                style={{ filter: "brightness(0.87)" }}
                 priority
               />
             </div>
@@ -204,29 +202,29 @@ export default function LululemonAlignVsAloAirbrushPage() {
             {/* Quick verdict table */}
             <div
               className="rounded-2xl p-8 mb-16"
-              style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.4)" }}
+              style={{ backgroundColor: "#ede9e3" }}
             >
               <p
-                className="text-xs font-semibold uppercase tracking-[0.2em] mb-6"
-                style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}
+                className="text-[12.5px] font-bold mb-6"
+                style={{ color: "#0a0a0a" }}
               >
                 Quick Verdict
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
                 {/* Align column */}
                 <div
-                  className="rounded-xl p-6"
-                  style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)" }}
+                  className="rounded-2xl p-6"
+                  style={{ backgroundColor: "#ede9e3" }}
                 >
                   <p
-                    className="text-base font-semibold mb-1"
-                    style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}
+                    className="text-base mb-1 r-hx"
+                    style={{ color: "#0a0a0a" }}
                   >
                     Lululemon Align
                   </p>
                   <p
-                    className="text-xs uppercase tracking-widest mb-4"
-                    style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}
+                    className="text-[12.5px] mb-4"
+                    style={{ color: "#0a0a0a" }}
                   >
                     Best for
                   </p>
@@ -239,10 +237,10 @@ export default function LululemonAlignVsAloAirbrushPage() {
                     ].map((item) => (
                       <li
                         key={item}
-                        className="flex items-start gap-2 text-sm leading-snug"
-                        style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
+                        className="flex items-start gap-2 text-base leading-snug"
+                        style={{ color: "#3a3530" }}
                       >
-                        <span style={{ color: "#8b4a31", marginTop: "2px", flexShrink: 0 }}>–</span>
+                        <span style={{ color: "#0a0a0a", marginTop: "2px", flexShrink: 0 }}>–</span>
                         {item}
                       </li>
                     ))}
@@ -250,18 +248,18 @@ export default function LululemonAlignVsAloAirbrushPage() {
                 </div>
                 {/* Airbrush column */}
                 <div
-                  className="rounded-xl p-6"
-                  style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)" }}
+                  className="rounded-2xl p-6"
+                  style={{ backgroundColor: "#ede9e3" }}
                 >
                   <p
-                    className="text-base font-semibold mb-1"
-                    style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}
+                    className="text-base mb-1 r-hx"
+                    style={{ color: "#0a0a0a" }}
                   >
                     Alo Airbrush
                   </p>
                   <p
-                    className="text-xs uppercase tracking-widest mb-4"
-                    style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}
+                    className="text-[12.5px] mb-4"
+                    style={{ color: "#0a0a0a" }}
                   >
                     Best for
                   </p>
@@ -274,10 +272,10 @@ export default function LululemonAlignVsAloAirbrushPage() {
                     ].map((item) => (
                       <li
                         key={item}
-                        className="flex items-start gap-2 text-sm leading-snug"
-                        style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
+                        className="flex items-start gap-2 text-base leading-snug"
+                        style={{ color: "#3a3530" }}
                       >
-                        <span style={{ color: "#8b4a31", marginTop: "2px", flexShrink: 0 }}>–</span>
+                        <span style={{ color: "#0a0a0a", marginTop: "2px", flexShrink: 0 }}>–</span>
                         {item}
                       </li>
                     ))}
@@ -288,17 +286,17 @@ export default function LululemonAlignVsAloAirbrushPage() {
               {/* Overall pick */}
               <div
                 className="rounded-xl p-5"
-                style={{ backgroundColor: "#8b4a31" }}
+                style={{ backgroundColor: "#0a0a0a" }}
               >
                 <p
-                  className="text-xs uppercase tracking-[0.2em] mb-2"
-                  style={{ color: "rgba(255,255,255,0.7)", fontFamily: "'Montserrat', sans-serif" }}
+                  className="text-[12.5px] mb-2"
+                  style={{ color: "rgba(255,255,255,0.7)" }}
                 >
                   Our Overall Pick
                 </p>
                 <p
-                  className="text-sm leading-relaxed"
-                  style={{ color: "#ffffff", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}
+                  className="text-base leading-relaxed"
+                  style={{ color: "#ffffff" }}
                 >
                   For most Pilates practitioners, especially those attending reformer classes regularly, the{" "}
                   <span style={{ fontWeight: 600 }}>Alo Airbrush</span> edges ahead. Its durability advantage, consistent opacity, and more stable waistband under reformer-specific movement patterns make it a more practical long-term choice. The Align remains exceptional, particularly for mat-focused practitioners, but its pilling tendency and fabric sensitivity in lighter shades are genuine limitations for studio use.
@@ -308,14 +306,13 @@ export default function LululemonAlignVsAloAirbrushPage() {
 
             {/* Head-to-head heading */}
             <h2
-              className="text-3xl font-semibold mb-2"
-              style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}
+              className="mb-2 r-d r-h2"
             >
               Head-to-head: 8 criteria
             </h2>
             <p
-              className="text-sm mb-10"
-              style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}
+              className="text-base mb-10"
+              style={{ color: "#6f6964" }}
             >
               Each criterion is judged specifically within a Pilates context.
             </p>
@@ -326,73 +323,69 @@ export default function LululemonAlignVsAloAirbrushPage() {
               {/* 1. Fabric & feel */}
               <div
                 className="rounded-2xl p-8"
-                style={{
-                  backgroundColor: "#ffffff",
-                  border: "1px solid rgba(217,194,186,0.3)",
-                  borderLeft: "4px solid #8b4a31",
-                }}
+                style={{ backgroundColor: "#ede9e3", borderLeft: "4px solid #0a0a0a" }}
               >
                 <p
-                  className="text-xs uppercase tracking-[0.2em] mb-2"
-                  style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}
+                  className="text-[12.5px] mb-2"
+                  style={{ color: "#0a0a0a" }}
                 >
                   Criterion 01
                 </p>
                 <h3
-                  className="text-xl font-semibold mb-4"
-                  style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}
+                  className="text-xl mb-4 r-hx"
+                  style={{ color: "#0a0a0a" }}
                 >
                   Fabric &amp; feel
                 </h3>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-5">
                   <div
-                    className="rounded-xl p-4"
-                    style={{ backgroundColor: "#fcf9f8", border: "1px solid rgba(217,194,186,0.25)" }}
+                    className="rounded-2xl p-4"
+                    style={{ backgroundColor: "#ede9e3" }}
                   >
                     <p
-                      className="text-xs font-semibold uppercase tracking-widest mb-2"
-                      style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
+                      className="text-[12.5px] font-bold mb-2"
+                      style={{ color: "#3a3530" }}
                     >
                       Align: Nulu
                     </p>
                     <p
-                      className="text-sm leading-relaxed"
-                      style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
+                      className="text-base leading-relaxed"
+                      style={{ color: "#3a3530" }}
                     >
                       Nulu is a proprietary Lululemon blend, predominantly nylon with elastane, weighing approximately 150–160 g/m². The sensation is genuinely exceptional: ultra-soft, warm against skin, with almost no perceived weight. On the body it reads as nothing at all.
                     </p>
                   </div>
                   <div
-                    className="rounded-xl p-4"
-                    style={{ backgroundColor: "#fcf9f8", border: "1px solid rgba(217,194,186,0.25)" }}
+                    className="rounded-2xl p-4"
+                    style={{ backgroundColor: "#ede9e3" }}
                   >
                     <p
-                      className="text-xs font-semibold uppercase tracking-widest mb-2"
-                      style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
+                      className="text-[12.5px] font-bold mb-2"
+                      style={{ color: "#3a3530" }}
                     >
                       Airbrush: Airlift
                     </p>
                     <p
-                      className="text-sm leading-relaxed"
-                      style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
+                      className="text-base leading-relaxed"
+                      style={{ color: "#3a3530" }}
                     >
                       Alo's Airlift fabric is a denser, slightly heavier blend, around 200–220 g/m², with a matte, polished finish. It has a smooth, almost slick feel that reads as "premium" in a different register: structured and sleek rather than pillow-soft.
                     </p>
                   </div>
                 </div>
                 <p
-                  className="text-sm leading-relaxed"
-                  style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
+                  className="text-base leading-relaxed"
+                  style={{ color: "#3a3530" }}
                 >
                   These are not competing versions of the same sensation: they are categorically different. The Nulu fabric in the Align is arguably the softest activewear fabric currently produced at scale. If you have ever put on the Align and immediately understood why people pay $128 for leggings, it is because of Nulu. The Airlift fabric in the Airbrush offers a very different pleasure: cool, structured, and body-sculpting rather than cocooning. Neither is objectively superior. They suit different sensory preferences entirely.
                 </p>
                 <div
                   className="mt-4 px-4 py-2 rounded-lg inline-block"
-                  style={{ backgroundColor: "#f6f3f2" }}
+                  style={{ backgroundColor: "#ede9e3" }}
                 >
                   <p
                     className="text-xs"
-                    style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif", fontWeight: 600 }}
+                    style={{ color: "#0a0a0a", fontWeight: 600 }}
                   >
                     Edge: Align (for softness) · Airbrush (for structured feel)
                   </p>
@@ -402,49 +395,45 @@ export default function LululemonAlignVsAloAirbrushPage() {
               {/* 2. Compression level */}
               <div
                 className="rounded-2xl p-8"
-                style={{
-                  backgroundColor: "#ffffff",
-                  border: "1px solid rgba(217,194,186,0.3)",
-                  borderLeft: "4px solid #8b4a31",
-                }}
+                style={{ backgroundColor: "#ede9e3", borderLeft: "4px solid #0a0a0a" }}
               >
                 <p
-                  className="text-xs uppercase tracking-[0.2em] mb-2"
-                  style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}
+                  className="text-[12.5px] mb-2"
+                  style={{ color: "#0a0a0a" }}
                 >
                   Criterion 02
                 </p>
                 <h3
-                  className="text-xl font-semibold mb-4"
-                  style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}
+                  className="text-xl mb-4 r-hx"
+                  style={{ color: "#0a0a0a" }}
                 >
                   Compression level
                 </h3>
                 <p
-                  className="text-sm leading-relaxed mb-4"
-                  style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
+                  className="text-base leading-relaxed mb-4"
+                  style={{ color: "#3a3530" }}
                 >
                   The Lululemon Align is intentionally low-compression. Lululemon designed the Align for yoga and movement practices where maximum sensory freedom outweighs support. The fabric hugs without squeezing: there is no inward pressure on the legs or abdomen. For Pilates, this has a specific implication: during the hundred, roll-ups, or teaser variations where abdominal engagement is the whole point, the Align does not add any external pressure that could mask or substitute for genuine core effort.
                 </p>
                 <p
-                  className="text-sm leading-relaxed mb-4"
-                  style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
+                  className="text-base leading-relaxed mb-4"
+                  style={{ color: "#3a3530" }}
                 >
                   The Alo Airbrush delivers medium-to-firm compression. The Airlift fabric actively holds the silhouette: you feel it working. During reformer footwork (lying supine, legs pressing and extending at 90 degrees of hip flexion repeatedly), the Airbrush maintains a smooth, contained line in a way the Align does not. Some practitioners actively value this as proprioceptive feedback; it sharpens body awareness during leg work. Others find it subtly restrictive for floor-based exercises that require lateral rotation of the hip.
                 </p>
                 <p
-                  className="text-sm leading-relaxed"
-                  style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
+                  className="text-base leading-relaxed"
+                  style={{ color: "#3a3530" }}
                 >
                   There is no right answer here: it depends on whether you want your leggings to participate in your practice or stay out of the way. Instructors generally do not have a preference either way.
                 </p>
                 <div
                   className="mt-4 px-4 py-2 rounded-lg inline-block"
-                  style={{ backgroundColor: "#f6f3f2" }}
+                  style={{ backgroundColor: "#ede9e3" }}
                 >
                   <p
                     className="text-xs"
-                    style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif", fontWeight: 600 }}
+                    style={{ color: "#0a0a0a", fontWeight: 600 }}
                   >
                     Edge: Airbrush (for reformer support) · Align (for mat freedom)
                   </p>
@@ -454,49 +443,45 @@ export default function LululemonAlignVsAloAirbrushPage() {
               {/* 3. Opacity */}
               <div
                 className="rounded-2xl p-8"
-                style={{
-                  backgroundColor: "#ffffff",
-                  border: "1px solid rgba(217,194,186,0.3)",
-                  borderLeft: "4px solid #8b4a31",
-                }}
+                style={{ backgroundColor: "#ede9e3", borderLeft: "4px solid #0a0a0a" }}
               >
                 <p
-                  className="text-xs uppercase tracking-[0.2em] mb-2"
-                  style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}
+                  className="text-[12.5px] mb-2"
+                  style={{ color: "#0a0a0a" }}
                 >
                   Criterion 03
                 </p>
                 <h3
-                  className="text-xl font-semibold mb-4"
-                  style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}
+                  className="text-xl mb-4 r-hx"
+                  style={{ color: "#0a0a0a" }}
                 >
                   Opacity &amp; reformer safety
                 </h3>
                 <p
-                  className="text-sm leading-relaxed mb-4"
-                  style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
+                  className="text-base leading-relaxed mb-4"
+                  style={{ color: "#3a3530" }}
                 >
                   Opacity matters more in Pilates than in nearly any other movement practice. Reformer footwork requires sustained deep hip flexion: legs pressed to the footbar, pelvis in neutral, hips at 90 degrees or beyond. Leg circles, frog position, and long-spine massage all create positions where fabric is stretched to its limit. Any sheerness present at rest will be compounded dramatically in these positions.
                 </p>
                 <p
-                  className="text-sm leading-relaxed mb-4"
-                  style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
+                  className="text-base leading-relaxed mb-4"
+                  style={{ color: "#3a3530" }}
                 >
                   Black is the safest Align color for opacity. Lighter colorways (ivory, soft blush, pale stone, and pastel tones) are more likely to show sheerness in deep hip flexion. This is a consequence of Nulu&apos;s lower fabric weight and the way it stretches: the weave opens under tension. Lululemon&apos;s own squat-test marketing focuses on squatting, but the Pilates hip-flexion position is a more extreme fabric stress test than a bodyweight squat.
                 </p>
                 <p
-                  className="text-sm leading-relaxed"
-                  style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
+                  className="text-base leading-relaxed"
+                  style={{ color: "#3a3530" }}
                 >
                   The Alo Airbrush is fully opaque across all colorways including white and light neutrals. The denser Airlift fabric does not open under stretch in the same way. For practitioners who love lighter colorways, the Airbrush is the only safe choice. For darker Align shades, opacity is not a concern.
                 </p>
                 <div
                   className="mt-4 px-4 py-2 rounded-lg inline-block"
-                  style={{ backgroundColor: "#f6f3f2" }}
+                  style={{ backgroundColor: "#ede9e3" }}
                 >
                   <p
                     className="text-xs"
-                    style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif", fontWeight: 600 }}
+                    style={{ color: "#0a0a0a", fontWeight: 600 }}
                   >
                     Edge: Airbrush (decisive advantage, all colorways)
                   </p>
@@ -506,49 +491,45 @@ export default function LululemonAlignVsAloAirbrushPage() {
               {/* 4. Waistband stability */}
               <div
                 className="rounded-2xl p-8"
-                style={{
-                  backgroundColor: "#ffffff",
-                  border: "1px solid rgba(217,194,186,0.3)",
-                  borderLeft: "4px solid #8b4a31",
-                }}
+                style={{ backgroundColor: "#ede9e3", borderLeft: "4px solid #0a0a0a" }}
               >
                 <p
-                  className="text-xs uppercase tracking-[0.2em] mb-2"
-                  style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}
+                  className="text-[12.5px] mb-2"
+                  style={{ color: "#0a0a0a" }}
                 >
                   Criterion 04
                 </p>
                 <h3
-                  className="text-xl font-semibold mb-4"
-                  style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}
+                  className="text-xl mb-4 r-hx"
+                  style={{ color: "#0a0a0a" }}
                 >
                   Waistband stability
                 </h3>
                 <p
-                  className="text-sm leading-relaxed mb-4"
-                  style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
+                  className="text-base leading-relaxed mb-4"
+                  style={{ color: "#3a3530" }}
                 >
                   Pilates movement vocabulary puts waistbands through a specific stress sequence that differs from running or HIIT. The hundred involves sustained core contraction in a semi-supine position with repeated arm pumps: abdominal pressure from within pushes outward against the waistband. Roll-ups and rolling like a ball require the waistband to accommodate the spine rounding through it. Side-lying leg series pulls the waistband laterally. These forces combined are a more thorough test than any squat.
                 </p>
                 <p
-                  className="text-sm leading-relaxed mb-4"
-                  style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
+                  className="text-base leading-relaxed mb-4"
+                  style={{ color: "#3a3530" }}
                 >
                   The Align&apos;s wide, smooth waistband performs very well here. It does not roll, does not dig, and sits flat whether you are lying on your back, side, or stomach. The band is seamless at the body-contact edge, which matters when performing exercises lying prone on the reformer carriage. It is designed to stay in place through a full reformer session without any adjustment.
                 </p>
                 <p
-                  className="text-sm leading-relaxed"
-                  style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
+                  className="text-base leading-relaxed"
+                  style={{ color: "#3a3530" }}
                 >
                   The Airbrush waistband is similarly wide and high-rise, but with slightly more structure thanks to the denser Airlift fabric. It holds its position with even more authority: there is genuinely no movement. In the prone position on a reformer carriage, the stiffer waistband can create a slight pressure point for some practitioners; the softer Align band does not. Both waistbands perform excellently, but the Align edges ahead marginally for practitioners who do significant prone work.
                 </p>
                 <div
                   className="mt-4 px-4 py-2 rounded-lg inline-block"
-                  style={{ backgroundColor: "#f6f3f2" }}
+                  style={{ backgroundColor: "#ede9e3" }}
                 >
                   <p
                     className="text-xs"
-                    style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif", fontWeight: 600 }}
+                    style={{ color: "#0a0a0a", fontWeight: 600 }}
                   >
                     Edge: Tie, both excellent, slight Align edge for prone work
                   </p>
@@ -558,73 +539,69 @@ export default function LululemonAlignVsAloAirbrushPage() {
               {/* 5. Price & value */}
               <div
                 className="rounded-2xl p-8"
-                style={{
-                  backgroundColor: "#ffffff",
-                  border: "1px solid rgba(217,194,186,0.3)",
-                  borderLeft: "4px solid #8b4a31",
-                }}
+                style={{ backgroundColor: "#ede9e3", borderLeft: "4px solid #0a0a0a" }}
               >
                 <p
-                  className="text-xs uppercase tracking-[0.2em] mb-2"
-                  style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}
+                  className="text-[12.5px] mb-2"
+                  style={{ color: "#0a0a0a" }}
                 >
                   Criterion 05
                 </p>
                 <h3
-                  className="text-xl font-semibold mb-4"
-                  style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}
+                  className="text-xl mb-4 r-hx"
+                  style={{ color: "#0a0a0a" }}
                 >
                   Price &amp; value
                 </h3>
                 <div className="grid grid-cols-2 gap-4 mb-5">
                   <div
-                    className="rounded-xl p-4 text-center"
-                    style={{ backgroundColor: "#fcf9f8", border: "1px solid rgba(217,194,186,0.3)" }}
+                    className="rounded-2xl p-4 text-center"
+                    style={{ backgroundColor: "#ede9e3" }}
                   >
                     <p
-                      className="text-2xl font-semibold mb-1"
-                      style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}
+                      className="text-2xl mb-1 r-hx"
+                      style={{ color: "#0a0a0a" }}
                     >
                       $98–128
                     </p>
                     <p
-                      className="text-xs uppercase tracking-widest"
-                      style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}
+                      className="text-[12.5px]"
+                      style={{ color: "#6f6964" }}
                     >
                       Lululemon Align
                     </p>
                   </div>
                   <div
-                    className="rounded-xl p-4 text-center"
-                    style={{ backgroundColor: "#fcf9f8", border: "1px solid rgba(217,194,186,0.3)" }}
+                    className="rounded-2xl p-4 text-center"
+                    style={{ backgroundColor: "#ede9e3" }}
                   >
                     <p
-                      className="text-2xl font-semibold mb-1"
-                      style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}
+                      className="text-2xl mb-1 r-hx"
+                      style={{ color: "#0a0a0a" }}
                     >
                       $88–118
                     </p>
                     <p
-                      className="text-xs uppercase tracking-widest"
-                      style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}
+                      className="text-[12.5px]"
+                      style={{ color: "#6f6964" }}
                     >
                       Alo Airbrush
                     </p>
                   </div>
                 </div>
                 <p
-                  className="text-sm leading-relaxed"
-                  style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
+                  className="text-base leading-relaxed"
+                  style={{ color: "#3a3530" }}
                 >
                   The Alo Airbrush typically comes in slightly under the Align on retail price, though both sit within striking distance of each other. The more meaningful value comparison is cost-per-wear over time. The Align&apos;s Nulu fabric pills at the inner thigh noticeably faster than the Airbrush&apos;s Airlift. For a practitioner attending four sessions per week, Align leggings typically need replacing at around 12–18 months of regular use. Airbrush leggings, in our experience, hold their surface integrity for closer to 24 months with equivalent use. On a pure cost-per-wear calculation, the Airbrush represents better value despite similar price points.
                 </p>
                 <div
                   className="mt-4 px-4 py-2 rounded-lg inline-block"
-                  style={{ backgroundColor: "#f6f3f2" }}
+                  style={{ backgroundColor: "#ede9e3" }}
                 >
                   <p
                     className="text-xs"
-                    style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif", fontWeight: 600 }}
+                    style={{ color: "#0a0a0a", fontWeight: 600 }}
                   >
                     Edge: Airbrush (better long-term cost-per-wear)
                   </p>
@@ -634,43 +611,39 @@ export default function LululemonAlignVsAloAirbrushPage() {
               {/* 6. Sizing & length */}
               <div
                 className="rounded-2xl p-8"
-                style={{
-                  backgroundColor: "#ffffff",
-                  border: "1px solid rgba(217,194,186,0.3)",
-                  borderLeft: "4px solid #8b4a31",
-                }}
+                style={{ backgroundColor: "#ede9e3", borderLeft: "4px solid #0a0a0a" }}
               >
                 <p
-                  className="text-xs uppercase tracking-[0.2em] mb-2"
-                  style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}
+                  className="text-[12.5px] mb-2"
+                  style={{ color: "#0a0a0a" }}
                 >
                   Criterion 06
                 </p>
                 <h3
-                  className="text-xl font-semibold mb-4"
-                  style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}
+                  className="text-xl mb-4 r-hx"
+                  style={{ color: "#0a0a0a" }}
                 >
                   Sizing &amp; length options
                 </h3>
                 <p
-                  className="text-sm leading-relaxed mb-4"
-                  style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
+                  className="text-base leading-relaxed mb-4"
+                  style={{ color: "#3a3530" }}
                 >
                   Lululemon offers the Align in sizes 0–20 (US), with a dedicated Align Tall line extending inseams to 31 inches. Standard inseam options are 21 inches (crop), 25 inches (7/8), and 28 inches (full), with some colorways also available in 31 inches. For Pilates specifically, the 25-inch or 28-inch inseam is the most practical: instructors can observe knee alignment clearly, and the length prevents the legging from riding up during leg-circle or spring-resistance footwork.
                 </p>
                 <p
-                  className="text-sm leading-relaxed"
-                  style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
+                  className="text-base leading-relaxed"
+                  style={{ color: "#3a3530" }}
                 >
                   The Alo Airbrush is available in XS–XL with less comprehensive size inclusivity at the upper end. Inseam options are more limited, typically 25 and 28 inches. The Airbrush runs true to size but the firmer compression means sizing up may be advisable at the waistband for practitioners between sizes. For petite or tall practitioners, Lululemon&apos;s superior size and inseam range is a genuine advantage.
                 </p>
                 <div
                   className="mt-4 px-4 py-2 rounded-lg inline-block"
-                  style={{ backgroundColor: "#f6f3f2" }}
+                  style={{ backgroundColor: "#ede9e3" }}
                 >
                   <p
                     className="text-xs"
-                    style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif", fontWeight: 600 }}
+                    style={{ color: "#0a0a0a", fontWeight: 600 }}
                   >
                     Edge: Align (superior size range and inseam options)
                   </p>
@@ -680,43 +653,39 @@ export default function LululemonAlignVsAloAirbrushPage() {
               {/* 7. Durability & care */}
               <div
                 className="rounded-2xl p-8"
-                style={{
-                  backgroundColor: "#ffffff",
-                  border: "1px solid rgba(217,194,186,0.3)",
-                  borderLeft: "4px solid #8b4a31",
-                }}
+                style={{ backgroundColor: "#ede9e3", borderLeft: "4px solid #0a0a0a" }}
               >
                 <p
-                  className="text-xs uppercase tracking-[0.2em] mb-2"
-                  style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}
+                  className="text-[12.5px] mb-2"
+                  style={{ color: "#0a0a0a" }}
                 >
                   Criterion 07
                 </p>
                 <h3
-                  className="text-xl font-semibold mb-4"
-                  style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}
+                  className="text-xl mb-4 r-hx"
+                  style={{ color: "#0a0a0a" }}
                 >
                   Durability &amp; care
                 </h3>
                 <p
-                  className="text-sm leading-relaxed mb-4"
-                  style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
+                  className="text-base leading-relaxed mb-4"
+                  style={{ color: "#3a3530" }}
                 >
                   The Nulu fabric in the Align is the weakest point of an otherwise excellent product. It pills. Not catastrophically, not immediately, but noticeably: beginning at the inner thigh after consistent weekly use, progressing to the seat and outer thigh. The pilling is partly a consequence of what makes Nulu exceptional: the low-friction, ultra-soft weave that creates that pillow sensation also pills more readily when rubbed against itself or reformer carriage surfaces repeatedly. Both Lululemon and independent reviewers widely acknowledge this limitation.
                 </p>
                 <p
-                  className="text-sm leading-relaxed mb-4"
-                  style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
+                  className="text-base leading-relaxed mb-4"
+                  style={{ color: "#3a3530" }}
                 >
                   The Alo Airbrush holds up significantly better. The denser Airlift fabric resists pilling, color holds through repeated cold washing, and the waistband elasticity remains consistent beyond 100 wash cycles. Both leggings should be washed inside-out on cold and air-dried: tumble drying accelerates the degradation of elastane in any performance fabric. Fabric softener should be avoided: it coats the moisture-wicking fibers and reduces both breathability and compression recovery over time.
                 </p>
                 <div
                   className="mt-4 px-4 py-2 rounded-lg inline-block"
-                  style={{ backgroundColor: "#f6f3f2" }}
+                  style={{ backgroundColor: "#ede9e3" }}
                 >
                   <p
                     className="text-xs"
-                    style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif", fontWeight: 600 }}
+                    style={{ color: "#0a0a0a", fontWeight: 600 }}
                   >
                     Edge: Airbrush (significantly more resistant to pilling)
                   </p>
@@ -726,43 +695,39 @@ export default function LululemonAlignVsAloAirbrushPage() {
               {/* 8. Sustainability */}
               <div
                 className="rounded-2xl p-8"
-                style={{
-                  backgroundColor: "#ffffff",
-                  border: "1px solid rgba(217,194,186,0.3)",
-                  borderLeft: "4px solid #8b4a31",
-                }}
+                style={{ backgroundColor: "#ede9e3", borderLeft: "4px solid #0a0a0a" }}
               >
                 <p
-                  className="text-xs uppercase tracking-[0.2em] mb-2"
-                  style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}
+                  className="text-[12.5px] mb-2"
+                  style={{ color: "#0a0a0a" }}
                 >
                   Criterion 08
                 </p>
                 <h3
-                  className="text-xl font-semibold mb-4"
-                  style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}
+                  className="text-xl mb-4 r-hx"
+                  style={{ color: "#0a0a0a" }}
                 >
                   Sustainability &amp; brand values
                 </h3>
                 <p
-                  className="text-sm leading-relaxed mb-4"
-                  style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
+                  className="text-base leading-relaxed mb-4"
+                  style={{ color: "#3a3530" }}
                 >
                   Both brands have made public commitments to sustainability, and both have been challenged on the gap between stated goals and operational reality. Lululemon has a Be Planet initiative targeting net-zero by 2050 and has introduced some recycled materials into select products, but the Align leggings are not yet made from recycled fibers. The brand has faced scrutiny over supply chain transparency.
                 </p>
                 <p
-                  className="text-sm leading-relaxed"
-                  style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
+                  className="text-base leading-relaxed"
+                  style={{ color: "#3a3530" }}
                 >
                   Alo Yoga has similarly positioned itself as a wellness and sustainability brand while relying predominantly on virgin synthetics. Neither brand is a model of circular production. The honest answer for sustainability-conscious practitioners: both brands are in the middle of the field, not at the front. If environmental credentials are a primary purchase criterion, brands like Girlfriend Collective or Patagonia are more credibly positioned. For most Pilates practitioners, the sustainability difference between Align and Airbrush is not a meaningful deciding factor: they are broadly equivalent on this dimension.
                 </p>
                 <div
                   className="mt-4 px-4 py-2 rounded-lg inline-block"
-                  style={{ backgroundColor: "#f6f3f2" }}
+                  style={{ backgroundColor: "#ede9e3" }}
                 >
                   <p
                     className="text-xs"
-                    style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif", fontWeight: 600 }}
+                    style={{ color: "#0a0a0a", fontWeight: 600 }}
                   >
                     Edge: Tie, broadly equivalent sustainability positioning
                   </p>
@@ -777,19 +742,13 @@ export default function LululemonAlignVsAloAirbrushPage() {
                 href="https://www.amazon.com/dp/B08M8ZTKJS?tag=pilatescollective-20"
                 target="_blank"
                 rel="noopener noreferrer nofollow sponsored"
-                className="flex items-center justify-between px-6 py-4 rounded-xl transition-opacity hover:opacity-90"
-                style={{
-                  backgroundColor: "#0a0a0a",
-                  color: "#ffffff",
-                  textDecoration: "none",
-                  fontFamily: "'Montserrat', sans-serif",
-                }}
+                className="flex items-center justify-between r-btn r-btn-sm"
               >
                 <div>
-                  <p style={{ fontSize: "10px", letterSpacing: "0.15em", textTransform: "uppercase", opacity: 0.6, marginBottom: "4px" }}>
+                  <p style={{ fontSize: "12.5px", opacity: 0.6, marginBottom: "4px" }}>
                     Shop on Amazon
                   </p>
-                  <p style={{ fontSize: "15px", fontFamily: "'Playfair Display', serif" }}>
+                  <p className="r-hx" style={{ fontSize: "15px" }}>
                     Lululemon Align →
                   </p>
                 </div>
@@ -799,19 +758,13 @@ export default function LululemonAlignVsAloAirbrushPage() {
                 href="https://www.aloyoga.com"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
-                className="flex items-center justify-between px-6 py-4 rounded-xl transition-opacity hover:opacity-90"
-                style={{
-                  backgroundColor: "#8b4a31",
-                  color: "#ffffff",
-                  textDecoration: "none",
-                  fontFamily: "'Montserrat', sans-serif",
-                }}
+                className="flex items-center justify-between r-btn r-btn-sm"
               >
                 <div>
-                  <p style={{ fontSize: "10px", letterSpacing: "0.15em", textTransform: "uppercase", opacity: 0.75, marginBottom: "4px" }}>
+                  <p style={{ fontSize: "12.5px", opacity: 0.75, marginBottom: "4px" }}>
                     Not on Amazon: shop Alo
                   </p>
-                  <p style={{ fontSize: "15px", fontFamily: "'Playfair Display', serif" }}>
+                  <p className="r-hx" style={{ fontSize: "15px" }}>
                     Alo Airbrush →
                   </p>
                 </div>
@@ -822,62 +775,61 @@ export default function LululemonAlignVsAloAirbrushPage() {
             {/* Our verdict */}
             <div className="mb-16">
               <h2
-                className="text-3xl font-semibold mb-8"
-                style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}
+                className="mb-8 r-d r-h2"
               >
                 Our verdict
               </h2>
 
               <div className="space-y-6">
                 <div
-                  className="rounded-xl p-6"
-                  style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}
+                  className="rounded-2xl p-6"
+                  style={{ backgroundColor: "#ede9e3" }}
                 >
                   <p
-                    className="text-sm font-semibold mb-3"
-                    style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif", textTransform: "uppercase", letterSpacing: "0.1em" }}
+                    className="text-base font-semibold mb-3"
+                    style={{ color: "#0a0a0a" }}
                   >
                     Buy the Lululemon Align if:
                   </p>
                   <p
-                    className="text-sm leading-relaxed"
-                    style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
+                    className="text-base leading-relaxed"
+                    style={{ color: "#3a3530" }}
                   >
                     You practice primarily mat-based Pilates, barre, or yoga, or any format where freedom of movement and sensory minimalism are the priority. The Align is also the right choice if you are sensitive to compression or find firmer fabrics distracting during core-focused exercises. For practitioners who do not pile through inner-thigh fabric quickly (lighter body weight, lower activity frequency), the pilling concern is less pressing. If sizing inclusivity or a wide range of inseam options matters to you, Lululemon&apos;s range is also substantially more accommodating. Choose dark colorways for reformer classes specifically.
                   </p>
                 </div>
 
                 <div
-                  className="rounded-xl p-6"
-                  style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}
+                  className="rounded-2xl p-6"
+                  style={{ backgroundColor: "#ede9e3" }}
                 >
                   <p
-                    className="text-sm font-semibold mb-3"
-                    style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif", textTransform: "uppercase", letterSpacing: "0.1em" }}
+                    className="text-base font-semibold mb-3"
+                    style={{ color: "#0a0a0a" }}
                   >
                     Buy the Alo Airbrush if:
                   </p>
                   <p
-                    className="text-sm leading-relaxed"
-                    style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
+                    className="text-base leading-relaxed"
+                    style={{ color: "#3a3530" }}
                   >
                     You attend reformer classes multiple times per week and want a legging that holds up to that frequency without pilling or losing shape. The Airbrush is also the only choice if you want to wear white or light-colored leggings to class safely. Its consistent opacity across all colorways is a genuine functional advantage over the Align. The compression level suits practitioners who find proprioceptive feedback through their clothing helpful, and the sculpting effect is appreciated by many who want to feel put-together in a boutique studio environment without sacrificing function.
                   </p>
                 </div>
 
                 <div
-                  className="rounded-xl p-6"
-                  style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}
+                  className="rounded-2xl p-6"
+                  style={{ backgroundColor: "#ede9e3" }}
                 >
                   <p
-                    className="text-sm font-semibold mb-3"
-                    style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", textTransform: "uppercase", letterSpacing: "0.1em" }}
+                    className="text-base font-semibold mb-3"
+                    style={{ color: "#3a3530" }}
                   >
                     Consider a different option if:
                   </p>
                   <p
-                    className="text-sm leading-relaxed"
-                    style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
+                    className="text-base leading-relaxed"
+                    style={{ color: "#3a3530" }}
                   >
                     Neither of these leggings is the right answer for every practitioner. If you run hot in studio environments, both Nulu and Airlift trap warmth: Vuori or a lighter-weight fabric will serve you better. If you are building your Pilates wardrobe for the first time and are not yet sure how committed you will be, the CRZ YOGA Naked Feeling legging offers remarkable value at a third of the price of either option. And if sustainability is a primary criterion, Girlfriend Collective or Patagonia offer more credible environmental stories than either Lululemon or Alo at this time.
                   </p>
@@ -888,8 +840,7 @@ export default function LululemonAlignVsAloAirbrushPage() {
             {/* FAQ */}
             <div className="mb-16">
               <h2
-                className="text-3xl font-semibold mb-8"
-                style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}
+                className="mb-8 r-d r-h2"
               >
                 Frequently asked questions
               </h2>
@@ -914,18 +865,18 @@ export default function LululemonAlignVsAloAirbrushPage() {
                 ].map((item) => (
                   <div
                     key={item.q}
-                    className="rounded-xl p-6"
-                    style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}
+                    className="rounded-2xl p-6"
+                    style={{ backgroundColor: "#ede9e3" }}
                   >
                     <p
-                      className="text-base font-semibold mb-2"
-                      style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}
+                      className="text-base mb-2 r-hx"
+                      style={{ color: "#0a0a0a" }}
                     >
                       {item.q}
                     </p>
                     <p
-                      className="text-sm leading-relaxed"
-                      style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
+                      className="text-base leading-relaxed"
+                      style={{ color: "#3a3530" }}
                     >
                       {item.a}
                     </p>
@@ -937,8 +888,7 @@ export default function LululemonAlignVsAloAirbrushPage() {
             {/* Further reading */}
             <div>
               <h2
-                className="text-2xl font-semibold mb-2"
-                style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}
+                className="mb-2 r-d r-h2"
               >
                 Further reading
               </h2>

@@ -150,7 +150,7 @@ export default function PilatesVsGymPage() {
           imageAlt="Pilates versus gym training comparison"
           category="Method"
           subcategory="Comparison"
-          title={<>Pilates vs Gym<br /><span style={{ color: "#8b4a31" }}>An Honest Comparison</span></>}
+          title={<>Pilates vs Gym<br /><span style={{ color: "#0a0a0a" }}>An Honest Comparison</span></>}
           date="Updated May 2026"
           readTime="10 min read"
           topPick={<TopPick name="Arena Strength Fabric Booty Bands (Set of 3)" price="$29.00" note="Fabric bands that bring gym-style load to mat work" url="https://www.amazon.com/dp/B07D7KX9PX?tag=pilatescollective-20" />}
@@ -161,50 +161,50 @@ export default function PilatesVsGymPage() {
 
 
             <section className="pb-20">
-              <p className="text-lg leading-relaxed mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+              <p className="text-lg leading-relaxed mb-10" style={{ color: "#3a3530" }}>
                 The Pilates vs gym debate generates more heat than light. Both approaches work. The right choice depends on your goals, your body, and what you'll actually sustain consistently. This guide compares them honestly across the dimensions that matter, without the tribal loyalty that tends to dominate these discussions.
               </p>
 
               <div className="space-y-6 mb-16">
                 {comparisons.map((item) => (
-                  <div key={item.category} className="rounded-2xl overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.35)" }}>
-                    <div className="px-6 py-4" style={{ backgroundColor: "#f6f3f2", borderBottom: "1px solid rgba(217,194,186,0.25)" }}>
-                      <h3 className="text-lg font-semibold" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.category}</h3>
+                  <div key={item.category} className="rounded-2xl overflow-hidden" style={{ border: "1px solid #ddd6cc" }}>
+                    <div className="px-6 py-4" style={{ backgroundColor: "#ede9e3", borderBottom: "1px solid #ddd6cc" }}>
+                      <h3 className="text-lg r-hx" style={{ color: "#0a0a0a" }}>{item.category}</h3>
                     </div>
-                    <div className="grid grid-cols-1 md:grid-cols-2 divide-y md:divide-y-0 md:divide-x" style={{ borderColor: "rgba(217,194,186,0.25)" }}>
+                    <div className="grid grid-cols-1 md:grid-cols-2 divide-y md:divide-y-0 md:divide-x" style={{ borderColor: "#ddd6cc" }}>
                       <div className="px-5 py-4 bg-white">
-                        <p className="text-xs font-semibold uppercase tracking-wider mb-2" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Pilates</p>
-                        <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.pilates}</p>
+                        <p className="text-[12.5px] font-bold mb-2" style={{ color: "#3a3530" }}>Pilates</p>
+                        <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.pilates}</p>
                       </div>
                       <div className="px-5 py-4" style={{ backgroundColor: "#faf8f7" }}>
-                        <p className="text-xs font-semibold uppercase tracking-wider mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Gym</p>
-                        <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.gym}</p>
+                        <p className="text-[12.5px] font-bold mb-2" style={{ color: "#0a0a0a" }}>Gym</p>
+                        <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.gym}</p>
                       </div>
                     </div>
-                    <div className="px-6 py-3" style={{ backgroundColor: "#1b1c1c" }}>
-                      <p className="text-xs font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Montserrat', sans-serif" }}>Verdict: {item.verdict}</p>
+                    <div className="px-6 py-3" style={{ backgroundColor: "#0a0a0a" }}>
+                      <p className="text-xs font-semibold" style={{ color: "#9a9490" }}>Verdict: {item.verdict}</p>
                     </div>
                   </div>
                 ))}
               </div>
 
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The case for doing both</h2>
-              <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">The case for doing both</h2>
+              <p className="text-base leading-relaxed mb-6" style={{ color: "#3a3530" }}>
                 The most common trajectory among serious practitioners is: gym training from their 20s, adding Pilates in their 30s as injury prevention becomes a priority, and eventually shifting predominantly to Pilates as longevity becomes the goal. This trajectory is supported by research on exercise throughout the lifespan: high-impact, high-load training peaks in early adulthood, while movement quality and stability training become progressively more important with age.
               </p>
-              <p className="text-base leading-relaxed mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed mb-10" style={{ color: "#3a3530" }}>
                 For those who want to combine both, the practical structure is: 2-3 gym sessions per week (strength focus) plus 2-3 Pilates sessions (mobility, stability, body awareness). If you need a home reformer for Pilates work, see our{" "}
                 home reformer guide.{" "}
                 For home Pilates alongside a gym membership, a quality{" "}
                 mat{" "}
                 and{" "}
-                <a href="https://www.amazon.com/dp/B07D7KX9PX?tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" style={{ color: "#8b4a31", fontWeight: 600 }}>resistance bands</a>{" "}
+                <a href="https://www.amazon.com/dp/B07D7KX9PX?tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" style={{ color: "#0a0a0a", fontWeight: 600 }}>resistance bands</a>{" "}
                 extend your home practice considerably.
               </p>
               <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
               <div className="mb-16">
-                <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+                <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
                 <div className="space-y-6">
                   {[
                     { q: "Is Pilates better than gym for weight loss?", a: "Gym training (particularly strength training combined with cardio) burns more calories per session than Pilates. However, Pilates produces body composition changes (muscle development in the core, glutes, and stabilizers) that complement gym training well. The most effective approach for weight loss combines both." },
@@ -212,16 +212,16 @@ export default function PilatesVsGymPage() {
                     { q: "Is Pilates considered strength training?", a: "Contemporary Pilates, particularly reformer Pilates, is increasingly recognized as a form of resistance training. The spring resistance on a reformer produces meaningful muscular challenge, particularly for the core, hip, and shoulder stabilizers. It won't build maximal strength like barbell training, but it develops the functional strength most people need for daily life and healthy aging." },
                     { q: "Should I do Pilates before or after gym?", a: "If doing both in a single session, Pilates before strength training activates the stabilizers and improves body awareness. If training on separate days, there's no meaningful difference. Many practitioners use Pilates on rest days from gym training: the movement quality focus provides active recovery without competing demands." },
                   ].map((item) => (
-                    <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                      <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                      <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                    <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                      <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                      <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                     </div>
                   ))}
                 </div>
               </div>
 
               <div>
-                <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+                <h2 className="mb-8 r-d r-h2">Further reading</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                   <ArticleCard title="Pilates vs Yoga: Which Is Right for You?" excerpt="An honest comparison of two movement disciplines that serve different goals." href="/blog/pilates-vs-yoga" category="Method" readTime="9 min read" date="May 2026" imageUrl="/pictures/henrique-ferreira-omiTbS-nb_M-unsplash.jpg" />
                   <ArticleCard title="Pilates for Athletes" excerpt="How professional athletes use Pilates for injury prevention and performance." href="/blog/pilates-for-athletes" category="Performance" readTime="9 min read" date="May 2026" imageUrl="/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg" />

@@ -175,13 +175,13 @@ export default function BestSweatTowelForLagreePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex gap-2 mb-6">
               <span className="inline-block px-3 py-1 rounded-full text-xs font-semibold tracking-wide" style={{ backgroundColor: "#f0ebe8", color: "#5c4a3d" }}>Studio Essentials</span>
               <span className="inline-block px-3 py-1 rounded-full text-xs font-semibold tracking-wide" style={{ backgroundColor: "#f0ebe8", color: "#5c4a3d" }}>Lagree</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight" style={{ color: "#2d1f17" }}>
+            <h1 className="mb-6 r-d r-h1" style={{ color: "#2d1f17" }}>
               Best Sweat Towel for Lagree (2026): Grip Towels &amp; Hand Towels
             </h1>
             <p className="text-sm mb-6" style={{ color: "#9e8a7e" }}>Prices checked October 20, 2026 · 8 min read</p>
@@ -198,8 +198,8 @@ export default function BestSweatTowelForLagreePage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/stitch-water-towel-bench.png" alt="Studio sweat towel and water bottle for Lagree fitness" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/stitch-water-towel-bench.png" alt="Studio sweat towel and water bottle for Lagree fitness" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -210,7 +210,7 @@ export default function BestSweatTowelForLagreePage() {
             <AffiliateNote />
 
             <div className="mb-12">
-              <h2 className="text-2xl font-bold mb-4" style={{ color: "#2d1f17" }}>One towel or two? The two jobs a Lagree towel does</h2>
+              <h2 className="mb-4 r-d r-h2" style={{ color: "#2d1f17" }}>One towel or two? The two jobs a Lagree towel does</h2>
               <p className="text-base leading-relaxed mb-4" style={{ color: "#5c4a3d" }}>
                 <strong>Job one is wiping sweat.</strong> Your face, neck and hands get wet within minutes, and wet hands are a problem on a Megaformer because so much of the work runs through the handles and straps. A small, absorbent, quick-dry towel that you can grab during a transition and set down on the platform is what you need here. Microfiber is the usual choice because it is thin, light and dries quickly, so it fits in a small bag and is not still damp the next day.
               </p>
@@ -232,7 +232,7 @@ export default function BestSweatTowelForLagreePage() {
               </div>
             ))}
 
-            <div className="rounded-2xl p-6 mb-12" style={{ backgroundColor: "#fcf9f8", border: "1px solid #e8e0db" }}>
+            <div className="rounded-2xl p-6 mb-12" style={{ backgroundColor: "#f7f4f0", border: "1px solid #e8e0db" }}>
               <h2 className="text-lg font-bold mb-3" style={{ color: "#2d1f17" }}>Not Lagree-specific? That&apos;s fine</h2>
               <p className="text-base leading-relaxed" style={{ color: "#5c4a3d" }}>
                 None of these towels is made for Lagree, and you will not find a towel that is. Hot yoga towels and travel microfiber towels happen to solve the exact problems a Megaformer class creates: heavy sweat, slippery hands and a slick surface under planks and kneeling work. What matters is matching the towel to the job, not the label on it.
@@ -240,7 +240,7 @@ export default function BestSweatTowelForLagreePage() {
             </div>
 
             <div className="mb-12">
-              <h2 className="text-2xl font-bold mb-4" style={{ color: "#2d1f17" }}>How to choose a towel for Lagree</h2>
+              <h2 className="mb-4 r-d r-h2" style={{ color: "#2d1f17" }}>How to choose a towel for Lagree</h2>
               <ul className="space-y-3 text-base leading-relaxed" style={{ color: "#5c4a3d" }}>
                 <li><strong>Size to the job.</strong> A hand towel should be small enough to sit on the platform or frame without drifting into the carriage&apos;s path. A grip towel should cover where your hands and knees land; a mat-length towel will need folding on a carriage.</li>
                 <li><strong>Check the underside of a grip towel.</strong> Silicone backing and grip dots are both designed to stop the towel sliding. A plain towel has neither and is the one most likely to bunch mid-set.</li>
@@ -251,7 +251,7 @@ export default function BestSweatTowelForLagreePage() {
             </div>
 
             <div className="mb-12">
-              <h2 className="text-2xl font-bold mb-6" style={{ color: "#2d1f17" }}>Frequently Asked Questions</h2>
+              <h2 className="mb-6 r-d r-h2" style={{ color: "#2d1f17" }}>Frequently Asked Questions</h2>
               <div className="space-y-6">
                 {(jsonLd["@graph"][3] as { mainEntity: { name: string; acceptedAnswer: { text: string } }[] }).mainEntity.map((faq) => (
                   <div key={faq.name}>
@@ -263,7 +263,7 @@ export default function BestSweatTowelForLagreePage() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-bold mb-6" style={{ color: "#2d1f17" }}>Further Reading</h2>
+              <h2 className="mb-6 r-d r-h2" style={{ color: "#2d1f17" }}>Further Reading</h2>
               <div className="grid md:grid-cols-2 gap-6">
                 <ArticleCard
                   title="Lagree Essentials (2026): What to Wear, Bring & Buy"

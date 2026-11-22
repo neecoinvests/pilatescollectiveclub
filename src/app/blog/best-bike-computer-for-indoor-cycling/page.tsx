@@ -141,20 +141,20 @@ export default function BestBikeComputerPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Spinning</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Tech & Devices</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Spinning</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Tech & Devices</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best Bike Computer<br /><span style={{ color: "#8b4a31" }}>for Indoor Cycling (2026)</span>
+            <h1 className="mb-6 r-d r-h1">
+              Best Bike Computer<br /><span style={{ color: "#a98a5f" }}>for Indoor Cycling (2026)</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 9 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 9 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               A dedicated cycling computer turns a non-connected spin bike into a data-rich training environment: displaying live speed, cadence, and heart rate from paired sensors without needing a phone mounted on the handlebar. This guide compares five GPS bike computers in 2026, from a full-featured touchscreen flagship to ultra-light, ultra-budget units.
             </p>
           </div>
@@ -162,8 +162,8 @@ export default function BestBikeComputerPage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/dane-wetton-t1NEMSm1rgI-unsplash.jpg" alt="Best bike computer for indoor cycling 2026" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/dane-wetton-t1NEMSm1rgI-unsplash.jpg" alt="Best bike computer for indoor cycling 2026" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -174,13 +174,13 @@ export default function BestBikeComputerPage() {
             <AffiliateNote>Some links on this page go to Amazon and manufacturer sites. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Computers · GPS Head Units</p>
+              <p className="text-[12.5px] font-bold mb-10" style={{ color: "#0a0a0a" }}>5 Computers · GPS Head Units</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
                     <div className="flex items-center gap-3 mb-4">
-                      <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                      <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tag}</span>
+                      <span className="text-2xl r-hx" style={{ color: "#9a9490" }}>{p.rank}</span>
+                      <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{p.tag}</span>
                     </div>
                     <ProductCard name={p.name} description={p.description} descriptionHtml={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                   </div>
@@ -189,23 +189,23 @@ export default function BestBikeComputerPage() {
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   { q: "Do I need a bike computer for indoor spin training?", a: "Not strictly. A dedicated cycling computer is most useful for riders on non-connected bikes who want real-time power, cadence, and heart rate displayed without mounting a phone, or for athletes running structured interval plans with advanced analytics." },
                   { q: "What should I look for in a bike computer for indoor cycling?", a: "Prioritize dual Bluetooth and ANT+ connectivity so the unit pairs with whatever sensors your bike or trainer already uses, and decide whether a touchscreen display is worth the extra cost over a simpler button-navigated one. Weight and price matter less indoors than outdoors, so a light budget unit can be just as effective as a premium touchscreen model for basic speed, cadence, and heart rate display." },
                   { q: "Can I use a bike computer on a Peloton or other connected bike?", a: "Peloton and similar connected bikes use proprietary systems that don't broadcast open ANT+ or Bluetooth data, so a third-party cycling computer cannot read their console metrics. A dedicated head unit is most useful on non-connected bikes paired with external sensors." },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Cadence Sensor for Indoor Cycling (2026)" excerpt="Garmin, Wahoo, and budget cadence sensors compared for accuracy and app compatibility." href="/blog/best-cadence-sensor-for-indoor-cycling" category="Tech & Devices" readTime="8 min read" date="June 2026" imageUrl="/pictures/dane-wetton-t1NEMSm1rgI-unsplash.jpg" />
                 <ArticleCard title="Best Indoor Spin Bike for Home Studios (2026)" excerpt="Peloton, Schwinn IC4, NordicTrack, and budget bikes compared for resistance and connected apps." href="/blog/best-indoor-spin-bike-for-home-studio" category="Spinning" readTime="11 min read" date="June 2026" imageUrl="/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg" />

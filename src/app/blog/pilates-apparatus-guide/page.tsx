@@ -99,7 +99,7 @@ const apparatusData = [
     internalLinkText: null,
     content: (
       <>
-        <p style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontSize: "16px", lineHeight: "1.8", marginBottom: "16px" }}>
+        <p style={{ color: "#3a3530", fontSize: "16px", lineHeight: 1.55, marginBottom: "16px" }}>
           The mat is where every Pilates practice begins, and where it can reach its most demanding expression. Joseph Pilates developed the mat work first, and the classical sequence of approximately 34 exercises forms the conceptual foundation of the entire system. No apparatus is required beyond a firm mat; the practitioner uses their own body weight and the force of gravity as resistance. Beginning mat work is accessible to most people. Advanced mat work (the full classical sequence performed with control, precision, and flow) is among the most demanding physical work in the Pilates system. The mat is not a simplification of apparatus work; it is its own discipline.
         </p>
       </>
@@ -115,7 +115,7 @@ const apparatusData = [
     internalLinkText: "Best home Pilates reformers (2026)",
     content: (
       <>
-        <p style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontSize: "16px", lineHeight: "1.8", marginBottom: "16px" }}>
+        <p style={{ color: "#3a3530", fontSize: "16px", lineHeight: 1.55, marginBottom: "16px" }}>
           The Reformer is the most versatile piece of apparatus in the Pilates system and the one most practitioners encounter first in a studio setting. It consists of a sliding carriage mounted on a frame, moved by spring resistance that can be adjusted to support or challenge the body. A footbar at one end and straps at the other allow an enormous range of exercise positions: lying, sitting, kneeling, standing, and inverted. The classical Reformer repertoire contains over 100 exercises; with creative application of the spring system and variable positions, the number grows further. The Reformer is genuinely suitable for beginners, the springs can assist movement as much as resist it, and simultaneously contains exercises that challenge the most advanced practitioners. It is the primary apparatus in most contemporary studios.
         </p>
       </>
@@ -131,7 +131,7 @@ const apparatusData = [
     internalLinkText: "Best Pilates Cadillacs (2026)",
     content: (
       <>
-        <p style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontSize: "16px", lineHeight: "1.8", marginBottom: "16px" }}>
+        <p style={{ color: "#3a3530", fontSize: "16px", lineHeight: 1.55, marginBottom: "16px" }}>
           The Cadillac, also called the Trapeze Table, is the most comprehensive single piece of apparatus in the Pilates system. It is a full padded table with an overhead metal frame from which springs, a trapeze bar, push-through bars, and a roll-down bar are suspended. This overhead architecture allows exercises that no other apparatus can replicate: hanging work, spring-assisted standing, and supine spring work in positions that require the full height of the frame. The Cadillac carries a repertoire of over 80 exercises and is particularly valued in clinical and rehabilitation contexts, the spring system can offer gentle assistance for those recovering from injury or surgery, as well as in advanced classical training where hanging and inversion exercises form part of the full practice.
         </p>
       </>
@@ -147,7 +147,7 @@ const apparatusData = [
     internalLinkText: "Best Pilates chairs (2026)",
     content: (
       <>
-        <p style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontSize: "16px", lineHeight: "1.8", marginBottom: "16px" }}>
+        <p style={{ color: "#3a3530", fontSize: "16px", lineHeight: 1.55, marginBottom: "16px" }}>
           The Wunda Chair is a compact wooden box with one or two spring-loaded pedals and is widely regarded as one of the most challenging apparatus in the classical system. Its small footprint belies its difficulty: the reduced base of support that the Chair provides demands exceptional balance, core stability, and precise muscular control in ways the larger apparatus cannot replicate. The classical Chair repertoire includes exercises performed sitting, standing, and inverted on this small platform, each requiring the full body to work as a coordinated unit. The Chair is not typically introduced until a practitioner has a solid foundation in mat and Reformer work. Its demanding nature makes it a reliable measure of a practitioner&apos;s real strength and control.
         </p>
       </>
@@ -163,7 +163,7 @@ const apparatusData = [
     internalLinkText: null,
     content: (
       <>
-        <p style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontSize: "16px", lineHeight: "1.8", marginBottom: "16px" }}>
+        <p style={{ color: "#3a3530", fontSize: "16px", lineHeight: 1.55, marginBottom: "16px" }}>
           The Ladder Barrel consists of a rounded barrel mounted on a base with a horizontal ladder rising from one side. Its primary function is spinal extension, lateral stretching, and advanced hanging exercises that develop the long muscles of the back and open the chest and hip flexors. The barrel&apos;s curved surface supports the spine in extension positions that would be unsupported on the mat, allowing a depth of backbending that builds gradually with practice. The ladder adds a further dimension: exercises that require hanging from the rungs in ways that decompress the spine and challenge upper body strength simultaneously. The Ladder Barrel is primarily the domain of advanced practitioners and instructors deepening their own practice. It is one of the apparatus least commonly encountered in contemporary studios outside classical training environments.
         </p>
       </>
@@ -179,7 +179,7 @@ const apparatusData = [
     internalLinkText: "Best Pilates barrels (2026)",
     content: (
       <>
-        <p style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontSize: "16px", lineHeight: "1.8", marginBottom: "16px" }}>
+        <p style={{ color: "#3a3530", fontSize: "16px", lineHeight: 1.55, marginBottom: "16px" }}>
           The Spine Corrector, sometimes called the Small Barrel, is a lower-curved barrel designed specifically for spinal articulation and extension work. Joseph Pilates designed it to address the postural deviations common in modern life: rounded upper backs, compressed lumbar spines, and restricted thoracic mobility. The Spine Corrector series drapes the practitioner over the barrel in a variety of positions that open the chest, mobilize the thoracic spine, and strengthen the posterior chain. Unlike the Ladder Barrel, the Spine Corrector sits close to the floor, making its exercises more accessible while still requiring good body awareness and spinal mobility to perform them safely and effectively. It is a valuable complement to both mat and Reformer work.
         </p>
       </>
@@ -195,7 +195,7 @@ const apparatusData = [
     internalLinkText: "Best Pilates barrels (2026)",
     content: (
       <>
-        <p style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontSize: "16px", lineHeight: "1.8", marginBottom: "16px" }}>
+        <p style={{ color: "#3a3530", fontSize: "16px", lineHeight: 1.55, marginBottom: "16px" }}>
           The Arc Barrel is a contemporary apparatus developed by Balanced Body: it is not part of the classical Joseph Pilates apparatus, but has become widely used in contemporary studios for good reason. Its lower, flatter curve compared to the Spine Corrector makes it more accessible for extension support and core challenges, and it serves as an excellent home addition for practitioners building a mat practice. The Arc is particularly effective for thoracic extension over the barrel, hip flexor lengthening, and as an unstable surface for core exercises. Its compact size and lower price point relative to classical apparatus make it one of the most practical home purchases for a developing practitioner. Most contemporary studios stock the Arc as a standard piece of equipment.
         </p>
       </>
@@ -211,7 +211,7 @@ const apparatusData = [
     internalLinkText: null,
     content: (
       <>
-        <p style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontSize: "16px", lineHeight: "1.8", marginBottom: "16px" }}>
+        <p style={{ color: "#3a3530", fontSize: "16px", lineHeight: 1.55, marginBottom: "16px" }}>
           The Magic Circle is a flexible steel ring approximately 38cm in diameter with two padded handles, used to add light resistance to mat and standing exercises. It is a classical accessory attributed to Joseph Pilates, though its design has evolved from its origins. The ring is squeezed between the hands, between the thighs, or between the ankles to activate specific muscle groups that body weight alone may not load effectively. It is particularly useful for inner thigh and chest engagement, and for adding resistance to standing balance work without requiring large apparatus. The Magic Circle is one of the most affordable Pilates accessories and one of the most genuinely useful: it adds meaningful challenge to mat work and is a sensible first purchase for a home practice.
         </p>
       </>
@@ -248,21 +248,21 @@ export default function PilatesApparatusGuidePage() {
       <main>
 
         {/* Hero */}
-        <section style={{ paddingTop: "128px", paddingBottom: "64px", paddingLeft: "24px", paddingRight: "24px", backgroundColor: "#fcf9f8" }}>
+        <section style={{ paddingTop: "128px", paddingBottom: "64px", paddingLeft: "24px", paddingRight: "24px" }}>
           <div style={{ maxWidth: "768px", margin: "0 auto" }}>
             <div style={{ display: "flex", alignItems: "center", gap: "12px", marginBottom: "24px" }}>
-              <span style={{ fontSize: "11px", fontWeight: 600, textTransform: "uppercase", letterSpacing: "0.2em", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment Guide</span>
+              <span style={{ fontSize: "12.5px", fontWeight: 600, color: "#0a0a0a" }}>Equipment Guide</span>
             </div>
-            <h1 style={{ fontSize: "clamp(32px, 5vw, 52px)", fontWeight: 600, lineHeight: 1.12, marginBottom: "24px", color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
+            <h1 className="r-d r-h1" style={{ marginBottom: "24px" }}>
               Pilates Apparatus Guide (2026):<br />
-              <span style={{ color: "#8b4a31" }}>Every Piece of Equipment Explained</span>
+              <span style={{ color: "#a98a5f" }}>Every Piece of Equipment Explained</span>
             </h1>
-            <p style={{ fontSize: "13px", marginBottom: "32px", color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>
+            <p style={{ fontSize: "15px", marginBottom: "32px", color: "#6f6964" }}>
               Prices checked October 20, 2026 &middot; 12 min read
             </p>
               <TopPick name={QUICK_PICKS[0].name} price={QUICK_PICKS[0].price} note={QUICK_PICKS[0].note} url={QUICK_PICKS[0].url} />
-            <div style={{ width: "64px", height: "1px", backgroundColor: "#d9c2ba", marginBottom: "32px" }} />
-            <p style={{ fontSize: "18px", lineHeight: "1.8", color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div style={{ width: "64px", height: "1px", backgroundColor: "#ddd6cc", marginBottom: "32px" }} />
+            <p style={{ fontSize: "18px", lineHeight: 1.55, color: "#3a3530" }}>
               Joseph Pilates designed a complete system, not just exercises, but a specific set of apparatus that work together to develop the body comprehensively. The mat is the foundation. The Reformer is the most versatile tool. The Cadillac, Chair, and Barrels each target qualities the other apparatus cannot. Understanding the full system helps practitioners make better choices about where to train and what equipment to invest in. This guide covers every major piece of Pilates apparatus, what it does, and who it is for.
             </p>
           </div>
@@ -276,7 +276,7 @@ export default function PilatesApparatusGuidePage() {
                 src="/pictures/juls-p-lB6lbkbe1XA-unsplash.jpg"
                 alt="Pilates apparatus: Reformer, Cadillac, Chair, and barrels in a studio"
                 fill
-                style={{ objectFit: "cover", filter: "brightness(0.85)" }}
+                style={{ objectFit: "cover" }}
                 priority
               />
             </div>
@@ -291,13 +291,13 @@ export default function PilatesApparatusGuidePage() {
 
             {/* How the system works */}
             <div style={{ marginBottom: "64px" }}>
-              <h2 style={{ fontSize: "32px", fontWeight: 600, marginBottom: "24px", color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
+              <h2 className="r-d r-h2" style={{ marginBottom: "24px" }}>
                 How the Pilates apparatus system works
               </h2>
-              <p style={{ fontSize: "16px", lineHeight: "1.8", color: "#53433e", fontFamily: "'Montserrat', sans-serif", marginBottom: "20px" }}>
+              <p style={{ fontSize: "16px", lineHeight: 1.55, color: "#3a3530", marginBottom: "20px" }}>
                 Joseph Pilates conceived his apparatus not as a collection of isolated machines but as a unified system, each piece designed to develop specific movement qualities, and the full collection intended to be practiced together over time. The Reformer and the mat form the foundation; they cover the widest range of exercises and are the pieces through which practitioners build the core vocabulary of the method. The Cadillac, Chair, and Barrels are not supplements to the Reformer: they are distinct apparatus that address qualities the Reformer cannot. The Cadillac allows overhead and hanging work. The Chair demands balance and control on a minimal surface. The Barrels target spinal mobility and extension in ways the flat surfaces of other apparatus cannot offer.
               </p>
-              <p style={{ fontSize: "16px", lineHeight: "1.8", color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p style={{ fontSize: "16px", lineHeight: 1.55, color: "#3a3530" }}>
                 In contemporary practice, most practitioners work primarily on the Reformer and mat, occasionally incorporating the Chair and Barrels as their practice develops. A full apparatus practice, using all equipment regularly as part of an integrated training approach, is the domain of advanced practitioners, dedicated students in classical lineages, and full-time Pilates professionals. For most people, building a strong foundation on the mat and Reformer is the most practical path. Understanding what each apparatus contributes to the system helps practitioners and prospective students choose studios wisely and know what to seek out as their practice matures.
               </p>
             </div>
@@ -305,18 +305,18 @@ export default function PilatesApparatusGuidePage() {
             {/* Each apparatus */}
             {apparatusData.map((apparatus, index) => (
               <div key={apparatus.name} style={{ marginBottom: "72px" }}>
-                <h2 style={{ fontSize: "30px", fontWeight: 600, marginBottom: "20px", color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
+                <h2 className="r-d r-h2" style={{ marginBottom: "20px" }}>
                   {apparatus.name}
                 </h2>
 
                 {apparatus.content}
 
                 {apparatus.internalLink && (
-                  <p style={{ fontSize: "14px", fontFamily: "'Montserrat', sans-serif", marginBottom: "20px" }}>
+                  <p style={{ fontSize: "16px", marginBottom: "20px" }}>
                     <a
                       href={apparatus.internalLink}
                       className="apparatus-internal-link"
-                      style={{ color: "#8b4a31", fontWeight: 500 }}
+                      style={{ color: "#0a0a0a", fontWeight: 500 }}
                     >
                       {apparatus.internalLinkText} &rarr;
                     </a>
@@ -325,8 +325,8 @@ export default function PilatesApparatusGuidePage() {
 
                 {/* Apparatus info card */}
                 <div className="r-glance">
-                  <div style={{ backgroundColor: "#f6f3f2", padding: "14px 22px" }}>
-                    <p style={{ fontSize: "10px", fontWeight: 600, textTransform: "uppercase", letterSpacing: "0.2em", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif", margin: 0 }}>
+                  <div style={{ backgroundColor: "#ede9e3", padding: "14px 22px" }}>
+                    <p style={{ fontSize: "12.5px", fontWeight: 600, color: "#0a0a0a", margin: 0 }}>
                       At a glance
                     </p>
                   </div>
@@ -338,20 +338,14 @@ export default function PilatesApparatusGuidePage() {
                   ].map((row) => (
                     <div
                       key={row.label}
-                      style={{
-                        display: "flex",
-                        gap: "16px",
-                        padding: "14px 22px",
-                        borderTop: "1px solid rgba(217,194,186,0.2)",
-                        flexWrap: "wrap",
-                      }}
+                      style={{ display: "flex", gap: "16px", padding: "14px 22px", borderTop: "1px solid #ddd6cc", flexWrap: "wrap" }}
                     >
                       <span
-                        style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "11px", fontWeight: 600, color: "#86736d", minWidth: "140px", flexShrink: 0 }}
+                        style={{ fontSize: "11px", fontWeight: 600, color: "#6f6964", minWidth: "140px", flexShrink: 0 }}
                       >
                         {row.label}
                       </span>
-                      <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", color: "#1b1c1c", flex: 1 }}>
+                      <span style={{ fontSize: "15px", color: "#0a0a0a", flex: 1 }}>
                         {row.value}
                       </span>
                     </div>
@@ -359,30 +353,30 @@ export default function PilatesApparatusGuidePage() {
                 </div>
 
                 {index < apparatusData.length - 1 && (
-                  <div style={{ width: "48px", height: "1px", backgroundColor: "#d9c2ba", marginTop: "56px" }} />
+                  <div style={{ width: "48px", height: "1px", backgroundColor: "#ddd6cc", marginTop: "56px" }} />
                 )}
               </div>
             ))}
 
             {/* Contemporary additions note */}
-            <div style={{ marginBottom: "64px", backgroundColor: "#f6f3f2", borderRadius: "16px", padding: "32px", border: "1px solid rgba(217,194,186,0.35)" }}>
-              <p style={{ fontSize: "10px", fontWeight: 600, textTransform: "uppercase", letterSpacing: "0.2em", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif", marginBottom: "16px" }}>
+            <div style={{ marginBottom: "64px", backgroundColor: "#ede9e3", borderRadius: "16px", padding: "32px" }}>
+              <p style={{ fontSize: "12.5px", fontWeight: 600, color: "#0a0a0a", marginBottom: "16px" }}>
                 A note on contemporary additions
               </p>
-              <p style={{ fontSize: "15px", lineHeight: "1.8", color: "#53433e", fontFamily: "'Montserrat', sans-serif", marginBottom: "14px" }}>
-                Several pieces of equipment commonly found in Pilates studios today are not part of the original classical system. The <strong style={{ color: "#1b1c1c" }}>Foam Roller</strong>, widely used for thoracic mobility and proprioception work, was adopted from physiotherapy practice, not designed by Joseph Pilates. Similarly, <strong style={{ color: "#1b1c1c" }}>Resistance Bands</strong> are a general fitness tool incorporated into Pilates supplementary work.
+              <p style={{ fontSize: "17px", lineHeight: 1.55, color: "#3a3530", marginBottom: "14px" }}>
+                Several pieces of equipment commonly found in Pilates studios today are not part of the original classical system. The <strong style={{ color: "#0a0a0a" }}>Foam Roller</strong>, widely used for thoracic mobility and proprioception work, was adopted from physiotherapy practice, not designed by Joseph Pilates. Similarly, <strong style={{ color: "#0a0a0a" }}>Resistance Bands</strong> are a general fitness tool incorporated into Pilates supplementary work.
               </p>
-              <p style={{ fontSize: "15px", lineHeight: "1.8", color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                The <strong style={{ color: "#1b1c1c" }}>Pedi-Pole</strong> and <strong style={{ color: "#1b1c1c" }}>Electric Chair (High Chair)</strong> are classical apparatus, designed by Pilates, but are less frequently encountered. The Pedi-Pole is a single spring-loaded vertical pole for standing balance and arm spring work; the Electric Chair is a taller version of the Wunda Chair with a back panel and its own distinct repertoire, more common in classical lineage studios.
+              <p style={{ fontSize: "17px", lineHeight: 1.55, color: "#3a3530" }}>
+                The <strong style={{ color: "#0a0a0a" }}>Pedi-Pole</strong> and <strong style={{ color: "#0a0a0a" }}>Electric Chair (High Chair)</strong> are classical apparatus, designed by Pilates, but are less frequently encountered. The Pedi-Pole is a single spring-loaded vertical pole for standing balance and arm spring work; the Electric Chair is a taller version of the Wunda Chair with a back panel and its own distinct repertoire, more common in classical lineage studios.
               </p>
             </div>
 
             {/* Which apparatus is right for you */}
             <div style={{ marginBottom: "64px" }}>
-              <h2 style={{ fontSize: "32px", fontWeight: 600, marginBottom: "24px", color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
+              <h2 className="r-d r-h2" style={{ marginBottom: "24px" }}>
                 Which apparatus is right for you?
               </h2>
-              <p style={{ fontSize: "16px", lineHeight: "1.8", color: "#53433e", fontFamily: "'Montserrat', sans-serif", marginBottom: "28px" }}>
+              <p style={{ fontSize: "16px", lineHeight: 1.55, color: "#3a3530", marginBottom: "28px" }}>
                 The answer depends almost entirely on where you are in your practice. The Pilates system has a natural order, each stage opens the next. Skipping steps tends to create gaps in body awareness and technique that become increasingly apparent as difficulty increases.
               </p>
 
@@ -416,20 +410,20 @@ export default function PilatesApparatusGuidePage() {
                 ].map((item, i) => (
                   <div
                     key={item.stage}
-                    style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)", borderRadius: "14px", padding: "24px 28px" }}
+                    style={{ backgroundColor: "#ede9e3", borderRadius: "14px", padding: "24px 28px" }}
                   >
                     <div style={{ display: "flex", alignItems: "flex-start", gap: "16px" }}>
-                      <span style={{ fontFamily: "'Playfair Display', serif", fontSize: "20px", fontWeight: 600, color: "#d9c2ba", minWidth: "28px", paddingTop: "2px" }}>
+                      <span className="r-hx" style={{ fontSize: "20px", color: "#9a9490", minWidth: "28px", paddingTop: "2px" }}>
                         {String(i + 1).padStart(2, "0")}
                       </span>
                       <div>
-                        <p style={{ fontFamily: "'Playfair Display', serif", fontSize: "17px", fontWeight: 600, color: "#1b1c1c", marginBottom: "6px" }}>
+                        <p className="r-hx" style={{ fontSize: "17px", color: "#0a0a0a", marginBottom: "6px" }}>
                           {item.stage}
                         </p>
-                        <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", fontWeight: 600, color: "#8b4a31", marginBottom: "10px" }}>
+                        <p style={{ fontSize: "15px", fontWeight: 600, color: "#0a0a0a", marginBottom: "10px" }}>
                           {item.rec}
                         </p>
-                        <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "14px", lineHeight: "1.75", color: "#53433e" }}>
+                        <p style={{ fontSize: "16px", lineHeight: 1.55, color: "#3a3530" }}>
                           {item.detail}
                         </p>
                       </div>
@@ -441,13 +435,13 @@ export default function PilatesApparatusGuidePage() {
 
             {/* Classical vs contemporary */}
             <div style={{ marginBottom: "64px" }}>
-              <h2 style={{ fontSize: "32px", fontWeight: 600, marginBottom: "24px", color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
+              <h2 className="r-d r-h2" style={{ marginBottom: "24px" }}>
                 Classical vs contemporary apparatus
               </h2>
-              <p style={{ fontSize: "16px", lineHeight: "1.8", color: "#53433e", fontFamily: "'Montserrat', sans-serif", marginBottom: "20px" }}>
+              <p style={{ fontSize: "16px", lineHeight: 1.55, color: "#3a3530", marginBottom: "20px" }}>
                 The distinction between classical and contemporary Pilates apparatus is frequently misunderstood. Classical apparatus, manufactured by Gratz Industries in New York, maintains the original specifications that Joseph Pilates established: spring tensions, proportions, wood types, and design details preserved as closely as possible to the originals from his studio. For practitioners in classical lineages, this fidelity to the original apparatus is considered important because the exercises were designed for these specific spring tensions and dimensions; changing them alters the exercise.
               </p>
-              <p style={{ fontSize: "16px", lineHeight: "1.8", color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p style={{ fontSize: "16px", lineHeight: 1.55, color: "#3a3530" }}>
                 Contemporary apparatus (made by companies such as Balanced Body, Merrithew, and Align-Pilates) adapts the original designs with modern engineering: adjustable components, lighter materials, updated upholstery, and wider price accessibility. These manufacturers have also developed their own accessories and supplementary apparatus, such as the Arc Barrel. Neither classical nor contemporary apparatus is inherently superior; the choice depends almost entirely on your teacher&apos;s training lineage and the emphasis of the studio you train in. A well-taught classical practice on Gratz apparatus and a well-taught contemporary practice on Balanced Body apparatus are both legitimate expressions of the Pilates method.
               </p>
             </div>
@@ -455,13 +449,13 @@ export default function PilatesApparatusGuidePage() {
             {/* Accessories to start with */}
 
             <div style={{ marginBottom: "64px" }}>
-              <p style={{ fontSize: "10px", fontWeight: 600, textTransform: "uppercase", letterSpacing: "0.2em", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif", marginBottom: "16px" }}>
+              <p style={{ fontSize: "12.5px", fontWeight: 600, color: "#0a0a0a", marginBottom: "16px" }}>
                 Verified listings
               </p>
-              <h2 style={{ fontSize: "32px", fontWeight: 600, marginBottom: "24px", color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
+              <h2 className="r-d r-h2" style={{ marginBottom: "24px" }}>
                 Genuinely sold, affordable starting points
               </h2>
-              <p style={{ fontSize: "16px", lineHeight: "1.8", color: "#53433e", fontFamily: "'Montserrat', sans-serif", marginBottom: "28px" }}>
+              <p style={{ fontSize: "16px", lineHeight: 1.55, color: "#3a3530", marginBottom: "28px" }}>
                 We checked each of these against live listing data before including it. Where we could not verify a specific branded product mentioned elsewhere as a real, current Amazon listing, we say so and offer the closest genuine alternative instead.
               </p>
               <div style={{ display: "flex", flexDirection: "column", gap: "40px" }}>
@@ -473,7 +467,7 @@ export default function PilatesApparatusGuidePage() {
 
             {/* FAQ */}
             <div style={{ marginBottom: "64px" }}>
-              <h2 style={{ fontSize: "32px", fontWeight: 600, marginBottom: "32px", color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
+              <h2 className="r-d r-h2" style={{ marginBottom: "32px" }}>
                 Frequently asked questions
               </h2>
               <div style={{ display: "flex", flexDirection: "column", gap: "16px" }}>
@@ -497,12 +491,12 @@ export default function PilatesApparatusGuidePage() {
                 ].map((item) => (
                   <div
                     key={item.q}
-                    style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)", borderRadius: "14px", padding: "24px 28px" }}
+                    style={{ backgroundColor: "#ede9e3", borderRadius: "14px", padding: "24px 28px" }}
                   >
-                    <p style={{ fontFamily: "'Playfair Display', serif", fontSize: "17px", fontWeight: 600, color: "#1b1c1c", marginBottom: "10px" }}>
+                    <p className="r-hx" style={{ fontSize: "17px", color: "#0a0a0a", marginBottom: "10px" }}>
                       {item.q}
                     </p>
-                    <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "14px", lineHeight: "1.8", color: "#53433e" }}>
+                    <p style={{ fontSize: "16px", lineHeight: 1.55, color: "#3a3530" }}>
                       {item.a}
                     </p>
                   </div>
@@ -512,7 +506,7 @@ export default function PilatesApparatusGuidePage() {
 
             {/* Further reading */}
             <div>
-              <h2 style={{ fontSize: "26px", fontWeight: 600, marginBottom: "8px", color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
+              <h2 className="r-d r-h2" style={{ marginBottom: "8px" }}>
                 Further reading
               </h2>
               <div>

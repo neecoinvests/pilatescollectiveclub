@@ -297,12 +297,12 @@ export default function KansasCityPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
       <Header />
       <main>
-        <section style={{ backgroundColor: "#fcf9f8" }} className="pt-32 pb-16 px-6">
-          <div className="max-w-3xl mx-auto">
-            <p className="text-sm font-semibold uppercase tracking-widest mb-4" style={{ color: "#b8977e" }}>
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
+            <p className="text-sm font-bold mb-4" style={{ color: "#b8977e" }}>
               City Guide
             </p>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: "#2d2926" }}>
+            <h1 className="mb-6 r-d r-h1" style={{ color: "#2d2926" }}>
               Best Pilates Studios in Kansas City
             </h1>
             <p className="text-sm mb-6" style={{ color: "#9c8678" }}>
@@ -336,10 +336,10 @@ export default function KansasCityPage() {
 
         <section style={{ backgroundColor: "#fdf3ec", borderTop: "1px solid rgba(184,151,126,0.35)", borderBottom: "1px solid rgba(184,151,126,0.35)" }} className="py-20 px-6">
           <div className="max-w-3xl mx-auto">
-            <p className="text-xs font-semibold uppercase tracking-widest mb-2" style={{ color: "#b8977e" }}>
+            <p className="text-[12.5px] font-bold mb-2" style={{ color: "#b8977e" }}>
               Before You Go
             </p>
-            <h2 className="text-2xl font-bold mb-2" style={{ color: "#2d2926" }}>
+            <h2 className="mb-2 r-d r-h2" style={{ color: "#2d2926" }}>
               What to Bring to Class
             </h2>
             <p className="text-sm mb-8" style={{ color: "#9c8678" }}>
@@ -352,7 +352,7 @@ export default function KansasCityPage() {
 
         <section className="px-6 py-20">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-2xl font-bold mb-2" style={{ color: "#2d2926" }}>
+            <h2 className="mb-2 r-d r-h2" style={{ color: "#2d2926" }}>
               The 6 Best Pilates Studios in Kansas City
             </h2>
             <p className="mb-10" style={{ color: "#9c8678" }}>
@@ -366,9 +366,9 @@ export default function KansasCityPage() {
           </div>
         </section>
 
-        <section style={{ backgroundColor: "#f6f3f2" }} className="py-20 px-6">
+        <section className="py-20 px-6">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-2xl font-bold mb-8" style={{ color: "#2d2926" }}>
+            <h2 className="mb-8 r-d r-h2" style={{ color: "#2d2926" }}>
               Booking Tips for Kansas City
             </h2>
             <div className="space-y-6">
@@ -385,9 +385,9 @@ export default function KansasCityPage() {
           </div>
         </section>
 
-        <section style={{ backgroundColor: "#f6f3f2" }} className="py-20 px-6">
+        <section className="py-20 px-6">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-2xl font-bold mb-8" style={{ color: "#2d2926" }}>
+            <h2 className="mb-8 r-d r-h2" style={{ color: "#2d2926" }}>
               Kansas City Neighborhoods for Pilates
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
@@ -401,12 +401,12 @@ export default function KansasCityPage() {
           </div>
         </section>
 
-        <section style={{ backgroundColor: "#f6f3f2" }} className="py-20 px-6">
+        <section className="py-20 px-6">
           <div className="max-w-3xl mx-auto">
-            <p className="text-xs font-semibold uppercase tracking-widest mb-2" style={{ color: "#b8977e" }}>
+            <p className="text-[12.5px] font-bold mb-2" style={{ color: "#b8977e" }}>
               Prefer To Train At Home?
             </p>
-            <h2 className="text-2xl font-bold mb-2" style={{ color: "#2d2926" }}>
+            <h2 className="mb-2 r-d r-h2" style={{ color: "#2d2926" }}>
               Not Convinced? How About Pilates at Home?
             </h2>
             <p className="text-sm mb-8" style={{ color: "#9c8678" }}>
@@ -423,7 +423,7 @@ export default function KansasCityPage() {
                   className="block rounded-xl p-5 border transition-shadow hover:shadow-md"
                   style={{ borderColor: "#e8ddd6", backgroundColor: "#fff" }}
                 >
-                  <p className="text-xs font-semibold uppercase tracking-wider mb-2" style={{ color: "#b8977e" }}>{item.tag}</p>
+                  <p className="text-[12.5px] font-bold mb-2" style={{ color: "#b8977e" }}>{item.tag}</p>
                   <p className="font-semibold mb-1" style={{ color: "#2d2926" }}>{item.name}</p>
                   <p className="text-sm mb-3" style={{ color: "#5c4f47" }}>{item.note}</p>
                   <p className="text-sm font-semibold" style={{ color: "#b8977e" }}>{item.price} on Amazon →</p>
@@ -433,9 +433,9 @@ export default function KansasCityPage() {
           </div>
         </section>
 
-        <section style={{ backgroundColor: "#fcf9f8" }} className="py-20 px-6">
+        <section className="py-20 px-6">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-2xl font-bold mb-8" style={{ color: "#2d2926" }}>
+            <h2 className="mb-8 r-d r-h2" style={{ color: "#2d2926" }}>
               Explore More US Cities
             </h2>
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
@@ -448,21 +448,21 @@ export default function KansasCityPage() {
 
         <section className="px-6 py-20">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+            <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
             <div className="space-y-6">
               {CITY_FAQS.map((f) => (
-                <div key={f.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                  <h3 className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{f.q}</h3>
-                  <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{f.a}</p>
+                <div key={f.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                  <h3 className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{f.q}</h3>
+                  <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{f.a}</p>
                 </div>
               ))}
             </div>
           </div>
         </section>
 
-        <section style={{ backgroundColor: "#f6f3f2" }} className="py-20 px-6">
+        <section className="py-20 px-6">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-2xl font-bold mb-8" style={{ color: "#2d2926" }}>
+            <h2 className="mb-8 r-d r-h2" style={{ color: "#2d2926" }}>
               Further Reading
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">

@@ -87,20 +87,20 @@ export default function PilatesForMenopausePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Health</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Women&apos;s Health</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Health</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Women&apos;s Health</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Pilates During Menopause:<br /><span style={{ color: "#8b4a31" }}>Bone Density, Hormones &amp; Practice</span>
+            <h1 className="mb-6 r-d r-h1">
+              Pilates During Menopause:<br /><span style={{ color: "#a98a5f" }}>Bone Density, Hormones &amp; Practice</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 13 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 13 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               The conversation around exercise and menopause has changed significantly. Where the guidance once focused primarily on cardiovascular health and weight management, the current understanding is more specific and more nuanced: resistance training matters for bone density; pelvic floor work matters more than most practitioners realize; and the hormonal environment of perimenopause and post-menopause changes how the body responds to exercise. Pilates is exceptionally well-positioned to address these needs, but the approach needs to be informed by what is actually happening physiologically.
             </p>
           </div>
@@ -108,8 +108,8 @@ export default function PilatesForMenopausePage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" alt="Pilates for menopause: bone density loading, pelvic floor work, and hormonal adaptation in practice" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" alt="Pilates for menopause: bone density loading, pelvic floor work, and hormonal adaptation in practice" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -121,20 +121,20 @@ export default function PilatesForMenopausePage() {
             <AffiliateNote />
 
             <div className="mb-14 mt-4">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What changes during perimenopause and menopause</h2>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">What changes during perimenopause and menopause</h2>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 The decline in estrogen that defines menopause has specific, documentable effects on the musculoskeletal system. Estrogen plays a role in collagen synthesis, which affects joint laxity, tendon strength, and connective tissue quality. As levels decline, practitioners often notice increased joint stiffness, reduced flexibility, and a changed recovery profile after exercise. Injuries that would have healed quickly in earlier decades take longer and need more careful management.
               </p>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 Bone density begins declining meaningfully in the perimenopause period, typically from the mid-40s, and accelerates in the first few years after the final menstrual period. This is clinically significant: women lose approximately 10% of bone density in the first five years after menopause without intervention. The response to this is not rest. Weight-bearing and resistance exercise are the primary non-pharmaceutical interventions with strong evidence for slowing bone loss.
               </p>
-              <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>
                 Muscle mass also declines: sarcopenia accelerates after menopause as testosterone and estrogen both decline. The combination of reduced muscle mass and reduced bone density creates a compound risk for falls and fractures. Exercise that builds and maintains muscle mass while also improving balance and coordination directly addresses this risk profile.
               </p>
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Where Pilates specifically helps</h2>
+              <h2 className="mb-6 r-d r-h2">Where Pilates specifically helps</h2>
               <div className="space-y-4">
                 {[
                   {
@@ -154,16 +154,16 @@ export default function PilatesForMenopausePage() {
                     body: "Proprioception declines with age and hormonal change. Balance (the integration of visual, vestibular, and proprioceptive inputs) degrades measurably in the decade following menopause. Pilates includes significant balance challenge: single-leg standing, unstable surface work, and exercises requiring simultaneous limb movement with spinal stability. The evidence for Pilates reducing fall risk in older women is one of the strongest in the exercise-menopause literature."
                   },
                 ].map((item) => (
-                  <div key={item.title} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.title}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
+                  <div key={item.title} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.title}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.body}</p>
                   </div>
                 ))}
               </div>
             </div>
 
-            <div className="mb-14 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>How to adapt your Pilates practice during menopause</h2>
+            <div className="mb-14 rounded-2xl p-8" style={{ backgroundColor: "#ede9e3" }}>
+              <h2 className="mb-4 r-d r-h2">How to adapt your Pilates practice during menopause</h2>
               <ul className="space-y-3">
                 {[
                   "Add jump board sessions if you don't already do them: the impact stimulus is valuable for bone density and the spring assistance makes it accessible regardless of cardiovascular fitness level.",
@@ -173,8 +173,8 @@ export default function PilatesForMenopausePage() {
                   "Increase reformer spring resistance progressively. The stimulus for muscle and bone maintenance requires progressive overload. Comfortable isn't sufficient: appropriate challenge is.",
                   "Add at least one session per week of heavier loading alongside your Pilates: moderate-weight strength training specifically targeted at hip and spine bone density.",
                 ].map((tip, i) => (
-                  <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                    <span className="font-semibold" style={{ color: "#8b4a31" }}>{i + 1}.</span>
+                  <li key={i} className="flex gap-3 text-base" style={{ color: "#3a3530" }}>
+                    <span className="font-semibold" style={{ color: "#0a0a0a" }}>{i + 1}.</span>
                     {tip}
                   </li>
                 ))}
@@ -182,7 +182,7 @@ export default function PilatesForMenopausePage() {
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   { q: "Is Pilates enough exercise during menopause?", a: "Pilates is an excellent component of a menopause exercise program, but it is most effective when combined with cardiovascular exercise and some heavy resistance training. The current consensus from women's health specialists is that menopause requires a multi-modal approach: Pilates for core, balance, and pelvic floor; some form of cardiovascular exercise for heart and metabolic health; and heavier loading (weightlifting or impact activity) for bone density specifically." },
@@ -190,9 +190,9 @@ export default function PilatesForMenopausePage() {
                   { q: "Should I tell my Pilates instructor I am in menopause or perimenopause?", a: "Yes: absolutely. A well-informed instructor will adjust their programming to prioritize pelvic floor integration, incorporate appropriate loading for bone density, extend warm-ups, and be aware of joint laxity changes that affect modification decisions. If your instructor does not engage meaningfully with this information, that tells you something about the quality of the instruction." },
                   { q: "I have osteoporosis: can I still do Pilates?", a: "Yes, with appropriate modifications. Pilates is one of the most recommended exercises for women with osteoporosis because it improves balance (reducing fall risk) and can provide bone-stimulating loads without high-impact movements. Avoid deep spinal flexion exercises (roll-up, rollover) and exercises that load the spine in flexion under load. Work with a Pilates instructor who has specific osteoporosis training and coordinate with your medical team." },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
@@ -201,9 +201,9 @@ export default function PilatesForMenopausePage() {
 
             {/* Equipment */}
 
-            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Recommended kit</h2>
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid #ddd6cc" }}>
+              <p className="text-[12.5px] font-bold mb-2" style={{ color: "#0a0a0a" }}>Equipment</p>
+              <h2 className="mb-8 r-d r-h2">Recommended kit</h2>
               <div className="space-y-8">
                 {PRODUCTS.map((p) => (
                   <ProductCard key={p.name} name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
@@ -212,7 +212,7 @@ export default function PilatesForMenopausePage() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Pilates and Pregnancy" excerpt="Safe, effective Pilates throughout pregnancy: trimester by trimester." href="/blog/pilates-and-pregnancy" category="Health" readTime="11 min read" date="May 2026" imageUrl="/pictures/juls-p-lB6lbkbe1XA-unsplash.jpg" />
                 <ArticleCard title="Pilates for Back Pain" excerpt="Clinical research meets practical guidance on using Pilates to address chronic lower back pain." href="/blog/pilates-for-back-pain" category="Health" readTime="10 min read" date="May 2026" imageUrl="/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg" />

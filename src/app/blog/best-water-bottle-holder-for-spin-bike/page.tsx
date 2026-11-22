@@ -221,57 +221,31 @@ export default function BestWaterBottleHolderPage() {
       <Header />
       <main>
         {/* Hero */}
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
               <span
-                style={{
-                  fontFamily: "var(--font-sans)",
-                  fontSize: "10px",
-                  fontWeight: 500,
-                  letterSpacing: "0.2em",
-                  textTransform: "uppercase",
-                  color: "#9a9490",
-                }}
+                style={{ fontSize: "12.5px", fontWeight: 700, color: "#9a9490" }}
               >
                 Spinning
               </span>
               <span style={{ color: "#d4c5b5", fontSize: "10px" }}>·</span>
               <span
-                style={{
-                  fontFamily: "var(--font-sans)",
-                  fontSize: "10px",
-                  fontWeight: 400,
-                  color: "#b5a99a",
-                }}
+                style={{ fontSize: "10px", fontWeight: 400, color: "#b5a99a" }}
               >
                 7 min read
               </span>
             </div>
 
-            <h1
-              style={{
-                fontFamily: "var(--font-serif)",
-                fontSize: "clamp(2rem, 5vw, 3.2rem)",
-                fontWeight: 400,
-                lineHeight: 1.2,
-                color: "#1a1714",
-                marginBottom: "24px",
-              }}
+            <h1 className="r-d r-h1"
+              style={{ color: "#1a1714", marginBottom: "24px" }}
             >
               Best Water Bottle Holders for Spin Bikes (2026)
             </h1>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
 
             <p
-              style={{
-                fontFamily: "var(--font-sans)",
-                fontSize: "17px",
-                fontWeight: 300,
-                color: "#4a4540",
-                lineHeight: 1.8,
-                marginBottom: "20px",
-              }}
+              style={{ fontSize: "17px", color: "#3a3530", lineHeight: 1.55, marginBottom: "20px" }}
             >
               Staying hydrated during a 45-minute spin session is non-negotiable, but most riders underestimate how much the right cage matters. A bottle that pops out mid-sprint, wobbles during climbs, or simply doesn&apos;t fit your bike costs you focus and momentum. These are the holders worth installing.
             </p>
@@ -322,14 +296,8 @@ export default function BestWaterBottleHolderPage() {
 
             {/* FAQ */}
             <div style={{ marginTop: "64px" }}>
-              <h2
-                style={{
-                  fontFamily: "var(--font-serif)",
-                  fontSize: "1.6rem",
-                  fontWeight: 400,
-                  color: "#1a1714",
-                  marginBottom: "32px",
-                }}
+              <h2 className="r-d r-h2"
+                style={{ color: "#1a1714", marginBottom: "32px" }}
               >
                 Frequently Asked Questions
               </h2>
@@ -357,24 +325,12 @@ export default function BestWaterBottleHolderPage() {
                   }}
                 >
                   <h3
-                    style={{
-                      fontFamily: "var(--font-sans)",
-                      fontSize: "15px",
-                      fontWeight: 500,
-                      color: "#1a1714",
-                      marginBottom: "10px",
-                    }}
+                    style={{ fontSize: "17px", fontWeight: 500, color: "#1a1714", marginBottom: "10px" }}
                   >
                     {item.q}
                   </h3>
                   <p
-                    style={{
-                      fontFamily: "var(--font-sans)",
-                      fontSize: "14px",
-                      fontWeight: 300,
-                      color: "#4a4540",
-                      lineHeight: 1.75,
-                    }}
+                    style={{ fontSize: "16px", color: "#3a3530", lineHeight: 1.55 }}
                   >
                     {item.a}
                   </p>
@@ -385,15 +341,7 @@ export default function BestWaterBottleHolderPage() {
             {/* Further reading */}
             <div style={{ marginTop: "64px" }}>
               <h2
-                style={{
-                  fontFamily: "var(--font-sans)",
-                  fontSize: "11px",
-                  fontWeight: 500,
-                  letterSpacing: "0.2em",
-                  textTransform: "uppercase",
-                  color: "#9a9490",
-                  marginBottom: "28px",
-                }}
+                style={{ fontSize: "12.5px", fontWeight: 700, color: "#9a9490", marginBottom: "28px" }}
               >
                 Further Reading
               </h2>

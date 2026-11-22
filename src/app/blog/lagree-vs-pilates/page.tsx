@@ -182,7 +182,7 @@ export default function LagreevsPilatesPage() {
 
             {/* Intro */}
             <div className="mb-14">
-              <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+              <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
                 Many practitioners encounter both methods and struggle to understand the distinction, especially because the Megaformer looks so similar to a Pilates reformer. The machines share a visual language: both involve a carriage on a rail, both use spring resistance, and both are associated with a particular aesthetic of controlled, deliberate movement. But the methods are not the same thing, and conflating them does a disservice to both. This guide explains the actual differences in method, machine, intensity, outcomes, and who each genuinely suits.
               </p>
             </div>
@@ -192,53 +192,43 @@ export default function LagreevsPilatesPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-2">
                 {/* Lagree card */}
                 <div
-                  style={{
-                    backgroundColor: "#ffffff",
-                    border: "1px solid rgba(217,194,186,0.3)",
-                    borderRadius: "12px",
-                    padding: "24px",
-                  }}
+                  style={{ backgroundColor: "#ede9e3", borderRadius: "12px", padding: "24px" }}
                 >
                   <h3
-                    className="text-base font-semibold mb-3"
-                    style={{ color: "#8b4a31", fontFamily: "'Playfair Display', serif", fontSize: "17px" }}
+                    className="text-base mb-3 r-hx"
+                    style={{ color: "#0a0a0a", fontSize: "17px" }}
                   >
                     Lagree Fitness
                   </h3>
-                  <p className="text-sm leading-relaxed mb-3" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+                  <p className="text-base leading-relaxed mb-3" style={{ color: "#3a3530" }}>
                     Founded by Sebastien Lagree in Los Angeles around 2001, the Lagree method was developed by someone who trained in Pilates, but who deliberately set out to build something different. Lagree is a high-intensity, slow-twitch focused training system performed on a proprietary machine called the Megaformer (sold under model designations including the M3S and M3+). It is NOT Pilates.
                   </p>
-                  <ul className="text-sm leading-relaxed space-y-1.5" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                    <li><strong style={{ color: "#1b1c1c" }}>Machine:</strong> Megaformer (~$10,000–14,000; commercial only)</li>
-                    <li><strong style={{ color: "#1b1c1c" }}>Typical class:</strong> 50 minutes; sustained high intensity</li>
-                    <li><strong style={{ color: "#1b1c1c" }}>Key principle:</strong> time under tension; slow-twitch muscle fibers</li>
-                    <li><strong style={{ color: "#1b1c1c" }}>Cardio component:</strong> significant; heart rate elevated throughout</li>
+                  <ul className="text-sm leading-relaxed space-y-1.5" style={{ color: "#3a3530" }}>
+                    <li><strong style={{ color: "#0a0a0a" }}>Machine:</strong> Megaformer (~$10,000–14,000; commercial only)</li>
+                    <li><strong style={{ color: "#0a0a0a" }}>Typical class:</strong> 50 minutes; sustained high intensity</li>
+                    <li><strong style={{ color: "#0a0a0a" }}>Key principle:</strong> time under tension; slow-twitch muscle fibers</li>
+                    <li><strong style={{ color: "#0a0a0a" }}>Cardio component:</strong> significant; heart rate elevated throughout</li>
                   </ul>
                 </div>
 
                 {/* Pilates card */}
                 <div
-                  style={{
-                    backgroundColor: "#ffffff",
-                    border: "1px solid rgba(217,194,186,0.3)",
-                    borderRadius: "12px",
-                    padding: "24px",
-                  }}
+                  style={{ backgroundColor: "#ede9e3", borderRadius: "12px", padding: "24px" }}
                 >
                   <h3
-                    className="text-base font-semibold mb-3"
-                    style={{ color: "#8b4a31", fontFamily: "'Playfair Display', serif", fontSize: "17px" }}
+                    className="text-base mb-3 r-hx"
+                    style={{ color: "#0a0a0a", fontSize: "17px" }}
                   >
                     Pilates
                   </h3>
-                  <p className="text-sm leading-relaxed mb-3" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+                  <p className="text-base leading-relaxed mb-3" style={{ color: "#3a3530" }}>
                     Developed by Joseph Pilates from the 1920s through the 1940s, Pilates is a systematic method built on six principles: control, precision, breath, centering, concentration, and flow. The reformer uses spring resistance with precise spring selection as an integral part of exercise design: supporting, challenging, or progressively loading movement depending on configuration.
                   </p>
-                  <ul className="text-sm leading-relaxed space-y-1.5" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                    <li><strong style={{ color: "#1b1c1c" }}>Machine:</strong> Pilates reformer ($300–7,000+; home practice possible)</li>
-                    <li><strong style={{ color: "#1b1c1c" }}>Typical class:</strong> 50–55 minutes; low-to-moderate intensity</li>
-                    <li><strong style={{ color: "#1b1c1c" }}>Key principle:</strong> neuromuscular control; deep stabilizers</li>
-                    <li><strong style={{ color: "#1b1c1c" }}>Cardio component:</strong> minimal; not a cardiovascular workout</li>
+                  <ul className="text-sm leading-relaxed space-y-1.5" style={{ color: "#3a3530" }}>
+                    <li><strong style={{ color: "#0a0a0a" }}>Machine:</strong> Pilates reformer ($300–7,000+; home practice possible)</li>
+                    <li><strong style={{ color: "#0a0a0a" }}>Typical class:</strong> 50–55 minutes; low-to-moderate intensity</li>
+                    <li><strong style={{ color: "#0a0a0a" }}>Key principle:</strong> neuromuscular control; deep stabilizers</li>
+                    <li><strong style={{ color: "#0a0a0a" }}>Cardio component:</strong> minimal; not a cardiovascular workout</li>
                   </ul>
                 </div>
               </div>
@@ -256,7 +246,7 @@ export default function LagreevsPilatesPage() {
                   heading="The machine: Megaformer vs Pilates reformer"
                   body={
                     <>
-                      <p>Both machines use spring resistance and a sliding carriage on a rail. But the similarities largely end there. The Pilates reformer: the original design refined by Joseph Pilates and subsequently developed by manufacturers such as <Link href="/blog/balanced-body-pilates" style={{ color: "#8b4a31", textDecoration: "underline", textUnderlineOffset: "3px" }}>Balanced Body</Link> and <Link href="/blog/merrithew-pilates" style={{ color: "#8b4a31", textDecoration: "underline", textUnderlineOffset: "3px" }}>Merrithew</Link>has a single moving platform, a footbar, shoulder rests, and a spring system designed for precise loading across a repertoire of several hundred exercises.</p>
+                      <p>Both machines use spring resistance and a sliding carriage on a rail. But the similarities largely end there. The Pilates reformer: the original design refined by Joseph Pilates and subsequently developed by manufacturers such as <Link href="/blog/balanced-body-pilates" style={{ color: "#0a0a0a", textDecoration: "underline", textUnderlineOffset: "3px" }}>Balanced Body</Link> and <Link href="/blog/merrithew-pilates" style={{ color: "#0a0a0a", textDecoration: "underline", textUnderlineOffset: "3px" }}>Merrithew</Link>has a single moving platform, a footbar, shoulder rests, and a spring system designed for precise loading across a repertoire of several hundred exercises.</p>
                       <p className="mt-3">The Megaformer has platforms on both ends of the machine, not just one. This allows for a much greater variety of exercise positions and transitions, and the additional platform configuration is fundamental to how Lagree sequences are designed. The Megaformer is heavier, larger, and more expensive than a standard reformer: it costs approximately $10,000–14,000 and is almost exclusively found in commercial studios. Lagree studios and franchises, including SLT in New York and The Studio MDR in Los Angeles, must be licensed to use the Megaformer. It is trademarked equipment, not a general-purpose reformer variant.</p>
                     </>
                   }
@@ -307,7 +297,7 @@ export default function LagreevsPilatesPage() {
                   body={
                     <>
                       <p>Both methods are primarily studio-based, and per-class pricing is broadly comparable: expect $30–45 per drop-in class for either, with membership pricing reducing the per-session cost at most studios. In major cities, both formats are relatively well represented.</p>
-                      <p className="mt-3">The key difference is at home. The Pilates reformer is available for home purchase across a wide price range, from around $300 for entry-level machines to $7,000+ for studio-grade equipment. Our guide to the <Link href="/blog/best-home-pilates-reformer" style={{ color: "#8b4a31", textDecoration: "underline", textUnderlineOffset: "3px" }}>best home Pilates reformer</Link> covers every meaningful price point honestly. The Megaformer, by contrast, is commercial equipment costing $10,000–14,000. Home Lagree practice is not a realistic option for most people, which means the method is entirely dependent on studio access. For those who travel frequently, are based outside major cities, or prefer home practice, this is a meaningful limitation.</p>
+                      <p className="mt-3">The key difference is at home. The Pilates reformer is available for home purchase across a wide price range, from around $300 for entry-level machines to $7,000+ for studio-grade equipment. Our guide to the <Link href="/blog/best-home-pilates-reformer" style={{ color: "#0a0a0a", textDecoration: "underline", textUnderlineOffset: "3px" }}>best home Pilates reformer</Link> covers every meaningful price point honestly. The Megaformer, by contrast, is commercial equipment costing $10,000–14,000. Home Lagree practice is not a realistic option for most people, which means the method is entirely dependent on studio access. For those who travel frequently, are based outside major cities, or prefer home practice, this is a meaningful limitation.</p>
                     </>
                   }
                 />
@@ -331,47 +321,38 @@ export default function LagreevsPilatesPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-6">
                 {/* Choose Lagree */}
                 <div
-                  style={{
-                    backgroundColor: "#ffffff",
-                    border: "1px solid rgba(217,194,186,0.3)",
-                    borderRadius: "12px",
-                    overflow: "hidden",
-                  }}
+                  style={{ backgroundColor: "#ede9e3", borderRadius: "12px", overflow: "hidden" }}
                 >
-                  <div style={{ backgroundColor: "#8b4a31", padding: "16px 24px" }}>
+                  <div style={{ backgroundColor: "#0a0a0a", padding: "16px 24px" }}>
                     <h3
-                      className="font-semibold text-white"
-                      style={{ fontFamily: "'Playfair Display', serif", fontSize: "16px" }}
+                      className="text-white r-hx"
+                      style={{ fontSize: "16px" }}
                     >
                       Choose Lagree if&hellip;
                     </h3>
                   </div>
                   <ul
                     className="space-y-3 text-sm leading-relaxed"
-                    style={{
-                      color: "#53433e",
-                      fontFamily: "'Montserrat', sans-serif",
-                      padding: "20px 24px",
-                    }}
+                    style={{ color: "#3a3530", padding: "20px 24px" }}
                   >
                     <li className="flex gap-2">
-                      <span style={{ color: "#8b4a31", flexShrink: 0 }}>•</span>
+                      <span style={{ color: "#0a0a0a", flexShrink: 0 }}>•</span>
                       <span>You want a high-intensity full-body workout with a real cardio component</span>
                     </li>
                     <li className="flex gap-2">
-                      <span style={{ color: "#8b4a31", flexShrink: 0 }}>•</span>
+                      <span style={{ color: "#0a0a0a", flexShrink: 0 }}>•</span>
                       <span>You are already fit and want to maintain cardiovascular conditioning alongside toning</span>
                     </li>
                     <li className="flex gap-2">
-                      <span style={{ color: "#8b4a31", flexShrink: 0 }}>•</span>
+                      <span style={{ color: "#0a0a0a", flexShrink: 0 }}>•</span>
                       <span>You enjoy the energy of a class community and music-driven intensity</span>
                     </li>
                     <li className="flex gap-2">
-                      <span style={{ color: "#8b4a31", flexShrink: 0 }}>•</span>
+                      <span style={{ color: "#0a0a0a", flexShrink: 0 }}>•</span>
                       <span>You have no injury or rehabilitation concerns that require low-intensity work</span>
                     </li>
                     <li className="flex gap-2">
-                      <span style={{ color: "#8b4a31", flexShrink: 0 }}>•</span>
+                      <span style={{ color: "#0a0a0a", flexShrink: 0 }}>•</span>
                       <span>You have reliable studio access and home practice is not a priority</span>
                     </li>
                   </ul>
@@ -379,47 +360,38 @@ export default function LagreevsPilatesPage() {
 
                 {/* Choose Pilates */}
                 <div
-                  style={{
-                    backgroundColor: "#ffffff",
-                    border: "1px solid rgba(217,194,186,0.3)",
-                    borderRadius: "12px",
-                    overflow: "hidden",
-                  }}
+                  style={{ backgroundColor: "#ede9e3", borderRadius: "12px", overflow: "hidden" }}
                 >
                   <div style={{ backgroundColor: "#53433e", padding: "16px 24px" }}>
                     <h3
-                      className="font-semibold text-white"
-                      style={{ fontFamily: "'Playfair Display', serif", fontSize: "16px" }}
+                      className="text-white r-hx"
+                      style={{ fontSize: "16px" }}
                     >
                       Choose Pilates if&hellip;
                     </h3>
                   </div>
                   <ul
                     className="space-y-3 text-sm leading-relaxed"
-                    style={{
-                      color: "#53433e",
-                      fontFamily: "'Montserrat', sans-serif",
-                      padding: "20px 24px",
-                    }}
+                    style={{ color: "#3a3530", padding: "20px 24px" }}
                   >
                     <li className="flex gap-2">
-                      <span style={{ color: "#53433e", flexShrink: 0 }}>•</span>
+                      <span style={{ color: "#3a3530", flexShrink: 0 }}>•</span>
                       <span>You have a specific injury, rehabilitation need, or therapeutic goal</span>
                     </li>
                     <li className="flex gap-2">
-                      <span style={{ color: "#53433e", flexShrink: 0 }}>•</span>
+                      <span style={{ color: "#3a3530", flexShrink: 0 }}>•</span>
                       <span>You want a lifetime practice that scales gracefully as you age</span>
                     </li>
                     <li className="flex gap-2">
-                      <span style={{ color: "#53433e", flexShrink: 0 }}>•</span>
+                      <span style={{ color: "#3a3530", flexShrink: 0 }}>•</span>
                       <span>Your instructor and the quality of individual attention matters to you</span>
                     </li>
                     <li className="flex gap-2">
-                      <span style={{ color: "#53433e", flexShrink: 0 }}>•</span>
+                      <span style={{ color: "#3a3530", flexShrink: 0 }}>•</span>
                       <span>You want to develop genuine body awareness and lasting postural control</span>
                     </li>
                     <li className="flex gap-2">
-                      <span style={{ color: "#53433e", flexShrink: 0 }}>•</span>
+                      <span style={{ color: "#3a3530", flexShrink: 0 }}>•</span>
                       <span>Home practice flexibility matters, or you travel frequently</span>
                     </li>
                   </ul>
@@ -460,22 +432,17 @@ export default function LagreevsPilatesPage() {
                 ].map((item) => (
                   <div
                     key={item.q}
-                    style={{
-                      backgroundColor: "#ffffff",
-                      border: "1px solid rgba(217,194,186,0.3)",
-                      borderRadius: "12px",
-                      padding: "24px",
-                    }}
+                    style={{ backgroundColor: "#ede9e3", borderRadius: "12px", padding: "24px" }}
                   >
                     <p
-                      className="font-semibold mb-3"
-                      style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif", fontSize: "16px" }}
+                      className="mb-3 r-hx"
+                      style={{ color: "#0a0a0a", fontSize: "16px" }}
                     >
                       {item.q}
                     </p>
                     <p
-                      className="text-sm leading-relaxed"
-                      style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
+                      className="text-base leading-relaxed"
+                      style={{ color: "#3a3530" }}
                     >
                       {item.a}
                     </p>
@@ -487,9 +454,9 @@ export default function LagreevsPilatesPage() {
 
 
             {/* Equipment */}
-            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Recommended kit</h2>
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid #ddd6cc" }}>
+              <p className="text-[12.5px] font-bold mb-2" style={{ color: "#0a0a0a" }}>Equipment</p>
+              <h2 className="mb-8 r-d r-h2">Recommended kit</h2>
               <div className="space-y-8">
                 {PRODUCTS.map((p) => (
                   <ProductCard key={p.name} name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
@@ -498,10 +465,9 @@ export default function LagreevsPilatesPage() {
             </div>
 
             {/* Further reading */}
-            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid #ddd6cc" }}>
               <h2
-                className="text-2xl font-semibold mb-8"
-                style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}
+                className="mb-8 r-d r-h2"
               >
                 Further reading
               </h2>
@@ -571,14 +537,13 @@ function Section({ title, children }: { title: string; children: React.ReactNode
   return (
     <div className="mb-14">
       <h2
-        className="text-2xl font-semibold mb-5"
-        style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}
+        className="mb-5 r-d r-h2"
       >
         {title}
       </h2>
       <div
         className="space-y-4 text-base leading-relaxed"
-        style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
+        style={{ color: "#3a3530" }}
       >
         {children}
       </div>
@@ -588,10 +553,10 @@ function Section({ title, children }: { title: string; children: React.ReactNode
 
 function Callout({ children }: { children: React.ReactNode }) {
   return (
-    <blockquote className="my-10 border-l-4 pl-6 py-2" style={{ borderColor: "#8b4a31" }}>
+    <blockquote className="my-10 border-l-4 pl-6 py-2" style={{ borderColor: "#0a0a0a" }}>
       <p
-        className="text-lg italic leading-relaxed"
-        style={{ color: "#8b4a31", fontFamily: "'Playfair Display', serif" }}
+        className="text-lg italic leading-relaxed r-hx"
+        style={{ color: "#0a0a0a" }}
       >
         {children}
       </p>
@@ -602,22 +567,17 @@ function Callout({ children }: { children: React.ReactNode }) {
 function CriteriaCard({ heading, body }: { heading: string; body: React.ReactNode }) {
   return (
     <div
-      style={{
-        backgroundColor: "#ffffff",
-        border: "1px solid rgba(217,194,186,0.3)",
-        borderRadius: "12px",
-        padding: "24px",
-      }}
+      style={{ backgroundColor: "#ede9e3", borderRadius: "12px", padding: "24px" }}
     >
       <h3
-        className="font-semibold mb-3"
-        style={{ color: "#8b4a31", fontFamily: "'Playfair Display', serif", fontSize: "17px" }}
+        className="mb-3 r-hx"
+        style={{ color: "#0a0a0a", fontSize: "17px" }}
       >
         {heading}
       </h3>
       <div
         className="text-sm leading-relaxed"
-        style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
+        style={{ color: "#3a3530" }}
       >
         {body}
       </div>

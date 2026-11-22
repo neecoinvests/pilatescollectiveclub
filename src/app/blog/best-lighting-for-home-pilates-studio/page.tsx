@@ -152,20 +152,20 @@ export default function BestLightingForHomePilatesStudioPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Home Studio</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Equipment Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Home Studio</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best Lighting for a<br /><span style={{ color: "#8b4a31" }}>Home Pilates Studio</span>
+            <h1 className="mb-6 r-d r-h1">
+              Best Lighting for a<br /><span style={{ color: "#a98a5f" }}>Home Pilates Studio</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 8 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 8 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               Home gym lighting advice is written for people standing up. Pilates is not: a large share of every session is spent lying on your back looking directly at the ceiling, which puts any bright fixture straight in your eyeline for minutes at a time. Squinting through the hundred is not a small annoyance either; it builds exactly the neck and jaw tension the exercise is trying to remove. Diffusion and dimming matter more here than brightness, and these six are ranked accordingly.
             </p>
           </div>
@@ -173,8 +173,8 @@ export default function BestLightingForHomePilatesStudioPage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/stitch-studio-arched-windows.png" alt="A Pilates studio lit by tall arched windows with soft, even natural light" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/stitch-studio-arched-windows.png" alt="A Pilates studio lit by tall arched windows with soft, even natural light" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -185,13 +185,13 @@ export default function BestLightingForHomePilatesStudioPage() {
             <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>6 Options · Ranked</p>
+              <p className="text-[12.5px] font-bold mb-10" style={{ color: "#0a0a0a" }}>6 Options · Ranked</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
                     <div className="flex items-center gap-3 mb-4">
-                      <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                      <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tag}</span>
+                      <span className="text-2xl r-hx" style={{ color: "#9a9490" }}>{p.rank}</span>
+                      <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{p.tag}</span>
                     </div>
                     <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                   </div>
@@ -199,8 +199,8 @@ export default function BestLightingForHomePilatesStudioPage() {
               </div>
             </div>
 
-            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#fff4f1", border: "1px solid rgba(139,74,49,0.15)" }}>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Getting it right</h2>
+            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#fff4f1", border: "1px solid #ddd6cc" }}>
+              <h2 className="mb-4 r-d r-h2">Getting it right</h2>
               <ul className="space-y-3">
                 {[
                   "Lie down on the mat and look up before you buy anything. That view is the one specification that matters most and the one nobody checks.",
@@ -210,8 +210,8 @@ export default function BestLightingForHomePilatesStudioPage() {
                   "Never place a light directly opposite a mirror: it reflects the fixture straight back into your eyes.",
                   "Check enclosed fixtures are rated for smart bulbs. Trapped heat is the main reason they fail early.",
                 ].map((tip, i) => (
-                  <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                    <span className="font-semibold" style={{ color: "#8b4a31" }}>⚠</span>
+                  <li key={i} className="flex gap-3 text-base" style={{ color: "#3a3530" }}>
+                    <span className="font-semibold" style={{ color: "#0a0a0a" }}>⚠</span>
                     {tip}
                   </li>
                 ))}
@@ -219,7 +219,7 @@ export default function BestLightingForHomePilatesStudioPage() {
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   { q: "Why does lighting matter more in a Pilates room than a normal gym?", a: "Because of where you are looking. Most gym training is done upright, facing forward or down, so an overhead light sits outside your field of view. A large share of Pilates is performed supine, lying on your back looking directly at the ceiling, which puts any bright ceiling fixture straight in your eyeline for minutes at a time. Squinting through the hundred is not a trivial annoyance; it creates neck and jaw tension that works directly against what the exercise is trying to achieve." },
@@ -227,16 +227,16 @@ export default function BestLightingForHomePilatesStudioPage() {
                   { q: "How bright should a home Pilates studio be?", a: "Roughly 1,500 to 3,000 lumens total for a typical 10-by-12-foot room, which is less than a kitchen and more than a bedroom. Total output matters less than how it is delivered: the same lumens from one bare bulb are unpleasant while from a diffused panel plus a lamp they are comfortable. Prioritize dimming over raw brightness: the useful range between energetic morning practice and a wind-down evening session is wide, and no single fixed level serves both." },
                   { q: "Where should lights go relative to a mirror?", a: "Never directly opposite the mirror, which is the most common mistake and reflects the fixture straight back into your eyes. Aim for light coming from the sides or from above and slightly behind the viewing position, so the mirror shows you rather than the lamp. LED strip behind the mirror itself is the cleanest solution, since it lights the surround without ever appearing in the reflection. The same rule applies to windows: a mirror facing a window will be unusable in bright daylight." },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Mirrors for a Home Pilates Studio" excerpt="Leaning, wall-mounted, acrylic and rolling mirrors, plus the mounting height nearly everyone gets wrong." href="/blog/best-mirror-for-home-pilates-studio" category="Equipment" readTime="8 min read" date="September 2026" imageUrl="/pictures/stitch-luxury-studio-wide.png" />
                 <ArticleCard title="Home Pilates Studio Setup" excerpt="Space, flooring, equipment and lighting: how to plan a studio that actually gets used." href="/blog/home-pilates-studio-setup" category="Guide" readTime="11 min read" date="June 2026" imageUrl="/pictures/stitch-studio-open-window.png" />

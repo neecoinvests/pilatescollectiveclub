@@ -139,20 +139,20 @@ export default function DoesPilatesBuildMusclePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Strength & Physique</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Strength & Physique</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Does Pilates<br /><span style={{ color: "#8b4a31" }}>Build Muscle?</span>
+            <h1 className="mb-6 r-d r-h1">
+              Does Pilates<br /><span style={{ color: "#a98a5f" }}>Build Muscle?</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 8 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 8 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               The short answer is yes, but the degree depends on who you are, what kind of Pilates you do, and how you define muscle building. Pilates unambiguously improves muscle activation, endurance, and tone. Whether it produces the hypertrophy (increase in muscle fiber size) associated with strength training is a more nuanced question. Here is what the evidence actually shows.
             </p>
           </div>
@@ -160,8 +160,8 @@ export default function DoesPilatesBuildMusclePage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg" alt="Does Pilates build muscle: science and evidence" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg" alt="Does Pilates build muscle: science and evidence" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -173,11 +173,11 @@ export default function DoesPilatesBuildMusclePage() {
             <AffiliateNote />
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What the research shows</h2>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">What the research shows</h2>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 Multiple studies have measured the effect of Pilates on muscle mass and strength. The findings are consistent: Pilates produces significant improvements in muscular endurance, core strength, and functional movement quality. It produces moderate hypertrophy in previously sedentary or deconditioned individuals. It does not produce the same hypertrophic response as progressive overload resistance training in already-active individuals.
               </p>
-              <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed mb-6" style={{ color: "#3a3530" }}>
                 A 2015 study in the Journal of Sports Medicine found that 12 weeks of Pilates produced significant increases in abdominal and lumbar extensor strength in sedentary women. A 2021 meta-analysis confirmed Pilates improves muscle endurance and functional strength consistently across populations, with greater effects in older adults and those new to exercise.
               </p>
               <div className="space-y-4">
@@ -187,36 +187,36 @@ export default function DoesPilatesBuildMusclePage() {
                   { label: "Shoulder and scapular stabilizers", text: "The serratus anterior, lower trapezius, and rotator cuff muscles, essential for shoulder health, are consistently challenged by Pilates arm series and show functional strength improvements." },
                   { label: "What Pilates does not do", text: "Without progressive overload beyond bodyweight, Pilates does not produce the sustained hypertrophy stimulus needed for significant muscle mass increases in trained individuals. The loads are simply insufficient past a certain baseline." },
                 ].map((item) => (
-                  <div key={item.label} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-sm font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{item.label}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.text}</p>
+                  <div key={item.label} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base font-semibold mb-2" style={{ color: "#0a0a0a" }}>{item.label}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.text}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Reformer vs mat: does it matter?</h2>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">Reformer vs mat: does it matter?</h2>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 Yes, significantly. Reformer Pilates produces greater muscular development than mat Pilates for one straightforward reason: the spring resistance system allows progressive overload. You can increase the spring load as you get stronger, maintaining the stimulus required for continued adaptation.
               </p>
-              <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>
                 Mat Pilates is largely bodyweight-dependent. Once you have adapted to the bodyweight demand of the exercises, further strength gains require either adding external resistance or moving to more challenging variations. This is why experienced mat practitioners often plateau in strength while continuing to improve in mobility and coordination.
               </p>
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>How to add resistance for more muscle</h2>
-              <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">How to add resistance for more muscle</h2>
+              <p className="text-base leading-relaxed mb-6" style={{ color: "#3a3530" }}>
                 These tools integrate directly into Pilates practice without changing the movement vocabulary or requiring a gym environment:
               </p>
-              <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
+              <p className="text-xs mb-8" style={{ color: "#6f6964" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
                     <div className="flex items-center gap-3 mb-4">
-                      <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                      <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tag}</span>
+                      <span className="text-2xl r-hx" style={{ color: "#9a9490" }}>{p.rank}</span>
+                      <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{p.tag}</span>
                     </div>
                     <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                   </div>
@@ -225,23 +225,23 @@ export default function DoesPilatesBuildMusclePage() {
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   { q: "Does Pilates build muscle?", a: "Yes, but with important caveats. Pilates builds muscular endurance, improves muscle activation patterns, and can produce hypertrophy in specific muscle groups (particularly the deep core, glutes, and hip stabilizers) in beginners and deconditioned individuals. For experienced exercisers seeking significant muscle mass, Pilates alone is insufficient without progressive overload via added resistance." },
                   { q: "Can Pilates change your body shape?", a: "Yes. Regular Pilates practice produces measurable changes in posture, muscle tone, and body composition, particularly in the waist, core, and hips. The characteristic Pilates body, improved posture and defined core musculature, is a real and documented outcome of consistent practice. Body shape changes are more pronounced with reformer Pilates than mat-only practice." },
                   { q: "How long does it take to see muscle results from Pilates?", a: "Most practitioners notice postural improvements and increased muscle tone within 4-8 weeks of consistent practice (3+ sessions per week). Visible body composition changes typically become apparent at 8-12 weeks. Significant muscular development comparable to resistance training requires either adding external resistance to Pilates exercises or combining Pilates with strength training." },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Pilates for Weight Loss" excerpt="What Pilates does and doesn't do for weight loss: the honest, evidence-based answer." href="/blog/pilates-for-weight-loss" category="Guide" readTime="7 min read" date="April 2026" imageUrl="/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg" />
                 <ArticleCard title="How Long to See Results from Pilates?" excerpt="Realistic timelines for strength, posture, flexibility, and body composition changes." href="/blog/how-long-to-see-results-pilates" category="Guide" readTime="6 min read" date="March 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />

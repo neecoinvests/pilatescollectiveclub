@@ -123,7 +123,7 @@ export default function PilatesForSeniorsPage() {
           imageAlt="Pilates practice for older adults and seniors"
           category="Health"
           subcategory="Seniors"
-          title={<>Pilates for Seniors<br /><span style={{ color: "#8b4a31" }}>Safe, Effective & Evidence-Based</span></>}
+          title={<>Pilates for Seniors<br /><span style={{ color: "#0a0a0a" }}>Safe, Effective & Evidence-Based</span></>}
           date="Updated May 2026"
           readTime="10 min read"
           dateLabel="Prices checked October 20, 2026"
@@ -138,19 +138,19 @@ export default function PilatesForSeniorsPage() {
 
 
             <section className="pb-20">
-              <p className="text-lg leading-relaxed mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+              <p className="text-lg leading-relaxed mb-10" style={{ color: "#3a3530" }}>
                 Among all exercise modalities available to older adults, Pilates has one of the strongest evidence bases for the outcomes that matter most after 60: fall prevention, bone density maintenance, balance, and functional mobility. The method's emphasis on controlled movement and gradual progression also makes it exceptionally safe for those with joint limitations, osteoporosis, or balance challenges.
               </p>
 
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Why Pilates is particularly suited to older adults</h2>
-              <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">Why Pilates is particularly suited to older adults</h2>
+              <p className="text-base leading-relaxed mb-6" style={{ color: "#3a3530" }}>
                 Most exercise programs for seniors focus on cardiovascular fitness or gross strength. Pilates fills a different niche, it directly addresses the neuromuscular deficits that accumulate with age: reduced proprioception, weakened stabilizer muscles, decreased spinal mobility, and diminished single-leg balance. These are the deficits that lead to falls and loss of independence, and they respond well to Pilates training.
               </p>
-              <p className="text-base leading-relaxed mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed mb-10" style={{ color: "#3a3530" }}>
                 The method also requires no high-impact loading, critical for practitioners with osteoporosis or joint replacements, and is fully modifiable for every physical limitation.
               </p>
 
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What the research shows</h2>
+              <h2 className="mb-6 r-d r-h2">What the research shows</h2>
               <div className="space-y-4 mb-10">
                 {[
                   { heading: "Fall prevention", body: "A 2021 systematic review in the Journal of Aging and Physical Activity found Pilates produced significant reductions in fall risk in adults over 60 after 8-12 weeks of practice. The primary mechanisms were improved single-leg balance, hip abductor strength, and postural stability: all directly trained by Pilates." },
@@ -158,18 +158,18 @@ export default function PilatesForSeniorsPage() {
                   { heading: "Balance and proprioception", body: "Pilates consistently outperforms walking and general exercise programs for balance outcomes in older adults. The single-leg work, weight-shifting exercises, and unstable surface work in reformer Pilates are particularly effective." },
                   { heading: "Chronic pain and quality of life", body: "Multiple RCTs have found significant improvements in chronic back pain, knee pain, and self-reported quality of life in older adults following 8-12 weeks of Pilates. The gains are maintained at 6-12 month follow-up in most studies." },
                 ].map((item) => (
-                  <div key={item.heading} className="flex gap-5 rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <div className="w-1.5 rounded-full shrink-0 mt-1" style={{ backgroundColor: "#8b4a31", minHeight: "20px" }} />
+                  <div key={item.heading} className="flex gap-5 rounded-2xl p-5" style={{ backgroundColor: "#ede9e3" }}>
+                    <div className="w-1.5 rounded-full shrink-0 mt-1" style={{ backgroundColor: "#0a0a0a", minHeight: "20px" }} />
                     <div>
-                      <p className="text-sm font-semibold mb-1" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.heading}</p>
-                      <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
+                      <p className="text-sm mb-1 r-hx" style={{ color: "#0a0a0a" }}>{item.heading}</p>
+                      <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.body}</p>
                     </div>
                   </div>
                 ))}
               </div>
 
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Modifications for joint considerations</h2>
-              <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">Modifications for joint considerations</h2>
+              <p className="text-base leading-relaxed mb-6" style={{ color: "#3a3530" }}>
                 The standard mat Pilates repertoire requires modification for most older adults. The following adaptations are standard practice for instructors working with seniors:
               </p>
               <ul className="space-y-3 mb-10">
@@ -180,16 +180,16 @@ export default function PilatesForSeniorsPage() {
                   "Spinal stenosis: work in neutral spine rather than extreme spinal flexion or extension.",
                   "Balance disorders: all standing work done near a stable support surface; reformer provides a seated alternative to standing exercises.",
                 ].map((item, i) => (
-                  <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                    <span className="font-semibold shrink-0" style={{ color: "#8b4a31" }}>·</span>
+                  <li key={i} className="flex gap-3 text-base" style={{ color: "#3a3530" }}>
+                    <span className="font-semibold shrink-0" style={{ color: "#0a0a0a" }}>·</span>
                     {item}
                   </li>
                 ))}
               </ul>
 
-              <div className="mb-10 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
-                <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Recommended equipment for senior home practice</h2>
-                <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <div className="mb-10 rounded-2xl p-8" style={{ backgroundColor: "#ede9e3" }}>
+                <h2 className="mb-4 r-d r-h2">Recommended equipment for senior home practice</h2>
+                <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                   A quality mat is essential: the{" "}
                   Manduka PRO{" "}
                   at 6mm provides excellent spinal cushioning for older adults. A{" "}
@@ -198,20 +198,20 @@ export default function PilatesForSeniorsPage() {
                   Pilates magic circle{" "}
                   adds light resistance for inner thigh and arm work without loading the joints excessively.
                 </p>
-                <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+                <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>
                   For serious home practice, the reformer's spring assistance is genuinely beneficial for older adults: it assists movement through difficult ranges rather than loading against them. See our{" "}
                   home reformer guide{" "}
                   for options at every price point.
                 </p>
               </div>
 
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Finding the right instructor</h2>
-              <p className="text-base leading-relaxed mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">Finding the right instructor</h2>
+              <p className="text-base leading-relaxed mb-10" style={{ color: "#3a3530" }}>
                 For older adults, instructor selection is more important than for any other population. Look for an instructor with specific training in working with seniors, ideally with additional qualifications in osteoporosis management or post-surgical rehabilitation. The Pilates Method Alliance (PMA) and BASI both offer specialist certifications in this area. A one-to-one initial assessment session is strongly recommended before joining a group class, regardless of experience level.
               </p>
 
               <div className="mb-16">
-                <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+                <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
                 <div className="space-y-6">
                   {[
                     { q: "Is Pilates safe for seniors?", a: "Pilates is one of the safest exercise modalities for older adults when taught by a qualified instructor. The emphasis on controlled movement, spinal alignment, and gradual progression makes it exceptionally appropriate. That said, always consult your physician before starting, particularly if you have osteoporosis, disc problems, or balance disorders." },
@@ -219,16 +219,16 @@ export default function PilatesForSeniorsPage() {
                     { q: "Is it too late to start Pilates at 70?", a: "No. Several studies have specifically investigated Pilates in adults over 70 with positive outcomes for balance, muscle strength, and quality of life. The method is also effective for those over 80, particularly in supervised group or one-to-one settings." },
                     { q: "What type of Pilates is best for seniors?", a: "Mat Pilates with modifications and reformer Pilates with an experienced instructor are both excellent choices. The reformer is particularly beneficial because the spring assistance helps older adults achieve ranges of motion that might not be accessible on a mat. For those with significant balance or mobility challenges, a chair-based Pilates program is the appropriate starting point." },
                   ].map((item) => (
-                    <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                      <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                      <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                    <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                      <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                      <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                     </div>
                   ))}
                 </div>
               </div>
 
               <div>
-                <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+                <h2 className="mb-8 r-d r-h2">Further reading</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                   <ArticleCard title="Pilates for Back Pain" excerpt="Clinical research meets practical guidance on using Pilates to address chronic lower back pain." href="/blog/pilates-for-back-pain" category="Health" readTime="10 min read" date="May 2026" imageUrl="/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg" />
                   <ArticleCard title="Best Pilates Mat (2026)" excerpt="Five mats ranked for spinal cushioning, grip, and durability." href="/blog/best-pilates-mat" category="Equipment" readTime="9 min read" date="May 2026" imageUrl="/pictures/dane-wetton-t1NEMSm1rgI-unsplash.jpg" />

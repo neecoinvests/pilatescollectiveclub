@@ -160,9 +160,7 @@ const jsonLd = {
   ],
 };
 
-const sans = "'Montserrat', sans-serif";
-const serif = "'Playfair Display', serif";
-const linkStyle = { color: "#8b4a31", textDecoration: "underline" };
+const linkStyle = { color: "#0a0a0a", textDecoration: "underline" };
 
 export default function BestPilatesLeggingsPage() {
   return (
@@ -170,20 +168,20 @@ export default function BestPilatesLeggingsPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: sans }}>Equipment Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: sans }}>Apparel</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Equipment Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Apparel</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: serif }}>
-              Best Pilates Leggings<br /><span style={{ color: "#8b4a31" }}>(2026): 5 Picks, Ranked</span>
+            <h1 className="mb-6 r-d r-h1">
+              Best Pilates Leggings<br /><span style={{ color: "#a98a5f" }}>(2026): 5 Picks, Ranked</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: sans }}>Prices checked {CHECKED} · 9 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked {CHECKED} · 9 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={'High rise, flat waistband, 25" inseam'} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: sans, fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               Pilates asks a lot of a pair of leggings. Your instructor needs to see your hips, spine and knees, so the fabric has to stay opaque in deep flexion, and a waistband that rolls during the hundred or footwork is a constant distraction. We compared the most popular studio leggings on Amazon on waistband, length, fabric and seams, using each listing&apos;s own specs and the price we checked today. Here are the five that suit the method best.
             </p>
           </div>
@@ -191,8 +189,8 @@ export default function BestPilatesLeggingsPage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src={HERO} alt="Pilates leggings for reformer and mat classes" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src={HERO} alt="Pilates leggings for reformer and mat classes" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -205,7 +203,7 @@ export default function BestPilatesLeggingsPage() {
               <div className="r-qp-hd">
                 <p className="r-qp-title">Quick Picks: At a Glance</p>
               </div>
-              {PRODUCTS.map((p, i) => (
+              {PRODUCTS.map((p) => (
                 <div key={p.name} className="r-qp-row">
                   <span className="r-qp-no">{p.rank}</span>
                   <div className="r-qp-tx">
@@ -217,12 +215,12 @@ export default function BestPilatesLeggingsPage() {
                   >Shop Now →</a>
                 </div>
               ))}
-              <p className="px-6 py-3 text-xs" style={{ color: "#86736d", fontFamily: sans, backgroundColor: "#ffffff", borderTop: "1px solid rgba(217,194,186,0.25)" }}>Amazon prices checked {CHECKED} for the size and color linked; prices vary by size and color.</p>
+              <p className="px-6 py-3 text-xs" style={{ color: "#6f6964", backgroundColor: "#ffffff", borderTop: "1px solid #ddd6cc" }}>Amazon prices checked {CHECKED} for the size and color linked; prices vary by size and color.</p>
             </div>
             <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-16 mt-4">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: serif }}>What to look for in Pilates leggings</h2>
+              <h2 className="mb-6 r-d r-h2">What to look for in Pilates leggings</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[
                   { heading: "Opacity", body: "Deep hip flexion, spinal rotation and bridges all stretch the fabric. Try a squat in front of a mirror before you take the tags off: if there is any sheerness, it will show more on the reformer." },
@@ -230,23 +228,23 @@ export default function BestPilatesLeggingsPage() {
                   { heading: "Length", body: "A 7/8 (around 25\") inseam is the studio favorite: it keeps fabric clear of springs and straps and shows off your grip socks. Midi and full length suit mat classes." },
                   { heading: "Seams", body: "Flat seams matter more in Pilates than in most workouts, because you lie and kneel on the carriage for most of the class. Look for minimal or flat seams and no outseam." },
                 ].map((item) => (
-                  <div key={item.heading} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: serif }}>{item.heading}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: sans }}>{item.body}</p>
+                  <div key={item.heading} className="rounded-2xl p-5" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-sm mb-1.5 r-hx" style={{ color: "#0a0a0a" }}>{item.heading}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.body}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-10" style={{ color: "#1b1c1c", fontFamily: serif }}>The 5 best Pilates leggings</h2>
+              <h2 className="mb-10 r-d r-h2">The 5 best Pilates leggings</h2>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
                     <div className="flex items-center gap-3 mb-4">
-                      <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: serif }}>{p.rank}</span>
+                      <span className="text-2xl r-hx" style={{ color: "#9a9490" }}>{p.rank}</span>
                       <div>
-                        <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: sans }}>{p.tag}</span>
+                        <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{p.tag}</span>
                       </div>
                     </div>
                     <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} ctaLabel="Shop Now →" />
@@ -255,32 +253,31 @@ export default function BestPilatesLeggingsPage() {
               </div>
             </div>
 
-            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={{ color: "#8b4a31", fontFamily: sans }}>Not sold on Amazon</p>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: serif }}>Looking for Alo Airbrush or Vuori?</h2>
-              <p className="text-sm leading-relaxed mb-3" style={{ color: "#53433e", fontFamily: sans }}>
+            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#ede9e3" }}>
+              <p className="text-[12.5px] font-bold mb-3" style={{ color: "#0a0a0a" }}>Not sold on Amazon</p>
+              <h2 className="mb-4 r-d r-h2">Looking for Alo Airbrush or Vuori?</h2>
+              <p className="text-base leading-relaxed mb-3" style={{ color: "#3a3530" }}>
                 Both are popular in Pilates studios, but neither brand sells these leggings on Amazon, and an Amazon search for them mostly shows other brands. Buy them direct: <a href="https://www.aloyoga.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Alo Yoga</a> and <a href="https://vuoriclothing.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Vuori</a>.
               </p>
-              <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: sans }}>
+              <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>
                 For more premium options on Amazon, see our <Link href="/blog/best-luxury-pilates-leggings" style={linkStyle}>luxury Pilates leggings guide</Link>.
               </p>
             </div>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={{ color: "#8b4a31", fontFamily: sans }}>Make it a set</p>
-              <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: serif }}>Matching sports bras</h2>
-              <p className="text-sm leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: sans }}>
+              <p className="text-[12.5px] font-bold mb-3" style={{ color: "#0a0a0a" }}>Make it a set</p>
+              <h2 className="mb-4 r-d r-h2">Matching sports bras</h2>
+              <p className="text-base leading-relaxed mb-6" style={{ color: "#3a3530" }}>
                 A bra from the same line shares the fabric and color of your leggings. More options in our <Link href="/blog/best-pilates-sets" style={linkStyle}>Pilates sets</Link> and <Link href="/blog/best-pilates-sports-bra" style={linkStyle}>Pilates sports bra</Link> guides.
               </p>
               <div className="space-y-4">
                 {BRAS.map((b) => (
-                  <div key={b.name} className="rounded-xl p-5 flex flex-col sm:flex-row sm:items-center gap-3" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
+                  <div key={b.name} className="rounded-2xl p-5 flex flex-col sm:flex-row sm:items-center gap-3" style={{ backgroundColor: "#ede9e3" }}>
                     <div className="flex-1 min-w-0">
-                      <p className="text-sm font-semibold" style={{ color: "#1b1c1c", fontFamily: serif }}>{b.name} <span style={{ color: "#8b4a31", fontFamily: sans }}>{b.price}</span></p>
-                      <p className="text-xs mt-1" style={{ color: "#86736d", fontFamily: sans }}>{b.note}</p>
+                      <p className="text-sm r-hx" style={{ color: "#0a0a0a" }}>{b.name} <span style={{ color: "#0a0a0a" }}>{b.price}</span></p>
+                      <p className="text-xs mt-1" style={{ color: "#6f6964" }}>{b.note}</p>
                     </div>
-                    <a href={b.url} target="_blank" rel="noopener noreferrer nofollow sponsored" className="text-center"
-                      style={{ fontFamily: sans, fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap" }}
+                    <a href={b.url} target="_blank" rel="noopener noreferrer nofollow sponsored" className="text-center r-btn r-btn-sm"
                     >Shop Now →</a>
                   </div>
                 ))}
@@ -288,23 +285,23 @@ export default function BestPilatesLeggingsPage() {
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: serif }}>Which legging for which class?</h2>
+              <h2 className="mb-6 r-d r-h2">Which legging for which class?</h2>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                 {[
                   { heading: "Reformer", body: "A 25\" high-rise legging with flat seams: Lululemon Align, Varley FreeSoft or CRZ YOGA Naked Feeling. See our reformer leggings guide.", href: "/blog/best-leggings-for-reformer-pilates" },
                   { heading: "Mat", body: "Softness and coverage matter most. Beyond Yoga Spacedye's 28\" midi is a favorite. See our high-waist leggings guide.", href: "/blog/best-high-waist-pilates-leggings" },
                   { heading: "Hot or dynamic classes", body: "Sweat-wicking, quick-drying fabric: Sweaty Betty Power or CRZ YOGA Naked Feeling, which its listing says is designed for hot yoga or Pilates.", href: "/blog/what-to-wear-to-pilates" },
                 ].map((item) => (
-                  <Link key={item.heading} href={item.href} className="rounded-xl p-5 block" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: serif }}>{item.heading}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: sans }}>{item.body}</p>
+                  <Link key={item.heading} href={item.href} className="rounded-2xl p-5 block" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-sm mb-1.5 r-hx" style={{ color: "#0a0a0a" }}>{item.heading}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.body}</p>
                   </Link>
                 ))}
               </div>
             </div>
 
-            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: serif }}>Care guide: making leggings last</h2>
+            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#ede9e3" }}>
+              <h2 className="mb-4 r-d r-h2">Care guide: making leggings last</h2>
               <ul className="space-y-3">
                 {[
                   "Wash inside-out on cold. Hot water wears out the elastane that gives leggings their stretch and shape.",
@@ -313,8 +310,8 @@ export default function BestPilatesLeggingsPage() {
                   "Rinse sweaty leggings straight after class if you can't wash them right away.",
                   "Replace them when the waistband loses its grip. A rolling waistband makes it harder for your instructor to see your alignment.",
                 ].map((tip, i) => (
-                  <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: sans }}>
-                    <span className="font-semibold" style={{ color: "#8b4a31" }}>{i + 1}.</span>
+                  <li key={i} className="flex gap-3 text-base" style={{ color: "#3a3530" }}>
+                    <span className="font-semibold" style={{ color: "#0a0a0a" }}>{i + 1}.</span>
                     {tip}
                   </li>
                 ))}
@@ -322,19 +319,19 @@ export default function BestPilatesLeggingsPage() {
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: serif }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {FAQS.map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: serif }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: sans }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: serif }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Leggings for Reformer Pilates" excerpt="Leggings chosen for carriage, springs and straps." href="/blog/best-leggings-for-reformer-pilates" category="Apparel" readTime="8 min read" date="October 2026" imageUrl="/pictures/stitch-reformer-sunlit-minimal.png" />
                 <ArticleCard title="Best Luxury Pilates Leggings" excerpt="The premium leggings worth the splurge." href="/blog/best-luxury-pilates-leggings" category="Apparel" readTime="8 min read" date="October 2026" imageUrl="/pictures/stitch-retail-activewear.png" />

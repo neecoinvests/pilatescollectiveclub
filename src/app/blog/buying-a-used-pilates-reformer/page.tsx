@@ -104,20 +104,20 @@ export default function BuyingAUsedPilatesReformerPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Buying</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Buying</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Buying a Used<br /><span style={{ color: "#8b4a31" }}>Pilates Reformer</span>
+            <h1 className="mb-6 r-d r-h1">
+              Buying a Used<br /><span style={{ color: "#a98a5f" }}>Pilates Reformer</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 11 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 11 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               A commercial reformer is a frame, a pair of rails and a set of consumables. The consumables wear out on a schedule and cost a few hundred dollars to renew. The frame and rails either are true or they are not, and that is the whole inspection. Get that distinction right and the used market is the best value in Pilates equipment. Get it wrong and you have bought a very heavy problem.
             </p>
           </div>
@@ -126,7 +126,7 @@ export default function BuyingAUsedPilatesReformerPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/stitch-reformer-loops-hooks.png" alt="Detail of the ropes, loops and hooks on a Pilates reformer" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/stitch-reformer-loops-hooks.png" alt="Detail of the ropes, loops and hooks on a Pilates reformer" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -137,48 +137,48 @@ export default function BuyingAUsedPilatesReformerPage() {
             <QuickPicks className="mb-6 mt-4" picks={PRODUCTS.map((pr, i) => ({ name: pr.name, price: pr.price, url: pr.affiliateUrl, note: QP_NOTES[i] }))} />
             <AffiliateNote />
 
-            <div className="mb-14 mt-4 rounded-2xl p-7" style={{ backgroundColor: "#fff4f1", border: "1px solid rgba(139,74,49,0.15)" }}>
-              <p className="text-xs font-semibold uppercase tracking-[0.15em] mb-3" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>The rule</p>
-              <p className="text-base leading-relaxed mb-0" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+            <div className="mb-14 mt-4 rounded-2xl p-7" style={{ backgroundColor: "#fff4f1", border: "1px solid #ddd6cc" }}>
+              <p className="text-[12.5px] font-bold mb-3" style={{ color: "#0a0a0a" }}>The rule</p>
+              <p className="text-base leading-relaxed mb-0" style={{ color: "#3a3530" }}>
                 Buy the frame, replace the consumables. Springs, ropes, straps and upholstery are expected costs on any used machine and should come off the price rather than out of your enthusiasm. A bent rail, a flexing frame or a discontinued footbar mechanism is a different category entirely, and no discount makes it a good buy.
               </p>
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The inspection, in order</h2>
-              <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">The inspection, in order</h2>
+              <p className="text-base leading-relaxed mb-6" style={{ color: "#3a3530" }}>
                 Work through these in this sequence, because the first two decide whether the rest is worth doing. If you cannot see the machine in person, ask for video of the carriage running through its full travel and photographs of the rails sighted along their length.
               </p>
               <div className="space-y-4">
                 {INSPECT.map((c) => (
-                  <div key={c.label} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
+                  <div key={c.label} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
                     <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1 mb-2">
-                      <p className="text-base font-semibold" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{c.label}</p>
-                      <p className="text-xs font-semibold" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{c.verdict}</p>
+                      <p className="text-base r-hx" style={{ color: "#0a0a0a" }}>{c.label}</p>
+                      <p className="text-xs font-semibold" style={{ color: "#0a0a0a" }}>{c.verdict}</p>
                     </div>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{c.body}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{c.body}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>How to price it</h2>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">How to price it</h2>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 Start from what the machine costs new today, not from what the seller paid. Sellers routinely anchor on their original purchase price, and on a machine bought years ago that number is not the relevant one. Establish the current new price for that exact model first, because published figures for some brands are badly out of date and you want the real one.
               </p>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 For reference, current new pricing on machines that commonly appear secondhand: the Balanced Body Studio Reformer is $4,700, the Balanced Body Allegro Stretch is $3,710, and the Align Pilates C8 Pro is $2,750. Those are the numbers to discount from. Our{" "}
-                <Link href="/blog/align-pilates-vs-balanced-body" style={{ color: "#8b4a31", textDecoration: "underline" }}>brand comparison</Link>{" "}
+                <Link href="/blog/align-pilates-vs-balanced-body" style={{ color: "#0a0a0a", textDecoration: "underline" }}>brand comparison</Link>{" "}
                 has more current pricing across both ranges.
               </p>
-              <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>
                 Then subtract, in this order: the consumables it needs, which on a studio machine is realistically a full spring set, ropes and possibly upholstery; a discount for age and hours; and a further discount for the fact that you get no warranty and no recourse at all. What remains is your number. If the seller is close to new-machine pricing, buy new, because a new machine comes with cover and a known history.
               </p>
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Where the machines come from, and why it matters</h2>
+              <h2 className="mb-6 r-d r-h2">Where the machines come from, and why it matters</h2>
               <div className="space-y-4">
                 {[
                   { label: "Studio refits and closures", body: "The best source, counterintuitively. These machines have done serious hours but were built for it and usually maintained on a schedule, because a studio cannot afford a machine that is out of action. They often come in matched multiples, which is exactly what a new studio wants. Ask what the maintenance routine was and when the springs were last replaced." },
@@ -186,16 +186,16 @@ export default function BuyingAUsedPilatesReformerPage() {
                   { label: "Dealer refurbished trade-ins", body: "More expensive than a private sale and usually worth the difference. Consumables are typically already replaced, the machine has been checked by someone who knows it, and there is often a limited warranty. If you cannot inspect confidently yourself, this is the route that removes most of the risk." },
                   { label: "General marketplace listings", body: "The widest selection and the least information. Listings frequently misname models, which matters because parts availability is model-specific. Insist on the exact model name and photographs of the rails and springs before traveling to see anything." },
                 ].map((item) => (
-                  <div key={item.label} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.label}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
+                  <div key={item.label} className="rounded-2xl p-5" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-sm mb-1.5 r-hx" style={{ color: "#0a0a0a" }}>{item.label}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.body}</p>
                   </div>
                 ))}
               </div>
             </div>
 
-            <div className="mb-14 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2" }}>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Walk away if</h2>
+            <div className="mb-14 rounded-2xl p-8" style={{ backgroundColor: "#ede9e3" }}>
+              <h2 className="mb-4 r-d r-h2">Walk away if</h2>
               <ul className="space-y-3">
                 {[
                   "A rail is not straight, or the carriage changes resistance partway through its travel.",
@@ -207,8 +207,8 @@ export default function BuyingAUsedPilatesReformerPage() {
                   "The asking price, plus the consumables it obviously needs, lands close to what the machine costs new.",
                   "You cannot inspect it and the seller will not provide video of the carriage running and photographs of the rails.",
                 ].map((tip, i) => (
-                  <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                    <span className="font-semibold" style={{ color: "#8b4a31" }}>⚠</span>
+                  <li key={i} className="flex gap-3 text-base" style={{ color: "#3a3530" }}>
+                    <span className="font-semibold" style={{ color: "#0a0a0a" }}>⚠</span>
                     {tip}
                   </li>
                 ))}
@@ -216,7 +216,7 @@ export default function BuyingAUsedPilatesReformerPage() {
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   { q: "Is it worth buying a used Pilates reformer?", a: "For a commercial-grade machine from an established brand, often yes. A studio frame is built for a decade or more of daily use, and the parts that wear out are springs, ropes and upholstery, all of which are replaceable for a few hundred dollars. What you are really buying is the frame and the rails, and those either are straight and true or they are not. For consumer-end machines the case is weaker: the frame was not built for a long life, replacement parts may not exist, and the saving against a new one is smaller in absolute terms." },
@@ -224,9 +224,9 @@ export default function BuyingAUsedPilatesReformerPage() {
                   { q: "What should I check on a used reformer?", a: "Start with the frame and rails, because those are the only parts that cannot be economically replaced. Sight along the rails for straightness, push the carriage slowly through its full travel listening for grinding or catching, and put weight on the frame to feel for flex or movement at the joints. Then check the springs for corrosion and for whether they still return to length, the ropes for stretch and fraying, the footbar mechanism through every position, and the upholstery for cracking rather than just wear. Finally, confirm the model name and year so you can establish that parts are still available." },
                   { q: "Where do used Pilates reformers come from?", a: "Mostly from studios refitting, relocating or closing, and from home buyers who bought a machine and did not keep up the practice. Studio machines have done far more hours but were built for it and have usually been maintained on a schedule. Home machines have done very little work but may have been stored badly, which is its own problem for springs and upholstery. Some dealers also sell refurbished trade-ins, which cost more than a private sale and typically come with the consumables already replaced and some form of limited warranty." },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
@@ -234,10 +234,10 @@ export default function BuyingAUsedPilatesReformerPage() {
 
             {/* Reformers */}
 
-            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Reformers</p>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>New prices to value a used machine against</h2>
-              <p className="text-base leading-relaxed mb-8" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid #ddd6cc" }}>
+              <p className="text-[12.5px] font-bold mb-2" style={{ color: "#0a0a0a" }}>Reformers</p>
+              <h2 className="mb-4 r-d r-h2">New prices to value a used machine against</h2>
+              <p className="text-base leading-relaxed mb-8" style={{ color: "#3a3530" }}>
                 Price a secondhand machine down from what it costs new today, not from what the seller paid. These are the current figures. Check the warranty covers your intended use before ordering, and confirm the machine fits the room and the route into it.
               </p>
               <div className="space-y-8">
@@ -248,10 +248,10 @@ export default function BuyingAUsedPilatesReformerPage() {
             </div>
 
             {/* Equipment */}
-            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Budget these alongside the machine</h2>
-              <p className="text-base leading-relaxed mb-8" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid #ddd6cc" }}>
+              <p className="text-[12.5px] font-bold mb-2" style={{ color: "#0a0a0a" }}>Equipment</p>
+              <h2 className="mb-4 r-d r-h2">Budget these alongside the machine</h2>
+              <p className="text-base leading-relaxed mb-8" style={{ color: "#3a3530" }}>
                 Assume most of this list on any machine that has done studio hours, and price it into your offer rather than treating it as a surprise afterwards. Check compatibility with the exact model before ordering any part.
               </p>
               <div className="space-y-8">
@@ -262,7 +262,7 @@ export default function BuyingAUsedPilatesReformerPage() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Reformer Maintenance & Spring Replacement" excerpt="What wears out, how often, and how to keep a machine feeling like it did new." href="/blog/pilates-reformer-maintenance-and-spring-replacement" category="Equipment" readTime="11 min read" date="September 2026" imageUrl="/pictures/stitch-reformer-spring-detail.png" />
                 <ArticleCard title="Where to Buy a Pilates Reformer" excerpt="Direct, dealer or marketplace: what each channel costs you and what it protects." href="/blog/where-to-buy-a-pilates-reformer" category="Guide" readTime="11 min read" date="September 2026" imageUrl="/pictures/stitch-studio-entryway.png" />

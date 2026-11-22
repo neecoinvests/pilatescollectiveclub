@@ -194,45 +194,44 @@ export default function HowMuchDoesAPilatesReformerCostPage() {
       <main>
 
         {/* ── Hero ── */}
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
               <span
-                className="text-xs font-semibold uppercase tracking-[0.2em]"
-                style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}
+                className="text-[12.5px] font-bold"
+                style={{ color: "#0a0a0a" }}
               >
                 Buyer&apos;s Guide
               </span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
+              <span style={{ color: "#9a9490" }}>·</span>
               <span
-                className="text-xs font-semibold uppercase tracking-[0.15em]"
-                style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
+                className="text-[12.5px] font-bold"
+                style={{ color: "#3a3530" }}
               >
                 Equipment
               </span>
             </div>
 
             <h1
-              className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6"
-              style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}
+              className="mb-6 r-d r-h1"
             >
               How Much Does a Pilates Reformer Cost?{" "}
-              <span style={{ color: "#8b4a31" }}>(2026 Complete Price Guide)</span>
+              <span style={{ color: "#a98a5f" }}>(2026 Complete Price Guide)</span>
             </h1>
 
             <p
-              className="text-sm mb-8"
-              style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}
+              className="text-base mb-8"
+              style={{ color: "#6f6964" }}
             >
               Prices checked October 20, 2026 · 8 min read
             </p>
               <TopPick name={QUICK_PICKS[0].name} price={QUICK_PICKS[0].price} note={QUICK_PICKS[0].note} url={QUICK_PICKS[0].url} />
 
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
 
             <p
               className="text-lg leading-relaxed"
-              style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}
+              style={{ color: "#3a3530" }}
             >
               A Pilates reformer costs anywhere from $296 to over $8,000: a range so wide it is nearly meaningless without context. What actually determines price is not brand prestige but the resistance system (cords vs springs), the brand&apos;s track record (established vs generic/dropship), construction quality (sealed bearings vs nylon rollers, aluminum vs steel), and the accessory ecosystem it supports. Notably, real spring resistance is not exclusive to the $2,300+ tier: a newer wave of budget, generic-brand folding reformers now puts genuine coil or piano-wire springs under $750, with the trade-off being brand risk rather than resistance type. This guide breaks down every price tier honestly, with what you actually get and the total cost of ownership at each level.
             </p>
@@ -251,7 +250,6 @@ export default function HowMuchDoesAPilatesReformerCostPage() {
                 alt="Pilates reformer cost guide: complete price breakdown from budget to studio grade"
                 fill
                 className="object-cover"
-                style={{ filter: "brightness(0.85)" }}
                 priority
               />
             </div>
@@ -267,20 +265,19 @@ export default function HowMuchDoesAPilatesReformerCostPage() {
             {/* ── Price tier breakdown ── */}
             <div className="mb-16 mt-4">
               <p
-                className="text-xs font-semibold uppercase tracking-[0.2em] mb-2"
-                style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}
+                className="text-[12.5px] font-bold mb-2"
+                style={{ color: "#0a0a0a" }}
               >
                 Price tiers
               </p>
               <h2
-                className="text-3xl font-semibold mb-4"
-                style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}
+                className="mb-4 r-d r-h2"
               >
                 Every price tier, honestly broken down
               </h2>
               <p
                 className="text-base leading-relaxed mb-10"
-                style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
+                style={{ color: "#3a3530" }}
               >
                 The six tiers below represent distinct product categories: different resistance systems, brand track records, build standards, and long-term trajectories. Moving from one tier to the next is not just spending more money; it is buying a qualitatively different machine.
               </p>
@@ -289,66 +286,29 @@ export default function HowMuchDoesAPilatesReformerCostPage() {
                 {PRICE_TIERS.map((tier) => (
                   <div
                     key={tier.label}
-                    style={{
-                      backgroundColor: "#ffffff",
-                      borderRadius: "16px",
-                      border: "1px solid rgba(217,194,186,0.35)",
-                      overflow: "hidden",
-                    }}
+                    style={{ backgroundColor: "#ede9e3", borderRadius: "16px", overflow: "hidden" }}
                   >
                     {/* Card header */}
                     <div
-                      style={{
-                        display: "flex",
-                        alignItems: "center",
-                        gap: "16px",
-                        padding: "20px 24px",
-                        borderBottom: "1px solid rgba(217,194,186,0.25)",
-                        backgroundColor: "#fcf9f8",
-                      }}
+                      style={{ display: "flex", alignItems: "center", gap: "16px", padding: "20px 24px", borderBottom: "1px solid #ddd6cc", backgroundColor: "#f7f4f0" }}
                     >
                       <div
-                        style={{
-                          backgroundColor: "#8b4a31",
-                          borderRadius: "10px",
-                          padding: "8px 14px",
-                          flexShrink: 0,
-                        }}
+                        style={{ backgroundColor: "#0a0a0a", borderRadius: "10px", padding: "8px 14px", flexShrink: 0 }}
                       >
                         <span
-                          style={{
-                            fontFamily: "'Montserrat', sans-serif",
-                            fontSize: "13px",
-                            fontWeight: 700,
-                            color: "#ffffff",
-                            whiteSpace: "nowrap",
-                          }}
+                          style={{ fontSize: "15px", fontWeight: 700, color: "#ffffff", whiteSpace: "nowrap" }}
                         >
                           {tier.range}
                         </span>
                       </div>
                       <div>
-                        <p
-                          style={{
-                            fontFamily: "'Playfair Display', serif",
-                            fontSize: "18px",
-                            fontWeight: 600,
-                            color: "#1b1c1c",
-                            lineHeight: 1.2,
-                            marginBottom: "2px",
-                          }}
+                        <p className="r-hx"
+                          style={{ fontSize: "18px", color: "#0a0a0a", lineHeight: 1.2, marginBottom: "2px" }}
                         >
                           {tier.heading}
                         </p>
                         <span
-                          style={{
-                            fontFamily: "'Montserrat', sans-serif",
-                            fontSize: "10px",
-                            fontWeight: 600,
-                            letterSpacing: "0.15em",
-                            textTransform: "uppercase" as const,
-                            color: "#8b4a31",
-                          }}
+                          style={{ fontSize: "12.5px", fontWeight: 600, color: "#0a0a0a" }}
                         >
                           {tier.tag}
                         </span>
@@ -358,13 +318,7 @@ export default function HowMuchDoesAPilatesReformerCostPage() {
                     {/* Card body */}
                     <div style={{ padding: "20px 24px" }}>
                       <p
-                        style={{
-                          fontFamily: "'Montserrat', sans-serif",
-                          fontSize: "14px",
-                          lineHeight: 1.75,
-                          color: "#53433e",
-                          marginBottom: "16px",
-                        }}
+                        style={{ fontSize: "16px", lineHeight: 1.55, color: "#3a3530", marginBottom: "16px" }}
                       >
                         {tier.body}
                       </p>
@@ -377,96 +331,45 @@ export default function HowMuchDoesAPilatesReformerCostPage() {
                         }}
                       >
                         <div
-                          style={{
-                            backgroundColor: "#f6f3f2",
-                            borderRadius: "10px",
-                            padding: "12px 14px",
-                          }}
+                          style={{ backgroundColor: "#ede9e3", borderRadius: "10px", padding: "12px 14px" }}
                         >
                           <p
-                            style={{
-                              fontFamily: "'Montserrat', sans-serif",
-                              fontSize: "9px",
-                              fontWeight: 700,
-                              letterSpacing: "0.18em",
-                              textTransform: "uppercase" as const,
-                              color: "#8b4a31",
-                              marginBottom: "6px",
-                            }}
+                            style={{ fontSize: "12.5px", fontWeight: 700, color: "#0a0a0a", marginBottom: "6px" }}
                           >
                             Who it&apos;s for
                           </p>
                           <p
-                            style={{
-                              fontFamily: "'Montserrat', sans-serif",
-                              fontSize: "13px",
-                              lineHeight: 1.6,
-                              color: "#53433e",
-                            }}
+                            style={{ fontSize: "15px", lineHeight: 1.6, color: "#3a3530" }}
                           >
                             {tier.forWho}
                           </p>
                         </div>
 
                         <div
-                          style={{
-                            backgroundColor: "#f6f3f2",
-                            borderRadius: "10px",
-                            padding: "12px 14px",
-                          }}
+                          style={{ backgroundColor: "#ede9e3", borderRadius: "10px", padding: "12px 14px" }}
                         >
                           <p
-                            style={{
-                              fontFamily: "'Montserrat', sans-serif",
-                              fontSize: "9px",
-                              fontWeight: 700,
-                              letterSpacing: "0.18em",
-                              textTransform: "uppercase" as const,
-                              color: "#8b4a31",
-                              marginBottom: "6px",
-                            }}
+                            style={{ fontSize: "12.5px", fontWeight: 700, color: "#0a0a0a", marginBottom: "6px" }}
                           >
                             What you sacrifice
                           </p>
                           <p
-                            style={{
-                              fontFamily: "'Montserrat', sans-serif",
-                              fontSize: "13px",
-                              lineHeight: 1.6,
-                              color: "#53433e",
-                            }}
+                            style={{ fontSize: "15px", lineHeight: 1.6, color: "#3a3530" }}
                           >
                             {tier.sacrifice}
                           </p>
                         </div>
 
                         <div
-                          style={{
-                            backgroundColor: "#f6f3f2",
-                            borderRadius: "10px",
-                            padding: "12px 14px",
-                          }}
+                          style={{ backgroundColor: "#ede9e3", borderRadius: "10px", padding: "12px 14px" }}
                         >
                           <p
-                            style={{
-                              fontFamily: "'Montserrat', sans-serif",
-                              fontSize: "9px",
-                              fontWeight: 700,
-                              letterSpacing: "0.18em",
-                              textTransform: "uppercase" as const,
-                              color: "#8b4a31",
-                              marginBottom: "6px",
-                            }}
+                            style={{ fontSize: "12.5px", fontWeight: 700, color: "#0a0a0a", marginBottom: "6px" }}
                           >
                             Expected lifespan
                           </p>
                           <p
-                            style={{
-                              fontFamily: "'Montserrat', sans-serif",
-                              fontSize: "13px",
-                              fontWeight: 600,
-                              color: "#1b1c1c",
-                            }}
+                            style={{ fontSize: "15px", fontWeight: 600, color: "#0a0a0a" }}
                           >
                             {tier.lifespan}
                           </p>
@@ -481,20 +384,19 @@ export default function HowMuchDoesAPilatesReformerCostPage() {
             {/* ── Total cost of ownership ── */}
             <div className="mb-16">
               <p
-                className="text-xs font-semibold uppercase tracking-[0.2em] mb-2"
-                style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}
+                className="text-[12.5px] font-bold mb-2"
+                style={{ color: "#0a0a0a" }}
               >
                 Real cost
               </p>
               <h2
-                className="text-3xl font-semibold mb-4"
-                style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}
+                className="mb-4 r-d r-h2"
               >
                 The real total cost: machine + accessories
               </h2>
               <p
                 className="text-base leading-relaxed mb-8"
-                style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
+                style={{ color: "#3a3530" }}
               >
                 The sticker price of the reformer is only the beginning. A fully equipped machine includes a box (required for the Long Box and Short Box exercise series), and optionally a jump board, a tower, and a pole. Budget at least an extra $150–$750 for verified accessories, depending on the depth of practice you plan: tower and pole pricing varies more, and we could not verify a specific Amazon listing for either.
               </p>
@@ -502,21 +404,10 @@ export default function HowMuchDoesAPilatesReformerCostPage() {
               {/* Accessories breakdown table */}
               <div className="r-glance mb-6">
                 <div
-                  style={{
-                    padding: "14px 24px",
-                    backgroundColor: "#f6f3f2",
-                    borderBottom: "1px solid rgba(217,194,186,0.3)",
-                  }}
+                  style={{ padding: "14px 24px", backgroundColor: "#ede9e3", borderBottom: "1px solid #ddd6cc" }}
                 >
                   <p
-                    style={{
-                      fontFamily: "'Montserrat', sans-serif",
-                      fontSize: "10px",
-                      fontWeight: 700,
-                      letterSpacing: "0.2em",
-                      textTransform: "uppercase" as const,
-                      color: "#8b4a31",
-                    }}
+                    style={{ fontSize: "12.5px", fontWeight: 700, color: "#0a0a0a" }}
                   >
                     Accessory costs, at a glance
                   </p>
@@ -529,45 +420,22 @@ export default function HowMuchDoesAPilatesReformerCostPage() {
                 ].map((item, i) => (
                   <div
                     key={item.name}
-                    style={{
-                      display: "flex",
-                      alignItems: "center",
-                      gap: "12px",
-                      padding: "14px 24px",
-                      borderTop: i === 0 ? "none" : "1px solid rgba(217,194,186,0.2)",
-                      backgroundColor: "#ffffff",
-                    }}
+                    style={{ display: "flex", alignItems: "center", gap: "12px", padding: "14px 24px", borderTop: i === 0 ? "none" : "1px solid #ddd6cc", backgroundColor: "#ffffff" }}
                   >
                     <div style={{ flex: 1 }}>
                       <p
-                        style={{
-                          fontFamily: "'Montserrat', sans-serif",
-                          fontSize: "13px",
-                          fontWeight: 600,
-                          color: "#1b1c1c",
-                          marginBottom: "2px",
-                        }}
+                        style={{ fontSize: "15px", fontWeight: 600, color: "#0a0a0a", marginBottom: "2px" }}
                       >
                         {item.name}
                       </p>
                       <p
-                        style={{
-                          fontFamily: "'Montserrat', sans-serif",
-                          fontSize: "12px",
-                          color: "#86736d",
-                        }}
+                        style={{ fontSize: "12px", color: "#6f6964" }}
                       >
                         {item.note}
                       </p>
                     </div>
                     <span
-                      style={{
-                        fontFamily: "'Montserrat', sans-serif",
-                        fontSize: "13px",
-                        fontWeight: 700,
-                        color: "#8b4a31",
-                        whiteSpace: "nowrap" as const,
-                      }}
+                      style={{ fontSize: "15px", fontWeight: 700, color: "#0a0a0a", whiteSpace: "nowrap" as const }}
                     >
                       {item.cost}
                     </span>
@@ -591,55 +459,25 @@ export default function HowMuchDoesAPilatesReformerCostPage() {
                 ].map((item) => (
                   <div
                     key={item.label}
-                    style={{
-                      backgroundColor: "#ffffff",
-                      borderRadius: "12px",
-                      border: "1px solid rgba(217,194,186,0.35)",
-                      padding: "18px 20px",
-                    }}
+                    style={{ backgroundColor: "#ede9e3", borderRadius: "12px", padding: "18px 20px" }}
                   >
                     <p
-                      style={{
-                        fontFamily: "'Montserrat', sans-serif",
-                        fontSize: "9px",
-                        fontWeight: 700,
-                        letterSpacing: "0.18em",
-                        textTransform: "uppercase" as const,
-                        color: "#8b4a31",
-                        marginBottom: "8px",
-                      }}
+                      style={{ fontSize: "12.5px", fontWeight: 700, color: "#0a0a0a", marginBottom: "8px" }}
                     >
                       {item.label}
                     </p>
-                    <p
-                      style={{
-                        fontFamily: "'Playfair Display', serif",
-                        fontSize: "22px",
-                        fontWeight: 600,
-                        color: "#1b1c1c",
-                        marginBottom: "4px",
-                      }}
+                    <p className="r-hx"
+                      style={{ fontSize: "22px", color: "#0a0a0a", marginBottom: "4px" }}
                     >
                       {item.total}
                     </p>
                     <p
-                      style={{
-                        fontFamily: "'Montserrat', sans-serif",
-                        fontSize: "11px",
-                        fontWeight: 600,
-                        color: "#53433e",
-                        marginBottom: "6px",
-                      }}
+                      style={{ fontSize: "11px", fontWeight: 600, color: "#3a3530", marginBottom: "6px" }}
                     >
                       {item.note}
                     </p>
                     <p
-                      style={{
-                        fontFamily: "'Montserrat', sans-serif",
-                        fontSize: "12px",
-                        color: "#86736d",
-                        lineHeight: 1.5,
-                      }}
+                      style={{ fontSize: "12px", color: "#6f6964", lineHeight: 1.5 }}
                     >
                       {item.detail}
                     </p>
@@ -651,30 +489,21 @@ export default function HowMuchDoesAPilatesReformerCostPage() {
             {/* ── Studio class comparison ── */}
             <div
               className="mb-16 rounded-2xl p-8"
-              style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}
+              style={{ backgroundColor: "#ede9e3" }}
             >
               <p
-                style={{
-                  fontFamily: "'Montserrat', sans-serif",
-                  fontSize: "10px",
-                  fontWeight: 700,
-                  letterSpacing: "0.2em",
-                  textTransform: "uppercase" as const,
-                  color: "#8b4a31",
-                  marginBottom: "8px",
-                }}
+                style={{ fontSize: "12.5px", fontWeight: 700, color: "#0a0a0a", marginBottom: "8px" }}
               >
                 Economics
               </p>
               <h2
-                className="text-3xl font-semibold mb-4"
-                style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}
+                className="mb-4 r-d r-h2"
               >
                 Does a home reformer save money vs studio classes?
               </h2>
               <p
                 className="text-base leading-relaxed mb-6"
-                style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
+                style={{ color: "#3a3530" }}
               >
                 The average studio reformer class costs $30–$50 per session in most major cities: higher in New York, London, and Zurich, where $60–$80 per session is common. At the typical range, a premium home reformer at $4,700 (the Balanced Body Studio Reformer, the real Balanced Body flagship sold on Amazon) pays for itself in approximately 95–155 avoided studio sessions. At three sessions per week, that is under a year of practice.
               </p>
@@ -694,43 +523,20 @@ export default function HowMuchDoesAPilatesReformerCostPage() {
                 ].map((stat) => (
                   <div
                     key={stat.label}
-                    style={{
-                      backgroundColor: "#ffffff",
-                      borderRadius: "12px",
-                      padding: "16px 18px",
-                      border: "1px solid rgba(217,194,186,0.3)",
-                    }}
+                    style={{ backgroundColor: "#ede9e3", borderRadius: "12px", padding: "16px 18px" }}
                   >
                     <p
-                      style={{
-                        fontFamily: "'Montserrat', sans-serif",
-                        fontSize: "9px",
-                        fontWeight: 700,
-                        letterSpacing: "0.15em",
-                        textTransform: "uppercase" as const,
-                        color: "#8b4a31",
-                        marginBottom: "6px",
-                      }}
+                      style={{ fontSize: "12.5px", fontWeight: 700, color: "#0a0a0a", marginBottom: "6px" }}
                     >
                       {stat.label}
                     </p>
-                    <p
-                      style={{
-                        fontFamily: "'Playfair Display', serif",
-                        fontSize: "20px",
-                        fontWeight: 600,
-                        color: "#1b1c1c",
-                        marginBottom: "2px",
-                      }}
+                    <p className="r-hx"
+                      style={{ fontSize: "20px", color: "#0a0a0a", marginBottom: "2px" }}
                     >
                       {stat.value}
                     </p>
                     <p
-                      style={{
-                        fontFamily: "'Montserrat', sans-serif",
-                        fontSize: "11px",
-                        color: "#86736d",
-                      }}
+                      style={{ fontSize: "11px", color: "#6f6964" }}
                     >
                       {stat.sub}
                     </p>
@@ -739,42 +545,22 @@ export default function HowMuchDoesAPilatesReformerCostPage() {
               </div>
 
               <div
-                style={{
-                  borderLeft: "3px solid #8b4a31",
-                  paddingLeft: "18px",
-                  marginBottom: "16px",
-                }}
+                style={{ borderLeft: "3px solid #0a0a0a", paddingLeft: "18px", marginBottom: "16px" }}
               >
                 <p
-                  style={{
-                    fontFamily: "'Montserrat', sans-serif",
-                    fontSize: "13px",
-                    fontWeight: 600,
-                    color: "#1b1c1c",
-                    marginBottom: "4px",
-                  }}
+                  style={{ fontSize: "15px", fontWeight: 600, color: "#0a0a0a", marginBottom: "4px" }}
                 >
                   The honest caveat
                 </p>
                 <p
-                  style={{
-                    fontFamily: "'Montserrat', sans-serif",
-                    fontSize: "13px",
-                    lineHeight: 1.7,
-                    color: "#53433e",
-                  }}
+                  style={{ fontSize: "15px", lineHeight: 1.55, color: "#3a3530" }}
                 >
                   Self-teaching on a reformer without an instructor is less effective than studio sessions. Most practitioners benefit from continuing some studio sessions alongside home practice: using the home machine for volume and the studio for technique refinement.
                 </p>
               </div>
 
               <p
-                style={{
-                  fontFamily: "'Montserrat', sans-serif",
-                  fontSize: "13px",
-                  lineHeight: 1.75,
-                  color: "#53433e",
-                }}
+                style={{ fontSize: "15px", lineHeight: 1.55, color: "#3a3530" }}
               >
                 For a practitioner who plans to use the machine three or more times per week for five or more years, the economics of a premium home reformer are strongly positive. For anyone less certain of that commitment, studio classes, or a budget entry machine, are more proportionate.
               </p>
@@ -783,20 +569,19 @@ export default function HowMuchDoesAPilatesReformerCostPage() {
             {/* ── Technical factors ── */}
             <div className="mb-16">
               <p
-                className="text-xs font-semibold uppercase tracking-[0.2em] mb-2"
-                style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}
+                className="text-[12.5px] font-bold mb-2"
+                style={{ color: "#0a0a0a" }}
               >
                 What drives price
               </p>
               <h2
-                className="text-3xl font-semibold mb-4"
-                style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}
+                className="mb-4 r-d r-h2"
               >
                 What makes reformers more expensive: the technical factors
               </h2>
               <p
                 className="text-base leading-relaxed mb-8"
-                style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
+                style={{ color: "#3a3530" }}
               >
                 Price differences between tiers are not marketing. They reflect four specific engineering choices that have direct consequences for your practice.
               </p>
@@ -811,40 +596,18 @@ export default function HowMuchDoesAPilatesReformerCostPage() {
                 {TECH_FACTORS.map((factor) => (
                   <div
                     key={factor.heading}
-                    style={{
-                      backgroundColor: "#ffffff",
-                      borderRadius: "14px",
-                      padding: "22px",
-                      border: "1px solid rgba(217,194,186,0.3)",
-                    }}
+                    style={{ backgroundColor: "#ede9e3", borderRadius: "14px", padding: "22px" }}
                   >
                     <div
-                      style={{
-                        width: "36px",
-                        height: "3px",
-                        backgroundColor: "#8b4a31",
-                        borderRadius: "2px",
-                        marginBottom: "14px",
-                      }}
+                      style={{ width: "36px", height: "3px", backgroundColor: "#0a0a0a", borderRadius: "2px", marginBottom: "14px" }}
                     />
-                    <p
-                      style={{
-                        fontFamily: "'Playfair Display', serif",
-                        fontSize: "16px",
-                        fontWeight: 600,
-                        color: "#1b1c1c",
-                        marginBottom: "10px",
-                      }}
+                    <p className="r-hx"
+                      style={{ fontSize: "16px", color: "#0a0a0a", marginBottom: "10px" }}
                     >
                       {factor.heading}
                     </p>
                     <p
-                      style={{
-                        fontFamily: "'Montserrat', sans-serif",
-                        fontSize: "13px",
-                        lineHeight: 1.75,
-                        color: "#53433e",
-                      }}
+                      style={{ fontSize: "15px", lineHeight: 1.55, color: "#3a3530" }}
                     >
                       {factor.body}
                     </p>
@@ -857,20 +620,19 @@ export default function HowMuchDoesAPilatesReformerCostPage() {
 
             <div className="mb-16">
               <p
-                className="text-xs font-semibold uppercase tracking-[0.2em] mb-2"
-                style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}
+                className="text-[12.5px] font-bold mb-2"
+                style={{ color: "#0a0a0a" }}
               >
                 Verified listings
               </p>
               <h2
-                className="text-3xl font-semibold mb-4"
-                style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}
+                className="mb-4 r-d r-h2"
               >
                 Real, currently-sold options at each budget
               </h2>
               <p
                 className="text-base leading-relaxed mb-8"
-                style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
+                style={{ color: "#3a3530" }}
               >
                 We checked every product below against live listing data before including it. Where we could not verify a specific claim (a spec, an included accessory, a fold mechanism) we say so rather than assert it.
               </p>
@@ -884,8 +646,7 @@ export default function HowMuchDoesAPilatesReformerCostPage() {
             {/* ── FAQ ── */}
             <div className="mb-16">
               <h2
-                className="text-3xl font-semibold mb-8"
-                style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}
+                className="mb-8 r-d r-h2"
               >
                 Frequently asked questions
               </h2>
@@ -893,32 +654,15 @@ export default function HowMuchDoesAPilatesReformerCostPage() {
                 {FAQS.map((item) => (
                   <div
                     key={item.q}
-                    style={{
-                      backgroundColor: "#ffffff",
-                      borderRadius: "14px",
-                      padding: "22px 24px",
-                      border: "1px solid rgba(217,194,186,0.3)",
-                    }}
+                    style={{ backgroundColor: "#ede9e3", borderRadius: "14px", padding: "22px 24px" }}
                   >
-                    <p
-                      style={{
-                        fontFamily: "'Playfair Display', serif",
-                        fontSize: "17px",
-                        fontWeight: 600,
-                        color: "#1b1c1c",
-                        marginBottom: "10px",
-                        lineHeight: 1.35,
-                      }}
+                    <p className="r-hx"
+                      style={{ fontSize: "17px", color: "#0a0a0a", marginBottom: "10px", lineHeight: 1.35 }}
                     >
                       {item.q}
                     </p>
                     <p
-                      style={{
-                        fontFamily: "'Montserrat', sans-serif",
-                        fontSize: "13px",
-                        lineHeight: 1.75,
-                        color: "#53433e",
-                      }}
+                      style={{ fontSize: "15px", lineHeight: 1.55, color: "#3a3530" }}
                     >
                       {item.a}
                     </p>
@@ -930,8 +674,7 @@ export default function HowMuchDoesAPilatesReformerCostPage() {
             {/* ── Further reading ── */}
             <div>
               <h2
-                className="text-2xl font-semibold mb-8"
-                style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}
+                className="mb-8 r-d r-h2"
               >
                 Further reading
               </h2>

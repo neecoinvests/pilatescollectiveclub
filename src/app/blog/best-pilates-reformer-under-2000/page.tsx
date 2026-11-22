@@ -161,20 +161,20 @@ export default function BestPilatesReformerUnder2000Page() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Reformers</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Equipment Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Reformers</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best Pilates Reformer<br /><span style={{ color: "#8b4a31" }}>Under $2,000 (2026)</span>
+            <h1 className="mb-6 r-d r-h1">
+              Best Pilates Reformer<br /><span style={{ color: "#a98a5f" }}>Under $2,000 (2026)</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 11 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 11 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               Genuine spring reformers do exist under $2,000: well under it, in fact. Live Amazon listings include a real tier of budget, generic-brand full reformers (WINDFOOT, DWKWE, and three PAETA models) with genuine coil-spring construction, ranging from $295.99 to $699.98. This guide covers all six genuine, currently-sold reformers under $2,000, plus the established-brand spring reformers that start just above this budget.
             </p>
           </div>
@@ -182,8 +182,8 @@ export default function BestPilatesReformerUnder2000Page() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg" alt="Best Pilates reformers under $2000 for home use" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg" alt="Best Pilates reformers under $2000 for home use" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -195,13 +195,13 @@ export default function BestPilatesReformerUnder2000Page() {
             <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>The {PRODUCTS.length} Machines We Recommend</p>
+              <p className="text-[12.5px] font-bold mb-10" style={{ color: "#0a0a0a" }}>The {PRODUCTS.length} Machines We Recommend</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
                     <div className="flex items-center gap-3 mb-4">
-                      <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                      <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tag}</span>
+                      <span className="text-2xl r-hx" style={{ color: "#9a9490" }}>{p.rank}</span>
+                      <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{p.tag}</span>
                     </div>
                     <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                   </div>
@@ -210,49 +210,49 @@ export default function BestPilatesReformerUnder2000Page() {
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Budget spring reformers vs. established brands</h2>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-4 r-d r-h2">Budget spring reformers vs. established brands</h2>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 Worth saying plainly: if you only look at established brands like Balanced Body, Merrithew and Align-Pilates, you won&apos;t find a genuine spring reformer under $2,000. Look more broadly at live Amazon listings and there is a real tier of generic and dropship-brand reformers (WINDFOOT, DWKWE, and PAETA) that use genuine coil-spring or spring-plus-cord carriage construction, not cords alone, all priced between $295.99 and $699.98.
               </p>
-              <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>
                 These are real, currently-sold, full carriage-and-rail reformers: genuine Pilates reformers, not toys. But they come from brands without instructor recognition, certification, or a long warranty history, and we can&apos;t independently verify how they hold up over years of regular use. If an established brand&apos;s track record matters more to you than saving over $1,000, the cheapest genuine spring reformer we could verify from a recognized maker is the Balanced Body Metro IQ at $2,330: see the table below.
               </p>
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Established-brand spring reformers just over $2,000</h2>
-              <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-4 r-d r-h2">Established-brand spring reformers just over $2,000</h2>
+              <p className="text-base leading-relaxed mb-6" style={{ color: "#3a3530" }}>
                 These are genuine, verified Amazon listings for spring-resistance reformers from established Pilates equipment makers, every one of them costs more than $2,000, and the cheapest is only $330 over. If you want a recognized brand&apos;s spring reformer, this is where the market starts.
               </p>
-              <div className="rounded-xl overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", backgroundColor: "#ffffff" }}>
+              <div className="rounded-2xl overflow-hidden" style={{ backgroundColor: "#ede9e3" }}>
                 <div style={{ overflowX: "auto" }}>
-                  <table style={{ width: "100%", borderCollapse: "collapse", fontFamily: "'Montserrat', sans-serif", fontSize: "14px" }}>
+                  <table style={{ width: "100%", borderCollapse: "collapse", fontSize: "16px" }}>
                     <thead>
-                      <tr style={{ backgroundColor: "#f6f3f2" }}>
-                        <th style={{ textAlign: "left", padding: "12px 16px", fontWeight: 600, color: "#1b1c1c", whiteSpace: "nowrap" }}>Machine</th>
-                        <th style={{ textAlign: "right", padding: "12px 12px", fontWeight: 600, color: "#1b1c1c", whiteSpace: "nowrap" }}>Actual price</th>
-                        <th style={{ textAlign: "right", padding: "12px 16px", fontWeight: 600, color: "#1b1c1c", whiteSpace: "nowrap" }}>Over budget by</th>
+                      <tr style={{ backgroundColor: "#ede9e3" }}>
+                        <th style={{ textAlign: "left", padding: "12px 16px", fontWeight: 600, color: "#0a0a0a", whiteSpace: "nowrap" }}>Machine</th>
+                        <th style={{ textAlign: "right", padding: "12px 12px", fontWeight: 600, color: "#0a0a0a", whiteSpace: "nowrap" }}>Actual price</th>
+                        <th style={{ textAlign: "right", padding: "12px 16px", fontWeight: 600, color: "#0a0a0a", whiteSpace: "nowrap" }}>Over budget by</th>
                       </tr>
                     </thead>
                     <tbody>
                       {COMMONLY_ASSUMED.map((r) => (
-                        <tr key={r.model} style={{ borderTop: "1px solid rgba(217,194,186,0.3)" }}>
-                          <td style={{ padding: "12px 16px", color: "#53433e", fontWeight: 300 }}>{r.model}</td>
-                          <td style={{ padding: "12px 12px", textAlign: "right", color: "#1b1c1c", whiteSpace: "nowrap" }}>{r.actual}</td>
-                          <td style={{ padding: "12px 16px", textAlign: "right", color: "#8b4a31", whiteSpace: "nowrap" }}>{r.over}</td>
+                        <tr key={r.model} style={{ borderTop: "1px solid #ddd6cc" }}>
+                          <td style={{ padding: "12px 16px", color: "#3a3530" }}>{r.model}</td>
+                          <td style={{ padding: "12px 12px", textAlign: "right", color: "#0a0a0a", whiteSpace: "nowrap" }}>{r.actual}</td>
+                          <td style={{ padding: "12px 16px", textAlign: "right", color: "#0a0a0a", whiteSpace: "nowrap" }}>{r.over}</td>
                         </tr>
                       ))}
                     </tbody>
                   </table>
                 </div>
               </div>
-              <p className="text-sm leading-relaxed mt-4" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed mt-4" style={{ color: "#6f6964" }}>
                 These machines cluster from $2,330 up to $3,710, from three unrelated established manufacturers. None of them is under $2,000, but if you don&apos;t need an established brand&apos;s name, six real spring or cord options above already are.
               </p>
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Choosing between the picks, or spending more</h2>
+              <h2 className="mb-6 r-d r-h2">Choosing between the picks, or spending more</h2>
               <div className="space-y-4">
                 {[
                   { label: "Take a WINDFOOT, DWKWE or PAETA if genuine spring resistance matters most and brand name doesn't", body: "All five are real carriage-and-rail reformers with genuine coil-spring or spring-plus-cord resistance, ranging from $295.99 to $699.98. None comes from an established Pilates equipment maker, so long-term durability and after-sale support are unverified beyond the listings themselves." },
@@ -260,16 +260,16 @@ export default function BestPilatesReformerUnder2000Page() {
                   { label: "Buy used if you want spring resistance from an established studio brand for less", body: "A used Balanced Body or Merrithew frame at this budget is a serious option, not a compromise. Springs, ropes and upholstery are the only real wear items and they are inexpensive to replace, so the frame and rails are what actually matter in an inspection." },
                   { label: "Spend $330 more if an established brand's spring reformer is non-negotiable", body: "The cheapest coil-spring reformer we could verify from a recognized maker as a live Amazon listing is the Balanced Body Metro IQ at $2,330. This is the honest floor for that combination of brand and spring resistance, not a compromise pick." },
                 ].map((item) => (
-                  <div key={item.label} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.label}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
+                  <div key={item.label} className="rounded-2xl p-5" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-sm mb-1.5 r-hx" style={{ color: "#0a0a0a" }}>{item.label}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.body}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   { q: "Is there a genuine spring-based Pilates reformer under $2,000?", a: "Yes. WINDFOOT ($295.99), DWKWE ($284.99), and three PAETA models ($419.99–$699.98) are all real, currently-sold, genuine spring or spring-plus-cord carriage reformers well under $2,000. They come from generic or dropship brands rather than established makers like Balanced Body or Merrithew, so treat brand track record and warranty support with caution. Among established brands, the cheapest genuine spring reformer we could verify on Amazon is the Balanced Body Metro IQ at $2,330, just over this budget." },
@@ -278,16 +278,16 @@ export default function BestPilatesReformerUnder2000Page() {
                   { q: "Should I buy a used reformer instead?", a: "It is worth comparing before you decide. A commercial-grade frame from an established brand is built for well over a decade of daily studio use, and the parts that wear out are springs, ropes and upholstery, which are replaceable for a few hundred dollars. At this budget, a used studio machine is a genuine alternative to a new budget-brand spring reformer, and which wins depends on what turns up locally and in what condition." },
                   { q: "What is the difference between spring and bungee reformers?", a: "Spring reformers use coil springs calibrated to specific resistance values: the same mechanism used in professional studios. The resistance profile is close to linear. Bungee (cord) reformers use elastic cord, which resists progressively more as it stretches, so the feel is softer at the start of a rep and firmer at the end. Springs are generally preferred for structured or advanced programming; cord systems suit beginners and rehabilitation well." },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Home Pilates Reformers" excerpt="The complete guide across all budgets, from entry-level to premium." href="/blog/best-home-pilates-reformer" category="Equipment" readTime="14 min read" date="May 2026" imageUrl="/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Reformers Under $1,000" excerpt="The best entry-level reformers for practitioners starting out." href="/blog/best-pilates-reformer-under-1000" category="Equipment" readTime="9 min read" date="May 2026" imageUrl="/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg" />

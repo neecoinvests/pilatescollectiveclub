@@ -166,20 +166,20 @@ export default function BestPortablePilatesReformerPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>2026 Guide</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Equipment</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>2026 Guide</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best Portable<br />Pilates Reformer<br /><span style={{ color: "#8b4a31" }}>2026 Reviews</span>
+            <h1 className="mb-6 r-d r-h1">
+              Best Portable<br />Pilates Reformer<br /><span style={{ color: "#a98a5f" }}>2026 Reviews</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 10 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 10 min read</p>
             <TopPick name={QUICK_PICKS[0].name} price={QUICK_PICKS[0].price} note={QUICK_PICKS[0].note} url={QUICK_PICKS[0].url} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               The home reformer market has matured significantly since 2020. Where early consumer-grade reformers were crude approximations of the studio experience, today&apos;s best portable reformers deliver genuine Pilates exercise capability, including most of the classical repertoire through intermediate level, in a format that stores in a closet and sets up in two minutes. Genuine, portable spring reformers also go further down the price range than many shoppers expect: the live Amazon catalog has budget generic-brand models that fold and ship for under $300. Here is what is worth buying in 2026, honestly labeled by brand tier.
             </p>
           </div>
@@ -188,7 +188,7 @@ export default function BestPortablePilatesReformerPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/stitch-reformer-morning-light.png" alt="Best portable Pilates reformer 2026: compact home reformer in morning light studio setting" fill className="object-cover" style={{ filter: "brightness(0.88)" }} />
+              <Image src="/pictures/stitch-reformer-morning-light.png" alt="Best portable Pilates reformer 2026: compact home reformer in morning light studio setting" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -201,11 +201,11 @@ export default function BestPortablePilatesReformerPage() {
 
 
             <div className="mb-10 mt-4 p-6 r-glance">
-              <p className="text-sm font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Reformers at a glance</p>
+              <p className="text-sm mb-3 r-hx" style={{ color: "#0a0a0a" }}>Reformers at a glance</p>
               <div className="space-y-2">
                 {REFORMERS.map((r) => (
-                  <div key={r.rank} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                    <span className="font-semibold w-4" style={{ color: "#8b4a31" }}>{r.rank}.</span>
+                  <div key={r.rank} className="flex gap-3 text-sm" style={{ color: "#3a3530" }}>
+                    <span className="font-semibold w-4" style={{ color: "#0a0a0a" }}>{r.rank}.</span>
                     <span><span className="font-medium">{r.name}</span> · {r.price} · {r.tag}</span>
                   </div>
                 ))}
@@ -216,27 +216,27 @@ export default function BestPortablePilatesReformerPage() {
               {REFORMERS.map((reformer) => (
                 <div key={reformer.rank}>
                   <div className="flex flex-wrap items-center gap-x-3 gap-y-2 mb-4">
-                    <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{String(reformer.rank).padStart(2, "0")}</span>
-                    <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full whitespace-nowrap" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{reformer.tag}</span>
-                    <span className="text-xs font-semibold uppercase tracking-widest" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>{reformer.verdict}</span>
+                    <span className="text-2xl r-hx" style={{ color: "#9a9490" }}>{String(reformer.rank).padStart(2, "0")}</span>
+                    <span className="text-[12.5px] font-bold px-3 py-1 rounded-full whitespace-nowrap" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{reformer.tag}</span>
+                    <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>{reformer.verdict}</span>
                   </div>
                   <ProductCard name={reformer.name} description={reformer.description} price={reformer.price} affiliateUrl={reformer.affiliateUrl} />
                   <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
-                    <div className="rounded-lg p-4" style={{ backgroundColor: "#f0f7f1", border: "1px solid rgba(83,98,87,0.2)" }}>
-                      <p className="text-xs font-semibold uppercase tracking-wider mb-2" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Pros</p>
-                      <ul className="space-y-1">{reformer.pros.map((p) => <li key={p} className="text-xs" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>+ {p}</li>)}</ul>
+                    <div className="rounded-2xl p-4" style={{ backgroundColor: "#ede9e3" }}>
+                      <p className="text-[12.5px] font-bold mb-2" style={{ color: "#3a3530" }}>Pros</p>
+                      <ul className="space-y-1">{reformer.pros.map((p) => <li key={p} className="text-xs" style={{ color: "#3a3530" }}>+ {p}</li>)}</ul>
                     </div>
-                    <div className="rounded-lg p-4" style={{ backgroundColor: "#fdf5f3", border: "1px solid rgba(139,74,49,0.15)" }}>
-                      <p className="text-xs font-semibold uppercase tracking-wider mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Cons</p>
-                      <ul className="space-y-1">{reformer.cons.map((c) => <li key={c} className="text-xs" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>− {c}</li>)}</ul>
+                    <div className="rounded-2xl p-4" style={{ backgroundColor: "#ede9e3" }}>
+                      <p className="text-[12.5px] font-bold mb-2" style={{ color: "#0a0a0a" }}>Cons</p>
+                      <ul className="space-y-1">{reformer.cons.map((c) => <li key={c} className="text-xs" style={{ color: "#3a3530" }}>− {c}</li>)}</ul>
                     </div>
                   </div>
                 </div>
               ))}
             </div>
 
-            <div className="mb-14 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>How to choose the right portable reformer</h2>
+            <div className="mb-14 rounded-2xl p-8" style={{ backgroundColor: "#ede9e3" }}>
+              <h2 className="mb-4 r-d r-h2">How to choose the right portable reformer</h2>
               <ul className="space-y-3">
                 {[
                   "Budget under $300: WINDFOOT or DWKWE are real, currently-sold, genuine spring reformers that fold for storage, generic brands with no established track record, but a real carriage-and-rail machine at the lowest price point in this category.",
@@ -247,8 +247,8 @@ export default function BestPortablePilatesReformerPage() {
                   "Already training at a studio: visit the studio to ask what reformer brand they use. Buying the same or similar brand at home ensures the spring feel and exercise vocabulary transfers directly.",
                   "Complete beginner: do not buy a home reformer as your first Pilates purchase. Take 10–20 studio sessions first, establish correct technique with professional guidance, then consider a home reformer to supplement your practice.",
                 ].map((tip, i) => (
-                  <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                    <span className="font-semibold" style={{ color: "#8b4a31" }}>→</span>
+                  <li key={i} className="flex gap-3 text-base" style={{ color: "#3a3530" }}>
+                    <span className="font-semibold" style={{ color: "#0a0a0a" }}>→</span>
                     {tip}
                   </li>
                 ))}
@@ -256,7 +256,7 @@ export default function BestPortablePilatesReformerPage() {
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   { q: "Are portable Pilates reformers worth it?", a: "They're worth it if you are a consistent practitioner who cannot access a studio regularly, have limited space at home, or travel frequently. Budget generic-brand models like WINDFOOT and DWKWE are real, genuine spring reformers that fold for storage at under $300, though without an established brand's track record. AeroPilates machines use elastic cord resistance rather than coil springs: a genuinely different feel, but one that still trains the core reformer movement patterns. The Balanced Body Metro IQ is the smaller, lighter option among the professional-grade coil-spring machines actually sold on Amazon, for practitioners who want a real spring system without the footprint of a full studio reformer." },
@@ -265,16 +265,16 @@ export default function BestPortablePilatesReformerPage() {
                   { q: "How much space does a portable Pilates reformer need?", a: "In use, most reformers need roughly 7–8 feet of length and 2 feet of width. Beyond that, exact footprint and any folding or storage behavior varies by model: we could not verify specific folded dimensions for the machines in this guide, so check the current listing for your exact model before assuming it collapses to a given size." },
                   { q: "Can a portable reformer replace studio sessions?", a: "For maintaining and developing an established practice, yes: a quality home reformer is a genuine substitute for studio access. For learning Pilates from scratch, it is not a replacement for professional instruction: you need an instructor's eye to establish correct form before practicing independently. The ideal progression is to learn in a studio, then supplement or transfer your practice to a home reformer once technique is established." },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Home Pilates Reformer" excerpt="Full comparison of home reformers across all price ranges, including the premium studio-grade options." href="/blog/best-home-pilates-reformer" category="Equipment" readTime="11 min read" date="June 2026" imageUrl="/pictures/stitch-white-reformer-plaster.png" />
                 <ArticleCard title="Reformer vs Mat Pilates" excerpt="The honest comparison between reformer and mat: what each does better and which to prioritize." href="/blog/pilates-reformer-vs-mat" category="Comparison" readTime="8 min read" date="June 2026" imageUrl="/pictures/stitch-reformer-sunlit-minimal.png" />

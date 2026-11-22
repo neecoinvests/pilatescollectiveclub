@@ -92,20 +92,20 @@ export default function PilatesMorningRoutinePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Daily Practice</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Daily Practice</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Pilates Morning<br />Routine:<br /><span style={{ color: "#8b4a31" }}>10, 20 & 30 Minutes</span>
+            <h1 className="mb-6 r-d r-h1">
+              Pilates Morning<br />Routine:<br /><span style={{ color: "#a98a5f" }}>10, 20 & 30 Minutes</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 10 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 10 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               A morning Pilates practice is, for many people, the habit that makes all other healthy habits easier to maintain. The clarity, body awareness, and postural tone that a morning session produces carries into the entire working day, and the neuroscience behind why morning exercise is particularly effective is well-established. Here are three complete routines structured for how much time you actually have.
             </p>
           </div>
@@ -114,7 +114,7 @@ export default function PilatesMorningRoutinePage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/stitch-reformer-morning-light.png" alt="Pilates morning routine: reformer in morning light for daily practice" fill className="object-cover" style={{ filter: "brightness(0.88)" }} />
+              <Image src="/pictures/stitch-reformer-morning-light.png" alt="Pilates morning routine: reformer in morning light for daily practice" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -126,24 +126,24 @@ export default function PilatesMorningRoutinePage() {
             <AffiliateNote />
 
             <div className="mb-14 mt-4">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Why morning Pilates works differently</h2>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">Why morning Pilates works differently</h2>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 The cortisol awakening response (CAR), a natural spike in cortisol in the first 30–45 minutes after waking, prepares the body and mind for the demands of the day. Moderate exercise during this window has been shown to amplify and then normalize the CAR, producing better cortisol regulation throughout the day. This translates to improved focus, more stable energy, and reduced afternoon fatigue.
               </p>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 Pilates is particularly well-suited to morning practice because it begins with neuromuscular activation rather than high-intensity loading. The attention and precision required in Pilates exercises engages the prefrontal cortex in a way that functional training and cardio at the same intensity do not, which may explain why many Pilates practitioners report that morning sessions have a pronounced effect on cognitive clarity throughout the day.
               </p>
-              <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>
                 One adjustment is necessary for morning practice: the intervertebral discs rehydrate during sleep, increasing their height and temporarily making the spine less flexible. This is why forward bending feels stiffer first thing in the morning. Begin your morning routine with extension and gentle mobilization rather than loading the spine into flexion immediately.
               </p>
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The 10-minute wake-up routine</h2>
-              <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Suitable for all levels. Requires only a mat. The goal: neurological activation and postural muscle wake-up in the minimum viable time.</p>
-              <div className="rounded-2xl overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.35)" }}>
-                <div className="px-6 py-4" style={{ backgroundColor: "#f6f3f2" }}>
-                  <p className="text-xs font-semibold uppercase tracking-widest" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>10 Minutes · Mat Only · All Levels</p>
+              <h2 className="mb-8 r-d r-h2">The 10-minute wake-up routine</h2>
+              <p className="text-base leading-relaxed mb-6" style={{ color: "#3a3530" }}>Suitable for all levels. Requires only a mat. The goal: neurological activation and postural muscle wake-up in the minimum viable time.</p>
+              <div className="rounded-2xl overflow-hidden" style={{ border: "1px solid #ddd6cc" }}>
+                <div className="px-6 py-4" style={{ backgroundColor: "#ede9e3" }}>
+                  <p className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>10 Minutes · Mat Only · All Levels</p>
                 </div>
                 <div className="px-6 py-5 bg-white">
                   <ul className="space-y-3">
@@ -156,11 +156,11 @@ export default function PilatesMorningRoutinePage() {
                       { name: "Swan prep × 8 reps", time: "1.5 min", desc: "Prone thoracic extension: counteracts the overnight sleeping posture." },
                       { name: "Standing roll-down × 5 reps", time: "2 min", desc: "Integrates the spinal mobility you just created into a full standing movement pattern." },
                     ].map((item) => (
-                      <li key={item.name} className="flex gap-4 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                        <span className="font-semibold shrink-0" style={{ color: "#8b4a31", width: "28px" }}>→</span>
+                      <li key={item.name} className="flex gap-4 text-base" style={{ color: "#3a3530" }}>
+                        <span className="font-semibold shrink-0" style={{ color: "#0a0a0a", width: "28px" }}>→</span>
                         <div>
-                          <span className="font-semibold" style={{ color: "#1b1c1c" }}>{item.name}</span>
-                          <span className="ml-2 text-xs" style={{ color: "#86736d" }}>({item.time})</span>
+                          <span className="font-semibold" style={{ color: "#0a0a0a" }}>{item.name}</span>
+                          <span className="ml-2 text-xs" style={{ color: "#6f6964" }}>({item.time})</span>
                           <span>{item.desc}</span>
                         </div>
                       </li>
@@ -171,11 +171,11 @@ export default function PilatesMorningRoutinePage() {
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The 20-minute foundation routine</h2>
-              <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>The most practical morning Pilates session for most people: a genuine workout in a realistic time frame. Requires a mat and optionally a foam roller.</p>
-              <div className="rounded-2xl overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.35)" }}>
-                <div className="px-6 py-4" style={{ backgroundColor: "#f6f3f2" }}>
-                  <p className="text-xs font-semibold uppercase tracking-widest" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>20 Minutes · Mat + Foam Roller · Beginner–Intermediate</p>
+              <h2 className="mb-8 r-d r-h2">The 20-minute foundation routine</h2>
+              <p className="text-base leading-relaxed mb-6" style={{ color: "#3a3530" }}>The most practical morning Pilates session for most people: a genuine workout in a realistic time frame. Requires a mat and optionally a foam roller.</p>
+              <div className="rounded-2xl overflow-hidden" style={{ border: "1px solid #ddd6cc" }}>
+                <div className="px-6 py-4" style={{ backgroundColor: "#ede9e3" }}>
+                  <p className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>20 Minutes · Mat + Foam Roller · Beginner–Intermediate</p>
                 </div>
                 <div className="px-6 py-5 bg-white">
                   <ul className="space-y-3">
@@ -190,11 +190,11 @@ export default function PilatesMorningRoutinePage() {
                       { name: "Standing roll-down and spine stretch", time: "2.5 min", desc: "Integrating all the mobility work into functional standing movement before your day begins." },
                       { name: "Constructive rest (supine with knees bent)", time: "1 min", desc: "Allow the nervous system to consolidate the session before you stand up. Do not skip this." },
                     ].map((item) => (
-                      <li key={item.name} className="flex gap-4 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                        <span className="font-semibold shrink-0" style={{ color: "#8b4a31", width: "28px" }}>→</span>
+                      <li key={item.name} className="flex gap-4 text-base" style={{ color: "#3a3530" }}>
+                        <span className="font-semibold shrink-0" style={{ color: "#0a0a0a", width: "28px" }}>→</span>
                         <div>
-                          <span className="font-semibold" style={{ color: "#1b1c1c" }}>{item.name}</span>
-                          <span className="ml-2 text-xs" style={{ color: "#86736d" }}>({item.time})</span>
+                          <span className="font-semibold" style={{ color: "#0a0a0a" }}>{item.name}</span>
+                          <span className="ml-2 text-xs" style={{ color: "#6f6964" }}>({item.time})</span>
                           <span>{item.desc}</span>
                         </div>
                       </li>
@@ -205,11 +205,11 @@ export default function PilatesMorningRoutinePage() {
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The 30-minute full session</h2>
-              <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>A complete mat Pilates session that covers the essential exercises from the classical repertoire: appropriate for practitioners with 4+ weeks of experience. Requires mat, optionally a Pilates ball and resistance band.</p>
-              <div className="rounded-2xl overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.35)" }}>
-                <div className="px-6 py-4" style={{ backgroundColor: "#f6f3f2" }}>
-                  <p className="text-xs font-semibold uppercase tracking-widest" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>30 Minutes · Mat + Props · Intermediate</p>
+              <h2 className="mb-8 r-d r-h2">The 30-minute full session</h2>
+              <p className="text-base leading-relaxed mb-6" style={{ color: "#3a3530" }}>A complete mat Pilates session that covers the essential exercises from the classical repertoire: appropriate for practitioners with 4+ weeks of experience. Requires mat, optionally a Pilates ball and resistance band.</p>
+              <div className="rounded-2xl overflow-hidden" style={{ border: "1px solid #ddd6cc" }}>
+                <div className="px-6 py-4" style={{ backgroundColor: "#ede9e3" }}>
+                  <p className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>30 Minutes · Mat + Props · Intermediate</p>
                 </div>
                 <div className="px-6 py-5 bg-white">
                   <div className="space-y-5">
@@ -221,11 +221,11 @@ export default function PilatesMorningRoutinePage() {
                       { phase: "Cool-down (2 min)", items: ["Child's pose equivalent (supine with knees to chest) × 1 min", "Constructive rest: lying supine, eyes closed, 1 min"] },
                     ].map((section) => (
                       <div key={section.phase}>
-                        <p className="text-xs font-semibold uppercase tracking-widest mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{section.phase}</p>
+                        <p className="text-[12.5px] font-bold mb-2" style={{ color: "#0a0a0a" }}>{section.phase}</p>
                         <ul className="space-y-1.5">
                           {section.items.map((item) => (
-                            <li key={item} className="flex gap-2 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                              <span style={{ color: "#d9c2ba" }}>·</span> {item}
+                            <li key={item} className="flex gap-2 text-base" style={{ color: "#3a3530" }}>
+                              <span style={{ color: "#9a9490" }}>·</span> {item}
                             </li>
                           ))}
                         </ul>
@@ -237,21 +237,21 @@ export default function PilatesMorningRoutinePage() {
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Equipment for your morning routine</h2>
+              <h2 className="mb-4 r-d r-h2">Equipment for your morning routine</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
                 {EQUIPMENT.map((item) => (
-                  <a key={item.name} href={item.url} target="_blank" rel="noopener noreferrer sponsored" className="block rounded-xl p-5 transition-opacity hover:opacity-80" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)" }}>
-                    <p className="text-sm font-semibold mb-1" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.name}</p>
-                    <p className="text-xs" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{item.use}</p>
-                    <p className="text-xs font-semibold mt-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Shop on Amazon →</p>
+                  <a key={item.name} href={item.url} target="_blank" rel="noopener noreferrer sponsored" className="block rounded-2xl p-5 transition-opacity hover:opacity-80" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-sm mb-1 r-hx" style={{ color: "#0a0a0a" }}>{item.name}</p>
+                    <p className="text-xs" style={{ color: "#6f6964" }}>{item.use}</p>
+                    <p className="text-xs font-semibold mt-2" style={{ color: "#0a0a0a" }}>Shop on Amazon →</p>
                   </a>
                 ))}
               </div>
-              <p className="text-xs" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Affiliate links: we earn a small commission on qualifying purchases at no extra cost to you.</p>
+              <p className="text-xs" style={{ color: "#6f6964" }}>*Affiliate links: we earn a small commission on qualifying purchases at no extra cost to you.</p>
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   { q: "Is it good to do Pilates first thing in the morning?", a: "Yes: morning Pilates is beneficial for most people. Cortisol naturally peaks in the morning (the cortisol awakening response), and moderate exercise at this time has been shown to improve cortisol regulation throughout the day. The body is typically slightly stiffer in the morning due to overnight disc rehydration and reduced body temperature, so a gentle warm-up and lower-intensity work in the first 10 minutes is more appropriate than jumping straight into challenging exercises." },
@@ -259,9 +259,9 @@ export default function PilatesMorningRoutinePage() {
                   { q: "How long should a morning Pilates routine be?", a: "10 minutes is the effective minimum for meaningful neural and muscular activation in the morning. 20 minutes covers a proper warm-up, targeted work, and cool-down. 30 minutes is a full session that delivers the full benefits of Pilates practice. The research on morning exercise shows that consistency matters more than duration, 10 minutes every morning produces better outcomes than 30 minutes twice a week." },
                   { q: "What equipment do I need for a morning Pilates routine at home?", a: "A non-slip mat is the only true essential. A foam roller adds significant value for morning thoracic release: the back is often stiff first thing. A small Pilates ball and a resistance band cover the full range of morning routine exercises. With the picks below, the foam roller, ball and band come to about $83 together on Amazon." },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
@@ -269,9 +269,9 @@ export default function PilatesMorningRoutinePage() {
 
 
             {/* Equipment */}
-            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Recommended kit</h2>
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid #ddd6cc" }}>
+              <p className="text-[12.5px] font-bold mb-2" style={{ color: "#0a0a0a" }}>Equipment</p>
+              <h2 className="mb-8 r-d r-h2">Recommended kit</h2>
               <div className="space-y-8">
                 {PRODUCTS.map((p) => (
                   <ProductCard key={p.name} name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
@@ -280,7 +280,7 @@ export default function PilatesMorningRoutinePage() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="How Often Should You Do Pilates?" excerpt="Research-backed frequency recommendations for beginners, regulars, and advanced practitioners." href="/blog/how-often-should-you-do-pilates" category="Guide" readTime="7 min read" date="June 2026" imageUrl="/pictures/stitch-studio-modern-row.png" />
                 <ArticleCard title="How Long to See Results from Pilates?" excerpt="Realistic timelines, when you will feel, see, and sustain the changes from Pilates practice." href="/blog/how-long-to-see-results-pilates" category="Guide" readTime="10 min read" date="June 2026" imageUrl="/pictures/stitch-teaser-pose-back.png" />

@@ -142,20 +142,20 @@ export default function BestBarefootShoesForPilatesPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Footwear</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Equipment Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Footwear</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best Barefoot Shoes<br /><span style={{ color: "#8b4a31" }}>for Pilates Practitioners</span>
+            <h1 className="mb-6 r-d r-h1">
+              Best Barefoot Shoes<br /><span style={{ color: "#a98a5f" }}>for Pilates Practitioners</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 9 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 9 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               To be clear at the outset: you do not wear these in class. Pilates is practiced barefoot or in grip socks, and every reformer studio will insist on the latter. The reason barefoot shoes belong in this conversation is what happens the other twenty-three hours: an hour of toe articulation and arch control on the footbar leaves very little behind if the foot then spends the day compressed into a tapered, cushioned shoe. These six are ranked on toe box, sole and how gently they let you make the switch.
             </p>
           </div>
@@ -163,8 +163,8 @@ export default function BestBarefootShoesForPilatesPage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/stitch-grip-socks-footbar.png" alt="Feet in grip socks on a reformer footbar: the foot mechanics barefoot shoes are meant to preserve" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/stitch-grip-socks-footbar.png" alt="Feet in grip socks on a reformer footbar: the foot mechanics barefoot shoes are meant to preserve" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -175,13 +175,13 @@ export default function BestBarefootShoesForPilatesPage() {
             <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Shoes · Ranked</p>
+              <p className="text-[12.5px] font-bold mb-10" style={{ color: "#0a0a0a" }}>5 Shoes · Ranked</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
                     <div className="flex items-center gap-3 mb-4">
-                      <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                      <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tag}</span>
+                      <span className="text-2xl r-hx" style={{ color: "#9a9490" }}>{p.rank}</span>
+                      <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{p.tag}</span>
                     </div>
                     <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                   </div>
@@ -189,8 +189,8 @@ export default function BestBarefootShoesForPilatesPage() {
               </div>
             </div>
 
-            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#fff4f1", border: "1px solid rgba(139,74,49,0.15)" }}>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Transition slowly: this is where people get hurt</h2>
+            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#fff4f1", border: "1px solid #ddd6cc" }}>
+              <h2 className="mb-4 r-d r-h2">Transition slowly: this is where people get hurt</h2>
               <ul className="space-y-3">
                 {[
                   "Start at one hour a day of ordinary walking and add about an hour a week. Months, not weeks: tendon and fascia adapt far more slowly than muscle.",
@@ -200,8 +200,8 @@ export default function BestBarefootShoesForPilatesPage() {
                   "Size up half a size in most barefoot brands, and measure against the brand's own chart rather than assuming your usual size.",
                   "Anyone with diabetes or reduced sensation in the feet should take medical advice first: thin soles remove protection as well as adding feedback.",
                 ].map((tip, i) => (
-                  <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                    <span className="font-semibold" style={{ color: "#8b4a31" }}>⚠</span>
+                  <li key={i} className="flex gap-3 text-base" style={{ color: "#3a3530" }}>
+                    <span className="font-semibold" style={{ color: "#0a0a0a" }}>⚠</span>
                     {tip}
                   </li>
                 ))}
@@ -209,7 +209,7 @@ export default function BestBarefootShoesForPilatesPage() {
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   { q: "Do you wear barefoot shoes during Pilates?", a: "No. Pilates is practiced barefoot or in grip socks, and nearly every reformer studio requires grip socks for hygiene and safety on the carriage. Barefoot shoes are not class footwear: they are what you wear to and from the studio, and during the rest of your week. The reason they belong in a Pilates conversation is that they stop undoing the foot work class builds: an hour of toe articulation and arch control followed by ten hours in a tapered, cushioned shoe leaves very little behind." },
@@ -217,16 +217,16 @@ export default function BestBarefootShoesForPilatesPage() {
                   { q: "How do you transition to barefoot shoes safely?", a: "Start with one hour a day of ordinary walking and add roughly an hour a week, keeping your usual shoes for long days and anything high-impact. Expect calf and arch soreness for the first fortnight, which is normal adaptation; sharp heel pain on the first steps in the morning is not, and means you have progressed too quickly. Foot and calf work helps (short foot exercises, toe splay drills and calf raises) and the reformer footwork series is genuinely useful here, since it loads the foot progressively in a controlled range." },
                   { q: "Are barefoot shoes suitable if you have flat feet or plantar fasciitis?", a: "Take advice before switching. Flat feet are not automatically a contraindication and some people do well, but removing arch support abruptly from a foot that has relied on it for years can provoke exactly the symptoms you are trying to resolve. With active plantar fasciitis, this is not the moment to change footwear at all: settle the symptoms first, then transition slowly. Anyone with diabetes or reduced sensation in the feet should not wear minimal-soled shoes without medical guidance, since ground feel cuts both ways." },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Pilates Grip Socks (2026)" excerpt="The socks studios actually require: grip patterns, toe styles and fit compared." href="/blog/best-pilates-grip-socks" category="Equipment" readTime="7 min read" date="June 2026" imageUrl="/pictures/stitch-grip-socks-footbar.png" />
                 <ArticleCard title="What to Wear to Pilates" excerpt="What works on a reformer, what rides up, and what studios ask you to bring." href="/blog/what-to-wear-to-pilates" category="Guide" readTime="8 min read" date="June 2026" imageUrl="/pictures/stitch-retail-activewear.png" />

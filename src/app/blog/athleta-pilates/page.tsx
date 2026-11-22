@@ -129,20 +129,20 @@ export default function AthletaPilatesPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Brand Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Athleta</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Brand Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Athleta</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Athleta for Pilates (2026):<br /><span style={{ color: "#8b4a31" }}>Best Pieces &amp; Honest Review</span>
+            <h1 className="mb-6 r-d r-h1">
+              Athleta for Pilates (2026):<br /><span style={{ color: "#a98a5f" }}>Best Pieces &amp; Honest Review</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 9 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Updated May 2026 · 9 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               Athleta is Gap Inc.&apos;s premium activewear brand and the most underrated option in the Pilates activewear market. It is B Corp certified, offers the broadest size range of any premium brand (XXS–3X), and its Salutation Stash Tight competes directly with the Lululemon Align at a lower price. In US suburban studios, Athleta is frequently the most common brand in the room: a fact that its lack of Instagram prestige obscures.
             </p>
           </div>
@@ -150,8 +150,8 @@ export default function AthletaPilatesPage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" alt="Athleta activewear for Pilates: Salutation Stash Tight and Transcend legging reviewed for studio and reformer classes" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" alt="Athleta activewear for Pilates: Salutation Stash Tight and Transcend legging reviewed for studio and reformer classes" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -163,43 +163,43 @@ export default function AthletaPilatesPage() {
             <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-16 mt-4">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The case for Athleta in a Lululemon world</h2>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">The case for Athleta in a Lululemon world</h2>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 Athleta does not have the brand cachet of Lululemon or the Instagram presence of Alo. What it has is better value, a wider size range, and genuinely strong product performance for Pilates. The brand was acquired by Gap Inc. in 2008 and has since been developed with meaningful investment in technical activewear: the fabrics, construction, and design decisions reflect a brand that understands movement rather than one that has adapted gym or casual wear for the studio.
               </p>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 The B Corp certification is genuine and independently audited: a meaningful differentiator for practitioners who factor supply chain ethics into purchasing decisions. Athleta is one of the few major activewear brands where the sustainability credentials are substantive rather than marketing language.
               </p>
-              <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>
                 The limitation is availability: Athleta is primarily a US market brand, with limited European retail presence. For US-based practitioners, the brand is accessible and excellent value. For European practitioners, the international shipping and sizing-without-trying-on adds friction.
               </p>
             </div>
 
 
-            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
-              <h2 className="text-xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>How Athleta compares</h2>
+            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#ede9e3" }}>
+              <h2 className="mb-6 r-d r-h2">How Athleta compares</h2>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                 {[
                   { brand: "vs Lululemon", summary: "Cheaper, wider size range, comparable fabric quality. Lululemon has a slight edge in softness and brand prestige. Athleta has a clear edge in value and inclusivity of sizing. For Pilates function per dollar, Athleta wins." },
                   { brand: "vs Gymshark", summary: "More refined design intent for Pilates specifically. Athleta comes from yoga and studio culture; Gymshark from gym culture. The Salutation Stash is more technically considered for Pilates than any Gymshark legging." },
                   { brand: "vs Old Navy Active", summary: "Significantly better in every dimension: fabric quality, opacity, construction, durability. Old Navy Active is fine for casual movement; Athleta is a genuinely premium product at a modest price premium." },
                 ].map((item) => (
-                  <div key={item.brand} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-sm font-semibold mb-1.5" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{item.brand}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.summary}</p>
+                  <div key={item.brand} className="rounded-2xl p-5" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base font-semibold mb-1.5" style={{ color: "#0a0a0a" }}>{item.brand}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.summary}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Athleta Pieces · Ranked</p>
+              <p className="text-[12.5px] font-bold mb-10" style={{ color: "#0a0a0a" }}>5 Athleta Pieces · Ranked</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
                     <div className="flex items-center gap-3 mb-4">
-                      <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                      <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tag}</span>
+                      <span className="text-2xl r-hx" style={{ color: "#9a9490" }}>{p.rank}</span>
+                      <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{p.tag}</span>
                     </div>
                     <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                   </div>
@@ -207,8 +207,8 @@ export default function AthletaPilatesPage() {
               </div>
             </div>
 
-            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What Athleta does especially well for Pilates</h2>
+            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#ede9e3" }}>
+              <h2 className="mb-4 r-d r-h2">What Athleta does especially well for Pilates</h2>
               <ul className="space-y-3">
                 {[
                   "The Salutation Stash was designed for yoga, a movement modality with overlapping hip flexion and spinal articulation demands, and performs perfectly for reformer Pilates as a result. The design intent was movement-specific from the beginning.",
@@ -216,8 +216,8 @@ export default function AthletaPilatesPage() {
                   "The size range (XXS–3X) is the broadest of any premium Pilates-appropriate activewear brand. For practitioners who have found Lululemon, Alo, or Gymshark sizing restrictive or unavailable, Athleta is the premium brand that actually fits.",
                   "B Corp certification means the sustainability claims are independently verified. For practitioners who prioritize this, Athleta is one of the few brands where the ethics match the marketing.",
                 ].map((point, i) => (
-                  <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                    <span className="font-semibold flex-shrink-0" style={{ color: "#8b4a31" }}>→</span>
+                  <li key={i} className="flex gap-3 text-base" style={{ color: "#3a3530" }}>
+                    <span className="font-semibold flex-shrink-0" style={{ color: "#0a0a0a" }}>→</span>
                     {point}
                   </li>
                 ))}
@@ -225,7 +225,7 @@ export default function AthletaPilatesPage() {
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   { q: "Is Athleta good for Pilates?", a: "Athleta is genuinely good for Pilates and represents the best value proposition in the premium activewear market. The Salutation Stash Tight provides comparable Pilates performance to the Lululemon Align at a lower price, and Athleta&apos;s size range (XXS-3X) is significantly broader than most competitors. The B Corp certification is genuine. The only notable limitation is that Athleta is primarily a US brand: European availability is limited." },
@@ -233,16 +233,16 @@ export default function AthletaPilatesPage() {
                   { q: "Is Athleta worth it vs Lululemon?", a: "For Pilates specifically, yes. The Salutation Stash Tight at $89-99 performs comparably to the Lululemon Align at $98. The Transcend Tight at $79-89 matches the Align&apos;s soft quality at a lower price. Athleta&apos;s B Corp certification, broader size range, and consistent quality make it a more compelling value proposition than the price difference alone suggests. Lululemon retains a slight edge in fabric softness and brand prestige, but not in Pilates functionality per dollar." },
                   { q: "Where to buy Athleta?", a: "Athleta has physical stores across the US and sells online at athleta.gap.com. They are available on Amazon with a curated selection. Athleta runs regular sale events with 30-40% off seasonal stock. Athleta is primarily a US market brand: UK and European practitioners will need to order online with international shipping, which adds friction but the value proposition still holds." },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Lululemon for Pilates (2026)" excerpt="The best Lululemon pieces for Pilates: chosen for reformer, mat, and barre classes." href="/blog/lululemon-pilates" category="Brand Guide" readTime="10 min read" date="May 2026" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Leggings (2026)" excerpt="Five leggings across every price point: compared on opacity, waistband stability, and reformer performance." href="/blog/best-pilates-leggings" category="Buyer&apos;s Guide" readTime="9 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />

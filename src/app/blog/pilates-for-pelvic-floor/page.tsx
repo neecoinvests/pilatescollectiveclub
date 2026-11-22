@@ -122,7 +122,7 @@ export default function PilatesForPelvicFloorPage() {
           imageAlt="Pilates for pelvic floor health and wellness"
           category="Health"
           subcategory="Pelvic Health"
-          title={<>Pilates and the Pelvic Floor<br /><span style={{ color: "#8b4a31" }}>What Actually Works</span></>}
+          title={<>Pilates and the Pelvic Floor<br /><span style={{ color: "#0a0a0a" }}>What Actually Works</span></>}
           date="Updated May 2026"
           readTime="10 min read"
           dateLabel="Prices checked October 20, 2026"
@@ -137,19 +137,19 @@ export default function PilatesForPelvicFloorPage() {
 
 
             <section className="pb-20">
-              <p className="text-lg leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+              <p className="text-lg leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 The pelvic floor is central to the Pilates method, not peripherally, but by design. Joseph Pilates called the deep core the "powerhouse," encompassing the pelvic floor, deep abdominals, and diaphragm as an integrated pressure management system. Every Pilates exercise, taught correctly, coordinates with pelvic floor function.
               </p>
-              <p className="text-base leading-relaxed mb-10" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif", fontSize: "0.8rem" }}>
+              <p className="text-base leading-relaxed mb-10" style={{ color: "#6f6964", fontSize: "0.8rem" }}>
                 <em>Note: This guide provides general information only. If you have pelvic floor dysfunction, prolapse, or have recently given birth, please consult a pelvic floor physiotherapist before beginning or modifying your Pilates practice.</em>
               </p>
 
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The anatomy: pelvic floor and the Pilates powerhouse</h2>
-              <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">The anatomy: pelvic floor and the Pilates powerhouse</h2>
+              <p className="text-base leading-relaxed mb-6" style={{ color: "#3a3530" }}>
                 The pelvic floor is a group of muscles that form the base of the pelvis, supporting the pelvic organs and contributing to continence, sexual function, and spinal stability. In Pilates anatomy, the pelvic floor works in co-contraction with the transverse abdominis (the deep "corset" muscle), the multifidus (deep spinal stabilizer), and the diaphragm. These four structures form a closed pressure system, when one contracts, the others respond. This is the physiological basis for Pilates' effectiveness for pelvic floor rehabilitation.
               </p>
 
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Which Pilates exercises are most beneficial</h2>
+              <h2 className="mb-6 r-d r-h2">Which Pilates exercises are most beneficial</h2>
               <div className="space-y-4 mb-10">
                 {[
                   { heading: "Pelvic imprint and neutral spine", body: "The foundational movement of the pelvic floor in Pilates. Gently rocking between anterior and posterior pelvic tilt, then finding neutral, connects the practitioner to their deep abdominals and pelvic floor without loading." },
@@ -158,19 +158,19 @@ export default function PilatesForPelvicFloorPage() {
                   { heading: "Side-lying leg work", body: "Side-lying exercises maintain a neutral spine position and low intra-abdominal pressure, making them well-suited for pelvic floor rehabilitation. Side kicks, clams, and inner thigh lifts all work within this safe range." },
                   { heading: "Seated breathing exercises", body: "360-degree diaphragmatic breathing (inhaling to expand the ribcage in all directions, exhaling to lift and draw in) directly coordinates with pelvic floor response. It is often the first exercise in a pelvic floor-focused Pilates program." },
                 ].map((item) => (
-                  <div key={item.heading} className="flex gap-5 rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <div className="w-1.5 rounded-full shrink-0 mt-1" style={{ backgroundColor: "#536257", minHeight: "20px" }} />
+                  <div key={item.heading} className="flex gap-5 rounded-2xl p-5" style={{ backgroundColor: "#ede9e3" }}>
+                    <div className="w-1.5 rounded-full shrink-0 mt-1" style={{ backgroundColor: "#3a3530", minHeight: "20px" }} />
                     <div>
-                      <p className="text-sm font-semibold mb-1" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.heading}</p>
-                      <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
+                      <p className="text-sm mb-1 r-hx" style={{ color: "#0a0a0a" }}>{item.heading}</p>
+                      <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.body}</p>
                     </div>
                   </div>
                 ))}
               </div>
 
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What to avoid with pelvic floor dysfunction</h2>
-              <div className="mb-10 rounded-2xl p-6" style={{ backgroundColor: "#fdf5f3", border: "1px solid rgba(139,74,49,0.2)" }}>
-                <p className="text-xs font-semibold uppercase tracking-wider mb-3" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Exercises to modify or avoid with pelvic floor dysfunction</p>
+              <h2 className="mb-6 r-d r-h2">What to avoid with pelvic floor dysfunction</h2>
+              <div className="mb-10 rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                <p className="text-[12.5px] font-bold mb-3" style={{ color: "#0a0a0a" }}>Exercises to modify or avoid with pelvic floor dysfunction</p>
                 <ul className="space-y-2">
                   {[
                     "Roll Up and Sit Up variations: high intra-abdominal pressure when performed with straight legs",
@@ -179,25 +179,25 @@ export default function PilatesForPelvicFloorPage() {
                     "Jump board exercises: impact loading not appropriate for pelvic floor rehabilitation",
                     "Any exercise causing discomfort, pressure, or leakage: stop and consult a pelvic floor physiotherapist",
                   ].map((item, i) => (
-                    <li key={i} className="flex gap-2 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                      <span style={{ color: "#8b4a31" }}>!</span> {item}
+                    <li key={i} className="flex gap-2 text-base" style={{ color: "#3a3530" }}>
+                      <span style={{ color: "#0a0a0a" }}>!</span> {item}
                     </li>
                   ))}
                 </ul>
               </div>
 
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Postpartum considerations</h2>
-              <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">Postpartum considerations</h2>
+              <p className="text-base leading-relaxed mb-6" style={{ color: "#3a3530" }}>
                 The postpartum period requires a different approach regardless of birth method. The general guidance is: wait for medical clearance (typically 6-8 weeks post-vaginal birth, 8-12 weeks post-caesarean) before returning to any Pilates practice. Begin with diaphragmatic breathing, gentle pelvic floor activation, and the bridge before progressing to any abdominal work.
               </p>
-              <p className="text-base leading-relaxed mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed mb-10" style={{ color: "#3a3530" }}>
                 A pelvic floor physiotherapist assessment before returning to Pilates is strongly recommended postpartum: it provides a baseline measurement and personalized guidance that no general guide can replace. Equipment for postpartum home practice should be minimal: a{" "}
                 quality mat{" "}
                 is sufficient for the initial months of recovery work.
               </p>
 
               <div className="mb-16">
-                <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+                <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
                 <div className="space-y-6">
                   {[
                     { q: "Is Pilates good for pelvic floor?", a: "Yes. Pilates is one of the most recommended exercises for pelvic floor health by women's health physiotherapists. The emphasis on diaphragmatic breathing, deep abdominal engagement, and mindful movement coordinates naturally with pelvic floor function. However, not all Pilates exercises are appropriate for all pelvic floor conditions: working with a qualified instructor who understands pelvic health is strongly recommended." },
@@ -205,16 +205,16 @@ export default function PilatesForPelvicFloorPage() {
                     { q: "How long does Pilates take to strengthen the pelvic floor?", a: "Most women with mild to moderate pelvic floor weakness report improvement within 6-8 weeks of consistent practice (3 sessions per week). For post-surgical or postpartum rehabilitation, working alongside a pelvic floor physiotherapist produces faster and safer outcomes." },
                     { q: "Is reformer Pilates safe for pelvic floor prolapse?", a: "With appropriate modifications, yes. The reformer actually offers advantages for pelvic floor rehabilitation: the spring assistance reduces the load required to perform movements, and many exercises can be done in gravity-reduced positions. A Pilates instructor trained in women's health can adapt the reformer repertoire appropriately." },
                   ].map((item) => (
-                    <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                      <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                      <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                    <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                      <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                      <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                     </div>
                   ))}
                 </div>
               </div>
 
               <div>
-                <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+                <h2 className="mb-8 r-d r-h2">Further reading</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                   <ArticleCard title="Pilates and Pregnancy" excerpt="Safe, effective Pilates throughout pregnancy: trimester by trimester." href="/blog/pilates-and-pregnancy" category="Health" readTime="11 min read" date="May 2026" imageUrl="/pictures/juls-p-lB6lbkbe1XA-unsplash.jpg" />
                   <ArticleCard title="Pilates for Back Pain" excerpt="Clinical research meets practical guidance on Pilates for chronic lower back pain." href="/blog/pilates-for-back-pain" category="Health" readTime="10 min read" date="May 2026" imageUrl="/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg" />

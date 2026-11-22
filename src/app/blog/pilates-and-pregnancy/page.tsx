@@ -131,7 +131,7 @@ export default function PilatesAndPregnancyPage() {
           imageAlt="Pregnancy Pilates practice"
           category="Health"
           subcategory="8 min read"
-          title={<>Pilates and Pregnancy:<br /><span style={{ color: "#8b4a31" }}>A Complete Guide</span></>}
+          title={<>Pilates and Pregnancy:<br /><span style={{ color: "#0a0a0a" }}>A Complete Guide</span></>}
           date="May 2026"
           readTime="8 min read"
           dateLabel="Prices checked October 20, 2026"
@@ -179,9 +179,9 @@ export default function PilatesAndPregnancyPage() {
 
               <Section title="Postpartum Pilates: returning to practice">
                 <p>The postpartum period requires as much care as pregnancy itself, and in many ways more. The body has undergone one of its most extraordinary physical events and needs graduated return to exercise that respects the healing process.</p>
-                <p><strong style={{ color: "#1b1c1c" }}>The early postpartum period (0–6 weeks)</strong> is not the time for exercise in the conventional sense. Gentle breathing, pelvic floor awareness, and gentle walking are appropriate. Nothing that loads the core or the pelvic floor significantly should be attempted. Always receive clearance from your midwife or GP before returning to any exercise.</p>
-                <p><strong style={{ color: "#1b1c1c" }}>Weeks 6–12</strong> can include a graduated return to gentle Pilates under the guidance of an instructor with specific postpartum training. The priority is assessing pelvic floor function, checking for diastasis recti, and rebuilding the deep core system slowly and safely. This is not the time to resume a full pre-pregnancy program.</p>
-                <p><strong style={{ color: "#1b1c1c" }}>Weeks 12+</strong> allows for a progressive return to fuller practice as healing allows. Diastasis recti, if present, needs specific rehabilitation: a specialist instructor or women&apos;s health physiotherapist should guide this. Pelvic floor strength and control should be assessed before loading exercises are reintroduced.</p>
+                <p><strong style={{ color: "#0a0a0a" }}>The early postpartum period (0–6 weeks)</strong> is not the time for exercise in the conventional sense. Gentle breathing, pelvic floor awareness, and gentle walking are appropriate. Nothing that loads the core or the pelvic floor significantly should be attempted. Always receive clearance from your midwife or GP before returning to any exercise.</p>
+                <p><strong style={{ color: "#0a0a0a" }}>Weeks 6–12</strong> can include a graduated return to gentle Pilates under the guidance of an instructor with specific postpartum training. The priority is assessing pelvic floor function, checking for diastasis recti, and rebuilding the deep core system slowly and safely. This is not the time to resume a full pre-pregnancy program.</p>
+                <p><strong style={{ color: "#0a0a0a" }}>Weeks 12+</strong> allows for a progressive return to fuller practice as healing allows. Diastasis recti, if present, needs specific rehabilitation: a specialist instructor or women&apos;s health physiotherapist should guide this. Pelvic floor strength and control should be assessed before loading exercises are reintroduced.</p>
                 <p>The single most common mistake in postpartum exercise is returning too quickly to high-intensity or high-load training. The connective tissue and pelvic floor need months, not weeks, to fully recover. Pilates, approached progressively and with specialist guidance, is one of the most appropriate practices for this recovery period.</p>
               </Section>
 
@@ -197,8 +197,8 @@ export default function PilatesAndPregnancyPage() {
                     "Exercises that cause any pain, diastasis recti strain, or pelvic pressure",
                     "Overheating: keep studio temperatures moderate and rest as needed",
                   ].map((item, i) => (
-                    <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                      <span className="shrink-0 mt-1 w-1.5 h-1.5 rounded-full" style={{ backgroundColor: "#8b4a31", marginTop: "6px" }} />
+                    <li key={i} className="flex gap-3 text-base" style={{ color: "#3a3530" }}>
+                      <span className="shrink-0 mt-1 w-1.5 h-1.5 rounded-full" style={{ backgroundColor: "#0a0a0a", marginTop: "6px" }} />
                       {item}
                     </li>
                   ))}
@@ -218,9 +218,9 @@ export default function PilatesAndPregnancyPage() {
             {/* Equipment */}
 
             {FAQS.length > 0 && <FaqSection faqs={FAQS} />}
-            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Recommended kit</h2>
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid #ddd6cc" }}>
+              <p className="text-[12.5px] font-bold mb-2" style={{ color: "#0a0a0a" }}>Equipment</p>
+              <h2 className="mb-8 r-d r-h2">Recommended kit</h2>
               <div className="space-y-8">
                 {PRODUCTS.map((p) => (
                   <ProductCard key={p.name} name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
@@ -247,8 +247,8 @@ export default function PilatesAndPregnancyPage() {
 function Section({ title, children }: { title: string; children: React.ReactNode }) {
   return (
     <div className="mb-12">
-      <h2 className="text-2xl font-semibold mb-5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{title}</h2>
-      <div className="space-y-4 text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+      <h2 className="mb-5 r-d r-h2">{title}</h2>
+      <div className="space-y-4 text-base leading-relaxed" style={{ color: "#3a3530" }}>
         {children}
       </div>
     </div>
@@ -257,27 +257,27 @@ function Section({ title, children }: { title: string; children: React.ReactNode
 
 function Callout({ children }: { children: React.ReactNode }) {
   return (
-    <blockquote className="my-10 border-l-4 pl-6 py-2" style={{ borderColor: "#8b4a31" }}>
-      <p className="text-lg italic leading-relaxed" style={{ color: "#8b4a31", fontFamily: "'Playfair Display', serif" }}>{children}</p>
+    <blockquote className="my-10 border-l-4 pl-6 py-2" style={{ borderColor: "#0a0a0a" }}>
+      <p className="text-lg italic leading-relaxed r-hx" style={{ color: "#0a0a0a" }}>{children}</p>
     </blockquote>
   );
 }
 
 function Disclaimer() {
   return (
-    <div className="rounded-xl p-6 mb-12" style={{ backgroundColor: "rgba(83,98,87,0.08)", border: "1px solid rgba(83,98,87,0.2)" }}>
-      <p className="text-xs font-semibold uppercase tracking-wider mb-2" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Medical disclaimer</p>
-      <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>This article provides general educational information about Pilates during pregnancy and postpartum. It is not medical advice. Always consult your obstetrician, midwife, or GP before beginning, continuing, or modifying any exercise program during pregnancy or following childbirth. Every pregnancy is different, and what is appropriate for one person may not be appropriate for another.</p>
+    <div className="rounded-2xl p-6 mb-12" style={{ backgroundColor: "#ddd6cc", border: "1px solid #ddd6cc" }}>
+      <p className="text-[12.5px] font-bold mb-2" style={{ color: "#3a3530" }}>Medical disclaimer</p>
+      <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>This article provides general educational information about Pilates during pregnancy and postpartum. It is not medical advice. Always consult your obstetrician, midwife, or GP before beginning, continuing, or modifying any exercise program during pregnancy or following childbirth. Every pregnancy is different, and what is appropriate for one person may not be appropriate for another.</p>
     </div>
   );
 }
 
 function TrimesterCard({ trimester, heading, content }: { trimester: string; heading: string; content: string }) {
   return (
-    <div className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)" }}>
-      <p className="text-xs font-semibold uppercase tracking-wider mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{trimester}</p>
-      <h3 className="text-base font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{heading}</h3>
-      <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{content}</p>
+    <div className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+      <p className="text-[12.5px] font-bold mb-2" style={{ color: "#0a0a0a" }}>{trimester}</p>
+      <h3 className="text-base mb-3 r-hx" style={{ color: "#0a0a0a" }}>{heading}</h3>
+      <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{content}</p>
     </div>
   );
 }

@@ -148,21 +148,21 @@ export default function BestLuxuryPilatesAccessoriesPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Equipment</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best Luxury Pilates Accessories<br /><span style={{ color: "#8b4a31" }}>(2026)</span>
+            <h1 className="mb-6 r-d r-h1">
+              Best Luxury Pilates Accessories<br /><span style={{ color: "#a98a5f" }}>(2026)</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 9 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 9 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p style={{ fontFamily: "var(--font-sans)", fontSize: "17px", fontWeight: 300, color: "#4a4540", lineHeight: 1.8, marginBottom: "16px" }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p style={{ fontSize: "17px", color: "#3a3530", lineHeight: 1.55, marginBottom: "16px" }}>
               The accessories in a serious Pilates practice are not afterthoughts. A precision magic circle, a clinical-grade foam roller, and professional resistance bands each serve a specific function, and at the premium tier, that function is performed with a consistency and durability that budget equipment cannot match.
             </p>
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               These are the six accessories we recommend to practitioners who have moved past beginner kit and want equipment that reflects the seriousness of their practice.
             </p>
           </div>
@@ -170,8 +170,8 @@ export default function BestLuxuryPilatesAccessoriesPage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/stitch-props-cork-ring.png" alt="Best Luxury Pilates Accessories 2026" fill className="object-cover" style={{ filter: "brightness(0.85)" }} priority />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/stitch-props-cork-ring.png" alt="Best Luxury Pilates Accessories 2026" fill className="object-cover" priority />
             </div>
           </div>
         </section>
@@ -185,8 +185,8 @@ export default function BestLuxuryPilatesAccessoriesPage() {
               {PRODUCTS.map((p) => (
                 <div key={p.rank}>
                   <div className="flex items-center gap-3 mb-4">
-                    <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "\'Playfair Display\', serif" }}>{p.rank}</span>
-                    <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "\'Montserrat\', sans-serif" }}>{p.verdict}</span>
+                    <span className="text-2xl r-hx" style={{ color: "#9a9490" }}>{p.rank}</span>
+                    <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{p.verdict}</span>
                   </div>
                   <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                 </div>
@@ -194,21 +194,21 @@ export default function BestLuxuryPilatesAccessoriesPage() {
             </div>
 
             <div style={{ marginTop: "64px" }}>
-              <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "1.6rem", fontWeight: 400, color: "#1a1714", marginBottom: "32px" }}>Frequently Asked Questions</h2>
+              <h2 className="r-d r-h2" style={{ color: "#1a1714", marginBottom: "32px" }}>Frequently Asked Questions</h2>
               {[
                 { q: "What accessories do serious Pilates practitioners invest in?", a: "Beyond the mat, the accessories that make the most consistent difference in a serious Pilates practice are: a steel-sprung magic circle (for adductor and abductor work), a quality foam roller (for thoracic mobility and recovery), and professional-grade resistance bands (for supplementary conditioning). Cork props over foam are preferred at the premium tier for feel and durability." },
                 { q: "Are professional Pilates props like the STOTT PILATES Fitness Circle Pro worth the price?", a: "Yes, for practitioners who train regularly. A professional ring like Merrithew's Fitness Circle Pro is made of sprung steel rather than plastic or fiberglass, so the resistance is firm and even and the ring keeps its shape for years. Budget magic circles vary widely in resistance and many lose tension or deform within months." },
                 { q: "What makes cork pilates props better than foam?", a: "Cork has significant advantages over foam for Pilates props: it is a natural, renewable material that doesn't off-gas chemicals; it is naturally resistant to moisture and easy to clean; it is firmer and grippier than foam; and it doesn't compress over time the way soft foam does. The trade-off is weight and a firmer surface, so many studios keep both." },
               ].map((item) => (
                 <div key={item.q} style={{ borderTop: "1px solid #ede6dc", paddingTop: "24px", paddingBottom: "24px" }}>
-                  <h3 style={{ fontFamily: "var(--font-sans)", fontSize: "15px", fontWeight: 500, color: "#1a1714", marginBottom: "10px" }}>{item.q}</h3>
-                  <p style={{ fontFamily: "var(--font-sans)", fontSize: "14px", fontWeight: 300, color: "#4a4540", lineHeight: 1.75 }}>{item.a}</p>
+                  <h3 style={{ fontSize: "17px", fontWeight: 500, color: "#1a1714", marginBottom: "10px" }}>{item.q}</h3>
+                  <p style={{ fontSize: "16px", color: "#3a3530", lineHeight: 1.55 }}>{item.a}</p>
                 </div>
               ))}
             </div>
 
             <div style={{ marginTop: "64px" }}>
-              <h2 style={{ fontFamily: "var(--font-sans)", fontSize: "11px", fontWeight: 500, letterSpacing: "0.2em", textTransform: "uppercase", color: "#9a9490", marginBottom: "28px" }}>Further Reading</h2>
+              <h2 style={{ fontSize: "12.5px", fontWeight: 700, color: "#9a9490", marginBottom: "28px" }}>Further Reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Luxury Pilates Mat (2026)" excerpt="Manduka PRO, Liforme, Alo Warrior, and more: the premium mats serious practitioners buy once and keep for years." href="/blog/best-luxury-pilates-mat" category="Equipment" readTime="9 min" imageUrl="/pictures/stitch-mat-setup-beige.png" />
                 <ArticleCard title="Best Luxury Pilates Reformer (2026)" excerpt="Gratz, Balanced Body Studio, Peak Pilates MVe: investment-grade reformers for the serious home studio." href="/blog/best-luxury-pilates-reformer" category="Equipment" readTime="10 min" imageUrl="/pictures/stitch-reformer-morning-light.png" />

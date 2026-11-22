@@ -132,20 +132,20 @@ export default function BalancedBodyVsMerrithewPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Brand Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Reformer Equipment</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Brand Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Reformer Equipment</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Balanced Body vs Merrithew:<br /><span style={{ color: "#8b4a31" }}>Which Reformer Is Right for You?</span>
+            <h1 className="mb-6 r-d r-h1">
+              Balanced Body vs Merrithew:<br /><span style={{ color: "#a98a5f" }}>Which Reformer Is Right for You?</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 13 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 13 min read</p>
             <TopPick label="Top pick for home buyers" name={PRODUCTS[1].name} price={PRODUCTS[1].price} note="In stock on Amazon; sized to fit along a wall in most bedrooms" url={PRODUCTS[1].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               Balanced Body and Merrithew are the two most important reformer brands for practitioners outside the classical Gratz world. This comparison is built on real, live Amazon listings rather than search-term model names: you&apos;ll see &quot;Allegro 2,&quot; &quot;SPX Max,&quot; and a &quot;V2 Max&quot; at $4,999 in searches, but we could not verify any of them as live listings. The real machines: Balanced Body&apos;s Studio Reformer at $4,700 and Merrithew&apos;s At Home SPX Reformer Package at $3,349, with Merrithew&apos;s genuinely clinical-grade Rehab V2 Max Plus at $8,199 for higher-intensity use.
             </p>
           </div>
@@ -153,8 +153,8 @@ export default function BalancedBodyVsMerrithewPage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" alt="Balanced Body vs Merrithew STOTT Pilates reformer: professional equipment head-to-head comparison" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" alt="Balanced Body vs Merrithew STOTT Pilates reformer: professional equipment head-to-head comparison" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -169,38 +169,38 @@ export default function BalancedBodyVsMerrithewPage() {
             <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-16 mt-4">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The brands in brief</h2>
+              <h2 className="mb-6 r-d r-h2">The brands in brief</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <div className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                  <p className="text-base font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Balanced Body</p>
-                  <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>A California-based, long-established studio equipment brand with more professional reformers in active use than most competitors. Designs for both classical and contemporary method. Real, currently-sold Amazon flagship: the Studio Reformer with Revo footbar, $4,700.</p>
+                <div className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                  <p className="text-base mb-3 r-hx" style={{ color: "#0a0a0a" }}>Balanced Body</p>
+                  <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>A California-based, long-established studio equipment brand with more professional reformers in active use than most competitors. Designs for both classical and contemporary method. Real, currently-sold Amazon flagship: the Studio Reformer with Revo footbar, $4,700.</p>
                 </div>
-                <div className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                  <p className="text-base font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Merrithew (STOTT Pilates)</p>
-                  <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Owner of the STOTT Pilates teacher-training system, one of the most widely adopted contemporary Pilates certifications. Real, currently-sold Amazon models: the At Home SPX Reformer Package ($3,349) and the clinical-grade Rehab V2 Max Plus Reformer ($8,199).</p>
+                <div className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                  <p className="text-base mb-3 r-hx" style={{ color: "#0a0a0a" }}>Merrithew (STOTT Pilates)</p>
+                  <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>Owner of the STOTT Pilates teacher-training system, one of the most widely adopted contemporary Pilates certifications. Real, currently-sold Amazon models: the At Home SPX Reformer Package ($3,349) and the clinical-grade Rehab V2 Max Plus Reformer ($8,199).</p>
                 </div>
               </div>
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Head-to-head across six dimensions</h2>
+              <h2 className="mb-8 r-d r-h2">Head-to-head across six dimensions</h2>
               <div className="space-y-6">
                 {comparisons.map((c) => (
-                  <div key={c.dimension} className="rounded-2xl overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <div className="px-6 py-4" style={{ backgroundColor: "#f6f3f2" }}>
+                  <div key={c.dimension} className="rounded-2xl overflow-hidden" style={{ border: "1px solid #ddd6cc" }}>
+                    <div className="px-6 py-4" style={{ backgroundColor: "#ede9e3" }}>
                       <div className="flex items-center justify-between">
-                        <p className="text-base font-semibold" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{c.dimension}</p>
-                        <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#fff", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{c.verdict}</span>
+                        <p className="text-base r-hx" style={{ color: "#0a0a0a" }}>{c.dimension}</p>
+                        <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#fff", color: "#0a0a0a" }}>{c.verdict}</span>
                       </div>
                     </div>
                     <div className="grid grid-cols-1 sm:grid-cols-2">
-                      <div className="p-5" style={{ borderRight: "1px solid rgba(217,194,186,0.25)", backgroundColor: "#ffffff" }}>
-                        <p className="text-xs font-semibold uppercase tracking-widest mb-2" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Balanced Body</p>
-                        <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{c.bb}</p>
+                      <div className="p-5" style={{ borderRight: "1px solid #ddd6cc", backgroundColor: "#ffffff" }}>
+                        <p className="text-[12.5px] font-bold mb-2" style={{ color: "#3a3530" }}>Balanced Body</p>
+                        <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{c.bb}</p>
                       </div>
                       <div className="p-5" style={{ backgroundColor: "#ffffff" }}>
-                        <p className="text-xs font-semibold uppercase tracking-widest mb-2" style={{ color: "#7a6a64", fontFamily: "'Montserrat', sans-serif" }}>Merrithew</p>
-                        <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{c.m}</p>
+                        <p className="text-[12.5px] font-bold mb-2" style={{ color: "#7a6a64" }}>Merrithew</p>
+                        <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{c.m}</p>
                       </div>
                     </div>
                   </div>
@@ -208,8 +208,8 @@ export default function BalancedBodyVsMerrithewPage() {
               </div>
             </div>
 
-            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
-              <h2 className="text-2xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The recommendation by context</h2>
+            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#ede9e3" }}>
+              <h2 className="mb-6 r-d r-h2">The recommendation by context</h2>
               <ul className="space-y-3">
                 {[
                   "STOTT-trained instructor setting up a private studio → Merrithew's Rehab V2 Max Plus ($8,199) for a genuinely clinical-grade machine, or the At Home SPX ($3,349) for a lower-budget setup. Your curriculum and the machine's spring conventions were designed together.",
@@ -219,8 +219,8 @@ export default function BalancedBodyVsMerrithewPage() {
                   "Budget-conscious buyer wanting a real Balanced Body machine → the Metro IQ Reformer at $2,330 is the most affordable genuinely-sold Balanced Body option.",
                   "Rehabilitation clinic or physiotherapy practice → Merrithew's Rehab V2 Max Plus Reformer ($8,199) is Merrithew's actual clinical/professional machine, not the home-market SPX, with a raised frame and built-in Vertical Frame.",
                 ].map((tip, i) => (
-                  <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                    <span className="font-semibold" style={{ color: "#8b4a31" }}>{i + 1}.</span>
+                  <li key={i} className="flex gap-3 text-base" style={{ color: "#3a3530" }}>
+                    <span className="font-semibold" style={{ color: "#0a0a0a" }}>{i + 1}.</span>
                     {tip}
                   </li>
                 ))}
@@ -228,7 +228,7 @@ export default function BalancedBodyVsMerrithewPage() {
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   { q: "Can I use Merrithew accessories on a Balanced Body reformer?", a: "Generally no: the proprietary dimensions of boxes, footbars, and jump boards are brand-specific. Universal accessories (foam rollers, general grip pads, bands) work across brands. Jump boards, long boxes, and short boxes are almost always brand-specific and should be confirmed with the manufacturer before purchasing." },
@@ -236,9 +236,9 @@ export default function BalancedBodyVsMerrithewPage() {
                   { q: "Is one brand harder to service than the other?", a: "Both brands have authorized service networks and offer direct purchase of springs, ropes, and replacement parts. Balanced Body has a larger US dealer network; Merrithew has a strong international presence. We have not independently verified comparative service response times." },
                   { q: "Which brand do professional instructors prefer?", a: "Preference divides largely along training lineage. STOTT-trained instructors typically prefer Merrithew, since the curriculum was built around it. Practitioners without a strong training-system allegiance often cite Balanced Body's broader accessory ecosystem as the deciding factor." },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
@@ -246,9 +246,9 @@ export default function BalancedBodyVsMerrithewPage() {
 
 
             {/* Equipment */}
-            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Recommended kit: real, verified listings</h2>
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid #ddd6cc" }}>
+              <p className="text-[12.5px] font-bold mb-2" style={{ color: "#0a0a0a" }}>Equipment</p>
+              <h2 className="mb-8 r-d r-h2">Recommended kit: real, verified listings</h2>
               <div className="space-y-8">
                 {PRODUCTS.map((p) => (
                   <ProductCard key={p.name} name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
@@ -257,7 +257,7 @@ export default function BalancedBodyVsMerrithewPage() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Merrithew At Home SPX Review (2026)" excerpt="The real Amazon-sold SPX-family machine, reviewed honestly." href="/blog/merrithew-spx-max-review" category="Equipment Review" readTime="11 min read" date="September 2026" imageUrl="/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg" />
                 <ArticleCard title="Balanced Body Studio Reformer Review (2026)" excerpt="The real Balanced Body flagship sold on Amazon, reviewed honestly." href="/blog/balanced-body-allegro-2-review" category="Equipment Review" readTime="11 min read" date="September 2026" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />

@@ -129,20 +129,20 @@ export default function VuoriPilatesPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Brand Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Vuori</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Brand Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Vuori</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Vuori for Pilates (2026):<br /><span style={{ color: "#8b4a31" }}>Best Pieces for Men &amp; Women</span>
+            <h1 className="mb-6 r-d r-h1">
+              Vuori for Pilates (2026):<br /><span style={{ color: "#a98a5f" }}>Best Pieces for Men &amp; Women</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 8 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Updated May 2026 · 8 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               Vuori launched in San Diego in 2015 with a proposition that most activewear brands miss: make clothes that look good outside the gym without sacrificing what you need inside it. For Pilates, that positioning is useful. The brand&apos;s men&apos;s range in particular fills a gap that every other premium activewear brand leaves open, and this is the only guide on this site that covers men&apos;s Pilates activewear in any depth.
             </p>
           </div>
@@ -150,8 +150,8 @@ export default function VuoriPilatesPage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg" alt="Vuori activewear for Pilates: the coastal brand with the best men's offering in the category" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg" alt="Vuori activewear for Pilates: the coastal brand with the best men's offering in the category" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -163,31 +163,31 @@ export default function VuoriPilatesPage() {
             <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-16 mt-4">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The brand that solved men&apos;s Pilates activewear</h2>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">The brand that solved men&apos;s Pilates activewear</h2>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 Every major activewear brand has a Pilates problem: their men&apos;s ranges are built for running, cycling, or gym training. The result is that men attending Pilates studios wear whatever seems least wrong: running shorts that catch on the reformer, sweatpants too bulky for footwork, compression tights designed for triathlon rather than studio movement. Vuori is the first brand to develop a men&apos;s range that solves this problem without requiring the practitioner to compromise on either function or aesthetics.
               </p>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 For women, Vuori is a strong alternative to Lululemon at a comparable quality level and slightly lower price, with a more relaxed, coastal feel than the technical precision of Lululemon or the trend-driven positioning of Alo. The women&apos;s range is less extensive than the category leaders, but every piece listed here has been selected specifically for Pilates performance.
               </p>
             </div>
 
 
-            <div className="mb-12 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>A note on men&apos;s Pilates activewear</h2>
-              <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+            <div className="mb-12 rounded-2xl p-8" style={{ backgroundColor: "#ede9e3" }}>
+              <h2 className="mb-4 r-d r-h2">A note on men&apos;s Pilates activewear</h2>
+              <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>
                 This is the only article on Pilates Collective Club that addresses men&apos;s activewear specifically. Pilates is not a women-only discipline: Joseph Pilates himself was a man, and his original clientele was largely male. Men attending contemporary studio classes are underserved by existing guides, which almost universally default to women&apos;s pieces. The Banks Short and Performance Jogger entries below are written for men who want specific, honest recommendations rather than a footnote in a women&apos;s guide.
               </p>
             </div>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Vuori Pieces · Pilates-Reviewed</p>
+              <p className="text-[12.5px] font-bold mb-10" style={{ color: "#0a0a0a" }}>5 Vuori Pieces · Pilates-Reviewed</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
                     <div className="flex items-center gap-3 mb-4">
-                      <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                      <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tag}</span>
+                      <span className="text-2xl r-hx" style={{ color: "#9a9490" }}>{p.rank}</span>
+                      <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{p.tag}</span>
                     </div>
                     <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                   </div>
@@ -196,7 +196,7 @@ export default function VuoriPilatesPage() {
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Vuori vs Lululemon: the honest comparison</h2>
+              <h2 className="mb-6 r-d r-h2">Vuori vs Lululemon: the honest comparison</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[
                   { cat: "Quality", vuori: "Competitive: fabric quality is broadly equivalent at a lower price", lulu: "Marginally higher on the softest pieces (Align, Nulu)" },
@@ -205,17 +205,17 @@ export default function VuoriPilatesPage() {
                   { cat: "Price", vuori: "$10-30 less per piece on average", lulu: "Premium: justified on flagship pieces, less so on basics" },
                   { cat: "Aesthetic", vuori: "Coastal, relaxed: wears well off the mat", lulu: "Technical-luxe: more explicitly studio-coded" },
                 ].map((row) => (
-                  <div key={row.cat} className="rounded-xl p-4" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-xs font-semibold uppercase tracking-wider mb-3" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{row.cat}</p>
-                    <p className="text-xs mb-1" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}><span style={{ color: "#8b4a31" }}>Vuori:</span> {row.vuori}</p>
-                    <p className="text-xs" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}><span style={{ color: "#1b1c1c" }}>Lululemon:</span> {row.lulu}</p>
+                  <div key={row.cat} className="rounded-2xl p-4" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-[12.5px] font-bold mb-3" style={{ color: "#6f6964" }}>{row.cat}</p>
+                    <p className="text-xs mb-1" style={{ color: "#3a3530" }}><span style={{ color: "#0a0a0a" }}>Vuori:</span> {row.vuori}</p>
+                    <p className="text-xs" style={{ color: "#3a3530" }}><span style={{ color: "#0a0a0a" }}>Lululemon:</span> {row.lulu}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   { q: "Is Vuori good for Pilates?", a: "Yes, and more specifically, Vuori is good for the parts of a Pilates practice that other premium brands under-serve. The Performance Jogger and Banks Short address reformer classes in a way that most yoga-adjacent activewear brands do not. The fabric quality is competitive with Lululemon at a slightly lower price point, and the coastal aesthetic is less trend-driven than Alo." },
@@ -223,16 +223,16 @@ export default function VuoriPilatesPage() {
                   { q: "Vuori vs Lululemon for Pilates, which is better?", a: "For women: broadly comparable quality, Vuori slightly cheaper, slightly more casual aesthetic. Lululemon's Align legging is softer; Vuori's Daily Legging is competitive but not identical. For men: Vuori clearly wins, the ABC Pant aside, Lululemon's men's range has limited relevance to Pilates." },
                   { q: "Does Vuori run true to size?", a: "Generally yes, with one exception: the Performance Jogger runs slightly long in the inseam for shorter practitioners. If you're under 5'5\", consider sizing down or looking for the short inseam option. Everything else in the range fits as expected. The Daily Legging's waist is generous, if you're between sizes, size down." },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Pilates Leggings (2026)" excerpt="Five leggings across every price point: compared on opacity, waistband stability, and reformer performance." href="/blog/best-pilates-leggings" category="Equipment" readTime="9 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />
                 <ArticleCard title="What to Wear to Pilates" excerpt="The definitive guide to dressing for reformer and mat Pilates: what works, what to avoid, and why it matters." href="/blog/what-to-wear-to-pilates" category="Style Guide" readTime="7 min read" date="May 2026" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />

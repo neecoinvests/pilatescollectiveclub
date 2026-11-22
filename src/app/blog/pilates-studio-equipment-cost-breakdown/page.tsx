@@ -115,34 +115,34 @@ const PRODUCTS = [
 
 function BudgetTable({ rows, total, note }: { rows: { item: string; qty: string; unit: string; line: string }[]; total: string; note: string }) {
   return (
-    <div className="rounded-xl overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", backgroundColor: "#ffffff" }}>
+    <div className="rounded-2xl overflow-hidden" style={{ backgroundColor: "#ede9e3" }}>
       <div style={{ overflowX: "auto" }}>
-        <table style={{ width: "100%", borderCollapse: "collapse", fontFamily: "'Montserrat', sans-serif", fontSize: "14px" }}>
+        <table style={{ width: "100%", borderCollapse: "collapse", fontSize: "16px" }}>
           <thead>
-            <tr style={{ backgroundColor: "#f6f3f2" }}>
-              <th style={{ textAlign: "left", padding: "12px 16px", fontWeight: 600, color: "#1b1c1c", whiteSpace: "nowrap" }}>Item</th>
-              <th style={{ textAlign: "center", padding: "12px 12px", fontWeight: 600, color: "#1b1c1c", whiteSpace: "nowrap" }}>Qty</th>
-              <th style={{ textAlign: "right", padding: "12px 12px", fontWeight: 600, color: "#1b1c1c", whiteSpace: "nowrap" }}>Unit</th>
-              <th style={{ textAlign: "right", padding: "12px 16px", fontWeight: 600, color: "#1b1c1c", whiteSpace: "nowrap" }}>Line</th>
+            <tr style={{ backgroundColor: "#ede9e3" }}>
+              <th style={{ textAlign: "left", padding: "12px 16px", fontWeight: 600, color: "#0a0a0a", whiteSpace: "nowrap" }}>Item</th>
+              <th style={{ textAlign: "center", padding: "12px 12px", fontWeight: 600, color: "#0a0a0a", whiteSpace: "nowrap" }}>Qty</th>
+              <th style={{ textAlign: "right", padding: "12px 12px", fontWeight: 600, color: "#0a0a0a", whiteSpace: "nowrap" }}>Unit</th>
+              <th style={{ textAlign: "right", padding: "12px 16px", fontWeight: 600, color: "#0a0a0a", whiteSpace: "nowrap" }}>Line</th>
             </tr>
           </thead>
           <tbody>
             {rows.map((r) => (
-              <tr key={r.item} style={{ borderTop: "1px solid rgba(217,194,186,0.3)" }}>
-                <td style={{ padding: "12px 16px", color: "#53433e", fontWeight: 300 }}>{r.item}</td>
-                <td style={{ padding: "12px 12px", textAlign: "center", color: "#53433e", fontWeight: 300 }}>{r.qty}</td>
-                <td style={{ padding: "12px 12px", textAlign: "right", color: "#53433e", fontWeight: 300, whiteSpace: "nowrap" }}>{r.unit}</td>
-                <td style={{ padding: "12px 16px", textAlign: "right", color: "#1b1c1c", whiteSpace: "nowrap" }}>{r.line}</td>
+              <tr key={r.item} style={{ borderTop: "1px solid #ddd6cc" }}>
+                <td style={{ padding: "12px 16px", color: "#3a3530" }}>{r.item}</td>
+                <td style={{ padding: "12px 12px", textAlign: "center", color: "#3a3530" }}>{r.qty}</td>
+                <td style={{ padding: "12px 12px", textAlign: "right", color: "#3a3530", whiteSpace: "nowrap" }}>{r.unit}</td>
+                <td style={{ padding: "12px 16px", textAlign: "right", color: "#0a0a0a", whiteSpace: "nowrap" }}>{r.line}</td>
               </tr>
             ))}
-            <tr style={{ borderTop: "2px solid rgba(139,74,49,0.3)", backgroundColor: "#fff4f1" }}>
-              <td colSpan={3} style={{ padding: "14px 16px", fontWeight: 600, color: "#1b1c1c" }}>Equipment total</td>
-              <td style={{ padding: "14px 16px", textAlign: "right", fontWeight: 600, color: "#8b4a31", whiteSpace: "nowrap" }}>{total}</td>
+            <tr style={{ borderTop: "2px solid #ddd6cc", backgroundColor: "#fff4f1" }}>
+              <td colSpan={3} style={{ padding: "14px 16px", fontWeight: 600, color: "#0a0a0a" }}>Equipment total</td>
+              <td style={{ padding: "14px 16px", textAlign: "right", fontWeight: 600, color: "#0a0a0a", whiteSpace: "nowrap" }}>{total}</td>
             </tr>
           </tbody>
         </table>
       </div>
-      <p style={{ padding: "14px 16px", margin: 0, fontFamily: "'Montserrat', sans-serif", fontSize: "13px", fontWeight: 300, color: "#86736d", lineHeight: 1.7, borderTop: "1px solid rgba(217,194,186,0.3)" }}>{note}</p>
+      <p style={{ padding: "14px 16px", margin: 0, fontSize: "15px", color: "#6f6964", lineHeight: 1.55, borderTop: "1px solid #ddd6cc" }}>{note}</p>
     </div>
   );
 }
@@ -158,20 +158,20 @@ export default function PilatesStudioEquipmentCostBreakdownPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Studio Business</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Studio Business</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Pilates Studio Equipment<br /><span style={{ color: "#8b4a31" }}>Cost Breakdown</span>
+            <h1 className="mb-6 r-d r-h1">
+              Pilates Studio Equipment<br /><span style={{ color: "#a98a5f" }}>Cost Breakdown</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 12 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Updated September 2026 · 12 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               Three itemized budgets below, at three studio sizes, built from the list prices we publish across our equipment reviews. Every line is a real product at a real price so you can check the arithmetic and swap any row for the brand you prefer. What these tables give you is the shape of the number and the items people forget, which is what you need before you ask a supplier for a quote.
             </p>
           </div>
@@ -180,7 +180,7 @@ export default function PilatesStudioEquipmentCostBreakdownPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/stitch-reformers-aerial-row.png" alt="A row of Pilates reformers in a studio seen from above" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/stitch-reformers-aerial-row.png" alt="A row of Pilates reformers in a studio seen from above" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -191,19 +191,19 @@ export default function PilatesStudioEquipmentCostBreakdownPage() {
             <QuickPicks className="mb-6 mt-4" picks={PRODUCTS.map((pr, i) => ({ name: pr.name, price: pr.price, url: pr.affiliateUrl, note: QP_NOTES[i] }))} />
             <AffiliateNote />
 
-            <div className="mb-14 mt-4 rounded-2xl p-7" style={{ backgroundColor: "#f6f3f2" }}>
-              <p className="text-xs font-semibold uppercase tracking-[0.15em] mb-3" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>How to read these numbers</p>
-              <p className="text-base leading-relaxed mb-3" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+            <div className="mb-14 mt-4 rounded-2xl p-7" style={{ backgroundColor: "#ede9e3" }}>
+              <p className="text-[12.5px] font-bold mb-3" style={{ color: "#0a0a0a" }}>How to read these numbers</p>
+              <p className="text-base leading-relaxed mb-3" style={{ color: "#3a3530" }}>
                 Reformer prices below were checked against current dealer listings in September 2026. Figures marked with a tilde are indicative allowances for props and fit-out rather than a specific product, and chair, barrel and cadillac prices are the list prices we track across our equipment reviews. Apparatus pricing moves and varies by country and dealer, so treat all of it as the basis for a conversation rather than a quote.
               </p>
-              <p className="text-base leading-relaxed mb-0" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed mb-0" style={{ color: "#3a3530" }}>
                 These are also single-unit prices. Commercial suppliers price multi-machine orders differently and studio accounts are normal practice, so a real quote for six or ten reformers is a negotiation, not a sum of website prices. Ask for the quote in writing with delivery, assembly and first service itemized, because a machine price that excludes assembly is not comparable to one that includes it.
               </p>
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Small studio: 3 reformers, privates and duets</h2>
-              <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-3 r-d r-h2">Small studio: 3 reformers, privates and duets</h2>
+              <p className="text-base leading-relaxed mb-6" style={{ color: "#3a3530" }}>
                 The lowest-capital way into apparatus Pilates. Three machines in a small room, revenue from privates and duets at a high hourly rate, and a chair and barrel to give the teaching somewhere to go. The C8 Pro is the least expensive genuinely studio-rated reformer we have been able to verify pricing on, which is what keeps this tier reachable without dropping to home-grade frames.
               </p>
               <BudgetTable
@@ -214,8 +214,8 @@ export default function PilatesStudioEquipmentCostBreakdownPage() {
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Medium studio: 6 reformers, group classes</h2>
-              <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-3 r-d r-h2">Medium studio: 6 reformers, group classes</h2>
+              <p className="text-base leading-relaxed mb-6" style={{ color: "#3a3530" }}>
                 The standard group model, and the size most new studios open at. Six matching machines, a jumpboard per machine so you can run jumpboard as a timetabled format rather than an occasional novelty, and enough props for a full class to use them at once. The Allegro Stretch is priced here because it is the widest-carriage machine actually sold on Amazon, and its pricing is currently verifiable.
               </p>
               <BudgetTable
@@ -226,8 +226,8 @@ export default function PilatesStudioEquipmentCostBreakdownPage() {
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Large studio: 10 reformers, full apparatus</h2>
-              <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-3 r-d r-h2">Large studio: 10 reformers, full apparatus</h2>
+              <p className="text-base leading-relaxed mb-6" style={{ color: "#3a3530" }}>
                 A comprehensive room: ten reformers on the group timetable plus the full apparatus complement for privates, teacher training and rehabilitation work. The cadillac is the single biggest line after the reformers and the one that most distinguishes a comprehensive studio from a reformer class business.
               </p>
               <BudgetTable
@@ -238,8 +238,8 @@ export default function PilatesStudioEquipmentCostBreakdownPage() {
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What these tables leave out</h2>
-              <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">What these tables leave out</h2>
+              <p className="text-base leading-relaxed mb-6" style={{ color: "#3a3530" }}>
                 The totals above are equipment only. Every line below is a real cost of opening that sits outside the apparatus budget, and between them they are frequently larger than the machines. Price them locally: rent and trades vary far too much between markets for a published figure to be worth anything.
               </p>
               <div className="space-y-4">
@@ -252,12 +252,12 @@ export default function PilatesStudioEquipmentCostBreakdownPage() {
                   { label: "Consumables and replacement parts", body: "Springs, ropes, straps, bands, cleaning supplies and laundry. Recurring, predictable, and the line that most first-year budgets omit entirely. Order spare springs and ropes with the original machines." },
                   { label: "Insurance and licenses", body: "Professional and public liability, property cover for the apparatus at replacement value, business interruption, and music licensing. See our guide to ", link: { href: "/blog/how-to-open-a-pilates-studio", text: "opening a Pilates studio" }, bodyAfter: " for the full list." },
                 ].map((item) => (
-                  <div key={item.label} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.label}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+                  <div key={item.label} className="rounded-2xl p-5" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-sm mb-1.5 r-hx" style={{ color: "#0a0a0a" }}>{item.label}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>
                       {item.body}
                       {item.link && (
-                        <Link href={item.link.href} style={{ color: "#8b4a31", textDecoration: "underline" }}>{item.link.text}</Link>
+                        <Link href={item.link.href} style={{ color: "#0a0a0a", textDecoration: "underline" }}>{item.link.text}</Link>
                       )}
                       {item.bodyAfter}
                     </p>
@@ -267,22 +267,22 @@ export default function PilatesStudioEquipmentCostBreakdownPage() {
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Where to spend and where not to</h2>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">Where to spend and where not to</h2>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 The reformers are not the place to economize, and the reason is warranty rather than snobbery. Manufacturer warranties typically distinguish domestic from commercial use, so a home-rated machine put on a studio timetable is usually out of cover from the first paid class. The saving on the purchase is borrowed against the first frame or spring failure. Our{" "}
-                <Link href="/blog/commercial-vs-home-pilates-reformer" style={{ color: "#8b4a31", textDecoration: "underline" }}>commercial versus home comparison</Link>{" "}
+                <Link href="/blog/commercial-vs-home-pilates-reformer" style={{ color: "#0a0a0a", textDecoration: "underline" }}>commercial versus home comparison</Link>{" "}
                 sets out what actually differs in the build.
               </p>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 Spend on matching machines, on commercial rating, and on spare springs and ropes. Those three decisions are difficult and expensive to reverse. Economize instead on the fit-out layer: mirrors, storage, flooring tiles, sound and reception furniture are all replaceable later out of revenue, and nobody has ever left a studio because the prop shelf was plain.
               </p>
-              <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>
                 The other genuine economy is buying fewer machines rather than cheaper ones. Three commercial reformers running privates will out-earn six home-grade machines in a room you cannot fill, and they leave you the capital to survive the months before the timetable fills. Machines are easier to add than a lease is to shrink.
               </p>
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   { q: "How much does it cost to equip a Pilates studio?", a: "On current list prices, a three-reformer private studio with basic apparatus and props comes to roughly $10,400. A six-reformer group studio with jumpboards, a chair, barrels and props comes to roughly $27,500. A ten-reformer comprehensive studio with a cadillac, two chairs, a ladder barrel and full props comes to roughly $63,100. Those are equipment-only figures at single-unit list price. They exclude shipping, tax, assembly, flooring and mirrors, and they are before any trade or multi-unit pricing your supplier may offer." },
@@ -290,9 +290,9 @@ export default function PilatesStudioEquipmentCostBreakdownPage() {
                   { q: "What is the cheapest way to open a reformer studio?", a: "Fewer machines of the correct grade, rather than more machines of the wrong grade. A three-reformer room running privates and duets at a high hourly rate needs a fraction of the capital of a group studio and carries a fraction of the rent, and it can be expanded once you have a waiting list. Buying home-rated reformers to fill a larger room is the false economy: the warranty on a domestic machine typically does not cover commercial use, so the saving disappears the first time a frame or a spring fails." },
                   { q: "How long does Pilates studio equipment last?", a: "A commercial-grade reformer frame is built to last well over a decade in studio use, which is why the per-year cost of good apparatus is lower than the sticker price suggests. What wears out is the consumable layer: springs, ropes, straps and upholstery. Budget for those on a replacement schedule rather than waiting for failure, because a machine out of action is a class you cannot teach. Ordering spare springs and ropes with the original purchase is cheaper than ordering them one at a time later." },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
@@ -300,10 +300,10 @@ export default function PilatesStudioEquipmentCostBreakdownPage() {
 
             {/* Reformers */}
 
-            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Reformers</p>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Everything in the budgets above</h2>
-              <p className="text-base leading-relaxed mb-8" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid #ddd6cc" }}>
+              <p className="text-[12.5px] font-bold mb-2" style={{ color: "#0a0a0a" }}>Reformers</p>
+              <h2 className="mb-4 r-d r-h2">Everything in the budgets above</h2>
+              <p className="text-base leading-relaxed mb-8" style={{ color: "#3a3530" }}>
                 Each line from the three studio budgets. For a multi-machine order, get a written quote rather than adding these up. Check the warranty covers your intended use before ordering, and confirm the machine fits the room and the route into it.
               </p>
               <div className="space-y-8">
@@ -314,10 +314,10 @@ export default function PilatesStudioEquipmentCostBreakdownPage() {
             </div>
 
             {/* Equipment */}
-            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The lines you can order today</h2>
-              <p className="text-base leading-relaxed mb-8" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid #ddd6cc" }}>
+              <p className="text-[12.5px] font-bold mb-2" style={{ color: "#0a0a0a" }}>Equipment</p>
+              <h2 className="mb-4 r-d r-h2">The lines you can order today</h2>
+              <p className="text-base leading-relaxed mb-8" style={{ color: "#3a3530" }}>
                 The rest of the budget, where the product is the same whoever sells it and the only question is quantity. For the apparatus above, a written commercial quote on a multi-machine order will normally beat any listed price.
               </p>
               <div className="space-y-8">
@@ -328,7 +328,7 @@ export default function PilatesStudioEquipmentCostBreakdownPage() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="How to Open a Pilates Studio" excerpt="Premises, ceiling height, licensing, insurance and the numbers that decide whether a studio works." href="/blog/how-to-open-a-pilates-studio" category="Guide" readTime="15 min read" date="September 2026" imageUrl="/pictures/stitch-studio-entryway.png" />
                 <ArticleCard title="Commercial vs Home Pilates Reformer" excerpt="Frame, weight rating, warranty and duty cycle: what separates the two tiers." href="/blog/commercial-vs-home-pilates-reformer" category="Equipment" readTime="11 min read" date="September 2026" imageUrl="/pictures/stitch-reformer-spring-detail.png" />

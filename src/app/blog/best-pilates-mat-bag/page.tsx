@@ -141,20 +141,20 @@ export default function BestPilatesMatBagPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Accessories</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Equipment Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Accessories</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best Pilates Mat Bags<br /><span style={{ color: "#8b4a31" }}>(2026): Carriers Compared</span>
+            <h1 className="mb-6 r-d r-h1">
+              Best Pilates Mat Bags<br /><span style={{ color: "#a98a5f" }}>(2026): Carriers Compared</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked November 16, 2026 · 7 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked November 16, 2026 · 7 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               A mat bag is one of those purchases that most practitioners delay until they have suffered through enough awkward one-handed commutes with a mat tucked under an arm. The right carrier makes the mat feel lighter, protects it from urban grime and rain, and keeps your hands free: a meaningful quality-of-life improvement for practitioners who walk or transit to class. These five cover the range from open slings to fully enclosed bags, and from budget-conscious to investment-grade, with a focus on Pilates mats specifically, which tend to be longer and heavier than standard yoga mats.
             </p>
           </div>
@@ -162,8 +162,8 @@ export default function BestPilatesMatBagPage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" alt="Best Pilates mat bags and carriers for studio practitioners" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" alt="Best Pilates mat bags and carriers for studio practitioners" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -175,13 +175,13 @@ export default function BestPilatesMatBagPage() {
             <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Mat Bags · Ranked</p>
+              <p className="text-[12.5px] font-bold mb-10" style={{ color: "#0a0a0a" }}>5 Mat Bags · Ranked</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
                     <div className="flex items-center gap-3 mb-4">
-                      <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                      <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tag}</span>
+                      <span className="text-2xl r-hx" style={{ color: "#9a9490" }}>{p.rank}</span>
+                      <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{p.tag}</span>
                     </div>
                     <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                   </div>
@@ -190,23 +190,23 @@ export default function BestPilatesMatBagPage() {
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   { q: "Do I need a mat bag for Pilates?", a: "A mat bag is useful if you carry your own mat to studio classes or practice in multiple locations. Most reformer-only studios provide equipment including mats, so a mat bag is primarily relevant for mat Pilates practitioners. If you practice at home exclusively, a mat bag is unnecessary." },
                   { q: "What size mat bag do I need for a Pilates mat?", a: "Pilates mats are typically longer (72–84 inches) and can be thicker (4–6mm) than standard yoga mats. Check the mat dimensions before buying a bag: most bags specify maximum mat length and diameter. Open sling carriers are more accommodating of different mat sizes than enclosed bags with fixed openings." },
                   { q: "Is an open sling or enclosed bag better for a mat?", a: "Open slings are lighter, more compact, and accommodate a wider range of mat sizes and diameters. Enclosed bags provide better mat protection from rain, dust, and contact: preferable for commuters on public transit or practitioners who store mats in shared spaces. Choose based on your primary use case." },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Pilates Mats" excerpt="The best mats for Pilates: five options compared on thickness, grip, and durability." href="/blog/best-pilates-mat" category="Equipment" readTime="8 min read" date="May 2026" imageUrl="/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Bags" excerpt="The best studio carry-alls for your full Pilates kit." href="/blog/best-pilates-bag" category="Accessories" readTime="7 min read" date="May 2026" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />

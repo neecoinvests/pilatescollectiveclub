@@ -141,19 +141,19 @@ export default function BestFoamRollerPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Recovery & Props</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Equipment Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Recovery & Props</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best Foam Roller for Pilates<br /><span style={{ color: "#8b4a31" }}>(2026): 5 Verified Picks</span>
+            <h1 className="mb-6 r-d r-h1">
+              Best Foam Roller for Pilates<br /><span style={{ color: "#a98a5f" }}>(2026): 5 Verified Picks</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated October 2026 · 7 min read</p>
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Updated October 2026 · 7 min read</p>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               We checked five foam rollers against live Amazon listings and confirmed all five as real, currently-sold, in-stock products, from the premium TriggerPoint GRID 2.0 at $74.99 down to a budget-friendly Amazon Basics roller at $22.49. Below is our honest, ranked comparison, with exact prices and what each roller is (and isn&apos;t) best suited for.
             </p>
           </div>
@@ -161,8 +161,8 @@ export default function BestFoamRollerPage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg" alt="Best foam roller for Pilates: 5 verified picks" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg" alt="Best foam roller for Pilates: 5 verified picks" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -174,7 +174,7 @@ export default function BestFoamRollerPage() {
               <div className="r-qp-hd">
                 <p className="r-qp-title">Quick Picks, At a Glance</p>
               </div>
-              {PRODUCTS.map((p, i) => (
+              {PRODUCTS.map((p) => (
                 <div key={p.name} className="r-qp-row">
                   <span className="r-qp-no">{p.rank}</span>
                   <div className="r-qp-tx">
@@ -189,8 +189,8 @@ export default function BestFoamRollerPage() {
             <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-16 mt-4">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>How foam rollers are used in Pilates</h2>
-              <p className="text-sm leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">How foam rollers are used in Pilates</h2>
+              <p className="text-base leading-relaxed mb-6" style={{ color: "#3a3530" }}>
                 This is general guidance on what foam rollers are used for in Pilates practice: background knowledge to apply when you check the listing yourself.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -200,22 +200,22 @@ export default function BestFoamRollerPage() {
                   { heading: "Myofascial release", body: "Used on the thoracic paraspinals, hip flexors, ITB, and calves before or after practice to reduce tissue density and improve range of motion for subsequent exercises." },
                   { heading: "Density and firmness", body: "Standard or medium-high density suits most Pilates applications. Soft rollers compress too easily to provide meaningful pressure; extra-firm rollers can be too aggressive for spinal work. Check the current listing's density rating." },
                 ].map((item) => (
-                  <div key={item.heading} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.heading}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
+                  <div key={item.heading} className="rounded-2xl p-5" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-sm mb-1.5 r-hx" style={{ color: "#0a0a0a" }}>{item.heading}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.body}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Our Verified Picks</p>
+              <p className="text-[12.5px] font-bold mb-10" style={{ color: "#0a0a0a" }}>Our Verified Picks</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
                     <div className="flex items-center gap-3 mb-4">
-                      <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                      <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tag}</span>
+                      <span className="text-2xl r-hx" style={{ color: "#9a9490" }}>{p.rank}</span>
+                      <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{p.tag}</span>
                     </div>
                     <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                   </div>
@@ -234,9 +234,9 @@ export default function BestFoamRollerPage() {
               guideLabel="Compare all 5 massage guns for Pilates recovery"
             />
 
-            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The foundational foam roller sequence</h2>
-              <p className="text-sm leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>This 5-minute opening sequence is a common way to prepare the spine and nervous system at the start of a Pilates session, if your roller is long enough to support your full spine in one position:</p>
+            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#ede9e3" }}>
+              <h2 className="mb-4 r-d r-h2">The foundational foam roller sequence</h2>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>This 5-minute opening sequence is a common way to prepare the spine and nervous system at the start of a Pilates session, if your roller is long enough to support your full spine in one position:</p>
               <ul className="space-y-3">
                 {[
                   "Place the roller lengthwise under your spine: tailbone to back of head. Arms open wide in a T-shape. Breathe and allow the chest to open for 60–90 seconds.",
@@ -245,8 +245,8 @@ export default function BestFoamRollerPage() {
                   "Bring arms back to sides, bend knees, feet flat. Perform 10 gentle bridge presses: exhale to lift, inhale to lower.",
                   "Roll carefully off the roller and onto the mat. Notice the difference in thoracic mobility before proceeding with your session.",
                 ].map((tip, i) => (
-                  <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                    <span className="font-semibold" style={{ color: "#8b4a31" }}>{i + 1}.</span>
+                  <li key={i} className="flex gap-3 text-base" style={{ color: "#3a3530" }}>
+                    <span className="font-semibold" style={{ color: "#0a0a0a" }}>{i + 1}.</span>
                     {tip}
                   </li>
                 ))}
@@ -254,7 +254,7 @@ export default function BestFoamRollerPage() {
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   { q: "Which foam roller is best for Pilates?", a: "The TriggerPoint GRID 2.0 ($74.99) is our top pick for its textured, multi-density surface, but the Amazon Basics High-Density Foam Roller ($22.49) is a strong budget alternative at full 36-inch length." },
@@ -262,16 +262,16 @@ export default function BestFoamRollerPage() {
                   { q: "Do I need a long or short foam roller for Pilates?", a: "For Pilates specifically, a longer 36-inch roller is generally preferred so it can support the spine from coccyx to occiput in one position for the classic opening sequence. An 18-inch roller, like the TriggerPoint CORE on this list, is easier to travel with and works well for targeted myofascial work on specific areas, but is too short for the full-spine sequence." },
                   { q: "Can I use a foam roller if I have osteoporosis?", a: "Use caution. A full-round roller can place the thoracic spine in significant extension. Always consult with your Pilates instructor or physiotherapist before foam roller use if you have bone density concerns: this is general safety guidance, not specific to any one product." },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Pilates Essentials: The Complete List" excerpt="The best, budget and splurge pick in every category: clothing, props, recovery and a home reformer, all on one page." href="/blog/pilates-essentials" category="Equipment" readTime="14 min read" date="September 2026" />
                 <ArticleCard title="Reformer Pilates Essentials" excerpt="What to wear, bring and buy for reformer class, and when a home reformer starts paying for itself." href="/blog/reformer-pilates-essentials" category="Equipment" readTime="12 min read" date="September 2026" />

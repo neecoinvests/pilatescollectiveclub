@@ -114,41 +114,39 @@ export default function BlogEquipmentPage() {
       <main>
         {/* Article Header */}
         <section
-          className="pt-32 pb-16 px-6"
-          style={{ backgroundColor: "#fcf9f8" }}
+          className="r-ah r-ah-legacy"
         >
-          <div className="max-w-3xl mx-auto">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
               <span
-                className="text-xs font-semibold uppercase tracking-[0.2em]"
-                style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}
+                className="text-[12.5px] font-bold"
+                style={{ color: "#0a0a0a" }}
               >
                 Equipment Guide
               </span>
             </div>
 
             <h1
-              className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6"
-              style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}
+              className="mb-6 r-d r-h1"
             >
               Best Pilates Equipment
               <br />
-              <span style={{ color: "#8b4a31" }}>for Home Practice</span>
+              <span style={{ color: "#a98a5f" }}>for Home Practice</span>
             </h1>
 
             <p
-              className="text-sm mb-6"
-              style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}
+              className="text-base mb-6"
+              style={{ color: "#6f6964" }}
             >
               Updated May 2026 · 10 min read
             </p>
 
 
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
 
             <p
               className="text-lg leading-relaxed"
-              style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}
+              style={{ color: "#3a3530" }}
             >
               Building a home Pilates practice is one of the most valuable investments you can make
               in your long-term movement health. But the equipment market is cluttered with
@@ -162,7 +160,7 @@ export default function BlogEquipmentPage() {
         <section className="px-6 mb-16">
           <div className="max-w-5xl mx-auto">
             <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "380px" }}>
-              <Image src="/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg" alt="Pilates home practice equipment" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg" alt="Pilates home practice equipment" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -176,14 +174,13 @@ export default function BlogEquipmentPage() {
               <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
               <h2
-                className="text-3xl font-semibold mb-6"
-                style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}
+                className="mb-6 r-d r-h2"
               >
                 Best Pilates Mat
               </h2>
               <p
                 className="text-base leading-relaxed mb-4"
-                style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
+                style={{ color: "#3a3530" }}
               >
                 A Pilates mat is not a yoga mat. The primary difference is density and thickness:
                 Pilates work requires more cushioning because you spend significant time with your
@@ -193,7 +190,7 @@ export default function BlogEquipmentPage() {
               </p>
               <p
                 className="text-base leading-relaxed mb-8"
-                style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
+                style={{ color: "#3a3530" }}
               >
                 Non-slip texture is non-negotiable: you&apos;ll be pulling and pushing against the mat
                 with bare feet or grip socks throughout your session. Closed-cell foam is easier to
@@ -211,14 +208,13 @@ export default function BlogEquipmentPage() {
             {/* Section 2: Resistance Bands */}
             <section>
               <h2
-                className="text-3xl font-semibold mb-6"
-                style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}
+                className="mb-6 r-d r-h2"
               >
                 Best Resistance Bands
               </h2>
               <p
                 className="text-base leading-relaxed mb-4"
-                style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
+                style={{ color: "#3a3530" }}
               >
                 Resistance bands are the most versatile piece of equipment you can own for home
                 Pilates. They replicate many of the spring-based exercises from the reformer,
@@ -227,7 +223,7 @@ export default function BlogEquipmentPage() {
               </p>
               <p
                 className="text-base leading-relaxed mb-8"
-                style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
+                style={{ color: "#3a3530" }}
               >
                 Opt for fabric-covered bands over bare latex. They&apos;re more comfortable against
                 skin, don&apos;t snap as dramatically when they fail, and don&apos;t roll up the thighs
@@ -244,14 +240,13 @@ export default function BlogEquipmentPage() {
             {/* Section 3: Ring */}
             <section>
               <h2
-                className="text-3xl font-semibold mb-6"
-                style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}
+                className="mb-6 r-d r-h2"
               >
                 Best Pilates Ring (Magic Circle)
               </h2>
               <p
                 className="text-base leading-relaxed mb-4"
-                style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
+                style={{ color: "#3a3530" }}
               >
                 Joseph Pilates originally designed the magic circle using the ring from a beer
                 keg. The modern version is a flexible fiberglass or metal ring with padded handles,
@@ -261,7 +256,7 @@ export default function BlogEquipmentPage() {
               </p>
               <p
                 className="text-base leading-relaxed mb-8"
-                style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
+                style={{ color: "#3a3530" }}
               >
                 The key quality markers are the handle padding and the ring&apos;s flexibility. Too
                 rigid and you risk wrist strain; too soft and it won&apos;t provide useful resistance. A
@@ -278,14 +273,13 @@ export default function BlogEquipmentPage() {
             {/* Section 4: Ankle Weights */}
             <section>
               <h2
-                className="text-3xl font-semibold mb-6"
-                style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}
+                className="mb-6 r-d r-h2"
               >
                 Best Ankle Weights
               </h2>
               <p
                 className="text-base leading-relaxed mb-4"
-                style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
+                style={{ color: "#3a3530" }}
               >
                 Ankle weights add useful resistance to leg circle, side-lying, and standing leg
                 work. For beginners, start at 0.5kg per leg: this is more than enough to feel
@@ -295,7 +289,7 @@ export default function BlogEquipmentPage() {
               </p>
               <p
                 className="text-base leading-relaxed mb-8"
-                style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
+                style={{ color: "#3a3530" }}
               >
                 Adjustable ankle weights are ideal for home practice: they grow with you as your
                 strength develops, and you won&apos;t need to buy multiple pairs.
@@ -311,14 +305,13 @@ export default function BlogEquipmentPage() {
             {/* Section 5: Reformer Alternative */}
             <section>
               <h2
-                className="text-3xl font-semibold mb-6"
-                style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}
+                className="mb-6 r-d r-h2"
               >
                 Best Reformer Alternative
               </h2>
               <p
                 className="text-base leading-relaxed mb-4"
-                style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
+                style={{ color: "#3a3530" }}
               >
                 A full reformer is the gold standard for home Pilates, but it requires significant
                 space and investment (typically $1,800–$4,500 for a quality model). For most home
@@ -328,7 +321,7 @@ export default function BlogEquipmentPage() {
               </p>
               <p
                 className="text-base leading-relaxed mb-8"
-                style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
+                style={{ color: "#3a3530" }}
               >
                 These boards are generally under $220, fold flat for storage, and can be used
                 against any stable wall. They don&apos;t replicate the full reformer experience: the
@@ -346,20 +339,15 @@ export default function BlogEquipmentPage() {
             {/* Section 6: Beginners */}
             <section
               className="rounded-2xl p-8"
-              style={{
-                backgroundColor: "#f6f3f2",
-                border: "1px solid rgba(217, 194, 186, 0.35)",
-              }}
             >
               <h2
-                className="text-2xl font-semibold mb-4"
-                style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}
+                className="mb-4 r-d r-h2"
               >
                 What beginners actually need
               </h2>
               <p
                 className="text-base leading-relaxed mb-4"
-                style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
+                style={{ color: "#3a3530" }}
               >
                 If you&apos;re just starting your home practice, the answer is simple: a quality mat
                 and enough space to lie down. That&apos;s genuinely all you need to build a solid
@@ -369,7 +357,7 @@ export default function BlogEquipmentPage() {
               </p>
               <p
                 className="text-base leading-relaxed"
-                style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
+                style={{ color: "#3a3530" }}
               >
                 Add a resistance band once you&apos;ve established a consistent practice. Everything
                 else is supplementary. The best equipment is the equipment you&apos;ll actually use:
@@ -380,20 +368,19 @@ export default function BlogEquipmentPage() {
             {/* Comparison Table */}
             <section>
               <h2
-                className="text-3xl font-semibold mb-8"
-                style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}
+                className="mb-8 r-d r-h2"
               >
                 Equipment comparison
               </h2>
-              <div className="overflow-x-auto rounded-xl" style={{ border: "1px solid rgba(217, 194, 186, 0.4)" }}>
+              <div className="overflow-x-auto rounded-2xl" style={{ border: "1px solid #ddd6cc" }}>
                 <table className="w-full text-sm">
                   <thead>
-                    <tr style={{ backgroundColor: "#f6f3f2", borderBottom: "1px solid rgba(217, 194, 186, 0.4)" }}>
+                    <tr style={{ backgroundColor: "#ede9e3", borderBottom: "1px solid #ddd6cc" }}>
                       {["Item", "Beginner Need", "Budget Option", "Premium Option", "Our Pick"].map((h) => (
                         <th
                           key={h}
-                          className="text-left px-5 py-4 text-xs font-semibold uppercase tracking-wider"
-                          style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}
+                          className="text-left px-5 py-4 text-[12.5px] font-bold"
+                          style={{ color: "#0a0a0a" }}
                         >
                           {h}
                         </th>
@@ -440,24 +427,21 @@ export default function BlogEquipmentPage() {
                     ].map((row, i) => (
                       <tr
                         key={row.item}
-                        style={{
-                          backgroundColor: i % 2 === 0 ? "#ffffff" : "#faf8f7",
-                          borderBottom: "1px solid rgba(217, 194, 186, 0.2)",
-                        }}
+                        style={{ backgroundColor: i % 2 === 0 ? "#ffffff" : "#faf8f7", borderBottom: "1px solid #ddd6cc" }}
                       >
-                        <td className="px-5 py-4 font-semibold" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>
+                        <td className="px-5 py-4 font-semibold" style={{ color: "#0a0a0a" }}>
                           {row.item}
                         </td>
-                        <td className="px-5 py-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+                        <td className="px-5 py-4" style={{ color: "#3a3530" }}>
                           {row.need}
                         </td>
-                        <td className="px-5 py-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+                        <td className="px-5 py-4" style={{ color: "#3a3530" }}>
                           {row.budget}
                         </td>
-                        <td className="px-5 py-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+                        <td className="px-5 py-4" style={{ color: "#3a3530" }}>
                           {row.premium}
                         </td>
-                        <td className="px-5 py-4 font-medium" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>
+                        <td className="px-5 py-4 font-medium" style={{ color: "#0a0a0a" }}>
                           {row.pick}
                         </td>
                       </tr>
@@ -470,25 +454,23 @@ export default function BlogEquipmentPage() {
             {/* Final Recommendation */}
             <section
               className="rounded-2xl p-8 md:p-10"
-              style={{
-                background: "linear-gradient(135deg, #8b4a31 0%, #a86247 100%)",
-              }}
+              style={{ background: "linear-gradient(135deg, #0a0a0a 0%, #a86247 100%)" }}
             >
               <p
-                className="text-xs font-semibold uppercase tracking-[0.2em] mb-4 opacity-75"
-                style={{ color: "#ffffff", fontFamily: "'Montserrat', sans-serif" }}
+                className="text-[12.5px] font-bold mb-4 opacity-75"
+                style={{ color: "#ffffff" }}
               >
                 Our Recommendation
               </p>
               <h2
-                className="text-2xl font-semibold mb-4"
-                style={{ color: "#ffffff", fontFamily: "'Playfair Display', serif" }}
+                className="mb-4 r-d r-h2"
+                style={{ color: "#ffffff" }}
               >
                 Start with a mat and one resistance band.
               </h2>
               <p
                 className="text-base leading-relaxed mb-6 opacity-85"
-                style={{ color: "#ffffff", fontFamily: "'Montserrat', sans-serif" }}
+                style={{ color: "#ffffff" }}
               >
                 Build from there as your practice deepens. The classic mat repertoire is more than
                 enough to develop real strength and body awareness. Equipment amplifies a good
@@ -496,12 +478,7 @@ export default function BlogEquipmentPage() {
               </p>
               <a
                 href="/blog"
-                className="inline-block px-6 py-3 rounded-xl text-sm font-semibold transition-opacity hover:opacity-90"
-                style={{
-                  backgroundColor: "#ffffff",
-                  color: "#8b4a31",
-                  fontFamily: "'Montserrat', sans-serif",
-                }}
+                className="r-btn r-btn-sm r-btn-light"
               >
                 Explore all guides →
               </a>
@@ -511,8 +488,7 @@ export default function BlogEquipmentPage() {
             {/* Further reading */}
             <section>
               <h2
-                className="text-2xl font-semibold mb-8"
-                style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}
+                className="mb-8 r-d r-h2"
               >
                 Further reading
               </h2>

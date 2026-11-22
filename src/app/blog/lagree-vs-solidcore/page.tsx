@@ -240,20 +240,19 @@ const jsonLd = {
   ],
 };
 
-const eyebrowStyle = { color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" };
-const bodyStyle = { color: "#53433e", fontFamily: "'Montserrat', sans-serif" };
-const h2Style = { color: "#1b1c1c", fontFamily: "'Playfair Display', serif" };
-const inlineLinkStyle = { color: "#8b4a31", textDecoration: "underline" };
-const chipStyle = { backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" };
-const cardStyle = { backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" };
-const hubStyle = { backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.4)", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif", textDecoration: "none" };
-const shopStyle = { display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase" as const, color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap" as const, flexShrink: 0 };
+const eyebrowStyle = { color: "#0a0a0a" };
+const bodyStyle = { color: "#3a3530" };
+const h2Style = { color: "#0a0a0a" };
+const inlineLinkStyle = { color: "#0a0a0a", textDecoration: "underline" };
+const chipStyle = { backgroundColor: "#ede9e3", color: "#0a0a0a" };
+const cardStyle = { backgroundColor: "#ede9e3" };
+const hubStyle = { backgroundColor: "#ede9e3", color: "#0a0a0a", textDecoration: "none" };
 
 function TierCard({ p }: { p: Pick }) {
   return (
     <div id={p.id} className="scroll-mt-28">
       <div className="flex items-center gap-3 mb-4">
-        <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={chipStyle}>{p.badge}</span>
+        <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={chipStyle}>{p.badge}</span>
       </div>
       <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.url} />
     </div>
@@ -263,8 +262,8 @@ function TierCard({ p }: { p: Pick }) {
 function Divider({ label }: { label: string }) {
   return (
     <div className="flex items-center gap-4 mb-10">
-      <p className="text-xs font-semibold uppercase tracking-[0.2em] shrink-0" style={eyebrowStyle}>{label}</p>
-      <div className="flex-1 h-px" style={{ backgroundColor: "#d9c2ba" }} />
+      <p className="text-[12.5px] font-bold shrink-0" style={eyebrowStyle}>{label}</p>
+      <div className="flex-1 h-px" style={{ backgroundColor: "#ddd6cc" }} />
     </div>
   );
 }
@@ -283,23 +282,23 @@ export default function LagreeVsSolidcorePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={eyebrowStyle}>Comparison</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Lagree</span>
+              <span className="text-[12.5px] font-bold" style={eyebrowStyle}>Comparison</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Lagree</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Lagree vs Solidcore<br /><span style={{ color: "#8b4a31" }}>(2026): What Actually Differs</span>
+            <h1 className="mb-6 r-d r-h1">
+              Lagree vs Solidcore<br /><span style={{ color: "#a98a5f" }}>(2026): What Actually Differs</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 10 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 10 min read</p>
             <TopPick name={QUICK_PICKS[0].name} price={QUICK_PICKS[0].price} note={QUICK_PICKS[0].note} url={QUICK_PICKS[0].url} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed mb-6" style={{ color: "#3a3530" }}>
               From the doorway, a Lagree class and a Solidcore class look almost identical: a dim room, a row of long spring-loaded machines, people shaking through a lunge that seems to last forever. Underneath, they are two different businesses with two different machines and two different ideas about how a class should run. This guide explains the real differences, helps you pick the one that suits you, and lists the kit that works in both studios.
             </p>
-            <p className="text-sm leading-relaxed" style={bodyStyle}>
+            <p className="text-base leading-relaxed" style={bodyStyle}>
               Every product below was checked live on Amazon on October 3, 2026, at the price shown. Prices change, so the final price is whatever Amazon shows at checkout.
             </p>
           </div>
@@ -307,8 +306,8 @@ export default function LagreeVsSolidcorePage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/stitch-reformer-row-studio.png" alt="Rows of spring-loaded machines in a boutique studio: Lagree vs Solidcore" fill className="object-cover" style={{ filter: "brightness(0.85)" }} priority />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/stitch-reformer-row-studio.png" alt="Rows of spring-loaded machines in a boutique studio: Lagree vs Solidcore" fill className="object-cover" priority />
             </div>
           </div>
         </section>
@@ -329,32 +328,32 @@ export default function LagreeVsSolidcorePage() {
             </div>
 
             {/* Short answer */}
-            <div className="mb-16 rounded-2xl p-6 md:p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.5)" }}>
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={eyebrowStyle}>The short answer</p>
-              <p className="text-sm leading-relaxed mb-3" style={bodyStyle}>
-                <span className="font-semibold" style={{ color: "#1b1c1c" }}>Solidcore is not Lagree.</span> Both are slow, high-intensity, low-impact strength workouts on a spring-loaded machine with a moving carriage, so they feel similar. The differences are the machine, the business model and how classes are programmed.
+            <div className="mb-16 rounded-2xl p-6 md:p-8" style={{ backgroundColor: "#ede9e3" }}>
+              <p className="text-[12.5px] font-bold mb-3" style={eyebrowStyle}>The short answer</p>
+              <p className="text-base leading-relaxed mb-3" style={bodyStyle}>
+                <span className="font-semibold" style={{ color: "#0a0a0a" }}>Solidcore is not Lagree.</span> Both are slow, high-intensity, low-impact strength workouts on a spring-loaded machine with a moving carriage, so they feel similar. The differences are the machine, the business model and how classes are programmed.
               </p>
               <ul className="space-y-2">
-                <li className="text-sm leading-relaxed" style={bodyStyle}><span className="font-semibold" style={{ color: "#1b1c1c" }}>Pick Lagree</span> if you want variety from studio to studio, slightly shorter classes, and the option to train on the brand&apos;s own machine at home.</li>
-                <li className="text-sm leading-relaxed" style={bodyStyle}><span className="font-semibold" style={{ color: "#1b1c1c" }}>Pick Solidcore</span> if you want one predictable format wherever you book, and a 50-minute class.</li>
-                <li className="text-sm leading-relaxed" style={bodyStyle}><span className="font-semibold" style={{ color: "#1b1c1c" }}>Either way</span>, the same grip socks, fitted clothes and towel work in both rooms.</li>
+                <li className="text-base leading-relaxed" style={bodyStyle}><span className="font-semibold" style={{ color: "#0a0a0a" }}>Pick Lagree</span> if you want variety from studio to studio, slightly shorter classes, and the option to train on the brand&apos;s own machine at home.</li>
+                <li className="text-base leading-relaxed" style={bodyStyle}><span className="font-semibold" style={{ color: "#0a0a0a" }}>Pick Solidcore</span> if you want one predictable format wherever you book, and a 50-minute class.</li>
+                <li className="text-base leading-relaxed" style={bodyStyle}><span className="font-semibold" style={{ color: "#0a0a0a" }}>Either way</span>, the same grip socks, fitted clothes and towel work in both rooms.</li>
               </ul>
             </div>
 
             {/* Side by side */}
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-6" style={h2Style}>Lagree vs Solidcore, side by side</h2>
+              <h2 className="mb-6 r-d r-h2" style={h2Style}>Lagree vs Solidcore, side by side</h2>
               <div className="r-qp r-glance">
-                <div className="hidden sm:grid grid-cols-3 gap-4 px-6 py-4" style={{ backgroundColor: "#f6f3f2" }}>
+                <div className="hidden sm:grid grid-cols-3 gap-4 px-6 py-4" style={{ backgroundColor: "#ede9e3" }}>
                   <span className="r-qp-title">&nbsp;</span>
                   <span className="r-qp-title">Lagree</span>
                   <span className="r-qp-title">Solidcore</span>
                 </div>
                 {COMPARE.map((row, i) => (
-                  <div key={row.label} className="grid grid-cols-1 sm:grid-cols-3 gap-1 sm:gap-4 px-6 py-4" style={{ borderTop: i === 0 ? "none" : "1px solid rgba(217,194,186,0.25)", backgroundColor: "#ffffff" }}>
+                  <div key={row.label} className="grid grid-cols-1 sm:grid-cols-3 gap-1 sm:gap-4 px-6 py-4" style={{ borderTop: i === 0 ? "none" : "1px solid #ddd6cc", backgroundColor: "#ffffff" }}>
                     <p className="r-qp-name">{row.label}</p>
-                    <p className="text-sm" style={bodyStyle}><span className="r-qp-b sm:hidden">Lagree: </span>{row.lagree}</p>
-                    <p className="text-sm" style={bodyStyle}><span className="r-qp-b sm:hidden">Solidcore: </span>{row.solidcore}</p>
+                    <p className="text-base" style={bodyStyle}><span className="r-qp-b sm:hidden">Lagree: </span>{row.lagree}</p>
+                    <p className="text-base" style={bodyStyle}><span className="r-qp-b sm:hidden">Solidcore: </span>{row.solidcore}</p>
                   </div>
                 ))}
               </div>
@@ -362,8 +361,8 @@ export default function LagreeVsSolidcorePage() {
 
             {/* What they share */}
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-6" style={h2Style}>What Lagree and Solidcore have in common</h2>
-              <p className="text-sm leading-relaxed mb-6" style={bodyStyle}>
+              <h2 className="mb-6 r-d r-h2" style={h2Style}>What Lagree and Solidcore have in common</h2>
+              <p className="text-base leading-relaxed mb-6" style={bodyStyle}>
                 Both are built on the same training principle: keep a muscle under tension for a long time, slowly, until it fatigues. Neither has jumping. Both use a long machine with a sliding carriage, fixed platforms at the ends and springs you add or remove to change the load. And in both, the shaking you feel halfway through a set is the point, not a sign you are doing it wrong.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -374,8 +373,8 @@ export default function LagreeVsSolidcorePage() {
                   { heading: "Low impact, high effort", body: "Easier on joints than running or jump training, yet your heart rate climbs because large muscles work continuously." },
                 ].map((item) => (
                   <div key={item.heading} className="rounded-xl p-5" style={cardStyle}>
-                    <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.heading}</p>
-                    <p className="text-sm leading-relaxed" style={bodyStyle}>{item.body}</p>
+                    <p className="text-sm mb-1.5 r-hx" style={{ color: "#0a0a0a" }}>{item.heading}</p>
+                    <p className="text-base leading-relaxed" style={bodyStyle}>{item.body}</p>
                   </div>
                 ))}
               </div>
@@ -384,25 +383,25 @@ export default function LagreeVsSolidcorePage() {
             {/* Differences */}
             <Divider label="Where they differ" />
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-6" style={h2Style}>The four real differences</h2>
+              <h2 className="mb-6 r-d r-h2" style={h2Style}>The four real differences</h2>
 
-              <h3 className="text-xl font-semibold mb-3" style={h2Style}>1. The machine</h3>
-              <p className="text-sm leading-relaxed mb-6" style={bodyStyle}>
+              <h3 className="text-xl mb-3 r-hx" style={h2Style}>1. The machine</h3>
+              <p className="text-base leading-relaxed mb-6" style={bodyStyle}>
                 Lagree is taught on the Megaformer, the machine Sebastien Lagree designed and the company sells to studios. Lagree Fitness also sells a compact home machine, The Micro. Solidcore trains on its own machine, which the brand nicknames &ldquo;Sweatlana&rdquo;. Like the Megaformer, it has a sliding carriage, springs and straps for arm work. Regulars who have tried both mostly notice differences in feel and layout rather than in the basic idea.
               </p>
 
-              <h3 className="text-xl font-semibold mb-3" style={h2Style}>2. The business model</h3>
-              <p className="text-sm leading-relaxed mb-6" style={bodyStyle}>
+              <h3 className="text-xl mb-3 r-hx" style={h2Style}>2. The business model</h3>
+              <p className="text-base leading-relaxed mb-6" style={bodyStyle}>
                 This difference shapes your experience more than anything else. Lagree is a method that independent studios license. Each studio buys the machines, trains its instructors in the method and programs its own classes, so two Lagree studios in the same city can feel quite different. Solidcore is a single brand running one format, so a class in one city should feel familiar in another. Neither is better. Lagree rewards you for finding a studio whose style you love, while Solidcore rewards you with consistency.
               </p>
 
-              <h3 className="text-xl font-semibold mb-3" style={h2Style}>3. Class length and structure</h3>
-              <p className="text-sm leading-relaxed mb-6" style={bodyStyle}>
+              <h3 className="text-xl mb-3 r-hx" style={h2Style}>3. Class length and structure</h3>
+              <p className="text-base leading-relaxed mb-6" style={bodyStyle}>
                 Solidcore classes run 50 minutes. Lagree classes usually run about 45 minutes, though some studios offer 40- or 50-minute formats. Lagree is famous for its tempo: a common cue is about four counts to move the carriage out and four to bring it back, with no rest between exercises. Solidcore is also slow and controlled, and its classes are typically built around a few focus areas rather than trying to hit everything every time.
               </p>
 
-              <h3 className="text-xl font-semibold mb-3" style={h2Style}>4. Can you take it home?</h3>
-              <p className="text-sm leading-relaxed" style={bodyStyle}>
+              <h3 className="text-xl mb-3 r-hx" style={h2Style}>4. Can you take it home?</h3>
+              <p className="text-base leading-relaxed" style={bodyStyle}>
                 Only Lagree. Lagree Fitness sells The Micro ({MICRO.price}) and its accessories through its own Amazon store, so regulars can supplement studio classes with the genuine machine. Solidcore does not sell a home machine. If home training matters to you, that tips the scale toward Lagree. Our{" "}
                 <Link href="/blog/lagree-at-home" style={inlineLinkStyle}>Lagree at home guide</Link> covers how to structure sessions.
               </p>
@@ -410,7 +409,7 @@ export default function LagreeVsSolidcorePage() {
 
             {/* Who suits which */}
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-6" style={h2Style}>Which one should you book?</h2>
+              <h2 className="mb-6 r-d r-h2" style={h2Style}>Which one should you book?</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
                 {[
                   { heading: "Lagree suits you if…", body: "You like variety, want to find a studio with a style you love, prefer a class of about 45 minutes, or might want to train on the real machine at home one day." },
@@ -419,12 +418,12 @@ export default function LagreeVsSolidcorePage() {
                   { heading: "Coming from HIIT?", body: "You will miss the jumping for about one class. After that, most people are surprised how hard slow work feels." },
                 ].map((item) => (
                   <div key={item.heading} className="rounded-xl p-5" style={cardStyle}>
-                    <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.heading}</p>
-                    <p className="text-sm leading-relaxed" style={bodyStyle}>{item.body}</p>
+                    <p className="text-sm mb-1.5 r-hx" style={{ color: "#0a0a0a" }}>{item.heading}</p>
+                    <p className="text-base leading-relaxed" style={bodyStyle}>{item.body}</p>
                   </div>
                 ))}
               </div>
-              <p className="text-sm leading-relaxed" style={bodyStyle}>
+              <p className="text-base leading-relaxed" style={bodyStyle}>
                 Honest advice: try one class of each before you buy a pack. Both are priced like boutique classes, and many studios offer an intro offer for first-timers. For your first Lagree class, read{" "}
                 <Link href="/blog/lagree-for-beginners" style={inlineLinkStyle}>Lagree for beginners</Link> before you go.
               </p>
@@ -433,41 +432,18 @@ export default function LagreeVsSolidcorePage() {
             {/* Gear */}
             <Divider label="What to wear and bring" />
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-4" style={h2Style}>One kit for both studios</h2>
-              <p className="text-sm leading-relaxed mb-8" style={bodyStyle}>
+              <h2 className="mb-4 r-d r-h2" style={h2Style}>One kit for both studios</h2>
+              <p className="text-base leading-relaxed mb-8" style={bodyStyle}>
                 The good news: you do not need separate kit. Both workouts are slow, sweaty and done on a moving carriage, so they reward the same things: grip underfoot, clothes that stay put, and something to deal with sweat. Most studios of both brands require or strongly recommend grip socks, so check your studio&apos;s policy before class. None of these products are made by Lagree or Solidcore; they are simply what works.
               </p>
 
-              <div className="mb-10 r-qp r-glance">
-                <div className="r-qp-hd">
-                  <p className="r-qp-title">At a Glance: The Two-Studio Kit</p>
-                </div>
-                {PICKS.map((p, i) => (
-                  <div key={p.id} className="r-qp-row">
-                    <span className="r-qp-no">{String(i + 1).padStart(2, "0")}</span>
-                    <div className="r-qp-tx">
-                      <p className="r-qp-tag">
-                        <a className="r-qp-a" href={`#${p.id}`}>{p.shortName}</a>
-                      </p>
-                      <p className="r-qp-name">{p.name}</p>
-                      <p className="r-qp-sub md:hidden">{p.price}</p>
-                    </div>
-                    <span className="r-qp-price hidden md:block">{p.price}</span>
-                    <a href={p.url} target="_blank" rel="noopener noreferrer sponsored nofollow" style={shopStyle}>Shop →</a>
-                  </div>
-                ))}
-                <div className="r-qp-row r-qp-total">
-                  <span>The full kit (all six)</span>
-                  <span>{fmt(KIT_TOTAL)}</span>
-                </div>
-              </div>
 
               <div className="space-y-8">
                 {PICKS.map((p) => (
                   <TierCard key={p.id} p={p} />
                 ))}
               </div>
-              <p className="text-sm leading-relaxed mt-2" style={bodyStyle}>
+              <p className="text-base leading-relaxed mt-2" style={bodyStyle}>
                 Want more options in each category? See{" "}
                 <Link href="/blog/best-lagree-grip-socks" style={inlineLinkStyle}>Lagree socks</Link>,{" "}
                 <Link href="/blog/best-lagree-shorts" style={inlineLinkStyle}>Lagree shorts</Link>,{" "}
@@ -480,12 +456,12 @@ export default function LagreeVsSolidcorePage() {
             {/* Home */}
             <Divider label="If Lagree wins" />
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-4" style={h2Style}>Training between classes at home</h2>
-              <p className="text-sm leading-relaxed mb-8" style={bodyStyle}>
+              <h2 className="mb-4 r-d r-h2" style={h2Style}>Training between classes at home</h2>
+              <p className="text-base leading-relaxed mb-8" style={bodyStyle}>
                 If you become a regular, home training cuts the cost per workout. This is where the two brands differ most for shoppers, because only Lagree sells its machine to individuals.
               </p>
               <TierCard p={MICRO} />
-              <p className="text-sm leading-relaxed mt-2" style={bodyStyle}>
+              <p className="text-base leading-relaxed mt-2" style={bodyStyle}>
                 Add-ons, the full setup cost and how it compares with a class pack are all in our{" "}
                 <Link href="/blog/lagree-fitness" style={inlineLinkStyle}>Lagree Fitness brand guide</Link>.
               </p>
@@ -493,12 +469,12 @@ export default function LagreeVsSolidcorePage() {
 
             {/* FAQ */}
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={h2Style}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2" style={h2Style}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {FAQS.map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={cardStyle}>
-                    <h3 className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</h3>
-                    <p className="text-sm leading-relaxed" style={bodyStyle}>{item.a}</p>
+                    <h3 className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</h3>
+                    <p className="text-base leading-relaxed" style={bodyStyle}>{item.a}</p>
                   </div>
                 ))}
               </div>
@@ -506,7 +482,7 @@ export default function LagreeVsSolidcorePage() {
 
             {/* Further reading */}
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={h2Style}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2" style={h2Style}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Lagree Fitness Brand Guide" excerpt="The Micro, the Megaformer and what a full home setup really costs." href="/blog/lagree-fitness" category="Lagree" readTime="12 min read" date="September 2026" imageUrl="/pictures/stitch-reformers-aerial-row.png" />
                 <ArticleCard title="Lagree vs Pilates" excerpt="What separates the two methods, and which suits your goals and body." href="/blog/lagree-vs-pilates" category="Comparison" readTime="10 min read" date="June 2026" imageUrl="/pictures/stitch-reformer-row-studio.png" />

@@ -136,20 +136,20 @@ export default function BestPilatesChairPage() {
       <Header />
       <main>
         {/* Hero section */}
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Pilates Chair</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Equipment Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Pilates Chair</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best Pilates Wunda Chair (2026):<br /><span style={{ color: "#8b4a31" }}>A Guide to the Original Apparatus</span>
+            <h1 className="mb-6 r-d r-h1">
+              Best Pilates Wunda Chair (2026):<br /><span style={{ color: "#a98a5f" }}>A Guide to the Original Apparatus</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 10 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 10 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               The Wunda Chair is one of Joseph Pilates&apos; original apparatus: a deceptively compact piece of equipment that demands more core strength, balance, and body awareness than almost anything else in the classical system. It is among the most underused and least understood pieces of full Pilates apparatus. The classic two-pedal Wunda Chair design is sold on Amazon, from budget-tier brands; Balanced Body’s own single-pedal EXO Pilates Chair remains the professional-grade Amazon listing, and Merrithew and Gratz remain dealer-direct only.
             </p>
           </div>
@@ -158,13 +158,12 @@ export default function BestPilatesChairPage() {
         {/* Hero image */}
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
+            <div className="pcc-city-hero-image relative r-ah-img">
               <Image
                 src="/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg"
                 alt="Pilates Wunda Chair: original classical apparatus guide"
                 fill
                 className="object-cover"
-                style={{ filter: "brightness(0.85)" }}
               />
             </div>
           </div>
@@ -178,14 +177,14 @@ export default function BestPilatesChairPage() {
 
             {/* What is the Wunda Chair */}
             <div className="mb-16 mt-4">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What is the Pilates Wunda Chair?</h2>
-              <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">What is the Pilates Wunda Chair?</h2>
+              <p className="text-base leading-relaxed mb-6" style={{ color: "#3a3530" }}>
                 The Wunda Chair, the name translates loosely as &quot;wonder chair&quot; from German, was designed by Joseph Pilates as one of five or six core apparatus in the classical system, alongside the Reformer, Cadillac, mat, and barrels. It is not an accessory or modern addition to Pilates; it has been central to the complete Pilates method since the early 20th century, built originally for Pilates&apos; 8th Avenue studio in New York.
               </p>
-              <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed mb-6" style={{ color: "#3a3530" }}>
                 Structurally, the Chair is a wooden box with one or two spring-loaded pedal(s) that depress and return. Exercises are performed sitting, standing, lying on, and kneeling on the chair: sometimes at the same time as operating the pedal with hands or feet. The standing exercises on the Chair are particularly demanding: pushing down on a spring-loaded pedal with one foot while balancing on the other requires exceptional hip flexor control and full-body coordination. Many of the Chair exercises cannot be replicated on the Reformer or mat.
               </p>
-              <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>
                 This is not a beginner apparatus. The Wunda Chair is typically introduced after a practitioner has a solid Reformer and mat foundation, usually after at least a year of consistent practice. Working with an instructor before attempting solo Chair work is not optional; it is genuinely necessary. That said, for intermediate and advanced practitioners, adding a Chair to a home studio or working with it regularly at a studio is transformative.
               </p>
             </div>
@@ -193,7 +192,7 @@ export default function BestPilatesChairPage() {
             {/* Buying criteria */}
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What to look for when buying a Wunda Chair</h2>
+              <h2 className="mb-6 r-d r-h2">What to look for when buying a Wunda Chair</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[
                   {
@@ -213,37 +212,15 @@ export default function BestPilatesChairPage() {
                     body: "All Wunda Chairs have a similar compact footprint, approximately 60cm × 50cm base, which is the Chair's great advantage over a Reformer. Most do not fold flat. Factor this into storage planning. The Chair is narrow enough to fit in a corner of a home studio, but it cannot be stored under a bed.",
                   },
                 ].map((item) => (
-                  <div key={item.heading} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.heading}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
+                  <div key={item.heading} className="rounded-2xl p-5" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-sm mb-1.5 r-hx" style={{ color: "#0a0a0a" }}>{item.heading}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.body}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             {/* Quick picks table */}
-            <div className="mb-10 r-qp r-glance">
-              <div className="r-qp-hd">
-                <p className="r-qp-title">6 Pilates Chair Options · Expert-Reviewed</p>
-              </div>
-              {PRODUCTS.map((p, i) => (
-                <div key={p.name} className="r-qp-row">
-                  <span className="r-qp-no">{p.rank}</span>
-                  <div className="r-qp-tx">
-                    <p className="r-qp-name">{p.name}</p>
-                    <p className="r-qp-sub">{p.verdict}</p>
-                  </div>
-                  <span className="r-qp-price hidden md:block">{p.price}</span>
-                  <a className="r-btn r-btn-sm shrink-0"
-                    href={p.affiliateUrl}
-                    target="_blank"
-                    rel={/amazon\./i.test(p.affiliateUrl) ? "noopener noreferrer nofollow sponsored" : "noopener noreferrer nofollow"}
-                  >
-                    Buy →
-                  </a>
-                </div>
-              ))}
-            </div>
 
             {/* Product cards */}
             <div className="mb-16">
@@ -251,8 +228,8 @@ export default function BestPilatesChairPage() {
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
                     <div className="flex items-center gap-3 mb-4">
-                      <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                      <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tag}</span>
+                      <span className="text-2xl r-hx" style={{ color: "#9a9490" }}>{p.rank}</span>
+                      <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{p.tag}</span>
                     </div>
                     <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                   </div>
@@ -261,9 +238,9 @@ export default function BestPilatesChairPage() {
             </div>
 
             {/* Chair repertoire */}
-            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The Chair repertoire: what you&apos;ll actually do</h2>
-              <p className="text-sm leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#ede9e3" }}>
+              <h2 className="mb-4 r-d r-h2">The Chair repertoire: what you&apos;ll actually do</h2>
+              <p className="text-base leading-relaxed mb-6" style={{ color: "#3a3530" }}>
                 The Chair exercises are among the most demanding in the classical system. Here are five signature exercises that define what Chair work develops:
               </p>
               <ul className="space-y-4">
@@ -274,8 +251,8 @@ export default function BestPilatesChairPage() {
                   { name: "Single Leg Press", desc: "Standing on the chair, one foot on the pedal, pressing down through the pedal while maintaining single-leg balance on the chair top. One of the most demanding balance exercises in the Pilates system." },
                   { name: "Mountain Climb", desc: "Hands on the pedal, feet on the floor behind, in a plank-like position: pressing and releasing the pedal challenges shoulder girdle stability and deep core engagement simultaneously." },
                 ].map((exercise, i) => (
-                  <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                    <span className="font-semibold shrink-0" style={{ color: "#8b4a31" }}>{exercise.name}.</span>
+                  <li key={i} className="flex gap-3 text-base" style={{ color: "#3a3530" }}>
+                    <span className="font-semibold shrink-0" style={{ color: "#0a0a0a" }}>{exercise.name}.</span>
                     {exercise.desc}
                   </li>
                 ))}
@@ -284,7 +261,7 @@ export default function BestPilatesChairPage() {
 
             {/* FAQ */}
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   {
@@ -304,9 +281,9 @@ export default function BestPilatesChairPage() {
                     a: "Yes, from budget-tier brands: the VEVOR Split-Pedal Pilates Combo Chair ($319.90) is a real, live Amazon listing with the classic two-pedal design. Balanced Body's own chair sold on Amazon, the EXO Pilates Chair ($1,255), is single-pedal. Gratz's classical Wunda Chair and Merrithew's split-pedal chair remain dealer-direct only.",
                   },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
@@ -314,7 +291,7 @@ export default function BestPilatesChairPage() {
 
             {/* Further reading */}
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard
                   title="Balanced Body for Pilates (2026)"

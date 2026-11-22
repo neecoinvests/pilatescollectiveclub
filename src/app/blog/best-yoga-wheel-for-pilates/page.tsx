@@ -142,20 +142,20 @@ export default function BestYogaWheelForPilatesPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Accessories</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Equipment Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Accessories</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best Yoga Wheel<br /><span style={{ color: "#8b4a31" }}>for Pilates (2026)</span>
+            <h1 className="mb-6 r-d r-h1">
+              Best Yoga Wheel<br /><span style={{ color: "#a98a5f" }}>for Pilates (2026)</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 8 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 8 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               Thoracic extension is the range almost every Pilates practitioner is short of, and it is the range that a desk removes fastest. A foam roller helps, but its flat profile only ever contacts one segment at a time. A wheel&apos;s continuous curve supports the whole thoracic arch at once, which is why it opens the upper back more effectively than anything else at this price. Diameter and weight rating are the only two specifications that really matter: these five cover both.
             </p>
           </div>
@@ -163,8 +163,8 @@ export default function BestYogaWheelForPilatesPage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg" alt="Best yoga wheel for Pilates: thoracic extension and spinal mobility work" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg" alt="Best yoga wheel for Pilates: thoracic extension and spinal mobility work" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -175,13 +175,13 @@ export default function BestYogaWheelForPilatesPage() {
             <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Wheels · Ranked</p>
+              <p className="text-[12.5px] font-bold mb-10" style={{ color: "#0a0a0a" }}>5 Wheels · Ranked</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
                     <div className="flex items-center gap-3 mb-4">
-                      <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                      <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tag}</span>
+                      <span className="text-2xl r-hx" style={{ color: "#9a9490" }}>{p.rank}</span>
+                      <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{p.tag}</span>
                     </div>
                     <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                   </div>
@@ -189,8 +189,8 @@ export default function BestYogaWheelForPilatesPage() {
               </div>
             </div>
 
-            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#fff4f1", border: "1px solid rgba(139,74,49,0.15)" }}>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Using a wheel safely</h2>
+            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#fff4f1", border: "1px solid #ddd6cc" }}>
+              <h2 className="mb-4 r-d r-h2">Using a wheel safely</h2>
               <ul className="space-y-3">
                 {[
                   "Keep the wheel under the thoracic spine, between the shoulder blades and the bottom of the ribs. It does not belong under the lower back.",
@@ -200,8 +200,8 @@ export default function BestYogaWheelForPilatesPage() {
                   "Stop if extension produces symptoms traveling down a leg: that is a signal to get assessed, not to push further.",
                   "Two to three minutes per position is enough. Longer holds tend to leave the surrounding muscles irritated rather than looser.",
                 ].map((tip, i) => (
-                  <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                    <span className="font-semibold" style={{ color: "#8b4a31" }}>⚠</span>
+                  <li key={i} className="flex gap-3 text-base" style={{ color: "#3a3530" }}>
+                    <span className="font-semibold" style={{ color: "#0a0a0a" }}>⚠</span>
                     {tip}
                   </li>
                 ))}
@@ -209,7 +209,7 @@ export default function BestYogaWheelForPilatesPage() {
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   { q: "Is a yoga wheel better than a foam roller for Pilates?", a: "They do different jobs and most home practices end up with both. A wheel's continuous curve supports the spine through a full extension arc, which makes it the better tool for opening the thoracic spine: the specific restriction behind most desk-related stiffness. A foam roller is flat along its length, so it works better for rolling along muscle to release soft tissue, and lying lengthwise on one gives a gravity-assisted chest opening a wheel cannot replicate. Buy the wheel for mobility, the roller for release." },
@@ -217,16 +217,16 @@ export default function BestYogaWheelForPilatesPage() {
                   { q: "Is a yoga wheel safe if you have back pain?", a: "It depends entirely on the cause, and this is a case where the wrong choice makes things noticeably worse. For stiffness-driven upper back pain, gentle thoracic extension over a wheel is often exactly what helps. For sciatica caused by a disc, extension can be beneficial, but for lumbar spinal stenosis it typically aggravates symptoms, and anyone with osteoporosis should avoid loaded spinal extension over a hard curve entirely. Keep the wheel under the thoracic spine, never the lower back, and get an assessment first if the pain radiates into a leg." },
                   { q: "How long should you use a yoga wheel for?", a: "Two to three minutes per position is plenty, and more is not better. Thoracic extension work is about restoring available range rather than accumulating time, and holding a strong extension for long periods can leave the surrounding muscles irritated. A practical routine is to spend two minutes draped over the wheel at each of three or four positions up the thoracic spine, breathing into the ribs, then move on. Daily short sessions produce far more change than an occasional long one." },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Pilates Foam Roller (2026)" excerpt="Density, length and texture compared for thoracic mobility and myofascial release." href="/blog/best-pilates-foam-roller" category="Equipment" readTime="8 min read" date="June 2026" imageUrl="/pictures/stitch-mat-setup-beige.png" />
                 <ArticleCard title="Pilates for Office Workers" excerpt="A desk-worker's routine for thoracic stiffness, hip flexor tightness and postural fatigue." href="/blog/pilates-for-office-workers" category="Health" readTime="10 min read" date="June 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />

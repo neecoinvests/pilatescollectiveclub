@@ -2286,16 +2286,16 @@ export default async function BlogPage({ searchParams }: { searchParams: Promise
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(blogJsonLd) }} />
       <Header />
-      <main className="pt-20" style={{ backgroundColor: "#fcf9f8", minHeight: "100vh" }}>
+      <main className="pt-20" style={{ backgroundColor: "#f7f4f0", minHeight: "100vh" }}>
 
         {/* Hero */}
         <section className="px-6 pt-16 pb-12">
           <div className="max-w-5xl mx-auto">
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-4" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Journal</p>
-            <h1 className="text-5xl md:text-6xl font-semibold leading-tight mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
+            <p className="text-[12.5px] font-bold mb-4" style={{ color: "#0a0a0a" }}>Journal</p>
+            <h1 className="mb-4 r-d r-h1">
               Pilates Blog
             </h1>
-            <p className="text-lg max-w-xl" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <p className="text-lg max-w-xl" style={{ color: "#3a3530" }}>
               Equipment reviews, studio guides, and method explainers for every stage of your Pilates practice.
             </p>
           </div>

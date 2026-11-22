@@ -139,20 +139,20 @@ export default function CommercialVsHomePilatesReformerPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Comparison</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Reformers</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Comparison</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Reformers</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Commercial vs Home<br /><span style={{ color: "#8b4a31" }}>Pilates Reformer</span>
+            <h1 className="mb-6 r-d r-h1">
+              Commercial vs Home<br /><span style={{ color: "#a98a5f" }}>Pilates Reformer</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 11 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 11 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               Commercial and home reformers look similar in photographs and they are not the same product. The differences that matter are not the ones the marketing leads with: the frame and the spring set are real, but the decisive ones are the warranty wording and whether the machine is designed to be repaired. Here is what separates the tiers, item by item, and the three situations where paying for commercial grade is the wrong call.
             </p>
           </div>
@@ -161,7 +161,7 @@ export default function CommercialVsHomePilatesReformerPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/stitch-reformer-spring-detail.png" alt="Close detail of the spring assembly and frame of a Pilates reformer" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/stitch-reformer-spring-detail.png" alt="Close detail of the spring assembly and frame of a Pilates reformer" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -172,27 +172,27 @@ export default function CommercialVsHomePilatesReformerPage() {
             <QuickPicks className="mb-6 mt-4" picks={PRODUCTS.map((pr, i) => ({ name: pr.name, price: pr.price, url: pr.affiliateUrl, note: QP_NOTES[i] }))} />
             <AffiliateNote />
 
-            <div className="mb-14 mt-4 rounded-2xl p-7" style={{ backgroundColor: "#fff4f1", border: "1px solid rgba(139,74,49,0.15)" }}>
-              <p className="text-xs font-semibold uppercase tracking-[0.15em] mb-3" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>The short version</p>
-              <p className="text-base leading-relaxed mb-0" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+            <div className="mb-14 mt-4 rounded-2xl p-7" style={{ backgroundColor: "#fff4f1", border: "1px solid #ddd6cc" }}>
+              <p className="text-[12.5px] font-bold mb-3" style={{ color: "#0a0a0a" }}>The short version</p>
+              <p className="text-base leading-relaxed mb-0" style={{ color: "#3a3530" }}>
                 Teaching for money: buy commercial, because a domestic warranty almost certainly excludes commercial use and you lose cover on day one. Practicing at home and taking studio classes regularly: commercial grade is a real upgrade, but for carriage travel and spring range rather than durability. Practicing at home a couple of times a week: a good home reformer is the correct machine and the commercial premium buys you nothing you will use.
               </p>
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The comparison, factor by factor</h2>
+              <h2 className="mb-6 r-d r-h2">The comparison, factor by factor</h2>
               <div className="space-y-4">
                 {COMPARISON.map((row) => (
-                  <div key={row.factor} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{row.factor}</p>
+                  <div key={row.factor} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-4 r-hx" style={{ color: "#0a0a0a" }}>{row.factor}</p>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                       <div style={{ minWidth: 0 }}>
-                        <p className="text-xs font-semibold uppercase tracking-[0.12em] mb-2" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Home grade</p>
-                        <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{row.home}</p>
+                        <p className="text-[12.5px] font-bold mb-2" style={{ color: "#6f6964" }}>Home grade</p>
+                        <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{row.home}</p>
                       </div>
                       <div style={{ minWidth: 0 }}>
-                        <p className="text-xs font-semibold uppercase tracking-[0.12em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Commercial grade</p>
-                        <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{row.commercial}</p>
+                        <p className="text-[12.5px] font-bold mb-2" style={{ color: "#0a0a0a" }}>Commercial grade</p>
+                        <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{row.commercial}</p>
                       </div>
                     </div>
                   </div>
@@ -201,51 +201,51 @@ export default function CommercialVsHomePilatesReformerPage() {
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The warranty clause is the whole argument</h2>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">The warranty clause is the whole argument</h2>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 Everything above is a matter of degree except this. Manufacturer warranties on home apparatus commonly limit cover to domestic, non-commercial use, and that exclusion is not triggered by wear or by time. It is triggered the first time you take money for a session on the machine.
               </p>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 The consequence is worse than losing a warranty you might never have claimed on, because the exclusion lands exactly where the risk concentrates. A machine on a studio timetable does perhaps twenty times the work of the same machine in a spare bedroom. You are removing cover at the precise moment the duty cycle makes a failure likely, and a reformer frame or spring failure with a client on the carriage is not a maintenance issue.
               </p>
-              <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>
                 So before comparing anything else, read the warranty on the specific model, not the brand, and find the words that define permitted use. If you intend to teach even a handful of paid sessions, that clause decides the purchase on its own. Our{" "}
-                <Link href="/blog/pilates-studio-equipment-cost-breakdown" style={{ color: "#8b4a31", textDecoration: "underline" }}>studio equipment cost breakdown</Link>{" "}
+                <Link href="/blog/pilates-studio-equipment-cost-breakdown" style={{ color: "#0a0a0a", textDecoration: "underline" }}>studio equipment cost breakdown</Link>{" "}
                 prices out what the commercial tier actually adds to a fit-out, and it is smaller than most people expect.
               </p>
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Where the price gap really sits</h2>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">Where the price gap really sits</h2>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 The tiers are not separated by a cliff. Entry commercial-rated machines overlap with premium home reformers, and the step up at that crossover point is genuinely small. Align Pilates sits in that overlap, with commercial-rated frames from around $1,400, which is why it appears both in studio fit-outs and in serious home setups.
               </p>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 Above that, the studio standard from the established brands runs from roughly $2,750 for an Align Pilates C8-PRO to around $4,700 for a Balanced Body Studio Reformer, and classical wood and aluminum apparatus from Gratz reaches $5,000 and beyond. The premium at the top is buying refinement, lineage and resale value rather than a step change in durability, which is worth knowing before assuming that more money means a more robust machine.
               </p>
-              <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>
                 Set against a working life measured in a decade or more, the annual cost of commercial apparatus is lower than the sticker suggests, and lower than replacing home machines that were never rated for the work. That arithmetic is the honest case for the tier, and it only applies if the machine is actually being used hard.
               </p>
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Three cases where home grade is the right answer</h2>
+              <h2 className="mb-6 r-d r-h2">Three cases where home grade is the right answer</h2>
               <div className="space-y-4">
                 {[
                   { label: "You practice two or three times a week for general fitness", body: "A good home reformer is specified for exactly this and will do it for years. The commercial premium buys duty cycle you will never consume and a warranty clause that is irrelevant to you. Spend the difference on props, a jumpboard and some instruction instead, all of which will change your practice more than the frame will." },
                   { label: "Space or storage is the binding constraint", body: "Folding and compact reformers are overwhelmingly home-grade, and that is not a compromise you can buy your way out of. A commercial machine is longer, heavier and not designed to be moved. If the machine has to live under a bed or against a wall between sessions, the home tier is not a downgrade, it is the only category that solves your problem. Check the figures in our reformer dimensions guide before assuming a full-size frame fits." },
                   { label: "You are testing whether you will keep it up", body: "Buying at the entry end first is a reasonable way to find out whether a reformer earns its floor space in your life. Reformers hold their value comparatively well, so the cost of discovering you want a better one is mostly the depreciation and the hassle of selling. That is a cheaper way to learn than committing five figures up front." },
                 ].map((item) => (
-                  <div key={item.label} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.label}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
+                  <div key={item.label} className="rounded-2xl p-5" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-sm mb-1.5 r-hx" style={{ color: "#0a0a0a" }}>{item.label}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.body}</p>
                   </div>
                 ))}
               </div>
             </div>
 
-            <div className="mb-14 rounded-2xl p-8" style={{ backgroundColor: "#fff4f1", border: "1px solid rgba(139,74,49,0.15)" }}>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Ask the seller these before ordering</h2>
+            <div className="mb-14 rounded-2xl p-8" style={{ backgroundColor: "#fff4f1", border: "1px solid #ddd6cc" }}>
+              <h2 className="mb-4 r-d r-h2">Ask the seller these before ordering</h2>
               <ul className="space-y-3">
                 {[
                   "Does the warranty on this specific model cover commercial use, and what are the separate terms for the frame and for wear parts?",
@@ -256,8 +256,8 @@ export default function CommercialVsHomePilatesReformerPage() {
                   "Is assembly and calibration included, and who does it?",
                   "What is the response time on a warranty claim, and does anyone come out to the machine?",
                 ].map((tip, i) => (
-                  <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                    <span className="font-semibold" style={{ color: "#8b4a31" }}>⚠</span>
+                  <li key={i} className="flex gap-3 text-base" style={{ color: "#3a3530" }}>
+                    <span className="font-semibold" style={{ color: "#0a0a0a" }}>⚠</span>
                     {tip}
                   </li>
                 ))}
@@ -265,7 +265,7 @@ export default function CommercialVsHomePilatesReformerPage() {
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   { q: "What is the difference between a commercial and a home Pilates reformer?", a: "Four things, in order of how much they matter. The frame is built to a higher standard, usually heavier-gauge aluminum or hardwood with fully welded or mortised joints rather than bolted sections. The stated user weight rating is higher. The warranty explicitly covers commercial use, where a domestic warranty typically excludes it. And the machine is designed to be serviced, so springs, ropes, wheels and upholstery are replaceable parts with a supply chain behind them. The carriage glide and footbar adjustment tend to be better too, but those are refinements. The warranty and the serviceability are the substance." },
@@ -273,9 +273,9 @@ export default function CommercialVsHomePilatesReformerPage() {
                   { q: "Is a commercial reformer worth it for home use?", a: "For many serious home practitioners, yes, and the reason is not durability. A commercial machine gives you the same carriage travel, footbar geometry and spring range you feel in a studio, so the repertoire you learn in class transfers directly to your own machine. A shorter home frame changes how several exercises feel. If you take class regularly and want your practice at home to match it, the commercial tier is a genuine upgrade rather than overbuilding. If you use a reformer a couple of times a week for general fitness, it is money that would be better spent elsewhere." },
                   { q: "How much more does a commercial reformer cost?", a: "Entry commercial-rated machines start around $1,400 to $1,800, which overlaps with the upper end of home reformers, so the step up at that point is small. The larger gap is at the top: studio-standard machines from the established brands generally run $2,200 to $4,500, and classical wood or aluminum apparatus reaches $5,000 and beyond. Compared like for like on the same footprint and spring system, the commercial version of a machine typically costs a few hundred to a couple of thousand more, and lasts long enough in studio use that the per-year cost is lower." },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
@@ -283,10 +283,10 @@ export default function CommercialVsHomePilatesReformerPage() {
 
             {/* Reformers */}
 
-            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Reformers</p>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Machines at each tier</h2>
-              <p className="text-base leading-relaxed mb-8" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid #ddd6cc" }}>
+              <p className="text-[12.5px] font-bold mb-2" style={{ color: "#0a0a0a" }}>Reformers</p>
+              <h2 className="mb-4 r-d r-h2">Machines at each tier</h2>
+              <p className="text-base leading-relaxed mb-8" style={{ color: "#3a3530" }}>
                 Commercial-rated machines first, then the home-grade option, so you can see what the tier actually costs. Check the warranty covers your intended use before ordering, and confirm the machine fits the room and the route into it.
               </p>
               <div className="space-y-8">
@@ -297,10 +297,10 @@ export default function CommercialVsHomePilatesReformerPage() {
             </div>
 
             {/* Equipment */}
-            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Parts and care, whichever tier you own</h2>
-              <p className="text-base leading-relaxed mb-8" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid #ddd6cc" }}>
+              <p className="text-[12.5px] font-bold mb-2" style={{ color: "#0a0a0a" }}>Equipment</p>
+              <h2 className="mb-4 r-d r-h2">Parts and care, whichever tier you own</h2>
+              <p className="text-base leading-relaxed mb-8" style={{ color: "#3a3530" }}>
                 The wear parts and care items below are what keep either tier of machine feeling like it did when it arrived, and they are the same products whoever sells them. Check compatibility with your exact model before ordering any part.
               </p>
               <div className="space-y-8">
@@ -311,7 +311,7 @@ export default function CommercialVsHomePilatesReformerPage() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Reformer Dimensions & Space Requirements" excerpt="Footprints by model, ceiling height, clearance and what actually fits in a spare room." href="/blog/pilates-reformer-dimensions-and-space-requirements" category="Equipment" readTime="11 min read" date="September 2026" imageUrl="/pictures/stitch-reformer-sunlit-minimal.png" />
                 <ArticleCard title="Best Studio Pilates Reformers" excerpt="Commercial-grade machines reviewed on durability, spring range and long-term value." href="/blog/best-studio-pilates-reformers" category="Equipment" readTime="12 min read" date="June 2026" imageUrl="/pictures/stitch-reformer-row-studio.png" />

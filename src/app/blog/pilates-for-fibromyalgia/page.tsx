@@ -129,33 +129,33 @@ export default function PilatesForFibromyalgiaPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Health</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Chronic Pain</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Health</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Chronic Pain</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Pilates for Fibromyalgia:<br /><span style={{ color: "#8b4a31" }}>Benefits, Gentle Exercises & Tips</span>
+            <h1 className="mb-6 r-d r-h1">
+              Pilates for Fibromyalgia:<br /><span style={{ color: "#a98a5f" }}>Benefits, Gentle Exercises & Tips</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 9 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 9 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed mb-6" style={{ color: "#3a3530" }}>
               Fibromyalgia presents a genuine paradox for exercise: inactivity worsens symptoms, but exertion can trigger flares. Pilates, with its emphasis on slow, controlled movement, breathwork, and precise muscle engagement, sits in an unusually productive middle ground: enough stimulus to build strength and reduce pain sensitization, with enough control to stay within individual tolerance. The evidence supports it clearly, and the practical question is not whether to do Pilates, but how to do it safely.
             </p>
             <div className="rounded-xl p-6 mb-4" style={{ backgroundColor: "#fff9f5", border: "1px solid rgba(197,168,130,0.3)" }}>
-              <p className="text-xs font-semibold uppercase tracking-[0.15em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Medical note</p>
-              <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Consult your GP or rheumatologist before beginning a new exercise program with fibromyalgia. This guide is for general educational purposes only.</p>
+              <p className="text-[12.5px] font-bold mb-2" style={{ color: "#0a0a0a" }}>Medical note</p>
+              <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>Consult your GP or rheumatologist before beginning a new exercise program with fibromyalgia. This guide is for general educational purposes only.</p>
             </div>
           </div>
         </section>
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg" alt="Gentle Pilates practice for fibromyalgia management" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg" alt="Gentle Pilates practice for fibromyalgia management" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -167,8 +167,8 @@ export default function PilatesForFibromyalgiaPage() {
             <AffiliateNote />
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What the evidence says</h2>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">What the evidence says</h2>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 The research on Pilates and fibromyalgia has grown substantially over the last decade. The findings are consistently supportive:
               </p>
               <div className="space-y-4 mb-8">
@@ -181,15 +181,15 @@ export default function PilatesForFibromyalgiaPage() {
                 ].map((point, i) => (
                   <div key={i} className="flex gap-4">
                     <div className="w-1.5 rounded-full shrink-0 mt-1" style={{ backgroundColor: "#c5a882", minHeight: "20px" }} />
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{point}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{point}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The pacing principles that make it work</h2>
-              <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">The pacing principles that make it work</h2>
+              <p className="text-base leading-relaxed mb-6" style={{ color: "#3a3530" }}>
                 Fibromyalgia Pilates fails when people follow standard progression timelines. It succeeds when pacing is built into the structure from the start.
               </p>
               <div className="space-y-6">
@@ -199,17 +199,17 @@ export default function PilatesForFibromyalgiaPage() {
                   { principle: "Work at 4-5 out of 10 perceived exertion", detail: "Fibromyalgia Pilates should feel gentle to moderate, never hard. The 'I could definitely do more' feeling at the end of a session is the correct target. Exercises should be performed with reduced repetitions and at a pace slower than the instructor cues if needed." },
                   { principle: "Know your flare protocol", detail: "On high-symptom days, have a modified 10-minute sequence ready: gentle spinal breathing, supine leg slides, seated shoulder rolls, and prone child's rest. Maintaining movement habit on difficult days prevents the deconditioning cycle that worsens long-term fibromyalgia prognosis." },
                 ].map((item) => (
-                  <div key={item.principle} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-sm font-semibold mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{item.principle}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.detail}</p>
+                  <div key={item.principle} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base font-semibold mb-2" style={{ color: "#0a0a0a" }}>{item.principle}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.detail}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Best Pilates exercises for fibromyalgia</h2>
-              <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">Best Pilates exercises for fibromyalgia</h2>
+              <p className="text-base leading-relaxed mb-6" style={{ color: "#3a3530" }}>
                 These exercises are well-tolerated by most fibromyalgia practitioners and address the core deficits the condition creates: reduced core stability, muscle weakness, and movement avoidance.
               </p>
               <div className="space-y-4">
@@ -224,8 +224,8 @@ export default function PilatesForFibromyalgiaPage() {
                   <div key={ex.name} className="flex gap-4">
                     <div className="w-1.5 rounded-full shrink-0 mt-1" style={{ backgroundColor: "#c5a882", minHeight: "20px" }} />
                     <div>
-                      <p className="text-sm font-semibold mb-1" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{ex.name}</p>
-                      <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{ex.why}</p>
+                      <p className="text-base font-semibold mb-1" style={{ color: "#0a0a0a" }}>{ex.name}</p>
+                      <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{ex.why}</p>
                     </div>
                   </div>
                 ))}
@@ -233,14 +233,14 @@ export default function PilatesForFibromyalgiaPage() {
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Equipment that makes practice more accessible</h2>
-              <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
+              <h2 className="mb-6 r-d r-h2">Equipment that makes practice more accessible</h2>
+              <p className="text-xs mb-8" style={{ color: "#6f6964" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
                     <div className="flex items-center gap-3 mb-4">
-                      <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                      <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tag}</span>
+                      <span className="text-2xl r-hx" style={{ color: "#9a9490" }}>{p.rank}</span>
+                      <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{p.tag}</span>
                     </div>
                     <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                   </div>
@@ -249,23 +249,23 @@ export default function PilatesForFibromyalgiaPage() {
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   { q: "Is Pilates good for fibromyalgia?", a: "Yes. Clinical evidence consistently shows that low-to-moderate intensity exercise, including Pilates, reduces fibromyalgia pain scores, improves fatigue, and enhances quality of life. Pilates is particularly suitable because it is low-impact, controllable in intensity, and emphasizes body awareness, which helps practitioners learn to work within their symptom limits rather than triggering post-exertional malaise." },
                   { q: "Can Pilates make fibromyalgia worse?", a: "Pilates can temporarily worsen symptoms if intensity is too high or if sessions are too long or frequent for the individual's current capacity. The key risk is post-exertional malaise: a worsening of symptoms that can follow excessive exertion. Fibromyalgia Pilates should start with very short sessions (15-20 minutes), low intensity, and significant rest between sessions, progressing only when the individual consistently recovers well." },
                   { q: "How often should I do Pilates with fibromyalgia?", a: "Start with two sessions per week of 15-20 minutes each, leaving at least two days between sessions to assess recovery. If you consistently recover without symptom increase, gradually extend session duration before increasing frequency. Most people with fibromyalgia do best with two to three sessions per week of 30-45 minutes, rather than daily practice which can outpace recovery capacity." },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Pilates for Arthritis" excerpt="Evidence-based guide to Pilates for arthritis: benefits, safe exercises, and how to modify for joint pain." href="/blog/pilates-for-arthritis" category="Health" readTime="8 min read" date="June 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
                 <ArticleCard title="Pilates for Back Pain" excerpt="The evidence on Pilates for chronic and acute back pain: what works, what the research says, and how to start." href="/blog/pilates-for-back-pain" category="Health" readTime="9 min read" date="March 2026" imageUrl="/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg" />

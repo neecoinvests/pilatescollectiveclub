@@ -157,20 +157,20 @@ export default function YourReformerPilatesPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Brand Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Equipment</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Brand Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Equipment</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Your Reformer<br /><span style={{ color: "#8b4a31" }}>(2026): The Connected Home Studio</span>
+            <h1 className="mb-6 r-d r-h1">
+              Your Reformer<br /><span style={{ color: "#a98a5f" }}>(2026): The Connected Home Studio</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 10 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 10 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               Your Reformer pairs a reformer with an integrated app: hardware plus content, in the vein of Peloton&apos;s approach to home cycling. It is sold direct through yourreformer.com rather than on Amazon, so this review is honest about what we could and couldn&apos;t independently verify: we could not confirm the brand&apos;s specific spring count, exact pricing, or precise hardware specifications. What follows covers what the brand itself claims, flags what we couldn&apos;t verify, points you to yourreformer.com to confirm specifics before buying, and adds two real, honestly-disclosed budget Amazon alternatives for readers who want purchase-today hardware instead.
             </p>
           </div>
@@ -178,8 +178,8 @@ export default function YourReformerPilatesPage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/henrique-ferreira-omiTbS-nb_M-unsplash.jpg" alt="Your Reformer Pilates: The Original and YR Studio reviewed" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/henrique-ferreira-omiTbS-nb_M-unsplash.jpg" alt="Your Reformer Pilates: The Original and YR Studio reviewed" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -187,8 +187,8 @@ export default function YourReformerPilatesPage() {
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
 
-            <div className="mb-12 mt-4 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
-              <h2 className="text-xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Brand overview</h2>
+            <div className="mb-12 mt-4 rounded-2xl p-8" style={{ backgroundColor: "#ede9e3" }}>
+              <h2 className="mb-4 r-d r-h2">Brand overview</h2>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
                 {[
                   { label: "Origin", value: "Australia" },
@@ -196,8 +196,8 @@ export default function YourReformerPilatesPage() {
                   { label: "Unique offering", value: "Integrated YR app with on-demand classes (per brand's own description)" },
                 ].map((item) => (
                   <div key={item.label}>
-                    <p className="text-xs font-semibold uppercase tracking-widest mb-1" style={{ color: "#9a9490", fontFamily: "'Montserrat', sans-serif" }}>{item.label}</p>
-                    <p className="text-sm" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{item.value}</p>
+                    <p className="text-[12.5px] font-bold mb-1" style={{ color: "#9a9490" }}>{item.label}</p>
+                    <p className="text-base" style={{ color: "#0a0a0a" }}>{item.value}</p>
                   </div>
                 ))}
               </div>
@@ -207,13 +207,13 @@ export default function YourReformerPilatesPage() {
             <AffiliateNote>We could not find a live Amazon listing for Your Reformer: four links on this page go directly to yourreformer.com and we earn no commission from them. Two links go to real, verified Amazon products (not Your Reformer-branded), and we earn a small commission on qualifying purchases through them.</AffiliateNote>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>6 Items · 4 Your Reformer Products + 2 Verified Amazon Alternatives</p>
+              <p className="text-[12.5px] font-bold mb-10" style={{ color: "#0a0a0a" }}>6 Items · 4 Your Reformer Products + 2 Verified Amazon Alternatives</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
                     <div className="flex items-center gap-3 mb-4">
-                      <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                      <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tag}</span>
+                      <span className="text-2xl r-hx" style={{ color: "#9a9490" }}>{p.rank}</span>
+                      <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{p.tag}</span>
                     </div>
                     <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                   </div>
@@ -222,7 +222,7 @@ export default function YourReformerPilatesPage() {
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   { q: "Is Your Reformer sold on Amazon?", a: "No: we could not find a live, currently-sold Amazon listing for Your Reformer. The brand sells direct through yourreformer.com, and that is where the links in this review point. Treat any Amazon listing claiming to be Your Reformer with caution." },
@@ -232,9 +232,9 @@ export default function YourReformerPilatesPage() {
                   { q: "Can I use Your Reformer without the app?", a: "Your Reformer describes the app subscription as optional and the hardware as usable without connectivity. Confirm this directly with the brand if it's a deciding factor for you." },
                   { q: "Is there a cheaper alternative to Your Reformer on Amazon?", a: "Yes, though these are honest disclosures rather than like-for-like substitutes: the WINDFOOT Pilates Reformer ($295.99) and the DWKWE Pilates Reformer ($284.99) are both real, currently-sold Amazon listings. Neither includes Your Reformer's app or furniture-grade finish: they're basic hardware for buyers who want a purchase-today option at a fraction of the price." },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
@@ -242,7 +242,7 @@ export default function YourReformerPilatesPage() {
 
 
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Home Pilates Reformers" excerpt="The complete buyer's guide across all price points and brands." href="/blog/best-home-pilates-reformer" category="Equipment" readTime="14 min read" date="May 2026" imageUrl="/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg" />
                 <ArticleCard title="Best Online Pilates Classes" excerpt="The top platforms for guided Pilates at home, including reformer programs." href="/blog/best-online-pilates-classes" category="Equipment" readTime="8 min read" date="May 2026" imageUrl="/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" />

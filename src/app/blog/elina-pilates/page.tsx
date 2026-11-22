@@ -169,20 +169,20 @@ export default function ElinaPilatesPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Brand Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Equipment</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Brand Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Equipment</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Elina Pilates<br /><span style={{ color: "#8b4a31" }}>(2026): Equipment Reviewed</span>
+            <h1 className="mb-6 r-d r-h1">
+              Elina Pilates<br /><span style={{ color: "#a98a5f" }}>(2026): Equipment Reviewed</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 12 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 12 min read</p>
             <TopPick label="Top Amazon alternative" name={QUICK_PICKS[0].name} price={QUICK_PICKS[0].price} note={QUICK_PICKS[0].note} url={QUICK_PICKS[0].url} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               Elina Pilates markets itself as a European manufacturer offering studio-grade reformers, including wood-finish models aimed at the home market. Before publishing this guide we checked whether the models people search for are genuinely sold on Amazon, including a fresh, live Amazon catalog search for &quot;Elina Pilates reformer,&quot; which returned zero genuine Elina-brand results. We could not find live, verifiable Amazon listings for any of Elina&apos;s reformer or chair models covered here. Because Elina is known specifically for wood-framed reformers, we&apos;ve added three genuine wood-frame reformer alternatives that are actually sold on Amazon today, clearly disclosed as not being Elina products. This is an honest guide to what Elina publishes about its own equipment, plus real options for buyers who want that same material category with Amazon purchase protection.
             </p>
           </div>
@@ -190,8 +190,8 @@ export default function ElinaPilatesPage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg" alt="Elina Pilates Elite Wood Reformer and equipment reviewed" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg" alt="Elina Pilates Elite Wood Reformer and equipment reviewed" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -203,8 +203,8 @@ export default function ElinaPilatesPage() {
             <AffiliateNote>We could not verify live Amazon listings for Elina Pilates equipment: see the disclosure below. Four links on this page go to verified, non-Elina Amazon products, and we earn a small commission on qualifying purchases through them.</AffiliateNote>
 
 
-            <div className="mb-12 mt-4 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
-              <h2 className="text-xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Brand overview</h2>
+            <div className="mb-12 mt-4 rounded-2xl p-8" style={{ backgroundColor: "#ede9e3" }}>
+              <h2 className="mb-4 r-d r-h2">Brand overview</h2>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
                 {[
                   { label: "Origin", value: "Europe (self-described; not independently verified)" },
@@ -212,38 +212,38 @@ export default function ElinaPilatesPage() {
                   { label: "Best for", value: "Buyers willing to purchase direct from Elina, or who want a verified wood-reformer alternative on Amazon" },
                 ].map((item) => (
                   <div key={item.label}>
-                    <p className="text-xs font-semibold uppercase tracking-widest mb-1" style={{ color: "#9a9490", fontFamily: "'Montserrat', sans-serif" }}>{item.label}</p>
-                    <p className="text-sm" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{item.value}</p>
+                    <p className="text-[12.5px] font-bold mb-1" style={{ color: "#9a9490" }}>{item.label}</p>
+                    <p className="text-base" style={{ color: "#0a0a0a" }}>{item.value}</p>
                   </div>
                 ))}
               </div>
             </div>
 
-            <div className="mb-10 rounded-2xl p-6" style={{ backgroundColor: "#fff4f1", border: "1px solid rgba(139,74,49,0.15)" }}>
-              <p className="text-xs font-semibold uppercase tracking-[0.15em] mb-3" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Amazon availability, checked</p>
-              <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+            <div className="mb-10 rounded-2xl p-6" style={{ backgroundColor: "#fff4f1", border: "1px solid #ddd6cc" }}>
+              <p className="text-[12.5px] font-bold mb-3" style={{ color: "#0a0a0a" }}>Amazon availability, checked</p>
+              <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>
                 We could not confirm a live Amazon listing for any of the five genuine Elina models below: re-confirmed with a fresh live Amazon catalog search that returned zero genuine Elina-brand results. There is no Amazon &quot;Buy&quot; button on this page for Elina-branded equipment as a result, only real, verified products get one on this site. Four listings below link to genuine, non-Elina Amazon products: one companion chair, and three wood-frame reformer alternatives in the same material category Elina is known for.
               </p>
             </div>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>8 Items · 5 Elina Models Reviewed + 3 Verified Amazon Alternatives</p>
+              <p className="text-[12.5px] font-bold mb-10" style={{ color: "#0a0a0a" }}>8 Items · 5 Elina Models Reviewed + 3 Verified Amazon Alternatives</p>
               <div className="space-y-10">
                 {MODELS.map((p) => (
                   <div key={p.name}>
                     <div className="flex items-center gap-3 mb-4">
-                      <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                      <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tag}</span>
+                      <span className="text-2xl r-hx" style={{ color: "#9a9490" }}>{p.rank}</span>
+                      <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{p.tag}</span>
                     </div>
                     <div className="mb-1">
-                      <span className="text-xs uppercase tracking-widest" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.verdict}</span>
+                      <span className="text-[12.5px]" style={{ color: "#6f6964" }}>{p.verdict}</span>
                     </div>
                     {p.affiliateUrl ? (
                       <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} showProductImage={p.name !== "Elina Pilates Baby Chair"} />
                     ) : (
                       <div style={{ borderTop: "1px solid #ede9e3", paddingTop: "24px", paddingBottom: "4px" }}>
-                        <h3 style={{ fontFamily: "var(--font-serif)", fontSize: "20px", fontWeight: 400, color: "#0a0a0a", marginBottom: "10px" }}>{p.name}</h3>
-                        <p style={{ fontFamily: "var(--font-sans)", fontSize: "13px", fontWeight: 300, color: "#6b6560", lineHeight: 1.75 }}>{p.description}</p>
+                        <h3 className="r-hx" style={{ fontSize: "20px", color: "#0a0a0a", marginBottom: "10px" }}>{p.name}</h3>
+                        <p style={{ fontSize: "15px", color: "#6f6964", lineHeight: 1.55 }}>{p.description}</p>
                       </div>
                     )}
                   </div>
@@ -251,8 +251,8 @@ export default function ElinaPilatesPage() {
               </div>
             </div>
 
-            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
-              <h2 className="text-2xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Our honest verdict</h2>
+            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#ede9e3" }}>
+              <h2 className="mb-6 r-d r-h2">Our honest verdict</h2>
               <div className="space-y-4">
                 {[
                   { label: "Manufacturer claims", value: "Elina publishes a coherent, wood-finish-forward product line aimed at boutique studios and home practitioners, on paper it's a real competitor to the established brands' entry and mid tiers." },
@@ -261,15 +261,15 @@ export default function ElinaPilatesPage() {
                   { label: "Verdict", value: "If Elina's published specs and pricing genuinely appeal to you, buy through Elina's own site or an authorized dealer and confirm current details directly with them, not through this page. If Amazon purchase protection matters more to you than the Elina name specifically, the DELAVIN, VEVOR, and PAETA wood-frame reformers above are genuine, currently-sold alternatives in the same material category." },
                 ].map((item) => (
                   <div key={item.label} className="flex gap-4">
-                    <span className="text-sm font-semibold shrink-0 w-40" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{item.label}</span>
-                    <span className="text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.value}</span>
+                    <span className="text-sm font-semibold shrink-0 w-40" style={{ color: "#0a0a0a" }}>{item.label}</span>
+                    <span className="text-sm" style={{ color: "#3a3530" }}>{item.value}</span>
                   </div>
                 ))}
               </div>
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   { q: "Is Elina Pilates sold on Amazon?", a: "We could not find genuine, live Elina Pilates listings on Amazon for any of the models covered in this guide, and re-confirmed this with a fresh live catalog search that returned zero genuine Elina-brand results. Treat any Amazon search result or unfamiliar ASIN claiming to be Elina equipment with caution, and buy through Elina's own channels or an authorized dealer instead." },
@@ -278,16 +278,16 @@ export default function ElinaPilatesPage() {
                   { q: "Where is Elina Pilates made?", a: "Elina Pilates describes itself as a European manufacturer. We have not independently verified further manufacturing details: confirm specifics with the brand directly if that matters to your decision." },
                   { q: "Is Elina Pilates good for a home studio?", a: "Elina markets its wood-finish reformers as designed to look at home in a living space rather than a clinical steel-framed machine, which is a real point of differentiation on paper. We could not verify current pricing or Amazon availability, so treat that as a starting point for your own research with Elina or an authorized dealer, not a purchase recommendation." },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Premium Pilates Reformers" excerpt="The top-tier reformers across all brands: Elina, Balanced Body, Gratz, and more." href="/blog/best-premium-pilates-reformer" category="Equipment" readTime="11 min read" date="May 2026" imageUrl="/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg" />
                 <ArticleCard title="Balanced Body vs Merrithew" excerpt="The two dominant studio brands compared, which is right for your studio?" href="/blog/balanced-body-vs-merrithew" category="Comparison" readTime="9 min read" date="May 2026" imageUrl="/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg" />

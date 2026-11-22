@@ -167,7 +167,6 @@ const toNumber = (price: string) => {
   return Number.isNaN(n) ? 0 : n;
 };
 const fmt = (n: number) => `$${n.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
-const FLOOR_TOTAL = FLOOR_KIT.reduce((sum, p) => sum + toNumber(p.price), 0); // 17.79 + 8.99 + 9.98 + 55 + 25.12 + 19.99 + 20.95 = 157.82
 const ESSENTIAL_FLOOR = [FLOOR_KIT[0], FLOOR_KIT[2], FLOOR_KIT[4], FLOOR_KIT[6]];
 const ESSENTIAL_TOTAL = ESSENTIAL_FLOOR.reduce((sum, p) => sum + toNumber(p.price), 0); // 17.79 + 9.98 + 25.12 + 20.95 = 73.84
 const MICRO_TOTAL = MICRO_SETUP.reduce((sum, p) => sum + toNumber(p.price), 0); // 990 + 290 = 1,280
@@ -322,20 +321,19 @@ const jsonLd = {
   ],
 };
 
-const eyebrowStyle = { color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" };
-const bodyStyle = { color: "#53433e", fontFamily: "'Montserrat', sans-serif" };
-const h2Style = { color: "#1b1c1c", fontFamily: "'Playfair Display', serif" };
-const inlineLinkStyle = { color: "#8b4a31", textDecoration: "underline" };
-const chipStyle = { backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" };
-const cardStyle = { backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" };
-const hubStyle = { backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.4)", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif", textDecoration: "none" };
-const shopStyle = { display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase" as const, color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap" as const, flexShrink: 0 };
+const eyebrowStyle = { color: "#0a0a0a" };
+const bodyStyle = { color: "#3a3530" };
+const h2Style = { color: "#0a0a0a" };
+const inlineLinkStyle = { color: "#0a0a0a", textDecoration: "underline" };
+const chipStyle = { backgroundColor: "#ede9e3", color: "#0a0a0a" };
+const cardStyle = { backgroundColor: "#ede9e3" };
+const hubStyle = { backgroundColor: "#ede9e3", color: "#0a0a0a", textDecoration: "none" };
 
 function TierCard({ p }: { p: Pick }) {
   return (
     <div id={p.id} className="scroll-mt-28">
       <div className="flex items-center gap-3 mb-4">
-        <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={chipStyle}>{p.badge}</span>
+        <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={chipStyle}>{p.badge}</span>
       </div>
       <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.url} />
     </div>
@@ -345,8 +343,8 @@ function TierCard({ p }: { p: Pick }) {
 function Divider({ label }: { label: string }) {
   return (
     <div className="flex items-center gap-4 mb-10">
-      <p className="text-xs font-semibold uppercase tracking-[0.2em] shrink-0" style={eyebrowStyle}>{label}</p>
-      <div className="flex-1 h-px" style={{ backgroundColor: "#d9c2ba" }} />
+      <p className="text-[12.5px] font-bold shrink-0" style={eyebrowStyle}>{label}</p>
+      <div className="flex-1 h-px" style={{ backgroundColor: "#ddd6cc" }} />
     </div>
   );
 }
@@ -366,23 +364,23 @@ export default function LagreeExercisesPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={eyebrowStyle}>Method Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Lagree</span>
+              <span className="text-[12.5px] font-bold" style={eyebrowStyle}>Method Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Lagree</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Lagree Exercises<br /><span style={{ color: "#8b4a31" }}>(2026): The Signature Moves, Explained</span>
+            <h1 className="mb-6 r-d r-h1">
+              Lagree Exercises<br /><span style={{ color: "#a98a5f" }}>(2026): The Signature Moves, Explained</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 12 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 12 min read</p>
             <TopPick name={QUICK_PICKS[0].name} price={QUICK_PICKS[0].price} note={QUICK_PICKS[0].note} url={QUICK_PICKS[0].url} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed mb-6" style={{ color: "#3a3530" }}>
               &ldquo;Next: Catfish. Then Bear. Slower.&rdquo; If you have just started Lagree, half the class can feel like a foreign language. This guide translates the move names you will hear most and explains what each one works. It also gives the form cues that separate a move that burns from one that just hurts. At the end is a 20-minute Lagree-inspired floor workout for the days you cannot get to the studio, plus the kit for it.
             </p>
-            <p className="text-sm leading-relaxed" style={bodyStyle}>
+            <p className="text-base leading-relaxed" style={bodyStyle}>
               Every product on this page was checked live on Amazon on October 3, 2026, at the price shown. Prices change, so the final price is whatever Amazon shows at checkout.
             </p>
           </div>
@@ -390,8 +388,8 @@ export default function LagreeExercisesPage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/stitch-hands-on-carriage.png" alt="Hands braced on a machine carriage: Lagree exercises explained" fill className="object-cover" style={{ filter: "brightness(0.85)" }} priority />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/stitch-hands-on-carriage.png" alt="Hands braced on a machine carriage: Lagree exercises explained" fill className="object-cover" priority />
             </div>
           </div>
         </section>
@@ -413,8 +411,8 @@ export default function LagreeExercisesPage() {
 
             {/* Rules */}
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-6" style={h2Style}>The three rules behind every Lagree move</h2>
-              <p className="text-sm leading-relaxed mb-6" style={bodyStyle}>
+              <h2 className="mb-6 r-d r-h2" style={h2Style}>The three rules behind every Lagree move</h2>
+              <p className="text-base leading-relaxed mb-6" style={bodyStyle}>
                 The exercise library is huge; studios often say the Megaformer allows hundreds of variations. You do not need to memorize them. Every move follows the same three rules, and once you understand those, any new name makes sense.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
@@ -424,8 +422,8 @@ export default function LagreeExercisesPage() {
                   { heading: "3. Carriage vs platform", body: "Most moves put one part of you on a fixed platform and another on the moving carriage. Controlling that gap is the workout." },
                 ].map((item) => (
                   <div key={item.heading} className="rounded-xl p-5" style={cardStyle}>
-                    <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.heading}</p>
-                    <p className="text-sm leading-relaxed" style={bodyStyle}>{item.body}</p>
+                    <p className="text-sm mb-1.5 r-hx" style={{ color: "#0a0a0a" }}>{item.heading}</p>
+                    <p className="text-base leading-relaxed" style={bodyStyle}>{item.body}</p>
                   </div>
                 ))}
               </div>
@@ -434,22 +432,22 @@ export default function LagreeExercisesPage() {
             {/* Moves */}
             <Divider label="The move glossary" />
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-4" style={h2Style}>Lagree exercise names, decoded</h2>
-              <p className="text-sm leading-relaxed mb-8" style={bodyStyle}>
+              <h2 className="mb-4 r-d r-h2" style={h2Style}>Lagree exercise names, decoded</h2>
+              <p className="text-base leading-relaxed mb-8" style={bodyStyle}>
                 These are the names you will hear most in class. Studios program their own sequences, so the exact setup and spring load can vary. Your instructor&apos;s cue always wins over a description on a website.
               </p>
               <div className="space-y-6">
                 {MOVES.map((m) => (
                   <div key={m.name} className="rounded-2xl p-6" style={cardStyle}>
                     <div className="flex items-center gap-3 mb-3 flex-wrap">
-                      <h3 className="text-xl font-semibold" style={h2Style}>{m.name}</h3>
-                      <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={chipStyle}>{m.family}</span>
+                      <h3 className="text-xl r-hx" style={h2Style}>{m.name}</h3>
+                      <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={chipStyle}>{m.family}</span>
                     </div>
-                    <p className="text-sm leading-relaxed mb-3" style={bodyStyle}>{m.what}</p>
+                    <p className="text-base leading-relaxed mb-3" style={bodyStyle}>{m.what}</p>
                     <ul className="space-y-1.5">
                       {m.cues.map((c) => (
-                        <li key={c} className="text-sm leading-relaxed flex gap-2" style={bodyStyle}>
-                          <span style={{ color: "#8b4a31" }}>›</span>
+                        <li key={c} className="text-base leading-relaxed flex gap-2" style={bodyStyle}>
+                          <span style={{ color: "#0a0a0a" }}>›</span>
                           <span>{c}</span>
                         </li>
                       ))}
@@ -458,14 +456,14 @@ export default function LagreeExercisesPage() {
                 ))}
               </div>
 
-              <div className="mt-8 rounded-2xl p-6 md:p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.5)" }}>
-                <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={eyebrowStyle}>Platform moves</p>
-                <p className="text-sm leading-relaxed mb-3" style={bodyStyle}>
+              <div className="mt-8 rounded-2xl p-6 md:p-8" style={{ backgroundColor: "#ede9e3" }}>
+                <p className="text-[12.5px] font-bold mb-3" style={eyebrowStyle}>Platform moves</p>
+                <p className="text-base leading-relaxed mb-3" style={bodyStyle}>
                   Some moves need a platform at each end of the machine. Lagree Fitness names these among the exercises its Micro rear platform adds:
                 </p>
                 <div className="flex flex-wrap gap-2">
                   {PLATFORM_MOVES.map((m) => (
-                    <span key={m} className="text-xs font-semibold px-3 py-1.5 rounded-full" style={{ backgroundColor: "#ffffff", color: "#1b1c1c", border: "1px solid rgba(217,194,186,0.5)", fontFamily: "'Montserrat', sans-serif" }}>{m}</span>
+                    <span key={m} className="text-xs font-semibold px-3 py-1.5 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{m}</span>
                   ))}
                 </div>
               </div>
@@ -473,7 +471,7 @@ export default function LagreeExercisesPage() {
 
             {/* Form */}
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-6" style={h2Style}>Five form mistakes almost everyone makes</h2>
+              <h2 className="mb-6 r-d r-h2" style={h2Style}>Five form mistakes almost everyone makes</h2>
               <ul className="space-y-4">
                 {[
                   { h: "Going fast when it burns.", b: "Speed feels like escape, but it shifts the work onto momentum. Slow down instead." },
@@ -482,8 +480,8 @@ export default function LagreeExercisesPage() {
                   { h: "Resting at the end of the range.", b: "Lagree has no lockout pause. Turn around before the joint takes the load." },
                   { h: "Choosing springs to look strong.", b: "Pick the load that lets you hold the tempo. Your instructor will adjust it." },
                 ].map((item) => (
-                  <li key={item.h} className="text-sm leading-relaxed" style={bodyStyle}>
-                    <span className="font-semibold" style={{ color: "#1b1c1c" }}>{item.h}</span> {item.b}
+                  <li key={item.h} className="text-base leading-relaxed" style={bodyStyle}>
+                    <span className="font-semibold" style={{ color: "#0a0a0a" }}>{item.h}</span> {item.b}
                   </li>
                 ))}
               </ul>
@@ -492,9 +490,9 @@ export default function LagreeExercisesPage() {
             {/* Home circuit */}
             <Divider label="No machine? Try this" />
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-4" style={h2Style}>A 20-minute Lagree-inspired floor workout</h2>
-              <p className="text-sm leading-relaxed mb-6" style={bodyStyle}>
-                To be clear, this is not Lagree. Real Lagree needs a carriage, platforms and springs. But sliders, bands and the same slow tempo get you surprisingly close to the feel. Set an interval timer for <span className="font-semibold" style={{ color: "#1b1c1c" }}>60 seconds of work and 10 seconds of transition</span>, run the eight moves below and repeat the circuit twice. That is about 19 minutes. Move at four counts out and four counts in throughout.
+              <h2 className="mb-4 r-d r-h2" style={h2Style}>A 20-minute Lagree-inspired floor workout</h2>
+              <p className="text-base leading-relaxed mb-6" style={bodyStyle}>
+                To be clear, this is not Lagree. Real Lagree needs a carriage, platforms and springs. But sliders, bands and the same slow tempo get you surprisingly close to the feel. Set an interval timer for <span className="font-semibold" style={{ color: "#0a0a0a" }}>60 seconds of work and 10 seconds of transition</span>, run the eight moves below and repeat the circuit twice. That is about 19 minutes. Move at four counts out and four counts in throughout.
               </p>
               <div className="mb-6 r-qp r-glance">
                 {HOME_CIRCUIT.map((s, i) => (
@@ -507,7 +505,7 @@ export default function LagreeExercisesPage() {
                   </div>
                 ))}
               </div>
-              <p className="text-sm leading-relaxed" style={bodyStyle}>
+              <p className="text-base leading-relaxed" style={bodyStyle}>
                 Keep it safe: warm up first, stop if anything hurts (rather than burns), and if you are pregnant, injured or new to exercise, check with a professional first. For more on structuring home sessions, see{" "}
                 <Link href="/blog/lagree-at-home" style={inlineLinkStyle}>Lagree at home</Link>.
               </p>
@@ -515,45 +513,18 @@ export default function LagreeExercisesPage() {
 
             {/* Kit */}
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-4" style={h2Style}>The kit for the home workout</h2>
-              <p className="text-sm leading-relaxed mb-8" style={bodyStyle}>
+              <h2 className="mb-4 r-d r-h2" style={h2Style}>The kit for the home workout</h2>
+              <p className="text-base leading-relaxed mb-8" style={bodyStyle}>
                 Everything the circuit above uses. The four essentials are sliders, bands, a mat and a timer; the bangles, knee pad and budget sliders are upgrades or alternatives.
               </p>
 
-              <div className="mb-10 r-qp r-glance">
-                <div className="r-qp-hd">
-                  <p className="r-qp-title">At a Glance: Home Lagree-Style Kit</p>
-                </div>
-                {FLOOR_KIT.map((p, i) => (
-                  <div key={p.id} className="r-qp-row">
-                    <span className="r-qp-no">{String(i + 1).padStart(2, "0")}</span>
-                    <div className="r-qp-tx">
-                      <p className="r-qp-tag">
-                        <a className="r-qp-a" href={`#${p.id}`}>{p.shortName}</a>
-                      </p>
-                      <p className="r-qp-name">{p.name}</p>
-                      <p className="r-qp-sub md:hidden">{p.price}</p>
-                    </div>
-                    <span className="r-qp-price hidden md:block">{p.price}</span>
-                    <a href={p.url} target="_blank" rel="noopener noreferrer sponsored nofollow" style={shopStyle}>Shop →</a>
-                  </div>
-                ))}
-                <div className="r-qp-row r-qp-total">
-                  <span>Essentials only (sliders, bands, mat, timer)</span>
-                  <span>{fmt(ESSENTIAL_TOTAL)}</span>
-                </div>
-                <div className="r-qp-row r-qp-total">
-                  <span>Everything on the list</span>
-                  <span>{fmt(FLOOR_TOTAL)}</span>
-                </div>
-              </div>
 
               <div className="space-y-8">
                 {FLOOR_KIT.map((p) => (
                   <TierCard key={p.id} p={p} />
                 ))}
               </div>
-              <p className="text-sm leading-relaxed mt-2" style={bodyStyle}>
+              <p className="text-base leading-relaxed mt-2" style={bodyStyle}>
                 More choice: <Link href="/blog/best-exercise-sliders-for-pilates" style={inlineLinkStyle}>best exercise sliders</Link>,{" "}
                 <Link href="/blog/best-pilates-ankle-weights" style={inlineLinkStyle}>best ankle weights</Link> and{" "}
                 <Link href="/blog/best-interval-timer-for-lagree" style={inlineLinkStyle}>best interval timers for Lagree</Link>.
@@ -563,8 +534,8 @@ export default function LagreeExercisesPage() {
             {/* Real machine */}
             <Divider label="The real thing" />
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-4" style={h2Style}>Want the real moves at home?</h2>
-              <p className="text-sm leading-relaxed mb-8" style={bodyStyle}>
+              <h2 className="mb-4 r-d r-h2" style={h2Style}>Want the real moves at home?</h2>
+              <p className="text-base leading-relaxed mb-8" style={bodyStyle}>
                 Floor versions are a bridge, not a replacement. If you want to do the actual exercises in this glossary, Lagree Fitness sells its own compact machine, and the platform that unlocks the lunge and crunch variations, on Amazon. Together they come to {fmt(MICRO_TOTAL)} ({MICRO_SETUP[0].price} + {MICRO_SETUP[1].price}).
               </p>
               <div className="space-y-8">
@@ -572,7 +543,7 @@ export default function LagreeExercisesPage() {
                   <TierCard key={p.id} p={p} />
                 ))}
               </div>
-              <p className="text-sm leading-relaxed mt-2" style={bodyStyle}>
+              <p className="text-base leading-relaxed mt-2" style={bodyStyle}>
                 Handlebars, pulley cables and the full setup cost compared with a class pack are in our{" "}
                 <Link href="/blog/lagree-fitness" style={inlineLinkStyle}>Lagree Fitness brand guide</Link>.
               </p>
@@ -580,12 +551,12 @@ export default function LagreeExercisesPage() {
 
             {/* FAQ */}
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={h2Style}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2" style={h2Style}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {FAQS.map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={cardStyle}>
-                    <h3 className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</h3>
-                    <p className="text-sm leading-relaxed" style={bodyStyle}>{item.a}</p>
+                    <h3 className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</h3>
+                    <p className="text-base leading-relaxed" style={bodyStyle}>{item.a}</p>
                   </div>
                 ))}
               </div>
@@ -593,7 +564,7 @@ export default function LagreeExercisesPage() {
 
             {/* Further reading */}
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={h2Style}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2" style={h2Style}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Lagree for Beginners" excerpt="What to expect in your first class, what to wear, and how to survive the shakes." href="/blog/lagree-for-beginners" category="Lagree" readTime="10 min read" date="September 2026" imageUrl="/pictures/stitch-studio-modern-row.png" />
                 <ArticleCard title="Lagree at Home" excerpt="How to train the Lagree way at home, from the Micro to floor work between classes." href="/blog/lagree-at-home" category="Lagree" readTime="9 min read" date="September 2026" imageUrl="/pictures/stitch-hands-on-carriage.png" />

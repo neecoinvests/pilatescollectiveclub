@@ -295,26 +295,26 @@ export default function MiamiPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>
                 City Guide
               </span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>
                 United States
               </span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
+            <h1 className="mb-6 r-d r-h1">
               The Best Pilates Studios<br />
-              <span style={{ color: "#8b4a31" }}>in Miami</span>
+              <span style={{ color: "#a98a5f" }}>in Miami</span>
             </h1>
-            <p className="text-sm mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>
+            <p className="text-base mb-8" style={{ color: "#6f6964" }}>
               Updated May 2026 · 8 min read
             </p>
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               Miami has always taken fitness seriously, but the city's Pilates scene has matured well beyond the beach-body culture of its past. A city that attracts international residents, professional athletes, and wellness-conscious visitors year-round has built a reformer studio market that is simultaneously premium, diverse, and surprisingly deep. From the classical lineage practices of Coconut Grove to the design-forward boutiques of Wynwood, Miami now offers serious Pilates across every neighborhood and every level. This guide covers the six studios we rate most highly, with everything you need before booking.
             </p>
           </div>
@@ -322,31 +322,30 @@ export default function MiamiPage() {
 
         <section className="px-6 mb-16">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
+            <div className="pcc-city-hero-image relative r-ah-img">
               <Image
                 src="https://images.unsplash.com/photo-1533106497176-45ae19e68ba2?w=1400&q=80"
                 alt="Miami skyline"
                 fill
                 className="object-cover"
-                style={{ filter: "brightness(0.88)" }}
               />
               <div className="absolute inset-0 flex items-end p-8" style={{ background: "linear-gradient(to top, rgba(27,28,28,0.55) 0%, transparent 60%)" }}>
                 <div>
-                  <p className="text-white text-sm font-semibold uppercase tracking-widest mb-1" style={{ fontFamily: "'Montserrat', sans-serif" }}>Miami, United States</p>
-                  <p className="text-white/70 text-xs" style={{ fontFamily: "'Montserrat', sans-serif" }}>From South Beach boutiques to classical Grove studios</p>
+                  <p className="text-white text-base font-bold mb-1">Miami, United States</p>
+                  <p className="text-white/70 text-xs">From South Beach boutiques to classical Grove studios</p>
                 </div>
               </div>
             </div>
           </div>
         </section>
 
-        <section className="py-20 px-6" style={{ backgroundColor: "#fdf5f3", borderTop: "1px solid rgba(139,74,49,0.2)", borderBottom: "1px solid rgba(139,74,49,0.2)" }}>
+        <section className="py-20 px-6" style={{ borderTop: "1px solid #ddd6cc", borderBottom: "1px solid #ddd6cc" }}>
           <div className="max-w-3xl mx-auto">
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Before You Go</p>
-            <h2 className="text-3xl font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What to bring to your first class</h2>
-            <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+            <p className="text-[12.5px] font-bold mb-3" style={{ color: "#0a0a0a" }}>Before You Go</p>
+            <h2 className="mb-3 r-d r-h2">What to bring to your first class</h2>
+            <p className="text-base mb-10" style={{ color: "#3a3530" }}>
               Grip socks are required at most reformer studios in Miami. These are our recommended picks: all available on Amazon.{" "}
-              <Link href="/affiliate-disclosure" style={{ color: "#8b4a31", textDecoration: "underline", fontFamily: "'Montserrat', sans-serif", fontSize: "inherit" }}>Affiliate disclosure.</Link>
+              <Link href="/affiliate-disclosure" style={{ color: "#0a0a0a", textDecoration: "underline", fontSize: "inherit" }}>Affiliate disclosure.</Link>
             </p>
             <QuickPicks className="mb-0" picks={GEAR.map((g) => ({ name: g.note.match(/Our pick: ([^.]+(?:\.\d+[^.]*)?)\./)?.[1] ?? g.name, price: g.price, url: g.url, note: g.name }))} />
           </div>
@@ -354,7 +353,7 @@ export default function MiamiPage() {
 
         <section className="px-6 py-20">
           <div className="max-w-3xl mx-auto">
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>
+            <p className="text-[12.5px] font-bold mb-10" style={{ color: "#0a0a0a" }}>
               6 Studios · Curated & Verified
             </p>
             <div className="space-y-8">
@@ -365,18 +364,18 @@ export default function MiamiPage() {
           </div>
         </section>
 
-        <section className="py-20 px-6" style={{ backgroundColor: "#f6f3f2" }}>
+        <section className="py-20 px-6">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl font-semibold mb-10" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
+            <h2 className="mb-10 r-d r-h2">
               Tips for booking Pilates in Miami
             </h2>
             <div className="space-y-6">
               {BOOKING_TIPS.map((tip) => (
-                <div key={tip.heading} className="pcc-booking-tip flex gap-5 rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217, 194, 186, 0.3)" }}>
-                  <div className="w-1.5 rounded-full shrink-0 mt-1" style={{ backgroundColor: "#8b4a31", minHeight: "20px" }} />
+                <div key={tip.heading} className="pcc-booking-tip flex gap-5 rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                  <div className="w-1.5 rounded-full shrink-0 mt-1" style={{ backgroundColor: "#0a0a0a", minHeight: "20px" }} />
                   <div>
-                    <h3 className="text-base font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{tip.heading}</h3>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{tip.body}</p>
+                    <h3 className="text-base mb-1.5 r-hx" style={{ color: "#0a0a0a" }}>{tip.heading}</h3>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{tip.body}</p>
                   </div>
                 </div>
               ))}
@@ -384,45 +383,45 @@ export default function MiamiPage() {
           </div>
         </section>
 
-        <section className="py-20 px-6" style={{ backgroundColor: "#fcf9f8" }}>
+        <section className="py-20 px-6">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
+            <h2 className="mb-4 r-d r-h2">
               Best neighborhoods for Pilates in Miami
             </h2>
-            <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+            <p className="text-base mb-10" style={{ color: "#3a3530" }}>
               Miami's Pilates landscape is shaped by its neighborhoods. Here's where to look depending on where you're based.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {NEIGHBORHOODS.map((n) => (
-                <div key={n.name} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217, 194, 186, 0.35)" }}>
-                  <h3 className="text-base font-semibold mb-2" style={{ color: "#8b4a31", fontFamily: "'Playfair Display', serif" }}>{n.name}</h3>
-                  <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{n.description}</p>
+                <div key={n.name} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                  <h3 className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{n.name}</h3>
+                  <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{n.description}</p>
                 </div>
               ))}
             </div>
           </div>
         </section>
 
-        <section className="py-20 px-6" style={{ backgroundColor: "#f6f3f2" }}>
+        <section className="py-20 px-6">
           <div className="max-w-3xl mx-auto">
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Prefer To Train At Home?</p>
-            <h2 className="text-3xl font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Not convinced? How about Pilates at home?</h2>
-            <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+            <p className="text-[12.5px] font-bold mb-3" style={{ color: "#0a0a0a" }}>Prefer To Train At Home?</p>
+            <h2 className="mb-3 r-d r-h2">Not convinced? How about Pilates at home?</h2>
+            <p className="text-base mb-10" style={{ color: "#3a3530" }}>
               Studio pricing or scheduling not for you right now? A home reformer gets you a genuine Pilates session on your own time. Here's where to start, from a $299 entry point to the machine serious practitioners buy once.{" "}
-              <Link href="/blog/best-home-pilates-reformer" style={{ color: "#8b4a31", textDecoration: "underline", fontFamily: "'Montserrat', sans-serif", fontSize: "inherit" }}>See the full reformer guide.</Link>
+              <Link href="/blog/best-home-pilates-reformer" style={{ color: "#0a0a0a", textDecoration: "underline", fontSize: "inherit" }}>See the full reformer guide.</Link>
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
               {HOME_REFORMERS.map((g) => (
                 <a key={g.name} href={g.url} target="_blank" rel="noopener noreferrer sponsored" style={{ textDecoration: "none" }}>
-                  <div className="rounded-xl p-5 h-full flex flex-col justify-between" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)" }}>
+                  <div className="rounded-2xl p-5 h-full flex flex-col justify-between" style={{ backgroundColor: "#ede9e3" }}>
                     <div>
-                      <p className="text-xs font-semibold uppercase tracking-widest mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{g.tag}</p>
-                      <h3 className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{g.name}</h3>
-                      <p className="text-sm leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{g.note}</p>
+                      <p className="text-[12.5px] font-bold mb-2" style={{ color: "#0a0a0a" }}>{g.tag}</p>
+                      <h3 className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{g.name}</h3>
+                      <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>{g.note}</p>
                     </div>
                     <div className="flex items-center justify-between">
-                      <span className="text-sm font-semibold" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{g.price}</span>
-                      <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#c5a882", fontFamily: "'Montserrat', sans-serif" }}>Shop →</span>
+                      <span className="text-sm font-semibold" style={{ color: "#0a0a0a" }}>{g.price}</span>
+                      <span className="text-[12.5px] font-bold" style={{ color: "#c5a882" }}>Shop →</span>
                     </div>
                   </div>
                 </a>
@@ -433,22 +432,22 @@ export default function MiamiPage() {
 
         <section className="px-6 py-20">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+            <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
             <div className="space-y-6">
               {CITY_FAQS.map((f) => (
-                <div key={f.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                  <h3 className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{f.q}</h3>
-                  <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{f.a}</p>
+                <div key={f.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                  <h3 className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{f.q}</h3>
+                  <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{f.a}</p>
                 </div>
               ))}
             </div>
           </div>
         </section>
 
-        <section className="py-20 px-6" style={{ backgroundColor: "#f6f3f2" }}>
+        <section className="py-20 px-6">
           <div className="max-w-5xl mx-auto">
-            <h2 className="text-3xl font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Related city guides</h2>
-            <p className="text-sm mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Explore our guides to other cities with thriving Pilates scenes.</p>
+            <h2 className="mb-3 r-d r-h2">Related city guides</h2>
+            <p className="text-base mb-10" style={{ color: "#3a3530" }}>Explore our guides to other cities with thriving Pilates scenes.</p>
             <div className="grid grid-cols-1 sm:grid-cols-4 gap-5">
               {RELATED_CITIES.map((c) => (
                 <CityCard key={c.city} {...c} />
@@ -457,9 +456,9 @@ export default function MiamiPage() {
           </div>
         </section>
 
-        <section className="py-20 px-6" style={{ backgroundColor: "#fcf9f8" }}>
+        <section className="py-20 px-6">
           <div className="max-w-5xl mx-auto">
-            <h2 className="text-3xl font-semibold mb-10" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+            <h2 className="mb-10 r-d r-h2">Further reading</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-2xl">
               {FURTHER_READING.map((a) => (
                 <ArticleCard key={a.href} {...a} />

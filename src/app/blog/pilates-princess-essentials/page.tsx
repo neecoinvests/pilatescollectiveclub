@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
-import QuickPicks from "@/components/QuickPicks";
 import TopPick from "@/components/TopPick";
 import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
@@ -556,18 +555,18 @@ const jsonLd = {
   ],
 };
 
-const eyebrowStyle = { color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" };
-const h2Style = { color: "#1b1c1c", fontFamily: "'Playfair Display', serif" };
-const bodyStyle = { color: "#53433e", fontFamily: "'Montserrat', sans-serif" };
-const mutedStyle = { color: "#86736d", fontFamily: "'Montserrat', sans-serif" };
-const cardStyle = { backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" };
-const guideLinkStyle = { color: "#8b4a31", fontFamily: "'Montserrat', sans-serif", textDecoration: "none" };
+const eyebrowStyle = { color: "#0a0a0a" };
+const h2Style = { color: "#0a0a0a" };
+const bodyStyle = { color: "#3a3530" };
+const mutedStyle = { color: "#6f6964" };
+const cardStyle = { backgroundColor: "#ede9e3" };
+const guideLinkStyle = { color: "#0a0a0a", textDecoration: "none" };
 
 function ProductBlock({ item }: { item: Item }) {
   return (
     <div>
       <div className="flex items-center gap-3 mb-4">
-        <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{item.tag}</span>
+        <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{item.tag}</span>
       </div>
       <ProductCard name={item.name} description={item.description} price={item.price} affiliateUrl={item.url} />
     </div>
@@ -577,7 +576,7 @@ function ProductBlock({ item }: { item: Item }) {
 function KitList({ title, subtitle, items, total }: { title: string; subtitle: string; items: Item[]; total: string }) {
   return (
     <div className="rounded-xl p-6" style={cardStyle}>
-      <p className="text-lg font-semibold mb-1" style={h2Style}>{title}</p>
+      <p className="text-lg mb-1 r-hx" style={h2Style}>{title}</p>
       <p className="text-xs mb-4" style={mutedStyle}>{subtitle}</p>
       <ul className="space-y-2 mb-4">
         {items.map((i) => (
@@ -587,8 +586,8 @@ function KitList({ title, subtitle, items, total }: { title: string; subtitle: s
           </li>
         ))}
       </ul>
-      <div className="flex justify-between gap-3 pt-3" style={{ borderTop: "1px solid rgba(217,194,186,0.5)" }}>
-        <span className="text-sm font-semibold" style={h2Style}>Total</span>
+      <div className="flex justify-between gap-3 pt-3" style={{ borderTop: "1px solid #ddd6cc" }}>
+        <span className="text-sm r-hx" style={h2Style}>Total</span>
         <span className="text-sm font-semibold" style={eyebrowStyle}>{total}</span>
       </div>
     </div>
@@ -610,23 +609,23 @@ export default function PilatesPrincessEssentialsPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={eyebrowStyle}>Style Edit</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Essentials</span>
+              <span className="text-[12.5px] font-bold" style={eyebrowStyle}>Style Edit</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Essentials</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={h2Style}>
-              Pilates Princess Essentials<br /><span style={{ color: "#8b4a31" }}>(2026): The Aesthetic Edit</span>
+            <h1 className="mb-6 r-d r-h1" style={h2Style}>
+              Pilates Princess Essentials<br /><span style={{ color: "#a98a5f" }}>(2026): The Aesthetic Edit</span>
             </h1>
-            <p className="text-sm mb-6" style={mutedStyle}>Prices checked October 20, 2026 · 11 min read</p>
+            <p className="text-base mb-6" style={mutedStyle}>Prices checked October 20, 2026 · 11 min read</p>
             <TopPick name={QUICK_PICKS[0].name} price={QUICK_PICKS[0].price} note={QUICK_PICKS[0].note} url={QUICK_PICKS[0].url} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed mb-6" style={{ ...bodyStyle, fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed mb-6" style={{ ...bodyStyle }}>
               The pilates princess aesthetic is soft colors, matching sets, slouchy grip socks, a claw clip and a beautiful water bottle. It is easy to buy the look and end up with leggings that go sheer on the footbar or a bra that slides every time you roll. This edit works the other way round: <strong style={{ fontWeight: 600 }}>performance first, pretty second</strong>. Every pick has a job in class, every price was checked against a live listing, and wherever a budget dupe does the job, we say so.
             </p>
-            <p className="text-sm leading-relaxed" style={bodyStyle}>
+            <p className="text-base leading-relaxed" style={bodyStyle}>
               Want the no-frills version? See our <Link href="/blog/pilates-essentials" style={guideLinkStyle}>complete Pilates essentials list →</Link> or, for studio classes, our <Link href="/blog/reformer-pilates-essentials" style={guideLinkStyle}>reformer Pilates essentials →</Link>
             </p>
           </div>
@@ -634,8 +633,8 @@ export default function PilatesPrincessEssentialsPage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/stitch-retail-activewear.png" alt="Pilates princess essentials: soft-toned matching activewear sets and studio accessories on a boutique rail" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/stitch-retail-activewear.png" alt="Pilates princess essentials: soft-toned matching activewear sets and studio accessories on a boutique rail" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -643,7 +642,6 @@ export default function PilatesPrincessEssentialsPage() {
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
 
-            <QuickPicks className="mb-6 mt-4" picks={QUICK_PICKS} />
             <AffiliateNote>Most links on this page go to Amazon, and we earn a small commission on qualifying purchases. Two picks (Alo Yoga and Lululemon) link directly to the brand&apos;s own website and are clearly marked. Prices were verified on 27 September 2026 and can change.</AffiliateNote>
 
             {/* At a glance */}
@@ -651,7 +649,7 @@ export default function PilatesPrincessEssentialsPage() {
               <div className="r-qp-hd">
                 <p className="r-qp-title">At a Glance: the complete edit</p>
               </div>
-              {GLANCE.map((p, i) => (
+              {GLANCE.map((p) => (
                 <div key={p.name} className="r-qp-row">
                   <div className="r-qp-tx">
                     <p className="r-qp-tag">{p.glance}</p>
@@ -666,8 +664,8 @@ export default function PilatesPrincessEssentialsPage() {
 
             {/* Principles */}
             <div className="mb-16 mt-4">
-              <h2 className="text-3xl font-semibold mb-6" style={h2Style}>How we edited: performance first, pretty second</h2>
-              <p className="text-sm leading-relaxed mb-6" style={bodyStyle}>
+              <h2 className="mb-6 r-d r-h2" style={h2Style}>How we edited: performance first, pretty second</h2>
+              <p className="text-base leading-relaxed mb-6" style={bodyStyle}>
                 An aesthetic is only worth buying into if it survives a real class. Four rules shaped every pick on this page.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -678,8 +676,8 @@ export default function PilatesPrincessEssentialsPage() {
                   { heading: "Verified, not invented", body: "Every Amazon price was checked against a live, in-stock listing. We do not quote ratings or claim to have tested products; the two brand-direct links are flagged." },
                 ].map((item) => (
                   <div key={item.heading} className="rounded-xl p-5" style={cardStyle}>
-                    <p className="text-sm font-semibold mb-1.5" style={h2Style}>{item.heading}</p>
-                    <p className="text-sm leading-relaxed" style={bodyStyle}>{item.body}</p>
+                    <p className="text-sm mb-1.5 r-hx" style={h2Style}>{item.heading}</p>
+                    <p className="text-base leading-relaxed" style={bodyStyle}>{item.body}</p>
                   </div>
                 ))}
               </div>
@@ -688,9 +686,9 @@ export default function PilatesPrincessEssentialsPage() {
             {/* Category sections */}
             {SECTIONS.map((s) => (
               <div key={s.id} id={s.id} className="mb-16">
-                <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={eyebrowStyle}>{s.eyebrow}</p>
-                <h2 className="text-3xl font-semibold mb-4" style={h2Style}>{s.heading}</h2>
-                <p className="text-sm leading-relaxed mb-10" style={bodyStyle}>{s.intro}</p>
+                <p className="text-[12.5px] font-bold mb-3" style={eyebrowStyle}>{s.eyebrow}</p>
+                <h2 className="mb-4 r-d r-h2" style={h2Style}>{s.heading}</h2>
+                <p className="text-base leading-relaxed mb-10" style={bodyStyle}>{s.intro}</p>
                 <div className="space-y-10">
                   {s.items.map((item) => (
                     <ProductBlock key={item.name} item={item} />
@@ -698,17 +696,17 @@ export default function PilatesPrincessEssentialsPage() {
                 </div>
                 <div className="flex flex-wrap gap-x-6 gap-y-2 mt-2">
                   {s.guides.map((g) => (
-                    <Link key={g.href + g.label} href={g.href} className="text-xs font-semibold uppercase tracking-[0.12em]" style={guideLinkStyle}>{g.label}</Link>
+                    <Link key={g.href + g.label} href={g.href} className="text-[12.5px] font-bold" style={guideLinkStyle}>{g.label}</Link>
                   ))}
                 </div>
               </div>
             ))}
 
             {/* Kit cost */}
-            <div className="mb-16 rounded-2xl p-6 md:p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={eyebrowStyle}>What the kit costs</p>
-              <h2 className="text-2xl font-semibold mb-3" style={h2Style}>The starter aesthetic vs the full edit</h2>
-              <p className="text-sm leading-relaxed mb-6" style={bodyStyle}>
+            <div className="mb-16 rounded-2xl p-6 md:p-8" style={{ backgroundColor: "#ede9e3" }}>
+              <p className="text-[12.5px] font-bold mb-3" style={eyebrowStyle}>What the kit costs</p>
+              <h2 className="mb-3 r-d r-h2" style={h2Style}>The starter aesthetic vs the full edit</h2>
+              <p className="text-base leading-relaxed mb-6" style={bodyStyle}>
                 The honest math, using the verified Amazon prices above. Both kits cover a matching set, grip socks, a bottle, a claw clip, a bag and home props; the full edit adds the Varley layers, Bala Bangles and recovery. Brand-direct pieces (Alo, Lululemon) and the home reformer are left out of both totals.
               </p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
@@ -722,12 +720,12 @@ export default function PilatesPrincessEssentialsPage() {
 
             {/* The dream */}
             <div id="the-dream" className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={eyebrowStyle}>07: The dream</p>
-              <h2 className="text-3xl font-semibold mb-4" style={h2Style}>The dream: a reformer of your own</h2>
-              <p className="text-sm leading-relaxed mb-4" style={bodyStyle}>
+              <p className="text-[12.5px] font-bold mb-3" style={eyebrowStyle}>07: The dream</p>
+              <h2 className="mb-4 r-d r-h2" style={h2Style}>The dream: a reformer of your own</h2>
+              <p className="text-base leading-relaxed mb-4" style={bodyStyle}>
                 Every aesthetic has its ultimate piece, and for this one it is a reformer at home: sunlight, a quiet corner, a session whenever you like. It is also the one purchase on this page that can pay for itself. Studio reformer classes in major US cities commonly cost $30–$40 or more each, so if you are going three or four times a week the numbers add up quickly.
               </p>
-              <p className="text-sm leading-relaxed mb-10" style={bodyStyle}>
+              <p className="text-base leading-relaxed mb-10" style={bodyStyle}>
                 Two honest caveats. A home machine does not replace a teacher&apos;s eye, so keep some studio or online classes in the mix. And measure your space before you fall in love with a machine: reformers need floor length plus room to move around them.
               </p>
               <div className="space-y-10">
@@ -736,20 +734,20 @@ export default function PilatesPrincessEssentialsPage() {
                 ))}
               </div>
               <div className="flex flex-wrap gap-x-6 gap-y-2 mt-2">
-                <Link href="/blog/merrithew-pilates" className="text-xs font-semibold uppercase tracking-[0.12em]" style={guideLinkStyle}>Full guide: Merrithew for home →</Link>
-                <Link href="/blog/best-pilates-reformer-under-500" className="text-xs font-semibold uppercase tracking-[0.12em]" style={guideLinkStyle}>Best reformers under $500 →</Link>
-                <Link href="/blog/best-pilates-reformer-for-beginners" className="text-xs font-semibold uppercase tracking-[0.12em]" style={guideLinkStyle}>Best reformers for beginners →</Link>
+                <Link href="/blog/merrithew-pilates" className="text-[12.5px] font-bold" style={guideLinkStyle}>Full guide: Merrithew for home →</Link>
+                <Link href="/blog/best-pilates-reformer-under-500" className="text-[12.5px] font-bold" style={guideLinkStyle}>Best reformers under $500 →</Link>
+                <Link href="/blog/best-pilates-reformer-for-beginners" className="text-[12.5px] font-bold" style={guideLinkStyle}>Best reformers for beginners →</Link>
               </div>
             </div>
 
             {/* FAQ */}
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={h2Style}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2" style={h2Style}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {FAQS.map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={cardStyle}>
-                    <p className="text-base font-semibold mb-2" style={h2Style}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={bodyStyle}>{item.a}</p>
+                    <p className="text-base mb-2 r-hx" style={h2Style}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={bodyStyle}>{item.a}</p>
                   </div>
                 ))}
               </div>
@@ -757,7 +755,7 @@ export default function PilatesPrincessEssentialsPage() {
 
             {/* Further reading */}
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={h2Style}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2" style={h2Style}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Varley for Pilates" excerpt="The studio-favorite label behind our matching set: which Varley pieces work best for reformer and mat." href="/blog/varley-pilates-activewear" category="Brand Guide" readTime="8 min read" date="September 2026" />
                 <ArticleCard title="Alo Yoga for Pilates" excerpt="Airbrush, Airlift and the rest of the Alo range, judged on how they perform on the carriage." href="/blog/alo-yoga-pilates" category="Brand Guide" readTime="8 min read" date="September 2026" />

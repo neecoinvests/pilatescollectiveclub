@@ -241,22 +241,22 @@ const jsonLd = {
   ],
 };
 
-const eyebrowStyle = { color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" };
-const bodyStyle = { color: "#53433e", fontFamily: "'Montserrat', sans-serif" };
-const h2Style = { color: "#1b1c1c", fontFamily: "'Playfair Display', serif" };
-const inlineLinkStyle = { color: "#8b4a31", textDecoration: "underline" };
-const chipStyle = { backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" };
-const cardStyle = { backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" };
-const strongStyle = { color: "#1b1c1c" };
+const eyebrowStyle = { color: "#0a0a0a" };
+const bodyStyle = { color: "#3a3530" };
+const h2Style = { color: "#0a0a0a" };
+const inlineLinkStyle = { color: "#0a0a0a", textDecoration: "underline" };
+const chipStyle = { backgroundColor: "#ede9e3", color: "#0a0a0a" };
+const cardStyle = { backgroundColor: "#ede9e3" };
+const strongStyle = { color: "#0a0a0a" };
 
 function TierCard({ p, n }: { p: Pick; n: number }) {
   return (
     <div id={p.id} className="scroll-mt-28">
       <div className="flex flex-wrap items-center gap-3 mb-3">
-        <span className="text-xs font-semibold" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{String(n).padStart(2, "0")}</span>
-        <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={chipStyle}>{p.badge}</span>
+        <span className="text-xs font-semibold" style={{ color: "#6f6964" }}>{String(n).padStart(2, "0")}</span>
+        <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={chipStyle}>{p.badge}</span>
       </div>
-      <p className="text-sm font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{p.verdict}</p>
+      <p className="text-sm mb-4 r-hx" style={{ color: "#0a0a0a" }}>{p.verdict}</p>
       <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.url} />
     </div>
   );
@@ -265,8 +265,8 @@ function TierCard({ p, n }: { p: Pick; n: number }) {
 function Divider({ label }: { label: string }) {
   return (
     <div className="flex items-center gap-4 mb-10">
-      <p className="text-xs font-semibold uppercase tracking-[0.2em] shrink-0" style={eyebrowStyle}>{label}</p>
-      <div className="flex-1 h-px" style={{ backgroundColor: "#d9c2ba" }} />
+      <p className="text-[12.5px] font-bold shrink-0" style={eyebrowStyle}>{label}</p>
+      <div className="flex-1 h-px" style={{ backgroundColor: "#ddd6cc" }} />
     </div>
   );
 }
@@ -286,23 +286,23 @@ export default function LagreeShirtsPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={eyebrowStyle}>Lagree Clothing</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Tees &amp; Hoodies</span>
+              <span className="text-[12.5px] font-bold" style={eyebrowStyle}>Lagree Clothing</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Tees &amp; Hoodies</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Lagree Shirts &amp; Hoodies<br /><span style={{ color: "#8b4a31" }}>(2026): Fitted Tees &amp; Fan Merch</span>
+            <h1 className="mb-6 r-d r-h1">
+              Lagree Shirts &amp; Hoodies<br /><span style={{ color: "#a98a5f" }}>(2026): Fitted Tees &amp; Fan Merch</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 8 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 8 min read</p>
             <TopPick name={QUICK_PICKS[0].name} price={QUICK_PICKS[0].price} note={QUICK_PICKS[0].note} url={QUICK_PICKS[0].url} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed mb-6" style={{ color: "#3a3530" }}>
               &ldquo;Lagree shirt&rdquo; means two different things. One is the shirt you actually wear on the Megaformer, and it has to be fitted, because a loose tee slides up your back in bear and falls over your face in plank. The other is the shirt that says you do Lagree: the fan tees and hoodies you wear to class, after class, or give to the friend who won&apos;t stop talking about it. Here are the best of both.
             </p>
-            <p className="text-sm leading-relaxed" style={bodyStyle}>
+            <p className="text-base leading-relaxed" style={bodyStyle}>
               Every Amazon price and stock status was checked live on October 4, 2026. Prices change, so the final price is whatever Amazon shows at checkout.
             </p>
           </div>
@@ -310,8 +310,8 @@ export default function LagreeShirtsPage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/stitch-retail-activewear.png" alt="Fitted activewear tees on a rail: Lagree shirts" fill className="object-cover" style={{ filter: "brightness(0.85)" }} priority />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/stitch-retail-activewear.png" alt="Fitted activewear tees on a rail: Lagree shirts" fill className="object-cover" priority />
             </div>
           </div>
         </section>
@@ -326,12 +326,12 @@ export default function LagreeShirtsPage() {
 
 
             {/* Rule */}
-            <div className="mb-16 rounded-2xl p-6 md:p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.5)" }}>
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={eyebrowStyle}>The one rule</p>
-              <p className="text-sm leading-relaxed mb-4" style={bodyStyle}>
+            <div className="mb-16 rounded-2xl p-6 md:p-8" style={{ backgroundColor: "#ede9e3" }}>
+              <p className="text-[12.5px] font-bold mb-3" style={eyebrowStyle}>The one rule</p>
+              <p className="text-base leading-relaxed mb-4" style={bodyStyle}>
                 <span className="font-semibold" style={strongStyle}>On the machine, fitted and wicking. Off the machine, anything you like.</span> Lagree keeps you in plank, bear, wheelbarrow and on all fours on a moving carriage, and you will sweat a lot. A slim, moisture-wicking top stays put and dries; a loose cotton tee rides up and gets heavy.
               </p>
-              <p className="text-sm leading-relaxed" style={bodyStyle}>
+              <p className="text-base leading-relaxed" style={bodyStyle}>
                 If you prefer a tank, our{" "}
                 <Link href="/blog/best-lagree-tops" style={inlineLinkStyle}>best Lagree tops</Link> guide covers fitted racerbacks.
               </p>
@@ -339,8 +339,8 @@ export default function LagreeShirtsPage() {
 
             <Divider label="For class" />
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-4" style={h2Style}>Tees that work on the Megaformer</h2>
-              <p className="text-sm leading-relaxed mb-8" style={bodyStyle}>
+              <h2 className="mb-4 r-d r-h2" style={h2Style}>Tees that work on the Megaformer</h2>
+              <p className="text-base leading-relaxed mb-8" style={bodyStyle}>
                 Slim or compression fits in sweat-wicking fabric. All four are sold by the brand or by Amazon.com.
               </p>
               <div className="space-y-12">
@@ -352,8 +352,8 @@ export default function LagreeShirtsPage() {
 
             <Divider label="For fans" />
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-4" style={h2Style}>Lagree tees &amp; hoodies for fans</h2>
-              <p className="text-sm leading-relaxed mb-6" style={bodyStyle}>
+              <h2 className="mb-4 r-d r-h2" style={h2Style}>Lagree tees &amp; hoodies for fans</h2>
+              <p className="text-base leading-relaxed mb-6" style={bodyStyle}>
                 Be clear about what these are: <span className="font-semibold" style={strongStyle}>unofficial fan designs</span>, sold by Amazon.com, not Lagree Fitness merchandise. They are classic-fit casual tees and hoodies, not technical training tops, so wear them to and from class rather than on the machine. If you want official studio merch, ask at your studio&apos;s front desk.
               </p>
               <div className="space-y-12">
@@ -361,7 +361,7 @@ export default function LagreeShirtsPage() {
                   <TierCard key={p.id} p={p} n={CLASS_TEES.length + i + 1} />
                 ))}
               </div>
-              <p className="text-sm leading-relaxed mt-2" style={bodyStyle}>
+              <p className="text-base leading-relaxed mt-2" style={bodyStyle}>
                 Shopping for someone else? Our{" "}
                 <Link href="/blog/best-lagree-gifts" style={inlineLinkStyle}>Lagree gifts guide</Link> has 18 ideas by budget.
               </p>
@@ -369,19 +369,19 @@ export default function LagreeShirtsPage() {
 
             {/* FAQ */}
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={h2Style}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2" style={h2Style}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {FAQS.map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={cardStyle}>
-                    <h3 className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</h3>
-                    <p className="text-sm leading-relaxed" style={bodyStyle}>{item.a}</p>
+                    <h3 className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</h3>
+                    <p className="text-base leading-relaxed" style={bodyStyle}>{item.a}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={h2Style}>Complete the outfit</h2>
+              <h2 className="mb-8 r-d r-h2" style={h2Style}>Complete the outfit</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="What to Wear to Lagree" excerpt="Three complete head-to-toe outfits, from budget to premium, plus what to leave at home." href="/blog/what-to-wear-to-lagree" category="Lagree" readTime="10 min read" date="October 2026" imageUrl="/pictures/stitch-grip-socks-footbar.png" />
                 <ArticleCard title="Lagree Jacket" excerpt="The Define Jacket and six fitted layers for the cold studio and the walk home." href="/blog/best-lagree-jacket" category="Lagree" readTime="8 min read" date="October 2026" imageUrl="/pictures/stitch-studio-entryway.png" />

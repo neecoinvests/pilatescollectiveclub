@@ -85,20 +85,20 @@ export default function PilatesForMenPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>For Men</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>For Men</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Pilates for Men:<br /><span style={{ color: "#8b4a31" }}>What It Actually Delivers</span>
+            <h1 className="mb-6 r-d r-h1">
+              Pilates for Men:<br /><span style={{ color: "#a98a5f" }}>What It Actually Delivers</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 11 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 11 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               Joseph Pilates was a boxer and gymnast who built this system training soldiers and athletes, and his early clientele was largely male. The modern perception is almost exactly inverted. That is a marketing accident rather than anything to do with the method, and it means a training tool that addresses the specific weaknesses of a typical male training history is being skipped by the people who would benefit most from it.
             </p>
           </div>
@@ -107,7 +107,7 @@ export default function PilatesForMenPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/logan-weaver-lgnwvr-u76Gd0hP5w4-unsplash.jpg" alt="Pilates for men: controlled mat and reformer work that complements strength training" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/logan-weaver-lgnwvr-u76Gd0hP5w4-unsplash.jpg" alt="Pilates for men: controlled mat and reformer work that complements strength training" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -119,20 +119,20 @@ export default function PilatesForMenPage() {
             <AffiliateNote />
 
             <div className="mb-14 mt-4">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Why it maps so well onto male training gaps</h2>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">Why it maps so well onto male training gaps</h2>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 A typical male training background (barbell work, running, field sports, or some combination) produces a recognizable profile. The prime movers are strong. The deep stabilizers are comparatively weak, because compound lifts train them isometrically at best and a belt substitutes for some of the work. Hip and thoracic mobility are limited, because heavy loading in a narrow range does not maintain range. The posterior chain is strong at the ranges it is trained at and much weaker outside them.
               </p>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 Pilates targets each of those directly. It removes momentum and external load so the small stabilizing muscles cannot hide behind larger ones. It trains hip dissociation, moving the femur independently of the pelvis, which is the mechanical basis of a clean hinge and a deep squat. It works the thoracic spine in extension and rotation, restoring range that hours of loaded flexion remove.
               </p>
-              <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>
                 The practical consequence is that Pilates rarely competes with strength training for adaptation and often unlocks it. Men who add two sessions a week commonly report better squat depth, a more stable overhead position, and less lower back irritation after heavy pulling, not because they got stronger, but because they got access to positions their strength could not previously reach.
               </p>
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What men gain specifically</h2>
+              <h2 className="mb-6 r-d r-h2">What men gain specifically</h2>
               <div className="space-y-4">
                 {[
                   {
@@ -160,29 +160,29 @@ export default function PilatesForMenPage() {
                     body: "Lateral, ribcage-directed breathing is a core skill in Pilates and a genuinely useful one for endurance athletes and lifters alike. It improves rib position, which improves the alignment the diaphragm and pelvic floor work in: a quieter benefit than the others, and one that tends to matter more over time.",
                   },
                 ].map((item) => (
-                  <div key={item.title} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.title}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
+                  <div key={item.title} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.title}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.body}</p>
                   </div>
                 ))}
               </div>
             </div>
 
-            <div className="mb-14 rounded-2xl p-8" style={{ backgroundColor: "#f7f4f0", border: "1px solid rgba(217,194,186,0.4)" }}>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What the first class is actually like</h2>
-              <p className="text-sm leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+            <div className="mb-14 rounded-2xl p-8" style={{ backgroundColor: "#f7f4f0", border: "1px solid #ddd6cc" }}>
+              <h2 className="mb-4 r-d r-h2">What the first class is actually like</h2>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 Expect to be worse at it than your training history suggests you should be, and expect that to be the useful part. The exercises are slow, the ranges are unfamiliar, and the cues are about position rather than effort. Men who squat comfortably above bodyweight routinely struggle with a controlled roll-down or a single-leg bridge, because those movements ask for segmental control rather than force production. Nothing about that reflects poorly on your strength; it simply measures something your strength training never developed.
               </p>
-              <p className="text-sm leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 The second thing to expect is the hamstring and hip flexor limitation. A large proportion of men cannot straighten a leg to vertical in a supine position without the pelvis tipping. Instructors see this constantly and will hand you a strap or bend the knee without comment.
               </p>
-              <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>
                 Practically: book a private or a beginner-specific class rather than dropping into a general reformer session, wear fitted rather than loose clothing so the instructor can actually see your spine and rib position, and bring grip socks. Tell the teacher your training background at the start, good instructors adjust their cueing substantially for someone who lifts.
               </p>
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Programming it alongside your existing training</h2>
+              <h2 className="mb-6 r-d r-h2">Programming it alongside your existing training</h2>
               <div className="space-y-4">
                 {[
                   { label: "Alongside a strength program", body: "Two Pilates sessions a week on lower-body rest days. Avoid stacking Pilates directly after heavy squats or deadlifts: fatigued stabilizers make the control work far less productive. If you train four days a week, Pilates on the two off days is the cleanest arrangement." },
@@ -191,16 +191,16 @@ export default function PilatesForMenPage() {
                   { label: "For injury rehabilitation", body: "Start with privates rather than group classes: one-to-one for four to six sessions is worth considerably more than twenty group classes when there is a specific problem to work around. Ask specifically whether the studio has instructors with clinical or rehabilitation training." },
                   { label: "Mat or reformer to begin with", body: "Reformer, if the budget allows. The springs provide feedback and assistance that make the movements more legible for a beginner, and the supported positions suit tight hamstrings better than the mat repertoire does. Mat work is more demanding on mobility than it looks and is often the harder starting point for men." },
                 ].map((item) => (
-                  <div key={item.label} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.label}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
+                  <div key={item.label} className="rounded-2xl p-5" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-sm mb-1.5 r-hx" style={{ color: "#0a0a0a" }}>{item.label}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.body}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   { q: "Is Pilates good for men?", a: "Yes, and the method was created by a man for an initially male clientele: Joseph Pilates was a boxer and gymnast who developed the system training other athletes, soldiers and dancers. The reason it suits men well in practice is that the typical male training history produces exactly the deficits Pilates targets: strong prime movers with weak deep stabilizers, limited hip and thoracic mobility, and a posterior chain trained through a narrow range. It complements strength work rather than duplicating it." },
@@ -208,9 +208,9 @@ export default function PilatesForMenPage() {
                   { q: "Why is Pilates so hard for men the first time?", a: "Because it loads what most male training programs neglect. Men typically arrive with well-developed prime movers and comparatively weak deep abdominal and hip stabilizers, plus limited hamstring and thoracic mobility. Pilates removes momentum and external load and asks the small stabilizing muscles to work in isolation, often in end ranges that are unfamiliar. It is common for a man who squats well over bodyweight to struggle with a slow roll-down or a single-leg bridge. The difficulty is a diagnosis, not a verdict." },
                   { q: "How often should men do Pilates?", a: "Two sessions a week is the point where most men notice a change, and it fits comfortably alongside three or four days of lifting. If the goal is mobility and injury prevention around a heavy strength program, one dedicated session plus ten minutes of targeted work on training days is sufficient. If Pilates is the primary training mode rather than an accessory, three to four sessions a week is appropriate. Placing sessions on lower-body rest days generally works better than stacking them after heavy squats or deadlifts." },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
@@ -218,9 +218,9 @@ export default function PilatesForMenPage() {
 
             {/* Equipment */}
 
-            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Recommended kit</h2>
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid #ddd6cc" }}>
+              <p className="text-[12.5px] font-bold mb-2" style={{ color: "#0a0a0a" }}>Equipment</p>
+              <h2 className="mb-8 r-d r-h2">Recommended kit</h2>
               <div className="space-y-8">
                 {PRODUCTS.map((p) => (
                   <ProductCard key={p.name} name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
@@ -229,7 +229,7 @@ export default function PilatesForMenPage() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Pilates Equipment for Men" excerpt="Mats, props and reformers sized and specified for larger frames." href="/blog/best-pilates-equipment-for-men" category="Equipment" readTime="10 min read" date="June 2026" imageUrl="/pictures/stitch-mat-setup-beige.png" />
                 <ArticleCard title="Pilates vs Gym" excerpt="What each training mode develops, and why the honest answer is usually both." href="/blog/pilates-vs-gym" category="Comparison" readTime="10 min read" date="June 2026" imageUrl="/pictures/stitch-reformer-morning-light.png" />

@@ -129,20 +129,20 @@ export default function BestPilatesWorkoutTopsPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Apparel</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Equipment Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Apparel</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best Pilates Tops &amp; Sports Bras<br /><span style={{ color: "#8b4a31" }}>(2026): Ranked</span>
+            <h1 className="mb-6 r-d r-h1">
+              Best Pilates Tops &amp; Sports Bras<br /><span style={{ color: "#a98a5f" }}>(2026): Ranked</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated May 2026 · 8 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Updated May 2026 · 8 min read</p>
             <TopPick name={PRODUCTS[3].name} price={PRODUCTS[3].price} note={QP_NOTES[3]} url={PRODUCTS[3].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               Pilates tops need to do something most activewear tops don&apos;t: stay in place and provide clean lines for instructor observation across an enormous range of body positions, lying supine, prone, side-lying, seated, standing, and everything in between. A top that rides up during the hundred, bunches during shoulder bridge, or restricts shoulder mobility during long stretch makes the class both uncomfortable and less effective. These five options have been selected because they actually solve these problems.
             </p>
           </div>
@@ -150,8 +150,8 @@ export default function BestPilatesWorkoutTopsPage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" alt="Best Pilates workout tops and sports bras for studio and reformer: Lululemon, Alo, and Varley compared" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" alt="Best Pilates workout tops and sports bras for studio and reformer: Lululemon, Alo, and Varley compared" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -164,7 +164,7 @@ export default function BestPilatesWorkoutTopsPage() {
 
 
             <div className="mb-16 mt-4">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What makes a Pilates top different</h2>
+              <h2 className="mb-6 r-d r-h2">What makes a Pilates top different</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[
                   { heading: "Coverage across positions", body: "A top that covers the midriff while standing may not cover it in seated flexion, supine position, or during side-lying leg work. Test coverage across positions, not just standing." },
@@ -172,22 +172,22 @@ export default function BestPilatesWorkoutTopsPage() {
                   { heading: "Shoulder mobility", body: "Overhead work, the long stretch series, and open-leg rocker require full shoulder mobility. Tops with tight armholes or wide straps that pull restrict the arm movement Pilates demands." },
                   { heading: "Support level", body: "Pilates is low-impact but involves significant postural changes. Medium support, enough to be stable without compression, is the ideal. High-impact bras are unnecessarily restrictive during floor-based work." },
                 ].map((item) => (
-                  <div key={item.heading} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.heading}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
+                  <div key={item.heading} className="rounded-2xl p-5" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-sm mb-1.5 r-hx" style={{ color: "#0a0a0a" }}>{item.heading}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.body}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Tops & Bras · Ranked</p>
+              <p className="text-[12.5px] font-bold mb-10" style={{ color: "#0a0a0a" }}>5 Tops & Bras · Ranked</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
                     <div className="flex items-center gap-3 mb-4">
-                      <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                      <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tag}</span>
+                      <span className="text-2xl r-hx" style={{ color: "#9a9490" }}>{p.rank}</span>
+                      <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{p.tag}</span>
                     </div>
                     <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                   </div>
@@ -195,8 +195,8 @@ export default function BestPilatesWorkoutTopsPage() {
               </div>
             </div>
 
-            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Building a Pilates wardrobe that works</h2>
+            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#ede9e3" }}>
+              <h2 className="mb-4 r-d r-h2">Building a Pilates wardrobe that works</h2>
               <ul className="space-y-3">
                 {[
                   "Start with two to three tank tops or long sleeves in neutral colors: these work across every studio aesthetic and don't visually compete with your instructor's cues.",
@@ -205,8 +205,8 @@ export default function BestPilatesWorkoutTopsPage() {
                   "Machine wash cold, air dry. Performance fabrics lose shape faster in tumble driers, particularly the four-way stretch materials that make fitted Pilates tops functional.",
                   "Replace when the hem loses elasticity and begins to ride up. A hem that doesn't stay down during the rollover is not just annoying: it signals that the fabric's recovery has failed.",
                 ].map((tip, i) => (
-                  <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                    <span className="font-semibold" style={{ color: "#8b4a31" }}>{i + 1}.</span>
+                  <li key={i} className="flex gap-3 text-base" style={{ color: "#3a3530" }}>
+                    <span className="font-semibold" style={{ color: "#0a0a0a" }}>{i + 1}.</span>
                     {tip}
                   </li>
                 ))}
@@ -214,7 +214,7 @@ export default function BestPilatesWorkoutTopsPage() {
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   { q: "Should I wear a sports bra or a built-in tank for Pilates?", a: "Both work. A dedicated sports bra under a tank gives you the most flexibility: you can adjust layers based on studio temperature and preference. A built-in shelf bra tank is convenient for practitioners who don't need significant support. A padded built-in bra is rarely suitable as the sole layer during active reformer work." },
@@ -222,16 +222,16 @@ export default function BestPilatesWorkoutTopsPage() {
                   { q: "Can I wear a regular gym top to a reformer class?", a: "Yes: any fitted top without loose fabric or hardware works. The only functional requirements are that it stays in place across all positions and allows full shoulder mobility. The premium brands recommended here go beyond minimum functionality, but any fitted athletic top without these problems is appropriate." },
                   { q: "What about wearing a hoodie or sweater over my top in class?", a: "Layering for warmth before class is sensible. Most instructors will ask you to remove outer layers once class begins: a hoodie prevents the spinal observation that allows effective cueing. Keep a warm layer for the walk to and from the studio; plan to wear your studio top during the session itself." },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="What to Wear to Pilates" excerpt="The complete guide to choosing the right clothes for studio and reformer classes." href="/blog/what-to-wear-to-pilates" category="Guide" readTime="6 min read" date="May 2026" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Leggings" excerpt="From Lululemon Align to CRZ YOGA: compared on opacity, waistband stability, and reformer performance." href="/blog/best-pilates-leggings" category="Equipment" readTime="9 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />

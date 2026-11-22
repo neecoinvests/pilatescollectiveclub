@@ -142,20 +142,20 @@ export default function BestYogaBolsterForPilatesPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Props</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Equipment Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Props</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best Bolsters<br /><span style={{ color: "#8b4a31" }}>for Pilates (2026)</span>
+            <h1 className="mb-6 r-d r-h1">
+              Best Bolsters<br /><span style={{ color: "#a98a5f" }}>for Pilates (2026)</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 8 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 8 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               Firmness is the specification that matters most here, and it is the one most listings are vaguest about. A bolster exists to hold a body part at a fixed height while the muscles around it release, so a soft one, which compresses within seconds of load, has stopped being a bolster and become a cushion. These five cover the shapes worth owning, from an everyday rectangular default to a two-piece set and a round option for chest-opening work.
             </p>
           </div>
@@ -163,8 +163,8 @@ export default function BestYogaBolsterForPilatesPage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/juls-p-lB6lbkbe1XA-unsplash.jpg" alt="Best bolsters for Pilates: supported restorative and side-lying positions" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/juls-p-lB6lbkbe1XA-unsplash.jpg" alt="Best bolsters for Pilates: supported restorative and side-lying positions" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -175,13 +175,13 @@ export default function BestYogaBolsterForPilatesPage() {
             <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Bolsters · Ranked</p>
+              <p className="text-[12.5px] font-bold mb-10" style={{ color: "#0a0a0a" }}>5 Bolsters · Ranked</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
                     <div className="flex items-center gap-3 mb-4">
-                      <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                      <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tag}</span>
+                      <span className="text-2xl r-hx" style={{ color: "#9a9490" }}>{p.rank}</span>
+                      <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{p.tag}</span>
                     </div>
                     <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                   </div>
@@ -189,8 +189,8 @@ export default function BestYogaBolsterForPilatesPage() {
               </div>
             </div>
 
-            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#fff4f1", border: "1px solid rgba(139,74,49,0.15)" }}>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What to check before buying</h2>
+            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#fff4f1", border: "1px solid #ddd6cc" }}>
+              <h2 className="mb-4 r-d r-h2">What to check before buying</h2>
               <ul className="space-y-3">
                 {[
                   "Press it hard with a flat palm on arrival. If it compresses more than about a third, it will not hold a body in position: return it.",
@@ -200,8 +200,8 @@ export default function BestYogaBolsterForPilatesPage() {
                   "Buckwheat is heavy. Excellent at home, genuinely awkward to carry to a studio.",
                   "Carry handles are worth having on any bolster you intend to move between rooms.",
                 ].map((tip, i) => (
-                  <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                    <span className="font-semibold" style={{ color: "#8b4a31" }}>⚠</span>
+                  <li key={i} className="flex gap-3 text-base" style={{ color: "#3a3530" }}>
+                    <span className="font-semibold" style={{ color: "#0a0a0a" }}>⚠</span>
                     {tip}
                   </li>
                 ))}
@@ -209,7 +209,7 @@ export default function BestYogaBolsterForPilatesPage() {
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   { q: "Do you need a bolster for Pilates?", a: "Not for the classical repertoire, which uses no props at all. A bolster becomes genuinely useful in three situations: pregnancy and postnatal work, where side-lying support makes the difference between a sustainable session and an abandoned one; restorative and breath-led practice, where the body needs to be held in position long enough to release; and any presentation where a supported position is the only comfortable starting point, such as acute back pain. Outside those, a bolster is a comfort rather than a requirement." },
@@ -217,16 +217,16 @@ export default function BestYogaBolsterForPilatesPage() {
                   { q: "What size bolster should I buy?", a: "The standard rectangular size of roughly 25 by 12 by 6 inches suits most adults and most uses. Height is the dimension worth thinking about: 6 inches is the versatile default, while 9-inch round bolsters give more lift for supported backbends and under-knee support and can be too much for smaller frames. Anyone under about 5'2\" often finds a standard bolster lifts them uncomfortably high in supine work and is better served by a lower-profile or pranayama bolster." },
                   { q: "What fill is best in a bolster?", a: "Densely packed cotton batting is the best general-purpose fill: firm, resilient, and it holds loft for years. Buckwheat hulls are firmer still and molding, which suits heavier users and anyone who keeps bottoming out other bolsters, at the cost of considerable weight. Polyester or foam-chip fill is the budget option and the one to be wary of, because it compresses permanently rather than recovering, so a bolster that felt supportive on arrival can be noticeably flatter within a year." },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Pilates and Pregnancy" excerpt="What changes each trimester, which positions to set aside, and how to keep practicing safely." href="/blog/pilates-and-pregnancy" category="Health" readTime="11 min read" date="June 2026" imageUrl="/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg" />
                 <ArticleCard title="Best Yoga Blocks for Pilates (2026)" excerpt="Cork, foam and wood blocks compared for support, height and stability." href="/blog/best-yoga-blocks-for-pilates" category="Equipment" readTime="7 min read" date="June 2026" imageUrl="/pictures/stitch-props-cork-ring.png" />

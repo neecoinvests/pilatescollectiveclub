@@ -152,20 +152,20 @@ export default function BestTabletHolderForSpinBikePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Spinning</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Equipment Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Spinning</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best Tablet Holders<br /><span style={{ color: "#8b4a31" }}>for Spin Bikes (2026)</span>
+            <h1 className="mb-6 r-d r-h1">
+              Best Tablet Holders<br /><span style={{ color: "#a98a5f" }}>for Spin Bikes (2026)</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked November 7, 2026 · 8 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked November 7, 2026 · 8 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               Two things kill mounts in this category and neither is load capacity. Sweat is corrosive and drips straight onto anything clamped to the bars, so plated steel hardware rusts within months. And out-of-saddle sprints shake the handlebars hard enough that long unsupported arms oscillate until the screen is unreadable and the fitting works loose. Bar diameter is the third trap: indoor bars are thicker than road bars, so measure before ordering.
             </p>
           </div>
@@ -173,8 +173,8 @@ export default function BestTabletHolderForSpinBikePage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/henrique-ferreira-omiTbS-nb_M-unsplash.jpg" alt="Indoor cycling setup with a screen mounted for a class" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/henrique-ferreira-omiTbS-nb_M-unsplash.jpg" alt="Indoor cycling setup with a screen mounted for a class" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -185,13 +185,13 @@ export default function BestTabletHolderForSpinBikePage() {
             <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>6 Mounts · Ranked</p>
+              <p className="text-[12.5px] font-bold mb-10" style={{ color: "#0a0a0a" }}>6 Mounts · Ranked</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
                     <div className="flex items-center gap-3 mb-4">
-                      <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                      <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tag}</span>
+                      <span className="text-2xl r-hx" style={{ color: "#9a9490" }}>{p.rank}</span>
+                      <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{p.tag}</span>
                     </div>
                     <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                   </div>
@@ -199,8 +199,8 @@ export default function BestTabletHolderForSpinBikePage() {
               </div>
             </div>
 
-            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#fff4f1", border: "1px solid rgba(139,74,49,0.15)" }}>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Check before you order</h2>
+            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#fff4f1", border: "1px solid #ddd6cc" }}>
+              <h2 className="mb-4 r-d r-h2">Check before you order</h2>
               <ul className="space-y-3">
                 {[
                   "Measure your handlebar diameter. Indoor bars are commonly 31.8–35mm, thicker than the road bars many budget mounts are specified for.",
@@ -210,8 +210,8 @@ export default function BestTabletHolderForSpinBikePage() {
                   "Check a tray does not block the bike's own console or resistance knob.",
                   "Wipe the mount down after every session. It roughly doubles the life of anything in this category.",
                 ].map((tip, i) => (
-                  <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                    <span className="font-semibold" style={{ color: "#8b4a31" }}>⚠</span>
+                  <li key={i} className="flex gap-3 text-base" style={{ color: "#3a3530" }}>
+                    <span className="font-semibold" style={{ color: "#0a0a0a" }}>⚠</span>
                     {tip}
                   </li>
                 ))}
@@ -219,7 +219,7 @@ export default function BestTabletHolderForSpinBikePage() {
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   { q: "Will a tablet holder fit my spin bike handlebars?", a: "Check the bar diameter before ordering, because this is the most common reason a mount arrives and cannot be fitted. Indoor bike handlebars are typically thicker than road bike bars, commonly 31.8 to 35mm, while many budget mounts are specified for slimmer tubing. Measure across the section of bar where you intend to clamp, since many indoor bars taper. If your bike has an unusually shaped or fully wrapped bar, a strap-style silicone mount or a tray that fits the screen post is a safer choice than a rigid clamp." },
@@ -227,16 +227,16 @@ export default function BestTabletHolderForSpinBikePage() {
                   { q: "Where should the screen sit for good posture?", a: "As close to eye level as the setup allows. A tablet clamped to the handlebars sits low, which means 45 minutes with the neck flexed forward: the same sustained position that produces the upper back and neck stiffness most desk workers are already dealing with. A gooseneck or floor-stand arm lets you raise the screen to eye height and keep the neck neutral. If you are stuck with a bar-level mount, deliberately look up and away every few minutes rather than holding one head position for the whole class." },
                   { q: "Are tablet holders stable during out-of-saddle sprints?", a: "Short rigid clamps are; long flexible arms and wide trays are not. Standing sprints shake the bars considerably, and any mount with an extended unsupported arm will oscillate enough to make a screen unreadable and to work the fitting loose over time. If your riding involves frequent standing work, choose the shortest, most rigid mount that holds your device and keep it close to the bar. Wide trays in particular are only suitable for seated endurance riding, since they also block the bars themselves." },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Bike Computer for Indoor Cycling" excerpt="Head units and consoles for riders who want real metrics rather than a class screen." href="/blog/best-bike-computer-for-indoor-cycling" category="Spinning" readTime="9 min read" date="June 2026" imageUrl="/pictures/dane-wetton-t1NEMSm1rgI-unsplash.jpg" />
                 <ArticleCard title="Best Personal Fan for a Home Gym" excerpt="Airflow is the difference between a tolerable indoor ride and a miserable one." href="/blog/best-personal-fan-for-home-gym" category="Spinning" readTime="7 min read" date="June 2026" imageUrl="/pictures/stitch-studio-open-window.png" />

@@ -141,20 +141,20 @@ export default function BestFlooringForHomePilatesStudioPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Home Studio</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Equipment Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Home Studio</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best Flooring for a<br /><span style={{ color: "#8b4a31" }}>Home Pilates Studio</span>
+            <h1 className="mb-6 r-d r-h1">
+              Best Flooring for a<br /><span style={{ color: "#a98a5f" }}>Home Pilates Studio</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 8 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 8 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               Flooring is the decision people make last and regret first. Buy too little coverage and you&apos;re stuck taping tiles together at the edge of your mat; buy the wrong type and equipment leaves permanent dents within weeks. Interlocking EVA foam tiles are the practical, do-it-yourself answer for almost every home Pilates room: no adhesive, no professional installation, and tiles that lift out individually if one gets damaged or come up entirely when you move. The real decisions are how much square footage you need and whether anything heavier than a mat will sit on the floor. These five options span a small budget starter pack up to full-room coverage, plus a heavier rubber-top tile built to take equipment.
             </p>
           </div>
@@ -162,8 +162,8 @@ export default function BestFlooringForHomePilatesStudioPage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/stitch-mats-corner-sunlit.png" alt="A sunlit home Pilates corner with mats laid out over studio flooring" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/stitch-mats-corner-sunlit.png" alt="A sunlit home Pilates corner with mats laid out over studio flooring" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -174,13 +174,13 @@ export default function BestFlooringForHomePilatesStudioPage() {
             <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Options · Ranked</p>
+              <p className="text-[12.5px] font-bold mb-10" style={{ color: "#0a0a0a" }}>5 Options · Ranked</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
                     <div className="flex items-center gap-3 mb-4">
-                      <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                      <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tag}</span>
+                      <span className="text-2xl r-hx" style={{ color: "#9a9490" }}>{p.rank}</span>
+                      <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{p.tag}</span>
                     </div>
                     <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                   </div>
@@ -188,8 +188,8 @@ export default function BestFlooringForHomePilatesStudioPage() {
               </div>
             </div>
 
-            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#fff4f1", border: "1px solid rgba(139,74,49,0.15)" }}>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Measure and check before you order</h2>
+            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#fff4f1", border: "1px solid #ddd6cc" }}>
+              <h2 className="mb-4 r-d r-h2">Measure and check before you order</h2>
               <ul className="space-y-3">
                 {[
                   "Measure your room in square feet before ordering: coverage varies hugely between these options, from an 18-piece starter pack up to the 144-square-foot full-room set.",
@@ -199,8 +199,8 @@ export default function BestFlooringForHomePilatesStudioPage() {
                   "Look for low-VOC or certified products where listed. Budget EVA foam can smell strongly when new, so air the room out for a few days before using it.",
                   "If you're renting, this is one of the few flooring types that needs no adhesive at all: tiles lift up cleanly and travel with you when you move.",
                 ].map((tip, i) => (
-                  <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                    <span className="font-semibold" style={{ color: "#8b4a31" }}>⚠</span>
+                  <li key={i} className="flex gap-3 text-base" style={{ color: "#3a3530" }}>
+                    <span className="font-semibold" style={{ color: "#0a0a0a" }}>⚠</span>
                     {tip}
                   </li>
                 ))}
@@ -208,23 +208,23 @@ export default function BestFlooringForHomePilatesStudioPage() {
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   { q: "Can interlocking foam tiles handle a reformer or other Pilates equipment?", a: "Standard EVA foam tiles, like the ProsourceFit, Haulcove, bemaxx and Nazhura sets, aren't built for concentrated point loads and can dent under a reformer's feet or wheels over time. If equipment will live in the room, the AIRHOP rubber-top tiles are the better choice: the rubber surface resists compression far better than foam alone. For rooms used for mat, floor and prop work only, any of the pure-foam options are fine." },
                   { q: "How much flooring do I actually need?", a: "It depends entirely on the room. An 18-piece starter pack like the Haulcove set is enough for a single practice corner, a 12-pack such as the Nazhura set covers roughly 48 square feet, a mid-size room, and the ProsourceFit set's 144 square feet is built for covering a full room in one purchase. Measure your space in square feet first and add a little extra for trimming at the walls." },
                   { q: "Do budget and premium interlocking tiles actually differ?", a: "Among pure EVA foam tiles, the main differences are pack size and finish quality rather than dramatic performance gaps: the Haulcove and bemaxx sets are both genuinely budget options at a similar price point, while the ProsourceFit set costs more mainly because it covers far more square footage in one purchase, not because the tile itself is a different category of product. The real step up in durability comes from switching to a rubber-top tile like AIRHOP, which is built to handle heavier use than any of the foam-only options." },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Home Pilates Studio Setup" excerpt="Space, flooring, equipment and lighting: how to plan a home studio that actually gets used." href="/blog/home-pilates-studio-setup" category="Guide" readTime="11 min read" date="June 2026" imageUrl="/pictures/stitch-studio-open-window.png" />
                 <ArticleCard title="Best Pilates Reformer for Small Spaces" excerpt="Foldable and compact machines that fit a flat without dominating it." href="/blog/best-pilates-reformer-for-small-spaces" category="Equipment" readTime="10 min read" date="June 2026" imageUrl="/pictures/stitch-reformer-sunlit-minimal.png" />

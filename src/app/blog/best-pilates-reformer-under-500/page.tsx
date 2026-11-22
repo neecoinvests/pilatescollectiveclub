@@ -125,20 +125,20 @@ export default function BestPilatesReformerUnder500Page() {
       <main>
 
         {/* Hero section */}
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Budget Reformers</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Equipment Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Budget Reformers</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best Pilates Reformer Under $500 (2026):<br /><span style={{ color: "#8b4a31" }}>3 Real Picks</span>
+            <h1 className="mb-6 r-d r-h1">
+              Best Pilates Reformer Under $500 (2026):<br /><span style={{ color: "#a98a5f" }}>3 Real Picks</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 9 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 9 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               Genuine spring reformers do exist under $500. Live Amazon listings include a real tier of generic-brand full reformers, WINDFOOT and DWKWE, that use actual coil-spring or spring-and-cord carriage resistance, not just elastic cords. This guide covers all three real options: two genuine spring reformers from unfamiliar brands, and the AeroPilates 287 cord machine from an established one. None of them is equivalent to a $2,000+ studio-grade machine, but under $500, this is the honest, complete picture of what&apos;s actually for sale.
             </p>
           </div>
@@ -147,8 +147,8 @@ export default function BestPilatesReformerUnder500Page() {
         {/* Hero image */}
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg" alt="Best budget Pilates reformer under $500, reviewed" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg" alt="Best budget Pilates reformer under $500, reviewed" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -163,21 +163,21 @@ export default function BestPilatesReformerUnder500Page() {
 
             {/* Cords vs springs */}
             <div className="mb-16 mt-4">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Springs vs cords, and generic vs established brands</h2>
-              <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">Springs vs cords, and generic vs established brands</h2>
+              <p className="text-base leading-relaxed mb-6" style={{ color: "#3a3530" }}>
                 Studio reformers use coil springs: traditionally several springs of varying weights. The resistance builds progressively through the movement arc: heavy at full extension, lighter mid-movement. This progressive tension is integral to how classical Pilates exercises feel and function, and it is what instructors are referring to when they cue resistance during footwork and long-box work.
               </p>
-              <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed mb-6" style={{ color: "#3a3530" }}>
                 Under $500 there are now two real categories, not one. The DWKWE and WINDFOOT use genuine spring (or spring-plus-latex) resistance in an actual carriage-and-rail frame: closer in mechanism to a studio reformer than a cord machine is. The AeroPilates 287 uses elastic cord resistance instead, which is more linear and less progressive through the movement arc, from a brand with a long, established track record.
               </p>
-              <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>
                 The tradeoff is brand, not mechanism: WINDFOOT and DWKWE are generic or dropship sellers with no instructor recognition and no long warranty history, we can vouch for what the current listing states, not for how the machine holds up in year three. AeroPilates has the opposite tradeoff: a real brand, but a resistance system that isn&apos;t springs. Set your priority, spring feel or brand trust, before choosing.
               </p>
             </div>
 
             {/* Buying criteria cards */}
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-6" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Four buying criteria</p>
+              <p className="text-[12.5px] font-bold mb-6" style={{ color: "#0a0a0a" }}>Four buying criteria</p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[
                   { heading: "Resistance type", body: "Confirm whether a listing uses coil springs, spring-plus-cord, or cord alone before buying: generic listings don't always state this clearly in the title, and it's the single biggest factor in how the machine will feel." },
@@ -185,9 +185,9 @@ export default function BestPilatesReformerUnder500Page() {
                   { heading: "Foldability and setup time", body: "WINDFOOT ships roughly 90% pre-assembled with a 5–10 minute setup; AeroPilates markets a fold-flat design. Confirm folded dimensions and setup time on the current listing rather than a figure quoted elsewhere." },
                   { heading: "Seller and brand history", body: "WINDFOOT, DWKWE and PAETA are generic or single-product third-party brands with no track record among instructors. That doesn't mean the machine is bad: it means you're relying on the listing and reviews rather than an established brand's history." },
                 ].map((item) => (
-                  <div key={item.heading} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.heading}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
+                  <div key={item.heading} className="rounded-2xl p-5" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-sm mb-1.5 r-hx" style={{ color: "#0a0a0a" }}>{item.heading}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.body}</p>
                   </div>
                 ))}
               </div>
@@ -195,13 +195,13 @@ export default function BestPilatesReformerUnder500Page() {
 
             {/* Product cards */}
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{PRODUCTS.length} Verified Reformers · Honestly Reviewed</p>
+              <p className="text-[12.5px] font-bold mb-10" style={{ color: "#0a0a0a" }}>{PRODUCTS.length} Verified Reformers · Honestly Reviewed</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
                     <div className="flex items-center gap-3 mb-4">
-                      <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                      <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tag}</span>
+                      <span className="text-2xl r-hx" style={{ color: "#9a9490" }}>{p.rank}</span>
+                      <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{p.tag}</span>
                     </div>
                     <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                   </div>
@@ -210,9 +210,9 @@ export default function BestPilatesReformerUnder500Page() {
             </div>
 
             {/* Editorial honesty section */}
-            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What you cannot get under $500</h2>
-              <p className="text-sm leading-relaxed mb-5" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>This is not a reason not to buy: it is important context for realistic expectations.</p>
+            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#ede9e3" }}>
+              <h2 className="mb-4 r-d r-h2">What you cannot get under $500</h2>
+              <p className="text-base leading-relaxed mb-5" style={{ color: "#3a3530" }}>This is not a reason not to buy: it is important context for realistic expectations.</p>
               <ul className="space-y-3">
                 {[
                   "An established Pilates equipment brand with a genuine spring reformer: Balanced Body, Merrithew and Align-Pilates don't sell full reformers this cheap. The spring reformers at this price come from generic or dropship brands.",
@@ -220,8 +220,8 @@ export default function BestPilatesReformerUnder500Page() {
                   "A full accessory ecosystem with tower compatibility: the box and jump board bundled with some listings are the extent of it; there is no verified tower add-on at this tier.",
                   "Certainty about after-sale support: generic and dropship sellers vary widely in how they handle warranty claims and replacement parts, in a way established brands generally do not.",
                 ].map((item, i) => (
-                  <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                    <span className="font-semibold shrink-0" style={{ color: "#8b4a31" }}>{i + 1}.</span>
+                  <li key={i} className="flex gap-3 text-base" style={{ color: "#3a3530" }}>
+                    <span className="font-semibold shrink-0" style={{ color: "#0a0a0a" }}>{i + 1}.</span>
                     {item}
                   </li>
                 ))}
@@ -230,7 +230,7 @@ export default function BestPilatesReformerUnder500Page() {
 
             {/* FAQ */}
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   { q: "Is there a genuine spring-based Pilates reformer under $500?", a: "Yes. The PAETA 86\" Dual Resistance ($449.99), DWKWE 88\" ($284.99) and WINDFOOT ($295.99) are all real, currently-sold, full carriage-and-rail reformers with genuine spring or spring-plus-cord resistance under $500. They come from generic or dropship brands rather than established Pilates equipment makers like Balanced Body or Merrithew, so treat brand track record and warranty support with appropriate caution, but the machines themselves are real spring reformers, not toys." },
@@ -238,9 +238,9 @@ export default function BestPilatesReformerUnder500Page() {
                   { q: "What is the difference between AeroPilates and these budget spring reformers?", a: "AeroPilates uses elastic cords and comes from an established home-fitness brand with a long track record. The WINDFOOT, DWKWE and PAETA use genuine coil-spring or spring-and-cord resistance, closer in mechanism to a studio reformer, but come from generic or dropship brands with no instructor recognition and unclear long-term durability. Neither category is equivalent to a $2,000+ machine from Balanced Body or Merrithew." },
                   { q: "Should I buy a budget reformer or just go to a studio?", a: "For most beginners, 3–6 months of studio sessions before buying any home equipment is the better investment. A budget reformer makes sense for practitioners who cannot access a studio or who want to supplement regular sessions." },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
@@ -248,7 +248,7 @@ export default function BestPilatesReformerUnder500Page() {
 
             {/* Further reading */}
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Home Pilates Reformer (2026)" excerpt="The best home reformers at every price point, from entry-level to studio-grade." href="/blog/best-home-pilates-reformer" category="Equipment Guide" readTime="10 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Reformer for Beginners (2026)" excerpt="Which reformer to start on, and what features actually matter in your first machine." href="/blog/best-pilates-reformer-for-beginners" category="Beginners" readTime="9 min read" date="May 2026" imageUrl="/pictures/ahmet-kurt-0xn-8kRWOhE-unsplash.jpg" />

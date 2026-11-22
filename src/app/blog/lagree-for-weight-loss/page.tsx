@@ -261,20 +261,19 @@ const jsonLd = {
   ],
 };
 
-const eyebrowStyle = { color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" };
-const bodyStyle = { color: "#53433e", fontFamily: "'Montserrat', sans-serif" };
-const h2Style = { color: "#1b1c1c", fontFamily: "'Playfair Display', serif" };
-const inlineLinkStyle = { color: "#8b4a31", textDecoration: "underline" };
-const chipStyle = { backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" };
-const cardStyle = { backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" };
-const hubStyle = { backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.4)", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif", textDecoration: "none" };
-const shopStyle = { display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase" as const, color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap" as const, flexShrink: 0 };
+const eyebrowStyle = { color: "#0a0a0a" };
+const bodyStyle = { color: "#3a3530" };
+const h2Style = { color: "#0a0a0a" };
+const inlineLinkStyle = { color: "#0a0a0a", textDecoration: "underline" };
+const chipStyle = { backgroundColor: "#ede9e3", color: "#0a0a0a" };
+const cardStyle = { backgroundColor: "#ede9e3" };
+const hubStyle = { backgroundColor: "#ede9e3", color: "#0a0a0a", textDecoration: "none" };
 
 function TierCard({ p }: { p: Pick }) {
   return (
     <div id={p.id} className="scroll-mt-28">
       <div className="flex items-center gap-3 mb-4">
-        <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={chipStyle}>{p.badge}</span>
+        <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={chipStyle}>{p.badge}</span>
       </div>
       <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.url} />
     </div>
@@ -284,8 +283,8 @@ function TierCard({ p }: { p: Pick }) {
 function Divider({ label }: { label: string }) {
   return (
     <div className="flex items-center gap-4 mb-10">
-      <p className="text-xs font-semibold uppercase tracking-[0.2em] shrink-0" style={eyebrowStyle}>{label}</p>
-      <div className="flex-1 h-px" style={{ backgroundColor: "#d9c2ba" }} />
+      <p className="text-[12.5px] font-bold shrink-0" style={eyebrowStyle}>{label}</p>
+      <div className="flex-1 h-px" style={{ backgroundColor: "#ddd6cc" }} />
     </div>
   );
 }
@@ -304,23 +303,23 @@ export default function LagreeForWeightLossPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={eyebrowStyle}>Results Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Lagree</span>
+              <span className="text-[12.5px] font-bold" style={eyebrowStyle}>Results Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Lagree</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Lagree for Weight Loss<br /><span style={{ color: "#8b4a31" }}>(2026): What to Really Expect</span>
+            <h1 className="mb-6 r-d r-h1">
+              Lagree for Weight Loss<br /><span style={{ color: "#a98a5f" }}>(2026): What to Really Expect</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 11 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 11 min read</p>
             <TopPick name={QUICK_PICKS[0].name} price={QUICK_PICKS[0].price} note={QUICK_PICKS[0].note} url={QUICK_PICKS[0].url} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed mb-6" style={{ color: "#3a3530" }}>
               Lagree has a reputation for changing how bodies look, and fast. Some of that is real and some is marketing. This guide gives you the honest version: what Lagree does well for weight loss and what it cannot do on its own. It also covers how often to go, why the scale can lie in the first month, and the simple tools that show you whether it is working.
             </p>
-            <p className="text-sm leading-relaxed" style={bodyStyle}>
+            <p className="text-base leading-relaxed" style={bodyStyle}>
               Every product was checked live on Amazon on October 3, 2026, at the price shown. Prices change, so the final price is whatever Amazon shows at checkout.
             </p>
           </div>
@@ -328,8 +327,8 @@ export default function LagreeForWeightLossPage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/stitch-studio-modern-row.png" alt="A modern studio with rows of machines: Lagree for weight loss" fill className="object-cover" style={{ filter: "brightness(0.85)" }} priority />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/stitch-studio-modern-row.png" alt="A modern studio with rows of machines: Lagree for weight loss" fill className="object-cover" priority />
             </div>
           </div>
         </section>
@@ -350,16 +349,16 @@ export default function LagreeForWeightLossPage() {
             </div>
 
             {/* Short answer */}
-            <div className="mb-16 rounded-2xl p-6 md:p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.5)" }}>
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={eyebrowStyle}>The short answer</p>
-              <p className="text-sm leading-relaxed mb-3" style={bodyStyle}>
-                <span className="font-semibold" style={{ color: "#1b1c1c" }}>Yes, Lagree can help, but not by itself.</span> It is high-intensity strength training that also gets your heart rate up, which makes it excellent for keeping and building muscle while you lose fat. That is what changes how you look. The fat loss itself mostly comes from eating a little less than you burn, consistently, for weeks. Lagree plus sensible eating is a great combination; Lagree alone often moves the scale less than people hope.
+            <div className="mb-16 rounded-2xl p-6 md:p-8" style={{ backgroundColor: "#ede9e3" }}>
+              <p className="text-[12.5px] font-bold mb-3" style={eyebrowStyle}>The short answer</p>
+              <p className="text-base leading-relaxed mb-3" style={bodyStyle}>
+                <span className="font-semibold" style={{ color: "#0a0a0a" }}>Yes, Lagree can help, but not by itself.</span> It is high-intensity strength training that also gets your heart rate up, which makes it excellent for keeping and building muscle while you lose fat. That is what changes how you look. The fat loss itself mostly comes from eating a little less than you burn, consistently, for weeks. Lagree plus sensible eating is a great combination; Lagree alone often moves the scale less than people hope.
               </p>
             </div>
 
             {/* What it does */}
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-6" style={h2Style}>What Lagree does well for weight loss</h2>
+              <h2 className="mb-6 r-d r-h2" style={h2Style}>What Lagree does well for weight loss</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[
                   { heading: "Builds and keeps muscle", body: "Slow, loaded work under tension is strength training. When you eat less, strength training helps you keep muscle, so more of what you lose is fat." },
@@ -368,8 +367,8 @@ export default function LagreeForWeightLossPage() {
                   { heading: "It is addictive, in a good way", body: "Consistency beats intensity for weight loss. A workout you look forward to is one you keep doing for months." },
                 ].map((item) => (
                   <div key={item.heading} className="rounded-xl p-5" style={cardStyle}>
-                    <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.heading}</p>
-                    <p className="text-sm leading-relaxed" style={bodyStyle}>{item.body}</p>
+                    <p className="text-sm mb-1.5 r-hx" style={{ color: "#0a0a0a" }}>{item.heading}</p>
+                    <p className="text-base leading-relaxed" style={bodyStyle}>{item.body}</p>
                   </div>
                 ))}
               </div>
@@ -377,7 +376,7 @@ export default function LagreeForWeightLossPage() {
 
             {/* What it can't */}
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-6" style={h2Style}>What Lagree cannot do</h2>
+              <h2 className="mb-6 r-d r-h2" style={h2Style}>What Lagree cannot do</h2>
               <ul className="space-y-4">
                 {[
                   { h: "Out-train your diet.", b: "Even a very hard class burns an amount of energy that one large snack can replace. Food choices decide most of the result." },
@@ -385,8 +384,8 @@ export default function LagreeForWeightLossPage() {
                   { h: "Give you a reliable calorie number.", b: "There is no trustworthy single figure for a Lagree class. It varies with body size, effort and springs, so treat any number you see online with suspicion." },
                   { h: "Work on one class a week.", b: "One class is a great start for fitness, but weight-loss results come from frequency and from what you do on the other six days." },
                 ].map((item) => (
-                  <li key={item.h} className="text-sm leading-relaxed" style={bodyStyle}>
-                    <span className="font-semibold" style={{ color: "#1b1c1c" }}>{item.h}</span> {item.b}
+                  <li key={item.h} className="text-base leading-relaxed" style={bodyStyle}>
+                    <span className="font-semibold" style={{ color: "#0a0a0a" }}>{item.h}</span> {item.b}
                   </li>
                 ))}
               </ul>
@@ -395,19 +394,19 @@ export default function LagreeForWeightLossPage() {
             {/* How often */}
             <Divider label="The plan" />
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-4" style={h2Style}>How often to do Lagree for weight loss</h2>
-              <p className="text-sm leading-relaxed mb-6" style={bodyStyle}>
+              <h2 className="mb-4 r-d r-h2" style={h2Style}>How often to do Lagree for weight loss</h2>
+              <p className="text-base leading-relaxed mb-6" style={bodyStyle}>
                 US Physical Activity Guidelines recommend at least 150 minutes of moderate activity (or 75 minutes of vigorous activity) a week, plus muscle-strengthening on two or more days. For weight loss, more activity generally helps. A realistic Lagree week that hits both targets without burning you out looks like this:
               </p>
               <div className="mb-6 r-qp r-glance">
                 {WEEK.map((d, i) => (
-                  <div key={d.day} className="flex gap-6 px-6 py-3" style={{ borderTop: i === 0 ? "none" : "1px solid rgba(217,194,186,0.25)", backgroundColor: d.plan.startsWith("Lagree") ? "#fcf9f8" : "#ffffff" }}>
-                    <p className="text-sm font-semibold w-12 shrink-0" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{d.day}</p>
-                    <p className="text-sm" style={bodyStyle}>{d.plan}</p>
+                  <div key={d.day} className="flex gap-6 px-6 py-3" style={{ borderTop: i === 0 ? "none" : "1px solid #ddd6cc", backgroundColor: d.plan.startsWith("Lagree") ? "#f7f4f0" : "#ffffff" }}>
+                    <p className="text-base font-semibold w-12 shrink-0" style={{ color: "#0a0a0a" }}>{d.day}</p>
+                    <p className="text-base" style={bodyStyle}>{d.plan}</p>
                   </div>
                 ))}
               </div>
-              <p className="text-sm leading-relaxed" style={bodyStyle}>
+              <p className="text-base leading-relaxed" style={bodyStyle}>
                 Walking is the secret weapon. It adds energy burn without the soreness that would make your next class worse. Starting out? Two classes a week for the first couple of weeks lets your body adapt; our guide to{" "}
                 <Link href="/blog/lagree-recovery" style={inlineLinkStyle}>soreness after Lagree</Link> explains why.
               </p>
@@ -415,8 +414,8 @@ export default function LagreeForWeightLossPage() {
 
             {/* Scale */}
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-4" style={h2Style}>Why the scale lies in the first month</h2>
-              <p className="text-sm leading-relaxed mb-6" style={bodyStyle}>
+              <h2 className="mb-4 r-d r-h2" style={h2Style}>Why the scale lies in the first month</h2>
+              <p className="text-base leading-relaxed mb-6" style={bodyStyle}>
                 Plenty of people quit in week three because the number did not move. Do not. Early on, three things can mask real progress:
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-6">
@@ -426,13 +425,13 @@ export default function LagreeForWeightLossPage() {
                   { heading: "Daily noise", body: "Salt, carbs, hydration and hormones swing body weight from one day to the next." },
                 ].map((item) => (
                   <div key={item.heading} className="rounded-xl p-5" style={cardStyle}>
-                    <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.heading}</p>
-                    <p className="text-sm leading-relaxed" style={bodyStyle}>{item.body}</p>
+                    <p className="text-sm mb-1.5 r-hx" style={{ color: "#0a0a0a" }}>{item.heading}</p>
+                    <p className="text-base leading-relaxed" style={bodyStyle}>{item.body}</p>
                   </div>
                 ))}
               </div>
-              <p className="text-sm leading-relaxed" style={bodyStyle}>
-                <span className="font-semibold" style={{ color: "#1b1c1c" }}>What to track instead:</span> your waist measurement once a week, your weekly average weight (not daily readings), how your clothes fit, and whether you can hold heavier springs or longer sets. If none of those change after six to eight weeks, look at eating habits before blaming the workout.
+              <p className="text-base leading-relaxed" style={bodyStyle}>
+                <span className="font-semibold" style={{ color: "#0a0a0a" }}>What to track instead:</span> your waist measurement once a week, your weekly average weight (not daily readings), how your clothes fit, and whether you can hold heavier springs or longer sets. If none of those change after six to eight weeks, look at eating habits before blaming the workout.
               </p>
             </div>
 
@@ -441,41 +440,18 @@ export default function LagreeForWeightLossPage() {
               <Divider label="The tracking kit" />
             </div>
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-4" style={h2Style}>Tools that show you whether it is working</h2>
-              <p className="text-sm leading-relaxed mb-8" style={bodyStyle}>
+              <h2 className="mb-4 r-d r-h2" style={h2Style}>Tools that show you whether it is working</h2>
+              <p className="text-base leading-relaxed mb-8" style={bodyStyle}>
                 You do not need any of this to lose weight. But a small amount of honest data stops you quitting too early. The budget starter set (chest strap, scale, body tape and food scale) costs {fmt(STARTER_TOTAL)} in total.
               </p>
 
-              <div className="mb-10 r-qp r-glance">
-                <div className="r-qp-hd">
-                  <p className="r-qp-title">At a Glance: Weight-Loss Tracking Tools</p>
-                </div>
-                {TRACKING.map((p, i) => (
-                  <div key={p.id} className="r-qp-row">
-                    <span className="r-qp-no">{String(i + 1).padStart(2, "0")}</span>
-                    <div className="r-qp-tx">
-                      <p className="r-qp-tag">
-                        <a className="r-qp-a" href={`#${p.id}`}>{p.shortName}</a>
-                      </p>
-                      <p className="r-qp-name">{p.name}</p>
-                      <p className="r-qp-sub md:hidden">{p.price}</p>
-                    </div>
-                    <span className="r-qp-price hidden md:block">{p.price}</span>
-                    <a href={p.url} target="_blank" rel="noopener noreferrer sponsored nofollow" style={shopStyle}>Shop →</a>
-                  </div>
-                ))}
-                <div className="r-qp-row r-qp-total">
-                  <span>Budget starter set (02, 04, 05, 07)</span>
-                  <span>{fmt(STARTER_TOTAL)}</span>
-                </div>
-              </div>
 
               <div className="space-y-8">
                 {TRACKING.map((p) => (
                   <TierCard key={p.id} p={p} />
                 ))}
               </div>
-              <p className="text-sm leading-relaxed mt-2" style={bodyStyle}>
+              <p className="text-base leading-relaxed mt-2" style={bodyStyle}>
                 More heart-rate options are in our{" "}
                 <Link href="/blog/best-heart-rate-monitor-for-pilates-and-spin" style={inlineLinkStyle}>heart rate monitor guide</Link>, and if you prefer a ring to a watch, see{" "}
                 <Link href="/blog/best-smart-ring-for-pilates" style={inlineLinkStyle}>best smart rings</Link>.
@@ -485,12 +461,12 @@ export default function LagreeForWeightLossPage() {
             {/* Micro */}
             <Divider label="Train more often" />
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-4" style={h2Style}>When class fees limit how often you go</h2>
-              <p className="text-sm leading-relaxed mb-8" style={bodyStyle}>
+              <h2 className="mb-4 r-d r-h2" style={h2Style}>When class fees limit how often you go</h2>
+              <p className="text-base leading-relaxed mb-8" style={bodyStyle}>
                 For many people, the real limit on frequency is the price of a class. If you already know the method and want three or four sessions a week, a home machine changes the math.
               </p>
               <TierCard p={MICRO} />
-              <p className="text-sm leading-relaxed mt-2" style={bodyStyle}>
+              <p className="text-base leading-relaxed mt-2" style={bodyStyle}>
                 How it compares with a class pack, plus the add-ons, is in our{" "}
                 <Link href="/blog/lagree-fitness" style={inlineLinkStyle}>Lagree Fitness brand guide</Link>. No machine yet? The floor circuit in{" "}
                 <Link href="/blog/lagree-exercises" style={inlineLinkStyle}>Lagree exercises</Link> works between classes.
@@ -499,12 +475,12 @@ export default function LagreeForWeightLossPage() {
 
             {/* FAQ */}
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={h2Style}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2" style={h2Style}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {FAQS.map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={cardStyle}>
-                    <h3 className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</h3>
-                    <p className="text-sm leading-relaxed" style={bodyStyle}>{item.a}</p>
+                    <h3 className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</h3>
+                    <p className="text-base leading-relaxed" style={bodyStyle}>{item.a}</p>
                   </div>
                 ))}
               </div>
@@ -512,7 +488,7 @@ export default function LagreeForWeightLossPage() {
 
             {/* Further reading */}
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={h2Style}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2" style={h2Style}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Lagree vs Pilates" excerpt="What separates the two methods, and which suits your goals and body." href="/blog/lagree-vs-pilates" category="Comparison" readTime="10 min read" date="June 2026" imageUrl="/pictures/stitch-reformer-row-studio.png" />
                 <ArticleCard title="Pilates for Weight Loss" excerpt="Does Pilates actually help you lose weight? An honest, evidence-based answer with realistic expectations." href="/blog/pilates-for-weight-loss" category="Health" readTime="10 min read" date="May 2026" imageUrl="/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg" />

@@ -147,18 +147,18 @@ export default function BestPilatesTshirtsPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Clothing</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Clothing</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best Pilates T-Shirts<br /><span style={{ color: "#8b4a31" }}>(2026)</span>
+            <h1 className="mb-6 r-d r-h1">
+              Best Pilates T-Shirts<br /><span style={{ color: "#a98a5f" }}>(2026)</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 8 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 8 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               The t-shirt you choose for Pilates matters more than most people realize. A cotton tee becomes a wet, restrictive layer within twenty minutes of reformer work. A quality technical tee stays light, moves with you, and keeps you looking as composed in the last exercise as the first.
             </p>
           </div>
@@ -166,8 +166,8 @@ export default function BestPilatesTshirtsPage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/stitch-retail-activewear.png" alt="Best Pilates T-Shirts 2026" fill className="object-cover" style={{ filter: "brightness(0.85)" }} priority />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/stitch-retail-activewear.png" alt="Best Pilates T-Shirts 2026" fill className="object-cover" priority />
             </div>
           </div>
         </section>
@@ -184,14 +184,14 @@ export default function BestPilatesTshirtsPage() {
                 <div key={p.rank} style={{ borderTop: "1px solid #ede9e3", paddingTop: "36px" }}>
                   <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", gap: "16px", marginBottom: "8px" }}>
                     <div style={{ display: "flex", alignItems: "baseline", gap: "14px" }}>
-                      <span style={{ fontFamily: "var(--font-serif)", fontSize: "13px", color: "#c5a882" }}>{p.rank}</span>
-                      <h3 style={{ fontFamily: "var(--font-serif)", fontSize: "1.3rem", fontWeight: 400, color: "#1a1714", margin: 0 }}>{p.name}</h3>
+                      <span className="r-hx" style={{ fontSize: "13px", color: "#c5a882" }}>{p.rank}</span>
+                      <h3 className="r-hx" style={{ fontSize: "1.3rem", color: "#1a1714", margin: 0 }}>{p.name}</h3>
                     </div>
-                    <span style={{ fontFamily: "var(--font-sans)", fontSize: "13px", fontWeight: 600, color: "#8f6d3f", whiteSpace: "nowrap" }}>{p.price}</span>
+                    <span style={{ fontSize: "15px", fontWeight: 600, color: "#0a0a0a", whiteSpace: "nowrap" }}>{p.price}</span>
                   </div>
-                  <span style={{ fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 500, letterSpacing: "0.15em", textTransform: "uppercase", color: "#9a9490", display: "block", marginBottom: "14px" }}>{p.verdict}</span>
-                  <p style={{ fontFamily: "var(--font-sans)", fontSize: "15px", fontWeight: 300, color: "#4a4540", lineHeight: 1.8, marginBottom: "20px" }}>{p.description}</p>
-                  <a href={p.affiliateUrl} target="_blank" rel={/amazon\./i.test(p.affiliateUrl) ? "noopener noreferrer nofollow sponsored" : "noopener noreferrer nofollow"} style={{ display: "inline-block", fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 500, letterSpacing: "0.18em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "13px 24px" }}>
+                  <span style={{ fontSize: "12.5px", fontWeight: 700, color: "#9a9490", display: "block", marginBottom: "14px" }}>{p.verdict}</span>
+                  <p style={{ fontSize: "17px", color: "#3a3530", lineHeight: 1.55, marginBottom: "20px" }}>{p.description}</p>
+                  <a className="r-btn r-btn-sm" href={p.affiliateUrl} target="_blank" rel={/amazon\./i.test(p.affiliateUrl) ? "noopener noreferrer nofollow sponsored" : "noopener noreferrer nofollow"}>
                     Shop on Amazon
                   </a>
                 </div>
@@ -200,22 +200,22 @@ export default function BestPilatesTshirtsPage() {
 
             {/* FAQ */}
             <div style={{ marginTop: "64px" }}>
-              <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "1.6rem", fontWeight: 400, color: "#1a1714", marginBottom: "32px" }}>Frequently Asked Questions</h2>
+              <h2 className="r-d r-h2" style={{ color: "#1a1714", marginBottom: "32px" }}>Frequently Asked Questions</h2>
               {[
                 { q: "Should I wear a t-shirt or tank top for Pilates?", a: "Both work well. T-shirts are preferred in cooler studios or for those who feel more comfortable with covered shoulders. In heated reformer studios or intense Lagree sessions, a tank top may be more practical for temperature regulation. The key is fabric: choose moisture-wicking synthetic blends over cotton." },
                 { q: "What fabric is best for a Pilates t-shirt?", a: "Polyester and nylon blends with moisture-wicking technology are the best choice. They dry quickly, stretch with your movements, and resist odor better than cotton. Look for four-way stretch construction and flatlock seams to avoid chafing during mat and reformer work." },
                 { q: "Can I wear a regular t-shirt to Pilates?", a: "Yes, but regular cotton t-shirts absorb sweat rather than wicking it away, become heavy and uncomfortable mid-session, and can restrict movement. A technical athletic tee makes a noticeable difference in comfort and freedom of movement, especially during intensive reformer or Megaformer sessions." },
               ].map((item) => (
                 <div key={item.q} style={{ borderTop: "1px solid #ede6dc", paddingTop: "24px", paddingBottom: "24px" }}>
-                  <h3 style={{ fontFamily: "var(--font-sans)", fontSize: "15px", fontWeight: 500, color: "#1a1714", marginBottom: "10px" }}>{item.q}</h3>
-                  <p style={{ fontFamily: "var(--font-sans)", fontSize: "14px", fontWeight: 300, color: "#4a4540", lineHeight: 1.75 }}>{item.a}</p>
+                  <h3 style={{ fontSize: "17px", fontWeight: 500, color: "#1a1714", marginBottom: "10px" }}>{item.q}</h3>
+                  <p style={{ fontSize: "16px", color: "#3a3530", lineHeight: 1.55 }}>{item.a}</p>
                 </div>
               ))}
             </div>
 
             {/* Further reading */}
             <div style={{ marginTop: "64px" }}>
-              <h2 style={{ fontFamily: "var(--font-sans)", fontSize: "11px", fontWeight: 500, letterSpacing: "0.2em", textTransform: "uppercase", color: "#9a9490", marginBottom: "28px" }}>Further Reading</h2>
+              <h2 style={{ fontSize: "12.5px", fontWeight: 700, color: "#9a9490", marginBottom: "28px" }}>Further Reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Pilates Tank Tops (2026)" excerpt="Racerbacks, strappy tanks, and studio styles compared for breathability, fit, and reformer-ready performance." href="/blog/best-pilates-tank-tops" category="Clothing" readTime="8 min" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Workout Tops" excerpt="Long-sleeve, short-sleeve, and layering tops compared for reformer and mat Pilates." href="/blog/best-pilates-workout-tops" category="Clothing" readTime="8 min" imageUrl="/pictures/stitch-retail-activewear.png" />

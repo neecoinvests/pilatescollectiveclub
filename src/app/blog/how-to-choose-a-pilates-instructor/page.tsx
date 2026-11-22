@@ -131,7 +131,7 @@ export default function HowToChoosePilatesInstructorPage() {
           imageAlt="Pilates instructor teaching a class"
           category="Guide"
           subcategory="6 min read"
-          title={<>How to Choose<br /><span style={{ color: "#8b4a31" }}>the Right Pilates Instructor</span></>}
+          title={<>How to Choose<br /><span style={{ color: "#0a0a0a" }}>the Right Pilates Instructor</span></>}
           date="May 2026"
           readTime="6 min read"
           dateLabel="Prices checked October 20, 2026"
@@ -239,8 +239,8 @@ export default function HowToChoosePilatesInstructorPage() {
                     "Do you continue to study or take workshops? With whom?",
                   ].map((q, i) => (
                     <li key={i} className="flex gap-3">
-                      <span className="shrink-0 w-6 h-6 rounded-full flex items-center justify-center text-xs font-semibold" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{i + 1}</span>
-                      <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{q}</p>
+                      <span className="shrink-0 w-6 h-6 rounded-full flex items-center justify-center text-xs font-semibold" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{i + 1}</span>
+                      <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{q}</p>
                     </li>
                   ))}
                 </ul>
@@ -257,9 +257,9 @@ export default function HowToChoosePilatesInstructorPage() {
             {/* Equipment */}
 
             {FAQS.length > 0 && <FaqSection faqs={FAQS} />}
-            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Recommended kit</h2>
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid #ddd6cc" }}>
+              <p className="text-[12.5px] font-bold mb-2" style={{ color: "#0a0a0a" }}>Equipment</p>
+              <h2 className="mb-8 r-d r-h2">Recommended kit</h2>
               <div className="space-y-8">
                 {PRODUCTS.map((p) => (
                   <ProductCard key={p.name} name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
@@ -286,8 +286,8 @@ export default function HowToChoosePilatesInstructorPage() {
 function Section({ title, children }: { title: string; children: React.ReactNode }) {
   return (
     <div className="mb-12">
-      <h2 className="text-2xl font-semibold mb-5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{title}</h2>
-      <div className="space-y-4 text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+      <h2 className="mb-5 r-d r-h2">{title}</h2>
+      <div className="space-y-4 text-base leading-relaxed" style={{ color: "#3a3530" }}>
         {children}
       </div>
     </div>
@@ -296,19 +296,19 @@ function Section({ title, children }: { title: string; children: React.ReactNode
 
 function Callout({ children }: { children: React.ReactNode }) {
   return (
-    <blockquote className="my-10 border-l-4 pl-6 py-2" style={{ borderColor: "#8b4a31" }}>
-      <p className="text-lg italic leading-relaxed" style={{ color: "#8b4a31", fontFamily: "'Playfair Display', serif" }}>{children}</p>
+    <blockquote className="my-10 border-l-4 pl-6 py-2" style={{ borderColor: "#0a0a0a" }}>
+      <p className="text-lg italic leading-relaxed r-hx" style={{ color: "#0a0a0a" }}>{children}</p>
     </blockquote>
   );
 }
 
 function CheckItem({ label, description, isGreen }: { label: string; description: string; isGreen: boolean }) {
   return (
-    <div className="flex gap-4 p-5 rounded-xl" style={{ backgroundColor: isGreen ? "rgba(83,98,87,0.06)" : "rgba(139,74,49,0.06)", border: `1px solid ${isGreen ? "rgba(83,98,87,0.2)" : "rgba(139,74,49,0.2)"}` }}>
+    <div className="flex gap-4 p-5 rounded-2xl" style={{ backgroundColor: isGreen ? "#ddd6cc" : "#ddd6cc", border: `1px solid ${isGreen ? "#ddd6cc" : "#ddd6cc"}` }}>
       <span className="text-lg shrink-0 mt-0.5">{isGreen ? "✓" : "✗"}</span>
       <div>
-        <p className="text-sm font-semibold mb-1" style={{ color: isGreen ? "#536257" : "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{label}</p>
-        <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{description}</p>
+        <p className="text-base font-semibold mb-1" style={{ color: isGreen ? "#3a3530" : "#0a0a0a" }}>{label}</p>
+        <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{description}</p>
       </div>
     </div>
   );

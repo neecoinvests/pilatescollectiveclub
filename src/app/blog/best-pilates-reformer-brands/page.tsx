@@ -126,7 +126,7 @@ const BRANDS = [
     name: "Gratz Industries",
     slug: "gratz-pilates",
     badge: "Classical Standard",
-    badgeColor: "#8b4a31",
+    badgeColor: "#0a0a0a",
     price: "From about $4,600",
     bestFor: "Classical practitioners, method purists, serious collectors",
     flagship: "Universal Reformer",
@@ -344,20 +344,20 @@ export default function BestReformerBrandsPage() {
       <Header />
       <main>
         {/* Hero */}
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>10 Brands Ranked</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Equipment Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>10 Brands Ranked</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best Reformer Pilates Brands<br /><span style={{ color: "#8b4a31" }}>(2026): All 10 Ranked</span>
+            <h1 className="mb-6 r-d r-h1">
+              Best Reformer Pilates Brands<br /><span style={{ color: "#a98a5f" }}>(2026): All 10 Ranked</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 18 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 18 min read</p>
             <TopPick label="Top pick for most homes" name={AMAZON_PICKS[2].name} price={AMAZON_PICKS[2].price} note="Professional springs at a home-reformer price; in stock" url={AMAZON_PICKS[2].url} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               The reformer brand you buy shapes your entire practice: not just the quality of the machine, but the spring feel, the carriage response, and which version of the Pilates method your body learns. This guide ranks all 10 major reformer Pilates brands honestly: for home practitioners, studio owners, classical purists, and serious athletes. We cover what each brand does best, where each falls short, and who it is actually built for.
             </p>
           </div>
@@ -366,10 +366,10 @@ export default function BestReformerBrandsPage() {
         {/* Hero image */}
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg" alt="Best reformer Pilates brands 2026: professional and home machines compared" fill className="object-cover" style={{ filter: "brightness(0.82)" }} />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg" alt="Best reformer Pilates brands 2026: professional and home machines compared" fill className="object-cover" />
               <div className="absolute inset-0 flex items-end p-8">
-                <p className="text-sm font-light" style={{ color: "rgba(255,255,255,0.7)", fontFamily: "'Montserrat', sans-serif" }}>
+                <p className="text-base font-light" style={{ color: "rgba(255,255,255,0.7)" }}>
                   10 brands · Every price tier · Home and studio
                 </p>
               </div>
@@ -391,11 +391,11 @@ export default function BestReformerBrandsPage() {
               <div className="r-qp-row">
                 <span className="r-qp-no">✦</span>
                 <div className="r-qp-tx">
-                  <p className="r-qp-name">The Core Collab Reformers <span className="text-[10px] font-semibold uppercase tracking-widest ml-1" style={{ color: "#536257" }}>Partner</span></p>
+                  <p className="r-qp-name">The Core Collab Reformers <span className="text-[12.5px] font-bold ml-1" style={{ color: "#3a3530" }}>Partner</span></p>
                   <p className="r-qp-sub">From $2,399 · Folding and studio reformers for home and studio use</p>
                 </div>
                 <a href="https://thecorecollabusa.com/?utm_source=pilatescollectiveclub&utm_medium=referral&utm_campaign=best-reformer-brands" target="_blank" rel="noopener noreferrer sponsored"
-                  style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#536257", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
+                  style={{ display: "block", fontSize: "12.5px", fontWeight: 600, color: "#ffffff", textDecoration: "none", backgroundColor: "#3a3530", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
                 >Shop Now →</a>
               </div>
               {AMAZON_PICKS.map((item, i) => (
@@ -415,23 +415,23 @@ export default function BestReformerBrandsPage() {
 
             {/* Quick match */}
             <div>
-              <h2 className="text-3xl font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Find your brand in 10 seconds</h2>
-              <p className="text-sm leading-relaxed mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Match your situation to the right reformer Pilates brand before reading the full comparisons.</p>
-              <div className="rounded-2xl overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.35)" }}>
+              <h2 className="mb-3 r-d r-h2">Find your brand in 10 seconds</h2>
+              <p className="text-base leading-relaxed mb-8" style={{ color: "#6f6964" }}>Match your situation to the right reformer Pilates brand before reading the full comparisons.</p>
+              <div className="rounded-2xl overflow-hidden" style={{ border: "1px solid #ddd6cc" }}>
                 <a href="#the-core-collab" style={{ textDecoration: "none" }}>
-                  <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1.5 sm:gap-6 px-5 sm:px-6 py-4" style={{ backgroundColor: "#f6f8f5", borderBottom: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>You want a customizable reformer for home or studio <span className="text-[10px] font-semibold uppercase tracking-widest ml-1" style={{ color: "#536257" }}>Partner</span></p>
-                    <p className="text-xs font-semibold sm:whitespace-nowrap sm:shrink-0" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>The Core Collab →</p>
+                  <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1.5 sm:gap-6 px-5 sm:px-6 py-4" style={{ backgroundColor: "#ede9e3", borderBottom: "1px solid #ddd6cc" }}>
+                    <p className="text-base" style={{ color: "#3a3530" }}>You want a customizable reformer for home or studio <span className="text-[12.5px] font-bold ml-1" style={{ color: "#3a3530" }}>Partner</span></p>
+                    <p className="text-xs font-semibold sm:whitespace-nowrap sm:shrink-0" style={{ color: "#3a3530" }}>The Core Collab →</p>
                   </div>
                 </a>
                 {QUICK_MATCH.map((item, i) => (
                   <Link key={i} href={item.href} style={{ textDecoration: "none" }}>
                     <div
                       className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1.5 sm:gap-6 px-5 sm:px-6 py-4 hover:opacity-80 transition-opacity"
-                      style={{ backgroundColor: i % 2 === 0 ? "#ffffff" : "#fcf9f8", borderBottom: i < QUICK_MATCH.length - 1 ? "1px solid rgba(217,194,186,0.3)" : "none" }}
+                      style={{ backgroundColor: i % 2 === 0 ? "#ffffff" : "#f7f4f0", borderBottom: i < QUICK_MATCH.length - 1 ? "1px solid #ddd6cc" : "none" }}
                     >
-                      <p className="text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>{item.scenario}</p>
-                      <p className="text-xs font-semibold sm:whitespace-nowrap sm:shrink-0" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{item.brand} →</p>
+                      <p className="text-base" style={{ color: "#3a3530" }}>{item.scenario}</p>
+                      <p className="text-xs font-semibold sm:whitespace-nowrap sm:shrink-0" style={{ color: "#0a0a0a" }}>{item.brand} →</p>
                     </div>
                   </Link>
                 ))}
@@ -440,8 +440,8 @@ export default function BestReformerBrandsPage() {
 
             {/* What separates brands */}
             <div>
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What actually separates reformer Pilates brands</h2>
-              <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">What actually separates reformer Pilates brands</h2>
+              <p className="text-base leading-relaxed mb-6" style={{ color: "#3a3530" }}>
                 Most people focus on price when comparing reformer brands. Price matters, but it is not the primary variable. A Gratz and a Balanced Body cost similar amounts, yet they train your body differently. The four variables that actually define brand differences are spring calibration, carriage weight, rail length, and accessory ecosystem. Understanding these before you buy saves you from a machine that fights your practice rather than supporting it.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -451,9 +451,9 @@ export default function BestReformerBrandsPage() {
                   { heading: "Rail length", body: "If you're tall, look for longer frames and carriage travel: Align-Pilates' A8-Pro has 44.5 inches of travel, and Balanced Body makes the Allegro Stretch, a longer version of the Allegro. Verify rail length against your height before purchasing: it is rarely noted prominently in product listings." },
                   { heading: "Accessory ecosystem", body: "Balanced Body has the deepest accessory catalog: box, tower, vertical frame, jump board, and dozens of attachments. Gratz is limited to the classical apparatus. Consider which exercises matter to your practice before committing to a brand." },
                 ].map((item) => (
-                  <div key={item.heading} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.heading}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
+                  <div key={item.heading} className="rounded-2xl p-5" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-sm mb-1.5 r-hx" style={{ color: "#0a0a0a" }}>{item.heading}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.body}</p>
                   </div>
                 ))}
               </div>
@@ -461,7 +461,7 @@ export default function BestReformerBrandsPage() {
 
             {/* Brand cards */}
             <div>
-              <h2 className="text-3xl font-semibold mb-10" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>All 10 reformer Pilates brands ranked</h2>
+              <h2 className="mb-10 r-d r-h2">All 10 reformer Pilates brands ranked</h2>
               <div className="space-y-10">
                 {BRANDS.map((brand) => {
                   const shopUrl = brand.affiliateUrl ?? brand.altUrl ?? brand.directUrl;
@@ -469,45 +469,44 @@ export default function BestReformerBrandsPage() {
                   return (
                     <div key={brand.name}>
                       <div className="flex items-center gap-3 mb-4">
-                        <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{String(brand.rank).padStart(2, "0")}</span>
-                        <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{brand.badge}</span>
+                        <span className="text-2xl r-hx" style={{ color: "#9a9490" }}>{String(brand.rank).padStart(2, "0")}</span>
+                        <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{brand.badge}</span>
                       </div>
                       <div style={{ borderTop: "1px solid #ede9e3", paddingTop: "24px", paddingBottom: "28px" }}>
                         <div className="flex justify-between items-start gap-4 mb-2.5">
-                          <h3 style={{ fontFamily: "var(--font-serif)", fontSize: "20px", fontWeight: 400, color: "#0a0a0a", lineHeight: 1.2, margin: 0 }}>{brand.name}</h3>
-                          <span style={{ fontFamily: "var(--font-sans)", fontSize: "13px", fontWeight: 600, color: "#8f6d3f", whiteSpace: "nowrap", letterSpacing: "0.03em" }}>{brand.price}</span>
+                          <h3 className="r-hx" style={{ fontSize: "20px", color: "#0a0a0a", lineHeight: 1.2, margin: 0 }}>{brand.name}</h3>
+                          <span style={{ fontSize: "15px", fontWeight: 600, color: "#0a0a0a", whiteSpace: "nowrap", letterSpacing: "0.03em" }}>{brand.price}</span>
                         </div>
-                        <p style={{ fontFamily: "var(--font-sans)", fontSize: "12px", color: "#8b4a31", marginBottom: "14px" }}>Flagship: {brand.flagship} · Best for: {brand.bestFor}</p>
-                        <p style={{ fontFamily: "var(--font-sans)", fontSize: "13px", fontWeight: 300, color: "#6b6560", lineHeight: 1.75, marginBottom: "18px" }}>{brand.summary}</p>
+                        <p style={{ fontSize: "12px", color: "#0a0a0a", marginBottom: "14px" }}>Flagship: {brand.flagship} · Best for: {brand.bestFor}</p>
+                        <p style={{ fontSize: "15px", color: "#6f6964", lineHeight: 1.55, marginBottom: "18px" }}>{brand.summary}</p>
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-4 mb-6">
                           <div>
-                            <p style={{ fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 600, letterSpacing: "0.18em", textTransform: "uppercase", color: "#536257", marginBottom: "8px" }}>Strengths</p>
+                            <p style={{ fontSize: "12.5px", fontWeight: 600, color: "#3a3530", marginBottom: "8px" }}>Strengths</p>
                             <ul className="space-y-1.5">
                               {brand.pros.map((pr, i) => (
-                                <li key={i} className="flex gap-2" style={{ fontFamily: "var(--font-sans)", fontSize: "12px", fontWeight: 300, color: "#6b6560", lineHeight: 1.6 }}><span style={{ color: "#536257", flexShrink: 0 }}>+</span>{pr}</li>
+                                <li key={i} className="flex gap-2" style={{ fontSize: "12px", color: "#6f6964", lineHeight: 1.6 }}><span style={{ color: "#3a3530", flexShrink: 0 }}>+</span>{pr}</li>
                               ))}
                             </ul>
                           </div>
                           <div>
-                            <p style={{ fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 600, letterSpacing: "0.18em", textTransform: "uppercase", color: "#7a6a64", marginBottom: "8px" }}>Limitations</p>
+                            <p style={{ fontSize: "12.5px", fontWeight: 600, color: "#7a6a64", marginBottom: "8px" }}>Limitations</p>
                             <ul className="space-y-1.5">
                               {brand.cons.map((c, i) => (
-                                <li key={i} className="flex gap-2" style={{ fontFamily: "var(--font-sans)", fontSize: "12px", fontWeight: 300, color: "#6b6560", lineHeight: 1.6 }}><span style={{ color: "#c5a882", flexShrink: 0 }}>–</span>{c}</li>
+                                <li key={i} className="flex gap-2" style={{ fontSize: "12px", color: "#6f6964", lineHeight: 1.6 }}><span style={{ color: "#c5a882", flexShrink: 0 }}>–</span>{c}</li>
                               ))}
                             </ul>
                           </div>
                         </div>
                         {shopUrl && (
-                          <a href={shopUrl} target="_blank" rel={brand.affiliateUrl || brand.altUrl ? "noopener noreferrer sponsored nofollow" : "noopener noreferrer"}
-                            style={{ display: "block", fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 500, letterSpacing: "0.18em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "14px 20px", textAlign: "center" }}
+                          <a className="r-btn r-btn-sm r-btn-block" href={shopUrl} target="_blank" rel={brand.affiliateUrl || brand.altUrl ? "noopener noreferrer sponsored nofollow" : "noopener noreferrer"}
                           >{shopLabel}</a>
                         )}
                         {!brand.affiliateUrl && brand.altUrl && brand.directUrl && (
                           <a href={brand.directUrl} target="_blank" rel={/amazon\./i.test(brand.directUrl) ? "noopener noreferrer sponsored" : "noopener noreferrer"}
-                            style={{ display: "block", fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 500, letterSpacing: "0.18em", textTransform: "uppercase", color: "#0a0a0a", textDecoration: "none", border: "1px solid #0a0a0a", padding: "13px 20px", textAlign: "center", marginTop: "10px" }}
+                            style={{ display: "block", fontSize: "12.5px", fontWeight: 700, color: "#0a0a0a", textDecoration: "none", border: "1px solid #0a0a0a", padding: "13px 20px", textAlign: "center", marginTop: "10px" }}
                           >Shop {brand.name} Direct (not on Amazon) →</a>
                         )}
-                        <Link href={`/blog/${brand.slug}`} className="inline-block mt-4" style={{ fontFamily: "var(--font-sans)", fontSize: "12px", fontWeight: 600, color: "#8b4a31", textDecoration: "underline", textUnderlineOffset: "3px" }}>
+                        <Link href={`/blog/${brand.slug}`} className="inline-block mt-4" style={{ fontSize: "12px", fontWeight: 600, color: "#0a0a0a", textDecoration: "underline", textUnderlineOffset: "3px" }}>
                           Read full {brand.name} guide →
                         </Link>
                       </div>
@@ -518,8 +517,8 @@ export default function BestReformerBrandsPage() {
             </div>
 
             {/* Recommendation summary */}
-            <div className="rounded-2xl p-8" style={{ backgroundColor: "#1b1c1c" }}>
-              <h2 className="text-2xl font-semibold mb-6" style={{ color: "#ffffff", fontFamily: "'Playfair Display', serif" }}>The verdict by practitioner type</h2>
+            <div className="rounded-2xl p-8" style={{ backgroundColor: "#0a0a0a" }}>
+              <h2 className="mb-6 r-d r-h2" style={{ color: "#ffffff" }}>The verdict by practitioner type</h2>
               <div className="space-y-4">
                 {[
                   { type: "Best overall reformer Pilates brand", rec: "Balanced Body: market leader, best ecosystem, designed for every level of practice." },
@@ -532,8 +531,8 @@ export default function BestReformerBrandsPage() {
                   { type: "Best value studio-grade brand", rec: "Elina Pilates: studio-quality wood reformers (Elite Wood about $3,995) and a full apparatus range." },
                 ].map((item, i) => (
                   <div key={i} className="flex flex-wrap gap-2 text-sm" style={{ paddingBottom: i < 7 ? "16px" : "0", borderBottom: i < 7 ? "1px solid rgba(255,255,255,0.08)" : "none" }}>
-                    <span style={{ color: "#c5a882", fontFamily: "'Montserrat', sans-serif", fontWeight: 600, minWidth: "min(220px, 100%)", flexShrink: 0 }}>{item.type}</span>
-                    <span style={{ color: "rgba(255,255,255,0.65)", fontFamily: "'Montserrat', sans-serif", fontWeight: 300, flex: 1, minWidth: "200px" }}>{item.rec}</span>
+                    <span style={{ color: "#c5a882", fontWeight: 600, minWidth: "min(220px, 100%)", flexShrink: 0 }}>{item.type}</span>
+                    <span style={{ color: "rgba(255,255,255,0.65)", flex: 1, minWidth: "200px" }}>{item.rec}</span>
                   </div>
                 ))}
               </div>
@@ -541,7 +540,7 @@ export default function BestReformerBrandsPage() {
 
             {/* FAQ */}
             <div>
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   {
@@ -565,9 +564,9 @@ export default function BestReformerBrandsPage() {
                     a: "AeroPilates is the best entry-level brand for beginners: approachable, foldable, and priced under $1,000. For beginners willing to invest more in a machine they will grow with, Align-Pilates is the better long-term choice: professional spring calibration and a growing accessory range at $1,500–$2,000."
                   },
                 ].map((faq, i) => (
-                  <div key={i} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)" }}>
-                    <p className="text-base font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{faq.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{faq.a}</p>
+                  <div key={i} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-3 r-hx" style={{ color: "#0a0a0a" }}>{faq.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{faq.a}</p>
                   </div>
                 ))}
               </div>
@@ -575,7 +574,7 @@ export default function BestReformerBrandsPage() {
 
             {/* Further reading */}
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Premium Pilates Reformers ($2K–$5K+)" excerpt="Top-tier machines from Balanced Body, Merrithew, Gratz, Peak, and Elina compared for studio and serious home use." href="/blog/best-premium-pilates-reformer" category="Equipment" readTime="11 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
                 <ArticleCard title="Best Studio Pilates Reformers" excerpt="Professional machines for studio installation: how the top brands compare on carriage, springs, and ecosystem." href="/blog/best-studio-pilates-reformers" category="Equipment" readTime="14 min read" date="May 2026" imageUrl="/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg" />

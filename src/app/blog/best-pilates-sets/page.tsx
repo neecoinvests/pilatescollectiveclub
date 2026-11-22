@@ -169,20 +169,20 @@ export default function BestPilatesSetsPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Apparel</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Equipment Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Apparel</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best Pilates Sets<br /><span style={{ color: "#8b4a31" }}>(2026): Ranked & Compared</span>
+            <h1 className="mb-6 r-d r-h1">
+              Best Pilates Sets<br /><span style={{ color: "#a98a5f" }}>(2026): Ranked & Compared</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 8 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 8 min read</p>
             <TopPick name={PRODUCTS[2].name} price={PRODUCTS[2].price} note={QP_NOTES[2]} url={PRODUCTS[2].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               A matching set removes a decision from your morning, and in Pilates, where mental clarity and presence matter, that simplicity has real value. Beyond the aesthetic appeal, coordinated two-piece sets are designed as systems: the fabric weight, compression level, and waistband height are engineered to work together. These six sets represent the best of what the Pilates apparel market currently offers, from investment-grade premium options to exceptional value alternatives.
             </p>
           </div>
@@ -190,8 +190,8 @@ export default function BestPilatesSetsPage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/roxana-popovici-cZ0WYsBFHhs-unsplash.jpg" alt="Best matching Pilates sets for reformer and studio practice" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/roxana-popovici-cZ0WYsBFHhs-unsplash.jpg" alt="Best matching Pilates sets for reformer and studio practice" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -203,22 +203,22 @@ export default function BestPilatesSetsPage() {
             <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>7 Sets · Compared</p>
+              <p className="text-[12.5px] font-bold mb-10" style={{ color: "#0a0a0a" }}>7 Sets · Compared</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
                     <div className="flex items-center gap-3 mb-4">
-                      <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                      <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tag}</span>
+                      <span className="text-2xl r-hx" style={{ color: "#9a9490" }}>{p.rank}</span>
+                      <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{p.tag}</span>
                     </div>
                     <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                     {"pieces" in p && p.pieces && (
-                      <div className="mt-3 rounded-xl px-5 py-4" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.4)" }}>
-                        <p className="text-xs font-semibold uppercase tracking-widest mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Buy the pieces</p>
+                      <div className="mt-3 rounded-2xl px-5 py-4" style={{ backgroundColor: "#ede9e3" }}>
+                        <p className="text-[12.5px] font-bold mb-2" style={{ color: "#0a0a0a" }}>Buy the pieces</p>
                         {p.pieces.map((pc) => (
-                          <a key={pc.url} href={pc.url} target="_blank" rel="noopener noreferrer sponsored" className="flex justify-between gap-3 py-1.5 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", textDecoration: "none" }}>
+                          <a key={pc.url} href={pc.url} target="_blank" rel="noopener noreferrer sponsored" className="flex justify-between gap-3 py-1.5 text-sm" style={{ color: "#3a3530", textDecoration: "none" }}>
                             <span style={{ textDecoration: "underline", textUnderlineOffset: "3px" }}>{pc.label}</span>
-                            <span className="font-semibold shrink-0" style={{ color: "#1b1c1c" }}>{pc.price} →</span>
+                            <span className="font-semibold shrink-0" style={{ color: "#0a0a0a" }}>{pc.price} →</span>
                           </a>
                         ))}
                       </div>
@@ -229,23 +229,23 @@ export default function BestPilatesSetsPage() {
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   { q: "Is it better to buy a matching Pilates set or mix and match?", a: "Both approaches work. Matching sets offer color consistency and fabric coordination, and are often slightly discounted compared to buying pieces individually. Mix and match gives more flexibility and allows you to replace individual pieces as they wear. Most serious practitioners do both: a few coordinated sets for efficiency, supplemented with versatile individual pieces." },
                   { q: "What bra style is best for a Pilates set?", a: "Medium-support bras with racerback or T-back constructions work best for Pilates. Halter styles can restrict shoulder movement during arm exercises; thick padded styles add unnecessary bulk. Look for a bra with a clean back profile that won't interfere with the scapular exercises common in the repertoire." },
                   { q: "Are Pilates sets worth the investment?", a: "At premium price points, coordinated sets from Alo, Lululemon, or Sweaty Betty represent a genuine investment. The fabrics are designed to last through regular washing and multiple sessions per week. If you practice three or more times weekly, the per-session cost of a quality set is low. Budget options from CRZ YOGA perform well but have a shorter lifespan." },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Pilates Bodysuits" excerpt="The clean one-piece alternative to sets: six options for the studio." href="/blog/best-pilates-bodysuits" category="Apparel" readTime="8 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Leggings" excerpt="Five leggings for reformer and mat practice." href="/blog/best-pilates-leggings" category="Apparel" readTime="9 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />

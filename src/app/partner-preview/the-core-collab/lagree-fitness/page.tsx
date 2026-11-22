@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
-import QuickPicks from "@/components/QuickPicks";
 import TopPick from "@/components/TopPick";
 import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
@@ -170,18 +169,18 @@ const FAQS = [
   },
 ];
 
-const eyebrowStyle = { color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" };
-const bodyStyle = { color: "#53433e", fontFamily: "'Montserrat', sans-serif" };
-const h2Style = { color: "#1b1c1c", fontFamily: "'Playfair Display', serif" };
-const inlineLinkStyle = { color: "#8b4a31", textDecoration: "underline" };
-const chipStyle = { backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" };
-const cardStyle = { backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" };
+const eyebrowStyle = { color: "#0a0a0a" };
+const bodyStyle = { color: "#3a3530" };
+const h2Style = { color: "#0a0a0a" };
+const inlineLinkStyle = { color: "#0a0a0a", textDecoration: "underline" };
+const chipStyle = { backgroundColor: "#ede9e3", color: "#0a0a0a" };
+const cardStyle = { backgroundColor: "#ede9e3" };
 
 function TierCard({ p }: { p: Pick }) {
   return (
     <div id={p.id} className="scroll-mt-28">
       <div className="flex items-center gap-3 mb-4">
-        <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={chipStyle}>{p.tier}</span>
+        <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={chipStyle}>{p.tier}</span>
       </div>
       <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.url} />
     </div>
@@ -229,23 +228,23 @@ export default function LagreeFitnessPartnerPreview() {
     <>
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={eyebrowStyle}>Brand Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Lagree</span>
+              <span className="text-[12.5px] font-bold" style={eyebrowStyle}>Brand Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Lagree</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Lagree Fitness<br /><span style={{ color: "#8b4a31" }}>(2026): The Micro, Megaformer &amp; What to Buy</span>
+            <h1 className="mb-6 r-d r-h1">
+              Lagree Fitness<br /><span style={{ color: "#a98a5f" }}>(2026): The Micro, Megaformer &amp; What to Buy</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 11 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 11 min read</p>
             <TopPick name={QUICK_PICKS[0].name} price={QUICK_PICKS[0].price} note={QUICK_PICKS[0].note} url={QUICK_PICKS[0].url} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed mb-6" style={{ color: "#3a3530" }}>
               Lagree Fitness is the company behind the Lagree method and the Megaformer, the spring-loaded machine you shake on in Lagree studios. What most people do not realize is that you can buy genuine Lagree-branded equipment for home: The Micro, Lagree Fitness&apos;s compact home machine, and its accessories are sold by Lagree Fitness through its own Amazon store. This guide covers who the brand is, how the method works, the machine family, and exactly what a full home setup costs.
             </p>
-            <p className="text-sm leading-relaxed" style={bodyStyle}>
+            <p className="text-base leading-relaxed" style={bodyStyle}>
               Every Amazon listing below was checked as live on September 28, 2026, at the price shown. The Micro and the Micro Pulley Cables were low on stock at that time; if either is unavailable, buy direct from{" "}
               <a href={LAGREE_DIRECT} target="_blank" rel={/amazon\./i.test(LAGREE_DIRECT) ? "noopener noreferrer sponsored" : "noopener noreferrer"} style={inlineLinkStyle}>lagreefitness.com</a>. Prices change, so the final price is whatever the retailer shows at checkout.
             </p>
@@ -254,8 +253,8 @@ export default function LagreeFitnessPartnerPreview() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/stitch-reformers-aerial-row.png" alt="Rows of Lagree-style machines in a studio: Lagree Fitness brand guide" fill className="object-cover" style={{ filter: "brightness(0.85)" }} priority />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/stitch-reformers-aerial-row.png" alt="Rows of Lagree-style machines in a studio: Lagree Fitness brand guide" fill className="object-cover" priority />
             </div>
           </div>
         </section>
@@ -263,15 +262,14 @@ export default function LagreeFitnessPartnerPreview() {
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
 
-            <QuickPicks className="mb-6 mt-4" picks={QUICK_PICKS} />
             <AffiliateNote>Most links on this page go to Amazon, and we earn a small commission on qualifying purchases. The Megaformer is not sold on Amazon and links directly to lagreefitness.com; it is labeled as such.</AffiliateNote>
 
             {/* Related hubs */}
             <div className="mb-10 mt-4 flex flex-col sm:flex-row gap-3">
-              <Link href="/blog/lagree-essentials" className="flex-1 rounded-xl p-4 text-sm font-semibold" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.4)", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif", textDecoration: "none" }}>
+              <Link href="/blog/lagree-essentials" className="flex-1 rounded-2xl p-4 text-sm font-semibold" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a", textDecoration: "none" }}>
                 Going to class? See our Lagree essentials →
               </Link>
-              <Link href="/blog/lagree-for-beginners" className="flex-1 rounded-xl p-4 text-sm font-semibold" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.4)", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif", textDecoration: "none" }}>
+              <Link href="/blog/lagree-for-beginners" className="flex-1 rounded-2xl p-4 text-sm font-semibold" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a", textDecoration: "none" }}>
                 First class coming up? → Lagree for beginners
               </Link>
             </div>
@@ -304,14 +302,14 @@ export default function LagreeFitnessPartnerPreview() {
 
             {/* What Lagree Fitness is */}
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-6" style={h2Style}>What Lagree Fitness is</h2>
-              <p className="text-sm leading-relaxed mb-4" style={bodyStyle}>
+              <h2 className="mb-6 r-d r-h2" style={h2Style}>What Lagree Fitness is</h2>
+              <p className="text-base leading-relaxed mb-4" style={bodyStyle}>
                 Lagree Fitness is the company behind the Lagree method, which was created by Sebastien Lagree, and it makes the machines the method is taught on. When you book a Lagree class, the machine under you is a Megaformer, and the workout is built around it. That tight link between method and machine is what makes Lagree different from most boutique formats: the equipment is not generic gym kit with a branded class on top, it is the thing the whole program is written for.
               </p>
-              <p className="text-sm leading-relaxed mb-4" style={bodyStyle}>
+              <p className="text-base leading-relaxed mb-4" style={bodyStyle}>
                 For shoppers, the brand splits into two product lines. The Megaformer is the commercial studio machine, sold directly by Lagree Fitness. The Micro is the compact home machine, and it, together with its rear platform, handlebars and pulley cables, is sold by Lagree Fitness on Amazon. That matters because it means the Amazon listings on this page are the real, brand-sold products, not look-alikes from unrelated sellers.
               </p>
-              <p className="text-sm leading-relaxed" style={bodyStyle}>
+              <p className="text-base leading-relaxed" style={bodyStyle}>
                 If you are comparing Lagree with Pilates before you commit to either, start with{" "}
                 <Link href="/blog/lagree-vs-pilates" style={inlineLinkStyle}>Lagree vs Pilates</Link>, then come back here for the equipment.
               </p>
@@ -319,8 +317,8 @@ export default function LagreeFitnessPartnerPreview() {
 
             {/* The method */}
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-6" style={h2Style}>The Lagree method in brief</h2>
-              <p className="text-sm leading-relaxed mb-6" style={bodyStyle}>
+              <h2 className="mb-6 r-d r-h2" style={h2Style}>The Lagree method in brief</h2>
+              <p className="text-base leading-relaxed mb-6" style={bodyStyle}>
                 Lagree is a high-intensity, low-impact workout. Instead of jumping or running, you move slowly and with control against spring resistance, keeping muscles working for long stretches. The shaking you feel halfway through a set is the point.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -331,8 +329,8 @@ export default function LagreeFitnessPartnerPreview() {
                   { heading: "Low impact, high effort", body: "There is no jumping, which is easier on joints, yet the workout is intense. Strength and cardio happen in the same class." },
                 ].map((item) => (
                   <div key={item.heading} className="rounded-xl p-5" style={cardStyle}>
-                    <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.heading}</p>
-                    <p className="text-sm leading-relaxed" style={bodyStyle}>{item.body}</p>
+                    <p className="text-sm mb-1.5 r-hx" style={{ color: "#0a0a0a" }}>{item.heading}</p>
+                    <p className="text-base leading-relaxed" style={bodyStyle}>{item.body}</p>
                   </div>
                 ))}
               </div>
@@ -340,16 +338,16 @@ export default function LagreeFitnessPartnerPreview() {
 
             {/* Studio machine */}
             <div className="flex items-center gap-4 mb-10">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] shrink-0" style={eyebrowStyle}>The studio machine</p>
-              <div className="flex-1 h-px" style={{ backgroundColor: "#d9c2ba" }} />
+              <p className="text-[12.5px] font-bold shrink-0" style={eyebrowStyle}>The studio machine</p>
+              <div className="flex-1 h-px" style={{ backgroundColor: "#ddd6cc" }} />
             </div>
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-4" style={h2Style}>The Megaformer</h2>
-              <p className="text-sm leading-relaxed mb-8" style={bodyStyle}>
+              <h2 className="mb-4 r-d r-h2" style={h2Style}>The Megaformer</h2>
+              <p className="text-base leading-relaxed mb-8" style={bodyStyle}>
                 The Megaformer is the machine that defines Lagree. It is built for studios: commercial-grade, designed for back-to-back classes and sized for a studio floor rather than a spare room. Lagree Fitness sells it directly, and current models are referred to as the M3S and M3X. We do not quote a price here because Lagree Fitness provides pricing on request. For most people reading this, the Megaformer is the machine you use in class, not the one you buy.
               </p>
               <TierCard p={MEGAFORMER} />
-              <p className="text-sm leading-relaxed mt-2" style={bodyStyle}>
+              <p className="text-base leading-relaxed mt-2" style={bodyStyle}>
                 Deciding between classes and a home machine? Read{" "}
                 <Link href="/blog/lagree-micro-vs-megaformer" style={inlineLinkStyle}>Lagree Micro vs Megaformer</Link>. Comparing Lagree machines and the alternatives? See our{" "}
                 <Link href="/blog/best-megaformer-machine" style={inlineLinkStyle}>best Megaformer machine guide</Link>.
@@ -359,12 +357,12 @@ export default function LagreeFitnessPartnerPreview() {
 
             {/* The Micro */}
             <div className="flex items-center gap-4 mb-10">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] shrink-0" style={eyebrowStyle}>The home machine</p>
-              <div className="flex-1 h-px" style={{ backgroundColor: "#d9c2ba" }} />
+              <p className="text-[12.5px] font-bold shrink-0" style={eyebrowStyle}>The home machine</p>
+              <div className="flex-1 h-px" style={{ backgroundColor: "#ddd6cc" }} />
             </div>
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-4" style={h2Style}>The Micro by Lagree Fitness</h2>
-              <p className="text-sm leading-relaxed mb-6" style={bodyStyle}>
+              <h2 className="mb-4 r-d r-h2" style={h2Style}>The Micro by Lagree Fitness</h2>
+              <p className="text-base leading-relaxed mb-6" style={bodyStyle}>
                 The Micro is the reason this page exists. It is Lagree Fitness&apos;s own answer to &ldquo;can I do Lagree at home?&rdquo;, and at {MICRO.price} it is sold by Lagree Fitness through its Amazon store. Here is what the listing says it does, and what that means in practice. For the full spec sheet, the four springs and floor-space planning, see our{" "}
                 <Link href="/blog/lagree-micro-review" style={inlineLinkStyle}>Lagree Micro review</Link>.
               </p>
@@ -376,17 +374,17 @@ export default function LagreeFitnessPartnerPreview() {
                   { heading: "Fits tall users", body: "Accommodates users up to 6'8\", which is unusually generous for a home machine." },
                 ].map((item) => (
                   <div key={item.heading} className="rounded-xl p-5" style={cardStyle}>
-                    <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.heading}</p>
-                    <p className="text-sm leading-relaxed" style={bodyStyle}>{item.body}</p>
+                    <p className="text-sm mb-1.5 r-hx" style={{ color: "#0a0a0a" }}>{item.heading}</p>
+                    <p className="text-base leading-relaxed" style={bodyStyle}>{item.body}</p>
                   </div>
                 ))}
               </div>
               <TierCard p={MICRO} />
-              <p className="text-sm leading-relaxed mt-2 mb-4" style={bodyStyle}>
-                <span className="font-semibold" style={{ color: "#1b1c1c" }}>Limited stock:</span> the Micro was showing low stock on Amazon when we checked. If the listing is unavailable, the same machine is sold direct at{" "}
+              <p className="text-base leading-relaxed mt-2 mb-4" style={bodyStyle}>
+                <span className="font-semibold" style={{ color: "#0a0a0a" }}>Limited stock:</span> the Micro was showing low stock on Amazon when we checked. If the listing is unavailable, the same machine is sold direct at{" "}
                 <a href={LAGREE_DIRECT} target="_blank" rel={/amazon\./i.test(LAGREE_DIRECT) ? "noopener noreferrer sponsored" : "noopener noreferrer"} style={inlineLinkStyle}>lagreefitness.com</a>.
               </p>
-              <p className="text-sm leading-relaxed" style={bodyStyle}>
+              <p className="text-base leading-relaxed" style={bodyStyle}>
                 An honest caveat: a machine at home does not come with an instructor. Lagree relies heavily on cueing (slower, lower, tuck), so the Micro makes most sense for people who already know the method from class. New to Lagree? Take a few studio classes first: our{" "}
                 <Link href="/blog/lagree-for-beginners" style={inlineLinkStyle}>Lagree for beginners guide</Link> explains what to expect, and read{" "}
                 <Link href="/blog/lagree-at-home" style={inlineLinkStyle}>Lagree at home</Link> for how to structure home sessions.
@@ -395,8 +393,8 @@ export default function LagreeFitnessPartnerPreview() {
 
             {/* Accessories */}
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-4" style={h2Style}>Micro accessories: what each one unlocks</h2>
-              <p className="text-sm leading-relaxed mb-8" style={bodyStyle}>
+              <h2 className="mb-4 r-d r-h2" style={h2Style}>Micro accessories: what each one unlocks</h2>
+              <p className="text-base leading-relaxed mb-8" style={bodyStyle}>
                 The Micro works on its own, but Lagree Fitness sells three add-ons, all through the same Amazon store. They are not all equal. Here is how to decide.
               </p>
               <div className="space-y-8">
@@ -404,17 +402,17 @@ export default function LagreeFitnessPartnerPreview() {
                   <TierCard key={p.id} p={p} />
                 ))}
               </div>
-              <div className="mt-6 rounded-2xl p-6 md:p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.5)" }}>
-                <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={eyebrowStyle}>How to prioritize</p>
+              <div className="mt-6 rounded-2xl p-6 md:p-8" style={{ backgroundColor: "#ede9e3" }}>
+                <p className="text-[12.5px] font-bold mb-3" style={eyebrowStyle}>How to prioritize</p>
                 <ul className="space-y-3">
-                  <li className="text-sm leading-relaxed" style={bodyStyle}>
-                    <span className="font-semibold" style={{ color: "#1b1c1c" }}>Rear platform first.</span> It adds the most exercises (express lunge, 5th lunge, super crunch, giant wheelbarrow), and it is required before handlebars can go at the back.
+                  <li className="text-base leading-relaxed" style={bodyStyle}>
+                    <span className="font-semibold" style={{ color: "#0a0a0a" }}>Rear platform first.</span> It adds the most exercises (express lunge, 5th lunge, super crunch, giant wheelbarrow), and it is required before handlebars can go at the back.
                   </li>
-                  <li className="text-sm leading-relaxed" style={bodyStyle}>
-                    <span className="font-semibold" style={{ color: "#1b1c1c" }}>The handlebar gotcha.</span> One pair ({ACCESSORIES[1].price}) goes at the front or the back, not both. If you want handlebars in both positions at once, buy two pairs: 2 × $190.00 = {fmt(HANDLEBAR_PRICE * 2)}.
+                  <li className="text-base leading-relaxed" style={bodyStyle}>
+                    <span className="font-semibold" style={{ color: "#0a0a0a" }}>The handlebar gotcha.</span> One pair ({ACCESSORIES[1].price}) goes at the front or the back, not both. If you want handlebars in both positions at once, buy two pairs: 2 × $190.00 = {fmt(HANDLEBAR_PRICE * 2)}.
                   </li>
-                  <li className="text-sm leading-relaxed" style={bodyStyle}>
-                    <span className="font-semibold" style={{ color: "#1b1c1c" }}>Pulley cables last.</span> Useful for cable work, but the listing gives no further detail and stock is limited. If Amazon is out, check{" "}
+                  <li className="text-base leading-relaxed" style={bodyStyle}>
+                    <span className="font-semibold" style={{ color: "#0a0a0a" }}>Pulley cables last.</span> Useful for cable work, but the listing gives no further detail and stock is limited. If Amazon is out, check{" "}
                     <a href={LAGREE_DIRECT} target="_blank" rel={/amazon\./i.test(LAGREE_DIRECT) ? "noopener noreferrer sponsored" : "noopener noreferrer"} style={inlineLinkStyle}>lagreefitness.com</a>.
                   </li>
                 </ul>
@@ -422,15 +420,15 @@ export default function LagreeFitnessPartnerPreview() {
             </div>
 
             {/* Cost box */}
-            <div className="mb-16 rounded-2xl p-6 md:p-8" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.5)" }}>
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={eyebrowStyle}>What the full setup costs</p>
-              <h2 className="text-2xl font-semibold mb-3" style={h2Style}>The Micro home setup, added up</h2>
-              <p className="text-sm leading-relaxed mb-6" style={bodyStyle}>
+            <div className="mb-16 rounded-2xl p-6 md:p-8" style={{ backgroundColor: "#ede9e3" }}>
+              <p className="text-[12.5px] font-bold mb-3" style={eyebrowStyle}>What the full setup costs</p>
+              <h2 className="mb-3 r-d r-h2" style={h2Style}>The Micro home setup, added up</h2>
+              <p className="text-base leading-relaxed mb-6" style={bodyStyle}>
                 Using the verified Amazon prices on this page, with one pair of handlebars.
               </p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div className="rounded-xl p-5" style={{ backgroundColor: "#f6f3f2" }}>
-                  <p className="text-base font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Full Micro setup</p>
+                <div className="rounded-xl p-5" style={{ backgroundColor: "#ede9e3" }}>
+                  <p className="text-base mb-4 r-hx" style={{ color: "#0a0a0a" }}>Full Micro setup</p>
                   <ul className="space-y-1.5 mb-4">
                     {SETUP.map((p) => (
                       <li key={p.id} className="flex justify-between gap-3 text-xs" style={bodyStyle}>
@@ -439,14 +437,14 @@ export default function LagreeFitnessPartnerPreview() {
                       </li>
                     ))}
                   </ul>
-                  <div className="flex justify-between pt-3 text-sm font-semibold" style={{ borderTop: "1px solid #d9c2ba", color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>
+                  <div className="flex justify-between pt-3 text-sm font-semibold" style={{ borderTop: "1px solid #ddd6cc", color: "#0a0a0a" }}>
                     <span>Total</span>
                     <span>{fmt(SETUP_TOTAL)}</span>
                   </div>
                   <p className="text-xs mt-3" style={bodyStyle}>$990.00 + $290.00 + $190.00 + $230.00 = {fmt(SETUP_TOTAL)}</p>
                 </div>
-                <div className="rounded-xl p-5" style={{ backgroundColor: "#f6f3f2" }}>
-                  <p className="text-base font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Other ways to build it</p>
+                <div className="rounded-xl p-5" style={{ backgroundColor: "#ede9e3" }}>
+                  <p className="text-base mb-4 r-hx" style={{ color: "#0a0a0a" }}>Other ways to build it</p>
                   <ul className="space-y-1.5 mb-4">
                     <li className="flex justify-between gap-3 text-xs" style={bodyStyle}>
                       <span>The Micro only</span>
@@ -461,7 +459,7 @@ export default function LagreeFitnessPartnerPreview() {
                       <span className="shrink-0 font-semibold">{fmt(SETUP_TWO_BARS)}</span>
                     </li>
                   </ul>
-                  <div className="flex justify-between pt-3 text-sm font-semibold" style={{ borderTop: "1px solid #d9c2ba", color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>
+                  <div className="flex justify-between pt-3 text-sm font-semibold" style={{ borderTop: "1px solid #ddd6cc", color: "#0a0a0a" }}>
                     <span>Class gear (optional)</span>
                     <span>{fmt(GEAR_TOTAL)}</span>
                   </div>
@@ -469,9 +467,9 @@ export default function LagreeFitnessPartnerPreview() {
                 </div>
               </div>
 
-              <div className="mt-6 rounded-xl p-5" style={{ backgroundColor: "#f6f3f2" }}>
-                <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={eyebrowStyle}>Cost vs classes</p>
-                <p className="text-sm leading-relaxed mb-3" style={bodyStyle}>
+              <div className="mt-6 rounded-xl p-5" style={{ backgroundColor: "#ede9e3" }}>
+                <p className="text-[12.5px] font-bold mb-3" style={eyebrowStyle}>Cost vs classes</p>
+                <p className="text-base leading-relaxed mb-3" style={bodyStyle}>
                   Lagree classes commonly cost $35–$45 or more each in major US cities. Dividing each price by $45 and by $35 gives a rough break-even:
                 </p>
                 <ul className="space-y-2">
@@ -480,12 +478,12 @@ export default function LagreeFitnessPartnerPreview() {
                     { label: "Micro + rear platform", n: MICRO_PRICE + toNumber(ACCESSORIES[0].price) },
                     { label: "Full Micro setup", n: SETUP_TOTAL },
                   ].map((row) => (
-                    <li key={row.label} className="text-sm" style={bodyStyle}>
-                      <span className="font-semibold" style={{ color: "#1b1c1c" }}>{row.label}</span> ({fmt(row.n)}): about {classRange(row.n)} classes
+                    <li key={row.label} className="text-base" style={bodyStyle}>
+                      <span className="font-semibold" style={{ color: "#0a0a0a" }}>{row.label}</span> ({fmt(row.n)}): about {classRange(row.n)} classes
                     </li>
                   ))}
                 </ul>
-                <p className="text-sm leading-relaxed mt-3" style={bodyStyle}>
+                <p className="text-base leading-relaxed mt-3" style={bodyStyle}>
                   If you go three times a week, the full setup is worth roughly three to four months of classes at those prices. If you go once a week, it takes most of a year. Most people who buy a Micro keep some studio classes for the instruction, so treat these figures as a ceiling on savings rather than a promise. See{" "}
                   <Link href="/blog/how-much-does-pilates-cost" style={inlineLinkStyle}>how much Pilates costs</Link>{" "}
                   for how boutique class pricing compares.
@@ -495,17 +493,17 @@ export default function LagreeFitnessPartnerPreview() {
 
             {/* Gear */}
             <div className="flex items-center gap-4 mb-10">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] shrink-0" style={eyebrowStyle}>What to wear and bring</p>
-              <div className="flex-1 h-px" style={{ backgroundColor: "#d9c2ba" }} />
+              <p className="text-[12.5px] font-bold shrink-0" style={eyebrowStyle}>What to wear and bring</p>
+              <div className="flex-1 h-px" style={{ backgroundColor: "#ddd6cc" }} />
             </div>
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-4" style={h2Style}>Gear for Lagree, at home or in class</h2>
-              <p className="text-sm leading-relaxed mb-6" style={bodyStyle}>
+              <h2 className="mb-4 r-d r-h2" style={h2Style}>Gear for Lagree, at home or in class</h2>
+              <p className="text-base leading-relaxed mb-6" style={bodyStyle}>
                 Lagree is slower and sweatier than most Pilates reformer classes, so grip matters more, and loose shorts or zips are a liability on a moving carriage. These six picks cover the basics; the full best, budget and splurge list for every category is in our{" "}
                 <Link href="/blog/lagree-essentials" style={inlineLinkStyle}>Lagree essentials guide</Link>.
               </p>
               <div className="r-qp r-glance">
-                {GEAR.map((g, i) => (
+                {GEAR.map((g) => (
                   <div key={g.name} className="r-qp-row">
                     <div className="r-qp-tx">
                       <p className="r-qp-tag">
@@ -527,12 +525,12 @@ export default function LagreeFitnessPartnerPreview() {
 
             {/* Micro vs Pilates reformer */}
             <div className="flex items-center gap-4 mb-10">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] shrink-0" style={eyebrowStyle}>Honest comparison</p>
-              <div className="flex-1 h-px" style={{ backgroundColor: "#d9c2ba" }} />
+              <p className="text-[12.5px] font-bold shrink-0" style={eyebrowStyle}>Honest comparison</p>
+              <div className="flex-1 h-px" style={{ backgroundColor: "#ddd6cc" }} />
             </div>
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-4" style={h2Style}>The Micro vs a Pilates reformer</h2>
-              <p className="text-sm leading-relaxed mb-4" style={bodyStyle}>
+              <h2 className="mb-4 r-d r-h2" style={h2Style}>The Micro vs a Pilates reformer</h2>
+              <p className="text-base leading-relaxed mb-4" style={bodyStyle}>
                 Both machines use springs and a sliding carriage, so it is tempting to treat them as interchangeable. They are not. Lagree is a different method with its own machine layout, exercise library and pace: slower, longer sets and more time under tension. A Pilates reformer is designed for Pilates repertoire, with footbar and strap work built around it. You can get a hard workout on either, but you will not be doing Lagree on a Pilates reformer.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
@@ -541,20 +539,20 @@ export default function LagreeFitnessPartnerPreview() {
                   { heading: "Choose a Pilates reformer if…", body: "You actually prefer Pilates, or you want a machine for Pilates repertoire. Reformers span a wide price range, from under $300 to several thousand dollars." },
                 ].map((item) => (
                   <div key={item.heading} className="rounded-xl p-5" style={cardStyle}>
-                    <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.heading}</p>
-                    <p className="text-sm leading-relaxed" style={bodyStyle}>{item.body}</p>
+                    <p className="text-sm mb-1.5 r-hx" style={{ color: "#0a0a0a" }}>{item.heading}</p>
+                    <p className="text-base leading-relaxed" style={bodyStyle}>{item.body}</p>
                   </div>
                 ))}
               </div>
-              <p className="text-sm leading-relaxed mb-8" style={bodyStyle}>
-                If you decide a Pilates reformer is the better fit, these two bracket the market. To be clear: <span className="font-semibold" style={{ color: "#1b1c1c" }}>neither is a Lagree machine.</span>
+              <p className="text-base leading-relaxed mb-8" style={bodyStyle}>
+                If you decide a Pilates reformer is the better fit, these two bracket the market. To be clear: <span className="font-semibold" style={{ color: "#0a0a0a" }}>neither is a Lagree machine.</span>
               </p>
               <div className="space-y-8">
                 {ALTERNATIVES.map((p) => (
                   <TierCard key={p.id} p={p} />
                 ))}
               </div>
-              <p className="text-sm leading-relaxed mt-2" style={bodyStyle}>
+              <p className="text-base leading-relaxed mt-2" style={bodyStyle}>
                 More on the Pilates side: <Link href="/blog/best-foldable-pilates-reformer" style={inlineLinkStyle}>best foldable Pilates reformers</Link> and{" "}
                 <Link href="/blog/merrithew-pilates" style={inlineLinkStyle}>our Merrithew brand guide</Link>. Tall? See{" "}
                 <Link href="/blog/best-pilates-reformer-for-tall-people" style={inlineLinkStyle}>best reformers for tall people</Link>though at up to 6&apos;8&quot;, the Micro already covers most heights.
@@ -563,12 +561,12 @@ export default function LagreeFitnessPartnerPreview() {
 
             {/* FAQ */}
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={h2Style}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2" style={h2Style}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {FAQS.map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={cardStyle}>
-                    <h3 className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</h3>
-                    <p className="text-sm leading-relaxed" style={bodyStyle}>{item.a}</p>
+                    <h3 className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</h3>
+                    <p className="text-base leading-relaxed" style={bodyStyle}>{item.a}</p>
                   </div>
                 ))}
               </div>
@@ -576,7 +574,7 @@ export default function LagreeFitnessPartnerPreview() {
 
             {/* Further reading */}
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={h2Style}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2" style={h2Style}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Megaformer Machine" excerpt="Lagree equipment reviewed, plus the studio-grade alternatives worth considering." href="/blog/best-megaformer-machine" category="Lagree" readTime="11 min read" date="September 2026" imageUrl="/pictures/stitch-reformers-aerial-row.png" />
                 <ArticleCard title="Lagree at Home" excerpt="How to train the Lagree way at home, from the Micro to floor work between classes." href="/blog/lagree-at-home" category="Lagree" readTime="9 min read" date="September 2026" imageUrl="/pictures/stitch-hands-on-carriage.png" />

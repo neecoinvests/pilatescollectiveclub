@@ -247,20 +247,20 @@ export default function BestStudioReformersPage() {
       <main>
 
         {/* Hero section */}
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Studio Reformers</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Equipment Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Studio Reformers</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best Studio-Grade Pilates Reformers<br /><span style={{ color: "#8b4a31" }}>(2026): 5 Machines Worth Knowing</span>
+            <h1 className="mb-6 r-d r-h1">
+              Best Studio-Grade Pilates Reformers<br /><span style={{ color: "#a98a5f" }}>(2026): 5 Machines Worth Knowing</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 13 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 13 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               Our first premium reformer guide covered the machines that appear on every shortlist: Balanced Body Studio Reformer, Allegro Stretch, Merrithew At Home SPX, Align-Pilates C8-PRO and PersonalHour. This guide covers five more machines, all sold on Amazon, that serious practitioners and studio owners frequently miss, either because they represent different configurations, different frame materials, or solve a specific problem (space, storage, a complete reformer-tower-mat system) that the standard roundup machines do not.
             </p>
           </div>
@@ -269,8 +269,8 @@ export default function BestStudioReformersPage() {
         {/* Hero image */}
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg" alt="Studio-grade Pilates reformer machines" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg" alt="Studio-grade Pilates reformer machines" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -281,12 +281,12 @@ export default function BestStudioReformersPage() {
 
             {/* Introduction */}
             <div className="mb-16 mt-4">
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 Prices were checked on Amazon in September 2026, where every machine in this guide is sold direct by the manufacturer or an authorized distributor.
               </p>
-              <div className="rounded-xl p-5 mt-6" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(139,74,49,0.15)" }}>
-                <p className="text-sm font-semibold mb-1" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The standout in this guide</p>
-                <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <div className="rounded-2xl p-5 mt-6" style={{ backgroundColor: "#ede9e3" }}>
+                <p className="text-sm mb-1 r-hx" style={{ color: "#0a0a0a" }}>The standout in this guide</p>
+                <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>
                   For practitioners with space constraints, the <strong>Balanced Body Metro IQ</strong> at $2,330 is the most underrated machine in the premium category. For those building a dedicated studio, the <strong>Balanced Body Studio Reformer</strong> is the commercial machine most contemporary studios run. And if you want one frame that does everything, the <strong>Studio Reformer with Tower and Mat Conversion</strong> adds Cadillac-style tower work and elevated mat training.
                 </p>
               </div>
@@ -294,7 +294,7 @@ export default function BestStudioReformersPage() {
 
             {/* What makes these machines different */}
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Five machines, five different problems solved</h2>
+              <h2 className="mb-6 r-d r-h2">Five machines, five different problems solved</h2>
               <div className="space-y-4">
                 {[
                   { heading: "Space constraints (Metro IQ)", body: "The Metro IQ's telescoping frame shrinks from 98 inches to 62 inches for storage, which is the most practical answer to the space problem for urban practitioners, and it still uses genuine Balanced Body springs and carriage." },
@@ -303,11 +303,11 @@ export default function BestStudioReformersPage() {
                   { heading: "Permanent studio build-out (Studio Reformer)", body: "The Balanced Body Studio Reformer is the commercial machine found in most contemporary studios. If you are building a dedicated home studio with multiple machines, or want a maple machine with tower and mat-conversion options, it is the natural choice over the Allegro 2." },
                   { heading: "One frame, three apparatus (Studio Reformer with Tower)", body: "The Tower and Mat Conversion turns the Studio Reformer into a near-complete Cadillac and elevated mat platform as well, without needing separate equipment. It's the closest thing to owning a full studio corner in one purchase." },
                 ].map((item) => (
-                  <div key={item.heading} className="flex gap-5 rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <div className="w-1.5 rounded-full shrink-0 mt-1" style={{ backgroundColor: "#8b4a31", minHeight: "20px" }} />
+                  <div key={item.heading} className="flex gap-5 rounded-2xl p-5" style={{ backgroundColor: "#ede9e3" }}>
+                    <div className="w-1.5 rounded-full shrink-0 mt-1" style={{ backgroundColor: "#0a0a0a", minHeight: "20px" }} />
                     <div>
-                      <p className="text-sm font-semibold mb-1" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.heading}</p>
-                      <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
+                      <p className="text-sm mb-1 r-hx" style={{ color: "#0a0a0a" }}>{item.heading}</p>
+                      <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.body}</p>
                     </div>
                   </div>
                 ))}
@@ -320,24 +320,24 @@ export default function BestStudioReformersPage() {
 
             {/* Products */}
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Reformers · $2,330 to $6,975</p>
+              <p className="text-[12.5px] font-bold mb-10" style={{ color: "#0a0a0a" }}>5 Reformers · $2,330 to $6,975</p>
               <div className="space-y-16">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
                     <div className="flex flex-wrap items-center gap-3 mb-4">
-                      <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                      <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tier}</span>
-                      <span className="text-xs font-semibold uppercase tracking-widest" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>{p.verdict}</span>
+                      <span className="text-2xl r-hx" style={{ color: "#9a9490" }}>{p.rank}</span>
+                      <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{p.tier}</span>
+                      <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>{p.verdict}</span>
                     </div>
                     <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
 
                     {/* Specs */}
-                    <div className="mt-4 rounded-xl overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.3)" }}>
-                      <div className="grid grid-cols-2 sm:grid-cols-3 gap-px" style={{ backgroundColor: "rgba(217,194,186,0.3)" }}>
+                    <div className="mt-4 rounded-2xl overflow-hidden" style={{ border: "1px solid #ddd6cc" }}>
+                      <div className="grid grid-cols-2 sm:grid-cols-3 gap-px" style={{ backgroundColor: "#ddd6cc" }}>
                         {p.specs.map((s) => (
                           <div key={s.label} className="px-4 py-3" style={{ backgroundColor: "#faf8f7" }}>
-                            <p className="text-xs font-semibold uppercase tracking-wider mb-1" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{s.label}</p>
-                            <p className="text-xs" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{s.value}</p>
+                            <p className="text-[12.5px] font-bold mb-1" style={{ color: "#0a0a0a" }}>{s.label}</p>
+                            <p className="text-xs" style={{ color: "#3a3530" }}>{s.value}</p>
                           </div>
                         ))}
                       </div>
@@ -345,16 +345,16 @@ export default function BestStudioReformersPage() {
 
                     {/* Pros / cons */}
                     <div className="mt-3 grid grid-cols-2 gap-3">
-                      <div className="rounded-lg p-4" style={{ backgroundColor: "#f0f7f1", border: "1px solid rgba(83,98,87,0.2)" }}>
-                        <p className="text-xs font-semibold uppercase tracking-wider mb-2" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Pros</p>
+                      <div className="rounded-2xl p-4" style={{ backgroundColor: "#ede9e3" }}>
+                        <p className="text-[12.5px] font-bold mb-2" style={{ color: "#3a3530" }}>Pros</p>
                         <ul className="space-y-1">
-                          {p.pros.map((pro) => <li key={pro} className="text-xs" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>+ {pro}</li>)}
+                          {p.pros.map((pro) => <li key={pro} className="text-xs" style={{ color: "#3a3530" }}>+ {pro}</li>)}
                         </ul>
                       </div>
-                      <div className="rounded-lg p-4" style={{ backgroundColor: "#fdf5f3", border: "1px solid rgba(139,74,49,0.15)" }}>
-                        <p className="text-xs font-semibold uppercase tracking-wider mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Cons</p>
+                      <div className="rounded-2xl p-4" style={{ backgroundColor: "#ede9e3" }}>
+                        <p className="text-[12.5px] font-bold mb-2" style={{ color: "#0a0a0a" }}>Cons</p>
                         <ul className="space-y-1">
-                          {p.cons.map((con) => <li key={con} className="text-xs" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>− {con}</li>)}
+                          {p.cons.map((con) => <li key={con} className="text-xs" style={{ color: "#3a3530" }}>− {con}</li>)}
                         </ul>
                       </div>
                     </div>
@@ -365,13 +365,13 @@ export default function BestStudioReformersPage() {
 
             {/* Comparison table */}
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Side-by-side comparison</h2>
+              <h2 className="mb-8 r-d r-h2">Side-by-side comparison</h2>
               <div className="overflow-x-auto r-glance">
                 <table className="w-full text-sm">
                   <thead>
-                    <tr style={{ backgroundColor: "#f6f3f2", borderBottom: "1px solid rgba(217,194,186,0.4)" }}>
+                    <tr style={{ backgroundColor: "#ede9e3", borderBottom: "1px solid #ddd6cc" }}>
                       {["Reformer", "Price", "Carriage", "Key Feature", "Best For"].map((h) => (
-                        <th key={h} className="text-left px-4 py-3 text-xs font-semibold uppercase tracking-wider whitespace-nowrap" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{h}</th>
+                        <th key={h} className="text-left px-4 py-3 text-[12.5px] font-bold whitespace-nowrap" style={{ color: "#0a0a0a" }}>{h}</th>
                       ))}
                     </tr>
                   </thead>
@@ -383,23 +383,23 @@ export default function BestStudioReformersPage() {
                       { model: "BB Studio Reformer", price: "$4,700", carriage: "Rock maple frame", feature: "Revo footbar, tower option", best: "Home studio build" },
                       { model: "BB Studio Reformer + Tower", price: "$6,975", carriage: "Rock maple frame", feature: "Tower + mat conversion", best: "Complete studio corner" },
                     ].map((row, i) => (
-                      <tr key={row.model} style={{ backgroundColor: i % 2 === 0 ? "#ffffff" : "#faf8f7", borderBottom: "1px solid rgba(217,194,186,0.2)" }}>
-                        <td className="px-4 py-3 font-semibold whitespace-nowrap" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{row.model}</td>
-                        <td className="px-4 py-3 whitespace-nowrap" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif", fontWeight: 600 }}>{row.price}</td>
-                        <td className="px-4 py-3" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{row.carriage}</td>
-                        <td className="px-4 py-3" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{row.feature}</td>
-                        <td className="px-4 py-3" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{row.best}</td>
+                      <tr key={row.model} style={{ backgroundColor: i % 2 === 0 ? "#ffffff" : "#faf8f7", borderBottom: "1px solid #ddd6cc" }}>
+                        <td className="px-4 py-3 font-semibold whitespace-nowrap" style={{ color: "#0a0a0a" }}>{row.model}</td>
+                        <td className="px-4 py-3 whitespace-nowrap" style={{ color: "#0a0a0a", fontWeight: 600 }}>{row.price}</td>
+                        <td className="px-4 py-3" style={{ color: "#3a3530" }}>{row.carriage}</td>
+                        <td className="px-4 py-3" style={{ color: "#3a3530" }}>{row.feature}</td>
+                        <td className="px-4 py-3" style={{ color: "#3a3530" }}>{row.best}</td>
                       </tr>
                     ))}
                   </tbody>
                 </table>
               </div>
-              <p className="text-xs mt-3" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked on Amazon, September 2026. All machines are made to order: verify current lead times before purchasing.</p>
+              <p className="text-xs mt-3" style={{ color: "#6f6964" }}>Prices checked on Amazon, September 2026. All machines are made to order: verify current lead times before purchasing.</p>
             </div>
 
             {/* Who should buy what */}
             <div className="mb-16 space-y-4">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Who should buy which</h2>
+              <h2 className="mb-6 r-d r-h2">Who should buy which</h2>
               {[
                 { who: "Apartment or small-space practitioners", buy: "Balanced Body Metro IQ", reason: "The only machine in the premium category that stores at 62 inches. Genuine Balanced Body springs and carriage in an apartment-friendly format." },
                 { who: "Practitioners who want fast, tool-free spring changes", buy: "Align-Pilates C8-PRO", reason: "The same Rapid Change Spring Bar and 8-wheel PU carriage as Align's studio machines, in a stackable home frame sold direct on Amazon." },
@@ -407,36 +407,36 @@ export default function BestStudioReformersPage() {
                 { who: "Home studio owners who want full tower capability", buy: "Balanced Body Studio Reformer", reason: "The Allegro 2 can take a tower too, but the Studio Reformer's maple frame and Revo adjustments are built for a permanent, heavily used studio, and Balanced Body sells it with Tower and Mat Conversion." },
                 { who: "Studio owners who want one frame for everything", buy: "Balanced Body Studio Reformer with Tower", reason: "Reformer, Cadillac-style tower work and elevated mat training from a single hand-built maple frame: the most complete apparatus in this guide." },
               ].map((item) => (
-                <div key={item.who} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
+                <div key={item.who} className="rounded-2xl p-5" style={{ backgroundColor: "#ede9e3" }}>
                   <div className="flex flex-wrap items-start gap-3 mb-2">
-                    <span className="text-xs font-semibold uppercase tracking-wider px-2 py-1 rounded" style={{ backgroundColor: "#f6f3f2", color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{item.who}</span>
-                    <span className="text-sm font-semibold" style={{ color: "#8b4a31", fontFamily: "'Playfair Display', serif" }}>→ {item.buy}</span>
+                    <span className="text-[12.5px] font-bold px-2 py-1 rounded" style={{ backgroundColor: "#ede9e3", color: "#6f6964" }}>{item.who}</span>
+                    <span className="text-sm r-hx" style={{ color: "#0a0a0a" }}>→ {item.buy}</span>
                   </div>
-                  <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.reason}</p>
+                  <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.reason}</p>
                 </div>
               ))}
             </div>
 
             {/* Verdict */}
-            <div className="mb-16 rounded-2xl p-8 md:p-10" style={{ background: "linear-gradient(135deg, #8b4a31 0%, #a86247 100%)" }}>
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-4 opacity-75" style={{ color: "#ffffff", fontFamily: "'Montserrat', sans-serif" }}>Our Verdict</p>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#ffffff", fontFamily: "'Playfair Display', serif" }}>The most underrated machine in this guide: Balanced Body Metro IQ.</h2>
-              <p className="text-base leading-relaxed mb-6 opacity-85" style={{ color: "#ffffff", fontFamily: "'Montserrat', sans-serif" }}>
+            <div className="mb-16 rounded-2xl p-8 md:p-10" style={{ background: "linear-gradient(135deg, #0a0a0a 0%, #a86247 100%)" }}>
+              <p className="text-[12.5px] font-bold mb-4 opacity-75" style={{ color: "#ffffff" }}>Our Verdict</p>
+              <h2 className="mb-4 r-d r-h2" style={{ color: "#ffffff" }}>The most underrated machine in this guide: Balanced Body Metro IQ.</h2>
+              <p className="text-base leading-relaxed mb-6 opacity-85" style={{ color: "#ffffff" }}>
                 Most premium reformer guides ignore the Metro IQ because it does not have the prestige of the Studio Reformer or the Studio Reformer with Tower. That is a mistake. At $2,330 with a 62-inch stored length and genuine Balanced Body springs, it is the machine that unlocks serious home practice for the majority of urban practitioners who otherwise cannot justify the floor space. If you have room for a permanent installation, the Balanced Body Studio Reformer is the professional choice. And if you want one frame that replaces an entire studio corner, the Studio Reformer with Tower and Mat Conversion is the most complete machine on the market.
               </p>
-              <a href="https://www.amazon.com/dp/B09HNCMTZL?tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" className="inline-block px-6 py-3 rounded-xl text-sm font-semibold transition-opacity hover:opacity-90" style={{ backgroundColor: "#ffffff", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>
+              <a href="https://www.amazon.com/dp/B09HNCMTZL?tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" className="r-btn r-btn-sm r-btn-light">
                 Shop Balanced Body Metro IQ →
               </a>
             </div>
 
             {/* FAQ */}
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {FAQS.map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
@@ -444,7 +444,7 @@ export default function BestStudioReformersPage() {
 
             {/* Further reading */}
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Premium Pilates Reformers" excerpt="Our first premium reformer guide: Balanced Body Studio Reformer, Allegro Stretch, Merrithew At Home SPX and more compared." href="/blog/best-premium-pilates-reformer" category="Equipment" readTime="14 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
                 <ArticleCard title="Balanced Body vs Merrithew: Which Should You Buy?" excerpt="The definitive head-to-head of the two dominant professional reformer brands: compared on carriage, springs, accessories, and value." href="/blog/balanced-body-vs-merrithew" category="Comparison" readTime="13 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-cZ0WYsBFHhs-unsplash.jpg" />

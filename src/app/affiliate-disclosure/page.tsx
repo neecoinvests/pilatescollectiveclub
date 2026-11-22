@@ -15,47 +15,30 @@ export const metadata: Metadata = {
   robots: { index: true, follow: true },
 };
 
-const s = {
-  h2: {
-    fontFamily: "'Playfair Display', serif",
-    fontSize: "22px",
-    fontWeight: 600,
-    color: "#1b1c1c",
-    marginTop: "48px",
-    marginBottom: "16px",
-  } as React.CSSProperties,
-  p: {
-    fontFamily: "'Montserrat', sans-serif",
-    fontSize: "15px",
-    fontWeight: 300,
-    color: "#53433e",
-    lineHeight: 1.85,
-    marginBottom: "16px",
-  } as React.CSSProperties,
-};
+const s = { h2: { fontSize: "22px", fontWeight: 600, color: "#0a0a0a", marginTop: "48px", marginBottom: "16px" } as React.CSSProperties, p: { fontSize: "17px", color: "#3a3530", lineHeight: 1.55, marginBottom: "16px" } as React.CSSProperties };
 
 export default function AffiliateDisclosurePage() {
   return (
     <>
       <Header />
-      <main style={{ backgroundColor: "#fcf9f8", minHeight: "100vh" }}>
+      <main style={{ backgroundColor: "#f7f4f0", minHeight: "100vh" }}>
         <section className="pt-32 pb-20 px-6">
           <div className="max-w-2xl mx-auto">
-            <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "10px", fontWeight: 600, letterSpacing: "0.2em", textTransform: "uppercase", color: "#8b4a31", marginBottom: "16px" }}>Legal</p>
-            <h1 style={{ fontFamily: "'Playfair Display', serif", fontSize: "38px", fontWeight: 600, color: "#1b1c1c", lineHeight: 1.2, marginBottom: "12px" }}>Affiliate Disclosure</h1>
-            <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", color: "#86736d", marginBottom: "48px" }}>Last updated: May 2026</p>
+            <p style={{ fontSize: "12.5px", fontWeight: 600, color: "#0a0a0a", marginBottom: "16px" }}>Legal</p>
+            <h1 className="r-d r-h1" style={{ marginBottom: "12px" }}>Affiliate Disclosure</h1>
+            <p style={{ fontSize: "15px", color: "#6f6964", marginBottom: "48px" }}>Last updated: May 2026</p>
 
-            <div style={{ width: "48px", height: "2px", backgroundColor: "#d9c2ba", marginBottom: "48px" }} />
+            <div style={{ width: "48px", height: "2px", backgroundColor: "#ddd6cc", marginBottom: "48px" }} />
 
             {/* Summary box */}
-            <div style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px", padding: "28px 32px", marginBottom: "40px" }}>
-              <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", fontWeight: 600, letterSpacing: "0.1em", textTransform: "uppercase", color: "#8b4a31", marginBottom: "12px" }}>The short version</p>
-              <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "15px", fontWeight: 300, color: "#53433e", lineHeight: 1.8, margin: 0 }}>
+            <div style={{ backgroundColor: "#ede9e3", borderRadius: "16px", padding: "28px 32px", marginBottom: "40px" }}>
+              <p style={{ fontSize: "13px", fontWeight: 600, color: "#0a0a0a", marginBottom: "12px" }}>The short version</p>
+              <p style={{ fontSize: "17px", color: "#3a3530", lineHeight: 1.55, margin: 0 }}>
                 Some links on this site earn us a small commission if you buy through them. It costs you nothing extra. Our recommendations are always based on research and honest editorial judgment, never on commission rates.
               </p>
             </div>
 
-            <h2 style={s.h2}>Amazon Associates Program</h2>
+            <h2 className="r-d r-h2" style={s.h2}>Amazon Associates Program</h2>
             <p style={s.p}>
               Pilates Collective Club is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com and its international variants (Amazon.co.uk, Amazon.de, Amazon.fr, etc.).
             </p>
@@ -63,12 +46,12 @@ export default function AffiliateDisclosurePage() {
               When you click a product link marked <strong>Shop Now →</strong> on this site and make a qualifying purchase on Amazon, we may earn a small commission, typically 1–8% depending on the product category. This commission is paid by Amazon and does not increase the price you pay.
             </p>
 
-            <h2 style={s.h2}>How We Mark Affiliate Links</h2>
+            <h2 className="r-d r-h2" style={s.h2}>How We Mark Affiliate Links</h2>
             <p style={s.p}>
               Articles containing affiliate links carry a short notice where the product recommendations begin, like this one:
             </p>
-            <div style={{ backgroundColor: "#f6f3f2", borderRadius: "12px", padding: "20px 24px", marginBottom: "16px" }}>
-              <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", color: "#86736d", margin: 0, fontStyle: "italic" }}>
+            <div style={{ backgroundColor: "#ede9e3", borderRadius: "12px", padding: "20px 24px", marginBottom: "16px" }}>
+              <p style={{ fontSize: "15px", color: "#6f6964", margin: 0, fontStyle: "italic" }}>
                 Some links on this page go to Amazon. As an Amazon Associate we earn from qualifying purchases, at no extra cost to you.
               </p>
             </div>
@@ -76,11 +59,11 @@ export default function AffiliateDisclosurePage() {
               Product links within articles (the <strong>Shop Now →</strong> buttons in product cards, Quick Picks and comparison tables) are affiliate links. Links marked <strong>Shop Direct →</strong> go to a brand&apos;s own website for products not sold on Amazon. Internal links to other pages on this site, city guide links, and studio website links are not affiliate links.
             </p>
 
-            <h2 style={s.h2}>Our Editorial Independence</h2>
+            <h2 className="r-d r-h2" style={s.h2}>Our Editorial Independence</h2>
             <p style={s.p}>
               Affiliate commissions do not influence which products we recommend, how we rank them, or what we write about them. Our product selection and editorial assessments are based on:
             </p>
-            <ul style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "15px", fontWeight: 300, color: "#53433e", lineHeight: 1.85, marginBottom: "16px", paddingLeft: "24px" }}>
+            <ul style={{ fontSize: "17px", color: "#3a3530", lineHeight: 1.55, marginBottom: "16px", paddingLeft: "24px" }}>
               <li style={{ marginBottom: "8px" }}>Research into product specifications, materials, and build quality</li>
               <li style={{ marginBottom: "8px" }}>Information from manufacturer and dealer sources</li>
               <li style={{ marginBottom: "8px" }}>Community feedback from the Pilates practitioner and instructor community</li>
@@ -93,19 +76,19 @@ export default function AffiliateDisclosurePage() {
               If a product we believe is best for a given use case is not available on Amazon or does not have an affiliate arrangement, we may still feature it and link directly to the manufacturer (for example, Gratz Pilates equipment, which is purchased directly from gratzpilates.com). In those cases, we earn no commission from the recommendation.
             </p>
 
-            <h2 style={s.h2}>Price Accuracy</h2>
+            <h2 className="r-d r-h2" style={s.h2}>Price Accuracy</h2>
             <p style={s.p}>
               Prices listed in our articles are approximate and based on publicly available pricing at the time of writing. Amazon prices change frequently due to sales, promotions, and market conditions. Always verify the current price on Amazon or with the relevant dealer before purchasing.
             </p>
 
-            <h2 style={s.h2}>FTC Compliance</h2>
+            <h2 className="r-d r-h2" style={s.h2}>FTC Compliance</h2>
             <p style={s.p}>
               This disclosure is provided in compliance with the United States Federal Trade Commission (FTC) guidelines on endorsements and testimonials (16 CFR Part 255) and equivalent regulations in other jurisdictions. We are committed to transparency about any material connections between this site and the products or companies we discuss.
             </p>
 
-            <h2 style={s.h2}>Questions</h2>
+            <h2 className="r-d r-h2" style={s.h2}>Questions</h2>
             <p style={s.p}>
-              If you have any questions about our affiliate relationships or editorial process, please <a href="/contact" style={{ color: "#8b4a31", textDecoration: "underline" }}>get in touch</a>.
+              If you have any questions about our affiliate relationships or editorial process, please <a href="/contact" style={{ color: "#0a0a0a", textDecoration: "underline" }}>get in touch</a>.
             </p>
           </div>
         </section>

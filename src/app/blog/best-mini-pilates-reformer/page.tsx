@@ -209,20 +209,20 @@ export default function BestMiniPilatesReformerPage() {
       <main>
 
         {/* Hero section */}
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Mini Reformers</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Equipment Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Mini Reformers</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best Mini Pilates Reformer<br /><span style={{ color: "#8b4a31" }}>(2026): Compact & Effective</span>
+            <h1 className="mb-6 r-d r-h1">
+              Best Mini Pilates Reformer<br /><span style={{ color: "#a98a5f" }}>(2026): Compact & Effective</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 9 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 9 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               Space is the most common barrier to owning a Pilates reformer. A full-size machine requires a dedicated room; most apartments won&apos;t accommodate one. The compact reformer market claims to address this, but this category is rife with generic Amazon search-result links standing in for specific products, and model names that don&apos;t map to a real listing. Filter those out and a genuine budget tier still exists: WINDFOOT and DWKWE are real, currently-sold, genuine spring reformers that fold for compact storage at under $300. This guide covers six reformers we could verify as real, currently-sold Amazon listings, from $295.99 for a budget generic-brand folding model to $2,750 for an established-brand coil-spring machine.
             </p>
           </div>
@@ -231,8 +231,8 @@ export default function BestMiniPilatesReformerPage() {
         {/* Hero image */}
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg" alt="Compact Pilates reformer for home use" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg" alt="Compact Pilates reformer for home use" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -242,7 +242,7 @@ export default function BestMiniPilatesReformerPage() {
           <div className="max-w-3xl mx-auto">
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What separates a real mini reformer from a toy</h2>
+              <h2 className="mb-6 r-d r-h2">What separates a real mini reformer from a toy</h2>
               <div className="space-y-4">
                 {[
                   { heading: "Resistance type", body: "Coil springs vs elastic cords: this is the most reliable distinction to shop on, and a real one. Springs provide progressive resistance as they lengthen; cords, like the elastic cords AeroPilates uses, build resistance differently and feel noticeably different in use. Neither is objectively wrong, but know which one you're buying." },
@@ -250,11 +250,11 @@ export default function BestMiniPilatesReformerPage() {
                   { heading: "Carriage stability", body: "Lighter, budget-tier reformers can have less lateral rigidity than full studio machines. We could not verify specific stability claims for individual listings: check current owner reviews on the product page rather than a general claim." },
                   { heading: "Footbar and shoulder rest adjustability", body: "Fixed footbars and non-adjustable shoulder rests limit the machine to one body proportion, while adjustable components accommodate a wider range of heights. Confirm which type a specific listing has before buying." },
                 ].map((item) => (
-                  <div key={item.heading} className="flex gap-5 rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <div className="w-1.5 rounded-full shrink-0 mt-1" style={{ backgroundColor: "#8b4a31", minHeight: "20px" }} />
+                  <div key={item.heading} className="flex gap-5 rounded-2xl p-5" style={{ backgroundColor: "#ede9e3" }}>
+                    <div className="w-1.5 rounded-full shrink-0 mt-1" style={{ backgroundColor: "#0a0a0a", minHeight: "20px" }} />
                     <div>
-                      <p className="text-sm font-semibold mb-1" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.heading}</p>
-                      <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
+                      <p className="text-sm mb-1 r-hx" style={{ color: "#0a0a0a" }}>{item.heading}</p>
+                      <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.body}</p>
                     </div>
                   </div>
                 ))}
@@ -266,14 +266,14 @@ export default function BestMiniPilatesReformerPage() {
             <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{PRODUCTS.length} Mini Reformers · Every Budget</p>
+              <p className="text-[12.5px] font-bold mb-10" style={{ color: "#0a0a0a" }}>{PRODUCTS.length} Mini Reformers · Every Budget</p>
               <div className="space-y-12">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
                     <div className="flex items-center gap-3 mb-4">
-                      <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                      <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tag}</span>
-                      <span className="text-xs font-semibold uppercase tracking-widest" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>{p.verdict}</span>
+                      <span className="text-2xl r-hx" style={{ color: "#9a9490" }}>{p.rank}</span>
+                      <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{p.tag}</span>
+                      <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>{p.verdict}</span>
                     </div>
                     <ProductCard
                       name={p.name}
@@ -282,16 +282,16 @@ export default function BestMiniPilatesReformerPage() {
                       affiliateUrl={p.affiliateUrl}
                     />
                     <div className="mt-4 grid grid-cols-2 gap-4">
-                      <div className="rounded-lg p-4" style={{ backgroundColor: "#f0f7f1", border: "1px solid rgba(83,98,87,0.2)" }}>
-                        <p className="text-xs font-semibold uppercase tracking-wider mb-2" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Pros</p>
+                      <div className="rounded-2xl p-4" style={{ backgroundColor: "#ede9e3" }}>
+                        <p className="text-[12.5px] font-bold mb-2" style={{ color: "#3a3530" }}>Pros</p>
                         <ul className="space-y-1">
-                          {p.pros.map((pro) => <li key={pro} className="text-xs" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>+ {pro}</li>)}
+                          {p.pros.map((pro) => <li key={pro} className="text-xs" style={{ color: "#3a3530" }}>+ {pro}</li>)}
                         </ul>
                       </div>
-                      <div className="rounded-lg p-4" style={{ backgroundColor: "#fdf5f3", border: "1px solid rgba(139,74,49,0.15)" }}>
-                        <p className="text-xs font-semibold uppercase tracking-wider mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Cons</p>
+                      <div className="rounded-2xl p-4" style={{ backgroundColor: "#ede9e3" }}>
+                        <p className="text-[12.5px] font-bold mb-2" style={{ color: "#0a0a0a" }}>Cons</p>
                         <ul className="space-y-1">
-                          {p.cons.map((con) => <li key={con} className="text-xs" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>− {con}</li>)}
+                          {p.cons.map((con) => <li key={con} className="text-xs" style={{ color: "#3a3530" }}>− {con}</li>)}
                         </ul>
                       </div>
                     </div>
@@ -302,12 +302,12 @@ export default function BestMiniPilatesReformerPage() {
 
             {/* FAQ */}
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {FAQS.map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
@@ -315,7 +315,7 @@ export default function BestMiniPilatesReformerPage() {
 
             {/* Further reading */}
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Home Pilates Reformer (2026)" excerpt="Every budget from $299 to $3,500+: the full guide to home reformers." href="/blog/best-home-pilates-reformer" category="Equipment" readTime="11 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Reformer Under $1,000" excerpt="The honest guide to every reformer under four figures: spring vs cord." href="/blog/best-pilates-reformer-under-1000" category="Equipment" readTime="8 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />

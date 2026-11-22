@@ -92,20 +92,20 @@ export default function PilatesForOfficeWorkersPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Health</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Desk Work</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Health</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Desk Work</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Pilates for<br />Office Workers:<br /><span style={{ color: "#8b4a31" }}>The Antidote to Sitting</span>
+            <h1 className="mb-6 r-d r-h1">
+              Pilates for<br />Office Workers:<br /><span style={{ color: "#a98a5f" }}>The Antidote to Sitting</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 11 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 11 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               If you spend most of your working day sitting (whether at a desk, in meetings, or working from home) your body is adapting to that posture in ways that are genuinely damaging. Short hip flexors, inhibited glutes, compressed lumbar discs, rounded thoracic spine, forward head posture. Pilates is, arguably, the single most efficient antidote to this collection of problems. Here is why, and how to use it.
             </p>
           </div>
@@ -114,7 +114,7 @@ export default function PilatesForOfficeWorkersPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/stitch-studio-bench-towels.png" alt="Pilates for office workers: studio setting for postural correction and desk worker rehabilitation" fill className="object-cover" style={{ filter: "brightness(0.88)" }} />
+              <Image src="/pictures/stitch-studio-bench-towels.png" alt="Pilates for office workers: studio setting for postural correction and desk worker rehabilitation" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -126,8 +126,8 @@ export default function PilatesForOfficeWorkersPage() {
             <AffiliateNote />
 
             <div className="mb-14 mt-4">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What sitting all day actually does to your body</h2>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">What sitting all day actually does to your body</h2>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 Sustained sitting is not simply uncomfortable: it produces measurable physiological changes that accumulate over months and years. Understanding the mechanism helps you understand why Pilates is the right corrective tool.
               </p>
               <div className="space-y-4 mt-4">
@@ -137,16 +137,16 @@ export default function PilatesForOfficeWorkersPage() {
                   { label: "Thoracic spine stiffens into flexion", body: "Sitting in front of a screen pulls the thoracic spine into flexion and the shoulder blades into protraction. Over time, the thoracic extensors weaken and the chest muscles shorten. This is the physical basis of the desk hump, and it drives both the neck pain and the shoulder tension that desk workers experience." },
                   { label: "Deep core becomes disengaged", body: "In habitual sitting posture, the transversus abdominis and multifidus, the deep stabilizing muscles that Pilates specifically targets, are rarely engaged. Without the proprioceptive demands of standing and moving, these muscles become slow to activate and weak. The result is reduced spinal stability, increased disc loading, and vulnerability to the kind of acute lower back episodes that desk workers experience disproportionately." },
                 ].map((item) => (
-                  <div key={item.label} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.label}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
+                  <div key={item.label} className="rounded-2xl p-5" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-sm mb-1.5 r-hx" style={{ color: "#0a0a0a" }}>{item.label}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.body}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The Pilates exercises that matter most for desk workers</h2>
+              <h2 className="mb-6 r-d r-h2">The Pilates exercises that matter most for desk workers</h2>
               <div className="space-y-4">
                 {[
                   {
@@ -175,20 +175,20 @@ export default function PilatesForOfficeWorkersPage() {
                     priority: "3x per week",
                   },
                 ].map((item) => (
-                  <div key={item.title} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
+                  <div key={item.title} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
                     <div className="flex items-start justify-between gap-2 mb-2">
-                      <p className="text-base font-semibold" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.title}</p>
-                      <span className="text-xs font-semibold px-2 py-0.5 rounded-full whitespace-nowrap" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{item.priority}</span>
+                      <p className="text-base r-hx" style={{ color: "#0a0a0a" }}>{item.title}</p>
+                      <span className="text-xs font-semibold px-2 py-0.5 rounded-full whitespace-nowrap" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{item.priority}</span>
                     </div>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.body}</p>
                   </div>
                 ))}
               </div>
             </div>
 
-            <div className="mb-14 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The 10-minute desk worker daily routine</h2>
-              <p className="text-sm leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Perform before work or during a lunch break. Requires only a mat and foam roller. This is the minimum effective dose for desk workers who can only access the studio 1–2 times per week.</p>
+            <div className="mb-14 rounded-2xl p-8" style={{ backgroundColor: "#ede9e3" }}>
+              <h2 className="mb-4 r-d r-h2">The 10-minute desk worker daily routine</h2>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>Perform before work or during a lunch break. Requires only a mat and foam roller. This is the minimum effective dose for desk workers who can only access the studio 1–2 times per week.</p>
               <ul className="space-y-3">
                 {[
                   "Thoracic extension over foam roller × 2 minutes, 3 positions, 40 seconds each.",
@@ -198,8 +198,8 @@ export default function PilatesForOfficeWorkersPage() {
                   "Swimming × 20 alternating lifts: slow, controlled, long spine.",
                   "Spine twist seated × 8 reps each side: restoring thoracic rotation lost from forward-screen posture.",
                 ].map((tip, i) => (
-                  <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                    <span className="font-semibold" style={{ color: "#8b4a31" }}>{i + 1}.</span>
+                  <li key={i} className="flex gap-3 text-base" style={{ color: "#3a3530" }}>
+                    <span className="font-semibold" style={{ color: "#0a0a0a" }}>{i + 1}.</span>
                     {tip}
                   </li>
                 ))}
@@ -207,21 +207,21 @@ export default function PilatesForOfficeWorkersPage() {
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Equipment for your home desk worker routine</h2>
+              <h2 className="mb-4 r-d r-h2">Equipment for your home desk worker routine</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {DESK_PRODUCTS.map((item) => (
-                  <a key={item.name} href={item.url} target="_blank" rel="noopener noreferrer sponsored" className="block rounded-xl p-5 transition-opacity hover:opacity-80" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)" }}>
-                    <p className="text-sm font-semibold mb-1" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.name}</p>
-                    <p className="text-xs" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{item.desc}</p>
-                    <p className="text-xs font-semibold mt-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Shop on Amazon →</p>
+                  <a key={item.name} href={item.url} target="_blank" rel="noopener noreferrer sponsored" className="block rounded-2xl p-5 transition-opacity hover:opacity-80" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-sm mb-1 r-hx" style={{ color: "#0a0a0a" }}>{item.name}</p>
+                    <p className="text-xs" style={{ color: "#6f6964" }}>{item.desc}</p>
+                    <p className="text-xs font-semibold mt-2" style={{ color: "#0a0a0a" }}>Shop on Amazon →</p>
                   </a>
                 ))}
               </div>
-              <p className="text-xs mt-4" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Affiliate links: we earn a small commission on qualifying purchases at no extra cost to you.</p>
+              <p className="text-xs mt-4" style={{ color: "#6f6964" }}>*Affiliate links: we earn a small commission on qualifying purchases at no extra cost to you.</p>
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   { q: "How often should desk workers do Pilates?", a: "Three sessions per week is the research-supported threshold for meaningful adaptation. For desk workers specifically, two reformer or mat sessions per week combined with a short daily movement routine (10 minutes of targeted mobility work) tends to produce better results than three weekly classes alone, because the daily work interrupts the sustained sitting patterns that cause the problem." },
@@ -229,9 +229,9 @@ export default function PilatesForOfficeWorkersPage() {
                   { q: "Is Pilates or yoga better for desk workers?", a: "Both are effective for desk workers. Pilates has a slight advantage for people with significant postural issues or spinal pain because the precision of exercise selection, and the ability to load specific muscles progressively, is greater. Yoga has advantages in terms of the range of flexibility work and the stress-reduction component. Many desk workers benefit from a combination of both." },
                   { q: "What equipment do I need for a desk worker Pilates routine at home?", a: "A mat and a foam roller are the essential tools: the foam roller for thoracic extension release is the single most effective intervention for desk workers with upper back stiffness. A resistance band adds options for scapular and hip work. With the picks below (Manduka PRO mat, OPTP foam roller and TheraBand set) the three come to about $219 on Amazon; a budget mat brings that down considerably." },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
@@ -239,9 +239,9 @@ export default function PilatesForOfficeWorkersPage() {
 
 
             {/* Equipment */}
-            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Recommended kit</h2>
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid #ddd6cc" }}>
+              <p className="text-[12.5px] font-bold mb-2" style={{ color: "#0a0a0a" }}>Equipment</p>
+              <h2 className="mb-8 r-d r-h2">Recommended kit</h2>
               <div className="space-y-8">
                 {PRODUCTS.map((p) => (
                   <ProductCard key={p.name} name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
@@ -250,7 +250,7 @@ export default function PilatesForOfficeWorkersPage() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Pilates for Back Pain" excerpt="Clinical research meets practical guidance on using Pilates to address chronic lower back pain." href="/blog/pilates-for-back-pain" category="Health" readTime="10 min read" date="June 2026" imageUrl="/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg" />
                 <ArticleCard title="Pilates for Neck & Shoulder Pain" excerpt="Which Pilates exercises relieve neck tension and what causes the upper body stiffness desk workers feel." href="/blog/pilates-for-neck-pain" category="Health" readTime="11 min read" date="June 2026" imageUrl="/pictures/stitch-hands-on-carriage.png" />

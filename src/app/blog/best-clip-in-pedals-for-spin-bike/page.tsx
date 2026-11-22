@@ -142,20 +142,20 @@ export default function BestClipInPedalsForSpinBikePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Spinning</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Equipment Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Spinning</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best Clip-In Pedals<br /><span style={{ color: "#8b4a31" }}>for Spin Bikes (2026)</span>
+            <h1 className="mb-6 r-d r-h1">
+              Best Clip-In Pedals<br /><span style={{ color: "#a98a5f" }}>for Spin Bikes (2026)</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 9 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 9 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               One decision governs this category: SPD or Delta. Choose SPD unless your studio tells you otherwise: the cleat sits recessed in the sole so you can walk normally, and the pedals are double-sided so you clip in without hunting for the right face. Delta is on indoor bikes largely because Peloton chose it, and any 9/16 inch SPD pedal will replace it. Nothing about a Peloton crank is proprietary.
             </p>
           </div>
@@ -163,8 +163,8 @@ export default function BestClipInPedalsForSpinBikePage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/dane-wetton-AkSJQnem75Y-unsplash.jpg" alt="Cycling shoes and pedals set up for an indoor class" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/dane-wetton-AkSJQnem75Y-unsplash.jpg" alt="Cycling shoes and pedals set up for an indoor class" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -175,13 +175,13 @@ export default function BestClipInPedalsForSpinBikePage() {
             <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Options · Ranked</p>
+              <p className="text-[12.5px] font-bold mb-10" style={{ color: "#0a0a0a" }}>5 Options · Ranked</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
                     <div className="flex items-center gap-3 mb-4">
-                      <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                      <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tag}</span>
+                      <span className="text-2xl r-hx" style={{ color: "#9a9490" }}>{p.rank}</span>
+                      <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{p.tag}</span>
                     </div>
                     <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                   </div>
@@ -189,8 +189,8 @@ export default function BestClipInPedalsForSpinBikePage() {
               </div>
             </div>
 
-            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#fff4f1", border: "1px solid rgba(139,74,49,0.15)" }}>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Fitting notes that catch people out</h2>
+            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#fff4f1", border: "1px solid #ddd6cc" }}>
+              <h2 className="mb-4 r-d r-h2">Fitting notes that catch people out</h2>
               <ul className="space-y-3">
                 {[
                   "The left pedal is reverse-threaded. It tightens anticlockwise. This is where most pedal swaps go wrong.",
@@ -200,8 +200,8 @@ export default function BestClipInPedalsForSpinBikePage() {
                   "Practice clipping out on both sides before your first class, holding onto something solid.",
                   "Cleats are a wear item: replace them when release starts feeling vague, typically once a year with regular riding.",
                 ].map((tip, i) => (
-                  <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                    <span className="font-semibold" style={{ color: "#8b4a31" }}>⚠</span>
+                  <li key={i} className="flex gap-3 text-base" style={{ color: "#3a3530" }}>
+                    <span className="font-semibold" style={{ color: "#0a0a0a" }}>⚠</span>
                     {tip}
                   </li>
                 ))}
@@ -209,7 +209,7 @@ export default function BestClipInPedalsForSpinBikePage() {
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   { q: "SPD or Delta for indoor cycling?", a: "SPD for almost everyone. The SPD cleat is small and sits recessed into the sole, so you can walk normally from the bike to anywhere else: a Delta or LOOK road cleat protrudes and makes walking awkward and slippery. SPD pedals are also usually double-sided, so you can clip in without flipping the pedal to find the right face. Delta exists on indoor bikes mainly because Peloton chose it; it offers a slightly larger contact platform, which matters for long road rides and very little for a 45-minute studio class. If your studio mandates a standard, follow the studio." },
@@ -217,16 +217,16 @@ export default function BestClipInPedalsForSpinBikePage() {
                   { q: "Do clip-in pedals come with cleats?", a: "It varies by listing, and this is a common source of frustration. Some SPD-compatible and multi-cleat pedals include cleats in the box; others do not, and some listings show cleats in the photograph without actually including them. Read the product specification rather than trusting the image, and check the seller's listing details before ordering if cleats matter to your budget." },
                   { q: "Are clip-in pedals worth it for indoor cycling?", a: "For anything more than occasional riding, yes. Being attached to the pedal lets you apply force through the upstroke as well as the downstroke, which distributes work across more muscle and makes high-cadence efforts noticeably smoother. It also stops the foot sliding forward on the pedal, which is what causes hot spots and numbness in trainers. That said, a well-adjusted toe cage delivers a good share of the same benefit, and is the better choice for shared bikes or anyone who wants to get a foot down instantly." },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Cycling Shoes for Spin Class" excerpt="SPD-compatible shoes ranked for fit, stiffness and walkability." href="/blog/best-cycling-shoes-for-spin-class" category="Spinning" readTime="9 min read" date="June 2026" imageUrl="/pictures/dane-wetton-AkSJQnem75Y-unsplash.jpg" />
                 <ArticleCard title="Best Cycling Gloves for Spin Class" excerpt="Padded, grip and ventilated gloves for long sessions on the bars." href="/blog/best-cycling-gloves-for-spin-class" category="Spinning" readTime="7 min read" date="June 2026" imageUrl="/pictures/dane-wetton-t1NEMSm1rgI-unsplash.jpg" />

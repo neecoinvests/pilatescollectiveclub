@@ -154,20 +154,20 @@ export default function BalancedBodyStudioReformerReviewPage() {
       <main>
 
         {/* Hero section */}
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment Review</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Balanced Body</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Equipment Review</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Balanced Body</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Balanced Body Studio Reformer Review (2026):<br /><span style={{ color: "#8b4a31" }}>The Real Amazon-Sold Flagship, Honestly Assessed</span>
+            <h1 className="mb-6 r-d r-h1">
+              Balanced Body Studio Reformer Review (2026):<br /><span style={{ color: "#a98a5f" }}>The Real Amazon-Sold Flagship, Honestly Assessed</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 11 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 11 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               This machine is often searched for as the &quot;Allegro 2,&quot; but we could not find a live Amazon listing under that name. The Balanced Body reformer that is genuinely sold on Amazon, direct from Balanced Body, is the Studio Reformer with the Revo footbar, at $4,700. This review covers that real listing honestly: what it actually offers, one important limitation, it does not fold, and how it compares to Merrithew.
             </p>
           </div>
@@ -176,13 +176,12 @@ export default function BalancedBodyStudioReformerReviewPage() {
         {/* Hero image */}
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
+            <div className="pcc-city-hero-image relative r-ah-img">
               <Image
                 src="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg"
                 alt="Balanced Body Studio Reformer: the real Balanced Body machine sold on Amazon, reviewed for home and studio use"
                 fill
                 className="object-cover"
-                style={{ filter: "brightness(0.85)" }}
               />
             </div>
           </div>
@@ -194,34 +193,34 @@ export default function BalancedBodyStudioReformerReviewPage() {
 
             {/* What makes the Studio Reformer different */}
             <div className="mb-16 mt-4">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What makes the Studio Reformer different</h2>
-              <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">What makes the Studio Reformer different</h2>
+              <p className="text-base leading-relaxed mb-6" style={{ color: "#3a3530" }}>
                 The Strata rock maple frame is the machine that populates certification centers and clinics, which is the strongest evidence of its build quality: it is the reformer a huge number of instructors trained on before ever considering one for home use. Five Signature Springs cover the resistance range end to end, and full tower compatibility means the machine can grow into a more complete apparatus station without needing to be replaced. This is the same positioning the Allegro line has historically held in Balanced Body&apos;s catalog, the professional-grade reference machine, but it is important to be precise about which specific model that actually maps to on Amazon today, because product names in this category change and older reviews have not always kept up.
               </p>
-              <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed mb-6" style={{ color: "#3a3530" }}>
                 Here is the point that matters most: this machine does not fold. It is a permanent-installation reformer, made to order, and it needs a dedicated footprint rather than wall storage space. If you came to this page expecting an upright-folding, wall-stored machine, a description that circulated for the &quot;Allegro 2&quot;, that description does not apply to the Studio Reformer, and we could not verify it applies to any current Balanced Body Amazon listing. Plan your space around a permanent installation before you order.
               </p>
-              <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>
                 Balanced Body has built accessories for this platform for decades, and that is where the real, verifiable advantage over smaller brands shows up: sitting boxes, jumpboards, platform extenders and replacement parts are widely stocked and easy to source years after purchase. As a practitioner&apos;s practice deepens, the Studio Reformer accommodates tower work and box series without needing to replace the machine.
               </p>
             </div>
 
             {/* Full spec sheet */}
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-6" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>What we could verify</p>
+              <p className="text-[12.5px] font-bold mb-6" style={{ color: "#0a0a0a" }}>What we could verify</p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {SPECS.map((spec) => (
-                  <div key={spec.label} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{spec.label}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{spec.value}</p>
+                  <div key={spec.label} className="rounded-2xl p-5" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-sm mb-1.5 r-hx" style={{ color: "#0a0a0a" }}>{spec.label}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{spec.value}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             {/* The honest case against */}
-            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
-              <h2 className="text-2xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The honest case against the Studio Reformer</h2>
+            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#ede9e3" }}>
+              <h2 className="mb-6 r-d r-h2">The honest case against the Studio Reformer</h2>
               <ul className="space-y-5">
                 {[
                   "$4,700 for the reformer alone, before the box, jumpboard and other accessories most buyers end up adding. Budget several hundred dollars more for a realistic complete setup.",
@@ -231,8 +230,8 @@ export default function BalancedBodyStudioReformerReviewPage() {
                   "Assembly takes real time and is best done with two people, which is standard for professional-grade reformers generally.",
                   "We could not verify exact weight or footprint dimensions for the current listing: check the live Amazon listing for these before ordering, rather than relying on figures quoted elsewhere.",
                 ].map((item, i) => (
-                  <li key={i} className="flex gap-3 text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                    <span className="font-bold shrink-0 mt-0.5" style={{ color: "#8b4a31" }}>•</span>
+                  <li key={i} className="flex gap-3 text-base leading-relaxed" style={{ color: "#3a3530" }}>
+                    <span className="font-bold shrink-0 mt-0.5" style={{ color: "#0a0a0a" }}>•</span>
                     {item}
                   </li>
                 ))}
@@ -241,7 +240,7 @@ export default function BalancedBodyStudioReformerReviewPage() {
 
             {/* Products section */}
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>The Studio Reformer and Real Accessories to Pair With It</p>
+              <p className="text-[12.5px] font-bold mb-3" style={{ color: "#0a0a0a" }}>The Studio Reformer and Real Accessories to Pair With It</p>
 
               {/* Quick-picks table */}
               <QuickPicks className="mb-6 mt-4" picks={PRODUCTS.map((pr, i) => ({ name: pr.name, price: pr.price, url: pr.affiliateUrl, note: QP_NOTES[i] }))} />
@@ -252,8 +251,8 @@ export default function BalancedBodyStudioReformerReviewPage() {
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
                     <div className="flex items-center gap-3 mb-4">
-                      <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                      <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tag}</span>
+                      <span className="text-2xl r-hx" style={{ color: "#9a9490" }}>{p.rank}</span>
+                      <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{p.tag}</span>
                     </div>
                     <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                   </div>
@@ -262,13 +261,13 @@ export default function BalancedBodyStudioReformerReviewPage() {
             </div>
 
             {/* Who should buy / who shouldn't */}
-            <div className="mb-16 rounded-2xl overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.35)" }}>
-              <div className="px-8 py-5" style={{ backgroundColor: "#f6f3f2" }}>
-                <h2 className="text-2xl font-semibold" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Who should buy the Studio Reformer, and who shouldn&apos;t</h2>
+            <div className="mb-16 rounded-2xl overflow-hidden" style={{ border: "1px solid #ddd6cc" }}>
+              <div className="px-8 py-5" style={{ backgroundColor: "#ede9e3" }}>
+                <h2 className="r-d r-h2">Who should buy the Studio Reformer, and who shouldn&apos;t</h2>
               </div>
               <div className="grid grid-cols-1 sm:grid-cols-2" style={{ backgroundColor: "#ffffff" }}>
-                <div className="p-8" style={{ borderRight: "1px solid rgba(217,194,186,0.35)" }}>
-                  <p className="text-sm font-bold uppercase tracking-[0.15em] mb-5" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Buy it if</p>
+                <div className="p-8" style={{ borderRight: "1px solid #ddd6cc" }}>
+                  <p className="text-base font-bold mb-5" style={{ color: "#0a0a0a" }}>Buy it if</p>
                   <ul className="space-y-4">
                     {[
                       "You have a dedicated floor footprint for a permanent-installation machine: this does not fold or tuck away.",
@@ -277,15 +276,15 @@ export default function BalancedBodyStudioReformerReviewPage() {
                       "You want the deepest, most widely-stocked accessory ecosystem for future expansion.",
                       "You plan to add tower work, box series, or jumpboard cardio over time.",
                     ].map((item, i) => (
-                      <li key={i} className="flex gap-3 text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                        <span className="font-bold shrink-0 mt-0.5" style={{ color: "#8b4a31" }}>✓</span>
+                      <li key={i} className="flex gap-3 text-base leading-relaxed" style={{ color: "#3a3530" }}>
+                        <span className="font-bold shrink-0 mt-0.5" style={{ color: "#0a0a0a" }}>✓</span>
                         {item}
                       </li>
                     ))}
                   </ul>
                 </div>
                 <div className="p-8">
-                  <p className="text-sm font-bold uppercase tracking-[0.15em] mb-5" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Don&apos;t buy it if</p>
+                  <p className="text-base font-bold mb-5" style={{ color: "#3a3530" }}>Don&apos;t buy it if</p>
                   <ul className="space-y-4">
                     {[
                       "You need a reformer that folds away: this machine does not, and we could not verify that any current Balanced Body Amazon listing does.",
@@ -293,8 +292,8 @@ export default function BalancedBodyStudioReformerReviewPage() {
                       "You want a lower entry price: Merrithew's At Home SPX Reformer Package is $3,349, a real step down.",
                       "You want to try reformer Pilates before committing: an entry-level cord machine for a year first is a cheaper way to test the habit.",
                     ].map((item, i) => (
-                      <li key={i} className="flex gap-3 text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                        <span className="font-bold shrink-0 mt-0.5" style={{ color: "#86736d" }}>✗</span>
+                      <li key={i} className="flex gap-3 text-base leading-relaxed" style={{ color: "#3a3530" }}>
+                        <span className="font-bold shrink-0 mt-0.5" style={{ color: "#6f6964" }}>✗</span>
                         {item}
                       </li>
                     ))}
@@ -305,18 +304,18 @@ export default function BalancedBodyStudioReformerReviewPage() {
 
             {/* Studio Reformer vs Merrithew At Home SPX */}
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Studio Reformer vs Merrithew At Home SPX: the real comparison</h2>
-              <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">Studio Reformer vs Merrithew At Home SPX: the real comparison</h2>
+              <p className="text-base leading-relaxed mb-6" style={{ color: "#3a3530" }}>
                 These are the two machines actually sold on Amazon in this category, not the names that circulate in older reviews. On price, the Studio Reformer at $4,700 sits well above the At Home SPX at $3,349. On springs, Merrithew&apos;s system is built around fine gradation at the light-resistance end, genuinely useful for rehab and prenatal work, while the Studio Reformer&apos;s five Signature Springs cover the full range with the frame and tower compatibility that certification centers rely on. Neither machine is verified to fold for storage, so if flat or under-bed storage is a hard requirement, treat that as unresolved and check current listings directly rather than assuming either machine solves it.
               </p>
-              <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>
                 On ecosystem, Balanced Body&apos;s accessory range is wider and more widely stocked, developed over a longer period. The honest verdict: if budget and a lower entry price matter most, the At Home SPX is the real, cheaper, genuinely Merrithew-branded option. If you want the deepest accessory ecosystem and have the permanent floor space for it, the Studio Reformer is the correct purchase, just go in knowing it will not fold away.
               </p>
             </div>
 
             {/* FAQ */}
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   {
@@ -340,9 +339,9 @@ export default function BalancedBodyStudioReformerReviewPage() {
                     a: "Direct from Balanced Body on Amazon, or through Balanced Body authorized dealers. It ships made to order, so expect a lead time rather than immediate stock.",
                   },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
@@ -350,7 +349,7 @@ export default function BalancedBodyStudioReformerReviewPage() {
 
             {/* Further reading */}
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard
                   title="Merrithew At Home SPX Review (2026)"

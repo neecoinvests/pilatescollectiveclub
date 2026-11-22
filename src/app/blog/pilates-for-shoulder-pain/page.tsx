@@ -85,20 +85,20 @@ export default function PilatesForShoulderPainPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Health</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Shoulder Pain</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Health</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Shoulder Pain</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Pilates for Shoulder Pain:<br /><span style={{ color: "#8b4a31" }}>Fix the Scapula, Not the Sore Spot</span>
+            <h1 className="mb-6 r-d r-h1">
+              Pilates for Shoulder Pain:<br /><span style={{ color: "#a98a5f" }}>Fix the Scapula, Not the Sore Spot</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 11 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 11 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               The shoulder is the most mobile joint in the body and pays for it in stability. Almost none of that stability comes from bone: it comes from muscular control, and most of that control acts on the shoulder blade rather than the shoulder itself. This is why the sore spot at the front of the shoulder is so rarely where the problem lives, and why Pilates, which trains scapular control more thoroughly than almost any other movement discipline, works so well for it.
             </p>
           </div>
@@ -107,7 +107,7 @@ export default function PilatesForShoulderPainPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" alt="Pilates for shoulder pain: scapular stability and thoracic mobility work for rotator cuff and impingement" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" alt="Pilates for shoulder pain: scapular stability and thoracic mobility work for rotator cuff and impingement" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -119,20 +119,20 @@ export default function PilatesForShoulderPainPage() {
             <AffiliateNote />
 
             <div className="mb-14 mt-4">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Why the shoulder blade decides whether your shoulder hurts</h2>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">Why the shoulder blade decides whether your shoulder hurts</h2>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 Raising your arm overhead is not one movement. Roughly two-thirds of the range comes from the ball-and-socket joint itself; the remaining third comes from the shoulder blade rotating upward across the ribcage. The two have to happen in proportion. When the scapula fails to rotate, because serratus anterior and lower trapezius are not doing their share, the humerus runs out of clearance early and starts compressing the tissue underneath the acromion. That is subacromial impingement, and it is a control failure rather than a structural one.
               </p>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 A second, quieter contributor sits below the shoulder entirely. Overhead reach requires the thoracic spine to extend. A stiff upper back, the default after years at a desk, removes extension the arm needs, and the shoulder makes up the difference by pushing into range it cannot control. Treating the shoulder while ignoring a rigid thoracic spine is why a lot of shoulder rehabilitation stalls.
               </p>
-              <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>
                 Pilates is unusually well matched to both problems. Scapular setting is cued at the start of nearly every upper body exercise in the repertoire, thoracic extension is trained directly, and the arm work is performed against springs, which load the muscle through range without the joint compression that free weights create overhead. The result is a system that trains exactly what the shoulder is missing.
               </p>
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The exercises that do the work</h2>
+              <h2 className="mb-6 r-d r-h2">The exercises that do the work</h2>
               <div className="space-y-4">
                 {[
                   {
@@ -160,16 +160,16 @@ export default function PilatesForShoulderPainPage() {
                     body: "Spring resistance loads the shoulder eccentrically through range, with the resistance curve at its lightest where the joint is most vulnerable. Supine chest expansion and arm circles are usually the first loaded upper body work a painful shoulder tolerates. Keep the range inside the painful arc initially and expand it as control improves.",
                   },
                 ].map((item) => (
-                  <div key={item.title} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.title}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
+                  <div key={item.title} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.title}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.body}</p>
                   </div>
                 ))}
               </div>
             </div>
 
-            <div className="mb-14 rounded-2xl p-8" style={{ backgroundColor: "#fff4f1", border: "1px solid rgba(139,74,49,0.15)" }}>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What to avoid or modify during a flare</h2>
+            <div className="mb-14 rounded-2xl p-8" style={{ backgroundColor: "#fff4f1", border: "1px solid #ddd6cc" }}>
+              <h2 className="mb-4 r-d r-h2">What to avoid or modify during a flare</h2>
               <ul className="space-y-3">
                 {[
                   "Full push-ups and front support (plank): maximal closed-chain load on a shoulder that cannot yet control it. Regress to wall or incline push-ups, and quadruped instead of plank.",
@@ -179,8 +179,8 @@ export default function PilatesForShoulderPainPage() {
                   "Swan dive and heavy prone extension with the arms long: the lever is longer than an irritated cuff can stabilize. Keep hands under the shoulders instead.",
                   "Any exercise cued by shrugging. If the upper trapezius takes over, the exercise has stopped training what you intended and is reinforcing the pattern that caused the problem.",
                 ].map((tip, i) => (
-                  <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                    <span className="font-semibold" style={{ color: "#8b4a31" }}>⚠</span>
+                  <li key={i} className="flex gap-3 text-base" style={{ color: "#3a3530" }}>
+                    <span className="font-semibold" style={{ color: "#0a0a0a" }}>⚠</span>
                     {tip}
                   </li>
                 ))}
@@ -188,7 +188,7 @@ export default function PilatesForShoulderPainPage() {
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Programming by condition</h2>
+              <h2 className="mb-6 r-d r-h2">Programming by condition</h2>
               <div className="space-y-4">
                 {[
                   { label: "Subacromial impingement", body: "The most common presentation and the most responsive. Prioritize serratus anterior and lower trapezius, restore thoracic extension, and train inside the pain-free arc while it widens. Most people notice meaningful change in four to six weeks. Persisting through the painful arc rather than working around it is the usual reason progress stalls." },
@@ -197,16 +197,16 @@ export default function PilatesForShoulderPainPage() {
                   { label: "Shoulder instability and hypermobility", body: "Stability, never stretching. This population already has range in abundance and lacks control of it. Closed-chain work, hands supported on a stable surface, builds co-contraction around the joint. Avoid end-range positions and anything that produces a sensation of the joint slipping. Progress slowly and hold positions longer rather than adding load." },
                   { label: "Post-operative shoulder", body: "After cuff repair or stabilization surgery, the protocol belongs to the surgeon, and it is genuinely restrictive in the early months. Pilates typically enters at the point active movement is permitted, usually starting with supported scapular work and supine arm springs. Never bring a pre-injury class plan to a repaired shoulder." },
                 ].map((item) => (
-                  <div key={item.label} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.label}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
+                  <div key={item.label} className="rounded-2xl p-5" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-sm mb-1.5 r-hx" style={{ color: "#0a0a0a" }}>{item.label}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.body}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   { q: "Can Pilates fix a rotator cuff problem?", a: "For rotator cuff tendinopathy (the overuse presentation, not a full tear) progressive loading is the accepted first-line treatment, and Pilates delivers it well. The rotator cuff's job is to hold the humeral head centered in the socket while larger muscles move the arm, which is precisely the kind of control-under-load that Pilates trains. A full-thickness tear is a different matter and needs imaging and a surgical opinion. Pilates has a role in rehabilitation afterwards, but it is not the treatment for the tear itself." },
@@ -214,9 +214,9 @@ export default function PilatesForShoulderPainPage() {
                   { q: "Should I do Pilates with frozen shoulder?", a: "Yes, but the goal depends on the stage. Adhesive capsulitis moves through a painful freezing phase, a stiff frozen phase, and a gradual thawing phase, and the whole process typically runs one to three years. During the painful phase, aggressive stretching makes things worse; gentle pain-free movement and work on the surrounding thoracic spine and scapula is appropriate. Range-of-motion work becomes productive during the frozen and thawing stages. Pilates cannot shorten the natural course, but it reliably limits how much strength and thoracic mobility you lose along the way." },
                   { q: "Which Pilates exercises should I avoid with shoulder pain?", a: "Avoid loaded overhead positions and full weight-bearing through the hands during an active flare: that means push-ups, plank, front support, and the elephant and long stretch series on the reformer. Behind-the-neck positions and any movement that reproduces the painful arc should also be deferred. Most of these can be modified rather than dropped: plank against a wall, quadruped instead of full front support, and arm springs with a shortened lever keep the training effect without the compression." },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
@@ -224,9 +224,9 @@ export default function PilatesForShoulderPainPage() {
 
             {/* Equipment */}
 
-            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Recommended kit</h2>
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid #ddd6cc" }}>
+              <p className="text-[12.5px] font-bold mb-2" style={{ color: "#0a0a0a" }}>Equipment</p>
+              <h2 className="mb-8 r-d r-h2">Recommended kit</h2>
               <div className="space-y-8">
                 {PRODUCTS.map((p) => (
                   <ProductCard key={p.name} name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
@@ -235,7 +235,7 @@ export default function PilatesForShoulderPainPage() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Pilates for Neck Pain" excerpt="The thoracic and scapular work that resolves most desk-related neck tension." href="/blog/pilates-for-neck-pain" category="Health" readTime="11 min read" date="June 2026" imageUrl="/pictures/roxana-popovici-cZ0WYsBFHhs-unsplash.jpg" />
                 <ArticleCard title="Pilates for Office Workers" excerpt="A desk-worker's routine for thoracic stiffness, hip flexor tightness, and postural fatigue." href="/blog/pilates-for-office-workers" category="Health" readTime="10 min read" date="June 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />

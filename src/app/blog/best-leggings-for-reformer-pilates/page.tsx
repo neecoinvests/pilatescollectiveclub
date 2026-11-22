@@ -134,20 +134,20 @@ export default function BestLeggingsForReformerPilatesPage() {
       <Header />
       <main>
         {/* Hero section */}
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Apparel Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Reformer Pilates</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Apparel Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Reformer Pilates</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best Leggings for<br /><span style={{ color: "#8b4a31" }}>Reformer Pilates (2026)</span>
+            <h1 className="mb-6 r-d r-h1">
+              Best Leggings for<br /><span style={{ color: "#a98a5f" }}>Reformer Pilates (2026)</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 8 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 8 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               Reformer Pilates places specific demands on a legging that a general yoga or gym class does not. You move through deep hip flexion, spinal articulation, and supine exercises that expose you from multiple angles simultaneously, and your instructor needs to observe your alignment clearly throughout. That means the right reformer legging must be fully opaque, have no inner-thigh seams to cause friction during footwork, sit secure at the waist during all positions, and move without restriction. These five leggings meet every criterion.
             </p>
           </div>
@@ -156,8 +156,8 @@ export default function BestLeggingsForReformerPilatesPage() {
         {/* Hero image */}
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/stitch-teaser-pose-back.png" alt="Person performing teaser pose in Pilates class: leggings for reformer pilates" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/stitch-teaser-pose-back.png" alt="Person performing teaser pose in Pilates class: leggings for reformer pilates" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -170,7 +170,7 @@ export default function BestLeggingsForReformerPilatesPage() {
 
             {/* Reformer-specific buying criteria */}
             <div className="mb-16 mt-4">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Four things that matter for reformer leggings specifically</h2>
+              <h2 className="mb-6 r-d r-h2">Four things that matter for reformer leggings specifically</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[
                   { heading: "No inner-thigh seams", body: "A raised seam on the inner thigh creates friction during footwork sequences where the inner legs press together on the footbar and carriage. The best reformer leggings route all seaming away from this contact zone." },
@@ -178,9 +178,9 @@ export default function BestLeggingsForReformerPilatesPage() {
                   { heading: "Secure high waistband", body: "A waistband that rolls during supine exercises is a constant distraction. The waistband must stay put through hip flexion, spinal roll-downs, and any transition that shifts the torso significantly." },
                   { heading: "Non-restrictive hip flexion", body: "Many reformer exercises require hip flexion well beyond 90 degrees: squats, lunges, hip circles. Fabric that pulls or restricts at the hip crease limits range of motion and signals the wrong purchase." },
                 ].map((item) => (
-                  <div key={item.heading} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.heading}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
+                  <div key={item.heading} className="rounded-2xl p-5" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-sm mb-1.5 r-hx" style={{ color: "#0a0a0a" }}>{item.heading}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.body}</p>
                   </div>
                 ))}
               </div>
@@ -188,13 +188,13 @@ export default function BestLeggingsForReformerPilatesPage() {
 
             {/* Products list */}
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Leggings · Ranked</p>
+              <p className="text-[12.5px] font-bold mb-10" style={{ color: "#0a0a0a" }}>5 Leggings · Ranked</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
                     <div className="flex items-center gap-3 mb-4">
-                      <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                      <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tag}</span>
+                      <span className="text-2xl r-hx" style={{ color: "#9a9490" }}>{p.rank}</span>
+                      <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{p.tag}</span>
                     </div>
                     <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                   </div>
@@ -203,8 +203,8 @@ export default function BestLeggingsForReformerPilatesPage() {
             </div>
 
             {/* Care tips */}
-            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>How to make your leggings last</h2>
+            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#ede9e3" }}>
+              <h2 className="mb-4 r-d r-h2">How to make your leggings last</h2>
               <ul className="space-y-3">
                 {[
                   "Wash inside-out on a cold, gentle cycle. This protects the outer surface and the elastane content from mechanical stress.",
@@ -213,8 +213,8 @@ export default function BestLeggingsForReformerPilatesPage() {
                   "Avoid fabric softener. It coats the fiber and reduces the moisture-wicking performance of synthetic fabrics.",
                   "Rotate between at least two pairs. Elastane needs 24 hours to fully recover its compression and shape between sessions.",
                 ].map((tip, i) => (
-                  <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                    <span className="font-semibold" style={{ color: "#8b4a31" }}>{i + 1}.</span>
+                  <li key={i} className="flex gap-3 text-base" style={{ color: "#3a3530" }}>
+                    <span className="font-semibold" style={{ color: "#0a0a0a" }}>{i + 1}.</span>
                     {tip}
                   </li>
                 ))}
@@ -223,7 +223,7 @@ export default function BestLeggingsForReformerPilatesPage() {
 
             {/* FAQ */}
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   { q: "What makes a legging good for reformer Pilates specifically?", a: "Four things matter most for reformer: no inner-thigh seams (which create friction during footwork), full opacity at all angles (you're observed from multiple positions), a secure high waistband that doesn't roll during supine exercises, and non-restrictive fabric for the hip flexion range demanded by the carriage." },
@@ -231,9 +231,9 @@ export default function BestLeggingsForReformerPilatesPage() {
                   { q: "Can I wear any leggings to reformer Pilates?", a: "Most leggings work for a casual class, but reformer-specific considerations matter at higher levels of practice. Avoid leggings with thick inner-thigh seams, fabrics that become sheer when stretched, loose waistbands, or excess fabric that bunches during footwork. The leggings in this guide have been assessed against all four criteria." },
                   { q: "Should reformer Pilates leggings be tight or loose?", a: "Snug but not compressive. A legging should sit in contact with the skin through the full range of motion: loose fabric bunches during footwork and hampers the instructor's ability to observe alignment. But overly compressive leggings can restrict the hip flexion range needed for many reformer exercises. The Align and Varley Reeves hit this balance well." },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
@@ -241,7 +241,7 @@ export default function BestLeggingsForReformerPilatesPage() {
 
             {/* Further reading */}
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Pilates Bodysuits" excerpt="Five bodysuits that pair perfectly with any legging for a complete reformer outfit." href="/blog/best-pilates-bodysuits" category="Apparel" readTime="8 min read" date="June 2026" imageUrl="/pictures/stitch-retail-activewear.png" />
                 <ArticleCard title="What to Wear to Pilates" excerpt="The complete guide to choosing the right clothes for studio and reformer classes." href="/blog/what-to-wear-to-pilates" category="Guide" readTime="6 min read" date="May 2026" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />

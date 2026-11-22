@@ -182,7 +182,7 @@ export default function PilatesVsBarrePage() {
 
             {/* Intro */}
             <div className="mb-14">
-              <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+              <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
                 At first glance, Pilates and barre occupy the same corner of the fitness landscape: low-impact, studio-based, broadly &ldquo;feminine&rdquo; in cultural perception, and associated with a lean, controlled physicality. But practiced seriously, they are quite different disciplines: different in origin, in what they train, in the equipment they require, and in who they genuinely serve best. If you&rsquo;re deciding between them, this guide gives you an honest answer.
               </p>
             </div>
@@ -192,53 +192,43 @@ export default function PilatesVsBarrePage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-2">
                 {/* Pilates card */}
                 <div
-                  className="rounded-xl p-6"
-                  style={{
-                    backgroundColor: "#ffffff",
-                    border: "1px solid rgba(217,194,186,0.3)",
-                    borderRadius: "12px",
-                    padding: "24px",
-                  }}
+                  className="rounded-2xl p-6"
+                  style={{ backgroundColor: "#ede9e3", borderRadius: "12px", padding: "24px" }}
                 >
                   <h3
-                    className="text-base font-semibold mb-3"
-                    style={{ color: "#8b4a31", fontFamily: "'Playfair Display', serif", fontSize: "17px" }}
+                    className="text-base mb-3 r-hx"
+                    style={{ color: "#0a0a0a", fontSize: "17px" }}
                   >
                     Pilates
                   </h3>
-                  <p className="text-sm leading-relaxed mb-3" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+                  <p className="text-base leading-relaxed mb-3" style={{ color: "#3a3530" }}>
                     Developed by Joseph Pilates in early twentieth-century Germany and refined over decades in his New York studio, Pilates, originally called &ldquo;Contrology&rdquo;, is a systematic training method built on six principles: concentration, control, centring, precision, breath, and flow. The method targets the deep stabilizing muscles of the spine and pelvis, with every exercise demanding conscious engagement rather than momentum.
                   </p>
-                  <ul className="text-sm leading-relaxed space-y-1.5" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                    <li><strong style={{ color: "#1b1c1c" }}>Equipment:</strong> mat, reformer, Cadillac/tower, Wunda chair, small apparatus</li>
-                    <li><strong style={{ color: "#1b1c1c" }}>Typical class:</strong> 50–55 minutes; private, semi-private, or group of up to 12</li>
-                    <li><strong style={{ color: "#1b1c1c" }}>Pace:</strong> deliberate, precise, breath-led</li>
+                  <ul className="text-sm leading-relaxed space-y-1.5" style={{ color: "#3a3530" }}>
+                    <li><strong style={{ color: "#0a0a0a" }}>Equipment:</strong> mat, reformer, Cadillac/tower, Wunda chair, small apparatus</li>
+                    <li><strong style={{ color: "#0a0a0a" }}>Typical class:</strong> 50–55 minutes; private, semi-private, or group of up to 12</li>
+                    <li><strong style={{ color: "#0a0a0a" }}>Pace:</strong> deliberate, precise, breath-led</li>
                   </ul>
                 </div>
 
                 {/* Barre card */}
                 <div
-                  className="rounded-xl p-6"
-                  style={{
-                    backgroundColor: "#ffffff",
-                    border: "1px solid rgba(217,194,186,0.3)",
-                    borderRadius: "12px",
-                    padding: "24px",
-                  }}
+                  className="rounded-2xl p-6"
+                  style={{ backgroundColor: "#ede9e3", borderRadius: "12px", padding: "24px" }}
                 >
                   <h3
-                    className="text-base font-semibold mb-3"
-                    style={{ color: "#8b4a31", fontFamily: "'Playfair Display', serif", fontSize: "17px" }}
+                    className="text-base mb-3 r-hx"
+                    style={{ color: "#0a0a0a", fontSize: "17px" }}
                   >
                     Barre
                   </h3>
-                  <p className="text-sm leading-relaxed mb-3" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+                  <p className="text-base leading-relaxed mb-3" style={{ color: "#3a3530" }}>
                     Barre fitness derives from the ballet barre conditioning tradition, popularized as a studio workout by dancer Lotte Berk in London in the 1950s and subsequently developed into the contemporary barre formats practiced in studios worldwide. Classes use the ballet barre for balance support while performing high-repetition, isometric holds and small-range movements designed to fatigue specific muscle groups, particularly the glutes, inner thighs, and hamstrings.
                   </p>
-                  <ul className="text-sm leading-relaxed space-y-1.5" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                    <li><strong style={{ color: "#1b1c1c" }}>Equipment:</strong> ballet barre (or chair back), light hand weights, resistance bands</li>
-                    <li><strong style={{ color: "#1b1c1c" }}>Typical class:</strong> 45–60 minutes; group format, often 15–25 participants</li>
-                    <li><strong style={{ color: "#1b1c1c" }}>Pace:</strong> faster, music-driven, high-repetition sequences</li>
+                  <ul className="text-sm leading-relaxed space-y-1.5" style={{ color: "#3a3530" }}>
+                    <li><strong style={{ color: "#0a0a0a" }}>Equipment:</strong> ballet barre (or chair back), light hand weights, resistance bands</li>
+                    <li><strong style={{ color: "#0a0a0a" }}>Typical class:</strong> 45–60 minutes; group format, often 15–25 participants</li>
+                    <li><strong style={{ color: "#0a0a0a" }}>Pace:</strong> faster, music-driven, high-repetition sequences</li>
                   </ul>
                 </div>
               </div>
@@ -267,7 +257,7 @@ export default function PilatesVsBarrePage() {
                   body={
                     <>
                       <p>Barre has a significant advantage here. A ballet barre (or the back of a sturdy chair) is all you need for home practice, and barre classes are offered at competitive price points in most cities. The format translates well to video-based home practice.</p>
-                      <p className="mt-3">Pilates mat work is similarly accessible: a good mat is all you need, and the <Link href="/blog/best-pilates-mat" style={{ color: "#8b4a31", textDecoration: "underline", textUnderlineOffset: "3px" }}>best Pilates mat</Link> costs far less than studio equipment. But reformer Pilates, which is the format most people associate with the method, requires either studio membership or a home reformer, which ranges from about $350 for entry-level machines to $5,000+ for studio-grade equipment. The reformer is worth the investment, but barre removes that barrier entirely.</p>
+                      <p className="mt-3">Pilates mat work is similarly accessible: a good mat is all you need, and the <Link href="/blog/best-pilates-mat" style={{ color: "#0a0a0a", textDecoration: "underline", textUnderlineOffset: "3px" }}>best Pilates mat</Link> costs far less than studio equipment. But reformer Pilates, which is the format most people associate with the method, requires either studio membership or a home reformer, which ranges from about $350 for entry-level machines to $5,000+ for studio-grade equipment. The reformer is worth the investment, but barre removes that barrier entirely.</p>
                     </>
                   }
                 />
@@ -318,7 +308,7 @@ export default function PilatesVsBarrePage() {
                   body={
                     <>
                       <p>Barre is more immediately accessible. The combination of music, familiar-feeling movement patterns, and a format that rewards effort over technique means most people feel reasonably competent after two or three classes. The learning is largely physical: your body adapts to the burn and the balance demands over time.</p>
-                      <p className="mt-3">Reformer Pilates has a steeper initial learning curve. The apparatus is unfamiliar, the exercise names are not self-explanatory, and the method demands a quality of internal attention that takes time to develop. Many practitioners describe feeling genuinely lost in their first two or three reformer sessions. This is not a reason to avoid it: the depth of what you gain once the foundations are in place is precisely what makes it worthwhile. But it is a real difference. Our <Link href="/blog/beginners-guide-to-reformer-pilates" style={{ color: "#8b4a31", textDecoration: "underline", textUnderlineOffset: "3px" }}>beginner&rsquo;s guide to reformer Pilates</Link> covers what to expect in those early sessions.</p>
+                      <p className="mt-3">Reformer Pilates has a steeper initial learning curve. The apparatus is unfamiliar, the exercise names are not self-explanatory, and the method demands a quality of internal attention that takes time to develop. Many practitioners describe feeling genuinely lost in their first two or three reformer sessions. This is not a reason to avoid it: the depth of what you gain once the foundations are in place is precisely what makes it worthwhile. But it is a real difference. Our <Link href="/blog/beginners-guide-to-reformer-pilates" style={{ color: "#0a0a0a", textDecoration: "underline", textUnderlineOffset: "3px" }}>beginner&rsquo;s guide to reformer Pilates</Link> covers what to expect in those early sessions.</p>
                     </>
                   }
                 />
@@ -341,47 +331,38 @@ export default function PilatesVsBarrePage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-6">
                 {/* Choose Pilates */}
                 <div
-                  style={{
-                    backgroundColor: "#ffffff",
-                    border: "1px solid rgba(217,194,186,0.3)",
-                    borderRadius: "12px",
-                    overflow: "hidden",
-                  }}
+                  style={{ backgroundColor: "#ede9e3", borderRadius: "12px", overflow: "hidden" }}
                 >
-                  <div style={{ backgroundColor: "#8b4a31", padding: "16px 24px" }}>
+                  <div style={{ backgroundColor: "#0a0a0a", padding: "16px 24px" }}>
                     <h3
-                      className="font-semibold text-white"
-                      style={{ fontFamily: "'Playfair Display', serif", fontSize: "16px" }}
+                      className="text-white r-hx"
+                      style={{ fontSize: "16px" }}
                     >
                       Choose Pilates if&hellip;
                     </h3>
                   </div>
                   <ul
                     className="space-y-3 text-sm leading-relaxed"
-                    style={{
-                      color: "#53433e",
-                      fontFamily: "'Montserrat', sans-serif",
-                      padding: "20px 24px",
-                    }}
+                    style={{ color: "#3a3530", padding: "20px 24px" }}
                   >
                     <li className="flex gap-2">
-                      <span style={{ color: "#8b4a31", flexShrink: 0 }}>•</span>
+                      <span style={{ color: "#0a0a0a", flexShrink: 0 }}>•</span>
                       <span>You have back pain, a past injury, or a rehabilitation goal</span>
                     </li>
                     <li className="flex gap-2">
-                      <span style={{ color: "#8b4a31", flexShrink: 0 }}>•</span>
+                      <span style={{ color: "#0a0a0a", flexShrink: 0 }}>•</span>
                       <span>You want to address posture, spinal health, or deep core stability</span>
                     </li>
                     <li className="flex gap-2">
-                      <span style={{ color: "#8b4a31", flexShrink: 0 }}>•</span>
+                      <span style={{ color: "#0a0a0a", flexShrink: 0 }}>•</span>
                       <span>You are drawn to a methodical, technically precise practice</span>
                     </li>
                     <li className="flex gap-2">
-                      <span style={{ color: "#8b4a31", flexShrink: 0 }}>•</span>
+                      <span style={{ color: "#0a0a0a", flexShrink: 0 }}>•</span>
                       <span>You already train regularly and want to address functional weaknesses</span>
                     </li>
                     <li className="flex gap-2">
-                      <span style={{ color: "#8b4a31", flexShrink: 0 }}>•</span>
+                      <span style={{ color: "#0a0a0a", flexShrink: 0 }}>•</span>
                       <span>You want the reformer experience and are prepared for the learning investment</span>
                     </li>
                   </ul>
@@ -389,47 +370,38 @@ export default function PilatesVsBarrePage() {
 
                 {/* Choose Barre */}
                 <div
-                  style={{
-                    backgroundColor: "#ffffff",
-                    border: "1px solid rgba(217,194,186,0.3)",
-                    borderRadius: "12px",
-                    overflow: "hidden",
-                  }}
+                  style={{ backgroundColor: "#ede9e3", borderRadius: "12px", overflow: "hidden" }}
                 >
                   <div style={{ backgroundColor: "#53433e", padding: "16px 24px" }}>
                     <h3
-                      className="font-semibold text-white"
-                      style={{ fontFamily: "'Playfair Display', serif", fontSize: "16px" }}
+                      className="text-white r-hx"
+                      style={{ fontSize: "16px" }}
                     >
                       Choose Barre if&hellip;
                     </h3>
                   </div>
                   <ul
                     className="space-y-3 text-sm leading-relaxed"
-                    style={{
-                      color: "#53433e",
-                      fontFamily: "'Montserrat', sans-serif",
-                      padding: "20px 24px",
-                    }}
+                    style={{ color: "#3a3530", padding: "20px 24px" }}
                   >
                     <li className="flex gap-2">
-                      <span style={{ color: "#53433e", flexShrink: 0 }}>•</span>
+                      <span style={{ color: "#3a3530", flexShrink: 0 }}>•</span>
                       <span>Ballet-inspired movement and the idea of dance conditioning appeals to you</span>
                     </li>
                     <li className="flex gap-2">
-                      <span style={{ color: "#53433e", flexShrink: 0 }}>•</span>
+                      <span style={{ color: "#3a3530", flexShrink: 0 }}>•</span>
                       <span>You want high-rep muscular endurance work for glutes, thighs, and arms</span>
                     </li>
                     <li className="flex gap-2">
-                      <span style={{ color: "#53433e", flexShrink: 0 }}>•</span>
+                      <span style={{ color: "#3a3530", flexShrink: 0 }}>•</span>
                       <span>You are new to studio fitness and want a more immediately accessible format</span>
                     </li>
                     <li className="flex gap-2">
-                      <span style={{ color: "#53433e", flexShrink: 0 }}>•</span>
+                      <span style={{ color: "#3a3530", flexShrink: 0 }}>•</span>
                       <span>You prefer a class with a cardio element alongside muscle toning</span>
                     </li>
                     <li className="flex gap-2">
-                      <span style={{ color: "#53433e", flexShrink: 0 }}>•</span>
+                      <span style={{ color: "#3a3530", flexShrink: 0 }}>•</span>
                       <span>Budget or space constraints make reformer investment impractical</span>
                     </li>
                   </ul>
@@ -443,7 +415,7 @@ export default function PilatesVsBarrePage() {
                 Yes, and it is worth considering. Pilates and barre are genuinely complementary in the areas where each falls short. Barre provides the leg endurance, glute conditioning, and cardiovascular stimulus that a standard Pilates program does not prioritize; Pilates provides the spinal health, deep core engagement, and movement precision that barre classes rarely address in depth.
               </p>
               <p>
-                Many practitioners settle into a rhythm of two or three Pilates sessions per week, including reformer where possible, alongside one barre class for variety and the muscular endurance stimulus barre uniquely delivers. The combination gives you comprehensive coverage: functional strength, posture, cardiovascular fitness, and body composition work across a genuinely varied movement diet. If your wardrobe is already sorted (and if you are unsure what <Link href="/blog/what-to-wear-to-pilates" style={{ color: "#8b4a31", textDecoration: "underline", textUnderlineOffset: "3px" }}>what to wear to Pilates</Link> means in practice), the only real barrier to doing both is time.
+                Many practitioners settle into a rhythm of two or three Pilates sessions per week, including reformer where possible, alongside one barre class for variety and the muscular endurance stimulus barre uniquely delivers. The combination gives you comprehensive coverage: functional strength, posture, cardiovascular fitness, and body composition work across a genuinely varied movement diet. If your wardrobe is already sorted (and if you are unsure what <Link href="/blog/what-to-wear-to-pilates" style={{ color: "#0a0a0a", textDecoration: "underline", textUnderlineOffset: "3px" }}>what to wear to Pilates</Link> means in practice), the only real barrier to doing both is time.
               </p>
             </Section>
 
@@ -470,22 +442,17 @@ export default function PilatesVsBarrePage() {
                 ].map((item) => (
                   <div
                     key={item.q}
-                    style={{
-                      backgroundColor: "#ffffff",
-                      border: "1px solid rgba(217,194,186,0.3)",
-                      borderRadius: "12px",
-                      padding: "24px",
-                    }}
+                    style={{ backgroundColor: "#ede9e3", borderRadius: "12px", padding: "24px" }}
                   >
                     <p
-                      className="font-semibold mb-3"
-                      style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif", fontSize: "16px" }}
+                      className="mb-3 r-hx"
+                      style={{ color: "#0a0a0a", fontSize: "16px" }}
                     >
                       {item.q}
                     </p>
                     <p
-                      className="text-sm leading-relaxed"
-                      style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
+                      className="text-base leading-relaxed"
+                      style={{ color: "#3a3530" }}
                     >
                       {item.a}
                     </p>
@@ -497,9 +464,9 @@ export default function PilatesVsBarrePage() {
 
 
             {/* Equipment */}
-            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Recommended kit</h2>
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid #ddd6cc" }}>
+              <p className="text-[12.5px] font-bold mb-2" style={{ color: "#0a0a0a" }}>Equipment</p>
+              <h2 className="mb-8 r-d r-h2">Recommended kit</h2>
               <div className="space-y-8">
                 {PRODUCTS.map((p) => (
                   <ProductCard key={p.name} name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
@@ -508,10 +475,9 @@ export default function PilatesVsBarrePage() {
             </div>
 
             {/* Further reading */}
-            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid #ddd6cc" }}>
               <h2
-                className="text-2xl font-semibold mb-8"
-                style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}
+                className="mb-8 r-d r-h2"
               >
                 Further reading
               </h2>
@@ -579,14 +545,13 @@ function Section({ title, children }: { title: string; children: React.ReactNode
   return (
     <div className="mb-14">
       <h2
-        className="text-2xl font-semibold mb-5"
-        style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}
+        className="mb-5 r-d r-h2"
       >
         {title}
       </h2>
       <div
         className="space-y-4 text-base leading-relaxed"
-        style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
+        style={{ color: "#3a3530" }}
       >
         {children}
       </div>
@@ -596,10 +561,10 @@ function Section({ title, children }: { title: string; children: React.ReactNode
 
 function Callout({ children }: { children: React.ReactNode }) {
   return (
-    <blockquote className="my-10 border-l-4 pl-6 py-2" style={{ borderColor: "#8b4a31" }}>
+    <blockquote className="my-10 border-l-4 pl-6 py-2" style={{ borderColor: "#0a0a0a" }}>
       <p
-        className="text-lg italic leading-relaxed"
-        style={{ color: "#8b4a31", fontFamily: "'Playfair Display', serif" }}
+        className="text-lg italic leading-relaxed r-hx"
+        style={{ color: "#0a0a0a" }}
       >
         {children}
       </p>
@@ -610,22 +575,17 @@ function Callout({ children }: { children: React.ReactNode }) {
 function CriteriaCard({ heading, body }: { heading: string; body: React.ReactNode }) {
   return (
     <div
-      style={{
-        backgroundColor: "#ffffff",
-        border: "1px solid rgba(217,194,186,0.3)",
-        borderRadius: "12px",
-        padding: "24px",
-      }}
+      style={{ backgroundColor: "#ede9e3", borderRadius: "12px", padding: "24px" }}
     >
       <h3
-        className="font-semibold mb-3"
-        style={{ color: "#8b4a31", fontFamily: "'Playfair Display', serif", fontSize: "17px" }}
+        className="mb-3 r-hx"
+        style={{ color: "#0a0a0a", fontSize: "17px" }}
       >
         {heading}
       </h3>
       <div
         className="text-sm leading-relaxed"
-        style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
+        style={{ color: "#3a3530" }}
       >
         {body}
       </div>

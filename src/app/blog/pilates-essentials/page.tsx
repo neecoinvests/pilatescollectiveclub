@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
-import QuickPicks from "@/components/QuickPicks";
 import TopPick from "@/components/TopPick";
 import AffiliateNote from "@/components/AffiliateNote";
 import Footer from "@/components/Footer";
@@ -679,10 +678,10 @@ const jsonLd = {
   ],
 };
 
-const eyebrowStyle = { color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" };
-const bodyStyle = { color: "#53433e", fontFamily: "'Montserrat', sans-serif" };
-const h2Style = { color: "#1b1c1c", fontFamily: "'Playfair Display', serif" };
-const inlineLinkStyle = { color: "#8b4a31", textDecoration: "underline" };
+const eyebrowStyle = { color: "#0a0a0a" };
+const bodyStyle = { color: "#3a3530" };
+const h2Style = { color: "#0a0a0a" };
+const inlineLinkStyle = { color: "#0a0a0a", textDecoration: "underline" };
 
 const QUICK_PICKS = [
   { name: "Varley Freesoft Piped Full Leggings (Marina)", price: "$98.00", url: "https://www.amazon.com/dp/B0FXN378H8?tag=pilatescollective-20", note: "Premium leggings from a studio-favorite brand" },
@@ -699,23 +698,23 @@ export default function PilatesEssentialsPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={eyebrowStyle}>Equipment Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Essentials</span>
+              <span className="text-[12.5px] font-bold" style={eyebrowStyle}>Equipment Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Essentials</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Pilates Essentials<br /><span style={{ color: "#8b4a31" }}>(2026): Every Must-Have in One List</span>
+            <h1 className="mb-6 r-d r-h1">
+              Pilates Essentials<br /><span style={{ color: "#a98a5f" }}>(2026): Every Must-Have in One List</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 12 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 12 min read</p>
             <TopPick name={QUICK_PICKS[0].name} price={QUICK_PICKS[0].price} note={QUICK_PICKS[0].note} url={QUICK_PICKS[0].url} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed mb-6" style={{ color: "#3a3530" }}>
               Pilates needs less gear than most workouts, but the few things you do need make a real difference: socks that grip, leggings that stay put, a mat thick enough for your spine. This is our master list of Pilates essentials, with a best, budget and (where it is worth it) splurge pick in every category, organized from what you wear to what you might one day put in your living room.
             </p>
-            <p className="text-sm leading-relaxed" style={bodyStyle}>
+            <p className="text-base leading-relaxed" style={bodyStyle}>
               Every Amazon listing below was checked as live and in stock on September 27, 2026, at the price shown. Prices change, so the final price is whatever the retailer shows at checkout.
             </p>
           </div>
@@ -723,8 +722,8 @@ export default function PilatesEssentialsPage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/stitch-pilates-essentials-logbook.png" alt="Pilates essentials checklist: the complete list of Pilates must-haves for studio and home" fill className="object-cover" style={{ filter: "brightness(0.85)" }} priority />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/stitch-pilates-essentials-logbook.png" alt="Pilates essentials checklist: the complete list of Pilates must-haves for studio and home" fill className="object-cover" priority />
             </div>
           </div>
         </section>
@@ -732,15 +731,14 @@ export default function PilatesEssentialsPage() {
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
 
-            <QuickPicks className="mb-6 mt-4" picks={QUICK_PICKS} />
             <AffiliateNote>Most links on this page go to Amazon, and we earn a small commission on qualifying purchases. One pick (the Alo Yoga Airbrush Legging) is not sold on Amazon and links directly to aloyoga.com; it is labeled as such.</AffiliateNote>
 
             {/* Related hubs */}
             <div className="mb-10 mt-4 flex flex-col sm:flex-row gap-3">
-              <Link href="/blog/reformer-pilates-essentials" className="flex-1 rounded-xl p-4 text-sm font-semibold" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.4)", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif", textDecoration: "none" }}>
+              <Link href="/blog/reformer-pilates-essentials" className="flex-1 rounded-2xl p-4 text-sm font-semibold" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a", textDecoration: "none" }}>
                 Doing reformer classes? See our reformer essentials →
               </Link>
-              <Link href="/blog/pilates-princess-essentials" className="flex-1 rounded-xl p-4 text-sm font-semibold" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.4)", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif", textDecoration: "none" }}>
+              <Link href="/blog/pilates-princess-essentials" className="flex-1 rounded-2xl p-4 text-sm font-semibold" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a", textDecoration: "none" }}>
                 Want the aesthetic edit? → Pilates princess essentials
               </Link>
             </div>
@@ -772,8 +770,8 @@ export default function PilatesEssentialsPage() {
 
             {/* How to use this list */}
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-6" style={h2Style}>What you actually need, and in what order</h2>
-              <p className="text-sm leading-relaxed mb-6" style={bodyStyle}>
+              <h2 className="mb-6 r-d r-h2" style={h2Style}>What you actually need, and in what order</h2>
+              <p className="text-base leading-relaxed mb-6" style={bodyStyle}>
                 You do not need everything on this list, and you definitely do not need it all at once. Here is how to prioritize, depending on how you practice.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -783,9 +781,9 @@ export default function PilatesEssentialsPage() {
                   { heading: "Three or more classes a week", body: "Recovery starts to matter: a foam roller first, a massage gun later. This is also when a home reformer starts to make financial sense." },
                   { heading: "Budget vs best", body: "Our Best pick is the one we would choose for most people. Budget is the cheapest option we would still recommend. Splurge is worth it only if the upgrade matters to you." },
                 ].map((item) => (
-                  <div key={item.heading} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.heading}</p>
-                    <p className="text-sm leading-relaxed" style={bodyStyle}>{item.body}</p>
+                  <div key={item.heading} className="rounded-2xl p-5" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-sm mb-1.5 r-hx" style={{ color: "#0a0a0a" }}>{item.heading}</p>
+                    <p className="text-base leading-relaxed" style={bodyStyle}>{item.body}</p>
                   </div>
                 ))}
               </div>
@@ -795,27 +793,27 @@ export default function PilatesEssentialsPage() {
             {GROUPS.map((group) => (
               <div key={group} className="mb-8">
                 <div className="flex items-center gap-4 mb-10">
-                  <p className="text-xs font-semibold uppercase tracking-[0.2em] shrink-0" style={eyebrowStyle}>{group}</p>
-                  <div className="flex-1 h-px" style={{ backgroundColor: "#d9c2ba" }} />
+                  <p className="text-[12.5px] font-bold shrink-0" style={eyebrowStyle}>{group}</p>
+                  <div className="flex-1 h-px" style={{ backgroundColor: "#ddd6cc" }} />
                 </div>
 
                 {group === "The big upgrade" && (
-                  <div className="mb-10 rounded-2xl p-6 md:p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.5)" }}>
-                    <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={eyebrowStyle}>The math</p>
-                    <p className="text-sm leading-relaxed mb-4" style={bodyStyle}>
+                  <div className="mb-10 rounded-2xl p-6 md:p-8" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-[12.5px] font-bold mb-3" style={eyebrowStyle}>The math</p>
+                    <p className="text-base leading-relaxed mb-4" style={bodyStyle}>
                       Studio reformer classes in major US cities commonly cost $30–$40 or more each. At that rate, here is roughly how many classes each reformer below is worth:
                     </p>
                     <ul className="space-y-2">
                       {REFORMER.picks.map((p) => {
                         const n = toNumber(p.price);
                         return (
-                          <li key={p.name} className="text-sm" style={bodyStyle}>
-                            <span className="font-semibold" style={{ color: "#1b1c1c" }}>{p.name}</span> ({p.price}): about {Math.round(n / 40)}–{Math.round(n / 30)} classes
+                          <li key={p.name} className="text-base" style={bodyStyle}>
+                            <span className="font-semibold" style={{ color: "#0a0a0a" }}>{p.name}</span> ({p.price}): about {Math.round(n / 40)}–{Math.round(n / 30)} classes
                           </li>
                         );
                       })}
                     </ul>
-                    <p className="text-sm leading-relaxed mt-4" style={bodyStyle}>
+                    <p className="text-base leading-relaxed mt-4" style={bodyStyle}>
                       A home machine will not correct your form the way an instructor does, so most people who buy one keep a class or two in their week. See{" "}
                       <Link href="/blog/is-reformer-pilates-worth-it" style={inlineLinkStyle}>is reformer Pilates worth it</Link>{" "}
                       and{" "}
@@ -827,42 +825,42 @@ export default function PilatesEssentialsPage() {
 
                 {CATEGORIES.filter((c) => c.group === group).map((c) => (
                   <div key={c.id} id={c.id} className="mb-16 scroll-mt-28">
-                    <h2 className="text-3xl font-semibold mb-4" style={h2Style}>{c.title}</h2>
-                    <p className="text-sm leading-relaxed mb-8" style={bodyStyle}>{c.intro}</p>
+                    <h2 className="mb-4 r-d r-h2" style={h2Style}>{c.title}</h2>
+                    <p className="text-base leading-relaxed mb-8" style={bodyStyle}>{c.intro}</p>
                     <div className="space-y-8">
                       {c.picks.map((p) => (
                         <div key={p.name}>
                           <div className="flex items-center gap-3 mb-4">
-                            <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tier}</span>
+                            <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{p.tier}</span>
                           </div>
                           <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.url} />
                         </div>
                       ))}
                     </div>
                     {c.id === "leggings" && (
-                      <p className="text-sm leading-relaxed mb-4" style={bodyStyle}>
+                      <p className="text-base leading-relaxed mb-4" style={bodyStyle}>
                         Brand deep-dives: <Link href="/blog/varley-pilates-activewear" style={inlineLinkStyle}>Varley for Pilates</Link> and{" "}
                         <Link href="/blog/alo-yoga-pilates" style={inlineLinkStyle}>Alo Yoga for Pilates</Link>. Not sure what else to wear? Read{" "}
                         <Link href="/blog/what-to-wear-to-pilates" style={inlineLinkStyle}>what to wear to Pilates</Link>.
                       </p>
                     )}
                     {c.id === "home-reformer" && (
-                      <p className="text-sm leading-relaxed mb-4" style={bodyStyle}>
+                      <p className="text-base leading-relaxed mb-4" style={bodyStyle}>
                         More reformer guides: <Link href="/blog/best-pilates-reformer-under-500" style={inlineLinkStyle}>best reformers under $500</Link> and{" "}
                         <Link href="/blog/merrithew-pilates" style={inlineLinkStyle}>our Merrithew brand guide</Link>.
                       </p>
                     )}
-                    <Link href={c.guideHref} className="text-sm font-semibold" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>
+                    <Link href={c.guideHref} className="text-sm font-semibold" style={{ color: "#0a0a0a" }}>
                       {c.guideLabel} →
                     </Link>
                   </div>
                 ))}
 
                 {group === "Recovery" && (
-                  <div className="mb-16 rounded-2xl p-6 md:p-8" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.5)" }}>
-                    <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={eyebrowStyle}>What the full kit costs</p>
-                    <h2 className="text-2xl font-semibold mb-3" style={h2Style}>The whole list, added up</h2>
-                    <p className="text-sm leading-relaxed mb-6" style={bodyStyle}>
+                  <div className="mb-16 rounded-2xl p-6 md:p-8" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-[12.5px] font-bold mb-3" style={eyebrowStyle}>What the full kit costs</p>
+                    <h2 className="mb-3 r-d r-h2" style={h2Style}>The whole list, added up</h2>
+                    <p className="text-base leading-relaxed mb-6" style={bodyStyle}>
                       One item from each of the {KIT_CATEGORIES.length} categories above, using the verified prices on this page. Where a category has no budget pick, the budget kit uses the best pick. The optional Pilates Arc and the home reformer are not included.
                     </p>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -870,8 +868,8 @@ export default function PilatesEssentialsPage() {
                         { label: "Essentials on a budget", items: BUDGET_KIT, total: BUDGET_TOTAL },
                         { label: "The best of everything", items: BEST_KIT, total: BEST_TOTAL },
                       ].map((kit) => (
-                        <div key={kit.label} className="rounded-xl p-5" style={{ backgroundColor: "#f6f3f2" }}>
-                          <p className="text-base font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{kit.label}</p>
+                        <div key={kit.label} className="rounded-xl p-5" style={{ backgroundColor: "#ede9e3" }}>
+                          <p className="text-base mb-4 r-hx" style={{ color: "#0a0a0a" }}>{kit.label}</p>
                           <ul className="space-y-1.5 mb-4">
                             {kit.items.map((k) => (
                               <li key={k.category} className="flex justify-between gap-3 text-xs" style={bodyStyle}>
@@ -880,14 +878,14 @@ export default function PilatesEssentialsPage() {
                               </li>
                             ))}
                           </ul>
-                          <div className="flex justify-between pt-3 text-sm font-semibold" style={{ borderTop: "1px solid #d9c2ba", color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>
+                          <div className="flex justify-between pt-3 text-sm font-semibold" style={{ borderTop: "1px solid #ddd6cc", color: "#0a0a0a" }}>
                             <span>Total</span>
                             <span>{fmt(kit.total)}</span>
                           </div>
                         </div>
                       ))}
                     </div>
-                    <p className="text-sm leading-relaxed mt-6" style={bodyStyle}>
+                    <p className="text-base leading-relaxed mt-6" style={bodyStyle}>
                       Most of the gap between the two kits comes from the clothing (Varley vs CRZ YOGA) and the mat (Manduka PRO vs Gaiam). Both totals include a $159.99 massage gun, $74.99 foam roller and $55.00 ankle weights, so if you only go to studio classes and skip recovery and home props, the budget clothing and studio accessories alone come to {fmt(STUDIO_BUDGET_TOTAL)}. Home reformers are priced separately below: WINDFOOT $295.99, AeroPilates $555.99, Merrithew At Home SPX $3,349.00.
                     </p>
                   </div>
@@ -897,12 +895,12 @@ export default function PilatesEssentialsPage() {
 
             {/* FAQ */}
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={h2Style}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2" style={h2Style}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {FAQS.map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <h3 className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</h3>
-                    <p className="text-sm leading-relaxed" style={bodyStyle}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <h3 className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</h3>
+                    <p className="text-base leading-relaxed" style={bodyStyle}>{item.a}</p>
                   </div>
                 ))}
               </div>
@@ -910,7 +908,7 @@ export default function PilatesEssentialsPage() {
 
             {/* Further reading */}
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={h2Style}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2" style={h2Style}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Pilates Starter Kit" excerpt="The shortest possible list of what a beginner needs to start Pilates at home or in the studio." href="/blog/best-pilates-starter-kit" category="Equipment" readTime="8 min read" date="September 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
                 <ArticleCard title="Pilates Studio Bag Essentials" excerpt="Exactly what to pack for class, from grip socks to post-class layers." href="/blog/pilates-studio-bag-essentials" category="Guide" readTime="6 min read" date="September 2026" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />

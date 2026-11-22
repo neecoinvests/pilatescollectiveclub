@@ -85,20 +85,20 @@ export default function HowMuchDoesPilatesCostPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Pricing</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Pricing</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              How Much Does Pilates Cost?<br /><span style={{ color: "#8b4a31" }}>The 2026 Price Guide</span>
+            <h1 className="mb-6 r-d r-h1">
+              How Much Does Pilates Cost?<br /><span style={{ color: "#a98a5f" }}>The 2026 Price Guide</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 12 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 12 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               Pilates has a reputation as an expensive way to exercise, and at drop-in rates that reputation is earned. But the headline price is the worst price: almost nobody who practices regularly pays it. What follows is what each format actually costs in 2026, how much of that varies by city, the fees studios do not advertise, and the point at which buying equipment becomes cheaper than continuing to pay for classes.
             </p>
           </div>
@@ -107,7 +107,7 @@ export default function HowMuchDoesPilatesCostPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/stitch-reformer-row-studio.png" alt="A row of reformers in a Pilates studio: equipment cost is the main driver of class pricing" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/stitch-reformer-row-studio.png" alt="A row of reformers in a Pilates studio: equipment cost is the main driver of class pricing" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -119,8 +119,8 @@ export default function HowMuchDoesPilatesCostPage() {
             <AffiliateNote />
 
             <div className="mb-14 mt-4">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What each format costs</h2>
-              <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">What each format costs</h2>
+              <p className="text-base leading-relaxed mb-6" style={{ color: "#3a3530" }}>
                 Price is driven almost entirely by two variables: how many people share the instructor, and whether the room contains equipment. A mat class with twenty people in an empty studio is cheap to run. A reformer class with ten people and $40,000 of machinery is not. The ranges below reflect mid-sized Western markets: see the city section for how far these move.
               </p>
               <div className="space-y-4">
@@ -132,29 +132,29 @@ export default function HowMuchDoesPilatesCostPage() {
                   { label: "Duet (two clients, one instructor)", body: "$50–$95 each per hour. The most underrated value in Pilates: roughly two-thirds of the private rate for most of the individual attention, provided you bring someone of similar ability." },
                   { label: "Online subscription", body: "$15–$30 per month. Unlimited classes for less than the price of a single studio session. No technique correction, which is the trade-off, but it is the most cost-effective way to add volume between studio visits." },
                 ].map((item) => (
-                  <div key={item.label} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.label}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
+                  <div key={item.label} className="rounded-2xl p-5" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-sm mb-1.5 r-hx" style={{ color: "#0a0a0a" }}>{item.label}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.body}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Packs and memberships: the real price</h2>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">Packs and memberships: the real price</h2>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 Drop-in pricing exists mostly to make everything else look reasonable. Regular practitioners buy packs or memberships, and the effective per-class rate falls by 25 to 40 percent. A ten-class reformer pack that lists at $380 works out at $38 a class against a $50 drop-in. An unlimited monthly membership at $199 costs $24 a class if you attend twice a week, and $50 a class if you attend twice a month.
               </p>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 That asymmetry is the entire business model, and it is worth being honest with yourself about attendance before committing. The break-even calculation is simple: monthly fee divided by drop-in rate gives the number of classes at which the membership starts winning. In most markets that number lands between five and seven. Below it, buy a pack.
               </p>
-              <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>
                 Two details worth checking before you sign anything. First, expiry: many packs expire after two or three months, which quietly converts unused classes into pure margin. Second, contract length, since a fair number of memberships carry a minimum term with an early-termination fee, and a pause option is not the same thing as a cancellation option.
               </p>
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>How much the city changes things</h2>
+              <h2 className="mb-6 r-d r-h2">How much the city changes things</h2>
               <div className="space-y-4">
                 {[
                   { label: "Premium markets: Manhattan, San Francisco, Zurich, Geneva, central London", body: "Reformer classes $45–$70 drop-in, privates $140–$200. Roughly 40 to 60 percent above the national average in each country. Introductory offers are correspondingly aggressive because competition for new clients is intense." },
@@ -162,16 +162,16 @@ export default function HowMuchDoesPilatesCostPage() {
                   { label: "Mid-sized cities: Austin, Nashville, Raleigh, Lisbon, Copenhagen", body: "Reformer classes $25–$38, privates $70–$110. Often the best value-per-dollar in the market: instructor quality is not meaningfully lower, but commercial rent is." },
                   { label: "Franchise chains", body: "Club Pilates and comparable chains typically run $30–$45 per reformer class with memberships from around $159 to $229 depending on tier and market. Pricing is more transparent and more consistent than at independents, and the free or low-cost intro class is genuinely worth using." },
                 ].map((item) => (
-                  <div key={item.label} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.label}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
+                  <div key={item.label} className="rounded-2xl p-5" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-sm mb-1.5 r-hx" style={{ color: "#0a0a0a" }}>{item.label}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.body}</p>
                   </div>
                 ))}
               </div>
             </div>
 
-            <div className="mb-14 rounded-2xl p-8" style={{ backgroundColor: "#fff4f1", border: "1px solid rgba(139,74,49,0.15)" }}>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The costs nobody mentions at signup</h2>
+            <div className="mb-14 rounded-2xl p-8" style={{ backgroundColor: "#fff4f1", border: "1px solid #ddd6cc" }}>
+              <h2 className="mb-4 r-d r-h2">The costs nobody mentions at signup</h2>
               <ul className="space-y-3">
                 {[
                   "Grip socks: required at most reformer studios, $16–$28 a pair, and the ones sold at reception are usually the most expensive you will find.",
@@ -181,8 +181,8 @@ export default function HowMuchDoesPilatesCostPage() {
                   "Peak-time surcharges: some studios price evening and weekend classes above off-peak, or reserve pack pricing for off-peak slots only.",
                   "Introductory-offer conversion: a $49 intro month that auto-renews at $199 unless canceled is standard practice rather than a trap, but it catches people every month.",
                 ].map((tip, i) => (
-                  <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                    <span className="font-semibold" style={{ color: "#8b4a31" }}>⚠</span>
+                  <li key={i} className="flex gap-3 text-base" style={{ color: "#3a3530" }}>
+                    <span className="font-semibold" style={{ color: "#0a0a0a" }}>⚠</span>
                     {tip}
                   </li>
                 ))}
@@ -190,20 +190,20 @@ export default function HowMuchDoesPilatesCostPage() {
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>When home equipment becomes the cheaper option</h2>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">When home equipment becomes the cheaper option</h2>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 The break-even math is more favorable than most people expect. A home reformer at around $700, paired with a $20-per-month online subscription, costs roughly $940 across the first year. Two studio reformer classes a week at an effective $32 each comes to about $3,300 over the same period. The equipment has paid for itself somewhere around the fourth month, and every session after that is close to free.
               </p>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 Mat practice is more favorable still. A good mat, a magic circle, and a set of bands total under $150, about four studio classes, and cover the entire mat repertoire indefinitely.
               </p>
-              <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>
                 The caveat is not financial. Home practice removes the two things people are actually paying a studio for: correction and attendance. An instructor who spots your ribs flaring or your pelvis tipping is worth real money in the first six months, and a booked class you have paid for is a commitment device that a reformer in the spare room is not. The strongest value play for most people is a hybrid: a small pack of studio classes to learn properly and get periodic correction, with home equipment carrying the volume in between.
               </p>
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Nine ways to pay less</h2>
+              <h2 className="mb-6 r-d r-h2">Nine ways to pay less</h2>
               <div className="space-y-4">
                 {[
                   { label: "Use every introductory offer in your area", body: "Most studios offer a free first class or a heavily discounted intro week. Working through three or four studios costs almost nothing, and you learn which teaching style suits you before committing." },
@@ -216,16 +216,16 @@ export default function HowMuchDoesPilatesCostPage() {
                   { label: "Buy the mat, not the branded mat", body: "Studio-branded equipment carries a significant markup for the same product. This applies to socks, bands, and mats alike." },
                   { label: "Consider a used reformer", body: "Studios refresh equipment on cycles and sell serviceable machines at a steep discount. Check the frame, springs and straps, and factor in that shipping a reformer is neither cheap nor simple." },
                 ].map((item) => (
-                  <div key={item.label} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.label}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
+                  <div key={item.label} className="rounded-2xl p-5" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-sm mb-1.5 r-hx" style={{ color: "#0a0a0a" }}>{item.label}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.body}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   { q: "Why is reformer Pilates so expensive?", a: "Three structural reasons. Class sizes are capped by the number of machines, so a reformer studio might take ten or twelve people where a yoga studio takes thirty in the same room. The equipment is a serious capital cost: a studio-grade reformer runs from roughly $2,500 to $6,000 and a room needs eight to twelve of them. And instructor training is long and expensive, with comprehensive certifications running 450 to 600 hours, so qualified teachers command higher rates. The price reflects low throughput against high fixed costs rather than an unusually large margin." },
@@ -233,9 +233,9 @@ export default function HowMuchDoesPilatesCostPage() {
                   { q: "How much does a private Pilates session cost?", a: "Expect roughly $80 to $150 per hour in most US metros, about the same in the UK, and appreciably more in Manhattan, San Francisco, Zurich, and central London where $175 or more is not unusual for a senior instructor. Duet sessions, two clients sharing one instructor, typically land around 60 to 70 percent of the private rate each and are the best value in the private category. Most studios discount packages of five or ten sessions by around 10 percent." },
                   { q: "Is it cheaper to do Pilates at home?", a: "Substantially, once you get past the setup cost. Mat Pilates at home needs a good mat and little else, under $150 including a few props, against $25 to $40 per studio mat class. A home reformer changes the math more dramatically: a $700 machine paired with an online subscription replaces roughly 20 to 25 studio reformer classes before it has paid for itself, which is three to four months at twice a week. The real caveat is not financial but behavioral, since home practice requires self-direction and forfeits the technique correction that makes early studio sessions valuable." },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
@@ -243,9 +243,9 @@ export default function HowMuchDoesPilatesCostPage() {
 
             {/* Equipment */}
 
-            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The home setup that replaces classes</h2>
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid #ddd6cc" }}>
+              <p className="text-[12.5px] font-bold mb-2" style={{ color: "#0a0a0a" }}>Equipment</p>
+              <h2 className="mb-8 r-d r-h2">The home setup that replaces classes</h2>
               <div className="space-y-8">
                 {PRODUCTS.map((p) => (
                   <ProductCard key={p.name} name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
@@ -254,7 +254,7 @@ export default function HowMuchDoesPilatesCostPage() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="How Much Does a Pilates Reformer Cost?" excerpt="Home machines from $330 to studio apparatus past $6,000: what the money actually buys." href="/blog/how-much-does-a-pilates-reformer-cost" category="Equipment" readTime="10 min read" date="June 2026" imageUrl="/pictures/stitch-reformer-spring-detail.png" />
                 <ArticleCard title="Is Reformer Pilates Worth It?" excerpt="An honest look at what reformer classes deliver over mat work, and who should pay the premium." href="/blog/is-reformer-pilates-worth-it" category="Guide" readTime="10 min read" date="June 2026" imageUrl="/pictures/stitch-reformer-sunlit-minimal.png" />

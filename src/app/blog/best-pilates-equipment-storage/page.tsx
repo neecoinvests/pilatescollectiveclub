@@ -152,20 +152,20 @@ export default function BestPilatesEquipmentStoragePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Home Studio</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Equipment Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Home Studio</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best Pilates<br /><span style={{ color: "#8b4a31" }}>Equipment Storage</span>
+            <h1 className="mb-6 r-d r-h1">
+              Best Pilates<br /><span style={{ color: "#a98a5f" }}>Equipment Storage</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 8 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 8 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               Storage sounds like the least important thing you will buy for a home practice and is quietly one of the most consequential. Home Pilates competes against convenience, and every minute spent hunting for a band or flattening a slumped mat makes skipping the session easier. Two principles decide it: equipment you can see gets used, and anything needing more than one movement to retrieve gets used less. These six are ranked on that, not on capacity.
             </p>
           </div>
@@ -173,8 +173,8 @@ export default function BestPilatesEquipmentStoragePage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/stitch-studio-bench-towels.png" alt="A studio bench with neatly stored towels and props: visible, single-movement access" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/stitch-studio-bench-towels.png" alt="A studio bench with neatly stored towels and props: visible, single-movement access" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -185,13 +185,13 @@ export default function BestPilatesEquipmentStoragePage() {
             <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>6 Options · Ranked</p>
+              <p className="text-[12.5px] font-bold mb-10" style={{ color: "#0a0a0a" }}>6 Options · Ranked</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
                     <div className="flex items-center gap-3 mb-4">
-                      <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                      <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tag}</span>
+                      <span className="text-2xl r-hx" style={{ color: "#9a9490" }}>{p.rank}</span>
+                      <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{p.tag}</span>
                     </div>
                     <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                   </div>
@@ -199,8 +199,8 @@ export default function BestPilatesEquipmentStoragePage() {
               </div>
             </div>
 
-            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#fff4f1", border: "1px solid rgba(139,74,49,0.15)" }}>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Storing kit so it lasts</h2>
+            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#fff4f1", border: "1px solid #ddd6cc" }}>
+              <h2 className="mb-4 r-d r-h2">Storing kit so it lasts</h2>
               <ul className="space-y-3">
                 {[
                   "Roll mats, never fold them: a crease in a closed-cell mat becomes a weak point that eventually splits.",
@@ -210,8 +210,8 @@ export default function BestPilatesEquipmentStoragePage() {
                   "Check a reformer's manual before storing it upright. Many are not built for vertical load and can distort.",
                   "Let grip socks and bands dry before they go into a closed bin. Mesh baskets exist for this reason.",
                 ].map((tip, i) => (
-                  <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                    <span className="font-semibold" style={{ color: "#8b4a31" }}>⚠</span>
+                  <li key={i} className="flex gap-3 text-base" style={{ color: "#3a3530" }}>
+                    <span className="font-semibold" style={{ color: "#0a0a0a" }}>⚠</span>
                     {tip}
                   </li>
                 ))}
@@ -219,7 +219,7 @@ export default function BestPilatesEquipmentStoragePage() {
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   { q: "How should you store a Pilates mat?", a: "Rolled rather than folded, and horizontally rather than standing on one end. Folding creases the surface permanently, and creases in a closed-cell mat become weak points that eventually split. Standing a rolled mat on its end lets it slump and puts the whole weight on one edge, which deforms it over months. A wall rack holding mats horizontally solves both problems and keeps the mat off the floor. Roll with the practice side facing outward so the mat lies flat rather than curling up at the edges when you unroll it." },
@@ -227,16 +227,16 @@ export default function BestPilatesEquipmentStoragePage() {
                   { q: "Can you store a reformer upright?", a: "Some models are designed for it and many are not, so check the manufacturer's guidance rather than assuming. Machines built for vertical storage have reinforced frames and often a wheeled base for the purpose. Standing a reformer that was not designed for it on one end puts load through the frame in a direction it was never engineered for and can distort alignment over time. Foldable reformers are the more practical answer where space is tight: they are built around being stored flat under a bed or against a wall." },
                   { q: "Does storage really affect whether you practice?", a: "More than most people expect. Home practice competes against convenience, and every minute spent locating a band or unrolling a slumped mat is friction that makes skipping the session easier. The two principles that matter are visibility and single-movement access: equipment you can see gets used, and anything that takes more than one action to retrieve gets used less. That is the real argument for a wall rack or a rolling cart over a cupboard, whatever the room looks like." },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Home Pilates Studio Setup" excerpt="Space, flooring, equipment and lighting: how to plan a studio that actually gets used." href="/blog/home-pilates-studio-setup" category="Guide" readTime="11 min read" date="June 2026" imageUrl="/pictures/stitch-studio-open-window.png" />
                 <ArticleCard title="Best Flooring for a Home Pilates Studio" excerpt="Foam, cork, rubber and vinyl compared for reformers, noise and subfloor protection." href="/blog/best-flooring-for-home-pilates-studio" category="Equipment" readTime="9 min read" date="September 2026" imageUrl="/pictures/stitch-mats-corner-sunlit.png" />

@@ -152,20 +152,20 @@ export default function BestSpinBikeUnder500Page() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Spinning</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Equipment Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Spinning</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best Spin Bikes<br /><span style={{ color: "#8b4a31" }}>Under $500 (2026)</span>
+            <h1 className="mb-6 r-d r-h1">
+              Best Spin Bikes<br /><span style={{ color: "#a98a5f" }}>Under $500 (2026)</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 10 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 10 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               Two specifications decide a bike at this price and neither appears in the marketing. Flywheel weight determines whether the pedal stroke feels like cycling or like pushing against a brake, 35lb and up. And resistance type determines whether you are still happy with the bike in year three: magnets are silent and wear-free, friction pads squeak and need replacing. Everything else on the spec sheet at this price is noise.
             </p>
           </div>
@@ -173,8 +173,8 @@ export default function BestSpinBikeUnder500Page() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" alt="A home indoor cycling setup in a small space" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" alt="A home indoor cycling setup in a small space" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -185,13 +185,13 @@ export default function BestSpinBikeUnder500Page() {
             <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>6 Bikes · Ranked</p>
+              <p className="text-[12.5px] font-bold mb-10" style={{ color: "#0a0a0a" }}>6 Bikes · Ranked</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
                     <div className="flex items-center gap-3 mb-4">
-                      <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                      <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tag}</span>
+                      <span className="text-2xl r-hx" style={{ color: "#9a9490" }}>{p.rank}</span>
+                      <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{p.tag}</span>
                     </div>
                     <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                   </div>
@@ -199,8 +199,8 @@ export default function BestSpinBikeUnder500Page() {
               </div>
             </div>
 
-            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#fff4f1", border: "1px solid rgba(139,74,49,0.15)" }}>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Budget beyond the bike</h2>
+            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#fff4f1", border: "1px solid #ddd6cc" }}>
+              <h2 className="mb-4 r-d r-h2">Budget beyond the bike</h2>
               <ul className="space-y-3">
                 {[
                   "A replacement saddle, $35–$55. The stock saddle on nearly every bike at this price is the first thing owners change.",
@@ -210,8 +210,8 @@ export default function BestSpinBikeUnder500Page() {
                   "Check the stated inseam range against your own before ordering. A bike you cannot set up correctly is worse value than no bike.",
                   "Re-check every bolt after the first few rides. Budget frames loosen, and a loose bike feels far worse than it is.",
                 ].map((tip, i) => (
-                  <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                    <span className="font-semibold" style={{ color: "#8b4a31" }}>⚠</span>
+                  <li key={i} className="flex gap-3 text-base" style={{ color: "#3a3530" }}>
+                    <span className="font-semibold" style={{ color: "#0a0a0a" }}>⚠</span>
                     {tip}
                   </li>
                 ))}
@@ -219,7 +219,7 @@ export default function BestSpinBikeUnder500Page() {
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   { q: "Magnetic or friction resistance on a budget spin bike?", a: "Magnetic, if you can stretch to it. Magnets apply resistance without touching the flywheel, so there is nothing to wear out, nothing to replace and almost no noise. Friction bikes use a felt pad pressed against the flywheel: cheaper, effective, but the pad wears, needs replacing every year or two under heavy use, and can squeak when damp with sweat. In an apartment or shared house the noise difference alone justifies the roughly $100 premium, and magnetic bikes are the ones people are still riding in year five." },
@@ -227,16 +227,16 @@ export default function BestSpinBikeUnder500Page() {
                   { q: "Can you use a budget bike with Peloton or other class apps?", a: "Yes, with one caveat. Apps run on your own tablet or phone, so a bike with no screen is no obstacle: add a mount and you are set. The limitation is metrics: budget bikes have no power meter, so classes calling for specific output numbers cannot be followed precisely. You can add a cheap cadence sensor to match the RPM cues, which covers most of what a class actually asks for. Follow effort and cadence rather than trying to match someone else's wattage." },
                   { q: "What should you budget beyond the bike itself?", a: "Around $100 to $150 covers the things that turn a budget bike into a usable one. The stock saddle on nearly every bike at this price is poor, and a replacement runs $35 to $55. A floor mat protects the surface beneath and damps vibration. A tablet mount is essential if you follow classes, and a cadence sensor is worth having if your console is unreliable, which at this price it is. Factor this in when comparing a $299 bike against a $450 one, because the cheaper bike rarely stays cheaper." },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Indoor Spin Bike for Home Studios" excerpt="The full range including Peloton, Schwinn, NordicTrack and Bowflex." href="/blog/best-indoor-spin-bike-for-home-studio" category="Spinning" readTime="12 min read" date="June 2026" imageUrl="/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg" />
                 <ArticleCard title="Best Spin Bike Seat Cushions" excerpt="Why the stock saddle hurts, and the fix order that solves it properly." href="/blog/best-spin-bike-seat-cushion" category="Spinning" readTime="8 min read" date="September 2026" imageUrl="/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg" />

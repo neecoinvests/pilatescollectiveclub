@@ -142,20 +142,20 @@ export default function BestMassageBallsForPilatesPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Recovery Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Accessories</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Recovery Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Accessories</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best Massage Balls<br /><span style={{ color: "#8b4a31" }}>for Pilates (2026): 5 Real Options Compared</span>
+            <h1 className="mb-6 r-d r-h1">
+              Best Massage Balls<br /><span style={{ color: "#a98a5f" }}>for Pilates (2026): 5 Real Options Compared</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 6 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 6 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               A prior version of this article named brands (Rad, Pso-Rite, Chirp Wheel) we couldn&apos;t verify at the time. We&apos;ve since confirmed, directly against live Amazon listings, that five real massage ball options are in stock and ready to buy today: the TriggerPoint GRID Ball ($24.99), the TriggerPoint MobiPoint ($13.99), the Kieba Massage Lacrosse Balls, a set of two ($7.99), the TriggerPoint MBX Extra Firm ($27.70), and the Coniflor Deep Tissue Massage Ball ($8.97).
             </p>
           </div>
@@ -163,8 +163,8 @@ export default function BestMassageBallsForPilatesPage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" alt="Best massage balls for Pilates recovery work" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" alt="Best massage balls for Pilates recovery work" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -176,13 +176,13 @@ export default function BestMassageBallsForPilatesPage() {
             <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>The Full Lineup</p>
+              <p className="text-[12.5px] font-bold mb-10" style={{ color: "#0a0a0a" }}>The Full Lineup</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
                     <div className="flex items-center gap-3 mb-4">
-                      <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                      <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tag}</span>
+                      <span className="text-2xl r-hx" style={{ color: "#9a9490" }}>{p.rank}</span>
+                      <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{p.tag}</span>
                     </div>
                     <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                   </div>
@@ -191,8 +191,8 @@ export default function BestMassageBallsForPilatesPage() {
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Where each ball works best</h2>
-              <p className="text-sm leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">Where each ball works best</h2>
+              <p className="text-base leading-relaxed mb-6" style={{ color: "#3a3530" }}>
                 Size and firmness make the biggest practical difference between these three. Match the ball to the area you&apos;re working, not just the price.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -202,16 +202,16 @@ export default function BestMassageBallsForPilatesPage() {
                   { heading: "Glutes and hip rotators", body: "Placed under the posterior hip in a supine or seated position, pressure work here is commonly used to address lateral hip rotator tightness that can limit hip external rotation. Either the GRID Ball or a Kieba lacrosse ball works well here." },
                   { heading: "Tissue firmness", body: "The GRID Ball is moderately firm and forgiving for beginners; the Kieba lacrosse balls are firm rubber, more suited to denser tissue and practitioners already used to this kind of work." },
                 ].map((item) => (
-                  <div key={item.heading} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.heading}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
+                  <div key={item.heading} className="rounded-2xl p-5" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-sm mb-1.5 r-hx" style={{ color: "#0a0a0a" }}>{item.heading}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.body}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   { q: "Is there a real massage/trigger-point ball for Pilates sold on Amazon?", a: "Yes. The TriggerPoint GRID Ball ($24.99, 5-inch), the TriggerPoint MobiPoint ($13.99, 2-inch), the Kieba Massage Lacrosse Balls, a set of two ($7.99), the TriggerPoint MBX Extra Firm ($27.70, 2.6-inch), and the Coniflor Deep Tissue Massage Ball ($8.97, 2.8-inch, textured) are all live, currently-sold Amazon listings." },
@@ -219,16 +219,16 @@ export default function BestMassageBallsForPilatesPage() {
                   { q: "Which of these five should I actually buy?", a: "For budget: the Kieba set ($7.99) or Coniflor ball ($8.97). For most people: the TriggerPoint GRID Ball ($24.99) as an all-around large-muscle option. For small, precise areas: the MobiPoint ($13.99). For advanced, aggressive deep-tissue work: the TriggerPoint MBX Extra Firm ($27.70)." },
                   { q: "Where do people generally use massage balls in a Pilates context?", a: "Commonly cited areas include the plantar fascia, the thoracic erectors either side of the spine, the glutes and hip rotators, and the area under the shoulder blade. The MobiPoint suits the smaller, more precise areas like the feet; the GRID Ball and Kieba lacrosse balls suit the larger areas." },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Foam Roller for Pilates (2026)" excerpt="The one foam roller we could verify as a genuine, currently-sold Amazon listing." href="/blog/best-pilates-foam-roller" category="Recovery & Props" readTime="7 min read" date="September 2026" imageUrl="/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Ring (2026)" excerpt="Honestly verified: the closest real, currently-sold Amazon option for the ring category." href="/blog/best-pilates-ring" category="Props" readTime="8 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg" />

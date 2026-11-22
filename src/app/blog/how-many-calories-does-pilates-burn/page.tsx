@@ -138,20 +138,20 @@ export default function CaloriesPilatesPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Health & Fitness</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Health & Fitness</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              How Many Calories<br /><span style={{ color: "#8b4a31" }}>Does Pilates Burn?</span>
+            <h1 className="mb-6 r-d r-h1">
+              How Many Calories<br /><span style={{ color: "#a98a5f" }}>Does Pilates Burn?</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 7 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 7 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               Pilates burns significantly more calories than most people expect, and significantly less than most fitness apps report. The truth is somewhere between the dismissive claim that Pilates is "just stretching" and the inflated numbers that studio marketing uses. Here is what the metabolic research actually shows, broken down by format, intensity, and body weight.
             </p>
           </div>
@@ -159,8 +159,8 @@ export default function CaloriesPilatesPage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg" alt="How many calories does Pilates burn per session" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg" alt="How many calories does Pilates burn per session" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -172,29 +172,29 @@ export default function CaloriesPilatesPage() {
             <AffiliateNote />
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Calories burned per 60-minute session</h2>
-              <p className="text-sm mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">Calories burned per 60-minute session</h2>
+              <p className="text-base mb-6" style={{ color: "#3a3530" }}>
                 Estimates based on MET values from the Compendium of Physical Activities and heart rate data from published Pilates metabolic studies. Individual results vary based on fitness level, muscle mass, and specific exercises performed.
               </p>
-              <div className="overflow-hidden rounded-xl" style={{ border: "1px solid rgba(217,194,186,0.4)" }}>
-                <div className="grid grid-cols-4 px-4 py-3" style={{ backgroundColor: "#f6f3f2" }}>
-                  <p className="text-xs font-semibold uppercase tracking-wider col-span-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Format</p>
-                  <p className="text-xs font-semibold uppercase tracking-wider text-center" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>60kg</p>
-                  <p className="text-xs font-semibold uppercase tracking-wider text-center" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>75kg</p>
+              <div className="overflow-hidden rounded-2xl" style={{ border: "1px solid #ddd6cc" }}>
+                <div className="grid grid-cols-4 px-4 py-3" style={{ backgroundColor: "#ede9e3" }}>
+                  <p className="text-[12.5px] font-bold col-span-2" style={{ color: "#0a0a0a" }}>Format</p>
+                  <p className="text-[12.5px] font-bold text-center" style={{ color: "#0a0a0a" }}>60kg</p>
+                  <p className="text-[12.5px] font-bold text-center" style={{ color: "#0a0a0a" }}>75kg</p>
                 </div>
                 {CALORIE_TABLE.map((row, i) => (
-                  <div key={row.type} className="grid grid-cols-4 px-4 py-3" style={{ borderTop: "1px solid rgba(217,194,186,0.25)", backgroundColor: i % 2 === 0 ? "#ffffff" : "#fdf9f7" }}>
-                    <p className="text-sm col-span-2" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{row.type}</p>
-                    <p className="text-sm text-center" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{row.weight60}</p>
-                    <p className="text-sm text-center" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{row.weight70}</p>
+                  <div key={row.type} className="grid grid-cols-4 px-4 py-3" style={{ borderTop: "1px solid #ddd6cc", backgroundColor: i % 2 === 0 ? "#ffffff" : "#fdf9f7" }}>
+                    <p className="text-base col-span-2" style={{ color: "#0a0a0a" }}>{row.type}</p>
+                    <p className="text-base text-center" style={{ color: "#3a3530" }}>{row.weight60}</p>
+                    <p className="text-base text-center" style={{ color: "#3a3530" }}>{row.weight70}</p>
                   </div>
                 ))}
               </div>
-              <p className="text-xs mt-3" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Calories per 60-minute session. 75kg column shown for reference.</p>
+              <p className="text-xs mt-3" style={{ color: "#6f6964" }}>Calories per 60-minute session. 75kg column shown for reference.</p>
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Why the numbers vary so much</h2>
+              <h2 className="mb-6 r-d r-h2">Why the numbers vary so much</h2>
               <div className="space-y-4">
                 {[
                   { title: "Body weight", text: "A heavier person burns more calories performing the same exercise, because moving greater mass requires more energy. A 90kg practitioner burns roughly 50% more calories per session than a 60kg practitioner doing the same class." },
@@ -205,8 +205,8 @@ export default function CaloriesPilatesPage() {
                   <div key={item.title} className="flex gap-4">
                     <div className="w-1.5 rounded-full shrink-0 mt-1" style={{ backgroundColor: "#c5a882", minHeight: "20px" }} />
                     <div>
-                      <p className="text-sm font-semibold mb-1" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{item.title}</p>
-                      <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.text}</p>
+                      <p className="text-base font-semibold mb-1" style={{ color: "#0a0a0a" }}>{item.title}</p>
+                      <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.text}</p>
                     </div>
                   </div>
                 ))}
@@ -214,17 +214,17 @@ export default function CaloriesPilatesPage() {
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Track your actual burn accurately</h2>
-              <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">Track your actual burn accurately</h2>
+              <p className="text-base leading-relaxed mb-6" style={{ color: "#3a3530" }}>
                 Generic app estimates for Pilates are often based on outdated or poorly-researched MET values. A wearable that uses your personal heart rate data produces a meaningfully more accurate calorie figure for your individual physiology.
               </p>
-              <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
+              <p className="text-xs mb-8" style={{ color: "#6f6964" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
                     <div className="flex items-center gap-3 mb-4">
-                      <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                      <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tag}</span>
+                      <span className="text-2xl r-hx" style={{ color: "#9a9490" }}>{p.rank}</span>
+                      <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{p.tag}</span>
                     </div>
                     <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                   </div>
@@ -233,23 +233,23 @@ export default function CaloriesPilatesPage() {
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   { q: "How many calories does a 1 hour Pilates class burn?", a: "A 60-minute mat Pilates class burns approximately 170-290 calories for a 60kg person, depending on intensity. A 60-minute reformer Pilates class burns approximately 250-380 calories for the same person. Lagree or Megaformer classes can burn 400-500 calories per hour." },
                   { q: "Does reformer Pilates burn more calories than mat?", a: "Yes, consistently. The spring resistance system of the reformer creates more muscular work than mat bodyweight exercises, elevating heart rate and calorie expenditure by 20-40% compared to mat Pilates at equivalent intensity levels. Advanced reformer classes can approach the calorie burn of moderate-intensity cycling." },
                   { q: "Is Pilates effective for calorie burning and weight loss?", a: "Pilates burns meaningful calories, particularly reformer and athletic-format classes. Its primary advantage for weight management is not acute calorie burn but the combination of muscle development, improved body composition, and high adherence rates. Practitioners sustain Pilates practice over years far more consistently than high-intensity programs, making the cumulative calorie effect significant." },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Pilates for Weight Loss" excerpt="What Pilates does and doesn't do for weight loss: the honest, evidence-based answer." href="/blog/pilates-for-weight-loss" category="Guide" readTime="7 min read" date="April 2026" imageUrl="/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg" />
                 <ArticleCard title="Does Pilates Build Muscle?" excerpt="The honest science-based answer on Pilates and muscle development." href="/blog/does-pilates-build-muscle" category="Guide" readTime="8 min read" date="June 2026" imageUrl="/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg" />

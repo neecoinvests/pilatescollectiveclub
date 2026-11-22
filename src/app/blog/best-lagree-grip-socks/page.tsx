@@ -189,8 +189,8 @@ const jsonLd = {
   ],
 };
 
-const h2Style = { color: "#1b1c1c", fontFamily: "'Playfair Display', serif" };
-const bodyStyle = { color: "#53433e", fontFamily: "'Montserrat', sans-serif" };
+const h2Style = { color: "#0a0a0a" };
+const bodyStyle = { color: "#3a3530" };
 
 const QP_NOTES = ["Best overall Lagree socks", "Best single pair", "Premium pick", "Best closed-toe value", "Best toeless", "Best cushioned cotton sock", "Best multi-pack on a budget", "Best Lagree socks for men", "Best men's multi-pack", "Best open-toe budget option"];
 
@@ -200,20 +200,20 @@ export default function BestLagreeGripSocksPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Lagree</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Equipment Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Lagree</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Lagree Socks<br /><span style={{ color: "#8b4a31" }}>The Best Grip Socks for Lagree (2026)</span>
+            <h1 className="mb-6 r-d r-h1">
+              Lagree Socks<br /><span style={{ color: "#a98a5f" }}>The Best Grip Socks for Lagree (2026)</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked November 16, 2026 · 9 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked November 16, 2026 · 9 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               Lagree socks are not a special product, they are grip socks, but Lagree asks more of them than almost any other class. You hold slow lunges and planks for long sets on a carriage that moves under you, you sweat heavily, and you kneel, step and transition between platforms all class. Below are ten verified pairs covering every style that works: full-toe, closed-toe, toeless, cushioned cotton, men&apos;s and budget multi-packs.
             </p>
           </div>
@@ -221,8 +221,8 @@ export default function BestLagreeGripSocksPage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/stitch-grip-socks-footbar.png" alt="Lagree socks: grip socks braced on a footbar" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/stitch-grip-socks-footbar.png" alt="Lagree socks: grip socks braced on a footbar" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -233,7 +233,7 @@ export default function BestLagreeGripSocksPage() {
             <AffiliateNote />
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-6" style={h2Style}>What makes a good Lagree sock</h2>
+              <h2 className="mb-6 r-d r-h2" style={h2Style}>What makes a good Lagree sock</h2>
               <div className="space-y-4 text-base leading-relaxed" style={bodyStyle}>
                 <p>
                   On a mat, grip mostly has to resist your weight pressing straight down. On a Megaformer it also has to resist sideways and forward-back shear, because the carriage slides on its rails while you hold a lunge or plank against spring tension. Lagree&apos;s slow tempo makes that worse rather than better: instead of a quick rep, your foot holds the same position under load for a long set, often while sweat builds up inside the sock.
@@ -248,21 +248,21 @@ export default function BestLagreeGripSocksPage() {
             </div>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>10 Pairs · Verified Listings</p>
+              <p className="text-[12.5px] font-bold mb-10" style={{ color: "#0a0a0a" }}>10 Pairs · Verified Listings</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
                     <div className="flex items-center gap-3 mb-4">
-                      <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                      <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tag}</span>
+                      <span className="text-2xl r-hx" style={{ color: "#9a9490" }}>{p.rank}</span>
+                      <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{p.tag}</span>
                     </div>
                     <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                   </div>
                 ))}
               </div>
-              <div className="mt-10 rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                <p className="text-base font-semibold mb-2" style={h2Style}>Not Lagree-branded? That&apos;s fine.</p>
-                <p className="text-sm leading-relaxed" style={bodyStyle}>
+              <div className="mt-10 rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                <p className="text-base mb-2 r-hx" style={h2Style}>Not Lagree-branded? That&apos;s fine.</p>
+                <p className="text-base leading-relaxed" style={bodyStyle}>
                   None of these socks is made specifically for Lagree, and that is normal: studio grip socks are designed for Pilates, barre, yoga and Lagree alike. What makes a pair right for Lagree is not a label but the sole coverage, the fit and how many pairs you have in rotation. Prices shown are the Amazon prices we verified on October 2, 2026; color and size variations can be priced differently.
                 </p>
               </div>
@@ -281,7 +281,7 @@ export default function BestLagreeGripSocksPage() {
             />
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-6" style={h2Style}>Full-toe, closed-toe or toeless?</h2>
+              <h2 className="mb-6 r-d r-h2" style={h2Style}>Full-toe, closed-toe or toeless?</h2>
               <div className="space-y-4 text-base leading-relaxed" style={bodyStyle}>
                 <p>
                   <strong>Full-toe socks</strong> (toesox Low Rise, toesox Bellarina) give each toe its own pocket. The argument for them in Lagree is balance: in single-leg lunges and narrow stances on the platforms, spreading the toes gives you a wider base. The argument against is convenience: they are slower to put on, and some people find toe pockets uncomfortable.
@@ -299,7 +299,7 @@ export default function BestLagreeGripSocksPage() {
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-6" style={h2Style}>Lagree socks for men</h2>
+              <h2 className="mb-6 r-d r-h2" style={h2Style}>Lagree socks for men</h2>
               <div className="space-y-4 text-base leading-relaxed" style={bodyStyle}>
                 <p>
                   For men, sizing is the usual problem. A sock graded for a smaller foot is not just tight: it can leave the grip area ending before your forefoot, which is exactly where you push in a lunge or plank. The two men&apos;s listings above, the Muezna Men&apos;s Non-Slip Yoga Socks for a single purchase and the CoolMate Men&apos;s Grip Socks 4-pack for a rotation, are the simplest starting points. Size by foot length, not by a shoe-size conversion.
@@ -307,8 +307,8 @@ export default function BestLagreeGripSocksPage() {
               </div>
             </div>
 
-            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#fff4f1", border: "1px solid rgba(139,74,49,0.15)" }}>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What to check before buying</h2>
+            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#fff4f1", border: "1px solid #ddd6cc" }}>
+              <h2 className="mb-4 r-d r-h2">What to check before buying</h2>
               <ul className="space-y-3">
                 {[
                   "Sole coverage. Look at the listing photos and check that the grip print reaches under the ball of the foot, where your weight lands on a moving carriage.",
@@ -318,8 +318,8 @@ export default function BestLagreeGripSocksPage() {
                   "Color and size listings. Branded socks are often listed separately by color and size, and prices can differ between them.",
                   "Care. Wash inside out on a cool cycle and air-dry: heat is generally hard on silicone grip prints.",
                 ].map((tip, i) => (
-                  <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                    <span className="font-semibold" style={{ color: "#8b4a31" }}>⚠</span>
+                  <li key={i} className="flex gap-3 text-base" style={{ color: "#3a3530" }}>
+                    <span className="font-semibold" style={{ color: "#0a0a0a" }}>⚠</span>
                     {tip}
                   </li>
                 ))}
@@ -327,19 +327,19 @@ export default function BestLagreeGripSocksPage() {
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {FAQS.map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Lagree Essentials" excerpt="Everything to wear, bring and buy for Lagree, on one page." href="/blog/lagree-essentials" category="Lagree" readTime="12 min read" date="October 2026" />
                 <ArticleCard title="Lagree for Beginners" excerpt="What to expect from your first Lagree class, and how to prepare for it." href="/blog/lagree-for-beginners" category="Lagree" readTime="10 min read" date="October 2026" />

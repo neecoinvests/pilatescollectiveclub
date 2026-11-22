@@ -148,20 +148,20 @@ export default function BestFoldablePilatesReformerPage() {
       <Header />
       <main>
         {/* Hero section */}
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Small Space</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Equipment Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Small Space</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best Foldable Pilates Reformer (2026):<br /><span style={{ color: "#8b4a31" }}>Which Folding Claims Actually Hold Up</span>
+            <h1 className="mb-6 r-d r-h1">
+              Best Foldable Pilates Reformer (2026):<br /><span style={{ color: "#a98a5f" }}>Which Folding Claims Actually Hold Up</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 9 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 9 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               This category is where fabricated folding claims turn up most often: a &quot;Balanced Body Allegro 2&quot; that isn&apos;t a real Amazon listing, and a Merrithew SPX fold-flat claim we could not verify on the current listing. Set those aside and there are still genuinely folding reformers worth buying: the live Amazon catalog includes a real tier of budget, generic-brand full reformers (WINDFOOT, DWKWE, and PAETA) that are genuine carriage-and-rail spring machines whose current listings explicitly describe folding for storage. They&apos;re not established Pilates equipment brands, and we say so plainly below, but they are real, live, currently-sold folding reformers. Combined with AeroPilates&apos; own established fold-flat line, this guide covers six genuinely folding machines across every price tier from $295.99 to $1,329.99.
             </p>
           </div>
@@ -170,8 +170,8 @@ export default function BestFoldablePilatesReformerPage() {
         {/* Hero image */}
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg" alt="Best foldable Pilates reformer: space-saving machines compared" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg" alt="Best foldable Pilates reformer: space-saving machines compared" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -182,11 +182,11 @@ export default function BestFoldablePilatesReformerPage() {
 
             {/* What does foldable actually mean */}
             <div className="mb-16 mt-4">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What does &apos;foldable&apos; actually mean?</h2>
-              <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                &apos;Foldable&apos; and &apos;fold-flat&apos; get used loosely in this category, and folding claims for premium machines often can&apos;t be verified. <strong style={{ color: "#1b1c1c" }}>Fold-flat</strong> designs, where the frame hinges and the whole unit collapses for storage, are a design AeroPilates genuinely markets and sells its range around, and it is also exactly what the budget generic-brand listings from WINDFOOT, DWKWE, and PAETA describe in their current Amazon listings. We could not independently verify exact folded height, weight, or fold time for any of these current listings, so measure your own storage space against the specifications on the current product page rather than a number quoted here.
+              <h2 className="mb-6 r-d r-h2">What does &apos;foldable&apos; actually mean?</h2>
+              <p className="text-base leading-relaxed mb-6" style={{ color: "#3a3530" }}>
+                &apos;Foldable&apos; and &apos;fold-flat&apos; get used loosely in this category, and folding claims for premium machines often can&apos;t be verified. <strong style={{ color: "#0a0a0a" }}>Fold-flat</strong> designs, where the frame hinges and the whole unit collapses for storage, are a design AeroPilates genuinely markets and sells its range around, and it is also exactly what the budget generic-brand listings from WINDFOOT, DWKWE, and PAETA describe in their current Amazon listings. We could not independently verify exact folded height, weight, or fold time for any of these current listings, so measure your own storage space against the specifications on the current product page rather than a number quoted here.
               </p>
-              <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed mb-6" style={{ color: "#3a3530" }}>
                 A real distinction worth understanding: the budget WINDFOOT and DWKWE listings and the entry-level PAETA model use spring or spring-plus-cord resistance from brands with no established track record, real reformers, but with unproven long-term durability and no instructor certification recognition. The PAETA piano-wire model steps up to genuine piano-wire springs, closer in principle to what established studio brands use. AeroPilates, by contrast, is a recognized brand with a long fold-flat track record, but uses elastic cord resistance rather than springs at all. None of these should be confused with the non-folding, premium coil-spring machines from Balanced Body, Merrithew, or Align-Pilates covered elsewhere on this site: those are excluded from this guide specifically because we could not verify a fold mechanism for any of them.
               </p>
 
@@ -198,9 +198,9 @@ export default function BestFoldablePilatesReformerPage() {
                   { heading: "Spring vs cord", body: "This is the more reliable distinction to shop on. The PAETA piano-wire model and, to a lesser degree, WINDFOOT and DWKWE use genuine spring or spring-plus-cord resistance; AeroPilates uses elastic cords, which feel genuinely different. Neither is wrong, but know which one you're buying, and weigh it against the fact that the spring-based options here are generic brands without an established track record." },
                   { heading: "Brand track record vs price", body: "WINDFOOT, DWKWE, and PAETA are real, currently-sold reformers at genuinely low prices, but they're generic or dropship brands with no certification recognition among instructors and unclear long-term durability or warranty support. AeroPilates costs more but carries an established brand history. Neither tier is a wrong choice: decide which trade-off matters more to you." },
                 ].map((item) => (
-                  <div key={item.heading} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.heading}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
+                  <div key={item.heading} className="rounded-2xl p-5" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-sm mb-1.5 r-hx" style={{ color: "#0a0a0a" }}>{item.heading}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.body}</p>
                   </div>
                 ))}
               </div>
@@ -212,13 +212,13 @@ export default function BestFoldablePilatesReformerPage() {
 
             {/* Product cards */}
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{PRODUCTS.length} Foldable Reformers · Compared Across Price Tiers</p>
+              <p className="text-[12.5px] font-bold mb-10" style={{ color: "#0a0a0a" }}>{PRODUCTS.length} Foldable Reformers · Compared Across Price Tiers</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
                     <div className="flex items-center gap-3 mb-4">
-                      <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                      <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tag}</span>
+                      <span className="text-2xl r-hx" style={{ color: "#9a9490" }}>{p.rank}</span>
+                      <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{p.tag}</span>
                     </div>
                     <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                   </div>
@@ -227,9 +227,9 @@ export default function BestFoldablePilatesReformerPage() {
             </div>
 
             {/* Storage space guide */}
-            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Storage space guide</h2>
-              <p className="text-sm leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#ede9e3" }}>
+              <h2 className="mb-4 r-d r-h2">Storage space guide</h2>
+              <p className="text-base leading-relaxed mb-6" style={{ color: "#3a3530" }}>
                 We could not independently verify specific folded dimensions or weights for the machines in this guide, so we don&apos;t quote precise figures (folded height, wardrobe footprint, machine weight) here. Here is what we can say honestly about each tier.
               </p>
               <div className="space-y-4">
@@ -250,10 +250,10 @@ export default function BestFoldablePilatesReformerPage() {
                     detail: "These are real, premium coil-spring machines covered elsewhere on this site, but we could not verify a fold mechanism for any of them, and the Balanced Body Studio Reformer is confirmed to not fold at all. They're excluded here because this guide is specifically about machines that fold.",
                   },
                 ].map((item, i) => (
-                  <div key={i} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.25)" }}>
-                    <p className="text-sm font-semibold mb-1" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.label}</p>
-                    <p className="text-xs font-semibold mb-2 uppercase tracking-wide" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{item.machines}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.detail}</p>
+                  <div key={i} className="rounded-2xl p-5" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-sm mb-1 r-hx" style={{ color: "#0a0a0a" }}>{item.label}</p>
+                    <p className="text-[12.5px] font-bold mb-2" style={{ color: "#0a0a0a" }}>{item.machines}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.detail}</p>
                   </div>
                 ))}
               </div>
@@ -261,7 +261,7 @@ export default function BestFoldablePilatesReformerPage() {
 
             {/* FAQ */}
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   {
@@ -281,9 +281,9 @@ export default function BestFoldablePilatesReformerPage() {
                     a: "We could not verify a specific stability comparison across models. Generic budget-brand folding reformers carry more uncertainty here than established brands, simply because there's less of a track record and fewer independent reviews to draw on: check current owner reviews on the specific listing rather than relying on a general claim.",
                   },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
@@ -291,7 +291,7 @@ export default function BestFoldablePilatesReformerPage() {
 
             {/* Further reading */}
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Home Pilates Reformer (2026)" excerpt="The best home reformers at every price point, from entry-level to studio-grade." href="/blog/best-home-pilates-reformer" category="Equipment Guide" readTime="10 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Reformer Under $500 (2026)" excerpt="An honest guide to budget reformers: cord vs spring, what you get, what you sacrifice." href="/blog/best-pilates-reformer-under-500" category="Equipment Guide" readTime="9 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg" />

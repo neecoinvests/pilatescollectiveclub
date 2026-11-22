@@ -148,18 +148,18 @@ export default function BestHighWaistPilatesLeggingsPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Clothing</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Clothing</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best High-Waist Pilates Leggings<br /><span style={{ color: "#8b4a31" }}>(2026)</span>
+            <h1 className="mb-6 r-d r-h1">
+              Best High-Waist Pilates Leggings<br /><span style={{ color: "#a98a5f" }}>(2026)</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 9 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 9 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               High-waist leggings are the near-universal choice for serious Pilates practitioners. They stay put through roll-ups, swan, and reformer footwork sequences without adjustment, and the wide waistband provides a subtle proprioceptive cue for lumbar awareness. These are the six worth investing in.
             </p>
           </div>
@@ -167,8 +167,8 @@ export default function BestHighWaistPilatesLeggingsPage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg" alt="Best High-Waist Pilates Leggings 2026" fill className="object-cover" style={{ filter: "brightness(0.85)" }} priority />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg" alt="Best High-Waist Pilates Leggings 2026" fill className="object-cover" priority />
             </div>
           </div>
         </section>
@@ -182,8 +182,8 @@ export default function BestHighWaistPilatesLeggingsPage() {
               {PRODUCTS.map((p) => (
                 <div key={p.rank}>
                   <div className="flex items-center gap-3 mb-4">
-                    <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "\'Playfair Display\', serif" }}>{p.rank}</span>
-                    <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "\'Montserrat\', sans-serif" }}>{p.verdict}</span>
+                    <span className="text-2xl r-hx" style={{ color: "#9a9490" }}>{p.rank}</span>
+                    <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{p.verdict}</span>
                   </div>
                   <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                 </div>
@@ -191,21 +191,21 @@ export default function BestHighWaistPilatesLeggingsPage() {
             </div>
 
             <div style={{ marginTop: "64px" }}>
-              <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "1.6rem", fontWeight: 400, color: "#1a1714", marginBottom: "32px" }}>Frequently Asked Questions</h2>
+              <h2 className="r-d r-h2" style={{ color: "#1a1714", marginBottom: "32px" }}>Frequently Asked Questions</h2>
               {[
                 { q: "Why do high-waist leggings work better for Pilates?", a: "High-waist leggings stay in place through the full range of Pilates movement, particularly during supine, inverted, and rolling exercises where mid-rise leggings tend to slip down. The wider waistband also provides light core support and can aid proprioception (body awareness) in the lumbar region, which is beneficial for spinal articulation exercises." },
                 { q: "How do I know if a high-waist legging is squat-proof?", a: "The stretch test: hold the fabric at full extension (both hands pulling outward) and look through it. Squat-proof fabric remains opaque when stretched. Thin fabrics and light-colored leggings in pale pink or white are most susceptible to becoming see-through. Fabric weight above 200 GSM is generally squat-proof; lighter fabrics need to be tested." },
                 { q: "What is the best high-waist legging for Pilates under $50?", a: "The CRZ YOGA Naked Feeling High-Waist Legging (around $26) and the Gymshark Vital Seamless (around $48) are both excellent picks under $50. The CRZ YOGA competes directly with Lululemon's Align in fabric feel and opacity. The Gymshark offers seamless construction and consistent sizing. Both outperform many leggings in the $70–$90 range." },
               ].map((item) => (
                 <div key={item.q} style={{ borderTop: "1px solid #ede6dc", paddingTop: "24px", paddingBottom: "24px" }}>
-                  <h3 style={{ fontFamily: "var(--font-sans)", fontSize: "15px", fontWeight: 500, color: "#1a1714", marginBottom: "10px" }}>{item.q}</h3>
-                  <p style={{ fontFamily: "var(--font-sans)", fontSize: "14px", fontWeight: 300, color: "#4a4540", lineHeight: 1.75 }}>{item.a}</p>
+                  <h3 style={{ fontSize: "17px", fontWeight: 500, color: "#1a1714", marginBottom: "10px" }}>{item.q}</h3>
+                  <p style={{ fontSize: "16px", color: "#3a3530", lineHeight: 1.55 }}>{item.a}</p>
                 </div>
               ))}
             </div>
 
             <div style={{ marginTop: "64px" }}>
-              <h2 style={{ fontFamily: "var(--font-sans)", fontSize: "11px", fontWeight: 500, letterSpacing: "0.2em", textTransform: "uppercase", color: "#9a9490", marginBottom: "28px" }}>Further Reading</h2>
+              <h2 style={{ fontSize: "12.5px", fontWeight: 700, color: "#9a9490", marginBottom: "28px" }}>Further Reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Pilates Leggings" excerpt="The full roundup: all lengths, rises, and fabrics compared for reformer and mat Pilates performance." href="/blog/best-pilates-leggings" category="Clothing" readTime="9 min" imageUrl="/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg" />
                 <ArticleCard title="Lululemon Align vs Alo Airbrush" excerpt="The two most-compared Pilates leggings head to head: fabric feel, waistband hold, and value." href="/blog/lululemon-align-vs-alo-airbrush" category="Comparison" readTime="7 min" imageUrl="/pictures/stitch-retail-activewear.png" />

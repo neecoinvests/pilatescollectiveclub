@@ -183,7 +183,7 @@ export default function SixPrinciplesPage() {
           imageUrl="/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg"
           imageAlt="Pilates core principles"
           category="Method"
-          title={<>The 6 Core Principles of Pilates,<br /><span style={{ color: "#8b4a31" }}>Explained</span></>}
+          title={<>The 6 Core Principles of Pilates,<br /><span style={{ color: "#0a0a0a" }}>Explained</span></>}
           date="Updated May 2026"
           readTime="6 min read"
           dateLabel="Prices checked October 20, 2026"
@@ -199,35 +199,35 @@ export default function SixPrinciplesPage() {
 
 
             <article>
-              <div className="mb-10 rounded-xl p-6" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217, 194, 186, 0.3)" }}>
-                <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                  <strong style={{ color: "#1b1c1c" }}>A note on attribution:</strong> The six principles below (concentration, control, centering, precision, breath, and flow) were codified by Joseph Pilates&apos; students and successors as a framework for teaching the method. Pilates himself wrote about these ideas throughout his work, particularly in his books <em>Your Health</em> (1934) and <em>Return to Life Through Contrology</em> (1945).
+              <div className="mb-10 rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>
+                  <strong style={{ color: "#0a0a0a" }}>A note on attribution:</strong> The six principles below (concentration, control, centering, precision, breath, and flow) were codified by Joseph Pilates&apos; students and successors as a framework for teaching the method. Pilates himself wrote about these ideas throughout his work, particularly in his books <em>Your Health</em> (1934) and <em>Return to Life Through Contrology</em> (1945).
                 </p>
               </div>
 
               <div className="space-y-10 mb-16">
                 {PRINCIPLES.map((p) => (
-                  <div key={p.number} className="flex gap-6 rounded-2xl p-7" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217, 194, 186, 0.35)", boxShadow: "0 1px 6px rgba(0,0,0,0.04)" }}>
+                  <div key={p.number} className="flex gap-6 rounded-2xl p-7" style={{ backgroundColor: "#ede9e3", boxShadow: "0 1px 6px rgba(0,0,0,0.04)" }}>
                     <div>
-                      <span className="text-4xl font-light block mb-1 leading-none" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.number}</span>
+                      <span className="text-4xl block mb-1 leading-none r-hx" style={{ color: "#9a9490" }}>{p.number}</span>
                     </div>
                     <div>
-                      <h2 className="text-xl font-semibold mb-3" style={{ color: "#8b4a31", fontFamily: "'Playfair Display', serif" }}>{p.name}</h2>
-                      <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{p.body}</p>
+                      <h2 className="mb-3 r-d r-h2" style={{ color: "#0a0a0a" }}>{p.name}</h2>
+                      <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{p.body}</p>
                     </div>
                   </div>
                 ))}
               </div>
 
-              <div className="rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217, 194, 186, 0.3)" }}>
-                <h2 className="text-xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>How to use the principles in your practice</h2>
-                <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <div className="rounded-2xl p-8" style={{ backgroundColor: "#ede9e3" }}>
+                <h2 className="mb-4 r-d r-h2">How to use the principles in your practice</h2>
+                <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                   Don&apos;t try to consciously apply all six principles simultaneously in your early practice: that way lies paralysis. Instead, treat them as a hierarchy to work through over time.
                 </p>
-                <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+                <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                   In your first few months, focus on centering and breath. These are the prerequisites for everything else. Once you can reliably find and maintain your powerhouse, and coordinate breath with movement, concentration and control will begin to emerge naturally.
                 </p>
-                <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+                <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>
                   Precision and flow are the last to arrive, and when they do, the experience of Pilates changes completely. You&apos;ll stop counting repetitions and start inhabiting them. That&apos;s when the practice becomes genuinely transformative.
                 </p>
               </div>
@@ -236,9 +236,9 @@ export default function SixPrinciplesPage() {
 
             {FAQS.length > 0 && <FaqSection faqs={FAQS} />}
             {/* Equipment */}
-            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Recommended kit</h2>
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid #ddd6cc" }}>
+              <p className="text-[12.5px] font-bold mb-2" style={{ color: "#0a0a0a" }}>Equipment</p>
+              <h2 className="mb-8 r-d r-h2">Recommended kit</h2>
               <div className="space-y-8">
                 {PRODUCTS.map((p) => (
                   <ProductCard key={p.name} name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
@@ -247,8 +247,8 @@ export default function SixPrinciplesPage() {
             </div>
 
             {/* Continue reading */}
-            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Continue reading</h2>
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid #ddd6cc" }}>
+              <h2 className="mb-8 r-d r-h2">Continue reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 {RELATED.map((a) => (<ArticleCard key={a.href} {...a} />))}
               </div>

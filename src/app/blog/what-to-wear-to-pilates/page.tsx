@@ -184,20 +184,20 @@ export default function WhatToWearToPilatesPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Studio Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Beginners</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Studio Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Beginners</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              What to Wear<br /><span style={{ color: "#8b4a31" }}>to Pilates (2026)</span>
+            <h1 className="mb-6 r-d r-h1">
+              What to Wear<br /><span style={{ color: "#a98a5f" }}>to Pilates (2026)</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 6 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 6 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               What you wear to Pilates matters more than it does in most fitness contexts. Instructors need to see your body alignment (how your spine curves, where your shoulders are, whether your pelvis is neutral) to give you accurate corrections. Loose or baggy clothing obscures this and makes good instruction harder. Here&apos;s exactly what to wear, what to avoid, and the specific pieces that work best across reformer, mat, and barre classes.
             </p>
           </div>
@@ -205,8 +205,8 @@ export default function WhatToWearToPilatesPage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" alt="Pilates studio outfit and activewear" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" alt="Pilates studio outfit and activewear" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -219,24 +219,24 @@ export default function WhatToWearToPilatesPage() {
 
             {/* Do and Don't */}
             <div className="mb-16 mt-4">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The quick reference</h2>
+              <h2 className="mb-6 r-d r-h2">The quick reference</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-                <div className="rounded-xl p-6" style={{ backgroundColor: "#f0f7f1", border: "1px solid rgba(83,98,87,0.2)" }}>
-                  <p className="text-xs font-semibold uppercase tracking-widest mb-4" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Do wear</p>
+                <div className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                  <p className="text-[12.5px] font-bold mb-4" style={{ color: "#3a3530" }}>Do wear</p>
                   <ul className="space-y-2.5">
                     {DO_DONT.dos.map((item) => (
-                      <li key={item} className="flex gap-2.5 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                        <span style={{ color: "#536257" }}>✓</span>{item}
+                      <li key={item} className="flex gap-2.5 text-base" style={{ color: "#3a3530" }}>
+                        <span style={{ color: "#3a3530" }}>✓</span>{item}
                       </li>
                     ))}
                   </ul>
                 </div>
-                <div className="rounded-xl p-6" style={{ backgroundColor: "#fdf5f3", border: "1px solid rgba(139,74,49,0.15)" }}>
-                  <p className="text-xs font-semibold uppercase tracking-widest mb-4" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Don&apos;t wear</p>
+                <div className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                  <p className="text-[12.5px] font-bold mb-4" style={{ color: "#0a0a0a" }}>Don&apos;t wear</p>
                   <ul className="space-y-2.5">
                     {DO_DONT.donts.map((item) => (
-                      <li key={item} className="flex gap-2.5 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                        <span style={{ color: "#8b4a31" }}>✕</span>{item}
+                      <li key={item} className="flex gap-2.5 text-base" style={{ color: "#3a3530" }}>
+                        <span style={{ color: "#0a0a0a" }}>✕</span>{item}
                       </li>
                     ))}
                   </ul>
@@ -246,7 +246,7 @@ export default function WhatToWearToPilatesPage() {
 
             {/* Class-specific guidance */}
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What to wear for each class type</h2>
+              <h2 className="mb-6 r-d r-h2">What to wear for each class type</h2>
               <div className="space-y-4">
                 {[
                   {
@@ -266,9 +266,9 @@ export default function WhatToWearToPilatesPage() {
                     guidance: "Similar to reformer. Some fusion formats that incorporate cardio intervals benefit from slightly more ventilated fabric. The grip sock rule applies universally across studio barre formats.",
                   },
                 ].map((item) => (
-                  <div key={item.type} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <h3 className="text-base font-semibold mb-2" style={{ color: "#8b4a31", fontFamily: "'Playfair Display', serif" }}>{item.type}</h3>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.guidance}</p>
+                  <div key={item.type} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <h3 className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.type}</h3>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.guidance}</p>
                   </div>
                 ))}
               </div>
@@ -277,12 +277,12 @@ export default function WhatToWearToPilatesPage() {
             {/* Products */}
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Our recommended pieces</h2>
-              <p className="text-base mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Selected for fit, function, and value: all available on Amazon.</p>
+              <h2 className="mb-3 r-d r-h2">Our recommended pieces</h2>
+              <p className="text-base mb-10" style={{ color: "#3a3530" }}>Selected for fit, function, and value: all available on Amazon.</p>
               <div className="space-y-8">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
-                    <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>{p.category}</p>
+                    <p className="text-[12.5px] font-bold mb-3" style={{ color: "#3a3530" }}>{p.category}</p>
                     <ProductCard
                       name={p.name}
                       description={p.description}
@@ -295,12 +295,12 @@ export default function WhatToWearToPilatesPage() {
             </div>
 
             {/* Fit over brand */}
-            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Fit matters more than brand</h2>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#ede9e3" }}>
+              <h2 className="mb-4 r-d r-h2">Fit matters more than brand</h2>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 The Pilates community has a strong association with high-end activewear brands, but the function of what you wear matters far more than the label. A well-fitted pair of $30 leggings that stays in place, allows full movement range, and lets your instructor see your alignment is better Pilates kit than a $120 designer pair that gaps at the waist in roll-over.
               </p>
-              <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>
                 The one non-negotiable investment is grip socks: cheaper alternatives often have inferior grip patterns that fail quickly, and this is both a quality and safety issue in a studio environment.
               </p>
             </div>
@@ -308,7 +308,7 @@ export default function WhatToWearToPilatesPage() {
             {FAQS.length > 0 && <FaqSection faqs={FAQS} />}
             {/* Further reading */}
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Pilates Grip Socks (2026)" excerpt="grip socks ranked, from ToeSox to Tavi Noir and the best budget picks." href="/blog/best-pilates-grip-socks" category="Equipment" readTime="7 min read" date="May 2026" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
                 <ArticleCard title="Beginner's Guide to Reformer Pilates" excerpt="What to expect from your first reformer class and how to prepare." href="/blog/beginners-guide-to-reformer-pilates" category="Guide" readTime="8 min read" date="May 2026" imageUrl="/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg" />

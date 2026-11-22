@@ -91,20 +91,20 @@ export default function PilatesForKneePainPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Health</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Knee Pain</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Health</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Knee Pain</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Pilates for Knee Pain:<br /><span style={{ color: "#8b4a31" }}>What Helps, What to Avoid</span>
+            <h1 className="mb-6 r-d r-h1">
+              Pilates for Knee Pain:<br /><span style={{ color: "#a98a5f" }}>What Helps, What to Avoid</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 11 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 11 min read</p>
             <TopPick name={PRODUCTS[1].name} price={PRODUCTS[1].price} note="Releases IT band, quad and calf tension before class" url={PRODUCTS[1].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               Knee pain is the second most common musculoskeletal complaint after back pain: affecting runners, desk workers, older adults, and former athletes in roughly equal measure. Pilates addresses knee pain indirectly but effectively: by strengthening the hip and thigh muscles that control knee alignment, it removes the upstream cause of most non-traumatic knee conditions. Understanding which exercises help and which to avoid is the difference between recovery and aggravation.
             </p>
           </div>
@@ -113,7 +113,7 @@ export default function PilatesForKneePainPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg" alt="Pilates for knee pain: exercises that strengthen hip and thigh muscles to protect the knee joint" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg" alt="Pilates for knee pain: exercises that strengthen hip and thigh muscles to protect the knee joint" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -129,20 +129,20 @@ export default function PilatesForKneePainPage() {
             <AffiliateNote />
 
             <div className="mb-14 mt-12">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Why most knee pain is actually a hip and thigh problem</h2>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">Why most knee pain is actually a hip and thigh problem</h2>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 The knee joint itself is relatively simple: a hinge joint with limited degrees of freedom. What makes it vulnerable is its position in the kinetic chain: it sits between the hip above and the ankle below, and its alignment during movement is entirely determined by how well the muscles of both joints control it. When the glute medius (lateral hip) is weak, the femur internally rotates during weight-bearing: pulling the patella laterally and creating the friction and pain of patellofemoral syndrome. When the vastus medialis oblique (inner quad) is weak, the patella tracks laterally in the groove regardless of what the hip is doing.
               </p>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 This is why treating knee pain at the knee, with knee-specific exercises only, is often insufficient. Pilates&apos; emphasis on hip stability, glute strength, and lateral chain development addresses the upstream causes of knee pain in a way that many conventional rehabilitation approaches miss.
               </p>
-              <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>
                 This does not mean Pilates is appropriate for all knee conditions. Acute injuries (ligament tears, meniscus tears, acute bursitis) require assessment and initial management before exercise. Structural conditions like significant osteoarthritis or post-surgical knees require specific programming. But for the vast majority of chronic, activity-related knee pain (patellofemoral syndrome, IT band syndrome, chondromalacia, and generalized anterior knee pain) Pilates provides a highly effective, evidence-supported approach.
               </p>
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The most effective Pilates exercises for knee pain</h2>
+              <h2 className="mb-6 r-d r-h2">The most effective Pilates exercises for knee pain</h2>
               <div className="space-y-4">
                 {[
                   {
@@ -170,16 +170,16 @@ export default function PilatesForKneePainPage() {
                     body: "Standing single-leg exercises with only a small amount of knee bend (20–30°) develop the proprioceptive control and lateral hip stability that the knee needs during functional movement. Wall-supported versions are appropriate during acute phases. Unsupported standing exercises are a later progression.",
                   },
                 ].map((item) => (
-                  <div key={item.title} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.title}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
+                  <div key={item.title} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.title}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.body}</p>
                   </div>
                 ))}
               </div>
             </div>
 
-            <div className="mb-14 rounded-2xl p-8" style={{ backgroundColor: "#fff4f1", border: "1px solid rgba(139,74,49,0.15)" }}>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Exercises to avoid or modify with knee pain</h2>
+            <div className="mb-14 rounded-2xl p-8" style={{ backgroundColor: "#fff4f1", border: "1px solid #ddd6cc" }}>
+              <h2 className="mb-4 r-d r-h2">Exercises to avoid or modify with knee pain</h2>
               <ul className="space-y-3">
                 {[
                   "Deep squats (beyond 90° of knee bend): high patellofemoral compressive forces at deep flexion. Limit to 60–70° of knee bend until pain resolves.",
@@ -189,8 +189,8 @@ export default function PilatesForKneePainPage() {
                   "Hamstring curls on the reformer with feet close to carriage: deep knee flexion against resistance is provocative for patellofemoral and meniscal conditions.",
                   "High-impact movements: jumping and rebounding on the AeroPilates are not appropriate during active knee pain flares.",
                 ].map((tip, i) => (
-                  <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                    <span className="font-semibold" style={{ color: "#8b4a31" }}>⚠</span>
+                  <li key={i} className="flex gap-3 text-base" style={{ color: "#3a3530" }}>
+                    <span className="font-semibold" style={{ color: "#0a0a0a" }}>⚠</span>
                     {tip}
                   </li>
                 ))}
@@ -198,7 +198,7 @@ export default function PilatesForKneePainPage() {
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Pilates by knee condition</h2>
+              <h2 className="mb-6 r-d r-h2">Pilates by knee condition</h2>
               <div className="space-y-4">
                 {[
                   { label: "Patellofemoral pain syndrome (runner's knee)", body: "Prioritize glute medius strengthening (clam, abduction series) and VMO activation. Avoid deep knee flexion and downhill-equivalent loading until pain resolves. Progress to single-leg exercises once glute strength is established." },
@@ -207,16 +207,16 @@ export default function PilatesForKneePainPage() {
                   { label: "Chondromalacia patellae", body: "Same as patellofemoral protocol: VMO activation and glute strength are the primary targets. Additionally focus on avoiding compressive patellofemoral positions (deep squats, stairs with pain). Pool-based Pilates (if available) is appropriate during acute phases." },
                   { label: "Post-ACL reconstruction", body: "Pilates is appropriate in later rehabilitation phases (typically 3+ months post-surgery) under physiotherapy guidance. The reformer footwork is often among the first exercises reintroduced because it is closed-chain (foot pressed against surface) and controllable. Never progress faster than your surgical team recommends." },
                 ].map((item) => (
-                  <div key={item.label} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.label}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
+                  <div key={item.label} className="rounded-2xl p-5" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-sm mb-1.5 r-hx" style={{ color: "#0a0a0a" }}>{item.label}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.body}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   { q: "Is Pilates safe after knee replacement surgery?", a: "Pilates can be part of rehabilitation after knee replacement (total or partial arthroplasty), but timing and exercise selection must be guided by your orthopedic surgeon and physiotherapist. Gentle reformer footwork (lying supine, pressing through the foot) and upper body Pilates are typically introduced in the weeks after surgery. Full mat work and standing exercises are introduced progressively as healing allows. Never start Pilates post-surgery without clearance from your surgical team." },
@@ -224,9 +224,9 @@ export default function PilatesForKneePainPage() {
                   { q: "What Pilates exercises should I avoid with knee pain?", a: "Deep squats and lunges (more than 60–70° of knee bend) are the primary exercises to avoid if you have anterior knee pain. Full kneeling positions can aggravate patella bursitis. Standing exercises on an unstable surface are inappropriate during acute knee pain flares. On the reformer, avoid exercises that load the knee at full flexion (deep footwork, hamstring curls with the foot too close to the carriage) during acute presentations." },
                   { q: "Is mat or reformer Pilates better for knee pain?", a: "Reformer Pilates offers significant advantages for knee pain because most exercises are performed lying down with the knee supported. The footwork series, the foundational reformer exercise, loads the knee in a controlled, supported way at calibrated angles. Mat Pilates can be equally effective but requires more careful exercise selection to avoid loaded kneeling and deep knee flexion. A one-on-one reformer session with a clinically-informed instructor is the best starting point for anyone with significant knee pain." },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
@@ -234,9 +234,9 @@ export default function PilatesForKneePainPage() {
 
 
             {/* Equipment */}
-            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Recommended kit</h2>
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid #ddd6cc" }}>
+              <p className="text-[12.5px] font-bold mb-2" style={{ color: "#0a0a0a" }}>Equipment</p>
+              <h2 className="mb-8 r-d r-h2">Recommended kit</h2>
               <div className="space-y-8">
                 {PRODUCTS.map((p) => (
                   <ProductCard key={p.name} name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
@@ -245,7 +245,7 @@ export default function PilatesForKneePainPage() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Pilates for Hip Pain" excerpt="Which Pilates exercises relieve hip flexor tightness, bursitis, and labral irritation." href="/blog/pilates-for-hip-pain" category="Health" readTime="11 min read" date="June 2026" imageUrl="/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg" />
                 <ArticleCard title="Pilates for Runners" excerpt="Hip stability, IT band relief, and cadence work: the specific Pilates work that helps runners." href="/blog/pilates-for-runners" category="Performance" readTime="11 min read" date="June 2026" imageUrl="/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg" />

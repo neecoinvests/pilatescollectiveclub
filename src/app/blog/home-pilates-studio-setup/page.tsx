@@ -206,45 +206,44 @@ export default function HomePilatesStudioSetupPage() {
       <main>
 
         {/* ── Hero section ── */}
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
               <span
-                className="text-xs font-semibold uppercase tracking-[0.2em]"
-                style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}
+                className="text-[12.5px] font-bold"
+                style={{ color: "#0a0a0a" }}
               >
                 Home Studio
               </span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
+              <span style={{ color: "#9a9490" }}>·</span>
               <span
-                className="text-xs font-semibold uppercase tracking-[0.15em]"
-                style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
+                className="text-[12.5px] font-bold"
+                style={{ color: "#3a3530" }}
               >
                 Equipment Guide
               </span>
             </div>
 
             <h1
-              className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6"
-              style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}
+              className="mb-6 r-d r-h1"
             >
               How to Set Up a Home Pilates Studio (2026):<br />
-              <span style={{ color: "#8b4a31" }}>The Complete Equipment Guide</span>
+              <span style={{ color: "#a98a5f" }}>The Complete Equipment Guide</span>
             </h1>
 
             <p
-              className="text-sm mb-8"
-              style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}
+              className="text-base mb-8"
+              style={{ color: "#6f6964" }}
             >
               Updated May 2026 · 10 min read
             </p>
             <TopPick name={QUICK_PICKS[0].name} price={QUICK_PICKS[0].price} note={QUICK_PICKS[0].note} url={QUICK_PICKS[0].url} />
 
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
 
             <p
               className="text-lg leading-relaxed"
-              style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}
+              style={{ color: "#3a3530" }}
             >
               A home Pilates studio does not need to be a dedicated room or a six-figure investment. The most effective home setups are built incrementally: starting with the essential foundation and adding apparatus as the practice deepens and the budget allows. This guide covers the right order to buy equipment, the minimum space requirements, and what a complete setup at every budget level actually looks like.
             </p>
@@ -263,7 +262,6 @@ export default function HomePilatesStudioSetupPage() {
                 alt="Home Pilates studio setup: reformer, mat, and equipment guide"
                 fill
                 className="object-cover"
-                style={{ filter: "brightness(0.85)" }}
                 priority
               />
             </div>
@@ -279,27 +277,26 @@ export default function HomePilatesStudioSetupPage() {
             {/* Section A, Start here: the foundation before the reformer */}
             <div className="mb-16">
               <h2
-                className="text-3xl font-semibold mb-6"
-                style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}
+                className="mb-6 r-d r-h2"
               >
                 Start here: the foundation before the reformer
               </h2>
               <p
                 className="text-base leading-relaxed mb-5"
-                style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
+                style={{ color: "#3a3530" }}
               >
                 The single most common mistake in home studio building is buying a reformer first. The reformer is the most versatile piece of Pilates apparatus, and the most unforgiving of poor movement patterns. A practitioner without mat foundations will load the reformer incorrectly, compensate through the neck and hip flexors, and miss the muscular connections the apparatus is designed to train. The equipment amplifies whatever patterns the practitioner brings to it.
               </p>
               <p
                 className="text-base leading-relaxed mb-8"
-                style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
+                style={{ color: "#3a3530" }}
               >
                 The professional recommendation is 6–12 months of mat work or studio reformer sessions before purchasing your own reformer. This is not a conservative suggestion: it is the minimum time required to develop the body awareness that makes reformer work productive rather than just expensive. Build the foundation first. The correct order is mat work, then accessories, then reformer.
               </p>
 
               <p
-                className="text-xs font-semibold uppercase tracking-[0.2em] mb-6"
-                style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}
+                className="text-[12.5px] font-bold mb-6"
+                style={{ color: "#0a0a0a" }}
               >
                 Foundation items: what to start with
               </p>
@@ -329,18 +326,18 @@ export default function HomePilatesStudioSetupPage() {
                 ].map((item) => (
                   <div
                     key={item.name}
-                    className="rounded-xl p-5"
-                    style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}
+                    className="rounded-2xl p-5"
+                    style={{ backgroundColor: "#ede9e3" }}
                   >
                     <p
-                      className="text-sm font-semibold mb-1.5"
-                      style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}
+                      className="text-sm mb-1.5 r-hx"
+                      style={{ color: "#0a0a0a" }}
                     >
                       {item.name}
                     </p>
                     <p
-                      className="text-sm leading-relaxed"
-                      style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
+                      className="text-base leading-relaxed"
+                      style={{ color: "#3a3530" }}
                     >
                       {item.desc}
                     </p>
@@ -352,20 +349,19 @@ export default function HomePilatesStudioSetupPage() {
             {/* Section B: Space requirements */}
             <div className="mb-16">
               <h2
-                className="text-3xl font-semibold mb-6"
-                style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}
+                className="mb-6 r-d r-h2"
               >
                 Space requirements: the honest numbers
               </h2>
               <p
                 className="text-base leading-relaxed mb-3"
-                style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
+                style={{ color: "#3a3530" }}
               >
                 Reformer dimensions are widely underestimated. The carriage extends the reformer to its full 244cm length during footwork and long stretch sequences: the working space requirement is significantly larger than the equipment footprint alone. Safe entry and exit require 90cm of clearance on all sides. The ceiling height requirement (230cm minimum) eliminates some converted attic and basement spaces.
               </p>
               <p
                 className="text-base leading-relaxed mb-8"
-                style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
+                style={{ color: "#3a3530" }}
               >
                 Below are the precise space requirements for each configuration. These are minimums: the numbers where the setup is functional, not where it is comfortable. Add buffer where possible.
               </p>
@@ -382,26 +378,23 @@ export default function HomePilatesStudioSetupPage() {
                   <div
                     key={row.scenario}
                     className="px-6 py-5"
-                    style={{
-                      borderTop: i === 0 ? "none" : "1px solid rgba(217,194,186,0.25)",
-                      backgroundColor: "#ffffff",
-                    }}
+                    style={{ borderTop: i === 0 ? "none" : "1px solid #ddd6cc", backgroundColor: "#ffffff" }}
                   >
                     <p
-                      className="text-sm font-semibold mb-1"
-                      style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}
+                      className="text-base font-semibold mb-1"
+                      style={{ color: "#0a0a0a" }}
                     >
                       {row.scenario}
                     </p>
                     <p
-                      className="text-sm font-semibold mb-1.5"
-                      style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}
+                      className="text-base font-semibold mb-1.5"
+                      style={{ color: "#0a0a0a" }}
                     >
                       {row.space}
                     </p>
                     <p
                       className="text-xs leading-relaxed"
-                      style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}
+                      style={{ color: "#6f6964" }}
                     >
                       {row.note}
                     </p>
@@ -410,18 +403,18 @@ export default function HomePilatesStudioSetupPage() {
               </div>
 
               <div
-                className="mt-6 rounded-xl px-6 py-5"
-                style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.3)" }}
+                className="mt-6 rounded-2xl px-6 py-5"
+                style={{ backgroundColor: "#ede9e3" }}
               >
                 <p
-                  className="text-sm font-semibold mb-1.5"
-                  style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}
+                  className="text-sm mb-1.5 r-hx"
+                  style={{ color: "#0a0a0a" }}
                 >
                   Ceiling height note
                 </p>
                 <p
-                  className="text-sm leading-relaxed"
-                  style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
+                  className="text-base leading-relaxed"
+                  style={{ color: "#3a3530" }}
                 >
                   The minimum ceiling height for all reformer exercises is 230cm: specifically for standing exercises performed on the reformer platform. Most standard residential ceilings (240–260cm) meet this requirement. Spaces with ceilings below 230cm should be limited to lying and seated reformer work only.
                 </p>
@@ -431,14 +424,13 @@ export default function HomePilatesStudioSetupPage() {
             {/* Section C: Equipment acquisition order */}
             <div className="mb-16">
               <h2
-                className="text-3xl font-semibold mb-3"
-                style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}
+                className="mb-3 r-d r-h2"
               >
                 Equipment acquisition order: 8 stages
               </h2>
               <p
                 className="text-base leading-relaxed mb-8"
-                style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
+                style={{ color: "#3a3530" }}
               >
                 The order below reflects the professional consensus on how a home Pilates setup should be built. Each stage is predicated on having genuine competence with the previous stage. Moving ahead of this sequence is how expensive equipment sits unused and how injuries occur.
               </p>
@@ -447,44 +439,44 @@ export default function HomePilatesStudioSetupPage() {
                 {EQUIPMENT_STAGES.map((stage) => (
                   <div
                     key={stage.stage}
-                    className="rounded-xl overflow-hidden"
-                    style={{ border: "1px solid rgba(217,194,186,0.35)" }}
+                    className="rounded-2xl overflow-hidden"
+                    style={{ border: "1px solid #ddd6cc" }}
                   >
                     <div
                       className="flex items-center gap-4 px-6 py-4"
-                      style={{ backgroundColor: "#f6f3f2", borderBottom: "1px solid rgba(217,194,186,0.3)" }}
+                      style={{ backgroundColor: "#ede9e3", borderBottom: "1px solid #ddd6cc" }}
                     >
                       <span
-                        className="text-2xl font-semibold shrink-0"
-                        style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}
+                        className="text-2xl shrink-0 r-hx"
+                        style={{ color: "#9a9490" }}
                       >
                         {stage.stage}
                       </span>
                       <div className="flex-1 min-w-0">
                         <p
-                          className="text-base font-semibold"
-                          style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}
+                          className="text-base r-hx"
+                          style={{ color: "#0a0a0a" }}
                         >
                           {stage.item}
                         </p>
                       </div>
                       <span
                         className="text-sm font-semibold shrink-0"
-                        style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}
+                        style={{ color: "#0a0a0a" }}
                       >
                         {stage.cost}
                       </span>
                     </div>
                     <div className="px-6 py-4" style={{ backgroundColor: "#ffffff" }}>
                       <p
-                        className="text-xs font-semibold uppercase tracking-[0.12em] mb-2"
-                        style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}
+                        className="text-[12.5px] font-bold mb-2"
+                        style={{ color: "#6f6964" }}
                       >
                         What it unlocks
                       </p>
                       <p
-                        className="text-sm leading-relaxed"
-                        style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
+                        className="text-base leading-relaxed"
+                        style={{ color: "#3a3530" }}
                       >
                         {stage.unlocks}
                       </p>
@@ -497,14 +489,13 @@ export default function HomePilatesStudioSetupPage() {
             {/* Section D: Flooring, mirrors, and lighting */}
             <div className="mb-16">
               <h2
-                className="text-3xl font-semibold mb-6"
-                style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}
+                className="mb-6 r-d r-h2"
               >
                 Flooring, mirrors, and lighting
               </h2>
               <p
                 className="text-base leading-relaxed mb-8"
-                style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
+                style={{ color: "#3a3530" }}
               >
                 The environment a home studio creates has a direct effect on practice quality. Flooring affects reformer safety and mat cushioning. Lighting affects concentration during floor work. These are practical decisions, not aesthetic ones, and they are worth making deliberately.
               </p>
@@ -530,18 +521,18 @@ export default function HomePilatesStudioSetupPage() {
                 ].map((item) => (
                   <div
                     key={item.heading}
-                    className="rounded-xl p-6"
-                    style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}
+                    className="rounded-2xl p-6"
+                    style={{ backgroundColor: "#ede9e3" }}
                   >
                     <p
-                      className="text-base font-semibold mb-3"
-                      style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}
+                      className="text-base mb-3 r-hx"
+                      style={{ color: "#0a0a0a" }}
                     >
                       {item.heading}
                     </p>
                     <p
-                      className="text-sm leading-relaxed"
-                      style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
+                      className="text-base leading-relaxed"
+                      style={{ color: "#3a3530" }}
                     >
                       {item.content}
                     </p>
@@ -553,14 +544,13 @@ export default function HomePilatesStudioSetupPage() {
             {/* Section E: Budget scenarios */}
             <div className="mb-16">
               <h2
-                className="text-3xl font-semibold mb-3"
-                style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}
+                className="mb-3 r-d r-h2"
               >
                 Budget scenarios: what a home studio costs at each level
               </h2>
               <p
                 className="text-base leading-relaxed mb-8"
-                style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
+                style={{ color: "#3a3530" }}
               >
                 The four scenarios below represent natural stopping points in home studio development. Most practitioners settle at the first or third level. The fourth level is a studio, not a home setup, but it is achievable and worth understanding for those planning a full installation.
               </p>
@@ -569,30 +559,30 @@ export default function HomePilatesStudioSetupPage() {
                 {BUDGET_SCENARIOS.map((scenario) => (
                   <div
                     key={scenario.label}
-                    className="rounded-xl overflow-hidden"
-                    style={{ border: "1px solid rgba(217,194,186,0.35)" }}
+                    className="rounded-2xl overflow-hidden"
+                    style={{ border: "1px solid #ddd6cc" }}
                   >
                     <div
                       className="px-5 py-4"
-                      style={{ backgroundColor: "#1b1c1c" }}
+                      style={{ backgroundColor: "#0a0a0a" }}
                     >
                       <div className="flex items-baseline justify-between gap-2 mb-1">
                         <span
-                          className="text-xs font-semibold uppercase tracking-[0.2em]"
-                          style={{ color: "#d9c2ba", fontFamily: "'Montserrat', sans-serif" }}
+                          className="text-[12.5px] font-bold"
+                          style={{ color: "#9a9490" }}
                         >
                           {scenario.label}
                         </span>
                         <span
                           className="text-sm font-semibold"
-                          style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}
+                          style={{ color: "#0a0a0a" }}
                         >
                           {scenario.cost}
                         </span>
                       </div>
                       <p
-                        className="text-base font-semibold"
-                        style={{ color: "#fcf9f8", fontFamily: "'Playfair Display', serif" }}
+                        className="text-base r-hx"
+                        style={{ color: "#fcf9f8" }}
                       >
                         {scenario.title}
                       </p>
@@ -602,27 +592,27 @@ export default function HomePilatesStudioSetupPage() {
                         {scenario.items.map((item) => (
                           <li
                             key={item}
-                            className="flex gap-2 text-sm"
-                            style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
+                            className="flex gap-2 text-base"
+                            style={{ color: "#3a3530" }}
                           >
-                            <span style={{ color: "#8b4a31", flexShrink: 0 }}>•</span>
+                            <span style={{ color: "#0a0a0a", flexShrink: 0 }}>•</span>
                             {item}
                           </li>
                         ))}
                       </ul>
                       <div
                         className="rounded-lg px-4 py-3"
-                        style={{ backgroundColor: "#f6f3f2" }}
+                        style={{ backgroundColor: "#ede9e3" }}
                       >
                         <p
-                          className="text-xs font-semibold uppercase tracking-[0.12em] mb-1"
-                          style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}
+                          className="text-[12.5px] font-bold mb-1"
+                          style={{ color: "#6f6964" }}
                         >
                           Covers
                         </p>
                         <p
                           className="text-xs leading-relaxed"
-                          style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
+                          style={{ color: "#3a3530" }}
                         >
                           {scenario.covers}
                         </p>
@@ -636,8 +626,7 @@ export default function HomePilatesStudioSetupPage() {
             {/* Section F: FAQ */}
             <div className="mb-16">
               <h2
-                className="text-3xl font-semibold mb-8"
-                style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}
+                className="mb-8 r-d r-h2"
               >
                 Frequently asked questions
               </h2>
@@ -645,18 +634,18 @@ export default function HomePilatesStudioSetupPage() {
                 {FAQS.map((item) => (
                   <div
                     key={item.q}
-                    className="rounded-xl p-6"
-                    style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}
+                    className="rounded-2xl p-6"
+                    style={{ backgroundColor: "#ede9e3" }}
                   >
                     <p
-                      className="text-base font-semibold mb-2"
-                      style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}
+                      className="text-base mb-2 r-hx"
+                      style={{ color: "#0a0a0a" }}
                     >
                       {item.q}
                     </p>
                     <p
-                      className="text-sm leading-relaxed"
-                      style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}
+                      className="text-base leading-relaxed"
+                      style={{ color: "#3a3530" }}
                     >
                       {item.a}
                     </p>
@@ -668,8 +657,7 @@ export default function HomePilatesStudioSetupPage() {
             {/* Section G: Further reading */}
             <div>
               <h2
-                className="text-2xl font-semibold mb-2"
-                style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}
+                className="mb-2 r-d r-h2"
               >
                 Further reading
               </h2>
@@ -707,72 +695,72 @@ export default function HomePilatesStudioSetupPage() {
         />
 
         {/* Gear Section */}
-        <section style={{ backgroundColor: "#fcf9f8", padding: "60px 24px" }}>
+        <section style={{ padding: "60px 24px" }}>
           <div style={{ maxWidth: "900px", margin: "0 auto" }}>
-            <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "11px", fontWeight: 600, letterSpacing: "0.18em", textTransform: "uppercase", color: "#8b4a31", marginBottom: "12px" }}>Equipment</p>
-            <h2 style={{ fontFamily: "'Playfair Display', serif", fontSize: "28px", fontWeight: 600, color: "#1b1c1c", marginBottom: "8px" }}>Everything you need to build your home studio</h2>
-            <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "14px", color: "#53433e", marginBottom: "32px", lineHeight: 1.7 }}>
+            <p style={{ fontSize: "12.5px", fontWeight: 600, color: "#0a0a0a", marginBottom: "12px" }}>Equipment</p>
+            <h2 className="r-d r-h2" style={{ marginBottom: "8px" }}>Everything you need to build your home studio</h2>
+            <p style={{ fontSize: "16px", color: "#3a3530", marginBottom: "32px", lineHeight: 1.55 }}>
               The core equipment list for a functional home Pilates space, from essential to aspirational.
             </p>
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))", gap: "16px" }}>
               
                 <a href="https://www.amazon.com/dp/B01FMODVAE?tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" style={{ textDecoration: "none" }}>
-                  <div style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)", borderRadius: "12px", padding: "20px", height: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
+                  <div style={{ backgroundColor: "#ede9e3", borderRadius: "12px", padding: "20px", height: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
                     <div>
-                      <h3 style={{ fontFamily: "'Playfair Display', serif", fontSize: "15px", fontWeight: 600, color: "#1b1c1c", marginBottom: "8px" }}>Budget Reformer: AeroPilates 287</h3>
-                      <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", color: "#53433e", lineHeight: 1.6, marginBottom: "12px" }}>Elastic cord resistance (not springs) rather than a studio-grade machine, but a genuine entry point into reformer movement patterns without the studio price.</p>
+                      <h3 className="r-hx" style={{ fontSize: "15px", color: "#0a0a0a", marginBottom: "8px" }}>Budget Reformer: AeroPilates 287</h3>
+                      <p style={{ fontSize: "15px", color: "#3a3530", lineHeight: 1.6, marginBottom: "12px" }}>Elastic cord resistance (not springs) rather than a studio-grade machine, but a genuine entry point into reformer movement patterns without the studio price.</p>
                     </div>
                     <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                      <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", fontWeight: 600, color: "#8b4a31" }}>$359.00</span>
-                      <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "11px", fontWeight: 600, letterSpacing: "0.12em", textTransform: "uppercase", color: "#c5a882" }}>Shop →</span>
+                      <span style={{ fontSize: "15px", fontWeight: 600, color: "#0a0a0a" }}>$359.00</span>
+                      <span style={{ fontSize: "12.5px", fontWeight: 600, color: "#c5a882" }}>Shop →</span>
                     </div>
                   </div>
                 </a>
                 <a href="https://www.amazon.com/dp/B004FGT0TM?tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" style={{ textDecoration: "none" }}>
-                  <div style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)", borderRadius: "12px", padding: "20px", height: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
+                  <div style={{ backgroundColor: "#ede9e3", borderRadius: "12px", padding: "20px", height: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
                     <div>
-                      <h3 style={{ fontFamily: "'Playfair Display', serif", fontSize: "15px", fontWeight: 600, color: "#1b1c1c", marginBottom: "8px" }}>Spring Reformer: Merrithew At Home SPX</h3>
-                      <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", color: "#53433e", lineHeight: 1.6, marginBottom: "12px" }}>A real, currently-sold spring-based reformer: Merrithew&apos;s five-spring system offers markedly better resistance feel and stability than a cord machine.</p>
+                      <h3 className="r-hx" style={{ fontSize: "15px", color: "#0a0a0a", marginBottom: "8px" }}>Spring Reformer: Merrithew At Home SPX</h3>
+                      <p style={{ fontSize: "15px", color: "#3a3530", lineHeight: 1.6, marginBottom: "12px" }}>A real, currently-sold spring-based reformer: Merrithew&apos;s five-spring system offers markedly better resistance feel and stability than a cord machine.</p>
                     </div>
                     <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                      <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", fontWeight: 600, color: "#8b4a31" }}>$3,349</span>
-                      <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "11px", fontWeight: 600, letterSpacing: "0.12em", textTransform: "uppercase", color: "#c5a882" }}>Shop →</span>
+                      <span style={{ fontSize: "15px", fontWeight: 600, color: "#0a0a0a" }}>$3,349</span>
+                      <span style={{ fontSize: "12.5px", fontWeight: 600, color: "#c5a882" }}>Shop →</span>
                     </div>
                   </div>
                 </a>
                 <a href="https://www.amazon.com/dp/B09WF4GPPC?tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" style={{ textDecoration: "none" }}>
-                  <div style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)", borderRadius: "12px", padding: "20px", height: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
+                  <div style={{ backgroundColor: "#ede9e3", borderRadius: "12px", padding: "20px", height: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
                     <div>
-                      <h3 style={{ fontFamily: "'Playfair Display', serif", fontSize: "15px", fontWeight: 600, color: "#1b1c1c", marginBottom: "8px" }}>Mat (6mm)</h3>
-                      <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", color: "#53433e", lineHeight: 1.6, marginBottom: "12px" }}>A Gaiam Premium 6mm mat: marketed as a yoga mat, but a firm, non-slip 6mm mat works well for daily Pilates practice.</p>
+                      <h3 className="r-hx" style={{ fontSize: "15px", color: "#0a0a0a", marginBottom: "8px" }}>Mat (6mm)</h3>
+                      <p style={{ fontSize: "15px", color: "#3a3530", lineHeight: 1.6, marginBottom: "12px" }}>A Gaiam Premium 6mm mat: marketed as a yoga mat, but a firm, non-slip 6mm mat works well for daily Pilates practice.</p>
                     </div>
                     <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                      <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", fontWeight: 600, color: "#8b4a31" }}>$39.99</span>
-                      <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "11px", fontWeight: 600, letterSpacing: "0.12em", textTransform: "uppercase", color: "#c5a882" }}>Shop →</span>
+                      <span style={{ fontSize: "15px", fontWeight: 600, color: "#0a0a0a" }}>$39.99</span>
+                      <span style={{ fontSize: "12.5px", fontWeight: 600, color: "#c5a882" }}>Shop →</span>
                     </div>
                   </div>
                 </a>
                 <a href="https://www.amazon.com/dp/B0GSJHPSQT?tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" style={{ textDecoration: "none" }}>
-                  <div style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)", borderRadius: "12px", padding: "20px", height: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
+                  <div style={{ backgroundColor: "#ede9e3", borderRadius: "12px", padding: "20px", height: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
                     <div>
-                      <h3 style={{ fontFamily: "'Playfair Display', serif", fontSize: "15px", fontWeight: 600, color: "#1b1c1c", marginBottom: "8px" }}>Ring, Ball &amp; Bands Kit</h3>
-                      <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", color: "#53433e", lineHeight: 1.6, marginBottom: "12px" }}>We could not verify a standalone magic circle as a specific live Amazon listing. This Byrex prop kit bundles a ring, ball, and bands: versatile props that add resistance to dozens of mat exercises.</p>
+                      <h3 className="r-hx" style={{ fontSize: "15px", color: "#0a0a0a", marginBottom: "8px" }}>Ring, Ball &amp; Bands Kit</h3>
+                      <p style={{ fontSize: "15px", color: "#3a3530", lineHeight: 1.6, marginBottom: "12px" }}>We could not verify a standalone magic circle as a specific live Amazon listing. This Byrex prop kit bundles a ring, ball, and bands: versatile props that add resistance to dozens of mat exercises.</p>
                     </div>
                     <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                      <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", fontWeight: 600, color: "#8b4a31" }}>$19.99</span>
-                      <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "11px", fontWeight: 600, letterSpacing: "0.12em", textTransform: "uppercase", color: "#c5a882" }}>Shop →</span>
+                      <span style={{ fontSize: "15px", fontWeight: 600, color: "#0a0a0a" }}>$19.99</span>
+                      <span style={{ fontSize: "12.5px", fontWeight: 600, color: "#c5a882" }}>Shop →</span>
                     </div>
                   </div>
                 </a>
                 <a href="https://www.amazon.com/dp/B006GUC9KC?tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" style={{ textDecoration: "none" }}>
-                  <div style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)", borderRadius: "12px", padding: "20px", height: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
+                  <div style={{ backgroundColor: "#ede9e3", borderRadius: "12px", padding: "20px", height: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
                     <div>
-                      <h3 style={{ fontFamily: "'Playfair Display', serif", fontSize: "15px", fontWeight: 600, color: "#1b1c1c", marginBottom: "8px" }}>Foam Roller</h3>
-                      <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", color: "#53433e", lineHeight: 1.6, marginBottom: "12px" }}>TriggerPoint GRID 2.0: a real, durable foam roller (roller only) for spinal mobility, fascial release, and warm-up before class.</p>
+                      <h3 className="r-hx" style={{ fontSize: "15px", color: "#0a0a0a", marginBottom: "8px" }}>Foam Roller</h3>
+                      <p style={{ fontSize: "15px", color: "#3a3530", lineHeight: 1.6, marginBottom: "12px" }}>TriggerPoint GRID 2.0: a real, durable foam roller (roller only) for spinal mobility, fascial release, and warm-up before class.</p>
                     </div>
                     <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                      <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", fontWeight: 600, color: "#8b4a31" }}>$74.99</span>
-                      <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "11px", fontWeight: 600, letterSpacing: "0.12em", textTransform: "uppercase", color: "#c5a882" }}>Shop →</span>
+                      <span style={{ fontSize: "15px", fontWeight: 600, color: "#0a0a0a" }}>$74.99</span>
+                      <span style={{ fontSize: "12.5px", fontWeight: 600, color: "#c5a882" }}>Shop →</span>
                     </div>
                   </div>
                 </a>

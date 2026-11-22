@@ -159,20 +159,20 @@ export default function BestPilatesCadillaPage() {
       <Header />
       <main>
         {/* Hero section */}
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Cadillac</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Equipment Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Cadillac</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best Pilates Cadillac &amp; Trapeze Table (2026):<br /><span style={{ color: "#8b4a31" }}>The Complete Apparatus Guide</span>
+            <h1 className="mb-6 r-d r-h1">
+              Best Pilates Cadillac &amp; Trapeze Table (2026):<br /><span style={{ color: "#a98a5f" }}>The Complete Apparatus Guide</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 10 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 10 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               The Pilates Cadillac, also called the Trapeze Table, is the most comprehensive single piece of apparatus in the classical Pilates system, and the one most people have never used. It combines the spring resistance of a reformer with hanging, suspension, and vertical spring work that no other apparatus can replicate. This guide explains what the Cadillac does, who genuinely needs one, and which real options exist at every budget: honestly: Balanced Body&apos;s Trapeze Table/Cadillac is the professional, certification-recognized standalone apparatus, verified as a real, live Amazon listing. Below it sit three genuine, currently-sold budget reformer/Cadillac/tower combo units from LeisureKing, Gndigufa and PAETA, 2-in-1 home machines, not standalone Cadillacs, but a real way to add trapeze and tower work without two separate large purchases. Merrithew, Align-Pilates and Gratz build genuine Cadillac apparatus too, but it&apos;s dealer-direct only, so we&apos;ve linked to the manufacturers rather than a fabricated Amazon offer.
             </p>
           </div>
@@ -181,8 +181,8 @@ export default function BestPilatesCadillaPage() {
         {/* Hero image */}
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" alt="Pilates Cadillac and Trapeze Table: the complete apparatus guide" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" alt="Pilates Cadillac and Trapeze Table: the complete apparatus guide" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -196,21 +196,21 @@ export default function BestPilatesCadillaPage() {
             {/* What is the Pilates Cadillac */}
 
             <div className="mb-16 mt-4">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What is the Pilates Cadillac and what does it do?</h2>
-              <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">What is the Pilates Cadillac and what does it do?</h2>
+              <p className="text-base leading-relaxed mb-6" style={{ color: "#3a3530" }}>
                 The Cadillac was designed by Joseph Pilates, and the name was a nickname given by his students: a reference to the luxury American car of the era, suggesting both its size and its status as the ultimate piece of apparatus. The machine is a full table with an overhead frame (approximately 210cm long, 70cm wide, and 200cm tall including the frame) carrying an array of springs, bars, and a trapeze. It is the largest single piece of Pilates apparatus. Exercises are performed in every orientation: lying, sitting, kneeling, standing, and hanging directly from the frame.
               </p>
-              <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed mb-6" style={{ color: "#3a3530" }}>
                 What sets the Cadillac apart from every other piece of apparatus is the trapeze bar and the overhead spring system. The trapeze bar and hanging springs allow suspension exercises that develop traction, spinal decompression, and extraordinary shoulder girdle strength: exercises that are simply not possible on any other apparatus. The push-through bar, which can be loaded from above or below, creates unique resistance profiles for spine work that differ fundamentally from reformer spring loading. The full horizontal table surface provides a mat working space with spring attachments at both ends and sides, giving a single machine the range of a fully equipped studio.
               </p>
-              <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed mb-6" style={{ color: "#3a3530" }}>
                 The Cadillac is used in professional Pilates studios, physiotherapy-adjacent Pilates facilities, dance companies, rehabilitation clinics, and advanced private teaching. It is the reference apparatus for working instructors who teach from a fully equipped studio. Clinical Pilates practitioners treating complex spinal conditions use it for its traction and decompression capabilities. Advanced practitioners training under a classical teacher may work on the Cadillac regularly. It is not, however, a home purchase for most practitioners: the ceiling height requirement alone (minimum 230–240cm) rules out most domestic spaces, and a Reformer with Tower covers the majority of the Cadillac repertoire at a fraction of the cost.
               </p>
             </div>
 
             {/* Buying criteria cards */}
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-6" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Four Things to Consider Before Buying</p>
+              <p className="text-[12.5px] font-bold mb-6" style={{ color: "#0a0a0a" }}>Four Things to Consider Before Buying</p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[
                   {
@@ -230,32 +230,15 @@ export default function BestPilatesCadillaPage() {
                     body: "The professional-tier price we verified is the Balanced Body Trapeze Table/Cadillac on Amazon, at $5,030. Real budget alternatives exist too: reformer/Cadillac/tower combo units from LeisureKing, Gndigufa and PAETA run roughly $899–$1,995 on Amazon, a different product category (2-in-1 home units, not standalone Cadillacs), but genuinely functional. Merrithew, Align-Pilates and Gratz quote on request rather than publishing a fixed price. Factor in delivery and installation either way: a Cadillac is not self-assembled.",
                   },
                 ].map((item) => (
-                  <div key={item.heading} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.heading}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
+                  <div key={item.heading} className="rounded-2xl p-5" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-sm mb-1.5 r-hx" style={{ color: "#0a0a0a" }}>{item.heading}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.body}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             {/* Quick-picks table */}
-            <div className="mb-10 r-qp r-glance">
-              <div className="r-qp-hd">
-                <p className="r-qp-title">{PRODUCTS.length} Cadillac Options &amp; Alternatives · Fact-Checked</p>
-              </div>
-              {PRODUCTS.map((p, i) => (
-                <div key={p.name} className="r-qp-row">
-                  <span className="r-qp-no">{p.rank}</span>
-                  <div className="r-qp-tx">
-                    <p className="r-qp-name">{p.name}</p>
-                    <p className="r-qp-sub">{p.verdict}</p>
-                  </div>
-                  <span className="r-qp-price hidden md:block">{p.price}</span>
-                  <a className="r-btn r-btn-sm shrink-0" href={p.affiliateUrl} target="_blank" rel={/amazon\./i.test(p.affiliateUrl) ? "noopener noreferrer nofollow sponsored" : "noopener noreferrer nofollow"}
-                  >Buy →</a>
-                </div>
-              ))}
-            </div>
 
             {/* ProductCards */}
             <div className="mb-16">
@@ -263,8 +246,8 @@ export default function BestPilatesCadillaPage() {
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
                     <div className="flex items-center gap-3 mb-4">
-                      <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                      <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tag}</span>
+                      <span className="text-2xl r-hx" style={{ color: "#9a9490" }}>{p.rank}</span>
+                      <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{p.tag}</span>
                     </div>
                     <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                   </div>
@@ -273,9 +256,9 @@ export default function BestPilatesCadillaPage() {
             </div>
 
             {/* Cadillac vs Reformer + Tower editorial section */}
-            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Cadillac vs Reformer + Tower: the honest comparison</h2>
-              <p className="text-sm leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#ede9e3" }}>
+              <h2 className="mb-4 r-d r-h2">Cadillac vs Reformer + Tower: the honest comparison</h2>
+              <p className="text-base leading-relaxed mb-6" style={{ color: "#3a3530" }}>
                 The most common question when considering a Cadillac is whether a Reformer with Tower achieves the same outcome. It does not, but it comes closer than most people expect.
               </p>
               <div className="space-y-4">
@@ -298,8 +281,8 @@ export default function BestPilatesCadillaPage() {
                   },
                 ].map((item) => (
                   <div key={item.heading}>
-                    <p className="text-sm font-semibold mb-1" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.heading}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
+                    <p className="text-sm mb-1 r-hx" style={{ color: "#0a0a0a" }}>{item.heading}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.body}</p>
                   </div>
                 ))}
               </div>
@@ -307,7 +290,7 @@ export default function BestPilatesCadillaPage() {
 
             {/* FAQ */}
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   {
@@ -331,9 +314,9 @@ export default function BestPilatesCadillaPage() {
                     a: "A standalone Cadillac, like Balanced Body's Trapeze Table, is a dedicated, professional, certification-recognized apparatus used on its own. A reformer/Cadillac combo unit (the LeisureKing, Gndigufa and PAETA products in this guide) is a single home-use frame that converts between a reformer and a smaller Cadillac/tower setup. They're genuinely useful for home practitioners who want tower work without owning two large machines, but they're a different product category, not an equivalent budget version of the standalone table.",
                   },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
@@ -341,7 +324,7 @@ export default function BestPilatesCadillaPage() {
 
             {/* Further reading */}
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard
                   title="Pilates Reformer with Tower (2026)"

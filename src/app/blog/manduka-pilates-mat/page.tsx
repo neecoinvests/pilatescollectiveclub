@@ -132,20 +132,20 @@ export default function MandukaMatPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Brand Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Manduka</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Brand Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Manduka</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Manduka Pilates Mat (2026):<br /><span style={{ color: "#8b4a31" }}>PRO, eKO, and PRO Lite Compared</span>
+            <h1 className="mb-6 r-d r-h1">
+              Manduka Pilates Mat (2026):<br /><span style={{ color: "#a98a5f" }}>PRO, eKO, and PRO Lite Compared</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 9 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 9 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               Founded in 1997, Manduka has spent nearly three decades making the case that a mat is a long-term investment rather than a commodity purchase. The PRO mat, their flagship, remains the reference point for serious practitioners worldwide. But navigating the range requires clarity: the PRO, eKO, PRO Lite, and Superlite serve genuinely different needs, and choosing the wrong one means either overspending on weight you don&apos;t need, or undershooting on the density that makes Pilates mat work effective. This guide clarifies the decision.
             </p>
           </div>
@@ -153,8 +153,8 @@ export default function MandukaMatPage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/dane-wetton-t1NEMSm1rgI-unsplash.jpg" alt="Manduka PRO Pilates mat: dense, stable surface for rolling exercises and spinal articulation work" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/dane-wetton-t1NEMSm1rgI-unsplash.jpg" alt="Manduka PRO Pilates mat: dense, stable surface for rolling exercises and spinal articulation work" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -166,11 +166,11 @@ export default function MandukaMatPage() {
             <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-16 mt-4">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Why mat density matters for Pilates</h2>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">Why mat density matters for Pilates</h2>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 Yoga mat culture has normalized the idea that more cushioning is always better. For Pilates this is wrong. The method involves a significant amount of spinal articulation: rolling through each vertebra individually, lying over the mat with precise positional awareness, and performing exercises like the Hundred and Roll-Up that require the practitioner to sense the floor clearly through the mat surface. Too much cushioning muffles this feedback. The Manduka PRO&apos;s 6mm is the sweet spot: protective enough for bone contact, firm enough for clear proprioceptive feedback.
               </p>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 The closed-cell surface of the PRO also matters in a way that is unique to Pilates. Because Pilates involves significant lying work (spine, back of head, sacrum against the mat) the surface you&apos;re in contact with matters hygienically in a way it simply does not for standing yoga practice. The PRO&apos;s closed-cell top layer prevents sweat absorption, keeps bacteria on the surface where it can be wiped clean, and maintains the structural integrity of the mat over years of use.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-6">
@@ -179,17 +179,17 @@ export default function MandukaMatPage() {
                   { heading: "Manduka eKO (5mm)", body: "Best for grip and natural materials. Natural rubber, eco-certified, slightly more surface traction than the PRO." },
                   { heading: "Manduka PRO Lite (4.7mm)", body: "Best for studio commuters. Same PRO surface, lighter weight, fits any studio bag. Minor cushioning compromise." },
                 ].map((item) => (
-                  <div key={item.heading} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.heading}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
+                  <div key={item.heading} className="rounded-2xl p-5" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-sm mb-1.5 r-hx" style={{ color: "#0a0a0a" }}>{item.heading}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.body}</p>
                   </div>
                 ))}
               </div>
             </div>
 
 
-            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
-              <h2 className="text-2xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Which Manduka is right for you?</h2>
+            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#ede9e3" }}>
+              <h2 className="mb-6 r-d r-h2">Which Manduka is right for you?</h2>
               <div className="space-y-4">
                 {[
                   { scenario: "Dedicated home practice, 3+ sessions per week", rec: "Manduka PRO (6mm). The weight is irrelevant when it stays at home. The density, lifetime guarantee, and closed-cell surface are worth every dollar." },
@@ -198,10 +198,10 @@ export default function MandukaMatPage() {
                   { scenario: "Frequent traveler who uses studio equipment", rec: "Manduka eKO Superlite (1.5mm). Folds to a fraction of the size, layers over studio mats or reformer pads, and provides hygiene separation from shared surfaces." },
                 ].map((item) => (
                   <div key={item.scenario} className="flex gap-4">
-                    <span className="text-sm font-semibold mt-0.5 shrink-0" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>→</span>
+                    <span className="text-sm font-semibold mt-0.5 shrink-0" style={{ color: "#0a0a0a" }}>→</span>
                     <div>
-                      <p className="text-sm font-semibold mb-1" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{item.scenario}</p>
-                      <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.rec}</p>
+                      <p className="text-base font-semibold mb-1" style={{ color: "#0a0a0a" }}>{item.scenario}</p>
+                      <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.rec}</p>
                     </div>
                   </div>
                 ))}
@@ -209,13 +209,13 @@ export default function MandukaMatPage() {
             </div>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Manduka Products · Pilates-Reviewed</p>
+              <p className="text-[12.5px] font-bold mb-10" style={{ color: "#0a0a0a" }}>5 Manduka Products · Pilates-Reviewed</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
                     <div className="flex items-center gap-3 mb-4">
-                      <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                      <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.verdict}</span>
+                      <span className="text-2xl r-hx" style={{ color: "#9a9490" }}>{p.rank}</span>
+                      <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{p.verdict}</span>
                     </div>
                     <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                   </div>
@@ -223,8 +223,8 @@ export default function MandukaMatPage() {
               </div>
             </div>
 
-            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Caring for your Manduka PRO mat</h2>
+            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#ede9e3" }}>
+              <h2 className="mb-4 r-d r-h2">Caring for your Manduka PRO mat</h2>
               <ul className="space-y-3">
                 {[
                   "Break-in the PRO surface with a sea salt scrub on first use: leave salt on the mat for 24 hours, then rinse. This is not optional if you want grip from session one.",
@@ -233,8 +233,8 @@ export default function MandukaMatPage() {
                   "Air dry after every session, never put the PRO in direct sunlight for extended periods. UV exposure yellows the surface and can affect dimensional stability over time.",
                   "The PRO will develop a slight surface sheen over time: this is normal and indicates break-in is complete. Grip will continue to improve through the first 6 months of regular use.",
                 ].map((tip, i) => (
-                  <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                    <span className="font-semibold shrink-0" style={{ color: "#8b4a31" }}>→</span>
+                  <li key={i} className="flex gap-3 text-base" style={{ color: "#3a3530" }}>
+                    <span className="font-semibold shrink-0" style={{ color: "#0a0a0a" }}>→</span>
                     {tip}
                   </li>
                 ))}
@@ -242,7 +242,7 @@ export default function MandukaMatPage() {
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   { q: "Manduka PRO vs eKO for Pilates, which is better?", a: "For Pilates specifically, the PRO is the stronger choice for most practitioners. Its closed-cell surface means it does not absorb sweat into the mat body, which keeps it hygienic and extends its life significantly. The 6mm density provides excellent spinal feedback during rolling exercises and articulation work. The eKO is the better choice if you prioritize natural materials and slightly more grip: the rubber surface holds slightly better if you run warm. Neither is wrong; the PRO is the more purpose-built tool for dedicated Pilates practice." },
@@ -250,16 +250,16 @@ export default function MandukaMatPage() {
                   { q: "Is Manduka worth the price for Pilates?", a: "The PRO mat is the clearest case for premium mat spending in the category. The lifetime guarantee eliminates the replacement cost cycle that affects cheaper mats, which typically degrade within 2-3 years of regular practice. The closed-cell surface, density, and dimensional stability are all superior to mats in the $30-60 range. For a practitioner with a consistent home practice, the PRO pays for itself against the cost of replacing a budget mat every two to three years." },
                   { q: "What size Manduka mat is best for Pilates?", a: "The standard Manduka PRO dimensions are 71 inches long by 24 inches wide. For most Pilates practitioners, the standard length is sufficient: classical Pilates mat work is designed for a mat of this length. Manduka offers a long version at 85 inches for practitioners over 6 feet, which provides meaningful additional room for the extended leg positions in the full classical repertoire. The standard width of 24 inches is appropriate for Pilates; a wider mat is unnecessary for the method." },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Pilates Mat (2026)" excerpt="Every major Pilates mat compared and ranked, from budget picks to the professional-grade options used in studios worldwide." href="/blog/best-pilates-mat" category="Equipment" readTime="10 min read" date="May 2026" imageUrl="/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Equipment for Home Practice" excerpt="The complete home studio guide: everything you need to replicate the studio experience without reformer-sized budgets." href="/blog/best-pilates-equipment-for-home-practice" category="Equipment" readTime="12 min read" date="May 2026" imageUrl="/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg" />

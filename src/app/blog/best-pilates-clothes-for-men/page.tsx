@@ -154,20 +154,20 @@ export default function BestPilatesClothesForMenPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Apparel</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Men</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Apparel</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Men</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best Pilates Clothes<br /><span style={{ color: "#8b4a31" }}>for Men (2026)</span>
+            <h1 className="mb-6 r-d r-h1">
+              Best Pilates Clothes<br /><span style={{ color: "#a98a5f" }}>for Men (2026)</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 9 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 9 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               Men show up to Pilates in basketball shorts and oversized T-shirts more often than not. It is a practical mistake: loose clothing prevents instructors from seeing your alignment, shifts and bunches on the reformer carriage, and turns a precision practice into a guessing game. This guide covers the seven best men&apos;s Pilates clothing options: what to wear, why it matters, and which specific pieces hold up in the studio.
             </p>
           </div>
@@ -175,8 +175,8 @@ export default function BestPilatesClothesForMenPage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "380px" }}>
-              <Image src="/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg" alt="Men's Pilates clothing: best shorts, tights and tops for studio practice" fill className="object-cover" style={{ filter: "brightness(0.82)" }} />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg" alt="Men's Pilates clothing: best shorts, tights and tops for studio practice" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -189,11 +189,11 @@ export default function BestPilatesClothesForMenPage() {
 
             {/* Why clothing matters for men */}
             <div>
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Why clothing matters in Pilates: specifically for men</h2>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">Why clothing matters in Pilates: specifically for men</h2>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 Pilates is a precision practice. Your instructor needs to see the relationship between your foot, knee, hip, and spine during footwork, the hundred, and long stretch: the whole kinetic chain from ankle to shoulder. Baggy shorts and loose tops make that impossible. You are paying for cueing and correction. Bad clothing wastes it.
               </p>
-              <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed mb-6" style={{ color: "#3a3530" }}>
                 There is also a practical dimension: loose fabric catches on reformer footbars, pools during rolldowns, and shifts during carriage movements. Close-fitting technical fabric stays in place. The seven pieces below solve both problems.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
@@ -202,9 +202,9 @@ export default function BestPilatesClothesForMenPage() {
                   { heading: "Tights: medium compression", body: "Prevents shifting on the carriage, shows full hip-to-foot alignment chain." },
                   { heading: "Tops: fitted, not tight", body: "Stays down through rolldowns and inversions, doesn't restrict shoulder movement." },
                 ].map((item) => (
-                  <div key={item.heading} className="rounded-xl p-4" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-sm font-semibold mb-1" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.heading}</p>
-                    <p className="text-xs leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
+                  <div key={item.heading} className="rounded-2xl p-4" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-sm mb-1 r-hx" style={{ color: "#0a0a0a" }}>{item.heading}</p>
+                    <p className="text-xs leading-relaxed" style={{ color: "#3a3530" }}>{item.body}</p>
                   </div>
                 ))}
               </div>
@@ -213,13 +213,13 @@ export default function BestPilatesClothesForMenPage() {
             {/* Products */}
 
             <div>
-              <h2 className="text-3xl font-semibold mb-10" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The 7 best men&apos;s Pilates clothing picks</h2>
+              <h2 className="mb-10 r-d r-h2">The 7 best men&apos;s Pilates clothing picks</h2>
               <div className="space-y-8">
                 {PRODUCTS.map((product) => (
                   <div key={product.rank}>
                     <div className="flex items-center gap-3 mb-4">
-                      <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "\'Playfair Display\', serif" }}>{String(product.rank).padStart(2, "0")}</span>
-                      <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "\'Montserrat\', sans-serif" }}>{product.verdict}</span>
+                      <span className="text-2xl r-hx" style={{ color: "#9a9490" }}>{String(product.rank).padStart(2, "0")}</span>
+                      <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{product.verdict}</span>
                     </div>
                     <ProductCard name={product.name} description={product.description} price={product.price} affiliateUrl={product.affiliateUrl} />
                   </div>
@@ -229,12 +229,12 @@ export default function BestPilatesClothesForMenPage() {
 
             {/* FAQ */}
             <div>
-              <h2 className="text-2xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Men&apos;s Pilates clothing: common questions</h2>
+              <h2 className="mb-6 r-d r-h2">Men&apos;s Pilates clothing: common questions</h2>
               <div className="space-y-4">
                 {FAQS.map((faq, i) => (
-                  <div key={i} className="rounded-xl p-5" style={{ backgroundColor: "#fcf9f8", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-sm font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{faq.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{faq.a}</p>
+                  <div key={i} className="rounded-2xl p-5" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-sm mb-2 r-hx" style={{ color: "#0a0a0a" }}>{faq.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{faq.a}</p>
                   </div>
                 ))}
               </div>
@@ -242,7 +242,7 @@ export default function BestPilatesClothesForMenPage() {
 
             {/* Further reading */}
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Pilates Equipment for Men" excerpt="Mats, grip socks, foam rollers, resistance bands and the best home reformer for men: all compared." href="/blog/best-pilates-equipment-for-men" category="Equipment" readTime="10 min read" date="May 2026" imageUrl="/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg" />
                 <ArticleCard title="What to Wear to Pilates" excerpt="The complete guide to Pilates clothing: covering women and men, mat and reformer classes." href="/blog/what-to-wear-to-pilates" category="Guide" readTime="6 min read" date="May 2026" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />

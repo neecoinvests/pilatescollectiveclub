@@ -85,20 +85,20 @@ export default function HowToBecomeAPilatesInstructorPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Teacher Training</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Teacher Training</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              How to Become a<br /><span style={{ color: "#8b4a31" }}>Pilates Instructor</span>
+            <h1 className="mb-6 r-d r-h1">
+              How to Become a<br /><span style={{ color: "#a98a5f" }}>Pilates Instructor</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 13 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 13 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               Pilates teaching is an unregulated profession with an expensive, rigorous, and entirely voluntary training culture. Nobody can stop you calling yourself a Pilates instructor tomorrow. Almost nobody will hire you or insure you if you do. That gap between the legal position and the professional one is the single most important thing to understand before spending five figures on a certification.
             </p>
           </div>
@@ -107,7 +107,7 @@ export default function HowToBecomeAPilatesInstructorPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/stitch-studio-modern-row.png" alt="A Pilates studio set up for teacher training, with reformers arranged for supervised practice teaching" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/stitch-studio-modern-row.png" alt="A Pilates studio set up for teacher training, with reformers arranged for supervised practice teaching" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -119,21 +119,21 @@ export default function HowToBecomeAPilatesInstructorPage() {
             <AffiliateNote />
 
             <div className="mb-14 mt-4">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Why the certification you choose matters so much</h2>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">Why the certification you choose matters so much</h2>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 In 2000 a US court ruled that &quot;Pilates&quot; is a generic term describing an exercise method rather than a protected trademark. The practical consequence is that no central body controls who may teach it, and a weekend course and a 600-hour comprehensive program can both issue something called a certificate.
               </p>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 The industry filled that vacuum itself. Studios hire on the reputation of the school you trained with, and a handful of established programs function as the de facto standard. Insurers take a similar view. So while the qualification is optional in law, choosing a school with a weak reputation is close to wasting the money entirely: you will have the certificate and still not be hireable at the studios you want to work in.
               </p>
-              <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>
                 A useful cross-check exists in the United States. The National Pilates Certification Program administers an independent, third-party exam that is not tied to any single school, and passing it earns a credential recognized across lineages. It is not required for most jobs, but it is the closest thing the profession has to a neutral standard, and holding it travels well if you move cities or countries.
               </p>
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Mat-only or comprehensive?</h2>
-              <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">Mat-only or comprehensive?</h2>
+              <p className="text-base leading-relaxed mb-6" style={{ color: "#3a3530" }}>
                 This is the first real decision and it determines cost, timeline and where you can work. There is no wrong answer, only a mismatch between the qualification and the job you want.
               </p>
               <div className="space-y-4">
@@ -143,16 +143,16 @@ export default function HowToBecomeAPilatesInstructorPage() {
                   { label: "Bridge or upgrade programs", body: "If you already hold a mat certification, most schools offer a bridge into their comprehensive program that credits your existing hours. This makes the mat-first route considerably less wasteful than it appears, and it is the path a good number of teachers take deliberately: earn while you train." },
                   { label: "Apparatus-specific and specialist modules", body: "Shorter add-ons in reformer-only teaching, pre- and postnatal, injury and rehabilitation, or a specific population like older adults. These are continuing-education courses rather than entry qualifications, but the pre- and postnatal and rehabilitation modules in particular tend to pay for themselves quickly through the client work they open up." },
                 ].map((item) => (
-                  <div key={item.label} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.label}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
+                  <div key={item.label} className="rounded-2xl p-5" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-sm mb-1.5 r-hx" style={{ color: "#0a0a0a" }}>{item.label}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.body}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The major schools and what distinguishes them</h2>
+              <h2 className="mb-6 r-d r-h2">The major schools and what distinguishes them</h2>
               <div className="space-y-4">
                 {[
                   { label: "Balanced Body", body: "The most widely available comprehensive program internationally, with a contemporary, anatomy-forward approach and a modular structure that suits people training around a job. Broad studio recognition and the easiest to find near you in most countries." },
@@ -161,16 +161,16 @@ export default function HowToBecomeAPilatesInstructorPage() {
                   { label: "Polestar Pilates", body: "Explicitly rehabilitation-oriented, founded by physiotherapists, and the usual choice for allied health professionals adding Pilates to clinical practice. Heavier on movement science than on the classical repertoire." },
                   { label: "Classical lineages (Romana's, Peak, The Pilates Center and others)", body: "Teach the original order and method with limited modification, tracing lineage back to Joseph Pilates directly. Training tends to be demanding and apprenticeship-heavy. Choose this route if the classical repertoire is what draws you, and be aware that classical and contemporary studios have distinctly different hiring preferences." },
                 ].map((item) => (
-                  <div key={item.label} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.label}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
+                  <div key={item.label} className="rounded-2xl p-5" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-sm mb-1.5 r-hx" style={{ color: "#0a0a0a" }}>{item.label}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.body}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What the training actually involves</h2>
+              <h2 className="mb-6 r-d r-h2">What the training actually involves</h2>
               <div className="space-y-4">
                 {[
                   {
@@ -198,16 +198,16 @@ export default function HowToBecomeAPilatesInstructorPage() {
                     body: "Professional liability insurance is inexpensive but essential, and most insurers require proof of certification. Most schools and the NPCP credential also require continuing education credits to stay current, so the training does not entirely end at qualification.",
                   },
                 ].map((item) => (
-                  <div key={item.title} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.title}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
+                  <div key={item.title} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.title}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.body}</p>
                   </div>
                 ))}
               </div>
             </div>
 
-            <div className="mb-14 rounded-2xl p-8" style={{ backgroundColor: "#fff4f1", border: "1px solid rgba(139,74,49,0.15)" }}>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Questions to ask before you pay a deposit</h2>
+            <div className="mb-14 rounded-2xl p-8" style={{ backgroundColor: "#fff4f1", border: "1px solid #ddd6cc" }}>
+              <h2 className="mb-4 r-d r-h2">Questions to ask before you pay a deposit</h2>
               <ul className="space-y-3">
                 {[
                   "Is studio access for self-practice and practice-teaching hours included, or charged separately? This is the most common hidden cost and can add substantially to the total.",
@@ -218,8 +218,8 @@ export default function HowToBecomeAPilatesInstructorPage() {
                   "Is there a job placement or mentoring pathway afterwards? Some schools feed directly into affiliated studios, which is worth real money in your first year.",
                   "Which equipment brand is the training delivered on? You will be most fluent on what you trained on, and studios run different systems.",
                 ].map((tip, i) => (
-                  <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                    <span className="font-semibold" style={{ color: "#8b4a31" }}>⚠</span>
+                  <li key={i} className="flex gap-3 text-base" style={{ color: "#3a3530" }}>
+                    <span className="font-semibold" style={{ color: "#0a0a0a" }}>⚠</span>
                     {tip}
                   </li>
                 ))}
@@ -227,20 +227,20 @@ export default function HowToBecomeAPilatesInstructorPage() {
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The career, honestly</h2>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">The career, honestly</h2>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 Most Pilates teachers are self-employed and assemble an income from several sources: group classes at two or three studios, private clients, and sometimes corporate or online work. Group rates commonly run $30 to $75 a class; privates pay considerably better, and building a private client base is the single clearest route to a sustainable income.
               </p>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 The economics have a hard ceiling worth understanding before you commit. You are paid for hours taught, and there is a physical limit to how many quality hours you can teach in a week: most experienced teachers put it around twenty to twenty-five before their own body and attention suffer. Growth past that point means raising your rate, teaching your own workshops, or opening a studio, all of which are different jobs from teaching.
               </p>
-              <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>
                 The first year is usually the hardest financially. Newly qualified teachers get the unpopular time slots, and building a client base takes eighteen months or so. Nearly everyone who lasts started by teaching whatever they were offered. If you can keep other income while you build, do.
               </p>
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   { q: "How long does it take to become a Pilates instructor?", a: "A mat-only certification typically takes two to four months and runs somewhere between 40 and 100 hours. A comprehensive certification covering mat plus reformer, cadillac, chair and barrels usually requires 450 to 600 hours and takes nine to eighteen months alongside other work. Those hours are not all classroom time: most programs split them between taught modules, self-practice, observation of experienced teachers, and supervised practice teaching, and the observation and practice-teaching hours are what stretch the calendar." },
@@ -248,9 +248,9 @@ export default function HowToBecomeAPilatesInstructorPage() {
                   { q: "Do you need a certification to teach Pilates?", a: "There is no legal license required to teach Pilates in most countries: the term itself is not trademark-protected, following a well-known US court ruling in 2000. In practice, certification is effectively mandatory: reputable studios will not hire uncertified teachers, and liability insurance is difficult or impossible to obtain without a recognized qualification. The absence of statutory regulation is precisely why the school you train with carries so much weight." },
                   { q: "How much do Pilates instructors earn?", a: "Group class rates commonly run $30 to $75 per class in most Western markets, with private sessions billed at $60 to $120 to the instructor after the studio takes its share. Full-time employed roles exist but are the minority; most teachers piece together income across several studios plus private clients, and privates are where the money actually is. A realistic full-time income sits somewhere between $35,000 and $70,000, with experienced teachers running their own client base or studio earning meaningfully more." },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
@@ -258,9 +258,9 @@ export default function HowToBecomeAPilatesInstructorPage() {
 
             {/* Equipment */}
 
-            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What to buy before you start</h2>
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid #ddd6cc" }}>
+              <p className="text-[12.5px] font-bold mb-2" style={{ color: "#0a0a0a" }}>Equipment</p>
+              <h2 className="mb-8 r-d r-h2">What to buy before you start</h2>
               <div className="space-y-8">
                 {PRODUCTS.map((p) => (
                   <ProductCard key={p.name} name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
@@ -269,7 +269,7 @@ export default function HowToBecomeAPilatesInstructorPage() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="How to Choose a Pilates Instructor" excerpt="What certifications actually mean when you are the one hiring a teacher." href="/blog/how-to-choose-a-pilates-instructor" category="Guide" readTime="9 min read" date="June 2026" imageUrl="/pictures/stitch-hands-on-carriage.png" />
                 <ArticleCard title="Classical vs Contemporary Pilates" excerpt="The two main lineages, what separates them, and which training route suits you." href="/blog/classical-vs-contemporary-pilates" category="Method" readTime="10 min read" date="June 2026" imageUrl="/pictures/stitch-reformer-sunlit-minimal.png" />

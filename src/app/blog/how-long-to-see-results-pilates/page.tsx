@@ -107,19 +107,13 @@ const TIMELINE = [
     ],
     note: "By 30 sessions at consistent frequency, the body has undergone genuine structural adaptation. This is what Pilates described as 'a whole new body'not rhetoric, but a reflection of how long connective tissue and postural muscle remodeling actually takes.",
   },
-  {
-    period: "3–6 Months and Beyond",
-    color: "#d9c2ba",
-    heading: "Lasting transformation",
-    changes: [
+  { period: "3–6 Months and Beyond", color: "#9a9490", heading: "Lasting transformation", changes: [
       "The practice becomes intuitive: Pilates movement principles appear in your everyday movement",
       "Injury resilience: the postural and hip stability work accumulates into meaningful injury risk reduction",
       "Continued body composition changes, particularly for those who were significantly sedentary before",
       "Access to the full Pilates repertoire: advanced exercises become achievable",
       "The mental benefits (reduced anxiety, improved body image, greater self-efficacy) compound over time",
-    ],
-    note: "Long-term Pilates practice is where the method's potential fully realizes. Practitioners with 6+ months of consistent practice typically describe it as a permanent shift in how they inhabit their bodies, not just an exercise habit.",
-  },
+    ], note: "Long-term Pilates practice is where the method's potential fully realizes. Practitioners with 6+ months of consistent practice typically describe it as a permanent shift in how they inhabit their bodies, not just an exercise habit." },
 ];
 
 const PRODUCTS = [
@@ -147,20 +141,20 @@ export default function HowLongToSeeResultsPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Beginners</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Beginners</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              How Long to See<br />Results from Pilates?<br /><span style={{ color: "#8b4a31" }}>The Honest Timeline</span>
+            <h1 className="mb-6 r-d r-h1">
+              How Long to See<br />Results from Pilates?<br /><span style={{ color: "#a98a5f" }}>The Honest Timeline</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 10 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 10 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note="The dense home mat for the between-class practice that speeds up results" url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               Joseph Pilates said: &ldquo;In ten sessions you will feel the difference, in twenty you will see the difference, and in thirty you will have a whole new body.&rdquo; Nearly a century later, this timeline holds up surprisingly well against the research, with some important qualifications. Here is what you should realistically expect, and when.
             </p>
           </div>
@@ -169,7 +163,7 @@ export default function HowLongToSeeResultsPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/stitch-teaser-pose-back.png" alt="Pilates results timeline: practitioner demonstrating the teaser pose showing core strength progression" fill className="object-cover" style={{ filter: "brightness(0.88)" }} />
+              <Image src="/pictures/stitch-teaser-pose-back.png" alt="Pilates results timeline: practitioner demonstrating the teaser pose showing core strength progression" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -185,8 +179,8 @@ export default function HowLongToSeeResultsPage() {
             <AffiliateNote />
 
             <div className="mb-14 mt-12">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The variables that determine your timeline</h2>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">The variables that determine your timeline</h2>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 The Pilates results timeline is not fixed: it varies significantly based on a handful of key factors. Understanding these helps you set realistic expectations and optimize your approach.
               </p>
               <div className="space-y-4">
@@ -197,40 +191,40 @@ export default function HowLongToSeeResultsPage() {
                   { label: "Instruction quality", body: "Group classes at a large studio with varying instructor quality produce slower results than consistent sessions with a skilled instructor who provides corrective feedback. If your form is poor, you will adapt poorly: the muscles will compensate in ways that mirror your existing imbalances rather than correct them." },
                   { label: "Nutrition", body: "Pilates builds lean muscle. Without adequate protein intake (typically 1.6–2.0g per kg of body weight per day for active adults), the muscle-building stimulus from Pilates does not fully realize as visible tonal change. This is frequently the reason people practice consistently for months without visible results." },
                 ].map((item) => (
-                  <div key={item.label} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.label}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
+                  <div key={item.label} className="rounded-2xl p-5" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-sm mb-1.5 r-hx" style={{ color: "#0a0a0a" }}>{item.label}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.body}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The realistic results timeline</h2>
+              <h2 className="mb-8 r-d r-h2">The realistic results timeline</h2>
               <div className="space-y-6">
                 {TIMELINE.map((phase) => (
-                  <div key={phase.period} className="rounded-2xl overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.35)" }}>
+                  <div key={phase.period} className="rounded-2xl overflow-hidden" style={{ border: "1px solid #ddd6cc" }}>
                     <div className="px-6 py-4" style={{ backgroundColor: phase.color }}>
-                      <p className="text-xs font-semibold uppercase tracking-widest mb-1" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{phase.period}</p>
-                      <p className="text-xl font-semibold" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{phase.heading}</p>
+                      <p className="text-[12.5px] font-bold mb-1" style={{ color: "#0a0a0a" }}>{phase.period}</p>
+                      <p className="text-xl r-hx" style={{ color: "#0a0a0a" }}>{phase.heading}</p>
                     </div>
                     <div className="px-6 py-5 bg-white">
                       <ul className="space-y-2 mb-4">
                         {phase.changes.map((c, i) => (
-                          <li key={i} className="flex gap-2 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                            <span style={{ color: "#8b4a31" }}>·</span> {c}
+                          <li key={i} className="flex gap-2 text-base" style={{ color: "#3a3530" }}>
+                            <span style={{ color: "#0a0a0a" }}>·</span> {c}
                           </li>
                         ))}
                       </ul>
-                      <p className="text-xs leading-relaxed italic" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{phase.note}</p>
+                      <p className="text-xs leading-relaxed italic" style={{ color: "#6f6964" }}>{phase.note}</p>
                     </div>
                   </div>
                 ))}
               </div>
             </div>
 
-            <div className="mb-14 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Maximizing your results: what the evidence recommends</h2>
+            <div className="mb-14 rounded-2xl p-8" style={{ backgroundColor: "#ede9e3" }}>
+              <h2 className="mb-4 r-d r-h2">Maximizing your results: what the evidence recommends</h2>
               <ul className="space-y-3">
                 {[
                   "Practice 3 times per week minimum: the evidence threshold for meaningful adaptation.",
@@ -240,8 +234,8 @@ export default function HowLongToSeeResultsPage() {
                   "Support the practice with adequate protein: the lean muscle stimulus from Pilates needs nutritional support to express as visible change.",
                   "Be patient with structural changes (body shape) but expect rapid neurological changes (how you feel): these happen on different timescales and should both be tracked.",
                 ].map((tip, i) => (
-                  <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                    <span className="font-semibold" style={{ color: "#8b4a31" }}>{i + 1}.</span>
+                  <li key={i} className="flex gap-3 text-base" style={{ color: "#3a3530" }}>
+                    <span className="font-semibold" style={{ color: "#0a0a0a" }}>{i + 1}.</span>
                     {tip}
                   </li>
                 ))}
@@ -249,7 +243,7 @@ export default function HowLongToSeeResultsPage() {
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   { q: "Can you see Pilates results in 30 days?", a: "Yes, if you practice consistently (3+ times per week for 30 days), you will notice meaningful results within a month. These are primarily neuromuscular: improved core activation, better posture, reduced back tension, and greater body awareness. Significant visible body composition changes take longer, typically 8–12 weeks of consistent practice." },
@@ -257,9 +251,9 @@ export default function HowLongToSeeResultsPage() {
                   { q: "Does reformer Pilates give faster results than mat?", a: "Reformer Pilates tends to produce faster visible results, particularly in terms of muscular strength and tone, because the spring resistance system provides progressive loading that is difficult to replicate with bodyweight alone. However, the difference is meaningful only at higher levels of practice, for beginners, mat and reformer produce comparable initial results. The best choice is the format you will practice consistently." },
                   { q: "Why am I not seeing results from Pilates?", a: "The most common reasons: insufficient frequency (once a week is unlikely to drive change), poor nutritional support for the muscle building Pilates promotes, practicing at too low an intensity level (staying comfortable rather than progressively challenging), and expecting visible body composition changes before the neuromuscular adaptation phase is complete (weeks 1–6). If you are practicing 3 times per week, eating well, and have been consistent for 8+ weeks without any noticeable change, consider working with a one-on-one instructor to assess your technique." },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
@@ -267,9 +261,9 @@ export default function HowLongToSeeResultsPage() {
 
 
             {/* Equipment */}
-            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Recommended kit</h2>
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid #ddd6cc" }}>
+              <p className="text-[12.5px] font-bold mb-2" style={{ color: "#0a0a0a" }}>Equipment</p>
+              <h2 className="mb-8 r-d r-h2">Recommended kit</h2>
               <div className="space-y-8">
                 {PRODUCTS.map((p) => (
                   <ProductCard key={p.name} name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
@@ -290,7 +284,7 @@ export default function HowLongToSeeResultsPage() {
             />
 
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Pilates for Weight Loss" excerpt="Does Pilates cause weight loss? The research, the mechanism, and realistic expectations." href="/blog/pilates-for-weight-loss" category="Health" readTime="9 min read" date="June 2026" imageUrl="/pictures/roxana-popovici-cZ0WYsBFHhs-unsplash.jpg" />
                 <ArticleCard title="How Often Should You Do Pilates?" excerpt="The research-backed frequency recommendations for beginners, regulars, and advanced practitioners." href="/blog/how-often-should-you-do-pilates" category="Guide" readTime="7 min read" date="June 2026" imageUrl="/pictures/stitch-reformer-morning-light.png" />

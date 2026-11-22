@@ -124,20 +124,20 @@ export default function PilatesReformerDimensionsPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Reformers</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Equipment</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Reformers</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Reformer Dimensions &amp;<br /><span style={{ color: "#8b4a31" }}>Space Requirements</span>
+            <h1 className="mb-6 r-d r-h1">
+              Reformer Dimensions &amp;<br /><span style={{ color: "#a98a5f" }}>Space Requirements</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated September 2026 · 11 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Updated September 2026 · 11 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               The frame dimensions are the easy part and they are not what decides whether a reformer works in your room. What decides it is the clearance at each end, the ceiling height if you ever want tower work, and whether the machine can physically get from your front door to the room. Those three are the ones people measure after ordering. Here is how to measure them before.
             </p>
           </div>
@@ -146,7 +146,7 @@ export default function PilatesReformerDimensionsPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/stitch-reformer-sunlit-minimal.png" alt="A Pilates reformer positioned along the wall of a minimal, sunlit room" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/stitch-reformer-sunlit-minimal.png" alt="A Pilates reformer positioned along the wall of a minimal, sunlit room" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -157,52 +157,52 @@ export default function PilatesReformerDimensionsPage() {
             <QuickPicks className="mb-6 mt-4" picks={PRODUCTS.map((pr, i) => ({ name: pr.name, price: pr.price, url: pr.affiliateUrl, note: QP_NOTES[i] }))} />
             <AffiliateNote />
 
-            <div className="mb-14 mt-4 rounded-2xl p-7" style={{ backgroundColor: "#fff4f1", border: "1px solid rgba(139,74,49,0.15)" }}>
-              <p className="text-xs font-semibold uppercase tracking-[0.15em] mb-3" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>The number you actually need</p>
-              <p className="text-base leading-relaxed mb-3" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+            <div className="mb-14 mt-4 rounded-2xl p-7" style={{ backgroundColor: "#fff4f1", border: "1px solid #ddd6cc" }}>
+              <p className="text-[12.5px] font-bold mb-3" style={{ color: "#0a0a0a" }}>The number you actually need</p>
+              <p className="text-base leading-relaxed mb-3" style={{ color: "#3a3530" }}>
                 Take the machine footprint, add two to three feet at each end, and add a working side of at least two feet if anyone will ever teach or spot you. For a standard reformer at roughly 90 by 26 inches, that lands at about 12 to 13 feet of length and 4 to 5 feet of width, or somewhere around 50 to 65 square feet.
               </p>
-              <p className="text-base leading-relaxed mb-0" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed mb-0" style={{ color: "#3a3530" }}>
                 The end clearance is not optional padding. Several exercises extend the body past the frame, the footbar end needs room for a teacher to stand, and you have to be able to get on and off safely. A compact machine shortens the frame; it does not shorten the clearance.
               </p>
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Footprints by machine class</h2>
-              <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">Footprints by machine class</h2>
+              <p className="text-base leading-relaxed mb-6" style={{ color: "#3a3530" }}>
                 Exact dimensions vary between models and between production runs, so treat these as the shape of each category and confirm the figures on the spec sheet for the specific machine you are buying. The class differences below are larger and more decisive than the variation within a class.
               </p>
               <div className="space-y-4">
                 {CLASSES.map((c) => (
-                  <div key={c.label} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
+                  <div key={c.label} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
                     <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1 mb-2">
-                      <p className="text-base font-semibold" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{c.label}</p>
-                      <p className="text-xs font-semibold" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif", whiteSpace: "nowrap" }}>{c.dims}</p>
+                      <p className="text-base r-hx" style={{ color: "#0a0a0a" }}>{c.label}</p>
+                      <p className="text-xs font-semibold" style={{ color: "#0a0a0a", whiteSpace: "nowrap" }}>{c.dims}</p>
                     </div>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{c.body}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{c.body}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Ceiling height, and why it is the irreversible one</h2>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">Ceiling height, and why it is the irreversible one</h2>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 For a reformer on its own, ceiling height is rarely a problem. The carriage sits low and the overwhelming majority of the repertoire happens lying, seated or kneeling, so a standard eight-foot ceiling is fine.
               </p>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 It becomes the binding constraint in two situations. The first is standing work: the carriage platform is already raised off the floor, so a standing practitioner begins roughly a foot higher than they would on the ground, and arms overhead from there eat a surprising amount of room. The second is any tower, half-trapeze or cadillac attachment, where the vertical frame extends well above the carriage and the springs need travel above that.
               </p>
-              <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>
                 The reason to settle this first is that it is the only dimension you cannot work around after the fact. A room that is a foot too short can take a compact machine. A room with a low ceiling permanently removes the tower repertoire from what you can do there, and no purchase decision later recovers it. Measure the real height, in the spot the machine will stand, and check it against the assembled height of the specific model. If you are fitting out a studio, our{" "}
-                <Link href="/blog/how-to-open-a-pilates-studio" style={{ color: "#8b4a31", textDecoration: "underline" }}>guide to opening a studio</Link>{" "}
+                <Link href="/blog/how-to-open-a-pilates-studio" style={{ color: "#0a0a0a", textDecoration: "underline" }}>guide to opening a studio</Link>{" "}
                 treats this as a pre-lease question for exactly this reason.
               </p>
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Getting it into the room</h2>
-              <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">Getting it into the room</h2>
+              <p className="text-base leading-relaxed mb-6" style={{ color: "#3a3530" }}>
                 This is where deliveries fail, and it is almost never the doorway width. A studio reformer arrives substantially assembled: long, rigid and unable to bend around a corner. Measure all of the following, write them down, and give them to the supplier before you order.
               </p>
               <div className="space-y-4">
@@ -213,31 +213,31 @@ export default function PilatesReformerDimensionsPage() {
                   { label: "Whether delivery includes getting it into the room", body: "Confirm in writing. Kerbside delivery of a reformer leaves you with a very heavy object on the pavement and no obvious next step. For a studio order, ask whether assembly and calibration are included and who performs them." },
                   { label: "Whether a flat-packed model solves it", body: "Home and compact reformers frequently ship flat-packed and assemble in the room, which removes this whole category of problem. In an upper-floor apartment with tight turns, that is a legitimate reason to choose the class of machine, quite separately from price." },
                 ].map((item) => (
-                  <div key={item.label} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.label}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
+                  <div key={item.label} className="rounded-2xl p-5" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-sm mb-1.5 r-hx" style={{ color: "#0a0a0a" }}>{item.label}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.body}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>If the room is genuinely too small</h2>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">If the room is genuinely too small</h2>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 Two honest options, and one thing not to do. The first option is a folding machine: operational dimensions close to a compact reformer, folding to somewhere between 40 and 60 percent of that for vertical storage against a wall. This is the category built for the problem, and if the machine cannot stay set up, it is the answer. See our roundups of{" "}
-                <Link href="/blog/best-foldable-pilates-reformer" style={{ color: "#8b4a31", textDecoration: "underline" }}>foldable reformers</Link>{" "}and{" "}
-                <Link href="/blog/best-pilates-reformer-for-small-spaces" style={{ color: "#8b4a31", textDecoration: "underline" }}>reformers for small spaces</Link>.
+                <Link href="/blog/best-foldable-pilates-reformer" style={{ color: "#0a0a0a", textDecoration: "underline" }}>foldable reformers</Link>{" "}and{" "}
+                <Link href="/blog/best-pilates-reformer-for-small-spaces" style={{ color: "#0a0a0a", textDecoration: "underline" }}>reformers for small spaces</Link>.
               </p>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 The second is to accept a mini or portable machine and its shorter carriage travel. That is a real change to how footwork and long-spine work feel rather than a cosmetic one, and taller practitioners notice it most, but a machine you use in a room that fits beats a machine you admire in a room that does not.
               </p>
-              <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>
                 What not to do is buy a full-size machine on the assumption that you will shuffle it into position for each session. Reformers are heavy, dragging them damages floors, and the friction of setting up is the single most reliable predictor of a reformer that stops being used. If it cannot live where you will use it, either fold it properly or buy the class of machine that can.
               </p>
             </div>
 
-            <div className="mb-14 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2" }}>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Measure these seven before you order</h2>
+            <div className="mb-14 rounded-2xl p-8" style={{ backgroundColor: "#ede9e3" }}>
+              <h2 className="mb-4 r-d r-h2">Measure these seven before you order</h2>
               <ul className="space-y-3">
                 {[
                   "Room length in the direction the machine will sit, including two to three feet of clearance at each end.",
@@ -248,8 +248,8 @@ export default function PilatesReformerDimensionsPage() {
                   "Folded dimensions as well as operational, if you are buying a folding machine.",
                   "Floor type and whether it is level, since apparatus needs a hard, non-flexing surface.",
                 ].map((tip, i) => (
-                  <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                    <span className="font-semibold" style={{ color: "#8b4a31" }}>⚠</span>
+                  <li key={i} className="flex gap-3 text-base" style={{ color: "#3a3530" }}>
+                    <span className="font-semibold" style={{ color: "#0a0a0a" }}>⚠</span>
                     {tip}
                   </li>
                 ))}
@@ -257,7 +257,7 @@ export default function PilatesReformerDimensionsPage() {
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   { q: "How much space do I need for a Pilates reformer?", a: "A standard reformer occupies approximately 90 by 26 inches of floor space in its operational position. On top of that you need two to three feet clear at each end, for getting on and off, for the footbar end, and because several exercises extend past the frame. Add a working side of at least two feet if anyone will ever teach or spot you. That puts the practical requirement at around 12 to 13 feet of length and 4 to 5 feet of width, or roughly 50 to 65 square feet. Compact and folding models reduce the frame itself to as little as 72 by 22 inches, but they do not reduce the clearance you need at the ends." },
@@ -265,9 +265,9 @@ export default function PilatesReformerDimensionsPage() {
                   { q: "Can a Pilates reformer fit in a bedroom or apartment?", a: "Often yes, and the binding constraint is usually length rather than area. A standard reformer at around 90 inches is longer than most beds, so the realistic placement is along a wall, which means the room needs roughly 12 feet in one direction once you count end clearance. Where that does not work, folding and compact models are the category built for the problem: some reduce to around 60 percent of their operational footprint and store vertically against a wall. The trade-off is carriage travel, which changes how some exercises feel." },
                   { q: "Will a reformer fit through my door?", a: "This is the question that catches people out, and it has nothing to do with the room. Studio reformers arrive substantially assembled and are long and rigid, so the limiting factor is rarely the doorway width but the turn from a corridor into a room, the stairwell, or the lift depth. Measure the doorway width, the corridor width, every turn on the route, and the lift internal depth, then give those numbers to the supplier before ordering and ask them to confirm in writing. Flat-packed home models sidestep this entirely, which is a real advantage in an upper-floor apartment." },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
@@ -275,10 +275,10 @@ export default function PilatesReformerDimensionsPage() {
 
             {/* Reformers */}
 
-            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Reformers</p>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Machines by footprint class</h2>
-              <p className="text-base leading-relaxed mb-8" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid #ddd6cc" }}>
+              <p className="text-[12.5px] font-bold mb-2" style={{ color: "#0a0a0a" }}>Reformers</p>
+              <h2 className="mb-4 r-d r-h2">Machines by footprint class</h2>
+              <p className="text-base leading-relaxed mb-8" style={{ color: "#3a3530" }}>
                 One or more machines from each class above, from the full studio frame down to the compact, folding, and cord-resistance options. Check the warranty covers your intended use before ordering, and confirm the machine fits the room and the route into it.
               </p>
               <div className="space-y-8">
@@ -289,10 +289,10 @@ export default function PilatesReformerDimensionsPage() {
             </div>
 
             {/* Equipment */}
-            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What makes a tight space work</h2>
-              <p className="text-base leading-relaxed mb-8" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid #ddd6cc" }}>
+              <p className="text-[12.5px] font-bold mb-2" style={{ color: "#0a0a0a" }}>Equipment</p>
+              <h2 className="mb-4 r-d r-h2">What makes a tight space work</h2>
+              <p className="text-base leading-relaxed mb-8" style={{ color: "#3a3530" }}>
                 None of these change the dimensions of your room. What they do is make a machine in a shared space practical to store, safe to move, and less damaging to the floor it stands on. Check weight ratings and model compatibility before ordering.
               </p>
               <div className="space-y-8">
@@ -303,7 +303,7 @@ export default function PilatesReformerDimensionsPage() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Pilates Reformer for Small Spaces" excerpt="Foldable, compact and wall-storable machines ranked on footprint and full-workout capability." href="/blog/best-pilates-reformer-for-small-spaces" category="Equipment" readTime="11 min read" date="June 2026" imageUrl="/pictures/stitch-reformer-morning-light.png" />
                 <ArticleCard title="Best Foldable Pilates Reformer" excerpt="The folding machines that actually fold, and what the mechanism costs you in carriage feel." href="/blog/best-foldable-pilates-reformer" category="Equipment" readTime="10 min read" date="June 2026" imageUrl="/pictures/stitch-reformer-loops-hooks.png" />

@@ -103,20 +103,20 @@ export default function AlignPilatesReformerReviewPage() {
       <Header />
       <main>
         {/* Hero section */}
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Brand Review</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Equipment Guide</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Brand Review</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Equipment Guide</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Align-Pilates C8-PRO Review (2026):<br /><span style={{ color: "#8b4a31" }}>The Real Amazon-Sold Reformer, Honestly Assessed</span>
+            <h1 className="mb-6 r-d r-h1">
+              Align-Pilates C8-PRO Review (2026):<br /><span style={{ color: "#a98a5f" }}>The Real Amazon-Sold Reformer, Honestly Assessed</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 10 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 10 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               Align-Pilates is not the brand you find in Pilates textbooks or on the walls of established studios. You may see several Align models, including a &quot;C2 Pro RC,&quot; mentioned online, but we could not verify those as genuine, live Amazon listings, so this review focuses on the one Align reformer we could actually confirm: the C8-PRO, sold on Amazon by Merrithew at $2,750. This is an honest review of that real listing, and an honest note about what we couldn&apos;t confirm.
             </p>
           </div>
@@ -125,8 +125,8 @@ export default function AlignPilatesReformerReviewPage() {
         {/* Hero image */}
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg" alt="Align-Pilates C8-PRO reformer review: the real Align-Pilates machine sold on Amazon" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg" alt="Align-Pilates C8-PRO reformer review: the real Align-Pilates machine sold on Amazon" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -137,29 +137,29 @@ export default function AlignPilatesReformerReviewPage() {
 
             {/* Who is Align-Pilates */}
             <div className="mb-16 mt-4">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Who is Align-Pilates and why should you consider them?</h2>
-              <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">Who is Align-Pilates and why should you consider them?</h2>
+              <p className="text-base leading-relaxed mb-6" style={{ color: "#3a3530" }}>
                 Align-Pilates is a UK-founded brand that entered the market as a lower-cost alternative to the dominant American brands. Its US-market flagship, the C8-PRO, is sold on Amazon by Merrithew, Align&apos;s US distributor, which is the detail that matters most for anyone shopping on Amazon specifically: it&apos;s a real, verifiable listing, not a search result standing in for a product that isn&apos;t actually there.
               </p>
-              <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed mb-6" style={{ color: "#3a3530" }}>
                 Align markets its spring system as color-coded in a way that maps to the STOTT PILATES convention familiar to Merrithew-trained instructors. We could not independently verify the exact spring count or color breakdown for the current C8-PRO listing, so treat any specific number as something to confirm on the live Amazon page rather than a fact asserted here.
               </p>
-              <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>
                 Align is not yet the default recommendation for large commercial studios, where Balanced Body and Merrithew still dominate, but for practitioners specifically comparing real, Amazon-sold reformers on price, the C8-PRO at $2,750 is a genuine option below both of the major American brands&apos; cheapest comparable machines.
               </p>
             </div>
 
             {/* A note on what we couldn't verify */}
-            <div className="mb-16 rounded-2xl p-7" style={{ backgroundColor: "#fff4f1", border: "1px solid rgba(139,74,49,0.15)" }}>
-              <p className="text-xs font-semibold uppercase tracking-[0.15em] mb-3" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Other Align models</p>
-              <p className="text-base leading-relaxed mb-0" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+            <div className="mb-16 rounded-2xl p-7" style={{ backgroundColor: "#fff4f1", border: "1px solid #ddd6cc" }}>
+              <p className="text-[12.5px] font-bold mb-3" style={{ color: "#0a0a0a" }}>Other Align models</p>
+              <p className="text-base leading-relaxed mb-0" style={{ color: "#3a3530" }}>
                 If you&apos;ve seen a &quot;C2 Pro RC&quot; quoted with its own price and spec differences from the C8-PRO (footbar positions, folding storage, a separately-sold tower attachment), we could not verify it as a genuine, live Align-Pilates listing on Amazon, so we don&apos;t cover it here. If Align sells other models through other channels, get current details directly from Align or an authorized dealer.
               </p>
             </div>
 
             {/* Comparison criteria cards */}
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>How the C8-PRO compares: what we could verify</h2>
+              <h2 className="mb-6 r-d r-h2">How the C8-PRO compares: what we could verify</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[
                   {
@@ -179,9 +179,9 @@ export default function AlignPilatesReformerReviewPage() {
                     body: "C8-PRO at $2,750, versus Merrithew's real At Home SPX Reformer Package at $3,349 and Balanced Body's real Allegro Stretch at $3,710. On current, verified Amazon pricing, the C8-PRO is the cheapest of the three by a clear margin.",
                   },
                 ].map((item) => (
-                  <div key={item.heading} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.heading}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
+                  <div key={item.heading} className="rounded-2xl p-5" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-sm mb-1.5 r-hx" style={{ color: "#0a0a0a" }}>{item.heading}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.body}</p>
                   </div>
                 ))}
               </div>
@@ -189,7 +189,7 @@ export default function AlignPilatesReformerReviewPage() {
 
             {/* Products section */}
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-8" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>The C8-PRO and Real Accessories to Pair With It</p>
+              <p className="text-[12.5px] font-bold mb-8" style={{ color: "#0a0a0a" }}>The C8-PRO and Real Accessories to Pair With It</p>
 
               {/* Quick reference table */}
               <QuickPicks className="mb-6 mt-4" picks={PRODUCTS.map((pr, i) => ({ name: pr.name, price: pr.price, url: pr.affiliateUrl, note: QP_NOTES[i] }))} />
@@ -200,8 +200,8 @@ export default function AlignPilatesReformerReviewPage() {
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
                     <div className="flex items-center gap-3 mb-4">
-                      <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                      <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tag}</span>
+                      <span className="text-2xl r-hx" style={{ color: "#9a9490" }}>{p.rank}</span>
+                      <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{p.tag}</span>
                     </div>
                     <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                   </div>
@@ -210,8 +210,8 @@ export default function AlignPilatesReformerReviewPage() {
             </div>
 
             {/* Honest comparison editorial */}
-            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
-              <h2 className="text-2xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>C8-PRO vs Balanced Body vs Merrithew: honest comparison</h2>
+            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#ede9e3" }}>
+              <h2 className="mb-6 r-d r-h2">C8-PRO vs Balanced Body vs Merrithew: honest comparison</h2>
               <div className="space-y-5">
                 {[
                   {
@@ -240,8 +240,8 @@ export default function AlignPilatesReformerReviewPage() {
                   },
                 ].map((item) => (
                   <div key={item.label} className="flex gap-4">
-                    <p className="text-sm font-semibold shrink-0 w-32" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{item.label}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
+                    <p className="text-base font-semibold shrink-0 w-32" style={{ color: "#0a0a0a" }}>{item.label}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.body}</p>
                   </div>
                 ))}
               </div>
@@ -249,7 +249,7 @@ export default function AlignPilatesReformerReviewPage() {
 
             {/* FAQ */}
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   {
@@ -269,9 +269,9 @@ export default function AlignPilatesReformerReviewPage() {
                     a: "The C8-PRO is the model we can actually recommend from a verified Amazon listing. If you're considering another Align model, get current specs, pricing, and Amazon availability directly from Align or an authorized dealer rather than relying on unverified claims elsewhere.",
                   },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
@@ -279,7 +279,7 @@ export default function AlignPilatesReformerReviewPage() {
 
             {/* Further reading */}
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Balanced Body vs Merrithew (2026)" excerpt="The two dominant Pilates equipment brands compared honestly: spring feel, build quality, price, and resale." href="/blog/balanced-body-vs-merrithew" category="Equipment Guide" readTime="10 min read" date="September 2026" imageUrl="/pictures/roxana-popovici-cZ0WYsBFHhs-unsplash.jpg" />
                 <ArticleCard title="Align Pilates vs Balanced Body (2026)" excerpt="Frame, springs, accessories and real dealer pricing compared, with a clear recommendation for each buyer." href="/blog/align-pilates-vs-balanced-body" category="Comparison" readTime="12 min read" date="September 2026" imageUrl="/pictures/stitch-reformer-row-studio.png" />

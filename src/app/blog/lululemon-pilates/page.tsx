@@ -132,20 +132,20 @@ export default function LululemonPilatesPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Brand Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Lululemon</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Brand Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Lululemon</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Lululemon for Pilates (2026):<br /><span style={{ color: "#8b4a31" }}>Best Pieces for Studio &amp; Reformer</span>
+            <h1 className="mb-6 r-d r-h1">
+              Lululemon for Pilates (2026):<br /><span style={{ color: "#a98a5f" }}>Best Pieces for Studio &amp; Reformer</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 10 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 10 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               Lululemon built its brand around yoga and running, but Pilates may be the activity it suits best. The specific demands of the method (sustained floor contact, extended lying positions, full range shoulder mobility, precise instructor observation of alignment) are exactly what Lululemon&apos;s most thoughtful designs accommodate. The challenge is navigating a catalog of hundreds of products to find the five or six pieces that genuinely serve the Pilates practitioner. This guide does that work for you.
             </p>
           </div>
@@ -153,8 +153,8 @@ export default function LululemonPilatesPage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" alt="Lululemon Align legging and Align tank for Pilates: best pieces for reformer and studio classes" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" alt="Lululemon Align legging and Align tank for Pilates: best pieces for reformer and studio classes" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -167,11 +167,11 @@ export default function LululemonPilatesPage() {
 
 
             <div className="mb-16 mt-4">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Why Lululemon works for Pilates</h2>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">Why Lululemon works for Pilates</h2>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 Lululemon&apos;s core advantage for Pilates is their fabric development program. The Nulu fabric (used in the Align range) was specifically engineered for buttery comfort in static and slow-movement contexts: exactly what mat Pilates and the lying work on a reformer carriage require. The Luxtreme fabric (used in higher-performance ranges) has a crisper, more supportive feel appropriate for dynamic reformer sessions.
               </p>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 The waistband engineering in the Align range is the best available from any brand at a similar price point for Pilates specifically. The high-rise construction maintains position through every spinal movement (flexion, extension, rotation, lateral flexion) without the rolling, digging, or slipping that affects most waistbands during sustained core work. Instructors regularly cite this as the single most important functional attribute in Pilates-specific leggings.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6">
@@ -181,22 +181,22 @@ export default function LululemonPilatesPage() {
                   { heading: "Best for jump board", body: "Flow Y bra and Align or Fast and Free legging: more support needed for the cardiovascular intensity." },
                   { heading: "Best for private sessions", body: "Any Align piece. Private sessions allow closer instructor observation: the Align's clean silhouette without pockets or panels gives the best alignment visibility." },
                 ].map((item) => (
-                  <div key={item.heading} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.heading}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
+                  <div key={item.heading} className="rounded-2xl p-5" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-sm mb-1.5 r-hx" style={{ color: "#0a0a0a" }}>{item.heading}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.body}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Lululemon Pieces · Ranked</p>
+              <p className="text-[12.5px] font-bold mb-10" style={{ color: "#0a0a0a" }}>5 Lululemon Pieces · Ranked</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
                     <div className="flex items-center gap-3 mb-4">
-                      <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                      <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tag}</span>
+                      <span className="text-2xl r-hx" style={{ color: "#9a9490" }}>{p.rank}</span>
+                      <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{p.tag}</span>
                     </div>
                     <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                   </div>
@@ -204,8 +204,8 @@ export default function LululemonPilatesPage() {
               </div>
             </div>
 
-            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Lululemon pieces to avoid for Pilates</h2>
+            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#ede9e3" }}>
+              <h2 className="mb-4 r-d r-h2">Lululemon pieces to avoid for Pilates</h2>
               <ul className="space-y-3">
                 {[
                   "Wunder Under leggings (original Luon): The fabric is thicker and less four-way-stretch than Align, functional for yoga and running, but restrictive for the hip and spinal rotation exercises central to Pilates.",
@@ -214,8 +214,8 @@ export default function LululemonPilatesPage() {
                   "Lululemon Free to Be bra: Beautiful for low-activity, too unstructured for a full reformer session. Falls into the same category as the Align Bra but with less support and less secure positioning.",
                   "Lululemon shorts with internal brief: The brief layer adds bulk at the inner thigh, which creates friction against the reformer carriage during footwork and leg exercises.",
                 ].map((tip, i) => (
-                  <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                    <span className="font-semibold" style={{ color: "#8b4a31" }}>✕</span>
+                  <li key={i} className="flex gap-3 text-base" style={{ color: "#3a3530" }}>
+                    <span className="font-semibold" style={{ color: "#0a0a0a" }}>✕</span>
                     {tip}
                   </li>
                 ))}
@@ -223,7 +223,7 @@ export default function LululemonPilatesPage() {
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   { q: "Lululemon Align vs Wunder Train for Pilates, which is better?", a: "Align, without question. The Wunder Train is a compression legging designed for high-intensity training: firmer, more supportive, with a crisper fabric. For Pilates, where you're spending significant time lying on a mat or carriage and performing slow articulation work, the Align's soft Nulu fabric is far more appropriate. The Wunder Train's compression is also slightly restrictive for deep hip flexion and the rotational exercises that characterize the Pilates repertoire." },
@@ -231,16 +231,16 @@ export default function LululemonPilatesPage() {
                   { q: "What size should I buy for Pilates?", a: "For the Align range: size true to standard. The fabric stretches enough that sizing down creates too much compression for the sustained lying positions of Pilates; sizing up creates wrinkling that obscures alignment cues for your instructor. If you're between sizes, the standard size recommendation applies: most practitioners find true-to-size Align to be the most functional for Pilates specifically." },
                   { q: "Does Lululemon make Pilates-specific equipment?", a: "Lululemon produces mats (The Mat 5mm and The Reversible Mat 5mm), resistance bands (available in multiple resistance levels), and a yoga block that some Pilates practitioners use as a prop. Their mat range is appropriate for Pilates: the 5mm density is firm enough for spinal feedback. Their bands are good quality but generic rather than Pilates-specific. The equipment range is secondary to their apparel in quality and differentiation." },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Alo Yoga for Pilates" excerpt="Everything Alo Yoga makes that's worth buying for Pilates: best pieces and honest review." href="/blog/alo-yoga-pilates" category="Brand Guide" readTime="10 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Leggings (2026)" excerpt="Five leggings across every price point: compared on opacity, waistband stability, and reformer performance." href="/blog/best-pilates-leggings" category="Equipment" readTime="9 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />

@@ -149,20 +149,20 @@ export default function BestPlatformExtenderPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Lagree Method</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Equipment Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Lagree Method</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best Megaformer<br /><span style={{ color: "#8b4a31" }}>Platform Extender (2026)</span>
+            <h1 className="mb-6 r-d r-h1">
+              Best Megaformer<br /><span style={{ color: "#a98a5f" }}>Platform Extender (2026)</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated June 2026 · 8 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Updated June 2026 · 8 min read</p>
             <TopPick label="Top reformer add-on" name="Balanced Body Padded Jumpboard" price="$280.00" note="The closest reformer add-on sold on Amazon" url="https://www.amazon.com/dp/B08CS4LJZ7?tag=pilatescollective-20" />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               Standard Megaformer platform dimensions don&apos;t always accommodate taller practitioners or the wide-base standing positions central to Lagree programming. This guide compares the six best platform extenders, jump boards, and risers for Megaformer and Pilates reformer machines in 2026: covering authentic Lagree accessories, cross-brand options, and budget alternatives.
             </p>
           </div>
@@ -170,8 +170,8 @@ export default function BestPlatformExtenderPage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/roxana-popovici-cZ0WYsBFHhs-unsplash.jpg" alt="Best Megaformer platform extender 2026" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/roxana-popovici-cZ0WYsBFHhs-unsplash.jpg" alt="Best Megaformer platform extender 2026" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -183,7 +183,7 @@ export default function BestPlatformExtenderPage() {
               <div className="r-qp-hd">
                 <p className="r-qp-title">Quick Picks, At a Glance</p>
               </div>
-              {PRODUCTS.map((p, i) => (
+              {PRODUCTS.map((p) => (
                 <div key={p.name} className="r-qp-row">
                   <span className="r-qp-no">{p.rank}</span>
                   <div className="r-qp-tx">
@@ -195,7 +195,7 @@ export default function BestPlatformExtenderPage() {
                     <a className="r-btn r-btn-sm shrink-0" href={p.affiliateUrl} target="_blank" rel={/amazon\./i.test(p.affiliateUrl) ? "noopener noreferrer nofollow sponsored" : "noopener noreferrer nofollow"}
                     >Buy →</a>
                   ) : (
-                    <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.1em", textTransform: "uppercase", color: "#86736d", padding: "10px 4px", whiteSpace: "nowrap", flexShrink: 0 }}>Not on Amazon</span>
+                    <span style={{ fontSize: "12.5px", fontWeight: 600, color: "#6f6964", padding: "10px 4px", whiteSpace: "nowrap", flexShrink: 0 }}>Not on Amazon</span>
                   )}
                 </div>
               ))}
@@ -203,30 +203,30 @@ export default function BestPlatformExtenderPage() {
             <AffiliateNote>Some links on this page go to Amazon and manufacturer sites. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>6 Picks · Extenders & Risers</p>
+              <p className="text-[12.5px] font-bold mb-10" style={{ color: "#0a0a0a" }}>6 Picks · Extenders & Risers</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
                     <div className="flex items-center gap-3 mb-4">
-                      <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                      <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tag}</span>
+                      <span className="text-2xl r-hx" style={{ color: "#9a9490" }}>{p.rank}</span>
+                      <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{p.tag}</span>
                     </div>
-                    <div className="rounded-2xl overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.3)" }}>
+                    <div className="rounded-2xl overflow-hidden" style={{ border: "1px solid #ddd6cc" }}>
                       <div className="p-6" style={{ backgroundColor: "#ffffff" }}>
                         <div className="flex items-start justify-between gap-4 mb-4">
                           <div>
-                            <h3 className="text-xl font-semibold mb-1" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{p.name}</h3>
-                            <p className="text-sm font-semibold" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.price}</p>
+                            <h3 className="text-xl mb-1 r-hx" style={{ color: "#0a0a0a" }}>{p.name}</h3>
+                            <p className="text-base font-semibold" style={{ color: "#0a0a0a" }}>{p.price}</p>
                           </div>
                           {p.affiliateUrl ? (
-                            <a href={p.affiliateUrl} target="_blank" rel={/amazon\./i.test(p.affiliateUrl) ? "noopener noreferrer nofollow sponsored" : "noopener noreferrer nofollow"}
-                              style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
+                            <a className="r-btn r-btn-sm r-btn-block" href={p.affiliateUrl} target="_blank" rel={/amazon\./i.test(p.affiliateUrl) ? "noopener noreferrer nofollow sponsored" : "noopener noreferrer nofollow"}
+                              style={{ flexShrink: 0 }}
                             >Buy →</a>
                           ) : (
-                            <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.1em", textTransform: "uppercase", color: "#86736d", whiteSpace: "nowrap", flexShrink: 0 }}>Not on Amazon</span>
+                            <span style={{ fontSize: "12.5px", fontWeight: 600, color: "#6f6964", whiteSpace: "nowrap", flexShrink: 0 }}>Not on Amazon</span>
                           )}
                         </div>
-                        <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{p.description}</p>
+                        <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{p.description}</p>
                       </div>
                     </div>
                   </div>
@@ -235,23 +235,23 @@ export default function BestPlatformExtenderPage() {
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   { q: "Do I need a platform extender if I'm tall?", a: "If you're over roughly 5'10\" and find your heel hanging off the standard Megaformer platform during standing lunge, plank, or bear-position exercises, a platform extender genuinely improves stability and safety." },
                   { q: "Can I use a third-party platform extender on an authentic Lagree Fitness machine?", a: "It's not recommended. Lagree Fitness machines use proprietary mounting hardware, and third-party extenders frequently do not fit correctly, creating a stability risk during loaded standing positions." },
                   { q: "What's the difference between a platform extender and a reformer box?", a: "A platform extender bolts on and permanently extends a Megaformer's front platform surface. A reformer box is freestanding, placed on the carriage for long-box and short-box exercises, and compatible across nearly any reformer brand." },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Megaformer Machine (2026)" excerpt="Lagree M3S, The Micro, M3X, and more compared for home and studio Lagree training." href="/blog/best-megaformer-machine" category="Equipment" readTime="10 min read" date="June 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
                 <ArticleCard title="Best Lagree Reformer Springs & Resistance Cables (2026)" excerpt="The best replacement springs and resistance cables for Megaformer and Lagree-style machines." href="/blog/best-lagree-resistance-springs-cables" category="Equipment" readTime="9 min read" date="June 2026" imageUrl="/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg" />

@@ -85,20 +85,20 @@ export default function PilatesForSciaticaPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Health</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Sciatica</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Health</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Sciatica</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Pilates for Sciatica:<br /><span style={{ color: "#8b4a31" }}>What Calms It, What Inflames It</span>
+            <h1 className="mb-6 r-d r-h1">
+              Pilates for Sciatica:<br /><span style={{ color: "#a98a5f" }}>What Calms It, What Inflames It</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 12 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 12 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               Sciatica is the one complaint where a well-intentioned Pilates class can genuinely set you back. The classical mat repertoire is built around spinal flexion, and repeated loaded flexion is the most provocative movement pattern there is for disc-related nerve pain. Used correctly, though, Pilates is close to an ideal intervention: it builds the hip strength and spinal control that prevent recurrence, in positions that keep the nerve quiet. The entire outcome depends on knowing which sciatica you have.
             </p>
           </div>
@@ -107,7 +107,7 @@ export default function PilatesForSciaticaPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg" alt="Pilates for sciatica: supine spinal work that builds hip strength without compressing the lumbar spine" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg" alt="Pilates for sciatica: supine spinal work that builds hip strength without compressing the lumbar spine" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -119,20 +119,20 @@ export default function PilatesForSciaticaPage() {
             <AffiliateNote />
 
             <div className="mb-14 mt-4">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Sciatica is a symptom, not a diagnosis</h2>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">Sciatica is a symptom, not a diagnosis</h2>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 This distinction is the whole article. Sciatica describes pain that radiates along the path of the sciatic nerve, through the buttock, down the back of the thigh, sometimes past the knee into the calf or foot. It says where the pain travels. It says nothing about why the nerve is unhappy, and the why determines which Pilates exercises help and which make things worse.
               </p>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 Three causes account for the overwhelming majority of cases. A lumbar disc bulge or herniation compressing a nerve root is the most common, particularly under fifty. Lumbar spinal stenosis (narrowing of the canal, usually degenerative) is more common over sixty. Piriformis syndrome, where the nerve is irritated by the deep gluteal muscle it passes beneath, sits somewhere behind both in frequency and is more often over-diagnosed than missed.
               </p>
-              <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>
                 These three want almost opposite things. Disc-related sciatica typically settles with extension and hates flexion. Stenosis is usually the reverse: flexion opens the canal and relieves symptoms, extension closes it down. Piriformis irritation responds to deep gluteal release and hip rotation work that does nothing at all for a compressed nerve root. Walking into a general mat class without knowing which one you have is how people conclude that Pilates made their sciatica worse.
               </p>
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The exercises that reliably help</h2>
+              <h2 className="mb-6 r-d r-h2">The exercises that reliably help</h2>
               <div className="space-y-4">
                 {[
                   {
@@ -160,16 +160,16 @@ export default function PilatesForSciaticaPage() {
                     body: "Supine, feet on the bar, spine fully supported, resistance calibrated by springs. It builds leg and hip strength in the one position that asks nothing of the lumbar spine, which is exactly what you want during a flare when almost everything upright is provocative. For many people this is the first meaningful loaded exercise they tolerate.",
                   },
                 ].map((item) => (
-                  <div key={item.title} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.title}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
+                  <div key={item.title} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.title}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.body}</p>
                   </div>
                 ))}
               </div>
             </div>
 
-            <div className="mb-14 rounded-2xl p-8" style={{ backgroundColor: "#fff4f1", border: "1px solid rgba(139,74,49,0.15)" }}>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Exercises to avoid during an active flare</h2>
+            <div className="mb-14 rounded-2xl p-8" style={{ backgroundColor: "#fff4f1", border: "1px solid #ddd6cc" }}>
+              <h2 className="mb-4 r-d r-h2">Exercises to avoid during an active flare</h2>
               <ul className="space-y-3">
                 {[
                   "Roll-up and roll-over: loaded, repeated lumbar flexion is the most provocative pattern for disc-related sciatica. These are staples of the classical mat order, which is why a general class is risky.",
@@ -179,8 +179,8 @@ export default function PilatesForSciaticaPage() {
                   "Double leg stretch and the hundred with legs low: the long lever creates lumbar extension load the deep abdominals cannot yet control. Keep knees bent and legs high until symptoms settle.",
                   "Aggressive piriformis stretching into sharp pain, if the nerve is already irritated, forceful stretching of the tissue around it usually amplifies symptoms rather than releasing them.",
                 ].map((tip, i) => (
-                  <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                    <span className="font-semibold" style={{ color: "#8b4a31" }}>⚠</span>
+                  <li key={i} className="flex gap-3 text-base" style={{ color: "#3a3530" }}>
+                    <span className="font-semibold" style={{ color: "#0a0a0a" }}>⚠</span>
                     {tip}
                   </li>
                 ))}
@@ -188,7 +188,7 @@ export default function PilatesForSciaticaPage() {
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>How programming changes by cause</h2>
+              <h2 className="mb-6 r-d r-h2">How programming changes by cause</h2>
               <div className="space-y-4">
                 {[
                   { label: "Disc-related (herniation or bulge)", body: "Extension-biased. Prone press-ups, standing extension, and supine work with a neutral or slightly extended lumbar curve. Avoid flexion entirely during the acute phase, including the way you get off the mat. Watch for centralization: symptoms retreating up the leg toward the spine is the sign the direction is right, even if the back itself feels temporarily worse." },
@@ -197,26 +197,26 @@ export default function PilatesForSciaticaPage() {
                   { label: "Pregnancy-related sciatica", body: "Usually mechanical rather than discogenic: ligament laxity plus a shifting center of mass. Side-lying work, supported quadruped, and standing exercises with a wall are the mainstays. Avoid supine positions after the first trimester and avoid end-range hip stretching, which the additional laxity makes easy to overshoot." },
                   { label: "Post-surgical (discectomy or decompression)", body: "Pilates is appropriate in later rehabilitation, typically from six to twelve weeks depending on the procedure and always on the surgeon's timeline. Reformer footwork and supported supine work usually come first because they load the legs without asking anything of the healing segment. Never progress ahead of the surgical team's guidance." },
                 ].map((item) => (
-                  <div key={item.label} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.label}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
+                  <div key={item.label} className="rounded-2xl p-5" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-sm mb-1.5 r-hx" style={{ color: "#0a0a0a" }}>{item.label}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.body}</p>
                   </div>
                 ))}
               </div>
             </div>
 
-            <div className="mb-14 rounded-2xl p-8" style={{ backgroundColor: "#f7f4f0", border: "1px solid rgba(217,194,186,0.4)" }}>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>When to stop and seek medical assessment</h2>
-              <p className="text-sm leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+            <div className="mb-14 rounded-2xl p-8" style={{ backgroundColor: "#f7f4f0", border: "1px solid #ddd6cc" }}>
+              <h2 className="mb-4 r-d r-h2">When to stop and seek medical assessment</h2>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 Most sciatica is mechanical and improves. A small number of presentations are not, and they need same-day medical attention rather than an exercise plan. Stop and seek urgent assessment if you develop numbness in the saddle region (inner thighs, groin, buttocks) or any change in bladder or bowel control, or weakness affecting both legs. This combination can indicate cauda equina syndrome, which is a surgical emergency.
               </p>
-              <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>
                 Short of that, book a proper assessment before starting if you have progressive weakness in one leg (a foot that catches on stairs, difficulty rising onto the toes) or sciatic symptoms following a significant fall or accident, or pain that is unrelenting at night and unaffected by position. Pilates is a good answer to mechanical nerve irritation. It is not the right first step for any of these.
               </p>
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   { q: "Can Pilates make sciatica worse?", a: "Yes, if the exercise selection is wrong for the cause. The classical Pilates mat repertoire is built around spinal flexion: roll-up, roll-over, spine stretch forward, rolling like a ball. Repeated loaded flexion is the single most provocative movement pattern for disc-related sciatica, and a general mat class can genuinely worsen a flare. The same class may be entirely appropriate for sciatica caused by piriformis irritation. This is why identifying the cause before starting matters more with sciatica than with almost any other complaint." },
@@ -224,9 +224,9 @@ export default function PilatesForSciaticaPage() {
                   { q: "Is reformer or mat Pilates better for sciatica?", a: "The reformer has a real advantage during an active flare. Most of its foundational repertoire is performed lying supine with the spine supported and the legs loaded through the footbar, which lets you build hip and leg strength without asking the lumbar spine to flex or bear compressive load. Footwork, supine leg circles in straps, and bridging with the carriage are all typically well tolerated. Mat work becomes appropriate as symptoms centralize, but requires more careful selection because so much of the classical repertoire is flexion-based." },
                   { q: "What is the difference between sciatica and piriformis syndrome?", a: "Sciatica describes the symptom, pain radiating along the path of the sciatic nerve, not the cause. Most commonly the nerve root is compressed or irritated where it exits the lumbar spine, usually by a disc bulge or by narrowing of the spinal canal. In piriformis syndrome the nerve is irritated much lower, where it passes beneath or through the piriformis muscle deep in the buttock. The distinction matters for Pilates because deep gluteal release and hip rotation work help the piriformis presentation but do nothing for a compressed nerve root, while extension-biased spinal work is often the reverse." },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
@@ -234,9 +234,9 @@ export default function PilatesForSciaticaPage() {
 
             {/* Equipment */}
 
-            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Recommended kit</h2>
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid #ddd6cc" }}>
+              <p className="text-[12.5px] font-bold mb-2" style={{ color: "#0a0a0a" }}>Equipment</p>
+              <h2 className="mb-8 r-d r-h2">Recommended kit</h2>
               <div className="space-y-8">
                 {PRODUCTS.map((p) => (
                   <ProductCard key={p.name} name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
@@ -245,7 +245,7 @@ export default function PilatesForSciaticaPage() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Pilates for Back Pain" excerpt="What the evidence supports, which exercises to prioritize, and the mat work to skip during a flare." href="/blog/pilates-for-back-pain" category="Health" readTime="12 min read" date="June 2026" imageUrl="/pictures/roxana-popovici-2QeonB1SdQk-unsplash.jpg" />
                 <ArticleCard title="Pilates for Hip Pain" excerpt="Which Pilates exercises relieve hip flexor tightness, bursitis, and labral irritation." href="/blog/pilates-for-hip-pain" category="Health" readTime="11 min read" date="June 2026" imageUrl="/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg" />

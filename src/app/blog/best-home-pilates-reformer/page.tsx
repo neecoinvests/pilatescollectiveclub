@@ -190,20 +190,20 @@ export default function BestHomeReformerPage() {
       <main>
 
         {/* Hero section */}
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Reformers</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Equipment Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Reformers</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best Home Pilates Reformer<br /><span style={{ color: "#8b4a31" }}>(2026): Honestly Reviewed</span>
+            <h1 className="mb-6 r-d r-h1">
+              Best Home Pilates Reformer<br /><span style={{ color: "#a98a5f" }}>(2026): Honestly Reviewed</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 11 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 11 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               The best home Pilates reformers compared at every price point, from AeroPilates to Merrithew and Balanced Body.
             </p>
           </div>
@@ -212,8 +212,8 @@ export default function BestHomeReformerPage() {
         {/* Hero image */}
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" alt="Home Pilates reformer machine" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" alt="Home Pilates reformer machine" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -224,7 +224,7 @@ export default function BestHomeReformerPage() {
 
             {/* What to look for */}
             <div className="mb-16 mt-4">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What actually matters in a home reformer</h2>
+              <h2 className="mb-6 r-d r-h2">What actually matters in a home reformer</h2>
               <div className="space-y-4">
                 {[
                   { heading: "Spring vs cord resistance", body: "Professional reformers use calibrated steel springs. Budget models substitute elastic cords. Cords are usable, but they feel softer and less even than springs, and they lose tension over time. For beginners, this is manageable. Trained practitioners will notice the difference." },
@@ -233,11 +233,11 @@ export default function BestHomeReformerPage() {
                   { heading: "Frame stability", body: "The reformer must not rock, flex, or shift during explosive footwork or jump board work. Cheap aluminum frames flex under load: this is both a quality and a safety issue." },
                   { heading: "Footbar adjustability", body: "A footbar that adjusts to multiple heights and positions is essential for proper alignment in footwork and for accommodating different leg lengths. Fixed footbars significantly limit the repertoire you can safely perform." },
                 ].map((item) => (
-                  <div key={item.heading} className="flex gap-5 rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <div className="w-1.5 rounded-full shrink-0 mt-1" style={{ backgroundColor: "#8b4a31", minHeight: "20px" }} />
+                  <div key={item.heading} className="flex gap-5 rounded-2xl p-5" style={{ backgroundColor: "#ede9e3" }}>
+                    <div className="w-1.5 rounded-full shrink-0 mt-1" style={{ backgroundColor: "#0a0a0a", minHeight: "20px" }} />
                     <div>
-                      <p className="text-sm font-semibold mb-1" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.heading}</p>
-                      <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
+                      <p className="text-sm mb-1 r-hx" style={{ color: "#0a0a0a" }}>{item.heading}</p>
+                      <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.body}</p>
                     </div>
                   </div>
                 ))}
@@ -250,14 +250,14 @@ export default function BestHomeReformerPage() {
 
             {/* Products */}
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>4 Reformers · Every Budget</p>
+              <p className="text-[12.5px] font-bold mb-10" style={{ color: "#0a0a0a" }}>4 Reformers · Every Budget</p>
               <div className="space-y-12">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
                     <div className="flex items-center gap-3 mb-4">
-                      <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                      <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tier}</span>
-                      <span className="text-xs font-semibold uppercase tracking-widest" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>{p.verdict}</span>
+                      <span className="text-2xl r-hx" style={{ color: "#9a9490" }}>{p.rank}</span>
+                      <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{p.tier}</span>
+                      <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>{p.verdict}</span>
                     </div>
                     <ProductCard
                       name={p.name}
@@ -266,16 +266,16 @@ export default function BestHomeReformerPage() {
                       affiliateUrl={p.affiliateUrl}
                     />
                     <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
-                      <div className="rounded-lg p-4" style={{ backgroundColor: "#f0f7f1", border: "1px solid rgba(83,98,87,0.2)" }}>
-                        <p className="text-xs font-semibold uppercase tracking-wider mb-2" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Pros</p>
+                      <div className="rounded-2xl p-4" style={{ backgroundColor: "#ede9e3" }}>
+                        <p className="text-[12.5px] font-bold mb-2" style={{ color: "#3a3530" }}>Pros</p>
                         <ul className="space-y-1">
-                          {p.pros.map((pro) => <li key={pro} className="text-xs" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>+ {pro}</li>)}
+                          {p.pros.map((pro) => <li key={pro} className="text-xs" style={{ color: "#3a3530" }}>+ {pro}</li>)}
                         </ul>
                       </div>
-                      <div className="rounded-lg p-4" style={{ backgroundColor: "#fdf5f3", border: "1px solid rgba(139,74,49,0.15)" }}>
-                        <p className="text-xs font-semibold uppercase tracking-wider mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Cons</p>
+                      <div className="rounded-2xl p-4" style={{ backgroundColor: "#ede9e3" }}>
+                        <p className="text-[12.5px] font-bold mb-2" style={{ color: "#0a0a0a" }}>Cons</p>
                         <ul className="space-y-1">
-                          {p.cons.map((con) => <li key={con} className="text-xs" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>− {con}</li>)}
+                          {p.cons.map((con) => <li key={con} className="text-xs" style={{ color: "#3a3530" }}>− {con}</li>)}
                         </ul>
                       </div>
                     </div>
@@ -286,13 +286,13 @@ export default function BestHomeReformerPage() {
 
             {/* Comparison table */}
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Quick comparison</h2>
+              <h2 className="mb-8 r-d r-h2">Quick comparison</h2>
               <div className="overflow-x-auto r-glance">
                 <table className="w-full text-sm">
                   <thead>
-                    <tr style={{ backgroundColor: "#f6f3f2", borderBottom: "1px solid rgba(217,194,186,0.4)" }}>
+                    <tr style={{ backgroundColor: "#ede9e3", borderBottom: "1px solid #ddd6cc" }}>
                       {["Model", "Price", "Resistance", "Length", "Best For"].map((h) => (
-                        <th key={h} className="text-left px-4 py-3 text-xs font-semibold uppercase tracking-wider" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{h}</th>
+                        <th key={h} className="text-left px-4 py-3 text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>{h}</th>
                       ))}
                     </tr>
                   </thead>
@@ -303,12 +303,12 @@ export default function BestHomeReformerPage() {
                       { model: "Merrithew At Home SPX", price: "$3,349", resistance: "5 springs", rail: "96.5\" overall", best: "Serious practitioners" },
                       { model: "Balanced Body Studio Reformer", price: "$4,700", resistance: "5 springs", rail: "~8 ft", best: "Professional home studio" },
                     ].map((row, i) => (
-                      <tr key={row.model} style={{ backgroundColor: i % 2 === 0 ? "#ffffff" : "#faf8f7", borderBottom: "1px solid rgba(217,194,186,0.2)" }}>
-                        <td className="px-4 py-3 font-semibold" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{row.model}</td>
-                        <td className="px-4 py-3" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif", fontWeight: 600 }}>{row.price}</td>
-                        <td className="px-4 py-3" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{row.resistance}</td>
-                        <td className="px-4 py-3" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{row.rail}</td>
-                        <td className="px-4 py-3" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{row.best}</td>
+                      <tr key={row.model} style={{ backgroundColor: i % 2 === 0 ? "#ffffff" : "#faf8f7", borderBottom: "1px solid #ddd6cc" }}>
+                        <td className="px-4 py-3 font-semibold" style={{ color: "#0a0a0a" }}>{row.model}</td>
+                        <td className="px-4 py-3" style={{ color: "#0a0a0a", fontWeight: 600 }}>{row.price}</td>
+                        <td className="px-4 py-3" style={{ color: "#3a3530" }}>{row.resistance}</td>
+                        <td className="px-4 py-3" style={{ color: "#3a3530" }}>{row.rail}</td>
+                        <td className="px-4 py-3" style={{ color: "#3a3530" }}>{row.best}</td>
                       </tr>
                     ))}
                   </tbody>
@@ -318,8 +318,8 @@ export default function BestHomeReformerPage() {
 
             {/* Which tier is right for you: routes to the dedicated guide per budget and constraint */}
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Start from your constraint, not the price list</h2>
-              <p className="text-base leading-relaxed mb-8" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-4 r-d r-h2">Start from your constraint, not the price list</h2>
+              <p className="text-base leading-relaxed mb-8" style={{ color: "#3a3530" }}>
                 Almost nobody buying a reformer is choosing freely between a $349.99 machine and a $4,700 one. In practice one constraint decides it: a budget ceiling, a room that will not take a permanent 8.5-foot footprint, or a torso too long for a short rail. Find your constraint below and go straight to the guide written for it.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -333,10 +333,10 @@ export default function BestHomeReformerPage() {
                   { label: "You are over about 5ft 10in", body: "Rail length is the specification that matters. Short rails cut your leg extension short on every exercise.", href: "/blog/best-pilates-reformer-for-tall-people", cta: "Reformers for tall people" },
                   { label: "First reformer, still learning", body: "What to prioritize before spending, and which features you will not use in your first year.", href: "/blog/best-pilates-reformer-for-beginners", cta: "Reformers for beginners" },
                 ].map((t) => (
-                  <div key={t.href} className="rounded-xl p-5 flex flex-col" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)" }}>
-                    <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{t.label}</p>
-                    <p className="text-sm leading-relaxed mb-4 flex-1" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{t.body}</p>
-                    <Link href={t.href} className="text-xs font-semibold uppercase tracking-[0.12em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif", textDecoration: "none" }}>
+                  <div key={t.href} className="rounded-2xl p-5 flex flex-col" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-sm mb-1.5 r-hx" style={{ color: "#0a0a0a" }}>{t.label}</p>
+                    <p className="text-base leading-relaxed mb-4 flex-1" style={{ color: "#3a3530" }}>{t.body}</p>
+                    <Link href={t.href} className="text-[12.5px] font-bold" style={{ color: "#0a0a0a", textDecoration: "none" }}>
                       {t.cta} →
                     </Link>
                   </div>
@@ -345,36 +345,36 @@ export default function BestHomeReformerPage() {
             </div>
 
             {/* Space requirements */}
-            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Space requirements to plan for</h2>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#ede9e3" }}>
+              <h2 className="mb-4 r-d r-h2">Space requirements to plan for</h2>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 A full-size reformer requires a minimum footprint of approximately 8.5 feet long by 2.5 feet wide, plus clearance around the machine for safe movement. Both the Merrithew At Home SPX and the Balanced Body Studio Reformer need a dedicated, permanent space, neither folds.
               </p>
-              <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>
                 AeroPilates machines fold on wheels, which frees most of the floor when you&apos;re not training. If space is your main constraint, look at Balanced Body&apos;s Metro IQ, whose telescoping frame shortens to 62 inches for storage, or the Allegro 2, which can be stood on end with its wheel kit.
               </p>
             </div>
 
             {/* Verdict */}
-            <div className="mb-16 rounded-2xl p-8 md:p-10" style={{ background: "linear-gradient(135deg, #8b4a31 0%, #a86247 100%)" }}>
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-4 opacity-75" style={{ color: "#ffffff", fontFamily: "'Montserrat', sans-serif" }}>Our Verdict</p>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#ffffff", fontFamily: "'Playfair Display', serif" }}>Buy once, buy the Balanced Body Studio Reformer.</h2>
-              <p className="text-base leading-relaxed mb-6 opacity-85" style={{ color: "#ffffff", fontFamily: "'Montserrat', sans-serif" }}>
+            <div className="mb-16 rounded-2xl p-8 md:p-10" style={{ background: "linear-gradient(135deg, #0a0a0a 0%, #a86247 100%)" }}>
+              <p className="text-[12.5px] font-bold mb-4 opacity-75" style={{ color: "#ffffff" }}>Our Verdict</p>
+              <h2 className="mb-4 r-d r-h2" style={{ color: "#ffffff" }}>Buy once, buy the Balanced Body Studio Reformer.</h2>
+              <p className="text-base leading-relaxed mb-6 opacity-85" style={{ color: "#ffffff" }}>
                 If budget is genuinely no constraint, the Studio Reformer is the machine you will never need to replace. If you want a professional-brand spring reformer with Amazon delivery at a lower price, the Merrithew At Home SPX package is the one to buy. For regular practice on a smaller budget, the spring-based AeroPilates Pro XP 557 is a real step up from entry-level machines, and the AeroPilates 287 is the lowest-cost way to start.
               </p>
-              <a href="https://www.amazon.com/dp/B002XVWIFE?tag=pilatescollective-20" target="_blank" rel="noopener noreferrer nofollow sponsored" className="inline-block px-6 py-3 rounded-xl text-sm font-semibold transition-opacity hover:opacity-90" style={{ backgroundColor: "#ffffff", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>
+              <a href="https://www.amazon.com/dp/B002XVWIFE?tag=pilatescollective-20" target="_blank" rel="noopener noreferrer nofollow sponsored" className="r-btn r-btn-sm r-btn-light">
                 Shop Balanced Body Studio Reformer on Amazon →
               </a>
             </div>
 
             {/* FAQ */}
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {FAQS.map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
@@ -382,7 +382,7 @@ export default function BestHomeReformerPage() {
 
             {/* Further reading */}
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Pilates Reformer Brands (2026)" excerpt="Balanced Body, Merrithew, Align, Gratz, Elina and Peak, who builds what, and at what price." href="/blog/best-pilates-reformer-brands" category="Equipment" readTime="12 min read" date="June 2026" imageUrl="/pictures/stitch-reformers-aerial-row.png" />
                 <ArticleCard title="How Much Does a Pilates Reformer Cost?" excerpt="What the money actually buys between $300 and $6,000, and where the jumps in quality fall." href="/blog/how-much-does-a-pilates-reformer-cost" category="Equipment" readTime="10 min read" date="June 2026" imageUrl="/pictures/stitch-reformer-spring-detail.png" />

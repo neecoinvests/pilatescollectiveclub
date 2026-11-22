@@ -145,20 +145,20 @@ export default function BestPilatesRingPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Props</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Equipment Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Props</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best Pilates Ring &amp; Magic Circle<br /><span style={{ color: "#8b4a31" }}>(2026): 5 Real Options Compared</span>
+            <h1 className="mb-6 r-d r-h1">
+              Best Pilates Ring &amp; Magic Circle<br /><span style={{ color: "#a98a5f" }}>(2026): 5 Real Options Compared</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 8 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 8 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               Joseph Pilates invented the magic circle, originally fashioned from the metal rim of a beer keg, and it remains one of the most versatile small props in the method. A quality ring adds isometric resistance to inner thigh work, lateral hip work, arm exercises, and lateral flexion sequences that bodyweight alone cannot sufficiently load. Pilates rings are also one of the most reliably well-stocked categories on Amazon: below are five real, currently-sold rings across budget, bundle, all-rounder, and premium price points, each a genuine, purpose-built magic circle.
             </p>
           </div>
@@ -166,8 +166,8 @@ export default function BestPilatesRingPage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg" alt="Best Pilates ring and magic circle: Gaiam, ProBody, and URBNFit compared" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg" alt="Best Pilates ring and magic circle: Gaiam, ProBody, and URBNFit compared" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -179,7 +179,7 @@ export default function BestPilatesRingPage() {
             <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-16 mt-4">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What to look for in a Pilates ring</h2>
+              <h2 className="mb-6 r-d r-h2">What to look for in a Pilates ring</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[
                   { heading: "Resistance calibration", body: "Too stiff and you cannot compress it through the full movement without compensation. Too easy and there's no meaningful training effect. Most practitioners need medium resistance; beginners and those with wrist/shoulder issues often need light." },
@@ -187,22 +187,22 @@ export default function BestPilatesRingPage() {
                   { heading: "Diameter", body: "13–15 inches is a commonly cited standard diameter for inner thigh, lateral hip, and arm applications; smaller rings (12 inches and under) suit upper body work and smaller frames especially well." },
                   { heading: "Spring vs flexible ring", body: "Traditional metal-spring rings have a stiffer, more linear resistance curve. Fiberglass-core rings have a more progressive, accommodating curve suited to dynamic movement. Neither is objectively better: choose based on how you primarily use it." },
                 ].map((item) => (
-                  <div key={item.heading} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.heading}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
+                  <div key={item.heading} className="rounded-2xl p-5" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-sm mb-1.5 r-hx" style={{ color: "#0a0a0a" }}>{item.heading}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.body}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>The Rings, Compared</p>
+              <p className="text-[12.5px] font-bold mb-10" style={{ color: "#0a0a0a" }}>The Rings, Compared</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
                     <div className="flex items-center gap-3 mb-4">
-                      <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                      <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tag}</span>
+                      <span className="text-2xl r-hx" style={{ color: "#9a9490" }}>{p.rank}</span>
+                      <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{p.tag}</span>
                     </div>
                     <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                   </div>
@@ -210,8 +210,8 @@ export default function BestPilatesRingPage() {
               </div>
             </div>
 
-            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>5 essential Pilates ring exercises</h2>
+            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#ede9e3" }}>
+              <h2 className="mb-4 r-d r-h2">5 essential Pilates ring exercises</h2>
               <ul className="space-y-3">
                 {[
                   "Inner thigh squeeze (supine): Ring between inner thighs, squeeze on exhale. 10–15 reps. Develops adductor integration for all hip-related Pilates work.",
@@ -220,8 +220,8 @@ export default function BestPilatesRingPage() {
                   "Leg press (supine, ring between feet): Press outward against the ring during bridge or leg lowering. Adds abductor load to complement the adductor-dominant inner thigh work.",
                   "Side-lying leg work: Ring between ankles during classic side-lying series adds resistance to the abductor series without requiring ankle weights.",
                 ].map((tip, i) => (
-                  <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                    <span className="font-semibold" style={{ color: "#8b4a31" }}>{i + 1}.</span>
+                  <li key={i} className="flex gap-3 text-base" style={{ color: "#3a3530" }}>
+                    <span className="font-semibold" style={{ color: "#0a0a0a" }}>{i + 1}.</span>
                     {tip}
                   </li>
                 ))}
@@ -229,7 +229,7 @@ export default function BestPilatesRingPage() {
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   { q: "What is the best Pilates ring on Amazon?", a: "The Gaiam Pilates Ring Fitness Circle (15-inch, $19.78) is the most versatile all-rounder. The JKSHMYT Fitness Circle ($9.99) is the cheapest genuine ring, the URBNFit Pilates Circle ($14.99) is a step-up budget option, the LIONSCOOL Ring Set ($35.99) bundles a ring with a mini ball and bands, and the ProBody Pilates Circle ($23.95) is the instructor-grade premium pick with a real fiberglass core and roughly 30lb of squeezable resistance." },
@@ -238,16 +238,16 @@ export default function BestPilatesRingPage() {
                   { q: "Can I do a full Pilates workout with just a ring?", a: "A ring and a mat can form a substantial workout for experienced practitioners: the ring adds resistance to a large portion of the classical mat sequence, and several exercises (inner thigh work, arm series, lateral work) are more effective with one than without." },
                   { q: "How do I store a Pilates ring?", a: "Store flat in a cool, dry location. Avoid leaving it in compressed positions (e.g., under books or equipment) for extended periods: prolonged compression can deform the spring or fiberglass core over time. Wipe pads down after use with a mild disinfectant." },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Pilates Starter Kit" excerpt="Everything a beginner needs, in the right order, at the right price." href="/blog/best-pilates-starter-kit" category="Beginners" readTime="9 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-Zp4APUiwEsM-unsplash.jpg" />
                 <ArticleCard title="6 Core Principles of Pilates Explained" excerpt="Breath, concentration, control, centring, precision, flow: the method's foundations." href="/blog/6-core-principles-of-pilates-explained" category="Method" readTime="7 min read" date="May 2026" imageUrl="/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" />

@@ -142,20 +142,20 @@ export default function BestRedLightTherapyDeviceForPilatesPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Recovery Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Tech & Devices</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Recovery Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Tech & Devices</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best Red Light Therapy<br /><span style={{ color: "#8b4a31" }}>Device for Pilates (2026)</span>
+            <h1 className="mb-6 r-d r-h1">
+              Best Red Light Therapy<br /><span style={{ color: "#a98a5f" }}>Device for Pilates (2026)</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 9 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 9 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               Red light therapy (photobiomodulation) has moved from professional sports facilities into home recovery routines over the past several years, and a growing number of Pilates practitioners use it as part of their inter-session recovery. The evidence base, primarily for muscle soreness reduction and inflammation modulation, is more established than most complementary recovery tools. Rather than a wall-mounted panel, these five handheld devices are built for targeted, portable use: applied directly to sore hip flexors, a tight lower back, or fatigued quads after a reformer session, at a lower price and space commitment than a full panel setup.
             </p>
           </div>
@@ -163,8 +163,8 @@ export default function BestRedLightTherapyDeviceForPilatesPage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg" alt="Best red light therapy device for Pilates recovery" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg" alt="Best red light therapy device for Pilates recovery" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -175,13 +175,13 @@ export default function BestRedLightTherapyDeviceForPilatesPage() {
             <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Devices · Evidence-Reviewed</p>
+              <p className="text-[12.5px] font-bold mb-10" style={{ color: "#0a0a0a" }}>5 Devices · Evidence-Reviewed</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
                     <div className="flex items-center gap-3 mb-4">
-                      <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                      <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tag}</span>
+                      <span className="text-2xl r-hx" style={{ color: "#9a9490" }}>{p.rank}</span>
+                      <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{p.tag}</span>
                     </div>
                     <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                   </div>
@@ -189,9 +189,9 @@ export default function BestRedLightTherapyDeviceForPilatesPage() {
               </div>
             </div>
 
-            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.3)" }}>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What to look for in a handheld red light therapy device</h2>
-              <div className="space-y-4 text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#ede9e3" }}>
+              <h2 className="mb-4 r-d r-h2">What to look for in a handheld red light therapy device</h2>
+              <div className="space-y-4 text-sm leading-relaxed" style={{ color: "#3a3530" }}>
                 <p><strong>Wavelength selection.</strong> Red light (roughly 630–660nm) targets superficial tissue, while near-infrared (roughly 810–850nm) penetrates deeper into muscle. A device with selectable wavelengths, like the BONTANNY, offers more flexibility than a single fixed setting if you want to target different depths for different soreness.</p>
                 <p><strong>Portability and direct-contact use.</strong> The advantage of a handheld wand over a panel is applying it directly against the sore area at zero distance, which is convenient for the specific spots Pilates tends to fatigue: hip flexors, lower back, shoulders, and quads. Check the device&apos;s size and weight against how you&apos;ll actually use it: at a desk, on the couch, or propped against a body part during downtime.</p>
                 <p><strong>Session time and ease of use.</strong> A handheld device requires holding it in place for the treatment duration, so a comfortable grip and a simple on/off or timer function matter more day to day than extra features. The budget picks on this list keep controls minimal by design.</p>
@@ -200,23 +200,23 @@ export default function BestRedLightTherapyDeviceForPilatesPage() {
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   { q: "Does red light therapy help with Pilates recovery?", a: "The evidence is promising. A 2022 meta-analysis in the Journal of Athletic Training found photobiomodulation significantly reduced DOMS (delayed-onset muscle soreness) when applied before or immediately after exercise, with the strongest effects in the quadriceps and lumbar region: exactly the areas most engaged in reformer Pilates. 630–660nm red light and 830–850nm near-infrared are the two wavelength ranges with the most consistent supporting evidence." },
                   { q: "When should you use red light therapy relative to Pilates?", a: "Post-session application within 2 hours of exercise consistently produces the strongest recovery effects in photobiomodulation research. Pre-session application (30–60 minutes before) also shows benefit for muscle preparation and injury prevention. Most practitioners integrate a 10–20-minute panel session immediately after returning home from their reformer class, targeting the hip flexors, thoracic back, and quadriceps." },
                   { q: "Is a handheld red light wand as effective as a full panel?", a: "A handheld wand can only treat one small area at a time, so a full-body panel session is faster if you want to cover multiple muscle groups at once. For targeted recovery (hip flexors, lower back, shoulders, or quads after a reformer session) a handheld device applied directly to the sore area is a practical, lower-cost way to get started with red light therapy without the space or price commitment of a wall-mounted panel." },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Massage Gun for Pilates Recovery (2026)" excerpt="Theragun PRO Plus, Hypervolt 2 Pro, and percussion devices worth using after reformer work." href="/blog/best-massage-gun-for-pilates" category="Tech & Devices" readTime="7 min read" date="June 2026" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />
                 <ArticleCard title="Pilates Before or After Cardio?" excerpt="Evidence-based sequencing guide, whether to do your reformer session first or after your run." href="/blog/pilates-before-or-after-cardio" category="Guide" readTime="9 min read" date="June 2026" imageUrl="/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" />

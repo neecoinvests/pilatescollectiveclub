@@ -85,20 +85,20 @@ export default function PilatesBreathingTechniquesPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Method</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Breathing</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Method</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Breathing</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Pilates Breathing:<br /><span style={{ color: "#8b4a31" }}>Lateral Breathing Explained</span>
+            <h1 className="mb-6 r-d r-h1">
+              Pilates Breathing:<br /><span style={{ color: "#a98a5f" }}>Lateral Breathing Explained</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 10 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 10 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               Breathing is the first of the six classical Pilates principles and the one most people quietly ignore for their first year. That is understandable: it feels like an instruction about something you already know how to do. But the breath pattern is not decoration on top of the exercises; it is the mechanism that makes abdominal engagement possible while you are still taking in air. Once it clicks, the rest of the method becomes noticeably easier.
             </p>
           </div>
@@ -107,7 +107,7 @@ export default function PilatesBreathingTechniquesPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/roxana-popovici-Zp4APUiwEsM-unsplash.jpg" alt="Pilates breathing technique: lateral ribcage expansion practiced in a supine position" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/roxana-popovici-Zp4APUiwEsM-unsplash.jpg" alt="Pilates breathing technique: lateral ribcage expansion practiced in a supine position" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -119,22 +119,22 @@ export default function PilatesBreathingTechniquesPage() {
             <AffiliateNote />
 
             <div className="mb-14 mt-4">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Why Pilates does not use belly breathing</h2>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">Why Pilates does not use belly breathing</h2>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 Most breathing instruction you have encountered (in yoga, meditation, or a physiotherapy clinic) teaches diaphragmatic breathing, where the belly rises on the inhale. It is an excellent pattern for relaxation and it is not wrong. It is simply incompatible with what Pilates is asking the abdominal wall to do.
               </p>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 Pilates asks for near-continuous engagement of the deep abdominals to stabilize the spine while the limbs move. If the belly expands outward on every inhale, that engagement releases twelve to sixteen times a minute. You would be alternating between stabilizing and letting go, which defeats the purpose of the exercise.
               </p>
               <p className="text-base leading-relaxed">
-                <span style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+                <span style={{ color: "#3a3530" }}>
                   Lateral breathing resolves the conflict. The diaphragm still descends and still does its job: this is a common misunderstanding, and lateral breathing is not somehow non-diaphragmatic. What changes is where the expansion is permitted to show. Instead of the abdominal wall moving forward, the lower ribs widen sideways and backwards, hinging at their joints with the spine. You get a full breath, and the abdominal wall never has to release.
                 </span>
               </p>
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Learning the pattern in four steps</h2>
+              <h2 className="mb-6 r-d r-h2">Learning the pattern in four steps</h2>
               <div className="space-y-4">
                 {[
                   {
@@ -154,16 +154,16 @@ export default function PilatesBreathingTechniquesPage() {
                     body: "Only once the pattern is comfortable at rest should you add exercises. Start with something simple (knee folds, pelvic tilts, a small bridge) exhaling on the effort. Expect the pattern to fall apart the moment the exercise becomes demanding. That is normal, and the fix is to regress the exercise rather than abandon the breath.",
                   },
                 ].map((item) => (
-                  <div key={item.title} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.title}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
+                  <div key={item.title} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.title}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.body}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Breath patterns for the exercises you will actually meet</h2>
+              <h2 className="mb-6 r-d r-h2">Breath patterns for the exercises you will actually meet</h2>
               <div className="space-y-4">
                 {[
                   { label: "The Hundred", body: "Five short pumps on the inhale, five on the exhale, ten cycles. The percussive breath is the exercise as much as the arm beat is: it is a deliberate challenge to maintain abdominal engagement while breathing rhythmically under load. If you find yourself holding the breath and pumping the arms, stop and restart at a slower tempo." },
@@ -173,16 +173,16 @@ export default function PilatesBreathingTechniquesPage() {
                   { label: "Bridge / shoulder bridge", body: "Exhale to roll the pelvis up, inhale at the top, exhale to roll down vertebra by vertebra. Slower than most people do it: the point is the segmental articulation, and a long exhale is what paces it." },
                   { label: "Swan and extension work", body: "This is where classical and contemporary schools differ. Contemporary practice usually exhales into the lift for abdominal support. Classical practice often inhales into extension, using the breath to expand the chest and assist the shape. Both are defensible; follow whichever your instructor cues rather than fighting the room." },
                 ].map((item) => (
-                  <div key={item.label} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.label}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
+                  <div key={item.label} className="rounded-2xl p-5" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-sm mb-1.5 r-hx" style={{ color: "#0a0a0a" }}>{item.label}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.body}</p>
                   </div>
                 ))}
               </div>
             </div>
 
-            <div className="mb-14 rounded-2xl p-8" style={{ backgroundColor: "#fff4f1", border: "1px solid rgba(139,74,49,0.15)" }}>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The six faults instructors correct most</h2>
+            <div className="mb-14 rounded-2xl p-8" style={{ backgroundColor: "#fff4f1", border: "1px solid #ddd6cc" }}>
+              <h2 className="mb-4 r-d r-h2">The six faults instructors correct most</h2>
               <ul className="space-y-3">
                 {[
                   "Holding the breath during the hard part. The most common fault by a wide margin, and the one that most reliably raises blood pressure and stalls the exercise. If you cannot maintain the breath, the exercise is too advanced for today.",
@@ -192,8 +192,8 @@ export default function PilatesBreathingTechniquesPage() {
                   "Forcing the breath. Pilates breathing should be full but quiet. Audible, effortful inhalation usually means over-breathing, which is what produces the lightheadedness beginners often report.",
                   "Gripping the abdominals so hard that breathing becomes impossible. Engagement is roughly thirty percent of maximum, not a brace. If you cannot breathe laterally, you are holding too tightly.",
                 ].map((tip, i) => (
-                  <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                    <span className="font-semibold" style={{ color: "#8b4a31" }}>⚠</span>
+                  <li key={i} className="flex gap-3 text-base" style={{ color: "#3a3530" }}>
+                    <span className="font-semibold" style={{ color: "#0a0a0a" }}>⚠</span>
                     {tip}
                   </li>
                 ))}
@@ -201,19 +201,19 @@ export default function PilatesBreathingTechniquesPage() {
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The pelvic floor connection</h2>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">The pelvic floor connection</h2>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 The diaphragm and the pelvic floor move together. On the inhale the diaphragm descends and the pelvic floor lengthens downward slightly; on the exhale both recoil upward. This coordination is why Pilates breathing is used so widely in pelvic floor rehabilitation, and why cueing the exhale often produces better pelvic floor activation than instructing someone to squeeze.
               </p>
               <p className="text-base leading-relaxed">
-                <span style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+                <span style={{ color: "#3a3530" }}>
                   The practical implication is that a long, complete exhale does most of the work for you. If you are working on pelvic floor function (postnatally, around menopause, or after prostate surgery) the breath pattern is not a preliminary to the exercises. It largely is the exercise, and it is worth spending several weeks on it before adding load.
                 </span>
               </p>
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   { q: "What is lateral breathing in Pilates?", a: "Lateral breathing, also called intercostal or ribcage breathing, directs the inhale sideways and backwards into the lower ribs rather than forwards into the abdomen. The ribs widen laterally like a bellows while the abdominal wall stays gently drawn in. The diaphragm still descends and does the same work it always does; what changes is where the expansion is allowed to show. This lets you maintain abdominal engagement continuously while still breathing fully, which is why the method uses it." },
@@ -221,9 +221,9 @@ export default function PilatesBreathingTechniquesPage() {
                   { q: "Why do I get dizzy or lightheaded during Pilates breathing?", a: "Almost always over-breathing: inhaling harder and more often than needed while concentrating on the pattern, which lowers carbon dioxide levels and produces lightheadedness. The fix is to make the exhale longer than the inhale and let the breath stay quiet rather than forceful. Breath-holding, which is the other common cause, produces the same sensation on release. If lightheadedness persists once your breathing has settled, stop the session and get it checked rather than pushing through it." },
                   { q: "When should I inhale and exhale in Pilates?", a: "The general rule in contemporary Pilates is to exhale on the effort (the flexion, the lift, the moment of greatest abdominal demand) and inhale on the return or preparation. Exhaling naturally recruits the deep abdominal wall and pelvic floor, so it supports the spine exactly when support is most needed. Classical Pilates sometimes reverses this deliberately, notably inhaling into spinal extension. Both are legitimate; what matters far more than the direction is that you keep breathing rather than holding." },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
@@ -231,9 +231,9 @@ export default function PilatesBreathingTechniquesPage() {
 
             {/* Equipment */}
 
-            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Props that make it click</h2>
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid #ddd6cc" }}>
+              <p className="text-[12.5px] font-bold mb-2" style={{ color: "#0a0a0a" }}>Equipment</p>
+              <h2 className="mb-8 r-d r-h2">Props that make it click</h2>
               <div className="space-y-8">
                 {PRODUCTS.map((p) => (
                   <ProductCard key={p.name} name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
@@ -242,7 +242,7 @@ export default function PilatesBreathingTechniquesPage() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="The 6 Core Principles of Pilates" excerpt="Breath, concentration, centring, control, precision and flow: what each actually means in practice." href="/blog/6-core-principles-of-pilates-explained" category="Method" readTime="9 min read" date="June 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
                 <ArticleCard title="Pilates for Pelvic Floor" excerpt="How breath-led Pilates supports pelvic floor function postnatally and beyond." href="/blog/pilates-for-pelvic-floor" category="Health" readTime="10 min read" date="June 2026" imageUrl="/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg" />

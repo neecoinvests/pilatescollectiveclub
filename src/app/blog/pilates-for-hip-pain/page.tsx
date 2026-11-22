@@ -85,20 +85,20 @@ export default function PilatesForHipPainPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Health</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Hip Pain</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Health</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Hip Pain</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Pilates for Hip Pain:<br /><span style={{ color: "#8b4a31" }}>What Helps, What to Avoid</span>
+            <h1 className="mb-6 r-d r-h1">
+              Pilates for Hip Pain:<br /><span style={{ color: "#a98a5f" }}>What Helps, What to Avoid</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 11 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 11 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               Hip pain is one of the most common reasons people seek out Pilates, and for good reason. The method&apos;s emphasis on deep hip stabilizers, glute strength, and movement quality addresses many of the underlying causes of hip discomfort. But Pilates is not a uniform solution. The right approach depends entirely on what is causing the pain, and the wrong exercises can aggravate rather than relieve it.
             </p>
           </div>
@@ -107,7 +107,7 @@ export default function PilatesForHipPainPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg" alt="Pilates for hip pain: targeted exercises for hip flexors, glutes and hip stability" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg" alt="Pilates for hip pain: targeted exercises for hip flexors, glutes and hip stability" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -119,8 +119,8 @@ export default function PilatesForHipPainPage() {
             <AffiliateNote />
 
             <div className="mb-14 mt-4">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Understanding the type of hip pain you have</h2>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">Understanding the type of hip pain you have</h2>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 Hip pain presents differently depending on its origin, and this distinction matters for choosing the right Pilates approach. The most common types in active adults and those with sedentary lifestyles each respond to different exercise strategies.
               </p>
               <div className="space-y-4 mt-6">
@@ -131,17 +131,17 @@ export default function PilatesForHipPainPage() {
                   { label: "Hip osteoarthritis", body: "Aching, stiffness, and reduced range of motion, typically in those over 50. Exercise is a first-line treatment recommendation from both the NHS and NICE guidelines. Pilates is well-suited because it loads the joint without impact, and the controlled range of motion helps maintain mobility." },
                   { label: "Labral tear", body: "A tear in the cartilage ring (labrum) around the hip socket: causes clicking, catching, and deep aching. Moderate-to-severe labral tears are typically managed surgically before returning to exercise. Minor labral irritation can often be managed with a physiotherapy-guided Pilates program that avoids provocative end-range positions." },
                 ].map((item) => (
-                  <div key={item.label} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.label}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
+                  <div key={item.label} className="rounded-2xl p-5" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-sm mb-1.5 r-hx" style={{ color: "#0a0a0a" }}>{item.label}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.body}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The most effective Pilates exercises for hip pain</h2>
-              <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">The most effective Pilates exercises for hip pain</h2>
+              <p className="text-base leading-relaxed mb-6" style={{ color: "#3a3530" }}>
                 These exercises are appropriate for most hip pain presentations and form the foundation of a Pilates-based hip rehabilitation and strengthening program. Perform all exercises within a pain-free range: mild discomfort is acceptable, sharp or pinching pain is not.
               </p>
               <div className="space-y-4">
@@ -167,17 +167,17 @@ export default function PilatesForHipPainPage() {
                     body: "Lying on your back, you draw one knee to the chest while allowing the other leg to extend along the floor. The degree to which the extended leg rises indicates psoas tightness (a positive Thomas test). Hold 30–60 seconds. This is appropriate for hip flexor tightness but should be modified or avoided for impingement presentations.",
                   },
                 ].map((item) => (
-                  <div key={item.title} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.title}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
+                  <div key={item.title} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.title}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.body}</p>
                   </div>
                 ))}
               </div>
             </div>
 
-            <div className="mb-14 rounded-2xl p-8" style={{ backgroundColor: "#fff4f1", border: "1px solid rgba(139,74,49,0.15)" }}>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Exercises to avoid (or modify) with hip pain</h2>
-              <p className="text-sm leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>These classical Pilates exercises are provocative for many hip pain conditions and should be avoided or significantly modified until assessed by a qualified professional.</p>
+            <div className="mb-14 rounded-2xl p-8" style={{ backgroundColor: "#fff4f1", border: "1px solid #ddd6cc" }}>
+              <h2 className="mb-4 r-d r-h2">Exercises to avoid (or modify) with hip pain</h2>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>These classical Pilates exercises are provocative for many hip pain conditions and should be avoided or significantly modified until assessed by a qualified professional.</p>
               <ul className="space-y-3">
                 {[
                   "Rolling like a ball and open-leg rocker: forced hip flexion at end range; contraindicated for FAI and labral irritation.",
@@ -186,8 +186,8 @@ export default function PilatesForHipPainPage() {
                   "Squats to full depth: avoid if anterior hip pinching is present; limit to 60–70° of knee bend initially.",
                   "Aggressive hip flexor stretching in lunge position, not appropriate for bursitis; can increase anterior hip irritation.",
                 ].map((tip, i) => (
-                  <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                    <span className="font-semibold" style={{ color: "#8b4a31" }}>⚠</span>
+                  <li key={i} className="flex gap-3 text-base" style={{ color: "#3a3530" }}>
+                    <span className="font-semibold" style={{ color: "#0a0a0a" }}>⚠</span>
                     {tip}
                   </li>
                 ))}
@@ -195,8 +195,8 @@ export default function PilatesForHipPainPage() {
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Equipment that supports hip pain recovery</h2>
-              <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>A small selection of inexpensive tools makes at-home hip Pilates significantly more effective.</p>
+              <h2 className="mb-4 r-d r-h2">Equipment that supports hip pain recovery</h2>
+              <p className="text-base leading-relaxed mb-6" style={{ color: "#3a3530" }}>A small selection of inexpensive tools makes at-home hip Pilates significantly more effective.</p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[
                   { name: "Fabric resistance bands", use: "For clam and hip abduction progressions", url: "https://www.amazon.com/s?k=fabric+resistance+bands+pilates+glute&tag=pilatescollective-20" },
@@ -204,18 +204,18 @@ export default function PilatesForHipPainPage() {
                   { name: "Pilates ball (25cm)", use: "Inner thigh and adductor activation", url: "https://www.amazon.com/s?k=pilates+ball+small+25cm&tag=pilatescollective-20" },
                   { name: "Non-slip mat (6mm+)", use: "Cushioning for side-lying and supine work", url: "https://www.amazon.com/s?k=thick+pilates+mat+6mm+non+slip&tag=pilatescollective-20" },
                 ].map((item) => (
-                  <a key={item.name} href={item.url} target="_blank" rel="noopener noreferrer sponsored" className="block rounded-xl p-5 transition-opacity hover:opacity-80" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)" }}>
-                    <p className="text-sm font-semibold mb-1" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.name}</p>
-                    <p className="text-xs" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{item.use}</p>
-                    <p className="text-xs font-semibold mt-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Shop on Amazon →</p>
+                  <a key={item.name} href={item.url} target="_blank" rel="noopener noreferrer sponsored" className="block rounded-2xl p-5 transition-opacity hover:opacity-80" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-sm mb-1 r-hx" style={{ color: "#0a0a0a" }}>{item.name}</p>
+                    <p className="text-xs" style={{ color: "#6f6964" }}>{item.use}</p>
+                    <p className="text-xs font-semibold mt-2" style={{ color: "#0a0a0a" }}>Shop on Amazon →</p>
                   </a>
                 ))}
               </div>
-              <p className="text-xs mt-4" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Affiliate links: we earn a small commission on qualifying purchases at no extra cost to you.</p>
+              <p className="text-xs mt-4" style={{ color: "#6f6964" }}>*Affiliate links: we earn a small commission on qualifying purchases at no extra cost to you.</p>
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   { q: "Is Pilates safe for hip impingement (FAI)?", a: "Pilates can be safe and beneficial for femoroacetabular impingement (FAI), but specific modifications are essential. Exercises that force deep hip flexion, such as double-leg stretch and open-leg rocker, should be avoided or significantly modified. The focus should be on posterior chain strengthening (glutes, hamstrings), hip external rotation, and lateral hip stability. Work with a Pilates instructor who has clinical rehabilitation experience, or a physiotherapist who integrates Pilates into treatment." },
@@ -223,9 +223,9 @@ export default function PilatesForHipPainPage() {
                   { q: "How long does it take for Pilates to help hip pain?", a: "Most people with muscular hip pain (flexor tightness, weak glutes) notice improvement within 4–6 weeks of consistent practice. Structural conditions like arthritis or labral tears may take longer, 8–12 weeks, and require modification of standard Pilates exercises. Acute hip bursitis should be assessed by a physiotherapist before beginning any exercise program." },
                   { q: "What equipment do I need for Pilates hip exercises at home?", a: "A quality mat is the essential starting point. A small Pilates ball (23–25cm) is useful for inner-thigh and pelvic floor exercises. Resistance bands add progressive loading for glute and hip work. A foam roller can be used for hip flexor and TFL release before and after practice. The TheraBand mini loop bands and TriggerPoint GRID foam roller listed below come to about $45 together on Amazon." },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
@@ -233,9 +233,9 @@ export default function PilatesForHipPainPage() {
 
 
             {/* Equipment */}
-            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Recommended kit</h2>
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid #ddd6cc" }}>
+              <p className="text-[12.5px] font-bold mb-2" style={{ color: "#0a0a0a" }}>Equipment</p>
+              <h2 className="mb-8 r-d r-h2">Recommended kit</h2>
               <div className="space-y-8">
                 {PRODUCTS.map((p) => (
                   <ProductCard key={p.name} name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
@@ -244,7 +244,7 @@ export default function PilatesForHipPainPage() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Pilates for Back Pain" excerpt="Clinical research meets practical guidance on using Pilates to address chronic lower back pain." href="/blog/pilates-for-back-pain" category="Health" readTime="10 min read" date="June 2026" imageUrl="/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg" />
                 <ArticleCard title="Pilates for Runners" excerpt="Hip stability, IT band relief, and cadence work: the specific Pilates that helps runners." href="/blog/pilates-for-runners" category="Performance" readTime="11 min read" date="June 2026" imageUrl="/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg" />

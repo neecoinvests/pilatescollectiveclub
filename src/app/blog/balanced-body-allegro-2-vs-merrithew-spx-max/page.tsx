@@ -125,20 +125,20 @@ export default function Allegro2VsSpxMaxPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Comparison</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Reformers</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Comparison</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Reformers</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Balanced Body vs<br /><span style={{ color: "#8b4a31" }}>Merrithew</span>
+            <h1 className="mb-6 r-d r-h1">
+              Balanced Body vs<br /><span style={{ color: "#a98a5f" }}>Merrithew</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 11 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 11 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               These are the two commercial-brand reformers you can actually buy on Amazon today: Balanced Body&apos;s Studio Reformer and Merrithew&apos;s At Home SPX Reformer Package. They&apos;re not close on price ($4,700 against $3,349, a gap of about 40%) and neither one folds for storage, so this isn&apos;t a comparison of mechanisms. It&apos;s a comparison of what the extra $1,350 actually buys: frame material, spring feel, and how deep an accessory ecosystem you plug into.
             </p>
           </div>
@@ -147,7 +147,7 @@ export default function Allegro2VsSpxMaxPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/stitch-reformer-morning-light.png" alt="A Pilates reformer in a home studio in morning light" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/stitch-reformer-morning-light.png" alt="A Pilates reformer in a home studio in morning light" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -159,9 +159,9 @@ export default function Allegro2VsSpxMaxPage() {
             <AffiliateNote />
 
 
-            <div className="mb-14 mt-4 rounded-2xl p-7" style={{ backgroundColor: "#fff4f1", border: "1px solid rgba(139,74,49,0.15)" }}>
-              <p className="text-xs font-semibold uppercase tracking-[0.15em] mb-3" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>The short version</p>
-              <p className="text-base leading-relaxed mb-0" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+            <div className="mb-14 mt-4 rounded-2xl p-7" style={{ backgroundColor: "#fff4f1", border: "1px solid #ddd6cc" }}>
+              <p className="text-[12.5px] font-bold mb-3" style={{ color: "#0a0a0a" }}>The short version</p>
+              <p className="text-base leading-relaxed mb-0" style={{ color: "#3a3530" }}>
                 Budget is the real constraint here: At Home SPX, sold and shipped by Amazon.com, gets you genuine Merrithew springs and a complete starter kit for $3,349. If you can stretch to $4,700 and expect to build out a home studio over years with a tower, mat conversion and boxes, the Studio Reformer&apos;s Balanced Body ecosystem is the better long-term platform. Neither folds, so storage isn&apos;t the deciding factor: plan for a permanent 8-by-2.5-foot spot either way.
               </p>
             </div>
@@ -170,7 +170,7 @@ export default function Allegro2VsSpxMaxPage() {
               <div className="r-qp-hd">
                 <p className="r-qp-title">At a glance &middot; verified September 2026</p>
               </div>
-              {REFORMERS.map((p, i) => (
+              {REFORMERS.map((p) => (
                 <div key={p.name} className="r-qp-row">
                   <div className="r-qp-tx">
                     <p className="r-qp-name">{p.name}</p>
@@ -183,31 +183,31 @@ export default function Allegro2VsSpxMaxPage() {
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Neither one folds: plan the floor space first</h2>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">Neither one folds: plan the floor space first</h2>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 Both machines run the full reformer repertoire, and both are permanent-installation pieces of equipment: roughly 8 feet long by 2.5 feet wide, with no fold-flat or wall-mount storage option on either. If you need a machine that disappears between sessions, this pairing isn&apos;t it: look at Balanced Body&apos;s Allegro 2, which can be stood on end with an optional wheel kit, or a cord-based AeroPilates machine that genuinely folds.
               </p>
-              <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>
                 Since storage isn&apos;t the differentiator, the decision comes down to budget and how deep you want to go into an accessory ecosystem. Our{" "}
-                <Link href="/blog/pilates-reformer-dimensions-and-space-requirements" style={{ color: "#8b4a31", textDecoration: "underline" }}>dimensions and space guide</Link>{" "}
+                <Link href="/blog/pilates-reformer-dimensions-and-space-requirements" style={{ color: "#0a0a0a", textDecoration: "underline" }}>dimensions and space guide</Link>{" "}
                 covers the clearance both need in use.
               </p>
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Head to head</h2>
+              <h2 className="mb-6 r-d r-h2">Head to head</h2>
               <div className="space-y-4">
                 {COMPARISON.map((row) => (
-                  <div key={row.factor} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{row.factor}</p>
+                  <div key={row.factor} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-4 r-hx" style={{ color: "#0a0a0a" }}>{row.factor}</p>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                       <div style={{ minWidth: 0 }}>
-                        <p className="text-xs font-semibold uppercase tracking-[0.12em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Balanced Body Studio Reformer</p>
-                        <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{row.a}</p>
+                        <p className="text-[12.5px] font-bold mb-2" style={{ color: "#0a0a0a" }}>Balanced Body Studio Reformer</p>
+                        <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{row.a}</p>
                       </div>
                       <div style={{ minWidth: 0 }}>
-                        <p className="text-xs font-semibold uppercase tracking-[0.12em] mb-2" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Merrithew At Home SPX</p>
-                        <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{row.b}</p>
+                        <p className="text-[12.5px] font-bold mb-2" style={{ color: "#6f6964" }}>Merrithew At Home SPX</p>
+                        <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{row.b}</p>
                       </div>
                     </div>
                   </div>
@@ -216,32 +216,32 @@ export default function Allegro2VsSpxMaxPage() {
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>On price: a real 40% gap, not a rounding error</h2>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">On price: a real 40% gap, not a rounding error</h2>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 The Studio Reformer is $4,700, sold direct by Balanced Body through their Amazon storefront, made to order with a three-to-four-week ship time.
               </p>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 The At Home SPX Reformer Package is $3,349, sold and shipped by Amazon.com itself, the only machine in this comparison with standard Amazon fulfillment. That&apos;s roughly $1,350 less, a genuine 40% price gap that should factor into the decision rather than being treated as a rounding difference.
               </p>
-              <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>
                 Both list prices are for the base machine only; towers, boxes and jumpboards are separate purchases on either. Our guide to{" "}
-                <Link href="/blog/where-to-buy-a-pilates-reformer" style={{ color: "#8b4a31", textDecoration: "underline" }}>where to buy a reformer</Link>{" "}
+                <Link href="/blog/where-to-buy-a-pilates-reformer" style={{ color: "#0a0a0a", textDecoration: "underline" }}>where to buy a reformer</Link>{" "}
                 covers how delivery and lead times differ by channel.
               </p>
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The five-year question</h2>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">The five-year question</h2>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 Reformers are platforms. What mounts to them is model-specific, not universal, so the machine you choose determines what you can add to it for as long as you own it.
               </p>
-              <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>
                 Balanced Body has the deepest accessory catalog in the industry: towers, mat conversions, riser kits, jumpboards, boxes, all purpose-built. If you can see yourself adding a tower or mat conversion over the next few years (Balanced Body sells the Studio Reformer with both bundled in for $6,975), that ecosystem is worth paying for now. If you want a reformer to do reformer work and the budget difference matters more, the At Home SPX delivers genuine Merrithew quality with everything you need to start included in the box.
               </p>
             </div>
 
-            <div className="mb-14 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2" }}>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Settle these before ordering either</h2>
+            <div className="mb-14 rounded-2xl p-8" style={{ backgroundColor: "#ede9e3" }}>
+              <h2 className="mb-4 r-d r-h2">Settle these before ordering either</h2>
               <ul className="space-y-3">
                 {[
                   "Is $1,350 the difference that matters most to you, or is the accessory ecosystem worth paying for now?",
@@ -251,8 +251,8 @@ export default function Allegro2VsSpxMaxPage() {
                   "Can the machine physically reach the room? Measure doorways, corridor turns and lift depth.",
                   "What do replacement springs and ropes cost for that model, and are they stocked?",
                 ].map((tip, i) => (
-                  <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                    <span className="font-semibold" style={{ color: "#8b4a31" }}>⚠</span>
+                  <li key={i} className="flex gap-3 text-base" style={{ color: "#3a3530" }}>
+                    <span className="font-semibold" style={{ color: "#0a0a0a" }}>⚠</span>
                     {tip}
                   </li>
                 ))}
@@ -260,7 +260,7 @@ export default function Allegro2VsSpxMaxPage() {
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   { q: "Which is better, the Balanced Body Studio Reformer or the Merrithew At Home SPX?", a: "They sit at different price points and solve different problems. The Studio Reformer is $4,700, has a solid rock maple frame, and plugs into Balanced Body's deep accessory ecosystem. The At Home SPX is $3,349, sold and shipped by Amazon.com directly, and covers the core repertoire on genuine Merrithew springs for meaningfully less. Neither folds, both are permanent-installation machines. If budget is the deciding factor, the At Home SPX wins; if you plan to build out a full home studio over years, the Studio Reformer's accessory range is the better long-term platform." },
@@ -268,19 +268,19 @@ export default function Allegro2VsSpxMaxPage() {
                   { q: "Do either of these reformers fold for storage?", a: "No. Neither the Studio Reformer nor the At Home SPX folds flat or collapses for storage, both need a dedicated, permanent floor space of roughly 8 feet by 2.5 feet. If a folding machine matters to you, look at Balanced Body's Allegro 2 (which can stand on end with an optional wheel kit) or AeroPilates' cord-based machines, which do fold on wheels." },
                   { q: "Can you add a tower to either machine?", a: "Yes. Balanced Body sells the Studio Reformer with a Tower and Mat Conversion option for $6,975. Merrithew's tower-equipped machine on Amazon is the Rehab V2 Max Plus ($8,199), which includes the Vertical Frame built in rather than as an add-on to the At Home SPX. Confirm tower compatibility for the exact model before ordering, and measure your ceiling height first." },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             {/* Reformers */}
-            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Reformers</p>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Both machines</h2>
-              <p className="text-base leading-relaxed mb-8" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid #ddd6cc" }}>
+              <p className="text-[12.5px] font-bold mb-2" style={{ color: "#0a0a0a" }}>Reformers</p>
+              <h2 className="mb-4 r-d r-h2">Both machines</h2>
+              <p className="text-base leading-relaxed mb-8" style={{ color: "#3a3530" }}>
                 The two machines this comparison is about, both verified live on Amazon. About $1,350 separates them, so decide on budget and ecosystem, not on storage mechanism. Check the warranty covers your intended use before ordering.
               </p>
               <div className="space-y-8">
@@ -291,10 +291,10 @@ export default function Allegro2VsSpxMaxPage() {
             </div>
 
             {/* Equipment */}
-            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Accessories for whichever you choose</h2>
-              <p className="text-base leading-relaxed mb-8" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid #ddd6cc" }}>
+              <p className="text-[12.5px] font-bold mb-2" style={{ color: "#0a0a0a" }}>Equipment</p>
+              <h2 className="mb-4 r-d r-h2">Accessories for whichever you choose</h2>
+              <p className="text-base leading-relaxed mb-8" style={{ color: "#3a3530" }}>
                 The additions people make after the machine. Mountings and spring fittings are model-specific rather than universal, so confirm compatibility with your exact machine before ordering.
               </p>
               <div className="space-y-8">
@@ -305,7 +305,7 @@ export default function Allegro2VsSpxMaxPage() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Merrithew Rehab V2 Max Plus Review" excerpt="The V2 Max-family machine Merrithew actually sells on Amazon, reviewed in full." href="/blog/merrithew-v2-max-review" category="Equipment" readTime="11 min read" date="September 2026" imageUrl="/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg" />
                 <ArticleCard title="Align Pilates vs Balanced Body" excerpt="The other brand pairing buyers cross-shop, with current pricing." href="/blog/align-pilates-vs-balanced-body" category="Comparison" readTime="12 min read" date="September 2026" imageUrl="/pictures/stitch-reformer-row-studio.png" />

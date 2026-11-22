@@ -408,12 +408,12 @@ const jsonLd = {
   ],
 };
 
-const eyebrowStyle = { color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" };
-const bodyStyle = { color: "#53433e", fontFamily: "'Montserrat', sans-serif" };
-const h2Style = { color: "#1b1c1c", fontFamily: "'Playfair Display', serif" };
-const h3Style = { color: "#1b1c1c", fontFamily: "'Playfair Display', serif" };
-const inlineLinkStyle = { color: "#8b4a31", textDecoration: "underline" };
-const cardStyle = { backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" };
+const eyebrowStyle = { color: "#0a0a0a" };
+const bodyStyle = { color: "#3a3530" };
+const h2Style = { color: "#0a0a0a" };
+const h3Style = { color: "#0a0a0a" };
+const inlineLinkStyle = { color: "#0a0a0a", textDecoration: "underline" };
+const cardStyle = { backgroundColor: "#ede9e3" };
 
 const MISTAKES = [
   {
@@ -445,19 +445,19 @@ const MISTAKES = [
 const renderKit = (items: KitItem[]) =>
   items.map((c) => (
     <div key={c.id} id={c.id} className="mb-14 scroll-mt-28">
-      <h3 className="text-2xl font-semibold mb-3" style={h3Style}>{c.shortName}</h3>
-      <p className="text-sm leading-relaxed mb-8" style={bodyStyle}>{c.why}</p>
+      <h3 className="text-2xl mb-3 r-hx" style={h3Style}>{c.shortName}</h3>
+      <p className="text-base leading-relaxed mb-8" style={bodyStyle}>{c.why}</p>
       <div className="space-y-8">
         {c.picks.map((p) => (
           <div key={p.name}>
             <div className="flex items-center gap-3 mb-4">
-              <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tier}</span>
+              <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{p.tier}</span>
             </div>
             <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.url} />
           </div>
         ))}
       </div>
-      <Link href={c.guideHref} className="text-sm font-semibold" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>
+      <Link href={c.guideHref} className="text-sm font-semibold" style={{ color: "#0a0a0a" }}>
         {c.guideLabel} →
       </Link>
     </div>
@@ -478,23 +478,23 @@ export default function LagreeForBeginnersPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={eyebrowStyle}>Beginner Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Lagree</span>
+              <span className="text-[12.5px] font-bold" style={eyebrowStyle}>Beginner Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Lagree</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Lagree for Beginners<br /><span style={{ color: "#8b4a31" }}>(2026): Your First-Class Guide</span>
+            <h1 className="mb-6 r-d r-h1">
+              Lagree for Beginners<br /><span style={{ color: "#a98a5f" }}>(2026): Your First-Class Guide</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 11 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 11 min read</p>
             <TopPick name={QUICK_PICKS[0].name} price={QUICK_PICKS[0].price} note={QUICK_PICKS[0].note} url={QUICK_PICKS[0].url} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed mb-6" style={{ color: "#3a3530" }}>
               Your first Lagree class will probably be one of the hardest slow workouts you have ever done. That is not a warning to stay away: it is the whole point of the method. This guide explains what Lagree is, what a class actually feels like, what happens at the studio, the mistakes almost every beginner makes, and how often to go. At the end there is a short, honest kit list, with a total, so you can turn up prepared without buying things you do not need.
             </p>
-            <p className="text-sm leading-relaxed" style={bodyStyle}>
+            <p className="text-base leading-relaxed" style={bodyStyle}>
               Every Amazon listing below was checked as live on September 28, 2026, at the price shown. Prices change, so the final price is whatever the retailer shows at checkout.
             </p>
           </div>
@@ -502,8 +502,8 @@ export default function LagreeForBeginnersPage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/stitch-hands-on-carriage.png" alt="Hands on a sliding carriage: what to expect in your first Lagree class as a beginner" fill className="object-cover" style={{ filter: "brightness(0.85)" }} priority />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/stitch-hands-on-carriage.png" alt="Hands on a sliding carriage: what to expect in your first Lagree class as a beginner" fill className="object-cover" priority />
             </div>
           </div>
         </section>
@@ -516,10 +516,10 @@ export default function LagreeForBeginnersPage() {
 
             {/* Related hubs */}
             <div className="mb-10 mt-4 flex flex-col sm:flex-row gap-3">
-              <Link href="/blog/lagree-essentials" className="flex-1 rounded-xl p-4 text-sm font-semibold" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.4)", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif", textDecoration: "none" }}>
+              <Link href="/blog/lagree-essentials" className="flex-1 rounded-2xl p-4 text-sm font-semibold" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a", textDecoration: "none" }}>
                 Want every category? See our Lagree essentials →
               </Link>
-              <Link href="/blog/lagree-vs-pilates" className="flex-1 rounded-xl p-4 text-sm font-semibold" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.4)", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif", textDecoration: "none" }}>
+              <Link href="/blog/lagree-vs-pilates" className="flex-1 rounded-2xl p-4 text-sm font-semibold" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a", textDecoration: "none" }}>
                 Coming from Pilates? → Lagree vs Pilates
               </Link>
             </div>
@@ -548,14 +548,14 @@ export default function LagreeForBeginnersPage() {
 
             {/* What is Lagree */}
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-6" style={h2Style}>What is Lagree, in plain English?</h2>
-              <p className="text-sm leading-relaxed mb-4" style={bodyStyle}>
+              <h2 className="mb-6 r-d r-h2" style={h2Style}>What is Lagree, in plain English?</h2>
+              <p className="text-base leading-relaxed mb-4" style={bodyStyle}>
                 Lagree is a workout method created by Sebastien Lagree and taught on his own machine, the Megaformer. The Megaformer looks a little like a Pilates reformer (there is a sliding carriage, springs for resistance and platforms at each end) but the method is different. Lagree is built around slow, controlled movement and time under tension: instead of doing lots of quick reps, you move the carriage slowly and keep the working muscle loaded for the whole set.
               </p>
-              <p className="text-sm leading-relaxed mb-4" style={bodyStyle}>
+              <p className="text-base leading-relaxed mb-4" style={bodyStyle}>
                 The result is a workout that is low-impact (no jumping, no pounding on your joints) but high-intensity. You are working hard the whole time, just not quickly. Sets flow from one to the next with short transitions, so your heart rate tends to stay up even though nothing about it looks like cardio.
               </p>
-              <p className="text-sm leading-relaxed" style={bodyStyle}>
+              <p className="text-base leading-relaxed" style={bodyStyle}>
                 One thing to get straight early: Lagree is not Pilates. Sebastien Lagree was inspired by Pilates, and the machines share some DNA, but the goals, pace and intensity are different. If you are coming from reformer classes, expect less focus on precise breath and alignment work and much more muscular fatigue. Our{" "}
                 <Link href="/blog/lagree-vs-pilates" style={inlineLinkStyle}>Lagree vs Pilates guide</Link> goes deeper, and our{" "}
                 <Link href="/blog/lagree-fitness" style={inlineLinkStyle}>Lagree Fitness brand guide</Link> covers the company and its machines.
@@ -564,8 +564,8 @@ export default function LagreeForBeginnersPage() {
 
             {/* What a class feels like */}
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-6" style={h2Style}>What your first class actually feels like</h2>
-              <p className="text-sm leading-relaxed mb-6" style={bodyStyle}>
+              <h2 className="mb-6 r-d r-h2" style={h2Style}>What your first class actually feels like</h2>
+              <p className="text-base leading-relaxed mb-6" style={bodyStyle}>
                 Nobody tells you this properly, so here it is honestly.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
@@ -576,23 +576,23 @@ export default function LagreeForBeginnersPage() {
                   { heading: "It is sweaty", body: "Expect to sweat more than in a reformer Pilates class. Grip socks and a towel on the carriage stop your hands and feet from slipping." },
                 ].map((item) => (
                   <div key={item.heading} className="rounded-xl p-5" style={cardStyle}>
-                    <p className="text-sm font-semibold mb-1.5" style={h3Style}>{item.heading}</p>
-                    <p className="text-sm leading-relaxed" style={bodyStyle}>{item.body}</p>
+                    <p className="text-sm mb-1.5 r-hx" style={h3Style}>{item.heading}</p>
+                    <p className="text-base leading-relaxed" style={bodyStyle}>{item.body}</p>
                   </div>
                 ))}
               </div>
-              <p className="text-sm leading-relaxed mb-4" style={bodyStyle}>
+              <p className="text-base leading-relaxed mb-4" style={bodyStyle}>
                 The coordination can also feel awkward. You will move between positions on the carriage and platforms quickly, and you will not always know which way to face. That is fine: watch the person next to you, and the instructor will help. By your third or fourth class the transitions start to feel familiar.
               </p>
-              <p className="text-sm leading-relaxed" style={bodyStyle}>
+              <p className="text-base leading-relaxed" style={bodyStyle}>
                 Many beginners feel sore for a day or two afterwards, especially in the legs and core. That usually eases as your body adapts. If something feels sharp or painful rather than simply tired, stop and tell the instructor.
               </p>
             </div>
 
             {/* Studio expectations */}
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-6" style={h2Style}>What to expect at the studio</h2>
-              <p className="text-sm leading-relaxed mb-6" style={bodyStyle}>
+              <h2 className="mb-6 r-d r-h2" style={h2Style}>What to expect at the studio</h2>
+              <p className="text-base leading-relaxed mb-6" style={bodyStyle}>
                 Every studio runs slightly differently, but first classes tend to follow the same pattern. Here is how to make yours go smoothly.
               </p>
               <ol className="space-y-4 mb-6">
@@ -605,17 +605,17 @@ export default function LagreeForBeginnersPage() {
                   { heading: "Wipe down your machine", body: "Shared machines get sweaty. Most studios expect you to wipe the carriage and handles at the end of class." },
                 ].map((step, i) => (
                   <li key={step.heading} className="flex gap-4">
-                    <span className="text-base font-semibold w-7 shrink-0 text-center" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{String(i + 1).padStart(2, "0")}</span>
+                    <span className="text-base w-7 shrink-0 text-center r-hx" style={{ color: "#9a9490" }}>{String(i + 1).padStart(2, "0")}</span>
                     <div>
-                      <p className="text-sm font-semibold mb-1" style={h3Style}>{step.heading}</p>
-                      <p className="text-sm leading-relaxed" style={bodyStyle}>{step.body}</p>
+                      <p className="text-sm mb-1 r-hx" style={h3Style}>{step.heading}</p>
+                      <p className="text-base leading-relaxed" style={bodyStyle}>{step.body}</p>
                     </div>
                   </li>
                 ))}
               </ol>
-              <div className="rounded-xl p-5" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.5)" }}>
-                <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={eyebrowStyle}>A quick safety note</p>
-                <p className="text-sm leading-relaxed" style={bodyStyle}>
+              <div className="rounded-2xl p-5" style={{ backgroundColor: "#ede9e3" }}>
+                <p className="text-[12.5px] font-bold mb-2" style={eyebrowStyle}>A quick safety note</p>
+                <p className="text-base leading-relaxed" style={bodyStyle}>
                   Lagree is a high-intensity method. If you have an injury, a medical condition, or are pregnant or postpartum, check with your doctor or physiotherapist before starting, and tell your instructor before class. This guide is general information, not medical advice.
                 </p>
               </div>
@@ -623,15 +623,15 @@ export default function LagreeForBeginnersPage() {
 
             {/* Mistakes */}
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-6" style={h2Style}>Six common beginner mistakes (and how to fix them)</h2>
+              <h2 className="mb-6 r-d r-h2" style={h2Style}>Six common beginner mistakes (and how to fix them)</h2>
               <div className="space-y-4">
                 {MISTAKES.map((m, i) => (
                   <div key={m.heading} className="rounded-xl p-6" style={cardStyle}>
                     <div className="flex items-baseline gap-3 mb-2">
-                      <span className="text-sm font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{String(i + 1).padStart(2, "0")}</span>
-                      <h3 className="text-base font-semibold" style={h3Style}>{m.heading}</h3>
+                      <span className="text-sm r-hx" style={{ color: "#9a9490" }}>{String(i + 1).padStart(2, "0")}</span>
+                      <h3 className="text-base r-hx" style={h3Style}>{m.heading}</h3>
                     </div>
-                    <p className="text-sm leading-relaxed" style={bodyStyle}>{m.body}</p>
+                    <p className="text-base leading-relaxed" style={bodyStyle}>{m.body}</p>
                   </div>
                 ))}
               </div>
@@ -639,14 +639,14 @@ export default function LagreeForBeginnersPage() {
 
             {/* Frequency */}
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-6" style={h2Style}>How often should a beginner do Lagree?</h2>
-              <p className="text-sm leading-relaxed mb-4" style={bodyStyle}>
+              <h2 className="mb-6 r-d r-h2" style={h2Style}>How often should a beginner do Lagree?</h2>
+              <p className="text-base leading-relaxed mb-4" style={bodyStyle}>
                 A sensible starting point for most beginners is two or three classes a week, with at least one rest day between them. The slow, sustained tension that makes Lagree effective also means your muscles need time to recover, and turning up exhausted makes it much harder to hold good form.
               </p>
-              <p className="text-sm leading-relaxed mb-4" style={bodyStyle}>
+              <p className="text-base leading-relaxed mb-4" style={bodyStyle}>
                 After a few weeks, once the post-class soreness is milder and the moves feel familiar, you can add a class if you want to. Regulars often go more frequently, but they have built up to it. Walking, stretching or a gentle mat session on your off days helps you feel less stiff without adding more load.
               </p>
-              <p className="text-sm leading-relaxed" style={bodyStyle}>
+              <p className="text-base leading-relaxed" style={bodyStyle}>
                 Consistency matters more than volume. Two classes a week you can keep up for months will do more for you than five in the first week followed by a fortnight off.
               </p>
             </div>
@@ -654,11 +654,11 @@ export default function LagreeForBeginnersPage() {
             {/* Studio kit */}
             <div className="mb-8">
               <div className="flex items-center gap-4 mb-10">
-                <p className="text-xs font-semibold uppercase tracking-[0.2em] shrink-0" style={eyebrowStyle}>What to bring to class</p>
-                <div className="flex-1 h-px" style={{ backgroundColor: "#d9c2ba" }} />
+                <p className="text-[12.5px] font-bold shrink-0" style={eyebrowStyle}>What to bring to class</p>
+                <div className="flex-1 h-px" style={{ backgroundColor: "#ddd6cc" }} />
               </div>
-              <h2 className="text-3xl font-semibold mb-4" style={h2Style}>The beginner Lagree kit: five things, nothing more</h2>
-              <p className="text-sm leading-relaxed mb-10" style={bodyStyle}>
+              <h2 className="mb-4 r-d r-h2" style={h2Style}>The beginner Lagree kit: five things, nothing more</h2>
+              <p className="text-base leading-relaxed mb-10" style={bodyStyle}>
                 You do not need a new wardrobe for Lagree. You need grip, fitted clothing, a towel and water, plus a knee pad if kneeling bothers you. Here is one well-chosen pick for each, with a cheaper option where it makes sense. For every category, including gloves, sports bras and recovery, see our full{" "}
                 <Link href="/blog/lagree-essentials" style={inlineLinkStyle}>Lagree essentials list</Link>.
               </p>
@@ -666,10 +666,10 @@ export default function LagreeForBeginnersPage() {
             </div>
 
             {/* Kit total */}
-            <div className="mb-16 rounded-2xl p-6 md:p-8" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.5)" }}>
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={eyebrowStyle}>What the beginner kit costs</p>
-              <h2 className="text-2xl font-semibold mb-3" style={h2Style}>Your first-class kit, added up</h2>
-              <p className="text-sm leading-relaxed mb-6" style={bodyStyle}>
+            <div className="mb-16 rounded-2xl p-6 md:p-8" style={{ backgroundColor: "#ede9e3" }}>
+              <p className="text-[12.5px] font-bold mb-3" style={eyebrowStyle}>What the beginner kit costs</p>
+              <h2 className="mb-3 r-d r-h2" style={h2Style}>Your first-class kit, added up</h2>
+              <p className="text-base leading-relaxed mb-6" style={bodyStyle}>
                 One item from each of the {STUDIO_KIT.length} categories above, using the verified prices on this page. Where a category has no budget option, the budget kit uses the main pick.
               </p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -677,8 +677,8 @@ export default function LagreeForBeginnersPage() {
                   { label: "Our picks", items: STUDIO_PICK_KIT, total: STUDIO_PICK_TOTAL },
                   { label: "On a budget", items: STUDIO_BUDGET_KIT, total: STUDIO_BUDGET_TOTAL },
                 ].map((kit) => (
-                  <div key={kit.label} className="rounded-xl p-5" style={{ backgroundColor: "#f6f3f2" }}>
-                    <p className="text-base font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{kit.label}</p>
+                  <div key={kit.label} className="rounded-xl p-5" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-4 r-hx" style={{ color: "#0a0a0a" }}>{kit.label}</p>
                     <ul className="space-y-1.5 mb-4">
                       {kit.items.map((k) => (
                         <li key={k.category} className="flex justify-between gap-3 text-xs" style={bodyStyle}>
@@ -687,14 +687,14 @@ export default function LagreeForBeginnersPage() {
                         </li>
                       ))}
                     </ul>
-                    <div className="flex justify-between pt-3 text-sm font-semibold" style={{ borderTop: "1px solid #d9c2ba", color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>
+                    <div className="flex justify-between pt-3 text-sm font-semibold" style={{ borderTop: "1px solid #ddd6cc", color: "#0a0a0a" }}>
                       <span>Total</span>
                       <span>{fmt(kit.total)}</span>
                     </div>
                   </div>
                 ))}
               </div>
-              <p className="text-sm leading-relaxed mt-6" style={bodyStyle}>
+              <p className="text-base leading-relaxed mt-6" style={bodyStyle}>
                 Almost all the difference between the two kits is the grip socks ($30.00 vs $7.59) and the knee pad ($20.72 vs $14.99). If you skip the knee pad and borrow the studio&apos;s towel, the true minimum is grip socks, shorts and a bottle you probably already own. Buy the budget kit for your first month, then upgrade whatever you actually use.
               </p>
             </div>
@@ -702,20 +702,20 @@ export default function LagreeForBeginnersPage() {
             {/* Home kit */}
             <div className="mb-8">
               <div className="flex items-center gap-4 mb-10">
-                <p className="text-xs font-semibold uppercase tracking-[0.2em] shrink-0" style={eyebrowStyle}>Between classes</p>
-                <div className="flex-1 h-px" style={{ backgroundColor: "#d9c2ba" }} />
+                <p className="text-[12.5px] font-bold shrink-0" style={eyebrowStyle}>Between classes</p>
+                <div className="flex-1 h-px" style={{ backgroundColor: "#ddd6cc" }} />
               </div>
-              <h2 className="text-3xl font-semibold mb-4" style={h2Style}>Lagree-inspired floor work at home</h2>
-              <p className="text-sm leading-relaxed mb-4" style={bodyStyle}>
+              <h2 className="mb-4 r-d r-h2" style={h2Style}>Lagree-inspired floor work at home</h2>
+              <p className="text-base leading-relaxed mb-4" style={bodyStyle}>
                 Let&apos;s be clear first: floor work is not Lagree. There is no Megaformer, no springs and no carriage, and nothing on the floor recreates the way the machine loads your muscles. What you can practice at home is the principle (slow, controlled movement with the muscle under tension for a timed set) which makes your studio classes feel more familiar.
               </p>
-              <p className="text-sm leading-relaxed mb-10" style={bodyStyle}>
+              <p className="text-base leading-relaxed mb-10" style={bodyStyle}>
                 Three inexpensive tools get you most of the way: sliders for lunges and planks, an interval timer for timed sets, and light ankle weights. Together, the picks below come to {fmt(HOME_TOTAL)}. For more ideas, read our{" "}
                 <Link href="/blog/lagree-at-home" style={inlineLinkStyle}>Lagree at home guide</Link>.
               </p>
               {renderKit(HOME_KIT)}
-              <div className="mb-16 rounded-xl p-5" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.5)" }}>
-                <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={eyebrowStyle}>Home floor kit total</p>
+              <div className="mb-16 rounded-2xl p-5" style={{ backgroundColor: "#ede9e3" }}>
+                <p className="text-[12.5px] font-bold mb-2" style={eyebrowStyle}>Home floor kit total</p>
                 <ul className="space-y-1.5 mb-4">
                   {HOME_PICK_KIT.map((k) => (
                     <li key={k.category} className="flex justify-between gap-3 text-xs" style={bodyStyle}>
@@ -724,7 +724,7 @@ export default function LagreeForBeginnersPage() {
                     </li>
                   ))}
                 </ul>
-                <div className="flex justify-between pt-3 text-sm font-semibold" style={{ borderTop: "1px solid #d9c2ba", color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>
+                <div className="flex justify-between pt-3 text-sm font-semibold" style={{ borderTop: "1px solid #ddd6cc", color: "#0a0a0a" }}>
                   <span>Total</span>
                   <span>{fmt(HOME_TOTAL)}</span>
                 </div>
@@ -734,47 +734,47 @@ export default function LagreeForBeginnersPage() {
             {/* The Micro */}
             <div className="mb-16">
               <div className="flex items-center gap-4 mb-10">
-                <p className="text-xs font-semibold uppercase tracking-[0.2em] shrink-0" style={eyebrowStyle}>If you&apos;re hooked</p>
-                <div className="flex-1 h-px" style={{ backgroundColor: "#d9c2ba" }} />
+                <p className="text-[12.5px] font-bold shrink-0" style={eyebrowStyle}>If you&apos;re hooked</p>
+                <div className="flex-1 h-px" style={{ backgroundColor: "#ddd6cc" }} />
               </div>
-              <h2 className="text-3xl font-semibold mb-4" style={h2Style}>The Micro: real Lagree at home</h2>
-              <p className="text-sm leading-relaxed mb-4" style={bodyStyle}>
+              <h2 className="mb-4 r-d r-h2" style={h2Style}>The Micro: real Lagree at home</h2>
+              <p className="text-base leading-relaxed mb-4" style={bodyStyle}>
                 If a few months in you are going several times a week and wish you could train at home, Lagree Fitness makes a compact machine for exactly that. The Micro is designed to deliver the Megaformer-style workout in a smaller, lighter, portable machine, and it is sold by Lagree Fitness itself through its Amazon store. It is not a first purchase, learn the method in a studio before you spend this much, but it is the only genuinely Lagree machine a beginner can realistically buy for home. The studio Megaformer is not sold on Amazon; for that, contact{" "}
                 <a href="https://www.lagreefitness.com/" target="_blank" rel="noopener noreferrer" style={inlineLinkStyle}>Lagree Fitness directly</a>.
               </p>
-              <div className="mb-8 rounded-xl p-5" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.5)" }}>
-                <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={eyebrowStyle}>Limited stock</p>
-                <p className="text-sm leading-relaxed" style={bodyStyle}>
+              <div className="mb-8 rounded-2xl p-5" style={{ backgroundColor: "#ede9e3" }}>
+                <p className="text-[12.5px] font-bold mb-2" style={eyebrowStyle}>Limited stock</p>
+                <p className="text-base leading-relaxed" style={bodyStyle}>
                   The Micro was in stock when we checked, but the listing showed low stock. If it is unavailable when you look, buy direct from{" "}
                   <a href="https://www.lagreefitness.com/" target="_blank" rel="noopener noreferrer" style={inlineLinkStyle}>lagreefitness.com</a>.
                 </p>
               </div>
               <div className="flex items-center gap-3 mb-4">
-                <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{MICRO.tier}</span>
+                <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{MICRO.tier}</span>
               </div>
               <ProductCard name={MICRO.name} description={MICRO.description} price={MICRO.price} affiliateUrl={MICRO.url} />
 
-              <h3 className="text-2xl font-semibold mb-3 mt-6" style={h3Style}>Useful add-ons for a beginner</h3>
-              <p className="text-sm leading-relaxed mb-8" style={bodyStyle}>
+              <h3 className="text-2xl mb-3 mt-6 r-hx" style={h3Style}>Useful add-ons for a beginner</h3>
+              <p className="text-base leading-relaxed mb-8" style={bodyStyle}>
                 You can start with the Micro on its own. These two accessories, also sold by Lagree Fitness, make it more versatile and more stable. A pulley cable attachment ($230.00) is available too, but it is not a beginner priority.
               </p>
               <div className="space-y-8 mb-8">
                 {MICRO_ADDONS.map((p) => (
                   <div key={p.name}>
                     <div className="flex items-center gap-3 mb-4">
-                      <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tier}</span>
+                      <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{p.tier}</span>
                     </div>
                     <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.url} />
                   </div>
                 ))}
               </div>
 
-              <div className="rounded-2xl p-6 md:p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.5)" }}>
-                <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={eyebrowStyle}>The math</p>
-                <p className="text-sm leading-relaxed mb-4" style={bodyStyle}>
+              <div className="rounded-2xl p-6 md:p-8" style={{ backgroundColor: "#ede9e3" }}>
+                <p className="text-[12.5px] font-bold mb-3" style={eyebrowStyle}>The math</p>
+                <p className="text-base leading-relaxed mb-4" style={bodyStyle}>
                   Lagree classes in major US cities commonly cost $35–$45 or more each. At that rate, The Micro on its own ({MICRO.price}) costs about the same as {Math.round(MICRO_PRICE / 45)}–{Math.round(MICRO_PRICE / 35)} classes. With the rear platform and one pair of handlebars, the setup comes to {fmt(MICRO_SETUP_TOTAL)} ($990.00 + $290.00 + $190.00), or roughly {Math.round(MICRO_SETUP_TOTAL / 45)}–{Math.round(MICRO_SETUP_TOTAL / 35)} classes. Adding the pulley cables brings the full setup to $1,700.00.
                 </p>
-                <p className="text-sm leading-relaxed" style={bodyStyle}>
+                <p className="text-base leading-relaxed" style={bodyStyle}>
                   A home machine will not correct your form the way an instructor does, so most people keep a studio class in their week. For the full machine breakdown, see our{" "}
                   <Link href="/blog/lagree-fitness" style={inlineLinkStyle}>Lagree Fitness guide</Link> and{" "}
                   <Link href="/blog/best-megaformer-machine" style={inlineLinkStyle}>best Megaformer machines</Link>.
@@ -784,12 +784,12 @@ export default function LagreeForBeginnersPage() {
 
             {/* FAQ */}
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={h2Style}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2" style={h2Style}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {FAQS.map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={cardStyle}>
-                    <h3 className="text-base font-semibold mb-2" style={h3Style}>{item.q}</h3>
-                    <p className="text-sm leading-relaxed" style={bodyStyle}>{item.a}</p>
+                    <h3 className="text-base mb-2 r-hx" style={h3Style}>{item.q}</h3>
+                    <p className="text-base leading-relaxed" style={bodyStyle}>{item.a}</p>
                   </div>
                 ))}
               </div>
@@ -797,7 +797,7 @@ export default function LagreeForBeginnersPage() {
 
             {/* Further reading */}
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={h2Style}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2" style={h2Style}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Lagree vs Pilates" excerpt="How the two methods really differ: machine, pace, intensity and who each one suits." href="/blog/lagree-vs-pilates" category="Guide" readTime="10 min read" date="September 2026" imageUrl="/pictures/stitch-reformer-row-studio.png" />
                 <ArticleCard title="Lagree Essentials" excerpt="Best, budget and splurge picks for every Lagree category, from grip socks to recovery." href="/blog/lagree-essentials" category="Equipment" readTime="12 min read" date="September 2026" imageUrl="/pictures/stitch-grip-socks-footbar.png" />

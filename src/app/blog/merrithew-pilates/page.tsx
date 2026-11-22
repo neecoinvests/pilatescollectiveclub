@@ -126,20 +126,20 @@ export default function MerrithewPilatesPage() {
       <Header />
       <main>
         {/* Hero section */}
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Merrithew</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Equipment Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Merrithew</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Merrithew for Pilates (2026):<br /><span style={{ color: "#8b4a31" }}>STOTT Equipment, Certification &amp; Guide</span>
+            <h1 className="mb-6 r-d r-h1">
+              Merrithew for Pilates (2026):<br /><span style={{ color: "#a98a5f" }}>STOTT Equipment, Certification &amp; Guide</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 12 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 12 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               Merrithew is one of the two dominant names in professional Pilates equipment: the other being Balanced Body. Founded in Toronto in 1988, the company operates under both the Merrithew and STOTT PILATES® brands: Merrithew on the equipment, STOTT PILATES on the internationally recognized instructor certification program. Their reformers are found in hotel spas, physical therapy clinics, and certified training facilities on every continent. This guide covers the full product range, the STOTT methodology, and an honest assessment of who their equipment suits, from home practitioners to studio owners.
             </p>
           </div>
@@ -148,13 +148,12 @@ export default function MerrithewPilatesPage() {
         {/* Hero image */}
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
+            <div className="pcc-city-hero-image relative r-ah-img">
               <Image
                 src="/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg"
                 alt="Merrithew Pilates reformer equipment: STOTT Pilates studio setup reviewed"
                 fill
                 className="object-cover"
-                style={{ filter: "brightness(0.85)" }}
               />
             </div>
           </div>
@@ -169,27 +168,27 @@ export default function MerrithewPilatesPage() {
             {/* Brand overview */}
 
             <div className="mb-16 mt-4">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The studio-trusted brand behind STOTT Pilates</h2>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">The studio-trusted brand behind STOTT Pilates</h2>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 Merrithew was founded in 1988 by Moira and Lindsay Merrithew in Toronto, Canada. Moira brought a background as a professional dancer (she had studied under Alan Herdman, one of the first instructors to bring classical Pilates to the United Kingdom) and it was this grounding in movement science and performance training that shaped the STOTT methodology. Working with a team of physiotherapists, sports medicine specialists, and fitness experts, Moira developed what became STOTT PILATES: a contemporary approach to Pilates built on anatomically correct, evidence-based principles, with particular attention to spine-neutral positioning. Where classical Pilates emphasizes a flat back and imprinted lumbar spine, STOTT methodology works to restore and maintain the natural curves of the spine: a distinction that matters in both clinical and fitness contexts.
               </p>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 The STOTT PILATES certification program became one of the most internationally respected instructor credentials in the industry. Programs now run in more than 100 countries, and the curriculum goes significantly beyond movement instruction: STOTT-certified instructors study anatomy, kinesiology, and exercise science alongside the method itself. The breadth of that education is part of why STOTT-certified instructors are preferred by physical therapy clinics and rehabilitation centers: the credential carries genuine clinical credibility that many Pilates certifications do not. For practitioners choosing a studio or instructor, seeing the STOTT PILATES designation is a reliable signal of rigorous training.
               </p>
-              <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>
                 On the equipment side, Merrithew&apos;s philosophy is precision over volume. Their product line is narrower than Balanced Body&apos;s, with each reformer tier differentiated by intended use. The Rehab V2 Max Plus Reformer sits at the top of what is genuinely sold on Amazon: a raised-frame, clinical/professional machine with a built-in Vertical Frame and a patented retractable rope system, at $8,199. Below it, the SPX Max is Merrithew&apos;s studio-line name, sold through Merrithew&apos;s own site and authorized dealers rather than as a standalone Amazon listing, and the At Home SPX Reformer Package, at $3,349, brings genuine spring-based reformer technology into the home market as the real Amazon-sold entry point. The distinctive blue color scheme and quieter carriage operation are consistent across the range and have become recognizable markers of Merrithew equipment in the studio environments where it most commonly appears.
               </p>
             </div>
 
             {/* Products section */}
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Real, Verified Amazon Listings</p>
+              <p className="text-[12.5px] font-bold mb-10" style={{ color: "#0a0a0a" }}>5 Real, Verified Amazon Listings</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
                     <div className="flex items-center gap-3 mb-4">
-                      <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                      <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tag}</span>
+                      <span className="text-2xl r-hx" style={{ color: "#9a9490" }}>{p.rank}</span>
+                      <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{p.tag}</span>
                     </div>
                     <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                   </div>
@@ -198,9 +197,9 @@ export default function MerrithewPilatesPage() {
             </div>
 
             {/* Product line breakdown */}
-            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#8b4a31" }}>
-              <h2 className="text-2xl font-semibold mb-2" style={{ color: "#fcf9f8", fontFamily: "'Playfair Display', serif" }}>Understanding the Merrithew product line</h2>
-              <p className="text-sm mb-6" style={{ color: "rgba(252,249,248,0.75)", fontFamily: "'Montserrat', sans-serif" }}>Three reformer tiers, differentiated by use case: prices below are what we could verify as genuine, currently-sold Amazon listings, or flagged where they are not</p>
+            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#0a0a0a" }}>
+              <h2 className="mb-2 r-d r-h2" style={{ color: "#fcf9f8" }}>Understanding the Merrithew product line</h2>
+              <p className="text-base mb-6" style={{ color: "rgba(252,249,248,0.75)" }}>Three reformer tiers, differentiated by use case: prices below are what we could verify as genuine, currently-sold Amazon listings, or flagged where they are not</p>
               <div className="space-y-0 divide-y" style={{ borderColor: "rgba(252,249,248,0.15)" }}>
                 {[
                   {
@@ -224,16 +223,16 @@ export default function MerrithewPilatesPage() {
                 ].map((row) => (
                   <div key={row.model} className="py-5">
                     <div className="flex items-start justify-between gap-4 mb-1">
-                      <p className="text-base font-semibold" style={{ color: "#fcf9f8", fontFamily: "'Playfair Display', serif" }}>{row.model}</p>
-                      <span className="text-sm font-semibold whitespace-nowrap" style={{ color: "rgba(252,249,248,0.6)", fontFamily: "'Montserrat', sans-serif" }}>{row.price}</span>
+                      <p className="text-base r-hx" style={{ color: "#fcf9f8" }}>{row.model}</p>
+                      <span className="text-sm font-semibold whitespace-nowrap" style={{ color: "rgba(252,249,248,0.6)" }}>{row.price}</span>
                     </div>
-                    <p className="text-xs font-semibold uppercase tracking-widest mb-2" style={{ color: "rgba(252,249,248,0.5)", fontFamily: "'Montserrat', sans-serif" }}>{row.use}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "rgba(252,249,248,0.8)", fontFamily: "'Montserrat', sans-serif" }}>{row.notes}</p>
+                    <p className="text-[12.5px] font-bold mb-2" style={{ color: "rgba(252,249,248,0.5)" }}>{row.use}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "rgba(252,249,248,0.8)" }}>{row.notes}</p>
                   </div>
                 ))}
               </div>
               <div className="mt-6 pt-5" style={{ borderTop: "1px solid rgba(252,249,248,0.15)" }}>
-                <p className="text-xs leading-relaxed" style={{ color: "rgba(252,249,248,0.6)", fontFamily: "'Montserrat', sans-serif" }}>
+                <p className="text-xs leading-relaxed" style={{ color: "rgba(252,249,248,0.6)" }}>
                   Note: all Merrithew reformers require professional assembly. Springs should be inspected annually and replaced according to the manufacturer&apos;s schedule: spring integrity is critical to safe operation and consistent resistance calibration.
                 </p>
               </div>
@@ -241,7 +240,7 @@ export default function MerrithewPilatesPage() {
 
             {/* FAQ */}
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   {
@@ -261,9 +260,9 @@ export default function MerrithewPilatesPage() {
                     a: "No. The spring systems and accessory mounting points differ between brands. Jump boards, towers, vertical stands, and upholstery components are all manufacturer-specific. Attempting to fit Balanced Body accessories to a Merrithew reformer, or vice versa, will not work and could compromise the machine's structural integrity. Always source accessories from your reformer's manufacturer.",
                   },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
@@ -271,7 +270,7 @@ export default function MerrithewPilatesPage() {
 
             {/* Further reading */}
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard
                   title="Balanced Body vs Merrithew (2026)"

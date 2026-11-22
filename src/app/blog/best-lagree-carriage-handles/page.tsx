@@ -45,7 +45,7 @@ const PRODUCTS = [
     price: "$190.00",
     verdict: "The real Lagree handles on Amazon, for The Micro only",
     description:
-      "These are the only genuine Lagree-branded handles we could find on Amazon, and they are sold by Lagree Fitness itself through its own Amazon store. The important caveat: they are made for <strong>The Micro</strong>, Lagree's compact home machine, and fit The Micro only. They will not retrofit a studio Megaformer, a Pilates reformer or any other machine. The handlebars are sold as a pair and can be mounted at the front or the back of The Micro. Using them at the back requires the <a href=\"https://www.amazon.com/dp/B0BKN2LSWD?tag=pilatescollective-20\" style=\"color:#8b4a31\" target=\"_blank\" rel=\"noopener noreferrer nofollow sponsored\">Micro Rear Platform</a> ($290.00, also sold by Lagree Fitness), and if you want handlebars at both ends at the same time you need two pairs. Why they matter for Lagree-style work: a lot of the method happens in planks, kneeling positions and lunges where your hands need something solid to hold while the carriage moves under you. On a bare Micro, those holds are improvised; with handlebars they become stable, repeatable positions you can sink into for the long, slow time under tension the method is built on. If you own The Micro, this is the handle upgrade, full stop.",
+      "These are the only genuine Lagree-branded handles we could find on Amazon, and they are sold by Lagree Fitness itself through its own Amazon store. The important caveat: they are made for <strong>The Micro</strong>, Lagree's compact home machine, and fit The Micro only. They will not retrofit a studio Megaformer, a Pilates reformer or any other machine. The handlebars are sold as a pair and can be mounted at the front or the back of The Micro. Using them at the back requires the <a href=\"https://www.amazon.com/dp/B0BKN2LSWD?tag=pilatescollective-20\" style=\"color:#0a0a0a\" target=\"_blank\" rel=\"noopener noreferrer nofollow sponsored\">Micro Rear Platform</a> ($290.00, also sold by Lagree Fitness), and if you want handlebars at both ends at the same time you need two pairs. Why they matter for Lagree-style work: a lot of the method happens in planks, kneeling positions and lunges where your hands need something solid to hold while the carriage moves under you. On a bare Micro, those holds are improvised; with handlebars they become stable, repeatable positions you can sink into for the long, slow time under tension the method is built on. If you own The Micro, this is the handle upgrade, full stop.",
     affiliateUrl: amz("B0BKMP89SH"),
     tag: "Best for The Micro",
   },
@@ -55,7 +55,7 @@ const PRODUCTS = [
     price: "$31.99",
     verdict: "Best grip glove for handles and straps",
     description:
-      "From here down, nothing is a handle. These are grip aids: things you wear so your hands stay put on whatever handle the studio's machine already has. TAVI is a studio-wear brand best known for grip socks, and these half-finger gloves are the most Lagree-appropriate glove we found. The half-finger cut matters for the method: your fingertips stay bare, so you keep feel on the handle and on the platform when you move from a handle hold into a plank with your palms down. The glove covers the palm, which is where sweat builds up and where repeated slow pulls and long holds tend to rub. Sold through The Active Footwear Store, an official TAVI distributor. For a deeper look at the category, see our <a href=\"/blog/best-lagree-gloves\" style=\"color:#8b4a31\">Lagree gloves guide</a>.",
+      "From here down, nothing is a handle. These are grip aids: things you wear so your hands stay put on whatever handle the studio's machine already has. TAVI is a studio-wear brand best known for grip socks, and these half-finger gloves are the most Lagree-appropriate glove we found. The half-finger cut matters for the method: your fingertips stay bare, so you keep feel on the handle and on the platform when you move from a handle hold into a plank with your palms down. The glove covers the palm, which is where sweat builds up and where repeated slow pulls and long holds tend to rub. Sold through The Active Footwear Store, an official TAVI distributor. For a deeper look at the category, see our <a href=\"/blog/best-lagree-gloves\" style=\"color:#0a0a0a\">Lagree gloves guide</a>.",
     affiliateUrl: amz("B09GPVMF86"),
     tag: "Best Grip Glove",
   },
@@ -156,9 +156,9 @@ const jsonLd = {
   ],
 };
 
-const bodyStyle = { color: "#53433e", fontFamily: "'Montserrat', sans-serif" };
-const h2Style = { color: "#1b1c1c", fontFamily: "'Playfair Display', serif" };
-const inlineLinkStyle = { color: "#8b4a31", textDecoration: "underline" };
+const bodyStyle = { color: "#3a3530" };
+const h2Style = { color: "#0a0a0a" };
+const inlineLinkStyle = { color: "#0a0a0a", textDecoration: "underline" };
 
 const QP_NOTES = ["The real Lagree handles on Amazon, for The Micro only", "Best grip glove for handles and straps", "Best minimalist grip aid", "Best wrist support for plank-heavy sessions", "Best budget grip glove", "Studio Megaformer owners"];
 
@@ -168,20 +168,20 @@ export default function BestLagreeCarriageHandlesPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Lagree</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Equipment Guide</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Lagree</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Equipment Guide</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={h2Style}>
-              Lagree Handles<br /><span style={{ color: "#8b4a31" }}>& Grip Aids (2026)</span>
+            <h1 className="mb-6 r-d r-h1" style={h2Style}>
+              Lagree Handles<br /><span style={{ color: "#a98a5f" }}>& Grip Aids (2026)</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 9 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 9 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ ...bodyStyle, fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ ...bodyStyle }}>
               Search for &quot;Lagree handles&quot; and you&apos;ll find plenty of listings that hint at Megaformer compatibility. Very few of them are what they seem. Here is the honest picture: the handles on a studio Megaformer are original parts you get from Lagree Fitness. The one genuine Lagree handle product on Amazon is the Micro Handlebars, for Lagree&apos;s compact home machine. Everything else worth buying is a grip aid, something that helps your hands hold the handles you already have.
             </p>
           </div>
@@ -189,8 +189,8 @@ export default function BestLagreeCarriageHandlesPage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/stitch-hands-on-carriage.png" alt="Hands gripping a Lagree-style carriage" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/stitch-hands-on-carriage.png" alt="Hands gripping a Lagree-style carriage" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -198,12 +198,12 @@ export default function BestLagreeCarriageHandlesPage() {
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
 
-            <div className="mb-10 rounded-2xl p-6" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.4)" }}>
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>How we chose these picks</p>
-              <p className="text-sm leading-relaxed" style={bodyStyle}>Only one true Lagree handle is sold on Amazon, the Lagree Fitness Micro Handlebars, so that leads the list, and everything else is a grip aid rather than a handle. Every Amazon product below links to a specific listing whose price and availability we verified on October 2, 2026. We have not used these products in a lab test; the reasoning below is based on what each listing states and how Lagree classes actually use the hands.</p>
+            <div className="mb-10 rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+              <p className="text-[12.5px] font-bold mb-3" style={{ color: "#0a0a0a" }}>How we chose these picks</p>
+              <p className="text-base leading-relaxed" style={bodyStyle}>Only one true Lagree handle is sold on Amazon, the Lagree Fitness Micro Handlebars, so that leads the list, and everything else is a grip aid rather than a handle. Every Amazon product below links to a specific listing whose price and availability we verified on October 2, 2026. We have not used these products in a lab test; the reasoning below is based on what each listing states and how Lagree classes actually use the hands.</p>
             </div>
 
-            <h2 className="text-3xl font-semibold mb-6" style={h2Style}>What &quot;Lagree handles&quot; actually means</h2>
+            <h2 className="mb-6 r-d r-h2" style={h2Style}>What &quot;Lagree handles&quot; actually means</h2>
             <div className="space-y-5 mb-12 text-base leading-relaxed" style={bodyStyle}>
               <p>People mean three different things by &quot;Lagree handles&quot;, and the right purchase depends on which one you mean.</p>
               <p><strong>1. The handles on a studio Megaformer.</strong> These are built into a commercial machine and sold by its manufacturer. If you own a Megaformer and a handle is damaged or missing, you need an OEM replacement from Lagree Fitness. Nothing on Amazon is a verified substitute.</p>
@@ -215,13 +215,13 @@ export default function BestLagreeCarriageHandlesPage() {
             <AffiliateNote>Most links on this page go to Amazon, where we earn a small commission on qualifying purchases. One link goes directly to lagreefitness.com because Megaformer parts are not sold on Amazon. Amazon prices were verified on October 2, 2026 and can change.</AffiliateNote>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>6 Picks · Handles, Grip Aids & Wrist Support</p>
+              <p className="text-[12.5px] font-bold mb-10" style={{ color: "#0a0a0a" }}>6 Picks · Handles, Grip Aids & Wrist Support</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
                     <div className="flex items-center gap-3 mb-4">
-                      <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                      <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tag}</span>
+                      <span className="text-2xl r-hx" style={{ color: "#9a9490" }}>{p.rank}</span>
+                      <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{p.tag}</span>
                     </div>
                     <ProductCard name={p.name} description={p.description} descriptionHtml={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                   </div>
@@ -229,12 +229,12 @@ export default function BestLagreeCarriageHandlesPage() {
               </div>
             </div>
 
-            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.3)" }}>
-              <h2 className="text-2xl font-semibold mb-4" style={h2Style}>Not Lagree-specific? That&apos;s fine</h2>
-              <p className="text-sm leading-relaxed" style={bodyStyle}>Only the first two picks are Lagree products. The gloves, pads and wraps are general training gear, and that&apos;s the honest state of the market: nobody makes a verified &quot;Megaformer grip&quot; accessory, and you don&apos;t need one. What your hands need on a Lagree machine is the same thing they need on any sweaty handle under slow, sustained load: friction where the palm meets the bar, and a stable wrist. Buy for that, and ignore any listing that leans on the Lagree or Megaformer name without being sold by Lagree Fitness.</p>
+            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#ede9e3" }}>
+              <h2 className="mb-4 r-d r-h2" style={h2Style}>Not Lagree-specific? That&apos;s fine</h2>
+              <p className="text-base leading-relaxed" style={bodyStyle}>Only the first two picks are Lagree products. The gloves, pads and wraps are general training gear, and that&apos;s the honest state of the market: nobody makes a verified &quot;Megaformer grip&quot; accessory, and you don&apos;t need one. What your hands need on a Lagree machine is the same thing they need on any sweaty handle under slow, sustained load: friction where the palm meets the bar, and a stable wrist. Buy for that, and ignore any listing that leans on the Lagree or Megaformer name without being sold by Lagree Fitness.</p>
             </div>
 
-            <h2 className="text-3xl font-semibold mb-6" style={h2Style}>Why grip matters more in Lagree than in most classes</h2>
+            <h2 className="mb-6 r-d r-h2" style={h2Style}>Why grip matters more in Lagree than in most classes</h2>
             <div className="space-y-5 mb-12 text-base leading-relaxed" style={bodyStyle}>
               <p><strong>Slow tempo means long holds.</strong> Lagree is built on slow, controlled movement and continuous time under tension. A rep that takes a second or two in a gym can take several times longer on the machine, and you may hold a position for a full block. Your grip is working the whole time, so small problems such as a slightly slippery palm or a rubbing spot get magnified over a 45-minute class.</p>
               <p><strong>Sweat builds as the class goes on.</strong> Lagree classes are sweaty and hard. By the second half, palms that felt fine in the warm-up can start to slide. When your hand slips, the instinct is to squeeze harder, which tires your forearms and pulls attention away from the muscles the move is meant to target.</p>
@@ -242,7 +242,7 @@ export default function BestLagreeCarriageHandlesPage() {
               <p><strong>Hands go from handles to platforms.</strong> Many sequences move from a handle hold straight into a plank or kneeling position with your palms flat on a platform. That&apos;s why we favor half-finger gloves and grip pads over thick full-finger gloves: bare fingertips keep feel on the platform, and pads can simply be set down.</p>
             </div>
 
-            <h2 className="text-3xl font-semibold mb-6" style={h2Style}>Gloves, pads or wraps: which do you need?</h2>
+            <h2 className="mb-6 r-d r-h2" style={h2Style}>Gloves, pads or wraps: which do you need?</h2>
             <div className="space-y-5 mb-12 text-base leading-relaxed" style={bodyStyle}>
               <p><strong>Choose gloves</strong> if your palms get slippery or sore and you want something you can put on before class and forget about. Half-finger styles such as the TAVI pair are the best compromise for Lagree because they leave your fingertips free.</p>
               <p><strong>Choose grip pads</strong> if you only struggle in certain blocks. You hold them against the handle when you need them and set them aside the rest of the time. They&apos;re also the cheapest way to see whether extra grip helps you at all.</p>
@@ -250,26 +250,26 @@ export default function BestLagreeCarriageHandlesPage() {
               <p><strong>Choose nothing</strong> if your grip is fine. Plenty of regulars train bare-handed with a towel nearby, and that is a perfectly good approach. Our <Link href="/blog/best-lagree-gloves" style={inlineLinkStyle}>Lagree gloves guide</Link> goes deeper on when gloves are worth it.</p>
             </div>
 
-            <h2 className="text-3xl font-semibold mb-6" style={h2Style}>If you own The Micro</h2>
+            <h2 className="mb-6 r-d r-h2" style={h2Style}>If you own The Micro</h2>
             <div className="space-y-5 mb-12 text-base leading-relaxed" style={bodyStyle}>
               <p>The Micro is sold without handlebars. The Lagree Fitness Micro Handlebars ($190.00 a pair) can be used at the front or the back of the machine. Using them at the back requires the Micro Rear Platform ($290.00), and you need two pairs of handlebars if you want them at both ends at once. Plan the purchase in that order: machine, then rear platform if you want it, then handlebars for each end you&apos;ll use.</p>
               <p>For the full picture of setting up at home, including what The Micro costs and how it compares with a studio machine, see our <Link href="/blog/best-megaformer-machine" style={inlineLinkStyle}>best Megaformer machine guide</Link> and <Link href="/blog/lagree-at-home" style={inlineLinkStyle}>Lagree at home</Link>.</p>
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={h2Style}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2" style={h2Style}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {FAQS.map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={h2Style}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={bodyStyle}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={h2Style}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={bodyStyle}>{item.a}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={h2Style}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2" style={h2Style}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Lagree Fitness: The Brand Guide" excerpt="The company behind the Megaformer and The Micro, and what you can actually buy." href="/blog/lagree-fitness" category="Brand" readTime="12 min read" date="September 2026" imageUrl="/pictures/stitch-reformers-aerial-row.png" />
                 <ArticleCard title="Lagree Gloves (2026)" excerpt="Do you need gloves for Lagree? Who benefits, and the grip gloves and wraps worth buying." href="/blog/best-lagree-gloves" category="Lagree" readTime="9 min read" date="October 2026" imageUrl="/pictures/stitch-hands-on-carriage.png" />

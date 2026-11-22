@@ -129,33 +129,33 @@ export default function PilatesForDiastasisRectiPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Health</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Postpartum Recovery</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Health</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Postpartum Recovery</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Pilates for<br /><span style={{ color: "#8b4a31" }}>Diastasis Recti</span>
+            <h1 className="mb-6 r-d r-h1">
+              Pilates for<br /><span style={{ color: "#a98a5f" }}>Diastasis Recti</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 9 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 9 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed mb-6" style={{ color: "#3a3530" }}>
               Diastasis recti, the separation of the rectus abdominis muscles at the linea alba, affects up to 60% of women at some point postpartum. Pilates, when correctly adapted, is one of the most effective rehabilitation modalities available. When incorrectly applied, it can delay recovery and worsen the separation. The distinction is in the details: which exercises, in what sequence, with what breath pattern, at what stage of recovery.
             </p>
             <div className="rounded-xl p-6 mb-8" style={{ backgroundColor: "#fff9f5", border: "1px solid rgba(197,168,130,0.3)" }}>
-              <p className="text-xs font-semibold uppercase tracking-[0.15em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Medical note</p>
-              <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>This guide is for general educational purposes. Diastasis recti severity varies significantly between individuals, and a pelvic floor physiotherapist assessment is the most reliable starting point for a personalized recovery program.</p>
+              <p className="text-[12.5px] font-bold mb-2" style={{ color: "#0a0a0a" }}>Medical note</p>
+              <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>This guide is for general educational purposes. Diastasis recti severity varies significantly between individuals, and a pelvic floor physiotherapist assessment is the most reliable starting point for a personalized recovery program.</p>
             </div>
           </div>
         </section>
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" alt="Pilates exercises for diastasis recti recovery" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" alt="Pilates exercises for diastasis recti recovery" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -167,18 +167,18 @@ export default function PilatesForDiastasisRectiPage() {
             <AffiliateNote />
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What is diastasis recti?</h2>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">What is diastasis recti?</h2>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 Diastasis recti (DR) is the widening of the gap between the two sides of the rectus abdominis: the linea alba. It occurs when the connective tissue is stretched beyond its capacity to maintain tension, most commonly during pregnancy. A gap wider than 2 finger widths (approximately 2.5cm) at the level of the navel, combined with poor tissue tension at that gap, is the clinical definition most physiotherapists use.
               </p>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 The measurement alone is not the only meaningful factor: a 3-finger gap with good tissue tension (where the connective tissue still generates force) may be less functionally limiting than a 2-finger gap with poor tension. This is why self-assessment has limits and a professional assessment is valuable.
               </p>
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Safe Pilates exercises for diastasis recti</h2>
-              <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">Safe Pilates exercises for diastasis recti</h2>
+              <p className="text-base leading-relaxed mb-6" style={{ color: "#3a3530" }}>
                 The following exercises are generally considered safe across most stages of diastasis recti recovery, provided they do not cause coning or doming of the abdominal wall:
               </p>
               <div className="space-y-4 mb-8">
@@ -192,8 +192,8 @@ export default function PilatesForDiastasisRectiPage() {
                   <div key={item.title} className="flex gap-4">
                     <div className="w-1.5 rounded-full shrink-0 mt-1" style={{ backgroundColor: "#c5a882", minHeight: "20px" }} />
                     <div>
-                      <p className="text-sm font-semibold mb-1" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{item.title}</p>
-                      <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.text}</p>
+                      <p className="text-base font-semibold mb-1" style={{ color: "#0a0a0a" }}>{item.title}</p>
+                      <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.text}</p>
                     </div>
                   </div>
                 ))}
@@ -201,16 +201,16 @@ export default function PilatesForDiastasisRectiPage() {
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Exercises to avoid</h2>
-              <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">Exercises to avoid</h2>
+              <p className="text-base leading-relaxed mb-6" style={{ color: "#3a3530" }}>
                 The following exercises create high intra-abdominal pressure or directly load the linea alba and should be avoided until the separation has closed and tissue tension has returned:
               </p>
               <div className="rounded-xl p-6" style={{ backgroundColor: "#fff9f5", border: "1px solid rgba(197,168,130,0.3)" }}>
                 <ul className="space-y-2">
                   {["Traditional crunches and sit-ups", "The Pilates Hundred (unmodified)", "Double-leg lowering from the floor", "Oblique crunches and twisting sit-up variations", "Heavy lifting without breath management", "Plank variations held for duration (initially)"].map((item) => (
                     <li key={item} className="flex items-center gap-3">
-                      <span style={{ color: "#8b4a31" }}>×</span>
-                      <span className="text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item}</span>
+                      <span style={{ color: "#0a0a0a" }}>×</span>
+                      <span className="text-sm" style={{ color: "#3a3530" }}>{item}</span>
                     </li>
                   ))}
                 </ul>
@@ -218,14 +218,14 @@ export default function PilatesForDiastasisRectiPage() {
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Recommended equipment</h2>
-              <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
+              <h2 className="mb-6 r-d r-h2">Recommended equipment</h2>
+              <p className="text-xs mb-8" style={{ color: "#6f6964" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
                     <div className="flex items-center gap-3 mb-4">
-                      <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                      <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tag}</span>
+                      <span className="text-2xl r-hx" style={{ color: "#9a9490" }}>{p.rank}</span>
+                      <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{p.tag}</span>
                     </div>
                     <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                   </div>
@@ -234,23 +234,23 @@ export default function PilatesForDiastasisRectiPage() {
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   { q: "Is Pilates good for diastasis recti?", a: "Yes, when appropriately modified. Pilates emphasizes deep core activation, breath coordination, and controlled movement: all central to diastasis recti rehabilitation. The key is working with a qualified instructor who understands abdominal separation and can modify standard Pilates exercises to avoid loading the linea alba inappropriately, particularly in the early recovery phase." },
                   { q: "Which Pilates exercises should I avoid with diastasis recti?", a: "Avoid exercises that cause coning or doming of the abdominal wall: the visible ridge that appears along the midline when the separation is being loaded. Standard crunches, double-leg lowering, the Pilates Hundred in the traditional position, and any exercise that creates high intra-abdominal pressure should be avoided until the separation has closed sufficiently. A pelvic floor physiotherapist assessment is the most reliable way to identify your specific safe range." },
                   { q: "How long does it take for diastasis recti to heal with Pilates?", a: "Recovery timelines vary significantly by severity of separation, postnatal history, and consistency of rehabilitation. A mild separation with consistent targeted rehabilitation can show meaningful improvement within 8-16 weeks. Moderate to severe separations typically require 6-12 months of progressive rehabilitation. The quality of tissue tension at the linea alba matters as much as the gap measurement: functional recovery often precedes full closure." },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Pilates and Pregnancy" excerpt="Safe Pilates practice through all trimesters: what changes, what stays, what to avoid." href="/blog/pilates-and-pregnancy" category="Health" readTime="8 min read" date="March 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
                 <ArticleCard title="Pilates for Pelvic Floor" excerpt="How Pilates supports pelvic floor function: exercises, cues, and what the research says." href="/blog/pilates-for-pelvic-floor" category="Health" readTime="7 min read" date="April 2026" imageUrl="/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg" />

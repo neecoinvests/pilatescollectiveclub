@@ -130,20 +130,20 @@ export default function VarleyPilatesPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Brand Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Varley</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Brand Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Varley</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Varley for Pilates (2026):<br /><span style={{ color: "#8b4a31" }}>The Boutique Studio Brand Reviewed</span>
+            <h1 className="mb-6 r-d r-h1">
+              Varley for Pilates (2026):<br /><span style={{ color: "#a98a5f" }}>The Boutique Studio Brand Reviewed</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 9 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 9 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note="Varley's full-length Freesoft legging, sold by Shopbop on Amazon" url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               Varley was founded in London in 2012 with a specific vision: activewear designed for the boutique fitness environment, Pilates, barre, and yoga studios where the aesthetic matters as much as the performance. The brand has earned its position at the premium end of the Pilates wardrobe through consistent quality and a deep understanding of the specific demands the method places on clothing. This guide covers the pieces worth buying and the honest limitations of the brand.
             </p>
           </div>
@@ -151,8 +151,8 @@ export default function VarleyPilatesPage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/logan-weaver-lgnwvr-u76Gd0hP5w4-unsplash.jpg" alt="Varley Freesoft leggings and Harley bralette for Pilates: boutique studio activewear brand reviewed" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/logan-weaver-lgnwvr-u76Gd0hP5w4-unsplash.jpg" alt="Varley Freesoft leggings and Harley bralette for Pilates: boutique studio activewear brand reviewed" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -167,11 +167,11 @@ export default function VarleyPilatesPage() {
             <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-16 mt-4">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What makes Varley different from Lululemon and Alo</h2>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">What makes Varley different from Lululemon and Alo</h2>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 Varley occupies a specific market position: more sophisticated in aesthetic than Lululemon, more European in sensibility than Alo. The brand is British-founded and their color palette reflects it: muted, tonal, understated rather than the saturated hues that Alo uses. In the boutique Pilates studios of Mayfair, Paris, and Zurich, Varley is the most common premium brand. In New York, it competes directly with Alo.
               </p>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 The functional differentiator is their approach to fabric: the LUXE-fit fabric used across their core Pilates range achieves a specific balance of softness and structure that positions the brand between the pure softness of the Lululemon Align and the firmer compression of the Alo Airbrush. For practitioners who find the Align slightly too unstructured and the Airbrush slightly too firm, Varley is the natural choice.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-6">
@@ -180,22 +180,22 @@ export default function VarleyPilatesPage() {
                   { heading: "vs Alo Yoga", body: "Less compression than the Airbrush. More European aesthetic. Better post-class transition pieces. More neutral colorways." },
                   { heading: "vs Vuori", body: "More Pilates-specific design intent. Less unisex appeal. Higher price. Cleaner studio aesthetic, less street-casual." },
                 ].map((item) => (
-                  <div key={item.heading} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.heading}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
+                  <div key={item.heading} className="rounded-2xl p-5" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-sm mb-1.5 r-hx" style={{ color: "#0a0a0a" }}>{item.heading}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.body}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Varley Pieces · Compared</p>
+              <p className="text-[12.5px] font-bold mb-10" style={{ color: "#0a0a0a" }}>5 Varley Pieces · Compared</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
                     <div className="flex items-center gap-3 mb-4">
-                      <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                      <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tag}</span>
+                      <span className="text-2xl r-hx" style={{ color: "#9a9490" }}>{p.rank}</span>
+                      <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{p.tag}</span>
                     </div>
                     <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                   </div>
@@ -203,8 +203,8 @@ export default function VarleyPilatesPage() {
               </div>
             </div>
 
-            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Varley pieces that don&apos;t suit Pilates</h2>
+            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#ede9e3" }}>
+              <h2 className="mb-4 r-d r-h2">Varley pieces that don&apos;t suit Pilates</h2>
               <ul className="space-y-3">
                 {[
                   "Varley relaxed-fit joggers: Beautiful for everything except reformer Pilates. Loose fabric catches on equipment and obscures instructor observation of leg alignment.",
@@ -212,8 +212,8 @@ export default function VarleyPilatesPage() {
                   "Varley oversized zip-through (for class): Fine for pre and post. Too voluminous for wearing during a reformer session. Remove before stepping onto the machine.",
                   "Any Varley piece with exterior hardware (zip pulls, metal toggles): These catch on reformer straps and footbar surfaces. Stick to the clean, hardware-free pieces for in-class wear.",
                 ].map((tip, i) => (
-                  <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                    <span className="font-semibold" style={{ color: "#8b4a31" }}>✕</span>
+                  <li key={i} className="flex gap-3 text-base" style={{ color: "#3a3530" }}>
+                    <span className="font-semibold" style={{ color: "#0a0a0a" }}>✕</span>
                     {tip}
                   </li>
                 ))}
@@ -221,7 +221,7 @@ export default function VarleyPilatesPage() {
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   { q: "Is Varley worth the price for Pilates?", a: "Yes, with the caveat that you buy the right pieces. The Freesoft leggings and matching Harley bralette are a genuinely well-made, Pilates-appropriate set, and the Davidson Sweat is a strong post-class layer. The brand's less functional pieces (relaxed fits, mesh panels) are not worth the price for Pilates specifically. Buy selectively." },
@@ -229,16 +229,16 @@ export default function VarleyPilatesPage() {
                   { q: "Where can I buy Varley?", a: "Varley is available through their own website, Net-a-Porter, Selfridges, Bloomingdale's, and selected boutique activewear retailers. On Amazon, Varley is sold via Shopbop and Zappos, both Amazon-owned retailers, though the selection is limited to specific sizes and colorways rather than the full range. For the widest selection including new arrivals, the brand's own website is the most reliable source." },
                   { q: "Varley vs Alo vs Lululemon, which brand should I buy first?", a: "For most practitioners starting a studio wardrobe: start with Lululemon Align (best value, widest availability, proven performance). Add Alo Airbrush if you prefer firmer compression. Add Varley if you want the European boutique aesthetic or find Alo's colorways too saturated. Varley is typically the third brand in a practitioner's wardrobe rather than the first, but those who start with it rarely leave it." },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Alo Yoga for Pilates" excerpt="The best Alo pieces for Pilates: Airbrush legging, Airlift bra, Alo Moves, and what to skip." href="/blog/alo-yoga-pilates" category="Brand Guide" readTime="10 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />
                 <ArticleCard title="Lululemon for Pilates" excerpt="The best Lululemon pieces for studio and reformer Pilates: Align legging, Align bra, and what to avoid." href="/blog/lululemon-pilates" category="Brand Guide" readTime="10 min read" date="May 2026" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />

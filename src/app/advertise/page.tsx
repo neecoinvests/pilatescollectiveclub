@@ -89,70 +89,21 @@ const jsonLd = {
   ],
 };
 
-const s = {
-  h2: {
-    fontFamily: "'Playfair Display', serif",
-    fontSize: "22px",
-    fontWeight: 600,
-    color: "#1b1c1c",
-    marginTop: "48px",
-    marginBottom: "16px",
-  } as React.CSSProperties,
-  p: {
-    fontFamily: "'Montserrat', sans-serif",
-    fontSize: "15px",
-    fontWeight: 300,
-    color: "#53433e",
-    lineHeight: 1.85,
-    marginBottom: "16px",
-  } as React.CSSProperties,
-  card: {
-    backgroundColor: "#ffffff",
-    border: "1px solid rgba(217,194,186,0.4)",
-    borderRadius: "16px",
-    padding: "26px 30px",
-    marginBottom: "20px",
-  } as React.CSSProperties,
-  cardTitle: {
-    fontFamily: "'Playfair Display', serif",
-    fontSize: "19px",
-    fontWeight: 600,
-    color: "#1b1c1c",
-    marginBottom: "12px",
-  } as React.CSSProperties,
-  statValue: {
-    fontFamily: "'Playfair Display', serif",
-    fontSize: "32px",
-    fontWeight: 600,
-    color: "#1b1c1c",
-    lineHeight: 1.1,
-    marginBottom: "6px",
-  } as React.CSSProperties,
-  statLabel: {
-    fontFamily: "'Montserrat', sans-serif",
-    fontSize: "10px",
-    fontWeight: 600,
-    letterSpacing: "0.14em",
-    textTransform: "uppercase" as const,
-    color: "#86736d",
-    margin: 0,
-  } as React.CSSProperties,
-  li: { marginBottom: "10px" } as React.CSSProperties,
-};
+const s = { h2: { fontSize: "22px", fontWeight: 600, color: "#0a0a0a", marginTop: "48px", marginBottom: "16px" } as React.CSSProperties, p: { fontSize: "17px", color: "#3a3530", lineHeight: 1.55, marginBottom: "16px" } as React.CSSProperties, card: { backgroundColor: "#ede9e3", borderRadius: "16px", padding: "26px 30px", marginBottom: "20px" } as React.CSSProperties, cardTitle: { fontSize: "19px", fontWeight: 600, color: "#0a0a0a", marginBottom: "12px" } as React.CSSProperties, statValue: { fontSize: "32px", fontWeight: 600, color: "#0a0a0a", lineHeight: 1.1, marginBottom: "6px" } as React.CSSProperties, statLabel: { fontSize: "12.5px", fontWeight: 600, color: "#6f6964", margin: 0 } as React.CSSProperties, li: { marginBottom: "10px" } as React.CSSProperties };
 
 export default function AdvertisePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
       <Header />
-      <main style={{ backgroundColor: "#fcf9f8", minHeight: "100vh" }}>
+      <main style={{ backgroundColor: "#f7f4f0", minHeight: "100vh" }}>
         <section className="pt-32 pb-20 px-6">
           <div className="max-w-2xl mx-auto">
-            <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "10px", fontWeight: 600, letterSpacing: "0.2em", textTransform: "uppercase", color: "#8b4a31", marginBottom: "16px" }}>Advertise</p>
-            <h1 style={{ fontFamily: "'Playfair Display', serif", fontSize: "38px", fontWeight: 600, color: "#1b1c1c", lineHeight: 1.2, marginBottom: "12px" }}>Advertise</h1>
-            <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", color: "#86736d", marginBottom: "48px" }}>Two ways to work with us.</p>
+            <p style={{ fontSize: "12.5px", fontWeight: 600, color: "#0a0a0a", marginBottom: "16px" }}>Advertise</p>
+            <h1 className="r-d r-h1" style={{ marginBottom: "12px" }}>Advertise</h1>
+            <p style={{ fontSize: "15px", color: "#6f6964", marginBottom: "48px" }}>Two ways to work with us.</p>
 
-            <div style={{ width: "48px", height: "2px", backgroundColor: "#d9c2ba", marginBottom: "48px" }} />
+            <div style={{ width: "48px", height: "2px", backgroundColor: "#ddd6cc", marginBottom: "48px" }} />
 
             <p style={s.p}>
               We publish studio guides, equipment reviews and buying guides for
@@ -165,23 +116,23 @@ export default function AdvertisePage() {
             </p>
 
             {/* Stats. Counted from the repository at build time. */}
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px", padding: "30px 32px", marginTop: "40px", marginBottom: "8px" }}>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-6" style={{ backgroundColor: "#ede9e3", borderRadius: "16px", padding: "30px 32px", marginTop: "40px", marginBottom: "8px" }}>
               {STATS.map((stat) => (
                 <div key={stat.label} style={{ minWidth: 0 }}>
-                  <p style={s.statValue}>{stat.value}</p>
+                  <p className="r-hx" style={s.statValue}>{stat.value}</p>
                   <p style={s.statLabel}>{stat.label}</p>
                 </div>
               ))}
             </div>
-            <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "12px", fontWeight: 300, color: "#86736d", lineHeight: 1.7, marginBottom: "8px" }}>
+            <p style={{ fontSize: "12px", color: "#6f6964", lineHeight: 1.55, marginBottom: "8px" }}>
               Counts taken from the published site. Traffic and audience figures are
               available on request.
             </p>
 
-            <h2 style={s.h2}>What we offer</h2>
+            <h2 className="r-d r-h2" style={s.h2}>What we offer</h2>
 
             <div style={s.card}>
-              <h3 style={s.cardTitle}>Sponsored pages</h3>
+              <h3 className="r-hx" style={s.cardTitle}>Sponsored pages</h3>
               <p style={{ ...s.p, marginBottom: "12px" }}>
                 A dedicated article about your product or studio, on its own
                 address on this site. We research it and we write it. It is
@@ -194,55 +145,42 @@ export default function AdvertisePage() {
             </div>
 
             <div style={s.card}>
-              <h3 style={s.cardTitle}>Affiliate partnerships</h3>
+              <h3 className="r-hx" style={s.cardTitle}>Affiliate partnerships</h3>
               <p style={{ ...s.p, marginBottom: 0 }}>
                 If you run an affiliate program, we can link to you through it
                 where your product already fits an article. Commission does not
                 buy a place in a ranking or change a verdict. Our{" "}
-                <Link href="/affiliate-disclosure" style={{ color: "#8b4a31", textDecoration: "underline" }}>
+                <Link href="/affiliate-disclosure" style={{ color: "#0a0a0a", textDecoration: "underline" }}>
                   affiliate disclosure
                 </Link>{" "}
                 explains how these links are marked.
               </p>
             </div>
 
-            <h2 style={s.h2}>How we keep it straight</h2>
-            <div style={{ backgroundColor: "#f6f3f2", borderRadius: "12px", padding: "24px 28px", marginBottom: "16px" }}>
-              <ul style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "15px", fontWeight: 300, color: "#53433e", lineHeight: 1.85, margin: 0, paddingLeft: "22px" }}>
+            <h2 className="r-d r-h2" style={s.h2}>How we keep it straight</h2>
+            <div style={{ backgroundColor: "#ede9e3", borderRadius: "12px", padding: "24px 28px", marginBottom: "16px" }}>
+              <ul style={{ fontSize: "17px", color: "#3a3530", lineHeight: 1.55, margin: 0, paddingLeft: "22px" }}>
                 <li style={s.li}>Sponsored pages carry a label at the top of the page.</li>
                 <li style={s.li}>Our editorial rankings and city guides are not for sale.</li>
                 <li style={{ marginBottom: 0 }}>We write the copy and we keep control of our words.</li>
               </ul>
             </div>
 
-            <h2 style={s.h2}>Pricing</h2>
+            <h2 className="r-d r-h2" style={s.h2}>Pricing</h2>
             <p style={s.p}>
               We price per project. The cost depends on the scope of the page, the
               research involved and how long it stays up. Tell us what you have in
               mind and we will quote it.
             </p>
 
-            <div style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px", padding: "28px 32px", marginTop: "40px" }}>
-              <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", fontWeight: 600, letterSpacing: "0.1em", textTransform: "uppercase", color: "#8b4a31", marginBottom: "12px" }}>Get in touch</p>
+            <div style={{ backgroundColor: "#ede9e3", borderRadius: "16px", padding: "28px 32px", marginTop: "40px" }}>
+              <p style={{ fontSize: "13px", fontWeight: 600, color: "#0a0a0a", marginBottom: "12px" }}>Get in touch</p>
               <p style={{ ...s.p, marginBottom: "18px" }}>
                 Send us what you sell, who it is for, and what you want the page to
                 do.
               </p>
-              <Link
+              <Link className="r-btn r-btn-sm"
                 href="/contact"
-                style={{
-                  fontFamily: "'Montserrat', sans-serif",
-                  fontSize: "13px",
-                  fontWeight: 500,
-                  letterSpacing: "0.1em",
-                  textTransform: "uppercase",
-                  color: "#ffffff",
-                  backgroundColor: "#8b4a31",
-                  textDecoration: "none",
-                  display: "inline-block",
-                  padding: "14px 28px",
-                  borderRadius: "999px",
-                }}
               >
                 Contact us
               </Link>

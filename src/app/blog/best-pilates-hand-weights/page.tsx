@@ -142,20 +142,20 @@ export default function BestPilatesHandWeightsPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Accessories</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Equipment Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Accessories</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best Pilates Hand Weights<br /><span style={{ color: "#8b4a31" }}>(2026): 5 Real Options Compared</span>
+            <h1 className="mb-6 r-d r-h1">
+              Best Pilates Hand Weights<br /><span style={{ color: "#a98a5f" }}>(2026): 5 Real Options Compared</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 5 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 5 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               A prior version of this article named brands (a neoprene dumbbell set, a vinyl-coated rack, adjustable wrist weights) we couldn&apos;t verify at the time. We&apos;ve since confirmed, directly against live Amazon listings, that five real toning ball options are in stock and ready to buy today: the ProsourceFit Weighted Toning Exercise Ball line in 2lb, 3lb, and 5lb versions ($10.48 to $11.99), the Yes4All Weighted Toning Ball spanning a 2-10lb range ($13.78), and the Philosophy Gym Toning Ball ($14.99, 3lb). They&apos;re a genuinely good fit for Pilates arm work: sand or PVC-filled and ergonomically shaped, so they put less strain on the wrist and finger joints than a bar-style dumbbell during high-repetition sets.
             </p>
           </div>
@@ -163,8 +163,8 @@ export default function BestPilatesHandWeightsPage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/stitch-props-cork-ring.png" alt="Pilates mat props laid out for arm work" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/stitch-props-cork-ring.png" alt="Pilates mat props laid out for arm work" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -176,13 +176,13 @@ export default function BestPilatesHandWeightsPage() {
             <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>The Full Lineup</p>
+              <p className="text-[12.5px] font-bold mb-10" style={{ color: "#0a0a0a" }}>The Full Lineup</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
                     <div className="flex items-center gap-3 mb-4">
-                      <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                      <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tag}</span>
+                      <span className="text-2xl r-hx" style={{ color: "#9a9490" }}>{p.rank}</span>
+                      <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{p.tag}</span>
                     </div>
                     <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                   </div>
@@ -191,8 +191,8 @@ export default function BestPilatesHandWeightsPage() {
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>How to choose between the five</h2>
-              <p className="text-sm leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">How to choose between the five</h2>
+              <p className="text-base leading-relaxed mb-6" style={{ color: "#3a3530" }}>
                 The three ProsourceFit toning balls share the same sand-filled, ergonomic construction, with load as the only variable; the Yes4All and Philosophy Gym balls add a wider weight range and a toss-friendly build, respectively. Use the criteria below to pick the right one for your practice.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -202,16 +202,16 @@ export default function BestPilatesHandWeightsPage() {
                   { heading: "Surface material", body: "The sand fill gives a soft-touch surface rather than bare metal, which is more comfortable in a sweaty hand and less likely to mark a floor if set down between exercises." },
                   { heading: "Progression", body: "Because the 2lb, 3lb, and 5lb balls are close in price and the same shape, it's reasonable to start with the 2lb and add the 3lb once the lighter one stops feeling like resistance, rather than buying an adjustable set." },
                 ].map((item) => (
-                  <div key={item.heading} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.heading}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
+                  <div key={item.heading} className="rounded-2xl p-5" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-sm mb-1.5 r-hx" style={{ color: "#0a0a0a" }}>{item.heading}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.body}</p>
                   </div>
                 ))}
               </div>
             </div>
 
-            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>How to know your weight is right</h2>
+            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#ede9e3" }}>
+              <h2 className="mb-4 r-d r-h2">How to know your weight is right</h2>
               <ul className="space-y-3">
                 {[
                   "Your shoulders stay down. If the shoulders hike toward the ears partway through a set, the weight is likely too heavy: regardless of how light it feels in your hand at rest.",
@@ -220,8 +220,8 @@ export default function BestPilatesHandWeightsPage() {
                   "You are not gripping hard. A tight grip means the forearm is compensating: the ProsourceFit balls are shaped to rest in an open palm, so if you find yourself clutching it, size down.",
                   "Range does not shrink. If the arm circles get smaller as the set goes on, drop from the 3lb to the 2lb, or the 5lb to the 3lb.",
                 ].map((tip, i) => (
-                  <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                    <span className="font-semibold" style={{ color: "#8b4a31" }}>{i + 1}.</span>
+                  <li key={i} className="flex gap-3 text-base" style={{ color: "#3a3530" }}>
+                    <span className="font-semibold" style={{ color: "#0a0a0a" }}>{i + 1}.</span>
                     {tip}
                   </li>
                 ))}
@@ -229,7 +229,7 @@ export default function BestPilatesHandWeightsPage() {
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   { q: "What's the best hand weight sold on Amazon for Pilates?", a: "The ProsourceFit Weighted Toning Exercise Ball is a live, currently-sold Amazon listing available in 2lb, 3lb, and 5lb versions, from $10.48 to $11.99. The Yes4All Weighted Toning Ball ($13.78) spans a wider 2-10lb range, and the Philosophy Gym Toning Ball ($14.99, 3lb) is a durable pick for toss-and-catch drills. All are sand or PVC-filled and ergonomically shaped, which puts less strain on the wrist than a bar-style dumbbell during high-repetition arm work." },
@@ -237,16 +237,16 @@ export default function BestPilatesHandWeightsPage() {
                   { q: "Do I need hand weights for Pilates at all?", a: "No. The classical mat repertoire works without them, and beginners are often better off learning the movements unweighted before adding load. Once form is solid, a light toning ball like the ProsourceFit 2lb or Philosophy Gym 2lb adds resistance without changing the character of the exercise." },
                   { q: "Which of these five should I actually buy?", a: "For most people starting out: the ProsourceFit 2lb ($11.99). For a wider range in one purchase: the Yes4All ($13.78, 2-10lb). For durability against tossing and catching: the Philosophy Gym 2lb ($13.99). For advanced standing series work: the ProsourceFit 5lb ($10.48)." },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Pilates Ankle Weights (2026)" excerpt="Two real, verified ankle weight options: compared for Pilates use." href="/blog/best-pilates-ankle-weights" category="Equipment" readTime="5 min read" date="September 2026" imageUrl="/pictures/stitch-pilates-ball-mat.png" />
                 <ArticleCard title="Best Pilates Ring (2026)" excerpt="Magic circles: the honest situation, and the closest real bundle option." href="/blog/best-pilates-ring" category="Equipment" readTime="8 min read" date="May 2026" imageUrl="/pictures/stitch-magic-circle-hand.png" />

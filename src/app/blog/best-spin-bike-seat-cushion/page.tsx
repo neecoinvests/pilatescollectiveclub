@@ -152,20 +152,20 @@ export default function BestSpinBikeSeatCushionPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Spinning</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Equipment Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Spinning</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best Spin Bike<br /><span style={{ color: "#8b4a31" }}>Seat Cushions (2026)</span>
+            <h1 className="mb-6 r-d r-h1">
+              Best Spin Bike<br /><span style={{ color: "#a98a5f" }}>Seat Cushions (2026)</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 8 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 8 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               The uncomfortable truth about this category: a thick gel cushion is often the wrong fix and sometimes makes things worse. Saddle pain is usually a fit problem (a saddle too narrow for your sit bones, or set too high) and padding over it lets you sink further into soft tissue while raising your effective saddle height. Work through the fix order below before you buy anything, then buy the right thing.
             </p>
           </div>
@@ -173,8 +173,8 @@ export default function BestSpinBikeSeatCushionPage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg" alt="Indoor cycling setup: saddle fit matters more than padding for comfort" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg" alt="Indoor cycling setup: saddle fit matters more than padding for comfort" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -182,8 +182,8 @@ export default function BestSpinBikeSeatCushionPage() {
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
 
-            <div className="mb-14 rounded-2xl p-8" style={{ backgroundColor: "#fff4f1", border: "1px solid rgba(139,74,49,0.15)" }}>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The fix order: work down, not up</h2>
+            <div className="mb-14 rounded-2xl p-8" style={{ backgroundColor: "#fff4f1", border: "1px solid #ddd6cc" }}>
+              <h2 className="mb-4 r-d r-h2">The fix order: work down, not up</h2>
               <ol className="space-y-3">
                 {[
                   "Set saddle height. Standing beside the bike, the saddle should sit at hip-bone height. Too high causes side-to-side rocking and chafing that no padding fixes.",
@@ -192,8 +192,8 @@ export default function BestSpinBikeSeatCushionPage() {
                   "Change the saddle. A wider saddle with a central cutout puts weight on the sit bones instead of soft tissue. Around $35 and ten minutes.",
                   "Only then, add a cover, and only if the bike is shared or rented and you cannot swap the saddle.",
                 ].map((tip, i) => (
-                  <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                    <span className="font-semibold shrink-0" style={{ color: "#8b4a31" }}>{i + 1}.</span>
+                  <li key={i} className="flex gap-3 text-base" style={{ color: "#3a3530" }}>
+                    <span className="font-semibold shrink-0" style={{ color: "#0a0a0a" }}>{i + 1}.</span>
                     {tip}
                   </li>
                 ))}
@@ -204,13 +204,13 @@ export default function BestSpinBikeSeatCushionPage() {
             <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>6 Options · Ranked</p>
+              <p className="text-[12.5px] font-bold mb-10" style={{ color: "#0a0a0a" }}>6 Options · Ranked</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
                     <div className="flex items-center gap-3 mb-4">
-                      <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                      <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tag}</span>
+                      <span className="text-2xl r-hx" style={{ color: "#9a9490" }}>{p.rank}</span>
+                      <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{p.tag}</span>
                     </div>
                     <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                   </div>
@@ -219,7 +219,7 @@ export default function BestSpinBikeSeatCushionPage() {
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   { q: "Do spin bike seat cushions actually work?", a: "Sometimes, and less often than the category implies. A cushion helps when the saddle is simply too firm for short, seated rides. It does not help, and can make things worse, when the real problem is a saddle too narrow for your sit bones, or a saddle set at the wrong height. A thick gel cover raises your effective saddle height, lets you sink into soft tissue rather than resting on bone, and tends to rotate under load. Before buying padding, check your saddle height and fore-aft position, which costs nothing and resolves a large share of cases." },
@@ -227,16 +227,16 @@ export default function BestSpinBikeSeatCushionPage() {
                   { q: "Why does my spin bike seat hurt so much more than a road bike?", a: "Two reasons. On the road you shift position constantly, stand over bumps and coast, so pressure moves around; on an indoor bike you can hold one position for the better part of an hour with no interruption at all. And indoor bikes are frequently set up with the saddle too high or too far forward, which loads the front of the perineum rather than the sit bones. Deliberately standing for a few seconds every few minutes, and getting the fit checked, both help more than any cushion." },
                   { q: "How thick should a spin bike seat cushion be?", a: "Under about 15mm of gel. It is counterintuitive, but thicker is worse past that point: you compress through the padding within a few minutes and end up on soft tissue anyway, while the extra height changes your leg extension and the bulk makes the cover more likely to rotate. If a thin cover is not enough, that is a signal the saddle shape is wrong for you rather than a signal to buy more padding." },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Padded Cycling Shorts for Spin" excerpt="A proper chamois does more for saddle comfort than any cushion: the pairs worth owning." href="/blog/best-padded-cycling-shorts-for-spin" category="Spinning" readTime="8 min read" date="June 2026" imageUrl="/pictures/dane-wetton-AkSJQnem75Y-unsplash.jpg" />
                 <ArticleCard title="Best Indoor Spin Bike for Home Studios" excerpt="Peloton, Schwinn, NordicTrack and the budget machines worth considering." href="/blog/best-indoor-spin-bike-for-home-studio" category="Spinning" readTime="12 min read" date="June 2026" imageUrl="/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg" />

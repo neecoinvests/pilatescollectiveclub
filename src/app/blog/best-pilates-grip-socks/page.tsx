@@ -189,20 +189,20 @@ export default function BestGripSocksPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Accessories</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Equipment Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Accessories</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best Pilates Grip Socks<br /><span style={{ color: "#8b4a31" }}>(2026): 6 Verified Picks</span>
+            <h1 className="mb-6 r-d r-h1">
+              Best Pilates Grip Socks<br /><span style={{ color: "#a98a5f" }}>(2026): 6 Verified Picks</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked November 16, 2026 · 6 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked November 16, 2026 · 6 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note="Full-toe 2-pack from the original studio grip-sock brand" url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               We checked six grip sock options against live, in-stock Amazon listings: toesox, the original studio grip-sock brand, and TAVI (both sold by their official distributor), Tucketts, a label built specifically for barre and Pilates, Ozaiic&apos;s cushioned cotton socks, plus two budget picks from Gaiam and Muezna. Here&apos;s how they compare, ranked by what they actually offer.
             </p>
           </div>
@@ -210,8 +210,8 @@ export default function BestGripSocksPage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" alt="Best Pilates grip socks, verified against live Amazon listings" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" alt="Best Pilates grip socks, verified against live Amazon listings" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -224,7 +224,7 @@ export default function BestGripSocksPage() {
               <div className="r-qp-hd">
                 <p className="r-qp-title">Quick Picks: At a Glance</p>
               </div>
-              {PRODUCTS.map((p, i) => (
+              {PRODUCTS.map((p) => (
                 <div key={p.name} className="r-qp-row">
                   <span className="r-qp-no">{p.rank}</span>
                   <div className="r-qp-tx">
@@ -255,8 +255,8 @@ export default function BestGripSocksPage() {
 
             {/* What to look for */}
             <div className="mb-16 mt-4">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What makes a grip sock worth buying</h2>
-              <p className="text-sm leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">What makes a grip sock worth buying</h2>
+              <p className="text-base leading-relaxed mb-6" style={{ color: "#3a3530" }}>
                 General guidance on what makes any grip sock effective for Pilates. Use it alongside the specific picks below to decide which one fits your practice.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -266,9 +266,9 @@ export default function BestGripSocksPage() {
                   { heading: "Fabric quality", body: "Breathable cotton or bamboo blends tend to resist retaining odor better than pure synthetic fabrics in a studio environment." },
                   { heading: "Compression fit", body: "The sock needs to stay in place during dynamic movement. A loose grip sock that bunches or slides is both annoying and a safety issue on a moving carriage." },
                 ].map((item) => (
-                  <div key={item.heading} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.heading}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
+                  <div key={item.heading} className="rounded-2xl p-5" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-sm mb-1.5 r-hx" style={{ color: "#0a0a0a" }}>{item.heading}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.body}</p>
                   </div>
                 ))}
               </div>
@@ -276,14 +276,14 @@ export default function BestGripSocksPage() {
 
             {/* Products */}
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Our Top 6 Picks</p>
+              <p className="text-[12.5px] font-bold mb-10" style={{ color: "#0a0a0a" }}>Our Top 6 Picks</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
                     <div className="flex items-center gap-3 mb-4">
-                      <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
+                      <span className="text-2xl r-hx" style={{ color: "#9a9490" }}>{p.rank}</span>
                       <div>
-                        <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tag}</span>
+                        <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{p.tag}</span>
                       </div>
                     </div>
                     <ProductCard
@@ -299,8 +299,8 @@ export default function BestGripSocksPage() {
             </div>
 
             {/* Care tips */}
-            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>How to make grip socks last</h2>
+            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#ede9e3" }}>
+              <h2 className="mb-4 r-d r-h2">How to make grip socks last</h2>
               <ul className="space-y-3">
                 {[
                   "Wash inside-out on a cold cycle. High temperatures can degrade silicone grip dots.",
@@ -309,8 +309,8 @@ export default function BestGripSocksPage() {
                   "Buy at least two pairs so you always have a fresh pair while one is drying.",
                   "Replace when the grip dots are significantly worn. Compromised grip is not just annoying, it's a slip risk on a moving carriage.",
                 ].map((tip, i) => (
-                  <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                    <span className="font-semibold" style={{ color: "#8b4a31" }}>{i + 1}.</span>
+                  <li key={i} className="flex gap-3 text-base" style={{ color: "#3a3530" }}>
+                    <span className="font-semibold" style={{ color: "#0a0a0a" }}>{i + 1}.</span>
                     {tip}
                   </li>
                 ))}
@@ -319,7 +319,7 @@ export default function BestGripSocksPage() {
 
             {/* FAQ */}
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   { q: "Do I need grip socks for Pilates?", a: "For studio reformer classes, yes: most studios require them for hygiene and safety reasons. For home mat practice, they're optional, but many practitioners find they genuinely improve balance and foot connection during standing and mat exercises." },
@@ -327,9 +327,9 @@ export default function BestGripSocksPage() {
                   { q: "What's the best overall grip sock for Pilates?", a: "The toesox Low Rise Grip Socks 2-Pack (Full Toe, $30.00) are our top overall pick, from the original studio grip-sock brand. For a premium slouch style, the TAVI Stacy Slouch 2-Pack ($40.00) is our premium pick. On a budget, the Gaiam Grippy Studio Yoga Socks ($9.49) or the Muezna 6-pair pack ($7.99) are the value options." },
                   { q: "How many pairs do I need?", a: "Two pairs minimum as a general rule. If you practice three or more times per week, three or more pairs means you'll always have a fresh, dry pair available without rushing laundry." },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
@@ -337,7 +337,7 @@ export default function BestGripSocksPage() {
 
             {/* Further reading */}
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Pilates Leggings" excerpt="Five leggings for reformer and mat, from $26 to $134." href="/blog/best-pilates-leggings" category="Apparel" readTime="9 min read" date="October 2026" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />
                 <ArticleCard title="Best Home Pilates Reformer" excerpt="Ready to train at home? Reformers at every budget." href="/blog/best-home-pilates-reformer" category="Equipment" readTime="12 min read" date="October 2026" imageUrl="/pictures/stitch-reformer-morning-light.png" />

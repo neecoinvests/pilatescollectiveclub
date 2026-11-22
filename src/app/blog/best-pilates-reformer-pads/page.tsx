@@ -154,13 +154,13 @@ export default function BestPilatesReformerPadsPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex gap-2 mb-6">
               <span className="inline-block px-3 py-1 rounded-full text-xs font-semibold tracking-wide" style={{ backgroundColor: "#f0ebe8", color: "#5c4a3d" }}>Equipment</span>
               <span className="inline-block px-3 py-1 rounded-full text-xs font-semibold tracking-wide" style={{ backgroundColor: "#f0ebe8", color: "#5c4a3d" }}>Reformer Accessories</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight" style={{ color: "#2d1f17" }}>
+            <h1 className="mb-6 r-d r-h1" style={{ color: "#2d1f17" }}>
               Best Pilates Reformer Pads (2026): Grip Pads &amp; Shoulder Block Covers
             </h1>
             <p className="text-sm mb-6" style={{ color: "#9e8a7e" }}>Prices checked October 20, 2026 · 7 min read</p>
@@ -174,8 +174,8 @@ export default function BestPilatesReformerPadsPage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/stitch-reformer-spring-detail.png" alt="Pilates reformer pad and spring detail" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/stitch-reformer-spring-detail.png" alt="Pilates reformer pad and spring detail" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -195,8 +195,8 @@ export default function BestPilatesReformerPadsPage() {
               </div>
             ))}
 
-            <div className="rounded-2xl p-8 mb-12" style={{ backgroundColor: "#fcf9f8", border: "1px solid #e8e0db" }}>
-              <h2 className="text-2xl font-bold mb-4" style={{ color: "#2d1f17" }}>What we could not verify</h2>
+            <div className="rounded-2xl p-8 mb-12" style={{ backgroundColor: "#f7f4f0", border: "1px solid #e8e0db" }}>
+              <h2 className="mb-4 r-d r-h2" style={{ color: "#2d1f17" }}>What we could not verify</h2>
               <p className="text-base leading-relaxed mb-4" style={{ color: "#5c4a3d" }}>
                 We looked for brand-specific OEM shoulder rest pads, headrest cushions, and carriage pads from Balanced Body, Merrithew, AeroPilates, and Align Pilates, plus aftermarket &quot;universal&quot; carriage covers and footbar grip covers. We could not find live Amazon listings for any of them under the names searched, and the dimensions, foam densities, and compatible model numbers quoted for them elsewhere could not be independently verified, so none of them appear in this list.
               </p>
@@ -209,7 +209,7 @@ export default function BestPilatesReformerPadsPage() {
             </div>
 
             <div className="mb-12">
-              <h2 className="text-2xl font-bold mb-6" style={{ color: "#2d1f17" }}>Frequently Asked Questions</h2>
+              <h2 className="mb-6 r-d r-h2" style={{ color: "#2d1f17" }}>Frequently Asked Questions</h2>
               <div className="space-y-6">
                 {(jsonLd["@graph"][3] as { mainEntity: { name: string; acceptedAnswer: { text: string } }[] }).mainEntity.map((faq) => (
                   <div key={faq.name}>
@@ -221,7 +221,7 @@ export default function BestPilatesReformerPadsPage() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-bold mb-6" style={{ color: "#2d1f17" }}>Further Reading</h2>
+              <h2 className="mb-6 r-d r-h2" style={{ color: "#2d1f17" }}>Further Reading</h2>
               <div className="grid md:grid-cols-2 gap-6">
                 <ArticleCard
                   title="Best Pilates Reformer Accessories (2026): Springs, Boxes & More"

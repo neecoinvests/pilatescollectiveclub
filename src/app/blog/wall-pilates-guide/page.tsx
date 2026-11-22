@@ -120,20 +120,20 @@ export default function WallPilatesGuidePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Beginners</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Beginners</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Wall Pilates:<br /><span style={{ color: "#8b4a31" }}>The Complete 2026 Guide</span>
+            <h1 className="mb-6 r-d r-h1">
+              Wall Pilates:<br /><span style={{ color: "#a98a5f" }}>The Complete 2026 Guide</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 12 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 12 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               Wall Pilates exploded from a niche teaching tool into one of the most-searched fitness terms of 2024–2026. The premise is simple: use a wall as a prop to add feedback, resistance, and stability to classical Pilates exercises. What has surprised many is how effective this low-equipment approach can be, and why certified instructors have been using the wall this way for decades.
             </p>
           </div>
@@ -142,7 +142,7 @@ export default function WallPilatesGuidePage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/stitch-wall-art-line-drawing.png" alt="Wall Pilates guide: using a wall for alignment feedback, resistance and Pilates exercise support" fill className="object-cover" style={{ filter: "brightness(0.88)" }} />
+              <Image src="/pictures/stitch-wall-art-line-drawing.png" alt="Wall Pilates guide: using a wall for alignment feedback, resistance and Pilates exercise support" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -154,20 +154,20 @@ export default function WallPilatesGuidePage() {
             <AffiliateNote />
 
             <div className="mb-14 mt-4">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What wall Pilates actually is</h2>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">What wall Pilates actually is</h2>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 Wall Pilates is not a new method: it is the application of classical Pilates principles using a wall as a feedback and resistance tool. Pilates instructors have used walls for alignment correction, proprioceptive training, and exercise modification since the method was codified in the mid-20th century. What changed after 2023 was the viral spread of wall-based Pilates sequences on short-form video platforms, which introduced the technique to millions of people who had no prior Pilates experience.
               </p>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 The wall serves three distinct functions in this practice. First, it provides proprioceptive feedback, when your spine contacts the wall, you can feel whether your lumbar spine is neutral, flexed, or hyperextended in a way that mirror-watching cannot replicate. Second, it provides resistance: pushing the feet or hands into the wall creates an isometric load that activates muscles without requiring additional equipment. Third, it provides stability, for exercises that challenge balance, the wall removes the balance variable and allows full focus on the target muscles.
               </p>
-              <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>
                 Critically, wall Pilates is not a replacement for reformer or studio mat Pilates. It is a genuinely useful adjunct, particularly for beginners who need alignment feedback, for home practitioners who lack equipment, and for anyone in rehabilitation who needs a stable environment to rebuild movement patterns.
               </p>
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The core exercises and why they work</h2>
+              <h2 className="mb-6 r-d r-h2">The core exercises and why they work</h2>
               <div className="space-y-4">
                 {[
                   {
@@ -191,30 +191,30 @@ export default function WallPilatesGuidePage() {
                     body: "Standing at a distance from the wall with hands pressing into it at shoulder height, you hold a plank position with a long spine and engaged core. The incline reduces the load compared to a floor plank, making it appropriate for beginners, those rebuilding after injury, or anyone developing shoulder girdle stability.",
                   },
                 ].map((item) => (
-                  <div key={item.title} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.title}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
+                  <div key={item.title} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.title}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.body}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Does wall Pilates actually produce results?</h2>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">Does wall Pilates actually produce results?</h2>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 The honest answer is: yes, for specific outcomes. Wall Pilates consistently produces measurable improvements in postural alignment, core endurance, and hip stability, particularly in beginners and those returning after a sedentary period. The wall-based format is sufficient to achieve these results because it preserves the core principles of Pilates: controlled movement, breath integration, and precision of alignment.
               </p>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 What wall Pilates does not match is the progressive loading, variety, and full-body integration that reformer Pilates provides. The spring system of a reformer creates variable resistance through movement arcs in a way that wall surfaces cannot replicate. For advanced practitioners or those seeking significant strength development, wall Pilates is a useful supplement rather than a complete program.
               </p>
-              <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>
                 A 2023 review published in the Journal of Bodywork and Movement Therapies confirmed that mat-based Pilates (which wall Pilates falls within) significantly improves core muscle endurance, balance, and flexibility over 8–12 weeks when practiced consistently 3 times per week. The wall-based variant adds proprioceptive precision to these established outcomes.
               </p>
             </div>
 
-            <div className="mb-14 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>A starter 20-minute wall Pilates session</h2>
-              <p className="text-sm leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Perform 3x per week with at least one rest day between sessions. All you need is a mat and a clear wall space.</p>
+            <div className="mb-14 rounded-2xl p-8" style={{ backgroundColor: "#ede9e3" }}>
+              <h2 className="mb-4 r-d r-h2">A starter 20-minute wall Pilates session</h2>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>Perform 3x per week with at least one rest day between sessions. All you need is a mat and a clear wall space.</p>
               <ul className="space-y-3">
                 {[
                   "Wall roll-down × 8 reps: begin here to warm the spine and establish tactile awareness of your spinal curve.",
@@ -225,8 +225,8 @@ export default function WallPilatesGuidePage() {
                   "Spine stretch forward (away from wall) × 8 reps: decompresses the spine after loading.",
                   "Seated wall roll-back × 10 reps: sitting away from wall, control the roll-back with deep core engagement.",
                 ].map((tip, i) => (
-                  <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                    <span className="font-semibold" style={{ color: "#8b4a31" }}>{i + 1}.</span>
+                  <li key={i} className="flex gap-3 text-base" style={{ color: "#3a3530" }}>
+                    <span className="font-semibold" style={{ color: "#0a0a0a" }}>{i + 1}.</span>
                     {tip}
                   </li>
                 ))}
@@ -234,20 +234,20 @@ export default function WallPilatesGuidePage() {
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Equipment that improves wall Pilates</h2>
-              <p className="text-sm mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links go to Amazon. We earn a small commission on qualifying purchases at no extra cost to you.</p>
+              <h2 className="mb-4 r-d r-h2">Equipment that improves wall Pilates</h2>
+              <p className="text-base mb-8" style={{ color: "#6f6964" }}>*Some links go to Amazon. We earn a small commission on qualifying purchases at no extra cost to you.</p>
               <div className="space-y-6">
                 {EQUIPMENT.map((item) => (
-                  <div key={item.name} className="rounded-2xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)" }}>
+                  <div key={item.name} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
                     <div className="flex items-start justify-between gap-4 mb-3">
                       <div>
-                        <span className="text-xs font-semibold uppercase tracking-widest px-2 py-1 rounded-full mr-2" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{item.tag}</span>
-                        <h3 className="text-lg font-semibold mt-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.name}</h3>
-                        <p className="text-sm font-medium" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{item.price} · {item.verdict}</p>
+                        <span className="text-[12.5px] font-bold px-2 py-1 rounded-full mr-2" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{item.tag}</span>
+                        <h3 className="text-lg mt-2 r-hx" style={{ color: "#0a0a0a" }}>{item.name}</h3>
+                        <p className="text-base font-medium" style={{ color: "#0a0a0a" }}>{item.price} · {item.verdict}</p>
                       </div>
                     </div>
-                    <p className="text-sm leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.description}</p>
-                    <a href={item.affiliateUrl} target="_blank" rel="noopener noreferrer sponsored" className="inline-block text-sm font-semibold px-5 py-2.5 rounded-full transition-opacity hover:opacity-80" style={{ backgroundColor: "#8b4a31", color: "#ffffff", fontFamily: "'Montserrat', sans-serif" }}>
+                    <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>{item.description}</p>
+                    <a href={item.affiliateUrl} target="_blank" rel="noopener noreferrer sponsored" className="r-btn r-btn-sm">
                       Shop on Amazon →
                     </a>
                   </div>
@@ -256,7 +256,7 @@ export default function WallPilatesGuidePage() {
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   { q: "Is wall Pilates effective for weight loss?", a: "Wall Pilates burns fewer calories per session than cardio-based exercise, but it builds lean muscle that increases resting metabolic rate over time. The research on Pilates and body composition consistently shows modest but measurable fat reduction with consistent practice over 8–12 weeks. Wall Pilates is best understood as a complement to cardiovascular training for weight management rather than a primary weight-loss tool." },
@@ -264,9 +264,9 @@ export default function WallPilatesGuidePage() {
                   { q: "How long before you see results from wall Pilates?", a: "Joseph Pilates famously claimed 'in ten sessions you will feel the difference, in twenty you will see the difference, and in thirty you will have a whole new body.' Modern practitioners generally align with this timeline: noticeable postural changes and core awareness typically emerge within 4–6 weeks of consistent 3-times-per-week practice." },
                   { q: "Do I need special equipment for wall Pilates?", a: "A mat and a clear wall space are the only essentials. Resistance bands and a Pilates ball significantly expand the range of available exercises and add progressive resistance, and the TheraBand set and Trideer ball listed below come to under $20 combined on Amazon. Grip socks are recommended if you are working on a smooth floor surface." },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
@@ -274,9 +274,9 @@ export default function WallPilatesGuidePage() {
 
 
             {/* Equipment */}
-            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Recommended kit</h2>
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid #ddd6cc" }}>
+              <p className="text-[12.5px] font-bold mb-2" style={{ color: "#0a0a0a" }}>Equipment</p>
+              <h2 className="mb-8 r-d r-h2">Recommended kit</h2>
               <div className="space-y-8">
                 {PRODUCTS.map((p) => (
                   <ProductCard key={p.name} name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
@@ -285,7 +285,7 @@ export default function WallPilatesGuidePage() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Pilates Exercises for Beginners" excerpt="Fifteen foundational moves to start Pilates without prior experience, and what to expect in your first month." href="/blog/pilates-exercises-for-beginners" category="Beginners" readTime="10 min read" date="June 2026" imageUrl="/pictures/stitch-mat-setup-beige.png" />
                 <ArticleCard title="Best Pilates Mat (2026)" excerpt="The mats that perform best for home practice: grip, cushioning, and durability compared." href="/blog/best-pilates-mat" category="Equipment" readTime="8 min read" date="June 2026" imageUrl="/pictures/stitch-mats-corner-sunlit.png" />

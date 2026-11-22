@@ -132,7 +132,7 @@ export default function PilatesForFlatStomachPage() {
           imageAlt="Pilates core exercises for stomach and abdominal strength"
           category="Health"
           subcategory="Core"
-          title={<>Pilates for a Flat Stomach<br /><span style={{ color: "#8b4a31" }}>What Works and What Doesn't</span></>}
+          title={<>Pilates for a Flat Stomach<br /><span style={{ color: "#0a0a0a" }}>What Works and What Doesn't</span></>}
           date="Updated May 2026"
           readTime="8 min read"
           dateLabel="Prices checked October 20, 2026"
@@ -147,56 +147,56 @@ export default function PilatesForFlatStomachPage() {
 
 
             <section className="pb-20">
-              <p className="text-lg leading-relaxed mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+              <p className="text-lg leading-relaxed mb-10" style={{ color: "#3a3530" }}>
                 This is one of the most searched Pilates questions online, and it deserves an honest answer rather than a marketing one. The short answer: Pilates won't spot-reduce abdominal fat. No exercise will. But Pilates does something more interesting: it develops the deep core muscles that create the visual and functional appearance of a flatter stomach, through mechanisms that sit-ups and crunches simply don't access.
               </p>
 
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The honest science: what Pilates actually does to the abdomen</h2>
-              <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">The honest science: what Pilates actually does to the abdomen</h2>
+              <p className="text-base leading-relaxed mb-6" style={{ color: "#3a3530" }}>
                 The transverse abdominis (TvA) is the deep abdominal muscle that wraps around the torso like a corset. When it contracts, it draws the abdomen inward and stabilizes the lumbar spine. Pilates is the most systematic training modality for the TvA, every exercise requires and develops this contraction as the foundation of movement.
               </p>
-              <p className="text-base leading-relaxed mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed mb-10" style={{ color: "#3a3530" }}>
                 Research on Pilates and waist circumference consistently shows significant reductions after 8-12 weeks. This is not fat loss: it's the combination of increased TvA tone (drawing the abdomen in), improved posture (creating a longer, more elongated torso), and reduced lumbar hyperlordosis (which can push the abdomen forward). The visual result is a flatter, more defined midsection that many practitioners notice before the scale shows any change.
               </p>
 
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The Pilates powerhouse concept</h2>
-              <p className="text-base leading-relaxed mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">The Pilates powerhouse concept</h2>
+              <p className="text-base leading-relaxed mb-10" style={{ color: "#3a3530" }}>
                 Joseph Pilates called the deep core the "powerhouse"encompassing the TvA, pelvic floor, diaphragm, and multifidus as an integrated pressure management system. In Pilates, these structures are trained together, not in isolation. This is why Pilates core training produces different results than isolated abdominal exercises: it develops the entire system, not just the visible muscles at the surface.
               </p>
 
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The 6 best Pilates exercises for the core</h2>
+              <h2 className="mb-6 r-d r-h2">The 6 best Pilates exercises for the core</h2>
               <div className="space-y-4 mb-10">
                 {coreExercises.map((ex) => (
-                  <div key={ex.name} className="rounded-xl overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.35)" }}>
-                    <div className="px-5 py-4" style={{ backgroundColor: "#f6f3f2", borderBottom: "1px solid rgba(217,194,186,0.25)" }}>
-                      <p className="text-base font-semibold" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{ex.name}</p>
-                      <p className="text-xs mt-0.5" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif", fontWeight: 600 }}>{ex.targets}</p>
+                  <div key={ex.name} className="rounded-2xl overflow-hidden" style={{ border: "1px solid #ddd6cc" }}>
+                    <div className="px-5 py-4" style={{ backgroundColor: "#ede9e3", borderBottom: "1px solid #ddd6cc" }}>
+                      <p className="text-base r-hx" style={{ color: "#0a0a0a" }}>{ex.name}</p>
+                      <p className="text-xs mt-0.5" style={{ color: "#3a3530", fontWeight: 600 }}>{ex.targets}</p>
                     </div>
                     <div className="px-5 py-4 bg-white">
-                      <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{ex.detail}</p>
+                      <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{ex.detail}</p>
                     </div>
                   </div>
                 ))}
               </div>
 
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The role of nutrition</h2>
-              <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">The role of nutrition</h2>
+              <p className="text-base leading-relaxed mb-6" style={{ color: "#3a3530" }}>
                 Visible abdominal definition requires relatively low body fat, and body fat is predominantly determined by diet, not exercise. Pilates will develop remarkable core strength and create structural changes that make the abdomen appear flatter. But if fat reduction is the goal, nutrition management is essential alongside any exercise program.
               </p>
-              <p className="text-base leading-relaxed mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed mb-10" style={{ color: "#3a3530" }}>
                 The most effective approach: 3+ Pilates sessions per week, supplemented by moderate cardio (walking, cycling, swimming) for metabolic benefit, and a modest caloric deficit. This combination produces faster and more visible results than any single approach alone.
               </p>
 
-              <div className="mb-10 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
-                <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Equipment recommendations for core training at home</h2>
-                <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <div className="mb-10 rounded-2xl p-8" style={{ backgroundColor: "#ede9e3" }}>
+                <h2 className="mb-4 r-d r-h2">Equipment recommendations for core training at home</h2>
+                <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                   For home abdominal work, a{" "}
                   quality firm mat{" "}
                   is the foundation: too soft a mat allows the pelvis to sink, reducing the precision of spinal positioning. The{" "}
                   Pilates magic circle{" "}
                   adds inner thigh and arm resistance that increases the demand on the deep core during abdominal exercises.
                 </p>
-                <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+                <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>
                   Long resistance bands{" "}
                   can simulate the footbar straps for the rowing and seated abdominal series. For the most targeted core work in the repertoire, a{" "}
                   home reformer{" "}
@@ -205,7 +205,7 @@ export default function PilatesForFlatStomachPage() {
               </div>
 
               <div className="mb-16">
-                <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+                <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
                 <div className="space-y-6">
                   {[
                     { q: "Does Pilates flatten your stomach?", a: "Pilates doesn't spot-reduce abdominal fat: no exercise does. What Pilates does is develop the transverse abdominis, the deep corset muscle that draws the abdomen inward. This creates a flatter appearance even without fat reduction. Practitioners also report improved posture that visually lengthens the torso, which further contributes to a leaner silhouette." },
@@ -213,16 +213,16 @@ export default function PilatesForFlatStomachPage() {
                     { q: "How long does Pilates take to change your body shape?", a: "Visible changes in core definition typically appear after 6-8 weeks of consistent practice (3 sessions per week). The more pronounced changes in muscle tone and posture take 12-16 weeks. Joseph Pilates' 30-session guideline aligns with this, by session 30, most practitioners have a measurably different relationship with their deep abdominals." },
                     { q: "Is Pilates or crunches better for a flat stomach?", a: "Pilates, by a significant margin. Crunches primarily target the rectus abdominis and can worsen posture by tightening the hip flexors. Pilates targets the transverse abdominis, the obliques, and the stabilizing role of the core, which is what creates the functional flatness and postural improvement that practitioners report." },
                   ].map((item) => (
-                    <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                      <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                      <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                    <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                      <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                      <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                     </div>
                   ))}
                 </div>
               </div>
 
               <div>
-                <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+                <h2 className="mb-8 r-d r-h2">Further reading</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                   <ArticleCard title="10 Pilates Exercises for Beginners" excerpt="The foundational mat exercises, including the core classics explained in depth." href="/blog/pilates-exercises-for-beginners" category="Beginners" readTime="11 min read" date="May 2026" imageUrl="/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" />
                   <ArticleCard title="Pilates for Weight Loss" excerpt="The honest evidence-based answer to whether Pilates helps you lose weight." href="/blog/pilates-for-weight-loss" category="Health" readTime="10 min read" date="May 2026" imageUrl="/pictures/ahmet-kurt-0fiVrPJg5kU-unsplash.jpg" />

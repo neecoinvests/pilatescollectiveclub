@@ -281,7 +281,7 @@ const EQUIPMENT_BRANDS = [
 ];
 
 const tierColor: Record<string, string> = {
-  Premium: "#8b4a31",
+  Premium: "#0a0a0a",
   "Mid-Premium": "#536257",
   Mid: "#6b6560",
   Professional: "#0a0a0a",
@@ -294,29 +294,29 @@ export default function BrandsPage() {
       <Header />
       <main>
         {/* Hero */}
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-4" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
+            <p className="text-[12.5px] font-bold mb-4" style={{ color: "#0a0a0a" }}>
               Brand Guides
             </p>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Every brand.<br /><span style={{ color: "#8b4a31" }}>Honest verdict.</span>
+            <h1 className="mb-6 r-d r-h1">
+              Every brand.<br /><span style={{ color: "#a98a5f" }}>Honest verdict.</span>
             </h1>
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               We cover every major Pilates activewear and equipment brand so you can buy with confidence. Each guide covers the best pieces, what to avoid, sizing notes, and our honest verdict on whether the brand is worth your money.
             </p>
           </div>
         </section>
 
         {/* Activewear Brands */}
-        <section className="px-6 pb-20" style={{ backgroundColor: "#fcf9f8" }}>
+        <section className="px-6 pb-20">
           <div className="max-w-6xl mx-auto">
             <div className="flex items-center gap-4 mb-10">
-              <div className="w-8 h-px" style={{ backgroundColor: "#d9c2ba" }} />
-              <p className="text-xs font-semibold uppercase tracking-[0.25em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Activewear</p>
+              <div className="w-8 h-px" style={{ backgroundColor: "#ddd6cc" }} />
+              <p className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Activewear</p>
             </div>
-            <h2 className="text-3xl font-semibold mb-12" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
+            <h2 className="mb-12 r-d r-h2">
               Activewear brand guides
             </h2>
 
@@ -325,7 +325,7 @@ export default function BrandsPage() {
                 <Link key={brand.name} href={brand.href} style={{ textDecoration: "none" }}>
                   <div
                     className="group rounded-2xl overflow-hidden h-full"
-                    style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)", transition: "box-shadow 0.2s" }}
+                    style={{ backgroundColor: "#ede9e3", transition: "box-shadow 0.2s" }}
                   >
                     <div className="relative overflow-hidden" style={{ height: "200px" }}>
                       <Image
@@ -333,12 +333,11 @@ export default function BrandsPage() {
                         alt={`${brand.name} for Pilates: activewear brand guide`}
                         fill
                         className="object-cover transition-transform duration-500 group-hover:scale-105"
-                        style={{ filter: "brightness(0.88)" }}
                       />
                       <div className="absolute top-4 left-4">
                         <span
-                          className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full"
-                          style={{ backgroundColor: "rgba(255,255,255,0.92)", color: tierColor[brand.tier] || "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}
+                          className="text-[12.5px] font-bold px-3 py-1 rounded-full"
+                          style={{ backgroundColor: "rgba(255,255,255,0.92)", color: tierColor[brand.tier] || "#0a0a0a" }}
                         >
                           {brand.tier}
                         </span>
@@ -346,27 +345,27 @@ export default function BrandsPage() {
                       <div className="absolute top-4 right-4">
                         <span
                           className="text-xs font-semibold tracking-widest px-2.5 py-1 rounded-full"
-                          style={{ backgroundColor: "rgba(0,0,0,0.6)", color: "#ffffff", fontFamily: "'Montserrat', sans-serif" }}
+                          style={{ backgroundColor: "rgba(0,0,0,0.6)", color: "#ffffff" }}
                         >
                           {brand.priceRange}
                         </span>
                       </div>
                     </div>
                     <div className="p-6">
-                      <h3 className="text-xl font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
+                      <h3 className="text-xl mb-2 r-hx" style={{ color: "#0a0a0a" }}>
                         {brand.name}
                       </h3>
-                      <p className="text-sm leading-relaxed mb-4" style={{ color: "#6b6560", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+                      <p className="text-base leading-relaxed mb-4" style={{ color: "#6f6964" }}>
                         {brand.tagline}
                       </p>
-                      <div className="flex items-center justify-between pt-4" style={{ borderTop: "1px solid rgba(217,194,186,0.3)" }}>
+                      <div className="flex items-center justify-between pt-4" style={{ borderTop: "1px solid #ddd6cc" }}>
                         <div>
-                          <p className="text-xs uppercase tracking-wider mb-0.5" style={{ color: "#9a9490", fontFamily: "'Montserrat', sans-serif" }}>Top pick</p>
-                          <p className="text-xs font-semibold" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{brand.topPick}</p>
+                          <p className="text-[12.5px] mb-0.5" style={{ color: "#9a9490" }}>Top pick</p>
+                          <p className="text-xs font-semibold" style={{ color: "#0a0a0a" }}>{brand.topPick}</p>
                         </div>
                         <span
-                          className="text-xs font-semibold uppercase tracking-widest"
-                          style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif", borderBottom: "1px solid #8b4a31", paddingBottom: "1px" }}
+                          className="text-[12.5px] font-bold"
+                          style={{ color: "#0a0a0a", borderBottom: "1px solid #0a0a0a", paddingBottom: "1px" }}
                         >
                           Read guide →
                         </span>
@@ -380,25 +379,25 @@ export default function BrandsPage() {
         </section>
 
         {/* Equipment Brands */}
-        <section className="px-6 pb-24" style={{ backgroundColor: "#ffffff" }}>
+        <section className="px-6 pb-24">
           <div className="max-w-6xl mx-auto">
             <div className="flex items-center gap-4 mb-10">
-              <div className="w-8 h-px" style={{ backgroundColor: "#d9c2ba" }} />
-              <p className="text-xs font-semibold uppercase tracking-[0.25em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
+              <div className="w-8 h-px" style={{ backgroundColor: "#ddd6cc" }} />
+              <p className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Equipment</p>
             </div>
-            <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
+            <h2 className="mb-8 r-d r-h2">
               Equipment brand guides
             </h2>
 
             {/* Hub CTA */}
             <Link href="/blog/best-pilates-reformer-brands" style={{ textDecoration: "none" }}>
-              <div className="rounded-2xl p-6 mb-10 flex items-center justify-between gap-6 hover:opacity-90 transition-opacity" style={{ backgroundColor: "#1b1c1c" }}>
+              <div className="rounded-2xl p-6 mb-10 flex items-center justify-between gap-6 hover:opacity-90 transition-opacity" style={{ backgroundColor: "#0a0a0a" }}>
                 <div>
-                  <span className="text-xs font-semibold uppercase tracking-[0.2em] mb-2 block" style={{ color: "#c5a882", fontFamily: "'Montserrat', sans-serif" }}>Comparison Guide</span>
-                  <p className="text-xl font-semibold" style={{ color: "#ffffff", fontFamily: "'Playfair Display', serif" }}>All 10 reformer Pilates brands ranked</p>
-                  <p className="text-sm mt-1" style={{ color: "rgba(255,255,255,0.55)", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>Balanced Body, Gratz, Merrithew, Peak, Elina, BASI, Align, AeroPilates, Your Reformer, PersonalHour: compared honestly in one guide.</p>
+                  <span className="text-[12.5px] font-bold mb-2 block" style={{ color: "#c5a882" }}>Comparison Guide</span>
+                  <p className="text-xl r-hx" style={{ color: "#ffffff" }}>All 10 reformer Pilates brands ranked</p>
+                  <p className="text-base mt-1" style={{ color: "rgba(255,255,255,0.55)" }}>Balanced Body, Gratz, Merrithew, Peak, Elina, BASI, Align, AeroPilates, Your Reformer, PersonalHour: compared honestly in one guide.</p>
                 </div>
-                <span className="text-xs font-semibold uppercase tracking-widest whitespace-nowrap" style={{ color: "#c5a882", fontFamily: "'Montserrat', sans-serif" }}>Read guide →</span>
+                <span className="text-[12.5px] font-bold whitespace-nowrap" style={{ color: "#c5a882" }}>Read guide →</span>
               </div>
             </Link>
 
@@ -407,7 +406,7 @@ export default function BrandsPage() {
                 <Link key={brand.name} href={brand.href} style={{ textDecoration: "none" }}>
                   <div
                     className="group rounded-2xl overflow-hidden h-full"
-                    style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)", transition: "box-shadow 0.2s" }}
+                    style={{ backgroundColor: "#ede9e3", transition: "box-shadow 0.2s" }}
                   >
                     <div className="relative overflow-hidden" style={{ height: "200px" }}>
                       <Image
@@ -415,32 +414,31 @@ export default function BrandsPage() {
                         alt={`${brand.name} Pilates equipment brand guide`}
                         fill
                         className="object-cover transition-transform duration-500 group-hover:scale-105"
-                        style={{ filter: "brightness(0.88)" }}
                       />
                       <div className="absolute top-4 left-4">
                         <span
-                          className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full"
-                          style={{ backgroundColor: "rgba(255,255,255,0.92)", color: tierColor[brand.tier] || "#0a0a0a", fontFamily: "'Montserrat', sans-serif" }}
+                          className="text-[12.5px] font-bold px-3 py-1 rounded-full"
+                          style={{ backgroundColor: "rgba(255,255,255,0.92)", color: tierColor[brand.tier] || "#0a0a0a" }}
                         >
                           {brand.tier}
                         </span>
                       </div>
                     </div>
                     <div className="p-6">
-                      <h3 className="text-xl font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
+                      <h3 className="text-xl mb-2 r-hx" style={{ color: "#0a0a0a" }}>
                         {brand.name}
                       </h3>
-                      <p className="text-sm leading-relaxed mb-4" style={{ color: "#6b6560", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+                      <p className="text-base leading-relaxed mb-4" style={{ color: "#6f6964" }}>
                         {brand.tagline}
                       </p>
-                      <div className="flex items-center justify-between pt-4" style={{ borderTop: "1px solid rgba(217,194,186,0.3)" }}>
+                      <div className="flex items-center justify-between pt-4" style={{ borderTop: "1px solid #ddd6cc" }}>
                         <div>
-                          <p className="text-xs uppercase tracking-wider mb-0.5" style={{ color: "#9a9490", fontFamily: "'Montserrat', sans-serif" }}>Top pick</p>
-                          <p className="text-xs font-semibold" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{brand.topPick}</p>
+                          <p className="text-[12.5px] mb-0.5" style={{ color: "#9a9490" }}>Top pick</p>
+                          <p className="text-xs font-semibold" style={{ color: "#0a0a0a" }}>{brand.topPick}</p>
                         </div>
                         <span
-                          className="text-xs font-semibold uppercase tracking-widest"
-                          style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif", borderBottom: "1px solid #8b4a31", paddingBottom: "1px" }}
+                          className="text-[12.5px] font-bold"
+                          style={{ color: "#0a0a0a", borderBottom: "1px solid #0a0a0a", paddingBottom: "1px" }}
                         >
                           Read guide →
                         </span>
@@ -454,33 +452,32 @@ export default function BrandsPage() {
         </section>
 
         {/* Bottom CTA strip */}
-        <section className="px-6 py-20" style={{ backgroundColor: "#f7f4f0" }}>
+        <section className="px-6 py-20">
           <div className="max-w-2xl mx-auto text-center">
-            <p className="text-xs font-semibold uppercase tracking-[0.25em] mb-4" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>
+            <p className="text-[12.5px] font-bold mb-4" style={{ color: "#0a0a0a" }}>
               Equipment Roundups
             </p>
-            <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
+            <h2 className="mb-6 r-d r-h2">
               Looking for the best across brands?
             </h2>
-            <p className="text-base mb-10" style={{ color: "#6b6560", fontFamily: "'Montserrat', sans-serif", fontWeight: 300, lineHeight: 1.75 }}>
+            <p className="text-base mb-10" style={{ color: "#6f6964", lineHeight: 1.55 }}>
               Our equipment roundups test the best products across every brand, so you get the honest winner, not a brand-specific view.
             </p>
             <div className="flex gap-4 justify-center flex-wrap">
-              <Link
+              <Link className="r-btn r-btn-sm"
                 href="/blog/best-pilates-leggings"
-                style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "10px", fontWeight: 500, letterSpacing: "0.18em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "14px 28px", display: "inline-block" }}
               >
                 Best Leggings
               </Link>
               <Link
                 href="/blog/best-pilates-mat"
-                style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "10px", fontWeight: 500, letterSpacing: "0.18em", textTransform: "uppercase", color: "#0a0a0a", textDecoration: "none", border: "1px solid #0a0a0a", padding: "14px 28px", display: "inline-block" }}
+                style={{ fontSize: "12.5px", fontWeight: 700, color: "#0a0a0a", textDecoration: "none", border: "1px solid #0a0a0a", padding: "14px 28px", display: "inline-block" }}
               >
                 Best Mats
               </Link>
               <Link
                 href="/blog/best-pilates-starter-kit"
-                style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "10px", fontWeight: 500, letterSpacing: "0.18em", textTransform: "uppercase", color: "#0a0a0a", textDecoration: "none", border: "1px solid #0a0a0a", padding: "14px 28px", display: "inline-block" }}
+                style={{ fontSize: "12.5px", fontWeight: 700, color: "#0a0a0a", textDecoration: "none", border: "1px solid #0a0a0a", padding: "14px 28px", display: "inline-block" }}
               >
                 Starter Kit
               </Link>

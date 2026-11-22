@@ -129,33 +129,33 @@ export default function PilatesForArthritisPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Health</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Joint Health</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Health</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Joint Health</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Pilates for Arthritis:<br /><span style={{ color: "#8b4a31" }}>Benefits, Safe Exercises & Modifications</span>
+            <h1 className="mb-6 r-d r-h1">
+              Pilates for Arthritis:<br /><span style={{ color: "#a98a5f" }}>Benefits, Safe Exercises & Modifications</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 8 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 8 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed mb-6" style={{ color: "#3a3530" }}>
               Arthritis, whether osteoarthritis or rheumatoid, does not disqualify you from Pilates. In fact, current clinical evidence consistently supports low-impact, controlled exercise as one of the most effective interventions for managing arthritis pain and maintaining joint function. Pilates, with its emphasis on precise movement, joint alignment, and muscular support, is a particularly well-matched modality. The critical variable is how it is adapted for the individual.
             </p>
             <div className="rounded-xl p-6 mb-4" style={{ backgroundColor: "#fff9f5", border: "1px solid rgba(197,168,130,0.3)" }}>
-              <p className="text-xs font-semibold uppercase tracking-[0.15em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Medical note</p>
-              <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Consult your rheumatologist or GP before beginning or modifying an exercise program. This guide is for general educational purposes and does not replace individual medical advice.</p>
+              <p className="text-[12.5px] font-bold mb-2" style={{ color: "#0a0a0a" }}>Medical note</p>
+              <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>Consult your rheumatologist or GP before beginning or modifying an exercise program. This guide is for general educational purposes and does not replace individual medical advice.</p>
             </div>
           </div>
         </section>
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" alt="Pilates exercises for arthritis management" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" alt="Pilates exercises for arthritis management" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -167,8 +167,8 @@ export default function PilatesForArthritisPage() {
             <AffiliateNote />
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What the evidence says</h2>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">What the evidence says</h2>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 Multiple randomized controlled trials have examined Pilates for arthritis management. Key findings include:
               </p>
               <div className="space-y-4 mb-8">
@@ -180,14 +180,14 @@ export default function PilatesForArthritisPage() {
                 ].map((point, i) => (
                   <div key={i} className="flex gap-4">
                     <div className="w-1.5 rounded-full shrink-0 mt-1" style={{ backgroundColor: "#c5a882", minHeight: "20px" }} />
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{point}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{point}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Key modifications for arthritic joints</h2>
+              <h2 className="mb-6 r-d r-h2">Key modifications for arthritic joints</h2>
               <div className="space-y-6">
                 {[
                   { joint: "Knees", mods: "Use a thick mat (10mm) for kneeling exercises. Avoid deep knee flexion beyond comfortable range. Perform footwork on the reformer with spring assistance rather than full body weight. Use a knee sleeve for warmth and proprioception." },
@@ -195,23 +195,23 @@ export default function PilatesForArthritisPage() {
                   { joint: "Wrists and hands", mods: "Substitute fist-leaning or forearm-supported positions for open-palm quadruped exercises. Use wrist wraps for exercises that require wrist extension loading. Reformer work with loops is often more accessible than mat exercises that require floor hand placement." },
                   { joint: "Spine", mods: "Work within a comfortable range of flexion and extension: do not force through end-range where there is arthritic disc or facet involvement. The neutral spine position that Pilates emphasizes is inherently protective for most spinal arthritis presentations." },
                 ].map((item) => (
-                  <div key={item.joint} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-sm font-semibold mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{item.joint}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.mods}</p>
+                  <div key={item.joint} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base font-semibold mb-2" style={{ color: "#0a0a0a" }}>{item.joint}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.mods}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Equipment that helps</h2>
-              <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
+              <h2 className="mb-6 r-d r-h2">Equipment that helps</h2>
+              <p className="text-xs mb-8" style={{ color: "#6f6964" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
                     <div className="flex items-center gap-3 mb-4">
-                      <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                      <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tag}</span>
+                      <span className="text-2xl r-hx" style={{ color: "#9a9490" }}>{p.rank}</span>
+                      <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{p.tag}</span>
                     </div>
                     <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                   </div>
@@ -220,23 +220,23 @@ export default function PilatesForArthritisPage() {
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   { q: "Is Pilates good for arthritis?", a: "Yes. Multiple clinical studies support Pilates as beneficial for both osteoarthritis and rheumatoid arthritis. Benefits include improved joint mobility, reduced pain scores, better balance and proprioception, and stronger supporting musculature. The low-impact nature of Pilates and its emphasis on controlled movement make it more accessible than many other exercise forms for people with arthritic joints." },
                   { q: "Which type of Pilates is best for arthritis?", a: "Reformer Pilates is often better tolerated than mat Pilates for arthritis because the spring resistance system allows exercises to be performed with less body weight through the joints. The carriage support reduces the need to hold positions that load arthritic knees and wrists, and the spring assistance can reduce the effort required in challenging positions. Mat Pilates is also appropriate with a thick mat and appropriate modifications." },
                   { q: "Should I do Pilates during an arthritis flare?", a: "No. During an active inflammatory flare (characterized by significant joint swelling, redness, warmth, and acute pain) rest and medical management take priority over exercise. Structured Pilates should wait until the acute flare resolves. Consult your rheumatologist for specific guidance on exercise during flares." },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Pilates for Seniors" excerpt="Age-appropriate Pilates: safe exercises, modifications, and the genuine benefits of practice over 60." href="/blog/pilates-for-seniors" category="Health" readTime="8 min read" date="April 2026" imageUrl="/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg" />
                 <ArticleCard title="Pilates for Back Pain" excerpt="Evidence-based Pilates for chronic and acute back pain: what works and what the research says." href="/blog/pilates-for-back-pain" category="Health" readTime="9 min read" date="March 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />

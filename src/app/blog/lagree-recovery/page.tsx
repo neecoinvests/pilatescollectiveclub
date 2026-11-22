@@ -157,7 +157,6 @@ const toNumber = (price: string) => {
   return Number.isNaN(n) ? 0 : n;
 };
 const fmt = (n: number) => `$${n.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
-const BASICS_TOTAL = BASICS.reduce((sum, p) => sum + toNumber(p.price), 0); // 7.99 + 28.96 + 5.87 + 14.99 = 57.81
 const STARTER_TOTAL = toNumber(BASICS[0].price) + toNumber(BASICS[1].price); // 7.99 + 28.96 = 36.95
 
 const TIMELINE = [
@@ -252,20 +251,19 @@ const jsonLd = {
   ],
 };
 
-const eyebrowStyle = { color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" };
-const bodyStyle = { color: "#53433e", fontFamily: "'Montserrat', sans-serif" };
-const h2Style = { color: "#1b1c1c", fontFamily: "'Playfair Display', serif" };
-const inlineLinkStyle = { color: "#8b4a31", textDecoration: "underline" };
-const chipStyle = { backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" };
-const cardStyle = { backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" };
-const hubStyle = { backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.4)", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif", textDecoration: "none" };
-const shopStyle = { display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase" as const, color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap" as const, flexShrink: 0 };
+const eyebrowStyle = { color: "#0a0a0a" };
+const bodyStyle = { color: "#3a3530" };
+const h2Style = { color: "#0a0a0a" };
+const inlineLinkStyle = { color: "#0a0a0a", textDecoration: "underline" };
+const chipStyle = { backgroundColor: "#ede9e3", color: "#0a0a0a" };
+const cardStyle = { backgroundColor: "#ede9e3" };
+const hubStyle = { backgroundColor: "#ede9e3", color: "#0a0a0a", textDecoration: "none" };
 
 function TierCard({ p }: { p: Pick }) {
   return (
     <div id={p.id} className="scroll-mt-28">
       <div className="flex items-center gap-3 mb-4">
-        <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={chipStyle}>{p.badge}</span>
+        <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={chipStyle}>{p.badge}</span>
       </div>
       <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.url} />
     </div>
@@ -275,8 +273,8 @@ function TierCard({ p }: { p: Pick }) {
 function Divider({ label }: { label: string }) {
   return (
     <div className="flex items-center gap-4 mb-10">
-      <p className="text-xs font-semibold uppercase tracking-[0.2em] shrink-0" style={eyebrowStyle}>{label}</p>
-      <div className="flex-1 h-px" style={{ backgroundColor: "#d9c2ba" }} />
+      <p className="text-[12.5px] font-bold shrink-0" style={eyebrowStyle}>{label}</p>
+      <div className="flex-1 h-px" style={{ backgroundColor: "#ddd6cc" }} />
     </div>
   );
 }
@@ -296,23 +294,23 @@ export default function LagreeRecoveryPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={eyebrowStyle}>Recovery</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Lagree</span>
+              <span className="text-[12.5px] font-bold" style={eyebrowStyle}>Recovery</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Lagree</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Sore After Lagree?<br /><span style={{ color: "#8b4a31" }}>What Helps, and the Gear Worth Buying</span>
+            <h1 className="mb-6 r-d r-h1">
+              Sore After Lagree?<br /><span style={{ color: "#a98a5f" }}>What Helps, and the Gear Worth Buying</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 11 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 11 min read</p>
             <TopPick name={QUICK_PICKS[0].name} price={QUICK_PICKS[0].price} note={QUICK_PICKS[0].note} url={QUICK_PICKS[0].url} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed mb-6" style={{ color: "#3a3530" }}>
               You survived the class. You even enjoyed the shakes. Then you tried to sit down the next morning. Lagree has a reputation for next-day soreness that surprises even people who lift or run, and there is a good reason for it. This guide explains why it happens and how long it lasts. It covers what genuinely helps, which is less than marketing suggests, and the recovery tools worth your money at every budget.
             </p>
-            <p className="text-sm leading-relaxed" style={bodyStyle}>
+            <p className="text-base leading-relaxed" style={bodyStyle}>
               Every product was checked live on Amazon on October 3, 2026, at the price shown. Prices change, so the final price is whatever Amazon shows at checkout.
             </p>
           </div>
@@ -320,8 +318,8 @@ export default function LagreeRecoveryPage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/stitch-studio-bench-towels.png" alt="Folded towels on a studio bench: recovering after Lagree" fill className="object-cover" style={{ filter: "brightness(0.85)" }} priority />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/stitch-studio-bench-towels.png" alt="Folded towels on a studio bench: recovering after Lagree" fill className="object-cover" priority />
             </div>
           </div>
         </section>
@@ -343,8 +341,8 @@ export default function LagreeRecoveryPage() {
 
             {/* Why */}
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-6" style={h2Style}>Why Lagree makes you so sore</h2>
-              <p className="text-sm leading-relaxed mb-6" style={bodyStyle}>
+              <h2 className="mb-6 r-d r-h2" style={h2Style}>Why Lagree makes you so sore</h2>
+              <p className="text-base leading-relaxed mb-6" style={bodyStyle}>
                 The soreness you feel a day or two later is delayed-onset muscle soreness (DOMS). Lagree is almost designed to cause it, for three reasons:
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
@@ -354,8 +352,8 @@ export default function LagreeRecoveryPage() {
                   { heading: "New angles", body: "Lunges between a moving carriage and a fixed platform load muscles in unfamiliar ways. Novelty is a major soreness trigger." },
                 ].map((item) => (
                   <div key={item.heading} className="rounded-xl p-5" style={cardStyle}>
-                    <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.heading}</p>
-                    <p className="text-sm leading-relaxed" style={bodyStyle}>{item.body}</p>
+                    <p className="text-sm mb-1.5 r-hx" style={{ color: "#0a0a0a" }}>{item.heading}</p>
+                    <p className="text-base leading-relaxed" style={bodyStyle}>{item.body}</p>
                   </div>
                 ))}
               </div>
@@ -363,12 +361,12 @@ export default function LagreeRecoveryPage() {
 
             {/* Timeline */}
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-6" style={h2Style}>How long Lagree soreness lasts</h2>
+              <h2 className="mb-6 r-d r-h2" style={h2Style}>How long Lagree soreness lasts</h2>
               <div className="r-qp r-glance">
                 {TIMELINE.map((t, i) => (
-                  <div key={t.when} className="flex flex-col sm:flex-row gap-1 sm:gap-6 px-6 py-4" style={{ borderTop: i === 0 ? "none" : "1px solid rgba(217,194,186,0.25)", backgroundColor: "#ffffff" }}>
-                    <p className="text-sm font-semibold sm:w-40 shrink-0" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{t.when}</p>
-                    <p className="text-sm leading-relaxed" style={bodyStyle}>{t.what}</p>
+                  <div key={t.when} className="flex flex-col sm:flex-row gap-1 sm:gap-6 px-6 py-4" style={{ borderTop: i === 0 ? "none" : "1px solid #ddd6cc", backgroundColor: "#ffffff" }}>
+                    <p className="text-base font-semibold sm:w-40 shrink-0" style={{ color: "#0a0a0a" }}>{t.when}</p>
+                    <p className="text-base leading-relaxed" style={bodyStyle}>{t.what}</p>
                   </div>
                 ))}
               </div>
@@ -376,13 +374,13 @@ export default function LagreeRecoveryPage() {
 
             {/* What helps */}
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-6" style={h2Style}>What actually helps (and what is just nice)</h2>
-              <p className="text-sm leading-relaxed mb-6" style={bodyStyle}>
+              <h2 className="mb-6 r-d r-h2" style={h2Style}>What actually helps (and what is just nice)</h2>
+              <p className="text-base leading-relaxed mb-6" style={bodyStyle}>
                 The honest truth about DOMS is that time fixes it. Nothing makes it vanish overnight. Some things reliably make it more bearable, and some are mostly ritual. Both have their place, as long as you know which is which.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
                 <div className="rounded-xl p-5" style={cardStyle}>
-                  <p className="text-sm font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Worth doing</p>
+                  <p className="text-sm mb-2 r-hx" style={{ color: "#0a0a0a" }}>Worth doing</p>
                   <ul className="space-y-1.5">
                     {[
                       "Gentle movement: walking, an easy bike ride, light stretching",
@@ -391,12 +389,12 @@ export default function LagreeRecoveryPage() {
                       "Massage and foam rolling, which can modestly reduce how sore you feel",
                       "Coming back regularly; consistency cuts soreness most",
                     ].map((x) => (
-                      <li key={x} className="text-sm leading-relaxed flex gap-2" style={bodyStyle}><span style={{ color: "#536257" }}>✓</span><span>{x}</span></li>
+                      <li key={x} className="text-base leading-relaxed flex gap-2" style={bodyStyle}><span style={{ color: "#3a3530" }}>✓</span><span>{x}</span></li>
                     ))}
                   </ul>
                 </div>
                 <div className="rounded-xl p-5" style={cardStyle}>
-                  <p className="text-sm font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Nice, but mostly ritual</p>
+                  <p className="text-sm mb-2 r-hx" style={{ color: "#0a0a0a" }}>Nice, but mostly ritual</p>
                   <ul className="space-y-1.5">
                     {[
                       "Epsom salt baths; the warmth helps, but skin absorption of magnesium is doubtful",
@@ -404,14 +402,14 @@ export default function LagreeRecoveryPage() {
                       "Compression boots: a luxury, not a necessity",
                       "Anything promising to \"flush out lactic acid\", which is not what causes DOMS",
                     ].map((x) => (
-                      <li key={x} className="text-sm leading-relaxed flex gap-2" style={bodyStyle}><span style={{ color: "#86736d" }}>~</span><span>{x}</span></li>
+                      <li key={x} className="text-base leading-relaxed flex gap-2" style={bodyStyle}><span style={{ color: "#6f6964" }}>~</span><span>{x}</span></li>
                     ))}
                   </ul>
                 </div>
               </div>
-              <div className="rounded-2xl p-6" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.5)" }}>
-                <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={eyebrowStyle}>When it is not normal soreness</p>
-                <p className="text-sm leading-relaxed" style={bodyStyle}>
+              <div className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                <p className="text-[12.5px] font-bold mb-2" style={eyebrowStyle}>When it is not normal soreness</p>
+                <p className="text-base leading-relaxed" style={bodyStyle}>
                   Get medical help for severe pain out of proportion to the workout, unusual weakness, swelling, or dark, tea- or cola-colored urine. These can signal rhabdomyolysis, which is rare but serious. Sharp pain, pain in a joint rather than a muscle, or pain that worsens after a week also deserves a professional opinion.
                 </p>
               </div>
@@ -419,7 +417,7 @@ export default function LagreeRecoveryPage() {
 
             {/* Day after plan */}
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-6" style={h2Style}>A simple day-after routine</h2>
+              <h2 className="mb-6 r-d r-h2" style={h2Style}>A simple day-after routine</h2>
               <ol className="space-y-3">
                 {[
                   { h: "Morning: move.", b: "A 15–20 minute walk does more for stiff quads than sitting still." },
@@ -429,8 +427,8 @@ export default function LagreeRecoveryPage() {
                   { h: "Next class: go lighter.", b: "Choose lighter springs and keep the tempo. Soreness fades fastest with regular sessions." },
                 ].map((s, i) => (
                   <li key={s.h} className="flex gap-4">
-                    <span className="text-base font-semibold w-7 shrink-0 text-center" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{String(i + 1).padStart(2, "0")}</span>
-                    <p className="text-sm leading-relaxed" style={bodyStyle}><span className="font-semibold" style={{ color: "#1b1c1c" }}>{s.h}</span> {s.b}</p>
+                    <span className="text-base w-7 shrink-0 text-center r-hx" style={{ color: "#9a9490" }}>{String(i + 1).padStart(2, "0")}</span>
+                    <p className="text-base leading-relaxed" style={bodyStyle}><span className="font-semibold" style={{ color: "#0a0a0a" }}>{s.h}</span> {s.b}</p>
                   </li>
                 ))}
               </ol>
@@ -441,44 +439,21 @@ export default function LagreeRecoveryPage() {
               <Divider label="The recovery kit" />
             </div>
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-4" style={h2Style}>Recovery gear worth buying after Lagree</h2>
-              <p className="text-sm leading-relaxed mb-8" style={bodyStyle}>
+              <h2 className="mb-4 r-d r-h2" style={h2Style}>Recovery gear worth buying after Lagree</h2>
+              <p className="text-base leading-relaxed mb-8" style={bodyStyle}>
                 Start cheap. A massage ball and a foam roller ({fmt(STARTER_TOTAL)} together) handle most of what a Lagree regular needs. Add a massage gun if you train three or more times a week or want something quicker to use. Compression boots are for the devoted.
               </p>
 
-              <div className="mb-10 r-qp r-glance">
-                <div className="r-qp-hd">
-                  <p className="r-qp-title">At a Glance: Lagree Recovery Gear</p>
-                </div>
-                {ALL_ITEMS.map((p, i) => (
-                  <div key={p.id} className="r-qp-row">
-                    <span className="r-qp-no">{String(i + 1).padStart(2, "0")}</span>
-                    <div className="r-qp-tx">
-                      <p className="r-qp-tag">
-                        <a className="r-qp-a" href={`#${p.id}`}>{p.shortName}</a>
-                      </p>
-                      <p className="r-qp-name">{p.name}</p>
-                      <p className="r-qp-sub md:hidden">{p.price}</p>
-                    </div>
-                    <span className="r-qp-price hidden md:block">{p.price}</span>
-                    <a href={p.url} target="_blank" rel="noopener noreferrer sponsored nofollow" style={shopStyle}>Shop →</a>
-                  </div>
-                ))}
-                <div className="r-qp-row r-qp-total">
-                  <span>All four basics (01–04)</span>
-                  <span>{fmt(BASICS_TOTAL)}</span>
-                </div>
-              </div>
 
-              <h3 className="text-2xl font-semibold mb-6" style={h2Style}>The basics</h3>
+              <h3 className="text-2xl mb-6 r-hx" style={h2Style}>The basics</h3>
               <div className="space-y-8 mb-12">
                 {BASICS.map((p) => (
                   <TierCard key={p.id} p={p} />
                 ))}
               </div>
 
-              <h3 className="text-2xl font-semibold mb-4" style={h2Style}>Massage guns</h3>
-              <p className="text-sm leading-relaxed mb-6" style={bodyStyle}>
+              <h3 className="text-2xl mb-4 r-hx" style={h2Style}>Massage guns</h3>
+              <p className="text-base leading-relaxed mb-6" style={bodyStyle}>
                 All three do the same basic job. You are paying for weight, noise, battery and brand. For Lagree, the glutes, quads, calves and the arches of your feet are where a gun earns its keep.
               </p>
               <div className="space-y-8 mb-12">
@@ -487,9 +462,9 @@ export default function LagreeRecoveryPage() {
                 ))}
               </div>
 
-              <h3 className="text-2xl font-semibold mb-6" style={h2Style}>The splurge</h3>
+              <h3 className="text-2xl mb-6 r-hx" style={h2Style}>The splurge</h3>
               <TierCard p={SPLURGE} />
-              <p className="text-sm leading-relaxed mt-2" style={bodyStyle}>
+              <p className="text-base leading-relaxed mt-2" style={bodyStyle}>
                 More options: <Link href="/blog/best-massage-gun-for-pilates" style={inlineLinkStyle}>best massage guns</Link>,{" "}
                 <Link href="/blog/best-pilates-foam-roller" style={inlineLinkStyle}>best foam rollers</Link> and{" "}
                 <Link href="/blog/best-massage-balls-for-pilates" style={inlineLinkStyle}>best massage balls</Link>.
@@ -498,11 +473,11 @@ export default function LagreeRecoveryPage() {
 
             {/* Prevention */}
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-4" style={h2Style}>Less sore next time</h2>
-              <p className="text-sm leading-relaxed mb-4" style={bodyStyle}>
+              <h2 className="mb-4 r-d r-h2" style={h2Style}>Less sore next time</h2>
+              <p className="text-base leading-relaxed mb-4" style={bodyStyle}>
                 The most effective soreness fix is the least exciting one: come back. Muscles adapt quickly to a new type of work, so the first two or three weeks of Lagree are usually the worst. Until then, pick lighter springs, keep the slow tempo rather than chasing heavy loads, and space your first few classes a couple of days apart.
               </p>
-              <p className="text-sm leading-relaxed" style={bodyStyle}>
+              <p className="text-base leading-relaxed" style={bodyStyle}>
                 Good grip also matters more than people think. Slipping on a sweaty carriage makes you brace and tense in ways that leave you sorer. Grip socks and a towel help; see{" "}
                 <Link href="/blog/best-lagree-grip-socks" style={inlineLinkStyle}>Lagree socks</Link> and{" "}
                 <Link href="/blog/best-sweat-towel-for-lagree" style={inlineLinkStyle}>sweat towels for Lagree</Link>.
@@ -511,12 +486,12 @@ export default function LagreeRecoveryPage() {
 
             {/* FAQ */}
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={h2Style}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2" style={h2Style}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {FAQS.map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={cardStyle}>
-                    <h3 className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</h3>
-                    <p className="text-sm leading-relaxed" style={bodyStyle}>{item.a}</p>
+                    <h3 className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</h3>
+                    <p className="text-base leading-relaxed" style={bodyStyle}>{item.a}</p>
                   </div>
                 ))}
               </div>
@@ -524,7 +499,7 @@ export default function LagreeRecoveryPage() {
 
             {/* Further reading */}
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={h2Style}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2" style={h2Style}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Lagree Exercises" excerpt="The signature moves you will hear in class, explained, plus floor versions for home." href="/blog/lagree-exercises" category="Lagree" readTime="12 min read" date="October 2026" imageUrl="/pictures/stitch-hands-on-carriage.png" />
                 <ArticleCard title="Lagree for Beginners" excerpt="What to expect in your first class, what to wear, and how to survive the shakes." href="/blog/lagree-for-beginners" category="Lagree" readTime="10 min read" date="September 2026" imageUrl="/pictures/stitch-studio-modern-row.png" />

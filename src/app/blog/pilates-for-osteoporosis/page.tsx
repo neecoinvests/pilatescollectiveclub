@@ -92,24 +92,24 @@ export default function PilatesForOsteoporosisPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Health</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Bone Health</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Health</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Bone Health</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Pilates for<br />Osteoporosis:<br /><span style={{ color: "#8b4a31" }}>Safe Practice Guide</span>
+            <h1 className="mb-6 r-d r-h1">
+              Pilates for<br />Osteoporosis:<br /><span style={{ color: "#a98a5f" }}>Safe Practice Guide</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 12 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 12 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note="Dense, studio-standard mat that resists sinking at the wrists and hips" url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               Pilates is one of the most frequently recommended exercise approaches for people with osteoporosis and osteopenia, and one of the most frequently misapplied. The method&apos;s emphasis on controlled movement and spinal alignment makes it naturally well-suited to bone health. But several classical Pilates exercises pose genuine fracture risk for people with low bone density. This guide explains the evidence, the exercises that help, and the critical modifications that make Pilates safe.
             </p>
-            <div className="mt-6 p-4 rounded-xl" style={{ backgroundColor: "#fff4f1", border: "1px solid rgba(139,74,49,0.2)" }}>
-              <p className="text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}><span className="font-semibold">Medical note:</span> This article is educational information, not medical advice. Always consult your GP or rheumatologist before starting a new exercise program with osteoporosis or osteopenia, and inform your Pilates instructor of your diagnosis and most recent DEXA scan result.</p>
+            <div className="mt-6 p-4 rounded-2xl" style={{ backgroundColor: "#fff4f1", border: "1px solid #ddd6cc" }}>
+              <p className="text-base" style={{ color: "#3a3530" }}><span className="font-semibold">Medical note:</span> This article is educational information, not medical advice. Always consult your GP or rheumatologist before starting a new exercise program with osteoporosis or osteopenia, and inform your Pilates instructor of your diagnosis and most recent DEXA scan result.</p>
             </div>
           </div>
         </section>
@@ -117,7 +117,7 @@ export default function PilatesForOsteoporosisPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg" alt="Pilates for osteoporosis: safe bone-building exercises and spinal extension work" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg" alt="Pilates for osteoporosis: safe bone-building exercises and spinal extension work" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -132,21 +132,21 @@ export default function PilatesForOsteoporosisPage() {
             <AffiliateNote />
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Why bone health is a movement problem</h2>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">Why bone health is a movement problem</h2>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 Bone is living tissue that responds to mechanical load. When muscles pull on bones through their attachment points, the resulting stress stimulates osteoblast activity: new bone formation. This is Wolff&apos;s Law: bone adapts to the loads placed upon it. Conversely, without adequate load (sedentary behavior, bed rest, weightlessness), bone density declines.
               </p>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 Osteoporosis: defined as a T-score of -2.5 or lower on DEXA scan: represents a significant reduction in bone mineral density. It is most common in postmenopausal women (due to estrogen loss) and in older men, but can affect any age group. Osteopenia (T-score -1.0 to -2.5) is a precursor state that responds well to exercise intervention.
               </p>
-              <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>
                 The goal of exercise for osteoporosis is twofold: stimulate bone formation through safe mechanical loading, and reduce fracture risk by improving balance, coordination, and postural muscle strength. Pilates addresses both, when appropriately modified. The challenge is that the classical Pilates repertoire includes exercises that compress the spine in flexion, which can trigger vertebral compression fractures in people with low bone density. Understanding this distinction is the critical starting point.
               </p>
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Pilates exercises that support bone health</h2>
-              <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">Pilates exercises that support bone health</h2>
+              <p className="text-base leading-relaxed mb-6" style={{ color: "#3a3530" }}>
                 These exercises are generally safe and beneficial for people with osteopenia and osteoporosis. They maintain the spine in neutral or extension (reducing vertebral compression risk), load the hip and spine through safe ranges, and develop the postural muscle strength that reduces fall risk.
               </p>
               <div className="space-y-4">
@@ -172,17 +172,17 @@ export default function PilatesForOsteoporosisPage() {
                     body: "Hip abduction, external rotation, and hip circle exercises in side-lying load the femoral neck, the most common site of osteoporotic hip fracture, through the abductor muscles. This is one of the most direct interventions for hip bone health available in the Pilates repertoire.",
                   },
                 ].map((item) => (
-                  <div key={item.title} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.title}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
+                  <div key={item.title} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.title}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.body}</p>
                   </div>
                 ))}
               </div>
             </div>
 
-            <div className="mb-14 rounded-2xl p-8" style={{ backgroundColor: "#fff4f1", border: "1px solid rgba(139,74,49,0.2)" }}>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Exercises to avoid with osteoporosis</h2>
-              <p className="text-sm leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>The following classical Pilates exercises are contraindicated or require significant modification for people with osteoporosis. The primary risk is vertebral compression fracture from loaded spinal flexion: the vertebrae are most vulnerable when the spine is bent forward under load.</p>
+            <div className="mb-14 rounded-2xl p-8" style={{ backgroundColor: "#fff4f1", border: "1px solid #ddd6cc" }}>
+              <h2 className="mb-4 r-d r-h2">Exercises to avoid with osteoporosis</h2>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>The following classical Pilates exercises are contraindicated or require significant modification for people with osteoporosis. The primary risk is vertebral compression fracture from loaded spinal flexion: the vertebrae are most vulnerable when the spine is bent forward under load.</p>
               <ul className="space-y-3">
                 {[
                   "Roll-up / roll-down (supine): full spinal flexion under load against gravity, high vertebral compression force. Avoid.",
@@ -194,8 +194,8 @@ export default function PilatesForOsteoporosisPage() {
                   "Roll-like-a-ball: same issue as open-leg rocker. Avoid.",
                   "Corkscrew: combines rotation and flexion. Avoid.",
                 ].map((tip, i) => (
-                  <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                    <span className="font-semibold" style={{ color: "#8b4a31" }}>⚠</span>
+                  <li key={i} className="flex gap-3 text-base" style={{ color: "#3a3530" }}>
+                    <span className="font-semibold" style={{ color: "#0a0a0a" }}>⚠</span>
                     {tip}
                   </li>
                 ))}
@@ -203,20 +203,20 @@ export default function PilatesForOsteoporosisPage() {
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What the research shows</h2>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">What the research shows</h2>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 A 2021 systematic review and meta-analysis published in <em>Osteoporosis International</em> analyzed 12 randomized controlled trials examining Pilates exercise in postmenopausal women with low bone density. The authors found statistically significant improvements in lumbar spine bone mineral density (BMD) and femoral neck BMD compared to control groups, along with significant improvements in balance and functional mobility, both of which are critical fall-risk factors.
               </p>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 The effect on BMD was modest, roughly 1–3% improvement compared to control groups, but clinically meaningful. A 2–3% improvement in femoral neck BMD over 6 months represents a meaningful reduction in fracture risk. More significant are the improvements in balance and muscle strength, which reduce fall probability independently of bone density.
               </p>
-              <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>
                 The National Osteoporosis Foundation (US) and the Royal Osteoporosis Society (UK) both include exercise as a first-line recommendation for osteoporosis management. The Royal Osteoporosis Society&apos;s guidance specifically recommends resistance and balance exercises, the core elements of Pilates, as appropriate for people with osteoporosis when correctly supervised.
               </p>
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   { q: "Can Pilates increase bone density?", a: "Research suggests that weight-bearing and resistance exercise, including Pilates, can slow bone density loss and in some cases produce modest increases. A 2021 systematic review in Osteoporosis International found that Pilates-based exercise programs significantly improved bone mineral density at the lumbar spine and femoral neck in postmenopausal women compared to control groups. The effect is not as large as high-impact exercise (jumping, running), but Pilates is safer for those who already have significant bone loss." },
@@ -224,9 +224,9 @@ export default function PilatesForOsteoporosisPage() {
                   { q: "What Pilates exercises are contraindicated for osteoporosis?", a: "The primary contraindications are exercises involving flexion of the spine under load, particularly the roll-up, the hundred in full position, double-leg stretch, and spine stretch forward in seated. Rotational exercises combined with flexion (saw, corkscrew) are also contraindicated. Exercises that are generally safe include: back extension work (swan prep, swimming), hip strengthening (clam, bridge), standing exercises with support, and gentle reformer footwork." },
                   { q: "Is reformer Pilates better than mat for osteoporosis?", a: "Reformer Pilates has advantages for osteoporosis management because the spring system provides resistance (bone-building stimulus) while the padded carriage supports the spine in safe positions. The long box series, footwork, and standing exercises on the reformer are particularly appropriate. However, mat Pilates, suitably modified, is equally valuable for the extension and stability work that benefits bone health. One-on-one reformer sessions with a clinically-trained instructor are the gold standard starting point." },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
@@ -234,9 +234,9 @@ export default function PilatesForOsteoporosisPage() {
 
 
             {/* Equipment */}
-            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Recommended kit</h2>
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid #ddd6cc" }}>
+              <p className="text-[12.5px] font-bold mb-2" style={{ color: "#0a0a0a" }}>Equipment</p>
+              <h2 className="mb-8 r-d r-h2">Recommended kit</h2>
               <div className="space-y-8">
                 {PRODUCTS.map((p) => (
                   <ProductCard key={p.name} name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
@@ -257,7 +257,7 @@ export default function PilatesForOsteoporosisPage() {
             />
 
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Pilates for Menopause" excerpt="How Pilates addresses the physical and psychological symptoms of perimenopause and menopause." href="/blog/pilates-for-menopause" category="Health" readTime="9 min read" date="June 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
                 <ArticleCard title="Pilates for Seniors" excerpt="How to adapt Pilates practice for older adults: safety, modifications, and the specific benefits for aging bodies." href="/blog/pilates-for-seniors" category="Health" readTime="10 min read" date="June 2026" imageUrl="/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg" />

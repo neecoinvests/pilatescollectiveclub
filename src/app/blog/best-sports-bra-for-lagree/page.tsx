@@ -157,20 +157,20 @@ export default function BestSportsBraForLagreePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Lagree</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Equipment Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Lagree</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best Sports Bras<br /><span style={{ color: "#8b4a31" }}>for Lagree (2026)</span>
+            <h1 className="mb-6 r-d r-h1">
+              Best Sports Bras<br /><span style={{ color: "#a98a5f" }}>for Lagree (2026)</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 9 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 9 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               Support is the obvious requirement and only half the story. Much of Lagree happens lying on your back on a firm vinyl carriage, which means any raised hardware on the back of the bra (a racerback clasp, a plastic slider, a hook-and-eye closure) spends the whole set pressed between your spine and a hard surface. It is the most common complaint from new practitioners, and it is a hardware problem, not a fit one. Below are six bras on Amazon, from high-impact support for jump work to a light matching-set bralette, with notes on what to check on each one for the carriage.
             </p>
           </div>
@@ -178,8 +178,8 @@ export default function BestSportsBraForLagreePage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg" alt="Technical training kit for a high-intensity studio class" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg" alt="Technical training kit for a high-intensity studio class" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -187,8 +187,8 @@ export default function BestSportsBraForLagreePage() {
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
             <div className="mb-12 mt-4">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What a Lagree class asks of a sports bra</h2>
-              <div className="space-y-4 text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+              <h2 className="mb-6 r-d r-h2">What a Lagree class asks of a sports bra</h2>
+              <div className="space-y-4 text-base leading-relaxed" style={{ color: "#3a3530" }}>
                 <p>Lagree is not a high-impact method by design. It is built on slow tempo and long time under tension: a lunge on the Megaformer carriage can take four or five seconds each way, and a plank series keeps you holding position while the springs try to pull the carriage out from under you. For that work, the demand on a sports bra is less about bounce and more about staying put: a band that does not ride up when you invert, straps that do not slide off your shoulders in plank, and fabric that copes with heavy, continuous sweat.</p>
                 <p>Many studios add faster blocks, though: jumping lunges off the platform, cardio bursts, or rebounder intervals in hybrid formats. Those are where support level suddenly matters, and where a light bralette that felt fine in the slow sections stops feeling fine. That is why we split this list by support tier rather than ranking everything on one scale. Most regulars end up with a mix: one or two high-support bras for harder classes and cheaper mid-support ones for the rest.</p>
                 <p>The third factor is specific to the machine. A big share of the repertoire is performed lying on your back on a firm, lightly padded carriage, often with your weight resting right between your shoulder blades. Anything raised on the back of a bra (a clasp, a plastic slider, a bulky strap crossing, a hook-and-eye closure) gets pressed into your spine for the length of the set. None of the listings below promise a hardware-free back, so we have flagged on each card what to check, and why an open U back or a flat racerback join matters.</p>
@@ -200,28 +200,28 @@ export default function BestSportsBraForLagreePage() {
             <AffiliateNote />
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{PRODUCTS.length} Bras · By Support Level</p>
+              <p className="text-[12.5px] font-bold mb-10" style={{ color: "#0a0a0a" }}>{PRODUCTS.length} Bras · By Support Level</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
                     <div className="flex items-center gap-3 mb-4">
-                      <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                      <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tag}</span>
+                      <span className="text-2xl r-hx" style={{ color: "#9a9490" }}>{p.rank}</span>
+                      <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{p.tag}</span>
                     </div>
                     <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                   </div>
                 ))}
               </div>
-              <div className="mt-10 rounded-xl p-6" style={{ backgroundColor: "#f6f3f2" }}>
-                <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Not Lagree-specific? That&apos;s fine</p>
-                <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <div className="mt-10 rounded-xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>Not Lagree-specific? That&apos;s fine</p>
+                <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>
                   None of these bras are made for Lagree, and you do not need one that is. There is no Lagree-branded sports bra standard: what matters is the right support tier for your classes, a band that stays put through planks and inversions, and nothing raised on the back where you lie on the carriage. A good training bra from a mainstream brand covers all three.
                 </p>
               </div>
             </div>
 
-            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#fff4f1", border: "1px solid rgba(139,74,49,0.15)" }}>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What to check</h2>
+            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#fff4f1", border: "1px solid #ddd6cc" }}>
+              <h2 className="mb-4 r-d r-h2">What to check</h2>
               <ul className="space-y-3">
                 {[
                   "Run a hand over the back before buying. Any raised clasp, slider or hook sits between your spine and a firm carriage for the whole set.",
@@ -232,8 +232,8 @@ export default function BestSportsBraForLagreePage() {
                   "Check it does not restrict lateral rib expansion. If you cannot breathe wide into the ribs, it is too tight or sized down too far.",
                   "Buy three or four. Lagree sweat is continuous, and technical fabric holds odor once worn damp.",
                 ].map((tip, i) => (
-                  <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                    <span className="font-semibold" style={{ color: "#8b4a31" }}>⚠</span>
+                  <li key={i} className="flex gap-3 text-base" style={{ color: "#3a3530" }}>
+                    <span className="font-semibold" style={{ color: "#0a0a0a" }}>⚠</span>
                     {tip}
                   </li>
                 ))}
@@ -241,19 +241,19 @@ export default function BestSportsBraForLagreePage() {
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {FAQS.map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Lagree Tops" excerpt="Why fitted tanks beat loose tees on the Megaformer, and five tops to layer over your sports bra." href="/blog/best-lagree-tops" category="Lagree" readTime="8 min read" date="October 2026" imageUrl="/pictures/stitch-retail-activewear.png" />
                 <ArticleCard title="Best Leggings for Lagree" excerpt="Fabric, rise and grip on a moving carriage: the leggings that stay put through lunges and planks." href="/blog/best-leggings-for-lagree" category="Lagree" readTime="8 min read" date="October 2026" imageUrl="/pictures/stitch-retail-activewear.png" />

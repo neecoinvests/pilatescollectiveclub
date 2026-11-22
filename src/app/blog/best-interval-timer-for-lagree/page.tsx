@@ -159,13 +159,13 @@ export default function BestIntervalTimerForLagreePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex gap-2 mb-6">
               <span className="inline-block px-3 py-1 rounded-full text-xs font-semibold tracking-wide" style={{ backgroundColor: "#f0ebe8", color: "#5c4a3d" }}>Studio Essentials</span>
               <span className="inline-block px-3 py-1 rounded-full text-xs font-semibold tracking-wide" style={{ backgroundColor: "#f0ebe8", color: "#5c4a3d" }}>Lagree</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight" style={{ color: "#2d1f17" }}>
+            <h1 className="mb-6 r-d r-h1" style={{ color: "#2d1f17" }}>
               Best Interval Timer for Lagree &amp; Pilates (2026): Studio Clocks Ranked
             </h1>
             <p className="text-sm mb-6" style={{ color: "#9e8a7e" }}>Prices checked October 20, 2026 · 6 min read</p>
@@ -179,8 +179,8 @@ export default function BestIntervalTimerForLagreePage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/stitch-studio-modern-row.png" alt="Lagree studio interval timer on wall" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/stitch-studio-modern-row.png" alt="Lagree studio interval timer on wall" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -200,8 +200,8 @@ export default function BestIntervalTimerForLagreePage() {
               </div>
             ))}
 
-            <div className="rounded-2xl p-8 mb-12" style={{ backgroundColor: "#fcf9f8", border: "1px solid #e8e0db" }}>
-              <h2 className="text-2xl font-bold mb-6" style={{ color: "#2d1f17" }}>What to Look for in a Lagree Timer</h2>
+            <div className="rounded-2xl p-8 mb-12" style={{ backgroundColor: "#f7f4f0", border: "1px solid #e8e0db" }}>
+              <h2 className="mb-6 r-d r-h2" style={{ color: "#2d1f17" }}>What to Look for in a Lagree Timer</h2>
               <div className="space-y-5 text-base leading-relaxed" style={{ color: "#5c4a3d" }}>
                 <div>
                   <h3 className="font-semibold mb-1" style={{ color: "#2d1f17" }}>Display size</h3>
@@ -223,7 +223,7 @@ export default function BestIntervalTimerForLagreePage() {
             </div>
 
             <div className="mb-12">
-              <h2 className="text-2xl font-bold mb-6" style={{ color: "#2d1f17" }}>Frequently Asked Questions</h2>
+              <h2 className="mb-6 r-d r-h2" style={{ color: "#2d1f17" }}>Frequently Asked Questions</h2>
               <div className="space-y-6">
                 {(jsonLd["@graph"][3] as { mainEntity: { name: string; acceptedAnswer: { text: string } }[] }).mainEntity.map((faq) => (
                   <div key={faq.name}>
@@ -235,7 +235,7 @@ export default function BestIntervalTimerForLagreePage() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-bold mb-6" style={{ color: "#2d1f17" }}>Further Reading</h2>
+              <h2 className="mb-6 r-d r-h2" style={{ color: "#2d1f17" }}>Further Reading</h2>
               <div className="grid md:grid-cols-2 gap-6">
                 <ArticleCard title="Lagree Essentials" excerpt="Everything to wear, bring and buy for Lagree: best, budget and splurge picks on one page." href="/blog/lagree-essentials" category="Lagree" readTime="12 min read" date="September 2026" />
                 <ArticleCard title="Lagree Fitness: The Brand Guide" excerpt="The company behind the Megaformer, and the compact Micro home machine it sells on Amazon." href="/blog/lagree-fitness" category="Lagree" readTime="12 min read" date="September 2026" />

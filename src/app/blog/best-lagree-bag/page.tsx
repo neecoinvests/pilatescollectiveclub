@@ -163,20 +163,20 @@ export default function BestLagreeBagPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Lagree</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Equipment Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Lagree</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              The Best Lagree Bag<br /><span style={{ color: "#8b4a31" }}>for Class (2026)</span>
+            <h1 className="mb-6 r-d r-h1">
+              The Best Lagree Bag<br /><span style={{ color: "#a98a5f" }}>for Class (2026)</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 9 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 9 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               Lagree is the sweatiest thing most people do in a studio. Slow tempo and long time under tension mean you sweat steadily for the whole class, and you walk out with a damp towel, damp grip socks and a top you would rather not fold back in with your clean clothes. That is why the best Lagree bag is not the prettiest or the biggest: it is the one that separates wet kit and outdoor shoes from everything else.
             </p>
           </div>
@@ -184,8 +184,8 @@ export default function BestLagreeBagPage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/stitch-studio-changing-area.png" alt="Studio changing area with gym bags: packing for a Lagree class" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/stitch-studio-changing-area.png" alt="Studio changing area with gym bags: packing for a Lagree class" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -196,34 +196,34 @@ export default function BestLagreeBagPage() {
             <AffiliateNote>Most links on this page go to Amazon, and we earn a small commission on qualifying purchases. Amazon prices were checked on 2 October 2026 and can change. One pick (Lululemon) is not sold on Amazon and links directly to lululemon.com; we earn no commission on it.</AffiliateNote>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What makes a good Lagree bag</h2>
-              <div className="space-y-5 text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+              <h2 className="mb-6 r-d r-h2">What makes a good Lagree bag</h2>
+              <div className="space-y-5 text-base leading-relaxed" style={{ color: "#3a3530" }}>
                 <p>
                   Any bag will carry your things to a Megaformer class. The question is what it carries home. A Lagree session is built around slow, controlled reps held under tension, planks and kneeling work on a moving carriage, and lunges off the platforms, and the result is steady, heavy sweat. By the end you are packing a towel you used on the carriage, grip socks you trained in and possibly a top you changed out of. Put all of that in one open compartment with your clean clothes, your work things or your shoes, and the bag starts to smell within weeks.
                 </p>
                 <p>
-                  <strong style={{ fontWeight: 600, color: "#1b1c1c" }}>1. A wet compartment.</strong> A separate pocket for damp kit is the single most useful feature. It keeps sweat away from dry items on the way home and makes it obvious what needs to go straight into the wash. If you love a bag that does not have one, a washable zip pouch inside the main compartment gets you most of the way there.
+                  <strong style={{ fontWeight: 600, color: "#0a0a0a" }}>1. A wet compartment.</strong> A separate pocket for damp kit is the single most useful feature. It keeps sweat away from dry items on the way home and makes it obvious what needs to go straight into the wash. If you love a bag that does not have one, a washable zip pouch inside the main compartment gets you most of the way there.
                 </p>
                 <p>
-                  <strong style={{ fontWeight: 600, color: "#1b1c1c" }}>2. A separate shoe compartment.</strong> Lagree studios have you train in grip socks, so the trainers you arrive in come off at the door and travel home with you. A shoe compartment keeps outdoor soles away from your towel and change of clothes. This is the feature most people do not think about until they have a bag full of street grit.
+                  <strong style={{ fontWeight: 600, color: "#0a0a0a" }}>2. A separate shoe compartment.</strong> Lagree studios have you train in grip socks, so the trainers you arrive in come off at the door and travel home with you. A shoe compartment keeps outdoor soles away from your towel and change of clothes. This is the feature most people do not think about until they have a bag full of street grit.
                 </p>
                 <p>
-                  <strong style={{ fontWeight: 600, color: "#1b1c1c" }}>3. Room for the real load.</strong> A full Lagree kit is bulkier than it sounds: a hand towel, often a full-length grip towel for the carriage, a water bottle, grip socks, a change of clothes and your shoes. If you commute straight from work, add whatever you carry all day. Size up rather than down.
+                  <strong style={{ fontWeight: 600, color: "#0a0a0a" }}>3. Room for the real load.</strong> A full Lagree kit is bulkier than it sounds: a hand towel, often a full-length grip towel for the carriage, a water bottle, grip socks, a change of clothes and your shoes. If you commute straight from work, add whatever you carry all day. Size up rather than down.
                 </p>
                 <p>
-                  <strong style={{ fontWeight: 600, color: "#1b1c1c" }}>4. A shape that fits your studio.</strong> Many boutique studios have small cubbies rather than full lockers. A tote or medium duffle usually fits; an oversized bag may end up on the floor by the door. If you are not sure, ask the front desk what most members bring.
+                  <strong style={{ fontWeight: 600, color: "#0a0a0a" }}>4. A shape that fits your studio.</strong> Many boutique studios have small cubbies rather than full lockers. A tote or medium duffle usually fits; an oversized bag may end up on the floor by the door. If you are not sure, ask the front desk what most members bring.
                 </p>
               </div>
             </div>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>6 Picks · Ranked</p>
+              <p className="text-[12.5px] font-bold mb-10" style={{ color: "#0a0a0a" }}>6 Picks · Ranked</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
                     <div className="flex items-center gap-3 mb-4">
-                      <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                      <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tag}</span>
+                      <span className="text-2xl r-hx" style={{ color: "#9a9490" }}>{p.rank}</span>
+                      <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{p.tag}</span>
                     </div>
                     <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                   </div>
@@ -231,9 +231,9 @@ export default function BestLagreeBagPage() {
               </div>
             </div>
 
-            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.4)" }}>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Not Lagree-specific? That&apos;s fine</h2>
-              <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#ede9e3" }}>
+              <h2 className="mb-4 r-d r-h2">Not Lagree-specific? That&apos;s fine</h2>
+              <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>
                 None of these bags is made for Lagree, and you do not need one that is. There is nothing about a Megaformer class that a bag has to be designed around beyond what any sweaty studio workout demands: somewhere for wet kit, somewhere for shoes, and room for a towel and bottle. We chose these because their listings name those features or, in the case of the duffle and the larger bag, because they offer the capacity for a full change of clothes. Prices were checked on Amazon on 2 October 2026; the Lululemon price is approximate and taken from lululemon.com.
               </p>
             </div>
@@ -251,8 +251,8 @@ export default function BestLagreeBagPage() {
             />
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What to bring to Lagree</h2>
-              <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+              <h2 className="mb-6 r-d r-h2">What to bring to Lagree</h2>
+              <p className="text-base leading-relaxed mb-6" style={{ color: "#3a3530" }}>
                 Use this as a packing checklist. Studio policies vary (some provide towels, most sell grip socks at the desk) so check yours before your first class.
               </p>
               <ul className="space-y-3">
@@ -265,16 +265,16 @@ export default function BestLagreeBagPage() {
                   "Phone, keys and card, in a small belt bag if you want them on you rather than in a cubby.",
                   "What you do not need: a yoga mat. Lagree is done on the machine.",
                 ].map((item, i) => (
-                  <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                    <span className="font-semibold" style={{ color: "#8b4a31" }}>✓</span>
+                  <li key={i} className="flex gap-3 text-base" style={{ color: "#3a3530" }}>
+                    <span className="font-semibold" style={{ color: "#0a0a0a" }}>✓</span>
                     {item}
                   </li>
                 ))}
               </ul>
             </div>
 
-            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#fff4f1", border: "1px solid rgba(139,74,49,0.15)" }}>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What to avoid</h2>
+            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#fff4f1", border: "1px solid #ddd6cc" }}>
+              <h2 className="mb-4 r-d r-h2">What to avoid</h2>
               <ul className="space-y-3">
                 {[
                   "One big open compartment with no way to separate wet kit. Sweaty towels and socks on top of clean clothes is how gym bags start to smell.",
@@ -283,8 +283,8 @@ export default function BestLagreeBagPage() {
                   "Fabric you cannot clean. Your bag will sit on studio floors and carry sweaty kit; pick something you can wipe down or wash.",
                   "Carrying valuables loose in the main compartment. Keep phone and keys in a zip pocket or a small belt bag.",
                 ].map((tip, i) => (
-                  <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                    <span className="font-semibold" style={{ color: "#8b4a31" }}>⚠</span>
+                  <li key={i} className="flex gap-3 text-base" style={{ color: "#3a3530" }}>
+                    <span className="font-semibold" style={{ color: "#0a0a0a" }}>⚠</span>
                     {tip}
                   </li>
                 ))}
@@ -292,19 +292,19 @@ export default function BestLagreeBagPage() {
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {FAQS.map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Sweat Towel for Lagree" excerpt="A hand towel and a carriage-length grip towel do two different jobs. Here is what to pack for each." href="/blog/best-sweat-towel-for-lagree" category="Lagree" readTime="8 min read" date="October 2026" imageUrl="/pictures/stitch-water-towel-bench.png" />
                 <ArticleCard title="Lagree Socks" excerpt="The grip socks that keep your feet planted on a moving carriage and platforms." href="/blog/best-lagree-grip-socks" category="Lagree" readTime="8 min read" date="October 2026" imageUrl="/pictures/stitch-grip-socks-footbar.png" />

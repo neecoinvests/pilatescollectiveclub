@@ -118,20 +118,20 @@ export default function WhereToBuyAPilatesReformerPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Buying</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Buying</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Where to Buy a<br /><span style={{ color: "#8b4a31" }}>Pilates Reformer</span>
+            <h1 className="mb-6 r-d r-h1">
+              Where to Buy a<br /><span style={{ color: "#a98a5f" }}>Pilates Reformer</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Updated 16 September 2026 · 11 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Updated 16 September 2026 · 11 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               The same reformer can differ by several hundred dollars delivered depending on where you buy it, and the cheapest listing is not always the cheapest purchase. Freight, configuration options, warranty validity and whether anyone brings the machine into the room all move with the channel. Here is what each one is actually good for.
             </p>
           </div>
@@ -140,7 +140,7 @@ export default function WhereToBuyAPilatesReformerPage() {
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
             <div className="w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/stitch-studio-entryway.png" alt="The entrance to a Pilates studio with equipment visible beyond" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+              <Image src="/pictures/stitch-studio-entryway.png" alt="The entrance to a Pilates studio with equipment visible beyond" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -151,42 +151,42 @@ export default function WhereToBuyAPilatesReformerPage() {
             <QuickPicks className="mb-6 mt-4" picks={PRODUCTS.map((pr, i) => ({ name: pr.name, price: pr.price, url: pr.affiliateUrl, note: QP_NOTES[i] }))} />
             <AffiliateNote />
 
-            <div className="mb-14 mt-4 rounded-2xl p-7" style={{ backgroundColor: "#fff4f1", border: "1px solid rgba(139,74,49,0.15)" }}>
-              <p className="text-xs font-semibold uppercase tracking-[0.15em] mb-3" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>The method that works</p>
-              <p className="text-base leading-relaxed mb-0" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+            <div className="mb-14 mt-4 rounded-2xl p-7" style={{ backgroundColor: "#fff4f1", border: "1px solid #ddd6cc" }}>
+              <p className="text-[12.5px] font-bold mb-3" style={{ color: "#0a0a0a" }}>The method that works</p>
+              <p className="text-base leading-relaxed mb-0" style={{ color: "#3a3530" }}>
                 Decide your exact configuration on the manufacturer&apos;s site, because that is where the full options list lives. Then price that same specification across two or three authorized dealers, comparing delivered totals rather than headline prices. Then confirm the machine can physically reach the room before anything ships. Most of the money and nearly all of the disasters are in steps two and three.
               </p>
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The four channels</h2>
+              <h2 className="mb-6 r-d r-h2">The four channels</h2>
               <div className="space-y-4">
                 {CHANNELS.map((c) => (
-                  <div key={c.label} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-1" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{c.label}</p>
-                    <p className="text-xs font-semibold uppercase tracking-[0.12em] mb-3" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Best for: {c.best}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{c.body}</p>
+                  <div key={c.label} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-1 r-hx" style={{ color: "#0a0a0a" }}>{c.label}</p>
+                    <p className="text-[12.5px] font-bold mb-3" style={{ color: "#0a0a0a" }}>Best for: {c.best}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{c.body}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Compare delivered totals, not prices</h2>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">Compare delivered totals, not prices</h2>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 A reformer is freight, not a parcel. It is long, heavy and awkward, and the cost of moving it is a material share of the purchase rather than a rounding error. Two dealers listing the same machine at the same price can land hundreds of dollars apart once shipping is applied, which is precisely why free freight is a common competitive lever in this category.
               </p>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 Three other things move the delivered total. Tax, obviously, and it varies by where the seller ships from. Import charges, which in the current US market can appear as a surcharge added at checkout rather than in the listed price, so the number you see is not always the number you pay. And assembly, which on a studio machine may be a separate line or may be bundled.
               </p>
-              <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>
                 So build the comparison on one number: what leaves your account, for a machine standing assembled in the room you want it in. Anything else is not a comparison. Ask each seller for that figure in writing and the differences between them become obvious quickly.
               </p>
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What the channel protects</h2>
-              <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">What the channel protects</h2>
+              <p className="text-base leading-relaxed mb-6" style={{ color: "#3a3530" }}>
                 Price is the visible difference. Recourse is the one that matters when something goes wrong, and it varies more than the price does.
               </p>
               <div className="space-y-4">
@@ -197,28 +197,28 @@ export default function WhereToBuyAPilatesReformerPage() {
                   { label: "Getting it into the room", body: "Kerbside delivery is the default on freight and it leaves you with a crate on the pavement. Room-of-choice delivery and assembly are usually available as separate services, and for a studio order they are often included. Confirm which you are buying, because the difference is a very heavy problem on a Tuesday afternoon." },
                   { label: "Configuration correctness", body: "Footbar type, leg height and upholstery are selected at order. A dealer who knows the product catches a mismatch before it ships; a marketplace listing does not. If you are unsure which footbar you want, that is a reason to buy from someone you can ask." },
                 ].map((item) => (
-                  <div key={item.label} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.label}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
+                  <div key={item.label} className="rounded-2xl p-5" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-sm mb-1.5 r-hx" style={{ color: "#0a0a0a" }}>{item.label}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.body}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>If you are buying more than one</h2>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">If you are buying more than one</h2>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 Multi-machine orders work differently and none of the above really applies. Commercial suppliers price studio fit-outs as quotes rather than as listings, and trade accounts are normal practice across the major brands. The size of any reduction is negotiated, so the only way to find out is to ask for a written quote for the full order.
               </p>
-              <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>
                 Ask for delivery, assembly, calibration and first service itemized separately, because a machine price that excludes assembly is not comparable to one that includes it, and on six or ten machines that difference is substantial. Our{" "}
-                <Link href="/blog/pilates-studio-equipment-cost-breakdown" style={{ color: "#8b4a31", textDecoration: "underline" }}>studio equipment cost breakdown</Link>{" "}
+                <Link href="/blog/pilates-studio-equipment-cost-breakdown" style={{ color: "#0a0a0a", textDecoration: "underline" }}>studio equipment cost breakdown</Link>{" "}
                 sets out what a full fit-out comes to at three sizes, and what sits outside the equipment budget.
               </p>
             </div>
 
-            <div className="mb-14 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2" }}>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Before you place the order</h2>
+            <div className="mb-14 rounded-2xl p-8" style={{ backgroundColor: "#ede9e3" }}>
+              <h2 className="mb-4 r-d r-h2">Before you place the order</h2>
               <ul className="space-y-3">
                 {[
                   "Confirm the seller is the brand or a named authorized dealer for that brand.",
@@ -229,8 +229,8 @@ export default function WhereToBuyAPilatesReformerPage() {
                   "Check what the return position actually is on a freight item, not what the general policy page says.",
                   "Ask what replacement springs and ropes cost for that model, and whether they are stocked.",
                 ].map((tip, i) => (
-                  <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                    <span className="font-semibold" style={{ color: "#8b4a31" }}>⚠</span>
+                  <li key={i} className="flex gap-3 text-base" style={{ color: "#3a3530" }}>
+                    <span className="font-semibold" style={{ color: "#0a0a0a" }}>⚠</span>
                     {tip}
                   </li>
                 ))}
@@ -238,7 +238,7 @@ export default function WhereToBuyAPilatesReformerPage() {
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   { q: "Is it cheaper to buy a reformer direct from the manufacturer?", a: "Not necessarily, and this surprises people. Manufacturers generally hold list price, while specialist dealers compete with each other and frequently list the same machine below list, sometimes several hundred dollars below. What direct buying gives you is the full configuration range, since options like footbar type, upholstery color and leg height are often only selectable at source. The practical approach is to identify the exact configuration you want on the manufacturer's site, then price that same specification across two or three authorized dealers before ordering." },
@@ -246,9 +246,9 @@ export default function WhereToBuyAPilatesReformerPage() {
                   { q: "How much does reformer delivery cost?", a: "It varies enough that you should never compare machines on headline price alone. A studio reformer is heavy, long and ships as freight rather than parcel, so the delivered total can differ by hundreds of dollars between sellers offering the same machine. Some dealers include free shipping as their main competitive lever. Also establish what delivery actually means: kerbside drop-off leaves a very heavy crate on the pavement, while room-of-choice delivery and assembly are separate services that may or may not be included." },
                   { q: "What should I check before ordering a reformer online?", a: "Five things. That the seller is the brand or a named authorized dealer. The delivered total including freight, tax and any import surcharge, rather than the headline price. What delivery includes, specifically whether it reaches the room and whether assembly is covered. That the machine will physically get from the door to the room, which means measuring doorways, corridor turns and lift depth first. And the warranty terms for your intended use, because a domestic warranty typically excludes commercial use from the first paid session." },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
@@ -256,10 +256,10 @@ export default function WhereToBuyAPilatesReformerPage() {
 
             {/* Reformers */}
 
-            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Reformers</p>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The machines most people are pricing</h2>
-              <p className="text-base leading-relaxed mb-8" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid #ddd6cc" }}>
+              <p className="text-[12.5px] font-bold mb-2" style={{ color: "#0a0a0a" }}>Reformers</p>
+              <h2 className="mb-4 r-d r-h2">The machines most people are pricing</h2>
+              <p className="text-base leading-relaxed mb-8" style={{ color: "#3a3530" }}>
                 Whichever channel you buy through, these are the machines this decision usually comes down to. Compare delivered totals, not headline prices. Check the warranty covers your intended use before ordering, and confirm the machine fits the room and the route into it.
               </p>
               <div className="space-y-8">
@@ -270,10 +270,10 @@ export default function WhereToBuyAPilatesReformerPage() {
             </div>
 
             {/* Equipment */}
-            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What to have before the machine arrives</h2>
-              <p className="text-base leading-relaxed mb-8" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid #ddd6cc" }}>
+              <p className="text-[12.5px] font-bold mb-2" style={{ color: "#0a0a0a" }}>Equipment</p>
+              <h2 className="mb-4 r-d r-h2">What to have before the machine arrives</h2>
+              <p className="text-base leading-relaxed mb-8" style={{ color: "#3a3530" }}>
                 These are the things worth having in the room before the freight turns up, plus the wear parts whose price and availability are worth checking before you commit to a model at all.
               </p>
               <div className="space-y-8">
@@ -284,7 +284,7 @@ export default function WhereToBuyAPilatesReformerPage() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Buying a Used Pilates Reformer" excerpt="What to inspect, what refurbishment costs, and the faults that should end the conversation." href="/blog/buying-a-used-pilates-reformer" category="Guide" readTime="11 min read" date="September 2026" imageUrl="/pictures/stitch-reformer-loops-hooks.png" />
                 <ArticleCard title="Align Pilates vs Balanced Body" excerpt="Frame, springs, ecosystem and real dealer pricing compared." href="/blog/align-pilates-vs-balanced-body" category="Comparison" readTime="12 min read" date="September 2026" imageUrl="/pictures/stitch-reformer-row-studio.png" />

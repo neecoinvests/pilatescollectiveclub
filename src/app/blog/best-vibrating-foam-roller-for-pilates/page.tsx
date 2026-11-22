@@ -141,20 +141,20 @@ export default function BestVibratingFoamRollerForPilatesPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Recovery Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Tech & Devices</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Recovery Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Tech & Devices</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best Vibrating Foam Roller<br /><span style={{ color: "#8b4a31" }}>for Pilates (2026)</span>
+            <h1 className="mb-6 r-d r-h1">
+              Best Vibrating Foam Roller<br /><span style={{ color: "#a98a5f" }}>for Pilates (2026)</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 7 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 7 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               Thoracic mobility is the gateway to almost every upper-body Pilates exercise: the chest opens, the arm circles, the rowing series. Most practitioners need more of it than they have. Vibrating foam rollers address thoracic stiffness more effectively than static rollers because the vibration inhibits the stretch reflex, allowing passive extension to travel further with less discomfort. These five rollers, from the app-connected Therabody WaveRoller to the budget-friendly PURSONIC, have been assessed specifically for the pre- and post-session needs of reformer and mat Pilates practitioners.
             </p>
           </div>
@@ -162,8 +162,8 @@ export default function BestVibratingFoamRollerForPilatesPage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg" alt="Best vibrating foam roller for Pilates" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg" alt="Best vibrating foam roller for Pilates" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -174,13 +174,13 @@ export default function BestVibratingFoamRollerForPilatesPage() {
             <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Rollers · Ranked</p>
+              <p className="text-[12.5px] font-bold mb-10" style={{ color: "#0a0a0a" }}>5 Rollers · Ranked</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
                     <div className="flex items-center gap-3 mb-4">
-                      <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                      <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tag}</span>
+                      <span className="text-2xl r-hx" style={{ color: "#9a9490" }}>{p.rank}</span>
+                      <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{p.tag}</span>
                     </div>
                     <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                   </div>
@@ -189,23 +189,23 @@ export default function BestVibratingFoamRollerForPilatesPage() {
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   { q: "Is a vibrating foam roller worth it for Pilates?", a: "Yes. Vibration-assisted rolling consistently outperforms static foam rolling in studies measuring range of motion and perceived muscle soreness. For Pilates specifically, the thoracic mobility work that precedes most classes is meaningfully more effective with a vibrating roller: the vibration inhibits the stretch reflex, allowing passive thoracic extension to proceed further with less discomfort. The Therabody WaveRoller at $179.99 is the clear premium, app-connected recommendation, while budget options like the PURSONIC at $44.99 make it easy to try the technology first." },
                   { q: "When should you foam roll before Pilates?", a: "5–10 minutes before a Pilates session is the optimal window. Use a vibrating roller at a medium frequency (2–3 on a 5-speed device) for 45–60 seconds per area: thoracic spine, hip flexors, quadriceps, and calves. This increases tissue temperature and extensibility without causing the muscular fatigue that aggressive pre-session rolling can produce. Avoid rolling the lumbar spine directly: work the thoracic region only." },
                   { q: "Can you use a foam roller during Pilates class?", a: "Yes. A full-length foam roller is a standard Pilates prop used extensively in mat and semi-private reformer classes for spinal articulation, balance challenges, and opening exercises. The vibrating rollers listed here are too loud (40–60dB) for active in-class use in a studio context, but are ideal for pre- and post-class rolling in changing rooms or at home." },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Pilates Foam Roller (2026)" excerpt="Standard foam rollers for Pilates: the half-round, full-round, and which format your practice actually needs." href="/blog/best-pilates-foam-roller" category="Equipment" readTime="6 min read" date="May 2026" imageUrl="/pictures/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg" />
                 <ArticleCard title="Best Massage Gun for Pilates Recovery (2026)" excerpt="TOLOCO, AERLANG, Therabody TheraGun Relief, and the percussion devices worth using after reformer work." href="/blog/best-massage-gun-for-pilates" category="Tech & Devices" readTime="7 min read" date="June 2026" imageUrl="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" />

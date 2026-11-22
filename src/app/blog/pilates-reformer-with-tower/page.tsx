@@ -103,20 +103,20 @@ export default function PilatesReformerWithTowerPage() {
       <Header />
       <main>
         {/* Hero section */}
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Home Studio</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Equipment Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Home Studio</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Pilates Reformer with Tower (2026):<br /><span style={{ color: "#8b4a31" }}>What&apos;s Really Sold on Amazon</span>
+            <h1 className="mb-6 r-d r-h1">
+              Pilates Reformer with Tower (2026):<br /><span style={{ color: "#a98a5f" }}>What&apos;s Really Sold on Amazon</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 10 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 10 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               A reformer is the foundation of a home Pilates studio, and a tower is what most guides describe as the next step. Here is the honest finding from checking this category against real, live Amazon listings: we could not find a standalone Pilates tower attachment reliably sold on Amazon under any brand, not Balanced Body, not Merrithew, not Align-Pilates. This guide explains what a tower is meant to add, and covers the two real machines we could verify (one with a built-in vertical frame, one confirmed tower-compatible on paper) plus the genuine standalone Cadillac alternative.
             </p>
           </div>
@@ -125,8 +125,8 @@ export default function PilatesReformerWithTowerPage() {
         {/* Hero image */}
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg" alt="Pilates reformer with tower: complete home studio apparatus setup" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg" alt="Pilates reformer with tower: complete home studio apparatus setup" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -137,21 +137,21 @@ export default function PilatesReformerWithTowerPage() {
 
             {/* What does a Pilates tower actually do? */}
             <div className="mb-16 mt-4">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What does a Pilates tower actually do, and can you buy one?</h2>
-              <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">What does a Pilates tower actually do, and can you buy one?</h2>
+              <p className="text-base leading-relaxed mb-6" style={{ color: "#3a3530" }}>
                 A tower (also called a vertical stand, or half-Cadillac) is generally described as attaching to the foot end of a reformer and adding a vertical frame carrying additional springs, a push-through bar, a roll-down bar, and arm and leg springs. It is meant as a partial substitute for a full Cadillac, a taller standalone apparatus. We could not verify a specific percentage of the Cadillac repertoire a tower reproduces, so treat any exact figure you see elsewhere as a rough approximation, not a measured fact.
               </p>
-              <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed mb-6" style={{ color: "#3a3530" }}>
                 Here is the honest complication: we checked for a standalone tower attachment as a genuine, currently-sold Amazon listing from Balanced Body, Merrithew, and Align-Pilates, and could not find one for any of them. That doesn&apos;t mean tower-style training is unavailable, it means the products below reach it in two different, verified ways: a Merrithew machine that ships with the vertical frame built in, and a Balanced Body reformer whose manufacturer specifications confirm tower compatibility (with the tower itself sourced separately through a dealer, not Amazon).
               </p>
-              <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>
                 Who this category is for: serious practitioners who have an established reformer practice and want to continue developing it, practitioners working with an instructor who programs tower or Cadillac work into sessions, and instructors equipping a home teaching studio. It is not a beginner purchase: this kind of apparatus work is typically introduced after a strong reformer and mat foundation has been established.
               </p>
             </div>
 
             {/* Four buying criteria cards */}
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Four things to consider before buying</h2>
+              <h2 className="mb-6 r-d r-h2">Four things to consider before buying</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[
                   {
@@ -171,9 +171,9 @@ export default function PilatesReformerWithTowerPage() {
                     body: "We could not independently verify specific floor-space or ceiling-height figures for a reformer-and-tower setup, so we don't quote precise numbers here. Check the manufacturer's current specifications for the exact machine you're considering before measuring your room.",
                   },
                 ].map((item) => (
-                  <div key={item.heading} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.heading}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
+                  <div key={item.heading} className="rounded-2xl p-5" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-sm mb-1.5 r-hx" style={{ color: "#0a0a0a" }}>{item.heading}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.body}</p>
                   </div>
                 ))}
               </div>
@@ -189,8 +189,8 @@ export default function PilatesReformerWithTowerPage() {
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
                     <div className="flex items-center gap-3 mb-4">
-                      <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                      <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tag}</span>
+                      <span className="text-2xl r-hx" style={{ color: "#9a9490" }}>{p.rank}</span>
+                      <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{p.tag}</span>
                     </div>
                     <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                   </div>
@@ -199,41 +199,41 @@ export default function PilatesReformerWithTowerPage() {
             </div>
 
             {/* Tower vs full Cadillac editorial section */}
-            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
-              <h2 className="text-2xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Built-in tower, tower-compatible reformer, or standalone Cadillac?</h2>
+            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#ede9e3" }}>
+              <h2 className="mb-6 r-d r-h2">Built-in tower, tower-compatible reformer, or standalone Cadillac?</h2>
               <div className="mb-6">
-                <p className="text-sm font-semibold mb-3 uppercase tracking-[0.15em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Take the Merrithew Rehab V2 Max Plus if:</p>
+                <p className="text-base font-bold mb-3" style={{ color: "#0a0a0a" }}>Take the Merrithew Rehab V2 Max Plus if:</p>
                 <ul className="space-y-2">
                   {[
                     "You want tower-style work built into the machine itself, with no separate attachment purchase to track down.",
                     "You are equipping a rehabilitation or clinical practice: this is Merrithew's clinical-grade machine.",
                     "Budget is less of a constraint than getting a confirmed, working configuration on the first purchase.",
                   ].map((item, i) => (
-                    <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                      <span className="font-semibold shrink-0" style={{ color: "#8b4a31" }}>–</span>
+                    <li key={i} className="flex gap-3 text-base" style={{ color: "#3a3530" }}>
+                      <span className="font-semibold shrink-0" style={{ color: "#0a0a0a" }}>–</span>
                       {item}
                     </li>
                   ))}
                 </ul>
               </div>
               <div className="mb-6">
-                <p className="text-sm font-semibold mb-3 uppercase tracking-[0.15em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Take the Balanced Body Studio Reformer, then source a tower separately, if:</p>
+                <p className="text-base font-bold mb-3" style={{ color: "#0a0a0a" }}>Take the Balanced Body Studio Reformer, then source a tower separately, if:</p>
                 <ul className="space-y-2">
                   {[
                     "You want to start with a confirmed tower-compatible reformer now and add the tower attachment later through a Balanced Body dealer.",
                     "You already favor Balanced Body's accessory ecosystem and are comfortable buying the tower piece outside of Amazon.",
                     "You want the lower entry price of the reformer alone before committing to the full tower cost.",
                   ].map((item, i) => (
-                    <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                      <span className="font-semibold shrink-0" style={{ color: "#8b4a31" }}>–</span>
+                    <li key={i} className="flex gap-3 text-base" style={{ color: "#3a3530" }}>
+                      <span className="font-semibold shrink-0" style={{ color: "#0a0a0a" }}>–</span>
                       {item}
                     </li>
                   ))}
                 </ul>
               </div>
-              <div className="pt-5" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
-                <p className="text-sm font-semibold mb-1" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>Price context</p>
-                <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <div className="pt-5" style={{ borderTop: "1px solid #ddd6cc" }}>
+                <p className="text-base font-semibold mb-1" style={{ color: "#0a0a0a" }}>Price context</p>
+                <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>
                   Balanced Body Studio Reformer: $4,700 (tower sourced separately, cost unconfirmed). Merrithew Rehab V2 Max Plus, with its vertical frame built in: $8,199. Balanced Body Trapeze Table / Cadillac, the real standalone full-apparatus alternative: $5,030. We could not verify a lower reformer-plus-tower bundle price, so treat any figure below these as unconfirmed.
                 </p>
               </div>
@@ -241,7 +241,7 @@ export default function PilatesReformerWithTowerPage() {
 
             {/* FAQ */}
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   {
@@ -261,9 +261,9 @@ export default function PilatesReformerWithTowerPage() {
                     a: "We could not verify a precise minimum ceiling height that applies across brands and models. Push-through bar and overhead-bar work generally need more vertical clearance than reformer-only work: check the specific machine's manufacturer specifications and your instructor's guidance before buying.",
                   },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
@@ -271,7 +271,7 @@ export default function PilatesReformerWithTowerPage() {
 
             {/* Further reading */}
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Home Pilates Reformer (2026)" excerpt="The best home reformers at every price point, from entry-level to studio-grade." href="/blog/best-home-pilates-reformer" category="Equipment Guide" readTime="10 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
                 <ArticleCard title="Balanced Body vs Merrithew (2026)" excerpt="The two dominant Pilates equipment brands compared honestly." href="/blog/balanced-body-vs-merrithew" category="Equipment Guide" readTime="10 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-cZ0WYsBFHhs-unsplash.jpg" />

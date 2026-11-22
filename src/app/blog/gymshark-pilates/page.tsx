@@ -132,20 +132,20 @@ export default function GymsharkPilatesPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Brand Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Gymshark</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Brand Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Gymshark</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Gymshark for Pilates (2026):<br /><span style={{ color: "#8b4a31" }}>Best Pieces &amp; Honest Review</span>
+            <h1 className="mb-6 r-d r-h1">
+              Gymshark for Pilates (2026):<br /><span style={{ color: "#a98a5f" }}>Best Pieces &amp; Honest Review</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 9 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 9 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               Gymshark started life as a bodybuilding brand. The pivot to lifestyle and Pilates has been deliberate and commercially successful, but it has also left a catalog full of pieces that are wrong for the method sitting alongside pieces that are genuinely good. This guide identifies the five Gymshark pieces worth buying for Pilates and explains exactly why, along with an honest assessment of where the brand still falls short compared to Lululemon and Alo at higher price points.
             </p>
           </div>
@@ -153,8 +153,8 @@ export default function GymsharkPilatesPage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/ahmet-kurt-0xn-8kRWOhE-unsplash.jpg" alt="Gymshark activewear for Pilates: best leggings and seamless sets for reformer and mat classes" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/ahmet-kurt-0xn-8kRWOhE-unsplash.jpg" alt="Gymshark activewear for Pilates: best leggings and seamless sets for reformer and mat classes" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -167,11 +167,11 @@ export default function GymsharkPilatesPage() {
 
 
             <div className="mb-16 mt-4">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>How Gymshark fits into the Pilates activewear market</h2>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">How Gymshark fits into the Pilates activewear market</h2>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 Gymshark&apos;s core advantage is price. The Flex Legging at $55–65 and the Vital Seamless 2.0 Legging at $50–60 are substantially below the Lululemon Align ($98), Alo High-Waist Airlift ($114), and Varley ($110–130) at comparable quality for Pilates-specific use. The gap is real but narrower than the price difference suggests.
               </p>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 Where Gymshark falls behind is in the finishing details that matter for sustained mat and reformer work: waistband stability under repeated spinal articulation, fabric softness against a reformer carriage headrest during supine exercises, and the opacity that instructors require to observe alignment clearly. The Flex range performs acceptably on all three; the gym-specific compression ranges do not.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-6">
@@ -180,22 +180,22 @@ export default function GymsharkPilatesPage() {
                   { heading: "vs Alo Yoga", body: "Less compression, more accessible feel. Alo is more fashion-forward with stronger compression: Gymshark is the better entry-level option." },
                   { heading: "vs Amazon basics", body: "Meaningfully better quality: fabric consistency, opacity, and longevity are all in a different category from generic activewear." },
                 ].map((item) => (
-                  <div key={item.heading} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.heading}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
+                  <div key={item.heading} className="rounded-2xl p-5" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-sm mb-1.5 r-hx" style={{ color: "#0a0a0a" }}>{item.heading}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.body}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Gymshark Pieces · Ranked</p>
+              <p className="text-[12.5px] font-bold mb-10" style={{ color: "#0a0a0a" }}>5 Gymshark Pieces · Ranked</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
                     <div className="flex items-center gap-3 mb-4">
-                      <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                      <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tag}</span>
+                      <span className="text-2xl r-hx" style={{ color: "#9a9490" }}>{p.rank}</span>
+                      <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{p.tag}</span>
                     </div>
                     <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                   </div>
@@ -203,8 +203,8 @@ export default function GymsharkPilatesPage() {
               </div>
             </div>
 
-            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Gymshark pieces to avoid for Pilates</h2>
+            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#ede9e3" }}>
+              <h2 className="mb-4 r-d r-h2">Gymshark pieces to avoid for Pilates</h2>
               <ul className="space-y-3">
                 {[
                   "Wide-leg shorts in reformer work: the fabric catches on the carriage and footbar during footwork and long-box exercises. Stick to the mid-thigh Flex Shorts.",
@@ -212,8 +212,8 @@ export default function GymsharkPilatesPage() {
                   "Gym-specific mesh panels: mesh against a reformer carriage is uncomfortable during supine work. The mesh insets common in Gymshark&apos;s cardio and strength ranges have no place in a Pilates studio.",
                   "Energy Seamless range for full sessions: better as a transition piece than for in-class wear, the compression level is between gym-appropriate and Pilates-appropriate, landing in a less functional middle ground.",
                 ].map((tip, i) => (
-                  <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                    <span className="font-semibold" style={{ color: "#8b4a31" }}>✕</span>
+                  <li key={i} className="flex gap-3 text-base" style={{ color: "#3a3530" }}>
+                    <span className="font-semibold" style={{ color: "#0a0a0a" }}>✕</span>
                     {tip}
                   </li>
                 ))}
@@ -221,7 +221,7 @@ export default function GymsharkPilatesPage() {
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   { q: "Is Gymshark good for Pilates?", a: "Gymshark is a legitimate option for Pilates at a lower price point than Lululemon or Alo: provided you select the right pieces. The Flex and Vital Seamless ranges are genuinely suitable for the method. The gym-specific, high-compression pieces are not. For practitioners who cannot or do not want to spend Lululemon prices, Gymshark is the most credible mid-market alternative." },
@@ -229,16 +229,16 @@ export default function GymsharkPilatesPage() {
                   { q: "Gymshark vs Lululemon for Pilates, which is better?", a: "Lululemon is better for Pilates across almost every technical dimension. However, Gymshark costs roughly half the price and the Flex Legging performs significantly above its price point. For a practitioner building a first activewear kit, Gymshark Flex is a credible starting point. For practitioners who practice daily or near-daily, Lululemon Align is the better long-term investment." },
                   { q: "Where can I buy Gymshark?", a: "Gymshark sells directly through their website (gymshark.com) with the widest range and regular sales. They are also available on Amazon, though stock varies. The affiliate links in this guide go to Amazon for convenience, but gymshark.com typically has better stock depth and more consistent sizing availability." },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Pilates Leggings (2026)" excerpt="Five leggings across every price point: compared on opacity, waistband stability, and reformer performance." href="/blog/best-pilates-leggings" category="Equipment" readTime="9 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg" />
                 <ArticleCard title="Lululemon for Pilates (2026)" excerpt="The best Lululemon pieces for Pilates: chosen for reformer, mat, and barre classes." href="/blog/lululemon-pilates" category="Brand Guide" readTime="10 min read" date="May 2026" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />

@@ -129,20 +129,20 @@ export default function PilatesBeforeOrAfterCardioPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Training</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Training</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Pilates Before or<br /><span style={{ color: "#8b4a31" }}>After Cardio?</span>
+            <h1 className="mb-6 r-d r-h1">
+              Pilates Before or<br /><span style={{ color: "#a98a5f" }}>After Cardio?</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 6 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 6 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               The short answer: Pilates after cardio, for most people and most goals. But the full answer depends on what you want from each session, and there is one meaningful exception. Here is the evidence-based case for each approach.
             </p>
           </div>
@@ -150,8 +150,8 @@ export default function PilatesBeforeOrAfterCardioPage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/roxana-popovici-cZ0WYsBFHhs-unsplash.jpg" alt="Pilates before or after cardio: the right order" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/roxana-popovici-cZ0WYsBFHhs-unsplash.jpg" alt="Pilates before or after cardio: the right order" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -163,8 +163,8 @@ export default function PilatesBeforeOrAfterCardioPage() {
             <AffiliateNote />
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The case for Pilates after cardio</h2>
-              <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">The case for Pilates after cardio</h2>
+              <p className="text-base leading-relaxed mb-6" style={{ color: "#3a3530" }}>
                 Doing cardio first preserves your best physical and neuromuscular state for the activity that benefits most from it: the run, the cycle, the swim. Pilates after cardio then serves two functions simultaneously: it completes the session with mobility and core work, and it provides active recovery for muscles loaded by the cardio work.
               </p>
               <div className="space-y-4">
@@ -176,8 +176,8 @@ export default function PilatesBeforeOrAfterCardioPage() {
                   <div key={item.title} className="flex gap-4">
                     <div className="w-1.5 rounded-full shrink-0 mt-1" style={{ backgroundColor: "#c5a882", minHeight: "20px" }} />
                     <div>
-                      <p className="text-sm font-semibold mb-1" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{item.title}</p>
-                      <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.text}</p>
+                      <p className="text-base font-semibold mb-1" style={{ color: "#0a0a0a" }}>{item.title}</p>
+                      <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.text}</p>
                     </div>
                   </div>
                 ))}
@@ -185,28 +185,28 @@ export default function PilatesBeforeOrAfterCardioPage() {
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The one case for Pilates before cardio</h2>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">The one case for Pilates before cardio</h2>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 A short Pilates activation sequence (10-15 minutes of glute activation, hip mobility, and core engagement) before running is well-supported by evidence as a warm-up protocol. This is not a full Pilates class; it is a targeted sequence designed to switch on underactive glutes and hip stabilizers before impact loading begins.
               </p>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 Research consistently shows that runners with strong glute activation have better running economy, lower injury rates, and reduced knee and IT band pain. A 10-minute Pilates-style activation before a run (clam shells, single-leg bridges, lateral band walks) improves the neuromuscular pattern quality of the run without creating the fatigue that a full Pilates class would.
               </p>
               <div className="rounded-xl p-6" style={{ backgroundColor: "#fff9f5", border: "1px solid rgba(197,168,130,0.3)" }}>
-                <p className="text-sm font-semibold mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>The rule of thumb</p>
-                <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Short Pilates activation (10-15 min) → fine before cardio. Full Pilates class (45-60 min) → always after cardio.</p>
+                <p className="text-base font-semibold mb-2" style={{ color: "#0a0a0a" }}>The rule of thumb</p>
+                <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>Short Pilates activation (10-15 min) → fine before cardio. Full Pilates class (45-60 min) → always after cardio.</p>
               </div>
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Recommended tools for combined training days</h2>
-              <p className="text-xs mb-8" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
+              <h2 className="mb-6 r-d r-h2">Recommended tools for combined training days</h2>
+              <p className="text-xs mb-8" style={{ color: "#6f6964" }}>*Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
                     <div className="flex items-center gap-3 mb-4">
-                      <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                      <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tag}</span>
+                      <span className="text-2xl r-hx" style={{ color: "#9a9490" }}>{p.rank}</span>
+                      <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{p.tag}</span>
                     </div>
                     <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                   </div>
@@ -215,23 +215,23 @@ export default function PilatesBeforeOrAfterCardioPage() {
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   { q: "Should I do Pilates before or after cardio?", a: "For most goals, Pilates after cardio is the better sequence. Running or cycling first means your cardio performance is not compromised by Pilates-induced muscle fatigue, and the Pilates session serves as active recovery and mobility work. The exception is a short Pilates activation warm-up (10-15 minutes of hip and glute work) before a run, which is well-supported by evidence." },
                   { q: "Can you do Pilates and running on the same day?", a: "Yes. Combining Pilates and running on the same day is a common and effective training approach for runners. The mobility work and core strengthening in Pilates directly complements the repetitive loading of running. The optimal sequence is cardio first, then Pilates, unless doing a short activation warm-up before the run." },
                   { q: "Does Pilates count as cardio?", a: "Standard Pilates does not meet the intensity threshold for cardiovascular training. It does not sustainably elevate heart rate into the aerobic training zone for the duration needed for cardiorespiratory adaptation. Lagree and Megaformer classes do approach cardiovascular training intensity. For cardiovascular fitness, Pilates should be combined with dedicated cardio rather than substituted for it." },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Pilates for Runners" excerpt="Why runners benefit from Pilates: the specific muscles it targets and how to program it alongside running training." href="/blog/pilates-for-runners" category="Health" readTime="8 min read" date="March 2026" imageUrl="/pictures/roxana-popovici-5JQxj-zc5ng-unsplash.jpg" />
                 <ArticleCard title="Pilates for Athletes" excerpt="How professional and amateur athletes use Pilates for injury prevention, recovery, and performance." href="/blog/pilates-for-athletes" category="Health" readTime="8 min read" date="April 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />

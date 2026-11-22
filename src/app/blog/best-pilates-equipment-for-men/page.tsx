@@ -145,20 +145,20 @@ export default function BestPilatesEquipmentForMenPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Men</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Equipment Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Men</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best Pilates Equipment<br /><span style={{ color: "#8b4a31" }}>for Men (2026)</span>
+            <h1 className="mb-6 r-d r-h1">
+              Best Pilates Equipment<br /><span style={{ color: "#a98a5f" }}>for Men (2026)</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 10 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 10 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               Pilates was invented by a man for men. Joseph Pilates developed the method for soldiers, boxers, and dancers: people with powerful prime movers and compressed stabilizers, exactly the pattern most men carry today. The right equipment addresses what men specifically need from the practice: thoracic extension, hip mobility, inner thigh activation, and deep spinal stabilization. This guide covers six essential pieces for men&apos;s Pilates, from a $28 band set to the best home reformer for serious practice.
             </p>
           </div>
@@ -166,8 +166,8 @@ export default function BestPilatesEquipmentForMenPage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "380px" }}>
-              <Image src="/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg" alt="Best Pilates equipment for men: mat, reformer, foam roller and more" fill className="object-cover" style={{ filter: "brightness(0.82)" }} />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg" alt="Best Pilates equipment for men: mat, reformer, foam roller and more" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -180,8 +180,8 @@ export default function BestPilatesEquipmentForMenPage() {
 
             {/* What men need specifically */}
             <div>
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What men specifically need from Pilates equipment</h2>
-              <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">What men specifically need from Pilates equipment</h2>
+              <p className="text-base leading-relaxed mb-6" style={{ color: "#3a3530" }}>
                 Most Pilates equipment is gender-neutral by design, but the use case differs. Men typically present with restricted thoracic extension and hip flexion, weak adductors and glute medius, tight hamstrings and calves, and anterior pelvic tilt from prolonged sitting. The pieces below address these patterns specifically, not because the exercises are different, but because men use them more frequently and with higher intensity than the average studio practitioner.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -191,9 +191,9 @@ export default function BestPilatesEquipmentForMenPage() {
                   { heading: "Magic circle", body: "Inner thigh weakness is common in men and central to Pilates alignment. A quality ring with consistent resistance makes the difference between real activation and compensation." },
                   { heading: "Full-length foam roller", body: "Thoracic mobility work before sessions dramatically improves the quality of spine articulation. The 36\" length is necessary: shorter rollers miss the full thoracic curve." },
                 ].map((item) => (
-                  <div key={item.heading} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.heading}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
+                  <div key={item.heading} className="rounded-2xl p-5" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-sm mb-1.5 r-hx" style={{ color: "#0a0a0a" }}>{item.heading}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.body}</p>
                   </div>
                 ))}
               </div>
@@ -202,13 +202,13 @@ export default function BestPilatesEquipmentForMenPage() {
             {/* Products */}
 
             <div>
-              <h2 className="text-3xl font-semibold mb-10" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The 6 best Pilates equipment picks for men</h2>
+              <h2 className="mb-10 r-d r-h2">The 6 best Pilates equipment picks for men</h2>
               <div className="space-y-8">
                 {PRODUCTS.map((product) => (
                   <div key={product.rank}>
                     <div className="flex items-center gap-3 mb-4">
-                      <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "\'Playfair Display\', serif" }}>{String(product.rank).padStart(2, "0")}</span>
-                      <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "\'Montserrat\', sans-serif" }}>{product.verdict}</span>
+                      <span className="text-2xl r-hx" style={{ color: "#9a9490" }}>{String(product.rank).padStart(2, "0")}</span>
+                      <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{product.verdict}</span>
                     </div>
                     <ProductCard name={product.name} description={product.description} price={product.price} affiliateUrl={product.affiliateUrl} />
                   </div>
@@ -217,8 +217,8 @@ export default function BestPilatesEquipmentForMenPage() {
             </div>
 
             {/* Priority order */}
-            <div className="rounded-2xl p-8" style={{ backgroundColor: "#1b1c1c" }}>
-              <h2 className="text-2xl font-semibold mb-6" style={{ color: "#ffffff", fontFamily: "'Playfair Display', serif" }}>Building your men&apos;s Pilates kit: priority order</h2>
+            <div className="rounded-2xl p-8" style={{ backgroundColor: "#0a0a0a" }}>
+              <h2 className="mb-6 r-d r-h2" style={{ color: "#ffffff" }}>Building your men&apos;s Pilates kit: priority order</h2>
               <div className="space-y-3">
                 {[
                   { step: "Start here", item: "Mat + foam roller", why: "These two pieces unlock the full mat repertoire and address thoracic mobility: the immediate priority for most men." },
@@ -227,10 +227,10 @@ export default function BestPilatesEquipmentForMenPage() {
                   { step: "Full home studio", item: "Align-Pilates C8 Pro", why: "The $1,699 home reformer that delivers the full Pilates method at home: the platform all other equipment builds toward." },
                 ].map((item, i) => (
                   <div key={i} className="flex gap-4" style={{ paddingBottom: i < 3 ? "12px" : "0", borderBottom: i < 3 ? "1px solid rgba(255,255,255,0.08)" : "none" }}>
-                    <span className="text-xs font-semibold uppercase tracking-wider whitespace-nowrap" style={{ color: "#c5a882", fontFamily: "'Montserrat', sans-serif", minWidth: "90px" }}>{item.step}</span>
+                    <span className="text-[12.5px] font-bold whitespace-nowrap" style={{ color: "#c5a882", minWidth: "90px" }}>{item.step}</span>
                     <div>
-                      <p className="text-sm font-semibold" style={{ color: "#ffffff", fontFamily: "'Montserrat', sans-serif" }}>{item.item}</p>
-                      <p className="text-xs mt-0.5" style={{ color: "rgba(255,255,255,0.55)", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>{item.why}</p>
+                      <p className="text-base font-semibold" style={{ color: "#ffffff" }}>{item.item}</p>
+                      <p className="text-xs mt-0.5" style={{ color: "rgba(255,255,255,0.55)" }}>{item.why}</p>
                     </div>
                   </div>
                 ))}
@@ -239,12 +239,12 @@ export default function BestPilatesEquipmentForMenPage() {
 
             {/* FAQ */}
             <div>
-              <h2 className="text-2xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Men&apos;s Pilates equipment: common questions</h2>
+              <h2 className="mb-6 r-d r-h2">Men&apos;s Pilates equipment: common questions</h2>
               <div className="space-y-4">
                 {FAQS.map((faq, i) => (
-                  <div key={i} className="rounded-xl p-5" style={{ backgroundColor: "#fcf9f8", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-sm font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{faq.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{faq.a}</p>
+                  <div key={i} className="rounded-2xl p-5" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-sm mb-2 r-hx" style={{ color: "#0a0a0a" }}>{faq.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{faq.a}</p>
                   </div>
                 ))}
               </div>
@@ -252,7 +252,7 @@ export default function BestPilatesEquipmentForMenPage() {
 
             {/* Further reading */}
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Pilates Clothes for Men" excerpt="The best men's Pilates shorts, compression tights and tops: what actually works in the studio." href="/blog/best-pilates-clothes-for-men" category="Apparel" readTime="9 min read" date="May 2026" imageUrl="/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg" />
                 <ArticleCard title="Best Reformer Pilates Brands" excerpt="All 10 reformer brands compared, from Balanced Body and Gratz to Align and Your Reformer." href="/blog/best-pilates-reformer-brands" category="Equipment" readTime="18 min read" date="May 2026" imageUrl="/pictures/tomi-blasic-tj0sM4gHlns-unsplash.jpg" />

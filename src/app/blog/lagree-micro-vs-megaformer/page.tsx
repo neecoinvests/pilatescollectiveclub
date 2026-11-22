@@ -284,21 +284,21 @@ const jsonLd = {
   ],
 };
 
-const eyebrowStyle = { color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" };
-const bodyStyle = { color: "#53433e", fontFamily: "'Montserrat', sans-serif" };
-const h2Style = { color: "#1b1c1c", fontFamily: "'Playfair Display', serif" };
-const inlineLinkStyle = { color: "#8b4a31", textDecoration: "underline" };
-const chipStyle = { backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" };
-const cardStyle = { backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" };
-const hubStyle = { backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.4)", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif", textDecoration: "none" };
-const rowStyle = (i: number) => ({ borderTop: i === 0 ? "none" : "1px solid rgba(217,194,186,0.25)", backgroundColor: "#ffffff" });
-const strongStyle = { color: "#1b1c1c" };
+const eyebrowStyle = { color: "#0a0a0a" };
+const bodyStyle = { color: "#3a3530" };
+const h2Style = { color: "#0a0a0a" };
+const inlineLinkStyle = { color: "#0a0a0a", textDecoration: "underline" };
+const chipStyle = { backgroundColor: "#ede9e3", color: "#0a0a0a" };
+const cardStyle = { backgroundColor: "#ede9e3" };
+const hubStyle = { backgroundColor: "#ede9e3", color: "#0a0a0a", textDecoration: "none" };
+const rowStyle = (i: number) => ({ borderTop: i === 0 ? "none" : "1px solid #ddd6cc", backgroundColor: "#ffffff" });
+const strongStyle = { color: "#0a0a0a" };
 
 function TierCard({ p }: { p: Pick }) {
   return (
     <div id={p.id} className="scroll-mt-28">
       <div className="flex items-center gap-3 mb-4">
-        <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={chipStyle}>{p.badge}</span>
+        <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={chipStyle}>{p.badge}</span>
       </div>
       <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.url} />
     </div>
@@ -308,8 +308,8 @@ function TierCard({ p }: { p: Pick }) {
 function Divider({ label }: { label: string }) {
   return (
     <div className="flex items-center gap-4 mb-10">
-      <p className="text-xs font-semibold uppercase tracking-[0.2em] shrink-0" style={eyebrowStyle}>{label}</p>
-      <div className="flex-1 h-px" style={{ backgroundColor: "#d9c2ba" }} />
+      <p className="text-[12.5px] font-bold shrink-0" style={eyebrowStyle}>{label}</p>
+      <div className="flex-1 h-px" style={{ backgroundColor: "#ddd6cc" }} />
     </div>
   );
 }
@@ -327,23 +327,23 @@ export default function LagreeMicroVsMegaformerPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={eyebrowStyle}>Comparison</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Lagree Fitness</span>
+              <span className="text-[12.5px] font-bold" style={eyebrowStyle}>Comparison</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Lagree Fitness</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Lagree Micro vs Megaformer<br /><span style={{ color: "#8b4a31" }}>(2026): Home Machine or Studio?</span>
+            <h1 className="mb-6 r-d r-h1">
+              Lagree Micro vs Megaformer<br /><span style={{ color: "#a98a5f" }}>(2026): Home Machine or Studio?</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 11 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 11 min read</p>
             <TopPick name={QUICK_PICKS[0].name} price={QUICK_PICKS[0].price} note={QUICK_PICKS[0].note} url={QUICK_PICKS[0].url} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed mb-6" style={{ color: "#3a3530" }}>
               Every Lagree regular eventually does the math: three classes a week adds up fast, and Lagree Fitness sells a home machine. So is the Micro ({MICRO.price}) a substitute for the Megaformer you shake on in class? Not quite, but for the right person it is the best Lagree purchase there is. Here is exactly what each machine is for, what carries over at home and what doesn&apos;t, and the cost-per-workout numbers.
             </p>
-            <p className="text-sm leading-relaxed" style={bodyStyle}>
+            <p className="text-base leading-relaxed" style={bodyStyle}>
               Micro prices and stock were checked live on Amazon on October 4, 2026; all four items are sold by Lagree Fitness, and the pulley cables were low on stock. Megaformer pricing is not published: Lagree Fitness quotes it on request.
             </p>
           </div>
@@ -351,8 +351,8 @@ export default function LagreeMicroVsMegaformerPage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/stitch-reformers-aerial-row.png" alt="A row of carriage machines in a studio: Lagree Micro vs Megaformer" fill className="object-cover" style={{ filter: "brightness(0.85)" }} priority />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/stitch-reformers-aerial-row.png" alt="A row of carriage machines in a studio: Lagree Micro vs Megaformer" fill className="object-cover" priority />
             </div>
           </div>
         </section>
@@ -373,15 +373,15 @@ export default function LagreeMicroVsMegaformerPage() {
             </div>
 
             {/* Short answer */}
-            <div className="mb-16 rounded-2xl p-6 md:p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.5)" }}>
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={eyebrowStyle}>The short answer</p>
-              <p className="text-sm leading-relaxed mb-4" style={bodyStyle}>
+            <div className="mb-16 rounded-2xl p-6 md:p-8" style={{ backgroundColor: "#ede9e3" }}>
+              <p className="text-[12.5px] font-bold mb-3" style={eyebrowStyle}>The short answer</p>
+              <p className="text-base leading-relaxed mb-4" style={bodyStyle}>
                 <span className="font-semibold" style={strongStyle}>They are not rivals.</span> The Megaformer is the studio machine; Lagree Fitness sells it to studios and quotes the price on request. The Micro is the machine Lagree Fitness makes for your home. The real choice is <em>classes only</em>, <em>Micro only</em> or <em>both</em>.
               </p>
-              <p className="text-sm leading-relaxed mb-4" style={bodyStyle}>
+              <p className="text-base leading-relaxed mb-4" style={bodyStyle}>
                 <span className="font-semibold" style={strongStyle}>New to Lagree?</span> Start on a Megaformer, in class. The method is cue-heavy and you need to learn it from an instructor.
               </p>
-              <p className="text-sm leading-relaxed" style={bodyStyle}>
+              <p className="text-base leading-relaxed" style={bodyStyle}>
                 <span className="font-semibold" style={strongStyle}>Already hooked?</span> The Micro with its rear platform ({fmt(CORE_SETUP)}) costs about the same as {breakEven(CORE_SETUP)} classes, and turns one or two studio sessions a week into four or five workouts.
               </p>
             </div>
@@ -389,9 +389,9 @@ export default function LagreeMicroVsMegaformerPage() {
             {/* Comparison table */}
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-6" style={h2Style}>Side by side</h2>
+              <h2 className="mb-6 r-d r-h2" style={h2Style}>Side by side</h2>
               <div className="r-qp r-glance">
-                <div className="hidden sm:grid grid-cols-[9rem_1fr_1fr] gap-4 px-6 py-3" style={{ backgroundColor: "#f6f3f2" }}>
+                <div className="hidden sm:grid grid-cols-[9rem_1fr_1fr] gap-4 px-6 py-3" style={{ backgroundColor: "#ede9e3" }}>
                   <span />
                   <p className="r-qp-title">The Micro</p>
                   <p className="r-qp-title">Megaformer</p>
@@ -399,34 +399,34 @@ export default function LagreeMicroVsMegaformerPage() {
                 {COMPARISON.map((r, i) => (
                   <div key={r.label} className="grid grid-cols-1 sm:grid-cols-[9rem_1fr_1fr] gap-1 sm:gap-4 px-6 py-4" style={rowStyle(i)}>
                     <p className="r-qp-name">{r.label}</p>
-                    <p className="text-sm leading-relaxed" style={bodyStyle}><span className="r-qp-b sm:hidden">Micro: </span>{r.micro}</p>
-                    <p className="text-sm leading-relaxed" style={bodyStyle}><span className="r-qp-b sm:hidden">Megaformer: </span>{r.mega}</p>
+                    <p className="text-base leading-relaxed" style={bodyStyle}><span className="r-qp-b sm:hidden">Micro: </span>{r.micro}</p>
+                    <p className="text-base leading-relaxed" style={bodyStyle}><span className="r-qp-b sm:hidden">Megaformer: </span>{r.mega}</p>
                   </div>
                 ))}
               </div>
-              <p className="text-xs mt-3" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Micro details: the Micro and Micro Rear Platform Amazon listings, sold by Lagree Fitness. Megaformer: Lagree Fitness, which publishes no consumer price.</p>
+              <p className="text-xs mt-3" style={{ color: "#6f6964" }}>Micro details: the Micro and Micro Rear Platform Amazon listings, sold by Lagree Fitness. Megaformer: Lagree Fitness, which publishes no consumer price.</p>
             </div>
 
             {/* What carries over */}
             <Divider label="Class vs home" />
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-6" style={h2Style}>What carries over from class to the Micro</h2>
+              <h2 className="mb-6 r-d r-h2" style={h2Style}>What carries over from class to the Micro</h2>
               <ul className="space-y-4 mb-12">
                 {CARRIES.map((item) => (
-                  <li key={item.h} className="text-sm leading-relaxed" style={bodyStyle}>
+                  <li key={item.h} className="text-base leading-relaxed" style={bodyStyle}>
                     <span className="font-semibold" style={strongStyle}>{item.h}</span> {item.b}
                   </li>
                 ))}
               </ul>
-              <h2 className="text-3xl font-semibold mb-6" style={h2Style}>What you give up</h2>
+              <h2 className="mb-6 r-d r-h2" style={h2Style}>What you give up</h2>
               <ul className="space-y-4">
                 {LOSES.map((item) => (
-                  <li key={item.h} className="text-sm leading-relaxed" style={bodyStyle}>
+                  <li key={item.h} className="text-base leading-relaxed" style={bodyStyle}>
                     <span className="font-semibold" style={strongStyle}>{item.h}</span> {item.b}
                   </li>
                 ))}
               </ul>
-              <p className="text-sm leading-relaxed mt-6" style={bodyStyle}>
+              <p className="text-base leading-relaxed mt-6" style={bodyStyle}>
                 The best fix for the missing instructor is{" "}
                 <a href={LAGREE_OD} target="_blank" rel={/amazon\./i.test(LAGREE_OD) ? "noopener noreferrer sponsored" : "noopener noreferrer"} style={inlineLinkStyle}>Lagree On Demand</a>, which the Micro&apos;s listing recommends for virtual classes. To learn the moves by name first, read{" "}
                 <Link href="/blog/lagree-exercises" style={inlineLinkStyle}>Lagree exercises explained</Link>.
@@ -434,10 +434,10 @@ export default function LagreeMicroVsMegaformerPage() {
             </div>
 
             {/* Cost per workout */}
-            <div className="mb-16 rounded-2xl p-6 md:p-8" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.5)" }}>
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={eyebrowStyle}>The money</p>
-              <h2 className="text-2xl font-semibold mb-4" style={h2Style}>When does the Micro pay for itself?</h2>
-              <div className="overflow-hidden mb-6" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "12px" }}>
+            <div className="mb-16 rounded-2xl p-6 md:p-8" style={{ backgroundColor: "#ede9e3" }}>
+              <p className="text-[12.5px] font-bold mb-3" style={eyebrowStyle}>The money</p>
+              <h2 className="mb-4 r-d r-h2" style={h2Style}>When does the Micro pay for itself?</h2>
+              <div className="overflow-hidden mb-6" style={{ border: "1px solid #ddd6cc", borderRadius: "12px" }}>
                 {[
                   { label: "The Micro only", total: MICRO_PRICE },
                   { label: "Micro + rear platform", total: CORE_SETUP },
@@ -445,17 +445,17 @@ export default function LagreeMicroVsMegaformerPage() {
                 ].map((b, i) => (
                   <div key={b.label} className="flex items-center justify-between gap-4 px-5 py-3" style={rowStyle(i)}>
                     <div>
-                      <p className="text-sm font-semibold" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{b.label}</p>
-                      <p className="text-xs" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>≈ {breakEven(b.total)} Megaformer classes</p>
+                      <p className="text-base font-semibold" style={{ color: "#0a0a0a" }}>{b.label}</p>
+                      <p className="text-xs" style={{ color: "#6f6964" }}>≈ {breakEven(b.total)} Megaformer classes</p>
                     </div>
-                    <span className="text-sm font-semibold shrink-0" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{fmt(b.total)}</span>
+                    <span className="text-sm font-semibold shrink-0" style={{ color: "#0a0a0a" }}>{fmt(b.total)}</span>
                   </div>
                 ))}
               </div>
-              <p className="text-sm leading-relaxed mb-4" style={bodyStyle}>
+              <p className="text-base leading-relaxed mb-4" style={bodyStyle}>
                 Class equivalents assume a Lagree class costs ${CLASS_LOW}–${CLASS_HIGH}, a common range in major US cities; memberships and class packs can bring that down, so check your own studio&apos;s rate.
               </p>
-              <p className="text-sm leading-relaxed" style={bodyStyle}>
+              <p className="text-base leading-relaxed" style={bodyStyle}>
                 <span className="font-semibold" style={strongStyle}>A realistic example:</span> you swap two of three weekly classes for Micro sessions. At ${CLASS_LOW}–${CLASS_HIGH} a class that saves ${2 * CLASS_LOW}–${2 * CLASS_HIGH} a week, so the {fmt(CORE_SETUP)} Micro-and-platform setup is covered in about {Math.round(CORE_SETUP / (2 * CLASS_HIGH))}–{Math.round(CORE_SETUP / (2 * CLASS_LOW))} weeks, before any streaming subscription. Swap just one class a week and it takes about {Math.round(CORE_SETUP / CLASS_HIGH)}–{Math.round(CORE_SETUP / CLASS_LOW)} weeks.
               </p>
             </div>
@@ -463,14 +463,14 @@ export default function LagreeMicroVsMegaformerPage() {
             {/* Personas */}
             <Divider label="Decide" />
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-6" style={h2Style}>Which one is right for you</h2>
+              <h2 className="mb-6 r-d r-h2" style={h2Style}>Which one is right for you</h2>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                 {PERSONAS.map((p) => (
                   <div key={p.title} className="rounded-xl p-5" style={cardStyle}>
-                    <p className="text-base font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{p.title}</p>
+                    <p className="text-base mb-3 r-hx" style={{ color: "#0a0a0a" }}>{p.title}</p>
                     <ul className="space-y-2">
                       {p.points.map((pt) => (
-                        <li key={pt} className="text-sm leading-relaxed" style={bodyStyle}>{pt}</li>
+                        <li key={pt} className="text-base leading-relaxed" style={bodyStyle}>{pt}</li>
                       ))}
                     </ul>
                   </div>
@@ -481,8 +481,8 @@ export default function LagreeMicroVsMegaformerPage() {
             {/* Machines */}
             <Divider label="The machines" />
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-4" style={h2Style}>The Micro and the add-ons that close the gap</h2>
-              <p className="text-sm leading-relaxed mb-8" style={bodyStyle}>
+              <h2 className="mb-4 r-d r-h2" style={h2Style}>The Micro and the add-ons that close the gap</h2>
+              <p className="text-base leading-relaxed mb-8" style={bodyStyle}>
                 Out of the box the Micro is a carriage with four springs. Each add-on brings it a step closer to the studio layout you know. Buy them in this order.
               </p>
               <div className="space-y-8">
@@ -491,19 +491,19 @@ export default function LagreeMicroVsMegaformerPage() {
                   <TierCard key={p.id} p={p} />
                 ))}
               </div>
-              <p className="text-sm leading-relaxed mt-2" style={bodyStyle}>
+              <p className="text-base leading-relaxed mt-2" style={bodyStyle}>
                 Specs, springs, floor space and five setup budgets are in our full{" "}
                 <Link href="/blog/lagree-micro-review" style={inlineLinkStyle}>Lagree Micro review</Link>.
               </p>
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-4" style={h2Style}>The Megaformer</h2>
-              <p className="text-sm leading-relaxed mb-8" style={bodyStyle}>
+              <h2 className="mb-4 r-d r-h2" style={h2Style}>The Megaformer</h2>
+              <p className="text-base leading-relaxed mb-8" style={bodyStyle}>
                 The Megaformer is the machine that defines Lagree, and the one under you in every licensed class. Lagree Fitness sells it directly, current models are referred to as the M3S and M3X, and quotes pricing on request. If you are opening a studio, contact the brand. If you simply want to ride one, book a class.
               </p>
               <TierCard p={MEGAFORMER} />
-              <p className="text-sm leading-relaxed mt-2" style={bodyStyle}>
+              <p className="text-base leading-relaxed mt-2" style={bodyStyle}>
                 Comparing studio machines and look-alikes? See our{" "}
                 <Link href="/blog/best-megaformer-machine" style={inlineLinkStyle}>Megaformer machine guide</Link>.
               </p>
@@ -511,12 +511,12 @@ export default function LagreeMicroVsMegaformerPage() {
 
             {/* FAQ */}
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={h2Style}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2" style={h2Style}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {FAQS.map((item) => (
                   <div key={item.q} className="rounded-xl p-6" style={cardStyle}>
-                    <h3 className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</h3>
-                    <p className="text-sm leading-relaxed" style={bodyStyle}>{item.a}</p>
+                    <h3 className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</h3>
+                    <p className="text-base leading-relaxed" style={bodyStyle}>{item.a}</p>
                   </div>
                 ))}
               </div>
@@ -524,14 +524,14 @@ export default function LagreeMicroVsMegaformerPage() {
 
             {/* Further reading */}
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={h2Style}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2" style={h2Style}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Lagree Micro Review" excerpt="The spec sheet, the four springs, the space you need and five ways to build a setup." href="/blog/lagree-micro-review" category="Lagree" readTime="12 min read" date="October 2026" imageUrl="/pictures/stitch-reformer-spring-detail.png" />
                 <ArticleCard title="Lagree Fitness Brand Guide" excerpt="The method, the Megaformer and The Micro, plus every accessory and the full setup cost." href="/blog/lagree-fitness" category="Lagree" readTime="12 min read" date="September 2026" imageUrl="/pictures/stitch-reformers-aerial-row.png" />
                 <ArticleCard title="Lagree for Beginners" excerpt="What to expect from your first Megaformer class and how to survive it." href="/blog/lagree-for-beginners" category="Lagree" readTime="9 min read" date="September 2026" imageUrl="/pictures/stitch-hands-on-carriage.png" />
                 <ArticleCard title="Lagree at Home" excerpt="How to train the Lagree way at home, from the Micro to floor work between classes." href="/blog/lagree-at-home" category="Lagree" readTime="9 min read" date="September 2026" imageUrl="/pictures/stitch-hands-on-carriage.png" />
               </div>
-              <p className="text-sm leading-relaxed mt-8" style={bodyStyle}>
+              <p className="text-base leading-relaxed mt-8" style={bodyStyle}>
                 Brand site:{" "}
                 <a href={LAGREE_DIRECT} target="_blank" rel={/amazon\./i.test(LAGREE_DIRECT) ? "noopener noreferrer sponsored" : "noopener noreferrer"} style={inlineLinkStyle}>lagreefitness.com</a>.
               </p>

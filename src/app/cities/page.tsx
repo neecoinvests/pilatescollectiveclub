@@ -127,18 +127,18 @@ export default function CitiesPage() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(citiesJsonLd) }} />
       <Header />
-      <main className="pt-20" style={{ backgroundColor: "#fcf9f8", minHeight: "100vh" }}>
+      <main className="pt-20" style={{ backgroundColor: "#f7f4f0", minHeight: "100vh" }}>
 
         {/* Hero */}
         <section className="px-6 pt-16 pb-12">
           <div className="max-w-5xl mx-auto">
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-4" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>
+            <p className="text-[12.5px] font-bold mb-4" style={{ color: "#0a0a0a" }}>
               City Guides
             </p>
-            <h1 className="text-5xl md:text-6xl font-semibold leading-tight mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
+            <h1 className="mb-4 r-d r-h1">
               Studios worldwide.
             </h1>
-            <p className="text-lg max-w-xl" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <p className="text-lg max-w-xl" style={{ color: "#3a3530" }}>
               Curated picks in {CITIES.length} cities across the US and worldwide: the studios worth booking, with advice on what to expect before you arrive.
             </p>
           </div>
@@ -152,8 +152,8 @@ export default function CitiesPage() {
               return (
                 <div key={region}>
                   <div className="flex items-center gap-4 mb-8">
-                    <div className="w-8 h-px" style={{ backgroundColor: "#d9c2ba" }} />
-                    <p className="text-xs font-semibold uppercase tracking-[0.25em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>
+                    <div className="w-8 h-px" style={{ backgroundColor: "#ddd6cc" }} />
+                    <p className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>
                       {region}
                     </p>
                   </div>
@@ -161,14 +161,14 @@ export default function CitiesPage() {
                     {regionCities.map((c) => (
                       <Link key={c.href} href={c.href} style={{ textDecoration: "none" }}>
                         <div
-                          className="group flex items-center justify-between px-6 py-5 rounded-xl"
-                          style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.4)", transition: "border-color 0.2s" }}
+                          className="group flex items-center justify-between px-6 py-5 rounded-2xl"
+                          style={{ backgroundColor: "#ede9e3", transition: "border-color 0.2s" }}
                         >
                           <div>
-                            <p className="font-semibold mb-0.5 group-hover:text-[#8b4a31] transition-colors" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif", fontSize: "17px" }}>
+                            <p className="mb-0.5 group-hover:text-[#a98a5f] transition-colors r-hx" style={{ color: "#0a0a0a", fontSize: "17px" }}>
                               {c.city}
                             </p>
-                            <p className="text-xs" style={{ color: "#9a9490", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+                            <p className="text-xs" style={{ color: "#9a9490" }}>
                               {c.country}
                             </p>
                           </div>

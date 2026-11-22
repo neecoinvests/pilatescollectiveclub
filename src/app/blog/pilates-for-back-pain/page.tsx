@@ -150,7 +150,7 @@ export default function PilatesForBackPainPage() {
           imageUrl="/pictures/junseong-lee-AX8cf6mkCzw-unsplash.jpg"
           imageAlt="Pilates for back pain"
           category="Wellness"
-          title={<>Pilates for Back Pain:<br /><span style={{ color: "#8b4a31" }}>What the Research Shows</span></>}
+          title={<>Pilates for Back Pain:<br /><span style={{ color: "#0a0a0a" }}>What the Research Shows</span></>}
           date="Updated May 2026"
           readTime="9 min read"
           dateLabel="Prices checked October 20, 2026"
@@ -167,12 +167,12 @@ export default function PilatesForBackPainPage() {
 
             <article>
               {/* Medical disclaimer */}
-              <div className="rounded-xl p-5 flex gap-4 mb-10" style={{ backgroundColor: "#fff7f3", border: "1px solid rgba(139, 74, 49, 0.2)" }}>
-                <svg className="shrink-0 mt-0.5" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#8b4a31" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <div className="rounded-2xl p-5 flex gap-4 mb-10" style={{ backgroundColor: "#fff7f3", border: "1px solid #ddd6cc" }}>
+                <svg className="shrink-0 mt-0.5" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0a0a0a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/>
                 </svg>
-                <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                  <strong style={{ color: "#8b4a31" }}>Medical disclaimer:</strong> This article is for informational purposes only and does not constitute medical advice. If you are experiencing acute back pain, consult a qualified healthcare provider before beginning any exercise program.
+                <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>
+                  <strong style={{ color: "#0a0a0a" }}>Medical disclaimer:</strong> This article is for informational purposes only and does not constitute medical advice. If you are experiencing acute back pain, consult a qualified healthcare provider before beginning any exercise program.
                 </p>
               </div>
 
@@ -203,16 +203,16 @@ export default function PilatesForBackPainPage() {
                 <p>Progress slowly and communicate consistently. Pain during a Pilates exercise, beyond mild muscular fatigue, is a signal to stop and modify. A good instructor will adjust; if yours doesn&apos;t, find another one. The reformer sessions that help most in early recovery tend to be gentle, focused, and shorter in duration: 30–45 minutes with careful attention to which positions load the spine.</p>
               </Section>
 
-              <div className="my-12 rounded-2xl overflow-hidden" style={{ border: "1px solid rgba(217, 194, 186, 0.4)" }}>
-                <div className="px-6 py-4" style={{ backgroundColor: "#8b4a31" }}>
-                  <h3 className="text-base font-semibold text-white" style={{ fontFamily: "'Playfair Display', serif" }}>Pilates & Back Pain: Quick Reference</h3>
+              <div className="my-12 rounded-2xl overflow-hidden" style={{ border: "1px solid #ddd6cc" }}>
+                <div className="px-6 py-4" style={{ backgroundColor: "#0a0a0a" }}>
+                  <h3 className="text-base text-white r-hx">Pilates & Back Pain: Quick Reference</h3>
                 </div>
                 <div className="overflow-x-auto">
-                  <table className="w-full text-sm" style={{ fontFamily: "'Montserrat', sans-serif" }}>
-                    <thead style={{ backgroundColor: "#f6f3f2" }}>
+                  <table className="w-full text-sm">
+                    <thead style={{ backgroundColor: "#ede9e3" }}>
                       <tr>
                         {["Situation", "Recommendation"].map((h) => (
-                          <th key={h} className="text-left px-5 py-3 font-semibold text-xs uppercase tracking-wider" style={{ color: "#53433e" }}>{h}</th>
+                          <th key={h} className="text-left px-5 py-3 font-bold text-[12.5px]" style={{ color: "#3a3530" }}>{h}</th>
                         ))}
                       </tr>
                     </thead>
@@ -226,8 +226,8 @@ export default function PilatesForBackPainPage() {
                         ["Sciatica", "Private clinical sessions. Some exercises are contraindicated: instructor needs to know."],
                       ].map(([situation, rec], i) => (
                         <tr key={situation} style={{ backgroundColor: i % 2 === 0 ? "#ffffff" : "#faf8f7" }}>
-                          <td className="px-5 py-3.5 font-semibold" style={{ color: "#1b1c1c" }}>{situation}</td>
-                          <td className="px-5 py-3.5" style={{ color: "#53433e" }}>{rec}</td>
+                          <td className="px-5 py-3.5 font-semibold" style={{ color: "#0a0a0a" }}>{situation}</td>
+                          <td className="px-5 py-3.5" style={{ color: "#3a3530" }}>{rec}</td>
                         </tr>
                       ))}
                     </tbody>
@@ -244,9 +244,9 @@ export default function PilatesForBackPainPage() {
 
             {FAQS.length > 0 && <FaqSection faqs={FAQS} />}
             {/* Equipment */}
-            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Recommended kit</h2>
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid #ddd6cc" }}>
+              <p className="text-[12.5px] font-bold mb-2" style={{ color: "#0a0a0a" }}>Equipment</p>
+              <h2 className="mb-8 r-d r-h2">Recommended kit</h2>
               <div className="space-y-8">
                 {PRODUCTS.map((p) => (
                   <ProductCard key={p.name} name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
@@ -255,8 +255,8 @@ export default function PilatesForBackPainPage() {
             </div>
 
             {/* Continue reading */}
-            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Continue reading</h2>
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid #ddd6cc" }}>
+              <h2 className="mb-8 r-d r-h2">Continue reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 {RELATED.map((a) => (<ArticleCard key={a.href} {...a} />))}
               </div>
@@ -278,8 +278,8 @@ export default function PilatesForBackPainPage() {
 function Section({ title, children }: { title: string; children: React.ReactNode }) {
   return (
     <div className="mb-12">
-      <h2 className="text-2xl font-semibold mb-5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{title}</h2>
-      <div className="space-y-4 text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+      <h2 className="mb-5 r-d r-h2">{title}</h2>
+      <div className="space-y-4 text-base leading-relaxed" style={{ color: "#3a3530" }}>
         {children}
       </div>
     </div>
@@ -288,8 +288,8 @@ function Section({ title, children }: { title: string; children: React.ReactNode
 
 function Callout({ children }: { children: React.ReactNode }) {
   return (
-    <blockquote className="my-10 border-l-4 pl-6 py-2" style={{ borderColor: "#8b4a31" }}>
-      <p className="text-lg italic leading-relaxed" style={{ color: "#8b4a31", fontFamily: "'Playfair Display', serif" }}>{children}</p>
+    <blockquote className="my-10 border-l-4 pl-6 py-2" style={{ borderColor: "#0a0a0a" }}>
+      <p className="text-lg italic leading-relaxed r-hx" style={{ color: "#0a0a0a" }}>{children}</p>
     </blockquote>
   );
 }

@@ -87,20 +87,20 @@ export default function HowToFindStudioPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Studio Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Finding Your Studio</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Studio Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Finding Your Studio</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              How to Find a Great Pilates Studio<br /><span style={{ color: "#8b4a31" }}>Before You Commit</span>
+            <h1 className="mb-6 r-d r-h1">
+              How to Find a Great Pilates Studio<br /><span style={{ color: "#a98a5f" }}>Before You Commit</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 10 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 10 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               The boutique Pilates market has expanded enormously. In any city of meaningful size, you now have options, and options vary wildly. The difference between an excellent Pilates studio and a mediocre one is not visible in the Instagram grid, the marble reception desk, or the pricing. It lives in the instructors&apos; training depth, the class sizes, the quality of the corrections, and a handful of non-obvious operational signals that experienced practitioners know to look for. This guide gives you those signals before you spend a couple of hundred dollars on a class pack.
             </p>
           </div>
@@ -108,8 +108,8 @@ export default function HowToFindStudioPage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg" alt="Inside a quality Pilates studio: what separates excellent reformer instruction from mediocre classes" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg" alt="Inside a quality Pilates studio: what separates excellent reformer instruction from mediocre classes" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -121,17 +121,17 @@ export default function HowToFindStudioPage() {
             <AffiliateNote />
 
             <div className="mb-14 mt-4">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What the best studios have in common</h2>
-              <p className="text-base leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">What the best studios have in common</h2>
+              <p className="text-base leading-relaxed mb-6" style={{ color: "#3a3530" }}>
                 Across every city, the studios that consistently produce practitioners who improve share the same underlying characteristics. They have instructors with deep training and genuine investment in ongoing education. They keep class sizes small enough for meaningful individual attention. They have a clear methodology, not a vague brand aesthetic. And they have instructors who give specific corrections, not generic encouragement.
               </p>
-              <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>
                 The challenge is that these characteristics are not visible from outside. A studio&apos;s website, its space design, and its social media presence tell you almost nothing about the quality of instruction. You need to attend and know what to observe.
               </p>
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Green flags: signs of an excellent studio</h2>
+              <h2 className="mb-6 r-d r-h2">Green flags: signs of an excellent studio</h2>
               <div className="space-y-4">
                 {[
                   {
@@ -155,17 +155,17 @@ export default function HowToFindStudioPage() {
                     body: "Ask any instructor: 'Where did you train and who certified you?' A confident, specific answer ('I'm STOTT certified, I trained with X at Y studio, and I've completed additional workshops in Z') indicates someone who takes their professional credentials seriously. Vague answers about 'various trainings' or defensiveness at the question are red flags."
                   },
                 ].map((item) => (
-                  <div key={item.title} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.title}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
+                  <div key={item.title} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.title}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.body}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Red flags: walk away from these</h2>
-              <div className="rounded-2xl overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.35)" }}>
+              <h2 className="mb-6 r-d r-h2">Red flags: walk away from these</h2>
+              <div className="rounded-2xl overflow-hidden" style={{ border: "1px solid #ddd6cc" }}>
                 {[
                   { flag: "Classes described as 'full-body burn' or 'high intensity Pilates'", note: "These are marketing terms for studios that have added Pilates-adjacent movements to a HIIT format. The results are not Pilates and the instruction is typically superficial." },
                   { flag: "Instructors who can't explain why they're asking you to do something", note: "Ask why you're exhaling on a particular moment. A good instructor gives a specific biomechanical reason. 'Because that's how we do it' is not instruction." },
@@ -174,16 +174,16 @@ export default function HowToFindStudioPage() {
                   { flag: "Instructors who only teach from the front of the room", note: "If an instructor does not leave the front of the room during a 55-minute reformer class, they are not observing your body. They are leading a guided movement session. There is a meaningful difference." },
                   { flag: "Studios where the aesthetic does more work than the instruction", note: "Beautiful spaces with dim lighting, luxury changing rooms, and expensive equipment can coexist with poor teaching. They can also coexist with excellent teaching. The aesthetic tells you the price point, not the quality." },
                 ].map((item, i) => (
-                  <div key={i} className="p-5" style={{ borderBottom: i < 5 ? "1px solid rgba(217,194,186,0.25)" : "none", backgroundColor: "#fff9f7" }}>
-                    <p className="text-sm font-semibold mb-1" style={{ color: "#8b4a31", fontFamily: "'Playfair Display', serif" }}>{item.flag}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.note}</p>
+                  <div key={i} className="p-5" style={{ borderBottom: i < 5 ? "1px solid #ddd6cc" : "none", backgroundColor: "#fff9f7" }}>
+                    <p className="text-sm mb-1 r-hx" style={{ color: "#0a0a0a" }}>{item.flag}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.note}</p>
                   </div>
                 ))}
               </div>
             </div>
 
-            <div className="mb-14 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The questions to ask before booking</h2>
+            <div className="mb-14 rounded-2xl p-8" style={{ backgroundColor: "#ede9e3" }}>
+              <h2 className="mb-4 r-d r-h2">The questions to ask before booking</h2>
               <ul className="space-y-3">
                 {[
                   "What certification do your instructors hold, and how many hours of training does it require? (Reputable programs require 450–600+ hours. Weekend courses producing 'certified instructors' are not equivalent.)",
@@ -193,8 +193,8 @@ export default function HowToFindStudioPage() {
                   "Do you offer private or duet sessions? (Studios that have a strong private session component typically have higher-quality instructors who are also teaching one-on-one.)",
                   "Can I observe a class before purchasing? (Good studios should say yes. Reluctance suggests they know what you'd observe.)",
                 ].map((tip, i) => (
-                  <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                    <span className="font-semibold" style={{ color: "#8b4a31" }}>{i + 1}.</span>
+                  <li key={i} className="flex gap-3 text-base" style={{ color: "#3a3530" }}>
+                    <span className="font-semibold" style={{ color: "#0a0a0a" }}>{i + 1}.</span>
                     {tip}
                   </li>
                 ))}
@@ -202,7 +202,7 @@ export default function HowToFindStudioPage() {
             </div>
 
             <div className="mb-14">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   { q: "Is a more expensive studio always better?", a: "No: price correlates with location and aesthetic investment, not instruction quality. Some of the best Pilates instruction available is at studios in unfashionable locations with modest fit-outs. The instructors who genuinely know the method are sometimes found in exactly those places, because they are not competing on aesthetic." },
@@ -210,9 +210,9 @@ export default function HowToFindStudioPage() {
                   { q: "Should I stay local or travel to a better studio?", a: "Proximity matters for consistency. A good studio you attend three times a week produces better results than an excellent studio you attend once because of travel time. Within your practical range, apply the quality criteria above. If there genuinely is no good studio within reasonable distance, a combination of online private sessions with a highly qualified remote instructor and in-person visits to better studios when traveling is a viable approach." },
                   { q: "What's the difference between a boutique studio and a gym Pilates class?", a: "Reformer classes at gyms typically have larger class sizes (16–20+), less specialized instructors who may teach multiple fitness formats, and less individualized attention. The equipment is also often the less expensive tier. For beginners, a gym Pilates class can be a reasonable introduction. For practitioners who want genuine progression and instruction, a dedicated boutique studio with the quality criteria described in this article is the appropriate environment." },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
@@ -221,9 +221,9 @@ export default function HowToFindStudioPage() {
 
             {/* Equipment */}
 
-            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Recommended kit</h2>
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid #ddd6cc" }}>
+              <p className="text-[12.5px] font-bold mb-2" style={{ color: "#0a0a0a" }}>Equipment</p>
+              <h2 className="mb-8 r-d r-h2">Recommended kit</h2>
               <div className="space-y-8">
                 {PRODUCTS.map((p) => (
                   <ProductCard key={p.name} name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
@@ -232,7 +232,7 @@ export default function HowToFindStudioPage() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="How to Choose a Pilates Instructor" excerpt="Credentials, lineage, teaching style: what actually matters when selecting your teacher." href="/blog/how-to-choose-a-pilates-instructor" category="Guide" readTime="7 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg" />
                 <ArticleCard title="Beginner's Guide to Reformer Pilates" excerpt="What to expect from your first reformer class and how to prepare." href="/blog/beginners-guide-to-reformer-pilates" category="Beginners" readTime="8 min read" date="May 2026" imageUrl="/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg" />

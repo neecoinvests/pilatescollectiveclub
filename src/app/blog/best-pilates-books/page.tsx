@@ -187,7 +187,7 @@ export default function BestPilatesBooksPage() {
           imageAlt="Pilates books for study"
           category="Reading List"
           subcategory="Method & Practice"
-          title={<>Best Pilates Books<br /><span style={{ color: "#8b4a31" }}>(2026): Every Level</span></>}
+          title={<>Best Pilates Books<br /><span style={{ color: "#0a0a0a" }}>(2026): Every Level</span></>}
           date="Updated May 2026"
           readTime="8 min read"
           dateLabel="Prices checked October 20, 2026"
@@ -207,11 +207,11 @@ export default function BestPilatesBooksPage() {
             <section className="pb-20">
               {/* Reading path */}
               <div className="mb-16 mt-4">
-                <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>How to approach the Pilates reading list</h2>
-                <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+                <h2 className="mb-6 r-d r-h2">How to approach the Pilates reading list</h2>
+                <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                   Start with Siler&apos;s <em>The Pilates Body</em> if you&apos;re new: it&apos;s the most accessible entry point to both the exercises and the philosophy. Then read the original Pilates text once you have some physical foundation; it will make much more sense when you can feel what he&apos;s describing.
                 </p>
-                <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+                <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>
                   Add the anatomy text when you&apos;re genuinely intermediate and starting to ask &ldquo;why does this exercise target that?&rdquo; rather than just following the instruction. The reference and rehabilitation books serve different practitioners at different moments: buy them when you need them.
                 </p>
               </div>
@@ -219,15 +219,15 @@ export default function BestPilatesBooksPage() {
 
               {/* Books */}
               <div className="mb-16">
-                <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Books · Curated & Reviewed</p>
+                <p className="text-[12.5px] font-bold mb-10" style={{ color: "#0a0a0a" }}>5 Books · Curated & Reviewed</p>
                 <div className="space-y-10">
                   {BOOKS.map((book) => (
                     <div key={book.name}>
                       <div className="flex items-center gap-4 mb-4">
-                        <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{book.rank}</span>
+                        <span className="text-2xl r-hx" style={{ color: "#9a9490" }}>{book.rank}</span>
                         <div className="flex gap-2 flex-wrap">
-                          <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{book.tag}</span>
-                          <span className="text-xs px-3 py-1 rounded-full" style={{ backgroundColor: "#f0f7f1", color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Best for: {book.bestFor}</span>
+                          <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{book.tag}</span>
+                          <span className="text-xs px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#3a3530" }}>Best for: {book.bestFor}</span>
                         </div>
                       </div>
                       <ProductCard
@@ -242,12 +242,12 @@ export default function BestPilatesBooksPage() {
               </div>
 
               {/* Classical vs Contemporary note */}
-              <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
-                <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>A note on classical vs contemporary Pilates books</h2>
-                <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#ede9e3" }}>
+                <h2 className="mb-4 r-d r-h2">A note on classical vs contemporary Pilates books</h2>
+                <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                   The Pilates book market splits clearly between classical texts (rooted in Pilates&apos; original method and its direct lineage through Romana Kryzanowska, Kathy Grant, and others) and contemporary texts (which integrate modern exercise science, physiotherapy, and somatic movement).
                 </p>
-                <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+                <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>
                   Both are valuable. Classical texts give you depth of method and direct lineage to the original intention. Contemporary texts give you the biomechanical and anatomical understanding that the classical tradition sometimes assumes rather than explains. Our reading list includes both, because the strongest practitioners draw on both traditions.
                 </p>
               </div>
@@ -255,7 +255,7 @@ export default function BestPilatesBooksPage() {
               {FAQS.length > 0 && <FaqSection faqs={FAQS} />}
               {/* Further reading */}
               <div>
-                <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+                <h2 className="mb-8 r-d r-h2">Further reading</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                   <ArticleCard title="Classical vs Contemporary Pilates" excerpt="Understanding the key differences between the original method and modern interpretations." href="/blog/classical-vs-contemporary-pilates" category="Method" readTime="7 min read" date="May 2026" imageUrl="/pictures/junseong-lee-G9H5edUL0T8-unsplash.jpg" />
                   <ArticleCard title="The 6 Core Principles of Pilates, Explained" excerpt="Concentration, control, centering, precision, breath, and flow: what they actually mean in practice." href="/blog/6-core-principles-of-pilates-explained" category="Method" readTime="6 min read" date="May 2026" imageUrl="/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg" />

@@ -168,13 +168,13 @@ export default function BestPilatesMatCleanerPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex gap-2 mb-6">
               <span className="inline-block px-3 py-1 rounded-full text-xs font-semibold tracking-wide" style={{ backgroundColor: "#f0ebe8", color: "#5c4a3d" }}>Studio Essentials</span>
               <span className="inline-block px-3 py-1 rounded-full text-xs font-semibold tracking-wide" style={{ backgroundColor: "#f0ebe8", color: "#5c4a3d" }}>Accessories</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight" style={{ color: "#2d1f17" }}>
+            <h1 className="mb-6 r-d r-h1" style={{ color: "#2d1f17" }}>
               Best Pilates Mat Cleaner (2026): Sprays &amp; Wipes for Every Mat
             </h1>
             <p className="text-sm mb-6" style={{ color: "#9e8a7e" }}>Prices checked October 20, 2026 · 6 min read</p>
@@ -188,8 +188,8 @@ export default function BestPilatesMatCleanerPage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/stitch-mats-corner-sunlit.png" alt="Pilates mats ready for cleaning and maintenance" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/stitch-mats-corner-sunlit.png" alt="Pilates mats ready for cleaning and maintenance" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -209,8 +209,8 @@ export default function BestPilatesMatCleanerPage() {
               </div>
             ))}
 
-            <div className="rounded-2xl p-8 mb-12" style={{ backgroundColor: "#fcf9f8", border: "1px solid #e8e0db" }}>
-              <h2 className="text-2xl font-bold mb-6" style={{ color: "#2d1f17" }}>Mat Material Guide: Which Cleaner to Use</h2>
+            <div className="rounded-2xl p-8 mb-12" style={{ backgroundColor: "#f7f4f0", border: "1px solid #e8e0db" }}>
+              <h2 className="mb-6 r-d r-h2" style={{ color: "#2d1f17" }}>Mat Material Guide: Which Cleaner to Use</h2>
               <div className="space-y-4 text-sm" style={{ color: "#5c4a3d" }}>
                 <div className="flex gap-4 p-4 rounded-xl" style={{ backgroundColor: "#fff" }}>
                   <div className="font-bold" style={{ color: "#c4956a", minWidth: "120px" }}>Natural Rubber</div>
@@ -232,7 +232,7 @@ export default function BestPilatesMatCleanerPage() {
             </div>
 
             <div className="mb-12">
-              <h2 className="text-2xl font-bold mb-6" style={{ color: "#2d1f17" }}>Frequently Asked Questions</h2>
+              <h2 className="mb-6 r-d r-h2" style={{ color: "#2d1f17" }}>Frequently Asked Questions</h2>
               <div className="space-y-6">
                 {(jsonLd["@graph"][3] as { mainEntity: { name: string; acceptedAnswer: { text: string } }[] }).mainEntity.map((faq) => (
                   <div key={faq.name}>
@@ -244,7 +244,7 @@ export default function BestPilatesMatCleanerPage() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-bold mb-6" style={{ color: "#2d1f17" }}>Further Reading</h2>
+              <h2 className="mb-6 r-d r-h2" style={{ color: "#2d1f17" }}>Further Reading</h2>
               <div className="grid md:grid-cols-2 gap-6">
                 <ArticleCard
                   title="Best Pilates Mat (2026): Manduka, Liforme & More Compared"

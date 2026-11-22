@@ -127,7 +127,7 @@ export default function BestPilatesRetreatsEuropePage() {
           imageAlt="European wellness retreat landscape"
           category="Travel"
           subcategory="8 min read"
-          title={<>The Best Pilates Retreats<br /><span style={{ color: "#8b4a31" }}>in Europe</span></>}
+          title={<>The Best Pilates Retreats<br /><span style={{ color: "#0a0a0a" }}>in Europe</span></>}
           date="May 2026"
           readTime="8 min read"
           dateLabel="Prices checked October 20, 2026"
@@ -195,10 +195,10 @@ export default function BestPilatesRetreatsEuropePage() {
               </Section>
 
               <Section title="How to choose the right retreat">
-                <p><strong style={{ color: "#1b1c1c" }}>Consider your level.</strong> Most retreats specify whether they are suitable for beginners, intermediate, or advanced practitioners. Be honest with yourself about where you are: a retreat pitched at advanced practitioners will be frustrating if you&apos;re still building foundations, and a beginners&apos; retreat will bore an experienced mover. Look for retreats that specify the level clearly and ask questions if you&apos;re uncertain.</p>
-                <p><strong style={{ color: "#1b1c1c" }}>Consider the teacher&apos;s lineage.</strong> Ask who is leading the retreat, where they trained, and how long they have been teaching. A retreat led by a teacher with 15 years of experience and a clear classical or contemporary lineage is a fundamentally different proposition from one led by a recently certified instructor.</p>
-                <p><strong style={{ color: "#1b1c1c" }}>Consider the group size.</strong> The best retreats cap group sizes at 8–12 participants. Larger groups reduce the individual attention you receive and shift the experience closer to a class than a retreat. If a retreat can accommodate 20 or more participants, expect the teaching to be less personalized.</p>
-                <p><strong style={{ color: "#1b1c1c" }}>Consider the balance of program.</strong> A retreat that schedules Pilates from 7am to 6pm with minimal rest is not a retreat: it&apos;s a bootcamp. The best Pilates retreats build in substantial rest time, because the integration of intensive physical work happens during rest, not during the sessions themselves.</p>
+                <p><strong style={{ color: "#0a0a0a" }}>Consider your level.</strong> Most retreats specify whether they are suitable for beginners, intermediate, or advanced practitioners. Be honest with yourself about where you are: a retreat pitched at advanced practitioners will be frustrating if you&apos;re still building foundations, and a beginners&apos; retreat will bore an experienced mover. Look for retreats that specify the level clearly and ask questions if you&apos;re uncertain.</p>
+                <p><strong style={{ color: "#0a0a0a" }}>Consider the teacher&apos;s lineage.</strong> Ask who is leading the retreat, where they trained, and how long they have been teaching. A retreat led by a teacher with 15 years of experience and a clear classical or contemporary lineage is a fundamentally different proposition from one led by a recently certified instructor.</p>
+                <p><strong style={{ color: "#0a0a0a" }}>Consider the group size.</strong> The best retreats cap group sizes at 8–12 participants. Larger groups reduce the individual attention you receive and shift the experience closer to a class than a retreat. If a retreat can accommodate 20 or more participants, expect the teaching to be less personalized.</p>
+                <p><strong style={{ color: "#0a0a0a" }}>Consider the balance of program.</strong> A retreat that schedules Pilates from 7am to 6pm with minimal rest is not a retreat: it&apos;s a bootcamp. The best Pilates retreats build in substantial rest time, because the integration of intensive physical work happens during rest, not during the sessions themselves.</p>
               </Section>
 
               <Callout>Book as early as possible. The finest European retreats fill six to twelve months in advance, particularly for summer dates.</Callout>
@@ -223,72 +223,72 @@ export default function BestPilatesRetreatsEuropePage() {
         </div>
 
         {/* Gear Section */}
-        <section style={{ backgroundColor: "#fcf9f8", padding: "60px 24px" }}>
+        <section style={{ padding: "60px 24px" }}>
           <div style={{ maxWidth: "900px", margin: "0 auto" }}>
-            <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "11px", fontWeight: 600, letterSpacing: "0.18em", textTransform: "uppercase", color: "#8b4a31", marginBottom: "12px" }}>Equipment</p>
-            <h2 style={{ fontFamily: "'Playfair Display', serif", fontSize: "28px", fontWeight: 600, color: "#1b1c1c", marginBottom: "8px" }}>What to pack for a Pilates retreat</h2>
-            <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "14px", color: "#53433e", marginBottom: "32px", lineHeight: 1.7 }}>
-              Most retreat centers supply equipment, but bringing your own grip socks and a travel mat is always recommended.{" "}<a href="/affiliate-disclosure" style={{ color: "#8b4a31", textDecoration: "underline" }}>Affiliate disclosure.</a>
+            <p style={{ fontSize: "12.5px", fontWeight: 600, color: "#0a0a0a", marginBottom: "12px" }}>Equipment</p>
+            <h2 className="r-d r-h2" style={{ marginBottom: "8px" }}>What to pack for a Pilates retreat</h2>
+            <p style={{ fontSize: "16px", color: "#3a3530", marginBottom: "32px", lineHeight: 1.55 }}>
+              Most retreat centers supply equipment, but bringing your own grip socks and a travel mat is always recommended.{" "}<a href="/affiliate-disclosure" style={{ color: "#0a0a0a", textDecoration: "underline" }}>Affiliate disclosure.</a>
             </p>
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))", gap: "16px" }}>
               
                 <a href="https://www.amazon.com/dp/B07QHNDHW3?tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" style={{ textDecoration: "none" }}>
-                  <div style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)", borderRadius: "12px", padding: "20px", height: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
+                  <div style={{ backgroundColor: "#ede9e3", borderRadius: "12px", padding: "20px", height: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
                     <div>
-                      <h3 style={{ fontFamily: "'Playfair Display', serif", fontSize: "15px", fontWeight: 600, color: "#1b1c1c", marginBottom: "8px" }}>Pilates Grip Socks</h3>
-                      <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", color: "#53433e", lineHeight: 1.6, marginBottom: "12px" }}>Required at every reformer studio. Full-toe grip socks prevent slipping on the carriage.</p>
+                      <h3 className="r-hx" style={{ fontSize: "15px", color: "#0a0a0a", marginBottom: "8px" }}>Pilates Grip Socks</h3>
+                      <p style={{ fontSize: "15px", color: "#3a3530", lineHeight: 1.6, marginBottom: "12px" }}>Required at every reformer studio. Full-toe grip socks prevent slipping on the carriage.</p>
                     </div>
                     <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                      <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", fontWeight: 600, color: "#8b4a31" }}>From $16</span>
-                      <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "11px", fontWeight: 600, letterSpacing: "0.12em", textTransform: "uppercase", color: "#c5a882" }}>Shop →</span>
+                      <span style={{ fontSize: "15px", fontWeight: 600, color: "#0a0a0a" }}>From $16</span>
+                      <span style={{ fontSize: "12.5px", fontWeight: 600, color: "#c5a882" }}>Shop →</span>
                     </div>
                   </div>
                 </a>
                 <a href="https://www.amazon.com/dp/B0066T7I54?tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" style={{ textDecoration: "none" }}>
-                  <div style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)", borderRadius: "12px", padding: "20px", height: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
+                  <div style={{ backgroundColor: "#ede9e3", borderRadius: "12px", padding: "20px", height: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
                     <div>
-                      <h3 style={{ fontFamily: "'Playfair Display', serif", fontSize: "15px", fontWeight: 600, color: "#1b1c1c", marginBottom: "8px" }}>Pilates Mat (6mm)</h3>
-                      <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", color: "#53433e", lineHeight: 1.6, marginBottom: "12px" }}>A quality non-slip mat for mat class and home practice. Thicker than a standard yoga mat.</p>
+                      <h3 className="r-hx" style={{ fontSize: "15px", color: "#0a0a0a", marginBottom: "8px" }}>Pilates Mat (6mm)</h3>
+                      <p style={{ fontSize: "15px", color: "#3a3530", lineHeight: 1.6, marginBottom: "12px" }}>A quality non-slip mat for mat class and home practice. Thicker than a standard yoga mat.</p>
                     </div>
                     <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                      <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", fontWeight: 600, color: "#8b4a31" }}>From $45</span>
-                      <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "11px", fontWeight: 600, letterSpacing: "0.12em", textTransform: "uppercase", color: "#c5a882" }}>Shop →</span>
+                      <span style={{ fontSize: "15px", fontWeight: 600, color: "#0a0a0a" }}>From $45</span>
+                      <span style={{ fontSize: "12.5px", fontWeight: 600, color: "#c5a882" }}>Shop →</span>
                     </div>
                   </div>
                 </a>
                 <a href="https://www.amazon.com/dp/B079W416C6?tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" style={{ textDecoration: "none" }}>
-                  <div style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)", borderRadius: "12px", padding: "20px", height: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
+                  <div style={{ backgroundColor: "#ede9e3", borderRadius: "12px", padding: "20px", height: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
                     <div>
-                      <h3 style={{ fontFamily: "'Playfair Display', serif", fontSize: "15px", fontWeight: 600, color: "#1b1c1c", marginBottom: "8px" }}>Pilates Mat Bag</h3>
-                      <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", color: "#53433e", lineHeight: 1.6, marginBottom: "12px" }}>A dedicated mat carrier makes getting to class significantly easier: no awkward balancing.</p>
+                      <h3 className="r-hx" style={{ fontSize: "15px", color: "#0a0a0a", marginBottom: "8px" }}>Pilates Mat Bag</h3>
+                      <p style={{ fontSize: "15px", color: "#3a3530", lineHeight: 1.6, marginBottom: "12px" }}>A dedicated mat carrier makes getting to class significantly easier: no awkward balancing.</p>
                     </div>
                     <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                      <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", fontWeight: 600, color: "#8b4a31" }}>From $22</span>
-                      <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "11px", fontWeight: 600, letterSpacing: "0.12em", textTransform: "uppercase", color: "#c5a882" }}>Shop →</span>
+                      <span style={{ fontSize: "15px", fontWeight: 600, color: "#0a0a0a" }}>From $22</span>
+                      <span style={{ fontSize: "12.5px", fontWeight: 600, color: "#c5a882" }}>Shop →</span>
                     </div>
                   </div>
                 </a>
                 <a href="https://www.amazon.com/s?k=pilates+gym+bag+compact&tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" style={{ textDecoration: "none" }}>
-                  <div style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)", borderRadius: "12px", padding: "20px", height: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
+                  <div style={{ backgroundColor: "#ede9e3", borderRadius: "12px", padding: "20px", height: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
                     <div>
-                      <h3 style={{ fontFamily: "'Playfair Display', serif", fontSize: "15px", fontWeight: 600, color: "#1b1c1c", marginBottom: "8px" }}>Gym Bag</h3>
-                      <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", color: "#53433e", lineHeight: 1.6, marginBottom: "12px" }}>A compact gym-to-studio bag that fits a mat, socks, a change of clothes, and a water bottle.</p>
+                      <h3 className="r-hx" style={{ fontSize: "15px", color: "#0a0a0a", marginBottom: "8px" }}>Gym Bag</h3>
+                      <p style={{ fontSize: "15px", color: "#3a3530", lineHeight: 1.6, marginBottom: "12px" }}>A compact gym-to-studio bag that fits a mat, socks, a change of clothes, and a water bottle.</p>
                     </div>
                     <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                      <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", fontWeight: 600, color: "#8b4a31" }}>From $30</span>
-                      <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "11px", fontWeight: 600, letterSpacing: "0.12em", textTransform: "uppercase", color: "#c5a882" }}>Shop →</span>
+                      <span style={{ fontSize: "15px", fontWeight: 600, color: "#0a0a0a" }}>From $30</span>
+                      <span style={{ fontSize: "12.5px", fontWeight: 600, color: "#c5a882" }}>Shop →</span>
                     </div>
                   </div>
                 </a>
                 <a href="https://www.amazon.com/dp/B002C9EX14?tag=pilatescollective-20" target="_blank" rel="noopener noreferrer sponsored" style={{ textDecoration: "none" }}>
-                  <div style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)", borderRadius: "12px", padding: "20px", height: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
+                  <div style={{ backgroundColor: "#ede9e3", borderRadius: "12px", padding: "20px", height: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
                     <div>
-                      <h3 style={{ fontFamily: "'Playfair Display', serif", fontSize: "15px", fontWeight: 600, color: "#1b1c1c", marginBottom: "8px" }}>Foam Roller</h3>
-                      <p style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", color: "#53433e", lineHeight: 1.6, marginBottom: "12px" }}>Essential for spinal mobility, fascial release, and warm-up before class.</p>
+                      <h3 className="r-hx" style={{ fontSize: "15px", color: "#0a0a0a", marginBottom: "8px" }}>Foam Roller</h3>
+                      <p style={{ fontSize: "15px", color: "#3a3530", lineHeight: 1.6, marginBottom: "12px" }}>Essential for spinal mobility, fascial release, and warm-up before class.</p>
                     </div>
                     <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                      <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", fontWeight: 600, color: "#8b4a31" }}>From $28</span>
-                      <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "11px", fontWeight: 600, letterSpacing: "0.12em", textTransform: "uppercase", color: "#c5a882" }}>Shop →</span>
+                      <span style={{ fontSize: "15px", fontWeight: 600, color: "#0a0a0a" }}>From $28</span>
+                      <span style={{ fontSize: "12.5px", fontWeight: 600, color: "#c5a882" }}>Shop →</span>
                     </div>
                   </div>
                 </a>
@@ -304,8 +304,8 @@ export default function BestPilatesRetreatsEuropePage() {
 function Section({ title, children }: { title: string; children: React.ReactNode }) {
   return (
     <div className="mb-12">
-      <h2 className="text-2xl font-semibold mb-5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{title}</h2>
-      <div className="space-y-4 text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+      <h2 className="mb-5 r-d r-h2">{title}</h2>
+      <div className="space-y-4 text-base leading-relaxed" style={{ color: "#3a3530" }}>
         {children}
       </div>
     </div>
@@ -314,27 +314,27 @@ function Section({ title, children }: { title: string; children: React.ReactNode
 
 function Callout({ children }: { children: React.ReactNode }) {
   return (
-    <blockquote className="my-10 border-l-4 pl-6 py-2" style={{ borderColor: "#8b4a31" }}>
-      <p className="text-lg italic leading-relaxed" style={{ color: "#8b4a31", fontFamily: "'Playfair Display', serif" }}>{children}</p>
+    <blockquote className="my-10 border-l-4 pl-6 py-2" style={{ borderColor: "#0a0a0a" }}>
+      <p className="text-lg italic leading-relaxed r-hx" style={{ color: "#0a0a0a" }}>{children}</p>
     </blockquote>
   );
 }
 
 function RetreatCard({ name, location, duration, focus, description, priceRange }: { name: string; location: string; duration: string; focus: string; description: string; priceRange: string }) {
   return (
-    <div className="rounded-2xl p-8 mb-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.4)" }}>
+    <div className="rounded-2xl p-8 mb-6" style={{ backgroundColor: "#ede9e3" }}>
       <div className="flex items-start justify-between gap-4 mb-4 flex-wrap">
         <div>
-          <h3 className="text-xl font-semibold mb-1" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{name}</h3>
-          <p className="text-sm font-semibold uppercase tracking-wider" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{location}</p>
+          <h3 className="text-xl mb-1 r-hx" style={{ color: "#0a0a0a" }}>{name}</h3>
+          <p className="text-base font-bold" style={{ color: "#0a0a0a" }}>{location}</p>
         </div>
-        <span className="text-sm px-3 py-1 rounded-full shrink-0" style={{ backgroundColor: "#f6f3f2", color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{priceRange}</span>
+        <span className="text-sm px-3 py-1 rounded-full shrink-0" style={{ backgroundColor: "#ede9e3", color: "#3a3530" }}>{priceRange}</span>
       </div>
       <div className="flex gap-6 mb-4 flex-wrap">
-        <span className="text-xs uppercase tracking-wider" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Duration: <strong style={{ color: "#53433e" }}>{duration}</strong></span>
-        <span className="text-xs uppercase tracking-wider" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Focus: <strong style={{ color: "#53433e" }}>{focus}</strong></span>
+        <span className="text-[12.5px]" style={{ color: "#6f6964" }}>Duration: <strong style={{ color: "#3a3530" }}>{duration}</strong></span>
+        <span className="text-[12.5px]" style={{ color: "#6f6964" }}>Focus: <strong style={{ color: "#3a3530" }}>{focus}</strong></span>
       </div>
-      <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{description}</p>
+      <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{description}</p>
     </div>
   );
 }

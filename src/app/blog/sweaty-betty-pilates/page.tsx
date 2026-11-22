@@ -132,20 +132,20 @@ export default function SweatyBettyPilatesPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Brand Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>Sweaty Betty</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Brand Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Sweaty Betty</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Sweaty Betty for Pilates (2026):<br /><span style={{ color: "#8b4a31" }}>Best Pieces &amp; Honest Review</span>
+            <h1 className="mb-6 r-d r-h1">
+              Sweaty Betty for Pilates (2026):<br /><span style={{ color: "#a98a5f" }}>Best Pieces &amp; Honest Review</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 10 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 10 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               Sweaty Betty has been dressing London Pilates studios since before boutique fitness was a concept. Founded in 1998 and still the dominant brand on the UK studio circuit, it occupies the premium activewear tier without the LA aesthetic that characterizes Alo and Lululemon. For European practitioners, it is often the brand of first choice. This is a specific guide to what works for Pilates, and what to skip.
             </p>
           </div>
@@ -153,8 +153,8 @@ export default function SweatyBettyPilatesPage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" alt="Sweaty Betty activewear for Pilates: Power Workout Legging and Super Sculpt Bra reviewed for studio and reformer classes" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/jade-stephens-N21356amsyw-unsplash.jpg" alt="Sweaty Betty activewear for Pilates: Power Workout Legging and Super Sculpt Bra reviewed for studio and reformer classes" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -166,43 +166,43 @@ export default function SweatyBettyPilatesPage() {
             <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
             <div className="mb-16 mt-4">
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Why Sweaty Betty leads the UK Pilates market</h2>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <h2 className="mb-6 r-d r-h2">Why Sweaty Betty leads the UK Pilates market</h2>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 Sweaty Betty&apos;s Pilates credentials are genuine rather than marketing-constructed. The brand was founded by Tamara Hill-Norton in Notting Hill, a neighborhood with an extraordinarily dense concentration of Pilates studios, and the core customer from the beginning was the studio practitioner, not the gym-goer. That origin shapes the product design in ways that matter: the waistband architecture accounts for spinal articulation; the fabric weight choices are calibrated for controlled movement rather than cardio; the aesthetic is understated enough for the studio environment.
               </p>
-              <p className="text-base leading-relaxed mb-4" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed mb-4" style={{ color: "#3a3530" }}>
                 Following the Wolverine Worldwide acquisition, the brand has expanded into the US market while retaining its UK design sensibility. The American market has been slower to adopt Sweaty Betty than the European one, largely because Lululemon and Alo dominate US brand awareness, but practitioners who discover the brand through recommendation rarely go back.
               </p>
-              <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>
                 The brand&apos;s weaknesses are a slightly narrower size range than Athleta and Lululemon, and a run range that is too prominent in the product mix: several pieces that look appropriate for Pilates are actually engineered for running and perform less well on a reformer carriage or mat.
               </p>
             </div>
 
 
-            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
-              <h2 className="text-xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>How Sweaty Betty compares</h2>
+            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#ede9e3" }}>
+              <h2 className="mb-6 r-d r-h2">How Sweaty Betty compares</h2>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                 {[
                   { brand: "vs Lululemon", summary: "Similar quality, different aesthetic. Sweaty Betty has a more European design sensibility: quieter branding, more muted colorways. The Power Legging and Align are technically comparable; the choice is often personal." },
                   { brand: "vs Varley", summary: "Both occupy similar positioning in the premium UK market. Varley is slightly more fashion-forward; Sweaty Betty is more function-oriented. The Power Legging is better for vigorous reformer work than most Varley options." },
                   { brand: "vs Alo Yoga", summary: "Less compression-focused and better suited to UK climate and studio temperatures. Alo skews warmer; Sweaty Betty fabrics are better calibrated for the cooler studio environments common in Europe." },
                 ].map((item) => (
-                  <div key={item.brand} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-sm font-semibold mb-1.5" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{item.brand}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.summary}</p>
+                  <div key={item.brand} className="rounded-2xl p-5" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base font-semibold mb-1.5" style={{ color: "#0a0a0a" }}>{item.brand}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.summary}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>5 Sweaty Betty Pieces · Ranked</p>
+              <p className="text-[12.5px] font-bold mb-10" style={{ color: "#0a0a0a" }}>5 Sweaty Betty Pieces · Ranked</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
                     <div className="flex items-center gap-3 mb-4">
-                      <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                      <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tag}</span>
+                      <span className="text-2xl r-hx" style={{ color: "#9a9490" }}>{p.rank}</span>
+                      <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{p.tag}</span>
                     </div>
                     <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                   </div>
@@ -210,16 +210,16 @@ export default function SweatyBettyPilatesPage() {
               </div>
             </div>
 
-            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
-              <h2 className="text-2xl font-semibold mb-4" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Sweaty Betty pieces to avoid for Pilates</h2>
+            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#ede9e3" }}>
+              <h2 className="mb-4 r-d r-h2">Sweaty Betty pieces to avoid for Pilates</h2>
               <ul className="space-y-3">
                 {[
                   "Sweaty Betty Run range for Pilates: the Zero Gravity Run Legging is included in this guide as a lightweight option, but the wider run range, including the Sprint 7/8 and Fast Track styles, uses running-specific construction with articulated knees and ventilation panels that are less suited to reformer carriage contact and slow floor work.",
                   "Oversized lounge pieces for in-class wear: Sweaty Betty&apos;s loungewear and co-ord sets are excellent quality but sized and constructed for casual wear. In a Pilates class, oversized fabric interferes with an instructor&apos;s ability to observe alignment, catches on reformer hardware, and shifts during prone or supine sequences.",
                   "Minimal bralettes without structured support for vigorous reformer work: Sweaty Betty&apos;s softer bralette styles are appropriate for mat work and private sessions, but jump board sequences and dynamic footwork series benefit from the Super Sculpt&apos;s more structured construction.",
                 ].map((tip, i) => (
-                  <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                    <span className="font-semibold flex-shrink-0" style={{ color: "#8b4a31" }}>✕</span>
+                  <li key={i} className="flex gap-3 text-base" style={{ color: "#3a3530" }}>
+                    <span className="font-semibold flex-shrink-0" style={{ color: "#0a0a0a" }}>✕</span>
                     {tip}
                   </li>
                 ))}
@@ -227,7 +227,7 @@ export default function SweatyBettyPilatesPage() {
             </div>
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   { q: "Is Sweaty Betty good for Pilates?", a: "Sweaty Betty is genuinely excellent for Pilates and has been part of the UK studio circuit longer than almost any other brand. Founded in 1998, the brand predates the boutique fitness explosion and has always been oriented toward studio movement rather than gym culture. The Power Workout Legging and Super Sculpt Bra are specifically designed for the kind of controlled, full-range movement Pilates demands." },
@@ -235,16 +235,16 @@ export default function SweatyBettyPilatesPage() {
                   { q: "Is Sweaty Betty worth the price?", a: "Yes, for the specific pieces in this guide. The Power Workout Legging at $134 competes directly with Lululemon Align and Varley and holds its own on fabric quality, construction, and Pilates functionality. Where Sweaty Betty is less strong value is in their casualwear and lounge ranges. For active Pilates studio wear, the brand earns its price point." },
                   { q: "Sweaty Betty vs Lululemon for Pilates, which is better?", a: "They are more evenly matched than most practitioners realize. Lululemon&apos;s Align fabric is marginally softer in a direct comparison. Sweaty Betty&apos;s Power Legging has marginally better waistband security for vigorous reformer sequences. The aesthetic difference is real: Sweaty Betty has a more European design language, which many UK practitioners actively prefer. The honest answer: both are completely legitimate choices, the decision is partly functional, partly aesthetic." },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Varley for Pilates (2026)" excerpt="The LA brand with cult status in UK and European Pilates studios: the best pieces, honestly reviewed." href="/blog/varley-pilates-activewear" category="Brand Guide" readTime="9 min read" date="May 2026" imageUrl="/pictures/logan-weaver-lgnwvr-u76Gd0hP5w4-unsplash.jpg" />
                 <ArticleCard title="Lululemon for Pilates (2026)" excerpt="The best Lululemon pieces for Pilates: chosen for reformer, mat, and barre classes." href="/blog/lululemon-pilates" category="Brand Guide" readTime="10 min read" date="May 2026" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />

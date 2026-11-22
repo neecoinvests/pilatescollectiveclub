@@ -126,7 +126,7 @@ export default function IsReformerPilatesWorthItPage() {
           imageAlt="Reformer Pilates studio class"
           category="Guide"
           subcategory="Reformer Pilates"
-          title={<>Is Reformer Pilates<br /><span style={{ color: "#8b4a31" }}>Worth It?</span></>}
+          title={<>Is Reformer Pilates<br /><span style={{ color: "#0a0a0a" }}>Worth It?</span></>}
           date="Updated May 2026"
           readTime="9 min read"
           dateLabel="Prices checked October 20, 2026"
@@ -141,11 +141,11 @@ export default function IsReformerPilatesWorthItPage() {
 
 
             <section className="pb-20">
-              <p className="text-lg leading-relaxed mb-10" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+              <p className="text-lg leading-relaxed mb-10" style={{ color: "#3a3530" }}>
                 Reformer Pilates classes cost 2-3x more than mat classes, and home reformers range from $300 to $5,000. The question of whether it's "worth it" is legitimate, and the answer depends on what you're comparing it to and what you're trying to achieve. This guide gives you the numbers and the honest assessment you need to decide.
               </p>
 
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>What the reformer actually offers that mat Pilates doesn't</h2>
+              <h2 className="mb-6 r-d r-h2">What the reformer actually offers that mat Pilates doesn't</h2>
               <div className="space-y-4 mb-10">
                 {[
                   { heading: "Spring resistance", body: "The reformer's spring system provides consistent, calibrated resistance throughout the full range of movement. This is fundamentally different from bodyweight work: the spring loads muscles at angles and in positions that mat Pilates cannot access. The footwork series, the abdominal series with the carriage, and exercises like short spine massage are only possible on a reformer." },
@@ -153,20 +153,20 @@ export default function IsReformerPilatesWorthItPage() {
                   { heading: "Repertoire range", body: "The reformer supports over 250 exercises in the classical repertoire vs approximately 40 for the mat. Standing work, jump board cardio, sitting box work, and the full lying series are all reformer-specific. This variety is both practically useful and motivationally valuable for long-term practitioners." },
                   { heading: "Injury rehabilitation", body: "The spring assistance is genuinely unique: it allows movement through ranges that might be inaccessible on a mat, making it the tool of choice for physiotherapists and rehabilitation specialists worldwide. For post-surgical recovery, the reformer offers advantages mat Pilates simply can't replicate." },
                 ].map((item) => (
-                  <div key={item.heading} className="flex gap-5 rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <div className="w-1.5 rounded-full shrink-0 mt-1" style={{ backgroundColor: "#8b4a31", minHeight: "20px" }} />
+                  <div key={item.heading} className="flex gap-5 rounded-2xl p-5" style={{ backgroundColor: "#ede9e3" }}>
+                    <div className="w-1.5 rounded-full shrink-0 mt-1" style={{ backgroundColor: "#0a0a0a", minHeight: "20px" }} />
                     <div>
-                      <p className="text-sm font-semibold mb-1" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.heading}</p>
-                      <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
+                      <p className="text-sm mb-1 r-hx" style={{ color: "#0a0a0a" }}>{item.heading}</p>
+                      <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.body}</p>
                     </div>
                   </div>
                 ))}
               </div>
 
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>The real cost of reformer Pilates</h2>
-              <div className="mb-10 overflow-hidden rounded-xl" style={{ border: "1px solid rgba(217,194,186,0.4)" }}>
-                <div className="px-6 py-4" style={{ backgroundColor: "#f6f3f2" }}>
-                  <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Cost Comparison · Studio vs Home (Annual)</p>
+              <h2 className="mb-6 r-d r-h2">The real cost of reformer Pilates</h2>
+              <div className="mb-10 overflow-hidden rounded-2xl" style={{ border: "1px solid #ddd6cc" }}>
+                <div className="px-6 py-4" style={{ backgroundColor: "#ede9e3" }}>
+                  <p className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Cost Comparison · Studio vs Home (Annual)</p>
                 </div>
                 {[
                   { option: "Boutique reformer studio (3x/week)", annual: "~$4,680/year", note: "At $30/class average" },
@@ -175,30 +175,30 @@ export default function IsReformerPilatesWorthItPage() {
                   { option: "Balanced Body Allegro 2 home reformer", annual: "$3,495 one-time", note: "Pays for itself in under 2 years vs boutique studio" },
                   { option: "Mat Pilates studio (3x/week)", annual: "~$1,560/year", note: "At $10/class" },
                 ].map((row, i) => (
-                  <div key={row.option} className="px-6 py-4" style={{ borderTop: "1px solid rgba(217,194,186,0.25)", backgroundColor: i % 2 === 0 ? "#ffffff" : "#faf8f7" }}>
+                  <div key={row.option} className="px-6 py-4" style={{ borderTop: "1px solid #ddd6cc", backgroundColor: i % 2 === 0 ? "#ffffff" : "#faf8f7" }}>
                     <div className="flex items-start justify-between gap-4">
                       <div className="flex-1">
-                        <p className="text-sm font-semibold" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{row.option}</p>
-                        <p className="text-xs mt-0.5" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{row.note}</p>
+                        <p className="text-base font-semibold" style={{ color: "#0a0a0a" }}>{row.option}</p>
+                        <p className="text-xs mt-0.5" style={{ color: "#6f6964" }}>{row.note}</p>
                       </div>
-                      <p className="text-sm font-semibold shrink-0" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{row.annual}</p>
+                      <p className="text-base font-semibold shrink-0" style={{ color: "#0a0a0a" }}>{row.annual}</p>
                     </div>
                   </div>
                 ))}
               </div>
 
-              <h2 className="text-3xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Who should prioritize reformer Pilates</h2>
+              <h2 className="mb-6 r-d r-h2">Who should prioritize reformer Pilates</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
                 {[
                   { heading: "Strongly yes", items: ["Injury rehabilitation (post-surgical, chronic pain)", "Athletes seeking injury prevention and cross-training", "Those who want the full repertoire and variety", "Serious practitioners committed to long-term practice"] },
                   { heading: "Mat Pilates may be enough", items: ["Budget-conscious beginners starting their practice", "Practitioners focused on flexibility and breathing", "Those without access to a studio or home reformer", "Anyone in their first 3-6 months of Pilates"] },
                 ].map((col) => (
-                  <div key={col.heading} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-xs font-semibold uppercase tracking-wider mb-3" style={{ color: "#536257", fontFamily: "'Montserrat', sans-serif" }}>{col.heading}</p>
+                  <div key={col.heading} className="rounded-2xl p-5" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-[12.5px] font-bold mb-3" style={{ color: "#3a3530" }}>{col.heading}</p>
                     <ul className="space-y-2">
                       {col.items.map((item) => (
-                        <li key={item} className="text-sm flex gap-2" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                          <span style={{ color: "#8b4a31" }}>·</span> {item}
+                        <li key={item} className="text-base flex gap-2" style={{ color: "#3a3530" }}>
+                          <span style={{ color: "#0a0a0a" }}>·</span> {item}
                         </li>
                       ))}
                     </ul>
@@ -206,10 +206,10 @@ export default function IsReformerPilatesWorthItPage() {
                 ))}
               </div>
 
-              <div className="mb-10 rounded-2xl p-8" style={{ background: "linear-gradient(135deg, #8b4a31 0%, #a86247 100%)" }}>
-                <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-4 opacity-75" style={{ color: "#ffffff", fontFamily: "'Montserrat', sans-serif" }}>Our Verdict</p>
-                <h2 className="text-2xl font-semibold mb-4" style={{ color: "#ffffff", fontFamily: "'Playfair Display', serif" }}>For most practitioners: yes, reformer Pilates is worth it.</h2>
-                <p className="text-base leading-relaxed mb-6 opacity-85" style={{ color: "#ffffff", fontFamily: "'Montserrat', sans-serif" }}>
+              <div className="mb-10 rounded-2xl p-8" style={{ background: "linear-gradient(135deg, #0a0a0a 0%, #a86247 100%)" }}>
+                <p className="text-[12.5px] font-bold mb-4 opacity-75" style={{ color: "#ffffff" }}>Our Verdict</p>
+                <h2 className="mb-4 r-d r-h2" style={{ color: "#ffffff" }}>For most practitioners: yes, reformer Pilates is worth it.</h2>
+                <p className="text-base leading-relaxed mb-6 opacity-85" style={{ color: "#ffffff" }}>
                   The reformer expands what's achievable, accelerates progress, and offers genuine advantages that mat Pilates cannot replicate. The cost is real, but so are the results. If you're serious about Pilates, the reformer is the natural progression. If budget is the constraint, the{" "}
                   <a href="/blog/best-pilates-reformer-under-1000" style={{ color: "#fde8dc", fontWeight: 600 }}>under-$1,000 reformer market</a>{" "}
                   has more options than ever.
@@ -217,7 +217,7 @@ export default function IsReformerPilatesWorthItPage() {
               </div>
 
               <div className="mb-16">
-                <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+                <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
                 <div className="space-y-6">
                   {[
                     { q: "Is reformer Pilates more effective than mat?", a: "For body composition, injury rehabilitation, and movement variety, yes: the reformer's spring resistance and sliding carriage enable exercises and resistance profiles that mat work can't replicate. For flexibility and foundational strength, both achieve similar outcomes. The reformer is not superior for all goals, but for most practitioners, it meaningfully expands what's achievable." },
@@ -225,9 +225,9 @@ export default function IsReformerPilatesWorthItPage() {
                     { q: "How many reformer Pilates sessions before you see results?", a: "Most practitioners notice improved posture, a stronger core, and better body awareness after 8-12 sessions. Visible body composition changes typically require 3-4 weeks of regular practice (2-3 sessions per week minimum). Joseph Pilates' 30-session rule holds broadly true." },
                     { q: "Is reformer Pilates worth buying a home reformer?", a: "If you currently attend 3+ studio sessions per week at $30-40 per class, a quality home reformer pays for itself in 18-24 months. The Balanced Body Allegro 2 at $3,500 vs $90-120/week on classes is financially straightforward for committed practitioners. The real barrier is space and the motivation to practice without an instructor." },
                   ].map((item) => (
-                    <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                      <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                      <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                    <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                      <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                      <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                     </div>
                   ))}
                 </div>
@@ -237,9 +237,9 @@ export default function IsReformerPilatesWorthItPage() {
 
 
             {/* Equipment */}
-            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Recommended kit</h2>
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid #ddd6cc" }}>
+              <p className="text-[12.5px] font-bold mb-2" style={{ color: "#0a0a0a" }}>Equipment</p>
+              <h2 className="mb-8 r-d r-h2">Recommended kit</h2>
               <div className="space-y-8">
                 {PRODUCTS.map((p) => (
                   <ProductCard key={p.name} name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
@@ -247,7 +247,7 @@ export default function IsReformerPilatesWorthItPage() {
               </div>
             </div>
 
-                <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+                <h2 className="mb-8 r-d r-h2">Further reading</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                   <ArticleCard title="Best Home Pilates Reformer (2026)" excerpt="Every budget from $299 to $3,500+: the complete guide to home reformers." href="/blog/best-home-pilates-reformer" category="Equipment" readTime="11 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />
                   <ArticleCard title="Best Pilates Equipment for Home Practice (2026)" excerpt="The complete home Pilates equipment list: mat, ring, bands, roller, and reformer options ranked." href="/blog/best-pilates-equipment-for-home-practice" category="Equipment" readTime="10 min read" date="May 2026" imageUrl="/pictures/ahmet-kurt-0xn-8kRWOhE-unsplash.jpg" />

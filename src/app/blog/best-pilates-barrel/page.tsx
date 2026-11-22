@@ -143,20 +143,20 @@ export default function BestPilatesBarrelPage() {
       <Header />
       <main>
         {/* Hero Section */}
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment Guide</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>Barrels</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Equipment Guide</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>Barrels</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best Pilates Barrel (2026):<br /><span style={{ color: "#8b4a31" }}>Arc, Spine Corrector & Ladder Barrel Compared</span>
+            <h1 className="mb-6 r-d r-h1">
+              Best Pilates Barrel (2026):<br /><span style={{ color: "#a98a5f" }}>Arc, Spine Corrector & Ladder Barrel Compared</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 9 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 9 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               The Pilates barrel is one of the least understood and most underutilized pieces of apparatus in the system: regularly present in good studios, rarely seen in home practice. There are three distinct barrel functions (Arc, Spine Corrector, Ladder Barrel), each serving different needs and appropriate for different levels of experience. This guide explains what each does and who it is for: honestly: Balanced Body sells one Amazon-listed barrel that covers Arc/spine-corrector-style work, plus its professional Ladder Barrel. Below that professional tier sit two real, currently-sold budget-brand Ladder Barrel alternatives, from PAETA and GDMSTIH: genuine, functional generic-brand options at a fraction of the price, no brand pedigree attached. Merrithew and Gratz make genuine barrels too, but they&apos;re dealer-direct only.
             </p>
           </div>
@@ -165,8 +165,8 @@ export default function BestPilatesBarrelPage() {
         {/* Hero Image */}
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg" alt="Best Pilates barrel guide: Arc, Spine Corrector and Ladder Barrel compared, Pilates Collective Club" fill className="object-cover" style={{ filter: "brightness(0.85)" }} />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg" alt="Best Pilates barrel guide: Arc, Spine Corrector and Ladder Barrel compared, Pilates Collective Club" fill className="object-cover" />
             </div>
           </div>
         </section>
@@ -176,23 +176,23 @@ export default function BestPilatesBarrelPage() {
 
             {/* Three barrels, three purposes */}
             <div className="mb-16 mt-4">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Three barrels, three purposes</h2>
+              <h2 className="mb-8 r-d r-h2">Three barrels, three purposes</h2>
               <div className="space-y-6">
                 <div>
-                  <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Arc Barrel</p>
-                  <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+                  <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>Arc Barrel</p>
+                  <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>
                     The most accessible barrel in the system. Its low curved surface supports backbends, opens the hip flexors, and creates an abdominal challenge when the practitioner works off the edge, making it useful from beginner to advanced. It can be flipped to challenge balance and core stability in a different plane. The Arc is the Pilates &ldquo;gateway&rdquo; barrel: the correct first purchase for home practitioners, the one most likely to be used consistently, and the one that earns its space in a small home studio more reliably than any other apparatus at its price point.
                   </p>
                 </div>
                 <div>
-                  <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Spine Corrector</p>
-                  <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+                  <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>Spine Corrector</p>
+                  <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>
                     A taller, more pronounced curve designed specifically for the classical Spine Corrector series. Where the Arc supports extension, the Spine Corrector develops it: the greater curve height creates the precise geometry needed for the Side Stretch, Hip Circles, Twist, and Back Extension exercises as Joseph Pilates designed them. The target qualities are spinal articulation, deep abdominal control, and hip flexor flexibility. This is an intermediate to advanced apparatus; most practitioners benefit from an instructor introduction before working the full classical series independently.
                   </p>
                 </div>
                 <div>
-                  <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Ladder Barrel</p>
-                  <p className="text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+                  <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>Ladder Barrel</p>
+                  <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>
                     A full apparatus: a large rounded barrel mounted on a base with a horizontal ladder extending from one side. The exercises it enables (full backbend over the barrel, side stretching series, hanging from the ladder in extension) require significant baseline strength, flexibility, and body awareness. This is a studio and serious home practitioner purchase: it demands permanent floor space of approximately 100cm × 70cm and a meaningful financial investment. For practitioners at the advanced level or instructors building a complete home studio, the Ladder Barrel adds a dimension of extension and lateral flexibility training that no other apparatus replicates.
                   </p>
                 </div>
@@ -201,7 +201,7 @@ export default function BestPilatesBarrelPage() {
 
             {/* Buying criteria cards */}
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Five things to consider before buying</h2>
+              <h2 className="mb-8 r-d r-h2">Five things to consider before buying</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[
                   { heading: "Which barrel first", body: "For most home practitioners, the Arc is the correct first barrel: it serves the widest range of exercises, stores easily, and costs a fraction of the Spine Corrector or Ladder Barrel. Start here unless you have a specific classical training context that requires otherwise." },
@@ -210,9 +210,9 @@ export default function BestPilatesBarrelPage() {
                   { heading: "Curve height", body: "Arc barrels have a lower curve (~20cm); Spine Correctors have a taller curve (~30cm). The height determines which exercises are possible. Classical Spine Corrector work requires the full-height curve: the Arc cannot substitute for it." },
                   { heading: "Storage", body: "Arc Barrels are small and light: store upright in a wardrobe. Spine Correctors are larger and heavier: require a dedicated shelf or corner. Ladder Barrels require permanent floor space of approximately 100cm × 70cm and should be treated as a fixed studio fixture." },
                 ].map((item) => (
-                  <div key={item.heading} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.heading}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.body}</p>
+                  <div key={item.heading} className="rounded-2xl p-5" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-sm mb-1.5 r-hx" style={{ color: "#0a0a0a" }}>{item.heading}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.body}</p>
                   </div>
                 ))}
               </div>
@@ -224,13 +224,13 @@ export default function BestPilatesBarrelPage() {
 
             {/* Product Cards */}
             <div className="mb-16">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-10" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{PRODUCTS.length} Barrel Options · Fact-Checked</p>
+              <p className="text-[12.5px] font-bold mb-10" style={{ color: "#0a0a0a" }}>{PRODUCTS.length} Barrel Options · Fact-Checked</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>
                     <div className="flex items-center gap-3 mb-4">
-                      <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                      <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{p.tag}</span>
+                      <span className="text-2xl r-hx" style={{ color: "#9a9490" }}>{p.rank}</span>
+                      <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{p.tag}</span>
                     </div>
                     <ProductCard name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
                   </div>
@@ -239,11 +239,11 @@ export default function BestPilatesBarrelPage() {
             </div>
 
             {/* Barrel exercises editorial section */}
-            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
-              <h2 className="text-2xl font-semibold mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Barrel exercises: what you will actually do</h2>
+            <div className="mb-16 rounded-2xl p-8" style={{ backgroundColor: "#ede9e3" }}>
+              <h2 className="mb-6 r-d r-h2">Barrel exercises: what you will actually do</h2>
               <div className="space-y-6">
                 <div>
-                  <p className="text-sm font-semibold uppercase tracking-[0.12em] mb-3" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Arc Barrel</p>
+                  <p className="text-base font-bold mb-3" style={{ color: "#0a0a0a" }}>Arc Barrel</p>
                   <ul className="space-y-2">
                     {[
                       "Swan over the Arc: supported back extension that decompresses the lumbar spine and opens the chest without compressive load.",
@@ -252,15 +252,15 @@ export default function BestPilatesBarrelPage() {
                       "Side Body stretch: the Arc contour supports a lateral extension that mat work cannot replicate.",
                       "Seated rotation: sitting on the Arc challenges spinal stability while working thoracic rotation.",
                     ].map((ex, i) => (
-                      <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                        <span className="font-semibold shrink-0" style={{ color: "#8b4a31" }}>–</span>
+                      <li key={i} className="flex gap-3 text-base" style={{ color: "#3a3530" }}>
+                        <span className="font-semibold shrink-0" style={{ color: "#0a0a0a" }}>–</span>
                         {ex}
                       </li>
                     ))}
                   </ul>
                 </div>
-                <div style={{ borderTop: "1px solid rgba(217,194,186,0.4)", paddingTop: "24px" }}>
-                  <p className="text-sm font-semibold uppercase tracking-[0.12em] mb-3" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Spine Corrector</p>
+                <div style={{ borderTop: "1px solid #ddd6cc", paddingTop: "24px" }}>
+                  <p className="text-base font-bold mb-3" style={{ color: "#0a0a0a" }}>Spine Corrector</p>
                   <ul className="space-y-2">
                     {[
                       "Back Extension: the full-height curve supports classical back extension with spinal articulation from tailbone to crown.",
@@ -269,23 +269,23 @@ export default function BestPilatesBarrelPage() {
                       "Hip Circles: a demanding hip mobility and abdominal stability exercise native to the classical series.",
                       "Classical Spine Corrector series: the complete sequence as designed, developing spinal mobility, hip flexor length, and abdominal control simultaneously.",
                     ].map((ex, i) => (
-                      <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                        <span className="font-semibold shrink-0" style={{ color: "#8b4a31" }}>–</span>
+                      <li key={i} className="flex gap-3 text-base" style={{ color: "#3a3530" }}>
+                        <span className="font-semibold shrink-0" style={{ color: "#0a0a0a" }}>–</span>
                         {ex}
                       </li>
                     ))}
                   </ul>
                 </div>
-                <div style={{ borderTop: "1px solid rgba(217,194,186,0.4)", paddingTop: "24px" }}>
-                  <p className="text-sm font-semibold uppercase tracking-[0.12em] mb-3" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Ladder Barrel</p>
+                <div style={{ borderTop: "1px solid #ddd6cc", paddingTop: "24px" }}>
+                  <p className="text-base font-bold mb-3" style={{ color: "#0a0a0a" }}>Ladder Barrel</p>
                   <ul className="space-y-2">
                     {[
                       "Full backbend over the barrel: a dramatic extension requiring both spinal flexibility and the strength to control the descent.",
                       "Side stretching series: lying draped over the barrel in lateral flexion with the feet hooked into the ladder rungs.",
                       "Hanging from the ladder in extension: traction-assisted spinal decompression and shoulder girdle opening unavailable on any other apparatus.",
                     ].map((ex, i) => (
-                      <li key={i} className="flex gap-3 text-sm" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
-                        <span className="font-semibold shrink-0" style={{ color: "#8b4a31" }}>–</span>
+                      <li key={i} className="flex gap-3 text-base" style={{ color: "#3a3530" }}>
+                        <span className="font-semibold shrink-0" style={{ color: "#0a0a0a" }}>–</span>
                         {ex}
                       </li>
                     ))}
@@ -296,7 +296,7 @@ export default function BestPilatesBarrelPage() {
 
             {/* FAQ */}
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2">Frequently asked questions</h2>
               <div className="space-y-6">
                 {[
                   { q: "Do I need a barrel if I have a reformer?", a: "The barrel is not a reformer replacement or accessory: it is a separate apparatus that develops different qualities. Extension over the barrel is distinct from Swan on the reformer. For practitioners whose practice feels limited by the reformer and mat alone, a barrel (starting with the Arc) is the natural next piece." },
@@ -305,9 +305,9 @@ export default function BestPilatesBarrelPage() {
                   { q: "Which barrel should I buy first?", a: "The Arc Barrel for most practitioners: it is the most versatile, the most affordable, and the easiest to store. Once the Arc's repertoire feels familiar, the Spine Corrector is the next logical step for classical practitioners." },
                   { q: "Is there a budget alternative to the Balanced Body Ladder Barrel?", a: "Yes. Balanced Body's Ladder Barrel, at $2,195, is the professional, studio-grade standard. PAETA's Wooden Ladder Barrel ($379.99, beech wood, five adjustable rungs, 440lb capacity) and the GDMSTIH Gray Ladder Barrel ($209.99, solid wood, leather-covered surface) are real, currently-sold generic-brand alternatives without Balanced Body's commercial pedigree, but genuinely functional for home use at a fraction of the cost." },
                 ].map((item) => (
-                  <div key={item.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <p className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{item.q}</p>
-                    <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{item.a}</p>
+                  <div key={item.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <p className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{item.q}</p>
+                    <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{item.a}</p>
                   </div>
                 ))}
               </div>
@@ -315,7 +315,7 @@ export default function BestPilatesBarrelPage() {
 
             {/* Further reading */}
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2">Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Pilates Chair (Wunda Chair) 2026" excerpt="The original classical apparatus: what the Wunda Chair does and which brand makes the best one." href="/blog/best-pilates-chair" category="Equipment Guide" readTime="10 min read" date="May 2026" imageUrl="/pictures/samantha-sheppard-b8Q5fHBsyik-unsplash.jpg" />
                 <ArticleCard title="Best Home Pilates Reformer (2026)" excerpt="The best home reformers at every price point, from entry-level to studio-grade." href="/blog/best-home-pilates-reformer" category="Equipment Guide" readTime="10 min read" date="May 2026" imageUrl="/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg" />

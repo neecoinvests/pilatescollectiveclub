@@ -36,6 +36,23 @@ const NOINDEX_PATHS = ["/partner-preview/the-core-collab/lagree-fitness"];
 //     compared separately: everything the base had must still be there.
 const FEATURED = { base: /\bpcc-featured-grid\b/, branch: null, branchAttr: "data-track-item" };
 
+//  3. One "At a Glance" product list per page (owner request): on these pages a
+//     repeated list was removed (see dedupe-glance.mjs). Text and links may only
+//     be removed, never added or changed, and every removed link is reported if
+//     its destination no longer appears anywhere else on the page.
+const b = (slug) => `/blog/${slug}`;
+const DEDUPED = new Set([
+  b("lagree-fitness"), "/partner-preview/the-core-collab/lagree-fitness", b("lagree-essentials"), b("pilates-princess-essentials"),
+  b("reformer-pilates-essentials"), b("best-lagree-gifts"), b("pilates-essentials"), b("lagree-for-weight-loss"), b("lagree-recovery"),
+  b("lagree-exercises"), b("lagree-vs-solidcore"), b("best-pilates-chair"), b("best-pilates-cadillac"), b("best-pilates-reformer-for-beginners"),
+]);
+const isSubsequence = (small, big) => {
+  let i = 0;
+  for (let j = 0; j < big.length && i < small.length; j++) if (small[i] === big[j]) i++;
+  return i === small.length;
+};
+export const lostLinks = [];
+
 const VOID = new Set(["area", "base", "br", "col", "embed", "hr", "img", "input", "link", "meta", "source", "track", "wbr"]);
 const ENT = { amp: "&", lt: "<", gt: ">", quot: '"', apos: "'", nbsp: " " };
 const decode = (s) =>
@@ -155,6 +172,20 @@ const listDiff = (a, b) => {
 
 function compare(pathname, base, branch) {
   const fails = [];
+  if (DEDUPED.has(pathname)) {
+    if (!isSubsequence(branch.text, base.text) || branch.text.length >= base.text.length) fails.push("deduped page: text was added or changed, not only removed");
+    if (!isSubsequence(branch.links, base.links)) fails.push("deduped page: a link was added or changed, not only removed");
+    const hrefs = new Set(branch.links.map((l) => l.split(" | ")[0]));
+    for (const l of base.links) {
+      const href = l.split(" | ")[0];
+      if (!hrefs.has(href)) lostLinks.push(`${pathname}: ${href}`);
+    }
+    if (JSON.stringify(base.headings) !== JSON.stringify(branch.headings)) fails.push(`headings ${listDiff(base.headings, branch.headings)}`);
+    if (JSON.stringify(sortKeys(base.head)) !== JSON.stringify(sortKeys(branch.head))) fails.push("head differs");
+    if (JSON.stringify(base.jsonld) !== JSON.stringify(branch.jsonld)) fails.push("json-ld differs");
+    if (branch.alts.some((a) => !base.alts.includes(a))) fails.push("image alt added");
+    return fails;
+  }
   if (base.text !== branch.text) fails.push(`text ${firstDiff(base.text, branch.text)}`);
   if (JSON.stringify(base.headings) !== JSON.stringify(branch.headings)) fails.push(`headings ${listDiff(base.headings, branch.headings)}`);
   const h1 = branch.headings.filter((h) => h.startsWith("h1:")).length;
@@ -267,6 +298,8 @@ try {
   console.log("");
   console.log(`Sitemap URLs: ${sitemapCount}. Pages compared: ${paths.length}. Pages with differences: ${failedPages.length}.`);
   console.log(`Amazon links: base ${amazon.base} (${amazon.baseTagged} tagged), branch ${amazon.branch} (${amazon.branchTagged} tagged).`);
+  console.log(`Deduped pages (one At a Glance list each): ${DEDUPED.size}. Link destinations that no longer appear on their page: ${lostLinks.length}.`);
+  for (const l of lostLinks) console.log(`   ${l}`);
   console.log("Counted per page across all pages, so shared header, footer and card links repeat. The homepage count rises because every featured story is now in the HTML.");
 } finally {
   stop();

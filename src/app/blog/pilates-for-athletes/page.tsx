@@ -131,7 +131,7 @@ export default function PilatesForAthletesPage() {
           imageAlt="Pilates for athletes"
           category="Performance"
           subcategory="7 min read"
-          title={<>Pilates for Athletes:<br /><span style={{ color: "#8b4a31" }}>Strength, Longevity, and the Competitive Edge</span></>}
+          title={<>Pilates for Athletes:<br /><span style={{ color: "#0a0a0a" }}>Strength, Longevity, and the Competitive Edge</span></>}
           date="May 2026"
           readTime="7 min read"
           dateLabel="Prices checked October 20, 2026"
@@ -156,11 +156,11 @@ export default function PilatesForAthletesPage() {
               <Callout>Pilates doesn&apos;t make you stronger in the way a weight room does. It makes your existing strength more available: more efficiently delivered through a better-organized body.</Callout>
 
               <Section title="What Pilates specifically develops for athletes">
-                <p><strong style={{ color: "#1b1c1c" }}>Deep core stability.</strong> The transversus abdominis, multifidus, pelvic floor, and diaphragm form a cylinder of support around the spine. Athletic training rarely specifically targets these muscles, which are too deep and too stabilizing in function to be effectively worked through conventional exercises. Pilates is explicitly designed to develop this deep system, and the difference it makes to spinal stability, power transfer, and injury resilience is significant.</p>
-                <p><strong style={{ color: "#1b1c1c" }}>Spinal mobility and articulation.</strong> Pilates requires the spine to move in all directions (flexion, extension, lateral flexion, rotation) with control. For athletes whose sports involve repetitive, unidirectional movement (cyclists, swimmers, rowers), the spinal mobility and symmetry that Pilates develops is particularly valuable.</p>
-                <p><strong style={{ color: "#1b1c1c" }}>Hip function and gluteal activation.</strong> Weak or poorly coordinated gluteal muscles are implicated in a huge range of sports injuries, from knee problems to lower back pain to hamstring strains. Pilates is exceptionally effective at developing gluteal strength and the neuromuscular coordination needed to activate these muscles at the right moment during athletic movement.</p>
-                <p><strong style={{ color: "#1b1c1c" }}>Body awareness and proprioception.</strong> Pilates demands continuous attention to body position, movement quality, and the relationship between body parts. This cultivated proprioception, the body&apos;s sense of itself in space, transfers directly to athletic performance, particularly in sports requiring balance, coordination, and reactive movement.</p>
-                <p><strong style={{ color: "#1b1c1c" }}>Breathing under load.</strong> The Pilates method teaches coordinated breathing that supports movement: exhaling through effort, using breath to support the core. For athletes competing in endurance sports or high-intensity disciplines, this conscious relationship between breath and physical effort has practical performance implications.</p>
+                <p><strong style={{ color: "#0a0a0a" }}>Deep core stability.</strong> The transversus abdominis, multifidus, pelvic floor, and diaphragm form a cylinder of support around the spine. Athletic training rarely specifically targets these muscles, which are too deep and too stabilizing in function to be effectively worked through conventional exercises. Pilates is explicitly designed to develop this deep system, and the difference it makes to spinal stability, power transfer, and injury resilience is significant.</p>
+                <p><strong style={{ color: "#0a0a0a" }}>Spinal mobility and articulation.</strong> Pilates requires the spine to move in all directions (flexion, extension, lateral flexion, rotation) with control. For athletes whose sports involve repetitive, unidirectional movement (cyclists, swimmers, rowers), the spinal mobility and symmetry that Pilates develops is particularly valuable.</p>
+                <p><strong style={{ color: "#0a0a0a" }}>Hip function and gluteal activation.</strong> Weak or poorly coordinated gluteal muscles are implicated in a huge range of sports injuries, from knee problems to lower back pain to hamstring strains. Pilates is exceptionally effective at developing gluteal strength and the neuromuscular coordination needed to activate these muscles at the right moment during athletic movement.</p>
+                <p><strong style={{ color: "#0a0a0a" }}>Body awareness and proprioception.</strong> Pilates demands continuous attention to body position, movement quality, and the relationship between body parts. This cultivated proprioception, the body&apos;s sense of itself in space, transfers directly to athletic performance, particularly in sports requiring balance, coordination, and reactive movement.</p>
+                <p><strong style={{ color: "#0a0a0a" }}>Breathing under load.</strong> The Pilates method teaches coordinated breathing that supports movement: exhaling through effort, using breath to support the core. For athletes competing in endurance sports or high-intensity disciplines, this conscious relationship between breath and physical effort has practical performance implications.</p>
               </Section>
 
               <Section title="Sport-specific applications">
@@ -201,10 +201,10 @@ export default function PilatesForAthletesPage() {
               <Callout>The athletes who benefit most from Pilates are not those who add it as a supplement: it&apos;s those who integrate it as a foundational part of how they train.</Callout>
 
               <Section title="How to integrate Pilates into an athletic training program">
-                <p><strong style={{ color: "#1b1c1c" }}>Start with private sessions.</strong> Athletes bringing specific movement patterns, training loads, and performance goals need individualized attention that group classes cannot provide. A good Pilates instructor will assess your movement, identify sport-specific imbalances, and design a program that addresses them. This investment at the start pays dividends throughout.</p>
-                <p><strong style={{ color: "#1b1c1c" }}>Treat it as training, not recovery.</strong> Pilates is sometimes positioned as a recovery or cross-training modality: something to do on rest days. It is more productive when treated as a performance intervention that receives the same attention and consistency as primary training. Two sessions per week, done seriously and consistently, will produce measurable results over 8–12 weeks.</p>
-                <p><strong style={{ color: "#1b1c1c" }}>Communicate with your teacher.</strong> The best Pilates instructors who work with athletes want to understand your training load, your sport&apos;s physical demands, and any injuries or areas of concern. This dialogue shapes the program and prevents the Pilates work from conflicting with peak training periods.</p>
-                <p><strong style={{ color: "#1b1c1c" }}>Look for sport-specific experience.</strong> Not all Pilates instructors have experience working with athletes. Look for teachers with backgrounds in rehabilitation, sports physiotherapy, or explicit experience training competitive athletes. They will understand load management, periodization, and the specific demands of athletic training in a way that general instructors may not.</p>
+                <p><strong style={{ color: "#0a0a0a" }}>Start with private sessions.</strong> Athletes bringing specific movement patterns, training loads, and performance goals need individualized attention that group classes cannot provide. A good Pilates instructor will assess your movement, identify sport-specific imbalances, and design a program that addresses them. This investment at the start pays dividends throughout.</p>
+                <p><strong style={{ color: "#0a0a0a" }}>Treat it as training, not recovery.</strong> Pilates is sometimes positioned as a recovery or cross-training modality: something to do on rest days. It is more productive when treated as a performance intervention that receives the same attention and consistency as primary training. Two sessions per week, done seriously and consistently, will produce measurable results over 8–12 weeks.</p>
+                <p><strong style={{ color: "#0a0a0a" }}>Communicate with your teacher.</strong> The best Pilates instructors who work with athletes want to understand your training load, your sport&apos;s physical demands, and any injuries or areas of concern. This dialogue shapes the program and prevents the Pilates work from conflicting with peak training periods.</p>
+                <p><strong style={{ color: "#0a0a0a" }}>Look for sport-specific experience.</strong> Not all Pilates instructors have experience working with athletes. Look for teachers with backgrounds in rehabilitation, sports physiotherapy, or explicit experience training competitive athletes. They will understand load management, periodization, and the specific demands of athletic training in a way that general instructors may not.</p>
               </Section>
 
               <Section title="The recreational athlete">
@@ -218,9 +218,9 @@ export default function PilatesForAthletesPage() {
             {/* Equipment */}
 
             {FAQS.length > 0 && <FaqSection faqs={FAQS} />}
-            <div className="mt-16 pt-12" style={{ borderTop: "1px solid rgba(217,194,186,0.4)" }}>
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Equipment</p>
-              <h2 className="text-2xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Recommended kit</h2>
+            <div className="mt-16 pt-12" style={{ borderTop: "1px solid #ddd6cc" }}>
+              <p className="text-[12.5px] font-bold mb-2" style={{ color: "#0a0a0a" }}>Equipment</p>
+              <h2 className="mb-8 r-d r-h2">Recommended kit</h2>
               <div className="space-y-8">
                 {PRODUCTS.map((p) => (
                   <ProductCard key={p.name} name={p.name} description={p.description} price={p.price} affiliateUrl={p.affiliateUrl} />
@@ -247,8 +247,8 @@ export default function PilatesForAthletesPage() {
 function Section({ title, children }: { title: string; children: React.ReactNode }) {
   return (
     <div className="mb-12">
-      <h2 className="text-2xl font-semibold mb-5" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{title}</h2>
-      <div className="space-y-4 text-base leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+      <h2 className="mb-5 r-d r-h2">{title}</h2>
+      <div className="space-y-4 text-base leading-relaxed" style={{ color: "#3a3530" }}>
         {children}
       </div>
     </div>
@@ -257,18 +257,18 @@ function Section({ title, children }: { title: string; children: React.ReactNode
 
 function Callout({ children }: { children: React.ReactNode }) {
   return (
-    <blockquote className="my-10 border-l-4 pl-6 py-2" style={{ borderColor: "#8b4a31" }}>
-      <p className="text-lg italic leading-relaxed" style={{ color: "#8b4a31", fontFamily: "'Playfair Display', serif" }}>{children}</p>
+    <blockquote className="my-10 border-l-4 pl-6 py-2" style={{ borderColor: "#0a0a0a" }}>
+      <p className="text-lg italic leading-relaxed r-hx" style={{ color: "#0a0a0a" }}>{children}</p>
     </blockquote>
   );
 }
 
 function SportCard({ sport, benefit, detail }: { sport: string; benefit: string; detail: string }) {
   return (
-    <div className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)" }}>
-      <p className="text-xs font-semibold uppercase tracking-[0.15em] mb-2" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{sport}</p>
-      <h3 className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>{benefit}</h3>
-      <p className="text-sm leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>{detail}</p>
+    <div className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+      <p className="text-[12.5px] font-bold mb-2" style={{ color: "#0a0a0a" }}>{sport}</p>
+      <h3 className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{benefit}</h3>
+      <p className="text-base leading-relaxed" style={{ color: "#3a3530" }}>{detail}</p>
     </div>
   );
 }

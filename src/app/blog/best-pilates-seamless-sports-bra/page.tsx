@@ -147,18 +147,18 @@ export default function BestPilatesSeamlessSportsBraPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml({ "@context": "https://schema.org", ...ITEM_LIST }) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Clothing</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#0a0a0a" }}>Clothing</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>
-              Best Seamless Sports Bras for Pilates<br /><span style={{ color: "#8b4a31" }}>(2026)</span>
+            <h1 className="mb-6 r-d r-h1">
+              Best Seamless Sports Bras for Pilates<br /><span style={{ color: "#a98a5f" }}>(2026)</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>Prices checked October 20, 2026 · 8 min read</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>Prices checked October 20, 2026 · 8 min read</p>
             <TopPick name={PRODUCTS[0].name} price={PRODUCTS[0].price} note={QP_NOTES[0]} url={PRODUCTS[0].affiliateUrl} />
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
-            <p className="text-lg leading-relaxed" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
+            <p className="text-lg leading-relaxed" style={{ color: "#3a3530" }}>
               Seam placement becomes noticeable fast when you&apos;re spending forty minutes on a reformer in supine. A seamless sports bra is one of those kit investments that seems minor until you make it, and then you wonder how you trained without it.
             </p>
           </div>
@@ -166,8 +166,8 @@ export default function BestPilatesSeamlessSportsBraPage() {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" alt="Best Seamless Sports Bras for Pilates 2026" fill className="object-cover" style={{ filter: "brightness(0.85)" }} priority />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" alt="Best Seamless Sports Bras for Pilates 2026" fill className="object-cover" priority />
             </div>
           </div>
         </section>
@@ -182,14 +182,14 @@ export default function BestPilatesSeamlessSportsBraPage() {
                 <div key={p.rank} style={{ borderTop: "1px solid #ede9e3", paddingTop: "36px" }}>
                   <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", gap: "16px", marginBottom: "8px" }}>
                     <div style={{ display: "flex", alignItems: "baseline", gap: "14px" }}>
-                      <span style={{ fontFamily: "var(--font-serif)", fontSize: "13px", color: "#c5a882" }}>{p.rank}</span>
-                      <h3 style={{ fontFamily: "var(--font-serif)", fontSize: "1.3rem", fontWeight: 400, color: "#1a1714", margin: 0 }}>{p.name}</h3>
+                      <span className="r-hx" style={{ fontSize: "13px", color: "#c5a882" }}>{p.rank}</span>
+                      <h3 className="r-hx" style={{ fontSize: "1.3rem", color: "#1a1714", margin: 0 }}>{p.name}</h3>
                     </div>
-                    <span style={{ fontFamily: "var(--font-sans)", fontSize: "13px", fontWeight: 600, color: "#8f6d3f", whiteSpace: "nowrap" }}>{p.price}</span>
+                    <span style={{ fontSize: "15px", fontWeight: 600, color: "#0a0a0a", whiteSpace: "nowrap" }}>{p.price}</span>
                   </div>
-                  <span style={{ fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 500, letterSpacing: "0.15em", textTransform: "uppercase", color: "#9a9490", display: "block", marginBottom: "14px" }}>{p.verdict}</span>
-                  <p style={{ fontFamily: "var(--font-sans)", fontSize: "15px", fontWeight: 300, color: "#4a4540", lineHeight: 1.8, marginBottom: "20px" }}>{p.description}</p>
-                  <a href={p.affiliateUrl} target="_blank" rel={/amazon\./i.test(p.affiliateUrl) ? "noopener noreferrer nofollow sponsored" : "noopener noreferrer nofollow"} style={{ display: "inline-block", fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 500, letterSpacing: "0.18em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "13px 24px" }}>
+                  <span style={{ fontSize: "12.5px", fontWeight: 700, color: "#9a9490", display: "block", marginBottom: "14px" }}>{p.verdict}</span>
+                  <p style={{ fontSize: "17px", color: "#3a3530", lineHeight: 1.55, marginBottom: "20px" }}>{p.description}</p>
+                  <a className="r-btn r-btn-sm" href={p.affiliateUrl} target="_blank" rel={/amazon\./i.test(p.affiliateUrl) ? "noopener noreferrer nofollow sponsored" : "noopener noreferrer nofollow"}>
                     Shop on Amazon
                   </a>
                 </div>
@@ -197,21 +197,21 @@ export default function BestPilatesSeamlessSportsBraPage() {
             </div>
 
             <div style={{ marginTop: "64px" }}>
-              <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "1.6rem", fontWeight: 400, color: "#1a1714", marginBottom: "32px" }}>Frequently Asked Questions</h2>
+              <h2 className="r-d r-h2" style={{ color: "#1a1714", marginBottom: "32px" }}>Frequently Asked Questions</h2>
               {[
                 { q: "Why does seam-free construction matter for Pilates?", a: "Pilates involves significant time in supine (lying on your back) positions, and during this time stitched seams press directly into the skin. Over a 50-minute reformer session, even a small seam can cause significant discomfort and distraction. Seamless construction eliminates these pressure points entirely, allowing you to focus on movement rather than managing your kit." },
                 { q: "What level of support do I need in a Pilates sports bra?", a: "Pilates is a low-to-medium impact exercise, so low or medium support bras are appropriate for most practitioners. High-impact support (designed for running) adds unnecessary boning, underwire, and structure that can be uncomfortable during supine and prone reformer exercises. Opt for light compression and a wide underband for the best comfort-support balance." },
                 { q: "Can I wear a seamless bra for both Pilates and spin?", a: "Yes, but choose a medium-support seamless bra. Spin requires slightly more support than reformer Pilates due to the higher impact of out-of-saddle intervals. The Under Armour Infinity Mid is specifically designed for this cross-training use case. Avoid low-support options designed solely for yoga or mat work if you plan to use the bra for spin sessions." },
               ].map((item) => (
                 <div key={item.q} style={{ borderTop: "1px solid #ede6dc", paddingTop: "24px", paddingBottom: "24px" }}>
-                  <h3 style={{ fontFamily: "var(--font-sans)", fontSize: "15px", fontWeight: 500, color: "#1a1714", marginBottom: "10px" }}>{item.q}</h3>
-                  <p style={{ fontFamily: "var(--font-sans)", fontSize: "14px", fontWeight: 300, color: "#4a4540", lineHeight: 1.75 }}>{item.a}</p>
+                  <h3 style={{ fontSize: "17px", fontWeight: 500, color: "#1a1714", marginBottom: "10px" }}>{item.q}</h3>
+                  <p style={{ fontSize: "16px", color: "#3a3530", lineHeight: 1.55 }}>{item.a}</p>
                 </div>
               ))}
             </div>
 
             <div style={{ marginTop: "64px" }}>
-              <h2 style={{ fontFamily: "var(--font-sans)", fontSize: "11px", fontWeight: 500, letterSpacing: "0.2em", textTransform: "uppercase", color: "#9a9490", marginBottom: "28px" }}>Further Reading</h2>
+              <h2 style={{ fontSize: "12.5px", fontWeight: 700, color: "#9a9490", marginBottom: "28px" }}>Further Reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ArticleCard title="Best Pilates Sports Bras" excerpt="The full roundup of top-rated sports bras for Pilates: padded, wired, and wireless options compared." href="/blog/best-pilates-sports-bra" category="Clothing" readTime="8 min" imageUrl="/pictures/jessica-streser-5ai6kpW4NOw-unsplash.jpg" />
                 <ArticleCard title="Best Pilates Bodysuits" excerpt="One-piece options that eliminate bra-top coordination entirely: the best bodysuits for reformer Pilates." href="/blog/best-pilates-bodysuits" category="Clothing" readTime="7 min" imageUrl="/pictures/stitch-retail-activewear.png" />
