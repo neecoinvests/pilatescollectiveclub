@@ -18,21 +18,7 @@ export interface Post {
 }
 
 
-const btn = (active: boolean) => ({
-  fontFamily: "'Montserrat', sans-serif" as const,
-  fontSize: "10px",
-  fontWeight: active ? 600 : 400,
-  letterSpacing: "0.16em",
-  textTransform: "uppercase" as const,
-  padding: "7px 14px",
-  border: active ? "1px solid #8b4a31" : "1px solid rgba(217,194,186,0.7)",
-  backgroundColor: active ? "#8b4a31" : "transparent",
-  color: active ? "#ffffff" : "#86736d",
-  cursor: "pointer",
-  borderRadius: "2px",
-  transition: "all 0.15s",
-  whiteSpace: "nowrap" as const,
-});
+const btn = (active: boolean) => ({ fontSize: "12.5px", fontWeight: active ? 600 : 400, padding: "7px 14px", border: active ? "1px solid #0a0a0a" : "1px solid #ddd6cc", backgroundColor: active ? "#0a0a0a" : "transparent", color: active ? "#ffffff" : "#6f6964", cursor: "pointer", borderRadius: "2px", transition: "all 0.15s", whiteSpace: "nowrap" as const });
 
 export default function BlogFilter({ posts, initialCategory = "All" }: { posts: Post[]; initialCategory?: string }) {
   const [active, setActive] = useState(initialCategory);
@@ -63,28 +49,27 @@ export default function BlogFilter({ posts, initialCategory = "All" }: { posts: 
             <Link href={featured.href} className="group block">
               <div
                 className="grid md:grid-cols-2 gap-8 rounded-2xl overflow-hidden"
-                style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.4)", boxShadow: "0 2px 12px rgba(0,0,0,0.06)" }}
+                style={{ backgroundColor: "#ede9e3", boxShadow: "0 2px 12px rgba(0,0,0,0.06)" }}
               >
                 <div className="relative aspect-[4/3] md:aspect-auto overflow-hidden">
                   <Image src={featured.imageUrl} alt={featured.title} fill className="object-cover transition-transform duration-500 group-hover:scale-105" />
                 </div>
                 <div className="p-8 flex flex-col justify-center">
                   <span
-                    className="text-xs font-semibold uppercase tracking-[0.2em] mb-4 inline-block"
-                    style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}
+                    className="text-[12.5px] font-bold mb-4 inline-block"
+                    style={{ color: "#0a0a0a" }}
                   >
                     {featured.category} · Featured
                   </span>
                   <h2
-                    className="text-3xl font-semibold leading-snug mb-4 group-hover:text-[#8b4a31] transition-colors"
-                    style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}
+                    className="mb-4 group-hover:text-[#a98a5f] transition-colors r-d r-h2"
                   >
                     {featured.title}
                   </h2>
-                  <p className="text-sm leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: "'Montserrat', sans-serif" }}>
+                  <p className="text-base leading-relaxed mb-6" style={{ color: "#3a3530" }}>
                     {featured.excerpt}
                   </p>
-                  <span className="text-sm font-semibold" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>
+                  <span className="text-sm font-semibold" style={{ color: "#0a0a0a" }}>
                     Read article →
                   </span>
                 </div>
@@ -98,32 +83,32 @@ export default function BlogFilter({ posts, initialCategory = "All" }: { posts: 
       <section className="px-6 pb-24">
         <div className="max-w-5xl mx-auto">
           {filtered.length === 0 ? (
-            <p style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif", fontSize: "14px" }}>No articles in this category yet.</p>
+            <p style={{ color: "#6f6964", fontSize: "16px" }}>No articles in this category yet.</p>
           ) : (
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
               {filtered.map((post) => (
                 <Link key={post.href} href={post.href} className="group block">
                   <div
-                    className="rounded-xl overflow-hidden h-full flex flex-col"
-                    style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.4)", boxShadow: "0 1px 4px rgba(0,0,0,0.05)" }}
+                    className="rounded-2xl overflow-hidden h-full flex flex-col"
+                    style={{ backgroundColor: "#ede9e3", boxShadow: "0 1px 4px rgba(0,0,0,0.05)" }}
                   >
                     <div className="relative aspect-video overflow-hidden">
                       <Image src={post.imageUrl} alt={post.title} fill className="object-cover transition-transform duration-500 group-hover:scale-105" />
                     </div>
                     <div className="p-5 flex flex-col flex-1">
                       <span
-                        className="text-xs font-semibold uppercase tracking-[0.15em] mb-2 block"
-                        style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}
+                        className="text-[12.5px] font-bold mb-2 block"
+                        style={{ color: "#0a0a0a" }}
                       >
                         {post.category} · {post.readTime}
                       </span>
                       <h3
-                        className="text-base font-semibold leading-snug mb-2 group-hover:text-[#8b4a31] transition-colors"
-                        style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}
+                        className="text-base leading-snug mb-2 group-hover:text-[#a98a5f] transition-colors r-hx"
+                        style={{ color: "#0a0a0a" }}
                       >
                         {post.title}
                       </h3>
-                      <p className="text-xs leading-relaxed mt-auto pt-2" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>
+                      <p className="text-xs leading-relaxed mt-auto pt-2" style={{ color: "#6f6964" }}>
                         {post.excerpt}
                       </p>
                     </div>

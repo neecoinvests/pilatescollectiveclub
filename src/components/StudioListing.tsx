@@ -1,5 +1,3 @@
-"use client";
-
 interface StudioListingProps {
   number: string;
   name: string;
@@ -20,119 +18,58 @@ export default function StudioListing({
 }: StudioListingProps) {
   const hasAddress = address && address !== "";
   return (
-    <article style={{ borderTop: "1px solid #ede9e3", paddingTop: "48px", paddingBottom: "48px" }}>
-      <div className="pcc-studio-header" style={{ display: "flex", alignItems: "flex-start", gap: "32px", marginBottom: "24px" }}>
-        <span className="pcc-studio-number" style={{
-          fontFamily: "var(--font-serif)",
-          fontSize: "60px",
-          fontWeight: 300,
-          color: "#ede9e3",
-          lineHeight: 1,
-          flexShrink: 0,
-        }}>
-          {number}
-        </span>
-        <div style={{ flex: 1 }}>
-          <h2 style={{
-            fontFamily: "var(--font-serif)",
-            fontSize: "28px",
-            fontWeight: 400,
-            color: "#0a0a0a",
-            lineHeight: 1.1,
-            marginBottom: "8px",
-          }}>
-            {name}
-          </h2>
-          <div style={{ display: "flex", alignItems: "center", gap: "16px", flexWrap: "wrap" }}>
-            <span style={{ fontFamily: "var(--font-sans)", fontSize: "11px", fontWeight: 300, color: "#9a9490", letterSpacing: "0.05em" }}>
-              {neighborhood}
+    <article className="r-pd r-st">
+      <span className="pcc-studio-number r-pd-no">
+        {number}
+      </span>
+      <div>
+        <h2 className="r-d r-st-name">
+          {name}
+        </h2>
+        <div className="r-pd-tg">
+          <span className="r-pill">
+            {neighborhood}
+          </span>
+          <span className="r-pill r-pill-black">
+            {priceLevel}
+          </span>
+          {rating && (
+            <span className="r-pill r-pill-o">
+              {rating}
             </span>
-            <span style={{ fontFamily: "var(--font-sans)", fontSize: "11px", fontWeight: 600, color: "#8f6d3f", letterSpacing: "0.1em" }}>
-              {priceLevel}
-            </span>
-            {rating && (
-              <span style={{ fontFamily: "var(--font-sans)", fontSize: "11px", fontWeight: 500, color: "#3a3530" }}>
-                {rating}
-              </span>
-            )}
-          </div>
-          {hasAddress && (
-            <p style={{ fontFamily: "var(--font-sans)", fontSize: "11px", fontWeight: 300, color: "#9a9490", marginTop: "6px" }}>
-              {address}
-            </p>
           )}
         </div>
-      </div>
+        {hasAddress && (
+          <p className="r-sm r-st-addr">
+            {address}
+          </p>
+        )}
 
-      <p style={{
-        fontFamily: "var(--font-sans)",
-        fontSize: "15px",
-        fontWeight: 300,
-        color: "#3a3530",
-        lineHeight: 1.8,
-        marginBottom: "32px",
-        maxWidth: "680px",
-      }}>
-        {review}
-      </p>
-
-      {caveat && (
-        <p style={{
-          fontFamily: "var(--font-sans)",
-          fontSize: "13px",
-          fontWeight: 400,
-          color: "#8a6a4a",
-          lineHeight: 1.7,
-          marginBottom: "28px",
-          maxWidth: "680px",
-          borderLeft: "2px solid #c5a882",
-          paddingLeft: "14px",
-        }}>
-          Worth knowing: {caveat}
+        <p className="r-body r-st-review">
+          {review}
         </p>
-      )}
 
-      <div className="pcc-studio-details" style={{
-        display: "grid",
-        gridTemplateColumns: "repeat(2, 1fr)",
-        gap: "24px 40px",
-        backgroundColor: "#f7f4f0",
-        padding: "28px 32px",
-        marginBottom: "28px",
-      }}>
-        <Detail label="Best For" value={bestFor} />
-        <Detail label="Signature Class" value={signatureClass} />
-        <Detail label="Booking Tip" value={bookingTip} />
+        {caveat && (
+          <p className="r-st-caveat">
+            Worth knowing: {caveat}
+          </p>
+        )}
+
+        <dl className="pcc-studio-details r-st-details">
+          <Detail label="Best For" value={bestFor} />
+          <Detail label="Signature Class" value={signatureClass} />
+          <Detail label="Booking Tip" value={bookingTip} />
+        </dl>
+
+        <a
+          href={websiteUrl || `https://www.google.com/search?q=${encodeURIComponent(name)}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="r-btn r-btn-sm r-btn-o"
+        >
+          Visit Website
+        </a>
       </div>
-
-      <a
-        href={websiteUrl || `https://www.google.com/search?q=${encodeURIComponent(name)}`}
-        target="_blank"
-        rel="noopener noreferrer"
-        style={{
-          display: "inline-block",
-          fontFamily: "var(--font-sans)",
-          fontSize: "10px",
-          fontWeight: 500,
-          letterSpacing: "0.18em",
-          textTransform: "uppercase",
-          color: "#0a0a0a",
-          textDecoration: "none",
-          borderBottom: "1px solid #0a0a0a",
-          paddingBottom: "2px",
-          transition: "color 0.2s, border-color 0.2s",
-        }}
-        onMouseEnter={(e) => {
-          e.currentTarget.style.color = "#c5a882";
-          e.currentTarget.style.borderColor = "#c5a882";
-        }}
-        onMouseLeave={(e) => {
-          e.currentTarget.style.color = "#0a0a0a";
-          e.currentTarget.style.borderColor = "#0a0a0a";
-        }}
-      >
-        Visit Website
-      </a>
     </article>
   );
 }
@@ -140,26 +77,8 @@ export default function StudioListing({
 function Detail({ label, value }: { label: string; value: string }) {
   return (
     <div>
-      <dt style={{
-        fontFamily: "var(--font-sans)",
-        fontSize: "10px",
-        fontWeight: 500,
-        letterSpacing: "0.18em",
-        textTransform: "uppercase",
-        color: "#9a9490",
-        marginBottom: "4px",
-      }}>
-        {label}
-      </dt>
-      <dd style={{
-        fontFamily: "var(--font-sans)",
-        fontSize: "13px",
-        fontWeight: 300,
-        color: "#3a3530",
-        lineHeight: 1.6,
-      }}>
-        {value}
-      </dd>
+      <dt>{label}</dt>
+      <dd>{value}</dd>
     </div>
   );
 }

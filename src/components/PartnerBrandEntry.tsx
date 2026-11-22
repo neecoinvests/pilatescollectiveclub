@@ -23,8 +23,6 @@ export type PartnerBrandEntryProps = {
   logoSrc?: string;
 };
 
-const sans = "'Montserrat', sans-serif";
-const serif = "'Playfair Display', serif";
 
 function Placeholder({ children }: { children: React.ReactNode }) {
   return (
@@ -36,7 +34,7 @@ function Placeholder({ children }: { children: React.ReactNode }) {
 
 function PartnerChip() {
   return (
-    <span className="text-xs font-semibold uppercase tracking-[0.18em] px-3 py-1 rounded-full" style={{ backgroundColor: "#eef1ec", color: "#536257", fontFamily: sans }}>
+    <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#eef1ec", color: "#3a3530" }}>
       Featured Partner
     </span>
   );
@@ -48,59 +46,59 @@ export default function PartnerBrandEntry(props: PartnerBrandEntryProps) {
     <div>
       {!isBrand && (
         <div className="flex items-center gap-3 mb-4">
-          <span className="text-2xl font-semibold" style={{ color: "#536257", fontFamily: serif }}>✦</span>
+          <span className="text-2xl r-hx" style={{ color: "#3a3530" }}>✦</span>
           <PartnerChip />
         </div>
       )}
       <div
         className="rounded-2xl overflow-hidden"
-        style={{ backgroundColor: "#ffffff", border: "1px solid rgba(83,98,87,0.35)", boxShadow: "0 2px 14px rgba(83,98,87,0.10)" }}
+        style={{ backgroundColor: "#ede9e3", boxShadow: "0 2px 14px #ddd6cc" }}
       >
         {/* Image */}
         <div className="relative w-full" style={{ height: isBrand ? "260px" : "230px" }}>
-          <Image src={props.imageSrc} alt={props.imageAlt} fill className="object-cover" style={{ filter: "brightness(0.92)", objectPosition: props.imagePosition ?? "center" }} />
+          <Image src={props.imageSrc} alt={props.imageAlt} fill className="object-cover" style={{ objectPosition: props.imagePosition ?? "center" }} />
         </div>
 
         <div className="p-8">
           {/* Header row */}
           <div className="flex items-center gap-4 mb-5">
             {props.logoSrc ? (
-              <div className="shrink-0 relative rounded-xl overflow-hidden" style={{ width: 64, height: 64, backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.4)" }}>
+              <div className="shrink-0 relative rounded-2xl overflow-hidden" style={{ width: 64, height: 64, backgroundColor: "#ede9e3" }}>
                 <Image src={props.logoSrc} alt={`${props.sponsorName ?? props.brandName} logo`} fill sizes="64px" className="object-contain p-1.5" />
               </div>
             ) : (
               <div
                 className="shrink-0 rounded-xl flex items-center justify-center text-center"
-                style={{ width: 64, height: 64, border: "1.5px dashed #c5a882", backgroundColor: "#fcf9f8", color: "#9a857d", fontFamily: sans, fontSize: "9px", fontWeight: 600, letterSpacing: "0.12em", lineHeight: 1.3 }}
+                style={{ width: 64, height: 64, border: "1.5px dashed #c5a882", backgroundColor: "#f7f4f0", color: "#9a857d", fontSize: "9px", fontWeight: 600, lineHeight: 1.3 }}
               >
                 LOGO<br />PLACE-<br />HOLDER
               </div>
             )}
             <div>
               {isBrand && <div className="mb-2"><PartnerChip /></div>}
-              <h3 className="text-2xl font-semibold" style={{ color: "#1b1c1c", fontFamily: serif }}>{props.brandName}</h3>
+              <h3 className="text-2xl r-hx" style={{ color: "#0a0a0a" }}>{props.brandName}</h3>
             </div>
           </div>
 
           {/* Detail lines */}
           <div className="mb-4 space-y-1">
             {props.details.map((d) => (
-              <p key={d.label} className="text-xs" style={{ color: "#86736d", fontFamily: sans }}>
-                <span className="font-semibold" style={{ color: "#8b4a31" }}>{d.label}:</span>{" "}
+              <p key={d.label} className="text-xs" style={{ color: "#6f6964" }}>
+                <span className="font-semibold" style={{ color: "#0a0a0a" }}>{d.label}:</span>{" "}
                 {d.toConfirm ? <Placeholder>{d.value}</Placeholder> : d.value}
               </p>
             ))}
           </div>
 
-          <p className="text-sm leading-relaxed mb-6" style={{ color: "#53433e", fontFamily: sans }}>{props.description}</p>
+          <p className="text-base leading-relaxed mb-6" style={{ color: "#3a3530" }}>{props.description}</p>
 
           {/* Selling points */}
-          <div className="rounded-xl p-4 mb-6" style={{ backgroundColor: "#f6f8f5" }}>
-            <p className="text-xs font-semibold uppercase tracking-widest mb-2.5" style={{ color: "#536257", fontFamily: sans }}>{props.pointsHeading}</p>
+          <div className="rounded-xl p-4 mb-6" style={{ backgroundColor: "#ede9e3" }}>
+            <p className="text-[12.5px] font-bold mb-2.5" style={{ color: "#3a3530" }}>{props.pointsHeading}</p>
             <ul className="space-y-1.5">
               {props.points.map((p) => (
-                <li key={p} className="text-xs leading-relaxed flex gap-2" style={{ color: "#53433e", fontFamily: sans }}>
-                  <span style={{ color: "#536257", flexShrink: 0 }}>+</span>{p}
+                <li key={p} className="text-xs leading-relaxed flex gap-2" style={{ color: "#3a3530" }}>
+                  <span style={{ color: "#3a3530", flexShrink: 0 }}>+</span>{p}
                 </li>
               ))}
             </ul>
@@ -113,13 +111,13 @@ export default function PartnerBrandEntry(props: PartnerBrandEntryProps) {
               target="_blank"
               rel="noopener noreferrer sponsored"
               className="inline-block px-5 py-2.5 rounded-xl text-xs font-semibold transition-opacity hover:opacity-90"
-              style={{ backgroundColor: "#536257", color: "#ffffff", fontFamily: sans, textDecoration: "none" }}
+              style={{ backgroundColor: "#3a3530", color: "#ffffff", textDecoration: "none" }}
             >
               {props.ctaLabel}
             </a>
           </div>
 
-          <p className="text-[11px] mt-6 pt-4 leading-relaxed" style={{ color: "#a08f88", fontFamily: sans, borderTop: "1px solid rgba(217,194,186,0.3)" }}>
+          <p className="text-[11px] mt-6 pt-4 leading-relaxed" style={{ color: "#a08f88", borderTop: "1px solid #ddd6cc" }}>
             {props.sourceNote}
           </p>
         </div>

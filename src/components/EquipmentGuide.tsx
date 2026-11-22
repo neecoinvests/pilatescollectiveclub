@@ -73,11 +73,9 @@ export type EquipmentGuideProps = {
 };
 
 const SITE = "https://pilatescollectiveclub.com";
-const sans = "'Montserrat', sans-serif";
-const serif = "'Playfair Display', serif";
-const eyebrowStyle = { color: "#8b4a31", fontFamily: sans };
-const bodyStyle = { color: "#53433e", fontFamily: sans };
-const h2Style = { color: "#1b1c1c", fontFamily: serif };
+const eyebrowStyle = { color: "#0a0a0a" };
+const bodyStyle = { color: "#3a3530" };
+const h2Style = { color: "#0a0a0a" };
 
 const AVAILABILITY: Record<GuideItem["availability"], { label: string; schema: string }> = {
   "in-stock": { label: "In stock", schema: "https://schema.org/InStock" },
@@ -97,8 +95,8 @@ function Eyebrow({ text }: { text?: string }) {
   if (!text) return null;
   return (
     <div className="flex items-center gap-4 mb-6">
-      <p className="text-xs font-semibold uppercase tracking-[0.2em] shrink-0" style={eyebrowStyle}>{text}</p>
-      <div className="flex-1 h-px" style={{ backgroundColor: "#d9c2ba" }} />
+      <p className="text-[12.5px] font-bold shrink-0" style={eyebrowStyle}>{text}</p>
+      <div className="flex-1 h-px" style={{ backgroundColor: "#ddd6cc" }} />
     </div>
   );
 }
@@ -109,33 +107,33 @@ function ItemCard({ item, rank }: { item: GuideItem; rank: number }) {
   return (
     <div id={item.id} className="scroll-mt-28">
       <div className="flex flex-wrap items-center gap-3 mb-4">
-        <span className="text-2xl font-semibold" style={{ color: "#d9c2ba", fontFamily: serif }}>{String(rank).padStart(2, "0")}</span>
-        <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#f6f3f2", color: "#8b4a31", fontFamily: sans }}>{item.badge}</span>
-        {dealLabel(item) && <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full" style={{ backgroundColor: "#8b4a31", color: "#ffffff", fontFamily: sans }}>{dealLabel(item)}</span>}
+        <span className="text-2xl r-hx" style={{ color: "#9a9490" }}>{String(rank).padStart(2, "0")}</span>
+        <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#ede9e3", color: "#0a0a0a" }}>{item.badge}</span>
+        {dealLabel(item) && <span className="text-[12.5px] font-bold px-3 py-1 rounded-full" style={{ backgroundColor: "#0a0a0a", color: "#ffffff" }}>{dealLabel(item)}</span>}
       </div>
       <ProductCard name={item.name} description={item.body} price={priceLabel(item)} affiliateUrl={item.url} ctaLabel={item.ctaLabel} />
-      <div className="rounded-lg p-4" style={{ backgroundColor: "#f9f6f5", border: "1px solid rgba(217,194,186,0.3)" }}>
-        <p className="text-xs font-semibold uppercase tracking-wider mb-2" style={{ color: "#8b4a31", fontFamily: sans }}>Key specs (from the listing)</p>
+      <div className="rounded-2xl p-4" style={{ backgroundColor: "#f9f6f5", border: "1px solid #ddd6cc" }}>
+        <p className="text-[12.5px] font-bold mb-2" style={{ color: "#0a0a0a" }}>Key specs (from the listing)</p>
         <ul className="space-y-1">
           {item.specs.map((sp) => <li key={sp} className="text-xs leading-relaxed" style={bodyStyle}>· {sp}</li>)}
         </ul>
-        <p className="text-xs mt-3" style={{ color: "#86736d", fontFamily: sans }}>
+        <p className="text-xs mt-3" style={{ color: "#6f6964" }}>
           {AVAILABILITY[item.availability].label}{item.soldBy ? ` · Sold by ${item.soldBy}` : ""}
         </p>
       </div>
       {(item.pros || item.cons) && (
         <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
           {item.pros && (
-            <div className="rounded-lg p-4" style={{ backgroundColor: "#f0f7f1", border: "1px solid rgba(83,98,87,0.2)" }}>
-              <p className="text-xs font-semibold uppercase tracking-wider mb-2" style={{ color: "#536257", fontFamily: sans }}>Pros</p>
+            <div className="rounded-2xl p-4" style={{ backgroundColor: "#ede9e3" }}>
+              <p className="text-[12.5px] font-bold mb-2" style={{ color: "#3a3530" }}>Pros</p>
               <ul className="space-y-1">
                 {item.pros.map((pro) => <li key={pro} className="text-xs" style={bodyStyle}>+ {pro}</li>)}
               </ul>
             </div>
           )}
           {item.cons && (
-            <div className="rounded-lg p-4" style={{ backgroundColor: "#fdf5f3", border: "1px solid rgba(139,74,49,0.15)" }}>
-              <p className="text-xs font-semibold uppercase tracking-wider mb-2" style={{ color: "#8b4a31", fontFamily: sans }}>Cons</p>
+            <div className="rounded-2xl p-4" style={{ backgroundColor: "#ede9e3" }}>
+              <p className="text-[12.5px] font-bold mb-2" style={{ color: "#0a0a0a" }}>Cons</p>
               <ul className="space-y-1">
                 {item.cons.map((con) => <li key={con} className="text-xs" style={bodyStyle}>− {con}</li>)}
               </ul>
@@ -227,22 +225,22 @@ export default function EquipmentGuide(rawProps: EquipmentGuideProps) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }} />
       <Header />
       <main>
-        <section className="pt-32 pb-16 px-6" style={{ backgroundColor: "#fcf9f8" }}>
-          <div className="max-w-3xl mx-auto">
+        <section className="r-ah r-ah-legacy">
+          <div className="r-wrap">
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={eyebrowStyle}>{props.eyebrow}</span>
-              <span style={{ color: "#d9c2ba" }}>·</span>
-              <span className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: "#536257", fontFamily: sans }}>{props.eyebrowAccent}</span>
+              <span className="text-[12.5px] font-bold" style={eyebrowStyle}>{props.eyebrow}</span>
+              <span style={{ color: "#9a9490" }}>·</span>
+              <span className="text-[12.5px] font-bold" style={{ color: "#3a3530" }}>{props.eyebrowAccent}</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-[1.15] mb-6" style={{ color: "#1b1c1c", fontFamily: serif }}>
-              {props.h1}<br /><span style={{ color: "#8b4a31" }}>{props.h1Accent}</span>
+            <h1 className="mb-6 r-d r-h1">
+              {props.h1}<br /><span style={{ color: "#a98a5f" }}>{props.h1Accent}</span>
             </h1>
-            <p className="text-sm mb-6" style={{ color: "#86736d", fontFamily: sans }}>{props.updatedLabel} · {props.readTime}</p>
+            <p className="text-base mb-6" style={{ color: "#6f6964" }}>{props.updatedLabel} · {props.readTime}</p>
             {top && (
               <TopPick name={top.it.name} price={priceLabel(top.it)} url={top.it.url}
                 note={[dealLabel(top.it), top.label, top.it.soldBy ? `sold by ${top.it.soldBy}` : null].filter(Boolean).join(" · ")} />
             )}
-            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#d9c2ba" }} />
+            <div className="w-16 h-px mb-8" style={{ backgroundColor: "#ddd6cc" }} />
             {props.intro.map((p, i) => (
               <p key={i} className={i === 0 ? "text-lg leading-relaxed mb-5" : "text-base leading-relaxed mb-5"} style={{ ...bodyStyle, fontWeight: i === 0 ? 300 : 400 }}>{p}</p>
             ))}
@@ -251,11 +249,11 @@ export default function EquipmentGuide(rawProps: EquipmentGuideProps) {
 
         <section className="px-6 mb-8">
           <div className="max-w-5xl mx-auto">
-            <div className="pcc-city-hero-image w-full rounded-2xl overflow-hidden relative" style={{ height: "420px" }}>
-              <Image src={props.heroImage} alt={props.heroAlt} fill className="object-cover" style={{ filter: "brightness(0.85)" }} priority />
+            <div className="pcc-city-hero-image relative r-ah-img">
+              <Image src={props.heroImage} alt={props.heroAlt} fill className="object-cover" priority />
               {props.heroCaption && (
                 <div className="absolute inset-0 flex items-end p-8">
-                  <p className="text-sm font-light" style={{ color: "rgba(255,255,255,0.8)", fontFamily: sans }}>{props.heroCaption}</p>
+                  <p className="text-base font-light" style={{ color: "rgba(255,255,255,0.8)" }}>{props.heroCaption}</p>
                 </div>
               )}
             </div>
@@ -276,7 +274,7 @@ export default function EquipmentGuide(rawProps: EquipmentGuideProps) {
                   return (
                     <div key={bi} id={b.id} className="mb-16 scroll-mt-28">
                       <Eyebrow text={b.eyebrow} />
-                      <h2 className="text-3xl font-semibold mb-6" style={h2Style}>{b.heading}</h2>
+                      <h2 className="mb-6 r-d r-h2" style={h2Style}>{b.heading}</h2>
                       {b.paragraphs.map((p, i) => <p key={i} className="text-base leading-relaxed mb-4" style={bodyStyle}>{p}</p>)}
                     </div>
                   );
@@ -284,8 +282,8 @@ export default function EquipmentGuide(rawProps: EquipmentGuideProps) {
                   return (
                     <div key={bi} id={b.id} className="mb-16 scroll-mt-28">
                       <Eyebrow text={b.eyebrow} />
-                      <h2 className="text-3xl font-semibold mb-4" style={h2Style}>{b.heading}</h2>
-                      {b.intro && <p className="text-sm leading-relaxed mb-8" style={bodyStyle}>{b.intro}</p>}
+                      <h2 className="mb-4 r-d r-h2" style={h2Style}>{b.heading}</h2>
+                      {b.intro && <p className="text-base leading-relaxed mb-8" style={bodyStyle}>{b.intro}</p>}
                       <div className="space-y-12">
                         {b.items.map((it) => <ItemCard key={it.id} item={it} rank={rankById.get(it.id) ?? 0} />)}
                       </div>
@@ -295,42 +293,42 @@ export default function EquipmentGuide(rawProps: EquipmentGuideProps) {
                   return (
                     <div key={bi} id={b.id} className="mb-16 scroll-mt-28">
                       <Eyebrow text={b.eyebrow} />
-                      <h2 className="text-3xl font-semibold mb-4" style={h2Style}>{b.heading}</h2>
-                      {b.intro && <p className="text-sm leading-relaxed mb-6" style={bodyStyle}>{b.intro}</p>}
+                      <h2 className="mb-4 r-d r-h2" style={h2Style}>{b.heading}</h2>
+                      {b.intro && <p className="text-base leading-relaxed mb-6" style={bodyStyle}>{b.intro}</p>}
                       <div className="overflow-x-auto r-glance">
-                        <table className="w-full text-sm" style={{ fontFamily: sans, minWidth: "560px" }}>
+                        <table className="w-full text-sm" style={{ minWidth: "560px" }}>
                           <thead>
-                            <tr style={{ backgroundColor: "#f6f3f2" }}>
+                            <tr style={{ backgroundColor: "#ede9e3" }}>
                               {b.columns.map((c, ci) => (
-                                <th key={c} className="text-left px-4 py-3 font-semibold text-xs uppercase tracking-widest" style={{ color: ci === 0 ? "#1b1c1c" : "#8b4a31" }}>{c}</th>
+                                <th key={c} className="text-left px-4 py-3 font-bold text-[12.5px]" style={{ color: ci === 0 ? "#0a0a0a" : "#0a0a0a" }}>{c}</th>
                               ))}
                             </tr>
                           </thead>
                           <tbody>
                             {b.rows.map((r, ri) => (
-                              <tr key={ri} style={{ borderTop: "1px solid rgba(217,194,186,0.3)", backgroundColor: "#ffffff" }}>
+                              <tr key={ri} style={{ borderTop: "1px solid #ddd6cc", backgroundColor: "#ffffff" }}>
                                 {r.map((cell, ci) => (
-                                  <td key={ci} className="px-4 py-3 align-top text-sm leading-relaxed" style={{ color: ci === 0 ? "#1b1c1c" : "#53433e", fontWeight: ci === 0 ? 600 : 400 }}>{cell}</td>
+                                  <td key={ci} className="px-4 py-3 align-top text-sm leading-relaxed" style={{ color: ci === 0 ? "#0a0a0a" : "#3a3530", fontWeight: ci === 0 ? 600 : 400 }}>{cell}</td>
                                 ))}
                               </tr>
                             ))}
                           </tbody>
                         </table>
                       </div>
-                      {b.note && <p className="text-xs mt-3" style={{ color: "#86736d", fontFamily: sans }}>{b.note}</p>}
+                      {b.note && <p className="text-xs mt-3" style={{ color: "#6f6964" }}>{b.note}</p>}
                     </div>
                   );
                 case "cards":
                   return (
                     <div key={bi} id={b.id} className="mb-16 scroll-mt-28">
                       <Eyebrow text={b.eyebrow} />
-                      <h2 className="text-3xl font-semibold mb-4" style={h2Style}>{b.heading}</h2>
-                      {b.intro && <p className="text-sm leading-relaxed mb-6" style={bodyStyle}>{b.intro}</p>}
+                      <h2 className="mb-4 r-d r-h2" style={h2Style}>{b.heading}</h2>
+                      {b.intro && <p className="text-base leading-relaxed mb-6" style={bodyStyle}>{b.intro}</p>}
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                         {b.cards.map((c) => (
-                          <div key={c.h} className="rounded-xl p-5" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                            <p className="text-sm font-semibold mb-1.5" style={{ color: "#1b1c1c", fontFamily: serif }}>{c.h}</p>
-                            <p className="text-sm leading-relaxed" style={bodyStyle}>{c.b}</p>
+                          <div key={c.h} className="rounded-2xl p-5" style={{ backgroundColor: "#ede9e3" }}>
+                            <p className="text-sm mb-1.5 r-hx" style={{ color: "#0a0a0a" }}>{c.h}</p>
+                            <p className="text-base leading-relaxed" style={bodyStyle}>{c.b}</p>
                           </div>
                         ))}
                       </div>
@@ -340,15 +338,15 @@ export default function EquipmentGuide(rawProps: EquipmentGuideProps) {
                   return (
                     <div key={bi} id={b.id} className="mb-16 scroll-mt-28">
                       <Eyebrow text={b.eyebrow} />
-                      <h2 className="text-3xl font-semibold mb-4" style={h2Style}>{b.heading}</h2>
-                      {b.intro && <p className="text-sm leading-relaxed mb-6" style={bodyStyle}>{b.intro}</p>}
+                      <h2 className="mb-4 r-d r-h2" style={h2Style}>{b.heading}</h2>
+                      {b.intro && <p className="text-base leading-relaxed mb-6" style={bodyStyle}>{b.intro}</p>}
                       <ol className="space-y-5">
                         {b.steps.map((s, si) => (
                           <li key={s.h} className="flex gap-4">
-                            <span className="shrink-0 w-8 h-8 rounded-full flex items-center justify-center text-xs font-semibold" style={{ backgroundColor: "#1b1c1c", color: "#ffffff", fontFamily: sans }}>{si + 1}</span>
+                            <span className="shrink-0 w-8 h-8 rounded-full flex items-center justify-center text-xs font-semibold" style={{ backgroundColor: "#0a0a0a", color: "#ffffff" }}>{si + 1}</span>
                             <div>
-                              <p className="text-base font-semibold mb-1" style={{ color: "#1b1c1c", fontFamily: serif }}>{s.h}</p>
-                              <p className="text-sm leading-relaxed" style={bodyStyle}>{s.b}</p>
+                              <p className="text-base mb-1 r-hx" style={{ color: "#0a0a0a" }}>{s.h}</p>
+                              <p className="text-base leading-relaxed" style={bodyStyle}>{s.b}</p>
                             </div>
                           </li>
                         ))}
@@ -357,22 +355,22 @@ export default function EquipmentGuide(rawProps: EquipmentGuideProps) {
                   );
                 case "callout":
                   return (
-                    <div key={bi} className="mb-16 rounded-2xl p-6 md:p-8" style={b.dark ? { backgroundColor: "#1b1c1c" } : { backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.5)" }}>
-                      <p className="text-xs font-semibold uppercase tracking-[0.2em] mb-3" style={{ color: b.dark ? "#c5a882" : "#8b4a31", fontFamily: sans }}>{b.eyebrow}</p>
-                      <h2 className="text-2xl font-semibold mb-4" style={{ color: b.dark ? "#ffffff" : "#1b1c1c", fontFamily: serif }}>{b.heading}</h2>
-                      {b.body.map((p, i) => <p key={i} className="text-sm leading-relaxed mb-3" style={{ color: b.dark ? "rgba(255,255,255,0.8)" : "#53433e", fontFamily: sans }}>{p}</p>)}
+                    <div key={bi} className="mb-16 rounded-2xl p-6 md:p-8" style={b.dark ? { backgroundColor: "#0a0a0a" } : { backgroundColor: "#ede9e3" }}>
+                      <p className="text-[12.5px] font-bold mb-3" style={{ color: b.dark ? "#c5a882" : "#0a0a0a" }}>{b.eyebrow}</p>
+                      <h2 className="mb-4 r-d r-h2" style={{ color: b.dark ? "#ffffff" : "#0a0a0a" }}>{b.heading}</h2>
+                      {b.body.map((p, i) => <p key={i} className="text-base leading-relaxed mb-3" style={{ color: b.dark ? "rgba(255,255,255,0.8)" : "#3a3530" }}>{p}</p>)}
                     </div>
                   );
               }
             })}
 
             <div className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8" style={h2Style}>Frequently asked questions</h2>
+              <h2 className="mb-8 r-d r-h2" style={h2Style}>Frequently asked questions</h2>
               <div className="space-y-6">
                 {props.faqs.map((f) => (
-                  <div key={f.q} className="rounded-xl p-6" style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.3)" }}>
-                    <h3 className="text-base font-semibold mb-2" style={{ color: "#1b1c1c", fontFamily: serif }}>{f.q}</h3>
-                    <p className="text-sm leading-relaxed" style={bodyStyle}>{f.a}</p>
+                  <div key={f.q} className="rounded-2xl p-6" style={{ backgroundColor: "#ede9e3" }}>
+                    <h3 className="text-base mb-2 r-hx" style={{ color: "#0a0a0a" }}>{f.q}</h3>
+                    <p className="text-base leading-relaxed" style={bodyStyle}>{f.a}</p>
                   </div>
                 ))}
               </div>
@@ -380,11 +378,11 @@ export default function EquipmentGuide(rawProps: EquipmentGuideProps) {
 
             {props.sources && props.sources.length > 0 && (
               <div className="mb-16">
-                <h2 className="text-2xl font-semibold mb-6" style={h2Style}>Sources</h2>
+                <h2 className="mb-6 r-d r-h2" style={h2Style}>Sources</h2>
                 <ul className="space-y-2 list-disc pl-5">
                   {props.sources.map((s) => (
-                    <li key={s.url} className="text-sm leading-relaxed" style={bodyStyle}>
-                      <a href={s.url} target="_blank" rel={/amazon\./i.test(s.url) ? "noopener noreferrer sponsored" : "noopener noreferrer"} style={{ color: "#8b4a31", textDecoration: "underline" }}>{s.label}</a>
+                    <li key={s.url} className="text-base leading-relaxed" style={bodyStyle}>
+                      <a href={s.url} target="_blank" rel={/amazon\./i.test(s.url) ? "noopener noreferrer sponsored" : "noopener noreferrer"} style={{ color: "#0a0a0a", textDecoration: "underline" }}>{s.label}</a>
                     </li>
                   ))}
                 </ul>
@@ -392,14 +390,14 @@ export default function EquipmentGuide(rawProps: EquipmentGuideProps) {
             )}
 
             <div>
-              <h2 className="text-2xl font-semibold mb-8" style={h2Style}>Further reading</h2>
+              <h2 className="mb-8 r-d r-h2" style={h2Style}>Further reading</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 {props.related.map((r) => (
                   <ArticleCard key={r.href} title={r.title} excerpt={r.excerpt} href={r.href} category={r.category} readTime={r.readTime} date="October 2026" imageUrl={r.imageUrl} />
                 ))}
               </div>
-              <p className="text-sm leading-relaxed mt-8" style={bodyStyle}>
-                Still deciding? Compare every brand in our <Link href="/blog/best-pilates-reformer-brands" style={{ color: "#8b4a31", textDecoration: "underline" }}>reformer brands guide</Link>.
+              <p className="text-base leading-relaxed mt-8" style={bodyStyle}>
+                Still deciding? Compare every brand in our <Link href="/blog/best-pilates-reformer-brands" style={{ color: "#0a0a0a", textDecoration: "underline" }}>reformer brands guide</Link>.
               </p>
             </div>
           </div>

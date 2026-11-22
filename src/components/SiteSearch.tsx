@@ -223,23 +223,23 @@ export default function SiteSearch({ variant = "desktop" }: { variant?: "desktop
                 autoComplete="off"
                 spellCheck={false}
                 enterKeyHint="go"
-                style={{ flex: 1, minWidth: 0, border: "none", outline: "none", fontFamily: "var(--font-sans)", fontSize: "16px", color: "#0a0a0a", background: "transparent" }}
+                style={{ flex: 1, minWidth: 0, border: "none", outline: "none", fontSize: "16px", color: "#0a0a0a", background: "transparent" }}
               />
-              <button type="button" onClick={close} aria-label="Close search" style={{ background: "none", border: "none", cursor: "pointer", color: "#9a9490", fontFamily: "var(--font-sans)", fontSize: "10px", letterSpacing: "0.15em", textTransform: "uppercase", padding: "4px" }}>
+              <button type="button" onClick={close} aria-label="Close search" style={{ background: "none", border: "none", cursor: "pointer", color: "#9a9490", fontSize: "12.5px", padding: "4px" }}>
                 Esc
               </button>
             </div>
             <div style={{ overflowY: "auto", overscrollBehavior: "contain" }}>
               {!q.trim() && (
-                <p style={{ margin: 0, padding: "16px 20px 4px", fontFamily: "var(--font-sans)", fontSize: "9px", fontWeight: 700, letterSpacing: "0.2em", textTransform: "uppercase", color: "#0a0a0a" }}>Popular</p>
+                <p style={{ margin: 0, padding: "16px 20px 4px", fontSize: "12.5px", fontWeight: 700, color: "#0a0a0a" }}>Popular</p>
               )}
               {q.trim() && docs && list.length === 0 && (
-                <p style={{ margin: 0, padding: "24px 20px", fontFamily: "var(--font-sans)", fontSize: "13px", color: "#6b6560" }}>
+                <p style={{ margin: 0, padding: "24px 20px", fontSize: "15px", color: "#6f6964" }}>
                   No matches for “{q.trim()}”. Try a product (socks, reformer, mat) or a city.
                 </p>
               )}
               {q.trim() && !docs && (
-                <p style={{ margin: 0, padding: "24px 20px", fontFamily: "var(--font-sans)", fontSize: "13px", color: "#6b6560" }}>Loading…</p>
+                <p style={{ margin: 0, padding: "24px 20px", fontSize: "15px", color: "#6f6964" }}>Loading…</p>
               )}
               <ul style={{ listStyle: "none", margin: 0, padding: "4px 0 8px" }}>
                 {list.map((item, i) => (
@@ -251,11 +251,11 @@ export default function SiteSearch({ variant = "desktop" }: { variant?: "desktop
                       style={{ display: "block", padding: "12px 20px", textDecoration: "none", backgroundColor: i === active ? "#ede9e3" : "transparent", borderLeft: `2px solid ${i === active ? "#0a0a0a" : "transparent"}` }}
                     >
                       {item.type && (
-                        <span style={{ display: "block", fontFamily: "var(--font-sans)", fontSize: "9px", fontWeight: 600, letterSpacing: "0.18em", textTransform: "uppercase", color: "#a8988f", marginBottom: "3px" }}>{item.type}</span>
+                        <span style={{ display: "block", fontSize: "12.5px", fontWeight: 600, color: "#6f6964", marginBottom: "3px" }}>{item.type}</span>
                       )}
-                      <span style={{ display: "block", fontFamily: "var(--font-serif)", fontSize: "16px", color: "#0a0a0a", lineHeight: 1.3 }}>{item.title}</span>
+                      <span className="r-hx" style={{ display: "block", fontSize: "16px", color: "#0a0a0a", lineHeight: 1.3 }}>{item.title}</span>
                       {item.sub && (
-                        <span style={{ display: "-webkit-box", WebkitLineClamp: 2, WebkitBoxOrient: "vertical", overflow: "hidden", marginTop: "4px", fontFamily: "var(--font-sans)", fontSize: "12px", fontWeight: 300, color: "#6b6560", lineHeight: 1.55 }}>{item.sub}</span>
+                        <span style={{ display: "-webkit-box", WebkitLineClamp: 2, WebkitBoxOrient: "vertical", overflow: "hidden", marginTop: "4px", fontSize: "12px", color: "#6f6964", lineHeight: 1.55 }}>{item.sub}</span>
                       )}
                     </a>
                   </li>

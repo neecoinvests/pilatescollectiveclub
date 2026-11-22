@@ -9,7 +9,7 @@ export default function NewsletterForm() {
     return (
       <p
         className="text-base opacity-85"
-        style={{ color: "#ffffff", fontFamily: "'Montserrat', sans-serif" }}
+        style={{ color: "#ffffff" }}
       >
         Thanks for subscribing! Check your inbox Sunday morning.
       </p>
@@ -25,22 +25,12 @@ export default function NewsletterForm() {
         type="email"
         placeholder="Your email address"
         className="flex-1 px-5 py-3.5 rounded-xl text-sm outline-none"
-        style={{
-          backgroundColor: "rgba(255,255,255,0.15)",
-          color: "#ffffff",
-          border: "1px solid rgba(255,255,255,0.25)",
-          fontFamily: "'Montserrat', sans-serif",
-        }}
+        style={{ backgroundColor: "rgba(255,255,255,0.15)", color: "#ffffff", border: "1px solid rgba(255,255,255,0.25)" }}
         required
       />
       <button
         type="submit"
-        className="px-7 py-3.5 rounded-xl text-sm font-semibold transition-opacity hover:opacity-90 whitespace-nowrap"
-        style={{
-          backgroundColor: "#ffffff",
-          color: "#8b4a31",
-          fontFamily: "'Montserrat', sans-serif",
-        }}
+        className="whitespace-nowrap r-btn r-btn-sm r-btn-light"
       >
         Subscribe
       </button>
