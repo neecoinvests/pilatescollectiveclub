@@ -260,25 +260,26 @@ const GUIDES = [
   { title: "Pilates for Athletes", excerpt: "How elite sports professionals use Pilates to build functional strength, prevent injury, and extend their careers.", href: "/blog/pilates-for-athletes", category: "Performance", readTime: "7 min read" },
 ];
 
-// Homepage equipment picks: four studio essentials and four home studio pieces.
-// The full range lives in the equipment guides linked under the grid.
+// Homepage equipment picks: eight in one grid, ordered from everyday
+// essentials to bigger purchases. All were already on the homepage; the full
+// range lives in the equipment guides linked under the grid.
 const PRODUCT_CATEGORIES = [
   {
-    label: "Studio Essentials",
+    label: "",
     items: [
-      {
-        name: "Manduka PRO Yoga & Pilates Mat (6mm)",
-        description: "A dense 6mm mat built for lifetime durability, per Manduka. The reliable foundation of any home practice.",
-        price: "$144.00",
-        affiliateUrl: "https://www.amazon.com/dp/B0066T7I54?tag=pilatescollective-20",
-        imageUrl: "/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg",
-      },
       {
         name: "toesox Low Rise Full-Toe Grip Socks (2-Pack)",
         description: "Full-toe coverage, seamless construction. Non-negotiable for reformer work: keeps you connected to the foot bar.",
         price: "$30.00",
         affiliateUrl: "https://www.amazon.com/dp/B07QHNDHW3?tag=pilatescollective-20",
         imageUrl: "/pictures/jade-stephens-N21356amsyw-unsplash.jpg",
+      },
+      {
+        name: "Manduka PRO Yoga & Pilates Mat (6mm)",
+        description: "A dense 6mm mat built for lifetime durability, per Manduka. The reliable foundation of any home practice.",
+        price: "$144.00",
+        affiliateUrl: "https://www.amazon.com/dp/B0066T7I54?tag=pilatescollective-20",
+        imageUrl: "/pictures/esma-eserghep-NUQi80iMLrI-unsplash.jpg",
       },
       {
         name: "Balanced Body Ultra-Fit Circle (15-inch)",
@@ -288,17 +289,26 @@ const PRODUCT_CATEGORIES = [
         imageUrl: "/pictures/ginny-rose-stewart-UxkcSzRWM2s-unsplash.jpg",
       },
       {
+        name: "Bala Bangles (1 lb)",
+        description: "Bala Bangles (1 lb each) are a boutique studio favorite that wrap on at the wrist or ankle.",
+        price: "$55.00",
+        affiliateUrl: "https://www.amazon.com/dp/B09SNTB8DF?tag=pilatescollective-20",
+        imageUrl: "/pictures/jade-stephens-N21356amsyw-unsplash.jpg",
+      },
+      {
         name: "OPTP PRO-Roller Foam Roller (36-inch)",
         description: "A full 36 x 6 inch roller for spinal work along the whole back. Doubles as a myofascial release tool and balance prop.",
         price: "$62.99",
         affiliateUrl: "https://www.amazon.com/dp/B002C9EX14?tag=pilatescollective-20",
         imageUrl: "/pictures/henrique-ferreira-omiTbS-nb_M-unsplash.jpg",
       },
-    ],
-  },
-  {
-    label: "Home Studio",
-    items: [
+      {
+        name: "Lululemon Align High-Rise Pant 25-inch",
+        description: "High-rise leggings with a flat waistband and a hidden key pocket. A reformer-studio favorite. Sold on Amazon by a reseller, not by Lululemon.",
+        price: "$98.00",
+        affiliateUrl: "https://www.amazon.com/dp/B08M8ZTKJS?tag=pilatescollective-20",
+        imageUrl: "/pictures/roxana-popovici-lKe5jm-Sypw-unsplash.jpg",
+      },
       {
         name: "Stamina AeroPilates 287 Reformer",
         description: "AeroPilates' compact home reformer with cord resistance, a padded footbar and an adjustable headrest. An accessible entry point to home reformer work.",
@@ -307,25 +317,11 @@ const PRODUCT_CATEGORIES = [
         imageUrl: "/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg",
       },
       {
-        name: "PAETA Wooden Ladder Barrel",
-        description: "The ladder barrel is the gateway to spinal articulation work that can't be replicated on a mat. A considered home studio investment.",
-        price: "$379.99",
-        affiliateUrl: "https://www.amazon.com/dp/B0DF2JZ4FG?tag=pilatescollective-20",
-        imageUrl: "/pictures/roxana-popovici-hiHBILFNah4-unsplash.jpg",
-      },
-      {
-        name: "Yes4All Pilates Spine Corrector",
-        description: "A foldable spine corrector for spinal extension and chest opening, compact enough for most home spaces.",
-        price: "$117.99",
-        affiliateUrl: "https://www.amazon.com/dp/B0CK253K55?tag=pilatescollective-20",
-        imageUrl: "/pictures/logan-weaver-lgnwvr-u76Gd0hP5w4-unsplash.jpg",
-      },
-      {
-        name: "AeroPilates Precision Pilates Chair",
-        description: "Joseph Pilates' most underrated invention. Challenges every plane of movement in a compact footprint, ideal for a serious home practice.",
-        price: "$449.00",
-        affiliateUrl: "https://www.amazon.com/dp/B07YVYLZZ2?tag=pilatescollective-20",
-        imageUrl: "/pictures/mathilde-langevin-aBJ3A-2LJyU-unsplash.jpg",
+        name: "Balanced Body Allegro Stretch Reformer",
+        description: "The long version of Balanced Body's aluminum Allegro: a wider, longer carriage and an 18-inch-longer frame for taller users, with five Signature Springs. Made to order.",
+        price: "$3,710.00",
+        affiliateUrl: "https://www.amazon.com/dp/B093R8DYC9?tag=pilatescollective-20",
+        imageUrl: "/pictures/roxana-popovici-aY5uOJ2o96g-unsplash.jpg",
       },
     ],
   },
@@ -438,7 +434,7 @@ export default function Home() {
 
             {PRODUCT_CATEGORIES.map((cat) => (
               <div key={cat.label} className="r-eg-group">
-                <p className="r-eg-label">{cat.label}</p>
+                {cat.label && <p className="r-eg-label">{cat.label}</p>}
                 <div className="r-eg">
                   {cat.items.map((p) => (
                     <ProductCard key={p.name} {...p} />
