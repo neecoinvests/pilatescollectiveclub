@@ -110,14 +110,13 @@ export default function PartnerBrandEntry(props: PartnerBrandEntryProps) {
               href={props.ctaHref}
               target="_blank"
               rel="noopener noreferrer sponsored"
-              className="inline-block px-5 py-2.5 rounded-xl text-xs font-semibold transition-opacity hover:opacity-90"
-              style={{ backgroundColor: "#3a3530", color: "#ffffff", textDecoration: "none" }}
+              className="r-btn r-btn-sm"
             >
               {props.ctaLabel}
             </a>
           </div>
 
-          <p className="text-[11px] mt-6 pt-4 leading-relaxed" style={{ color: "#a08f88", borderTop: "1px solid #ddd6cc" }}>
+          <p className="text-[11px] mt-6 pt-4 leading-relaxed" style={{ color: "#6f6964", borderTop: "1px solid #ddd6cc" }}>
             {props.sourceNote}
           </p>
         </div>

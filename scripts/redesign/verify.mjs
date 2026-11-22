@@ -42,10 +42,14 @@ const FEATURED = { base: /\bpcc-featured-grid\b/, branch: null, branchAttr: "dat
 //     its destination no longer appears anywhere else on the page.
 const b = (slug) => `/blog/${slug}`;
 const DEDUPED = new Set([
-  b("lagree-fitness"), "/partner-preview/the-core-collab/lagree-fitness", b("lagree-essentials"), b("pilates-princess-essentials"),
+  b("lagree-fitness"), b("lagree-essentials"), b("pilates-princess-essentials"),
   b("reformer-pilates-essentials"), b("best-lagree-gifts"), b("pilates-essentials"), b("lagree-for-weight-loss"), b("lagree-recovery"),
   b("lagree-exercises"), b("lagree-vs-solidcore"), b("best-pilates-chair"), b("best-pilates-cadillac"), b("best-pilates-reformer-for-beginners"),
 ]);
+// Paid partnership pages (The Core Collab): text and links must match the base
+// exactly. They can never be on an exception list.
+const PROTECTED = [b("best-pilates-reformer-brands"), b("best-megaformer-machine"), "/partner-preview/the-core-collab/lagree-fitness"];
+for (const p of PROTECTED) if (DEDUPED.has(p)) throw new Error(`${p} is a partner page and cannot be an exception`);
 const isSubsequence = (small, big) => {
   let i = 0;
   for (let j = 0; j < big.length && i < small.length; j++) if (small[i] === big[j]) i++;
@@ -298,6 +302,7 @@ try {
   console.log("");
   console.log(`Sitemap URLs: ${sitemapCount}. Pages compared: ${paths.length}. Pages with differences: ${failedPages.length}.`);
   console.log(`Amazon links: base ${amazon.base} (${amazon.baseTagged} tagged), branch ${amazon.branch} (${amazon.branchTagged} tagged).`);
+  console.log(`Partner pages held to an exact match: ${PROTECTED.filter((p) => !failedPages.includes(p)).length} of ${PROTECTED.length} identical.`);
   console.log(`Deduped pages (one At a Glance list each): ${DEDUPED.size}. Link destinations that no longer appear on their page: ${lostLinks.length}.`);
   for (const l of lostLinks) console.log(`   ${l}`);
   console.log("Counted per page across all pages, so shared header, footer and card links repeat. The homepage count rises because every featured story is now in the HTML.");

@@ -12,7 +12,7 @@ import ts from "typescript";
 import fs from "node:fs";
 
 const b = (slug) => `src/app/blog/${slug}/page.tsx`;
-const DROP_QUICK_PICKS = [b("lagree-fitness"), "src/app/partner-preview/the-core-collab/lagree-fitness/page.tsx", b("lagree-essentials"), b("pilates-princess-essentials"), b("reformer-pilates-essentials"), b("best-lagree-gifts"), b("pilates-essentials")];
+const DROP_QUICK_PICKS = [b("lagree-fitness"), b("lagree-essentials"), b("pilates-princess-essentials"), b("reformer-pilates-essentials"), b("best-lagree-gifts"), b("pilates-essentials")];
 // file -> text that identifies the repeated box by its title
 const DROP_BOX = {
   [b("lagree-for-weight-loss")]: "At a Glance: Weight-Loss Tracking Tools",
