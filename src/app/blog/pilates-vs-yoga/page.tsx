@@ -163,7 +163,7 @@ export default function PilatesVsYogaPage() {
                 </Section>
 
                 <Section title="The comparison at a glance">
-                  <div className="overflow-x-auto rounded-xl" style={{ border: "1px solid rgba(217,194,186,0.4)" }}>
+                  <div className="overflow-x-auto r-glance">
                     <table className="w-full" style={{ borderCollapse: "collapse" }}>
                       <thead>
                         <tr style={{ backgroundColor: "#f6f3f2" }}>

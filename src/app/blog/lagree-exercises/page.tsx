@@ -496,13 +496,13 @@ export default function LagreeExercisesPage() {
               <p className="text-sm leading-relaxed mb-6" style={bodyStyle}>
                 To be clear, this is not Lagree. Real Lagree needs a carriage, platforms and springs. But sliders, bands and the same slow tempo get you surprisingly close to the feel. Set an interval timer for <span className="font-semibold" style={{ color: "#1b1c1c" }}>60 seconds of work and 10 seconds of transition</span>, run the eight moves below and repeat the circuit twice. That is about 19 minutes. Move at four counts out and four counts in throughout.
               </p>
-              <div className="overflow-hidden mb-6" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
+              <div className="mb-6 r-qp r-glance">
                 {HOME_CIRCUIT.map((s, i) => (
-                  <div key={s.move} className="flex gap-4 px-6 py-4" style={{ borderTop: i === 0 ? "none" : "1px solid rgba(217,194,186,0.25)", backgroundColor: "#ffffff" }}>
-                    <span className="text-base font-semibold w-7 shrink-0 text-center" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{String(i + 1).padStart(2, "0")}</span>
+                  <div key={s.move} className="r-qp-row r-qp-row-top">
+                    <span className="r-qp-no">{String(i + 1).padStart(2, "0")}</span>
                     <div>
-                      <p className="text-sm font-semibold" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{s.move}</p>
-                      <p className="text-xs mt-0.5 leading-relaxed" style={bodyStyle}>{s.note}</p>
+                      <p className="r-qp-name">{s.move}</p>
+                      <p className="r-qp-sub">{s.note}</p>
                     </div>
                   </div>
                 ))}
@@ -520,29 +520,29 @@ export default function LagreeExercisesPage() {
                 Everything the circuit above uses. The four essentials are sliders, bands, a mat and a timer; the bangles, knee pad and budget sliders are upgrades or alternatives.
               </p>
 
-              <div className="mb-10 overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
-                <div className="px-6 py-4" style={{ backgroundColor: "#f6f3f2" }}>
-                  <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={eyebrowStyle}>At a Glance: Home Lagree-Style Kit</p>
+              <div className="mb-10 r-qp r-glance">
+                <div className="r-qp-hd">
+                  <p className="r-qp-title">At a Glance: Home Lagree-Style Kit</p>
                 </div>
                 {FLOOR_KIT.map((p, i) => (
-                  <div key={p.id} className="flex items-center gap-3 sm:gap-4 px-6 py-4" style={{ borderTop: i === 0 ? "none" : "1px solid rgba(217,194,186,0.25)", backgroundColor: "#ffffff" }}>
-                    <span className="text-base font-semibold w-7 shrink-0 text-center" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{String(i + 1).padStart(2, "0")}</span>
-                    <div className="flex-1 min-w-0">
-                      <p className="text-xs uppercase tracking-[0.12em]" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>
-                        <a href={`#${p.id}`} style={{ color: "#86736d", textDecoration: "none" }}>{p.shortName}</a>
+                  <div key={p.id} className="r-qp-row">
+                    <span className="r-qp-no">{String(i + 1).padStart(2, "0")}</span>
+                    <div className="r-qp-tx">
+                      <p className="r-qp-tag">
+                        <a className="r-qp-a" href={`#${p.id}`}>{p.shortName}</a>
                       </p>
-                      <p className="text-sm font-semibold leading-tight mt-0.5" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{p.name}</p>
-                      <p className="text-xs mt-0.5 md:hidden" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.price}</p>
+                      <p className="r-qp-name">{p.name}</p>
+                      <p className="r-qp-sub md:hidden">{p.price}</p>
                     </div>
-                    <span className="text-xs font-semibold hidden md:block shrink-0 mr-3" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.price}</span>
+                    <span className="r-qp-price hidden md:block">{p.price}</span>
                     <a href={p.url} target="_blank" rel="noopener noreferrer sponsored nofollow" style={shopStyle}>Shop →</a>
                   </div>
                 ))}
-                <div className="px-6 py-4 flex justify-between gap-3 text-sm font-semibold" style={{ borderTop: "1px solid rgba(217,194,186,0.25)", backgroundColor: "#f6f3f2", color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>
+                <div className="r-qp-row r-qp-total">
                   <span>Essentials only (sliders, bands, mat, timer)</span>
                   <span>{fmt(ESSENTIAL_TOTAL)}</span>
                 </div>
-                <div className="px-6 py-4 flex justify-between gap-3 text-sm font-semibold" style={{ borderTop: "1px solid rgba(217,194,186,0.25)", backgroundColor: "#f6f3f2", color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>
+                <div className="r-qp-row r-qp-total">
                   <span>Everything on the list</span>
                   <span>{fmt(FLOOR_TOTAL)}</span>
                 </div>

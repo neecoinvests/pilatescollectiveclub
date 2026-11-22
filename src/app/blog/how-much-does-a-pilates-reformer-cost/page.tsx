@@ -500,14 +500,7 @@ export default function HowMuchDoesAPilatesReformerCostPage() {
               </p>
 
               {/* Accessories breakdown table */}
-              <div
-                style={{
-                  borderRadius: "16px",
-                  border: "1px solid rgba(217,194,186,0.4)",
-                  overflow: "hidden",
-                  marginBottom: "24px",
-                }}
-              >
+              <div className="r-glance mb-6">
                 <div
                   style={{
                     padding: "14px 24px",

@@ -669,25 +669,24 @@ export default function LagreeEssentialsPage() {
             </div>
 
             {/* At a glance table */}
-            <div className="mb-16 overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
-              <div className="px-6 py-4" style={{ backgroundColor: "#f6f3f2" }}>
-                <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={eyebrowStyle}>At a Glance: The Complete Lagree List</p>
+            <div className="mb-16 r-qp r-glance">
+              <div className="r-qp-hd">
+                <p className="r-qp-title">At a Glance: The Complete Lagree List</p>
               </div>
               {CATEGORIES.map((c, i) => {
                 const best = pickTier(c, "Best");
                 return (
-                  <div key={c.id} className="flex items-center gap-3 sm:gap-4 px-6 py-4" style={{ borderTop: i === 0 ? "none" : "1px solid rgba(217,194,186,0.25)", backgroundColor: "#ffffff" }}>
-                    <span className="text-base font-semibold w-7 shrink-0 text-center" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{String(i + 1).padStart(2, "0")}</span>
-                    <div className="flex-1 min-w-0">
-                      <p className="text-xs uppercase tracking-[0.12em]" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>
-                        <a href={`#${c.id}`} style={{ color: "#86736d", textDecoration: "none" }}>{c.shortName}</a>
+                  <div key={c.id} className="r-qp-row">
+                    <span className="r-qp-no">{String(i + 1).padStart(2, "0")}</span>
+                    <div className="r-qp-tx">
+                      <p className="r-qp-tag">
+                        <a className="r-qp-a" href={`#${c.id}`}>{c.shortName}</a>
                       </p>
-                      <p className="text-sm font-semibold leading-tight mt-0.5" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{best.name}</p>
-                      <p className="text-xs mt-0.5 md:hidden" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{best.price}{best.limited ? " · limited stock" : ""}</p>
+                      <p className="r-qp-name">{best.name}</p>
+                      <p className="r-qp-sub md:hidden">{best.price}{best.limited ? " · limited stock" : ""}</p>
                     </div>
-                    <span className="text-xs font-semibold hidden md:block shrink-0 mr-3" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{best.price}{best.limited ? " · limited stock" : ""}</span>
-                    <a href={best.url} target="_blank" rel="noopener noreferrer sponsored nofollow"
-                      style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
+                    <span className="r-qp-price hidden md:block">{best.price}{best.limited ? " · limited stock" : ""}</span>
+                    <a className="r-btn r-btn-sm shrink-0" href={best.url} target="_blank" rel="noopener noreferrer sponsored nofollow"
                     >Shop →</a>
                   </div>
                 );

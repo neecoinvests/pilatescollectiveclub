@@ -200,7 +200,7 @@ export default function BestPortablePilatesReformerPage() {
             <AffiliateNote>Some links on this page go to Amazon. We earn a small commission on qualifying purchases.</AffiliateNote>
 
 
-            <div className="mb-10 mt-4 rounded-xl p-6" style={{ backgroundColor: "#f6f3f2", border: "1px solid rgba(217,194,186,0.35)" }}>
+            <div className="mb-10 mt-4 p-6 r-glance">
               <p className="text-sm font-semibold mb-3" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Reformers at a glance</p>
               <div className="space-y-2">
                 {REFORMERS.map((r) => (

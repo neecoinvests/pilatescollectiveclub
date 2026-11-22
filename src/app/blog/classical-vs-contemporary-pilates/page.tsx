@@ -189,8 +189,8 @@ export default function ClassicalVsContemporaryPage() {
                 <p>If you&apos;re new to reformer training, trying a fusion format first is fine: the movement literacy you develop will serve you in any format. But understanding that the &quot;reformer class&quot; you&apos;re attending may bear little methodological relationship to the work Pilates actually requires is an important piece of context.</p>
               </Section>
 
-              <div className="my-12 rounded-2xl overflow-hidden" style={{ border: "1px solid rgba(217, 194, 186, 0.4)" }}>
-                <div className="px-6 py-4" style={{ backgroundColor: "#8b4a31" }}>
+              <div className="my-12 r-glance">
+                <div className="r-qp-hd">
                   <h3 className="text-base font-semibold text-white" style={{ fontFamily: "'Playfair Display', serif" }}>At a glance: Classical vs Contemporary</h3>
                 </div>
                 <div className="overflow-x-auto">

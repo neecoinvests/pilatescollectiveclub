@@ -220,8 +220,15 @@ try {
   await Promise.all([waitFor(B), waitFor(N)]);
 
   const [smBase, smBranch] = await Promise.all([fetch(`${B}/sitemap.xml`).then((r) => r.text()), fetch(`${N}/sitemap.xml`).then((r) => r.text())]);
-  // Entries stamped with the build time differ by a few minutes between two builds: compare lastmod by day.
-  const smNorm = (x) => x.replace(/(<lastmod>\d{4}-\d{2}-\d{2})T[^<]*/g, "$1");
+  // Some entries are stamped with the build time, which differs between two builds.
+  // Replace each side's build stamp (its most frequent lastmod) before comparing.
+  const smNorm = (x) => {
+    const stamps = [...x.matchAll(/<lastmod>([^<]+)<\/lastmod>/g)].map((m) => m[1]);
+    const freq = new Map();
+    for (const t of stamps) freq.set(t, (freq.get(t) ?? 0) + 1);
+    const build = [...freq].sort((a, b) => b[1] - a[1])[0]?.[0];
+    return build ? x.replaceAll(`<lastmod>${build}</lastmod>`, "<lastmod>BUILD</lastmod>") : x;
+  };
   if (smNorm(smBase) !== smNorm(smBranch)) fail("sitemap.xml differs between base and branch");
   for (const f of ["/robots.txt", "/manifest.webmanifest"]) {
     const [a, b] = await Promise.all([fetch(B + f).then((r) => r.text()), fetch(N + f).then((r) => r.text())]);

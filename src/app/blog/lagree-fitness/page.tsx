@@ -353,27 +353,26 @@ export default function LagreeFitnessPage() {
             </div>
 
             {/* At a glance table */}
-            <div className="mb-16 overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
-              <div className="px-6 py-4" style={{ backgroundColor: "#f6f3f2" }}>
-                <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={eyebrowStyle}>At a Glance: Lagree Fitness Equipment</p>
+            <div className="mb-16 r-qp r-glance">
+              <div className="r-qp-hd">
+                <p className="r-qp-title">At a Glance: Lagree Fitness Equipment</p>
               </div>
               {GLANCE.map((p, i) => (
-                <div key={p.id} className="flex items-center gap-3 sm:gap-4 px-6 py-4" style={{ borderTop: i === 0 ? "none" : "1px solid rgba(217,194,186,0.25)", backgroundColor: "#ffffff" }}>
-                  <span className="text-base font-semibold w-7 shrink-0 text-center" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{String(i + 1).padStart(2, "0")}</span>
-                  <div className="flex-1 min-w-0">
-                    <p className="text-xs uppercase tracking-[0.12em]" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>
-                      <a href={`#${p.id}`} style={{ color: "#86736d", textDecoration: "none" }}>{p.shortName}</a>
+                <div key={p.id} className="r-qp-row">
+                  <span className="r-qp-no">{String(i + 1).padStart(2, "0")}</span>
+                  <div className="r-qp-tx">
+                    <p className="r-qp-tag">
+                      <a className="r-qp-a" href={`#${p.id}`}>{p.shortName}</a>
                     </p>
-                    <p className="text-sm font-semibold leading-tight mt-0.5" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{p.name}</p>
-                    <p className="text-xs mt-0.5 md:hidden" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.price}</p>
+                    <p className="r-qp-name">{p.name}</p>
+                    <p className="r-qp-sub md:hidden">{p.price}</p>
                   </div>
-                  <span className="text-xs font-semibold hidden md:block shrink-0 mr-3" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.price}</span>
-                  <a href={p.url} target="_blank" rel="noopener noreferrer sponsored nofollow"
-                    style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
+                  <span className="r-qp-price hidden md:block">{p.price}</span>
+                  <a className="r-btn r-btn-sm shrink-0" href={p.url} target="_blank" rel="noopener noreferrer sponsored nofollow"
                   >Shop →</a>
                 </div>
               ))}
-              <div className="px-6 py-4 flex justify-between gap-3 text-sm font-semibold" style={{ borderTop: "1px solid rgba(217,194,186,0.25)", backgroundColor: "#f6f3f2", color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>
+              <div className="r-qp-row r-qp-total">
                 <span>Full Micro home setup (items 01–04)</span>
                 <span>{fmt(SETUP_TOTAL)}</span>
               </div>
@@ -580,22 +579,21 @@ export default function LagreeFitnessPage() {
                 Lagree is slower and sweatier than most Pilates reformer classes, so grip matters more, and loose shorts or zips are a liability on a moving carriage. These six picks cover the basics; the full best, budget and splurge list for every category is in our{" "}
                 <Link href="/blog/lagree-essentials" style={inlineLinkStyle}>Lagree essentials guide</Link>.
               </p>
-              <div className="overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
+              <div className="r-qp r-glance">
                 {GEAR.map((g, i) => (
-                  <div key={g.name} className="flex items-center gap-3 sm:gap-4 px-6 py-4" style={{ borderTop: i === 0 ? "none" : "1px solid rgba(217,194,186,0.25)", backgroundColor: "#ffffff" }}>
-                    <div className="flex-1 min-w-0">
-                      <p className="text-xs uppercase tracking-[0.12em]" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>
-                        <Link href={g.guideHref} style={{ color: "#86736d", textDecoration: "none" }}>{g.category}</Link>
+                  <div key={g.name} className="r-qp-row">
+                    <div className="r-qp-tx">
+                      <p className="r-qp-tag">
+                        <Link className="r-qp-a" href={g.guideHref}>{g.category}</Link>
                       </p>
-                      <p className="text-sm font-semibold leading-tight mt-0.5" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{g.name} · {g.price}</p>
-                      <p className="text-xs mt-0.5" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{g.note}</p>
+                      <p className="r-qp-name">{g.name} · {g.price}</p>
+                      <p className="r-qp-sub">{g.note}</p>
                     </div>
-                    <a href={g.url} target="_blank" rel="noopener noreferrer sponsored nofollow"
-                      style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
+                    <a className="r-btn r-btn-sm shrink-0" href={g.url} target="_blank" rel="noopener noreferrer sponsored nofollow"
                     >Shop →</a>
                   </div>
                 ))}
-                <div className="px-6 py-4 flex justify-between gap-3 text-sm font-semibold" style={{ borderTop: "1px solid rgba(217,194,186,0.25)", backgroundColor: "#f6f3f2", color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>
+                <div className="r-qp-row r-qp-total">
                   <span>All six</span>
                   <span>{fmt(GEAR_TOTAL)}</span>
                 </div>

@@ -170,19 +170,18 @@ export default function BestFoamRollerPage() {
         <section className="px-6 pb-20">
           <div className="max-w-3xl mx-auto">
 
-            <div className="mb-14 mt-4 overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
-              <div className="px-6 py-4" style={{ backgroundColor: "#f6f3f2" }}>
-                <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Quick Picks, At a Glance</p>
+            <div className="mb-14 mt-4 r-qp r-glance">
+              <div className="r-qp-hd">
+                <p className="r-qp-title">Quick Picks, At a Glance</p>
               </div>
               {PRODUCTS.map((p, i) => (
-                <div key={p.name} className="flex items-center gap-3 sm:gap-4 px-6 py-4" style={{ borderTop: i === 0 ? "none" : "1px solid rgba(217,194,186,0.25)", backgroundColor: "#ffffff" }}>
-                  <span className="text-base font-semibold w-7 shrink-0 text-center" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{p.rank}</span>
-                  <div className="flex-1 min-w-0">
-                    <p className="text-sm font-semibold leading-tight" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{p.name}</p>
-                    <p className="text-xs mt-0.5" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.verdict} · {p.price}</p>
+                <div key={p.name} className="r-qp-row">
+                  <span className="r-qp-no">{p.rank}</span>
+                  <div className="r-qp-tx">
+                    <p className="r-qp-name">{p.name}</p>
+                    <p className="r-qp-sub">{p.verdict} · {p.price}</p>
                   </div>
-                  <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer sponsored"
-                    style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
+                  <a className="r-btn r-btn-sm shrink-0" href={p.affiliateUrl} target="_blank" rel="noopener noreferrer sponsored"
                   >Buy →</a>
                 </div>
               ))}

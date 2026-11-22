@@ -370,11 +370,10 @@ export default function HomePilatesStudioSetupPage() {
                 Below are the precise space requirements for each configuration. These are minimums: the numbers where the setup is functional, not where it is comfortable. Add buffer where possible.
               </p>
 
-              <div className="overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
-                <div className="px-6 py-4" style={{ backgroundColor: "#f6f3f2" }}>
+              <div className="r-qp r-glance">
+                <div className="r-qp-hd">
                   <p
-                    className="text-xs font-semibold uppercase tracking-[0.2em]"
-                    style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}
+                    className="r-qp-title"
                   >
                     Space requirements by configuration
                   </p>

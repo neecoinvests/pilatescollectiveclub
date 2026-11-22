@@ -398,7 +398,7 @@ export default function LagreeMicroReviewPage() {
 
             <div className="mb-16">
               <h2 className="text-3xl font-semibold mb-6" style={h2Style}>The spec sheet</h2>
-              <div className="overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
+              <div className="r-qp r-glance">
                 {SPECS.map((s, i) => (
                   <div key={s.label} className="flex flex-col sm:flex-row gap-1 sm:gap-6 px-6 py-4" style={rowStyle(i)}>
                     <p className="text-sm font-semibold sm:w-44 shrink-0" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{s.label}</p>

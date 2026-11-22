@@ -384,30 +384,29 @@ export default function BestReformerBrandsPage() {
             <div className="pt-4">{PARTNER_ENTRY}</div>
 
             {/* Quick picks */}
-            <div className="overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
-              <div className="px-6 py-4" style={{ backgroundColor: "#f6f3f2" }}>
-                <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>Quick Picks: At a Glance</p>
+            <div className="r-qp r-glance">
+              <div className="r-qp-hd">
+                <p className="r-qp-title">Quick Picks: At a Glance</p>
               </div>
-              <div className="flex items-center gap-3 sm:gap-4 px-6 py-4" style={{ backgroundColor: "#f6f8f5" }}>
-                <span className="text-base font-semibold w-7 shrink-0 text-center" style={{ color: "#536257", fontFamily: "'Playfair Display', serif" }}>✦</span>
-                <div className="flex-1 min-w-0">
-                  <p className="text-sm font-semibold leading-tight" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>The Core Collab Reformers <span className="text-[10px] font-semibold uppercase tracking-widest ml-1" style={{ color: "#536257" }}>Partner</span></p>
-                  <p className="text-xs mt-0.5" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>From $2,399 · Folding and studio reformers for home and studio use</p>
+              <div className="r-qp-row">
+                <span className="r-qp-no">✦</span>
+                <div className="r-qp-tx">
+                  <p className="r-qp-name">The Core Collab Reformers <span className="text-[10px] font-semibold uppercase tracking-widest ml-1" style={{ color: "#536257" }}>Partner</span></p>
+                  <p className="r-qp-sub">From $2,399 · Folding and studio reformers for home and studio use</p>
                 </div>
                 <a href="https://thecorecollabusa.com/?utm_source=pilatescollectiveclub&utm_medium=referral&utm_campaign=best-reformer-brands" target="_blank" rel="noopener noreferrer sponsored"
                   style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#536257", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
                 >Shop Now →</a>
               </div>
               {AMAZON_PICKS.map((item, i) => (
-                <div key={item.url} className="flex items-center gap-3 sm:gap-4 px-6 py-4" style={{ borderTop: "1px solid rgba(217,194,186,0.25)", backgroundColor: "#ffffff" }}>
-                  <span className="text-base font-semibold w-7 shrink-0 text-center" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{i + 1}</span>
-                  <div className="flex-1 min-w-0">
-                    <p className="text-[10px] font-semibold uppercase tracking-widest" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{item.tag}</p>
-                    <p className="text-sm font-semibold leading-tight" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{item.name}</p>
-                    <p className="text-xs mt-0.5" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{item.price}{item.note ? ` · ${item.note}` : ""}</p>
+                <div key={item.url} className="r-qp-row">
+                  <span className="r-qp-no">{i + 1}</span>
+                  <div className="r-qp-tx">
+                    <p className="r-qp-tag">{item.tag}</p>
+                    <p className="r-qp-name">{item.name}</p>
+                    <p className="r-qp-sub">{item.price}{item.note ? ` · ${item.note}` : ""}</p>
                   </div>
-                  <a href={item.url} target="_blank" rel="noopener noreferrer sponsored"
-                    style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
+                  <a className="r-btn r-btn-sm shrink-0" href={item.url} target="_blank" rel="noopener noreferrer sponsored"
                   >Shop Now →</a>
                 </div>
               ))}

@@ -201,7 +201,7 @@ export default function Page() {
         <div className="max-w-3xl mx-auto">
 
           {/* Quick picks table */}
-          <div style={{ marginBottom: "56px", border: "1px solid #ede9e3", overflow: "hidden" }}>
+          <div className="r-glance mb-14">
             <div style={{ padding: "16px 24px", backgroundColor: "#faf8f5", borderBottom: "1px solid #ede9e3" }}>
               <p style={{ fontFamily: "var(--font-sans)", fontSize: "10px", fontWeight: 700, letterSpacing: "0.2em", textTransform: "uppercase", color: "#8b4a31", margin: 0 }}>Quick Picks, At a Glance</p>
             </div>
@@ -213,7 +213,7 @@ export default function Page() {
                   <p style={{ fontFamily: "var(--font-sans)", fontSize: "11px", color: "#8b4a31", margin: "2px 0 0" }}>{p.verdict}</p>
                 </div>
                 <span style={{ fontFamily: "var(--font-sans)", fontSize: "12px", color: "#9a9490", whiteSpace: "nowrap" }}>{p.price}</span>
-                <a href={p.affiliateUrl} target="_blank" rel={/amazon\./i.test(p.affiliateUrl) ? "noopener noreferrer nofollow sponsored" : "noopener noreferrer nofollow"} style={{ fontFamily: "var(--font-sans)", fontSize: "9px", fontWeight: 700, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", backgroundColor: "#0a0a0a", padding: "8px 14px", textDecoration: "none", whiteSpace: "nowrap", flexShrink: 0 }}>Buy →</a>
+                <a className="r-btn r-btn-sm shrink-0" href={p.affiliateUrl} target="_blank" rel={/amazon\./i.test(p.affiliateUrl) ? "noopener noreferrer nofollow sponsored" : "noopener noreferrer nofollow"}>Buy →</a>
               </div>
             ))}
           </div>

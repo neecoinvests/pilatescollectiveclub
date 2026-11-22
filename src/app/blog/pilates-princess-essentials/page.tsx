@@ -647,19 +647,18 @@ export default function PilatesPrincessEssentialsPage() {
             <AffiliateNote>Most links on this page go to Amazon, and we earn a small commission on qualifying purchases. Two picks (Alo Yoga and Lululemon) link directly to the brand&apos;s own website and are clearly marked. Prices were verified on 27 September 2026 and can change.</AffiliateNote>
 
             {/* At a glance */}
-            <div className="mb-10 mt-4 overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
-              <div className="px-6 py-4" style={{ backgroundColor: "#f6f3f2" }}>
-                <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={eyebrowStyle}>At a Glance: the complete edit</p>
+            <div className="mb-10 mt-4 r-qp r-glance">
+              <div className="r-qp-hd">
+                <p className="r-qp-title">At a Glance: the complete edit</p>
               </div>
               {GLANCE.map((p, i) => (
-                <div key={p.name} className="flex items-center gap-3 sm:gap-4 px-6 py-4" style={{ borderTop: i === 0 ? "none" : "1px solid rgba(217,194,186,0.25)", backgroundColor: "#ffffff" }}>
-                  <div className="flex-1 min-w-0">
-                    <p className="text-xs font-semibold uppercase tracking-[0.12em] mb-0.5" style={mutedStyle}>{p.glance}</p>
-                    <p className="text-sm font-semibold leading-tight" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{p.name}</p>
+                <div key={p.name} className="r-qp-row">
+                  <div className="r-qp-tx">
+                    <p className="r-qp-tag">{p.glance}</p>
+                    <p className="r-qp-name">{p.name}</p>
                   </div>
-                  <span className="text-xs font-semibold hidden md:block shrink-0 mr-3" style={mutedStyle}>{p.price}</span>
-                  <a href={p.url} target="_blank" rel={/amazon\./i.test(p.url) ? "noopener noreferrer nofollow sponsored" : "noopener noreferrer nofollow"}
-                    style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
+                  <span className="r-qp-price hidden md:block">{p.price}</span>
+                  <a className="r-btn r-btn-sm shrink-0" href={p.url} target="_blank" rel={/amazon\./i.test(p.url) ? "noopener noreferrer nofollow sponsored" : "noopener noreferrer nofollow"}
                   >Shop →</a>
                 </div>
               ))}

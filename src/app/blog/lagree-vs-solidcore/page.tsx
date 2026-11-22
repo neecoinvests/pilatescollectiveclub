@@ -344,17 +344,17 @@ export default function LagreeVsSolidcorePage() {
             {/* Side by side */}
             <div className="mb-16">
               <h2 className="text-3xl font-semibold mb-6" style={h2Style}>Lagree vs Solidcore, side by side</h2>
-              <div className="overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
+              <div className="r-qp r-glance">
                 <div className="hidden sm:grid grid-cols-3 gap-4 px-6 py-4" style={{ backgroundColor: "#f6f3f2" }}>
-                  <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={eyebrowStyle}>&nbsp;</span>
-                  <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={eyebrowStyle}>Lagree</span>
-                  <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={eyebrowStyle}>Solidcore</span>
+                  <span className="r-qp-title">&nbsp;</span>
+                  <span className="r-qp-title">Lagree</span>
+                  <span className="r-qp-title">Solidcore</span>
                 </div>
                 {COMPARE.map((row, i) => (
                   <div key={row.label} className="grid grid-cols-1 sm:grid-cols-3 gap-1 sm:gap-4 px-6 py-4" style={{ borderTop: i === 0 ? "none" : "1px solid rgba(217,194,186,0.25)", backgroundColor: "#ffffff" }}>
-                    <p className="text-sm font-semibold" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{row.label}</p>
-                    <p className="text-sm" style={bodyStyle}><span className="sm:hidden font-semibold">Lagree: </span>{row.lagree}</p>
-                    <p className="text-sm" style={bodyStyle}><span className="sm:hidden font-semibold">Solidcore: </span>{row.solidcore}</p>
+                    <p className="r-qp-name">{row.label}</p>
+                    <p className="text-sm" style={bodyStyle}><span className="r-qp-b sm:hidden">Lagree: </span>{row.lagree}</p>
+                    <p className="text-sm" style={bodyStyle}><span className="r-qp-b sm:hidden">Solidcore: </span>{row.solidcore}</p>
                   </div>
                 ))}
               </div>
@@ -438,25 +438,25 @@ export default function LagreeVsSolidcorePage() {
                 The good news: you do not need separate kit. Both workouts are slow, sweaty and done on a moving carriage, so they reward the same things: grip underfoot, clothes that stay put, and something to deal with sweat. Most studios of both brands require or strongly recommend grip socks, so check your studio&apos;s policy before class. None of these products are made by Lagree or Solidcore; they are simply what works.
               </p>
 
-              <div className="mb-10 overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
-                <div className="px-6 py-4" style={{ backgroundColor: "#f6f3f2" }}>
-                  <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={eyebrowStyle}>At a Glance: The Two-Studio Kit</p>
+              <div className="mb-10 r-qp r-glance">
+                <div className="r-qp-hd">
+                  <p className="r-qp-title">At a Glance: The Two-Studio Kit</p>
                 </div>
                 {PICKS.map((p, i) => (
-                  <div key={p.id} className="flex items-center gap-3 sm:gap-4 px-6 py-4" style={{ borderTop: i === 0 ? "none" : "1px solid rgba(217,194,186,0.25)", backgroundColor: "#ffffff" }}>
-                    <span className="text-base font-semibold w-7 shrink-0 text-center" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{String(i + 1).padStart(2, "0")}</span>
-                    <div className="flex-1 min-w-0">
-                      <p className="text-xs uppercase tracking-[0.12em]" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>
-                        <a href={`#${p.id}`} style={{ color: "#86736d", textDecoration: "none" }}>{p.shortName}</a>
+                  <div key={p.id} className="r-qp-row">
+                    <span className="r-qp-no">{String(i + 1).padStart(2, "0")}</span>
+                    <div className="r-qp-tx">
+                      <p className="r-qp-tag">
+                        <a className="r-qp-a" href={`#${p.id}`}>{p.shortName}</a>
                       </p>
-                      <p className="text-sm font-semibold leading-tight mt-0.5" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{p.name}</p>
-                      <p className="text-xs mt-0.5 md:hidden" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.price}</p>
+                      <p className="r-qp-name">{p.name}</p>
+                      <p className="r-qp-sub md:hidden">{p.price}</p>
                     </div>
-                    <span className="text-xs font-semibold hidden md:block shrink-0 mr-3" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.price}</span>
+                    <span className="r-qp-price hidden md:block">{p.price}</span>
                     <a href={p.url} target="_blank" rel="noopener noreferrer sponsored nofollow" style={shopStyle}>Shop →</a>
                   </div>
                 ))}
-                <div className="px-6 py-4 flex justify-between gap-3 text-sm font-semibold" style={{ borderTop: "1px solid rgba(217,194,186,0.25)", backgroundColor: "#f6f3f2", color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>
+                <div className="r-qp-row r-qp-total">
                   <span>The full kit (all six)</span>
                   <span>{fmt(KIT_TOTAL)}</span>
                 </div>

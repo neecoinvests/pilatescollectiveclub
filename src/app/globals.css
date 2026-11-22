@@ -448,6 +448,12 @@
   .r-qp-price { font-size: 15px; font-weight: 800; flex-shrink: 0; margin-right: 6px; }
   @media (max-width: 520px) { .r-qp-row { flex-wrap: wrap; } .r-qp-tx { flex: 1 1 calc(100% - 42px); } .r-qp-row .r-btn { margin-left: 42px; } }
 
+  .r-qp-row-top { align-items: flex-start; }
+  .r-qp-total { justify-content: space-between; font-size: 15.5px; font-weight: 800; }
+  .r-qp-b { color: var(--black); font-weight: 700; }
+  .r-qp-a { color: inherit; text-decoration: underline; text-decoration-color: var(--mid); text-underline-offset: 3px; }
+  @media (hover: hover) { .r-qp-a:hover { text-decoration-color: var(--black); } }
+
   /* Price rail */
   .r-pr { position: sticky; top: calc(var(--rail-h) + var(--hdr-h) + var(--deal-banner-h, 0px) + env(safe-area-inset-top, 0px)); z-index: 40; background: rgba(247, 244, 240, .93); -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); border-block: 1px solid var(--line); overflow: clip; }
   .r-pr-in { display: grid; grid-template-columns: minmax(0, 230px) minmax(0, 1fr); gap: 26px; align-items: center; padding-block: 10px; }
@@ -513,6 +519,34 @@
   .r-cta-in { background: var(--cream); border-radius: 18px; padding: clamp(28px, 5vw, 64px); display: flex; flex-direction: column; align-items: flex-start; gap: 14px; }
   .r-cta h2 { font-size: clamp(34px, 5vw, 72px); margin: 0; max-width: 12em; }
   .r-cta p { color: var(--dark); margin: 0 0 8px; font-size: clamp(17px, 1.5vw, 21px); }
+}
+
+/* "At a glance" boxes and tables written by hand in article files. The box
+   itself uses .r-glance; anything inside that still carries old inline
+   styles is pulled into the palette here until the page is fully converted. */
+.r-glance { border-radius: 18px; overflow: hidden; background: var(--cream); border: 0; }
+.r-glance * { font-family: inherit !important; }
+.r-glance [style], .r-glance tr, .r-glance th, .r-glance td { background-color: transparent !important; border-color: var(--line) !important; }
+.r-glance p, .r-glance span, .r-glance div, .r-glance td, .r-glance li { color: var(--dark) !important; letter-spacing: 0 !important; text-transform: none !important; }
+.r-glance h2, .r-glance h3, .r-glance h4, .r-glance th, .r-glance strong, .r-glance b,
+.r-glance .font-semibold, .r-glance .font-bold, .r-glance .r-qp-name, .r-glance .r-qp-title, .r-glance .r-qp-b, .r-glance .r-qp-price,
+.r-glance [style*="font-weight:6"], .r-glance [style*="font-weight:7"] { color: var(--black) !important; font-weight: 700 !important; letter-spacing: 0 !important; text-transform: none !important; }
+.r-glance .text-xs, .r-glance [style*="font-size:9px"], .r-glance [style*="font-size:10px"], .r-glance [style*="font-size:11px"], .r-glance [style*="font-size:12px"] { font-size: 13.5px !important; }
+.r-glance .text-sm, .r-glance [style*="font-size:13px"] { font-size: 15.5px !important; }
+.r-glance th { font-size: 13.5px !important; }
+.r-glance .r-qp-no { color: var(--mid) !important; font-weight: 800 !important; }
+.r-glance .r-qp-title { font-size: 19px !important; font-weight: 800 !important; font-stretch: 85%; }
+.r-glance .r-qp-tag { font-size: 12.5px !important; font-weight: 700 !important; }
+.r-glance a { color: var(--black) !important; }
+.r-glance a.r-btn, .r-glance a[style*="background-color"] {
+  display: inline-flex !important; align-items: center; justify-content: center; flex-shrink: 0;
+  min-height: 44px; padding: 0 18px !important; border-radius: 99px;
+  background-color: var(--black) !important; color: var(--off-white) !important;
+  font-size: 13.5px !important; font-weight: 700 !important; letter-spacing: 0 !important; text-transform: none !important; white-space: nowrap;
+  transition: background-color .25s, color .25s;
+}
+@media (hover: hover) {
+  .r-glance a.r-btn:hover, .r-glance a[style*="background-color"]:hover { background-color: var(--gold) !important; color: var(--black) !important; }
 }
 
 /* ─── Rules still used by pages that have not been converted yet ───────────── */

@@ -527,18 +527,18 @@ export default function ReformerPilatesEssentialsPage() {
             <AffiliateNote>Most links on this page go to Amazon, and we earn a small commission on qualifying purchases. Two picks (Alo Yoga and Lululemon) are not sold on Amazon and link directly to the brand&apos;s own website; those are marked in the product description. Prices were verified on 27 September 2026 and can change.</AffiliateNote>
 
             {/* At a glance */}
-            <div className="mb-16 mt-4 overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
-              <div className="px-6 py-4" style={{ backgroundColor: "#f6f3f2" }}>
-                <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: sans }}>At a Glance: the complete reformer kit</p>
+            <div className="mb-16 mt-4 r-qp r-glance">
+              <div className="r-qp-hd">
+                <p className="r-qp-title">At a Glance: the complete reformer kit</p>
               </div>
               {glanceRows.map((row, i) => (
-                <div key={row.label} className="flex items-center gap-3 sm:gap-4 px-6 py-4" style={{ borderTop: i === 0 ? "none" : "1px solid rgba(217,194,186,0.25)", backgroundColor: "#ffffff" }}>
-                  <div className="flex-1 min-w-0">
+                <div key={row.label} className="r-qp-row">
+                  <div className="r-qp-tx">
                     <p className="text-xs uppercase tracking-[0.15em] mb-1" style={{ color: "#8b4a31", fontFamily: sans }}>{row.label}</p>
-                    <p className="text-sm font-semibold leading-tight" style={{ color: "#1b1c1c", fontFamily: sans }}>{row.item.name}</p>
-                    <p className="text-xs mt-0.5" style={{ color: "#86736d", fontFamily: sans }}>{row.stage} · {row.item.tier} pick</p>
+                    <p className="r-qp-name">{row.item.name}</p>
+                    <p className="r-qp-sub">{row.stage} · {row.item.tier} pick</p>
                   </div>
-                  <span className="text-xs font-semibold hidden md:block shrink-0 mr-3" style={{ color: "#86736d", fontFamily: sans }}>{row.item.price}</span>
+                  <span className="r-qp-price hidden md:block">{row.item.price}</span>
                   <a href={row.item.url} target="_blank" rel={/amazon\./i.test(row.item.url) ? "noopener noreferrer nofollow sponsored" : "noopener noreferrer nofollow"} style={buttonStyle}>Shop →</a>
                 </div>
               ))}
@@ -655,9 +655,9 @@ export default function ReformerPilatesEssentialsPage() {
               </p>
 
               {/* Break-even table */}
-              <div className="mb-12 overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
-                <div className="px-6 py-4" style={{ backgroundColor: "#f6f3f2" }}>
-                  <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: sans }}>Cost vs classes: roughly how many studio classes each one equals</p>
+              <div className="mb-12 r-qp r-glance">
+                <div className="r-qp-hd">
+                  <p className="r-qp-title">Cost vs classes: roughly how many studio classes each one equals</p>
                 </div>
                 <div className="grid grid-cols-4 gap-3 px-6 py-3 text-xs font-semibold uppercase tracking-[0.1em]" style={{ backgroundColor: "#ffffff", color: "#86736d", fontFamily: sans }}>
                   <span className="col-span-2">Reformer</span>
@@ -667,7 +667,7 @@ export default function ReformerPilatesEssentialsPage() {
                 {[...REFORMERS, ARC].map((r) => (
                   <div key={r.name} className="grid grid-cols-4 gap-3 px-6 py-4 text-sm" style={{ borderTop: "1px solid rgba(217,194,186,0.25)", backgroundColor: "#ffffff", fontFamily: sans }}>
                     <span className="col-span-2" style={{ color: "#1b1c1c" }}>
-                      <span className="font-semibold">{r.name}</span>
+                      <span className="r-qp-b">{r.name}</span>
                       <span className="block text-xs" style={{ color: "#86736d" }}>{r.price}</span>
                     </span>
                     <span style={{ color: "#53433e" }}>≈ {classesAt(r.price, 30)} classes</span>

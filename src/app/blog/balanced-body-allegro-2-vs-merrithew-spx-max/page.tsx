@@ -166,18 +166,17 @@ export default function Allegro2VsSpxMaxPage() {
               </p>
             </div>
 
-            <div className="mb-14 overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
-              <div className="px-6 py-4" style={{ backgroundColor: "#f6f3f2" }}>
-                <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>At a glance &middot; verified September 2026</p>
+            <div className="mb-14 r-qp r-glance">
+              <div className="r-qp-hd">
+                <p className="r-qp-title">At a glance &middot; verified September 2026</p>
               </div>
               {REFORMERS.map((p, i) => (
-                <div key={p.name} className="flex items-center gap-3 sm:gap-4 px-6 py-4" style={{ borderTop: i === 0 ? "none" : "1px solid rgba(217,194,186,0.25)", backgroundColor: "#ffffff" }}>
-                  <div className="flex-1 min-w-0">
-                    <p className="text-sm font-semibold leading-tight" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{p.name}</p>
-                    <p className="text-xs mt-0.5" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{p.price}</p>
+                <div key={p.name} className="r-qp-row">
+                  <div className="r-qp-tx">
+                    <p className="r-qp-name">{p.name}</p>
+                    <p className="r-qp-sub">{p.price}</p>
                   </div>
-                  <a href={p.affiliateUrl} target="_blank" rel={/amazon\./i.test(p.affiliateUrl) ? "noopener noreferrer nofollow sponsored" : "noopener noreferrer nofollow"}
-                    style={{ display: "block", fontFamily: "'Montserrat', sans-serif", fontSize: "9px", fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#ffffff", textDecoration: "none", backgroundColor: "#0a0a0a", padding: "10px 14px", whiteSpace: "nowrap", flexShrink: 0 }}
+                  <a className="r-btn r-btn-sm shrink-0" href={p.affiliateUrl} target="_blank" rel={/amazon\./i.test(p.affiliateUrl) ? "noopener noreferrer nofollow sponsored" : "noopener noreferrer nofollow"}
                   >Buy &rarr;</a>
                 </div>
               ))}

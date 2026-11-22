@@ -525,9 +525,9 @@ export default function LagreeForBeginnersPage() {
             </div>
 
             {/* At a glance */}
-            <div className="mb-16 overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
-              <div className="px-6 py-4" style={{ backgroundColor: "#f6f3f2" }}>
-                <p className="text-xs font-semibold uppercase tracking-[0.2em]" style={eyebrowStyle}>At a Glance: Your First Lagree Class</p>
+            <div className="mb-16 r-qp r-glance">
+              <div className="r-qp-hd">
+                <p className="r-qp-title">At a Glance: Your First Lagree Class</p>
               </div>
               {[
                 { label: "What it is", value: "A slow, high-intensity, low-impact workout on a spring-loaded machine called the Megaformer" },
@@ -536,11 +536,11 @@ export default function LagreeForBeginnersPage() {
                 { label: "How often to start", value: "Two or three classes a week, with rest days between" },
                 { label: "What to bring", value: `Grip socks, fitted shorts or leggings, towel, water, starter kit from ${fmt(STUDIO_BUDGET_TOTAL)}` },
               ].map((row, i) => (
-                <div key={row.label} className="flex items-start gap-3 sm:gap-4 px-6 py-4" style={{ borderTop: i === 0 ? "none" : "1px solid rgba(217,194,186,0.25)", backgroundColor: "#ffffff" }}>
-                  <span className="text-base font-semibold w-7 shrink-0 text-center" style={{ color: "#d9c2ba", fontFamily: "'Playfair Display', serif" }}>{String(i + 1).padStart(2, "0")}</span>
-                  <div className="flex-1 min-w-0">
-                    <p className="text-xs uppercase tracking-[0.12em]" style={{ color: "#86736d", fontFamily: "'Montserrat', sans-serif" }}>{row.label}</p>
-                    <p className="text-sm font-semibold leading-tight mt-0.5" style={{ color: "#1b1c1c", fontFamily: "'Montserrat', sans-serif" }}>{row.value}</p>
+                <div key={row.label} className="r-qp-row r-qp-row-top">
+                  <span className="r-qp-no">{String(i + 1).padStart(2, "0")}</span>
+                  <div className="r-qp-tx">
+                    <p className="r-qp-tag">{row.label}</p>
+                    <p className="r-qp-name">{row.value}</p>
                   </div>
                 </div>
               ))}

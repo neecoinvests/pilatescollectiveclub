@@ -324,7 +324,7 @@ export default function PilatesApparatusGuidePage() {
                 )}
 
                 {/* Apparatus info card */}
-                <div style={{ backgroundColor: "#ffffff", border: "1px solid rgba(217,194,186,0.35)", borderRadius: "14px", overflow: "hidden" }}>
+                <div className="r-glance">
                   <div style={{ backgroundColor: "#f6f3f2", padding: "14px 22px" }}>
                     <p style={{ fontSize: "10px", fontWeight: 600, textTransform: "uppercase", letterSpacing: "0.2em", color: "#8b4a31", fontFamily: "'Montserrat', sans-serif", margin: 0 }}>
                       At a glance

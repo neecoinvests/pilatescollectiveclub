@@ -335,7 +335,7 @@ export default function BestPremiumReformerPage() {
             {/* Comparison table */}
             <div className="mb-16">
               <h2 className="text-3xl font-semibold mb-8" style={{ color: "#1b1c1c", fontFamily: "'Playfair Display', serif" }}>Side-by-side comparison</h2>
-              <div className="overflow-x-auto rounded-xl" style={{ border: "1px solid rgba(217,194,186,0.4)" }}>
+              <div className="overflow-x-auto r-glance">
                 <table className="w-full text-sm">
                   <thead>
                     <tr style={{ backgroundColor: "#f6f3f2", borderBottom: "1px solid rgba(217,194,186,0.4)" }}>

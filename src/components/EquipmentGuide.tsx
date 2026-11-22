@@ -297,7 +297,7 @@ export default function EquipmentGuide(rawProps: EquipmentGuideProps) {
                       <Eyebrow text={b.eyebrow} />
                       <h2 className="text-3xl font-semibold mb-4" style={h2Style}>{b.heading}</h2>
                       {b.intro && <p className="text-sm leading-relaxed mb-6" style={bodyStyle}>{b.intro}</p>}
-                      <div className="overflow-x-auto rounded-2xl" style={{ border: "1px solid rgba(217,194,186,0.4)" }}>
+                      <div className="overflow-x-auto r-glance">
                         <table className="w-full text-sm" style={{ fontFamily: sans, minWidth: "560px" }}>
                           <thead>
                             <tr style={{ backgroundColor: "#f6f3f2" }}>

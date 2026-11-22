@@ -390,17 +390,17 @@ export default function LagreeMicroVsMegaformerPage() {
 
             <div className="mb-16">
               <h2 className="text-3xl font-semibold mb-6" style={h2Style}>Side by side</h2>
-              <div className="overflow-hidden" style={{ border: "1px solid rgba(217,194,186,0.4)", borderRadius: "16px" }}>
+              <div className="r-qp r-glance">
                 <div className="hidden sm:grid grid-cols-[9rem_1fr_1fr] gap-4 px-6 py-3" style={{ backgroundColor: "#f6f3f2" }}>
                   <span />
-                  <p className="text-xs font-semibold uppercase tracking-widest" style={eyebrowStyle}>The Micro</p>
-                  <p className="text-xs font-semibold uppercase tracking-widest" style={eyebrowStyle}>Megaformer</p>
+                  <p className="r-qp-title">The Micro</p>
+                  <p className="r-qp-title">Megaformer</p>
                 </div>
                 {COMPARISON.map((r, i) => (
                   <div key={r.label} className="grid grid-cols-1 sm:grid-cols-[9rem_1fr_1fr] gap-1 sm:gap-4 px-6 py-4" style={rowStyle(i)}>
-                    <p className="text-sm font-semibold" style={{ color: "#8b4a31", fontFamily: "'Montserrat', sans-serif" }}>{r.label}</p>
-                    <p className="text-sm leading-relaxed" style={bodyStyle}><span className="sm:hidden font-semibold" style={strongStyle}>Micro: </span>{r.micro}</p>
-                    <p className="text-sm leading-relaxed" style={bodyStyle}><span className="sm:hidden font-semibold" style={strongStyle}>Megaformer: </span>{r.mega}</p>
+                    <p className="r-qp-name">{r.label}</p>
+                    <p className="text-sm leading-relaxed" style={bodyStyle}><span className="r-qp-b sm:hidden">Micro: </span>{r.micro}</p>
+                    <p className="text-sm leading-relaxed" style={bodyStyle}><span className="r-qp-b sm:hidden">Megaformer: </span>{r.mega}</p>
                   </div>
                 ))}
               </div>
