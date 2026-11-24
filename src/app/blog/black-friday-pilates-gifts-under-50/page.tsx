@@ -6,11 +6,11 @@ const HERO_IMAGE = "https://pilatescollectiveclub.com/pictures/stitch-props-cork
 
 export const metadata: Metadata = {
   title: "Pilates Gifts Under $50: Black Friday 2026",
-  description: "Seven Pilates gifts under $50 on an Amazon Black Friday Deal: a Pilates ring, bands, grip socks, a foam roller, a gym tote and a jacket, up to 44% off.",
+  description: "Six Pilates gifts under $50 on an Amazon Black Friday Deal: a Pilates ring, bands, grip socks, a foam roller, and a gym tote, up to 44% off.",
   keywords: ["pilates gifts under 50", "black friday pilates gifts", "pilates gift ideas", "gifts for pilates lovers", "pilates stocking stuffers", "pilates christmas gifts", "cheap pilates gifts", "pilates gift guide 2026"],
   openGraph: {
     title: "Pilates Gifts Under $50: Black Friday 2026 Picks",
-    description: "Seven Pilates gifts under $50 on an Amazon Black Friday Deal: a Pilates ring, bands, grip socks, a foam roller, a gym tote and a jacket, up to 44% off.",
+    description: "Six Pilates gifts under $50 on an Amazon Black Friday Deal: a Pilates ring, bands, grip socks, a foam roller, and a gym tote, up to 44% off.",
     type: "article",
     url: PAGE_URL,
     images: [{ url: HERO_IMAGE, width: 1200, height: 630, alt: "Pilates props including a ring: Pilates gifts under $50" }],
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Pilates Gifts Under $50: Black Friday 2026",
-    description: "Seven Pilates gifts under $50 on an Amazon Black Friday Deal: a Pilates ring, bands, grip socks, a foam roller, a gym tote and a jacket, up to 44% off.",
+    description: "Six Pilates gifts under $50 on an Amazon Black Friday Deal: a Pilates ring, bands, grip socks, a foam roller, and a gym tote, up to 44% off.",
     images: [HERO_IMAGE],
   },
   alternates: { canonical: PAGE_URL },
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
 const GUIDE: DealsGuideProps = {
   "slug": "black-friday-pilates-gifts-under-50",
   "title": "Pilates Gifts Under $50: Black Friday 2026 Picks",
-  "description": "Seven Pilates gifts under $50 on an Amazon Black Friday Deal: a Pilates ring, bands, grip socks, a foam roller, a gym tote and a jacket, up to 44% off.",
+  "description": "Six Pilates gifts under $50 on an Amazon Black Friday Deal: a Pilates ring, bands, grip socks, a foam roller, and a gym tote, up to 44% off.",
   "breadcrumb": "Pilates Gifts Under $50",
   "eyebrow": "Gifts",
   "h1": "Pilates Gifts Under $50",
@@ -37,7 +37,7 @@ const GUIDE: DealsGuideProps = {
   "readTime": "6 min read",
   "heroImage": "/pictures/stitch-props-cork-ring.png",
   "heroAlt": "Pilates props including a ring: Pilates gifts under $50",
-  "intro": "Black Friday is the best moment to cross Pilates gifts off the list: small props and accessories are exactly what goes on sale. Here are seven useful gifts under $50 on an Amazon Black Friday Deal (prices checked November 19, 2026), grouped by budget. Buy early enough for delivery, and check each listing's holiday returns window.",
+  "intro": "Black Friday is the best moment to cross Pilates gifts off the list: small props and accessories are exactly what goes on sale. Here are six useful gifts under $50 on an Amazon Black Friday Deal (prices checked November 24, 2026), grouped by budget. Buy early enough for delivery, and check each listing's holiday returns window.",
   "sections": [
     {
       "id": "under-20",
@@ -119,24 +119,6 @@ const GUIDE: DealsGuideProps = {
           "amazonDeal": true
         }
       ]
-    },
-    {
-      "id": "35-50",
-      "title": "$35 to $50",
-      "intro": "The splurge, still under $50.",
-      "items": [
-        {
-          "asin": "B0BJ2G3JNW",
-          "name": "CRZ YOGA Butterluxe Jacket (Waist Length)",
-          "badge": "Studio layer",
-          "note": "A slim, waist-length zip jacket in CRZ YOGA's Butterluxe fabric, for the walk to and from class or a cold studio warm-up. It has thumbholes to keep the sleeves down, side zip pockets and inner hidden pockets. Sold by CRZ YOGA.",
-          "price": "$40.80",
-          "wasPrice": "$48.00",
-          "wasLabel": "List",
-          "pctOff": 15,
-          "amazonDeal": true
-        }
-      ]
     }
   ],
   "watchFor": [
@@ -164,7 +146,7 @@ const GUIDE: DealsGuideProps = {
     },
     {
       "q": "Will these be cheaper on Black Friday?",
-      "a": "They already are: all seven gifts here are on an Amazon Black Friday Deal, marked with the saving Amazon reports. The deals run through November 30."
+      "a": "They already are: all six gifts here are on an Amazon Black Friday Deal, marked with the saving Amazon reports. The deals run through November 30."
     }
   ],
   "guides": [

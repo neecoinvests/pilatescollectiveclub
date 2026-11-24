@@ -119,7 +119,7 @@ const GUIDE: EquipmentGuideProps = {
   faqs: [
     { q: "Does Balanced Body have Black Friday deals?", a: `Not on Amazon so far. On ${BF_PRICES_CHECKED}, none of the Balanced Body reformers listed here was part of Amazon's Black Friday deals, which run through ${BF_DEALS_END}. Studio brands discount less often than budget reformer brands; use the prices in our table to judge any offer.` },
     { q: "When are Black Friday and Cyber Monday 2026?", a: "Black Friday is Friday, November 27, 2026 and Cyber Monday is Monday, November 30, 2026. Amazon's Black Friday deals started on November 19 and run through November 30." },
-    { q: "What is the best studio-grade reformer to buy on Black Friday?", a: "For value, the Align-Pilates C8-PRO ($2,750 on November 19, 2026) uses the same springs as Align's professional reformers. For the classic studio machine, the Balanced Body Studio Reformer ($4,700). For a reformer with a tower, the Balanced Body Rialto with Tower ($4,230)." },
+    { q: "What is the best studio-grade reformer to buy on Black Friday?", a: "For value, the Align-Pilates C8-PRO ($2,750 on November 24, 2026) uses the same springs as Align's professional reformers. For the classic studio machine, the Balanced Body Studio Reformer ($4,700). For a reformer with a tower, the Balanced Body Rialto with Tower ($4,230)." },
     { q: "Will a studio reformer arrive before Christmas?", a: "In-stock machines usually can, but most Balanced Body reformers are made to order and ship after a lead time. Check the delivery estimate on the listing." },
   ],
   related: [

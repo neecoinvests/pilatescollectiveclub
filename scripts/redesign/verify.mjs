@@ -63,6 +63,11 @@ let basePartnerPreview = null;
 //     changes are reported as links removed and added.
 const homeReport = { removed: [], added: [] };
 for (const p of PROTECTED) if (DEDUPED.has(p)) throw new Error(`${p} is a partner page and cannot be an exception`);
+//  7. Black Friday and Cyber Monday pages: prices, deal badges and the "prices
+//     checked" date are refreshed from Amazon's API, and items that sold out or
+//     lost their deal are removed. These pages are only checked for status, a
+//     single h1 and that no new link destination appeared.
+const PRICE_REFRESHED = (p) => /^\/blog\/(black-friday-|cyber-monday-)/.test(p);
 const isSubsequence = (small, big) => {
   let i = 0;
   for (let j = 0; j < big.length && i < small.length; j++) if (small[i] === big[j]) i++;
@@ -209,6 +214,12 @@ function compare(pathname, base, branch) {
     if (count(base.text) !== count(branch.text)) console.log(`NOTE /advertise product count: ${count(base.text)} on base, ${count(branch.text)} on branch (computed from the site).`);
     base = { ...base, text: "" };
     branch = { ...branch, text: "" };
+  }
+  if (PRICE_REFRESHED(pathname)) {
+    if (branch.headings.filter((h) => h.startsWith("h1:")).length !== 1) fails.push("h1 count");
+    const before = new Set(base.links.map((l) => l.split(" | ")[0]));
+    for (const l of branch.links) if (!before.has(l.split(" | ")[0])) fails.push(`new link destination ${l}`);
+    return fails;
   }
   if (pathname === "/") {
     const h12 = (r) => r.headings.filter((h) => /^h[12]:/.test(h));

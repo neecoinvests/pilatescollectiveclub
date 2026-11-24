@@ -37,7 +37,7 @@ const GUIDE: DealsGuideProps = {
   "readTime": "8 min read",
   "heroImage": "/pictures/stitch-reformer-sunlit-minimal.png",
   "heroAlt": "A home Pilates reformer in a sunlit room: reformer Black Friday deals",
-  "intro": "A reformer is the biggest Pilates purchase most people make, which makes it the one where Black Friday matters most. Here are the reformers on an Amazon Black Friday Deal on November 19, 2026, grouped by budget: four machines from PAETA and DELAVIN, at 19% to 26% off. Amazon's event runs through November 30. No AeroPilates, Balanced Body, Merrithew or Align-Pilates machine was on a deal that day.",
+  "intro": "A reformer is the biggest Pilates purchase most people make, which makes it the one where Black Friday matters most. Here are the reformers on an Amazon Black Friday Deal on November 24, 2026, grouped by budget: four machines from PAETA and DELAVIN, at 19% to 26% off. Amazon's event runs through November 30. No AeroPilates, Balanced Body, Merrithew or Align-Pilates machine was on a deal that day.",
   "sections": [
     {
       "id": "under-500",
@@ -127,11 +127,11 @@ const GUIDE: DealsGuideProps = {
     },
     {
       "q": "Do Balanced Body or Merrithew reformers go on sale?",
-      "a": "Less often and by less than budget brands. On November 19, 2026, no Balanced Body or Merrithew reformer was on an Amazon Black Friday Deal; our studio reformer guide has their current prices."
+      "a": "Less often and by less than budget brands. On November 24, 2026, no Balanced Body or Merrithew reformer was on an Amazon Black Friday Deal; our studio reformer guide has their current prices."
     },
     {
       "q": "What is the cheapest real spring reformer?",
-      "a": "Of the reformers on a Black Friday Deal, the two PAETA 86\" foldable models are the lowest-priced with real springs: $398.99 and $417.99 on November 19, 2026. PAETA is a newer brand, so check the warranty."
+      "a": "Of the reformers on a Black Friday Deal, the two PAETA 86\" foldable models are the lowest-priced with real springs: $398.99 and $417.99 on November 24, 2026. PAETA is a newer brand, so check the warranty."
     },
     {
       "q": "Should I wait for Cyber Monday?",

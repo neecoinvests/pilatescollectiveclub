@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   }
 };
 
-// Prices are the live Amazon prices checked on November 19, 2026 (Creators API), with Amazon's deal badges.
+// Prices are the live Amazon prices checked on November 24, 2026 (Creators API), with Amazon's deal badges.
 const GUIDE: DealsGuideProps = {
   "slug": "cyber-monday-pilates-gift-deals",
   "title": "Cyber Monday Pilates Gift Deals 2026",
@@ -58,7 +58,7 @@ const GUIDE: DealsGuideProps = {
   "readTime": "8 min read",
   "heroImage": "/pictures/stitch-props-cork-ring.png",
   "heroAlt": "Pilates props including a ring",
-  "intro": "Cyber Monday is the moment to tick off Christmas gifts for the Pilates lover in your life, early enough for delivery and at the best prices of the season. Here are gifts at every budget, each with its Amazon price on November 19, 2026; seven are on an Amazon Black Friday Deal.",
+  "intro": "Cyber Monday is the moment to tick off Christmas gifts for the Pilates lover in your life, early enough for delivery and at the best prices of the season. Here are gifts at every budget, each with its Amazon price on November 24, 2026; seven are on an Amazon Black Friday Deal.",
   "sections": [
     {
       "id": "under-25",
@@ -126,7 +126,10 @@ const GUIDE: DealsGuideProps = {
           "name": "Owala FreeSip Water Bottle (32 oz)",
           "badge": "Best bottle",
           "note": "A big insulated bottle with a sip spout.",
-          "price": "$34.97"
+          "price": "$27.97",
+          "wasPrice": "$34.99",
+          "wasLabel": "List",
+          "pctOff": 20
         },
         {
           "asin": "B07QHNDHW3",
@@ -238,7 +241,7 @@ const GUIDE: DealsGuideProps = {
   "watchFor": [
     {
       "h": "Check what the saving is measured against.",
-      "b": "Each product shows its Amazon price on November 19, 2026, plus the List or Was price Amazon compares it with. 'Was' is Amazon's recent selling price; 'List' is set by the seller and can be higher than the item usually sells for."
+      "b": "Each product shows its Amazon price on November 24, 2026, plus the List or Was price Amazon compares it with. 'Was' is Amazon's recent selling price; 'List' is set by the seller and can be higher than the item usually sells for."
     },
     {
       "h": "Black Friday and Cyber Monday often overlap.",
@@ -260,7 +263,7 @@ const GUIDE: DealsGuideProps = {
     },
     {
       "q": "Are these Cyber Monday prices?",
-      "a": "Partly. Amazon's Black Friday and Cyber Monday event started on November 19 and runs through November 30, 2026. Items marked Black Friday Deal show Amazon's event price on November 19; the others show their regular Amazon price that day. Prices can change at any time, so check the listing before you buy."
+      "a": "Partly. Amazon's Black Friday and Cyber Monday event started on November 19 and runs through November 30, 2026. Items marked Black Friday Deal show Amazon's event price on November 24; the others show their regular Amazon price that day. Prices can change at any time, so check the listing before you buy."
     },
     {
       "q": "What is a good Pilates gift?",

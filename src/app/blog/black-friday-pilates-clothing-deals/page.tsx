@@ -6,11 +6,11 @@ const HERO_IMAGE = "https://pilatescollectiveclub.com/pictures/stitch-retail-act
 
 export const metadata: Metadata = {
   title: "Pilates Clothing Black Friday Deals 2026",
-  description: "Pilates clothing Black Friday 2026: leggings, bras, grip socks and a jacket from CRZ YOGA, toesox, TAVI and Tucketts, all on a deal.",
+  description: "Pilates clothing Black Friday 2026: leggings, bras and grip socks from CRZ YOGA, toesox, TAVI and Tucketts, all on a deal.",
   keywords: ["pilates clothing black friday", "black friday leggings deals", "pilates leggings black friday", "grip socks black friday", "activewear black friday 2026", "varley black friday", "cyber monday activewear"],
   openGraph: {
     title: "Pilates Clothing Black Friday Deals 2026: Leggings, Bras & Socks",
-    description: "Pilates clothing Black Friday 2026: leggings, bras, grip socks and a jacket from CRZ YOGA, toesox, TAVI and Tucketts, all on a deal.",
+    description: "Pilates clothing Black Friday 2026: leggings, bras and grip socks from CRZ YOGA, toesox, TAVI and Tucketts, all on a deal.",
     type: "article",
     url: PAGE_URL,
     images: [{ url: HERO_IMAGE, width: 1200, height: 630, alt: "Activewear on a rail: Pilates clothing Black Friday deals" }],
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Pilates Clothing Black Friday Deals 2026",
-    description: "Pilates clothing Black Friday 2026: leggings, bras, grip socks and a jacket from CRZ YOGA, toesox, TAVI and Tucketts, all on a deal.",
+    description: "Pilates clothing Black Friday 2026: leggings, bras and grip socks from CRZ YOGA, toesox, TAVI and Tucketts, all on a deal.",
     images: [HERO_IMAGE],
   },
   alternates: { canonical: PAGE_URL },
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
 const GUIDE: DealsGuideProps = {
   "slug": "black-friday-pilates-clothing-deals",
   "title": "Pilates Clothing Black Friday Deals 2026: Leggings, Bras & Socks",
-  "description": "Pilates clothing Black Friday 2026: leggings, bras, grip socks and a jacket from CRZ YOGA, toesox, TAVI and Tucketts, all on a deal.",
+  "description": "Pilates clothing Black Friday 2026: leggings, bras and grip socks from CRZ YOGA, toesox, TAVI and Tucketts, all on a deal.",
   "breadcrumb": "Pilates Clothing Black Friday Deals",
   "eyebrow": "Clothing",
   "h1": "Pilates Clothing Black Friday",
@@ -37,7 +37,7 @@ const GUIDE: DealsGuideProps = {
   "readTime": "7 min read",
   "heroImage": "/pictures/stitch-retail-activewear.png",
   "heroAlt": "Activewear on a rail: Pilates clothing Black Friday deals",
-  "intro": "Activewear is where Black Friday discounts are deepest and most frequent. Here are the nine Pilates pieces on an Amazon Black Friday Deal on November 19, 2026 (leggings, bras and tops, grip socks and a layer), each with the saving Amazon reports.",
+  "intro": "Activewear is where Black Friday discounts are deepest and most frequent. Here are the eight Pilates pieces on an Amazon Black Friday Deal on November 24, 2026 (leggings, bras and tops, and grip socks), each with the saving Amazon reports.",
   "sections": [
     {
       "id": "leggings",
@@ -144,24 +144,6 @@ const GUIDE: DealsGuideProps = {
           "price": "$6.79",
           "wasPrice": "$7.99",
           "wasLabel": "Was",
-          "pctOff": 15,
-          "amazonDeal": true
-        }
-      ]
-    },
-    {
-      "id": "layers",
-      "title": "Layers",
-      "intro": "The warm-up layer you wear to and from class.",
-      "items": [
-        {
-          "asin": "B0BJ2G3JNW",
-          "name": "CRZ YOGA Butterluxe Jacket (Waist Length)",
-          "badge": "Best-value layer",
-          "note": "A slim, waist-length zip jacket in CRZ YOGA's Butterluxe fabric, for the walk to and from class or a cold studio warm-up. It has thumbholes to keep the sleeves down, side zip pockets and inner hidden pockets. Sold by CRZ YOGA.",
-          "price": "$40.80",
-          "wasPrice": "$48.00",
-          "wasLabel": "List",
           "pctOff": 15,
           "amazonDeal": true
         }

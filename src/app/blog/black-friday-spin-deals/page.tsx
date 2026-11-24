@@ -37,7 +37,7 @@ const GUIDE: DealsGuideProps = {
   "readTime": "7 min read",
   "heroImage": "/pictures/stitch-studio-modern-row.png",
   "heroAlt": "A modern studio: spin and indoor cycling Black Friday deals",
-  "intro": "Exercise bikes are one of Black Friday's most discounted fitness categories. Here are the indoor cycling buys on an Amazon Black Friday Deal on November 19, 2026: two Sunny smart bikes at 33% and 35% off, plus two COOSPO sensors. Amazon's event runs through November 30.",
+  "intro": "Exercise bikes are one of Black Friday's most discounted fitness categories. Here are the indoor cycling buys on an Amazon Black Friday Deal on November 24, 2026: two Sunny smart bikes at 33% and 35% off, plus two COOSPO sensors. Amazon's event runs through November 30.",
   "sections": [
     {
       "id": "bikes",

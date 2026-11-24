@@ -37,7 +37,7 @@ const GUIDE: DealsGuideProps = {
   "readTime": "6 min read",
   "heroImage": "/pictures/stitch-reformer-spring-detail.png",
   "heroAlt": "Springs on a carriage machine: Lagree Micro Black Friday deals",
-  "intro": "The Micro is Lagree Fitness's own home machine, and it is sold by Lagree Fitness on Amazon along with its three add-ons. Whether the brand runs a Black Friday price is up to Lagree Fitness, so here is exactly what each piece cost on November 19, 2026, plus the home-setup gear around it that is far more likely to be discounted.",
+  "intro": "The Micro is Lagree Fitness's own home machine, and it is sold by Lagree Fitness on Amazon along with its three add-ons. Whether the brand runs a Black Friday price is up to Lagree Fitness, so here is exactly what each piece cost on November 24, 2026, plus the home-setup gear around it that is far more likely to be discounted.",
   "sections": [
     {
       "id": "micro",
@@ -103,7 +103,11 @@ const GUIDE: DealsGuideProps = {
           "name": "Impulse Yoga Knee Pad Cushion (1\")",
           "badge": "Kneeling",
           "note": "A 24\" x 12\" cushion with a full inch of foam, for kneeling moves on the carriage or a hard floor. It now comes with a breathable mesh carry bag. Also handy for planks and push-ups if your wrists or knees complain.",
-          "price": "$19.99"
+          "price": "$15.99",
+          "wasPrice": "$19.99",
+          "wasLabel": "Was",
+          "pctOff": 20,
+          "amazonDeal": true
         },
         {
           "asin": "B00CO8HO6O",
@@ -132,7 +136,7 @@ const GUIDE: DealsGuideProps = {
   "faqs": [
     {
       "q": "Does the Lagree Micro go on sale for Black Friday?",
-      "a": "That depends on Lagree Fitness, which sells the Micro on Amazon. On November 19, 2026, the Micro was not part of Amazon's Black Friday deals, so check the listing for the current price."
+      "a": "That depends on Lagree Fitness, which sells the Micro on Amazon. On November 24, 2026, the Micro was not part of Amazon's Black Friday deals, so check the listing for the current price."
     },
     {
       "q": "Can you buy a Megaformer on Black Friday?",

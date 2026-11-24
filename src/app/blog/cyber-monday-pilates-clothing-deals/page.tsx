@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   }
 };
 
-// Prices are the live Amazon prices checked on November 19, 2026 (Creators API), with Amazon's deal badges.
+// Prices are the live Amazon prices checked on November 24, 2026 (Creators API), with Amazon's deal badges.
 const GUIDE: DealsGuideProps = {
   "slug": "cyber-monday-pilates-clothing-deals",
   "title": "Cyber Monday Pilates Clothing Deals 2026",
@@ -91,32 +91,18 @@ const GUIDE: DealsGuideProps = {
           "name": "Sweaty Betty Power Cropped Leggings",
           "badge": "Best for sweaty classes",
           "note": "Sweaty Betty's sweat-wicking cropped leggings.",
-          "price": "$83.29",
-          "wasPrice": "$98.00",
-          "wasLabel": "List",
-          "pctOff": 15,
-          "amazonDeal": true
-        },
-        {
-          "asin": "B0FXN378H8",
-          "name": "Varley Freesoft Piped Full Leggings",
-          "badge": "Best premium",
-          "note": "Varley's soft Freesoft full-length leggings.",
-          "price": "$36.75",
-          "wasPrice": "$98.00",
-          "wasLabel": "List",
-          "pctOff": 63,
-          "lowStock": true
+          "price": "$98.00"
         },
         {
           "asin": "B07663TDHG",
           "name": "Beyond Yoga Spacedye Caught in the Midi Leggings",
           "badge": "Best high-waisted",
           "note": "Beyond Yoga's high-waisted midi leggings.",
-          "price": "$66.33",
+          "price": "$51.97",
           "wasPrice": "$99.00",
           "wasLabel": "List",
-          "pctOff": 33
+          "pctOff": 48,
+          "amazonDeal": true
         }
       ]
     },
@@ -141,20 +127,17 @@ const GUIDE: DealsGuideProps = {
           "name": "Sweaty Betty Power Medium Racer Back Bra",
           "badge": "Best support",
           "note": "Sweaty Betty's medium-support racerback bra.",
-          "price": "$53.98",
+          "price": "$59.93",
           "wasPrice": "$68.00",
           "wasLabel": "List",
-          "pctOff": 21
+          "pctOff": 12
         },
         {
           "asin": "B0FXN42JWR",
           "name": "Varley Freesoft Harley Bralette",
           "badge": "Best premium bralette",
           "note": "Varley's Freesoft bralette.",
-          "price": "$29.70",
-          "wasPrice": "$66.00",
-          "wasLabel": "List",
-          "pctOff": 55
+          "price": "$66.00"
         },
         {
           "asin": "B09X9Y5S8G",
@@ -172,11 +155,7 @@ const GUIDE: DealsGuideProps = {
           "name": "CRZ YOGA Butterluxe Jacket",
           "badge": "Best layer",
           "note": "A soft, waist-length jacket for the walk to class.",
-          "price": "$40.80",
-          "wasPrice": "$48.00",
-          "wasLabel": "List",
-          "pctOff": 15,
-          "amazonDeal": true
+          "price": "$40.80"
         },
         {
           "asin": "B0DFZPBZDV",
@@ -242,7 +221,10 @@ const GUIDE: DealsGuideProps = {
           "name": "Owala FreeSip Water Bottle (24 oz)",
           "badge": "Best bottle",
           "note": "A leak-resistant insulated bottle that fits a bag pocket.",
-          "price": "$29.99"
+          "price": "$24.00",
+          "wasPrice": "$29.99",
+          "wasLabel": "List",
+          "pctOff": 20
         },
         {
           "asin": "B0B1VFNFL1",
@@ -261,7 +243,7 @@ const GUIDE: DealsGuideProps = {
   "watchFor": [
     {
       "h": "Check what the saving is measured against.",
-      "b": "Each product shows its Amazon price on November 19, 2026, plus the List or Was price Amazon compares it with. 'Was' is Amazon's recent selling price; 'List' is set by the seller and can be higher than the item usually sells for."
+      "b": "Each product shows its Amazon price on November 24, 2026, plus the List or Was price Amazon compares it with. 'Was' is Amazon's recent selling price; 'List' is set by the seller and can be higher than the item usually sells for."
     },
     {
       "h": "Black Friday and Cyber Monday often overlap.",
@@ -287,7 +269,7 @@ const GUIDE: DealsGuideProps = {
     },
     {
       "q": "Are these Cyber Monday prices?",
-      "a": "Partly. Amazon's Black Friday and Cyber Monday event started on November 19 and runs through November 30, 2026. Items marked Black Friday Deal show Amazon's event price on November 19; the others show their regular Amazon price that day. Prices can change at any time, so check the listing before you buy."
+      "a": "Partly. Amazon's Black Friday and Cyber Monday event started on November 19 and runs through November 30, 2026. Items marked Black Friday Deal show Amazon's event price on November 24; the others show their regular Amazon price that day. Prices can change at any time, so check the listing before you buy."
     },
     {
       "q": "What should I wear to a Pilates class?",

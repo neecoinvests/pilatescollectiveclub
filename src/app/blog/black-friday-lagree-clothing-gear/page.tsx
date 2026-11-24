@@ -37,7 +37,7 @@ const GUIDE: DealsGuideProps = {
   "readTime": "7 min read",
   "heroImage": "/pictures/stitch-grip-socks-footbar.png",
   "heroAlt": "Grip socks on a machine: Lagree clothing and gear Black Friday deals",
-  "intro": "Lagree eats through grip socks, towels and fitted kit faster than almost any class, which makes Black Friday the time to stock up. Here are the seven pieces for Megaformer regulars, men and women, on an Amazon Black Friday Deal on November 19, 2026, each with the saving Amazon reports.",
+  "intro": "Lagree eats through grip socks, towels and fitted kit faster than almost any class, which makes Black Friday the time to stock up. Here are the six pieces for Megaformer regulars, men and women, on an Amazon Black Friday Deal on November 24, 2026, each with the saving Amazon reports.",
   "sections": [
     {
       "id": "socks-hands",
@@ -65,17 +65,6 @@ const GUIDE: DealsGuideProps = {
           "wasPrice": "$14.99",
           "wasLabel": "Was",
           "pctOff": 19,
-          "amazonDeal": true
-        },
-        {
-          "asin": "B07H4F3FXK",
-          "name": "Muezna Men's Non-Slip Yoga Socks",
-          "badge": "Men's sizing",
-          "note": "Closed-toe grip socks cut for a men's US 9 to 11 shoe size, so the grip pattern covers the whole sole instead of stopping short. They are combed cotton with silicone grips, and arrive in a storage bag. Muezna offers a 60-day refund if you are not happy with them. A good pick for men who find unisex grip socks too small.",
-          "price": "$15.29",
-          "wasPrice": "$17.99",
-          "wasLabel": "Was",
-          "pctOff": 15,
           "amazonDeal": true
         }
       ]

@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   }
 };
 
-// Prices are the live Amazon prices checked on November 19, 2026 (Creators API), with Amazon's deal badges.
+// Prices are the live Amazon prices checked on November 24, 2026 (Creators API), with Amazon's deal badges.
 const GUIDE: DealsGuideProps = {
   "slug": "cyber-monday-pilates-reformer-deals",
   "title": "Cyber Monday Pilates Reformer Deals 2026",
@@ -58,7 +58,7 @@ const GUIDE: DealsGuideProps = {
   "readTime": "9 min read",
   "heroImage": "/pictures/stitch-reformer-sunlit-minimal.png",
   "heroAlt": "A Pilates reformer in a sunlit room",
-  "intro": "A reformer is the biggest Pilates purchase most people make, so a Cyber Monday discount on one is worth real money. Below are the home reformers we track, grouped by budget, each with its Amazon price on November 19, 2026. Three are on an Amazon Black Friday Deal, marked below.",
+  "intro": "A reformer is the biggest Pilates purchase most people make, so a Cyber Monday discount on one is worth real money. Below are the home reformers we track, grouped by budget, each with its Amazon price on November 24, 2026. Three are on an Amazon Black Friday Deal, marked below.",
   "sections": [
     {
       "id": "under-500",
@@ -70,7 +70,7 @@ const GUIDE: DealsGuideProps = {
           "name": "DWKWE Foldable Pilates Reformer 88\"",
           "badge": "Lowest price",
           "note": "A foldable metal-frame reformer with an adjustable footbar, at one of the lowest prices we track.",
-          "price": "$339.99"
+          "price": "$299.99"
         },
         {
           "asin": "B0D31767J1",
@@ -152,7 +152,7 @@ const GUIDE: DealsGuideProps = {
     {
       "id": "studio-grade",
       "title": "Studio-grade home reformers",
-      "intro": "Studio brands discount less often, and none of these was on a deal on November 19.",
+      "intro": "Studio brands discount less often, and none of these was on a deal on November 24.",
       "items": [
         {
           "asin": "B09HNCMTZL",
@@ -211,7 +211,7 @@ const GUIDE: DealsGuideProps = {
   "watchFor": [
     {
       "h": "Check what the saving is measured against.",
-      "b": "Each product shows its Amazon price on November 19, 2026, plus the List or Was price Amazon compares it with. 'Was' is Amazon's recent selling price; 'List' is set by the seller and can be higher than the item usually sells for."
+      "b": "Each product shows its Amazon price on November 24, 2026, plus the List or Was price Amazon compares it with. 'Was' is Amazon's recent selling price; 'List' is set by the seller and can be higher than the item usually sells for."
     },
     {
       "h": "Black Friday and Cyber Monday often overlap.",
@@ -233,7 +233,7 @@ const GUIDE: DealsGuideProps = {
     },
     {
       "q": "Are these Cyber Monday prices?",
-      "a": "Partly. Amazon's Black Friday and Cyber Monday event started on November 19 and runs through November 30, 2026. Items marked Black Friday Deal show Amazon's event price on November 19; the others show their regular Amazon price that day. Prices can change at any time, so check the listing before you buy."
+      "a": "Partly. Amazon's Black Friday and Cyber Monday event started on November 19 and runs through November 30, 2026. Items marked Black Friday Deal show Amazon's event price on November 24; the others show their regular Amazon price that day. Prices can change at any time, so check the listing before you buy."
     },
     {
       "q": "Do Pilates reformers go on sale on Cyber Monday?",

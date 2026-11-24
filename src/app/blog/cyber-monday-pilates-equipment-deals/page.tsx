@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   }
 };
 
-// Prices are the live Amazon prices checked on November 19, 2026 (Creators API), with Amazon's deal badges.
+// Prices are the live Amazon prices checked on November 24, 2026 (Creators API), with Amazon's deal badges.
 const GUIDE: DealsGuideProps = {
   "slug": "cyber-monday-pilates-equipment-deals",
   "title": "Cyber Monday Pilates Equipment Deals 2026",
@@ -95,7 +95,11 @@ const GUIDE: DealsGuideProps = {
           "name": "Impulse Yoga Knee Pad Cushion (1\")",
           "badge": "Best add-on",
           "note": "A thick cushion for kneeling work on hard floors.",
-          "price": "$19.99"
+          "price": "$15.99",
+          "wasPrice": "$19.99",
+          "wasLabel": "Was",
+          "pctOff": 20,
+          "amazonDeal": true
         }
       ]
     },
@@ -187,7 +191,7 @@ const GUIDE: DealsGuideProps = {
           "name": "Amazon Basics High-Density Foam Roller (36\")",
           "badge": "Best value roller",
           "note": "A long, high-density roller for back and spine release.",
-          "price": "$23.99"
+          "price": "$31.16"
         },
         {
           "asin": "B006GUC9KC",
@@ -239,7 +243,7 @@ const GUIDE: DealsGuideProps = {
   "watchFor": [
     {
       "h": "Check what the saving is measured against.",
-      "b": "Each product shows its Amazon price on November 19, 2026, plus the List or Was price Amazon compares it with. 'Was' is Amazon's recent selling price; 'List' is set by the seller and can be higher than the item usually sells for."
+      "b": "Each product shows its Amazon price on November 24, 2026, plus the List or Was price Amazon compares it with. 'Was' is Amazon's recent selling price; 'List' is set by the seller and can be higher than the item usually sells for."
     },
     {
       "h": "Black Friday and Cyber Monday often overlap.",
@@ -261,7 +265,7 @@ const GUIDE: DealsGuideProps = {
     },
     {
       "q": "Are these Cyber Monday prices?",
-      "a": "Partly. Amazon's Black Friday and Cyber Monday event started on November 19 and runs through November 30, 2026. Items marked Black Friday Deal show Amazon's event price on November 19; the others show their regular Amazon price that day. Prices can change at any time, so check the listing before you buy."
+      "a": "Partly. Amazon's Black Friday and Cyber Monday event started on November 19 and runs through November 30, 2026. Items marked Black Friday Deal show Amazon's event price on November 24; the others show their regular Amazon price that day. Prices can change at any time, so check the listing before you buy."
     },
     {
       "q": "What Pilates equipment do I need at home?",
