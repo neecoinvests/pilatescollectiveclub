@@ -67,7 +67,12 @@ for (const p of PROTECTED) if (DEDUPED.has(p)) throw new Error(`${p} is a partne
 //     checked" date are refreshed from Amazon's API, and items that sold out or
 //     lost their deal are removed. These pages are only checked for status, a
 //     single h1 and that no new link destination appeared.
-const PRICE_REFRESHED = (p) => /^\/blog\/(black-friday-|cyber-monday-)/.test(p);
+//     The same applies to three guides that gained or swapped a Creator
+//     Connections product (November 24). New link destinations are allowed
+//     only for the campaign products listed here.
+const CAMPAIGN_PAGES = ["/blog/best-pilates-reformer-accessories", "/blog/lagree-for-men", "/blog/best-lagree-grip-socks"];
+const CAMPAIGN_ASINS = ["B07TDPQZWN", "B09VGPRVCJ", "B074GSLQ3V", "B07CQM36X3", "B0DRTKSLN8"];
+const PRICE_REFRESHED = (p) => /^\/blog\/(black-friday-|cyber-monday-)/.test(p) || CAMPAIGN_PAGES.includes(p);
 const isSubsequence = (small, big) => {
   let i = 0;
   for (let j = 0; j < big.length && i < small.length; j++) if (small[i] === big[j]) i++;
@@ -218,7 +223,12 @@ function compare(pathname, base, branch) {
   if (PRICE_REFRESHED(pathname)) {
     if (branch.headings.filter((h) => h.startsWith("h1:")).length !== 1) fails.push("h1 count");
     const before = new Set(base.links.map((l) => l.split(" | ")[0]));
-    for (const l of branch.links) if (!before.has(l.split(" | ")[0])) fails.push(`new link destination ${l}`);
+    for (const l of branch.links) {
+      const href = l.split(" | ")[0];
+      if (before.has(href)) continue;
+      const ok = CAMPAIGN_ASINS.some((a) => href === `https://www.amazon.com/dp/${a}?tag=pilatescollective-20`);
+      if (!ok) fails.push(`new link destination ${l}`);
+    }
     return fails;
   }
   if (pathname === "/") {

@@ -191,7 +191,7 @@ const GUIDE: DealsGuideProps = {
     },
     {
       "q": "Do Pilates reformers go on sale for Black Friday?",
-      "a": "Budget and mid-range home reformers do: on November 24, 2026, four PAETA and DELAVIN machines were on an Amazon Black Friday Deal. Premium studio brands discount less often, and none was on a deal that day. Our reformer deals guide lists the four."
+      "a": "Budget and mid-range home reformers do: on November 24, 2026, five PAETA and DELAVIN machines were on an Amazon Black Friday Deal. Premium studio brands discount less often, and none was on a deal that day. Our reformer deals guide lists the four."
     },
     {
       "q": "Are the prices on this page Black Friday prices?",

@@ -139,8 +139,8 @@ const SOCKS: Pick[] = [
     id: "muezna-men",
     role: "Best Men's Grip Socks",
     name: "Muezna Men's Non-Slip Yoga Socks",
-    price: "$19.11",
-    url: amz("B07H4F3FXK"),
+    price: "$17.99",
+    url: amz("B07TDPQZWN"),
     description:
       "Men's-sized grip socks. The common problem for bigger feet is a grip pattern that stops short of where your foot actually presses; buy men's sizing so the grip covers your whole sole.",
   },

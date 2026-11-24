@@ -84,6 +84,16 @@ const PRODUCTS = [
     affiliateUrl: "https://www.amazon.com/dp/B006GUC9KC?tag=pilatescollective-20",
     tag: "Recovery Essential",
   },
+  {
+    rank: "06",
+    name: "HPYGN Exercise Handles (Pair)",
+    price: "$14.97",
+    verdict: "A cheap replacement for worn handles",
+    description:
+      "Handles are the part of a reformer your hands wear out first. HPYGN's replacements are braided nylon straps with a wide rubber grip, which the brand rates to hold 260 kg, and the listing names Pilates reformers alongside cable machines among the equipment they fit. They are not a branded part for any one reformer, so check that your rope clips will take them before ordering. $14.97 is the list price; on November 24, 2026 they were $9.47 on an Amazon Black Friday Deal. Sold by HPYGN Store.",
+    affiliateUrl: "https://www.amazon.com/dp/B09VGPRVCJ?tag=pilatescollective-20",
+    tag: "Replacement Part",
+  },
 ];
 
 const jsonLd = {
@@ -121,7 +131,7 @@ const jsonLd = {
   ],
 };
 
-const QP_NOTES = ["Best low-cost upgrade for immediate impact", "The real Balanced Body jump board, genuinely sold on Amazon", "The real substitute for a Merrithew-branded box", "Best real maintenance upgrade", "A real, durable recovery accessory"];
+const QP_NOTES = ["Best low-cost upgrade for immediate impact", "The real Balanced Body jump board, genuinely sold on Amazon", "The real substitute for a Merrithew-branded box", "Best real maintenance upgrade", "A real, durable recovery accessory", "A cheap replacement for worn handles"];
 
 const ITEM_LIST = productItemList("Best Pilates Reformer Accessories (2026): Must-Have Add-Ons", PRODUCTS.filter((pr) => /amazon\.[a-z.]+\/dp\//.test(pr.affiliateUrl)).map((pr) => ({ name: pr.name, description: pr.description, price: pr.price, url: pr.affiliateUrl })));
 
@@ -184,7 +194,7 @@ export default function BestReformerAccessoriesPage() {
             </div>
 
             <div className="mb-16">
-              <p className="text-[12.5px] font-bold mb-10" style={{ color: "#0a0a0a" }}>5 Accessories · Ranked</p>
+              <p className="text-[12.5px] font-bold mb-10" style={{ color: "#0a0a0a" }}>6 Accessories · Ranked</p>
               <div className="space-y-10">
                 {PRODUCTS.map((p) => (
                   <div key={p.name}>

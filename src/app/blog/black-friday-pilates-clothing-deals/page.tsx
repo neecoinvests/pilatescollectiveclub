@@ -37,7 +37,7 @@ const GUIDE: DealsGuideProps = {
   "readTime": "7 min read",
   "heroImage": "/pictures/stitch-retail-activewear.png",
   "heroAlt": "Activewear on a rail: Pilates clothing Black Friday deals",
-  "intro": "Activewear is where Black Friday discounts are deepest and most frequent. Here are the eight Pilates pieces on an Amazon Black Friday Deal on November 24, 2026 (leggings, bras and tops, and grip socks), each with the saving Amazon reports.",
+  "intro": "Activewear is where Black Friday discounts are deepest and most frequent. Here are the nine Pilates pieces on an Amazon Black Friday Deal on November 24, 2026 (leggings, bras and tops, and grip socks), each with the saving Amazon reports.",
   "sections": [
     {
       "id": "leggings",
@@ -143,6 +143,17 @@ const GUIDE: DealsGuideProps = {
           "note": "Six pairs of closed-toe grip socks with silicone dots across the sole, in a breathable mid-weight cotton blend. Closed toes are quicker to pull on than toe socks. Medium fits women's US 5 to 8; Large fits women's 8.5 to 11 or men's 6 to 9. At about a dollar a pair, they are the cheapest way to cover a week of classes.",
           "price": "$6.79",
           "wasPrice": "$7.99",
+          "wasLabel": "Was",
+          "pctOff": 15,
+          "amazonDeal": true
+        },
+        {
+          "asin": "B07CQM36X3",
+          "name": "Ozaiic Pilates Grip Socks (Cotton, Full Cushion Sole)",
+          "badge": "Best cotton socks",
+          "note": "Ballet-style grip socks in combed cotton with a fully cushioned sole and a strap across the top, per the listing. The grip covers the bottom of the sock, and one size fits women's US shoe sizes 5.5 to 11. Sold by Ozaiic.",
+          "price": "$11.84",
+          "wasPrice": "$13.99",
           "wasLabel": "Was",
           "pctOff": 15,
           "amazonDeal": true

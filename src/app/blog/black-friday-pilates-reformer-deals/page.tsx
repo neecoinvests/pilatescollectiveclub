@@ -6,11 +6,11 @@ const HERO_IMAGE = "https://pilatescollectiveclub.com/pictures/stitch-reformer-s
 
 export const metadata: Metadata = {
   title: "Pilates Reformer Black Friday Deals 2026",
-  description: "Pilates reformer Black Friday 2026: four home reformers from PAETA and DELAVIN on an Amazon Black Friday Deal, up to 26% off, with live prices.",
+  description: "Pilates reformer Black Friday 2026: five home reformers from PAETA and DELAVIN on an Amazon Black Friday Deal, up to 26% off, with live prices.",
   keywords: ["pilates reformer black friday", "reformer black friday deal", "black friday pilates reformer 2026", "pilates machine black friday", "cyber monday pilates reformer", "pilates reformer sale", "aeropilates black friday", "balanced body black friday"],
   openGraph: {
     title: "Pilates Reformer Black Friday Deals 2026: Live Deals",
-    description: "Pilates reformer Black Friday 2026: four home reformers from PAETA and DELAVIN on an Amazon Black Friday Deal, up to 26% off, with live prices.",
+    description: "Pilates reformer Black Friday 2026: five home reformers from PAETA and DELAVIN on an Amazon Black Friday Deal, up to 26% off, with live prices.",
     type: "article",
     url: PAGE_URL,
     images: [{ url: HERO_IMAGE, width: 1200, height: 630, alt: "A home Pilates reformer in a sunlit room: reformer Black Friday deals" }],
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Pilates Reformer Black Friday Deals 2026",
-    description: "Pilates reformer Black Friday 2026: four home reformers from PAETA and DELAVIN on an Amazon Black Friday Deal, up to 26% off, with live prices.",
+    description: "Pilates reformer Black Friday 2026: five home reformers from PAETA and DELAVIN on an Amazon Black Friday Deal, up to 26% off, with live prices.",
     images: [HERO_IMAGE],
   },
   alternates: { canonical: PAGE_URL },
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
 const GUIDE: DealsGuideProps = {
   "slug": "black-friday-pilates-reformer-deals",
   "title": "Pilates Reformer Black Friday Deals 2026: Live Deals",
-  "description": "Pilates reformer Black Friday 2026: four home reformers from PAETA and DELAVIN on an Amazon Black Friday Deal, up to 26% off, with live prices.",
+  "description": "Pilates reformer Black Friday 2026: five home reformers from PAETA and DELAVIN on an Amazon Black Friday Deal, up to 26% off, with live prices.",
   "breadcrumb": "Reformer Black Friday Deals",
   "eyebrow": "Reformers",
   "h1": "Pilates Reformer Black Friday",
@@ -37,7 +37,7 @@ const GUIDE: DealsGuideProps = {
   "readTime": "8 min read",
   "heroImage": "/pictures/stitch-reformer-sunlit-minimal.png",
   "heroAlt": "A home Pilates reformer in a sunlit room: reformer Black Friday deals",
-  "intro": "A reformer is the biggest Pilates purchase most people make, which makes it the one where Black Friday matters most. Here are the reformers on an Amazon Black Friday Deal on November 24, 2026, grouped by budget: four machines from PAETA and DELAVIN, at 19% to 26% off. Amazon's event runs through November 30. No AeroPilates, Balanced Body, Merrithew or Align-Pilates machine was on a deal that day.",
+  "intro": "A reformer is the biggest Pilates purchase most people make, which makes it the one where Black Friday matters most. Here are the reformers on an Amazon Black Friday Deal on November 24, 2026, grouped by budget: five machines from PAETA and DELAVIN, at 15% to 26% off. Amazon's event runs through November 30. No AeroPilates, Balanced Body, Merrithew or Align-Pilates machine was on a deal that day.",
   "sections": [
     {
       "id": "under-500",
@@ -93,6 +93,17 @@ const GUIDE: DealsGuideProps = {
           "wasPrice": "$1,377.49",
           "wasLabel": "List",
           "pctOff": 19,
+          "amazonDeal": true
+        },
+        {
+          "asin": "B0DRTKSLN8",
+          "name": "PAETA Wooden Reformer with Tower & Mat",
+          "badge": "Reformer and tower in one",
+          "note": "An oak-frame reformer with an integrated tower and a converter mat, so you can switch between reformer and tower work on one machine. The listing gives piano-wire springs tested for 50,000 uses and spring hooks on the inside and outside of the tower. A sitting box and jump board are included, and it ships in three boxes. PAETA is a newer brand, so check the warranty. Sold by PAETA US.",
+          "price": "$1,189.99",
+          "wasPrice": "$1,399.99",
+          "wasLabel": "List",
+          "pctOff": 15,
           "amazonDeal": true
         }
       ]

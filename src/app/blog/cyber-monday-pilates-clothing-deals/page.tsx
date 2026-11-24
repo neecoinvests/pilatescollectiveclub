@@ -236,6 +236,17 @@ const GUIDE: DealsGuideProps = {
           "wasLabel": "Was",
           "pctOff": 34,
           "amazonDeal": true
+        },
+        {
+          "asin": "B07CQM36X3",
+          "name": "Ozaiic Pilates Grip Socks (Cotton, Full Cushion Sole)",
+          "badge": "Best cotton socks",
+          "note": "Ballet-style grip socks in combed cotton with a fully cushioned sole and a strap across the top, per the listing. The grip covers the bottom of the sock, and one size fits women's US shoe sizes 5.5 to 11. Sold by Ozaiic.",
+          "price": "$11.84",
+          "wasPrice": "$13.99",
+          "wasLabel": "Was",
+          "pctOff": 15,
+          "amazonDeal": true
         }
       ]
     }

@@ -178,6 +178,28 @@ const GUIDE: DealsGuideProps = {
           "wasLabel": "List",
           "pctOff": 15,
           "amazonDeal": true
+        },
+        {
+          "asin": "B074GSLQ3V",
+          "name": "RitFit Resistance Band with Handles and Door Anchor",
+          "badge": "Best band with handles",
+          "note": "A single natural-latex resistance tube with cushioned foam handles and a door anchor, per the listing, for arm and standing work when you want a handle rather than a loop. This is one band in one resistance level, so check which one you are choosing. Sold by H&L Direct.",
+          "price": "$7.98",
+          "wasPrice": "$9.98",
+          "wasLabel": "Was",
+          "pctOff": 20,
+          "amazonDeal": true
+        },
+        {
+          "asin": "B09VGPRVCJ",
+          "name": "HPYGN Exercise Handles (Pair)",
+          "badge": "Best replacement handles",
+          "note": "Replacement handles for cable machines and reformer ropes: braided nylon straps with a wide rubber grip, rated by the brand to hold 260 kg. A cheap fix for worn or slippery handles. Check they suit your machine's clips before ordering. Sold by HPYGN Store.",
+          "price": "$9.47",
+          "wasPrice": "$14.97",
+          "wasLabel": "List",
+          "pctOff": 37,
+          "amazonDeal": true
         }
       ]
     },
