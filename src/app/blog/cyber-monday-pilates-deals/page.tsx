@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   }
 };
 
-// Prices are the live Amazon prices checked on November 24, 2026 (Creators API), with Amazon's deal badges.
+// Prices are the live Amazon prices checked on November 26, 2026 (Creators API), with Amazon's deal badges.
 const GUIDE: DealsGuideProps = {
   "slug": "cyber-monday-pilates-deals",
   "title": "Cyber Monday Pilates Deals 2026: Reformers, Gear & Gifts",
@@ -58,7 +58,7 @@ const GUIDE: DealsGuideProps = {
   "readTime": "8 min read",
   "heroImage": "/pictures/stitch-luxury-studio-wide.png",
   "heroAlt": "A bright Pilates studio with reformers",
-  "intro": "Cyber Monday is the last big sale of the season and one of the best days to buy Pilates gear online. This hub collects the products most worth buying, from a home reformer to grip socks, with their Amazon price on November 24, 2026. Amazon's Black Friday and Cyber Monday deals are already live, and six of these are on one.",
+  "intro": "Cyber Monday is the last big sale of the season and one of the best days to buy Pilates gear online. This hub collects the products most worth buying, from a home reformer to grip socks, with their Amazon price on November 26, 2026. Amazon's Black Friday and Cyber Monday deals are already live, and six of these are on one.",
   "sections": [
     {
       "id": "reformers",
@@ -166,11 +166,7 @@ const GUIDE: DealsGuideProps = {
           "name": "toesox Low Rise Grip Socks (2-Pack)",
           "badge": "Best grip socks",
           "note": "Full-toe grip socks from toesox, a studio staple, in a 2-pack.",
-          "price": "$25.50",
-          "wasPrice": "$30.00",
-          "wasLabel": "List",
-          "pctOff": 15,
-          "amazonDeal": true,
+          "price": "$30.00",
           "lowStock": true
         },
         {
@@ -190,7 +186,7 @@ const GUIDE: DealsGuideProps = {
   "watchFor": [
     {
       "h": "Check what the saving is measured against.",
-      "b": "Each product shows its Amazon price on November 24, 2026, plus the List or Was price Amazon compares it with. 'Was' is Amazon's recent selling price; 'List' is set by the seller and can be higher than the item usually sells for."
+      "b": "Each product shows its Amazon price on November 26, 2026, plus the List or Was price Amazon compares it with. 'Was' is Amazon's recent selling price; 'List' is set by the seller and can be higher than the item usually sells for."
     },
     {
       "h": "Black Friday and Cyber Monday often overlap.",
@@ -212,7 +208,7 @@ const GUIDE: DealsGuideProps = {
     },
     {
       "q": "Are these Cyber Monday prices?",
-      "a": "Partly. Amazon's Black Friday and Cyber Monday event started on November 19 and runs through November 30, 2026. Items marked Black Friday Deal show Amazon's event price on November 24; the others show their regular Amazon price that day. Prices can change at any time, so check the listing before you buy."
+      "a": "Partly. Amazon's Black Friday and Cyber Monday event started on November 19 and runs through November 30, 2026. Items marked Black Friday Deal show Amazon's event price on November 26; the others show their regular Amazon price that day. Prices can change at any time, so check the listing before you buy."
     },
     {
       "q": "Is Cyber Monday better than Black Friday for Pilates gear?",

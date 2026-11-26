@@ -6,11 +6,11 @@ const HERO_IMAGE = "https://pilatescollectiveclub.com/pictures/stitch-props-cork
 
 export const metadata: Metadata = {
   title: "Pilates Gifts Under $50: Black Friday 2026",
-  description: "Seven Pilates gifts under $50 on an Amazon Black Friday Deal: a Pilates ring, bands, grip socks, a foam roller, and a gym tote, up to 44% off.",
+  description: "Five Pilates gifts under $50 on an Amazon Black Friday Deal: a Pilates ring, bands, grip socks, a foam roller, and a gym tote, up to 44% off.",
   keywords: ["pilates gifts under 50", "black friday pilates gifts", "pilates gift ideas", "gifts for pilates lovers", "pilates stocking stuffers", "pilates christmas gifts", "cheap pilates gifts", "pilates gift guide 2026"],
   openGraph: {
     title: "Pilates Gifts Under $50: Black Friday 2026 Picks",
-    description: "Seven Pilates gifts under $50 on an Amazon Black Friday Deal: a Pilates ring, bands, grip socks, a foam roller, and a gym tote, up to 44% off.",
+    description: "Five Pilates gifts under $50 on an Amazon Black Friday Deal: a Pilates ring, bands, grip socks, a foam roller, and a gym tote, up to 44% off.",
     type: "article",
     url: PAGE_URL,
     images: [{ url: HERO_IMAGE, width: 1200, height: 630, alt: "Pilates props including a ring: Pilates gifts under $50" }],
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Pilates Gifts Under $50: Black Friday 2026",
-    description: "Seven Pilates gifts under $50 on an Amazon Black Friday Deal: a Pilates ring, bands, grip socks, a foam roller, and a gym tote, up to 44% off.",
+    description: "Five Pilates gifts under $50 on an Amazon Black Friday Deal: a Pilates ring, bands, grip socks, a foam roller, and a gym tote, up to 44% off.",
     images: [HERO_IMAGE],
   },
   alternates: { canonical: PAGE_URL },
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
 const GUIDE: DealsGuideProps = {
   "slug": "black-friday-pilates-gifts-under-50",
   "title": "Pilates Gifts Under $50: Black Friday 2026 Picks",
-  "description": "Seven Pilates gifts under $50 on an Amazon Black Friday Deal: a Pilates ring, bands, grip socks, a foam roller, and a gym tote, up to 44% off.",
+  "description": "Five Pilates gifts under $50 on an Amazon Black Friday Deal: a Pilates ring, bands, grip socks, a foam roller, and a gym tote, up to 44% off.",
   "breadcrumb": "Pilates Gifts Under $50",
   "eyebrow": "Gifts",
   "h1": "Pilates Gifts Under $50",
@@ -37,7 +37,7 @@ const GUIDE: DealsGuideProps = {
   "readTime": "6 min read",
   "heroImage": "/pictures/stitch-props-cork-ring.png",
   "heroAlt": "Pilates props including a ring: Pilates gifts under $50",
-  "intro": "Black Friday is the best moment to cross Pilates gifts off the list: small props and accessories are exactly what goes on sale. Here are seven useful gifts under $50 on an Amazon Black Friday Deal (prices checked November 24, 2026), grouped by budget. Buy early enough for delivery, and check each listing's holiday returns window.",
+  "intro": "Black Friday is the best moment to cross Pilates gifts off the list: small props and accessories are exactly what goes on sale. Here are five useful gifts under $50 on an Amazon Black Friday Deal (prices checked November 26, 2026), grouped by budget. Buy early enough for delivery, and check each listing's holiday returns window.",
   "sections": [
     {
       "id": "under-20",
@@ -60,10 +60,10 @@ const GUIDE: DealsGuideProps = {
           "name": "THERABAND Resistance Bands Set (Beginner Kit)",
           "badge": "Home workout",
           "note": "THERABAND's beginner kit: three 5 ft flat bands in yellow, red and green, rising from about 3 to 6.7 lb of resistance. They are non-latex, so safe for latex allergies, and they fold into a bag pocket. Good for Pilates arm series, rehab and travel workouts. Sold by Amazon.com.",
-          "price": "$10.45",
+          "price": "$9.78",
           "wasPrice": "$13.71",
           "wasLabel": "List",
-          "pctOff": 24,
+          "pctOff": 29,
           "amazonDeal": true
         },
         {
@@ -75,17 +75,6 @@ const GUIDE: DealsGuideProps = {
           "wasPrice": "$19.99",
           "wasLabel": "List",
           "pctOff": 44,
-          "amazonDeal": true
-        },
-        {
-          "asin": "B07CQM36X3",
-          "name": "Ozaiic Pilates Grip Socks (Cotton, Full Cushion Sole)",
-          "badge": "Cushioned socks",
-          "note": "Ballet-style grip socks in combed cotton with a fully cushioned sole and a strap across the top, per the listing. The grip covers the bottom of the sock, and one size fits women's US shoe sizes 5.5 to 11. Sold by Ozaiic.",
-          "price": "$11.84",
-          "wasPrice": "$13.99",
-          "wasLabel": "Was",
-          "pctOff": 15,
           "amazonDeal": true
         }
       ]
@@ -105,18 +94,6 @@ const GUIDE: DealsGuideProps = {
           "wasLabel": "List",
           "pctOff": 32,
           "amazonDeal": true
-        },
-        {
-          "asin": "B07QHNDHW3",
-          "name": "toesox Low Rise Grip Socks (Full Toe, 2-Pack)",
-          "badge": "Studio favorite",
-          "note": "Five-toe grip socks from toesox, a grip sock brand with over 20 years in studios. The separate toes let your feet spread naturally on the reformer footbar or a Lagree platform, and the patented non-slip sole holds on wood floors and mats. The low-rise cut sits below the ankle bone, and the knit is mostly organic cotton (77% cotton). Two pairs per pack, sold by The Active Footwear Store; stock was low when we checked.",
-          "price": "$25.50",
-          "wasPrice": "$30.00",
-          "wasLabel": "List",
-          "pctOff": 15,
-          "amazonDeal": true,
-          "lowStock": true
         },
         {
           "asin": "B0B1VFNFL1",
@@ -157,7 +134,7 @@ const GUIDE: DealsGuideProps = {
     },
     {
       "q": "Will these be cheaper on Black Friday?",
-      "a": "They already are: all seven gifts here are on an Amazon Black Friday Deal, marked with the saving Amazon reports. The deals run through November 30."
+      "a": "They already are: all five gifts here are on an Amazon Black Friday Deal, marked with the saving Amazon reports. The deals run through November 30."
     }
   ],
   "guides": [

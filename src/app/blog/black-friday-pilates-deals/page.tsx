@@ -42,7 +42,7 @@ const GUIDE: DealsGuideProps = {
     {
       "id": "best-deals",
       "title": "Biggest deals right now",
-      "intro": "The eight largest savings Amazon was showing on Pilates, recovery, Lagree and spin gear on November 19, 2026, all badged Black Friday Deal and running through November 30. Each saving is Amazon's own figure, measured against the list or recent price shown.",
+      "intro": "Seven of the bigger savings Amazon is showing on the gear we track, checked on November 26, 2026, all badged Black Friday Deal and running through November 30. Each saving is Amazon's own figure, measured against the list or recent price shown.",
       "items": [
         {
           "asin": "B086HNGNFZ",
@@ -54,18 +54,6 @@ const GUIDE: DealsGuideProps = {
           "wasLabel": "List",
           "pctOff": 44,
           "amazonDeal": true
-        },
-        {
-          "asin": "B0CLBFJRW3",
-          "name": "Sunny Health & Fitness Smart Pro Exercise Bike",
-          "badge": "Step-up pick",
-          "note": "A studio-style spin bike with a 40 lb chrome flywheel, a quiet belt drive and stepless felt-pad resistance (push the knob down to stop quickly). The seat adjusts four ways and the handlebars two ways, for inseams from 29\" to 41\". It works with the free SunnyFit app's trainer-led rides. Sold by Amazon.com; stock was limited when we checked.",
-          "price": "$259.99",
-          "wasPrice": "$399.99",
-          "wasLabel": "Was",
-          "pctOff": 35,
-          "amazonDeal": true,
-          "lowStock": true
         },
         {
           "asin": "B0B1VFNFL1",
@@ -127,10 +115,10 @@ const GUIDE: DealsGuideProps = {
           "name": "THERABAND Resistance Bands Set (Beginner Kit)",
           "badge": "Best bands",
           "note": "THERABAND's beginner kit: three 5 ft flat bands in yellow, red and green, rising from about 3 to 6.7 lb of resistance. They are non-latex, so safe for latex allergies, and they fold into a bag pocket. Good for Pilates arm series, rehab and travel workouts. Sold by Amazon.com.",
-          "price": "$10.45",
+          "price": "$9.78",
           "wasPrice": "$13.71",
           "wasLabel": "List",
-          "pctOff": 24,
+          "pctOff": 29,
           "amazonDeal": true
         }
       ]
@@ -150,18 +138,6 @@ const GUIDE: DealsGuideProps = {
           "wasLabel": "List",
           "pctOff": 15,
           "amazonDeal": true
-        },
-        {
-          "asin": "B07QHNDHW3",
-          "name": "toesox Low Rise Grip Socks (Full Toe, 2-Pack)",
-          "badge": "Studio favorite socks",
-          "note": "Five-toe grip socks from toesox, a grip sock brand with over 20 years in studios. The separate toes let your feet spread naturally on the reformer footbar or a Lagree platform, and the patented non-slip sole holds on wood floors and mats. The low-rise cut sits below the ankle bone, and the knit is mostly organic cotton (77% cotton). Two pairs per pack, sold by The Active Footwear Store; stock was low when we checked.",
-          "price": "$25.50",
-          "wasPrice": "$30.00",
-          "wasLabel": "List",
-          "pctOff": 15,
-          "amazonDeal": true,
-          "lowStock": true
         }
       ]
     }
@@ -191,11 +167,11 @@ const GUIDE: DealsGuideProps = {
     },
     {
       "q": "Do Pilates reformers go on sale for Black Friday?",
-      "a": "Budget and mid-range home reformers do: on November 24, 2026, five PAETA and DELAVIN machines were on an Amazon Black Friday Deal. Premium studio brands discount less often, and none was on a deal that day. Our reformer deals guide lists the four."
+      "a": "Budget and mid-range home reformers do: on November 26, 2026, five PAETA and DELAVIN machines were on an Amazon Black Friday Deal. Premium studio brands discount less often, and none was on a deal that day. Our reformer deals guide lists the four."
     },
     {
       "q": "Are the prices on this page Black Friday prices?",
-      "a": "Yes. Every item here is on an Amazon Black Friday Deal, at Amazon's price on November 24, 2026; the event runs through November 30. Prices can change at any time, so check the listing before you buy."
+      "a": "Yes. Every item here is on an Amazon Black Friday Deal, at Amazon's price on November 26, 2026; the event runs through November 30. Prices can change at any time, so check the listing before you buy."
     },
     {
       "q": "What Pilates gear is most likely to be discounted?",

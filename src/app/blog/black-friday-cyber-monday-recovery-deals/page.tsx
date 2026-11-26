@@ -10,7 +10,7 @@ const HERO = "/pictures/stitch-studio-bench-towels.png";
 const TITLE = "Black Friday & Cyber Monday Recovery Deals (2026)";
 const DESCRIPTION = "Normatec, Therabody JetBoots and Theragun Black Friday and Cyber Monday deals live on Amazon, up to 21% off, with current prices.";
 
-// Live Amazon prices and deals (Creators API, November 24, 2026). These override the gift catalog
+// Live Amazon prices and deals (Creators API, November 26, 2026). These override the gift catalog
 // for this page only; the catalog itself keeps the prices its other pages were checked against.
 const DEAL = { badge: "Black Friday Deal", endsIso: BF_DEALS_END_ISO };
 const LIVE: Partial<Record<GiftKey, Partial<GuideItem>>> = {

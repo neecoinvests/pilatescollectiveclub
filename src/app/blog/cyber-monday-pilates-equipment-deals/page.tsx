@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   }
 };
 
-// Prices are the live Amazon prices checked on November 24, 2026 (Creators API), with Amazon's deal badges.
+// Prices are the live Amazon prices checked on November 26, 2026 (Creators API), with Amazon's deal badges.
 const GUIDE: DealsGuideProps = {
   "slug": "cyber-monday-pilates-equipment-deals",
   "title": "Cyber Monday Pilates Equipment Deals 2026",
@@ -70,7 +70,10 @@ const GUIDE: DealsGuideProps = {
           "name": "Gaiam Premium Yoga Mat (6mm)",
           "badge": "Best budget mat",
           "note": "A 6mm printed mat that is thick enough for rolling work.",
-          "price": "$39.99"
+          "price": "$24.48",
+          "wasPrice": "$31.99",
+          "wasLabel": "List",
+          "pctOff": 23
         },
         {
           "asin": "B0000DZFXZ",
@@ -151,10 +154,10 @@ const GUIDE: DealsGuideProps = {
           "name": "THERABAND Resistance Bands Set (Beginner Kit)",
           "badge": "Best bands",
           "note": "THERABAND's beginner set in three resistances.",
-          "price": "$10.45",
+          "price": "$9.78",
           "wasPrice": "$13.71",
           "wasLabel": "List",
-          "pctOff": 24,
+          "pctOff": 29,
           "amazonDeal": true
         },
         {
@@ -265,7 +268,7 @@ const GUIDE: DealsGuideProps = {
   "watchFor": [
     {
       "h": "Check what the saving is measured against.",
-      "b": "Each product shows its Amazon price on November 24, 2026, plus the List or Was price Amazon compares it with. 'Was' is Amazon's recent selling price; 'List' is set by the seller and can be higher than the item usually sells for."
+      "b": "Each product shows its Amazon price on November 26, 2026, plus the List or Was price Amazon compares it with. 'Was' is Amazon's recent selling price; 'List' is set by the seller and can be higher than the item usually sells for."
     },
     {
       "h": "Black Friday and Cyber Monday often overlap.",
@@ -287,7 +290,7 @@ const GUIDE: DealsGuideProps = {
     },
     {
       "q": "Are these Cyber Monday prices?",
-      "a": "Partly. Amazon's Black Friday and Cyber Monday event started on November 19 and runs through November 30, 2026. Items marked Black Friday Deal show Amazon's event price on November 24; the others show their regular Amazon price that day. Prices can change at any time, so check the listing before you buy."
+      "a": "Partly. Amazon's Black Friday and Cyber Monday event started on November 19 and runs through November 30, 2026. Items marked Black Friday Deal show Amazon's event price on November 26; the others show their regular Amazon price that day. Prices can change at any time, so check the listing before you buy."
     },
     {
       "q": "What Pilates equipment do I need at home?",

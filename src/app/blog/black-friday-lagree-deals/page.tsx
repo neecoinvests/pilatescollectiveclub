@@ -37,7 +37,7 @@ const GUIDE: DealsGuideProps = {
   "readTime": "6 min read",
   "heroImage": "/pictures/stitch-reformer-spring-detail.png",
   "heroAlt": "Springs on a carriage machine: Lagree Micro Black Friday deals",
-  "intro": "The Micro is Lagree Fitness's own home machine, and it is sold by Lagree Fitness on Amazon along with its three add-ons. Whether the brand runs a Black Friday price is up to Lagree Fitness, so here is exactly what each piece cost on November 24, 2026, plus the home-setup gear around it that is far more likely to be discounted.",
+  "intro": "The Micro is Lagree Fitness's own home machine, and it is sold by Lagree Fitness on Amazon along with its three add-ons. Whether the brand runs a Black Friday price is up to Lagree Fitness, so here is exactly what each piece cost on November 26, 2026, plus the home-setup gear around it that is far more likely to be discounted.",
   "sections": [
     {
       "id": "micro",
@@ -85,10 +85,10 @@ const GUIDE: DealsGuideProps = {
           "name": "Marcy Equipment Mat & Floor Protector (78\" x 36\")",
           "badge": "Floor mat: Micro only",
           "note": "A 78\" x 36\" mat of 1/4\" EVA foam that goes under the Micro to protect your floor, cut vibration and noise, and stop the machine from creeping. At 78\" it covers the Micro on its own (72\"), but not with the rear platform fitted (81.5\"). Sold by Amazon.com.",
-          "price": "$25.49",
+          "price": "$24.49",
           "wasPrice": "$29.99",
           "wasLabel": "List",
-          "pctOff": 15,
+          "pctOff": 18,
           "amazonDeal": true
         },
         {
@@ -136,7 +136,7 @@ const GUIDE: DealsGuideProps = {
   "faqs": [
     {
       "q": "Does the Lagree Micro go on sale for Black Friday?",
-      "a": "That depends on Lagree Fitness, which sells the Micro on Amazon. On November 24, 2026, the Micro was not part of Amazon's Black Friday deals, so check the listing for the current price."
+      "a": "That depends on Lagree Fitness, which sells the Micro on Amazon. On November 26, 2026, the Micro was not part of Amazon's Black Friday deals, so check the listing for the current price."
     },
     {
       "q": "Can you buy a Megaformer on Black Friday?",

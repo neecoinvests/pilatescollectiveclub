@@ -37,7 +37,7 @@ const GUIDE: DealsGuideProps = {
   "readTime": "7 min read",
   "heroImage": "/pictures/stitch-grip-socks-footbar.png",
   "heroAlt": "Grip socks on a machine: Lagree clothing and gear Black Friday deals",
-  "intro": "Lagree eats through grip socks, towels and fitted kit faster than almost any class, which makes Black Friday the time to stock up. Here are the seven pieces for Megaformer regulars, men and women, on an Amazon Black Friday Deal on November 24, 2026, each with the saving Amazon reports.",
+  "intro": "Lagree eats through grip socks, towels and fitted kit faster than almost any class, which makes Black Friday the time to stock up. Here are the six pieces for Megaformer regulars, men and women, on an Amazon Black Friday Deal on November 26, 2026, each with the saving Amazon reports.",
   "sections": [
     {
       "id": "socks-hands",
@@ -45,26 +45,14 @@ const GUIDE: DealsGuideProps = {
       "intro": "The consumables of Lagree: buy them in bulk when they are discounted.",
       "items": [
         {
-          "asin": "B07QHNDHW3",
-          "name": "toesox Low Rise Grip Socks (Full Toe, 2-Pack)",
-          "badge": "Best grip socks",
-          "note": "Five-toe grip socks from toesox, a grip sock brand with over 20 years in studios. The separate toes let your feet spread naturally on the reformer footbar or a Lagree platform, and the patented non-slip sole holds on wood floors and mats. The low-rise cut sits below the ankle bone, and the knit is mostly organic cotton (77% cotton). Two pairs per pack, sold by The Active Footwear Store; stock was low when we checked.",
-          "price": "$25.50",
-          "wasPrice": "$30.00",
-          "wasLabel": "List",
-          "pctOff": 15,
-          "amazonDeal": true,
-          "lowStock": true
-        },
-        {
           "asin": "B0F626LL9W",
           "name": "CoolMate Men's Grip Socks (4 Pairs)",
           "badge": "Best men's socks",
           "note": "Four pairs of men's ankle grip socks, sized properly for men's feet in US 6 to 10 and 10 to 13 (check the size chart, as most grip socks run small). Silicone grip dots cover the sole and elastic arch threads help hold the sock in place. The cotton-poly knit has a reinforced toe and is machine washable. At around $3 a pair, this is the cheapest way to stock a man's sock drawer for weekly classes.",
           "price": "$12.10",
-          "wasPrice": "$14.99",
-          "wasLabel": "Was",
-          "pctOff": 19,
+          "wasPrice": "$17.99",
+          "wasLabel": "List",
+          "pctOff": 33,
           "amazonDeal": true
         },
         {

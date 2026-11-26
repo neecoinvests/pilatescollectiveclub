@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   }
 };
 
-// Prices are the live Amazon prices checked on November 24, 2026 (Creators API), with Amazon's deal badges.
+// Prices are the live Amazon prices checked on November 26, 2026 (Creators API), with Amazon's deal badges.
 const GUIDE: DealsGuideProps = {
   "slug": "cyber-monday-pilates-clothing-deals",
   "title": "Cyber Monday Pilates Clothing Deals 2026",
@@ -187,11 +187,7 @@ const GUIDE: DealsGuideProps = {
           "name": "toesox Low Rise Grip Socks (2-Pack)",
           "badge": "Best full-toe",
           "note": "toesox's full-toe grip socks, 2-pack.",
-          "price": "$25.50",
-          "wasPrice": "$30.00",
-          "wasLabel": "List",
-          "pctOff": 15,
-          "amazonDeal": true,
+          "price": "$30.00",
           "lowStock": true
         },
         {
@@ -211,9 +207,9 @@ const GUIDE: DealsGuideProps = {
           "badge": "Best for men",
           "note": "Four pairs of men's grip socks.",
           "price": "$12.10",
-          "wasPrice": "$14.99",
-          "wasLabel": "Was",
-          "pctOff": 19,
+          "wasPrice": "$17.99",
+          "wasLabel": "List",
+          "pctOff": 33,
           "amazonDeal": true
         },
         {
@@ -236,17 +232,6 @@ const GUIDE: DealsGuideProps = {
           "wasLabel": "Was",
           "pctOff": 34,
           "amazonDeal": true
-        },
-        {
-          "asin": "B07CQM36X3",
-          "name": "Ozaiic Pilates Grip Socks (Cotton, Full Cushion Sole)",
-          "badge": "Best cotton socks",
-          "note": "Ballet-style grip socks in combed cotton with a fully cushioned sole and a strap across the top, per the listing. The grip covers the bottom of the sock, and one size fits women's US shoe sizes 5.5 to 11. Sold by Ozaiic.",
-          "price": "$11.84",
-          "wasPrice": "$13.99",
-          "wasLabel": "Was",
-          "pctOff": 15,
-          "amazonDeal": true
         }
       ]
     }
@@ -254,7 +239,7 @@ const GUIDE: DealsGuideProps = {
   "watchFor": [
     {
       "h": "Check what the saving is measured against.",
-      "b": "Each product shows its Amazon price on November 24, 2026, plus the List or Was price Amazon compares it with. 'Was' is Amazon's recent selling price; 'List' is set by the seller and can be higher than the item usually sells for."
+      "b": "Each product shows its Amazon price on November 26, 2026, plus the List or Was price Amazon compares it with. 'Was' is Amazon's recent selling price; 'List' is set by the seller and can be higher than the item usually sells for."
     },
     {
       "h": "Black Friday and Cyber Monday often overlap.",
@@ -280,7 +265,7 @@ const GUIDE: DealsGuideProps = {
     },
     {
       "q": "Are these Cyber Monday prices?",
-      "a": "Partly. Amazon's Black Friday and Cyber Monday event started on November 19 and runs through November 30, 2026. Items marked Black Friday Deal show Amazon's event price on November 24; the others show their regular Amazon price that day. Prices can change at any time, so check the listing before you buy."
+      "a": "Partly. Amazon's Black Friday and Cyber Monday event started on November 19 and runs through November 30, 2026. Items marked Black Friday Deal show Amazon's event price on November 26; the others show their regular Amazon price that day. Prices can change at any time, so check the listing before you buy."
     },
     {
       "q": "What should I wear to a Pilates class?",

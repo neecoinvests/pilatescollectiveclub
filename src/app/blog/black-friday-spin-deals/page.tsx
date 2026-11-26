@@ -6,11 +6,11 @@ const HERO_IMAGE = "https://pilatescollectiveclub.com/pictures/stitch-studio-mod
 
 export const metadata: Metadata = {
   title: "Spin Bike & Indoor Cycling Black Friday Deals 2026",
-  description: "Spin bike Black Friday 2026: two Sunny smart bikes up to 35% off, plus COOSPO cadence and heart rate sensors, all on Amazon Black Friday Deals.",
+  description: "Spin bike Black Friday 2026: a Sunny smart bike 33% off, plus COOSPO cadence and heart rate sensors, all on Amazon Black Friday Deals.",
   keywords: ["spin bike black friday", "indoor cycling bike black friday", "exercise bike black friday 2026", "schwinn ic4 black friday", "cycling shoes black friday", "peloton alternative black friday", "spin class gear deals", "cyber monday exercise bike"],
   openGraph: {
     title: "Spin Bike & Indoor Cycling Black Friday Deals 2026",
-    description: "Spin bike Black Friday 2026: two Sunny smart bikes up to 35% off, plus COOSPO cadence and heart rate sensors, all on Amazon Black Friday Deals.",
+    description: "Spin bike Black Friday 2026: a Sunny smart bike 33% off, plus COOSPO cadence and heart rate sensors, all on Amazon Black Friday Deals.",
     type: "article",
     url: PAGE_URL,
     images: [{ url: HERO_IMAGE, width: 1200, height: 630, alt: "A modern studio: spin and indoor cycling Black Friday deals" }],
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Spin Bike & Indoor Cycling Black Friday Deals 2026",
-    description: "Spin bike Black Friday 2026: two Sunny smart bikes up to 35% off, plus COOSPO cadence and heart rate sensors, all on Amazon Black Friday Deals.",
+    description: "Spin bike Black Friday 2026: a Sunny smart bike 33% off, plus COOSPO cadence and heart rate sensors, all on Amazon Black Friday Deals.",
     images: [HERO_IMAGE],
   },
   alternates: { canonical: PAGE_URL },
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
 const GUIDE: DealsGuideProps = {
   "slug": "black-friday-spin-deals",
   "title": "Spin Bike & Indoor Cycling Black Friday Deals 2026",
-  "description": "Spin bike Black Friday 2026: two Sunny smart bikes up to 35% off, plus COOSPO cadence and heart rate sensors, all on Amazon Black Friday Deals.",
+  "description": "Spin bike Black Friday 2026: a Sunny smart bike 33% off, plus COOSPO cadence and heart rate sensors, all on Amazon Black Friday Deals.",
   "breadcrumb": "Spin Black Friday Deals",
   "eyebrow": "Spin",
   "h1": "Spin & Indoor Cycling",
@@ -37,7 +37,7 @@ const GUIDE: DealsGuideProps = {
   "readTime": "7 min read",
   "heroImage": "/pictures/stitch-studio-modern-row.png",
   "heroAlt": "A modern studio: spin and indoor cycling Black Friday deals",
-  "intro": "Exercise bikes are one of Black Friday's most discounted fitness categories. Here are the indoor cycling buys on an Amazon Black Friday Deal on November 24, 2026: two Sunny smart bikes at 33% and 35% off, plus two COOSPO sensors. Amazon's event runs through November 30.",
+  "intro": "Exercise bikes are one of Black Friday's most discounted fitness categories. Here are the indoor cycling buys on an Amazon Black Friday Deal on November 26, 2026: a Sunny smart bike at 33% off, plus two COOSPO sensors. Amazon's event runs through November 30.",
   "sections": [
     {
       "id": "bikes",
@@ -54,18 +54,6 @@ const GUIDE: DealsGuideProps = {
           "wasLabel": "List",
           "pctOff": 33,
           "amazonDeal": true
-        },
-        {
-          "asin": "B0CLBFJRW3",
-          "name": "Sunny Health & Fitness Smart Pro Exercise Bike",
-          "badge": "Step-up pick",
-          "note": "A studio-style spin bike with a 40 lb chrome flywheel, a quiet belt drive and stepless felt-pad resistance (push the knob down to stop quickly). The seat adjusts four ways and the handlebars two ways, for inseams from 29\" to 41\". It works with the free SunnyFit app's trainer-led rides. Sold by Amazon.com; stock was limited when we checked.",
-          "price": "$259.99",
-          "wasPrice": "$399.99",
-          "wasLabel": "Was",
-          "pctOff": 35,
-          "amazonDeal": true,
-          "lowStock": true
         }
       ]
     },
@@ -120,11 +108,11 @@ const GUIDE: DealsGuideProps = {
   "faqs": [
     {
       "q": "Are exercise bikes cheaper on Black Friday?",
-      "a": "Exercise bikes are among the most discounted fitness products around Black Friday. The two Sunny bikes here are 33% and 35% off, as Amazon reports it."
+      "a": "Exercise bikes are among the most discounted fitness products around Black Friday. The Sunny bike here is 33% off, as Amazon reports it."
     },
     {
       "q": "What is a good Peloton alternative?",
-      "a": "Echelon and Schwinn's IC4 are the best-known alternatives, but neither was on an Amazon Black Friday Deal on November 19, 2026. The Sunny smart bikes on this page cost far less and are on a deal."
+      "a": "Echelon and Schwinn's IC4 are the best-known alternatives, but neither was on an Amazon Black Friday Deal on November 19, 2026. The Sunny smart bike on this page costs far less and is on a deal."
     },
     {
       "q": "Do I need cycling shoes for spin?",

@@ -6,11 +6,11 @@ const HERO_IMAGE = "https://pilatescollectiveclub.com/pictures/stitch-retail-act
 
 export const metadata: Metadata = {
   title: "Pilates Clothing Black Friday Deals 2026",
-  description: "Pilates clothing Black Friday 2026: leggings, bras and grip socks from CRZ YOGA, toesox, TAVI and Tucketts, all on a deal.",
+  description: "Pilates clothing Black Friday 2026: leggings, bras and grip socks from CRZ YOGA, TAVI and Tucketts, all on a deal.",
   keywords: ["pilates clothing black friday", "black friday leggings deals", "pilates leggings black friday", "grip socks black friday", "activewear black friday 2026", "varley black friday", "cyber monday activewear"],
   openGraph: {
     title: "Pilates Clothing Black Friday Deals 2026: Leggings, Bras & Socks",
-    description: "Pilates clothing Black Friday 2026: leggings, bras and grip socks from CRZ YOGA, toesox, TAVI and Tucketts, all on a deal.",
+    description: "Pilates clothing Black Friday 2026: leggings, bras and grip socks from CRZ YOGA, TAVI and Tucketts, all on a deal.",
     type: "article",
     url: PAGE_URL,
     images: [{ url: HERO_IMAGE, width: 1200, height: 630, alt: "Activewear on a rail: Pilates clothing Black Friday deals" }],
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Pilates Clothing Black Friday Deals 2026",
-    description: "Pilates clothing Black Friday 2026: leggings, bras and grip socks from CRZ YOGA, toesox, TAVI and Tucketts, all on a deal.",
+    description: "Pilates clothing Black Friday 2026: leggings, bras and grip socks from CRZ YOGA, TAVI and Tucketts, all on a deal.",
     images: [HERO_IMAGE],
   },
   alternates: { canonical: PAGE_URL },
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
 const GUIDE: DealsGuideProps = {
   "slug": "black-friday-pilates-clothing-deals",
   "title": "Pilates Clothing Black Friday Deals 2026: Leggings, Bras & Socks",
-  "description": "Pilates clothing Black Friday 2026: leggings, bras and grip socks from CRZ YOGA, toesox, TAVI and Tucketts, all on a deal.",
+  "description": "Pilates clothing Black Friday 2026: leggings, bras and grip socks from CRZ YOGA, TAVI and Tucketts, all on a deal.",
   "breadcrumb": "Pilates Clothing Black Friday Deals",
   "eyebrow": "Clothing",
   "h1": "Pilates Clothing Black Friday",
@@ -37,7 +37,7 @@ const GUIDE: DealsGuideProps = {
   "readTime": "7 min read",
   "heroImage": "/pictures/stitch-retail-activewear.png",
   "heroAlt": "Activewear on a rail: Pilates clothing Black Friday deals",
-  "intro": "Activewear is where Black Friday discounts are deepest and most frequent. Here are the nine Pilates pieces on an Amazon Black Friday Deal on November 24, 2026 (leggings, bras and tops, and grip socks), each with the saving Amazon reports.",
+  "intro": "Activewear is where Black Friday discounts are deepest and most frequent. Here are the seven Pilates pieces on an Amazon Black Friday Deal on November 26, 2026 (leggings, bras and tops, and grip socks), each with the saving Amazon reports.",
   "sections": [
     {
       "id": "leggings",
@@ -103,18 +103,6 @@ const GUIDE: DealsGuideProps = {
       "intro": "Most studios require them, and they are the easiest thing to stock up on during a sale.",
       "items": [
         {
-          "asin": "B07QHNDHW3",
-          "name": "toesox Low Rise Grip Socks (Full Toe, 2-Pack)",
-          "badge": "Studio favorite",
-          "note": "Five-toe grip socks from toesox, a grip sock brand with over 20 years in studios. The separate toes let your feet spread naturally on the reformer footbar or a Lagree platform, and the patented non-slip sole holds on wood floors and mats. The low-rise cut sits below the ankle bone, and the knit is mostly organic cotton (77% cotton). Two pairs per pack, sold by The Active Footwear Store; stock was low when we checked.",
-          "price": "$25.50",
-          "wasPrice": "$30.00",
-          "wasLabel": "List",
-          "pctOff": 15,
-          "amazonDeal": true,
-          "lowStock": true
-        },
-        {
           "asin": "B0GFPGMWWS",
           "name": "TAVI Stacy Slouch Pilates Socks (2-Pack)",
           "badge": "Most stylish",
@@ -143,17 +131,6 @@ const GUIDE: DealsGuideProps = {
           "note": "Six pairs of closed-toe grip socks with silicone dots across the sole, in a breathable mid-weight cotton blend. Closed toes are quicker to pull on than toe socks. Medium fits women's US 5 to 8; Large fits women's 8.5 to 11 or men's 6 to 9. At about a dollar a pair, they are the cheapest way to cover a week of classes.",
           "price": "$6.79",
           "wasPrice": "$7.99",
-          "wasLabel": "Was",
-          "pctOff": 15,
-          "amazonDeal": true
-        },
-        {
-          "asin": "B07CQM36X3",
-          "name": "Ozaiic Pilates Grip Socks (Cotton, Full Cushion Sole)",
-          "badge": "Best cotton socks",
-          "note": "Ballet-style grip socks in combed cotton with a fully cushioned sole and a strap across the top, per the listing. The grip covers the bottom of the sock, and one size fits women's US shoe sizes 5.5 to 11. Sold by Ozaiic.",
-          "price": "$11.84",
-          "wasPrice": "$13.99",
           "wasLabel": "Was",
           "pctOff": 15,
           "amazonDeal": true
